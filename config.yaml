@@ -18,7 +18,9 @@ run_every_minutes: 30
 guardrails:
   max_per_ticker_pct: 40         # no single ticker gets more than 40% of the week's budget (tracked across the week)
   min_order_usd: 5               # skip crumbs
-  max_daily_deploy_pct: 60       # never deploy more than 60% of the weekly budget in one day (tracked across the day's checks)
+  max_daily_deploy_pct: 100      # the whole week's budget may go to work in a single day (tracked across the day's checks).
+                                 # max_per_ticker_pct still forces it across at least 3 tickers, so 100% here means
+                                 # fully invested, not all-in on one name.
   max_orders_per_day: 24         # generous ceiling — it may trade as often as it needs; the dollar caps
                                  # below are the real risk control, this only stops runaway churn
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed

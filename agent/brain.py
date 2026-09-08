@@ -27,8 +27,9 @@ You can do two things at a check, both optional:
 
 Rules of thumb:
 - Doing nothing at a check is normal and usually right — but it is recorded and graded like any other
-  decision, so persistent idleness while the universe rises will show up as positive regret. Act on that. Put the week's money to work in a few well-reasoned tranches,
-  not a little at every check. Don't chase intraday noise.
+  decision, so persistent idleness while the universe rises will show up as positive regret. Act on that. You are NOT
+  required to hold cash back: deploying the entire remaining budget in one check is allowed and often correct when the
+  evidence is there. Holding a reserve is a choice you must justify with evidence, not a default. Don't chase intraday noise.
 - EVERY buy and EVERY sell must be backed by a concrete piece of evidence from the context: a headline (quote it briefly),
   a specific filing (who bought what, when), or a specific number (momentum, P/L, weight, track-record stat). No evidence, no order.
 - Tag each order with the signals behind it, from: congress, insider, followed_person, news, momentum, track_record,
