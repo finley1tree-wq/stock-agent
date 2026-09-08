@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-08T13:11-04:00",
- "note": "Already spent $240/$400 today across 7 names, all fresh (days_held=0) and most up 3-10% intraday. Portfolio is well diversified (semis, nuclear, defense-adjacent via NLR, index, real estate exposure via none but fine). Existing stops/trailing-stops/buy_limits on AMAT, NLR, CCJ, INTC, AMD, SPY are al",
+ "asOf": "2026-09-08T13:33-04:00",
+ "note": "All 7 positions are fresh (days_held=0) and most already popped 3-10% intraday (AMAT +3.4%, AMD +7%, INTC +10.4%, NLR +4%, CCJ +2.7%). Existing stops/trailing-stops/buy_limits already cover downside and let winners run; own lessons from today repeatedly confirm chasing more momentum at the same tick",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -85,8 +85,8 @@
    "usd": 20.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 767.67,
-   "pct_away": -1.65,
+   "last": 767.71,
+   "pct_away": -1.66,
    "good_until": "2026-09-12",
    "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
    "signals": [
@@ -102,8 +102,8 @@
    "usd": 15.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.54,
-   "pct_away": -3.9,
+   "last": 103.49,
+   "pct_away": -3.86,
    "good_until": "2026-09-12",
    "why": "Add to nuclear theme on a pullback rather than chasing at current price",
    "signals": [
@@ -120,8 +120,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 470.64,
-   "pct_away": -5.02,
+   "last": 470.26,
+   "pct_away": -4.95,
    "good_until": "2026-09-12",
    "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
@@ -136,8 +136,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 125.2,
-   "pct_away": -5.75,
+   "last": 124.71,
+   "pct_away": -5.38,
    "good_until": "2026-09-12",
    "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
    "signals": [
@@ -152,8 +152,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.54,
-   "pct_away": -6.32,
+   "last": 103.49,
+   "pct_away": -6.27,
    "good_until": "2026-09-12",
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
    "signals": [
@@ -164,11 +164,11 @@
    "id": "68402e49",
    "ticker": "INTC",
    "kind": "trailing_stop",
-   "price": 97.5016,
+   "price": 97.6027,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 105.63,
+   "last": 105.74,
    "pct_away": -7.7,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
@@ -181,12 +181,12 @@
    "id": "5a8628c1",
    "ticker": "AMD",
    "kind": "trailing_stop",
-   "price": 470.2211,
+   "price": 471.3683,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 509.83,
-   "pct_away": -7.77,
+   "last": 511.37,
+   "pct_away": -7.82,
    "good_until": "2026-09-12",
    "why": "Lock in protection on the biggest one-day mover in the book",
    "signals": [
@@ -195,23 +195,23 @@
    ]
   }
  ],
- "next_check_minutes": 60,
+ "next_check_minutes": 90,
  "allowed": [
   "AEP",
   "ALKS",
   "AMAT",
   "AMD",
   "AVGO",
-  "BCDA",
   "BE",
   "CCJ",
   "CRWD",
   "DIA",
+  "DXYZ",
   "EPAC",
   "FITB",
   "GLD",
+  "GMEX",
   "INTC",
-  "LILA",
   "LMT",
   "NEM",
   "NLR",
@@ -250,7 +250,7 @@
   ]
  },
  "learning": {
-  "decisions_recorded": 7,
+  "decisions_recorded": 8,
   "note": "not enough history to grade yet"
  },
  "congress_trades": [
@@ -999,6 +999,86 @@
  },
  "insider_trades": [
   {
+   "who": "HRT FINANCIAL LP",
+   "role": "10 percent owner",
+   "ticker": "TNON",
+   "type": "buy",
+   "shares": 1658,
+   "price": 3.98,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "HRT FINANCIAL LP",
+   "role": "10 percent owner",
+   "ticker": "TNON",
+   "type": "sell",
+   "shares": 1506,
+   "price": 3.7,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Prasad Sohail",
+   "role": "director, officer: President and CEO",
+   "ticker": "DXYZ",
+   "type": "buy",
+   "shares": 33000,
+   "price": 31.4,
+   "transaction_date": "2026-09-01",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Prasad Sohail",
+   "role": "director, officer: President and CEO",
+   "ticker": "DXYZ",
+   "type": "buy",
+   "shares": 13240,
+   "price": 31.53,
+   "transaction_date": "2026-09-02",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Prasad Sohail",
+   "role": "director, officer: President and CEO",
+   "ticker": "DXYZ",
+   "type": "buy",
+   "shares": 9760,
+   "price": 32.14,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Rizzuti Edward",
+   "role": "officer: EVP, Corp Dev, IR & Secretary",
+   "ticker": "ALG",
+   "type": "sell",
+   "shares": 2537,
+   "price": 174.68,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "HRT FINANCIAL LP",
+   "role": "10 percent owner",
+   "ticker": "GMEX",
+   "type": "buy",
+   "shares": 3839,
+   "price": 0.791,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "HRT FINANCIAL LP",
+   "role": "10 percent owner",
+   "ticker": "GMEX",
+   "type": "buy",
+   "shares": 3189,
+   "price": 0.772,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
    "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
    "role": "10 percent owner",
    "ticker": "TPL",
@@ -1377,80 +1457,11 @@
    "price": 39.211,
    "transaction_date": "2026-09-04",
    "filing_date": "2026-09-08"
-  },
-  {
-   "who": "Kandiah Gajakarnan Vibushanan",
-   "role": "director, officer: Chief Executive Officer",
-   "ticker": "RXT",
-   "type": "sell",
-   "shares": 498728,
-   "price": 3.21,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Ainscow Donald George",
-   "role": "officer: EVP, Gen Counsel, Secretary",
-   "ticker": "ASPI",
-   "type": "sell",
-   "shares": 23678,
-   "price": 3.89,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Ainscow Robert",
-   "role": "officer: COO",
-   "ticker": "ASPI",
-   "type": "sell",
-   "shares": 25000,
-   "price": 3.905,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "DE ANGOITIA ALFONSO",
-   "role": "director",
-   "ticker": "LILA",
-   "type": "buy",
-   "shares": 145490,
-   "price": 20.9999,
-   "transaction_date": "2026-08-31",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "DE ANGOITIA ALFONSO",
-   "role": "director",
-   "ticker": "LILA",
-   "type": "buy",
-   "shares": 17596,
-   "price": 20.649,
-   "transaction_date": "2026-09-01",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "DE ANGOITIA ALFONSO",
-   "role": "director",
-   "ticker": "LILA",
-   "type": "buy",
-   "shares": 313104,
-   "price": 20.9511,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Altman Peter",
-   "role": "director, officer: President and CEO",
-   "ticker": "BCDA",
-   "type": "buy",
-   "shares": 800,
-   "price": 1.09,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
   }
  ],
  "insider_pressure": {
-  "LILA": 3.0,
+  "DXYZ": 3.0,
+  "GMEX": 2.0,
   "CZNC": 2.0,
   "ECF": 2.0,
   "SHMD": 2.0,
@@ -1463,13 +1474,12 @@
   "NTST": 1.0,
   "NMTC": 1.0,
   "OBIO": 1.0,
-  "BCDA": 1.0,
+  "TNON": 0.0,
+  "ALG": -1.0,
   "RARE": -1.0,
   "CFFI": -1.0,
   "WTS": -1.0,
-  "DRS": -1.0,
-  "DHT": -1.0,
-  "AFL": -1.0
+  "DRS": -1.0
  },
  "headlines": {
   "AEP": [
@@ -1525,6 +1535,11 @@
   ],
   "AMD": [
    {
+    "title": "TSMC, IBD Stock Of The Day, Rises Above Early Buy Point As Chip Stocks Rally",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-08T17:01"
+   },
+   {
     "title": "AMD shares surge as chipmaker eyes $2 trillion AI market",
     "source": "Investing.com",
     "when": "2026-09-08T16:50"
@@ -1533,45 +1548,23 @@
     "title": "Intel Could Be Set to Raise Prices, Again. The Stock Is Soaring",
     "source": "Investopedia",
     "when": "2026-09-08T15:51"
-   },
-   {
-    "title": "Advanced Micro Devices Sees AI Boom Fueling MI450, Helios and Server CPU Growth",
-    "source": "MarketBeat",
-    "when": "2026-09-08T15:02"
    }
   ],
   "AVGO": [
    {
+    "title": "Jim Cramer picks Nvidia and Broadcom as OpenAI GPT-6 Astra winners",
+    "source": "Quartz",
+    "when": "2026-09-08T17:18"
+   },
+   {
+    "title": "TSMC, IBD Stock Of The Day, Rises Above Early Buy Point As Chip Stocks Rally",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-08T17:01"
+   },
+   {
     "title": "Intel Could Be Set to Raise Prices, Again. The Stock Is Soaring",
     "source": "Investopedia",
     "when": "2026-09-08T15:51"
-   },
-   {
-    "title": "Amazon Just Handed Qualcomm a Slice of AWS\u2019s AI Buildout",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:56"
-   },
-   {
-    "title": "Cathie Wood Just Went Bargain Hunting. Here Are the 3 AI Stocks She Bought.",
-    "source": "Motley Fool",
-    "when": "2026-09-08T14:52"
-   }
-  ],
-  "BCDA": [
-   {
-    "title": "BioCardia (BCDA) Q2 2026 Earnings Call Transcript",
-    "source": "Motley Fool",
-    "when": "2026-08-19T22:28"
-   },
-   {
-    "title": "BioCardia Inc (BCDA) (Q2 2026) Earnings Call Highlights: Regulatory Wins in Japan and US ...",
-    "source": "GuruFocus.com",
-    "when": "2026-08-13T05:04"
-   },
-   {
-    "title": "BioCardia, Inc. Q2 2026 Earnings Call Summary",
-    "source": "Moby",
-    "when": "2026-08-13T01:00"
    }
   ],
   "BE": [
@@ -1642,6 +1635,23 @@
     "when": "2026-09-04T22:18"
    }
   ],
+  "DXYZ": [
+   {
+    "title": "Retail Investors Are Chasing Anthropic Before an IPO. Does Destiny Tech100 Offer Exposure or a Premium Trap?",
+    "source": "Insider Monkey",
+    "when": "2026-09-05T05:56"
+   },
+   {
+    "title": "Look Out Below When the Price Isn\u2019t Right",
+    "source": "The Wall Street Journal",
+    "when": "2026-07-16T10:43"
+   },
+   {
+    "title": "SpaceX Was Just the Beginning\u20142 More Massive IPOs Are on Deck",
+    "source": "MarketBeat",
+    "when": "2026-06-21T11:30"
+   }
+  ],
   "EPAC": [
    {
     "title": "LECO Q2 Earnings Beat on Organic Sales Growth, Stock Jumps 8%",
@@ -1693,7 +1703,24 @@
     "when": "2026-09-05T14:00"
    }
   ],
+  "GMEX": [
+   {
+    "title": "1 High-Yield Dividend Stock Worth Loading Up On Right Now",
+    "source": "Motley Fool",
+    "when": "2026-08-25T20:25"
+   },
+   {
+    "title": "GMEX Robotics Signs Letter of Intent for AI Platform Acquisition Focused on Social Intelligence",
+    "source": "InvestorsHub",
+    "when": "2026-07-14T14:41"
+   }
+  ],
   "GOOGN": [
+   {
+    "title": "Australia Targets Meta's Jugular: Hyper-Personal Social Feeds",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-08T17:12"
+   },
    {
     "title": "Cloud Capex to Cash: AWS Wins This Way, Alphabet Wins Another Way",
     "source": "24/7 Wall St.",
@@ -1703,45 +1730,23 @@
     "title": "Beyond Social: Meta Is Buying the Future of Compute So I\u2019m Buying It",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T14:43"
-   },
-   {
-    "title": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:30"
    }
   ],
   "INTC": [
    {
-    "title": "ASML Shares Jump on Breakthrough Chipmaking Plans With Intel and TSMC",
+    "title": "Intel Stock Jumps on Major Analyst Upgrade",
     "source": "GuruFocus.com",
-    "when": "2026-09-08T17:00"
+    "when": "2026-09-08T17:26"
    },
    {
-    "title": "Intel's 8% Jump Adds $39 Billion as High-NA Hits One Million Wafers",
+    "title": "Intel planning another 10% PC chip price hike in October",
+    "source": "Quartz",
+    "when": "2026-09-08T17:22"
+   },
+   {
+    "title": "Intel Stock Rises 5% on Reported 10% CPU Price Increase",
     "source": "GuruFocus.com",
-    "when": "2026-09-08T16:55"
-   },
-   {
-    "title": "Update: US Equity Indexes Fall as Strikes on Saudi Arabian Energy Sites Send Crude Oil Higher",
-    "source": "MT Newswires",
-    "when": "2026-09-08T16:39"
-   }
-  ],
-  "LILA": [
-   {
-    "title": "Billionaire Media Titan John Malone Buys 121,000 Liberty Latin America Shares. Should Investors Be Buyers Too?",
-    "source": "Motley Fool",
-    "when": "2026-09-03T20:45"
-   },
-   {
-    "title": "Liberty Latin America (LILA) Stock Could Be Undervalued On Its 39% Five Year Fall",
-    "source": "Simply Wall St.",
-    "when": "2026-08-26T19:09"
-   },
-   {
-    "title": "Liberty Latin America (LILA) Gains Renewed Attention As Its Valuation Story Comes Back Into Focus",
-    "source": "Simply Wall St.",
-    "when": "2026-08-26T08:17"
+    "when": "2026-09-08T17:21"
    }
   ],
   "LMT": [
@@ -1848,6 +1853,11 @@
   ],
   "O": [
    {
+    "title": "Is Realty Income's 5.3% Yield Still Compelling? Buy or Hold the Stock?",
+    "source": "Zacks",
+    "when": "2026-09-08T17:14"
+   },
+   {
     "title": "Here\u2019s How Much You Need Invested to Collect $1,000 a Month in Dividends",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T15:11"
@@ -1856,11 +1866,6 @@
     "title": "5 Magnificent Dividend Stocks to Buy in September (1 Yields 5.3%)",
     "source": "Motley Fool",
     "when": "2026-09-08T15:05"
-   },
-   {
-    "title": "5 Monthly Dividend Stocks Built to Keep the Checks Coming",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:45"
    }
   ],
   "OBIO": [
@@ -1916,6 +1921,11 @@
   ],
   "PLTR": [
    {
+    "title": "Palantir Names Nebius Its Preferred Sovereign AI Partner",
+    "source": "GuruFocus.com",
+    "when": "2026-09-08T17:23"
+   },
+   {
     "title": "Update: US Equity Indexes Fall as Strikes on Saudi Arabian Energy Sites Send Crude Oil Higher",
     "source": "MT Newswires",
     "when": "2026-09-08T16:39"
@@ -1924,11 +1934,6 @@
     "title": "This Could Be the AI Stock That Keeps Surprising Wall Street",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T16:30"
-   },
-   {
-    "title": "EXCLUSIVE: Anthropic IPO Could Be \u2018Heavily Oversubscribed,\u2019 IPO Adviser Says",
-    "source": "Benzinga Private Markets",
-    "when": "2026-09-08T16:22"
    }
   ],
   "PRAX": [
@@ -2018,19 +2023,19 @@
   ],
   "SPY": [
    {
+    "title": "Amgen Falls 10% as Novartis Trial Failure Clouds a Cholesterol Drug Class; NVS Stock Drops 14%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T17:08"
+   },
+   {
+    "title": "Prediction: This ETF Will Beat the SPY Through 2027 (Not the QQQ!)",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T17:05"
+   },
+   {
     "title": "Enphase Energy Rises 5% as Solid-State Transformer Modules Enter Texas Production, SolarEdge Jumps 6%",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T16:49"
-   },
-   {
-    "title": "AMC Falls 5%, Robinhood Barely Budges: Is the Tokenization Bounce Already Over?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T16:05"
-   },
-   {
-    "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T15:58"
    }
   ],
   "TPL": [
@@ -2086,5 +2091,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-08T13:11-04:00"
+ "signalsAsOf": "2026-09-08T13:33-04:00"
 }
