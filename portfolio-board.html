@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Board</title>
+<style>
+  :root{
+    --paper:#F2F3EF; --ink:#17201C; --mute:#6B736E; --line:#D8DBD5; --card:#FFFFFF;
+    --up:#1F7A4D; --down:#B3372B;
+    --defense:#3D5A80; --gold:#B8860B; --index:#4A4A4A; --realestate:#9B4F2E; --nuclear:#2E8B57; --custom:#6A5ACD;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.35;-webkit-font-smoothing:antialiased}
+  body{padding:env(safe-area-inset-top) 0 calc(24px + env(safe-area-inset-bottom));max-width:520px;margin:0 auto}
+  header{display:flex;align-items:flex-end;justify-content:space-between;padding:20px 18px 10px}
+  h1{font-size:34px;font-weight:800;letter-spacing:-0.03em;line-height:1}
+  .stamp{font-size:13px;color:var(--mute);margin-top:6px}
+  button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+  .refresh{width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--paper);font-size:20px;line-height:40px;text-align:center}
+  .refresh.spin svg{animation:spin .9s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.refresh.spin svg{animation:none}}
+  .tabs{display:flex;gap:8px;overflow-x:auto;padding:6px 18px 14px;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{white-space:nowrap;padding:8px 14px;border-radius:999px;border:1.5px solid var(--line);font-size:14px;font-weight:600;color:var(--mute);background:var(--card)}
+  .tab.on{color:#fff;border-color:transparent}
+  section{margin:0 18px 26px}
+  h2{font-size:18px;font-weight:700;letter-spacing:-0.01em;margin-bottom:10px;display:flex;justify-content:space-between;align-items:baseline}
+  h2 small{font-size:13px;font-weight:500;color:var(--mute)}
+  .list{background:var(--card);border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .row{display:grid;grid-template-columns:5px 1fr auto;align-items:center;gap:0 12px;border-bottom:1px solid var(--line);min-height:58px}
+  .row:last-child{border-bottom:0}
+  .bar{height:100%;align-self:stretch}
+  .name{padding:9px 0}
+  .t{font-weight:700;font-size:16px}
+  .n{font-size:13px;color:var(--mute)}
+  .px{text-align:right;padding-right:14px;font-variant-numeric:tabular-nums}
+  .p{font-weight:600;font-size:16px}
+  .c{font-size:13px;font-weight:600}
+  .c.up{color:var(--up)} .c.down{color:var(--down)} .c.flat{color:var(--mute)}
+  .skel{color:var(--line)}
+  .rm{color:var(--mute);font-size:18px;padding:0 6px 0 0}
+  .addrow{display:flex;gap:8px;margin-top:10px}
+  .addrow input{flex:1;font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);text-transform:uppercase}
+  .btn{padding:10px 16px;border-radius:10px;background:var(--ink);color:var(--paper);font-weight:600;font-size:15px}
+  .btn.ghost{background:var(--card);color:var(--ink);border:1.5px solid var(--line)}
+  .btn:disabled{opacity:.5}
+  .trade{display:flex;justify-content:space-between;gap:12px;padding:12px 14px;border-bottom:1px solid var(--line)}
+  .trade:last-child{border-bottom:0}
+  .who{font-weight:700;font-size:15px}
+  .meta{font-size:13px;color:var(--mute);margin-top:2px}
+  .side{font-weight:700;font-size:14px;white-space:nowrap;text-align:right}
+  .side .amt{display:block;font-weight:500;font-size:12px;color:var(--mute)}
+  .buy{color:var(--up)} .sell{color:var(--down)}
+  .empty{padding:18px 14px;color:var(--mute);font-size:14px}
+  .alloc{display:flex;gap:8px;align-items:center;margin-bottom:10px}
+  .alloc input{width:110px;font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);font-variant-numeric:tabular-nums}
+  .pick{padding:12px 14px;border-bottom:1px solid var(--line)}
+  .pick:last-child{border-bottom:0}
+  .pick .top{display:flex;justify-content:space-between;font-weight:700}
+  .pick .why{font-size:13px;color:var(--mute);margin-top:3px}
+  .note{font-size:12px;color:var(--mute);margin-top:8px;line-height:1.4}
+  .err{color:var(--down);font-size:13px;margin-top:8px}
+  .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:999px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+  .toast.show{opacity:1}
+  :focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>The Board</h1>
+    <div class="stamp" id="stamp">Prices not loaded yet</div>
+  </div>
+  <button class="refresh" id="refresh" aria-label="Refresh prices">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
+  </button>
+</header>
+
+<div class="tabs" id="tabs"></div>
+
+<section>
+  <div class="list" id="list"></div>
+  <div class="addrow">
+    <input id="addT" placeholder="Add ticker (e.g. CCJ)" maxlength="8" autocapitalize="characters">
+    <button class="btn ghost" id="addB">Add</button>
+  </div>
+</section>
+
+<section>
+  <h2>Politician trades <small>disclosed this week</small></h2>
+  <div class="list" id="trades"><div class="empty">Tap below to pull the latest STOCK Act filings from Congress. Filings can lag the actual trade by up to 45 days.</div></div>
+  <div class="addrow"><button class="btn ghost" id="loadTrades" style="flex:1">Load latest filings</button></div>
+  <div class="err" id="tradesErr"></div>
+</section>
+
+<section>
+  <h2>This week's money</h2>
+  <div class="alloc">
+    <span>$</span><input id="amt" type="number" inputmode="decimal" value="400" min="1">
+    <button class="btn" id="suggest" style="flex:1">Suggest a split</button>
+  </div>
+  <div class="list" id="picks"><div class="empty">Uses your board plus any loaded politician filings. Ideas to think about, not advice.</div></div>
+  <div class="err" id="picksErr"></div>
+  <div class="note">Nothing here places trades. When you're ready, connect a brokerage (IBKR or Webull) in Claude and the same list can be pushed there.</div>
+</section>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const SECTORS = {
+  defense:{label:"Defense",color:"var(--defense)"},
+  gold:{label:"Gold",color:"var(--gold)"},
+  index:{label:"Index",color:"var(--index)"},
+  realestate:{label:"Real estate",color:"var(--realestate)"},
+  nuclear:{label:"Nuclear",color:"var(--nuclear)"},
+  custom:{label:"Mine",color:"var(--custom)"}
+};
+const BASE = [
+  {t:"PLTR",n:"Palantir",s:"defense"},{t:"LMT",n:"Lockheed Martin",s:"defense"},{t:"RTX",n:"RTX",s:"defense"},{t:"NOC",n:"Northrop Grumman",s:"defense"},
+  {t:"GLD",n:"SPDR Gold",s:"gold"},{t:"NEM",n:"Newmont",s:"gold"},
+  {t:"DIA",n:"Dow Jones ETF",s:"index"},{t:"SPY",n:"S&P 500 ETF",s:"index"},
+  {t:"O",n:"Realty Income",s:"realestate"},{t:"PLD",n:"Prologis",s:"realestate"},{t:"VNQ",n:"Vanguard REIT",s:"realestate"},
+  {t:"CCJ",n:"Cameco",s:"nuclear"},{t:"OKLO",n:"Oklo",s:"nuclear"},{t:"NLR",n:"Uranium ETF",s:"nuclear"}
+];
+let custom = [];      // [{t,n,s:"custom"}]
+let prices = {};      // {PLTR:{p,c}}
+let trades = [];
+let filter = "all";
+
+const $ = id => document.getElementById(id);
+const toast = m => { const t=$("toast"); t.textContent=m; t.classList.add("show"); setTimeout(()=>t.classList.remove("show"),1800); };
+const all = () => BASE.concat(custom);
+
+async function loadState(){
+  try{ if(window.storage){ const r = await window.storage.get("board-state", false); if(r&&r.value){ const s=JSON.parse(r.value); custom=s.custom||[]; if(s.amt) $("amt").value=s.amt; } } }catch(e){}
+}
+async function saveState(){
+  try{ if(window.storage) await window.storage.set("board-state", JSON.stringify({custom, amt:$("amt").value}), false); }catch(e){}
+}
+
+function renderTabs(){
+  const keys = ["all"].concat(Object.keys(SECTORS).filter(k => k!=="custom" || custom.length));
+  $("tabs").innerHTML = keys.map(k=>{
+    const on = k===filter; const color = k==="all"?"var(--ink)":SECTORS[k].color;
+    return `<button class="tab ${on?"on":""}" data-k="${k}" style="${on?`background:${color}`:""}">${k==="all"?"All":SECTORS[k].label}</button>`;
+  }).join("");
+  $("tabs").querySelectorAll(".tab").forEach(b=>b.onclick=()=>{filter=b.dataset.k;renderTabs();renderList();});
+}
+
+function renderList(){
+  const rows = all().filter(x=>filter==="all"||x.s===filter);
+  $("list").innerHTML = rows.map(x=>{
+    const q = prices[x.t];
+    let px = `<div class="p skel">—</div><div class="c flat">&nbsp;</div>`;
+    if(q){ const cls = q.c>0.05?"up":q.c<-0.05?"down":"flat"; const sign = q.c>0?"+":"";
+      px = `<div class="p">$${Number(q.p).toFixed(2)}</div><div class="c ${cls}">${sign}${Number(q.c).toFixed(2)}%</div>`; }
+    const rm = x.s==="custom"?`<button class="rm" data-t="${x.t}" aria-label="Remove ${x.t}">×</button>`:"";
+    return `<div class="row"><div class="bar" style="background:${SECTORS[x.s].color}"></div>
+      <div class="name"><div class="t">${x.t}</div><div class="n">${x.n||""}</div></div>
+      <div style="display:flex;align-items:center"><div class="px">${px}</div>${rm}</div></div>`;
+  }).join("") || `<div class="empty">Nothing in this group yet.</div>`;
+  $("list").querySelectorAll(".rm").forEach(b=>b.onclick=()=>{custom=custom.filter(c=>c.t!==b.dataset.t);saveState();renderTabs();renderList();});
+}
+
+async function ask(prompt, useSearch){
+  const body = { model:"claude-sonnet-4-6", max_tokens:1000, messages:[{role:"user",content:prompt}] };
+  if(useSearch) body.tools=[{type:"web_search_20250305",name:"web_search"}];
+  const r = await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+  const d = await r.json();
+  if(!d.content) throw new Error(d.error?.message||"No response");
+  const text = d.content.filter(b=>b.type==="text").map(b=>b.text).join("\n");
+  const m = text.match(/\{[\s\S]*\}/); if(!m) throw new Error("Couldn't read the reply");
+  return JSON.parse(m[0].replace(/```json|```/g,""));
+}
+
+async function refreshPrices(){
+  const btn=$("refresh"); btn.classList.add("spin"); btn.disabled=true;
+  $("stamp").textContent="Fetching prices…";
+  try{
+    const tickers = all().map(x=>x.t).join(", ");
+    const out = await ask(`Use web search to find the latest US stock/ETF price and today's percent change for: ${tickers}. Respond with ONLY this JSON, no prose, no markdown: {"prices":[{"t":"PLTR","p":123.45,"c":1.23}]} where p is the last price in USD and c is the percent change today (negative if down). Include every ticker.`, true);
+    (out.prices||[]).forEach(q=>{ if(q.t) prices[q.t.toUpperCase()]={p:q.p,c:q.c||0}; });
+    $("stamp").textContent="Updated "+new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit"})+" · prices are delayed";
+    renderList();
+  }catch(e){ $("stamp").textContent="Couldn't load prices — tap refresh to retry"; }
+  btn.classList.remove("spin"); btn.disabled=false;
+}
+
+async function loadTrades(){
+  const b=$("loadTrades"); b.disabled=true; b.textContent="Loading…"; $("tradesErr").textContent="";
+  try{
+    const out = await ask(`Use web search (Capitol Trades, Quiver Quantitative, House/Senate STOCK Act disclosures) to find the 8 most recently disclosed stock trades by US members of Congress, newest first. Respond with ONLY this JSON, no prose, no markdown: {"trades":[{"who":"Full name","party":"D or R","ticker":"AAPL","type":"buy" or "sell","size":"$15K–50K","date":"2026-08-28"}]}`, true);
+    trades = out.trades||[];
+    $("trades").innerHTML = trades.length ? trades.map(x=>`<div class="trade"><div><div class="who">${x.who} <span class="meta">(${x.party||"?"})</span></div><div class="meta">${x.date||""}</div></div><div class="side ${x.type==="sell"?"sell":"buy"}">${(x.type||"").toUpperCase()} ${x.ticker||""}<span class="amt">${x.size||""}</span></div></div>`).join("") : `<div class="empty">No filings found right now.</div>`;
+  }catch(e){ $("tradesErr").textContent="Couldn't load filings: "+e.message; }
+  b.disabled=false; b.textContent="Reload filings";
+}
+
+async function suggest(){
+  const b=$("suggest"); b.disabled=true; b.textContent="Thinking…"; $("picksErr").textContent=""; saveState();
+  const amt = Number($("amt").value)||400;
+  try{
+    const board = all().map(x=>`${x.t} (${SECTORS[x.s].label})`).join(", ");
+    const ctx = trades.length ? `Recent congressional filings: ${trades.map(t=>`${t.who} ${t.type} ${t.ticker}`).join("; ")}.` : "No politician filings loaded.";
+    const out = await ask(`I have $${amt} to put into US stocks this week. My watchlist: ${board}. ${ctx} Propose how to split the $${amt} across at most 4 tickers from the watchlist, with dollar amounts that sum to ${amt}, plus one line on why for each, and one short overall caution. Prefer ETFs for small amounts. Respond with ONLY this JSON, no prose, no markdown: {"picks":[{"ticker":"DIA","amount":150,"why":"..."}],"note":"..."}`, false);
+    const picks = out.picks||[];
+    $("picks").innerHTML = (picks.map(p=>`<div class="pick"><div class="top"><span>${p.ticker}</span><span>$${Number(p.amount).toFixed(0)}</span></div><div class="why">${p.why||""}</div></div>`).join("")||`<div class="empty">No suggestion came back.</div>`) + (out.note?`<div class="empty">${out.note}</div>`:"");
+  }catch(e){ $("picksErr").textContent="Couldn't get a suggestion: "+e.message; }
+  b.disabled=false; b.textContent="Suggest a split";
+}
+
+$("refresh").onclick=refreshPrices;
+$("loadTrades").onclick=loadTrades;
+$("suggest").onclick=suggest;
+$("amt").onchange=saveState;
+$("addB").onclick=()=>{
+  const t=$("addT").value.trim().toUpperCase(); if(!t) return;
+  if(all().some(x=>x.t===t)){toast(t+" is already on the board");return;}
+  custom.push({t,n:"",s:"custom"}); $("addT").value=""; saveState(); renderTabs(); renderList(); toast(t+" added — refresh for price");
+};
+$("addT").onkeydown=e=>{if(e.key==="Enter")$("addB").click();};
+
+(async()=>{ await loadState(); renderTabs(); renderList(); refreshPrices(); })();
+</script>
+</body>
+</html>

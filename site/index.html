@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0a0e13">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Stock Agent</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a84ff'/%3E%3Cpath d='M12 44l12-14 10 8 18-22' fill='none' stroke='%23fff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><h1>Stock Agent</h1><span class="mode" id="mode">SIM · pretend money</span></div>
+    <div class="search" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search any stock or ETF" autocomplete="off" aria-label="Search stocks">
+      <div class="results" id="results" hidden></div>
+    </div>
+    <div class="status" id="status"><span class="dot" id="dot"></span><b>Loading…</b></div>
+  </header>
+
+  <section class="hero">
+    <div class="card" id="portfolio-card">
+      <h2>Pretend portfolio</h2>
+      <div class="equity num" id="equity">—</div>
+      <div id="equity-change" style="margin-top:6px"></div>
+      <div class="kv">
+        <div>Put in<b class="num" id="deposited">—</b></div>
+        <div>Cash<b class="num" id="cash">—</b></div>
+        <div>Realised<b class="num" id="realized">—</b></div>
+        <div>Unrealised<b class="num" id="unrealized">—</b></div>
+      </div>
+      <div class="alloc" id="alloc" aria-hidden="true"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="card">
+      <h2>This week's budget</h2>
+      <div class="week">
+        <div class="row"><span id="week-label">—</span><span class="num" id="week-spent">—</span></div>
+        <div class="bar"><span id="week-bar" style="width:0%"></span></div>
+      </div>
+      <div class="kv">
+        <div>Today<b class="num" id="today-spent">—</b></div>
+        <div>Buys today<b class="num" id="today-buys">—</b></div>
+        <div>Sells today<b class="num" id="today-sells">—</b></div>
+        <div>Next check<b id="next-check">—</b></div>
+      </div>
+      <div class="kv" style="margin-top:12px">
+        <div>Congress feed<b id="feed-congress">—</b></div>
+        <div>Insider feed<b id="feed-insiders">—</b></div>
+      </div>
+      <p id="last-reasoning" style="margin:12px 0 0;color:var(--muted);font-size:13px"></p>
+    </div>
+  </section>
+
+  <nav class="tabs" role="tablist" id="tabs">
+    <button role="tab" aria-selected="true" data-tab="holdings">Holdings</button>
+    <button role="tab" aria-selected="false" data-tab="watchlist">Watchlist</button>
+    <button role="tab" aria-selected="false" data-tab="politics">Politics &amp; insiders</button>
+    <button role="tab" aria-selected="false" data-tab="activity">Activity</button>
+  </nav>
+
+  <section class="panel" id="panel-holdings" role="tabpanel">
+    <div class="section"><h3>Holdings <span class="count" id="holdings-count"></span></h3><div class="list" id="holdings"></div></div>
+  </section>
+
+  <section class="panel" id="panel-watchlist" role="tabpanel" hidden>
+    <div id="watchlist"></div>
+  </section>
+
+  <section class="panel" id="panel-politics" role="tabpanel" hidden>
+    <div id="feed-note"></div>
+    <div class="grid2">
+      <div class="card"><h2>Net buying pressure · Congress</h2><div class="pressure" id="congress-pressure"></div></div>
+      <div class="card"><h2>Net buying pressure · Insiders (Form 4)</h2><div class="pressure" id="insider-pressure"></div></div>
+    </div>
+    <div class="section" style="margin-top:14px"><h3>Congress trades <span class="count" id="congress-count"></span></h3><div class="list tbl-wrap" id="congress"></div></div>
+    <div class="section"><h3>Insider filings <span class="count" id="insider-count"></span></h3><div class="list tbl-wrap" id="insiders"></div></div>
+    <div class="section" id="people-section" hidden><h3>Followed people</h3><div class="list" id="people"></div></div>
+  </section>
+
+  <section class="panel" id="panel-activity" role="tabpanel" hidden>
+    <div class="section"><h3>Fills <span class="count" id="fills-count"></span></h3><div class="list fills" id="fills"></div></div>
+    <div class="section"><h3>What it learned</h3><div class="card"><ul class="lessons" id="lessons" style="margin:0;padding-left:18px"></ul></div></div>
+    <div class="section"><h3>Log</h3><div class="list"><pre class="log" id="log"></pre></div></div>
+  </section>
+
+  <footer>Prices via Yahoo Finance, delayed up to 15 minutes. Pretend money: nothing here is a real position or advice.<br><span id="asof"></span></footer>
+</div>
+
+<div id="sheet-root"></div>
+<div id="trade-root"></div>
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
+<script src="/trade.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

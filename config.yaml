@@ -1,0 +1,50 @@
+# Weekly budget in USD. The agent may spend it across the week (Mon–Fri), deploying chunks
+# when it thinks the timing is good. Whatever is left is deployed Friday afternoon so the
+# week's money never sits idle.
+weekly_budget: 400
+
+# Broker is chosen in .env (BROKER=sim | alpaca | ibkr). Default is sim: the built-in pretend-money
+# portfolio, filled at real prices, buys AND sells, no brokerage account needed. This is the safety
+# lock: run it for weeks and read portfolio.md before any real money is involved.
+sim:
+  starting_cash: 400      # pretend dollars on day one
+  weekly_deposit: 400     # pretend dollars added every Monday, mirroring the real plan (set 0 for a one-time $400 test)
+
+# How often the schedule calls the agent while the market is open (minutes). Informational:
+# the brain is told how many checks it has left today so it paces itself. Must match agent.yml.
+run_every_minutes: 30
+
+# Guardrails — the brain can't override these.
+guardrails:
+  max_per_ticker_pct: 40         # no single ticker gets more than 40% of the week's budget (tracked across the week)
+  min_order_usd: 5               # skip crumbs
+  max_daily_deploy_pct: 60       # never deploy more than 60% of the weekly budget in one day (tracked across the day's checks)
+  max_orders_per_day: 8          # hard cap on buys per day, however many checks run
+  friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
+  only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
+  min_hold_days: 2               # a position can't be sold until it's this old (no churn)
+  max_sells_per_day: 3           # hard cap on sells per day
+  allow_politician_tickers: true # may buy tickers Congress members recently bought, even if not on the watchlist
+  politician_lookback_days: 30
+  allow_insider_tickers: true    # may buy tickers with net insider (Form 4) buying, even if not on the watchlist
+  insider_lookback_days: 30
+  news_headlines_per_ticker: 3   # recent headlines pulled per allowed ticker (free, yfinance)
+  max_drawdown_pct: 30           # circuit breaker: stop buying if equity falls this far below money put in
+  max_daily_move_pct: 35         # ignore any quote that moved more than this in one day (bad tick / bad split)
+
+watchlist:
+  defense:     [PLTR, LMT, RTX, NOC]
+  gold:        [GLD, NEM]
+  index:       [DIA, SPY]
+  real_estate: [O, PLD, VNQ]
+  nuclear:     [CCJ, OKLO, NLR]
+
+# Politicians whose disclosed trades get extra weight (leave empty for all of Congress).
+# Use names as they appear in disclosures, e.g. "Nancy Pelosi", "Josh Gottheimer".
+followed_politicians: []
+
+# Public figures to follow. Two things happen for each name:
+#   1. their SEC Form 4 insider filings count 3x in insider buy pressure (only covers companies they're insiders of)
+#   2. recent news about them is pulled and handed to the brain as context
+# e.g. ["Elon Musk", "Jeff Bezos", "Warren Buffett"]. Leave empty to follow nobody in particular.
+followed_people: []

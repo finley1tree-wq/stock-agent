@@ -1,0 +1,272 @@
+{
+ "generated": "2026-09-07",
+ "windows": [
+  2,
+  5
+ ],
+ "weekly_budget": 400,
+ "guardrails_applied": true,
+ "stable_ranking": false,
+ "top_by_window": {
+  "2": "momentum_1w",
+  "5": "contrarian_1m"
+ },
+ "rank_orders": {
+  "2": [
+   "momentum_1w",
+   "momentum_1m",
+   "equal_weight",
+   "contrarian_1m",
+   "sector_rotate",
+   "etf_default",
+   "spy_only"
+  ],
+  "5": [
+   "contrarian_1m",
+   "momentum_1w",
+   "momentum_1m",
+   "sector_rotate",
+   "equal_weight",
+   "etf_default",
+   "spy_only"
+  ]
+ },
+ "by_window": {
+  "2": {
+   "years": 2,
+   "period": {
+    "from": "2024-09-05",
+    "to": "2026-09-04",
+    "trading_days": 502
+   },
+   "ranking": [
+    {
+     "strategy": "momentum_1w",
+     "total_return_pct": 31.38,
+     "vs_spy_pct": 22.64,
+     "profit": 13177.9,
+     "max_drawdown_pct": 22.32,
+     "fills": 412
+    },
+    {
+     "strategy": "momentum_1m",
+     "total_return_pct": 27.51,
+     "vs_spy_pct": 18.77,
+     "profit": 11552.2,
+     "max_drawdown_pct": 20.66,
+     "fills": 400
+    },
+    {
+     "strategy": "equal_weight",
+     "total_return_pct": 24.4,
+     "vs_spy_pct": 15.66,
+     "profit": 10248.08,
+     "max_drawdown_pct": 11.78,
+     "fills": 420
+    },
+    {
+     "strategy": "contrarian_1m",
+     "total_return_pct": 23.62,
+     "vs_spy_pct": 14.88,
+     "profit": 9920.07,
+     "max_drawdown_pct": 12.94,
+     "fills": 400
+    },
+    {
+     "strategy": "sector_rotate",
+     "total_return_pct": 22.27,
+     "vs_spy_pct": 13.53,
+     "profit": 9352.42,
+     "max_drawdown_pct": 24.91,
+     "fills": 278
+    },
+    {
+     "strategy": "etf_default",
+     "total_return_pct": 20.33,
+     "vs_spy_pct": 11.59,
+     "profit": 8538.45,
+     "max_drawdown_pct": 10.24,
+     "fills": 420
+    },
+    {
+     "strategy": "spy_only",
+     "total_return_pct": 8.74,
+     "vs_spy_pct": 0.0,
+     "profit": 3668.94,
+     "max_drawdown_pct": 4.13,
+     "fills": 105
+    }
+   ],
+   "momentum_predictive_power": {
+    "high_momentum": {
+     "1w": {
+      "n": 276,
+      "avg_pct": 1.59,
+      "hit_rate": 0.52
+     },
+     "1m": {
+      "n": 276,
+      "avg_pct": 5.05,
+      "hit_rate": 0.57
+     }
+    },
+    "low_momentum": {
+     "1w": {
+      "n": 276,
+      "avg_pct": 0.6,
+      "hit_rate": 0.54
+     },
+     "1m": {
+      "n": 276,
+      "avg_pct": 2.73,
+      "hit_rate": 0.56
+     }
+    }
+   },
+   "sector_performance": {
+    "nuclear": {
+     "n": 3,
+     "avg_total_return_pct": 282.46
+    },
+    "defense": {
+     "n": 4,
+     "avg_total_return_pct": 137.93
+    },
+    "gold": {
+     "n": 2,
+     "avg_total_return_pct": 114.52
+    },
+    "index": {
+     "n": 2,
+     "avg_total_return_pct": 39.15
+    },
+    "real_estate": {
+     "n": 3,
+     "avg_total_return_pct": 11.26
+    }
+   },
+   "missing": []
+  },
+  "5": {
+   "years": 5,
+   "period": {
+    "from": "2021-09-07",
+    "to": "2026-09-04",
+    "trading_days": 1255
+   },
+   "ranking": [
+    {
+     "strategy": "contrarian_1m",
+     "total_return_pct": 172.25,
+     "vs_spy_pct": 148.83,
+     "profit": 179833.84,
+     "max_drawdown_pct": 30.03,
+     "fills": 1024
+    },
+    {
+     "strategy": "momentum_1w",
+     "total_return_pct": 147.68,
+     "vs_spy_pct": 124.26,
+     "profit": 154180.78,
+     "max_drawdown_pct": 28.96,
+     "fills": 1036
+    },
+    {
+     "strategy": "momentum_1m",
+     "total_return_pct": 140.4,
+     "vs_spy_pct": 116.98,
+     "profit": 146577.47,
+     "max_drawdown_pct": 27.23,
+     "fills": 1024
+    },
+    {
+     "strategy": "sector_rotate",
+     "total_return_pct": 110.48,
+     "vs_spy_pct": 87.06,
+     "profit": 115337.95,
+     "max_drawdown_pct": 34.49,
+     "fills": 738
+    },
+    {
+     "strategy": "equal_weight",
+     "total_return_pct": 79.82,
+     "vs_spy_pct": 56.4,
+     "profit": 83332.03,
+     "max_drawdown_pct": 19.77,
+     "fills": 1044
+    },
+    {
+     "strategy": "etf_default",
+     "total_return_pct": 65.99,
+     "vs_spy_pct": 42.57,
+     "profit": 68891.83,
+     "max_drawdown_pct": 13.5,
+     "fills": 1044
+    },
+    {
+     "strategy": "spy_only",
+     "total_return_pct": 23.42,
+     "vs_spy_pct": 0.0,
+     "profit": 24446.9,
+     "max_drawdown_pct": 5.79,
+     "fills": 261
+    }
+   ],
+   "momentum_predictive_power": {
+    "high_momentum": {
+     "1w": {
+      "n": 729,
+      "avg_pct": 0.9,
+      "hit_rate": 0.58
+     },
+     "1m": {
+      "n": 729,
+      "avg_pct": 2.81,
+      "hit_rate": 0.56
+     }
+    },
+    "low_momentum": {
+     "1w": {
+      "n": 729,
+      "avg_pct": 0.52,
+      "hit_rate": 0.54
+     },
+     "1m": {
+      "n": 729,
+      "avg_pct": 2.32,
+      "hit_rate": 0.57
+     }
+    }
+   },
+   "sector_performance": {
+    "nuclear": {
+     "n": 3,
+     "avg_total_return_pct": 269.63
+    },
+    "defense": {
+     "n": 4,
+     "avg_total_return_pct": 212.46
+    },
+    "gold": {
+     "n": 2,
+     "avg_total_return_pct": 148.58
+    },
+    "index": {
+     "n": 2,
+     "avg_total_return_pct": 74.11
+    },
+    "real_estate": {
+     "n": 3,
+     "avg_total_return_pct": 12.09
+    }
+   },
+   "missing": []
+  }
+ },
+ "caveats": [
+  "UNSTABLE: the best strategy differs by window (2y->momentum_1w, 5y->contrarian_1m). Do not treat the ranking as a rule; it is noise-dominated.",
+  "SELECTION BIAS: the watchlist was chosen in 2026 already knowing which themes had run (nuclear, defense, gold). Every strategy beats SPY here largely because of the ticker list, not the rule. Treat 'vs SPY' as meaningless.",
+  "NO SELLING and no transaction costs are modelled; the live agent may sell.",
+  "Claude's judgement is NOT replayed \u2014 only the mechanical signal rules are."
+ ]
+}
