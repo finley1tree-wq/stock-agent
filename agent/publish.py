@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import state
+from . import state, safety
 from .broker_sim import HOLIDAYS, EARLY_CLOSE_1PM
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -46,6 +46,8 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "") -> None:
         "followed_people": cfg.get("followed_people") or [], "followed_politicians": cfg.get("followed_politicians") or [],
         "holidays": sorted(HOLIDAYS), "early_close_1pm": sorted(EARLY_CLOSE_1PM),
     }
+    ok, why = safety.paused()                     # the stop/start switch, so the site can say PAUSED
+    meta["paused"], meta["pause_reason"] = (not ok), why
     prev_path = OUT / "signals.json"
     if signals is not None:
         meta.update(signals)

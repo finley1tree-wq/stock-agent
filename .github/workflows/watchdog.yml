@@ -1,0 +1,26 @@
+# Backstop for the agent's schedule. GitHub cron is best-effort, so between the agent's :02/:32 slots this
+# checks whether a slot was missed while the market is open and, if so, dispatches agent.yml itself.
+# Costs about one runner-minute per tick and never calls the brain.
+name: watchdog
+on:
+  schedule:
+    - cron: "17,47 13-21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Dispatch a check now even if one ran recently (tests the wiring)"
+        type: boolean
+        default: false
+permissions: { actions: write, contents: read }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: dispatch a check if one was missed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ "$FORCE" = "true" ]; then python3 -m agent.watchdog --force; else python3 -m agent.watchdog; fi

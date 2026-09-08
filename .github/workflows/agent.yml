@@ -1,11 +1,12 @@
-# Runs the agent every 30 minutes through the US trading day, Monday–Friday.
-# 13:00–21:30 UTC covers 9:00 AM–5:30 PM New York in both summer and winter; the agent exits in
-# seconds when the market is closed (Alpaca clock), so the off-hours slots cost almost nothing.
-# Add the .env values as repository Secrets, then this runs with no server.
+# Runs the agent every 30 minutes through the US trading day, Monday–Friday, with no server and no laptop.
+# 13:00–21:59 UTC covers 9:00 AM–5:30 PM New York in both summer and winter; the agent exits in
+# seconds when the market is closed, so the off-hours slots cost almost nothing.
+# Slots sit at :02/:32 because GitHub delays cron jobs queued exactly on the hour and half hour;
+# watchdog.yml fills in any slot GitHub drops. control.yml is the stop/start switch.
 name: stock-agent
 on:
   schedule:
-    - cron: "*/30 13-21 * * 1-5"
+    - cron: "2,32 13-21 * * 1-5"
   workflow_dispatch:
 concurrency:
   group: stock-agent

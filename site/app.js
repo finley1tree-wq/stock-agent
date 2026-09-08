@@ -239,8 +239,16 @@
   function renderStatus(ok) {
     const sg = state.data.signals || {}; const as = sg.asOf ? new Date(sg.asOf) : null;
     const live = Object.values(state.quotes).some(q => q.marketState === "REGULAR");
-    $("#status").innerHTML = `<span class="dot${live ? " live" : ""}"></span><b>${live ? "Market open" : "Market closed"}</b><br>agent data ${as ? esc(as.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) : "—"} · quotes ${new Date().toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })}`;
-    $("#asof").textContent = as ? `Agent data as of ${as.toLocaleString()}` : "";
+    const paused = !!sg.paused;
+    // "stale" = market open, more than 45 min since the agent last checked in, and not just the first minutes after the bell
+    const et = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" })); const sinceOpen = et.getHours() * 60 + et.getMinutes() - 570;
+    const ageMin = as ? (Date.now() - as.getTime()) / 60000 : null;
+    const stale = live && !paused && ageMin != null && ageMin > 45 && sinceOpen > 45;
+    const pill = paused ? ` <span class="pill paused" title="${esc(sg.pause_reason || "")}">PAUSED</span>` : "";
+    const warn = stale ? `<br><span style="color:var(--amber)">no check for ${Math.round(ageMin)} min — the watchdog should restart it</span>` : "";
+    $("#status").innerHTML = `<span class="dot${live ? " live" : ""}"></span><b>${live ? "Market open" : "Market closed"}</b>${pill}<br>agent data ${as ? esc(as.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) : "—"} · quotes ${new Date().toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })}${warn}`;
+    $("#asof").textContent = as ? `Agent data as of ${as.toLocaleString()}${paused ? " · agent paused" : ""}` : "";
+    const mode = $("#mode"); if (mode && paused && !/PAUSED/.test(mode.textContent)) mode.textContent += " · PAUSED";
   }
 
   function renderAll() { renderHero(); renderHoldings(); renderWatchlist(); renderPolitics(); renderActivity(); renderStatus(); }

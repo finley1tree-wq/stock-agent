@@ -41,7 +41,7 @@ Checks that sit outside the brain's reach. It cannot argue its way past any of t
 
 | Guard | What it does |
 |---|---|
-| `PAUSE` file / `pause.command` | Kill switch. While the file exists the agent will not trade. Double-click again to resume. |
+| `PAUSE` file / `pause.command` / **control workflow** | Kill switch. While the file exists the agent will not trade (it keeps publishing, so the site says PAUSED). From any device: github.com → Actions → **control** → Run workflow → pause / resume. On the Mac, double-click `pause.command`. |
 | Ledger integrity | Before every check: cash + cost basis must equal money put in + realised P/L. On mismatch it refuses to trade and says so. |
 | Circuit breaker | `max_drawdown_pct` (30%). If equity falls that far below the money put in, no new buys. |
 | Bad-tick filter | `max_daily_move_pct` (35%). A quote that moved more than that in a day is treated as a bad tick and ignored. |
@@ -80,7 +80,7 @@ python -m agent.run --force    # same, ignoring the market-hours gate (testing)
 `DRY_RUN` and `ALPACA_PAPER` only matter once `BROKER=alpaca`. Only flip `ALPACA_PAPER=false` when you have a live account and want real money at risk.
 
 ## Running it automatically
-**GitHub Actions (recommended):** push this folder to a private repo, add each `.env` value under Settings → Secrets → Actions, done. `.github/workflows/agent.yml` runs it **every 30 minutes, 9:00 AM–5:30 PM New York, Mon–Fri** and commits `state.json`, `log.md`, `journal.json` and `lessons.md` back so you can read what it did from your phone. Off-hours slots exit in seconds (Alpaca says the market is closed). Roughly 14 real checks a day; GitHub's free tier covers it, and each check costs a few cents of Anthropic API.
+**GitHub Actions (recommended):** push this folder to a private repo, add each `.env` value under Settings → Secrets → Actions, done. `.github/workflows/agent.yml` runs it **every 30 minutes (at :02 and :32), 9:00 AM–5:30 PM New York, Mon–Fri** and commits `state.json`, `log.md`, `journal.json`, `decisions.json` and `lessons.md` back so you can read what it did from your phone. Off-hours slots exit in seconds. `watchdog.yml` runs at :17/:47 and dispatches a check itself if GitHub dropped a slot while the market was open, so nothing ever needs a manual start. `control.yml` is the stop/start switch (Actions → control → Run workflow → pause or resume). Roughly 14 real checks a day; GitHub's free tier covers it, and each check costs a few cents of Anthropic API. Commits must be authored by the GitHub account that owns the Vercel project or Vercel's Hobby plan blocks the deploy.
 
 **Or on your Mac:** `crontab -e` → `*/30 6-13 * * 1-5 cd "$HOME/Desktop/AI Trader/stock-agent" && /opt/homebrew/bin/python3 -m agent.run` (6:30 AM–1:00 PM Pacific = market hours). Laptop must be awake. This is the only option once `BROKER=ibkr`, because IB Gateway is local.
 

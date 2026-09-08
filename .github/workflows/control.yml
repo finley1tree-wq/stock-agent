@@ -1,0 +1,49 @@
+# The stop/start switch. Run it from github.com on any device: Actions -> control -> Run workflow.
+#   pause  -> the agent stops trading at its next check (it keeps publishing so the site shows PAUSED)
+#   resume -> it trades again at its next check
+# It commits the PAUSE file and immediately dispatches one check so the dashboard reflects the switch.
+name: control
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "pause = stop trading; resume = start again"
+        type: choice
+        options: [pause, resume]
+        required: true
+      reason:
+        description: "optional note (shown on the dashboard)"
+        default: ""
+concurrency: { group: stock-agent-control, cancel-in-progress: false }
+permissions: { contents: write, actions: write }
+jobs:
+  switch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: flip the switch
+        env:
+          ACTION: ${{ inputs.action }}
+          REASON: ${{ inputs.reason }}
+        run: |
+          if [ "$ACTION" = "pause" ]; then
+            printf 'paused from GitHub %s%s\n' "$(date -u +%FT%H:%MZ)" "${REASON:+ — $REASON}" > PAUSE
+          else
+            rm -f PAUSE
+          fi
+          git config user.name finley1tree-wq
+          git config user.email 284499650+finley1tree-wq@users.noreply.github.com
+          git add -A
+          if git diff --cached --quiet; then
+            echo "already ${ACTION}d"
+          else
+            git commit -m "control: $ACTION"
+            git pull --rebase --autostash || true
+            git push
+          fi
+          echo "### Agent ${ACTION}d" >> "$GITHUB_STEP_SUMMARY"
+      - name: run one check now so the site shows the new state
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run agent.yml --ref main -R "$GITHUB_REPOSITORY"
