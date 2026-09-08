@@ -80,6 +80,10 @@ python -m agent.run --force    # same, ignoring the market-hours gate (testing)
 `DRY_RUN` and `ALPACA_PAPER` only matter once `BROKER=alpaca`. Only flip `ALPACA_PAPER=false` when you have a live account and want real money at risk.
 
 ## Running it automatically
+
+> **Read [TRIGGER.md](TRIGGER.md) first.** GitHub's scheduler did not fire for this repo on day one.
+> The agent works; waking it up is the fragile part, and TRIGGER.md sets up a second, independent alarm clock.
+
 **GitHub Actions (recommended):** push this folder to a private repo, add each `.env` value under Settings → Secrets → Actions, done. `.github/workflows/agent.yml` runs it **every 30 minutes (at :02 and :32), 9:00 AM–5:30 PM New York, Mon–Fri** and commits `state.json`, `log.md`, `journal.json`, `decisions.json` and `lessons.md` back so you can read what it did from your phone. Off-hours slots exit in seconds. `watchdog.yml` runs at :17/:47 and dispatches a check itself if GitHub dropped a slot while the market was open, so nothing ever needs a manual start. `control.yml` is the stop/start switch (Actions → control → Run workflow → pause or resume). Roughly 14 real checks a day; GitHub's free tier covers it, and each check costs a few cents of Anthropic API. Commits must be authored by the GitHub account that owns the Vercel project or Vercel's Hobby plan blocks the deploy.
 
 **Or on your Mac:** `crontab -e` → `*/30 6-13 * * 1-5 cd "$HOME/Desktop/AI Trader/stock-agent" && /opt/homebrew/bin/python3 -m agent.run` (6:30 AM–1:00 PM Pacific = market hours). Laptop must be awake. This is the only option once `BROKER=ibkr`, because IB Gateway is local.
