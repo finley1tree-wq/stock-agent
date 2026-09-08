@@ -193,7 +193,8 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 .pill.paused{background:var(--down);color:#fff}
 
 /* standing orders: what the agent is waiting for */
-.working .w { display: grid; grid-template-columns: 74px 1fr auto; gap: 10px; align-items: center; padding: 11px 12px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.working .w { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 11px 12px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.working .w > div { min-width: 0; }   /* without this a long reason pushes the price off the row */
 .working .w:last-child { border-bottom: 0; }
 .working .w:hover { background: var(--card-2); }
 .working .k { font-size: 10.5px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 3px 6px; border-radius: 5px; text-align: center; }
