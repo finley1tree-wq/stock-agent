@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-08T04:40-04:00",
- "note": "market closed",
+ "asOf": "2026-09-08T11:17-04:00",
+ "note": "First check of the day with a fresh $400 portfolio and no positions, so I'm deploying about a third of the weekly budget into a diversified starter mix: semis (AMAT) with congress+news support, nuclear theme (CCJ+NLR) which backtests show as the strongest sector, and a core SPY position for stabilit",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -75,6 +75,60 @@
  ],
  "paused": false,
  "pause_reason": "",
+ "allowed": [
+  "AMAT",
+  "AMD",
+  "AMZN",
+  "AVGO",
+  "BCDA",
+  "BE",
+  "BRK.B",
+  "CCJ",
+  "DIA",
+  "ECF",
+  "ENOV",
+  "EQIX",
+  "EQT",
+  "ESAB",
+  "GF",
+  "GLD",
+  "GOOGM",
+  "GOOGN",
+  "GRX",
+  "IBP",
+  "INTC",
+  "LILA",
+  "LMT",
+  "NEM",
+  "NICE",
+  "NLR",
+  "NMTC",
+  "NOC",
+  "NTST",
+  "O",
+  "OBIO",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "RCG",
+  "RTX",
+  "SCND",
+  "SHMD",
+  "SPY",
+  "TOST",
+  "UBER",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "insiders": "ok"
+ },
+ "learning": {
+  "decisions_recorded": 1,
+  "note": "not enough history to grade yet"
+ },
  "congress_trades": [
   {
    "who": "Jonathan L. Jackson",
@@ -798,7 +852,6 @@
   }
  ],
  "congress_pressure": {
-  "BRK.B": 3.0,
   "AMAT": 2.0,
   "BE": 2.0,
   "INTC": 2.0,
@@ -807,19 +860,340 @@
   "IBP": 1.0,
   "AMD": 1.0,
   "AVGO": 1.0,
+  "AMZN": 1.0,
   "TOST": 1.0,
   "EQT": 1.0,
   "ESAB": 1.0,
+  "BRK.B": 1.0,
   "GOOGM": 1.0,
   "NICE": 1.0,
   "SAIL": 1.0,
   "MNST": 1.0,
   "CRWD": 1.0,
-  "KLAC": 1.0,
-  "CB": 1.0,
-  "MU": 1.0
+  "PANW": 0.0,
+  "VSAT": -1.0
  },
  "insider_trades": [
+  {
+   "who": "MOORE JOHN A",
+   "role": "director, officer: Chairman of the Board",
+   "ticker": "SCND",
+   "type": "buy",
+   "shares": 5000,
+   "price": 0.76,
+   "transaction_date": "2026-08-20",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Azaria Eynav",
+   "role": "officer: See Remarks",
+   "ticker": "KLTR",
+   "type": "sell",
+   "shares": 9866,
+   "price": 1.5318,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Azaria Eynav",
+   "role": "officer: See Remarks",
+   "ticker": "KLTR",
+   "type": "sell",
+   "shares": 8176,
+   "price": 1.5087,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+   "role": "10 percent owner",
+   "ticker": "RCG",
+   "type": "buy",
+   "shares": 756,
+   "price": 2.9,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "DILLON LARRY G",
+   "role": "director, officer: EXECUTIVE CHAIRMAN",
+   "ticker": "CFFI",
+   "type": "sell",
+   "shares": 1000,
+   "price": 95.07,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "ECAT",
+   "type": "sell",
+   "shares": 209500,
+   "price": 15.27,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "ECAT",
+   "type": "sell",
+   "shares": 62439,
+   "price": 15.29,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "GRX",
+   "type": "buy",
+   "shares": 500,
+   "price": 10.08,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "ECF",
+   "type": "buy",
+   "shares": 5000,
+   "price": 12.25,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "ECF",
+   "type": "buy",
+   "shares": 6800,
+   "price": 12.36,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Melhem Elie",
+   "role": "officer: President- APAC, M. East, Afr.",
+   "ticker": "WTS",
+   "type": "sell",
+   "shares": 1096,
+   "price": 359.55,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Carley Donald M",
+   "role": "officer: General Counsel",
+   "ticker": "HMN",
+   "type": "sell",
+   "shares": 2054,
+   "price": 52.281,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Hines Perry G.",
+   "role": "director",
+   "ticker": "HMN",
+   "type": "sell",
+   "shares": 3237,
+   "price": 52.22,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "GF",
+   "type": "buy",
+   "shares": 3721,
+   "price": 11.56,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Dorfman Mark",
+   "role": "officer: EVP, GC and Secretary",
+   "ticker": "DRS",
+   "type": "sell",
+   "shares": 7471,
+   "price": 37.01,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Eglin Jon Stephen",
+   "role": "officer: Chartering & Operations",
+   "ticker": "DHT",
+   "type": "sell",
+   "shares": 25000,
+   "price": 21,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Donlan Daniel P",
+   "role": "officer: CFO and Treasurer",
+   "ticker": "NTST",
+   "type": "buy",
+   "shares": 1200,
+   "price": 20.12,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Japan Post Holdings Co., Ltd.",
+   "role": "10 percent owner",
+   "ticker": "AFL",
+   "type": "sell",
+   "shares": 20000,
+   "price": 118.49,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "PALOMINO BONILLA LUIS MIGUEL",
+   "role": "director",
+   "ticker": "SCCO",
+   "type": "sell",
+   "shares": 100,
+   "price": 200,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Wambeke David J.",
+   "role": "officer: Chief Business Officer",
+   "ticker": "NMTC",
+   "type": "buy",
+   "shares": 33333,
+   "price": 2.01,
+   "transaction_date": "2026-08-27",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Hochman David P",
+   "role": "director, officer: See Remarks",
+   "ticker": "OBIO",
+   "type": "buy",
+   "shares": 10000,
+   "price": 4.79,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Speth Ralf",
+   "role": "director",
+   "ticker": "SHMD",
+   "type": "buy",
+   "shares": 35000,
+   "price": 3.248,
+   "transaction_date": "2026-08-31",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Speth Ralf",
+   "role": "director",
+   "ticker": "SHMD",
+   "type": "buy",
+   "shares": 33000,
+   "price": 3.05,
+   "transaction_date": "2026-09-02",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Greenberg Aaron Samuel",
+   "role": "officer: CSO",
+   "ticker": "NYAX",
+   "type": "sell",
+   "shares": 77,
+   "price": 52.31,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Furman Carly Lisanne",
+   "role": "officer: CEO NAYX North America",
+   "ticker": "NYAX",
+   "type": "sell",
+   "shares": 96,
+   "price": 52.31,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Sever Michal",
+   "role": "officer: CMO",
+   "ticker": "NYAX",
+   "type": "sell",
+   "shares": 34,
+   "price": 52.31,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Manor Sagit",
+   "role": "officer: CFO",
+   "ticker": "NYAX",
+   "type": "sell",
+   "shares": 123,
+   "price": 52.3864,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Meyer-Gloeckner Birger Johannes",
+   "role": "director",
+   "ticker": "ZIM",
+   "type": "sell",
+   "shares": 1531,
+   "price": 28.5,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Macdonald Andrew",
+   "role": "officer: See Remarks",
+   "ticker": "UBER",
+   "type": "buy",
+   "shares": 54325,
+   "price": 75.6526,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Macdonald Andrew",
+   "role": "officer: See Remarks",
+   "ticker": "UBER",
+   "type": "buy",
+   "shares": 15675,
+   "price": 76.4425,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Tamari Shahar",
+   "role": "director, officer: COO",
+   "ticker": "GLBE",
+   "type": "sell",
+   "shares": 24999,
+   "price": 38.4135,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Debbi Nir",
+   "role": "director, officer: President",
+   "ticker": "GLBE",
+   "type": "sell",
+   "shares": 228,
+   "price": 39.211,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
   {
    "who": "Kandiah Gajakarnan Vibushanan",
    "role": "director, officer: Chief Executive Officer",
@@ -949,512 +1323,97 @@
    "price": 19.46,
    "transaction_date": "2026-09-03",
    "filing_date": "2026-09-04"
-  },
-  {
-   "who": "McDonald Damien",
-   "role": "director, officer: Chief Executive Officer",
-   "ticker": "ENOV",
-   "type": "buy",
-   "shares": 13035,
-   "price": 19.15,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Bonanni Mark Emilio",
-   "role": "officer: EVP, CRO, Commercial",
-   "ticker": "OUT",
-   "type": "sell",
-   "shares": 3385,
-   "price": 29.82,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 440,
-   "price": 201.19,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 2333,
-   "price": 202.64,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 2468,
-   "price": 203.59,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 1000,
-   "price": 204.6,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 1080,
-   "price": 205.55,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 1120,
-   "price": 206.92,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 760,
-   "price": 207.81,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 200,
-   "price": 208.92,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 240,
-   "price": 210.31,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 135,
-   "price": 211.8,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 224,
-   "price": 214.72,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 360,
-   "price": 204.39,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 229,
-   "price": 205.77,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 279,
-   "price": 206.66,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 1180,
-   "price": 207.86,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 471,
-   "price": 208.76,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 282,
-   "price": 209.91,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 531,
-   "price": 210.91,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 562,
-   "price": 211.77,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 2469,
-   "price": 212.94,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 3037,
-   "price": 213.73,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Kurtz George",
-   "role": "director, officer: PRESIDENT AND CEO",
-   "ticker": "CRWD",
-   "type": "sell",
-   "shares": 600,
-   "price": 214.75,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Hungate Alexander Charles",
-   "role": "director, officer: President and COO",
-   "ticker": "GRAB",
-   "type": "sell",
-   "shares": 145349,
-   "price": 3.4829,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Febbo Phillip G.",
-   "role": "officer: Chief Scientific & Med Officer",
-   "ticker": "VCYT",
-   "type": "sell",
-   "shares": 10405,
-   "price": 42.8933,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Febbo Phillip G.",
-   "role": "officer: Chief Scientific & Med Officer",
-   "ticker": "VCYT",
-   "type": "sell",
-   "shares": 2705,
-   "price": 43.6618,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Chambers Rebecca",
-   "role": "officer: Chief Financial Officer",
-   "ticker": "VCYT",
-   "type": "sell",
-   "shares": 2477,
-   "price": 42.8059,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Chambers Rebecca",
-   "role": "officer: Chief Financial Officer",
-   "ticker": "VCYT",
-   "type": "sell",
-   "shares": 1175,
-   "price": 43.714,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "McGuire Annie",
-   "role": "officer: EVP, General Counsel",
-   "ticker": "VCYT",
-   "type": "sell",
-   "shares": 2154,
-   "price": 42.7916,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "McGuire Annie",
-   "role": "officer: EVP, General Counsel",
-   "ticker": "VCYT",
-   "type": "sell",
-   "shares": 1100,
-   "price": 43.6718,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Pollitzer Adam",
-   "role": "director, officer: Chief Executive Officer",
-   "ticker": "NMIH",
-   "type": "sell",
-   "shares": 172706,
-   "price": 44.855,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 520,
-   "price": 354.54,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 2006,
-   "price": 355.5719,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 3267,
-   "price": 356.3679,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 3962,
-   "price": 357.5742,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 3180,
-   "price": 358.4203,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 3392,
-   "price": 359.3862,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 2320,
-   "price": 360.466,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 1242,
-   "price": 361.61,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 1992,
-   "price": 362.6527,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 565,
-   "price": 363.3404,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 1329,
-   "price": 364.4771,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Krishnan Suma",
-   "role": "director, 10 percent owner, officer: President, R&D",
-   "ticker": "KRYS",
-   "type": "sell",
-   "shares": 826,
-   "price": 365.4139,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
   }
  ],
  "insider_pressure": {
   "LILA": 3.0,
-  "ENOV": 3.0,
+  "ECF": 2.0,
+  "SHMD": 2.0,
+  "UBER": 2.0,
+  "ENOV": 2.0,
+  "SCND": 1.0,
+  "RCG": 1.0,
+  "GRX": 1.0,
+  "GF": 1.0,
+  "NTST": 1.0,
+  "NMTC": 1.0,
+  "OBIO": 1.0,
   "BCDA": 1.0,
-  "RXT": -1.0,
-  "DFTX": -1.0,
-  "OUT": -1.0,
-  "GRAB": -1.0,
-  "NMIH": -1.0,
-  "ASPI": -5.0,
-  "VCYT": -6.0,
-  "KRYS": -12.0,
-  "CRWD": -22.0
+  "CFFI": -1.0,
+  "WTS": -1.0,
+  "DRS": -1.0,
+  "DHT": -1.0,
+  "AFL": -1.0,
+  "SCCO": -1.0,
+  "ZIM": -1.0
  },
  "headlines": {
   "AMAT": [
    {
-    "title": "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
+    "title": "Capex Rebound Powers Applied Materials\u2019 (AMAT) Performance",
     "source": "Insider Monkey",
-    "when": "2026-09-05T17:50"
+    "when": "2026-09-08T14:39"
    },
    {
-    "title": "Memory, Other AI-Related Stocks Lead the Market\u2019s Top Performers Friday",
-    "source": "Investopedia",
-    "when": "2026-09-04T17:04"
+    "title": "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher",
+    "source": "MarketBeat",
+    "when": "2026-09-08T14:03"
    },
    {
-    "title": "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
-    "source": "Simply Wall St.",
-    "when": "2026-09-03T23:08"
+    "title": "Wall Street Analysts Think Applied Materials (AMAT) Is a Good Investment: Is It?",
+    "source": "Zacks",
+    "when": "2026-09-07T13:30"
    }
   ],
   "AMD": [
    {
-    "title": "Prediction: Data Center Passes 70% of AMD's Revenue in 2027, Before the Helios Ramp Is Finished",
-    "source": "Motley Fool",
-    "when": "2026-09-07T02:46"
+    "title": "Advanced Micro Devices Sees AI Boom Fueling MI450, Helios and Server CPU Growth",
+    "source": "MarketBeat",
+    "when": "2026-09-08T15:02"
    },
    {
-    "title": "Did Nvidia Just Say Checkmate to AMD and Intel?",
-    "source": "Motley Fool",
-    "when": "2026-09-06T22:30"
+    "title": "AMD Has Something Nvidia Doesn\u2019t. Is the Stock Finally Ready to Break Out?",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T15:00"
    },
    {
-    "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-    "source": "Motley Fool",
-    "when": "2026-09-06T17:34"
+    "title": "Can Intel's AI PC Innovation With ASU Strengthen Its Market Position?",
+    "source": "Zacks",
+    "when": "2026-09-08T14:54"
+   }
+  ],
+  "AMZN": [
+   {
+    "title": "What investors 'really' need to see from Oracle earnings this week",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-08T15:07"
+   },
+   {
+    "title": "Amazon Just Handed Qualcomm a Slice of AWS\u2019s AI Buildout",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:56"
+   },
+   {
+    "title": "QCOM Stock Jumps After Amazon Inks $60B \u2018Multi-Generation\u2019 AI Chip Deal",
+    "source": "Stocktwits",
+    "when": "2026-09-08T14:52"
    }
   ],
   "AVGO": [
    {
-    "title": "These AI numbers are getting crazy",
-    "source": "Yahoo Finance",
-    "when": "2026-09-06T12:30"
+    "title": "Amazon Just Handed Qualcomm a Slice of AWS\u2019s AI Buildout",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:56"
    },
    {
-    "title": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
+    "title": "Cathie Wood Just Went Bargain Hunting. Here Are the 3 AI Stocks She Bought.",
     "source": "Motley Fool",
-    "when": "2026-09-06T17:34"
+    "when": "2026-09-08T14:52"
    },
    {
-    "title": "Broadcom And 2 Top Growth Stocks To Watch",
-    "source": "Simply Wall St.",
-    "when": "2026-09-06T12:10"
+    "title": "Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy \u2014 Then It Got Added to the S&P 500",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:34"
    }
   ],
   "BCDA": [
@@ -1476,19 +1435,19 @@
   ],
   "BE": [
    {
-    "title": "Bloom Energy Up 52% Since Pelosi's Bottom Buy: What Does She Know?",
-    "source": "BeInCrypto",
-    "when": "2026-09-07T04:12"
-   },
-   {
-    "title": "Bloom Energy, Illumina, Everpure Rise On S&P 500 Inclusion",
+    "title": "Stock Market Today: Dow Dives, Oil Spikes After Saudi Attacks; Amgen Swoons On These Results (Live Coverage)",
     "source": "Investor's Business Daily",
-    "when": "2026-09-05T22:51"
+    "when": "2026-09-08T14:50"
    },
    {
-    "title": "I Love Bloom Energy for 1 Reason, and It's Not the Backlog",
-    "source": "Motley Fool",
-    "when": "2026-09-05T10:50"
+    "title": "Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy \u2014 Then It Got Added to the S&P 500",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:34"
+   },
+   {
+    "title": "Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:32"
    }
   ],
   "BRK.B": [
@@ -1510,36 +1469,36 @@
   ],
   "CCJ": [
    {
+    "title": "Jefferies Sees Cameco (CCJ) and BWXT as Winners in the Nuclear Boom",
+    "source": "Insider Monkey",
+    "when": "2026-09-07T22:29"
+   },
+   {
+    "title": "Powering the AI Boom: Uranium\u2019s $95 Spark",
+    "source": "MarketBeat",
+    "when": "2026-09-07T12:05"
+   },
+   {
     "title": "BWX Technologies Already Builds Reactors for the Navy. Why Is It Still the Cheapest Nuclear Stock?",
     "source": "Motley Fool",
     "when": "2026-09-06T13:25"
-   },
-   {
-    "title": "2 Nuclear Energy Stocks to Buy in September",
-    "source": "Motley Fool",
-    "when": "2026-09-06T12:20"
-   },
-   {
-    "title": "3 Nuclear Stocks to Buy With $2,000 After One Fell 83%",
-    "source": "Motley Fool",
-    "when": "2026-09-05T20:43"
    }
   ],
   "DIA": [
    {
+    "title": "Canadian Tariffs Hit $20B in U.S. Imports",
+    "source": "Zacks",
+    "when": "2026-09-08T14:13"
+   },
+   {
+    "title": "Should State Street SPDR Dow Jones Industrial Average ETF Trust (DIA) Be on Your Investing Radar?",
+    "source": "Zacks",
+    "when": "2026-09-07T10:20"
+   },
+   {
     "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq \u2014TSLA, NFLX, BE, NVDA In Focus",
     "source": "Stocktwits",
     "when": "2026-09-04T22:18"
-   },
-   {
-    "title": "Non-farm Payrolls Surprise Higher: +162K, +4.1% Unemployment",
-    "source": "Zacks",
-    "when": "2026-09-04T14:25"
-   },
-   {
-    "title": "S&P 500, Dow End Best Day In A Month On Calmer Yields As Rate Hike Bets Wane \u2014 SPCX, VSXY, NVDA, TSLA In Focus",
-    "source": "Stocktwits",
-    "when": "2026-09-03T22:24"
    }
   ],
   "ENOV": [
@@ -1610,55 +1569,89 @@
     "when": "2026-08-26T09:47"
    }
   ],
+  "GF": [
+   {
+    "title": "Painful week for individual investors invested in Georg Fischer AG (VTX:GF) after 7.0% drop, institutions also suffered losses",
+    "source": "Simply Wall St.",
+    "when": "2025-11-11T04:47"
+   },
+   {
+    "title": "Georg Fischer's (VTX:GF) five-year total shareholder returns outpace the underlying earnings growth",
+    "source": "Simply Wall St.",
+    "when": "2025-10-14T07:42"
+   },
+   {
+    "title": "Should You Think About Buying Georg Fischer AG (VTX:GF) Now?",
+    "source": "Simply Wall St.",
+    "when": "2025-09-21T06:20"
+   }
+  ],
   "GLD": [
+   {
+    "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",
+    "source": "MT Newswires",
+    "when": "2026-09-08T13:20"
+   },
+   {
+    "title": "Investing in Gold or the S&P 500: What's the Best Move for Investors in the Final Quarter of 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-08T09:20"
+   },
    {
     "title": "Billionaire Activist Investor Dan Loeb Bought Gold, Then Dumped It 3 Months Later \u2014 Timing Hasn't Paid Off Yet",
     "source": "Benzinga",
     "when": "2026-09-05T14:00"
-   },
-   {
-    "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
-    "source": "MT Newswires",
-    "when": "2026-09-04T13:33"
-   },
-   {
-    "title": "The Best Gold ETF Is SPDR Gold Shares (GLD): Here's Why I'm Holding It in 2026",
-    "source": "Motley Fool",
-    "when": "2026-09-04T09:50"
    }
   ],
   "GOOGM": [
    {
-    "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care",
-    "source": "Insider Monkey",
-    "when": "2026-09-07T03:44"
+    "title": "Beyond Social: Meta Is Buying the Future of Compute So I\u2019m Buying It",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:43"
    },
    {
-    "title": "Why Gabelli\u2019s Global Content & Connectivity Fund Likes Alphabet (GOOGL)",
-    "source": "Insider Monkey",
-    "when": "2026-09-05T15:35"
+    "title": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:30"
    },
    {
-    "title": "A Judge Spared Alphabet From an Ad-Tech Breakup but Ordered Changes. Does That Protect Its AI War Chest?",
-    "source": "Insider Monkey",
-    "when": "2026-09-05T09:07"
+    "title": "Musk\u2019s Trillionaire Status Disappears, And Won\u2019t Be Back Soon",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:00"
    }
   ],
   "GOOGN": [
    {
-    "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care",
-    "source": "Insider Monkey",
-    "when": "2026-09-07T03:44"
+    "title": "Beyond Social: Meta Is Buying the Future of Compute So I\u2019m Buying It",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:43"
    },
    {
-    "title": "Why Gabelli\u2019s Global Content & Connectivity Fund Likes Alphabet (GOOGL)",
-    "source": "Insider Monkey",
-    "when": "2026-09-05T15:35"
+    "title": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:30"
    },
    {
-    "title": "A Judge Spared Alphabet From an Ad-Tech Breakup but Ordered Changes. Does That Protect Its AI War Chest?",
-    "source": "Insider Monkey",
-    "when": "2026-09-05T09:07"
+    "title": "Musk\u2019s Trillionaire Status Disappears, And Won\u2019t Be Back Soon",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:00"
+   }
+  ],
+  "GRX": [
+   {
+    "title": "Healthcare CEF Insiders Are Quietly Buying While 60% of Distributions Return Capital",
+    "source": "24/7 Wall St.",
+    "when": "2026-04-25T10:35"
+   },
+   {
+    "title": "GRX\u2019s 14-Year Dividend Streak Holds Firm as Rate Cuts Ease Leverage Costs",
+    "source": "24/7 Wall St.",
+    "when": "2026-04-17T15:15"
+   },
+   {
+    "title": "Billionaires Start 2026 With Huge Insider Buys",
+    "source": "24/7 Wall St.",
+    "when": "2026-01-07T13:45"
    }
   ],
   "IBP": [
@@ -1680,19 +1673,19 @@
   ],
   "INTC": [
    {
-    "title": "Bloom Energy Up 52% Since Pelosi's Bottom Buy: What Does She Know?",
-    "source": "BeInCrypto",
-    "when": "2026-09-07T04:12"
-   },
-   {
-    "title": "Nvidia\u2019s $99 Billion Portfolio Is Turning Intel and CoreWeave Into an AI Stress Test",
-    "source": "Insider Monkey",
-    "when": "2026-09-07T03:42"
-   },
-   {
-    "title": "Did Nvidia Just Say Checkmate to AMD and Intel?",
+    "title": "Why Rigetti Computing Popped Today",
     "source": "Motley Fool",
-    "when": "2026-09-06T22:30"
+    "when": "2026-09-08T15:00"
+   },
+   {
+    "title": "Can Intel's AI PC Innovation With ASU Strengthen Its Market Position?",
+    "source": "Zacks",
+    "when": "2026-09-08T14:54"
+   },
+   {
+    "title": "Cramer Begs Trump Not to Sell Chipmaker That Is Up 311% in a Year",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:43"
    }
   ],
   "LILA": [
@@ -1714,39 +1707,44 @@
   ],
   "LMT": [
    {
-    "title": "Lockheed Martin (LMT) Stock Still Looks Below Fair Value After A 74% Run",
-    "source": "Simply Wall St.",
-    "when": "2026-09-05T04:16"
+    "title": "Should You Buy GE Aerospace Stock On Cash That Came Early?",
+    "source": "Trefis",
+    "when": "2026-09-08T14:50"
    },
    {
-    "title": "Lockheed Martin (LMT) Could Be 22% Undervalued On Credit Deal Extension",
-    "source": "Simply Wall St.",
-    "when": "2026-09-05T01:08"
+    "title": "Trump Declares the Moon Belongs to the U.S. Here Are 5 Space Stocks to Watch",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:43"
    },
    {
-    "title": "Boeing vs. Lockheed Martin: Which Aerospace Stock Is a Better Buy in 2026?",
-    "source": "Motley Fool",
-    "when": "2026-09-04T19:19"
+    "title": "Can Chinook Modernization Strengthen RTX's Defense Growth?",
+    "source": "Zacks",
+    "when": "2026-09-08T14:41"
    }
   ],
   "NEM": [
    {
-    "title": "Newmont Corporation (NEM) Registers a Bigger Fall Than the Market: Important Facts to Note",
+    "title": "Kinross Gold Stock Up 13% in a Month: What Should Investors Do Now?",
     "source": "Zacks",
-    "when": "2026-09-04T21:50"
+    "when": "2026-09-08T12:30"
    },
    {
-    "title": "JPMorgan\u2019s Own Strategist Says the Fed Has Quietly Surrendered on 2% Inflation",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-04T17:41"
+    "title": "Can NEM Maintain Earnings Momentum Amid Production Challenges?",
+    "source": "Zacks",
+    "when": "2026-09-08T12:25"
    },
    {
-    "title": "These Gold Stocks Pay You While You Hedge",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-04T13:45"
+    "title": "Stock Funds Are Up 12.6% for Year So Far",
+    "source": "The Wall Street Journal",
+    "when": "2026-09-07T14:00"
    }
   ],
   "NICE": [
+   {
+    "title": "SoundHound's OASYS Converts Pilots Faster: Can Enterprise AI Scale?",
+    "source": "Zacks",
+    "when": "2026-09-07T16:23"
+   },
    {
     "title": "SoundHound Healthcare Deals Surge: Is This Its Next Growth Engine?",
     "source": "Zacks",
@@ -1756,11 +1754,6 @@
     "title": "NICE (TASE:NICE) Stock Looks Reasonable On Earnings But Weak On Returns",
     "source": "Simply Wall St.",
     "when": "2026-08-29T19:04"
-   },
-   {
-    "title": "NICE (TASE:NICE) Turns A Healthcare Contact Center Toward AI With CXone",
-    "source": "Simply Wall St.",
-    "when": "2026-08-29T16:15"
    }
   ],
   "NLR": [
@@ -1780,55 +1773,106 @@
     "when": "2026-08-18T16:33"
    }
   ],
+  "NMTC": [
+   {
+    "title": "NeuroOne (NMTC) Q3 2026 Earnings Call Transcript",
+    "source": "Motley Fool",
+    "when": "2026-08-20T15:13"
+   },
+   {
+    "title": "NeuroOne Medical Technologies Corp (NMTC) (Q3 2026) Earnings Call Highlights: Revenue Grows 16% ...",
+    "source": "GuruFocus.com",
+    "when": "2026-08-17T19:03"
+   },
+   {
+    "title": "NeuroOne Medical Technologies Corporation Q3 2026 Earnings Call Summary",
+    "source": "Moby",
+    "when": "2026-08-14T00:49"
+   }
+  ],
   "NOC": [
    {
-    "title": "White House reviewed potential replacements for Pentagon deputy Feinberg - Reuters",
-    "source": "Investing.com",
-    "when": "2026-09-05T05:40"
+    "title": "Should You Buy GE Aerospace Stock On Cash That Came Early?",
+    "source": "Trefis",
+    "when": "2026-09-08T14:50"
    },
    {
-    "title": "Is Northrop Grumman Stock Underperforming the S&P 500?",
-    "source": "Barchart",
-    "when": "2026-09-04T15:05"
-   },
-   {
-    "title": "Boeing Slips 3.2% in 3 Months: Is a Better Entry Point Ahead?",
+    "title": "Can Redwire's Phased-Array Investment Drive Defense Growth?",
     "source": "Zacks",
-    "when": "2026-09-04T11:51"
+    "when": "2026-09-08T13:01"
+   },
+   {
+    "title": "Stock Funds Are Up 12.6% for Year So Far",
+    "source": "The Wall Street Journal",
+    "when": "2026-09-07T14:00"
+   }
+  ],
+  "NTST": [
+   {
+    "title": "Ondas, SoundHound AI Among 5 Stocks Facing Heavy Short Bets",
+    "source": "GuruFocus.com",
+    "when": "2026-09-02T16:26"
+   },
+   {
+    "title": "SoundHound AI Leads Wall Street's Most Shorted Stocks at 42%",
+    "source": "GuruFocus.com",
+    "when": "2026-08-05T18:13"
+   },
+   {
+    "title": "PK vs. NTST: Which Stock Is the Better Value Option?",
+    "source": "Zacks",
+    "when": "2026-08-04T15:40"
    }
   ],
   "O": [
    {
-    "title": "Realty Income (O) On Loan Changes And The Case For A Discount",
+    "title": "5 Monthly Dividend Stocks Built to Keep the Checks Coming",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:45"
+   },
+   {
+    "title": "Invest in Realty Income stock to earn $100 in monthly dividends",
+    "source": "TheStreet",
+    "when": "2026-09-08T01:03"
+   },
+   {
+    "title": "How Much Would You Need in Realty Income (O) Stock to Collect $500 a Month in Dividends?",
+    "source": "Motley Fool",
+    "when": "2026-09-07T09:40"
+   }
+  ],
+  "OBIO": [
+   {
+    "title": "Orchestra BioMed Holdings, Inc. (OBIO) Reports Q2 Loss, Misses Revenue Estimates",
+    "source": "Zacks",
+    "when": "2026-08-10T21:55"
+   },
+   {
+    "title": "Favourable Signals For Orchestra BioMed Holdings: Numerous Insiders Acquired Stock",
     "source": "Simply Wall St.",
-    "when": "2026-09-06T08:10"
+    "when": "2026-05-21T11:10"
    },
    {
-    "title": "High-Yield Dividend Investors Could Be Making This Expensive Tax Mistake",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-05T17:52"
-   },
-   {
-    "title": "These 2 Dividend Giants Yield Around 5%\u2014But That\u2019s Where the Similarities End",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-05T16:45"
+    "title": "Orchestra BioMed Holdings, Inc. (OBIO) Reports Q1 Loss, Lags Revenue Estimates",
+    "source": "Zacks",
+    "when": "2026-05-12T21:40"
    }
   ],
   "OKLO": [
    {
+    "title": "OKLO Stock Rises Premarket: Here's Why This Strategist Sees A 'Bigger Opportunity'",
+    "source": "Stocktwits",
+    "when": "2026-09-08T08:03"
+   },
+   {
+    "title": "Is Oklo at $41 a Bargain or a Trap? Here's the Answer.",
+    "source": "Motley Fool",
+    "when": "2026-09-07T13:14"
+   },
+   {
     "title": "BWX Technologies Already Builds Reactors for the Navy. Why Is It Still the Cheapest Nuclear Stock?",
     "source": "Motley Fool",
     "when": "2026-09-06T13:25"
-   },
-   {
-    "title": "Here's Why Oklo Stock Trades at a 900% Premium to NuScale Power",
-    "source": "Motley Fool",
-    "when": "2026-09-06T11:03"
-   },
-   {
-    "title": "Nuclear Stock Face-Off: Is NuScale Power or Oklo the Better Buy Right Now?",
-    "source": "Motley Fool",
-    "when": "2026-09-04T11:03"
    }
   ],
   "PLD": [
@@ -1850,73 +1894,85 @@
   ],
   "PLTR": [
    {
-    "title": "Palantir\u2019s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
-    "source": "Benzinga",
-    "when": "2026-09-07T01:30"
+    "title": "Nebius Becomes Palantir\u2019s Secret Weapon as AI Compute Wars Heat Up",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:38"
    },
    {
-    "title": "Michael Burry sends a strong warning to Palantir stock investors",
-    "source": "TheStreet",
-    "when": "2026-09-06T14:37"
+    "title": "Nebius Rises 6% as Palantir Names It Preferred Sovereign AI Partner; Palantir Stock Slips",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:19"
    },
    {
-    "title": "Michael Burry Says Palantir's Books Look More Like a Consultant's Than a Software Company's",
-    "source": "Motley Fool",
-    "when": "2026-09-06T03:46"
+    "title": "Investors Are Buying Palantir for a Story That Is Not Quite True",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T13:39"
    }
   ],
   "RTX": [
    {
-    "title": "Raytheon Is Winning Billions in Defense Contracts \u2014 Should You Buy RTX Stock?",
-    "source": "Insider Monkey",
-    "when": "2026-09-05T14:39"
+    "title": "Should You Buy GE Aerospace Stock On Cash That Came Early?",
+    "source": "Trefis",
+    "when": "2026-09-08T14:50"
    },
    {
-    "title": "Can Strategic Acquisitions Strengthen TransDigm's Growth?",
+    "title": "Can Chinook Modernization Strengthen RTX's Defense Growth?",
     "source": "Zacks",
-    "when": "2026-09-04T14:35"
+    "when": "2026-09-08T14:41"
    },
    {
-    "title": "Can the Sea-Launched Cruise Missile Program Boost GD's Growth?",
+    "title": "Can Local Javelin Production Strengthen Lockheed Martin in India?",
     "source": "Zacks",
-    "when": "2026-09-04T14:30"
+    "when": "2026-09-07T14:12"
    }
   ],
-  "SAIL": [
+  "SCND": [
    {
-    "title": "Adobe Names New CEO As Earnings Approach And AI Fears Persist; Navan, SailPoint Also Due",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-04T16:24"
+    "title": "Scientific Industries Inc (SCND) Q3 2025 Earnings Call Highlights: Record Revenue Growth and ...",
+    "source": "GuruFocus.com",
+    "when": "2025-11-20T23:01"
+   }
+  ],
+  "SHMD": [
+   {
+    "title": "SCHMID (SHMD) Nearly Tripled Revenue but Cut its Adjusted EBITDA Margin Outlook. Is China Growth Too Low-Margin?",
+    "source": "Insider Monkey",
+    "when": "2026-08-27T22:49"
    },
    {
-    "title": "What Analyst Projections for Key Metrics Reveal About SailPoint, Inc.  (SAIL) Q2 Earnings",
-    "source": "Zacks",
-    "when": "2026-09-03T13:15"
+    "title": "SCHMID Group N.V. Class A Ordinary Shares Q2 2026 Earnings Call Summary",
+    "source": "Moby",
+    "when": "2026-08-26T12:30"
    },
    {
-    "title": "Daktronics (DAKT) Beats Q1 Earnings and Revenue Estimates",
-    "source": "Zacks",
-    "when": "2026-09-02T12:40"
+    "title": "SCHMID Group Q2 Earnings Call Highlights",
+    "source": "MarketBeat",
+    "when": "2026-08-25T15:03"
    }
   ],
   "SPY": [
    {
-    "title": "I Make $150,000 a Year, But It Feels Like I\u2019m Just Middle Class in a World Full of Rich People",
+    "title": "Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2%",
     "source": "24/7 Wall St.",
-    "when": "2026-09-06T19:45"
+    "when": "2026-09-08T14:32"
    },
    {
-    "title": "ETF Inflows Set a Record in July. The Fee Mix Moved at the Same Time.",
-    "source": "Motley Fool",
-    "when": "2026-09-06T09:35"
+    "title": "Qualcomm Rises 5% on Multi-Generation Amazon AI Silicon Deal; Broadcom Ticks Up, Amazon Holds Flat",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:22"
    },
    {
-    "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq \u2014TSLA, NFLX, BE, NVDA In Focus",
-    "source": "Stocktwits",
-    "when": "2026-09-04T22:18"
+    "title": "Nebius Rises 6% as Palantir Names It Preferred Sovereign AI Partner; Palantir Stock Slips",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:19"
    }
   ],
   "TOST": [
+   {
+    "title": "Brokers Suggest Investing in Toast (TOST): Read This Before Placing a Bet",
+    "source": "Zacks",
+    "when": "2026-09-07T13:30"
+   },
    {
     "title": "Toast (TOST) Stock Gets Fair Value Boost After Q2 Sparks Split Analyst Views",
     "source": "Simply Wall St.",
@@ -1926,11 +1982,23 @@
     "title": "Toast (TOST) Raises Outlook As Q2 Beat Revives The Case For Undervalued Shares",
     "source": "Simply Wall St.",
     "when": "2026-09-04T02:17"
+   }
+  ],
+  "UBER": [
+   {
+    "title": "If Uber\u2019s Fundamentals Have \u2018Dramatically Improved,\u2019 Why Has the Stock Gone Nowhere?",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T12:50"
    },
    {
-    "title": "Is Toast (TOST) Quietly Recasting Its Investment Story Around Recurring Profit And AI?",
-    "source": "Simply Wall St.",
-    "when": "2026-09-03T21:10"
+    "title": "Is AI the Answer to Big-Box Retail\u2019s Woes?",
+    "source": "Motley Fool",
+    "when": "2026-09-08T12:20"
+   },
+   {
+    "title": "3 of the Best Growth Stocks to Buy for Less Than $100 Right Now",
+    "source": "Motley Fool",
+    "when": "2026-09-08T09:20"
    }
   ],
   "VNQ": [
@@ -1952,45 +2020,5 @@
   ]
  },
  "people_news": {},
- "allowed": [
-  "AMAT",
-  "AMD",
-  "AVGO",
-  "BCDA",
-  "BE",
-  "BRK.B",
-  "CCJ",
-  "DIA",
-  "ENOV",
-  "EQIX",
-  "EQT",
-  "ESAB",
-  "GLD",
-  "GOOGM",
-  "GOOGN",
-  "IBP",
-  "INTC",
-  "LILA",
-  "LMT",
-  "NEM",
-  "NICE",
-  "NLR",
-  "NOC",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "RTX",
-  "SAIL",
-  "SPY",
-  "TOST",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
-  "insiders": "ok"
- },
- "signalsAsOf": "2026-09-07T01:00-04:00"
+ "signalsAsOf": "2026-09-08T11:17-04:00"
 }
