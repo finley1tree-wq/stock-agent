@@ -5,3 +5,4 @@
 - 2026-09-08 (avg so far -0.08%): Big intraday momentum names (AMD, INTC, AMAT) already popped 3-9% by midday have historically underperformed after being bought at the check - use stops to protect rather than chasing more at the same tick.
 - 2026-09-08 (avg so far -0.13%): When already heavily deployed for the day with existing positions all fresh (days_held=0), focus on protecting gains via stops rather than adding new momentum-chasing buys; use limit orders below market for any further index/ETF adds.
 - 2026-09-08 (avg so far -0.15%): Don't add fresh momentum buys after 3+ names already popped 3-9% same day and are all days_held=0; let existing stops and buy_limits work instead of chasing more entries at the same tick.
+- 2026-09-08 (avg so far 0.27%): With most positions fresh and up 3-10% intraday same-day, let existing stops/trailing-stops/buy_limits do the work rather than adding new momentum buys at the same tick.

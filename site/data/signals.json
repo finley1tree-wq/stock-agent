@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-08T12:33-04:00",
- "note": "Already spent 240 of 400 weekly budget today across 7 positions, all fresh (days_held=0) and all momentum-chasers that popped 3-9% intraday (AMAT, AMD, INTC, CCJ, NLR). Track record shows congress+momentum buys averaging negative returns at this hour (12:00 avg -0.37%). Existing stops/trailing stops",
+ "asOf": "2026-09-08T13:03-04:00",
+ "note": "Portfolio is already 90% deployed today across 7 momentum-heavy names (AMD +6.9%, INTC +10%, AMAT +3.5%, NLR +4.4%, CCJ +2.6%) all bought same-day at days_held=0. My own recent lessons explicitly warn against chasing more momentum on top of these same-tick pops. Protective stops/trailing stops are a",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -85,8 +85,8 @@
    "usd": 20.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 767.15,
-   "pct_away": -1.58,
+   "last": 767.76,
+   "pct_away": -1.66,
    "good_until": "2026-09-12",
    "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
    "signals": [
@@ -102,8 +102,8 @@
    "usd": 15.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.07,
-   "pct_away": -3.46,
+   "last": 103.4,
+   "pct_away": -3.77,
    "good_until": "2026-09-12",
    "why": "Add to nuclear theme on a pullback rather than chasing at current price",
    "signals": [
@@ -120,8 +120,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 469.15,
-   "pct_away": -4.72,
+   "last": 470.75,
+   "pct_away": -5.05,
    "good_until": "2026-09-12",
    "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
@@ -136,8 +136,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 124.63,
-   "pct_away": -5.32,
+   "last": 125.25,
+   "pct_away": -5.79,
    "good_until": "2026-09-12",
    "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
    "signals": [
@@ -152,8 +152,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.07,
-   "pct_away": -5.89,
+   "last": 103.4,
+   "pct_away": -6.19,
    "good_until": "2026-09-12",
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
    "signals": [
@@ -164,12 +164,12 @@
    "id": "68402e49",
    "ticker": "INTC",
    "kind": "trailing_stop",
-   "price": 96.669,
+   "price": 97.5016,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 104.58,
-   "pct_away": -7.56,
+   "last": 105.49,
+   "pct_away": -7.57,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
@@ -181,12 +181,12 @@
    "id": "5a8628c1",
    "ticker": "AMD",
    "kind": "trailing_stop",
-   "price": 468.5468,
+   "price": 470.212,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 507.4,
-   "pct_away": -7.66,
+   "last": 510.6,
+   "pct_away": -7.91,
    "good_until": "2026-09-12",
    "why": "Lock in protection on the biggest one-day mover in the book",
    "signals": [
@@ -195,7 +195,7 @@
    ]
   }
  ],
- "next_check_minutes": 60,
+ "next_check_minutes": 90,
  "allowed": [
   "AEP",
   "ALKS",
@@ -229,6 +229,7 @@
   "SHMD",
   "SKWD",
   "SPY",
+  "TPL",
   "UBER",
   "VNQ"
  ],
@@ -249,7 +250,7 @@
   ]
  },
  "learning": {
-  "decisions_recorded": 5,
+  "decisions_recorded": 6,
   "note": "not enough history to grade yet"
  },
  "congress_trades": [
@@ -998,6 +999,26 @@
  },
  "insider_trades": [
   {
+   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+   "role": "10 percent owner",
+   "ticker": "TPL",
+   "type": "buy",
+   "shares": 1,
+   "price": 360.03,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Huizenga Theodore Alan",
+   "role": "officer: SVP, Chief Accounting Officer",
+   "ticker": "RARE",
+   "type": "sell",
+   "shares": 161,
+   "price": 13.99,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-08"
+  },
+  {
    "who": "Pellegrino Frank G",
    "role": "director",
    "ticker": "CZNC",
@@ -1426,26 +1447,6 @@
    "price": 1.09,
    "transaction_date": "2026-09-03",
    "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Mann Paul Elliot",
-   "role": "director, officer: Chairman and CEO",
-   "ticker": "ASPI",
-   "type": "sell",
-   "shares": 83758,
-   "price": 3.91,
-   "transaction_date": "2026-09-02",
-   "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Mann Paul Elliot",
-   "role": "director, officer: Chairman and CEO",
-   "ticker": "ASPI",
-   "type": "sell",
-   "shares": 83758,
-   "price": 3.92,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-04"
   }
  ],
  "insider_pressure": {
@@ -1454,6 +1455,7 @@
   "ECF": 2.0,
   "SHMD": 2.0,
   "UBER": 2.0,
+  "TPL": 1.0,
   "SCND": 1.0,
   "RCG": 1.0,
   "GRX": 1.0,
@@ -1462,13 +1464,12 @@
   "NMTC": 1.0,
   "OBIO": 1.0,
   "BCDA": 1.0,
+  "RARE": -1.0,
   "CFFI": -1.0,
   "WTS": -1.0,
   "DRS": -1.0,
   "DHT": -1.0,
-  "AFL": -1.0,
-  "SCCO": -1.0,
-  "ZIM": -1.0
+  "AFL": -1.0
  },
  "headlines": {
   "AEP": [
@@ -1575,6 +1576,11 @@
   ],
   "BE": [
    {
+    "title": "Bloom Energy Stock Rallies on News of S&P 500 Addition",
+    "source": "Investopedia",
+    "when": "2026-09-08T15:48"
+   },
+   {
     "title": "Bloom Energy\u2019s S&P 500 Entry Could Bring A New Wave Of Buyers, Says Clear Street \u2014 Projects 20% Upside In BE Stock",
     "source": "Stocktwits",
     "when": "2026-09-08T15:33"
@@ -1583,11 +1589,6 @@
     "title": "Plug Power Surges 10.1% YTD: Should Investors Ride the Rally?",
     "source": "Zacks",
     "when": "2026-09-08T15:19"
-   },
-   {
-    "title": "Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy \u2014 Then It Got Added to the S&P 500",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:34"
    }
   ],
   "CCJ": [
@@ -1711,19 +1712,19 @@
   ],
   "INTC": [
    {
-    "title": "Why Intel Stock Rallied Tuesday Morning",
-    "source": "Motley Fool",
-    "when": "2026-09-08T15:49"
+    "title": "ASML Shares Jump on Breakthrough Chipmaking Plans With Intel and TSMC",
+    "source": "GuruFocus.com",
+    "when": "2026-09-08T17:00"
    },
    {
-    "title": "Why Rigetti Computing Popped Today",
-    "source": "Motley Fool",
-    "when": "2026-09-08T15:00"
+    "title": "Intel's 8% Jump Adds $39 Billion as High-NA Hits One Million Wafers",
+    "source": "GuruFocus.com",
+    "when": "2026-09-08T16:55"
    },
    {
-    "title": "Can Intel's AI PC Innovation With ASU Strengthen Its Market Position?",
-    "source": "Zacks",
-    "when": "2026-09-08T14:54"
+    "title": "Update: US Equity Indexes Fall as Strikes on Saudi Arabian Energy Sites Send Crude Oil Higher",
+    "source": "MT Newswires",
+    "when": "2026-09-08T16:39"
    }
   ],
   "LILA": [
@@ -1745,6 +1746,11 @@
   ],
   "LMT": [
    {
+    "title": "Why Lockheed Martin Stock Popped Today",
+    "source": "Motley Fool",
+    "when": "2026-09-08T16:27"
+   },
+   {
     "title": "Should You Buy GE Aerospace Stock On Cash That Came Early?",
     "source": "Trefis",
     "when": "2026-09-08T14:50"
@@ -1753,11 +1759,6 @@
     "title": "Trump Declares the Moon Belongs to the U.S. Here Are 5 Space Stocks to Watch",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T14:43"
-   },
-   {
-    "title": "Can Chinook Modernization Strengthen RTX's Defense Growth?",
-    "source": "Zacks",
-    "when": "2026-09-08T14:41"
    }
   ],
   "NEM": [
@@ -1915,19 +1916,19 @@
   ],
   "PLTR": [
    {
+    "title": "Update: US Equity Indexes Fall as Strikes on Saudi Arabian Energy Sites Send Crude Oil Higher",
+    "source": "MT Newswires",
+    "when": "2026-09-08T16:39"
+   },
+   {
+    "title": "This Could Be the AI Stock That Keeps Surprising Wall Street",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T16:30"
+   },
+   {
     "title": "EXCLUSIVE: Anthropic IPO Could Be \u2018Heavily Oversubscribed,\u2019 IPO Adviser Says",
     "source": "Benzinga Private Markets",
     "when": "2026-09-08T16:22"
-   },
-   {
-    "title": "Nebius Becomes Palantir\u2019s Secret Weapon as AI Compute Wars Heat Up",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:38"
-   },
-   {
-    "title": "Nebius Rises 6% as Palantir Names It Preferred Sovereign AI Partner; Palantir Stock Slips",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:19"
    }
   ],
   "PRAX": [
@@ -1949,6 +1950,11 @@
   ],
   "RTX": [
    {
+    "title": "Howmet Rises 26.5% Year to Date: Should Investors Buy the Stock Now?",
+    "source": "Zacks",
+    "when": "2026-09-08T16:51"
+   },
+   {
     "title": "Should You Buy GE Aerospace Stock On Cash That Came Early?",
     "source": "Trefis",
     "when": "2026-09-08T14:50"
@@ -1957,11 +1963,6 @@
     "title": "Can Chinook Modernization Strengthen RTX's Defense Growth?",
     "source": "Zacks",
     "when": "2026-09-08T14:41"
-   },
-   {
-    "title": "Can Local Javelin Production Strengthen Lockheed Martin in India?",
-    "source": "Zacks",
-    "when": "2026-09-07T14:12"
    }
   ],
   "SAIL": [
@@ -2017,6 +2018,11 @@
   ],
   "SPY": [
    {
+    "title": "Enphase Energy Rises 5% as Solid-State Transformer Modules Enter Texas Production, SolarEdge Jumps 6%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T16:49"
+   },
+   {
     "title": "AMC Falls 5%, Robinhood Barely Budges: Is the Tokenization Bounce Already Over?",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T16:05"
@@ -2025,11 +2031,23 @@
     "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T15:58"
+   }
+  ],
+  "TPL": [
+   {
+    "title": "2 S&P 500 Stocks for Long-Term Investors and 1 We Turn Down",
+    "source": "StockStory",
+    "when": "2026-09-02T18:12"
    },
    {
-    "title": "NuScale Power Spikes 13%, Oklo Climbs 7%: Is the Nuclear Selloff Finally Exhausted?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T15:13"
+    "title": "Do Wall Street Analysts Like Texas Pacific Land Stock?",
+    "source": "Barchart",
+    "when": "2026-08-17T15:57"
+   },
+   {
+    "title": "Peabody Energy, Borr Drilling, Texas Pacific Land, Halliburton, and Transocean Stocks Trade Up, What You Need To Know",
+    "source": "StockStory",
+    "when": "2026-08-17T03:01"
    }
   ],
   "UBER": [
@@ -2068,5 +2086,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-08T12:33-04:00"
+ "signalsAsOf": "2026-09-08T13:03-04:00"
 }

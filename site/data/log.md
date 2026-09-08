@@ -144,3 +144,15 @@ brain: Already spent 240 of 400 weekly budget today across 7 positions, all fres
 lesson: Don't add fresh momentum buys after 3+ names already popped 3-9% same day and are all days_held=0; let existing stops and buy_limits work instead of chasing more entries at the same tick.
 portfolio: equity $399.69 (-0.08% on $400.00 in) · cash $160.00 · realised +0.00
 Decision: nothing at this check. 7 standing order(s) working.
+
+## 2026-09-08 13:02 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
+  (CZNC excluded: too thinly traded (71,795/day) — Citizens & Northern Corporation)
+  (ECF excluded: too thinly traded (21,038/day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+brain: Portfolio is already 90% deployed today across 7 momentum-heavy names (AMD +6.9%, INTC +10%, AMAT +3.5%, NLR +4.4%, CCJ +2.6%) all bought same-day at days_held=0. My own recent lessons explicitly warn against chasing more momentum on top of these same-tick pops. Protective stops/trailing stops are already in place on AMAT, NLR, CCJ, INTC, AMD, and buy_limits are working below market for SPY and CCJ adds. No new evidence justifies fresh deployment right now; remaining $160 budget stays parked for a better entry via the standing limit orders.
+lesson: With most positions fresh and up 3-10% intraday same-day, let existing stops/trailing-stops/buy_limits do the work rather than adding new momentum buys at the same tick.
+portfolio: equity $400.73 (+0.18% on $400.00 in) · cash $160.00 · realised +0.00
+Decision: nothing at this check. 7 standing order(s) working.
