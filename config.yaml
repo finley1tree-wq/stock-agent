@@ -25,7 +25,10 @@ guardrails:
                                  # below are the real risk control, this only stops runaway churn
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
   only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
-  min_hold_days: 2               # a position can't be sold until it's this old (no churn)
+  min_hold_days: 0               # 0 = it may exit the same day it bought, so a broken thesis or a hit target
+                                 # is acted on now rather than two days later. Churn is held back instead by
+                                 # max_orders_per_day / max_sells_per_day, the no-same-day-rebuy rule, and
+                                 # spread_cost_pct below, which makes every round trip cost something.
   max_sells_per_day: 12          # generous ceiling on sells per day
   allow_politician_tickers: true # may buy tickers Congress members recently bought, even if not on the watchlist
   politician_lookback_days: 30
@@ -34,6 +37,9 @@ guardrails:
   news_headlines_per_ticker: 3   # recent headlines pulled per allowed ticker (free, yfinance)
   max_drawdown_pct: 30           # circuit breaker: stop buying if equity falls this far below money put in
   max_daily_move_pct: 35         # ignore any quote that moved more than this in one day (bad tick / bad split)
+  spread_cost_pct: 0.02          # every MARKET fill is this much worse than the quoted price (buys pay up,
+                                 # sells receive less), so a round trip costs ~0.04% as it would in reality.
+                                 # Standing limit orders are exempt: they fill at the level they asked for.
   trigger_slippage_pct: 0.05     # standing STOP orders become market orders when hit, so they fill this much
                                  # worse than their level. Limit orders fill at their level exactly.
 

@@ -50,6 +50,10 @@ class SimBroker:
         self.start = float(sim_cfg.get("starting_cash", 400))
         self.deposit = float(sim_cfg.get("weekly_deposit", 0))
         self.prices: dict[str, float] = {}
+        # Every market fill is this much worse than the quoted price (buys pay up, sells receive
+        # less). Without it a round trip is free and the agent learns that churning costs nothing.
+        # Standing limit orders set it to 0 for their own fill: they get the level they asked for.
+        self.spread_pct = 0.0
         self.p = self._load()
         self._weekly_deposit()
 
@@ -137,7 +141,8 @@ class SimBroker:
             usd = math.floor(self.p["cash"] * 100 + 1e-9) / 100
         if usd <= 0:
             rec["status"] = "rejected_no_cash"; return rec
-        qty = usd / price
+        fill = round(price * (1 + self.spread_pct / 100), 6)     # you buy at the offer
+        qty = usd / fill
         today = datetime.now(ET).date().isoformat()
         pos = self.p["positions"].get(symbol)
         if pos and pos["qty"] >= 1e-6:
@@ -146,9 +151,9 @@ class SimBroker:
             pos["avg_cost"] = total_cost / pos["qty"]
             pos["last_buy"] = today
         else:
-            self.p["positions"][symbol] = {"qty": qty, "avg_cost": price, "opened": today, "last_buy": today}
+            self.p["positions"][symbol] = {"qty": qty, "avg_cost": fill, "opened": today, "last_buy": today}
         self.p["cash"] -= usd                          # exact, see _weekly_deposit
-        rec.update({"status": "filled", "qty": round(qty, 6), "price": round(price, 2), "notional": usd})
+        rec.update({"status": "filled", "qty": round(qty, 6), "price": round(fill, 2), "notional": usd})
         self.p["fills"].append({**rec, "type": "buy", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})
         self._save()
         return rec
@@ -162,17 +167,19 @@ class SimBroker:
         if not price:
             rec["status"] = "rejected_no_price"; return rec
         qty = min(qty, pos["qty"])
+        avg = pos["avg_cost"]                                    # kept: the position may be deleted below
         if pos["qty"] - qty < 1e-6:   # full close: positions() reports qty at 6 dp, so a 100% sell arrives a hair short
             qty = pos["qty"]
-        proceeds = qty * price
-        realized = (price - pos["avg_cost"]) * qty
+        fill = round(price * (1 - self.spread_pct / 100), 6)     # you sell at the bid
+        proceeds = qty * fill
+        realized = (fill - pos["avg_cost"]) * qty
         pos["qty"] -= qty
         if pos["qty"] < 1e-9:
             del self.p["positions"][symbol]
         self.p["cash"] += proceeds                     # exact: rounding cash and P/L separately drifted the
         self.p["realized_pnl"] += realized             # ledger ~1c per sell and eventually tripped the halt
-        rec.update({"status": "filled", "qty": round(qty, 6), "price": round(price, 2), "proceeds": round(proceeds, 2),
-                    "realized_pnl": round(realized, 2), "realized_pct": round((price / pos["avg_cost"] - 1) * 100, 2)})
+        rec.update({"status": "filled", "qty": round(qty, 6), "price": round(fill, 2), "proceeds": round(proceeds, 2),
+                    "realized_pnl": round(realized, 2), "realized_pct": round((fill / avg - 1) * 100, 2)})
         self.p["fills"].append({**rec, "type": "sell", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})
         self._save()
         return rec

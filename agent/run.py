@@ -64,7 +64,9 @@ def make_broker(cfg: dict):
         from .broker import Broker
         return Broker(env)
     from .broker_sim import SimBroker
-    return SimBroker(env, cfg.get("sim"))
+    b = SimBroker(env, cfg.get("sim"))
+    b.spread_pct = float(cfg.get("guardrails", {}).get("spread_cost_pct", 0) or 0)
+    return b
 
 def _clean_signals(o: dict) -> list[str]:
     raw = o.get("signals") or []
@@ -204,10 +206,13 @@ def _at_price(broker, sym: str, price: float, fn):
     if not isinstance(px_map, dict):
         return fn()                                    # a real broker prices its own fills
     saved = px_map.get(sym)
+    saved_spread = getattr(broker, "spread_pct", 0.0)
     px_map[sym] = float(price)
-    try:
+    broker.spread_pct = 0.0                            # it gets the level it asked for; stops already
+    try:                                               # carry their own slippage in the fill price
         return fn()
     finally:
+        broker.spread_pct = saved_spread
         if saved is None:
             px_map.pop(sym, None)
         else:
@@ -254,7 +259,7 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
                 log_fn(f"- SELL {sl['pct']:.0f}% {sl['ticker']} [{rec['status']}]"); continue
             full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
                     "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": f["kind"]}
-            state.record_sell(st, sl["ticker"], full); state.save(st)
+            state.record_sell(st, sl["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
             learn.record_sell(full, signals=sl["signals"], evidence=sl["evidence"], hour_et=now.hour)
             triggers.close(f["id"], now, "filled")
             if sl["ticker"] not in broker.positions():
@@ -415,7 +420,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         if str(rec.get("status", "")).startswith("rejected"):
             log(f"- SELL {s['pct']:.0f}% {s['ticker']} [{rec['status']}]"); continue
         full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": s["why"], "signals": s["signals"], "evidence": s["evidence"]}
-        state.record_sell(st, s["ticker"], full); state.save(st)
+        state.record_sell(st, s["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
         learn.record_sell(full, signals=s["signals"], evidence=s["evidence"], hour_et=now.hour)
         filled_sells.append(s)
         extra = f" → ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%)" if "proceeds" in rec else ""

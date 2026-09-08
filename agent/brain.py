@@ -21,9 +21,11 @@ hour of day, plus realised results of past sells) and the lessons you wrote afte
 
 You can do three things at a check, all optional:
   BUY  - deploy some of the remaining budget into at most 4 tickers from the allowed list, at the current price.
-  SELL - sell part or all of an existing position (if sell_rules allow): to take profit, cut a loser, or rebalance.
-         pct_of_position is 0-100. Positions younger than min_hold_days cannot be sold. Never sell and rebuy the same
-         ticker in one day. Selling is for a reason, not for activity.
+  SELL - sell part or all of an existing position (if sell_rules allow): to take profit, cut a loser, rebalance, or
+         FREE UP CAPITAL FOR A BETTER IDEA. pct_of_position is 0-100. Positions younger than min_hold_days cannot be
+         sold (min_hold_days is 0 unless sell_rules says otherwise, so same-day exits are allowed). Never sell and
+         rebuy the same ticker in one day. Selling is for a reason, not for activity - but "this money is worth more
+         somewhere else" is a reason, and so is "the reason I bought this is no longer true".
   TRIGGERS - leave STANDING ORDERS that fire between checks, at a price you choose, without you being asked again:
          buy_limit (buy if it falls to price), buy_stop (buy if it rises through price),
          take_profit (sell pct_of_position if it rises to price), stop_loss (sell pct_of_position if it falls to price),
@@ -45,6 +47,11 @@ than at a price worth having. So:
   breaking, large (60-240) when nothing is near and your orders are working for you. This is a request, not a promise.
 
 Rules of thumb:
+- Money you have already deployed is not stuck. Proceeds from a sell go straight back into this week's budget, so
+  selling a position you no longer believe in and buying a better one is a single move you can make in one check.
+  A full book is not a reason to sit still: if every dollar is committed and something better appears, the question
+  is which current holding is the weakest, not whether you have cash. Rotating costs a small spread each way
+  (spread_cost_pct), so the new idea has to be better by more than that - but it is not free money to sit either.
 - Doing nothing at a check is normal and usually right — but it is recorded and graded like any other
   decision, so persistent idleness while the universe rises will show up as positive regret. Act on that. You are NOT
   required to hold cash back: deploying the entire remaining budget in one check is allowed and often correct when the
