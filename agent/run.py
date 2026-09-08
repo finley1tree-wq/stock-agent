@@ -302,6 +302,55 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
     return filled_buys, filled_sells, did
 
 
+def tick(force: bool = False) -> None:
+    """A price-only pass between decisions.
+
+    Day trading is mostly about exits, and an exit should not have to wait for the next time the
+    brain is asked. This fetches quotes, fires any standing order whose level the market reached,
+    and republishes the site. It never calls the model, so it is fast and costs nothing per run.
+    """
+    cfg = config.load_config()
+    env, g = cfg["env"], cfg["guardrails"]
+    g["_weekly_budget"] = float(cfg["weekly_budget"])
+    broker = make_broker(cfg)
+    now = datetime.now(ET)
+    today = now.date()
+    if not force:
+        if not is_trading_day(today):
+            return
+        is_open = broker.market_open() if (getattr(broker, "client", None) or getattr(broker, "name", "") == "sim") else market_open_fallback(now)
+        if not is_open:
+            return
+    live = [o for o in triggers.all_orders() if o.get("status") == "working"]
+    held = broker.held_tickers() if hasattr(broker, "held_tickers") else []
+    if not live and not held:
+        return
+    st = state.load()
+    px = prices.snapshot(sorted({o["ticker"] for o in live} | set(held)))
+    px, _ = safety.sane_prices(px, g.get("max_daily_move_pct", 0))
+    if hasattr(broker, "set_prices"): broker.set_prices(px)
+    may_trade, problems = safety.preflight(broker, g)
+    if not may_trade:
+        for m in problems: log(f"  ! {m}")
+        pub.publish(cfg, None, "safety hold", working_orders=triggers.summary(px, now)); return
+    remaining = round(g["_weekly_budget"] - st["spent"], 2)
+    if getattr(broker, "name", "") == "sim":
+        remaining = round(min(remaining, broker.cash()), 2)
+    sector_of = {t: s for s, ts in cfg["watchlist"].items() for t in ts}
+    bought, sold, did = fill_standing_orders(now, today, broker, broker.positions(), px, st, g,
+                                             set(), remaining, sector_of, {}, log)
+    if bought:                                   # a standing buy just opened a position: protect it now
+        auto = triggers.auto_bracket(now, broker.positions(), px, g.get("auto_bracket") or {})
+        if auto:
+            triggers.place(auto, now, set(broker.positions()), set(broker.positions()), px)
+    st["last_check_ts"] = int(now.timestamp())
+    state.save(st)
+    if did:
+        log(f"## {today} {now.strftime('%H:%M')} ET — tick — {len(sold)} sell(s), {len(bought)} buy(s) from standing orders")
+        if hasattr(broker, "write_report"): broker.write_report()
+    pub.publish(cfg, None, f"tick: {did} standing order(s) filled" if did else "tick: nothing reached its level",
+                working_orders=triggers.summary(px, now))
+
 def main(report_only: bool = False, force: bool = False) -> None:
     cfg = config.load_config()
     env, g = cfg["env"], cfg["guardrails"]
@@ -446,6 +495,11 @@ def main(report_only: bool = False, force: bool = False) -> None:
         did += 1
 
     placed, trejected = triggers.place(plan.get("triggers"), now, set(broker.positions()), allowed, px)
+    auto = triggers.auto_bracket(now, broker.positions(), px, g.get("auto_bracket") or {})
+    if auto:
+        a_placed, a_rej = triggers.place(auto, now, set(broker.positions()), allowed, px)
+        placed += a_placed
+        trejected += a_rej
     for d in trejected:
         log(f"  (dropped {d})")
     for t in placed:
@@ -473,7 +527,9 @@ def main(report_only: bool = False, force: bool = False) -> None:
                 working_orders=book, next_check_minutes=plan.get("next_check_minutes"))
 
 if __name__ == "__main__":
-    if "--publish" in sys.argv:
+    if "--tick" in sys.argv:
+        tick(force="--force" in sys.argv)
+    elif "--publish" in sys.argv:
         publish_only()
     else:
         main(report_only="--report" in sys.argv, force="--force" in sys.argv)

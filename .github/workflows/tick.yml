@@ -1,0 +1,39 @@
+# Fast pass between decisions: fires standing orders and refreshes the dashboard, and never calls
+# the model. A target hit at 10:47 is acted on within about ten minutes instead of waiting for the
+# next half-hourly decision, which is what makes same-day trading actually work.
+# Costs about one runner-minute per tick and $0 of API. agent.yml still does the thinking.
+name: tick
+on:
+  schedule:
+    - cron: "5,20,35,50 13-21 * * 1-5"      # every 15 min, covering the session in both DST regimes
+  workflow_dispatch:
+concurrency:
+  group: stock-agent          # shares the agent's lane: a tick never runs beside a decision
+  cancel-in-progress: false
+permissions: { contents: write }
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - run: python -m agent.run --tick
+        env:
+          BROKER: ${{ secrets.BROKER }}
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ALPACA_PAPER: ${{ secrets.ALPACA_PAPER }}
+          DRY_RUN: ${{ secrets.DRY_RUN }}
+      - name: commit results
+        if: always()
+        run: |
+          git config user.name finley1tree-wq
+          git config user.email 284499650+finley1tree-wq@users.noreply.github.com
+          git add -A
+          if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
+          git commit -m "tick $(date -u +%FT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push

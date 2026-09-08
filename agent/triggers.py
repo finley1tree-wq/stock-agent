@@ -223,6 +223,41 @@ def cancel_all_for(ticker: str, kinds: set, now: datetime, reason: str) -> int:
         _save(d)
     return n
 
+def auto_bracket(now: datetime, positions: dict, px: dict, cfg: dict) -> list[dict]:
+    """Give every open position an exit plan the moment it exists.
+
+    A day trade is defined by its exit, not its entry. Left to a 30-minute cadence the agent can
+    watch a position round-trip a whole move without ever being asked. So any position without a
+    protective order gets one now: a target to sell into strength and a stop to cap the loss. The
+    brain can always place better ones itself; these only fill the gaps it left.
+    """
+    if not cfg or not cfg.get("enabled", True):
+        return []
+    tp = float(cfg.get("take_profit_pct", 3) or 0)
+    sl = float(cfg.get("stop_loss_pct", 2) or 0)
+    tp_size = float(cfg.get("take_profit_size_pct", 50) or 50)
+    live = working(now)
+    has = {(o["ticker"], o["kind"]) for o in live}
+    protected = {o["ticker"] for o in live if o["kind"] in ("stop_loss", "trailing_stop")}
+    out = []
+    for t, pos in (positions or {}).items():
+        entry = float(pos.get("avg_cost") or 0)
+        if entry <= 0:
+            continue
+        if tp > 0 and (t, "take_profit") not in has:
+            out.append({"ticker": t, "kind": "take_profit", "price": round(entry * (1 + tp / 100), 2),
+                        "pct_of_position": tp_size, "trail_pct": 0, "usd": 0,
+                        "signals": ["risk_management", "auto_bracket"],
+                        "evidence": f"entry ${entry:.2f}, target +{tp:.1f}%",
+                        "why": f"take profit on {tp_size:.0f}% at +{tp:.1f}% from the entry"})
+        if sl > 0 and t not in protected:
+            out.append({"ticker": t, "kind": "stop_loss", "price": round(entry * (1 - sl / 100), 2),
+                        "pct_of_position": 100, "trail_pct": 0, "usd": 0,
+                        "signals": ["risk_management", "auto_bracket"],
+                        "evidence": f"entry ${entry:.2f}, stop -{sl:.1f}%",
+                        "why": f"cap the loss at -{sl:.1f}% from the entry"})
+    return out
+
 def summary(px: dict, now: datetime | None = None) -> list[dict]:
     """Working book for the brain and the dashboard, with distance to each level."""
     out = []

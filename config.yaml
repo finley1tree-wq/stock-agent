@@ -37,6 +37,14 @@ guardrails:
   news_headlines_per_ticker: 3   # recent headlines pulled per allowed ticker (free, yfinance)
   max_drawdown_pct: 30           # circuit breaker: stop buying if equity falls this far below money put in
   max_daily_move_pct: 35         # ignore any quote that moved more than this in one day (bad tick / bad split)
+  # Every position gets an exit plan the moment it exists, so a move is never watched round-trip
+  # while waiting for the next check. The brain may place its own better levels; these fill the gaps.
+  auto_bracket:
+    enabled: true
+    take_profit_pct: 2.5         # sell part of the position this far above the entry
+    take_profit_size_pct: 50     # how much of it to sell at the target
+    stop_loss_pct: 2.0           # sell all of it this far below the entry
+
   spread_cost_pct: 0.02          # every MARKET fill is this much worse than the quoted price (buys pay up,
                                  # sells receive less), so a round trip costs ~0.04% as it would in reality.
                                  # Standing limit orders are exempt: they fill at the level they asked for.

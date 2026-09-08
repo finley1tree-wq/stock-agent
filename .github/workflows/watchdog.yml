@@ -4,7 +4,7 @@
 name: watchdog
 on:
   schedule:
-    - cron: "17,47 13-21 * * 1-5"
+    - cron: "47 13-21 * * 1-5"
   workflow_dispatch:
     inputs:
       force:

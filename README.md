@@ -90,6 +90,30 @@ python -m agent.run --force    # same, ignoring the market-hours gate (testing)
 
 `run_every_minutes` in `config.yaml` must match the schedule — the brain uses it to know how many checks it has left today.
 
+## Same-day trading
+
+The agent may open and close a position on the same day (`min_hold_days: 0`). Three things make that
+work rather than just being permitted:
+
+- **Every position gets an exit plan the moment it exists.** `auto_bracket` attaches a target and a
+  stop to any position that lacks one, priced off the actual entry. The brain can place better levels
+  itself; these only fill the gaps it left.
+- **A fast tick between decisions.** `.github/workflows/tick.yml` runs every 15 minutes and calls
+  `python -m agent.run --tick`, which fetches quotes, fires any standing order whose level was
+  reached, and republishes the site. It never calls the model, so it costs about a runner-minute and
+  nothing in API. The half-hourly `agent.yml` still does all the thinking.
+- **Sold money is immediately reusable.** Proceeds return to the week's budget, so an exit funds the
+  next entry in the same session.
+
+Trading is not free here: `spread_cost_pct` makes every market fill worse than the quote on both
+sides, so a round trip costs about 4bp and a rotation has to beat that to be worth doing.
+
+**A real-money caveat that does not apply in SIM.** In a US margin account, four or more day trades
+in five business days makes you a pattern day trader, which requires $25,000 of equity. A cash
+account avoids that rule but can only buy with settled funds, so a small balance can only be
+recycled so often. Neither limit exists in the simulator, which means SIM results will overstate how
+many round trips a real $400 account could actually make.
+
 ## Standing orders (why it isn't tied to the clock)
 
 The brain is only asked every 30 minutes, but the market moves the whole time. If it only ever acted at the
