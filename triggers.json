@@ -1,0 +1,77 @@
+{
+ "orders": [
+  {
+   "id": "5df75c65",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 447.0,
+   "status": "working",
+   "created": "2026-09-08 12:13",
+   "created_ts": 1788883985,
+   "why": "Protect gains on today's strong pop in case of pullback",
+   "evidence": "AMAT +3.32% today after -12.77% 1m, extended run",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5a8628c1",
+   "ticker": "AMD",
+   "kind": "trailing_stop",
+   "price": 467.544,
+   "status": "working",
+   "created": "2026-09-08 12:13",
+   "created_ts": 1788883985,
+   "why": "Lock in protection on the biggest one-day mover in the book",
+   "evidence": "AMD +6.41% today, +7.96% 5d - large one-day surge",
+   "signals": [
+    "risk_management",
+    "momentum"
+   ],
+   "good_until": "2026-09-12",
+   "pct_of_position": 100.0,
+   "trail_pct": 8.0,
+   "high_water": 508.2
+  },
+  {
+   "id": "68402e49",
+   "ticker": "INTC",
+   "kind": "trailing_stop",
+   "price": 96.0848,
+   "status": "working",
+   "created": "2026-09-08 12:13",
+   "created_ts": 1788883985,
+   "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
+   "evidence": "INTC +9.02% today, +16.68% 5d - past lesson noted this combo underperformed after big pops",
+   "signals": [
+    "risk_management",
+    "momentum"
+   ],
+   "good_until": "2026-09-12",
+   "pct_of_position": 100.0,
+   "trail_pct": 8.0,
+   "high_water": 104.44
+  },
+  {
+   "id": "97e68e5c",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 99.5,
+   "status": "working",
+   "created": "2026-09-08 12:13",
+   "created_ts": 1788883985,
+   "why": "Add to nuclear theme on a pullback rather than chasing at current price",
+   "evidence": "Nuclear sector backtest shows 282% 2y avg return; CCJ +2.32% today",
+   "signals": [
+    "momentum",
+    "news",
+    "track_record"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 15.0
+  }
+ ],
+ "updated": "2026-09-08 12:13"
+}

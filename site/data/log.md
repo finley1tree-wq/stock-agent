@@ -107,3 +107,13 @@ lesson: Congress+momentum combo (AMD, INTC) has been the best-performing signal 
 - BUY $20.00 GOOGN [filled] ['news', 'congress'] — Modest AI-cloud exposure diversification with a pullback entry point and congressional buying signal, keeps position sizes small and diversified. | evidence: Headline 'Alphabet Stock Is Pulling Back From Its High. Here's Why I'd Buy the Dip.'; congress net-buy pressure +2.0
 portfolio: equity $400.70 (+0.17% on $400.00 in) · cash $160.00 · realised +0.00
 Done: 0 sell(s), 3 buy(s); budget left $160.00 this week
+
+## 2026-09-08 12:13 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
+brain: Portfolio is already fully allocated across 7 names with only $160 cash and week's budget mostly spent (240/400). Today's big movers (AMD +6.4%, INTC +9%, AMAT +3.3%) have already run hard intraday - track record shows these hot-momentum congress+news buys underperformed (-0.21%, -0.74%). Rather than chase more of the same at current prices, I'll protect existing gains with trailing stops/stop-loss and leave a limit order to add CCJ (nuclear, strongest backtest sector) only on a dip, preserving remaining budget for better entries.
+lesson: Big intraday momentum names (AMD, INTC, AMAT) already popped 3-9% by midday have historically underperformed after being bought at the check - use stops to protect rather than chasing more at the same tick.
+~ WORKING stop_loss 100% AMAT @ $447.00 until 2026-09-12 — Protect gains on today's strong pop in case of pullback
+~ WORKING trailing_stop 100% AMD @ trail 8.0% until 2026-09-12 — Lock in protection on the biggest one-day mover in the book
+~ WORKING trailing_stop 100% INTC @ trail 8.0% until 2026-09-12 — INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike
+~ WORKING buy_limit $15.00 CCJ @ $99.50 until 2026-09-12 — Add to nuclear theme on a pullback rather than chasing at current price
+portfolio: equity $399.86 (-0.03% on $400.00 in) · cash $160.00 · realised +0.00
+Decision: nothing at this check. 4 standing order(s) working.

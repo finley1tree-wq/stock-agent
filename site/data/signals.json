@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-08T12:05-04:00",
- "note": "Portfolio is young (all positions bought today) and heavily concentrated in nuclear/semis/index; adding AI-chip momentum names (AMD, INTC) backed by strong intraday moves and congressional buy signals diversifies into the semis/AI theme without overloading any single ticker. Small GOOGN allocation a",
+ "asOf": "2026-09-08T12:13-04:00",
+ "note": "Portfolio is already fully allocated across 7 names with only $160 cash and week's budget mostly spent (240/400). Today's big movers (AMD +6.4%, INTC +9%, AMAT +3.3%) have already run hard intraday - track record shows these hot-momentum congress+news buys underperformed (-0.21%, -0.74%). Rather tha",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -49,7 +49,8 @@
   "insider_lookback_days": 30,
   "news_headlines_per_ticker": 3,
   "max_drawdown_pct": 30,
-  "max_daily_move_pct": 35
+  "max_daily_move_pct": 35,
+  "trigger_slippage_pct": 0.05
  },
  "followed_people": [],
  "followed_politicians": [],
@@ -75,6 +76,77 @@
  ],
  "paused": false,
  "pause_reason": "",
+ "working_orders": [
+  {
+   "id": "97e68e5c",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 99.5,
+   "usd": 15.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 103.08,
+   "pct_away": -3.47,
+   "good_until": "2026-09-12",
+   "why": "Add to nuclear theme on a pullback rather than chasing at current price",
+   "signals": [
+    "momentum",
+    "news",
+    "track_record"
+   ]
+  },
+  {
+   "id": "5df75c65",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 447.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 469.8,
+   "pct_away": -4.85,
+   "good_until": "2026-09-12",
+   "why": "Protect gains on today's strong pop in case of pullback",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "5a8628c1",
+   "ticker": "AMD",
+   "kind": "trailing_stop",
+   "price": 467.544,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": 8.0,
+   "last": 508.2,
+   "pct_away": -8.0,
+   "good_until": "2026-09-12",
+   "why": "Lock in protection on the biggest one-day mover in the book",
+   "signals": [
+    "risk_management",
+    "momentum"
+   ]
+  },
+  {
+   "id": "68402e49",
+   "ticker": "INTC",
+   "kind": "trailing_stop",
+   "price": 96.0848,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": 8.0,
+   "last": 104.44,
+   "pct_away": -8.0,
+   "good_until": "2026-09-12",
+   "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
+   "signals": [
+    "risk_management",
+    "momentum"
+   ]
+  }
+ ],
+ "next_check_minutes": 60,
  "allowed": [
   "AEP",
   "ALKS",
@@ -125,7 +197,7 @@
   "insiders": "ok"
  },
  "learning": {
-  "decisions_recorded": 2,
+  "decisions_recorded": 3,
   "note": "not enough history to grade yet"
  },
  "congress_trades": [
@@ -1941,6 +2013,11 @@
   ],
   "SPY": [
    {
+    "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T15:58"
+   },
+   {
     "title": "NuScale Power Spikes 13%, Oklo Climbs 7%: Is the Nuclear Selloff Finally Exhausted?",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T15:13"
@@ -1949,11 +2026,6 @@
     "title": "Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2%",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T14:32"
-   },
-   {
-    "title": "Qualcomm Rises 5% on Multi-Generation Amazon AI Silicon Deal; Broadcom Ticks Up, Amazon Holds Flat",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:22"
    }
   ],
   "UBER": [
@@ -1992,5 +2064,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-08T12:05-04:00"
+ "signalsAsOf": "2026-09-08T12:13-04:00"
 }
