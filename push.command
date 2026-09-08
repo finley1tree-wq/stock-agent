@@ -14,6 +14,9 @@ echo "== 2/5  Preparing the repository =="
 git branch -M main 2>/dev/null || true
 git check-ignore .env >/dev/null 2>&1 || { echo "   STOP: .env is NOT ignored — refusing to push keys."; exit 1; }
 echo "   .env is ignored, no keys will be pushed"
+# Vercel (Hobby, private repo) only deploys commits authored by the account that owns the project.
+git config user.name finley1tree-wq
+git config user.email 284499650+finley1tree-wq@users.noreply.github.com
 git add -A
 if git diff --cached --quiet; then echo "   nothing new to commit"; else git commit -qm "update $(date -u +%FT%H:%MZ)"; echo "   committed"; fi
 
