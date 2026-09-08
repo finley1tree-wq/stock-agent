@@ -20,7 +20,7 @@
    "id": "5a8628c1",
    "ticker": "AMD",
    "kind": "trailing_stop",
-   "price": 467.544,
+   "price": 468.2248,
    "status": "working",
    "created": "2026-09-08 12:13",
    "created_ts": 1788883985,
@@ -33,13 +33,13 @@
    "good_until": "2026-09-12",
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "high_water": 508.2
+   "high_water": 508.94
   },
   {
    "id": "68402e49",
    "ticker": "INTC",
    "kind": "trailing_stop",
-   "price": 96.0848,
+   "price": 96.2872,
    "status": "working",
    "created": "2026-09-08 12:13",
    "created_ts": 1788883985,
@@ -52,7 +52,7 @@
    "good_until": "2026-09-12",
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "high_water": 104.44
+   "high_water": 104.66
   },
   {
    "id": "97e68e5c",
@@ -71,7 +71,56 @@
    ],
    "good_until": "2026-09-12",
    "usd": 15.0
+  },
+  {
+   "id": "13c3e9d0",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 97.0,
+   "status": "working",
+   "created": "2026-09-08 12:17",
+   "created_ts": 1788884250,
+   "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
+   "evidence": "CCJ -0.14% today, small position, protect against nuclear pullback",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6f6b7f43",
+   "ticker": "NLR",
+   "kind": "stop_loss",
+   "price": 118.0,
+   "status": "working",
+   "created": "2026-09-08 12:17",
+   "created_ts": 1788884250,
+   "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
+   "evidence": "NLR +3.71% today after string of nuclear volatility headlines",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "22cbfcde",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 755.0,
+   "status": "working",
+   "created": "2026-09-08 12:17",
+   "created_ts": 1788884250,
+   "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
+   "evidence": "SPY at 766.94, down -0.42% today, -0.82% 1m",
+   "signals": [
+    "etf_default",
+    "risk_management"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 20.0
   }
  ],
- "updated": "2026-09-08 12:13"
+ "updated": "2026-09-08 12:17"
 }

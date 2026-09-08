@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-08T12:13-04:00",
- "note": "Portfolio is already fully allocated across 7 names with only $160 cash and week's budget mostly spent (240/400). Today's big movers (AMD +6.4%, INTC +9%, AMAT +3.3%) have already run hard intraday - track record shows these hot-momentum congress+news buys underperformed (-0.21%, -0.74%). Rather tha",
+ "asOf": "2026-09-08T12:17-04:00",
+ "note": "Already fully deployed today (spent $240 of $400 weekly budget, only $160 left and orders_today=7). Portfolio is well diversified across semis, nuclear, defense-adjacent, gold-adjacent index. Existing stops on AMAT/AMD/INTC are working; adding protection on CCJ and NLR which currently lack stops giv",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -78,6 +78,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "22cbfcde",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 755.0,
+   "usd": 20.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 766.94,
+   "pct_away": -1.56,
+   "good_until": "2026-09-12",
+   "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
+   "signals": [
+    "etf_default",
+    "risk_management"
+   ]
+  },
+  {
    "id": "97e68e5c",
    "ticker": "CCJ",
    "kind": "buy_limit",
@@ -103,10 +120,42 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 469.8,
-   "pct_away": -4.85,
+   "last": 468.91,
+   "pct_away": -4.67,
    "good_until": "2026-09-12",
    "why": "Protect gains on today's strong pop in case of pullback",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "6f6b7f43",
+   "ticker": "NLR",
+   "kind": "stop_loss",
+   "price": 118.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 124.4,
+   "pct_away": -5.14,
+   "good_until": "2026-09-12",
+   "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "13c3e9d0",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 97.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.08,
+   "pct_away": -5.9,
+   "good_until": "2026-09-12",
+   "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
    "signals": [
     "risk_management"
    ]
@@ -115,12 +164,12 @@
    "id": "5a8628c1",
    "ticker": "AMD",
    "kind": "trailing_stop",
-   "price": 467.544,
+   "price": 468.2248,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 508.2,
-   "pct_away": -8.0,
+   "last": 508.49,
+   "pct_away": -7.92,
    "good_until": "2026-09-12",
    "why": "Lock in protection on the biggest one-day mover in the book",
    "signals": [
@@ -132,12 +181,12 @@
    "id": "68402e49",
    "ticker": "INTC",
    "kind": "trailing_stop",
-   "price": 96.0848,
+   "price": 96.2872,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 104.44,
-   "pct_away": -8.0,
+   "last": 104.63,
+   "pct_away": -7.97,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
@@ -158,17 +207,12 @@
   "CCJ",
   "CRWD",
   "DIA",
-  "ECF",
   "EPAC",
   "FITB",
-  "GF",
   "GLD",
-  "GOOGN",
-  "GRX",
   "INTC",
   "LILA",
   "LMT",
-  "MSB",
   "NEM",
   "NLR",
   "NMTC",
@@ -180,10 +224,8 @@
   "PLD",
   "PLTR",
   "PRAX",
-  "RCG",
   "RTX",
   "SAIL",
-  "SCND",
   "SHMD",
   "SKWD",
   "SPY",
@@ -194,10 +236,19 @@
   "congress": "ok",
   "congress_source": "congresswatch",
   "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
-  "insiders": "ok"
+  "insiders": "ok",
+  "excluded_instruments": [
+   "ECF excluded: too thinly traded (21,038/day) \u2014 Ellsworth Growth and Income Fund Ltd.",
+   "GF excluded: too thinly traded (27,217/day) \u2014 The New Germany Fund, Inc.",
+   "GOOGN excluded: not ordinary shares (depositary) \u2014 Alphabet Inc. Depositary Shares representing a 1/20th Intere",
+   "GRX excluded: too thinly traded (22,890/day) \u2014 The Gabelli Healthcare & Wellness Trust",
+   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust",
+   "RCG excluded: too thinly traded (5,209/day) \u2014 RENN Fund, Inc.",
+   "SCND excluded: too thinly traded (2,095/day) \u2014 Scientific Industries, Inc."
+  ]
  },
  "learning": {
-  "decisions_recorded": 3,
+  "decisions_recorded": 4,
   "note": "not enough history to grade yet"
  },
  "congress_trades": [
@@ -1613,23 +1664,6 @@
     "when": "2026-09-07T15:45"
    }
   ],
-  "GF": [
-   {
-    "title": "Painful week for individual investors invested in Georg Fischer AG (VTX:GF) after 7.0% drop, institutions also suffered losses",
-    "source": "Simply Wall St.",
-    "when": "2025-11-11T04:47"
-   },
-   {
-    "title": "Georg Fischer's (VTX:GF) five-year total shareholder returns outpace the underlying earnings growth",
-    "source": "Simply Wall St.",
-    "when": "2025-10-14T07:42"
-   },
-   {
-    "title": "Should You Think About Buying Georg Fischer AG (VTX:GF) Now?",
-    "source": "Simply Wall St.",
-    "when": "2025-09-21T06:20"
-   }
-  ],
   "GLD": [
    {
     "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",
@@ -1662,23 +1696,6 @@
     "title": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T14:30"
-   }
-  ],
-  "GRX": [
-   {
-    "title": "Healthcare CEF Insiders Are Quietly Buying While 60% of Distributions Return Capital",
-    "source": "24/7 Wall St.",
-    "when": "2026-04-25T10:35"
-   },
-   {
-    "title": "GRX\u2019s 14-Year Dividend Streak Holds Firm as Rate Cuts Ease Leverage Costs",
-    "source": "24/7 Wall St.",
-    "when": "2026-04-17T15:15"
-   },
-   {
-    "title": "Billionaires Start 2026 With Huge Insider Buys",
-    "source": "24/7 Wall St.",
-    "when": "2026-01-07T13:45"
    }
   ],
   "INTC": [
@@ -1730,23 +1747,6 @@
     "title": "Can Chinook Modernization Strengthen RTX's Defense Growth?",
     "source": "Zacks",
     "when": "2026-09-08T14:41"
-   }
-  ],
-  "MSB": [
-   {
-    "title": "Assessing Cleveland-Cliffs (CLF) Valuation After Mesabi Trust Distribution Cut Highlights Operational Uncertainty",
-    "source": "Simply Wall St.",
-    "when": "2026-04-16T19:05"
-   },
-   {
-    "title": "ASX April 2026 Stocks Estimated To Be Trading Below Fair Value",
-    "source": "Simply Wall St.",
-    "when": "2026-04-14T19:34"
-   },
-   {
-    "title": "Gregory George Adds To Mesoblast Position With Multi-Market Share Purchases",
-    "source": "Simply Wall St.",
-    "when": "2026-04-12T22:52"
    }
   ],
   "NEM": [
@@ -1970,13 +1970,6 @@
     "when": "2026-09-02T12:40"
    }
   ],
-  "SCND": [
-   {
-    "title": "Scientific Industries Inc (SCND) Q3 2025 Earnings Call Highlights: Record Revenue Growth and ...",
-    "source": "GuruFocus.com",
-    "when": "2025-11-20T23:01"
-   }
-  ],
   "SHMD": [
    {
     "title": "SCHMID (SHMD) Nearly Tripled Revenue but Cut its Adjusted EBITDA Margin Outlook. Is China Growth Too Low-Margin?",
@@ -2013,6 +2006,11 @@
   ],
   "SPY": [
    {
+    "title": "AMC Falls 5%, Robinhood Barely Budges: Is the Tokenization Bounce Already Over?",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T16:05"
+   },
+   {
     "title": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T15:58"
@@ -2021,11 +2019,6 @@
     "title": "NuScale Power Spikes 13%, Oklo Climbs 7%: Is the Nuclear Selloff Finally Exhausted?",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T15:13"
-   },
-   {
-    "title": "Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T14:32"
    }
   ],
   "UBER": [
@@ -2064,5 +2057,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-08T12:13-04:00"
+ "signalsAsOf": "2026-09-08T12:17-04:00"
 }

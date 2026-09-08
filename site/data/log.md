@@ -117,3 +117,18 @@ lesson: Big intraday momentum names (AMD, INTC, AMAT) already popped 3-9% by mid
 ~ WORKING buy_limit $15.00 CCJ @ $99.50 until 2026-09-12 — Add to nuclear theme on a pullback rather than chasing at current price
 portfolio: equity $399.86 (-0.03% on $400.00 in) · cash $160.00 · realised +0.00
 Decision: nothing at this check. 4 standing order(s) working.
+
+## 2026-09-08 12:17 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
+  (ECF excluded: too thinly traded (21,038/day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain: Already fully deployed today (spent $240 of $400 weekly budget, only $160 left and orders_today=7). Portfolio is well diversified across semis, nuclear, defense-adjacent, gold-adjacent index. Existing stops on AMAT/AMD/INTC are working; adding protection on CCJ and NLR which currently lack stops given nuclear sector's demonstrated volatility in headlines. Rather than chasing more momentum names mid-day (past lesson warns against buying already-popped names at the same tick), I'll leave a modest buy_limit on SPY below market for a better entry and hold cash otherwise.
+lesson: When already heavily deployed for the day with existing positions all fresh (days_held=0), focus on protecting gains via stops rather than adding new momentum-chasing buys; use limit orders below market for any further index/ETF adds.
+~ WORKING stop_loss 100% CCJ @ $97.00 until 2026-09-12 — Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not
+~ WORKING stop_loss 100% NLR @ $118.00 until 2026-09-12 — Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)
+~ WORKING buy_limit $20.00 SPY @ $755.00 until 2026-09-12 — Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now
+portfolio: equity $399.76 (-0.06% on $400.00 in) · cash $160.00 · realised +0.00
+Decision: nothing at this check. 7 standing order(s) working.
