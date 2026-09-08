@@ -217,7 +217,8 @@ class SimBroker:
                  f"Cash ${s['cash']:.2f} · Unrealised {s['unrealized_pnl']:+.2f} · Realised {s['realized_pnl']:+.2f}", "",
                  "| Ticker | Weight | Value | Avg cost | Price | P/L | Held |", "|---|---:|---:|---:|---:|---:|---:|"]
         for sym, p in sorted(self.positions().items(), key=lambda kv: -kv[1]["market_value"]):
-            lines.append(f"| {sym} | {p['weight_pct']:.1f}% | ${p['market_value']:.2f} | ${p['avg_cost']:.2f} | ${p['price']:.2f} | {p['unrealized_plpc']:+.2f}% | {p['days_held']}d |")
+            fmt = (lambda v: f"${v:,.2f}") if p["price"] >= 1 else (lambda v: f"${v:.8g}")
+            lines.append(f"| {sym} | {p['weight_pct']:.1f}% | ${p['market_value']:.2f} | {fmt(p['avg_cost'])} | {fmt(p['price'])} | {p['unrealized_plpc']:+.2f}% | {p['days_held']}d |")
         if not self.p["positions"]:
             lines.append("| — | 100% cash | | | | | |")
         lines += ["", "## Last fills", ""]

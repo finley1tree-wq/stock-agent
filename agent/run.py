@@ -280,6 +280,20 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
                 triggers.close(f["id"], now, "cancelled", "another standing order on the same ticker filled first")
                 continue
             fmap[f["ticker"]] = f
+        # A standing order can sit for days. Whatever made the ticker acceptable when the order
+        # was placed has to still be true now, or the screen is only a formality: it would let an
+        # order placed before a token was rejected fill anyway.
+        unvetted = {t for t in fmap if t not in allowed}
+        if unvetted:
+            verdicts = instruments.check(unvetted)
+            for t in sorted(unvetted):
+                v = verdicts.get(t) or {}
+                if not v.get("ok"):
+                    triggers.close(fmap[t]["id"], now, "cancelled", "failed the screen at fill time")
+                    log_fn(f"  (cancelled standing buy {t}: {v.get('why', 'failed the screen at fill time')})")
+                    fmap.pop(t, None)
+        if not fmap:
+            return filled_buys, filled_sells, did
         usd_total = sum(f["usd"] for f in fmap.values())
         plan = {"deploy_now_usd": usd_total,
                 "orders": [{"ticker": t, "usd": f["usd"], "why": f["why"], "evidence": f["evidence"],
@@ -445,10 +459,20 @@ def main(report_only: bool = False, force: bool = False) -> None:
         remaining = round(g["_weekly_budget"] - st["spent"], 2)
         if is_sim:
             remaining = round(min(remaining, broker.cash()), 2)
+    # Entry screening does not expire, so a name bought before a rule existed can sit in the book
+    # forever. Re-check what is held and put it in front of the brain rather than quietly holding.
+    flagged = {}
+    off_watch = {t for t in positions if t not in set(watch)}
+    if off_watch:
+        for t, v in instruments.check(off_watch).items():
+            if not v.get("ok"):
+                flagged[t] = v.get("why", "no longer passes the screen")
+                log(f"  (holding {t} would not be bought today: {v.get('why')})")
     track = learn.score(px)
     headlines = news.ticker_headlines(sorted(allowed | set(held)), per=int(g.get("news_headlines_per_ticker", 3)))
     people = news.people_news(followed_people, per=4)
 
+    cf = reflect.report(px)                       # graded once here, then reused after the decision
     checks_left = checks_left_today(now, every_min)
     cleanup = is_cleanup_check(now, g, every_min)
     nothing_to_buy = remaining < g["min_order_usd"]
@@ -458,6 +482,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "friday_cleanup": cleanup and not nothing_to_buy, "checks_left_today": checks_left, "run_every_minutes": every_min,
         "portfolio": broker.summary() if is_sim else {"cash": broker.cash()},
         "current_positions": positions,
+        "holdings_that_would_not_be_bought_today": flagged,
         "weekly_budget_usd": g["_weekly_budget"], "remaining_budget_usd": remaining,
         "spent_today_usd": st["spent_today"], "orders_today": st["orders_today"], "sells_today": st["sells_today"],
         "bought_this_week": st["by_ticker"], "sold_today": st["sold_today"],
@@ -470,7 +495,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "followed_people_insider_filings": insiders.by_followed(itrades, followed_people)[:20],
         "track_record": track, "past_lessons": learn.past_lessons(),
         "backtest_priors": backtest.priors(),
-        "counterfactual_learning": reflect.report(px),
+        "counterfactual_learning": cf,
         "working_orders": triggers.summary(px, now),
         "standing_order_kinds": sorted(triggers.KINDS),
         "past_lessons_with_outcome": reflect.recent_lessons_with_outcome(px),
@@ -480,7 +505,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
     except Exception as e:
         log(f"brain error: {redact(e)} — no decision at this check."); pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), "brain error"); return
     log(f"brain: {plan.get('reasoning', '')}")
-    learn.add_lesson(plan.get("lesson", ""), track)
+    learn.add_lesson(plan.get("lesson", ""), track, evidence_days=cf.get("independent_days_graded") or 0)
     if plan.get("lesson"): log(f"lesson: {plan['lesson']}")
     did = tdid
 

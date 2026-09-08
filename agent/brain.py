@@ -47,6 +47,9 @@ than at a price worth having. So:
   breaking, large (60-240) when nothing is near and your orders are working for you. This is a request, not a promise.
 
 Rules of thumb:
+- "holdings_that_would_not_be_bought_today" lists positions that no longer pass the entry screen (wrong
+  instrument type, too thin to trade). You are not forced to sell them, but holding one is a decision you
+  are making on purpose, and it should have a reason you would write down.
 - Money you have already deployed is not stuck. Proceeds from a sell go straight back into this week's budget, so
   selling a position you no longer believe in and buying a better one is a single move you can make in one check.
   A full book is not a reason to sit still: if every dollar is committed and something better appears, the question

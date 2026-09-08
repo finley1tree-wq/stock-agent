@@ -28,6 +28,18 @@ ROOT = Path(__file__).resolve().parent.parent
 FILE = ROOT / "triggers.json"
 ET = ZoneInfo("America/New_York")
 
+def px_round(v: float) -> float:
+    """Keep a price meaningful at any scale.
+
+    Rounding to four decimals is fine for a $470 stock and fatal for a token at $0.00000304, which
+    becomes exactly zero and takes every level computed from it to zero with it. Same rule as
+    broker_sim._px: cents above a dollar, significant figures below it.
+    """
+    v = float(v)
+    if v == 0:
+        return 0.0
+    return round(v, 4) if abs(v) >= 1 else float(f"{v:.8g}")
+
 BUY_KINDS = {"buy_limit", "buy_stop"}
 SELL_KINDS = {"take_profit", "stop_loss", "trailing_stop"}
 KINDS = BUY_KINDS | SELL_KINDS
@@ -71,7 +83,7 @@ def _clean(o: dict, now: datetime, default_good_until: str, px: dict | None = No
         elif price <= 0:
             return None
         rec = {
-            "id": uuid.uuid4().hex[:8], "ticker": ticker, "kind": kind, "price": round(price, 4),
+            "id": uuid.uuid4().hex[:8], "ticker": ticker, "kind": kind, "price": px_round(price),
             "status": "working", "created": now.strftime("%Y-%m-%d %H:%M"), "created_ts": int(now.timestamp()),
             "why": str(o.get("why", ""))[:240], "evidence": str(o.get("evidence", ""))[:240],
             "signals": [str(s)[:24] for s in (o.get("signals") or [])][:6],
@@ -96,8 +108,8 @@ def _clean(o: dict, now: datetime, default_good_until: str, px: dict | None = No
                 # the high since placement starts at the price right now, so the stop has a real
                 # level from the first moment instead of showing zero until the next bar arrives
                 last = float(((px or {}).get(ticker) or {}).get("price") or 0)
-                rec["high_water"] = round(last, 4)
-                rec["price"] = round(last * (1 - rec["trail_pct"] / 100), 4) if last else 0.0
+                rec["high_water"] = px_round(last)
+                rec["price"] = px_round(last * (1 - rec["trail_pct"] / 100)) if last else 0.0
         return rec
     except Exception:
         return None
@@ -179,16 +191,16 @@ def evaluate(now: datetime, px: dict, bars: dict, held: set, slippage_pct: float
             hit = None
             for b in seq:
                 hw = max(hw, float(b["h"]))
-                stop = round(hw * (1 - trail), 4)
+                stop = px_round(hw * (1 - trail))
                 if float(b["l"]) <= stop:
                     hit = (b, stop); break
-            o["high_water"] = round(hw, 4)
-            o["price"] = round(hw * (1 - trail), 4)             # shown on the dashboard as the live stop
+            o["high_water"] = px_round(hw)
+            o["price"] = px_round(hw * (1 - trail))             # shown on the dashboard as the live stop
             if not hit:
                 continue
             b, stop = hit
             o["price"] = stop
-            fill = round(stop * (1 - slippage_pct / 100), 4)
+            fill = px_round(stop * (1 - slippage_pct / 100))
             fires.append({**o, "fill_price": fill, "fired_ts": int(b["t"]), "stop_at": stop})
         else:
             hit = next((b for b in seq if _crossed(o, float(b["l"]), float(b["h"]))), None)
@@ -196,10 +208,10 @@ def evaluate(now: datetime, px: dict, bars: dict, held: set, slippage_pct: float
                 continue
             fill = o["price"]
             if o["kind"] == "buy_stop":                        # a stop becomes a market order: pay up
-                fill = round(fill * (1 + slippage_pct / 100), 4)
+                fill = px_round(fill * (1 + slippage_pct / 100))
             elif o["kind"] == "stop_loss":
-                fill = round(fill * (1 - slippage_pct / 100), 4)
-            fires.append({**o, "fill_price": round(fill, 4), "fired_ts": int(hit["t"])})
+                fill = px_round(fill * (1 - slippage_pct / 100))
+            fires.append({**o, "fill_price": px_round(fill), "fired_ts": int(hit["t"])})
     _save(d)
     return fires, notes
 
@@ -315,11 +327,11 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
         mine = [o for o in live if o["ticker"] == t and _is_auto(o)]
         targets = {}
         if tp > 0:
-            targets["take_profit"] = round(entry * (1 + tp / 100), 6)
+            targets["take_profit"] = px_round(entry * (1 + tp / 100))
         if sl > 0:
-            targets["stop_loss"] = round(entry * (1 - sl / 100), 6)
+            targets["stop_loss"] = px_round(entry * (1 - sl / 100))
         if scale_on and add_drop > 0 and add_usd > 0 and int(pos.get("tranches", 1)) < max_tranches:
-            targets["buy_limit"] = round(entry * (1 - add_drop / 100), 6)
+            targets["buy_limit"] = px_round(entry * (1 - add_drop / 100))
         # a hand-placed protective order still counts, so we never double up on stops
         if any(o["kind"] in ("stop_loss", "trailing_stop") and not _is_auto(o) for o in live if o["ticker"] == t):
             targets.pop("stop_loss", None)

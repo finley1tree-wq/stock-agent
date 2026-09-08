@@ -97,10 +97,32 @@ def past_lessons(n: int = 12) -> list[str]:
         return []
     return [l.strip("- \n") for l in LESSONS.read_text().splitlines() if l.startswith("- ")][-n:]
 
-def add_lesson(text: str, track: dict) -> None:
+def _similar(a: str, b: str) -> float:
+    """Cheap word-overlap similarity, enough to catch a lesson being written nine times."""
+    wa = {w for w in a.lower().split() if len(w) > 3}
+    wb = {w for w in b.lower().split() if len(w) > 3}
+    if not wa or not wb:
+        return 0.0
+    return len(wa & wb) / len(wa | wb)
+
+def add_lesson(text: str, track: dict, evidence_days: int = 0, min_days: int = 1) -> None:
+    """Write a lesson only when there is something to have learned from.
+
+    On day one nine confident, causal-sounding lessons were written before a single decision had
+    been graded - the agent was reading its own guesses back as knowledge on the next run. A lesson
+    now needs graded evidence behind it, must not repeat one already on file, and carries the
+    number of graded days so its weight is visible to whoever reads it next.
+    """
     text = (text or "").strip()
     if not text:
         return
+    if int(evidence_days or 0) < int(min_days):
+        return
+    prior = []
+    if LESSONS.exists():
+        prior = [l.split(": ", 1)[-1].strip() for l in LESSONS.read_text().splitlines() if l.startswith("- ")]
+    if any(_similar(text, old) > 0.6 for old in prior[-40:]):
+        return
     header = "" if LESSONS.exists() else "# Lessons the agent has drawn from its own results\n\n"
     with open(LESSONS, "a") as f:
-        f.write(f"{header}- {date.today()} (avg so far {track.get('avg_ret_pct_all')}%): {text}\n")
+        f.write(f"{header}- {date.today()} ({evidence_days}d graded, avg so far {track.get('avg_ret_pct_all')}%): {text}\n")
