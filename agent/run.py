@@ -8,7 +8,9 @@ Each run is one "check".
 
 Brokers (BROKER in .env): sim (default, pretend money, real prices), alpaca (paper or live), ibkr.
 """
+import json
 import sys
+import time as clock
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -302,13 +304,26 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
     return filled_buys, filled_sells, did
 
 
-def tick(force: bool = False) -> None:
-    """A price-only pass between decisions.
+PUBLISH_EVERY_S = 900          # refresh the site at least this often even when nothing happens
 
-    Day trading is mostly about exits, and an exit should not have to wait for the next time the
-    brain is asked. This fetches quotes, fires any standing order whose level the market reached,
-    and republishes the site. It never calls the model, so it is fast and costs nothing per run.
+def tick(force: bool = False, loops: int = 1, interval: int = 60) -> None:
+    """Watch the market between decisions.
+
+    GitHub's cron floor is five minutes, but an exit should not wait even that long, so one job
+    does several passes spaced `interval` seconds apart and then exits before the next one starts.
+    Only one of these ever runs at a time (the workflow shares the agent's concurrency group), so
+    there is never a second writer touching the ledger.
     """
+    for i in range(max(1, loops)):
+        if i:
+            clock.sleep(max(5, interval))
+        try:
+            _tick_once(force)
+        except Exception as e:
+            log(f"tick error: {redact(e)}")
+
+def _tick_once(force: bool = False) -> None:
+    """One pass: quotes, fire anything that reached its level, publish if it matters."""
     cfg = config.load_config()
     env, g = cfg["env"], cfg["guardrails"]
     g["_weekly_budget"] = float(cfg["weekly_budget"])
@@ -348,8 +363,17 @@ def tick(force: bool = False) -> None:
     if did:
         log(f"## {today} {now.strftime('%H:%M')} ET — tick — {len(sold)} sell(s), {len(bought)} buy(s) from standing orders")
         if hasattr(broker, "write_report"): broker.write_report()
-    pub.publish(cfg, None, f"tick: {did} standing order(s) filled" if did else "tick: nothing reached its level",
-                working_orders=triggers.summary(px, now))
+    # Every publish is a commit and every commit is a site deploy, so only publish when there is
+    # something new to see: a fill, a change in the working book, or a periodic freshness refresh.
+    book = triggers.summary(px, now)
+    fp = json.dumps([[o["id"], o["price"]] for o in book], sort_keys=True)
+    stale = (int(now.timestamp()) - int(st.get("last_publish_ts", 0) or 0)) > PUBLISH_EVERY_S
+    if did or fp != st.get("book_fp") or stale:
+        st["book_fp"] = fp
+        st["last_publish_ts"] = int(now.timestamp())
+        state.save(st)
+        pub.publish(cfg, None, f"tick: {did} standing order(s) filled" if did else "tick: watching",
+                    working_orders=book)
 
 def main(report_only: bool = False, force: bool = False) -> None:
     cfg = config.load_config()
@@ -528,7 +552,9 @@ def main(report_only: bool = False, force: bool = False) -> None:
 
 if __name__ == "__main__":
     if "--tick" in sys.argv:
-        tick(force="--force" in sys.argv)
+        def _arg(name, default):
+            return int(sys.argv[sys.argv.index(name) + 1]) if name in sys.argv else default
+        tick(force="--force" in sys.argv, loops=_arg("--loop", 1), interval=_arg("--interval", 60))
     elif "--publish" in sys.argv:
         publish_only()
     else:

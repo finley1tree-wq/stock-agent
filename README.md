@@ -98,10 +98,12 @@ work rather than just being permitted:
 - **Every position gets an exit plan the moment it exists.** `auto_bracket` attaches a target and a
   stop to any position that lacks one, priced off the actual entry. The brain can place better levels
   itself; these only fill the gaps it left.
-- **A fast tick between decisions.** `.github/workflows/tick.yml` runs every 15 minutes and calls
-  `python -m agent.run --tick`, which fetches quotes, fires any standing order whose level was
-  reached, and republishes the site. It never calls the model, so it costs about a runner-minute and
-  nothing in API. The half-hourly `agent.yml` still does all the thinking.
+- **A fast tick between decisions.** `.github/workflows/tick.yml` starts every 5 minutes (GitHub's
+  cron floor) and each job then watches minute by minute, firing any standing order whose level was
+  reached. Reaction time is about a minute. It never calls the model, so it costs nothing in API,
+  and the repo is public so runner minutes are free. The half-hourly `agent.yml` does the thinking.
+  A tick only publishes when something changed, because every publish is a site deploy and Vercel's
+  free plan allows 100 a day.
 - **Sold money is immediately reusable.** Proceeds return to the week's budget, so an exit funds the
   next entry in the same session.
 

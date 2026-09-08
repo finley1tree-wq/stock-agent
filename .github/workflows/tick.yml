@@ -1,11 +1,12 @@
-# Fast pass between decisions: fires standing orders and refreshes the dashboard, and never calls
-# the model. A target hit at 10:47 is acted on within about ten minutes instead of waiting for the
-# next half-hourly decision, which is what makes same-day trading actually work.
-# Costs about one runner-minute per tick and $0 of API. agent.yml still does the thinking.
+# Watches the market between decisions: fires standing orders and refreshes the dashboard, and
+# never calls the model. GitHub's cron floor is 5 minutes, so each job does four passes a minute
+# apart and exits before the next one starts - reaction time is about a minute, not half an hour.
+# The repo is public, so runner minutes are free; the real limit is site deploys, which is why a
+# tick only publishes when something changed (see PUBLISH_EVERY_S in run.py).
 name: tick
 on:
   schedule:
-    - cron: "5,20,35,50 13-21 * * 1-5"      # every 15 min, covering the session in both DST regimes
+    - cron: "*/5 13-21 * * 1-5"             # every 5 min; each job then watches minute-by-minute inside
   workflow_dispatch:
 concurrency:
   group: stock-agent          # shares the agent's lane: a tick never runs beside a decision
@@ -14,13 +15,13 @@ permissions: { contents: write }
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 9
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt
-      - run: python -m agent.run --tick
+      - run: python -m agent.run --tick --loop 4 --interval 60
         env:
           BROKER: ${{ secrets.BROKER }}
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
