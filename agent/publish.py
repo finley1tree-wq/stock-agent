@@ -18,11 +18,21 @@ def _copy(name: str, default: str) -> None:
     src = ROOT / name
     (OUT / name).write_text(src.read_text() if src.exists() else default)
 
+def _copy_tail(name: str, keep: int) -> None:
+    """journal.json grows forever locally (learn.py needs all of it); the site only needs recent rows."""
+    src = ROOT / name
+    try:
+        rows = json.loads(src.read_text()) if src.exists() else []
+        rows = rows[-keep:] if isinstance(rows, list) else []
+    except Exception:
+        rows = []
+    (OUT / name).write_text(json.dumps(rows))
+
 def publish(cfg: dict, signals: dict | None = None, note: str = "") -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     _copy("portfolio.json", "{}")
     (OUT / "state.json").write_text(json.dumps(state.load()))   # current ET day/week with counters already reset
-    _copy("journal.json", "[]")
+    _copy_tail("journal.json", 1500)
     _copy("lessons.md", "")
     log = ROOT / "log.md"
     lines = log.read_text().splitlines()[-400:] if log.exists() else []
@@ -43,7 +53,7 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "") -> None:
     elif prev_path.exists():
         try:
             old = json.loads(prev_path.read_text())
-            for k in ("congress_trades", "congress_pressure", "insider_trades", "insider_pressure", "headlines", "people_news", "allowed", "feed_status", "signalsAsOf"):
+            for k in ("congress_trades", "congress_pressure", "insider_trades", "insider_pressure", "headlines", "people_news", "allowed", "feed_status", "learning", "signalsAsOf"):
                 if k in old: meta.setdefault(k, old[k])
         except Exception:
             pass

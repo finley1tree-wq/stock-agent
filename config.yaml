@@ -19,11 +19,12 @@ guardrails:
   max_per_ticker_pct: 40         # no single ticker gets more than 40% of the week's budget (tracked across the week)
   min_order_usd: 5               # skip crumbs
   max_daily_deploy_pct: 60       # never deploy more than 60% of the weekly budget in one day (tracked across the day's checks)
-  max_orders_per_day: 8          # hard cap on buys per day, however many checks run
+  max_orders_per_day: 24         # generous ceiling — it may trade as often as it needs; the dollar caps
+                                 # below are the real risk control, this only stops runaway churn
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
   only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
   min_hold_days: 2               # a position can't be sold until it's this old (no churn)
-  max_sells_per_day: 3           # hard cap on sells per day
+  max_sells_per_day: 12          # generous ceiling on sells per day
   allow_politician_tickers: true # may buy tickers Congress members recently bought, even if not on the watchlist
   politician_lookback_days: 30
   allow_insider_tickers: true    # may buy tickers with net insider (Form 4) buying, even if not on the watchlist

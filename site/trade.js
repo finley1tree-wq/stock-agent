@@ -122,10 +122,14 @@
     if (T.show.vwap && intraday) { T.series.vwap = chart.addLineSeries({ color: AMBER, lineWidth: 1, lineStyle: LW.LineStyle.Dotted, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false }); T.series.vwap.setData(vwap(bars)); }
     // agent fills as markers (only those inside the visible range)
     const fills = ctx().journal().filter(r => r.symbol === T.sym && r.date);
-    const t0 = bars[0].time, t1 = bars[bars.length - 1].time + 86400;
-    const markers = fills.map(r => { const ts = Math.floor(new Date(`${r.date}T${r.time_et || "12:00"}:00-04:00`).getTime() / 1000); return { ts, r }; }).filter(m => m.ts >= t0 && m.ts <= t1)
+    const t0 = bars[0].time, t1 = Math.max(bars[bars.length - 1].time, Math.floor(Date.now() / 1000)) + 86400;
+    const fillTime = r => r.ts ? +r.ts : Math.floor(new Date(`${r.date}T${r.time_et || "12:00"}:00-04:00`).getTime() / 1000);
+    const markers = fills.map(r => ({ ts: fillTime(r), r })).filter(m => m.ts >= t0 && m.ts <= t1)
       .map(m => { const near = bars.reduce((a, b) => Math.abs(b.time - m.ts) < Math.abs(a.time - m.ts) ? b : a, bars[0]); const sell = m.r.side === "sell";
-        return { time: near.time, position: sell ? "aboveBar" : "belowBar", color: sell ? AMBER : UP, shape: sell ? "arrowDown" : "arrowUp", text: sell ? `SELL ${money(+m.r.proceeds || 0, 0)}` : `BUY ${money(+m.r.notional || 0, 0)}` }; })
+        const amt = sell ? (+m.r.proceeds || 0) : (+m.r.notional || 0);
+        return { time: near.time, position: sell ? "aboveBar" : "belowBar", color: sell ? AMBER : UP,
+                 shape: sell ? "arrowDown" : "arrowUp",
+                 text: `${sell ? "SELL" : "BUY"} ${money(amt, 0)} @ ${money(+m.r.price)}` }; })
       .sort((a, b) => a.time - b.time);
     if (markers.length) T.series.main.setMarkers(markers);
     drawEntry();

@@ -9,7 +9,7 @@ import json, os, subprocess, sys
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from . import config, prices, politicians, insiders, news, state, safety, backtest
+from . import config, prices, politicians, insiders, news, state, safety, backtest, reflect
 from .broker_sim import is_trading_day, close_time, HOLIDAYS
 from .redact import redact
 
@@ -86,19 +86,45 @@ def main() -> int:
     add(OK if last_holiday > today.isoformat() else WARN, "holiday calendar",
         f"through {last_holiday}" + ("" if last_holiday > today.isoformat() else " — STALE, update HOLIDAYS in agent/broker_sim.py"))
 
-    try:
-        out = subprocess.run(["launchctl", "print", f"gui/{os.getuid()}/com.finley.stock-agent"],
-                             capture_output=True, text=True, timeout=10).stdout
-        runs = next((l.split("=")[1].strip() for l in out.splitlines() if "runs =" in l), "?")
-        add(OK if out else FAIL, "schedule", f"loaded, {runs} runs so far, every {cfg['run_every_minutes']} min during market hours")
-    except Exception:
-        add(WARN, "schedule", "LaunchAgent not loaded — double-click autopilot-mac.command")
-    try:
-        awake = subprocess.run(["launchctl", "print", f"gui/{os.getuid()}/com.finley.stock-agent-awake"],
-                               capture_output=True, text=True, timeout=10).returncode == 0
-        add(OK if awake else WARN, "keep-awake", "installed" if awake else "not installed — a sleeping Mac skips checks (keep-awake-mac.command)")
-    except Exception:
-        add(WARN, "keep-awake", "unknown")
+    # Where does it actually run? GitHub Actions (laptop-free) or this Mac's LaunchAgent — but not both.
+    def _sh(cmd, t=15):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=t)
+            return r.returncode, (r.stdout or "").strip()
+        except Exception:
+            return 1, ""
+    mac_on = _sh(["launchctl", "print", f"gui/{os.getuid()}/com.finley.stock-agent"])[0] == 0
+    awake_on = _sh(["launchctl", "print", f"gui/{os.getuid()}/com.finley.stock-agent-awake"])[0] == 0
+    cloud_on, cloud_detail = False, ""
+    rc, remote = _sh(["git", "-C", str(ROOT), "remote", "get-url", "origin"])
+    if rc == 0 and remote:
+        repo = remote.split("github.com/")[-1].removesuffix(".git").strip("/:")
+        rc2, wf = _sh(["gh", "workflow", "list", "-R", repo], 25)
+        if rc2 == 0 and "active" in wf:
+            cloud_on = True
+            rc3, runs = _sh(["gh", "run", "list", "-R", repo, "--limit", "1",
+                             "--json", "status,conclusion,createdAt",
+                             "-q", '.[0] | .createdAt + " " + .status + "/" + (.conclusion // "-")'], 25)
+            cloud_detail = f"GitHub Actions on {repo}" + (f", last run {runs}" if rc3 == 0 and runs else "")
+        elif rc2 == 0:
+            cloud_detail = f"workflow found on {repo} but NOT active"
+    if cloud_on and mac_on:
+        add(FAIL, "where it runs", "BOTH GitHub Actions and this Mac are scheduled — two agents would trade one budget. "
+                                  "Turn the Mac off: bash autopilot-mac.command stop")
+    elif cloud_on:
+        add(OK, "where it runs", cloud_detail + " — laptop can stay off")
+        if awake_on:
+            add(WARN, "keep-awake", "still installed but unnecessary now that it runs in the cloud (bash keep-awake-mac.command stop)")
+    elif mac_on:
+        add(OK, "where it runs", f"this Mac's LaunchAgent, every {cfg['run_every_minutes']} min during market hours")
+        add(OK if awake_on else WARN, "keep-awake",
+            "installed" if awake_on else "not installed — a sleeping Mac skips checks (keep-awake-mac.command)")
+    else:
+        add(FAIL, "where it runs", "NOTHING is scheduled — " + (cloud_detail or "run push.command for the cloud, or autopilot-mac.command for this Mac"))
+
+    cf = reflect.report(prices.snapshot(config.all_watchlist_tickers(cfg)) if False else {})
+    n_dec = cf.get("decisions_recorded", 0)
+    add(OK, "self-learning", f"{n_dec} decisions recorded" + (f", {cf['decisions_graded']} graded, regret {cf['avg_regret_pct']}%" if cf.get("decisions_graded") else " (grading starts after the first full day)"))
 
     bp = backtest.priors()
     add(OK if bp else WARN, "backtest", f"generated {bp['generated']}, stable_ranking={bp.get('stable_ranking')}" if bp else "never run — python3 -m agent.backtest")

@@ -8,6 +8,7 @@ portfolio.json  -> the ledger (cash, positions, fills, realised P/L)
 portfolio.md    -> human-readable snapshot, regenerated every check
 """
 import json
+import math
 from datetime import date, datetime, time
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -74,8 +75,10 @@ class SimBroker:
             y, w = str(k).split("-W"); return int(y), int(w)
         last = self.p.get("last_deposit_week") or wk
         if self.deposit > 0 and _ord(wk) > _ord(last):
-            self.p["cash"] = round(self.p["cash"] + self.deposit, 2)
-            self.p["deposited"] = round(self.p["deposited"] + self.deposit, 2)
+            # Ledger arithmetic is kept EXACT (no per-step rounding): cash + cost basis must always equal
+            # deposited + realised P/L, and safety.ledger_intact halts trading if it drifts past 5 cents.
+            self.p["cash"] += self.deposit
+            self.p["deposited"] += self.deposit
             self.p["fills"].append({"type": "deposit", "usd": self.deposit, "date": today.isoformat()})
         if _ord(wk) > _ord(last):
             self.p["last_deposit_week"] = wk
@@ -111,7 +114,10 @@ class SimBroker:
             out[s] = {"qty": round(pos["qty"], 6), "avg_cost": round(pos["avg_cost"], 2), "price": round(price, 2),
                       "market_value": round(mv, 2), "unrealized_plpc": round((price / pos["avg_cost"] - 1) * 100, 2),
                       "weight_pct": round(mv / eq * 100, 1),
-                      "days_held": (today - date.fromisoformat(pos["opened"])).days}
+                      "days_held": (today - date.fromisoformat(pos["opened"])).days,
+                      # min_hold_days is enforced on this: adding to a position restarts the clock, so a fresh lot
+                      # can't be flipped the same day just because the position is old
+                      "days_since_buy": (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days}
         return out
 
     def summary(self) -> dict:
@@ -126,18 +132,22 @@ class SimBroker:
         price = self.prices.get(symbol)
         if not price:
             rec["status"] = "rejected_no_price"; return rec
-        usd = min(round(usd, 2), self.cash())
+        usd = round(usd, 2)
+        if usd > self.p["cash"]:                      # never overdraw: floor to the cent actually available
+            usd = math.floor(self.p["cash"] * 100 + 1e-9) / 100
         if usd <= 0:
             rec["status"] = "rejected_no_cash"; return rec
         qty = usd / price
+        today = datetime.now(ET).date().isoformat()
         pos = self.p["positions"].get(symbol)
         if pos and pos["qty"] >= 1e-6:
             total_cost = pos["qty"] * pos["avg_cost"] + usd
             pos["qty"] += qty
             pos["avg_cost"] = total_cost / pos["qty"]
+            pos["last_buy"] = today
         else:
-            self.p["positions"][symbol] = {"qty": qty, "avg_cost": price, "opened": datetime.now(ET).date().isoformat()}
-        self.p["cash"] = round(self.p["cash"] - usd, 2)
+            self.p["positions"][symbol] = {"qty": qty, "avg_cost": price, "opened": today, "last_buy": today}
+        self.p["cash"] -= usd                          # exact, see _weekly_deposit
         rec.update({"status": "filled", "qty": round(qty, 6), "price": round(price, 2), "notional": usd})
         self.p["fills"].append({**rec, "type": "buy", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})
         self._save()
@@ -159,8 +169,8 @@ class SimBroker:
         pos["qty"] -= qty
         if pos["qty"] < 1e-9:
             del self.p["positions"][symbol]
-        self.p["cash"] = round(self.p["cash"] + proceeds, 2)
-        self.p["realized_pnl"] = round(self.p["realized_pnl"] + realized, 2)
+        self.p["cash"] += proceeds                     # exact: rounding cash and P/L separately drifted the
+        self.p["realized_pnl"] += realized             # ledger ~1c per sell and eventually tripped the halt
         rec.update({"status": "filled", "qty": round(qty, 6), "price": round(price, 2), "proceeds": round(proceeds, 2),
                     "realized_pnl": round(realized, 2), "realized_pct": round((price / pos["avg_cost"] - 1) * 100, 2)})
         self.p["fills"].append({**rec, "type": "sell", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})

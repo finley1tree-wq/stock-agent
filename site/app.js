@@ -154,11 +154,45 @@
     j.slice(0, 60).forEach(r => { const f = el("div", "f"); const isSell = r.side === "sell";
       f.innerHTML = `<div class="when">${esc(r.date || "")}<br>${esc(r.time_et || "")}</div><div class="what"><span class="tag ${isSell ? "sell" : "buy"}">${isSell ? "SELL" : "BUY"}</span> <b>${esc(r.symbol)}</b>${isSell ? ` ${(+r.qty).toFixed(4)} sh @ ${money(+r.price)}` : ` @ ${money(+r.price)}`}<span class="chips">${(r.signals || []).map(s => `<span>${esc(s)}</span>`).join("")}</span><div class="why">${esc(r.why || "")}</div>${r.evidence ? `<div class="ev">evidence: ${esc(r.evidence)}</div>` : ""}</div><div class="amt num">${isSell ? `${money(+r.proceeds)}<br><span style="color:${r.realized_pct >= 0 ? "var(--up)" : "var(--down)"};font-size:12.5px">${pct(+r.realized_pct)}</span>` : money(+r.notional)}</div>`;
       f.style.cursor = "pointer"; f.addEventListener("click", () => openSheet(r.symbol)); box.appendChild(f); });
+    renderLearning();
     const ul = $("#lessons"); ul.innerHTML = ""; const ls = (state.data.lessons || "").split("\n").filter(l => l.startsWith("- ")).slice(-12).reverse();
     if (!ls.length) ul.appendChild(el("li", null, "Nothing learned yet. Lessons appear after the first checks."));
     ls.forEach(l => { const m = l.match(/^- (\S+) \(([^)]*)\): (.*)$/); ul.appendChild(el("li", null, m ? `<span class="d">${esc(m[1])}</span>${esc(m[3])}` : esc(l.slice(2)))); });
     const log = (state.data.log || "").trim(); const pre = $("#log");
     pre.innerHTML = log ? log.split("\n").slice(-160).map(line => { const s = esc(line); if (line.startsWith("## ")) return `<span class="h">${s}</span>`; if (line.startsWith("- BUY")) return `<span class="buy">${s}</span>`; if (line.startsWith("- SELL")) return `<span class="sell">${s}</span>`; if (line.startsWith("  (")) return `<span class="dim">${s}</span>`; return s; }).join("\n") : "No log yet.";
+  }
+
+  function renderLearning() {
+    const box = $("#learning"), L = (state.data.signals || {}).learning || {};
+    $("#learn-count").textContent = L.decisions_recorded ? `${L.decisions_recorded} decisions recorded` : "";
+    if (!box) return;
+    if (!L.decisions_graded) {
+      box.innerHTML = `<div class="empty" style="padding:14px">${esc(L.note || "No decisions recorded yet.")}<br><span style="font-size:12.5px">Every check is stored with the whole list of stocks it could have bought. Once a day has passed they get graded against what actually happened.</span></div>`;
+      return;
+    }
+    const sign = v => v == null ? "var(--muted)" : v >= 0 ? "var(--up)" : "var(--down)";
+    const hasBuys = L.avg_regret_pct != null;                 // regret only exists once a graded check contains a buy
+    const good = hasBuys && L.avg_regret_pct < 0;
+    const tone = !hasBuys ? "var(--muted)" : good ? "var(--up)" : "var(--amber)";
+    const idle = L.idle_universe_avg_pct;
+    const verdict = !hasBuys
+      ? `No graded check contains a buy yet, so its picking can't be judged. ${idle != null ? `While it sat out, the list it watches moved ${pct(idle)} on average.` : ""}`
+      : good ? "Its picking is beating a random pick from the same list."
+      : "The stocks it passed over are doing better than the ones it bought. It sees this and is adjusting.";
+    const row = (label, v) => `<div>${label}<b class="num" style="color:${sign(v)}">${v == null ? "—" : pct(v)}</b></div>`;
+    box.innerHTML = `
+      <div class="kv" style="margin-top:0">
+        ${row("Its picks", L.chosen_avg_pct)}
+        ${row("What it skipped", L.skipped_avg_pct)}
+        <div>Regret<b class="num" style="color:${!hasBuys ? "var(--muted)" : good ? "var(--up)" : "var(--amber)"}">${hasBuys ? pct(L.avg_regret_pct) : "—"}</b></div>
+        <div>Checks graded<b class="num">${L.decisions_graded}${hasBuys ? ` <span style="color:var(--muted);font-weight:400">(${L.decisions_with_buys_graded || 0} with buys)</span>` : ""}</b></div>
+      </div>
+      <p style="margin:12px 0 0;font-size:13px;color:${tone}">${verdict}</p>
+      ${(L.biggest_misses || []).length ? `<h4 style="margin:16px 0 6px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Biggest things it passed over</h4>
+        <div class="pressure">${L.biggest_misses.slice(0, 4).map(m => `<div class="p"><b>${esc(m.ticker)}</b><span style="color:var(--muted);font-size:12.5px">${esc(m.sector || "")} · ${esc((m.ts || "").slice(5, 16))}</span><span class="v num" style="color:${sign(m.fwd_pct)}">${pct(m.fwd_pct)}</span></div>`).join("")}</div>` : ""}
+      ${(L.biggest_avoided || []).length ? `<h4 style="margin:14px 0 6px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Losses it dodged by passing</h4>
+        <div class="pressure">${L.biggest_avoided.slice(0, 3).map(m => `<div class="p"><b>${esc(m.ticker)}</b><span style="color:var(--muted);font-size:12.5px">${esc((m.ts || "").slice(5, 16))}</span><span class="v num" style="color:${sign(m.fwd_pct)}">${pct(m.fwd_pct)}</span></div>`).join("")}</div>` : ""}
+      <p style="margin:14px 0 0;font-size:12.5px;color:var(--faint)">Sat out ${Math.round((L.idle_share || 0) * 100)}% of checks. Hit rate ${L.chosen_hit_rate != null ? Math.round(L.chosen_hit_rate * 100) + "%" : "—"} on its own picks vs ${L.skipped_hit_rate != null ? Math.round(L.skipped_hit_rate * 100) + "%" : "—"} on what it skipped.</p>`;
   }
 
   function renderHero() {

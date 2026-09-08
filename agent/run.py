@@ -12,7 +12,7 @@ import sys
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest
+from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -134,8 +134,9 @@ def apply_sell_guardrails(plan: dict, positions: dict, st: dict, g: dict) -> tup
             dropped.append(f"sell {t}: not held"); continue
         if t in seen:
             dropped.append(f"sell {t}: duplicate in plan"); continue
-        if pos.get("days_held", 999) < int(g.get("min_hold_days", 0)):
-            dropped.append(f"sell {t}: held {pos.get('days_held')}d < min_hold_days"); continue
+        since_buy = pos.get("days_since_buy", pos.get("days_held", 999))
+        if since_buy < int(g.get("min_hold_days", 0)):
+            dropped.append(f"sell {t}: last bought {since_buy}d ago < min_hold_days"); continue
         if not str(s.get("evidence", "")).strip():
             dropped.append(f"sell {t}: no evidence given"); continue
         pct = max(0.0, min(100.0, float(s.get("pct_of_position", 0) or 0)))
@@ -168,8 +169,8 @@ def gather_signals(cfg: dict, env: dict, g: dict, held: list[str]) -> dict:
     return {"watch": watch, "followed_people": followed_people, "ctrades": ctrades, "cpressure": cpressure,
             "itrades": itrades, "ipressure": ipressure, "allowed": allowed, "feed_status": feed_status}
 
-def site_signals(sig: dict, headlines: dict, people: dict) -> dict:
-    return {"allowed": sorted(sig["allowed"]), "feed_status": sig["feed_status"],
+def site_signals(sig: dict, headlines: dict, people: dict, learning: dict | None = None) -> dict:
+    return {"allowed": sorted(sig["allowed"]), "feed_status": sig["feed_status"], "learning": learning or {},
             "congress_trades": sig["ctrades"][:60], "congress_pressure": dict(list(sig["cpressure"].items())[:20]),
             "insider_trades": sig["itrades"][:60], "insider_pressure": dict(list(sig["ipressure"].items())[:20]),
             "headlines": headlines, "people_news": people}
@@ -271,11 +272,13 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "followed_people_insider_filings": insiders.by_followed(itrades, followed_people)[:20],
         "track_record": track, "past_lessons": learn.past_lessons(),
         "backtest_priors": backtest.priors(),
+        "counterfactual_learning": reflect.report(px),
+        "past_lessons_with_outcome": reflect.recent_lessons_with_outcome(px),
     }
     try:
         plan = brain.decide(env, ctx)
     except Exception as e:
-        log(f"brain error: {redact(e)} — no decision at this check."); pub.publish(cfg, site_signals(sig, headlines, people), "brain error"); return
+        log(f"brain error: {redact(e)} — no decision at this check."); pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), "brain error"); return
     log(f"brain: {plan.get('reasoning', '')}")
     learn.add_lesson(plan.get("lesson", ""), track)
     if plan.get("lesson"): log(f"lesson: {plan['lesson']}")
@@ -285,13 +288,15 @@ def main(report_only: bool = False, force: bool = False) -> None:
     # --- sells first (frees cash); state saved after every fill so counters never lag the ledger ---
     sells, sdropped = apply_sell_guardrails(plan, positions, st, g) if hasattr(broker, "sell_qty") else ([], ["broker has no sell support"] if plan.get("sells") else [])
     for d in sdropped: log(f"  (dropped {d})")
+    filled_sells, filled_buys = [], []
     for s in sells:
         rec = broker.sell_qty(s["ticker"], s["qty"])
         if str(rec.get("status", "")).startswith("rejected"):
             log(f"- SELL {s['pct']:.0f}% {s['ticker']} [{rec['status']}]"); continue
-        full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "why": s["why"], "signals": s["signals"], "evidence": s["evidence"]}
+        full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": s["why"], "signals": s["signals"], "evidence": s["evidence"]}
         state.record_sell(st, s["ticker"], full); state.save(st)
         learn.record_sell(full, signals=s["signals"], evidence=s["evidence"], hour_et=now.hour)
+        filled_sells.append(s)
         extra = f" → ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%)" if "proceeds" in rec else ""
         log(f"- SELL {s['pct']:.0f}% {s['ticker']} [{rec['status']}]{extra} {s['signals']} — {s['why']} | evidence: {s['evidence']}")
         did += 1
@@ -305,15 +310,18 @@ def main(report_only: bool = False, force: bool = False) -> None:
         rec = broker.buy_notional(o["ticker"], o["usd"])
         if str(rec.get("status", "")).startswith("rejected"):
             log(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
-        full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "why": o["why"], "signals": o["signals"], "evidence": o["evidence"]}
+        full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": o["why"], "signals": o["signals"], "evidence": o["evidence"]}
         state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
         learn.record(full, px.get(o["ticker"], {}).get("price"), sector_of.get(o["ticker"], "off-watchlist"),
                      cpressure.get(o["ticker"], 0) > 0, px.get(o["ticker"], {}).get("change_1m_pct"),
                      signals=o["signals"], evidence=o["evidence"], hour_et=now.hour)
+        filled_buys.append({**o, "usd": float(rec.get("notional", o["usd"]))})
         log(f"- BUY ${float(rec.get('notional', o['usd'])):.2f} {o['ticker']} [{rec['status']}] {o['signals']} — {o['why']} | evidence: {o['evidence']}")
         did += 1
 
     state.save(st)
+    reflect.record(now, px, allowed, filled_buys, filled_sells, dropped + sdropped, plan,
+                   cpressure, ipressure, headlines, sector_of, set(positions), remaining)
     if is_sim:
         broker.write_report()
         s = broker.summary()
@@ -322,7 +330,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         log("Decision: nothing at this check.")
     else:
         log(f"Done: {len(sells)} sell(s), {len(orders)} buy(s); budget left ${g['_weekly_budget'] - st['spent']:.2f} this week")
-    pub.publish(cfg, site_signals(sig, headlines, people), plan.get("reasoning", "")[:300])
+    pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), plan.get("reasoning", "")[:300])
 
 if __name__ == "__main__":
     if "--publish" in sys.argv:
