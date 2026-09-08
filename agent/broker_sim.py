@@ -37,6 +37,17 @@ def last_trading_day_of_week(d: date) -> bool:
     from datetime import timedelta
     return is_trading_day(d) and not any(is_trading_day(d + timedelta(days=i)) for i in range(1, 5 - d.weekday()))
 
+def _px(v: float) -> float:
+    """Round for display without destroying sub-cent assets.
+
+    A memecoin trades at $0.000003. Rounding its price to two decimals makes it exactly zero, and
+    every level computed from it becomes meaningless, so small numbers keep significant digits.
+    """
+    v = float(v)
+    if v == 0:
+        return 0.0
+    return round(v, 2) if abs(v) >= 1 else float(f"{v:.8g}")
+
 def _week_key(d: date) -> str:
     y, w, _ = d.isocalendar()
     return f"{y}-W{w:02d}"
@@ -45,8 +56,18 @@ class SimBroker:
     name = "sim"
     client = None  # run.py checks this to decide how to test market hours
 
-    def __init__(self, env: dict, sim_cfg: dict | None = None):
+    def __init__(self, env: dict, sim_cfg: dict | None = None,
+                 portfolio_path=None, report_path=None, name: str | None = None):
+        """portfolio_path lets a second sleeve keep its own books.
+
+        The memecoin sleeve must not be able to spend the stock sleeve's money or corrupt its
+        ledger, so it runs as a separate SimBroker over separate files with its own invariant.
+        """
         sim_cfg = sim_cfg or {}
+        self._pf = Path(portfolio_path) if portfolio_path else PORTFOLIO
+        self._rp = Path(report_path) if report_path else REPORT
+        if name:
+            self.name = name
         self.start = float(sim_cfg.get("starting_cash", 400))
         self.deposit = float(sim_cfg.get("weekly_deposit", 0))
         self.prices: dict[str, float] = {}
@@ -59,8 +80,8 @@ class SimBroker:
 
     # ---- ledger -------------------------------------------------------------------------
     def _load(self) -> dict:
-        if PORTFOLIO.exists():
-            return json.loads(PORTFOLIO.read_text())
+        if self._pf.exists():
+            return json.loads(self._pf.read_text())
         today = datetime.now(ET).date()
         # A ledger created on a weekend belongs to the coming week, so starting_cash counts as that week's deposit.
         first_wk = today if today.weekday() < 5 else date.fromordinal(today.toordinal() + 7 - today.weekday())
@@ -68,7 +89,7 @@ class SimBroker:
                 "last_deposit_week": _week_key(first_wk), "positions": {}, "fills": [], "realized_pnl": 0.0}
 
     def _save(self) -> None:
-        PORTFOLIO.write_text(json.dumps(self.p, indent=2))
+        self._pf.write_text(json.dumps(self.p, indent=2))
 
     def _weekly_deposit(self) -> None:
         """One deposit per NEW ISO week. Compares ordered (year, week) so a ledger stamped with the coming week
@@ -115,13 +136,14 @@ class SimBroker:
         for s, pos in self.p["positions"].items():
             price = self.prices.get(s, pos["avg_cost"])
             mv = pos["qty"] * price
-            out[s] = {"qty": round(pos["qty"], 6), "avg_cost": round(pos["avg_cost"], 2), "price": round(price, 2),
+            out[s] = {"qty": round(pos["qty"], 6), "avg_cost": _px(pos["avg_cost"]), "price": _px(price),
                       "market_value": round(mv, 2), "unrealized_plpc": round((price / pos["avg_cost"] - 1) * 100, 2),
                       "weight_pct": round(mv / eq * 100, 1),
                       "days_held": (today - date.fromisoformat(pos["opened"])).days,
                       # min_hold_days is enforced on this: adding to a position restarts the clock, so a fresh lot
                       # can't be flipped the same day just because the position is old
-                      "days_since_buy": (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days}
+                      "days_since_buy": (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days,
+                      "tranches": int(pos.get("tranches", 1))}
         return out
 
     def summary(self) -> dict:
@@ -150,10 +172,12 @@ class SimBroker:
             pos["qty"] += qty
             pos["avg_cost"] = total_cost / pos["qty"]
             pos["last_buy"] = today
+            pos["tranches"] = int(pos.get("tranches", 1)) + 1     # how many times it has averaged in
         else:
-            self.p["positions"][symbol] = {"qty": qty, "avg_cost": fill, "opened": today, "last_buy": today}
+            self.p["positions"][symbol] = {"qty": qty, "avg_cost": fill, "opened": today,
+                                           "last_buy": today, "tranches": 1}
         self.p["cash"] -= usd                          # exact, see _weekly_deposit
-        rec.update({"status": "filled", "qty": round(qty, 6), "price": round(fill, 2), "notional": usd})
+        rec.update({"status": "filled", "qty": round(qty, 6), "price": _px(fill), "notional": usd})
         self.p["fills"].append({**rec, "type": "buy", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})
         self._save()
         return rec
@@ -178,7 +202,7 @@ class SimBroker:
             del self.p["positions"][symbol]
         self.p["cash"] += proceeds                     # exact: rounding cash and P/L separately drifted the
         self.p["realized_pnl"] += realized             # ledger ~1c per sell and eventually tripped the halt
-        rec.update({"status": "filled", "qty": round(qty, 6), "price": round(fill, 2), "proceeds": round(proceeds, 2),
+        rec.update({"status": "filled", "qty": round(qty, 6), "price": _px(fill), "proceeds": round(proceeds, 2),
                     "realized_pnl": round(realized, 2), "realized_pct": round((fill / avg - 1) * 100, 2)})
         self.p["fills"].append({**rec, "type": "sell", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})
         self._save()
@@ -204,4 +228,4 @@ class SimBroker:
                 lines.append(f"- {f['date']} SELL {f['qty']} {f['symbol']} @ ${f['price']} → ${f['proceeds']:.2f} ({f['realized_pct']:+.2f}%)")
             else:
                 lines.append(f"- {f['date']} BUY ${f['notional']:.2f} {f['symbol']} @ ${f['price']}")
-        REPORT.write_text("\n".join(lines) + "\n")
+        self._rp.write_text("\n".join(lines) + "\n")

@@ -265,7 +265,7 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             learn.record_sell(full, signals=sl["signals"], evidence=sl["evidence"], hour_et=now.hour)
             triggers.close(f["id"], now, "filled")
             if sl["ticker"] not in broker.positions():
-                n = triggers.cancel_all_for(sl["ticker"], triggers.SELL_KINDS, now, "position closed")
+                n = triggers.cancel_position_orders(sl["ticker"], now, "position closed")
                 if n:
                     log_fn(f"  (cancelled {n} standing order(s) on {sl['ticker']}: position closed)")
             filled_sells.append(sl); did += 1
@@ -354,8 +354,8 @@ def _tick_once(force: bool = False) -> None:
     sector_of = {t: s for s, ts in cfg["watchlist"].items() for t in ts}
     bought, sold, did = fill_standing_orders(now, today, broker, broker.positions(), px, st, g,
                                              set(), remaining, sector_of, {}, log)
-    if bought:                                   # a standing buy just opened a position: protect it now
-        auto = triggers.auto_bracket(now, broker.positions(), px, g.get("auto_bracket") or {})
+    if bought:            # averaging in moved the average cost, so the exits have to move with it
+        auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, g.get("auto_bracket") or {})
         if auto:
             triggers.place(auto, now, set(broker.positions()), set(broker.positions()), px)
     st["last_check_ts"] = int(now.timestamp())
@@ -519,9 +519,11 @@ def main(report_only: bool = False, force: bool = False) -> None:
         did += 1
 
     placed, trejected = triggers.place(plan.get("triggers"), now, set(broker.positions()), allowed, px)
-    auto = triggers.auto_bracket(now, broker.positions(), px, g.get("auto_bracket") or {})
+    auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, g.get("auto_bracket") or {})
+    if stale:
+        log(f"  (re-pinned {stale} order(s) to the new average cost)")
     if auto:
-        a_placed, a_rej = triggers.place(auto, now, set(broker.positions()), allowed, px)
+        a_placed, a_rej = triggers.place(auto, now, set(broker.positions()), allowed | set(broker.positions()), px)
         placed += a_placed
         trejected += a_rej
     for d in trejected:

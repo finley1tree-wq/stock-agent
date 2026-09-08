@@ -214,6 +214,25 @@ def close(order_id: str, now: datetime, status: str, detail: str = "") -> None:
     d["updated"] = now.strftime("%Y-%m-%d %H:%M")
     _save(d)
 
+def cancel_position_orders(ticker: str, now: datetime, reason: str) -> int:
+    """When a position closes, retire everything that was attached to it.
+
+    Cancelling only the sell side is a trap: the averaging-in buy order would still be working, so
+    a stop-out would immediately re-enter the same position slightly lower. That turns the stop
+    into a pause. Any order the agent attached to this position goes with it; a buy the brain
+    placed on its own judgement is left alone.
+    """
+    d = _load(); n = 0
+    for o in d["orders"]:
+        if o.get("status") != "working" or o["ticker"] != ticker:
+            continue
+        if o["kind"] in SELL_KINDS or "auto_bracket" in (o.get("signals") or []):
+            o["status"] = "cancelled"; o["closed"] = now.strftime("%Y-%m-%d %H:%M")
+            o["cancel_reason"] = reason; n += 1
+    if n:
+        _save(d)
+    return n
+
 def cancel_all_for(ticker: str, kinds: set, now: datetime, reason: str) -> int:
     d = _load(); n = 0
     for o in d["orders"]:
@@ -257,6 +276,72 @@ def auto_bracket(now: datetime, positions: dict, px: dict, cfg: dict) -> list[di
                         "evidence": f"entry ${entry:.2f}, stop -{sl:.1f}%",
                         "why": f"cap the loss at -{sl:.1f}% from the entry"})
     return out
+
+AUTO = "auto_bracket"
+
+def _is_auto(o: dict) -> bool:
+    return AUTO in (o.get("signals") or [])
+
+def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> tuple[list[dict], int]:
+    """Keep every position's exit plan pinned to its CURRENT average cost, and offer to average in.
+
+    This is the pattern behind the "wait until the whole thing is green, then close it" videos: buy
+    in tranches as it falls, and let the exit follow the blended average so the basket is closed as
+    one. Two differences from the version in those clips, both deliberate:
+
+      * the number of tranches is capped, so the position size cannot grow without bound;
+      * there is a hard basket stop. The strategy wins small and often and loses everything rarely.
+        Removing the rare branch is the whole job, and the clips have nothing in that place.
+
+    Returns (orders_to_place, number_of_stale_orders_cancelled).
+    """
+    if not cfg or not cfg.get("enabled", True):
+        return [], 0
+    tp = float(cfg.get("take_profit_pct", 3) or 0)
+    sl = float(cfg.get("stop_loss_pct", 2) or 0)
+    tp_size = float(cfg.get("take_profit_size_pct", 50) or 50)
+    scale = cfg.get("scale_in") or {}
+    scale_on = bool(scale.get("enabled"))
+    max_tranches = int(scale.get("max_tranches", 1) or 1)
+    add_drop = float(scale.get("add_after_drop_pct", 0) or 0)
+    add_usd = float(scale.get("add_usd", 0) or 0)
+
+    live = working(now)
+    want, cancelled = [], 0
+    for t, pos in (positions or {}).items():
+        entry = float(pos.get("avg_cost") or 0)
+        if entry <= 0:
+            continue
+        mine = [o for o in live if o["ticker"] == t and _is_auto(o)]
+        targets = {}
+        if tp > 0:
+            targets["take_profit"] = round(entry * (1 + tp / 100), 6)
+        if sl > 0:
+            targets["stop_loss"] = round(entry * (1 - sl / 100), 6)
+        if scale_on and add_drop > 0 and add_usd > 0 and int(pos.get("tranches", 1)) < max_tranches:
+            targets["buy_limit"] = round(entry * (1 - add_drop / 100), 6)
+        # a hand-placed protective order still counts, so we never double up on stops
+        if any(o["kind"] in ("stop_loss", "trailing_stop") and not _is_auto(o) for o in live if o["ticker"] == t):
+            targets.pop("stop_loss", None)
+        for o in mine:
+            k = o["kind"]
+            if k not in targets or abs(float(o["price"]) - targets[k]) > max(1e-9, targets[k] * 0.0005):
+                close(o["id"], now, "cancelled", "average cost moved"); cancelled += 1
+            else:
+                targets.pop(k, None)                     # already working at the right level
+        for kind, price in targets.items():
+            row = {"ticker": t, "kind": kind, "price": price, "trail_pct": 0,
+                   "signals": ["risk_management", AUTO],
+                   "evidence": f"average cost ${entry:.6f}".rstrip("0").rstrip("."),
+                   "usd": 0, "pct_of_position": 0}
+            if kind == "take_profit":
+                row.update(pct_of_position=tp_size, why=f"close {tp_size:.0f}% at +{tp:.1f}% over the average cost")
+            elif kind == "stop_loss":
+                row.update(pct_of_position=100, why=f"close it all at -{sl:.1f}% under the average cost")
+            else:
+                row.update(usd=add_usd, why=f"average in another ${add_usd:.0f} if it falls {add_drop:.1f}% below the average cost")
+            want.append(row)
+    return want, cancelled
 
 def summary(px: dict, now: datetime | None = None) -> list[dict]:
     """Working book for the brain and the dashboard, with distance to each level."""

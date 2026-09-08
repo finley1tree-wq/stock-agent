@@ -41,15 +41,57 @@ guardrails:
   # while waiting for the next check. The brain may place its own better levels; these fill the gaps.
   auto_bracket:
     enabled: true
-    take_profit_pct: 2.5         # sell part of the position this far above the entry
+    take_profit_pct: 2.5         # sell part of the position this far above the AVERAGE COST
     take_profit_size_pct: 50     # how much of it to sell at the target
-    stop_loss_pct: 2.0           # sell all of it this far below the entry
+    stop_loss_pct: 2.0           # sell all of it this far below the average cost
+    # Averaging in: buy again lower, and let the exit follow the blended average so the whole
+    # position is closed as one once it turns green. This is the pattern in the trading videos.
+    # The two limits below are what those videos do not have: a cap on how many times it may add,
+    # and a real stop. Without both, the strategy wins small very often and then loses everything.
+    scale_in:
+      enabled: true
+      max_tranches: 3            # the first buy plus at most two adds
+      add_after_drop_pct: 3.0    # only add once it is this far below the current average cost
+      add_usd: 25                # size of each add
 
   spread_cost_pct: 0.02          # every MARKET fill is this much worse than the quoted price (buys pay up,
                                  # sells receive less), so a round trip costs ~0.04% as it would in reality.
                                  # Standing limit orders are exempt: they fill at the level they asked for.
   trigger_slippage_pct: 0.05     # standing STOP orders become market orders when hit, so they fill this much
                                  # worse than their level. Limit orders fill at their level exactly.
+
+# ---------------------------------------------------------------------------------------------
+# MEMECOIN SLEEVE — a separate pretend $200, on its own ledger, with its own much tighter rules.
+# It cannot spend the stock budget and a total loss here cannot touch the stock positions.
+# Data: DexScreener (price/liquidity/volume), GeckoTerminal (candles), GoPlus + RugCheck (safety).
+# No API keys. Nothing is ever bought on-chain: this is simulation at real prices, like the stocks.
+memecoin:
+  enabled: true
+  weekly_budget: 200           # pretend dollars of NEW money per week, separate from the stocks
+  starting_cash: 200
+  weekly_deposit: 0            # one-time $200 to start; raise it only deliberately
+  chain: solana
+  max_per_token_pct: 15        # at most 15% of the sleeve in one token => $30
+  max_positions: 5
+  max_orders_per_day: 10
+  max_sells_per_day: 10
+  min_order_usd: 5
+  spread_cost_pct: 0.75        # a DEX swap plus price impact costs far more than a stock trade
+  take_profit_pct: 25          # these move in tens of percent, so the brackets are wider
+  take_profit_size_pct: 50
+  stop_loss_pct: 15
+  max_drawdown_pct: 50         # stop buying if the sleeve halves
+  # A token must clear EVERY one of these before the agent is even allowed to consider it.
+  # Anything that cannot be verified is refused: on these chains, missing data is a red flag.
+  screen:
+    min_liquidity_usd: 75000
+    min_volume24_usd: 50000
+    min_pair_age_hours: 48     # nothing brand new; most rugs happen in the first two days
+    max_volume_to_liquidity: 30
+    min_txns24: 500
+    max_top_holder_pct: 20     # one wallet holding more than this can exit on top of you
+    min_holder_count: 800
+    min_lp_locked_pct: 0       # RugCheck danger flags are the hard gate; lock % varies by design
 
 watchlist:
   defense:     [PLTR, LMT, RTX, NOC]
