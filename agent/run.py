@@ -12,7 +12,7 @@ import sys
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers
+from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -167,8 +167,13 @@ def gather_signals(cfg: dict, env: dict, g: dict, held: list[str]) -> dict:
         allowed |= {t for t, sc in list(cpressure.items())[:15] if sc > 0}
     if g.get("allow_insider_tickers", True):
         allowed |= {t for t, sc in list(ipressure.items())[:15] if sc > 0}
+    # A ticker off the feeds is not necessarily the company's ordinary shares. GOOGN is Alphabet
+    # preferred depositary stock, not Alphabet. Make anything off-watchlist prove what it is.
+    allowed, rejected = instruments.filter_allowed(allowed, watch)
+    feed_status["excluded_instruments"] = rejected[:12]
     return {"watch": watch, "followed_people": followed_people, "ctrades": ctrades, "cpressure": cpressure,
-            "itrades": itrades, "ipressure": ipressure, "allowed": allowed, "feed_status": feed_status}
+            "itrades": itrades, "ipressure": ipressure, "allowed": allowed, "feed_status": feed_status,
+            "instrument_notes": rejected}
 
 def site_signals(sig: dict, headlines: dict, people: dict, learning: dict | None = None) -> dict:
     return {"allowed": sorted(sig["allowed"]), "feed_status": sig["feed_status"], "learning": learning or {},
@@ -338,6 +343,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
 
     # --- signals: decide the allowed universe FIRST, then price everything in it ---
     sig = gather_signals(cfg, env, g, held)
+    for n in (sig.get("instrument_notes") or [])[:6]:
+        log(f"  ({n})")
     watch, followed_people, allowed = sig["watch"], sig["followed_people"], set(sig["allowed"])
     ctrades, cpressure, itrades, ipressure = sig["ctrades"], sig["cpressure"], sig["itrades"], sig["ipressure"]
     px = prices.snapshot(sorted(allowed | set(learn.journal_tickers()) | set(held)))
