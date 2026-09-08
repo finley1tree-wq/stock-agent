@@ -192,3 +192,6 @@ brain: This is the last check of the day (checks_left_today=1) with market closi
 lesson: On days with 7+ fresh momentum positions already bought and stops in place, the correct final-check move is to do nothing and let standing orders work through the close rather than force a last-minute deployment.
 portfolio: equity $399.39 (-0.15% on $400.00 in) · cash $160.00 · realised +0.00
 Decision: nothing at this check. 7 standing order(s) working.
+
+## 2026-09-08 16:09 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
