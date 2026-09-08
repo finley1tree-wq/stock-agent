@@ -19,11 +19,30 @@ out), "biggest_misses" and "biggest_avoided", and change your behaviour when the
 your past lessons paired with how those checks actually turned out, your own track record (returns by sector, by signal source, by
 hour of day, plus realised results of past sells) and the lessons you wrote after previous runs.
 
-You can do two things at a check, both optional:
-  BUY  - deploy some of the remaining budget into at most 4 tickers from the allowed list.
+You can do three things at a check, all optional:
+  BUY  - deploy some of the remaining budget into at most 4 tickers from the allowed list, at the current price.
   SELL - sell part or all of an existing position (if sell_rules allow): to take profit, cut a loser, or rebalance.
          pct_of_position is 0-100. Positions younger than min_hold_days cannot be sold. Never sell and rebuy the same
          ticker in one day. Selling is for a reason, not for activity.
+  TRIGGERS - leave STANDING ORDERS that fire between checks, at a price you choose, without you being asked again:
+         buy_limit (buy if it falls to price), buy_stop (buy if it rises through price),
+         take_profit (sell pct_of_position if it rises to price), stop_loss (sell pct_of_position if it falls to price),
+         trailing_stop (sell pct_of_position after it falls trail_pct from its high since you placed it).
+         "working_orders" shows what you already have working and how far each is from the current price.
+
+TIMING — this matters more than it looks. You are only asked every "run_every_minutes" minutes, but the market moves
+the whole time. If you only ever act at the moment you are asked, every fill lands at an arbitrary clock tick rather
+than at a price worth having. So:
+- When you want a level rather than a moment, leave a standing order instead of buying now. A buy_limit a little
+  below the market gets you a better entry than buying at whatever this check's price happens to be, and it costs
+  nothing if it never fills.
+- Protect open positions with stop_loss or trailing_stop as a matter of course. They fire the moment the level is
+  reached, not at the next check, and they are exempt from min_hold_days because they are protection, not churn.
+- Take profit at a level you nominate in advance, while you are calm, rather than reacting to a green number later.
+- Standing orders replay the intraday bars, so an order whose level was touched at 10:47 fills at 10:47 at its own
+  price. Stop orders pay a small slippage, exactly as a real stop would.
+- Set "next_check_minutes" to how soon you actually want to be woken: small (5-15) when a level is close or news is
+  breaking, large (60-240) when nothing is near and your orders are working for you. This is a request, not a promise.
 
 Rules of thumb:
 - Doing nothing at a check is normal and usually right — but it is recorded and graded like any other
@@ -50,14 +69,29 @@ SELL = {"type": "object", "properties": {
     "ticker": {"type": "string"}, "pct_of_position": {"type": "number", "description": "0-100, share of the position to sell"},
     "signals": {"type": "array", "items": {"type": "string"}},
     "evidence": {"type": "string"}, "why": {"type": "string"}}, "required": ["ticker", "pct_of_position", "signals", "evidence", "why"], "additionalProperties": False}
+TRIGGER = {"type": "object", "properties": {
+    "ticker": {"type": "string"},
+    "kind": {"type": "string", "enum": ["buy_limit", "buy_stop", "take_profit", "stop_loss", "trailing_stop"]},
+    "price": {"type": "number", "description": "the level to act at; ignored for trailing_stop, use 0"},
+    "usd": {"type": "number", "description": "dollars to buy when it fires (buy_limit/buy_stop only, else 0)"},
+    "pct_of_position": {"type": "number", "description": "0-100 of the position to sell when it fires (sell kinds only, else 0)"},
+    "trail_pct": {"type": "number", "description": "trailing_stop only: percent below the high since placement, else 0"},
+    "good_until": {"type": "string", "description": "YYYY-MM-DD, the last day this order stays working"},
+    "signals": {"type": "array", "items": {"type": "string"}},
+    "evidence": {"type": "string", "description": "one concrete item from the context justifying this level"},
+    "why": {"type": "string"}},
+    "required": ["ticker", "kind", "price", "usd", "pct_of_position", "trail_pct", "good_until", "signals", "evidence", "why"],
+    "additionalProperties": False}
 TOOL = {"name": "submit_plan", "description": "Submit the buy/sell plan for this check.", "strict": True, "input_schema": {
     "type": "object", "properties": {
         "deploy_now_usd": {"type": "number", "description": "dollars of new budget to deploy at this check (0 is fine)"},
         "orders": {"type": "array", "items": ORDER, "description": "buys, at most 4"},
         "sells": {"type": "array", "items": SELL, "description": "sells of existing positions, may be empty"},
+        "triggers": {"type": "array", "items": TRIGGER, "description": "standing orders to leave working between checks, may be empty"},
+        "next_check_minutes": {"type": "number", "description": "how soon you want to be asked again, 5-240; a request, not a promise"},
         "reasoning": {"type": "string", "description": "2-3 sentences"},
         "lesson": {"type": "string", "description": "one sentence for your future self, or empty string"}},
-    "required": ["deploy_now_usd", "orders", "sells", "reasoning", "lesson"], "additionalProperties": False}}
+    "required": ["deploy_now_usd", "orders", "sells", "triggers", "next_check_minutes", "reasoning", "lesson"], "additionalProperties": False}}
 
 def _num(v, default=0.0) -> float:
     try: return float(v)
@@ -66,11 +100,15 @@ def _num(v, default=0.0) -> float:
 def _normalize(plan: dict) -> dict:
     plan = dict(plan or {})
     plan["deploy_now_usd"] = _num(plan.get("deploy_now_usd", 0))
-    for key in ("orders", "sells"):
+    for key in ("orders", "sells", "triggers"):
         rows = plan.get(key) or []
         plan[key] = [r for r in rows if isinstance(r, dict)] if isinstance(rows, list) else []
     for o in plan["orders"]: o["usd"] = _num(o.get("usd", 0))
     for s in plan["sells"]: s["pct_of_position"] = _num(s.get("pct_of_position", 0))
+    for t in plan["triggers"]:
+        for f in ("price", "usd", "pct_of_position", "trail_pct"): t[f] = _num(t.get(f, 0))
+    n = _num(plan.get("next_check_minutes", 0))
+    plan["next_check_minutes"] = int(min(240, max(5, n))) if n else None
     plan["reasoning"] = str(plan.get("reasoning") or "")
     plan["lesson"] = str(plan.get("lesson") or "")
     return plan

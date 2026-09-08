@@ -13,12 +13,12 @@
   const fmtDay = (ms) => new Date(ms).toLocaleDateString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", year: "2-digit" });
 
   const HINT = `<span class="dim">Move over the chart for O / H / L / C / volume and P/L at that price. Drag to pan, pinch or scroll to zoom.</span>`;
-  const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
+  const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
   const prefs = (() => { try { return JSON.parse(localStorage.getItem("sa.trade") || "{}"); } catch (e) { return {}; } })();
   Object.assign(T, { range: prefs.range || "1d", type: prefs.type || "candles", show: { ...T.show, ...(prefs.show || {}) } });
   const savePrefs = () => { try { localStorage.setItem("sa.trade", JSON.stringify({ range: T.range, type: T.type, show: T.show })); } catch (e) {} };
 
-  function ctx() { return window.SA || { positions: () => ({}), journal: () => [], quote: () => null }; }
+  function ctx() { return window.SA || { positions: () => ({}), journal: () => [], quote: () => null, working: () => [] }; }
 
   function open(sym) {
     if (!window.LightweightCharts) { alert("Chart library didn't load. Check your connection and try again."); return; }
@@ -37,7 +37,7 @@
         <div class="chips" id="t-intervals"></div>
         <div class="chips" id="t-type"><button data-t="candles" aria-pressed="${T.type === "candles"}">Candles</button><button data-t="line" aria-pressed="${T.type === "line"}">Line</button></div>
         <div class="chips" id="t-toggles">
-          <button data-k="vol" aria-pressed="${T.show.vol}">Vol</button><button data-k="sma20" aria-pressed="${T.show.sma20}">SMA 20</button><button data-k="sma50" aria-pressed="${T.show.sma50}">SMA 50</button><button data-k="vwap" aria-pressed="${T.show.vwap}">VWAP</button><button data-k="buyin" aria-pressed="${T.show.buyin}">Buy-in</button>
+          <button data-k="vol" aria-pressed="${T.show.vol}">Vol</button><button data-k="sma20" aria-pressed="${T.show.sma20}">SMA 20</button><button data-k="sma50" aria-pressed="${T.show.sma50}">SMA 50</button><button data-k="vwap" aria-pressed="${T.show.vwap}">VWAP</button><button data-k="buyin" aria-pressed="${T.show.buyin}">Buy-in</button><button data-k="orders" aria-pressed="${T.show.orders}">Orders</button>
         </div>
       </div>
       <div class="t-read" id="t-read"><span class="dim">Move over the chart for O / H / L / C / volume and P/L at that price. Drag to pan, pinch or scroll to zoom.</span></div>
@@ -132,6 +132,7 @@
                  text: `${sell ? "SELL" : "BUY"} ${money(amt, 0)} @ ${money(+m.r.price)}` }; })
       .sort((a, b) => a.time - b.time);
     if (markers.length) T.series.main.setMarkers(markers);
+    drawWorking();
     drawEntry();
     chart.subscribeCrosshairMove(param => {
       const read = $("#t-read"); if (!read) return;
@@ -146,6 +147,24 @@
     T.resize = () => { if (T.chart && host) T.chart.applyOptions({ width: host.clientWidth, height: host.clientHeight }); };
     window.addEventListener("resize", T.resize);
     T.lastPrice = c.price; updatePL(c.price);
+  }
+
+  // Standing orders drawn where they sit: the levels the agent is waiting for, on the same chart
+  // as the fills it already made. Buy levels green, protective levels red, profit targets amber.
+  const ORDER_LINE = { buy_limit: [UP, "Buy dip"], buy_stop: [UP, "Buy break"], take_profit: [AMBER, "Take profit"], stop_loss: [DOWN, "Stop"], trailing_stop: [DOWN, "Trail stop"] };
+  function drawWorking() {
+    const s = T.series.main; if (!s) return;
+    (T.series.orderLines || []).forEach(l => { try { s.removePriceLine(l); } catch (e) {} });
+    T.series.orderLines = [];
+    if (!T.show.orders) return;
+    (ctx().working() || []).filter(o => o.ticker === T.sym && o.price > 0).forEach(o => {
+      const [color, label] = ORDER_LINE[o.kind] || [BLUE, o.kind];
+      const size = (o.kind === "buy_limit" || o.kind === "buy_stop")
+        ? money(o.usd, 0) : `${Math.round(o.pct_of_position)}%`;
+      T.series.orderLines.push(s.createPriceLine({
+        price: +o.price, color, lineWidth: 1, lineStyle: window.LightweightCharts.LineStyle.Dotted,
+        axisLabelVisible: true, title: `${label} ${size}` }));
+    });
   }
 
   function drawEntry() {

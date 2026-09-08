@@ -191,3 +191,15 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 
 .pill{display:inline-block;border-radius:6px;padding:1px 7px;font-size:11px;font-weight:700;letter-spacing:.04em;vertical-align:middle}
 .pill.paused{background:var(--down);color:#fff}
+
+/* standing orders: what the agent is waiting for */
+.working .w { display: grid; grid-template-columns: 74px 1fr auto; gap: 10px; align-items: center; padding: 11px 12px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.working .w:last-child { border-bottom: 0; }
+.working .w:hover { background: var(--card-2); }
+.working .k { font-size: 10.5px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 3px 6px; border-radius: 5px; text-align: center; }
+.working .k.buy { background: var(--up-soft); color: var(--up); }
+.working .k.sell { background: var(--down-soft); color: var(--down); }
+.working .w .why { font-size: 12.5px; color: var(--muted); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.working .w .lvl { text-align: right; font-variant-numeric: tabular-nums; }
+.working .w .away { font-size: 12px; color: var(--muted); }
+.working .w .away.near { color: var(--amber); font-weight: 600; }

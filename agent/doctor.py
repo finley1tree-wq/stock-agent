@@ -124,6 +124,14 @@ def main() -> int:
 
     cf = reflect.report(prices.snapshot(config.all_watchlist_tickers(cfg)) if False else {})
     n_dec = cf.get("decisions_recorded", 0)
+    try:
+        from . import triggers as _trg
+        book = _trg.working()
+        near = [o for o in _trg.summary(px, None) if o.get("pct_away") is not None and abs(o["pct_away"]) <= 2] if book else []
+        add(OK, "standing orders", (f"{len(book)} working" + (f", {len(near)} within 2% of firing" if near else "")) if book
+            else "none working (the agent leaves them when it wants a price, not a moment)")
+    except Exception as e:
+        add(WARN, "standing orders", f"could not read the book: {e}")
     add(OK, "self-learning", f"{n_dec} decisions recorded" + (f", {cf['decisions_graded']} graded, regret {cf['avg_regret_pct']}%" if cf.get("decisions_graded") else " (grading starts after the first full day)"))
 
     bp = backtest.priors()

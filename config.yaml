@@ -34,6 +34,8 @@ guardrails:
   news_headlines_per_ticker: 3   # recent headlines pulled per allowed ticker (free, yfinance)
   max_drawdown_pct: 30           # circuit breaker: stop buying if equity falls this far below money put in
   max_daily_move_pct: 35         # ignore any quote that moved more than this in one day (bad tick / bad split)
+  trigger_slippage_pct: 0.05     # standing STOP orders become market orders when hit, so they fill this much
+                                 # worse than their level. Limit orders fill at their level exactly.
 
 watchlist:
   defense:     [PLTR, LMT, RTX, NOC]

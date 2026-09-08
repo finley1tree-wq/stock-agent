@@ -9,7 +9,8 @@
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const PALETTE = ["#0a84ff", "#30d158", "#ffb340", "#bf5af2", "#64d2ff", "#ff9f0a", "#ff375f", "#5e5ce6", "#ac8e68", "#98989d"];
   const state = { data: {}, quotes: {}, custom: [], tab: "holdings", timer: null };
-  window.SA = { positions: () => (state.data.portfolio && state.data.portfolio.positions) || {}, journal: () => state.data.journal || [], quote: (s) => state.quotes[s] || null };
+  window.SA = { positions: () => (state.data.portfolio && state.data.portfolio.positions) || {}, journal: () => state.data.journal || [], quote: (s) => state.quotes[s] || null,
+    working: () => ((state.data.signals || {}).working_orders) || [] };
 
   try { state.custom = JSON.parse(localStorage.getItem("sa.custom") || "[]"); } catch (e) { state.custom = []; }
   const saveCustom = () => { try { localStorage.setItem("sa.custom", JSON.stringify(state.custom)); } catch (e) {} };
@@ -103,6 +104,32 @@
     syms.map(s => [s, pos[s]]).sort((a, b) => (b[1].qty * (state.quotes[b[0]]?.price || b[1].avg_cost)) - (a[1].qty * (state.quotes[a[0]]?.price || a[1].avg_cost))).forEach(([s]) => box.appendChild(stockRow(s)));
   }
 
+  // Standing orders: the levels the agent is waiting for. Distance is recomputed from the LIVE
+  // quote on every 60s refresh, so this keeps moving between checks even though the book does not.
+  const KIND_LABEL = { buy_limit: "Buy dip", buy_stop: "Buy break", take_profit: "Take profit", stop_loss: "Stop loss", trailing_stop: "Trail stop" };
+  function renderWorking() {
+    const sec = $("#working-section"), box = $("#working"); if (!sec || !box) return;
+    const rows = (state.data.signals || {}).working_orders || [];
+    sec.hidden = !rows.length; $("#working-count").textContent = rows.length ? `${rows.length}` : "";
+    if (!rows.length) return;
+    box.innerHTML = "";
+    rows.map(o => {
+      const live = state.quotes[o.ticker]?.price ?? o.last;
+      return { ...o, away: live && o.price ? (o.price / live - 1) * 100 : null };
+    }).sort((a, b) => Math.abs(a.away ?? 999) - Math.abs(b.away ?? 999)).forEach(o => {
+      const isBuy = o.kind === "buy_limit" || o.kind === "buy_stop";
+      const size = isBuy ? money(o.usd) : `${Math.round(o.pct_of_position)}% of position`;
+      const near = o.away != null && Math.abs(o.away) <= 1.5;
+      const w = el("div", "w");
+      w.innerHTML = `<div class="k ${isBuy ? "buy" : "sell"}">${esc(KIND_LABEL[o.kind] || o.kind)}</div>
+        <div><b>${esc(o.ticker)}</b> · ${esc(size)}${o.trail_pct ? ` · trails ${o.trail_pct}%` : ""}
+        <div class="why">${esc(o.why || "")}</div></div>
+        <div class="lvl"><b class="num">${money(o.price)}</b><div class="away${near ? " near" : ""}">${o.away == null ? "" : `${o.away > 0 ? "+" : ""}${o.away.toFixed(2)}% away${near ? " · close" : ""}`}</div></div>`;
+      w.addEventListener("click", () => openSheet(o.ticker));
+      box.appendChild(w);
+    });
+  }
+
   function renderWatchlist() {
     const box = $("#watchlist"); box.innerHTML = ""; const wl = state.data.signals.watchlist || {};
     const sectors = Object.entries(wl);
@@ -152,7 +179,7 @@
     const j = [...(state.data.journal || [])].reverse(); $("#fills-count").textContent = j.length || ""; const box = $("#fills"); box.innerHTML = "";
     if (!j.length) box.appendChild(el("div", "empty", "No fills yet."));
     j.slice(0, 60).forEach(r => { const f = el("div", "f"); const isSell = r.side === "sell";
-      f.innerHTML = `<div class="when">${esc(r.date || "")}<br>${esc(r.time_et || "")}</div><div class="what"><span class="tag ${isSell ? "sell" : "buy"}">${isSell ? "SELL" : "BUY"}</span> <b>${esc(r.symbol)}</b>${isSell ? ` ${(+r.qty).toFixed(4)} sh @ ${money(+r.price)}` : ` @ ${money(+r.price)}`}<span class="chips">${(r.signals || []).map(s => `<span>${esc(s)}</span>`).join("")}</span><div class="why">${esc(r.why || "")}</div>${r.evidence ? `<div class="ev">evidence: ${esc(r.evidence)}</div>` : ""}</div><div class="amt num">${isSell ? `${money(+r.proceeds)}<br><span style="color:${r.realized_pct >= 0 ? "var(--up)" : "var(--down)"};font-size:12.5px">${pct(+r.realized_pct)}</span>` : money(+r.notional)}</div>`;
+      f.innerHTML = `<div class="when">${esc(r.date || "")}<br>${esc(r.time_et || "")}</div><div class="what"><span class="tag ${isSell ? "sell" : "buy"}">${isSell ? "SELL" : "BUY"}</span>${r.trigger ? ` <span class="tag n" title="left as a standing order at an earlier check and filled when the price got there">${esc(KIND_LABEL[r.trigger] || r.trigger)}</span>` : ""} <b>${esc(r.symbol)}</b>${isSell ? ` ${(+r.qty).toFixed(4)} sh @ ${money(+r.price)}` : ` @ ${money(+r.price)}`}<span class="chips">${(r.signals || []).map(s => `<span>${esc(s)}</span>`).join("")}</span><div class="why">${esc(r.why || "")}</div>${r.evidence ? `<div class="ev">evidence: ${esc(r.evidence)}</div>` : ""}</div><div class="amt num">${isSell ? `${money(+r.proceeds)}<br><span style="color:${r.realized_pct >= 0 ? "var(--up)" : "var(--down)"};font-size:12.5px">${pct(+r.realized_pct)}</span>` : money(+r.notional)}</div>`;
       f.style.cursor = "pointer"; f.addEventListener("click", () => openSheet(r.symbol)); box.appendChild(f); });
     renderLearning();
     const ul = $("#lessons"); ul.innerHTML = ""; const ls = (state.data.lessons || "").split("\n").filter(l => l.startsWith("- ")).slice(-12).reverse();
@@ -251,7 +278,7 @@
     const mode = $("#mode"); if (mode && paused && !/PAUSED/.test(mode.textContent)) mode.textContent += " · PAUSED";
   }
 
-  function renderAll() { renderHero(); renderHoldings(); renderWatchlist(); renderPolitics(); renderActivity(); renderStatus(); }
+  function renderAll() { renderHero(); renderWorking(); renderHoldings(); renderWatchlist(); renderPolitics(); renderActivity(); renderStatus(); }
 
   // ---------- detail sheet ----------
   let sheetSym = null, sheetRange = "1d";
@@ -281,7 +308,7 @@
     if (pos) { const live = q.price != null ? pos.qty * q.price : null; $("#sh-pos").innerHTML = `<h4>Your pretend position</h4><div class="stats"><div>Shares<b class="num">${pos.qty.toFixed(4)}</b></div><div>Avg cost<b class="num">${money(pos.avg_cost)}</b></div><div>Value<b class="num">${live != null ? money(live) : "—"}</b></div><div>P/L<b class="num" style="color:${q.price >= pos.avg_cost ? "var(--up)" : "var(--down)"}">${q.price != null ? `${signed(live - pos.qty * pos.avg_cost)} (${pct((q.price / pos.avg_cost - 1) * 100)})` : "—"}</b></div><div>Opened<b>${esc(pos.opened || "")}</b></div></div>`; }
     const news = (state.data.signals.headlines || {})[sym] || []; const ul = $("#sh-news"); ul.innerHTML = news.length ? "" : "<li style='color:var(--muted)'>None captured at the last check.</li>"; news.forEach(n => ul.appendChild(el("li", null, `${esc(n.title)}<div class="src">${esc(n.source || "")} · ${esc(n.when || "")}</div>`)));
     const fills = (state.data.journal || []).filter(r => r.symbol === sym).reverse(); const fb = $("#sh-fills"); fb.innerHTML = fills.length ? "" : "<div class='empty'>No fills in this symbol.</div>";
-    fills.forEach(r => { const isSell = r.side === "sell"; fb.appendChild(el("div", "f", `<div class="when">${esc(r.date || "")}<br>${esc(r.time_et || "")}</div><div class="what"><span class="tag ${isSell ? "sell" : "buy"}">${isSell ? "SELL" : "BUY"}</span> @ ${money(+r.price)}<div class="why">${esc(r.why || "")}</div>${r.evidence ? `<div class="ev">evidence: ${esc(r.evidence)}</div>` : ""}</div><div class="amt num">${isSell ? money(+r.proceeds) : money(+r.notional)}</div>`)); });
+    fills.forEach(r => { const isSell = r.side === "sell"; fb.appendChild(el("div", "f", `<div class="when">${esc(r.date || "")}<br>${esc(r.time_et || "")}</div><div class="what"><span class="tag ${isSell ? "sell" : "buy"}">${isSell ? "SELL" : "BUY"}</span>${r.trigger ? ` <span class="tag n" title="left as a standing order at an earlier check and filled when the price got there">${esc(KIND_LABEL[r.trigger] || r.trigger)}</span>` : ""} @ ${money(+r.price)}<div class="why">${esc(r.why || "")}</div>${r.evidence ? `<div class="ev">evidence: ${esc(r.evidence)}</div>` : ""}</div><div class="amt num">${isSell ? money(+r.proceeds) : money(+r.notional)}</div>`)); });
     drawSheetChart(sym, sheetRange);
     document.addEventListener("keydown", escClose);
   }

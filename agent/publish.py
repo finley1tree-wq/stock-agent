@@ -28,7 +28,8 @@ def _copy_tail(name: str, keep: int) -> None:
         rows = []
     (OUT / name).write_text(json.dumps(rows))
 
-def publish(cfg: dict, signals: dict | None = None, note: str = "") -> None:
+def publish(cfg: dict, signals: dict | None = None, note: str = "", working_orders: list | None = None,
+            next_check_minutes=None) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     _copy("portfolio.json", "{}")
     (OUT / "state.json").write_text(json.dumps(state.load()))   # current ET day/week with counters already reset
@@ -48,6 +49,13 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "") -> None:
     }
     ok, why = safety.paused()                     # the stop/start switch, so the site can say PAUSED
     meta["paused"], meta["pause_reason"] = (not ok), why
+    # standing orders: what the agent is waiting for, so the site shows intent and not just history
+    if working_orders is not None:
+        meta["working_orders"] = working_orders
+    try:
+        meta["next_check_minutes"] = int(next_check_minutes) if next_check_minutes else None
+    except Exception:
+        meta["next_check_minutes"] = None
     prev_path = OUT / "signals.json"
     if signals is not None:
         meta.update(signals)
@@ -55,7 +63,7 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "") -> None:
     elif prev_path.exists():
         try:
             old = json.loads(prev_path.read_text())
-            for k in ("congress_trades", "congress_pressure", "insider_trades", "insider_pressure", "headlines", "people_news", "allowed", "feed_status", "learning", "signalsAsOf"):
+            for k in ("congress_trades", "congress_pressure", "insider_trades", "insider_pressure", "headlines", "people_news", "allowed", "feed_status", "learning", "signalsAsOf", "working_orders"):
                 if k in old: meta.setdefault(k, old[k])
         except Exception:
             pass

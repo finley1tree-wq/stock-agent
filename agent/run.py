@@ -12,7 +12,7 @@ import sys
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect
+from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -118,7 +118,7 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
         out.append({"ticker": o["ticker"], "usd": usd, "why": str(o.get("why", "")), "signals": _clean_signals(o), "evidence": str(o.get("evidence", ""))[:200]})
     return out, dropped
 
-def apply_sell_guardrails(plan: dict, positions: dict, st: dict, g: dict) -> tuple[list[dict], list[str]]:
+def apply_sell_guardrails(plan: dict, positions: dict, st: dict, g: dict, hold_exempt: set | None = None) -> tuple[list[dict], list[str]]:
     """Sells. Must hold it, must be old enough, must have evidence, daily count cap, one sell per ticker per check."""
     dropped: list[str] = []
     if g.get("only_buy", False):
@@ -135,7 +135,8 @@ def apply_sell_guardrails(plan: dict, positions: dict, st: dict, g: dict) -> tup
         if t in seen:
             dropped.append(f"sell {t}: duplicate in plan"); continue
         since_buy = pos.get("days_since_buy", pos.get("days_held", 999))
-        if since_buy < int(g.get("min_hold_days", 0)):
+        # a stop-loss or trailing stop is protection, not churn, so the hold clock does not gag it
+        if since_buy < int(g.get("min_hold_days", 0)) and t not in (hold_exempt or set()):
             dropped.append(f"sell {t}: last bought {since_buy}d ago < min_hold_days"); continue
         if not str(s.get("evidence", "")).strip():
             dropped.append(f"sell {t}: no evidence given"); continue
@@ -187,8 +188,109 @@ def publish_only() -> None:
         px = prices.snapshot(sorted(set(held)))
         if hasattr(broker, "set_prices"): broker.set_prices(px)
         broker.write_report()
-    pub.publish(cfg, site_signals(sig, headlines, people), note="published without a decision")
+    pub.publish(cfg, site_signals(sig, headlines, people), note="published without a decision",
+                working_orders=triggers.summary(prices.snapshot(sorted(sig["allowed"]))))
     print("site/data refreshed")
+
+
+def _at_price(broker, sym: str, price: float, fn):
+    """Fill this one order at the standing order's own price, not the price at check time."""
+    px_map = getattr(broker, "prices", None)
+    if not isinstance(px_map, dict):
+        return fn()                                    # a real broker prices its own fills
+    saved = px_map.get(sym)
+    px_map[sym] = float(price)
+    try:
+        return fn()
+    finally:
+        if saved is None:
+            px_map.pop(sym, None)
+        else:
+            px_map[sym] = saved
+
+def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, remaining, sector_of, cpressure, log_fn):
+    """Fire any standing order whose level the market reached since the last check.
+
+    Runs BEFORE the brain, so the brain sees the resulting portfolio. Every fill still goes through
+    the ordinary guardrails and the ordinary ledger; the only difference is the fill price and the
+    fact that the decision was made at an earlier check.
+    """
+    live = [o for o in triggers.all_orders() if o.get("status") == "working"]
+    if not live:
+        return [], [], 0
+    bars = prices.intraday(sorted({o["ticker"] for o in live}), since_ts=int(st.get("last_check_ts", 0) or 0))
+    fires, notes = triggers.evaluate(now, px, bars, set(positions), float(g.get("trigger_slippage_pct", 0.05)))
+    for n in notes:
+        log_fn(f"  ({n})")
+    if not fires:
+        return [], [], 0
+    filled_buys, filled_sells, did = [], [], 0
+
+    sell_fires = [f for f in fires if f["kind"] in triggers.SELL_KINDS]
+    if sell_fires and hasattr(broker, "sell_qty"):
+        fmap = {}
+        for f in sell_fires:
+            if f["ticker"] in fmap:
+                triggers.close(f["id"], now, "cancelled", "another standing order on the same ticker filled first")
+                log_fn(f"  (trigger {f['ticker']} {f['kind']} superseded at this check)")
+                continue
+            fmap[f["ticker"]] = f
+        plan = {"sells": [{"ticker": t, "pct_of_position": f["pct_of_position"], "why": f["why"],
+                           "evidence": f["evidence"], "signals": (f.get("signals") or []) + ["standing_order"]}
+                          for t, f in fmap.items()]}
+        exempt = {t for t, f in fmap.items() if f["kind"] in ("stop_loss", "trailing_stop")}
+        sells, sdropped = apply_sell_guardrails(plan, positions, st, g, hold_exempt=exempt)
+        for d in sdropped:
+            log_fn(f"  (dropped {d})")
+        for sl in sells:
+            f = fmap[sl["ticker"]]
+            rec = _at_price(broker, sl["ticker"], f["fill_price"], lambda: broker.sell_qty(sl["ticker"], sl["qty"]))
+            if str(rec.get("status", "")).startswith("rejected"):
+                log_fn(f"- SELL {sl['pct']:.0f}% {sl['ticker']} [{rec['status']}]"); continue
+            full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
+                    "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": f["kind"]}
+            state.record_sell(st, sl["ticker"], full); state.save(st)
+            learn.record_sell(full, signals=sl["signals"], evidence=sl["evidence"], hour_et=now.hour)
+            triggers.close(f["id"], now, "filled")
+            if sl["ticker"] not in broker.positions():
+                n = triggers.cancel_all_for(sl["ticker"], triggers.SELL_KINDS, now, "position closed")
+                if n:
+                    log_fn(f"  (cancelled {n} standing order(s) on {sl['ticker']}: position closed)")
+            filled_sells.append(sl); did += 1
+            extra = f" -> ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%)" if "proceeds" in rec else ""
+            log_fn(f"- SELL {sl['pct']:.0f}% {sl['ticker']} [{f['kind']} @ ${f['fill_price']:.2f}]{extra} — {sl['why']}")
+
+    buy_fires = [f for f in fires if f["kind"] in triggers.BUY_KINDS]
+    if buy_fires:
+        fmap = {}
+        for f in buy_fires:
+            if f["ticker"] in fmap:
+                triggers.close(f["id"], now, "cancelled", "another standing order on the same ticker filled first")
+                continue
+            fmap[f["ticker"]] = f
+        usd_total = sum(f["usd"] for f in fmap.values())
+        plan = {"deploy_now_usd": usd_total,
+                "orders": [{"ticker": t, "usd": f["usd"], "why": f["why"], "evidence": f["evidence"],
+                            "signals": (f.get("signals") or []) + ["standing_order"]} for t, f in fmap.items()]}
+        orders, dropped = apply_guardrails(plan, allowed | set(fmap), remaining, st, g, False)
+        for d in dropped:
+            log_fn(f"  (dropped {d})")
+        for o in orders:
+            f = fmap[o["ticker"]]
+            rec = _at_price(broker, o["ticker"], f["fill_price"], lambda: broker.buy_notional(o["ticker"], o["usd"]))
+            if str(rec.get("status", "")).startswith("rejected"):
+                log_fn(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
+            full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
+                    "why": o["why"], "signals": o["signals"], "evidence": o["evidence"], "trigger": f["kind"]}
+            state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
+            learn.record(full, f["fill_price"], sector_of.get(o["ticker"], "off-watchlist"),
+                         cpressure.get(o["ticker"], 0) > 0, px.get(o["ticker"], {}).get("change_1m_pct"),
+                         signals=o["signals"], evidence=o["evidence"], hour_et=now.hour)
+            triggers.close(f["id"], now, "filled")
+            filled_buys.append({**o, "usd": float(rec.get("notional", o["usd"]))}); did += 1
+            log_fn(f"- BUY ${float(rec.get('notional', o['usd'])):.2f} {o['ticker']} [{f['kind']} @ ${f['fill_price']:.2f}] — {o['why']}")
+    return filled_buys, filled_sells, did
+
 
 def main(report_only: bool = False, force: bool = False) -> None:
     cfg = config.load_config()
@@ -247,6 +349,17 @@ def main(report_only: bool = False, force: bool = False) -> None:
         allowed -= set(unpriced)
     if hasattr(broker, "set_prices"): broker.set_prices(px)
     positions = broker.positions()
+    sector_of = {t: s for s, ts in cfg["watchlist"].items() for t in ts}
+
+    # --- standing orders fill FIRST, at their own price, wherever in the last half hour the market
+    #     reached them. The brain then decides against the resulting portfolio. ---
+    tbuys, tsells, tdid = fill_standing_orders(now, today, broker, positions, px, st, g,
+                                               allowed, remaining, sector_of, cpressure, log)
+    if tdid:
+        positions = broker.positions()
+        remaining = round(g["_weekly_budget"] - st["spent"], 2)
+        if is_sim:
+            remaining = round(min(remaining, broker.cash()), 2)
     track = learn.score(px)
     headlines = news.ticker_headlines(sorted(allowed | set(held)), per=int(g.get("news_headlines_per_ticker", 3)))
     people = news.people_news(followed_people, per=4)
@@ -273,6 +386,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "track_record": track, "past_lessons": learn.past_lessons(),
         "backtest_priors": backtest.priors(),
         "counterfactual_learning": reflect.report(px),
+        "working_orders": triggers.summary(px, now),
+        "standing_order_kinds": sorted(triggers.KINDS),
         "past_lessons_with_outcome": reflect.recent_lessons_with_outcome(px),
     }
     try:
@@ -282,8 +397,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
     log(f"brain: {plan.get('reasoning', '')}")
     learn.add_lesson(plan.get("lesson", ""), track)
     if plan.get("lesson"): log(f"lesson: {plan['lesson']}")
-    sector_of = {t: s for s, ts in cfg["watchlist"].items() for t in ts}
-    did = 0
+    did = tdid
 
     # --- sells first (frees cash); state saved after every fill so counters never lag the ledger ---
     sells, sdropped = apply_sell_guardrails(plan, positions, st, g) if hasattr(broker, "sell_qty") else ([], ["broker has no sell support"] if plan.get("sells") else [])
@@ -319,18 +433,32 @@ def main(report_only: bool = False, force: bool = False) -> None:
         log(f"- BUY ${float(rec.get('notional', o['usd'])):.2f} {o['ticker']} [{rec['status']}] {o['signals']} — {o['why']} | evidence: {o['evidence']}")
         did += 1
 
+    placed, trejected = triggers.place(plan.get("triggers"), now, set(broker.positions()), allowed, px)
+    for d in trejected:
+        log(f"  (dropped {d})")
+    for t in placed:
+        detail = f"trail {t['trail_pct']}%" if t["kind"] == "trailing_stop" else f"${t['price']:.2f}"
+        size = f"${t['usd']:.2f}" if t["kind"] in triggers.BUY_KINDS else f"{t['pct_of_position']:.0f}%"
+        log(f"~ WORKING {t['kind']} {size} {t['ticker']} @ {detail} until {t['good_until']} — {t['why']}")
+    st["last_check_ts"] = int(now.timestamp())
     state.save(st)
+    filled_buys = tbuys + filled_buys
+    filled_sells = tsells + filled_sells
     reflect.record(now, px, allowed, filled_buys, filled_sells, dropped + sdropped, plan,
                    cpressure, ipressure, headlines, sector_of, set(positions), remaining)
     if is_sim:
         broker.write_report()
         s = broker.summary()
         log(f"portfolio: equity ${s['equity']:.2f} ({s['total_return_pct']:+.2f}% on ${s['deposited']:.2f} in) · cash ${s['cash']:.2f} · realised {s['realized_pnl']:+.2f}")
+    book = triggers.summary(px, now)
     if did == 0:
-        log("Decision: nothing at this check.")
+        log(f"Decision: nothing at this check.{f' {len(book)} standing order(s) working.' if book else ''}")
     else:
-        log(f"Done: {len(sells)} sell(s), {len(orders)} buy(s); budget left ${g['_weekly_budget'] - st['spent']:.2f} this week")
-    pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), plan.get("reasoning", "")[:300])
+        log(f"Done: {len(filled_sells)} sell(s), {len(filled_buys)} buy(s)"
+            f"{f' (incl. {tdid} from standing orders)' if tdid else ''}; "
+            f"{len(book)} order(s) working; budget left ${g['_weekly_budget'] - st['spent']:.2f} this week")
+    pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), plan.get("reasoning", "")[:300],
+                working_orders=book, next_check_minutes=plan.get("next_check_minutes"))
 
 if __name__ == "__main__":
     if "--publish" in sys.argv:

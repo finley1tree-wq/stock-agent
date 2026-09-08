@@ -16,6 +16,53 @@ def _closes(data, t: str, n: int):
         raise KeyError(t)
     return data["Close"].dropna()                      # flat single-ticker frame
 
+def _frame(data, y: str):
+    """One ticker's OHLC frame out of whatever shape yfinance returned."""
+    cols = data.columns
+    if getattr(cols, "nlevels", 1) > 1:
+        if y in cols.get_level_values(0):
+            return data[y]
+        if "Close" in cols.get_level_values(0):        # (field, ticker) ordering
+            return data.xs(y, axis=1, level=1)
+        raise KeyError(y)
+    return data
+
+def intraday(tickers: list[str], since_ts: int = 0, interval: str = "5m") -> dict:
+    """Bars for today so a standing order can be filled at the moment its level was reached.
+
+    Returns {ticker: [{"t": epoch_seconds, "h": high, "l": low, "c": close}, ...]} oldest first,
+    keeping only bars at or after since_ts. Empty dict on any failure — callers fall back to the
+    current quote, which simply means a level is only seen at check time.
+    """
+    out = {}
+    tickers = sorted({t for t in tickers if t})
+    if not tickers:
+        return out
+    ymap = {yahoo_symbol(t): t for t in tickers}
+    ysyms = sorted(ymap)
+    try:
+        data = yf.download(ysyms, period="2d", interval=interval, progress=False,
+                           auto_adjust=False, group_by="ticker", threads=True)
+    except Exception:
+        return out
+    if data is None or len(data) == 0:
+        return out
+    for y in ysyms:
+        try:
+            f = _frame(data, y)[["High", "Low", "Close"]].dropna()
+            rows = []
+            for idx, r in f.iterrows():
+                ts = int(idx.timestamp())
+                if ts < since_ts:
+                    continue
+                rows.append({"t": ts, "h": round(float(r["High"]), 4),
+                             "l": round(float(r["Low"]), 4), "c": round(float(r["Close"]), 4)})
+            if rows:
+                out[ymap[y]] = rows
+        except Exception:
+            continue
+    return out
+
 def snapshot(tickers: list[str]) -> dict:
     """Return {ticker: {price, change_1d_pct, change_5d_pct, change_1m_pct}}."""
     out = {}

@@ -90,6 +90,26 @@ python -m agent.run --force    # same, ignoring the market-hours gate (testing)
 
 `run_every_minutes` in `config.yaml` must match the schedule — the brain uses it to know how many checks it has left today.
 
+## Standing orders (why it isn't tied to the clock)
+
+The brain is only asked every 30 minutes, but the market moves the whole time. If it only ever acted at the
+moment it was asked, every fill would land at an arbitrary clock tick. So it can leave **standing orders** that
+fire between checks at a price it chose in advance:
+
+| Kind | Fires when |
+|---|---|
+| `buy_limit` | it falls to your level (accumulate on a dip) |
+| `buy_stop` | it rises through your level (confirmation) |
+| `take_profit` | it rises to your level (bank a gain) |
+| `stop_loss` | it falls to your level (cap a loss) |
+| `trailing_stop` | it falls N% from its high since the order was placed |
+
+Each check replays the intraday bars it missed, so an order whose level was touched at 10:47 fills at 10:47 at
+its own price. Stop orders take a small adverse slippage (`trigger_slippage_pct`) because a real stop becomes a
+market order the moment it triggers. Stop-losses and trailing stops are exempt from `min_hold_days` — they are
+protection, not churn — and every fill still passes the ordinary dollar caps and the ordinary ledger. The
+working book is on the dashboard under **Waiting to fire**, and the levels are drawn on the full-screen chart.
+
 ## What the agent does at each check
 1. Loads this week's budget, what's spent this week, what's spent today and how many orders today (`state.json`).
 2. Pulls watchlist prices + momentum (yfinance), the last 30 days of Congress filings (STOCK Act) and the latest SEC Form 4 insider filings (officers, directors and big holders buying/selling their own company — this is where names like Musk or Bezos show up in public data).
