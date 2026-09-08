@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-08T12:17-04:00",
- "note": "Already fully deployed today (spent $240 of $400 weekly budget, only $160 left and orders_today=7). Portfolio is well diversified across semis, nuclear, defense-adjacent, gold-adjacent index. Existing stops on AMAT/AMD/INTC are working; adding protection on CCJ and NLR which currently lack stops giv",
+ "asOf": "2026-09-08T12:33-04:00",
+ "note": "Already spent 240 of 400 weekly budget today across 7 positions, all fresh (days_held=0) and all momentum-chasers that popped 3-9% intraday (AMAT, AMD, INTC, CCJ, NLR). Track record shows congress+momentum buys averaging negative returns at this hour (12:00 avg -0.37%). Existing stops/trailing stops",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -85,8 +85,8 @@
    "usd": 20.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 766.94,
-   "pct_away": -1.56,
+   "last": 767.15,
+   "pct_away": -1.58,
    "good_until": "2026-09-12",
    "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
    "signals": [
@@ -102,8 +102,8 @@
    "usd": 15.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.08,
-   "pct_away": -3.47,
+   "last": 103.07,
+   "pct_away": -3.46,
    "good_until": "2026-09-12",
    "why": "Add to nuclear theme on a pullback rather than chasing at current price",
    "signals": [
@@ -120,8 +120,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 468.91,
-   "pct_away": -4.67,
+   "last": 469.15,
+   "pct_away": -4.72,
    "good_until": "2026-09-12",
    "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
@@ -136,8 +136,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 124.4,
-   "pct_away": -5.14,
+   "last": 124.63,
+   "pct_away": -5.32,
    "good_until": "2026-09-12",
    "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
    "signals": [
@@ -152,8 +152,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.08,
-   "pct_away": -5.9,
+   "last": 103.07,
+   "pct_away": -5.89,
    "good_until": "2026-09-12",
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
    "signals": [
@@ -161,34 +161,34 @@
    ]
   },
   {
-   "id": "5a8628c1",
-   "ticker": "AMD",
+   "id": "68402e49",
+   "ticker": "INTC",
    "kind": "trailing_stop",
-   "price": 468.2248,
+   "price": 96.669,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 508.49,
-   "pct_away": -7.92,
+   "last": 104.58,
+   "pct_away": -7.56,
    "good_until": "2026-09-12",
-   "why": "Lock in protection on the biggest one-day mover in the book",
+   "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
     "risk_management",
     "momentum"
    ]
   },
   {
-   "id": "68402e49",
-   "ticker": "INTC",
+   "id": "5a8628c1",
+   "ticker": "AMD",
    "kind": "trailing_stop",
-   "price": 96.2872,
+   "price": 468.5468,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 104.63,
-   "pct_away": -7.97,
+   "last": 507.4,
+   "pct_away": -7.66,
    "good_until": "2026-09-12",
-   "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
+   "why": "Lock in protection on the biggest one-day mover in the book",
    "signals": [
     "risk_management",
     "momentum"
@@ -238,6 +238,7 @@
   "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
   "insiders": "ok",
   "excluded_instruments": [
+   "CZNC excluded: too thinly traded (71,795/day) \u2014 Citizens & Northern Corporation",
    "ECF excluded: too thinly traded (21,038/day) \u2014 Ellsworth Growth and Income Fund Ltd.",
    "GF excluded: too thinly traded (27,217/day) \u2014 The New Germany Fund, Inc.",
    "GOOGN excluded: not ordinary shares (depositary) \u2014 Alphabet Inc. Depositary Shares representing a 1/20th Intere",
@@ -248,7 +249,7 @@
   ]
  },
  "learning": {
-  "decisions_recorded": 4,
+  "decisions_recorded": 5,
   "note": "not enough history to grade yet"
  },
  "congress_trades": [
@@ -997,6 +998,26 @@
  },
  "insider_trades": [
   {
+   "who": "Pellegrino Frank G",
+   "role": "director",
+   "ticker": "CZNC",
+   "type": "buy",
+   "shares": 178,
+   "price": 26.1662,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
+   "who": "Shattuck Katherine W",
+   "role": "director",
+   "ticker": "CZNC",
+   "type": "buy",
+   "shares": 8,
+   "price": 26.1662,
+   "transaction_date": "2026-09-04",
+   "filing_date": "2026-09-08"
+  },
+  {
    "who": "FIDELITY & GUARANTY LIFE INSURANCE CO",
    "role": "10 percent owner",
    "ticker": "CCAP",
@@ -1425,20 +1446,11 @@
    "price": 3.92,
    "transaction_date": "2026-09-03",
    "filing_date": "2026-09-04"
-  },
-  {
-   "who": "Mann Paul Elliot",
-   "role": "director, officer: Chairman and CEO",
-   "ticker": "ASPI",
-   "type": "sell",
-   "shares": 83759,
-   "price": 4.1,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-04"
   }
  ],
  "insider_pressure": {
   "LILA": 3.0,
+  "CZNC": 2.0,
   "ECF": 2.0,
   "SHMD": 2.0,
   "UBER": 2.0,
@@ -1456,8 +1468,7 @@
   "DHT": -1.0,
   "AFL": -1.0,
   "SCCO": -1.0,
-  "ZIM": -1.0,
-  "RXT": -1.0
+  "ZIM": -1.0
  },
  "headlines": {
   "AEP": [
@@ -1574,9 +1585,9 @@
     "when": "2026-09-08T15:19"
    },
    {
-    "title": "Stock Market Today: Dow Dives, Oil Spikes After Saudi Attacks; Amgen Swoons On These Results (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-08T14:50"
+    "title": "Queen of Capital Gains: Pelosi Bets $3 Million on Bloom Energy \u2014 Then It Got Added to the S&P 500",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-08T14:34"
    }
   ],
   "CCJ": [
@@ -1904,6 +1915,11 @@
   ],
   "PLTR": [
    {
+    "title": "EXCLUSIVE: Anthropic IPO Could Be \u2018Heavily Oversubscribed,\u2019 IPO Adviser Says",
+    "source": "Benzinga Private Markets",
+    "when": "2026-09-08T16:22"
+   },
+   {
     "title": "Nebius Becomes Palantir\u2019s Secret Weapon as AI Compute Wars Heat Up",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T14:38"
@@ -1912,11 +1928,6 @@
     "title": "Nebius Rises 6% as Palantir Names It Preferred Sovereign AI Partner; Palantir Stock Slips",
     "source": "24/7 Wall St.",
     "when": "2026-09-08T14:19"
-   },
-   {
-    "title": "Investors Are Buying Palantir for a Story That Is Not Quite True",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T13:39"
    }
   ],
   "PRAX": [
@@ -2023,6 +2034,11 @@
   ],
   "UBER": [
    {
+    "title": "EXCLUSIVE: Anthropic IPO Could Be \u2018Heavily Oversubscribed,\u2019 IPO Adviser Says",
+    "source": "Benzinga Private Markets",
+    "when": "2026-09-08T16:22"
+   },
+   {
     "title": "Uber Stock Falls As Wall Street Sizes Up Tesla's Cybercab Rollout",
     "source": "Investor's Business Daily",
     "when": "2026-09-08T15:38"
@@ -2031,11 +2047,6 @@
     "title": "Uber Technologies Poised to Benefit From Long-Term Trend for Autonomous Vehicles, Wedbush Says",
     "source": "MT Newswires",
     "when": "2026-09-08T15:17"
-   },
-   {
-    "title": "If Uber\u2019s Fundamentals Have \u2018Dramatically Improved,\u2019 Why Has the Stock Gone Nowhere?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-08T12:50"
    }
   ],
   "VNQ": [
@@ -2057,5 +2068,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-08T12:17-04:00"
+ "signalsAsOf": "2026-09-08T12:33-04:00"
 }

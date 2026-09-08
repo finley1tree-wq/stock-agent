@@ -132,3 +132,15 @@ lesson: When already heavily deployed for the day with existing positions all fr
 ~ WORKING buy_limit $20.00 SPY @ $755.00 until 2026-09-12 — Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now
 portfolio: equity $399.76 (-0.06% on $400.00 in) · cash $160.00 · realised +0.00
 Decision: nothing at this check. 7 standing order(s) working.
+
+## 2026-09-08 12:33 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
+  (CZNC excluded: too thinly traded (71,795/day) — Citizens & Northern Corporation)
+  (ECF excluded: too thinly traded (21,038/day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+brain: Already spent 240 of 400 weekly budget today across 7 positions, all fresh (days_held=0) and all momentum-chasers that popped 3-9% intraday (AMAT, AMD, INTC, CCJ, NLR). Track record shows congress+momentum buys averaging negative returns at this hour (12:00 avg -0.37%). Existing stops/trailing stops and buy_limits below market are already working and cover protection and cheap re-entry. No new evidence justifies additional buys at current elevated prices; better to let standing orders do the work and preserve remaining $160 budget for a genuine pullback or fresh signal.
+lesson: Don't add fresh momentum buys after 3+ names already popped 3-9% same day and are all days_held=0; let existing stops and buy_limits work instead of chasing more entries at the same tick.
+portfolio: equity $399.69 (-0.08% on $400.00 in) · cash $160.00 · realised +0.00
+Decision: nothing at this check. 7 standing order(s) working.
