@@ -243,3 +243,17 @@ portfolio: equity $400.61 (+0.15% on $400.00 in) · cash $170.63 · realised +0.
 Decision: nothing at this check. 22 standing order(s) working.
 - SELL 50% AMD [take_profit @ $521.99] -> $12.81 (+2.50%) — close 50% at +2.5% over the average cost
 ## 2026-09-09 13:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-09 14:07 ET (Wednesday) — week 2026-W37 — budget left $183.44 (today $0.00, 1 buys, 2 sells) — SIM (pretend money) via sim
+  (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
+  (CDR excluded: no security information)
+  (CYBN excluded: no security information)
+  (GBAB excluded: too thinly traded (89,879/day) — Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: Book is fully protected with brackets (stops, take-profits, and buy_limit averaging levels) on every position except SPY which already has full coverage too. Market is broadly red today (oil spike, SPY -0.41%, most holdings down 0.5-1.5%) - not a good time to chase new entries at market. GOOGN also has both a stop_loss and buy_limit already working. No new evidence justifies fresh capital deployment right now; let standing orders do the work.
+lesson: On a red macro day with a fully bracketed book (stops/take-profits/buy-limits on every position), doing nothing at a check and trusting standing orders is correct - don't force new buys just because budget remains.
+~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
+portfolio: equity $400.45 (+0.11% on $400.00 in) · cash $183.44 · realised +0.94
+Decision: nothing at this check. 22 standing order(s) working.
