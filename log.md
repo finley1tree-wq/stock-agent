@@ -275,3 +275,17 @@ portfolio: equity $400.38 (+0.10% on $400.00 in) · cash $189.84 · realised +1.
 Decision: nothing at this check. 22 standing order(s) working.
 - SELL 50% AMD [take_profit @ $521.99] -> $3.20 (+2.50%) — close 50% at +2.5% over the average cost
 ## 2026-09-09 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-09 15:09 ET (Wednesday) — week 2026-W37 — budget left $193.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
+  (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
+  (CDR excluded: no security information)
+  (CYBN excluded: no security information)
+  (GBAB excluded: too thinly traded (89,879/day) — Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: This is the last check of the day with 51 minutes to close. The book is fully bracketed (stops, take-profits, and buy-limits on every position including GOOGN and CCJ which were patched earlier). Market is broadly red today on oil-spike macro news (Dow at 1-month low, SPY -0.38%), and all positions are fresh (days_held=1). Past lessons consistently show that forcing new entries into a red macro day with a protected book adds regret, not value - standing orders will fire at good levels if the market moves further. No new evidence (headline/filing) justifies a fresh buy right now that isn't already covered by existing triggers.
+lesson: On the final check of a red macro day with a fully bracketed, fresh book, holding steady and trusting standing orders into the close remains correct - repeated confirmation across multiple sessions.
+~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
+portfolio: equity $400.03 (+0.01% on $400.00 in) · cash $193.05 · realised +1.17
+Decision: nothing at this check. 22 standing order(s) working.
