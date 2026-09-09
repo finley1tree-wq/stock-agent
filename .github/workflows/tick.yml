@@ -15,19 +15,29 @@ permissions: { contents: write, actions: write }
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 9
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt
+      # One job does both: watch for standing orders, then think if a decision is due. Splitting
+      # these across two workflows meant they fought over the single-writer concurrency lane and
+      # a queued tick kept cancelling a pending decision outright.
       - run: python -m agent.run --tick --loop 4 --interval 60
-        env:
+        env: &agent_env
           BROKER: ${{ secrets.BROKER }}
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
           ALPACA_PAPER: ${{ secrets.ALPACA_PAPER }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          QUIVER_API_KEY: ${{ secrets.QUIVER_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           DRY_RUN: ${{ secrets.DRY_RUN }}
+      - name: think if a decision is due
+        run: python -m agent.run --if-due 30
+        env: *agent_env
       - name: commit results
         if: always()
         run: |
@@ -85,18 +95,7 @@ jobs:
             # tick while a decision was waiting cancelled the decision outright (seen at 17:05).
             # So when a decision is dispatched, this pass does NOT queue a tick; the decision run
             # restarts the chain when it finishes.
-            out=$(python -m agent.watchdog 2>&1 || echo "watchdog failed")
-            echo "$out"
-            # Yield to ANY decision that is waiting or running, not just one the watchdog started.
-            # A manual or cron-triggered decision was still being cancelled by a queued tick,
-            # because only one run may sit pending in a concurrency lane.
-            waiting=$(gh run list -R "$GITHUB_REPOSITORY" -w agent.yml -L 5 \
-                        --json status -q '[.[] | select(.status=="queued" or .status=="in_progress" or .status=="pending")] | length' 2>/dev/null || echo 0)
-            if [ "${waiting:-0}" != "0" ]; then
-              echo "a decision is queued or running; leaving the lane clear, it restarts the chain"
-            else
-              gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
-            fi
+            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
           else
             echo "market closed; chain ends"
           fi

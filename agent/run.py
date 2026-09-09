@@ -636,6 +636,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         size = f"${t['usd']:.2f}" if t["kind"] in triggers.BUY_KINDS else f"{t['pct_of_position']:.0f}%"
         log(f"~ WORKING {t['kind']} {size} {t['ticker']} @ {detail} until {t['good_until']} — {t['why']}")
     st["last_check_ts"] = int(now.timestamp())
+    st["last_decision_ts"] = int(now.timestamp())
     state.save(st)
     filled_buys = tbuys + filled_buys
     filled_sells = tsells + filled_sells
@@ -656,7 +657,19 @@ def main(report_only: bool = False, force: bool = False) -> None:
                 working_orders=book, next_check_minutes=plan.get("next_check_minutes"))
 
 if __name__ == "__main__":
-    if "--tick" in sys.argv:
+    if "--if-due" in sys.argv:
+        # Run a full decision only if one is overdue. This lets the tick workflow do both jobs in
+        # one job, which is what finally removed the concurrency-lane fight: a queued tick kept
+        # cancelling a pending decision, because a lane holds only one waiting run.
+        mins = int(sys.argv[sys.argv.index("--if-due") + 1])
+        _st = state.load()
+        _age = (datetime.now(ET).timestamp() - float(_st.get("last_decision_ts", 0) or 0)) / 60
+        if _age < mins:
+            print(f"decision was {_age:.0f} min ago; not due yet (every {mins})")
+        else:
+            print(f"decision due: last one {_age:.0f} min ago")
+            main(force="--force" in sys.argv)
+    elif "--tick" in sys.argv:
         def _arg(name, default):
             return int(sys.argv[sys.argv.index(name) + 1]) if name in sys.argv else default
         tick(force="--force" in sys.argv, loops=_arg("--loop", 1), interval=_arg("--interval", 60))
