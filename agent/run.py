@@ -14,7 +14,7 @@ import time as clock
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets
+from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets, replay
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -574,6 +574,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "followed_people_insider_filings": insiders.by_followed(itrades, followed_people)[:20],
         "track_record": track, "past_lessons": learn.past_lessons(),
         "backtest_priors": backtest.priors(),
+        "signal_evidence_5d": replay.evidence("5d"),
+        "signal_evidence_21d": replay.evidence("21d"),
         "counterfactual_learning": cf,
         "working_orders": triggers.summary(px, now),
         "standing_order_kinds": sorted(triggers.KINDS),

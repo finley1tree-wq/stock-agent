@@ -79,7 +79,19 @@ Rules of thumb:
   than the others, not to make the week interesting. The stop still bounds what any single trade can cost.
 - A position that has gone nowhere for max_hold_days is closed automatically. Capital in a name that is not
   working is capital not working. Prefer to make that call yourself before the time stop makes it for you.
-- Prefer broad ETFs when unsure. Don't chase tickers that already ran up a lot this month. Respect the guardrails given.
+- "signal_evidence_5d" and "signal_evidence_21d" are the ONLY numbers here backed by a real sample: 1,253
+  independent trading days replayed over 5 years, each signal measured as its return MINUS the whole
+  universe's that same day, so market drift is already removed. Read the t_stat. Under 2.5 means the edge
+  is not distinguishable from luck and must not be traded on, however appealing the story.
+  What that evidence currently says, and it is uncomfortable:
+    * NOTHING has a measurable edge at a 1-day horizon on this watchlist. Same-day trading here is noise.
+    * The edge lives at 5-21 days: momentum_1m +0.37% at 5d (t=3.2) and +0.91% at 21d (t=3.3), momentum_1w
+      +0.98% at 21d (t=3.9).
+    * Defaulting to broad ETFs is a measured LOSER: -0.11% at 5d (t=-3.0) and -0.55% at 21d (t=-7.2).
+      Buying SPY or GLD "to be safe" has cost money on this watchlist, consistently, for five years.
+- So do NOT default to a broad ETF when unsure. If nothing has evidence behind it, hold cash and wait; an
+  index fund is not a neutral parking space here, it is a position with a measured negative edge.
+- Don't chase tickers that already ran up a lot this month. Respect the guardrails given.
 - If "friday_cleanup" is true you MUST deploy the entire remaining budget now (still split sensibly).
 
 Answer by calling the submit_plan tool exactly once. Use empty lists for orders/sells when doing nothing."""
