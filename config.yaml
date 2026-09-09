@@ -1,13 +1,13 @@
 # Weekly budget in USD. The agent may spend it across the week (Mon–Fri), deploying chunks
 # when it thinks the timing is good. Whatever is left is deployed Friday afternoon so the
 # week's money never sits idle.
-weekly_budget: 1000
+weekly_budget: 25000
 
 # Broker is chosen in .env (BROKER=sim | alpaca | ibkr). Default is sim: the built-in pretend-money
 # portfolio, filled at real prices, buys AND sells, no brokerage account needed. This is the safety
 # lock: run it for weeks and read portfolio.md before any real money is involved.
 sim:
-  starting_cash: 1000     # pretend dollars on day one
+  starting_cash: 25000    # pretend dollars on day one
   weekly_deposit: 0       # no automatic Monday top-up: the account is a fixed $1000 and the returns
                           # are what it does with that. Set this if you want to add money weekly.
 
@@ -26,7 +26,7 @@ guardrails:
                                  # The per-trade loss is still bounded by the stop (auto_bracket below),
                                  # so the risk this adds is concentration and overnight gap risk, not
                                  # an unbounded loss.
-  min_order_usd: 5               # skip crumbs
+  min_order_usd: 100             # at \$25,000 a \$5 order is noise; this keeps positions meaningful
   max_entry_range_pct: 85        # Measured on 36,382 stock-days of this watchlist: the next-day edge
                                  # from buying low in the range is only 5-8 bps, about one round trip,
                                  # and the effect is threshold-shaped near 85 rather than linear at 60.
@@ -137,12 +137,18 @@ memecoin:
     min_holder_count: 800
     min_lp_locked_pct: 0       # RugCheck danger flags are the hard gate; lock % varies by design
 
+# The first five sectors were hand-picked. The sixth was DISCOVERED: these are the names held
+# most widely across disclosed congressional portfolios over the last year - each bought by at
+# least three different members - after passing the instrument and liquidity screen. That is the
+# point of reading other people's portfolios rather than guessing.
+# Refresh it with:  python -m agent.discover
 watchlist:
   defense:     [PLTR, LMT, RTX, NOC]
   gold:        [GLD, NEM]
   index:       [DIA, SPY]
   real_estate: [O, PLD, VNQ]
   nuclear:     [CCJ, OKLO, NLR]
+  widely_held: [MSFT, AAPL, NVDA, GOOGL, AMZN, AMD, META, TSM, IBM, AVGO, UNH, HD]
 
 # Traders to follow on-chain live in wallets.txt, NOT here - one address per line, editable
 # straight from github.com so you can add one from your phone. There is nothing to connect: the
