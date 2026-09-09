@@ -257,3 +257,5 @@ lesson: On a red macro day with a fully bracketed book (stops/take-profits/buy-l
 ~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
 portfolio: equity $400.45 (+0.11% on $400.00 in) · cash $183.44 · realised +0.94
 Decision: nothing at this check. 22 standing order(s) working.
+- SELL 50% AMD [take_profit @ $521.99] -> $6.41 (+2.50%) — close 50% at +2.5% over the average cost
+## 2026-09-09 14:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
