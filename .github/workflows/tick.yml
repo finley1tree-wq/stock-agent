@@ -77,10 +77,21 @@ jobs:
           n = datetime.now(ZoneInfo('America/New_York'))
           sys.exit(0 if (is_trading_day(n.date()) and time(9,30) <= n.time() < close_time(n.date())) else 1)
           "; then
-            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
-            # A decision must not depend on cron either. The watchdog already knows when one is
-            # overdue and dispatches it, so the tick chain carries the whole schedule on its back.
-            python -m agent.watchdog || echo "watchdog check failed, continuing"
+            # A decision must not depend on cron either, so the chain carries it: the watchdog
+            # knows when one is overdue and dispatches it.
+            #
+            # Order matters. Ticks and decisions share a concurrency lane, and GitHub keeps only
+            # ONE pending run in a lane - queueing a new one cancels the waiting one. Queuing a
+            # tick while a decision was waiting cancelled the decision outright (seen at 17:05).
+            # So when a decision is dispatched, this pass does NOT queue a tick; the decision run
+            # restarts the chain when it finishes.
+            out=$(python -m agent.watchdog 2>&1 || echo "watchdog failed")
+            echo "$out"
+            if echo "$out" | grep -q "dispatched agent.yml"; then
+              echo "decision queued; leaving the lane clear for it, it will restart the chain"
+            else
+              gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
+            fi
           else
             echo "market closed; chain ends"
           fi

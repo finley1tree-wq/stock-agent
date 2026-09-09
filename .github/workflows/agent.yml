@@ -11,7 +11,7 @@ on:
 concurrency:
   group: stock-agent
   cancel-in-progress: false
-permissions: { contents: write }
+permissions: { contents: write, actions: write }   # actions: write so it can restart the tick chain
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -61,3 +61,26 @@ jobs:
             fi
           done
           echo "could not push after 5 attempts"; exit 1
+
+      # A decision ends the tick chain (it took the lane), so it starts it again on the way out.
+      - name: restart the tick chain
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          hour=$(date -u +%-H); dow=$(date -u +%u)
+          if [ "$dow" -gt 5 ] || [ "$hour" -lt 13 ] || [ "$hour" -gt 20 ]; then
+            echo "outside the session window; not restarting"; exit 0
+          fi
+          if python -c "
+          import sys
+          from datetime import datetime, time
+          from zoneinfo import ZoneInfo
+          from agent.broker_sim import is_trading_day, close_time
+          n = datetime.now(ZoneInfo('America/New_York'))
+          sys.exit(0 if (is_trading_day(n.date()) and time(9,30) <= n.time() < close_time(n.date())) else 1)
+          "; then
+            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "tick chain restarted"
+          else
+            echo "market closed; chain stays down"
+          fi
