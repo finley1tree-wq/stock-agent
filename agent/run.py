@@ -76,6 +76,27 @@ def _clean_signals(o: dict) -> list[str]:
         raw = [raw]
     return [s for s in raw if isinstance(s, str) and s in SIGNALS] or ["unspecified"]
 
+def _full_deployment(today, g: dict) -> dict:
+    """Finley's phase two: from a set date, every dollar works and it concentrates.
+
+    Phase one is not timidity - it is the evidence-gathering week. Phase two is his explicit
+    instruction to stop spreading thin, and it arrives on a date rather than on a feeling so it
+    cannot quietly never happen.
+    """
+    from datetime import date as _d
+    start = str(g.get("full_deployment_from") or "")
+    try:
+        on = _d.fromisoformat(start) <= today
+    except Exception:
+        return {"active": False}
+    return {"active": on, "starts": start, "max_names": int(g.get("full_deployment_max_names", 3) or 3),
+            "instruction": ("Deploy every available dollar, concentrated in at most max_names positions of "
+                            "highest conviction. Quality over quantity: a large position in one idea you can "
+                            "defend beats the same money spread across five you cannot. Every position still "
+                            "carries its ATR-sized stop, so concentration widens the outcome, it does not "
+                            "remove the floor.") if on else
+                           f"Not yet - phase one until {start}. Deploy what the evidence justifies and let the loop learn."}
+
 def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: dict, g: dict, cleanup: bool,
                      px: dict | None = None, chase_check: bool = True) -> tuple[list[dict], list[str], list[dict]]:
     """Buys. Returns (orders_to_fill_now, dropped_reasons, orders_to_leave_as_limits).
@@ -556,6 +577,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "datetime_et": now.strftime("%Y-%m-%d %H:%M"), "weekday": today.strftime("%A"),
         "market_close_et": close_time(today).strftime("%H:%M"), "last_trading_day_of_week": last_trading_day_of_week(today),
         "friday_cleanup": cleanup and not nothing_to_buy, "checks_left_today": checks_left, "run_every_minutes": every_min,
+        "full_deployment": _full_deployment(today, g),
         "portfolio": broker.summary() if is_sim else {"cash": broker.cash()},
         "current_positions": positions,
         "holdings_that_would_not_be_bought_today": flagged,

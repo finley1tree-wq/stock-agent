@@ -15,7 +15,7 @@ permissions: { contents: write, actions: write }
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -75,10 +75,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          hour=$(date -u +%-H); dow=$(date -u +%u)
-          if [ "$dow" -gt 5 ] || [ "$hour" -lt 13 ] || [ "$hour" -gt 20 ]; then
-            echo "outside the session window; chain ends"; exit 0
-          fi
+          # The chain used to stop at the closing bell, which meant something had to restart it in
+          # the morning - and GitHub's cron never once did. The agent missed the first three hours
+          # of trading on three separate days waiting for a scheduler that does not come.
+          #
+          # So the chain no longer stops. Outside market hours each pass sleeps ten minutes and
+          # then hands on, which costs a few runner-minutes an hour on a public repo and means the
+          # chain is already awake and ticking when the opening bell goes. Nothing has to start it
+          # because nothing ever stopped it.
           if python -c "
           import sys
           from datetime import datetime, time
@@ -97,5 +101,7 @@ jobs:
             # restarts the chain when it finishes.
             gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
           else
-            echo "market closed; chain ends"
+            echo "market closed - idling, the chain stays awake so nothing has to wake it"
+            sleep 600
+            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next idle pass queued"
           fi

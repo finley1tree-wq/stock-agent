@@ -2,107 +2,95 @@
  "built": "2026-09-09",
  "years": 5,
  "trading_days_replayed": 1254,
- "days_graded": 1253,
+ "days_graded": 1248,
  "measures": "each signal's average forward return MINUS the whole universe's that same day",
  "t_bar": 2.5,
  "signals": {
   "momentum_1w": {
    "1d": {
     "days": 1248,
-    "edge_pct": -0.0125,
-    "t_stat": -0.27,
-    "beat_rate": 0.474,
+    "edge_pct": 0.0205,
+    "t_stat": 0.3,
+    "beat_rate": 0.481,
     "verdict": "indistinguishable from luck"
    },
    "5d": {
     "days": 1244,
-    "edge_pct": -0.0171,
-    "t_stat": -0.17,
-    "beat_rate": 0.491,
+    "edge_pct": 0.164,
+    "t_stat": 1.04,
+    "beat_rate": 0.481,
     "verdict": "indistinguishable from luck"
    },
    "21d": {
     "days": 1228,
-    "edge_pct": 0.9793,
-    "t_stat": 3.92,
-    "beat_rate": 0.499,
+    "edge_pct": 1.1938,
+    "t_stat": 3.41,
+    "beat_rate": 0.508,
     "verdict": "real"
    }
   },
   "contrarian_1w": {
    "1d": {
     "days": 1248,
-    "edge_pct": 0.0058,
-    "t_stat": 0.13,
-    "beat_rate": 0.505,
+    "edge_pct": 0.0043,
+    "t_stat": 0.07,
+    "beat_rate": 0.486,
     "verdict": "indistinguishable from luck"
    },
    "5d": {
     "days": 1244,
-    "edge_pct": 0.1915,
-    "t_stat": 1.89,
-    "beat_rate": 0.498,
+    "edge_pct": 0.0613,
+    "t_stat": 0.4,
+    "beat_rate": 0.489,
     "verdict": "indistinguishable from luck"
    },
    "21d": {
     "days": 1228,
-    "edge_pct": 0.6536,
-    "t_stat": 2.86,
-    "beat_rate": 0.487,
-    "verdict": "real"
+    "edge_pct": 0.1959,
+    "t_stat": 0.59,
+    "beat_rate": 0.485,
+    "verdict": "indistinguishable from luck"
    }
   },
   "momentum_1m": {
    "1d": {
     "days": 1232,
-    "edge_pct": 0.0488,
-    "t_stat": 1.0,
-    "beat_rate": 0.494,
+    "edge_pct": 0.0942,
+    "t_stat": 1.32,
+    "beat_rate": 0.508,
     "verdict": "indistinguishable from luck"
    },
    "5d": {
     "days": 1228,
-    "edge_pct": 0.3664,
-    "t_stat": 3.23,
-    "beat_rate": 0.525,
-    "verdict": "real"
+    "edge_pct": 0.3091,
+    "t_stat": 1.92,
+    "beat_rate": 0.52,
+    "verdict": "indistinguishable from luck"
    },
    "21d": {
     "days": 1212,
-    "edge_pct": 0.9069,
-    "t_stat": 3.34,
-    "beat_rate": 0.493,
-    "verdict": "real"
+    "edge_pct": -0.0326,
+    "t_stat": -0.09,
+    "beat_rate": 0.445,
+    "verdict": "indistinguishable from luck"
    }
   },
   "etf_default": {
    "1d": {
-    "days": 1253,
-    "edge_pct": -0.0215,
-    "t_stat": -1.28,
-    "beat_rate": 0.511,
-    "verdict": "indistinguishable from luck"
+    "days": 0
    },
    "5d": {
-    "days": 1249,
-    "edge_pct": -0.1115,
-    "t_stat": -2.98,
-    "beat_rate": 0.512,
-    "verdict": "real"
+    "days": 0
    },
    "21d": {
-    "days": 1233,
-    "edge_pct": -0.5477,
-    "t_stat": -7.2,
-    "beat_rate": 0.444,
-    "verdict": "real"
+    "days": 0
    }
   }
  },
  "universe_drift_pct": {
-  "1d": 0.0927,
-  "5d": 0.4628,
-  "21d": 2.061
+  "1d": 0.1764,
+  "5d": 0.8778,
+  "21d": 3.8221
  },
  "caveat": "Grades the mechanical signal rules, not the model's judgement, and cannot replay the news and filings the brain reads. A signal marked 'indistinguishable from luck' has no measured edge here - that is information, not a failure."
 }

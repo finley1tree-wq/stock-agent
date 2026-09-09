@@ -17,6 +17,11 @@ run_every_minutes: 30
 
 # Guardrails — the brain can't override these.
 guardrails:
+  # Finley's plan, in two phases. This week: deploy what is justified and let the loop gather
+  # evidence. From the date below: every dollar working, concentrated in the highest-conviction
+  # names rather than spread thin - his words, "quality over quantity".
+  full_deployment_from: "2026-09-14"    # the Monday
+  full_deployment_max_names: 3          # concentrate into at most this many positions
   max_per_ticker_pct: 100        # Finley's call: it may put the whole week's budget into ONE name.
                                  # The per-trade loss is still bounded by the stop (auto_bracket below),
                                  # so the risk this adds is concentration and overnight gap risk, not
