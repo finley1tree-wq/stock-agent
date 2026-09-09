@@ -1,0 +1,15 @@
+# Traders to follow on-chain.  ONE PER LINE.  Edit this file on github.com and the agent picks it
+# up on its next check - there is nothing to connect and no key to add.
+#
+#   address                                        , name      , note
+#   7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU  , jake      , early on JUPCAT
+#
+# The name and note are optional; an address on its own works fine. Lines starting with # are
+# ignored. Put as many as you like: the agent keeps the whole list and checks a few each pass,
+# cycling through all of them, so a long list means each wallet is checked less often rather
+# than the list being cut off.
+#
+# Before adding one, open https://solscan.io/account/<address> and check three things:
+#   1. no exchange/program label (if Solscan calls it "Binance" or "Exchange Wallet", skip it)
+#   2. it holds tens of tokens, not thousands (thousands means a bot or a program)
+#   3. it has traded recently and repeatedly, not once six months ago

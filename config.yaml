@@ -110,20 +110,10 @@ watchlist:
   real_estate: [O, PLD, VNQ]
   nuclear:     [CCJ, OKLO, NLR]
 
-# Traders to follow on-chain, by wallet address. This is the FOMO idea without FOMO: its feed is
-# assembled from public on-chain activity, so the agent reads the same activity directly - free,
-# no key, no login, and faster than any app rendering it.
-#
-# The one thing that cannot be derived is WHICH wallets. A handle inside an app is not an identity;
-# an address is. FOMO shows each trader's wallet in their profile (it is on-chain, that is the whole
-# point), and Solscan or DexScreener will confirm any address is real and active before you add it.
-#
-#   followed_wallets:
-#     - { name: "jake", address: "7xKX...", note: "found on fomo" }
-#
-# At most 8 wallets: the public Solana RPC is shared and rate-limited. A wallet buying something is
-# evidence about that wallet, never a reason on its own.
-followed_wallets: []
+# Traders to follow on-chain live in wallets.txt, NOT here - one address per line, editable
+# straight from github.com so you can add one from your phone. There is nothing to connect: the
+# agent reads that file on its next check. The list has no length limit; it visits a few wallets
+# each pass and cycles through the rest, so 100 wallets come round about twice an hour.
 
 # Politicians whose disclosed trades get extra weight (leave empty for all of Congress).
 # Use names as they appear in disclosures, e.g. "Nancy Pelosi", "Josh Gottheimer".
