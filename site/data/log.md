@@ -289,3 +289,25 @@ lesson: On the final check of a red macro day with a fully bracketed, fresh book
 ~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
 portfolio: equity $400.03 (+0.01% on $400.00 in) · cash $193.05 · realised +1.17
 Decision: nothing at this check. 22 standing order(s) working.
+
+## 2026-09-09 15:41 ET (Wednesday) — week 2026-W37 — budget left $793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
+  (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
+  (CYBN excluded: no security information)
+  (GBAB excluded: too thinly traded (89,879/day) — Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: This is the last check of the day (checks_left_today: 0) with market closing in ~19 minutes. Book is fully bracketed with stops/take-profits/buy-limits on every position, all fresh (days_held=1). No new evidence justifies chasing at 15:41 with SPY, CCJ, GOOGN, NLR all slightly red on a broad market pullback (oil spike headlines). Consistent with repeated past lessons: holding steady into close and trusting standing orders is correct rather than forcing late entries.
+lesson: With zero checks left and a fully bracketed fresh book on a red macro day, do nothing at the final check - standing orders (stops/take-profits/buy-limits) handle the close better than a last-minute forced trade.
+  (re-pinned 8 order(s) to the new average cost)
+~ WORKING take_profit 50% AMAT @ $490.83 until 2026-09-14 — close 50% at +5.0% over the average cost
+~ WORKING take_profit 50% CCJ @ $107.29 until 2026-09-14 — close 50% at +5.0% over the average cost
+~ WORKING take_profit 50% SPY @ $806.61 until 2026-09-14 — close 50% at +5.0% over the average cost
+~ WORKING stop_loss 100% SPY @ $749.00 until 2026-09-14 — close it all at -2.5% under the average cost
+~ WORKING take_profit 50% NLR @ $130.84 until 2026-09-14 — close 50% at +5.0% over the average cost
+~ WORKING take_profit 50% AMD @ $534.72 until 2026-09-14 — close 50% at +5.0% over the average cost
+~ WORKING take_profit 50% INTC @ $110.48 until 2026-09-14 — close 50% at +5.0% over the average cost
+~ WORKING take_profit 50% GOOGN @ $50.34 until 2026-09-14 — close 50% at +5.0% over the average cost
+portfolio: equity $1000.01 (+0.00% on $1000.00 in) · cash $793.05 · realised +1.17
+Decision: nothing at this check. 22 standing order(s) working.

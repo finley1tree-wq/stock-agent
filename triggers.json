@@ -143,7 +143,7 @@
    "ticker": "AMAT",
    "kind": "take_profit",
    "price": 479.1465,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "close 50% at +2.5% over the average cost",
@@ -153,7 +153,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "77d4e58a",
@@ -177,7 +179,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 104.7345,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "close 50% at +2.5% over the average cost",
@@ -187,7 +189,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "b85107c1",
@@ -211,7 +215,7 @@
    "ticker": "SPY",
    "kind": "take_profit",
    "price": 787.405,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "close 50% at +2.5% over the average cost",
@@ -221,14 +225,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "cb464c04",
    "ticker": "SPY",
    "kind": "stop_loss",
    "price": 752.836,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "close it all at -2.0% under the average cost",
@@ -238,7 +244,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "c6f8c2f2",
@@ -262,7 +270,7 @@
    "ticker": "NLR",
    "kind": "take_profit",
    "price": 127.7252,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "close 50% at +2.5% over the average cost",
@@ -272,7 +280,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "11ad7f16",
@@ -331,7 +341,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 107.8505,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "close 50% at +2.5% over the average cost",
@@ -341,7 +351,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "d7502cdc",
@@ -383,7 +395,7 @@
    "ticker": "GOOGN",
    "kind": "take_profit",
    "price": 49.1385,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 13:26",
    "created_ts": 1788974804,
    "why": "close 50% at +2.5% over the average cost",
@@ -393,7 +405,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "f6ce1c0e",
@@ -453,7 +467,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 521.9915,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 15:09",
    "created_ts": 1788980958,
    "why": "close 50% at +2.5% over the average cost",
@@ -463,8 +477,146 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 15:41",
+   "cancel_reason": "average cost moved"
+  },
+  {
+   "id": "cd2fb9c3",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 490.833,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close 50% at +5.0% over the average cost",
+   "evidence": "average cost $467.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "b9ba1a9e",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 107.289,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close 50% at +5.0% over the average cost",
+   "evidence": "average cost $102.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "2e098f10",
+   "ticker": "SPY",
+   "kind": "take_profit",
+   "price": 806.61,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close 50% at +5.0% over the average cost",
+   "evidence": "average cost $768.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "61469a89",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 748.995,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close it all at -2.5% under the average cost",
+   "evidence": "average cost $768.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3fe99ec6",
+   "ticker": "NLR",
+   "kind": "take_profit",
+   "price": 130.8405,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close 50% at +5.0% over the average cost",
+   "evidence": "average cost $124.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "14f54746",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 534.723,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close 50% at +5.0% over the average cost",
+   "evidence": "average cost $509.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "7d45580d",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 110.481,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close 50% at +5.0% over the average cost",
+   "evidence": "average cost $105.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "cd8f4686",
+   "ticker": "GOOGN",
+   "kind": "take_profit",
+   "price": 50.337,
+   "status": "working",
+   "created": "2026-09-09 15:41",
+   "created_ts": 1788982919,
+   "why": "close 50% at +5.0% over the average cost",
+   "evidence": "average cost $47.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
    "pct_of_position": 50.0
   }
  ],
- "updated": "2026-09-09 15:09"
+ "updated": "2026-09-09 15:41"
 }
