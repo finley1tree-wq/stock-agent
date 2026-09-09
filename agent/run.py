@@ -14,7 +14,7 @@ import time as clock
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments
+from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -180,7 +180,11 @@ def gather_signals(cfg: dict, env: dict, g: dict, held: list[str]) -> dict:
     feed_status["congress"] = "ok" if ctrades else "unavailable (all sources failed or no recent rows)"
     feed_status["congress_source"] = politicians.last_source or ""
     feed_status["congress_notes"] = "; ".join(politicians.last_errors)[:300]
-    cpressure = politicians.buy_pressure(ctrades, cfg.get("followed_politicians") or [])
+    # Rank the disclosers by what their past filings were actually worth against the index, and let
+    # that tilt the pressure. Following all of Congress equally is following the average, and the
+    # average includes everyone who is bad at this.
+    board = traders.refresh(politicians.recent_trades(env, 3650) if ctrades else [])
+    cpressure = politicians.buy_pressure(ctrades, cfg.get("followed_politicians") or [], traders.weights(board))
     itrades = insiders.recent_trades(env, g.get("insider_lookback_days", 30))
     feed_status["insiders"] = "ok" if itrades else ("no key" if not env.get("fmp_key") else "unavailable")
     ipressure = insiders.buy_pressure(itrades, followed_people)
@@ -195,10 +199,12 @@ def gather_signals(cfg: dict, env: dict, g: dict, held: list[str]) -> dict:
     feed_status["excluded_instruments"] = rejected[:12]
     return {"watch": watch, "followed_people": followed_people, "ctrades": ctrades, "cpressure": cpressure,
             "itrades": itrades, "ipressure": ipressure, "allowed": allowed, "feed_status": feed_status,
-            "instrument_notes": rejected}
+            "instrument_notes": rejected, "board": board}
 
 def site_signals(sig: dict, headlines: dict, people: dict, learning: dict | None = None) -> dict:
     return {"allowed": sorted(sig["allowed"]), "feed_status": sig["feed_status"], "learning": learning or {},
+            "disclosure_leaderboard": (sig.get("board") or {}).get("leaders", [])[:12],
+            "disclosure_leaderboard_meta": {k: (sig.get("board") or {}).get(k) for k in ("built", "horizon_days", "buys_scored", "measured_from", "benchmark", "caveat")},
             "congress_trades": sig["ctrades"][:60], "congress_pressure": dict(list(sig["cpressure"].items())[:20]),
             "insider_trades": sig["itrades"][:60], "insider_pressure": dict(list(sig["ipressure"].items())[:20]),
             "headlines": headlines, "people_news": people}
@@ -553,6 +559,9 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "headlines_by_ticker": headlines, "followed_people": followed_people, "followed_people_news": people,
         "congress_recent_trades": ctrades[:40], "congress_net_buy_pressure": dict(list(cpressure.items())[:15]),
         "insider_recent_trades": itrades[:40], "insider_net_buy_pressure": dict(list(ipressure.items())[:15]),
+        "who_disclosed_it": {t: politicians.who_bought(ctrades, t) for t in list(cpressure)[:8]},
+        "disclosure_leaderboard": (sig.get("board") or {}).get("leaders", [])[:8],
+        "disclosure_leaderboard_caveat": (sig.get("board") or {}).get("caveat", ""),
         "followed_people_insider_filings": insiders.by_followed(itrades, followed_people)[:20],
         "track_record": track, "past_lessons": learn.past_lessons(),
         "backtest_priors": backtest.priors(),

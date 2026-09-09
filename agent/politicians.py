@@ -156,10 +156,31 @@ def recent_trades(env: dict, lookback_days: int = 30) -> list[dict]:
         print("[politicians] fell back:", "; ".join(last_errors), f"-> using {last_source}")
     return rows
 
-def buy_pressure(trades: list[dict], followed: list[str]) -> dict:
-    """Tickers ranked by net recent buying. Followed politicians count 3x."""
+def buy_pressure(trades: list[dict], followed: list[str], skill: dict | None = None) -> dict:
+    """Tickers ranked by net recent buying.
+
+    Not every disclosure is worth the same. Names you chose to follow count 3x, and `skill`
+    (from traders.py) tilts the rest by what that member's past filings were actually worth
+    against the index — so a member whose disclosed buys have trailed SPY counts for less than
+    one whose have beaten it. Without that, following Congress is following an average, and the
+    average includes everyone who is bad at this.
+    """
     score: dict[str, float] = {}
     for t in trades:
-        w = 3.0 if t["who"] and any(f.lower() in t["who"].lower() for f in followed) else 1.0
+        who = t.get("who") or ""
+        w = 3.0 if who and any(f.lower() in who.lower() for f in followed) else 1.0
+        if skill:
+            w *= float(skill.get(who, 1.0))
         score[t["ticker"]] = score.get(t["ticker"], 0) + (w if t["type"] == "buy" else -w)
     return dict(sorted(score.items(), key=lambda kv: kv[1], reverse=True))
+
+def who_bought(trades: list[dict], ticker: str, limit: int = 4) -> list[dict]:
+    """The named people behind a ticker's pressure, so the evidence can say who rather than how much."""
+    out = []
+    for t in trades:
+        if t["ticker"] == ticker and t.get("who"):
+            out.append({"who": t["who"], "type": t["type"], "amount": t.get("amount"),
+                        "disclosed": t.get("disclosure_date") or t.get("transaction_date")})
+        if len(out) >= limit:
+            break
+    return out

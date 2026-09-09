@@ -61,6 +61,11 @@ Rules of thumb:
   evidence is there. Holding a reserve is a choice you must justify with evidence, not a default. Don't chase intraday noise.
 - EVERY buy and EVERY sell must be backed by a concrete piece of evidence from the context: a headline (quote it briefly),
   a specific filing (who bought what, when), or a specific number (momentum, P/L, weight, track-record stat). No evidence, no order.
+- "disclosure_leaderboard" ranks members of Congress by what their PAST disclosed buys were actually worth
+  against SPY, measured from the day each filing became public (not the trade date, which nobody could act on).
+  "who_disclosed_it" names the people behind each ticker's pressure. Use the names in your evidence: "Rep. X,
+  who is +N% vs the index over M disclosed buys, filed a purchase" is real evidence; "congress pressure +2" is
+  barely any. Read the caveat: a member with few scored buys is unproven, not good.
 - Tag each order with the signals behind it, from: congress, insider, followed_person, news, momentum, track_record,
   etf_default, risk_management. The learning loop ranks these by realised return and shows you the ranking - lean into
   what has been working, cut back on what hasn't, but don't overreact to 1-2 trades.
