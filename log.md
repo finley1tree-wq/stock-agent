@@ -273,3 +273,5 @@ lesson: With 2 checks left and every position already bracketed (stops/take-prof
 ~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
 portfolio: equity $400.38 (+0.10% on $400.00 in) · cash $189.84 · realised +1.09
 Decision: nothing at this check. 22 standing order(s) working.
+- SELL 50% AMD [take_profit @ $521.99] -> $3.20 (+2.50%) — close 50% at +2.5% over the average cost
+## 2026-09-09 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
