@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-09T18:08-04:00",
+ "asOf": "2026-09-09T18:21-04:00",
  "note": "market closed",
  "broker": "sim",
  "watchlist": {
@@ -26,19 +26,33 @@
    "CCJ",
    "OKLO",
    "NLR"
+  ],
+  "widely_held": [
+   "MSFT",
+   "AAPL",
+   "NVDA",
+   "GOOGL",
+   "AMZN",
+   "AMD",
+   "META",
+   "TSM",
+   "IBM",
+   "AVGO",
+   "UNH",
+   "HD"
   ]
  },
- "weekly_budget": 1000,
+ "weekly_budget": 25000,
  "run_every_minutes": 30,
  "sim": {
-  "starting_cash": 1000,
+  "starting_cash": 25000,
   "weekly_deposit": 0
  },
  "guardrails": {
   "full_deployment_from": "2026-09-14",
   "full_deployment_max_names": 3,
   "max_per_ticker_pct": 100,
-  "min_order_usd": 5,
+  "min_order_usd": 100,
   "max_entry_range_pct": 85,
   "chase_limit_at_pct": 55,
   "max_daily_deploy_pct": 100,
