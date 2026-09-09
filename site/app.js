@@ -156,6 +156,47 @@
     entries.forEach(([s, v]) => { const p = el("div", "p"); const pctW = Math.abs(v) / mx * 50; p.innerHTML = `<b>${esc(s)}</b><div class="track"><span style="${v >= 0 ? `left:50%;background:var(--up)` : `right:50%;background:var(--down)`};width:${pctW}%"></span></div><span class="v num">${v > 0 ? "+" : ""}${v}</span>`; p.style.cursor = "pointer"; p.addEventListener("click", () => openSheet(s)); target.appendChild(p); });
   }
 
+  // Who we follow, and - the part that matters - whether their record is worth anything.
+  // A ranked list looks authoritative whether or not it means something, so the verdict is
+  // rendered first and the names are greyed out when nobody clears the bar.
+  function renderInvestors() {
+    const box = $("#investors"); if (!box) return;
+    const sg = state.data.signals || {};
+    const lb = sg.disclosure_leaderboard || [], sigv = sg.disclosure_significance || {};
+    const wm = sg.wallet_moves || [], ws = sg.wallet_status || {};
+    $("#investors-count").textContent = lb.length ? `${lb.length} scored` : "";
+    if (!lb.length && !wm.length) {
+      box.innerHTML = `<div class="empty" style="padding:14px">No disclosed portfolios scored yet.<br>
+        <span style="font-size:12.5px">Congress filings are scored automatically. To follow crypto traders, add wallet
+        addresses to <b>wallets.txt</b> in the repo.</span></div>`;
+      return;
+    }
+    const proven = (sigv.members_weighted || 0) > 0;
+    const verdict = sigv.verdict ? `
+      <div class="note" style="margin-bottom:12px">
+        <b>${proven ? "Some records clear the bar." : "None of these beat luck."}</b>
+        ${esc(sigv.verdict)}${sigv.best_t_stat != null ? ` Best t-statistic ${esc(sigv.best_t_stat)}; it needs 2.5.` : ""}
+        <br><span style="font-size:12px">${esc(sigv.how_to_read || "")}</span>
+      </div>` : "";
+    const rows = lb.slice(0, 10).map(r => {
+      const good = r.avg_excess_pct >= 0;
+      return `<div class="p" style="${proven ? "" : "opacity:.72"}">
+        <b>${esc(r.who)}</b>
+        <span style="color:var(--muted);font-size:12.5px">${r.disclosed_buys_scored} disclosed buys${r.beat_index_rate != null ? ` · beat the index ${Math.round(r.beat_index_rate * 100)}% of the time` : ""}</span>
+        <span class="v num" style="color:${good ? "var(--up)" : "var(--down)"}">${pct(r.avg_excess_pct)}</span></div>`;
+    }).join("");
+    const wallets = wm.length ? `
+      <h4 style="margin:16px 0 6px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">On-chain traders · live</h4>
+      <div class="pressure">${wm.map(m => `<div class="p"><b>${esc(m.who)}</b>
+        <span style="color:var(--muted);font-size:12.5px">${esc(m.when || "")} · ${esc((m.mint || "").slice(0, 10))}…</span>
+        <span class="v num" style="color:${m.side === "buy" ? "var(--up)" : "var(--down)"}">${m.side === "buy" ? "BOUGHT" : "SOLD"}</span></div>`).join("")}</div>`
+      : `<h4 style="margin:16px 0 6px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">On-chain traders</h4>
+         <div class="empty" style="padding:10px;font-size:12.5px">${ws.followed_total ? `${ws.followed_total} wallet(s) followed, nothing traded recently.` : "None yet — add addresses to wallets.txt in the repo."}</div>`;
+    box.innerHTML = verdict +
+      `<h4 style="margin:0 0 6px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Congress · excess return vs SPY, from the day each filing went public</h4>
+       <div class="pressure">${rows}</div>` + wallets;
+  }
+
   function renderPolitics() {
     const sg = state.data.signals; const note = $("#feed-note"); note.innerHTML = "";
     const fs = sg.feed_status || {};
@@ -278,7 +319,7 @@
     const mode = $("#mode"); if (mode && paused && !/PAUSED/.test(mode.textContent)) mode.textContent += " · PAUSED";
   }
 
-  function renderAll() { renderHero(); renderWorking(); renderHoldings(); renderWatchlist(); renderPolitics(); renderActivity(); renderStatus(); }
+  function renderAll() { renderHero(); renderWorking(); renderHoldings(); renderWatchlist(); renderPolitics(); renderInvestors(); renderActivity(); renderStatus(); }
 
   // ---------- detail sheet ----------
   let sheetSym = null, sheetRange = "1d";

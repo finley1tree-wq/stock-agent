@@ -67,7 +67,8 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "", working_orde
             # with signals=None and far more often - silently drops it from the site.
             for k in ("congress_trades", "congress_pressure", "insider_trades", "insider_pressure",
                       "headlines", "people_news", "allowed", "feed_status", "learning", "signalsAsOf",
-                      "working_orders", "disclosure_leaderboard", "disclosure_leaderboard_meta"):
+                      "working_orders", "disclosure_leaderboard", "disclosure_leaderboard_meta",
+                      "disclosure_significance", "wallet_moves", "wallet_status"):
                 if k in old: meta.setdefault(k, old[k])
         except Exception:
             pass

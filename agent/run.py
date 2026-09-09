@@ -14,7 +14,7 @@ import time as clock
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders
+from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -195,16 +195,25 @@ def gather_signals(cfg: dict, env: dict, g: dict, held: list[str]) -> dict:
         allowed |= {t for t, sc in list(ipressure.items())[:15] if sc > 0}
     # A ticker off the feeds is not necessarily the company's ordinary shares. GOOGN is Alphabet
     # preferred depositary stock, not Alphabet. Make anything off-watchlist prove what it is.
+    # Traders followed on-chain, from wallets.txt. Empty until addresses are added.
+    try:
+        wmoves, wstatus = wallets.check_due()
+    except Exception as e:
+        wmoves, wstatus = [], {"error": str(e)[:80]}
     allowed, rejected = instruments.filter_allowed(allowed, watch)
     feed_status["excluded_instruments"] = rejected[:12]
     return {"watch": watch, "followed_people": followed_people, "ctrades": ctrades, "cpressure": cpressure,
             "itrades": itrades, "ipressure": ipressure, "allowed": allowed, "feed_status": feed_status,
-            "instrument_notes": rejected, "board": board}
+            "instrument_notes": rejected, "board": board,
+            "wallet_moves": wmoves, "wallet_status": wstatus}
 
 def site_signals(sig: dict, headlines: dict, people: dict, learning: dict | None = None) -> dict:
     return {"allowed": sorted(sig["allowed"]), "feed_status": sig["feed_status"], "learning": learning or {},
             "disclosure_leaderboard": (sig.get("board") or {}).get("leaders", [])[:12],
             "disclosure_leaderboard_meta": {k: (sig.get("board") or {}).get(k) for k in ("built", "horizon_days", "buys_scored", "measured_from", "benchmark", "caveat")},
+            "disclosure_significance": traders.significance(sig.get("board") or {}),
+            "wallet_moves": wallets.summary(sig.get("wallet_moves") or [], 12),
+            "wallet_status": sig.get("wallet_status") or {},
             "congress_trades": sig["ctrades"][:60], "congress_pressure": dict(list(sig["cpressure"].items())[:20]),
             "insider_trades": sig["itrades"][:60], "insider_pressure": dict(list(sig["ipressure"].items())[:20]),
             "headlines": headlines, "people_news": people}
