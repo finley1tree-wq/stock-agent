@@ -1,14 +1,15 @@
 # Weekly budget in USD. The agent may spend it across the week (Mon–Fri), deploying chunks
 # when it thinks the timing is good. Whatever is left is deployed Friday afternoon so the
 # week's money never sits idle.
-weekly_budget: 400
+weekly_budget: 1000
 
 # Broker is chosen in .env (BROKER=sim | alpaca | ibkr). Default is sim: the built-in pretend-money
 # portfolio, filled at real prices, buys AND sells, no brokerage account needed. This is the safety
 # lock: run it for weeks and read portfolio.md before any real money is involved.
 sim:
-  starting_cash: 400      # pretend dollars on day one
-  weekly_deposit: 400     # pretend dollars added every Monday, mirroring the real plan (set 0 for a one-time $400 test)
+  starting_cash: 1000     # pretend dollars on day one
+  weekly_deposit: 0       # no automatic Monday top-up: the account is a fixed $1000 and the returns
+                          # are what it does with that. Set this if you want to add money weekly.
 
 # How often the schedule calls the agent while the market is open (minutes). Informational:
 # the brain is told how many checks it has left today so it paces itself. Must match agent.yml.
