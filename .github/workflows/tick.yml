@@ -87,8 +87,13 @@ jobs:
             # restarts the chain when it finishes.
             out=$(python -m agent.watchdog 2>&1 || echo "watchdog failed")
             echo "$out"
-            if echo "$out" | grep -q "dispatched agent.yml"; then
-              echo "decision queued; leaving the lane clear for it, it will restart the chain"
+            # Yield to ANY decision that is waiting or running, not just one the watchdog started.
+            # A manual or cron-triggered decision was still being cancelled by a queued tick,
+            # because only one run may sit pending in a concurrency lane.
+            waiting=$(gh run list -R "$GITHUB_REPOSITORY" -w agent.yml -L 5 \
+                        --json status -q '[.[] | select(.status=="queued" or .status=="in_progress" or .status=="pending")] | length' 2>/dev/null || echo 0)
+            if [ "${waiting:-0}" != "0" ]; then
+              echo "a decision is queued or running; leaving the lane clear, it restarts the chain"
             else
               gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
             fi
