@@ -20,7 +20,7 @@
    "id": "5a8628c1",
    "ticker": "AMD",
    "kind": "trailing_stop",
-   "price": 471.3683,
+   "price": 484.6468,
    "status": "working",
    "created": "2026-09-08 12:13",
    "created_ts": 1788883985,
@@ -33,13 +33,13 @@
    "good_until": "2026-09-12",
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "high_water": 512.3569
+   "high_water": 526.79
   },
   {
    "id": "68402e49",
    "ticker": "INTC",
    "kind": "trailing_stop",
-   "price": 97.6027,
+   "price": 98.0076,
    "status": "working",
    "created": "2026-09-08 12:13",
    "created_ts": 1788883985,
@@ -52,14 +52,14 @@
    "good_until": "2026-09-12",
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "high_water": 106.0899
+   "high_water": 106.53
   },
   {
    "id": "97e68e5c",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 99.5,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-08 12:13",
    "created_ts": 1788883985,
    "why": "Add to nuclear theme on a pullback rather than chasing at current price",
@@ -70,7 +70,8 @@
     "track_record"
    ],
    "good_until": "2026-09-12",
-   "usd": 15.0
+   "usd": 15.0,
+   "closed": "2026-09-09 12:44"
   },
   {
    "id": "13c3e9d0",
@@ -120,7 +121,227 @@
    ],
    "good_until": "2026-09-12",
    "usd": 20.0
+  },
+  {
+   "id": "de716fe0",
+   "ticker": "GOOGN",
+   "kind": "stop_loss",
+   "price": 45.5,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "Protect the weakest/least-liquid holding (depositary receipt) from further slippage given broad market weakness today",
+   "evidence": "GOOGN -1.75% unrealized, not ordinary shares per holdings flag, market broadly down today (SPY -0.46%, oil spike headlines)",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ee5d8a8a",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 479.1465,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "close 50% at +2.5% over the average cost",
+   "evidence": "average cost $467.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "77d4e58a",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 453.4362,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "evidence": "average cost $467.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "usd": 25.0
+  },
+  {
+   "id": "d71fa8a3",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 104.7345,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "close 50% at +2.5% over the average cost",
+   "evidence": "average cost $102.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "b85107c1",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 99.1146,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "evidence": "average cost $102.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "usd": 25.0
+  },
+  {
+   "id": "35866496",
+   "ticker": "SPY",
+   "kind": "take_profit",
+   "price": 787.405,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "close 50% at +2.5% over the average cost",
+   "evidence": "average cost $768.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "cb464c04",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 752.836,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "close it all at -2.0% under the average cost",
+   "evidence": "average cost $768.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c6f8c2f2",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 745.154,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "evidence": "average cost $768.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "usd": 25.0
+  },
+  {
+   "id": "0d2f8f8a",
+   "ticker": "NLR",
+   "kind": "take_profit",
+   "price": 127.7252,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "close 50% at +2.5% over the average cost",
+   "evidence": "average cost $124.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "11ad7f16",
+   "ticker": "NLR",
+   "kind": "buy_limit",
+   "price": 120.8717,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "evidence": "average cost $124.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "usd": 25.0
+  },
+  {
+   "id": "9a6f415a",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 521.9915,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "close 50% at +2.5% over the average cost",
+   "evidence": "average cost $509.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "031e3d8d",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 493.9822,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "evidence": "average cost $509.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "usd": 25.0
+  },
+  {
+   "id": "74f8d9fd",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 107.8505,
+   "status": "working",
+   "created": "2026-09-09 12:44",
+   "created_ts": 1788972292,
+   "why": "close 50% at +2.5% over the average cost",
+   "evidence": "average cost $105.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-14",
+   "pct_of_position": 50.0
   }
  ],
- "updated": "2026-09-08 15:26"
+ "updated": "2026-09-09 12:44"
 }
