@@ -264,8 +264,6 @@ def auto_bracket(now: datetime, positions: dict, px: dict, cfg: dict) -> list[di
     """
     if not cfg or not cfg.get("enabled", True):
         return []
-    tp = float(cfg.get("take_profit_pct", 3) or 0)
-    sl = float(cfg.get("stop_loss_pct", 2) or 0)
     tp_size = float(cfg.get("take_profit_size_pct", 50) or 50)
     live = working(now)
     has = {(o["ticker"], o["kind"]) for o in live}
@@ -275,6 +273,7 @@ def auto_bracket(now: datetime, positions: dict, px: dict, cfg: dict) -> list[di
         entry = float(pos.get("avg_cost") or 0)
         if entry <= 0:
             continue
+        tp, sl = levels(t, px, cfg)
         if tp > 0 and (t, "take_profit") not in has:
             out.append({"ticker": t, "kind": "take_profit", "price": round(entry * (1 + tp / 100), 2),
                         "pct_of_position": tp_size, "trail_pct": 0, "usd": 0,
@@ -290,6 +289,24 @@ def auto_bracket(now: datetime, positions: dict, px: dict, cfg: dict) -> list[di
     return out
 
 AUTO = "auto_bracket"
+
+def levels(ticker: str, px: dict | None, cfg: dict) -> tuple[float, float]:
+    """(target %, stop %) sized to THIS stock's own daily range where possible.
+
+    A flat 2.5% stop is 3.5x SPY's average daily move and 0.39x OKLO's - unreachable on one, hit
+    by lunchtime noise on the other. Measured across the watchlist that is a 9x spread, so one
+    number cannot be right for both, and the drag is proportional to volatility: a fixed bracket
+    costs 0.014pp per trade on SPY and 0.570pp on SOXL. Falls back to the fixed percentages when
+    ATR is unavailable, and is bounded so a wild reading cannot produce an absurd level.
+    """
+    atr = float(((px or {}).get(ticker) or {}).get("atr_pct") or 0)
+    sl_a = float(cfg.get("stop_loss_atr", 0) or 0)
+    tp_a = float(cfg.get("take_profit_atr", 0) or 0)
+    if atr > 0 and sl_a > 0 and tp_a > 0:
+        lo = float(cfg.get("stop_floor_pct", 1.5) or 1.5)
+        hi = float(cfg.get("stop_cap_pct", 12) or 12)
+        return round(atr * tp_a, 3), round(min(max(atr * sl_a, lo), hi), 3)
+    return float(cfg.get("take_profit_pct", 3) or 0), float(cfg.get("stop_loss_pct", 2) or 0)
 
 def _is_auto(o: dict) -> bool:
     return AUTO in (o.get("signals") or [])
@@ -309,8 +326,6 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
     """
     if not cfg or not cfg.get("enabled", True):
         return [], 0
-    tp = float(cfg.get("take_profit_pct", 3) or 0)
-    sl = float(cfg.get("stop_loss_pct", 2) or 0)
     tp_size = float(cfg.get("take_profit_size_pct", 50) or 50)
     scale = cfg.get("scale_in") or {}
     scale_on = bool(scale.get("enabled"))
@@ -325,9 +340,17 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
         entry = float(pos.get("avg_cost") or 0)
         if entry <= 0:
             continue
+        tp, sl = levels(t, px, cfg)
         mine = [o for o in live if o["ticker"] == t and _is_auto(o)]
+        # Has this position's automatic target already been taken? Selling does not change
+        # avg_cost, so without this check a new target is recreated at the same price after every
+        # fill and the position is liquidated in halves at +tp%: seen live on AMD, sold four times
+        # at $521.99 for 0.0491 -> 0.0245 -> 0.0123 -> 0.0061 shares. That caps the best possible
+        # outcome of every trade at the target, which is the opposite of scaling out.
+        banked = any(o["ticker"] == t and o["kind"] == "take_profit" and o.get("status") == "filled"
+                     and _is_auto(o) for o in done)
         targets = {}
-        if tp > 0:
+        if tp > 0 and not banked:
             targets["take_profit"] = px_round(entry * (1 + tp / 100))
         if sl > 0:
             # Once part of the position has been sold into a target, the rest rides for free: the
@@ -335,8 +358,6 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             # +2.5% on HALF while stopping out ALL of it means risking 2 to make 1.25, which needs
             # a 63% win rate just to break even. Break-even stops turn every partial win into a
             # position that can no longer lose money.
-            banked = any(o["ticker"] == t and o["kind"] == "take_profit" and o.get("status") == "filled"
-                         and _is_auto(o) for o in done)
             targets["stop_loss"] = px_round(entry if banked else entry * (1 - sl / 100))
         if scale_on and add_drop > 0 and add_usd > 0 and int(pos.get("tranches", 1)) < max_tranches:
             targets["buy_limit"] = px_round(entry * (1 - add_drop / 100))

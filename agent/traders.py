@@ -156,17 +156,58 @@ def refresh(trades: list[dict], max_age_hours: int = 20, **kw) -> dict:
         pass
     return fresh
 
-def weights(board: dict, min_scored: int = 8) -> dict:
-    """{member: multiplier} for buy pressure. Proven names count more, poor ones count against.
+# The leaderboard failed its own significance test, so nothing is weighted until it passes.
+#
+# Tested against a luck null on the live board (25 members, 1,114 scored buys, per-trade excess
+# sd 10.24pp): the expected BEST-of-25 average excess return if every member had exactly zero
+# skill is +5.77% — higher than the observed top of +4.76% (p = 0.71). No member survives
+# Benjamini-Hochberg (min q = 0.73). The cross-sectional variance of the scores is LOWER than
+# sampling noise alone predicts, implying negative between-member skill variance. An
+# out-of-sample rank test, 2025 scores against 2026 outcomes, gives Spearman rho = -0.002.
+#
+# So the old 0.5x-2.0x multipliers were computed from noise and used to size real positions.
+# With the budget at $1,000 and 100% allowed in one name, that was the most dangerous line in
+# the signal stack. The published record agrees: Eggers & Hainmueller (Journal of Politics 75(2),
+# 2013) find the famous Ziobrowski 12%/yr Senate result is the largest of eight estimates and
+# significant in at most three of eight specifications.
+MIN_SCORED = 30                    # measured: ~105 independent trades to see a +2%/trade edge
+MIN_T_STAT = 2.5                   # and the multiple-comparisons bar is higher still
 
-    Deliberately gentle: 2x at best, 0.5x at worst. A leaderboard built on a year of filings is a
-    weak prior, and betting the book on it would be exactly the overfitting the learning loop is
-    supposed to catch.
+def weights(board: dict, min_scored: int = MIN_SCORED, per_trade_sd: float = 10.24) -> dict:
+    """{member: multiplier}. Returns {} — no tilt at all — unless a record beats luck.
+
+    A multiplier is only issued when a member clears BOTH a real sample size and a t-statistic
+    that would survive testing 25 people at once. On today's data nobody clears it, which is the
+    correct answer, not a bug.
     """
     out = {}
     for r in (board or {}).get("leaders", []):
-        if r["disclosed_buys_scored"] < min_scored:
+        n = int(r.get("disclosed_buys_scored") or 0)
+        if n < min_scored:
             continue
-        a = r["avg_excess_pct"]
-        out[r["who"]] = 2.0 if a >= 5 else 1.5 if a >= 2 else 0.5 if a <= -2 else 1.0
+        se = per_trade_sd / (n ** 0.5)
+        t = (r.get("avg_excess_pct") or 0) / se if se else 0
+        if t >= MIN_T_STAT:
+            out[r["who"]] = 1.5
+        elif t <= -MIN_T_STAT:
+            out[r["who"]] = 0.5
     return out
+
+def significance(board: dict, per_trade_sd: float = 10.24) -> dict:
+    """What the board is worth as evidence, so the number is never read as a finding."""
+    ls = (board or {}).get("leaders") or []
+    if not ls:
+        return {"verdict": "no leaderboard yet"}
+    best = max(ls, key=lambda r: r["avg_excess_pct"])
+    n = int(best.get("disclosed_buys_scored") or 1)
+    t = best["avg_excess_pct"] / (per_trade_sd / (n ** 0.5))
+    tilted = len(weights(board))
+    return {
+        "members": len(ls), "best": best["who"], "best_avg_excess_pct": best["avg_excess_pct"],
+        "best_t_stat": round(t, 2), "members_weighted": tilted,
+        "verdict": ("no member is distinguishable from luck; every multiplier is 1.0x"
+                    if tilted == 0 else f"{tilted} member(s) clear the bar"),
+        "how_to_read": ("Ranking 25 people and taking the top one produces a good-looking number "
+                        "by construction. A score only counts here if it beats what the best of "
+                        "25 coin-flippers would show, which needs roughly 30+ independent trades."),
+    }

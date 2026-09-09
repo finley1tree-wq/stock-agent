@@ -198,7 +198,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 99.1146,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "average in another $25 if it falls 3.0% below the average cost",
@@ -208,7 +208,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "usd": 25.0
+   "usd": 25.0,
+   "closed": "2026-09-09 13:31",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "35866496",
@@ -253,7 +255,7 @@
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 745.154,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 12:44",
    "created_ts": 1788972292,
    "why": "average in another $25 if it falls 3.0% below the average cost",
@@ -263,7 +265,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "usd": 25.0
+   "usd": 25.0,
+   "closed": "2026-09-09 13:31",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "0d2f8f8a",
@@ -503,7 +507,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 107.289,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 15:41",
    "created_ts": 1788982919,
    "why": "close 50% at +5.0% over the average cost",
@@ -513,14 +517,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 13:31",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "2e098f10",
    "ticker": "SPY",
    "kind": "take_profit",
    "price": 806.61,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 15:41",
    "created_ts": 1788982919,
    "why": "close 50% at +5.0% over the average cost",
@@ -530,14 +536,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-09 13:31",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "61469a89",
    "ticker": "SPY",
    "kind": "stop_loss",
    "price": 748.995,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-09 15:41",
    "created_ts": 1788982919,
    "why": "close it all at -2.5% under the average cost",
@@ -547,7 +555,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-09 13:31",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "3fe99ec6",
@@ -618,5 +628,5 @@
    "pct_of_position": 50.0
   }
  ],
- "updated": "2026-09-09 15:41"
+ "updated": "2026-09-09 13:31"
 }

@@ -22,10 +22,16 @@ guardrails:
                                  # so the risk this adds is concentration and overnight gap risk, not
                                  # an unbounded loss.
   min_order_usd: 5               # skip crumbs
-  max_entry_range_pct: 60        # a market buy above this point in TODAY's range is chasing; it becomes a
+  max_entry_range_pct: 85        # Measured on 36,382 stock-days of this watchlist: the next-day edge
+                                 # from buying low in the range is only 5-8 bps, about one round trip,
+                                 # and the effect is threshold-shaped near 85 rather than linear at 60.
+                                 # A market buy above this point in TODAY's range is chasing; it becomes a
                                  # resting limit instead. Day one averaged the 76th percentile and 6 of 7
                                  # entries closed red.
-  chase_limit_at_pct: 40         # where to rest that limit, as a percentile of the day's range
+  chase_limit_at_pct: 55         # where to rest that limit. Measured over 1,224 fired cases: resting at
+                                 # the 40th percentile filled only 39% of the time and LOST 0.128% per
+                                 # signal, because a limit that fills is one the stock kept falling
+                                 # through. Nothing from the 20th to the 55th beat just buying.
   max_daily_deploy_pct: 100      # the whole week's budget may go to work in a single day (tracked across the day's checks).
                                  # max_per_ticker_pct still forces it across at least 3 tickers, so 100% here means
                                  # fully invested, not all-in on one name.
@@ -33,7 +39,10 @@ guardrails:
                                  # below are the real risk control, this only stops runaway churn
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
   only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
-  max_hold_days: 2               # a position that has gone nowhere for this many days is closed regardless.
+  max_hold_days: 10              # measured on 5y of this watchlist, per trade after costs:
+                                 #   2 days  E = +0.143%   5 days  E = +0.431%   10 days  E = +1.060%
+                                 # A 2-day stop was capping upside harder than the bracket was.
+                                 # A position that has gone nowhere for this many days is closed regardless.
                                  # Capital sitting in a name that is not working is capital not working.
   time_stop_min_gain_pct: 1.0    # ...unless it is at least this far ahead, in which case let it run
   min_hold_days: 0               # 0 = it may exit the same day it bought, so a broken thesis or a hit target
@@ -52,6 +61,14 @@ guardrails:
   # while waiting for the next check. The brain may place its own better levels; these fill the gaps.
   auto_bracket:
     enabled: true
+    # Levels are sized in ATR - how far this stock actually moves on an ordinary day - because a
+    # single percentage cannot fit both SPY (2.5% = 3.5 daily ranges, never reached) and OKLO
+    # (2.5% = 0.39, hit by noise before lunch). The _pct values below are the fallback when ATR
+    # is unavailable. Measured: fixed brackets cost 0.014pp/trade on SPY and 0.570pp on SOXL.
+    stop_loss_atr: 2.0           # stop at 2x the average daily range: outside normal noise
+    take_profit_atr: 4.0         # target at 4x, so the payoff stays 2:1
+    stop_floor_pct: 1.5          # never tighter than this, whatever ATR says
+    stop_cap_pct: 12.0           # never wider than this
     take_profit_pct: 5.0         # sell part of the position this far above the AVERAGE COST, i.e. TWICE the
                                  # stop below. The old 2.5%
                                  # was smaller than the average watchlist stock's WHOLE DAY range (2.59%),

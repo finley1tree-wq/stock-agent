@@ -5,6 +5,35 @@ def yahoo_symbol(t: str) -> str:
     """Yahoo writes share classes with a dash: BRK.B -> BRK-B. Filings use the dot form."""
     return t.replace(".", "-") if "." in t and not t.endswith(".TO") else t
 
+def _atr_pct(f, n: int = 14):
+    """14-day ATR as a percent of price - how far this stock moves on an ordinary day.
+
+    A flat 2% stop means completely different things on DIA (1.9x its daily range, basically
+    unreachable) and OKLO (0.3x, hit by noise before lunch). Measured across the watchlist that
+    is an 8x inconsistency, which is why every level is sized in these units instead.
+    """
+    try:
+        hi, lo, cl = f["High"].dropna(), f["Low"].dropna(), f["Close"].dropna()
+        prev = cl.shift(1)
+        tr = (hi - lo).combine((hi - prev).abs(), max).combine((lo - prev).abs(), max).dropna()
+        if len(tr) < n:
+            return None
+        atr = tr.tail(n).mean()
+        last = float(cl.iloc[-1])
+        return round(float(atr) / last * 100, 3) if last else None
+    except Exception:
+        return None
+
+def _frame_for(data, t: str):
+    cols = data.columns
+    if getattr(cols, "nlevels", 1) > 1:
+        if t in cols.get_level_values(0):
+            return data[t]
+        if "Close" in cols.get_level_values(0):
+            return data.xs(t, axis=1, level=1)
+        return None
+    return data
+
 def _hl(data, t: str):
     """Today's high and low, so the agent can tell where in the day's range it is buying."""
     cols = data.columns
@@ -103,6 +132,11 @@ def snapshot(tickers: list[str]) -> dict:
             def pct(n):
                 return round((last / float(closes.iloc[-1 - n]) - 1) * 100, 2) if len(closes) > n else None
             row = {"price": round(last, 2), "change_1d_pct": pct(1), "change_5d_pct": pct(5), "change_1m_pct": pct(21)}
+            f = _frame_for(data, y)
+            if f is not None:
+                a = _atr_pct(f)
+                if a:
+                    row["atr_pct"] = a
             hi, lo = _hl(data, y)
             if hi and lo and hi > lo:
                 # Where in today's range this price sits. 0 = at the low, 100 = at the high.
