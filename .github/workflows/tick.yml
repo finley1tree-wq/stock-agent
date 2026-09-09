@@ -11,7 +11,7 @@ on:
 concurrency:
   group: stock-agent          # shares the agent's lane: a tick never runs beside a decision
   cancel-in-progress: false
-permissions: { contents: write }
+permissions: { contents: write, actions: write }
 jobs:
   tick:
     runs-on: ubuntu-latest
@@ -44,3 +44,29 @@ jobs:
             echo "push attempt $i failed, retrying"; sleep $((i * 5))
           done
           echo "could not push after 5 attempts"; exit 1
+
+      # GitHub's scheduler fired ZERO times on 2026-09-09 and the agent sat out three hours of an
+      # open market. So the chain does not depend on it: while the market is open each tick starts
+      # the next one itself. Cron and the watchdog are now only ways to START the chain, not to
+      # sustain it. The market-hours test below is what stops it running forever.
+      - name: keep the chain alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          hour=$(date -u +%-H); dow=$(date -u +%u)
+          if [ "$dow" -gt 5 ] || [ "$hour" -lt 13 ] || [ "$hour" -gt 20 ]; then
+            echo "outside the session window; chain ends"; exit 0
+          fi
+          if python -c "
+          import sys
+          from datetime import datetime, time
+          from zoneinfo import ZoneInfo
+          from agent.broker_sim import is_trading_day, close_time
+          n = datetime.now(ZoneInfo('America/New_York'))
+          sys.exit(0 if (is_trading_day(n.date()) and time(9,30) <= n.time() < close_time(n.date())) else 1)
+          "; then
+            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
+          else
+            echo "market closed; chain ends"
+          fi
