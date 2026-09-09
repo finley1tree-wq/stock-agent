@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-09T12:45-04:00",
- "note": "Market is broadly red today (oil spike, SPY/DIA down, most positions slightly negative) and all my positions are already fresh (days_held=1) with stops/trailing-stops in place from yesterday. Past lessons consistently show that adding more buys on the same day after positions already popped or are f",
+ "asOf": "2026-09-09T12:52-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -37,6 +37,8 @@
  "guardrails": {
   "max_per_ticker_pct": 40,
   "min_order_usd": 5,
+  "max_entry_range_pct": 60,
+  "chase_limit_at_pct": 40,
   "max_daily_deploy_pct": 100,
   "max_orders_per_day": 24,
   "friday_cleanup_after_et": "15:30",
@@ -91,23 +93,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9a6f415a",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 521.9915,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 523.74,
-   "pct_away": -0.33,
-   "good_until": "2026-09-14",
-   "why": "close 50% at +2.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "22cbfcde",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -115,8 +100,8 @@
    "usd": 20.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 762.41,
-   "pct_away": -0.97,
+   "last": 762.84,
+   "pct_away": -1.03,
    "good_until": "2026-09-12",
    "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
    "signals": [
@@ -132,8 +117,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 762.41,
-   "pct_away": -1.26,
+   "last": 762.84,
+   "pct_away": -1.31,
    "good_until": "2026-09-14",
    "why": "close it all at -2.0% under the average cost",
    "signals": [
@@ -149,8 +134,25 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 106.25,
-   "pct_away": 1.51,
+   "last": 105.91,
+   "pct_away": 1.83,
+   "good_until": "2026-09-14",
+   "why": "close 50% at +2.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ee5d8a8a",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 479.1465,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 468.34,
+   "pct_away": 2.31,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -166,42 +168,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 762.41,
-   "pct_away": -2.26,
-   "good_until": "2026-09-14",
-   "why": "average in another $25 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ee5d8a8a",
-   "ticker": "AMAT",
-   "kind": "take_profit",
-   "price": 479.1465,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 467.96,
-   "pct_away": 2.39,
-   "good_until": "2026-09-14",
-   "why": "close 50% at +2.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "11ad7f16",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 120.8717,
-   "usd": 25.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 124.02,
-   "pct_away": -2.54,
+   "last": 762.84,
+   "pct_away": -2.32,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -217,8 +185,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.73,
-   "pct_away": -2.57,
+   "last": 101.54,
+   "pct_away": -2.39,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -227,17 +195,17 @@
    ]
   },
   {
-   "id": "d71fa8a3",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 104.7345,
-   "usd": null,
-   "pct_of_position": 50.0,
+   "id": "11ad7f16",
+   "ticker": "NLR",
+   "kind": "buy_limit",
+   "price": 120.8717,
+   "usd": 25.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.73,
-   "pct_away": 2.95,
+   "last": 124.24,
+   "pct_away": -2.71,
    "good_until": "2026-09-14",
-   "why": "close 50% at +2.5% over the average cost",
+   "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -251,8 +219,25 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 124.02,
-   "pct_away": 2.99,
+   "last": 124.24,
+   "pct_away": 2.81,
+   "good_until": "2026-09-14",
+   "why": "close 50% at +2.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d71fa8a3",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 104.7345,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 101.54,
+   "pct_away": 3.15,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -268,8 +253,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 467.96,
-   "pct_away": -3.1,
+   "last": 468.34,
+   "pct_away": -3.18,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -285,8 +270,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 762.41,
-   "pct_away": 3.28,
+   "last": 762.84,
+   "pct_away": 3.22,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -302,26 +287,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 47.1,
-   "pct_away": -3.4,
+   "last": 47.13,
+   "pct_away": -3.46,
    "good_until": "2026-09-12",
    "why": "Protect the weakest/least-liquid holding (depositary receipt) from further slippage given broad market weakness today",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "5df75c65",
-   "ticker": "AMAT",
-   "kind": "stop_loss",
-   "price": 447.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 467.96,
-   "pct_away": -4.48,
-   "good_until": "2026-09-12",
-   "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
     "risk_management"
    ]
@@ -334,10 +303,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 101.73,
-   "pct_away": -4.65,
+   "last": 101.54,
+   "pct_away": -4.47,
    "good_until": "2026-09-12",
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "5df75c65",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 447.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 468.34,
+   "pct_away": -4.56,
+   "good_until": "2026-09-12",
+   "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
     "risk_management"
    ]
@@ -350,8 +335,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 124.02,
-   "pct_away": -4.85,
+   "last": 124.24,
+   "pct_away": -5.02,
    "good_until": "2026-09-12",
    "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
    "signals": [
@@ -366,30 +351,13 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 523.74,
-   "pct_away": -5.68,
+   "last": 523.98,
+   "pct_away": -5.72,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "5a8628c1",
-   "ticker": "AMD",
-   "kind": "trailing_stop",
-   "price": 484.6468,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": 8.0,
-   "last": 523.74,
-   "pct_away": -7.46,
-   "good_until": "2026-09-12",
-   "why": "Lock in protection on the biggest one-day mover in the book",
-   "signals": [
-    "risk_management",
-    "momentum"
    ]
   },
   {
@@ -400,178 +368,34 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 106.25,
-   "pct_away": -7.76,
+   "last": 105.91,
+   "pct_away": -7.46,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
     "risk_management",
     "momentum"
    ]
+  },
+  {
+   "id": "5a8628c1",
+   "ticker": "AMD",
+   "kind": "trailing_stop",
+   "price": 484.6468,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": 8.0,
+   "last": 523.98,
+   "pct_away": -7.51,
+   "good_until": "2026-09-12",
+   "why": "Lock in protection on the biggest one-day mover in the book",
+   "signals": [
+    "risk_management",
+    "momentum"
+   ]
   }
  ],
- "next_check_minutes": 60,
- "allowed": [
-  "AEP",
-  "ALKS",
-  "AMAT",
-  "AMD",
-  "AVGO",
-  "BE",
-  "CCJ",
-  "CRWD",
-  "DGICA",
-  "DIA",
-  "EPAC",
-  "FITB",
-  "GLD",
-  "INTC",
-  "LMT",
-  "NEM",
-  "NLR",
-  "NOC",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "PRAX",
-  "RTX",
-  "SAIL",
-  "SKWD",
-  "SPY",
-  "SXI",
-  "TPL",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
-  "insiders": "ok",
-  "excluded_instruments": [
-   "BWFG excluded: too thinly traded (78,359/day) \u2014 Bankwell Financial Group, Inc.",
-   "CDR excluded: no security information",
-   "CYBN excluded: no security information",
-   "GBAB excluded: too thinly traded (89,879/day) \u2014 Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr",
-   "GOOGN excluded: not ordinary shares (depositary) \u2014 Alphabet Inc. Depositary Shares representing a 1/20th Intere",
-   "MDRR excluded: too thinly traded (3,958/day) \u2014 Medalist Diversified, Inc.",
-   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust"
-  ]
- },
- "learning": {
-  "horizon": "1d",
-  "decisions_recorded": 10,
-  "decisions_graded": 9,
-  "decisions_with_buys_graded": 2,
-  "independent_days_graded": 1,
-  "avg_regret_pct": -0.97,
-  "chosen_avg_pct": 0.02,
-  "skipped_avg_pct": -0.95,
-  "idle_universe_avg_pct": -1.16,
-  "picking_beats_random": true,
-  "avg_fraction_of_universe_bought": 0.03,
-  "checks_that_bought_everything": 0,
-  "by_signal_chosen": {
-   "congress": {
-    "n": 4,
-    "avg_pct": 0.54
-   },
-   "etf_default": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "momentum": {
-    "n": 5,
-    "avg_pct": 0.4
-   },
-   "news": {
-    "n": 6,
-    "avg_pct": 0.05
-   },
-   "risk_management": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "track_record": {
-    "n": 1,
-    "avg_pct": -1.44
-   }
-  },
-  "biggest_misses": [
-   {
-    "ticker": "AMD",
-    "fwd_pct": 3.27,
-    "sector": "off-watchlist",
-    "m1m_then": 4.9,
-    "congress": 1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "INTC",
-    "fwd_pct": 2.23,
-    "sector": "off-watchlist",
-    "m1m_then": 2.2,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "NEM",
-    "fwd_pct": 1.03,
-    "sector": "gold",
-    "m1m_then": 13.5,
-    "congress": 0,
-    "insider": 0
-   },
-   {
-    "ticker": "GLD",
-    "fwd_pct": 0.93,
-    "sector": "gold",
-    "m1m_then": 0.5,
-    "congress": 0,
-    "insider": 0
-   },
-   {
-    "ticker": "TPL",
-    "fwd_pct": 0.51,
-    "sector": "off-watchlist",
-    "m1m_then": 10.6,
-    "congress": 0,
-    "insider": 1.0
-   }
-  ],
-  "biggest_avoided": [
-   {
-    "ticker": "SAIL",
-    "fwd_pct": -4.35
-   },
-   {
-    "ticker": "BE",
-    "fwd_pct": -3.49
-   },
-   {
-    "ticker": "AVGO",
-    "fwd_pct": -2.83
-   }
-  ],
-  "sectors_most_often_missed": {
-   "off-watchlist": {
-    "n": 3
-   },
-   "gold": {
-    "n": 2
-   },
-   "defense": {
-    "n": 2
-   }
-  },
-  "idle_checks": 7,
-  "blocked_checks": 0,
-  "idle_share": 0.7,
-  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
-  "evidence_strength": "anecdote",
-  "how_many_days_before_this_means_anything": 30,
-  "warning": "only 1 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
- },
+ "next_check_minutes": null,
  "congress_trades": [
   {
    "who": "David J. Taylor",
@@ -2248,5 +2072,166 @@
   ]
  },
  "people_news": {},
+ "allowed": [
+  "AEP",
+  "ALKS",
+  "AMAT",
+  "AMD",
+  "AVGO",
+  "BE",
+  "CCJ",
+  "CRWD",
+  "DGICA",
+  "DIA",
+  "EPAC",
+  "FITB",
+  "GLD",
+  "INTC",
+  "LMT",
+  "NEM",
+  "NLR",
+  "NOC",
+  "O",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "PRAX",
+  "RTX",
+  "SAIL",
+  "SKWD",
+  "SPY",
+  "SXI",
+  "TPL",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "insiders": "ok",
+  "excluded_instruments": [
+   "BWFG excluded: too thinly traded (78,359/day) \u2014 Bankwell Financial Group, Inc.",
+   "CDR excluded: no security information",
+   "CYBN excluded: no security information",
+   "GBAB excluded: too thinly traded (89,879/day) \u2014 Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr",
+   "GOOGN excluded: not ordinary shares (depositary) \u2014 Alphabet Inc. Depositary Shares representing a 1/20th Intere",
+   "MDRR excluded: too thinly traded (3,958/day) \u2014 Medalist Diversified, Inc.",
+   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust"
+  ]
+ },
+ "learning": {
+  "horizon": "1d",
+  "decisions_recorded": 10,
+  "decisions_graded": 9,
+  "decisions_with_buys_graded": 2,
+  "independent_days_graded": 1,
+  "avg_regret_pct": -0.97,
+  "chosen_avg_pct": 0.02,
+  "skipped_avg_pct": -0.95,
+  "idle_universe_avg_pct": -1.16,
+  "picking_beats_random": true,
+  "avg_fraction_of_universe_bought": 0.03,
+  "checks_that_bought_everything": 0,
+  "by_signal_chosen": {
+   "congress": {
+    "n": 4,
+    "avg_pct": 0.54
+   },
+   "etf_default": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "momentum": {
+    "n": 5,
+    "avg_pct": 0.4
+   },
+   "news": {
+    "n": 6,
+    "avg_pct": 0.05
+   },
+   "risk_management": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "track_record": {
+    "n": 1,
+    "avg_pct": -1.44
+   }
+  },
+  "biggest_misses": [
+   {
+    "ticker": "AMD",
+    "fwd_pct": 3.27,
+    "sector": "off-watchlist",
+    "m1m_then": 4.9,
+    "congress": 1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "INTC",
+    "fwd_pct": 2.23,
+    "sector": "off-watchlist",
+    "m1m_then": 2.2,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "NEM",
+    "fwd_pct": 1.03,
+    "sector": "gold",
+    "m1m_then": 13.5,
+    "congress": 0,
+    "insider": 0
+   },
+   {
+    "ticker": "GLD",
+    "fwd_pct": 0.93,
+    "sector": "gold",
+    "m1m_then": 0.5,
+    "congress": 0,
+    "insider": 0
+   },
+   {
+    "ticker": "TPL",
+    "fwd_pct": 0.51,
+    "sector": "off-watchlist",
+    "m1m_then": 10.6,
+    "congress": 0,
+    "insider": 1.0
+   }
+  ],
+  "biggest_avoided": [
+   {
+    "ticker": "SAIL",
+    "fwd_pct": -4.35
+   },
+   {
+    "ticker": "BE",
+    "fwd_pct": -3.49
+   },
+   {
+    "ticker": "AVGO",
+    "fwd_pct": -2.83
+   }
+  ],
+  "sectors_most_often_missed": {
+   "off-watchlist": {
+    "n": 3
+   },
+   "gold": {
+    "n": 2
+   },
+   "defense": {
+    "n": 2
+   }
+  },
+  "idle_checks": 7,
+  "blocked_checks": 0,
+  "idle_share": 0.7,
+  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
+  "evidence_strength": "anecdote",
+  "how_many_days_before_this_means_anything": 30,
+  "warning": "only 1 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+ },
  "signalsAsOf": "2026-09-09T12:45-04:00"
 }

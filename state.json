@@ -1,12 +1,12 @@
 {
   "week": "2026-W37",
-  "spent": 255.0,
+  "spent": 229.37,
   "by_ticker": {
     "AMAT": 50.0,
     "CCJ": 55.0,
     "SPY": 30.0,
     "NLR": 20.0,
-    "AMD": 50.0,
+    "AMD": 24.37,
     "INTC": 30.0,
     "GOOGN": 20.0
   },
@@ -152,12 +152,35 @@
       ],
       "evidence": "Nuclear sector backtest shows 282% 2y avg return; CCJ +2.32% today",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 0.049091,
+      "status": "filled",
+      "price": 521.99,
+      "proceeds": 25.63,
+      "realized_pnl": 0.63,
+      "realized_pct": 2.5,
+      "date": "2026-09-09",
+      "time_et": "12:49",
+      "ts": 1788972300,
+      "why": "close 50% at +2.5% over the average cost",
+      "signals": [
+        "risk_management"
+      ],
+      "evidence": "average cost $509.26",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-09",
-  "spent_today": 15.0,
+  "spent_today": 0.0,
   "orders_today": 1,
-  "sells_today": 0,
-  "sold_today": [],
-  "last_check_ts": 1788972292
+  "sells_today": 1,
+  "sold_today": [
+    "AMD"
+  ],
+  "last_check_ts": 1788972767,
+  "book_fp": "[[\"22cbfcde\", 755.0], [\"cb464c04\", 752.836], [\"74f8d9fd\", 107.8505], [\"ee5d8a8a\", 479.1465], [\"c6f8c2f2\", 745.154], [\"b85107c1\", 99.1146], [\"11ad7f16\", 120.8717], [\"0d2f8f8a\", 127.7252], [\"d71fa8a3\", 104.7345], [\"77d4e58a\", 453.4362], [\"35866496\", 787.405], [\"de716fe0\", 45.5], [\"13c3e9d0\", 97.0], [\"5df75c65\", 447.0], [\"6f6b7f43\", 118.0], [\"031e3d8d\", 493.9822], [\"68402e49\", 98.0076], [\"5a8628c1\", 484.6468]]",
+  "last_publish_ts": 1788972767
 }

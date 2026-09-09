@@ -222,3 +222,5 @@ lesson: When most positions are fresh (days_held=1) with stops already in place 
 ~ WORKING take_profit 50% INTC @ $107.85 until 2026-09-14 — close 50% at +2.5% over the average cost
 portfolio: equity $400.86 (+0.22% on $400.00 in) · cash $145.00 · realised +0.00
 Done: 0 sell(s), 1 buy(s) (incl. 1 from standing orders); 19 order(s) working; budget left $145.00 this week
+- SELL 50% AMD [take_profit @ $521.99] -> $25.63 (+2.50%) — close 50% at +2.5% over the average cost
+## 2026-09-09 12:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
