@@ -39,8 +39,10 @@ guardrails:
                                  # below are the real risk control, this only stops runaway churn
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
   only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
-  max_hold_days: 10              # measured on 5y of this watchlist, per trade after costs:
-                                 #   2 days  E = +0.143%   5 days  E = +0.431%   10 days  E = +1.060%
+  max_hold_days: 20              # measured on 5y of this watchlist, per trade after costs:
+                                 #   2d +0.143%   5d +0.431%   10d +1.060%   20d +1.850%
+                                 # The whole exit stack was destroying ~96% of what the entries were worth:
+                                 # the live config returned +0.063%/trade against +1.850% for simply holding.
                                  # A 2-day stop was capping upside harder than the bracket was.
                                  # A position that has gone nowhere for this many days is closed regardless.
                                  # Capital sitting in a name that is not working is capital not working.
@@ -65,15 +67,19 @@ guardrails:
     # single percentage cannot fit both SPY (2.5% = 3.5 daily ranges, never reached) and OKLO
     # (2.5% = 0.39, hit by noise before lunch). The _pct values below are the fallback when ATR
     # is unavailable. Measured: fixed brackets cost 0.014pp/trade on SPY and 0.570pp on SOXL.
-    stop_loss_atr: 2.0           # stop at 2x the average daily range: outside normal noise
-    take_profit_atr: 4.0         # target at 4x, so the payoff stays 2:1
+    stop_loss_atr: 3.0           # stop at 3x the average daily range. Measured over ~7,800 entries on 5y of
+                                 # this watchlist, widening 2x -> 3x raised expectancy AND the win rate
+                                 # (+1.118% -> +1.393% per trade, 48.1% -> 54.3%): a tight stop is mostly
+                                 # a machine for getting shaken out of trades that were going to work.
+    take_profit_atr: 6.0         # target at 6x, a 2:1 payoff against the wider stop. Every tightening of
+                                 # the target measured WORSE: profit targets reduce expectancy monotonically.
     stop_floor_pct: 1.5          # never tighter than this, whatever ATR says
     stop_cap_pct: 12.0           # never wider than this
     take_profit_pct: 5.0         # sell part of the position this far above the AVERAGE COST, i.e. TWICE the
                                  # stop below. The old 2.5%
                                  # was smaller than the average watchlist stock's WHOLE DAY range (2.59%),
                                  # so it clipped winners before they could become winners.
-    take_profit_size_pct: 50     # how much of it to sell at the target
+    take_profit_size_pct: 33     # sell only a third at the target, so two thirds of a winner keeps running
     stop_loss_pct: 2.5           # sell all of it this far below the average cost. Once the target above
                                  # has banked a partial win, this moves UP to the entry price, so the
                                  # remainder of a winning trade can no longer lose money.
