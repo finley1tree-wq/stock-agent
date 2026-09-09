@@ -36,12 +36,23 @@ jobs:
           git add -A
           if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           git commit -m "tick $(date -u +%FT%H:%MZ)"
-          # GitHub occasionally rejects a push with a server-side "fatal error in commit_refs",
-          # which on 2026-09-08 threw away a whole check's work. Retry before giving up.
+          # Two separate failures seen in production, both handled here.
+          # 1. GitHub rejected a push with a server-side "fatal error in commit_refs" (2026-09-08)
+          #    and threw the whole check away. A transient rejection is retried.
+          # 2. A rebase hit a conflict, `|| true` swallowed it, and the runner was left mid-rebase
+          #    on no branch, so everything after failed (2026-09-09). A conflict means someone else
+          #    pushed while this run was computing, so this run's output is based on stale state:
+          #    the safe move is to abort cleanly and let the next run redo the work from the new
+          #    base, never to force a half-merged ledger through.
           for i in 1 2 3 4 5; do
-            git pull --rebase --autostash || true
-            if git push; then echo "pushed on attempt $i"; exit 0; fi
-            echo "push attempt $i failed, retrying"; sleep $((i * 5))
+            if git pull --rebase --autostash; then
+              if git push; then echo "pushed on attempt $i"; exit 0; fi
+              echo "push attempt $i rejected, retrying"; sleep $((i * 5))
+            else
+              git rebase --abort || true
+              echo "the branch moved while this run was working; dropping this run's output so the next one recomputes from fresh state"
+              exit 0
+            fi
           done
           echo "could not push after 5 attempts"; exit 1
 
