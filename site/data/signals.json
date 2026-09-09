@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-09T13:55-04:00",
+ "asOf": "2026-09-09T14:00-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -102,8 +102,8 @@
    "usd": 20.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 763.31,
-   "pct_away": -1.09,
+   "last": 763.09,
+   "pct_away": -1.06,
    "good_until": "2026-09-12",
    "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
    "signals": [
@@ -119,8 +119,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 763.31,
-   "pct_away": -1.37,
+   "last": 763.09,
+   "pct_away": -1.34,
    "good_until": "2026-09-14",
    "why": "close it all at -2.0% under the average cost",
    "signals": [
@@ -136,8 +136,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 106.35,
-   "pct_away": 1.41,
+   "last": 106.19,
+   "pct_away": 1.56,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -170,8 +170,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.39,
-   "pct_away": -2.24,
+   "last": 101.43,
+   "pct_away": -2.28,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -187,8 +187,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 763.31,
-   "pct_away": -2.38,
+   "last": 763.09,
+   "pct_away": -2.35,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -221,8 +221,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 467.27,
-   "pct_away": 2.54,
+   "last": 467.17,
+   "pct_away": 2.56,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -238,8 +238,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 467.27,
-   "pct_away": -2.96,
+   "last": 467.17,
+   "pct_away": -2.94,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -272,8 +272,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 763.31,
-   "pct_away": 3.16,
+   "last": 763.09,
+   "pct_away": 3.19,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -289,8 +289,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 101.39,
-   "pct_away": 3.3,
+   "last": 101.43,
+   "pct_away": 3.26,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -315,6 +315,23 @@
    ]
   },
   {
+   "id": "73631f34",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 102.0634,
+   "usd": 25.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 106.19,
+   "pct_away": -3.89,
+   "good_until": "2026-09-14",
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "6dab52c7",
    "ticker": "GOOGN",
    "kind": "take_profit",
@@ -332,20 +349,19 @@
    ]
   },
   {
-   "id": "73631f34",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 102.0634,
-   "usd": 25.0,
-   "pct_of_position": null,
+   "id": "5df75c65",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 447.0,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 106.35,
-   "pct_away": -4.03,
-   "good_until": "2026-09-14",
-   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "last": 467.17,
+   "pct_away": -4.32,
+   "good_until": "2026-09-12",
+   "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "risk_management"
    ]
   },
   {
@@ -356,26 +372,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 101.39,
-   "pct_away": -4.33,
+   "last": 101.43,
+   "pct_away": -4.37,
    "good_until": "2026-09-12",
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "5df75c65",
-   "ticker": "AMAT",
-   "kind": "stop_loss",
-   "price": 447.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 467.27,
-   "pct_away": -4.34,
-   "good_until": "2026-09-12",
-   "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
     "risk_management"
    ]
@@ -404,8 +404,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 524.26,
-   "pct_away": -5.78,
+   "last": 523.57,
+   "pct_away": -5.65,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -421,8 +421,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 524.26,
-   "pct_away": -7.56,
+   "last": 523.57,
+   "pct_away": -7.43,
    "good_until": "2026-09-12",
    "why": "Lock in protection on the biggest one-day mover in the book",
    "signals": [
@@ -434,12 +434,12 @@
    "id": "68402e49",
    "ticker": "INTC",
    "kind": "trailing_stop",
-   "price": 98.0076,
+   "price": 98.0168,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 106.35,
-   "pct_away": -7.84,
+   "last": 106.19,
+   "pct_away": -7.7,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
