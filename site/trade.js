@@ -15,8 +15,9 @@
   const HINT = `<span class="dim">Move over the chart for O / H / L / C / volume and P/L at that price. Drag to pan, pinch or scroll to zoom.</span>`;
   const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
   const prefs = (() => { try { return JSON.parse(localStorage.getItem("sa.trade") || "{}"); } catch (e) { return {}; } })();
-  Object.assign(T, { range: prefs.range || "1d", type: prefs.type || "candles", show: { ...T.show, ...(prefs.show || {}) } });
-  const savePrefs = () => { try { localStorage.setItem("sa.trade", JSON.stringify({ range: T.range, type: T.type, show: T.show })); } catch (e) {} };
+  Object.assign(T, { range: prefs.range || "1d", type: prefs.type || "candles", show: { ...T.show, ...(prefs.show || {}) },
+    intervals: prefs.intervals || { "1d": "1m", "5d": "5m" } });
+  const savePrefs = () => { try { localStorage.setItem("sa.trade", JSON.stringify({ range: T.range, type: T.type, show: T.show, intervals: T.intervals })); } catch (e) {} };
 
   function ctx() { return window.SA || { positions: () => ({}), journal: () => [], quote: () => null, working: () => [] }; }
 
@@ -54,21 +55,33 @@
     root.appendChild(v); document.body.style.overflow = "hidden";
     v.querySelector(".t-close").addEventListener("click", close);
     document.addEventListener("keydown", escClose);
-    $("#t-ranges").addEventListener("click", e => { const b = e.target.closest("button[data-r]"); if (!b) return; T.range = b.dataset.r; T.interval = null; pressed("#t-ranges", "r", T.range); savePrefs(); load(); });
+    $("#t-ranges").addEventListener("click", e => { const b = e.target.closest("button[data-r]"); if (!b) return; T.range = b.dataset.r; T.interval = T.intervals[T.range] || null; pressed("#t-ranges", "r", T.range); savePrefs(); startLive(); load(); });
     $("#t-type").addEventListener("click", e => { const b = e.target.closest("button[data-t]"); if (!b) return; T.type = b.dataset.t; pressed("#t-type", "t", T.type); savePrefs(); draw(); });
     $("#t-toggles").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (!b) return; T.show[b.dataset.k] = !T.show[b.dataset.k]; b.setAttribute("aria-pressed", T.show[b.dataset.k]); savePrefs(); draw(); });
     $("#t-entry").addEventListener("change", e => { const v = parseFloat(e.target.value); if (v > 0) { T.entry = v; T.entryMode = "manual"; drawEntry(); } });
     $("#t-size").addEventListener("change", e => { const v = parseFloat(e.target.value); T.size = v > 0 ? v : null; updatePL(T.lastPrice); });
     $("#t-entry-reset").addEventListener("click", () => { T.entryMode = "auto"; T.entry = null; T.size = null; $("#t-size").value = ""; drawEntry(); });
     $("#t-entry-cursor").addEventListener("click", () => { if (T.cursorPrice) { T.entry = +T.cursorPrice.toFixed(2); T.entryMode = "manual"; $("#t-entry").value = T.entry; drawEntry(); } });
+    T.interval = T.intervals[T.range] || null;
+    startLive();
+    document.addEventListener("visibilitychange", onVis);
     load();
+  }
+  function onVis() { if (!document.hidden && $("#t-chart")) load(true); }
+  // Without this the candles never move: the chart was drawn once and then left alone. Intraday
+  // ranges refresh every 15 seconds, longer ones every minute, and a hidden tab refreshes nothing.
+  function startLive() {
+    clearInterval(T.live);
+    const ms = (T.range === "1d" || T.range === "5d") ? 15000 : 60000;
+    T.live = setInterval(() => { if (!document.hidden && $("#t-chart")) load(true); }, ms);
   }
   function pressed(sel, attr, val) { document.querySelectorAll(`${sel} button`).forEach(b => b.setAttribute("aria-pressed", b.dataset[attr] === val)); }
   function escClose(e) { if (e.key === "Escape") close(); }
-  function close() { if (T.chart) { try { T.chart.remove(); } catch (e) {} T.chart = null; } if (T.resize) { window.removeEventListener("resize", T.resize); T.resize = null; } $("#trade-root").innerHTML = ""; document.body.style.overflow = ""; document.removeEventListener("keydown", escClose); }
+  function close() { clearInterval(T.live); document.removeEventListener("visibilitychange", onVis); if (T.chart) { try { T.chart.remove(); } catch (e) {} T.chart = null; } if (T.resize) { window.removeEventListener("resize", T.resize); T.resize = null; } $("#trade-root").innerHTML = ""; document.body.style.overflow = ""; document.removeEventListener("keydown", escClose); }
 
-  async function load() {
-    const my = ++T.seq; const read = $("#t-read"); if (read) read.innerHTML = `<span class="dim">Loading ${esc(T.sym)} ${RLABEL[T.range]}…</span>`;
+  async function load(silent) {
+    const my = ++T.seq; const read = $("#t-read");
+    if (read && !silent) read.innerHTML = `<span class="dim">Loading ${esc(T.sym)} ${RLABEL[T.range]}…</span>`;
     const url = `/api/chart?symbol=${encodeURIComponent(T.sym)}&range=${T.range}${T.interval ? "&interval=" + T.interval : ""}`;
     let c = null; try { const r = await fetch(url, { cache: "no-store" }); c = r.ok ? await r.json() : null; } catch (e) { c = null; }
     if (my !== T.seq || !$("#t-chart")) return;
@@ -78,18 +91,23 @@
     const cls = c.change > 0 ? "up" : c.change < 0 ? "down" : "flat";
     $("#t-chg").innerHTML = c.change != null ? `<span class="pill ${cls}">${signed(c.change)} (${pct(c.changePct)})</span> <span class="dim">${T.range === "1d" ? "today" : RLABEL[T.range]}</span>` : "";
     $("#t-intervals").innerHTML = (c.intervals || []).map(i => `<button data-i="${i}" aria-pressed="${i === c.interval}">${i}</button>`).join("");
-    $("#t-intervals").onclick = e => { const b = e.target.closest("button[data-i]"); if (!b) return; T.interval = b.dataset.i; load(); };
+    $("#t-intervals").onclick = e => { const b = e.target.closest("button[data-i]"); if (!b) return; T.interval = b.dataset.i; T.intervals[T.range] = b.dataset.i; savePrefs(); load(); };
     if (T.entryMode === "auto") { const pos = ctx().positions()[T.sym]; T.entry = pos ? pos.avg_cost : c.price; $("#t-entry").value = T.entry != null ? (+T.entry).toFixed(2) : ""; }
-    draw();
-    const rd = $("#t-read"); if (rd) rd.innerHTML = HINT;
+    draw(silent);
+    const rd = $("#t-read"); if (rd && !silent) rd.innerHTML = HINT;
   }
 
   function sma(bars, n) { const out = []; let sum = 0; for (let i = 0; i < bars.length; i++) { sum += bars[i].c; if (i >= n) sum -= bars[i - n].c; if (i >= n - 1) out.push({ time: bars[i].time, value: +(sum / n).toFixed(4) }); } return out; }
   function vwap(bars) { const out = []; let pv = 0, vv = 0, day = null; for (const b of bars) { const d = new Date(b.t).toLocaleDateString("en-US", { timeZone: "America/New_York" }); if (d !== day) { day = d; pv = 0; vv = 0; } const tp = (b.h + b.l + b.c) / 3; pv += tp * b.v; vv += b.v; if (vv > 0) out.push({ time: b.time, value: +(pv / vv).toFixed(4) }); } return out; }
 
-  function draw() {
+  function draw(keepView) {
     const c = T.data; if (!c) return; const LW = window.LightweightCharts; const host = $("#t-chart"); if (!host) return;
-    if (T.chart) { try { T.chart.remove(); } catch (e) {} T.chart = null; }
+    let view = null;
+    if (T.chart) {
+      // a live refresh must not yank the view back to fit: keep wherever the user is looking
+      if (keepView) { try { view = T.chart.timeScale().getVisibleLogicalRange(); } catch (e) {} }
+      try { T.chart.remove(); } catch (e) {} T.chart = null;
+    }
     if (T.resize) { window.removeEventListener("resize", T.resize); }
     const intraday = /m$|h$/.test(c.interval);
     const bars = c.bars.map(b => ({ ...b, time: Math.floor(b.t / 1000) }));
@@ -144,6 +162,7 @@
       updatePL(price);
     });
     chart.timeScale().fitContent();
+    if (view) { try { chart.timeScale().setVisibleLogicalRange(view); } catch (e) {} }
     T.resize = () => { if (T.chart && host) T.chart.applyOptions({ width: host.clientWidth, height: host.clientHeight }); };
     window.addEventListener("resize", T.resize);
     T.lastPrice = c.price; updatePL(c.price);
