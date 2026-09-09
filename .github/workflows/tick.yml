@@ -67,6 +67,9 @@ jobs:
           sys.exit(0 if (is_trading_day(n.date()) and time(9,30) <= n.time() < close_time(n.date())) else 1)
           "; then
             gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
+            # A decision must not depend on cron either. The watchdog already knows when one is
+            # overdue and dispatches it, so the tick chain carries the whole schedule on its back.
+            python -m agent.watchdog || echo "watchdog check failed, continuing"
           else
             echo "market closed; chain ends"
           fi
