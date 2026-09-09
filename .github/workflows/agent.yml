@@ -42,5 +42,11 @@ jobs:
           git add -A
           if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           git commit -m "agent check $(date -u +%FT%H:%MZ)"
-          git pull --rebase --autostash || true
-          git push
+          # GitHub occasionally rejects a push with a server-side "fatal error in commit_refs",
+          # which on 2026-09-08 threw away a whole check's work. Retry before giving up.
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash || true
+            if git push; then echo "pushed on attempt $i"; exit 0; fi
+            echo "push attempt $i failed, retrying"; sleep $((i * 5))
+          done
+          echo "could not push after 5 attempts"; exit 1

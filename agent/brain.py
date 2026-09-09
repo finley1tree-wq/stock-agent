@@ -64,6 +64,11 @@ Rules of thumb:
 - Tag each order with the signals behind it, from: congress, insider, followed_person, news, momentum, track_record,
   etf_default, risk_management. The learning loop ranks these by realised return and shows you the ranking - lean into
   what has been working, cut back on what hasn't, but don't overreact to 1-2 trades.
+- Every quote carries "pct_of_day_range": 0 means the price is at today's low, 100 at today's high.
+  Buying at market above 60 is paying for a move that already happened, and the guardrails will turn
+  such an order into a resting limit lower down rather than filling it. So when a name you want is
+  high in its range, ASK FOR THE LEVEL YOU WANT with a buy_limit trigger instead of a market order.
+  Your first day averaged the 76th percentile on entry and six of seven positions closed red.
 - Prefer broad ETFs when unsure. Don't chase tickers that already ran up a lot this month. Keep no single position
   dominating the portfolio. Respect the guardrails given.
 - If "friday_cleanup" is true you MUST deploy the entire remaining budget now (still split sensibly).

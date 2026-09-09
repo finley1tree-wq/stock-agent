@@ -76,12 +76,14 @@ def _clean_signals(o: dict) -> list[str]:
         raw = [raw]
     return [s for s in raw if isinstance(s, str) and s in SIGNALS] or ["unspecified"]
 
-def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: dict, g: dict, cleanup: bool) -> tuple[list[dict], list[str]]:
-    """Buys. Returns (orders, dropped_reasons).
+def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: dict, g: dict, cleanup: bool,
+                     px: dict | None = None, chase_check: bool = True) -> tuple[list[dict], list[str], list[dict]]:
+    """Buys. Returns (orders_to_fill_now, dropped_reasons, orders_to_leave_as_limits).
     Caps enforced inside one check as well as across the day/week: per-ticker/week (running), per-day (running),
     per-day order count, min order, evidence required, no same-day rebuy, no negative or duplicate tickers."""
     budget_week = g["_weekly_budget"]
     dropped: list[str] = []
+    deferred: list[dict] = []
     day_cap = max(0.0, budget_week * g["max_daily_deploy_pct"] / 100 - st.get("spent_today", 0.0))
     cap_now = remaining_week if cleanup else min(remaining_week, day_cap)
     deploy = min(max(0.0, float(plan.get("deploy_now_usd", plan.get("deploy_today_usd", 0)) or 0)), cap_now)
@@ -89,7 +91,7 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
         deploy = remaining_week
     orders_left = int(g.get("max_orders_per_day", 8)) - int(st.get("orders_today", 0))
     if orders_left <= 0 and not cleanup:
-        return [], ["max_orders_per_day reached"]
+        return [], ["max_orders_per_day reached"], []
     merged: dict[str, dict] = {}
     for o in plan.get("orders", []) or []:
         if not isinstance(o, dict):
@@ -119,8 +121,24 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
         usd = round(usd, 2)
         by_ticker[o["ticker"]] = by_ticker.get(o["ticker"], 0.0) + usd
         left -= usd
-        out.append({"ticker": o["ticker"], "usd": usd, "why": str(o.get("why", "")), "signals": _clean_signals(o), "evidence": str(o.get("evidence", ""))[:200]})
-    return out, dropped
+        row = {"ticker": o["ticker"], "usd": usd, "why": str(o.get("why", "")), "signals": _clean_signals(o), "evidence": str(o.get("evidence", ""))[:200]}
+        # Buying at market in the top of the day's range is paying for a move that already
+        # happened. On day one the average entry sat at the 76th percentile of the range and six
+        # of seven closed red. Rather than refuse the idea, take it at a price worth having: the
+        # order becomes a resting limit lower down, and fills only if the market comes back.
+        q = (px or {}).get(o["ticker"]) or {}
+        pos = q.get("pct_of_day_range")
+        cap = float(g.get("max_entry_range_pct", 100) or 100)
+        if chase_check and pos is not None and pos > cap and not cleanup:
+            lo, hi = q.get("day_low"), q.get("day_high")
+            at = float(g.get("chase_limit_at_pct", 40) or 40)
+            level = lo + (hi - lo) * at / 100 if (lo and hi and hi > lo) else None
+            if level and level > 0:
+                deferred.append({**row, "limit_price": round(level, 4), "was_at_pct": pos})
+                dropped.append(f"{o['ticker']}: {pos:.0f}% up today's range — resting a limit at ${level:.2f} instead of chasing")
+                continue
+        out.append(row)
+    return out, dropped, deferred
 
 def apply_sell_guardrails(plan: dict, positions: dict, st: dict, g: dict, hold_exempt: set | None = None) -> tuple[list[dict], list[str]]:
     """Sells. Must hold it, must be old enough, must have evidence, daily count cap, one sell per ticker per check."""
@@ -298,7 +316,7 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
         plan = {"deploy_now_usd": usd_total,
                 "orders": [{"ticker": t, "usd": f["usd"], "why": f["why"], "evidence": f["evidence"],
                             "signals": (f.get("signals") or []) + ["standing_order"]} for t, f in fmap.items()]}
-        orders, dropped = apply_guardrails(plan, allowed | set(fmap), remaining, st, g, False)
+        orders, dropped, _ = apply_guardrails(plan, allowed | set(fmap), remaining, st, g, False, chase_check=False)
         for d in dropped:
             log_fn(f"  (dropped {d})")
         for o in orders:
@@ -528,7 +546,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         remaining = round(min(g["_weekly_budget"] - st["spent"], broker.cash()), 2)
 
     # --- buys ---
-    orders, dropped = ([], []) if nothing_to_buy else apply_guardrails(plan, allowed, remaining, st, g, cleanup)
+    orders, dropped, deferred = ([], [], []) if nothing_to_buy else apply_guardrails(plan, allowed, remaining, st, g, cleanup, px)
     for d in dropped: log(f"  (dropped {d})")
     for o in orders:
         rec = broker.buy_notional(o["ticker"], o["usd"])
@@ -543,7 +561,15 @@ def main(report_only: bool = False, force: bool = False) -> None:
         log(f"- BUY ${float(rec.get('notional', o['usd'])):.2f} {o['ticker']} [{rec['status']}] {o['signals']} — {o['why']} | evidence: {o['evidence']}")
         did += 1
 
-    placed, trejected = triggers.place(plan.get("triggers"), now, set(broker.positions()), allowed, px)
+    # anything that was too high in the range to buy at market rests as a limit lower down
+    want = list(plan.get("triggers") or [])
+    for d in deferred:
+        want.append({"ticker": d["ticker"], "kind": "buy_limit", "price": d["limit_price"], "usd": d["usd"],
+                     "pct_of_position": 0, "trail_pct": 0, "good_until": "",
+                     "signals": (d.get("signals") or []) + ["patience"],
+                     "evidence": d.get("evidence") or f"was {d['was_at_pct']:.0f}% up the day's range",
+                     "why": f"wanted it, but not at the high — resting at ${d['limit_price']:.2f}. {d.get('why','')}"[:240]})
+    placed, trejected = triggers.place(want, now, set(broker.positions()), allowed, px)
     auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, g.get("auto_bracket") or {})
     if stale:
         log(f"  (re-pinned {stale} order(s) to the new average cost)")
