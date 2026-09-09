@@ -1,6 +1,6 @@
 {
  "asOf": "2026-09-09T13:26-04:00",
- "note": "tick: watching",
+ "note": "Broad market is red today (oil spike, yields at 2023 high per Reuters) and most positions are fresh (days_held=1) with full bracket protection (stops/take-profits/buy_limits) already working on AMAT, CCJ, SPY, NLR, AMD, INTC, GOOGN. No new compelling evidence justifies fresh buys at current prices -",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -35,7 +35,7 @@
   "weekly_deposit": 400
  },
  "guardrails": {
-  "max_per_ticker_pct": 40,
+  "max_per_ticker_pct": 100,
   "min_order_usd": 5,
   "max_entry_range_pct": 60,
   "chase_limit_at_pct": 40,
@@ -43,6 +43,8 @@
   "max_orders_per_day": 24,
   "friday_cleanup_after_et": "15:30",
   "only_buy": false,
+  "max_hold_days": 2,
+  "time_stop_min_gain_pct": 1.0,
   "min_hold_days": 0,
   "max_sells_per_day": 12,
   "allow_politician_tickers": true,
@@ -93,6 +95,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "d7502cdc",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 521.9915,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 522.97,
+   "pct_away": -0.19,
+   "good_until": "2026-09-14",
+   "why": "close 50% at +2.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "22cbfcde",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -100,8 +119,8 @@
    "usd": 20.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 763.16,
-   "pct_away": -1.07,
+   "last": 763.03,
+   "pct_away": -1.05,
    "good_until": "2026-09-12",
    "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
    "signals": [
@@ -117,10 +136,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 763.16,
-   "pct_away": -1.35,
+   "last": 763.03,
+   "pct_away": -1.34,
    "good_until": "2026-09-14",
    "why": "close it all at -2.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f6ce1c0e",
+   "ticker": "GOOGN",
+   "kind": "buy_limit",
+   "price": 46.5018,
+   "usd": 25.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 47.27,
+   "pct_away": -1.63,
+   "good_until": "2026-09-14",
+   "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -134,8 +170,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 105.92,
-   "pct_away": 1.82,
+   "last": 105.95,
+   "pct_away": 1.79,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -151,8 +187,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 763.16,
-   "pct_away": -2.36,
+   "last": 763.03,
+   "pct_away": -2.34,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -185,8 +221,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 467.16,
-   "pct_away": 2.57,
+   "last": 467.17,
+   "pct_away": 2.56,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
    "signals": [
@@ -236,7 +272,7 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 467.16,
+   "last": 467.17,
    "pct_away": -2.94,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
@@ -270,10 +306,27 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 763.16,
-   "pct_away": 3.18,
+   "last": 763.03,
+   "pct_away": 3.19,
    "good_until": "2026-09-14",
    "why": "close 50% at +2.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "73631f34",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 102.0634,
+   "usd": 25.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 105.95,
+   "pct_away": -3.67,
+   "good_until": "2026-09-14",
+   "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -296,6 +349,23 @@
    ]
   },
   {
+   "id": "6dab52c7",
+   "ticker": "GOOGN",
+   "kind": "take_profit",
+   "price": 49.1385,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 47.27,
+   "pct_away": 3.95,
+   "good_until": "2026-09-14",
+   "why": "close 50% at +2.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "5df75c65",
    "ticker": "AMAT",
    "kind": "stop_loss",
@@ -303,7 +373,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 467.16,
+   "last": 467.17,
    "pct_away": -4.32,
    "good_until": "2026-09-12",
    "why": "Protect gains on today's strong pop in case of pullback",
@@ -351,8 +421,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 523.13,
-   "pct_away": -5.57,
+   "last": 522.97,
+   "pct_away": -5.54,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -368,8 +438,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 523.13,
-   "pct_away": -7.36,
+   "last": 522.97,
+   "pct_away": -7.33,
    "good_until": "2026-09-12",
    "why": "Lock in protection on the biggest one-day mover in the book",
    "signals": [
@@ -385,8 +455,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 105.92,
-   "pct_away": -7.47,
+   "last": 105.95,
+   "pct_away": -7.5,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
@@ -395,7 +465,169 @@
    ]
   }
  ],
- "next_check_minutes": null,
+ "next_check_minutes": 60,
+ "allowed": [
+  "AEP",
+  "ALKS",
+  "AMAT",
+  "AMD",
+  "AVGO",
+  "BE",
+  "CCJ",
+  "CRWD",
+  "DGICA",
+  "DIA",
+  "EPAC",
+  "FITB",
+  "GLD",
+  "INTC",
+  "LMT",
+  "NEM",
+  "NLR",
+  "NOC",
+  "O",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "PRAX",
+  "RTX",
+  "SAIL",
+  "SKWD",
+  "SPY",
+  "SXI",
+  "TPL",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "insiders": "ok",
+  "excluded_instruments": [
+   "BWFG excluded: too thinly traded (78,359/day) \u2014 Bankwell Financial Group, Inc.",
+   "CDR excluded: no security information",
+   "CYBN excluded: no security information",
+   "GBAB excluded: too thinly traded (89,879/day) \u2014 Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr",
+   "GF excluded: too thinly traded (27,217/day) \u2014 The New Germany Fund, Inc.",
+   "GOOGN excluded: not ordinary shares (depositary) \u2014 Alphabet Inc. Depositary Shares representing a 1/20th Intere",
+   "MDRR excluded: too thinly traded (3,958/day) \u2014 Medalist Diversified, Inc.",
+   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust"
+  ]
+ },
+ "learning": {
+  "horizon": "1d",
+  "decisions_recorded": 11,
+  "decisions_graded": 9,
+  "decisions_with_buys_graded": 2,
+  "independent_days_graded": 1,
+  "avg_regret_pct": -0.97,
+  "chosen_avg_pct": 0.02,
+  "skipped_avg_pct": -0.95,
+  "idle_universe_avg_pct": -1.16,
+  "picking_beats_random": true,
+  "avg_fraction_of_universe_bought": 0.03,
+  "checks_that_bought_everything": 0,
+  "by_signal_chosen": {
+   "congress": {
+    "n": 4,
+    "avg_pct": 0.54
+   },
+   "etf_default": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "momentum": {
+    "n": 5,
+    "avg_pct": 0.4
+   },
+   "news": {
+    "n": 6,
+    "avg_pct": 0.05
+   },
+   "risk_management": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "track_record": {
+    "n": 1,
+    "avg_pct": -1.44
+   }
+  },
+  "biggest_misses": [
+   {
+    "ticker": "AMD",
+    "fwd_pct": 3.27,
+    "sector": "off-watchlist",
+    "m1m_then": 4.9,
+    "congress": 1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "INTC",
+    "fwd_pct": 2.23,
+    "sector": "off-watchlist",
+    "m1m_then": 2.2,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "NEM",
+    "fwd_pct": 1.03,
+    "sector": "gold",
+    "m1m_then": 13.5,
+    "congress": 0,
+    "insider": 0
+   },
+   {
+    "ticker": "GLD",
+    "fwd_pct": 0.93,
+    "sector": "gold",
+    "m1m_then": 0.5,
+    "congress": 0,
+    "insider": 0
+   },
+   {
+    "ticker": "TPL",
+    "fwd_pct": 0.51,
+    "sector": "off-watchlist",
+    "m1m_then": 10.6,
+    "congress": 0,
+    "insider": 1.0
+   }
+  ],
+  "biggest_avoided": [
+   {
+    "ticker": "SAIL",
+    "fwd_pct": -4.35
+   },
+   {
+    "ticker": "BE",
+    "fwd_pct": -3.49
+   },
+   {
+    "ticker": "AVGO",
+    "fwd_pct": -2.83
+   }
+  ],
+  "sectors_most_often_missed": {
+   "off-watchlist": {
+    "n": 3
+   },
+   "gold": {
+    "n": 2
+   },
+   "defense": {
+    "n": 2
+   }
+  },
+  "idle_checks": 8,
+  "blocked_checks": 0,
+  "idle_share": 0.73,
+  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
+  "evidence_strength": "anecdote",
+  "how_many_days_before_this_means_anything": 30,
+  "warning": "only 1 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+ },
  "congress_trades": [
   {
    "who": "David J. Taylor",
@@ -1142,6 +1374,66 @@
  },
  "insider_trades": [
   {
+   "who": "Bacchus Judith L",
+   "role": "officer: Vice President",
+   "ticker": "KMT",
+   "type": "sell",
+   "shares": 9676,
+   "price": 30.293,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "GF",
+   "type": "buy",
+   "shares": 1179,
+   "price": 11.55,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "PDX",
+   "type": "sell",
+   "shares": 10471,
+   "price": 21.94,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10 percent owner",
+   "ticker": "ECAT",
+   "type": "sell",
+   "shares": 167151,
+   "price": 15.29,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-09"
+  },
+  {
+   "who": "Funk Edric C",
+   "role": "director, officer: President & COO",
+   "ticker": "TTC",
+   "type": "sell",
+   "shares": 145,
+   "price": 94.36,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-09"
+  },
+  {
+   "who": "Dixon Kate",
+   "role": "officer: Controller, CAO",
+   "ticker": "AEP",
+   "type": "sell",
+   "shares": 2000,
+   "price": 125,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-09"
+  },
+  {
    "who": "DUKES LAURA ALLISON",
    "role": "officer: Chief Financial Officer",
    "ticker": "IVZ",
@@ -1527,20 +1819,22 @@
   "MDRR": 4.0,
   "DGICA": 2.0,
   "SXI": 2.0,
+  "GF": 1.0,
   "GBAB": 1.0,
   "CYBN": 1.0,
   "TPL": 1.0,
   "CDR": 1.0,
+  "KMT": -1.0,
+  "PDX": -1.0,
+  "ECAT": -1.0,
+  "TTC": -1.0,
+  "AEP": -1.0,
   "IVZ": -1.0,
   "GOLD": -1.0,
   "CFFI": -1.0,
   "NYAX": -1.0,
   "PHVS": -1.0,
-  "HR": -1.0,
-  "MSBI": -1.0,
-  "ONON": -2.0,
-  "AFL": -2.0,
-  "ZIM": -4.0
+  "HR": -1.0
  },
  "headlines": {
   "AEP": [
@@ -1596,6 +1890,11 @@
   ],
   "AMD": [
    {
+    "title": "AMD Rises 8% in a Month: Should You Buy, Sell or Hold the Stock?",
+    "source": "Zacks",
+    "when": "2026-09-09T16:54"
+   },
+   {
     "title": "Wall St slides as oil tops $100, yields hit 2023 high; Apple down before Ternus' first launch event as CEO",
     "source": "Reuters",
     "when": "2026-09-09T16:30"
@@ -1604,31 +1903,31 @@
     "title": "Should You Buy Intel Stock Because The Comeback Is Working?",
     "source": "Trefis",
     "when": "2026-09-09T16:06"
-   },
-   {
-    "title": "Could Marvell Be the Next AI Stock to Deliver 100% Upside?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T16:00"
    }
   ],
   "AVGO": [
    {
-    "title": "Should You Buy Intel Stock Because The Comeback Is Working?",
-    "source": "Trefis",
-    "when": "2026-09-09T16:06"
+    "title": "Broadcom Stock Jumps -- AI Revenue Set to Double Again",
+    "source": "GuruFocus.com",
+    "when": "2026-09-09T17:12"
    },
    {
-    "title": "Could Marvell Be the Next AI Stock to Deliver 100% Upside?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T16:00"
+    "title": "AMD Rises 8% in a Month: Should You Buy, Sell or Hold the Stock?",
+    "source": "Zacks",
+    "when": "2026-09-09T16:54"
    },
    {
-    "title": "Because Broadcom Monetizes Alphabet, Meta, and OpenAI at Scale I Buy Again and Again",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T15:51"
+    "title": "LITE's Laser Growth Accelerates: Can It Challenge AVGO & AAOI?",
+    "source": "Zacks",
+    "when": "2026-09-09T16:42"
    }
   ],
   "BE": [
+   {
+    "title": "Prediction: Bloom Energy Has Limited Upside Despite 223% Year-to-Date Surge",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-09T17:00"
+   },
    {
     "title": "ETFs in Spotlight as Bloom Energy is Set to Join the S&P 500 Index",
     "source": "Zacks",
@@ -1638,11 +1937,6 @@
     "title": "FCEL Q3 Loss Wider Than Expected on Fit Energy Charges",
     "source": "Zacks",
     "when": "2026-09-09T12:43"
-   },
-   {
-    "title": "Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-09T12:13"
    }
   ],
   "CCJ": [
@@ -1669,14 +1963,14 @@
     "when": "2026-09-09T15:13"
    },
    {
+    "title": "Top Chip Analyst: Memory Prices Won\u2019t Ease \u2018For Years\u2019 and Even Apple Can\u2019t Dodge It",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-09T17:10"
+   },
+   {
     "title": "Cloudflare Surges 9% on OpenAI Security Partnership, Zscaler Rises 3%",
     "source": "24/7 Wall St.",
     "when": "2026-09-09T15:28"
-   },
-   {
-    "title": "Zscaler Stock Lags Industry Returns in Six Months: Time to Exit?",
-    "source": "Zacks",
-    "when": "2026-09-09T13:41"
    }
   ],
   "DGICA": [
@@ -1766,36 +2060,36 @@
   ],
   "GOOGN": [
    {
-    "title": "Google Makes Its Single Largest AI Investment in Europe \u2014 Bets $15 Billion on Finland AI Infrastructure",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T16:27"
+    "title": "Jim Cramer on Alphabet (GOOGL): \u201cI Don\u2019t Care Where It Went, I Care Where It\u2019s Going\u201d",
+    "source": "Insider Monkey",
+    "when": "2026-09-09T17:12"
    },
    {
-    "title": "Google and Microsoft Vet Says AGI Hype \u2018Leaves Most of Humanity Out\u2019",
+    "title": "Oracle\u2019s Disruptive Nature is Very Compelling",
     "source": "24/7 Wall St.",
-    "when": "2026-09-09T16:15"
+    "when": "2026-09-09T16:49"
    },
    {
-    "title": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T15:32"
+    "title": "Google Signs 22 Years of Nuclear to Power Finnish Data Centers",
+    "source": "GuruFocus.com",
+    "when": "2026-09-09T16:44"
    }
   ],
   "INTC": [
    {
+    "title": "AMD Rises 8% in a Month: Should You Buy, Sell or Hold the Stock?",
+    "source": "Zacks",
+    "when": "2026-09-09T16:54"
+   },
+   {
+    "title": "Amkor Expands Advanced Packaging: Can Its $12B Arizona Bet Pay Off?",
+    "source": "Zacks",
+    "when": "2026-09-09T16:32"
+   },
+   {
     "title": "Should You Buy Intel Stock Because The Comeback Is Working?",
     "source": "Trefis",
     "when": "2026-09-09T16:06"
-   },
-   {
-    "title": "AMD Rises 3% as CFO Lifts AI Chip Market Forecast Toward $3 Trillion; Intel Ticks Up",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T14:45"
-   },
-   {
-    "title": "NVDA Stock Is Running. Is There Fuel Left?",
-    "source": "Trefis",
-    "when": "2026-09-09T14:05"
    }
   ],
   "LMT": [
@@ -1805,14 +2099,14 @@
     "when": "2026-09-09T12:59"
    },
    {
-    "title": "Lockheed Martin (LMT) Rises As Market Takes a Dip: Key Facts",
-    "source": "Zacks",
-    "when": "2026-09-08T21:50"
+    "title": "Lockheed Poised to Benefit as EU Approves Ukraine\u2019s Purchase of Patriot Missiles",
+    "source": "The Daily Upside",
+    "when": "2026-09-09T04:01"
    },
    {
-    "title": "Lockheed Martin's Missile Segment Could Grow 150% by 2030",
-    "source": "GuruFocus.com",
-    "when": "2026-09-08T20:51"
+    "title": "GE Aerospace Makes $12B Play in Clogged Market for Cast Metal Parts",
+    "source": "The Daily Upside",
+    "when": "2026-09-09T04:01"
    }
   ],
   "NEM": [
@@ -2004,19 +2298,19 @@
   ],
   "SPY": [
    {
+    "title": "Quantum Stocks Fall as Rate-Hike Odds Climb: IonQ Sinks 4%, Rigetti and D-Wave Pull Back",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-09T16:58"
+   },
+   {
+    "title": "SpaceX Sinks 5% as $47.2B Insider Share Unlock Hits the Tape, AST SpaceMobile Drops 4%, Rocket Lab Slips 2%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-09T16:37"
+   },
+   {
     "title": "Comcast Sinks 8%, Charter Drops 6%, T-Mobile Slips 3%: Is a Broadband Repricing Underway?",
     "source": "24/7 Wall St.",
     "when": "2026-09-09T16:31"
-   },
-   {
-    "title": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T15:32"
-   },
-   {
-    "title": "GameStop Rises 4% as Collectibles Sales Jump 57% and a Director Buys $1M",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-09T15:13"
    }
   ],
   "SXI": [
@@ -2072,166 +2366,5 @@
   ]
  },
  "people_news": {},
- "allowed": [
-  "AEP",
-  "ALKS",
-  "AMAT",
-  "AMD",
-  "AVGO",
-  "BE",
-  "CCJ",
-  "CRWD",
-  "DGICA",
-  "DIA",
-  "EPAC",
-  "FITB",
-  "GLD",
-  "INTC",
-  "LMT",
-  "NEM",
-  "NLR",
-  "NOC",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "PRAX",
-  "RTX",
-  "SAIL",
-  "SKWD",
-  "SPY",
-  "SXI",
-  "TPL",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
-  "insiders": "ok",
-  "excluded_instruments": [
-   "BWFG excluded: too thinly traded (78,359/day) \u2014 Bankwell Financial Group, Inc.",
-   "CDR excluded: no security information",
-   "CYBN excluded: no security information",
-   "GBAB excluded: too thinly traded (89,879/day) \u2014 Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr",
-   "GOOGN excluded: not ordinary shares (depositary) \u2014 Alphabet Inc. Depositary Shares representing a 1/20th Intere",
-   "MDRR excluded: too thinly traded (3,958/day) \u2014 Medalist Diversified, Inc.",
-   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust"
-  ]
- },
- "learning": {
-  "horizon": "1d",
-  "decisions_recorded": 10,
-  "decisions_graded": 9,
-  "decisions_with_buys_graded": 2,
-  "independent_days_graded": 1,
-  "avg_regret_pct": -0.97,
-  "chosen_avg_pct": 0.02,
-  "skipped_avg_pct": -0.95,
-  "idle_universe_avg_pct": -1.16,
-  "picking_beats_random": true,
-  "avg_fraction_of_universe_bought": 0.03,
-  "checks_that_bought_everything": 0,
-  "by_signal_chosen": {
-   "congress": {
-    "n": 4,
-    "avg_pct": 0.54
-   },
-   "etf_default": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "momentum": {
-    "n": 5,
-    "avg_pct": 0.4
-   },
-   "news": {
-    "n": 6,
-    "avg_pct": 0.05
-   },
-   "risk_management": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "track_record": {
-    "n": 1,
-    "avg_pct": -1.44
-   }
-  },
-  "biggest_misses": [
-   {
-    "ticker": "AMD",
-    "fwd_pct": 3.27,
-    "sector": "off-watchlist",
-    "m1m_then": 4.9,
-    "congress": 1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "INTC",
-    "fwd_pct": 2.23,
-    "sector": "off-watchlist",
-    "m1m_then": 2.2,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "NEM",
-    "fwd_pct": 1.03,
-    "sector": "gold",
-    "m1m_then": 13.5,
-    "congress": 0,
-    "insider": 0
-   },
-   {
-    "ticker": "GLD",
-    "fwd_pct": 0.93,
-    "sector": "gold",
-    "m1m_then": 0.5,
-    "congress": 0,
-    "insider": 0
-   },
-   {
-    "ticker": "TPL",
-    "fwd_pct": 0.51,
-    "sector": "off-watchlist",
-    "m1m_then": 10.6,
-    "congress": 0,
-    "insider": 1.0
-   }
-  ],
-  "biggest_avoided": [
-   {
-    "ticker": "SAIL",
-    "fwd_pct": -4.35
-   },
-   {
-    "ticker": "BE",
-    "fwd_pct": -3.49
-   },
-   {
-    "ticker": "AVGO",
-    "fwd_pct": -2.83
-   }
-  ],
-  "sectors_most_often_missed": {
-   "off-watchlist": {
-    "n": 3
-   },
-   "gold": {
-    "n": 2
-   },
-   "defense": {
-    "n": 2
-   }
-  },
-  "idle_checks": 7,
-  "blocked_checks": 0,
-  "idle_share": 0.7,
-  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
-  "evidence_strength": "anecdote",
-  "how_many_days_before_this_means_anything": 30,
-  "warning": "only 1 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
- },
- "signalsAsOf": "2026-09-09T12:45-04:00"
+ "signalsAsOf": "2026-09-09T13:26-04:00"
 }
