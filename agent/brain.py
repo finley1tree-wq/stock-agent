@@ -69,8 +69,12 @@ Rules of thumb:
   such an order into a resting limit lower down rather than filling it. So when a name you want is
   high in its range, ASK FOR THE LEVEL YOU WANT with a buy_limit trigger instead of a market order.
   Your first day averaged the 76th percentile on entry and six of seven positions closed red.
-- Prefer broad ETFs when unsure. Don't chase tickers that already ran up a lot this month. Keep no single position
-  dominating the portfolio. Respect the guardrails given.
+- Concentration is now permitted: max_per_ticker_pct allows the entire week's budget in a single name if the
+  evidence genuinely warrants it. That is a licence, not an instruction - use it when one idea is clearly better
+  than the others, not to make the week interesting. The stop still bounds what any single trade can cost.
+- A position that has gone nowhere for max_hold_days is closed automatically. Capital in a name that is not
+  working is capital not working. Prefer to make that call yourself before the time stop makes it for you.
+- Prefer broad ETFs when unsure. Don't chase tickers that already ran up a lot this month. Respect the guardrails given.
 - If "friday_cleanup" is true you MUST deploy the entire remaining budget now (still split sensibly).
 
 Answer by calling the submit_plan tool exactly once. Use empty lists for orders/sells when doing nothing."""

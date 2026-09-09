@@ -16,7 +16,10 @@ run_every_minutes: 30
 
 # Guardrails — the brain can't override these.
 guardrails:
-  max_per_ticker_pct: 40         # no single ticker gets more than 40% of the week's budget (tracked across the week)
+  max_per_ticker_pct: 100        # Finley's call: it may put the whole week's budget into ONE name.
+                                 # The per-trade loss is still bounded by the stop (auto_bracket below),
+                                 # so the risk this adds is concentration and overnight gap risk, not
+                                 # an unbounded loss.
   min_order_usd: 5               # skip crumbs
   max_entry_range_pct: 60        # a market buy above this point in TODAY's range is chasing; it becomes a
                                  # resting limit instead. Day one averaged the 76th percentile and 6 of 7
@@ -29,6 +32,9 @@ guardrails:
                                  # below are the real risk control, this only stops runaway churn
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
   only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
+  max_hold_days: 2               # a position that has gone nowhere for this many days is closed regardless.
+                                 # Capital sitting in a name that is not working is capital not working.
+  time_stop_min_gain_pct: 1.0    # ...unless it is at least this far ahead, in which case let it run
   min_hold_days: 0               # 0 = it may exit the same day it bought, so a broken thesis or a hit target
                                  # is acted on now rather than two days later. Churn is held back instead by
                                  # max_orders_per_day / max_sells_per_day, the no-same-day-rebuy rule, and

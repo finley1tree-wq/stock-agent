@@ -238,6 +238,47 @@ def _at_price(broker, sym: str, price: float, fn):
         else:
             px_map[sym] = saved
 
+def time_stops(now, broker, positions, st, g, log_fn):
+    """Close anything that has sat still too long.
+
+    A stop caps what a bad idea costs and a target banks a good one, but neither says anything
+    about an idea that simply goes nowhere. Capital parked in a name that is not working is
+    capital not working, so a position older than max_hold_days is closed unless it is genuinely
+    ahead. This is the rule that stops the book silently becoming a buy-and-hold portfolio.
+    """
+    days = int(g.get("max_hold_days", 0) or 0)
+    if not days or not hasattr(broker, "sell_qty"):
+        return [], 0
+    keep = float(g.get("time_stop_min_gain_pct", 0) or 0)
+    stale = []
+    for t, pos in (positions or {}).items():
+        if int(pos.get("days_held", 0)) < days:
+            continue
+        pl = float(pos.get("unrealized_plpc") or 0)
+        if pl >= keep:
+            log_fn(f"  (holding {t}: {pos['days_held']}d old but {pl:+.2f}%, letting it run)")
+            continue
+        stale.append({"ticker": t, "pct_of_position": 100, "why": f"held {pos['days_held']}d and only {pl:+.2f}%: the idea has not worked",
+                      "evidence": f"opened {pos.get('days_held')}d ago, {pl:+.2f}% unrealised", "signals": ["time_stop", "risk_management"]})
+    if not stale:
+        return [], 0
+    sells, dropped = apply_sell_guardrails({"sells": stale}, positions, st, g, hold_exempt={s["ticker"] for s in stale})
+    for d in dropped:
+        log_fn(f"  (dropped {d})")
+    out, did = [], 0
+    for sl in sells:
+        rec = broker.sell_qty(sl["ticker"], sl["qty"])
+        if str(rec.get("status", "")).startswith("rejected"):
+            log_fn(f"- SELL {sl['ticker']} [{rec['status']}]"); continue
+        full = {**rec, "date": str(now.date()), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()),
+                "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": "time_stop"}
+        state.record_sell(st, sl["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
+        learn.record_sell(full, signals=sl["signals"], evidence=sl["evidence"], hour_et=now.hour)
+        triggers.cancel_position_orders(sl["ticker"], now, "time stop closed the position")
+        out.append(sl); did += 1
+        log_fn(f"- SELL 100% {sl['ticker']} [time stop] -> ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%) — {sl['why']}")
+    return out, did
+
 def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, remaining, sector_of, cpressure, log_fn):
     """Fire any standing order whose level the market reached since the last check.
 
@@ -472,6 +513,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
     #     reached them. The brain then decides against the resulting portfolio. ---
     tbuys, tsells, tdid = fill_standing_orders(now, today, broker, positions, px, st, g,
                                                allowed, remaining, sector_of, cpressure, log)
+    stale_sells, stale_n = time_stops(now, broker, broker.positions(), st, g, log)
+    tsells += stale_sells; tdid += stale_n
     if tdid:
         positions = broker.positions()
         remaining = round(g["_weekly_budget"] - st["spent"], 2)
