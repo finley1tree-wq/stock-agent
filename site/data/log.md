@@ -259,3 +259,17 @@ portfolio: equity $400.45 (+0.11% on $400.00 in) · cash $183.44 · realised +0.
 Decision: nothing at this check. 22 standing order(s) working.
 - SELL 50% AMD [take_profit @ $521.99] -> $6.41 (+2.50%) — close 50% at +2.5% over the average cost
 ## 2026-09-09 14:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-09 14:36 ET (Wednesday) — week 2026-W37 — budget left $189.84 (today $0.00, 1 buys, 3 sells) — SIM (pretend money) via sim
+  (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
+  (CDR excluded: no security information)
+  (CYBN excluded: no security information)
+  (GBAB excluded: too thinly traded (89,879/day) — Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: Book is fully bracketed with stops, take-profits, and buy-limits on every position; market is broadly red today (oil spike, SPY/DIA down) and only 2 checks remain. No new evidence justifies chasing at these levels - AMAT/CCJ/NLR/INTC are all mid-range in day, not oversold enough for their limit adds to fill, and no fresh signal (congress/insider/news) points to a new name worth rotating into. Consistent with recent lessons: on red macro days with full brackets, standing orders should do the work rather than forcing new entries near close.
+lesson: With 2 checks left and every position already bracketed (stops/take-profits/buy-limits), holding steady into the close on a red macro day is the disciplined move rather than forcing late-day entries.
+~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
+portfolio: equity $400.38 (+0.10% on $400.00 in) · cash $189.84 · realised +1.09
+Decision: nothing at this check. 22 standing order(s) working.
