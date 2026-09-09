@@ -52,9 +52,14 @@ guardrails:
   # while waiting for the next check. The brain may place its own better levels; these fill the gaps.
   auto_bracket:
     enabled: true
-    take_profit_pct: 2.5         # sell part of the position this far above the AVERAGE COST
+    take_profit_pct: 5.0         # sell part of the position this far above the AVERAGE COST, i.e. TWICE the
+                                 # stop below. The old 2.5%
+                                 # was smaller than the average watchlist stock's WHOLE DAY range (2.59%),
+                                 # so it clipped winners before they could become winners.
     take_profit_size_pct: 50     # how much of it to sell at the target
-    stop_loss_pct: 2.0           # sell all of it this far below the average cost
+    stop_loss_pct: 2.5           # sell all of it this far below the average cost. Once the target above
+                                 # has banked a partial win, this moves UP to the entry price, so the
+                                 # remainder of a winning trade can no longer lose money.
     # Averaging in: buy again lower, and let the exit follow the blended average so the whole
     # position is closed as one once it turns green. This is the pattern in the trading videos.
     # The two limits below are what those videos do not have: a cap on how many times it may add,

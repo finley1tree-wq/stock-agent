@@ -319,6 +319,7 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
     add_usd = float(scale.get("add_usd", 0) or 0)
 
     live = working(now)
+    done = all_orders()
     want, cancelled = [], 0
     for t, pos in (positions or {}).items():
         entry = float(pos.get("avg_cost") or 0)
@@ -329,7 +330,14 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
         if tp > 0:
             targets["take_profit"] = px_round(entry * (1 + tp / 100))
         if sl > 0:
-            targets["stop_loss"] = px_round(entry * (1 - sl / 100))
+            # Once part of the position has been sold into a target, the rest rides for free: the
+            # stop moves up to the entry. Without this the arithmetic is upside down - banking
+            # +2.5% on HALF while stopping out ALL of it means risking 2 to make 1.25, which needs
+            # a 63% win rate just to break even. Break-even stops turn every partial win into a
+            # position that can no longer lose money.
+            banked = any(o["ticker"] == t and o["kind"] == "take_profit" and o.get("status") == "filled"
+                         and _is_auto(o) for o in done)
+            targets["stop_loss"] = px_round(entry if banked else entry * (1 - sl / 100))
         if scale_on and add_drop > 0 and add_usd > 0 and int(pos.get("tranches", 1)) < max_tranches:
             targets["buy_limit"] = px_round(entry * (1 - add_drop / 100))
         # a hand-placed protective order still counts, so we never double up on stops
