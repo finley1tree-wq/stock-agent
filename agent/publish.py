@@ -63,7 +63,11 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "", working_orde
     elif prev_path.exists():
         try:
             old = json.loads(prev_path.read_text())
-            for k in ("congress_trades", "congress_pressure", "insider_trades", "insider_pressure", "headlines", "people_news", "allowed", "feed_status", "learning", "signalsAsOf", "working_orders"):
+            # Anything a decision publishes must be listed here, or the next tick - which publishes
+            # with signals=None and far more often - silently drops it from the site.
+            for k in ("congress_trades", "congress_pressure", "insider_trades", "insider_pressure",
+                      "headlines", "people_news", "allowed", "feed_status", "learning", "signalsAsOf",
+                      "working_orders", "disclosure_leaderboard", "disclosure_leaderboard_meta"):
                 if k in old: meta.setdefault(k, old[k])
         except Exception:
             pass
