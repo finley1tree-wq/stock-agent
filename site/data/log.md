@@ -311,3 +311,6 @@ lesson: With zero checks left and a fully bracketed fresh book on a red macro da
 ~ WORKING take_profit 50% GOOGN @ $50.34 until 2026-09-14 — close 50% at +5.0% over the average cost
 portfolio: equity $1000.01 (+0.00% on $1000.00 in) · cash $793.05 · realised +1.17
 Decision: nothing at this check. 22 standing order(s) working.
+
+## 2026-09-09 18:00 ET (Wednesday) — week 2026-W37 — budget left $793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
