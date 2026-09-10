@@ -1,7 +1,3 @@
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
@@ -398,3 +394,7 @@ lesson: On a red/choppy macro day with a small fully-bracketed book, continue ho
 ~ WORKING buy_limit $500.00 GOOGN @ $46.50 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $24995.18 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 20 standing order(s) working.
+- BUY $500.00 CCJ [buy_limit @ $99.11] — average in another $500 if it falls 3.0% below the average cost
+- BUY $500.00 NLR [buy_limit @ $120.87] — average in another $500 if it falls 3.0% below the average cost
+- BUY $500.00 INTC [buy_limit @ $102.06] — average in another $500 if it falls 3.0% below the average cost
+## 2026-09-10 14:06 ET — tick — 0 sell(s), 3 buy(s) from standing orders

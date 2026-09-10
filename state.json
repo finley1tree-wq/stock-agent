@@ -1,13 +1,13 @@
 {
   "week": "2026-W37",
-  "spent": 206.95,
+  "spent": 1706.95,
   "by_ticker": {
     "AMAT": 50.0,
-    "CCJ": 55.0,
+    "CCJ": 555.0,
     "SPY": 30.0,
-    "NLR": 20.0,
+    "NLR": 520.0,
     "AMD": 1.95,
-    "INTC": 30.0,
+    "INTC": 530.0,
     "GOOGN": 20.0
   },
   "orders": [
@@ -228,15 +228,66 @@
       ],
       "evidence": "average cost $509.26",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.044665,
+      "price": 99.11,
+      "date": "2026-09-10",
+      "time_et": "14:06",
+      "ts": 1789063500,
+      "why": "average in another $500 if it falls 3.0% below the average cost",
+      "signals": [
+        "risk_management"
+      ],
+      "evidence": "average cost $102.18",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "NLR",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.136618,
+      "price": 120.87,
+      "date": "2026-09-10",
+      "time_et": "14:06",
+      "ts": 1789063590,
+      "why": "average in another $500 if it falls 3.0% below the average cost",
+      "signals": [
+        "risk_management"
+      ],
+      "evidence": "average cost $124.61",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "INTC",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.898916,
+      "price": 102.06,
+      "date": "2026-09-10",
+      "time_et": "14:06",
+      "ts": 1789063500,
+      "why": "average in another $500 if it falls 3.0% below the average cost",
+      "signals": [
+        "risk_management"
+      ],
+      "evidence": "average cost $105.22",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-10",
-  "spent_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 1500.0,
+  "orders_today": 3,
   "sells_today": 0,
   "sold_today": [],
-  "last_check_ts": 1789063463,
-  "book_fp": "[[\"6f6b7f43\", 118.0], [\"94f4f2d1\", 752.1139], [\"13c3e9d0\", 97.0], [\"5df75c65\", 447.0], [\"68402e49\", 98.0168], [\"de716fe0\", 45.5], [\"5a8628c1\", 484.6468], [\"4eb5979a\", 800.8331], [\"c7203deb\", 51.9842], [\"6f1e3a12\", 565.5705], [\"9dc70576\", 149.851], [\"1d287ad9\", 127.8435], [\"4771f09b\", 133.0738]]",
-  "last_publish_ts": 1789063085,
+  "last_check_ts": 1789063774,
+  "book_fp": "[[\"6f6b7f43\", 118.0], [\"94f4f2d1\", 752.1139], [\"ea10ddac\", 453.4362], [\"13c3e9d0\", 97.0], [\"b8e8ffbc\", 117.3797], [\"08778de2\", 745.154], [\"dbb6ad40\", 99.1728], [\"7ae46a2e\", 46.5018], [\"5df75c65\", 447.0], [\"52e180c1\", 493.9822], [\"68402e49\", 98.0168], [\"de716fe0\", 45.5], [\"5a8628c1\", 484.6468], [\"4eb5979a\", 800.8331], [\"c7203deb\", 51.9842], [\"8d1d82a3\", 145.5581], [\"6f1e3a12\", 565.5705], [\"231c7c60\", 124.5031], [\"d10d72ff\", 129.3418]]",
+  "last_publish_ts": 1789063774,
   "last_decision_ts": 1789063463
 }
