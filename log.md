@@ -404,3 +404,6 @@ Decision: nothing at this check. 7 standing order(s) working.
   (trigger CCJ take_profit cancelled (position gone))
   (trigger INTC take_profit cancelled (position gone))
   (trigger NLR take_profit cancelled (position gone))
+
+## 2026-09-10 16:14 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
