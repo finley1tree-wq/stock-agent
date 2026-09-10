@@ -1083,7 +1083,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 127.8435,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 12:25",
    "created_ts": 1789057535,
    "why": "close 33% at +25.1% over the average cost",
@@ -1093,7 +1093,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 14:04",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9dc70576",
@@ -1147,7 +1149,143 @@
    ],
    "good_until": "2026-09-15",
    "pct_of_position": 33.0
+  },
+  {
+   "id": "ea10ddac",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 453.4362,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $467.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 500.0
+  },
+  {
+   "id": "8bcbf18e",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 127.9232,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "close 33% at +25.2% over the average cost",
+   "evidence": "average cost $102.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "pct_of_position": 33.0
+  },
+  {
+   "id": "d9c77131",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 99.1146,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $102.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 500.0
+  },
+  {
+   "id": "08778de2",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 745.154,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $768.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 500.0
+  },
+  {
+   "id": "974dd5db",
+   "ticker": "NLR",
+   "kind": "buy_limit",
+   "price": 120.8717,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $124.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 500.0
+  },
+  {
+   "id": "52e180c1",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 493.9822,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $509.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 500.0
+  },
+  {
+   "id": "1a0b7421",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 102.0634,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $105.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 500.0
+  },
+  {
+   "id": "7ae46a2e",
+   "ticker": "GOOGN",
+   "kind": "buy_limit",
+   "price": 46.5018,
+   "status": "working",
+   "created": "2026-09-10 14:04",
+   "created_ts": 1789063463,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $47.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-10 13:50"
+ "updated": "2026-09-10 14:04"
 }

@@ -1,25 +1,3 @@
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
@@ -398,3 +376,25 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
+
+## 2026-09-10 14:04 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
+  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: Book is small, fully bracketed with stops/take-profits already in place across all 7 positions. Market is broadly red (oil >$100, most names in bottom third of day range, CCJ/NLR/INTC/AMAT all down 2-5% today). No new concrete evidence (fresh filing, headline, or strong momentum signal) justifies a new position right now, and the track record shows every past buy today is red. Holding steady and letting standing orders manage risk remains the validated approach per repeated past-lesson confirmations.
+lesson: On a red/choppy macro day with a small fully-bracketed book, continue holding rather than forcing entries; only deploy fresh budget on genuinely new, concrete evidence like a fresh filing or a clear breakout, not just available cash.
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING buy_limit $500.00 AMAT @ $453.44 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 33% CCJ @ $127.92 until 2026-09-15 — close 33% at +25.2% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $99.11 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 SPY @ $745.15 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 NLR @ $120.87 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 AMD @ $493.98 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 INTC @ $102.06 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 GOOGN @ $46.50 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $24995.18 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
+Decision: nothing at this check. 20 standing order(s) working.
