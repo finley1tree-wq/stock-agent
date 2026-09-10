@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-10T11:42-04:00",
+ "asOf": "2026-09-10T11:45-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -115,23 +115,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "cdc0443e",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 99.1146,
-   "usd": 25.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 98.92,
-   "pct_away": 0.2,
-   "good_until": "2026-09-15",
-   "why": "average in another $25 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "73631f34",
    "ticker": "INTC",
    "kind": "buy_limit",
@@ -139,9 +122,26 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.67,
-   "pct_away": 0.39,
+   "last": 101.89,
+   "pct_away": 0.17,
    "good_until": "2026-09-14",
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cdc0443e",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 99.1146,
+   "usd": 25.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 98.86,
+   "pct_away": 0.26,
+   "good_until": "2026-09-15",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
@@ -156,30 +156,13 @@
    "usd": 20.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 759.32,
-   "pct_away": -0.57,
+   "last": 759.26,
+   "pct_away": -0.56,
    "good_until": "2026-09-12",
    "why": "Add to core index on a further dip rather than chasing at current price, keeps diversification without adding risk now",
    "signals": [
     "etf_default",
     "risk_management"
-   ]
-  },
-  {
-   "id": "94f4f2d1",
-   "ticker": "SPY",
-   "kind": "stop_loss",
-   "price": 752.1139,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 759.32,
-   "pct_away": -0.95,
-   "good_until": "2026-09-15",
-   "why": "close it all at -2.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -190,8 +173,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 119.7,
-   "pct_away": 0.98,
+   "last": 119.94,
+   "pct_away": 0.78,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -200,17 +183,17 @@
    ]
   },
   {
-   "id": "77d4e58a",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 453.4362,
-   "usd": 25.0,
-   "pct_of_position": null,
+   "id": "94f4f2d1",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 752.1139,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 459.22,
-   "pct_away": -1.26,
-   "good_until": "2026-09-14",
-   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "last": 759.26,
+   "pct_away": -0.94,
+   "good_until": "2026-09-15",
+   "why": "close it all at -2.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -234,6 +217,23 @@
    ]
   },
   {
+   "id": "77d4e58a",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 453.4362,
+   "usd": 25.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 459.67,
+   "pct_away": -1.36,
+   "good_until": "2026-09-14",
+   "why": "average in another $25 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "6f6b7f43",
    "ticker": "NLR",
    "kind": "stop_loss",
@@ -241,8 +241,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 119.7,
-   "pct_away": -1.42,
+   "last": 119.94,
+   "pct_away": -1.62,
    "good_until": "2026-09-12",
    "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
    "signals": [
@@ -257,8 +257,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 759.32,
-   "pct_away": -1.87,
+   "last": 759.26,
+   "pct_away": -1.86,
    "good_until": "2026-09-15",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -274,8 +274,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 98.92,
-   "pct_away": -1.94,
+   "last": 98.86,
+   "pct_away": -1.88,
    "good_until": "2026-09-12",
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
    "signals": [
@@ -290,8 +290,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 459.22,
-   "pct_away": -2.66,
+   "last": 459.67,
+   "pct_away": -2.76,
    "good_until": "2026-09-12",
    "why": "Protect gains on today's strong pop in case of pullback",
    "signals": [
@@ -306,8 +306,8 @@
    "usd": 25.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 507.97,
-   "pct_away": -2.75,
+   "last": 508.2,
+   "pct_away": -2.8,
    "good_until": "2026-09-14",
    "why": "average in another $25 if it falls 3.0% below the average cost",
    "signals": [
@@ -339,8 +339,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 101.67,
-   "pct_away": -3.59,
+   "last": 101.89,
+   "pct_away": -3.8,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
@@ -356,8 +356,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 507.97,
-   "pct_away": -4.59,
+   "last": 508.2,
+   "pct_away": -4.63,
    "good_until": "2026-09-12",
    "why": "Lock in protection on the biggest one-day mover in the book",
    "signals": [
@@ -373,8 +373,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 759.32,
-   "pct_away": 5.47,
+   "last": 759.26,
+   "pct_away": 5.48,
    "good_until": "2026-09-15",
    "why": "close 33% at +4.2% over the average cost",
    "signals": [
@@ -407,8 +407,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 459.22,
-   "pct_away": 23.16,
+   "last": 459.67,
+   "pct_away": 23.04,
    "good_until": "2026-09-15",
    "why": "close 33% at +21.0% over the average cost",
    "signals": [
@@ -424,8 +424,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 119.7,
-   "pct_away": 24.67,
+   "last": 119.94,
+   "pct_away": 24.42,
    "good_until": "2026-09-15",
    "why": "close 33% at +19.8% over the average cost",
    "signals": [
@@ -441,8 +441,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 98.92,
-   "pct_away": 28.95,
+   "last": 98.86,
+   "pct_away": 29.03,
    "good_until": "2026-09-15",
    "why": "close 33% at +24.8% over the average cost",
    "signals": [
@@ -458,8 +458,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 101.67,
-   "pct_away": 30.78,
+   "last": 101.89,
+   "pct_away": 30.5,
    "good_until": "2026-09-15",
    "why": "close 33% at +26.4% over the average cost",
    "signals": [
