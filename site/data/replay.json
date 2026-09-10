@@ -1,0 +1,96 @@
+{
+ "built": "2026-09-09",
+ "years": 5,
+ "trading_days_replayed": 1254,
+ "days_graded": 1248,
+ "measures": "each signal's average forward return MINUS the whole universe's that same day",
+ "t_bar": 2.5,
+ "signals": {
+  "momentum_1w": {
+   "1d": {
+    "days": 1248,
+    "edge_pct": 0.0205,
+    "t_stat": 0.3,
+    "beat_rate": 0.481,
+    "verdict": "indistinguishable from luck"
+   },
+   "5d": {
+    "days": 1244,
+    "edge_pct": 0.164,
+    "t_stat": 1.04,
+    "beat_rate": 0.481,
+    "verdict": "indistinguishable from luck"
+   },
+   "21d": {
+    "days": 1228,
+    "edge_pct": 1.1938,
+    "t_stat": 3.41,
+    "beat_rate": 0.508,
+    "verdict": "real"
+   }
+  },
+  "contrarian_1w": {
+   "1d": {
+    "days": 1248,
+    "edge_pct": 0.0043,
+    "t_stat": 0.07,
+    "beat_rate": 0.486,
+    "verdict": "indistinguishable from luck"
+   },
+   "5d": {
+    "days": 1244,
+    "edge_pct": 0.0613,
+    "t_stat": 0.4,
+    "beat_rate": 0.489,
+    "verdict": "indistinguishable from luck"
+   },
+   "21d": {
+    "days": 1228,
+    "edge_pct": 0.1959,
+    "t_stat": 0.59,
+    "beat_rate": 0.485,
+    "verdict": "indistinguishable from luck"
+   }
+  },
+  "momentum_1m": {
+   "1d": {
+    "days": 1232,
+    "edge_pct": 0.0942,
+    "t_stat": 1.32,
+    "beat_rate": 0.508,
+    "verdict": "indistinguishable from luck"
+   },
+   "5d": {
+    "days": 1228,
+    "edge_pct": 0.3091,
+    "t_stat": 1.92,
+    "beat_rate": 0.52,
+    "verdict": "indistinguishable from luck"
+   },
+   "21d": {
+    "days": 1212,
+    "edge_pct": -0.0326,
+    "t_stat": -0.09,
+    "beat_rate": 0.445,
+    "verdict": "indistinguishable from luck"
+   }
+  },
+  "etf_default": {
+   "1d": {
+    "days": 0
+   },
+   "5d": {
+    "days": 0
+   },
+   "21d": {
+    "days": 0
+   }
+  }
+ },
+ "universe_drift_pct": {
+  "1d": 0.1764,
+  "5d": 0.8778,
+  "21d": 3.8221
+ },
+ "caveat": "Grades the mechanical signal rules, not the model's judgement, and cannot replay the news and filings the brain reads. A signal marked 'indistinguishable from luck' has no measured edge here - that is information, not a failure."
+}

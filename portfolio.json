@@ -1,15 +1,9 @@
 {
-  "cash": 23293.04696861325,
+  "cash": 23394.450959508245,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W37",
   "positions": {
-    "AMAT": {
-      "qty": 0.10696102340307193,
-      "avg_cost": 467.46,
-      "opened": "2026-09-08",
-      "last_buy": "2026-09-08"
-    },
     "CCJ": {
       "qty": 5.582941034999516,
       "avg_cost": 99.40996985651454,
@@ -17,12 +11,6 @@
       "last_buy": "2026-09-10",
       "tranches": 3,
       "last_buy_ts": 1789063592
-    },
-    "SPY": {
-      "qty": 0.03905233012236396,
-      "avg_cost": 768.2,
-      "opened": "2026-09-08",
-      "last_buy": "2026-09-08"
     },
     "NLR": {
       "qty": 4.29711834945649,
@@ -32,12 +20,6 @@
       "last_buy_ts": 1789063592,
       "tranches": 2
     },
-    "AMD": {
-      "qty": 0.006136175372108546,
-      "avg_cost": 509.26,
-      "opened": "2026-09-08",
-      "last_buy": "2026-09-08"
-    },
     "INTC": {
       "qty": 5.1840326698895005,
       "avg_cost": 102.23701001701001,
@@ -45,12 +27,6 @@
       "last_buy": "2026-09-10",
       "last_buy_ts": 1789063592,
       "tranches": 2
-    },
-    "GOOGN": {
-      "qty": 0.4171881518564873,
-      "avg_cost": 47.94,
-      "opened": "2026-09-08",
-      "last_buy": "2026-09-08"
     }
   },
   "fills": [
@@ -223,7 +199,55 @@
       "price": 102.06,
       "type": "buy",
       "date": "2026-09-10 14:06"
+    },
+    {
+      "symbol": "AMAT",
+      "side": "sell",
+      "qty": 0.106961,
+      "status": "filled",
+      "price": 457.61,
+      "proceeds": 48.95,
+      "realized_pnl": -1.05,
+      "realized_pct": -2.11,
+      "type": "sell",
+      "date": "2026-09-10 14:14"
+    },
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0.039052,
+      "status": "filled",
+      "price": 757.71,
+      "proceeds": 29.59,
+      "realized_pnl": -0.41,
+      "realized_pct": -1.37,
+      "type": "sell",
+      "date": "2026-09-10 14:14"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 0.006136,
+      "status": "filled",
+      "price": 506.7,
+      "proceeds": 3.11,
+      "realized_pnl": -0.02,
+      "realized_pct": -0.5,
+      "type": "sell",
+      "date": "2026-09-10 14:14"
+    },
+    {
+      "symbol": "GOOGN",
+      "side": "sell",
+      "qty": 0.417188,
+      "status": "filled",
+      "price": 47.36,
+      "proceeds": 19.76,
+      "realized_pnl": -0.24,
+      "realized_pct": -1.21,
+      "type": "sell",
+      "date": "2026-09-10 14:14"
     }
   ],
-  "realized_pnl": 1.1718772832499984
+  "realized_pnl": -0.5490404917528409
 }

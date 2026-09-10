@@ -1,22 +1,3 @@
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
@@ -398,3 +379,22 @@ Decision: nothing at this check. 20 standing order(s) working.
 - BUY $500.00 NLR [buy_limit @ $120.87] — average in another $500 if it falls 3.0% below the average cost
 - BUY $500.00 INTC [buy_limit @ $102.06] — average in another $500 if it falls 3.0% below the average cost
 ## 2026-09-10 14:06 ET — tick — 0 sell(s), 3 buy(s) from standing orders
+
+## 2026-09-10 14:14 ET (Thursday) — week 2026-W37 — budget left $23293.05 (today $1500.00, 3 buys, 0 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
+  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (no price for COIN — excluded this check)
+- SELL 100% AMAT [time stop] -> $48.95 (-2.11%) — held 2880 min, the 30-minute limit: out regardless
+- SELL 100% SPY [time stop] -> $29.59 (-1.37%) — held 2880 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $3.11 (-0.50%) — held 2880 min, the 30-minute limit: out regardless
+- SELL 100% GOOGN [time stop] -> $19.76 (-1.21%) — held 2880 min, the 30-minute limit: out regardless
+brain: CCJ, NLR, INTC all bought minutes ago (8 min held) and already sit at day lows (pct_of_day_range near 0-48%) on a broad red macro day (oil above $100, yields up, IBM/AMD/NVDA all down). All three positions already have stop_loss/trailing_stop, scale-in buy_limits, and take_profit brackets working. No new concrete evidence (filing/headline) justifies fresh deployment into more weakness, and track record shows nuclear sector trades this week averaging -3.07%. Consistent with the last 8 checks' lessons: hold and let standing orders work rather than force entries.
+lesson: With positions bought minutes ago and already bracketed on a red macro day, avoid adding more capital just because budget remains - wait for genuinely new evidence before the next trade.
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING take_profit 33% NLR @ $145.65 until 2026-09-15 — close 33% at +20.4% over the average cost
+portfolio: equity $24974.03 (-0.10% on $25000.00 in) · cash $23394.45 · realised -0.55
+Done: 4 sell(s), 0 buy(s) (incl. 4 from standing orders); 8 order(s) working; budget left $23394.46 this week
