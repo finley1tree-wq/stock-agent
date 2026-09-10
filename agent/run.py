@@ -281,7 +281,8 @@ def _bracket_cfg(g: dict) -> dict:
     own sub-dict - so without this the scale-in size silently computes to zero and the averaging-in
     orders quietly stop existing. Caught by the basket test, which is exactly what it is for.
     """
-    return {**(g.get("auto_bracket") or {}), "_weekly_budget": float(g.get("_weekly_budget", 0) or 0)}
+    return {**(g.get("auto_bracket") or {}), "_weekly_budget": float(g.get("_weekly_budget", 0) or 0),
+            "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0)}
 
 def time_stops(now, broker, positions, st, g, log_fn):
     """Close anything that has sat still too long.

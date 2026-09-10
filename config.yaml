@@ -96,7 +96,14 @@ guardrails:
     # single percentage cannot fit both SPY (2.5% = 3.5 daily ranges, never reached) and OKLO
     # (2.5% = 0.39, hit by noise before lunch). The _pct values below are the fallback when ATR
     # is unavailable. Measured: fixed brackets cost 0.014pp/trade on SPY and 0.570pp on SOXL.
-    stop_loss_atr: 3.0           # stop at 3x the average daily range. Measured over ~7,800 entries on 5y of
+    # When max_hold_minutes is set the levels below are scaled to the move actually available in
+    # that window (ATR x sqrt(minutes/390)). Measured: a 6x-ATR target was reached in 0.0% of
+    # 30-minute windows, so the old daily levels could never fire inside the clock.
+    intraday_target_mult: 0.6    # target, as a fraction of the move available in the hold window
+    intraday_stop_mult: 1.0      # stop, same units - wider than the target on purpose, so noise
+                                 # does not stop you out before the target has a chance
+    intraday_floor_pct: 0.15     # never place a level tighter than this
+    stop_loss_atr: 3.0           # (used when there is no intraday clock) stop at 3x the daily range. Measured over ~7,800 entries on 5y of
                                  # this watchlist, widening 2x -> 3x raised expectancy AND the win rate
                                  # (+1.118% -> +1.393% per trade, 48.1% -> 54.3%): a tight stop is mostly
                                  # a machine for getting shaken out of trades that were going to work.

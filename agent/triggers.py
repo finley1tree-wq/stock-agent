@@ -302,6 +302,24 @@ def levels(ticker: str, px: dict | None, cfg: dict) -> tuple[float, float]:
     atr = float(((px or {}).get(ticker) or {}).get("atr_pct") or 0)
     sl_a = float(cfg.get("stop_loss_atr", 0) or 0)
     tp_a = float(cfg.get("take_profit_atr", 0) or 0)
+
+    # THE LEVELS MUST MATCH THE HOLD PERIOD. Measured on real 30-minute bars: a 6x-ATR target was
+    # reached in 0.0% of 30-minute windows on every watchlist name - INTC moves 0.41% in half an
+    # hour against a target sitting at 26.58%, sixty-five times too far. With a 30-minute clock
+    # that means the target and the stop NEVER fire and every position exits on time at a random
+    # price minus the round trip, which is a guaranteed slow bleed rather than a strategy.
+    #
+    # Volatility grows with the square root of time, so the move available in M minutes is about
+    # ATR x sqrt(M/390). The levels are scaled to that when an intraday clock is set.
+    hold_m = float(cfg.get("_max_hold_minutes", 0) or 0)
+    if atr > 0 and hold_m > 0:
+        import math
+        reach = atr * math.sqrt(max(1.0, hold_m) / 390.0)      # the move actually available
+        tp = reach * float(cfg.get("intraday_target_mult", 0.6) or 0.6)
+        sl = reach * float(cfg.get("intraday_stop_mult", 1.0) or 1.0)
+        floor = float(cfg.get("intraday_floor_pct", 0.15) or 0.15)
+        return round(max(tp, floor), 3), round(max(sl, floor), 3)
+
     if atr > 0 and sl_a > 0 and tp_a > 0:
         lo = float(cfg.get("stop_floor_pct", 1.5) or 1.5)
         hi = float(cfg.get("stop_cap_pct", 12) or 12)
