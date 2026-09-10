@@ -1,12 +1,3 @@
-  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
-  (CYBN excluded: no security information)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-  (TOFB excluded: too thinly traded (3,791/day) — Tofutti Brands Inc.)
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (holding GOOGN would not be bought today: not ordinary shares (depositary))
-brain: Book is small, fresh (days_held=2), and already fully bracketed with stops, take-profits, and buy-limits on every position. Market is broadly red today (oil spike, inflation surprise) with most watchlist names down 1-4%; chasing new entries into this weakness has no measured edge (1-day signal evidence shows nothing distinguishable from luck). Standing orders will pick up better entries on dips or protect against further declines without me forcing a trade at this arbitrary check.
-lesson: Repeated pattern confirmed again: with a fully bracketed fresh book on a red macro day, doing nothing and trusting standing orders beats forcing new entries at an arbitrary check tick.
   (re-pinned 5 order(s) to the new average cost)
 ~ WORKING take_profit 33% AMAT @ $564.28 until 2026-09-15 — close 33% at +20.7% over the average cost
 ~ WORKING take_profit 33% CCJ @ $127.79 until 2026-09-15 — close 33% at +25.1% over the average cost
@@ -374,6 +365,15 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped INTC: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
