@@ -40,12 +40,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
 
 ## 2026-09-10 12:58 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
   (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
@@ -398,3 +392,9 @@ lesson: Do not open new positions in the last 30 minutes of the trading day sinc
 ~ WORKING buy_limit $998.85 TPL @ $362.38 until 2026-09-15 — strong month, weak day: resting 1.5% under $367.90 to catch the dip
 portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
 Decision: nothing at this check. 7 standing order(s) working.
+  (trigger INTC trailing_stop cancelled (position gone))
+  (trigger CCJ stop_loss cancelled (position gone))
+  (trigger NLR stop_loss cancelled (position gone))
+  (trigger CCJ take_profit cancelled (position gone))
+  (trigger INTC take_profit cancelled (position gone))
+  (trigger NLR take_profit cancelled (position gone))
