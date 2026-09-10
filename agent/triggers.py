@@ -372,8 +372,17 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             targets.pop("stop_loss", None)
         for o in mine:
             k = o["kind"]
-            if k not in targets or abs(float(o["price"]) - targets[k]) > max(1e-9, targets[k] * 0.0005):
-                close(o["id"], now, "cancelled", "average cost moved"); cancelled += 1
+            stale = k not in targets or abs(float(o["price"]) - targets[k]) > max(1e-9, targets[k] * 0.0005)
+            # SIZE matters as much as price. An order left over from a smaller account keeps its
+            # old dollar amount forever, fires on every check, and is thrown away by the minimum
+            # order rule every time - which is exactly what happened when the account went from
+            # $400 to $25,000 and a stale $25 add order looped all morning.
+            if not stale and k in BUY_KINDS:
+                stale = abs(float(o.get("usd") or 0) - add_usd) > max(0.01, add_usd * 0.02)
+            if not stale and k in SELL_KINDS:
+                stale = abs(float(o.get("pct_of_position") or 0) - (tp_size if k == "take_profit" else 100)) > 0.5
+            if stale:
+                close(o["id"], now, "cancelled", "level or size no longer matches"); cancelled += 1
             else:
                 targets.pop(k, None)                     # already working at the right level
         for kind, price in targets.items():
