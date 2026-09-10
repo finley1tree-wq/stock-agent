@@ -1,6 +1,3 @@
-## 2026-09-08 12:17 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
-  (ECF excluded: too thinly traded (21,038/day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
   (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
   (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
   (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 09:15 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 09:28 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
