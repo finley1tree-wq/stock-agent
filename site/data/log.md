@@ -1,16 +1,4 @@
   (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-brain: Portfolio is already 90% deployed today across 7 momentum-heavy names (AMD +6.9%, INTC +10%, AMAT +3.5%, NLR +4.4%, CCJ +2.6%) all bought same-day at days_held=0. My own recent lessons explicitly warn against chasing more momentum on top of these same-tick pops. Protective stops/trailing stops are already in place on AMAT, NLR, CCJ, INTC, AMD, and buy_limits are working below market for SPY and CCJ adds. No new evidence justifies fresh deployment right now; remaining $160 budget stays parked for a better entry via the standing limit orders.
-lesson: With most positions fresh and up 3-10% intraday same-day, let existing stops/trailing-stops/buy_limits do the work rather than adding new momentum buys at the same tick.
-portfolio: equity $400.73 (+0.18% on $400.00 in) · cash $160.00 · realised +0.00
-Decision: nothing at this check. 7 standing order(s) working.
-
-## 2026-09-08 13:11 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
-  (CZNC excluded: too thinly traded (71,795/day) — Citizens & Northern Corporation)
-  (ECF excluded: too thinly traded (21,038/day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
 brain: Already spent $240/$400 today across 7 names, all fresh (days_held=0) and most up 3-10% intraday. Portfolio is well diversified (semis, nuclear, defense-adjacent via NLR, index, real estate exposure via none but fine). Existing stops/trailing-stops/buy_limits on AMAT, NLR, CCJ, INTC, AMD, SPY are already working and cover downside protection. My own repeated lessons today all say the same thing: don't chase more momentum at the same tick when names have already popped this much same-day. No new evidence justifies a fresh entry beyond what's already held; remaining $160 budget can wait for a pullback via the standing buy_limits already placed on SPY and CCJ.
 lesson: Six checks in a row today confirm: once positions are fresh and up big intraday, standing stops/limits do the work better than adding more buys at the same tick - resist the urge to deploy just because budget remains.
 portfolio: equity $400.75 (+0.19% on $400.00 in) · cash $160.00 · realised +0.00
@@ -398,3 +386,15 @@ lesson: Repeated pattern confirmed again: with a fully bracketed fresh book on a
 ~ WORKING take_profit 33% GOOGN @ $51.98 until 2026-09-15 — close 33% at +8.4% over the average cost
 portfolio: equity $24995.96 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
