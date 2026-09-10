@@ -41,18 +41,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
 
 ## 2026-09-10 11:52 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
   (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
@@ -326,6 +314,18 @@ lesson: Sixth+ consecutive confirmation: on red/choppy days with a small fully-b
 ~ WORKING take_profit 33% INTC @ $133.07 until 2026-09-15 — close 33% at +26.5% over the average cost
 portfolio: equity $24995.40 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
