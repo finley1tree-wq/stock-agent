@@ -625,7 +625,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "disclosure_leaderboard": (sig.get("board") or {}).get("leaders", [])[:8],
         "disclosure_leaderboard_caveat": (sig.get("board") or {}).get("caveat", ""),
         "followed_people_insider_filings": insiders.by_followed(itrades, followed_people)[:20],
-        "track_record": track, "past_lessons": learn.past_lessons(),
+        "track_record": track, "past_lessons": learn.past_lessons(evidence_days=cf.get("independent_days_graded") or 0),
         "backtest_priors": backtest.priors(),
         "signal_evidence_5d": replay.evidence("5d"),
         "signal_evidence_21d": replay.evidence("21d"),

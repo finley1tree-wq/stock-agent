@@ -14,6 +14,8 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+MIN_DAYS_FOR_GUIDANCE = 10   # below this, a lesson is a hypothesis and not a rule
+
 JOURNAL = ROOT / "journal.json"
 LESSONS = ROOT / "lessons.md"
 
@@ -92,10 +94,27 @@ def score(prices: dict) -> dict:
                    "evidence": r.get("evidence", ""), "why": r.get("why", "")} for r in rec[k]]
     return rec
 
-def past_lessons(n: int = 12) -> list[str]:
-    if not LESSONS.exists():
-        return []
-    return [l.strip("- \n") for l in LESSONS.read_text().splitlines() if l.startswith("- ")][-n:]
+def past_lessons(n: int = 12, evidence_days: int = 0) -> dict:
+    """Recent lessons, WITH how much evidence stands behind them.
+
+    Handing the model a bare list of its own conclusions is how it talked itself out of trading:
+    nine lessons written on a single red day all said "hold cash", and it then cited "the last 8
+    lessons" as proof. A lesson written after two graded days is a hypothesis. Below
+    MIN_DAYS_FOR_GUIDANCE the list is trimmed and explicitly labelled as such, so it informs
+    judgement instead of replacing it.
+    """
+    lines = []
+    if LESSONS.exists():
+        lines = [l[2:].strip() for l in LESSONS.read_text().splitlines() if l.startswith("- ")]
+    thin = int(evidence_days or 0) < MIN_DAYS_FOR_GUIDANCE
+    keep = 3 if thin else n
+    return {
+        "lessons": lines[-keep:],
+        "graded_days_behind_them": int(evidence_days or 0),
+        "status": ("UNPROVEN - written from too little history to be a rule. Treat these as things to "
+                   "watch for, never as a reason to sit out. Repeating a conclusion does not make it "
+                   "evidence." if thin else "backed by enough graded days to carry weight"),
+    }
 
 def _similar(a: str, b: str) -> float:
     """Cheap word-overlap similarity, enough to catch a lesson being written nine times."""
@@ -121,7 +140,10 @@ def add_lesson(text: str, track: dict, evidence_days: int = 0, min_days: int = 1
     prior = []
     if LESSONS.exists():
         prior = [l.split(": ", 1)[-1].strip() for l in LESSONS.read_text().splitlines() if l.startswith("- ")]
-    if any(_similar(text, old) > 0.6 for old in prior[-40:]):
+    # Tightened from 0.6: nine lessons on one day all said "hold cash on a red day" in slightly
+    # different words, cleared the old bar, and the model then cited "the last 8 lessons" as its
+    # reason never to trade. A conclusion repeated in fresh wording is still the same conclusion.
+    if any(_similar(text, old) > 0.42 for old in prior[-40:]):
         return
     header = "" if LESSONS.exists() else "# Lessons the agent has drawn from its own results\n\n"
     with open(LESSONS, "a") as f:
