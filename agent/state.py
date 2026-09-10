@@ -30,6 +30,7 @@ def load() -> dict:
         s.update({"day": d, "spent_today": 0.0, "orders_today": 0, "sells_today": 0, "sold_today": []})
     s.setdefault("sells_today", 0)
     s.setdefault("sold_today", [])
+    s.setdefault("sold_ts", {})
     return s
 
 def record_order(s: dict, ticker: str, usd: float, rec: dict) -> None:
@@ -50,6 +51,8 @@ def record_sell(s: dict, ticker: str, rec: dict, proceeds: float = 0.0) -> None:
     s["sells_today"] = int(s.get("sells_today", 0)) + 1
     if ticker not in s["sold_today"]:
         s["sold_today"].append(ticker)
+    # when it was sold, so a cooldown can replace the all-day ban on re-entry
+    s.setdefault("sold_ts", {})[ticker] = int(datetime.now(ET).timestamp())
     p = max(0.0, float(proceeds or 0.0))
     s["spent"] = round(max(0.0, s.get("spent", 0.0) - p), 2)
     s["spent_today"] = round(max(0.0, s.get("spent_today", 0.0) - p), 2)

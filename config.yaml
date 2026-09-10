@@ -21,7 +21,10 @@ guardrails:
   # evidence. From the date below: every dollar working, concentrated in the highest-conviction
   # names rather than spread thin - his words, "quality over quantity".
   full_deployment_from: "2026-09-14"    # the Monday
-  full_deployment_max_names: 3          # concentrate into at most this many positions
+  full_deployment_max_names: 6          # was 3, which directly contradicted min_positions: 5
+  rebuy_cooldown_minutes: 45            # re-entry allowed after this, instead of banned all day.
+                                        # With a 30-minute clock an all-day ban retired every name
+                                        # after one round trip and starved the book by lunchtime.
   max_per_ticker_pct: 100        # Finley's call: it may put the whole week's budget into ONE name.
                                  # The per-trade loss is still bounded by the stop (auto_bracket below),
                                  # so the risk this adds is concentration and overnight gap risk, not
@@ -63,7 +66,12 @@ guardrails:
   dip_hunt:
     enabled: true
     names: 6                     # how many resting dip orders to keep out at once
-    below_pct: 1.5               # how far under the current price each one sits
+    dip_atr_mult: 0.75           # depth as a fraction of the move available in the hold window.
+                                 # A flat 1.5% was reached in only 7.2% of 30-minute windows (2.8%
+                                 # on META), which is why the orders sat all day and never filled.
+    dip_floor_pct: 0.2           # never shallower than this
+    good_for_days: 1             # a dip order sized for half an hour should not rest for a week
+    below_pct: 1.5               # fallback when ATR is unavailable
     usd_pct_of_budget: 4.0       # size of each ($1,000 at a $25,000 budget)
   min_positions: 5               # aim to have at least this many names working at once
 

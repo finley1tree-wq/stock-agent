@@ -22,7 +22,11 @@ ROOT = Path(__file__).resolve().parent.parent
 LOG = ROOT / "log.md"
 ET = ZoneInfo("America/New_York")
 MARKET_OPEN = time(9, 30)
-SIGNALS = {"congress", "insider", "followed_person", "news", "momentum", "track_record", "etf_default", "risk_management"}
+# Every label the code itself emits must be here, or _clean_signals silently rewrites it to
+# "unspecified" and the learning loop can never attribute a result to the feature that caused it.
+SIGNALS = {"congress", "insider", "followed_person", "news", "momentum", "track_record", "etf_default",
+           "risk_management", "dip_entry", "time_stop", "intraday_limit", "standing_order",
+           "auto_bracket", "patience"}
 
 def log(line: str) -> None:
     print(line)
@@ -120,7 +124,15 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
         t = str(o.get("ticker", "")).upper()
         if t not in allowed:
             dropped.append(f"{t}: not in allowed list"); continue
-        if t in st.get("sold_today", []):
+        cooldown = int(g.get("rebuy_cooldown_minutes", 0) or 0)
+        if cooldown:
+            # With a 30-minute clock, banning a name for the whole day after one round trip
+            # exhausts the candidate list before lunch. A cooldown keeps wash-trading off the
+            # table without permanently retiring the name.
+            last = (st.get("sold_ts") or {}).get(t)
+            if last and (datetime.now(ET).timestamp() - float(last)) / 60 < cooldown:
+                dropped.append(f"{t}: sold {((datetime.now(ET).timestamp()-float(last))/60):.0f} min ago, cooling off"); continue
+        elif t in st.get("sold_today", []):
             dropped.append(f"{t}: sold today, no same-day rebuy"); continue
         if not str(o.get("evidence", "")).strip():
             dropped.append(f"{t}: no evidence given"); continue
@@ -134,7 +146,10 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
     by_ticker = dict(st.get("by_ticker", {}))
     left = deploy
     out = []
-    for o in orders[:max(orders_left, 1) if cleanup else min(4, orders_left)]:
+    # Four buys per check could never build a five-name book from flat. The cap now follows the
+    # target position count, so reaching min_positions is arithmetically possible in one decision.
+    per_check = max(int(g.get("min_positions", 4) or 4) + 2, 4)
+    for o in orders[:max(orders_left, 1) if cleanup else min(per_check, orders_left)]:
         room = per_cap - by_ticker.get(o["ticker"], 0.0)
         usd = min(deploy * o["usd"] / total, room, left)
         if usd < g["min_order_usd"]:
@@ -488,6 +503,14 @@ def _tick_once(force: bool = False) -> None:
     sector_of = {t: s for s, ts in cfg["watchlist"].items() for t in ts}
     bought, sold, did = fill_standing_orders(now, today, broker, broker.positions(), px, st, g,
                                              set(), remaining, sector_of, {}, log)
+    # The clock has to be enforced on EVERY pass, not only when the brain is asked. Checked only
+    # on decisions, a "30-minute" hold actually ran 30-64 minutes depending on when the next
+    # decision happened to land.
+    stale_sells, stale_n = time_stops(now, broker, broker.positions(), st, g, log)
+    if stale_n:
+        sold += stale_sells; did += stale_n
+        positions = broker.positions()
+
     if bought:            # averaging in moved the average cost, so the exits have to move with it
         auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
         if auto:
@@ -536,7 +559,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         log(f"\n## {today} {now.strftime('%H:%M')} ET — REPORT — {mode} via {env['broker']}")
         if is_sim:
             broker.write_report(); log(f"portfolio: {broker.summary()}")
-        log(f"positions: {positions}\ncash: {broker.cash()}\ntrack record: {learn.score(px) if px else 'no trades yet'}")
+        log(f"positions: {positions}\ncash: {broker.cash()}\ntrack record: {learn.score(px, set(broker.positions())) if px else 'no trades yet'}")
         return
 
     remaining = round(g["_weekly_budget"] - st["spent"], 2)
@@ -594,7 +617,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
             if not v.get("ok"):
                 flagged[t] = v.get("why", "no longer passes the screen")
                 log(f"  (holding {t} would not be bought today: {v.get('why')})")
-    track = learn.score(px)
+    track = learn.score(px, set(broker.positions()))
     headlines = news.ticker_headlines(sorted(allowed | set(held)), per=int(g.get("news_headlines_per_ticker", 3)))
     people = news.people_news(followed_people, per=4)
 
@@ -654,6 +677,12 @@ def main(report_only: bool = False, force: bool = False) -> None:
         full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": s["why"], "signals": s["signals"], "evidence": s["evidence"]}
         state.record_sell(st, s["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
         learn.record_sell(full, signals=s["signals"], evidence=s["evidence"], hour_et=now.hour)
+        if s["ticker"] not in broker.positions():
+            # Standing-order sells already did this; a sell the brain decided on did not, so the
+            # position's averaging-in order stayed live and could re-open what was just closed.
+            n = triggers.cancel_position_orders(s["ticker"], now, "position closed")
+            if n:
+                log(f"  (cancelled {n} order(s) on {s['ticker']}: position closed)")
         filled_sells.append(s)
         extra = f" → ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%)" if "proceeds" in rec else ""
         log(f"- SELL {s['pct']:.0f}% {s['ticker']} [{rec['status']}]{extra} {s['signals']} — {s['why']} | evidence: {s['evidence']}")
@@ -688,7 +717,9 @@ def main(report_only: bool = False, force: bool = False) -> None:
     placed, trejected = triggers.place(want, now, set(broker.positions()), allowed, px)
     auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
     # Rest dip orders on names it does NOT hold, so a dip can be an entry and not just an average-down.
-    auto += triggers.dip_hunt(now, set(broker.positions()), allowed, px, g.get("dip_hunt") or {}, remaining)
+    auto += triggers.dip_hunt(now, set(broker.positions()), allowed, px,
+                              {**(g.get("dip_hunt") or {}), "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0)},
+                              remaining)
     if stale:
         log(f"  (re-pinned {stale} order(s) to the new average cost)")
     if auto:

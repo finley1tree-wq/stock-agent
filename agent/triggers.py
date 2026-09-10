@@ -43,7 +43,8 @@ def px_round(v: float) -> float:
 BUY_KINDS = {"buy_limit", "buy_stop"}
 SELL_KINDS = {"take_profit", "stop_loss", "trailing_stop"}
 KINDS = BUY_KINDS | SELL_KINDS
-MAX_WORKING = 24                 # keep the working book readable and the file small
+MAX_WORKING = 60                 # 5 positions x 2-3 brackets + 6 dip orders needs far more than 24;
+                                 # at 24 the newest orders were silently dropped
 DEFAULT_GOOD_FOR_DAYS = 5
 
 def _load() -> dict:
@@ -123,7 +124,7 @@ def place(plan_triggers: list, now: datetime, held: set, allowed: set, px: dict 
     default_good_until = (now.date() + timedelta(days=DEFAULT_GOOD_FOR_DAYS)).isoformat()
     placed, rejected = [], []
     n_working = len([o for o in d["orders"] if o.get("status") == "working"])
-    for raw in (plan_triggers or [])[:12]:
+    for raw in (plan_triggers or [])[:40]:      # was 12: brackets alone can exceed that with 5 names
         if not isinstance(raw, dict):
             continue
         rec = _clean(raw, now, default_good_until, px)
@@ -433,7 +434,13 @@ def dip_hunt(now: datetime, held: set, allowed: set, px: dict, cfg: dict, budget
     if not cfg or not cfg.get("enabled", True) or budget <= 0:
         return []
     n = int(cfg.get("names", 6) or 6)
-    below = float(cfg.get("below_pct", 1.5) or 1.5)
+    # How deep the dip has to be, per stock. A flat 1.5% is the same mistake the targets made:
+    # measured over a month of 30-minute bars it is reached in only 7.2% of windows on average and
+    # 2.8% on META, so the orders sat there all day and never filled. Depth now scales with the
+    # move each name actually makes in the hold window - a real dip, but one that arrives.
+    hold_m = float(cfg.get("_max_hold_minutes", 0) or 0)
+    dip_mult = float(cfg.get("dip_atr_mult", 0.75) or 0.75)
+    flat_below = float(cfg.get("below_pct", 1.5) or 1.5)
     usd = round(budget * float(cfg.get("usd_pct_of_budget", 4) or 4) / 100, 2)
     if usd <= 0:
         return []
@@ -453,12 +460,21 @@ def dip_hunt(now: datetime, held: set, allowed: set, px: dict, cfg: dict, budget
     for m1m, t, price, rng in cands[:n]:
         if (t, "buy_limit") in live:
             continue
+        atr = float((px.get(t) or {}).get("atr_pct") or 0)
+        if atr > 0 and hold_m > 0:
+            import math
+            below = max(atr * math.sqrt(max(1.0, hold_m) / 390.0) * dip_mult,
+                        float(cfg.get("dip_floor_pct", 0.2) or 0.2))
+        else:
+            below = flat_below
         level = px_round(price * (1 - below / 100))
         out.append({"ticker": t, "kind": "buy_limit", "price": level, "usd": usd,
-                    "pct_of_position": 0, "trail_pct": 0, "good_until": "",
+                    "pct_of_position": 0, "trail_pct": 0,
+                    # a dip order sized for half an hour has no business resting for a week
+                    "good_until": (now.date() + timedelta(days=int(cfg.get("good_for_days", 1) or 1))).isoformat(),
                     "signals": ["momentum", "dip_entry"],
                     "evidence": f"+{m1m:.1f}% over the month, sitting at {rng if rng is not None else '?'}% of today's range",
-                    "why": f"strong month, weak day: resting {below:.1f}% under ${price:.2f} to catch the dip"})
+                    "why": f"strong month, weak day: resting {below:.2f}% under ${price:.2f} to catch the dip"})
     return out
 
 def summary(px: dict, now: datetime | None = None) -> list[dict]:

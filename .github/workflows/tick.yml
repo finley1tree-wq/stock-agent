@@ -67,15 +67,16 @@ jobs:
               # never changed. Our computed state wins, and only for these files.
               echo "branch moved mid-run; replaying this run's state on top of it"
               git rebase --abort || true
-              mkdir -p /tmp/keep && cp -f portfolio.json portfolio.md state.json log.md journal.json \
-                lessons.md decisions.json triggers.json traders.json replay.json /tmp/keep/ 2>/dev/null || true
-              cp -f site/data/*.json site/data/*.md /tmp/keep/ 2>/dev/null || true
+              # Keep the two sets SEPARATE. They share filenames - portfolio.json exists at the
+              # root and again under site/data - so copying both into one directory let the
+              # published snapshot overwrite the live ledger and then get restored over it.
+              rm -rf /tmp/keep && mkdir -p /tmp/keep/root /tmp/keep/site
+              cp -f portfolio.json portfolio.md state.json log.md journal.json lessons.md \
+                decisions.json triggers.json traders.json replay.json /tmp/keep/root/ 2>/dev/null || true
+              cp -f site/data/. -r /tmp/keep/site/ 2>/dev/null || cp -f site/data/* /tmp/keep/site/ 2>/dev/null || true
               git fetch origin main && git reset --hard origin/main
-              cp -f /tmp/keep/portfolio.json /tmp/keep/portfolio.md /tmp/keep/state.json /tmp/keep/log.md \
-                /tmp/keep/journal.json /tmp/keep/lessons.md /tmp/keep/decisions.json /tmp/keep/triggers.json \
-                /tmp/keep/traders.json /tmp/keep/replay.json . 2>/dev/null || true
-              mkdir -p site/data && cp -f /tmp/keep/*.json /tmp/keep/*.md site/data/ 2>/dev/null || true
-              git checkout -- site/data/../../agent 2>/dev/null || true
+              cp -f /tmp/keep/root/. -r . 2>/dev/null || cp -f /tmp/keep/root/* . 2>/dev/null || true
+              mkdir -p site/data && (cp -f /tmp/keep/site/. -r site/data/ 2>/dev/null || cp -f /tmp/keep/site/* site/data/ 2>/dev/null || true)
               git add -A
               if git diff --cached --quiet; then echo "nothing to replay"; exit 0; fi
               git commit -m "replay $(date -u +%FT%H:%MZ)" && git push && echo "replayed and pushed" && exit 0

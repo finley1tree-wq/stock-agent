@@ -54,11 +54,20 @@ def _agg(scored: list[dict], key: str, val: str = "ret_now", multi: bool = False
     return {k: {"n": len(v), "avg_ret_pct": round(sum(v) / len(v), 2), "hit_rate": round(sum(x > 0 for x in v) / len(v), 2)}
             for k, v in buckets.items()}
 
-def score(prices: dict) -> dict:
-    """Fill in 1w/1m returns where enough time has passed, then aggregate."""
+def score(prices: dict, held: set | None = None) -> dict:
+    """Fill in 1w/1m returns where enough time has passed, then aggregate.
+
+    A buy that has already been SOLD is frozen at what it actually returned. Marking every past
+    buy to today's price forever is a different and much worse question - it grades a position
+    the agent no longer owns, so a trade closed at -1% keeps getting worse as the stock falls and
+    the model is told it is down 2.49% per trade when the realised figure is a fraction of that.
+    """
     rows = _load()
     today = date.today()
+    still = set(held) if held is not None else None
     for r in _buys(rows):
+        if r.get("ret_final") is not None:
+            r["ret_now"] = r["ret_final"]; continue          # closed: the answer cannot change
         px = prices.get(r["symbol"], {}).get("price")
         if not px or not r.get("entry_price"):
             continue
@@ -67,6 +76,8 @@ def score(prices: dict) -> dict:
         if age >= 7 and r.get("ret_1w") is None: r["ret_1w"] = ret
         if age >= 30 and r.get("ret_1m") is None: r["ret_1m"] = ret
         r["ret_now"] = ret
+        if still is not None and r["symbol"] not in still:
+            r["ret_final"] = ret                              # position is gone: freeze it here
     _save(rows)
 
     scored = [r for r in _buys(rows) if r.get("ret_now") is not None]
