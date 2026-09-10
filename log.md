@@ -981,3 +981,34 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+
+## 2026-09-10 11:52 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
+  (CYBN excluded: no security information)
+  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: Book is small, fresh (days_held=2), and fully bracketed with stops, take-profits and buy-limits already working across every position. Market is broadly weak today (most names mid-to-low in day range, INTC -4.2%, AMD -2.4%, NVDA -2%), which is exactly the pattern past lessons flagged as a time to hold rather than force new entries - repeated confirmation across many prior checks that this beats forcing trades. No new evidence (no fresh congress/insider filings on held names, no notable headline) justifies adding risk right now.
+lesson: Continuing to validate: on choppy/red days with a small fully-bracketed book, holding and letting standing orders work beats forcing entries; only act on genuinely new, concrete evidence (fresh filing or headline), not just available budget.
+  (re-pinned 2 order(s) to the new average cost)
+~ WORKING take_profit 33% CCJ @ $127.75 until 2026-09-15 — close 33% at +25.0% over the average cost
+~ WORKING take_profit 33% NLR @ $149.44 until 2026-09-15 — close 33% at +19.9% over the average cost
+portfolio: equity $24995.91 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
+Decision: nothing at this check. 21 standing order(s) working.

@@ -936,7 +936,7 @@
    "ticker": "NLR",
    "kind": "take_profit",
    "price": 149.2304,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 10:48",
    "created_ts": 1789051732,
    "why": "close 33% at +19.8% over the average cost",
@@ -946,7 +946,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 11:52",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "b4adc175",
@@ -989,7 +991,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 127.5615,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 11:19",
    "created_ts": 1789053593,
    "why": "close 33% at +24.8% over the average cost",
@@ -999,7 +1001,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 11:52",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "47daba5a",
@@ -1017,7 +1021,41 @@
    ],
    "good_until": "2026-09-15",
    "pct_of_position": 33.0
+  },
+  {
+   "id": "2915648d",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 127.7454,
+   "status": "working",
+   "created": "2026-09-10 11:52",
+   "created_ts": 1789055572,
+   "why": "close 33% at +25.0% over the average cost",
+   "evidence": "average cost $102.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "pct_of_position": 33.0
+  },
+  {
+   "id": "e32b793c",
+   "ticker": "NLR",
+   "kind": "take_profit",
+   "price": 149.4398,
+   "status": "working",
+   "created": "2026-09-10 11:52",
+   "created_ts": 1789055572,
+   "why": "close 33% at +19.9% over the average cost",
+   "evidence": "average cost $124.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "pct_of_position": 33.0
   }
  ],
- "updated": "2026-09-10 11:19"
+ "updated": "2026-09-10 11:52"
 }
