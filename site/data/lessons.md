@@ -15,3 +15,4 @@
 - 2026-09-09 (1d graded, avg so far 0.06%): With 2 checks left and every position already bracketed (stops/take-profits/buy-limits), holding steady into the close on a red macro day is the disciplined move rather than forcing late-day entries.
 - 2026-09-09 (1d graded, avg so far -0.13%): On the final check of a red macro day with a fully bracketed, fresh book, holding steady and trusting standing orders into the close remains correct - repeated confirmation across multiple sessions.
 - 2026-09-09 (1d graded, avg so far -0.19%): With zero checks left and a fully bracketed fresh book on a red macro day, do nothing at the final check - standing orders (stops/take-profits/buy-limits) handle the close better than a last-minute forced trade.
+- 2026-09-10 (2d graded, avg so far -2.07%): Repeated pattern confirmed again: with a fully bracketed fresh book on a red macro day, doing nothing and trusting standing orders beats forcing new entries at an arbitrary check tick.
