@@ -144,8 +144,13 @@ class SimBroker:
                       # can't be flipped the same day just because the position is old
                       "days_since_buy": (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days,
                       "tranches": int(pos.get("tranches", 1)),
-                      "minutes_held": round((datetime.now(ET).timestamp() - float(pos.get("last_buy_ts") or 0)) / 60)
-                                      if pos.get("last_buy_ts") else None}
+                      # Positions bought before the minute-clock existed have no timestamp. Falling
+                      # back to the DAY they were opened is what makes the intraday stop apply to
+                      # them at all - otherwise the whole legacy book is silently exempt from it,
+                      # which is exactly why nothing sold when the 30-minute rule went live.
+                      "minutes_held": (round((datetime.now(ET).timestamp() - float(pos["last_buy_ts"])) / 60)
+                                       if pos.get("last_buy_ts")
+                                       else (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days * 1440)}
         return out
 
     def summary(self) -> dict:
