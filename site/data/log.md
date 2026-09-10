@@ -1,14 +1,5 @@
 Market closed right now. Nothing to do.
 
-## 2026-09-09 21:58 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 22:11 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 22:25 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
 ## 2026-09-09 22:38 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
 
@@ -398,3 +389,12 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped INTC: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
