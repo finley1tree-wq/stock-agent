@@ -59,9 +59,27 @@ jobs:
               if git push; then echo "pushed on attempt $i"; exit 0; fi
               echo "push attempt $i rejected, retrying"; sleep $((i * 5))
             else
+              # A conflict here is always in GENERATED state - the ledger, the log, the site data.
+              # This run just re-read the ledger and recomputed all of it, so its version is the
+              # newer truth; the other writer's is older data derived from the same files.
+              # Discarding instead was throwing away every decision the agent made, all day: it
+              # traded on every run and none of it ever persisted, which is why the dashboard
+              # never changed. Our computed state wins, and only for these files.
+              echo "branch moved mid-run; replaying this run's state on top of it"
               git rebase --abort || true
-              echo "the branch moved while this run was working; dropping this run's output so the next one recomputes from fresh state"
-              exit 0
+              mkdir -p /tmp/keep && cp -f portfolio.json portfolio.md state.json log.md journal.json \
+                lessons.md decisions.json triggers.json traders.json replay.json /tmp/keep/ 2>/dev/null || true
+              cp -f site/data/*.json site/data/*.md /tmp/keep/ 2>/dev/null || true
+              git fetch origin main && git reset --hard origin/main
+              cp -f /tmp/keep/portfolio.json /tmp/keep/portfolio.md /tmp/keep/state.json /tmp/keep/log.md \
+                /tmp/keep/journal.json /tmp/keep/lessons.md /tmp/keep/decisions.json /tmp/keep/triggers.json \
+                /tmp/keep/traders.json /tmp/keep/replay.json . 2>/dev/null || true
+              mkdir -p site/data && cp -f /tmp/keep/*.json /tmp/keep/*.md site/data/ 2>/dev/null || true
+              git checkout -- site/data/../../agent 2>/dev/null || true
+              git add -A
+              if git diff --cached --quiet; then echo "nothing to replay"; exit 0; fi
+              git commit -m "replay $(date -u +%FT%H:%MZ)" && git push && echo "replayed and pushed" && exit 0
+              echo "replay attempt $i failed"; sleep $((i * 5))
             fi
           done
           echo "could not push after 5 attempts"; exit 1
