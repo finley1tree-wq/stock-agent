@@ -1,36 +1,3 @@
-- SELL 50% AMD [take_profit @ $521.99] -> $6.41 (+2.50%) — close 50% at +2.5% over the average cost
-## 2026-09-09 14:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-09 14:36 ET (Wednesday) — week 2026-W37 — budget left $189.84 (today $0.00, 1 buys, 3 sells) — SIM (pretend money) via sim
-  (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
-  (CDR excluded: no security information)
-  (CYBN excluded: no security information)
-  (GBAB excluded: too thinly traded (89,879/day) — Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
-  (holding GOOGN would not be bought today: not ordinary shares (depositary))
-brain: Book is fully bracketed with stops, take-profits, and buy-limits on every position; market is broadly red today (oil spike, SPY/DIA down) and only 2 checks remain. No new evidence justifies chasing at these levels - AMAT/CCJ/NLR/INTC are all mid-range in day, not oversold enough for their limit adds to fill, and no fresh signal (congress/insider/news) points to a new name worth rotating into. Consistent with recent lessons: on red macro days with full brackets, standing orders should do the work rather than forcing new entries near close.
-lesson: With 2 checks left and every position already bracketed (stops/take-profits/buy-limits), holding steady into the close on a red macro day is the disciplined move rather than forcing late-day entries.
-~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
-portfolio: equity $400.38 (+0.10% on $400.00 in) · cash $189.84 · realised +1.09
-Decision: nothing at this check. 22 standing order(s) working.
-- SELL 50% AMD [take_profit @ $521.99] -> $3.20 (+2.50%) — close 50% at +2.5% over the average cost
-## 2026-09-09 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-09 15:09 ET (Wednesday) — week 2026-W37 — budget left $193.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-  (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
-  (CDR excluded: no security information)
-  (CYBN excluded: no security information)
-  (GBAB excluded: too thinly traded (89,879/day) — Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
-  (holding GOOGN would not be bought today: not ordinary shares (depositary))
-brain: This is the last check of the day with 51 minutes to close. The book is fully bracketed (stops, take-profits, and buy-limits on every position including GOOGN and CCJ which were patched earlier). Market is broadly red today on oil-spike macro news (Dow at 1-month low, SPY -0.38%), and all positions are fresh (days_held=1). Past lessons consistently show that forcing new entries into a red macro day with a protected book adds regret, not value - standing orders will fire at good levels if the market moves further. No new evidence (headline/filing) justifies a fresh buy right now that isn't already covered by existing triggers.
-lesson: On the final check of a red macro day with a fully bracketed, fresh book, holding steady and trusting standing orders into the close remains correct - repeated confirmation across multiple sessions.
-~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
-portfolio: equity $400.03 (+0.01% on $400.00 in) · cash $193.05 · realised +1.17
-Decision: nothing at this check. 22 standing order(s) working.
-
 ## 2026-09-09 15:41 ET (Wednesday) — week 2026-W37 — budget left $793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
   (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
   (CYBN excluded: no security information)
@@ -398,3 +365,36 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+
+## 2026-09-10 10:16 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
+  (CYBN excluded: no security information)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (TOFB excluded: too thinly traded (3,791/day) — Tofutti Brands Inc.)
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: Market is broadly red today (oil spike, inflation surprise, yields up) and nearly every position is already down and fully bracketed with stops, take-profits, and buy-limit adds in place. INTC -6%, AMD -3%, NVDA -2.5%, AMAT -3% are all near day lows (pct_of_day_range <50%), so chasing here would be buying into weakness, not strength - no fresh evidence supports new entries. Consistent with repeated past lessons: on red macro days with a fully bracketed book, doing nothing and trusting standing orders outperforms forcing new trades.
+lesson: On broad red macro days (oil >$100, inflation surprise, most watchlist names in bottom third of day range), the disciplined move is to hold the fully bracketed book and let standing orders work rather than deploy fresh budget into weakness.
+  (re-pinned 5 order(s) to the new average cost)
+~ WORKING take_profit 33% AMAT @ $566.24 until 2026-09-15 — close 33% at +21.1% over the average cost
+~ WORKING take_profit 33% CCJ @ $127.89 until 2026-09-15 — close 33% at +25.2% over the average cost
+~ WORKING take_profit 33% SPY @ $800.83 until 2026-09-15 — close 33% at +4.2% over the average cost
+~ WORKING take_profit 33% NLR @ $149.34 until 2026-09-15 — close 33% at +19.8% over the average cost
+~ WORKING take_profit 33% INTC @ $133.52 until 2026-09-15 — close 33% at +26.9% over the average cost
+portfolio: equity $24994.51 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
+Decision: nothing at this check. 21 standing order(s) working.
