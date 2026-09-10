@@ -1,21 +1,3 @@
-  (re-pinned 5 order(s) to the new average cost)
-~ WORKING take_profit 33% AMAT @ $564.28 until 2026-09-15 — close 33% at +20.7% over the average cost
-~ WORKING take_profit 33% CCJ @ $127.79 until 2026-09-15 — close 33% at +25.1% over the average cost
-~ WORKING buy_limit $25.00 CCJ @ $99.11 until 2026-09-15 — average in another $25 if it falls 3.0% below the average cost
-~ WORKING take_profit 33% SPY @ $800.37 until 2026-09-15 — close 33% at +4.2% over the average cost
-~ WORKING stop_loss 100% SPY @ $752.11 until 2026-09-15 — close it all at -2.1% under the average cost
-~ WORKING buy_limit $25.00 SPY @ $745.15 until 2026-09-15 — average in another $25 if it falls 3.0% below the average cost
-~ WORKING take_profit 33% NLR @ $148.99 until 2026-09-15 — close 33% at +19.6% over the average cost
-~ WORKING take_profit 33% INTC @ $132.16 until 2026-09-15 — close 33% at +25.6% over the average cost
-~ WORKING take_profit 33% GOOGN @ $51.98 until 2026-09-15 — close 33% at +8.4% over the average cost
-portfolio: equity $24995.96 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
-Decision: nothing at this check. 21 standing order(s) working.
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
@@ -365,6 +347,24 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped INTC: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
