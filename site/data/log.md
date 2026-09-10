@@ -1,21 +1,3 @@
-  (dropped CCJ: below min order after caps ($25.00))
-  (holding GOOGN would not be bought today: not ordinary shares (depositary))
-brain: Market is broadly red today (oil spike, inflation surprise, yields up) and nearly every position is already down and fully bracketed with stops, take-profits, and buy-limit adds in place. INTC -6%, AMD -3%, NVDA -2.5%, AMAT -3% are all near day lows (pct_of_day_range <50%), so chasing here would be buying into weakness, not strength - no fresh evidence supports new entries. Consistent with repeated past lessons: on red macro days with a fully bracketed book, doing nothing and trusting standing orders outperforms forcing new trades.
-lesson: On broad red macro days (oil >$100, inflation surprise, most watchlist names in bottom third of day range), the disciplined move is to hold the fully bracketed book and let standing orders work rather than deploy fresh budget into weakness.
-  (re-pinned 5 order(s) to the new average cost)
-~ WORKING take_profit 33% AMAT @ $566.24 until 2026-09-15 — close 33% at +21.1% over the average cost
-~ WORKING take_profit 33% CCJ @ $127.89 until 2026-09-15 — close 33% at +25.2% over the average cost
-~ WORKING take_profit 33% SPY @ $800.83 until 2026-09-15 — close 33% at +4.2% over the average cost
-~ WORKING take_profit 33% NLR @ $149.34 until 2026-09-15 — close 33% at +19.8% over the average cost
-~ WORKING take_profit 33% INTC @ $133.52 until 2026-09-15 — close 33% at +26.9% over the average cost
-portfolio: equity $24994.51 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
-Decision: nothing at this check. 21 standing order(s) working.
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
@@ -332,6 +314,24 @@ lesson: Continuing to validate: on choppy/red days with a small fully-bracketed 
 ~ WORKING take_profit 33% NLR @ $149.44 until 2026-09-15 — close 33% at +19.9% over the average cost
 portfolio: equity $24995.91 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
