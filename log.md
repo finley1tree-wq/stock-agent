@@ -892,3 +892,11 @@ lesson: Repeated confirmation: with a small fully-bracketed fresh book on a chop
 ~ WORKING take_profit 33% INTC @ $132.97 until 2026-09-15 — close 33% at +26.4% over the average cost
 portfolio: equity $24996.36 (-0.01% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
