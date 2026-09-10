@@ -1,6 +1,3 @@
-- BUY $30.00 SPY [filled] ['etf_default', 'risk_management'] — Starting a fresh $400 portfolio, a core index position reduces single-name risk while other picks are more speculative. | evidence: SPY at 768.20, roughly flat on the month (-0.66%), broad diversified base
-- BUY $20.00 NLR [filled] ['momentum', 'news'] — Small nuclear-power ETF exposure complements CCJ single-name bet with diversification within the strong nuclear theme. | evidence: NLR +3.88% today, +5.4% 5d; headline 'The Smartest AI Growth ETF to Buy'
-portfolio: equity $400.00 (+0.00% on $400.00 in) · cash $260.00 · realised +0.00
 Done: 0 sell(s), 4 buy(s); budget left $260.00 this week
 
 ## 2026-09-08 12:04 ET (Tuesday) — week 2026-W37 — budget left $260.00 (today $140.00, 4 buys, 0 sells) — SIM (pretend money) via sim
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 07:26 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 07:40 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
