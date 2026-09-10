@@ -1,35 +1,3 @@
-Market closed right now. Nothing to do.
-
-## 2026-09-09 22:38 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 22:52 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 23:05 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 23:19 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 23:33 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 23:46 ET (Wednesday) — week 2026-W37 — budget left $24793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-10 00:00 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-10 00:13 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-10 00:27 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-10 00:40 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
 ## 2026-09-10 00:54 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
 
@@ -398,3 +366,35 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+
+## 2026-09-10 10:48 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
+  (CYBN excluded: no security information)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (TOFB excluded: too thinly traded (3,791/day) — Tofutti Brands Inc.)
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: Book is small, fresh (2 days held), and already fully bracketed with stops/take-profits/buy-limits on every position. Market is broadly red today (INTC -5%, AMAT -2.6%, NVDA -2.4%, oil above $100 per SPY headlines) - not a day to chase momentum names higher in their range. No new evidence crosses the bar: nothing on the allowed list shows a fresh, undeployed catalyst with room below chase_limit, and repeated past lessons confirm doing nothing on red macro days with standing orders in place has been correct.
+lesson: On red macro days with a small, fully-bracketed fresh book, holding steady and letting standing orders work continues to be validated - avoid forcing entries just to use budget.
+  (re-pinned 4 order(s) to the new average cost)
+~ WORKING take_profit 33% AMAT @ $565.91 until 2026-09-15 — close 33% at +21.1% over the average cost
+~ WORKING take_profit 33% CCJ @ $127.65 until 2026-09-15 — close 33% at +24.9% over the average cost
+~ WORKING take_profit 33% NLR @ $149.23 until 2026-09-15 — close 33% at +19.8% over the average cost
+~ WORKING take_profit 33% INTC @ $133.19 until 2026-09-15 — close 33% at +26.6% over the average cost
+portfolio: equity $24995.82 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
+Decision: nothing at this check. 21 standing order(s) working.
