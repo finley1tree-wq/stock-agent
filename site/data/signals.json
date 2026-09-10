@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-10T14:15-04:00",
+ "asOf": "2026-09-10T14:23-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -125,26 +125,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 118.53,
-   "pct_away": -0.45,
+   "last": 118.3,
+   "pct_away": -0.25,
    "good_until": "2026-09-12",
    "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "13c3e9d0",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 97.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 97.68,
-   "pct_away": -0.7,
-   "good_until": "2026-09-12",
-   "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
    "signals": [
     "risk_management"
    ]
@@ -157,13 +141,29 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 118.53,
-   "pct_away": -0.97,
+   "last": 118.3,
+   "pct_away": -0.78,
    "good_until": "2026-09-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "13c3e9d0",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 97.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 97.8,
+   "pct_away": -0.82,
+   "good_until": "2026-09-12",
+   "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -174,8 +174,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.22,
-   "pct_away": -2.02,
+   "last": 101.16,
+   "pct_away": -1.96,
    "good_until": "2026-09-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -191,8 +191,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 101.22,
-   "pct_away": -3.16,
+   "last": 101.16,
+   "pct_away": -3.11,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
@@ -208,8 +208,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 118.53,
-   "pct_away": 22.88,
+   "last": 118.3,
+   "pct_away": 23.12,
    "good_until": "2026-09-15",
    "why": "close 33% at +20.4% over the average cost",
    "signals": [
@@ -225,8 +225,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 97.68,
-   "pct_away": 27.46,
+   "last": 97.8,
+   "pct_away": 27.3,
    "good_until": "2026-09-15",
    "why": "close 33% at +25.2% over the average cost",
    "signals": [
@@ -242,8 +242,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 101.22,
-   "pct_away": 27.78,
+   "last": 101.16,
+   "pct_away": 27.86,
    "good_until": "2026-09-15",
    "why": "close 33% at +26.5% over the average cost",
    "signals": [
