@@ -1,6 +1,3 @@
-Done: 0 sell(s), 3 buy(s); budget left $160.00 this week
-
-## 2026-09-08 12:13 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
 brain: Portfolio is already fully allocated across 7 names with only $160 cash and week's budget mostly spent (240/400). Today's big movers (AMD +6.4%, INTC +9%, AMAT +3.3%) have already run hard intraday - track record shows these hot-momentum congress+news buys underperformed (-0.21%, -0.74%). Rather than chase more of the same at current prices, I'll protect existing gains with trailing stops/stop-loss and leave a limit order to add CCJ (nuclear, strongest backtest sector) only on a dip, preserving remaining budget for better entries.
 lesson: Big intraday momentum names (AMD, INTC, AMAT) already popped 3-9% by midday have historically underperformed after being bought at the check - use stops to protect rather than chasing more at the same tick.
 ~ WORKING stop_loss 100% AMAT @ $447.00 until 2026-09-12 — Protect gains on today's strong pop in case of pullback
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 08:20 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 08:34 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
