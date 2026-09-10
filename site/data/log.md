@@ -86,12 +86,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
 
 ## 2026-09-10 12:58 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
   (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
@@ -398,3 +392,9 @@ brain: Last check of the day (15:16 ET, close 16:00), zero positions, broad red 
 lesson: At the final check of a red/choppy day with zero positions and under an hour to close, holding cash beats forcing a 30-minute round trip - this pattern has held for 8+ consecutive checks today.
 portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
 Decision: nothing at this check. 6 standing order(s) working.
+  (trigger INTC trailing_stop cancelled (position gone))
+  (trigger CCJ stop_loss cancelled (position gone))
+  (trigger NLR stop_loss cancelled (position gone))
+  (trigger CCJ take_profit cancelled (position gone))
+  (trigger INTC take_profit cancelled (position gone))
+  (trigger NLR take_profit cancelled (position gone))
