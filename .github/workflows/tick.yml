@@ -99,7 +99,17 @@ jobs:
             # tick while a decision was waiting cancelled the decision outright (seen at 17:05).
             # So when a decision is dispatched, this pass does NOT queue a tick; the decision run
             # restarts the chain when it finishes.
-            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
+            # Yield the lane to any decision that is waiting or running. Ticks and decisions share
+            # one concurrency group (deliberately - it is what guarantees a single writer on the
+            # ledger), and a lane holds only ONE pending run, so queueing a tick behind a waiting
+            # decision cancels it outright. Every decision dispatched on 2026-09-10 died that way.
+            waiting=$(gh run list -R "$GITHUB_REPOSITORY" -w agent.yml -L 5 \
+                        --json status -q '[.[] | select(.status=="queued" or .status=="in_progress" or .status=="pending")] | length' 2>/dev/null || echo 0)
+            if [ "${waiting:-0}" != "0" ]; then
+              echo "a decision is queued or running; staying out of the lane"
+            else
+              gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
+            fi
             # NOTE: the watchdog must NOT dispatch agent.yml any more. Decisions now happen in the
             # step above via --if-due, inside this same job. When the watchdog also dispatched one,
             # the next queued tick cancelled it - every decision run on 2026-09-10 was cancelled
