@@ -1,11 +1,11 @@
 {
   "week": "2026-W37",
-  "spent": 1605.54,
+  "spent": 1098.73,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 555.0,
     "SPY": 0.41,
-    "NLR": 520.0,
+    "NLR": 13.19,
     "INTC": 530.0,
     "GOOGN": 0.24
   },
@@ -354,20 +354,40 @@
       ],
       "evidence": "bought 2880 min ago, -1.19% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NLR",
+      "side": "sell",
+      "qty": 4.297118,
+      "status": "filled",
+      "price": 117.94,
+      "proceeds": 506.81,
+      "realized_pnl": -13.19,
+      "realized_pct": -2.54,
+      "date": "2026-09-10",
+      "time_et": "14:33",
+      "ts": 1789065181,
+      "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
+      "signals": [
+        "risk_management"
+      ],
+      "evidence": "NLR +3.71% today after string of nuclear volatility headlines",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-10",
-  "spent_today": 1398.59,
+  "spent_today": 891.78,
   "orders_today": 3,
-  "sells_today": 4,
+  "sells_today": 5,
   "sold_today": [
     "AMAT",
     "SPY",
     "AMD",
-    "GOOGN"
+    "GOOGN",
+    "NLR"
   ],
-  "last_check_ts": 1789065149,
-  "book_fp": "[[\"6f6b7f43\", 118.0], [\"b8e8ffbc\", 117.3797], [\"13c3e9d0\", 97.0], [\"dbb6ad40\", 99.1728], [\"68402e49\", 98.0168], [\"ed091ebd\", 145.6525], [\"231c7c60\", 124.5031], [\"d10d72ff\", 129.3418]]",
-  "last_publish_ts": 1789065149,
+  "last_check_ts": 1789065362,
+  "book_fp": "[[\"13c3e9d0\", 97.0], [\"dbb6ad40\", 99.1728], [\"68402e49\", 98.0168], [\"231c7c60\", 124.5031], [\"d10d72ff\", 129.3418]]",
+  "last_publish_ts": 1789065181,
   "last_decision_ts": 1789064065
 }

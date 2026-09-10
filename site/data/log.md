@@ -8,9 +8,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
 
 ## 2026-09-10 12:25 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
   (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
@@ -398,3 +395,6 @@ lesson: With positions bought minutes ago and already bracketed on a red macro d
 ~ WORKING take_profit 33% NLR @ $145.65 until 2026-09-15 — close 33% at +20.4% over the average cost
 portfolio: equity $24974.03 (-0.10% on $25000.00 in) · cash $23394.45 · realised -0.55
 Done: 4 sell(s), 0 buy(s) (incl. 4 from standing orders); 8 order(s) working; budget left $23394.46 this week
+  (cancelled 2 standing order(s) on NLR: position closed)
+- SELL 100% NLR [stop_loss @ $117.94] -> $506.81 (-2.54%) — Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)
+## 2026-09-10 14:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders

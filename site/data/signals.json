@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-10T14:32-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-10T14:33-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -118,39 +118,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6f6b7f43",
-   "ticker": "NLR",
-   "kind": "stop_loss",
-   "price": 118.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 118.1,
-   "pct_away": -0.08,
-   "good_until": "2026-09-12",
-   "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "b8e8ffbc",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 117.3797,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 118.1,
-   "pct_away": -0.61,
-   "good_until": "2026-09-15",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "13c3e9d0",
    "ticker": "CCJ",
    "kind": "stop_loss",
@@ -158,8 +125,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 97.71,
-   "pct_away": -0.73,
+   "last": 97.66,
+   "pct_away": -0.68,
    "good_until": "2026-09-12",
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
    "signals": [
@@ -174,8 +141,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.3,
-   "pct_away": -2.1,
+   "last": 101.28,
+   "pct_away": -2.08,
    "good_until": "2026-09-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -191,30 +158,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "last": 101.3,
-   "pct_away": -3.24,
+   "last": 101.28,
+   "pct_away": -3.22,
    "good_until": "2026-09-12",
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
    "signals": [
     "risk_management",
     "momentum"
-   ]
-  },
-  {
-   "id": "ed091ebd",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 145.6525,
-   "usd": null,
-   "pct_of_position": 33.0,
-   "trail_pct": null,
-   "last": 118.1,
-   "pct_away": 23.33,
-   "good_until": "2026-09-15",
-   "why": "close 33% at +20.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -225,8 +175,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 97.71,
-   "pct_away": 27.42,
+   "last": 97.66,
+   "pct_away": 27.49,
    "good_until": "2026-09-15",
    "why": "close 33% at +25.2% over the average cost",
    "signals": [
@@ -242,8 +192,8 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 101.3,
-   "pct_away": 27.68,
+   "last": 101.28,
+   "pct_away": 27.71,
    "good_until": "2026-09-15",
    "why": "close 33% at +26.5% over the average cost",
    "signals": [
