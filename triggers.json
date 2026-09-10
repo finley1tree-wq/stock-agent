@@ -44,7 +44,7 @@
    "ticker": "INTC",
    "kind": "trailing_stop",
    "price": 98.0168,
-   "status": "cancelled",
+   "status": "working",
    "created": "2026-09-08 12:13",
    "created_ts": 1788883985,
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
@@ -56,9 +56,7 @@
    "good_until": "2026-09-12",
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "high_water": 106.54,
-   "closed": "2026-09-10 14:46",
-   "cancel_reason": "time stop closed the position"
+   "high_water": 106.54
   },
   {
    "id": "97e68e5c",
@@ -84,7 +82,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 97.0,
-   "status": "cancelled",
+   "status": "working",
    "created": "2026-09-08 12:17",
    "created_ts": 1788884250,
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
@@ -93,16 +91,14 @@
     "risk_management"
    ],
    "good_until": "2026-09-12",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-10 14:46",
-   "cancel_reason": "time stop closed the position"
+   "pct_of_position": 100.0
   },
   {
    "id": "6f6b7f43",
    "ticker": "NLR",
    "kind": "stop_loss",
    "price": 118.0,
-   "status": "filled",
+   "status": "working",
    "created": "2026-09-08 12:17",
    "created_ts": 1788884250,
    "why": "Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)",
@@ -111,8 +107,7 @@
     "risk_management"
    ],
    "good_until": "2026-09-12",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-10 14:33"
+   "pct_of_position": 100.0
   },
   {
    "id": "22cbfcde",
@@ -1327,7 +1322,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 124.5031,
-   "status": "cancelled",
+   "status": "working",
    "created": "2026-09-10 14:06",
    "created_ts": 1789063590,
    "why": "close 33% at +25.2% over the average cost",
@@ -1337,9 +1332,7 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0,
-   "closed": "2026-09-10 14:46",
-   "cancel_reason": "time stop closed the position"
+   "pct_of_position": 33.0
   },
   {
    "id": "8d1d82a3",
@@ -1365,7 +1358,7 @@
    "ticker": "NLR",
    "kind": "buy_limit",
    "price": 117.3797,
-   "status": "cancelled",
+   "status": "working",
    "created": "2026-09-10 14:06",
    "created_ts": 1789063590,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -1375,16 +1368,14 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "usd": 500.0,
-   "closed": "2026-09-10 14:33",
-   "cancel_reason": "position closed"
+   "usd": 500.0
   },
   {
    "id": "d10d72ff",
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 129.3418,
-   "status": "cancelled",
+   "status": "working",
    "created": "2026-09-10 14:06",
    "created_ts": 1789063590,
    "why": "close 33% at +26.5% over the average cost",
@@ -1394,16 +1385,14 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0,
-   "closed": "2026-09-10 14:46",
-   "cancel_reason": "time stop closed the position"
+   "pct_of_position": 33.0
   },
   {
    "id": "dbb6ad40",
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 99.1728,
-   "status": "cancelled",
+   "status": "working",
    "created": "2026-09-10 14:06",
    "created_ts": 1789063590,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -1413,16 +1402,14 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "usd": 500.0,
-   "closed": "2026-09-10 14:46",
-   "cancel_reason": "time stop closed the position"
+   "usd": 500.0
   },
   {
    "id": "ed091ebd",
    "ticker": "NLR",
    "kind": "take_profit",
    "price": 145.6525,
-   "status": "cancelled",
+   "status": "working",
    "created": "2026-09-10 14:14",
    "created_ts": 1789064065,
    "why": "close 33% at +20.4% over the average cost",
@@ -1432,112 +1419,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0,
-   "closed": "2026-09-10 14:33",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0f0abe39",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 257.0555,
-   "status": "working",
-   "created": "2026-09-10 15:04",
-   "created_ts": 1789067098,
-   "why": "strong month, weak day: resting 1.5% under $260.97 to catch the dip",
-   "evidence": "+23.6% over the month, sitting at 27.3% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-15",
-   "usd": 998.85
-  },
-  {
-   "id": "8992ab5e",
-   "ticker": "GAIA",
-   "kind": "buy_limit",
-   "price": 1.4479,
-   "status": "working",
-   "created": "2026-09-10 15:04",
-   "created_ts": 1789067098,
-   "why": "strong month, weak day: resting 1.5% under $1.47 to catch the dip",
-   "evidence": "+18.6% over the month, sitting at 0.0% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-15",
-   "usd": 998.85
-  },
-  {
-   "id": "473ebce1",
-   "ticker": "DXYZ",
-   "kind": "buy_limit",
-   "price": 31.6579,
-   "status": "working",
-   "created": "2026-09-10 15:04",
-   "created_ts": 1789067098,
-   "why": "strong month, weak day: resting 1.5% under $32.14 to catch the dip",
-   "evidence": "+8.5% over the month, sitting at 43.1% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-15",
-   "usd": 998.85
-  },
-  {
-   "id": "c7dec8be",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 634.537,
-   "status": "working",
-   "created": "2026-09-10 15:04",
-   "created_ts": 1789067098,
-   "why": "strong month, weak day: resting 1.5% under $644.20 to catch the dip",
-   "evidence": "+7.5% over the month, sitting at 5.4% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-15",
-   "usd": 998.85
-  },
-  {
-   "id": "5c612059",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 497.1591,
-   "status": "working",
-   "created": "2026-09-10 15:04",
-   "created_ts": 1789067098,
-   "why": "strong month, weak day: resting 1.5% under $504.73 to catch the dip",
-   "evidence": "+6.4% over the month, sitting at 11.3% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-15",
-   "usd": 998.85
-  },
-  {
-   "id": "f3175036",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 99.4456,
-   "status": "working",
-   "created": "2026-09-10 15:04",
-   "created_ts": 1789067098,
-   "why": "strong month, weak day: resting 1.5% under $100.96 to catch the dip",
-   "evidence": "+3.3% over the month, sitting at 41.6% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-15",
-   "usd": 998.85
+   "pct_of_position": 33.0
   }
  ],
- "updated": "2026-09-10 15:04"
+ "updated": "2026-09-10 14:14"
 }

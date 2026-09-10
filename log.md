@@ -11,53 +11,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-
-## 2026-09-10 12:25 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
-  (CYBN excluded: no security information)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (holding GOOGN would not be bought today: not ordinary shares (depositary))
-brain: Book is fully bracketed with stops, take-profits, and add-on buy-limits across all 7 positions. Market is broadly red today (AMAT -2.45%, INTC -4.97%, CCJ -2.03%, NLR -3.43%, AMD -3.1%, NVDA -2.44%) with no fresh concrete evidence (no new congress/insider filings on held names, no breaking news) justifying new deployment. Consistent with repeated validated lesson: on choppy/red days with a small fully-bracketed book, holding beats forcing entries.
-lesson: On red macro days with all positions already bracketed and no new concrete evidence, holding and letting standing orders work continues to outperform forced new entries.
-  (re-pinned 3 order(s) to the new average cost)
-~ WORKING take_profit 33% CCJ @ $127.84 until 2026-09-15 — close 33% at +25.1% over the average cost
-~ WORKING take_profit 33% NLR @ $149.85 until 2026-09-15 — close 33% at +20.3% over the average cost
-~ WORKING take_profit 33% INTC @ $133.17 until 2026-09-15 — close 33% at +26.6% over the average cost
-portfolio: equity $24995.17 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
-Decision: nothing at this check. 21 standing order(s) working.
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
@@ -431,5 +384,17 @@ lesson: At the final check of a red/choppy day with zero positions and <1hr to c
 ~ WORKING buy_limit $998.85 META @ $634.54 until 2026-09-15 — strong month, weak day: resting 1.5% under $644.20 to catch the dip
 ~ WORKING buy_limit $998.85 AMD @ $497.16 until 2026-09-15 — strong month, weak day: resting 1.5% under $504.73 to catch the dip
 ~ WORKING buy_limit $998.85 INTC @ $99.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $100.96 to catch the dip
+portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
+Decision: nothing at this check. 6 standing order(s) working.
+
+## 2026-09-10 15:16 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
+  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+brain: Last check of the day (15:16 ET, close 16:00), zero positions, broad red tape (DIA -0.76%, SPY -0.62%, most names in bottom third of day range) and PPI/yield-driven risk-off headlines. Any new buy would be forced-closed within 30 minutes into this weakness, matching the last 8 lessons that all validated holding cash at this exact stage. No fresh concrete evidence justifies a same-day round trip here.
+lesson: At the final check of a red/choppy day with zero positions and under an hour to close, holding cash beats forcing a 30-minute round trip - this pattern has held for 8+ consecutive checks today.
 portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
 Decision: nothing at this check. 6 standing order(s) working.
