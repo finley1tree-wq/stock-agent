@@ -1,12 +1,3 @@
-## 2026-09-10 00:54 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-10 01:07 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-10 01:21 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
 ## 2026-09-10 01:34 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
 
@@ -398,3 +389,12 @@ lesson: On red macro days with a small, fully-bracketed fresh book, holding stea
 ~ WORKING take_profit 33% INTC @ $133.19 until 2026-09-15 — close 33% at +26.6% over the average cost
 portfolio: equity $24995.82 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
