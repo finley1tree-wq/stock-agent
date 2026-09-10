@@ -20,3 +20,4 @@
 - 2026-09-10 (2d graded, avg so far -2.08%): On red macro days with a small, fully-bracketed fresh book, holding steady and letting standing orders work continues to be validated - avoid forcing entries just to use budget.
 - 2026-09-10 (2d graded, avg so far -1.93%): Repeated confirmation: with a small fully-bracketed fresh book on a choppy/red day, holding and letting standing orders work beats forcing entries into weakness - only act on genuinely new evidence.
 - 2026-09-10 (2d graded, avg so far -2.15%): Continuing to validate: on choppy/red days with a small fully-bracketed book, holding and letting standing orders work beats forcing entries; only act on genuinely new, concrete evidence (fresh filing or headline), not just available budget.
+- 2026-09-10 (2d graded, avg so far -2.55%): On red macro days with all positions already bracketed and no new concrete evidence, holding and letting standing orders work continues to outperform forced new entries.
