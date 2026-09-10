@@ -1,15 +1,3 @@
-brain: Market is broadly red today (oil spike, SPY/DIA down, most positions slightly negative) and all my positions are already fresh (days_held=1) with stops/trailing-stops in place from yesterday. Past lessons consistently show that adding more buys on the same day after positions already popped or are fresh leads to no improvement - the winning move has been to let standing orders work. Nothing here screams new opportunity: CCJ/NLR/GOOGN slightly down, AMAT/SPY down on the day, only AMD/INTC still green. I'll add one more protective stop on GOOGN (unprotected, flagged as not ideal instrument) and otherwise sit tight.
-lesson: When most positions are fresh (days_held=1) with stops already in place and the broader market is red on macro news (oil spike), do not force new buys just because budget remains - let existing orders work and only patch missing protection (e.g., GOOGN had none).
-~ WORKING stop_loss 100% GOOGN @ $45.50 until 2026-09-12 — Protect the weakest/least-liquid holding (depositary receipt) from further slippage given broad market weakness today
-~ WORKING take_profit 50% AMAT @ $479.15 until 2026-09-14 — close 50% at +2.5% over the average cost
-~ WORKING buy_limit $25.00 AMAT @ $453.44 until 2026-09-14 — average in another $25 if it falls 3.0% below the average cost
-~ WORKING take_profit 50% CCJ @ $104.73 until 2026-09-14 — close 50% at +2.5% over the average cost
-~ WORKING buy_limit $25.00 CCJ @ $99.11 until 2026-09-14 — average in another $25 if it falls 3.0% below the average cost
-~ WORKING take_profit 50% SPY @ $787.40 until 2026-09-14 — close 50% at +2.5% over the average cost
-~ WORKING stop_loss 100% SPY @ $752.84 until 2026-09-14 — close it all at -2.0% under the average cost
-~ WORKING buy_limit $25.00 SPY @ $745.15 until 2026-09-14 — average in another $25 if it falls 3.0% below the average cost
-~ WORKING take_profit 50% NLR @ $127.73 until 2026-09-14 — close 50% at +2.5% over the average cost
-~ WORKING buy_limit $25.00 NLR @ $120.87 until 2026-09-14 — average in another $25 if it falls 3.0% below the average cost
 ~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
 ~ WORKING buy_limit $25.00 AMD @ $493.98 until 2026-09-14 — average in another $25 if it falls 3.0% below the average cost
 ~ WORKING take_profit 50% INTC @ $107.85 until 2026-09-14 — close 50% at +2.5% over the average cost
@@ -384,6 +372,18 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped AMAT: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped AMAT: below min order after caps ($25.00))
