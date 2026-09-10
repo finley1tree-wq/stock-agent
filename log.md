@@ -1,26 +1,3 @@
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
@@ -404,3 +381,20 @@ Decision: nothing at this check. 7 standing order(s) working.
   (trigger CCJ take_profit cancelled (position gone))
   (trigger INTC take_profit cancelled (position gone))
   (trigger NLR take_profit cancelled (position gone))
+
+## 2026-09-10 15:32 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
+  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+brain: 28 minutes to close, zero open positions, and any new buy would be force-fit into a 30-minute max-hold window that ends right at the close with no time for the position to work. Today's track record shows every 30-min forced round trip losing money (AMD -0.5%, GOOGN -1.21%, NLR -2.54%, CCJ -1.81%, INTC -0.95%), and the market is broadly red (DIA -0.73%, SPY -0.62%) with no fresh catalyst justifying a rushed entry. Better to sit flat into the close and reassess tomorrow with a full session ahead.
+lesson: Do not open new positions in the last 30 minutes of the trading day since max_hold_minutes forces an exit right at/after close with no time to work - only act late-day on protective triggers for existing holdings, not fresh buys.
+~ WORKING buy_limit $998.85 BE @ $255.49 until 2026-09-15 — strong month, weak day: resting 1.5% under $259.38 to catch the dip
+~ WORKING buy_limit $998.85 DXYZ @ $31.55 until 2026-09-15 — strong month, weak day: resting 1.5% under $32.03 to catch the dip
+~ WORKING buy_limit $998.85 META @ $633.71 until 2026-09-15 — strong month, weak day: resting 1.5% under $643.36 to catch the dip
+~ WORKING buy_limit $998.85 AMD @ $497.85 until 2026-09-15 — strong month, weak day: resting 1.5% under $505.43 to catch the dip
+~ WORKING buy_limit $998.85 TPL @ $362.38 until 2026-09-15 — strong month, weak day: resting 1.5% under $367.90 to catch the dip
+portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
+Decision: nothing at this check. 7 standing order(s) working.
