@@ -1,6 +1,3 @@
-~ WORKING trailing_stop 100% AMD @ trail 8.0% until 2026-09-12 — Lock in protection on the biggest one-day mover in the book
-~ WORKING trailing_stop 100% INTC @ trail 8.0% until 2026-09-12 — INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike
-~ WORKING buy_limit $15.00 CCJ @ $99.50 until 2026-09-12 — Add to nuclear theme on a pullback rather than chasing at current price
 portfolio: equity $399.86 (-0.03% on $400.00 in) · cash $160.00 · realised +0.00
 Decision: nothing at this check. 4 standing order(s) working.
 
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 08:48 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 09:01 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
