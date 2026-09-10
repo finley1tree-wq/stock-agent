@@ -1,6 +1,3 @@
-portfolio: equity $399.86 (-0.03% on $400.00 in) · cash $160.00 · realised +0.00
-Decision: nothing at this check. 4 standing order(s) working.
-
 ## 2026-09-08 12:17 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
   (ECF excluded: too thinly traded (21,038/day) — Ellsworth Growth and Income Fund Ltd.)
   (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 09:01 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 09:15 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
