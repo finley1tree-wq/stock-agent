@@ -1,7 +1,4 @@
 
-## 2026-09-07 11:04 ET (Monday) — week 2026-W37 — budget left $400.00 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed today (weekend or holiday). Nothing to do.
-
 ## 2026-09-07 11:30 ET (Monday) — week 2026-W37 — budget left $400.00 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed today (weekend or holiday). Nothing to do.
 
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 02:42 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 02:56 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
