@@ -100,6 +100,10 @@ jobs:
             # So when a decision is dispatched, this pass does NOT queue a tick; the decision run
             # restarts the chain when it finishes.
             gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
+            # NOTE: the watchdog must NOT dispatch agent.yml any more. Decisions now happen in the
+            # step above via --if-due, inside this same job. When the watchdog also dispatched one,
+            # the next queued tick cancelled it - every decision run on 2026-09-10 was cancelled
+            # that way, which is why the agent went a whole morning without thinking.
           else
             echo "market closed - idling, the chain stays awake so nothing has to wake it"
             sleep 600

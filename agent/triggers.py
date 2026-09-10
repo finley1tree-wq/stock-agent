@@ -331,7 +331,13 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
     scale_on = bool(scale.get("enabled"))
     max_tranches = int(scale.get("max_tranches", 1) or 1)
     add_drop = float(scale.get("add_after_drop_pct", 0) or 0)
+    # Sized as a fraction of the budget: a hard-coded dollar amount silently stopped working the
+    # moment the account changed size, and every add was dropped for months of checks.
+    budget = float(cfg.get("_weekly_budget", 0) or 0)
     add_usd = float(scale.get("add_usd", 0) or 0)
+    pct = float(scale.get("add_pct_of_budget", 0) or 0)
+    if pct > 0 and budget > 0:
+        add_usd = round(budget * pct / 100, 2)
 
     live = working(now)
     done = all_orders()

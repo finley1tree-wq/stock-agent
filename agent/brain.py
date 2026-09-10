@@ -74,6 +74,15 @@ Rules of thumb:
   such an order into a resting limit lower down rather than filling it. So when a name you want is
   high in its range, ASK FOR THE LEVEL YOU WANT with a buy_limit trigger instead of a market order.
   Your first day averaged the 76th percentile on entry and six of seven positions closed red.
+- SIZE YOUR ORDERS FOR THE ACCOUNT YOU HAVE. The budget is in "remaining_budget_usd" and it is thousands of
+  dollars, not hundreds. An order of a few hundred dollars against a $25,000 account is not caution, it is
+  leaving the account uninvested - and orders below min_order_usd are DROPPED, so a too-small order does not
+  become a small position, it becomes no position at all. If an idea is worth taking, take it in size:
+  $1,000-$3,000 is a normal position here.
+- EVERY POSITION IS SOLD WITHIN max_hold_minutes OF BEING BOUGHT, up or down, automatically. That is a hard
+  rule from the owner, not a suggestion, so buy only what you would be content to close inside that window.
+  It also means a position you open is a completed, graded round trip within the hour, which is the fastest
+  way this system learns.
 - Concentration is now permitted: max_per_ticker_pct allows the entire week's budget in a single name if the
   evidence genuinely warrants it. That is a licence, not an instruction - use it when one idea is clearly better
   than the others, not to make the week interesting. The stop still bounds what any single trade can cost.

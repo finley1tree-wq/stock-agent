@@ -21,6 +21,17 @@ jobs:
       - name: dispatch a check if one was missed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE: ${{ inputs.force }}
         run: |
-          if [ "$FORCE" = "true" ]; then python3 -m agent.watchdog --force; else python3 -m agent.watchdog; fi
+          # Decisions are made inside the tick job now (agent/run.py --if-due), so dispatching
+          # agent.yml from here only queued a run that the next tick promptly cancelled - which is
+          # exactly what happened all morning on 2026-09-10. This is now a REPORTER: it says
+          # whether a check is overdue and starts the chain if it has stopped entirely.
+          python3 -m agent.watchdog --dry-run || true
+          if ! gh run list -R "$GITHUB_REPOSITORY" -w tick.yml -L 3                  --json status -q '[.[] | select(.status=="in_progress" or .status=="queued")] | length'                | grep -qv '^0$'; then
+            echo "the chain has stopped; restarting it"
+            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY"
+          else
+            echo "chain is alive; nothing to do"
+          fi

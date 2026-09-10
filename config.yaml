@@ -26,7 +26,12 @@ guardrails:
                                  # The per-trade loss is still bounded by the stop (auto_bracket below),
                                  # so the risk this adds is concentration and overnight gap risk, not
                                  # an unbounded loss.
-  min_order_usd: 100             # at \$25,000 a \$5 order is noise; this keeps positions meaningful
+  min_order_pct_of_budget: 0.4   # smallest order worth placing, as a % of the weekly budget.
+                                 # Sizes are proportional so they cannot drift out of step with the
+                                 # account again: a hard-coded number silently stopped working the
+                                 # moment the account grew, and every order was dropped for a whole
+                                 # morning of checks.
+  min_order_usd: 100             # dollar floor; whichever of these two is larger wins
   max_entry_range_pct: 85        # Measured on 36,382 stock-days of this watchlist: the next-day edge
                                  # from buying low in the range is only 5-8 bps, about one round trip,
                                  # and the effect is threshold-shaped near 85 rather than linear at 60.
@@ -40,10 +45,18 @@ guardrails:
   max_daily_deploy_pct: 100      # the whole week's budget may go to work in a single day (tracked across the day's checks).
                                  # max_per_ticker_pct still forces it across at least 3 tickers, so 100% here means
                                  # fully invested, not all-in on one name.
-  max_orders_per_day: 24         # generous ceiling — it may trade as often as it needs; the dollar caps
+  max_orders_per_day: 60         # a 30-minute hold means ~13 slots a day per position line; these caps
+                                 # would otherwise become the real limit instead of the dollar caps
                                  # below are the real risk control, this only stops runaway churn
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
   only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
+  # Finley's rule: nothing is held longer than this, up or down. It forces the agent to take the
+  # trade in front of it instead of waiting for a better one, and it generates far more completed
+  # round trips - which is the point, because a closed trade is a graded trade.
+  # The cost is real and worth knowing: every round trip pays about 4bp, so ten a day is ~0.4%/day
+  # of pure friction before any decision is made. The 5-year replay found no measurable edge at a
+  # one-DAY horizon, let alone thirty minutes, so treat what this produces as data collection.
+  max_hold_minutes: 30
   max_hold_days: 20              # measured on 5y of this watchlist, per trade after costs:
                                  #   2d +0.143%   5d +0.431%   10d +1.060%   20d +1.850%
                                  # The whole exit stack was destroying ~96% of what the entries were worth:
@@ -56,7 +69,7 @@ guardrails:
                                  # is acted on now rather than two days later. Churn is held back instead by
                                  # max_orders_per_day / max_sells_per_day, the no-same-day-rebuy rule, and
                                  # spread_cost_pct below, which makes every round trip cost something.
-  max_sells_per_day: 12          # generous ceiling on sells per day
+  max_sells_per_day: 60          # must at least match the buys, or positions get stuck open
   allow_politician_tickers: true # may buy tickers Congress members recently bought, even if not on the watchlist
   politician_lookback_days: 30
   allow_insider_tickers: true    # may buy tickers with net insider (Form 4) buying, even if not on the watchlist
@@ -96,7 +109,8 @@ guardrails:
       enabled: true
       max_tranches: 3            # the first buy plus at most two adds
       add_after_drop_pct: 3.0    # only add once it is this far below the current average cost
-      add_usd: 25                # size of each add
+      add_pct_of_budget: 2.0     # each add is this % of the weekly budget, not a fixed dollar amount
+      add_usd: 0                 # (unused when the percentage above is set)
 
   spread_cost_pct: 0.02          # every MARKET fill is this much worse than the quoted price (buys pay up,
                                  # sells receive less), so a round trip costs ~0.04% as it would in reality.

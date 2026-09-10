@@ -274,6 +274,15 @@ def _at_price(broker, sym: str, price: float, fn):
         else:
             px_map[sym] = saved
 
+def _bracket_cfg(g: dict) -> dict:
+    """The auto_bracket block WITH the budget folded in.
+
+    Order sizes are a fraction of the weekly budget now, and the bracket only ever received its
+    own sub-dict - so without this the scale-in size silently computes to zero and the averaging-in
+    orders quietly stop existing. Caught by the basket test, which is exactly what it is for.
+    """
+    return {**(g.get("auto_bracket") or {}), "_weekly_budget": float(g.get("_weekly_budget", 0) or 0)}
+
 def time_stops(now, broker, positions, st, g, log_fn):
     """Close anything that has sat still too long.
 
@@ -283,14 +292,25 @@ def time_stops(now, broker, positions, st, g, log_fn):
     ahead. This is the rule that stops the book silently becoming a buy-and-hold portfolio.
     """
     days = int(g.get("max_hold_days", 0) or 0)
-    if not days or not hasattr(broker, "sell_qty"):
+    mins = int(g.get("max_hold_minutes", 0) or 0)
+    if (not days and not mins) or not hasattr(broker, "sell_qty"):
         return [], 0
     keep = float(g.get("time_stop_min_gain_pct", 0) or 0)
     stale = []
     for t, pos in (positions or {}).items():
-        if int(pos.get("days_held", 0)) < days:
-            continue
         pl = float(pos.get("unrealized_plpc") or 0)
+        held_m = pos.get("minutes_held")
+        # An intraday clock, when one is set, overrides the daily one: this is the rule that makes
+        # the agent take the trade it has rather than wait for one it might get. It fires whether
+        # the position is up or down - the point is the time, not the outcome.
+        if mins and held_m is not None and held_m >= mins:
+            stale.append({"ticker": t, "pct_of_position": 100,
+                          "why": f"held {held_m} min, the {mins}-minute limit: out regardless",
+                          "evidence": f"bought {held_m} min ago, {pl:+.2f}% unrealised",
+                          "signals": ["time_stop", "intraday_limit"]})
+            continue
+        if not days or int(pos.get("days_held", 0)) < days:
+            continue
         if pl >= keep:
             log_fn(f"  (holding {t}: {pos['days_held']}d old but {pl:+.2f}%, letting it run)")
             continue
@@ -436,6 +456,10 @@ def _tick_once(force: bool = False) -> None:
     cfg = config.load_config()
     env, g = cfg["env"], cfg["guardrails"]
     g["_weekly_budget"] = float(cfg["weekly_budget"])
+    # The smallest sensible order scales with the account, so it never drifts out of step again.
+    pct = float(g.get("min_order_pct_of_budget", 0) or 0)
+    if pct > 0:
+        g["min_order_usd"] = max(float(g.get("min_order_usd", 0) or 0), round(g["_weekly_budget"] * pct / 100, 2))
     broker = make_broker(cfg)
     now = datetime.now(ET)
     today = now.date()
@@ -464,7 +488,7 @@ def _tick_once(force: bool = False) -> None:
     bought, sold, did = fill_standing_orders(now, today, broker, broker.positions(), px, st, g,
                                              set(), remaining, sector_of, {}, log)
     if bought:            # averaging in moved the average cost, so the exits have to move with it
-        auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, g.get("auto_bracket") or {})
+        auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
         if auto:
             triggers.place(auto, now, set(broker.positions()), set(broker.positions()), px)
     st["last_check_ts"] = int(now.timestamp())
@@ -488,6 +512,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
     cfg = config.load_config()
     env, g = cfg["env"], cfg["guardrails"]
     g["_weekly_budget"] = float(cfg["weekly_budget"])
+    # The smallest sensible order scales with the account, so it never drifts out of step again.
+    pct = float(g.get("min_order_pct_of_budget", 0) or 0)
+    if pct > 0:
+        g["min_order_usd"] = max(float(g.get("min_order_usd", 0) or 0), round(g["_weekly_budget"] * pct / 100, 2))
     every_min = int(cfg.get("run_every_minutes", 30))
     broker = make_broker(cfg)
     is_sim = getattr(broker, "name", "") == "sim"
@@ -655,7 +683,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
                      "evidence": d.get("evidence") or f"was {d['was_at_pct']:.0f}% up the day's range",
                      "why": f"wanted it, but not at the high — resting at ${d['limit_price']:.2f}. {d.get('why','')}"[:240]})
     placed, trejected = triggers.place(want, now, set(broker.positions()), allowed, px)
-    auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, g.get("auto_bracket") or {})
+    auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
     if stale:
         log(f"  (re-pinned {stale} order(s) to the new average cost)")
     if auto:

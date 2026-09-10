@@ -143,7 +143,9 @@ class SimBroker:
                       # min_hold_days is enforced on this: adding to a position restarts the clock, so a fresh lot
                       # can't be flipped the same day just because the position is old
                       "days_since_buy": (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days,
-                      "tranches": int(pos.get("tranches", 1))}
+                      "tranches": int(pos.get("tranches", 1)),
+                      "minutes_held": round((datetime.now(ET).timestamp() - float(pos.get("last_buy_ts") or 0)) / 60)
+                                      if pos.get("last_buy_ts") else None}
         return out
 
     def summary(self) -> dict:
@@ -172,10 +174,12 @@ class SimBroker:
             pos["qty"] += qty
             pos["avg_cost"] = total_cost / pos["qty"]
             pos["last_buy"] = today
+            pos["last_buy_ts"] = int(datetime.now(ET).timestamp())    # for the intraday hold clock
             pos["tranches"] = int(pos.get("tranches", 1)) + 1     # how many times it has averaged in
         else:
             self.p["positions"][symbol] = {"qty": qty, "avg_cost": fill, "opened": today,
-                                           "last_buy": today, "tranches": 1}
+                                           "last_buy": today, "tranches": 1,
+                                           "last_buy_ts": int(datetime.now(ET).timestamp())}
         self.p["cash"] -= usd                          # exact, see _weekly_deposit
         rec.update({"status": "filled", "qty": round(qty, 6), "price": _px(fill), "notional": usd})
         self.p["fills"].append({**rec, "type": "buy", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})
