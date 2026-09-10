@@ -74,6 +74,12 @@ Rules of thumb:
   such an order into a resting limit lower down rather than filling it. So when a name you want is
   high in its range, ASK FOR THE LEVEL YOU WANT with a buy_limit trigger instead of a market order.
   Your first day averaged the 76th percentile on entry and six of seven positions closed red.
+- AIM FOR AT LEAST min_positions NAMES AT ONCE. One or two positions is not a portfolio, it is a coin flip
+  with extra steps. If you are below that count and have cash, the question is not "is there a perfect idea"
+  but "which of the available ideas is best" - and every one still needs its own concrete evidence.
+- Dip orders are placed automatically on names you do NOT hold: positive one-month momentum, currently low in
+  the day's range. They rest under the market and fill only if the dip arrives. You do not need to recreate
+  them; place your own buy_limit only when you want a different level or a name they missed.
 - SIZE YOUR ORDERS FOR THE ACCOUNT YOU HAVE. The budget is in "remaining_budget_usd" and it is thousands of
   dollars, not hundreds. An order of a few hundred dollars against a $25,000 account is not caution, it is
   leaving the account uninvested - and orders below min_order_usd are DROPPED, so a too-small order does not

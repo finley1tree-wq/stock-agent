@@ -606,6 +606,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "market_close_et": close_time(today).strftime("%H:%M"), "last_trading_day_of_week": last_trading_day_of_week(today),
         "friday_cleanup": cleanup and not nothing_to_buy, "checks_left_today": checks_left, "run_every_minutes": every_min,
         "full_deployment": _full_deployment(today, g),
+        "positions_held": len(positions), "min_positions": int(g.get("min_positions", 0) or 0),
+        "below_target_position_count": len(positions) < int(g.get("min_positions", 0) or 0),
         "portfolio": broker.summary() if is_sim else {"cash": broker.cash()},
         "current_positions": positions,
         "holdings_that_would_not_be_bought_today": flagged,
@@ -684,6 +686,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
                      "why": f"wanted it, but not at the high — resting at ${d['limit_price']:.2f}. {d.get('why','')}"[:240]})
     placed, trejected = triggers.place(want, now, set(broker.positions()), allowed, px)
     auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
+    # Rest dip orders on names it does NOT hold, so a dip can be an entry and not just an average-down.
+    auto += triggers.dip_hunt(now, set(broker.positions()), allowed, px, g.get("dip_hunt") or {}, remaining)
     if stale:
         log(f"  (re-pinned {stale} order(s) to the new average cost)")
     if auto:

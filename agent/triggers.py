@@ -399,6 +399,50 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             want.append(row)
     return want, cancelled
 
+def dip_hunt(now: datetime, held: set, allowed: set, px: dict, cfg: dict, budget: float) -> list[dict]:
+    """Rest buy orders UNDER the market on names it does not own yet.
+
+    Until now the only buy-limit the agent could place was scale_in, which averages down into a
+    position it already holds. So it could never buy a dip as an ENTRY - only add to something
+    already going against it. That is backwards, and it is why no dip order ever fired on a new
+    name.
+
+    What gets an order: names with positive one-month momentum, which is the one signal the
+    5-year replay measured as real (+0.37% at 5d, t=3.2), that are currently in the LOWER part of
+    today's range. Strong stock, weak day - the order sits below the market and fills only if the
+    dip actually comes to it.
+    """
+    if not cfg or not cfg.get("enabled", True) or budget <= 0:
+        return []
+    n = int(cfg.get("names", 6) or 6)
+    below = float(cfg.get("below_pct", 1.5) or 1.5)
+    usd = round(budget * float(cfg.get("usd_pct_of_budget", 4) or 4) / 100, 2)
+    if usd <= 0:
+        return []
+    live = {(o["ticker"], o["kind"]) for o in working(now)}
+    cands = []
+    for t in sorted(set(allowed) - set(held)):
+        q = px.get(t) or {}
+        price, m1m = q.get("price"), q.get("change_1m_pct")
+        rng = q.get("pct_of_day_range")
+        if not price or m1m is None or m1m <= 0:
+            continue                                   # only names with the measured signal behind them
+        if rng is not None and rng > 60:
+            continue                                   # not a dip if it is near the day's high
+        cands.append((m1m, t, price, rng))
+    cands.sort(reverse=True)
+    out = []
+    for m1m, t, price, rng in cands[:n]:
+        if (t, "buy_limit") in live:
+            continue
+        level = px_round(price * (1 - below / 100))
+        out.append({"ticker": t, "kind": "buy_limit", "price": level, "usd": usd,
+                    "pct_of_position": 0, "trail_pct": 0, "good_until": "",
+                    "signals": ["momentum", "dip_entry"],
+                    "evidence": f"+{m1m:.1f}% over the month, sitting at {rng if rng is not None else '?'}% of today's range",
+                    "why": f"strong month, weak day: resting {below:.1f}% under ${price:.2f} to catch the dip"})
+    return out
+
 def summary(px: dict, now: datetime | None = None) -> list[dict]:
     """Working book for the brain and the dashboard, with distance to each level."""
     out = []

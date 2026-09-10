@@ -56,6 +56,17 @@ guardrails:
   # The cost is real and worth knowing: every round trip pays about 4bp, so ten a day is ~0.4%/day
   # of pure friction before any decision is made. The 5-year replay found no measurable edge at a
   # one-DAY horizon, let alone thirty minutes, so treat what this produces as data collection.
+  # Rest buy orders UNDER the market on names it does not own, so a dip is an ENTRY rather than
+  # only an average-down into something already losing. Candidates need positive one-month
+  # momentum - the one signal the 5-year replay measured as real - AND to be in the lower part of
+  # today's range. Strong stock, weak day.
+  dip_hunt:
+    enabled: true
+    names: 6                     # how many resting dip orders to keep out at once
+    below_pct: 1.5               # how far under the current price each one sits
+    usd_pct_of_budget: 4.0       # size of each ($1,000 at a $25,000 budget)
+  min_positions: 5               # aim to have at least this many names working at once
+
   max_hold_minutes: 30
   max_hold_days: 20              # measured on 5y of this watchlist, per trade after costs:
                                  #   2d +0.143%   5d +0.431%   10d +1.060%   20d +1.850%
