@@ -44,7 +44,7 @@
    "ticker": "INTC",
    "kind": "trailing_stop",
    "price": 98.0168,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-08 12:13",
    "created_ts": 1788883985,
    "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
@@ -56,7 +56,9 @@
    "good_until": "2026-09-12",
    "pct_of_position": 100.0,
    "trail_pct": 8.0,
-   "high_water": 106.54
+   "high_water": 106.54,
+   "closed": "2026-09-10 14:46",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "97e68e5c",
@@ -82,7 +84,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 97.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-08 12:17",
    "created_ts": 1788884250,
    "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
@@ -91,7 +93,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-10 14:46",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "6f6b7f43",
@@ -1323,7 +1327,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 124.5031,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 14:06",
    "created_ts": 1789063590,
    "why": "close 33% at +25.2% over the average cost",
@@ -1333,7 +1337,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 14:46",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8d1d82a3",
@@ -1378,7 +1384,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 129.3418,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 14:06",
    "created_ts": 1789063590,
    "why": "close 33% at +26.5% over the average cost",
@@ -1388,14 +1394,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 14:46",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "dbb6ad40",
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 99.1728,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 14:06",
    "created_ts": 1789063590,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -1405,7 +1413,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-10 14:46",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ed091ebd",
@@ -1427,5 +1437,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-10 14:33"
+ "updated": "2026-09-10 14:46"
 }

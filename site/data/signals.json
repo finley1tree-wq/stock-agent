@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-10T14:33-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-10T14:46-04:00",
+ "note": "Late day (14:46 ET, close 16:00), flat book with no open positions after 7 same-day round trips already realized -$28.80 net. Market is broadly red (DIA -0.73%, most names in bottom third of day range like CCJ, NLR, OKLO, HD, UNH). With only ~1hr left and max_hold_minutes=30, any new buy now would b",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -116,93 +116,342 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
+ "working_orders": [],
+ "next_check_minutes": 45,
+ "allowed": [
+  "AAPL",
+  "AEP",
+  "ALKS",
+  "AMD",
+  "AMZN",
+  "APP",
+  "AVGO",
+  "BE",
+  "CCJ",
+  "COIN",
+  "DIA",
+  "DXYZ",
+  "ELTP",
+  "EPAC",
+  "FITB",
+  "FRST",
+  "GAIA",
+  "GBCI",
+  "GLD",
+  "GOOGL",
+  "HD",
+  "IBM",
+  "INTC",
+  "LMT",
+  "META",
+  "MSFT",
+  "NEM",
+  "NLR",
+  "NOC",
+  "NVDA",
+  "O",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "PRAX",
+  "RTX",
+  "SAIL",
+  "SKWD",
+  "SPY",
+  "TPL",
+  "TSM",
+  "UBER",
+  "UNH",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "insiders": "ok",
+  "excluded_instruments": [
+   "ATLO excluded: too thinly traded (56,146/day) \u2014 Ames National Corporation",
+   "CSBB excluded: too thinly traded (667/day) \u2014 CSB Bancorp, Inc.",
+   "FUSB excluded: too thinly traded (14,817/day) \u2014 First US Bancshares, Inc.",
+   "GF excluded: too thinly traded (27,217/day) \u2014 The New Germany Fund, Inc.",
+   "GIPL excluded: too thinly traded (366/day) \u2014 Global Innovative Platforms Inc.",
+   "IRIX excluded: too thinly traded (67,237/day) \u2014 IRIDEX Corporation",
+   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust",
+   "RCG excluded: too thinly traded (5,209/day) \u2014 RENN Fund, Inc."
+  ]
+ },
+ "learning": {
+  "horizon": "1d",
+  "decisions_recorded": 26,
+  "decisions_graded": 15,
+  "decisions_with_buys_graded": 3,
+  "independent_days_graded": 2,
+  "avg_regret_pct": 0.09,
+  "chosen_avg_pct": -1.02,
+  "skipped_avg_pct": -0.93,
+  "idle_universe_avg_pct": -0.98,
+  "picking_beats_random": false,
+  "avg_fraction_of_universe_bought": 0.02,
+  "checks_that_bought_everything": 0,
+  "by_signal_chosen": {
+   "congress": {
+    "n": 4,
+    "avg_pct": 0.54
+   },
+   "etf_default": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "momentum": {
+    "n": 6,
+    "avg_pct": -0.18
+   },
+   "news": {
+    "n": 7,
+    "avg_pct": -0.4
+   },
+   "risk_management": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "track_record": {
+    "n": 2,
+    "avg_pct": -2.27
+   }
+  },
+  "biggest_misses": [
+   {
+    "ticker": "AMD",
+    "fwd_pct": 3.27,
+    "sector": "off-watchlist",
+    "m1m_then": 4.9,
+    "congress": 1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "SKWD",
+    "fwd_pct": 2.8,
+    "sector": "off-watchlist",
+    "m1m_then": -10.0,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "INTC",
+    "fwd_pct": 2.23,
+    "sector": "off-watchlist",
+    "m1m_then": 2.2,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "NEM",
+    "fwd_pct": 1.03,
+    "sector": "gold",
+    "m1m_then": 13.5,
+    "congress": 0,
+    "insider": 0
+   },
+   {
+    "ticker": "AEP",
+    "fwd_pct": 1.02,
+    "sector": "off-watchlist",
+    "m1m_then": 1.1,
+    "congress": 1.0,
+    "insider": 0
+   }
+  ],
+  "biggest_avoided": [
+   {
+    "ticker": "OKLO",
+    "fwd_pct": -4.79
+   },
+   {
+    "ticker": "BE",
+    "fwd_pct": -4.55
+   },
+   {
+    "ticker": "SAIL",
+    "fwd_pct": -4.35
+   }
+  ],
+  "sectors_most_often_missed": {
+   "off-watchlist": {
+    "n": 6
+   },
+   "gold": {
+    "n": 2
+   },
+   "defense": {
+    "n": 2
+   }
+  },
+  "idle_checks": 21,
+  "blocked_checks": 0,
+  "idle_share": 0.81,
+  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
+  "evidence_strength": "anecdote",
+  "how_many_days_before_this_means_anything": 30,
+  "warning": "only 2 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+ },
+ "disclosure_leaderboard": [
   {
-   "id": "13c3e9d0",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 97.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 97.66,
-   "pct_away": -0.68,
-   "good_until": "2026-09-12",
-   "why": "Add downside protection on CCJ since AMAT/AMD/INTC already have stops but CCJ does not",
-   "signals": [
-    "risk_management"
-   ]
+   "who": "Tim Moore",
+   "disclosed_buys_scored": 22,
+   "avg_excess_pct": 4.76,
+   "beat_index_rate": 0.64,
+   "best": {
+    "ticker": "CBRL",
+    "excess_pct": 20.0,
+    "disclosed": "2026-01-07"
+   }
   },
   {
-   "id": "dbb6ad40",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 99.1728,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 101.28,
-   "pct_away": -2.08,
-   "good_until": "2026-09-15",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
+   "who": "Robert E. Latta",
+   "disclosed_buys_scored": 4,
+   "avg_excess_pct": 4.63,
+   "beat_index_rate": 0.75,
+   "best": {
+    "ticker": "FMAO",
+    "excess_pct": 7.7,
+    "disclosed": "2026-06-05"
+   }
   },
   {
-   "id": "68402e49",
-   "ticker": "INTC",
-   "kind": "trailing_stop",
-   "price": 98.0168,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": 8.0,
-   "last": 101.28,
-   "pct_away": -3.22,
-   "good_until": "2026-09-12",
-   "why": "INTC already listed as biggest miss in track record (-0.74%); protect further downside after the spike",
-   "signals": [
-    "risk_management",
-    "momentum"
-   ]
+   "who": "Rick Larsen",
+   "disclosed_buys_scored": 9,
+   "avg_excess_pct": 4.07,
+   "beat_index_rate": 0.78,
+   "best": {
+    "ticker": "CASY",
+    "excess_pct": 10.2,
+    "disclosed": "2026-04-15"
+   }
   },
   {
-   "id": "231c7c60",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 124.5031,
-   "usd": null,
-   "pct_of_position": 33.0,
-   "trail_pct": null,
-   "last": 97.66,
-   "pct_away": 27.49,
-   "good_until": "2026-09-15",
-   "why": "close 33% at +25.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
+   "who": "Tim Walberg",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 3.74,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "UA",
+    "excess_pct": 25.4,
+    "disclosed": "2026-06-03"
+   }
   },
   {
-   "id": "d10d72ff",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 129.3418,
-   "usd": null,
-   "pct_of_position": 33.0,
-   "trail_pct": null,
-   "last": 101.28,
-   "pct_away": 27.71,
-   "good_until": "2026-09-15",
-   "why": "close 33% at +26.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
+   "who": "Rick W. Allen",
+   "disclosed_buys_scored": 6,
+   "avg_excess_pct": 2.81,
+   "beat_index_rate": 0.67,
+   "best": {
+    "ticker": "SPGI",
+    "excess_pct": 7.4,
+    "disclosed": "2026-02-17"
+   }
+  },
+  {
+   "who": "Jared Moskowitz",
+   "disclosed_buys_scored": 33,
+   "avg_excess_pct": 2.33,
+   "beat_index_rate": 0.48,
+   "best": {
+    "ticker": "PANW",
+    "excess_pct": 62.0,
+    "disclosed": "2026-04-30"
+   }
+  },
+  {
+   "who": "Michael A. Rulli",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 2.04,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "MU",
+    "excess_pct": 14.9,
+    "disclosed": "2026-08-07"
+   }
+  },
+  {
+   "who": "Jonathan L. Jackson",
+   "disclosed_buys_scored": 18,
+   "avg_excess_pct": 2.03,
+   "beat_index_rate": 0.61,
+   "best": {
+    "ticker": "C",
+    "excess_pct": 16.4,
+    "disclosed": "2026-03-12"
+   }
+  },
+  {
+   "who": "David J. Taylor",
+   "disclosed_buys_scored": 67,
+   "avg_excess_pct": 1.1,
+   "beat_index_rate": 0.51,
+   "best": {
+    "ticker": "MEDP",
+    "excess_pct": 20.9,
+    "disclosed": "2026-05-28"
+   }
+  },
+  {
+   "who": "Maria Elvira Salazar",
+   "disclosed_buys_scored": 49,
+   "avg_excess_pct": 1.02,
+   "beat_index_rate": 0.43,
+   "best": {
+    "ticker": "MRVL",
+    "excess_pct": 69.6,
+    "disclosed": "2026-05-08"
+   }
+  },
+  {
+   "who": "Josh Gottheimer",
+   "disclosed_buys_scored": 36,
+   "avg_excess_pct": 0.84,
+   "beat_index_rate": 0.53,
+   "best": {
+    "ticker": "AMD",
+    "excess_pct": 27.7,
+    "disclosed": "2026-05-19"
+   }
+  },
+  {
+   "who": "Thomas H. Kean",
+   "disclosed_buys_scored": 13,
+   "avg_excess_pct": 0.82,
+   "beat_index_rate": 0.46,
+   "best": {
+    "ticker": "WPM",
+    "excess_pct": 20.8,
+    "disclosed": "2026-07-15"
+   }
   }
  ],
- "next_check_minutes": null,
+ "disclosure_leaderboard_meta": {
+  "built": "2026-09-10",
+  "horizon_days": 30,
+  "buys_scored": 1136,
+  "measured_from": "disclosure date, not transaction date",
+  "benchmark": "SPY",
+  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
+ },
+ "disclosure_significance": {
+  "members": 25,
+  "best": "Tim Moore",
+  "best_avg_excess_pct": 4.76,
+  "best_t_stat": 2.18,
+  "members_weighted": 0,
+  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
+  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
+ },
+ "wallet_moves": [],
+ "wallet_status": {
+  "followed_total": 0,
+  "checked_this_pass": 0,
+  "starting_at": 0,
+  "names": []
+ },
  "congress_trades": [
   {
    "who": "Lloyd Doggett",
@@ -949,6 +1198,36 @@
  },
  "insider_trades": [
   {
+   "who": "Wilkins Aaron",
+   "role": "officer: CFO",
+   "ticker": "NWPX",
+   "type": "sell",
+   "shares": 1500,
+   "price": 106.52,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-10"
+  },
+  {
+   "who": "LARSON KEITH R",
+   "role": "director",
+   "ticker": "NWPX",
+   "type": "sell",
+   "shares": 1000,
+   "price": 105.8688,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-10"
+  },
+  {
+   "who": "ROMAN RICHARD A",
+   "role": "director",
+   "ticker": "NWPX",
+   "type": "sell",
+   "shares": 4000,
+   "price": 105.7192,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-10"
+  },
+  {
    "who": "Lo Andrew Tak Shing",
    "role": "officer: Senior Managing Director",
    "ticker": "IVZ",
@@ -1327,46 +1606,6 @@
    "price": 210,
    "transaction_date": "2026-09-08",
    "filing_date": "2026-09-10"
-  },
-  {
-   "who": "Azaria Eynav",
-   "role": "officer: See Remarks",
-   "ticker": "KLTR",
-   "type": "sell",
-   "shares": 12341,
-   "price": 1.4875,
-   "transaction_date": "2026-09-08",
-   "filing_date": "2026-09-10"
-  },
-  {
-   "who": "Azaria Eynav",
-   "role": "officer: See Remarks",
-   "ticker": "KLTR",
-   "type": "sell",
-   "shares": 10078,
-   "price": 1.4801,
-   "transaction_date": "2026-09-09",
-   "filing_date": "2026-09-10"
-  },
-  {
-   "who": "Bendza Gary Mark",
-   "role": "officer: EVP, CFO",
-   "ticker": "TLS",
-   "type": "sell",
-   "shares": 200000,
-   "price": 4.55,
-   "transaction_date": "2026-09-09",
-   "filing_date": "2026-09-10"
-  },
-  {
-   "who": "GOLDMAN NEAL I",
-   "role": "director",
-   "ticker": "KLNG",
-   "type": "sell",
-   "shares": 7740,
-   "price": 3.12,
-   "transaction_date": "2026-09-04",
-   "filing_date": "2026-09-10"
   }
  ],
  "insider_pressure": {
@@ -1443,58 +1682,46 @@
     "when": "2026-08-21T16:40"
    }
   ],
-  "AMAT": [
-   {
-    "title": "Applied Materials CEO Says the AI Boom Is Nowhere Near Over. His Order Book Is the Proof",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T16:10"
-   },
-   {
-    "title": "Should Investors Buy ASML as AI Growth Meets a Premium Valuation?",
-    "source": "Zacks",
-    "when": "2026-09-10T14:38"
-   },
-   {
-    "title": "Lam Research Returns $5B+ to Shareholders in FY26: Can It Reward More?",
-    "source": "Zacks",
-    "when": "2026-09-10T13:42"
-   }
-  ],
   "AMD": [
    {
-    "title": "Can Marvell Stock Make You Money Before Its Hyperscaler Deal Pays Off?",
-    "source": "Trefis",
-    "when": "2026-09-10T17:32"
+    "title": "Piper Sandler Has a Message for AMD Stock Investors",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:37"
    },
    {
-    "title": "An Nvidia Move Just Put AMD and Intel on the Defensive",
-    "source": "Motley Fool",
-    "when": "2026-09-10T17:26"
+    "title": "AMD Falls 2.5% After Declaring a $2 Trillion AI Prize",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:30"
    },
    {
-    "title": "Nvidia Has the AI Hype. AMD Has the Valuation. I\u2019d Buy This Stock.",
+    "title": "Cathie Wood Is Selling AMD Before MI450 Arrives. Is She About to Miss Another Nvidia?",
     "source": "24/7 Wall St.",
-    "when": "2026-09-10T16:00"
+    "when": "2026-09-10T18:10"
    }
   ],
   "AMZN": [
    {
+    "title": "Goldman Sachs Has Blunt Message for AI Stock Investors",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:34"
+   },
+   {
+    "title": "Is The AI Capex Surge A Threat To Amazon Stock?",
+    "source": "Trefis",
+    "when": "2026-09-10T18:06"
+   },
+   {
     "title": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
     "source": "24/7 Wall St.",
     "when": "2026-09-10T17:47"
-   },
-   {
-    "title": "Is IBM Stock A Buy After Missing On Transaction Processing?",
-    "source": "Trefis",
-    "when": "2026-09-10T17:43"
-   },
-   {
-    "title": "Sector Update: Tech Stocks Decline Thursday Afternoon",
-    "source": "MT Newswires",
-    "when": "2026-09-10T17:35"
    }
   ],
   "APP": [
+   {
+    "title": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:20"
+   },
    {
     "title": "Digital Turbine Advances 6% Despite Shelf Registration Overhang, AppLovin Rises 4%, Trade Desk and Magnite Sit Out the Rally",
     "source": "24/7 Wall St.",
@@ -1504,14 +1731,14 @@
     "title": "ServiceTitan Q2 Earnings Call Highlights",
     "source": "MarketBeat",
     "when": "2026-09-08T23:03"
-   },
-   {
-    "title": "Evercore Warns AI IPOs Could Pressure These Struggling Stocks. IBM and AppLovin Face Different Tests",
-    "source": "Insider Monkey",
-    "when": "2026-09-07T20:45"
    }
   ],
   "AVGO": [
+   {
+    "title": "Marvell Technology vs. Broadcom: Comparing Revenue Trends Between These Artificial Intelligence Companies",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:17"
+   },
    {
     "title": "The Portfolio You Need to Generate $500 a Month in Dividend Income",
     "source": "24/7 Wall St.",
@@ -1521,11 +1748,6 @@
     "title": "Can Marvell Stock Make You Money Before Its Hyperscaler Deal Pays Off?",
     "source": "Trefis",
     "when": "2026-09-10T17:32"
-   },
-   {
-    "title": "The Case for Broadcom Over Nvidia Strengthens in September",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T16:58"
    }
   ],
   "BE": [
@@ -1547,6 +1769,11 @@
   ],
   "CCJ": [
    {
+    "title": "Cameco vs. TMC The Metals Co: Is a Uranium Stock or Rare Earth Metals Venture the Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:12"
+   },
+   {
     "title": "Energy Fuels Down 28% in the Past 6 Months: How to Play the Stock?",
     "source": "Zacks",
     "when": "2026-09-09T15:34"
@@ -1555,11 +1782,23 @@
     "title": "Cameco Controls the Uranium Refinery That Canada Cannot Afford to Lose",
     "source": "Motley Fool",
     "when": "2026-09-09T07:30"
+   }
+  ],
+  "COIN": [
+   {
+    "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
+    "source": "MT Newswires",
+    "when": "2026-09-10T17:54"
    },
    {
-    "title": "Jefferies Sees Cameco (CCJ) and BWXT as Winners in the Nuclear Boom",
-    "source": "Insider Monkey",
-    "when": "2026-09-07T22:29"
+    "title": "Hyperliquid Just Became the Fifth-Largest Holding in Hashdex\u2019s Crypto ETF. Multicoin Is Selling Into It",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-10T16:54"
+   },
+   {
+    "title": "Coinbase, Moov Bring Stablecoin Payments to Over 1,000 US Community Banks",
+    "source": "CryptoProwl",
+    "when": "2026-09-10T15:51"
    }
   ],
   "DIA": [
@@ -1722,31 +1961,14 @@
     "when": "2026-09-09T20:20"
    },
    {
-    "title": "Alphabet Edges Higher as $15 Billion Nuclear Bet Locks In AI Power",
+    "title": "Barclays Hikes S&P 500 Target to 7,950 on Strong Earnings",
     "source": "GuruFocus.com",
-    "when": "2026-09-10T17:50"
+    "when": "2026-09-10T18:44"
    },
    {
-    "title": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T17:47"
-   }
-  ],
-  "GOOGN": [
-   {
-    "title": "Alphabet Edges Higher as $15 Billion Nuclear Bet Locks In AI Power",
+    "title": "Goldman Sachs Has Blunt Message for AI Stock Investors",
     "source": "GuruFocus.com",
-    "when": "2026-09-10T17:50"
-   },
-   {
-    "title": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T17:47"
-   },
-   {
-    "title": "Is IBM Stock A Buy After Missing On Transaction Processing?",
-    "source": "Trefis",
-    "when": "2026-09-10T17:43"
+    "when": "2026-09-10T18:34"
    }
   ],
   "HD": [
@@ -1785,6 +2007,11 @@
   ],
   "INTC": [
    {
+    "title": "Intel Stock Plunges 4% as Piper Sandler Turns Neutral on Chipmaker",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:22"
+   },
+   {
     "title": "Can Marvell Stock Make You Money Before Its Hyperscaler Deal Pays Off?",
     "source": "Trefis",
     "when": "2026-09-10T17:32"
@@ -1793,11 +2020,6 @@
     "title": "An Nvidia Move Just Put AMD and Intel on the Defensive",
     "source": "Motley Fool",
     "when": "2026-09-10T17:26"
-   },
-   {
-    "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
-    "source": "Barrons.com",
-    "when": "2026-09-10T15:10"
    }
   ],
   "LMT": [
@@ -1819,36 +2041,36 @@
   ],
   "META": [
    {
-    "title": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T17:47"
+    "title": "Barclays Hikes S&P 500 Target to 7,950 on Strong Earnings",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:44"
    },
    {
-    "title": "India\u2019s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
-    "source": "TechCrunch",
-    "when": "2026-09-10T17:45"
+    "title": "Meta Shares Rise as Muse Cracks App Store's Top Three",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:42"
    },
    {
-    "title": "Should You Buy Meta Stock For Cash Flow It Plans To Spend?",
-    "source": "Trefis",
-    "when": "2026-09-10T17:18"
+    "title": "Goldman Sachs Has Blunt Message for AI Stock Investors",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:34"
    }
   ],
   "MSFT": [
    {
-    "title": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T17:47"
+    "title": "Microsoft's New School AI Rules Sacrifice Data to Preserve Access",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:45"
    },
    {
-    "title": "Is IBM Stock A Buy After Missing On Transaction Processing?",
-    "source": "Trefis",
-    "when": "2026-09-10T17:43"
+    "title": "Goldman Sachs Has Blunt Message for AI Stock Investors",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:34"
    },
    {
-    "title": "Should You Buy Meta Stock For Cash Flow It Plans To Spend?",
-    "source": "Trefis",
-    "when": "2026-09-10T17:18"
+    "title": "C3.ai vs. Atlassian: Which Technology Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:08"
    }
   ],
   "NEM": [
@@ -1914,9 +2136,9 @@
     "when": "2026-09-10T13:56"
    },
    {
-    "title": "Micron's 662% Rally Has Created a Very Different Problem",
-    "source": "GuruFocus.com",
-    "when": "2026-09-10T18:12"
+    "title": "This Pipeline Stock Has Raised Its Dividend for 31 Straight Years. Almost Nobody Talks About It.",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:35"
    }
   ],
   "O": [
@@ -1972,6 +2194,11 @@
   ],
   "PLTR": [
    {
+    "title": "Not Nvidia, Not Palantir. This Might Be September's Most Important AI Infrastructure Stock.",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:24"
+   },
+   {
     "title": "Palantir Taps Nvidia for High-Stakes AI Push",
     "source": "GuruFocus.com",
     "when": "2026-09-10T17:28"
@@ -1980,11 +2207,6 @@
     "title": "Nvidia and Palantir Land Historic AI Partnership",
     "source": "GuruFocus.com",
     "when": "2026-09-10T16:59"
-   },
-   {
-    "title": "Nvidia Just Handed Its 1.3 Million-Part Supply Chain to a Stock Cramer Called Ice Cold",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T16:48"
    }
   ],
   "PRAX": [
@@ -2113,14 +2335,14 @@
     "when": "2026-09-09T20:15"
    },
    {
-    "title": "Uber shares rise after CEO buys $10M of stock",
-    "source": "Investing.com",
-    "when": "2026-09-10T17:34"
+    "title": "UBER Stock Jumps After CEO Dara Khosrowshahi Buys $10 Million In Shares",
+    "source": "Stocktwits",
+    "when": "2026-09-10T18:28"
    },
    {
-    "title": "Serve Robotics Stock Slides 55% YTD: Should You Buy the Dip or Wait?",
-    "source": "Zacks",
-    "when": "2026-09-10T16:29"
+    "title": "Walmart Takes Direct Aim at DoorDash and Uber",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:23"
    }
   ],
   "UNH": [
@@ -2159,339 +2381,5 @@
   ]
  },
  "people_news": {},
- "allowed": [
-  "AAPL",
-  "AEP",
-  "ALKS",
-  "AMD",
-  "AMZN",
-  "APP",
-  "AVGO",
-  "BE",
-  "CCJ",
-  "COIN",
-  "DIA",
-  "DXYZ",
-  "ELTP",
-  "EPAC",
-  "FITB",
-  "FRST",
-  "GAIA",
-  "GBCI",
-  "GLD",
-  "GOOGL",
-  "HD",
-  "IBM",
-  "INTC",
-  "LMT",
-  "META",
-  "MSFT",
-  "NEM",
-  "NLR",
-  "NOC",
-  "NVDA",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "PRAX",
-  "RTX",
-  "SAIL",
-  "SKWD",
-  "SPY",
-  "TPL",
-  "TSM",
-  "UBER",
-  "UNH",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
-  "insiders": "ok",
-  "excluded_instruments": [
-   "ATLO excluded: too thinly traded (56,146/day) \u2014 Ames National Corporation",
-   "CSBB excluded: too thinly traded (667/day) \u2014 CSB Bancorp, Inc.",
-   "FUSB excluded: too thinly traded (14,817/day) \u2014 First US Bancshares, Inc.",
-   "GF excluded: too thinly traded (27,217/day) \u2014 The New Germany Fund, Inc.",
-   "GIPL excluded: too thinly traded (366/day) \u2014 Global Innovative Platforms Inc.",
-   "IRIX excluded: too thinly traded (67,237/day) \u2014 IRIDEX Corporation",
-   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust",
-   "RCG excluded: too thinly traded (5,209/day) \u2014 RENN Fund, Inc."
-  ]
- },
- "learning": {
-  "horizon": "1d",
-  "decisions_recorded": 25,
-  "decisions_graded": 15,
-  "decisions_with_buys_graded": 3,
-  "independent_days_graded": 2,
-  "avg_regret_pct": 0.09,
-  "chosen_avg_pct": -1.02,
-  "skipped_avg_pct": -0.93,
-  "idle_universe_avg_pct": -0.98,
-  "picking_beats_random": false,
-  "avg_fraction_of_universe_bought": 0.02,
-  "checks_that_bought_everything": 0,
-  "by_signal_chosen": {
-   "congress": {
-    "n": 4,
-    "avg_pct": 0.54
-   },
-   "etf_default": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "momentum": {
-    "n": 6,
-    "avg_pct": -0.18
-   },
-   "news": {
-    "n": 7,
-    "avg_pct": -0.4
-   },
-   "risk_management": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "track_record": {
-    "n": 2,
-    "avg_pct": -2.27
-   }
-  },
-  "biggest_misses": [
-   {
-    "ticker": "AMD",
-    "fwd_pct": 3.27,
-    "sector": "off-watchlist",
-    "m1m_then": 4.9,
-    "congress": 1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "SKWD",
-    "fwd_pct": 2.8,
-    "sector": "off-watchlist",
-    "m1m_then": -10.0,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "INTC",
-    "fwd_pct": 2.23,
-    "sector": "off-watchlist",
-    "m1m_then": 2.2,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "NEM",
-    "fwd_pct": 1.03,
-    "sector": "gold",
-    "m1m_then": 13.5,
-    "congress": 0,
-    "insider": 0
-   },
-   {
-    "ticker": "AEP",
-    "fwd_pct": 1.02,
-    "sector": "off-watchlist",
-    "m1m_then": 1.1,
-    "congress": 1.0,
-    "insider": 0
-   }
-  ],
-  "biggest_avoided": [
-   {
-    "ticker": "OKLO",
-    "fwd_pct": -4.79
-   },
-   {
-    "ticker": "BE",
-    "fwd_pct": -4.55
-   },
-   {
-    "ticker": "SAIL",
-    "fwd_pct": -4.35
-   }
-  ],
-  "sectors_most_often_missed": {
-   "off-watchlist": {
-    "n": 6
-   },
-   "gold": {
-    "n": 2
-   },
-   "defense": {
-    "n": 2
-   }
-  },
-  "idle_checks": 21,
-  "blocked_checks": 0,
-  "idle_share": 0.84,
-  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
-  "evidence_strength": "anecdote",
-  "how_many_days_before_this_means_anything": 30,
-  "warning": "only 2 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
- },
- "signalsAsOf": "2026-09-10T14:14-04:00",
- "disclosure_leaderboard": [
-  {
-   "who": "Tim Moore",
-   "disclosed_buys_scored": 22,
-   "avg_excess_pct": 4.76,
-   "beat_index_rate": 0.64,
-   "best": {
-    "ticker": "CBRL",
-    "excess_pct": 20.0,
-    "disclosed": "2026-01-07"
-   }
-  },
-  {
-   "who": "Robert E. Latta",
-   "disclosed_buys_scored": 4,
-   "avg_excess_pct": 4.63,
-   "beat_index_rate": 0.75,
-   "best": {
-    "ticker": "FMAO",
-    "excess_pct": 7.7,
-    "disclosed": "2026-06-05"
-   }
-  },
-  {
-   "who": "Rick Larsen",
-   "disclosed_buys_scored": 9,
-   "avg_excess_pct": 4.07,
-   "beat_index_rate": 0.78,
-   "best": {
-    "ticker": "CASY",
-    "excess_pct": 10.2,
-    "disclosed": "2026-04-15"
-   }
-  },
-  {
-   "who": "Tim Walberg",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 3.74,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "UA",
-    "excess_pct": 25.4,
-    "disclosed": "2026-06-03"
-   }
-  },
-  {
-   "who": "Rick W. Allen",
-   "disclosed_buys_scored": 6,
-   "avg_excess_pct": 2.81,
-   "beat_index_rate": 0.67,
-   "best": {
-    "ticker": "SPGI",
-    "excess_pct": 7.4,
-    "disclosed": "2026-02-17"
-   }
-  },
-  {
-   "who": "Jared Moskowitz",
-   "disclosed_buys_scored": 33,
-   "avg_excess_pct": 2.33,
-   "beat_index_rate": 0.48,
-   "best": {
-    "ticker": "PANW",
-    "excess_pct": 62.0,
-    "disclosed": "2026-04-30"
-   }
-  },
-  {
-   "who": "Michael A. Rulli",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 2.04,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "MU",
-    "excess_pct": 14.9,
-    "disclosed": "2026-08-07"
-   }
-  },
-  {
-   "who": "Jonathan L. Jackson",
-   "disclosed_buys_scored": 18,
-   "avg_excess_pct": 2.03,
-   "beat_index_rate": 0.61,
-   "best": {
-    "ticker": "C",
-    "excess_pct": 16.4,
-    "disclosed": "2026-03-12"
-   }
-  },
-  {
-   "who": "David J. Taylor",
-   "disclosed_buys_scored": 67,
-   "avg_excess_pct": 1.1,
-   "beat_index_rate": 0.51,
-   "best": {
-    "ticker": "MEDP",
-    "excess_pct": 20.9,
-    "disclosed": "2026-05-28"
-   }
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "disclosed_buys_scored": 49,
-   "avg_excess_pct": 1.02,
-   "beat_index_rate": 0.43,
-   "best": {
-    "ticker": "MRVL",
-    "excess_pct": 69.6,
-    "disclosed": "2026-05-08"
-   }
-  },
-  {
-   "who": "Josh Gottheimer",
-   "disclosed_buys_scored": 36,
-   "avg_excess_pct": 0.84,
-   "beat_index_rate": 0.53,
-   "best": {
-    "ticker": "AMD",
-    "excess_pct": 27.7,
-    "disclosed": "2026-05-19"
-   }
-  },
-  {
-   "who": "Thomas H. Kean",
-   "disclosed_buys_scored": 13,
-   "avg_excess_pct": 0.82,
-   "beat_index_rate": 0.46,
-   "best": {
-    "ticker": "WPM",
-    "excess_pct": 20.8,
-    "disclosed": "2026-07-15"
-   }
-  }
- ],
- "disclosure_leaderboard_meta": {
-  "built": "2026-09-10",
-  "horizon_days": 30,
-  "buys_scored": 1136,
-  "measured_from": "disclosure date, not transaction date",
-  "benchmark": "SPY",
-  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
- },
- "disclosure_significance": {
-  "members": 25,
-  "best": "Tim Moore",
-  "best_avg_excess_pct": 4.76,
-  "best_t_stat": 2.18,
-  "members_weighted": 0,
-  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
-  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
- },
- "wallet_moves": [],
- "wallet_status": {
-  "followed_total": 0,
-  "checked_this_pass": 0,
-  "starting_at": 0,
-  "names": []
- }
+ "signalsAsOf": "2026-09-10T14:46-04:00"
 }

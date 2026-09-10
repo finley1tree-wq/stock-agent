@@ -1,12 +1,12 @@
 {
   "week": "2026-W37",
-  "spent": 1098.73,
+  "spent": 28.79,
   "by_ticker": {
     "AMAT": 1.05,
-    "CCJ": 555.0,
+    "CCJ": 10.05,
     "SPY": 0.41,
     "NLR": 13.19,
-    "INTC": 530.0,
+    "INTC": 5.01,
     "GOOGN": 0.24
   },
   "orders": [
@@ -373,21 +373,61 @@
       ],
       "evidence": "NLR +3.71% today after string of nuclear volatility headlines",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 5.582941,
+      "status": "filled",
+      "price": 97.61,
+      "proceeds": 544.95,
+      "realized_pnl": -10.05,
+      "realized_pct": -1.81,
+      "date": "2026-09-10",
+      "time_et": "14:46",
+      "ts": 1789066004,
+      "why": "held 40 min, the 30-minute limit: out regardless",
+      "signals": [
+        "unspecified"
+      ],
+      "evidence": "bought 40 min ago, -1.79% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "INTC",
+      "side": "sell",
+      "qty": 5.184033,
+      "status": "filled",
+      "price": 101.27,
+      "proceeds": 524.99,
+      "realized_pnl": -5.01,
+      "realized_pct": -0.95,
+      "date": "2026-09-10",
+      "time_et": "14:46",
+      "ts": 1789066004,
+      "why": "held 40 min, the 30-minute limit: out regardless",
+      "signals": [
+        "unspecified"
+      ],
+      "evidence": "bought 40 min ago, -0.93% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-10",
-  "spent_today": 891.78,
+  "spent_today": 0.0,
   "orders_today": 3,
-  "sells_today": 5,
+  "sells_today": 7,
   "sold_today": [
     "AMAT",
     "SPY",
     "AMD",
     "GOOGN",
-    "NLR"
+    "NLR",
+    "CCJ",
+    "INTC"
   ],
-  "last_check_ts": 1789065789,
+  "last_check_ts": 1789066004,
   "book_fp": "[[\"13c3e9d0\", 97.0], [\"dbb6ad40\", 99.1728], [\"68402e49\", 98.0168], [\"231c7c60\", 124.5031], [\"d10d72ff\", 129.3418]]",
   "last_publish_ts": 1789065181,
-  "last_decision_ts": 1789064065
+  "last_decision_ts": 1789066004
 }
