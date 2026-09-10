@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-10T16:41-04:00",
+ "asOf": "2026-09-10T16:54-04:00",
  "note": "market closed",
  "broker": "sim",
  "watchlist": {
@@ -53,6 +53,7 @@
   "full_deployment_max_names": 6,
   "rebuy_cooldown_minutes": 45,
   "max_per_ticker_pct": 100,
+  "max_per_sector_pct": 40,
   "min_order_pct_of_budget": 0.4,
   "min_order_usd": 100.0,
   "max_entry_range_pct": 85,
@@ -85,7 +86,7 @@
   "max_daily_move_pct": 35,
   "auto_bracket": {
    "enabled": true,
-   "intraday_target_mult": 0.6,
+   "intraday_target_mult": 0.4,
    "intraday_stop_mult": 1.0,
    "intraday_floor_pct": 0.15,
    "stop_loss_atr": 3.0,
