@@ -1,20 +1,3 @@
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
@@ -392,9 +375,26 @@ brain: Last check of the day (15:16 ET, close 16:00), zero positions, broad red 
 lesson: At the final check of a red/choppy day with zero positions and under an hour to close, holding cash beats forcing a 30-minute round trip - this pattern has held for 8+ consecutive checks today.
 portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
 Decision: nothing at this check. 6 standing order(s) working.
+
+## 2026-09-10 15:20 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
+  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
   (trigger INTC trailing_stop cancelled (position gone))
   (trigger CCJ stop_loss cancelled (position gone))
   (trigger NLR stop_loss cancelled (position gone))
   (trigger CCJ take_profit cancelled (position gone))
   (trigger INTC take_profit cancelled (position gone))
   (trigger NLR take_profit cancelled (position gone))
+brain: Only 1 check left today (15:20 ET), 40 min to close, and max_hold_minutes is 30 so any new buy now would be force-closed right at/near the close into a red, choppy tape (nearly every watchlist name down 1-5% today, INTC -5%, OKLO -6%, CCJ -2.9%). No fresh concrete catalyst justifies a same-day round trip this late; today's mechanical evidence shows zero 1-day edge anyway. Existing working orders (NLR, INTC buy_limits) remain in place to catch dips without forcing action now.
+lesson: Do not restate the same 'hold cash late in a red day' conclusion as if repeating it were new evidence - if this pattern keeps recurring, next session start fresh and look for actual actionable setups earlier in the day rather than defaulting to inaction near the close.
+~ WORKING buy_limit $998.85 BE @ $255.91 until 2026-09-15 — strong month, weak day: resting 1.5% under $259.81 to catch the dip
+~ WORKING buy_limit $998.85 GAIA @ $1.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $1.47 to catch the dip
+~ WORKING buy_limit $998.85 DXYZ @ $31.62 until 2026-09-15 — strong month, weak day: resting 1.5% under $32.10 to catch the dip
+~ WORKING buy_limit $998.85 META @ $635.33 until 2026-09-15 — strong month, weak day: resting 1.5% under $645.00 to catch the dip
+~ WORKING buy_limit $998.85 AMD @ $497.39 until 2026-09-15 — strong month, weak day: resting 1.5% under $504.96 to catch the dip
+portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
+Decision: nothing at this check. 7 standing order(s) working.
