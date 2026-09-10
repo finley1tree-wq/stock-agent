@@ -1,18 +1,3 @@
-lesson: With zero checks left and a fully bracketed fresh book on a red macro day, do nothing at the final check - standing orders (stops/take-profits/buy-limits) handle the close better than a last-minute forced trade.
-  (re-pinned 8 order(s) to the new average cost)
-~ WORKING take_profit 50% AMAT @ $490.83 until 2026-09-14 — close 50% at +5.0% over the average cost
-~ WORKING take_profit 50% CCJ @ $107.29 until 2026-09-14 — close 50% at +5.0% over the average cost
-~ WORKING take_profit 50% SPY @ $806.61 until 2026-09-14 — close 50% at +5.0% over the average cost
-~ WORKING stop_loss 100% SPY @ $749.00 until 2026-09-14 — close it all at -2.5% under the average cost
-~ WORKING take_profit 50% NLR @ $130.84 until 2026-09-14 — close 50% at +5.0% over the average cost
-~ WORKING take_profit 50% AMD @ $534.72 until 2026-09-14 — close 50% at +5.0% over the average cost
-~ WORKING take_profit 50% INTC @ $110.48 until 2026-09-14 — close 50% at +5.0% over the average cost
-~ WORKING take_profit 50% GOOGN @ $50.34 until 2026-09-14 — close 50% at +5.0% over the average cost
-portfolio: equity $1000.01 (+0.00% on $1000.00 in) · cash $793.05 · realised +1.17
-Decision: nothing at this check. 22 standing order(s) working.
-
-## 2026-09-09 18:00 ET (Wednesday) — week 2026-W37 — budget left $793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
 
 ## 2026-09-09 18:08 ET (Wednesday) — week 2026-W37 — budget left $793.05 (today $0.00, 1 buys, 4 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
@@ -389,6 +374,21 @@ lesson: On broad red macro days (oil >$100, inflation surprise, most watchlist n
 ~ WORKING take_profit 33% INTC @ $133.52 until 2026-09-15 — close 33% at +26.9% over the average cost
 portfolio: equity $24994.51 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
