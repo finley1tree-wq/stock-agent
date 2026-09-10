@@ -1,15 +1,3 @@
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-
-## 2026-09-10 11:52 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
-  (CYBN excluded: no security information)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-  (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (holding GOOGN would not be bought today: not ordinary shares (depositary))
@@ -398,3 +386,15 @@ brain: Another red/choppy day (AMAT -2.4%, CCJ -2.1%, INTC -4.6%, NLR -3.4%, mos
 lesson: Continuing pattern: on red/choppy macro days with a small fully-bracketed book and no fresh concrete evidence, hold and trust standing orders rather than forcing entries just because budget remains.
 portfolio: equity $24995.33 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
