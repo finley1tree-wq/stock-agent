@@ -1,15 +1,3 @@
-brain: Broad market is red today (oil spike, yields at 2023 high per Reuters) and most positions are fresh (days_held=1) with full bracket protection (stops/take-profits/buy_limits) already working on AMAT, CCJ, SPY, NLR, AMD, INTC, GOOGN. No new compelling evidence justifies fresh buys at current prices - AMAT/CCJ/SPY/NLR are all mid-range in their day, not at attractive dip levels vs my existing buy_limits. Past lessons consistently show adding buys on top of an already-deployed, fresh, protected book underperforms; let the standing orders do the work.
-lesson: On a red macro day with a fully protected, fresh book (all positions days_held=1, brackets in place), doing nothing and letting standing orders work is the correct move rather than forcing new entries.
-~ WORKING take_profit 50% AMD @ $521.99 until 2026-09-14 — close 50% at +2.5% over the average cost
-~ WORKING buy_limit $25.00 INTC @ $102.06 until 2026-09-14 — average in another $25 if it falls 3.0% below the average cost
-~ WORKING take_profit 50% GOOGN @ $49.14 until 2026-09-14 — close 50% at +2.5% over the average cost
-~ WORKING buy_limit $25.00 GOOGN @ $46.50 until 2026-09-14 — average in another $25 if it falls 3.0% below the average cost
-portfolio: equity $400.61 (+0.15% on $400.00 in) · cash $170.63 · realised +0.63
-Decision: nothing at this check. 22 standing order(s) working.
-- SELL 50% AMD [take_profit @ $521.99] -> $12.81 (+2.50%) — close 50% at +2.5% over the average cost
-## 2026-09-09 13:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-09 14:07 ET (Wednesday) — week 2026-W37 — budget left $183.44 (today $0.00, 1 buys, 2 sells) — SIM (pretend money) via sim
   (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
   (CDR excluded: no security information)
   (CYBN excluded: no security information)
@@ -383,6 +371,18 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
