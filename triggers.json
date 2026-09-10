@@ -898,7 +898,7 @@
    "ticker": "AMAT",
    "kind": "take_profit",
    "price": 565.9071,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 10:48",
    "created_ts": 1789051732,
    "why": "close 33% at +21.1% over the average cost",
@@ -908,14 +908,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 11:19",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "d4cffca7",
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 127.6535,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 10:48",
    "created_ts": 1789051732,
    "why": "close 33% at +24.9% over the average cost",
@@ -925,7 +927,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
-   "pct_of_position": 33.0
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 11:19",
+   "cancel_reason": "average cost moved"
   },
   {
    "id": "7fbb21bc",
@@ -949,7 +953,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 133.1875,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-10 10:48",
    "created_ts": 1789051732,
    "why": "close 33% at +26.6% over the average cost",
@@ -959,8 +963,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-15",
+   "pct_of_position": 33.0,
+   "closed": "2026-09-10 11:19",
+   "cancel_reason": "average cost moved"
+  },
+  {
+   "id": "6f1e3a12",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 565.5705,
+   "status": "working",
+   "created": "2026-09-10 11:19",
+   "created_ts": 1789053593,
+   "why": "close 33% at +21.0% over the average cost",
+   "evidence": "average cost $467.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "pct_of_position": 33.0
+  },
+  {
+   "id": "58ec9c3f",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 127.5615,
+   "status": "working",
+   "created": "2026-09-10 11:19",
+   "created_ts": 1789053593,
+   "why": "close 33% at +24.8% over the average cost",
+   "evidence": "average cost $102.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
+   "pct_of_position": 33.0
+  },
+  {
+   "id": "47daba5a",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 132.9665,
+   "status": "working",
+   "created": "2026-09-10 11:19",
+   "created_ts": 1789053593,
+   "why": "close 33% at +26.4% over the average cost",
+   "evidence": "average cost $105.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-15",
    "pct_of_position": 33.0
   }
  ],
- "updated": "2026-09-10 10:48"
+ "updated": "2026-09-10 11:19"
 }

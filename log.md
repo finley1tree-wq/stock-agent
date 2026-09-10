@@ -865,3 +865,30 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped NLR: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+
+## 2026-09-10 11:19 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
+  (CYBN excluded: no security information)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (TOFB excluded: too thinly traded (3,791/day) — Tofutti Brands Inc.)
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (holding GOOGN would not be bought today: not ordinary shares (depositary))
+brain: Book is small, fresh, and fully bracketed with stops, take-profits, and buy-limits already working on every position. Market is broadly weak today (INTC -4.28%, NVDA -2.56%, AMAT -2.29%, oil/yield pressure per headlines) - not a time to chase new entries, and signal_evidence shows no 1-day edge exists anyway. No new evidence justifies fresh capital right now.
+lesson: Repeated confirmation: with a small fully-bracketed fresh book on a choppy/red day, holding and letting standing orders work beats forcing entries into weakness - only act on genuinely new evidence.
+  (re-pinned 3 order(s) to the new average cost)
+~ WORKING take_profit 33% AMAT @ $565.57 until 2026-09-15 — close 33% at +21.0% over the average cost
+~ WORKING take_profit 33% CCJ @ $127.56 until 2026-09-15 — close 33% at +24.8% over the average cost
+~ WORKING take_profit 33% INTC @ $132.97 until 2026-09-15 — close 33% at +26.4% over the average cost
+portfolio: equity $24996.36 (-0.01% on $25000.00 in) · cash $24793.05 · realised +1.17
+Decision: nothing at this check. 21 standing order(s) working.
