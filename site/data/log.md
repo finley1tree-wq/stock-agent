@@ -1,6 +1,3 @@
-
-## 2026-09-06 23:08 ET — REPORT — SIM (pretend money) via sim
-portfolio: {'cash': 400.0, 'equity': 400.0, 'deposited': 400.0, 'total_return_pct': 0.0, 'realized_pnl': 0.0, 'unrealized_pnl': 0.0}
 positions: {}
 cash: 400.0
 track record: no trades yet
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 00:54 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 01:07 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
