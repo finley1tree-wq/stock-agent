@@ -148,8 +148,11 @@ class SimBroker:
                       # back to the DAY they were opened is what makes the intraday stop apply to
                       # them at all - otherwise the whole legacy book is silently exempt from it,
                       # which is exactly why nothing sold when the 30-minute rule went live.
-                      "minutes_held": (round((datetime.now(ET).timestamp() - float(pos["last_buy_ts"])) / 60)
-                                       if pos.get("last_buy_ts")
+                      # Measured from when the position was OPENED. Using the last add restarted
+                      # the clock every time it averaged in, so a "30-minute" position could
+                      # legally run 60 or 90 minutes by topping itself up.
+                      "minutes_held": (round((datetime.now(ET).timestamp() - float(pos.get("opened_ts") or pos["last_buy_ts"])) / 60)
+                                       if (pos.get("opened_ts") or pos.get("last_buy_ts"))
                                        else (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days * 1440)}
         return out
 
@@ -179,12 +182,14 @@ class SimBroker:
             pos["qty"] += qty
             pos["avg_cost"] = total_cost / pos["qty"]
             pos["last_buy"] = today
-            pos["last_buy_ts"] = int(datetime.now(ET).timestamp())    # for the intraday hold clock
+            pos["last_buy_ts"] = int(datetime.now(ET).timestamp())
+            pos.setdefault("opened_ts", pos["last_buy_ts"])            # never moved by an add
             pos["tranches"] = int(pos.get("tranches", 1)) + 1     # how many times it has averaged in
         else:
             self.p["positions"][symbol] = {"qty": qty, "avg_cost": fill, "opened": today,
                                            "last_buy": today, "tranches": 1,
-                                           "last_buy_ts": int(datetime.now(ET).timestamp())}
+                                           "last_buy_ts": int(datetime.now(ET).timestamp()),
+                                           "opened_ts": int(datetime.now(ET).timestamp())}
         self.p["cash"] -= usd                          # exact, see _weekly_deposit
         rec.update({"status": "filled", "qty": round(qty, 6), "price": _px(fill), "notional": usd})
         self.p["fills"].append({**rec, "type": "buy", "date": datetime.now(ET).strftime("%Y-%m-%d %H:%M")})
