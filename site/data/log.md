@@ -1,18 +1,3 @@
-portfolio: equity $399.39 (-0.15% on $400.00 in) · cash $160.00 · realised +0.00
-Decision: nothing at this check. 7 standing order(s) working.
-
-## 2026-09-08 16:09 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
-## 2026-09-09 12:44 ET (Wednesday) — week 2026-W37 — budget left $160.00 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (BWFG excluded: too thinly traded (78,359/day) — Bankwell Financial Group, Inc.)
-  (CDR excluded: no security information)
-  (CYBN excluded: no security information)
-  (GBAB excluded: too thinly traded (89,879/day) — Guggenheim Taxable Municipal Bond & Investment Grade Debt Tr)
-  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
-  (MDRR excluded: too thinly traded (3,958/day) — Medalist Diversified, Inc.)
-- BUY $15.00 CCJ [buy_limit @ $99.50] — Add to nuclear theme on a pullback rather than chasing at current price
-  (holding GOOGN would not be bought today: not ordinary shares (depositary))
 brain: Market is broadly red today (oil spike, SPY/DIA down, most positions slightly negative) and all my positions are already fresh (days_held=1) with stops/trailing-stops in place from yesterday. Past lessons consistently show that adding more buys on the same day after positions already popped or are fresh leads to no improvement - the winning move has been to let standing orders work. Nothing here screams new opportunity: CCJ/NLR/GOOGN slightly down, AMAT/SPY down on the day, only AMD/INTC still green. I'll add one more protective stop on GOOGN (unprotected, flagged as not ideal instrument) and otherwise sit tight.
 lesson: When most positions are fresh (days_held=1) with stops already in place and the broader market is red on macro news (oil spike), do not force new buys just because budget remains - let existing orders work and only patch missing protection (e.g., GOOGN had none).
 ~ WORKING stop_loss 100% GOOGN @ $45.50 until 2026-09-12 — Protect the weakest/least-liquid holding (depositary receipt) from further slippage given broad market weakness today
@@ -384,6 +369,21 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped AMAT: below min order after caps ($25.00))
