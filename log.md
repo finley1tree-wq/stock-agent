@@ -415,3 +415,21 @@ brain: Late day (14:46 ET, close 16:00), flat book with no open positions after 
 lesson: Late-day (post 14:30 ET) with a flat book and no strong fresh catalyst, avoid new entries since any position will be forced-closed within 30 min into a red, choppy tape - cash is the correct default when signal_evidence shows no 1-day edge.
 portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
 Done: 2 sell(s), 0 buy(s) (incl. 2 from standing orders); 0 order(s) working; budget left $24971.21 this week
+
+## 2026-09-10 15:04 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
+  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
+  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
+  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
+  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
+  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+brain: Last check of the day (56 min to close), flat book, no positions, market broadly red (DIA -0.81%, most names low in day range). Any new buy would be force-closed within 30 min per max_hold_minutes into an already-weak tape, and signal_evidence confirms no 1-day edge exists. Today's own track record shows repeated losses on same-day entries (avg -2.5% across many buys) and 7 lessons in a row confirm holding cash beats forcing entries late in a red session.
+lesson: At the final check of a red/choppy day with zero positions and <1hr to close, holding cash is correct - forced 30-min round trips into weakness have consistently lost money this session.
+~ WORKING buy_limit $998.85 BE @ $257.06 until 2026-09-15 — strong month, weak day: resting 1.5% under $260.97 to catch the dip
+~ WORKING buy_limit $998.85 GAIA @ $1.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $1.47 to catch the dip
+~ WORKING buy_limit $998.85 DXYZ @ $31.66 until 2026-09-15 — strong month, weak day: resting 1.5% under $32.14 to catch the dip
+~ WORKING buy_limit $998.85 META @ $634.54 until 2026-09-15 — strong month, weak day: resting 1.5% under $644.20 to catch the dip
+~ WORKING buy_limit $998.85 AMD @ $497.16 until 2026-09-15 — strong month, weak day: resting 1.5% under $504.73 to catch the dip
+~ WORKING buy_limit $998.85 INTC @ $99.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $100.96 to catch the dip
+portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
+Decision: nothing at this check. 6 standing order(s) working.

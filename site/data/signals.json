@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-10T14:46-04:00",
- "note": "Late day (14:46 ET, close 16:00), flat book with no open positions after 7 same-day round trips already realized -$28.80 net. Market is broadly red (DIA -0.73%, most names in bottom third of day range like CCJ, NLR, OKLO, HD, UNH). With only ~1hr left and max_hold_minutes=30, any new buy now would b",
+ "asOf": "2026-09-10T15:05-04:00",
+ "note": "Last check of the day (56 min to close), flat book, no positions, market broadly red (DIA -0.81%, most names low in day range). Any new buy would be force-closed within 30 min per max_hold_minutes into an already-weak tape, and signal_evidence confirms no 1-day edge exists. Today's own track record ",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -60,6 +60,13 @@
   "max_orders_per_day": 60,
   "friday_cleanup_after_et": "15:30",
   "only_buy": false,
+  "dip_hunt": {
+   "enabled": true,
+   "names": 6,
+   "below_pct": 1.5,
+   "usd_pct_of_budget": 4.0
+  },
+  "min_positions": 5,
   "max_hold_minutes": 30,
   "max_hold_days": 20,
   "time_stop_min_gain_pct": 1.0,
@@ -116,8 +123,111 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [],
- "next_check_minutes": 45,
+ "working_orders": [
+  {
+   "id": "0f0abe39",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 257.0555,
+   "usd": 998.85,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 260.97,
+   "pct_away": -1.5,
+   "good_until": "2026-09-15",
+   "why": "strong month, weak day: resting 1.5% under $260.97 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "8992ab5e",
+   "ticker": "GAIA",
+   "kind": "buy_limit",
+   "price": 1.4479,
+   "usd": 998.85,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 1.47,
+   "pct_away": -1.5,
+   "good_until": "2026-09-15",
+   "why": "strong month, weak day: resting 1.5% under $1.47 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "473ebce1",
+   "ticker": "DXYZ",
+   "kind": "buy_limit",
+   "price": 31.6579,
+   "usd": 998.85,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 32.14,
+   "pct_away": -1.5,
+   "good_until": "2026-09-15",
+   "why": "strong month, weak day: resting 1.5% under $32.14 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "c7dec8be",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 634.537,
+   "usd": 998.85,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 644.2,
+   "pct_away": -1.5,
+   "good_until": "2026-09-15",
+   "why": "strong month, weak day: resting 1.5% under $644.20 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "5c612059",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 497.1591,
+   "usd": 998.85,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 504.73,
+   "pct_away": -1.5,
+   "good_until": "2026-09-15",
+   "why": "strong month, weak day: resting 1.5% under $504.73 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "f3175036",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 99.4456,
+   "usd": 998.85,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 100.96,
+   "pct_away": -1.5,
+   "good_until": "2026-09-15",
+   "why": "strong month, weak day: resting 1.5% under $100.96 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  }
+ ],
+ "next_check_minutes": 60,
  "allowed": [
   "AAPL",
   "AEP",
@@ -182,7 +292,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 26,
+  "decisions_recorded": 27,
   "decisions_graded": 15,
   "decisions_with_buys_graded": 3,
   "independent_days_graded": 2,
@@ -286,7 +396,7 @@
     "n": 2
    }
   },
-  "idle_checks": 21,
+  "idle_checks": 22,
   "blocked_checks": 0,
   "idle_share": 0.81,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1684,6 +1794,11 @@
   ],
   "AMD": [
    {
+    "title": "Advanced Micro Devices vs. Nvidia: Which Semiconductor Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:51"
+   },
+   {
     "title": "Piper Sandler Has a Message for AMD Stock Investors",
     "source": "GuruFocus.com",
     "when": "2026-09-10T18:37"
@@ -1692,14 +1807,14 @@
     "title": "AMD Falls 2.5% After Declaring a $2 Trillion AI Prize",
     "source": "GuruFocus.com",
     "when": "2026-09-10T18:30"
-   },
-   {
-    "title": "Cathie Wood Is Selling AMD Before MI450 Arrives. Is She About to Miss Another Nvidia?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T18:10"
    }
   ],
   "AMZN": [
+   {
+    "title": "Barclays Hikes S&P 500 Target to 7,950 on Strong Earnings",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:44"
+   },
    {
     "title": "Goldman Sachs Has Blunt Message for AI Stock Investors",
     "source": "GuruFocus.com",
@@ -1709,11 +1824,6 @@
     "title": "Is The AI Capex Surge A Threat To Amazon Stock?",
     "source": "Trefis",
     "when": "2026-09-10T18:06"
-   },
-   {
-    "title": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T17:47"
    }
   ],
   "APP": [
@@ -1786,6 +1896,11 @@
   ],
   "COIN": [
    {
+    "title": "Coinbase Wallet Rebrands to Chase 'Anything, Anywhere' Trading as Robinhood Chain Heats Up",
+    "source": "decrypt",
+    "when": "2026-09-10T18:51"
+   },
+   {
     "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
     "source": "MT Newswires",
     "when": "2026-09-10T17:54"
@@ -1794,11 +1909,6 @@
     "title": "Hyperliquid Just Became the Fifth-Largest Holding in Hashdex\u2019s Crypto ETF. Multicoin Is Selling Into It",
     "source": "24/7 Wall St.",
     "when": "2026-09-10T16:54"
-   },
-   {
-    "title": "Coinbase, Moov Bring Stablecoin Payments to Over 1,000 US Community Banks",
-    "source": "CryptoProwl",
-    "when": "2026-09-10T15:51"
    }
   ],
   "DIA": [
@@ -1961,14 +2071,14 @@
     "when": "2026-09-09T20:20"
    },
    {
+    "title": "Google Just Made a Massive AI Bet Wall Street May Be Missing",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:51"
+   },
+   {
     "title": "Barclays Hikes S&P 500 Target to 7,950 on Strong Earnings",
     "source": "GuruFocus.com",
     "when": "2026-09-10T18:44"
-   },
-   {
-    "title": "Goldman Sachs Has Blunt Message for AI Stock Investors",
-    "source": "GuruFocus.com",
-    "when": "2026-09-10T18:34"
    }
   ],
   "HD": [
@@ -1990,6 +2100,11 @@
   ],
   "IBM": [
    {
+    "title": "IBM Falls While Its Moon AI Scores 23% Better",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:48"
+   },
+   {
     "title": "Is IBM Stock A Buy After Missing On Transaction Processing?",
     "source": "Trefis",
     "when": "2026-09-10T17:43"
@@ -1998,11 +2113,6 @@
     "title": "IBM Stock Dips as New AI Model Targets Future Moon Missions",
     "source": "GuruFocus.com",
     "when": "2026-09-10T16:46"
-   },
-   {
-    "title": "Why IBM and Lockheed Martin Are Bringing Their Quantum Parnership to Switzerland",
-    "source": "Barrons.com",
-    "when": "2026-09-10T15:42"
    }
   ],
   "INTC": [
@@ -2058,6 +2168,11 @@
   ],
   "MSFT": [
    {
+    "title": "Advanced Micro Devices vs. Nvidia: Which Semiconductor Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-10T18:51"
+   },
+   {
     "title": "Microsoft's New School AI Rules Sacrifice Data to Preserve Access",
     "source": "GuruFocus.com",
     "when": "2026-09-10T18:45"
@@ -2066,11 +2181,6 @@
     "title": "Goldman Sachs Has Blunt Message for AI Stock Investors",
     "source": "GuruFocus.com",
     "when": "2026-09-10T18:34"
-   },
-   {
-    "title": "C3.ai vs. Atlassian: Which Technology Stock Is a Better Buy in 2026?",
-    "source": "Motley Fool",
-    "when": "2026-09-10T18:08"
    }
   ],
   "NEM": [
@@ -2136,9 +2246,9 @@
     "when": "2026-09-10T13:56"
    },
    {
-    "title": "This Pipeline Stock Has Raised Its Dividend for 31 Straight Years. Almost Nobody Talks About It.",
-    "source": "Motley Fool",
-    "when": "2026-09-10T18:35"
+    "title": "Google Just Made a Massive AI Bet Wall Street May Be Missing",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:51"
    }
   ],
   "O": [
@@ -2194,6 +2304,11 @@
   ],
   "PLTR": [
    {
+    "title": "Palantir Slides as Nvidia Deal Meets a 55-Times Sales Price",
+    "source": "GuruFocus.com",
+    "when": "2026-09-10T18:46"
+   },
+   {
     "title": "Not Nvidia, Not Palantir. This Might Be September's Most Important AI Infrastructure Stock.",
     "source": "Motley Fool",
     "when": "2026-09-10T18:24"
@@ -2202,11 +2317,6 @@
     "title": "Palantir Taps Nvidia for High-Stakes AI Push",
     "source": "GuruFocus.com",
     "when": "2026-09-10T17:28"
-   },
-   {
-    "title": "Nvidia and Palantir Land Historic AI Partnership",
-    "source": "GuruFocus.com",
-    "when": "2026-09-10T16:59"
    }
   ],
   "PRAX": [
@@ -2318,14 +2428,14 @@
     "when": "2026-09-10T18:10"
    },
    {
+    "title": "Stocks to Watch Thursday: Apple, Oracle, TSMC",
+    "source": "The Wall Street Journal",
+    "when": "2026-09-10T17:33"
+   },
+   {
     "title": "Tech, Media & Telecom Roundup: Market Talk",
     "source": "The Wall Street Journal",
     "when": "2026-09-10T16:30"
-   },
-   {
-    "title": "Taiwan Semiconductor September Revenue Surges 53% and Can\u2019t Keep Up With Demand",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-10T15:12"
    }
   ],
   "UBER": [
@@ -2381,5 +2491,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-10T14:46-04:00"
+ "signalsAsOf": "2026-09-10T15:05-04:00"
 }
