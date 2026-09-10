@@ -1,6 +1,3 @@
-  (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
-  (CYBN excluded: no security information)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
   (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
   (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
   (dropped NLR: below min order after caps ($25.00))
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 19:23 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 3 buys, 7 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 19:37 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 3 buys, 7 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
