@@ -1,7 +1,13 @@
 """Tracks this week's and today's activity. Stored in state.json.
 
   week / spent / by_ticker / orders        — reset every Monday (ISO week, New York time)
+  deployed / deployed_by_ticker             — gross money put to work this week; only ever increases
   day / spent_today / orders_today / sells_today / sold_today — reset every trading day
+  deployed_today                            — gross money put to work today; only ever increases
+
+  "spent" is NET new money (a sell hands its proceeds back, so the week's allowance recycles).
+  "deployed" is GROSS, so "$X of $25,000 deployed" on the dashboard can never read $0 on a day
+  that bought and sold three times - which is exactly what it showed.
 """
 import json
 from datetime import date, datetime
@@ -22,12 +28,15 @@ def week_key(d: date | None = None) -> str:
 def load() -> dict:
     s = json.loads(STATE.read_text()) if STATE.exists() else {}
     if s.get("week") != week_key():
-        s = {"week": week_key(), "spent": 0.0, "by_ticker": {}, "orders": []}
+        s = {"week": week_key(), "spent": 0.0, "deployed": 0.0, "by_ticker": {}, "deployed_by_ticker": {}, "orders": []}
     s.setdefault("by_ticker", {})
+    s.setdefault("deployed", 0.0)
+    s.setdefault("deployed_by_ticker", {})
     s.setdefault("orders", [])
     d = today_et().isoformat()
     if s.get("day") != d:
-        s.update({"day": d, "spent_today": 0.0, "orders_today": 0, "sells_today": 0, "sold_today": []})
+        s.update({"day": d, "spent_today": 0.0, "deployed_today": 0.0, "orders_today": 0, "sells_today": 0, "sold_today": []})
+    s.setdefault("deployed_today", 0.0)
     s.setdefault("sells_today", 0)
     s.setdefault("sold_today", [])
     s.setdefault("sold_ts", {})
@@ -38,6 +47,11 @@ def record_order(s: dict, ticker: str, usd: float, rec: dict) -> None:
     s["spent_today"] = round(s.get("spent_today", 0.0) + usd, 2)
     s["orders_today"] = int(s.get("orders_today", 0)) + 1
     s["by_ticker"][ticker] = round(s["by_ticker"].get(ticker, 0.0) + usd, 2)
+    # gross counters: a sell never touches these
+    s["deployed"] = round(s.get("deployed", 0.0) + usd, 2)
+    s["deployed_today"] = round(s.get("deployed_today", 0.0) + usd, 2)
+    dbt = s.setdefault("deployed_by_ticker", {})    # setdefault FIRST: the right-hand side is evaluated before the target
+    dbt[ticker] = round(dbt.get(ticker, 0.0) + usd, 2)
     s["orders"].append(rec)
 
 def record_sell(s: dict, ticker: str, rec: dict, proceeds: float = 0.0) -> None:

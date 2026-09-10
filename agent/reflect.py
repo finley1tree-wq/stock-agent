@@ -35,6 +35,15 @@ def _load() -> list[dict]:
 def _save(rows: list[dict]) -> None:
     FILE.write_text(json.dumps(rows[-MAX_DECISIONS:], separators=(",", ":"), default=str))
 
+def last_dropped(n: int = 1) -> list[str]:
+    """What the guardrails threw away at the last n checks, and why.
+
+    The brain never saw this: an order silently shrunk or dropped looked, from its side, like a
+    decision that simply had no effect. Handing the reasons back is how it stops repeating them.
+    """
+    rows = _load()[-n:]
+    return [d for r in rows for d in (r.get("dropped") or [])]
+
 def record(now: datetime, px: dict, allowed: set, bought: list, sold: list, dropped: list,
            plan: dict, cpressure: dict, ipressure: dict, headlines: dict, sector_of: dict,
            held: set, budget_left: float, blocked: bool = False) -> None:

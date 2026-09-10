@@ -239,7 +239,7 @@ def cancel_position_orders(ticker: str, now: datetime, reason: str) -> int:
     for o in d["orders"]:
         if o.get("status") != "working" or o["ticker"] != ticker:
             continue
-        if o["kind"] in SELL_KINDS or "auto_bracket" in (o.get("signals") or []):
+        if o["kind"] in SELL_KINDS or {"auto_bracket", "dip_entry"} & set(o.get("signals") or []):
             o["status"] = "cancelled"; o["closed"] = now.strftime("%Y-%m-%d %H:%M")
             o["cancel_reason"] = reason; n += 1
     if n:
@@ -255,6 +255,19 @@ def cancel_all_for(ticker: str, kinds: set, now: datetime, reason: str) -> int:
         _save(d)
     return n
 
+def tp_size_pct(cfg: dict) -> float:
+    """How much of the position exits on the limit target.
+
+    A partial exit is a multi-day idea: sell a third, let the rest run. With max_hold_minutes set
+    there is nothing to run into - time_stops closes the remainder at market inside the same half
+    hour (paying spread_cost_pct), or the break-even stop takes it at trigger_slippage_pct. Either
+    way a free limit fill is converted into a paid one. Measured on 112,063 real 30-minute windows:
+    -0.0478%/trade at 33% vs -0.0449% at 100%, differing only on the windows that reach the target.
+    Off the clock the 20-day evidence in config.yaml still holds, so the configured size stands.
+    """
+    size = float(cfg.get("take_profit_size_pct", 50) or 50)
+    return 100.0 if float(cfg.get("_max_hold_minutes", 0) or 0) > 0 else size
+
 def auto_bracket(now: datetime, positions: dict, px: dict, cfg: dict) -> list[dict]:
     """Give every open position an exit plan the moment it exists.
 
@@ -265,7 +278,7 @@ def auto_bracket(now: datetime, positions: dict, px: dict, cfg: dict) -> list[di
     """
     if not cfg or not cfg.get("enabled", True):
         return []
-    tp_size = float(cfg.get("take_profit_size_pct", 50) or 50)
+    tp_size = tp_size_pct(cfg)
     live = working(now)
     has = {(o["ticker"], o["kind"]) for o in live}
     protected = {o["ticker"] for o in live if o["kind"] in ("stop_loss", "trailing_stop")}
@@ -345,7 +358,7 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
     """
     if not cfg or not cfg.get("enabled", True):
         return [], 0
-    tp_size = float(cfg.get("take_profit_size_pct", 50) or 50)
+    tp_size = tp_size_pct(cfg)
     scale = cfg.get("scale_in") or {}
     scale_on = bool(scale.get("enabled"))
     max_tranches = int(scale.get("max_tranches", 1) or 1)
@@ -378,6 +391,8 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
         if tp > 0 and not banked:
             targets["take_profit"] = px_round(entry * (1 + tp / 100))
         if sl > 0:
+            # (Daily-path rule. On the intraday path the target takes 100%, so "banked" never
+            # occurs and this branch is unreachable - by design.)
             # Once part of the position has been sold into a target, the rest rides for free: the
             # stop moves up to the entry. Without this the arithmetic is upside down - banking
             # +2.5% on HALF while stopping out ALL of it means risking 2 to make 1.25, which needs
@@ -426,10 +441,14 @@ def dip_hunt(now: datetime, held: set, allowed: set, px: dict, cfg: dict, budget
     already going against it. That is backwards, and it is why no dip order ever fired on a new
     name.
 
-    What gets an order: names with positive one-month momentum, which is the one signal the
-    5-year replay measured as real (+0.37% at 5d, t=3.2), that are currently in the LOWER part of
-    today's range. Strong stock, weak day - the order sits below the market and fills only if the
-    dip actually comes to it.
+    What gets an order: names with positive one-month momentum that are currently in the LOWER
+    part of today's range. Strong stock, weak day - the order sits below the market and fills only
+    if the dip actually comes to it.
+
+    Honest status of the gate: the replay's only "real" row is momentum_1w at 21 days. One-month
+    momentum is indistinguishable from luck at every horizon it measured, and nothing at all has
+    been measured at 30 minutes. This screen is unproven at the horizon it is used on, and is
+    kept because it is cheap, explainable, and graded - the dip_entry tag lets the loop score it.
     """
     if not cfg or not cfg.get("enabled", True) or budget <= 0:
         return []
@@ -441,19 +460,32 @@ def dip_hunt(now: datetime, held: set, allowed: set, px: dict, cfg: dict, budget
     hold_m = float(cfg.get("_max_hold_minutes", 0) or 0)
     dip_mult = float(cfg.get("dip_atr_mult", 0.75) or 0.75)
     flat_below = float(cfg.get("below_pct", 1.5) or 1.5)
-    usd = round(budget * float(cfg.get("usd_pct_of_budget", 4) or 4) / 100, 2)
-    if usd <= 0:
+    # Size off the ACCOUNT, not the leftovers: 4% of what remains falls under the $100 minimum the
+    # moment the book is mostly deployed, and never reaches the $1,000 target once anything is held.
+    # Then cap by what is actually affordable, and place nothing rather than an order that would fire
+    # and be dropped for the rest of its life.
+    floor = float(cfg.get("_min_order_usd", 0) or 0)
+    base = float(cfg.get("_budget_full", 0) or 0) or budget
+    usd = max(round(base * float(cfg.get("usd_pct_of_budget", 4) or 4) / 100, 2), floor)
+    cap = float(cfg.get("_cash_cap", 0) or 0)
+    if cap > 0:
+        usd = min(usd, round(cap, 2))
+        n = min(n, max(1, int(cap // usd))) if usd > 0 else 0
+    if usd <= 0 or usd < floor:
         return []
+    skip = {str(x).upper() for x in (cfg.get("_skip") or [])}   # names inside the rebuy cooldown
     live = {(o["ticker"], o["kind"]) for o in working(now)}
     cands = []
-    for t in sorted(set(allowed) - set(held)):
+    for t in sorted(set(allowed) - set(held) - skip):
         q = px.get(t) or {}
         price, m1m = q.get("price"), q.get("change_1m_pct")
         rng = q.get("pct_of_day_range")
         if not price or m1m is None or m1m <= 0:
             continue                                   # only names with the measured signal behind them
-        if rng is not None and rng > 60:
-            continue                                   # not a dip if it is near the day's high
+        if rng is None or rng > 60:
+            continue        # near the day's high, or the day has no range yet to measure - either
+                            # way this is not a measured dip. Thin names print one price for the
+                            # first minutes and the key is absent, which was admitting them.
         cands.append((m1m, t, price, rng))
     cands.sort(reverse=True)
     out = []
@@ -473,7 +505,7 @@ def dip_hunt(now: datetime, held: set, allowed: set, px: dict, cfg: dict, budget
                     # a dip order sized for half an hour has no business resting for a week
                     "good_until": (now.date() + timedelta(days=int(cfg.get("good_for_days", 1) or 1))).isoformat(),
                     "signals": ["momentum", "dip_entry"],
-                    "evidence": f"+{m1m:.1f}% over the month, sitting at {rng if rng is not None else '?'}% of today's range",
+                    "evidence": f"+{m1m:.1f}% over the month, sitting at {rng:.0f}% of today's range",
                     "why": f"strong month, weak day: resting {below:.2f}% under ${price:.2f} to catch the dip"})
     return out
 

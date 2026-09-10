@@ -65,7 +65,16 @@ def score(prices: dict, held: set | None = None) -> dict:
     rows = _load()
     today = date.today()
     still = set(held) if held is not None else None
+    sells_all = _sells(rows)
     for r in _buys(rows):
+        closed = still is not None and r["symbol"] not in still
+        if closed:
+            # Self-healing: derive the frozen value from the SELL rows every time, never from a
+            # one-off repair. A mark-to-today freeze (or a tick/replay race) cannot resurrect the
+            # inflated number, because the sells are the source of truth and they do not move.
+            real = _realised_for(r, sells_all)
+            if real is not None:
+                r["ret_final"] = real; r["ret_now"] = real; r["ret_src"] = "realised"; continue
         if r.get("ret_final") is not None:
             r["ret_now"] = r["ret_final"]; continue          # closed: the answer cannot change
         px = prices.get(r["symbol"], {}).get("price")
@@ -76,23 +85,45 @@ def score(prices: dict, held: set | None = None) -> dict:
         if age >= 7 and r.get("ret_1w") is None: r["ret_1w"] = ret
         if age >= 30 and r.get("ret_1m") is None: r["ret_1m"] = ret
         r["ret_now"] = ret
-        if still is not None and r["symbol"] not in still:
-            r["ret_final"] = ret                              # position is gone: freeze it here
+        if closed:
+            r["ret_final"] = ret; r["ret_src"] = "mark"        # gone but no sell row found: last resort
+    # how long each closed trade was actually held, so the loop can answer "does the clock pay?"
+    for sr in sells_all:
+        if sr.get("hold_minutes") is None:
+            b = _entry_for(sr, rows)
+            if b and b.get("ts") and sr.get("ts"):
+                sr["hold_minutes"] = int(max(0, (int(sr["ts"]) - int(b["ts"])) // 60))
     _save(rows)
 
     scored = [r for r in _buys(rows) if r.get("ret_now") is not None]
-    sells = [r for r in _sells(rows) if r.get("realized_pct") is not None]
-    by_signal = _agg(scored, "signals", multi=True)
+    open_rows = [r for r in scored if still is None or r["symbol"] in still]
+    sells = [r for r in sells_all if r.get("realized_pct") is not None]
+    # The ranking the brain reads is built from REALISED sells. Building it from the buy-side mark
+    # graded positions the agent no longer owned and told it it was down 2.5% a trade when the
+    # booked figure was a fraction of that - and flipped the sign on AMD.
+    by_signal = _agg(sells, "signals", val="realized_pct", multi=True) if sells else _agg(scored, "signals", multi=True)
     ranking = sorted(by_signal.items(), key=lambda kv: (-kv[1]["avg_ret_pct"], -kv[1]["n"]))
+    closed_buys = [r for r in scored if r.get("ret_src") == "realised" or (still is not None and r["symbol"] not in still)]
+    cost_closed = sum(float(r.get("notional") or r.get("usd") or 0) for r in closed_buys)
+    pnl = sum(float(r.get("realized_pnl", 0) or 0) for r in sells)
+    for sr in sells:
+        hm = sr.get("hold_minutes")
+        sr["hold_bucket"] = ("<=30m" if hm <= 30 else "<=60m" if hm <= 60 else "<=1d" if hm <= 390 else ">1d") if hm is not None else "unknown"
     rec = {
         "buys_total": len(_buys(rows)), "buys_scored": len(scored),
         "avg_ret_pct_all": round(sum(r["ret_now"] for r in scored) / len(scored), 2) if scored else None,
+        "realized_per_dollar_pct": round(100 * pnl / cost_closed, 2) if cost_closed > 0 else None,
+        "how_to_read": ("realized_per_dollar_pct is what closed trades actually booked per dollar put in. "
+                        "avg_ret_pct_all mixes that with open positions marked to market; prefer the first."),
         "by_sector": _agg(scored, "sector"),
         "by_congress_buying": _agg(scored, "congress_buying"),
         "by_signal": by_signal,
         "signal_ranking_best_to_worst": [k for k, _ in ranking],
-        "by_hour_et": _agg(scored, "hour_et"),
-        "best": sorted(scored, key=lambda r: -r["ret_now"])[:3], "worst": sorted(scored, key=lambda r: r["ret_now"])[:3],
+        "by_hour_et": _agg(sells, "hour_et", val="realized_pct") if sells else _agg(scored, "hour_et"),
+        "by_hold_bucket": _agg(sells, "hold_bucket", val="realized_pct") if sells else {},
+        "unrealised_open": [{"symbol": r["symbol"], "ret_now": r["ret_now"]} for r in open_rows],
+        "best": sorted(sells, key=lambda r: -r["realized_pct"])[:3] if sells else sorted(scored, key=lambda r: -r["ret_now"])[:3],
+        "worst": sorted(sells, key=lambda r: r["realized_pct"])[:3] if sells else sorted(scored, key=lambda r: r["ret_now"])[:3],
         "sells": {"n": len(sells),
                   "realized_pnl_usd": round(sum(r.get("realized_pnl", 0) for r in sells), 2),
                   "avg_realized_pct": round(sum(r["realized_pct"] for r in sells) / len(sells), 2) if sells else None,
@@ -101,9 +132,36 @@ def score(prices: dict, held: set | None = None) -> dict:
                   "last": [{"symbol": r["symbol"], "date": r.get("date"), "realized_pct": r["realized_pct"], "why": r.get("why", "")} for r in sells[-5:]]},
     }
     for k in ("best", "worst"):
-        rec[k] = [{"symbol": r["symbol"], "date": r["date"], "ret_now": r["ret_now"], "signals": r.get("signals", []),
+        rec[k] = [{"symbol": r["symbol"], "date": r.get("date"), "ret_pct": r.get("realized_pct", r.get("ret_now")),
+                   "hold_minutes": r.get("hold_minutes"), "signals": r.get("signals", []),
                    "evidence": r.get("evidence", ""), "why": r.get("why", "")} for r in rec[k]]
     return rec
+
+def _realised_for(buy: dict, sells: list[dict]) -> float | None:
+    """What this buy actually returned, from the sell rows that closed it: proceeds-weighted realised %."""
+    bts = int(buy.get("ts") or 0)
+    bdate = str(buy.get("date", ""))[:10]
+    mine = [s for s in sells if s.get("symbol") == buy.get("symbol") and s.get("realized_pct") is not None
+            and ((int(s.get("ts") or 0) >= bts) if bts and s.get("ts") else str(s.get("date", ""))[:10] >= bdate)]
+    if not mine:
+        return None
+    w = [float(s.get("proceeds") or s.get("qty") or 1) for s in mine]
+    return round(sum(float(s["realized_pct"]) * x for s, x in zip(mine, w)) / (sum(w) or 1), 2)
+
+def _entry_for(sell: dict, rows: list[dict]) -> dict | None:
+    """The most recent buy of the same symbol at or before this sell."""
+    sts = int(sell.get("ts") or 0)
+    cands = [r for r in _buys(rows) if r.get("symbol") == sell.get("symbol") and int(r.get("ts") or 0) <= (sts or 2**62)]
+    return max(cands, key=lambda r: int(r.get("ts") or 0)) if cands else None
+
+def entry_signals(symbol: str) -> list[str]:
+    """Signals behind the most recent buy of this name, so a closing sell can inherit them."""
+    rows = _load()
+    cands = [r for r in _buys(rows) if r.get("symbol") == symbol]
+    if not cands:
+        return []
+    b = max(cands, key=lambda r: int(r.get("ts") or 0))
+    return [x for x in (b.get("signals") or []) if isinstance(x, str)]
 
 def past_lessons(n: int = 12, evidence_days: int = 0) -> dict:
     """Recent lessons, WITH how much evidence stands behind them.
@@ -158,4 +216,4 @@ def add_lesson(text: str, track: dict, evidence_days: int = 0, min_days: int = 1
         return
     header = "" if LESSONS.exists() else "# Lessons the agent has drawn from its own results\n\n"
     with open(LESSONS, "a") as f:
-        f.write(f"{header}- {date.today()} ({evidence_days}d graded, avg so far {track.get('avg_ret_pct_all')}%): {text}\n")
+        f.write(f"{header}- {date.today()} ({evidence_days}d graded, realised {track.get('realized_per_dollar_pct')}% per dollar): {text}\n")

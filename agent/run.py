@@ -102,16 +102,25 @@ def _full_deployment(today, g: dict) -> dict:
                            f"Not yet - phase one until {start}. Deploy what the evidence justifies and let the loop learn."}
 
 def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: dict, g: dict, cleanup: bool,
-                     px: dict | None = None, chase_check: bool = True) -> tuple[list[dict], list[str], list[dict]]:
+                     px: dict | None = None, chase_check: bool = True,
+                     sector_of: dict | None = None) -> tuple[list[dict], list[str], list[dict]]:
     """Buys. Returns (orders_to_fill_now, dropped_reasons, orders_to_leave_as_limits).
     Caps enforced inside one check as well as across the day/week: per-ticker/week (running), per-day (running),
     per-day order count, min order, evidence required, no same-day rebuy, no negative or duplicate tickers."""
     budget_week = g["_weekly_budget"]
     dropped: list[str] = []
     deferred: list[dict] = []
+    # The day cap is NET of sells on purpose. Counting gross money put to work would mean that after
+    # one full deploy-and-sell cycle nothing could be bought for the rest of the day - which under a
+    # 30-minute clock is a lockout by lunchtime, the opposite of what the owner asked for. Gross
+    # figures exist (deployed_today) for the dashboard and the brain, never for the cap.
     day_cap = max(0.0, budget_week * g["max_daily_deploy_pct"] / 100 - st.get("spent_today", 0.0))
     cap_now = remaining_week if cleanup else min(remaining_week, day_cap)
-    deploy = min(max(0.0, float(plan.get("deploy_now_usd", plan.get("deploy_today_usd", 0)) or 0)), cap_now)
+    # deploy_now_usd is a ceiling. When the plan omits it (a standing-order fill, a plan that only
+    # sized its orders) the sum of the orders is the fallback - it is never a floor, so an explicit
+    # smaller number still binds.
+    asked = sum(max(0.0, float(o.get("usd", 0) or 0)) for o in (plan.get("orders") or []) if isinstance(o, dict))
+    deploy = min(max(0.0, float(plan.get("deploy_now_usd", plan.get("deploy_today_usd", 0)) or 0)) or asked, cap_now)
     if cleanup:
         deploy = remaining_week
     orders_left = int(g.get("max_orders_per_day", 8)) - int(st.get("orders_today", 0))
@@ -142,8 +151,19 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
         merged[t] = {**o, "ticker": t, "usd": usd}
     orders = [o for o in merged.values() if o["usd"] > 0]
     total = sum(o["usd"] for o in orders) or 1.0
+    if not cleanup:
+        deploy = min(deploy, total)      # dropped orders release their dollars, they do not donate them
     per_cap = budget_week * g["max_per_ticker_pct"] / 100
     by_ticker = dict(st.get("by_ticker", {}))
+    # Sector concentration: five names in one bucket is one position wearing five hats. CCJ and
+    # NLR were two thirds of a book and the same uranium bet.
+    sector_of = sector_of or {}
+    sector_cap = budget_week * float(g.get("max_per_sector_pct", 100) or 100) / 100
+    by_sector: dict[str, float] = {}
+    for tk, amt in by_ticker.items():
+        sec = sector_of.get(tk)
+        if sec:
+            by_sector[sec] = by_sector.get(sec, 0.0) + float(amt)
     left = deploy
     out = []
     # Four buys per check could never build a five-name book from flat. The cap now follows the
@@ -151,12 +171,14 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
     per_check = max(int(g.get("min_positions", 4) or 4) + 2, 4)
     for o in orders[:max(orders_left, 1) if cleanup else min(per_check, orders_left)]:
         room = per_cap - by_ticker.get(o["ticker"], 0.0)
+        sec = sector_of.get(o["ticker"])
+        if sec:
+            room = min(room, sector_cap - by_sector.get(sec, 0.0))
         usd = min(deploy * o["usd"] / total, room, left)
         if usd < g["min_order_usd"]:
-            dropped.append(f"{o['ticker']}: below min order after caps (${usd:.2f})"); continue
+            why = f"sector {sec} at its {g.get('max_per_sector_pct')}% cap" if (sec and sector_cap - by_sector.get(sec, 0.0) < g["min_order_usd"]) else "below min order after caps"
+            dropped.append(f"{o['ticker']}: {why} (${usd:.2f})"); continue
         usd = round(usd, 2)
-        by_ticker[o["ticker"]] = by_ticker.get(o["ticker"], 0.0) + usd
-        left -= usd
         row = {"ticker": o["ticker"], "usd": usd, "why": str(o.get("why", "")), "signals": _clean_signals(o), "evidence": str(o.get("evidence", ""))[:200]}
         # Buying at market in the top of the day's range is paying for a move that already
         # happened. On day one the average entry sat at the 76th percentile of the range and six
@@ -173,6 +195,12 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
                 deferred.append({**row, "limit_price": round(level, 4), "was_at_pct": pos})
                 dropped.append(f"{o['ticker']}: {pos:.0f}% up today's range — resting a limit at ${level:.2f} instead of chasing")
                 continue
+        # Budget is consumed only by an order that actually fills now. A deferred limit was
+        # charging the day's allowance for money it never spent.
+        by_ticker[o["ticker"]] = by_ticker.get(o["ticker"], 0.0) + usd
+        if sec:
+            by_sector[sec] = by_sector.get(sec, 0.0) + usd
+        left -= usd
         out.append(row)
     return out, dropped, deferred
 
@@ -345,7 +373,7 @@ def time_stops(now, broker, positions, st, g, log_fn):
         full = {**rec, "date": str(now.date()), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()),
                 "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": "time_stop"}
         state.record_sell(st, sl["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
-        learn.record_sell(full, signals=sl["signals"], evidence=sl["evidence"], hour_et=now.hour)
+        learn.record_sell(full, signals=sorted(set(sl["signals"]) | set(learn.entry_signals(sl["ticker"]))), evidence=sl["evidence"], hour_et=now.hour)
         triggers.cancel_position_orders(sl["ticker"], now, "time stop closed the position")
         out.append(sl); did += 1
         log_fn(f"- SELL 100% {sl['ticker']} [time stop] -> ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%) — {sl['why']}")
@@ -361,7 +389,12 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
     live = [o for o in triggers.all_orders() if o.get("status") == "working"]
     if not live:
         return [], [], 0
-    bars = prices.intraday(sorted({o["ticker"] for o in live}), since_ts=int(st.get("last_check_ts", 0) or 0))
+    # Replay from the start of the bar that was still forming at the previous pass, not from the
+    # previous pass itself. With a 60-second cadence and 5-minute bars, a since_ts equal to the last
+    # check meant every completed bar was only ever seen while forming - its true low could land
+    # after the pass and never be replayed. Consecutive windows now overlap by exactly one bar.
+    since = int(st.get("last_bar_ts") or st.get("last_check_ts", 0) or 0)
+    bars = prices.intraday(sorted({o["ticker"] for o in live}), since_ts=since)
     fires, notes = triggers.evaluate(now, px, bars, set(positions), float(g.get("trigger_slippage_pct", 0.05)))
     for n in notes:
         log_fn(f"  ({n})")
@@ -393,7 +426,7 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
                     "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": f["kind"]}
             state.record_sell(st, sl["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
-            learn.record_sell(full, signals=sl["signals"], evidence=sl["evidence"], hour_et=now.hour)
+            learn.record_sell(full, signals=sorted(set(sl["signals"]) | set(learn.entry_signals(sl["ticker"]))), evidence=sl["evidence"], hour_et=now.hour)
             triggers.close(f["id"], now, "filled")
             if sl["ticker"] not in broker.positions():
                 n = triggers.cancel_position_orders(sl["ticker"], now, "position closed")
@@ -420,6 +453,12 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             for t in sorted(unvetted):
                 v = verdicts.get(t) or {}
                 if not v.get("ok"):
+                    if v.get("transient"):
+                        # A screen that could not be RUN is not a screen that FAILED. Leave the
+                        # order working and try again next pass instead of destroying a $1,000
+                        # entry because a data feed hiccuped.
+                        log_fn(f"  (holding standing buy {t}: {v.get('why')} — will retry next check)")
+                        fmap.pop(t, None); continue
                     triggers.close(fmap[t]["id"], now, "cancelled", "failed the screen at fill time")
                     log_fn(f"  (cancelled standing buy {t}: {v.get('why', 'failed the screen at fill time')})")
                     fmap.pop(t, None)
@@ -429,11 +468,12 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
         plan = {"deploy_now_usd": usd_total,
                 "orders": [{"ticker": t, "usd": f["usd"], "why": f["why"], "evidence": f["evidence"],
                             "signals": (f.get("signals") or []) + ["standing_order"]} for t, f in fmap.items()]}
-        orders, dropped, _ = apply_guardrails(plan, allowed | set(fmap), remaining, st, g, False, chase_check=False)
+        orders, dropped, _ = apply_guardrails(plan, allowed | set(fmap), remaining, st, g, False, chase_check=False, sector_of=sector_of)
         for d in dropped:
             log_fn(f"  (dropped {d})")
         for o in orders:
             f = fmap[o["ticker"]]
+            o["usd"] = min(o["usd"], float(f["usd"]))       # never more than the order rested for
             rec = _at_price(broker, o["ticker"], f["fill_price"], lambda: broker.buy_notional(o["ticker"], o["usd"]))
             if str(rec.get("status", "")).startswith("rejected"):
                 log_fn(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
@@ -450,6 +490,7 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
 
 
 PUBLISH_EVERY_S = 900          # refresh the site at least this often even when nothing happens
+BAR_S = 300                    # prices.intraday's bar length; the replay watermark lands on bar starts
 
 def tick(force: bool = False, loops: int = 1, interval: int = 60) -> None:
     """Watch the market between decisions.
@@ -501,21 +542,23 @@ def _tick_once(force: bool = False) -> None:
     if getattr(broker, "name", "") == "sim":
         remaining = round(min(remaining, broker.cash()), 2)
     sector_of = {t: s for s, ts in cfg["watchlist"].items() for t in ts}
+    # The watchlist is the vetted set. Passing an empty set here re-screened every hand-picked name
+    # at fill time, cached a transient lookup failure forever, and cancelled the order on it.
     bought, sold, did = fill_standing_orders(now, today, broker, broker.positions(), px, st, g,
-                                             set(), remaining, sector_of, {}, log)
+                                             set(sector_of), remaining, sector_of, {}, log)
     # The clock has to be enforced on EVERY pass, not only when the brain is asked. Checked only
     # on decisions, a "30-minute" hold actually ran 30-64 minutes depending on when the next
     # decision happened to land.
     stale_sells, stale_n = time_stops(now, broker, broker.positions(), st, g, log)
     if stale_n:
         sold += stale_sells; did += stale_n
-        positions = broker.positions()
 
     if bought:            # averaging in moved the average cost, so the exits have to move with it
         auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
         if auto:
             triggers.place(auto, now, set(broker.positions()), set(broker.positions()), px)
     st["last_check_ts"] = int(now.timestamp())
+    st["last_bar_ts"] = (int(now.timestamp()) // BAR_S) * BAR_S     # start of the bar still forming
     state.save(st)
     if did:
         log(f"## {today} {now.strftime('%H:%M')} ET — tick — {len(sold)} sell(s), {len(bought)} buy(s) from standing orders")
@@ -565,7 +608,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
     remaining = round(g["_weekly_budget"] - st["spent"], 2)
     if is_sim:
         remaining = round(min(remaining, broker.cash()), 2)
-    log(f"\n## {today} {now.strftime('%H:%M')} ET ({today.strftime('%A')}) — week {st['week']} — budget left ${remaining:.2f} (today ${st['spent_today']:.2f}, {st['orders_today']} buys, {st['sells_today']} sells) — {mode} via {env['broker']}")
+    log(f"\n## {today} {now.strftime('%H:%M')} ET ({today.strftime('%A')}) — week {st['week']} — budget left ${remaining:.2f} (today ${st.get('deployed_today', 0.0):.2f} put to work, {st['orders_today']} buys, {st['sells_today']} sells) — {mode} via {env['broker']}")
 
     if not force:
         if not is_trading_day(today):
@@ -636,8 +679,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "current_positions": positions,
         "holdings_that_would_not_be_bought_today": flagged,
         "weekly_budget_usd": g["_weekly_budget"], "remaining_budget_usd": remaining,
-        "spent_today_usd": st["spent_today"], "orders_today": st["orders_today"], "sells_today": st["sells_today"],
-        "bought_this_week": st["by_ticker"], "sold_today": st["sold_today"],
+        "spent_today_usd": st.get("deployed_today", 0.0), "orders_today": st["orders_today"], "sells_today": st["sells_today"],
+        "bought_this_week": st.get("deployed_by_ticker") or st["by_ticker"], "sold_today": st["sold_today"],
         "guardrails": {k: v for k, v in g.items() if not k.startswith("_")},
         "sell_rules": {"allowed": not g.get("only_buy", False), "min_hold_days": g.get("min_hold_days", 0), "max_sells_per_day": g.get("max_sells_per_day", 3)},
         "allowed_tickers": sorted(allowed), "watchlist": cfg["watchlist"], "prices": px,
@@ -654,6 +697,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "signal_evidence_21d": replay.evidence("21d"),
         "counterfactual_learning": cf,
         "working_orders": triggers.summary(px, now),
+        "orders_dropped_at_last_check": reflect.last_dropped(),
         "standing_order_kinds": sorted(triggers.KINDS),
         "past_lessons_with_outcome": reflect.recent_lessons_with_outcome(px),
     }
@@ -676,7 +720,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
             log(f"- SELL {s['pct']:.0f}% {s['ticker']} [{rec['status']}]"); continue
         full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": s["why"], "signals": s["signals"], "evidence": s["evidence"]}
         state.record_sell(st, s["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
-        learn.record_sell(full, signals=s["signals"], evidence=s["evidence"], hour_et=now.hour)
+        learn.record_sell(full, signals=sorted(set(s["signals"]) | set(learn.entry_signals(s["ticker"]))), evidence=s["evidence"], hour_et=now.hour)
         if s["ticker"] not in broker.positions():
             # Standing-order sells already did this; a sell the brain decided on did not, so the
             # position's averaging-in order stayed live and could re-open what was just closed.
@@ -691,7 +735,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         remaining = round(min(g["_weekly_budget"] - st["spent"], broker.cash()), 2)
 
     # --- buys ---
-    orders, dropped, deferred = ([], [], []) if nothing_to_buy else apply_guardrails(plan, allowed, remaining, st, g, cleanup, px)
+    orders, dropped, deferred = ([], [], []) if nothing_to_buy else apply_guardrails(plan, allowed, remaining, st, g, cleanup, px, sector_of=sector_of)
     for d in dropped: log(f"  (dropped {d})")
     for o in orders:
         rec = broker.buy_notional(o["ticker"], o["usd"])
@@ -710,16 +754,27 @@ def main(report_only: bool = False, force: bool = False) -> None:
     want = list(plan.get("triggers") or [])
     for d in deferred:
         want.append({"ticker": d["ticker"], "kind": "buy_limit", "price": d["limit_price"], "usd": d["usd"],
-                     "pct_of_position": 0, "trail_pct": 0, "good_until": "",
+                     # Alive through this session, gone tomorrow. Left blank it defaulted to a
+                     # multi-day life and filled sessions later on a stale idea: measured
+                     # -0.150%/signal against -0.024% for same-session.
+                     "pct_of_position": 0, "trail_pct": 0, "good_until": now.date().isoformat(),
                      "signals": (d.get("signals") or []) + ["patience"],
                      "evidence": d.get("evidence") or f"was {d['was_at_pct']:.0f}% up the day's range",
                      "why": f"wanted it, but not at the high — resting at ${d['limit_price']:.2f}. {d.get('why','')}"[:240]})
     placed, trejected = triggers.place(want, now, set(broker.positions()), allowed, px)
     auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
     # Rest dip orders on names it does NOT hold, so a dip can be an entry and not just an average-down.
+    _cool = int(g.get("rebuy_cooldown_minutes", 0) or 0)
+    _cooling = {t for t, ts in (st.get("sold_ts") or {}).items()
+                if _cool and (now.timestamp() - float(ts or 0)) / 60 < _cool}
     auto += triggers.dip_hunt(now, set(broker.positions()), allowed, px,
-                              {**(g.get("dip_hunt") or {}), "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0)},
-                              remaining)
+                              {**(g.get("dip_hunt") or {}),
+                               "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0),
+                               "_min_order_usd": float(g.get("min_order_usd", 0) or 0),
+                               "_budget_full": float(g["_weekly_budget"]),
+                               "_cash_cap": remaining,
+                               "_skip": sorted(_cooling)},    # no live order to re-enter a name it may not re-enter
+                              float(g["_weekly_budget"]))
     if stale:
         log(f"  (re-pinned {stale} order(s) to the new average cost)")
     if auto:
@@ -733,6 +788,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         size = f"${t['usd']:.2f}" if t["kind"] in triggers.BUY_KINDS else f"{t['pct_of_position']:.0f}%"
         log(f"~ WORKING {t['kind']} {size} {t['ticker']} @ {detail} until {t['good_until']} — {t['why']}")
     st["last_check_ts"] = int(now.timestamp())
+    st["last_bar_ts"] = (int(now.timestamp()) // BAR_S) * BAR_S
     st["last_decision_ts"] = int(now.timestamp())
     state.save(st)
     filled_buys = tbuys + filled_buys

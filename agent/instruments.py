@@ -49,12 +49,14 @@ def _judge(t: str) -> dict:
     try:
         info = yf.Ticker(yahoo_symbol(t)).info or {}
     except Exception as e:
-        return {"ok": False, "why": f"could not identify ({type(e).__name__})", "name": ""}
+        # "the lookup did not answer" is not "this is not ordinary shares". Tagged transient so it is
+        # never written to the forever-cache: a feed hiccup was permanently blacklisting good names.
+        return {"ok": False, "why": f"could not identify ({type(e).__name__})", "name": "", "transient": True}
     name = str(info.get("longName") or info.get("shortName") or "")
     qtype = str(info.get("quoteType") or "").upper()
     vol = info.get("averageVolume") or info.get("averageDailyVolume10Day") or 0
     if not name and not qtype:
-        return {"ok": False, "why": "no security information", "name": ""}
+        return {"ok": False, "why": "no security information", "name": "", "transient": True}
     if qtype and qtype not in GOOD_TYPES:
         return {"ok": False, "why": f"not ordinary shares ({qtype.lower()})", "name": name}
     m = BAD_NAME.search(name)
@@ -65,13 +67,17 @@ def _judge(t: str) -> dict:
     return {"ok": True, "why": "", "name": name}
 
 def check(tickers, use_cache: bool = True) -> dict:
-    """{ticker: {ok, why, name}} for each. Cached on disk; only new tickers cost a lookup."""
+    """{ticker: {ok, why, name[, transient]}} for each. Settled verdicts are cached on disk forever;
+    a lookup that did not answer is returned with transient=True and NOT cached, so the caller can
+    decide to wait rather than act on a non-answer."""
     cache = _load() if use_cache else {}
     out, fresh = {}, False
     for t in sorted({str(x).upper() for x in tickers if x}):
         if t in cache:
             out[t] = cache[t]; continue
-        out[t] = cache[t] = _judge(t); fresh = True
+        v = _judge(t); out[t] = v
+        if not v.get("transient"):               # settled verdicts cache forever; a failed lookup retries next run
+            cache[t] = v; fresh = True
     if fresh and use_cache:
         _save(cache)
     return out

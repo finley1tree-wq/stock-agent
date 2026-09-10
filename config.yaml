@@ -29,6 +29,11 @@ guardrails:
                                  # The per-trade loss is still bounded by the stop (auto_bracket below),
                                  # so the risk this adds is concentration and overnight gap risk, not
                                  # an unbounded loss.
+  max_per_sector_pct: 40         # of the weekly budget, per watchlist sector bucket (defense, gold, index,
+                                 # real_estate, nuclear, widely_held). The sector map has always been in this
+                                 # file and nothing enforced it: CCJ + NLR were $1,000 of a $1,500 book and
+                                 # the same uranium bet, which is what turned an ordinary 30-minute drawdown
+                                 # into most of one day's loss. Five names in one sector is one position.
   min_order_pct_of_budget: 0.4   # smallest order worth placing, as a % of the weekly budget.
                                  # Sizes are proportional so they cannot drift out of step with the
                                  # account again: a hard-coded number silently stopped working the
@@ -61,8 +66,10 @@ guardrails:
   # one-DAY horizon, let alone thirty minutes, so treat what this produces as data collection.
   # Rest buy orders UNDER the market on names it does not own, so a dip is an ENTRY rather than
   # only an average-down into something already losing. Candidates need positive one-month
-  # momentum - the one signal the 5-year replay measured as real - AND to be in the lower part of
-  # today's range. Strong stock, weak day.
+  # momentum AND to be in the lower part of today's range. Strong stock, weak day.
+  # Status of that gate, honestly: one-month momentum is indistinguishable from luck at every horizon
+  # the replay measured, and nothing has been measured at 30 minutes at all. It is kept because it is
+  # cheap, explainable and graded (the dip_entry tag), not because it is proven.
   dip_hunt:
     enabled: true
     names: 6                     # how many resting dip orders to keep out at once
@@ -107,10 +114,20 @@ guardrails:
     # When max_hold_minutes is set the levels below are scaled to the move actually available in
     # that window (ATR x sqrt(minutes/390)). Measured: a 6x-ATR target was reached in 0.0% of
     # 30-minute windows, so the old daily levels could never fire inside the clock.
-    intraday_target_mult: 0.6    # target, as a fraction of the move available in the hold window
-    intraday_stop_mult: 1.0      # stop, same units - wider than the target on purpose, so noise
-                                 # does not stop you out before the target has a chance
-    intraday_floor_pct: 0.15     # never place a level tighter than this
+    #
+    # This geometry MINIMISES THE BLEED. It does not create expectancy and cannot.
+    # Measured on 112,298 real 30-minute windows across this watchlist: a bracket is a stopping
+    # rule on a near-driftless process, so gross expectancy is ~0 and net is exactly minus
+    # friction. A 50-cell grid of (target_mult, stop_mult) from 0.05/0.5 to 2.0/3.0 produced
+    # ZERO positive cells; the range was -0.0316% to -0.0506% per trade. The levels below are
+    # the least-bleed point that does not widen the tail: the worst single trade is unchanged.
+    # To reach breakeven the ENTRY must deliver about +0.037pp of 30-minute alpha per trade.
+    # Nothing in this repo has measured anything above noise at that horizon. Making money under
+    # a 30-minute rule is an entry-selection problem, not an exit-geometry problem.
+    intraday_target_mult: 0.4    # was 0.6; measured -0.0462% -> -0.0419%/trade, paired t=+7.5
+    intraday_stop_mult: 1.0      # do NOT widen: every widening moved the worst-trade tail
+    intraday_floor_pct: 0.15     # never place a level tighter than this; 0.05 measured as a no-op
+                                 # that puts a resting sell inside the spread
     stop_loss_atr: 3.0           # (used when there is no intraday clock) stop at 3x the daily range. Measured over ~7,800 entries on 5y of
                                  # this watchlist, widening 2x -> 3x raised expectancy AND the win rate
                                  # (+1.118% -> +1.393% per trade, 48.1% -> 54.3%): a tight stop is mostly
@@ -123,7 +140,10 @@ guardrails:
                                  # stop below. The old 2.5%
                                  # was smaller than the average watchlist stock's WHOLE DAY range (2.59%),
                                  # so it clipped winners before they could become winners.
-    take_profit_size_pct: 33     # sell only a third at the target, so two thirds of a winner keeps running
+    take_profit_size_pct: 33     # sell only a third at the target, so two thirds of a winner keeps running.
+                                 # DAILY PATH ONLY. With max_hold_minutes set the code overrides this to 100:
+                                 # there is nothing to let run when the clock closes the rest at market
+                                 # minutes later, so a free limit fill was being turned into a paid one.
     stop_loss_pct: 2.5           # sell all of it this far below the average cost. Once the target above
                                  # has banked a partial win, this moves UP to the entry price, so the
                                  # remainder of a winning trade can no longer lose money.

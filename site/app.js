@@ -275,10 +275,13 @@
     const alloc = $("#alloc"), legend = $("#legend"); alloc.innerHTML = ""; legend.innerHTML = "";
     const parts = Object.entries(pos).map(([s, x]) => [s, x.qty * (state.quotes[s]?.price ?? x.avg_cost)]).sort((a, b) => b[1] - a[1]); parts.push(["cash", cash]);
     parts.forEach(([s, v], i) => { const c = s === "cash" ? "#3a4656" : PALETTE[i % PALETTE.length]; const w = equity ? v / equity * 100 : 0; const sp = el("span"); sp.style.width = w + "%"; sp.style.background = c; alloc.appendChild(sp); legend.appendChild(el("span", null, `<i style="background:${c}"></i>${esc(s)} ${w.toFixed(0)}%`)); });
-    const budget = sg.weekly_budget || 400, spent = st.spent || 0;
-    $("#week-label").textContent = st.week ? `Week ${st.week}` : "This week"; $("#week-spent").textContent = `${money(spent)} of ${money(budget, 0)} deployed`; $("#week-bar").style.width = Math.min(100, spent / budget * 100) + "%";
+    // "spent" is NET new money (a sell hands its proceeds back). "deployed" is GROSS money put to
+    // work. The bar showed $0 deployed on a day that bought and sold three times because it read
+    // the net figure. Falls back to spent for a state.json published before deployed existed.
+    const budget = sg.weekly_budget || 400, spent = st.spent || 0, deployed = st.deployed ?? spent;
+    $("#week-label").textContent = st.week ? `Week ${st.week}` : "This week"; $("#week-spent").textContent = `${money(deployed)} put to work · ${money(Math.max(0, budget - spent))} left of ${money(budget, 0)}`; $("#week-bar").style.width = Math.min(100, deployed / budget * 100) + "%";
     const etDay = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" }); const sameDay = st.day === etDay;
-    $("#today-spent").textContent = money(sameDay ? st.spent_today || 0 : 0); $("#today-buys").textContent = sameDay ? st.orders_today ?? 0 : 0; $("#today-sells").textContent = sameDay ? st.sells_today ?? 0 : 0;
+    $("#today-spent").textContent = money(sameDay ? (st.deployed_today ?? st.spent_today ?? 0) : 0); $("#today-buys").textContent = sameDay ? st.orders_today ?? 0 : 0; $("#today-sells").textContent = sameDay ? st.sells_today ?? 0 : 0;
     $("#next-check").textContent = nextCheckText(sg.run_every_minutes || 30);
     const fs = sg.feed_status || {}; const fmt = v => v === "ok" ? "<span style='color:var(--up)'>live</span>" : v ? `<span style='color:var(--amber)'>${esc(v)}</span>` : "—";
     $("#feed-congress").innerHTML = fmt(fs.congress); $("#feed-insiders").innerHTML = fmt(fs.insiders);
