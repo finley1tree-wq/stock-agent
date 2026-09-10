@@ -1,18 +1,3 @@
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-brain: All 7 positions are fresh (days_held=0) and most already popped 3-10% intraday (AMAT +3.4%, AMD +7%, INTC +10.4%, NLR +4%, CCJ +2.7%). Existing stops/trailing-stops/buy_limits already cover downside and let winners run; own lessons from today repeatedly confirm chasing more momentum at the same tick has hurt. Budget remaining ($160) isn't urgent to deploy - min_hold_days=2 means no rebalancing pressure and standing orders (SPY/CCJ buy_limits) will pick up dips if they occur.
-lesson: Repeated pattern today: once positions are fresh and up big intraday, resist adding more and just let standing stops/limits work - don't deploy budget just because it's available.
-portfolio: equity $400.76 (+0.19% on $400.00 in) · cash $160.00 · realised +0.00
-Decision: nothing at this check. 7 standing order(s) working.
-
-## 2026-09-08 15:26 ET (Tuesday) — week 2026-W37 — budget left $160.00 (today $240.00, 7 buys, 0 sells) — SIM (pretend money) via sim
-  (CZNC excluded: too thinly traded (71,795/day) — Citizens & Northern Corporation)
-  (ECF excluded: too thinly traded (21,038/day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GOOGN excluded: not ordinary shares (depositary) — Alphabet Inc. Depositary Shares representing a 1/20th Intere)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-brain: This is the last check of the day (checks_left_today=1) with market closing in ~34 minutes. All positions are fresh (days_held=0), already up or down modestly intraday, and every position already has protective stops or trailing stops working. Existing buy_limit orders on SPY and CCJ sit below market for better entries if a dip happens. No new evidence justifies chasing further momentum this close to close, consistent with the repeated lesson today about not adding buys after big intraday pops.
-lesson: On days with 7+ fresh momentum positions already bought and stops in place, the correct final-check move is to do nothing and let standing orders work through the close rather than force a last-minute deployment.
 portfolio: equity $399.39 (-0.15% on $400.00 in) · cash $160.00 · realised +0.00
 Decision: nothing at this check. 7 standing order(s) working.
 
@@ -395,6 +380,21 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped AMAT: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
