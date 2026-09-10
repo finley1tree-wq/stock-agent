@@ -13,9 +13,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
 
 ## 2026-09-10 12:58 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
   (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 17:49 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 3 buys, 7 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 18:02 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 3 buys, 7 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
