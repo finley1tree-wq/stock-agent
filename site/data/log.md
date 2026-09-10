@@ -1,7 +1,4 @@
 
-## 2026-09-08 04:40 ET (Tuesday) — week 2026-W37 — budget left $400.00 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-Market closed right now. Nothing to do.
-
 ## 2026-09-08 11:17 ET (Tuesday) — week 2026-W37 — budget left $400.00 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 brain: First check of the day with a fresh $400 portfolio and no positions, so I'm deploying about a third of the weekly budget into a diversified starter mix: semis (AMAT) with congress+news support, nuclear theme (CCJ+NLR) which backtests show as the strongest sector, and a core SPY position for stability. Keeping ~$260 in reserve to add on confirmation or pull back on weakness rather than deploying everything on day one.
 lesson: On a fresh portfolio, deploy a moderate first tranche (~35%) across diversified themes rather than either going all-in or staying fully idle.
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 06:46 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 06:59 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
