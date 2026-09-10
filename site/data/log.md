@@ -37,12 +37,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
 
 ## 2026-09-10 10:16 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
   (BRN excluded: too thinly traded (55,040/day) — Barnwell Industries, Inc.)
@@ -386,6 +380,12 @@ lesson: Continuing to validate: on choppy/red days with a small fully-bracketed 
 ~ WORKING take_profit 33% NLR @ $149.44 until 2026-09-15 — close 33% at +19.9% over the average cost
 portfolio: equity $24995.91 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
+  (dropped NLR: below min order after caps ($25.00))
+  (dropped INTC: below min order after caps ($25.00))
+  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
