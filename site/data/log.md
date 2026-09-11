@@ -1,21 +1,3 @@
-~ WORKING buy_limit $500.00 SPCX @ $144.70 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING stop_loss 100% AMD @ $517.08 until 2026-09-16 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $501.57 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TPL @ $369.73 until 2026-09-16 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% TPL @ $364.88 until 2026-09-16 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 TPL @ $357.29 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% DGICA @ $19.31 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% DGICA @ $19.13 until 2026-09-16 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 DGICA @ $18.68 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% META @ $652.28 until 2026-09-16 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $644.00 until 2026-09-16 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 META @ $630.41 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING stop_loss 100% NEM @ $126.34 until 2026-09-16 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 NEM @ $122.55 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25049.23 (+0.20% on $25000.00 in) · cash $1054.03 · realised +54.03
-Done: 0 sell(s), 8 buy(s); 37 order(s) working; budget left $1000.00 this week
-  (cancelled 1 standing order(s) on AMD: position closed)
-- SELL 100% AMD [stop_loss @ $516.82] -> $2998.48 (-0.05%) — close it all at -1.0% under the average cost
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [stop_loss @ $126.28] -> $2998.61 (-0.05%) — close it all at -0.9% under the average cost
 ## 2026-09-11 14:00 ET — tick — 2 sell(s), 0 buy(s) from standing orders
@@ -398,3 +380,21 @@ portfolio: equity $25154.21 (+0.62% on $25000.00 in) · cash $16157.47 · realis
 Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-11 15:36 ET (Friday) — week 2026-W37 — budget left $16014.69 (today $130800.00 put to work, 58 buys, 54 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexDSbdJP8fM1jja6rYP2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25154.29 (+0.62% on $25000.00 in) · cash $16157.47 · realised +157.47
+Decision: nothing at this check. 9 standing order(s) working.
