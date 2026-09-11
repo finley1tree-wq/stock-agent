@@ -698,3 +698,23 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $20000.00 this week
   (cancelled 1 standing order(s) on INTC: position closed)
 - SELL 100% INTC [stop_loss @ $102.70] -> $1003.28 (+0.33%) — close it all at -1.2% under the average cost
 ## 2026-09-11 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 12:39 ET (Friday) — week 2026-W37 — budget left $18003.28 (today $40500.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Below min_positions (3 of 5) with $18k budget available on a green broad-market day (SPY +0.96%, AAPL/GOOGL/IBM all up). Adding AMD (congress cooldown just cleared, top-ranked signal), TSM and IBM (widely-held, moderate range position, positive news) to reach 5 positions with concrete evidence-backed entries, avoiding names already >85% of day range.
+lesson: When below min_positions on a green day with a cooldown about to clear, buy the moment it clears rather than waiting extra checks - AMD's congress+momentum combo is the best-ranked signal pair in track record.
+- BUY $1500.00 AMD [filled] ['congress', 'momentum'] — Cooling-off expired, congress signal ranked #1 in signal_ranking_best_to_worst, AMD momentum strong | evidence: Rep. Gilbert Ray Cisneros and Rick W. Allen disclosed AMD buys; congress net buy pressure 2.0, +12.23% 5d momentum, AMD situational-awareness options news 2026-09-11
+- BUY $1500.00 TSM [filled] ['momentum', 'news'] — Semis theme momentum, reasonable entry point mid-range | evidence: TSM +3.73% 5d, +1.06% today, day range 56.4% (not chasing), WSJ Tech/Media roundup mentions semis strength
+- BUY $1500.00 IBM [filled] ['momentum', 'news'] — Widely-held name with fresh positive catalyst, moderate range position | evidence: IBM +2.06% today, +1.76% 5d, day range 54.1%, Zacks headline on IBM quantum computing hub advance
+~ WORKING trailing_stop 50% AAPL @ trail 1.5% until 2026-09-11 — Ratchet protection on a winner already high in range
+~ WORKING stop_loss 100% AMD @ $512.06 until 2026-09-16 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $496.70 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% TSM @ $432.64 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $419.66 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% IBM @ $238.89 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $231.72 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 MSFT @ $493.01 until 2026-09-12 — strong month, weak day: resting 0.42% under $495.10 to catch the dip
+portfolio: equity $25044.46 (+0.18% on $25000.00 in) · cash $13546.65 · realised +46.65
+Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $13503.28 this week

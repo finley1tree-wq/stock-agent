@@ -161,8 +161,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24,
-    "ret_final": 0.24,
+    "ret_now": 0.26,
+    "ret_final": 0.26,
     "ret_src": "realised"
   },
   {
@@ -382,8 +382,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24,
-    "ret_final": 0.24,
+    "ret_now": 0.26,
+    "ret_final": 0.26,
     "ret_src": "realised"
   },
   {
@@ -614,8 +614,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.49,
-    "ret_now": 0.49,
+    "ret_final": 0.44,
+    "ret_now": 0.44,
     "ret_src": "realised"
   },
   {
@@ -1557,7 +1557,8 @@
     "momentum_1m_at_entry": 10.54,
     "hour_et": 12,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.04
   },
   {
     "symbol": "SPY",
@@ -1581,7 +1582,8 @@
     "momentum_1m_at_entry": -0.93,
     "hour_et": 12,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.03
   },
   {
     "symbol": "GOOGL",
@@ -1605,7 +1607,8 @@
     "momentum_1m_at_entry": -0.83,
     "hour_et": 12,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.05
   },
   {
     "symbol": "SPY",
@@ -1632,7 +1635,8 @@
     "momentum_1m_at_entry": -0.93,
     "hour_et": 12,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "INTC",
@@ -1658,7 +1662,10 @@
     "momentum_1m_at_entry": 1.67,
     "hour_et": 12,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.33,
+    "ret_now": 0.33,
+    "ret_src": "realised"
   },
   {
     "symbol": "INTC",
@@ -1682,6 +1689,79 @@
     ],
     "evidence": "average cost $102.37",
     "trigger": "stop_loss",
-    "hour_et": 12
+    "hour_et": 12,
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "AMD",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.929331,
+    "price": 512.06,
+    "date": "2026-09-11",
+    "time_et": "12:39",
+    "ts": 1789144783,
+    "why": "Cooling-off expired, congress signal ranked #1 in signal_ranking_best_to_worst, AMD momentum strong",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Gilbert Ray Cisneros and Rick W. Allen disclosed AMD buys; congress net buy pressure 2.0, +12.23% 5d momentum, AMD situational-awareness options news 2026-09-11",
+    "entry_price": 511.96,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 6.01,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.467114,
+    "price": 432.64,
+    "date": "2026-09-11",
+    "time_et": "12:39",
+    "ts": 1789144783,
+    "why": "Semis theme momentum, reasonable entry point mid-range",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "TSM +3.73% 5d, +1.06% today, day range 56.4% (not chasing), WSJ Tech/Media roundup mentions semis strength",
+    "entry_price": 432.55,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.79,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.279099,
+    "price": 238.89,
+    "date": "2026-09-11",
+    "time_et": "12:39",
+    "ts": 1789144783,
+    "why": "Widely-held name with fresh positive catalyst, moderate range position",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "IBM +2.06% today, +1.76% 5d, day range 54.1%, Zacks headline on IBM quantum computing hub advance",
+    "entry_price": 238.84,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.21,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

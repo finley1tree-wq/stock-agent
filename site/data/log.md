@@ -1,23 +1,3 @@
-- SELL 100% GOOGN [time stop] -> $19.76 (-1.21%) — held 2880 min, the 30-minute limit: out regardless
-brain: CCJ, NLR, INTC all bought minutes ago (8 min held) and already sit at day lows (pct_of_day_range near 0-48%) on a broad red macro day (oil above $100, yields up, IBM/AMD/NVDA all down). All three positions already have stop_loss/trailing_stop, scale-in buy_limits, and take_profit brackets working. No new concrete evidence (filing/headline) justifies fresh deployment into more weakness, and track record shows nuclear sector trades this week averaging -3.07%. Consistent with the last 8 checks' lessons: hold and let standing orders work rather than force entries.
-lesson: With positions bought minutes ago and already bracketed on a red macro day, avoid adding more capital just because budget remains - wait for genuinely new evidence before the next trade.
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING take_profit 33% NLR @ $145.65 until 2026-09-15 — close 33% at +20.4% over the average cost
-portfolio: equity $24974.03 (-0.10% on $25000.00 in) · cash $23394.45 · realised -0.55
-Done: 4 sell(s), 0 buy(s) (incl. 4 from standing orders); 8 order(s) working; budget left $23394.46 this week
-  (cancelled 2 standing order(s) on NLR: position closed)
-- SELL 100% NLR [stop_loss @ $117.94] -> $506.81 (-2.54%) — Protect NLR position which lacks a stop, nuclear sector volatile per headlines (uranium ETF crash mention)
-## 2026-09-10 14:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-10 14:46 ET (Thursday) — week 2026-W37 — budget left $23901.26 (today $891.78, 3 buys, 5 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-- SELL 100% CCJ [time stop] -> $544.95 (-1.81%) — held 40 min, the 30-minute limit: out regardless
-- SELL 100% INTC [time stop] -> $524.99 (-0.95%) — held 40 min, the 30-minute limit: out regardless
 brain: Late day (14:46 ET, close 16:00), flat book with no open positions after 7 same-day round trips already realized -$28.80 net. Market is broadly red (DIA -0.73%, most names in bottom third of day range like CCJ, NLR, OKLO, HD, UNH). With only ~1hr left and max_hold_minutes=30, any new buy now would be forced-closed near the close in choppy conditions - exactly the pattern that produced today's losses. No fresh concrete catalyst (filing/headline) justifies a new 30-min round trip into this weakness. Staying in cash into the close is the disciplined move given today's track record.
 lesson: Late-day (post 14:30 ET) with a flat book and no strong fresh catalyst, avoid new entries since any position will be forced-closed within 30 min into a red, choppy tape - cash is the correct default when signal_evidence shows no 1-day edge.
 portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
@@ -398,3 +378,23 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $20000.00 this week
   (cancelled 1 standing order(s) on INTC: position closed)
 - SELL 100% INTC [stop_loss @ $102.70] -> $1003.28 (+0.33%) — close it all at -1.2% under the average cost
 ## 2026-09-11 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 12:39 ET (Friday) — week 2026-W37 — budget left $18003.28 (today $40500.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Below min_positions (3 of 5) with $18k budget available on a green broad-market day (SPY +0.96%, AAPL/GOOGL/IBM all up). Adding AMD (congress cooldown just cleared, top-ranked signal), TSM and IBM (widely-held, moderate range position, positive news) to reach 5 positions with concrete evidence-backed entries, avoiding names already >85% of day range.
+lesson: When below min_positions on a green day with a cooldown about to clear, buy the moment it clears rather than waiting extra checks - AMD's congress+momentum combo is the best-ranked signal pair in track record.
+- BUY $1500.00 AMD [filled] ['congress', 'momentum'] — Cooling-off expired, congress signal ranked #1 in signal_ranking_best_to_worst, AMD momentum strong | evidence: Rep. Gilbert Ray Cisneros and Rick W. Allen disclosed AMD buys; congress net buy pressure 2.0, +12.23% 5d momentum, AMD situational-awareness options news 2026-09-11
+- BUY $1500.00 TSM [filled] ['momentum', 'news'] — Semis theme momentum, reasonable entry point mid-range | evidence: TSM +3.73% 5d, +1.06% today, day range 56.4% (not chasing), WSJ Tech/Media roundup mentions semis strength
+- BUY $1500.00 IBM [filled] ['momentum', 'news'] — Widely-held name with fresh positive catalyst, moderate range position | evidence: IBM +2.06% today, +1.76% 5d, day range 54.1%, Zacks headline on IBM quantum computing hub advance
+~ WORKING trailing_stop 50% AAPL @ trail 1.5% until 2026-09-11 — Ratchet protection on a winner already high in range
+~ WORKING stop_loss 100% AMD @ $512.06 until 2026-09-16 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $496.70 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% TSM @ $432.64 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $419.66 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% IBM @ $238.89 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $231.72 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 MSFT @ $493.01 until 2026-09-12 — strong month, weak day: resting 0.42% under $495.10 to catch the dip
+portfolio: equity $25044.46 (+0.18% on $25000.00 in) · cash $13546.65 · realised +46.65
+Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $13503.28 this week

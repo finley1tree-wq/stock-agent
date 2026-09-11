@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 6996.72,
+  "spent": 11496.72,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 3500.41,
@@ -11,9 +11,11 @@
     "AVGO": 2.12,
     "MSFT": 2.87,
     "KMT": 2.18,
-    "TSM": 0.74,
+    "TSM": 1500.74,
     "AAPL": 2000.0,
-    "GOOGL": 1500.0
+    "GOOGL": 1500.0,
+    "AMD": 1500.0,
+    "IBM": 1500.0
   },
   "orders": [
     {
@@ -1256,11 +1258,62 @@
       ],
       "evidence": "average cost $102.37",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.929331,
+      "price": 512.06,
+      "date": "2026-09-11",
+      "time_et": "12:39",
+      "ts": 1789144783,
+      "why": "Cooling-off expired, congress signal ranked #1 in signal_ranking_best_to_worst, AMD momentum strong",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Gilbert Ray Cisneros and Rick W. Allen disclosed AMD buys; congress net buy pressure 2.0, +12.23% 5d momentum, AMD situational-awareness options news 2026-09-11"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.467114,
+      "price": 432.64,
+      "date": "2026-09-11",
+      "time_et": "12:39",
+      "ts": 1789144783,
+      "why": "Semis theme momentum, reasonable entry point mid-range",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "TSM +3.73% 5d, +1.06% today, day range 56.4% (not chasing), WSJ Tech/Media roundup mentions semis strength"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.279099,
+      "price": 238.89,
+      "date": "2026-09-11",
+      "time_et": "12:39",
+      "ts": 1789144783,
+      "why": "Widely-held name with fresh positive catalyst, moderate range position",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "IBM +2.06% today, +1.76% 5d, day range 54.1%, Zacks headline on IBM quantum computing hub advance"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 6996.72,
-  "orders_today": 24,
+  "spent_today": 11496.72,
+  "orders_today": 27,
   "sells_today": 20,
   "sold_today": [
     "INTC",
@@ -1279,10 +1332,10 @@
     "KMT",
     "NEM"
   ],
-  "last_check_ts": 1789144562,
+  "last_check_ts": 1789144783,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
   "last_publish_ts": 1789144501,
-  "last_decision_ts": 1789143880,
+  "last_decision_ts": 1789144783,
   "sold_ts": {
     "INTC": 1789144502,
     "GOOGL": 1789134349,
@@ -1300,16 +1353,16 @@
     "KMT": 1789139263,
     "NEM": 1789139844
   },
-  "deployed": 40500.0,
+  "deployed": 45000.0,
   "deployed_by_ticker": {
-    "AMD": 4000.0,
+    "AMD": 5500.0,
     "CCJ": 3800.0,
     "INTC": 3500.0,
     "GOOGL": 4000.0,
     "META": 2200.0,
-    "IBM": 3300.0,
+    "IBM": 4800.0,
     "AAPL": 3800.0,
-    "TSM": 2900.0,
+    "TSM": 4400.0,
     "NVDA": 1500.0,
     "AVGO": 1500.0,
     "AMZN": 1500.0,
@@ -1319,7 +1372,7 @@
     "NEM": 1000.0,
     "SPY": 3500.0
   },
-  "deployed_today": 40500.0,
+  "deployed_today": 45000.0,
   "last_bar_ts": 1789144500,
   "book_px": {
     "22e73260": 766.6382,
