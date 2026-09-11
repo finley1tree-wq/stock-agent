@@ -4326,7 +4326,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 336.7209,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:49",
    "created_ts": 1789152573,
    "why": "close it all at -0.6% under the average cost",
@@ -4336,7 +4336,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:13",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6283d4ff",
@@ -4899,7 +4901,24 @@
    ],
    "good_until": "2026-09-16",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "b848b4d2",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 339.002,
+   "status": "working",
+   "created": "2026-09-11 15:13",
+   "created_ts": 1789153988,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $338.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-11 15:12"
+ "updated": "2026-09-11 15:13"
 }
