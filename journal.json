@@ -672,8 +672,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.11,
-    "ret_now": 0.11,
+    "ret_final": 0.09,
+    "ret_now": 0.09,
     "ret_src": "realised"
   },
   {
@@ -1307,8 +1307,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06,
-    "ret_final": 0.06,
+    "ret_now": 0.2,
+    "ret_final": 0.2,
     "ret_src": "realised"
   },
   {
@@ -1621,8 +1621,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08,
-    "ret_final": -0.08,
+    "ret_now": -0.02,
+    "ret_final": -0.02,
     "ret_src": "realised"
   },
   {
@@ -2320,8 +2320,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.05,
-    "ret_now": -0.05,
+    "ret_final": 0.17,
+    "ret_now": 0.17,
     "ret_src": "realised"
   },
   {
@@ -2898,7 +2898,9 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.03,
+    "ret_final": 0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "INTC",
@@ -2924,7 +2926,7 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.23
   },
   {
     "symbol": "AMD",
@@ -2950,7 +2952,7 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.08
   },
   {
     "symbol": "TPL",
@@ -3003,7 +3005,9 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.36
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "HUBB",
@@ -3031,7 +3035,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.02
   },
   {
     "symbol": "TSM",
@@ -3056,7 +3060,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": -0.08
   },
   {
     "symbol": "NEM",
@@ -3080,6 +3084,57 @@
     ],
     "evidence": "average cost $126.12",
     "trigger": "take_profit",
-    "hour_et": 15
+    "hour_et": 15,
+    "hold_minutes": 23
+  },
+  {
+    "symbol": "GOOGL",
+    "side": "sell",
+    "qty": 4.42808,
+    "status": "filled",
+    "price": 338.83,
+    "proceeds": 1500.38,
+    "realized_pnl": 0.38,
+    "realized_pct": 0.03,
+    "date": "2026-09-11",
+    "time_et": "15:17",
+    "ts": 1789154100,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $338.75",
+    "trigger": "stop_loss",
+    "hour_et": 15,
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "META",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.609852,
+    "price": 650.78,
+    "date": "2026-09-11",
+    "time_et": "15:18",
+    "ts": 1789154281,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+12.4% over the month; 19% of today's range",
+    "entry_price": 650.65,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 12.4,
+    "hour_et": 15,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
