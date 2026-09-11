@@ -144,6 +144,11 @@ class SimBroker:
                       # can't be flipped the same day just because the position is old
                       "days_since_buy": (today - date.fromisoformat(pos.get("last_buy") or pos["opened"])).days,
                       "tranches": int(pos.get("tranches", 1)),
+                      # When this position was opened, in seconds. The bracket logic needs it to
+                      # tell a profit target banked BY THIS POSITION from one banked by an earlier,
+                      # already-closed position in the same ticker - without it every re-bought
+                      # name inherited a break-even stop pinned to its entry and no target at all.
+                      "opened_ts": pos.get("opened_ts") or pos.get("last_buy_ts"),
                       # Positions bought before the minute-clock existed have no timestamp. Falling
                       # back to the DAY they were opened is what makes the intraday stop apply to
                       # them at all - otherwise the whole legacy book is silently exempt from it,

@@ -363,14 +363,19 @@ def _closed_after(order: dict, pos: dict) -> bool:
     A position with no opened_ts (pre-dating the field) is treated as new, which is the safe
     reading: it gets an ordinary target and an ordinary stop.
     """
-    opened = pos.get("opened_ts")
+    opened = pos.get("opened_ts") or pos.get("last_buy_ts")
     if not opened:
         return False
     stamp = order.get("closed") or ""
     try:
-        return datetime.strptime(str(stamp)[:16], "%Y-%m-%d %H:%M").replace(tzinfo=ET).timestamp() >= float(opened)
+        closed = datetime.strptime(str(stamp)[:16], "%Y-%m-%d %H:%M").replace(tzinfo=ET).timestamp()
     except (ValueError, TypeError):
         return False
+    # An order's close time is recorded to the MINUTE while opened_ts is to the second, so compare
+    # at the coarser precision. Without this a target banked in the same minute as the buy parses
+    # as 14:30:00 against an open at 14:30:45 and reads as "before the position existed" - which
+    # silently disabled the break-even stop the rule exists to provide.
+    return closed >= (float(opened) // 60) * 60
 
 def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> tuple[list[dict], int]:
     """Keep every position's exit plan pinned to its CURRENT average cost, and offer to average in.
