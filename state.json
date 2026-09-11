@@ -1,14 +1,13 @@
 {
   "week": "2026-W37",
-  "spent": 7316.66,
+  "spent": 4810.81,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 2310.05,
     "SPY": 0.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
-    "AMD": 2500.0,
-    "GOOGL": 2500.0
+    "AMD": 2500.0
   },
   "orders": [
     {
@@ -508,21 +507,44 @@
       ],
       "evidence": "GOOGL +1.88% today, 91.6% of day range, headline 'What a Republican wipeout means for investors' driving broad tech rally",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 7.411057,
+      "status": "filled",
+      "price": 338.12,
+      "proceeds": 2505.85,
+      "realized_pnl": 5.85,
+      "realized_pct": 0.23,
+      "date": "2026-09-11",
+      "time_et": "09:45",
+      "ts": 1789134300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $337.33",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 7287.87,
+  "spent_today": 4782.02,
   "orders_today": 4,
-  "sells_today": 1,
+  "sells_today": 2,
   "sold_today": [
-    "INTC"
+    "INTC",
+    "GOOGL"
   ],
-  "last_check_ts": 1789134130,
-  "book_fp": "[[\"23b20e4c\", 19.0529], [\"34dcfd40\", 335.3431], [\"4d652d52\", 654.1035], [\"4deb2cfd\", 97.4654], [\"532b86e9\", 171.2706], [\"603e93b6\", 94.1385], [\"74e0024c\", 428.3086], [\"a7c2e737\", 338.1227], [\"a89ad0f5\", 492.8], [\"bc2e632d\", 327.2101], [\"bcf90a5c\", 93.5], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
-  "last_publish_ts": 1789134130,
+  "last_check_ts": 1789134348,
+  "book_fp": "[[\"23b20e4c\", 19.0529], [\"4d652d52\", 654.1035], [\"4deb2cfd\", 97.4654], [\"532b86e9\", 171.2706], [\"603e93b6\", 94.1385], [\"74e0024c\", 428.3086], [\"a89ad0f5\", 492.8], [\"bcf90a5c\", 93.5], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
+  "last_publish_ts": 1789134348,
   "last_decision_ts": 1789133608,
   "sold_ts": {
-    "INTC": 1789134010
+    "INTC": 1789134010,
+    "GOOGL": 1789134349
   },
   "deployed": 9800.0,
   "deployed_by_ticker": {
@@ -532,5 +554,5 @@
     "GOOGL": 2500.0
   },
   "deployed_today": 9800.0,
-  "last_bar_ts": 1789134000
+  "last_bar_ts": 1789134300
 }

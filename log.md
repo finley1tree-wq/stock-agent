@@ -500,3 +500,6 @@ Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week
 ## 2026-09-11 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2500.00 GOOGL [buy_limit @ $337.33] — wanted it, but not at the high — resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind
 ## 2026-09-11 09:42 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $338.12] -> $2505.85 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-11 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
