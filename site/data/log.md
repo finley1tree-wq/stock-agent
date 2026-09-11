@@ -1,9 +1,3 @@
-Decision: nothing at this check. 11 standing order(s) working.
-
-## 2026-09-11 12:16 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $32500.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
-  (CYBN excluded: no security information)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
 brain: Currently flat (0 positions) with $25k budget and below min_positions target of 5. Several strong widely-held names (AAPL, TSM, IBM, AMD) already sold today but most are in 45-min cooldown or high in day range - rather than market-buy at elevated range percentiles (AAPL 84.6%, TSM 80.8%, IBM 50.6%), I'm placing buy_limit orders slightly below market to get better entries per the guardrail on max_entry_range_pct, consistent with past lessons about not chasing highs. NVDA is low in its day range (14.5%) so a modest limit near current price makes sense; AMD carries a congress signal (top-ranked per track_record) but is in a 9-min cooldown so a resting limit will catch it once cleared.
 lesson: Existing working dip-entry orders already cover most good widely-held names (GOOGL, INTC, MRK, META) - check for overlap before adding new limit orders to avoid duplicate exposure to the same thesis.
 ~ WORKING buy_limit $2000.00 AAPL @ $330.50 until 2026-09-11 — Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range
@@ -398,3 +392,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $122.34 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25147.08 (+0.59% on $25000.00 in) · cash $8642.78 · realised +142.78
 Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $8500.00 this week
+  (cancelled 2 standing order(s) on MO: position closed)
+- SELL 100% MO [stop_loss @ $69.07] -> $3000.68 (+0.02%) — close it all at -0.6% under the average cost
+## 2026-09-11 14:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TPL: position closed)
+- SELL 100% TPL [stop_loss @ $369.18] -> $3001.93 (+0.06%) — close it all at -0.9% under the average cost
+## 2026-09-11 14:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders

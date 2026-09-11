@@ -4251,7 +4251,7 @@
    "ticker": "MO",
    "kind": "take_profit",
    "price": 69.2026,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:44",
    "created_ts": 1789152247,
    "why": "close 100% at +0.2% over the average cost",
@@ -4261,7 +4261,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:56",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d9156625",
@@ -4287,7 +4289,7 @@
    "ticker": "MO",
    "kind": "buy_limit",
    "price": 66.9785,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:44",
    "created_ts": 1789152247,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -4297,7 +4299,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 14:56",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9215e0dd",
@@ -4355,7 +4359,7 @@
    "ticker": "MO",
    "kind": "stop_loss",
    "price": 69.104,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 14:50",
    "created_ts": 1789152634,
    "why": "close it all at -0.6% under the average cost",
@@ -4365,7 +4369,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:56"
   },
   {
    "id": "55412ca5",
@@ -4474,7 +4479,7 @@
    "ticker": "TPL",
    "kind": "take_profit",
    "price": 370.3235,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "close 100% at +0.4% over the average cost",
@@ -4484,7 +4489,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:57",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d127c672",
@@ -4510,7 +4517,7 @@
    "ticker": "TPL",
    "kind": "buy_limit",
    "price": 357.8718,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -4520,7 +4527,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 14:57",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b493b520",
@@ -4578,7 +4587,7 @@
    "ticker": "TPL",
    "kind": "stop_loss",
    "price": 369.366,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 14:53",
    "created_ts": 1789152820,
    "why": "close it all at -0.9% under the average cost",
@@ -4588,8 +4597,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:57"
   }
  ],
- "updated": "2026-09-11 14:53"
+ "updated": "2026-09-11 14:57"
 }
