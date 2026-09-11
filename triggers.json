@@ -2737,7 +2737,7 @@
    "ticker": "SPCX",
    "kind": "buy_limit",
    "price": 147.0339,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:43",
    "created_ts": 1789141423,
    "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
@@ -2747,7 +2747,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-12",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-11 14:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5ba8a2de",
@@ -3454,7 +3456,7 @@
    "ticker": "BE",
    "kind": "take_profit",
    "price": 275.6911,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 13:59",
    "created_ts": 1789149599,
    "why": "close 100% at +0.7% over the average cost",
@@ -3464,7 +3466,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:21",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a8200c8d",
@@ -3490,7 +3494,7 @@
    "ticker": "BE",
    "kind": "buy_limit",
    "price": 265.5957,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 13:59",
    "created_ts": 1789149599,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -3500,7 +3504,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 14:21",
+   "cancel_reason": "position closed"
   },
   {
    "id": "083e53f1",
@@ -3544,7 +3550,7 @@
    "ticker": "SPCX",
    "kind": "take_profit",
    "price": 149.8498,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 13:59",
    "created_ts": 1789149599,
    "why": "close 100% at +0.4% over the average cost",
@@ -3554,7 +3560,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:20"
   },
   {
    "id": "6240fac4",
@@ -3580,7 +3587,7 @@
    "ticker": "SPCX",
    "kind": "buy_limit",
    "price": 144.7046,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 13:59",
    "created_ts": 1789149599,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -3590,7 +3597,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 14:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d894da6e",
@@ -4024,7 +4033,7 @@
    "ticker": "SPCX",
    "kind": "stop_loss",
    "price": 149.396,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:13",
    "created_ts": 1789150422,
    "why": "close it all at -1.1% under the average cost",
@@ -4034,7 +4043,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "811b85f3",
@@ -4078,7 +4089,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 274.464,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 14:17",
    "created_ts": 1789150647,
    "why": "close it all at -1.7% under the average cost",
@@ -4088,8 +4099,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:21"
   }
  ],
- "updated": "2026-09-11 14:17"
+ "updated": "2026-09-11 14:22"
 }

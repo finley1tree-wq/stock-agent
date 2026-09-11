@@ -1,20 +1,3 @@
-~ WORKING buy_limit $500.00 AVGO @ $353.64 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMZN @ $255.88 until 2026-09-16 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AMZN @ $247.60 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $496.31 until 2026-09-16 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 MSFT @ $480.34 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% KMT @ $29.82 until 2026-09-16 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 KMT @ $28.82 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $308.94 until 2026-09-16 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $299.04 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 INTC @ $102.37 until 2026-09-12 — strong month, weak day: resting 0.92% under $103.32 to catch the dip
-portfolio: equity $25035.15 (+0.14% on $25000.00 in) · cash $16541.37 · realised +41.37
-Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $16500.00 this week
-  (cancelled 2 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $308.94] -> $1252.62 (+0.21%) — close 100% at +0.2% over the average cost
-## 2026-09-11 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% NVDA [time stop] -> $1496.04 (-0.26%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-11 11:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% AVGO [time stop] -> $1497.88 (-0.14%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMZN [time stop] -> $1502.04 (+0.14%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% MSFT [time stop] -> $1497.13 (-0.19%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 34 order(s) working; budget left $4003.87 this week
   (cancelled 1 standing order(s) on TSM: position closed)
 - SELL 100% TSM [stop_loss @ $432.84] -> $2998.52 (-0.05%) — close it all at -0.6% under the average cost
 ## 2026-09-11 14:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on SPCX: position closed)
+- SELL 100% SPCX [take_profit @ $149.85] -> $3013.47 (+0.45%) — close 100% at +0.4% over the average cost
+## 2026-09-11 14:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [stop_loss @ $274.33] -> $3005.61 (+0.19%) — close it all at -1.7% under the average cost
+## 2026-09-11 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:22 ET (Friday) — week 2026-W37 — budget left $13021.47 (today $88300.00 put to work, 43 buys, 38 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex7m1M7mPz1AFbdDbrXw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25070.01 (+0.28% on $25000.00 in) · cash $13075.51 · realised +75.51
+Decision: nothing at this check. 25 standing order(s) working.

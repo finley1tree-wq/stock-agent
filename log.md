@@ -969,3 +969,20 @@ Done: 0 sell(s), 1 buy(s); 34 order(s) working; budget left $4003.87 this week
   (cancelled 1 standing order(s) on TSM: position closed)
 - SELL 100% TSM [stop_loss @ $432.84] -> $2998.52 (-0.05%) — close it all at -0.6% under the average cost
 ## 2026-09-11 14:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on SPCX: position closed)
+- SELL 100% SPCX [take_profit @ $149.85] -> $3013.47 (+0.45%) — close 100% at +0.4% over the average cost
+## 2026-09-11 14:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [stop_loss @ $274.33] -> $3005.61 (+0.19%) — close it all at -1.7% under the average cost
+## 2026-09-11 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:22 ET (Friday) — week 2026-W37 — budget left $13021.47 (today $88300.00 put to work, 43 buys, 38 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex7m1M7mPz1AFbdDbrXw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25070.01 (+0.28% on $25000.00 in) · cash $13075.51 · realised +75.51
+Decision: nothing at this check. 25 standing order(s) working.

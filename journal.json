@@ -833,8 +833,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.05,
-    "ret_now": 0.05,
+    "ret_final": 0.01,
+    "ret_now": 0.01,
     "ret_src": "realised"
   },
   {
@@ -2110,7 +2110,9 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.19,
+    "ret_final": 0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "INTC",
@@ -2162,7 +2164,9 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.32
+    "ret_now": 0.45,
+    "ret_final": 0.45,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMD",
@@ -2265,7 +2269,7 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.21
   },
   {
     "symbol": "NEM",
@@ -2415,7 +2419,7 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": -0.01
   },
   {
     "symbol": "MRK",
@@ -2466,7 +2470,7 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.03
   },
   {
     "symbol": "AAPL",
@@ -2564,7 +2568,10 @@
     "momentum_1m_at_entry": 0.89,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.05,
+    "ret_now": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -2587,6 +2594,57 @@
     ],
     "evidence": "average cost $433.06",
     "trigger": "stop_loss",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 0
+  },
+  {
+    "symbol": "SPCX",
+    "side": "sell",
+    "qty": 20.109957,
+    "status": "filled",
+    "price": 149.85,
+    "proceeds": 3013.47,
+    "realized_pnl": 13.47,
+    "realized_pct": 0.45,
+    "date": "2026-09-11",
+    "time_et": "14:20",
+    "ts": 1789150500,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $149.18",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "hold_minutes": 15
+  },
+  {
+    "symbol": "BE",
+    "side": "sell",
+    "qty": 10.956313,
+    "status": "filled",
+    "price": 274.33,
+    "proceeds": 3005.61,
+    "realized_pnl": 5.61,
+    "realized_pct": 0.19,
+    "date": "2026-09-11",
+    "time_et": "14:21",
+    "ts": 1789150800,
+    "why": "close it all at -1.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $273.81",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "hold_minutes": 20
   }
 ]
