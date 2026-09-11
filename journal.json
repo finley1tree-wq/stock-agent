@@ -1606,5 +1606,58 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "SPY",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.613957,
+    "price": 765.12,
+    "date": "2026-09-11",
+    "time_et": "12:29",
+    "ts": 1789143900,
+    "why": "wanted it, but not at the high \u2014 resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down",
+    "signals": [
+      "etf_default",
+      "momentum",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "SPY +1.1% today, 91.7% of day range - CPI in line at +3.4%, market rallying on data",
+    "trigger": "buy_limit",
+    "entry_price": 765.1235,
+    "sector": "index",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -0.93,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "INTC",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 9.768764,
+    "price": 102.37,
+    "date": "2026-09-11",
+    "time_et": "12:30",
+    "ts": 1789143900,
+    "why": "strong month, weak day: resting 0.92% under $103.32 to catch the dip",
+    "signals": [
+      "dip_entry",
+      "momentum",
+      "standing_order"
+    ],
+    "evidence": "+2.4% over the month, sitting at 59% of today's range",
+    "trigger": "buy_limit",
+    "entry_price": 102.3671,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.67,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

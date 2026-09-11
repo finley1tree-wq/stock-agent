@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-11T12:25-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-11T12:30-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -137,21 +137,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "592ebc87",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 765.1235,
-   "usd": 2000.0,
-   "pct_of_position": null,
+   "id": "888a1139",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 102.532,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 765.41,
-   "pct_away": -0.04,
-   "good_until": "2026-09-11",
-   "why": "wanted it, but not at the high \u2014 resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down",
+   "last": 102.64,
+   "pct_away": -0.11,
+   "good_until": "2026-09-16",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
-    "momentum",
-    "etf_default",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -162,8 +161,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 765.41,
-   "pct_away": 0.16,
+   "last": 765.15,
+   "pct_away": 0.19,
    "good_until": "2026-09-16",
    "why": "close 100% at +0.1% over the average cost",
    "signals": [
@@ -179,8 +178,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 152.88,
-   "pct_away": -0.45,
+   "last": 152.59,
+   "pct_away": -0.26,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.52% under $152.99 to catch the dip",
    "signals": [
@@ -196,8 +195,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 650.36,
-   "pct_away": -0.55,
+   "last": 648.67,
+   "pct_away": -0.29,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
    "signals": [
@@ -213,8 +212,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.66,
-   "pct_away": -0.56,
+   "last": 340.09,
+   "pct_away": -0.39,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
    "signals": [
@@ -241,6 +240,22 @@
    ]
   },
   {
+   "id": "9801e338",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 760.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 765.15,
+   "pct_away": -0.67,
+   "good_until": "2026-09-11",
+   "why": "protect index position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
    "id": "23b20e4c",
    "ticker": "DGICA",
    "kind": "buy_limit",
@@ -258,36 +273,20 @@
    ]
   },
   {
-   "id": "9801e338",
-   "ticker": "SPY",
-   "kind": "stop_loss",
-   "price": 760.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 765.41,
-   "pct_away": -0.71,
-   "good_until": "2026-09-11",
-   "why": "protect index position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "b66024ed",
-   "ticker": "INTC",
+   "id": "d375c5a7",
+   "ticker": "TSM",
    "kind": "buy_limit",
-   "price": 102.3671,
-   "usd": 1000.0,
+   "price": 429.0,
+   "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.29,
-   "pct_away": -0.89,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.92% under $103.32 to catch the dip",
+   "last": 432.94,
+   "pct_away": -0.91,
+   "good_until": "2026-09-11",
+   "why": "Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range",
    "signals": [
     "momentum",
-    "dip_entry"
+    "news"
    ]
   },
   {
@@ -298,44 +297,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 145.09,
-   "pct_away": -0.9,
+   "last": 145.15,
+   "pct_away": -0.95,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.51% under $144.51 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "d375c5a7",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 429.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 433.35,
-   "pct_away": -1.0,
-   "good_until": "2026-09-11",
-   "why": "Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range",
-   "signals": [
-    "momentum",
-    "news"
-   ]
-  },
-  {
-   "id": "b84d5c3e",
-   "ticker": "SPCX",
-   "kind": "buy_limit",
-   "price": 147.0339,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 148.6,
-   "pct_away": -1.05,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -349,13 +314,48 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 334.37,
-   "pct_away": -1.16,
+   "last": 334.27,
+   "pct_away": -1.13,
    "good_until": "2026-09-11",
    "why": "Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range",
    "signals": [
     "momentum",
     "news"
+   ]
+  },
+  {
+   "id": "c77ba476",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 272.247,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 275.38,
+   "pct_away": -1.14,
+   "good_until": "2026-09-11",
+   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "b84d5c3e",
+   "ticker": "SPCX",
+   "kind": "buy_limit",
+   "price": 147.0339,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 148.74,
+   "pct_away": -1.15,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -366,8 +366,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 369.96,
-   "pct_away": -1.26,
+   "last": 369.75,
+   "pct_away": -1.2,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
    "signals": [
@@ -383,31 +383,13 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 239.04,
-   "pct_away": -1.27,
+   "last": 238.99,
+   "pct_away": -1.25,
    "good_until": "2026-09-11",
    "why": "Widely-held name, resting below current 238.6 to get a better entry once cooldown clears",
    "signals": [
     "momentum",
     "news"
-   ]
-  },
-  {
-   "id": "c77ba476",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 272.247,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 276.02,
-   "pct_away": -1.37,
-   "good_until": "2026-09-11",
-   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -418,8 +400,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 219.24,
-   "pct_away": -1.48,
+   "last": 219.16,
+   "pct_away": -1.44,
    "good_until": "2026-09-11",
    "why": "Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate",
    "signals": [
@@ -435,8 +417,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 513.45,
-   "pct_away": -1.65,
+   "last": 512.6,
+   "pct_away": -1.48,
    "good_until": "2026-09-11",
    "why": "Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready",
    "signals": [
@@ -452,8 +434,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 340.66,
-   "pct_away": -1.96,
+   "last": 340.09,
+   "pct_away": -1.79,
    "good_until": "2026-09-11",
    "why": "protect against reversal below today's low",
    "signals": [
@@ -468,8 +450,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 334.37,
-   "pct_away": -2.8,
+   "last": 334.27,
+   "pct_away": -2.77,
    "good_until": "2026-09-11",
    "why": "protect against reversal below today's low",
    "signals": [
@@ -484,8 +466,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.66,
-   "pct_away": -2.97,
+   "last": 340.09,
+   "pct_away": -2.81,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -501,8 +483,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 765.41,
-   "pct_away": -2.99,
+   "last": 765.15,
+   "pct_away": -2.96,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -518,8 +500,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 334.37,
-   "pct_away": -3.05,
+   "last": 334.27,
+   "pct_away": -3.02,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "11b235f3",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 99.2989,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 102.64,
+   "pct_away": -3.26,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -535,8 +534,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 320.93,
-   "pct_away": -3.27,
+   "last": 320.95,
+   "pct_away": -3.28,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.87% under $313.17 to catch the dip",
    "signals": [
@@ -552,8 +551,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 177.23,
-   "pct_away": -3.36,
+   "last": 177.63,
+   "pct_away": -3.58,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
    "signals": [

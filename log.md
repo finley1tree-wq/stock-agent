@@ -691,3 +691,7 @@ lesson: Existing dip-limit orders cover many names already (NVDA, AMD, TSM, IBM,
 ~ WORKING buy_limit $500.00 GOOGL @ $330.53 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25042.37 (+0.17% on $25000.00 in) · cash $20043.37 · realised +43.37
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $20000.00 this week
+- BUY $2000.00 SPY [buy_limit @ $765.12] — wanted it, but not at the high — resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down
+## 2026-09-11 12:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $1000.00 INTC [buy_limit @ $102.37] — strong month, weak day: resting 0.92% under $103.32 to catch the dip
+## 2026-09-11 12:30 ET — tick — 0 sell(s), 1 buy(s) from standing orders

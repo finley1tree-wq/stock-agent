@@ -1,9 +1,9 @@
 {
   "week": "2026-W37",
-  "spent": 5000.0,
+  "spent": 8000.0,
   "by_ticker": {
     "AMAT": 1.05,
-    "SPY": 1500.41,
+    "SPY": 3500.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
     "META": 5.26,
@@ -13,7 +13,8 @@
     "KMT": 2.18,
     "TSM": 0.74,
     "AAPL": 2000.0,
-    "GOOGL": 1500.0
+    "GOOGL": 1500.0,
+    "INTC": 1000.0
   },
   "orders": [
     {
@@ -1196,11 +1197,50 @@
         "news"
       ],
       "evidence": "GOOGL +2.43% today, pct_of_day_range 71.0, headline on Republican midterm wipeout implications for tech"
+    },
+    {
+      "symbol": "SPY",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.613957,
+      "price": 765.12,
+      "date": "2026-09-11",
+      "time_et": "12:29",
+      "ts": 1789143900,
+      "why": "wanted it, but not at the high \u2014 resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down",
+      "signals": [
+        "momentum",
+        "etf_default",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "SPY +1.1% today, 91.7% of day range - CPI in line at +3.4%, market rallying on data",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "INTC",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.768764,
+      "price": 102.37,
+      "date": "2026-09-11",
+      "time_et": "12:30",
+      "ts": 1789143900,
+      "why": "strong month, weak day: resting 0.92% under $103.32 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+2.4% over the month, sitting at 59% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 5000.0,
-  "orders_today": 22,
+  "spent_today": 8000.0,
+  "orders_today": 24,
   "sells_today": 19,
   "sold_today": [
     "INTC",
@@ -1219,9 +1259,9 @@
     "KMT",
     "NEM"
   ],
-  "last_check_ts": 1789144124,
+  "last_check_ts": 1789144345,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789143936,
+  "last_publish_ts": 1789144221,
   "last_decision_ts": 1789143880,
   "sold_ts": {
     "INTC": 1789134010,
@@ -1240,11 +1280,11 @@
     "KMT": 1789139263,
     "NEM": 1789139844
   },
-  "deployed": 37500.0,
+  "deployed": 40500.0,
   "deployed_by_ticker": {
     "AMD": 4000.0,
     "CCJ": 3800.0,
-    "INTC": 2500.0,
+    "INTC": 3500.0,
     "GOOGL": 4000.0,
     "META": 2200.0,
     "IBM": 3300.0,
@@ -1257,27 +1297,26 @@
     "KMT": 1250.0,
     "HD": 1250.0,
     "NEM": 1000.0,
-    "SPY": 1500.0
+    "SPY": 3500.0
   },
-  "deployed_today": 37500.0,
-  "last_bar_ts": 1789143900,
+  "deployed_today": 40500.0,
+  "last_bar_ts": 1789144200,
   "book_px": {
-    "592ebc87": 765.1235,
+    "888a1139": 102.532,
     "22e73260": 766.6382,
     "e35c7e23": 152.1995,
     "66618da4": 646.7737,
     "f3b06472": 338.7473,
     "ea7d6938": 125.4277,
-    "23b20e4c": 19.0529,
     "9801e338": 760.0,
-    "b66024ed": 102.3671,
-    "5974033c": 143.778,
+    "23b20e4c": 19.0529,
     "d375c5a7": 429.0,
-    "b84d5c3e": 147.0339,
+    "5974033c": 143.778,
     "5ba8a2de": 330.5,
+    "c77ba476": 272.247,
+    "b84d5c3e": 147.0339,
     "c1f95086": 365.2996,
     "6a60a8a6": 236.0,
-    "c77ba476": 272.247,
     "a3d09bd3": 216.0,
     "7d6b8f4e": 505.0,
     "f1d5f3df": 334.0,
@@ -1285,6 +1324,7 @@
     "12e97950": 330.5275,
     "aa7eef34": 742.5253,
     "2ae07efe": 324.1643,
+    "11b235f3": 99.2989,
     "ba4576bb": 310.432,
     "532b86e9": 171.2706
   },
