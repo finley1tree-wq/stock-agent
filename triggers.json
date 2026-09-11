@@ -3559,7 +3559,7 @@
    "ticker": "SPCX",
    "kind": "stop_loss",
    "price": 147.5047,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 13:59",
    "created_ts": 1789149599,
    "why": "close it all at -1.1% under the average cost",
@@ -3569,7 +3569,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:13",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c31e4140",
@@ -4014,7 +4016,58 @@
    "usd": 500.0,
    "closed": "2026-09-11 14:10",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "cd0a3e82",
+   "ticker": "SPCX",
+   "kind": "stop_loss",
+   "price": 149.396,
+   "status": "working",
+   "created": "2026-09-11 14:13",
+   "created_ts": 1789150422,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $149.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "811b85f3",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 433.06,
+   "status": "working",
+   "created": "2026-09-11 14:14",
+   "created_ts": 1789150485,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $433.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0a7573a8",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 420.0682,
+   "status": "working",
+   "created": "2026-09-11 14:14",
+   "created_ts": 1789150485,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $433.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-11 14:10"
+ "updated": "2026-09-11 14:14"
 }

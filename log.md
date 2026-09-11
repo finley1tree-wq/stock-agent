@@ -950,3 +950,19 @@ Done: 0 sell(s), 4 buy(s); 36 order(s) working; budget left $1006.82 this week
   (cancelled 1 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [stop_loss @ $332.83] -> $2998.53 (-0.05%) — close it all at -0.7% under the average cost
 ## 2026-09-11 14:10 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:14 ET (Friday) — week 2026-W37 — budget left $7003.87 (today $85300.00 put to work, 42 buys, 35 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex7CDsmST2oryqs6GVje'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,004 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +0.9% over the month; 63% of today's range
+~ WORKING stop_loss 100% TSM @ $433.06 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $420.07 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25071.28 (+0.29% on $25000.00 in) · cash $4057.90 · realised +57.90
+Done: 0 sell(s), 1 buy(s); 34 order(s) working; budget left $4003.87 this week

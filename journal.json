@@ -806,8 +806,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.16,
-    "ret_now": 0.16,
+    "ret_final": 0.07,
+    "ret_now": 0.07,
     "ret_src": "realised"
   },
   {
@@ -1558,8 +1558,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07,
-    "ret_final": 0.07,
+    "ret_now": -0.0,
+    "ret_final": -0.0,
     "ret_src": "realised"
   },
   {
@@ -1982,8 +1982,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27,
-    "ret_final": 0.27,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -2110,7 +2110,7 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.13
   },
   {
     "symbol": "INTC",
@@ -2162,7 +2162,7 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.32
   },
   {
     "symbol": "AMD",
@@ -2265,7 +2265,7 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": -0.07
   },
   {
     "symbol": "NEM",
@@ -2414,7 +2414,8 @@
     "momentum_1m_at_entry": 4.2,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
   },
   {
     "symbol": "MRK",
@@ -2438,7 +2439,10 @@
     "momentum_1m_at_entry": 9.34,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.05,
+    "ret_now": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -2461,7 +2465,8 @@
     "momentum_1m_at_entry": 0.62,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.04
   },
   {
     "symbol": "AAPL",
@@ -2484,7 +2489,10 @@
     "momentum_1m_at_entry": 10.15,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.05,
+    "ret_now": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "MRK",
@@ -2508,7 +2516,8 @@
     ],
     "evidence": "average cost $145.37",
     "trigger": "stop_loss",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 2
   },
   {
     "symbol": "AAPL",
@@ -2531,6 +2540,30 @@
     ],
     "evidence": "average cost $333",
     "trigger": "stop_loss",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "TSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.927501,
+    "price": 433.06,
+    "date": "2026-09-11",
+    "time_et": "14:14",
+    "ts": 1789150485,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "momentum"
+    ],
+    "evidence": "+0.9% over the month; 63% of today's range",
+    "entry_price": 432.97,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.89,
+    "hour_et": 14,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

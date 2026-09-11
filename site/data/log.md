@@ -1,19 +1,3 @@
-## 2026-09-11 10:37 ET (Friday) — week 2026-W37 — budget left $23500.00 (today $18500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (CYBN excluded: no security information)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain: Only 1 position held vs min_positions=5; widely_held sector has the best track record (1.0 hit rate, +0.26% avg) and congress signal ranks #1 in signal_ranking. Adding AVGO (concrete congress filing), AMZN/MSFT (news catalysts, low-to-mid day range so not chasing), KMT (fresh CEO insider buy), and HD (low in range) diversifies across widely_held + industrial names without concentrating further in semis where NVDA already sits.
-lesson: Reaching min_positions with widely_held names backed by concrete congress/insider/news evidence, entered when not high in day range, aligns with the best-performing sector/signal buckets in track_record.
-- BUY $1500.00 AVGO [filled] ['congress', 'news', 'momentum'] — widely_held sector has 1.0 hit rate in track record; congress signal ranks best-to-worst #1 with avg_ret 0.89% | evidence: David J. Taylor (Rep) filed AVGO buy disclosed 2026-09-05; AVGO +1.02% today, +2.06% 5d, congress_net_buy_pressure=2.0
-- BUY $1500.00 AMZN [filled] ['news', 'momentum'] — reasonable entry point (not chasing), widely_held sector strong track record | evidence: Motley Fool headline 'Forget the Capex Fears: Why Alphabet and Amazon Are Must-Buys' 2026-09-11; AMZN +1.32% today, mid-range at 54.9% pct_of_day_range
-- BUY $1500.00 MSFT [filled] ['news', 'momentum'] — low in day range gives room to run, widely_held sector best performing bucket | evidence: 24/7 Wall St 'Expect Microsoft to Be Anything But Slow For The Rest of September' 2026-09-11; MSFT only 31.6% of day range, +0.54% today
-- BUY $1250.00 KMT [filled] ['insider', 'news'] — fresh insider buy from CEO is a concrete positive signal, price +1.96% today | evidence: CEO Sanjay Chowbey bought 7000 shares at $29.10 on 2026-09-10 (filed 2026-09-11); insider_net_buy_pressure=1.0
-- BUY $1250.00 HD [filled] ['news', 'momentum'] — low in range entry, widely_held sector, diversifies away from tech concentration | evidence: HD only 10% of day range at $308.23, +0.83% today; headline 'Home Depot tries to copy major Costco perk'
-~ WORKING stop_loss 100% AVGO @ $357.00 until 2026-09-11 — protect against downside within max_hold_minutes window
-~ WORKING take_profit 50% AVGO @ $372.00 until 2026-09-11 — lock in gains on partial position
-~ WORKING stop_loss 100% AMZN @ $249.50 until 2026-09-11 — protective stop within hold window
-~ WORKING stop_loss 100% MSFT @ $484.00 until 2026-09-11 — protective stop within hold window
 ~ WORKING stop_loss 100% KMT @ $28.90 until 2026-09-11 — protective stop within hold window
 ~ WORKING stop_loss 100% HD @ $301.50 until 2026-09-11 — protective stop within hold window
 ~ WORKING take_profit 100% AVGO @ $365.73 until 2026-09-16 — close 100% at +0.3% over the average cost
@@ -398,3 +382,19 @@ Done: 0 sell(s), 4 buy(s); 36 order(s) working; budget left $1006.82 this week
   (cancelled 1 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [stop_loss @ $332.83] -> $2998.53 (-0.05%) — close it all at -0.7% under the average cost
 ## 2026-09-11 14:10 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:14 ET (Friday) — week 2026-W37 — budget left $7003.87 (today $85300.00 put to work, 42 buys, 35 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex7CDsmST2oryqs6GVje'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,004 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +0.9% over the month; 63% of today's range
+~ WORKING stop_loss 100% TSM @ $433.06 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $420.07 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25071.28 (+0.29% on $25000.00 in) · cash $4057.90 · realised +57.90
+Done: 0 sell(s), 1 buy(s); 34 order(s) working; budget left $4003.87 this week
