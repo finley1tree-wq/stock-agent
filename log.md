@@ -1126,3 +1126,14 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25121.24 (+0.48% on $25000.00 in) · cash $3645.39 · realised +145.39
 Decision: nothing at this check. 32 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-11 15:12 ET (Friday) — week 2026-W37 — budget left $3502.61 (today $118800.00 put to work, 54 buys, 45 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexBbfBt1sdbLDGP5uKbn'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25122.27 (+0.49% on $25000.00 in) · cash $3645.39 · realised +145.39
+Decision: nothing at this check. 32 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
