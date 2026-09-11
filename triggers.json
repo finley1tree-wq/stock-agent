@@ -1458,7 +1458,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 93.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 09:33",
    "created_ts": 1789133608,
    "why": "Protect against reversal",
@@ -1467,7 +1467,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "21cb50cf",
@@ -1548,7 +1550,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 97.4654,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 09:33",
    "created_ts": 1789133608,
    "why": "close 100% at +0.4% over the average cost",
@@ -1558,14 +1560,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 09:47"
   },
   {
    "id": "603e93b6",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 94.1385,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 09:33",
    "created_ts": 1789133608,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -1575,7 +1578,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "532b86e9",
@@ -1758,5 +1763,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-11 09:45"
+ "updated": "2026-09-11 09:47"
 }

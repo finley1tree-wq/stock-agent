@@ -64,9 +64,6 @@
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
 
 ## 2026-09-10 13:30 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
   (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $338.12] -> $2505.85 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-09-11 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $97.47] -> $2309.86 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-09-11 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
