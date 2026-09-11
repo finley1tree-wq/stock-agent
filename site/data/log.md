@@ -1,18 +1,3 @@
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-
-## 2026-09-10 14:04 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (holding GOOGN would not be bought today: not ordinary shares (depositary))
 brain: Book is small, fully bracketed with stops/take-profits already in place across all 7 positions. Market is broadly red (oil >$100, most names in bottom third of day range, CCJ/NLR/INTC/AMAT all down 2-5% today). No new concrete evidence (fresh filing, headline, or strong momentum signal) justifies a new position right now, and the track record shows every past buy today is red. Holding steady and letting standing orders manage risk remains the validated approach per repeated past-lesson confirmations.
 lesson: On a red/choppy macro day with a small fully-bracketed book, continue holding rather than forcing entries; only deploy fresh budget on genuinely new, concrete evidence like a fresh filing or a clear breakout, not just available cash.
   (re-pinned 1 order(s) to the new average cost)
@@ -398,3 +383,18 @@ lesson: On green broad-market days with zero positions, deploy into min_position
 ~ WORKING buy_limit $1000.00 SPCX @ $147.03 until 2026-09-12 — strong month, weak day: resting 0.85% under $148.29 to catch the dip
 portfolio: equity $25043.37 (+0.17% on $25000.00 in) · cash $25043.37 · realised +43.37
 Decision: nothing at this check. 11 standing order(s) working.
+
+## 2026-09-11 12:16 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $32500.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Currently flat (0 positions) with $25k budget and below min_positions target of 5. Several strong widely-held names (AAPL, TSM, IBM, AMD) already sold today but most are in 45-min cooldown or high in day range - rather than market-buy at elevated range percentiles (AAPL 84.6%, TSM 80.8%, IBM 50.6%), I'm placing buy_limit orders slightly below market to get better entries per the guardrail on max_entry_range_pct, consistent with past lessons about not chasing highs. NVDA is low in its day range (14.5%) so a modest limit near current price makes sense; AMD carries a congress signal (top-ranked per track_record) but is in a 9-min cooldown so a resting limit will catch it once cleared.
+lesson: Existing working dip-entry orders already cover most good widely-held names (GOOGL, INTC, MRK, META) - check for overlap before adding new limit orders to avoid duplicate exposure to the same thesis.
+~ WORKING buy_limit $2000.00 AAPL @ $330.50 until 2026-09-11 — Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range
+~ WORKING buy_limit $1500.00 NVDA @ $216.00 until 2026-09-11 — Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate
+~ WORKING buy_limit $1500.00 TSM @ $429.00 until 2026-09-11 — Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range
+~ WORKING buy_limit $1500.00 AMD @ $505.00 until 2026-09-11 — Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready
+~ WORKING buy_limit $1500.00 IBM @ $236.00 until 2026-09-11 — Widely-held name, resting below current 238.6 to get a better entry once cooldown clears
+~ WORKING buy_limit $1000.00 NEM @ $125.43 until 2026-09-12 — strong month, weak day: resting 0.71% under $126.32 to catch the dip
+portfolio: equity $25043.37 (+0.17% on $25000.00 in) · cash $25043.37 · realised +43.37
+Decision: nothing at this check. 17 standing order(s) working.
