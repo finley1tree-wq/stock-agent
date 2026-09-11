@@ -584,3 +584,5 @@ Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $16500.00 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $308.94] -> $1252.62 (+0.21%) — close 100% at +0.2% over the average cost
 ## 2026-09-11 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% NVDA [time stop] -> $1496.04 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 11:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders

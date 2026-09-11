@@ -1,5 +1,3 @@
-brain: Another red/choppy day (AMAT -2.4%, CCJ -2.1%, INTC -4.6%, NLR -3.4%, most names in the bottom half of their day range). Book is small, fully bracketed with stops, take-profits, and scale-in buy_limits already working across every position. No new concrete evidence (filing, headline, or momentum signal) justifies fresh deployment right now, and the signal_evidence data shows no 1-day edge exists on this watchlist. Consistent with the last 8+ checks' lessons, holding and letting standing orders work is correct.
-lesson: Continuing pattern: on red/choppy macro days with a small fully-bracketed book and no fresh concrete evidence, hold and trust standing orders rather than forcing entries just because budget remains.
 portfolio: equity $24995.33 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
   (dropped NLR: below min order after caps ($25.00))
@@ -398,3 +396,5 @@ Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $16500.00 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $308.94] -> $1252.62 (+0.21%) — close 100% at +0.2% over the average cost
 ## 2026-09-11 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% NVDA [time stop] -> $1496.04 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 11:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders

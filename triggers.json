@@ -2032,7 +2032,7 @@
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 221.4638,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 10:33",
    "created_ts": 1789137222,
    "why": "close 100% at +0.4% over the average cost",
@@ -2042,14 +2042,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 11:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0066cb88",
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 218.4767,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 10:33",
    "created_ts": 1789137222,
    "why": "close it all at -1.0% under the average cost",
@@ -2059,14 +2061,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 11:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "2a4d1bc0",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 213.9917,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 10:33",
    "created_ts": 1789137222,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -2076,7 +2080,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 11:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3994f240",
