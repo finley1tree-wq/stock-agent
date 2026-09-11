@@ -1,21 +1,3 @@
-## 2026-09-11 14:14 ET (Friday) — week 2026-W37 — budget left $7003.87 (today $85300.00 put to work, 42 buys, 35 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (CYBN excluded: no security information)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex7CDsmST2oryqs6GVje'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,004 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TSM [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +0.9% over the month; 63% of today's range
-~ WORKING stop_loss 100% TSM @ $433.06 until 2026-09-16 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $420.07 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25071.28 (+0.29% on $25000.00 in) · cash $4057.90 · realised +57.90
-Done: 0 sell(s), 1 buy(s); 34 order(s) working; budget left $4003.87 this week
-  (cancelled 1 standing order(s) on TSM: position closed)
-- SELL 100% TSM [stop_loss @ $432.84] -> $2998.52 (-0.05%) — close it all at -0.6% under the average cost
-## 2026-09-11 14:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 3 standing order(s) on SPCX: position closed)
 - SELL 100% SPCX [take_profit @ $149.85] -> $3013.47 (+0.45%) — close 100% at +0.4% over the average cost
 ## 2026-09-11 14:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +380,21 @@ portfolio: equity $25155.16 (+0.62% on $25000.00 in) · cash $16157.47 · realis
 Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-11 15:44 ET (Friday) — week 2026-W37 — budget left $16014.69 (today $130800.00 put to work, 58 buys, 54 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexE5LXjVJR4tK2EA8T6k'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25151.17 (+0.60% on $25000.00 in) · cash $16157.47 · realised +157.47
+Decision: nothing at this check. 9 standing order(s) working.
