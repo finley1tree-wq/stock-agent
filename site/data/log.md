@@ -1,5 +1,3 @@
-  (cancelled 3 standing order(s) on SPCX: position closed)
-- SELL 100% SPCX [take_profit @ $149.85] -> $3013.47 (+0.45%) — close 100% at +0.4% over the average cost
 ## 2026-09-11 14:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on BE: position closed)
 - SELL 100% BE [stop_loss @ $274.33] -> $3005.61 (+0.19%) — close it all at -1.7% under the average cost
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25151.17 (+0.60% on $25000.00 in) · cash $16157.47 · realised +157.47
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
