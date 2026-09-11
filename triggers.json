@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "f6ce1c0e",
-   "ticker": "GOOGN",
-   "kind": "buy_limit",
-   "price": 46.5018,
-   "status": "cancelled",
-   "created": "2026-09-09 13:26",
-   "created_ts": 1788974804,
-   "why": "average in another $25 if it falls 3.0% below the average cost",
-   "evidence": "average cost $47.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-14",
-   "usd": 25.0,
-   "closed": "2026-09-10 13:50",
-   "cancel_reason": "sized for a $400 account; the account is $25,000"
-  },
-  {
-   "id": "10626fe5",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 521.9915,
-   "status": "filled",
-   "created": "2026-09-09 14:07",
-   "created_ts": 1788977276,
-   "why": "close 50% at +2.5% over the average cost",
-   "evidence": "average cost $509.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-14",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-09 14:08"
-  },
-  {
    "id": "12b14968",
    "ticker": "AMD",
    "kind": "take_profit",
@@ -7528,9 +7491,47 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 482.0803,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 15:50",
    "created_ts": 1789156227,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:50",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "75a756eb",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:50",
+   "created_ts": 1789156259,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:51",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "15150459",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "working",
+   "created": "2026-09-11 15:51",
+   "created_ts": 1789156306,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $496.99",
    "signals": [
@@ -7541,5 +7542,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-11 15:50"
+ "updated": "2026-09-11 15:51"
 }
