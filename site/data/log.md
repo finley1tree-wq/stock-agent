@@ -1,8 +1,3 @@
-- SELL 100% AAPL [take_profit @ $333.38] -> $1804.65 (+0.26%) — close 100% at +0.3% over the average cost
-## 2026-09-11 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $1500.00 NVDA [buy_limit @ $220.61] — wanted it, but not at the high — resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position
-## 2026-09-11 10:33 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
 ## 2026-09-11 10:37 ET (Friday) — week 2026-W37 — budget left $23500.00 (today $18500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
   (CYBN excluded: no security information)
   (JANL excluded: too thinly traded (77/day) — Janel Corporation)
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $323.01 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25065.37 (+0.26% on $25000.00 in) · cash $1060.85 · realised +60.85
 Done: 0 sell(s), 4 buy(s); 36 order(s) working; budget left $1006.82 this week
+  (cancelled 1 standing order(s) on MRK: position closed)
+- SELL 100% MRK [stop_loss @ $145.30] -> $2998.52 (-0.05%) — close it all at -0.7% under the average cost
+  (cancelled 1 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $332.83] -> $2998.53 (-0.05%) — close it all at -0.7% under the average cost
+## 2026-09-11 14:10 ET — tick — 2 sell(s), 0 buy(s) from standing orders
