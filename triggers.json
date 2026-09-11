@@ -4377,7 +4377,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 103.9579,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "close 100% at +0.5% over the average cost",
@@ -4387,14 +4387,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "88b51068",
    "ticker": "INTC",
    "kind": "stop_loss",
    "price": 102.1796,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "close it all at -1.2% under the average cost",
@@ -4404,7 +4406,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6360b55f",
@@ -4701,7 +4705,79 @@
    ],
    "good_until": "2026-09-16",
    "usd": 500.0
+  },
+  {
+   "id": "1ace1100",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 108.6225,
+   "status": "cancelled",
+   "created": "2026-09-11 15:00",
+   "created_ts": 1789153237,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $103.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:01",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "fe1d64cd",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 100.8637,
+   "status": "cancelled",
+   "created": "2026-09-11 15:00",
+   "created_ts": 1789153237,
+   "why": "close it all at -2.5% under the average cost",
+   "evidence": "average cost $103.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:01",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "58702917",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 103.96,
+   "status": "working",
+   "created": "2026-09-11 15:01",
+   "created_ts": 1789153283,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $103.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cc2d6d63",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 102.1765,
+   "status": "working",
+   "created": "2026-09-11 15:01",
+   "created_ts": 1789153283,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $103.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-11 14:58"
+ "updated": "2026-09-11 15:01"
 }

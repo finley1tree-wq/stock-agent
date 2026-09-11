@@ -1077,3 +1077,14 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $322.72 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25138.00 (+0.55% on $25000.00 in) · cash $8645.39 · realised +145.39
 Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $8502.61 this week
+
+## 2026-09-11 15:01 ET (Friday) — week 2026-W37 — budget left $8502.61 (today $113800.00 put to work, 52 buys, 45 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAkbFPNyXJmEUHNWjmA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25135.17 (+0.54% on $25000.00 in) · cash $8645.39 · realised +145.39
+Decision: nothing at this check. 27 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
