@@ -1,5 +1,3 @@
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
@@ -398,3 +396,5 @@ Done: 0 sell(s), 3 buy(s); 20 order(s) working; budget left $15299.05 this week
   (cancelled 3 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $430.50] -> $1403.56 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-11 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% META [time stop] -> $2194.74 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
