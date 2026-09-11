@@ -581,3 +581,6 @@ lesson: Reaching min_positions with widely_held names backed by concrete congres
 ~ WORKING buy_limit $1000.00 INTC @ $102.37 until 2026-09-12 — strong month, weak day: resting 0.92% under $103.32 to catch the dip
 portfolio: equity $25035.15 (+0.14% on $25000.00 in) · cash $16541.37 · realised +41.37
 Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $16500.00 this week
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $308.94] -> $1252.62 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-09-11 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
