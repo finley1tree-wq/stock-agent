@@ -547,3 +547,5 @@ Done: 0 sell(s), 3 buy(s); 20 order(s) working; budget left $15299.05 this week
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $333.38] -> $1804.65 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-09-11 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1500.00 NVDA [buy_limit @ $220.61] — wanted it, but not at the high — resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position
+## 2026-09-11 10:33 ET — tick — 0 sell(s), 1 buy(s) from standing orders

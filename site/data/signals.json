@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-11T10:24-04:00",
+ "asOf": "2026-09-11T10:33-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -133,21 +133,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d6486097",
+   "id": "7f18b0fd",
    "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 220.6088,
-   "usd": 1500.0,
-   "pct_of_position": null,
+   "kind": "take_profit",
+   "price": 221.4638,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 221.51,
-   "pct_away": -0.41,
-   "good_until": "2026-09-11",
-   "why": "wanted it, but not at the high \u2014 resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position",
+   "last": 220.29,
+   "pct_away": 0.53,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
-    "momentum",
-    "news",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -168,6 +167,23 @@
    ]
   },
   {
+   "id": "0066cb88",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 218.4767,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 220.29,
+   "pct_away": -0.82,
+   "good_until": "2026-09-16",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "ee434769",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -175,8 +191,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.33,
-   "pct_away": -1.35,
+   "last": 127.68,
+   "pct_away": -0.85,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $127.47 to catch the dip",
    "signals": [
@@ -192,13 +208,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 315.04,
-   "pct_away": -1.46,
+   "last": 315.49,
+   "pct_away": -1.6,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.87% under $313.17 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "2a4d1bc0",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 213.9917,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 220.29,
+   "pct_away": -2.86,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -209,8 +242,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 180.43,
-   "pct_away": -5.08,
+   "last": 180.49,
+   "pct_away": -5.11,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
    "signals": [

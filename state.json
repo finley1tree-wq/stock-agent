@@ -1,13 +1,14 @@
 {
   "week": "2026-W37",
-  "spent": 0.0,
+  "spent": 1500.0,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 0.19,
     "SPY": 0.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
-    "META": 5.26
+    "META": 5.26,
+    "NVDA": 1500.0
   },
   "orders": [
     {
@@ -723,11 +724,31 @@
       ],
       "evidence": "average cost $332.53",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.799366,
+      "price": 220.61,
+      "date": "2026-09-11",
+      "time_et": "10:33",
+      "ts": 1789137000,
+      "why": "wanted it, but not at the high \u2014 resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "NVDA +1.58% 1d, headline 'Nvidia rebounds' IBD, 96.5% of day range - near high but strong AI capex tailwind",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 0.0,
-  "orders_today": 8,
+  "spent_today": 1500.0,
+  "orders_today": 9,
   "sells_today": 8,
   "sold_today": [
     "INTC",
@@ -739,9 +760,9 @@
     "META",
     "AAPL"
   ],
-  "last_check_ts": 1789137003,
-  "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"ba4576bb\", 310.432], [\"d6486097\", 220.6088], [\"ee434769\", 126.5984]]",
-  "last_publish_ts": 1789136667,
+  "last_check_ts": 1789137222,
+  "book_fp": "[[\"0066cb88\", 218.4767], [\"23b20e4c\", 19.0529], [\"2a4d1bc0\", 213.9917], [\"532b86e9\", 171.2706], [\"7f18b0fd\", 221.4638], [\"ba4576bb\", 310.432], [\"ee434769\", 126.5984]]",
+  "last_publish_ts": 1789137222,
   "last_decision_ts": 1789135447,
   "sold_ts": {
     "INTC": 1789134010,
@@ -753,7 +774,7 @@
     "META": 1789136547,
     "AAPL": 1789136668
   },
-  "deployed": 17000.0,
+  "deployed": 18500.0,
   "deployed_by_ticker": {
     "AMD": 2500.0,
     "CCJ": 2300.0,
@@ -762,8 +783,9 @@
     "META": 2200.0,
     "IBM": 1800.0,
     "AAPL": 1800.0,
-    "TSM": 1400.0
+    "TSM": 1400.0,
+    "NVDA": 1500.0
   },
-  "deployed_today": 17000.0,
+  "deployed_today": 18500.0,
   "last_bar_ts": 1789137000
 }
