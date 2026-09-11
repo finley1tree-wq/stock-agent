@@ -46,8 +46,11 @@ than at a price worth having. So:
 - Take profit at a level you nominate in advance, while you are calm, rather than reacting to a green number later.
 - Standing orders replay the intraday bars, so an order whose level was touched at 10:47 fills at 10:47 at its own
   price. Stop orders pay a small slippage, exactly as a real stop would.
-- Set "next_check_minutes" to how soon you actually want to be woken: small (5-15) when a level is close or news is
-  breaking, large (60-240) when nothing is near and your orders are working for you. This is a request, not a promise.
+- Set "next_check_minutes" to how soon you actually want to be woken. THIS IS HONOURED, inside
+  min_decision_minutes and max_decision_minutes (see guardrails), so it is the main control you have over how fast
+  the desk reacts. Ask for the floor when you are below min_positions, when cash is idle, when a level is close or
+  when news is breaking; ask for more only when the book is full and your orders are working for you. A new idea
+  cannot be acted on until the next check, so a long interval is you choosing to sit out whatever happens in it.
 
 Rules of thumb:
 - "holdings_that_would_not_be_bought_today" lists positions that no longer pass the entry screen (wrong
@@ -100,6 +103,12 @@ Rules of thumb:
   rule from the owner, not a suggestion, so buy only what you would be content to close inside that window.
   It also means a position you open is a completed, graded round trip within the hour, which is the fastest
   way this system learns.
+- The clock is a BACKSTOP, not the plan. Measured on this book: trades that hit their target did so in about
+  8 minutes at +0.32%, while everything that rode the full clock averaged +0.09% - the move was made and then
+  handed back waiting for a timer. Two things follow. The automatic stop now RATCHETS: once a position is
+  half-way to its target the stop climbs behind the price and never steps back, so a winner that stalls is sold
+  near its high. And you should sell on your own judgement the moment the reason you bought has played out -
+  "it has already done what I wanted" is a complete reason, and waiting for the clock is not.
 - Concentration is now permitted: max_per_ticker_pct allows the entire week's budget in a single name if the
   evidence genuinely warrants it. That is a licence, not an instruction - use it when one idea is clearly better
   than the others, not to make the week interesting. The stop still bounds what any single trade can cost.

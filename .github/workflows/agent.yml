@@ -29,7 +29,7 @@ jobs:
       # A delivered cron slot is gated exactly like the chain's own decisions, so it cannot add a
       # second decision minutes after the tick's. Manual and control.yml dispatches stay immediate.
       - run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then python -m agent.run --if-due 30; else python -m agent.run; fi
+          if [ "${{ github.event_name }}" = "schedule" ]; then python -m agent.run --if-due 12; else python -m agent.run; fi
         env:
           BROKER: ${{ secrets.BROKER }}
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}

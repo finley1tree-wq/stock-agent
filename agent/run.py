@@ -576,9 +576,17 @@ def _tick_once(force: bool = False) -> None:
             return
     live = [o for o in triggers.all_orders() if o.get("status") == "working"]
     held = broker.held_tickers() if hasattr(broker, "held_tickers") else []
-    if not live and not held:
-        return
     st = state.load()
+    if not live and not held:
+        # Nothing to fire and nothing to protect - but a flat book is not a reason to let the site
+        # go stale and start warning the owner that the agent is down. Refresh on the ordinary
+        # freshness timer and stop there.
+        if (int(now.timestamp()) - int(st.get("last_publish_ts", 0) or 0)) > PUBLISH_EVERY_S:
+            st["last_publish_ts"] = int(now.timestamp())
+            st["last_check_ts"] = int(now.timestamp())
+            state.save(st)
+            pub.publish(cfg, None, "tick: flat, nothing working", working_orders=[])
+        return
     px = prices.snapshot(sorted({o["ticker"] for o in live} | set(held)))
     px, _ = safety.sane_prices(px, g.get("max_daily_move_pct", 0))
     if hasattr(broker, "set_prices"): broker.set_prices(px)
@@ -611,7 +619,10 @@ def _tick_once(force: bool = False) -> None:
         if flat_n:
             sold += flat_sells; did += flat_n
 
-    if bought:            # averaging in moved the average cost, so the exits have to move with it
+    # Every pass, not only after a buy: this is what makes the ratchet a ratchet. The stop climbs
+    # behind a winning price minute by minute, so a trade that peaks and turns is sold near its
+    # high instead of riding the clock down.
+    if broker.positions():
         auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
         if auto:
             triggers.place(auto, now, set(broker.positions()), set(broker.positions()), px)
@@ -624,10 +635,17 @@ def _tick_once(force: bool = False) -> None:
     # Every publish is a commit and every commit is a site deploy, so only publish when there is
     # something new to see: a fill, a change in the working book, or a periodic freshness refresh.
     book = triggers.summary(px, now)
-    fp = json.dumps(sorted([o["id"], o["price"]] for o in book))   # order-insensitive: rank churn is not news
+    # Publish when the BOOK changes, not when a ratcheting stop creeps a cent. Orders appearing or
+    # disappearing is news; a level drifting 0.1% is not, and at one publish per Vercel deploy a
+    # per-tick re-pin would exhaust the daily quota by lunchtime. Anything smaller is still
+    # committed and reaches the site on the 15-minute freshness publish.
+    now_px = {o["id"]: float(o.get("price") or 0) for o in book}
+    prev_px = st.get("book_px") or {}
+    moved = set(now_px) != set(prev_px) or any(
+        abs(v - float(prev_px.get(k) or 0)) > max(0.01, v * 0.003) for k, v in now_px.items())
     stale = (int(now.timestamp()) - int(st.get("last_publish_ts", 0) or 0)) > PUBLISH_EVERY_S
-    if did or fp != st.get("book_fp") or stale:
-        st["book_fp"] = fp
+    if did or moved or stale:
+        st["book_px"] = now_px
         st["last_publish_ts"] = int(now.timestamp())
         state.save(st)
         pub.publish(cfg, None, f"tick: {did} standing order(s) filled" if did else "tick: watching",
@@ -868,6 +886,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
     st["last_check_ts"] = int(now.timestamp())
     st["last_bar_ts"] = (int(now.timestamp()) // BAR_S) * BAR_S
     st["last_decision_ts"] = int(now.timestamp())
+    # The brain already says how soon it wants to be asked again; that request was being thrown
+    # away and every decision waited a flat 30 minutes, so a new idea could sit unbought for half
+    # an hour while the market moved. It is honoured now, inside a floor and a ceiling.
+    st["next_check_minutes"] = plan.get("next_check_minutes")
     state.save(st)
     filled_buys = tbuys + filled_buys
     filled_sells = tsells + filled_sells
@@ -895,6 +917,10 @@ if __name__ == "__main__":
         # cancelling a pending decision, because a lane holds only one waiting run.
         mins = int(sys.argv[sys.argv.index("--if-due") + 1])
         _now = datetime.now(ET)
+        _cfg = config.load_config()
+        _g = _cfg["guardrails"]
+        _floor = int(_g.get("min_decision_minutes", 6) or 6)
+        _ceil = int(_g.get("max_decision_minutes", 30) or 30)
         if not market_open_fallback(_now) and "--force" not in sys.argv:
             # Overnight, a decision would only log "market closed" and publish - and every publish
             # is a site deploy. That was ~77 wasted deploys a day against a 100/day limit.
@@ -903,11 +929,13 @@ if __name__ == "__main__":
             # In the first minute the daily quote can still be yesterday's row; two minutes costs nothing.
             print("first minute of the session; waiting for a real quote"); sys.exit(0)
         _st = state.load()
+        _want = _st.get("next_check_minutes")
+        _due = max(_floor, min(_ceil, int(_want))) if _want else mins
         _age = (_now.timestamp() - float(_st.get("last_decision_ts", 0) or 0)) / 60
-        if _age < mins:
-            print(f"decision was {_age:.0f} min ago; not due yet (every {mins})")
+        if _age < _due:
+            print(f"decision was {_age:.0f} min ago; not due yet (the brain asked for {_due})")
         else:
-            print(f"decision due: last one {_age:.0f} min ago")
+            print(f"decision due: last one {_age:.0f} min ago (wanted every {_due})")
             main(force="--force" in sys.argv)
     elif "--tick" in sys.argv:
         def _arg(name, default):

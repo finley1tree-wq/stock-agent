@@ -40,8 +40,11 @@ jobs:
           QUIVER_API_KEY: ${{ secrets.QUIVER_API_KEY }}
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           DRY_RUN: ${{ secrets.DRY_RUN }}
+      # 30 was a flat wait that left a new idea unbought for half an hour. This number is only the
+      # fallback: the brain names its own next_check_minutes and run.py honours it inside
+      # min_decision_minutes / max_decision_minutes.
       - name: think if a decision is due
-        run: python -m agent.run --if-due 30
+        run: python -m agent.run --if-due 12
         env: *agent_env
       - name: commit results
         if: always()

@@ -391,6 +391,7 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
         if entry <= 0:
             continue
         tp, sl = levels(t, px, cfg)
+        price = float(((px or {}).get(t) or {}).get("price") or 0)
         mine = [o for o in live if o["ticker"] == t and _is_auto(o)]
         # Has this position's automatic target already been taken? Selling does not change
         # avg_cost, so without this check a new target is recreated at the same price after every
@@ -410,7 +411,25 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             # +2.5% on HALF while stopping out ALL of it means risking 2 to make 1.25, which needs
             # a 63% win rate just to break even. Break-even stops turn every partial win into a
             # position that can no longer lose money.
-            targets["stop_loss"] = px_round(entry if banked else entry * (1 - sl / 100))
+            floor_px = entry if banked else entry * (1 - sl / 100)
+
+            # THE RATCHET. A trade that works usually works fast: measured on 2026-09-11, exits
+            # that hit their target did so in 8 minutes at +0.32%, while everything that rode the
+            # full 30-minute clock averaged +0.09% - the gain was made and then handed back while
+            # the position waited for a timer. So once a position is a decent way toward its
+            # target, the stop climbs behind the price and never steps back down. A winner that
+            # stalls is sold near its high instead of at whatever the clock happens to find.
+            after = float(cfg.get("ratchet_after_pct_of_target", 0) or 0)
+            keep = float(cfg.get("ratchet_keep_pct_of_gain", 0) or 0)
+            if price > entry and tp > 0 and after > 0 and keep > 0:
+                gain = (price / entry - 1) * 100
+                if gain >= tp * after / 100:
+                    floor_px = max(floor_px, entry * (1 + (gain * keep / 100) / 100))
+                # a ratchet only ever tightens: never re-pin below where the stop already sits
+                cur = next((float(o["price"]) for o in mine if o["kind"] == "stop_loss"), 0.0)
+                if cur > 0:
+                    floor_px = max(floor_px, cur)
+            targets["stop_loss"] = px_round(floor_px)
         if scale_on and add_drop > 0 and add_usd > 0 and int(pos.get("tranches", 1)) < max_tranches:
             targets["buy_limit"] = px_round(entry * (1 - add_drop / 100))
         # a hand-placed protective order still counts, so we never double up on stops
@@ -418,7 +437,10 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             targets.pop("stop_loss", None)
         for o in mine:
             k = o["kind"]
-            stale = k not in targets or abs(float(o["price"]) - targets[k]) > max(1e-9, targets[k] * 0.0005)
+            # A ratcheting stop would otherwise be re-pinned on every tick for a fraction of a
+            # cent. Sells need a wider tolerance than the 0.05% used for levels that must be exact.
+            tol = targets[k] * (0.0015 if k in SELL_KINDS else 0.0005) if k in targets else 0
+            stale = k not in targets or abs(float(o["price"]) - targets[k]) > max(1e-9, tol)
             # SIZE matters as much as price. An order left over from a smaller account keeps its
             # old dollar amount forever, fires on every check, and is thrown away by the minimum
             # order rule every time - which is exactly what happened when the account went from

@@ -283,7 +283,7 @@
     $("#week-label").textContent = st.week ? `Week ${st.week}` : "This week"; $("#week-spent").textContent = `${money(deployed)} put to work · ${money(Math.max(0, budget - spent))} left of ${money(budget, 0)}`; $("#week-bar").style.width = Math.min(100, deployed / budget * 100) + "%";
     const etDay = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" }); const sameDay = st.day === etDay;
     $("#today-spent").textContent = money(sameDay ? (st.deployed_today ?? st.spent_today ?? 0) : 0); $("#today-buys").textContent = sameDay ? st.orders_today ?? 0 : 0; $("#today-sells").textContent = sameDay ? st.sells_today ?? 0 : 0;
-    $("#next-check").textContent = nextCheckText(sg.run_every_minutes || 30);
+    $("#next-check").textContent = nextCheckText();
     const fs = sg.feed_status || {}; const fmt = v => v === "ok" ? "<span style='color:var(--up)'>live</span>" : v ? `<span style='color:var(--amber)'>${esc(v)}</span>` : "—";
     $("#feed-congress").innerHTML = fmt(fs.congress); $("#feed-insiders").innerHTML = fmt(fs.insiders);
     // The brain's reasoning is carried forward on every publish; the tick note ("tick: watching")
@@ -295,22 +295,35 @@
     $("#mode").textContent = (sg.broker || "sim") === "sim" ? "SIM · pretend money" : (sg.broker || "").toUpperCase();
   }
 
-  function nextCheckText(every) {
-    const sg = state.data.signals || {}; const hol = new Set(sg.holidays || []); const early = new Set(sg.early_close_1pm || []);
+  // The old version rounded up to the next multiple of 30 FROM MIDNIGHT, so at 11:55 it said
+  // "12:00 PM" when the real next decision was due at 12:13. The gate is measured from the last
+  // decision, and the interval is whatever the brain asked for - so read both from the data and
+  // show a countdown, which cannot be misread against a clock in another timezone.
+  function nextCheckText() {
+    const sg = state.data.signals || {}, st = state.data.st || {};
+    const hol = new Set(sg.holidays || []), early = new Set(sg.early_close_1pm || []);
     const et = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
     const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
     const trading = d => d.getDay() !== 0 && d.getDay() !== 6 && !hol.has(iso(d));
     const closeMin = d => early.has(iso(d)) ? 780 : 960;
-    const fmt = (h, m) => `${((h + 11) % 12) + 1}:${String(m).padStart(2, "0")} ${h >= 12 ? "PM" : "AM"} ET`;
     const mins = et.getHours() * 60 + et.getMinutes();
-    if (trading(et)) {
-      if (mins < 570) return "today 9:30 AM ET";
-      if (mins < closeMin(et)) { const next = Math.ceil((mins + 1) / every) * every; if (next < closeMin(et)) return fmt(Math.floor(next / 60), next % 60); }
+    const g = sg.guardrails || {};
+    const every = Math.max(+g.min_decision_minutes || 6,
+                   Math.min(+g.max_decision_minutes || 30, +st.next_check_minutes || +sg.run_every_minutes || 30));
+    if (trading(et) && mins >= 570 && mins < closeMin(et)) {
+      const last = +st.last_decision_ts || 0;
+      if (!last) return "any moment";
+      const dueIn = Math.round((last + every * 60 - Date.now() / 1000) / 60);
+      if (dueIn <= 0) return "any moment";
+      const at = new Date((last + every * 60) * 1000);
+      const hhmm = at.toLocaleTimeString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" });
+      return `in ${dueIn} min · ${hhmm} ET`;
     }
+    if (trading(et) && mins < 570) return "at the 9:30 AM ET open";
     const d = new Date(et); for (let i = 0; i < 14; i++) { d.setDate(d.getDate() + 1); if (trading(d)) break; }
     const tomorrow = new Date(et); tomorrow.setDate(tomorrow.getDate() + 1);
     const names = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    return `${iso(d) === iso(tomorrow) ? "tomorrow" : names[d.getDay()] + " " + d.toLocaleDateString("en-US", { month: "short", day: "numeric" })} 9:30 AM ET`;
+    return (iso(d) === iso(tomorrow) ? "tomorrow" : names[d.getDay()]) + " 9:30 AM ET";
   }
 
   function renderStatus(ok) {

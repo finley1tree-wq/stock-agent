@@ -84,6 +84,14 @@ guardrails:
     below_pct: 1.5               # fallback when ATR is unavailable
     usd_pct_of_budget: 4.0       # size of each ($1,000 at a $25,000 budget)
   min_positions: 5               # aim to have at least this many names working at once
+  # How soon the agent may think again. It was a flat 30 minutes, so a new idea could sit unbought
+  # for half an hour while the market moved on - which is a long time when nothing is held longer
+  # than max_hold_minutes anyway. The brain now names its own next_check_minutes and that request
+  # is honoured inside these bounds: tight when a level is close, relaxed when its orders are
+  # working for it. The floor also bounds cost, since every decision is one model call and one
+  # site deploy.
+  min_decision_minutes: 6
+  max_decision_minutes: 30
 
   max_hold_minutes: 30
   max_hold_days: 20              # measured on 5y of this watchlist, per trade after costs:
@@ -132,6 +140,13 @@ guardrails:
     intraday_stop_mult: 1.0      # do NOT widen: every widening moved the worst-trade tail
     intraday_floor_pct: 0.15     # never place a level tighter than this; 0.05 measured as a no-op
                                  # that puts a resting sell inside the spread
+    # THE RATCHET. Measured 2026-09-11: exits that hit their target did so in 8 minutes at +0.32%,
+    # while every position that rode the full 30-minute clock averaged +0.09% - the move was made
+    # and handed back while the trade waited for a timer. Once a position is this far toward its
+    # target the stop climbs behind the price, locking in this share of the gain, and never steps
+    # back down. A winner that stalls is sold near its high rather than at the clock.
+    ratchet_after_pct_of_target: 50    # start ratcheting once half-way to the target
+    ratchet_keep_pct_of_gain: 60       # and keep this much of whatever it is ahead by
     stop_loss_atr: 3.0           # (used when there is no intraday clock) stop at 3x the daily range. Measured over ~7,800 entries on 5y of
                                  # this watchlist, widening 2x -> 3x raised expectancy AND the win rate
                                  # (+1.118% -> +1.393% per trade, 48.1% -> 54.3%): a tight stop is mostly
