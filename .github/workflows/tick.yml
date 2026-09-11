@@ -29,7 +29,12 @@ jobs:
       # One job does both: watch for standing orders, then think if a decision is due. Splitting
       # these across two workflows meant they fought over the single-writer concurrency lane and
       # a queued tick kept cancelling a pending decision outright.
-      - run: python -m agent.run --tick --loop 4 --interval 60
+      # Four 60-second passes meant a whole job took ~4 minutes before it could decide anything, so
+      # the decision gate could never actually beat that however low it was set. Two 45-second
+      # passes halve the cycle: standing orders are still watched every 45s, and a decision now
+      # lands roughly every 90 seconds when autopilot is driving. Runner minutes are free on a
+      # public repo; the publish gate is what stops a faster cycle turning into Vercel deploys.
+      - run: python -m agent.run --tick --loop 2 --interval 45
         env: &agent_env
           BROKER: ${{ secrets.BROKER }}
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}

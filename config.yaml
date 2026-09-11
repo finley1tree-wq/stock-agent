@@ -105,6 +105,10 @@ guardrails:
   # trades lost for good: the learning loop only learns from days it actually traded.
   # Set to false to go back to standing down when the model is unavailable.
   autopilot_when_model_unavailable: true
+  # When autopilot is driving there is no API bill, so a check costs nothing but a little compute -
+  # there is no reason to make it wait six minutes. The real floor becomes how fast the tick chain
+  # cycles, about three and a half minutes.
+  autopilot_decision_minutes: 2
   min_decision_minutes: 6
   max_decision_minutes: 30
 

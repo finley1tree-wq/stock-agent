@@ -915,6 +915,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
     # away and every decision waited a flat 30 minutes, so a new idea could sit unbought for half
     # an hour while the market moved. It is honoured now, inside a floor and a ceiling.
     st["next_check_minutes"] = plan.get("next_check_minutes")
+    # Which brain drove this one. A model call costs money, so its cadence is floored to bound
+    # spend; an autopilot decision is pure arithmetic over data already in hand and costs nothing,
+    # so there is no reason to make it wait.
+    st["autopiloted"] = autopiloted
     state.save(st)
     filled_buys = tbuys + filled_buys
     filled_sells = tsells + filled_sells
@@ -931,9 +935,22 @@ def main(report_only: bool = False, force: bool = False) -> None:
         log(f"Done: {len(filled_sells)} sell(s), {len(filled_buys)} buy(s)"
             f"{f' (incl. {tdid} from standing orders)' if tdid else ''}; "
             f"{len(book)} order(s) working; budget left ${g['_weekly_budget'] - st['spent']:.2f} this week")
-    pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), plan.get("reasoning", "")[:300],
-                working_orders=book, next_check_minutes=plan.get("next_check_minutes"),
-                reasoning=plan.get("reasoning", "")[:300])
+    # Checking every couple of minutes only works if a check that did nothing costs nothing. Every
+    # publish is a Vercel deploy and the Hobby plan allows 100 a day; at a 2-minute cadence an
+    # unconditional publish would exhaust that before lunch. Same gate the ticks use: a fill, a
+    # change in the set of working orders, or the freshness timer.
+    _now_px = {o["id"]: float(o.get("price") or 0) for o in book}
+    _changed = set(_now_px) != set(st.get("book_px") or {})
+    _stale = (int(now.timestamp()) - int(st.get("last_publish_ts", 0) or 0)) > PUBLISH_EVERY_S
+    if did or _changed or _stale:
+        st["book_px"] = _now_px
+        st["last_publish_ts"] = int(now.timestamp())
+        state.save(st)
+        pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), plan.get("reasoning", "")[:300],
+                    working_orders=book, next_check_minutes=plan.get("next_check_minutes"),
+                    reasoning=plan.get("reasoning", "")[:300])
+    else:
+        log("  (nothing changed; not publishing - the site refreshes on its own timer)")
 
 if __name__ == "__main__":
     if "--if-due" in sys.argv:
@@ -946,6 +963,7 @@ if __name__ == "__main__":
         _g = _cfg["guardrails"]
         _floor = int(_g.get("min_decision_minutes", 6) or 6)
         _ceil = int(_g.get("max_decision_minutes", 30) or 30)
+        _auto_every = int(_g.get("autopilot_decision_minutes", 2) or 2)
         if not market_open_fallback(_now) and "--force" not in sys.argv:
             # Overnight, a decision would only log "market closed" and publish - and every publish
             # is a site deploy. That was ~77 wasted deploys a day against a 100/day limit.
@@ -954,13 +972,18 @@ if __name__ == "__main__":
             # In the first minute the daily quote can still be yesterday's row; two minutes costs nothing.
             print("first minute of the session; waiting for a real quote"); sys.exit(0)
         _st = state.load()
-        _want = _st.get("next_check_minutes")
-        _due = max(_floor, min(_ceil, int(_want))) if _want else mins
+        if _st.get("autopiloted"):
+            # No model, no bill: check as fast as the chain can carry it.
+            _due, _why = _auto_every, "autopilot, so there is nothing to pay for"
+        else:
+            _want = _st.get("next_check_minutes")
+            _due = max(_floor, min(_ceil, int(_want))) if _want else mins
+            _why = f"the brain asked for {_due}"
         _age = (_now.timestamp() - float(_st.get("last_decision_ts", 0) or 0)) / 60
         if _age < _due:
-            print(f"decision was {_age:.0f} min ago; not due yet (the brain asked for {_due})")
+            print(f"decision was {_age:.0f} min ago; not due yet ({_why})")
         else:
-            print(f"decision due: last one {_age:.0f} min ago (wanted every {_due})")
+            print(f"decision due: last one {_age:.0f} min ago (every {_due} - {_why})")
             main(force="--force" in sys.argv)
     elif "--tick" in sys.argv:
         def _arg(name, default):
