@@ -718,3 +718,10 @@ lesson: When below min_positions on a green day with a cooldown about to clear, 
 ~ WORKING buy_limit $1000.00 MSFT @ $493.01 until 2026-09-12 — strong month, weak day: resting 0.42% under $495.10 to catch the dip
 portfolio: equity $25044.46 (+0.18% on $25000.00 in) · cash $13546.65 · realised +46.65
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $13503.28 this week
+  (cancelled 1 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $511.80] -> $1499.24 (-0.05%) — close it all at -1.0% under the average cost
+  (cancelled 1 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $432.42] -> $1499.26 (-0.05%) — close it all at -0.6% under the average cost
+  (cancelled 1 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $238.77] -> $1499.26 (-0.05%) — close it all at -0.7% under the average cost
+## 2026-09-11 12:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders

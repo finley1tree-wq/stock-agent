@@ -1,10 +1,3 @@
-brain: Late day (14:46 ET, close 16:00), flat book with no open positions after 7 same-day round trips already realized -$28.80 net. Market is broadly red (DIA -0.73%, most names in bottom third of day range like CCJ, NLR, OKLO, HD, UNH). With only ~1hr left and max_hold_minutes=30, any new buy now would be forced-closed near the close in choppy conditions - exactly the pattern that produced today's losses. No fresh concrete catalyst (filing/headline) justifies a new 30-min round trip into this weakness. Staying in cash into the close is the disciplined move given today's track record.
-lesson: Late-day (post 14:30 ET) with a flat book and no strong fresh catalyst, avoid new entries since any position will be forced-closed within 30 min into a red, choppy tape - cash is the correct default when signal_evidence shows no 1-day edge.
-portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
-Done: 2 sell(s), 0 buy(s) (incl. 2 from standing orders); 0 order(s) working; budget left $24971.21 this week
-
-## 2026-09-10 15:04 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
   (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
   (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
   (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
@@ -398,3 +391,10 @@ lesson: When below min_positions on a green day with a cooldown about to clear, 
 ~ WORKING buy_limit $1000.00 MSFT @ $493.01 until 2026-09-12 — strong month, weak day: resting 0.42% under $495.10 to catch the dip
 portfolio: equity $25044.46 (+0.18% on $25000.00 in) · cash $13546.65 · realised +46.65
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $13503.28 this week
+  (cancelled 1 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $511.80] -> $1499.24 (-0.05%) — close it all at -1.0% under the average cost
+  (cancelled 1 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $432.42] -> $1499.26 (-0.05%) — close it all at -0.6% under the average cost
+  (cancelled 1 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $238.77] -> $1499.26 (-0.05%) — close it all at -0.7% under the average cost
+## 2026-09-11 12:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders

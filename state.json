@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 11496.72,
+  "spent": 6998.96,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 3500.41,
@@ -11,11 +11,11 @@
     "AVGO": 2.12,
     "MSFT": 2.87,
     "KMT": 2.18,
-    "TSM": 1500.74,
+    "TSM": 1.48,
     "AAPL": 2000.0,
     "GOOGL": 1500.0,
-    "AMD": 1500.0,
-    "IBM": 1500.0
+    "AMD": 0.76,
+    "IBM": 0.74
   },
   "orders": [
     {
@@ -1309,12 +1309,75 @@
         "news"
       ],
       "evidence": "IBM +2.06% today, +1.76% 5d, day range 54.1%, Zacks headline on IBM quantum computing hub advance"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 2.929331,
+      "status": "filled",
+      "price": 511.8,
+      "proceeds": 1499.24,
+      "realized_pnl": -0.76,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "12:40",
+      "ts": 1789144800,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $512.06",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 3.467114,
+      "status": "filled",
+      "price": 432.42,
+      "proceeds": 1499.26,
+      "realized_pnl": -0.74,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "12:40",
+      "ts": 1789144800,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $432.64",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 6.279099,
+      "status": "filled",
+      "price": 238.77,
+      "proceeds": 1499.26,
+      "realized_pnl": -0.74,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "12:40",
+      "ts": 1789144800,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $238.89",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 11496.72,
+  "spent_today": 6998.96,
   "orders_today": 27,
-  "sells_today": 20,
+  "sells_today": 23,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1332,17 +1395,17 @@
     "KMT",
     "NEM"
   ],
-  "last_check_ts": 1789144783,
+  "last_check_ts": 1789145017,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789144501,
+  "last_publish_ts": 1789144832,
   "last_decision_ts": 1789144783,
   "sold_ts": {
     "INTC": 1789144502,
     "GOOGL": 1789134349,
     "CCJ": 1789141240,
-    "AMD": 1789141240,
-    "IBM": 1789141240,
-    "TSM": 1789139723,
+    "AMD": 1789144834,
+    "IBM": 1789144834,
+    "TSM": 1789144834,
     "META": 1789136547,
     "AAPL": 1789136668,
     "HD": 1789138171,
@@ -1373,24 +1436,26 @@
     "SPY": 3500.0
   },
   "deployed_today": 45000.0,
-  "last_bar_ts": 1789144500,
+  "last_bar_ts": 1789144800,
   "book_px": {
-    "22e73260": 766.6382,
     "e35c7e23": 152.1995,
+    "22e73260": 766.6382,
     "66618da4": 646.7737,
+    "e87d920e": 493.0083,
     "f3b06472": 338.7473,
     "9801e338": 760.0,
-    "23b20e4c": 19.0529,
     "ea7d6938": 125.4277,
     "d375c5a7": 429.0,
-    "5974033c": 143.778,
+    "23b20e4c": 19.0529,
     "c1f95086": 365.2996,
-    "5ba8a2de": 330.5,
-    "b84d5c3e": 147.0339,
-    "6a60a8a6": 236.0,
     "c77ba476": 272.247,
+    "5974033c": 143.778,
+    "5ba8a2de": 330.5,
+    "6a60a8a6": 236.0,
+    "b84d5c3e": 147.0339,
     "a3d09bd3": 216.0,
     "7d6b8f4e": 505.0,
+    "61758308": 329.2559,
     "f1d5f3df": 334.0,
     "9e3f53bf": 325.0,
     "12e97950": 330.5275,
