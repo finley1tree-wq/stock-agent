@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-11T13:26-04:00",
+ "asOf": "2026-09-11T13:30-04:00",
  "note": "brain error",
  "broker": "sim",
  "watchlist": {
@@ -137,23 +137,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "c0cd1d3b",
-   "ticker": "KMT",
-   "kind": "take_profit",
-   "price": 29.7426,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 29.7,
-   "pct_away": 0.14,
-   "good_until": "2026-09-16",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "e87d920e",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -161,8 +144,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 495.61,
-   "pct_away": -0.52,
+   "last": 495.3,
+   "pct_away": -0.46,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.42% under $495.10 to catch the dip",
    "signals": [
@@ -178,8 +161,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 650.47,
-   "pct_away": -0.57,
+   "last": 650.24,
+   "pct_away": -0.53,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
    "signals": [
@@ -195,10 +178,28 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.21,
-   "pct_away": -0.72,
+   "last": 340.72,
+   "pct_away": -0.58,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "c77ba476",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 272.247,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 274.39,
+   "pct_away": -0.78,
+   "good_until": "2026-09-11",
+   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
    "signals": [
     "news",
     "momentum",
@@ -213,31 +214,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 466.17,
-   "pct_away": -0.76,
+   "last": 466.43,
+   "pct_away": -0.81,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $462.64. top congress pressure ticker in list, momentum confirmed",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "23b20e4c",
-   "ticker": "DGICA",
-   "kind": "buy_limit",
-   "price": 19.0529,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 19.21,
-   "pct_away": -0.82,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -248,8 +232,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 368.37,
-   "pct_away": -0.83,
+   "last": 368.47,
+   "pct_away": -0.86,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
    "signals": [
@@ -265,8 +249,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 433.14,
-   "pct_away": -0.96,
+   "last": 433.11,
+   "pct_away": -0.95,
    "good_until": "2026-09-11",
    "why": "Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range",
    "signals": [
@@ -282,10 +266,27 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 126.75,
-   "pct_away": -1.04,
+   "last": 126.63,
+   "pct_away": -0.95,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.71% under $126.32 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "23b20e4c",
+   "ticker": "DGICA",
+   "kind": "buy_limit",
+   "price": 19.0529,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 19.24,
+   "pct_away": -0.97,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -299,48 +300,13 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 334.16,
-   "pct_away": -1.1,
+   "last": 333.96,
+   "pct_away": -1.04,
    "good_until": "2026-09-11",
    "why": "Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range",
    "signals": [
     "momentum",
     "news"
-   ]
-  },
-  {
-   "id": "c77ba476",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 272.247,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 275.5,
-   "pct_away": -1.18,
-   "good_until": "2026-09-11",
-   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "cf7d78ef",
-   "ticker": "KMT",
-   "kind": "stop_loss",
-   "price": 29.3488,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 29.7,
-   "pct_away": -1.18,
-   "good_until": "2026-09-16",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -351,8 +317,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 219.34,
-   "pct_away": -1.52,
+   "last": 219.26,
+   "pct_away": -1.49,
    "good_until": "2026-09-11",
    "why": "Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate",
    "signals": [
@@ -368,8 +334,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 240.08,
-   "pct_away": -1.7,
+   "last": 240.01,
+   "pct_away": -1.67,
    "good_until": "2026-09-11",
    "why": "Widely-held name, resting below current 238.6 to get a better entry once cooldown clears",
    "signals": [
@@ -385,8 +351,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.99,
-   "pct_away": -1.97,
+   "last": 149.8,
+   "pct_away": -1.85,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
    "signals": [
@@ -402,30 +368,13 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 515.6,
-   "pct_away": -2.06,
+   "last": 516.02,
+   "pct_away": -2.14,
    "good_until": "2026-09-11",
    "why": "Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready",
    "signals": [
     "congress",
     "momentum"
-   ]
-  },
-  {
-   "id": "e3aeda20",
-   "ticker": "KMT",
-   "kind": "buy_limit",
-   "price": 28.7411,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 29.7,
-   "pct_away": -3.23,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -2834,5 +2783,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-11T13:26-04:00"
+ "signalsAsOf": "2026-09-11T13:30-04:00"
 }

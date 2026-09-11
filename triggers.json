@@ -3337,7 +3337,7 @@
    "ticker": "KMT",
    "kind": "take_profit",
    "price": 29.7426,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 12:58",
    "created_ts": 1789145898,
    "why": "close 100% at +0.4% over the average cost",
@@ -3347,14 +3347,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 13:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cf7d78ef",
    "ticker": "KMT",
    "kind": "stop_loss",
    "price": 29.3488,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 12:58",
    "created_ts": 1789145898,
    "why": "close it all at -0.9% under the average cost",
@@ -3364,14 +3366,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 13:26",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e3aeda20",
    "ticker": "KMT",
    "kind": "buy_limit",
    "price": 28.7411,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 12:58",
    "created_ts": 1789145898,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -3381,7 +3385,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 13:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "92b7885e",
@@ -3419,7 +3425,26 @@
    "good_until": "2026-09-16",
    "pct_of_position": 100.0,
    "closed": "2026-09-11 13:21"
+  },
+  {
+   "id": "604a166d",
+   "ticker": "KMT",
+   "kind": "stop_loss",
+   "price": 29.672,
+   "status": "cancelled",
+   "created": "2026-09-11 13:26",
+   "created_ts": 1789147606,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $29.63",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 13:28",
+   "cancel_reason": "time stop closed the position"
   }
  ],
- "updated": "2026-09-11 13:21"
+ "updated": "2026-09-11 13:26"
 }

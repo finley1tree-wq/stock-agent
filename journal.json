@@ -1097,8 +1097,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.17,
-    "ret_now": -0.17,
+    "ret_final": 0.07,
+    "ret_now": 0.07,
     "ret_src": "realised"
   },
   {
@@ -2009,7 +2009,9 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.26,
+    "ret_final": 0.26,
+    "ret_src": "realised"
   },
   {
     "symbol": "MRK",
@@ -2058,6 +2060,30 @@
     ],
     "evidence": "average cost $152.2",
     "trigger": "stop_loss",
+    "hour_et": 13,
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "KMT",
+    "side": "sell",
+    "qty": 50.631332,
+    "status": "filled",
+    "price": 29.7,
+    "proceeds": 1503.96,
+    "realized_pnl": 3.96,
+    "realized_pct": 0.26,
+    "date": "2026-09-11",
+    "time_et": "13:28",
+    "ts": 1789147731,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "insider",
+      "intraday_limit",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.28% unrealised",
+    "trigger": "time_stop",
     "hour_et": 13,
     "hold_minutes": 30
   }
