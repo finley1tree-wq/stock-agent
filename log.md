@@ -1185,3 +1185,26 @@ Decision: nothing at this check. 30 standing order(s) working.
 - SELL 100% INTC [time stop] -> $2993.58 (-0.21%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $2994.05 (-0.20%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-11 15:21 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 15:23 ET (Friday) — week 2026-W37 — budget left $11002.10 (today $121800.00 put to work, 55 buys, 49 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexCTQAe6XgDAfBoj1tSU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $11,002 idle, so opened 3: CHRW, SPCX, MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +3.8% over the month; 13% of today's range
+- BUY $3000.00 SPCX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +2.6% over the month; 85% of today's range
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.9% over the month; 67% of today's range
+~ WORKING take_profit 100% CHRW @ $152.66 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $151.18 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SPCX @ $150.58 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% SPCX @ $148.24 until 2026-09-16 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 SPCX @ $145.41 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $498.11 until 2026-09-16 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $494.20 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25139.11 (+0.56% on $25000.00 in) · cash $2144.88 · realised +144.88
+Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $2002.10 this week

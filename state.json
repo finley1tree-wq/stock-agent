@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 13997.9,
+  "spent": 22997.9,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -14,10 +14,12 @@
     "AMD": 8.23,
     "IBM": 0.74,
     "INTC": 7.94,
-    "CHRW": 1.4,
+    "CHRW": 3001.4,
     "MRK": 3001.48,
     "AAPL": 3001.47,
-    "HUBB": 2000.0
+    "HUBB": 2000.0,
+    "SPCX": 3000.0,
+    "MSFT": 3000.0
   },
   "orders": [
     {
@@ -2387,11 +2389,64 @@
       ],
       "evidence": "bought 30 min ago, -0.18% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.705671,
+      "price": 152.24,
+      "date": "2026-09-11",
+      "time_et": "15:23",
+      "ts": 1789154627,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +3.8% over the month; 13% of today's range"
+    },
+    {
+      "symbol": "SPCX",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.01201,
+      "price": 149.91,
+      "date": "2026-09-11",
+      "time_et": "15:23",
+      "ts": 1789154627,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +2.6% over the month; 85% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.036346,
+      "price": 496.99,
+      "date": "2026-09-11",
+      "time_et": "15:23",
+      "ts": 1789154627,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.9% over the month; 67% of today's range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 13997.9,
-  "orders_today": 55,
+  "spent_today": 22997.9,
+  "orders_today": 58,
   "sells_today": 49,
   "sold_today": [
     "INTC",
@@ -2419,10 +2474,10 @@
     "TNON",
     "MO"
   ],
-  "last_check_ts": 1789154545,
+  "last_check_ts": 1789154627,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789154499,
-  "last_decision_ts": 1789154458,
+  "last_publish_ts": 1789154627,
+  "last_decision_ts": 1789154627,
   "sold_ts": {
     "INTC": 1789154500,
     "GOOGL": 1789154233,
@@ -2449,7 +2504,7 @@
     "TNON": 1789152064,
     "MO": 1789152987
   },
-  "deployed": 121800.0,
+  "deployed": 130800.0,
   "deployed_by_ticker": {
     "AMD": 11500.0,
     "CCJ": 3800.0,
@@ -2462,49 +2517,58 @@
     "NVDA": 1500.0,
     "AVGO": 1500.0,
     "AMZN": 1500.0,
-    "MSFT": 4500.0,
+    "MSFT": 7500.0,
     "KMT": 2750.0,
     "HD": 1250.0,
     "NEM": 7000.0,
     "SPY": 3500.0,
-    "CHRW": 4000.0,
+    "CHRW": 7000.0,
     "MRK": 7800.0,
     "BE": 3000.0,
-    "SPCX": 3000.0,
+    "SPCX": 6000.0,
     "TPL": 6000.0,
     "DGICA": 3000.0,
     "TNON": 3000.0,
     "MO": 3000.0,
     "HUBB": 2000.0
   },
-  "deployed_today": 121800.0,
+  "deployed_today": 130800.0,
   "last_bar_ts": 1789154400,
   "book_px": {
     "2ea71340": 144.6008,
+    "70495043": 498.1082,
     "ff6c5874": 333.5717,
-    "a1d51542": 433.4181,
     "cc56f1bf": 463.9215,
+    "abfced80": 152.6632,
+    "a1d51542": 433.4181,
     "72a1a847": 653.1488,
-    "b0ace0a9": 646.3936,
+    "63e5baa4": 150.5801,
     "841fa941": 429.5791,
-    "cb975f53": 459.4385,
+    "dd89945d": 494.2019,
     "6b3decac": 330.5241,
     "5ba8a2de": 330.5,
+    "b0ace0a9": 646.3936,
     "d375c5a7": 429.0,
+    "cb975f53": 459.4385,
+    "44ac133b": 151.1819,
     "cb9005c7": 143.2308,
     "52746a40": 644.8644,
+    "2b0c1d79": 148.2355,
     "c77ba476": 272.247,
     "a3d09bd3": 216.0,
-    "532b86e9": 171.2706,
     "7d6b8f4e": 505.0,
     "6a60a8a6": 236.0,
-    "b63302b8": 631.2566,
-    "c8246824": 448.7608,
     "1b3c5286": 419.3504,
+    "b63302b8": 631.2566,
     "4246542e": 322.719,
+    "c8246824": 448.7608,
+    "68228438": 147.6728,
+    "57f6e6c8": 145.4127,
+    "e6fd3536": 482.0803,
     "8a2efe46": 139.8837,
+    "532b86e9": 171.2706,
     "ba4576bb": 310.432
   },
-  "next_check_minutes": null,
+  "next_check_minutes": 6,
   "autopiloted": true
 }

@@ -133,8 +133,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.41,
-    "ret_final": 0.41,
+    "ret_now": 0.25,
+    "ret_final": 0.25,
     "ret_src": "realised"
   },
   {
@@ -161,8 +161,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -382,8 +382,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -556,8 +556,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.4,
-    "ret_final": 0.4,
+    "ret_now": 0.24,
+    "ret_final": 0.24,
     "ret_src": "realised"
   },
   {
@@ -614,8 +614,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.22,
-    "ret_now": 0.22,
+    "ret_final": 0.08,
+    "ret_now": 0.08,
     "ret_src": "realised"
   },
   {
@@ -1334,8 +1334,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.01,
-    "ret_now": -0.01,
+    "ret_final": -0.07,
+    "ret_now": -0.07,
     "ret_src": "realised"
   },
   {
@@ -1680,8 +1680,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.05,
-    "ret_now": 0.05,
+    "ret_final": -0.06,
+    "ret_now": -0.06,
     "ret_src": "realised"
   },
   {
@@ -1733,8 +1733,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.05,
-    "ret_now": -0.05,
+    "ret_final": -0.11,
+    "ret_now": -0.11,
     "ret_src": "realised"
   },
   {
@@ -2154,8 +2154,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.05,
-    "ret_now": -0.05,
+    "ret_final": -0.13,
+    "ret_now": -0.13,
     "ret_src": "realised"
   },
   {
@@ -2210,8 +2210,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.05,
-    "ret_now": -0.05,
+    "ret_final": -0.12,
+    "ret_now": -0.12,
     "ret_src": "realised"
   },
   {
@@ -2926,7 +2926,9 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.21,
+    "ret_final": -0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMD",
@@ -2952,7 +2954,9 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.2,
+    "ret_final": -0.2,
+    "ret_src": "realised"
   },
   {
     "symbol": "TPL",
@@ -3035,7 +3039,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.03
   },
   {
     "symbol": "TSM",
@@ -3060,7 +3064,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.09
   },
   {
     "symbol": "NEM",
@@ -3136,7 +3140,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.03
   },
   {
     "symbol": "INTC",
@@ -3161,7 +3165,8 @@
     "evidence": "bought 30 min ago, -0.19% unrealised",
     "trigger": "time_stop",
     "hour_et": 15,
-    "code_version": "6b329ea"
+    "code_version": "6b329ea",
+    "hold_minutes": 30
   },
   {
     "symbol": "AMD",
@@ -3186,6 +3191,84 @@
     "evidence": "bought 30 min ago, -0.18% unrealised",
     "trigger": "time_stop",
     "hour_et": 15,
-    "code_version": "6b329ea"
+    "code_version": "6b329ea",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 19.705671,
+    "price": 152.24,
+    "date": "2026-09-11",
+    "time_et": "15:23",
+    "ts": 1789154627,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (3 net buyers): April McClain Delaney; +3.8% over the month; 13% of today's range",
+    "entry_price": 152.21,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.76,
+    "hour_et": 15,
+    "code_version": "3e886e2",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "SPCX",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 20.01201,
+    "price": 149.91,
+    "date": "2026-09-11",
+    "time_et": "15:23",
+    "ts": 1789154627,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +2.6% over the month; 85% of today's range",
+    "entry_price": 149.88,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.56,
+    "hour_et": 15,
+    "code_version": "3e886e2",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.036346,
+    "price": 496.99,
+    "date": "2026-09-11",
+    "time_et": "15:23",
+    "ts": 1789154627,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+0.9% over the month; 67% of today's range",
+    "entry_price": 496.89,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.91,
+    "hour_et": 15,
+    "code_version": "3e886e2",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
