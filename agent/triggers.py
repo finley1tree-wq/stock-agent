@@ -355,6 +355,23 @@ def levels(ticker: str, px: dict | None, cfg: dict) -> tuple[float, float]:
 def _is_auto(o: dict) -> bool:
     return AUTO in (o.get("signals") or [])
 
+def _closed_after(order: dict, pos: dict) -> bool:
+    """Did this order fill AFTER the current position was opened?
+
+    Without this, a take-profit banked on an earlier, already-closed position in the same ticker
+    keeps applying to every later one - suppressing its target and pinning its stop to break-even.
+    A position with no opened_ts (pre-dating the field) is treated as new, which is the safe
+    reading: it gets an ordinary target and an ordinary stop.
+    """
+    opened = pos.get("opened_ts")
+    if not opened:
+        return False
+    stamp = order.get("closed") or ""
+    try:
+        return datetime.strptime(str(stamp)[:16], "%Y-%m-%d %H:%M").replace(tzinfo=ET).timestamp() >= float(opened)
+    except (ValueError, TypeError):
+        return False
+
 def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> tuple[list[dict], int]:
     """Keep every position's exit plan pinned to its CURRENT average cost, and offer to average in.
 
@@ -398,8 +415,15 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
         # fill and the position is liquidated in halves at +tp%: seen live on AMD, sold four times
         # at $521.99 for 0.0491 -> 0.0245 -> 0.0123 -> 0.0061 shares. That caps the best possible
         # outcome of every trade at the target, which is the opposite of scaling out.
+        # ...BY THIS POSITION. The check used to ask whether the TICKER had ever banked a target,
+        # with no time limit, which was equivalent while a name was bought once and held for days.
+        # Under a 30-minute clock and a 45-minute rebuy cooldown a name is re-bought repeatedly, so
+        # by the afternoon almost every ticker had "banked" - and every NEW position in it was born
+        # with no profit target and a stop sitting exactly at its entry price. Measured live on
+        # 2026-09-11: five positions stopped out at -0.05% (exactly the slippage), three of them
+        # held zero minutes, all in names that had banked a target hours earlier.
         banked = any(o["ticker"] == t and o["kind"] == "take_profit" and o.get("status") == "filled"
-                     and _is_auto(o) for o in done)
+                     and _is_auto(o) and _closed_after(o, pos) for o in done)
         targets = {}
         if tp > 0 and not banked:
             targets["take_profit"] = px_round(entry * (1 + tp / 100))
