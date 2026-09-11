@@ -18,6 +18,7 @@ Written to decisions.json (capped, compact). report() is handed to the brain eve
 import json
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from .version import code_version
 
 ROOT = Path(__file__).resolve().parent.parent
 FILE = ROOT / "decisions.json"
@@ -65,6 +66,9 @@ def record(now: datetime, px: dict, allowed: set, bought: list, sold: list, drop
     rows = _load()
     rows.append({
         "ts": now.strftime("%Y-%m-%dT%H:%M"), "date": now.date().isoformat(), "hour": now.hour,
+        # The build that made this decision. Without it a change cannot be tied to an outcome:
+        # thirteen landed on 2026-09-11 and the day's result could not be attributed to any of them.
+        "code_version": code_version(),
         "blocked": bool(blocked),
         "budget_left": round(budget_left, 2),
         "deploy_usd": round(float(plan.get("deploy_now_usd", 0) or 0), 2),

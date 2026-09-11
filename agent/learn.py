@@ -12,6 +12,7 @@ been working, and in what order.
 import json
 from datetime import date
 from pathlib import Path
+from .version import code_version
 
 ROOT = Path(__file__).resolve().parent.parent
 MIN_DAYS_FOR_GUIDANCE = 10   # below this, a lesson is a hypothesis and not a rule
@@ -34,12 +35,15 @@ def record(order: dict, entry_price: float | None, sector: str, congress_buying:
     rows.append({**order, "side": "buy", "entry_price": entry_price, "sector": sector,
                  "congress_buying": congress_buying, "momentum_1m_at_entry": momentum_1m,
                  "signals": sorted(set(signals or [])), "evidence": evidence, "hour_et": hour_et,
+                 # which build decided this, so "did that change help" is a query, not an argument
+                 "code_version": code_version(),
                  "ret_1w": None, "ret_1m": None})
     _save(rows)
 
 def record_sell(rec: dict, signals: list[str] | None = None, evidence: str = "", hour_et: int | None = None) -> None:
     rows = _load()
-    rows.append({**rec, "side": "sell", "signals": sorted(set(signals or [])), "evidence": evidence, "hour_et": hour_et})
+    rows.append({**rec, "side": "sell", "signals": sorted(set(signals or [])), "evidence": evidence,
+                 "hour_et": hour_et, "code_version": code_version()})
     _save(rows)
 
 def journal_tickers() -> list[str]:
@@ -145,6 +149,11 @@ def score(prices: dict, held: set | None = None) -> dict:
         "signal_ranking_best_to_worst": [k for k, _ in ranking],
         "by_hour_et": _agg(sells, "hour_et", val="realized_pct", weight="proceeds") if sells else _agg(scored, "hour_et"),
         "by_hold_bucket": _agg(sells, "hold_bucket", val="realized_pct", weight="proceeds") if sells else {},
+        # Realised result grouped by the build that traded it. This is the only thing that makes a
+        # change measurable after the fact: thirteen code changes landed on 2026-09-11 and none of
+        # them could be attributed to an outcome, because nothing recorded which was running.
+        "by_code_version": _agg([r for r in sells if r.get("code_version")], "code_version",
+                                val="realized_pct", weight="proceeds"),
         "unrealised_open": [{"symbol": r["symbol"], "ret_now": r["ret_now"]} for r in open_rows],
         "best": sorted(sells, key=lambda r: -r["realized_pct"])[:3] if sells else sorted(scored, key=lambda r: -r["ret_now"])[:3],
         "worst": sorted(sells, key=lambda r: r["realized_pct"])[:3] if sells else sorted(scored, key=lambda r: r["ret_now"])[:3],

@@ -81,6 +81,11 @@ Rules of thumb:
   such an order into a resting limit at chase_limit_at_pct of the range rather than filling it. So when a name you want is
   high in its range, ASK FOR THE LEVEL YOU WANT with a buy_limit trigger instead of a market order.
   Your first day averaged the 76th percentile on entry and six of seven positions closed red.
+- "track_record" now carries "by_code_version": realised result grouped by the build of the agent that
+  made each trade. A change to the rules is an experiment, and this is its result. Read it the way you read
+  any other bucket here - a version with a few hundred dollars behind it is noise, and the agent changed
+  many times in a single day, so most versions will never have a real sample. It tells you what CHANGED,
+  not what to do.
 - "past_lessons" carries a `status`. When it says UNPROVEN, those lessons were written from a handful of
   days and are things to WATCH FOR, not rules - and specifically they are never a reason to sit out. You
   once wrote nine variations of "hold cash on a red day" in a single session and then cited them back to
