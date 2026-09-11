@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-11 15:50 ET
+# Pretend portfolio — 2026-09-11 15:53 ET
 
-**Equity $25152.10** on $25000.00 put in → **+0.61%**  
-Cash $22154.39 · Unrealised -2.29 · Realised +154.39
+**Equity $25152.52** on $25000.00 put in → **+0.61%**  
+Cash $22154.39 · Unrealised -1.87 · Realised +154.39
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| MSFT | 11.9% | $2997.71 | $496.99 | $496.61 | -0.08% | 0d |
+| MSFT | 11.9% | $2998.13 | $496.99 | $496.68 | -0.06% | 0d |
 
 ## Last fills
 
