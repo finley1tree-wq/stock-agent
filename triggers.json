@@ -1474,7 +1474,7 @@
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 102.213,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 09:33",
    "created_ts": 1789133608,
    "why": "wanted it, but not at the high \u2014 resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst",
@@ -1486,7 +1486,8 @@
     "patience"
    ],
    "good_until": "2026-09-11",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-11 09:36"
   },
   {
    "id": "ea86605c",
@@ -1642,7 +1643,58 @@
    ],
    "good_until": "2026-09-12",
    "usd": 1000.0
+  },
+  {
+   "id": "4b94ca56",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 102.7088,
+   "status": "working",
+   "created": "2026-09-11 09:36",
+   "created_ts": 1789133789,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $102.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ae326f8d",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 100.962,
+   "status": "working",
+   "created": "2026-09-11 09:36",
+   "created_ts": 1789133789,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $102.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7f118afb",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 99.1437,
+   "status": "working",
+   "created": "2026-09-11 09:36",
+   "created_ts": 1789133789,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $102.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-11 09:33"
+ "updated": "2026-09-11 09:36"
 }

@@ -1,12 +1,12 @@
 {
   "week": "2026-W37",
-  "spent": 4828.79,
+  "spent": 7328.79,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 2310.05,
     "SPY": 0.41,
     "NLR": 13.19,
-    "INTC": 5.01,
+    "INTC": 2505.01,
     "GOOGN": 0.24,
     "AMD": 2500.0
   },
@@ -446,23 +446,45 @@
         "track_record"
       ],
       "evidence": "CCJ at 24.5% of day range (low), -3.57% 5d giving room to run vs peers OKLO down -4.59% today"
+    },
+    {
+      "symbol": "INTC",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.458728,
+      "price": 102.21,
+      "date": "2026-09-11",
+      "time_et": "09:36",
+      "ts": 1789133700,
+      "why": "wanted it, but not at the high \u2014 resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst",
+      "signals": [
+        "momentum",
+        "congress",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "INTC +2.59% today, +12.27% 5d, at 89.3% of day range; Pelosi disclosed $250k-1M buy 2026-08-21; headline 'Intel May Raise Chip Prices 10% and Stock Took Off'",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 4800.0,
-  "orders_today": 2,
+  "spent_today": 7300.0,
+  "orders_today": 3,
   "sells_today": 0,
   "sold_today": [],
-  "last_check_ts": 1789133608,
-  "book_fp": "[[\"b8e8ffbc\", 117.3797], [\"dbb6ad40\", 99.1728]]",
-  "last_publish_ts": 1789069673,
+  "last_check_ts": 1789133911,
+  "book_fp": "[[\"23b20e4c\", 19.0529], [\"4b94ca56\", 102.7088], [\"4d652d52\", 654.1035], [\"4deb2cfd\", 97.4654], [\"532b86e9\", 171.2706], [\"603e93b6\", 94.1385], [\"74e0024c\", 428.3086], [\"7f118afb\", 99.1437], [\"a89ad0f5\", 492.8], [\"ae326f8d\", 100.962], [\"bcf90a5c\", 93.5], [\"ea86605c\", 337.3338], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
+  "last_publish_ts": 1789133789,
   "last_decision_ts": 1789133608,
   "sold_ts": {},
-  "deployed": 4800.0,
+  "deployed": 7300.0,
   "deployed_by_ticker": {
     "AMD": 2500.0,
-    "CCJ": 2300.0
+    "CCJ": 2300.0,
+    "INTC": 2500.0
   },
-  "deployed_today": 4800.0,
-  "last_bar_ts": 1789133400
+  "deployed_today": 7300.0,
+  "last_bar_ts": 1789133700
 }

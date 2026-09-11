@@ -1,5 +1,3 @@
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
@@ -398,3 +396,5 @@ lesson: Past idle sessions on green broad-market days generated positive regret 
 ~ WORKING buy_limit $1000.00 TSM @ $428.31 until 2026-09-12 — strong month, weak day: resting 0.47% under $430.31 to catch the dip
 portfolio: equity $24970.24 (-0.12% on $25000.00 in) · cash $20171.20 · realised -28.80
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week
+- BUY $2500.00 INTC [buy_limit @ $102.21] — wanted it, but not at the high — resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst
+## 2026-09-11 09:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
