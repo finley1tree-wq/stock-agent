@@ -47,6 +47,7 @@
         <button class="t-close" aria-label="Close">×</button>
         <div class="t-title"><span class="t-sym">${esc(sym)}</span><span class="t-name" id="t-name"></span></div>
         <div class="t-price"><span class="num" id="t-price">…</span><span id="t-chg" class="t-chg"></span><span id="t-clock" class="t-clock" hidden></span><span id="t-live" class="t-live" hidden></span></div>
+        <div class="t-pos" id="t-pos" hidden></div>
       </div>
       <div class="t-bar">
         <div class="chips" id="t-ranges">${RANGES.map(r => `<button data-r="${r}" aria-pressed="${r === T.range}">${RLABEL[r]}</button>`).join("")}</div>
@@ -152,7 +153,8 @@
     T.data.price = price;
     if (q) { if (q.changePct != null) T.data.change = +q.changePct; T.quote = q; }
     paintHeader(price, q);
-    drawEntry();                      // the buy-in label carries the live gain, so it moves too
+    drawEntry();
+    drawPosition();                   // the badge is the number the owner actually reads
     drawLevels();                     // the day's high and low move while the session runs
     drawLiquidity();
     if (!T.cursorPrice) updatePL(price);
@@ -170,8 +172,25 @@
     }
   }
 
+  function drawPosition() {
+    const el = $("#t-pos"); if (!el) return;
+    const pos = ctx().positions()[T.sym];
+    const live = T.lastPrice || (T.data && T.data.price);
+    if (!pos || !T.entry || !live || T.entryMode !== "auto") { el.hidden = true; return; }
+    const perShare = live - T.entry, perPct = (live / T.entry - 1) * 100;
+    const dollars = perShare * (+pos.qty || 0);
+    const up = perShare >= 0;
+    el.hidden = false;
+    el.className = "t-pos " + (up ? "up" : "down");
+    el.innerHTML = `<span class="t-pos-arrow">${up ? "\u25B2" : "\u25BC"}</span>`
+      + `<span class="t-pos-big">${signed(dollars)}</span>`
+      + `<span class="t-pos-pct">${pct(perPct)}</span>`
+      + `<span class="t-pos-sub">since you bought at ${money(T.entry)}</span>`;
+  }
+
   function tickClock() {
     drawClock();
+    drawPosition();
     // Say plainly how fresh the price is. The feed is free Yahoo data, so a few seconds between
     // ticks is normal and a long gap means something is actually wrong - worth being able to see.
     const el = $("#t-live"); if (!el) return;
@@ -270,6 +289,7 @@
     drawLevels();
     drawEntry();
     drawClock();
+    drawPosition();
     // the profile is painted on our own canvas, so it has to follow every pan, zoom and resize
     const repaint = () => drawLiquidity();
     chart.timeScale().subscribeVisibleLogicalRangeChange(repaint);
@@ -352,7 +372,8 @@
       g.fillRect(x0 - maxW, yPoc - 1, maxW, 2);
       g.font = "600 10px -apple-system, BlinkMacSystemFont, Inter, sans-serif";
       g.fillStyle = "#ffb340"; g.textAlign = "right";
-      g.fillText("POC " + money(p.poc), x0 - 4, yPoc - 5);
+      g.textAlign = "left";
+      g.fillText("POC " + money(p.poc), x0 - maxW + 2, yPoc - 5);   // left of the profile, clear of the buy-in label
     }
     if (legend) {
       legend.hidden = false;
@@ -430,15 +451,14 @@
     if (T.series.zone) { try { T.chart.removeSeries(T.series.zone); } catch (e) {} T.series.zone = null; }
     if (!T.show.buyin || !T.entry || !T.data) { updatePL(T.lastPrice); return; }
     const pos = ctx().positions()[T.sym];
-    const live = T.lastPrice || (T.data && T.data.price);
-    const move = live ? (live / T.entry - 1) * 100 : null;
-    const label = (pos && T.entryMode === "auto" ? "BUY-IN " : "what-if ") + money(T.entry)
-      + (move == null ? "" : `  ${pct(move)}`);
-    T.series.entryLine = s.createPriceLine({ price: T.entry, color: AMBER, lineWidth: 2,
+    // Short label on purpose: the long one collided with the POC label and the price tag at the
+    // same height and became unreadable. The number lives in the badge at the top instead.
+    const label = pos && T.entryMode === "auto" ? "YOU BOUGHT HERE" : "what-if";
+    T.series.entryLine = s.createPriceLine({ price: T.entry, color: AMBER, lineWidth: 3,
       lineStyle: window.LightweightCharts.LineStyle.Solid, axisLabelVisible: true, title: label });
     // profit / loss zones: translucent baseline around the entry price
     const bars = T.data.bars.map(b => ({ time: Math.floor(b.t / 1000), value: b.c }));
-    T.series.zone = T.chart.addBaselineSeries({ baseValue: { type: "price", price: T.entry }, topLineColor: "rgba(0,0,0,0)", bottomLineColor: "rgba(0,0,0,0)", topFillColor1: "rgba(48,209,88,.16)", topFillColor2: "rgba(48,209,88,.03)", bottomFillColor1: "rgba(255,69,58,.03)", bottomFillColor2: "rgba(255,69,58,.16)", priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false });
+    T.series.zone = T.chart.addBaselineSeries({ baseValue: { type: "price", price: T.entry }, topLineColor: "rgba(0,0,0,0)", bottomLineColor: "rgba(0,0,0,0)", topFillColor1: "rgba(48,209,88,.26)", topFillColor2: "rgba(48,209,88,.04)", bottomFillColor1: "rgba(255,69,58,.04)", bottomFillColor2: "rgba(255,69,58,.26)", priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false });
     T.series.zone.setData(bars);
     updatePL(T.lastPrice);
   }

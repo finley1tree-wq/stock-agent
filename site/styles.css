@@ -231,3 +231,19 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
   color: #30d158; border: 1px solid rgba(48,209,88,.35); white-space: nowrap; }
 .t-live.stale { background: rgba(139,152,169,.15); color: #8b98a9; border-color: rgba(139,152,169,.35); }
 #t-reset button { font-weight: 600; }
+
+/* The one number the owner opens the chart to see: how far up or down this position is.
+   The buy-in LINE says where; this says how much, at a size that cannot be missed. */
+.t-pos { display: flex; align-items: baseline; gap: 8px; margin-top: 6px;
+  padding: 6px 12px; border-radius: 10px; border: 1px solid transparent; white-space: nowrap; }
+.t-pos.up   { background: rgba(48,209,88,.12);  border-color: rgba(48,209,88,.35); color: #30d158; }
+.t-pos.down { background: rgba(255,69,58,.12);  border-color: rgba(255,69,58,.35); color: #ff453a; }
+.t-pos-arrow { font-size: 13px; }
+.t-pos-big { font-size: 24px; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+.t-pos-pct { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; opacity: .9; }
+.t-pos-sub { font-size: 11px; color: var(--muted); font-weight: 500; margin-left: 2px; }
+@media (max-width: 560px) {
+  .t-pos { flex-wrap: wrap; gap: 4px 8px; }
+  .t-pos-big { font-size: 20px; }
+  .t-pos-sub { width: 100%; }
+}
