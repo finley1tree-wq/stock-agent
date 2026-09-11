@@ -1,18 +1,21 @@
 {
   "week": "2026-W37",
-  "spent": 5751.34,
+  "spent": 7006.47,
   "by_ticker": {
     "AMAT": 1.05,
-    "CCJ": 0.19,
+    "CCJ": 1500.19,
     "SPY": 0.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
     "META": 5.26,
     "NVDA": 3.96,
-    "AVGO": 1500.0,
-    "AMZN": 1500.0,
-    "MSFT": 1500.0,
-    "KMT": 1250.0
+    "AVGO": 2.12,
+    "MSFT": 2.87,
+    "KMT": 2.18,
+    "NEM": 1000.0,
+    "AMD": 1500.0,
+    "TSM": 1500.0,
+    "IBM": 1500.0
   },
   "orders": [
     {
@@ -875,12 +878,179 @@
       ],
       "evidence": "bought 30 min ago, -0.24% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 4.114291,
+      "status": "filled",
+      "price": 364.07,
+      "proceeds": 1497.88,
+      "realized_pnl": -2.12,
+      "realized_pct": -0.14,
+      "date": "2026-09-11",
+      "time_et": "11:07",
+      "ts": 1789139262,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.12% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMZN",
+      "side": "sell",
+      "qty": 5.876337,
+      "status": "filled",
+      "price": 255.61,
+      "proceeds": 1502.04,
+      "realized_pnl": 2.04,
+      "realized_pct": 0.14,
+      "date": "2026-09-11",
+      "time_et": "11:07",
+      "ts": 1789139262,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.16% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 3.029085,
+      "status": "filled",
+      "price": 494.25,
+      "proceeds": 1497.13,
+      "realized_pnl": -2.87,
+      "realized_pct": -0.19,
+      "date": "2026-09-11",
+      "time_et": "11:07",
+      "ts": 1789139262,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.17% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "KMT",
+      "side": "sell",
+      "qty": 42.079126,
+      "status": "filled",
+      "price": 29.65,
+      "proceeds": 1247.82,
+      "realized_pnl": -2.18,
+      "realized_pct": -0.17,
+      "date": "2026-09-11",
+      "time_et": "11:07",
+      "ts": 1789139262,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.15% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.898994,
+      "price": 126.6,
+      "date": "2026-09-11",
+      "time_et": "11:09",
+      "ts": 1789139100,
+      "why": "strong month, weak day: resting 0.68% under $127.47 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+8.2% over the month, sitting at 57% of today's range",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.911135,
+      "price": 515.26,
+      "date": "2026-09-11",
+      "time_et": "11:10",
+      "ts": 1789139446,
+      "why": "Best-performing signal combo per track_record (congress avg_ret 0.66%, hit_rate 0.76); AMD momentum strong but not extended (70% of day range)",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Cisneros disclosed AMD buy 2026-07-17; AMD +12.93% 5d, +2.3% today, congress_net_buy_pressure=2.0"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 15.39417,
+      "price": 97.44,
+      "date": "2026-09-11",
+      "time_et": "11:10",
+      "ts": 1789139446,
+      "why": "Reasonable entry mid-range, cooldown expired (not in cooling_off list), diversifies away from tech",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "CCJ at 52.1% of day range, not extended; nuclear sector theme with congress buys on INTC etc"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.465351,
+      "price": 432.86,
+      "date": "2026-09-11",
+      "time_et": "11:10",
+      "ts": 1789139446,
+      "why": "Strong fundamentals narrative, widely_held sector has 1.0 hit rate historically",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "'TSM Record Sales Say AI Chips Are Booming' Insider Monkey headline; +3.78% 5d, at 78% of range"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.303909,
+      "price": 237.95,
+      "date": "2026-09-11",
+      "time_et": "11:10",
+      "ts": 1789139446,
+      "why": "Not extended in range, positive catalyst headline, room to run",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "'Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout' referencing IBM; IBM +1.66% today, at 40.8% of day range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 5751.34,
-  "orders_today": 14,
-  "sells_today": 10,
+  "spent_today": 7006.47,
+  "orders_today": 19,
+  "sells_today": 14,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -891,12 +1061,16 @@
     "META",
     "AAPL",
     "HD",
-    "NVDA"
+    "NVDA",
+    "AVGO",
+    "AMZN",
+    "MSFT",
+    "KMT"
   ],
-  "last_check_ts": 1789139228,
-  "book_fp": "[[\"0eb30ba6\", 480.344], [\"10dab02f\", 247.6022], [\"16dacdd9\", 29.8223], [\"19f04880\", 28.8187], [\"23b20e4c\", 19.0529], [\"2d69387b\", 255.8803], [\"3994f240\", 357.0], [\"48c51626\", 372.0], [\"50850904\", 28.9], [\"532b86e9\", 171.2706], [\"7f85353e\", 365.7321], [\"aa371247\", 484.0], [\"b2629619\", 249.5], [\"b66024ed\", 102.3671], [\"b7ceacb1\", 353.6426], [\"ba4576bb\", 310.432], [\"e885f49c\", 496.3142], [\"ee434769\", 126.5984]]",
-  "last_publish_ts": 1789139005,
-  "last_decision_ts": 1789137458,
+  "last_check_ts": 1789139446,
+  "book_fp": "[[\"23b20e4c\", 19.0529], [\"310a4419\", 127.076], [\"532b86e9\", 171.2706], [\"755bb002\", 125.41], [\"b66024ed\", 102.3671], [\"ba4576bb\", 310.432], [\"d554fa02\", 122.802]]",
+  "last_publish_ts": 1789139383,
+  "last_decision_ts": 1789139446,
   "sold_ts": {
     "INTC": 1789134010,
     "GOOGL": 1789134349,
@@ -907,25 +1081,30 @@
     "META": 1789136547,
     "AAPL": 1789136668,
     "HD": 1789138171,
-    "NVDA": 1789139006
+    "NVDA": 1789139006,
+    "AVGO": 1789139263,
+    "AMZN": 1789139263,
+    "MSFT": 1789139263,
+    "KMT": 1789139263
   },
-  "deployed": 25500.0,
+  "deployed": 32500.0,
   "deployed_by_ticker": {
-    "AMD": 2500.0,
-    "CCJ": 2300.0,
+    "AMD": 4000.0,
+    "CCJ": 3800.0,
     "INTC": 2500.0,
     "GOOGL": 2500.0,
     "META": 2200.0,
-    "IBM": 1800.0,
+    "IBM": 3300.0,
     "AAPL": 1800.0,
-    "TSM": 1400.0,
+    "TSM": 2900.0,
     "NVDA": 1500.0,
     "AVGO": 1500.0,
     "AMZN": 1500.0,
     "MSFT": 1500.0,
     "KMT": 1250.0,
-    "HD": 1250.0
+    "HD": 1250.0,
+    "NEM": 1000.0
   },
-  "deployed_today": 25500.0,
-  "last_bar_ts": 1789139100
+  "deployed_today": 32500.0,
+  "last_bar_ts": 1789139400
 }

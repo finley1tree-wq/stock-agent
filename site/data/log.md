@@ -1,37 +1,3 @@
-portfolio: equity $24995.33 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
-Decision: nothing at this check. 21 standing order(s) working.
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
@@ -398,3 +364,37 @@ Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $16500.00 this week
 ## 2026-09-11 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% NVDA [time stop] -> $1496.04 (-0.26%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-11 11:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AVGO [time stop] -> $1497.88 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $1502.04 (+0.14%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% MSFT [time stop] -> $1497.13 (-0.19%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% KMT [time stop] -> $1247.82 (-0.17%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 11:07 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 NEM [buy_limit @ $126.60] — strong month, weak day: resting 0.68% under $127.47 to catch the dip
+## 2026-09-11 11:09 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-11 11:10 ET (Friday) — week 2026-W37 — budget left $23993.53 (today $26500.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Only 1 position held (NEM) vs min_positions=5, and remaining_budget is large ($24k). Market is green (SPY +0.92%, DIA +0.89%) with CPI in-line, so per past-lesson pattern deploying into widely_held/momentum names beats idling. Adding AMD, CCJ, TSM, GOOGL, IBM at moderate size with protective stops to reach target position count; all are backed by concrete news/congress evidence and not extended (below 85% max_entry_range except AMD at 70%, GOOGL at 93% is borderline but justified by strong 1d move - actually reconsidering GOOGL is high in range, keeping small size as planned.
+lesson: When below min_positions on a green broad-market day, deploy across multiple widely_held/momentum names with concrete headline evidence rather than waiting for a perfect signal, but avoid buying names already >90% of day range.
+  (dropped GOOGL: 93% up today's range — resting a limit at $338.75 instead of chasing)
+- BUY $1500.00 AMD [filled] ['congress', 'momentum'] — Best-performing signal combo per track_record (congress avg_ret 0.66%, hit_rate 0.76); AMD momentum strong but not extended (70% of day range) | evidence: Rep. Cisneros disclosed AMD buy 2026-07-17; AMD +12.93% 5d, +2.3% today, congress_net_buy_pressure=2.0
+- BUY $1500.00 CCJ [filled] ['momentum', 'news'] — Reasonable entry mid-range, cooldown expired (not in cooling_off list), diversifies away from tech | evidence: CCJ at 52.1% of day range, not extended; nuclear sector theme with congress buys on INTC etc
+- BUY $1500.00 TSM [filled] ['news', 'momentum'] — Strong fundamentals narrative, widely_held sector has 1.0 hit rate historically | evidence: 'TSM Record Sales Say AI Chips Are Booming' Insider Monkey headline; +3.78% 5d, at 78% of range
+- BUY $1500.00 IBM [filled] ['news', 'momentum'] — Not extended in range, positive catalyst headline, room to run | evidence: 'Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout' referencing IBM; IBM +1.66% today, at 40.8% of day range
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% AMD @ $505.00 until 2026-09-11 — cap downside near -2% from entry
+~ WORKING stop_loss 100% CCJ @ $95.50 until 2026-09-11 — protect capital given past CCJ time-stop loss
+~ WORKING take_profit 50% TSM @ $440.00 until 2026-09-11 — lock partial gain before 30min close
+~ WORKING stop_loss 100% IBM @ $233.00 until 2026-09-11 — limit downside
+~ WORKING buy_limit $1500.00 GOOGL @ $338.75 until 2026-09-11 — wanted it, but not at the high — resting at $338.75. Momentum plus sector strength; not yet in cooldown
+~ WORKING buy_limit $500.00 AMD @ $499.80 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CCJ @ $94.52 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% TSM @ $432.86 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $419.87 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 IBM @ $230.81 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 META @ $646.77 until 2026-09-12 — strong month, weak day: resting 0.68% under $651.21 to catch the dip
+portfolio: equity $25034.89 (+0.14% on $25000.00 in) · cash $18034.89 · realised +34.89
+Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $17993.53 this week

@@ -988,7 +988,9 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.26,
+    "ret_final": -0.26,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -1013,7 +1015,10 @@
     "momentum_1m_at_entry": -12.39,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.14,
+    "ret_now": -0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMZN",
@@ -1037,7 +1042,10 @@
     "momentum_1m_at_entry": -4.52,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.14,
+    "ret_now": 0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -1061,7 +1069,10 @@
     "momentum_1m_at_entry": 0.54,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.19,
+    "ret_now": -0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "KMT",
@@ -1085,7 +1096,10 @@
     "momentum_1m_at_entry": -3.51,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.17,
+    "ret_now": -0.17,
+    "ret_src": "realised"
   },
   {
     "symbol": "HD",
@@ -1109,7 +1123,10 @@
     "momentum_1m_at_entry": -10.25,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.21,
+    "ret_now": 0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "HD",
@@ -1133,7 +1150,8 @@
     ],
     "evidence": "average cost $308.29",
     "trigger": "take_profit",
-    "hour_et": 10
+    "hour_et": 10,
+    "hold_minutes": 7
   },
   {
     "symbol": "NVDA",
@@ -1158,6 +1176,227 @@
     ],
     "evidence": "bought 30 min ago, -0.24% unrealised",
     "trigger": "time_stop",
-    "hour_et": 11
+    "hour_et": 11,
+    "hold_minutes": 33
+  },
+  {
+    "symbol": "AVGO",
+    "side": "sell",
+    "qty": 4.114291,
+    "status": "filled",
+    "price": 364.07,
+    "proceeds": 1497.88,
+    "realized_pnl": -2.12,
+    "realized_pct": -0.14,
+    "date": "2026-09-11",
+    "time_et": "11:07",
+    "ts": 1789139262,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.12% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "AMZN",
+    "side": "sell",
+    "qty": 5.876337,
+    "status": "filled",
+    "price": 255.61,
+    "proceeds": 1502.04,
+    "realized_pnl": 2.04,
+    "realized_pct": 0.14,
+    "date": "2026-09-11",
+    "time_et": "11:07",
+    "ts": 1789139262,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.16% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 3.029085,
+    "status": "filled",
+    "price": 494.25,
+    "proceeds": 1497.13,
+    "realized_pnl": -2.87,
+    "realized_pct": -0.19,
+    "date": "2026-09-11",
+    "time_et": "11:07",
+    "ts": 1789139262,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.17% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "KMT",
+    "side": "sell",
+    "qty": 42.079126,
+    "status": "filled",
+    "price": 29.65,
+    "proceeds": 1247.82,
+    "realized_pnl": -2.18,
+    "realized_pct": -0.17,
+    "date": "2026-09-11",
+    "time_et": "11:07",
+    "ts": 1789139262,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "insider",
+      "intraday_limit",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.15% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "NEM",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.898994,
+    "price": 126.6,
+    "date": "2026-09-11",
+    "time_et": "11:09",
+    "ts": 1789139100,
+    "why": "strong month, weak day: resting 0.68% under $127.47 to catch the dip",
+    "signals": [
+      "dip_entry",
+      "momentum",
+      "standing_order"
+    ],
+    "evidence": "+8.2% over the month, sitting at 57% of today's range",
+    "trigger": "buy_limit",
+    "entry_price": 126.5984,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.4,
+    "hour_et": 11,
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.12
+  },
+  {
+    "symbol": "AMD",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.911135,
+    "price": 515.26,
+    "date": "2026-09-11",
+    "time_et": "11:10",
+    "ts": 1789139446,
+    "why": "Best-performing signal combo per track_record (congress avg_ret 0.66%, hit_rate 0.76); AMD momentum strong but not extended (70% of day range)",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Cisneros disclosed AMD buy 2026-07-17; AMD +12.93% 5d, +2.3% today, congress_net_buy_pressure=2.0",
+    "entry_price": 515.16,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 6.67,
+    "hour_et": 11,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 15.39417,
+    "price": 97.44,
+    "date": "2026-09-11",
+    "time_et": "11:10",
+    "ts": 1789139446,
+    "why": "Reasonable entry mid-range, cooldown expired (not in cooling_off list), diversifies away from tech",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "CCJ at 52.1% of day range, not extended; nuclear sector theme with congress buys on INTC etc",
+    "entry_price": 97.42,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -1.63,
+    "hour_et": 11,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.465351,
+    "price": 432.86,
+    "date": "2026-09-11",
+    "time_et": "11:10",
+    "ts": 1789139446,
+    "why": "Strong fundamentals narrative, widely_held sector has 1.0 hit rate historically",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "'TSM Record Sales Say AI Chips Are Booming' Insider Monkey headline; +3.78% 5d, at 78% of range",
+    "entry_price": 432.77,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.84,
+    "hour_et": 11,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.303909,
+    "price": 237.95,
+    "date": "2026-09-11",
+    "time_et": "11:10",
+    "ts": 1789139446,
+    "why": "Not extended in range, positive catalyst headline, room to run",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "'Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout' referencing IBM; IBM +1.66% today, at 40.8% of day range",
+    "entry_price": 237.9,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.81,
+    "hour_et": 11,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
