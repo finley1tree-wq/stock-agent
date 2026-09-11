@@ -1,30 +1,3 @@
-- BUY $2000.00 AAPL [filled] ['momentum', 'news'] — Strong momentum widely-held name, existing limit at 330.5 unfilled since price ran up; buy some now at market given breakout continuation | evidence: AAPL +2.31% today, +10.54% 1m, pct_of_day_range 78.8 not yet extreme; widely_held sector best hit rate 0.64
-- BUY $1500.00 SPY [filled] ['momentum', 'etf_default'] — Broad market green day, fill toward min_positions with index exposure while individual names cool down | evidence: SPY +0.99% today, DIA +1.02%, broad market green per CPI in-line headline
-- BUY $1500.00 GOOGL [filled] ['momentum', 'news'] — Strong widely-held momentum name, not extreme in range | evidence: GOOGL +2.43% today, pct_of_day_range 71.0, headline on Republican midterm wipeout implications for tech
-  (dropped trigger BE stop_loss: not held)
-~ WORKING stop_loss 100% AAPL @ $325.00 until 2026-09-11 — protect against reversal below today's low
-~ WORKING stop_loss 100% GOOGL @ $334.00 until 2026-09-11 — protect against reversal below today's low
-~ WORKING stop_loss 100% SPY @ $760.00 until 2026-09-11 — protect index position
-~ WORKING buy_limit $2000.00 BE @ $272.25 until 2026-09-11 — wanted it, but not at the high — resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0
-~ WORKING buy_limit $500.00 AAPL @ $324.16 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% SPY @ $766.64 until 2026-09-16 — close 100% at +0.1% over the average cost
-~ WORKING buy_limit $500.00 SPY @ $742.53 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $330.53 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25042.37 (+0.17% on $25000.00 in) · cash $20043.37 · realised +43.37
-Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $20000.00 this week
-- BUY $2000.00 SPY [buy_limit @ $765.12] — wanted it, but not at the high — resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down
-## 2026-09-11 12:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- BUY $1000.00 INTC [buy_limit @ $102.37] — strong month, weak day: resting 0.92% under $103.32 to catch the dip
-## 2026-09-11 12:30 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 1 standing order(s) on INTC: position closed)
-- SELL 100% INTC [stop_loss @ $102.70] -> $1003.28 (+0.33%) — close it all at -1.2% under the average cost
-## 2026-09-11 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-11 12:39 ET (Friday) — week 2026-W37 — budget left $18003.28 (today $40500.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
-  (CYBN excluded: no security information)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain: Below min_positions (3 of 5) with $18k budget available on a green broad-market day (SPY +0.96%, AAPL/GOOGL/IBM all up). Adding AMD (congress cooldown just cleared, top-ranked signal), TSM and IBM (widely-held, moderate range position, positive news) to reach 5 positions with concrete evidence-backed entries, avoiding names already >85% of day range.
 lesson: When below min_positions on a green day with a cooldown about to clear, buy the moment it clears rather than waiting extra checks - AMD's congress+momentum combo is the best-ranked signal pair in track record.
 - BUY $1500.00 AMD [filled] ['congress', 'momentum'] — Cooling-off expired, congress signal ranked #1 in signal_ranking_best_to_worst, AMD momentum strong | evidence: Rep. Gilbert Ray Cisneros and Rick W. Allen disclosed AMD buys; congress net buy pressure 2.0, +12.23% 5d momentum, AMD situational-awareness options news 2026-09-11
 - BUY $1500.00 TSM [filled] ['momentum', 'news'] — Semis theme momentum, reasonable entry point mid-range | evidence: TSM +3.73% 5d, +1.06% today, day range 56.4% (not chasing), WSJ Tech/Media roundup mentions semis strength
@@ -398,3 +371,30 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $322.72 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25138.00 (+0.55% on $25000.00 in) · cash $8645.39 · realised +145.39
 Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $8502.61 this week
+
+## 2026-09-11 15:01 ET (Friday) — week 2026-W37 — budget left $8502.61 (today $113800.00 put to work, 52 buys, 45 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAkbFPNyXJmEUHNWjmA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25135.17 (+0.54% on $25000.00 in) · cash $8645.39 · realised +145.39
+Decision: nothing at this check. 27 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- BUY $2000.00 HUBB [buy_limit @ $462.64] — wanted it, but not at the high — resting at $462.64. top congress pressure ticker in list, momentum confirmed
+## 2026-09-11 15:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-11 15:04 ET (Friday) — week 2026-W37 — budget left $6502.61 (today $115800.00 put to work, 53 buys, 45 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAxhwnygxND4xJ8r5ig'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $6,503 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.7% over the month; 52% of today's range
+~ WORKING take_profit 100% TSM @ $433.42 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $429.58 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $419.35 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25128.79 (+0.52% on $25000.00 in) · cash $3645.39 · realised +145.39
+Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $3502.61 this week

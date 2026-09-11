@@ -3276,7 +3276,7 @@
    "ticker": "HUBB",
    "kind": "buy_limit",
    "price": 462.6445,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 12:58",
    "created_ts": 1789145898,
    "why": "wanted it, but not at the high \u2014 resting at $462.64. top congress pressure ticker in list, momentum confirmed",
@@ -3287,7 +3287,8 @@
     "patience"
    ],
    "good_until": "2026-09-11",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-11 15:04"
   },
   {
    "id": "e3622100",
@@ -4777,7 +4778,109 @@
    ],
    "good_until": "2026-09-16",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "cc56f1bf",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 463.9215,
+   "status": "working",
+   "created": "2026-09-11 15:04",
+   "created_ts": 1789153445,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $462.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cb975f53",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 459.4385,
+   "status": "working",
+   "created": "2026-09-11 15:04",
+   "created_ts": 1789153445,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $462.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c8246824",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 448.7608,
+   "status": "working",
+   "created": "2026-09-11 15:04",
+   "created_ts": 1789153445,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $462.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "a1d51542",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 433.4181,
+   "status": "working",
+   "created": "2026-09-11 15:04",
+   "created_ts": 1789153448,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $432.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "841fa941",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 429.5791,
+   "status": "working",
+   "created": "2026-09-11 15:04",
+   "created_ts": 1789153448,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $432.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1b3c5286",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 419.3504,
+   "status": "working",
+   "created": "2026-09-11 15:04",
+   "created_ts": 1789153448,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $432.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-11 15:01"
+ "updated": "2026-09-11 15:04"
 }

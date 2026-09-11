@@ -1088,3 +1088,19 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25135.17 (+0.54% on $25000.00 in) · cash $8645.39 · realised +145.39
 Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- BUY $2000.00 HUBB [buy_limit @ $462.64] — wanted it, but not at the high — resting at $462.64. top congress pressure ticker in list, momentum confirmed
+## 2026-09-11 15:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-11 15:04 ET (Friday) — week 2026-W37 — budget left $6502.61 (today $115800.00 put to work, 53 buys, 45 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAxhwnygxND4xJ8r5ig'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $6,503 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.7% over the month; 52% of today's range
+~ WORKING take_profit 100% TSM @ $433.42 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $429.58 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $419.35 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25128.79 (+0.52% on $25000.00 in) · cash $3645.39 · realised +145.39
+Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $3502.61 this week

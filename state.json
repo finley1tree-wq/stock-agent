@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 16497.39,
+  "spent": 21497.39,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -9,7 +9,7 @@
     "META": 8.4,
     "NVDA": 3.96,
     "AVGO": 2.12,
-    "TSM": 2.96,
+    "TSM": 3002.96,
     "GOOGL": 1501.13,
     "AMD": 3002.28,
     "IBM": 0.74,
@@ -17,7 +17,8 @@
     "NEM": 3001.39,
     "CHRW": 1.4,
     "MRK": 3001.48,
-    "AAPL": 3001.47
+    "AAPL": 3001.47,
+    "HUBB": 2000.0
   },
   "orders": [
     {
@@ -2251,11 +2252,48 @@
         "momentum"
       ],
       "evidence": "+10.1% over the month; 64% of today's range"
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.322974,
+      "price": 462.64,
+      "date": "2026-09-11",
+      "time_et": "15:04",
+      "ts": 1789153200,
+      "why": "wanted it, but not at the high \u2014 resting at $462.64. top congress pressure ticker in list, momentum confirmed",
+      "signals": [
+        "congress",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "congress net buy pressure 3.0 (April McClain Delaney buys disclosed 2026-09-09), +3.01% today, 91.1% of day range but strong trend",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.939361,
+      "price": 432.32,
+      "date": "2026-09-11",
+      "time_et": "15:04",
+      "ts": 1789153448,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.7% over the month; 52% of today's range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 16497.39,
-  "orders_today": 52,
+  "spent_today": 21497.39,
+  "orders_today": 54,
   "sells_today": 45,
   "sold_today": [
     "INTC",
@@ -2283,10 +2321,10 @@
     "TNON",
     "MO"
   ],
-  "last_check_ts": 1789153368,
+  "last_check_ts": 1789153448,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789153283,
-  "last_decision_ts": 1789153286,
+  "last_publish_ts": 1789153448,
+  "last_decision_ts": 1789153448,
   "sold_ts": {
     "INTC": 1789149700,
     "GOOGL": 1789145672,
@@ -2313,7 +2351,7 @@
     "TNON": 1789152064,
     "MO": 1789152987
   },
-  "deployed": 113800.0,
+  "deployed": 118800.0,
   "deployed_by_ticker": {
     "AMD": 11500.0,
     "CCJ": 3800.0,
@@ -2322,7 +2360,7 @@
     "META": 5200.0,
     "IBM": 4800.0,
     "AAPL": 9800.0,
-    "TSM": 7400.0,
+    "TSM": 10400.0,
     "NVDA": 1500.0,
     "AVGO": 1500.0,
     "AMZN": 1500.0,
@@ -2338,39 +2376,45 @@
     "TPL": 6000.0,
     "DGICA": 3000.0,
     "TNON": 3000.0,
-    "MO": 3000.0
+    "MO": 3000.0,
+    "HUBB": 2000.0
   },
-  "deployed_today": 113800.0,
+  "deployed_today": 118800.0,
   "last_bar_ts": 1789153200,
   "book_px": {
-    "665962b8": 462.6445,
     "9215e0dd": 339.563,
+    "cc56f1bf": 463.9215,
     "ff6c5874": 333.5717,
+    "a1d51542": 433.4181,
     "b493b520": 126.598,
     "2ea71340": 144.6008,
-    "33c2afab": 519.8925,
-    "cb9005c7": 143.2308,
+    "841fa941": 429.5791,
+    "1904cbee": 336.7209,
     "6b3decac": 330.5241,
     "5ba8a2de": 330.5,
-    "1904cbee": 336.7209,
-    "58702917": 103.96,
+    "cb9005c7": 143.2308,
+    "33c2afab": 519.8925,
+    "cb975f53": 459.4385,
     "d375c5a7": 429.0,
-    "cc2d6d63": 102.1765,
     "8a681bb6": 512.4986,
+    "cc2d6d63": 102.1765,
+    "58702917": 103.96,
     "e418dfd6": 124.9256,
     "c77ba476": 272.247,
     "a3d09bd3": 216.0,
-    "532b86e9": 171.2706,
-    "6a60a8a6": 236.0,
     "7d6b8f4e": 505.0,
+    "6a60a8a6": 236.0,
     "6360b55f": 100.3465,
-    "8a2efe46": 139.8837,
     "a2dd2bac": 502.2466,
+    "1b3c5286": 419.3504,
+    "8a2efe46": 139.8837,
     "4246542e": 322.719,
-    "3db3fee6": 122.3364,
     "6283d4ff": 328.5875,
+    "c8246824": 448.7608,
+    "3db3fee6": 122.3364,
+    "532b86e9": 171.2706,
     "ba4576bb": 310.432
   },
-  "next_check_minutes": null,
+  "next_check_minutes": 6,
   "autopiloted": true
 }
