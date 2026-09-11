@@ -1,29 +1,3 @@
-lesson: At the final check of a red/choppy day with zero positions and <1hr to close, holding cash is correct - forced 30-min round trips into weakness have consistently lost money this session.
-~ WORKING buy_limit $998.85 BE @ $257.06 until 2026-09-15 — strong month, weak day: resting 1.5% under $260.97 to catch the dip
-~ WORKING buy_limit $998.85 GAIA @ $1.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $1.47 to catch the dip
-~ WORKING buy_limit $998.85 DXYZ @ $31.66 until 2026-09-15 — strong month, weak day: resting 1.5% under $32.14 to catch the dip
-~ WORKING buy_limit $998.85 META @ $634.54 until 2026-09-15 — strong month, weak day: resting 1.5% under $644.20 to catch the dip
-~ WORKING buy_limit $998.85 AMD @ $497.16 until 2026-09-15 — strong month, weak day: resting 1.5% under $504.73 to catch the dip
-~ WORKING buy_limit $998.85 INTC @ $99.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $100.96 to catch the dip
-portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
-Decision: nothing at this check. 6 standing order(s) working.
-
-## 2026-09-10 15:16 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-brain: Last check of the day (15:16 ET, close 16:00), zero positions, broad red tape (DIA -0.76%, SPY -0.62%, most names in bottom third of day range) and PPI/yield-driven risk-off headlines. Any new buy would be forced-closed within 30 minutes into this weakness, matching the last 8 lessons that all validated holding cash at this exact stage. No fresh concrete evidence justifies a same-day round trip here.
-lesson: At the final check of a red/choppy day with zero positions and under an hour to close, holding cash beats forcing a 30-minute round trip - this pattern has held for 8+ consecutive checks today.
-portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
-Decision: nothing at this check. 6 standing order(s) working.
-
-## 2026-09-10 15:20 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00, 3 buys, 7 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
   (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
   (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
   (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
@@ -398,3 +372,29 @@ Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $13503.28 this week
 - SELL 100% SPY [time stop] -> $3499.93 (-0.00%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% GOOGL [time stop] -> $1498.87 (-0.08%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-11 12:54 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 12:58 ET (Friday) — week 2026-W37 — budget left $24001.19 (today $46000.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Below min_positions (only CHRW held) with 96% cash idle and multiple green-day, high-conviction names with concrete evidence: BE (breakout+congress), AAPL (news+momentum), MRK (fresh insider signal, undervalued), HUBB (top congress buy pressure), KMT (CEO insider buy). Track record shows congress signal is best-ranked (avg 0.46%, hit rate 0.68), so leaning into HUBB/BE congress exposure. Adding protective stops on the more extended names (BE, HUBB) and a partial take-profit on AAPL since it's near day highs.
+lesson: When idle cash is 96% and multiple names have concrete congress/insider/news evidence on a green day, deploy across 5+ names in size ($1500-2500 each) rather than trickling in small buys one at a time.
+  (dropped AAPL: sold 5 min ago, cooling off)
+  (dropped BE: 88% up today's range — resting a limit at $272.25 instead of chasing)
+  (dropped HUBB: 91% up today's range — resting a limit at $462.64 instead of chasing)
+- BUY $1800.00 MRK [filled] ['insider', 'news'] — undervalued vs peers, decent momentum with room to run | evidence: insider net buy pressure 1.0 (no notable insider sells), price at 63.3% of range, +9.19% 1m momentum
+- BUY $1500.00 KMT [filled] ['insider', 'congress'] — fresh insider buy from CEO plus modest momentum | evidence: CEO Chowbey Sanjay bought 7000 shares at $29.10 on 2026-09-10 (filed 09-11); +1.68% today
+  (dropped trigger BE stop_loss: not held)
+  (dropped trigger AAPL take_profit: not held)
+  (dropped trigger HUBB stop_loss: not held)
+  (dropped trigger BE buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2000.00 HUBB @ $462.64 until 2026-09-11 — wanted it, but not at the high — resting at $462.64. top congress pressure ticker in list, momentum confirmed
+~ WORKING take_profit 100% MRK @ $145.55 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% MRK @ $144.18 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 MRK @ $140.81 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KMT @ $29.74 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% KMT @ $29.35 until 2026-09-16 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 KMT @ $28.74 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25043.79 (+0.18% on $25000.00 in) · cash $20744.58 · realised +44.58
+Done: 0 sell(s), 2 buy(s); 26 order(s) working; budget left $20701.19 this week

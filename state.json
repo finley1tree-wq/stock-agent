@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 998.81,
+  "spent": 4298.81,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -10,12 +10,13 @@
     "NVDA": 3.96,
     "AVGO": 2.12,
     "MSFT": 2.87,
-    "KMT": 2.18,
+    "KMT": 1502.18,
     "TSM": 1.48,
     "GOOGL": 1.13,
     "AMD": 0.76,
     "IBM": 0.74,
-    "CHRW": 1000.0
+    "CHRW": 1000.0,
+    "MRK": 1800.0
   },
   "orders": [
     {
@@ -1451,11 +1452,45 @@
       ],
       "evidence": "bought 30 min ago, -0.06% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MRK",
+      "notional": 1800.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.400193,
+      "price": 145.16,
+      "date": "2026-09-11",
+      "time_et": "12:58",
+      "ts": 1789145898,
+      "why": "undervalued vs peers, decent momentum with room to run",
+      "signals": [
+        "insider",
+        "news"
+      ],
+      "evidence": "insider net buy pressure 1.0 (no notable insider sells), price at 63.3% of range, +9.19% 1m momentum"
+    },
+    {
+      "symbol": "KMT",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 50.631332,
+      "price": 29.63,
+      "date": "2026-09-11",
+      "time_et": "12:58",
+      "ts": 1789145898,
+      "why": "fresh insider buy from CEO plus modest momentum",
+      "signals": [
+        "insider",
+        "congress"
+      ],
+      "evidence": "CEO Chowbey Sanjay bought 7000 shares at $29.10 on 2026-09-10 (filed 09-11); +1.68% today"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 998.81,
-  "orders_today": 28,
+  "spent_today": 4298.81,
+  "orders_today": 30,
   "sells_today": 26,
   "sold_today": [
     "INTC",
@@ -1475,10 +1510,10 @@
     "NEM",
     "SPY"
   ],
-  "last_check_ts": 1789145671,
+  "last_check_ts": 1789145898,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
   "last_publish_ts": 1789145671,
-  "last_decision_ts": 1789144783,
+  "last_decision_ts": 1789145898,
   "sold_ts": {
     "INTC": 1789144502,
     "GOOGL": 1789145672,
@@ -1497,7 +1532,7 @@
     "NEM": 1789139844,
     "SPY": 1789145672
   },
-  "deployed": 46000.0,
+  "deployed": 49300.0,
   "deployed_by_ticker": {
     "AMD": 5500.0,
     "CCJ": 3800.0,
@@ -1511,14 +1546,15 @@
     "AVGO": 1500.0,
     "AMZN": 1500.0,
     "MSFT": 1500.0,
-    "KMT": 1250.0,
+    "KMT": 2750.0,
     "HD": 1250.0,
     "NEM": 1000.0,
     "SPY": 3500.0,
-    "CHRW": 1000.0
+    "CHRW": 1000.0,
+    "MRK": 1800.0
   },
-  "deployed_today": 46000.0,
-  "last_bar_ts": 1789145400,
+  "deployed_today": 49300.0,
+  "last_bar_ts": 1789145700,
   "book_px": {
     "66618da4": 646.7737,
     "e87d920e": 493.0083,
