@@ -1,21 +1,3 @@
-## 2026-09-11 14:00 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 1 standing order(s) on INTC: position closed)
-- SELL 100% INTC [stop_loss @ $103.48] -> $2998.48 (-0.05%) — close it all at -1.2% under the average cost
-## 2026-09-11 14:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on TPL: position closed)
-- SELL 100% TPL [take_profit @ $369.73] -> $3011.25 (+0.38%) — close 100% at +0.4% over the average cost
-## 2026-09-11 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-11 14:07 ET (Friday) — week 2026-W37 — budget left $13006.82 (today $73300.00 put to work, 38 buys, 33 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (CYBN excluded: no security information)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex6dWpKZyLdvRsn5w446'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,007 idle, so opened 4: CHRW, MRK, MSFT, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 CHRW [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying ({'who': 'April McClain Delaney', 'type': 'sell', 'amount': '$100,001 - $250,000', 'disclosed': '2026-09-09'}, {'who': 'April McClain Delaney', 'type': 'buy', 'amount': '$1,001 - $15,0
 - BUY $3000.00 MRK [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +9.3% over the month; 73% of today's range
 - BUY $3000.00 MSFT [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +0.6% over the month; 45% of today's range
@@ -398,3 +380,21 @@ portfolio: equity $25154.29 (+0.62% on $25000.00 in) · cash $16157.47 · realis
 Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-11 15:39 ET (Friday) — week 2026-W37 — budget left $16014.69 (today $130800.00 put to work, 58 buys, 54 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexDeHaBx4zFdfkAby6J7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25156.89 (+0.63% on $25000.00 in) · cash $16157.47 · realised +157.47
+Decision: nothing at this check. 9 standing order(s) working.
