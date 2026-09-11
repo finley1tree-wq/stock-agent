@@ -620,3 +620,9 @@ lesson: When below min_positions on a green broad-market day, deploy across mult
 ~ WORKING buy_limit $1000.00 META @ $646.77 until 2026-09-12 — strong month, weak day: resting 0.68% under $651.21 to catch the dip
 portfolio: equity $25034.89 (+0.14% on $25000.00 in) · cash $18034.89 · realised +34.89
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $17993.53 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $432.64] -> $1499.26 (-0.05%) — close it all at -0.6% under the average cost
+## 2026-09-11 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $127.08] -> $1003.77 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-09-11 11:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders

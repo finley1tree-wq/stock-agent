@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 7006.47,
+  "spent": 4503.44,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 1500.19,
@@ -12,9 +12,8 @@
     "AVGO": 2.12,
     "MSFT": 2.87,
     "KMT": 2.18,
-    "NEM": 1000.0,
     "AMD": 1500.0,
-    "TSM": 1500.0,
+    "TSM": 0.74,
     "IBM": 1500.0
   },
   "orders": [
@@ -1045,12 +1044,54 @@
         "momentum"
       ],
       "evidence": "'Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout' referencing IBM; IBM +1.66% today, at 40.8% of day range"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 3.465351,
+      "status": "filled",
+      "price": 432.64,
+      "proceeds": 1499.26,
+      "realized_pnl": -0.74,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "11:15",
+      "ts": 1789139700,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $432.86",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 7.898994,
+      "status": "filled",
+      "price": 127.08,
+      "proceeds": 1003.77,
+      "realized_pnl": 3.77,
+      "realized_pct": 0.38,
+      "date": "2026-09-11",
+      "time_et": "11:17",
+      "ts": 1789139700,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $126.6",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 7006.47,
+  "spent_today": 4503.44,
   "orders_today": 19,
-  "sells_today": 14,
+  "sells_today": 16,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1065,11 +1106,12 @@
     "AVGO",
     "AMZN",
     "MSFT",
-    "KMT"
+    "KMT",
+    "NEM"
   ],
-  "last_check_ts": 1789139686,
-  "book_fp": "[[\"16c7ea3a\", 95.5], [\"1e2abdf1\", 499.8022], [\"23b20e4c\", 19.0529], [\"310a4419\", 127.076], [\"32e73b24\", 505.0], [\"46d00ae6\", 230.8115], [\"532b86e9\", 171.2706], [\"5b958455\", 233.0], [\"66618da4\", 646.7737], [\"755bb002\", 125.41], [\"855ee0cf\", 419.8742], [\"8def27ff\", 94.5168], [\"b66024ed\", 102.3671], [\"b8a68c31\", 432.86], [\"ba4576bb\", 310.432], [\"d49da26c\", 440.0], [\"d554fa02\", 122.802], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789139501,
+  "last_check_ts": 1789139904,
+  "book_fp": "[[\"16c7ea3a\", 95.5], [\"1e2abdf1\", 499.8022], [\"23b20e4c\", 19.0529], [\"32e73b24\", 505.0], [\"46d00ae6\", 230.8115], [\"532b86e9\", 171.2706], [\"5b958455\", 233.0], [\"66618da4\", 646.7737], [\"8def27ff\", 94.5168], [\"b66024ed\", 102.3671], [\"ba4576bb\", 310.432], [\"f3b06472\", 338.7473]]",
+  "last_publish_ts": 1789139843,
   "last_decision_ts": 1789139446,
   "sold_ts": {
     "INTC": 1789134010,
@@ -1077,7 +1119,7 @@
     "CCJ": 1789134443,
     "AMD": 1789135504,
     "IBM": 1789135626,
-    "TSM": 1789136274,
+    "TSM": 1789139723,
     "META": 1789136547,
     "AAPL": 1789136668,
     "HD": 1789138171,
@@ -1085,7 +1127,8 @@
     "AVGO": 1789139263,
     "AMZN": 1789139263,
     "MSFT": 1789139263,
-    "KMT": 1789139263
+    "KMT": 1789139263,
+    "NEM": 1789139844
   },
   "deployed": 32500.0,
   "deployed_by_ticker": {
@@ -1106,5 +1149,5 @@
     "NEM": 1000.0
   },
   "deployed_today": 32500.0,
-  "last_bar_ts": 1789139400
+  "last_bar_ts": 1789139700
 }

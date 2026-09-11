@@ -1398,5 +1398,53 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 3.465351,
+    "status": "filled",
+    "price": 432.64,
+    "proceeds": 1499.26,
+    "realized_pnl": -0.74,
+    "realized_pct": -0.05,
+    "date": "2026-09-11",
+    "time_et": "11:15",
+    "ts": 1789139700,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $432.86",
+    "trigger": "stop_loss",
+    "hour_et": 11
+  },
+  {
+    "symbol": "NEM",
+    "side": "sell",
+    "qty": 7.898994,
+    "status": "filled",
+    "price": 127.08,
+    "proceeds": 1003.77,
+    "realized_pnl": 3.77,
+    "realized_pct": 0.38,
+    "date": "2026-09-11",
+    "time_et": "11:17",
+    "ts": 1789139700,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "dip_entry",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $126.6",
+    "trigger": "take_profit",
+    "hour_et": 11
   }
 ]
