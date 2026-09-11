@@ -204,3 +204,23 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 .working .w .lvl { text-align: right; font-variant-numeric: tabular-nums; }
 .working .w .away { font-size: 12px; color: var(--muted); }
 .working .w .away.near { color: var(--amber); font-weight: 600; }
+
+/* --- chart overlays: the volume profile is painted on our own canvas above the chart --- */
+.t-chart { position: relative; }
+.t-liq { position: absolute; inset: 0; pointer-events: none; z-index: 2; }
+.t-legend { position: absolute; left: 10px; top: 8px; z-index: 3; pointer-events: none;
+  background: rgba(10,14,19,.78); border: 1px solid #1f2a38; border-radius: 6px;
+  padding: 4px 8px; font-size: 11px; color: #8b98a9; letter-spacing: .01em; }
+.t-legend b { color: #e8edf4; font-weight: 600; }
+.t-legend b.num { font-variant-numeric: tabular-nums; }
+/* the hold clock: a position is sold automatically when this reaches zero */
+.t-clock { margin-left: 10px; font-size: 11px; font-variant-numeric: tabular-nums;
+  padding: 2px 7px; border-radius: 999px; background: rgba(10,132,255,.15);
+  color: #0a84ff; border: 1px solid rgba(10,132,255,.35); white-space: nowrap; }
+.t-clock.soon { background: rgba(255,179,64,.15); color: #ffb340; border-color: rgba(255,179,64,.4); }
+.t-clock.over { background: rgba(255,69,58,.15); color: #ff453a; border-color: rgba(255,69,58,.4); }
+
+/* the price ticks: a brief flash so a live update is visible without being noisy */
+@keyframes sa-pulse { 0% { opacity: .45; } 100% { opacity: 1; } }
+.t-price > .num.pulse { animation: sa-pulse .35s ease-out; }
+@media (prefers-reduced-motion: reduce) { .t-price > .num.pulse { animation: none; } }

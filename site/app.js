@@ -10,7 +10,8 @@
   const PALETTE = ["#0a84ff", "#30d158", "#ffb340", "#bf5af2", "#64d2ff", "#ff9f0a", "#ff375f", "#5e5ce6", "#ac8e68", "#98989d"];
   const state = { data: {}, quotes: {}, custom: [], tab: "holdings", timer: null };
   window.SA = { positions: () => (state.data.portfolio && state.data.portfolio.positions) || {}, journal: () => state.data.journal || [], quote: (s) => state.quotes[s] || null,
-    working: () => ((state.data.signals || {}).working_orders) || [] };
+    working: () => ((state.data.signals || {}).working_orders) || [],
+    guardrails: () => ((state.data.signals || {}).guardrails) || {} };
 
   try { state.custom = JSON.parse(localStorage.getItem("sa.custom") || "[]"); } catch (e) { state.custom = []; }
   const saveCustom = () => { try { localStorage.setItem("sa.custom", JSON.stringify(state.custom)); } catch (e) {} };

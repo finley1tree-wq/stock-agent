@@ -1,5 +1,15 @@
 /* Full-screen trading view: candles/line, volume, SMA/VWAP, crosshair readout, buy-in line with profit/loss zones,
-   agent buy/sell markers, pan/zoom. Uses TradingView Lightweight Charts 4.x (loaded in index.html). */
+   agent buy/sell markers, pan/zoom. Uses TradingView Lightweight Charts 4.x (loaded in index.html).
+
+   Four layers answer "where is this thing actually going to move":
+     LIQUIDITY  a volume profile drawn down the right edge - how much stock changed hands at each
+                price. The fat bar is the Point of Control, the price the market keeps coming back
+                to; the shaded band is the value area holding 70% of the volume. Price leaving the
+                band and price returning to the POC are the two things worth watching.
+     LEVELS     today's open, yesterday's close, and the running high and low of the session.
+     CLOCK      every position is force-closed after max_hold_minutes, so an open position shows a
+                live countdown and the bar where it will be sold.
+     BUY-IN     the average cost, with the live gain or loss written into the axis label. */
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
   const money = (v, d = 2) => v == null || isNaN(v) ? "—" : (v < 0 ? "-" : "") + "$" + Math.abs(v).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
@@ -13,7 +23,7 @@
   const fmtDay = (ms) => new Date(ms).toLocaleDateString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", year: "2-digit" });
 
   const HINT = `<span class="dim">Move over the chart for O / H / L / C / volume and P/L at that price. Drag to pan, pinch or scroll to zoom.</span>`;
-  const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
+  const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true, liq: true, levels: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
   const prefs = (() => { try { return JSON.parse(localStorage.getItem("sa.trade") || "{}"); } catch (e) { return {}; } })();
   Object.assign(T, { range: prefs.range || "1d", type: prefs.type || "candles", show: { ...T.show, ...(prefs.show || {}) },
     intervals: prefs.intervals || { "1d": "1m", "5d": "5m" } });
@@ -31,18 +41,18 @@
       <div class="t-head">
         <button class="t-close" aria-label="Close">×</button>
         <div class="t-title"><span class="t-sym">${esc(sym)}</span><span class="t-name" id="t-name"></span></div>
-        <div class="t-price"><span class="num" id="t-price">…</span><span id="t-chg" class="t-chg"></span></div>
+        <div class="t-price"><span class="num" id="t-price">…</span><span id="t-chg" class="t-chg"></span><span id="t-clock" class="t-clock" hidden></span></div>
       </div>
       <div class="t-bar">
         <div class="chips" id="t-ranges">${RANGES.map(r => `<button data-r="${r}" aria-pressed="${r === T.range}">${RLABEL[r]}</button>`).join("")}</div>
         <div class="chips" id="t-intervals"></div>
         <div class="chips" id="t-type"><button data-t="candles" aria-pressed="${T.type === "candles"}">Candles</button><button data-t="line" aria-pressed="${T.type === "line"}">Line</button></div>
         <div class="chips" id="t-toggles">
-          <button data-k="vol" aria-pressed="${T.show.vol}">Vol</button><button data-k="sma20" aria-pressed="${T.show.sma20}">SMA 20</button><button data-k="sma50" aria-pressed="${T.show.sma50}">SMA 50</button><button data-k="vwap" aria-pressed="${T.show.vwap}">VWAP</button><button data-k="buyin" aria-pressed="${T.show.buyin}">Buy-in</button><button data-k="orders" aria-pressed="${T.show.orders}">Orders</button>
+          <button data-k="vol" aria-pressed="${T.show.vol}">Vol</button><button data-k="sma20" aria-pressed="${T.show.sma20}">SMA 20</button><button data-k="sma50" aria-pressed="${T.show.sma50}">SMA 50</button><button data-k="vwap" aria-pressed="${T.show.vwap}">VWAP</button><button data-k="buyin" aria-pressed="${T.show.buyin}">Buy-in</button><button data-k="orders" aria-pressed="${T.show.orders}">Orders</button><button data-k="liq" aria-pressed="${T.show.liq}" title="Volume profile: how much stock traded at each price">Liquidity</button><button data-k="levels" aria-pressed="${T.show.levels}" title="Session open, prior close, day high and low">Levels</button>
         </div>
       </div>
       <div class="t-read" id="t-read"><span class="dim">Move over the chart for O / H / L / C / volume and P/L at that price. Drag to pan, pinch or scroll to zoom.</span></div>
-      <div class="t-chart" id="t-chart"></div>
+      <div class="t-chart" id="t-chart"><canvas id="t-liq" class="t-liq" aria-hidden="true"></canvas><div class="t-legend" id="t-legend" hidden></div></div>
       <div class="t-foot">
         <div class="t-entry">
           <label>Buy-in <input id="t-entry" type="number" step="0.01" inputmode="decimal" aria-label="Buy-in price"></label>
@@ -67,17 +77,93 @@
     document.addEventListener("visibilitychange", onVis);
     load();
   }
-  function onVis() { if (!document.hidden && $("#t-chart")) load(true); }
-  // Without this the candles never move: the chart was drawn once and then left alone. Intraday
-  // ranges refresh every 15 seconds, longer ones every minute, and a hidden tab refreshes nothing.
+  function onVis() { if (!document.hidden && $("#t-chart")) { load(true); pollPrice(); } }
+
+  // ---------------------------------------------------------------------------------------------
+  // LIVE CANDLES. Refetching the whole series and rebuilding the chart every 15 seconds is why the
+  // view looked frozen and then jumped: the chart object was destroyed and recreated, losing the
+  // animation and the user's place. A real trading view does two different things at two different
+  // speeds, so that is what this does now:
+  //   every ~2s   poll the price alone and UPDATE the forming candle in place (series.update) -
+  //               the bar grows, its high and low stretch, the volume bar follows, nothing redraws
+  //   every ~30s  refetch the bars to true up the OHLC the exchange actually printed, and to pick
+  //               up bars that closed while we were extrapolating
+  const BAR_SECONDS = { "1m": 60, "2m": 120, "5m": 300, "15m": 900, "30m": 1800, "60m": 3600, "1h": 3600, "1d": 86400, "1wk": 604800, "1mo": 2592000 };
+  function barSeconds() { return BAR_SECONDS[(T.data && T.data.interval) || ""] || 60; }
+
+  async function pollPrice() {
+    if (document.hidden || !T.sym || !T.chart || !T.data) return;
+    let q = null;
+    try {
+      const r = await fetch("/api/quotes?symbols=" + encodeURIComponent(T.sym), { cache: "no-store" });
+      if (r.ok) q = ((await r.json()).quotes || [])[0];
+    } catch (e) { return; }
+    const price = q && +q.price;
+    if (!(price > 0) || !T.series.main) return;
+    applyLivePrice(price, q);
+  }
+
+  function applyLivePrice(price, q) {
+    const bars = T.data.bars; if (!bars || !bars.length) return;
+    const sec = barSeconds(), nowS = Math.floor(Date.now() / 1000);
+    const last = bars[bars.length - 1];
+    const lastStart = Math.floor(last.t / 1000);
+    let bar;
+    if (nowS - lastStart >= sec) {
+      // the forming bar closed while we were watching: open a new one at this price
+      bar = { t: (lastStart + Math.floor((nowS - lastStart) / sec) * sec) * 1000,
+              o: price, h: price, l: price, c: price, v: 0 };
+      bars.push(bar);
+      if (bars.length > 3000) bars.shift();
+    } else {
+      bar = last;
+      bar.c = price;
+      if (price > bar.h) bar.h = price;
+      if (price < bar.l) bar.l = price;
+    }
+    const time = Math.floor(bar.t / 1000);
+    try {
+      if (T.type === "candles") T.series.main.update({ time, open: bar.o, high: bar.h, low: bar.l, close: bar.c });
+      else T.series.main.update({ time, value: bar.c });
+      if (T.series.vol) {
+        const prev = bars.length > 1 ? bars[bars.length - 2].c : bar.o;
+        T.series.vol.update({ time, value: bar.v, color: bar.c >= prev ? "rgba(48,209,88,.35)" : "rgba(255,69,58,.35)" });
+      }
+    } catch (e) { return; }          // a stale time (out of order) is not worth throwing over
+    T.lastPrice = price;
+    T.data.price = price;
+    if (q) { if (q.changePct != null) T.data.change = +q.changePct; T.quote = q; }
+    paintHeader(price, q);
+    drawEntry();                      // the buy-in label carries the live gain, so it moves too
+    drawLevels();                     // the day's high and low move while the session runs
+    drawLiquidity();
+    if (!T.cursorPrice) updatePL(price);
+  }
+
+  function paintHeader(price, q) {
+    const el = $("#t-price"); if (!el) return;
+    el.textContent = money(price);
+    el.classList.remove("pulse"); void el.offsetWidth; el.classList.add("pulse");
+    const chg = q && q.changePct != null ? +q.changePct : T.data && T.data.change;
+    const c = $("#t-chg");
+    if (c && chg != null) {
+      const abs = q && q.change != null ? +q.change : null;
+      c.innerHTML = `<span style="color:${chg >= 0 ? UP : DOWN}">${abs != null ? signed(abs) + " " : ""}${pct(chg)}</span>`;
+    }
+  }
+
+  function tickClock() { drawClock(); }
   function startLive() {
-    clearInterval(T.live);
-    const ms = (T.range === "1d" || T.range === "5d") ? 15000 : 60000;
-    T.live = setInterval(() => { if (!document.hidden && $("#t-chart")) load(true); }, ms);
+    clearInterval(T.clockTimer); T.clockTimer = setInterval(tickClock, 1000);
+    clearInterval(T.live); clearInterval(T.priceTimer);
+    const intraday = T.range === "1d" || T.range === "5d";
+    // the price poll is the fast one; the full refetch only has to true up what we extrapolated
+    T.priceTimer = setInterval(pollPrice, intraday ? 2000 : 10000);
+    T.live = setInterval(() => { if (!document.hidden && $("#t-chart")) load(true); }, intraday ? 30000 : 120000);
   }
   function pressed(sel, attr, val) { document.querySelectorAll(`${sel} button`).forEach(b => b.setAttribute("aria-pressed", b.dataset[attr] === val)); }
   function escClose(e) { if (e.key === "Escape") close(); }
-  function close() { clearInterval(T.live); document.removeEventListener("visibilitychange", onVis); if (T.chart) { try { T.chart.remove(); } catch (e) {} T.chart = null; } if (T.resize) { window.removeEventListener("resize", T.resize); T.resize = null; } $("#trade-root").innerHTML = ""; document.body.style.overflow = ""; document.removeEventListener("keydown", escClose); }
+  function close() { clearInterval(T.live); clearInterval(T.clockTimer); clearInterval(T.priceTimer); document.removeEventListener("visibilitychange", onVis); if (T.chart) { try { T.chart.remove(); } catch (e) {} T.chart = null; } if (T.resize) { window.removeEventListener("resize", T.resize); T.resize = null; } $("#trade-root").innerHTML = ""; document.body.style.overflow = ""; document.removeEventListener("keydown", escClose); }
 
   async function load(silent) {
     const my = ++T.seq; const read = $("#t-read");
@@ -150,8 +236,15 @@
                  text: `${sell ? "SELL" : "BUY"} ${money(amt, 0)} @ ${money(+m.r.price)}` }; })
       .sort((a, b) => a.time - b.time);
     if (markers.length) T.series.main.setMarkers(markers);
+    T.profile = volumeProfile(bars.filter(b => b.v > 0));
     drawWorking();
+    drawLevels();
     drawEntry();
+    drawClock();
+    // the profile is painted on our own canvas, so it has to follow every pan, zoom and resize
+    const repaint = () => drawLiquidity();
+    chart.timeScale().subscribeVisibleLogicalRangeChange(repaint);
+    requestAnimationFrame(repaint);
     chart.subscribeCrosshairMove(param => {
       const read = $("#t-read"); if (!read) return;
       if (!param.time || !param.seriesData || !param.seriesData.get(T.series.main)) { T.cursorPrice = null; read.innerHTML = HINT; updatePL(c.price); return; }
@@ -163,9 +256,125 @@
     });
     chart.timeScale().fitContent();
     if (view) { try { chart.timeScale().setVisibleLogicalRange(view); } catch (e) {} }
-    T.resize = () => { if (T.chart && host) T.chart.applyOptions({ width: host.clientWidth, height: host.clientHeight }); };
+    T.resize = () => { if (T.chart && host) { T.chart.applyOptions({ width: host.clientWidth, height: host.clientHeight }); drawLiquidity(); } };
     window.addEventListener("resize", T.resize);
     T.lastPrice = c.price; updatePL(c.price);
+    pollPrice();                       // start moving immediately instead of waiting for the timer
+  }
+
+  // ---------------------------------------------------------------------------------------------
+  // LIQUIDITY: a volume profile. Bucket every visible bar's volume into price bins and draw them
+  // as horizontal bars down the right edge. This is the honest version of "where is the liquidity":
+  // the widest bin is the price at which the most stock actually changed hands.
+  function volumeProfile(bars, bins = 48) {
+    const lo = Math.min(...bars.map(b => b.l)), hi = Math.max(...bars.map(b => b.h));
+    if (!(hi > lo)) return null;
+    const step = (hi - lo) / bins, vol = new Array(bins).fill(0);
+    for (const b of bars) {
+      // spread each bar's volume across the bins its range covers, so a wide bar does not all
+      // land on its close
+      const a = Math.max(0, Math.floor((b.l - lo) / step)), z = Math.min(bins - 1, Math.floor((b.h - lo) / step));
+      const share = (b.v || 0) / (z - a + 1);
+      for (let i = a; i <= z; i++) vol[i] += share;
+    }
+    const total = vol.reduce((x, y) => x + y, 0);
+    if (!total) return null;
+    let poc = 0;
+    for (let i = 1; i < bins; i++) if (vol[i] > vol[poc]) poc = i;
+    // value area: grow out from the point of control until 70% of the volume is inside
+    let lowI = poc, highI = poc, acc = vol[poc];
+    while (acc < total * 0.7 && (lowI > 0 || highI < bins - 1)) {
+      const below = lowI > 0 ? vol[lowI - 1] : -1, above = highI < bins - 1 ? vol[highI + 1] : -1;
+      if (above >= below) { highI++; acc += vol[highI]; } else { lowI--; acc += vol[lowI]; }
+    }
+    const at = i => lo + step * (i + 0.5);
+    return { lo, hi, step, vol, max: vol[poc], poc: at(poc), vah: at(highI), val: at(lowI), total };
+  }
+
+  function drawLiquidity() {
+    const cv = $("#t-liq"), host = $("#t-chart"), s = T.series.main;
+    if (!cv || !host || !s) return;
+    const dpr = window.devicePixelRatio || 1, w = host.clientWidth, h = host.clientHeight;
+    cv.width = w * dpr; cv.height = h * dpr; cv.style.width = w + "px"; cv.style.height = h + "px";
+    const g = cv.getContext("2d"); g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, w, h);
+    const legend = $("#t-legend");
+    if (!T.show.liq || !T.profile) { if (legend) legend.hidden = true; return; }
+    const p = T.profile, maxW = Math.min(140, w * 0.22), x0 = w - 64;   // stop short of the price axis
+    g.globalAlpha = 1;
+    // the value area as a soft band behind everything
+    const yTop = s.priceToCoordinate(p.vah), yBot = s.priceToCoordinate(p.val);
+    if (yTop != null && yBot != null) {
+      g.fillStyle = "rgba(10,132,255,.07)";
+      g.fillRect(0, Math.min(yTop, yBot), w, Math.abs(yBot - yTop));
+    }
+    for (let i = 0; i < p.vol.length; i++) {
+      const price = p.lo + p.step * (i + 0.5), y = s.priceToCoordinate(price);
+      if (y == null || y < 0 || y > h) continue;
+      const bw = (p.vol[i] / p.max) * maxW;
+      const inVA = price >= p.val && price <= p.vah;
+      g.fillStyle = inVA ? "rgba(10,132,255,.30)" : "rgba(139,152,169,.20)";
+      const bh = Math.max(1, (s.priceToCoordinate(p.lo) - s.priceToCoordinate(p.lo + p.step)) || 2);
+      g.fillRect(x0 - bw, y - bh / 2, bw, Math.max(1, bh - 1));
+    }
+    // the point of control: the price the market kept coming back to
+    const yPoc = s.priceToCoordinate(p.poc);
+    if (yPoc != null) {
+      g.fillStyle = "rgba(255,179,64,.85)";
+      g.fillRect(x0 - maxW, yPoc - 1, maxW, 2);
+      g.font = "600 10px -apple-system, BlinkMacSystemFont, Inter, sans-serif";
+      g.fillStyle = "#ffb340"; g.textAlign = "right";
+      g.fillText("POC " + money(p.poc), x0 - 4, yPoc - 5);
+    }
+    if (legend) {
+      legend.hidden = false;
+      legend.innerHTML = `<b>Liquidity</b> most traded <b class="num">${money(p.poc)}</b> · value area <b class="num">${money(p.val)}</b>–<b class="num">${money(p.vah)}</b>`;
+    }
+  }
+
+  // LEVELS: the handful of prices every day-trader actually watches.
+  function drawLevels() {
+    const s = T.series.main; if (!s) return;
+    (T.series.levelLines || []).forEach(l => { try { s.removePriceLine(l); } catch (e) {} });
+    T.series.levelLines = [];
+    if (!T.show.levels || !T.data) return;
+    const LWs = window.LightweightCharts.LineStyle;
+    const bars = T.data.bars || []; if (!bars.length) return;
+    const dayOf = ms => new Date(ms).toLocaleDateString("en-US", { timeZone: "America/New_York" });
+    const last = dayOf(bars[bars.length - 1].t);
+    const today = bars.filter(b => dayOf(b.t) === last);
+    const prior = bars.filter(b => dayOf(b.t) !== last);
+    const add = (price, color, title, style) => {
+      if (!(price > 0)) return;
+      T.series.levelLines.push(s.createPriceLine({ price: +price, color, lineWidth: 1,
+        lineStyle: style ?? LWs.Dashed, axisLabelVisible: true, title }));
+    };
+    // the quote carries the exchange's own session figures; they beat anything derived from bars
+    const q = T.quote || ctx().quote(T.sym) || {};
+    if (today.length) add(today[0].o, "rgba(139,152,169,.9)", "open", LWs.Dotted);
+    add(q.dayHigh != null ? +q.dayHigh : (today.length ? Math.max(...today.map(b => b.h)) : 0),
+        "rgba(48,209,88,.55)", "day high", LWs.Dotted);
+    add(q.dayLow != null ? +q.dayLow : (today.length ? Math.min(...today.map(b => b.l)) : 0),
+        "rgba(255,69,58,.55)", "day low", LWs.Dotted);
+    add(q.prevClose != null ? +q.prevClose : (prior.length ? prior[prior.length - 1].c : 0),
+        "rgba(191,90,242,.8)", "prev close", LWs.Dashed);
+  }
+
+  // CLOCK: every position is sold after max_hold_minutes, so show how long this one has left.
+  function drawClock() {
+    const el = $("#t-clock"); if (!el) return;
+    const pos = ctx().positions()[T.sym];
+    const limit = +(ctx().guardrails().max_hold_minutes || 0);
+    const openedTs = pos && (pos.opened_ts || pos.last_buy_ts);
+    if (!pos || !limit || !openedTs) { el.hidden = true; T.clockAt = null; return; }
+    const heldMin = (Date.now() / 1000 - +openedTs) / 60;
+    const leftMin = limit - heldMin;
+    T.clockAt = (+openedTs + limit * 60) * 1000;
+    el.hidden = false;
+    if (leftMin <= 0) { el.textContent = "past the " + limit + "-min limit — selling"; el.className = "t-clock over"; return; }
+    const m = Math.floor(leftMin), sec = Math.floor((leftMin - m) * 60);
+    el.textContent = `sold in ${m}:${String(sec).padStart(2, "0")}`;
+    el.className = "t-clock" + (leftMin <= 5 ? " soon" : "");
+    el.title = `Held ${Math.floor(heldMin)} min of the ${limit}-minute maximum`;
   }
 
   // Standing orders drawn where they sit: the levels the agent is waiting for, on the same chart
@@ -191,8 +400,13 @@
     if (T.series.entryLine) { try { s.removePriceLine(T.series.entryLine); } catch (e) {} T.series.entryLine = null; }
     if (T.series.zone) { try { T.chart.removeSeries(T.series.zone); } catch (e) {} T.series.zone = null; }
     if (!T.show.buyin || !T.entry || !T.data) { updatePL(T.lastPrice); return; }
-    const pos = ctx().positions()[T.sym]; const label = pos && T.entryMode === "auto" ? "your buy-in" : "buy-in";
-    T.series.entryLine = s.createPriceLine({ price: T.entry, color: AMBER, lineWidth: 1, lineStyle: window.LightweightCharts.LineStyle.Dashed, axisLabelVisible: true, title: label });
+    const pos = ctx().positions()[T.sym];
+    const live = T.lastPrice || (T.data && T.data.price);
+    const move = live ? (live / T.entry - 1) * 100 : null;
+    const label = (pos && T.entryMode === "auto" ? "BUY-IN " : "what-if ") + money(T.entry)
+      + (move == null ? "" : `  ${pct(move)}`);
+    T.series.entryLine = s.createPriceLine({ price: T.entry, color: AMBER, lineWidth: 2,
+      lineStyle: window.LightweightCharts.LineStyle.Solid, axisLabelVisible: true, title: label });
     // profit / loss zones: translucent baseline around the entry price
     const bars = T.data.bars.map(b => ({ time: Math.floor(b.t / 1000), value: b.c }));
     T.series.zone = T.chart.addBaselineSeries({ baseValue: { type: "price", price: T.entry }, topLineColor: "rgba(0,0,0,0)", bottomLineColor: "rgba(0,0,0,0)", topFillColor1: "rgba(48,209,88,.16)", topFillColor2: "rgba(48,209,88,.03)", bottomFillColor1: "rgba(255,69,58,.03)", bottomFillColor2: "rgba(255,69,58,.16)", priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false });
