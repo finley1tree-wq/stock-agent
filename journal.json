@@ -51,8 +51,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.81,
-    "ret_final": -1.81,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -161,8 +161,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.95,
-    "ret_final": -0.95,
+    "ret_now": 0.24,
+    "ret_final": 0.24,
     "ret_src": "realised"
   },
   {
@@ -217,8 +217,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.81,
-    "ret_final": -1.81,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -328,8 +328,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.81,
-    "ret_final": -1.81,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -382,8 +382,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.95,
-    "ret_final": -0.95,
+    "ret_now": 0.24,
+    "ret_final": 0.24,
     "ret_src": "realised"
   },
   {
@@ -555,7 +555,8 @@
     "momentum_1m_at_entry": 4.66,
     "hour_et": 9,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 1.85
   },
   {
     "symbol": "CCJ",
@@ -579,7 +580,10 @@
     "momentum_1m_at_entry": -2.02,
     "hour_et": 9,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.43,
+    "ret_now": 0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "INTC",
@@ -607,7 +611,10 @@
     "momentum_1m_at_entry": 0.25,
     "hour_et": 9,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.49,
+    "ret_now": 0.49,
+    "ret_src": "realised"
   },
   {
     "symbol": "INTC",
@@ -633,7 +640,8 @@
     ],
     "evidence": "average cost $102.21",
     "trigger": "take_profit",
-    "hour_et": 9
+    "hour_et": 9,
+    "hold_minutes": 5
   },
   {
     "symbol": "GOOGL",
@@ -660,7 +668,10 @@
     "momentum_1m_at_entry": -1.78,
     "hour_et": 9,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.23,
+    "ret_now": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -685,7 +696,8 @@
     ],
     "evidence": "average cost $337.33",
     "trigger": "take_profit",
-    "hour_et": 9
+    "hour_et": 9,
+    "hold_minutes": 5
   },
   {
     "symbol": "CCJ",
@@ -709,7 +721,8 @@
     ],
     "evidence": "average cost $97.05",
     "trigger": "take_profit",
-    "hour_et": 9
+    "hour_et": 9,
+    "hold_minutes": 11
   },
   {
     "symbol": "META",
@@ -735,6 +748,79 @@
     "congress_buying": false,
     "momentum_1m_at_entry": 13.04,
     "hour_et": 9,
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.1
+  },
+  {
+    "symbol": "IBM",
+    "notional": 1800.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.507572,
+    "price": 239.76,
+    "date": "2026-09-11",
+    "time_et": "10:04",
+    "ts": 1789135447,
+    "why": "Broad market green day (SPY +1.02%, DIA +1.13%), IBM showing solid momentum without being extended like META/GOOGL",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "IBM +2.43% today, +2.13% 5d, headline 'Company News for Sep 11' and quantum computing coverage; 78.6% of day range but only started climbing recently",
+    "entry_price": 239.71,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.58,
+    "hour_et": 10,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 1800.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.413103,
+    "price": 332.53,
+    "date": "2026-09-11",
+    "time_et": "10:04",
+    "ts": 1789135447,
+    "why": "Widely_held sector had best hit_rate (1.0) and avg_ret (0.73%) in track record; AAPL is one of the biggest misses noted in counterfactual review (fwd_pct 3.86%)",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "AAPL +1.8% 1d, +10% 1m, 77.3% of day range - trending well within allowed entry range",
+    "entry_price": 332.46,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 10.0,
+    "hour_et": 10,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 1400.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.260319,
+    "price": 429.41,
+    "date": "2026-09-11",
+    "time_et": "10:04",
+    "ts": 1789135447,
+    "why": "Low in day range unlike other AI names, record sales headline gives fresh catalyst",
+    "signals": [
+      "news",
+      "track_record"
+    ],
+    "evidence": "TSM headline 'record sales say AI chips are booming', only 8.5% of day range - room to run, +2.95% 5d",
+    "entry_price": 429.32,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.04,
+    "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null
   }

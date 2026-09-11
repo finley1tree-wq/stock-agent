@@ -1813,7 +1813,192 @@
    ],
    "good_until": "2026-09-16",
    "usd": 500.0
+  },
+  {
+   "id": "363374fc",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 234.9,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "cap downside on new IBM position within max_hold_minutes window",
+   "evidence": "ATR 2.569%, protect against reversal ~2% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cbf1befa",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 326.0,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "protect AAPL position from intraday reversal",
+   "evidence": "day low 326.30, ATR 2.318%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "963a0974",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 421.0,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "protect TSM new position",
+   "evidence": "day low 428.90, ATR 2.277%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d6486097",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 220.6088,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "wanted it, but not at the high \u2014 resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position",
+   "evidence": "NVDA +1.58% 1d, headline 'Nvidia rebounds' IBD, 96.5% of day range - near high but strong AI capex tailwind",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-11",
+   "usd": 1500.0
+  },
+  {
+   "id": "e8f67617",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 240.4433,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $239.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad4d2703",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 232.5672,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $239.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "6db29b4c",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 333.3846,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $332.53",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2d28a2d1",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 322.5541,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $332.53",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "62f2b020",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 430.4964,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $429.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8e3cb5ef",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 416.5277,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $429.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "ba4576bb",
+   "ticker": "APP",
+   "kind": "buy_limit",
+   "price": 310.432,
+   "status": "working",
+   "created": "2026-09-11 10:04",
+   "created_ts": 1789135447,
+   "why": "strong month, weak day: resting 0.87% under $313.17 to catch the dip",
+   "evidence": "+3.1% over the month, sitting at 26% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-11 09:52"
+ "updated": "2026-09-11 10:04"
 }

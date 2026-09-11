@@ -508,3 +508,29 @@ Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week
 ## 2026-09-11 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2200.00 META [buy_limit @ $654.10] — wanted it, but not at the high — resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap
 ## 2026-09-11 09:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-11 10:04 ET (Friday) — week 2026-W37 — budget left $20299.03 (today $12000.00 put to work, 5 buys, 3 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Below min_positions (2 of 5) with $20k budget unspent and a green broad-market day (SPY +1.02%, DIA +1.13%); counterfactual data flags AAPL/AMD/GOOGL as recent biggest misses when I sat idle. Adding IBM, AAPL, NVDA, TSM diversifies into widely_held/tech names with concrete momentum/news evidence, staying under max_entry_range_pct guardrail (all <85% except NVDA which is justified by strong AI-capex headline flow), while protecting each with a stop_loss since max_hold_minutes forces exit anyway.
+lesson: On green broad-market days, deploying into min_positions across widely_held names backed by momentum/news evidence beats idling; track record shows widely_held sector has 1.0 hit rate and congress/momentum signals outperform time_stop/etf_default.
+  (dropped NVDA: 96% up today's range — resting a limit at $220.61 instead of chasing)
+- BUY $1800.00 IBM [filled] ['news', 'momentum'] — Broad market green day (SPY +1.02%, DIA +1.13%), IBM showing solid momentum without being extended like META/GOOGL | evidence: IBM +2.43% today, +2.13% 5d, headline 'Company News for Sep 11' and quantum computing coverage; 78.6% of day range but only started climbing recently
+- BUY $1800.00 AAPL [filled] ['momentum', 'news'] — Widely_held sector had best hit_rate (1.0) and avg_ret (0.73%) in track record; AAPL is one of the biggest misses noted in counterfactual review (fwd_pct 3.86%) | evidence: AAPL +1.8% 1d, +10% 1m, 77.3% of day range - trending well within allowed entry range
+- BUY $1400.00 TSM [filled] ['news', 'track_record'] — Low in day range unlike other AI names, record sales headline gives fresh catalyst | evidence: TSM headline 'record sales say AI chips are booming', only 8.5% of day range - room to run, +2.95% 5d
+  (dropped trigger NVDA stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $234.90 until 2026-09-11 — cap downside on new IBM position within max_hold_minutes window
+~ WORKING stop_loss 100% AAPL @ $326.00 until 2026-09-11 — protect AAPL position from intraday reversal
+~ WORKING stop_loss 100% TSM @ $421.00 until 2026-09-11 — protect TSM new position
+~ WORKING buy_limit $1500.00 NVDA @ $220.61 until 2026-09-11 — wanted it, but not at the high — resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position
+~ WORKING take_profit 100% IBM @ $240.44 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $232.57 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $333.38 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $322.55 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $430.50 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $416.53 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 APP @ $310.43 until 2026-09-12 — strong month, weak day: resting 0.87% under $313.17 to catch the dip
+portfolio: equity $25046.04 (+0.18% on $25000.00 in) · cash $15299.03 · realised -0.97
+Done: 0 sell(s), 3 buy(s); 20 order(s) working; budget left $15299.05 this week

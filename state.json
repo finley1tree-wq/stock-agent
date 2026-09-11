@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 4700.95,
+  "spent": 9700.95,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 0.19,
@@ -8,7 +8,10 @@
     "NLR": 13.19,
     "GOOGN": 0.24,
     "AMD": 2500.0,
-    "META": 2200.0
+    "META": 2200.0,
+    "IBM": 1800.0,
+    "AAPL": 1800.0,
+    "TSM": 1400.0
   },
   "orders": [
     {
@@ -570,34 +573,88 @@
       ],
       "evidence": "META +2.09% today, +7.73% 5d, +13.65% 1m, at 92% of day range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 1800.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.507572,
+      "price": 239.76,
+      "date": "2026-09-11",
+      "time_et": "10:04",
+      "ts": 1789135447,
+      "why": "Broad market green day (SPY +1.02%, DIA +1.13%), IBM showing solid momentum without being extended like META/GOOGL",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "IBM +2.43% today, +2.13% 5d, headline 'Company News for Sep 11' and quantum computing coverage; 78.6% of day range but only started climbing recently"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 1800.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.413103,
+      "price": 332.53,
+      "date": "2026-09-11",
+      "time_et": "10:04",
+      "ts": 1789135447,
+      "why": "Widely_held sector had best hit_rate (1.0) and avg_ret (0.73%) in track record; AAPL is one of the biggest misses noted in counterfactual review (fwd_pct 3.86%)",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AAPL +1.8% 1d, +10% 1m, 77.3% of day range - trending well within allowed entry range"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 1400.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.260319,
+      "price": 429.41,
+      "date": "2026-09-11",
+      "time_et": "10:04",
+      "ts": 1789135447,
+      "why": "Low in day range unlike other AI names, record sales headline gives fresh catalyst",
+      "signals": [
+        "news",
+        "track_record"
+      ],
+      "evidence": "TSM headline 'record sales say AI chips are booming', only 8.5% of day range - room to run, +2.95% 5d"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 4672.16,
-  "orders_today": 5,
+  "spent_today": 9672.16,
+  "orders_today": 8,
   "sells_today": 3,
   "sold_today": [
     "INTC",
     "GOOGL",
     "CCJ"
   ],
-  "last_check_ts": 1789135218,
+  "last_check_ts": 1789135447,
   "book_fp": "[[\"020ae5c0\", 656.4678], [\"23b20e4c\", 19.0529], [\"4827978c\", 648.1869], [\"532b86e9\", 171.2706], [\"74e0024c\", 428.3086], [\"a89ad0f5\", 492.8], [\"a8a7ffe2\", 634.477], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
   "last_publish_ts": 1789134723,
-  "last_decision_ts": 1789133608,
+  "last_decision_ts": 1789135447,
   "sold_ts": {
     "INTC": 1789134010,
     "GOOGL": 1789134349,
     "CCJ": 1789134443
   },
-  "deployed": 12000.0,
+  "deployed": 17000.0,
   "deployed_by_ticker": {
     "AMD": 2500.0,
     "CCJ": 2300.0,
     "INTC": 2500.0,
     "GOOGL": 2500.0,
-    "META": 2200.0
+    "META": 2200.0,
+    "IBM": 1800.0,
+    "AAPL": 1800.0,
+    "TSM": 1400.0
   },
-  "deployed_today": 12000.0,
+  "deployed_today": 17000.0,
   "last_bar_ts": 1789135200
 }
