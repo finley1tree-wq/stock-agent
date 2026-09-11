@@ -8,6 +8,10 @@ module.exports = async (req, res) => {
     try { return withChange(await chart(s, "1d")); }
     catch (e) { return { symbol: s, error: String(e.message || e) }; }
   }));
-  res.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=120");
+  // The edge cache was the real speed limit on the live chart: at s-maxage=60 the trading view
+  // polled every 2 seconds and got the same cached number for a full minute, so the candle sat
+  // still and then jumped. Five seconds is fresh enough to look live and still absorbs the poll -
+  // every viewer of the same symbol shares one upstream fetch per 5s window.
+  res.setHeader("Cache-Control", "s-maxage=5, stale-while-revalidate=30");
   res.status(200).json({ asOf: Date.now(), quotes });
 };

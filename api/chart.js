@@ -9,7 +9,8 @@ module.exports = async (req, res) => {
   try {
     const c = withChange(await chart(symbol, range, String(req.query.interval || "")));
     const intraday = /m$|h$/.test(c.interval);
-    res.setHeader("Cache-Control", intraday ? "s-maxage=60, stale-while-revalidate=120" : "s-maxage=900, stale-while-revalidate=3600");
+    // Intraday bars back a live view, so they go stale fast; daily and longer barely move.
+    res.setHeader("Cache-Control", intraday ? "s-maxage=15, stale-while-revalidate=60" : "s-maxage=900, stale-while-revalidate=3600");
     res.status(200).json(c);
   } catch (e) {
     res.status(502).json({ symbol, range, error: String(e.message || e) });
