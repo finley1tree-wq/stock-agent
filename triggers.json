@@ -4422,7 +4422,7 @@
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 100.3465,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -4432,14 +4432,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 15:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "33c2afab",
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 519.8925,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "close 100% at +0.4% over the average cost",
@@ -4449,14 +4451,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8a681bb6",
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 512.4986,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "close it all at -1.0% under the average cost",
@@ -4466,14 +4470,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a2dd2bac",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 502.2466,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -4483,7 +4489,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 15:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "838fbf68",
@@ -4761,7 +4769,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 103.96,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 15:01",
    "created_ts": 1789153283,
    "why": "close 100% at +0.5% over the average cost",
@@ -4771,14 +4779,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cc2d6d63",
    "ticker": "INTC",
    "kind": "stop_loss",
    "price": 102.1765,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 15:01",
    "created_ts": 1789153283,
    "why": "close it all at -1.2% under the average cost",
@@ -4788,7 +4798,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cc56f1bf",

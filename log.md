@@ -1182,3 +1182,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25141.66 (+0.57% on $25000.00 in) · cash $5157.25 · realised +157.25
 Decision: nothing at this check. 30 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% INTC [time stop] -> $2993.58 (-0.21%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $2994.05 (-0.20%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 15:21 ET — tick — 2 sell(s), 0 buy(s) from standing orders
