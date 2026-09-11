@@ -3039,7 +3039,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.13
   },
   {
     "symbol": "TSM",
@@ -3064,7 +3064,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": -0.05
   },
   {
     "symbol": "NEM",
@@ -3140,7 +3140,7 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": -0.04
   },
   {
     "symbol": "INTC",
@@ -3219,7 +3219,7 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.12
   },
   {
     "symbol": "SPCX",
@@ -3246,7 +3246,9 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.45,
+    "ret_final": 0.45,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -3324,5 +3326,32 @@
     "hour_et": 15,
     "code_version": "8f6b98b",
     "hold_minutes": 81
+  },
+  {
+    "symbol": "SPCX",
+    "side": "sell",
+    "qty": 20.01201,
+    "status": "filled",
+    "price": 150.58,
+    "proceeds": 3013.41,
+    "realized_pnl": 13.41,
+    "realized_pct": 0.45,
+    "date": "2026-09-11",
+    "time_et": "15:31",
+    "ts": 1789155000,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $149.91",
+    "trigger": "take_profit",
+    "hour_et": 15,
+    "code_version": "1dde3b1",
+    "hold_minutes": 6
   }
 ]

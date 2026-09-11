@@ -5103,7 +5103,7 @@
    "ticker": "SPCX",
    "kind": "take_profit",
    "price": 150.5801,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 15:23",
    "created_ts": 1789154627,
    "why": "close 100% at +0.4% over the average cost",
@@ -5113,7 +5113,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:31"
   },
   {
    "id": "2b0c1d79",
@@ -5686,9 +5687,370 @@
    "ticker": "HUBB",
    "kind": "buy_limit",
    "price": 448.7608,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 15:30",
    "created_ts": 1789155030,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $462.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "2e434ea3",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 419.3504,
+   "status": "cancelled",
+   "created": "2026-09-11 15:30",
+   "created_ts": 1789155030,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $432.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "d4a745ce",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 631.2566,
+   "status": "cancelled",
+   "created": "2026-09-11 15:30",
+   "created_ts": 1789155030,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $650.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "fdd30e0a",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.6728,
+   "status": "cancelled",
+   "created": "2026-09-11 15:30",
+   "created_ts": 1789155030,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "8173da0e",
+   "ticker": "SPCX",
+   "kind": "stop_loss",
+   "price": 150.156,
+   "status": "cancelled",
+   "created": "2026-09-11 15:30",
+   "created_ts": 1789155030,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $149.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "89b417e0",
+   "ticker": "SPCX",
+   "kind": "buy_limit",
+   "price": 145.4127,
+   "status": "cancelled",
+   "created": "2026-09-11 15:30",
+   "created_ts": 1789155030,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "b60e7365",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:30",
+   "created_ts": 1789155030,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "5634064c",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 448.7608,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155063,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $462.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "78fb5ec1",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 419.3504,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155063,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $432.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "37a1bb41",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 631.2566,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155063,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $650.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "2ad0ecb1",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.6728,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155063,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "029ec64f",
+   "ticker": "SPCX",
+   "kind": "buy_limit",
+   "price": 145.4127,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155063,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "6cad6329",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155063,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "aae0c352",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 448.7608,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155109,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $462.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "cfec8a96",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 419.3504,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155109,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $432.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "1ee0293e",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 631.2566,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155109,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $650.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "dcbc9b0f",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.6728,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155109,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "f7f3aaae",
+   "ticker": "SPCX",
+   "kind": "buy_limit",
+   "price": 145.4127,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155109,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "cbaeb027",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155109,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "a0cbc88f",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 448.7608,
+   "status": "working",
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155112,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $462.64",
    "signals": [
@@ -5699,13 +6061,13 @@
    "usd": 500.0
   },
   {
-   "id": "2e434ea3",
+   "id": "5ffe90f5",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 419.3504,
    "status": "working",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155112,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $432.32",
    "signals": [
@@ -5716,13 +6078,13 @@
    "usd": 500.0
   },
   {
-   "id": "d4a745ce",
+   "id": "2c9eb066",
    "ticker": "META",
    "kind": "buy_limit",
    "price": 631.2566,
    "status": "working",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155112,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $650.78",
    "signals": [
@@ -5733,13 +6095,13 @@
    "usd": 500.0
   },
   {
-   "id": "fdd30e0a",
+   "id": "f8c918d8",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 147.6728,
    "status": "working",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155112,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $152.24",
    "signals": [
@@ -5750,47 +6112,13 @@
    "usd": 500.0
   },
   {
-   "id": "8173da0e",
-   "ticker": "SPCX",
-   "kind": "stop_loss",
-   "price": 150.156,
-   "status": "working",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $149.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0
-  },
-  {
-   "id": "89b417e0",
-   "ticker": "SPCX",
-   "kind": "buy_limit",
-   "price": 145.4127,
-   "status": "working",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0
-  },
-  {
-   "id": "b60e7365",
+   "id": "6b4d3e12",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 482.0803,
    "status": "working",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
+   "created": "2026-09-11 15:31",
+   "created_ts": 1789155112,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $496.99",
    "signals": [
@@ -5801,5 +6129,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-11 15:30"
+ "updated": "2026-09-11 15:31"
 }
