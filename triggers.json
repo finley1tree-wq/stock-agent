@@ -5075,7 +5075,7 @@
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 151.1819,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 15:23",
    "created_ts": 1789154627,
    "why": "close it all at -0.7% under the average cost",
@@ -5085,7 +5085,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "68228438",
@@ -6588,9 +6590,123 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 631.2566,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 15:36",
    "created_ts": 1789155402,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $650.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:37",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "a766ce8a",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.6728,
+   "status": "cancelled",
+   "created": "2026-09-11 15:36",
+   "created_ts": 1789155402,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:37",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "08ac6f7e",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:36",
+   "created_ts": 1789155402,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:37",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "4a94a4b8",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 631.2566,
+   "status": "cancelled",
+   "created": "2026-09-11 15:37",
+   "created_ts": 1789155436,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $650.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:38",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "0a93f7a6",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.6728,
+   "status": "cancelled",
+   "created": "2026-09-11 15:37",
+   "created_ts": 1789155436,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:38",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "f4f7e73a",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:37",
+   "created_ts": 1789155436,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:38",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "0c44570d",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 631.2566,
+   "status": "working",
+   "created": "2026-09-11 15:38",
+   "created_ts": 1789155482,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $650.78",
    "signals": [
@@ -6601,13 +6717,30 @@
    "usd": 500.0
   },
   {
-   "id": "a766ce8a",
+   "id": "9c3cd044",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.42,
+   "status": "working",
+   "created": "2026-09-11 15:38",
+   "created_ts": 1789155482,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3705bfbc",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 147.6728,
    "status": "working",
-   "created": "2026-09-11 15:36",
-   "created_ts": 1789155402,
+   "created": "2026-09-11 15:38",
+   "created_ts": 1789155482,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $152.24",
    "signals": [
@@ -6618,13 +6751,13 @@
    "usd": 500.0
   },
   {
-   "id": "08ac6f7e",
+   "id": "6e3569f8",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 482.0803,
    "status": "working",
-   "created": "2026-09-11 15:36",
-   "created_ts": 1789155402,
+   "created": "2026-09-11 15:38",
+   "created_ts": 1789155482,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $496.99",
    "signals": [
@@ -6635,5 +6768,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-11 15:36"
+ "updated": "2026-09-11 15:38"
 }
