@@ -1,6 +1,3 @@
-brain: Book is small, fresh (2 days held), and fully bracketed with stops/take-profits/buy-limits already working on every position. Market is broadly red again today (INTC -4.66%, OKLO -4.79%, NLR -3.34%, CCJ -2.05%), consistent with the prior pattern where forcing new entries into weakness hurt. No new concrete evidence (fresh filing/headline) justifies a new position right now, and the counterfactual data itself is anecdotal (only 2 days graded). Sticking with the repeatedly-validated approach: let standing orders do the work.
-lesson: Sixth+ consecutive confirmation: on red/choppy days with a small fully-bracketed book, holding and trusting standing orders beats forcing new entries; only act on genuinely new concrete evidence, not just available budget.
-  (re-pinned 1 order(s) to the new average cost)
 ~ WORKING take_profit 33% INTC @ $133.07 until 2026-09-15 — close 33% at +26.5% over the average cost
 portfolio: equity $24995.40 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
 Decision: nothing at this check. 21 standing order(s) working.
@@ -397,4 +394,7 @@ Market closed right now. Nothing to do.
 Market closed right now. Nothing to do.
 
 ## 2026-09-10 20:04 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 3 buys, 7 sells) — SIM (pretend money) via sim
+Market closed right now. Nothing to do.
+
+## 2026-09-10 20:17 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 3 buys, 7 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
