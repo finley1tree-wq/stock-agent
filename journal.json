@@ -2646,5 +2646,50 @@
     "trigger": "stop_loss",
     "hour_et": 14,
     "hold_minutes": 20
+  },
+  {
+    "symbol": "DGICA",
+    "side": "sell",
+    "qty": 155.732093,
+    "status": "filled",
+    "price": 19.28,
+    "proceeds": 3001.91,
+    "realized_pnl": 1.91,
+    "realized_pct": 0.06,
+    "date": "2026-09-11",
+    "time_et": "14:29",
+    "ts": 1789151374,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "insider",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.08% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 4.616024,
+    "status": "filled",
+    "price": 649.23,
+    "proceeds": 2996.86,
+    "realized_pnl": -3.14,
+    "realized_pct": -0.1,
+    "date": "2026-09-11",
+    "time_et": "14:29",
+    "ts": 1789151374,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.08% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14
   }
 ]

@@ -1,6 +1,3 @@
-- SELL 100% AVGO [time stop] -> $1497.88 (-0.14%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AMZN [time stop] -> $1502.04 (+0.14%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% MSFT [time stop] -> $1497.13 (-0.19%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% KMT [time stop] -> $1247.82 (-0.17%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-11 11:07 ET — tick — 4 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 NEM [buy_limit @ $126.60] — strong month, weak day: resting 0.68% under $127.47 to catch the dip
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25070.01 (+0.28% on $25000.00 in) · cash $13075.51 · realised +75.51
 Decision: nothing at this check. 25 standing order(s) working.
+- SELL 100% DGICA [time stop] -> $3001.91 (+0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% META [time stop] -> $2996.86 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 14:29 ET — tick — 2 sell(s), 0 buy(s) from standing orders

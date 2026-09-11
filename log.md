@@ -986,3 +986,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25070.01 (+0.28% on $25000.00 in) · cash $13075.51 · realised +75.51
 Decision: nothing at this check. 25 standing order(s) working.
+- SELL 100% DGICA [time stop] -> $3001.91 (+0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% META [time stop] -> $2996.86 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 14:29 ET — tick — 2 sell(s), 0 buy(s) from standing orders
