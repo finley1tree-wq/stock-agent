@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 24000.0,
+  "spent": 15004.43,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -12,14 +12,14 @@
     "MSFT": 2.87,
     "TSM": 1.48,
     "GOOGL": 1.13,
-    "AMD": 3000.76,
+    "AMD": 2.28,
     "IBM": 0.74,
     "BE": 3000.0,
-    "INTC": 3000.0,
+    "INTC": 1.52,
     "SPCX": 3000.0,
     "TPL": 3000.0,
     "DGICA": 3000.0,
-    "NEM": 3000.0
+    "NEM": 1.39
   },
   "orders": [
     {
@@ -1685,12 +1685,75 @@
         "momentum"
       ],
       "evidence": "+7.2% over the month; 10% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.801772,
+      "status": "filled",
+      "price": 516.82,
+      "proceeds": 2998.48,
+      "realized_pnl": -1.52,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "14:00",
+      "ts": 1789149600,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $517.08",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 23.746339,
+      "status": "filled",
+      "price": 126.28,
+      "proceeds": 2998.61,
+      "realized_pnl": -1.39,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "14:00",
+      "ts": 1789149600,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $126.34",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "INTC",
+      "side": "sell",
+      "qty": 28.976912,
+      "status": "filled",
+      "price": 103.48,
+      "proceeds": 2998.48,
+      "realized_pnl": -1.52,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "14:01",
+      "ts": 1789149600,
+      "why": "close it all at -1.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $103.53",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 24000.0,
+  "spent_today": 15004.43,
   "orders_today": 38,
-  "sells_today": 29,
+  "sells_today": 32,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1711,15 +1774,15 @@
     "MRK",
     "CHRW"
   ],
-  "last_check_ts": 1789149599,
+  "last_check_ts": 1789149821,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789149596,
+  "last_publish_ts": 1789149699,
   "last_decision_ts": 1789149599,
   "sold_ts": {
-    "INTC": 1789144502,
+    "INTC": 1789149700,
     "GOOGL": 1789145672,
     "CCJ": 1789141240,
-    "AMD": 1789144834,
+    "AMD": 1789149639,
     "IBM": 1789144834,
     "TSM": 1789144834,
     "META": 1789136547,
@@ -1730,7 +1793,7 @@
     "AMZN": 1789139263,
     "MSFT": 1789139263,
     "KMT": 1789147733,
-    "NEM": 1789139844,
+    "NEM": 1789149639,
     "SPY": 1789145672,
     "MRK": 1789146922,
     "CHRW": 1789147279
@@ -1761,23 +1824,37 @@
     "DGICA": 3000.0
   },
   "deployed_today": 73300.0,
-  "last_bar_ts": 1789149300,
+  "last_bar_ts": 1789149600,
   "book_px": {
+    "fe749ce6": 19.3118,
     "665962b8": 462.6445,
-    "f3b06472": 338.7473,
     "66618da4": 646.7737,
+    "f3b06472": 338.7473,
+    "9335ca5f": 652.2757,
     "e87d920e": 493.0083,
+    "5636ffb8": 149.8498,
     "c77ba476": 272.247,
-    "ea7d6938": 125.4277,
+    "e06e72cb": 369.725,
     "c1f95086": 365.2996,
+    "1a03a54d": 19.1306,
+    "81e82a65": 275.6911,
+    "49789aaa": 364.8813,
+    "e56203d4": 643.9958,
     "5ba8a2de": 330.5,
     "d375c5a7": 429.0,
+    "6240fac4": 147.5047,
     "23b20e4c": 19.0529,
     "b84d5c3e": 147.0339,
     "a3d09bd3": 216.0,
+    "a8200c8d": 269.1087,
     "6a60a8a6": 236.0,
     "7d6b8f4e": 505.0,
     "532b86e9": 171.2706,
+    "2c9f0bbc": 357.2898,
+    "8a6f7363": 630.4127,
+    "67269aea": 265.5957,
+    "c31e4140": 144.7046,
+    "f1f3816f": 18.6822,
     "ba4576bb": 310.432
   },
   "next_check_minutes": 6

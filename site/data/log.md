@@ -1,11 +1,3 @@
-## 2026-09-11 09:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-11 10:04 ET (Friday) — week 2026-W37 — budget left $20299.03 (today $12000.00 put to work, 5 buys, 3 sells) — SIM (pretend money) via sim
-  (CYBN excluded: no security information)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain: Below min_positions (2 of 5) with $20k budget unspent and a green broad-market day (SPY +1.02%, DIA +1.13%); counterfactual data flags AAPL/AMD/GOOGL as recent biggest misses when I sat idle. Adding IBM, AAPL, NVDA, TSM diversifies into widely_held/tech names with concrete momentum/news evidence, staying under max_entry_range_pct guardrail (all <85% except NVDA which is justified by strong AI-capex headline flow), while protecting each with a stop_loss since max_hold_minutes forces exit anyway.
 lesson: On green broad-market days, deploying into min_positions across widely_held names backed by momentum/news evidence beats idling; track record shows widely_held sector has 1.0 hit rate and congress/momentum signals outperform time_stop/etf_default.
   (dropped NVDA: 96% up today's range — resting a limit at $220.61 instead of chasing)
 - BUY $1800.00 IBM [filled] ['news', 'momentum'] — Broad market green day (SPY +1.02%, DIA +1.13%), IBM showing solid momentum without being extended like META/GOOGL | evidence: IBM +2.43% today, +2.13% 5d, headline 'Company News for Sep 11' and quantum computing coverage; 78.6% of day range but only started climbing recently
@@ -398,3 +390,11 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $122.55 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25049.23 (+0.20% on $25000.00 in) · cash $1054.03 · realised +54.03
 Done: 0 sell(s), 8 buy(s); 37 order(s) working; budget left $1000.00 this week
+  (cancelled 1 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $516.82] -> $2998.48 (-0.05%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [stop_loss @ $126.28] -> $2998.61 (-0.05%) — close it all at -0.9% under the average cost
+## 2026-09-11 14:00 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 standing order(s) on INTC: position closed)
+- SELL 100% INTC [stop_loss @ $103.48] -> $2998.48 (-0.05%) — close it all at -1.2% under the average cost
+## 2026-09-11 14:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -907,3 +907,11 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $122.55 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25049.23 (+0.20% on $25000.00 in) · cash $1054.03 · realised +54.03
 Done: 0 sell(s), 8 buy(s); 37 order(s) working; budget left $1000.00 this week
+  (cancelled 1 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $516.82] -> $2998.48 (-0.05%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [stop_loss @ $126.28] -> $2998.61 (-0.05%) — close it all at -0.9% under the average cost
+## 2026-09-11 14:00 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 standing order(s) on INTC: position closed)
+- SELL 100% INTC [stop_loss @ $103.48] -> $2998.48 (-0.05%) — close it all at -1.2% under the average cost
+## 2026-09-11 14:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
