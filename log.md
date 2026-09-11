@@ -544,3 +544,6 @@ Done: 0 sell(s), 3 buy(s); 20 order(s) working; budget left $15299.05 this week
 ## 2026-09-11 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% META [time stop] -> $2194.74 (-0.24%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-11 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $333.38] -> $1804.65 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-11 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders

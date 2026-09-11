@@ -1,14 +1,13 @@
 {
   "week": "2026-W37",
-  "spent": 1763.25,
+  "spent": 0.0,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 0.19,
     "SPY": 0.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
-    "META": 5.26,
-    "AAPL": 1800.0
+    "META": 5.26
   },
   "orders": [
     {
@@ -703,12 +702,33 @@
       ],
       "evidence": "bought 30 min ago, -0.22% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 5.413103,
+      "status": "filled",
+      "price": 333.38,
+      "proceeds": 1804.65,
+      "realized_pnl": 4.65,
+      "realized_pct": 0.26,
+      "date": "2026-09-11",
+      "time_et": "10:24",
+      "ts": 1789136400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $332.53",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 1734.46,
+  "spent_today": 0.0,
   "orders_today": 8,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -716,11 +736,12 @@
     "AMD",
     "IBM",
     "TSM",
-    "META"
+    "META",
+    "AAPL"
   ],
-  "last_check_ts": 1789136547,
-  "book_fp": "[[\"23b20e4c\", 19.0529], [\"2d28a2d1\", 322.5541], [\"532b86e9\", 171.2706], [\"6db29b4c\", 333.3846], [\"ba4576bb\", 310.432], [\"cbf1befa\", 326.0], [\"d6486097\", 220.6088], [\"ee434769\", 126.5984]]",
-  "last_publish_ts": 1789136547,
+  "last_check_ts": 1789136788,
+  "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"ba4576bb\", 310.432], [\"d6486097\", 220.6088], [\"ee434769\", 126.5984]]",
+  "last_publish_ts": 1789136667,
   "last_decision_ts": 1789135447,
   "sold_ts": {
     "INTC": 1789134010,
@@ -729,7 +750,8 @@
     "AMD": 1789135504,
     "IBM": 1789135626,
     "TSM": 1789136274,
-    "META": 1789136547
+    "META": 1789136547,
+    "AAPL": 1789136668
   },
   "deployed": 17000.0,
   "deployed_by_ticker": {
@@ -743,5 +765,5 @@
     "TSM": 1400.0
   },
   "deployed_today": 17000.0,
-  "last_bar_ts": 1789136400
+  "last_bar_ts": 1789136700
 }
