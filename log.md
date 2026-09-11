@@ -464,3 +464,32 @@ Market closed right now. Nothing to do.
 
 ## 2026-09-10 20:31 ET (Thursday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 3 buys, 7 sells) — SIM (pretend money) via sim
 Market closed right now. Nothing to do.
+
+## 2026-09-11 09:33 ET (Friday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Flat book at min_positions target of 5; broad market rally today (SPY +1.01%, DIA +1.16%, most mega-caps green) supports opening positions rather than sitting idle - counterfactual data shows idle_universe_avg was -0.32% but positive-momentum names like AAPL/AMD/GOOGL/BE were the biggest misses on prior idle days. Deploying across momentum/congress-backed mega-cap tech (INTC, AMD, GOOGL, META) plus a nuclear name (CCJ) at a relatively low point in its day range gives 5 diversified names with stops attached for protection within the 30-min hold window.
+lesson: Past idle sessions on green broad-market days generated positive regret (biggest misses were AAPL/AMD/GOOGL momentum names); when SPY/DIA are up >1% intraday, deploy into min_positions rather than waiting.
+  (dropped INTC: 89% up today's range — resting a limit at $102.21 instead of chasing)
+  (dropped GOOGL: 92% up today's range — resting a limit at $337.33 instead of chasing)
+  (dropped META: 92% up today's range — resting a limit at $654.10 instead of chasing)
+- BUY $2500.00 AMD [filled] ['momentum', 'congress'] — Momentum plus congress signal combo was noted as best-performing pairing in past lessons | evidence: AMD +10.81% over 5d, congress net buy pressure 2.0, Rep. Gilbert Cisneros disclosed buy 2026-09-04
+- BUY $2300.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear theme entry at better relative price point than OKLO which is falling hard today | evidence: CCJ at 24.5% of day range (low), -3.57% 5d giving room to run vs peers OKLO down -4.59% today
+  (dropped trigger INTC stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+~ WORKING stop_loss 100% AMD @ $492.80 until 2026-09-11 — Protect against reversal
+~ WORKING stop_loss 100% CCJ @ $93.50 until 2026-09-11 — Protect against reversal
+~ WORKING buy_limit $2500.00 INTC @ $102.21 until 2026-09-11 — wanted it, but not at the high — resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst
+~ WORKING buy_limit $2500.00 GOOGL @ $337.33 until 2026-09-11 — wanted it, but not at the high — resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind
+~ WORKING buy_limit $2200.00 META @ $654.10 until 2026-09-11 — wanted it, but not at the high — resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap
+~ WORKING buy_limit $500.00 AMD @ $490.38 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $97.47 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $94.14 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 COIN @ $171.27 until 2026-09-12 — strong month, weak day: resting 1.30% under $173.52 to catch the dip
+~ WORKING buy_limit $1000.00 NEM @ $126.60 until 2026-09-12 — strong month, weak day: resting 0.68% under $127.47 to catch the dip
+~ WORKING buy_limit $1000.00 DGICA @ $19.05 until 2026-09-12 — strong month, weak day: resting 0.51% under $19.15 to catch the dip
+~ WORKING buy_limit $1000.00 TSM @ $428.31 until 2026-09-12 — strong month, weak day: resting 0.47% under $430.31 to catch the dip
+portfolio: equity $24970.24 (-0.12% on $25000.00 in) · cash $20171.20 · realised -28.80
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week

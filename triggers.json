@@ -1436,7 +1436,213 @@
    "pct_of_position": 33.0,
    "closed": "2026-09-10 15:32",
    "cancel_reason": "position no longer held"
+  },
+  {
+   "id": "a89ad0f5",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 492.8,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "Protect against reversal",
+   "evidence": "ATR 3.6%, current price 505.45",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bcf90a5c",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 93.5,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "Protect against reversal",
+   "evidence": "ATR 3.86%, current price 97.03",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "21cb50cf",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 102.213,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "wanted it, but not at the high \u2014 resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst",
+   "evidence": "INTC +2.59% today, +12.27% 5d, at 89.3% of day range; Pelosi disclosed $250k-1M buy 2026-08-21; headline 'Intel May Raise Chip Prices 10% and Stock Took Off'",
+   "signals": [
+    "momentum",
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-11",
+   "usd": 2500.0
+  },
+  {
+   "id": "ea86605c",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 337.3338,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "wanted it, but not at the high \u2014 resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind",
+   "evidence": "GOOGL +1.88% today, 91.6% of day range, headline 'What a Republican wipeout means for investors' driving broad tech rally",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-11",
+   "usd": 2500.0
+  },
+  {
+   "id": "4d652d52",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 654.1035,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "wanted it, but not at the high \u2014 resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap",
+   "evidence": "META +2.09% today, +7.73% 5d, +13.65% 1m, at 92% of day range",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-11",
+   "usd": 2200.0
+  },
+  {
+   "id": "ff36ccba",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 490.3835,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $505.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "4deb2cfd",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 97.4654,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $97.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "603e93b6",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 94.1385,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $97.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "532b86e9",
+   "ticker": "COIN",
+   "kind": "buy_limit",
+   "price": 171.2706,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
+   "evidence": "+16.4% over the month, sitting at 15% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
+  },
+  {
+   "id": "ee434769",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 126.5984,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "strong month, weak day: resting 0.68% under $127.47 to catch the dip",
+   "evidence": "+8.2% over the month, sitting at 57% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
+  },
+  {
+   "id": "23b20e4c",
+   "ticker": "DGICA",
+   "kind": "buy_limit",
+   "price": 19.0529,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
+   "evidence": "+2.6% over the month, sitting at 0% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
+  },
+  {
+   "id": "74e0024c",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 428.3086,
+   "status": "working",
+   "created": "2026-09-11 09:33",
+   "created_ts": 1789133608,
+   "why": "strong month, weak day: resting 0.47% under $430.31 to catch the dip",
+   "evidence": "+0.3% over the month, sitting at 50% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-10 17:11"
+ "updated": "2026-09-11 09:33"
 }

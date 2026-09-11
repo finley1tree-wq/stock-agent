@@ -1,13 +1,14 @@
 {
   "week": "2026-W37",
-  "spent": 28.79,
+  "spent": 4828.79,
   "by_ticker": {
     "AMAT": 1.05,
-    "CCJ": 10.05,
+    "CCJ": 2310.05,
     "SPY": 0.41,
     "NLR": 13.19,
     "INTC": 5.01,
-    "GOOGN": 0.24
+    "GOOGN": 0.24,
+    "AMD": 2500.0
   },
   "orders": [
     {
@@ -411,24 +412,57 @@
       ],
       "evidence": "bought 40 min ago, -0.93% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.945099,
+      "price": 505.55,
+      "date": "2026-09-11",
+      "time_et": "09:33",
+      "ts": 1789133608,
+      "why": "Momentum plus congress signal combo was noted as best-performing pairing in past lessons",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "AMD +10.81% over 5d, congress net buy pressure 2.0, Rep. Gilbert Cisneros disclosed buy 2026-09-04"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 2300.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.699269,
+      "price": 97.05,
+      "date": "2026-09-11",
+      "time_et": "09:33",
+      "ts": 1789133608,
+      "why": "Nuclear theme entry at better relative price point than OKLO which is falling hard today",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "CCJ at 24.5% of day range (low), -3.57% 5d giving room to run vs peers OKLO down -4.59% today"
     }
   ],
-  "day": "2026-09-10",
-  "spent_today": 0.0,
-  "orders_today": 3,
-  "sells_today": 7,
-  "sold_today": [
-    "AMAT",
-    "SPY",
-    "AMD",
-    "GOOGN",
-    "NLR",
-    "CCJ",
-    "INTC"
-  ],
-  "last_check_ts": 1789070378,
+  "day": "2026-09-11",
+  "spent_today": 4800.0,
+  "orders_today": 2,
+  "sells_today": 0,
+  "sold_today": [],
+  "last_check_ts": 1789133608,
   "book_fp": "[[\"b8e8ffbc\", 117.3797], [\"dbb6ad40\", 99.1728]]",
   "last_publish_ts": 1789069673,
-  "last_decision_ts": 1789068723,
-  "sold_ts": {}
+  "last_decision_ts": 1789133608,
+  "sold_ts": {},
+  "deployed": 4800.0,
+  "deployed_by_ticker": {
+    "AMD": 2500.0,
+    "CCJ": 2300.0
+  },
+  "deployed_today": 4800.0,
+  "last_bar_ts": 1789133400
 }
