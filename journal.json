@@ -51,8 +51,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -133,8 +133,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.39,
-    "ret_final": 1.39,
+    "ret_now": 0.92,
+    "ret_final": 0.92,
     "ret_src": "realised"
   },
   {
@@ -217,8 +217,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -328,8 +328,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -556,8 +556,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.37,
-    "ret_final": 1.37,
+    "ret_now": 0.9,
+    "ret_final": 0.9,
     "ret_src": "realised"
   },
   {
@@ -583,8 +583,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.43,
-    "ret_now": 0.43,
+    "ret_final": 0.28,
+    "ret_now": 0.28,
     "ret_src": "realised"
   },
   {
@@ -779,8 +779,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.29,
-    "ret_now": 0.29,
+    "ret_final": 0.24,
+    "ret_now": 0.24,
     "ret_src": "realised"
   },
   {
@@ -833,8 +833,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.25,
-    "ret_now": 0.25,
+    "ret_final": 0.1,
+    "ret_now": 0.1,
     "ret_src": "realised"
   },
   {
@@ -1301,7 +1301,9 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMD",
@@ -1325,7 +1327,10 @@
     "momentum_1m_at_entry": 6.67,
     "hour_et": 11,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.11,
+    "ret_now": 0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -1349,7 +1354,10 @@
     "momentum_1m_at_entry": -1.63,
     "hour_et": 11,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.06,
+    "ret_now": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -1373,7 +1381,10 @@
     "momentum_1m_at_entry": 0.84,
     "hour_et": 11,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.05,
+    "ret_now": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -1397,7 +1408,10 @@
     "momentum_1m_at_entry": 0.81,
     "hour_et": 11,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.19,
+    "ret_now": 0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -1421,7 +1435,8 @@
     ],
     "evidence": "average cost $432.86",
     "trigger": "stop_loss",
-    "hour_et": 11
+    "hour_et": 11,
+    "hold_minutes": 4
   },
   {
     "symbol": "NEM",
@@ -1445,6 +1460,79 @@
     ],
     "evidence": "average cost $126.6",
     "trigger": "take_profit",
-    "hour_et": 11
+    "hour_et": 11,
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": 2.911135,
+    "status": "filled",
+    "price": 515.83,
+    "proceeds": 1501.64,
+    "realized_pnl": 1.64,
+    "realized_pct": 0.11,
+    "date": "2026-09-11",
+    "time_et": "11:40",
+    "ts": 1789141239,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.13% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "CCJ",
+    "side": "sell",
+    "qty": 15.39417,
+    "status": "filled",
+    "price": 97.5,
+    "proceeds": 1500.94,
+    "realized_pnl": 0.94,
+    "realized_pct": 0.06,
+    "date": "2026-09-11",
+    "time_et": "11:40",
+    "ts": 1789141239,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.08% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 6.303909,
+    "status": "filled",
+    "price": 238.4,
+    "proceeds": 1502.87,
+    "realized_pnl": 2.87,
+    "realized_pct": 0.19,
+    "date": "2026-09-11",
+    "time_et": "11:40",
+    "ts": 1789141239,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.21% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "hold_minutes": 29
   }
 ]

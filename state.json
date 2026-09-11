@@ -1,9 +1,8 @@
 {
   "week": "2026-W37",
-  "spent": 4503.44,
+  "spent": 0.0,
   "by_ticker": {
     "AMAT": 1.05,
-    "CCJ": 1500.19,
     "SPY": 0.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
@@ -12,9 +11,7 @@
     "AVGO": 2.12,
     "MSFT": 2.87,
     "KMT": 2.18,
-    "AMD": 1500.0,
-    "TSM": 0.74,
-    "IBM": 1500.0
+    "TSM": 0.74
   },
   "orders": [
     {
@@ -1086,12 +1083,72 @@
       ],
       "evidence": "average cost $126.6",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 2.911135,
+      "status": "filled",
+      "price": 515.83,
+      "proceeds": 1501.64,
+      "realized_pnl": 1.64,
+      "realized_pct": 0.11,
+      "date": "2026-09-11",
+      "time_et": "11:40",
+      "ts": 1789141239,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.13% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 15.39417,
+      "status": "filled",
+      "price": 97.5,
+      "proceeds": 1500.94,
+      "realized_pnl": 0.94,
+      "realized_pct": 0.06,
+      "date": "2026-09-11",
+      "time_et": "11:40",
+      "ts": 1789141239,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.08% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 6.303909,
+      "status": "filled",
+      "price": 238.4,
+      "proceeds": 1502.87,
+      "realized_pnl": 2.87,
+      "realized_pct": 0.19,
+      "date": "2026-09-11",
+      "time_et": "11:40",
+      "ts": 1789141239,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.21% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 4503.44,
+  "spent_today": 0.0,
   "orders_today": 19,
-  "sells_today": 16,
+  "sells_today": 19,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1109,16 +1166,16 @@
     "KMT",
     "NEM"
   ],
-  "last_check_ts": 1789141205,
-  "book_fp": "[[\"16c7ea3a\", 95.5], [\"1e2abdf1\", 499.8022], [\"23b20e4c\", 19.0529], [\"32e73b24\", 505.0], [\"46d00ae6\", 230.8115], [\"532b86e9\", 171.2706], [\"5b958455\", 233.0], [\"66618da4\", 646.7737], [\"8def27ff\", 94.5168], [\"b66024ed\", 102.3671], [\"ba4576bb\", 310.432], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789140768,
-  "last_decision_ts": 1789139446,
+  "last_check_ts": 1789141423,
+  "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"ba4576bb\", 310.432], [\"f3b06472\", 338.7473]]",
+  "last_publish_ts": 1789141239,
+  "last_decision_ts": 1789141423,
   "sold_ts": {
     "INTC": 1789134010,
     "GOOGL": 1789134349,
-    "CCJ": 1789134443,
-    "AMD": 1789135504,
-    "IBM": 1789135626,
+    "CCJ": 1789141240,
+    "AMD": 1789141240,
+    "IBM": 1789141240,
     "TSM": 1789139723,
     "META": 1789136547,
     "AAPL": 1789136668,

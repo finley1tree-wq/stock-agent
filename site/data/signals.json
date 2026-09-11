@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-11T11:32-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-11T11:44-04:00",
+ "note": "Currently flat with 0 positions and full budget available on the last trading day of the week; SPY/DIA are green (+1.1%) and CPI came in line, matching the pattern from past lessons where idling on green days produced regret. Deploying into 5 widely-held/momentum names near mid-range (not chasing hi",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -133,17 +133,69 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "66618da4",
-   "ticker": "META",
+   "id": "592ebc87",
+   "ticker": "SPY",
    "kind": "buy_limit",
-   "price": 646.7737,
+   "price": 765.1235,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 766.14,
+   "pct_away": -0.13,
+   "good_until": "2026-09-11",
+   "why": "wanted it, but not at the high \u2014 resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down",
+   "signals": [
+    "momentum",
+    "etf_default",
+    "patience"
+   ]
+  },
+  {
+   "id": "5974033c",
+   "ticker": "MRK",
+   "kind": "buy_limit",
+   "price": 143.778,
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 652.27,
-   "pct_away": -0.84,
+   "last": 144.51,
+   "pct_away": -0.51,
    "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
+   "why": "strong month, weak day: resting 0.51% under $144.51 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "e35c7e23",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 152.1995,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 152.99,
+   "pct_away": -0.52,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.52% under $152.99 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "c1f95086",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 365.2996,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 367.89,
+   "pct_away": -0.7,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -157,14 +209,31 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.65,
-   "pct_away": -0.85,
+   "last": 341.45,
+   "pct_away": -0.79,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
    "signals": [
     "news",
     "momentum",
     "patience"
+   ]
+  },
+  {
+   "id": "b84d5c3e",
+   "ticker": "SPCX",
+   "kind": "buy_limit",
+   "price": 147.0339,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 148.29,
+   "pct_away": -0.85,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -185,6 +254,23 @@
    ]
   },
   {
+   "id": "66618da4",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 646.7737,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 653.78,
+   "pct_away": -1.07,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
    "id": "b66024ed",
    "ticker": "INTC",
    "kind": "buy_limit",
@@ -192,129 +278,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.61,
-   "pct_away": -1.2,
+   "last": 103.79,
+   "pct_away": -1.37,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.92% under $103.32 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "16c7ea3a",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 95.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 97.42,
-   "pct_away": -1.97,
-   "good_until": "2026-09-11",
-   "why": "protect capital given past CCJ time-stop loss",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "5b958455",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 233.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 238.17,
-   "pct_away": -2.17,
-   "good_until": "2026-09-11",
-   "why": "limit downside",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "32e73b24",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 505.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 518.5,
-   "pct_away": -2.6,
-   "good_until": "2026-09-11",
-   "why": "cap downside near -2% from entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "ba4576bb",
-   "ticker": "APP",
-   "kind": "buy_limit",
-   "price": 310.432,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 319.05,
-   "pct_away": -2.7,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.87% under $313.17 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "8def27ff",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 94.5168,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 97.42,
-   "pct_away": -2.98,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "46d00ae6",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 230.8115,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 238.17,
-   "pct_away": -3.09,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1e2abdf1",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 499.8022,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 518.5,
-   "pct_away": -3.61,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -325,763 +295,1154 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 180.66,
-   "pct_away": -5.2,
+   "last": null,
+   "pct_away": null,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
    ]
+  },
+  {
+   "id": "ba4576bb",
+   "ticker": "APP",
+   "kind": "buy_limit",
+   "price": 310.432,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": null,
+   "pct_away": null,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.87% under $313.17 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
   }
  ],
- "next_check_minutes": null,
- "last_reasoning": "Only 1 position held (NEM) vs min_positions=5, and remaining_budget is large ($24k). Market is green (SPY +0.92%, DIA +0.89%) with CPI in-line, so per past-lesson pattern deploying into widely_held/momentum names beats idling. Adding AMD, CCJ, TSM, GOOGL, IBM at moderate size with protective stops t",
+ "last_reasoning": "Currently flat with 0 positions and full budget available on the last trading day of the week; SPY/DIA are green (+1.1%) and CPI came in line, matching the pattern from past lessons where idling on green days produced regret. Deploying into 5 widely-held/momentum names near mid-range (not chasing hi",
+ "next_check_minutes": 30,
+ "allowed": [
+  "AAPL",
+  "AEP",
+  "AMD",
+  "AMZN",
+  "ANIX",
+  "AVGO",
+  "BE",
+  "BRK.B",
+  "CCJ",
+  "CHRW",
+  "CLIK",
+  "DGICA",
+  "DIA",
+  "EPAC",
+  "ESE",
+  "FWONK",
+  "GLD",
+  "GOOGL",
+  "HD",
+  "HUBB",
+  "IBM",
+  "INTC",
+  "KMT",
+  "LMT",
+  "LTH",
+  "META",
+  "MGEE",
+  "MRK",
+  "MSFT",
+  "NEM",
+  "NLR",
+  "NOC",
+  "NVDA",
+  "O",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "RLMD",
+  "RTX",
+  "SKWD",
+  "SPCX",
+  "SPY",
+  "TPL",
+  "TSM",
+  "UNH",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "insiders": "ok",
+  "excluded_instruments": [
+   "CYBN excluded: no security information",
+   "JANL excluded: too thinly traded (77/day) \u2014 Janel Corporation",
+   "RGCO excluded: too thinly traded (15,780/day) \u2014 RGC Resources, Inc."
+  ]
+ },
+ "learning": {
+  "horizon": "1d",
+  "decisions_recorded": 30,
+  "decisions_graded": 25,
+  "decisions_with_buys_graded": 3,
+  "independent_days_graded": 3,
+  "avg_regret_pct": 0.09,
+  "chosen_avg_pct": -1.02,
+  "skipped_avg_pct": -0.93,
+  "idle_universe_avg_pct": -0.32,
+  "picking_beats_random": false,
+  "avg_fraction_of_universe_bought": 0.01,
+  "checks_that_bought_everything": 0,
+  "by_signal_chosen": {
+   "congress": {
+    "n": 4,
+    "avg_pct": 0.54
+   },
+   "etf_default": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "momentum": {
+    "n": 6,
+    "avg_pct": -0.18
+   },
+   "news": {
+    "n": 7,
+    "avg_pct": -0.4
+   },
+   "risk_management": {
+    "n": 1,
+    "avg_pct": -0.75
+   },
+   "track_record": {
+    "n": 2,
+    "avg_pct": -2.27
+   }
+  },
+  "biggest_misses": [
+   {
+    "ticker": "AAPL",
+    "fwd_pct": 3.86,
+    "sector": "widely_held",
+    "m1m_then": 4.5,
+    "congress": -1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AMD",
+    "fwd_pct": 3.27,
+    "sector": "off-watchlist",
+    "m1m_then": 4.9,
+    "congress": 1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "GOOGL",
+    "fwd_pct": 2.99,
+    "sector": "widely_held",
+    "m1m_then": -4.3,
+    "congress": -1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "BE",
+    "fwd_pct": 2.9,
+    "sector": "off-watchlist",
+    "m1m_then": 23.8,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "APP",
+    "fwd_pct": 2.9,
+    "sector": "off-watchlist",
+    "m1m_then": -3.3,
+    "congress": 1.0,
+    "insider": 0
+   }
+  ],
+  "biggest_avoided": [
+   {
+    "ticker": "OKLO",
+    "fwd_pct": -8.58
+   },
+   {
+    "ticker": "SAIL",
+    "fwd_pct": -5.83
+   },
+   {
+    "ticker": "BE",
+    "fwd_pct": -4.55
+   }
+  ],
+  "sectors_most_often_missed": {
+   "off-watchlist": {
+    "n": 10
+   },
+   "gold": {
+    "n": 2
+   },
+   "defense": {
+    "n": 2
+   },
+   "widely_held": {
+    "n": 2
+   }
+  },
+  "idle_checks": 22,
+  "blocked_checks": 0,
+  "idle_share": 0.73,
+  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
+  "evidence_strength": "anecdote",
+  "how_many_days_before_this_means_anything": 30,
+  "warning": "only 3 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+ },
+ "disclosure_leaderboard": [
+  {
+   "who": "Tim Moore",
+   "disclosed_buys_scored": 22,
+   "avg_excess_pct": 4.76,
+   "beat_index_rate": 0.64,
+   "best": {
+    "ticker": "CBRL",
+    "excess_pct": 20.0,
+    "disclosed": "2026-01-07"
+   }
+  },
+  {
+   "who": "Robert E. Latta",
+   "disclosed_buys_scored": 4,
+   "avg_excess_pct": 4.63,
+   "beat_index_rate": 0.75,
+   "best": {
+    "ticker": "FMAO",
+    "excess_pct": 7.7,
+    "disclosed": "2026-06-05"
+   }
+  },
+  {
+   "who": "Rick Larsen",
+   "disclosed_buys_scored": 9,
+   "avg_excess_pct": 4.07,
+   "beat_index_rate": 0.78,
+   "best": {
+    "ticker": "CASY",
+    "excess_pct": 10.2,
+    "disclosed": "2026-04-15"
+   }
+  },
+  {
+   "who": "Tim Walberg",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 3.74,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "UA",
+    "excess_pct": 25.4,
+    "disclosed": "2026-06-03"
+   }
+  },
+  {
+   "who": "Rick W. Allen",
+   "disclosed_buys_scored": 6,
+   "avg_excess_pct": 2.81,
+   "beat_index_rate": 0.67,
+   "best": {
+    "ticker": "SPGI",
+    "excess_pct": 7.4,
+    "disclosed": "2026-02-17"
+   }
+  },
+  {
+   "who": "Jared Moskowitz",
+   "disclosed_buys_scored": 33,
+   "avg_excess_pct": 2.33,
+   "beat_index_rate": 0.48,
+   "best": {
+    "ticker": "PANW",
+    "excess_pct": 62.0,
+    "disclosed": "2026-04-30"
+   }
+  },
+  {
+   "who": "Michael A. Rulli",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 2.04,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "MU",
+    "excess_pct": 14.9,
+    "disclosed": "2026-08-07"
+   }
+  },
+  {
+   "who": "Jonathan L. Jackson",
+   "disclosed_buys_scored": 18,
+   "avg_excess_pct": 2.03,
+   "beat_index_rate": 0.61,
+   "best": {
+    "ticker": "C",
+    "excess_pct": 16.4,
+    "disclosed": "2026-03-12"
+   }
+  },
+  {
+   "who": "David J. Taylor",
+   "disclosed_buys_scored": 67,
+   "avg_excess_pct": 1.1,
+   "beat_index_rate": 0.51,
+   "best": {
+    "ticker": "MEDP",
+    "excess_pct": 20.9,
+    "disclosed": "2026-05-28"
+   }
+  },
+  {
+   "who": "Maria Elvira Salazar",
+   "disclosed_buys_scored": 49,
+   "avg_excess_pct": 1.02,
+   "beat_index_rate": 0.43,
+   "best": {
+    "ticker": "MRVL",
+    "excess_pct": 69.6,
+    "disclosed": "2026-05-08"
+   }
+  },
+  {
+   "who": "Josh Gottheimer",
+   "disclosed_buys_scored": 36,
+   "avg_excess_pct": 0.84,
+   "beat_index_rate": 0.53,
+   "best": {
+    "ticker": "AMD",
+    "excess_pct": 27.7,
+    "disclosed": "2026-05-19"
+   }
+  },
+  {
+   "who": "Thomas H. Kean",
+   "disclosed_buys_scored": 13,
+   "avg_excess_pct": 0.82,
+   "beat_index_rate": 0.46,
+   "best": {
+    "ticker": "WPM",
+    "excess_pct": 20.8,
+    "disclosed": "2026-07-15"
+   }
+  }
+ ],
+ "disclosure_leaderboard_meta": {
+  "built": "2026-09-11",
+  "horizon_days": 30,
+  "buys_scored": 1136,
+  "measured_from": "disclosure date, not transaction date",
+  "benchmark": "SPY",
+  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
+ },
+ "disclosure_significance": {
+  "members": 25,
+  "best": "Tim Moore",
+  "best_avg_excess_pct": 4.76,
+  "best_t_stat": 2.18,
+  "members_weighted": 0,
+  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
+  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
+ },
+ "wallet_moves": [],
+ "wallet_status": {
+  "followed_total": 0,
+  "checked_this_pass": 0,
+  "starting_at": 0,
+  "names": []
+ },
  "congress_trades": [
   {
-   "who": "Lloyd Doggett",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "PG",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-08-17",
-   "disclosure_date": "2026-09-08",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "AEP",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-08-26",
-   "disclosure_date": "2026-09-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "AMGN",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-08-26",
-   "disclosure_date": "2026-09-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "AVGO",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-08-26",
-   "disclosure_date": "2026-09-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "FITB",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-08-26",
-   "disclosure_date": "2026-09-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MSFT",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-08-26",
-   "disclosure_date": "2026-09-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "VRTX",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-08-26",
-   "disclosure_date": "2026-09-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "MSB",
-   "type": "buy",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-07-31",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "ALKS",
-   "type": "buy",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-07-30",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "CRNX",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-07-30",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "PRAX",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-30",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "ADBE",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-24",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "BABA",
+   "ticker": "BRO",
    "type": "sell",
    "amount": "$100,001 - $250,000",
-   "transaction_date": "2026-07-24",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "FDX",
+   "ticker": "BWXT",
    "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-21",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "GBCI",
+   "ticker": "CHRW",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CLH",
+   "type": "sell",
+   "amount": "$50,001 - $100,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CNM",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "EME",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ENTG",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ESE",
+   "type": "sell",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "HUBB",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ITT",
+   "type": "sell",
+   "amount": "$250,001 - $500,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LH",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "FWONK",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LTH",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LYV",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MKL",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MLM",
+   "type": "sell",
+   "amount": "$250,001 - $500,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "NDAQ",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "PKG",
+   "type": "sell",
+   "amount": "$50,001 - $100,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "PAYX",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ROL",
+   "type": "sell",
+   "amount": "$50,001 - $100,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "SCI",
+   "type": "sell",
+   "amount": "$50,001 - $100,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "SIG",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "SGI",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "STE",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TDY",
+   "type": "sell",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MIDD",
+   "type": "sell",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TSCO",
+   "type": "sell",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TDG",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TRMB",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "VIK",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "WAB",
+   "type": "sell",
+   "amount": "$100,001 - $250,000",
+   "transaction_date": "2026-08-25",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ESE",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-21",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "SAIL",
+   "ticker": "FWONK",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-21",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "SMTC",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-21",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "VIAV",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-21",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "ACN",
+   "ticker": "LTH",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "AMD",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "APP",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "COIN",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "CMCSA",
+   "ticker": "TDY",
    "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "STZ",
+   "ticker": "MIDD",
    "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "CRWD",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "DD",
+   "ticker": "VIK",
    "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "EA",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
    "chamber": "House",
    "ticker": "IBM",
    "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "KVUE",
+   "ticker": "TDY",
    "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-21",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "LITE",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "MRVL",
+   "ticker": "ESE",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-20",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "MSFT",
+   "ticker": "TDY",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-20",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ESE",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "HUBB",
    "type": "buy",
    "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "NVDA",
+   "ticker": "MLM",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "PLTR",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "PSKY",
+   "ticker": "TDY",
    "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
    "chamber": "House",
-   "ticker": "PGR",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "TTD",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "UBER",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "VZ",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "WDC",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "ZTS",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-17",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "AORT",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "COMP",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "CSW",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "EPAC",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "FN",
+   "ticker": "CB",
    "type": "sell",
    "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
    "chamber": "House",
-   "ticker": "FERG",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "HLI",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "LAMR",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "MTSI",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "RBC",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "SMTC",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "SKWD",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "SFM",
+   "ticker": "MRK",
    "type": "buy",
    "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
    "chamber": "House",
-   "ticker": "SPXC",
+   "ticker": "MRNA",
    "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
    "chamber": "House",
-   "ticker": "USPH",
+   "ticker": "MRNA",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
    "chamber": "House",
-   "ticker": "PCVX",
-   "type": "buy",
+   "ticker": "QCOM",
+   "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-16",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-19",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "ABCB",
+   "ticker": "HUBB",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-10",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-18",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LYV",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-17",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CHRW",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-14",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "HUBB",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-14",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LYV",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-14",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CHRW",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-12",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "April McClain Delaney",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TSCO",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-12",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
+   "chamber": "House",
+   "ticker": "QCOM",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-08-12",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
-   "party": "Democratic",
+   "who": "Maria Elvira Salazar",
+   "party": "Republican",
    "chamber": "House",
-   "ticker": "BCPC",
+   "ticker": "SPCX",
    "type": "buy",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-10",
-   "disclosure_date": "2026-09-04",
+   "transaction_date": "2026-08-12",
+   "disclosure_date": "2026-09-09",
    "owner": "Self",
    "source": "congresswatch"
   },
   {
-   "who": "Gilbert Ray Cisneros",
+   "who": "April McClain Delaney",
    "party": "Democratic",
    "chamber": "House",
-   "ticker": "BCRX",
-   "type": "buy",
+   "ticker": "MIDD",
+   "type": "sell",
    "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-07-10",
-   "disclosure_date": "2026-09-04",
-   "owner": "Self",
+   "transaction_date": "2026-08-10",
+   "disclosure_date": "2026-09-09",
+   "owner": "Dependent Child",
    "source": "congresswatch"
   }
  ],
  "congress_pressure": {
+  "CHRW": 3.0,
+  "HUBB": 3.0,
+  "LTH": 3.0,
+  "ESE": 2.0,
+  "FWONK": 2.0,
+  "BRK.B": 2.0,
   "AVGO": 2.0,
   "AMD": 2.0,
   "EPAC": 2.0,
   "SKWD": 2.0,
   "BE": 2.0,
   "INTC": 2.0,
+  "MRK": 1.0,
+  "SPCX": 1.0,
   "AEP": 1.0,
   "FITB": 1.0,
   "MSB": 1.0,
   "ALKS": 1.0,
   "PRAX": 1.0,
-  "GBCI": 1.0,
-  "SAIL": 1.0,
-  "APP": 1.0,
-  "COIN": 1.0,
-  "CRWD": 1.0,
-  "MRVL": 1.0,
-  "PLTR": 1.0,
-  "TTD": 1.0,
-  "WDC": 1.0
+  "GBCI": 1.0
  },
  "insider_trades": [
+  {
+   "who": "Tsur David",
+   "role": "director",
+   "ticker": "KMDA",
+   "type": "sell",
+   "shares": 14238,
+   "price": 8.28,
+   "transaction_date": "2026-09-07",
+   "filing_date": "2026-09-11"
+  },
+  {
+   "who": "Tsur David",
+   "role": "director",
+   "ticker": "KMDA",
+   "type": "sell",
+   "shares": 162760,
+   "price": 8.26,
+   "transaction_date": "2026-09-08",
+   "filing_date": "2026-09-11"
+  },
+  {
+   "who": "Tsur David",
+   "role": "director",
+   "ticker": "KMDA",
+   "type": "sell",
+   "shares": 175,
+   "price": 8.26,
+   "transaction_date": "2026-09-09",
+   "filing_date": "2026-09-11"
+  },
+  {
+   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+   "role": "10 percent owner",
+   "ticker": "TPL",
+   "type": "buy",
+   "shares": 1,
+   "price": 366.18,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-11"
+  },
   {
    "who": "Korczynski Sherry",
    "role": "officer: Chief Commercial Officer",
@@ -1641,46 +2002,6 @@
    "price": 107.92,
    "transaction_date": "2026-09-10",
    "filing_date": "2026-09-11"
-  },
-  {
-   "who": "Ye Gang",
-   "role": "director, officer: COO",
-   "ticker": "SE",
-   "type": "sell",
-   "shares": 3901,
-   "price": 108.54,
-   "transaction_date": "2026-09-10",
-   "filing_date": "2026-09-11"
-  },
-  {
-   "who": "Wang Yanjun",
-   "role": "officer: CCO and GC",
-   "ticker": "SE",
-   "type": "sell",
-   "shares": 795,
-   "price": 108.41,
-   "transaction_date": "2026-09-09",
-   "filing_date": "2026-09-11"
-  },
-  {
-   "who": "Wang Yanjun",
-   "role": "officer: CCO and GC",
-   "ticker": "SE",
-   "type": "sell",
-   "shares": 405,
-   "price": 109.23,
-   "transaction_date": "2026-09-09",
-   "filing_date": "2026-09-11"
-  },
-  {
-   "who": "Wang Yanjun",
-   "role": "officer: CCO and GC",
-   "ticker": "SE",
-   "type": "sell",
-   "shares": 84,
-   "price": 110.56,
-   "transaction_date": "2026-09-09",
-   "filing_date": "2026-09-11"
   }
  ],
  "insider_pressure": {
@@ -1688,6 +2009,7 @@
   "RLMD": 4.0,
   "DGICA": 2.0,
   "CYBN": 2.0,
+  "TPL": 1.0,
   "JANL": 1.0,
   "MGEE": 1.0,
   "KMT": 1.0,
@@ -1697,13 +2019,12 @@
   "WSFS": -1.0,
   "HIPO": -1.0,
   "ZKH": -1.0,
-  "ASPI": -1.0,
-  "PTGX": -1.0,
   "KIDS": -2.0,
-  "PAYS": -2.0,
+  "DAO": -2.0,
+  "KMDA": -3.0,
   "PMA": -3.0,
   "LPG": -3.0,
-  "DAO": -3.0
+  "PHI": -5.0
  },
  "headlines": {
   "AAPL": [
@@ -1713,14 +2034,14 @@
     "when": "2026-09-11T12:00"
    },
    {
-    "title": "Apple dips its toe into AI, but will AI companies compete in hardware?",
+    "title": "Why hardware will attract buyers to Apple's new lineup over AI features",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-10T15:20"
+    "when": "2026-09-10T19:29"
    },
    {
-    "title": "Skyworks Rises 7%, Qorvo Gains 5% as CEO Says $22B Merger Is in Final Stages; Qualcomm Ticks Up",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-11T14:11"
+    "title": "Stock Market Falls On Soaring Oil Prices, Yields, But Finishes Strong; CPI Inflation, Apple, Oracle, Meta In Focus: Weekly Review",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-11T15:16"
    }
   ],
   "AEP": [
@@ -1740,38 +2061,21 @@
     "when": "2026-09-08T10:52"
    }
   ],
-  "ALKS": [
-   {
-    "title": "Alkermes Chief Commercial Officer Sells 7,576 Shares for $373,000",
-    "source": "Motley Fool",
-    "when": "2026-08-29T19:00"
-   },
-   {
-    "title": "Why Is Alkermes (ALKS) Up 1.7% Since Last Earnings Report?",
-    "source": "Zacks",
-    "when": "2026-08-27T15:30"
-   },
-   {
-    "title": "Indivior's Supernus Merger Could Broaden Its Growth Engine in 2026",
-    "source": "Zacks",
-    "when": "2026-08-21T16:40"
-   }
-  ],
   "AMD": [
+   {
+    "title": "Advanced Micro Devices vs. Qualcomm: Which Technology Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-11T15:17"
+   },
+   {
+    "title": "3 Semiconductor Stocks with Competitive Advantages",
+    "source": "StockStory",
+    "when": "2026-09-11T15:07"
+   },
    {
     "title": "Forget AMD. Here's Who Nvidia Really Needs to Be Worried About.",
     "source": "Motley Fool",
     "when": "2026-09-11T15:05"
-   },
-   {
-    "title": "Oracle, Micron, Kroger, Adobe, Hewlett Packard, and More Stocks That Explain Today\u2019s Market",
-    "source": "Barrons.com",
-    "when": "2026-09-11T14:21"
-   },
-   {
-    "title": "Leopold Aschenbrenner's Situational Awareness buying options after collapse",
-    "source": "Quartz",
-    "when": "2026-09-11T14:20"
    }
   ],
   "AMZN": [
@@ -1781,14 +2085,14 @@
     "when": "2026-09-10T20:37"
    },
    {
-    "title": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock?",
-    "source": "Trefis",
-    "when": "2026-09-11T14:37"
+    "title": "Morningstar Says Your Emerging Markets Fund and Your Value ETF Are Both AI Bets Now",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T15:15"
    },
    {
-    "title": "Amazon to invest $230m in Whole Foods staff benefits",
-    "source": "Retail Insight Network",
-    "when": "2026-09-11T14:34"
+    "title": "Qualcomm\u2019s AI Ambitions Get a Boost From Amazon Partnership",
+    "source": "Insider Monkey",
+    "when": "2026-09-11T15:12"
    }
   ],
   "ANIX": [
@@ -1808,38 +2112,21 @@
     "when": "2026-07-22T11:15"
    }
   ],
-  "APP": [
-   {
-    "title": "Should You Buy AppLovin Stock For Its Widening Margin?",
-    "source": "Trefis",
-    "when": "2026-09-11T01:22"
-   },
-   {
-    "title": "Why Is AppLovin Stock Trading Near Its Low While Revenue Keeps Growing?",
-    "source": "Trefis",
-    "when": "2026-09-11T00:53"
-   },
-   {
-    "title": "AppLovin vs. Reddit: Which Technology Stock Is a Better Buy in 2026?",
-    "source": "Motley Fool",
-    "when": "2026-09-10T18:20"
-   }
-  ],
   "AVGO": [
+   {
+    "title": "TSMC Price Prediction: One Number Could Define the Stock\u2019s Next Move",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T15:30"
+   },
+   {
+    "title": "3 Semiconductor Stocks with Competitive Advantages",
+    "source": "StockStory",
+    "when": "2026-09-11T15:07"
+   },
    {
     "title": "Forget AMD. Here's Who Nvidia Really Needs to Be Worried About.",
     "source": "Motley Fool",
     "when": "2026-09-11T15:05"
-   },
-   {
-    "title": "How Far Could Intel Stock Fall After More Than Quadrupling In A Year?",
-    "source": "Trefis",
-    "when": "2026-09-11T13:44"
-   },
-   {
-    "title": "MRVL Rides on the AI Capex Wave: What's Ahead for Investors?",
-    "source": "Zacks",
-    "when": "2026-09-11T13:12"
    }
   ],
   "BE": [
@@ -1859,6 +2146,23 @@
     "when": "2026-09-10T22:50"
    }
   ],
+  "BRK.B": [
+   {
+    "title": "Best Blue Chip Stocks: 21 Hedge Fund Top Picks",
+    "source": "Kiplinger",
+    "when": "2026-08-25T17:44"
+   },
+   {
+    "title": "US Equity Markets End Lower Amid Rise in Crude Oil Prices Following Trump's Threat to Attack Oman",
+    "source": "MT Newswires",
+    "when": "2026-08-17T20:19"
+   },
+   {
+    "title": "All the Stocks Berkshire Hathaway Bought and Sold in Q2",
+    "source": "Kiplinger",
+    "when": "2026-08-14T23:02"
+   }
+  ],
   "CCJ": [
    {
     "title": "Cameco (CCJ) Registers a Bigger Fall Than the Market: Important Facts to Note",
@@ -1876,28 +2180,28 @@
     "when": "2026-09-10T18:12"
    }
   ],
+  "CHRW": [
+   {
+    "title": "3 Profitable Stocks We Steer Clear Of",
+    "source": "StockStory",
+    "when": "2026-09-10T17:37"
+   },
+   {
+    "title": "Should You Buy Uber Stock Because Its Operating Margin Keeps Climbing?",
+    "source": "Trefis",
+    "when": "2026-09-09T21:50"
+   },
+   {
+    "title": "At tech/AI confab, C.H. Robinson tackles insurance and liability",
+    "source": "FreightWaves",
+    "when": "2026-09-08T22:07"
+   }
+  ],
   "CLIK": [
    {
     "title": "Insider Buying: Click Holdings Founder Bought US$57k Of Shares",
     "source": "Simply Wall St.",
     "when": "2026-06-13T13:03"
-   }
-  ],
-  "COIN": [
-   {
-    "title": "XRP Price Prediction: We Asked ChatGPT Where XRP Trades in 2 Years",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-11T12:19"
-   },
-   {
-    "title": "Coinbase Global Maps \u2018Everything Exchange\u2019 Push Beyond Crypto Trading",
-    "source": "MarketBeat",
-    "when": "2026-09-11T12:02"
-   },
-   {
-    "title": "Bitcoin Could Hit $400K, Coinbase CEO Says as Iran War Threatens Rally",
-    "source": "CCN",
-    "when": "2026-09-11T11:52"
    }
   ],
   "DGICA": [
@@ -1951,38 +2255,38 @@
     "when": "2026-07-29T18:09"
    }
   ],
-  "FITB": [
+  "ESE": [
    {
-    "title": "Fifth Third-Comerica merger leaves some customers angry over glitches",
-    "source": "Detroit Free Press",
-    "when": "2026-09-09T13:58"
+    "title": "2 Profitable Stocks for Long-Term Investors and 1 That Underwhelm",
+    "source": "StockStory",
+    "when": "2026-09-04T08:30"
    },
    {
-    "title": "Will CBSH's Expansion Initiatives Accelerate Top-Line Growth?",
+    "title": "Is ESCO Technologies (ESE) Outperforming Other Business Services Stocks This Year?",
     "source": "Zacks",
-    "when": "2026-09-08T14:31"
+    "when": "2026-09-03T13:40"
    },
    {
-    "title": "WaFd Agrees to $3.9 Billion Reverse Merger Deal With EverBank Financial",
-    "source": "MT Newswires",
-    "when": "2026-09-08T11:26"
+    "title": "Down 18.5% in 4 Weeks, Here's Why You Should You Buy the Dip in Esco Technologies (ESE)",
+    "source": "Zacks",
+    "when": "2026-09-03T13:35"
    }
   ],
-  "GBCI": [
+  "FWONK": [
    {
-    "title": "Regional Bank Insider Buys 2,250 Shares, Valued at More Than $105,000",
-    "source": "Motley Fool",
-    "when": "2026-09-01T15:30"
+    "title": "Formula One\u2019s Drive to Capture American Eyeballs Makes the Stock a Buy",
+    "source": "Barrons.com",
+    "when": "2026-08-20T17:06"
    },
    {
-    "title": "2 Bank Stocks with Competitive Advantages and 1 We Question",
-    "source": "StockStory",
-    "when": "2026-08-31T13:26"
+    "title": "Liberty Media Corporation - Liberty Formula One Series C (FWONK) Q2 Earnings and Revenues Miss Estimates",
+    "source": "Zacks",
+    "when": "2026-08-06T19:30"
    },
    {
-    "title": "3 Russell 2000 Stocks We Steer Clear Of",
-    "source": "StockStory",
-    "when": "2026-08-28T13:44"
+    "title": "Atlanta Braves Holdings, Inc. (BATRA) Reports Q2 Loss, Lags Revenue Estimates",
+    "source": "Zacks",
+    "when": "2026-08-05T13:55"
    }
   ],
   "GLD": [
@@ -2036,6 +2340,23 @@
     "when": "2026-09-10T23:37"
    }
   ],
+  "HUBB": [
+   {
+    "title": "Is Eaton Stock Amplifying A Risk You Already Own?",
+    "source": "Trefis",
+    "when": "2026-09-11T01:16"
+   },
+   {
+    "title": "Vertiv Has Cooled For 3 Months: A Wall Street Strategist Says It Will Rebound 45% Very Soon",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-10T11:44"
+   },
+   {
+    "title": "Eaton Stock Looks Expensive Until You Price The Factory Ramp",
+    "source": "Trefis",
+    "when": "2026-09-03T22:29"
+   }
+  ],
   "IBM": [
    {
     "title": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock?",
@@ -2043,31 +2364,31 @@
     "when": "2026-09-11T14:37"
    },
    {
-    "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-11T14:22"
-   },
-   {
     "title": "Can IBM's Latest Innovation Hub Advance Quantum Computing Ecosystem?",
     "source": "Zacks",
     "when": "2026-09-11T14:15"
+   },
+   {
+    "title": "IonQ Advances Quantum Computing With Superion 256: What's Ahead?",
+    "source": "Zacks",
+    "when": "2026-09-11T12:37"
    }
   ],
   "INTC": [
    {
-    "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-11T14:22"
+    "title": "TSMC Price Prediction: One Number Could Define the Stock\u2019s Next Move",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T15:30"
+   },
+   {
+    "title": "Prediction: This AI Stock Could Be the Next One to Shock Wall Street",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T15:00"
    },
    {
     "title": "Intel Climbs 3% on Chip Price Hike Report a Day After Piper Sandler Went Neutral; AMD Rises 2%, Taiwan Semiconductor Drifts",
     "source": "24/7 Wall St.",
     "when": "2026-09-11T14:17"
-   },
-   {
-    "title": "How Far Could Intel Stock Fall After More Than Quadrupling In A Year?",
-    "source": "Trefis",
-    "when": "2026-09-11T13:44"
    }
   ],
   "KMT": [
@@ -2089,6 +2410,11 @@
   ],
   "LMT": [
    {
+    "title": "Can Northrop Grumman's European Expansion Drive Growth?",
+    "source": "Zacks",
+    "when": "2026-09-11T15:07"
+   },
+   {
     "title": "Can IBM's Latest Innovation Hub Advance Quantum Computing Ecosystem?",
     "source": "Zacks",
     "when": "2026-09-11T14:15"
@@ -2097,11 +2423,23 @@
     "title": "How Could Project Anaconda Expand Kratos' Role in Naval Radar?",
     "source": "Zacks",
     "when": "2026-09-11T13:57"
+   }
+  ],
+  "LTH": [
+   {
+    "title": "Wall Street Analysts Think Life Time Group Holdings (LTH) Could Surge 27.71%: Read This Before Placing a Bet",
+    "source": "Zacks",
+    "when": "2026-09-08T13:55"
    },
    {
-    "title": "The Inflation Nightmare Will Hit the Stock Market\u2014Sooner or Later",
-    "source": "Barrons.com",
-    "when": "2026-09-11T11:39"
+    "title": "Is Planet Fitness a Buy as Low Valuation Meets Slower Member Growth?",
+    "source": "Zacks",
+    "when": "2026-08-25T16:12"
+   },
+   {
+    "title": "Can PLNT's Buybacks Sustain Higher EPS Growth Despite Margin Pressure?",
+    "source": "Zacks",
+    "when": "2026-08-25T16:10"
    }
   ],
   "META": [
@@ -2116,9 +2454,9 @@
     "when": "2026-09-10T20:57"
    },
    {
-    "title": "Mark Zuckerberg May Have Found Meta\u2019s Next Hit. Would You Hand It Your Email and Passwords?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-11T14:45"
+    "title": "Stock Market Falls On Soaring Oil Prices, Yields, But Finishes Strong; CPI Inflation, Apple, Oracle, Meta In Focus: Weekly Review",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-11T15:16"
    }
   ],
   "MGEE": [
@@ -2138,6 +2476,23 @@
     "when": "2026-08-31T15:45"
    }
   ],
+  "MRK": [
+   {
+    "title": "MRK Banks on Growing Pipeline & New Drugs to Offset Keytruda LOE",
+    "source": "Zacks",
+    "when": "2026-09-11T15:17"
+   },
+   {
+    "title": "Merck builds around Keytruda; prediction markets raise new risks",
+    "source": "Pharma Voice",
+    "when": "2026-09-11T02:01"
+   },
+   {
+    "title": "Merck (MRK) Dips More Than Broader Market: What You Should Know",
+    "source": "Zacks",
+    "when": "2026-09-10T21:50"
+   }
+  ],
   "MSFT": [
    {
     "title": "Oracle is the most attractive AI cloud, analyst says",
@@ -2150,9 +2505,9 @@
     "when": "2026-09-10T20:57"
    },
    {
-    "title": "Microsoft Targets 38GW Data Center Buildout as AI Capacity Crunch Bites",
-    "source": "GuruFocus.com",
-    "when": "2026-09-11T15:09"
+    "title": "AI Capex Creates New Investment Cycle: NVIDIA & 2 Other Stocks to Buy",
+    "source": "Zacks",
+    "when": "2026-09-11T15:21"
    }
   ],
   "NEM": [
@@ -2191,6 +2546,11 @@
   ],
   "NOC": [
    {
+    "title": "Can Northrop Grumman's European Expansion Drive Growth?",
+    "source": "Zacks",
+    "when": "2026-09-11T15:07"
+   },
+   {
     "title": "Boeing or Northrop? The Navy\u2019s Next Fighter Race Is Down to the Wire.",
     "source": "Barrons.com",
     "when": "2026-09-10T16:38"
@@ -2199,28 +2559,23 @@
     "title": "How Far Could Boeing Stock Fall If The Market Turns?",
     "source": "Trefis",
     "when": "2026-09-10T15:24"
-   },
-   {
-    "title": "AeroVironment Quarterly Earnings, Revenue Unexpectedly Increase; Maintains Full-Year Outlook",
-    "source": "MT Newswires",
-    "when": "2026-09-10T11:15"
    }
   ],
   "NVDA": [
    {
-    "title": "Tech stocks rally as oil prices fall, inflation remains sticky: AlphaCheck",
-    "source": "Yahoo Finance",
-    "when": "2026-09-11T14:05"
+    "title": "What a Republican 'wipeout' in the midterm elections means for investors",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-11T12:00"
    },
    {
-    "title": "SpaceX stock rises with data center overhaul, budding UK defense deal in focus",
-    "source": "Yahoo Finance",
-    "when": "2026-09-10T16:00"
+    "title": "Qualcomm\u2019s AWS Deal Takes Aim at Nvidia, But Comes With Fine Print",
+    "source": "Insider Monkey",
+    "when": "2026-09-11T15:40"
    },
    {
-    "title": "Nvidia Rival Enflame  Soars 206% in Shanghai Debut",
-    "source": "GuruFocus.com",
-    "when": "2026-09-11T15:09"
+    "title": "TSMC Price Prediction: One Number Could Define the Stock\u2019s Next Move",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T15:30"
    }
   ],
   "O": [
@@ -2242,6 +2597,11 @@
   ],
   "OKLO": [
    {
+    "title": "Oklo shares slide after company launches new $1B stock offering",
+    "source": "Proactive",
+    "when": "2026-09-11T15:12"
+   },
+   {
     "title": "Oklo Shares Fall 3.5% After Launch of Up to $1 Billion Stock Offering Program",
     "source": "InvestorsHub",
     "when": "2026-09-11T13:32"
@@ -2250,11 +2610,6 @@
     "title": "NuScale Power Drops 5% as UBS Cuts to Sell on Timeline and Cash Burn, Oklo Slips",
     "source": "24/7 Wall St.",
     "when": "2026-09-11T13:25"
-   },
-   {
-    "title": "Oklo Stock Declines Following Launch Of $1B Share-Sale Program",
-    "source": "Stocktwits",
-    "when": "2026-09-11T12:59"
    }
   ],
   "PLD": [
@@ -2276,6 +2631,11 @@
   ],
   "PLTR": [
    {
+    "title": "Can Snowflake Stock Keep Climbing On The Work Its AI Tools Bring In?",
+    "source": "Trefis",
+    "when": "2026-09-11T15:00"
+   },
+   {
     "title": "Palantir Puts Its Momentum on Display. Can It Move the Stock?",
     "source": "Barrons.com",
     "when": "2026-09-11T14:54"
@@ -2284,28 +2644,6 @@
     "title": "Inovio Nears FDA Decision on INO-3107 as Oct. 30 PDUFA Date Looms",
     "source": "MarketBeat",
     "when": "2026-09-11T13:02"
-   },
-   {
-    "title": "Palantir Technologies Inc. (PLTR) is Attracting Investor Attention: Here is What You Should Know",
-    "source": "Zacks",
-    "when": "2026-09-11T13:00"
-   }
-  ],
-  "PRAX": [
-   {
-    "title": "Praxis (PRAX) Q2 2026 Earnings Call Transcript",
-    "source": "Motley Fool",
-    "when": "2026-08-13T16:29"
-   },
-   {
-    "title": "4 Biotech Stocks With Major Second-Half Pipeline Catalysts This Year",
-    "source": "Zacks",
-    "when": "2026-08-11T14:01"
-   },
-   {
-    "title": "Is Praxis (PRAX) Trading Bigger Losses for Long-Run CNS Ambition With Its Cash War Chest?",
-    "source": "Simply Wall St.",
-    "when": "2026-08-08T22:12"
    }
   ],
   "RLMD": [
@@ -2327,6 +2665,11 @@
   ],
   "RTX": [
    {
+    "title": "Can Northrop Grumman's European Expansion Drive Growth?",
+    "source": "Zacks",
+    "when": "2026-09-11T15:07"
+   },
+   {
     "title": "How Could Project Anaconda Expand Kratos' Role in Naval Radar?",
     "source": "Zacks",
     "when": "2026-09-11T13:57"
@@ -2335,28 +2678,6 @@
     "title": "The Zacks Analyst Blog Highlights Goldman Sachs, RTX, Abbott, NLI and Precipio",
     "source": "Zacks",
     "when": "2026-09-11T09:20"
-   },
-   {
-    "title": "Top Research Reports for Goldman Sachs, RTX & Abbott",
-    "source": "Zacks",
-    "when": "2026-09-10T20:12"
-   }
-  ],
-  "SAIL": [
-   {
-    "title": "SailPoint AI Pipeline Could Drive Increasing Annual Recurring Revenue Upside, RBC Says",
-    "source": "MT Newswires",
-    "when": "2026-09-10T15:36"
-   },
-   {
-    "title": "SailPoint (SAIL) Q2 2027 Earnings Call Transcript",
-    "source": "Motley Fool",
-    "when": "2026-09-10T02:43"
-   },
-   {
-    "title": "SailPoint Inc (SAIL) (Q2 2027) Earnings Call Highlights: SaaS ARR Surges 36% as AI-Driven ...",
-    "source": "GuruFocus.com",
-    "when": "2026-09-09T21:00"
    }
   ],
   "SKWD": [
@@ -2376,6 +2697,23 @@
     "when": "2026-09-03T15:30"
    }
   ],
+  "SPCX": [
+   {
+    "title": "SpaceX signs another AI computing deal, with $100 billion in ARR 'on track,' CFO says",
+    "source": "Yahoo Finance",
+    "when": "2026-09-11T15:29"
+   },
+   {
+    "title": "SpaceX Just Crossed a New Military Satellite Line Few Investors Saw Coming",
+    "source": "GuruFocus.com",
+    "when": "2026-09-11T15:40"
+   },
+   {
+    "title": "SpaceX Exec Says Starship Will Generate Revenue for First Time \u2018Later This Month\u2019",
+    "source": "Benzinga Prediction Markets",
+    "when": "2026-09-11T15:25"
+   }
+  ],
   "SPY": [
    {
     "title": "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains 4%",
@@ -2393,21 +2731,38 @@
     "when": "2026-09-11T13:26"
    }
   ],
+  "TPL": [
+   {
+    "title": "Liberty Energy, Green Plains, Murphy Oil, Patterson-UTI, and Texas Pacific Land Shares Are Soaring, What You Need To Know",
+    "source": "StockStory",
+    "when": "2026-09-09T01:59"
+   },
+   {
+    "title": "2 S&P 500 Stocks for Long-Term Investors and 1 We Turn Down",
+    "source": "StockStory",
+    "when": "2026-09-02T18:12"
+   },
+   {
+    "title": "Do Wall Street Analysts Like Texas Pacific Land Stock?",
+    "source": "Barchart",
+    "when": "2026-08-17T15:57"
+   }
+  ],
   "TSM": [
+   {
+    "title": "TSMC Price Prediction: One Number Could Define the Stock\u2019s Next Move",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T15:30"
+   },
+   {
+    "title": "Morningstar Says Your Emerging Markets Fund and Your Value ETF Are Both AI Bets Now",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T15:15"
+   },
    {
     "title": "Intel Climbs 3% on Chip Price Hike Report a Day After Piper Sandler Went Neutral; AMD Rises 2%, Taiwan Semiconductor Drifts",
     "source": "24/7 Wall St.",
     "when": "2026-09-11T14:17"
-   },
-   {
-    "title": "TSM\u2019s Record Sales Say AI Chips Are Booming. The Nvidia-AMD Fight Is Now About Who Keeps the Margin",
-    "source": "Insider Monkey",
-    "when": "2026-09-11T12:57"
-   },
-   {
-    "title": "Tech, Media & Telecom Roundup: Market Talk",
-    "source": "The Wall Street Journal",
-    "when": "2026-09-11T12:51"
    }
   ],
   "UNH": [
@@ -2446,338 +2801,5 @@
   ]
  },
  "people_news": {},
- "allowed": [
-  "AAPL",
-  "AEP",
-  "ALKS",
-  "AMD",
-  "AMZN",
-  "ANIX",
-  "APP",
-  "AVGO",
-  "BE",
-  "CCJ",
-  "CLIK",
-  "COIN",
-  "DGICA",
-  "DIA",
-  "EPAC",
-  "FITB",
-  "GBCI",
-  "GLD",
-  "GOOGL",
-  "HD",
-  "IBM",
-  "INTC",
-  "KMT",
-  "LMT",
-  "META",
-  "MGEE",
-  "MSFT",
-  "NEM",
-  "NLR",
-  "NOC",
-  "NVDA",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "PRAX",
-  "RLMD",
-  "RTX",
-  "SAIL",
-  "SKWD",
-  "SPY",
-  "TSM",
-  "UNH",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
-  "insiders": "ok",
-  "excluded_instruments": [
-   "CYBN excluded: no security information",
-   "JANL excluded: too thinly traded (77/day) \u2014 Janel Corporation",
-   "MSB excluded: too thinly traded (38,896/day) \u2014 Mesabi Trust",
-   "RGCO excluded: too thinly traded (15,780/day) \u2014 RGC Resources, Inc."
-  ]
- },
- "learning": {
-  "horizon": "1d",
-  "decisions_recorded": 29,
-  "decisions_graded": 25,
-  "decisions_with_buys_graded": 3,
-  "independent_days_graded": 3,
-  "avg_regret_pct": 0.09,
-  "chosen_avg_pct": -1.02,
-  "skipped_avg_pct": -0.93,
-  "idle_universe_avg_pct": -0.32,
-  "picking_beats_random": false,
-  "avg_fraction_of_universe_bought": 0.01,
-  "checks_that_bought_everything": 0,
-  "by_signal_chosen": {
-   "congress": {
-    "n": 4,
-    "avg_pct": 0.54
-   },
-   "etf_default": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "momentum": {
-    "n": 6,
-    "avg_pct": -0.18
-   },
-   "news": {
-    "n": 7,
-    "avg_pct": -0.4
-   },
-   "risk_management": {
-    "n": 1,
-    "avg_pct": -0.75
-   },
-   "track_record": {
-    "n": 2,
-    "avg_pct": -2.27
-   }
-  },
-  "biggest_misses": [
-   {
-    "ticker": "AAPL",
-    "fwd_pct": 3.86,
-    "sector": "widely_held",
-    "m1m_then": 4.5,
-    "congress": -1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "AMD",
-    "fwd_pct": 3.27,
-    "sector": "off-watchlist",
-    "m1m_then": 4.9,
-    "congress": 1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "GOOGL",
-    "fwd_pct": 2.99,
-    "sector": "widely_held",
-    "m1m_then": -4.3,
-    "congress": -1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "BE",
-    "fwd_pct": 2.9,
-    "sector": "off-watchlist",
-    "m1m_then": 23.8,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "APP",
-    "fwd_pct": 2.9,
-    "sector": "off-watchlist",
-    "m1m_then": -3.3,
-    "congress": 1.0,
-    "insider": 0
-   }
-  ],
-  "biggest_avoided": [
-   {
-    "ticker": "OKLO",
-    "fwd_pct": -8.58
-   },
-   {
-    "ticker": "SAIL",
-    "fwd_pct": -5.83
-   },
-   {
-    "ticker": "BE",
-    "fwd_pct": -4.55
-   }
-  ],
-  "sectors_most_often_missed": {
-   "off-watchlist": {
-    "n": 10
-   },
-   "gold": {
-    "n": 2
-   },
-   "defense": {
-    "n": 2
-   },
-   "widely_held": {
-    "n": 2
-   }
-  },
-  "idle_checks": 21,
-  "blocked_checks": 0,
-  "idle_share": 0.72,
-  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
-  "evidence_strength": "anecdote",
-  "how_many_days_before_this_means_anything": 30,
-  "warning": "only 3 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
- },
- "signalsAsOf": "2026-09-11T11:11-04:00",
- "disclosure_leaderboard": [
-  {
-   "who": "Tim Moore",
-   "disclosed_buys_scored": 22,
-   "avg_excess_pct": 4.76,
-   "beat_index_rate": 0.64,
-   "best": {
-    "ticker": "CBRL",
-    "excess_pct": 20.0,
-    "disclosed": "2026-01-07"
-   }
-  },
-  {
-   "who": "Robert E. Latta",
-   "disclosed_buys_scored": 4,
-   "avg_excess_pct": 4.63,
-   "beat_index_rate": 0.75,
-   "best": {
-    "ticker": "FMAO",
-    "excess_pct": 7.7,
-    "disclosed": "2026-06-05"
-   }
-  },
-  {
-   "who": "Rick Larsen",
-   "disclosed_buys_scored": 9,
-   "avg_excess_pct": 4.07,
-   "beat_index_rate": 0.78,
-   "best": {
-    "ticker": "CASY",
-    "excess_pct": 10.2,
-    "disclosed": "2026-04-15"
-   }
-  },
-  {
-   "who": "Tim Walberg",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 3.74,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "UA",
-    "excess_pct": 25.4,
-    "disclosed": "2026-06-03"
-   }
-  },
-  {
-   "who": "Rick W. Allen",
-   "disclosed_buys_scored": 6,
-   "avg_excess_pct": 2.81,
-   "beat_index_rate": 0.67,
-   "best": {
-    "ticker": "SPGI",
-    "excess_pct": 7.4,
-    "disclosed": "2026-02-17"
-   }
-  },
-  {
-   "who": "Jared Moskowitz",
-   "disclosed_buys_scored": 33,
-   "avg_excess_pct": 2.33,
-   "beat_index_rate": 0.48,
-   "best": {
-    "ticker": "PANW",
-    "excess_pct": 62.0,
-    "disclosed": "2026-04-30"
-   }
-  },
-  {
-   "who": "Michael A. Rulli",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 2.04,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "MU",
-    "excess_pct": 14.9,
-    "disclosed": "2026-08-07"
-   }
-  },
-  {
-   "who": "Jonathan L. Jackson",
-   "disclosed_buys_scored": 18,
-   "avg_excess_pct": 2.03,
-   "beat_index_rate": 0.61,
-   "best": {
-    "ticker": "C",
-    "excess_pct": 16.4,
-    "disclosed": "2026-03-12"
-   }
-  },
-  {
-   "who": "David J. Taylor",
-   "disclosed_buys_scored": 67,
-   "avg_excess_pct": 1.1,
-   "beat_index_rate": 0.51,
-   "best": {
-    "ticker": "MEDP",
-    "excess_pct": 20.9,
-    "disclosed": "2026-05-28"
-   }
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "disclosed_buys_scored": 49,
-   "avg_excess_pct": 1.02,
-   "beat_index_rate": 0.43,
-   "best": {
-    "ticker": "MRVL",
-    "excess_pct": 69.6,
-    "disclosed": "2026-05-08"
-   }
-  },
-  {
-   "who": "Josh Gottheimer",
-   "disclosed_buys_scored": 36,
-   "avg_excess_pct": 0.84,
-   "beat_index_rate": 0.53,
-   "best": {
-    "ticker": "AMD",
-    "excess_pct": 27.7,
-    "disclosed": "2026-05-19"
-   }
-  },
-  {
-   "who": "Thomas H. Kean",
-   "disclosed_buys_scored": 13,
-   "avg_excess_pct": 0.82,
-   "beat_index_rate": 0.46,
-   "best": {
-    "ticker": "WPM",
-    "excess_pct": 20.8,
-    "disclosed": "2026-07-15"
-   }
-  }
- ],
- "disclosure_leaderboard_meta": {
-  "built": "2026-09-11",
-  "horizon_days": 30,
-  "buys_scored": 1136,
-  "measured_from": "disclosure date, not transaction date",
-  "benchmark": "SPY",
-  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
- },
- "disclosure_significance": {
-  "members": 25,
-  "best": "Tim Moore",
-  "best_avg_excess_pct": 4.76,
-  "best_t_stat": 2.18,
-  "members_weighted": 0,
-  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
-  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
- },
- "wallet_moves": [],
- "wallet_status": {
-  "followed_total": 0,
-  "checked_this_pass": 0,
-  "starting_at": 0,
-  "names": []
- }
+ "signalsAsOf": "2026-09-11T11:44-04:00"
 }

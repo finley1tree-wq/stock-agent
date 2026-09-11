@@ -2460,7 +2460,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 505.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:10",
    "created_ts": 1789139446,
    "why": "cap downside near -2% from entry",
@@ -2469,14 +2469,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "16c7ea3a",
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 95.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:10",
    "created_ts": 1789139446,
    "why": "protect capital given past CCJ time-stop loss",
@@ -2485,7 +2487,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d49da26c",
@@ -2510,7 +2514,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 233.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:10",
    "created_ts": 1789139446,
    "why": "limit downside",
@@ -2519,7 +2523,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f3b06472",
@@ -2544,7 +2550,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 499.8022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:10",
    "created_ts": 1789139446,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -2554,14 +2560,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8def27ff",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 94.5168,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:10",
    "created_ts": 1789139446,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -2571,7 +2579,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b8a68c31",
@@ -2615,7 +2625,7 @@
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 230.8115,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:10",
    "created_ts": 1789139446,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -2625,7 +2635,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "66618da4",
@@ -2643,7 +2655,93 @@
    ],
    "good_until": "2026-09-12",
    "usd": 1000.0
+  },
+  {
+   "id": "592ebc87",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 765.1235,
+   "status": "working",
+   "created": "2026-09-11 11:43",
+   "created_ts": 1789141423,
+   "why": "wanted it, but not at the high \u2014 resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down",
+   "evidence": "SPY +1.1% today, 91.7% of day range - CPI in line at +3.4%, market rallying on data",
+   "signals": [
+    "momentum",
+    "etf_default",
+    "patience"
+   ],
+   "good_until": "2026-09-11",
+   "usd": 2000.0
+  },
+  {
+   "id": "5974033c",
+   "ticker": "MRK",
+   "kind": "buy_limit",
+   "price": 143.778,
+   "status": "working",
+   "created": "2026-09-11 11:43",
+   "created_ts": 1789141423,
+   "why": "strong month, weak day: resting 0.51% under $144.51 to catch the dip",
+   "evidence": "+8.7% over the month, sitting at 34% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
+  },
+  {
+   "id": "c1f95086",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 365.2996,
+   "status": "working",
+   "created": "2026-09-11 11:43",
+   "created_ts": 1789141423,
+   "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
+   "evidence": "+7.3% over the month, sitting at 54% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
+  },
+  {
+   "id": "e35c7e23",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 152.1995,
+   "status": "working",
+   "created": "2026-09-11 11:43",
+   "created_ts": 1789141423,
+   "why": "strong month, weak day: resting 0.52% under $152.99 to catch the dip",
+   "evidence": "+4.3% over the month, sitting at 34% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
+  },
+  {
+   "id": "b84d5c3e",
+   "ticker": "SPCX",
+   "kind": "buy_limit",
+   "price": 147.0339,
+   "status": "working",
+   "created": "2026-09-11 11:43",
+   "created_ts": 1789141423,
+   "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
+   "evidence": "+1.5% over the month, sitting at 51% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-11 11:17"
+ "updated": "2026-09-11 11:43"
 }

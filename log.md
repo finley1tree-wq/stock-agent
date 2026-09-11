@@ -626,3 +626,31 @@ Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $17993.53 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $127.08] -> $1003.77 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-09-11 11:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMD [time stop] -> $1501.64 (+0.11%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $1500.94 (+0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $1502.87 (+0.19%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 11:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 11:43 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $32500.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Currently flat with 0 positions and full budget available on the last trading day of the week; SPY/DIA are green (+1.1%) and CPI came in line, matching the pattern from past lessons where idling on green days produced regret. Deploying into 5 widely-held/momentum names near mid-range (not chasing highs) with congress backing on AVGO, plus protective stops on all fresh positions since max_hold_minutes forces a close anyway.
+lesson: On green broad-market days with zero positions, deploy into min_positions of widely-held momentum names not high in day range rather than waiting on cooldowns to fully clear.
+  (dropped NVDA: sold 41 min ago, cooling off)
+  (dropped AVGO: sold 36 min ago, cooling off)
+  (dropped AMZN: sold 36 min ago, cooling off)
+  (dropped MSFT: sold 36 min ago, cooling off)
+  (dropped SPY: 92% up today's range — resting a limit at $765.12 instead of chasing)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger AVGO take_profit: not held)
+  (dropped trigger AMZN stop_loss: not held)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger SPY stop_loss: not held)
+~ WORKING buy_limit $2000.00 SPY @ $765.12 until 2026-09-11 — wanted it, but not at the high — resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down
+~ WORKING buy_limit $1000.00 MRK @ $143.78 until 2026-09-12 — strong month, weak day: resting 0.51% under $144.51 to catch the dip
+~ WORKING buy_limit $1000.00 TPL @ $365.30 until 2026-09-12 — strong month, weak day: resting 0.70% under $367.89 to catch the dip
+~ WORKING buy_limit $1000.00 CHRW @ $152.20 until 2026-09-12 — strong month, weak day: resting 0.52% under $152.99 to catch the dip
+~ WORKING buy_limit $1000.00 SPCX @ $147.03 until 2026-09-12 — strong month, weak day: resting 0.85% under $148.29 to catch the dip
+portfolio: equity $25043.37 (+0.17% on $25000.00 in) · cash $25043.37 · realised +43.37
+Decision: nothing at this check. 11 standing order(s) working.
