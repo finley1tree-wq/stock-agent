@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-11T11:17-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-11T11:32-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -133,23 +133,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "23b20e4c",
-   "ticker": "DGICA",
-   "kind": "buy_limit",
-   "price": 19.0529,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 19.21,
-   "pct_away": -0.82,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "66618da4",
    "ticker": "META",
    "kind": "buy_limit",
@@ -157,27 +140,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 652.85,
-   "pct_away": -0.93,
+   "last": 652.27,
+   "pct_away": -0.84,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "b66024ed",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 102.3671,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 103.35,
-   "pct_away": -0.95,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.92% under $103.32 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -191,14 +157,64 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 342.45,
-   "pct_away": -1.08,
+   "last": 341.65,
+   "pct_away": -0.85,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
    "signals": [
     "news",
     "momentum",
     "patience"
+   ]
+  },
+  {
+   "id": "23b20e4c",
+   "ticker": "DGICA",
+   "kind": "buy_limit",
+   "price": 19.0529,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 19.22,
+   "pct_away": -0.87,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "b66024ed",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 102.3671,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 103.61,
+   "pct_away": -1.2,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.92% under $103.32 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "16c7ea3a",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 95.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 97.42,
+   "pct_away": -1.97,
+   "good_until": "2026-09-11",
+   "why": "protect capital given past CCJ time-stop loss",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -209,8 +225,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 237.5,
-   "pct_away": -1.89,
+   "last": 238.17,
+   "pct_away": -2.17,
    "good_until": "2026-09-11",
    "why": "limit downside",
    "signals": [
@@ -225,26 +241,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 515.0,
-   "pct_away": -1.94,
+   "last": 518.5,
+   "pct_away": -2.6,
    "good_until": "2026-09-11",
    "why": "cap downside near -2% from entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "16c7ea3a",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 95.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 97.64,
-   "pct_away": -2.19,
-   "good_until": "2026-09-11",
-   "why": "protect capital given past CCJ time-stop loss",
    "signals": [
     "risk_management"
    ]
@@ -257,13 +257,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 318.66,
-   "pct_away": -2.58,
+   "last": 319.05,
+   "pct_away": -2.7,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.87% under $313.17 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "8def27ff",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 94.5168,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 97.42,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -274,8 +291,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 237.5,
-   "pct_away": -2.82,
+   "last": 238.17,
+   "pct_away": -3.09,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -291,25 +308,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 515.0,
-   "pct_away": -2.95,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8def27ff",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 94.5168,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 97.64,
-   "pct_away": -3.2,
+   "last": 518.5,
+   "pct_away": -3.61,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -325,8 +325,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 180.58,
-   "pct_away": -5.16,
+   "last": 180.66,
+   "pct_away": -5.2,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
    "signals": [
