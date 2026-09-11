@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% MRK @ $145.55 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% MRK @ $144.18 until 2026-09-16 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 MRK @ $140.81 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% KMT @ $29.74 until 2026-09-16 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% KMT @ $29.35 until 2026-09-16 — close it all at -0.9% under the average cost
 ~ WORKING buy_limit $500.00 KMT @ $28.74 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $1000.00 META @ $646.39 until 2026-09-12 — strong month, weak day: resting 0.68% under $650.83 to catch the dip
 portfolio: equity $25131.72 (+0.53% on $25000.00 in) · cash $3645.39 · realised +145.39
 Decision: nothing at this check. 33 standing order(s) working.
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $126.60] -> $3011.48 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-09-11 15:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
