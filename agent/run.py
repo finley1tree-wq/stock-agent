@@ -758,6 +758,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "full_deployment": _full_deployment(today, g),
         "positions_held": len(positions), "min_positions": int(g.get("min_positions", 0) or 0),
         "below_target_position_count": len(positions) < int(g.get("min_positions", 0) or 0),
+        # How much of the account is doing nothing. Reported because "I hold min_positions names"
+        # was being treated as a finished job while two thirds of the money sat in cash.
+        "cash_idle_pct": round(100 * remaining / g["_weekly_budget"], 1) if g.get("_weekly_budget") else None,
+        "invested_usd": round(sum(float(v.get("qty", 0)) * float(v.get("avg_cost", 0)) for v in (positions or {}).values()), 2),
         "portfolio": broker.summary() if is_sim else {"cash": broker.cash()},
         "current_positions": positions,
         "holdings_that_would_not_be_bought_today": flagged,

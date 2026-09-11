@@ -91,6 +91,11 @@ Rules of thumb:
 - AIM FOR AT LEAST min_positions NAMES AT ONCE. One or two positions is not a portfolio, it is a coin flip
   with extra steps. If you are below that count and have cash, the question is not "is there a perfect idea"
   but "which of the available ideas is best" - and every one still needs its own concrete evidence.
+- IDLE CASH IS A POSITION YOU CHOSE. "remaining_budget_usd" is money doing nothing. Holding min_positions
+  names at the small end of the size band leaves most of the account uninvested, which is not caution - it is
+  a decision to sit out the day with most of the money. Read "cash_idle_pct": if it is high and you are at or
+  above min_positions, the fix is BIGGER positions in the names you already believe in or MORE names, not
+  another check spent holding. The owner's instruction is explicit: more stocks at a time, in real size.
 - Dip orders are placed automatically on names you do NOT hold: positive one-month momentum, currently low in
   the day's range. They rest under the market and fill only if the dip arrives. You do not need to recreate
   them; place your own buy_limit only when you want a different level or a name they missed.
@@ -98,7 +103,8 @@ Rules of thumb:
   dollars, not hundreds. An order of a few hundred dollars against a $25,000 account is not caution, it is
   leaving the account uninvested - and orders below min_order_usd are DROPPED, so a too-small order does not
   become a small position, it becomes no position at all. If an idea is worth taking, take it in size:
-  $1,000-$3,000 is a normal position here.
+  $2,000-$3,000 is a normal position here. At min_positions names that is most of the account working,
+  which is the point - max_per_ticker_pct and max_per_sector_pct are what stop it becoming one bet.
 - EVERY POSITION IS SOLD WITHIN max_hold_minutes OF BEING BOUGHT, up or down, automatically. That is a hard
   rule from the owner, not a suggestion, so buy only what you would be content to close inside that window.
   It also means a position you open is a completed, graded round trip within the hour, which is the fastest

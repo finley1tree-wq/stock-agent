@@ -30,7 +30,10 @@ guardrails:
                                  # The per-trade loss is still bounded by the stop (auto_bracket below),
                                  # so the risk this adds is concentration and overnight gap risk, not
                                  # an unbounded loss.
-  max_per_sector_pct: 40         # of the weekly budget, per watchlist sector bucket (defense, gold, index,
+  max_per_sector_pct: 50         # of the weekly budget, per watchlist sector bucket. Raised with
+                                 # min_positions: most of the watchlist is "widely_held", so at 8 names
+                                 # a 40% ceiling would refuse perfectly good entries. Still a real limit -
+                                 # five names in one bucket is one position wearing five hats (defense, gold, index,
                                  # real_estate, nuclear, widely_held). The sector map has always been in this
                                  # file and nothing enforced it: CCJ + NLR were $1,000 of a $1,500 book and
                                  # the same uranium bet, which is what turned an ordinary 30-minute drawdown
@@ -54,9 +57,11 @@ guardrails:
   max_daily_deploy_pct: 100      # the whole week's budget may go to work in a single day (tracked across the day's checks).
                                  # max_per_ticker_pct still forces it across at least 3 tickers, so 100% here means
                                  # fully invested, not all-in on one name.
-  max_orders_per_day: 60         # a 30-minute hold means ~13 slots a day per position line; these caps
-                                 # would otherwise become the real limit instead of the dollar caps
-                                 # below are the real risk control, this only stops runaway churn
+  max_orders_per_day: 200        # A 30-minute hold gives ~13 cycles in a 6.5-hour session, so at
+                                 # min_positions names this needs 13 x 8 = 104 buys a day. At 60 the
+                                 # cap was already binding by lunchtime (27 used by 12:40 on
+                                 # 2026-09-11) and would have silently stopped trading mid-afternoon.
+                                 # The dollar caps are the real risk control; this only stops runaway churn.
   friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed.
                                      # INERT while max_hold_minutes > 0 (see is_cleanup_check). Off the clock the
                                      # effective trigger is min(this, close - 2 checks) or the last check of the day.
@@ -75,7 +80,8 @@ guardrails:
   # cheap, explainable and graded (the dip_entry tag), not because it is proven.
   dip_hunt:
     enabled: true
-    names: 6                     # how many resting dip orders to keep out at once
+    names: 10                    # how many resting dip orders to keep out at once. More resting orders
+                                 # is more chances for a dip to actually come to one of them
     dip_atr_mult: 0.75           # depth as a fraction of the move available in the hold window.
                                  # A flat 1.5% was reached in only 7.2% of 30-minute windows (2.8%
                                  # on META), which is why the orders sat all day and never filled.
@@ -83,7 +89,10 @@ guardrails:
     good_for_days: 1             # a dip order sized for half an hour should not rest for a week
     below_pct: 1.5               # fallback when ATR is unavailable
     usd_pct_of_budget: 4.0       # size of each ($1,000 at a $25,000 budget)
-  min_positions: 5               # aim to have at least this many names working at once
+  min_positions: 8               # Raised from 5. At 5 names of ~$1,500 only $7,500 of $25,000 was ever
+                                 # working and the rest sat in cash. More names at once is also more
+                                 # completed round trips per day, which is the only thing that makes
+                                 # this loop learn faster - a closed trade is a graded trade.
   # How soon the agent may think again. It was a flat 30 minutes, so a new idea could sit unbought
   # for half an hour while the market moved on - which is a long time when nothing is held longer
   # than max_hold_minutes anyway. The brain now names its own next_check_minutes and that request
@@ -106,7 +115,7 @@ guardrails:
                                  # is acted on now rather than two days later. Churn is held back instead by
                                  # max_orders_per_day / max_sells_per_day, the no-same-day-rebuy rule, and
                                  # spread_cost_pct below, which makes every round trip cost something.
-  max_sells_per_day: 60          # must at least match the buys, or positions get stuck open. Protective sells
+  max_sells_per_day: 200         # must at least match the buys, or positions get stuck open. Protective sells
                                  # (time stop, stop-loss, trailing stop, session close) are exempt from this cap.
   allow_politician_tickers: true # may buy tickers Congress members recently bought, even if not on the watchlist
   politician_lookback_days: 30
