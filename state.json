@@ -1,15 +1,13 @@
 {
   "week": "2026-W37",
-  "spent": 9700.95,
+  "spent": 5361.55,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 0.19,
     "SPY": 0.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
-    "AMD": 2500.0,
     "META": 2200.0,
-    "IBM": 1800.0,
     "AAPL": 1800.0,
     "TSM": 1400.0
   },
@@ -624,25 +622,70 @@
         "track_record"
       ],
       "evidence": "TSM headline 'record sales say AI chips are booming', only 8.5% of day range - room to run, +2.95% 5d"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 4.945099,
+      "status": "filled",
+      "price": 512.48,
+      "proceeds": 2534.25,
+      "realized_pnl": 34.25,
+      "realized_pct": 1.37,
+      "date": "2026-09-11",
+      "time_et": "10:05",
+      "ts": 1789135503,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +1.39% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 7.507572,
+      "status": "filled",
+      "price": 240.44,
+      "proceeds": 1805.15,
+      "realized_pnl": 5.15,
+      "realized_pct": 0.29,
+      "date": "2026-09-11",
+      "time_et": "10:07",
+      "ts": 1789135500,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $239.76",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 9672.16,
+  "spent_today": 5332.76,
   "orders_today": 8,
-  "sells_today": 3,
+  "sells_today": 5,
   "sold_today": [
     "INTC",
     "GOOGL",
-    "CCJ"
+    "CCJ",
+    "AMD",
+    "IBM"
   ],
-  "last_check_ts": 1789135447,
-  "book_fp": "[[\"020ae5c0\", 656.4678], [\"23b20e4c\", 19.0529], [\"4827978c\", 648.1869], [\"532b86e9\", 171.2706], [\"74e0024c\", 428.3086], [\"a89ad0f5\", 492.8], [\"a8a7ffe2\", 634.477], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
-  "last_publish_ts": 1789134723,
+  "last_check_ts": 1789135686,
+  "book_fp": "[[\"020ae5c0\", 656.4678], [\"23b20e4c\", 19.0529], [\"2d28a2d1\", 322.5541], [\"4827978c\", 648.1869], [\"532b86e9\", 171.2706], [\"62f2b020\", 430.4964], [\"6db29b4c\", 333.3846], [\"74e0024c\", 428.3086], [\"8e3cb5ef\", 416.5277], [\"963a0974\", 421.0], [\"a8a7ffe2\", 634.477], [\"ba4576bb\", 310.432], [\"cbf1befa\", 326.0], [\"d6486097\", 220.6088], [\"ee434769\", 126.5984]]",
+  "last_publish_ts": 1789135625,
   "last_decision_ts": 1789135447,
   "sold_ts": {
     "INTC": 1789134010,
     "GOOGL": 1789134349,
-    "CCJ": 1789134443
+    "CCJ": 1789134443,
+    "AMD": 1789135504,
+    "IBM": 1789135626
   },
   "deployed": 17000.0,
   "deployed_by_ticker": {
@@ -656,5 +699,5 @@
     "TSM": 1400.0
   },
   "deployed_today": 17000.0,
-  "last_bar_ts": 1789135200
+  "last_bar_ts": 1789135500
 }

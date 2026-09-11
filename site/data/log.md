@@ -1,8 +1,3 @@
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
@@ -398,3 +393,8 @@ lesson: On green broad-market days, deploying into min_positions across widely_h
 ~ WORKING buy_limit $1000.00 APP @ $310.43 until 2026-09-12 — strong month, weak day: resting 0.87% under $313.17 to catch the dip
 portfolio: equity $25046.04 (+0.18% on $25000.00 in) · cash $15299.03 · realised -0.97
 Done: 0 sell(s), 3 buy(s); 20 order(s) working; budget left $15299.05 this week
+- SELL 100% AMD [time stop] -> $2534.25 (+1.37%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 10:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $240.44] -> $1805.15 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-11 10:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders

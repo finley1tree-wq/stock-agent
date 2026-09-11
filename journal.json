@@ -823,5 +823,52 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": 4.945099,
+    "status": "filled",
+    "price": 512.48,
+    "proceeds": 2534.25,
+    "realized_pnl": 34.25,
+    "realized_pct": 1.37,
+    "date": "2026-09-11",
+    "time_et": "10:05",
+    "ts": 1789135503,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +1.39% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 7.507572,
+    "status": "filled",
+    "price": 240.44,
+    "proceeds": 1805.15,
+    "realized_pnl": 5.15,
+    "realized_pct": 0.29,
+    "date": "2026-09-11",
+    "time_et": "10:07",
+    "ts": 1789135500,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $239.76",
+    "trigger": "take_profit",
+    "hour_et": 10
   }
 ]
