@@ -1,18 +1,3 @@
-- SELL 100% KMT [time stop] -> $1247.82 (-0.17%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-11 11:07 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-- BUY $1000.00 NEM [buy_limit @ $126.60] — strong month, weak day: resting 0.68% under $127.47 to catch the dip
-## 2026-09-11 11:09 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-11 11:10 ET (Friday) — week 2026-W37 — budget left $23993.53 (today $26500.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
-  (CYBN excluded: no security information)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain: Only 1 position held (NEM) vs min_positions=5, and remaining_budget is large ($24k). Market is green (SPY +0.92%, DIA +0.89%) with CPI in-line, so per past-lesson pattern deploying into widely_held/momentum names beats idling. Adding AMD, CCJ, TSM, GOOGL, IBM at moderate size with protective stops to reach target position count; all are backed by concrete news/congress evidence and not extended (below 85% max_entry_range except AMD at 70%, GOOGL at 93% is borderline but justified by strong 1d move - actually reconsidering GOOGL is high in range, keeping small size as planned.
-lesson: When below min_positions on a green broad-market day, deploy across multiple widely_held/momentum names with concrete headline evidence rather than waiting for a perfect signal, but avoid buying names already >90% of day range.
-  (dropped GOOGL: 93% up today's range — resting a limit at $338.75 instead of chasing)
-- BUY $1500.00 AMD [filled] ['congress', 'momentum'] — Best-performing signal combo per track_record (congress avg_ret 0.66%, hit_rate 0.76); AMD momentum strong but not extended (70% of day range) | evidence: Rep. Cisneros disclosed AMD buy 2026-07-17; AMD +12.93% 5d, +2.3% today, congress_net_buy_pressure=2.0
-- BUY $1500.00 CCJ [filled] ['momentum', 'news'] — Reasonable entry mid-range, cooldown expired (not in cooling_off list), diversifies away from tech | evidence: CCJ at 52.1% of day range, not extended; nuclear sector theme with congress buys on INTC etc
 - BUY $1500.00 TSM [filled] ['news', 'momentum'] — Strong fundamentals narrative, widely_held sector has 1.0 hit rate historically | evidence: 'TSM Record Sales Say AI Chips Are Booming' Insider Monkey headline; +3.78% 5d, at 78% of range
 - BUY $1500.00 IBM [filled] ['news', 'momentum'] — Not extended in range, positive catalyst headline, room to run | evidence: 'Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout' referencing IBM; IBM +1.66% today, at 40.8% of day range
   (dropped trigger GOOGL stop_loss: not held)
@@ -398,3 +383,18 @@ Decision: nothing at this check. 25 standing order(s) working.
 - SELL 100% DGICA [time stop] -> $3001.91 (+0.06%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% META [time stop] -> $2996.86 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-11 14:29 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:36 ET (Friday) — week 2026-W37 — budget left $19020.24 (today $88300.00 put to work, 43 buys, 40 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex8sc5hpBtFbFg5uxkZ4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,020 idle, so opened 1: TNON. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TNON [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +3.1% over the month; 10% of today's range
+~ WORKING take_profit 100% TNON @ $5.95 until 2026-09-16 — close 100% at +2.2% over the average cost
+~ WORKING stop_loss 100% TNON @ $5.49 until 2026-09-16 — close it all at -5.6% under the average cost
+~ WORKING buy_limit $500.00 TNON @ $5.65 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25076.71 (+0.31% on $25000.00 in) · cash $16074.29 · realised +74.29
+Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $16020.24 this week

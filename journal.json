@@ -752,8 +752,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24,
-    "ret_final": -0.24,
+    "ret_now": -0.16,
+    "ret_final": -0.16,
     "ret_src": "realised"
   },
   {
@@ -2245,7 +2245,9 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -2269,7 +2271,9 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.1,
+    "ret_final": -0.1,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEM",
@@ -2470,7 +2474,7 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": 0.15
   },
   {
     "symbol": "AAPL",
@@ -2668,7 +2672,8 @@
     ],
     "evidence": "bought 30 min ago, +0.08% unrealised",
     "trigger": "time_stop",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 29
   },
   {
     "symbol": "META",
@@ -2690,6 +2695,31 @@
     ],
     "evidence": "bought 30 min ago, -0.08% unrealised",
     "trigger": "time_stop",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "TNON",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 515.360845,
+    "price": 5.82,
+    "date": "2026-09-11",
+    "time_et": "14:36",
+    "ts": 1789151808,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +3.1% over the month; 10% of today's range",
+    "entry_price": 5.82,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 3.1,
+    "hour_et": 14,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

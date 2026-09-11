@@ -3978,7 +3978,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 492.7899,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:07",
    "created_ts": 1789150040,
    "why": "close it all at -0.6% under the average cost",
@@ -3988,7 +3988,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "44a32a69",
@@ -4117,7 +4119,75 @@
    "good_until": "2026-09-16",
    "pct_of_position": 100.0,
    "closed": "2026-09-11 14:21"
+  },
+  {
+   "id": "df901d97",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 495.982,
+   "status": "working",
+   "created": "2026-09-11 14:36",
+   "created_ts": 1789151805,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $495.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "993e360a",
+   "ticker": "TNON",
+   "kind": "take_profit",
+   "price": 5.9503,
+   "status": "working",
+   "created": "2026-09-11 14:36",
+   "created_ts": 1789151808,
+   "why": "close 100% at +2.2% over the average cost",
+   "evidence": "average cost $5.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "60dbe4ea",
+   "ticker": "TNON",
+   "kind": "stop_loss",
+   "price": 5.4944,
+   "status": "working",
+   "created": "2026-09-11 14:36",
+   "created_ts": 1789151808,
+   "why": "close it all at -5.6% under the average cost",
+   "evidence": "average cost $5.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c3a635fe",
+   "ticker": "TNON",
+   "kind": "buy_limit",
+   "price": 5.6454,
+   "status": "working",
+   "created": "2026-09-11 14:36",
+   "created_ts": 1789151808,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $5.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-11 14:22"
+ "updated": "2026-09-11 14:36"
 }

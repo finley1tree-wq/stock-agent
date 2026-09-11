@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 5979.76,
+  "spent": 8979.76,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -18,7 +18,8 @@
     "NEM": 1.39,
     "CHRW": 3000.0,
     "MRK": 1.48,
-    "AAPL": 1.47
+    "AAPL": 1.47,
+    "TNON": 3000.0
   },
   "orders": [
     {
@@ -1995,11 +1996,28 @@
       ],
       "evidence": "bought 30 min ago, -0.08% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TNON",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 515.360845,
+      "price": 5.82,
+      "date": "2026-09-11",
+      "time_et": "14:36",
+      "ts": 1789151808,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +3.1% over the month; 10% of today's range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 5979.76,
-  "orders_today": 43,
+  "spent_today": 8979.76,
+  "orders_today": 44,
   "sells_today": 40,
   "sold_today": [
     "INTC",
@@ -2025,10 +2043,10 @@
     "BE",
     "DGICA"
   ],
-  "last_check_ts": 1789151591,
+  "last_check_ts": 1789151808,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789151374,
-  "last_decision_ts": 1789150927,
+  "last_publish_ts": 1789151805,
+  "last_decision_ts": 1789151808,
   "sold_ts": {
     "INTC": 1789149700,
     "GOOGL": 1789145672,
@@ -2053,7 +2071,7 @@
     "BE": 1789150865,
     "DGICA": 1789151375
   },
-  "deployed": 88300.0,
+  "deployed": 91300.0,
   "deployed_by_ticker": {
     "AMD": 8500.0,
     "CCJ": 3800.0,
@@ -2076,28 +2094,29 @@
     "BE": 3000.0,
     "SPCX": 3000.0,
     "TPL": 3000.0,
-    "DGICA": 3000.0
+    "DGICA": 3000.0,
+    "TNON": 3000.0
   },
-  "deployed_today": 88300.0,
-  "last_bar_ts": 1789151400,
+  "deployed_today": 91300.0,
+  "last_bar_ts": 1789151700,
   "book_px": {
+    "df901d97": 495.982,
     "f0410b28": 496.6951,
     "f3b06472": 338.7473,
     "665962b8": 462.6445,
     "f60eb95d": 153.3135,
     "e87d920e": 493.0083,
-    "f30a14aa": 492.7899,
     "42d81c66": 151.832,
     "5ba8a2de": 330.5,
     "d375c5a7": 429.0,
     "c77ba476": 272.247,
     "a3d09bd3": 216.0,
-    "532b86e9": 171.2706,
     "6a60a8a6": 236.0,
+    "532b86e9": 171.2706,
     "7d6b8f4e": 505.0,
     "f7c4c1da": 148.3033,
     "44a32a69": 480.7126,
     "ba4576bb": 310.432
   },
-  "next_check_minutes": null
+  "next_check_minutes": 6
 }
