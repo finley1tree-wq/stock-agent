@@ -1059,3 +1059,21 @@ Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $8500.00 this week
   (cancelled 2 standing order(s) on TPL: position closed)
 - SELL 100% TPL [stop_loss @ $369.18] -> $3001.93 (+0.06%) — close it all at -0.9% under the average cost
 ## 2026-09-11 14:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:58 ET (Friday) — week 2026-W37 — budget left $14502.61 (today $107800.00 put to work, 50 buys, 45 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAYVE9xZbY8VDx1cFQP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $14,503 idle, so opened 2: MRK, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MRK [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +8.5% over the month; 22% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +10.1% over the month; 64% of today's range
+~ WORKING take_profit 100% MRK @ $144.60 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% MRK @ $143.23 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 MRK @ $139.88 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $333.57 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $330.52 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $322.72 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25138.00 (+0.55% on $25000.00 in) · cash $8645.39 · realised +145.39
+Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $8502.61 this week

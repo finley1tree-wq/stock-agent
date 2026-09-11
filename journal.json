@@ -2218,8 +2218,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.38,
-    "ret_now": 0.38,
+    "ret_final": 0.22,
+    "ret_now": 0.22,
     "ret_src": "realised"
   },
   {
@@ -2824,7 +2824,9 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -2852,7 +2854,7 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": -0.01
   },
   {
     "symbol": "INTC",
@@ -2876,7 +2878,8 @@
     "momentum_1m_at_entry": 2.46,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.11
   },
   {
     "symbol": "AMD",
@@ -2900,7 +2903,8 @@
     "momentum_1m_at_entry": 7.2,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.08
   },
   {
     "symbol": "TPL",
@@ -2924,7 +2928,10 @@
     "momentum_1m_at_entry": 7.61,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.06,
+    "ret_now": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEM",
@@ -2947,7 +2954,8 @@
     "momentum_1m_at_entry": 7.0,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.04
   },
   {
     "symbol": "MO",
@@ -2971,7 +2979,8 @@
     ],
     "evidence": "average cost $69.05",
     "trigger": "stop_loss",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 10
   },
   {
     "symbol": "TPL",
@@ -2995,6 +3004,54 @@
     ],
     "evidence": "average cost $368.94",
     "trigger": "stop_loss",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 3
+  },
+  {
+    "symbol": "MRK",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 20.803164,
+    "price": 144.21,
+    "date": "2026-09-11",
+    "time_et": "14:58",
+    "ts": 1789153118,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +8.5% over the month; 22% of today's range",
+    "entry_price": 144.18,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.47,
+    "hour_et": 14,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 9.017227,
+    "price": 332.7,
+    "date": "2026-09-11",
+    "time_et": "14:58",
+    "ts": 1789153118,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "momentum"
+    ],
+    "evidence": "+10.1% over the month; 64% of today's range",
+    "entry_price": 332.63,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 10.05,
+    "hour_et": 14,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

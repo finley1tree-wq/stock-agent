@@ -1,21 +1,3 @@
-brain: Currently flat (0 positions) with $25k budget and below min_positions target of 5. Several strong widely-held names (AAPL, TSM, IBM, AMD) already sold today but most are in 45-min cooldown or high in day range - rather than market-buy at elevated range percentiles (AAPL 84.6%, TSM 80.8%, IBM 50.6%), I'm placing buy_limit orders slightly below market to get better entries per the guardrail on max_entry_range_pct, consistent with past lessons about not chasing highs. NVDA is low in its day range (14.5%) so a modest limit near current price makes sense; AMD carries a congress signal (top-ranked per track_record) but is in a 9-min cooldown so a resting limit will catch it once cleared.
-lesson: Existing working dip-entry orders already cover most good widely-held names (GOOGL, INTC, MRK, META) - check for overlap before adding new limit orders to avoid duplicate exposure to the same thesis.
-~ WORKING buy_limit $2000.00 AAPL @ $330.50 until 2026-09-11 — Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range
-~ WORKING buy_limit $1500.00 NVDA @ $216.00 until 2026-09-11 — Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate
-~ WORKING buy_limit $1500.00 TSM @ $429.00 until 2026-09-11 — Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range
-~ WORKING buy_limit $1500.00 AMD @ $505.00 until 2026-09-11 — Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready
-~ WORKING buy_limit $1500.00 IBM @ $236.00 until 2026-09-11 — Widely-held name, resting below current 238.6 to get a better entry once cooldown clears
-~ WORKING buy_limit $1000.00 NEM @ $125.43 until 2026-09-12 — strong month, weak day: resting 0.71% under $126.32 to catch the dip
-portfolio: equity $25043.37 (+0.17% on $25000.00 in) · cash $25043.37 · realised +43.37
-Decision: nothing at this check. 17 standing order(s) working.
-
-## 2026-09-11 12:24 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $32500.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
-  (CYBN excluded: no security information)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain: Below min_positions (0 held) with a green broad-market day (SPY +0.99%, DIA +1.02%, CPI in-line). Deploying into 4 widely-held/momentum names with concrete headline evidence (AAPL hardware catalyst, BE S&P 500 add news +6.7%, GOOGL midterm/tech headline, SPY broad market) rather than waiting on the many resting dip limits already in place. Adding stops on each new position given no auto-bracket guarantee mentioned explicitly but risk management has 0.83 hit rate historically.
-lesson: Existing dip-limit orders cover many names already (NVDA, AMD, TSM, IBM, MRK, etc.) - when below min_positions on a green day, buy at market into the strongest movers with fresh headlines (BE, AAPL) rather than only waiting for limits to fill.
-  (dropped BE: 88% up today's range — resting a limit at $272.25 instead of chasing)
 - BUY $2000.00 AAPL [filled] ['momentum', 'news'] — Strong momentum widely-held name, existing limit at 330.5 unfilled since price ran up; buy some now at market given breakout continuation | evidence: AAPL +2.31% today, +10.54% 1m, pct_of_day_range 78.8 not yet extreme; widely_held sector best hit rate 0.64
 - BUY $1500.00 SPY [filled] ['momentum', 'etf_default'] — Broad market green day, fill toward min_positions with index exposure while individual names cool down | evidence: SPY +0.99% today, DIA +1.02%, broad market green per CPI in-line headline
 - BUY $1500.00 GOOGL [filled] ['momentum', 'news'] — Strong widely-held momentum name, not extreme in range | evidence: GOOGL +2.43% today, pct_of_day_range 71.0, headline on Republican midterm wipeout implications for tech
@@ -398,3 +380,21 @@ Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $8500.00 this week
   (cancelled 2 standing order(s) on TPL: position closed)
 - SELL 100% TPL [stop_loss @ $369.18] -> $3001.93 (+0.06%) — close it all at -0.9% under the average cost
 ## 2026-09-11 14:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:58 ET (Friday) — week 2026-W37 — budget left $14502.61 (today $107800.00 put to work, 50 buys, 45 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAYVE9xZbY8VDx1cFQP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $14,503 idle, so opened 2: MRK, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MRK [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +8.5% over the month; 22% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +10.1% over the month; 64% of today's range
+~ WORKING take_profit 100% MRK @ $144.60 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% MRK @ $143.23 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 MRK @ $139.88 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $333.57 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $330.52 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $322.72 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25138.00 (+0.55% on $25000.00 in) · cash $8645.39 · realised +145.39
+Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $8502.61 this week

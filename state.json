@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 10497.39,
+  "spent": 16497.39,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -16,8 +16,8 @@
     "INTC": 3001.52,
     "NEM": 3001.39,
     "CHRW": 1.4,
-    "MRK": 1.48,
-    "AAPL": 1.47
+    "MRK": 3001.48,
+    "AAPL": 3001.47
   },
   "orders": [
     {
@@ -2218,11 +2218,44 @@
       ],
       "evidence": "average cost $368.94",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MRK",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.803164,
+      "price": 144.21,
+      "date": "2026-09-11",
+      "time_et": "14:58",
+      "ts": 1789153118,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +8.5% over the month; 22% of today's range"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.017227,
+      "price": 332.7,
+      "date": "2026-09-11",
+      "time_et": "14:58",
+      "ts": 1789153118,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum"
+      ],
+      "evidence": "+10.1% over the month; 64% of today's range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 10497.39,
-  "orders_today": 50,
+  "spent_today": 16497.39,
+  "orders_today": 52,
   "sells_today": 45,
   "sold_today": [
     "INTC",
@@ -2250,10 +2283,10 @@
     "TNON",
     "MO"
   ],
-  "last_check_ts": 1789153032,
+  "last_check_ts": 1789153118,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789153032,
-  "last_decision_ts": 1789152698,
+  "last_publish_ts": 1789153118,
+  "last_decision_ts": 1789153118,
   "sold_ts": {
     "INTC": 1789149700,
     "GOOGL": 1789145672,
@@ -2280,7 +2313,7 @@
     "TNON": 1789152064,
     "MO": 1789152987
   },
-  "deployed": 107800.0,
+  "deployed": 113800.0,
   "deployed_by_ticker": {
     "AMD": 11500.0,
     "CCJ": 3800.0,
@@ -2288,7 +2321,7 @@
     "GOOGL": 5500.0,
     "META": 5200.0,
     "IBM": 4800.0,
-    "AAPL": 6800.0,
+    "AAPL": 9800.0,
     "TSM": 7400.0,
     "NVDA": 1500.0,
     "AVGO": 1500.0,
@@ -2299,7 +2332,7 @@
     "NEM": 7000.0,
     "SPY": 3500.0,
     "CHRW": 4000.0,
-    "MRK": 4800.0,
+    "MRK": 7800.0,
     "BE": 3000.0,
     "SPCX": 3000.0,
     "TPL": 6000.0,
@@ -2307,30 +2340,37 @@
     "TNON": 3000.0,
     "MO": 3000.0
   },
-  "deployed_today": 107800.0,
+  "deployed_today": 113800.0,
   "last_bar_ts": 1789152900,
   "book_px": {
     "665962b8": 462.6445,
     "9215e0dd": 339.563,
+    "ff6c5874": 333.5717,
+    "2ea71340": 144.6008,
     "b493b520": 126.598,
     "33c2afab": 519.8925,
-    "55412ca5": 103.9579,
     "1904cbee": 336.7209,
+    "55412ca5": 103.9579,
+    "6b3decac": 330.5241,
     "5ba8a2de": 330.5,
+    "cb9005c7": 143.2308,
     "d375c5a7": 429.0,
-    "e418dfd6": 124.9256,
     "8a681bb6": 512.4986,
-    "c77ba476": 272.247,
+    "e418dfd6": 124.9256,
     "88b51068": 102.1796,
+    "c77ba476": 272.247,
     "a3d09bd3": 216.0,
-    "532b86e9": 171.2706,
     "6a60a8a6": 236.0,
     "7d6b8f4e": 505.0,
     "6360b55f": 100.3465,
-    "6283d4ff": 328.5875,
     "a2dd2bac": 502.2466,
+    "8a2efe46": 139.8837,
+    "4246542e": 322.719,
+    "6283d4ff": 328.5875,
     "3db3fee6": 122.3364,
+    "532b86e9": 171.2706,
     "ba4576bb": 310.432
   },
-  "next_check_minutes": 6
+  "next_check_minutes": 6,
+  "autopiloted": true
 }
