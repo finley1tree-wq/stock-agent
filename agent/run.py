@@ -49,6 +49,11 @@ def checks_left_today(now: datetime, every_min: int) -> int:
 def is_cleanup_check(now: datetime, g: dict, every_min: int) -> bool:
     """The forced deploy-everything check: last trading day of the week (Friday, or Thursday before a holiday
     Friday), at/after the configured time or the last slot before the real close, whichever comes first."""
+    # A weekly "deploy every remaining dollar in the last hour" rule cannot coexist with a
+    # 30-minute hold: it would dump the whole account at 15:00 and carry the late tranche over
+    # the weekend. Under an intraday clock there is no such thing as idle weekly money.
+    if int(g.get("max_hold_minutes", 0) or 0) > 0:
+        return False
     today = now.date()
     if not last_trading_day_of_week(today):
         return False
@@ -56,6 +61,25 @@ def is_cleanup_check(now: datetime, g: dict, every_min: int) -> bool:
     configured = datetime.combine(today, _parse_hm(g.get("friday_cleanup_after_et", "15:30"), time(15, 30)), ET)
     after = min(configured, close_dt - timedelta(minutes=2 * every_min))   # at least the last two open slots
     return now >= after or checks_left_today(now, every_min) <= 1
+
+def past_entry_cutoff(now: datetime, g: dict) -> bool:
+    """No NEW position inside the last max_hold_minutes of the session.
+
+    A position bought at 15:40 cannot be closed by the 30-minute clock: once the market is shut
+    nothing runs, so it is carried overnight - or over a weekend - on a rule that promised half
+    an hour. Two extra minutes cover tick latency."""
+    mins = int(g.get("max_hold_minutes", 0) or 0)
+    if mins <= 0 or not is_trading_day(now.date()):
+        return False
+    close_dt = datetime.combine(now.date(), close_time(now.date()), ET)
+    return now >= close_dt - timedelta(minutes=mins + 2)
+
+def at_session_end(now: datetime, minutes_before: int = 3) -> bool:
+    """Inside the final minutes before the close: flatten whatever is still open."""
+    if not is_trading_day(now.date()):
+        return False
+    close_dt = datetime.combine(now.date(), close_time(now.date()), ET)
+    return close_dt - timedelta(minutes=minutes_before) <= now < close_dt
 
 def market_open_fallback(now: datetime) -> bool:
     """Used only when the broker can't tell us."""
@@ -210,7 +234,7 @@ def apply_sell_guardrails(plan: dict, positions: dict, st: dict, g: dict, hold_e
     if g.get("only_buy", False):
         return [], (["selling disabled (only_buy)"] if plan.get("sells") else [])
     left = int(g.get("max_sells_per_day", 3)) - int(st.get("sells_today", 0))
-    out, seen = [], set()
+    out, seen, counted = [], set(), 0
     for s in plan.get("sells", []) or []:
         if not isinstance(s, dict):
             continue
@@ -229,8 +253,12 @@ def apply_sell_guardrails(plan: dict, positions: dict, st: dict, g: dict, hold_e
         pct = max(0.0, min(100.0, float(s.get("pct_of_position", 0) or 0)))
         if pct <= 0:
             continue
-        if len(out) >= max(left, 0):
-            dropped.append(f"sell {t}: max_sells_per_day reached"); continue
+        # A time stop or stop-loss is protection, not churn (same reasoning as min_hold_days
+        # above): counting it against the daily cap could leave a 30-minute position open overnight.
+        if t not in (hold_exempt or set()):
+            if counted >= max(left, 0):
+                dropped.append(f"sell {t}: max_sells_per_day reached"); continue
+            counted += 1
         seen.add(t)
         out.append({"ticker": t, "pct": pct, "qty": pos["qty"] * pct / 100, "why": str(s.get("why", "")), "signals": _clean_signals(s), "evidence": str(s.get("evidence", ""))[:200]})
     return out, dropped
@@ -362,6 +390,10 @@ def time_stops(now, broker, positions, st, g, log_fn):
                       "evidence": f"opened {pos.get('days_held')}d ago, {pl:+.2f}% unrealised", "signals": ["time_stop", "risk_management"]})
     if not stale:
         return [], 0
+    return _forced_sells(now, broker, positions, st, g, log_fn, stale, "time_stop", "time stop")
+
+def _forced_sells(now, broker, positions, st, g, log_fn, stale: list[dict], trigger: str, label: str):
+    """Execute protective sells: exempt from the hold clock and from the daily sell cap."""
     sells, dropped = apply_sell_guardrails({"sells": stale}, positions, st, g, hold_exempt={s["ticker"] for s in stale})
     for d in dropped:
         log_fn(f"  (dropped {d})")
@@ -371,15 +403,26 @@ def time_stops(now, broker, positions, st, g, log_fn):
         if str(rec.get("status", "")).startswith("rejected"):
             log_fn(f"- SELL {sl['ticker']} [{rec['status']}]"); continue
         full = {**rec, "date": str(now.date()), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()),
-                "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": "time_stop"}
+                "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": trigger}
         state.record_sell(st, sl["ticker"], full, float(rec.get("proceeds", 0) or 0)); state.save(st)
         learn.record_sell(full, signals=sorted(set(sl["signals"]) | set(learn.entry_signals(sl["ticker"]))), evidence=sl["evidence"], hour_et=now.hour)
-        triggers.cancel_position_orders(sl["ticker"], now, "time stop closed the position")
+        triggers.cancel_position_orders(sl["ticker"], now, f"{label} closed the position")
         out.append(sl); did += 1
-        log_fn(f"- SELL 100% {sl['ticker']} [time stop] -> ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%) — {sl['why']}")
+        log_fn(f"- SELL 100% {sl['ticker']} [{label}] -> ${rec.get('proceeds', 0):.2f} ({rec.get('realized_pct', 0):+.2f}%) — {sl['why']}")
     return out, did
 
-def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, remaining, sector_of, cpressure, log_fn):
+def session_end_flatten(now, broker, positions, st, g, log_fn):
+    """Nothing is carried past the bell under an intraday clock. Runs in the last minutes."""
+    if int(g.get("max_hold_minutes", 0) or 0) <= 0 or not positions or not hasattr(broker, "sell_qty"):
+        return [], 0
+    stale = [{"ticker": t, "pct_of_position": 100,
+              "why": "session ending: a 30-minute rule cannot carry a position overnight",
+              "evidence": f"{pos.get('minutes_held')} min held, {float(pos.get('unrealized_plpc') or 0):+.2f}% unrealised, market closes in minutes",
+              "signals": ["time_stop", "session_close"]} for t, pos in positions.items()]
+    return _forced_sells(now, broker, positions, st, g, log_fn, stale, "session_close", "session close")
+
+def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, remaining, sector_of, cpressure, log_fn,
+                         no_new_entries: bool = False):
     """Fire any standing order whose level the market reached since the last check.
 
     Runs BEFORE the brain, so the brain sees the resulting portfolio. Every fill still goes through
@@ -437,6 +480,11 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             log_fn(f"- SELL {sl['pct']:.0f}% {sl['ticker']} [{f['kind']} @ ${f['fill_price']:.2f}]{extra} — {sl['why']}")
 
     buy_fires = [f for f in fires if f["kind"] in triggers.BUY_KINDS]
+    if buy_fires and no_new_entries:
+        for f in buy_fires:
+            triggers.close(f["id"], now, "cancelled", "inside the last max_hold_minutes of the session")
+            log_fn(f"  (cancelled standing buy {f['ticker']}: inside the last max_hold_minutes of the session)")
+        buy_fires = []
     if buy_fires:
         fmap = {}
         for f in buy_fires:
@@ -544,14 +592,24 @@ def _tick_once(force: bool = False) -> None:
     sector_of = {t: s for s, ts in cfg["watchlist"].items() for t in ts}
     # The watchlist is the vetted set. Passing an empty set here re-screened every hand-picked name
     # at fill time, cached a transient lookup failure forever, and cancelled the order on it.
+    cutoff = past_entry_cutoff(now, g)
+    if cutoff:
+        n = triggers.cancel_all_buys(now, "inside the last max_hold_minutes of the session")
+        if n:
+            log(f"  (cancelled {n} resting buy order(s): inside the last max_hold_minutes of the session)")
     bought, sold, did = fill_standing_orders(now, today, broker, broker.positions(), px, st, g,
-                                             set(sector_of), remaining, sector_of, {}, log)
+                                             set(sector_of), remaining, sector_of, {}, log, no_new_entries=cutoff)
     # The clock has to be enforced on EVERY pass, not only when the brain is asked. Checked only
     # on decisions, a "30-minute" hold actually ran 30-64 minutes depending on when the next
     # decision happened to land.
     stale_sells, stale_n = time_stops(now, broker, broker.positions(), st, g, log)
     if stale_n:
         sold += stale_sells; did += stale_n
+    # Nothing is carried past the bell: whatever is still open in the final minutes is closed.
+    if at_session_end(now):
+        flat_sells, flat_n = session_end_flatten(now, broker, broker.positions(), st, g, log)
+        if flat_n:
+            sold += flat_sells; did += flat_n
 
     if bought:            # averaging in moved the average cost, so the exits have to move with it
         auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
@@ -566,7 +624,7 @@ def _tick_once(force: bool = False) -> None:
     # Every publish is a commit and every commit is a site deploy, so only publish when there is
     # something new to see: a fill, a change in the working book, or a periodic freshness refresh.
     book = triggers.summary(px, now)
-    fp = json.dumps([[o["id"], o["price"]] for o in book], sort_keys=True)
+    fp = json.dumps(sorted([o["id"], o["price"]] for o in book))   # order-insensitive: rank churn is not news
     stale = (int(now.timestamp()) - int(st.get("last_publish_ts", 0) or 0)) > PUBLISH_EVERY_S
     if did or fp != st.get("book_fp") or stale:
         st["book_fp"] = fp
@@ -642,8 +700,13 @@ def main(report_only: bool = False, force: bool = False) -> None:
 
     # --- standing orders fill FIRST, at their own price, wherever in the last half hour the market
     #     reached them. The brain then decides against the resulting portfolio. ---
+    cutoff = past_entry_cutoff(now, g)
+    if cutoff:
+        n = triggers.cancel_all_buys(now, "inside the last max_hold_minutes of the session")
+        if n:
+            log(f"  (cancelled {n} resting buy order(s): inside the last max_hold_minutes of the session)")
     tbuys, tsells, tdid = fill_standing_orders(now, today, broker, positions, px, st, g,
-                                               allowed, remaining, sector_of, cpressure, log)
+                                               allowed, remaining, sector_of, cpressure, log, no_new_entries=cutoff)
     stale_sells, stale_n = time_stops(now, broker, broker.positions(), st, g, log)
     tsells += stale_sells; tdid += stale_n
     if tdid:
@@ -667,7 +730,9 @@ def main(report_only: bool = False, force: bool = False) -> None:
     cf = reflect.report(px)                       # graded once here, then reused after the decision
     checks_left = checks_left_today(now, every_min)
     cleanup = is_cleanup_check(now, g, every_min)
-    nothing_to_buy = remaining < g["min_order_usd"]
+    nothing_to_buy = remaining < g["min_order_usd"] or cutoff
+    if cutoff:
+        log("  (inside the last max_hold_minutes of the session: no new entries at this check)")
     ctx = {
         "datetime_et": now.strftime("%Y-%m-%d %H:%M"), "weekday": today.strftime("%A"),
         "market_close_et": close_time(today).strftime("%H:%M"), "last_trading_day_of_week": last_trading_day_of_week(today),
@@ -681,6 +746,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "weekly_budget_usd": g["_weekly_budget"], "remaining_budget_usd": remaining,
         "spent_today_usd": st.get("deployed_today", 0.0), "orders_today": st["orders_today"], "sells_today": st["sells_today"],
         "bought_this_week": st.get("deployed_by_ticker") or st["by_ticker"], "sold_today": st["sold_today"],
+        "cooling_off_minutes_left": {t: int(round(int(g.get("rebuy_cooldown_minutes", 0) or 0) - (now.timestamp() - float(ts or 0)) / 60))
+                                     for t, ts in (st.get("sold_ts") or {}).items()
+                                     if int(g.get("rebuy_cooldown_minutes", 0) or 0) and (now.timestamp() - float(ts or 0)) / 60 < int(g.get("rebuy_cooldown_minutes", 0) or 0)},
+        "no_new_entries_this_check": cutoff,
         "guardrails": {k: v for k, v in g.items() if not k.startswith("_")},
         "sell_rules": {"allowed": not g.get("only_buy", False), "min_hold_days": g.get("min_hold_days", 0), "max_sells_per_day": g.get("max_sells_per_day", 3)},
         "allowed_tickers": sorted(allowed), "watchlist": cfg["watchlist"], "prices": px,
@@ -699,12 +768,13 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "working_orders": triggers.summary(px, now),
         "orders_dropped_at_last_check": reflect.last_dropped(),
         "standing_order_kinds": sorted(triggers.KINDS),
-        "past_lessons_with_outcome": reflect.recent_lessons_with_outcome(px),
+        "past_lessons_with_outcome": {"rows": reflect.recent_lessons_with_outcome(px),
+                                      "status": learn.past_lessons(evidence_days=cf.get("independent_days_graded") or 0)["status"]},
     }
     try:
         plan = brain.decide(env, ctx)
     except Exception as e:
-        log(f"brain error: {redact(e)} — no decision at this check."); pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), "brain error"); return
+        log(f"brain error: {redact(e)} — no decision at this check."); pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), "brain error", working_orders=triggers.summary(px, now)); return
     log(f"brain: {plan.get('reasoning', '')}")
     learn.add_lesson(plan.get("lesson", ""), track, evidence_days=cf.get("independent_days_graded") or 0)
     if plan.get("lesson"): log(f"lesson: {plan['lesson']}")
@@ -752,6 +822,14 @@ def main(report_only: bool = False, force: bool = False) -> None:
 
     # anything that was too high in the range to buy at market rests as a limit lower down
     want = list(plan.get("triggers") or [])
+    if int(g.get("max_hold_minutes", 0) or 0) > 0:
+        # Under an intraday clock a buy order never outlives the session, whether the model left
+        # good_until blank (which defaulted to a 5-day life spanning the weekend) or set a later date.
+        for t in want:
+            if str(t.get("kind", "")).lower() in triggers.BUY_KINDS:
+                t["good_until"] = min(str(t.get("good_until") or "9999-12-31")[:10], now.date().isoformat())
+        if cutoff:
+            want = [t for t in want if str(t.get("kind", "")).lower() not in triggers.BUY_KINDS]
     for d in deferred:
         want.append({"ticker": d["ticker"], "kind": "buy_limit", "price": d["limit_price"], "usd": d["usd"],
                      # Alive through this session, gone tomorrow. Left blank it defaulted to a
@@ -767,7 +845,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
     _cool = int(g.get("rebuy_cooldown_minutes", 0) or 0)
     _cooling = {t for t, ts in (st.get("sold_ts") or {}).items()
                 if _cool and (now.timestamp() - float(ts or 0)) / 60 < _cool}
-    auto += triggers.dip_hunt(now, set(broker.positions()), allowed, px,
+    auto += [] if cutoff else triggers.dip_hunt(now, set(broker.positions()), allowed, px,
                               {**(g.get("dip_hunt") or {}),
                                "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0),
                                "_min_order_usd": float(g.get("min_order_usd", 0) or 0),
@@ -807,7 +885,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
             f"{f' (incl. {tdid} from standing orders)' if tdid else ''}; "
             f"{len(book)} order(s) working; budget left ${g['_weekly_budget'] - st['spent']:.2f} this week")
     pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), plan.get("reasoning", "")[:300],
-                working_orders=book, next_check_minutes=plan.get("next_check_minutes"))
+                working_orders=book, next_check_minutes=plan.get("next_check_minutes"),
+                reasoning=plan.get("reasoning", "")[:300])
 
 if __name__ == "__main__":
     if "--if-due" in sys.argv:
@@ -815,8 +894,16 @@ if __name__ == "__main__":
         # one job, which is what finally removed the concurrency-lane fight: a queued tick kept
         # cancelling a pending decision, because a lane holds only one waiting run.
         mins = int(sys.argv[sys.argv.index("--if-due") + 1])
+        _now = datetime.now(ET)
+        if not market_open_fallback(_now) and "--force" not in sys.argv:
+            # Overnight, a decision would only log "market closed" and publish - and every publish
+            # is a site deploy. That was ~77 wasted deploys a day against a 100/day limit.
+            print("market closed; no decision, nothing published"); sys.exit(0)
+        if _now.time() < time(9, 32) and "--force" not in sys.argv:
+            # In the first minute the daily quote can still be yesterday's row; two minutes costs nothing.
+            print("first minute of the session; waiting for a real quote"); sys.exit(0)
         _st = state.load()
-        _age = (datetime.now(ET).timestamp() - float(_st.get("last_decision_ts", 0) or 0)) / 60
+        _age = (_now.timestamp() - float(_st.get("last_decision_ts", 0) or 0)) / 60
         if _age < mins:
             print(f"decision was {_age:.0f} min ago; not due yet (every {mins})")
         else:

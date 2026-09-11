@@ -45,14 +45,27 @@ def record_sell(rec: dict, signals: list[str] | None = None, evidence: str = "",
 def journal_tickers() -> list[str]:
     return sorted({r["symbol"] for r in _buys(_load())})
 
-def _agg(scored: list[dict], key: str, val: str = "ret_now", multi: bool = False) -> dict:
-    buckets: dict[str, list[float]] = {}
+def _agg(scored: list[dict], key: str, val: str = "ret_now", multi: bool = False, weight: str | None = None) -> dict:
+    """Bucket average of `val` by `key`. With `weight` set (e.g. "proceeds") the average is
+    dollar-weighted: one $500 trade counts ten times a $50 one. Unweighted, a single AMD lot sold
+    in four $3 halves outvoted every real trade and ranked 'risk_management' the best signal."""
+    buckets: dict[str, list[tuple[float, float]]] = {}
     for r in scored:
         vals = r.get(key) if multi else [r.get(key)]
+        w = float(r.get(weight) or 0) if weight else 1.0
+        if weight and w <= 0:
+            w = float(r.get("qty") or 0) or 1.0
         for v in (vals or []):
-            buckets.setdefault(str(v), []).append(r[val])
-    return {k: {"n": len(v), "avg_ret_pct": round(sum(v) / len(v), 2), "hit_rate": round(sum(x > 0 for x in v) / len(v), 2)}
-            for k, v in buckets.items()}
+            buckets.setdefault(str(v), []).append((float(r[val]), w))
+    out = {}
+    for k, pairs in buckets.items():
+        tw = sum(w for _, w in pairs) or 1.0
+        out[k] = {"n": len(pairs),
+                  "avg_ret_pct": round(sum(x * w for x, w in pairs) / tw, 2),
+                  "hit_rate": round(sum(w for x, w in pairs if x > 0) / tw, 2)}
+        if weight:
+            out[k]["usd"] = round(tw, 2)
+    return out
 
 def score(prices: dict, held: set | None = None) -> dict:
     """Fill in 1w/1m returns where enough time has passed, then aggregate.
@@ -98,10 +111,19 @@ def score(prices: dict, held: set | None = None) -> dict:
     scored = [r for r in _buys(rows) if r.get("ret_now") is not None]
     open_rows = [r for r in scored if still is None or r["symbol"] in still]
     sells = [r for r in sells_all if r.get("realized_pct") is not None]
+    for sr in sells:
+        # Old sells were recorded with no signals (or "unspecified") before closing sells inherited
+        # the entry's tags. Attribute them at read time, the same way new sells are, so the ranking
+        # is not dominated by a bucket that means "nobody wrote it down".
+        sig = [x for x in (sr.get("signals") or []) if x and x != "unspecified"]
+        if not sig:
+            b = _entry_for(sr, rows)
+            if b and b.get("signals"):
+                sr["signals"] = sorted(set(b["signals"]) | ({"time_stop"} if sr.get("trigger") == "time_stop" else set()))
     # The ranking the brain reads is built from REALISED sells. Building it from the buy-side mark
     # graded positions the agent no longer owned and told it it was down 2.5% a trade when the
     # booked figure was a fraction of that - and flipped the sign on AMD.
-    by_signal = _agg(sells, "signals", val="realized_pct", multi=True) if sells else _agg(scored, "signals", multi=True)
+    by_signal = _agg(sells, "signals", val="realized_pct", multi=True, weight="proceeds") if sells else _agg(scored, "signals", multi=True)
     ranking = sorted(by_signal.items(), key=lambda kv: (-kv[1]["avg_ret_pct"], -kv[1]["n"]))
     closed_buys = [r for r in scored if r.get("ret_src") == "realised" or (still is not None and r["symbol"] not in still)]
     cost_closed = sum(float(r.get("notional") or r.get("usd") or 0) for r in closed_buys)
@@ -114,13 +136,15 @@ def score(prices: dict, held: set | None = None) -> dict:
         "avg_ret_pct_all": round(sum(r["ret_now"] for r in scored) / len(scored), 2) if scored else None,
         "realized_per_dollar_pct": round(100 * pnl / cost_closed, 2) if cost_closed > 0 else None,
         "how_to_read": ("realized_per_dollar_pct is what closed trades actually booked per dollar put in. "
-                        "avg_ret_pct_all mixes that with open positions marked to market; prefer the first."),
+                        "avg_ret_pct_all mixes that with open positions marked to market; prefer the first. "
+                        "Sell-side buckets (by_signal, by_hour_et, by_hold_bucket) are dollar-weighted: usd is the "
+                        "money behind each bucket, and a bucket under a few hundred dollars is noise."),
         "by_sector": _agg(scored, "sector"),
         "by_congress_buying": _agg(scored, "congress_buying"),
         "by_signal": by_signal,
         "signal_ranking_best_to_worst": [k for k, _ in ranking],
-        "by_hour_et": _agg(sells, "hour_et", val="realized_pct") if sells else _agg(scored, "hour_et"),
-        "by_hold_bucket": _agg(sells, "hold_bucket", val="realized_pct") if sells else {},
+        "by_hour_et": _agg(sells, "hour_et", val="realized_pct", weight="proceeds") if sells else _agg(scored, "hour_et"),
+        "by_hold_bucket": _agg(sells, "hold_bucket", val="realized_pct", weight="proceeds") if sells else {},
         "unrealised_open": [{"symbol": r["symbol"], "ret_now": r["ret_now"]} for r in open_rows],
         "best": sorted(sells, key=lambda r: -r["realized_pct"])[:3] if sells else sorted(scored, key=lambda r: -r["ret_now"])[:3],
         "worst": sorted(sells, key=lambda r: r["realized_pct"])[:3] if sells else sorted(scored, key=lambda r: r["ret_now"])[:3],
@@ -128,7 +152,7 @@ def score(prices: dict, held: set | None = None) -> dict:
                   "realized_pnl_usd": round(sum(r.get("realized_pnl", 0) for r in sells), 2),
                   "avg_realized_pct": round(sum(r["realized_pct"] for r in sells) / len(sells), 2) if sells else None,
                   "hit_rate": round(sum(r["realized_pct"] > 0 for r in sells) / len(sells), 2) if sells else None,
-                  "by_signal": _agg(sells, "signals", val="realized_pct", multi=True),
+                  "by_signal": _agg(sells, "signals", val="realized_pct", multi=True, weight="proceeds"),
                   "last": [{"symbol": r["symbol"], "date": r.get("date"), "realized_pct": r["realized_pct"], "why": r.get("why", "")} for r in sells[-5:]]},
     }
     for k in ("best", "worst"):

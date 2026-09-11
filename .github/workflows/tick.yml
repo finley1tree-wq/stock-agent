@@ -17,7 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
+      # Start on the branch TIP at job start, not the sha recorded when the run was queued. A run
+      # that waited in the concurrency lane used to begin one push behind its predecessor, which is
+      # what produced every conflict-replay on 2026-09-10.
       - uses: actions/checkout@v4
+        with: { ref: main }
+      - run: git fetch origin main && git reset --hard origin/main
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt
@@ -55,18 +60,28 @@ jobs:
           #    the safe move is to abort cleanly and let the next run redo the work from the new
           #    base, never to force a half-merged ledger through.
           for i in 1 2 3 4 5; do
-            if git pull --rebase --autostash; then
+            # The fetch is separated from the rebase on purpose: a transient network failure inside
+            # 'git pull' used to land in the conflict branch and end in "nothing to replay; exit 0",
+            # silently discarding the commit. Now a fetch failure just retries.
+            if ! git fetch origin main; then echo "fetch attempt $i failed (network?), retrying"; sleep $((i * 5)); continue; fi
+            if git rebase --autostash origin/main; then
               if git push; then echo "pushed on attempt $i"; exit 0; fi
               echo "push attempt $i rejected, retrying"; sleep $((i * 5))
             else
-              # A conflict here is always in GENERATED state - the ledger, the log, the site data.
-              # This run just re-read the ledger and recomputed all of it, so its version is the
-              # newer truth; the other writer's is older data derived from the same files.
-              # Discarding instead was throwing away every decision the agent made, all day: it
-              # traded on every run and none of it ever persisted, which is why the dashboard
-              # never changed. Our computed state wins, and only for these files.
-              echo "branch moved mid-run; replaying this run's state on top of it"
               git rebase --abort || true
+              # If origin changed the LEDGER while this run was computing, this run's numbers are
+              # based on a stale base and must not overwrite the newer truth (the owner's hand edit,
+              # or another writer's fills). Discard; the next pass recomputes from the new base.
+              # With every job starting on the branch tip (checkout ref: main + reset below) and the
+              # lane serialising runs, this branch should almost never be reached.
+              if [ -n "$(git log --oneline HEAD..origin/main -- portfolio.json state.json triggers.json journal.json decisions.json)" ]; then
+                echo "the ledger moved under this run; discarding this run's output so the next one recomputes from the new base"
+                git reset --hard origin/main; exit 0
+              fi
+              # Otherwise the conflict is only in the log or the published site data, and this
+              # run's copy is the newer one. Replay it, keeping root and site sets SEPARATE - they
+              # share filenames, and mixing them once restored a stale site copy over the ledger.
+              echo "branch moved mid-run (log/site only); replaying this run's state on top of it"
               # Keep the two sets SEPARATE. They share filenames - portfolio.json exists at the
               # root and again under site/data - so copying both into one directory let the
               # published snapshot overwrite the live ledger and then get restored over it.
@@ -74,7 +89,7 @@ jobs:
               cp -f portfolio.json portfolio.md state.json log.md journal.json lessons.md \
                 decisions.json triggers.json traders.json replay.json /tmp/keep/root/ 2>/dev/null || true
               cp -f site/data/. -r /tmp/keep/site/ 2>/dev/null || cp -f site/data/* /tmp/keep/site/ 2>/dev/null || true
-              git fetch origin main && git reset --hard origin/main
+              git reset --hard origin/main      # already fetched above
               cp -f /tmp/keep/root/. -r . 2>/dev/null || cp -f /tmp/keep/root/* . 2>/dev/null || true
               mkdir -p site/data && (cp -f /tmp/keep/site/. -r site/data/ 2>/dev/null || cp -f /tmp/keep/site/* site/data/ 2>/dev/null || true)
               git add -A
@@ -127,7 +142,10 @@ jobs:
             if [ "${waiting:-0}" != "0" ]; then
               echo "a decision is queued or running; staying out of the lane"
             else
-              gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued"
+              for k in 1 2 3 4 5; do
+                gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued" && break
+                echo "dispatch attempt $k failed"; sleep $((k * 15))
+              done
             fi
             # NOTE: the watchdog must NOT dispatch agent.yml any more. Decisions now happen in the
             # step above via --if-due, inside this same job. When the watchdog also dispatched one,
@@ -135,6 +153,19 @@ jobs:
             # that way, which is why the agent went a whole morning without thinking.
           else
             echo "market closed - idling, the chain stays awake so nothing has to wake it"
-            sleep 600
-            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next idle pass queued"
+            # Sleep up to ten minutes, but never PAST the next open: the pass that straddles 09:30
+            # wakes at 09:30 sharp instead of up to ten minutes late.
+            secs=$(python -c "
+          from datetime import datetime, timedelta, time
+          from zoneinfo import ZoneInfo
+          from agent.broker_sim import is_trading_day
+          n = datetime.now(ZoneInfo('America/New_York')); d = n.date()
+          while not is_trading_day(d) or (d == n.date() and n.time() >= time(9, 30)): d += timedelta(days=1)
+          print(max(1, min(600, int((datetime.combine(d, time(9, 30), tzinfo=n.tzinfo) - n).total_seconds()))))
+          " 2>/dev/null || echo 600)
+            sleep "$secs"
+            for k in 1 2 3 4 5; do
+              gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next idle pass queued" && break
+              echo "dispatch attempt $k failed"; sleep $((k * 15))
+            done
           fi

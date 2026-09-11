@@ -1,6 +1,7 @@
 # Weekly budget in USD. The agent may spend it across the week (Mon–Fri), deploying chunks
-# when it thinks the timing is good. Whatever is left is deployed Friday afternoon so the
-# week's money never sits idle.
+# when it thinks the timing is good. (The old "whatever is left is deployed Friday afternoon"
+# sweep is disabled whenever guardrails.max_hold_minutes is set: under an intraday clock there is
+# no idle weekly money, and a 15:00 dump would be carried over the weekend.)
 weekly_budget: 25000
 
 # Broker is chosen in .env (BROKER=sim | alpaca | ibkr). Default is sim: the built-in pretend-money
@@ -56,7 +57,9 @@ guardrails:
   max_orders_per_day: 60         # a 30-minute hold means ~13 slots a day per position line; these caps
                                  # would otherwise become the real limit instead of the dollar caps
                                  # below are the real risk control, this only stops runaway churn
-  friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed
+  friday_cleanup_after_et: "15:30"   # on Fridays from this time (New York) the whole remaining budget must be deployed.
+                                     # INERT while max_hold_minutes > 0 (see is_cleanup_check). Off the clock the
+                                     # effective trigger is min(this, close - 2 checks) or the last check of the day.
   only_buy: false                # false = the brain may sell positions (with evidence), true = buys only
   # Finley's rule: nothing is held longer than this, up or down. It forces the agent to take the
   # trade in front of it instead of waiting for a better one, and it generates far more completed
@@ -95,7 +98,8 @@ guardrails:
                                  # is acted on now rather than two days later. Churn is held back instead by
                                  # max_orders_per_day / max_sells_per_day, the no-same-day-rebuy rule, and
                                  # spread_cost_pct below, which makes every round trip cost something.
-  max_sells_per_day: 60          # must at least match the buys, or positions get stuck open
+  max_sells_per_day: 60          # must at least match the buys, or positions get stuck open. Protective sells
+                                 # (time stop, stop-loss, trailing stop, session close) are exempt from this cap.
   allow_politician_tickers: true # may buy tickers Congress members recently bought, even if not on the watchlist
   politician_lookback_days: 30
   allow_insider_tickers: true    # may buy tickers with net insider (Form 4) buying, even if not on the watchlist

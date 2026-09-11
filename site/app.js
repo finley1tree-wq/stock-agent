@@ -285,7 +285,12 @@
     $("#next-check").textContent = nextCheckText(sg.run_every_minutes || 30);
     const fs = sg.feed_status || {}; const fmt = v => v === "ok" ? "<span style='color:var(--up)'>live</span>" : v ? `<span style='color:var(--amber)'>${esc(v)}</span>` : "—";
     $("#feed-congress").innerHTML = fmt(fs.congress); $("#feed-insiders").innerHTML = fmt(fs.insiders);
-    $("#last-reasoning").textContent = sg.note && sg.note !== "market closed" && sg.note !== "published without a decision" ? `Last decision: ${sg.note}` : "";
+    // The brain's reasoning is carried forward on every publish; the tick note ("tick: watching")
+    // is not a decision and was what this card showed for most of the day.
+    const reasoning = sg.last_reasoning || "";
+    const when = sg.signalsAsOf ? ` (${new Date(sg.signalsAsOf).toLocaleTimeString("en-US", {hour: "numeric", minute: "2-digit"})})` : "";
+    $("#last-reasoning").textContent = reasoning ? `Last decision${when}: ${reasoning}`
+      : (sg.note && !/^tick:|^market closed$|^published without a decision$/.test(sg.note) ? `Last decision: ${sg.note}` : "");
     $("#mode").textContent = (sg.broker || "sim") === "sim" ? "SIM · pretend money" : (sg.broker || "").toUpperCase();
   }
 

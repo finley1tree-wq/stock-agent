@@ -227,6 +227,18 @@ def close(order_id: str, now: datetime, status: str, detail: str = "") -> None:
     d["updated"] = now.strftime("%Y-%m-%d %H:%M")
     _save(d)
 
+def cancel_all_buys(now: datetime, reason: str) -> int:
+    """Retire every working buy order. Used inside the last max_hold_minutes of the session, when
+    a fill could no longer be closed by the clock before the bell."""
+    d = _load(); n = 0
+    for o in d["orders"]:
+        if o.get("status") == "working" and o["kind"] in BUY_KINDS:
+            o["status"] = "cancelled"; o["closed"] = now.strftime("%Y-%m-%d %H:%M")
+            o["cancel_reason"] = reason; n += 1
+    if n:
+        _save(d)
+    return n
+
 def cancel_position_orders(ticker: str, now: datetime, reason: str) -> int:
     """When a position closes, retire everything that was attached to it.
 

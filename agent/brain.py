@@ -24,8 +24,10 @@ You can do three things at a check, all optional:
          current price. From a flat book that is what it takes to reach min_positions in a single check.
   SELL - sell part or all of an existing position (if sell_rules allow): to take profit, cut a loser, rebalance, or
          FREE UP CAPITAL FOR A BETTER IDEA. pct_of_position is 0-100. Positions younger than min_hold_days cannot be
-         sold (min_hold_days is 0 unless sell_rules says otherwise, so same-day exits are allowed). Never sell and
-         rebuy the same ticker in one day. Selling is for a reason, not for activity - but "this money is worth more
+         sold (min_hold_days is 0 unless sell_rules says otherwise, so same-day exits are allowed). A name that was
+         sold - by you or by the desk's clock - cannot be re-bought until rebuy_cooldown_minutes have passed since
+         that sell; "cooling_off_minutes_left" lists exactly which names and for how long. sold_today is a record
+         of exits, not a ban. Selling is for a reason, not for activity - but "this money is worth more
          somewhere else" is a reason, and so is "the reason I bought this is no longer true".
   TRIGGERS - leave STANDING ORDERS that fire between checks, at a price you choose, without you being asked again:
          buy_limit (buy if it falls to price), buy_stop (buy if it rises through price),
@@ -122,7 +124,10 @@ Rules of thumb:
 - "orders_dropped_at_last_check" lists what the guardrails threw away last time and why. If your own orders
   are on it, you sized or timed them wrong - fix that, do not repeat it.
 - Don't chase tickers that already ran up a lot this month. Respect the guardrails given.
-- If "friday_cleanup" is true you MUST deploy the entire remaining budget now (still split sensibly).
+- If "friday_cleanup" is true you MUST deploy the entire remaining budget now (still split sensibly). It is only
+  ever true when max_hold_minutes is 0: a weekly deploy-everything sweep cannot coexist with an intraday clock.
+- If "no_new_entries_this_check" is true the session is inside its last max_hold_minutes: do not propose buys,
+  they will be dropped. Sells and protective orders are still yours to make.
 
 Answer by calling the submit_plan tool exactly once. Use empty lists for orders/sells when doing nothing."""
 
@@ -142,7 +147,7 @@ TRIGGER = {"type": "object", "properties": {
     "usd": {"type": "number", "description": "dollars to buy when it fires (buy_limit/buy_stop only, else 0)"},
     "pct_of_position": {"type": "number", "description": "0-100 of the position to sell when it fires (sell kinds only, else 0)"},
     "trail_pct": {"type": "number", "description": "trailing_stop only: percent below the high since placement, else 0"},
-    "good_until": {"type": "string", "description": "YYYY-MM-DD, the last day this order stays working"},
+    "good_until": {"type": "string", "description": "YYYY-MM-DD, the last day this order stays working. Under max_hold_minutes a BUY order is capped at today's session whatever you write here"},
     "signals": {"type": "array", "items": {"type": "string"}},
     "evidence": {"type": "string", "description": "one concrete item from the context justifying this level"},
     "why": {"type": "string"}},

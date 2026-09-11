@@ -226,7 +226,10 @@ def report(px_now: dict) -> dict:
 
 def recent_lessons_with_outcome(px_now: dict, n: int = 8) -> list[dict]:
     """The last few lessons, each paired with how that check actually turned out."""
-    rows = [r for r in _load() if r.get("lesson")]
+    # Only checks that can actually be GRADED. A lesson written on an idle check has no bought
+    # basket to score, so its "outcome" was null forever and it could never be contradicted -
+    # eight undeduplicated "hold cash" lessons rode back to the brain that way, each unfalsifiable.
+    rows = [r for r in _load() if r.get("lesson") and r.get("bought")]
     today = date.today()
     out = []
     for r in rows[-n:]:
