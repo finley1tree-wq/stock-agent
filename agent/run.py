@@ -26,7 +26,12 @@ MARKET_OPEN = time(9, 30)
 # "unspecified" and the learning loop can never attribute a result to the feature that caused it.
 SIGNALS = {"congress", "insider", "followed_person", "news", "momentum", "track_record", "etf_default",
            "risk_management", "dip_entry", "time_stop", "intraday_limit", "standing_order",
-           "auto_bracket", "patience"}
+           "auto_bracket", "patience", "session_close",
+           # Which brain decided this trade. Without it a rule-based decision is recorded as plain
+           # "momentum" and is indistinguishable from one the model reasoned its way to, so the
+           # loop can never answer whether the rules or the model actually pick better. Every
+           # autopilot trade on 2026-09-11 was logged untagged for exactly this reason.
+           "autopilot"}
 
 def log(line: str) -> None:
     print(line)
