@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 15004.43,
+  "spent": 23993.18,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -9,7 +9,7 @@
     "META": 3005.26,
     "NVDA": 3.96,
     "AVGO": 2.12,
-    "MSFT": 2.87,
+    "MSFT": 3002.87,
     "TSM": 1.48,
     "GOOGL": 1.13,
     "AMD": 2.28,
@@ -17,9 +17,11 @@
     "BE": 3000.0,
     "INTC": 1.52,
     "SPCX": 3000.0,
-    "TPL": 3000.0,
     "DGICA": 3000.0,
-    "NEM": 1.39
+    "NEM": 1.39,
+    "CHRW": 3000.0,
+    "MRK": 3000.0,
+    "AAPL": 3000.0
   },
   "orders": [
     {
@@ -1748,12 +1750,99 @@
       ],
       "evidence": "average cost $103.53",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TPL",
+      "side": "sell",
+      "qty": 8.144568,
+      "status": "filled",
+      "price": 369.73,
+      "proceeds": 3011.25,
+      "realized_pnl": 11.25,
+      "realized_pct": 0.38,
+      "date": "2026-09-11",
+      "time_et": "14:06",
+      "ts": 1789149900,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $368.34",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.621877,
+      "price": 152.89,
+      "date": "2026-09-11",
+      "time_et": "14:07",
+      "ts": 1789150040,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress buying ({'who': 'April McClain Delaney', 'type': 'sell', 'amount': '$100,001 - $250,000', 'disclosed': '2026-09-09'}, {'who': 'April McClain Delaney', 'type': 'buy', 'amount': '$1,001 - $15,0"
+    },
+    {
+      "symbol": "MRK",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.637128,
+      "price": 145.37,
+      "date": "2026-09-11",
+      "time_et": "14:07",
+      "ts": 1789150040,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress buying; +9.3% over the month; 73% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.053524,
+      "price": 495.58,
+      "date": "2026-09-11",
+      "time_et": "14:07",
+      "ts": 1789150040,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum"
+      ],
+      "evidence": "+0.6% over the month; 45% of today's range"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.009101,
+      "price": 333.0,
+      "date": "2026-09-11",
+      "time_et": "14:07",
+      "ts": 1789150040,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum"
+      ],
+      "evidence": "+10.2% over the month; 67% of today's range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 15004.43,
-  "orders_today": 38,
-  "sells_today": 32,
+  "spent_today": 23993.18,
+  "orders_today": 42,
+  "sells_today": 33,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1772,12 +1861,13 @@
     "NEM",
     "SPY",
     "MRK",
-    "CHRW"
+    "CHRW",
+    "TPL"
   ],
-  "last_check_ts": 1789149821,
+  "last_check_ts": 1789150040,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789149699,
-  "last_decision_ts": 1789149599,
+  "last_publish_ts": 1789149976,
+  "last_decision_ts": 1789150040,
   "sold_ts": {
     "INTC": 1789149700,
     "GOOGL": 1789145672,
@@ -1796,9 +1886,10 @@
     "NEM": 1789149639,
     "SPY": 1789145672,
     "MRK": 1789146922,
-    "CHRW": 1789147279
+    "CHRW": 1789147279,
+    "TPL": 1789149978
   },
-  "deployed": 73300.0,
+  "deployed": 85300.0,
   "deployed_by_ticker": {
     "AMD": 8500.0,
     "CCJ": 3800.0,
@@ -1806,55 +1897,51 @@
     "GOOGL": 4000.0,
     "META": 5200.0,
     "IBM": 4800.0,
-    "AAPL": 3800.0,
+    "AAPL": 6800.0,
     "TSM": 4400.0,
     "NVDA": 1500.0,
     "AVGO": 1500.0,
     "AMZN": 1500.0,
-    "MSFT": 1500.0,
+    "MSFT": 4500.0,
     "KMT": 2750.0,
     "HD": 1250.0,
     "NEM": 4000.0,
     "SPY": 3500.0,
-    "CHRW": 1000.0,
-    "MRK": 1800.0,
+    "CHRW": 4000.0,
+    "MRK": 4800.0,
     "BE": 3000.0,
     "SPCX": 3000.0,
     "TPL": 3000.0,
     "DGICA": 3000.0
   },
-  "deployed_today": 73300.0,
-  "last_bar_ts": 1789149600,
+  "deployed_today": 85300.0,
+  "last_bar_ts": 1789149900,
   "book_px": {
+    "48b7a53a": 19.278,
     "fe749ce6": 19.3118,
     "665962b8": 462.6445,
     "66618da4": 646.7737,
-    "f3b06472": 338.7473,
     "9335ca5f": 652.2757,
+    "f3b06472": 338.7473,
     "e87d920e": 493.0083,
     "5636ffb8": 149.8498,
-    "c77ba476": 272.247,
-    "e06e72cb": 369.725,
-    "c1f95086": 365.2996,
-    "1a03a54d": 19.1306,
     "81e82a65": 275.6911,
-    "49789aaa": 364.8813,
-    "e56203d4": 643.9958,
     "5ba8a2de": 330.5,
+    "c77ba476": 272.247,
+    "e56203d4": 643.9958,
     "d375c5a7": 429.0,
     "6240fac4": 147.5047,
     "23b20e4c": 19.0529,
     "b84d5c3e": 147.0339,
     "a3d09bd3": 216.0,
+    "532b86e9": 171.2706,
     "a8200c8d": 269.1087,
     "6a60a8a6": 236.0,
     "7d6b8f4e": 505.0,
-    "532b86e9": 171.2706,
-    "2c9f0bbc": 357.2898,
     "8a6f7363": 630.4127,
-    "67269aea": 265.5957,
     "c31e4140": 144.7046,
     "f1f3816f": 18.6822,
+    "67269aea": 265.5957,
     "ba4576bb": 310.432
   },
   "next_check_minutes": 6

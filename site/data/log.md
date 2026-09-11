@@ -1,33 +1,3 @@
-lesson: On green broad-market days, deploying into min_positions across widely_held names backed by momentum/news evidence beats idling; track record shows widely_held sector has 1.0 hit rate and congress/momentum signals outperform time_stop/etf_default.
-  (dropped NVDA: 96% up today's range — resting a limit at $220.61 instead of chasing)
-- BUY $1800.00 IBM [filled] ['news', 'momentum'] — Broad market green day (SPY +1.02%, DIA +1.13%), IBM showing solid momentum without being extended like META/GOOGL | evidence: IBM +2.43% today, +2.13% 5d, headline 'Company News for Sep 11' and quantum computing coverage; 78.6% of day range but only started climbing recently
-- BUY $1800.00 AAPL [filled] ['momentum', 'news'] — Widely_held sector had best hit_rate (1.0) and avg_ret (0.73%) in track record; AAPL is one of the biggest misses noted in counterfactual review (fwd_pct 3.86%) | evidence: AAPL +1.8% 1d, +10% 1m, 77.3% of day range - trending well within allowed entry range
-- BUY $1400.00 TSM [filled] ['news', 'track_record'] — Low in day range unlike other AI names, record sales headline gives fresh catalyst | evidence: TSM headline 'record sales say AI chips are booming', only 8.5% of day range - room to run, +2.95% 5d
-  (dropped trigger NVDA stop_loss: not held)
-~ WORKING stop_loss 100% IBM @ $234.90 until 2026-09-11 — cap downside on new IBM position within max_hold_minutes window
-~ WORKING stop_loss 100% AAPL @ $326.00 until 2026-09-11 — protect AAPL position from intraday reversal
-~ WORKING stop_loss 100% TSM @ $421.00 until 2026-09-11 — protect TSM new position
-~ WORKING buy_limit $1500.00 NVDA @ $220.61 until 2026-09-11 — wanted it, but not at the high — resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position
-~ WORKING take_profit 100% IBM @ $240.44 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $232.57 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AAPL @ $333.38 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AAPL @ $322.55 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $430.50 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $416.53 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 APP @ $310.43 until 2026-09-12 — strong month, weak day: resting 0.87% under $313.17 to catch the dip
-portfolio: equity $25046.04 (+0.18% on $25000.00 in) · cash $15299.03 · realised -0.97
-Done: 0 sell(s), 3 buy(s); 20 order(s) working; budget left $15299.05 this week
-- SELL 100% AMD [time stop] -> $2534.25 (+1.37%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-11 10:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $240.44] -> $1805.15 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-09-11 10:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $430.50] -> $1403.56 (+0.25%) — close 100% at +0.3% over the average cost
-## 2026-09-11 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% META [time stop] -> $2194.74 (-0.24%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-11 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $333.38] -> $1804.65 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-09-11 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1500.00 NVDA [buy_limit @ $220.61] — wanted it, but not at the high — resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position
@@ -398,3 +368,33 @@ Done: 0 sell(s), 8 buy(s); 37 order(s) working; budget left $1000.00 this week
   (cancelled 1 standing order(s) on INTC: position closed)
 - SELL 100% INTC [stop_loss @ $103.48] -> $2998.48 (-0.05%) — close it all at -1.2% under the average cost
 ## 2026-09-11 14:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on TPL: position closed)
+- SELL 100% TPL [take_profit @ $369.73] -> $3011.25 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-09-11 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:07 ET (Friday) — week 2026-W37 — budget left $13006.82 (today $73300.00 put to work, 38 buys, 33 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex6dWpKZyLdvRsn5w446'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,007 idle, so opened 4: CHRW, MRK, MSFT, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying ({'who': 'April McClain Delaney', 'type': 'sell', 'amount': '$100,001 - $250,000', 'disclosed': '2026-09-09'}, {'who': 'April McClain Delaney', 'type': 'buy', 'amount': '$1,001 - $15,0
+- BUY $3000.00 MRK [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +9.3% over the month; 73% of today's range
+- BUY $3000.00 MSFT [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +0.6% over the month; 45% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +10.2% over the month; 67% of today's range
+~ WORKING take_profit 100% CHRW @ $153.31 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $151.83 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $148.30 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% MRK @ $145.37 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 MRK @ $141.01 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $496.70 until 2026-09-16 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $492.79 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $480.71 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% AAPL @ $333.00 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $323.01 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25065.37 (+0.26% on $25000.00 in) · cash $1060.85 · realised +60.85
+Done: 0 sell(s), 4 buy(s); 36 order(s) working; budget left $1006.82 this week
