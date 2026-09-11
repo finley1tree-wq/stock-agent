@@ -3290,7 +3290,7 @@
    "ticker": "MRK",
    "kind": "stop_loss",
    "price": 144.1831,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 12:58",
    "created_ts": 1789145898,
    "why": "close it all at -0.7% under the average cost",
@@ -3300,7 +3300,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 13:14",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "44065fd7",
@@ -3369,7 +3371,24 @@
    ],
    "good_until": "2026-09-16",
    "usd": 500.0
+  },
+  {
+   "id": "92b7885e",
+   "ticker": "MRK",
+   "kind": "stop_loss",
+   "price": 145.334,
+   "status": "working",
+   "created": "2026-09-11 13:14",
+   "created_ts": 1789146878,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $145.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-11 12:58"
+ "updated": "2026-09-11 13:14"
 }

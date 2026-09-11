@@ -1,11 +1,3 @@
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (trigger INTC trailing_stop cancelled (position gone))
-  (trigger CCJ stop_loss cancelled (position gone))
-  (trigger NLR stop_loss cancelled (position gone))
-  (trigger CCJ take_profit cancelled (position gone))
-  (trigger INTC take_profit cancelled (position gone))
   (trigger NLR take_profit cancelled (position gone))
 brain: Only 1 check left today (15:20 ET), 40 min to close, and max_hold_minutes is 30 so any new buy now would be force-closed right at/near the close into a red, choppy tape (nearly every watchlist name down 1-5% today, INTC -5%, OKLO -6%, CCJ -2.9%). No fresh concrete catalyst justifies a same-day round trip this late; today's mechanical evidence shows zero 1-day edge anyway. Existing working orders (NLR, INTC buy_limits) remain in place to catch dips without forcing action now.
 lesson: Do not restate the same 'hold cash late in a red day' conclusion as if repeating it were new evidence - if this pattern keeps recurring, next session start fresh and look for actual actionable setups earlier in the day rather than defaulting to inaction near the close.
@@ -398,3 +390,11 @@ lesson: When idle cash is 96% and multiple names have concrete congress/insider/
 ~ WORKING buy_limit $500.00 KMT @ $28.74 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25043.79 (+0.18% on $25000.00 in) · cash $20744.58 · realised +44.58
 Done: 0 sell(s), 2 buy(s); 26 order(s) working; budget left $20701.19 this week
+
+## 2026-09-11 13:14 ET (Friday) — week 2026-W37 — budget left $20701.19 (today $49300.00 put to work, 30 buys, 26 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex2cWWEHmwEHPx59yHRP'} — no decision at this check.
