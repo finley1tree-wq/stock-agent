@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "11ad7f16",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 120.8717,
-   "status": "cancelled",
-   "created": "2026-09-09 12:44",
-   "created_ts": 1788972292,
-   "why": "average in another $25 if it falls 3.0% below the average cost",
-   "evidence": "average cost $124.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-14",
-   "usd": 25.0,
-   "closed": "2026-09-10 13:50",
-   "cancel_reason": "sized for a $400 account; the account is $25,000"
-  },
-  {
-   "id": "9a6f415a",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 521.9915,
-   "status": "filled",
-   "created": "2026-09-09 12:44",
-   "created_ts": 1788972292,
-   "why": "close 50% at +2.5% over the average cost",
-   "evidence": "average cost $509.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-14",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-09 12:49"
-  },
-  {
-   "id": "031e3d8d",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 493.9822,
-   "status": "cancelled",
-   "created": "2026-09-09 12:44",
-   "created_ts": 1788972292,
-   "why": "average in another $25 if it falls 3.0% below the average cost",
-   "evidence": "average cost $509.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-14",
-   "usd": 25.0,
-   "closed": "2026-09-10 13:50",
-   "cancel_reason": "sized for a $400 account; the account is $25,000"
-  },
-  {
-   "id": "74f8d9fd",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 107.8505,
-   "status": "cancelled",
-   "created": "2026-09-09 12:44",
-   "created_ts": 1788972292,
-   "why": "close 50% at +2.5% over the average cost",
-   "evidence": "average cost $105.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-14",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-09 15:41",
-   "cancel_reason": "average cost moved"
-  },
-  {
    "id": "d7502cdc",
    "ticker": "AMD",
    "kind": "take_profit",
@@ -7504,9 +7429,85 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 147.6728,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 15:47",
    "created_ts": 1789156067,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:48",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "3ffa4281",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:47",
+   "created_ts": 1789156067,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:48",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "1e69f356",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.6728,
+   "status": "cancelled",
+   "created": "2026-09-11 15:48",
+   "created_ts": 1789156101,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:49",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "c0309d2f",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 482.0803,
+   "status": "cancelled",
+   "created": "2026-09-11 15:48",
+   "created_ts": 1789156101,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0,
+   "closed": "2026-09-11 15:49",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "15a5f42a",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.6728,
+   "status": "working",
+   "created": "2026-09-11 15:49",
+   "created_ts": 1789156147,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $152.24",
    "signals": [
@@ -7517,13 +7518,13 @@
    "usd": 500.0
   },
   {
-   "id": "3ffa4281",
+   "id": "a531e5f0",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 482.0803,
    "status": "working",
-   "created": "2026-09-11 15:47",
-   "created_ts": 1789156067,
+   "created": "2026-09-11 15:49",
+   "created_ts": 1789156147,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $496.99",
    "signals": [
@@ -7534,5 +7535,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-11 15:47"
+ "updated": "2026-09-11 15:49"
 }
