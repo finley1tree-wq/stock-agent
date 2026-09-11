@@ -4156,7 +4156,7 @@
    "ticker": "TNON",
    "kind": "take_profit",
    "price": 5.9503,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 14:36",
    "created_ts": 1789151808,
    "why": "close 100% at +2.2% over the average cost",
@@ -4166,7 +4166,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:41"
   },
   {
    "id": "60dbe4ea",
@@ -4192,7 +4193,7 @@
    "ticker": "TNON",
    "kind": "buy_limit",
    "price": 5.6454,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:36",
    "created_ts": 1789151808,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -4202,7 +4203,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 14:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f013ec11",
@@ -4228,7 +4231,7 @@
    "ticker": "TNON",
    "kind": "stop_loss",
    "price": 5.88,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:40",
    "created_ts": 1789152024,
    "why": "close it all at -5.5% under the average cost",
@@ -4238,8 +4241,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:41",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "ee5b7880",
+   "ticker": "MO",
+   "kind": "take_profit",
+   "price": 69.2026,
+   "status": "working",
+   "created": "2026-09-11 14:44",
+   "created_ts": 1789152247,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $69.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "d9156625",
+   "ticker": "MO",
+   "kind": "stop_loss",
+   "price": 68.6688,
+   "status": "working",
+   "created": "2026-09-11 14:44",
+   "created_ts": 1789152247,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $69.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "19de0519",
+   "ticker": "MO",
+   "kind": "buy_limit",
+   "price": 66.9785,
+   "status": "working",
+   "created": "2026-09-11 14:44",
+   "created_ts": 1789152247,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $69.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-11 14:40"
+ "updated": "2026-09-11 14:44"
 }

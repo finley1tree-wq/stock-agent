@@ -1007,3 +1007,21 @@ Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $16020.24 this week
 - SELL 100% CHRW [time stop] -> $2998.60 (-0.05%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% MSFT [time stop] -> $3003.34 (+0.11%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-11 14:37 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TNON: position closed)
+- SELL 100% TNON [take_profit @ $5.95] -> $3066.55 (+2.22%) — close 100% at +2.2% over the average cost
+  (dropped TNON: sold 0 min ago, cooling off)
+## 2026-09-11 14:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 14:44 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $91300.00 put to work, 44 buys, 43 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex9S9yV4Bsgnm1mbBfa4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: MO. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MO [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +7.2% over the month; 40% of today's range
+~ WORKING take_profit 100% MO @ $69.20 until 2026-09-16 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MO @ $68.67 until 2026-09-16 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MO @ $66.98 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25142.18 (+0.57% on $25000.00 in) · cash $22142.78 · realised +142.78
+Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $22000.00 this week

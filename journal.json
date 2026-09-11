@@ -1070,8 +1070,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.19,
-    "ret_now": -0.19,
+    "ret_final": 0.01,
+    "ret_now": 0.01,
     "ret_src": "realised"
   },
   {
@@ -1881,8 +1881,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06,
-    "ret_final": 0.06,
+    "ret_now": -0.02,
+    "ret_final": -0.02,
     "ret_src": "realised"
   },
   {
@@ -2423,7 +2423,9 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.05,
+    "ret_final": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "MRK",
@@ -2474,7 +2476,9 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.11,
+    "ret_final": 0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -2720,7 +2724,10 @@
     "momentum_1m_at_entry": 3.1,
     "hour_et": 14,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 2.22,
+    "ret_now": 2.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -2743,7 +2750,8 @@
     ],
     "evidence": "bought 30 min ago, -0.03% unrealised",
     "trigger": "time_stop",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 30
   },
   {
     "symbol": "MSFT",
@@ -2765,6 +2773,56 @@
     ],
     "evidence": "bought 30 min ago, +0.13% unrealised",
     "trigger": "time_stop",
-    "hour_et": 14
+    "hour_et": 14,
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "TNON",
+    "side": "sell",
+    "qty": 515.360845,
+    "status": "filled",
+    "price": 5.95,
+    "proceeds": 3066.55,
+    "realized_pnl": 66.55,
+    "realized_pct": 2.22,
+    "date": "2026-09-11",
+    "time_et": "14:41",
+    "ts": 1789152000,
+    "why": "close 100% at +2.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $5.82",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "hold_minutes": 3
+  },
+  {
+    "symbol": "MO",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 43.444382,
+    "price": 69.05,
+    "date": "2026-09-11",
+    "time_et": "14:44",
+    "ts": 1789152247,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4, incl. director); +7.2% over the month; 40% of today's range",
+    "entry_price": 69.04,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.23,
+    "hour_et": 14,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
