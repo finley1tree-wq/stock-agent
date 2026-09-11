@@ -1,19 +1,25 @@
 {
   "week": "2026-W37",
-  "spent": 0.0,
+  "spent": 24000.0,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
     "NLR": 13.19,
     "GOOGN": 0.24,
-    "META": 5.26,
+    "META": 3005.26,
     "NVDA": 3.96,
     "AVGO": 2.12,
     "MSFT": 2.87,
     "TSM": 1.48,
     "GOOGL": 1.13,
-    "AMD": 0.76,
-    "IBM": 0.74
+    "AMD": 3000.76,
+    "IBM": 0.74,
+    "BE": 3000.0,
+    "INTC": 3000.0,
+    "SPCX": 3000.0,
+    "TPL": 3000.0,
+    "DGICA": 3000.0,
+    "NEM": 3000.0
   },
   "orders": [
     {
@@ -1545,11 +1551,145 @@
       ],
       "evidence": "bought 30 min ago, +0.28% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.956313,
+      "price": 273.81,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress buying; +15.4% over the month; 69% of today's range"
+    },
+    {
+      "symbol": "INTC",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.976912,
+      "price": 103.53,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress buying; +2.5% over the month; 64% of today's range"
+    },
+    {
+      "symbol": "SPCX",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.109957,
+      "price": 149.18,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress buying; +2.1% over the month; 69% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.801772,
+      "price": 517.08,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress buying ({'who': 'Gilbert Ray Cisneros', 'type': 'buy', 'amount': '$1,001 - $15,000', 'disclosed': '2026-09-04'}, {'who': 'Rick W. Allen', 'type': 'buy', 'amount': '$1,001 - $15,000', 'disclos"
+    },
+    {
+      "symbol": "TPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.144568,
+      "price": 368.34,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "insider"
+      ],
+      "evidence": "insider buying (Form 4); +7.4% over the month; 58% of today's range"
+    },
+    {
+      "symbol": "DGICA",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 155.732093,
+      "price": 19.26,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "insider"
+      ],
+      "evidence": "insider buying (Form 4); +3.3% over the month; 51% of today's range"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.616024,
+      "price": 649.91,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum"
+      ],
+      "evidence": "+12.2% over the month; 14% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.746339,
+      "price": 126.34,
+      "date": "2026-09-11",
+      "time_et": "13:59",
+      "ts": 1789149599,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum"
+      ],
+      "evidence": "+7.2% over the month; 10% of today's range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 0.0,
-  "orders_today": 30,
+  "spent_today": 24000.0,
+  "orders_today": 38,
   "sells_today": 29,
   "sold_today": [
     "INTC",
@@ -1571,10 +1711,10 @@
     "MRK",
     "CHRW"
   ],
-  "last_check_ts": 1789149367,
+  "last_check_ts": 1789149599,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789148680,
-  "last_decision_ts": 1789145898,
+  "last_publish_ts": 1789149596,
+  "last_decision_ts": 1789149599,
   "sold_ts": {
     "INTC": 1789144502,
     "GOOGL": 1789145672,
@@ -1595,13 +1735,13 @@
     "MRK": 1789146922,
     "CHRW": 1789147279
   },
-  "deployed": 49300.0,
+  "deployed": 73300.0,
   "deployed_by_ticker": {
-    "AMD": 5500.0,
+    "AMD": 8500.0,
     "CCJ": 3800.0,
-    "INTC": 3500.0,
+    "INTC": 6500.0,
     "GOOGL": 4000.0,
-    "META": 2200.0,
+    "META": 5200.0,
     "IBM": 4800.0,
     "AAPL": 3800.0,
     "TSM": 4400.0,
@@ -1611,30 +1751,34 @@
     "MSFT": 1500.0,
     "KMT": 2750.0,
     "HD": 1250.0,
-    "NEM": 1000.0,
+    "NEM": 4000.0,
     "SPY": 3500.0,
     "CHRW": 1000.0,
-    "MRK": 1800.0
+    "MRK": 1800.0,
+    "BE": 3000.0,
+    "SPCX": 3000.0,
+    "TPL": 3000.0,
+    "DGICA": 3000.0
   },
-  "deployed_today": 49300.0,
+  "deployed_today": 73300.0,
   "last_bar_ts": 1789149300,
   "book_px": {
-    "66618da4": 646.7737,
     "665962b8": 462.6445,
-    "e87d920e": 493.0083,
     "f3b06472": 338.7473,
+    "66618da4": 646.7737,
+    "e87d920e": 493.0083,
     "c77ba476": 272.247,
+    "ea7d6938": 125.4277,
     "c1f95086": 365.2996,
     "5ba8a2de": 330.5,
-    "ea7d6938": 125.4277,
     "d375c5a7": 429.0,
     "23b20e4c": 19.0529,
+    "b84d5c3e": 147.0339,
     "a3d09bd3": 216.0,
     "6a60a8a6": 236.0,
-    "b84d5c3e": 147.0339,
     "7d6b8f4e": 505.0,
     "532b86e9": 171.2706,
     "ba4576bb": 310.432
   },
-  "next_check_minutes": 15
+  "next_check_minutes": 6
 }

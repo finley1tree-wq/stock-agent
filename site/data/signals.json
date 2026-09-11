@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-11T13:56-04:00",
- "note": "brain error",
+ "asOf": "2026-09-11T14:00-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 8: BE, INTC, SPCX, AMD, TPL, DGICA, META, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read t",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -72,6 +72,7 @@
    "usd_pct_of_budget": 4.0
   },
   "min_positions": 8,
+  "autopilot_when_model_unavailable": true,
   "min_decision_minutes": 6,
   "max_decision_minutes": 30,
   "max_hold_minutes": 30,
@@ -137,6 +138,74 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "083e53f1",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 103.53,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.51,
+   "pct_away": 0.02,
+   "good_until": "2026-09-16",
+   "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d894da6e",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 517.08,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 516.98,
+   "pct_away": 0.02,
+   "good_until": "2026-09-16",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4068fdf8",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 126.34,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 126.31,
+   "pct_away": 0.02,
+   "good_until": "2026-09-16",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fe749ce6",
+   "ticker": "DGICA",
+   "kind": "take_profit",
+   "price": 19.3118,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 19.26,
+   "pct_away": 0.27,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "665962b8",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -144,8 +213,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 463.92,
-   "pct_away": -0.27,
+   "last": 464.09,
+   "pct_away": -0.31,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $462.64. top congress pressure ticker in list, momentum confirmed",
    "signals": [
@@ -155,55 +224,37 @@
    ]
   },
   {
-   "id": "66618da4",
+   "id": "9335ca5f",
    "ticker": "META",
-   "kind": "buy_limit",
-   "price": 646.7737,
-   "usd": 1000.0,
-   "pct_of_position": null,
+   "kind": "take_profit",
+   "price": 652.2757,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 649.42,
-   "pct_away": -0.41,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
+   "last": 649.78,
+   "pct_away": 0.38,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
-    "momentum",
-    "dip_entry"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
-   "id": "e87d920e",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 493.0083,
-   "usd": 1000.0,
-   "pct_of_position": null,
+   "id": "e06e72cb",
+   "ticker": "TPL",
+   "kind": "take_profit",
+   "price": 369.725,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 495.2,
-   "pct_away": -0.44,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.42% under $495.10 to catch the dip",
+   "last": 368.27,
+   "pct_away": 0.4,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "c77ba476",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 272.247,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 273.5,
-   "pct_away": -0.46,
-   "good_until": "2026-09-11",
-   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -214,8 +265,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.47,
-   "pct_away": -0.51,
+   "last": 340.23,
+   "pct_away": -0.44,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
    "signals": [
@@ -225,20 +276,89 @@
    ]
   },
   {
-   "id": "5ba8a2de",
-   "ticker": "AAPL",
+   "id": "e87d920e",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 330.5,
+   "price": 493.0083,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 495.26,
+   "pct_away": -0.45,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.42% under $495.10 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "66618da4",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 646.7737,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 649.78,
+   "pct_away": -0.46,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "5636ffb8",
+   "ticker": "SPCX",
+   "kind": "take_profit",
+   "price": 149.8498,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 149.15,
+   "pct_away": 0.47,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c77ba476",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 272.247,
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 333.05,
-   "pct_away": -0.77,
+   "last": 273.76,
+   "pct_away": -0.55,
    "good_until": "2026-09-11",
-   "why": "Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range",
+   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
    "signals": [
+    "news",
     "momentum",
-    "news"
+    "patience"
+   ]
+  },
+  {
+   "id": "1a03a54d",
+   "ticker": "DGICA",
+   "kind": "stop_loss",
+   "price": 19.1306,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 19.26,
+   "pct_away": -0.67,
+   "good_until": "2026-09-16",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -249,13 +369,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 126.47,
-   "pct_away": -0.82,
+   "last": 126.31,
+   "pct_away": -0.7,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.71% under $126.32 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "81e82a65",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 275.6911,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 273.76,
+   "pct_away": 0.71,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -266,13 +403,47 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 368.43,
-   "pct_away": -0.85,
+   "last": 368.27,
+   "pct_away": -0.81,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "5ba8a2de",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 330.5,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 333.38,
+   "pct_away": -0.86,
+   "good_until": "2026-09-11",
+   "why": "Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range",
+   "signals": [
+    "momentum",
+    "news"
+   ]
+  },
+  {
+   "id": "e56203d4",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 643.9958,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 649.78,
+   "pct_away": -0.89,
+   "good_until": "2026-09-16",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -283,13 +454,30 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 432.99,
-   "pct_away": -0.92,
+   "last": 432.89,
+   "pct_away": -0.9,
    "good_until": "2026-09-11",
    "why": "Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range",
    "signals": [
     "momentum",
     "news"
+   ]
+  },
+  {
+   "id": "49789aaa",
+   "ticker": "TPL",
+   "kind": "stop_loss",
+   "price": 364.8813,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 368.27,
+   "pct_away": -0.92,
+   "good_until": "2026-09-16",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -310,20 +498,20 @@
    ]
   },
   {
-   "id": "a3d09bd3",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 216.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
+   "id": "6240fac4",
+   "ticker": "SPCX",
+   "kind": "stop_loss",
+   "price": 147.5047,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 219.26,
-   "pct_away": -1.49,
-   "good_until": "2026-09-11",
-   "why": "Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate",
+   "last": 149.15,
+   "pct_away": -1.1,
+   "good_until": "2026-09-16",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
-    "momentum",
-    "news"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -334,13 +522,47 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.73,
-   "pct_away": -1.8,
+   "last": 149.15,
+   "pct_away": -1.42,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "a3d09bd3",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 216.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 219.15,
+   "pct_away": -1.44,
+   "good_until": "2026-09-11",
+   "why": "Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate",
+   "signals": [
+    "momentum",
+    "news"
+   ]
+  },
+  {
+   "id": "a8200c8d",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 269.1087,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 273.76,
+   "pct_away": -1.7,
+   "good_until": "2026-09-16",
+   "why": "close it all at -1.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -351,8 +573,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 240.78,
-   "pct_away": -1.99,
+   "last": 241.0,
+   "pct_away": -2.07,
    "good_until": "2026-09-11",
    "why": "Widely-held name, resting below current 238.6 to get a better entry once cooldown clears",
    "signals": [
@@ -368,13 +590,149 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.58,
-   "pct_away": -2.43,
+   "last": 516.98,
+   "pct_away": -2.32,
    "good_until": "2026-09-11",
    "why": "Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready",
    "signals": [
     "congress",
     "momentum"
+   ]
+  },
+  {
+   "id": "67269aea",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 265.5957,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 273.76,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "34759ba0",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 100.4241,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 103.51,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c31e4140",
+   "ticker": "SPCX",
+   "kind": "buy_limit",
+   "price": 144.7046,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 149.15,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0ac4613e",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 501.5676,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 516.98,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2c9f0bbc",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 357.2898,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 368.27,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8a6f7363",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 630.4127,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 649.78,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1e78ba06",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 122.5498,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 126.31,
+   "pct_away": -2.98,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f1f3816f",
+   "ticker": "DGICA",
+   "kind": "buy_limit",
+   "price": 18.6822,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 19.26,
+   "pct_away": -3.0,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -412,14 +770,13 @@
    ]
   }
  ],
- "next_check_minutes": null,
- "last_reasoning": "Below min_positions (only CHRW held) with 96% cash idle and multiple green-day, high-conviction names with concrete evidence: BE (breakout+congress), AAPL (news+momentum), MRK (fresh insider signal, undervalued), HUBB (top congress buy pressure), KMT (CEO insider buy). Track record shows congress si",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 8: BE, INTC, SPCX, AMD, TPL, DGICA, META, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read t",
+ "next_check_minutes": 6,
  "allowed": [
   "AAPL",
   "AEP",
   "AMD",
   "AMZN",
-  "ANIX",
   "AVGO",
   "BE",
   "BRK.B",
@@ -477,7 +834,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 34,
+  "decisions_recorded": 35,
   "decisions_graded": 25,
   "decisions_with_buys_graded": 3,
   "independent_days_graded": 3,
@@ -586,7 +943,7 @@
   },
   "idle_checks": 23,
   "blocked_checks": 0,
-  "idle_share": 0.68,
+  "idle_share": 0.66,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1884,16 +2241,6 @@
    "price": 21.01,
    "transaction_date": "2026-09-10",
    "filing_date": "2026-09-11"
-  },
-  {
-   "who": "KUMAR AMIT",
-   "role": "director, officer: Chief Executive Officer",
-   "ticker": "ANIX",
-   "type": "buy",
-   "shares": 5000,
-   "price": 2.76,
-   "transaction_date": "2026-09-10",
-   "filing_date": "2026-09-11"
   }
  ],
  "insider_pressure": {
@@ -1908,7 +2255,6 @@
   "MGEE": 1.0,
   "KMT": 1.0,
   "RGCO": 1.0,
-  "ANIX": 1.0,
   "ZNB": -1.0,
   "BFC": -1.0,
   "SBSI": -1.0,
@@ -1916,7 +2262,8 @@
   "ARTNA": -1.0,
   "PBI": -1.0,
   "OSBC": -1.0,
-  "AQST": -1.0
+  "AQST": -1.0,
+  "WSFS": -1.0
  },
  "headlines": {
   "AAPL": [
@@ -1985,23 +2332,6 @@
     "title": "Oracle Margin Pressure, Modest Guidance Raise Leave Morgan Stanley Needing More Visibility",
     "source": "MT Newswires",
     "when": "2026-09-11T17:16"
-   }
-  ],
-  "ANIX": [
-   {
-    "title": "Anixa Biosciences (ANIX) Upgraded to Strong Buy: Here's What You Should Know",
-    "source": "Zacks",
-    "when": "2026-07-22T16:00"
-   },
-   {
-    "title": "Are Medical Stocks Lagging  Allarity Therapeutics, Inc. (ALLR) This Year?",
-    "source": "Zacks",
-    "when": "2026-07-22T13:40"
-   },
-   {
-    "title": "New Strong Buy Stocks for July 22nd",
-    "source": "Zacks",
-    "when": "2026-07-22T11:15"
    }
   ],
   "AVGO": [
@@ -2295,6 +2625,11 @@
   ],
   "LMT": [
    {
+    "title": "RKLB Stock: What's Behind The 39% Drop?",
+    "source": "Trefis",
+    "when": "2026-09-11T17:41"
+   },
+   {
     "title": "Can Northrop Grumman's European Expansion Drive Growth?",
     "source": "Zacks",
     "when": "2026-09-11T15:07"
@@ -2303,11 +2638,6 @@
     "title": "Can IBM's Latest Innovation Hub Advance Quantum Computing Ecosystem?",
     "source": "Zacks",
     "when": "2026-09-11T14:15"
-   },
-   {
-    "title": "How Could Project Anaconda Expand Kratos' Role in Naval Radar?",
-    "source": "Zacks",
-    "when": "2026-09-11T13:57"
    }
   ],
   "LTH": [
@@ -2448,6 +2778,11 @@
   ],
   "NOC": [
    {
+    "title": "RKLB Stock: What's Behind The 39% Drop?",
+    "source": "Trefis",
+    "when": "2026-09-11T17:41"
+   },
+   {
     "title": "Can Northrop Grumman's European Expansion Drive Growth?",
     "source": "Zacks",
     "when": "2026-09-11T15:07"
@@ -2456,11 +2791,6 @@
     "title": "Boeing or Northrop? The Navy\u2019s Next Fighter Race Is Down to the Wire.",
     "source": "Barrons.com",
     "when": "2026-09-10T16:38"
-   },
-   {
-    "title": "How Far Could Boeing Stock Fall If The Market Turns?",
-    "source": "Trefis",
-    "when": "2026-09-10T15:24"
    }
   ],
   "NVDA": [
@@ -2686,5 +3016,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-11T13:56-04:00"
+ "signalsAsOf": "2026-09-11T14:00-04:00"
 }

@@ -1,45 +1,3 @@
-## 2026-09-11 09:33 ET (Friday) — week 2026-W37 — budget left $24971.20 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (CYBN excluded: no security information)
-  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain: Flat book at min_positions target of 5; broad market rally today (SPY +1.01%, DIA +1.16%, most mega-caps green) supports opening positions rather than sitting idle - counterfactual data shows idle_universe_avg was -0.32% but positive-momentum names like AAPL/AMD/GOOGL/BE were the biggest misses on prior idle days. Deploying across momentum/congress-backed mega-cap tech (INTC, AMD, GOOGL, META) plus a nuclear name (CCJ) at a relatively low point in its day range gives 5 diversified names with stops attached for protection within the 30-min hold window.
-lesson: Past idle sessions on green broad-market days generated positive regret (biggest misses were AAPL/AMD/GOOGL momentum names); when SPY/DIA are up >1% intraday, deploy into min_positions rather than waiting.
-  (dropped INTC: 89% up today's range — resting a limit at $102.21 instead of chasing)
-  (dropped GOOGL: 92% up today's range — resting a limit at $337.33 instead of chasing)
-  (dropped META: 92% up today's range — resting a limit at $654.10 instead of chasing)
-- BUY $2500.00 AMD [filled] ['momentum', 'congress'] — Momentum plus congress signal combo was noted as best-performing pairing in past lessons | evidence: AMD +10.81% over 5d, congress net buy pressure 2.0, Rep. Gilbert Cisneros disclosed buy 2026-09-04
-- BUY $2300.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear theme entry at better relative price point than OKLO which is falling hard today | evidence: CCJ at 24.5% of day range (low), -3.57% 5d giving room to run vs peers OKLO down -4.59% today
-  (dropped trigger INTC stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger META stop_loss: not held)
-~ WORKING stop_loss 100% AMD @ $492.80 until 2026-09-11 — Protect against reversal
-~ WORKING stop_loss 100% CCJ @ $93.50 until 2026-09-11 — Protect against reversal
-~ WORKING buy_limit $2500.00 INTC @ $102.21 until 2026-09-11 — wanted it, but not at the high — resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst
-~ WORKING buy_limit $2500.00 GOOGL @ $337.33 until 2026-09-11 — wanted it, but not at the high — resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind
-~ WORKING buy_limit $2200.00 META @ $654.10 until 2026-09-11 — wanted it, but not at the high — resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap
-~ WORKING buy_limit $500.00 AMD @ $490.38 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $97.47 until 2026-09-16 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $94.14 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 COIN @ $171.27 until 2026-09-12 — strong month, weak day: resting 1.30% under $173.52 to catch the dip
-~ WORKING buy_limit $1000.00 NEM @ $126.60 until 2026-09-12 — strong month, weak day: resting 0.68% under $127.47 to catch the dip
-~ WORKING buy_limit $1000.00 DGICA @ $19.05 until 2026-09-12 — strong month, weak day: resting 0.51% under $19.15 to catch the dip
-~ WORKING buy_limit $1000.00 TSM @ $428.31 until 2026-09-12 — strong month, weak day: resting 0.47% under $430.31 to catch the dip
-portfolio: equity $24970.24 (-0.12% on $25000.00 in) · cash $20171.20 · realised -28.80
-Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week
-- BUY $2500.00 INTC [buy_limit @ $102.21] — wanted it, but not at the high — resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst
-## 2026-09-11 09:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on INTC: position closed)
-- SELL 100% INTC [take_profit @ $102.71] -> $2512.13 (+0.49%) — close 100% at +0.5% over the average cost
-## 2026-09-11 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $2500.00 GOOGL [buy_limit @ $337.33] — wanted it, but not at the high — resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind
-## 2026-09-11 09:42 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $338.12] -> $2505.85 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-09-11 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $97.47] -> $2309.86 (+0.43%) — close 100% at +0.4% over the average cost
-## 2026-09-11 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $2200.00 META [buy_limit @ $654.10] — wanted it, but not at the high — resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap
 ## 2026-09-11 09:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 
 ## 2026-09-11 10:04 ET (Friday) — week 2026-W37 — budget left $20299.03 (today $12000.00 put to work, 5 buys, 3 sells) — SIM (pretend money) via sim
@@ -398,3 +356,45 @@ brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_requ
   (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
   (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
 brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex5n7qbLeY8X7ZtfDpMY'} — no decision at this check.
+
+## 2026-09-11 13:59 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $49300.00 put to work, 30 buys, 29 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex64pvpmtim95h8wy6yG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 8: BE, INTC, SPCX, AMD, TPL, DGICA, META, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +15.4% over the month; 69% of today's range
+- BUY $3000.00 INTC [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +2.5% over the month; 64% of today's range
+- BUY $3000.00 SPCX [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +2.1% over the month; 69% of today's range
+- BUY $3000.00 AMD [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying ({'who': 'Gilbert Ray Cisneros', 'type': 'buy', 'amount': '$1,001 - $15,000', 'disclosed': '2026-09-04'}, {'who': 'Rick W. Allen', 'type': 'buy', 'amount': '$1,001 - $15,000', 'disclos
+- BUY $3000.00 TPL [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: insider buying (Form 4); +7.4% over the month; 58% of today's range
+- BUY $3000.00 DGICA [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: insider buying (Form 4); +3.3% over the month; 51% of today's range
+- BUY $3000.00 META [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +12.2% over the month; 14% of today's range
+- BUY $3000.00 NEM [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +7.2% over the month; 10% of today's range
+~ WORKING take_profit 100% BE @ $275.69 until 2026-09-16 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $269.11 until 2026-09-16 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 BE @ $265.60 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% INTC @ $103.53 until 2026-09-16 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 INTC @ $100.42 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SPCX @ $149.85 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% SPCX @ $147.50 until 2026-09-16 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 SPCX @ $144.70 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% AMD @ $517.08 until 2026-09-16 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $501.57 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TPL @ $369.73 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% TPL @ $364.88 until 2026-09-16 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 TPL @ $357.29 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% DGICA @ $19.31 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% DGICA @ $19.13 until 2026-09-16 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 DGICA @ $18.68 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $652.28 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $644.00 until 2026-09-16 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $630.41 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING stop_loss 100% NEM @ $126.34 until 2026-09-16 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $122.55 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25049.23 (+0.20% on $25000.00 in) · cash $1054.03 · realised +54.03
+Done: 0 sell(s), 8 buy(s); 37 order(s) working; budget left $1000.00 this week
