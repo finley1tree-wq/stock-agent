@@ -1025,3 +1025,31 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 MO @ $66.98 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25142.18 (+0.57% on $25000.00 in) · cash $22142.78 · realised +142.78
 Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $22000.00 this week
+- BUY $1500.00 GOOGL [buy_limit @ $338.75] — wanted it, but not at the high — resting at $338.75. Momentum plus sector strength; not yet in cooldown
+## 2026-09-11 14:49 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-11 14:51 ET (Friday) — week 2026-W37 — budget left $20500.00 (today $95800.00 put to work, 46 buys, 43 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexA1T73eDbYiAmkSc3GL'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $20,500 idle, so opened 4: INTC, AMD, TPL, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 INTC [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +2.5% over the month; 62% of today's range
+- BUY $3000.00 AMD [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros, Rick W. Allen; +7.2% over the month; 83% of today's range
+- BUY $3000.00 TPL [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +7.6% over the month; 67% of today's range
+- BUY $3000.00 NEM [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +7.0% over the month; 5% of today's range
+~ WORKING take_profit 100% INTC @ $103.96 until 2026-09-16 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% INTC @ $102.18 until 2026-09-16 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 INTC @ $100.35 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $519.89 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMD @ $512.50 until 2026-09-16 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $502.25 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TPL @ $370.32 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% TPL @ $365.48 until 2026-09-16 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 TPL @ $357.87 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $126.60 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $124.93 until 2026-09-16 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $122.34 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25147.08 (+0.59% on $25000.00 in) · cash $8642.78 · realised +142.78
+Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $8500.00 this week

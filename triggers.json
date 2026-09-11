@@ -2535,7 +2535,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 338.7473,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 11:10",
    "created_ts": 1789139446,
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
@@ -2546,7 +2546,8 @@
     "patience"
    ],
    "good_until": "2026-09-11",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-09-11 14:49"
   },
   {
    "id": "1e2abdf1",
@@ -4267,7 +4268,7 @@
    "ticker": "MO",
    "kind": "stop_loss",
    "price": 68.6688,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:44",
    "created_ts": 1789152247,
    "why": "close it all at -0.6% under the average cost",
@@ -4277,7 +4278,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "19de0519",
@@ -4295,7 +4298,279 @@
    ],
    "good_until": "2026-09-16",
    "usd": 500.0
+  },
+  {
+   "id": "9215e0dd",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 339.563,
+   "status": "working",
+   "created": "2026-09-11 14:49",
+   "created_ts": 1789152573,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $338.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1904cbee",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 336.7209,
+   "status": "working",
+   "created": "2026-09-11 14:49",
+   "created_ts": 1789152573,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $338.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6283d4ff",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 328.5875,
+   "status": "working",
+   "created": "2026-09-11 14:49",
+   "created_ts": 1789152573,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $338.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "cdd3c181",
+   "ticker": "MO",
+   "kind": "stop_loss",
+   "price": 69.104,
+   "status": "working",
+   "created": "2026-09-11 14:50",
+   "created_ts": 1789152634,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $69.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "55412ca5",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 103.9579,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $103.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "88b51068",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 102.1796,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $103.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6360b55f",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 100.3465,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $103.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "33c2afab",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 519.8925,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $517.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8a681bb6",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 512.4986,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $517.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a2dd2bac",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 502.2466,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $517.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "838fbf68",
+   "ticker": "TPL",
+   "kind": "take_profit",
+   "price": 370.3235,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $368.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d127c672",
+   "ticker": "TPL",
+   "kind": "stop_loss",
+   "price": 365.4793,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $368.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "778633ff",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 357.8718,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $368.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "b493b520",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 126.598,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $126.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e418dfd6",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 124.9256,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $126.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3db3fee6",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 122.3364,
+   "status": "working",
+   "created": "2026-09-11 14:51",
+   "created_ts": 1789152698,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $126.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-11 14:44"
+ "updated": "2026-09-11 14:51"
 }

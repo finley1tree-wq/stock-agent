@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 3000.0,
+  "spent": 16500.0,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -10,15 +10,16 @@
     "NVDA": 3.96,
     "AVGO": 2.12,
     "TSM": 2.96,
-    "GOOGL": 1.13,
-    "AMD": 2.28,
+    "GOOGL": 1501.13,
+    "AMD": 3002.28,
     "IBM": 0.74,
-    "INTC": 1.52,
-    "NEM": 1.39,
+    "INTC": 3001.52,
+    "NEM": 3001.39,
     "CHRW": 1.4,
     "MRK": 1.48,
     "AAPL": 1.47,
-    "MO": 3000.0
+    "MO": 3000.0,
+    "TPL": 3000.0
   },
   "orders": [
     {
@@ -2090,11 +2091,98 @@
         "insider"
       ],
       "evidence": "1 insider bought (Form 4, incl. director); +7.2% over the month; 40% of today's range"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.42808,
+      "price": 338.75,
+      "date": "2026-09-11",
+      "time_et": "14:49",
+      "ts": 1789152300,
+      "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
+      "signals": [
+        "news",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "GOOGL +2.62% today, +2.62% 1d; widely_held sector hit_rate 0.64 in track_record",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "INTC",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.999324,
+      "price": 103.45,
+      "date": "2026-09-11",
+      "time_et": "14:51",
+      "ts": 1789152698,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +2.5% over the month; 62% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.793927,
+      "price": 517.78,
+      "date": "2026-09-11",
+      "time_et": "14:51",
+      "ts": 1789152698,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros, Rick W. Allen; +7.2% over the month; 83% of today's range"
+    },
+    {
+      "symbol": "TPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.13132,
+      "price": 368.94,
+      "date": "2026-09-11",
+      "time_et": "14:51",
+      "ts": 1789152698,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +7.6% over the month; 67% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.787772,
+      "price": 126.12,
+      "date": "2026-09-11",
+      "time_et": "14:51",
+      "ts": 1789152698,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum"
+      ],
+      "evidence": "+7.0% over the month; 5% of today's range"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 3000.0,
-  "orders_today": 45,
+  "spent_today": 16500.0,
+  "orders_today": 50,
   "sells_today": 43,
   "sold_today": [
     "INTC",
@@ -2121,10 +2209,10 @@
     "DGICA",
     "TNON"
   ],
-  "last_check_ts": 1789152478,
+  "last_check_ts": 1789152698,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789152293,
-  "last_decision_ts": 1789152247,
+  "last_publish_ts": 1789152634,
+  "last_decision_ts": 1789152698,
   "sold_ts": {
     "INTC": 1789149700,
     "GOOGL": 1789145672,
@@ -2150,12 +2238,12 @@
     "DGICA": 1789151375,
     "TNON": 1789152064
   },
-  "deployed": 94300.0,
+  "deployed": 107800.0,
   "deployed_by_ticker": {
-    "AMD": 8500.0,
+    "AMD": 11500.0,
     "CCJ": 3800.0,
-    "INTC": 6500.0,
-    "GOOGL": 4000.0,
+    "INTC": 9500.0,
+    "GOOGL": 5500.0,
     "META": 5200.0,
     "IBM": 4800.0,
     "AAPL": 6800.0,
@@ -2166,31 +2254,33 @@
     "MSFT": 4500.0,
     "KMT": 2750.0,
     "HD": 1250.0,
-    "NEM": 4000.0,
+    "NEM": 7000.0,
     "SPY": 3500.0,
     "CHRW": 4000.0,
     "MRK": 4800.0,
     "BE": 3000.0,
     "SPCX": 3000.0,
-    "TPL": 3000.0,
+    "TPL": 6000.0,
     "DGICA": 3000.0,
     "TNON": 3000.0,
     "MO": 3000.0
   },
-  "deployed_today": 94300.0,
-  "last_bar_ts": 1789152300,
+  "deployed_today": 107800.0,
+  "last_bar_ts": 1789152600,
   "book_px": {
-    "665962b8": 462.6445,
-    "f3b06472": 338.7473,
+    "cdd3c181": 69.104,
     "ee5b7880": 69.2026,
-    "d9156625": 68.6688,
+    "665962b8": 462.6445,
+    "9215e0dd": 339.563,
     "5ba8a2de": 330.5,
+    "1904cbee": 336.7209,
     "d375c5a7": 429.0,
     "c77ba476": 272.247,
     "a3d09bd3": 216.0,
     "532b86e9": 171.2706,
     "6a60a8a6": 236.0,
     "7d6b8f4e": 505.0,
+    "6283d4ff": 328.5875,
     "19de0519": 66.9785,
     "ba4576bb": 310.432
   },
