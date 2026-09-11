@@ -1,11 +1,3 @@
-  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-brain: 28 minutes to close, zero open positions, and any new buy would be force-fit into a 30-minute max-hold window that ends right at the close with no time for the position to work. Today's track record shows every 30-min forced round trip losing money (AMD -0.5%, GOOGN -1.21%, NLR -2.54%, CCJ -1.81%, INTC -0.95%), and the market is broadly red (DIA -0.73%, SPY -0.62%) with no fresh catalyst justifying a rushed entry. Better to sit flat into the close and reassess tomorrow with a full session ahead.
-lesson: Do not open new positions in the last 30 minutes of the trading day since max_hold_minutes forces an exit right at/after close with no time to work - only act late-day on protective triggers for existing holdings, not fresh buys.
-~ WORKING buy_limit $998.85 BE @ $255.49 until 2026-09-15 — strong month, weak day: resting 1.5% under $259.38 to catch the dip
-~ WORKING buy_limit $998.85 DXYZ @ $31.55 until 2026-09-15 — strong month, weak day: resting 1.5% under $32.03 to catch the dip
-~ WORKING buy_limit $998.85 META @ $633.71 until 2026-09-15 — strong month, weak day: resting 1.5% under $643.36 to catch the dip
-~ WORKING buy_limit $998.85 AMD @ $497.85 until 2026-09-15 — strong month, weak day: resting 1.5% under $505.43 to catch the dip
 ~ WORKING buy_limit $998.85 TPL @ $362.38 until 2026-09-15 — strong month, weak day: resting 1.5% under $367.90 to catch the dip
 portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
 Decision: nothing at this check. 7 standing order(s) working.
@@ -398,3 +390,11 @@ brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_requ
   (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
   (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
 brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex3CgmKP8QXLSxDkWMAM'} — no decision at this check.
+
+## 2026-09-11 13:26 ET (Friday) — week 2026-W37 — budget left $23506.69 (today $49300.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex3VDdPqMDLEH2xNTRaL'} — no decision at this check.
