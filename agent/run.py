@@ -14,7 +14,7 @@ import time as clock
 from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets, replay
+from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets, replay, autopilot
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -793,12 +793,27 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "past_lessons_with_outcome": {"rows": reflect.recent_lessons_with_outcome(px),
                                       "status": learn.past_lessons(evidence_days=cf.get("independent_days_graded") or 0)["status"]},
     }
+    # The model is the decision-maker. When it cannot be reached - out of credits, rate limited,
+    # or down - the agent used to stop trading entirely and sit flat, which costs a day of graded
+    # trades permanently: the counterfactual loop only learns from days it actually traded. The
+    # rule-based fallback is strictly worse at picking (it cannot read a headline) but it keeps the
+    # machine running on the signals that were already measured.
+    autopiloted = False
     try:
         plan = brain.decide(env, ctx)
     except Exception as e:
-        log(f"brain error: {redact(e)} — no decision at this check."); pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), "brain error", working_orders=triggers.summary(px, now)); return
-    log(f"brain: {plan.get('reasoning', '')}")
-    learn.add_lesson(plan.get("lesson", ""), track, evidence_days=cf.get("independent_days_graded") or 0)
+        msg = redact(e)
+        if not bool(g.get("autopilot_when_model_unavailable", True)):
+            log(f"brain error: {msg} — no decision at this check.")
+            pub.publish(cfg, site_signals(sig, headlines, people, reflect.report(px)), "brain error",
+                        working_orders=triggers.summary(px, now)); return
+        log(f"brain unavailable: {msg}")
+        log("  -> falling back to autopilot: rules only, no model call")
+        plan = autopilot.plan(ctx, g)
+        autopiloted = True
+    log(f"{'autopilot' if autopiloted else 'brain'}: {plan.get('reasoning', '')}")
+    if not autopiloted:      # a rule has no lesson to teach; only the model writes one
+        learn.add_lesson(plan.get("lesson", ""), track, evidence_days=cf.get("independent_days_graded") or 0)
     if plan.get("lesson"): log(f"lesson: {plan['lesson']}")
     did = tdid
 

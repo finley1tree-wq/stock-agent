@@ -99,6 +99,12 @@ guardrails:
   # is honoured inside these bounds: tight when a level is close, relaxed when its orders are
   # working for it. The floor also bounds cost, since every decision is one model call and one
   # site deploy.
+  # When the model cannot be reached - out of API credits, rate limited, or down - keep trading on
+  # rules alone (agent/autopilot.py) instead of sitting flat. It is strictly worse at picking, and
+  # it says so in its own reasoning on the dashboard, but a day spent flat is a day of graded
+  # trades lost for good: the learning loop only learns from days it actually traded.
+  # Set to false to go back to standing down when the model is unavailable.
+  autopilot_when_model_unavailable: true
   min_decision_minutes: 6
   max_decision_minutes: 30
 
