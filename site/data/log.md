@@ -1,9 +1,3 @@
-  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-brain: Last check of the day (56 min to close), flat book, no positions, market broadly red (DIA -0.81%, most names low in day range). Any new buy would be force-closed within 30 min per max_hold_minutes into an already-weak tape, and signal_evidence confirms no 1-day edge exists. Today's own track record shows repeated losses on same-day entries (avg -2.5% across many buys) and 7 lessons in a row confirm holding cash beats forcing entries late in a red session.
 lesson: At the final check of a red/choppy day with zero positions and <1hr to close, holding cash is correct - forced 30-min round trips into weakness have consistently lost money this session.
 ~ WORKING buy_limit $998.85 BE @ $257.06 until 2026-09-15 — strong month, weak day: resting 1.5% under $260.97 to catch the dip
 ~ WORKING buy_limit $998.85 GAIA @ $1.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $1.47 to catch the dip
@@ -398,3 +392,9 @@ Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $13503.28 this week
   (cancelled 1 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $238.77] -> $1499.26 (-0.05%) — close it all at -0.7% under the average cost
 ## 2026-09-11 12:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 CHRW [buy_limit @ $152.20] — strong month, weak day: resting 0.52% under $152.99 to catch the dip
+## 2026-09-11 12:53 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% AAPL [time stop] -> $2001.35 (+0.07%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% SPY [time stop] -> $3499.93 (-0.00%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $1498.87 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 12:54 ET — tick — 3 sell(s), 0 buy(s) from standing orders

@@ -1835,5 +1835,102 @@
     "evidence": "average cost $238.89",
     "trigger": "stop_loss",
     "hour_et": 12
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.570324,
+    "price": 152.2,
+    "date": "2026-09-11",
+    "time_et": "12:53",
+    "ts": 1789145400,
+    "why": "strong month, weak day: resting 0.52% under $152.99 to catch the dip",
+    "signals": [
+      "dip_entry",
+      "momentum",
+      "standing_order"
+    ],
+    "evidence": "+4.3% over the month, sitting at 34% of today's range",
+    "trigger": "buy_limit",
+    "entry_price": 152.1995,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 3.84,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": 5.984676,
+    "status": "filled",
+    "price": 334.41,
+    "proceeds": 2001.35,
+    "realized_pnl": 1.35,
+    "realized_pct": 0.07,
+    "date": "2026-09-11",
+    "time_et": "12:54",
+    "ts": 1789145671,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.09% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12
+  },
+  {
+    "symbol": "SPY",
+    "side": "sell",
+    "qty": 4.573478,
+    "status": "filled",
+    "price": 765.27,
+    "proceeds": 3499.93,
+    "realized_pnl": -0.07,
+    "realized_pct": -0.0,
+    "date": "2026-09-11",
+    "time_et": "12:54",
+    "ts": 1789145671,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "etf_default",
+      "intraday_limit",
+      "momentum",
+      "patience",
+      "standing_order",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.02% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12
+  },
+  {
+    "symbol": "GOOGL",
+    "side": "sell",
+    "qty": 4.402078,
+    "status": "filled",
+    "price": 340.49,
+    "proceeds": 1498.87,
+    "realized_pnl": -1.13,
+    "realized_pct": -0.08,
+    "date": "2026-09-11",
+    "time_et": "12:54",
+    "ts": 1789145671,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.06% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12
   }
 ]

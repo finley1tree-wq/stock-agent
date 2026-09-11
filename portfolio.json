@@ -1,35 +1,17 @@
 {
-  "cash": 18044.41792479511,
+  "cash": 24044.575847193988,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W37",
   "positions": {
-    "AAPL": {
-      "qty": 5.984676403639421,
-      "avg_cost": 334.186824,
+    "CHRW": {
+      "qty": 6.57032381840939,
+      "avg_cost": 152.1995,
       "opened": "2026-09-11",
       "last_buy": "2026-09-11",
       "tranches": 1,
-      "last_buy_ts": 1789143902,
-      "opened_ts": 1789143902
-    },
-    "SPY": {
-      "qty": 4.5734784301077696,
-      "avg_cost": 765.2818425815831,
-      "opened": "2026-09-11",
-      "last_buy": "2026-09-11",
-      "tranches": 2,
-      "last_buy_ts": 1789144161,
-      "opened_ts": 1789143902
-    },
-    "GOOGL": {
-      "qty": 4.402078372631215,
-      "avg_cost": 340.748136,
-      "opened": "2026-09-11",
-      "last_buy": "2026-09-11",
-      "tranches": 1,
-      "last_buy_ts": 1789143902,
-      "opened_ts": 1789143902
+      "last_buy_ts": 1789145611,
+      "opened_ts": 1789145611
     }
   },
   "fills": [
@@ -832,7 +814,53 @@
       "realized_pct": -0.05,
       "type": "sell",
       "date": "2026-09-11 12:40"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.570324,
+      "price": 152.2,
+      "type": "buy",
+      "date": "2026-09-11 12:53"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 5.984676,
+      "status": "filled",
+      "price": 334.41,
+      "proceeds": 2001.35,
+      "realized_pnl": 1.35,
+      "realized_pct": 0.07,
+      "type": "sell",
+      "date": "2026-09-11 12:54"
+    },
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 4.573478,
+      "status": "filled",
+      "price": 765.27,
+      "proceeds": 3499.93,
+      "realized_pnl": -0.07,
+      "realized_pct": -0.0,
+      "type": "sell",
+      "date": "2026-09-11 12:54"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 4.402078,
+      "status": "filled",
+      "price": 340.49,
+      "proceeds": 1498.87,
+      "realized_pnl": -1.13,
+      "realized_pct": -0.08,
+      "type": "sell",
+      "date": "2026-09-11 12:54"
     }
   ],
-  "realized_pnl": 44.41792479510983
+  "realized_pnl": 44.57584719399005
 }

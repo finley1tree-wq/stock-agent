@@ -725,3 +725,9 @@ Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $13503.28 this week
   (cancelled 1 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $238.77] -> $1499.26 (-0.05%) — close it all at -0.7% under the average cost
 ## 2026-09-11 12:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 CHRW [buy_limit @ $152.20] — strong month, weak day: resting 0.52% under $152.99 to catch the dip
+## 2026-09-11 12:53 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% AAPL [time stop] -> $2001.35 (+0.07%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% SPY [time stop] -> $3499.93 (-0.00%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $1498.87 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 12:54 ET — tick — 3 sell(s), 0 buy(s) from standing orders
