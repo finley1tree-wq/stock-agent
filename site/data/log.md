@@ -1,5 +1,3 @@
-- BUY $3000.00 CHRW [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying ({'who': 'April McClain Delaney', 'type': 'sell', 'amount': '$100,001 - $250,000', 'disclosed': '2026-09-09'}, {'who': 'April McClain Delaney', 'type': 'buy', 'amount': '$1,001 - $15,0
-- BUY $3000.00 MRK [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +9.3% over the month; 73% of today's range
 - BUY $3000.00 MSFT [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +0.6% over the month; 45% of today's range
 - BUY $3000.00 AAPL [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +10.2% over the month; 67% of today's range
 ~ WORKING take_profit 100% CHRW @ $153.31 until 2026-09-16 — close 100% at +0.3% over the average cost
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25156.89 (+0.63% on $25000.00 in) · cash $16157.47 · realised +157.47
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
