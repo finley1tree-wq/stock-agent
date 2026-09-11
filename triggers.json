@@ -4558,7 +4558,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 124.9256,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:51",
    "created_ts": 1789152698,
    "why": "close it all at -0.9% under the average cost",
@@ -4568,7 +4568,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 15:06",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3db3fee6",
@@ -4880,7 +4882,24 @@
    ],
    "good_until": "2026-09-16",
    "usd": 500.0
+  },
+  {
+   "id": "93edce21",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 126.264,
+   "status": "working",
+   "created": "2026-09-11 15:06",
+   "created_ts": 1789153611,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $126.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-11 15:04"
+ "updated": "2026-09-11 15:06"
 }
