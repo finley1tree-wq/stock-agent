@@ -753,8 +753,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16,
-    "ret_final": -0.16,
+    "ret_now": -0.24,
+    "ret_final": -0.24,
     "ret_src": "realised"
   },
   {
@@ -2293,8 +2293,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1,
-    "ret_final": -0.1,
+    "ret_now": -0.24,
+    "ret_final": -0.24,
     "ret_src": "realised"
   },
   {
@@ -3144,7 +3144,9 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.38,
+    "ret_final": -0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "INTC",
@@ -3223,7 +3225,7 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.28
   },
   {
     "symbol": "SPCX",
@@ -3278,7 +3280,7 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.0
   },
   {
     "symbol": "MRK",
@@ -3408,6 +3410,31 @@
     "trigger": "time_stop",
     "hour_et": 15,
     "code_version": "aa0e699",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 4.609852,
+    "status": "filled",
+    "price": 648.31,
+    "proceeds": 2988.61,
+    "realized_pnl": -11.39,
+    "realized_pct": -0.38,
+    "date": "2026-09-11",
+    "time_et": "15:47",
+    "ts": 1789156065,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.36% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "1fa7dd5",
     "hold_minutes": 29
   }
 ]
