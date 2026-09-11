@@ -1534,5 +1534,77 @@
     "trigger": "time_stop",
     "hour_et": 11,
     "hold_minutes": 29
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.984676,
+    "price": 334.19,
+    "date": "2026-09-11",
+    "time_et": "12:24",
+    "ts": 1789143880,
+    "why": "Strong momentum widely-held name, existing limit at 330.5 unfilled since price ran up; buy some now at market given breakout continuation",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "AAPL +2.31% today, +10.54% 1m, pct_of_day_range 78.8 not yet extreme; widely_held sector best hit rate 0.64",
+    "entry_price": 334.12,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 10.54,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "SPY",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.959521,
+    "price": 765.49,
+    "date": "2026-09-11",
+    "time_et": "12:24",
+    "ts": 1789143880,
+    "why": "Broad market green day, fill toward min_positions with index exposure while individual names cool down",
+    "signals": [
+      "etf_default",
+      "momentum"
+    ],
+    "evidence": "SPY +0.99% today, DIA +1.02%, broad market green per CPI in-line headline",
+    "entry_price": 765.34,
+    "sector": "index",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -0.93,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.402078,
+    "price": 340.75,
+    "date": "2026-09-11",
+    "time_et": "12:24",
+    "ts": 1789143880,
+    "why": "Strong widely-held momentum name, not extreme in range",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "GOOGL +2.43% today, pct_of_day_range 71.0, headline on Republican midterm wipeout implications for tech",
+    "entry_price": 340.68,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -0.83,
+    "hour_et": 12,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

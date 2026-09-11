@@ -1,9 +1,37 @@
 {
-  "cash": 25043.370966162915,
+  "cash": 20043.370966162915,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W37",
-  "positions": {},
+  "positions": {
+    "AAPL": {
+      "qty": 5.984676403639421,
+      "avg_cost": 334.186824,
+      "opened": "2026-09-11",
+      "last_buy": "2026-09-11",
+      "tranches": 1,
+      "last_buy_ts": 1789143902,
+      "opened_ts": 1789143902
+    },
+    "SPY": {
+      "qty": 1.9595213369064761,
+      "avg_cost": 765.493068,
+      "opened": "2026-09-11",
+      "last_buy": "2026-09-11",
+      "tranches": 1,
+      "last_buy_ts": 1789143902,
+      "opened_ts": 1789143902
+    },
+    "GOOGL": {
+      "qty": 4.402078372631215,
+      "avg_cost": 340.748136,
+      "opened": "2026-09-11",
+      "last_buy": "2026-09-11",
+      "tranches": 1,
+      "last_buy_ts": 1789143902,
+      "opened_ts": 1789143902
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -676,6 +704,36 @@
       "realized_pct": 0.19,
       "type": "sell",
       "date": "2026-09-11 11:40"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.984676,
+      "price": 334.19,
+      "type": "buy",
+      "date": "2026-09-11 12:25"
+    },
+    {
+      "symbol": "SPY",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.959521,
+      "price": 765.49,
+      "type": "buy",
+      "date": "2026-09-11 12:25"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.402078,
+      "price": 340.75,
+      "type": "buy",
+      "date": "2026-09-11 12:25"
     }
   ],
   "realized_pnl": 43.370966162911515

@@ -1,25 +1,3 @@
-brain: Book is small, fully bracketed with stops/take-profits already in place across all 7 positions. Market is broadly red (oil >$100, most names in bottom third of day range, CCJ/NLR/INTC/AMAT all down 2-5% today). No new concrete evidence (fresh filing, headline, or strong momentum signal) justifies a new position right now, and the track record shows every past buy today is red. Holding steady and letting standing orders manage risk remains the validated approach per repeated past-lesson confirmations.
-lesson: On a red/choppy macro day with a small fully-bracketed book, continue holding rather than forcing entries; only deploy fresh budget on genuinely new, concrete evidence like a fresh filing or a clear breakout, not just available cash.
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING buy_limit $500.00 AMAT @ $453.44 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 33% CCJ @ $127.92 until 2026-09-15 — close 33% at +25.2% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $99.11 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 SPY @ $745.15 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 NLR @ $120.87 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $493.98 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 INTC @ $102.06 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 GOOGN @ $46.50 until 2026-09-15 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $24995.18 (-0.02% on $25000.00 in) · cash $24793.05 · realised +1.17
-Decision: nothing at this check. 20 standing order(s) working.
-- BUY $500.00 CCJ [buy_limit @ $99.11] — average in another $500 if it falls 3.0% below the average cost
-- BUY $500.00 NLR [buy_limit @ $120.87] — average in another $500 if it falls 3.0% below the average cost
-- BUY $500.00 INTC [buy_limit @ $102.06] — average in another $500 if it falls 3.0% below the average cost
-## 2026-09-10 14:06 ET — tick — 0 sell(s), 3 buy(s) from standing orders
-
-## 2026-09-10 14:14 ET (Thursday) — week 2026-W37 — budget left $23293.05 (today $1500.00, 3 buys, 0 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
   (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
   (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
   (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
@@ -398,3 +376,25 @@ lesson: Existing working dip-entry orders already cover most good widely-held na
 ~ WORKING buy_limit $1000.00 NEM @ $125.43 until 2026-09-12 — strong month, weak day: resting 0.71% under $126.32 to catch the dip
 portfolio: equity $25043.37 (+0.17% on $25000.00 in) · cash $25043.37 · realised +43.37
 Decision: nothing at this check. 17 standing order(s) working.
+
+## 2026-09-11 12:24 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $32500.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Below min_positions (0 held) with a green broad-market day (SPY +0.99%, DIA +1.02%, CPI in-line). Deploying into 4 widely-held/momentum names with concrete headline evidence (AAPL hardware catalyst, BE S&P 500 add news +6.7%, GOOGL midterm/tech headline, SPY broad market) rather than waiting on the many resting dip limits already in place. Adding stops on each new position given no auto-bracket guarantee mentioned explicitly but risk management has 0.83 hit rate historically.
+lesson: Existing dip-limit orders cover many names already (NVDA, AMD, TSM, IBM, MRK, etc.) - when below min_positions on a green day, buy at market into the strongest movers with fresh headlines (BE, AAPL) rather than only waiting for limits to fill.
+  (dropped BE: 88% up today's range — resting a limit at $272.25 instead of chasing)
+- BUY $2000.00 AAPL [filled] ['momentum', 'news'] — Strong momentum widely-held name, existing limit at 330.5 unfilled since price ran up; buy some now at market given breakout continuation | evidence: AAPL +2.31% today, +10.54% 1m, pct_of_day_range 78.8 not yet extreme; widely_held sector best hit rate 0.64
+- BUY $1500.00 SPY [filled] ['momentum', 'etf_default'] — Broad market green day, fill toward min_positions with index exposure while individual names cool down | evidence: SPY +0.99% today, DIA +1.02%, broad market green per CPI in-line headline
+- BUY $1500.00 GOOGL [filled] ['momentum', 'news'] — Strong widely-held momentum name, not extreme in range | evidence: GOOGL +2.43% today, pct_of_day_range 71.0, headline on Republican midterm wipeout implications for tech
+  (dropped trigger BE stop_loss: not held)
+~ WORKING stop_loss 100% AAPL @ $325.00 until 2026-09-11 — protect against reversal below today's low
+~ WORKING stop_loss 100% GOOGL @ $334.00 until 2026-09-11 — protect against reversal below today's low
+~ WORKING stop_loss 100% SPY @ $760.00 until 2026-09-11 — protect index position
+~ WORKING buy_limit $2000.00 BE @ $272.25 until 2026-09-11 — wanted it, but not at the high — resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0
+~ WORKING buy_limit $500.00 AAPL @ $324.16 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SPY @ $766.64 until 2026-09-16 — close 100% at +0.1% over the average cost
+~ WORKING buy_limit $500.00 SPY @ $742.53 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $330.53 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25042.37 (+0.17% on $25000.00 in) · cash $20043.37 · realised +43.37
+Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $20000.00 this week

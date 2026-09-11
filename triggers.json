@@ -2843,7 +2843,141 @@
    ],
    "good_until": "2026-09-12",
    "usd": 1000.0
+  },
+  {
+   "id": "9e3f53bf",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 325.0,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "protect against reversal below today's low",
+   "evidence": "AAPL day_low 326.3, ATR 2.35%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f1d5f3df",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 334.0,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "protect against reversal below today's low",
+   "evidence": "GOOGL day_low 335.065, ATR 2.15%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9801e338",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 760.0,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "protect index position",
+   "evidence": "SPY day_low 763.6, ATR 0.73%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c77ba476",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 272.247,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
+   "evidence": "BE +6.73% today on 'Bloom Energy Climbs 7% as Fuel Cell Bid Spreads Beyond S&P 500 Add' - IBD 'Nears Buy Point, S&P 500 Entry'",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-11",
+   "usd": 2000.0
+  },
+  {
+   "id": "2ae07efe",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 324.1643,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $334.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "22e73260",
+   "ticker": "SPY",
+   "kind": "take_profit",
+   "price": 766.6382,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "close 100% at +0.1% over the average cost",
+   "evidence": "average cost $765.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "aa7eef34",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 742.5253,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $765.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "12e97950",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 330.5275,
+   "status": "working",
+   "created": "2026-09-11 12:24",
+   "created_ts": 1789143880,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $340.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-11 12:16"
+ "updated": "2026-09-11 12:24"
 }
