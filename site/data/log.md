@@ -1,5 +1,3 @@
-## 2026-09-11 14:10 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-11 14:14 ET (Friday) — week 2026-W37 — budget left $7003.87 (today $85300.00 put to work, 42 buys, 35 sells) — SIM (pretend money) via sim
   (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
   (CYBN excluded: no security information)
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25155.16 (+0.62% on $25000.00 in) · cash $16157.47 · realised +157.47
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
