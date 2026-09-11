@@ -1,24 +1,3 @@
-  (CYBN excluded: no security information)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex64pvpmtim95h8wy6yG'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 8: BE, INTC, SPCX, AMD, TPL, DGICA, META, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 BE [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +15.4% over the month; 69% of today's range
-- BUY $3000.00 INTC [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +2.5% over the month; 64% of today's range
-- BUY $3000.00 SPCX [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying; +2.1% over the month; 69% of today's range
-- BUY $3000.00 AMD [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress buying ({'who': 'Gilbert Ray Cisneros', 'type': 'buy', 'amount': '$1,001 - $15,000', 'disclosed': '2026-09-04'}, {'who': 'Rick W. Allen', 'type': 'buy', 'amount': '$1,001 - $15,000', 'disclos
-- BUY $3000.00 TPL [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: insider buying (Form 4); +7.4% over the month; 58% of today's range
-- BUY $3000.00 DGICA [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: insider buying (Form 4); +3.3% over the month; 51% of today's range
-- BUY $3000.00 META [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +12.2% over the month; 14% of today's range
-- BUY $3000.00 NEM [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +7.2% over the month; 10% of today's range
-~ WORKING take_profit 100% BE @ $275.69 until 2026-09-16 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% BE @ $269.11 until 2026-09-16 — close it all at -1.7% under the average cost
-~ WORKING buy_limit $500.00 BE @ $265.60 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING stop_loss 100% INTC @ $103.53 until 2026-09-16 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 INTC @ $100.42 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% SPCX @ $149.85 until 2026-09-16 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% SPCX @ $147.50 until 2026-09-16 — close it all at -1.1% under the average cost
 ~ WORKING buy_limit $500.00 SPCX @ $144.70 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +377,24 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25158.46 (+0.63% on $25000.00 in) · cash $11161.60 · realised +161.60
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 15 order(s) working; budget left $11018.82 this week
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% HUBB [time stop] -> $1998.11 (-0.09%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2997.76 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 15:33 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 15:33 ET (Friday) — week 2026-W37 — budget left $16014.69 (today $130800.00 put to work, 58 buys, 54 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexDE6Q4g3cMLrKsYctjC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25154.21 (+0.62% on $25000.00 in) · cash $16157.47 · realised +157.47
+Decision: nothing at this check. 9 standing order(s) working.

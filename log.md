@@ -1268,3 +1268,24 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25158.46 (+0.63% on $25000.00 in) · cash $11161.60 · realised +161.60
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 15 order(s) working; budget left $11018.82 this week
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% HUBB [time stop] -> $1998.11 (-0.09%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2997.76 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 15:33 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 15:33 ET (Friday) — week 2026-W37 — budget left $16014.69 (today $130800.00 put to work, 58 buys, 54 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexDE6Q4g3cMLrKsYctjC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25154.21 (+0.62% on $25000.00 in) · cash $16157.47 · realised +157.47
+Decision: nothing at this check. 9 standing order(s) working.

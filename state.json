@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 13981.18,
+  "spent": 8985.31,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -9,14 +9,14 @@
     "META": 3008.4,
     "NVDA": 3.96,
     "AVGO": 2.12,
-    "TSM": 3002.96,
+    "TSM": 5.2,
     "GOOGL": 0.75,
     "AMD": 8.23,
     "IBM": 0.74,
     "INTC": 7.94,
     "CHRW": 3001.4,
     "AAPL": 2.58,
-    "HUBB": 2000.0,
+    "HUBB": 1.89,
     "MSFT": 3000.0
   },
   "orders": [
@@ -2501,12 +2501,52 @@
       ],
       "evidence": "average cost $149.91",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HUBB",
+      "side": "sell",
+      "qty": 4.322974,
+      "status": "filled",
+      "price": 462.21,
+      "proceeds": 1998.11,
+      "realized_pnl": -1.89,
+      "realized_pct": -0.09,
+      "date": "2026-09-11",
+      "time_et": "15:33",
+      "ts": 1789155230,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.07% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.939361,
+      "status": "filled",
+      "price": 431.99,
+      "proceeds": 2997.76,
+      "realized_pnl": -2.24,
+      "realized_pct": -0.07,
+      "date": "2026-09-11",
+      "time_et": "15:33",
+      "ts": 1789155230,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.05% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 13981.18,
+  "spent_today": 8985.31,
   "orders_today": 58,
-  "sells_today": 52,
+  "sells_today": 54,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -2531,19 +2571,20 @@
     "BE",
     "DGICA",
     "TNON",
-    "MO"
+    "MO",
+    "HUBB"
   ],
-  "last_check_ts": 1789155112,
+  "last_check_ts": 1789155232,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789155112,
-  "last_decision_ts": 1789155112,
+  "last_publish_ts": 1789155232,
+  "last_decision_ts": 1789155232,
   "sold_ts": {
     "INTC": 1789154500,
     "GOOGL": 1789154233,
     "CCJ": 1789141240,
     "AMD": 1789154500,
     "IBM": 1789144834,
-    "TSM": 1789150587,
+    "TSM": 1789155231,
     "META": 1789151375,
     "AAPL": 1789154901,
     "HD": 1789138171,
@@ -2561,7 +2602,8 @@
     "BE": 1789150865,
     "DGICA": 1789151375,
     "TNON": 1789152064,
-    "MO": 1789152987
+    "MO": 1789152987,
+    "HUBB": 1789155231
   },
   "deployed": 130800.0,
   "deployed_by_ticker": {
@@ -2596,19 +2638,13 @@
   "book_px": {
     "abfced80": 152.6632,
     "70495043": 498.1082,
-    "a1d51542": 433.4181,
-    "cc56f1bf": 463.9215,
     "72a1a847": 653.1488,
-    "cb975f53": 459.4385,
-    "841fa941": 429.5791,
     "dd89945d": 494.2019,
-    "44ac133b": 151.1819,
     "52746a40": 644.8644,
-    "a0cbc88f": 448.7608,
-    "5ffe90f5": 419.3504,
-    "2c9eb066": 631.2566,
-    "6b4d3e12": 482.0803,
-    "f8c918d8": 147.6728
+    "44ac133b": 151.1819,
+    "7f7979a1": 631.2566,
+    "4d29054d": 482.0803,
+    "a76f04a7": 147.6728
   },
   "next_check_minutes": null,
   "autopiloted": true
