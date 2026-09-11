@@ -765,3 +765,14 @@ Done: 0 sell(s), 2 buy(s); 26 order(s) working; budget left $20701.19 this week
   (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
   (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
 brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex2cWWEHmwEHPx59yHRP'} — no decision at this check.
+  (cancelled 3 standing order(s) on MRK: position closed)
+- SELL 100% MRK [take_profit @ $145.55] -> $1804.85 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-11 13:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 13:18 ET (Friday) — week 2026-W37 — budget left $22506.04 (today $49300.00 put to work, 30 buys, 27 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex2uhJb56u6kGrhsKxtk'} — no decision at this check.

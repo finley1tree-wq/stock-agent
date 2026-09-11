@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-11T13:14-04:00",
+ "asOf": "2026-09-11T13:18-04:00",
  "note": "brain error",
  "broker": "sim",
  "watchlist": {
@@ -137,32 +137,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "e3622100",
-   "ticker": "MRK",
-   "kind": "take_profit",
-   "price": 145.5505,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 145.57,
-   "pct_away": -0.01,
-   "good_until": "2026-09-16",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "92b7885e",
-   "ticker": "MRK",
+   "id": "2badfd53",
+   "ticker": "CHRW",
    "kind": "stop_loss",
-   "price": 145.334,
+   "price": 152.374,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 145.57,
-   "pct_away": -0.16,
+   "last": 152.34,
+   "pct_away": 0.02,
    "good_until": "2026-09-16",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -178,10 +161,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 152.36,
-   "pct_away": 0.17,
+   "last": 152.34,
+   "pct_away": 0.18,
    "good_until": "2026-09-16",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c0cd1d3b",
+   "ticker": "KMT",
+   "kind": "take_profit",
+   "price": 29.7426,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 29.66,
+   "pct_away": 0.28,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -195,8 +195,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.59,
-   "pct_away": -0.32,
+   "last": 494.86,
+   "pct_away": -0.37,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.42% under $495.10 to catch the dip",
    "signals": [
@@ -212,44 +212,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 648.96,
-   "pct_away": -0.34,
+   "last": 649.41,
+   "pct_away": -0.41,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "c0cd1d3b",
-   "ticker": "KMT",
-   "kind": "take_profit",
-   "price": 29.7426,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 29.61,
-   "pct_away": 0.45,
-   "good_until": "2026-09-16",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c1f95086",
-   "ticker": "TPL",
-   "kind": "buy_limit",
-   "price": 365.2996,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 367.48,
-   "pct_away": -0.59,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -263,7 +229,7 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.16,
+   "last": 341.17,
    "pct_away": -0.71,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
@@ -274,6 +240,23 @@
    ]
   },
   {
+   "id": "c1f95086",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 365.2996,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 367.99,
+   "pct_away": -0.73,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
    "id": "665962b8",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -281,48 +264,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 466.15,
-   "pct_away": -0.75,
+   "last": 466.21,
+   "pct_away": -0.76,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $462.64. top congress pressure ticker in list, momentum confirmed",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "17aff41d",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 151.1468,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.36,
-   "pct_away": -0.8,
-   "good_until": "2026-09-16",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ea7d6938",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 125.4277,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 126.46,
-   "pct_away": -0.82,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.71% under $126.32 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -333,13 +282,30 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 432.68,
-   "pct_away": -0.85,
+   "last": 432.73,
+   "pct_away": -0.86,
    "good_until": "2026-09-11",
    "why": "Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range",
    "signals": [
     "momentum",
     "news"
+   ]
+  },
+  {
+   "id": "ea7d6938",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 125.4277,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 126.57,
+   "pct_away": -0.9,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.71% under $126.32 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -350,30 +316,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 19.22,
-   "pct_away": -0.87,
+   "last": 19.23,
+   "pct_away": -0.92,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "cf7d78ef",
-   "ticker": "KMT",
-   "kind": "stop_loss",
-   "price": 29.3488,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 29.61,
-   "pct_away": -0.88,
-   "good_until": "2026-09-16",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -395,6 +344,23 @@
    ]
   },
   {
+   "id": "cf7d78ef",
+   "ticker": "KMT",
+   "kind": "stop_loss",
+   "price": 29.3488,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 29.66,
+   "pct_away": -1.05,
+   "good_until": "2026-09-16",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "5ba8a2de",
    "ticker": "AAPL",
    "kind": "buy_limit",
@@ -402,47 +368,13 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 334.33,
-   "pct_away": -1.15,
+   "last": 334.09,
+   "pct_away": -1.07,
    "good_until": "2026-09-11",
    "why": "Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range",
    "signals": [
     "momentum",
     "news"
-   ]
-  },
-  {
-   "id": "5974033c",
-   "ticker": "MRK",
-   "kind": "buy_limit",
-   "price": 143.778,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 145.57,
-   "pct_away": -1.23,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.51% under $144.51 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "7d6b8f4e",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 505.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 511.61,
-   "pct_away": -1.29,
-   "good_until": "2026-09-11",
-   "why": "Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready",
-   "signals": [
-    "congress",
-    "momentum"
    ]
   },
   {
@@ -453,8 +385,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 239.25,
-   "pct_away": -1.36,
+   "last": 239.46,
+   "pct_away": -1.44,
    "good_until": "2026-09-11",
    "why": "Widely-held name, resting below current 238.6 to get a better entry once cooldown clears",
    "signals": [
@@ -470,13 +402,30 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 219.01,
-   "pct_away": -1.37,
+   "last": 219.26,
+   "pct_away": -1.49,
    "good_until": "2026-09-11",
    "why": "Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate",
    "signals": [
     "momentum",
     "news"
+   ]
+  },
+  {
+   "id": "7d6b8f4e",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 505.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 513.79,
+   "pct_away": -1.71,
+   "good_until": "2026-09-11",
+   "why": "Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready",
+   "signals": [
+    "congress",
+    "momentum"
    ]
   },
   {
@@ -487,30 +436,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.79,
-   "pct_away": -1.84,
+   "last": 149.9,
+   "pct_away": -1.91,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "e3aeda20",
-   "ticker": "KMT",
-   "kind": "buy_limit",
-   "price": 28.7411,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 29.61,
-   "pct_away": -2.93,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -521,8 +453,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 152.36,
-   "pct_away": -3.1,
+   "last": 152.34,
+   "pct_away": -3.09,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -531,15 +463,15 @@
    ]
   },
   {
-   "id": "44065fd7",
-   "ticker": "MRK",
+   "id": "e3aeda20",
+   "ticker": "KMT",
    "kind": "buy_limit",
-   "price": 140.8052,
+   "price": 28.7411,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 145.57,
-   "pct_away": -3.27,
+   "last": 29.66,
+   "pct_away": -3.1,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -1667,6 +1599,16 @@
  },
  "insider_trades": [
   {
+   "who": "Craddock John Mitchell Jr.",
+   "role": "officer: Chief Operating Officer",
+   "ticker": "SBSI",
+   "type": "sell",
+   "shares": 415,
+   "price": 32.01,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-11"
+  },
+  {
    "who": "Lam Chi Ming",
    "role": "director",
    "ticker": "PMA",
@@ -2231,13 +2173,13 @@
   "KMT": 1.0,
   "RGCO": 1.0,
   "ANIX": 1.0,
+  "SBSI": -1.0,
   "PHVS": -1.0,
   "ARTNA": -1.0,
   "PBI": -1.0,
   "OSBC": -1.0,
   "AQST": -1.0,
-  "WSFS": -1.0,
-  "HIPO": -1.0
+  "WSFS": -1.0
  },
  "headlines": {
   "AAPL": [
@@ -2252,9 +2194,9 @@
     "when": "2026-09-10T19:29"
    },
    {
-    "title": "Bank of America resets Apple stock price target after iPhone Duo launch",
-    "source": "TheStreet",
-    "when": "2026-09-11T16:33"
+    "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Analog Devices Retakes Key Level (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-11T17:05"
    }
   ],
   "AEP": [
@@ -2684,9 +2626,9 @@
     "when": "2026-09-10T20:57"
    },
    {
-    "title": "Stock Market Falls On Soaring Oil Prices, Yields, But Finishes Strong; CPI Inflation, Apple, Oracle, Meta In Focus: Weekly Review",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-11T15:16"
+    "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+    "source": "TechCrunch",
+    "when": "2026-09-11T16:46"
    }
   ],
   "MGEE": [
@@ -2939,9 +2881,9 @@
     "when": "2026-09-11T15:29"
    },
    {
-    "title": "SpaceX Fell 3.9% on Its Third Lockup Release Since the IPO. I'd Wait to Buy the Stock.",
-    "source": "Motley Fool",
-    "when": "2026-09-11T15:43"
+    "title": "SpaceX gets bold 48% upside target, but one thing has to go really right",
+    "source": "TheStreet",
+    "when": "2026-09-11T17:07"
    }
   ],
   "SPY": [
@@ -3031,5 +2973,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-11T13:14-04:00"
+ "signalsAsOf": "2026-09-11T13:18-04:00"
 }

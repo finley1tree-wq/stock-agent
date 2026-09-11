@@ -2681,7 +2681,7 @@
    "ticker": "MRK",
    "kind": "buy_limit",
    "price": 143.778,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 11:43",
    "created_ts": 1789141423,
    "why": "strong month, weak day: resting 0.51% under $144.51 to catch the dip",
@@ -2691,7 +2691,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-12",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-11 13:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c1f95086",
@@ -3221,7 +3223,7 @@
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 151.1468,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 12:53",
    "created_ts": 1789145610,
    "why": "close it all at -0.7% under the average cost",
@@ -3231,7 +3233,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 13:17",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "fa3a684f",
@@ -3273,7 +3277,7 @@
    "ticker": "MRK",
    "kind": "take_profit",
    "price": 145.5505,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-11 12:58",
    "created_ts": 1789145898,
    "why": "close 100% at +0.3% over the average cost",
@@ -3283,7 +3287,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 13:15"
   },
   {
    "id": "7ae2e0a1",
@@ -3309,7 +3314,7 @@
    "ticker": "MRK",
    "kind": "buy_limit",
    "price": 140.8052,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 12:58",
    "created_ts": 1789145898,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -3319,7 +3324,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 13:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c0cd1d3b",
@@ -3377,7 +3384,7 @@
    "ticker": "MRK",
    "kind": "stop_loss",
    "price": 145.334,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 13:14",
    "created_ts": 1789146878,
    "why": "close it all at -0.7% under the average cost",
@@ -3387,8 +3394,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 13:15",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "2badfd53",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.374,
+   "status": "working",
+   "created": "2026-09-11 13:17",
+   "created_ts": 1789147044,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $152.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-11 13:14"
+ "updated": "2026-09-11 13:17"
 }

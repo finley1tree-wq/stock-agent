@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 4298.81,
+  "spent": 2493.96,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -15,8 +15,7 @@
     "GOOGL": 1.13,
     "AMD": 0.76,
     "IBM": 0.74,
-    "CHRW": 1000.0,
-    "MRK": 1800.0
+    "CHRW": 1000.0
   },
   "orders": [
     {
@@ -1486,12 +1485,33 @@
         "congress"
       ],
       "evidence": "CEO Chowbey Sanjay bought 7000 shares at $29.10 on 2026-09-10 (filed 09-11); +1.68% today"
+    },
+    {
+      "symbol": "MRK",
+      "side": "sell",
+      "qty": 12.400193,
+      "status": "filled",
+      "price": 145.55,
+      "proceeds": 1804.85,
+      "realized_pnl": 4.85,
+      "realized_pct": 0.27,
+      "date": "2026-09-11",
+      "time_et": "13:15",
+      "ts": 1789146600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $145.16",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 4298.81,
+  "spent_today": 2493.96,
   "orders_today": 30,
-  "sells_today": 26,
+  "sells_today": 27,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1508,11 +1528,12 @@
     "MSFT",
     "KMT",
     "NEM",
-    "SPY"
+    "SPY",
+    "MRK"
   ],
-  "last_check_ts": 1789146878,
+  "last_check_ts": 1789147106,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789146878,
+  "last_publish_ts": 1789147044,
   "last_decision_ts": 1789145898,
   "sold_ts": {
     "INTC": 1789144502,
@@ -1530,7 +1551,8 @@
     "MSFT": 1789139263,
     "KMT": 1789139263,
     "NEM": 1789139844,
-    "SPY": 1789145672
+    "SPY": 1789145672,
+    "MRK": 1789146922
   },
   "deployed": 49300.0,
   "deployed_by_ticker": {
@@ -1554,10 +1576,9 @@
     "MRK": 1800.0
   },
   "deployed_today": 49300.0,
-  "last_bar_ts": 1789146600,
+  "last_bar_ts": 1789146900,
   "book_px": {
-    "e3622100": 145.5505,
-    "92b7885e": 145.334,
+    "2badfd53": 152.374,
     "984141cc": 152.6216,
     "e87d920e": 493.0083,
     "66618da4": 646.7737,
@@ -1565,21 +1586,18 @@
     "c1f95086": 365.2996,
     "f3b06472": 338.7473,
     "665962b8": 462.6445,
-    "17aff41d": 151.1468,
-    "ea7d6938": 125.4277,
     "d375c5a7": 429.0,
     "23b20e4c": 19.0529,
     "cf7d78ef": 29.3488,
+    "ea7d6938": 125.4277,
     "c77ba476": 272.247,
-    "5974033c": 143.778,
     "5ba8a2de": 330.5,
-    "6a60a8a6": 236.0,
     "7d6b8f4e": 505.0,
     "a3d09bd3": 216.0,
+    "6a60a8a6": 236.0,
     "b84d5c3e": 147.0339,
     "e3aeda20": 28.7411,
     "fa3a684f": 147.634,
-    "44065fd7": 140.8052,
     "532b86e9": 171.2706,
     "ba4576bb": 310.432
   },

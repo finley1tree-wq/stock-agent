@@ -1,14 +1,3 @@
-  (trigger NLR take_profit cancelled (position gone))
-brain: Only 1 check left today (15:20 ET), 40 min to close, and max_hold_minutes is 30 so any new buy now would be force-closed right at/near the close into a red, choppy tape (nearly every watchlist name down 1-5% today, INTC -5%, OKLO -6%, CCJ -2.9%). No fresh concrete catalyst justifies a same-day round trip this late; today's mechanical evidence shows zero 1-day edge anyway. Existing working orders (NLR, INTC buy_limits) remain in place to catch dips without forcing action now.
-lesson: Do not restate the same 'hold cash late in a red day' conclusion as if repeating it were new evidence - if this pattern keeps recurring, next session start fresh and look for actual actionable setups earlier in the day rather than defaulting to inaction near the close.
-~ WORKING buy_limit $998.85 BE @ $255.91 until 2026-09-15 — strong month, weak day: resting 1.5% under $259.81 to catch the dip
-~ WORKING buy_limit $998.85 GAIA @ $1.45 until 2026-09-15 — strong month, weak day: resting 1.5% under $1.47 to catch the dip
-~ WORKING buy_limit $998.85 DXYZ @ $31.62 until 2026-09-15 — strong month, weak day: resting 1.5% under $32.10 to catch the dip
-~ WORKING buy_limit $998.85 META @ $635.33 until 2026-09-15 — strong month, weak day: resting 1.5% under $645.00 to catch the dip
-~ WORKING buy_limit $998.85 AMD @ $497.39 until 2026-09-15 — strong month, weak day: resting 1.5% under $504.96 to catch the dip
-portfolio: equity $24971.20 (-0.12% on $25000.00 in) · cash $24971.20 · realised -28.80
-Decision: nothing at this check. 7 standing order(s) working.
-  (trigger INTC trailing_stop cancelled (position gone))
   (trigger CCJ stop_loss cancelled (position gone))
   (trigger NLR stop_loss cancelled (position gone))
   (trigger CCJ take_profit cancelled (position gone))
@@ -398,3 +387,14 @@ Done: 0 sell(s), 2 buy(s); 26 order(s) working; budget left $20701.19 this week
   (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
   (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
 brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex2cWWEHmwEHPx59yHRP'} — no decision at this check.
+  (cancelled 3 standing order(s) on MRK: position closed)
+- SELL 100% MRK [take_profit @ $145.55] -> $1804.85 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-11 13:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-11 13:18 ET (Friday) — week 2026-W37 — budget left $22506.04 (today $49300.00 put to work, 30 buys, 27 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex2uhJb56u6kGrhsKxtk'} — no decision at this check.
