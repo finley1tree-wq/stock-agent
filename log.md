@@ -1208,3 +1208,15 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25139.11 (+0.56% on $25000.00 in) · cash $2144.88 · realised +144.88
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $2002.10 this week
+
+## 2026-09-11 15:26 ET (Friday) — week 2026-W37 — budget left $2002.10 (today $130800.00 put to work, 58 buys, 49 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexCfRuu9VsniCysWWvej'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25153.15 (+0.61% on $25000.00 in) · cash $2144.88 · realised +144.88
+Decision: nothing at this check. 33 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
