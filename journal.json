@@ -1893,8 +1893,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02,
-    "ret_final": -0.02,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -2451,8 +2451,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05,
-    "ret_final": -0.05,
+    "ret_now": 0.12,
+    "ret_final": 0.12,
     "ret_src": "realised"
   },
   {
@@ -3225,7 +3225,9 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "SPCX",
@@ -3280,7 +3282,7 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.06
   },
   {
     "symbol": "MRK",
@@ -3436,5 +3438,32 @@
     "hour_et": 15,
     "code_version": "1fa7dd5",
     "hold_minutes": 29
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 19.705671,
+    "status": "filled",
+    "price": 152.66,
+    "proceeds": 3008.3,
+    "realized_pnl": 8.3,
+    "realized_pct": 0.28,
+    "date": "2026-09-11",
+    "time_et": "15:49",
+    "ts": 1789155900,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $152.24",
+    "trigger": "take_profit",
+    "hour_et": 15,
+    "code_version": "b4e6492",
+    "hold_minutes": 21
   }
 ]

@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 5996.7,
+  "spent": 2988.4,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -14,7 +14,6 @@
     "AMD": 8.23,
     "IBM": 0.74,
     "INTC": 7.94,
-    "CHRW": 3001.4,
     "AAPL": 2.58,
     "HUBB": 1.89,
     "MSFT": 3000.0
@@ -2561,12 +2560,33 @@
       ],
       "evidence": "bought 30 min ago, -0.36% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 19.705671,
+      "status": "filled",
+      "price": 152.66,
+      "proceeds": 3008.3,
+      "realized_pnl": 8.3,
+      "realized_pct": 0.28,
+      "date": "2026-09-11",
+      "time_et": "15:49",
+      "ts": 1789155900,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $152.24",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 5996.7,
+  "spent_today": 2988.4,
   "orders_today": 58,
-  "sells_today": 55,
+  "sells_today": 56,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -2594,10 +2614,10 @@
     "MO",
     "HUBB"
   ],
-  "last_check_ts": 1789156147,
+  "last_check_ts": 1789156227,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789156147,
-  "last_decision_ts": 1789156067,
+  "last_publish_ts": 1789156227,
+  "last_decision_ts": 1789156227,
   "sold_ts": {
     "INTC": 1789154500,
     "GOOGL": 1789154233,
@@ -2616,7 +2636,7 @@
     "NEM": 1789154199,
     "SPY": 1789145672,
     "MRK": 1789154901,
-    "CHRW": 1789151842,
+    "CHRW": 1789156181,
     "TPL": 1789153034,
     "SPCX": 1789155118,
     "BE": 1789150865,
@@ -2654,14 +2674,11 @@
     "HUBB": 2000.0
   },
   "deployed_today": 130800.0,
-  "last_bar_ts": 1789155900,
+  "last_bar_ts": 1789156200,
   "book_px": {
-    "ba36def0": 152.6617,
-    "87761055": 152.384,
     "70495043": 498.1082,
     "dd89945d": 494.2019,
-    "a531e5f0": 482.0803,
-    "15a5f42a": 147.6728
+    "83a31cfc": 482.0803
   },
   "next_check_minutes": null,
   "autopiloted": true

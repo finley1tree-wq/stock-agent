@@ -1,22 +1,3 @@
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cex8sc5hpBtFbFg5uxkZ4'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,020 idle, so opened 1: TNON. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TNON [filled] ['momentum', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +3.1% over the month; 10% of today's range
-~ WORKING take_profit 100% TNON @ $5.95 until 2026-09-16 — close 100% at +2.2% over the average cost
-~ WORKING stop_loss 100% TNON @ $5.49 until 2026-09-16 — close it all at -5.6% under the average cost
-~ WORKING buy_limit $500.00 TNON @ $5.65 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25076.71 (+0.31% on $25000.00 in) · cash $16074.29 · realised +74.29
-Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $16020.24 this week
-- SELL 100% CHRW [time stop] -> $2998.60 (-0.05%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% MSFT [time stop] -> $3003.34 (+0.11%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-11 14:37 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TNON: position closed)
-- SELL 100% TNON [take_profit @ $5.95] -> $3066.55 (+2.22%) — close 100% at +2.2% over the average cost
-  (dropped TNON: sold 0 min ago, cooling off)
-## 2026-09-11 14:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-11 14:44 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $91300.00 put to work, 44 buys, 43 sells) — SIM (pretend money) via sim
   (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
@@ -398,3 +379,22 @@ portfolio: equity $25153.16 (+0.61% on $25000.00 in) · cash $19146.09 · realis
 Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $152.66] -> $3008.30 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-11 15:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-11 15:50 ET (Friday) — week 2026-W37 — budget left $22011.60 (today $130800.00 put to work, 58 buys, 56 sells) — SIM (pretend money) via sim
+  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
+  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexEVMTDRuvB2StPLRvrg'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25152.10 (+0.61% on $25000.00 in) · cash $22154.39 · realised +154.39
+Decision: nothing at this check. 3 standing order(s) working.
