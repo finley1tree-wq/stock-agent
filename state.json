@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 8979.76,
+  "spent": 2977.82,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -9,14 +9,13 @@
     "META": 8.4,
     "NVDA": 3.96,
     "AVGO": 2.12,
-    "MSFT": 3002.87,
     "TSM": 2.96,
     "GOOGL": 1.13,
     "AMD": 2.28,
     "IBM": 0.74,
     "INTC": 1.52,
     "NEM": 1.39,
-    "CHRW": 3000.0,
+    "CHRW": 1.4,
     "MRK": 1.48,
     "AAPL": 1.47,
     "TNON": 3000.0
@@ -2013,12 +2012,52 @@
         "insider"
       ],
       "evidence": "1 insider bought (Form 4); +3.1% over the month; 10% of today's range"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 19.621877,
+      "status": "filled",
+      "price": 152.82,
+      "proceeds": 2998.6,
+      "realized_pnl": -1.4,
+      "realized_pct": -0.05,
+      "date": "2026-09-11",
+      "time_et": "14:37",
+      "ts": 1789151841,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.03% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.053524,
+      "status": "filled",
+      "price": 496.13,
+      "proceeds": 3003.34,
+      "realized_pnl": 3.34,
+      "realized_pct": 0.11,
+      "date": "2026-09-11",
+      "time_et": "14:37",
+      "ts": 1789151841,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.13% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 8979.76,
+  "spent_today": 2977.82,
   "orders_today": 44,
-  "sells_today": 40,
+  "sells_today": 42,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -2043,9 +2082,9 @@
     "BE",
     "DGICA"
   ],
-  "last_check_ts": 1789151808,
+  "last_check_ts": 1789152024,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789151805,
+  "last_publish_ts": 1789152024,
   "last_decision_ts": 1789151808,
   "sold_ts": {
     "INTC": 1789149700,
@@ -2060,12 +2099,12 @@
     "NVDA": 1789139006,
     "AVGO": 1789139263,
     "AMZN": 1789139263,
-    "MSFT": 1789139263,
+    "MSFT": 1789151842,
     "KMT": 1789147733,
     "NEM": 1789149639,
     "SPY": 1789145672,
     "MRK": 1789150204,
-    "CHRW": 1789147279,
+    "CHRW": 1789151842,
     "TPL": 1789149978,
     "SPCX": 1789150803,
     "BE": 1789150865,
@@ -2098,15 +2137,12 @@
     "TNON": 3000.0
   },
   "deployed_today": 91300.0,
-  "last_bar_ts": 1789151700,
+  "last_bar_ts": 1789152000,
   "book_px": {
-    "df901d97": 495.982,
-    "f0410b28": 496.6951,
-    "f3b06472": 338.7473,
     "665962b8": 462.6445,
-    "f60eb95d": 153.3135,
-    "e87d920e": 493.0083,
-    "42d81c66": 151.832,
+    "f3b06472": 338.7473,
+    "993e360a": 5.9503,
+    "e3934add": 5.88,
     "5ba8a2de": 330.5,
     "d375c5a7": 429.0,
     "c77ba476": 272.247,
@@ -2114,9 +2150,8 @@
     "6a60a8a6": 236.0,
     "532b86e9": 171.2706,
     "7d6b8f4e": 505.0,
-    "f7c4c1da": 148.3033,
-    "44a32a69": 480.7126,
-    "ba4576bb": 310.432
+    "ba4576bb": 310.432,
+    "c3a635fe": 5.6454
   },
   "next_check_minutes": 6
 }

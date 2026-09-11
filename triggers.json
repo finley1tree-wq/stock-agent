@@ -3199,7 +3199,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 493.0083,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 12:39",
    "created_ts": 1789144783,
    "why": "strong month, weak day: resting 0.42% under $495.10 to catch the dip",
@@ -3209,7 +3209,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-12",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-11 14:37",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "984141cc",
@@ -3873,7 +3875,7 @@
    "ticker": "CHRW",
    "kind": "take_profit",
    "price": 153.3135,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:07",
    "created_ts": 1789150040,
    "why": "close 100% at +0.3% over the average cost",
@@ -3883,14 +3885,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:37",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "42d81c66",
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 151.832,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:07",
    "created_ts": 1789150040,
    "why": "close it all at -0.7% under the average cost",
@@ -3900,14 +3904,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:37",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f7c4c1da",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 148.3033,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:07",
    "created_ts": 1789150040,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -3917,7 +3923,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 14:37",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ed41b4b1",
@@ -3961,7 +3969,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 496.6951,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:07",
    "created_ts": 1789150040,
    "why": "close 100% at +0.2% over the average cost",
@@ -3971,7 +3979,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:37",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f30a14aa",
@@ -3997,7 +4007,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 480.7126,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:07",
    "created_ts": 1789150040,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -4007,7 +4017,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-11 14:37",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "446a0bc3",
@@ -4125,7 +4137,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 495.982,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:36",
    "created_ts": 1789151805,
    "why": "close it all at -0.6% under the average cost",
@@ -4135,7 +4147,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:37",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "993e360a",
@@ -4159,7 +4173,7 @@
    "ticker": "TNON",
    "kind": "stop_loss",
    "price": 5.4944,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-11 14:36",
    "created_ts": 1789151808,
    "why": "close it all at -5.6% under the average cost",
@@ -4169,7 +4183,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c3a635fe",
@@ -4187,7 +4203,43 @@
    ],
    "good_until": "2026-09-16",
    "usd": 500.0
+  },
+  {
+   "id": "f013ec11",
+   "ticker": "TNON",
+   "kind": "stop_loss",
+   "price": 5.868,
+   "status": "cancelled",
+   "created": "2026-09-11 14:39",
+   "created_ts": 1789151963,
+   "why": "close it all at -5.5% under the average cost",
+   "evidence": "average cost $5.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-11 14:40",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "e3934add",
+   "ticker": "TNON",
+   "kind": "stop_loss",
+   "price": 5.88,
+   "status": "working",
+   "created": "2026-09-11 14:40",
+   "created_ts": 1789152024,
+   "why": "close it all at -5.5% under the average cost",
+   "evidence": "average cost $5.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-11 14:36"
+ "updated": "2026-09-11 14:40"
 }

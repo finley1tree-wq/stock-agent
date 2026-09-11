@@ -1004,3 +1004,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 TNON @ $5.65 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25076.71 (+0.31% on $25000.00 in) · cash $16074.29 · realised +74.29
 Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $16020.24 this week
+- SELL 100% CHRW [time stop] -> $2998.60 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% MSFT [time stop] -> $3003.34 (+0.11%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 14:37 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,3 @@
-- BUY $1500.00 TSM [filled] ['news', 'momentum'] — Strong fundamentals narrative, widely_held sector has 1.0 hit rate historically | evidence: 'TSM Record Sales Say AI Chips Are Booming' Insider Monkey headline; +3.78% 5d, at 78% of range
-- BUY $1500.00 IBM [filled] ['news', 'momentum'] — Not extended in range, positive catalyst headline, room to run | evidence: 'Stock Market Today: Dow Rallies On Surprise Inflation Data; This Tech Icon Eyes A Breakout' referencing IBM; IBM +1.66% today, at 40.8% of day range
-  (dropped trigger GOOGL stop_loss: not held)
 ~ WORKING stop_loss 100% AMD @ $505.00 until 2026-09-11 — cap downside near -2% from entry
 ~ WORKING stop_loss 100% CCJ @ $95.50 until 2026-09-11 — protect capital given past CCJ time-stop loss
 ~ WORKING take_profit 50% TSM @ $440.00 until 2026-09-11 — lock partial gain before 30min close
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 TNON @ $5.65 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25076.71 (+0.31% on $25000.00 in) · cash $16074.29 · realised +74.29
 Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $16020.24 this week
+- SELL 100% CHRW [time stop] -> $2998.60 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% MSFT [time stop] -> $3003.34 (+0.11%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 14:37 ET — tick — 2 sell(s), 0 buy(s) from standing orders
