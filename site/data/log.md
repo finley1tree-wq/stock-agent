@@ -1,5 +1,3 @@
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
@@ -398,3 +396,5 @@ Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $97.47] -> $2309.86 (+0.43%) — close 100% at +0.4% over the average cost
 ## 2026-09-11 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2200.00 META [buy_limit @ $654.10] — wanted it, but not at the high — resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap
+## 2026-09-11 09:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders

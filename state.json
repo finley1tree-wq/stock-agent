@@ -1,13 +1,14 @@
 {
   "week": "2026-W37",
-  "spent": 2500.95,
+  "spent": 4700.95,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 0.19,
     "SPY": 0.41,
     "NLR": 13.19,
     "GOOGN": 0.24,
-    "AMD": 2500.0
+    "AMD": 2500.0,
+    "META": 2200.0
   },
   "orders": [
     {
@@ -549,33 +550,54 @@
       ],
       "evidence": "average cost $97.05",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "META",
+      "notional": 2200.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.363382,
+      "price": 654.1,
+      "date": "2026-09-11",
+      "time_et": "09:52",
+      "ts": 1789134600,
+      "why": "wanted it, but not at the high \u2014 resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "META +2.09% today, +7.73% 5d, +13.65% 1m, at 92% of day range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 2472.16,
-  "orders_today": 4,
+  "spent_today": 4672.16,
+  "orders_today": 5,
   "sells_today": 3,
   "sold_today": [
     "INTC",
     "GOOGL",
     "CCJ"
   ],
-  "last_check_ts": 1789134564,
-  "book_fp": "[[\"23b20e4c\", 19.0529], [\"4d652d52\", 654.1035], [\"532b86e9\", 171.2706], [\"74e0024c\", 428.3086], [\"a89ad0f5\", 492.8], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
-  "last_publish_ts": 1789134442,
+  "last_check_ts": 1789134784,
+  "book_fp": "[[\"020ae5c0\", 656.4678], [\"23b20e4c\", 19.0529], [\"4827978c\", 648.1869], [\"532b86e9\", 171.2706], [\"74e0024c\", 428.3086], [\"a89ad0f5\", 492.8], [\"a8a7ffe2\", 634.477], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
+  "last_publish_ts": 1789134723,
   "last_decision_ts": 1789133608,
   "sold_ts": {
     "INTC": 1789134010,
     "GOOGL": 1789134349,
     "CCJ": 1789134443
   },
-  "deployed": 9800.0,
+  "deployed": 12000.0,
   "deployed_by_ticker": {
     "AMD": 2500.0,
     "CCJ": 2300.0,
     "INTC": 2500.0,
-    "GOOGL": 2500.0
+    "GOOGL": 2500.0,
+    "META": 2200.0
   },
-  "deployed_today": 9800.0,
-  "last_bar_ts": 1789134300
+  "deployed_today": 12000.0,
+  "last_bar_ts": 1789134600
 }

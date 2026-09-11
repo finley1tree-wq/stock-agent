@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-11T09:47-04:00",
+ "asOf": "2026-09-11T09:52-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -133,6 +133,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "020ae5c0",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 656.4678,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 654.35,
+   "pct_away": 0.32,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "23b20e4c",
    "ticker": "DGICA",
    "kind": "buy_limit",
@@ -150,24 +167,6 @@
    ]
   },
   {
-   "id": "4d652d52",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 654.1035,
-   "usd": 2200.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 659.73,
-   "pct_away": -0.85,
-   "good_until": "2026-09-11",
-   "why": "wanted it, but not at the high \u2014 resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
    "id": "74e0024c",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -175,13 +174,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 433.5,
-   "pct_away": -1.2,
+   "last": 430.87,
+   "pct_away": -0.59,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.47% under $430.31 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "4827978c",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 648.1869,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 654.35,
+   "pct_away": -0.94,
+   "good_until": "2026-09-16",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -192,13 +208,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.29,
-   "pct_away": -1.32,
+   "last": 127.95,
+   "pct_away": -1.06,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $127.47 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "a8a7ffe2",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 634.477,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 654.35,
+   "pct_away": -3.04,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -209,8 +242,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 173.7,
-   "pct_away": -1.4,
+   "last": 176.71,
+   "pct_away": -3.08,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
    "signals": [
@@ -226,8 +259,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 511.71,
-   "pct_away": -3.7,
+   "last": 512.34,
+   "pct_away": -3.81,
    "good_until": "2026-09-11",
    "why": "Protect against reversal",
    "signals": [
@@ -242,8 +275,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 511.71,
-   "pct_away": -4.17,
+   "last": 512.34,
+   "pct_away": -4.29,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
