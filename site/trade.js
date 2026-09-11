@@ -23,6 +23,11 @@
   const fmtDay = (ms) => new Date(ms).toLocaleDateString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", year: "2-digit" });
 
   const HINT = `<span class="dim">Move over the chart for O / H / L / C / volume and P/L at that price. Drag to pan, pinch or scroll to zoom.</span>`;
+  // The fastest useful view: today, one-minute candles, volume + the layers that matter. "Reset
+  // view" puts you back here in one click, because a saved preference from weeks ago (a 30-minute
+  // interval, say) silently makes the chart look like it is barely moving.
+  const FAST = { range: "1d", type: "candles", intervals: { "1d": "1m", "5d": "5m" },
+                 show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true, liq: true, levels: true } };
   const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true, liq: true, levels: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
   const prefs = (() => { try { return JSON.parse(localStorage.getItem("sa.trade") || "{}"); } catch (e) { return {}; } })();
   Object.assign(T, { range: prefs.range || "1d", type: prefs.type || "candles", show: { ...T.show, ...(prefs.show || {}) },
@@ -41,11 +46,12 @@
       <div class="t-head">
         <button class="t-close" aria-label="Close">×</button>
         <div class="t-title"><span class="t-sym">${esc(sym)}</span><span class="t-name" id="t-name"></span></div>
-        <div class="t-price"><span class="num" id="t-price">…</span><span id="t-chg" class="t-chg"></span><span id="t-clock" class="t-clock" hidden></span></div>
+        <div class="t-price"><span class="num" id="t-price">…</span><span id="t-chg" class="t-chg"></span><span id="t-clock" class="t-clock" hidden></span><span id="t-live" class="t-live" hidden></span></div>
       </div>
       <div class="t-bar">
         <div class="chips" id="t-ranges">${RANGES.map(r => `<button data-r="${r}" aria-pressed="${r === T.range}">${RLABEL[r]}</button>`).join("")}</div>
         <div class="chips" id="t-intervals"></div>
+        <div class="chips" id="t-reset"><button data-reset="1" title="Back to today, 1-minute candles - the fastest view">Reset view</button></div>
         <div class="chips" id="t-type"><button data-t="candles" aria-pressed="${T.type === "candles"}">Candles</button><button data-t="line" aria-pressed="${T.type === "line"}">Line</button></div>
         <div class="chips" id="t-toggles">
           <button data-k="vol" aria-pressed="${T.show.vol}">Vol</button><button data-k="sma20" aria-pressed="${T.show.sma20}">SMA 20</button><button data-k="sma50" aria-pressed="${T.show.sma50}">SMA 50</button><button data-k="vwap" aria-pressed="${T.show.vwap}">VWAP</button><button data-k="buyin" aria-pressed="${T.show.buyin}">Buy-in</button><button data-k="orders" aria-pressed="${T.show.orders}">Orders</button><button data-k="liq" aria-pressed="${T.show.liq}" title="Volume profile: how much stock traded at each price">Liquidity</button><button data-k="levels" aria-pressed="${T.show.levels}" title="Session open, prior close, day high and low">Levels</button>
@@ -66,6 +72,17 @@
     v.querySelector(".t-close").addEventListener("click", close);
     document.addEventListener("keydown", escClose);
     $("#t-ranges").addEventListener("click", e => { const b = e.target.closest("button[data-r]"); if (!b) return; T.range = b.dataset.r; T.interval = T.intervals[T.range] || null; pressed("#t-ranges", "r", T.range); savePrefs(); startLive(); load(); });
+    $("#t-reset").addEventListener("click", () => {
+      Object.assign(T, { range: FAST.range, type: FAST.type, show: { ...FAST.show },
+                         intervals: { ...FAST.intervals }, entry: null, entryMode: "auto", size: null });
+      T.interval = T.intervals[T.range];
+      try { localStorage.removeItem("sa.trade"); } catch (e) {}
+      savePrefs();
+      pressed("#t-ranges", "r", T.range); pressed("#t-type", "t", T.type);
+      document.querySelectorAll("#t-toggles button").forEach(b => b.setAttribute("aria-pressed", !!T.show[b.dataset.k]));
+      const sz = $("#t-size"); if (sz) sz.value = "";
+      startLive(); load();
+    });
     $("#t-type").addEventListener("click", e => { const b = e.target.closest("button[data-t]"); if (!b) return; T.type = b.dataset.t; pressed("#t-type", "t", T.type); savePrefs(); draw(); });
     $("#t-toggles").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (!b) return; T.show[b.dataset.k] = !T.show[b.dataset.k]; b.setAttribute("aria-pressed", T.show[b.dataset.k]); savePrefs(); draw(); });
     $("#t-entry").addEventListener("change", e => { const v = parseFloat(e.target.value); if (v > 0) { T.entry = v; T.entryMode = "manual"; drawEntry(); } });
@@ -131,6 +148,7 @@
       }
     } catch (e) { return; }          // a stale time (out of order) is not worth throwing over
     T.lastPrice = price;
+    T.lastTickAt = Date.now();
     T.data.price = price;
     if (q) { if (q.changePct != null) T.data.change = +q.changePct; T.quote = q; }
     paintHeader(price, q);
@@ -152,7 +170,18 @@
     }
   }
 
-  function tickClock() { drawClock(); }
+  function tickClock() {
+    drawClock();
+    // Say plainly how fresh the price is. The feed is free Yahoo data, so a few seconds between
+    // ticks is normal and a long gap means something is actually wrong - worth being able to see.
+    const el = $("#t-live"); if (!el) return;
+    if (!T.lastTickAt) { el.hidden = true; return; }
+    const age = Math.round((Date.now() - T.lastTickAt) / 1000);
+    el.hidden = false;
+    el.textContent = age < 3 ? "LIVE" : `LIVE · ${age}s`;
+    el.className = "t-live" + (age > 30 ? " stale" : "");
+    el.title = `Price last changed ${age}s ago. Polled every 2 seconds; the free quote feed updates every few seconds.`;
+  }
   function startLive() {
     clearInterval(T.clockTimer); T.clockTimer = setInterval(tickClock, 1000);
     clearInterval(T.live); clearInterval(T.priceTimer);

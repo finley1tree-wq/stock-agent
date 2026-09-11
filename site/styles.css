@@ -224,3 +224,10 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 @keyframes sa-pulse { 0% { opacity: .45; } 100% { opacity: 1; } }
 .t-price > .num.pulse { animation: sa-pulse .35s ease-out; }
 @media (prefers-reduced-motion: reduce) { .t-price > .num.pulse { animation: none; } }
+
+/* how fresh the price is, so "is this thing even updating" is answerable at a glance */
+.t-live { margin-left: 8px; font-size: 10px; font-weight: 700; letter-spacing: .06em;
+  padding: 2px 7px; border-radius: 999px; background: rgba(48,209,88,.15);
+  color: #30d158; border: 1px solid rgba(48,209,88,.35); white-space: nowrap; }
+.t-live.stale { background: rgba(139,152,169,.15); color: #8b98a9; border-color: rgba(139,152,169,.35); }
+#t-reset button { font-weight: 600; }
