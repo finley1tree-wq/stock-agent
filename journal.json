@@ -1881,7 +1881,9 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -2033,5 +2035,30 @@
     "trigger": "take_profit",
     "hour_et": 13,
     "hold_minutes": 11
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 6.570324,
+    "status": "filled",
+    "price": 152.3,
+    "proceeds": 1000.65,
+    "realized_pnl": 0.65,
+    "realized_pct": 0.06,
+    "date": "2026-09-11",
+    "time_et": "13:21",
+    "ts": 1789147200,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "dip_entry",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $152.2",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "hold_minutes": 30
   }
 ]

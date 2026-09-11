@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 2493.96,
+  "spent": 1493.31,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 0.48,
@@ -14,8 +14,7 @@
     "TSM": 1.48,
     "GOOGL": 1.13,
     "AMD": 0.76,
-    "IBM": 0.74,
-    "CHRW": 1000.0
+    "IBM": 0.74
   },
   "orders": [
     {
@@ -1506,12 +1505,33 @@
       ],
       "evidence": "average cost $145.16",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 6.570324,
+      "status": "filled",
+      "price": 152.3,
+      "proceeds": 1000.65,
+      "realized_pnl": 0.65,
+      "realized_pct": 0.06,
+      "date": "2026-09-11",
+      "time_et": "13:21",
+      "ts": 1789147200,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $152.2",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 2493.96,
+  "spent_today": 1493.31,
   "orders_today": 30,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1529,11 +1549,12 @@
     "KMT",
     "NEM",
     "SPY",
-    "MRK"
+    "MRK",
+    "CHRW"
   ],
-  "last_check_ts": 1789147106,
+  "last_check_ts": 1789147339,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789147044,
+  "last_publish_ts": 1789147277,
   "last_decision_ts": 1789145898,
   "sold_ts": {
     "INTC": 1789144502,
@@ -1552,7 +1573,8 @@
     "KMT": 1789139263,
     "NEM": 1789139844,
     "SPY": 1789145672,
-    "MRK": 1789146922
+    "MRK": 1789146922,
+    "CHRW": 1789147279
   },
   "deployed": 49300.0,
   "deployed_by_ticker": {
@@ -1576,28 +1598,25 @@
     "MRK": 1800.0
   },
   "deployed_today": 49300.0,
-  "last_bar_ts": 1789146900,
+  "last_bar_ts": 1789147200,
   "book_px": {
-    "2badfd53": 152.374,
-    "984141cc": 152.6216,
-    "e87d920e": 493.0083,
-    "66618da4": 646.7737,
     "c0cd1d3b": 29.7426,
-    "c1f95086": 365.2996,
+    "66618da4": 646.7737,
+    "e87d920e": 493.0083,
     "f3b06472": 338.7473,
     "665962b8": 462.6445,
-    "d375c5a7": 429.0,
     "23b20e4c": 19.0529,
-    "cf7d78ef": 29.3488,
+    "c1f95086": 365.2996,
+    "d375c5a7": 429.0,
     "ea7d6938": 125.4277,
-    "c77ba476": 272.247,
+    "cf7d78ef": 29.3488,
     "5ba8a2de": 330.5,
-    "7d6b8f4e": 505.0,
+    "c77ba476": 272.247,
     "a3d09bd3": 216.0,
     "6a60a8a6": 236.0,
+    "7d6b8f4e": 505.0,
     "b84d5c3e": 147.0339,
     "e3aeda20": 28.7411,
-    "fa3a684f": 147.634,
     "532b86e9": 171.2706,
     "ba4576bb": 310.432
   },

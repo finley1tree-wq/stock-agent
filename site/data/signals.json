@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-11T13:18-04:00",
+ "asOf": "2026-09-11T13:22-04:00",
  "note": "brain error",
  "broker": "sim",
  "watchlist": {
@@ -137,40 +137,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "2badfd53",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.374,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.34,
-   "pct_away": 0.02,
-   "good_until": "2026-09-16",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "984141cc",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 152.6216,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.34,
-   "pct_away": 0.18,
-   "good_until": "2026-09-16",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "c0cd1d3b",
    "ticker": "KMT",
    "kind": "take_profit",
@@ -188,23 +154,6 @@
    ]
   },
   {
-   "id": "e87d920e",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 493.0083,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 494.86,
-   "pct_away": -0.37,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.42% under $495.10 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "66618da4",
    "ticker": "META",
    "kind": "buy_limit",
@@ -212,10 +161,27 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 649.41,
-   "pct_away": -0.41,
+   "last": 649.65,
+   "pct_away": -0.44,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "e87d920e",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 493.0083,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 495.25,
+   "pct_away": -0.45,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.42% under $495.10 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -229,31 +195,14 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.17,
-   "pct_away": -0.71,
+   "last": 341.3,
+   "pct_away": -0.75,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $338.75. Momentum plus sector strength; not yet in cooldown",
    "signals": [
     "news",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "c1f95086",
-   "ticker": "TPL",
-   "kind": "buy_limit",
-   "price": 365.2996,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 367.99,
-   "pct_away": -0.73,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -264,14 +213,48 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 466.21,
-   "pct_away": -0.76,
+   "last": 466.43,
+   "pct_away": -0.81,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $462.64. top congress pressure ticker in list, momentum confirmed",
    "signals": [
     "congress",
     "momentum",
     "patience"
+   ]
+  },
+  {
+   "id": "23b20e4c",
+   "ticker": "DGICA",
+   "kind": "buy_limit",
+   "price": 19.0529,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 19.21,
+   "pct_away": -0.82,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "c1f95086",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 365.2996,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 368.57,
+   "pct_away": -0.89,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.70% under $367.89 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -282,8 +265,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 432.73,
-   "pct_away": -0.86,
+   "last": 433.12,
+   "pct_away": -0.95,
    "good_until": "2026-09-11",
    "why": "Semis theme momentum, entry below current 434.13 to avoid chasing 80.8% of range",
    "signals": [
@@ -299,8 +282,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 126.57,
-   "pct_away": -0.9,
+   "last": 126.72,
+   "pct_away": -1.02,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.71% under $126.32 to catch the dip",
    "signals": [
@@ -309,20 +292,20 @@
    ]
   },
   {
-   "id": "23b20e4c",
-   "ticker": "DGICA",
+   "id": "5ba8a2de",
+   "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 19.0529,
-   "usd": 1000.0,
+   "price": 330.5,
+   "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 19.23,
-   "pct_away": -0.92,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.51% under $19.15 to catch the dip",
+   "last": 333.99,
+   "pct_away": -1.04,
+   "good_until": "2026-09-11",
+   "why": "Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range",
    "signals": [
     "momentum",
-    "dip_entry"
+    "news"
    ]
   },
   {
@@ -333,8 +316,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 274.97,
-   "pct_away": -0.99,
+   "last": 275.11,
+   "pct_away": -1.04,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
    "signals": [
@@ -361,17 +344,17 @@
    ]
   },
   {
-   "id": "5ba8a2de",
-   "ticker": "AAPL",
+   "id": "a3d09bd3",
+   "ticker": "NVDA",
    "kind": "buy_limit",
-   "price": 330.5,
-   "usd": 2000.0,
+   "price": 216.0,
+   "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 334.09,
-   "pct_away": -1.07,
+   "last": 219.23,
+   "pct_away": -1.47,
    "good_until": "2026-09-11",
-   "why": "Widely_held sector has best track record (0.11 avg, 0.64 hit rate); enter on a pullback rather than chase at 84.6% of day range",
+   "why": "Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate",
    "signals": [
     "momentum",
     "news"
@@ -385,27 +368,10 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 239.46,
-   "pct_away": -1.44,
+   "last": 239.94,
+   "pct_away": -1.64,
    "good_until": "2026-09-11",
    "why": "Widely-held name, resting below current 238.6 to get a better entry once cooldown clears",
-   "signals": [
-    "momentum",
-    "news"
-   ]
-  },
-  {
-   "id": "a3d09bd3",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 216.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 219.26,
-   "pct_away": -1.49,
-   "good_until": "2026-09-11",
-   "why": "Cheap entry point in day range for a widely-held name in a sector with 0.64 hit rate",
    "signals": [
     "momentum",
     "news"
@@ -419,8 +385,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 513.79,
-   "pct_away": -1.71,
+   "last": 513.9,
+   "pct_away": -1.73,
    "good_until": "2026-09-11",
    "why": "Congress signal is top-ranked in signal_ranking_best_to_worst; cooldown clears in 9 min, resting limit ready",
    "signals": [
@@ -436,30 +402,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.9,
-   "pct_away": -1.91,
+   "last": 150.02,
+   "pct_away": -1.99,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.85% under $148.29 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "fa3a684f",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.634,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 152.34,
-   "pct_away": -3.09,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -2194,9 +2143,9 @@
     "when": "2026-09-10T19:29"
    },
    {
-    "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Analog Devices Retakes Key Level (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-11T17:05"
+    "title": "\u2018Apple and Microsoft Look Like Value Stocks\u2019: Morningstar on SanDisk\u2019s 2,107% Year",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T17:17"
    }
   ],
   "AEP": [
@@ -2240,14 +2189,14 @@
     "when": "2026-09-10T20:37"
    },
    {
+    "title": "Oracle Margin Pressure, Modest Guidance Raise Leave Morgan Stanley Needing More Visibility",
+    "source": "MT Newswires",
+    "when": "2026-09-11T17:16"
+   },
+   {
     "title": "Prediction: This Could Be an Unexpected AI Winner Through 2030",
     "source": "24/7 Wall St.",
     "when": "2026-09-11T16:30"
-   },
-   {
-    "title": "My Agentic AI Capital Is Going One Place Over and Over",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-11T16:00"
    }
   ],
   "ANIX": [
@@ -2677,9 +2626,9 @@
     "when": "2026-09-10T20:57"
    },
    {
-    "title": "Sam Altman Weighs AI Slowdown as Bridgewater Co-CIO Warns AI Will Kill People Before Anyone Acts",
-    "source": "Benzinga Prediction Markets",
-    "when": "2026-09-11T16:32"
+    "title": "Microsoft Plans Data Center Push to Triple Its Computing Power",
+    "source": "Bloomberg",
+    "when": "2026-09-11T16:49"
    }
   ],
   "NEM": [
@@ -2745,9 +2694,9 @@
     "when": "2026-09-11T11:59"
    },
    {
-    "title": "Marvell Rises 5% as Piper Sandler Starts Coverage With $270 Target; Broadcom Edges Higher, NVIDIA Holds Steady",
+    "title": "\u2018Apple and Microsoft Look Like Value Stocks\u2019: Morningstar on SanDisk\u2019s 2,107% Year",
     "source": "24/7 Wall St.",
-    "when": "2026-09-11T16:54"
+    "when": "2026-09-11T17:17"
    }
   ],
   "O": [
@@ -2888,6 +2837,11 @@
   ],
   "SPY": [
    {
+    "title": "AMC Gains 5% on Tokenization Truce Signal, Robinhood Barely Budges; Cinemark Treads Water",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T17:13"
+   },
+   {
     "title": "TeraWulf Rallies 7% as Miner Selloff Reverses; Applied Digital Gains 4%, IREN Sits Out the Rally",
     "source": "24/7 Wall St.",
     "when": "2026-09-11T16:50"
@@ -2896,11 +2850,6 @@
     "title": "Moderna Rallies 8% on 2026 Melt-Up Momentum Even While BioNTech and Merck Stay Flat",
     "source": "24/7 Wall St.",
     "when": "2026-09-11T15:56"
-   },
-   {
-    "title": "Bloom Energy Climbs 7% as Fuel Cell Bid Spreads Beyond Its S&P 500 Add, FuelCell Energy Rises 4%, Plug Power Inches Higher",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-11T15:49"
    }
   ],
   "TPL": [
@@ -2922,6 +2871,11 @@
   ],
   "TSM": [
    {
+    "title": "\u2018Apple and Microsoft Look Like Value Stocks\u2019: Morningstar on SanDisk\u2019s 2,107% Year",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-11T17:17"
+   },
+   {
     "title": "AMD Expands Into Rack-Scale AI as Agentic Workloads Boost CPU Demand",
     "source": "MarketBeat",
     "when": "2026-09-11T17:02"
@@ -2930,11 +2884,6 @@
     "title": "Tech, Media & Telecom Roundup: Market Talk",
     "source": "The Wall Street Journal",
     "when": "2026-09-11T16:26"
-   },
-   {
-    "title": "Fed Rate Hike Close To A Lock; Clarity Act Vote Looms: Week Ahead",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-11T15:39"
    }
   ],
   "UNH": [
@@ -2973,5 +2922,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-11T13:18-04:00"
+ "signalsAsOf": "2026-09-11T13:22-04:00"
 }
