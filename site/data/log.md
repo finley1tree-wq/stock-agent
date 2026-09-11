@@ -1,6 +1,3 @@
-- SELL 100% AMAT [time stop] -> $48.95 (-2.11%) — held 2880 min, the 30-minute limit: out regardless
-- SELL 100% SPY [time stop] -> $29.59 (-1.37%) — held 2880 min, the 30-minute limit: out regardless
-- SELL 100% AMD [time stop] -> $3.11 (-0.50%) — held 2880 min, the 30-minute limit: out regardless
 - SELL 100% GOOGN [time stop] -> $19.76 (-1.21%) — held 2880 min, the 30-minute limit: out regardless
 brain: CCJ, NLR, INTC all bought minutes ago (8 min held) and already sit at day lows (pct_of_day_range near 0-48%) on a broad red macro day (oil above $100, yields up, IBM/AMD/NVDA all down). All three positions already have stop_loss/trailing_stop, scale-in buy_limits, and take_profit brackets working. No new concrete evidence (filing/headline) justifies fresh deployment into more weakness, and track record shows nuclear sector trades this week averaging -3.07%. Consistent with the last 8 checks' lessons: hold and let standing orders work rather than force entries.
 lesson: With positions bought minutes ago and already bracketed on a red macro day, avoid adding more capital just because budget remains - wait for genuinely new evidence before the next trade.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $20000.00 this week
 ## 2026-09-11 12:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $1000.00 INTC [buy_limit @ $102.37] — strong month, weak day: resting 0.92% under $103.32 to catch the dip
 ## 2026-09-11 12:30 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 1 standing order(s) on INTC: position closed)
+- SELL 100% INTC [stop_loss @ $102.70] -> $1003.28 (+0.33%) — close it all at -1.2% under the average cost
+## 2026-09-11 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

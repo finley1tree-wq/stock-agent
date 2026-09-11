@@ -1,6 +1,6 @@
 {
   "week": "2026-W37",
-  "spent": 8000.0,
+  "spent": 6996.72,
   "by_ticker": {
     "AMAT": 1.05,
     "SPY": 3500.41,
@@ -13,8 +13,7 @@
     "KMT": 2.18,
     "TSM": 0.74,
     "AAPL": 2000.0,
-    "GOOGL": 1500.0,
-    "INTC": 1000.0
+    "GOOGL": 1500.0
   },
   "orders": [
     {
@@ -1236,12 +1235,33 @@
       ],
       "evidence": "+2.4% over the month, sitting at 59% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "INTC",
+      "side": "sell",
+      "qty": 9.768764,
+      "status": "filled",
+      "price": 102.7,
+      "proceeds": 1003.28,
+      "realized_pnl": 3.28,
+      "realized_pct": 0.33,
+      "date": "2026-09-11",
+      "time_et": "12:35",
+      "ts": 1789144500,
+      "why": "close it all at -1.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $102.37",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 8000.0,
+  "spent_today": 6996.72,
   "orders_today": 24,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "INTC",
     "GOOGL",
@@ -1259,12 +1279,12 @@
     "KMT",
     "NEM"
   ],
-  "last_check_ts": 1789144345,
+  "last_check_ts": 1789144562,
   "book_fp": "[[\"23b20e4c\", 19.0529], [\"532b86e9\", 171.2706], [\"592ebc87\", 765.1235], [\"5974033c\", 143.778], [\"66618da4\", 646.7737], [\"b66024ed\", 102.3671], [\"b84d5c3e\", 147.0339], [\"ba4576bb\", 310.432], [\"c1f95086\", 365.2996], [\"e35c7e23\", 152.1995], [\"f3b06472\", 338.7473]]",
-  "last_publish_ts": 1789144221,
+  "last_publish_ts": 1789144501,
   "last_decision_ts": 1789143880,
   "sold_ts": {
-    "INTC": 1789134010,
+    "INTC": 1789144502,
     "GOOGL": 1789134349,
     "CCJ": 1789141240,
     "AMD": 1789141240,
@@ -1300,23 +1320,22 @@
     "SPY": 3500.0
   },
   "deployed_today": 40500.0,
-  "last_bar_ts": 1789144200,
+  "last_bar_ts": 1789144500,
   "book_px": {
-    "888a1139": 102.532,
     "22e73260": 766.6382,
     "e35c7e23": 152.1995,
     "66618da4": 646.7737,
     "f3b06472": 338.7473,
-    "ea7d6938": 125.4277,
     "9801e338": 760.0,
     "23b20e4c": 19.0529,
+    "ea7d6938": 125.4277,
     "d375c5a7": 429.0,
     "5974033c": 143.778,
-    "5ba8a2de": 330.5,
-    "c77ba476": 272.247,
-    "b84d5c3e": 147.0339,
     "c1f95086": 365.2996,
+    "5ba8a2de": 330.5,
+    "b84d5c3e": 147.0339,
     "6a60a8a6": 236.0,
+    "c77ba476": 272.247,
     "a3d09bd3": 216.0,
     "7d6b8f4e": 505.0,
     "f1d5f3df": 334.0,
@@ -1324,9 +1343,8 @@
     "12e97950": 330.5275,
     "aa7eef34": 742.5253,
     "2ae07efe": 324.1643,
-    "11b235f3": 99.2989,
-    "ba4576bb": 310.432,
-    "532b86e9": 171.2706
+    "532b86e9": 171.2706,
+    "ba4576bb": 310.432
   },
   "next_check_minutes": 15
 }

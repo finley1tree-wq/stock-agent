@@ -695,3 +695,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $20000.00 this week
 ## 2026-09-11 12:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $1000.00 INTC [buy_limit @ $102.37] — strong month, weak day: resting 0.92% under $103.32 to catch the dip
 ## 2026-09-11 12:30 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 1 standing order(s) on INTC: position closed)
+- SELL 100% INTC [stop_loss @ $102.70] -> $1003.28 (+0.33%) — close it all at -1.2% under the average cost
+## 2026-09-11 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
