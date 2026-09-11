@@ -1429,3 +1429,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25152.52 (+0.61% on $25000.00 in) · cash $22154.39 · realised +154.39
 Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% MSFT [time stop] -> $2998.08 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-11 15:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
