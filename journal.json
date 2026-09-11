@@ -133,8 +133,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 2.32,
-    "ret_final": 2.32,
+    "ret_now": 1.39,
+    "ret_final": 1.39,
     "ret_src": "realised"
   },
   {
@@ -556,7 +556,9 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.85
+    "ret_now": 1.37,
+    "ret_final": 1.37,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -750,7 +752,9 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": -0.24,
+    "ret_final": -0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -774,7 +778,10 @@
     "momentum_1m_at_entry": 1.58,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.29,
+    "ret_now": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -798,7 +805,10 @@
     "momentum_1m_at_entry": 10.0,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.26,
+    "ret_now": 0.26,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -822,7 +832,10 @@
     "momentum_1m_at_entry": 0.04,
     "hour_et": 10,
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.25,
+    "ret_now": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMD",
@@ -845,7 +858,8 @@
     ],
     "evidence": "bought 30 min ago, +1.39% unrealised",
     "trigger": "time_stop",
-    "hour_et": 10
+    "hour_et": 10,
+    "hold_minutes": 31
   },
   {
     "symbol": "IBM",
@@ -869,7 +883,8 @@
     ],
     "evidence": "average cost $239.76",
     "trigger": "take_profit",
-    "hour_et": 10
+    "hour_et": 10,
+    "hold_minutes": 0
   },
   {
     "symbol": "TSM",
@@ -893,7 +908,8 @@
     ],
     "evidence": "average cost $429.41",
     "trigger": "take_profit",
-    "hour_et": 10
+    "hour_et": 10,
+    "hold_minutes": 10
   },
   {
     "symbol": "META",
@@ -918,7 +934,8 @@
     ],
     "evidence": "bought 30 min ago, -0.22% unrealised",
     "trigger": "time_stop",
-    "hour_et": 10
+    "hour_et": 10,
+    "hold_minutes": 32
   },
   {
     "symbol": "AAPL",
@@ -942,7 +959,8 @@
     ],
     "evidence": "average cost $332.53",
     "trigger": "take_profit",
-    "hour_et": 10
+    "hour_et": 10,
+    "hold_minutes": 15
   },
   {
     "symbol": "NVDA",
@@ -967,6 +985,128 @@
     "sector": "widely_held",
     "congress_buying": false,
     "momentum_1m_at_entry": -1.69,
+    "hour_et": 10,
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.32
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.114291,
+    "price": 364.58,
+    "date": "2026-09-11",
+    "time_et": "10:37",
+    "ts": 1789137458,
+    "why": "widely_held sector has 1.0 hit rate in track record; congress signal ranks best-to-worst #1 with avg_ret 0.89%",
+    "signals": [
+      "congress",
+      "momentum",
+      "news"
+    ],
+    "evidence": "David J. Taylor (Rep) filed AVGO buy disclosed 2026-09-05; AVGO +1.02% today, +2.06% 5d, congress_net_buy_pressure=2.0",
+    "entry_price": 364.51,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -12.39,
+    "hour_et": 10,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMZN",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.876337,
+    "price": 255.26,
+    "date": "2026-09-11",
+    "time_et": "10:37",
+    "ts": 1789137458,
+    "why": "reasonable entry point (not chasing), widely_held sector strong track record",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Motley Fool headline 'Forget the Capex Fears: Why Alphabet and Amazon Are Must-Buys' 2026-09-11; AMZN +1.32% today, mid-range at 54.9% pct_of_day_range",
+    "entry_price": 255.21,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -4.52,
+    "hour_et": 10,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.029085,
+    "price": 495.2,
+    "date": "2026-09-11",
+    "time_et": "10:37",
+    "ts": 1789137458,
+    "why": "low in day range gives room to run, widely_held sector best performing bucket",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "24/7 Wall St 'Expect Microsoft to Be Anything But Slow For The Rest of September' 2026-09-11; MSFT only 31.6% of day range, +0.54% today",
+    "entry_price": 495.1,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.54,
+    "hour_et": 10,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KMT",
+    "notional": 1250.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 42.079126,
+    "price": 29.71,
+    "date": "2026-09-11",
+    "time_et": "10:37",
+    "ts": 1789137458,
+    "why": "fresh insider buy from CEO is a concrete positive signal, price +1.96% today",
+    "signals": [
+      "insider",
+      "news"
+    ],
+    "evidence": "CEO Sanjay Chowbey bought 7000 shares at $29.10 on 2026-09-10 (filed 2026-09-11); insider_net_buy_pressure=1.0",
+    "entry_price": 29.7,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -3.51,
+    "hour_et": 10,
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HD",
+    "notional": 1250.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.054602,
+    "price": 308.29,
+    "date": "2026-09-11",
+    "time_et": "10:37",
+    "ts": 1789137458,
+    "why": "low in range entry, widely_held sector, diversifies away from tech concentration",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "HD only 10% of day range at $308.23, +0.83% today; headline 'Home Depot tries to copy major Costco perk'",
+    "entry_price": 308.23,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.25,
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null

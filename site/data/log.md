@@ -1,37 +1,5 @@
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-
-## 2026-09-10 13:30 ET (Thursday) — week 2026-W37 — budget left $24793.05 (today $0.00, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ATLO excluded: too thinly traded (56,146/day) — Ames National Corporation)
-  (CSBB excluded: too thinly traded (667/day) — CSB Bancorp, Inc.)
-  (FUSB excluded: too thinly traded (14,817/day) — First US Bancshares, Inc.)
-  (GF excluded: too thinly traded (27,217/day) — The New Germany Fund, Inc.)
-  (GIPL excluded: too thinly traded (366/day) — Global Innovative Platforms Inc.)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (holding GOOGN would not be bought today: not ordinary shares (depositary))
 brain: Another red/choppy day (AMAT -2.4%, CCJ -2.1%, INTC -4.6%, NLR -3.4%, most names in the bottom half of their day range). Book is small, fully bracketed with stops, take-profits, and scale-in buy_limits already working across every position. No new concrete evidence (filing, headline, or momentum signal) justifies fresh deployment right now, and the signal_evidence data shows no 1-day edge exists on this watchlist. Consistent with the last 8+ checks' lessons, holding and letting standing orders work is correct.
 lesson: Continuing pattern: on red/choppy macro days with a small fully-bracketed book and no fresh concrete evidence, hold and trust standing orders rather than forcing entries just because budget remains.
@@ -398,3 +366,35 @@ Done: 0 sell(s), 3 buy(s); 20 order(s) working; budget left $15299.05 this week
 ## 2026-09-11 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1500.00 NVDA [buy_limit @ $220.61] — wanted it, but not at the high — resting at $220.61. AI infrastructure momentum strong across AMD/TSM/NVDA per headlines; small size given high range position
 ## 2026-09-11 10:33 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-11 10:37 ET (Friday) — week 2026-W37 — budget left $23500.00 (today $18500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
+  (CYBN excluded: no security information)
+  (JANL excluded: too thinly traded (77/day) — Janel Corporation)
+  (MSB excluded: too thinly traded (38,896/day) — Mesabi Trust)
+  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
+brain: Only 1 position held vs min_positions=5; widely_held sector has the best track record (1.0 hit rate, +0.26% avg) and congress signal ranks #1 in signal_ranking. Adding AVGO (concrete congress filing), AMZN/MSFT (news catalysts, low-to-mid day range so not chasing), KMT (fresh CEO insider buy), and HD (low in range) diversifies across widely_held + industrial names without concentrating further in semis where NVDA already sits.
+lesson: Reaching min_positions with widely_held names backed by concrete congress/insider/news evidence, entered when not high in day range, aligns with the best-performing sector/signal buckets in track_record.
+- BUY $1500.00 AVGO [filled] ['congress', 'news', 'momentum'] — widely_held sector has 1.0 hit rate in track record; congress signal ranks best-to-worst #1 with avg_ret 0.89% | evidence: David J. Taylor (Rep) filed AVGO buy disclosed 2026-09-05; AVGO +1.02% today, +2.06% 5d, congress_net_buy_pressure=2.0
+- BUY $1500.00 AMZN [filled] ['news', 'momentum'] — reasonable entry point (not chasing), widely_held sector strong track record | evidence: Motley Fool headline 'Forget the Capex Fears: Why Alphabet and Amazon Are Must-Buys' 2026-09-11; AMZN +1.32% today, mid-range at 54.9% pct_of_day_range
+- BUY $1500.00 MSFT [filled] ['news', 'momentum'] — low in day range gives room to run, widely_held sector best performing bucket | evidence: 24/7 Wall St 'Expect Microsoft to Be Anything But Slow For The Rest of September' 2026-09-11; MSFT only 31.6% of day range, +0.54% today
+- BUY $1250.00 KMT [filled] ['insider', 'news'] — fresh insider buy from CEO is a concrete positive signal, price +1.96% today | evidence: CEO Sanjay Chowbey bought 7000 shares at $29.10 on 2026-09-10 (filed 2026-09-11); insider_net_buy_pressure=1.0
+- BUY $1250.00 HD [filled] ['news', 'momentum'] — low in range entry, widely_held sector, diversifies away from tech concentration | evidence: HD only 10% of day range at $308.23, +0.83% today; headline 'Home Depot tries to copy major Costco perk'
+~ WORKING stop_loss 100% AVGO @ $357.00 until 2026-09-11 — protect against downside within max_hold_minutes window
+~ WORKING take_profit 50% AVGO @ $372.00 until 2026-09-11 — lock in gains on partial position
+~ WORKING stop_loss 100% AMZN @ $249.50 until 2026-09-11 — protective stop within hold window
+~ WORKING stop_loss 100% MSFT @ $484.00 until 2026-09-11 — protective stop within hold window
+~ WORKING stop_loss 100% KMT @ $28.90 until 2026-09-11 — protective stop within hold window
+~ WORKING stop_loss 100% HD @ $301.50 until 2026-09-11 — protective stop within hold window
+~ WORKING take_profit 100% AVGO @ $365.73 until 2026-09-16 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $353.64 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $255.88 until 2026-09-16 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $247.60 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $496.31 until 2026-09-16 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $480.34 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KMT @ $29.82 until 2026-09-16 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 KMT @ $28.82 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $308.94 until 2026-09-16 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $299.04 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 INTC @ $102.37 until 2026-09-12 — strong month, weak day: resting 0.92% under $103.32 to catch the dip
+portfolio: equity $25035.15 (+0.14% on $25000.00 in) · cash $16541.37 · realised +41.37
+Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $16500.00 this week

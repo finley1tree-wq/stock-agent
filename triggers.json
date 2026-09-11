@@ -2077,7 +2077,290 @@
    ],
    "good_until": "2026-09-16",
    "usd": 500.0
+  },
+  {
+   "id": "3994f240",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 357.0,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "protect against downside within max_hold_minutes window",
+   "evidence": "AVGO current price 364.51, ATR 2.85%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "48c51626",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 372.0,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "lock in gains on partial position",
+   "evidence": "AVGO +1.02% today already",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "b2629619",
+   "ticker": "AMZN",
+   "kind": "stop_loss",
+   "price": 249.5,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "protective stop within hold window",
+   "evidence": "AMZN ATR 2.187%, price 255.21",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "aa371247",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 484.0,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "protective stop within hold window",
+   "evidence": "MSFT ATR 2.031%, price 495.10",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "50850904",
+   "ticker": "KMT",
+   "kind": "stop_loss",
+   "price": 28.9,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "protective stop within hold window",
+   "evidence": "KMT ATR 3.411%, price 29.70",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dbfa2b3b",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 301.5,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "protective stop within hold window",
+   "evidence": "HD ATR 1.889%, price 308.23",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7f85353e",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 365.7321,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $364.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b7ceacb1",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 353.6426,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $364.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "2d69387b",
+   "ticker": "AMZN",
+   "kind": "take_profit",
+   "price": 255.8803,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $255.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "10dab02f",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 247.6022,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $255.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "e885f49c",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 496.3142,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $495.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0eb30ba6",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 480.344,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $495.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "16dacdd9",
+   "ticker": "KMT",
+   "kind": "take_profit",
+   "price": 29.8223,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $29.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "19f04880",
+   "ticker": "KMT",
+   "kind": "buy_limit",
+   "price": 28.8187,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $29.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "1ca53a66",
+   "ticker": "HD",
+   "kind": "take_profit",
+   "price": 308.9374,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $308.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f9f4805d",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 299.0413,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $308.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-16",
+   "usd": 500.0
+  },
+  {
+   "id": "b66024ed",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 102.3671,
+   "status": "working",
+   "created": "2026-09-11 10:37",
+   "created_ts": 1789137458,
+   "why": "strong month, weak day: resting 0.92% under $103.32 to catch the dip",
+   "evidence": "+2.4% over the month, sitting at 59% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-12",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-11 10:33"
+ "updated": "2026-09-11 10:37"
 }
