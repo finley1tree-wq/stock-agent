@@ -1,8 +1,3 @@
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
-  (dropped NLR: below min order after caps ($25.00))
-  (dropped INTC: below min order after caps ($25.00))
-  (dropped CCJ: below min order after caps ($25.00))
   (dropped NLR: below min order after caps ($25.00))
   (dropped INTC: below min order after caps ($25.00))
   (dropped CCJ: below min order after caps ($25.00))
@@ -398,3 +393,8 @@ portfolio: equity $24970.24 (-0.12% on $25000.00 in) · cash $20171.20 · realis
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $20171.21 this week
 - BUY $2500.00 INTC [buy_limit @ $102.21] — wanted it, but not at the high — resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst
 ## 2026-09-11 09:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on INTC: position closed)
+- SELL 100% INTC [take_profit @ $102.71] -> $2512.13 (+0.49%) — close 100% at +0.5% over the average cost
+## 2026-09-11 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2500.00 GOOGL [buy_limit @ $337.33] — wanted it, but not at the high — resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind
+## 2026-09-11 09:42 ET — tick — 0 sell(s), 1 buy(s) from standing orders

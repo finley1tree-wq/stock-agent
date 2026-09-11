@@ -1,14 +1,14 @@
 {
   "week": "2026-W37",
-  "spent": 7328.79,
+  "spent": 7316.66,
   "by_ticker": {
     "AMAT": 1.05,
     "CCJ": 2310.05,
     "SPY": 0.41,
     "NLR": 13.19,
-    "INTC": 2505.01,
     "GOOGN": 0.24,
-    "AMD": 2500.0
+    "AMD": 2500.0,
+    "GOOGL": 2500.0
   },
   "orders": [
     {
@@ -467,24 +467,70 @@
       ],
       "evidence": "INTC +2.59% today, +12.27% 5d, at 89.3% of day range; Pelosi disclosed $250k-1M buy 2026-08-21; headline 'Intel May Raise Chip Prices 10% and Stock Took Off'",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "INTC",
+      "side": "sell",
+      "qty": 24.458728,
+      "status": "filled",
+      "price": 102.71,
+      "proceeds": 2512.13,
+      "realized_pnl": 12.13,
+      "realized_pct": 0.49,
+      "date": "2026-09-11",
+      "time_et": "09:40",
+      "ts": 1789134000,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $102.21",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.411057,
+      "price": 337.33,
+      "date": "2026-09-11",
+      "time_et": "09:42",
+      "ts": 1789134000,
+      "why": "wanted it, but not at the high \u2014 resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "GOOGL +1.88% today, 91.6% of day range, headline 'What a Republican wipeout means for investors' driving broad tech rally",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-11",
-  "spent_today": 7300.0,
-  "orders_today": 3,
-  "sells_today": 0,
-  "sold_today": [],
-  "last_check_ts": 1789133911,
-  "book_fp": "[[\"23b20e4c\", 19.0529], [\"4b94ca56\", 102.7088], [\"4d652d52\", 654.1035], [\"4deb2cfd\", 97.4654], [\"532b86e9\", 171.2706], [\"603e93b6\", 94.1385], [\"74e0024c\", 428.3086], [\"7f118afb\", 99.1437], [\"a89ad0f5\", 492.8], [\"ae326f8d\", 100.962], [\"bcf90a5c\", 93.5], [\"ea86605c\", 337.3338], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
-  "last_publish_ts": 1789133789,
+  "spent_today": 7287.87,
+  "orders_today": 4,
+  "sells_today": 1,
+  "sold_today": [
+    "INTC"
+  ],
+  "last_check_ts": 1789134130,
+  "book_fp": "[[\"23b20e4c\", 19.0529], [\"34dcfd40\", 335.3431], [\"4d652d52\", 654.1035], [\"4deb2cfd\", 97.4654], [\"532b86e9\", 171.2706], [\"603e93b6\", 94.1385], [\"74e0024c\", 428.3086], [\"a7c2e737\", 338.1227], [\"a89ad0f5\", 492.8], [\"bc2e632d\", 327.2101], [\"bcf90a5c\", 93.5], [\"ee434769\", 126.5984], [\"ff36ccba\", 490.3835]]",
+  "last_publish_ts": 1789134130,
   "last_decision_ts": 1789133608,
-  "sold_ts": {},
-  "deployed": 7300.0,
+  "sold_ts": {
+    "INTC": 1789134010
+  },
+  "deployed": 9800.0,
   "deployed_by_ticker": {
     "AMD": 2500.0,
     "CCJ": 2300.0,
-    "INTC": 2500.0
+    "INTC": 2500.0,
+    "GOOGL": 2500.0
   },
-  "deployed_today": 7300.0,
-  "last_bar_ts": 1789133700
+  "deployed_today": 9800.0,
+  "last_bar_ts": 1789134000
 }

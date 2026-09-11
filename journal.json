@@ -608,5 +608,58 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "INTC",
+    "side": "sell",
+    "qty": 24.458728,
+    "status": "filled",
+    "price": 102.71,
+    "proceeds": 2512.13,
+    "realized_pnl": 12.13,
+    "realized_pct": 0.49,
+    "date": "2026-09-11",
+    "time_et": "09:40",
+    "ts": 1789134000,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "news",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $102.21",
+    "trigger": "take_profit",
+    "hour_et": 9
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.411057,
+    "price": 337.33,
+    "date": "2026-09-11",
+    "time_et": "09:42",
+    "ts": 1789134000,
+    "why": "wanted it, but not at the high \u2014 resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind",
+    "signals": [
+      "momentum",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "GOOGL +1.88% today, 91.6% of day range, headline 'What a Republican wipeout means for investors' driving broad tech rally",
+    "trigger": "buy_limit",
+    "entry_price": 337.3338,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -1.78,
+    "hour_et": 9,
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

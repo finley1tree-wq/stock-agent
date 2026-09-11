@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-11T09:36-04:00",
+ "asOf": "2026-09-11T09:42-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -133,37 +133,37 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "ae326f8d",
-   "ticker": "INTC",
-   "kind": "stop_loss",
-   "price": 100.962,
+   "id": "4deb2cfd",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 97.4654,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 101.2,
-   "pct_away": -0.24,
+   "last": 97.28,
+   "pct_away": 0.19,
    "good_until": "2026-09-16",
-   "why": "close it all at -1.2% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "74e0024c",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 428.3086,
-   "usd": 1000.0,
-   "pct_of_position": null,
+   "id": "a7c2e737",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 338.1227,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 430.08,
-   "pct_away": -0.41,
-   "good_until": "2026-09-12",
-   "why": "strong month, weak day: resting 0.47% under $430.31 to catch the dip",
+   "last": 337.43,
+   "pct_away": 0.21,
+   "good_until": "2026-09-16",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
-    "momentum",
-    "dip_entry"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -184,6 +184,23 @@
    ]
   },
   {
+   "id": "34dcfd40",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 335.3431,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 337.43,
+   "pct_away": -0.62,
+   "good_until": "2026-09-16",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "4d652d52",
    "ticker": "META",
    "kind": "buy_limit",
@@ -191,8 +208,8 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 658.03,
-   "pct_away": -0.6,
+   "last": 659.61,
+   "pct_away": -0.83,
    "good_until": "2026-09-11",
    "why": "wanted it, but not at the high \u2014 resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap",
    "signals": [
@@ -202,38 +219,20 @@
    ]
   },
   {
-   "id": "4deb2cfd",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 97.4654,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 96.84,
-   "pct_away": 0.65,
-   "good_until": "2026-09-16",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ea86605c",
-   "ticker": "GOOGL",
+   "id": "74e0024c",
+   "ticker": "TSM",
    "kind": "buy_limit",
-   "price": 337.3338,
-   "usd": 2500.0,
+   "price": 428.3086,
+   "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 339.6,
-   "pct_away": -0.67,
-   "good_until": "2026-09-11",
-   "why": "wanted it, but not at the high \u2014 resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind",
+   "last": 433.43,
+   "pct_away": -1.18,
+   "good_until": "2026-09-12",
+   "why": "strong month, weak day: resting 0.47% under $430.31 to catch the dip",
    "signals": [
     "momentum",
-    "news",
-    "patience"
+    "dip_entry"
    ]
   },
   {
@@ -244,8 +243,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 173.06,
-   "pct_away": -1.03,
+   "last": 174.25,
+   "pct_away": -1.71,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
    "signals": [
@@ -261,8 +260,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.36,
-   "pct_away": -1.37,
+   "last": 128.91,
+   "pct_away": -1.79,
    "good_until": "2026-09-12",
    "why": "strong month, weak day: resting 0.68% under $127.47 to catch the dip",
    "signals": [
@@ -271,65 +270,15 @@
    ]
   },
   {
-   "id": "4b94ca56",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 102.7088,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 101.2,
-   "pct_away": 1.49,
-   "good_until": "2026-09-16",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a89ad0f5",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 492.8,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 502.27,
-   "pct_away": -1.89,
-   "good_until": "2026-09-11",
-   "why": "Protect against reversal",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "7f118afb",
-   "ticker": "INTC",
+   "id": "bc2e632d",
+   "ticker": "GOOGL",
    "kind": "buy_limit",
-   "price": 99.1437,
+   "price": 327.2101,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.2,
-   "pct_away": -2.03,
-   "good_until": "2026-09-16",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ff36ccba",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 490.3835,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 502.27,
-   "pct_away": -2.37,
+   "last": 337.43,
+   "pct_away": -3.03,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -345,13 +294,29 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 96.84,
-   "pct_away": -2.79,
+   "last": 97.28,
+   "pct_away": -3.23,
    "good_until": "2026-09-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "a89ad0f5",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 492.8,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 511.4,
+   "pct_away": -3.64,
+   "good_until": "2026-09-11",
+   "why": "Protect against reversal",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -362,12 +327,29 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 96.84,
-   "pct_away": -3.45,
+   "last": 97.28,
+   "pct_away": -3.89,
    "good_until": "2026-09-11",
    "why": "Protect against reversal",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "ff36ccba",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 490.3835,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 511.4,
+   "pct_away": -4.11,
+   "good_until": "2026-09-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   }
  ],
