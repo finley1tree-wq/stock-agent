@@ -537,7 +537,12 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
     return filled_buys, filled_sells, did
 
 
-PUBLISH_EVERY_S = 900          # refresh the site at least this often even when nothing happens
+# Every publish is a commit and every commit is a Vercel deploy, and the Hobby plan allows 100 a
+# day. On 2026-09-11 that ceiling was reached with an hour of trading left: 91 deploys by 14:40,
+# after which new code simply stops reaching the site while the data files (no-cache) keep
+# updating - so the dashboard silently runs old JavaScript. The freshness refresh is the part that
+# can afford to be slower; a real fill still publishes immediately.
+PUBLISH_EVERY_S = 1800         # refresh a quiet site at most twice an hour
 BAR_S = 300                    # prices.intraday's bar length; the replay watermark lands on bar starts
 
 def tick(force: bool = False, loops: int = 1, interval: int = 60) -> None:
@@ -636,13 +641,14 @@ def _tick_once(force: bool = False) -> None:
     # something new to see: a fill, a change in the working book, or a periodic freshness refresh.
     book = triggers.summary(px, now)
     # Publish when the BOOK changes, not when a ratcheting stop creeps a cent. Orders appearing or
-    # disappearing is news; a level drifting 0.1% is not, and at one publish per Vercel deploy a
-    # per-tick re-pin would exhaust the daily quota by lunchtime. Anything smaller is still
-    # committed and reaches the site on the 15-minute freshness publish.
+    # disappearing is news; a level drifting is not, and at one publish per Vercel deploy a
+    # per-tick re-pin exhausts the daily quota before the close. Anything smaller is still
+    # committed and reaches the site on the freshness publish.
     now_px = {o["id"]: float(o.get("price") or 0) for o in book}
     prev_px = st.get("book_px") or {}
-    moved = set(now_px) != set(prev_px) or any(
-        abs(v - float(prev_px.get(k) or 0)) > max(0.01, v * 0.003) for k, v in now_px.items())
+    # Only the SET of orders counts as news. A price that moved is what the ratchet does on every
+    # single tick, and treating that as news was the largest single consumer of the deploy budget.
+    moved = set(now_px) != set(prev_px)
     stale = (int(now.timestamp()) - int(st.get("last_publish_ts", 0) or 0)) > PUBLISH_EVERY_S
     if did or moved or stale:
         st["book_px"] = now_px
