@@ -566,6 +566,21 @@ def tick(force: bool = False, loops: int = 1, interval: int = 60) -> None:
         except Exception as e:
             log(f"tick error: {redact(e)}")
 
+def _last_close_ts(now) -> int:
+    """When the most recent session ended, as a timestamp.
+
+    Used to answer "has anything been published since the market shut?" - if not, the site is
+    still showing mid-session state and needs one final refresh.
+    """
+    d = now.date()
+    for _ in range(10):
+        if is_trading_day(d):
+            close_dt = datetime.combine(d, close_time(d), ET)
+            if close_dt <= now:
+                return int(close_dt.timestamp())
+        d -= timedelta(days=1)
+    return 0
+
 def _tick_once(force: bool = False) -> None:
     """One pass: quotes, fire anything that reached its level, publish if it matters."""
     cfg = config.load_config()
@@ -579,10 +594,26 @@ def _tick_once(force: bool = False) -> None:
     now = datetime.now(ET)
     today = now.date()
     if not force:
-        if not is_trading_day(today):
-            return
-        is_open = broker.market_open() if (getattr(broker, "client", None) or getattr(broker, "name", "") == "sim") else market_open_fallback(now)
+        # The market being shut is not a reason to leave the dashboard showing a position that was
+        # closed hours ago. On 2026-09-11 the last publish landed at 15:53, a minute BEFORE the
+        # end-of-session flatten sold MSFT - so all weekend the site showed a holding that did not
+        # exist and cash $2,998 short, because a closed market meant no publish, no commit, and so
+        # nothing for Vercel to deploy. One publish per close fixes that and costs one deploy.
+        is_open = (is_trading_day(today)
+                   and (broker.market_open() if (getattr(broker, "client", None) or getattr(broker, "name", "") == "sim")
+                        else market_open_fallback(now)))
         if not is_open:
+            st = state.load()
+            last_pub = int(st.get("last_publish_ts", 0) or 0)
+            if last_pub < _last_close_ts(now):
+                st["last_publish_ts"] = int(now.timestamp())
+                st["last_check_ts"] = int(now.timestamp())
+                state.save(st)
+                if hasattr(broker, "set_prices"):
+                    broker.set_prices(prices.snapshot(sorted(broker.held_tickers() or [])) if broker.held_tickers() else {})
+                pub.publish(cfg, None, "market closed - final state for the session",
+                            working_orders=triggers.summary({}, now))
+                log(f"## {today} {now.strftime('%H:%M')} ET — published the session's closing state")
             return
     live = [o for o in triggers.all_orders() if o.get("status") == "working"]
     held = broker.held_tickers() if hasattr(broker, "held_tickers") else []
