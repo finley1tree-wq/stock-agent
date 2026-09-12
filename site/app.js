@@ -20,11 +20,24 @@
   async function getJSON(url, fallback) { try { const r = await fetch(url, { cache: "no-store" }); if (!r.ok) return fallback; return await r.json(); } catch (e) { return fallback; } }
   async function getText(url) { try { const r = await fetch(url, { cache: "no-store" }); return r.ok ? await r.text() : ""; } catch (e) { return ""; } }
 
+  // Data comes from /api/data, which reads it out of the repository at request time, NOT from the
+  // files baked into the build. That is what decouples the dashboard from Vercel deploys: the
+  // agent can commit a hundred times a day and the site stays current without a single rebuild.
+  // The static copies under /data are kept as a fallback for the case where the function itself
+  // is unavailable - stale data beats a blank page.
   async function loadData() {
+    const live = await getJSON("/api/data", null);
+    if (live && live.portfolio) {
+      state.data = { portfolio: live.portfolio || {}, st: live.st || {}, journal: live.journal || [],
+                     signals: live.signals || {}, lessons: live.lessons || "", log: live.log || "" };
+      state.dataSource = "live";
+      return;
+    }
     const [portfolio, st, journal, signals, lessons, log] = await Promise.all([
       getJSON("/data/portfolio.json", {}), getJSON("/data/state.json", {}), getJSON("/data/journal.json", []),
       getJSON("/data/signals.json", {}), getText("/data/lessons.md"), getText("/data/log.md")]);
     state.data = { portfolio, st, journal, signals, lessons, log };
+    state.dataSource = "build";      // the deployed snapshot; may lag if deploys are throttled
   }
 
   function allSymbols() {

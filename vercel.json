@@ -5,7 +5,28 @@
   "outputDirectory": "site",
   "cleanUrls": true,
   "headers": [
-    { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-cache, max-age=0" }] },
-    { "source": "/(.*)", "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }, { "key": "Referrer-Policy", "value": "no-referrer" }] }
-  ]
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        }
+      ]
+    }
+  ],
+  "ignoreCommand": "test -n \"$(git diff --name-only HEAD^ HEAD 2>/dev/null | grep -vE '^(portfolio|state|journal|decisions|triggers|traders|replay|instruments)\\.json$|^(log|lessons|portfolio)\\.md$|^site/data/|^PAUSE$')\" && exit 1 || exit 0"
 }
