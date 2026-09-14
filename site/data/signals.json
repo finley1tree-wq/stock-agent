@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T14:10-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,972 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-14T14:16-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,972 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gather",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,17 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "8cc04e0d",
-   "ticker": "IBM",
+   "id": "b9ae3617",
+   "ticker": "GOOGL",
    "kind": "take_profit",
-   "price": 251.2164,
+   "price": 349.6502,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 250.24,
-   "pct_away": 0.39,
+   "last": 348.75,
+   "pct_away": 0.26,
    "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 333.78,
-   "pct_away": 0.42,
+   "last": 334.06,
+   "pct_away": 0.33,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -173,17 +173,17 @@
    ]
   },
   {
-   "id": "07893ad2",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 332.1204,
+   "id": "8cc04e0d",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 251.2164,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 333.78,
-   "pct_away": -0.5,
+   "last": 249.95,
+   "pct_away": 0.51,
    "good_until": "2026-09-19",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +197,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 250.24,
-   "pct_away": -0.63,
+   "last": 249.95,
+   "pct_away": -0.51,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "07893ad2",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 332.1204,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 334.06,
+   "pct_away": -0.58,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dff01607",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 346.7445,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 348.75,
+   "pct_away": -0.58,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.4,
-   "pct_away": 0.73,
+   "last": 259.64,
+   "pct_away": 0.64,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -231,27 +265,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.4,
-   "pct_away": -1.83,
+   "last": 259.64,
+   "pct_away": -1.92,
    "good_until": "2026-09-19",
    "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0463fca4",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 324.271,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 333.78,
-   "pct_away": -2.85,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +282,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 250.24,
-   "pct_away": -2.9,
+   "last": 249.95,
+   "pct_away": -2.79,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0463fca4",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 324.271,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 334.06,
+   "pct_away": -2.93,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5cc8e534",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 338.3554,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 348.75,
+   "pct_away": -2.98,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -282,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.4,
-   "pct_away": -3.0,
+   "last": 259.64,
+   "pct_away": -3.09,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,972 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,972 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gather",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -345,7 +396,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 163,
+  "decisions_recorded": 165,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -463,7 +514,7 @@
     "n": 1
    }
   },
-  "idle_checks": 105,
+  "idle_checks": 106,
   "blocked_checks": 0,
   "idle_share": 0.64,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1405,9 +1456,9 @@
     "when": "2026-09-14T13:45"
    },
    {
-    "title": "Update: Equities Fall Intraday Amid AI Safety Warnings",
-    "source": "MT Newswires",
-    "when": "2026-09-14T17:56"
+    "title": "Musk Biographer Says AI Giants May Face Liability After Admitting Risks as Nvidia, AMD Slide",
+    "source": "Benzinga Prediction Markets",
+    "when": "2026-09-14T18:03"
    }
   ],
   "AMZN": [
@@ -1451,14 +1502,14 @@
     "when": "2026-09-14T14:39"
    },
    {
+    "title": "Is Broadcom Stock in Trouble?",
+    "source": "Motley Fool",
+    "when": "2026-09-14T18:05"
+   },
+   {
     "title": "Intel Or NVIDIA: Who Is Paying For The AI Build-Out?",
     "source": "Trefis",
     "when": "2026-09-14T17:23"
-   },
-   {
-    "title": "Vertiv vs. Broadcom: Which AI Infrastructure Stock Has More Upside?",
-    "source": "Zacks",
-    "when": "2026-09-14T16:47"
    }
   ],
   "BE": [
@@ -1701,6 +1752,11 @@
   ],
   "IBM": [
    {
+    "title": "Did You Pay For Palantir's Guidance Or For Something Else?",
+    "source": "Trefis",
+    "when": "2026-09-14T18:00"
+   },
+   {
     "title": "Is HPE Stock Now A Bet On Memory Prices?",
     "source": "Trefis",
     "when": "2026-09-14T17:49"
@@ -1708,11 +1764,6 @@
    {
     "title": "Stock Market Today: Dow Tries For A Gain, Trump Hits Out At AI Fears; This Fuel Play Clears Entry (Live Coverage)",
     "source": "Investor's Business Daily",
-    "when": "2026-09-14T16:59"
-   },
-   {
-    "title": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
-    "source": "Trefis",
     "when": "2026-09-14T16:59"
    }
   ],
@@ -1864,9 +1915,9 @@
     "when": "2026-09-14T13:45"
    },
    {
-    "title": "From Industrial Revolution to AI Revolution: Cathie Wood\u2019s Bold Thesis on Why Global GDP Could Double",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-14T18:01"
+    "title": "The 10-Year Treasury Yield Just Passed 5%. Here\u2019s How That Impacts Dividend-Paying Consumer Stocks.",
+    "source": "Motley Fool",
+    "when": "2026-09-14T18:10"
    }
   ],
   "O": [
@@ -1888,6 +1939,11 @@
   ],
   "OKLO": [
    {
+    "title": "Not Oklo. Not NuScale. This Nuclear Stock Is Going to Be the Biggest Winner of the AI Power Boom.",
+    "source": "Motley Fool",
+    "when": "2026-09-14T18:05"
+   },
+   {
     "title": "This Nuclear Stock Is Down This Month. Time to Buy the Dip?",
     "source": "Motley Fool",
     "when": "2026-09-14T11:04"
@@ -1896,11 +1952,6 @@
     "title": "OKLO Stock Dips Premarket: Retail Bulls Undeterred As They Eye Nuclear Future",
     "source": "Stocktwits",
     "when": "2026-09-14T08:14"
-   },
-   {
-    "title": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",
-    "source": "Stocktwits",
-    "when": "2026-09-14T03:03"
    }
   ],
   "PLD": [
@@ -2058,5 +2109,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T14:10-04:00"
+ "signalsAsOf": "2026-09-14T14:16-04:00"
 }
