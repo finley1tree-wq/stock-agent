@@ -1,15 +1,3 @@
-## 2026-09-14 09:43 ET (Monday) — week 2026-W38 — budget left $13065.89 (today $34000.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3Rv4zG1mXf18WdMABbk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25202.11 (+0.81% on $25000.00 in) · cash $13218.35 · realised +218.35
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on BE: position closed)
-- SELL 100% BE [take_profit @ $253.78] -> $3022.47 (+0.75%) — close 100% at +0.7% over the average cost
-## 2026-09-14 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-14 09:46 ET (Monday) — week 2026-W38 — budget left $16088.36 (today $34000.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
   (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
   (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
@@ -398,3 +386,15 @@ Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15981.36 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $14.66] -> $3012.91 (+0.43%) — close 100% at +0.5% over the average cost
 ## 2026-09-14 11:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 11:08 ET (Monday) — week 2026-W38 — budget left $18994.27 (today $73457.79 put to work, 26 buys, 24 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3YRsGMQpxe3NBUsbBvk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25282.65 (+1.13% on $25000.00 in) · cash $19292.62 · realised +292.62
+Decision: nothing at this check. 7 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
