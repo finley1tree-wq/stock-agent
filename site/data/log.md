@@ -1,6 +1,3 @@
-
-## 2026-09-14 11:28 ET (Monday) — week 2026-W38 — budget left $15993.07 (today $79457.79 put to work, 28 buys, 25 sells) — SIM (pretend money) via sim
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
   (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
   (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
   (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $641.28 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25409.49 (+1.64% on $25000.00 in) · cash $13405.02 · realised +405.02
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13000.00 this week
+  (cancelled 2 standing order(s) on TPL: position closed)
+- SELL 100% TPL [stop_loss @ $371.85] -> $3002.87 (+0.10%) — close it all at -0.9% under the average cost
+## 2026-09-14 12:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders

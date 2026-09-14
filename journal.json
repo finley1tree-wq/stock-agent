@@ -2238,8 +2238,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.16,
-    "ret_now": -0.16,
+    "ret_final": -0.07,
+    "ret_now": -0.07,
     "ret_src": "realised"
   },
   {
@@ -2982,8 +2982,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.71,
-    "ret_final": -0.71,
+    "ret_now": -0.3,
+    "ret_final": -0.3,
     "ret_src": "realised"
   },
   {
@@ -4844,8 +4844,8 @@
     "code_version": "3659094",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.71,
-    "ret_final": -0.71,
+    "ret_now": -0.3,
+    "ret_final": -0.3,
     "ret_src": "realised"
   },
   {
@@ -5671,7 +5671,9 @@
     "code_version": "e09ddde",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.1,
+    "ret_final": 0.1,
+    "ret_src": "realised"
   },
   {
     "symbol": "ALP",
@@ -5724,7 +5726,7 @@
     "code_version": "6ce9800",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": 0.04
   },
   {
     "symbol": "META",
@@ -5749,6 +5751,34 @@
     "hour_et": 12,
     "code_version": "73b2cb8",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
+  },
+  {
+    "symbol": "TPL",
+    "side": "sell",
+    "qty": 8.075494,
+    "status": "filled",
+    "price": 371.85,
+    "proceeds": 3002.87,
+    "realized_pnl": 2.87,
+    "realized_pct": 0.1,
+    "date": "2026-09-14",
+    "time_et": "12:34",
+    "ts": 1789403400,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $371.49",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "41330b9",
+    "hold_minutes": 9
   }
 ]
