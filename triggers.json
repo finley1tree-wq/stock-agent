@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "ea7d6938",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 125.4277,
-   "status": "cancelled",
-   "created": "2026-09-11 12:16",
-   "created_ts": 1789143418,
-   "why": "strong month, weak day: resting 0.71% under $126.32 to catch the dip",
-   "evidence": "+7.2% over the month, sitting at 2% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-12",
-   "usd": 1000.0,
-   "closed": "2026-09-11 14:00",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9e3f53bf",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 325.0,
-   "status": "cancelled",
-   "created": "2026-09-11 12:24",
-   "created_ts": 1789143880,
-   "why": "protect against reversal below today's low",
-   "evidence": "AAPL day_low 326.3, ATR 2.35%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 12:54",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f1d5f3df",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 334.0,
-   "status": "cancelled",
-   "created": "2026-09-11 12:24",
-   "created_ts": 1789143880,
-   "why": "protect against reversal below today's low",
-   "evidence": "GOOGL day_low 335.065, ATR 2.15%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 12:54",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "9801e338",
    "ticker": "SPY",
    "kind": "stop_loss",
@@ -7331,7 +7276,7 @@
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 247.957,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-14 11:33",
    "created_ts": 1789400030,
    "why": "close 100% at +0.3% over the average cost",
@@ -7341,7 +7286,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 11:42"
   },
   {
    "id": "a834c325",
@@ -7367,7 +7313,7 @@
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 239.8228,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:33",
    "created_ts": 1789400030,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7377,7 +7323,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 11:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d0a54fd6",
@@ -7455,7 +7403,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 247.492,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:37",
    "created_ts": 1789400252,
    "why": "close it all at -0.7% under the average cost",
@@ -7465,7 +7413,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 11:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "881bcdad",
@@ -7534,7 +7484,58 @@
    ],
    "good_until": "2026-09-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "67b45a02",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 335.0489,
+   "status": "working",
+   "created": "2026-09-14 11:43",
+   "created_ts": 1789400586,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $334.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "98cb9638",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 332.0078,
+   "status": "working",
+   "created": "2026-09-14 11:43",
+   "created_ts": 1789400586,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $334.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6610a12f",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 324.1546,
+   "status": "working",
+   "created": "2026-09-14 11:43",
+   "created_ts": 1789400586,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $334.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 11:41"
+ "updated": "2026-09-14 11:43"
 }

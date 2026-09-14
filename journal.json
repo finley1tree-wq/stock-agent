@@ -780,8 +780,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.06,
-    "ret_now": -0.06,
+    "ret_final": 0.01,
+    "ret_now": 0.01,
     "ret_src": "realised"
   },
   {
@@ -1415,8 +1415,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.13,
-    "ret_now": -0.13,
+    "ret_final": -0.03,
+    "ret_now": -0.03,
     "ret_src": "realised"
   },
   {
@@ -1787,8 +1787,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.2,
-    "ret_now": -0.2,
+    "ret_final": -0.06,
+    "ret_now": -0.06,
     "ret_src": "realised"
   },
   {
@@ -3605,8 +3605,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24,
-    "ret_final": -0.24,
+    "ret_now": -0.06,
+    "ret_final": -0.06,
     "ret_src": "realised"
   },
   {
@@ -5039,7 +5039,9 @@
     "code_version": "fb35581",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "TPL",
@@ -5117,7 +5119,7 @@
     "code_version": "5afc929",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.27
   },
   {
     "symbol": "ALP",
@@ -5169,6 +5171,59 @@
     "momentum_1m_at_entry": 2.86,
     "hour_et": 11,
     "code_version": "872a43e",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.04
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 12.133986,
+    "status": "filled",
+    "price": 247.96,
+    "proceeds": 3008.71,
+    "realized_pnl": 8.71,
+    "realized_pct": 0.29,
+    "date": "2026-09-14",
+    "time_et": "11:42",
+    "ts": 1789400400,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $247.24",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "f7c1d8a",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.977283,
+    "price": 334.18,
+    "date": "2026-09-14",
+    "time_et": "11:43",
+    "ts": 1789400586,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+9.4% over the month; 74% of today's range",
+    "entry_price": 334.11,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.45,
+    "hour_et": 11,
+    "code_version": "f7c1d8a",
     "ret_1w": null,
     "ret_1m": null
   }

@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 8981.67,
-  "deployed": 91457.79,
+  "spent": 8972.96,
+  "deployed": 94457.79,
   "by_ticker": {
-    "IBM": 3014.43,
+    "IBM": 5.72,
     "GOOGL": 19.01,
     "HLI": 3017.11,
-    "AAPL": 5.79,
+    "AAPL": 3005.79,
     "AMD": 12.77,
     "BE": 33.23,
     "FLD": 1.2,
@@ -24,7 +24,7 @@
     "META": 9000.0,
     "AMD": 4000.0,
     "TTD": 6000.0,
-    "AAPL": 6000.0,
+    "AAPL": 9000.0,
     "MSFT": 3457.79,
     "GOOGL": 3000.0,
     "TPL": 3000.0
@@ -1199,13 +1199,51 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.9% over the month; 6% of today's range"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 12.133986,
+      "status": "filled",
+      "price": 247.96,
+      "proceeds": 3008.71,
+      "realized_pnl": 8.71,
+      "realized_pct": 0.29,
+      "date": "2026-09-14",
+      "time_et": "11:42",
+      "ts": 1789400400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $247.24",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.977283,
+      "price": 334.18,
+      "date": "2026-09-14",
+      "time_et": "11:43",
+      "ts": 1789400586,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+9.4% over the month; 74% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 8981.67,
-  "deployed_today": 91457.79,
-  "orders_today": 32,
-  "sells_today": 29,
+  "spent_today": 8972.96,
+  "deployed_today": 94457.79,
+  "orders_today": 33,
+  "sells_today": 30,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1229,7 +1267,7 @@
     "CHRW": 1789399860,
     "TTD": 1789398386,
     "AMD": 1789397872,
-    "IBM": 1789397192,
+    "IBM": 1789400539,
     "AAPL": 1789397872,
     "BE": 1789398213,
     "NEM": 1789400207,
@@ -1238,21 +1276,21 @@
     "GOOGL": 1789395611,
     "TPL": 1789400077
   },
-  "last_publish_ts": 1789400497,
-  "last_check_ts": 1789400497,
+  "last_publish_ts": 1789400586,
+  "last_check_ts": 1789400586,
   "last_bar_ts": 1789400400,
-  "last_decision_ts": 1789400382,
+  "last_decision_ts": 1789400586,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "b02a18d8": 247.492,
-    "81b91dda": 660.6498,
     "d44b82f2": 659.306,
-    "9b0e7bee": 247.957,
+    "81b91dda": 660.6498,
+    "67b45a02": 335.0489,
     "881bcdad": 136.4593,
+    "98cb9638": 332.0078,
     "26eb4cff": 134.9223,
     "fab3ab85": 131.9394,
-    "7c862c8c": 239.8228,
+    "6610a12f": 324.1546,
     "730a4d4c": 638.5316
   }
 }
