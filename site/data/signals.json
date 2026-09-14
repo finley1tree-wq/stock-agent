@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T10:25-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,981 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-14T10:28-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,981 idle, so opened 3: IBM, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the lo",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,17 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6f71f6a5",
-   "ticker": "HLI",
+   "id": "92af1594",
+   "ticker": "ALP",
    "kind": "take_profit",
-   "price": 138.0722,
+   "price": 4.1207,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.84,
-   "pct_away": 0.17,
+   "last": 4.12,
+   "pct_away": 0.02,
    "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +1.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,10 +163,95 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 155.27,
+   "last": 155.34,
+   "pct_away": 0.26,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "270c3e1c",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 333.8391,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 332.9,
+   "pct_away": 0.28,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "56fbb49b",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 245.7956,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 245.03,
    "pct_away": 0.31,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6f71f6a5",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 138.0722,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 137.43,
+   "pct_away": 0.47,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9fbedd08",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 489.698,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 487.38,
+   "pct_away": 0.48,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b502db93",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.1,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 4.12,
+   "pct_away": -0.49,
+   "good_until": "2026-09-19",
+   "why": "close it all at -3.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 652.67,
-   "pct_away": 0.52,
+   "last": 652.59,
+   "pct_away": 0.54,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -190,15 +275,49 @@
    ]
   },
   {
-   "id": "66a3e102",
-   "ticker": "CHRW",
+   "id": "a3b93407",
+   "ticker": "HLI",
    "kind": "stop_loss",
-   "price": 154.1896,
+   "price": 136.5595,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 155.27,
-   "pct_away": -0.7,
+   "last": 137.43,
+   "pct_away": -0.63,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "aa494c9c",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 330.799,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 332.9,
+   "pct_away": -0.63,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7e544d7c",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 243.2885,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 245.03,
+   "pct_away": -0.71,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -214,8 +333,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 652.67,
-   "pct_away": -0.75,
+   "last": 652.59,
+   "pct_away": -0.74,
    "good_until": "2026-09-19",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -224,34 +343,34 @@
    ]
   },
   {
-   "id": "a3b93407",
-   "ticker": "HLI",
+   "id": "66a3e102",
+   "ticker": "CHRW",
    "kind": "stop_loss",
-   "price": 136.5595,
+   "price": 154.1896,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.84,
-   "pct_away": -0.93,
+   "last": 155.34,
+   "pct_away": -0.74,
    "good_until": "2026-09-19",
-   "why": "close it all at -0.8% under the average cost",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "92af1594",
-   "ticker": "ALP",
-   "kind": "take_profit",
-   "price": 4.1207,
+   "id": "6085737f",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 481.9276,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 4.07,
-   "pct_away": 1.25,
+   "last": 487.38,
+   "pct_away": -1.12,
    "good_until": "2026-09-19",
-   "why": "close 100% at +1.2% over the average cost",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +384,76 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 652.67,
-   "pct_away": -2.84,
+   "last": 652.59,
+   "pct_away": -2.83,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f229532b",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 133.5108,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 137.43,
+   "pct_away": -2.85,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c301d82a",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 237.7276,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 245.03,
+   "pct_away": -2.98,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0901f447",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 322.9809,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 332.9,
+   "pct_away": -2.98,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c36dbe23",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 472.8556,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 487.38,
+   "pct_away": -2.98,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -282,8 +469,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 155.27,
-   "pct_away": -2.98,
+   "last": 155.34,
+   "pct_away": -3.02,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -299,42 +486,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 4.07,
-   "pct_away": -3.0,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "31b51a1f",
-   "ticker": "ALP",
-   "kind": "stop_loss",
-   "price": 3.9432,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 4.07,
-   "pct_away": -3.12,
-   "good_until": "2026-09-19",
-   "why": "close it all at -3.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f229532b",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 133.5108,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 137.84,
-   "pct_away": -3.14,
+   "last": 4.12,
+   "pct_away": -4.18,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -343,7 +496,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,981 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,981 idle, so opened 3: IBM, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the lo",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -408,7 +561,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 84,
+  "decisions_recorded": 85,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -528,7 +681,7 @@
   },
   "idle_checks": 56,
   "blocked_checks": 0,
-  "idle_share": 0.67,
+  "idle_share": 0.66,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2063,19 +2216,19 @@
  "headlines": {
   "AAPL": [
    {
+    "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
+    "source": "Motley Fool",
+    "when": "2026-09-14T14:20"
+   },
+   {
+    "title": "Should You Buy Dell Technologies Stock For All That AI Revenue?",
+    "source": "Trefis",
+    "when": "2026-09-14T14:13"
+   },
+   {
     "title": "This Analyst Says A Full Reversion to the Mean Would Take the S&P 500 From 7,000 to 2,500",
     "source": "24/7 Wall St.",
     "when": "2026-09-14T13:30"
-   },
-   {
-    "title": "Apple vs. Microsoft: This Is the Magnificent Seven Stock I\u2019d Buy Today",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-14T13:00"
-   },
-   {
-    "title": "Apple Is Coming for Samsung\u2019s Foldable Phone Crown: iPhone Duo Could Capture Nearly 25% of the Market With 5 Million Shipments in 2026, Says Report",
-    "source": "Benzinga",
-    "when": "2026-09-14T12:30"
    }
   ],
   "ALP": [
@@ -2119,14 +2272,14 @@
     "when": "2026-09-14T13:58"
    },
    {
+    "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
+    "source": "Motley Fool",
+    "when": "2026-09-14T14:20"
+   },
+   {
     "title": "Nasdaq drags on Wall St as AI slowdown fears hammer Nvidia, chipmakers",
     "source": "Reuters",
     "when": "2026-09-14T14:14"
-   },
-   {
-    "title": "Goldman Sachs Just Supercharged Its Humanoid Robot Prediction 5X to 6.5 Million by 2035",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-14T13:55"
    }
   ],
   "ANIX": [
@@ -2374,14 +2527,14 @@
     "when": "2026-09-14T14:18"
    },
    {
+    "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
+    "source": "Motley Fool",
+    "when": "2026-09-14T14:20"
+   },
+   {
     "title": "Are You Buying Aurora Innovation's Trucks Or Its Story?",
     "source": "Trefis",
     "when": "2026-09-14T13:44"
-   },
-   {
-    "title": "Tesla Could Be\u00a0Building Its Next\u00a0Trillion-Dollar Opportunity. Here\u2019s Where Its Headed",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-14T13:30"
    }
   ],
   "GPUS": [
@@ -2568,6 +2721,11 @@
   ],
   "META": [
    {
+    "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
+    "source": "Motley Fool",
+    "when": "2026-09-14T14:20"
+   },
+   {
     "title": "Prediction: Arm Could Be the Picks-and-Shovels Winner of the AI Boom",
     "source": "24/7 Wall St.",
     "when": "2026-09-14T14:00"
@@ -2576,11 +2734,6 @@
     "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
     "source": "Barrons.com",
     "when": "2026-09-14T12:36"
-   },
-   {
-    "title": "Stocks Fall Pre-Bell Amid AI Safety Warnings; Investors Await Fed Rate Decision",
-    "source": "MT Newswires",
-    "when": "2026-09-14T12:25"
    }
   ],
   "MSFT": [
@@ -2590,14 +2743,14 @@
     "when": "2026-09-14T14:01"
    },
    {
+    "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
+    "source": "Motley Fool",
+    "when": "2026-09-14T14:20"
+   },
+   {
     "title": "This Analyst Says A Full Reversion to the Mean Would Take the S&P 500 From 7,000 to 2,500",
     "source": "24/7 Wall St.",
     "when": "2026-09-14T13:30"
-   },
-   {
-    "title": "Apple vs. Microsoft: This Is the Magnificent Seven Stock I\u2019d Buy Today",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-14T13:00"
    }
   ],
   "NEM": [
@@ -2675,14 +2828,14 @@
     "when": "2026-09-14T13:45"
    },
    {
+    "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
+    "source": "Motley Fool",
+    "when": "2026-09-14T14:20"
+   },
+   {
     "title": "Nasdaq drags on Wall St as AI slowdown fears hammer Nvidia, chipmakers",
     "source": "Reuters",
     "when": "2026-09-14T14:14"
-   },
-   {
-    "title": "Micron Technology Is Ramping Up Production of High-Bandwidth Memory. Here's Why That Could Send the Stock to New Heights This Year",
-    "source": "Motley Fool",
-    "when": "2026-09-14T14:11"
    }
   ],
   "O": [
@@ -2891,5 +3044,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T10:25-04:00"
+ "signalsAsOf": "2026-09-14T10:28-04:00"
 }

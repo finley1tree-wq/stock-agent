@@ -1,27 +1,29 @@
 {
   "week": "2026-W38",
-  "spent": 12019.01,
-  "deployed": 49000.0,
+  "spent": 21019.01,
+  "deployed": 58000.0,
   "by_ticker": {
-    "IBM": 23.2,
+    "IBM": 3023.2,
     "GOOGL": 19.01,
     "ALP": 3000.0,
     "HLI": 3000.0,
     "META": 3000.0,
-    "CHRW": 3000.0
+    "CHRW": 3000.0,
+    "AAPL": 3000.0,
+    "AMD": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 6000.0,
     "CHRW": 6000.0,
     "BE": 3000.0,
-    "IBM": 3000.0,
+    "IBM": 6000.0,
     "FLD": 3000.0,
     "HLI": 6000.0,
     "NEM": 3000.0,
     "META": 6000.0,
-    "AMD": 1000.0,
+    "AMD": 4000.0,
     "TTD": 3000.0,
-    "AAPL": 3000.0,
+    "AAPL": 6000.0,
     "MSFT": 3000.0,
     "GOOGL": 3000.0
   },
@@ -600,12 +602,64 @@
         "congress"
       ],
       "evidence": "congress net buying (3 net buyers): April McClain Delaney; +4.0% over the month; 69% of today's range"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.240951,
+      "price": 245.08,
+      "date": "2026-09-14",
+      "time_et": "10:27",
+      "ts": 1789396074,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.3% over the month; 15% of today's range"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.009913,
+      "price": 332.97,
+      "date": "2026-09-14",
+      "time_et": "10:27",
+      "ts": 1789396074,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+9.1% over the month; 42% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.15413,
+      "price": 487.48,
+      "date": "2026-09-14",
+      "time_et": "10:27",
+      "ts": 1789396074,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.9% over the month; 56% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 12019.01,
-  "deployed_today": 49000.0,
-  "orders_today": 17,
+  "spent_today": 21019.01,
+  "deployed_today": 58000.0,
+  "orders_today": 20,
   "sells_today": 13,
   "sold_today": [
     "ALP",
@@ -637,24 +691,33 @@
     "FLD": 1789393822,
     "GOOGL": 1789395611
   },
-  "last_publish_ts": 1789395906,
-  "last_check_ts": 1789395993,
+  "last_publish_ts": 1789396074,
+  "last_check_ts": 1789396074,
   "last_bar_ts": 1789395900,
-  "last_decision_ts": 1789395906,
+  "last_decision_ts": 1789396074,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6f71f6a5": 138.0722,
-    "245615e6": 155.7442,
-    "27d5d1d9": 656.093,
-    "66a3e102": 154.1896,
-    "0b0d1983": 647.7842,
-    "a3b93407": 136.5595,
     "92af1594": 4.1207,
+    "245615e6": 155.7442,
+    "270c3e1c": 333.8391,
+    "56fbb49b": 245.7956,
+    "6f71f6a5": 138.0722,
+    "9fbedd08": 489.698,
+    "b502db93": 4.1,
+    "27d5d1d9": 656.093,
+    "a3b93407": 136.5595,
+    "aa494c9c": 330.799,
+    "7e544d7c": 243.2885,
+    "0b0d1983": 647.7842,
+    "66a3e102": 154.1896,
+    "6085737f": 481.9276,
     "ee15588b": 634.1084,
+    "f229532b": 133.5108,
+    "c301d82a": 237.7276,
+    "0901f447": 322.9809,
+    "c36dbe23": 472.8556,
     "f03db2ba": 150.641,
-    "e43e3ddd": 3.9479,
-    "31b51a1f": 3.9432,
-    "f229532b": 133.5108
+    "e43e3ddd": 3.9479
   }
 }
