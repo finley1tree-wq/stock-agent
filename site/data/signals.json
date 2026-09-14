@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T12:07-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-14T12:12-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,34 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "c7381899",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 504.596,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 504.86,
-   "pct_away": -0.05,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e4303339",
-   "ticker": "MSFT",
+   "id": "333c32d0",
+   "ticker": "AMD",
    "kind": "take_profit",
-   "price": 505.3294,
+   "price": 493.3097,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 504.86,
-   "pct_away": 0.09,
+   "last": 490.39,
+   "pct_away": 0.6,
    "good_until": "2026-09-19",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 489.39,
-   "pct_away": -0.79,
+   "last": 490.39,
+   "pct_away": -0.99,
    "good_until": "2026-09-19",
    "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "333c32d0",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 493.3097,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 489.39,
-   "pct_away": 0.8,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,25 +231,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 489.39,
-   "pct_away": -2.66,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "35dd12db",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 489.074,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 504.86,
-   "pct_away": -3.13,
+   "last": 490.39,
+   "pct_away": -2.86,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

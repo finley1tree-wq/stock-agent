@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 8925.39,
+  "spent": 5918.67,
   "deployed": 112457.79,
   "by_ticker": {
     "IBM": 5.72,
@@ -10,8 +10,7 @@
     "BE": 27.24,
     "FLD": 1.2,
     "TPL": 21.3,
-    "MAIA": 3000.0,
-    "MSFT": 3000.0
+    "MAIA": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 9000.0,
@@ -1472,13 +1471,34 @@
         "congress"
       ],
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +1.4% over the month; 85% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 5.95001,
+      "status": "filled",
+      "price": 505.33,
+      "proceeds": 3006.72,
+      "realized_pnl": 6.72,
+      "realized_pct": 0.22,
+      "date": "2026-09-14",
+      "time_et": "12:12",
+      "ts": 1789402200,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $504.2",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 8925.39,
+  "spent_today": 5918.67,
   "deployed_today": 112457.79,
   "orders_today": 39,
-  "sells_today": 36,
+  "sells_today": 37,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1507,27 +1527,24 @@
     "AAPL": 1789401075,
     "BE": 1789401722,
     "NEM": 1789400207,
-    "MSFT": 1789398040,
+    "MSFT": 1789402342,
     "FLD": 1789399070,
     "GOOGL": 1789395611,
     "TPL": 1789400077,
     "GRNT": 1789401722
   },
-  "last_publish_ts": 1789402059,
-  "last_check_ts": 1789402299,
+  "last_publish_ts": 1789402341,
+  "last_check_ts": 1789402387,
   "last_bar_ts": 1789402200,
   "last_decision_ts": 1789402299,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "c7381899": 504.596,
-    "e4303339": 505.3294,
+    "333c32d0": 493.3097,
     "b927c508": 1.3605,
     "4b303222": 485.5407,
-    "333c32d0": 493.3097,
     "344e9635": 1.3878,
     "3da74519": 1.3386,
-    "4b854a11": 476.3573,
-    "35dd12db": 489.074
+    "4b854a11": 476.3573
   }
 }
