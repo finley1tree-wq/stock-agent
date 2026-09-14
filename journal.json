@@ -1307,8 +1307,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25,
-    "ret_final": 0.25,
+    "ret_now": 0.26,
+    "ret_final": 0.26,
     "ret_src": "realised"
   },
   {
@@ -2320,8 +2320,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.24,
-    "ret_now": 0.24,
+    "ret_final": 0.26,
+    "ret_now": 0.26,
     "ret_src": "realised"
   },
   {
@@ -3009,8 +3009,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31,
-    "ret_final": 0.31,
+    "ret_now": 0.32,
+    "ret_final": 0.32,
     "ret_src": "realised"
   },
   {
@@ -3663,8 +3663,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -3691,8 +3691,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28,
-    "ret_final": 0.28,
+    "ret_now": 0.3,
+    "ret_final": 0.3,
     "ret_src": "realised"
   },
   {
@@ -4267,8 +4267,8 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12,
-    "ret_final": -0.12,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -4549,8 +4549,8 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24,
-    "ret_final": 0.24,
+    "ret_now": 0.27,
+    "ret_final": 0.27,
     "ret_src": "realised"
   },
   {
@@ -5010,8 +5010,8 @@
     "code_version": "1d29a78",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.22,
+    "ret_final": 0.22,
     "ret_src": "realised"
   },
   {
@@ -5700,7 +5700,7 @@
     "code_version": "6ce9800",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -2.14
+    "ret_now": -1.19
   },
   {
     "symbol": "NEM",
@@ -5726,7 +5726,9 @@
     "code_version": "6ce9800",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.35,
+    "ret_final": 0.35,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -5752,7 +5754,7 @@
     "code_version": "73b2cb8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.33
   },
   {
     "symbol": "TPL",
@@ -5806,7 +5808,9 @@
     "code_version": "d9a91e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.29
+    "ret_now": 0.32,
+    "ret_final": 0.32,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -5833,7 +5837,7 @@
     "code_version": "d9a91e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.3
   },
   {
     "symbol": "AAPL",
@@ -5859,7 +5863,7 @@
     "code_version": "d9a91e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.0
   },
   {
     "symbol": "CHRW",
@@ -5885,7 +5889,8 @@
     "hour_et": 12,
     "code_version": "1deaf89",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.1
   },
   {
     "symbol": "GOOGL",
@@ -5910,7 +5915,8 @@
     "hour_et": 12,
     "code_version": "1deaf89",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.27
   },
   {
     "symbol": "HLI",
@@ -5936,6 +5942,85 @@
     "evidence": "average cost $136.77",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "0c89528"
+    "code_version": "0c89528",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "NEM",
+    "side": "sell",
+    "qty": 24.431051,
+    "status": "filled",
+    "price": 123.22,
+    "proceeds": 3010.47,
+    "realized_pnl": 10.47,
+    "realized_pct": 0.35,
+    "date": "2026-09-14",
+    "time_et": "12:48",
+    "ts": 1789404300,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $122.79",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "4ae6f4f",
+    "hold_minutes": 21
+  },
+  {
+    "symbol": "GRNT",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 583.074513,
+    "price": 5.15,
+    "date": "2026-09-14",
+    "time_et": "12:48",
+    "ts": 1789404528,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4, incl. director); +2.0% over the month; 36% of today's range",
+    "entry_price": 5.14,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.98,
+    "hour_et": 12,
+    "code_version": "4ae6f4f",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "BE",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.621906,
+    "price": 258.13,
+    "date": "2026-09-14",
+    "time_et": "12:48",
+    "ts": 1789404528,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers); +9.2% over the month; 71% of today's range",
+    "entry_price": 258.03,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.23,
+    "hour_et": 12,
+    "code_version": "4ae6f4f",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -2551,3 +2551,27 @@ Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $1002.87 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $137.21] -> $3009.69 (+0.32%) — close 100% at +0.3% over the average cost
 ## 2026-09-14 12:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $123.27] -> $3010.47 (+0.35%) — close 100% at +0.4% over the average cost
+## 2026-09-14 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 12:48 ET (Monday) — week 2026-W38 — budget left $7023.03 (today $139457.79 put to work, 48 buys, 42 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3g4vzBRGCzfxzELHcvq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,023 idle, so opened 2: GRNT, BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 GRNT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +2.0% over the month; 36% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +9.2% over the month; 71% of today's range
+~ WORKING take_profit 100% GRNT @ $5.16 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GRNT @ $5.11 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 GRNT @ $5.00 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $260.03 until 2026-09-19 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $253.37 until 2026-09-19 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $250.39 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25414.82 (+1.66% on $25000.00 in) · cash $1428.05 · realised +428.05
+Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $1023.03 this week
