@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "e418dfd6",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 124.9256,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $126.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:06",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "3db3fee6",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 122.3364,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $126.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:16",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "001ca4fd",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 369.366,
-   "status": "filled",
-   "created": "2026-09-11 14:53",
-   "created_ts": 1789152820,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $368.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:57"
-  },
-  {
    "id": "2ea71340",
    "ticker": "MRK",
    "kind": "take_profit",
@@ -7537,7 +7481,58 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "f4aaf5de",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.7661,
+   "status": "working",
+   "created": "2026-09-14 13:08",
+   "created_ts": 1789405730,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a5201754",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.5345,
+   "status": "working",
+   "created": "2026-09-14 13:08",
+   "created_ts": 1789405730,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4e9082e4",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 14.259,
+   "status": "working",
+   "created": "2026-09-14 13:08",
+   "created_ts": 1789405730,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 13:05"
+ "updated": "2026-09-14 13:08"
 }
