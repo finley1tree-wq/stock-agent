@@ -1589,3 +1589,16 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $123.09] -> $3011.53 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-09-14 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $498.22] -> $3006.54 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-14 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 09:48 ET (Monday) — week 2026-W38 — budget left $22106.43 (today $34000.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3SM41RLYWVugjn9jjqa'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25315.97 (+1.26% on $25000.00 in) · cash $22258.88 · realised +258.88
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-14T09:47-04:00",
+ "asOf": "2026-09-14T09:48-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6453df11",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 498.2238,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 497.13,
-   "pct_away": 0.22,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8ff0af47",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 494.4356,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 497.13,
-   "pct_away": -0.54,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "fc3b3e3c",
    "ticker": "FLD",
    "kind": "take_profit",
@@ -201,23 +167,6 @@
    "pct_away": -0.75,
    "good_until": "2026-09-19",
    "why": "close it all at -3.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8ae0ce8a",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.2258,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 497.13,
-   "pct_away": -3.0,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"

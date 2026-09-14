@@ -1,11 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 5900.11,
+  "spent": 2893.57,
   "deployed": 34000.0,
   "by_ticker": {
     "IBM": 23.2,
-    "FLD": 3000.0,
-    "MSFT": 3000.0
+    "FLD": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 3000.0,
@@ -445,13 +444,34 @@
       ],
       "evidence": "average cost $122.61",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.034525,
+      "status": "filled",
+      "price": 498.22,
+      "proceeds": 3006.54,
+      "realized_pnl": 6.54,
+      "realized_pct": 0.22,
+      "date": "2026-09-14",
+      "time_et": "09:48",
+      "ts": 1789393500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $497.14",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 5900.11,
+  "spent_today": 2893.57,
   "deployed_today": 34000.0,
   "orders_today": 12,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "ALP",
     "HLI",
@@ -462,7 +482,8 @@
     "IBM",
     "AAPL",
     "BE",
-    "NEM"
+    "NEM",
+    "MSFT"
   ],
   "sold_ts": {
     "ALP": 1789392925,
@@ -474,20 +495,18 @@
     "IBM": 1789393311,
     "AAPL": 1789393311,
     "BE": 1789393560,
-    "NEM": 1789393651
+    "NEM": 1789393651,
+    "MSFT": 1789393685
   },
-  "last_publish_ts": 1789393651,
-  "last_check_ts": 1789393651,
+  "last_publish_ts": 1789393684,
+  "last_check_ts": 1789393731,
   "last_bar_ts": 1789393500,
-  "last_decision_ts": 1789393561,
+  "last_decision_ts": 1789393731,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "6453df11": 498.2238,
-    "8ff0af47": 494.4356,
     "fc3b3e3c": 0.52694337,
     "a236715a": 0.5260416,
-    "8ae0ce8a": 482.2258,
     "25d0148b": 0.50450088
   }
 }

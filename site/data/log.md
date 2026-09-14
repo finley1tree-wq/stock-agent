@@ -1,6 +1,3 @@
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexCTQAe6XgDAfBoj1tSU'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $11,002 idle, so opened 3: CHRW, SPCX, MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +3.8% over the month; 13% of today's range
@@ -398,3 +395,6 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $123.09] -> $3011.53 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-09-14 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $498.22] -> $3006.54 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-14 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
