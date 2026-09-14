@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "fc3b3e3c",
-   "ticker": "FLD",
-   "kind": "take_profit",
-   "price": 0.52694337,
-   "status": "filled",
-   "created": "2026-09-14 09:32",
-   "created_ts": 1789392754,
-   "why": "close 100% at +1.3% over the average cost",
-   "evidence": "average cost $0.520104",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 09:50"
-  },
-  {
-   "id": "0e557f41",
-   "ticker": "FLD",
-   "kind": "stop_loss",
-   "price": 0.50301338,
-   "status": "cancelled",
-   "created": "2026-09-14 09:32",
-   "created_ts": 1789392754,
-   "why": "close it all at -3.3% under the average cost",
-   "evidence": "average cost $0.520104",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 09:47",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "25d0148b",
-   "ticker": "FLD",
-   "kind": "buy_limit",
-   "price": 0.50450088,
-   "status": "cancelled",
-   "created": "2026-09-14 09:32",
-   "created_ts": 1789392754,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $0.520104",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 09:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "03a42b86",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 138.8577,
-   "status": "filled",
-   "created": "2026-09-14 09:32",
-   "created_ts": 1789392754,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $138.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 09:35"
-  },
-  {
-   "id": "90d9f73c",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 137.3613,
-   "status": "cancelled",
-   "created": "2026-09-14 09:32",
-   "created_ts": 1789392754,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $138.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a582e187",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 134.2771,
-   "status": "cancelled",
-   "created": "2026-09-14 09:32",
-   "created_ts": 1789392754,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $138.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a49d6389",
    "ticker": "NEM",
    "kind": "take_profit",
@@ -7490,9 +7378,123 @@
    "ticker": "BE",
    "kind": "buy_limit",
    "price": 251.036,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 15:43",
    "created_ts": 1789415000,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $258.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0,
+   "closed": "2026-09-14 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "744c42f5",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 480.7223,
+   "status": "cancelled",
+   "created": "2026-09-14 15:43",
+   "created_ts": 1789415000,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $495.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0,
+   "closed": "2026-09-14 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "e66f27a4",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 241.9374,
+   "status": "cancelled",
+   "created": "2026-09-14 15:43",
+   "created_ts": 1789415000,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $249.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0,
+   "closed": "2026-09-14 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "3d8ac8b7",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 251.036,
+   "status": "cancelled",
+   "created": "2026-09-14 15:43",
+   "created_ts": 1789415039,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $258.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0,
+   "closed": "2026-09-14 15:44",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "e23c8297",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 480.7223,
+   "status": "cancelled",
+   "created": "2026-09-14 15:43",
+   "created_ts": 1789415039,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $495.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0,
+   "closed": "2026-09-14 15:44",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "e6d80cd1",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 241.9374,
+   "status": "cancelled",
+   "created": "2026-09-14 15:43",
+   "created_ts": 1789415039,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $249.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0,
+   "closed": "2026-09-14 15:44",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "77975c72",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 251.036,
+   "status": "working",
+   "created": "2026-09-14 15:44",
+   "created_ts": 1789415085,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $258.8",
    "signals": [
@@ -7503,13 +7505,13 @@
    "usd": 500.0
   },
   {
-   "id": "744c42f5",
+   "id": "433ad51a",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 480.7223,
    "status": "working",
-   "created": "2026-09-14 15:43",
-   "created_ts": 1789415000,
+   "created": "2026-09-14 15:44",
+   "created_ts": 1789415085,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $495.59",
    "signals": [
@@ -7520,13 +7522,13 @@
    "usd": 500.0
   },
   {
-   "id": "e66f27a4",
+   "id": "d2aa7382",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 241.9374,
    "status": "working",
-   "created": "2026-09-14 15:43",
-   "created_ts": 1789415000,
+   "created": "2026-09-14 15:44",
+   "created_ts": 1789415085,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $249.42",
    "signals": [
@@ -7537,5 +7539,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-14 15:43"
+ "updated": "2026-09-14 15:44"
 }

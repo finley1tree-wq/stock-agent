@@ -1,5 +1,3 @@
-## 2026-09-14 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-14 14:30 ET (Monday) — week 2026-W38 — budget left $12952.92 (today $175936.00 put to work, 61 buys, 57 sells) — SIM (pretend money) via sim
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3oqnR4cWLno5WGLcD9S'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25298.95 (+1.20% on $25000.00 in) · cash $16292.22 · realised +292.22
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
