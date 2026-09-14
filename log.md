@@ -2548,3 +2548,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $336.12 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25352.44 (+1.41% on $25000.00 in) · cash $1407.89 · realised +407.89
 Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $1002.87 this week
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $137.21] -> $3009.69 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-09-14 12:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
