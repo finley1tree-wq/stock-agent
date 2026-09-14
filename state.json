@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 5996.41,
-  "deployed": 157457.79,
+  "spent": 8996.41,
+  "deployed": 160457.79,
   "by_ticker": {
     "IBM": 0.03,
     "GOOGL": 12.58,
@@ -10,7 +10,7 @@
     "FLD": 1.2,
     "TPL": 18.43,
     "ALP": 39.88,
-    "AAPL": 5.41,
+    "AAPL": 3005.41,
     "MAIA": 46.66,
     "HLI": 3000.0,
     "NEM": 3000.0
@@ -26,7 +26,7 @@
     "META": 12000.0,
     "AMD": 7000.0,
     "TTD": 12000.0,
-    "AAPL": 12000.0,
+    "AAPL": 15000.0,
     "MSFT": 6457.79,
     "GOOGL": 6000.0,
     "TPL": 6000.0,
@@ -2071,12 +2071,29 @@
       ],
       "evidence": "bought 30 min ago, +0.57% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.97406,
+      "price": 334.3,
+      "date": "2026-09-14",
+      "time_et": "13:53",
+      "ts": 1789408405,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+9.5% over the month; 70% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 5996.41,
-  "deployed_today": 157457.79,
-  "orders_today": 54,
+  "spent_today": 8996.41,
+  "deployed_today": 160457.79,
+  "orders_today": 55,
   "sells_today": 52,
   "sold_today": [
     "ALP",
@@ -2114,18 +2131,21 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789407533,
-  "last_check_ts": 1789408324,
+  "last_publish_ts": 1789408405,
+  "last_check_ts": 1789408405,
   "last_bar_ts": 1789408200,
-  "last_decision_ts": 1789408236,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789408405,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "88b580a5": 123.8034,
+    "be0380be": 335.1725,
     "e8d8a5b9": 136.9583,
+    "88b580a5": 123.8034,
     "26157ea3": 138.5004,
+    "07893ad2": 332.1204,
     "6b2a8a55": 122.1127,
     "142c3918": 133.9182,
-    "da1cdb73": 119.6204
+    "da1cdb73": 119.6204,
+    "0463fca4": 324.271
   }
 }
