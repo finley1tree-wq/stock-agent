@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "fa3a684f",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.634,
-   "status": "cancelled",
-   "created": "2026-09-11 12:53",
-   "created_ts": 1789145610,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $152.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 13:21",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "665962b8",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 462.6445,
-   "status": "filled",
-   "created": "2026-09-11 12:58",
-   "created_ts": 1789145898,
-   "why": "wanted it, but not at the high \u2014 resting at $462.64. top congress pressure ticker in list, momentum confirmed",
-   "evidence": "congress net buy pressure 3.0 (April McClain Delaney buys disclosed 2026-09-09), +3.01% today, 91.1% of day range but strong trend",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-11",
-   "usd": 2000.0,
-   "closed": "2026-09-11 15:04"
-  },
-  {
-   "id": "e3622100",
-   "ticker": "MRK",
-   "kind": "take_profit",
-   "price": 145.5505,
-   "status": "filled",
-   "created": "2026-09-11 12:58",
-   "created_ts": 1789145898,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $145.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 13:15"
-  },
-  {
    "id": "7ae2e0a1",
    "ticker": "MRK",
    "kind": "stop_loss",
@@ -7529,7 +7473,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-14 11:51",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "3f7ecdee",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.736,
+   "status": "working",
+   "created": "2026-09-14 11:54",
+   "created_ts": 1789401296,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $14.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ee567264",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.5051,
+   "status": "working",
+   "created": "2026-09-14 11:54",
+   "created_ts": 1789401296,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $14.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d7e8efd2",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 14.2299,
+   "status": "working",
+   "created": "2026-09-14 11:54",
+   "created_ts": 1789401296,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 11:52"
+ "updated": "2026-09-14 11:54"
 }

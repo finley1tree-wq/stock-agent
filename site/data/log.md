@@ -1,34 +1,3 @@
-## 2026-09-14 10:36 ET (Monday) — week 2026-W38 — budget left $3568.52 (today $64457.79 put to work, 23 buys, 15 sells) — SIM (pretend money) via sim
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3Vxr9PucYNDD6FgFVkx'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $1000.00 FLD @ $0.52 until 2026-09-15 — strong month, weak day: resting 2.43% under $0.53 to catch the dip
-portfolio: equity $25291.06 (+1.16% on $25000.00 in) · cash $3866.86 · realised +324.65
-Decision: nothing at this check. 25 standing order(s) working.
-
-## 2026-09-14 10:39 ET (Monday) — week 2026-W38 — budget left $3568.52 (today $64457.79 put to work, 23 buys, 15 sells) — SIM (pretend money) via sim
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3WBTaShfFw88B7Fp5vj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25255.76 (+1.02% on $25000.00 in) · cash $3866.86 · realised +324.65
-Decision: nothing at this check. 25 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 10:42 ET (Monday) — week 2026-W38 — budget left $3568.52 (today $64457.79 put to work, 23 buys, 15 sells) — SIM (pretend money) via sim
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3WQJ6oAHwyE4qLwQajd'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25238.35 (+0.95% on $25000.00 in) · cash $3866.86 · realised +324.65
-Decision: nothing at this check. 25 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-14 10:44 ET (Monday) — week 2026-W38 — budget left $3568.52 (today $64457.79 put to work, 23 buys, 15 sells) — SIM (pretend money) via sim
@@ -398,3 +367,34 @@ Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $7030.21 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $136.46] -> $3009.72 (+0.32%) — close 100% at +0.3% over the average cost
 ## 2026-09-14 11:51 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 11:52 ET (Monday) — week 2026-W38 — budget left $13047.76 (today $106457.79 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3bjo8fFsjSucKPkz1Wh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25340.06 (+1.36% on $25000.00 in) · cash $13346.10 · realised +346.10
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 11:54 ET (Monday) — week 2026-W38 — budget left $13047.76 (today $106457.79 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3bxhM1nkdqT7PVVhXgi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,048 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +0.8% over the month; 83% of today's range
+~ WORKING take_profit 100% TTD @ $14.74 until 2026-09-19 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.51 until 2026-09-19 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.23 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25349.61 (+1.40% on $25000.00 in) · cash $10346.10 · realised +346.10
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10047.76 this week
