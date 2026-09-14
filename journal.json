@@ -3518,8 +3518,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.21,
-    "ret_final": 1.21,
+    "ret_now": 1.2,
+    "ret_final": 1.2,
     "ret_src": "realised"
   },
   {
@@ -4238,8 +4238,8 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.23,
-    "ret_final": 1.23,
+    "ret_now": 1.21,
+    "ret_final": 1.21,
     "ret_src": "realised"
   },
   {
@@ -4900,7 +4900,9 @@
     "code_version": "67008b8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.19
+    "ret_now": 1.18,
+    "ret_final": 1.18,
+    "ret_src": "realised"
   },
   {
     "symbol": "FLD",
@@ -5037,7 +5039,7 @@
     "code_version": "fb35581",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.25
   },
   {
     "symbol": "TPL",
@@ -5114,7 +5116,8 @@
     "hour_et": 11,
     "code_version": "5afc929",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.17
   },
   {
     "symbol": "ALP",
@@ -5140,6 +5143,33 @@
     "evidence": "average cost $4.21",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "b64d904"
+    "code_version": "b64d904",
+    "hold_minutes": 17
+  },
+  {
+    "symbol": "HLI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 22.056034,
+    "price": 136.02,
+    "date": "2026-09-14",
+    "time_et": "11:39",
+    "ts": 1789400382,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.9% over the month; 6% of today's range",
+    "entry_price": 135.99,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.86,
+    "hour_et": 11,
+    "code_version": "872a43e",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
