@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c8246824",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 448.7608,
-   "status": "cancelled",
-   "created": "2026-09-11 15:04",
-   "created_ts": 1789153445,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $462.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "a1d51542",
    "ticker": "TSM",
    "kind": "take_profit",
@@ -7473,7 +7454,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.5348,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 13:36",
    "created_ts": 1789407397,
    "why": "close it all at -1.1% under the average cost",
@@ -7483,7 +7464,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:37",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "88b580a5",
@@ -7535,7 +7518,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "669136eb",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.736,
+   "status": "working",
+   "created": "2026-09-14 13:37",
+   "created_ts": 1789407448,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 13:36"
+ "updated": "2026-09-14 13:37"
 }
