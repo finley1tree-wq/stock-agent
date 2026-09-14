@@ -2907,3 +2907,14 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 BE @ $251.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25371.42 (+1.49% on $25000.00 in) · cash $19377.44 · realised +377.44
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $18972.43 this week
+
+## 2026-09-14 14:10 ET (Monday) — week 2026-W38 — budget left $18972.43 (today $163457.79 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3nGVK8LKaHaiU3vkSjW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,972 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.5% over the month; 84% of today's range
+~ WORKING take_profit 100% IBM @ $251.22 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $248.67 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $242.98 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25369.76 (+1.48% on $25000.00 in) · cash $16377.44 · realised +377.44
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15972.43 this week

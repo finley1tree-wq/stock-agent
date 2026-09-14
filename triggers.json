@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "44ac133b",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 151.1819,
-   "status": "cancelled",
-   "created": "2026-09-11 15:23",
-   "created_ts": 1789154627,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $152.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "68228438",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.6728,
-   "status": "cancelled",
-   "created": "2026-09-11 15:23",
-   "created_ts": 1789154627,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $152.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "63e5baa4",
-   "ticker": "SPCX",
-   "kind": "take_profit",
-   "price": 150.5801,
-   "status": "filled",
-   "created": "2026-09-11 15:23",
-   "created_ts": 1789154627,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $149.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:31"
-  },
-  {
    "id": "2b0c1d79",
    "ticker": "SPCX",
    "kind": "stop_loss",
@@ -7542,7 +7486,58 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "8cc04e0d",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 251.2164,
+   "status": "working",
+   "created": "2026-09-14 14:10",
+   "created_ts": 1789409408,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $250.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "067bef79",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 248.6714,
+   "status": "working",
+   "created": "2026-09-14 14:10",
+   "created_ts": 1789409408,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $250.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4b849044",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 242.9753,
+   "status": "working",
+   "created": "2026-09-14 14:10",
+   "created_ts": 1789409408,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $250.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 14:07"
+ "updated": "2026-09-14 14:10"
 }
