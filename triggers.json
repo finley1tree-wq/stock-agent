@@ -1,101 +1,6 @@
 {
  "orders": [
   {
-   "id": "f013ec11",
-   "ticker": "TNON",
-   "kind": "stop_loss",
-   "price": 5.868,
-   "status": "cancelled",
-   "created": "2026-09-11 14:39",
-   "created_ts": 1789151963,
-   "why": "close it all at -5.5% under the average cost",
-   "evidence": "average cost $5.82",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:40",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "e3934add",
-   "ticker": "TNON",
-   "kind": "stop_loss",
-   "price": 5.88,
-   "status": "cancelled",
-   "created": "2026-09-11 14:40",
-   "created_ts": 1789152024,
-   "why": "close it all at -5.5% under the average cost",
-   "evidence": "average cost $5.82",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ee5b7880",
-   "ticker": "MO",
-   "kind": "take_profit",
-   "price": 69.2026,
-   "status": "cancelled",
-   "created": "2026-09-11 14:44",
-   "created_ts": 1789152247,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $69.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:56",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d9156625",
-   "ticker": "MO",
-   "kind": "stop_loss",
-   "price": 68.6688,
-   "status": "cancelled",
-   "created": "2026-09-11 14:44",
-   "created_ts": 1789152247,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $69.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:50",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "19de0519",
-   "ticker": "MO",
-   "kind": "buy_limit",
-   "price": 66.9785,
-   "status": "cancelled",
-   "created": "2026-09-11 14:44",
-   "created_ts": 1789152247,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $69.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 14:56",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9215e0dd",
    "ticker": "GOOGL",
    "kind": "take_profit",
@@ -6844,7 +6749,7 @@
    "ticker": "ALP",
    "kind": "take_profit",
    "price": 4.2514,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:23",
    "created_ts": 1789402988,
    "why": "close 100% at +1.2% over the average cost",
@@ -6854,7 +6759,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:53",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a5ffa02b",
@@ -6880,7 +6787,7 @@
    "ticker": "ALP",
    "kind": "buy_limit",
    "price": 4.074,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:23",
    "created_ts": 1789402988,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6890,7 +6797,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 12:53",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8a0c2d9c",
@@ -6972,7 +6881,7 @@
    "ticker": "ALP",
    "kind": "stop_loss",
    "price": 4.0714,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:25",
    "created_ts": 1789403154,
    "why": "close it all at -3.1% under the average cost",
@@ -6982,7 +6891,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:53",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7be2c21e",
@@ -7262,7 +7173,7 @@
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 155.0481,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:45",
    "created_ts": 1789404346,
    "why": "close it all at -0.7% under the average cost",
@@ -7272,7 +7183,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:53",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7d67322b",
@@ -7428,7 +7341,7 @@
    "ticker": "GRNT",
    "kind": "take_profit",
    "price": 5.1648,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:48",
    "created_ts": 1789404528,
    "why": "close 100% at +0.3% over the average cost",
@@ -7438,14 +7351,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:52",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ee836975",
    "ticker": "GRNT",
    "kind": "stop_loss",
    "price": 5.1129,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:48",
    "created_ts": 1789404528,
    "why": "close it all at -0.7% under the average cost",
@@ -7455,7 +7370,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:52",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1dc4692f",
@@ -7524,7 +7441,96 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "b23bcda3",
+   "ticker": "GRNT",
+   "kind": "take_profit",
+   "price": 5.4075,
+   "status": "cancelled",
+   "created": "2026-09-14 12:52",
+   "created_ts": 1789404749,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $5.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:53",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "0d83b100",
+   "ticker": "GRNT",
+   "kind": "stop_loss",
+   "price": 5.0213,
+   "status": "cancelled",
+   "created": "2026-09-14 12:52",
+   "created_ts": 1789404749,
+   "why": "close it all at -2.5% under the average cost",
+   "evidence": "average cost $5.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:53",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "06910996",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 156.4,
+   "status": "working",
+   "created": "2026-09-14 12:53",
+   "created_ts": 1789404795,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $156.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d4a01918",
+   "ticker": "GRNT",
+   "kind": "take_profit",
+   "price": 5.1648,
+   "status": "working",
+   "created": "2026-09-14 12:53",
+   "created_ts": 1789404795,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $5.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4245b6f3",
+   "ticker": "GRNT",
+   "kind": "stop_loss",
+   "price": 5.1129,
+   "status": "working",
+   "created": "2026-09-14 12:53",
+   "created_ts": 1789404795,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $5.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 12:51"
+ "updated": "2026-09-14 12:53"
 }

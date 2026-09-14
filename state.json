@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 14955.29,
+  "spent": 11995.17,
   "deployed": 145457.79,
   "by_ticker": {
     "IBM": 0.03,
@@ -9,7 +9,7 @@
     "BE": 3027.24,
     "FLD": 1.2,
     "TPL": 18.43,
-    "ALP": 3000.0,
+    "ALP": 39.88,
     "AAPL": 3000.0,
     "CHRW": 3000.0,
     "GRNT": 3000.0
@@ -1855,13 +1855,33 @@
       ],
       "evidence": "average cost $346.52",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ALP",
+      "side": "sell",
+      "qty": 714.142886,
+      "status": "filled",
+      "price": 4.14,
+      "proceeds": 2960.12,
+      "realized_pnl": -39.88,
+      "realized_pct": -1.33,
+      "date": "2026-09-14",
+      "time_et": "12:53",
+      "ts": 1789404795,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -1.21% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 14955.29,
+  "spent_today": 11995.17,
   "deployed_today": 145457.79,
   "orders_today": 50,
-  "sells_today": 45,
+  "sells_today": 46,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1881,7 +1901,7 @@
     "MAIA"
   ],
   "sold_ts": {
-    "ALP": 1789400254,
+    "ALP": 1789404796,
     "HLI": 1789404449,
     "META": 1789404628,
     "CHRW": 1789399860,
@@ -1898,27 +1918,24 @@
     "GRNT": 1789401722,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789404627,
-  "last_check_ts": 1789404704,
+  "last_publish_ts": 1789404795,
+  "last_check_ts": 1789404795,
   "last_bar_ts": 1789404600,
   "last_decision_ts": 1789404704,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "0214decb": 156.6051,
+    "06910996": 156.4,
     "04c8e17d": 335.7407,
-    "8f6c6884": 5.1648,
-    "ee836975": 5.1129,
+    "d4a01918": 5.1648,
+    "4245b6f3": 5.1129,
     "3c8efacd": 332.69,
     "14414185": 260.0324,
-    "71014047": 155.0481,
-    "3f4ad361": 4.074,
-    "e5c9d167": 4.0714,
     "1fb65c53": 253.3727,
-    "788aab85": 4.2514,
     "1dc4692f": 4.9955,
-    "aeea7c76": 324.8239,
     "a906f948": 250.3861,
+    "aeea7c76": 324.8239,
     "7d67322b": 151.4752
   }
 }
