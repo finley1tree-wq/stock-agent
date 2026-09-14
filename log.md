@@ -1947,3 +1947,18 @@ Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% BE [time stop] -> $2966.77 (-1.11%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 11:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 11:04 ET (Monday) — week 2026-W38 — budget left $18981.36 (today $70457.79 put to work, 25 buys, 23 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3Y9hpNpAGxhNVuQw5hi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,981 idle, so opened 1: TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TPL [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +7.5% over the month; 18% of today's range
+~ WORKING take_profit 100% TPL @ $374.35 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% TPL @ $369.58 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 TPL @ $361.80 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25288.19 (+1.15% on $25000.00 in) · cash $16279.71 · realised +279.71
+Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15981.36 this week

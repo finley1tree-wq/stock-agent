@@ -2126,8 +2126,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.47,
-    "ret_final": 0.47,
+    "ret_now": -0.05,
+    "ret_final": -0.05,
     "ret_src": "realised"
   },
   {
@@ -3576,8 +3576,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.75,
-    "ret_final": 0.75,
+    "ret_now": -0.17,
+    "ret_final": -0.17,
     "ret_src": "realised"
   },
   {
@@ -4492,7 +4492,9 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.97
+    "ret_now": -1.11,
+    "ret_final": -1.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -4708,7 +4710,7 @@
     "code_version": "de77cb5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.34
   },
   {
     "symbol": "AAPL",
@@ -4810,6 +4812,33 @@
     "evidence": "bought 30 min ago, -1.09% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "985811c"
+    "code_version": "985811c",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "TPL",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.043012,
+    "price": 372.99,
+    "date": "2026-09-14",
+    "time_et": "11:04",
+    "ts": 1789398299,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +7.5% over the month; 18% of today's range",
+    "entry_price": 372.92,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.46,
+    "hour_et": 11,
+    "code_version": "3659094",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
