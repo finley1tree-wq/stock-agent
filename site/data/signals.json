@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T10:28-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,981 idle, so opened 3: IBM, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the lo",
+ "asOf": "2026-09-14T10:30-04:00",
+ "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "92af1594",
-   "ticker": "ALP",
-   "kind": "take_profit",
-   "price": 4.1207,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 4.12,
-   "pct_away": 0.02,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +1.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "245615e6",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 155.34,
-   "pct_away": 0.26,
+   "last": 155.43,
+   "pct_away": 0.2,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -180,42 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.9,
-   "pct_away": 0.28,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "56fbb49b",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 245.7956,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 245.03,
-   "pct_away": 0.31,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6f71f6a5",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 138.0722,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 137.43,
-   "pct_away": 0.47,
+   "last": 333.09,
+   "pct_away": 0.22,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -231,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 487.38,
-   "pct_away": 0.48,
+   "last": 488.17,
+   "pct_away": 0.31,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -241,17 +190,17 @@
    ]
   },
   {
-   "id": "b502db93",
-   "ticker": "ALP",
-   "kind": "stop_loss",
-   "price": 4.1,
+   "id": "56fbb49b",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 245.7956,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 4.12,
-   "pct_away": -0.49,
+   "last": 245.0,
+   "pct_away": 0.32,
    "good_until": "2026-09-19",
-   "why": "close it all at -3.1% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,10 +214,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 652.59,
-   "pct_away": 0.54,
+   "last": 652.63,
+   "pct_away": 0.53,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6f71f6a5",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 138.0722,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 137.32,
+   "pct_away": 0.55,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.43,
-   "pct_away": -0.63,
+   "last": 137.32,
+   "pct_away": -0.55,
    "good_until": "2026-09-19",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -299,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.9,
-   "pct_away": -0.63,
+   "last": 333.09,
+   "pct_away": -0.69,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -316,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 245.03,
-   "pct_away": -0.71,
+   "last": 245.0,
+   "pct_away": -0.7,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -333,7 +299,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 652.59,
+   "last": 652.63,
    "pct_away": -0.74,
    "good_until": "2026-09-19",
    "why": "close it all at -0.9% under the average cost",
@@ -350,8 +316,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 155.34,
-   "pct_away": -0.74,
+   "last": 155.43,
+   "pct_away": -0.8,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -367,27 +333,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 487.38,
-   "pct_away": -1.12,
+   "last": 488.17,
+   "pct_away": -1.28,
    "good_until": "2026-09-19",
    "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ee15588b",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 634.1084,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 652.59,
-   "pct_away": -2.83,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -401,8 +350,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 137.43,
-   "pct_away": -2.85,
+   "last": 137.32,
+   "pct_away": -2.77,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ee15588b",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 634.1084,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 652.63,
+   "pct_away": -2.84,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 245.03,
-   "pct_away": -2.98,
+   "last": 245.0,
+   "pct_away": -2.97,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -435,25 +401,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 332.9,
-   "pct_away": -2.98,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c36dbe23",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 472.8556,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 487.38,
-   "pct_away": -2.98,
+   "last": 333.09,
+   "pct_away": -3.03,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -469,8 +418,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 155.34,
-   "pct_away": -3.02,
+   "last": 155.43,
+   "pct_away": -3.08,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -479,15 +428,15 @@
    ]
   },
   {
-   "id": "e43e3ddd",
-   "ticker": "ALP",
+   "id": "c36dbe23",
+   "ticker": "AMD",
    "kind": "buy_limit",
-   "price": 3.9479,
+   "price": 472.8556,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 4.12,
-   "pct_away": -4.18,
+   "last": 488.17,
+   "pct_away": -3.14,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -496,8 +445,8 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,981 idle, so opened 3: IBM, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the lo",
- "next_check_minutes": 6,
+ "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
+ "next_check_minutes": null,
  "allowed": [
   "AAPL",
   "ALP",
@@ -561,7 +510,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 85,
+  "decisions_recorded": 86,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -681,7 +630,7 @@
   },
   "idle_checks": 56,
   "blocked_checks": 0,
-  "idle_share": 0.66,
+  "idle_share": 0.65,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2641,6 +2590,11 @@
   ],
   "IBM": [
    {
+    "title": "Should You Buy Dell Technologies Stock For All That AI Revenue?",
+    "source": "Trefis",
+    "when": "2026-09-14T14:13"
+   },
+   {
     "title": "Here is What to Know Beyond Why International Business Machines Corporation (IBM) is a Trending Stock",
     "source": "Zacks",
     "when": "2026-09-14T13:00"
@@ -2649,11 +2603,6 @@
     "title": "Dreamforce Will Pitch Unified Agent Trust. The Market Is Still Stitching Together Three Separate Layers",
     "source": "Forkast News",
     "when": "2026-09-13T17:24"
-   },
-   {
-    "title": "How to Play IBM Stock as It Teams Up with NASA to Launch a New Open-Source Model",
-    "source": "Barchart",
-    "when": "2026-09-13T11:47"
    }
   ],
   "INTC": [
@@ -3044,5 +2993,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T10:28-04:00"
+ "signalsAsOf": "2026-09-14T10:30-04:00"
 }

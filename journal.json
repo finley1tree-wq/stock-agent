@@ -3518,8 +3518,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.19,
-    "ret_final": 1.19,
+    "ret_now": 1.21,
+    "ret_final": 1.21,
     "ret_src": "realised"
   },
   {
@@ -4238,7 +4238,9 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.23
+    "ret_now": 1.23,
+    "ret_final": 1.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -4265,7 +4267,7 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.21
   },
   {
     "symbol": "META",
@@ -4318,7 +4320,7 @@
     "code_version": "2d545c2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.1
   },
   {
     "symbol": "IBM",
@@ -4344,7 +4346,8 @@
     "hour_et": 10,
     "code_version": "688801e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.01
   },
   {
     "symbol": "AAPL",
@@ -4369,7 +4372,8 @@
     "hour_et": 10,
     "code_version": "688801e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.06
   },
   {
     "symbol": "AMD",
@@ -4394,6 +4398,34 @@
     "hour_et": 10,
     "code_version": "688801e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.16
+  },
+  {
+    "symbol": "ALP",
+    "side": "sell",
+    "qty": 736.953346,
+    "status": "filled",
+    "price": 4.12,
+    "proceeds": 3036.76,
+    "realized_pnl": 36.76,
+    "realized_pct": 1.23,
+    "date": "2026-09-14",
+    "time_et": "10:30",
+    "ts": 1789396200,
+    "why": "close 100% at +1.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $4.07",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "df8a030",
+    "hold_minutes": 7
   }
 ]
