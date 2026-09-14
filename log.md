@@ -1521,3 +1521,22 @@ Decision: nothing at this check. 26 standing order(s) working.
 - SELL 100% META [take_profit @ $652.98] -> $3010.80 (+0.36%) — close 100% at +0.4% over the average cost
 - BUY $1000.00 AMD [buy_limit @ $482.28] — strong month, weak day: resting 0.85% under $486.40 to catch the dip
 ## 2026-09-14 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $153.15] -> $3008.12 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-14 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 09:37 ET (Monday) — week 2026-W38 — budget left $12063.85 (today $25000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RUzesNvAna2vv3GioV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $12,064 idle, so opened 2: TTD, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +0.3% over the month; 76% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +8.7% over the month; 13% of today's range
+~ WORKING take_profit 100% TTD @ $14.68 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.45 until 2026-09-19 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.17 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $332.72 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $329.68 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $321.89 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25196.05 (+0.78% on $25000.00 in) · cash $6216.31 · realised +216.31
+Done: 0 sell(s), 2 buy(s); 22 order(s) working; budget left $6063.85 this week
