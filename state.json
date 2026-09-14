@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 17997.13,
-  "deployed": 133457.79,
+  "spent": 23997.13,
+  "deployed": 139457.79,
   "by_ticker": {
     "IBM": 3005.72,
-    "GOOGL": 19.01,
+    "GOOGL": 3019.01,
     "HLI": 3007.39,
     "AMD": 3.77,
     "BE": 27.24,
@@ -13,11 +13,12 @@
     "ALP": 3000.0,
     "NEM": 3000.0,
     "META": 3000.0,
-    "AAPL": 3000.0
+    "AAPL": 3000.0,
+    "CHRW": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
-    "CHRW": 9000.0,
+    "CHRW": 12000.0,
     "BE": 9000.0,
     "IBM": 12000.0,
     "FLD": 6000.0,
@@ -28,7 +29,7 @@
     "TTD": 9000.0,
     "AAPL": 12000.0,
     "MSFT": 6457.79,
-    "GOOGL": 3000.0,
+    "GOOGL": 6000.0,
     "TPL": 6000.0,
     "GRNT": 3000.0,
     "MAIA": 3000.0
@@ -1680,12 +1681,47 @@
         "autopilot"
       ],
       "evidence": "+9.7% over the month; 83% of today's range"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.210915,
+      "price": 156.16,
+      "date": "2026-09-14",
+      "time_et": "12:45",
+      "ts": 1789404346,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +4.5% over the month; 85% of today's range"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.657527,
+      "price": 346.52,
+      "date": "2026-09-14",
+      "time_et": "12:45",
+      "ts": 1789404346,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.0% over the month; 83% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 17997.13,
-  "deployed_today": 133457.79,
-  "orders_today": 46,
+  "spent_today": 23997.13,
+  "deployed_today": 139457.79,
+  "orders_today": 48,
   "sells_today": 40,
   "sold_today": [
     "ALP",
@@ -1723,30 +1759,36 @@
     "GRNT": 1789401722,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789403909,
-  "last_check_ts": 1789404259,
-  "last_bar_ts": 1789404000,
-  "last_decision_ts": 1789404170,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789404346,
+  "last_check_ts": 1789404346,
+  "last_bar_ts": 1789404300,
+  "last_decision_ts": 1789404346,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "9fa93c41": 137.209,
     "120e223c": 136.98,
     "e6707792": 250.9256,
-    "04c8e17d": 335.7407,
+    "ab8d557d": 347.3309,
     "5a75be13": 663.4834,
+    "04c8e17d": 335.7407,
+    "0214decb": 156.6051,
     "8a0c2d9c": 123.2726,
+    "5ac0c942": 344.4963,
     "3c8efacd": 332.69,
+    "71014047": 155.0481,
     "c218d773": 248.386,
-    "116a9c2c": 121.583,
-    "a96b60b5": 655.1798,
-    "788aab85": 4.2514,
     "3f4ad361": 4.074,
+    "116a9c2c": 121.583,
     "e5c9d167": 4.0714,
+    "a96b60b5": 655.1798,
     "bc51aef6": 119.1063,
     "aeea7c76": 324.8239,
+    "7d67322b": 151.4752,
+    "60206a38": 336.1244,
     "983378db": 242.694,
     "38624d60": 641.2767,
-    "b684fb2e": 132.6669
+    "b684fb2e": 132.6669,
+    "788aab85": 4.2514
   }
 }
