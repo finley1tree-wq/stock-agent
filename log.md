@@ -1931,3 +1931,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25273.24 (+1.09% on $25000.00 in) · cash $15854.14 · realised +311.93
 Decision: nothing at this check. 13 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $501.67] -> $458.80 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-14 11:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
