@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "9801e338",
-   "ticker": "SPY",
-   "kind": "stop_loss",
-   "price": 760.0,
-   "status": "cancelled",
-   "created": "2026-09-11 12:24",
-   "created_ts": 1789143880,
-   "why": "protect index position",
-   "evidence": "SPY day_low 763.6, ATR 0.73%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 12:54",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c77ba476",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 272.247,
-   "status": "cancelled",
-   "created": "2026-09-11 12:24",
-   "created_ts": 1789143880,
-   "why": "wanted it, but not at the high \u2014 resting at $272.25. Strong catalyst-driven breakout with S&P 500 inclusion news, congress net buy pressure 2.0",
-   "evidence": "BE +6.73% today on 'Bloom Energy Climbs 7% as Fuel Cell Bid Spreads Beyond S&P 500 Add' - IBD 'Nears Buy Point, S&P 500 Entry'",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-11",
-   "usd": 2000.0,
-   "closed": "2026-09-11 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "2ae07efe",
    "ticker": "AAPL",
    "kind": "buy_limit",
@@ -7443,7 +7405,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 134.9223,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:39",
    "created_ts": 1789400382,
    "why": "close it all at -0.8% under the average cost",
@@ -7453,7 +7415,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 11:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "fab3ab85",
@@ -7512,7 +7476,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 332.0078,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:43",
    "created_ts": 1789400586,
    "why": "close it all at -0.7% under the average cost",
@@ -7522,7 +7486,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 11:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6610a12f",
@@ -7540,6 +7506,40 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "05096386",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 136.152,
+   "status": "working",
+   "created": "2026-09-14 11:46",
+   "created_ts": 1789400798,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $136.02",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9abfab54",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 334.456,
+   "status": "working",
+   "created": "2026-09-14 11:46",
+   "created_ts": 1789400798,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $334.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-09-14 11:46"

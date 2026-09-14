@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T11:45-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-14T11:46-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "9abfab54",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 334.456,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 334.64,
+   "pct_away": -0.05,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "05096386",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 136.152,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 136.24,
+   "pct_away": -0.06,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "67b45a02",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -146,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 334.52,
-   "pct_away": 0.16,
+   "last": 334.64,
+   "pct_away": 0.12,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,61 +197,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 136.07,
-   "pct_away": 0.29,
+   "last": 136.24,
+   "pct_away": 0.16,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "98cb9638",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 332.0078,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 334.52,
-   "pct_away": -0.75,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "26eb4cff",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 134.9223,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 136.07,
-   "pct_away": -0.84,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fab3ab85",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 131.9394,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 136.07,
-   "pct_away": -3.04,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +214,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 334.52,
-   "pct_away": -3.1,
+   "last": 334.64,
+   "pct_away": -3.13,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fab3ab85",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 131.9394,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 136.24,
+   "pct_away": -3.16,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

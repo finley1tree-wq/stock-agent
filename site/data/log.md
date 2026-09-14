@@ -1,17 +1,3 @@
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.9% over the month; 56% of today's range
-~ WORKING take_profit 100% IBM @ $245.80 until 2026-09-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% IBM @ $243.29 until 2026-09-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 IBM @ $237.73 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AAPL @ $333.84 until 2026-09-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AAPL @ $330.80 until 2026-09-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AAPL @ $322.98 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $489.70 until 2026-09-19 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% AMD @ $481.93 until 2026-09-19 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $472.86 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25304.82 (+1.22% on $25000.00 in) · cash $4279.33 · realised +279.33
-Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $3980.99 this week
-
-## 2026-09-14 10:30 ET (Monday) — week 2026-W38 — budget left $3980.99 (today $58000.00 put to work, 20 buys, 13 sells) — SIM (pretend money) via sim
   (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
   (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
   (cancelled 2 standing order(s) on ALP: position closed)
@@ -398,3 +384,17 @@ Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16027.04 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $658.98] -> $3003.17 (+0.11%) — close it all at -0.9% under the average cost
 ## 2026-09-14 11:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 11:46 ET (Monday) — week 2026-W38 — budget left $19030.21 (today $94457.79 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3bH12XFPHwXHtthpcUY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25335.36 (+1.34% on $25000.00 in) · cash $19328.55 · realised +328.55
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
