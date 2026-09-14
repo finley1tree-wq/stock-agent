@@ -1917,3 +1917,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25259.98 (+1.04% on $25000.00 in) · cash $9872.70 · realised +330.49
 Decision: nothing at this check. 19 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AAPL [time stop] -> $2994.21 (-0.19%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $2987.23 (-0.43%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 10:57 ET — tick — 2 sell(s), 0 buy(s) from standing orders
