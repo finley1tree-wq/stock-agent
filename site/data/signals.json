@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T14:52-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,935 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-14T15:03-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,935 idle, so opened 2: GRNT, TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,17 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "65e7f623",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 135.9283,
+   "id": "f7f46862",
+   "ticker": "GRNT",
+   "kind": "take_profit",
+   "price": 5.1448,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 136.45,
-   "pct_away": -0.38,
+   "last": 5.12,
+   "pct_away": 0.48,
    "good_until": "2026-09-19",
-   "why": "close it all at -0.8% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.31,
-   "pct_away": 0.43,
+   "last": 123.19,
+   "pct_away": 0.53,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "07332e2c",
+   "ticker": "GRNT",
+   "kind": "stop_loss",
+   "price": 5.0929,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 5.12,
+   "pct_away": -0.53,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,10 +197,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 136.45,
-   "pct_away": 0.75,
+   "last": 136.73,
+   "pct_away": 0.54,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "093a96be",
+   "ticker": "TPL",
+   "kind": "stop_loss",
+   "price": 365.0794,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 367.07,
+   "pct_away": -0.54,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "65e7f623",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 135.9283,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 136.73,
+   "pct_away": -0.59,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4f67a37e",
+   "ticker": "TPL",
+   "kind": "take_profit",
+   "price": 369.922,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 367.07,
+   "pct_away": 0.78,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +265,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.31,
-   "pct_away": -0.94,
+   "last": 123.19,
+   "pct_away": -0.84,
    "good_until": "2026-09-19",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ed4a9e16",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 357.4838,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 367.07,
+   "pct_away": -2.61,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +299,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 136.45,
-   "pct_away": -2.59,
+   "last": 136.73,
+   "pct_away": -2.79,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "92e546b0",
+   "ticker": "GRNT",
+   "kind": "buy_limit",
+   "price": 4.9761,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 5.12,
+   "pct_away": -2.81,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -231,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 123.31,
-   "pct_away": -2.96,
+   "last": 123.19,
+   "pct_away": -2.87,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -241,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,935 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,935 idle, so opened 2: GRNT, TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -250,6 +352,7 @@
   "AORT",
   "AVGO",
   "BE",
+  "BLNE",
   "CCJ",
   "CHRW",
   "CRWD",
@@ -259,6 +362,7 @@
   "FWONK",
   "GLD",
   "GOOGL",
+  "GRNT",
   "HD",
   "HLI",
   "HMN",
@@ -280,6 +384,7 @@
   "RTX",
   "SKWD",
   "SPY",
+  "TPL",
   "TSM",
   "TTD",
   "UNH",
@@ -288,13 +393,19 @@
  "feed_status": {
   "congress": "ok",
   "congress_source": "congresswatch",
-  "congress_notes": "fmp: 429 Client Error: Too Many Requests for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
-  "insiders": "unavailable",
-  "excluded_instruments": []
+  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "insiders": "ok",
+  "excluded_instruments": [
+   "ASRV excluded: too thinly traded (19,293/day) \u2014 AmeriServ Financial, Inc.",
+   "BDCO excluded: too thinly traded (30,108/day) \u2014 Blue Dolphin Energy Company",
+   "CCFN excluded: too thinly traded (2,651/day) \u2014 Muncy Columbia Financial Corporation",
+   "IRIX excluded: too thinly traded (67,237/day) \u2014 IRIDEX Corporation",
+   "RCG excluded: too thinly traded (5,209/day) \u2014 RENN Fund, Inc."
+  ]
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 178,
+  "decisions_recorded": 182,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -412,7 +523,7 @@
     "n": 1
    }
   },
-  "idle_checks": 115,
+  "idle_checks": 118,
   "blocked_checks": 0,
   "idle_share": 0.65,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1322,8 +1433,380 @@
   "WMT": 1.0,
   "WPM": 1.0
  },
- "insider_trades": [],
- "insider_pressure": {},
+ "insider_trades": [
+  {
+   "who": "Rabelo Pedro Guedes",
+   "role": "officer: Financial Officer Ipiranga",
+   "ticker": "UGP",
+   "type": "sell",
+   "shares": 30000,
+   "price": 7.58,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Linden Leonardo Remiao",
+   "role": "officer: CEO Ipiranga",
+   "ticker": "UGP",
+   "type": "sell",
+   "shares": 60000,
+   "price": 7.57,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "CONYERS INVESTMENTS LLC",
+   "role": "10 percent owner",
+   "ticker": "NMAX",
+   "type": "sell",
+   "shares": 24448,
+   "price": 11.03,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "CONYERS INVESTMENTS LLC",
+   "role": "10 percent owner",
+   "ticker": "NMAX",
+   "type": "sell",
+   "shares": 288.5,
+   "price": 11.7,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "McDougall William Christopher",
+   "role": "other: Director of Corp. Development",
+   "ticker": "BDCO",
+   "type": "buy",
+   "shares": 100,
+   "price": 12,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "McDougall William Christopher",
+   "role": "other: Director of Corp. Development",
+   "ticker": "BDCO",
+   "type": "buy",
+   "shares": 100,
+   "price": 12,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "McDougall William Christopher",
+   "role": "other: Director of Corp. Development",
+   "ticker": "BDCO",
+   "type": "buy",
+   "shares": 100,
+   "price": 12.59,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "McDougall William Christopher",
+   "role": "other: Director of Corp. Development",
+   "ticker": "BDCO",
+   "type": "buy",
+   "shares": 100,
+   "price": 12.6,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "McDougall William Christopher",
+   "role": "other: Director of Corp. Development",
+   "ticker": "BDCO",
+   "type": "buy",
+   "shares": 200,
+   "price": 13.65,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "McDougall William Christopher",
+   "role": "other: Director of Corp. Development",
+   "ticker": "BDCO",
+   "type": "buy",
+   "shares": 200,
+   "price": 12.55,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "McDougall William Christopher",
+   "role": "other: Director of Corp. Development",
+   "ticker": "BDCO",
+   "type": "buy",
+   "shares": 100,
+   "price": 13.15,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "WOOD PHOEBE A",
+   "role": "director",
+   "ticker": "IVZ",
+   "type": "sell",
+   "shares": 3000,
+   "price": 32.44,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Scott Jonathan R",
+   "role": "10 percent owner",
+   "ticker": "FIBK",
+   "type": "sell",
+   "shares": 16929,
+   "price": 37.03,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "DONEGAL MUTUAL INSURANCE CO",
+   "role": "10 percent owner",
+   "ticker": "DGICA",
+   "type": "buy",
+   "shares": 9725,
+   "price": 19.254,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "DONEGAL MUTUAL INSURANCE CO",
+   "role": "10 percent owner",
+   "ticker": "DGICA",
+   "type": "buy",
+   "shares": 45000,
+   "price": 19.226,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "MILLER JEFFREY DEAN",
+   "role": "officer: EVP & Chief Financial Officer",
+   "ticker": "DGICA",
+   "type": "sell",
+   "shares": 21000,
+   "price": 19.226,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "LAMBRECHT COREY ALLEN",
+   "role": "director, officer: President, COO",
+   "ticker": "AREB",
+   "type": "sell",
+   "shares": 2000,
+   "price": 1.5,
+   "transaction_date": "2026-09-09",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "BURKE KEVIN GERARD",
+   "role": "director, officer: President & Chief Exec Officer",
+   "ticker": "DGICA",
+   "type": "sell",
+   "shares": 24000,
+   "price": 19.226,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Lauro Emanuele",
+   "role": "director, officer: Chief Executive Officer",
+   "ticker": "STNG",
+   "type": "sell",
+   "shares": 234637,
+   "price": 77.5,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Lesage Anne",
+   "role": "officer: Chief Early Development",
+   "ticker": "PHVS",
+   "type": "sell",
+   "shares": 30000,
+   "price": 38.3028,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Liuzza Nicholas Reyland JR",
+   "role": "director, 10 percent owner, officer: Chief Executive Officer",
+   "ticker": "BLNE",
+   "type": "buy",
+   "shares": 22500,
+   "price": 1.0419,
+   "transaction_date": "2026-09-09",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Liuzza Nicholas Reyland JR",
+   "role": "director, 10 percent owner, officer: Chief Executive Officer",
+   "ticker": "BLNE",
+   "type": "buy",
+   "shares": 93200,
+   "price": 1.011,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Liuzza Nicholas Reyland JR",
+   "role": "director, 10 percent owner, officer: Chief Executive Officer",
+   "ticker": "BLNE",
+   "type": "buy",
+   "shares": 33190,
+   "price": 1.044,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "ROBERTS GREGORY N",
+   "role": "director, officer: Chief Executive Officer",
+   "ticker": "GOLD",
+   "type": "sell",
+   "shares": 10000,
+   "price": 45.8338,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Miller Matthew Reade",
+   "role": "director",
+   "ticker": "GRNT",
+   "type": "buy",
+   "shares": 10000,
+   "price": 5.03,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Glunk Robert J",
+   "role": "director",
+   "ticker": "CCFN",
+   "type": "buy",
+   "shares": 40,
+   "price": 28.9,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Glunk Robert J",
+   "role": "director",
+   "ticker": "CCFN",
+   "type": "buy",
+   "shares": 40,
+   "price": 28.9,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Dizon Romeo R",
+   "role": "officer: Chief Financial Officer",
+   "ticker": "IRIX",
+   "type": "buy",
+   "shares": 2354,
+   "price": 0.65,
+   "transaction_date": "2026-09-14",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "STOPKO JEFFREY A",
+   "role": "officer: President & CEO ASRV & Bank",
+   "ticker": "ASRV",
+   "type": "buy",
+   "shares": 2000,
+   "price": 4.94,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Combs Dustin",
+   "role": "officer: VP, PRESIDENT - BOGS & RAFTERS",
+   "ticker": "WEYS",
+   "type": "sell",
+   "shares": 308,
+   "price": 44.36,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Paz Amit",
+   "role": "officer: CHIEF INNOVATION OFFICER",
+   "ticker": "ENLT",
+   "type": "sell",
+   "shares": 4329,
+   "price": 76.5742,
+   "transaction_date": "2026-09-09",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+   "role": "10 percent owner",
+   "ticker": "TPL",
+   "type": "buy",
+   "shares": 1,
+   "price": 367.88,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+   "role": "10 percent owner",
+   "ticker": "RCG",
+   "type": "buy",
+   "shares": 756,
+   "price": 2.98,
+   "transaction_date": "2026-09-11",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "NOVAK STEVEN P",
+   "role": "director",
+   "ticker": "OXSQ",
+   "type": "sell",
+   "shares": 5000,
+   "price": 1.355,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-09-14"
+  },
+  {
+   "who": "Azaria Eynav",
+   "role": "officer: See Remarks",
+   "ticker": "KLTR",
+   "type": "sell",
+   "shares": 3763,
+   "price": 1.4462,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  }
+ ],
+ "insider_pressure": {
+  "BDCO": 7.0,
+  "BLNE": 3.0,
+  "CCFN": 2.0,
+  "GRNT": 1.0,
+  "IRIX": 1.0,
+  "ASRV": 1.0,
+  "TPL": 1.0,
+  "RCG": 1.0,
+  "DGICA": 0.0,
+  "IVZ": -1.0,
+  "FIBK": -1.0,
+  "AREB": -1.0,
+  "STNG": -1.0,
+  "PHVS": -1.0,
+  "GOLD": -1.0,
+  "WEYS": -1.0,
+  "ENLT": -1.0,
+  "OXSQ": -1.0,
+  "KLTR": -1.0,
+  "UGP": -2.0
+ },
  "headlines": {
   "AAPL": [
    {
@@ -1427,6 +1910,23 @@
     "when": "2026-09-14T15:57"
    }
   ],
+  "BLNE": [
+   {
+    "title": "Beeline Holdings Inc (BLNE) (Q2 2026) Earnings Call Highlights: Revenue Surges 57% on Strategic ...",
+    "source": "GuruFocus.com",
+    "when": "2026-08-14T05:01"
+   },
+   {
+    "title": "Beeline Holdings, Inc. Q1 2026 Earnings Call Summary",
+    "source": "Moby",
+    "when": "2026-06-01T12:30"
+   },
+   {
+    "title": "EXCLUSIVE: Beeline Eyes 100% MagicBlocks Buyout To Expand AI And Digital Asset Push",
+    "source": "Benzinga",
+    "when": "2026-05-28T12:30"
+   }
+  ],
   "CCJ": [
    {
     "title": "Wall Street Analysts Think Cameco (CCJ) Is a Good Investment: Is It?",
@@ -1473,9 +1973,9 @@
     "when": "2026-09-14T10:22"
    },
    {
-    "title": "Why CrowdStrike and Palo Alto Are Leading the Software Stock Rally",
-    "source": "Barrons.com",
-    "when": "2026-09-14T18:13"
+    "title": "Stock Market Today: Dow Falls, Trump Hits Out At AI Fears; These Cyber Stocks Near Entries (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-14T18:58"
    }
   ],
   "DIA": [
@@ -1575,9 +2075,26 @@
     "when": "2026-09-14T14:18"
    },
    {
-    "title": "Alphabet Gains as AI Slowdown Fears Split the Computing Trade",
-    "source": "GuruFocus.com",
-    "when": "2026-09-14T18:31"
+    "title": "Stock Market Today: Dow Falls, Trump Hits Out At AI Fears; These Cyber Stocks Near Entries (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-14T18:58"
+   }
+  ],
+  "GRNT": [
+   {
+    "title": "1 of Wall Street\u2019s Favorite Stocks to Research Further and 2 Facing Headwinds",
+    "source": "StockStory",
+    "when": "2026-09-11T23:07"
+   },
+   {
+    "title": "Granite Ridge (GRNT) Grows Profits While Costs Quietly Creep Higher",
+    "source": "Insider Monkey",
+    "when": "2026-09-08T02:13"
+   },
+   {
+    "title": "2 Profitable Stocks with Solid Fundamentals and 1 We Find Risky",
+    "source": "StockStory",
+    "when": "2026-08-28T09:20"
    }
   ],
   "HD": [
@@ -1660,8 +2177,8 @@
     "when": "2026-09-14T17:49"
    },
    {
-    "title": "Stock Market Today: Dow Tries For A Gain, Trump Hits Out At AI Fears; This Fuel Play Clears Entry (Live Coverage)",
-    "source": "Investor's Business Daily",
+    "title": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
+    "source": "Trefis",
     "when": "2026-09-14T16:59"
    }
   ],
@@ -1813,9 +2330,9 @@
     "when": "2026-09-14T13:45"
    },
    {
-    "title": "Nvidia Stock Drops. It\u2019s Still the Best Chip Bet in an AI Slowdown.",
-    "source": "Barrons.com",
-    "when": "2026-09-14T18:26"
+    "title": "Palantir and Nvidia rethink AI use over a growing data risk",
+    "source": "GuruFocus.com",
+    "when": "2026-09-14T19:00"
    }
   ],
   "O": [
@@ -1871,6 +2388,11 @@
   ],
   "PLTR": [
    {
+    "title": "Palantir and Nvidia rethink AI use over a growing data risk",
+    "source": "GuruFocus.com",
+    "when": "2026-09-14T19:00"
+   },
+   {
     "title": "Did You Pay For Palantir's Guidance Or For Something Else?",
     "source": "Trefis",
     "when": "2026-09-14T18:00"
@@ -1879,11 +2401,6 @@
     "title": "Does PLTR's One-Year Consolidation Offer a Buying Opportunity?",
     "source": "Zacks",
     "when": "2026-09-14T17:40"
-   },
-   {
-    "title": "Palantir, Nvidia, Booz Allen restrict Anthropic and OpenAI models",
-    "source": "Quartz",
-    "when": "2026-09-14T17:37"
    }
   ],
   "RTX": [
@@ -1935,6 +2452,23 @@
     "title": "U.S. Household Wealth Explodes by Record $12.5 Trillion in Q2 \u2014 Largest Jump Ever Recorded",
     "source": "24/7 Wall St.",
     "when": "2026-09-14T15:48"
+   }
+  ],
+  "TPL": [
+   {
+    "title": "Jim Cramer Calls Texas Pacific Land (TPL) a \u201cFantastic Stock\u201d",
+    "source": "Insider Monkey",
+    "when": "2026-09-14T18:37"
+   },
+   {
+    "title": "3 Profitable Stocks to Keep an Eye On",
+    "source": "StockStory",
+    "when": "2026-09-12T01:39"
+   },
+   {
+    "title": "Liberty Energy, Green Plains, Murphy Oil, Patterson-UTI, and Texas Pacific Land Shares Are Soaring, What You Need To Know",
+    "source": "StockStory",
+    "when": "2026-09-09T01:59"
    }
   ],
   "TSM": [
@@ -2007,5 +2541,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T14:52-04:00"
+ "signalsAsOf": "2026-09-14T15:03-04:00"
 }

@@ -1,20 +1,21 @@
 {
   "week": "2026-W38",
-  "spent": 6064.81,
-  "deployed": 181936.0,
+  "spent": 12064.81,
+  "deployed": 187936.0,
   "by_ticker": {
     "IBM": 19.3,
     "GOOGL": 32.52,
     "AMD": 3.77,
     "BE": 13.37,
     "FLD": 1.2,
-    "TPL": 18.43,
+    "TPL": 3018.43,
     "ALP": 39.88,
     "AAPL": 6.52,
     "MAIA": 46.66,
     "HLI": 3023.9,
     "NEM": 3007.26,
-    "MSFT": 4.63
+    "MSFT": 4.63,
+    "GRNT": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -30,8 +31,8 @@
     "AAPL": 15000.0,
     "MSFT": 9457.79,
     "GOOGL": 9000.0,
-    "TPL": 6000.0,
-    "GRNT": 6000.0,
+    "TPL": 9000.0,
+    "GRNT": 9000.0,
     "MAIA": 6000.0
   },
   "orders": [
@@ -2413,12 +2414,48 @@
         "autopilot"
       ],
       "evidence": "+8.0% over the month; 82% of today's range"
+    },
+    {
+      "symbol": "GRNT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 585.352148,
+      "price": 5.13,
+      "date": "2026-09-14",
+      "time_et": "15:03",
+      "ts": 1789412622,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. director); +1.7% over the month; 23% of today's range"
+    },
+    {
+      "symbol": "TPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.140267,
+      "price": 368.54,
+      "date": "2026-09-14",
+      "time_et": "15:03",
+      "ts": 1789412622,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +5.8% over the month; 0% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 6064.81,
-  "deployed_today": 181936.0,
-  "orders_today": 63,
+  "spent_today": 12064.81,
+  "deployed_today": 187936.0,
+  "orders_today": 65,
   "sells_today": 61,
   "sold_today": [
     "ALP",
@@ -2456,18 +2493,24 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789411961,
-  "last_check_ts": 1789412543,
+  "last_publish_ts": 1789412622,
+  "last_check_ts": 1789412622,
   "last_bar_ts": 1789412400,
-  "last_decision_ts": 1789412459,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789412622,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "65e7f623": 135.9283,
+    "f7f46862": 5.1448,
     "628fbe91": 123.8423,
+    "07332e2c": 5.0929,
     "6a50c1ef": 137.4712,
+    "093a96be": 365.0794,
+    "65e7f623": 135.9283,
+    "4f67a37e": 369.922,
     "a171ac43": 122.1535,
+    "ed4a9e16": 357.4838,
     "37f82fce": 132.9191,
+    "92e546b0": 4.9761,
     "e9088046": 119.6592
   }
 }

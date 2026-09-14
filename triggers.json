@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "7b5c2473",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 448.7608,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154984,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $462.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "ee1c8392",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 419.3504,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154984,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $432.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "c61518c7",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 631.2566,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154984,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $650.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "949be569",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.6728,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154984,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $152.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "9d52ea9f",
-   "ticker": "SPCX",
-   "kind": "buy_limit",
-   "price": 145.4127,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154984,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e7eb43fd",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.0803,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154984,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $496.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "42830c80",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -7540,7 +7426,109 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "f7f46862",
+   "ticker": "GRNT",
+   "kind": "take_profit",
+   "price": 5.1448,
+   "status": "working",
+   "created": "2026-09-14 15:03",
+   "created_ts": 1789412622,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $5.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "07332e2c",
+   "ticker": "GRNT",
+   "kind": "stop_loss",
+   "price": 5.0929,
+   "status": "working",
+   "created": "2026-09-14 15:03",
+   "created_ts": 1789412622,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $5.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "92e546b0",
+   "ticker": "GRNT",
+   "kind": "buy_limit",
+   "price": 4.9761,
+   "status": "working",
+   "created": "2026-09-14 15:03",
+   "created_ts": 1789412622,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $5.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
+  },
+  {
+   "id": "4f67a37e",
+   "ticker": "TPL",
+   "kind": "take_profit",
+   "price": 369.922,
+   "status": "working",
+   "created": "2026-09-14 15:03",
+   "created_ts": 1789412622,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $368.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "093a96be",
+   "ticker": "TPL",
+   "kind": "stop_loss",
+   "price": 365.0794,
+   "status": "working",
+   "created": "2026-09-14 15:03",
+   "created_ts": 1789412622,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $368.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ed4a9e16",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 357.4838,
+   "status": "working",
+   "created": "2026-09-14 15:03",
+   "created_ts": 1789412622,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $368.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 15:00"
+ "updated": "2026-09-14 15:03"
 }
