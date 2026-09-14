@@ -1934,3 +1934,14 @@ Decision: nothing at this check. 13 standing order(s) working.
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $501.67] -> $458.80 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-09-14 11:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 11:02 ET (Monday) — week 2026-W38 — budget left $16014.59 (today $70457.79 put to work, 25 buys, 22 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3XvZ6Q2s9H2nua5rLbV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25283.96 (+1.14% on $25000.00 in) · cash $16312.94 · realised +312.94
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
