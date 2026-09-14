@@ -1,5 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25342.51 (+1.37% on $25000.00 in) · cash $22344.83 · realised +344.83
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25290.62 (+1.16% on $25000.00 in) · cash $19297.98 · realised +297.98
 Decision: nothing at this check. 6 standing order(s) working.
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
