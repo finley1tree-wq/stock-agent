@@ -1511,3 +1511,13 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25187.19 (+0.75% on $25000.00 in) · cash $1152.46 · realised +152.46
 Decision: nothing at this check. 26 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ALP: position closed)
+- SELL 100% ALP [take_profit @ $4.25] -> $3035.61 (+1.19%) — close 100% at +1.2% over the average cost
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $138.86] -> $3009.32 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-09-14 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (trigger META stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $652.98] -> $3010.80 (+0.36%) — close 100% at +0.4% over the average cost
+- BUY $1000.00 AMD [buy_limit @ $482.28] — strong month, weak day: resting 0.85% under $486.40 to catch the dip
+## 2026-09-14 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders

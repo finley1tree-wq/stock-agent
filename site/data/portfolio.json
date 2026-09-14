@@ -1,18 +1,9 @@
 {
-  "cash": 1152.4626076815402,
+  "cash": 9208.188660419193,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
   "positions": {
-    "ALP": {
-      "qty": 714.1428857085725,
-      "avg_cost": 4.20084,
-      "opened": "2026-09-14",
-      "last_buy": "2026-09-14",
-      "tranches": 1,
-      "last_buy_ts": 1789392803,
-      "opened_ts": 1789392803
-    },
     "CHRW": {
       "qty": 19.64115067759809,
       "avg_cost": 152.740542,
@@ -49,15 +40,6 @@
       "last_buy_ts": 1789392803,
       "opened_ts": 1789392803
     },
-    "HLI": {
-      "qty": 21.67196618479772,
-      "avg_cost": 138.42768,
-      "opened": "2026-09-14",
-      "last_buy": "2026-09-14",
-      "tranches": 1,
-      "last_buy_ts": 1789392803,
-      "opened_ts": 1789392803
-    },
     "NEM": {
       "qty": 24.466923239872784,
       "avg_cost": 122.614518,
@@ -67,14 +49,14 @@
       "last_buy_ts": 1789392803,
       "opened_ts": 1789392803
     },
-    "META": {
-      "qty": 4.610843983914167,
-      "avg_cost": 650.640102,
+    "AMD": {
+      "qty": 2.0734885823351212,
+      "avg_cost": 482.279,
       "opened": "2026-09-14",
       "last_buy": "2026-09-14",
       "tranches": 1,
-      "last_buy_ts": 1789392803,
-      "opened_ts": 1789392803
+      "last_buy_ts": 1789392971,
+      "opened_ts": 1789392971
     }
   },
   "fills": [
@@ -1675,7 +1657,53 @@
       "price": 650.64,
       "type": "buy",
       "date": "2026-09-14 09:33"
+    },
+    {
+      "symbol": "ALP",
+      "side": "sell",
+      "qty": 714.142886,
+      "status": "filled",
+      "price": 4.25,
+      "proceeds": 3035.61,
+      "realized_pnl": 35.61,
+      "realized_pct": 1.19,
+      "type": "sell",
+      "date": "2026-09-14 09:35"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 21.671966,
+      "status": "filled",
+      "price": 138.86,
+      "proceeds": 3009.32,
+      "realized_pnl": 9.32,
+      "realized_pct": 0.31,
+      "type": "sell",
+      "date": "2026-09-14 09:35"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.610844,
+      "status": "filled",
+      "price": 652.98,
+      "proceeds": 3010.8,
+      "realized_pnl": 10.8,
+      "realized_pct": 0.36,
+      "type": "sell",
+      "date": "2026-09-14 09:36"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.073489,
+      "price": 482.28,
+      "type": "buy",
+      "date": "2026-09-14 09:36"
     }
   ],
-  "realized_pnl": 152.46260768154616
+  "realized_pnl": 208.18866041919787
 }

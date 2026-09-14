@@ -1,22 +1,3 @@
-portfolio: equity $25128.79 (+0.52% on $25000.00 in) · cash $3645.39 · realised +145.39
-Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $3502.61 this week
-
-## 2026-09-11 15:06 ET (Friday) — week 2026-W37 — budget left $3502.61 (today $118800.00 put to work, 54 buys, 45 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexBB3eoA18PnPRZEHVDz'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25126.64 (+0.51% on $25000.00 in) · cash $3645.39 · realised +145.39
-Decision: nothing at this check. 32 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-11 15:09 ET (Friday) — week 2026-W37 — budget left $3502.61 (today $118800.00 put to work, 54 buys, 45 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexBPY6QWu7QzNq5Gb4PK'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25121.24 (+0.48% on $25000.00 in) · cash $3645.39 · realised +145.39
@@ -398,3 +379,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $1000.00 AMD @ $482.28 until 2026-09-15 — strong month, weak day: resting 0.85% under $486.40 to catch the dip
 portfolio: equity $25147.66 (+0.59% on $25000.00 in) · cash $1152.46 · realised +152.46
 Done: 0 sell(s), 8 buy(s); 26 order(s) working; budget left $1000.00 this week
+
+## 2026-09-14 09:34 ET (Monday) — week 2026-W38 — budget left $1000.00 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RGRR2fenFkDB3taEr5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25187.19 (+0.75% on $25000.00 in) · cash $1152.46 · realised +152.46
+Decision: nothing at this check. 26 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ALP: position closed)
+- SELL 100% ALP [take_profit @ $4.25] -> $3035.61 (+1.19%) — close 100% at +1.2% over the average cost
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $138.86] -> $3009.32 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-09-14 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (trigger META stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $652.98] -> $3010.80 (+0.36%) — close 100% at +0.4% over the average cost
+- BUY $1000.00 AMD [buy_limit @ $482.28] — strong month, weak day: resting 0.85% under $486.40 to catch the dip
+## 2026-09-14 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
