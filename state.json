@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 3000.0,
-  "deployed": 115457.79,
+  "spent": 9000.0,
+  "deployed": 121457.79,
   "by_ticker": {
     "IBM": 5.72,
     "GOOGL": 19.01,
@@ -9,16 +9,18 @@
     "AMD": 3.77,
     "BE": 27.24,
     "FLD": 1.2,
-    "TPL": 3021.3
+    "TPL": 3021.3,
+    "ALP": 3000.0,
+    "NEM": 3000.0
   },
   "deployed_by_ticker": {
-    "ALP": 9000.0,
+    "ALP": 12000.0,
     "CHRW": 9000.0,
     "BE": 9000.0,
     "IBM": 9000.0,
     "FLD": 6000.0,
     "HLI": 9000.0,
-    "NEM": 9000.0,
+    "NEM": 12000.0,
     "META": 9000.0,
     "AMD": 7000.0,
     "TTD": 9000.0,
@@ -1550,12 +1552,47 @@
         "insider"
       ],
       "evidence": "1 insider bought (Form 4); +7.0% over the month; 19% of today's range"
+    },
+    {
+      "symbol": "ALP",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 714.142886,
+      "price": 4.2,
+      "date": "2026-09-14",
+      "time_et": "12:23",
+      "ts": 1789402988,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +2098.9% over the month; 44% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.431051,
+      "price": 122.79,
+      "date": "2026-09-14",
+      "time_et": "12:23",
+      "ts": 1789402988,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+7.5% over the month; 56% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 3000.0,
-  "deployed_today": 115457.79,
-  "orders_today": 40,
+  "spent_today": 9000.0,
+  "deployed_today": 121457.79,
+  "orders_today": 42,
   "sells_today": 39,
   "sold_today": [
     "ALP",
@@ -1593,15 +1630,21 @@
     "GRNT": 1789401722,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789402818,
-  "last_check_ts": 1789402904,
+  "last_publish_ts": 1789402988,
+  "last_check_ts": 1789402988,
   "last_bar_ts": 1789402800,
-  "last_decision_ts": 1789402818,
+  "last_decision_ts": 1789402988,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "2a509bca": 372.8534,
+    "8a0c2d9c": 123.2726,
     "b32cf977": 368.0834,
-    "13b9f582": 360.3453
+    "116a9c2c": 121.583,
+    "788aab85": 4.2514,
+    "13b9f582": 360.3453,
+    "bc51aef6": 119.1063,
+    "3f4ad361": 4.074,
+    "a5ffa02b": 4.0714
   }
 }

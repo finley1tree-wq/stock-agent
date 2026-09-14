@@ -2391,3 +2391,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 TPL @ $360.35 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25404.42 (+1.62% on $25000.00 in) · cash $22405.02 · realised +405.02
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $22000.00 this week
+
+## 2026-09-14 12:23 ET (Monday) — week 2026-W38 — budget left $22000.00 (today $115457.79 put to work, 40 buys, 39 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3e7RTmXkwdH7BJdugXo'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,000 idle, so opened 2: ALP, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ALP [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +2098.9% over the month; 44% of today's range
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.5% over the month; 56% of today's range
+~ WORKING take_profit 100% ALP @ $4.25 until 2026-09-19 — close 100% at +1.2% over the average cost
+~ WORKING stop_loss 100% ALP @ $4.07 until 2026-09-19 — close it all at -3.1% under the average cost
+~ WORKING buy_limit $500.00 ALP @ $4.07 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $123.27 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $121.58 until 2026-09-19 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.11 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25402.89 (+1.61% on $25000.00 in) · cash $16405.02 · realised +405.02
+Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $16000.00 this week

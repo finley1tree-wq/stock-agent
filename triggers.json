@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "67269aea",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 265.5957,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $273.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 14:21",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "083e53f1",
-   "ticker": "INTC",
-   "kind": "stop_loss",
-   "price": 103.53,
-   "status": "filled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $103.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:01"
-  },
-  {
-   "id": "34759ba0",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 100.4241,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $103.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 14:01",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "5636ffb8",
-   "ticker": "SPCX",
-   "kind": "take_profit",
-   "price": 149.8498,
-   "status": "filled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $149.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:20"
-  },
-  {
-   "id": "6240fac4",
-   "ticker": "SPCX",
-   "kind": "stop_loss",
-   "price": 147.5047,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $149.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:13",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c31e4140",
-   "ticker": "SPCX",
-   "kind": "buy_limit",
-   "price": 144.7046,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 14:20",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "d894da6e",
    "ticker": "AMD",
    "kind": "stop_loss",
@@ -7544,7 +7432,109 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "788aab85",
+   "ticker": "ALP",
+   "kind": "take_profit",
+   "price": 4.2514,
+   "status": "working",
+   "created": "2026-09-14 12:23",
+   "created_ts": 1789402988,
+   "why": "close 100% at +1.2% over the average cost",
+   "evidence": "average cost $4.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a5ffa02b",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.0714,
+   "status": "working",
+   "created": "2026-09-14 12:23",
+   "created_ts": 1789402988,
+   "why": "close it all at -3.1% under the average cost",
+   "evidence": "average cost $4.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3f4ad361",
+   "ticker": "ALP",
+   "kind": "buy_limit",
+   "price": 4.074,
+   "status": "working",
+   "created": "2026-09-14 12:23",
+   "created_ts": 1789402988,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $4.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
+  },
+  {
+   "id": "8a0c2d9c",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.2726,
+   "status": "working",
+   "created": "2026-09-14 12:23",
+   "created_ts": 1789402988,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $122.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "116a9c2c",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 121.583,
+   "status": "working",
+   "created": "2026-09-14 12:23",
+   "created_ts": 1789402988,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $122.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bc51aef6",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 119.1063,
+   "status": "working",
+   "created": "2026-09-14 12:23",
+   "created_ts": 1789402988,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $122.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 12:20"
+ "updated": "2026-09-14 12:23"
 }

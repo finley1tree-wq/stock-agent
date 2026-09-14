@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T12:20-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-14T12:23-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,000 idle, so opened 2: ALP, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gat",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.42,
-   "pct_away": 0.39,
+   "last": 371.38,
+   "pct_away": 0.4,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8a0c2d9c",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.2726,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 122.77,
+   "pct_away": 0.41,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -163,10 +180,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.42,
-   "pct_away": -0.9,
+   "last": 371.38,
+   "pct_away": -0.89,
    "good_until": "2026-09-19",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "116a9c2c",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 121.583,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 122.77,
+   "pct_away": -0.97,
+   "good_until": "2026-09-19",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "788aab85",
+   "ticker": "ALP",
+   "kind": "take_profit",
+   "price": 4.2514,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 4.2,
+   "pct_away": 1.22,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +1.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,7 +231,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.42,
+   "last": 371.38,
+   "pct_away": -2.97,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bc51aef6",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 119.1063,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 122.77,
    "pct_away": -2.98,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -188,9 +256,43 @@
     "risk_management",
     "auto_bracket"
    ]
+  },
+  {
+   "id": "3f4ad361",
+   "ticker": "ALP",
+   "kind": "buy_limit",
+   "price": 4.074,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 4.2,
+   "pct_away": -3.0,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a5ffa02b",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.0714,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 4.2,
+   "pct_away": -3.06,
+   "good_until": "2026-09-19",
+   "why": "close it all at -3.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,000 idle, so opened 2: ALP, NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gat",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -259,7 +361,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 124,
+  "decisions_recorded": 125,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -379,7 +481,7 @@
   },
   "idle_checks": 78,
   "blocked_checks": 0,
-  "idle_share": 0.63,
+  "idle_share": 0.62,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1764,19 +1866,19 @@
  "headlines": {
   "AAPL": [
    {
+    "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:15"
+   },
+   {
+    "title": "Intel Is Stuck in Neutral. There Is Exactly One Thing That Should Change Your Mind.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:12"
+   },
+   {
     "title": "Musk\u2019s xAI Resolves Claims Against Apple Over AI Competition",
     "source": "Bloomberg",
     "when": "2026-09-14T15:22"
-   },
-   {
-    "title": "Forget Nvidia. Apple Could Be the AI Stock to Watch Next.",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-14T15:00"
-   },
-   {
-    "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
-    "source": "Motley Fool",
-    "when": "2026-09-14T14:20"
    }
   ],
   "ALP": [
@@ -1808,9 +1910,9 @@
     "when": "2026-09-14T13:45"
    },
    {
-    "title": "Memory Falls Hardest as AI Chiefs Ask the Industry to Slow Down",
-    "source": "GuruFocus.com",
-    "when": "2026-09-14T16:05"
+    "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:15"
    }
   ],
   "AMZN": [
@@ -1871,14 +1973,14 @@
     "when": "2026-09-14T14:39"
    },
    {
+    "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:15"
+   },
+   {
     "title": "Memory Falls Hardest as AI Chiefs Ask the Industry to Slow Down",
     "source": "GuruFocus.com",
     "when": "2026-09-14T16:05"
-   },
-   {
-    "title": "Nvidia, Broadcom Tumble In AI Rotation; These U.K.-Based Names Gain",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-14T15:23"
    }
   ],
   "BE": [
@@ -2080,9 +2182,9 @@
     "when": "2026-09-14T14:18"
    },
    {
-    "title": "Google: Measurement Shouldn't Be A Record Of Where Budget Went",
-    "source": "MediaPost",
-    "when": "2026-09-14T16:09"
+    "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:15"
    }
   ],
   "GRNT": [
@@ -2269,6 +2371,11 @@
   ],
   "META": [
    {
+    "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:15"
+   },
+   {
     "title": "Prediction: Meta Stock Has\u00a0More Upside Than\u00a0Its Valuation Suggests",
     "source": "24/7 Wall St.",
     "when": "2026-09-14T16:00"
@@ -2277,11 +2384,6 @@
     "title": "Cathie Wood buys $27.9 million of surging megacap stock",
     "source": "TheStreet",
     "when": "2026-09-14T15:33"
-   },
-   {
-    "title": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-14T14:41"
    }
   ],
   "MSFT": [
@@ -2381,9 +2483,9 @@
     "when": "2026-09-14T13:45"
    },
    {
-    "title": "Why Okta Stock Rocketed Higher Today",
-    "source": "Motley Fool",
-    "when": "2026-09-14T16:06"
+    "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:15"
    }
   ],
   "O": [
@@ -2524,6 +2626,11 @@
   ],
   "TSM": [
    {
+    "title": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-14T16:15"
+   },
+   {
     "title": "Jensen Huang Called One AI Company the \u2018TSMC of AI Factories.\u2019 Its CTO Sees What Comes Next",
     "source": "Benzinga Private Markets",
     "when": "2026-09-14T15:47"
@@ -2532,11 +2639,6 @@
     "title": "Buy These 5 Top-Ranked Wide Moat Stocks to Strengthen Your Portfolio",
     "source": "Zacks",
     "when": "2026-09-14T12:45"
-   },
-   {
-    "title": "\u200bInvestors Are Sorting the Winners and Losers From an AI Slowdown",
-    "source": "The Wall Street Journal",
-    "when": "2026-09-14T12:15"
    }
   ],
   "TTD": [
@@ -2592,5 +2694,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T12:20-04:00"
+ "signalsAsOf": "2026-09-14T12:23-04:00"
 }
