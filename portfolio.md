@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-14 12:14 ET
+# Pretend portfolio — 2026-09-14 12:17 ET
 
-**Equity $25347.93** on $25000.00 put in → **+1.39%**  
-Cash $19379.66 · Unrealised -31.73 · Realised +379.66
+**Equity $25388.12** on $25000.00 put in → **+1.55%**  
+Cash $19379.66 · Unrealised +8.46 · Realised +379.66
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| AMD | 11.8% | $2990.60 | $491.09 | $489.55 | -0.31% | 0d |
-| MAIA | 11.7% | $2977.67 | $1.38 | $1.37 | -0.74% | 0d |
+| AMD | 11.9% | $3009.05 | $491.09 | $492.57 | +0.30% | 0d |
+| MAIA | 11.8% | $2999.40 | $1.38 | $1.38 | -0.02% | 0d |
 
 ## Last fills
 

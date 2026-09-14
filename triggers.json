@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "2badfd53",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.374,
-   "status": "filled",
-   "created": "2026-09-11 13:17",
-   "created_ts": 1789147044,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $152.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 13:21"
-  },
-  {
    "id": "604a166d",
    "ticker": "KMT",
    "kind": "stop_loss",
@@ -7323,7 +7305,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 485.5407,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:48",
    "created_ts": 1789400928,
    "why": "close it all at -1.1% under the average cost",
@@ -7333,7 +7315,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:17",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4b854a11",
@@ -7538,7 +7522,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-14 12:12",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "59286d98",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 491.996,
+   "status": "working",
+   "created": "2026-09-14 12:17",
+   "created_ts": 1789402645,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $491.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 12:14"
+ "updated": "2026-09-14 12:17"
 }
