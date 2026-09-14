@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 11989.65,
+  "spent": 8995.06,
   "deployed": 148457.79,
   "by_ticker": {
     "IBM": 0.03,
@@ -10,7 +10,7 @@
     "FLD": 1.2,
     "TPL": 18.43,
     "ALP": 39.88,
-    "AAPL": 3000.0,
+    "AAPL": 5.41,
     "GRNT": 3000.0,
     "MAIA": 3000.0
   },
@@ -1914,13 +1914,33 @@
         "insider"
       ],
       "evidence": "1 insider bought (Form 4, incl. director); +1.1% over the month; 53% of today's range"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 8.958782,
+      "status": "filled",
+      "price": 334.26,
+      "proceeds": 2994.59,
+      "realized_pnl": -5.41,
+      "realized_pct": -0.18,
+      "date": "2026-09-14",
+      "time_et": "13:06",
+      "ts": 1789405600,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.16% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 11989.65,
+  "spent_today": 8995.06,
   "deployed_today": 148457.79,
   "orders_today": 51,
-  "sells_today": 47,
+  "sells_today": 48,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1947,7 +1967,7 @@
     "TTD": 1789401762,
     "AMD": 1789402737,
     "IBM": 1789404582,
-    "AAPL": 1789401075,
+    "AAPL": 1789405602,
     "BE": 1789401722,
     "NEM": 1789404527,
     "MSFT": 1789402342,
@@ -1957,8 +1977,8 @@
     "GRNT": 1789401722,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789405551,
-  "last_check_ts": 1789405551,
+  "last_publish_ts": 1789405600,
+  "last_check_ts": 1789405647,
   "last_bar_ts": 1789405500,
   "last_decision_ts": 1789405551,
   "next_check_minutes": 6,
@@ -1966,14 +1986,11 @@
   "book_px": {
     "a4b5566a": 5.156,
     "d4a01918": 5.1648,
-    "426501e6": 335.7407,
-    "e71f185e": 332.69,
-    "38c9d949": 1.3503,
     "ff39ad8a": 260.035,
+    "38c9d949": 1.3503,
     "7c888ec7": 1.3779,
     "cb651f63": 253.3675,
     "5a4317c8": 1.3289,
-    "aeea7c76": 324.8239,
     "a906f948": 250.3861,
     "1dc4692f": 4.9955
   }

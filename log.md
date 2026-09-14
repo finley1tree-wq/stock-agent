@@ -2675,3 +2675,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 MAIA @ $1.33 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25406.88 (+1.63% on $25000.00 in) · cash $13415.36 · realised +415.36
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13010.35 this week
+- SELL 100% AAPL [time stop] -> $2994.59 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 13:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
