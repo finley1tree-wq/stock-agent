@@ -2104,3 +2104,22 @@ portfolio: equity $25245.36 (+0.98% on $25000.00 in) · cash $13299.95 · realis
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13001.60 this week
 - SELL 100% TPL [time stop] -> $2978.70 (-0.71%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 11:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [stop_loss @ $122.43] -> $3002.51 (+0.08%) — close it all at -1.0% under the average cost
+## 2026-09-14 11:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 11:36 ET (Monday) — week 2026-W38 — budget left $18982.81 (today $85457.79 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3aaW5rvhMTET68gQnPd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,983 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +10.6% over the month; 61% of today's range
+~ WORKING take_profit 100% META @ $660.65 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $652.35 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $638.53 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25245.79 (+0.98% on $25000.00 in) · cash $16281.15 · realised +281.15
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15982.81 this week

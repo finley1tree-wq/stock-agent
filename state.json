@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 9019.7,
-  "deployed": 85457.79,
+  "spent": 9017.19,
+  "deployed": 88457.79,
   "by_ticker": {
     "IBM": 3014.43,
     "GOOGL": 19.01,
@@ -12,7 +12,7 @@
     "FLD": 1.2,
     "TPL": 21.3,
     "ALP": 3000.0,
-    "NEM": 3000.0
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 9000.0,
@@ -22,7 +22,7 @@
     "FLD": 6000.0,
     "HLI": 6000.0,
     "NEM": 9000.0,
-    "META": 6000.0,
+    "META": 9000.0,
     "AMD": 4000.0,
     "TTD": 6000.0,
     "AAPL": 6000.0,
@@ -1123,13 +1123,51 @@
       ],
       "evidence": "bought 30 min ago, -0.69% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.52494,
+      "status": "filled",
+      "price": 122.43,
+      "proceeds": 3002.51,
+      "realized_pnl": 2.51,
+      "realized_pct": 0.08,
+      "date": "2026-09-14",
+      "time_et": "11:36",
+      "ts": 1789400100,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $122.32",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.55732,
+      "price": 658.28,
+      "date": "2026-09-14",
+      "time_et": "11:36",
+      "ts": 1789400209,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+10.6% over the month; 61% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 9019.7,
-  "deployed_today": 85457.79,
-  "orders_today": 30,
-  "sells_today": 27,
+  "spent_today": 9017.19,
+  "deployed_today": 88457.79,
+  "orders_today": 31,
+  "sells_today": 28,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1156,27 +1194,27 @@
     "IBM": 1789397192,
     "AAPL": 1789397872,
     "BE": 1789398213,
-    "NEM": 1789397146,
+    "NEM": 1789400207,
     "MSFT": 1789398040,
     "FLD": 1789399070,
     "GOOGL": 1789395611,
     "TPL": 1789400077
   },
-  "last_publish_ts": 1789400076,
-  "last_check_ts": 1789400122,
+  "last_publish_ts": 1789400209,
+  "last_check_ts": 1789400209,
   "last_bar_ts": 1789400100,
-  "last_decision_ts": 1789400030,
+  "last_decision_ts": 1789400209,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "d0a54fd6": 122.488,
-    "82bc7650": 122.8032,
     "9b0e7bee": 247.957,
+    "81b91dda": 660.6498,
     "a834c325": 245.45,
+    "b901db93": 652.3489,
     "9e11a638": 4.0837,
     "10a15365": 4.0832,
     "c9b3fd25": 4.2607,
-    "7c862c8c": 239.8228,
-    "3c971a4f": 118.6504
+    "730a4d4c": 638.5316,
+    "7c862c8c": 239.8228
   }
 }
