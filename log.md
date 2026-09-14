@@ -1555,3 +1555,12 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $482.23 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25183.67 (+0.73% on $25000.00 in) · cash $6229.09 · realised +229.09
 Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $6076.64 this week
+  (trigger AMD stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $484.49] -> $1004.59 (+0.46%) — close 100% at +0.5% over the average cost
+## 2026-09-14 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $245.33] -> $2976.80 (-0.77%) — close it all at -0.7% under the average cost
+  (cancelled 3 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $332.72] -> $3007.86 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-14 09:41 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,12 +1,3 @@
-
-## 2026-09-11 15:18 ET (Friday) — week 2026-W37 — budget left $8014.47 (today $118800.00 put to work, 54 buys, 47 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexC21oY4RPZnst8bLD7j'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $8,014 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +12.4% over the month; 19% of today's range
 ~ WORKING take_profit 100% META @ $653.15 until 2026-09-16 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% META @ $644.86 until 2026-09-16 — close it all at -0.9% under the average cost
@@ -398,3 +389,12 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $482.23 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25183.67 (+0.73% on $25000.00 in) · cash $6229.09 · realised +229.09
 Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $6076.64 this week
+  (trigger AMD stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $484.49] -> $1004.59 (+0.46%) — close 100% at +0.5% over the average cost
+## 2026-09-14 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $245.33] -> $2976.80 (-0.77%) — close it all at -0.7% under the average cost
+  (cancelled 3 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $332.72] -> $3007.86 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-14 09:41 ET — tick — 2 sell(s), 0 buy(s) from standing orders
