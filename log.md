@@ -3026,3 +3026,11 @@ Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% IBM [time stop] -> $2980.73 (-0.64%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 14:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 14:41 ET (Monday) — week 2026-W38 — budget left $21939.82 (today $175936.00 put to work, 61 buys, 60 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3pgayMDJcjmZwzviRgb'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25342.51 (+1.37% on $25000.00 in) · cash $22344.83 · realised +344.83
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
