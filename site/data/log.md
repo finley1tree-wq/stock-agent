@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 GRNT @ $5.02 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MAIA @ $1.39 until 2026-09-19 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% MAIA @ $1.36 until 2026-09-19 — close it all at -1.4% under the average cost
 ~ WORKING buy_limit $500.00 MAIA @ $1.34 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMD @ $493.31 until 2026-09-19 — close 100% at +0.5% over the average cost
 ~ WORKING stop_loss 100% AMD @ $485.54 until 2026-09-19 — close it all at -1.1% under the average cost
@@ -397,4 +394,7 @@ portfolio: equity $25421.31 (+1.69% on $25000.00 in) · cash $10449.72 · realis
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% ALP [time stop] -> $2960.12 (-1.33%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 12:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $156.61] -> $3005.52 (+0.18%) — close 100% at +0.3% over the average cost
 ## 2026-09-14 12:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 11995.17,
+  "spent": 8989.65,
   "deployed": 145457.79,
   "by_ticker": {
     "IBM": 0.03,
@@ -11,7 +11,6 @@
     "TPL": 18.43,
     "ALP": 39.88,
     "AAPL": 3000.0,
-    "CHRW": 3000.0,
     "GRNT": 3000.0
   },
   "deployed_by_ticker": {
@@ -1875,13 +1874,34 @@
       ],
       "evidence": "bought 30 min ago, -1.21% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 19.210915,
+      "status": "filled",
+      "price": 156.45,
+      "proceeds": 3005.52,
+      "realized_pnl": 5.52,
+      "realized_pct": 0.18,
+      "date": "2026-09-14",
+      "time_et": "12:53",
+      "ts": 1789404600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $156.16",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 11995.17,
+  "spent_today": 8989.65,
   "deployed_today": 145457.79,
   "orders_today": 50,
-  "sells_today": 46,
+  "sells_today": 47,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1904,7 +1924,7 @@
     "ALP": 1789404796,
     "HLI": 1789404449,
     "META": 1789404628,
-    "CHRW": 1789399860,
+    "CHRW": 1789404833,
     "TTD": 1789401762,
     "AMD": 1789402737,
     "IBM": 1789404582,
@@ -1918,15 +1938,13 @@
     "GRNT": 1789401722,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789404795,
-  "last_check_ts": 1789404795,
+  "last_publish_ts": 1789404833,
+  "last_check_ts": 1789404880,
   "last_bar_ts": 1789404600,
-  "last_decision_ts": 1789404704,
+  "last_decision_ts": 1789404880,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0214decb": 156.6051,
-    "06910996": 156.4,
     "04c8e17d": 335.7407,
     "d4a01918": 5.1648,
     "4245b6f3": 5.1129,
@@ -1935,7 +1953,6 @@
     "1fb65c53": 253.3727,
     "1dc4692f": 4.9955,
     "a906f948": 250.3861,
-    "aeea7c76": 324.8239,
-    "7d67322b": 151.4752
+    "aeea7c76": 324.8239
   }
 }
