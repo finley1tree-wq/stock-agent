@@ -1,19 +1,3 @@
-portfolio: equity $25399.60 (+1.60% on $25000.00 in) · cash $22392.64 · realised +392.64
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 13:30 ET (Monday) — week 2026-W38 — budget left $21987.62 (today $151457.79 put to work, 52 buys, 51 sells) — SIM (pretend money) via sim
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3jGqe9e6L6P8dg1sTSP'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25399.60 (+1.60% on $25000.00 in) · cash $22392.64 · realised +392.64
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 13:33 ET (Monday) — week 2026-W38 — budget left $21987.62 (today $151457.79 put to work, 52 buys, 51 sells) — SIM (pretend money) via sim
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3jVfQc3ZXh6xUReYfU3'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,988 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.0% over the month; 44% of today's range
 ~ WORKING take_profit 100% HLI @ $138.50 until 2026-09-19 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% HLI @ $136.96 until 2026-09-19 — close it all at -0.8% under the average cost
@@ -398,3 +382,19 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25348.93 (+1.40% on $25000.00 in) · cash $7340.20 · realised +340.20
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 15:17 ET (Monday) — week 2026-W38 — budget left $6935.19 (today $193936.00 put to work, 67 buys, 61 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3sQeFwZp3HjCGPNSS1J'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,935 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +11.8% over the month; 83% of today's range
+~ WORKING take_profit 100% META @ $668.00 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $659.57 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $645.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25338.85 (+1.36% on $25000.00 in) · cash $4340.20 · realised +340.20
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3935.19 this week

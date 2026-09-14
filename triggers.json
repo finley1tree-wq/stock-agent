@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "6cad6329",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.0803,
-   "status": "cancelled",
-   "created": "2026-09-11 15:31",
-   "created_ts": 1789155063,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $496.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "aae0c352",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 448.7608,
-   "status": "cancelled",
-   "created": "2026-09-11 15:31",
-   "created_ts": 1789155109,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $462.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "cfec8a96",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 419.3504,
-   "status": "cancelled",
-   "created": "2026-09-11 15:31",
-   "created_ts": 1789155109,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $432.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "1ee0293e",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7516,7 +7459,58 @@
    ],
    "good_until": "2026-09-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "edb8839d",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 667.9994,
+   "status": "working",
+   "created": "2026-09-14 15:17",
+   "created_ts": 1789413453,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $665.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2dd20e11",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 659.5664,
+   "status": "working",
+   "created": "2026-09-14 15:17",
+   "created_ts": 1789413453,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $665.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "993eb8b5",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 645.6223,
+   "status": "working",
+   "created": "2026-09-14 15:17",
+   "created_ts": 1789413453,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $665.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 15:15"
+ "updated": "2026-09-14 15:17"
 }
