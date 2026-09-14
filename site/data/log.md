@@ -1,19 +1,3 @@
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RA4AvGQ4Vb8GY9Yf2J'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 8: ALP, CHRW, BE, IBM, FLD, HLI, NEM, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 ALP [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 3 insiders bought (Form 4, incl. director, officer: See Remarks); +2098.9% over the month; 28% of today's range
-- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +2.2% over the month; 81% of today's range
-- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +6.6% over the month; 16% of today's range
-- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.2% over the month; 15% of today's range
-- BUY $3000.00 FLD [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +9.9% over the month; 40% of today's range
-- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.7% over the month; 64% of today's range
-- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.4% over the month; 5% of today's range
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.3% over the month; 12% of today's range
-~ WORKING take_profit 100% ALP @ $4.25 until 2026-09-19 — close 100% at +1.2% over the average cost
-~ WORKING stop_loss 100% ALP @ $4.07 until 2026-09-19 — close it all at -3.0% under the average cost
-~ WORKING buy_limit $500.00 ALP @ $4.07 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CHRW @ $153.15 until 2026-09-19 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% CHRW @ $151.71 until 2026-09-19 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 CHRW @ $148.16 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% BE @ $253.78 until 2026-09-19 — close 100% at +0.7% over the average cost
@@ -398,3 +382,19 @@ Decision: nothing at this check. 25 standing order(s) working.
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $245.80] -> $3008.77 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-14 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 10:47 ET (Monday) — week 2026-W38 — budget left $9589.06 (today $64457.79 put to work, 23 buys, 17 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3WqpycqVbhm2ojqyUga'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $9,589 idle, so opened 1: FLD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 FLD [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +11.4% over the month; 44% of today's range
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% META @ $654.57 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING take_profit 100% FLD @ $0.54 until 2026-09-19 — close 100% at +1.3% over the average cost
+~ WORKING stop_loss 100% FLD @ $0.51 until 2026-09-19 — close it all at -3.2% under the average cost
+~ WORKING buy_limit $500.00 FLD @ $0.51 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25306.66 (+1.23% on $25000.00 in) · cash $6887.40 · realised +345.19
+Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $6589.06 this week
