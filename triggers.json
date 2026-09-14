@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "44065fd7",
-   "ticker": "MRK",
-   "kind": "buy_limit",
-   "price": 140.8052,
-   "status": "cancelled",
-   "created": "2026-09-11 12:58",
-   "created_ts": 1789145898,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $145.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 13:15",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c0cd1d3b",
    "ticker": "KMT",
    "kind": "take_profit",
@@ -7237,7 +7218,7 @@
    "ticker": "BE",
    "kind": "take_profit",
    "price": 258.5316,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:48",
    "created_ts": 1789400928,
    "why": "close 100% at +0.7% over the average cost",
@@ -7247,7 +7228,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fb907c55",
@@ -7273,7 +7256,7 @@
    "ticker": "BE",
    "kind": "buy_limit",
    "price": 248.9311,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:48",
    "created_ts": 1789400928,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7283,14 +7266,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 12:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b0b0062c",
    "ticker": "GRNT",
    "kind": "take_profit",
    "price": 5.1948,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-14 11:48",
    "created_ts": 1789400928,
    "why": "close 100% at +0.3% over the average cost",
@@ -7300,14 +7285,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:02"
   },
   {
    "id": "1d0b9e7a",
    "ticker": "GRNT",
    "kind": "stop_loss",
    "price": 5.143,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:48",
    "created_ts": 1789400928,
    "why": "close it all at -0.7% under the average cost",
@@ -7317,14 +7303,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0253b07e",
    "ticker": "GRNT",
    "kind": "buy_limit",
    "price": 5.0246,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:48",
    "created_ts": 1789400928,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7334,7 +7322,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 12:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "344e9635",
@@ -7479,7 +7469,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.5051,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 11:54",
    "created_ts": 1789401296,
    "why": "close it all at -1.1% under the average cost",
@@ -7489,7 +7479,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:02",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d7e8efd2",
@@ -7513,7 +7505,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 257.272,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-14 11:57",
    "created_ts": 1789401470,
    "why": "close it all at -1.8% under the average cost",
@@ -7523,8 +7515,26 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:02"
+  },
+  {
+   "id": "e68c60dc",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.7,
+   "status": "working",
+   "created": "2026-09-14 12:02",
+   "created_ts": 1789401721,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $14.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 12:00"
+ "updated": "2026-09-14 12:02"
 }

@@ -2272,3 +2272,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25335.56 (+1.34% on $25000.00 in) · cash $10346.10 · realised +346.10
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on GRNT: position closed)
+- SELL 100% GRNT [take_profit @ $5.19] -> $3007.97 (+0.27%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [stop_loss @ $257.14] -> $3005.99 (+0.20%) — close it all at -1.8% under the average cost
+## 2026-09-14 12:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders
