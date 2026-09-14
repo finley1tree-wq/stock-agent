@@ -1,9 +1,8 @@
 {
   "week": "2026-W38",
-  "spent": 11934.11,
+  "spent": 8911.64,
   "deployed": 34000.0,
   "by_ticker": {
-    "BE": 3000.0,
     "IBM": 23.2,
     "FLD": 3000.0,
     "NEM": 3000.0,
@@ -405,13 +404,34 @@
       ],
       "evidence": "average cost $331.85",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.909943,
+      "status": "filled",
+      "price": 253.78,
+      "proceeds": 3022.47,
+      "realized_pnl": 22.47,
+      "realized_pct": 0.75,
+      "date": "2026-09-14",
+      "time_et": "09:46",
+      "ts": 1789393500,
+      "why": "close 100% at +0.7% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $251.89",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 11934.11,
+  "spent_today": 8911.64,
   "deployed_today": 34000.0,
   "orders_today": 12,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "ALP",
     "HLI",
@@ -420,7 +440,8 @@
     "TTD",
     "AMD",
     "IBM",
-    "AAPL"
+    "AAPL",
+    "BE"
   ],
   "sold_ts": {
     "ALP": 1789392925,
@@ -430,24 +451,22 @@
     "TTD": 1789393224,
     "AMD": 1789393265,
     "IBM": 1789393311,
-    "AAPL": 1789393311
+    "AAPL": 1789393311,
+    "BE": 1789393560
   },
-  "last_publish_ts": 1789393310,
-  "last_check_ts": 1789393472,
-  "last_bar_ts": 1789393200,
-  "last_decision_ts": 1789393393,
+  "last_publish_ts": 1789393560,
+  "last_check_ts": 1789393561,
+  "last_bar_ts": 1789393500,
+  "last_decision_ts": 1789393561,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "6453df11": 498.2238,
+    "a49d6389": 123.0857,
     "8ff0af47": 494.4356,
     "ea66121d": 121.4207,
-    "a49d6389": 123.0857,
-    "fb3cb336": 253.7767,
     "fc3b3e3c": 0.52694337,
-    "a55c51d9": 247.1721,
     "5e7ba3cc": 118.9317,
-    "36ec0214": 244.3333,
     "25d0148b": 0.50450088,
     "8ae0ce8a": 482.2258,
     "0e557f41": 0.50301338

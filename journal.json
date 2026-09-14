@@ -2126,8 +2126,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19,
-    "ret_final": 0.19,
+    "ret_now": 0.47,
+    "ret_final": 0.47,
     "ret_src": "realised"
   },
   {
@@ -3576,7 +3576,9 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.46
+    "ret_now": 0.75,
+    "ret_final": 0.75,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -3687,7 +3689,7 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.08
   },
   {
     "symbol": "META",
@@ -3963,7 +3965,7 @@
     "code_version": "4ac71c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.08
   },
   {
     "symbol": "AMD",
@@ -4043,5 +4045,32 @@
     "hour_et": 9,
     "code_version": "51a2ecf",
     "hold_minutes": 2
+  },
+  {
+    "symbol": "BE",
+    "side": "sell",
+    "qty": 11.909943,
+    "status": "filled",
+    "price": 253.78,
+    "proceeds": 3022.47,
+    "realized_pnl": 22.47,
+    "realized_pct": 0.75,
+    "date": "2026-09-14",
+    "time_et": "09:46",
+    "ts": 1789393500,
+    "why": "close 100% at +0.7% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $251.89",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "13c80a2",
+    "hold_minutes": 12
   }
 ]

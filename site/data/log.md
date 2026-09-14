@@ -1,15 +1,3 @@
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +12.4% over the month; 19% of today's range
-~ WORKING take_profit 100% META @ $653.15 until 2026-09-16 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $644.86 until 2026-09-16 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25140.58 (+0.56% on $25000.00 in) · cash $5157.25 · realised +157.25
-Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $5014.47 this week
-
-## 2026-09-11 15:20 ET (Friday) — week 2026-W37 — budget left $5014.47 (today $121800.00 put to work, 55 buys, 47 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexCFKfCGDKqA3vvfQQPq'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
@@ -398,3 +386,15 @@ Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $6076.64 this week
   (cancelled 3 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $332.72] -> $3007.86 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-09-14 09:41 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 09:43 ET (Monday) — week 2026-W38 — budget left $13065.89 (today $34000.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3Rv4zG1mXf18WdMABbk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25202.11 (+0.81% on $25000.00 in) · cash $13218.35 · realised +218.35
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $253.78] -> $3022.47 (+0.75%) — close 100% at +0.7% over the average cost
+## 2026-09-14 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders

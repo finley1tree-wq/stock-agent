@@ -1573,3 +1573,16 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25202.11 (+0.81% on $25000.00 in) · cash $13218.35 · realised +218.35
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $253.78] -> $3022.47 (+0.75%) — close 100% at +0.7% over the average cost
+## 2026-09-14 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 09:46 ET (Monday) — week 2026-W38 — budget left $16088.36 (today $34000.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3S8WManPz7LAipdqbjC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25238.86 (+0.96% on $25000.00 in) · cash $16240.81 · realised +240.81
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
