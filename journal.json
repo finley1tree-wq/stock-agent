@@ -1893,8 +1893,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19,
-    "ret_final": 0.19,
+    "ret_now": 0.2,
+    "ret_final": 0.2,
     "ret_src": "realised"
   },
   {
@@ -2451,8 +2451,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2,
-    "ret_final": 0.2,
+    "ret_now": 0.21,
+    "ret_final": 0.21,
     "ret_src": "realised"
   },
   {
@@ -4844,7 +4844,7 @@
     "code_version": "3659094",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.74
+    "ret_now": -0.62
   },
   {
     "symbol": "TTD",
@@ -4951,6 +4951,60 @@
     "code_version": "d63c124",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 19.261496,
+    "status": "filled",
+    "price": 156.19,
+    "proceeds": 3008.53,
+    "realized_pnl": 8.53,
+    "realized_pct": 0.28,
+    "date": "2026-09-14",
+    "time_et": "11:31",
+    "ts": 1789399800,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $155.75",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "1d29a78",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "NEM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 24.52494,
+    "price": 122.32,
+    "date": "2026-09-14",
+    "time_et": "11:31",
+    "ts": 1789399861,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+7.1% over the month; 33% of today's range",
+    "entry_price": 122.3,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.1,
+    "hour_et": 11,
+    "code_version": "1d29a78",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
