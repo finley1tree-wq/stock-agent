@@ -753,8 +753,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08,
-    "ret_final": -0.08,
+    "ret_now": -0.04,
+    "ret_final": -0.04,
     "ret_src": "realised"
   },
   {
@@ -2293,8 +2293,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04,
-    "ret_final": -0.04,
+    "ret_now": -0.01,
+    "ret_final": -0.01,
     "ret_src": "realised"
   },
   {
@@ -3144,8 +3144,8 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01,
-    "ret_final": -0.01,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -3719,8 +3719,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.36,
-    "ret_final": 0.36,
+    "ret_now": 0.22,
+    "ret_final": 0.22,
     "ret_src": "realised"
   },
   {
@@ -4267,7 +4267,7 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.54
   },
   {
     "symbol": "META",
@@ -4293,7 +4293,9 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.08,
+    "ret_final": 0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -4377,7 +4379,7 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": 0.04
   },
   {
     "symbol": "AMD",
@@ -4403,7 +4405,7 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.74
+    "ret_now": -0.78
   },
   {
     "symbol": "ALP",
@@ -4484,7 +4486,7 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.57
+    "ret_now": -0.89
   },
   {
     "symbol": "MSFT",
@@ -4511,7 +4513,7 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.09
   },
   {
     "symbol": "NEM",
@@ -4618,6 +4620,33 @@
     "hour_et": 10,
     "code_version": "03978a5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 4.589116,
+    "status": "filled",
+    "price": 654.24,
+    "proceeds": 3002.4,
+    "realized_pnl": 2.4,
+    "realized_pct": 0.08,
+    "date": "2026-09-14",
+    "time_et": "10:50",
+    "ts": 1789397400,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $653.72",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "89914eb",
+    "hold_minutes": 27
   }
 ]

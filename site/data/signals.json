@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T10:47-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $9,589 idle, so opened 1: FLD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "asOf": "2026-09-14T10:50-04:00",
+ "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,34 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "80703888",
-   "ticker": "META",
+   "id": "a3b93407",
+   "ticker": "HLI",
    "kind": "stop_loss",
-   "price": 654.572,
+   "price": 136.5595,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 655.14,
-   "pct_away": -0.09,
+   "last": 136.87,
+   "pct_away": -0.23,
    "good_until": "2026-09-19",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "27d5d1d9",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 656.093,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 655.14,
-   "pct_away": 0.15,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.96,
-   "pct_away": 0.26,
+   "last": 333.04,
+   "pct_away": 0.24,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 500.24,
-   "pct_away": 0.29,
+   "last": 500.0,
+   "pct_away": 0.33,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -214,27 +197,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 483.77,
-   "pct_away": -0.38,
+   "last": 483.59,
+   "pct_away": -0.34,
    "good_until": "2026-09-19",
    "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6f71f6a5",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 138.0722,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 137.48,
-   "pct_away": 0.43,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 500.24,
-   "pct_away": -0.49,
+   "last": 500.0,
+   "pct_away": -0.44,
    "good_until": "2026-09-19",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -265,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.96,
-   "pct_away": -0.65,
+   "last": 333.04,
+   "pct_away": -0.67,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -275,34 +241,17 @@
    ]
   },
   {
-   "id": "a3b93407",
+   "id": "6f71f6a5",
    "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 136.5595,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 137.48,
-   "pct_away": -0.67,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9fbedd08",
-   "ticker": "AMD",
    "kind": "take_profit",
-   "price": 489.698,
+   "price": 138.0722,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 483.77,
-   "pct_away": 1.23,
+   "last": 136.87,
+   "pct_away": 0.88,
    "good_until": "2026-09-19",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -316,10 +265,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 256.02,
-   "pct_away": -1.26,
+   "last": 255.21,
+   "pct_away": -0.95,
    "good_until": "2026-09-19",
    "why": "close it all at -1.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9fbedd08",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 489.698,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 483.59,
+   "pct_away": 1.26,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -350,27 +316,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 256.02,
-   "pct_away": 1.34,
+   "last": 255.21,
+   "pct_away": 1.66,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c36dbe23",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 472.8556,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 483.77,
-   "pct_away": -2.26,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -384,8 +333,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 256.02,
-   "pct_away": -2.42,
+   "last": 255.21,
+   "pct_away": -2.11,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c36dbe23",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 472.8556,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 483.59,
+   "pct_away": -2.22,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 137.48,
-   "pct_away": -2.89,
+   "last": 136.87,
+   "pct_away": -2.45,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -435,8 +401,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 500.24,
-   "pct_away": -2.94,
+   "last": 500.0,
+   "pct_away": -2.89,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -469,25 +435,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 332.96,
-   "pct_away": -3.0,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ee15588b",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 634.1084,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 655.14,
-   "pct_away": -3.21,
+   "last": 333.04,
+   "pct_away": -3.02,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -513,8 +462,8 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $9,589 idle, so opened 1: FLD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
- "next_check_minutes": 6,
+ "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
+ "next_check_minutes": null,
  "allowed": [
   "AAPL",
   "ALP",
@@ -579,7 +528,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 92,
+  "decisions_recorded": 93,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -2841,14 +2790,14 @@
   ],
   "NVDA": [
    {
-    "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-14T14:39"
+    "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Anthropic's AI warning spooks tech traders, 10-year yield hits 5%",
+    "source": "Yahoo Finance",
+    "when": "2026-09-14T08:05"
    },
    {
-    "title": "Chip stocks fall as oil prices gain, Treasury yields stay elevated: AlphaCheck",
-    "source": "Yahoo Finance",
-    "when": "2026-09-14T13:45"
+    "title": "XRP Keeps Sliding Despite Ripple's Global Growth: Time to Buy, Sell, or Hold?",
+    "source": "Motley Fool",
+    "when": "2026-09-14T14:35"
    },
    {
     "title": "Stock Market Today: Dow Falls, Oil Jumps On Houthi Moves; Chip Stocks Dive After AI Warning (Live Coverage)",
@@ -3062,5 +3011,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T10:47-04:00"
+ "signalsAsOf": "2026-09-14T10:50-04:00"
 }
