@@ -753,8 +753,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04,
-    "ret_final": -0.04,
+    "ret_now": -0.02,
+    "ret_final": -0.02,
     "ret_src": "realised"
   },
   {
@@ -2293,8 +2293,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01,
-    "ret_final": -0.01,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -3144,8 +3144,8 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.04,
+    "ret_final": 0.04,
     "ret_src": "realised"
   },
   {
@@ -3719,8 +3719,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22,
-    "ret_final": 0.22,
+    "ret_now": 0.18,
+    "ret_final": 0.18,
     "ret_src": "realised"
   },
   {
@@ -4295,8 +4295,8 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -5119,7 +5119,9 @@
     "code_version": "5afc929",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.11,
+    "ret_final": 0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "ALP",
@@ -5173,7 +5175,7 @@
     "code_version": "872a43e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.12
   },
   {
     "symbol": "IBM",
@@ -5225,6 +5227,33 @@
     "hour_et": 11,
     "code_version": "f7c1d8a",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.15
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 4.55732,
+    "status": "filled",
+    "price": 658.98,
+    "proceeds": 3003.17,
+    "realized_pnl": 3.17,
+    "realized_pct": 0.11,
+    "date": "2026-09-14",
+    "time_et": "11:45",
+    "ts": 1789400700,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $658.28",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "963274c",
+    "hold_minutes": 8
   }
 ]
