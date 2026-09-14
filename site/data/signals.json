@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T11:31-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,002 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-14T11:33-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,002 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 370.62,
-   "pct_away": -0.29,
+   "last": 370.22,
+   "pct_away": -0.18,
    "good_until": "2026-09-19",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -163,8 +163,59 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.3,
-   "pct_away": 0.41,
+   "last": 122.51,
+   "pct_away": 0.24,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9b0e7bee",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 247.957,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 247.19,
+   "pct_away": 0.31,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a834c325",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 245.45,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 247.19,
+   "pct_away": -0.7,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "84336a55",
+   "ticker": "TPL",
+   "kind": "take_profit",
+   "price": 374.3626,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 370.22,
+   "pct_away": 1.12,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -180,27 +231,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.3,
-   "pct_away": -0.97,
+   "last": 122.51,
+   "pct_away": -1.14,
    "good_until": "2026-09-19",
    "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "84336a55",
-   "ticker": "TPL",
-   "kind": "take_profit",
-   "price": 374.3626,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 370.62,
-   "pct_away": 1.01,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 370.62,
-   "pct_away": -2.38,
+   "last": 370.22,
+   "pct_away": -2.27,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -275,6 +309,23 @@
    ]
   },
   {
+   "id": "7c862c8c",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 239.8228,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 247.19,
+   "pct_away": -2.98,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "3c971a4f",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -282,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 122.3,
-   "pct_away": -2.98,
+   "last": 122.51,
+   "pct_away": -3.15,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,002 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,002 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -360,7 +411,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 107,
+  "decisions_recorded": 108,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -2562,9 +2613,9 @@
     "when": "2026-09-14T13:45"
    },
    {
-    "title": "Elon Musk's 2027 SpaceX plan gives Nvidia a new frontier",
-    "source": "GuruFocus.com",
-    "when": "2026-09-14T15:16"
+    "title": "Canopy Growth's Business Is Improving. So Why Isn't the Stock Performing Better?",
+    "source": "Motley Fool",
+    "when": "2026-09-14T15:20"
    }
   ],
   "O": [
@@ -2790,5 +2841,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T11:31-04:00"
+ "signalsAsOf": "2026-09-14T11:33-04:00"
 }

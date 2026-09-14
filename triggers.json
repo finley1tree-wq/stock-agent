@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "46d00ae6",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 230.8115,
-   "status": "cancelled",
-   "created": "2026-09-11 11:10",
-   "created_ts": 1789139446,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $237.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "66618da4",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 646.7737,
-   "status": "cancelled",
-   "created": "2026-09-11 11:10",
-   "created_ts": 1789139446,
-   "why": "strong month, weak day: resting 0.68% under $651.21 to catch the dip",
-   "evidence": "+12.5% over the month, sitting at 17% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-12",
-   "usd": 1000.0,
-   "closed": "2026-09-11 14:29",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "592ebc87",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 765.1235,
-   "status": "filled",
-   "created": "2026-09-11 11:43",
-   "created_ts": 1789141423,
-   "why": "wanted it, but not at the high \u2014 resting at $765.12. Broad market green day per past lesson; fill min_positions count with index exposure while individual names cool down",
-   "evidence": "SPY +1.1% today, 91.7% of day range - CPI in line at +3.4%, market rallying on data",
-   "signals": [
-    "momentum",
-    "etf_default",
-    "patience"
-   ],
-   "good_until": "2026-09-11",
-   "usd": 2000.0,
-   "closed": "2026-09-11 12:29"
-  },
-  {
    "id": "5974033c",
    "ticker": "MRK",
    "kind": "buy_limit",
@@ -7535,7 +7478,58 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "9b0e7bee",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 247.957,
+   "status": "working",
+   "created": "2026-09-14 11:33",
+   "created_ts": 1789400030,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $247.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a834c325",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 245.45,
+   "status": "working",
+   "created": "2026-09-14 11:33",
+   "created_ts": 1789400030,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $247.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7c862c8c",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 239.8228,
+   "status": "working",
+   "created": "2026-09-14 11:33",
+   "created_ts": 1789400030,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $247.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 11:31"
+ "updated": "2026-09-14 11:33"
 }

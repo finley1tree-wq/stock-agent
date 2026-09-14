@@ -1,18 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 10:13 ET (Monday) — week 2026-W38 — budget left $22000.00 (today $37000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3UErvVJFVBDpBGWPkMx'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25289.59 (+1.16% on $25000.00 in) · cash $22298.33 · realised +298.33
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 10:16 ET (Monday) — week 2026-W38 — budget left $22000.00 (today $37000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3UTmhaEZEuAbJtRQtfw'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
@@ -398,3 +383,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $118.65 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25244.02 (+0.98% on $25000.00 in) · cash $16299.95 · realised +299.95
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16001.60 this week
+
+## 2026-09-14 11:33 ET (Monday) — week 2026-W38 — budget left $16001.60 (today $82457.79 put to work, 29 buys, 26 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3aMJuJGtVcRyz5Zp7YP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,002 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.2% over the month; 52% of today's range
+~ WORKING take_profit 100% IBM @ $247.96 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $245.45 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $239.82 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25245.36 (+0.98% on $25000.00 in) · cash $13299.95 · realised +299.95
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13001.60 this week

@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 8998.4,
-  "deployed": 82457.79,
+  "spent": 11998.4,
+  "deployed": 85457.79,
   "by_ticker": {
-    "IBM": 14.43,
+    "IBM": 3014.43,
     "GOOGL": 19.01,
     "HLI": 17.11,
     "AAPL": 5.79,
@@ -18,7 +18,7 @@
     "ALP": 9000.0,
     "CHRW": 9000.0,
     "BE": 6000.0,
-    "IBM": 6000.0,
+    "IBM": 9000.0,
     "FLD": 6000.0,
     "HLI": 6000.0,
     "NEM": 9000.0,
@@ -1085,12 +1085,30 @@
         "autopilot"
       ],
       "evidence": "+7.1% over the month; 33% of today's range"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.133986,
+      "price": 247.24,
+      "date": "2026-09-14",
+      "time_et": "11:33",
+      "ts": 1789400030,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.2% over the month; 52% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 8998.4,
-  "deployed_today": 82457.79,
-  "orders_today": 29,
+  "spent_today": 11998.4,
+  "deployed_today": 85457.79,
+  "orders_today": 30,
   "sells_today": 26,
   "sold_today": [
     "ALP",
@@ -1122,21 +1140,24 @@
     "FLD": 1789399070,
     "GOOGL": 1789395611
   },
-  "last_publish_ts": 1789399861,
-  "last_check_ts": 1789399945,
+  "last_publish_ts": 1789400030,
+  "last_check_ts": 1789400030,
   "last_bar_ts": 1789399800,
-  "last_decision_ts": 1789399861,
+  "last_decision_ts": 1789400030,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "fdeb996e": 369.5585,
     "82bc7650": 122.8032,
-    "9e574080": 121.1127,
+    "9b0e7bee": 247.957,
+    "a834c325": 245.45,
     "84336a55": 374.3626,
+    "9e574080": 121.1127,
     "9e11a638": 4.0837,
     "10a15365": 4.0832,
     "76103c6b": 361.8003,
     "c9b3fd25": 4.2607,
+    "7c862c8c": 239.8228,
     "3c971a4f": 118.6504
   }
 }
