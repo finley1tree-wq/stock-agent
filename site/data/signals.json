@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-14T12:25-04:00",
+ "asOf": "2026-09-14T12:26-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "7be2c21e",
+   "ticker": "TPL",
+   "kind": "stop_loss",
+   "price": 372.036,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 372.4,
+   "pct_away": -0.1,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "2a509bca",
    "ticker": "TPL",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.67,
-   "pct_away": 0.32,
+   "last": 372.4,
+   "pct_away": 0.12,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -163,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.88,
-   "pct_away": 0.32,
+   "last": 122.83,
+   "pct_away": 0.36,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b32cf977",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 368.0834,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 371.67,
-   "pct_away": -0.96,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.88,
-   "pct_away": -1.06,
+   "last": 122.83,
+   "pct_away": -1.02,
    "good_until": "2026-09-19",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -241,15 +241,15 @@
    ]
   },
   {
-   "id": "13b9f582",
-   "ticker": "TPL",
+   "id": "bc51aef6",
+   "ticker": "NEM",
    "kind": "buy_limit",
-   "price": 360.3453,
+   "price": 119.1063,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.67,
-   "pct_away": -3.05,
+   "last": 122.83,
+   "pct_away": -3.03,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -275,15 +275,15 @@
    ]
   },
   {
-   "id": "bc51aef6",
-   "ticker": "NEM",
+   "id": "13b9f582",
+   "ticker": "TPL",
    "kind": "buy_limit",
-   "price": 119.1063,
+   "price": 360.3453,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 122.88,
-   "pct_away": -3.07,
+   "last": 372.4,
+   "pct_away": -3.24,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
