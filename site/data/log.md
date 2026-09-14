@@ -1,17 +1,3 @@
-~ WORKING take_profit 100% NEM @ $123.09 until 2026-09-19 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NEM @ $121.42 until 2026-09-19 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NEM @ $118.93 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% META @ $652.98 until 2026-09-19 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $644.79 until 2026-09-19 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 META @ $631.12 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AAPL @ $331.15 until 2026-09-15 — strong month, weak day: resting 0.49% under $332.77 to catch the dip
-~ WORKING buy_limit $1000.00 AMD @ $482.28 until 2026-09-15 — strong month, weak day: resting 0.85% under $486.40 to catch the dip
-portfolio: equity $25147.66 (+0.59% on $25000.00 in) · cash $1152.46 · realised +152.46
-Done: 0 sell(s), 8 buy(s); 26 order(s) working; budget left $1000.00 this week
-
-## 2026-09-14 09:34 ET (Monday) — week 2026-W38 — budget left $1000.00 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RGRR2fenFkDB3taEr5'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25187.19 (+0.75% on $25000.00 in) · cash $1152.46 · realised +152.46
@@ -398,3 +384,17 @@ portfolio: equity $25279.21 (+1.12% on $25000.00 in) · cash $9889.81 · realise
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 19 order(s) working; budget left $9591.46 this week
 - SELL 100% HLI [time stop] -> $2982.89 (-0.57%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 10:53 ET (Monday) — week 2026-W38 — budget left $12574.35 (today $67457.79 put to work, 24 buys, 19 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3XHX93YVvbULTWgLMwQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $12,574 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +0.2% over the month; 68% of today's range
+~ WORKING take_profit 100% TTD @ $14.66 until 2026-09-19 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.43 until 2026-09-19 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.15 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25267.80 (+1.07% on $25000.00 in) · cash $9872.70 · realised +330.49
+Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $9574.35 this week

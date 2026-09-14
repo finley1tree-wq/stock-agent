@@ -3663,8 +3663,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31,
-    "ret_final": 0.31,
+    "ret_now": -0.13,
+    "ret_final": -0.13,
     "ret_src": "realised"
   },
   {
@@ -4267,7 +4267,9 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.54
+    "ret_now": -0.57,
+    "ret_final": -0.57,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -4379,7 +4381,7 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.06
   },
   {
     "symbol": "AMD",
@@ -4405,7 +4407,7 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.78
+    "ret_now": -0.82
   },
   {
     "symbol": "ALP",
@@ -4486,7 +4488,7 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.89
+    "ret_now": -1.1
   },
   {
     "symbol": "MSFT",
@@ -4672,6 +4674,33 @@
     "evidence": "bought 30 min ago, -0.55% unrealised",
     "trigger": "time_stop",
     "hour_et": 10,
-    "code_version": "eddeedb"
+    "code_version": "eddeedb",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "TTD",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 205.579172,
+    "price": 14.59,
+    "date": "2026-09-14",
+    "time_et": "10:53",
+    "ts": 1789397619,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +0.2% over the month; 68% of today's range",
+    "entry_price": 14.59,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.17,
+    "hour_et": 10,
+    "code_version": "de77cb5",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
