@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "d894da6e",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 517.08,
-   "status": "filled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $517.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:00"
-  },
-  {
-   "id": "0ac4613e",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 501.5676,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $517.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 14:00",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e06e72cb",
    "ticker": "TPL",
    "kind": "take_profit",
@@ -7455,7 +7418,7 @@
    "ticker": "ALP",
    "kind": "stop_loss",
    "price": 4.0714,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:23",
    "created_ts": 1789402988,
    "why": "close it all at -3.1% under the average cost",
@@ -7465,7 +7428,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:25",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3f4ad361",
@@ -7534,7 +7499,43 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "a0947937",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.224,
+   "status": "cancelled",
+   "created": "2026-09-14 12:25",
+   "created_ts": 1789403108,
+   "why": "close it all at -3.0% under the average cost",
+   "evidence": "average cost $4.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:25",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "e5c9d167",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.0714,
+   "status": "working",
+   "created": "2026-09-14 12:25",
+   "created_ts": 1789403154,
+   "why": "close it all at -3.1% under the average cost",
+   "evidence": "average cost $4.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 12:23"
+ "updated": "2026-09-14 12:25"
 }
