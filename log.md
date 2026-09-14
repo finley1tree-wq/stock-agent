@@ -1564,3 +1564,12 @@ Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $6076.64 this week
   (cancelled 3 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $332.72] -> $3007.86 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-09-14 09:41 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 09:43 ET (Monday) — week 2026-W38 — budget left $13065.89 (today $34000.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3Rv4zG1mXf18WdMABbk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25202.11 (+0.81% on $25000.00 in) · cash $13218.35 · realised +218.35
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
