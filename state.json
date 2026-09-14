@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 15076.15,
+  "spent": 12113.92,
   "deployed": 205936.0,
   "by_ticker": {
     "IBM": 3019.3,
@@ -8,7 +8,7 @@
     "AMD": 3003.77,
     "BE": 3013.37,
     "FLD": 1.2,
-    "TPL": 3018.43,
+    "TPL": 56.2,
     "ALP": 39.88,
     "AAPL": 5.04,
     "MAIA": 46.66,
@@ -2657,13 +2657,33 @@
       ],
       "evidence": "average cost $347.27",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TPL",
+      "side": "sell",
+      "qty": 8.140267,
+      "status": "filled",
+      "price": 363.9,
+      "proceeds": 2962.23,
+      "realized_pnl": -37.77,
+      "realized_pct": -1.26,
+      "date": "2026-09-14",
+      "time_et": "15:33",
+      "ts": 1789414419,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.86% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 15076.15,
+  "spent_today": 12113.92,
   "deployed_today": 205936.0,
   "orders_today": 71,
-  "sells_today": 66,
+  "sells_today": 67,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2696,31 +2716,28 @@
     "MSFT": 1789411720,
     "FLD": 1789399070,
     "GOOGL": 1789414091,
-    "TPL": 1789403652,
+    "TPL": 1789414420,
     "GRNT": 1789413927,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789414304,
-  "last_check_ts": 1789414304,
+  "last_publish_ts": 1789414419,
+  "last_check_ts": 1789414419,
   "last_bar_ts": 1789414200,
   "last_decision_ts": 1789414304,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "edb8839d": 667.9994,
+    "7cb0ec78": 666.436,
     "37ba0f57": 250.1483,
     "b9c8cde2": 497.8102,
-    "093a96be": 365.0794,
     "b4cebaea": 247.6017,
-    "4f67a37e": 369.922,
-    "2dd20e11": 659.5664,
     "bb287e92": 260.7022,
     "bc6f465c": 490.0394,
     "0ee431b6": 254.0433,
-    "814c19cc": 357.4838,
-    "fdf8439b": 251.036,
-    "0b0528f3": 241.9374,
-    "45ebbe6f": 480.7223,
-    "05a30772": 645.6223
+    "fa716a13": 251.036,
+    "bbdb3ae9": 241.9374,
+    "043f2de0": 480.7223,
+    "8d39da3b": 645.6223
   }
 }

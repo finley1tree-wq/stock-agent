@@ -1,7 +1,3 @@
-
-## 2026-09-14 14:07 ET (Monday) — week 2026-W38 — budget left $21972.43 (today $160457.79 put to work, 55 buys, 54 sells) — SIM (pretend money) via sim
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3n4qbSJ6Rj66mJGrXFK'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,972 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +9.8% over the month; 81% of today's range
 ~ WORKING take_profit 100% BE @ $261.30 until 2026-09-19 — close 100% at +0.7% over the average cost
@@ -398,3 +394,7 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25310.62 (+1.24% on $25000.00 in) · cash $10328.86 · realised +328.86
 Decision: nothing at this check. 15 standing order(s) working.
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% TPL [time stop] -> $2962.23 (-1.26%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 15:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders

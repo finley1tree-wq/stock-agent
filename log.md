@@ -3296,3 +3296,7 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25310.62 (+1.24% on $25000.00 in) · cash $10328.86 · realised +328.86
 Decision: nothing at this check. 15 standing order(s) working.
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% TPL [time stop] -> $2962.23 (-1.26%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 15:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
