@@ -3450,3 +3450,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25283.50 (+1.13% on $25000.00 in) · cash $19297.98 · realised +297.98
 Decision: nothing at this check. 6 standing order(s) working.
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% BE [time stop] -> $2984.86 (-0.50%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $2995.36 (-0.15%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 15:53 ET — tick — 2 sell(s), 0 buy(s) from standing orders

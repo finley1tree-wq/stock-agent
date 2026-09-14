@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 6107.03,
+  "spent": 126.81,
   "deployed": 205936.0,
   "by_ticker": {
     "IBM": 13.54,
     "GOOGL": 25.95,
-    "AMD": 3003.77,
-    "BE": 3013.37,
+    "AMD": 8.41,
+    "BE": 28.51,
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
@@ -2718,13 +2718,53 @@
       ],
       "evidence": "average cost $249.42",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.591807,
+      "status": "filled",
+      "price": 257.5,
+      "proceeds": 2984.86,
+      "realized_pnl": -15.14,
+      "realized_pct": -0.5,
+      "date": "2026-09-14",
+      "time_et": "15:53",
+      "ts": 1789415589,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.47% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 6.053413,
+      "status": "filled",
+      "price": 494.82,
+      "proceeds": 2995.36,
+      "realized_pnl": -4.64,
+      "realized_pct": -0.15,
+      "date": "2026-09-14",
+      "time_et": "15:53",
+      "ts": 1789415589,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.11% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 6107.03,
+  "spent_today": 126.81,
   "deployed_today": 205936.0,
   "orders_today": 71,
-  "sells_today": 69,
+  "sells_today": 71,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2749,10 +2789,10 @@
     "META": 1789414583,
     "CHRW": 1789404833,
     "TTD": 1789411141,
-    "AMD": 1789402737,
+    "AMD": 1789415590,
     "IBM": 1789415329,
     "AAPL": 1789413670,
-    "BE": 1789411061,
+    "BE": 1789415590,
     "NEM": 1789413752,
     "MSFT": 1789411720,
     "FLD": 1789399070,
@@ -2761,18 +2801,11 @@
     "GRNT": 1789413927,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789415503,
-  "last_check_ts": 1789415503,
+  "last_publish_ts": 1789415589,
+  "last_check_ts": 1789415589,
   "last_bar_ts": 1789415400,
   "last_decision_ts": 1789415503,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "b9c8cde2": 497.8102,
-    "bc6f465c": 490.0394,
-    "bb287e92": 260.7022,
-    "0ee431b6": 254.0433,
-    "2853a44b": 251.036,
-    "c9a46f00": 480.7223
-  }
+  "book_px": {}
 }
