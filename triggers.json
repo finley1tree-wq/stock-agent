@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "fdd30e0a",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.6728,
-   "status": "cancelled",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $152.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "8173da0e",
-   "ticker": "SPCX",
-   "kind": "stop_loss",
-   "price": 150.156,
-   "status": "cancelled",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $149.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "89b417e0",
-   "ticker": "SPCX",
-   "kind": "buy_limit",
-   "price": 145.4127,
-   "status": "cancelled",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "b60e7365",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.0803,
-   "status": "cancelled",
-   "created": "2026-09-11 15:30",
-   "created_ts": 1789155030,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $496.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "5634064c",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -7324,7 +7248,7 @@
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 123.8423,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:52",
    "created_ts": 1789411961,
    "why": "close 100% at +0.4% over the average cost",
@@ -7334,14 +7258,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 15:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "a171ac43",
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 122.1535,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:52",
    "created_ts": 1789411961,
    "why": "close it all at -1.0% under the average cost",
@@ -7351,7 +7277,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 15:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e9088046",
@@ -7522,7 +7450,79 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "969580ce",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 129.528,
+   "status": "cancelled",
+   "created": "2026-09-14 15:09",
+   "created_ts": 1789412994,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $123.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 15:10",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "1d7d550c",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 120.276,
+   "status": "cancelled",
+   "created": "2026-09-14 15:09",
+   "created_ts": 1789412994,
+   "why": "close it all at -2.5% under the average cost",
+   "evidence": "average cost $123.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 15:10",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "0ebb688a",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.8436,
+   "status": "working",
+   "created": "2026-09-14 15:10",
+   "created_ts": 1789413040,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $123.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6be4d1ee",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 122.1511,
+   "status": "working",
+   "created": "2026-09-14 15:10",
+   "created_ts": 1789413040,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $123.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 15:09"
+ "updated": "2026-09-14 15:10"
 }
