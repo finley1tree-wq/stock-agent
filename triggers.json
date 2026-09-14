@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "32e73b24",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 505.0,
-   "status": "cancelled",
-   "created": "2026-09-11 11:10",
-   "created_ts": 1789139446,
-   "why": "cap downside near -2% from entry",
-   "evidence": "ATR 3.7%, protect against reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "16c7ea3a",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 95.5,
-   "status": "cancelled",
-   "created": "2026-09-11 11:10",
-   "created_ts": 1789139446,
-   "why": "protect capital given past CCJ time-stop loss",
-   "evidence": "CCJ ATR 3.85%, prior CCJ trade lost -1.81% at 30min limit",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d49da26c",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 440.0,
-   "status": "cancelled",
-   "created": "2026-09-11 11:10",
-   "created_ts": 1789139446,
-   "why": "lock partial gain before 30min close",
-   "evidence": "TSM at 432.77, target ~1.7% gain",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-11 11:15",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "5b958455",
    "ticker": "IBM",
    "kind": "stop_loss",
@@ -7535,7 +7481,58 @@
    ],
    "good_until": "2026-09-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "c9b3fd25",
+   "ticker": "ALP",
+   "kind": "take_profit",
+   "price": 4.2607,
+   "status": "working",
+   "created": "2026-09-14 11:17",
+   "created_ts": 1789399031,
+   "why": "close 100% at +1.2% over the average cost",
+   "evidence": "average cost $4.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "10a15365",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.0832,
+   "status": "working",
+   "created": "2026-09-14 11:17",
+   "created_ts": 1789399031,
+   "why": "close it all at -3.0% under the average cost",
+   "evidence": "average cost $4.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9e11a638",
+   "ticker": "ALP",
+   "kind": "buy_limit",
+   "price": 4.0837,
+   "status": "working",
+   "created": "2026-09-14 11:17",
+   "created_ts": 1789399031,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $4.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 11:14"
+ "updated": "2026-09-14 11:17"
 }

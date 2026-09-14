@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6005.73,
-  "deployed": 73457.79,
+  "spent": 9005.73,
+  "deployed": 76457.79,
   "by_ticker": {
     "IBM": 14.43,
     "GOOGL": 19.01,
@@ -10,10 +10,11 @@
     "AMD": 12.77,
     "BE": 33.23,
     "FLD": 3000.0,
-    "TPL": 3000.0
+    "TPL": 3000.0,
+    "ALP": 3000.0
   },
   "deployed_by_ticker": {
-    "ALP": 6000.0,
+    "ALP": 9000.0,
     "CHRW": 6000.0,
     "BE": 6000.0,
     "IBM": 6000.0,
@@ -989,12 +990,30 @@
       ],
       "evidence": "average cost $14.59",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ALP",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 712.446584,
+      "price": 4.21,
+      "date": "2026-09-14",
+      "time_et": "11:17",
+      "ts": 1789399031,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "2 insiders bought (Form 4, incl. director, officer: See Remarks); +2104.2% over the month; 64% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 6005.73,
-  "deployed_today": 73457.79,
-  "orders_today": 26,
+  "spent_today": 9005.73,
+  "deployed_today": 76457.79,
+  "orders_today": 27,
   "sells_today": 24,
   "sold_today": [
     "ALP",
@@ -1026,19 +1045,22 @@
     "FLD": 1789393822,
     "GOOGL": 1789395611
   },
-  "last_publish_ts": 1789398687,
-  "last_check_ts": 1789398947,
+  "last_publish_ts": 1789399031,
+  "last_check_ts": 1789399031,
   "last_bar_ts": 1789398900,
-  "last_decision_ts": 1789398861,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789399031,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "fdeb996e": 369.5585,
     "84336a55": 374.3626,
+    "c9b3fd25": 4.2607,
     "4bb18962": 0.53699208,
     "76103c6b": 361.8003,
     "ba6d51bf": 0.51709453,
     "89c147a3": 0.51420282,
+    "9e11a638": 4.0837,
+    "10a15365": 4.0832,
     "367a5276": 0.51289346
   }
 }
