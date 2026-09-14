@@ -1,8 +1,3 @@
-~ WORKING stop_loss 100% NEM @ $120.62 until 2026-09-19 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NEM @ $118.18 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25312.03 (+1.25% on $25000.00 in) · cash $3866.86 · realised +324.65
-Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 24 order(s) working; budget left $3568.52 this week
-
 ## 2026-09-14 10:36 ET (Monday) — week 2026-W38 — budget left $3568.52 (today $64457.79 put to work, 23 buys, 15 sells) — SIM (pretend money) via sim
   (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
   (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $476.36 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25335.54 (+1.34% on $25000.00 in) · cash $7328.55 · realised +328.55
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $7030.21 this week
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $335.05] -> $3007.83 (+0.26%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $136.46] -> $3009.72 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-09-14 11:51 ET — tick — 2 sell(s), 0 buy(s) from standing orders
