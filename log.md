@@ -2018,3 +2018,18 @@ portfolio: equity $25270.39 (+1.08% on $25000.00 in) · cash $16292.62 · realis
 Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15994.27 this week
 - SELL 100% FLD [time stop] -> $2998.80 (-0.04%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 11:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 11:19 ET (Monday) — week 2026-W38 — budget left $18993.07 (today $76457.79 put to work, 27 buys, 25 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3ZHahLYjqbtsyJkXcBB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,993 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +4.3% over the month; 78% of today's range
+~ WORKING take_profit 100% CHRW @ $156.19 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $154.64 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $151.08 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25265.89 (+1.06% on $25000.00 in) · cash $16291.42 · realised +291.42
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15993.07 this week

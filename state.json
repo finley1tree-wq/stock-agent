@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6006.93,
-  "deployed": 76457.79,
+  "spent": 9006.93,
+  "deployed": 79457.79,
   "by_ticker": {
     "IBM": 14.43,
     "GOOGL": 19.01,
@@ -11,11 +11,12 @@
     "BE": 33.23,
     "FLD": 1.2,
     "TPL": 3000.0,
-    "ALP": 3000.0
+    "ALP": 3000.0,
+    "CHRW": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 9000.0,
-    "CHRW": 6000.0,
+    "CHRW": 9000.0,
     "BE": 6000.0,
     "IBM": 6000.0,
     "FLD": 6000.0,
@@ -1028,12 +1029,30 @@
       ],
       "evidence": "bought 30 min ago, -0.02% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.261496,
+      "price": 155.75,
+      "date": "2026-09-14",
+      "time_et": "11:19",
+      "ts": 1789399194,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +4.3% over the month; 78% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 6006.93,
-  "deployed_today": 76457.79,
-  "orders_today": 27,
+  "spent_today": 9006.93,
+  "deployed_today": 79457.79,
+  "orders_today": 28,
   "sells_today": 25,
   "sold_today": [
     "ALP",
@@ -1065,17 +1084,20 @@
     "FLD": 1789399070,
     "GOOGL": 1789395611
   },
-  "last_publish_ts": 1789399069,
-  "last_check_ts": 1789399115,
+  "last_publish_ts": 1789399194,
+  "last_check_ts": 1789399194,
   "last_bar_ts": 1789398900,
-  "last_decision_ts": 1789399031,
+  "last_decision_ts": 1789399194,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "fdeb996e": 369.5585,
+    "92e9ba63": 156.1939,
+    "1ecb7fd8": 154.6395,
     "84336a55": 374.3626,
     "c9b3fd25": 4.2607,
     "76103c6b": 361.8003,
+    "2a3904af": 151.0775,
     "9e11a638": 4.0837,
     "10a15365": 4.0832
   }
