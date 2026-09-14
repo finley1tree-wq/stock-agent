@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T15:03-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,935 idle, so opened 2: GRNT, TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-09-14T15:09-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,935 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,34 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "f7f46862",
-   "ticker": "GRNT",
+   "id": "740b74d0",
+   "ticker": "AAPL",
    "kind": "take_profit",
-   "price": 5.1448,
+   "price": 335.48,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 5.12,
-   "pct_away": 0.48,
+   "last": 334.54,
+   "pct_away": 0.28,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "628fbe91",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 123.8423,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 123.19,
-   "pct_away": 0.53,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 5.12,
-   "pct_away": -0.53,
+   "last": 5.11,
+   "pct_away": -0.33,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -190,17 +173,17 @@
    ]
   },
   {
-   "id": "6a50c1ef",
+   "id": "65e7f623",
    "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 137.4712,
+   "kind": "stop_loss",
+   "price": 135.9283,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 136.73,
-   "pct_away": 0.54,
+   "last": 136.51,
+   "pct_away": -0.43,
    "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -224,17 +207,68 @@
    ]
   },
   {
-   "id": "65e7f623",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 135.9283,
+   "id": "628fbe91",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.8423,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 136.73,
-   "pct_away": -0.59,
+   "last": 123.13,
+   "pct_away": 0.58,
    "good_until": "2026-09-19",
-   "why": "close it all at -0.8% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b941327a",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 332.4317,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 334.54,
+   "pct_away": -0.63,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f7f46862",
+   "ticker": "GRNT",
+   "kind": "take_profit",
+   "price": 5.1448,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 5.11,
+   "pct_away": 0.68,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6a50c1ef",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 137.4712,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 136.51,
+   "pct_away": 0.7,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.19,
-   "pct_away": -0.84,
+   "last": 123.13,
+   "pct_away": -0.79,
    "good_until": "2026-09-19",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -292,15 +326,15 @@
    ]
   },
   {
-   "id": "37f82fce",
-   "ticker": "HLI",
+   "id": "92e546b0",
+   "ticker": "GRNT",
    "kind": "buy_limit",
-   "price": 132.9191,
+   "price": 4.9761,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 136.73,
-   "pct_away": -2.79,
+   "last": 5.11,
+   "pct_away": -2.62,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -309,15 +343,15 @@
    ]
   },
   {
-   "id": "92e546b0",
-   "ticker": "GRNT",
+   "id": "37f82fce",
+   "ticker": "HLI",
    "kind": "buy_limit",
-   "price": 4.9761,
+   "price": 132.9191,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 5.12,
-   "pct_away": -2.81,
+   "last": 136.51,
+   "pct_away": -2.63,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -333,8 +367,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 123.19,
-   "pct_away": -2.87,
+   "last": 123.13,
+   "pct_away": -2.82,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "025899cf",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 324.5717,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 334.54,
+   "pct_away": -2.98,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -343,7 +394,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,935 idle, so opened 2: GRNT, TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,935 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -384,7 +435,6 @@
   "RTX",
   "SKWD",
   "SPY",
-  "TPL",
   "TSM",
   "TTD",
   "UNH",
@@ -399,13 +449,12 @@
    "ASRV excluded: too thinly traded (19,293/day) \u2014 AmeriServ Financial, Inc.",
    "BDCO excluded: too thinly traded (30,108/day) \u2014 Blue Dolphin Energy Company",
    "CCFN excluded: too thinly traded (2,651/day) \u2014 Muncy Columbia Financial Corporation",
-   "IRIX excluded: too thinly traded (67,237/day) \u2014 IRIDEX Corporation",
-   "RCG excluded: too thinly traded (5,209/day) \u2014 RENN Fund, Inc."
+   "IRIX excluded: too thinly traded (67,237/day) \u2014 IRIDEX Corporation"
   ]
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 182,
+  "decisions_recorded": 184,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -523,7 +572,7 @@
     "n": 1
    }
   },
-  "idle_checks": 118,
+  "idle_checks": 119,
   "blocked_checks": 0,
   "idle_share": 0.65,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1435,6 +1484,16 @@
  },
  "insider_trades": [
   {
+   "who": "Agen Brian Jon",
+   "role": "officer: VP, CHRO",
+   "ticker": "MOD",
+   "type": "sell",
+   "shares": 4306,
+   "price": 180.3,
+   "transaction_date": "2026-09-10",
+   "filing_date": "2026-09-14"
+  },
+  {
    "who": "Rabelo Pedro Guedes",
    "role": "officer: Financial Officer Ipiranga",
    "ticker": "UGP",
@@ -1733,56 +1792,6 @@
    "price": 44.36,
    "transaction_date": "2026-09-11",
    "filing_date": "2026-09-14"
-  },
-  {
-   "who": "Paz Amit",
-   "role": "officer: CHIEF INNOVATION OFFICER",
-   "ticker": "ENLT",
-   "type": "sell",
-   "shares": 4329,
-   "price": 76.5742,
-   "transaction_date": "2026-09-09",
-   "filing_date": "2026-09-14"
-  },
-  {
-   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-   "role": "10 percent owner",
-   "ticker": "TPL",
-   "type": "buy",
-   "shares": 1,
-   "price": 367.88,
-   "transaction_date": "2026-09-11",
-   "filing_date": "2026-09-14"
-  },
-  {
-   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-   "role": "10 percent owner",
-   "ticker": "RCG",
-   "type": "buy",
-   "shares": 756,
-   "price": 2.98,
-   "transaction_date": "2026-09-11",
-   "filing_date": "2026-09-14"
-  },
-  {
-   "who": "NOVAK STEVEN P",
-   "role": "director",
-   "ticker": "OXSQ",
-   "type": "sell",
-   "shares": 5000,
-   "price": 1.355,
-   "transaction_date": "2026-09-03",
-   "filing_date": "2026-09-14"
-  },
-  {
-   "who": "Azaria Eynav",
-   "role": "officer: See Remarks",
-   "ticker": "KLTR",
-   "type": "sell",
-   "shares": 3763,
-   "price": 1.4462,
-   "transaction_date": "2026-09-10",
-   "filing_date": "2026-09-14"
   }
  ],
  "insider_pressure": {
@@ -1792,9 +1801,8 @@
   "GRNT": 1.0,
   "IRIX": 1.0,
   "ASRV": 1.0,
-  "TPL": 1.0,
-  "RCG": 1.0,
   "DGICA": 0.0,
+  "MOD": -1.0,
   "IVZ": -1.0,
   "FIBK": -1.0,
   "AREB": -1.0,
@@ -1802,10 +1810,8 @@
   "PHVS": -1.0,
   "GOLD": -1.0,
   "WEYS": -1.0,
-  "ENLT": -1.0,
-  "OXSQ": -1.0,
-  "KLTR": -1.0,
-  "UGP": -2.0
+  "UGP": -2.0,
+  "NMAX": -2.0
  },
  "headlines": {
   "AAPL": [
@@ -2184,6 +2190,11 @@
   ],
   "INTC": [
    {
+    "title": "Nvidia\u2019s Training Trade Hit a Speed Bump. Intel Could Win From What Comes Next",
+    "source": "Insider Monkey",
+    "when": "2026-09-14T19:00"
+   },
+   {
     "title": "Why Iren Stock Just Got a Double Upgrade to Buy",
     "source": "Barrons.com",
     "when": "2026-09-14T18:26"
@@ -2192,11 +2203,6 @@
     "title": "Tech stocks fall after calls for AI development to slow",
     "source": "PA Media: Money",
     "when": "2026-09-14T18:25"
-   },
-   {
-    "title": "HPE Stock Is Downgraded After Rising 159% This Year. Why?",
-    "source": "Barrons.com",
-    "when": "2026-09-14T18:23"
    }
   ],
   "LMT": [
@@ -2235,6 +2241,11 @@
   ],
   "META": [
    {
+    "title": "Texas Put AI Data Centers on Notice. Meta and Digital Realty Already Chose Their Side",
+    "source": "Insider Monkey",
+    "when": "2026-09-14T18:55"
+   },
+   {
     "title": "Meta Gains - But Its 12-Point Margin Slide Still Demands Answers",
     "source": "GuruFocus.com",
     "when": "2026-09-14T18:39"
@@ -2243,11 +2254,6 @@
     "title": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
     "source": "Investor's Business Daily",
     "when": "2026-09-14T18:01"
-   },
-   {
-    "title": "The Winners and Losers in an AI Slowdown",
-    "source": "Barrons.com",
-    "when": "2026-09-14T16:49"
    }
   ],
   "MSFT": [
@@ -2541,5 +2547,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T15:03-04:00"
+ "signalsAsOf": "2026-09-14T15:09-04:00"
 }
