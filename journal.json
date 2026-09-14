@@ -2126,8 +2126,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.15,
+    "ret_final": 0.15,
     "ret_src": "realised"
   },
   {
@@ -3576,8 +3576,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05,
-    "ret_final": -0.05,
+    "ret_now": 0.14,
+    "ret_final": 0.14,
     "ret_src": "realised"
   },
   {
@@ -4492,8 +4492,8 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45,
-    "ret_final": -0.45,
+    "ret_now": -0.06,
+    "ret_final": -0.06,
     "ret_src": "realised"
   },
   {
@@ -5285,8 +5285,8 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2,
-    "ret_final": 0.2,
+    "ret_now": 0.45,
+    "ret_final": 0.45,
     "ret_src": "realised"
   },
   {
@@ -6037,7 +6037,9 @@
     "code_version": "4ae6f4f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.57
+    "ret_now": 0.7,
+    "ret_final": 0.7,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -6248,7 +6250,7 @@
     "code_version": "1d3a000",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.07
   },
   {
     "symbol": "GRNT",
@@ -6275,6 +6277,33 @@
     "trigger": "take_profit",
     "hour_et": 13,
     "code_version": "f8d5389",
+    "hold_minutes": 21
+  },
+  {
+    "symbol": "BE",
+    "side": "sell",
+    "qty": 11.621906,
+    "status": "filled",
+    "price": 259.93,
+    "proceeds": 3020.89,
+    "realized_pnl": 20.89,
+    "realized_pct": 0.7,
+    "date": "2026-09-14",
+    "time_et": "13:13",
+    "ts": 1789405800,
+    "why": "close 100% at +0.7% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $258.13",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "cce544d",
     "hold_minutes": 21
   }
 ]
