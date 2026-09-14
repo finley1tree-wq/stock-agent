@@ -1,20 +1,3 @@
-
-## 2026-09-11 15:58 ET (Friday) — week 2026-W37 — budget left $25000.00 (today $130800.00 put to work, 58 buys, 57 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexF6SckREfTu5MPqGaWH'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25152.46 (+0.61% on $25000.00 in) · cash $25152.46 · realised +152.46
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-09-12 17:44 ET — published the session's closing state
-## 2026-09-14 00:10 ET — published the session's closing state
-
-## 2026-09-14 09:32 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
   (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RA4AvGQ4Vb8GY9Yf2J'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +381,20 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25238.35 (+0.95% on $25000.00 in) · cash $3866.86 · realised +324.65
 Decision: nothing at this check. 25 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 10:44 ET (Monday) — week 2026-W38 — budget left $3568.52 (today $64457.79 put to work, 23 buys, 15 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3WdQugcGStrXfzyQY6V'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25284.18 (+1.14% on $25000.00 in) · cash $3866.86 · realised +324.65
+Decision: nothing at this check. 25 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $122.31] -> $3011.77 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-09-14 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $245.80] -> $3008.77 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-14 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders

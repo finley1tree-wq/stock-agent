@@ -1856,3 +1856,9 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25284.18 (+1.14% on $25000.00 in) · cash $3866.86 · realised +324.65
 Decision: nothing at this check. 25 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $122.31] -> $3011.77 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-09-14 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $245.80] -> $3008.77 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-14 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
