@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "fe9b9f7c",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 419.3504,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154946,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $432.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "fa0e0321",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7482,7 +7463,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.5339,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:24",
    "created_ts": 1789410283,
    "why": "close it all at -1.1% under the average cost",
@@ -7492,7 +7473,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 14:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "93fd6095",
@@ -7529,7 +7512,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-14 14:29",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "4366404d",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.724,
+   "status": "working",
+   "created": "2026-09-14 14:36",
+   "created_ts": 1789410981,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 14:33"
+ "updated": "2026-09-14 14:36"
 }

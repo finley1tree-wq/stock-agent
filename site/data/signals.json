@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T14:29-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-14T14:36-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "4366404d",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.724,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.74,
+   "pct_away": -0.11,
+   "good_until": "2026-09-19",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "87705afe",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.73,
-   "pct_away": 0.25,
+   "last": 14.74,
+   "pct_away": 0.18,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -163,7 +180,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 507.59,
+   "last": 507.61,
    "pct_away": 0.26,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.2% over the average cost",
@@ -180,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.38,
-   "pct_away": -0.28,
+   "last": 249.52,
+   "pct_away": -0.34,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -197,7 +214,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 507.59,
+   "last": 507.61,
    "pct_away": -0.54,
    "good_until": "2026-09-19",
    "why": "close it all at -0.6% under the average cost",
@@ -214,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.38,
-   "pct_away": 0.74,
+   "last": 249.52,
+   "pct_away": 0.68,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -231,27 +248,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 258.7,
-   "pct_away": 1.01,
+   "last": 259.3,
+   "pct_away": 0.77,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8a0c4a82",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 14.5339,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 14.73,
-   "pct_away": -1.33,
-   "good_until": "2026-09-19",
-   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 258.7,
-   "pct_away": -1.57,
+   "last": 259.3,
+   "pct_away": -1.8,
    "good_until": "2026-09-19",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -282,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.38,
-   "pct_away": -2.57,
+   "last": 249.52,
+   "pct_away": -2.62,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -299,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 258.7,
-   "pct_away": -2.74,
+   "last": 259.3,
+   "pct_away": -2.96,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,7 +316,7 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 507.59,
+   "last": 507.61,
    "pct_away": -2.97,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -333,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.73,
-   "pct_away": -3.2,
+   "last": 14.74,
+   "pct_away": -3.26,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
