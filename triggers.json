@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "838fbf68",
-   "ticker": "TPL",
-   "kind": "take_profit",
-   "price": 370.3235,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $368.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:57",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d127c672",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 365.4793,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $368.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:53",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "778633ff",
-   "ticker": "TPL",
-   "kind": "buy_limit",
-   "price": 357.8718,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $368.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 14:57",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b493b520",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 126.598,
-   "status": "filled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $126.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:16"
-  },
-  {
    "id": "e418dfd6",
    "ticker": "NEM",
    "kind": "stop_loss",
@@ -7525,7 +7450,7 @@
    "ticker": "GRNT",
    "kind": "stop_loss",
    "price": 5.113,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 13:04",
    "created_ts": 1789405471,
    "why": "close it all at -0.7% under the average cost",
@@ -7535,8 +7460,78 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:05",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "a4b5566a",
+   "ticker": "GRNT",
+   "kind": "stop_loss",
+   "price": 5.156,
+   "status": "working",
+   "created": "2026-09-14 13:05",
+   "created_ts": 1789405550,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $5.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "7c888ec7",
+   "ticker": "MAIA",
+   "kind": "take_profit",
+   "price": 1.3779,
+   "status": "working",
+   "created": "2026-09-14 13:05",
+   "created_ts": 1789405551,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $1.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38c9d949",
+   "ticker": "MAIA",
+   "kind": "stop_loss",
+   "price": 1.3503,
+   "status": "working",
+   "created": "2026-09-14 13:05",
+   "created_ts": 1789405551,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $1.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5a4317c8",
+   "ticker": "MAIA",
+   "kind": "buy_limit",
+   "price": 1.3289,
+   "status": "working",
+   "created": "2026-09-14 13:05",
+   "created_ts": 1789405551,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $1.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 13:04"
+ "updated": "2026-09-14 13:05"
 }

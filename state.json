@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 8989.65,
-  "deployed": 145457.79,
+  "spent": 11989.65,
+  "deployed": 148457.79,
   "by_ticker": {
     "IBM": 0.03,
     "GOOGL": 12.58,
@@ -11,7 +11,8 @@
     "TPL": 18.43,
     "ALP": 39.88,
     "AAPL": 3000.0,
-    "GRNT": 3000.0
+    "GRNT": 3000.0,
+    "MAIA": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -29,7 +30,7 @@
     "GOOGL": 6000.0,
     "TPL": 6000.0,
     "GRNT": 6000.0,
-    "MAIA": 3000.0
+    "MAIA": 6000.0
   },
   "orders": [
     {
@@ -1895,12 +1896,30 @@
       ],
       "evidence": "average cost $156.16",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MAIA",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2197.093977,
+      "price": 1.37,
+      "date": "2026-09-14",
+      "time_et": "13:05",
+      "ts": 1789405551,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. director); +1.1% over the month; 53% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 8989.65,
-  "deployed_today": 145457.79,
-  "orders_today": 50,
+  "spent_today": 11989.65,
+  "deployed_today": 148457.79,
+  "orders_today": 51,
   "sells_today": 47,
   "sold_today": [
     "ALP",
@@ -1938,19 +1957,22 @@
     "GRNT": 1789401722,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789405471,
-  "last_check_ts": 1789405471,
-  "last_bar_ts": 1789405200,
-  "last_decision_ts": 1789405387,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789405551,
+  "last_check_ts": 1789405551,
+  "last_bar_ts": 1789405500,
+  "last_decision_ts": 1789405551,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "a4b5566a": 5.156,
     "d4a01918": 5.1648,
     "426501e6": 335.7407,
     "e71f185e": 332.69,
-    "7245b220": 5.113,
+    "38c9d949": 1.3503,
     "ff39ad8a": 260.035,
+    "7c888ec7": 1.3779,
     "cb651f63": 253.3675,
+    "5a4317c8": 1.3289,
     "aeea7c76": 324.8239,
     "a906f948": 250.3861,
     "1dc4692f": 4.9955
