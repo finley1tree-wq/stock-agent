@@ -2777,3 +2777,11 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25399.60 (+1.60% on $25000.00 in) · cash $22392.64 · realised +392.64
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 13:30 ET (Monday) — week 2026-W38 — budget left $21987.62 (today $151457.79 put to work, 52 buys, 51 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3jGqe9e6L6P8dg1sTSP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25399.60 (+1.60% on $25000.00 in) · cash $22392.64 · realised +392.64
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
