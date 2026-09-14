@@ -3249,3 +3249,27 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25325.29 (+1.30% on $25000.00 in) · cash $7322.28 · realised +322.28
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $6917.28 this week
+  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $348.10] -> $3006.57 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-14 15:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-14 15:28 ET (Monday) — week 2026-W38 — budget left $9923.85 (today $205936.00 put to work, 71 buys, 66 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3tHLcUeYF1nsyEEu7tm'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 TPL @ $357.48 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 META @ $645.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25328.41 (+1.31% on $25000.00 in) · cash $10328.86 · realised +328.86
+Decision: nothing at this check. 15 standing order(s) working.
