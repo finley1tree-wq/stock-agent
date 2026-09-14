@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "58ec9c3f",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 127.5615,
-   "status": "cancelled",
-   "created": "2026-09-10 11:19",
-   "created_ts": 1789053593,
-   "why": "close 33% at +24.8% over the average cost",
-   "evidence": "average cost $102.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-15",
-   "pct_of_position": 33.0,
-   "closed": "2026-09-10 11:52",
-   "cancel_reason": "average cost moved"
-  },
-  {
-   "id": "47daba5a",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 132.9665,
-   "status": "cancelled",
-   "created": "2026-09-10 11:19",
-   "created_ts": 1789053593,
-   "why": "close 33% at +26.4% over the average cost",
-   "evidence": "average cost $105.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-15",
-   "pct_of_position": 33.0,
-   "closed": "2026-09-10 12:25",
-   "cancel_reason": "average cost moved"
-  },
-  {
-   "id": "2915648d",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 127.7454,
-   "status": "cancelled",
-   "created": "2026-09-10 11:52",
-   "created_ts": 1789055572,
-   "why": "close 33% at +25.0% over the average cost",
-   "evidence": "average cost $102.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-15",
-   "pct_of_position": 33.0,
-   "closed": "2026-09-10 12:25",
-   "cancel_reason": "average cost moved"
-  },
-  {
    "id": "e32b793c",
    "ticker": "NLR",
    "kind": "take_profit",
@@ -7076,7 +7019,7 @@
    "ticker": "ALP",
    "kind": "stop_loss",
    "price": 4.0734,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 09:32",
    "created_ts": 1789392754,
    "why": "close it all at -3.0% under the average cost",
@@ -7086,7 +7029,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 09:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9599c156",
@@ -7433,7 +7378,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 644.7907,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 09:32",
    "created_ts": 1789392754,
    "why": "close it all at -0.9% under the average cost",
@@ -7443,7 +7388,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 09:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "665ce37a",
@@ -7495,7 +7442,60 @@
    ],
    "good_until": "2026-09-15",
    "usd": 1000.0
+  },
+  {
+   "id": "4fca56a2",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.242,
+   "status": "cancelled",
+   "created": "2026-09-14 09:33",
+   "created_ts": 1789392834,
+   "why": "close it all at -3.0% under the average cost",
+   "evidence": "average cost $4.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 09:34",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "7a280e93",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 652.224,
+   "status": "working",
+   "created": "2026-09-14 09:33",
+   "created_ts": 1789392834,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $650.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1c3ac317",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 4.26,
+   "status": "working",
+   "created": "2026-09-14 09:34",
+   "created_ts": 1789392881,
+   "why": "close it all at -2.9% under the average cost",
+   "evidence": "average cost $4.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 09:32"
+ "updated": "2026-09-14 09:34"
 }

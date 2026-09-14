@@ -1502,3 +1502,12 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $1000.00 AMD @ $482.28 until 2026-09-15 — strong month, weak day: resting 0.85% under $486.40 to catch the dip
 portfolio: equity $25147.66 (+0.59% on $25000.00 in) · cash $1152.46 · realised +152.46
 Done: 0 sell(s), 8 buy(s); 26 order(s) working; budget left $1000.00 this week
+
+## 2026-09-14 09:34 ET (Monday) — week 2026-W38 — budget left $1000.00 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RGRR2fenFkDB3taEr5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25187.19 (+0.75% on $25000.00 in) · cash $1152.46 · realised +152.46
+Decision: nothing at this check. 26 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
