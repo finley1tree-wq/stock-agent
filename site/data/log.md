@@ -1,14 +1,3 @@
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3hNQ5BySaB4JDgfsiFU'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,010 idle, so opened 1: MAIA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 MAIA [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +1.1% over the month; 53% of today's range
-~ WORKING take_profit 100% MAIA @ $1.38 until 2026-09-19 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% MAIA @ $1.35 until 2026-09-19 — close it all at -1.4% under the average cost
-~ WORKING buy_limit $500.00 MAIA @ $1.33 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25406.88 (+1.63% on $25000.00 in) · cash $13415.36 · realised +415.36
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13010.35 this week
 - SELL 100% AAPL [time stop] -> $2994.59 (-0.18%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 13:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +387,14 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $132.92 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25328.25 (+1.31% on $25000.00 in) · cash $22340.20 · realised +340.20
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $21935.19 this week
+
+## 2026-09-14 14:52 ET (Monday) — week 2026-W38 — budget left $21935.19 (today $178936.00 put to work, 62 buys, 61 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3qWnZhDkEeZXcGUpmqw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,935 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +8.0% over the month; 82% of today's range
+~ WORKING take_profit 100% NEM @ $123.84 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $122.15 until 2026-09-19 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.66 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25326.39 (+1.31% on $25000.00 in) · cash $19340.20 · realised +340.20
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $18935.19 this week
