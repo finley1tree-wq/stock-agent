@@ -111,6 +111,9 @@ class SimBroker:
 
     def set_prices(self, px: dict) -> None:
         self.prices = {k: float(v["price"]) for k, v in px.items() if v.get("price")}
+        # The full quotes are kept too: the spread depends on each name's volume and price level,
+        # and the bare price map above cannot answer that.
+        self.quotes = dict(px or {})
 
     def held_tickers(self) -> list[str]:
         return sorted(self.p["positions"])
@@ -178,7 +181,7 @@ class SimBroker:
             usd = math.floor(self.p["cash"] * 100 + 1e-9) / 100
         if usd <= 0:
             rec["status"] = "rejected_no_cash"; return rec
-        fill = round(price * (1 + self.spread_pct / 100), 6)     # you buy at the offer
+        fill = round(price * (1 + self._spread(symbol) / 100), 6)     # you buy at the offer
         qty = usd / fill
         today = datetime.now(ET).date().isoformat()
         pos = self.p["positions"].get(symbol)
@@ -201,6 +204,19 @@ class SimBroker:
         self._save()
         return rec
 
+    def _spread(self, symbol: str) -> float:
+        """What the spread costs on THIS name, not on an average one.
+
+        A flat charge is wrong by 20x or more across a watchlist, and the error is not random: it
+        always favours the thinnest, cheapest names. The agent found that before we did - on
+        2026-09-14 thin names were 34% of turnover and 86% of the reported profit, and the
+        strongest-looking signal in the entire record was an artifact of the undercharge.
+        Falls back to the flat figure whenever volume is unknown, so nothing gets cheaper by
+        accident.
+        """
+        from . import prices
+        return prices.spread_pct(symbol, getattr(self, "quotes", None), default=self.spread_pct)
+
     def sell_qty(self, symbol: str, qty: float) -> dict:
         rec = {"symbol": symbol, "side": "sell", "qty": round(qty, 6)}
         pos = self.p["positions"].get(symbol)
@@ -213,7 +229,7 @@ class SimBroker:
         avg = pos["avg_cost"]                                    # kept: the position may be deleted below
         if pos["qty"] - qty < 1e-6:   # full close: positions() reports qty at 6 dp, so a 100% sell arrives a hair short
             qty = pos["qty"]
-        fill = round(price * (1 - self.spread_pct / 100), 6)     # you sell at the bid
+        fill = round(price * (1 - self._spread(symbol) / 100), 6)     # you sell at the bid
         proceeds = qty * fill
         realized = (fill - pos["avg_cost"]) * qty
         pos["qty"] -= qty

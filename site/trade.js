@@ -27,8 +27,8 @@
   // view" puts you back here in one click, because a saved preference from weeks ago (a 30-minute
   // interval, say) silently makes the chart look like it is barely moving.
   const FAST = { range: "1d", type: "candles", intervals: { "1d": "1m", "5d": "5m" },
-                 show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true, liq: true, levels: true } };
-  const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true, liq: true, levels: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
+                 show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true, liq: true, levels: true, zones: true } };
+  const T = { sym: null, range: "1d", interval: null, type: "candles", show: { vol: true, sma20: false, sma50: false, vwap: false, buyin: true, orders: true, liq: true, levels: true, zones: true }, data: null, chart: null, series: {}, entry: null, entryMode: "auto", size: null, seq: 0, resize: null };
   const prefs = (() => { try { return JSON.parse(localStorage.getItem("sa.trade") || "{}"); } catch (e) { return {}; } })();
   Object.assign(T, { range: prefs.range || "1d", type: prefs.type || "candles", show: { ...T.show, ...(prefs.show || {}) },
     intervals: prefs.intervals || { "1d": "1m", "5d": "5m" } });
@@ -55,11 +55,11 @@
         <div class="chips" id="t-reset"><button data-reset="1" title="Back to today, 1-minute candles - the fastest view">Reset view</button></div>
         <div class="chips" id="t-type"><button data-t="candles" aria-pressed="${T.type === "candles"}">Candles</button><button data-t="line" aria-pressed="${T.type === "line"}">Line</button></div>
         <div class="chips" id="t-toggles">
-          <button data-k="vol" aria-pressed="${T.show.vol}">Vol</button><button data-k="sma20" aria-pressed="${T.show.sma20}">SMA 20</button><button data-k="sma50" aria-pressed="${T.show.sma50}">SMA 50</button><button data-k="vwap" aria-pressed="${T.show.vwap}">VWAP</button><button data-k="buyin" aria-pressed="${T.show.buyin}">Buy-in</button><button data-k="orders" aria-pressed="${T.show.orders}">Orders</button><button data-k="liq" aria-pressed="${T.show.liq}" title="Volume profile: how much stock traded at each price">Liquidity</button><button data-k="levels" aria-pressed="${T.show.levels}" title="Session open, prior close, day high and low">Levels</button>
+          <button data-k="vol" aria-pressed="${T.show.vol}">Vol</button><button data-k="sma20" aria-pressed="${T.show.sma20}">SMA 20</button><button data-k="sma50" aria-pressed="${T.show.sma50}">SMA 50</button><button data-k="vwap" aria-pressed="${T.show.vwap}">VWAP</button><button data-k="buyin" aria-pressed="${T.show.buyin}">Buy-in</button><button data-k="orders" aria-pressed="${T.show.orders}">Orders</button><button data-k="liq" aria-pressed="${T.show.liq}" title="Volume profile: how much stock traded at each price">Liquidity</button><button data-k="levels" aria-pressed="${T.show.levels}" title="Session open, prior close, day high and low">Levels</button><button data-k="zones" aria-pressed="${T.show.zones}" title="Where it takes profit and where it cuts the loss">Target / Stop</button>
         </div>
       </div>
       <div class="t-read" id="t-read"><span class="dim">Move over the chart for O / H / L / C / volume and P/L at that price. Drag to pan, pinch or scroll to zoom.</span></div>
-      <div class="t-chart" id="t-chart"><canvas id="t-liq" class="t-liq" aria-hidden="true"></canvas><div class="t-legend" id="t-legend" hidden></div></div>
+      <div class="t-chart" id="t-chart"><canvas id="t-liq" class="t-liq" aria-hidden="true"></canvas><canvas id="t-zones" class="t-liq" aria-hidden="true"></canvas><div class="t-legend t-zonelegend" id="t-zonelegend" hidden></div><div class="t-legend" id="t-legend" hidden></div></div>
       <div class="t-foot">
         <div class="t-entry">
           <label>Buy-in <input id="t-entry" type="number" step="0.01" inputmode="decimal" aria-label="Buy-in price"></label>
@@ -157,6 +157,7 @@
     drawPosition();                   // the badge is the number the owner actually reads
     drawLevels();                     // the day's high and low move while the session runs
     drawLiquidity();
+    drawZones();
     if (!T.cursorPrice) updatePL(price);
   }
 
@@ -291,7 +292,7 @@
     drawClock();
     drawPosition();
     // the profile is painted on our own canvas, so it has to follow every pan, zoom and resize
-    const repaint = () => drawLiquidity();
+    const repaint = () => { drawLiquidity(); drawZones(); };
     chart.timeScale().subscribeVisibleLogicalRangeChange(repaint);
     requestAnimationFrame(repaint);
     chart.subscribeCrosshairMove(param => {
@@ -305,7 +306,7 @@
     });
     chart.timeScale().fitContent();
     if (view) { try { chart.timeScale().setVisibleLogicalRange(view); } catch (e) {} }
-    T.resize = () => { if (T.chart && host) { T.chart.applyOptions({ width: host.clientWidth, height: host.clientHeight }); drawLiquidity(); } };
+    T.resize = () => { if (T.chart && host) { T.chart.applyOptions({ width: host.clientWidth, height: host.clientHeight }); drawLiquidity(); drawZones(); } };
     window.addEventListener("resize", T.resize);
     T.lastPrice = c.price; updatePL(c.price);
     pollPrice();                       // start moving immediately instead of waiting for the timer
@@ -425,6 +426,60 @@
     el.textContent = `sold in ${m}:${String(sec).padStart(2, "0")}`;
     el.className = "t-clock" + (leftMin <= 5 ? " soon" : "");
     el.title = `Held ${Math.floor(heldMin)} min of the ${limit}-minute maximum`;
+  }
+
+  // THE TWO ZONES. The agent has already decided where it takes profit and where it cuts the loss;
+  // those were thin dotted lines lost among nine others. Drawn as filled bands from the buy-in -
+  // green up to the target, red down to the stop - the shape of the trade reads at a glance: how
+  // much it is playing for against how much it is risking, and where price sits between them.
+  function drawZones() {
+    const cv = $("#t-zones"), host = $("#t-chart"), s = T.series.main;
+    if (!cv || !host || !s) return;
+    const dpr = window.devicePixelRatio || 1, w = host.clientWidth, h = host.clientHeight;
+    cv.width = w * dpr; cv.height = h * dpr; cv.style.width = w + "px"; cv.style.height = h + "px";
+    const g = cv.getContext("2d"); g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, w, h);
+    const legend = $("#t-zonelegend");
+    if (!T.show.zones || !T.entry) { if (legend) legend.hidden = true; return; }
+    const live = (ctx().working() || []).filter(o => o.ticker === T.sym && +o.price > 0);
+    const tp = live.find(o => o.kind === "take_profit");
+    const sl = live.find(o => o.kind === "stop_loss" || o.kind === "trailing_stop");
+    const yE = s.priceToCoordinate(T.entry);
+    if (yE == null) { if (legend) legend.hidden = true; return; }
+    const tag = (text, y, colour, below) => {
+      g.font = "600 11px -apple-system, BlinkMacSystemFont, Inter, sans-serif";
+      g.fillStyle = colour; g.textAlign = "left";
+      g.fillText(text, 8, below ? y + 13 : y - 5);
+    };
+    if (tp) {
+      const yT = s.priceToCoordinate(+tp.price);
+      if (yT != null) {
+        g.fillStyle = "rgba(48,209,88,.18)";
+        g.fillRect(0, Math.min(yT, yE), w, Math.abs(yE - yT));
+        g.strokeStyle = "rgba(48,209,88,.85)"; g.lineWidth = 2;
+        g.beginPath(); g.moveTo(0, yT); g.lineTo(w, yT); g.stroke();
+        tag(`SELL HERE  ${money(+tp.price)}  (+${((+tp.price / T.entry - 1) * 100).toFixed(2)}%)`, yT, "#30d158", true);
+      }
+    }
+    if (sl) {
+      const yS = s.priceToCoordinate(+sl.price);
+      if (yS != null) {
+        g.fillStyle = "rgba(255,69,58,.18)";
+        g.fillRect(0, Math.min(yE, yS), w, Math.abs(yS - yE));
+        g.strokeStyle = "rgba(255,69,58,.85)"; g.lineWidth = 2;
+        g.beginPath(); g.moveTo(0, yS); g.lineTo(w, yS); g.stroke();
+        tag(`CUT HERE  ${money(+sl.price)}  (${((+sl.price / T.entry - 1) * 100).toFixed(2)}%)`, yS, "#ff453a", false);
+      }
+    }
+    if (legend) {
+      if (!tp && !sl) { legend.hidden = true; return; }
+      const up = tp ? (+tp.price / T.entry - 1) * 100 : null;
+      const dn = sl ? (1 - +sl.price / T.entry) * 100 : null;
+      legend.hidden = false;
+      legend.innerHTML = (up != null ? `<b style="color:#30d158">+${up.toFixed(2)}%</b> to target` : "")
+        + (up != null && dn != null ? ` <span class="dim">vs</span> ` : "")
+        + (dn != null ? `<b style="color:#ff453a">-${dn.toFixed(2)}%</b> to stop` : "")
+        + (up != null && dn != null ? ` <span class="dim">· risking ${(dn / up).toFixed(2)}x what it plays for</span>` : "");
+    }
   }
 
   // Standing orders drawn where they sit: the levels the agent is waiting for, on the same chart

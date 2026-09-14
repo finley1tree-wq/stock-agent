@@ -29,7 +29,15 @@ BAD_NAME = re.compile(
     r"\b(preferred|depositary|depository|warrant|warrants|right|rights|unit|units|"
     r"convertible|debenture|note|notes|trust preferred|when[- ]issued|"
     r"series [a-z] (preferred|pfd)|pfd)\b", re.I)
-MIN_AVG_VOLUME = 100_000          # thin enough that a $20 order would be a real part of the tape
+# Raised from 100,000. At that floor the screen passed FLD (a $0.53 share) and ALP ($4.16), and
+# those two produced most of a day's "profit" purely because the flat spread charge undercharged
+# them by twenty times. The cost model is now per-name, so the economics would eventually teach
+# the agent to avoid them - but there is no reason to spend real trades learning what a screen
+# can settle for free.
+MIN_AVG_VOLUME = 1_000_000
+# A penny of spread is 0.2bp on a $500 share and 189bp on a $0.53 one. Below this price the
+# spread dominates any edge a 30-minute trade could have, whatever the volume.
+MIN_PRICE = 5.0
 
 def _load() -> dict:
     try:
@@ -64,6 +72,10 @@ def _judge(t: str) -> dict:
         return {"ok": False, "why": f"not ordinary shares ({m.group(0).lower()})", "name": name}
     if qtype == "EQUITY" and vol and int(vol) < MIN_AVG_VOLUME:
         return {"ok": False, "why": f"too thinly traded ({int(vol):,}/day)", "name": name}
+    price = info.get("currentPrice") or info.get("regularMarketPrice") or info.get("previousClose") or 0
+    if qtype == "EQUITY" and price and float(price) < MIN_PRICE:
+        return {"ok": False, "why": f"share price ${float(price):.2f} is below ${MIN_PRICE:.0f}: the spread eats the trade",
+                "name": name}
     return {"ok": True, "why": "", "name": name}
 
 def check(tickers, use_cache: bool = True) -> dict:
