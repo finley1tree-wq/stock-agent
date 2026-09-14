@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "92b7885e",
-   "ticker": "MRK",
-   "kind": "stop_loss",
-   "price": 145.334,
-   "status": "cancelled",
-   "created": "2026-09-11 13:14",
-   "created_ts": 1789146878,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $145.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 13:15",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "2badfd53",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -7505,7 +7486,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 501.3765,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:03",
    "created_ts": 1789401809,
    "why": "close it all at -0.6% under the average cost",
@@ -7515,7 +7496,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 12:07",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "35dd12db",
@@ -7533,7 +7516,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "c7381899",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 504.596,
+   "status": "working",
+   "created": "2026-09-14 12:07",
+   "created_ts": 1789402059,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $504.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 12:06"
+ "updated": "2026-09-14 12:07"
 }

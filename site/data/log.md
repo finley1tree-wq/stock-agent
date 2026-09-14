@@ -1,17 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3XHX93YVvbULTWgLMwQ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $12,574 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +0.2% over the month; 68% of today's range
-~ WORKING take_profit 100% TTD @ $14.66 until 2026-09-19 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% TTD @ $14.43 until 2026-09-19 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 TTD @ $14.15 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25267.80 (+1.07% on $25000.00 in) · cash $9872.70 · realised +330.49
-Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $9574.35 this week
-
-## 2026-09-14 10:56 ET (Monday) — week 2026-W38 — budget left $9574.35 (today $70457.79 put to work, 25 buys, 19 sells) — SIM (pretend money) via sim
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3XVtgRbEwnHYVNKc2ox'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
@@ -398,3 +384,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $489.07 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25364.86 (+1.46% on $25000.00 in) · cash $16372.95 · realised +372.95
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16074.61 this week
+
+## 2026-09-14 12:06 ET (Monday) — week 2026-W38 — budget left $16074.61 (today $112457.79 put to work, 39 buys, 36 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3cpmuFKTn1XCzb44NAV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25366.60 (+1.47% on $25000.00 in) · cash $16372.95 · realised +372.95
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
