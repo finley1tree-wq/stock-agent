@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "2523b83e",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 448.7608,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154946,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $462.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "fe9b9f7c",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -7321,7 +7302,7 @@
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 349.6502,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:15",
    "created_ts": 1789409751,
    "why": "close 100% at +0.2% over the average cost",
@@ -7331,14 +7312,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 14:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dff01607",
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 346.7445,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-14 14:15",
    "created_ts": 1789409751,
    "why": "close it all at -0.6% under the average cost",
@@ -7348,14 +7331,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 14:26"
   },
   {
    "id": "5cc8e534",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 338.3554,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:15",
    "created_ts": 1789409751,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7365,7 +7349,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 14:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4eb276e7",
@@ -7440,7 +7426,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 659.7943,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:18",
    "created_ts": 1789409929,
    "why": "close it all at -0.9% under the average cost",
@@ -7450,7 +7436,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 14:26",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "829e8f48",
@@ -7519,7 +7507,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "b806f031",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 666.648,
+   "status": "working",
+   "created": "2026-09-14 14:26",
+   "created_ts": 1789410365,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $665.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 14:24"
+ "updated": "2026-09-14 14:26"
 }
