@@ -1,4 +1,3 @@
-
 ## 2026-09-11 14:58 ET (Friday) — week 2026-W37 — budget left $14502.61 (today $107800.00 put to work, 50 buys, 45 sells) — SIM (pretend money) via sim
   (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
   (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
@@ -398,3 +397,4 @@ portfolio: equity $25152.46 (+0.61% on $25000.00 in) · cash $25152.46 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-12 17:44 ET — published the session's closing state
+## 2026-09-14 00:10 ET — published the session's closing state
