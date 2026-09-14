@@ -28,5 +28,5 @@
       ]
     }
   ],
-  "ignoreCommand": "files=$(git diff --name-only HEAD^ HEAD 2>/dev/null); [ -z \"$files\" ] && files=UNKNOWN; test -n \"$(echo \"$files\" | grep -vE '^(portfolio|state|journal|decisions|triggers|traders|replay|instruments)\\.json$|^(log|lessons|portfolio)\\.md$|^site/data/|^PAUSE$')\" && exit 1 || exit 0"
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- site api vercel.json ':!site/data' 2>/dev/null && exit 0 || exit 1"
 }
