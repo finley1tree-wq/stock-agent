@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "2ea71340",
-   "ticker": "MRK",
-   "kind": "take_profit",
-   "price": 144.6008,
-   "status": "cancelled",
-   "created": "2026-09-11 14:58",
-   "created_ts": 1789153118,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $144.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:28",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "cb9005c7",
    "ticker": "MRK",
    "kind": "stop_loss",
@@ -7383,7 +7364,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 253.3675,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 13:01",
    "created_ts": 1789405299,
    "why": "close it all at -1.8% under the average cost",
@@ -7393,7 +7374,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7245b220",
@@ -7532,7 +7515,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "4fed2d8f",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 258.796,
+   "status": "working",
+   "created": "2026-09-14 13:09",
+   "created_ts": 1789405765,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $258.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 13:08"
+ "updated": "2026-09-14 13:09"
 }
