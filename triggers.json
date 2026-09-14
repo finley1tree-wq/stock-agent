@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "48c51626",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 372.0,
-   "status": "cancelled",
-   "created": "2026-09-11 10:37",
-   "created_ts": 1789137458,
-   "why": "lock in gains on partial position",
-   "evidence": "AVGO +1.02% today already",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-11 11:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b2629619",
    "ticker": "AMZN",
    "kind": "stop_loss",
@@ -7498,7 +7480,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "ba6d51bf",
+   "ticker": "FLD",
+   "kind": "buy_limit",
+   "price": 0.51709453,
+   "status": "working",
+   "created": "2026-09-14 10:36",
+   "created_ts": 1789396579,
+   "why": "strong month, weak day: resting 2.43% under $0.53 to catch the dip",
+   "evidence": "+11.4% over the month, sitting at 44% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-15",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-14 10:33"
+ "updated": "2026-09-14 10:36"
 }
