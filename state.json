@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 5965.72,
+  "spent": 3012.38,
   "deployed": 151457.79,
   "by_ticker": {
     "IBM": 0.03,
@@ -11,7 +11,7 @@
     "TPL": 18.43,
     "ALP": 39.88,
     "AAPL": 5.41,
-    "MAIA": 3000.0,
+    "MAIA": 46.66,
     "TTD": 3000.0
   },
   "deployed_by_ticker": {
@@ -1994,13 +1994,34 @@
       ],
       "evidence": "average cost $258.13",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MAIA",
+      "side": "sell",
+      "qty": 2197.093977,
+      "status": "filled",
+      "price": 1.34,
+      "proceeds": 2953.34,
+      "realized_pnl": -46.66,
+      "realized_pct": -1.56,
+      "date": "2026-09-14",
+      "time_et": "13:15",
+      "ts": 1789405800,
+      "why": "close it all at -1.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $1.37",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 5965.72,
+  "spent_today": 3012.38,
   "deployed_today": 151457.79,
   "orders_today": 52,
-  "sells_today": 50,
+  "sells_today": 51,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2035,20 +2056,17 @@
     "GOOGL": 1789404628,
     "TPL": 1789403652,
     "GRNT": 1789405841,
-    "MAIA": 1789402737
+    "MAIA": 1789406136
   },
-  "last_publish_ts": 1789406005,
-  "last_check_ts": 1789406052,
-  "last_bar_ts": 1789405800,
+  "last_publish_ts": 1789406136,
+  "last_check_ts": 1789406136,
+  "last_bar_ts": 1789406100,
   "last_decision_ts": 1789406052,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "f4aaf5de": 14.7661,
-    "38c9d949": 1.3503,
     "a5201754": 14.5345,
-    "7c888ec7": 1.3779,
-    "5a4317c8": 1.3289,
     "4e9082e4": 14.259
   }
 }

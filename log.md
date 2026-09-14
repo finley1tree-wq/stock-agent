@@ -2728,3 +2728,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25428.19 (+1.71% on $25000.00 in) · cash $19439.30 · realised +439.30
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MAIA: position closed)
+- SELL 100% MAIA [stop_loss @ $1.35] -> $2953.34 (-1.56%) — close it all at -1.4% under the average cost
+## 2026-09-14 13:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
