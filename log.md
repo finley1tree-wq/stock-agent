@@ -1823,3 +1823,14 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $1000.00 FLD @ $0.52 until 2026-09-15 — strong month, weak day: resting 2.43% under $0.53 to catch the dip
 portfolio: equity $25291.06 (+1.16% on $25000.00 in) · cash $3866.86 · realised +324.65
 Decision: nothing at this check. 25 standing order(s) working.
+
+## 2026-09-14 10:39 ET (Monday) — week 2026-W38 — budget left $3568.52 (today $64457.79 put to work, 23 buys, 15 sells) — SIM (pretend money) via sim
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3WBTaShfFw88B7Fp5vj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25255.76 (+1.02% on $25000.00 in) · cash $3866.86 · realised +324.65
+Decision: nothing at this check. 25 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
