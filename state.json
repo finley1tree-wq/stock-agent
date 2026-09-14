@@ -1,32 +1,36 @@
 {
   "week": "2026-W38",
-  "spent": 5969.79,
-  "deployed": 94457.79,
+  "spent": 17969.79,
+  "deployed": 106457.79,
   "by_ticker": {
     "IBM": 5.72,
     "GOOGL": 19.01,
     "HLI": 3017.11,
     "AAPL": 3005.79,
-    "AMD": 12.77,
-    "BE": 33.23,
+    "AMD": 3012.77,
+    "BE": 3033.23,
     "FLD": 1.2,
-    "TPL": 21.3
+    "TPL": 21.3,
+    "GRNT": 3000.0,
+    "MAIA": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 9000.0,
     "CHRW": 9000.0,
-    "BE": 6000.0,
+    "BE": 9000.0,
     "IBM": 9000.0,
     "FLD": 6000.0,
     "HLI": 9000.0,
     "NEM": 9000.0,
     "META": 9000.0,
-    "AMD": 4000.0,
+    "AMD": 7000.0,
     "TTD": 6000.0,
     "AAPL": 9000.0,
     "MSFT": 3457.79,
     "GOOGL": 3000.0,
-    "TPL": 3000.0
+    "TPL": 3000.0,
+    "GRNT": 3000.0,
+    "MAIA": 3000.0
   },
   "orders": [
     {
@@ -1257,12 +1261,83 @@
       ],
       "evidence": "average cost $658.28",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.689922,
+      "price": 256.63,
+      "date": "2026-09-14",
+      "time_et": "11:48",
+      "ts": 1789400928,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +8.6% over the month; 60% of today's range"
+    },
+    {
+      "symbol": "GRNT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 579.034772,
+      "price": 5.18,
+      "date": "2026-09-14",
+      "time_et": "11:48",
+      "ts": 1789400928,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. director); +2.8% over the month; 73% of today's range"
+    },
+    {
+      "symbol": "MAIA",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2173.478348,
+      "price": 1.38,
+      "date": "2026-09-14",
+      "time_et": "11:48",
+      "ts": 1789400928,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. director); +2.6% over the month; 81% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.108882,
+      "price": 491.09,
+      "date": "2026-09-14",
+      "time_et": "11:48",
+      "ts": 1789400928,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+1.6% over the month; 85% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 5969.79,
-  "deployed_today": 94457.79,
-  "orders_today": 33,
+  "spent_today": 17969.79,
+  "deployed_today": 106457.79,
+  "orders_today": 37,
   "sells_today": 31,
   "sold_today": [
     "ALP",
@@ -1296,18 +1371,30 @@
     "GOOGL": 1789395611,
     "TPL": 1789400077
   },
-  "last_publish_ts": 1789400798,
-  "last_check_ts": 1789400843,
+  "last_publish_ts": 1789400928,
+  "last_check_ts": 1789400928,
   "last_bar_ts": 1789400700,
-  "last_decision_ts": 1789400760,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789400928,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "9abfab54": 334.456,
-    "05096386": 136.152,
     "67b45a02": 335.0489,
-    "881bcdad": 136.4593,
-    "6610a12f": 324.1546,
-    "fab3ab85": 131.9394
+    "9abfab54": 334.456,
+    "4967ef45": 136.458,
+    "b0b0062c": 5.1948,
+    "333c32d0": 493.3097,
+    "344e9635": 1.3878,
+    "1d0b9e7a": 5.143,
+    "0ee3684f": 258.5316,
+    "77cab370": 134.9237,
+    "4b303222": 485.5407,
+    "b927c508": 1.3605,
+    "fb907c55": 251.8746,
+    "ee903ecf": 248.9311,
+    "4b854a11": 476.3573,
+    "0253b07e": 5.0246,
+    "3da74519": 1.3386,
+    "fab3ab85": 131.9394,
+    "6610a12f": 324.1546
   }
 }

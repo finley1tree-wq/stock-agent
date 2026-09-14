@@ -2179,3 +2179,32 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25335.36 (+1.34% on $25000.00 in) · cash $19328.55 · realised +328.55
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 11:48 ET (Monday) — week 2026-W38 — budget left $19030.21 (today $94457.79 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3bVaoMv2hrHstey19zd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,030 idle, so opened 4: BE, GRNT, MAIA, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +8.6% over the month; 60% of today's range
+- BUY $3000.00 GRNT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +2.8% over the month; 73% of today's range
+- BUY $3000.00 MAIA [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +2.6% over the month; 81% of today's range
+- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +1.6% over the month; 85% of today's range
+~ WORKING take_profit 100% BE @ $258.53 until 2026-09-19 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $251.87 until 2026-09-19 — close it all at -1.9% under the average cost
+~ WORKING buy_limit $500.00 BE @ $248.93 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GRNT @ $5.19 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GRNT @ $5.14 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 GRNT @ $5.02 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MAIA @ $1.39 until 2026-09-19 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% MAIA @ $1.36 until 2026-09-19 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 MAIA @ $1.34 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $493.31 until 2026-09-19 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% AMD @ $485.54 until 2026-09-19 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $476.36 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25335.54 (+1.34% on $25000.00 in) · cash $7328.55 · realised +328.55
+Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $7030.21 this week
