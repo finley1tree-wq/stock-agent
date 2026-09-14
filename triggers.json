@@ -6925,7 +6925,7 @@
    "ticker": "FLD",
    "kind": "take_profit",
    "price": 0.52694337,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-14 09:32",
    "created_ts": 1789392754,
    "why": "close 100% at +1.3% over the average cost",
@@ -6935,7 +6935,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 09:50"
   },
   {
    "id": "0e557f41",
@@ -6961,7 +6962,7 @@
    "ticker": "FLD",
    "kind": "buy_limit",
    "price": 0.50450088,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 09:32",
    "created_ts": 1789392754,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6971,7 +6972,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "03a42b86",
@@ -7521,7 +7524,7 @@
    "ticker": "FLD",
    "kind": "stop_loss",
    "price": 0.5260416,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 09:47",
    "created_ts": 1789393651,
    "why": "close it all at -3.2% under the average cost",
@@ -7531,8 +7534,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 09:50",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-14 09:48"
+ "updated": "2026-09-14 09:50"
 }
