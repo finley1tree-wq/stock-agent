@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "b2629619",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 249.5,
-   "status": "cancelled",
-   "created": "2026-09-11 10:37",
-   "created_ts": 1789137458,
-   "why": "protective stop within hold window",
-   "evidence": "AMZN ATR 2.187%, price 255.21",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 11:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "aa371247",
    "ticker": "MSFT",
    "kind": "stop_loss",
@@ -7452,7 +7434,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 120.6239,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 10:33",
    "created_ts": 1789396405,
    "why": "close it all at -1.0% under the average cost",
@@ -7462,7 +7444,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 10:44",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d3543578",
@@ -7497,7 +7481,24 @@
    ],
    "good_until": "2026-09-15",
    "usd": 1000.0
+  },
+  {
+   "id": "aa00855c",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 122.058,
+   "status": "working",
+   "created": "2026-09-14 10:44",
+   "created_ts": 1789397097,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $121.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 10:42"
+ "updated": "2026-09-14 10:44"
 }
