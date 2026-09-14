@@ -1,6 +1,3 @@
-- SELL 100% AAPL [take_profit @ $332.72] -> $3007.86 (+0.26%) — close 100% at +0.3% over the average cost
-## 2026-09-14 09:41 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-14 09:43 ET (Monday) — week 2026-W38 — budget left $13065.89 (today $34000.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
   (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3Rv4zG1mXf18WdMABbk'}
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 TPL @ $361.80 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25288.19 (+1.15% on $25000.00 in) · cash $16279.71 · realised +279.71
 Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15981.36 this week
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.66] -> $3012.91 (+0.43%) — close 100% at +0.5% over the average cost
+## 2026-09-14 11:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
