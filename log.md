@@ -2976,3 +2976,11 @@ Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $9493.11 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [stop_loss @ $346.57] -> $2980.06 (-0.66%) — close it all at -0.6% under the average cost
 ## 2026-09-14 14:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 14:27 ET (Monday) — week 2026-W38 — budget left $12473.17 (today $175936.00 put to work, 61 buys, 56 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3ob4MbY5TQnknBboZBK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25352.75 (+1.41% on $25000.00 in) · cash $12878.18 · realised +356.39
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
