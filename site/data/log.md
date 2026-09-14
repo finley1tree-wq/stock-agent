@@ -1,8 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3nVBdcjzCAbqgiGu6J6'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25369.18 (+1.48% on $25000.00 in) · cash $16377.44 · realised +377.44
-Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-14 14:15 ET (Monday) — week 2026-W38 — budget left $15972.43 (today $166457.79 put to work, 57 buys, 54 sells) — SIM (pretend money) via sim
@@ -398,3 +393,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25290.17 (+1.16% on $25000.00 in) · cash $13291.09 · realised +291.09
 Decision: nothing at this check. 12 standing order(s) working.
+  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $666.10] -> $3001.13 (+0.04%) — close it all at -0.9% under the average cost
+## 2026-09-14 15:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
