@@ -1893,8 +1893,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16,
-    "ret_final": 0.16,
+    "ret_now": 0.19,
+    "ret_final": 0.19,
     "ret_src": "realised"
   },
   {
@@ -2451,8 +2451,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17,
-    "ret_final": 0.17,
+    "ret_now": 0.2,
+    "ret_final": 0.2,
     "ret_src": "realised"
   },
   {
@@ -3547,8 +3547,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27,
-    "ret_final": 0.27,
+    "ret_now": 0.28,
+    "ret_final": 0.28,
     "ret_src": "realised"
   },
   {
@@ -4267,7 +4267,7 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": 0.02
   },
   {
     "symbol": "META",
@@ -4293,7 +4293,7 @@
     "code_version": "00a95a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.14
   },
   {
     "symbol": "CHRW",
@@ -4320,7 +4320,9 @@
     "code_version": "2d545c2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -4347,7 +4349,7 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.03
   },
   {
     "symbol": "AAPL",
@@ -4373,7 +4375,7 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.14
   },
   {
     "symbol": "AMD",
@@ -4399,7 +4401,7 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": -0.27
   },
   {
     "symbol": "ALP",
@@ -4427,5 +4429,109 @@
     "hour_et": 10,
     "code_version": "df8a030",
     "hold_minutes": 7
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 19.317319,
+    "status": "filled",
+    "price": 155.74,
+    "proceeds": 3008.56,
+    "realized_pnl": 8.56,
+    "realized_pct": 0.29,
+    "date": "2026-09-14",
+    "time_et": "10:33",
+    "ts": 1789396200,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $155.3",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "7372a35",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "BE",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.648156,
+    "price": 257.55,
+    "date": "2026-09-14",
+    "time_et": "10:33",
+    "ts": 1789396405,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers); +9.0% over the month; 67% of today's range",
+    "entry_price": 257.5,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.01,
+    "hour_et": 10,
+    "code_version": "7372a35",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 457.79,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.914537,
+    "price": 500.57,
+    "date": "2026-09-14",
+    "time_et": "10:33",
+    "ts": 1789396405,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +0.7% over the month; 72% of today's range",
+    "entry_price": 500.47,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.72,
+    "hour_et": 10,
+    "code_version": "7372a35",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NEM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 24.623595,
+    "price": 121.83,
+    "date": "2026-09-14",
+    "time_et": "10:33",
+    "ts": 1789396405,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+6.7% over the month; 9% of today's range",
+    "entry_price": 121.81,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 6.67,
+    "hour_et": 10,
+    "code_version": "7372a35",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
