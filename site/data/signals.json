@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T14:36-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-14T14:37-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "4366404d",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 14.724,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 14.74,
-   "pct_away": -0.11,
-   "good_until": "2026-09-19",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "87705afe",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -163,10 +146,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.74,
-   "pct_away": 0.18,
+   "last": 14.75,
+   "pct_away": 0.11,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4366404d",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.724,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.75,
+   "pct_away": -0.18,
+   "good_until": "2026-09-19",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 507.61,
-   "pct_away": 0.26,
+   "last": 507.7,
+   "pct_away": 0.24,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.52,
-   "pct_away": -0.34,
+   "last": 249.34,
+   "pct_away": -0.27,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -214,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 507.61,
-   "pct_away": -0.54,
+   "last": 507.7,
+   "pct_away": -0.56,
    "good_until": "2026-09-19",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -231,44 +231,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.52,
-   "pct_away": 0.68,
+   "last": 249.34,
+   "pct_away": 0.75,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0f1008a1",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 261.3014,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 259.3,
-   "pct_away": 0.77,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bb8afa92",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 254.6426,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 259.3,
-   "pct_away": -1.8,
-   "good_until": "2026-09-19",
-   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,25 +248,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.52,
-   "pct_away": -2.62,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8ff851f8",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 251.618,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 259.3,
-   "pct_away": -2.96,
+   "last": 249.34,
+   "pct_away": -2.55,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,8 +265,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 507.61,
-   "pct_away": -2.97,
+   "last": 507.7,
+   "pct_away": -2.99,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -333,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.74,
-   "pct_away": -3.26,
+   "last": 14.75,
+   "pct_away": -3.33,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

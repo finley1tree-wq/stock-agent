@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 12047.08,
+  "spent": 9054.1,
   "deployed": 175936.0,
   "by_ticker": {
     "IBM": 3000.03,
     "GOOGL": 32.52,
     "AMD": 3.77,
-    "BE": 3006.35,
+    "BE": 13.37,
     "FLD": 1.2,
     "TPL": 18.43,
     "ALP": 39.88,
@@ -2298,13 +2298,33 @@
       ],
       "evidence": "average cost $665.82",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.564984,
+      "status": "filled",
+      "price": 258.8,
+      "proceeds": 2992.98,
+      "realized_pnl": -7.02,
+      "realized_pct": -0.23,
+      "date": "2026-09-14",
+      "time_et": "14:37",
+      "ts": 1789411060,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.19% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 12047.08,
+  "spent_today": 9054.1,
   "deployed_today": 175936.0,
   "orders_today": 61,
-  "sells_today": 57,
+  "sells_today": 58,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2332,7 +2352,7 @@
     "AMD": 1789402737,
     "IBM": 1789404582,
     "AAPL": 1789410203,
-    "BE": 1789406005,
+    "BE": 1789411061,
     "NEM": 1789409204,
     "MSFT": 1789402342,
     "FLD": 1789399070,
@@ -2341,23 +2361,20 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789410981,
-  "last_check_ts": 1789410983,
+  "last_publish_ts": 1789411060,
+  "last_check_ts": 1789411060,
   "last_bar_ts": 1789410900,
   "last_decision_ts": 1789410983,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "4366404d": 14.724,
     "87705afe": 14.7664,
+    "4366404d": 14.724,
     "4eb276e7": 508.9127,
     "067bef79": 248.6714,
     "e1817806": 504.8457,
     "8cc04e0d": 251.2164,
-    "0f1008a1": 261.3014,
-    "bb8afa92": 254.6426,
     "4b849044": 242.9753,
-    "8ff851f8": 251.618,
     "77b7a295": 492.5175,
     "93fd6095": 14.259
   }
