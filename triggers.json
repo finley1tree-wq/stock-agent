@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "1a0b7421",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 102.0634,
-   "status": "filled",
-   "created": "2026-09-10 14:04",
-   "created_ts": 1789063463,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $105.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-15",
-   "usd": 500.0,
-   "closed": "2026-09-10 14:06"
-  },
-  {
    "id": "7ae46a2e",
    "ticker": "GOOGN",
    "kind": "buy_limit",
@@ -7421,7 +7403,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.447,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 09:37",
    "created_ts": 1789393054,
    "why": "close it all at -1.1% under the average cost",
@@ -7431,7 +7413,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "27f73824",
@@ -7500,7 +7484,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "0f8b4728",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.646,
+   "status": "working",
+   "created": "2026-09-14 09:38",
+   "created_ts": 1789393094,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $14.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 09:37"
+ "updated": "2026-09-14 09:38"
 }
