@@ -1,34 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,993 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +4.3% over the month; 78% of today's range
-~ WORKING take_profit 100% CHRW @ $156.19 until 2026-09-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CHRW @ $154.64 until 2026-09-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CHRW @ $151.08 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25265.89 (+1.06% on $25000.00 in) · cash $16291.42 · realised +291.42
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15993.07 this week
-
-## 2026-09-14 11:22 ET (Monday) — week 2026-W38 — budget left $15993.07 (today $79457.79 put to work, 28 buys, 25 sells) — SIM (pretend money) via sim
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3ZVpJUnXBDhe5RsT9Ve'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25268.24 (+1.07% on $25000.00 in) · cash $16291.42 · realised +291.42
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 11:25 ET (Monday) — week 2026-W38 — budget left $15993.07 (today $79457.79 put to work, 28 buys, 25 sells) — SIM (pretend money) via sim
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3ZiUyViNuJzzYMTukXA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25238.02 (+0.95% on $25000.00 in) · cash $16291.42 · realised +291.42
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-14 11:28 ET (Monday) — week 2026-W38 — budget left $15993.07 (today $79457.79 put to work, 28 buys, 25 sells) — SIM (pretend money) via sim
   (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
@@ -398,3 +367,34 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25407.92 (+1.63% on $25000.00 in) · cash $16405.02 · realised +405.02
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 12:28 ET (Monday) — week 2026-W38 — budget left $16000.00 (today $121457.79 put to work, 42 buys, 39 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3eXj283j3H46KzxJEu3'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25410.64 (+1.64% on $25000.00 in) · cash $16405.02 · realised +405.02
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 12:31 ET (Monday) — week 2026-W38 — budget left $16000.00 (today $121457.79 put to work, 42 buys, 39 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3ejgyv8s3crw96EicmZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,000 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +11.1% over the month; 80% of today's range
+~ WORKING take_profit 100% META @ $663.48 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $655.18 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $641.28 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25409.49 (+1.64% on $25000.00 in) · cash $13405.02 · realised +405.02
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13000.00 this week

@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "49789aaa",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 364.8813,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $368.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:06",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2c9f0bbc",
-   "ticker": "TPL",
-   "kind": "buy_limit",
-   "price": 357.2898,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $368.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 14:06",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fe749ce6",
-   "ticker": "DGICA",
-   "kind": "take_profit",
-   "price": 19.3118,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $19.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:29",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "1a03a54d",
    "ticker": "DGICA",
    "kind": "stop_loss",
@@ -7536,7 +7479,58 @@
    ],
    "good_until": "2026-09-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "5a75be13",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 663.4834,
+   "status": "working",
+   "created": "2026-09-14 12:31",
+   "created_ts": 1789403483,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $661.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a96b60b5",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 655.1798,
+   "status": "working",
+   "created": "2026-09-14 12:31",
+   "created_ts": 1789403483,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $661.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38624d60",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 641.2767,
+   "status": "working",
+   "created": "2026-09-14 12:31",
+   "created_ts": 1789403483,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $661.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 12:28"
+ "updated": "2026-09-14 12:31"
 }

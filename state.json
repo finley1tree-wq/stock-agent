@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 9000.0,
-  "deployed": 121457.79,
+  "spent": 12000.0,
+  "deployed": 124457.79,
   "by_ticker": {
     "IBM": 5.72,
     "GOOGL": 19.01,
@@ -11,7 +11,8 @@
     "FLD": 1.2,
     "TPL": 3021.3,
     "ALP": 3000.0,
-    "NEM": 3000.0
+    "NEM": 3000.0,
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -21,7 +22,7 @@
     "FLD": 6000.0,
     "HLI": 9000.0,
     "NEM": 12000.0,
-    "META": 9000.0,
+    "META": 12000.0,
     "AMD": 7000.0,
     "TTD": 9000.0,
     "AAPL": 9000.0,
@@ -1587,12 +1588,29 @@
         "autopilot"
       ],
       "evidence": "+7.5% over the month; 56% of today's range"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.537808,
+      "price": 661.11,
+      "date": "2026-09-14",
+      "time_et": "12:31",
+      "ts": 1789403483,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+11.1% over the month; 80% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 9000.0,
-  "deployed_today": 121457.79,
-  "orders_today": 42,
+  "spent_today": 12000.0,
+  "deployed_today": 124457.79,
+  "orders_today": 43,
   "sells_today": 39,
   "sold_today": [
     "ALP",
@@ -1630,18 +1648,21 @@
     "GRNT": 1789401722,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789403192,
-  "last_check_ts": 1789403403,
+  "last_publish_ts": 1789403483,
+  "last_check_ts": 1789403483,
   "last_bar_ts": 1789403400,
-  "last_decision_ts": 1789403320,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789403483,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "7be2c21e": 372.036,
     "2a509bca": 372.8534,
+    "5a75be13": 663.4834,
     "8a0c2d9c": 123.2726,
+    "a96b60b5": 655.1798,
     "116a9c2c": 121.583,
     "788aab85": 4.2514,
+    "38624d60": 641.2767,
     "3f4ad361": 4.074,
     "bc51aef6": 119.1063,
     "e5c9d167": 4.0714,
