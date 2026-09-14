@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6012.38,
-  "deployed": 154457.79,
+  "spent": 9012.38,
+  "deployed": 157457.79,
   "by_ticker": {
     "IBM": 0.03,
     "GOOGL": 12.58,
@@ -13,7 +13,8 @@
     "AAPL": 5.41,
     "MAIA": 46.66,
     "TTD": 3000.0,
-    "HLI": 3000.0
+    "HLI": 3000.0,
+    "NEM": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -22,7 +23,7 @@
     "IBM": 12000.0,
     "FLD": 6000.0,
     "HLI": 15000.0,
-    "NEM": 12000.0,
+    "NEM": 15000.0,
     "META": 12000.0,
     "AMD": 7000.0,
     "TTD": 12000.0,
@@ -2034,12 +2035,29 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.0% over the month; 44% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.327091,
+      "price": 123.32,
+      "date": "2026-09-14",
+      "time_et": "13:36",
+      "ts": 1789407398,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+8.0% over the month; 80% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 6012.38,
-  "deployed_today": 154457.79,
-  "orders_today": 53,
+  "spent_today": 9012.38,
+  "deployed_today": 157457.79,
+  "orders_today": 54,
   "sells_today": 51,
   "sold_today": [
     "ALP",
@@ -2077,18 +2095,21 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789407224,
-  "last_check_ts": 1789407312,
+  "last_publish_ts": 1789407398,
+  "last_check_ts": 1789407398,
   "last_bar_ts": 1789407300,
-  "last_decision_ts": 1789407224,
+  "last_decision_ts": 1789407398,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "c6014954": 14.766,
+    "88b580a5": 123.8034,
     "e8d8a5b9": 136.9583,
-    "f4aaf5de": 14.7661,
     "26157ea3": 138.5004,
-    "a5201754": 14.5345,
+    "6b2a8a55": 122.1127,
+    "b5b52e99": 14.5348,
     "142c3918": 133.9182,
+    "da1cdb73": 119.6204,
     "4e9082e4": 14.259
   }
 }

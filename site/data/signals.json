@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T13:33-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,988 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-14T13:36-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,988 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "c6014954",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.766,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.73,
+   "pct_away": 0.24,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "88b580a5",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.8034,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 123.27,
+   "pct_away": 0.43,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "e8d8a5b9",
    "ticker": "HLI",
    "kind": "stop_loss",
@@ -146,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.51,
-   "pct_away": -0.4,
+   "last": 137.64,
+   "pct_away": -0.5,
    "good_until": "2026-09-19",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f4aaf5de",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 14.7661,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 14.7,
-   "pct_away": 0.45,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.51,
-   "pct_away": 0.72,
+   "last": 137.64,
+   "pct_away": 0.63,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -190,15 +207,32 @@
    ]
   },
   {
-   "id": "a5201754",
-   "ticker": "TTD",
+   "id": "6b2a8a55",
+   "ticker": "NEM",
    "kind": "stop_loss",
-   "price": 14.5345,
+   "price": 122.1127,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.7,
-   "pct_away": -1.13,
+   "last": 123.27,
+   "pct_away": -0.94,
+   "good_until": "2026-09-19",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b5b52e99",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.5348,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.73,
+   "pct_away": -1.33,
    "good_until": "2026-09-19",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -214,8 +248,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 137.51,
-   "pct_away": -2.61,
+   "last": 137.64,
+   "pct_away": -2.7,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "da1cdb73",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 119.6204,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 123.27,
+   "pct_away": -2.96,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -231,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.7,
-   "pct_away": -3.0,
+   "last": 14.73,
+   "pct_away": -3.2,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -241,7 +292,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,988 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,988 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -294,7 +345,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 150,
+  "decisions_recorded": 151,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -2007,5 +2058,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T13:33-04:00"
+ "signalsAsOf": "2026-09-14T13:36-04:00"
 }
