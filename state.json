@@ -1,9 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 0.0,
-  "deployed": 34000.0,
+  "spent": 3000.0,
+  "deployed": 37000.0,
   "by_ticker": {
-    "IBM": 23.2
+    "IBM": 23.2,
+    "GOOGL": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 3000.0,
@@ -17,7 +18,8 @@
     "AMD": 1000.0,
     "TTD": 3000.0,
     "AAPL": 3000.0,
-    "MSFT": 3000.0
+    "MSFT": 3000.0,
+    "GOOGL": 3000.0
   },
   "orders": [
     {
@@ -485,12 +487,29 @@
       ],
       "evidence": "average cost $0.520104",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.659276,
+      "price": 346.45,
+      "date": "2026-09-14",
+      "time_et": "10:05",
+      "ts": 1789394717,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.0% over the month; 82% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 0.0,
-  "deployed_today": 34000.0,
-  "orders_today": 12,
+  "spent_today": 3000.0,
+  "deployed_today": 37000.0,
+  "orders_today": 13,
   "sells_today": 12,
   "sold_today": [
     "ALP",
@@ -520,11 +539,15 @@
     "MSFT": 1789393685,
     "FLD": 1789393822
   },
-  "last_publish_ts": 1789393821,
-  "last_check_ts": 1789394543,
-  "last_bar_ts": 1789394400,
-  "last_decision_ts": 1789394543,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789394717,
+  "last_check_ts": 1789394717,
+  "last_bar_ts": 1789394700,
+  "last_decision_ts": 1789394717,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "ba7376b8": 347.2607,
+    "7abc8a91": 344.4267,
+    "c6a90788": 336.0565
+  }
 }

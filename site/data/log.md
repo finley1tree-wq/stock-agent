@@ -1,66 +1,3 @@
-~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25139.11 (+0.56% on $25000.00 in) · cash $2144.88 · realised +144.88
-Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $2002.10 this week
-
-## 2026-09-11 15:26 ET (Friday) — week 2026-W37 — budget left $2002.10 (today $130800.00 put to work, 58 buys, 49 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexCfRuu9VsniCysWWvej'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25153.15 (+0.61% on $25000.00 in) · cash $2144.88 · realised +144.88
-Decision: nothing at this check. 33 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 17 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% MRK [time stop] -> $3004.42 (+0.15%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AAPL [time stop] -> $2998.89 (-0.04%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-11 15:28 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-11 15:29 ET (Friday) — week 2026-W37 — budget left $8005.41 (today $130800.00 put to work, 58 buys, 51 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexCs6NFAmju8S2Ed67Jq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 HUBB @ $448.76 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 TSM @ $419.35 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 SPCX @ $145.41 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25151.17 (+0.60% on $25000.00 in) · cash $8148.19 · realised +148.19
-Decision: nothing at this check. 18 standing order(s) working.
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-11 15:31 ET (Friday) — week 2026-W37 — budget left $8005.41 (today $130800.00 put to work, 58 buys, 51 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-  (RGCO excluded: too thinly traded (15,780/day) — RGC Resources, Inc.)
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 standing order(s) on SPCX: position closed)
-- SELL 100% SPCX [take_profit @ $150.58] -> $3013.41 (+0.45%) — close 100% at +0.4% over the average cost
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexD5PxFLAREWHHTubUMf'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 HUBB @ $448.76 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 TSM @ $419.35 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 META @ $631.26 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 CHRW @ $147.67 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 MSFT @ $482.08 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25158.46 (+0.63% on $25000.00 in) · cash $11161.60 · realised +161.60
-Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 15 order(s) working; budget left $11018.82 this week
   (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% HUBB [time stop] -> $1998.11 (-0.09%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +335,66 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on FLD: position closed)
 - SELL 100% FLD [take_profit @ $0.53] -> $3039.45 (+1.31%) — close 100% at +1.3% over the average cost
 ## 2026-09-14 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 09:51 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $34000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3SZT84UxX2NS3fxvXVy'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25298.33 (+1.19% on $25000.00 in) · cash $25298.33 · realised +298.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 09:54 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $34000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3SmLuqFyeUtV1JUXurz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25298.33 (+1.19% on $25000.00 in) · cash $25298.33 · realised +298.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 09:57 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $34000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3SyKExjH8gZh3s72ovW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25298.33 (+1.19% on $25000.00 in) · cash $25298.33 · realised +298.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 09:59 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $34000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3TAoSQdDZ8vU71rSYxA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25298.33 (+1.19% on $25000.00 in) · cash $25298.33 · realised +298.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 10:02 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $34000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3TNt928pRfJkMjHZoBM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25298.33 (+1.19% on $25000.00 in) · cash $25298.33 · realised +298.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 10:05 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $34000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3TbiKn3Jk7ERm5oZbSX'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.0% over the month; 82% of today's range
+~ WORKING take_profit 100% GOOGL @ $347.26 until 2026-09-19 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $344.43 until 2026-09-19 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $336.06 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25297.73 (+1.19% on $25000.00 in) · cash $22298.33 · realised +298.33
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $22000.00 this week

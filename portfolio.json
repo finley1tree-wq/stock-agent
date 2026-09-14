@@ -1,9 +1,19 @@
 {
-  "cash": 25298.33224108807,
+  "cash": 22298.33224108807,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
-  "positions": {},
+  "positions": {
+    "GOOGL": {
+      "qty": 8.659276286090435,
+      "avg_cost": 346.449276,
+      "opened": "2026-09-14",
+      "last_buy": "2026-09-14",
+      "tranches": 1,
+      "last_buy_ts": 1789394725,
+      "opened_ts": 1789394725
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -1786,6 +1796,16 @@
       "realized_pct": 1.31,
       "type": "sell",
       "date": "2026-09-14 09:50"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.659276,
+      "price": 346.45,
+      "type": "buy",
+      "date": "2026-09-14 10:05"
     }
   ],
   "realized_pnl": 298.3322410880752
