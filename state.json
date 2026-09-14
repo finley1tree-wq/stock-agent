@@ -1,24 +1,24 @@
 {
   "week": "2026-W38",
-  "spent": 6020.31,
-  "deployed": 160457.79,
+  "spent": 6027.57,
+  "deployed": 163457.79,
   "by_ticker": {
     "IBM": 0.03,
     "GOOGL": 12.58,
     "AMD": 3.77,
-    "BE": 6.35,
+    "BE": 3006.35,
     "FLD": 1.2,
     "TPL": 18.43,
     "ALP": 39.88,
     "AAPL": 3005.41,
     "MAIA": 46.66,
     "HLI": 23.9,
-    "NEM": 3000.0
+    "NEM": 7.26
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 12000.0,
-    "BE": 12000.0,
+    "BE": 15000.0,
     "IBM": 12000.0,
     "FLD": 6000.0,
     "HLI": 15000.0,
@@ -2108,13 +2108,51 @@
       ],
       "evidence": "bought 30 min ago, -0.40% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.327091,
+      "status": "filled",
+      "price": 123.02,
+      "proceeds": 2992.74,
+      "realized_pnl": -7.26,
+      "realized_pct": -0.24,
+      "date": "2026-09-14",
+      "time_et": "14:06",
+      "ts": 1789409203,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.20% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.564984,
+      "price": 259.4,
+      "date": "2026-09-14",
+      "time_et": "14:07",
+      "ts": 1789409251,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +9.8% over the month; 81% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 6020.31,
-  "deployed_today": 160457.79,
-  "orders_today": 55,
-  "sells_today": 53,
+  "spent_today": 6027.57,
+  "deployed_today": 163457.79,
+  "orders_today": 56,
+  "sells_today": 54,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2143,7 +2181,7 @@
     "IBM": 1789404582,
     "AAPL": 1789405602,
     "BE": 1789406005,
-    "NEM": 1789404527,
+    "NEM": 1789409204,
     "MSFT": 1789402342,
     "FLD": 1789399070,
     "GOOGL": 1789404628,
@@ -2151,18 +2189,18 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789409085,
-  "last_check_ts": 1789409172,
+  "last_publish_ts": 1789409251,
+  "last_check_ts": 1789409251,
   "last_bar_ts": 1789409100,
-  "last_decision_ts": 1789409087,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789409251,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "be0380be": 335.1725,
     "07893ad2": 332.1204,
-    "392a18bc": 123.8034,
-    "3a0bc455": 122.1102,
-    "da1cdb73": 119.6204,
-    "0463fca4": 324.271
+    "0f1008a1": 261.3014,
+    "bb8afa92": 254.6426,
+    "0463fca4": 324.271,
+    "8ff851f8": 251.618
   }
 }
