@@ -3576,7 +3576,7 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.52
   },
   {
     "symbol": "IBM",
@@ -3603,7 +3603,7 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.53
+    "ret_now": -0.57
   },
   {
     "symbol": "FLD",
@@ -3685,7 +3685,7 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.38
   },
   {
     "symbol": "META",
@@ -3821,7 +3821,7 @@
     "code_version": "5575817",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.3
+    "ret_now": 0.44
   },
   {
     "symbol": "CHRW",
@@ -3874,7 +3874,10 @@
     "hour_et": 9,
     "code_version": "3178535",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.43,
+    "ret_now": 0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -3898,6 +3901,60 @@
     "momentum_1m_at_entry": 8.69,
     "hour_et": 9,
     "code_version": "3178535",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.07
+  },
+  {
+    "symbol": "TTD",
+    "side": "sell",
+    "qty": 205.297749,
+    "status": "filled",
+    "price": 14.68,
+    "proceeds": 3012.79,
+    "realized_pnl": 12.79,
+    "realized_pct": 0.43,
+    "date": "2026-09-14",
+    "time_et": "09:40",
+    "ts": 1789393200,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $14.61",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "4ac71c4",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.034525,
+    "price": 497.14,
+    "date": "2026-09-14",
+    "time_et": "09:40",
+    "ts": 1789393226,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +0.0% over the month; 38% of today's range",
+    "entry_price": 497.04,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.03,
+    "hour_et": 9,
+    "code_version": "4ac71c4",
     "ret_1w": null,
     "ret_1m": null
   }

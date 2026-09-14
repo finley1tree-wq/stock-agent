@@ -1540,3 +1540,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $321.89 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25196.05 (+0.78% on $25000.00 in) · cash $6216.31 · realised +216.31
 Done: 0 sell(s), 2 buy(s); 22 order(s) working; budget left $6063.85 this week
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.68] -> $3012.79 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-09-14 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 09:40 ET (Monday) — week 2026-W38 — budget left $9076.64 (today $31000.00 put to work, 11 buys, 5 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RhhV7Jih8Dxp4ov3FB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $9,077 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +0.0% over the month; 38% of today's range
+~ WORKING take_profit 100% MSFT @ $498.22 until 2026-09-19 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $494.44 until 2026-09-19 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $482.23 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25183.67 (+0.73% on $25000.00 in) · cash $6229.09 · realised +229.09
+Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $6076.64 this week

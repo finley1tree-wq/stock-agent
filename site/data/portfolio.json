@@ -1,5 +1,5 @@
 {
-  "cash": 6216.307487180984,
+  "cash": 6229.093020423412,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
@@ -49,15 +49,6 @@
       "last_buy_ts": 1789392971,
       "opened_ts": 1789392971
     },
-    "TTD": {
-      "qty": 205.2977494850106,
-      "avg_cost": 14.612922,
-      "opened": "2026-09-14",
-      "last_buy": "2026-09-14",
-      "tranches": 1,
-      "last_buy_ts": 1789393060,
-      "opened_ts": 1789393060
-    },
     "AAPL": {
       "qty": 9.040328289758287,
       "avg_cost": 331.846356,
@@ -66,6 +57,15 @@
       "tranches": 1,
       "last_buy_ts": 1789393060,
       "opened_ts": 1789393060
+    },
+    "MSFT": {
+      "qty": 6.034524625736369,
+      "avg_cost": 497.139408,
+      "opened": "2026-09-14",
+      "last_buy": "2026-09-14",
+      "tranches": 1,
+      "last_buy_ts": 1789393232,
+      "opened_ts": 1789393232
     }
   },
   "fills": [
@@ -1744,7 +1744,29 @@
       "price": 331.85,
       "type": "buy",
       "date": "2026-09-14 09:37"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 205.297749,
+      "status": "filled",
+      "price": 14.68,
+      "proceeds": 3012.79,
+      "realized_pnl": 12.79,
+      "realized_pct": 0.43,
+      "type": "sell",
+      "date": "2026-09-14 09:40"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.034525,
+      "price": 497.14,
+      "type": "buy",
+      "date": "2026-09-14 09:40"
     }
   ],
-  "realized_pnl": 216.30748718098823
+  "realized_pnl": 229.0930204234159
 }
