@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 18084.56,
-  "deployed": 202936.0,
+  "spent": 18082.72,
+  "deployed": 205936.0,
   "by_ticker": {
-    "IBM": 19.3,
+    "IBM": 3019.3,
     "GOOGL": 3032.52,
     "AMD": 3003.77,
     "BE": 3013.37,
@@ -15,14 +15,13 @@
     "HLI": 36.9,
     "NEM": 15.49,
     "MSFT": 4.63,
-    "GRNT": 3000.0,
     "META": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 12000.0,
     "BE": 18000.0,
-    "IBM": 15000.0,
+    "IBM": 18000.0,
     "FLD": 6000.0,
     "HLI": 18000.0,
     "NEM": 18000.0,
@@ -2598,13 +2597,52 @@
         "autopilot"
       ],
       "evidence": "+2.6% over the month; 83% of today's range"
+    },
+    {
+      "symbol": "GRNT",
+      "side": "sell",
+      "qty": 585.352148,
+      "status": "filled",
+      "price": 5.13,
+      "proceeds": 3001.84,
+      "realized_pnl": 1.84,
+      "realized_pct": 0.06,
+      "date": "2026-09-14",
+      "time_et": "15:25",
+      "ts": 1789413900,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $5.13",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.027945,
+      "price": 249.42,
+      "date": "2026-09-14",
+      "time_et": "15:26",
+      "ts": 1789413974,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.1% over the month; 70% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 18084.56,
-  "deployed_today": 202936.0,
-  "orders_today": 70,
-  "sells_today": 64,
+  "spent_today": 18082.72,
+  "deployed_today": 205936.0,
+  "orders_today": 71,
+  "sells_today": 65,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2638,33 +2676,33 @@
     "FLD": 1789399070,
     "GOOGL": 1789410366,
     "TPL": 1789403652,
-    "GRNT": 1789405841,
+    "GRNT": 1789413927,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789413881,
-  "last_check_ts": 1789413881,
-  "last_bar_ts": 1789413600,
-  "last_decision_ts": 1789413798,
+  "last_publish_ts": 1789413974,
+  "last_check_ts": 1789413974,
+  "last_bar_ts": 1789413900,
+  "last_decision_ts": 1789413974,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "1919c5a3": 5.136,
-    "f7f46862": 5.1448,
+    "c6d9b30c": 347.528,
     "3f67c67d": 348.1,
-    "4f67a37e": 369.922,
+    "37ba0f57": 250.1483,
     "b9c8cde2": 497.8102,
     "edb8839d": 667.9994,
     "bb287e92": 260.7022,
-    "404b0403": 345.1933,
-    "2dd20e11": 659.5664,
+    "4f67a37e": 369.922,
+    "b4cebaea": 247.6017,
     "093a96be": 365.0794,
+    "2dd20e11": 659.5664,
     "bc6f465c": 490.0394,
     "0ee431b6": 254.0433,
-    "993eb8b5": 645.6223,
     "ed4a9e16": 357.4838,
+    "30a04016": 241.9374,
+    "993eb8b5": 645.6223,
     "94842a27": 480.7223,
     "c7ae855b": 336.8519,
-    "bb1a3e83": 251.036,
-    "92e546b0": 4.9761
+    "bb1a3e83": 251.036
   }
 }

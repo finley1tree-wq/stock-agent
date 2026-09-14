@@ -5314,8 +5314,8 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28,
-    "ret_final": 0.28,
+    "ret_now": 0.2,
+    "ret_final": 0.2,
     "ret_src": "realised"
   },
   {
@@ -6008,8 +6008,8 @@
     "code_version": "4ae6f4f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28,
-    "ret_final": 0.28,
+    "ret_now": 0.17,
+    "ret_final": 0.17,
     "ret_src": "realised"
   },
   {
@@ -6935,7 +6935,9 @@
     "code_version": "841c1c1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "TPL",
@@ -6962,7 +6964,7 @@
     "code_version": "841c1c1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.46
+    "ret_now": 0.24
   },
   {
     "symbol": "AAPL",
@@ -7016,7 +7018,7 @@
     "code_version": "ca9971e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": 0.14
   },
   {
     "symbol": "META",
@@ -7042,7 +7044,7 @@
     "code_version": "e61e421",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.03
   },
   {
     "symbol": "HLI",
@@ -7145,7 +7147,8 @@
     "hour_et": 15,
     "code_version": "7738f82",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.3
   },
   {
     "symbol": "AMD",
@@ -7169,6 +7172,60 @@
     "momentum_1m_at_entry": 2.56,
     "hour_et": 15,
     "code_version": "7738f82",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.09
+  },
+  {
+    "symbol": "GRNT",
+    "side": "sell",
+    "qty": 585.352148,
+    "status": "filled",
+    "price": 5.13,
+    "proceeds": 3001.84,
+    "realized_pnl": 1.84,
+    "realized_pct": 0.06,
+    "date": "2026-09-14",
+    "time_et": "15:25",
+    "ts": 1789413900,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $5.13",
+    "trigger": "stop_loss",
+    "hour_et": 15,
+    "code_version": "489cc91",
+    "hold_minutes": 21
+  },
+  {
+    "symbol": "IBM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 12.027945,
+    "price": 249.42,
+    "date": "2026-09-14",
+    "time_et": "15:26",
+    "ts": 1789413974,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.1% over the month; 70% of today's range",
+    "entry_price": 249.17,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 5.07,
+    "hour_et": 15,
+    "code_version": "489cc91",
     "ret_1w": null,
     "ret_1m": null
   }
