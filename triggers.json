@@ -1,101 +1,6 @@
 {
  "orders": [
   {
-   "id": "55412ca5",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 103.9579,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $103.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:00",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "88b51068",
-   "ticker": "INTC",
-   "kind": "stop_loss",
-   "price": 102.1796,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $103.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:00",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "6360b55f",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 100.3465,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $103.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "33c2afab",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 519.8925,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $517.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8a681bb6",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 512.4986,
-   "status": "cancelled",
-   "created": "2026-09-11 14:51",
-   "created_ts": 1789152698,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $517.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 15:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "a2dd2bac",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7328,7 +7233,7 @@
    "ticker": "BE",
    "kind": "take_profit",
    "price": 260.0324,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:48",
    "created_ts": 1789404528,
    "why": "close 100% at +0.7% over the average cost",
@@ -7338,14 +7243,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1fb65c53",
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 253.3727,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:48",
    "created_ts": 1789404528,
    "why": "close it all at -1.8% under the average cost",
@@ -7355,7 +7262,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "a906f948",
@@ -7453,7 +7362,7 @@
    "ticker": "GRNT",
    "kind": "stop_loss",
    "price": 5.1129,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:53",
    "created_ts": 1789404795,
    "why": "close it all at -0.7% under the average cost",
@@ -7463,7 +7372,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "cabe2554",
@@ -7536,7 +7447,96 @@
    ],
    "good_until": "2026-09-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "29ac3377",
+   "ticker": "GRNT",
+   "kind": "stop_loss",
+   "price": 5.156,
+   "status": "working",
+   "created": "2026-09-14 13:00",
+   "created_ts": 1789405253,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $5.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "04ecd2a2",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 271.0365,
+   "status": "cancelled",
+   "created": "2026-09-14 13:00",
+   "created_ts": 1789405253,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $258.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:01",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "153acc90",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 251.6767,
+   "status": "cancelled",
+   "created": "2026-09-14 13:00",
+   "created_ts": 1789405253,
+   "why": "close it all at -2.5% under the average cost",
+   "evidence": "average cost $258.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:01",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "ff39ad8a",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 260.035,
+   "status": "working",
+   "created": "2026-09-14 13:01",
+   "created_ts": 1789405299,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $258.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cb651f63",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 253.3675,
+   "status": "working",
+   "created": "2026-09-14 13:01",
+   "created_ts": 1789405299,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $258.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 13:00"
+ "updated": "2026-09-14 13:01"
 }
