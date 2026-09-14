@@ -2126,8 +2126,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05,
-    "ret_final": -0.05,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -3576,8 +3576,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17,
-    "ret_final": -0.17,
+    "ret_now": -0.05,
+    "ret_final": -0.05,
     "ret_src": "realised"
   },
   {
@@ -4492,8 +4492,8 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.11,
-    "ret_final": -1.11,
+    "ret_now": -0.45,
+    "ret_final": -0.45,
     "ret_src": "realised"
   },
   {
@@ -5285,7 +5285,9 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.41
+    "ret_now": 0.2,
+    "ret_final": 0.2,
+    "ret_src": "realised"
   },
   {
     "symbol": "GRNT",
@@ -5312,7 +5314,9 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.27,
+    "ret_final": 0.27,
+    "ret_src": "realised"
   },
   {
     "symbol": "MAIA",
@@ -5339,7 +5343,7 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.72
+    "ret_now": 0.0
   },
   {
     "symbol": "AMD",
@@ -5365,7 +5369,7 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.21
   },
   {
     "symbol": "AAPL",
@@ -5445,7 +5449,9 @@
     "code_version": "c940590",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.43,
+    "ret_final": 0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "GRNT",
@@ -5471,7 +5477,8 @@
     "evidence": "average cost $5.18",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "7d91ca3"
+    "code_version": "7d91ca3",
+    "hold_minutes": 11
   },
   {
     "symbol": "BE",
@@ -5497,6 +5504,60 @@
     "evidence": "average cost $256.63",
     "trigger": "stop_loss",
     "hour_et": 12,
-    "code_version": "7d91ca3"
+    "code_version": "7d91ca3",
+    "hold_minutes": 11
+  },
+  {
+    "symbol": "TTD",
+    "side": "sell",
+    "qty": 204.458086,
+    "status": "filled",
+    "price": 14.74,
+    "proceeds": 3012.89,
+    "realized_pnl": 12.89,
+    "realized_pct": 0.43,
+    "date": "2026-09-14",
+    "time_et": "12:02",
+    "ts": 1789401600,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $14.67",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "8ca5265",
+    "hold_minutes": 5
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.95001,
+    "price": 504.2,
+    "date": "2026-09-14",
+    "time_et": "12:03",
+    "ts": 1789401809,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +1.4% over the month; 85% of today's range",
+    "entry_price": 504.1,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.45,
+    "hour_et": 12,
+    "code_version": "8ca5265",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
