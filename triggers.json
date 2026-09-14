@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "92720287",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.6728,
-   "status": "cancelled",
-   "created": "2026-09-11 15:28",
-   "created_ts": 1789154900,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $152.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "610daacd",
-   "ticker": "SPCX",
-   "kind": "buy_limit",
-   "price": 145.4127,
-   "status": "cancelled",
-   "created": "2026-09-11 15:28",
-   "created_ts": 1789154900,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "238caa0a",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.0803,
-   "status": "cancelled",
-   "created": "2026-09-11 15:28",
-   "created_ts": 1789154900,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $496.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "2523b83e",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -7525,7 +7468,58 @@
    ],
    "good_until": "2026-09-19",
    "usd": 500.0
+  },
+  {
+   "id": "87705afe",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.7664,
+   "status": "working",
+   "created": "2026-09-14 14:24",
+   "created_ts": 1789410283,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8a0c4a82",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.5339,
+   "status": "working",
+   "created": "2026-09-14 14:24",
+   "created_ts": 1789410283,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "93fd6095",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 14.259,
+   "status": "working",
+   "created": "2026-09-14 14:24",
+   "created_ts": 1789410283,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 14:21"
+ "updated": "2026-09-14 14:24"
 }

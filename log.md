@@ -2962,3 +2962,14 @@ Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AAPL [time stop] -> $2998.89 (-0.04%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 14:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 14:24 ET (Monday) — week 2026-W38 — budget left $12493.11 (today $172936.00 put to work, 60 buys, 55 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3oNvu3QPDimA6qLZ18S'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $12,493 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +0.9% over the month; 78% of today's range
+~ WORKING take_profit 100% TTD @ $14.77 until 2026-09-19 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.53 until 2026-09-19 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.26 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25348.01 (+1.39% on $25000.00 in) · cash $9898.12 · realised +376.33
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $9493.11 this week
