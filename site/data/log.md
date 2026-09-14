@@ -1,5 +1,3 @@
-- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.0% over the month; 44% of today's range
-~ WORKING take_profit 100% HLI @ $138.50 until 2026-09-19 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% HLI @ $136.96 until 2026-09-19 — close it all at -0.8% under the average cost
 ~ WORKING buy_limit $500.00 HLI @ $133.92 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25381.53 (+1.53% on $25000.00 in) · cash $19392.64 · realised +392.64
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $645.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25338.85 (+1.36% on $25000.00 in) · cash $4340.20 · realised +340.20
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3935.19 this week
+- SELL 100% HLI [time stop] -> $2987.00 (-0.43%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 15:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders

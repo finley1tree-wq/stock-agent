@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "dcbc9b0f",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.6728,
-   "status": "cancelled",
-   "created": "2026-09-11 15:31",
-   "created_ts": 1789155109,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $152.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:31",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "f7f3aaae",
    "ticker": "SPCX",
    "kind": "buy_limit",
@@ -7026,7 +7007,7 @@
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 137.4712,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:49",
    "created_ts": 1789411798,
    "why": "close 100% at +0.3% over the average cost",
@@ -7036,7 +7017,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 15:19",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "65e7f623",
@@ -7062,7 +7045,7 @@
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 132.9191,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 14:49",
    "created_ts": 1789411798,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7072,7 +7055,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 15:19",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "628fbe91",
@@ -7151,7 +7136,7 @@
    "ticker": "GRNT",
    "kind": "stop_loss",
    "price": 5.0929,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 15:03",
    "created_ts": 1789412622,
    "why": "close it all at -0.7% under the average cost",
@@ -7161,7 +7146,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 15:20",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "92e546b0",
@@ -7499,7 +7486,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 135.9324,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 15:18",
    "created_ts": 1789413492,
    "why": "close it all at -0.8% under the average cost",
@@ -7509,8 +7496,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 15:19",
+   "cancel_reason": "time stop closed the position"
+  },
+  {
+   "id": "4b9ea796",
+   "ticker": "GRNT",
+   "kind": "stop_loss",
+   "price": 5.136,
+   "status": "working",
+   "created": "2026-09-14 15:20",
+   "created_ts": 1789413621,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $5.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 15:18"
+ "updated": "2026-09-14 15:20"
 }
