@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T14:16-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,972 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gather",
+ "asOf": "2026-09-14T14:18-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,972 idle, so opened 2: MSFT, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "4eb276e7",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 508.9127,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 507.65,
+   "pct_away": 0.25,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "b9ae3617",
    "ticker": "GOOGL",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.75,
-   "pct_away": 0.26,
+   "last": 348.69,
+   "pct_away": 0.28,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,25 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 334.06,
-   "pct_away": 0.33,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8cc04e0d",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 251.2164,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 249.95,
-   "pct_away": 0.51,
+   "last": 334.18,
+   "pct_away": 0.3,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.95,
-   "pct_away": -0.51,
+   "last": 249.43,
+   "pct_away": -0.3,
    "good_until": "2026-09-19",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -207,17 +207,34 @@
    ]
   },
   {
-   "id": "07893ad2",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 332.1204,
+   "id": "d62c7a88",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 668.2303,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 334.06,
-   "pct_away": -0.58,
+   "last": 665.55,
+   "pct_away": 0.4,
    "good_until": "2026-09-19",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e1817806",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 504.8457,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 507.65,
+   "pct_away": -0.55,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,10 +248,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.75,
-   "pct_away": -0.58,
+   "last": 348.69,
+   "pct_away": -0.56,
    "good_until": "2026-09-19",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "07893ad2",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 332.1204,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 334.18,
+   "pct_away": -0.62,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8cc04e0d",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 251.2164,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 249.43,
+   "pct_away": 0.72,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,10 +299,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.64,
-   "pct_away": 0.64,
+   "last": 259.39,
+   "pct_away": 0.74,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "53372a71",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 659.7943,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 665.55,
+   "pct_away": -0.86,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +333,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.64,
-   "pct_away": -1.92,
+   "last": 259.39,
+   "pct_away": -1.83,
    "good_until": "2026-09-19",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -282,25 +350,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.95,
-   "pct_away": -2.79,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0463fca4",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 324.271,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 334.06,
-   "pct_away": -2.93,
+   "last": 249.43,
+   "pct_away": -2.59,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,7 +367,58 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 348.75,
+   "last": 348.69,
+   "pct_away": -2.96,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "829e8f48",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 645.8454,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 665.55,
+   "pct_away": -2.96,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0463fca4",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 324.271,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 334.18,
+   "pct_away": -2.97,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "77b7a295",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 492.5175,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 507.65,
    "pct_away": -2.98,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -333,8 +435,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.64,
-   "pct_away": -3.09,
+   "last": 259.39,
+   "pct_away": -3.0,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -343,7 +445,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,972 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gather",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,972 idle, so opened 2: MSFT, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -396,7 +498,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 165,
+  "decisions_recorded": 166,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -1915,9 +2017,9 @@
     "when": "2026-09-14T13:45"
    },
    {
-    "title": "The 10-Year Treasury Yield Just Passed 5%. Here\u2019s How That Impacts Dividend-Paying Consumer Stocks.",
-    "source": "Motley Fool",
-    "when": "2026-09-14T18:10"
+    "title": "Nvidia Falls 3.5% While Quantum Software Claims a Sevenfold Research Speedup",
+    "source": "GuruFocus.com",
+    "when": "2026-09-14T18:15"
    }
   ],
   "O": [
@@ -1973,6 +2075,11 @@
   ],
   "PLTR": [
    {
+    "title": "Did You Pay For Palantir's Guidance Or For Something Else?",
+    "source": "Trefis",
+    "when": "2026-09-14T18:00"
+   },
+   {
     "title": "Does PLTR's One-Year Consolidation Offer a Buying Opportunity?",
     "source": "Zacks",
     "when": "2026-09-14T17:40"
@@ -1981,11 +2088,6 @@
     "title": "Palantir, Nvidia, Booz Allen restrict Anthropic and OpenAI models",
     "source": "Quartz",
     "when": "2026-09-14T17:37"
-   },
-   {
-    "title": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
-    "source": "Trefis",
-    "when": "2026-09-14T16:59"
    }
   ],
   "RTX": [
@@ -2109,5 +2211,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T14:16-04:00"
+ "signalsAsOf": "2026-09-14T14:18-04:00"
 }

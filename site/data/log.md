@@ -1,18 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,003 idle, so opened 2: CHRW, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +4.5% over the month; 85% of today's range
-- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.0% over the month; 83% of today's range
-~ WORKING take_profit 100% CHRW @ $156.61 until 2026-09-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CHRW @ $155.05 until 2026-09-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CHRW @ $151.48 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $347.33 until 2026-09-19 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $344.50 until 2026-09-19 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $336.12 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25352.44 (+1.41% on $25000.00 in) · cash $1407.89 · realised +407.89
-Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $1002.87 this week
-  (cancelled 2 standing order(s) on HLI: position closed)
-- SELL 100% HLI [take_profit @ $137.21] -> $3009.69 (+0.32%) — close 100% at +0.3% over the average cost
-## 2026-09-14 12:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $123.27] -> $3010.47 (+0.35%) — close 100% at +0.4% over the average cost
 ## 2026-09-14 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +383,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $338.36 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25370.97 (+1.48% on $25000.00 in) · cash $13377.44 · realised +377.44
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12972.43 this week
+
+## 2026-09-14 14:18 ET (Monday) — week 2026-W38 — budget left $12972.43 (today $169457.79 put to work, 58 buys, 54 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3nwA4ps3TYGnHoa1jnF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,972 idle, so opened 2: MSFT, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +2.2% over the month; 84% of today's range
+- BUY $478.21 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +11.9% over the month; 84% of today's range
+~ WORKING take_profit 100% MSFT @ $508.91 until 2026-09-19 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $504.85 until 2026-09-19 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $492.52 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $668.23 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $659.79 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $645.85 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25361.62 (+1.45% on $25000.00 in) · cash $9899.23 · realised +377.44
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $9494.22 this week
