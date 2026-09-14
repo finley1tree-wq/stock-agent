@@ -5589,5 +5589,55 @@
     "hour_et": 12,
     "code_version": "303364a",
     "hold_minutes": 6
+  },
+  {
+    "symbol": "MAIA",
+    "side": "sell",
+    "qty": 2173.478348,
+    "status": "filled",
+    "price": 1.39,
+    "proceeds": 3016.35,
+    "realized_pnl": 16.35,
+    "realized_pct": 0.55,
+    "date": "2026-09-14",
+    "time_et": "12:18",
+    "ts": 1789402500,
+    "why": "close 100% at +0.6% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $1.38",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "7666b30"
+  },
+  {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": 6.108882,
+    "status": "filled",
+    "price": 492.56,
+    "proceeds": 3009.0,
+    "realized_pnl": 9.0,
+    "realized_pct": 0.3,
+    "date": "2026-09-14",
+    "time_et": "12:18",
+    "ts": 1789402737,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.32% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "7666b30"
   }
 ]

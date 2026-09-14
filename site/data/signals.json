@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T12:17-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-14T12:18-04:00",
+ "note": "tick: 2 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -137,110 +137,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "59286d98",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 491.996,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 492.6,
-   "pct_away": -0.12,
-   "good_until": "2026-09-19",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "333c32d0",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 493.3097,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 492.6,
-   "pct_away": 0.14,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "344e9635",
-   "ticker": "MAIA",
-   "kind": "take_profit",
-   "price": 1.3878,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 1.38,
-   "pct_away": 0.57,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b927c508",
-   "ticker": "MAIA",
-   "kind": "stop_loss",
-   "price": 1.3605,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 1.38,
-   "pct_away": -1.41,
-   "good_until": "2026-09-19",
-   "why": "close it all at -1.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3da74519",
-   "ticker": "MAIA",
-   "kind": "buy_limit",
-   "price": 1.3386,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 1.38,
-   "pct_away": -3.0,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4b854a11",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 476.3573,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 492.6,
-   "pct_away": -3.3,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,075 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "congress_trades": [
