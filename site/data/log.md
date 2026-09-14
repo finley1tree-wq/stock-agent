@@ -1,14 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3hAG69FRuRgPr8dtR6M'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25416.94 (+1.67% on $25000.00 in) · cash $16415.36 · realised +415.36
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 13:05 ET (Monday) — week 2026-W38 — budget left $16010.35 (today $145457.79 put to work, 50 buys, 47 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
   (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
   (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
   (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
@@ -398,3 +387,14 @@ Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% MSFT [time stop] -> $2995.37 (-0.15%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 14:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 14:49 ET (Monday) — week 2026-W38 — budget left $24935.19 (today $175936.00 put to work, 61 buys, 61 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3qJspcxJLRuejfZZm43'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,935 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.2% over the month; 19% of today's range
+~ WORKING take_profit 100% HLI @ $137.47 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $135.93 until 2026-09-19 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $132.92 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25328.25 (+1.31% on $25000.00 in) · cash $22340.20 · realised +340.20
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $21935.19 this week

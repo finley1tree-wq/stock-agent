@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 64.81,
-  "deployed": 175936.0,
+  "spent": 3064.81,
+  "deployed": 178936.0,
   "by_ticker": {
     "IBM": 19.3,
     "GOOGL": 32.52,
@@ -12,7 +12,7 @@
     "ALP": 39.88,
     "AAPL": 6.52,
     "MAIA": 46.66,
-    "HLI": 23.9,
+    "HLI": 3023.9,
     "NEM": 7.26,
     "MSFT": 4.63
   },
@@ -22,7 +22,7 @@
     "BE": 15000.0,
     "IBM": 15000.0,
     "FLD": 6000.0,
-    "HLI": 15000.0,
+    "HLI": 18000.0,
     "NEM": 15000.0,
     "META": 12478.21,
     "AMD": 7000.0,
@@ -2378,12 +2378,30 @@
       ],
       "evidence": "bought 30 min ago, -0.13% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "HLI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.893668,
+      "price": 137.03,
+      "date": "2026-09-14",
+      "time_et": "14:49",
+      "ts": 1789411798,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.2% over the month; 19% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 64.81,
-  "deployed_today": 175936.0,
-  "orders_today": 61,
+  "spent_today": 3064.81,
+  "deployed_today": 178936.0,
+  "orders_today": 62,
   "sells_today": 61,
   "sold_today": [
     "ALP",
@@ -2421,11 +2439,15 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789411719,
-  "last_check_ts": 1789411719,
+  "last_publish_ts": 1789411798,
+  "last_check_ts": 1789411798,
   "last_bar_ts": 1789411500,
-  "last_decision_ts": 1789411636,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789411798,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "65e7f623": 135.9283,
+    "6a50c1ef": 137.4712,
+    "37f82fce": 132.9191
+  }
 }

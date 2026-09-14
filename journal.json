@@ -1075,8 +1075,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.09,
-    "ret_now": 0.09,
+    "ret_final": 0.05,
+    "ret_now": 0.05,
     "ret_src": "realised"
   },
   {
@@ -2506,8 +2506,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -3282,8 +3282,8 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.06,
+    "ret_final": 0.06,
     "ret_src": "realised"
   },
   {
@@ -3969,8 +3969,8 @@
     "code_version": "4ac71c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22,
-    "ret_final": 0.22,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -4521,8 +4521,8 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22,
-    "ret_final": 0.22,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -5563,8 +5563,8 @@
     "code_version": "8ca5265",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22,
-    "ret_final": 0.22,
+    "ret_now": 0.04,
+    "ret_final": 0.04,
     "ret_src": "realised"
   },
   {
@@ -6610,7 +6610,9 @@
     "code_version": "ffc4b21",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.15,
+    "ret_final": -0.15,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -6848,6 +6850,33 @@
     "evidence": "bought 30 min ago, -0.13% unrealised",
     "trigger": "time_stop",
     "hour_et": 14,
-    "code_version": "ae267ec"
+    "code_version": "ae267ec",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "HLI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 21.893668,
+    "price": 137.03,
+    "date": "2026-09-14",
+    "time_et": "14:49",
+    "ts": 1789411798,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.2% over the month; 19% of today's range",
+    "entry_price": 136.48,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.23,
+    "hour_et": 14,
+    "code_version": "9e68032",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "32ba52a8",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 448.7608,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154948,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $462.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "5f9f0d73",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 419.3504,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154948,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $432.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "1e15ae1f",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 631.2566,
-   "status": "cancelled",
-   "created": "2026-09-11 15:29",
-   "created_ts": 1789154948,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $650.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "f9ea60d1",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -7552,7 +7495,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-14 14:48",
    "cancel_reason": "time stop closed the position"
+  },
+  {
+   "id": "6a50c1ef",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 137.4712,
+   "status": "working",
+   "created": "2026-09-14 14:49",
+   "created_ts": 1789411798,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $137.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "65e7f623",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 135.9283,
+   "status": "working",
+   "created": "2026-09-14 14:49",
+   "created_ts": 1789411798,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $137.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "37f82fce",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 132.9191,
+   "status": "working",
+   "created": "2026-09-14 14:49",
+   "created_ts": 1789411798,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $137.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 14:47"
+ "updated": "2026-09-14 14:49"
 }
