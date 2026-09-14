@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-14T14:39-04:00",
+ "asOf": "2026-09-14T14:40-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,32 +139,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "067bef79",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 248.6714,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 249.23,
-   "pct_away": -0.22,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4eb276e7",
+   "id": "a4566de9",
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 508.9127,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 507.64,
-   "pct_away": 0.25,
+   "last": 507.31,
+   "pct_away": 0.32,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -173,51 +156,17 @@
    ]
   },
   {
-   "id": "e1817806",
+   "id": "04c47e6c",
    "ticker": "MSFT",
    "kind": "stop_loss",
-   "price": 504.8457,
+   "price": 504.8406,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 507.64,
-   "pct_away": -0.55,
+   "last": 507.31,
+   "pct_away": -0.49,
    "good_until": "2026-09-19",
    "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8cc04e0d",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 251.2164,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 249.23,
-   "pct_away": 0.8,
-   "good_until": "2026-09-19",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4b849044",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 242.9753,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 249.23,
-   "pct_away": -2.51,
-   "good_until": "2026-09-19",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +180,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 507.64,
-   "pct_away": -2.98,
+   "last": 507.31,
+   "pct_away": -2.92,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
