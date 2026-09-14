@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 11998.4,
+  "spent": 9019.7,
   "deployed": 85457.79,
   "by_ticker": {
     "IBM": 3014.43,
@@ -10,7 +10,7 @@
     "AMD": 12.77,
     "BE": 33.23,
     "FLD": 1.2,
-    "TPL": 3000.0,
+    "TPL": 21.3,
     "ALP": 3000.0,
     "NEM": 3000.0
   },
@@ -1103,13 +1103,33 @@
         "congress"
       ],
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.2% over the month; 52% of today's range"
+    },
+    {
+      "symbol": "TPL",
+      "side": "sell",
+      "qty": 8.043012,
+      "status": "filled",
+      "price": 370.35,
+      "proceeds": 2978.7,
+      "realized_pnl": -21.3,
+      "realized_pct": -0.71,
+      "date": "2026-09-14",
+      "time_et": "11:34",
+      "ts": 1789400076,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.69% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 11998.4,
+  "spent_today": 9019.7,
   "deployed_today": 85457.79,
   "orders_today": 30,
-  "sells_today": 26,
+  "sells_today": 27,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1123,7 +1143,8 @@
     "NEM",
     "MSFT",
     "FLD",
-    "GOOGL"
+    "GOOGL",
+    "TPL"
   ],
   "sold_ts": {
     "ALP": 1789396244,
@@ -1138,24 +1159,22 @@
     "NEM": 1789397146,
     "MSFT": 1789398040,
     "FLD": 1789399070,
-    "GOOGL": 1789395611
+    "GOOGL": 1789395611,
+    "TPL": 1789400077
   },
-  "last_publish_ts": 1789400030,
-  "last_check_ts": 1789400030,
-  "last_bar_ts": 1789399800,
+  "last_publish_ts": 1789400076,
+  "last_check_ts": 1789400122,
+  "last_bar_ts": 1789400100,
   "last_decision_ts": 1789400030,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "fdeb996e": 369.5585,
+    "d0a54fd6": 122.488,
     "82bc7650": 122.8032,
     "9b0e7bee": 247.957,
     "a834c325": 245.45,
-    "84336a55": 374.3626,
-    "9e574080": 121.1127,
     "9e11a638": 4.0837,
     "10a15365": 4.0832,
-    "76103c6b": 361.8003,
     "c9b3fd25": 4.2607,
     "7c862c8c": 239.8228,
     "3c971a4f": 118.6504

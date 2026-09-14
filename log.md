@@ -2102,3 +2102,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 IBM @ $239.82 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25245.36 (+0.98% on $25000.00 in) · cash $13299.95 · realised +299.95
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13001.60 this week
+- SELL 100% TPL [time stop] -> $2978.70 (-0.71%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 11:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
