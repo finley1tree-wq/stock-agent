@@ -1,17 +1,18 @@
 {
   "week": "2026-W38",
-  "spent": 9019.01,
-  "deployed": 46000.0,
+  "spent": 12019.01,
+  "deployed": 49000.0,
   "by_ticker": {
     "IBM": 23.2,
     "GOOGL": 19.01,
     "ALP": 3000.0,
     "HLI": 3000.0,
-    "META": 3000.0
+    "META": 3000.0,
+    "CHRW": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 6000.0,
-    "CHRW": 3000.0,
+    "CHRW": 6000.0,
     "BE": 3000.0,
     "IBM": 3000.0,
     "FLD": 3000.0,
@@ -581,12 +582,30 @@
         "autopilot"
       ],
       "evidence": "+9.8% over the month; 30% of today's range"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.317319,
+      "price": 155.3,
+      "date": "2026-09-14",
+      "time_et": "10:25",
+      "ts": 1789395906,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +4.0% over the month; 69% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 9019.01,
-  "deployed_today": 46000.0,
-  "orders_today": 16,
+  "spent_today": 12019.01,
+  "deployed_today": 49000.0,
+  "orders_today": 17,
   "sells_today": 13,
   "sold_today": [
     "ALP",
@@ -618,21 +637,24 @@
     "FLD": 1789393822,
     "GOOGL": 1789395611
   },
-  "last_publish_ts": 1789395739,
-  "last_check_ts": 1789395827,
-  "last_bar_ts": 1789395600,
-  "last_decision_ts": 1789395739,
+  "last_publish_ts": 1789395906,
+  "last_check_ts": 1789395906,
+  "last_bar_ts": 1789395900,
+  "last_decision_ts": 1789395906,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "6f71f6a5": 138.0722,
-    "dfe03dec": 656.093,
+    "245615e6": 155.7442,
+    "27d5d1d9": 656.093,
+    "66a3e102": 154.1896,
+    "0b0d1983": 647.7842,
     "a3b93407": 136.5595,
-    "7ad84d40": 647.7908,
     "92af1594": 4.1207,
-    "f229532b": 133.5108,
     "ee15588b": 634.1084,
+    "f03db2ba": 150.641,
     "e43e3ddd": 3.9479,
-    "31b51a1f": 3.9432
+    "31b51a1f": 3.9432,
+    "f229532b": 133.5108
   }
 }

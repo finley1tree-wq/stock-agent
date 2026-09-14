@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-14T10:22-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,981 idle, so opened 3: ALP, HLI, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the lo",
+ "asOf": "2026-09-14T10:25-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,981 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.61,
-   "pct_away": 0.34,
+   "last": 137.84,
+   "pct_away": 0.17,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -156,17 +156,68 @@
    ]
   },
   {
-   "id": "dfe03dec",
+   "id": "245615e6",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 155.7442,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 155.27,
+   "pct_away": 0.31,
+   "good_until": "2026-09-19",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "27d5d1d9",
    "ticker": "META",
    "kind": "take_profit",
    "price": 656.093,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 653.59,
-   "pct_away": 0.38,
+   "last": 652.67,
+   "pct_away": 0.52,
    "good_until": "2026-09-19",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "66a3e102",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 154.1896,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 155.27,
+   "pct_away": -0.7,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0b0d1983",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 647.7842,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 652.67,
+   "pct_away": -0.75,
+   "good_until": "2026-09-19",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,27 +231,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.61,
-   "pct_away": -0.76,
+   "last": 137.84,
+   "pct_away": -0.93,
    "good_until": "2026-09-19",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7ad84d40",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 647.7908,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 653.59,
-   "pct_away": -0.89,
-   "good_until": "2026-09-19",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -224,15 +258,15 @@
    ]
   },
   {
-   "id": "f229532b",
-   "ticker": "HLI",
+   "id": "ee15588b",
+   "ticker": "META",
    "kind": "buy_limit",
-   "price": 133.5108,
+   "price": 634.1084,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 137.61,
-   "pct_away": -2.98,
+   "last": 652.67,
+   "pct_away": -2.84,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -241,14 +275,14 @@
    ]
   },
   {
-   "id": "ee15588b",
-   "ticker": "META",
+   "id": "f03db2ba",
+   "ticker": "CHRW",
    "kind": "buy_limit",
-   "price": 634.1084,
+   "price": 150.641,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 653.59,
+   "last": 155.27,
    "pct_away": -2.98,
    "good_until": "2026-09-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -290,9 +324,26 @@
     "risk_management",
     "auto_bracket"
    ]
+  },
+  {
+   "id": "f229532b",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 133.5108,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 137.84,
+   "pct_away": -3.14,
+   "good_until": "2026-09-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,981 idle, so opened 3: ALP, HLI, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the lo",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,981 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -357,7 +408,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 83,
+  "decisions_recorded": 84,
   "decisions_graded": 64,
   "decisions_with_buys_graded": 20,
   "independent_days_graded": 4,
@@ -2187,14 +2238,14 @@
     "when": "2026-09-14T10:22"
    },
    {
+    "title": "CRWD vs. NET: Which Cybersecurity Stock Has an Edge Right Now?",
+    "source": "Zacks",
+    "when": "2026-09-14T14:11"
+   },
+   {
     "title": "3 Reasons CRWD Has Explosive Upside Potential",
     "source": "StockStory",
     "when": "2026-09-14T13:47"
-   },
-   {
-    "title": "Major Tech Stocks Fall as AI Leaders Warn of Risks From Rapid Advances",
-    "source": "MT Newswires",
-    "when": "2026-09-14T11:49"
    }
   ],
   "DIA": [
@@ -2229,6 +2280,23 @@
     "title": "Trump Sons Back $1 Billion Investment Network Targeting AI, Crypto And Drone Companies Favoured By White House: Report",
     "source": "Benzinga",
     "when": "2026-05-10T15:01"
+   }
+  ],
+  "EPAC": [
+   {
+    "title": "LECO Q2 Earnings Beat on Organic Sales Growth, Stock Jumps 8%",
+    "source": "Zacks",
+    "when": "2026-08-05T15:33"
+   },
+   {
+    "title": "Enerpac Tool Group (EPAC) Stock Looks Reasonable On Earnings, Stronger On Cash Flow",
+    "source": "Simply Wall St.",
+    "when": "2026-07-31T23:09"
+   },
+   {
+    "title": "Enerpac Tool Group (EPAC) Could Be 16% Below Fair Value Following Dividend News",
+    "source": "Simply Wall St.",
+    "when": "2026-07-29T18:09"
    }
   ],
   "ESE": [
@@ -2823,5 +2891,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-14T10:22-04:00"
+ "signalsAsOf": "2026-09-14T10:25-04:00"
 }
