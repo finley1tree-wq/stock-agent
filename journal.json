@@ -3885,8 +3885,8 @@
     "code_version": "3178535",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.43,
-    "ret_now": 0.43,
+    "ret_final": 0.46,
+    "ret_now": 0.46,
     "ret_src": "realised"
   },
   {
@@ -4712,8 +4712,8 @@
     "code_version": "de77cb5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.43,
-    "ret_final": 0.43,
+    "ret_now": 0.46,
+    "ret_final": 0.46,
     "ret_src": "realised"
   },
   {
@@ -5453,8 +5453,8 @@
     "code_version": "c940590",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.43,
-    "ret_final": 0.43,
+    "ret_now": 0.48,
+    "ret_final": 0.48,
     "ret_src": "realised"
   },
   {
@@ -6252,7 +6252,9 @@
     "code_version": "1d3a000",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.53,
+    "ret_final": 0.53,
+    "ret_src": "realised"
   },
   {
     "symbol": "GRNT",
@@ -6360,7 +6362,7 @@
     "code_version": "830a74d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.12
   },
   {
     "symbol": "NEM",
@@ -6385,6 +6387,33 @@
     "hour_et": 13,
     "code_version": "ae57171",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.06
+  },
+  {
+    "symbol": "TTD",
+    "side": "sell",
+    "qty": 204.138903,
+    "status": "filled",
+    "price": 14.77,
+    "proceeds": 3015.97,
+    "realized_pnl": 15.97,
+    "realized_pct": 0.53,
+    "date": "2026-09-14",
+    "time_et": "13:38",
+    "ts": 1789407533,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.57% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "58c4c2a",
+    "hold_minutes": 30
   }
 ]

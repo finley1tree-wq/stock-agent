@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9012.38,
+  "spent": 5996.41,
   "deployed": 157457.79,
   "by_ticker": {
     "IBM": 0.03,
@@ -12,7 +12,6 @@
     "ALP": 39.88,
     "AAPL": 5.41,
     "MAIA": 46.66,
-    "TTD": 3000.0,
     "HLI": 3000.0,
     "NEM": 3000.0
   },
@@ -2052,13 +2051,33 @@
         "autopilot"
       ],
       "evidence": "+8.0% over the month; 80% of today's range"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 204.138903,
+      "status": "filled",
+      "price": 14.77,
+      "proceeds": 3015.97,
+      "realized_pnl": 15.97,
+      "realized_pct": 0.53,
+      "date": "2026-09-14",
+      "time_et": "13:38",
+      "ts": 1789407533,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.57% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 9012.38,
+  "spent_today": 5996.41,
   "deployed_today": 157457.79,
   "orders_today": 54,
-  "sells_today": 51,
+  "sells_today": 52,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2082,7 +2101,7 @@
     "HLI": 1789404449,
     "META": 1789404628,
     "CHRW": 1789404833,
-    "TTD": 1789401762,
+    "TTD": 1789407535,
     "AMD": 1789402737,
     "IBM": 1789404582,
     "AAPL": 1789405602,
@@ -2095,21 +2114,18 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789407448,
-  "last_check_ts": 1789407494,
+  "last_publish_ts": 1789407533,
+  "last_check_ts": 1789407581,
   "last_bar_ts": 1789407300,
-  "last_decision_ts": 1789407398,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789407581,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "c6014954": 14.766,
-    "669136eb": 14.736,
     "88b580a5": 123.8034,
     "e8d8a5b9": 136.9583,
     "26157ea3": 138.5004,
     "6b2a8a55": 122.1127,
     "142c3918": 133.9182,
-    "da1cdb73": 119.6204,
-    "4e9082e4": 14.259
+    "da1cdb73": 119.6204
   }
 }
