@@ -1,9 +1,19 @@
 {
-  "cash": 25405.016346047625,
+  "cash": 22405.016346047625,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
-  "positions": {},
+  "positions": {
+    "TPL": {
+      "qty": 8.075494372882464,
+      "avg_cost": 371.494284,
+      "opened": "2026-09-14",
+      "last_buy": "2026-09-14",
+      "tranches": 1,
+      "last_buy_ts": 1789402826,
+      "opened_ts": 1789402826
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -2380,6 +2390,16 @@
       "realized_pct": 0.3,
       "type": "sell",
       "date": "2026-09-14 12:18"
+    },
+    {
+      "symbol": "TPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.075494,
+      "price": 371.49,
+      "type": "buy",
+      "date": "2026-09-14 12:20"
     }
   ],
   "realized_pnl": 405.0163460476348

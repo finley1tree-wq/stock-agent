@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "604a166d",
-   "ticker": "KMT",
-   "kind": "stop_loss",
-   "price": 29.672,
-   "status": "cancelled",
-   "created": "2026-09-11 13:26",
-   "created_ts": 1789147606,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $29.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 13:28",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "81e82a65",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 275.6911,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $273.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:21",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a8200c8d",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 269.1087,
-   "status": "cancelled",
-   "created": "2026-09-11 13:59",
-   "created_ts": 1789149599,
-   "why": "close it all at -1.7% under the average cost",
-   "evidence": "average cost $273.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 14:17",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "67269aea",
    "ticker": "BE",
    "kind": "buy_limit",
@@ -7550,7 +7493,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-14 12:18",
    "cancel_reason": "time stop closed the position"
+  },
+  {
+   "id": "2a509bca",
+   "ticker": "TPL",
+   "kind": "take_profit",
+   "price": 372.8534,
+   "status": "working",
+   "created": "2026-09-14 12:20",
+   "created_ts": 1789402818,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $371.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b32cf977",
+   "ticker": "TPL",
+   "kind": "stop_loss",
+   "price": 368.0834,
+   "status": "working",
+   "created": "2026-09-14 12:20",
+   "created_ts": 1789402818,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $371.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "13b9f582",
+   "ticker": "TPL",
+   "kind": "buy_limit",
+   "price": 360.3453,
+   "status": "working",
+   "created": "2026-09-14 12:20",
+   "created_ts": 1789402818,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $371.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 12:18"
+ "updated": "2026-09-14 12:20"
 }
