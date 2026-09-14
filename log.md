@@ -1635,3 +1635,13 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25298.33 (+1.19% on $25000.00 in) · cash $25298.33 · realised +298.33
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-14 09:59 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $34000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3TAoSQdDZ8vU71rSYxA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25298.33 (+1.19% on $25000.00 in) · cash $25298.33 · realised +298.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
