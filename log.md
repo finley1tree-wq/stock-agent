@@ -1668,3 +1668,13 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $336.06 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25297.73 (+1.19% on $25000.00 in) · cash $22298.33 · realised +298.33
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $22000.00 this week
+
+## 2026-09-14 10:08 ET (Monday) — week 2026-W38 — budget left $22000.00 (today $37000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3TpWN4MQcjfzWrHRHux'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25296.09 (+1.18% on $25000.00 in) · cash $22298.33 · realised +298.33
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
