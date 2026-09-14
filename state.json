@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 11995.06,
+  "spent": 8986.61,
   "deployed": 151457.79,
   "by_ticker": {
     "IBM": 0.03,
@@ -11,7 +11,6 @@
     "TPL": 18.43,
     "ALP": 39.88,
     "AAPL": 5.41,
-    "GRNT": 3000.0,
     "MAIA": 3000.0,
     "TTD": 3000.0
   },
@@ -1953,13 +1952,34 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +0.9% over the month; 84% of today's range"
+    },
+    {
+      "symbol": "GRNT",
+      "side": "sell",
+      "qty": 583.074513,
+      "status": "filled",
+      "price": 5.16,
+      "proceeds": 3008.45,
+      "realized_pnl": 8.45,
+      "realized_pct": 0.28,
+      "date": "2026-09-14",
+      "time_et": "13:10",
+      "ts": 1789405800,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $5.15",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 11995.06,
+  "spent_today": 8986.61,
   "deployed_today": 151457.79,
   "orders_today": 52,
-  "sells_today": 48,
+  "sells_today": 49,
   "sold_today": [
     "ALP",
     "HLI",
@@ -1993,27 +2013,24 @@
     "FLD": 1789399070,
     "GOOGL": 1789404628,
     "TPL": 1789403652,
-    "GRNT": 1789401722,
+    "GRNT": 1789405841,
     "MAIA": 1789402737
   },
-  "last_publish_ts": 1789405765,
-  "last_check_ts": 1789405811,
+  "last_publish_ts": 1789405841,
+  "last_check_ts": 1789405888,
   "last_bar_ts": 1789405800,
-  "last_decision_ts": 1789405730,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789405888,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a4b5566a": 5.156,
-    "d4a01918": 5.1648,
-    "4fed2d8f": 258.796,
     "ff39ad8a": 260.035,
+    "4fed2d8f": 258.796,
     "f4aaf5de": 14.7661,
     "38c9d949": 1.3503,
     "a5201754": 14.5345,
     "7c888ec7": 1.3779,
     "5a4317c8": 1.3289,
     "4e9082e4": 14.259,
-    "1dc4692f": 4.9955,
     "a906f948": 250.3861
   }
 }

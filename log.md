@@ -2694,3 +2694,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 TTD @ $14.26 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25410.31 (+1.64% on $25000.00 in) · cash $13409.95 · realised +409.95
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13004.94 this week
+  (cancelled 2 standing order(s) on GRNT: position closed)
+- SELL 100% GRNT [take_profit @ $5.16] -> $3008.45 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-14 13:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 13:11 ET (Monday) — week 2026-W38 — budget left $16013.39 (today $151457.79 put to work, 52 buys, 49 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3hnzK9FtDUTa8p4gB7t'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25427.26 (+1.71% on $25000.00 in) · cash $16418.41 · realised +418.41
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

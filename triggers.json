@@ -7049,7 +7049,7 @@
    "ticker": "GRNT",
    "kind": "buy_limit",
    "price": 4.9955,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 12:48",
    "created_ts": 1789404528,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7059,7 +7059,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-14 13:10",
+   "cancel_reason": "position closed"
   },
   {
    "id": "14414185",
@@ -7178,7 +7180,7 @@
    "ticker": "GRNT",
    "kind": "take_profit",
    "price": 5.1648,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-14 12:53",
    "created_ts": 1789404795,
    "why": "close 100% at +0.3% over the average cost",
@@ -7188,7 +7190,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:10"
   },
   {
    "id": "4245b6f3",
@@ -7402,7 +7405,7 @@
    "ticker": "GRNT",
    "kind": "stop_loss",
    "price": 5.156,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-14 13:05",
    "created_ts": 1789405550,
    "why": "close it all at -0.7% under the average cost",
@@ -7412,7 +7415,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-14 13:10",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7c888ec7",
@@ -7534,5 +7539,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-14 13:09"
+ "updated": "2026-09-14 13:11"
 }

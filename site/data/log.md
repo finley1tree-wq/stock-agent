@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 MSFT @ $489.07 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25364.86 (+1.46% on $25000.00 in) · cash $16372.95 · realised +372.95
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16074.61 this week
 
 ## 2026-09-14 12:06 ET (Monday) — week 2026-W38 — budget left $16074.61 (today $112457.79 put to work, 39 buys, 36 sells) — SIM (pretend money) via sim
   (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 TTD @ $14.26 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25410.31 (+1.64% on $25000.00 in) · cash $13409.95 · realised +409.95
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13004.94 this week
+  (cancelled 2 standing order(s) on GRNT: position closed)
+- SELL 100% GRNT [take_profit @ $5.16] -> $3008.45 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-14 13:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
