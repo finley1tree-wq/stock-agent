@@ -3013,3 +3013,14 @@ Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% BE [time stop] -> $2992.98 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.77] -> $3013.19 (+0.44%) — close 100% at +0.5% over the average cost
+## 2026-09-14 14:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 14:39 ET (Monday) — week 2026-W38 — budget left $18959.09 (today $175936.00 put to work, 61 buys, 59 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3pURcSkdZpiB3XKnuvz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25348.29 (+1.39% on $25000.00 in) · cash $19364.10 · realised +364.10
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

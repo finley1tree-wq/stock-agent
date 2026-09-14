@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9054.1,
+  "spent": 6040.91,
   "deployed": 175936.0,
   "by_ticker": {
     "IBM": 3000.03,
@@ -14,8 +14,7 @@
     "MAIA": 46.66,
     "HLI": 23.9,
     "NEM": 7.26,
-    "MSFT": 3000.0,
-    "TTD": 3000.0
+    "MSFT": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -2318,13 +2317,34 @@
       ],
       "evidence": "bought 30 min ago, -0.19% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 204.138903,
+      "status": "filled",
+      "price": 14.76,
+      "proceeds": 3013.19,
+      "realized_pnl": 13.19,
+      "realized_pct": 0.44,
+      "date": "2026-09-14",
+      "time_et": "14:39",
+      "ts": 1789410900,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $14.7",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 9054.1,
+  "spent_today": 6040.91,
   "deployed_today": 175936.0,
   "orders_today": 61,
-  "sells_today": 58,
+  "sells_today": 59,
   "sold_today": [
     "ALP",
     "HLI",
@@ -2348,7 +2368,7 @@
     "HLI": 1789409002,
     "META": 1789410564,
     "CHRW": 1789404833,
-    "TTD": 1789407535,
+    "TTD": 1789411141,
     "AMD": 1789402737,
     "IBM": 1789404582,
     "AAPL": 1789410203,
@@ -2361,21 +2381,18 @@
     "GRNT": 1789405841,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789411060,
-  "last_check_ts": 1789411060,
+  "last_publish_ts": 1789411140,
+  "last_check_ts": 1789411142,
   "last_bar_ts": 1789410900,
-  "last_decision_ts": 1789410983,
+  "last_decision_ts": 1789411142,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "87705afe": 14.7664,
-    "4366404d": 14.724,
-    "4eb276e7": 508.9127,
     "067bef79": 248.6714,
+    "4eb276e7": 508.9127,
     "e1817806": 504.8457,
     "8cc04e0d": 251.2164,
     "4b849044": 242.9753,
-    "77b7a295": 492.5175,
-    "93fd6095": 14.259
+    "77b7a295": 492.5175
   }
 }

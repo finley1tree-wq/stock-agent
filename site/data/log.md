@@ -1,6 +1,3 @@
-portfolio: equity $25406.10 (+1.62% on $25000.00 in) · cash $16415.36 · realised +415.36
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-14 12:57 ET (Monday) — week 2026-W38 — budget left $16010.35 (today $145457.79 put to work, 50 buys, 47 sells) — SIM (pretend money) via sim
   (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% BE [time stop] -> $2992.98 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.77] -> $3013.19 (+0.44%) — close 100% at +0.5% over the average cost
+## 2026-09-14 14:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
