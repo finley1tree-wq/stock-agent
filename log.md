@@ -2886,3 +2886,11 @@ Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% HLI [time stop] -> $2976.10 (-0.80%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 14:04 ET (Monday) — week 2026-W38 — budget left $18979.69 (today $160457.79 put to work, 55 buys, 53 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3mrvSJjCfEb9aDL4CEz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25372.57 (+1.49% on $25000.00 in) · cash $19384.70 · realised +384.70
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

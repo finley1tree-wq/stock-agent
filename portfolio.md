@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-14 14:03 ET
+# Pretend portfolio — 2026-09-14 14:04 ET
 
-**Equity $25376.81** on $25000.00 put in → **+1.51%**  
-Cash $19384.70 · Unrealised -7.89 · Realised +384.70
+**Equity $25372.57** on $25000.00 put in → **+1.49%**  
+Cash $19384.70 · Unrealised -12.13 · Realised +384.70
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| NEM | 11.8% | $2996.12 | $123.32 | $123.16 | -0.13% | 0d |
-| AAPL | 11.8% | $2995.99 | $334.30 | $333.85 | -0.13% | 0d |
+| AAPL | 11.8% | $2994.91 | $334.30 | $333.73 | -0.17% | 0d |
+| NEM | 11.8% | $2992.96 | $123.32 | $123.03 | -0.23% | 0d |
 
 ## Last fills
 
