@@ -1,11 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25335.36 (+1.34% on $25000.00 in) · cash $19328.55 · realised +328.55
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 11:48 ET (Monday) — week 2026-W38 — budget left $19030.21 (today $94457.79 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
   (FINS excluded: too thinly traded (43,117/day) — Angel Oak Financial Strategies Income Term Trust)
   (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
   (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
@@ -398,3 +390,11 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 BE @ $250.39 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25414.82 (+1.66% on $25000.00 in) · cash $1428.05 · realised +428.05
 Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $1023.03 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $250.93] -> $3005.69 (+0.19%) — close 100% at +0.3% over the average cost
+## 2026-09-14 12:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $663.48] -> $3009.56 (+0.32%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $347.33] -> $3006.43 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-09-14 12:50 ET — tick — 2 sell(s), 0 buy(s) from standing orders
