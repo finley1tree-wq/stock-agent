@@ -1460,3 +1460,45 @@ Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-12 17:44 ET — published the session's closing state
 ## 2026-09-14 00:10 ET — published the session's closing state
+
+## 2026-09-14 09:32 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RA4AvGQ4Vb8GY9Yf2J'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 8: ALP, CHRW, BE, IBM, FLD, HLI, NEM, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ALP [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 3 insiders bought (Form 4, incl. director, officer: See Remarks); +2098.9% over the month; 28% of today's range
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +2.2% over the month; 81% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +6.6% over the month; 16% of today's range
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.2% over the month; 15% of today's range
+- BUY $3000.00 FLD [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +9.9% over the month; 40% of today's range
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.7% over the month; 64% of today's range
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.4% over the month; 5% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.3% over the month; 12% of today's range
+~ WORKING take_profit 100% ALP @ $4.25 until 2026-09-19 — close 100% at +1.2% over the average cost
+~ WORKING stop_loss 100% ALP @ $4.07 until 2026-09-19 — close it all at -3.0% under the average cost
+~ WORKING buy_limit $500.00 ALP @ $4.07 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $153.15 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $151.71 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $148.16 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $253.78 until 2026-09-19 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $247.17 until 2026-09-19 — close it all at -1.9% under the average cost
+~ WORKING buy_limit $500.00 BE @ $244.33 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $247.96 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $245.45 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $239.82 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FLD @ $0.53 until 2026-09-19 — close 100% at +1.3% over the average cost
+~ WORKING stop_loss 100% FLD @ $0.50 until 2026-09-19 — close it all at -3.3% under the average cost
+~ WORKING buy_limit $500.00 FLD @ $0.50 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $138.86 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $137.36 until 2026-09-19 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $134.28 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $123.09 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $121.42 until 2026-09-19 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $118.93 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $652.98 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $644.79 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $631.12 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $331.15 until 2026-09-15 — strong month, weak day: resting 0.49% under $332.77 to catch the dip
+~ WORKING buy_limit $1000.00 AMD @ $482.28 until 2026-09-15 — strong month, weak day: resting 0.85% under $486.40 to catch the dip
+portfolio: equity $25147.66 (+0.59% on $25000.00 in) · cash $1152.46 · realised +152.46
+Done: 0 sell(s), 8 buy(s); 26 order(s) working; budget left $1000.00 this week

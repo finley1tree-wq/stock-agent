@@ -1,45 +1,3 @@
-## 2026-09-11 14:58 ET (Friday) — week 2026-W37 — budget left $14502.61 (today $107800.00 put to work, 50 buys, 45 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAYVE9xZbY8VDx1cFQP'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $14,503 idle, so opened 2: MRK, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 MRK [filled] ['momentum', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +8.5% over the month; 22% of today's range
-- BUY $3000.00 AAPL [filled] ['momentum'] — autopilot: best available on the measured screen | evidence: +10.1% over the month; 64% of today's range
-~ WORKING take_profit 100% MRK @ $144.60 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% MRK @ $143.23 until 2026-09-16 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 MRK @ $139.88 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AAPL @ $333.57 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AAPL @ $330.52 until 2026-09-16 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AAPL @ $322.72 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25138.00 (+0.55% on $25000.00 in) · cash $8645.39 · realised +145.39
-Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $8502.61 this week
-
-## 2026-09-11 15:01 ET (Friday) — week 2026-W37 — budget left $8502.61 (today $113800.00 put to work, 52 buys, 45 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAkbFPNyXJmEUHNWjmA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25135.17 (+0.54% on $25000.00 in) · cash $8645.39 · realised +145.39
-Decision: nothing at this check. 27 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- BUY $2000.00 HUBB [buy_limit @ $462.64] — wanted it, but not at the high — resting at $462.64. top congress pressure ticker in list, momentum confirmed
-## 2026-09-11 15:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-11 15:04 ET (Friday) — week 2026-W37 — budget left $6502.61 (today $115800.00 put to work, 53 buys, 45 sells) — SIM (pretend money) via sim
-  (BRID excluded: too thinly traded (4,422/day) — Bridgford Foods Corporation)
-  (GROV excluded: too thinly traded (60,633/day) — Grove Collaborative Holdings, Inc.)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CexAxhwnygxND4xJ8r5ig'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $6,503 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.7% over the month; 52% of today's range
-~ WORKING take_profit 100% TSM @ $433.42 until 2026-09-16 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% TSM @ $429.58 until 2026-09-16 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $419.35 until 2026-09-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25128.79 (+0.52% on $25000.00 in) · cash $3645.39 · realised +145.39
 Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $3502.61 this week
 
@@ -398,3 +356,45 @@ Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-12 17:44 ET — published the session's closing state
 ## 2026-09-14 00:10 ET — published the session's closing state
+
+## 2026-09-14 09:32 ET (Monday) — week 2026-W38 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3RA4AvGQ4Vb8GY9Yf2J'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 8: ALP, CHRW, BE, IBM, FLD, HLI, NEM, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ALP [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 3 insiders bought (Form 4, incl. director, officer: See Remarks); +2098.9% over the month; 28% of today's range
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +2.2% over the month; 81% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +6.6% over the month; 16% of today's range
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.2% over the month; 15% of today's range
+- BUY $3000.00 FLD [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +9.9% over the month; 40% of today's range
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.7% over the month; 64% of today's range
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.4% over the month; 5% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.3% over the month; 12% of today's range
+~ WORKING take_profit 100% ALP @ $4.25 until 2026-09-19 — close 100% at +1.2% over the average cost
+~ WORKING stop_loss 100% ALP @ $4.07 until 2026-09-19 — close it all at -3.0% under the average cost
+~ WORKING buy_limit $500.00 ALP @ $4.07 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $153.15 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $151.71 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $148.16 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $253.78 until 2026-09-19 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $247.17 until 2026-09-19 — close it all at -1.9% under the average cost
+~ WORKING buy_limit $500.00 BE @ $244.33 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $247.96 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $245.45 until 2026-09-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $239.82 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FLD @ $0.53 until 2026-09-19 — close 100% at +1.3% over the average cost
+~ WORKING stop_loss 100% FLD @ $0.50 until 2026-09-19 — close it all at -3.3% under the average cost
+~ WORKING buy_limit $500.00 FLD @ $0.50 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $138.86 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $137.36 until 2026-09-19 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $134.28 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $123.09 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $121.42 until 2026-09-19 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $118.93 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $652.98 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $644.79 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $631.12 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $331.15 until 2026-09-15 — strong month, weak day: resting 0.49% under $332.77 to catch the dip
+~ WORKING buy_limit $1000.00 AMD @ $482.28 until 2026-09-15 — strong month, weak day: resting 0.85% under $486.40 to catch the dip
+portfolio: equity $25147.66 (+0.59% on $25000.00 in) · cash $1152.46 · realised +152.46
+Done: 0 sell(s), 8 buy(s); 26 order(s) working; budget left $1000.00 this week
