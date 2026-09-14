@@ -672,8 +672,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.09,
-    "ret_now": 0.09,
+    "ret_final": -0.16,
+    "ret_now": -0.16,
     "ret_src": "realised"
   },
   {
@@ -1621,8 +1621,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02,
-    "ret_final": -0.02,
+    "ret_now": -0.33,
+    "ret_final": -0.33,
     "ret_src": "realised"
   },
   {
@@ -2898,8 +2898,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": -0.41,
+    "ret_final": -0.41,
     "ret_src": "realised"
   },
   {
@@ -4183,7 +4183,9 @@
     "code_version": "ff6c9ec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.47
+    "ret_now": -0.63,
+    "ret_final": -0.63,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -4208,6 +4210,84 @@
     "evidence": "average cost $346.45",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "f2d3cee"
+    "code_version": "f2d3cee",
+    "hold_minutes": 9
+  },
+  {
+    "symbol": "ALP",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 736.953346,
+    "price": 4.07,
+    "date": "2026-09-14",
+    "time_et": "10:22",
+    "ts": 1789395739,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "2 insiders bought (Form 4, incl. director, officer: See Remarks); +2030.9% over the month; 8% of today's range",
+    "entry_price": 4.07,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2030.89,
+    "hour_et": 10,
+    "code_version": "00a95a2",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HLI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 21.796382,
+    "price": 137.64,
+    "date": "2026-09-14",
+    "time_et": "10:22",
+    "ts": 1789395739,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.1% over the month; 23% of today's range",
+    "entry_price": 137.61,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.08,
+    "hour_et": 10,
+    "code_version": "00a95a2",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "META",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.589116,
+    "price": 653.72,
+    "date": "2026-09-14",
+    "time_et": "10:22",
+    "ts": 1789395739,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+9.8% over the month; 30% of today's range",
+    "entry_price": 653.59,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 9.85,
+    "hour_et": 10,
+    "code_version": "00a95a2",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

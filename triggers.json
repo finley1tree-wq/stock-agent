@@ -1,175 +1,6 @@
 {
  "orders": [
   {
-   "id": "a89ad0f5",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 492.8,
-   "status": "cancelled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "Protect against reversal",
-   "evidence": "ATR 3.6%, current price 505.45",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 10:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "bcf90a5c",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 93.5,
-   "status": "cancelled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "Protect against reversal",
-   "evidence": "ATR 3.86%, current price 97.03",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "21cb50cf",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 102.213,
-   "status": "filled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "wanted it, but not at the high \u2014 resting at $102.21. Strong momentum plus congressional buy pressure and fresh bullish news catalyst",
-   "evidence": "INTC +2.59% today, +12.27% 5d, at 89.3% of day range; Pelosi disclosed $250k-1M buy 2026-08-21; headline 'Intel May Raise Chip Prices 10% and Stock Took Off'",
-   "signals": [
-    "momentum",
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-11",
-   "usd": 2500.0,
-   "closed": "2026-09-11 09:36"
-  },
-  {
-   "id": "ea86605c",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 337.3338,
-   "status": "filled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "wanted it, but not at the high \u2014 resting at $337.33. Strong intraday momentum in mega-cap tech with broad market tailwind",
-   "evidence": "GOOGL +1.88% today, 91.6% of day range, headline 'What a Republican wipeout means for investors' driving broad tech rally",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-11",
-   "usd": 2500.0,
-   "closed": "2026-09-11 09:42"
-  },
-  {
-   "id": "4d652d52",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 654.1035,
-   "status": "filled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "wanted it, but not at the high \u2014 resting at $654.10. Strong multi-timeframe momentum in a widely-held large cap",
-   "evidence": "META +2.09% today, +7.73% 5d, +13.65% 1m, at 92% of day range",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-11",
-   "usd": 2200.0,
-   "closed": "2026-09-11 09:52"
-  },
-  {
-   "id": "ff36ccba",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 490.3835,
-   "status": "cancelled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $505.55",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 10:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4deb2cfd",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 97.4654,
-   "status": "filled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $97.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-11 09:47"
-  },
-  {
-   "id": "603e93b6",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 94.1385,
-   "status": "cancelled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $97.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-16",
-   "usd": 500.0,
-   "closed": "2026-09-11 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "532b86e9",
-   "ticker": "COIN",
-   "kind": "buy_limit",
-   "price": 171.2706,
-   "status": "cancelled",
-   "created": "2026-09-11 09:33",
-   "created_ts": 1789133608,
-   "why": "strong month, weak day: resting 1.30% under $173.52 to catch the dip",
-   "evidence": "+16.4% over the month, sitting at 15% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-12",
-   "usd": 1000.0,
-   "closed": "2026-09-11 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "ee434769",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -7536,7 +7367,160 @@
    "usd": 500.0,
    "closed": "2026-09-14 10:20",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "92af1594",
+   "ticker": "ALP",
+   "kind": "take_profit",
+   "price": 4.1207,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "close 100% at +1.2% over the average cost",
+   "evidence": "average cost $4.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "31b51a1f",
+   "ticker": "ALP",
+   "kind": "stop_loss",
+   "price": 3.9432,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "close it all at -3.1% under the average cost",
+   "evidence": "average cost $4.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e43e3ddd",
+   "ticker": "ALP",
+   "kind": "buy_limit",
+   "price": 3.9479,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $4.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
+  },
+  {
+   "id": "6f71f6a5",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 138.0722,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $137.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a3b93407",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 136.5595,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $137.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f229532b",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 133.5108,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $137.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
+  },
+  {
+   "id": "dfe03dec",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 656.093,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $653.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7ad84d40",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 647.7908,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $653.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ee15588b",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 634.1084,
+   "status": "working",
+   "created": "2026-09-14 10:22",
+   "created_ts": 1789395739,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $653.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-14 10:20"
+ "updated": "2026-09-14 10:22"
 }

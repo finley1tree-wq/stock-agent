@@ -1721,3 +1721,25 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [stop_loss @ $344.25] -> $2980.99 (-0.63%) — close it all at -0.6% under the average cost
 ## 2026-09-14 10:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 10:22 ET (Monday) — week 2026-W38 — budget left $24980.99 (today $37000.00 put to work, 13 buys, 13 sells) — SIM (pretend money) via sim
+  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
+  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
+  (no price for EPAC — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3UtxQSurrvUkVXzUTi2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,981 idle, so opened 3: ALP, HLI, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ALP [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 2 insiders bought (Form 4, incl. director, officer: See Remarks); +2030.9% over the month; 8% of today's range
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.1% over the month; 23% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.8% over the month; 30% of today's range
+~ WORKING take_profit 100% ALP @ $4.12 until 2026-09-19 — close 100% at +1.2% over the average cost
+~ WORKING stop_loss 100% ALP @ $3.94 until 2026-09-19 — close it all at -3.1% under the average cost
+~ WORKING buy_limit $500.00 ALP @ $3.95 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $138.07 until 2026-09-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $136.56 until 2026-09-19 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $133.51 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $656.09 until 2026-09-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $647.79 until 2026-09-19 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $634.11 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25277.53 (+1.11% on $25000.00 in) · cash $16279.33 · realised +279.33
+Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15980.99 this week

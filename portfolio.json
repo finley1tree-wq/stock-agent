@@ -1,9 +1,37 @@
 {
-  "cash": 25279.327069317987,
+  "cash": 16279.327069317987,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
-  "positions": {},
+  "positions": {
+    "ALP": {
+      "qty": 736.9533464314508,
+      "avg_cost": 4.070814,
+      "opened": "2026-09-14",
+      "last_buy": "2026-09-14",
+      "tranches": 1,
+      "last_buy_ts": 1789395745,
+      "opened_ts": 1789395745
+    },
+    "HLI": {
+      "qty": 21.796381948811895,
+      "avg_cost": 137.637522,
+      "opened": "2026-09-14",
+      "last_buy": "2026-09-14",
+      "tranches": 1,
+      "last_buy_ts": 1789395745,
+      "opened_ts": 1789395745
+    },
+    "META": {
+      "qty": 4.589115684107781,
+      "avg_cost": 653.720718,
+      "opened": "2026-09-14",
+      "last_buy": "2026-09-14",
+      "tranches": 1,
+      "last_buy_ts": 1789395745,
+      "opened_ts": 1789395745
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -1808,6 +1836,36 @@
       "realized_pct": -0.63,
       "type": "sell",
       "date": "2026-09-14 10:20"
+    },
+    {
+      "symbol": "ALP",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 736.953346,
+      "price": 4.07,
+      "type": "buy",
+      "date": "2026-09-14 10:22"
+    },
+    {
+      "symbol": "HLI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.796382,
+      "price": 137.64,
+      "type": "buy",
+      "date": "2026-09-14 10:22"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.589116,
+      "price": 653.72,
+      "type": "buy",
+      "date": "2026-09-14 10:22"
     }
   ],
   "realized_pnl": 279.32706931799487

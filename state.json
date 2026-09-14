@@ -1,20 +1,23 @@
 {
   "week": "2026-W38",
-  "spent": 19.01,
-  "deployed": 37000.0,
+  "spent": 9019.01,
+  "deployed": 46000.0,
   "by_ticker": {
     "IBM": 23.2,
-    "GOOGL": 19.01
+    "GOOGL": 19.01,
+    "ALP": 3000.0,
+    "HLI": 3000.0,
+    "META": 3000.0
   },
   "deployed_by_ticker": {
-    "ALP": 3000.0,
+    "ALP": 6000.0,
     "CHRW": 3000.0,
     "BE": 3000.0,
     "IBM": 3000.0,
     "FLD": 3000.0,
-    "HLI": 3000.0,
+    "HLI": 6000.0,
     "NEM": 3000.0,
-    "META": 3000.0,
+    "META": 6000.0,
     "AMD": 1000.0,
     "TTD": 3000.0,
     "AAPL": 3000.0,
@@ -525,12 +528,65 @@
       ],
       "evidence": "average cost $346.45",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ALP",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 736.953346,
+      "price": 4.07,
+      "date": "2026-09-14",
+      "time_et": "10:22",
+      "ts": 1789395739,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "2 insiders bought (Form 4, incl. director, officer: See Remarks); +2030.9% over the month; 8% of today's range"
+    },
+    {
+      "symbol": "HLI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.796382,
+      "price": 137.64,
+      "date": "2026-09-14",
+      "time_et": "10:22",
+      "ts": 1789395739,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.1% over the month; 23% of today's range"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.589116,
+      "price": 653.72,
+      "date": "2026-09-14",
+      "time_et": "10:22",
+      "ts": 1789395739,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+9.8% over the month; 30% of today's range"
     }
   ],
   "day": "2026-09-14",
-  "spent_today": 19.01,
-  "deployed_today": 37000.0,
-  "orders_today": 13,
+  "spent_today": 9019.01,
+  "deployed_today": 46000.0,
+  "orders_today": 16,
   "sells_today": 13,
   "sold_today": [
     "ALP",
@@ -562,11 +618,21 @@
     "FLD": 1789393822,
     "GOOGL": 1789395611
   },
-  "last_publish_ts": 1789395610,
-  "last_check_ts": 1789395610,
+  "last_publish_ts": 1789395739,
+  "last_check_ts": 1789395739,
   "last_bar_ts": 1789395600,
-  "last_decision_ts": 1789395569,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789395739,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "6f71f6a5": 138.0722,
+    "dfe03dec": 656.093,
+    "a3b93407": 136.5595,
+    "7ad84d40": 647.7908,
+    "92af1594": 4.1207,
+    "f229532b": 133.5108,
+    "ee15588b": 634.1084,
+    "e43e3ddd": 3.9479,
+    "31b51a1f": 3.9432
+  }
 }
