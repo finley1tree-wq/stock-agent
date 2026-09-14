@@ -1,5 +1,3 @@
-~ WORKING take_profit 100% MSFT @ $508.91 until 2026-09-19 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $504.85 until 2026-09-19 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 MSFT @ $492.52 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% META @ $668.23 until 2026-09-19 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% META @ $659.79 until 2026-09-19 — close it all at -0.9% under the average cost
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25283.13 (+1.13% on $25000.00 in) · cash $16292.22 · realised +292.22
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
