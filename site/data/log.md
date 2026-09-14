@@ -1,6 +1,3 @@
-  (GRX excluded: too thinly traded (22,890/day) — The Gabelli Healthcare & Wellness Trust)
-  (HEPA excluded: too thinly traded (31,906/day) — Hepion Pharmaceuticals, Inc.)
-  (no price for EPAC — excluded this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3UtxQSurrvUkVXzUTi2'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,981 idle, so opened 3: ALP, HLI, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $638.53 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25245.79 (+0.98% on $25000.00 in) · cash $16281.15 · realised +281.15
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15982.81 this week
+  (cancelled 2 standing order(s) on ALP: position closed)
+- SELL 100% ALP [take_profit @ $4.26] -> $3035.52 (+1.18%) — close 100% at +1.2% over the average cost
+## 2026-09-14 11:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
