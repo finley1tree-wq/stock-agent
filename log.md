@@ -3409,3 +3409,24 @@ portfolio: equity $25291.42 (+1.17% on $25000.00 in) · cash $16292.22 · realis
 Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $250.15] -> $3005.76 (+0.19%) — close 100% at +0.3% over the average cost
+## 2026-09-14 15:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 15:48 ET (Monday) — week 2026-W38 — budget left $18892.97 (today $205936.00 put to work, 71 buys, 69 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3uoMaDhRWDvNikNNgJ8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25290.62 (+1.16% on $25000.00 in) · cash $19297.98 · realised +297.98
+Decision: nothing at this check. 6 standing order(s) working.

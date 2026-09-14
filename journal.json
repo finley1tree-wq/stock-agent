@@ -780,8 +780,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.06,
-    "ret_now": -0.06,
+    "ret_final": -0.03,
+    "ret_now": -0.03,
     "ret_src": "realised"
   },
   {
@@ -1415,8 +1415,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.09,
-    "ret_now": -0.09,
+    "ret_final": -0.05,
+    "ret_now": -0.05,
     "ret_src": "realised"
   },
   {
@@ -1787,8 +1787,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.12,
-    "ret_now": -0.12,
+    "ret_final": -0.07,
+    "ret_now": -0.07,
     "ret_src": "realised"
   },
   {
@@ -3605,8 +3605,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13,
-    "ret_final": -0.13,
+    "ret_now": -0.07,
+    "ret_final": -0.07,
     "ret_src": "realised"
   },
   {
@@ -4353,8 +4353,8 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -5039,8 +5039,8 @@
     "code_version": "fb35581",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05,
-    "ret_final": -0.05,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -5841,8 +5841,8 @@
     "code_version": "d9a91e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22,
-    "ret_final": -0.22,
+    "ret_now": -0.09,
+    "ret_final": -0.09,
     "ret_src": "realised"
   },
   {
@@ -6553,8 +6553,8 @@
     "code_version": "a0d22a4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.64,
-    "ret_final": -0.64,
+    "ret_now": -0.22,
+    "ret_final": -0.22,
     "ret_src": "realised"
   },
   {
@@ -7154,7 +7154,7 @@
     "code_version": "7738f82",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22
+    "ret_now": -0.32
   },
   {
     "symbol": "AMD",
@@ -7180,7 +7180,7 @@
     "code_version": "7738f82",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.16
   },
   {
     "symbol": "GRNT",
@@ -7234,7 +7234,9 @@
     "code_version": "489cc91",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25
+    "ret_now": 0.19,
+    "ret_final": 0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -7313,5 +7315,32 @@
     "hour_et": 15,
     "code_version": "7bac900",
     "hold_minutes": 17
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 12.027945,
+    "status": "filled",
+    "price": 249.9,
+    "proceeds": 3005.76,
+    "realized_pnl": 5.76,
+    "realized_pct": 0.19,
+    "date": "2026-09-14",
+    "time_et": "15:48",
+    "ts": 1789415100,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $249.42",
+    "trigger": "take_profit",
+    "hour_et": 15,
+    "code_version": "59a2467",
+    "hold_minutes": 18
   }
 ]
