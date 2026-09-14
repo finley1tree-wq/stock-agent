@@ -3205,3 +3205,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25334.27 (+1.34% on $25000.00 in) · cash $7327.20 · realised +327.20
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $334.84] -> $3001.48 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-09-14 15:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

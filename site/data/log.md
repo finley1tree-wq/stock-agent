@@ -1,19 +1,3 @@
-~ WORKING stop_loss 100% HLI @ $136.96 until 2026-09-19 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 HLI @ $133.92 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25381.53 (+1.53% on $25000.00 in) · cash $19392.64 · realised +392.64
-Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $18987.62 this week
-
-## 2026-09-14 13:36 ET (Monday) — week 2026-W38 — budget left $18987.62 (today $154457.79 put to work, 53 buys, 51 sells) — SIM (pretend money) via sim
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3jj6ExV651jwG3Cscag'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,988 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +8.0% over the month; 80% of today's range
-~ WORKING take_profit 100% NEM @ $123.80 until 2026-09-19 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NEM @ $122.11 until 2026-09-19 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NEM @ $119.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25389.28 (+1.56% on $25000.00 in) · cash $16392.64 · realised +392.64
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15987.62 this week
-- SELL 100% TTD [time stop] -> $3015.97 (+0.53%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 13:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-14 13:39 ET (Monday) — week 2026-W38 — budget left $19003.59 (today $157457.79 put to work, 54 buys, 52 sells) — SIM (pretend money) via sim
@@ -398,3 +382,19 @@ portfolio: equity $25338.85 (+1.36% on $25000.00 in) · cash $4340.20 · realise
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3935.19 this week
 - SELL 100% HLI [time stop] -> $2987.00 (-0.43%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-14 15:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-14 15:20 ET (Monday) — week 2026-W38 — budget left $6922.19 (today $196936.00 put to work, 68 buys, 62 sells) — SIM (pretend money) via sim
+  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
+  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
+  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
+  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
+  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3sdTvhWZ6F6stsBAmLC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25334.27 (+1.34% on $25000.00 in) · cash $7327.20 · realised +327.20
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $334.84] -> $3001.48 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-09-14 15:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
