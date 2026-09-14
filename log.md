@@ -1890,3 +1890,5 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25279.21 (+1.12% on $25000.00 in) · cash $9889.81 · realised +347.60
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 19 order(s) working; budget left $9591.46 this week
+- SELL 100% HLI [time stop] -> $2982.89 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

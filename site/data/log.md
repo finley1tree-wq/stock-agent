@@ -1,5 +1,3 @@
-~ WORKING stop_loss 100% HLI @ $137.36 until 2026-09-19 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 HLI @ $134.28 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% NEM @ $123.09 until 2026-09-19 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% NEM @ $121.42 until 2026-09-19 — close it all at -1.0% under the average cost
 ~ WORKING buy_limit $500.00 NEM @ $118.93 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +396,5 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25279.21 (+1.12% on $25000.00 in) · cash $9889.81 · realised +347.60
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 19 order(s) working; budget left $9591.46 this week
+- SELL 100% HLI [time stop] -> $2982.89 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-14 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
