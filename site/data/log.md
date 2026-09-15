@@ -1,9 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25334.27 (+1.34% on $25000.00 in) · cash $7327.20 · realised +327.20
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [stop_loss @ $334.84] -> $3001.48 (+0.05%) — close it all at -0.7% under the average cost
 ## 2026-09-14 15:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% NEM [time stop] -> $2991.77 (-0.27%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +392,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $336.37 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25356.33 (+1.43% on $25000.00 in) · cash $13357.39 · realised +357.39
 Done: 0 sell(s), 3 buy(s); 13 order(s) working; budget left $12952.39 this week
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $330.86] -> $3001.85 (+0.06%) — close it all at -0.7% under the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $346.95] -> $3001.57 (+0.05%) — close it all at -0.6% under the average cost
+- BUY $873.19 HLI [buy_limit @ $136.29] — strong month, weak day: resting 0.58% under $137.09 to catch the dip
+## 2026-09-15 09:40 ET — tick — 2 sell(s), 1 buy(s) from standing orders
