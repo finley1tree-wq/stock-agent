@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T12:05-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,001 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-15T12:08-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,001 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 156.94,
-   "pct_away": 0.21,
+   "last": 156.84,
+   "pct_away": 0.27,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 329.65,
-   "pct_away": 0.38,
+   "last": 329.72,
+   "pct_away": 0.36,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b96e2d83",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 669.4745,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 666.85,
+   "pct_away": 0.39,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.23,
-   "pct_away": 0.46,
+   "last": 137.16,
+   "pct_away": 0.51,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 329.65,
-   "pct_away": -0.54,
+   "last": 329.72,
+   "pct_away": -0.56,
    "good_until": "2026-09-20",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -214,61 +231,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 137.23,
-   "pct_away": -0.64,
+   "last": 137.16,
+   "pct_away": -0.59,
    "good_until": "2026-09-20",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "996f49ab",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 242.451,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 240.73,
-   "pct_away": 0.71,
-   "good_until": "2026-09-20",
-   "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4ab10e3a",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 15.1204,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 15.01,
-   "pct_away": 0.74,
-   "good_until": "2026-09-20",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1ae359ea",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 155.705,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 156.94,
-   "pct_away": -0.79,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,10 +248,78 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 15.01,
-   "pct_away": -0.91,
+   "last": 14.98,
+   "pct_away": -0.71,
    "good_until": "2026-09-20",
    "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1ae359ea",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 155.705,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 156.84,
+   "pct_away": -0.72,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c41e7203",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 660.7371,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 666.85,
+   "pct_away": -0.92,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4ab10e3a",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 15.1204,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.98,
+   "pct_away": 0.94,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "996f49ab",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 242.451,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 239.99,
+   "pct_away": 1.03,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -299,8 +333,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 240.73,
-   "pct_away": -1.72,
+   "last": 239.99,
+   "pct_away": -1.41,
    "good_until": "2026-09-20",
    "why": "close it all at -1.7% under the average cost",
    "signals": [
@@ -316,42 +350,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 15.01,
-   "pct_away": -2.74,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e79ec873",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 133.3071,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 137.23,
-   "pct_away": -2.86,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "82f55669",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 320.1291,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 329.65,
-   "pct_away": -2.89,
+   "last": 14.98,
+   "pct_away": -2.55,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -367,7 +367,58 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 240.73,
+   "last": 239.99,
+   "pct_away": -2.68,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e79ec873",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 133.3071,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 137.16,
+   "pct_away": -2.81,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "82f55669",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 320.1291,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 329.72,
+   "pct_away": -2.91,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a5a7a929",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 646.9706,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 666.85,
    "pct_away": -2.98,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -384,8 +435,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 156.94,
-   "pct_away": -3.07,
+   "last": 156.84,
+   "pct_away": -3.01,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -394,7 +445,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,001 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,001 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -457,7 +508,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 258,
+  "decisions_recorded": 259,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -2151,14 +2202,14 @@
     "when": "2026-09-15T10:00"
    },
    {
-    "title": "Amazon Slips as AWS Says One Region Cannot Be Restored",
-    "source": "GuruFocus.com",
-    "when": "2026-09-15T15:52"
+    "title": "Stock Market Today: Dow Dives As Yields Jump; Bitcoin, Coinbase Fall Ahead Of Clarity Act Vote (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-15T15:54"
    },
    {
-    "title": "Amazon Sets Prime Deal Days in Early Holiday Push",
-    "source": "GuruFocus.com",
-    "when": "2026-09-15T15:46"
+    "title": "Is Meta Stock Still The Self-Funding Ad Business You Bought?",
+    "source": "Trefis",
+    "when": "2026-09-15T15:53"
    }
   ],
   "AVGO": [
@@ -2462,9 +2513,9 @@
     "when": "2026-09-15T10:00"
    },
    {
-    "title": "Meta Puts Arke and Astrid Into Data Centers in 2027",
-    "source": "GuruFocus.com",
-    "when": "2026-09-15T15:48"
+    "title": "Is Meta Stock Still The Self-Funding Ad Business You Bought?",
+    "source": "Trefis",
+    "when": "2026-09-15T15:53"
    }
   ],
   "MSFT": [
@@ -2474,14 +2525,14 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "Is Meta Stock Still The Self-Funding Ad Business You Bought?",
+    "source": "Trefis",
+    "when": "2026-09-15T15:53"
+   },
+   {
     "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
     "source": "Reuters",
     "when": "2026-09-15T15:49"
-   },
-   {
-    "title": "ORCL vs. MSFT: Which Stock Should Value Investors Buy Now?",
-    "source": "Zacks",
-    "when": "2026-09-15T15:40"
    }
   ],
   "NEM": [
@@ -2542,14 +2593,14 @@
     "when": "2026-09-15T15:30"
    },
    {
+    "title": "Stock Market Today: Dow Dives As Yields Jump; Bitcoin, Coinbase Fall Ahead Of Clarity Act Vote (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-15T15:54"
+   },
+   {
     "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
     "source": "Reuters",
     "when": "2026-09-15T15:49"
-   },
-   {
-    "title": "Meta Puts Arke and Astrid Into Data Centers in 2027",
-    "source": "GuruFocus.com",
-    "when": "2026-09-15T15:48"
    }
   ],
   "O": [
@@ -2741,5 +2792,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T12:05-04:00"
+ "signalsAsOf": "2026-09-15T12:08-04:00"
 }
