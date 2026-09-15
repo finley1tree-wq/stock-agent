@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T12:43-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,991 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-15T13:00-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,991 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,10 +146,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 500.74,
-   "pct_away": 0.25,
+   "last": 501.0,
+   "pct_away": 0.2,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a76af7a4",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 330.5571,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 329.62,
+   "pct_away": 0.28,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.66,
-   "pct_away": 0.41,
+   "last": 122.75,
+   "pct_away": 0.33,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6d59c132",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 497.9401,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 500.74,
-   "pct_away": -0.56,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +197,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.72,
-   "pct_away": 0.62,
+   "last": 262.84,
+   "pct_away": 0.57,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6d59c132",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 497.9401,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 501.0,
+   "pct_away": -0.61,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a7ac1f96",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 327.5239,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 329.62,
+   "pct_away": -0.64,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.66,
-   "pct_away": -0.9,
+   "last": 122.75,
+   "pct_away": -0.97,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -231,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.72,
-   "pct_away": -1.9,
+   "last": 262.84,
+   "pct_away": -1.94,
    "good_until": "2026-09-20",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -241,15 +275,15 @@
    ]
   },
   {
-   "id": "727ae916",
-   "ticker": "NEM",
+   "id": "0e716590",
+   "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 119.019,
+   "price": 319.7993,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 122.66,
-   "pct_away": -2.97,
+   "last": 329.62,
+   "pct_away": -2.98,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -265,8 +299,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 500.74,
-   "pct_away": -2.98,
+   "last": 501.0,
+   "pct_away": -3.03,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "727ae916",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 119.019,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 122.75,
+   "pct_away": -3.04,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -282,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 262.72,
-   "pct_away": -3.1,
+   "last": 262.84,
+   "pct_away": -3.14,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,991 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,991 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -346,7 +397,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 272,
+  "decisions_recorded": 278,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -464,9 +515,9 @@
     "n": 1
    }
   },
-  "idle_checks": 186,
+  "idle_checks": 191,
   "blocked_checks": 0,
-  "idle_share": 0.68,
+  "idle_share": 0.69,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1588,14 +1639,14 @@
     "when": "2026-09-15T10:00"
    },
    {
-    "title": "Alibaba\u2019s (BABA) Short-Term Capex Drag Creates a 30% Valuation Discount",
+    "title": "H&R Block (HRB) Uses AI to Drive Value",
     "source": "Insider Monkey",
-    "when": "2026-09-15T16:37"
+    "when": "2026-09-15T16:45"
    },
    {
-    "title": "Why Alluvium Bought Copart (CPRT) Despite the Long-Term Autonomous Driving Risk",
-    "source": "Insider Monkey",
-    "when": "2026-09-15T16:26"
+    "title": "Etsy Could Meet High End of GMS Guidance Amid AI Search, Product Improvements, Oppenheimer Says in Upgrade",
+    "source": "MT Newswires",
+    "when": "2026-09-15T16:44"
    }
   ],
   "HD": [
@@ -1804,9 +1855,9 @@
   ],
   "NVDA": [
    {
-    "title": "Are software stocks still in the crosshairs after AI warnings shake tech?",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-15T15:30"
+    "title": "Tech stocks today: CEOs call for pacing AI, as Nvidia CEO says extinction fears are made up",
+    "source": "Yahoo Finance",
+    "when": "2026-09-14T14:01"
    },
    {
     "title": "3 Dividend Stocks That Are No-Brainer Buys Right Now, Starting With This Healthcare Giant",
@@ -1923,19 +1974,19 @@
   ],
   "SPY": [
    {
+    "title": "Joby Slips and Is Down 53% This Year as the eVTOL Trade Keeps Unwinding; Archer Dips, EHang Eases",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-15T16:41"
+   },
+   {
+    "title": "Circle Internet Sinks 8% as ARK Trims Its Stake Before the Senate Clarity Act Vote; Coinbase and Bitmine Drop 5%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-15T16:39"
+   },
+   {
     "title": "Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T16:36"
-   },
-   {
-    "title": "Offshore Oil Stocks Rally While the Broad Market Slips: Transocean Climbs 6%, Valaris Rises 6%, W&T Offshore Gains 6%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T16:03"
-   },
-   {
-    "title": "Ciena Rises 4% as Optics Selloff Unwinds; Coherent Edges Higher, Corning Holds Steady",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T15:59"
    }
   ],
   "TSM": [
@@ -2008,5 +2059,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T12:43-04:00"
+ "signalsAsOf": "2026-09-15T13:00-04:00"
 }
