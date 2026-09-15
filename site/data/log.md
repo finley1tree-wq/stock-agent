@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% CHRW @ $155.31 until 2026-09-20 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CHRW @ $151.74 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HLI @ $137.74 until 2026-09-20 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% HLI @ $136.23 until 2026-09-20 — close it all at -0.8% under the average cost
 ~ WORKING buy_limit $500.00 HLI @ $133.19 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25357.09 (+1.43% on $25000.00 in) · cash $1384.90 · realised +384.90
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $320.13 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25371.37 (+1.49% on $25000.00 in) · cash $10357.60 · realised +357.60
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9952.60 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $249.44] -> $3008.61 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-15 11:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
