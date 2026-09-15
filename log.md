@@ -5013,3 +5013,14 @@ portfolio: equity $25429.67 (+1.72% on $25000.00 in) · cash $10418.00 · realis
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10012.98 this week
 - SELL 100% IBM [time stop] -> $2999.40 (-0.02%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-15 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 14:01 ET (Tuesday) — week 2026-W38 — budget left $13012.38 (today $138873.19 put to work, 47 buys, 42 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5fT3qSkiri4yFdZmJrs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25416.10 (+1.66% on $25000.00 in) · cash $13417.39 · realised +417.39
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
