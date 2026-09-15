@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "d44b82f2",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 659.306,
-   "status": "filled",
-   "created": "2026-09-14 11:41",
-   "created_ts": 1789400497,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $658.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 11:45"
-  },
-  {
    "id": "67b45a02",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -7262,7 +7244,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 661.2886,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "close it all at -0.9% under the average cost",
@@ -7272,7 +7254,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:29",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "aafefe38",
@@ -7513,7 +7497,24 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "cecc0258",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 668.304,
+   "status": "working",
+   "created": "2026-09-15 10:29",
+   "created_ts": 1789482552,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $667.53",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 10:26"
+ "updated": "2026-09-15 10:29"
 }
