@@ -1,20 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 10:46 ET (Tuesday) — week 2026-W38 — budget left $979.89 (today $63873.19 put to work, 22 buys, 13 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5QZt6zxPvyzqYgh9coL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25368.11 (+1.47% on $25000.00 in) · cash $1384.90 · realised +384.90
-Decision: nothing at this check. 24 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $14.64] -> $3015.09 (+0.50%) — close 100% at +0.5% over the average cost
 ## 2026-09-15 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-15 10:49 ET (Tuesday) — week 2026-W38 — budget left $3994.98 (today $63873.19 put to work, 22 buys, 14 sells) — SIM (pretend money) via sim
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 TTD @ $14.60 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25394.68 (+1.58% on $25000.00 in) · cash $10398.97 · realised +398.97
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9993.97 this week
+
+## 2026-09-15 11:54 ET (Tuesday) — week 2026-W38 — budget left $9993.97 (today $90873.19 put to work, 31 buys, 25 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5VhgBT8kL4JtBX1PtSg'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25380.55 (+1.52% on $25000.00 in) · cash $10398.97 · realised +398.97
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $500.61] -> $3006.96 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-15 11:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders

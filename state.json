@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 15006.03,
+  "spent": 11999.07,
   "deployed": 296809.19,
   "by_ticker": {
     "IBM": 6.92,
@@ -14,7 +14,6 @@
     "HLI": 3021.79,
     "NEM": 10.25,
     "CHRW": 3006.23,
-    "MSFT": 3000.0,
     "AAPL": 3000.0,
     "TTD": 3000.0
   },
@@ -3830,13 +3829,34 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.4% over the month; 84% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.006609,
+      "status": "filled",
+      "price": 500.61,
+      "proceeds": 3006.96,
+      "realized_pnl": 6.96,
+      "realized_pct": 0.23,
+      "date": "2026-09-15",
+      "time_et": "11:55",
+      "ts": 1789487400,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $499.45",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 14976.11,
+  "spent_today": 11969.15,
   "deployed_today": 90873.19,
   "orders_today": 31,
-  "sells_today": 25,
+  "sells_today": 26,
   "sold_today": [
     "BE",
     "META",
@@ -3861,7 +3881,7 @@
     "AAPL": 1789484188,
     "BE": 1789487169,
     "NEM": 1789487475,
-    "MSFT": 1789483814,
+    "MSFT": 1789487735,
     "FLD": 1789399070,
     "GOOGL": 1789479613,
     "TPL": 1789414420,
@@ -3869,27 +3889,24 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789487476,
-  "last_check_ts": 1789487645,
-  "last_bar_ts": 1789487400,
+  "last_publish_ts": 1789487734,
+  "last_check_ts": 1789487734,
+  "last_bar_ts": 1789487700,
   "last_decision_ts": 1789487645,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a9584072": 500.6087,
-    "e7bc8a5c": 499.9,
     "4288778a": 157.2654,
     "4737bb77": 330.898,
-    "d3996278": 137.8629,
     "00478f6b": 327.865,
-    "4ab10e3a": 15.1204,
+    "d3996278": 137.8629,
     "f40dcb7e": 136.3484,
     "1ae359ea": 155.705,
+    "4ab10e3a": 15.1204,
     "b3918462": 14.8738,
+    "34972813": 14.5985,
     "e79ec873": 133.3071,
     "82f55669": 320.1291,
-    "34972813": 14.5985,
-    "e62cb477": 152.1154,
-    "4cc15e4f": 484.4665
+    "e62cb477": 152.1154
   }
 }
