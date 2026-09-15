@@ -1,25 +1,26 @@
 {
   "week": "2026-W38",
-  "spent": 47.4,
-  "deployed": 272809.19,
+  "spent": 9047.4,
+  "deployed": 281809.19,
   "by_ticker": {
-    "IBM": 15.53,
+    "IBM": 3015.53,
     "GOOGL": 24.38,
     "AMD": 8.41,
-    "BE": 48.27,
+    "BE": 3048.27,
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 21.79,
     "NEM": 21.56,
-    "CHRW": 6.23
+    "CHRW": 6.23,
+    "MSFT": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 18000.0,
-    "BE": 24000.0,
-    "IBM": 24000.0,
+    "BE": 27000.0,
+    "IBM": 27000.0,
     "FLD": 6000.0,
     "HLI": 24873.19,
     "NEM": 24000.0,
@@ -27,7 +28,7 @@
     "AMD": 10000.0,
     "TTD": 21000.0,
     "AAPL": 24000.0,
-    "MSFT": 15457.79,
+    "MSFT": 18457.79,
     "GOOGL": 15000.0,
     "TPL": 9000.0,
     "GRNT": 9000.0,
@@ -3622,12 +3623,66 @@
       ],
       "evidence": "average cost $671.71",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.374721,
+      "price": 263.74,
+      "date": "2026-09-15",
+      "time_et": "11:37",
+      "ts": 1789486647,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +14.7% over the month; 38% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.006609,
+      "price": 499.45,
+      "date": "2026-09-15",
+      "time_et": "11:37",
+      "ts": 1789486647,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +0.8% over the month; 15% of today's range"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.061284,
+      "price": 248.73,
+      "date": "2026-09-15",
+      "time_et": "11:37",
+      "ts": 1789486647,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +6.1% over the month; 76% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 17.48,
-  "deployed_today": 66873.19,
-  "orders_today": 23,
+  "spent_today": 9017.48,
+  "deployed_today": 75873.19,
+  "orders_today": 26,
   "sells_today": 22,
   "sold_today": [
     "BE",
@@ -3661,11 +3716,21 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789485641,
-  "last_check_ts": 1789486475,
-  "last_bar_ts": 1789486200,
-  "last_decision_ts": 1789486475,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789486647,
+  "last_check_ts": 1789486647,
+  "last_bar_ts": 1789486500,
+  "last_decision_ts": 1789486647,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "a9584072": 500.6087,
+    "7b08efbd": 249.4439,
+    "d42a17ad": 496.5532,
+    "806eab34": 246.9441,
+    "384c7cab": 265.6284,
+    "ae3a5a0d": 259.0191,
+    "c6d3bb5f": 255.8278,
+    "4cc15e4f": 484.4665,
+    "cefd11c7": 241.2681
+  }
 }
