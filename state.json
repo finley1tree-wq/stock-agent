@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 12029.92,
-  "deployed": 251809.19,
+  "spent": 21029.92,
+  "deployed": 260809.19,
   "by_ticker": {
     "IBM": 3011.32,
     "GOOGL": 24.38,
@@ -13,9 +13,11 @@
     "AAPL": 3.19,
     "MAIA": 46.66,
     "HLI": 31.13,
-    "NEM": 13.02,
+    "NEM": 3013.02,
     "MSFT": 3000.0,
-    "META": 3000.0
+    "META": 3000.0,
+    "TTD": 3000.0,
+    "CRWD": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -24,17 +26,17 @@
     "IBM": 24000.0,
     "FLD": 6000.0,
     "HLI": 21873.19,
-    "NEM": 21000.0,
+    "NEM": 24000.0,
     "META": 21478.21,
     "AMD": 10000.0,
-    "TTD": 18000.0,
+    "TTD": 21000.0,
     "AAPL": 21000.0,
     "MSFT": 15457.79,
     "GOOGL": 15000.0,
     "TPL": 9000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
-    "CRWD": 3000.0
+    "CRWD": 6000.0
   },
   "orders": [
     {
@@ -3275,12 +3277,65 @@
         "autopilot"
       ],
       "evidence": "+13.2% over the month; 49% of today's range"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 205.961571,
+      "price": 14.57,
+      "date": "2026-09-15",
+      "time_et": "10:23",
+      "ts": 1789482224,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.0% over the month; 18% of today's range"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.727119,
+      "price": 235.72,
+      "date": "2026-09-15",
+      "time_et": "10:23",
+      "ts": 1789482224,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +8.6% over the month; 61% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.592426,
+      "price": 121.99,
+      "date": "2026-09-15",
+      "time_et": "10:23",
+      "ts": 1789482224,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+3.5% over the month; 1% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 12000.0,
-  "deployed_today": 45873.19,
-  "orders_today": 16,
+  "spent_today": 21000.0,
+  "deployed_today": 54873.19,
+  "orders_today": 19,
   "sells_today": 11,
   "sold_today": [
     "BE",
@@ -3314,24 +3369,33 @@
     "MAIA": 1789406136,
     "CRWD": 1789479442
   },
-  "last_publish_ts": 1789482066,
-  "last_check_ts": 1789482147,
+  "last_publish_ts": 1789482224,
+  "last_check_ts": 1789482224,
   "last_bar_ts": 1789482000,
-  "last_decision_ts": 1789482066,
+  "last_decision_ts": 1789482224,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "11b1c03e": 500.0474,
-    "e9caa357": 249.4238,
-    "1f1202ce": 670.0266,
+    "b1bc1bf1": 122.4438,
     "149783f2": 495.9964,
     "7074973a": 246.9243,
-    "97860b3a": 268.9783,
+    "e9caa357": 249.4238,
+    "ce46c82e": 14.6391,
+    "1f1202ce": 670.0266,
     "1492429c": 661.2886,
+    "9ca289a6": 237.3559,
+    "84e4fe09": 120.8543,
+    "3dc4a806": 14.3975,
     "78f52e84": 262.3678,
-    "eec1160e": 483.9233,
+    "97860b3a": 268.9783,
+    "30419cca": 231.6279,
     "8ca9a728": 259.0773,
     "16560ae8": 241.2487,
-    "aafefe38": 647.5041
+    "aafefe38": 647.5041,
+    "eec1160e": 483.9233,
+    "aa86a988": 14.1329,
+    "baeb86a2": 118.3303,
+    "91994a2b": 228.6484
   }
 }
