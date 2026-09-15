@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "aeea7c76",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 324.8239,
-   "status": "cancelled",
-   "created": "2026-09-14 12:37",
-   "created_ts": 1789403824,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $334.87",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 13:06",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "120e223c",
    "ticker": "HLI",
    "kind": "stop_loss",
@@ -7541,9 +7522,28 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 236.5808,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 12:09",
    "created_ts": 1789488590,
+   "why": "close it all at -1.7% under the average cost",
+   "evidence": "average cost $240.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 12:23",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "fd5fdb3a",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 241.32,
+   "status": "working",
+   "created": "2026-09-15 12:23",
+   "created_ts": 1789489439,
    "why": "close it all at -1.7% under the average cost",
    "evidence": "average cost $240.78",
    "signals": [
@@ -7554,5 +7554,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 12:21"
+ "updated": "2026-09-15 12:24"
 }
