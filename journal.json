@@ -2126,8 +2126,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -3576,8 +3576,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01,
-    "ret_final": -0.01,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -4492,8 +4492,8 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11,
-    "ret_final": -0.11,
+    "ret_now": -0.08,
+    "ret_final": -0.08,
     "ret_src": "realised"
   },
   {
@@ -5285,8 +5285,8 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04,
-    "ret_final": 0.04,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -6037,8 +6037,8 @@
     "code_version": "4ae6f4f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -6524,8 +6524,8 @@
     "code_version": "fa1a7a5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13,
-    "ret_final": -0.13,
+    "ret_now": -0.08,
+    "ret_final": -0.08,
     "ret_src": "realised"
   },
   {
@@ -7154,8 +7154,8 @@
     "code_version": "7738f82",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1,
-    "ret_final": -0.1,
+    "ret_now": -0.06,
+    "ret_final": -0.06,
     "ret_src": "realised"
   },
   {
@@ -7539,8 +7539,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -8090,8 +8090,8 @@
     "code_version": "b58f0ef",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.31,
-    "ret_final": -0.31,
+    "ret_now": -0.16,
+    "ret_final": -0.16,
     "ret_src": "realised"
   },
   {
@@ -8664,8 +8664,8 @@
     "code_version": "6b5ad2b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.71,
-    "ret_final": 0.71,
+    "ret_now": 0.43,
+    "ret_final": 0.43,
     "ret_src": "realised"
   },
   {
@@ -9188,7 +9188,9 @@
     "code_version": "a100a9d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.14,
+    "ret_final": 0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -9239,7 +9241,7 @@
     "code_version": "e8ca608",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": -0.02
   },
   {
     "symbol": "MSFT",
@@ -9265,7 +9267,7 @@
     "code_version": "b4aa51e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.02
   },
   {
     "symbol": "AAPL",
@@ -9290,6 +9292,33 @@
     "hour_et": 13,
     "code_version": "da3a611",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
+  },
+  {
+    "symbol": "BE",
+    "side": "sell",
+    "qty": 11.430641,
+    "status": "filled",
+    "price": 262.82,
+    "proceeds": 3004.17,
+    "realized_pnl": 4.17,
+    "realized_pct": 0.14,
+    "date": "2026-09-15",
+    "time_et": "13:02",
+    "ts": 1789491767,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.16% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "39f6277",
+    "hold_minutes": 30
   }
 ]

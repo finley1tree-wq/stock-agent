@@ -1,5 +1,3 @@
-
-## 2026-09-15 11:45 ET (Tuesday) — week 2026-W38 — budget left $12961.21 (today $81873.19 put to work, 28 buys, 23 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $319.80 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25401.95 (+1.61% on $25000.00 in) · cash $13395.92 · realised +395.92
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12990.92 this week
+- SELL 100% BE [time stop] -> $3004.17 (+0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 13:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

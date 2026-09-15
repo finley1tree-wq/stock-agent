@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 12009.08,
+  "spent": 9004.91,
   "deployed": 314809.19,
   "by_ticker": {
     "IBM": 6.92,
     "GOOGL": 24.38,
     "AMD": 8.41,
-    "BE": 3026.82,
+    "BE": 22.65,
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
@@ -4077,13 +4077,33 @@
         "autopilot"
       ],
       "evidence": "+7.7% over the month; 39% of today's range"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.430641,
+      "status": "filled",
+      "price": 262.82,
+      "proceeds": 3004.17,
+      "realized_pnl": 4.17,
+      "realized_pct": 0.14,
+      "date": "2026-09-15",
+      "time_et": "13:02",
+      "ts": 1789491767,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.16% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 11979.16,
+  "spent_today": 8974.99,
   "deployed_today": 108873.19,
   "orders_today": 37,
-  "sells_today": 32,
+  "sells_today": 33,
   "sold_today": [
     "BE",
     "META",
@@ -4106,7 +4126,7 @@
     "AMD": 1789415590,
     "IBM": 1789487083,
     "AAPL": 1789488775,
-    "BE": 1789487169,
+    "BE": 1789491767,
     "NEM": 1789487475,
     "MSFT": 1789487735,
     "FLD": 1789399070,
@@ -4116,24 +4136,21 @@
     "MAIA": 1789406136,
     "CRWD": 1789489561
   },
-  "last_publish_ts": 1789491602,
-  "last_check_ts": 1789491690,
+  "last_publish_ts": 1789491767,
+  "last_check_ts": 1789491768,
   "last_bar_ts": 1789491600,
-  "last_decision_ts": 1789491602,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789491768,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "0b5aadda": 501.9969,
     "a76af7a4": 330.5571,
     "f8a2d073": 123.1589,
-    "e6eae6d5": 264.337,
     "6d59c132": 497.9401,
     "a7ac1f96": 327.5239,
     "c6d9dd1f": 121.554,
-    "7ed49f18": 257.7311,
-    "0e716590": 319.7993,
-    "d86dad38": 485.8148,
     "727ae916": 119.019,
-    "1ec305f7": 254.5765
+    "d86dad38": 485.8148,
+    "0e716590": 319.7993
   }
 }
