@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "b32cf977",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 368.0834,
-   "status": "cancelled",
-   "created": "2026-09-14 12:20",
-   "created_ts": 1789402818,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $371.49",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:26",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "13b9f582",
-   "ticker": "TPL",
-   "kind": "buy_limit",
-   "price": 360.3453,
-   "status": "cancelled",
-   "created": "2026-09-14 12:20",
-   "created_ts": 1789402818,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $371.49",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 12:34",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "788aab85",
    "ticker": "ALP",
    "kind": "take_profit",
@@ -7386,7 +7348,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 246.9441,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:37",
    "created_ts": 1789486647,
    "why": "close it all at -0.7% under the average cost",
@@ -7396,7 +7358,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "cefd11c7",
@@ -7437,7 +7401,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 120.7244,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:40",
    "created_ts": 1789486801,
    "why": "close it all at -0.9% under the average cost",
@@ -7447,7 +7411,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:44",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "75d47c8e",
@@ -7533,7 +7499,41 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "15caa49a",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 249.012,
+   "status": "working",
+   "created": "2026-09-15 11:43",
+   "created_ts": 1789487003,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $248.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "71e0e707",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 122.026,
+   "status": "working",
+   "created": "2026-09-15 11:44",
+   "created_ts": 1789487049,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $121.87",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 11:42"
+ "updated": "2026-09-15 11:44"
 }
