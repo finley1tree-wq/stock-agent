@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "f372427c",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 347.03,
-   "status": "cancelled",
-   "created": "2026-09-14 12:48",
-   "created_ts": 1789404526,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $346.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8f6c6884",
-   "ticker": "GRNT",
-   "kind": "take_profit",
-   "price": 5.1648,
-   "status": "cancelled",
-   "created": "2026-09-14 12:48",
-   "created_ts": 1789404528,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $5.15",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:52",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "ee836975",
-   "ticker": "GRNT",
-   "kind": "stop_loss",
-   "price": 5.1129,
-   "status": "cancelled",
-   "created": "2026-09-14 12:48",
-   "created_ts": 1789404528,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $5.15",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:52",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "1dc4692f",
    "ticker": "GRNT",
    "kind": "buy_limit",
@@ -7553,7 +7496,58 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "0b5aadda",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 501.9969,
+   "status": "working",
+   "created": "2026-09-15 12:43",
+   "created_ts": 1789490591,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $500.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6d59c132",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 497.9401,
+   "status": "working",
+   "created": "2026-09-15 12:43",
+   "created_ts": 1789490591,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $500.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d86dad38",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 485.8148,
+   "status": "working",
+   "created": "2026-09-15 12:43",
+   "created_ts": 1789490591,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $500.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-15 12:40"
+ "updated": "2026-09-15 12:43"
 }

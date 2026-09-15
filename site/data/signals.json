@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T12:37-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,991 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-15T12:43-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,991 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "0b5aadda",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 501.9969,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 500.74,
+   "pct_away": 0.25,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "f8a2d073",
    "ticker": "NEM",
    "kind": "take_profit",
@@ -146,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.65,
+   "last": 122.66,
    "pct_away": 0.41,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6d59c132",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 497.9401,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 500.74,
+   "pct_away": -0.56,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,7 +197,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.7,
+   "last": 262.72,
    "pct_away": 0.62,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
@@ -180,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 122.65,
-   "pct_away": -0.89,
+   "last": 122.66,
+   "pct_away": -0.9,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -197,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.7,
-   "pct_away": -1.89,
+   "last": 262.72,
+   "pct_away": -1.9,
    "good_until": "2026-09-20",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -214,8 +248,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 122.65,
-   "pct_away": -2.96,
+   "last": 122.66,
+   "pct_away": -2.97,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d86dad38",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 485.8148,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 500.74,
+   "pct_away": -2.98,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -231,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 262.7,
-   "pct_away": -3.09,
+   "last": 262.72,
+   "pct_away": -3.1,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -241,7 +292,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,991 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,991 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -295,7 +346,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 270,
+  "decisions_recorded": 272,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -413,9 +464,9 @@
     "n": 1
    }
   },
-  "idle_checks": 185,
+  "idle_checks": 186,
   "blocked_checks": 0,
-  "idle_share": 0.69,
+  "idle_share": 0.68,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1367,14 +1418,14 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "Amazon Has Zero Sell Ratings. Here\u2019s the Price Target That Follows",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-15T16:30"
+   },
+   {
     "title": "Amazon cancels all flights with 21 Air airline from Miami crash",
     "source": "TheStreet",
     "when": "2026-09-15T16:18"
-   },
-   {
-    "title": "Stock Market Today: Dow Dives As Yields Jump; Bitcoin, Coinbase Fall Ahead Of Clarity Act Vote (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-15T15:54"
    }
   ],
   "AVGO": [
@@ -1537,14 +1588,14 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "Alibaba\u2019s (BABA) Short-Term Capex Drag Creates a 30% Valuation Discount",
+    "source": "Insider Monkey",
+    "when": "2026-09-15T16:37"
+   },
+   {
     "title": "Why Alluvium Bought Copart (CPRT) Despite the Long-Term Autonomous Driving Risk",
     "source": "Insider Monkey",
     "when": "2026-09-15T16:26"
-   },
-   {
-    "title": "Warren Buffett Bought Alphabet Stock About a Year Ago. 3 Reasons It\u2019s Still a Buy Today",
-    "source": "Motley Fool",
-    "when": "2026-09-15T16:05"
    }
   ],
   "HD": [
@@ -1758,14 +1809,14 @@
     "when": "2026-09-15T15:30"
    },
    {
+    "title": "3 Dividend Stocks That Are No-Brainer Buys Right Now, Starting With This Healthcare Giant",
+    "source": "Motley Fool",
+    "when": "2026-09-15T16:35"
+   },
+   {
     "title": "This Is the No. 1 Reason I'm Buying and Holding the Vanguard Total Stock Market ETF (VTI) Right Now",
     "source": "Motley Fool",
     "when": "2026-09-15T16:25"
-   },
-   {
-    "title": "Why Is Carnival Stock Down 26% This Year?",
-    "source": "Motley Fool",
-    "when": "2026-09-15T16:17"
    }
   ],
   "O": [
@@ -1872,6 +1923,11 @@
   ],
   "SPY": [
    {
+    "title": "Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-15T16:36"
+   },
+   {
     "title": "Offshore Oil Stocks Rally While the Broad Market Slips: Transocean Climbs 6%, Valaris Rises 6%, W&T Offshore Gains 6%",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T16:03"
@@ -1880,11 +1936,6 @@
     "title": "Ciena Rises 4% as Optics Selloff Unwinds; Coherent Edges Higher, Corning Holds Steady",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T15:59"
-   },
-   {
-    "title": "TeraWulf Falls 5% as AI Infrastructure Names Extend a Month-Long Slide; IREN Drops 4%, Applied Digital Declines 3%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T15:30"
    }
   ],
   "TSM": [
@@ -1957,5 +2008,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T12:37-04:00"
+ "signalsAsOf": "2026-09-15T12:43-04:00"
 }
