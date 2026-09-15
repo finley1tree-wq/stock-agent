@@ -1,5 +1,3 @@
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +13.5% over the month; 59% of today's range
-~ WORKING take_profit 100% META @ $672.13 until 2026-09-20 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% META @ $663.39 until 2026-09-20 — close it all at -0.9% under the average cost
 ~ WORKING buy_limit $500.00 META @ $649.54 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25397.73 (+1.59% on $25000.00 in) · cash $13416.33 · realised +416.33
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.25 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25354.36 (+1.42% on $25000.00 in) · cash $22361.90 · realised +361.90
 Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
