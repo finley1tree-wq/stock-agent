@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 15004.37,
+  "spent": 12002.48,
   "deployed": 371809.19,
   "by_ticker": {
     "IBM": 3007.52,
@@ -16,7 +16,6 @@
     "MSFT": 7.79,
     "AAPL": 5.19,
     "PLTR": 10.45,
-    "META": 3000.0,
     "TTD": 3000.0,
     "CRWD": 3000.0
   },
@@ -4777,13 +4776,34 @@
         "insider"
       ],
       "evidence": "1 insider bought (Form 4); +4.0% over the month; 60% of today's range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.48006,
+      "status": "filled",
+      "price": 670.06,
+      "proceeds": 3001.89,
+      "realized_pnl": 1.89,
+      "realized_pct": 0.06,
+      "date": "2026-09-15",
+      "time_et": "15:03",
+      "ts": 1789498800,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $669.63",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 14974.45,
+  "spent_today": 11972.56,
   "deployed_today": 165873.19,
   "orders_today": 56,
-  "sells_today": 50,
+  "sells_today": 51,
   "sold_today": [
     "BE",
     "META",
@@ -4801,7 +4821,7 @@
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789498291,
-    "META": 1789494434,
+    "META": 1789498996,
     "CHRW": 1789498880,
     "TTD": 1789493780,
     "AMD": 1789415590,
@@ -4818,19 +4838,17 @@
     "CRWD": 1789495355,
     "PLTR": 1789498579
   },
-  "last_publish_ts": 1789498958,
-  "last_check_ts": 1789498958,
+  "last_publish_ts": 1789498995,
+  "last_check_ts": 1789499041,
   "last_bar_ts": 1789498800,
   "last_decision_ts": 1789498958,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "e636a12b": 670.392,
-    "8d062a13": 672.1277,
-    "9c211d7f": 248.7284,
     "84cada8f": 374.346,
-    "ef9b408d": 15.0105,
+    "9c211d7f": 248.7284,
     "7256cf84": 241.914,
+    "ef9b408d": 15.0105,
     "cb3e1182": 251.2916,
     "b6ad63f9": 369.4269,
     "17aa485d": 15.2618,
@@ -4838,7 +4856,6 @@
     "8e4adb5e": 14.7343,
     "38479e41": 243.0432,
     "04bfa3af": 361.7518,
-    "c4748fb2": 233.0231,
-    "ffd6b679": 649.5411
+    "c4748fb2": 233.0231
   }
 }

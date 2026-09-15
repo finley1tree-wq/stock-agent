@@ -1,6 +1,3 @@
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $176.18] -> $3014.42 (+0.48%) — close 100% at +0.5% over the average cost
 ## 2026-09-15 13:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 TPL @ $361.75 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25379.23 (+1.52% on $25000.00 in) · cash $10400.65 · realised +400.65
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9995.63 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $670.06] -> $3001.89 (+0.06%) — close it all at -0.9% under the average cost
+## 2026-09-15 15:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
