@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-15 13:41 ET
+# Pretend portfolio — 2026-09-15 13:42 ET
 
-**Equity $25418.60** on $25000.00 put in → **+1.67%**  
-Cash $19415.29 · Unrealised +3.31 · Realised +415.29
+**Equity $25415.91** on $25000.00 put in → **+1.66%**  
+Cash $19415.29 · Unrealised +0.62 · Realised +415.29
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| META | 11.8% | $3007.02 | $665.67 | $667.23 | +0.23% | 0d |
-| IBM | 11.8% | $2996.29 | $250.88 | $250.57 | -0.12% | 0d |
+| META | 11.8% | $3004.45 | $665.67 | $666.66 | +0.15% | 0d |
+| IBM | 11.8% | $2996.17 | $250.88 | $250.56 | -0.13% | 0d |
 
 ## Last fills
 
