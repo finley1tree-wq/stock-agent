@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "35dd12db",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 489.074,
-   "status": "cancelled",
-   "created": "2026-09-14 12:03",
-   "created_ts": 1789401809,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $504.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 12:12",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c7381899",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 504.596,
-   "status": "cancelled",
-   "created": "2026-09-14 12:07",
-   "created_ts": 1789402059,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $504.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:12",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "59286d98",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 491.996,
-   "status": "cancelled",
-   "created": "2026-09-14 12:17",
-   "created_ts": 1789402645,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $491.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:18",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2a509bca",
-   "ticker": "TPL",
-   "kind": "take_profit",
-   "price": 372.8534,
-   "status": "cancelled",
-   "created": "2026-09-14 12:20",
-   "created_ts": 1789402818,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $371.49",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:34",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b32cf977",
    "ticker": "TPL",
    "kind": "stop_loss",
@@ -7358,7 +7282,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 259.0191,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:37",
    "created_ts": 1789486647,
    "why": "close it all at -1.8% under the average cost",
@@ -7368,7 +7292,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:42",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c6d3bb5f",
@@ -7539,7 +7465,75 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "cf1b5672",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 264.334,
+   "status": "working",
+   "created": "2026-09-15 11:42",
+   "created_ts": 1789486967,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $263.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4737bb77",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 330.898,
+   "status": "working",
+   "created": "2026-09-15 11:42",
+   "created_ts": 1789486969,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $330.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "00478f6b",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 327.865,
+   "status": "working",
+   "created": "2026-09-15 11:42",
+   "created_ts": 1789486969,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $330.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "82f55669",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 320.1291,
+   "status": "working",
+   "created": "2026-09-15 11:42",
+   "created_ts": 1789486969,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $330.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-15 11:40"
+ "updated": "2026-09-15 11:42"
 }

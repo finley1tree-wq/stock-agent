@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T11:40-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,953 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-15T11:42-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,953 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,17 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a9584072",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 500.6087,
+   "id": "cf1b5672",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 264.334,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 499.4,
-   "pct_away": 0.24,
+   "last": 264.4,
+   "pct_away": -0.02,
    "good_until": "2026-09-20",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,8 +163,42 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 248.65,
-   "pct_away": 0.32,
+   "last": 249.02,
+   "pct_away": 0.17,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a9584072",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 500.6087,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 499.6,
+   "pct_away": 0.2,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4737bb77",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 330.898,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 329.96,
+   "pct_away": 0.28,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -180,27 +214,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 121.82,
-   "pct_away": 0.42,
+   "last": 121.97,
+   "pct_away": 0.29,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d42a17ad",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 496.5532,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 499.4,
-   "pct_away": -0.57,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,10 +231,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 263.83,
-   "pct_away": 0.68,
+   "last": 264.4,
+   "pct_away": 0.46,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d42a17ad",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 496.5532,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 499.6,
+   "pct_away": -0.61,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "00478f6b",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 327.865,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 329.96,
+   "pct_away": -0.63,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 248.65,
-   "pct_away": -0.69,
+   "last": 249.02,
+   "pct_away": -0.83,
    "good_until": "2026-09-20",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -248,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 121.82,
-   "pct_away": -0.9,
+   "last": 121.97,
+   "pct_away": -1.02,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -258,49 +309,15 @@
    ]
   },
   {
-   "id": "ae3a5a0d",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 259.0191,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 263.83,
-   "pct_away": -1.82,
-   "good_until": "2026-09-20",
-   "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "75d47c8e",
-   "ticker": "NEM",
+   "id": "82f55669",
+   "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 118.2139,
+   "price": 320.1291,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 121.82,
-   "pct_away": -2.96,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cefd11c7",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 241.2681,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 248.65,
-   "pct_away": -2.97,
+   "last": 329.96,
+   "pct_away": -2.98,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,8 +333,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 499.4,
-   "pct_away": -2.99,
+   "last": 499.6,
+   "pct_away": -3.03,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "75d47c8e",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 118.2139,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 121.97,
+   "pct_away": -3.08,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cefd11c7",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 241.2681,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 249.02,
+   "pct_away": -3.11,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -333,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 263.83,
-   "pct_away": -3.03,
+   "last": 264.4,
+   "pct_away": -3.24,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -343,7 +394,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,953 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,953 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -406,7 +457,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 249,
+  "decisions_recorded": 250,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -526,7 +577,7 @@
   },
   "idle_checks": 171,
   "blocked_checks": 0,
-  "idle_share": 0.69,
+  "idle_share": 0.68,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2061,6 +2112,11 @@
  "headlines": {
   "AAPL": [
    {
+    "title": "Apple Stock Slips After India Escalates iPhone Repair Investigation",
+    "source": "GuruFocus.com",
+    "when": "2026-09-15T15:38"
+   },
+   {
     "title": "Would You Still Want Dell If The AI Orders Slowed?",
     "source": "Trefis",
     "when": "2026-09-15T15:01"
@@ -2069,11 +2125,6 @@
     "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
     "source": "Reuters",
     "when": "2026-09-15T14:13"
-   },
-   {
-    "title": "OpenAI acquires Glass Imaging camera startup for $300 million",
-    "source": "Quartz",
-    "when": "2026-09-15T13:49"
    }
   ],
   "AMD": [
@@ -2270,14 +2321,14 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "Alphabet Falls as a DeepMind Exit Reprices AI's Safety Race",
+    "source": "GuruFocus.com",
+    "when": "2026-09-15T15:40"
+   },
+   {
     "title": "Nvidia Rebounds, but AI's $1.08 Trillion Boom Faces Its First Brake",
     "source": "GuruFocus.com",
     "when": "2026-09-15T15:36"
-   },
-   {
-    "title": "The AI Boom\u00a0Has a Secret\u00a0Weapon, and It\u2019s\u00a0Marvell",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T15:30"
    }
   ],
   "HD": [
@@ -2690,5 +2741,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T11:40-04:00"
+ "signalsAsOf": "2026-09-15T11:42-04:00"
 }
