@@ -1,5 +1,3 @@
-portfolio: equity $25408.48 (+1.63% on $25000.00 in) · cash $16416.33 · realised +416.33
-Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-15 14:32 ET (Tuesday) — week 2026-W38 — budget left $16011.32 (today $147873.19 put to work, 50 buys, 46 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.25 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25354.27 (+1.42% on $25000.00 in) · cash $19358.22 · realised +358.22
 Decision: nothing at this check. 6 standing order(s) working.
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
