@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b927c508",
-   "ticker": "MAIA",
-   "kind": "stop_loss",
-   "price": 1.3605,
-   "status": "cancelled",
-   "created": "2026-09-14 11:48",
-   "created_ts": 1789400928,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $1.38",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:18",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "3da74519",
    "ticker": "MAIA",
    "kind": "buy_limit",
@@ -7527,7 +7508,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 665.4698,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:17",
    "created_ts": 1789485467,
    "why": "close it all at -0.9% under the average cost",
@@ -7537,7 +7518,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:19",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b3b5f9c9",
@@ -7555,7 +7538,24 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "e213f83b",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 672.766,
+   "status": "working",
+   "created": "2026-09-15 11:19",
+   "created_ts": 1789485556,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $671.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 11:17"
+ "updated": "2026-09-15 11:19"
 }
