@@ -5317,3 +5317,20 @@ Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9995.63 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $670.06] -> $3001.89 (+0.06%) — close it all at -0.9% under the average cost
 ## 2026-09-15 15:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 15:05 ET (Tuesday) — week 2026-W38 — budget left $12997.52 (today $165873.19 put to work, 56 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5kHWfnWmZmzyDuQStse'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,998 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +12.7% over the month; 15% of today's range
+~ WORKING take_profit 100% BE @ $261.14 until 2026-09-20 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $254.53 until 2026-09-20 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $251.47 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25375.84 (+1.50% on $25000.00 in) · cash $10402.54 · realised +402.54
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9997.52 this week
