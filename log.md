@@ -3906,3 +3906,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25367.68 (+1.47% on $25000.00 in) · cash $1375.09 · realised +375.09
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $236.33] -> $3007.85 (+0.26%) — close it all at -1.7% under the average cost
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $667.97] -> $3001.96 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-09-15 10:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders

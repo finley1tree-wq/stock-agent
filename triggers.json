@@ -7227,7 +7227,7 @@
    "ticker": "META",
    "kind": "take_profit",
    "price": 670.0266,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "close 100% at +0.4% over the average cost",
@@ -7237,7 +7237,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1492429c",
@@ -7263,7 +7265,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 647.5041,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7273,7 +7275,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 10:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ce46c82e",
@@ -7331,7 +7335,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 237.3559,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:23",
    "created_ts": 1789482224,
    "why": "close 100% at +0.7% over the average cost",
@@ -7341,7 +7345,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "30419cca",
@@ -7367,7 +7373,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 228.6484,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:23",
    "created_ts": 1789482224,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7377,7 +7383,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 10:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b1bc1bf1",
@@ -7435,7 +7443,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 236.452,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-15 10:25",
    "created_ts": 1789482307,
    "why": "close it all at -1.7% under the average cost",
@@ -7445,7 +7453,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:30"
   },
   {
    "id": "45a1eb14",
@@ -7503,7 +7512,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 668.304,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-15 10:29",
    "created_ts": 1789482552,
    "why": "close it all at -0.9% under the average cost",
@@ -7513,8 +7522,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:30"
   }
  ],
- "updated": "2026-09-15 10:29"
+ "updated": "2026-09-15 10:30"
 }
