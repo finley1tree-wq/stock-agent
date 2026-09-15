@@ -7227,7 +7227,7 @@
    "ticker": "BE",
    "kind": "take_profit",
    "price": 265.6284,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-15 11:37",
    "created_ts": 1789486647,
    "why": "close 100% at +0.7% over the average cost",
@@ -7237,7 +7237,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:46"
   },
   {
    "id": "ae3a5a0d",
@@ -7263,7 +7264,7 @@
    "ticker": "BE",
    "kind": "buy_limit",
    "price": 255.8278,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:37",
    "created_ts": 1789486647,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7273,7 +7274,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 11:46",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a9584072",
@@ -7440,7 +7443,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 264.334,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:42",
    "created_ts": 1789486967,
    "why": "close it all at -1.8% under the average cost",
@@ -7450,7 +7453,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:46",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "4737bb77",
@@ -7540,5 +7545,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 11:45"
+ "updated": "2026-09-15 11:46"
 }

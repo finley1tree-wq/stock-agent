@@ -4342,3 +4342,7 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25377.19 (+1.51% on $25000.00 in) · cash $13366.21 · realised +366.21
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (trigger BE stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $265.63] -> $3021.45 (+0.71%) — close 100% at +0.7% over the average cost
+## 2026-09-15 11:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders

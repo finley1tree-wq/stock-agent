@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 12038.79,
+  "spent": 9017.34,
   "deployed": 287809.19,
   "by_ticker": {
     "IBM": 6.92,
     "GOOGL": 24.38,
     "AMD": 8.41,
-    "BE": 3048.27,
+    "BE": 26.82,
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
@@ -3733,13 +3733,34 @@
       ],
       "evidence": "average cost $248.73",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.374721,
+      "status": "filled",
+      "price": 265.63,
+      "proceeds": 3021.45,
+      "realized_pnl": 21.45,
+      "realized_pct": 0.71,
+      "date": "2026-09-15",
+      "time_et": "11:46",
+      "ts": 1789487100,
+      "why": "close 100% at +0.7% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $263.74",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 12008.87,
+  "spent_today": 8987.42,
   "deployed_today": 81873.19,
   "orders_today": 28,
-  "sells_today": 23,
+  "sells_today": 24,
   "sold_today": [
     "BE",
     "META",
@@ -3762,7 +3783,7 @@
     "AMD": 1789415590,
     "IBM": 1789487083,
     "AAPL": 1789484188,
-    "BE": 1789483859,
+    "BE": 1789487169,
     "NEM": 1789484022,
     "MSFT": 1789483814,
     "FLD": 1789399070,
@@ -3772,24 +3793,21 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789487082,
-  "last_check_ts": 1789487130,
+  "last_publish_ts": 1789487168,
+  "last_check_ts": 1789487214,
   "last_bar_ts": 1789487100,
   "last_decision_ts": 1789487130,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "cf1b5672": 264.334,
     "71e0e707": 122.026,
     "33946ac2": 122.3282,
     "a9584072": 500.6087,
     "4737bb77": 330.898,
-    "384c7cab": 265.6284,
     "d42a17ad": 496.5532,
     "00478f6b": 327.865,
     "82f55669": 320.1291,
     "4cc15e4f": 484.4665,
-    "75d47c8e": 118.2139,
-    "c6d3bb5f": 255.8278
+    "75d47c8e": 118.2139
   }
 }
