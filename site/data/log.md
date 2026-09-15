@@ -1,4 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-14 15:03 ET (Monday) — week 2026-W38 — budget left $18935.19 (today $181936.00 put to work, 63 buys, 61 sells) — SIM (pretend money) via sim
   (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25278.19 (+1.11% on $25000.00 in) · cash $25278.19 · realised +278.19
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-14 16:10 ET — published the session's closing state
