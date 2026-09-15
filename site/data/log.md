@@ -1,24 +1,3 @@
-
-## 2026-09-15 10:38 ET (Tuesday) — week 2026-W38 — budget left $979.89 (today $63873.19 put to work, 22 buys, 13 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5PvBPFi4GBKmHgTcgzv'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25341.19 (+1.36% on $25000.00 in) · cash $1384.90 · realised +384.90
-Decision: nothing at this check. 24 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 10:40 ET (Tuesday) — week 2026-W38 — budget left $979.89 (today $63873.19 put to work, 22 buys, 13 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5Q8Mck1KzFm2MaKoaoG'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +377,24 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 1 standing order(s) on BE: position closed)
 - SELL 100% BE [take_profit @ $265.63] -> $3021.45 (+0.71%) — close 100% at +0.7% over the average cost
 ## 2026-09-15 11:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 11:48 ET (Tuesday) — week 2026-W38 — budget left $15982.66 (today $81873.19 put to work, 28 buys, 24 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5VGpNss91KUzTyx7b6r'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,983 idle, so opened 2: CHRW, HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +5.5% over the month; 67% of today's range
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.8% over the month; 71% of today's range
+~ WORKING take_profit 100% CHRW @ $157.27 until 2026-09-20 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $155.71 until 2026-09-20 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $152.12 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $137.86 until 2026-09-20 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $136.35 until 2026-09-20 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $133.31 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25388.27 (+1.55% on $25000.00 in) · cash $10387.66 · realised +387.66
+Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $9982.66 this week

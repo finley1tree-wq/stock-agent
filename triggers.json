@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "788aab85",
-   "ticker": "ALP",
-   "kind": "take_profit",
-   "price": 4.2514,
-   "status": "cancelled",
-   "created": "2026-09-14 12:23",
-   "created_ts": 1789402988,
-   "why": "close 100% at +1.2% over the average cost",
-   "evidence": "average cost $4.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a5ffa02b",
-   "ticker": "ALP",
-   "kind": "stop_loss",
-   "price": 4.0714,
-   "status": "cancelled",
-   "created": "2026-09-14 12:23",
-   "created_ts": 1789402988,
-   "why": "close it all at -3.1% under the average cost",
-   "evidence": "average cost $4.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:25",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "3f4ad361",
-   "ticker": "ALP",
-   "kind": "buy_limit",
-   "price": 4.074,
-   "status": "cancelled",
-   "created": "2026-09-14 12:23",
-   "created_ts": 1789402988,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $4.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 12:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8a0c2d9c",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 123.2726,
-   "status": "filled",
-   "created": "2026-09-14 12:23",
-   "created_ts": 1789402988,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $122.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:48"
-  },
-  {
-   "id": "116a9c2c",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 121.583,
-   "status": "cancelled",
-   "created": "2026-09-14 12:23",
-   "created_ts": 1789402988,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $122.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:47",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "bc51aef6",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 119.1063,
-   "status": "cancelled",
-   "created": "2026-09-14 12:23",
-   "created_ts": 1789402988,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $122.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 12:48",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a0947937",
    "ticker": "ALP",
    "kind": "stop_loss",
@@ -7543,7 +7430,109 @@
    ],
    "good_until": "2026-09-20",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "4288778a",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 157.2654,
+   "status": "working",
+   "created": "2026-09-15 11:48",
+   "created_ts": 1789487308,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $156.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1ae359ea",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 155.705,
+   "status": "working",
+   "created": "2026-09-15 11:48",
+   "created_ts": 1789487308,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $156.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e62cb477",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 152.1154,
+   "status": "working",
+   "created": "2026-09-15 11:48",
+   "created_ts": 1789487308,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $156.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "usd": 500.0
+  },
+  {
+   "id": "d3996278",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 137.8629,
+   "status": "working",
+   "created": "2026-09-15 11:48",
+   "created_ts": 1789487308,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $137.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f40dcb7e",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 136.3484,
+   "status": "working",
+   "created": "2026-09-15 11:48",
+   "created_ts": 1789487308,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $137.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e79ec873",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 133.3071,
+   "status": "working",
+   "created": "2026-09-15 11:48",
+   "created_ts": 1789487308,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $137.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-15 11:46"
+ "updated": "2026-09-15 11:48"
 }
