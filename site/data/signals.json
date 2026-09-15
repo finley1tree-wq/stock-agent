@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T09:43-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-15T09:45-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -137,59 +137,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "47ff1978",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 137.4963,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 137.35,
-   "pct_away": 0.11,
-   "good_until": "2026-09-20",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "052e91e5",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 137.17,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 137.35,
-   "pct_away": -0.13,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4042a267",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 132.793,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 137.35,
-   "pct_away": -3.32,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,952 idle, so opened 3: CHRW, HLI, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the ",
  "congress_trades": [

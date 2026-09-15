@@ -1,6 +1,3 @@
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3t5BedxpZyqHFDA2Rxh'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,917 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25367.13 (+1.47% on $25000.00 in) · cash $21496.12 · realised +369.31
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $137.10] -> $3878.96 (+0.15%) — close it all at -0.8% under the average cost
+## 2026-09-15 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders

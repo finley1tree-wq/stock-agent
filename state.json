@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 3908.88,
+  "spent": 29.92,
   "deployed": 239809.19,
   "by_ticker": {
     "IBM": 11.32,
@@ -12,7 +12,7 @@
     "ALP": 39.88,
     "AAPL": 3.19,
     "MAIA": 46.66,
-    "HLI": 3910.09,
+    "HLI": 31.13,
     "NEM": 13.02
   },
   "deployed_by_ticker": {
@@ -3181,13 +3181,34 @@
       ],
       "evidence": "average cost $156.1",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 28.292666,
+      "status": "filled",
+      "price": 137.1,
+      "proceeds": 3878.96,
+      "realized_pnl": 5.77,
+      "realized_pct": 0.15,
+      "date": "2026-09-15",
+      "time_et": "09:45",
+      "ts": 1789479900,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $136.9",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 3782.07,
+  "spent_today": 0.0,
   "deployed_today": 33873.19,
   "orders_today": 12,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "BE",
     "META",
@@ -3198,11 +3219,12 @@
     "CRWD",
     "AAPL",
     "GOOGL",
-    "CHRW"
+    "CHRW",
+    "HLI"
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789413576,
+    "HLI": 1789479940,
     "META": 1789479312,
     "CHRW": 1789479772,
     "TTD": 1789479442,
@@ -3219,15 +3241,11 @@
     "MAIA": 1789406136,
     "CRWD": 1789479442
   },
-  "last_publish_ts": 1789479814,
-  "last_check_ts": 1789479860,
-  "last_bar_ts": 1789479600,
-  "last_decision_ts": 1789479773,
+  "last_publish_ts": 1789479940,
+  "last_check_ts": 1789479941,
+  "last_bar_ts": 1789479900,
+  "last_decision_ts": 1789479941,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "47ff1978": 137.4963,
-    "052e91e5": 137.17,
-    "4042a267": 132.793
-  }
+  "book_px": {}
 }
