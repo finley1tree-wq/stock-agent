@@ -1893,8 +1893,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.14,
+    "ret_final": 0.14,
     "ret_src": "realised"
   },
   {
@@ -2451,8 +2451,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.14,
+    "ret_final": 0.14,
     "ret_src": "realised"
   },
   {
@@ -3225,8 +3225,8 @@
     "code_version": "3e886e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15,
-    "ret_final": 0.15,
+    "ret_now": 0.16,
+    "ret_final": 0.16,
     "ret_src": "realised"
   },
   {
@@ -3547,8 +3547,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14,
-    "ret_final": 0.14,
+    "ret_now": 0.15,
+    "ret_final": 0.15,
     "ret_src": "realised"
   },
   {
@@ -4324,8 +4324,8 @@
     "code_version": "2d545c2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12,
-    "ret_final": 0.12,
+    "ret_now": 0.14,
+    "ret_final": 0.14,
     "ret_src": "realised"
   },
   {
@@ -4955,8 +4955,8 @@
     "code_version": "d63c124",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09,
-    "ret_final": 0.09,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -5898,8 +5898,8 @@
     "code_version": "1deaf89",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05,
-    "ret_final": 0.05,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -7839,8 +7839,8 @@
     "code_version": "71a90da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -8343,8 +8343,8 @@
     "code_version": "a97b527",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07,
-    "ret_final": -0.07,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -8861,8 +8861,8 @@
     "code_version": "c76bebf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.0,
-    "ret_final": -0.0,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -9406,8 +9406,8 @@
     "code_version": "0630881",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06,
-    "ret_final": -0.06,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -10055,7 +10055,7 @@
     "code_version": "2795c20",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25
+    "ret_now": 0.2
   },
   {
     "symbol": "TTD",
@@ -10082,7 +10082,7 @@
     "code_version": "5a766ec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.59
+    "ret_now": -0.53
   },
   {
     "symbol": "CHRW",
@@ -10109,7 +10109,9 @@
     "code_version": "a360bec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -10160,7 +10162,7 @@
     "code_version": "70eb329",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.38
   },
   {
     "symbol": "CRWD",
@@ -10187,7 +10189,7 @@
     "code_version": "ba97177",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.13
   },
   {
     "symbol": "HLI",
@@ -10264,6 +10266,33 @@
     "evidence": "average cost $157.5",
     "trigger": "take_profit",
     "hour_et": 15,
-    "code_version": "c093aad"
+    "code_version": "c093aad",
+    "hold_minutes": 19
+  },
+  {
+    "symbol": "TPL",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.044208,
+    "price": 372.94,
+    "date": "2026-09-15",
+    "time_et": "15:02",
+    "ts": 1789498958,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +4.0% over the month; 60% of today's range",
+    "entry_price": 372.79,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 3.98,
+    "hour_et": 15,
+    "code_version": "4362627",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
