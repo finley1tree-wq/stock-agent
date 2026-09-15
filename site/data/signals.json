@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T12:32-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,993 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "asOf": "2026-09-15T12:37-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,991 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,15 +139,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "b96e2d83",
-   "ticker": "META",
+   "id": "f8a2d073",
+   "ticker": "NEM",
    "kind": "take_profit",
-   "price": 669.4745,
+   "price": 123.1589,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 665.9,
-   "pct_away": 0.54,
+   "last": 122.65,
+   "pct_away": 0.41,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -156,15 +156,15 @@
    ]
   },
   {
-   "id": "b7afa19d",
+   "id": "e6eae6d5",
    "ticker": "BE",
    "kind": "take_profit",
-   "price": 264.3396,
+   "price": 264.337,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.4,
-   "pct_away": 0.74,
+   "last": 262.7,
+   "pct_away": 0.62,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -173,15 +173,15 @@
    ]
   },
   {
-   "id": "c41e7203",
-   "ticker": "META",
+   "id": "c6d9dd1f",
+   "ticker": "NEM",
    "kind": "stop_loss",
-   "price": 660.7371,
+   "price": 121.554,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 665.9,
-   "pct_away": -0.78,
+   "last": 122.65,
+   "pct_away": -0.89,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -190,15 +190,15 @@
    ]
   },
   {
-   "id": "52f31a70",
+   "id": "7ed49f18",
    "ticker": "BE",
    "kind": "stop_loss",
-   "price": 257.7285,
+   "price": 257.7311,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.4,
-   "pct_away": -1.78,
+   "last": 262.7,
+   "pct_away": -1.89,
    "good_until": "2026-09-20",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -207,15 +207,15 @@
    ]
   },
   {
-   "id": "a5a7a929",
-   "ticker": "META",
+   "id": "727ae916",
+   "ticker": "NEM",
    "kind": "buy_limit",
-   "price": 646.9706,
+   "price": 119.019,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 665.9,
-   "pct_away": -2.84,
+   "last": 122.65,
+   "pct_away": -2.96,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -231,8 +231,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 262.4,
-   "pct_away": -2.98,
+   "last": 262.7,
+   "pct_away": -3.09,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -241,7 +241,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,993 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,991 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -295,7 +295,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 268,
+  "decisions_recorded": 270,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -413,7 +413,7 @@
     "n": 1
    }
   },
-  "idle_checks": 184,
+  "idle_checks": 185,
   "blocked_checks": 0,
   "idle_share": 0.69,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1957,5 +1957,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T12:32-04:00"
+ "signalsAsOf": "2026-09-15T12:37-04:00"
 }
