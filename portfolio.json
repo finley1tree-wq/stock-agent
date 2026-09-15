@@ -1,5 +1,5 @@
 {
-  "cash": 10387.663281210233,
+  "cash": 10398.973943285904,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
@@ -12,15 +12,6 @@
       "tranches": 1,
       "last_buy_ts": 1789486652,
       "opened_ts": 1789486652
-    },
-    "NEM": {
-      "qty": 24.616651451387924,
-      "avg_cost": 121.868728,
-      "opened": "2026-09-15",
-      "last_buy": "2026-09-15",
-      "tranches": 1,
-      "last_buy_ts": 1789486807,
-      "opened_ts": 1789486807
     },
     "AAPL": {
       "qty": 9.090193114244165,
@@ -48,6 +39,15 @@
       "tranches": 1,
       "last_buy_ts": 1789487313,
       "opened_ts": 1789487313
+    },
+    "TTD": {
+      "qty": 199.3883297744732,
+      "avg_cost": 15.046016,
+      "opened": "2026-09-15",
+      "last_buy": "2026-09-15",
+      "tranches": 1,
+      "last_buy_ts": 1789487484,
+      "opened_ts": 1789487484
     }
   },
   "fills": [
@@ -3718,7 +3718,29 @@
       "price": 137.43,
       "type": "buy",
       "date": "2026-09-15 11:48"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.616651,
+      "status": "filled",
+      "price": 122.33,
+      "proceeds": 3011.31,
+      "realized_pnl": 11.31,
+      "realized_pct": 0.38,
+      "type": "sell",
+      "date": "2026-09-15 11:51"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 199.38833,
+      "price": 15.05,
+      "type": "buy",
+      "date": "2026-09-15 11:51"
     }
   ],
-  "realized_pnl": 387.66328121024566
+  "realized_pnl": 398.9739432859175
 }

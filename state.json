@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 15017.34,
-  "deployed": 293809.19,
+  "spent": 15006.03,
+  "deployed": 296809.19,
   "by_ticker": {
     "IBM": 6.92,
     "GOOGL": 24.38,
@@ -12,10 +12,11 @@
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 3021.79,
-    "NEM": 3021.56,
+    "NEM": 10.25,
     "CHRW": 3006.23,
     "MSFT": 3000.0,
-    "AAPL": 3000.0
+    "AAPL": 3000.0,
+    "TTD": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -27,7 +28,7 @@
     "NEM": 27000.0,
     "META": 24478.21,
     "AMD": 10000.0,
-    "TTD": 21000.0,
+    "TTD": 24000.0,
     "AAPL": 27000.0,
     "MSFT": 18457.79,
     "GOOGL": 15000.0,
@@ -3790,13 +3791,52 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.8% over the month; 71% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.616651,
+      "status": "filled",
+      "price": 122.33,
+      "proceeds": 3011.31,
+      "realized_pnl": 11.31,
+      "realized_pct": 0.38,
+      "date": "2026-09-15",
+      "time_et": "11:51",
+      "ts": 1789487400,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $121.87",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 199.38833,
+      "price": 15.05,
+      "date": "2026-09-15",
+      "time_et": "11:51",
+      "ts": 1789487476,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.4% over the month; 84% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 14987.42,
-  "deployed_today": 87873.19,
-  "orders_today": 30,
-  "sells_today": 24,
+  "spent_today": 14976.11,
+  "deployed_today": 90873.19,
+  "orders_today": 31,
+  "sells_today": 25,
   "sold_today": [
     "BE",
     "META",
@@ -3820,7 +3860,7 @@
     "IBM": 1789487083,
     "AAPL": 1789484188,
     "BE": 1789487169,
-    "NEM": 1789484022,
+    "NEM": 1789487475,
     "MSFT": 1789483814,
     "FLD": 1789399070,
     "GOOGL": 1789479613,
@@ -3829,27 +3869,27 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789487308,
-  "last_check_ts": 1789487393,
-  "last_bar_ts": 1789487100,
-  "last_decision_ts": 1789487308,
+  "last_publish_ts": 1789487476,
+  "last_check_ts": 1789487476,
+  "last_bar_ts": 1789487400,
+  "last_decision_ts": 1789487476,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "71e0e707": 122.026,
-    "33946ac2": 122.3282,
     "a9584072": 500.6087,
+    "e7bc8a5c": 499.9,
     "4288778a": 157.2654,
-    "d3996278": 137.8629,
     "4737bb77": 330.898,
+    "d3996278": 137.8629,
     "00478f6b": 327.865,
-    "d42a17ad": 496.5532,
-    "1ae359ea": 155.705,
+    "4ab10e3a": 15.1204,
     "f40dcb7e": 136.3484,
-    "82f55669": 320.1291,
-    "e62cb477": 152.1154,
+    "1ae359ea": 155.705,
+    "b3918462": 14.8738,
     "e79ec873": 133.3071,
-    "4cc15e4f": 484.4665,
-    "75d47c8e": 118.2139
+    "82f55669": 320.1291,
+    "34972813": 14.5985,
+    "e62cb477": 152.1154,
+    "4cc15e4f": 484.4665
   }
 }
