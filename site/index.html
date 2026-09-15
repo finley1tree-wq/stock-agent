@@ -62,6 +62,7 @@
     <button role="tab" aria-selected="false" data-tab="watchlist">Watchlist</button>
     <button role="tab" aria-selected="false" data-tab="politics">Politics &amp; insiders</button>
     <button role="tab" aria-selected="false" data-tab="activity">Activity</button>
+    <button role="tab" aria-selected="false" data-tab="calendar">Calendar</button>
   </nav>
 
   <section class="panel" id="panel-holdings" role="tabpanel">
@@ -93,6 +94,22 @@
     <div class="section"><h3>What it's learning <span class="count" id="learn-count"></span></h3><div class="card" id="learning"></div></div>
     <div class="section"><h3>Lessons it wrote itself</h3><div class="card"><ul class="lessons" id="lessons" style="margin:0;padding-left:18px"></ul></div></div>
     <div class="section"><h3>Log</h3><div class="list"><pre class="log" id="log"></pre></div></div>
+  </section>
+
+  <section class="panel" id="panel-calendar" role="tabpanel" hidden>
+    <div class="card">
+      <div class="cal-head">
+        <button type="button" id="cal-prev" aria-label="Previous month">‹</button>
+        <h2 id="cal-title">—</h2>
+        <button type="button" id="cal-next" aria-label="Next month">›</button>
+      </div>
+      <div class="cal-sum" id="cal-sum"></div>
+      <div class="cal-grid" id="calendar"></div>
+      <div class="cal-legend">
+        <span class="cal-ms fix">Change goes live</span><span class="cal-ms check">Check / test</span><span class="cal-ms verdict">Verdict</span><span class="cal-ms money">Real-money decision</span>
+      </div>
+    </div>
+    <div class="section" style="margin-top:14px"><h3>Coming up</h3><div class="list" id="cal-upcoming"></div></div>
   </section>
 
   <footer>Prices via Yahoo Finance, delayed up to 15 minutes. Pretend money: nothing here is a real position or advice.<br><span id="asof"></span></footer>

@@ -233,6 +233,35 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 .sellclock.soon { background: rgba(255,179,64,.15); color: var(--amber); border-color: rgba(255,179,64,.4); }
 .sellclock.over { background: rgba(255,69,58,.15); color: var(--down); border-color: rgba(255,69,58,.4); }
 .row .px.pulse { animation: sa-pulse .35s ease-out; }
+
+/* calendar tab: each trading day's result, plus the plan's milestones */
+.cal-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.cal-head h2 { margin: 0; }
+.cal-head button { padding: 3px 12px; font-size: 18px; line-height: 1.3; border: 1px solid var(--line); border-radius: 8px; color: var(--text); }
+.cal-head button:hover { background: var(--card-2); }
+.cal-sum { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 10px 0 12px; font-size: 13px; color: var(--muted); }
+.cal-sum b { color: var(--text); font-variant-numeric: tabular-nums; }
+.cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.cal-dow { font-size: 11px; color: var(--faint); text-transform: uppercase; letter-spacing: .06em; text-align: center; padding: 2px 0 4px; }
+.cal-day { min-height: 82px; background: var(--card-2); border: 1px solid var(--line); border-radius: 8px; padding: 5px 6px; font-size: 12px; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.cal-day.off { background: transparent; border-style: dashed; opacity: .6; }
+.cal-day.blank { background: transparent; border: 0; }
+.cal-day.today { box-shadow: inset 0 0 0 2px var(--accent); }
+.cal-day .n { color: var(--muted); font-size: 11px; }
+.cal-day .pl { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 13px; }
+.cal-day .pl.up { color: var(--up); } .cal-day .pl.down { color: var(--down); } .cal-day .pl.flat { color: var(--muted); }
+.cal-day .sub { color: var(--faint); font-size: 10.5px; }
+.cal-ms { font-size: 10.5px; line-height: 1.25; padding: 2px 5px; border-radius: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cal-ms.fix { background: rgba(10,132,255,.16); color: #64b5ff; }
+.cal-ms.check, .cal-ms.test { background: rgba(255,179,64,.14); color: var(--amber); }
+.cal-ms.verdict { background: rgba(191,90,242,.16); color: #d59bff; }
+.cal-ms.money { background: var(--up-soft); color: var(--up); }
+.cal-legend { display: flex; flex-wrap: wrap; gap: 6px 10px; margin-top: 10px; }
+.cal-up { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+.cal-up:last-child { border-bottom: 0; }
+.cal-up .when { color: var(--muted); font-variant-numeric: tabular-nums; }
+.cal-up .why { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+@media (max-width: 640px) { .cal-day { min-height: 62px; padding: 4px; } .cal-ms { white-space: normal; font-size: 9.5px; } .cal-day .sub { display: none; } }
 #next-update, #next-check { font-variant-numeric: tabular-nums; }
 @media (prefers-reduced-motion: reduce) { .row .px.pulse { animation: none; } }
 

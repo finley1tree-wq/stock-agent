@@ -363,7 +363,73 @@
     const mode = $("#mode"); if (mode && paused && !/PAUSED/.test(mode.textContent)) mode.textContent += " · PAUSED";
   }
 
-  function renderAll() { renderHero(); renderWorking(); renderHoldings(); renderWatchlist(); renderPolitics(); renderInvestors(); renderActivity(); renderStatus(); }
+  // ---------- calendar ----------
+  // Each trading day's result from the ledger's own fills (so it can never disagree with the account),
+  // today's cell includes what the open positions are worth right now, and the plan's milestones sit
+  // on their dates. Times are the owner's, Pacific.
+  const MILESTONES = [
+    { d: "2026-09-15", k: "fix", t: "3 fixes go live", why: "1:10-1:40 PM: insider feed saves its data, cut-loss price stops sliding down, free OpenInsider backup" },
+    { d: "2026-09-16", k: "check", t: "Health check", why: "Is it running properly? Not a verdict on the strategy" },
+    { d: "2026-09-29", k: "test", t: "Test ideas", why: "Replay-test afternoon cutback and buy timing on 2 weeks of data. Nothing changes yet" },
+    { d: "2026-10-01", k: "verdict", t: "VERDICT", why: "Continue if the confidence score is above 2 and profit isn't from a few lucky trades" },
+    { d: "2026-10-02", k: "fix", t: "Apply winners", why: "Only changes that won the Sep 29 test, if the verdict says continue" },
+    { d: "2026-10-16", k: "money", t: "Real-money decision", why: "Earliest date to discuss it, only if the verdict passed and the next 2 weeks held up" },
+  ];
+  const MS_LABEL = { fix: "Change goes live", check: "Health check", test: "Test", verdict: "Verdict", money: "Real money" };
+  function renderCalendar() {
+    const box = $("#calendar"); if (!box) return;
+    const p = state.data.portfolio || {}, sg = state.data.signals || {};
+    const hol = new Set(sg.holidays || []);
+    const day = {};
+    (p.fills || []).forEach(f => {
+      const d = String(f.date || "").slice(0, 10); if (!d) return;
+      const x = day[d] || (day[d] = { pnl: 0, sells: 0, wins: 0, buys: 0 });
+      if (f.type === "sell") { x.pnl += +f.realized_pnl || 0; x.sells++; if ((+f.realized_pct || 0) > 0) x.wins++; }
+      else if (f.type === "buy") x.buys++;
+    });
+    const todayET = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+    let open = 0, anyOpen = false;
+    Object.entries(p.positions || {}).forEach(([s, x]) => { const q = state.quotes[s]; if (q?.price != null) { open += x.qty * (q.price - x.avg_cost); anyOpen = true; } });
+    if (anyOpen) { (day[todayET] || (day[todayET] = { pnl: 0, sells: 0, wins: 0, buys: 0 })).open = open; }
+    if (!state.calMonth) state.calMonth = todayET.slice(0, 7);
+    const [Y, M] = state.calMonth.split("-").map(Number);
+    const first = new Date(Date.UTC(Y, M - 1, 1)), days = new Date(Date.UTC(Y, M, 0)).getUTCDate(), lead = first.getUTCDay();
+    const iso = n => `${Y}-${String(M).padStart(2, "0")}-${String(n).padStart(2, "0")}`;
+    $("#cal-title").textContent = first.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
+    const ms = {}; MILESTONES.forEach(m => (ms[m.d] = ms[m.d] || []).push(m));
+    const html = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map(d => `<div class="cal-dow">${d}</div>`);
+    for (let i = 0; i < lead; i++) html.push(`<div class="cal-day blank"></div>`);
+    let total = 0, up = 0, down = 0, traded = 0;
+    for (let n = 1; n <= days; n++) {
+      const d = iso(n), dow = (lead + n - 1) % 7, x = day[d], weekend = dow === 0 || dow === 6;
+      let body = "";
+      if (x && (x.sells || x.buys || x.open != null)) {
+        const v = x.pnl + (x.open || 0); total += v; traded++; if (v > 0.005) up++; else if (v < -0.005) down++;
+        body = `<div class="pl ${cls(v)}">${signed(v)}</div><div class="sub">${x.sells} sells${x.sells ? ` · ${Math.round(100 * x.wins / x.sells)}% won` : ""}${x.open != null ? " · incl. open" : ""}</div>`;
+      } else if (hol.has(d)) body = `<div class="sub">market closed</div>`;
+      const chips = (ms[d] || []).map(m => `<div class="cal-ms ${m.k}" title="${esc(m.why)}">${esc(m.t)}</div>`).join("");
+      html.push(`<div class="cal-day${weekend || hol.has(d) ? " off" : ""}${d === todayET ? " today" : ""}" title="${esc(d)}"><div class="n">${n}</div>${body}${chips}</div>`);
+    }
+    box.innerHTML = html.join("");
+    const allTime = (+p.realized_pnl || 0) + (anyOpen ? open : 0);
+    $("#cal-sum").innerHTML = traded
+      ? `<span>This month <b style="color:${total >= 0 ? "var(--up)" : "var(--down)"}">${signed(total)}</b></span><span>Up days <b>${up}</b></span><span>Down days <b>${down}</b></span><span>All-time <b style="color:${allTime >= 0 ? "var(--up)" : "var(--down)"}">${signed(allTime)}</b></span>`
+      : `<span>No trading days this month yet.</span>`;
+    const up2 = $("#cal-upcoming");
+    if (up2) {
+      const next = MILESTONES.filter(m => m.d >= todayET);
+      up2.innerHTML = next.length ? next.map(m => `<div class="cal-up"><div class="when">${new Date(m.d + "T12:00:00Z").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" })}</div><div><span class="cal-ms ${m.k}" style="display:inline-block">${esc(MS_LABEL[m.k])}</span> <b>${esc(m.t)}</b><div class="why">${esc(m.why)}</div></div></div>`).join("")
+        : `<div class="empty">Nothing scheduled.</div>`;
+    }
+    if (!state.calBound) {
+      state.calBound = true;
+      const step = k => { const [y, m] = state.calMonth.split("-").map(Number); const t = new Date(Date.UTC(y, m - 1 + k, 1)); state.calMonth = `${t.getUTCFullYear()}-${String(t.getUTCMonth() + 1).padStart(2, "0")}`; renderCalendar(); };
+      $("#cal-prev").addEventListener("click", () => step(-1));
+      $("#cal-next").addEventListener("click", () => step(1));
+    }
+  }
+
+  function renderAll() { renderHero(); renderWorking(); renderHoldings(); renderWatchlist(); renderPolitics(); renderInvestors(); renderActivity(); renderCalendar(); renderStatus(); }
 
   // ---------- detail sheet ----------
   let sheetSym = null, sheetRange = "1d";
