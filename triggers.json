@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "a171ac43",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 122.1535,
-   "status": "cancelled",
-   "created": "2026-09-14 14:52",
-   "created_ts": 1789411961,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $123.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 15:09",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "e9088046",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 119.6592,
-   "status": "cancelled",
-   "created": "2026-09-14 14:52",
-   "created_ts": 1789411961,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $123.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 15:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f7f46862",
-   "ticker": "GRNT",
-   "kind": "take_profit",
-   "price": 5.1448,
-   "status": "cancelled",
-   "created": "2026-09-14 15:03",
-   "created_ts": 1789412622,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $5.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 15:25",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "07332e2c",
-   "ticker": "GRNT",
-   "kind": "stop_loss",
-   "price": 5.0929,
-   "status": "cancelled",
-   "created": "2026-09-14 15:03",
-   "created_ts": 1789412622,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $5.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 15:20",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "92e546b0",
    "ticker": "GRNT",
    "kind": "buy_limit",
@@ -7318,7 +7242,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 175.9973,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 14:26",
    "created_ts": 1789496793,
    "why": "close 100% at +0.5% over the average cost",
@@ -7328,14 +7252,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 14:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7c800c0f",
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 173.0668,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 14:26",
    "created_ts": 1789496793,
    "why": "close it all at -1.2% under the average cost",
@@ -7345,7 +7271,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 14:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "cc243dfd",
@@ -7537,7 +7465,79 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "5a627865",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 183.918,
+   "status": "cancelled",
+   "created": "2026-09-15 14:38",
+   "created_ts": 1789497499,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $175.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 14:39",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "8602d833",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 170.781,
+   "status": "cancelled",
+   "created": "2026-09-15 14:38",
+   "created_ts": 1789497499,
+   "why": "close it all at -2.5% under the average cost",
+   "evidence": "average cost $175.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 14:39",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "ab282ea4",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 175.9973,
+   "status": "working",
+   "created": "2026-09-15 14:39",
+   "created_ts": 1789497545,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $175.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a5ee028e",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 173.0668,
+   "status": "working",
+   "created": "2026-09-15 14:39",
+   "created_ts": 1789497545,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $175.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 14:37"
+ "updated": "2026-09-15 14:39"
 }
