@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 IBM @ $243.35 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25386.04 (+1.54% on $25000.00 in) · cash $10390.45 · realised +390.45
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9985.45 this week
 
 ## 2026-09-15 13:33 ET (Tuesday) — week 2026-W38 — budget left $9985.45 (today $123873.19 put to work, 42 buys, 36 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25362.74 (+1.45% on $25000.00 in) · cash $7402.57 · realised +402.57
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% PLTR [time stop] -> $2989.55 (-0.35%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 14:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

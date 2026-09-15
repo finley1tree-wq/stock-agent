@@ -9622,8 +9622,8 @@
     "code_version": "4d008c5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.48,
-    "ret_final": 0.48,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -10002,7 +10002,9 @@
     "code_version": "1bf515f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.35,
+    "ret_final": -0.35,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -10053,7 +10055,7 @@
     "code_version": "2795c20",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.05
   },
   {
     "symbol": "TTD",
@@ -10107,7 +10109,7 @@
     "code_version": "a360bec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.27
   },
   {
     "symbol": "AAPL",
@@ -10158,7 +10160,7 @@
     "code_version": "70eb329",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.29
   },
   {
     "symbol": "CRWD",
@@ -10185,7 +10187,7 @@
     "code_version": "ba97177",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.02
   },
   {
     "symbol": "HLI",
@@ -10212,5 +10214,30 @@
     "hour_et": 14,
     "code_version": "a241c19",
     "hold_minutes": 30
+  },
+  {
+    "symbol": "PLTR",
+    "side": "sell",
+    "qty": 17.127685,
+    "status": "filled",
+    "price": 174.55,
+    "proceeds": 2989.55,
+    "realized_pnl": -10.45,
+    "realized_pct": -0.35,
+    "date": "2026-09-15",
+    "time_et": "14:56",
+    "ts": 1789498578,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.33% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "b3be1cb",
+    "hold_minutes": 29
   }
 ]

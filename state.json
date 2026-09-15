@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 18002.44,
+  "spent": 15012.89,
   "deployed": 368809.19,
   "by_ticker": {
     "IBM": 3007.52,
@@ -16,7 +16,7 @@
     "CHRW": 3006.63,
     "MSFT": 7.79,
     "AAPL": 5.19,
-    "PLTR": 3000.0,
+    "PLTR": 10.45,
     "META": 3000.0,
     "TTD": 3000.0,
     "CRWD": 3000.0
@@ -4719,13 +4719,33 @@
       ],
       "evidence": "bought 30 min ago, -0.25% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 17.127685,
+      "status": "filled",
+      "price": 174.55,
+      "proceeds": 2989.55,
+      "realized_pnl": -10.45,
+      "realized_pct": -0.35,
+      "date": "2026-09-15",
+      "time_et": "14:56",
+      "ts": 1789498578,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.33% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 17972.52,
+  "spent_today": 14982.97,
   "deployed_today": 162873.19,
   "orders_today": 55,
-  "sells_today": 48,
+  "sells_today": 49,
   "sold_today": [
     "BE",
     "META",
@@ -4758,29 +4778,26 @@
     "GRNT": 1789413927,
     "MAIA": 1789406136,
     "CRWD": 1789495355,
-    "PLTR": 1789494072
+    "PLTR": 1789498579
   },
-  "last_publish_ts": 1789498549,
-  "last_check_ts": 1789498549,
+  "last_publish_ts": 1789498578,
+  "last_check_ts": 1789498626,
   "last_bar_ts": 1789498500,
-  "last_decision_ts": 1789498466,
+  "last_decision_ts": 1789498626,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "49d3a7eb": 157.65,
     "151996db": 157.9505,
+    "49d3a7eb": 157.65,
     "8d062a13": 672.1277,
     "9c211d7f": 248.7284,
     "cb3e1182": 251.2916,
     "ef9b408d": 15.0105,
     "7256cf84": 241.914,
-    "ab282ea4": 175.9973,
-    "a5ee028e": 173.0668,
     "74a9c8f4": 663.3824,
     "17aa485d": 15.2618,
     "e6b9f127": 236.0188,
     "8e4adb5e": 14.7343,
-    "cc243dfd": 169.9052,
     "38479e41": 243.0432,
     "c4748fb2": 233.0231,
     "ffd6b679": 649.5411,
