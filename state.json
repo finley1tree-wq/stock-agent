@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 9004.91,
-  "deployed": 314809.19,
+  "spent": 12004.91,
+  "deployed": 317809.19,
   "by_ticker": {
     "IBM": 6.92,
     "GOOGL": 24.38,
@@ -11,7 +11,7 @@
     "TPL": 56.2,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 31.39,
+    "HLI": 3031.39,
     "NEM": 3010.25,
     "CHRW": 4.8,
     "TTD": 6.39,
@@ -25,7 +25,7 @@
     "BE": 30000.0,
     "IBM": 27000.0,
     "FLD": 6000.0,
-    "HLI": 27873.19,
+    "HLI": 30873.19,
     "NEM": 30000.0,
     "META": 27478.21,
     "AMD": 10000.0,
@@ -4097,12 +4097,30 @@
       ],
       "evidence": "bought 30 min ago, +0.16% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "HLI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.970844,
+      "price": 136.54,
+      "date": "2026-09-15",
+      "time_et": "13:05",
+      "ts": 1789491926,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.1% over the month; 14% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 8974.99,
-  "deployed_today": 108873.19,
-  "orders_today": 37,
+  "spent_today": 11974.99,
+  "deployed_today": 111873.19,
+  "orders_today": 38,
   "sells_today": 33,
   "sold_today": [
     "BE",
@@ -4136,21 +4154,24 @@
     "MAIA": 1789406136,
     "CRWD": 1789489561
   },
-  "last_publish_ts": 1789491767,
-  "last_check_ts": 1789491849,
-  "last_bar_ts": 1789491600,
-  "last_decision_ts": 1789491768,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789491926,
+  "last_check_ts": 1789491926,
+  "last_bar_ts": 1789491900,
+  "last_decision_ts": 1789491926,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "0b5aadda": 501.9969,
     "a76af7a4": 330.5571,
-    "f8a2d073": 123.1589,
+    "0b5aadda": 501.9969,
+    "779ee655": 136.9728,
     "6d59c132": 497.9401,
+    "f8a2d073": 123.1589,
     "a7ac1f96": 327.5239,
     "c6d9dd1f": 121.554,
+    "708a3445": 135.4572,
     "727ae916": 119.019,
     "d86dad38": 485.8148,
-    "0e716590": 319.7993
+    "0e716590": 319.7993,
+    "d41fa4e8": 132.4438
   }
 }
