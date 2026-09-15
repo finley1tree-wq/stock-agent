@@ -2238,8 +2238,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.37,
-    "ret_now": -0.37,
+    "ret_final": -0.34,
+    "ret_now": -0.34,
     "ret_src": "realised"
   },
   {
@@ -2982,8 +2982,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.62,
-    "ret_final": -0.62,
+    "ret_now": -0.52,
+    "ret_final": -0.52,
     "ret_src": "realised"
   },
   {
@@ -4844,8 +4844,8 @@
     "code_version": "3659094",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.62,
-    "ret_final": -0.62,
+    "ret_now": -0.52,
+    "ret_final": -0.52,
     "ret_src": "realised"
   },
   {
@@ -5671,8 +5671,8 @@
     "code_version": "e09ddde",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.58,
-    "ret_final": -0.58,
+    "ret_now": -0.45,
+    "ret_final": -0.45,
     "ret_src": "realised"
   },
   {
@@ -6964,8 +6964,8 @@
     "code_version": "841c1c1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.26,
-    "ret_final": -1.26,
+    "ret_now": -0.73,
+    "ret_final": -0.73,
     "ret_src": "realised"
   },
   {
@@ -10302,7 +10302,9 @@
     "code_version": "4362627",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.21,
+    "ret_final": -0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -10355,7 +10357,7 @@
     "code_version": "ade3577",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": 0.02
   },
   {
     "symbol": "TTD",
@@ -10407,7 +10409,7 @@
     "code_version": "304e76f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.12
   },
   {
     "symbol": "IBM",
@@ -10458,7 +10460,7 @@
     "code_version": "1666d59",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.02
   },
   {
     "symbol": "CRWD",
@@ -10485,5 +10487,31 @@
     "hour_et": 15,
     "code_version": "1fe8a52",
     "hold_minutes": 30
+  },
+  {
+    "symbol": "TPL",
+    "side": "sell",
+    "qty": 8.044208,
+    "status": "filled",
+    "price": 372.17,
+    "proceeds": 2993.82,
+    "realized_pnl": -6.18,
+    "realized_pct": -0.21,
+    "date": "2026-09-15",
+    "time_et": "15:32",
+    "ts": 1789500735,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "insider",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.17% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "4981f9b",
+    "hold_minutes": 29
   }
 ]
