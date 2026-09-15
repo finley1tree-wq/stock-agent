@@ -3691,8 +3691,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07,
-    "ret_final": 0.07,
+    "ret_now": 0.08,
+    "ret_final": 0.08,
     "ret_src": "realised"
   },
   {
@@ -4549,8 +4549,8 @@
     "code_version": "7372a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04,
-    "ret_final": 0.04,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -5010,8 +5010,8 @@
     "code_version": "1d29a78",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -5728,8 +5728,8 @@
     "code_version": "6ce9800",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.0,
-    "ret_final": -0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -6390,8 +6390,8 @@
     "code_version": "ae57171",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06,
-    "ret_final": -0.06,
+    "ret_now": -0.03,
+    "ret_final": -0.03,
     "ret_src": "realised"
   },
   {
@@ -6906,8 +6906,8 @@
     "code_version": "1eabec0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02,
-    "ret_final": -0.02,
+    "ret_now": -0.0,
+    "ret_final": -0.0,
     "ret_src": "realised"
   },
   {
@@ -7567,8 +7567,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.04,
+    "ret_final": 0.04,
     "ret_src": "realised"
   },
   {
@@ -8233,8 +8233,8 @@
     "code_version": "5a07a2f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -9241,8 +9241,8 @@
     "code_version": "e8ca608",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03,
-    "ret_final": -0.03,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -9786,8 +9786,8 @@
     "code_version": "ecb9738",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.18,
-    "ret_final": 0.18,
+    "ret_now": 0.15,
+    "ret_final": 0.15,
     "ret_src": "realised"
   },
   {
@@ -10411,7 +10411,9 @@
     "code_version": "304e76f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.12,
+    "ret_final": 0.12,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -10462,7 +10464,7 @@
     "code_version": "1666d59",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.23
   },
   {
     "symbol": "CRWD",
@@ -10541,5 +10543,30 @@
     "hour_et": 15,
     "code_version": "ad45d16",
     "hold_minutes": 29
+  },
+  {
+    "symbol": "NEM",
+    "side": "sell",
+    "qty": 24.327091,
+    "status": "filled",
+    "price": 123.47,
+    "proceeds": 3003.68,
+    "realized_pnl": 3.68,
+    "realized_pct": 0.12,
+    "date": "2026-09-15",
+    "time_et": "15:41",
+    "ts": 1789501279,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.16% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "1663535",
+    "hold_minutes": 30
   }
 ]
