@@ -312,21 +312,28 @@
   // "12:00 PM" when the real next decision was due at 12:13. The gate is measured from the last
   // decision, and the interval is whatever the brain asked for - so read both from the data and
   // show a countdown, which cannot be misread against a clock in another timezone.
-  function nextCheckText() {
-    const sg = state.data.signals || {}, st = state.data.st || {};
+  //
+  // The interval must mirror run.py's --if-due gate exactly. When state.autopiloted is true that
+  // gate waits guardrails.autopilot_decision_minutes (2) - no model, no bill - and ignores the
+  // brain's 6-30 minute window. This always applied the brain's window, so on 2026-09-14 it read
+  // "in 26 min" while the autopilot was deciding every two minutes.
+  function nextCheckText() { return nextCheckFor(state.data.signals || {}, state.data.st || {}, Date.now()); }
+  function nextCheckFor(sg, st, nowMs) {
     const hol = new Set(sg.holidays || []), early = new Set(sg.early_close_1pm || []);
-    const et = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
+    const et = new Date(new Date(nowMs).toLocaleString("en-US", { timeZone: "America/New_York" }));
     const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
     const trading = d => d.getDay() !== 0 && d.getDay() !== 6 && !hol.has(iso(d));
     const closeMin = d => early.has(iso(d)) ? 780 : 960;
     const mins = et.getHours() * 60 + et.getMinutes();
     const g = sg.guardrails || {};
-    const every = Math.max(+g.min_decision_minutes || 6,
-                   Math.min(+g.max_decision_minutes || 30, +st.next_check_minutes || +sg.run_every_minutes || 30));
+    const every = st.autopiloted
+      ? (+g.autopilot_decision_minutes || 2)
+      : Math.max(+g.min_decision_minutes || 6,
+                 Math.min(+g.max_decision_minutes || 30, +st.next_check_minutes || +sg.run_every_minutes || 30));
     if (trading(et) && mins >= 570 && mins < closeMin(et)) {
       const last = +st.last_decision_ts || 0;
       if (!last) return "any moment";
-      const dueIn = Math.round((last + every * 60 - Date.now() / 1000) / 60);
+      const dueIn = Math.round((last + every * 60 - nowMs / 1000) / 60);
       if (dueIn <= 0) return "any moment";
       const at = new Date((last + every * 60) * 1000);
       const hhmm = at.toLocaleTimeString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" });
