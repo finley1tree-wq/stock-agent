@@ -4019,3 +4019,9 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25369.75 (+1.48% on $25000.00 in) · cash $4399.99 · realised +399.99
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $499.02] -> $3000.81 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-15 10:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% BE [time stop] -> $2959.27 (-1.36%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $2995.79 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 10:50 ET — tick — 2 sell(s), 0 buy(s) from standing orders

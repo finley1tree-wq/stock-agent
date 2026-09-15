@@ -8388,5 +8388,81 @@
     "hour_et": 10,
     "code_version": "c7e18ba",
     "hold_minutes": 21
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 6.013353,
+    "status": "filled",
+    "price": 499.02,
+    "proceeds": 3000.81,
+    "realized_pnl": 0.81,
+    "realized_pct": 0.03,
+    "date": "2026-09-15",
+    "time_et": "10:50",
+    "ts": 1789483800,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $498.89",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "9a8ea36"
+  },
+  {
+    "symbol": "BE",
+    "side": "sell",
+    "qty": 11.232026,
+    "status": "filled",
+    "price": 263.47,
+    "proceeds": 2959.27,
+    "realized_pnl": -40.73,
+    "realized_pct": -1.36,
+    "date": "2026-09-15",
+    "time_et": "10:50",
+    "ts": 1789483859,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -1.34% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "9a8ea36"
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 12.062254,
+    "status": "filled",
+    "price": 248.36,
+    "proceeds": 2995.79,
+    "realized_pnl": -4.21,
+    "realized_pct": -0.14,
+    "date": "2026-09-15",
+    "time_et": "10:50",
+    "ts": 1789483859,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.12% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "9a8ea36"
   }
 ]

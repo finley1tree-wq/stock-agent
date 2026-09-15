@@ -6848,7 +6848,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 500.0474,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "close 100% at +0.2% over the average cost",
@@ -6858,7 +6858,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "149783f2",
@@ -6884,7 +6886,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 483.9233,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6894,7 +6896,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "97860b3a",
@@ -6939,7 +6943,7 @@
    "ticker": "BE",
    "kind": "buy_limit",
    "price": 259.0773,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6949,14 +6953,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "e9caa357",
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 249.4238,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "close 100% at +0.3% over the average cost",
@@ -6966,14 +6972,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7074973a",
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 246.9243,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "close it all at -0.7% under the average cost",
@@ -6983,14 +6991,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "16560ae8",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 241.2487,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7000,7 +7010,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1f1202ce",
@@ -7455,7 +7467,7 @@
    "ticker": "BE",
    "kind": "take_profit",
    "price": 268.997,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:40",
    "created_ts": 1789483255,
    "why": "close 100% at +0.7% over the average cost",
@@ -7465,14 +7477,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "590309a8",
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 262.3224,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:40",
    "created_ts": 1789483255,
    "why": "close it all at -1.8% under the average cost",
@@ -7482,7 +7496,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:50",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "78aba929",
@@ -7508,7 +7524,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 499.274,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-15 10:49",
    "created_ts": 1789483772,
    "why": "close it all at -0.6% under the average cost",
@@ -7518,8 +7534,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:50"
   }
  ],
- "updated": "2026-09-15 10:49"
+ "updated": "2026-09-15 10:50"
 }

@@ -1,23 +1,3 @@
-## 2026-09-15 09:40 ET — tick — 2 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-15 09:40 ET (Tuesday) — week 2026-W38 — budget left $18082.62 (today $33873.19 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5KViapGEzYQTe9TBwP3'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25342.63 (+1.37% on $25000.00 in) · cash $18487.62 · realised +360.81
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [take_profit @ $156.54] -> $3008.50 (+0.28%) — close 100% at +0.3% over the average cost
-## 2026-09-15 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-15 09:42 ET (Tuesday) — week 2026-W38 — budget left $21091.12 (today $33873.19 put to work, 12 buys, 10 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +378,23 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $14.64] -> $3015.09 (+0.50%) — close 100% at +0.5% over the average cost
 ## 2026-09-15 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 10:49 ET (Tuesday) — week 2026-W38 — budget left $3994.98 (today $63873.19 put to work, 22 buys, 14 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5QnTps4WYQNxV6Mrr92'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25369.75 (+1.48% on $25000.00 in) · cash $4399.99 · realised +399.99
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $499.02] -> $3000.81 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-15 10:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% BE [time stop] -> $2959.27 (-1.36%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $2995.79 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 10:50 ET — tick — 2 sell(s), 0 buy(s) from standing orders
