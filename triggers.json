@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "2b973494",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 501.116,
-   "status": "cancelled",
-   "created": "2026-09-14 10:59",
-   "created_ts": 1789397993,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $500.57",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 11:00",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2441a8fb",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 14.62,
-   "status": "cancelled",
-   "created": "2026-09-14 11:04",
-   "created_ts": 1789398298,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $14.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 11:06",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "710515e6",
    "ticker": "TPL",
    "kind": "take_profit",
@@ -7207,7 +7169,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 328.4942,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 09:32",
    "created_ts": 1789479150,
    "why": "close it all at -0.7% under the average cost",
@@ -7217,7 +7179,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ea954efe",
@@ -7508,7 +7472,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 344.6894,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 09:37",
    "created_ts": 1789479443,
    "why": "close it all at -0.6% under the average cost",
@@ -7518,7 +7482,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "36b956c9",
@@ -7536,7 +7502,41 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "58f9b22a",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 331.026,
+   "status": "working",
+   "created": "2026-09-15 09:38",
+   "created_ts": 1789479532,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $330.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4ae8f0c4",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 347.124,
+   "status": "working",
+   "created": "2026-09-15 09:38",
+   "created_ts": 1789479532,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $346.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 09:37"
+ "updated": "2026-09-15 09:38"
 }
