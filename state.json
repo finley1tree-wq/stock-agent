@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 11987.62,
+  "spent": 8982.56,
   "deployed": 344809.19,
   "by_ticker": {
     "IBM": 7.52,
@@ -14,8 +14,7 @@
     "HLI": 34.01,
     "NEM": 3017.54,
     "CHRW": 6.63,
-    "MSFT": 3005.15,
-    "CRWD": 3000.0
+    "MSFT": 3005.15
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -4454,13 +4453,34 @@
       ],
       "evidence": "bought 30 min ago, +0.00% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 12.387561,
+      "status": "filled",
+      "price": 242.59,
+      "proceeds": 3005.06,
+      "realized_pnl": 5.06,
+      "realized_pct": 0.17,
+      "date": "2026-09-15",
+      "time_et": "14:02",
+      "ts": 1789495200,
+      "why": "close it all at -1.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $242.18",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 11957.7,
+  "spent_today": 8952.64,
   "deployed_today": 138873.19,
   "orders_today": 47,
-  "sells_today": 42,
+  "sells_today": 43,
   "sold_today": [
     "BE",
     "META",
@@ -4492,27 +4512,24 @@
     "TPL": 1789414420,
     "GRNT": 1789413927,
     "MAIA": 1789406136,
-    "CRWD": 1789489561,
+    "CRWD": 1789495355,
     "PLTR": 1789494072
   },
-  "last_publish_ts": 1789495235,
-  "last_check_ts": 1789495315,
+  "last_publish_ts": 1789495354,
+  "last_check_ts": 1789495401,
   "last_bar_ts": 1789495200,
   "last_decision_ts": 1789495315,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "47e759f3": 242.708,
-    "607c07b4": 243.8656,
     "912033e4": 499.9973,
     "d64fcf57": 123.2982,
     "dae2f0f0": 495.9417,
-    "ec629819": 263.3276,
     "dcebb953": 121.6939,
+    "ec629819": 263.3276,
     "c3c82ff9": 256.7184,
-    "99076e61": 483.8748,
-    "dd8b5093": 119.1548,
     "6f3fcd85": 253.5968,
-    "15a16d71": 234.9146
+    "dd8b5093": 119.1548,
+    "99076e61": 483.8748
   }
 }
