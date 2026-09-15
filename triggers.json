@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "5a4317c8",
-   "ticker": "MAIA",
-   "kind": "buy_limit",
-   "price": 1.3289,
-   "status": "cancelled",
-   "created": "2026-09-14 13:05",
-   "created_ts": 1789405551,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $1.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 13:15",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f4aaf5de",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -7408,7 +7389,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.9033,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 13:24",
    "created_ts": 1789493071,
    "why": "close it all at -1.2% under the average cost",
@@ -7418,7 +7399,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 13:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4bfcd8a2",
@@ -7538,7 +7521,24 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "17f42d09",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 15.104,
+   "status": "working",
+   "created": "2026-09-15 13:33",
+   "created_ts": 1789493587,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $15.08",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 13:30"
+ "updated": "2026-09-15 13:33"
 }
