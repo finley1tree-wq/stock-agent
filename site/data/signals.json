@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T13:45-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,010 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-15T13:48-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,013 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a795cb7a",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 668.1663,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 667.85,
-   "pct_away": 0.05,
-   "good_until": "2026-09-20",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a92d3492",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 666.606,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 667.85,
-   "pct_away": -0.19,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "e45c4ae2",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -180,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.02,
-   "pct_away": 0.24,
+   "last": 251.1,
+   "pct_away": 0.2,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,8 +163,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 242.13,
-   "pct_away": 0.72,
+   "last": 242.41,
+   "pct_away": 0.6,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ec629819",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 263.3276,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 261.39,
+   "pct_away": 0.74,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -214,10 +197,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.02,
-   "pct_away": -0.79,
+   "last": 251.1,
+   "pct_away": -0.82,
    "good_until": "2026-09-20",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c3c82ff9",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 256.7184,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 261.39,
+   "pct_away": -1.79,
+   "good_until": "2026-09-20",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 242.13,
-   "pct_away": -1.72,
+   "last": 242.41,
+   "pct_away": -1.83,
    "good_until": "2026-09-20",
    "why": "close it all at -1.7% under the average cost",
    "signals": [
@@ -241,14 +241,14 @@
    ]
   },
   {
-   "id": "15a16d71",
-   "ticker": "CRWD",
+   "id": "6f3fcd85",
+   "ticker": "BE",
    "kind": "buy_limit",
-   "price": 234.9146,
+   "price": 253.5968,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 242.13,
+   "last": 261.39,
    "pct_away": -2.98,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -265,8 +265,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 251.02,
-   "pct_away": -3.05,
+   "last": 251.1,
+   "pct_away": -3.08,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -275,15 +275,15 @@
    ]
   },
   {
-   "id": "93e90fcc",
-   "ticker": "META",
+   "id": "15a16d71",
+   "ticker": "CRWD",
    "kind": "buy_limit",
-   "price": 645.6999,
+   "price": 234.9146,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 667.85,
-   "pct_away": -3.32,
+   "last": 242.41,
+   "pct_away": -3.09,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +292,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,010 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,013 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -346,7 +346,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 294,
+  "decisions_recorded": 295,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -1396,6 +1396,11 @@
   ],
   "AMD": [
    {
+    "title": "Nvidia Will Still Beat AMD Through 2028. Here's the Data Behind My Conviction.",
+    "source": "Motley Fool",
+    "when": "2026-09-15T17:40"
+   },
+   {
     "title": "Prediction: AMD Could Be\u00a0Closing the Gap\u00a0in the AI\u00a0Chip Race",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T17:00"
@@ -1404,11 +1409,6 @@
     "title": "Nvidia, AI Chip Stocks Look To Stem The Bleeding After Sell-Off",
     "source": "Investor's Business Daily",
     "when": "2026-09-15T15:59"
-   },
-   {
-    "title": "The Fund\u2019s Largest Relative Detractor: Unowned Advanced Micro Devices (AMD)",
-    "source": "Insider Monkey",
-    "when": "2026-09-15T15:26"
    }
   ],
   "AMZN": [
@@ -1593,9 +1593,9 @@
     "when": "2026-09-15T17:30"
    },
    {
-    "title": "Why Meta\u2019s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T17:15"
+    "title": "Did Greg Abel Already Make His First Big Mistake as Berkshire Hathaway CEO?",
+    "source": "Motley Fool",
+    "when": "2026-09-15T17:26"
    }
   ],
   "HD": [
@@ -1809,14 +1809,14 @@
     "when": "2026-09-14T14:01"
    },
    {
-    "title": "AI Selloff Is \u2018Panic,\u2019 Meta May Be The Best Stock To Buy, Joseph Carlson Says",
-    "source": "Benzinga Prediction Markets",
-    "when": "2026-09-15T17:30"
+    "title": "3 Absurdly Cheap Growth Stocks to Buy Before the End of 2026",
+    "source": "Motley Fool",
+    "when": "2026-09-15T17:44"
    },
    {
-    "title": "My Forever Portfolio: 3 Dividend-Paying Value Stocks That Are Too Cheap to Ignore.",
+    "title": "Nvidia Will Still Beat AMD Through 2028. Here's the Data Behind My Conviction.",
     "source": "Motley Fool",
-    "when": "2026-09-15T17:25"
+    "when": "2026-09-15T17:40"
    }
   ],
   "O": [
@@ -2008,5 +2008,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T13:45-04:00"
+ "signalsAsOf": "2026-09-15T13:48-04:00"
 }

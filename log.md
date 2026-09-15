@@ -4944,3 +4944,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 CRWD @ $234.91 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25426.18 (+1.70% on $25000.00 in) · cash $16415.29 · realised +415.29
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16010.28 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $666.27] -> $3002.70 (+0.09%) — close it all at -0.9% under the average cost
+## 2026-09-15 13:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 13:48 ET (Tuesday) — week 2026-W38 — budget left $19012.98 (today $129873.19 put to work, 44 buys, 41 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5ePmZT7Lsi7JmLg9ipz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,013 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +13.7% over the month; 15% of today's range
+~ WORKING take_profit 100% BE @ $263.33 until 2026-09-20 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $256.72 until 2026-09-20 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $253.60 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25422.89 (+1.69% on $25000.00 in) · cash $16418.00 · realised +418.00
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16012.98 this week

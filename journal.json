@@ -753,8 +753,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06,
-    "ret_final": 0.06,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -2293,8 +2293,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -3719,8 +3719,8 @@
     "code_version": "151f073",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16,
-    "ret_final": 0.16,
+    "ret_now": 0.15,
+    "ret_final": 0.15,
     "ret_src": "realised"
   },
   {
@@ -5119,8 +5119,8 @@
     "code_version": "5afc929",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14,
-    "ret_final": 0.14,
+    "ret_now": 0.13,
+    "ret_final": 0.13,
     "ret_src": "realised"
   },
   {
@@ -5756,8 +5756,8 @@
     "code_version": "73b2cb8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14,
-    "ret_final": 0.14,
+    "ret_now": 0.13,
+    "ret_final": 0.13,
     "ret_src": "realised"
   },
   {
@@ -6638,8 +6638,8 @@
     "code_version": "ffc4b21",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11,
-    "ret_final": 0.11,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -7595,8 +7595,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12,
-    "ret_final": 0.12,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -8147,8 +8147,8 @@
     "code_version": "b58f0ef",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -8609,8 +8609,8 @@
     "code_version": "7b1a4da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.02,
-    "ret_now": 0.02,
+    "ret_final": 0.04,
+    "ret_now": 0.04,
     "ret_src": "realised"
   },
   {
@@ -9029,8 +9029,8 @@
     "code_version": "3e6505d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08,
-    "ret_final": -0.08,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -9488,7 +9488,9 @@
     "code_version": "b45a080",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.35
+    "ret_now": 0.09,
+    "ret_final": 0.09,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -9539,7 +9541,7 @@
     "code_version": "73dc1fa",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.11
   },
   {
     "symbol": "HLI",
@@ -9697,6 +9699,59 @@
     "momentum_1m_at_entry": 11.61,
     "hour_et": 13,
     "code_version": "fb129df",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.12
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 4.506717,
+    "status": "filled",
+    "price": 666.27,
+    "proceeds": 3002.7,
+    "realized_pnl": 2.7,
+    "realized_pct": 0.09,
+    "date": "2026-09-15",
+    "time_et": "13:47",
+    "ts": 1789494300,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $665.67",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "d17e1df",
+    "hold_minutes": 20
+  },
+  {
+    "symbol": "BE",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.474808,
+    "price": 261.44,
+    "date": "2026-09-15",
+    "time_et": "13:48",
+    "ts": 1789494481,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers); +13.7% over the month; 15% of today's range",
+    "entry_price": 261.39,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 13.68,
+    "hour_et": 13,
+    "code_version": "d17e1df",
     "ret_1w": null,
     "ret_1m": null
   }

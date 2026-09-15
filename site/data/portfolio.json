@@ -1,18 +1,9 @@
 {
-  "cash": 16415.29319547097,
+  "cash": 16417.995386649167,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
   "positions": {
-    "META": {
-      "qty": 4.5067165309012305,
-      "avg_cost": 665.673108,
-      "opened": "2026-09-15",
-      "last_buy": "2026-09-15",
-      "tranches": 1,
-      "last_buy_ts": 1789493076,
-      "opened_ts": 1789493076
-    },
     "IBM": {
       "qty": 11.957900251070464,
       "avg_cost": 250.880166,
@@ -30,6 +21,15 @@
       "tranches": 1,
       "last_buy_ts": 1789494325,
       "opened_ts": 1789494325
+    },
+    "BE": {
+      "qty": 11.474808217514079,
+      "avg_cost": 261.442278,
+      "opened": "2026-09-15",
+      "last_buy": "2026-09-15",
+      "tranches": 1,
+      "last_buy_ts": 1789494489,
+      "opened_ts": 1789494489
     }
   },
   "fills": [
@@ -4032,7 +4032,29 @@
       "price": 242.18,
       "type": "buy",
       "date": "2026-09-15 13:45"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.506717,
+      "status": "filled",
+      "price": 666.27,
+      "proceeds": 3002.7,
+      "realized_pnl": 2.7,
+      "realized_pct": 0.09,
+      "type": "sell",
+      "date": "2026-09-15 13:47"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.474808,
+      "price": 261.44,
+      "type": "buy",
+      "date": "2026-09-15 13:48"
     }
   ],
-  "realized_pnl": 415.2931954709839
+  "realized_pnl": 417.99538664918015
 }

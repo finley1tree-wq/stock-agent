@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 8989.72,
-  "deployed": 335809.19,
+  "spent": 8987.02,
+  "deployed": 338809.19,
   "by_ticker": {
     "IBM": 3006.92,
     "GOOGL": 24.38,
     "AMD": 8.41,
-    "BE": 22.65,
+    "BE": 3022.65,
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
@@ -14,14 +14,13 @@
     "HLI": 34.01,
     "NEM": 17.54,
     "CHRW": 6.63,
-    "META": 3002.5,
     "MSFT": 5.15,
     "CRWD": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 24000.0,
-    "BE": 30000.0,
+    "BE": 33000.0,
     "IBM": 30000.0,
     "FLD": 6000.0,
     "HLI": 30873.19,
@@ -4362,13 +4361,52 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +11.6% over the month; 84% of today's range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.506717,
+      "status": "filled",
+      "price": 666.27,
+      "proceeds": 3002.7,
+      "realized_pnl": 2.7,
+      "realized_pct": 0.09,
+      "date": "2026-09-15",
+      "time_et": "13:47",
+      "ts": 1789494300,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $665.67",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.474808,
+      "price": 261.44,
+      "date": "2026-09-15",
+      "time_et": "13:48",
+      "ts": 1789494481,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +13.7% over the month; 15% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 8959.8,
-  "deployed_today": 129873.19,
-  "orders_today": 44,
-  "sells_today": 40,
+  "spent_today": 8957.1,
+  "deployed_today": 132873.19,
+  "orders_today": 45,
+  "sells_today": 41,
   "sold_today": [
     "BE",
     "META",
@@ -4386,7 +4424,7 @@
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789493723,
-    "META": 1789490262,
+    "META": 1789494434,
     "CHRW": 1789493870,
     "TTD": 1789493780,
     "AMD": 1789415590,
@@ -4403,21 +4441,21 @@
     "CRWD": 1789489561,
     "PLTR": 1789494072
   },
-  "last_publish_ts": 1789494319,
-  "last_check_ts": 1789494403,
+  "last_publish_ts": 1789494481,
+  "last_check_ts": 1789494481,
   "last_bar_ts": 1789494300,
-  "last_decision_ts": 1789494319,
+  "last_decision_ts": 1789494481,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "a795cb7a": 668.1663,
-    "a92d3492": 666.606,
     "e45c4ae2": 251.6126,
     "607c07b4": 243.8656,
+    "ec629819": 263.3276,
     "4189352c": 249.0486,
+    "c3c82ff9": 256.7184,
     "41fb8fe0": 237.9685,
-    "15a16d71": 234.9146,
+    "6f3fcd85": 253.5968,
     "aceb0df1": 243.3536,
-    "93e90fcc": 645.6999
+    "15a16d71": 234.9146
   }
 }
