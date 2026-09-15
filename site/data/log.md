@@ -1,170 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3t5BedxpZyqHFDA2Rxh'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,917 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.1% over the month; 70% of today's range
-~ WORKING take_profit 100% IBM @ $250.15 until 2026-09-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% IBM @ $247.60 until 2026-09-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25325.29 (+1.30% on $25000.00 in) · cash $7322.28 · realised +322.28
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $6917.28 this week
-  (cancelled 6 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $348.10] -> $3006.57 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-09-14 15:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-14 15:28 ET (Monday) — week 2026-W38 — budget left $9923.85 (today $205936.00 put to work, 71 buys, 66 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3tHLcUeYF1nsyEEu7tm'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 TPL @ $357.48 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 META @ $645.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25328.41 (+1.31% on $25000.00 in) · cash $10328.86 · realised +328.86
-Decision: nothing at this check. 15 standing order(s) working.
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-14 15:31 ET (Monday) — week 2026-W38 — budget left $9923.85 (today $205936.00 put to work, 71 buys, 66 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3tVPc9CRV5f9dsBReS7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 TPL @ $357.48 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 META @ $645.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25310.62 (+1.24% on $25000.00 in) · cash $10328.86 · realised +328.86
-Decision: nothing at this check. 15 standing order(s) working.
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% TPL [time stop] -> $2962.23 (-1.26%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-14 15:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-14 15:34 ET (Monday) — week 2026-W38 — budget left $12886.08 (today $205936.00 put to work, 71 buys, 67 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3tjrscaC7Ezw3bqaLL8'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 META @ $645.62 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25290.17 (+1.16% on $25000.00 in) · cash $13291.09 · realised +291.09
-Decision: nothing at this check. 12 standing order(s) working.
-  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 standing order(s) on META: position closed)
-- SELL 100% META [stop_loss @ $666.10] -> $3001.13 (+0.04%) — close it all at -0.9% under the average cost
-## 2026-09-14 15:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-14 15:37 ET (Monday) — week 2026-W38 — budget left $15887.21 (today $205936.00 put to work, 71 buys, 68 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3txMozW2ZmeLfT6TPZs'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25283.13 (+1.13% on $25000.00 in) · cash $16292.22 · realised +292.22
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-14 15:40 ET (Monday) — week 2026-W38 — budget left $15887.21 (today $205936.00 put to work, 71 buys, 68 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3uAVeccBB9YWaR69yQu'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25291.53 (+1.17% on $25000.00 in) · cash $16292.22 · realised +292.22
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-14 15:43 ET (Monday) — week 2026-W38 — budget left $15887.21 (today $205936.00 put to work, 71 buys, 68 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3uNpt6Nhx4mVVNZ7ek9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25298.95 (+1.20% on $25000.00 in) · cash $16292.22 · realised +292.22
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-14 15:46 ET (Monday) — week 2026-W38 — budget left $15887.21 (today $205936.00 put to work, 71 buys, 68 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3uaX579USuPyFJFdBVL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $480.72 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 IBM @ $241.94 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25291.42 (+1.17% on $25000.00 in) · cash $16292.22 · realised +292.22
-Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
@@ -398,3 +231,170 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [stop_loss @ $137.10] -> $3878.96 (+0.15%) — close it all at -0.8% under the average cost
 ## 2026-09-15 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 09:45 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5KuiXG964VfPJZTLgnk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 09:48 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5L7oLKLn5zf1atvTSMd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 09:51 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5LMEzn9p6cp3mWyg738'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 09:54 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5LZjJCssYqQSZ3cM6rw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 09:56 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5LmdvqRv5kppHUhXFtG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 09:59 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5LyY6RwkHyNypU1r5aL'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 10:02 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5MBdQzpU46kuKQZBr3x'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 10:05 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5MPYfL2twysNy5yoiuF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 10:07 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5MbELLyArMgQJWq47Vn'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 10:10 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5MnyafdoSyHyyu2Fphn'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 10:13 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5N1FyjqnMtuW5hkgVjx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 10:15 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5NChAcM8eiQ3A7tAUmF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
+Decision: nothing at this check.
