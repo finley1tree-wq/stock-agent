@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 9044.1,
+  "spent": 6046.8,
   "deployed": 380809.19,
   "by_ticker": {
     "IBM": 21.89,
     "GOOGL": 24.38,
     "AMD": 8.41,
-    "BE": 3031.54,
+    "BE": 34.24,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -4928,13 +4928,33 @@
       ],
       "evidence": "bought 30 min ago, -0.17% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.57176,
+      "status": "filled",
+      "price": 259.02,
+      "proceeds": 2997.3,
+      "realized_pnl": -2.7,
+      "realized_pct": -0.09,
+      "date": "2026-09-15",
+      "time_et": "15:35",
+      "ts": 1789500900,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.07% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 9014.18,
+  "spent_today": 6016.88,
   "deployed_today": 174873.19,
   "orders_today": 59,
-  "sells_today": 55,
+  "sells_today": 56,
   "sold_today": [
     "BE",
     "META",
@@ -4959,7 +4979,7 @@
     "AMD": 1789415590,
     "IBM": 1789499739,
     "AAPL": 1789497961,
-    "BE": 1789496259,
+    "BE": 1789500901,
     "NEM": 1789496630,
     "MSFT": 1789496965,
     "FLD": 1789399070,
@@ -4970,21 +4990,18 @@
     "CRWD": 1789499944,
     "PLTR": 1789498579
   },
-  "last_publish_ts": 1789500862,
-  "last_check_ts": 1789500862,
-  "last_bar_ts": 1789500600,
-  "last_decision_ts": 1789500782,
+  "last_publish_ts": 1789500948,
+  "last_check_ts": 1789500948,
+  "last_bar_ts": 1789500900,
+  "last_decision_ts": 1789500948,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0799fcdb": 498.3283,
     "2626f773": 123.7788,
+    "0799fcdb": 498.3283,
     "dfa77987": 494.2367,
-    "d652a80f": 261.1373,
     "6edada10": 122.1744,
-    "7049c8ed": 254.5291,
-    "260a002c": 482.2452,
-    "879432a0": 251.4725,
-    "86449041": 119.6204
+    "56840efa": 482.2452,
+    "a801c9be": 119.6204
   }
 }
