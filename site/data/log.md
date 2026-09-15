@@ -1,5 +1,3 @@
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-15 13:00 ET (Tuesday) — week 2026-W38 — budget left $15990.92 (today $105873.19 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $131.94 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25412.34 (+1.65% on $25000.00 in) · cash $13413.56 · realised +413.56
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13008.55 this week
+- SELL 100% NEM [time stop] -> $3005.41 (+0.18%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 14:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
