@@ -3913,8 +3913,8 @@
     "code_version": "3178535",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04,
-    "ret_final": 0.04,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -4381,8 +4381,8 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -5869,8 +5869,8 @@
     "code_version": "d9a91e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -7623,8 +7623,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1,
-    "ret_final": 0.1,
+    "ret_now": 0.08,
+    "ret_final": 0.08,
     "ret_src": "realised"
   },
   {
@@ -8261,8 +8261,8 @@
     "code_version": "b10d1d5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -8778,7 +8778,9 @@
     "code_version": "5498f93",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -8859,7 +8861,7 @@
     "code_version": "c76bebf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.09
   },
   {
     "symbol": "HLI",
@@ -8886,7 +8888,7 @@
     "code_version": "c76bebf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": -0.27
   },
   {
     "symbol": "NEM",
@@ -8939,7 +8941,7 @@
     "code_version": "dced11f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.33
   },
   {
     "symbol": "MSFT",
@@ -8993,7 +8995,7 @@
     "code_version": "981c5d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": -0.33
   },
   {
     "symbol": "META",
@@ -9019,6 +9021,31 @@
     "code_version": "3e6505d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.1
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": 9.090193,
+    "status": "filled",
+    "price": 330.22,
+    "proceeds": 3001.8,
+    "realized_pnl": 1.8,
+    "realized_pct": 0.06,
+    "date": "2026-09-15",
+    "time_et": "12:12",
+    "ts": 1789488774,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.08% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "2dbdcaa",
+    "hold_minutes": 30
   }
 ]

@@ -7095,7 +7095,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 330.898,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:42",
    "created_ts": 1789486969,
    "why": "close 100% at +0.3% over the average cost",
@@ -7105,14 +7105,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 12:12",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "00478f6b",
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 327.865,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:42",
    "created_ts": 1789486969,
    "why": "close it all at -0.7% under the average cost",
@@ -7122,14 +7124,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 12:12",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "82f55669",
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 320.1291,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:42",
    "created_ts": 1789486969,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7139,7 +7143,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 12:12",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "15caa49a",
@@ -7530,5 +7536,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 12:11"
+ "updated": "2026-09-15 12:13"
 }
