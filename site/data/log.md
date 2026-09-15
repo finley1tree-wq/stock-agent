@@ -1,5 +1,3 @@
-
-## 2026-09-15 13:28 ET (Tuesday) — week 2026-W38 — budget left $9982.65 (today $120873.19 put to work, 41 buys, 35 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 CRWD @ $233.02 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25361.54 (+1.45% on $25000.00 in) · cash $4411.14 · realised +411.14
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $4006.13 this week
+- SELL 100% HLI [time stop] -> $2991.43 (-0.29%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders

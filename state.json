@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 20993.87,
+  "spent": 18002.44,
   "deployed": 368809.19,
   "by_ticker": {
     "IBM": 3007.52,
@@ -11,7 +11,7 @@
     "TPL": 56.2,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3034.01,
+    "HLI": 42.58,
     "NEM": 12.13,
     "CHRW": 3006.63,
     "MSFT": 7.79,
@@ -4699,13 +4699,33 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +10.7% over the month; 68% of today's range"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.054869,
+      "status": "filled",
+      "price": 135.64,
+      "proceeds": 2991.43,
+      "realized_pnl": -8.57,
+      "realized_pct": -0.29,
+      "date": "2026-09-15",
+      "time_et": "14:51",
+      "ts": 1789498290,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.25% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 20963.95,
+  "spent_today": 17972.52,
   "deployed_today": 162873.19,
   "orders_today": 55,
-  "sells_today": 47,
+  "sells_today": 48,
   "sold_today": [
     "BE",
     "META",
@@ -4722,7 +4742,7 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789493723,
+    "HLI": 1789498291,
     "META": 1789494434,
     "CHRW": 1789493870,
     "TTD": 1789493780,
@@ -4740,33 +4760,30 @@
     "CRWD": 1789495355,
     "PLTR": 1789494072
   },
-  "last_publish_ts": 1789498129,
-  "last_check_ts": 1789498210,
+  "last_publish_ts": 1789498290,
+  "last_check_ts": 1789498292,
   "last_bar_ts": 1789498200,
-  "last_decision_ts": 1789498129,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789498292,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "151996db": 157.9505,
+    "9c211d7f": 248.7284,
     "8d062a13": 672.1277,
     "cb3e1182": 251.2916,
-    "9c211d7f": 248.7284,
-    "d3cb4f56": 134.921,
-    "edb40c38": 136.4593,
-    "1bf34b92": 156.3755,
-    "ef9b408d": 15.0105,
     "7256cf84": 241.914,
-    "a5ee028e": 173.0668,
-    "74a9c8f4": 663.3824,
+    "ef9b408d": 15.0105,
+    "1bf34b92": 156.3755,
     "ab282ea4": 175.9973,
+    "74a9c8f4": 663.3824,
+    "a5ee028e": 173.0668,
     "17aa485d": 15.2618,
     "e6b9f127": 236.0188,
     "8e4adb5e": 14.7343,
     "cc243dfd": 169.9052,
-    "cf78f560": 131.9394,
     "38479e41": 243.0432,
-    "96ea64fa": 152.775,
     "ffd6b679": 649.5411,
+    "96ea64fa": 152.775,
     "c4748fb2": 233.0231
   }
 }
