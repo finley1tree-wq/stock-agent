@@ -1,5 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5YqKET6TLrsmcc6teDH'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25396.34 (+1.59% on $25000.00 in) · cash $19398.42 · realised +398.42
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $483.87 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25429.67 (+1.72% on $25000.00 in) · cash $10418.00 · realised +418.00
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10012.98 this week
+- SELL 100% IBM [time stop] -> $2999.40 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

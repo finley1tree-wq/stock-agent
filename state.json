@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 14987.02,
+  "spent": 11987.62,
   "deployed": 344809.19,
   "by_ticker": {
-    "IBM": 3006.92,
+    "IBM": 7.52,
     "GOOGL": 24.38,
     "AMD": 8.41,
     "BE": 3022.65,
@@ -4434,13 +4434,33 @@
         "autopilot"
       ],
       "evidence": "+0.7% over the month; 7% of today's range"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 11.9579,
+      "status": "filled",
+      "price": 250.83,
+      "proceeds": 2999.4,
+      "realized_pnl": -0.6,
+      "realized_pct": -0.02,
+      "date": "2026-09-15",
+      "time_et": "14:00",
+      "ts": 1789495235,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.00% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 14957.1,
+  "spent_today": 11957.7,
   "deployed_today": 138873.19,
   "orders_today": 47,
-  "sells_today": 41,
+  "sells_today": 42,
   "sold_today": [
     "BE",
     "META",
@@ -4462,7 +4482,7 @@
     "CHRW": 1789493870,
     "TTD": 1789493780,
     "AMD": 1789415590,
-    "IBM": 1789487083,
+    "IBM": 1789495236,
     "AAPL": 1789493406,
     "BE": 1789491767,
     "NEM": 1789492044,
@@ -4475,27 +4495,24 @@
     "CRWD": 1789489561,
     "PLTR": 1789494072
   },
-  "last_publish_ts": 1789495156,
-  "last_check_ts": 1789495156,
-  "last_bar_ts": 1789494900,
+  "last_publish_ts": 1789495235,
+  "last_check_ts": 1789495235,
+  "last_bar_ts": 1789495200,
   "last_decision_ts": 1789495156,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "47e759f3": 242.708,
-    "912033e4": 499.9973,
-    "e45c4ae2": 251.6126,
     "607c07b4": 243.8656,
+    "912033e4": 499.9973,
     "d64fcf57": 123.2982,
     "dae2f0f0": 495.9417,
     "ec629819": 263.3276,
-    "4189352c": 249.0486,
     "dcebb953": 121.6939,
     "c3c82ff9": 256.7184,
-    "dd8b5093": 119.1548,
     "99076e61": 483.8748,
+    "dd8b5093": 119.1548,
     "6f3fcd85": 253.5968,
-    "aceb0df1": 243.3536,
     "15a16d71": 234.9146
   }
 }

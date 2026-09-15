@@ -5011,3 +5011,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $483.87 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25429.67 (+1.72% on $25000.00 in) · cash $10418.00 · realised +418.00
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10012.98 this week
+- SELL 100% IBM [time stop] -> $2999.40 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
