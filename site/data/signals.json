@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T13:24-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,983 idle, so opened 2: TTD, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-09-15T13:31-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,985 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a76af7a4",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 330.5571,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 329.8,
-   "pct_away": 0.23,
-   "good_until": "2026-09-20",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "60b8194b",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 156.68,
-   "pct_away": 0.35,
+   "last": 156.8,
+   "pct_away": 0.28,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -173,32 +156,15 @@
    ]
   },
   {
-   "id": "a795cb7a",
-   "ticker": "META",
+   "id": "e45c4ae2",
+   "ticker": "IBM",
    "kind": "take_profit",
-   "price": 668.1663,
+   "price": 251.6126,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 665.54,
-   "pct_away": 0.39,
-   "good_until": "2026-09-20",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "563947f4",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 136.9728,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 136.3,
-   "pct_away": 0.49,
+   "last": 250.83,
+   "pct_away": 0.31,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -214,10 +180,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 15.07,
-   "pct_away": 0.54,
+   "last": 15.09,
+   "pct_away": 0.4,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "563947f4",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 136.9728,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 136.37,
+   "pct_away": 0.44,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a795cb7a",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 668.1663,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 665.03,
+   "pct_away": 0.47,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,10 +231,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 136.3,
-   "pct_away": -0.62,
+   "last": 136.37,
+   "pct_away": -0.67,
    "good_until": "2026-09-20",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4189352c",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 249.0486,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 250.83,
+   "pct_away": -0.71,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,25 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 156.68,
-   "pct_away": -0.64,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a7ac1f96",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 327.5239,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 329.8,
-   "pct_away": -0.69,
+   "last": 156.8,
+   "pct_away": -0.72,
    "good_until": "2026-09-20",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -282,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 665.54,
-   "pct_away": -0.92,
+   "last": 665.03,
+   "pct_away": -0.84,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -299,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 15.07,
-   "pct_away": -1.11,
+   "last": 15.09,
+   "pct_away": -1.24,
    "good_until": "2026-09-20",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -316,42 +316,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 136.3,
-   "pct_away": -2.83,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8eb43800",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 152.0863,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 156.68,
-   "pct_away": -2.93,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4bfcd8a2",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 14.6276,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 15.07,
-   "pct_away": -2.94,
+   "last": 136.37,
+   "pct_away": -2.88,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -367,7 +333,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 665.54,
+   "last": 665.03,
+   "pct_away": -2.91,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "aceb0df1",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 243.3536,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 250.83,
    "pct_away": -2.98,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -377,15 +360,32 @@
    ]
   },
   {
-   "id": "0e716590",
-   "ticker": "AAPL",
+   "id": "8eb43800",
+   "ticker": "CHRW",
    "kind": "buy_limit",
-   "price": 319.7993,
+   "price": 152.0863,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 329.8,
-   "pct_away": -3.03,
+   "last": 156.8,
+   "pct_away": -3.01,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4bfcd8a2",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 14.6276,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 15.09,
+   "pct_away": -3.06,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -394,7 +394,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,983 idle, so opened 2: TTD, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,985 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -448,7 +448,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 287,
+  "decisions_recorded": 289,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -566,7 +566,7 @@
     "n": 1
    }
   },
-  "idle_checks": 197,
+  "idle_checks": 198,
   "blocked_checks": 0,
   "idle_share": 0.69,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1525,9 +1525,9 @@
     "when": "2026-09-15T17:09"
    },
    {
-    "title": "I\u2019ve Started Accumulating Qualcomm and It Isn\u2019t Because of Amazon and Meta",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T16:55"
+    "title": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
+    "source": "Trefis",
+    "when": "2026-09-15T17:02"
    }
   ],
   "AVGO": [
@@ -1831,9 +1831,9 @@
     "when": "2026-09-15T10:00"
    },
    {
-    "title": "I\u2019ve Started Accumulating Qualcomm and It Isn\u2019t Because of Amazon and Meta",
+    "title": "Why Meta\u2019s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
     "source": "24/7 Wall St.",
-    "when": "2026-09-15T16:55"
+    "when": "2026-09-15T17:15"
    }
   ],
   "MSFT": [
@@ -1843,14 +1843,14 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
+    "source": "Trefis",
+    "when": "2026-09-15T17:02"
+   },
+   {
     "title": "Is Meta Stock Still The Self-Funding Ad Business You Bought?",
     "source": "Trefis",
     "when": "2026-09-15T15:53"
-   },
-   {
-    "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
-    "source": "Reuters",
-    "when": "2026-09-15T15:49"
    }
   ],
   "NEM": [
@@ -1991,6 +1991,11 @@
   ],
   "RTX": [
    {
+    "title": "RTX (RTX) Deepens Fighter Engine Push With New Licensing Deal And F135 Milestone",
+    "source": "Simply Wall St.",
+    "when": "2026-09-15T17:12"
+   },
+   {
     "title": "Can Growing ISR Demand Strengthen HII's Mission Technologies Business?",
     "source": "Zacks",
     "when": "2026-09-15T14:25"
@@ -1999,11 +2004,6 @@
     "title": "Lucid vs. RTX: Which Stock Is a Better Buy in 2026?",
     "source": "Motley Fool",
     "when": "2026-09-15T12:11"
-   },
-   {
-    "title": "RTX (RTX) Dips More Than Broader Market: What You Should Know",
-    "source": "Zacks",
-    "when": "2026-09-14T22:00"
    }
   ],
   "SKWD": [
@@ -2110,5 +2110,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T13:24-04:00"
+ "signalsAsOf": "2026-09-15T13:31-04:00"
 }

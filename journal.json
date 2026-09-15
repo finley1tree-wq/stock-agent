@@ -807,8 +807,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.04,
-    "ret_now": 0.04,
+    "ret_final": 0.05,
+    "ret_now": 0.05,
     "ret_src": "realised"
   },
   {
@@ -1567,8 +1567,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": 0.04,
+    "ret_final": 0.04,
     "ret_src": "realised"
   },
   {
@@ -4381,8 +4381,8 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -5869,8 +5869,8 @@
     "code_version": "d9a91e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -6444,8 +6444,8 @@
     "code_version": "8b690fb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05,
-    "ret_final": 0.05,
+    "ret_now": 0.06,
+    "ret_final": 0.06,
     "ret_src": "realised"
   },
   {
@@ -7623,8 +7623,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -8261,8 +8261,8 @@
     "code_version": "b10d1d5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1,
-    "ret_final": 0.1,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -8778,8 +8778,8 @@
     "code_version": "5498f93",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06,
-    "ret_final": 0.06,
+    "ret_now": 0.08,
+    "ret_final": 0.08,
     "ret_src": "realised"
   },
   {
@@ -9297,7 +9297,9 @@
     "code_version": "da3a611",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.09,
+    "ret_final": 0.09,
+    "ret_src": "realised"
   },
   {
     "symbol": "BE",
@@ -9350,7 +9352,7 @@
     "code_version": "8a11693",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.09
   },
   {
     "symbol": "NEM",
@@ -9402,7 +9404,7 @@
     "code_version": "0630881",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.04
   },
   {
     "symbol": "MSFT",
@@ -9480,6 +9482,56 @@
     "code_version": "b45a080",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": -0.08
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": 9.09957,
+    "status": "filled",
+    "price": 329.99,
+    "proceeds": 3002.8,
+    "realized_pnl": 2.8,
+    "realized_pct": 0.09,
+    "date": "2026-09-15",
+    "time_et": "13:30",
+    "ts": 1789493404,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.11% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "73dc1fa",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "IBM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.9579,
+    "price": 250.88,
+    "date": "2026-09-15",
+    "time_et": "13:30",
+    "ts": 1789493453,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+7.0% over the month; 83% of today's range",
+    "entry_price": 250.83,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.05,
+    "hour_et": 13,
+    "code_version": "73dc1fa",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
