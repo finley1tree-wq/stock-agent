@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 3043.12,
+  "spent": 52.28,
   "deployed": 380809.19,
   "by_ticker": {
     "IBM": 21.89,
@@ -13,7 +13,7 @@
     "MAIA": 46.66,
     "HLI": 42.58,
     "NEM": 8.45,
-    "MSFT": 3007.79,
+    "MSFT": 16.95,
     "AAPL": 5.19,
     "PLTR": 10.45,
     "TTD": 24.12
@@ -4968,13 +4968,33 @@
       ],
       "evidence": "bought 30 min ago, +0.16% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.034282,
+      "status": "filled",
+      "price": 495.64,
+      "proceeds": 2990.84,
+      "realized_pnl": -9.16,
+      "realized_pct": -0.31,
+      "date": "2026-09-15",
+      "time_et": "15:46",
+      "ts": 1789501561,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.29% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 3013.2,
+  "spent_today": 22.36,
   "deployed_today": 174873.19,
   "orders_today": 59,
-  "sells_today": 57,
+  "sells_today": 58,
   "sold_today": [
     "BE",
     "META",
@@ -5001,7 +5021,7 @@
     "AAPL": 1789497961,
     "BE": 1789500901,
     "NEM": 1789501279,
-    "MSFT": 1789496965,
+    "MSFT": 1789501561,
     "FLD": 1789399070,
     "GOOGL": 1789479613,
     "TPL": 1789500735,
@@ -5010,15 +5030,11 @@
     "CRWD": 1789499944,
     "PLTR": 1789498579
   },
-  "last_publish_ts": 1789501528,
-  "last_check_ts": 1789501528,
+  "last_publish_ts": 1789501561,
+  "last_check_ts": 1789501607,
   "last_bar_ts": 1789501500,
-  "last_decision_ts": 1789501444,
+  "last_decision_ts": 1789501607,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "dfa77987": 494.2367,
-    "0799fcdb": 498.3283,
-    "140e9802": 482.2452
-  }
+  "book_px": {}
 }

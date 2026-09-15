@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5iPqkgeqh4uF3QFAS6M'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,011 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -398,3 +395,6 @@ portfolio: equity $25355.20 (+1.42% on $25000.00 in) · cash $22361.90 · realis
 Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% MSFT [time stop] -> $2990.84 (-0.31%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 15:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
