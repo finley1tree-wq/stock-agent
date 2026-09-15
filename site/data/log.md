@@ -1,5 +1,3 @@
-~ WORKING stop_loss 100% AAPL @ $328.55 until 2026-09-20 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AAPL @ $320.80 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25419.07 (+1.68% on $25000.00 in) · cash $13422.45 · realised +422.45
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13017.44 this week
 - SELL 100% BE [time stop] -> $2991.11 (-0.30%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $482.25 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25351.22 (+1.40% on $25000.00 in) · cash $13367.10 · realised +367.10
 Decision: nothing at this check. 12 standing order(s) working.
+  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
