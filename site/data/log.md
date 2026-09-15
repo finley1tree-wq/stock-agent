@@ -1,20 +1,3 @@
-- SELL 100% AAPL [stop_loss @ $334.84] -> $3001.48 (+0.05%) — close it all at -0.7% under the average cost
-## 2026-09-14 15:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% NEM [time stop] -> $2991.77 (-0.27%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-14 15:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-14 15:23 ET (Monday) — week 2026-W38 — budget left $12915.44 (today $196936.00 put to work, 68 buys, 64 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3srK8iw9cukurahPKV1'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,915 idle, so opened 2: BE, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +9.5% over the month; 76% of today's range
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.6% over the month; 83% of today's range
-~ WORKING take_profit 100% BE @ $260.70 until 2026-09-19 — close 100% at +0.7% over the average cost
 ~ WORKING stop_loss 100% BE @ $254.04 until 2026-09-19 — close it all at -1.8% under the average cost
 ~ WORKING buy_limit $500.00 BE @ $251.04 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMD @ $497.81 until 2026-09-19 — close 100% at +0.4% over the average cost
@@ -398,3 +381,20 @@ Done: 0 sell(s), 3 buy(s); 13 order(s) working; budget left $12952.39 this week
 - SELL 100% GOOGL [stop_loss @ $346.95] -> $3001.57 (+0.05%) — close it all at -0.6% under the average cost
 - BUY $873.19 HLI [buy_limit @ $136.29] — strong month, weak day: resting 0.58% under $137.09 to catch the dip
 ## 2026-09-15 09:40 ET — tick — 2 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-15 09:40 ET (Tuesday) — week 2026-W38 — budget left $18082.62 (today $33873.19 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5KViapGEzYQTe9TBwP3'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25342.63 (+1.37% on $25000.00 in) · cash $18487.62 · realised +360.81
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $156.54] -> $3008.50 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-15 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
