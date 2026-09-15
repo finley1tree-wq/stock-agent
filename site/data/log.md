@@ -1,21 +1,3 @@
-~ WORKING stop_loss 100% META @ $663.39 until 2026-09-20 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 META @ $649.54 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25397.73 (+1.59% on $25000.00 in) · cash $13416.33 · realised +416.33
-Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13011.32 this week
-
-## 2026-09-15 14:37 ET (Tuesday) — week 2026-W38 — budget left $13011.32 (today $150873.19 put to work, 51 buys, 46 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5iBgrJyyjbxms1JkU4X'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,011 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.3% over the month; 84% of today's range
-~ WORKING take_profit 100% TTD @ $15.26 until 2026-09-20 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% TTD @ $15.01 until 2026-09-20 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 TTD @ $14.73 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25384.97 (+1.54% on $25000.00 in) · cash $10416.33 · realised +416.33
-Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10011.32 this week
 
 ## 2026-09-15 14:40 ET (Tuesday) — week 2026-W38 — budget left $10011.32 (today $153873.19 put to work, 52 buys, 46 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +380,21 @@ portfolio: equity $25354.36 (+1.42% on $25000.00 in) · cash $22361.90 · realis
 Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-15 15:44 ET (Tuesday) — week 2026-W38 — budget left $21956.88 (today $174873.19 put to work, 59 buys, 57 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5oEs2fDg2cdsyprDSLA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 MSFT @ $482.25 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25355.20 (+1.42% on $25000.00 in) · cash $22361.90 · realised +361.90
+Decision: nothing at this check. 3 standing order(s) working.
