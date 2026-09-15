@@ -7321,7 +7321,7 @@
    "ticker": "CHRW",
    "kind": "take_profit",
    "price": 156.8758,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:32",
    "created_ts": 1789482720,
    "why": "close 100% at +0.3% over the average cost",
@@ -7331,14 +7331,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:02",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "47ac64d4",
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 155.3147,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:32",
    "created_ts": 1789482720,
    "why": "close it all at -0.7% under the average cost",
@@ -7348,14 +7350,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:02",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "102b04ee",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 151.7371,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:32",
    "created_ts": 1789482720,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7365,14 +7369,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 11:02",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "de4ba40f",
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 137.7425,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-15 10:32",
    "created_ts": 1789482720,
    "why": "close 100% at +0.3% over the average cost",
@@ -7382,7 +7388,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:01"
   },
   {
    "id": "70943ed0",
@@ -7408,7 +7415,7 @@
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 133.1907,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:32",
    "created_ts": 1789482720,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7418,7 +7425,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 11:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a3c359a4",
@@ -7538,7 +7547,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 137.466,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:55",
    "created_ts": 1789484104,
    "why": "close it all at -0.8% under the average cost",
@@ -7548,8 +7557,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 11:01",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-15 11:00"
+ "updated": "2026-09-15 11:01"
 }

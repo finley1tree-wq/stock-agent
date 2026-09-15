@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 6053.7,
+  "spent": 50.59,
   "deployed": 269809.19,
   "by_ticker": {
     "IBM": 15.53,
@@ -11,9 +11,9 @@
     "TPL": 56.2,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3031.13,
+    "HLI": 21.79,
     "NEM": 21.56,
-    "CHRW": 3000.0
+    "CHRW": 6.23
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -3543,13 +3543,54 @@
       ],
       "evidence": "bought 30 min ago, +0.15% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 21.847592,
+      "status": "filled",
+      "price": 137.74,
+      "proceeds": 3009.34,
+      "realized_pnl": 9.34,
+      "realized_pct": 0.31,
+      "date": "2026-09-15",
+      "time_et": "11:01",
+      "ts": 1789484400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $137.31",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 19.177595,
+      "status": "filled",
+      "price": 156.11,
+      "proceeds": 2993.77,
+      "realized_pnl": -6.23,
+      "realized_pct": -0.21,
+      "date": "2026-09-15",
+      "time_et": "11:02",
+      "ts": 1789484529,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.17% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 6023.78,
+  "spent_today": 20.67,
   "deployed_today": 63873.19,
   "orders_today": 22,
-  "sells_today": 19,
+  "sells_today": 21,
   "sold_today": [
     "BE",
     "META",
@@ -3565,9 +3606,9 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789479940,
+    "HLI": 1789484484,
     "META": 1789482639,
-    "CHRW": 1789479772,
+    "CHRW": 1789484529,
     "TTD": 1789483773,
     "AMD": 1789415590,
     "IBM": 1789483859,
@@ -3582,18 +3623,11 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789484187,
-  "last_check_ts": 1789484441,
+  "last_publish_ts": 1789484529,
+  "last_check_ts": 1789484529,
   "last_bar_ts": 1789484400,
   "last_decision_ts": 1789484441,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "312eb53c": 137.466,
-    "de4ba40f": 137.7425,
-    "d6982514": 156.8758,
-    "47ac64d4": 155.3147,
-    "102b04ee": 151.7371,
-    "9f775af2": 133.1907
-  }
+  "book_px": {}
 }

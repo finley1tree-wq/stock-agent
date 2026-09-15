@@ -8527,5 +8527,56 @@
     "hour_et": 10,
     "code_version": "b9ef216",
     "hold_minutes": 29
+  },
+  {
+    "symbol": "HLI",
+    "side": "sell",
+    "qty": 21.847592,
+    "status": "filled",
+    "price": 137.74,
+    "proceeds": 3009.34,
+    "realized_pnl": 9.34,
+    "realized_pct": 0.31,
+    "date": "2026-09-15",
+    "time_et": "11:01",
+    "ts": 1789484400,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $137.31",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "c6b1f3d"
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 19.177595,
+    "status": "filled",
+    "price": 156.11,
+    "proceeds": 2993.77,
+    "realized_pnl": -6.23,
+    "realized_pct": -0.21,
+    "date": "2026-09-15",
+    "time_et": "11:02",
+    "ts": 1789484529,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.17% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "c6b1f3d"
   }
 ]
