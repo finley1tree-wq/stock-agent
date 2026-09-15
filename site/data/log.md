@@ -1,6 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-09-15 10:13 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $651.56 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25353.81 (+1.42% on $25000.00 in) · cash $22354.41 · realised +354.41
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $21949.41 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $672.43] -> $3003.19 (+0.11%) — close it all at -0.9% under the average cost
+## 2026-09-15 11:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
