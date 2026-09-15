@@ -101,9 +101,11 @@
     const id = el("div", "id", `<span class="sym">${esc(sym)}${pos ? `<span class="heldchip" title="The agent holds this">${money(val, 0)}</span>` : ""}</span><span class="nm">${esc(q.name || extra?.name || "")}</span>`);
     const cv = el("canvas"); const hold = el("div", "hold");
     if (pos) { const live = q.price != null ? pos.qty * q.price : pos.qty * pos.avg_cost; const pl = q.price != null ? (q.price / pos.avg_cost - 1) * 100 : null;
-      hold.innerHTML = `<b class="num">${money(live)}</b>${pos.qty.toFixed(4)} sh · avg ${money(pos.avg_cost)} · <span style="color:${pl > 0 ? "var(--up)" : pl < 0 ? "var(--down)" : "inherit"}">${pct(pl)}</span>`; }
+      // every position is sold automatically after max_hold_minutes; tick() counts this down each second
+      const limit = +(((state.data.signals || {}).guardrails || {}).max_hold_minutes || 0), opened = +(pos.opened_ts || pos.last_buy_ts || 0);
+      hold.innerHTML = `<b class="num">${money(live)}</b>${pos.qty.toFixed(4)} sh · avg ${money(pos.avg_cost)} · <span style="color:${pl > 0 ? "var(--up)" : pl < 0 ? "var(--down)" : "inherit"}">${pct(pl)}</span>${limit && opened ? `<span class="sellclock" data-open="${opened}"></span>` : ""}`; }
     else if (extra?.hint) hold.innerHTML = `<b>${esc(extra.hint)}</b>${esc(extra.sub || "")}`;
-    const px = el("div", "px num", q.price != null ? money(q.price) : (q.error ? "n/a" : "…"));
+    const px = el("div", "px num" + (state.flash && state.flash.has(sym) ? " pulse" : ""), q.price != null ? money(q.price) : (q.error ? "n/a" : "…"));
     const ch = el("div", "chg"); ch.appendChild(el("span", "pill num " + (q.change == null ? "flat" : cls(q.change)), q.change == null ? "—" : `${signed(q.change)}<br><span style="font-size:11.5px;opacity:.85">${pct(q.changePct)}</span>`));
     row.append(id, cv, hold, px, ch); row.addEventListener("click", () => openSheet(sym)); row.addEventListener("dblclick", () => { closeSheet(); if (window.SATrade) window.SATrade.open(sym); });
     requestAnimationFrame(() => spark(cv, q.points, q.prevClose, q.change == null ? null : q.change >= 0));
@@ -356,7 +358,7 @@
     const stale = live && !paused && ageMin != null && ageMin > 45 && sinceOpen > 45;
     const pill = paused ? ` <span class="pill paused" title="${esc(sg.pause_reason || "")}">PAUSED</span>` : "";
     const warn = stale ? `<br><span style="color:var(--amber)">no check for ${Math.round(ageMin)} min — the watchdog should restart it</span>` : "";
-    $("#status").innerHTML = `<span class="dot${live ? " live" : ""}"></span><b>${live ? "Market open" : "Market closed"}</b>${pill}<br>agent data ${as ? esc(as.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) : "—"} · quotes ${new Date().toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })}${warn}`;
+    $("#status").innerHTML = `<span class="dot${live ? " live" : ""}"></span><b>${live ? "Market open" : "Market closed"}</b>${pill}<br>agent data ${as ? esc(as.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })) : "—"} · prices ${new Date(state.lastPriceAt || Date.now()).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", second: "2-digit" })}<br><span id="next-update"></span>${warn}`;
     $("#asof").textContent = as ? `Agent data as of ${as.toLocaleString()}${paused ? " · agent paused" : ""}` : "";
     const mode = $("#mode"); if (mode && paused && !/PAUSED/.test(mode.textContent)) mode.textContent += " · PAUSED";
   }
@@ -427,11 +429,70 @@
   $("#tabs").addEventListener("click", e => { const b = e.target.closest("button[data-tab]"); if (!b) return; state.tab = b.dataset.tab; document.querySelectorAll("#tabs button").forEach(x => x.setAttribute("aria-selected", x === b)); document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "panel-" + state.tab); try { localStorage.setItem("sa.tab", state.tab); } catch (err) {} });
   try { const t = localStorage.getItem("sa.tab"); if (t) { const b = document.querySelector(`#tabs button[data-tab="${t}"]`); if (b) b.click(); } } catch (e) {}
 
-  // ---------- refresh loop ----------
+  // ---------- refresh loops ----------
+  // Three speeds, so the page feels live without hammering the price feed:
+  //   every 1s   countdowns tick (next check, next refresh, each holding's auto-sell clock) - no network
+  //   every 5s   prices for what the agent HOLDS or is waiting on - the numbers that move the money
+  //   every 15s  everything else (trades, positions, the whole watchlist); 60s while the market is closed
+  // /api/quotes is cached 5s and /api/data 10s at the edge, so polling faster than this would only
+  // fetch the same cached answer again.
+  const FAST_MS = 5000, FULL_OPEN_MS = 15000, FULL_CLOSED_MS = 60000;
+  const marketOpen = () => Object.values(state.quotes).some(q => q.marketState === "REGULAR");
   async function refresh(force) {
-    try { await loadData(); await loadQuotes(); renderAll(); } catch (e) { console.error(e); $("#status").innerHTML = `<span class="dot"></span><b>Couldn't load</b><br>${esc(e.message || e)}`; }
-    clearTimeout(state.timer); state.timer = setTimeout(() => refresh(), 60000);
+    clearTimeout(state.timer);
+    try { await loadData(); await loadQuotes(); state.lastPriceAt = Date.now(); renderAll(); } catch (e) { console.error(e); $("#status").innerHTML = `<span class="dot"></span><b>Couldn't load</b><br>${esc(e.message || e)}`; }
+    const every = marketOpen() ? FULL_OPEN_MS : FULL_CLOSED_MS;
+    state.nextFullAt = Date.now() + every;
+    state.timer = setTimeout(() => refresh(), every);
+    tick();
   }
+  async function fastPrices() {
+    if (document.hidden || state.fastBusy || !marketOpen() || !state.data.portfolio) return;
+    const syms = [...new Set([...Object.keys(state.data.portfolio.positions || {}),
+                              ...((state.data.signals || {}).working_orders || []).map(o => o.ticker)])].filter(Boolean).slice(0, 40);
+    if (!syms.length) return;
+    state.fastBusy = true;
+    try {
+      const r = await getJSON("/api/quotes?symbols=" + encodeURIComponent(syms.join(",")), { quotes: [] });
+      state.flash = new Set();
+      (r.quotes || []).forEach(q => {
+        if (!q || !q.symbol || q.price == null) return;           // a failed lookup keeps the last good price
+        if (state.quotes[q.symbol] && state.quotes[q.symbol].price !== q.price) state.flash.add(q.symbol);
+        state.quotes[q.symbol] = q;
+      });
+      state.lastPriceAt = Date.now();
+      renderHero(); renderWorking(); renderHoldings(); renderStatus();
+    } finally { state.fastBusy = false; tick(); }
+  }
+  const clock = (sec) => { sec = Math.max(0, Math.round(sec)); const m = Math.floor(sec / 60), s = sec % 60;
+    return m >= 60 ? `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, "0")}m` : `${m}:${String(s).padStart(2, "0")}`; };
+  function tick() {
+    if (!state.data.portfolio) return;
+    const nc = $("#next-check");
+    if (nc) {
+      // nextCheckFor speaks in whole minutes (and is tested that way); count the same deadline down in
+      // seconds here. The interval mirrors nextCheckFor's gate exactly.
+      const text = nextCheckText(), st = state.data.st || {}, g = (state.data.signals || {}).guardrails || {};
+      const every = st.autopiloted ? (+g.autopilot_decision_minutes || 2)
+        : Math.max(+g.min_decision_minutes || 6, Math.min(+g.max_decision_minutes || 30, +st.next_check_minutes || +(state.data.signals || {}).run_every_minutes || 30));
+      const left = (+st.last_decision_ts || 0) + every * 60 - Date.now() / 1000;
+      nc.textContent = /^in \d+ min · /.test(text) && left > 0 ? `in ${clock(left)} · ${text.split(" · ")[1]}` : text;
+    }
+    const up = $("#next-update");
+    if (up && state.nextFullAt) {
+      const secs = Math.max(0, Math.ceil((state.nextFullAt - Date.now()) / 1000));
+      up.textContent = marketOpen() ? `holdings update every 5s · full refresh in ${secs}s` : `refresh in ${secs}s`;
+    }
+    const limit = +(((state.data.signals || {}).guardrails || {}).max_hold_minutes || 0);
+    document.querySelectorAll(".sellclock[data-open]").forEach(e => {
+      const left = +e.dataset.open + limit * 60 - Date.now() / 1000;
+      e.textContent = left > 0 ? `auto-sells in ${clock(left)}` : "selling at the next check";
+      e.classList.toggle("soon", left > 0 && left <= 300);
+      e.classList.toggle("over", left <= 0);
+    });
+  }
+  setInterval(tick, 1000);
+  setInterval(fastPrices, FAST_MS);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
   refresh();
 })();

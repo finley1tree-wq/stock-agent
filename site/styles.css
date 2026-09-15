@@ -225,6 +225,17 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 .t-price > .num.pulse { animation: sa-pulse .35s ease-out; }
 @media (prefers-reduced-motion: reduce) { .t-price > .num.pulse { animation: none; } }
 
+/* each holding's auto-sell countdown (same look as the chart's hold clock), and a flash on a live price change */
+.sellclock { display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 600; font-variant-numeric: tabular-nums;
+  padding: 1px 7px; border-radius: 999px; background: rgba(10,132,255,.15); color: var(--accent);
+  border: 1px solid rgba(10,132,255,.35); white-space: nowrap; vertical-align: 1px; }
+.sellclock:empty { display: none; }
+.sellclock.soon { background: rgba(255,179,64,.15); color: var(--amber); border-color: rgba(255,179,64,.4); }
+.sellclock.over { background: rgba(255,69,58,.15); color: var(--down); border-color: rgba(255,69,58,.4); }
+.row .px.pulse { animation: sa-pulse .35s ease-out; }
+#next-update, #next-check { font-variant-numeric: tabular-nums; }
+@media (prefers-reduced-motion: reduce) { .row .px.pulse { animation: none; } }
+
 /* how fresh the price is, so "is this thing even updating" is answerable at a glance */
 .t-live { margin-left: 8px; font-size: 10px; font-weight: 700; letter-spacing: .06em;
   padding: 2px 7px; border-radius: 999px; background: rgba(48,209,88,.15);

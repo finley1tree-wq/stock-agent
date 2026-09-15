@@ -188,7 +188,8 @@ test("next check: market closed / pre-open / weekend / holiday", () => {
 
 test("next check: the observed bug - old code said 26 min under autopilot, new code says any moment", () => {
   let old;
-  try { old = execFileSync("git", ["-C", ROOT, "show", "origin/main:site/app.js"], { encoding: "utf8" }); } catch (e) { return; }
+  // pinned to the last commit BEFORE the fix (3520f48): origin/main is the fixed code once it is pushed
+  try { old = execFileSync("git", ["-C", ROOT, "show", "39d20db:site/app.js"], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }); } catch (e) { return; }
   // old nextCheckText read globals; wrap it so it can be driven with the same inputs
   const s = old.indexOf("function nextCheckText("); let i = old.indexOf("{", s), dep = 0;
   for (; i < old.length; i++) { if (old[i] === "{") dep++; else if (old[i] === "}" && --dep === 0) break; }
