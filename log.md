@@ -3821,3 +3821,32 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25375.09 (+1.50% on $25000.00 in) · cash $25375.09 · realised +375.09
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 10:21 ET (Tuesday) — week 2026-W38 — budget left $24970.08 (today $33873.19 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5NcV6VnrDjbesbUu4Ee'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,970 idle, so opened 4: MSFT, BE, IBM, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +0.7% over the month; 4% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +16.1% over the month; 72% of today's range
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +6.1% over the month; 76% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +13.2% over the month; 49% of today's range
+~ WORKING take_profit 100% MSFT @ $500.05 until 2026-09-20 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $496.00 until 2026-09-20 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $483.92 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $268.98 until 2026-09-20 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $262.37 until 2026-09-20 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $259.08 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $249.42 until 2026-09-20 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $246.92 until 2026-09-20 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $241.25 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $670.03 until 2026-09-20 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $661.29 until 2026-09-20 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $647.50 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25372.69 (+1.49% on $25000.00 in) · cash $13375.09 · realised +375.09
+Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $12970.08 this week

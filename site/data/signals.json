@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T10:15-04:00",
- "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
+ "asOf": "2026-09-15T10:21-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,970 idle, so opened 4: MSFT, BE, IBM, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps t",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -137,9 +137,214 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [],
- "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
- "next_check_minutes": null,
+ "working_orders": [
+  {
+   "id": "11b1c03e",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 500.0474,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 498.79,
+   "pct_away": 0.25,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e9caa357",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 249.4238,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 248.66,
+   "pct_away": 0.31,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1f1202ce",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 670.0266,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 667.4,
+   "pct_away": 0.39,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "149783f2",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 495.9964,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 498.79,
+   "pct_away": -0.56,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7074973a",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 246.9243,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 248.66,
+   "pct_away": -0.7,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "97860b3a",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 268.9783,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 267.04,
+   "pct_away": 0.73,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1492429c",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 661.2886,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 667.4,
+   "pct_away": -0.92,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "78f52e84",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 262.3678,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 267.04,
+   "pct_away": -1.75,
+   "good_until": "2026-09-20",
+   "why": "close it all at -1.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "eec1160e",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 483.9233,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 498.79,
+   "pct_away": -2.98,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8ca9a728",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 259.0773,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 267.04,
+   "pct_away": -2.98,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "16560ae8",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 241.2487,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 248.66,
+   "pct_away": -2.98,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "aafefe38",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 647.5041,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 667.4,
+   "pct_away": -2.98,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  }
+ ],
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,970 idle, so opened 4: MSFT, BE, IBM, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps t",
+ "next_check_minutes": 6,
  "allowed": [
   "AAPL",
   "AMD",
@@ -200,7 +405,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 219,
+  "decisions_recorded": 221,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -318,9 +523,9 @@
     "n": 1
    }
   },
-  "idle_checks": 148,
+  "idle_checks": 149,
   "blocked_checks": 0,
-  "idle_share": 0.68,
+  "idle_share": 0.67,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1897,9 +2102,9 @@
     "when": "2026-09-14T14:39"
    },
    {
-    "title": "Is It Worth Investing in Amazon (AMZN) Based on Wall Street's Bullish Views?",
-    "source": "Zacks",
-    "when": "2026-09-15T13:30"
+    "title": "Amazon.com (AMZN) Tests Its Valuation Following Anthropic And AWS AI Momentum",
+    "source": "Simply Wall St.",
+    "when": "2026-09-15T14:13"
    }
   ],
   "AVGO": [
@@ -1909,17 +2114,22 @@
     "when": "2026-09-14T14:39"
    },
    {
+    "title": "Credo vs. Broadcom: Which AI Connectivity Stock Is the Better Pick?",
+    "source": "Zacks",
+    "when": "2026-09-15T14:03"
+   },
+   {
     "title": "Why I\u2019m Doubling Down on Nvidia Stock Hand Over Fist",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T13:30"
-   },
-   {
-    "title": "Broadcom CEO Sends Urgent Message on AI Slowdown Fears",
-    "source": "GuruFocus.com",
-    "when": "2026-09-15T12:39"
    }
   ],
   "BE": [
+   {
+    "title": "Bloom Energy vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-15T14:11"
+   },
    {
     "title": "Hedge Fund That Nearly Collapsed Bets Big on AMD Again",
     "source": "GuruFocus.com",
@@ -1929,11 +2139,6 @@
     "title": "The AI Company You Haven't Heard of -- But Should Keep on Your Radar",
     "source": "Motley Fool",
     "when": "2026-09-15T11:35"
-   },
-   {
-    "title": "BE Stock Falls Most In Nearly A Month: Why This Analyst Sees Over 36% Upside",
-    "source": "Stocktwits",
-    "when": "2026-09-15T01:13"
    }
   ],
   "CCJ": [
@@ -1982,9 +2187,9 @@
     "when": "2026-09-14T10:22"
    },
    {
-    "title": "What Actually Lifted Okta Stock To A One-Year High?",
+    "title": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
     "source": "Trefis",
-    "when": "2026-09-15T13:31"
+    "when": "2026-09-15T14:00"
    }
   ],
   "DIA": [
@@ -2062,14 +2267,14 @@
     "when": "2026-09-15T10:00"
    },
    {
-    "title": "Alphabet Has 50% Upside and the Cheapest Multiple of the Big Six",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T14:00"
+    "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-14T14:39"
    },
    {
-    "title": "Malone Lam, 22, pleads guilty to stealing $245 million in crypto through a Google impersonation scheme",
-    "source": "Moneywise",
-    "when": "2026-09-15T14:00"
+    "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
+    "source": "Reuters",
+    "when": "2026-09-15T14:13"
    }
   ],
   "HD": [
@@ -2198,26 +2403,26 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "Bloom Energy vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-15T14:11"
+   },
+   {
     "title": "Alphabet Has 50% Upside and the Cheapest Multiple of the Big Six",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T14:00"
-   },
-   {
-    "title": "Reddit Drops 4% Despite User Growth; Meta Platforms Holds Steady, Snap Rises 1%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T13:27"
    }
   ],
   "MSFT": [
    {
-    "title": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
+    "title": "Tech stocks today: CEOs call for pacing AI, as Nvidia CEO says extinction fears are made up",
     "source": "Yahoo Finance",
-    "when": "2026-09-15T10:00"
+    "when": "2026-09-14T14:01"
    },
    {
-    "title": "Elon Musk: I've been 'sounding the alarm' on AI for a while",
-    "source": "Yahoo Finance",
-    "when": "2026-09-14T14:18"
+    "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-14T14:39"
    },
    {
     "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
@@ -2278,19 +2483,19 @@
   ],
   "NVDA": [
    {
-    "title": "10-year Treasury hits 2007 high as oil stays above $100: AlphaCheck",
+    "title": "Tech stocks today: CEOs call for pacing AI, as Nvidia CEO says extinction fears are made up",
     "source": "Yahoo Finance",
-    "when": "2026-09-15T14:00"
+    "when": "2026-09-14T14:01"
    },
    {
-    "title": "The Only ETF I\u2019d Buy Today and Not Look At Again Until 2036",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T14:00"
+    "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-14T14:39"
    },
    {
-    "title": "Nvidia Rises To Key Level As Fed Rate-Decision Looms; Is Nvidia A Buy Now?",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-15T13:50"
+    "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
+    "source": "Reuters",
+    "when": "2026-09-15T14:13"
    }
   ],
   "O": [
@@ -2312,6 +2517,11 @@
   ],
   "OKLO": [
    {
+    "title": "Bloom Energy vs. Oklo: Which Industrials Stock Is a Better Buy in 2026?",
+    "source": "Motley Fool",
+    "when": "2026-09-15T14:11"
+   },
+   {
     "title": "SMR Loss to Improve 70.5%: Is This Sub-$10 Stock a Bargain?",
     "source": "Zacks",
     "when": "2026-09-15T12:07"
@@ -2320,11 +2530,6 @@
     "title": "Oklo Has Massive Potential Due to Artificial Intelligence, but the Stock Is Sinking. Here's What I'd Do",
     "source": "Motley Fool",
     "when": "2026-09-14T21:32"
-   },
-   {
-    "title": "Oklo Stock Drops After Announcing $1 Billion Share Sale. Should Investors Panic?",
-    "source": "Motley Fool",
-    "when": "2026-09-14T20:49"
    }
   ],
   "PLD": [
@@ -2397,14 +2602,14 @@
   ],
   "SPY": [
    {
+    "title": "Rocket Lab Rises 3% on Iridium Deal Optimism; SpaceX and AST SpaceMobile Slip 1%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-15T14:06"
+   },
+   {
     "title": "ASML\u2019s Current Share Price of $1,575 Shouldn\u2019t Scare You.",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T14:00"
-   },
-   {
-    "title": "Coinbase Drops 6%, Strategy Slides 5%, MARA Holdings Slips 1% as Clarity Act Anxiety Builds",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T13:54"
    },
    {
     "title": "Dave & Buster\u2019s Retreats 12% on Sales Miss; Six Flags Slips 2%, Lucky Strike Entertainment Falls 1%",
@@ -2482,5 +2687,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T10:15-04:00"
+ "signalsAsOf": "2026-09-15T10:21-04:00"
 }
