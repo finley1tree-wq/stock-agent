@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "f376a13e",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 129.486,
-   "status": "cancelled",
-   "created": "2026-09-14 14:03",
-   "created_ts": 1789409038,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $123.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 14:04",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "7c2eb1fc",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 120.237,
-   "status": "cancelled",
-   "created": "2026-09-14 14:03",
-   "created_ts": 1789409038,
-   "why": "close it all at -2.5% under the average cost",
-   "evidence": "average cost $123.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 14:04",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "392a18bc",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 123.8034,
-   "status": "cancelled",
-   "created": "2026-09-14 14:04",
-   "created_ts": 1789409085,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $123.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 14:06",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "3a0bc455",
    "ticker": "NEM",
    "kind": "stop_loss",
@@ -7541,7 +7484,58 @@
    ],
    "good_until": "2026-09-20",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "912033e4",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 499.9973,
+   "status": "working",
+   "created": "2026-09-15 13:59",
+   "created_ts": 1789495156,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $498.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dae2f0f0",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 495.9417,
+   "status": "working",
+   "created": "2026-09-15 13:59",
+   "created_ts": 1789495156,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $498.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "99076e61",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 483.8748,
+   "status": "working",
+   "created": "2026-09-15 13:59",
+   "created_ts": 1789495156,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $498.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-15 13:56"
+ "updated": "2026-09-15 13:59"
 }
