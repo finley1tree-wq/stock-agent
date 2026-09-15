@@ -5177,3 +5177,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $649.54 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25397.73 (+1.59% on $25000.00 in) · cash $13416.33 · realised +416.33
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13011.32 this week
+
+## 2026-09-15 14:37 ET (Tuesday) — week 2026-W38 — budget left $13011.32 (today $150873.19 put to work, 51 buys, 46 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5iBgrJyyjbxms1JkU4X'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,011 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.3% over the month; 84% of today's range
+~ WORKING take_profit 100% TTD @ $15.26 until 2026-09-20 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $15.01 until 2026-09-20 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.73 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25384.97 (+1.54% on $25000.00 in) · cash $10416.33 · realised +416.33
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10011.32 this week
