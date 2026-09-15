@@ -3885,8 +3885,8 @@
     "code_version": "3178535",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.47,
-    "ret_now": 0.47,
+    "ret_final": 0.38,
+    "ret_now": 0.38,
     "ret_src": "realised"
   },
   {
@@ -4712,8 +4712,8 @@
     "code_version": "de77cb5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.47,
-    "ret_final": 0.47,
+    "ret_now": 0.37,
+    "ret_final": 0.37,
     "ret_src": "realised"
   },
   {
@@ -5453,8 +5453,8 @@
     "code_version": "c940590",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.48,
-    "ret_final": 0.48,
+    "ret_now": 0.37,
+    "ret_final": 0.37,
     "ret_src": "realised"
   },
   {
@@ -6252,8 +6252,8 @@
     "code_version": "1d3a000",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.49,
-    "ret_final": 0.49,
+    "ret_now": 0.35,
+    "ret_final": 0.35,
     "ret_src": "realised"
   },
   {
@@ -6692,8 +6692,8 @@
     "code_version": "f44d7d9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.48,
-    "ret_final": 0.48,
+    "ret_now": 0.31,
+    "ret_final": 0.31,
     "ret_src": "realised"
   },
   {
@@ -7423,8 +7423,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.5,
-    "ret_final": 0.5,
+    "ret_now": 0.26,
+    "ret_final": 0.26,
     "ret_src": "realised"
   },
   {
@@ -8176,8 +8176,8 @@
     "code_version": "5a07a2f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.5,
-    "ret_final": 0.5,
+    "ret_now": 0.15,
+    "ret_final": 0.15,
     "ret_src": "realised"
   },
   {
@@ -8945,7 +8945,9 @@
     "code_version": "dced11f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.21,
+    "ret_final": -0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -8999,7 +9001,7 @@
     "code_version": "981c5d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37
+    "ret_now": -0.23
   },
   {
     "symbol": "META",
@@ -9025,7 +9027,7 @@
     "code_version": "3e6505d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.12
   },
   {
     "symbol": "AAPL",
@@ -9102,6 +9104,32 @@
     "trigger": "time_stop",
     "hour_et": 12,
     "code_version": "b38cc8c",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "TTD",
+    "side": "sell",
+    "qty": 199.38833,
+    "status": "filled",
+    "price": 15.01,
+    "proceeds": 2993.61,
+    "realized_pnl": -6.39,
+    "realized_pct": -0.21,
+    "date": "2026-09-15",
+    "time_et": "12:21",
+    "ts": 1789489277,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.17% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "15dda30",
     "hold_minutes": 30
   }
 ]

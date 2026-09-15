@@ -7323,7 +7323,7 @@
    "ticker": "TTD",
    "kind": "take_profit",
    "price": 15.1204,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:51",
    "created_ts": 1789487476,
    "why": "close 100% at +0.5% over the average cost",
@@ -7333,14 +7333,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 12:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b3918462",
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.8738,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:51",
    "created_ts": 1789487476,
    "why": "close it all at -1.2% under the average cost",
@@ -7350,14 +7352,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 12:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "34972813",
    "ticker": "TTD",
    "kind": "buy_limit",
    "price": 14.5985,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 11:51",
    "created_ts": 1789487476,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7367,7 +7371,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 12:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "996f49ab",
@@ -7548,5 +7554,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 12:18"
+ "updated": "2026-09-15 12:21"
 }

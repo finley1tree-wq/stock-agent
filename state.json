@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9005.44,
+  "spent": 6011.83,
   "deployed": 302809.19,
   "by_ticker": {
     "IBM": 6.92,
@@ -14,7 +14,7 @@
     "HLI": 31.39,
     "NEM": 10.25,
     "CHRW": 4.8,
-    "TTD": 3000.0,
+    "TTD": 6.39,
     "CRWD": 3000.0,
     "META": 3000.0
   },
@@ -3946,13 +3946,33 @@
       ],
       "evidence": "bought 30 min ago, -0.28% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 199.38833,
+      "status": "filled",
+      "price": 15.01,
+      "proceeds": 2993.61,
+      "realized_pnl": -6.39,
+      "realized_pct": -0.21,
+      "date": "2026-09-15",
+      "time_et": "12:21",
+      "ts": 1789489277,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.17% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 8975.52,
+  "spent_today": 5981.91,
   "deployed_today": 96873.19,
   "orders_today": 33,
-  "sells_today": 29,
+  "sells_today": 30,
   "sold_today": [
     "BE",
     "META",
@@ -3971,7 +3991,7 @@
     "HLI": 1789489111,
     "META": 1789485641,
     "CHRW": 1789489111,
-    "TTD": 1789483773,
+    "TTD": 1789489277,
     "AMD": 1789415590,
     "IBM": 1789487083,
     "AAPL": 1789488775,
@@ -3985,21 +4005,18 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789489111,
-  "last_check_ts": 1789489197,
-  "last_bar_ts": 1789488900,
-  "last_decision_ts": 1789489113,
+  "last_publish_ts": 1789489277,
+  "last_check_ts": 1789489278,
+  "last_bar_ts": 1789489200,
+  "last_decision_ts": 1789489278,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "b96e2d83": 669.4745,
-    "4ab10e3a": 15.1204,
     "c41e7203": 660.7371,
-    "b3918462": 14.8738,
     "0647464b": 242.4582,
     "8d4765cc": 236.5808,
     "ff06548f": 233.5566,
-    "34972813": 14.5985,
     "a5a7a929": 646.9706
   }
 }
