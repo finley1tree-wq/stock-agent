@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 12004.91,
-  "deployed": 317809.19,
+  "spent": 12012.2,
+  "deployed": 320809.19,
   "by_ticker": {
     "IBM": 6.92,
     "GOOGL": 24.38,
@@ -12,8 +12,8 @@
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 3031.39,
-    "NEM": 3010.25,
-    "CHRW": 4.8,
+    "NEM": 17.54,
+    "CHRW": 3004.8,
     "TTD": 6.39,
     "META": 2.5,
     "MSFT": 3000.0,
@@ -21,7 +21,7 @@
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
-    "CHRW": 21000.0,
+    "CHRW": 24000.0,
     "BE": 30000.0,
     "IBM": 27000.0,
     "FLD": 6000.0,
@@ -4115,13 +4115,51 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.1% over the month; 14% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.450065,
+      "status": "filled",
+      "price": 122.4,
+      "proceeds": 2992.71,
+      "realized_pnl": -7.29,
+      "realized_pct": -0.24,
+      "date": "2026-09-15",
+      "time_et": "13:07",
+      "ts": 1789492043,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.20% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.133545,
+      "price": 156.79,
+      "date": "2026-09-15",
+      "time_et": "13:08",
+      "ts": 1789492091,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +5.5% over the month; 65% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 11974.99,
-  "deployed_today": 111873.19,
-  "orders_today": 38,
-  "sells_today": 33,
+  "spent_today": 11982.28,
+  "deployed_today": 114873.19,
+  "orders_today": 39,
+  "sells_today": 34,
   "sold_today": [
     "BE",
     "META",
@@ -4145,7 +4183,7 @@
     "IBM": 1789487083,
     "AAPL": 1789488775,
     "BE": 1789491767,
-    "NEM": 1789487475,
+    "NEM": 1789492044,
     "MSFT": 1789487735,
     "FLD": 1789399070,
     "GOOGL": 1789479613,
@@ -4154,24 +4192,24 @@
     "MAIA": 1789406136,
     "CRWD": 1789489561
   },
-  "last_publish_ts": 1789491926,
-  "last_check_ts": 1789492008,
+  "last_publish_ts": 1789492091,
+  "last_check_ts": 1789492091,
   "last_bar_ts": 1789491900,
-  "last_decision_ts": 1789491926,
+  "last_decision_ts": 1789492091,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "a76af7a4": 330.5571,
+    "60b8194b": 157.2353,
     "0b5aadda": 501.9969,
     "779ee655": 136.9728,
     "6d59c132": 497.9401,
-    "f8a2d073": 123.1589,
+    "8f8791c6": 155.6752,
     "a7ac1f96": 327.5239,
-    "c6d9dd1f": 121.554,
     "708a3445": 135.4572,
-    "727ae916": 119.019,
     "d86dad38": 485.8148,
-    "0e716590": 319.7993,
-    "d41fa4e8": 132.4438
+    "d41fa4e8": 132.4438,
+    "8eb43800": 152.0863,
+    "0e716590": 319.7993
   }
 }

@@ -1,18 +1,9 @@
 {
-  "cash": 13400.089711252404,
+  "cash": 13392.802613861437,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
   "positions": {
-    "NEM": {
-      "qty": 24.45006506162313,
-      "avg_cost": 122.69906,
-      "opened": "2026-09-15",
-      "last_buy": "2026-09-15",
-      "tranches": 1,
-      "last_buy_ts": 1789490268,
-      "opened_ts": 1789490268
-    },
     "MSFT": {
       "qty": 5.989935135950803,
       "avg_cost": 500.840148,
@@ -39,6 +30,15 @@
       "tranches": 1,
       "last_buy_ts": 1789491932,
       "opened_ts": 1789491932
+    },
+    "CHRW": {
+      "qty": 19.13354482108133,
+      "avg_cost": 156.792692,
+      "opened": "2026-09-15",
+      "last_buy": "2026-09-15",
+      "tranches": 1,
+      "last_buy_ts": 1789492095,
+      "opened_ts": 1789492095
     }
   },
   "fills": [
@@ -3897,7 +3897,29 @@
       "price": 136.54,
       "type": "buy",
       "date": "2026-09-15 13:05"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.450065,
+      "status": "filled",
+      "price": 122.4,
+      "proceeds": 2992.71,
+      "realized_pnl": -7.29,
+      "realized_pct": -0.24,
+      "type": "sell",
+      "date": "2026-09-15 13:07"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.133545,
+      "price": 156.79,
+      "type": "buy",
+      "date": "2026-09-15 13:08"
     }
   ],
-  "realized_pnl": 400.08971125241465
+  "realized_pnl": 392.8026138614485
 }
