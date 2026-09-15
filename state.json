@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 11982.56,
+  "spent": 8991.45,
   "deployed": 347809.19,
   "by_ticker": {
     "IBM": 7.52,
     "GOOGL": 24.38,
     "AMD": 8.41,
-    "BE": 3022.65,
+    "BE": 31.54,
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
@@ -4492,13 +4492,33 @@
         "autopilot"
       ],
       "evidence": "+8.1% over the month; 71% of today's range"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.474808,
+      "status": "filled",
+      "price": 260.67,
+      "proceeds": 2991.11,
+      "realized_pnl": -8.89,
+      "realized_pct": -0.3,
+      "date": "2026-09-15",
+      "time_et": "14:17",
+      "ts": 1789496258,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.28% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 11952.64,
+  "spent_today": 8961.53,
   "deployed_today": 141873.19,
   "orders_today": 48,
-  "sells_today": 43,
+  "sells_today": 44,
   "sold_today": [
     "BE",
     "META",
@@ -4522,7 +4542,7 @@
     "AMD": 1789415590,
     "IBM": 1789495236,
     "AAPL": 1789493406,
-    "BE": 1789491767,
+    "BE": 1789496259,
     "NEM": 1789492044,
     "MSFT": 1789492380,
     "FLD": 1789399070,
@@ -4533,11 +4553,11 @@
     "CRWD": 1789495355,
     "PLTR": 1789494072
   },
-  "last_publish_ts": 1789496149,
-  "last_check_ts": 1789496224,
+  "last_publish_ts": 1789496258,
+  "last_check_ts": 1789496306,
   "last_bar_ts": 1789496100,
-  "last_decision_ts": 1789496149,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789496306,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "1bc929fe": 123.2982,
@@ -4545,10 +4565,7 @@
     "912033e4": 499.9973,
     "dae2f0f0": 495.9417,
     "971633a3": 328.5538,
-    "630a7064": 263.3302,
     "683813e9": 121.6964,
-    "3e0b58e5": 256.7132,
-    "6f3fcd85": 253.5968,
     "99076e61": 483.8748,
     "e8dba1ed": 320.7984,
     "dd8b5093": 119.1548

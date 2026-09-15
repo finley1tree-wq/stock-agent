@@ -1,5 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5a5bheiUbidHrechxo1'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25407.17 (+1.63% on $25000.00 in) · cash $16395.92 · realised +395.92
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $320.80 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25419.07 (+1.68% on $25000.00 in) · cash $13422.45 · realised +422.45
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13017.44 this week
+- SELL 100% BE [time stop] -> $2991.11 (-0.30%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 14:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
