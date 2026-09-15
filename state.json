@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12049.15,
+  "spent": 9057.69,
   "deployed": 269809.19,
   "by_ticker": {
     "IBM": 15.53,
@@ -13,7 +13,7 @@
     "AAPL": 3003.19,
     "MAIA": 46.66,
     "HLI": 3031.13,
-    "NEM": 3013.02,
+    "NEM": 21.56,
     "CHRW": 3000.0
   },
   "deployed_by_ticker": {
@@ -3504,13 +3504,33 @@
       ],
       "evidence": "bought 30 min ago, -0.12% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.592426,
+      "status": "filled",
+      "price": 121.64,
+      "proceeds": 2991.46,
+      "realized_pnl": -8.54,
+      "realized_pct": -0.28,
+      "date": "2026-09-15",
+      "time_et": "10:53",
+      "ts": 1789484020,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.24% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 12019.23,
+  "spent_today": 9027.77,
   "deployed_today": 63873.19,
   "orders_today": 22,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "BE",
     "META",
@@ -3534,7 +3554,7 @@
     "IBM": 1789483859,
     "AAPL": 1789479613,
     "BE": 1789483859,
-    "NEM": 1789479396,
+    "NEM": 1789484022,
     "MSFT": 1789483814,
     "FLD": 1789399070,
     "GOOGL": 1789479613,
@@ -3543,8 +3563,8 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789483859,
-  "last_check_ts": 1789483939,
+  "last_publish_ts": 1789484020,
+  "last_check_ts": 1789484020,
   "last_bar_ts": 1789483800,
   "last_decision_ts": 1789483939,
   "next_check_minutes": null,
@@ -3552,14 +3572,11 @@
   "book_px": {
     "45a1eb14": 330.4568,
     "d6982514": 156.8758,
-    "b1bc1bf1": 122.4438,
     "de4ba40f": 137.7425,
     "70943ed0": 136.228,
-    "0ef6ddff": 327.4246,
     "47ac64d4": 155.3147,
-    "84e4fe09": 120.8543,
+    "0ef6ddff": 327.4246,
     "9f775af2": 133.1907,
-    "baeb86a2": 118.3303,
     "102b04ee": 151.7371,
     "fa914f60": 319.7023
   }
