@@ -283,7 +283,7 @@ def gather_signals(cfg: dict, env: dict, g: dict, held: list[str]) -> dict:
     board = traders.refresh(politicians.recent_trades(env, 3650) if ctrades else [])
     cpressure = politicians.buy_pressure(ctrades, cfg.get("followed_politicians") or [], traders.weights(board))
     itrades = insiders.recent_trades(env, g.get("insider_lookback_days", 30))
-    feed_status["insiders"] = "ok" if itrades else ("no key" if not env.get("fmp_key") else "unavailable")
+    feed_status["insiders"] = insiders.last_status or ("ok" if itrades else ("no key" if not env.get("fmp_key") else "unavailable"))
     ipressure = insiders.buy_pressure(itrades, followed_people)
     allowed = set(watch)
     if g["allow_politician_tickers"]:

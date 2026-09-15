@@ -16,7 +16,13 @@ import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 from pathlib import Path
 import requests
+from . import feeds_cache
 from .redact import redact
+
+# FMP's congressional endpoints are paid-tier only (402 on the free plan) and share the daily quota
+# with the insider feed. After a refusal, skip FMP for this long instead of spending a request on
+# every two-minute decision; the free CongressWatch source serves the data either way.
+FMP_RETRY_S = 6 * 3600
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / ".cache"
@@ -141,9 +147,11 @@ def recent_trades(env: dict, lookback_days: int = 30) -> list[dict]:
     if env.get("quiver_key"):
         try: rows = _quiver(env["quiver_key"]); last_source = "quiver" if rows else None
         except Exception as e: last_errors.append(f"quiver: {redact(e)}")
-    if not rows and env.get("fmp_key"):
+    if not rows and env.get("fmp_key") and feeds_cache.now() >= int(feeds_cache.load().get("fmp_congress_retry_ts") or 0):
         try: rows = _fmp(env["fmp_key"]); last_source = "fmp" if rows else None
-        except Exception as e: last_errors.append(f"fmp: {redact(e)}")
+        except Exception as e:
+            last_errors.append(f"fmp: {redact(e)}")
+            feeds_cache.update("fmp_congress_retry_ts", feeds_cache.now() + FMP_RETRY_S)
     if not rows:
         try: rows = _congresswatch(); last_source = "congresswatch" if rows else None
         except Exception as e: last_errors.append(f"congresswatch: {redact(e)}")
