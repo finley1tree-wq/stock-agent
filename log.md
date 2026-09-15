@@ -3932,3 +3932,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $133.19 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25357.09 (+1.43% on $25000.00 in) · cash $1384.90 · realised +384.90
 Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $979.89 this week
+
+## 2026-09-15 10:34 ET (Tuesday) — week 2026-W38 — budget left $979.89 (today $63873.19 put to work, 22 buys, 13 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5PfR3cs9NXadfsR6tqH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25348.17 (+1.39% on $25000.00 in) · cash $1384.90 · realised +384.90
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
