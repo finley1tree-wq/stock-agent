@@ -214,6 +214,12 @@ class SimBroker:
         Falls back to the flat figure whenever volume is unknown, so nothing gets cheaper by
         accident.
         """
+        if not self.spread_pct:
+            # Zero is how a standing order says it is filling at its own level (run._at_price): a
+            # limit gets the price it asked for, and a stop already carries its slippage in the
+            # fill price. The per-name estimate used 0 only as a floor, so from 2026-09-14 12:46 ET
+            # every take-profit, stop and dip entry paid a full spread it was designed not to.
+            return 0.0
         from . import prices
         return prices.spread_pct(symbol, getattr(self, "quotes", None), default=self.spread_pct)
 

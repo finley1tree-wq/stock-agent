@@ -4,27 +4,31 @@ import yfinance as yf
 
 # How much the spread actually costs, per name.
 #
-# A flat charge is wrong by more than an order of magnitude across a watchlist. Measured on real
-# 2026-09-14 trades: AAPL at 54M shares/day costs ~4bp a round trip, while FLD at $0.53 and 446k
-# shares/day costs ~80bp - twenty times what a flat 0.02%/side charges. The agent found that out
-# before we did: on 2026-09-14 thin names were 34% of turnover and 86% of the "profit", and the
-# best-looking signal in the whole record (t = 2.87) was manufactured entirely by the undercharge.
+# A flat charge is wrong by more than an order of magnitude across a watchlist, and the error always
+# favours the thinnest, cheapest names: on 2026-09-14 thin names were 34% of turnover and 86% of the
+# "profit" under a flat 0.02%/side.
 #
-# Cost is driven by liquidity and by price level - a one-cent spread is 0.2bp on a $500 stock and
-# 189bp on a $0.53 one - so both go into the estimate.
-SPREAD_TIERS = ((20_000_000, 0.02), (5_000_000, 0.04), (1_000_000, 0.10), (0, 0.40))
+# Tiered on DOLLARS traded a day, not shares. The first version counted shares, which made HLI ($137,
+# ~$120M a day) and TPL ($365, ~$136M a day) look exactly as thin as MAIA ($1.39, $0.7M a day) and
+# charged all three 0.8% a round trip - roughly ten times HLI's real cost. What a market maker can
+# absorb is money, not share count.
+#
+# Price level still matters on its own: the smallest quote is one cent, so half a spread is half a
+# cent - 0.1bp on a $500 share and 96bp on a $0.52 one - whatever the volume.
+DOLLAR_TIERS = ((1_000_000_000, 0.02), (50_000_000, 0.04), (10_000_000, 0.10), (2_000_000, 0.25), (0, 0.50))
 
 def spread_pct(ticker: str, px: dict | None, default: float = 0.02) -> float:
     """One-way spread cost in percent for this name. Falls back to `default` when unknown."""
     q = (px or {}).get(ticker) or {}
-    vol = q.get("avg_volume") or q.get("volume") or 0
-    price = q.get("price") or 0
-    if not vol:
+    try:
+        vol = float(q.get("avg_volume") or q.get("volume") or 0)
+        price = float(q.get("price") or 0)
+    except (TypeError, ValueError):
         return default
-    est = next(c for floor, c in SPREAD_TIERS if vol >= floor)
-    if price and price < 5:
-        # a penny of spread is a large fraction of a cheap share, whatever the volume
-        est = max(est, min(2.0, 0.5 / price))
+    if not (vol > 0 and price > 0):             # written this way so NaN falls back too
+        return default
+    est = next(c for floor, c in DOLLAR_TIERS if vol * price >= floor)
+    est = max(est, min(2.0, 0.5 / price))
     return round(max(est, default), 4)
 
 def yahoo_symbol(t: str) -> str:

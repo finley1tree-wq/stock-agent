@@ -7,8 +7,9 @@ headline about "Alphabet stock" is describing — buying one because of that hea
 wrong instrument for the right reason.
 
 So anything that is not on the hand-written watchlist has to prove it is common stock or a normal
-fund before the brain is allowed to see it. Verdicts are cached on disk forever, because what kind
-of security a ticker is does not change.
+fund before the brain is allowed to see it. Verdicts are cached on disk, because what kind of
+security a ticker is does not change - but the liquidity and price floors do, so a verdict is only
+reused while it was made under the floors in force now (RULES).
 """
 import json
 import re
@@ -29,21 +30,25 @@ BAD_NAME = re.compile(
     r"\b(preferred|depositary|depository|warrant|warrants|right|rights|unit|units|"
     r"convertible|debenture|note|notes|trust preferred|when[- ]issued|"
     r"series [a-z] (preferred|pfd)|pfd)\b", re.I)
-# Raised from 100,000. At that floor the screen passed FLD (a $0.53 share) and ALP ($4.16), and
-# those two produced most of a day's "profit" purely because the flat spread charge undercharged
-# them by twenty times. The cost model is now per-name, so the economics would eventually teach
-# the agent to avoid them - but there is no reason to spend real trades learning what a screen
-# can settle for free.
-MIN_AVG_VOLUME = 1_000_000
+# Measured in DOLLARS a day. A share-count floor (100,000, later 1,000,000) passed FLD ($0.53,
+# ~$0.2M a day) and ALP ($4.16) while it would have refused HLI (876k shares, but ~$120M a day).
+# Below ~$20M a day the spread is 0.2% a round trip or worse, which a 30-minute target of 0.3-0.5%
+# cannot carry.
+MIN_DOLLAR_VOLUME = 20_000_000
 # A penny of spread is 0.2bp on a $500 share and 189bp on a $0.53 one. Below this price the
 # spread dominates any edge a 30-minute trade could have, whatever the volume.
 MIN_PRICE = 5.0
+# Stamped on every settled verdict. A verdict made under different floors is judged again: when the
+# floor was raised on 2026-09-14 the old approvals stayed cached "forever", and the autopilot went on
+# buying FLD, ALP, MAIA and GRNT through a screen that would have refused every one of them.
+RULES = f"usd{MIN_DOLLAR_VOLUME // 1_000_000}m-px{MIN_PRICE:g}"
 
 def _load() -> dict:
     try:
-        return json.loads(CACHE.read_text())
+        d = json.loads(CACHE.read_text())
     except Exception:
         return {}
+    return d if isinstance(d, dict) else {}      # a merge that leaves a list or null must not crash the screen
 
 def _save(d: dict) -> None:
     try:
@@ -70,25 +75,37 @@ def _judge(t: str) -> dict:
     m = BAD_NAME.search(name)
     if m:
         return {"ok": False, "why": f"not ordinary shares ({m.group(0).lower()})", "name": name}
-    if qtype == "EQUITY" and vol and int(vol) < MIN_AVG_VOLUME:
-        return {"ok": False, "why": f"too thinly traded ({int(vol):,}/day)", "name": name}
-    price = info.get("currentPrice") or info.get("regularMarketPrice") or info.get("previousClose") or 0
-    if qtype == "EQUITY" and price and float(price) < MIN_PRICE:
-        return {"ok": False, "why": f"share price ${float(price):.2f} is below ${MIN_PRICE:.0f}: the spread eats the trade",
+    # Parsed once, defensively: a feed that answers "N/A" must read as "unknown", not crash the screen.
+    try:
+        price = float(info.get("currentPrice") or info.get("regularMarketPrice") or info.get("previousClose") or 0)
+    except (TypeError, ValueError):
+        price = 0.0
+    try:
+        dollars = float(vol) * price
+    except (TypeError, ValueError):
+        dollars = 0.0
+    price = price if price > 0 else 0.0          # NaN and negatives are unknown too
+    dollars = dollars if dollars > 0 else 0.0
+    if qtype == "EQUITY" and dollars and dollars < MIN_DOLLAR_VOLUME:
+        return {"ok": False, "why": f"too thinly traded (${dollars / 1e6:.1f}M a day)", "name": name}
+    if qtype == "EQUITY" and price and price < MIN_PRICE:
+        return {"ok": False, "why": f"share price ${price:.2f} is below ${MIN_PRICE:.0f}: the spread eats the trade",
                 "name": name}
     return {"ok": True, "why": "", "name": name}
 
 def check(tickers, use_cache: bool = True) -> dict:
-    """{ticker: {ok, why, name[, transient]}} for each. Settled verdicts are cached on disk forever;
+    """{ticker: {ok, why, name[, transient]}} for each. Settled verdicts are cached on disk under RULES;
     a lookup that did not answer is returned with transient=True and NOT cached, so the caller can
     decide to wait rather than act on a non-answer."""
     cache = _load() if use_cache else {}
     out, fresh = {}, False
     for t in sorted({str(x).upper() for x in tickers if x}):
-        if t in cache:
-            out[t] = cache[t]; continue
+        c = cache.get(t)
+        if isinstance(c, dict) and c.get("rules") == RULES:
+            out[t] = c; continue
         v = _judge(t); out[t] = v
-        if not v.get("transient"):               # settled verdicts cache forever; a failed lookup retries next run
+        if not v.get("transient"):               # settled verdicts are kept; a failed lookup retries next run
+            v["rules"] = RULES
             cache[t] = v; fresh = True
     if fresh and use_cache:
         _save(cache)
