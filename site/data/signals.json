@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T15:19-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-15T15:28-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "2626f773",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.7788,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 123.41,
+   "pct_away": 0.3,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "0799fcdb",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 497.04,
-   "pct_away": 0.26,
+   "last": 496.48,
+   "pct_away": 0.37,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -156,17 +173,17 @@
    ]
   },
   {
-   "id": "2626f773",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 123.7788,
+   "id": "dfa77987",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 494.2367,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.39,
-   "pct_away": 0.32,
+   "last": 496.48,
+   "pct_away": -0.45,
    "good_until": "2026-09-20",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 373.09,
-   "pct_away": 0.34,
+   "last": 372.36,
+   "pct_away": 0.53,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -197,27 +214,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.87,
-   "pct_away": 0.49,
+   "last": 259.16,
+   "pct_away": 0.76,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "dfa77987",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 494.2367,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 497.04,
-   "pct_away": -0.56,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 373.09,
-   "pct_away": -0.98,
+   "last": 372.36,
+   "pct_away": -0.79,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -248,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.39,
-   "pct_away": -0.99,
+   "last": 123.41,
+   "pct_away": -1.0,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -265,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.87,
-   "pct_away": -2.06,
+   "last": 259.16,
+   "pct_away": -1.79,
    "good_until": "2026-09-20",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -275,32 +275,15 @@
    ]
   },
   {
-   "id": "1f216434",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.2452,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 497.04,
-   "pct_away": -2.98,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "04bfa3af",
+   "id": "a1add45c",
    "ticker": "TPL",
    "kind": "buy_limit",
    "price": 361.7518,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 373.09,
-   "pct_away": -3.04,
+   "last": 372.36,
+   "pct_away": -2.85,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -309,15 +292,15 @@
    ]
   },
   {
-   "id": "fc18accf",
-   "ticker": "NEM",
+   "id": "d08b12ff",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 119.6204,
+   "price": 482.2452,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 123.39,
-   "pct_away": -3.06,
+   "last": 496.48,
+   "pct_away": -2.87,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -326,15 +309,32 @@
    ]
   },
   {
-   "id": "7890ed3c",
+   "id": "e7744356",
    "ticker": "BE",
    "kind": "buy_limit",
    "price": 251.4725,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.87,
-   "pct_away": -3.23,
+   "last": 259.16,
+   "pct_away": -2.97,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d8efdbbf",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 119.6204,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 123.41,
+   "pct_away": -3.07,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
