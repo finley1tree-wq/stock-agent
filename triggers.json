@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b02a18d8",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 247.492,
-   "status": "cancelled",
-   "created": "2026-09-14 11:37",
-   "created_ts": 1789400252,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $247.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 11:42",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "881bcdad",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -7440,7 +7421,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 231.6279,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:23",
    "created_ts": 1789482224,
    "why": "close it all at -1.7% under the average cost",
@@ -7450,7 +7431,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:25",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "91994a2b",
@@ -7519,7 +7502,24 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "f3cbf2e9",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 236.452,
+   "status": "working",
+   "created": "2026-09-15 10:25",
+   "created_ts": 1789482307,
+   "why": "close it all at -1.7% under the average cost",
+   "evidence": "average cost $235.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 10:23"
+ "updated": "2026-09-15 10:25"
 }
