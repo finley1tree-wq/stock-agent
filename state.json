@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9057.69,
+  "spent": 6053.7,
   "deployed": 269809.19,
   "by_ticker": {
     "IBM": 15.53,
@@ -10,7 +10,6 @@
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
-    "AAPL": 3003.19,
     "MAIA": 46.66,
     "HLI": 3031.13,
     "NEM": 21.56,
@@ -3524,13 +3523,33 @@
       ],
       "evidence": "bought 30 min ago, -0.24% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 9.102331,
+      "status": "filled",
+      "price": 330.02,
+      "proceeds": 3003.99,
+      "realized_pnl": 3.99,
+      "realized_pct": 0.13,
+      "date": "2026-09-15",
+      "time_et": "10:56",
+      "ts": 1789484187,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.15% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 9027.77,
+  "spent_today": 6023.78,
   "deployed_today": 63873.19,
   "orders_today": 22,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "BE",
     "META",
@@ -3552,7 +3571,7 @@
     "TTD": 1789483773,
     "AMD": 1789415590,
     "IBM": 1789483859,
-    "AAPL": 1789479613,
+    "AAPL": 1789484188,
     "BE": 1789483859,
     "NEM": 1789484022,
     "MSFT": 1789483814,
@@ -3563,8 +3582,8 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789484104,
-  "last_check_ts": 1789484104,
+  "last_publish_ts": 1789484187,
+  "last_check_ts": 1789484187,
   "last_bar_ts": 1789484100,
   "last_decision_ts": 1789484104,
   "next_check_minutes": null,
@@ -3572,12 +3591,9 @@
   "book_px": {
     "312eb53c": 137.466,
     "de4ba40f": 137.7425,
-    "45a1eb14": 330.4568,
     "d6982514": 156.8758,
     "47ac64d4": 155.3147,
-    "0ef6ddff": 327.4246,
     "102b04ee": 151.7371,
-    "fa914f60": 319.7023,
     "9f775af2": 133.1907
   }
 }

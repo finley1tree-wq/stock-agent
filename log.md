@@ -4056,3 +4056,5 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% HLI @ $137.47 until 2026-09-20 — close it all at -0.8% under the average cost
 portfolio: equity $25350.29 (+1.40% on $25000.00 in) · cash $16347.31 · realised +347.31
 Decision: nothing at this check. 9 standing order(s) working.
+- SELL 100% AAPL [time stop] -> $3003.99 (+0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 10:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
