@@ -3557,3 +3557,13 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $873.19 HLI @ $136.29 until 2026-09-16 — strong month, weak day: resting 0.58% under $137.09 to catch the dip
 portfolio: equity $25322.61 (+1.29% on $25000.00 in) · cash $1278.19 · realised +278.19
 Decision: nothing at this check. 25 standing order(s) working.
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $266.40] -> $3020.97 (+0.70%) — close 100% at +0.7% over the average cost
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $664.02] -> $3010.82 (+0.36%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $247.38] -> $3002.22 (+0.07%) — close it all at -0.7% under the average cost
+## 2026-09-15 09:35 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $501.77] -> $3006.87 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-15 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
