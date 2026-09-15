@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 12026.6,
-  "deployed": 374809.19,
+  "spent": 15026.6,
+  "deployed": 377809.19,
   "by_ticker": {
     "IBM": 3007.52,
     "GOOGL": 24.38,
@@ -12,7 +12,7 @@
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 42.58,
-    "NEM": 12.13,
+    "NEM": 3012.13,
     "MSFT": 7.79,
     "AAPL": 5.19,
     "PLTR": 10.45,
@@ -26,7 +26,7 @@
     "IBM": 33000.0,
     "FLD": 6000.0,
     "HLI": 33873.19,
-    "NEM": 33000.0,
+    "NEM": 36000.0,
     "META": 33478.21,
     "AMD": 10000.0,
     "TTD": 30000.0,
@@ -4835,12 +4835,29 @@
       ],
       "evidence": "bought 30 min ago, -0.76% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.327091,
+      "price": 123.32,
+      "date": "2026-09-15",
+      "time_et": "15:10",
+      "ts": 1789499454,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+4.7% over the month; 75% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 11996.68,
-  "deployed_today": 168873.19,
-  "orders_today": 57,
+  "spent_today": 14996.68,
+  "deployed_today": 171873.19,
+  "orders_today": 58,
   "sells_today": 52,
   "sold_today": [
     "BE",
@@ -4876,24 +4893,27 @@
     "CRWD": 1789495355,
     "PLTR": 1789498579
   },
-  "last_publish_ts": 1789499283,
-  "last_check_ts": 1789499366,
-  "last_bar_ts": 1789499100,
-  "last_decision_ts": 1789499285,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789499454,
+  "last_check_ts": 1789499454,
+  "last_bar_ts": 1789499400,
+  "last_decision_ts": 1789499454,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "9c211d7f": 248.7284,
     "84cada8f": 374.346,
+    "2626f773": 123.7788,
     "7256cf84": 241.914,
-    "d652a80f": 261.1373,
     "cb3e1182": 251.2916,
+    "d652a80f": 261.1373,
+    "6edada10": 122.1744,
     "b6ad63f9": 369.4269,
     "7049c8ed": 254.5291,
     "e6b9f127": 236.0188,
     "38479e41": 243.0432,
-    "04bfa3af": 361.7518,
     "7890ed3c": 251.4725,
+    "fc18accf": 119.6204,
+    "04bfa3af": 361.7518,
     "c4748fb2": 233.0231
   }
 }
