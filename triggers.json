@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ee903ecf",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 248.9311,
-   "status": "cancelled",
-   "created": "2026-09-14 11:48",
-   "created_ts": 1789400928,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $256.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 12:02",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b0b0062c",
    "ticker": "GRNT",
    "kind": "take_profit",
@@ -6884,7 +6865,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 495.9964,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:21",
    "created_ts": 1789482066,
    "why": "close it all at -0.6% under the average cost",
@@ -6894,7 +6875,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:49",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "eec1160e",
@@ -7081,7 +7064,7 @@
    "ticker": "TTD",
    "kind": "take_profit",
    "price": 14.6391,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-15 10:23",
    "created_ts": 1789482224,
    "why": "close 100% at +0.5% over the average cost",
@@ -7091,7 +7074,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:49"
   },
   {
    "id": "3dc4a806",
@@ -7117,7 +7101,7 @@
    "ticker": "TTD",
    "kind": "buy_limit",
    "price": 14.1329,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:23",
    "created_ts": 1789482224,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7127,7 +7111,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 10:49",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9ca289a6",
@@ -7503,7 +7489,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.594,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 10:45",
    "created_ts": 1789483554,
    "why": "close it all at -1.2% under the average cost",
@@ -7513,8 +7499,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 10:49",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "8aaa975d",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 499.274,
+   "status": "working",
+   "created": "2026-09-15 10:49",
+   "created_ts": 1789483772,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $498.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 10:46"
+ "updated": "2026-09-15 10:49"
 }
