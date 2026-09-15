@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 50.59,
-  "deployed": 269809.19,
+  "spent": 3050.59,
+  "deployed": 272809.19,
   "by_ticker": {
     "IBM": 15.53,
     "GOOGL": 24.38,
@@ -13,7 +13,8 @@
     "MAIA": 46.66,
     "HLI": 21.79,
     "NEM": 21.56,
-    "CHRW": 6.23
+    "CHRW": 6.23,
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -23,7 +24,7 @@
     "FLD": 6000.0,
     "HLI": 24873.19,
     "NEM": 24000.0,
-    "META": 21478.21,
+    "META": 24478.21,
     "AMD": 10000.0,
     "TTD": 21000.0,
     "AAPL": 24000.0,
@@ -3584,12 +3585,29 @@
       ],
       "evidence": "bought 30 min ago, -0.17% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.466184,
+      "price": 671.71,
+      "date": "2026-09-15",
+      "time_et": "11:17",
+      "ts": 1789485467,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+13.9% over the month; 68% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 20.67,
-  "deployed_today": 63873.19,
-  "orders_today": 22,
+  "spent_today": 3020.67,
+  "deployed_today": 66873.19,
+  "orders_today": 23,
   "sells_today": 21,
   "sold_today": [
     "BE",
@@ -3623,11 +3641,15 @@
     "MAIA": 1789406136,
     "CRWD": 1789482639
   },
-  "last_publish_ts": 1789484529,
-  "last_check_ts": 1789485293,
-  "last_bar_ts": 1789485000,
-  "last_decision_ts": 1789485293,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789485467,
+  "last_check_ts": 1789485467,
+  "last_bar_ts": 1789485300,
+  "last_decision_ts": 1789485467,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "ec15a5a2": 674.2088,
+    "52411f37": 665.4698,
+    "b3b5f9c9": 651.5587
+  }
 }

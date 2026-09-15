@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "1d0b9e7a",
-   "ticker": "GRNT",
-   "kind": "stop_loss",
-   "price": 5.143,
-   "status": "cancelled",
-   "created": "2026-09-14 11:48",
-   "created_ts": 1789400928,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $5.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:02",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0253b07e",
-   "ticker": "GRNT",
-   "kind": "buy_limit",
-   "price": 5.0246,
-   "status": "cancelled",
-   "created": "2026-09-14 11:48",
-   "created_ts": 1789400928,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $5.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 12:02",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "344e9635",
-   "ticker": "MAIA",
-   "kind": "take_profit",
-   "price": 1.3878,
-   "status": "filled",
-   "created": "2026-09-14 11:48",
-   "created_ts": 1789400928,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $1.38",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 12:18"
-  },
-  {
    "id": "b927c508",
    "ticker": "MAIA",
    "kind": "stop_loss",
@@ -7560,7 +7504,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-15 11:01",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "ec15a5a2",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 674.2088,
+   "status": "working",
+   "created": "2026-09-15 11:17",
+   "created_ts": 1789485467,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $671.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "52411f37",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 665.4698,
+   "status": "working",
+   "created": "2026-09-15 11:17",
+   "created_ts": 1789485467,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $671.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b3b5f9c9",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 651.5587,
+   "status": "working",
+   "created": "2026-09-15 11:17",
+   "created_ts": 1789485467,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $671.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-15 11:14"
+ "updated": "2026-09-15 11:17"
 }
