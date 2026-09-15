@@ -1,20 +1,3 @@
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3vS99dwq4NTYbaAfhqZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25278.19 (+1.11% on $25000.00 in) · cash $25278.19 · realised +278.19
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 15:59 ET (Monday) — week 2026-W38 — budget left $24873.19 (today $205936.00 put to work, 71 buys, 71 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (OFLX excluded: too thinly traded (42,751/day) — Omega Flex, Inc.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3vdxG8WeNUByg8Y1wq2'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25278.19 (+1.11% on $25000.00 in) · cash $25278.19 · realised +278.19
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $118.33 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25336.10 (+1.34% on $25000.00 in) · cash $4375.09 · realised +375.09
 Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $3970.08 this week
+
+## 2026-09-15 10:26 ET (Tuesday) — week 2026-W38 — budget left $3970.08 (today $54873.19 put to work, 19 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5P2K1wQKcYaZdpsGPnF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,970 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.7% over the month; 36% of today's range
+~ WORKING take_profit 100% AAPL @ $330.46 until 2026-09-20 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $327.42 until 2026-09-20 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $319.70 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25366.45 (+1.47% on $25000.00 in) · cash $1375.09 · realised +375.09
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $970.08 this week
