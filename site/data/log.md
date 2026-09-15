@@ -1,5 +1,3 @@
-  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5XCRbHXacfBb4RTXNdr'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25374.45 (+1.50% on $25000.00 in) · cash $10407.73 · realised +407.73
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $170.08 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25395.61 (+1.58% on $25000.00 in) · cash $13402.69 · realised +402.69
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12997.69 this week
+- SELL 100% CHRW [time stop] -> $2998.17 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 13:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders

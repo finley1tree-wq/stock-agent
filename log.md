@@ -4903,3 +4903,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $170.08 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25395.61 (+1.58% on $25000.00 in) · cash $13402.69 · realised +402.69
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12997.69 this week
+- SELL 100% CHRW [time stop] -> $2998.17 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-15 13:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
