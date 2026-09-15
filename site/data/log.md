@@ -1,48 +1,3 @@
-
-## 2026-09-14 15:03 ET (Monday) — week 2026-W38 — budget left $18935.19 (today $181936.00 put to work, 63 buys, 61 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3rMNMn1AXpAuyiagWL9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,935 idle, so opened 2: GRNT, TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 GRNT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. director); +1.7% over the month; 23% of today's range
-- BUY $3000.00 TPL [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +5.8% over the month; 0% of today's range
-~ WORKING take_profit 100% GRNT @ $5.14 until 2026-09-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% GRNT @ $5.09 until 2026-09-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 GRNT @ $4.98 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TPL @ $369.92 until 2026-09-19 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% TPL @ $365.08 until 2026-09-19 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 TPL @ $357.48 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25314.65 (+1.26% on $25000.00 in) · cash $13340.20 · realised +340.20
-Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $12935.19 this week
-
-## 2026-09-14 15:06 ET (Monday) — week 2026-W38 — budget left $12935.19 (today $187936.00 put to work, 65 buys, 61 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-  (RCG excluded: too thinly traded (5,209/day) — RENN Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3rZZoggmfFDwJF93QWj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25299.94 (+1.20% on $25000.00 in) · cash $13340.20 · realised +340.20
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-14 15:09 ET (Monday) — week 2026-W38 — budget left $12935.19 (today $187936.00 put to work, 65 buys, 61 sells) — SIM (pretend money) via sim
-  (ASRV excluded: too thinly traded (19,293/day) — AmeriServ Financial, Inc.)
-  (BDCO excluded: too thinly traded (30,108/day) — Blue Dolphin Energy Company)
-  (CCFN excluded: too thinly traded (2,651/day) — Muncy Columbia Financial Corporation)
-  (IRIX excluded: too thinly traded (67,237/day) — IRIDEX Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf3rn1Z5UcuXE3kb61H6K'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,935 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.6% over the month; 77% of today's range
-~ WORKING take_profit 100% AAPL @ $335.48 until 2026-09-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AAPL @ $332.43 until 2026-09-19 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 AAPL @ $324.57 until 2026-09-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25301.92 (+1.21% on $25000.00 in) · cash $10340.20 · realised +340.20
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9935.19 this week
@@ -398,3 +353,48 @@ portfolio: equity $25278.19 (+1.11% on $25000.00 in) · cash $25278.19 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-14 16:10 ET — published the session's closing state
+
+## 2026-09-15 09:32 ET (Tuesday) — week 2026-W38 — budget left $24873.19 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (KDOZF excluded: too thinly traded ($0.0M a day) — Kidoz Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5JwXRxZraxD6Qn3ZANc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,873 idle, so opened 8: TTD, MSFT, CRWD, IBM, BE, NEM, META, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.0% over the month; 12% of today's range
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +1.0% over the month; 36% of today's range
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.9% over the month; 52% of today's range
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.5% over the month; 43% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +15.0% over the month; 84% of today's range
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +4.4% over the month; 0% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +12.2% over the month; 64% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +8.1% over the month; 71% of today's range
+~ WORKING take_profit 100% TTD @ $14.64 until 2026-09-20 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.40 until 2026-09-20 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.13 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $501.77 until 2026-09-20 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $497.75 until 2026-09-20 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $485.60 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $235.67 until 2026-09-20 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% CRWD @ $230.00 until 2026-09-20 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $227.03 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $247.91 until 2026-09-20 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $245.42 until 2026-09-20 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $239.78 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $266.40 until 2026-09-20 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $259.92 until 2026-09-20 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $256.61 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $123.46 until 2026-09-20 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $121.90 until 2026-09-20 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.32 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $664.02 until 2026-09-20 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $655.66 until 2026-09-20 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $641.78 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $331.53 until 2026-09-20 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $328.49 until 2026-09-20 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $320.74 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25272.20 (+1.09% on $25000.00 in) · cash $1278.19 · realised +278.19
+Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $873.19 this week

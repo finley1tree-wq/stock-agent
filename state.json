@@ -1,38 +1,42 @@
 {
   "week": "2026-W38",
-  "spent": 126.81,
-  "deployed": 205936.0,
+  "spent": 24126.81,
+  "deployed": 229936.0,
   "by_ticker": {
-    "IBM": 13.54,
+    "IBM": 3013.54,
     "GOOGL": 25.95,
     "AMD": 8.41,
-    "BE": 28.51,
+    "BE": 3028.51,
     "FLD": 1.2,
     "TPL": 56.2,
     "ALP": 39.88,
-    "AAPL": 5.04,
+    "AAPL": 3005.04,
     "MAIA": 46.66,
     "HLI": 36.9,
-    "NEM": 15.49,
-    "MSFT": 4.63
+    "NEM": 3015.49,
+    "MSFT": 3004.63,
+    "TTD": 3000.0,
+    "CRWD": 3000.0,
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 12000.0,
-    "BE": 18000.0,
-    "IBM": 18000.0,
+    "BE": 21000.0,
+    "IBM": 21000.0,
     "FLD": 6000.0,
     "HLI": 18000.0,
-    "NEM": 18000.0,
-    "META": 15478.21,
+    "NEM": 21000.0,
+    "META": 18478.21,
     "AMD": 10000.0,
-    "TTD": 15000.0,
-    "AAPL": 18000.0,
-    "MSFT": 9457.79,
+    "TTD": 18000.0,
+    "AAPL": 21000.0,
+    "MSFT": 12457.79,
     "GOOGL": 12000.0,
     "TPL": 9000.0,
     "GRNT": 9000.0,
-    "MAIA": 6000.0
+    "MAIA": 6000.0,
+    "CRWD": 3000.0
   },
   "orders": [
     {
@@ -2758,12 +2762,153 @@
       ],
       "evidence": "bought 30 min ago, -0.11% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 205.961571,
+      "price": 14.57,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.0% over the month; 12% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.992568,
+      "price": 500.62,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +1.0% over the month; 36% of today's range"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.817949,
+      "price": 234.05,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.9% over the month; 52% of today's range"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.13595,
+      "price": 247.2,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.5% over the month; 43% of today's range"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.339887,
+      "price": 264.55,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +15.0% over the month; 84% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.388423,
+      "price": 123.01,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+4.4% over the month; 0% of today's range"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.534241,
+      "price": 661.63,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+12.2% over the month; 64% of today's range"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.07287,
+      "price": 330.66,
+      "date": "2026-09-15",
+      "time_et": "09:32",
+      "ts": 1789479150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+8.1% over the month; 71% of today's range"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 24000.0,
+  "deployed_today": 24000.0,
+  "orders_today": 8,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -2784,11 +2929,36 @@
     "GRNT": 1789413927,
     "MAIA": 1789406136
   },
-  "last_publish_ts": 1789479025,
-  "last_check_ts": 1789479025,
-  "last_bar_ts": 1789415700,
-  "last_decision_ts": 1789415992,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789479150,
+  "last_check_ts": 1789479150,
+  "last_bar_ts": 1789479000,
+  "last_decision_ts": 1789479150,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "465d4a8c": 501.7664,
+    "3c6a90ee": 331.5263,
+    "0bd4515c": 247.9119,
+    "80d8efd3": 664.0185,
+    "c01fd6c5": 123.4565,
+    "c3f5a94e": 14.6389,
+    "6dff5ea0": 497.7514,
+    "75526b2d": 328.4942,
+    "306361b5": 245.4226,
+    "f9a8448f": 235.6696,
+    "2aed68ab": 266.4018,
+    "29f16503": 121.8955,
+    "0d674145": 655.6555,
+    "65511996": 14.3978,
+    "7dd8f669": 230.0009,
+    "66c2cec0": 259.9177,
+    "dbcb0ae5": 14.1329,
+    "c21589e0": 119.3197,
+    "fa468dc6": 485.6014,
+    "aee1df78": 227.0285,
+    "ca6ba32a": 239.784,
+    "842acebc": 256.6135,
+    "5d80b1c2": 641.7811,
+    "ea954efe": 320.7402
+  }
 }
