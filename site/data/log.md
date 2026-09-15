@@ -1,79 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5iPqkgeqh4uF3QFAS6M'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,011 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.0% over the month; 80% of today's range
-~ WORKING take_profit 100% CHRW @ $157.95 until 2026-09-20 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CHRW @ $156.38 until 2026-09-20 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CHRW @ $152.78 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25403.31 (+1.61% on $25000.00 in) · cash $7416.33 · realised +416.33
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7011.32 this week
-
-## 2026-09-15 14:43 ET (Tuesday) — week 2026-W38 — budget left $7011.32 (today $156873.19 put to work, 53 buys, 46 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5icFyYMRMVP3oVdARda'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25403.39 (+1.61% on $25000.00 in) · cash $7416.33 · realised +416.33
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% AAPL [time stop] -> $2994.81 (-0.17%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-15 14:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-15 14:46 ET (Tuesday) — week 2026-W38 — budget left $10006.13 (today $156873.19 put to work, 53 buys, 47 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5ipDX3MWEczbLRdqZT9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,006 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +6.9% over the month; 77% of today's range
-~ WORKING take_profit 100% IBM @ $251.29 until 2026-09-20 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% IBM @ $248.73 until 2026-09-20 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 IBM @ $243.04 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25390.54 (+1.56% on $25000.00 in) · cash $7411.14 · realised +411.14
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7006.13 this week
-
-## 2026-09-15 14:48 ET (Tuesday) — week 2026-W38 — budget left $7006.13 (today $159873.19 put to work, 54 buys, 47 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5j2MNQfMvJ8wFW8nHF6'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,006 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +10.7% over the month; 68% of today's range
-~ WORKING take_profit 100% CRWD @ $241.91 until 2026-09-20 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% CRWD @ $236.02 until 2026-09-20 — close it all at -1.8% under the average cost
-~ WORKING buy_limit $500.00 CRWD @ $233.02 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25361.54 (+1.45% on $25000.00 in) · cash $4411.14 · realised +411.14
-Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $4006.13 this week
-- SELL 100% HLI [time stop] -> $2991.43 (-0.29%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-15 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-15 14:51 ET (Tuesday) — week 2026-W38 — budget left $6997.56 (today $162873.19 put to work, 55 buys, 48 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5jEXm57qAfwh5LUNPGY'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25368.72 (+1.47% on $25000.00 in) · cash $7402.57 · realised +402.57
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 14:54 ET (Tuesday) — week 2026-W38 — budget left $6997.56 (today $162873.19 put to work, 55 buys, 48 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5jTXFfys7gaAWkKhJEZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25362.74 (+1.45% on $25000.00 in) · cash $7402.57 · realised +402.57
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% PLTR [time stop] -> $2989.55 (-0.35%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-15 14:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-15 14:57 ET (Tuesday) — week 2026-W38 — budget left $9987.11 (today $162873.19 put to work, 55 buys, 49 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +322,79 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% MSFT [time stop] -> $2990.84 (-0.31%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-15 15:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 15:46 ET (Tuesday) — week 2026-W38 — budget left $24947.72 (today $174873.19 put to work, 59 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5oSoo2Xfmrxkk5KNv9c'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 15:49 ET (Tuesday) — week 2026-W38 — budget left $24947.72 (today $174873.19 put to work, 59 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5oetrDLKD1wMcgADHGf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 15:52 ET (Tuesday) — week 2026-W38 — budget left $24947.72 (today $174873.19 put to work, 59 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
+  (CSPI excluded: too thinly traded ($0.3M a day) — CSP Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5orvrbgVv2DxFrncfTr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 15:54 ET (Tuesday) — week 2026-W38 — budget left $24947.72 (today $174873.19 put to work, 59 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
+  (CSPI excluded: too thinly traded ($0.3M a day) — CSP Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5p4CCtRdfusVD9RWW4M'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 15:57 ET (Tuesday) — week 2026-W38 — budget left $24947.72 (today $174873.19 put to work, 59 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
+  (CSPI excluded: too thinly traded ($0.3M a day) — CSP Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
+  (no price for AVGO — excluded this check)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5pGBVJvQGXkBtZxDRwu'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
