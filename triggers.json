@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "30d61544",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 369.5846,
-   "status": "cancelled",
-   "created": "2026-09-14 11:04",
-   "created_ts": 1789398299,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $372.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 11:10",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "76103c6b",
    "ticker": "TPL",
    "kind": "buy_limit",
@@ -7412,7 +7393,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 136.0022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 09:37",
    "created_ts": 1789479443,
    "why": "close it all at -0.8% under the average cost",
@@ -7422,7 +7403,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 09:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ac2d9933",
@@ -7552,7 +7535,24 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "052e91e5",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 137.17,
+   "status": "working",
+   "created": "2026-09-15 09:43",
+   "created_ts": 1789479814,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $136.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 09:42"
+ "updated": "2026-09-15 09:43"
 }
