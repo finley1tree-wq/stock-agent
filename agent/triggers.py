@@ -450,11 +450,14 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             # stalls is sold near its high instead of at whatever the clock happens to find.
             after = float(cfg.get("ratchet_after_pct_of_target", 0) or 0)
             keep = float(cfg.get("ratchet_keep_pct_of_gain", 0) or 0)
-            if price > entry and tp > 0 and after > 0 and keep > 0:
-                gain = (price / entry - 1) * 100
-                if gain >= tp * after / 100:
-                    floor_px = max(floor_px, entry * (1 + (gain * keep / 100) / 100))
-                # a ratchet only ever tightens: never re-pin below where the stop already sits
+            if tp > 0 and after > 0 and keep > 0:
+                if price > entry:
+                    gain = (price / entry - 1) * 100
+                    if gain >= tp * after / 100:
+                        floor_px = max(floor_px, entry * (1 + (gain * keep / 100) / 100))
+                # a ratchet only ever tightens: never re-pin below where the stop already sits -
+                # including on a pass where the price has dipped back under the entry, which is
+                # exactly when a locked-in gain matters (2026-09-14/15: 11 stops stepped back down)
                 cur = next((float(o["price"]) for o in mine if o["kind"] == "stop_loss"), 0.0)
                 if cur > 0:
                     floor_px = max(floor_px, cur)
