@@ -28,4 +28,12 @@ jobs:
             echo "::error::VERCEL_DEPLOY_HOOK secret is not set (Vercel > Settings > Git > Deploy Hooks)"
             exit 1
           fi
+          # A pasted secret often carries a trailing newline or spaces, which curl rejects as a
+          # malformed URL. Strip all whitespace, then check the shape without ever printing the link.
+          HOOK="$(printf '%s' "$HOOK" | tr -d '[:space:]')"
+          case "$HOOK" in
+            https://api.vercel.com/v1/integrations/deploy/*) ;;
+            ttps://*) echo "::error::the saved link starts with 'ttps://' - the leading 'h' is missing; edit the secret"; exit 1 ;;
+            *) echo "::error::the saved link is not a Vercel deploy hook (should start https://api.vercel.com/v1/integrations/deploy/); edit the secret"; exit 1 ;;
+          esac
           curl -fsS -X POST "$HOOK" -o /dev/null -w "deploy hook answered HTTP %{http_code}\n"
