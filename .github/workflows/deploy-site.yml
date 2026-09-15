@@ -1,0 +1,31 @@
+name: deploy site
+# Vercel's git integration counted every agent commit (hundreds a day) against the Hobby limit of
+# 100 deployments, even the ones its ignore step cancelled, so real dashboard changes were refused
+# as "rate limited". Git deployments are now off in vercel.json; this job rebuilds the site only when
+# the dashboard itself changes, through a Deploy Hook stored as the VERCEL_DEPLOY_HOOK secret.
+# Agent commits never trigger it: they only touch data files, and pushes made with GITHUB_TOKEN do
+# not start workflows anyway.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "!site/data/**"
+      - "api/**"
+      - "vercel.json"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: trigger the Vercel deploy hook
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::VERCEL_DEPLOY_HOOK secret is not set (Vercel > Settings > Git > Deploy Hooks)"
+            exit 1
+          fi
+          curl -fsS -X POST "$HOOK" -o /dev/null -w "deploy hook answered HTTP %{http_code}\n"
