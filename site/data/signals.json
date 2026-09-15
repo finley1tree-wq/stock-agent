@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T15:11-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,973 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-15T15:16-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,959 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,17 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9c211d7f",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 248.7284,
+   "id": "0799fcdb",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 498.3283,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.39,
-   "pct_away": -0.27,
+   "last": 497.06,
+   "pct_away": 0.26,
    "good_until": "2026-09-20",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,10 +180,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.27,
-   "pct_away": 0.41,
+   "last": 123.32,
+   "pct_away": 0.37,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dfa77987",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 494.2367,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 497.06,
+   "pct_away": -0.57,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,27 +214,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 240.52,
-   "pct_away": 0.58,
+   "last": 240.45,
+   "pct_away": 0.61,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cb3e1182",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 251.2916,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 249.39,
-   "pct_away": 0.76,
-   "good_until": "2026-09-20",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.14,
-   "pct_away": 0.77,
+   "last": 259.44,
+   "pct_away": 0.65,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -248,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.27,
-   "pct_away": -0.89,
+   "last": 123.32,
+   "pct_away": -0.93,
    "good_until": "2026-09-20",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -275,23 +275,6 @@
    ]
   },
   {
-   "id": "7049c8ed",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 254.5291,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 259.14,
-   "pct_away": -1.78,
-   "good_until": "2026-09-20",
-   "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "e6b9f127",
    "ticker": "CRWD",
    "kind": "stop_loss",
@@ -299,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 240.52,
-   "pct_away": -1.87,
+   "last": 240.45,
+   "pct_away": -1.84,
    "good_until": "2026-09-20",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -309,32 +292,32 @@
    ]
   },
   {
-   "id": "38479e41",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 243.0432,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "7049c8ed",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 254.5291,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.39,
-   "pct_away": -2.54,
+   "last": 259.44,
+   "pct_away": -1.89,
    "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "7890ed3c",
-   "ticker": "BE",
+   "id": "1f216434",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 251.4725,
+   "price": 482.2452,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.14,
-   "pct_away": -2.96,
+   "last": 497.06,
+   "pct_away": -2.98,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 123.27,
-   "pct_away": -2.96,
+   "last": 123.32,
+   "pct_away": -3.0,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -377,6 +360,23 @@
    ]
   },
   {
+   "id": "7890ed3c",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 251.4725,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 259.44,
+   "pct_away": -3.07,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "c4748fb2",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -384,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 240.52,
-   "pct_away": -3.12,
+   "last": 240.45,
+   "pct_away": -3.09,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -394,7 +394,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,973 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,959 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -458,7 +458,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 325,
+  "decisions_recorded": 327,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -576,7 +576,7 @@
     "n": 1
    }
   },
-  "idle_checks": 218,
+  "idle_checks": 219,
   "blocked_checks": 0,
   "idle_share": 0.67,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1896,16 +1896,6 @@
    "price": 1.37,
    "transaction_date": "2026-09-14",
    "filing_date": "2026-09-15"
-  },
-  {
-   "who": "Van Horne Edward",
-   "role": "officer: President & COO",
-   "ticker": "GMRS",
-   "type": "sell",
-   "shares": 262278,
-   "price": 12.2,
-   "transaction_date": "2026-09-14",
-   "filing_date": "2026-09-15"
   }
  ],
  "insider_pressure": {
@@ -1972,17 +1962,22 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "AI Slowdown Fears Rise: Buy NVIDIA, HPE That Connect AI and Quantum",
+    "source": "Zacks",
+    "when": "2026-09-15T19:00"
+   },
+   {
     "title": "Amazon Just Ordered Six More Rockets. Why Starlink Should Not Be Worried Yet.",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T18:44"
-   },
-   {
-    "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
-    "source": "TechCrunch",
-    "when": "2026-09-15T18:29"
    }
   ],
   "AVGO": [
+   {
+    "title": "NVIDIA vs. Broadcom: Which AI Stock Should You Buy After Earnings?",
+    "source": "Zacks",
+    "when": "2026-09-15T19:00"
+   },
    {
     "title": "Prediction: AMD Could Be\u00a0Closing the Gap\u00a0in the AI\u00a0Chip Race",
     "source": "24/7 Wall St.",
@@ -1992,11 +1987,6 @@
     "title": "Prediction: Broadcom Could Join the Next Trillion-Dollar Club",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T16:00"
-   },
-   {
-    "title": "Meta Puts Arke and Astrid Into Data Centers in 2027",
-    "source": "GuruFocus.com",
-    "when": "2026-09-15T15:48"
    }
   ],
   "BE": [
@@ -2142,14 +2132,14 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "AI Slowdown Fears Rise: Buy NVIDIA, HPE That Connect AI and Quantum",
+    "source": "Zacks",
+    "when": "2026-09-15T19:00"
+   },
+   {
     "title": "Stripe\u2019s Shared Payment Token Is Quietly Becoming the Default Money Layer for Agent Commerce",
     "source": "Forkast News",
     "when": "2026-09-15T18:48"
-   },
-   {
-    "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
-    "source": "TechCrunch",
-    "when": "2026-09-15T18:29"
    }
   ],
   "HD": [
@@ -2295,14 +2285,14 @@
     "when": "2026-09-15T10:00"
    },
    {
-    "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
-    "source": "TechCrunch",
-    "when": "2026-09-15T18:29"
+    "title": "3M CEO Touts Data-Center Push, Margin Gains and Progress Toward 2027 Targets",
+    "source": "MarketBeat",
+    "when": "2026-09-15T19:02"
    },
    {
-    "title": "Should You Buy Adobe Stock At $260?",
-    "source": "Trefis",
-    "when": "2026-09-15T17:48"
+    "title": "AI Slowdown Fears Rise: Buy NVIDIA, HPE That Connect AI and Quantum",
+    "source": "Zacks",
+    "when": "2026-09-15T19:00"
    }
   ],
   "NEM": [
@@ -2368,9 +2358,9 @@
     "when": "2026-09-15T14:00"
    },
    {
-    "title": "Why Axon Enterprise Stock Was Tumbling Today",
-    "source": "Motley Fool",
-    "when": "2026-09-15T18:54"
+    "title": "NVIDIA vs. Broadcom: Which AI Stock Should You Buy After Earnings?",
+    "source": "Zacks",
+    "when": "2026-09-15T19:00"
    }
   ],
   "O": [
@@ -2477,6 +2467,11 @@
   ],
   "SPY": [
    {
+    "title": "Klarna Is Down 51% This Year. Is KLAR Stock Dead Money or Due for a Bounce?",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-15T19:03"
+   },
+   {
     "title": "Sirius XM Stock Is Up 53% in 2026: Take Profits, or Buy More?",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T18:56"
@@ -2485,11 +2480,6 @@
     "title": "Joby Slips and Is Down 53% This Year as the eVTOL Trade Keeps Unwinding; Archer Dips, EHang Eases",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T16:41"
-   },
-   {
-    "title": "Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-15T16:36"
    }
   ],
   "TPL": [
@@ -2579,5 +2569,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T15:11-04:00"
+ "signalsAsOf": "2026-09-15T15:16-04:00"
 }
