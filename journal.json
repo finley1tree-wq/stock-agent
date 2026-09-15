@@ -7481,8 +7481,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.48,
-    "ret_final": 0.48,
+    "ret_now": 0.37,
+    "ret_final": 0.37,
     "ret_src": "realised"
   },
   {
@@ -8205,8 +8205,8 @@
     "code_version": "5a07a2f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26,
-    "ret_final": 0.26,
+    "ret_now": 0.22,
+    "ret_final": 0.22,
     "ret_src": "realised"
   },
   {
@@ -9001,7 +9001,9 @@
     "code_version": "981c5d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.3
+    "ret_now": 0.17,
+    "ret_final": 0.17,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -9027,7 +9029,7 @@
     "code_version": "3e6505d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.28
   },
   {
     "symbol": "AAPL",
@@ -9131,5 +9133,32 @@
     "hour_et": 12,
     "code_version": "15dda30",
     "hold_minutes": 30
+  },
+  {
+    "symbol": "CRWD",
+    "side": "sell",
+    "qty": 12.459603,
+    "status": "filled",
+    "price": 241.2,
+    "proceeds": 3005.25,
+    "realized_pnl": 5.25,
+    "realized_pct": 0.17,
+    "date": "2026-09-15",
+    "time_et": "12:26",
+    "ts": 1789489500,
+    "why": "close it all at -1.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $240.78",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "539a0e6",
+    "hold_minutes": 19
   }
 ]

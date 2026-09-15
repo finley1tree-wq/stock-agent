@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 6011.83,
+  "spent": 3006.58,
   "deployed": 302809.19,
   "by_ticker": {
     "IBM": 6.92,
@@ -15,7 +15,6 @@
     "NEM": 10.25,
     "CHRW": 4.8,
     "TTD": 6.39,
-    "CRWD": 3000.0,
     "META": 3000.0
   },
   "deployed_by_ticker": {
@@ -3966,13 +3965,34 @@
       ],
       "evidence": "bought 30 min ago, -0.17% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 12.459603,
+      "status": "filled",
+      "price": 241.2,
+      "proceeds": 3005.25,
+      "realized_pnl": 5.25,
+      "realized_pct": 0.17,
+      "date": "2026-09-15",
+      "time_et": "12:26",
+      "ts": 1789489500,
+      "why": "close it all at -1.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $240.78",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-15",
-  "spent_today": 5981.91,
+  "spent_today": 2976.66,
   "deployed_today": 96873.19,
   "orders_today": 33,
-  "sells_today": 30,
+  "sells_today": 31,
   "sold_today": [
     "BE",
     "META",
@@ -4003,20 +4023,17 @@
     "TPL": 1789414420,
     "GRNT": 1789413927,
     "MAIA": 1789406136,
-    "CRWD": 1789482639
+    "CRWD": 1789489561
   },
-  "last_publish_ts": 1789489439,
-  "last_check_ts": 1789489525,
+  "last_publish_ts": 1789489561,
+  "last_check_ts": 1789489608,
   "last_bar_ts": 1789489500,
-  "last_decision_ts": 1789489440,
+  "last_decision_ts": 1789489608,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "fd5fdb3a": 241.32,
-    "0647464b": 242.4582,
     "b96e2d83": 669.4745,
     "c41e7203": 660.7371,
-    "a5a7a929": 646.9706,
-    "ff06548f": 233.5566
+    "a5a7a929": 646.9706
   }
 }

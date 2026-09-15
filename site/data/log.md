@@ -1,17 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25354.41 (+1.42% on $25000.00 in) · cash $25354.41 · realised +354.41
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 11:17 ET (Tuesday) — week 2026-W38 — budget left $24949.41 (today $63873.19 put to work, 22 buys, 21 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5SwGLYKchQ1bLrvsxEQ'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,949 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +13.9% over the month; 68% of today's range
 ~ WORKING take_profit 100% META @ $674.21 until 2026-09-20 — close 100% at +0.4% over the average cost
@@ -398,3 +384,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25381.31 (+1.53% on $25000.00 in) · cash $19393.17 · realised +393.17
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 12:24 ET (Tuesday) — week 2026-W38 — budget left $18988.17 (today $96873.19 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5Xz6S9ReDR2pDXpcXaH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25393.61 (+1.57% on $25000.00 in) · cash $19393.17 · realised +393.17
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $241.20] -> $3005.25 (+0.17%) — close it all at -1.7% under the average cost
+## 2026-09-15 12:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders

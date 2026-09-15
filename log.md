@@ -4568,3 +4568,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25393.61 (+1.57% on $25000.00 in) · cash $19393.17 · realised +393.17
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $241.20] -> $3005.25 (+0.17%) — close it all at -1.7% under the average cost
+## 2026-09-15 12:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 12:26 ET (Tuesday) — week 2026-W38 — budget left $21993.42 (today $96873.19 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5YCVyabYyunDthHgHSN'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25389.32 (+1.56% on $25000.00 in) · cash $22398.42 · realised +398.42
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
