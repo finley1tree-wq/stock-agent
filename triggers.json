@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "9c784472",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 15.435,
-   "status": "cancelled",
-   "created": "2026-09-14 13:35",
-   "created_ts": 1789407351,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $14.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 13:36",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "ba700e28",
    "ticker": "TTD",
    "kind": "stop_loss",
@@ -7305,7 +7286,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 659.4327,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 13:24",
    "created_ts": 1789493071,
    "why": "close it all at -0.9% under the average cost",
@@ -7315,7 +7296,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 13:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "93e90fcc",
@@ -7485,7 +7468,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 176.1781,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-15 13:37",
    "created_ts": 1789493827,
    "why": "close 100% at +0.5% over the average cost",
@@ -7495,7 +7478,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 13:41"
   },
   {
    "id": "f7eedde2",
@@ -7521,7 +7505,7 @@
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 170.0798,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 13:37",
    "created_ts": 1789493827,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7531,14 +7515,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-15 13:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b6693c15",
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 175.592,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-15 13:38",
    "created_ts": 1789493915,
    "why": "close it all at -1.2% under the average cost",
@@ -7548,8 +7534,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-20",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-15 13:41",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "a92d3492",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 666.606,
+   "status": "working",
+   "created": "2026-09-15 13:41",
+   "created_ts": 1789494072,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $665.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-15 13:39"
+ "updated": "2026-09-15 13:41"
 }

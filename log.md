@@ -4916,3 +4916,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25412.41 (+1.65% on $25000.00 in) · cash $16400.87 · realised +400.87
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $176.18] -> $3014.42 (+0.48%) — close 100% at +0.5% over the average cost
+## 2026-09-15 13:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
