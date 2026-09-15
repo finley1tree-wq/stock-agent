@@ -248,7 +248,11 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 .cal-day.blank { background: transparent; border: 0; }
 .cal-day.today { box-shadow: inset 0 0 0 2px var(--accent); }
 .cal-day .n { color: var(--muted); font-size: 11px; }
-.cal-day .pl { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 13px; }
+.cal-day .pl { font-weight: 700; font-variant-numeric: tabular-nums; font-size: clamp(11px, 2.4vw, 15px); white-space: nowrap; overflow: hidden; }
+.cal-day .sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cal-day.jerk { background: rgba(255,69,58,.20); border-color: rgba(255,69,58,.55); }
+.cal-day.jerk .n { color: #ff8a80; }
+.jerk-t { margin: auto 0; text-align: center; color: var(--down); font-weight: 800; letter-spacing: .03em; line-height: 1.05; font-size: clamp(11px, 2.3vw, 17px); }
 .cal-day .pl.up { color: var(--up); } .cal-day .pl.down { color: var(--down); } .cal-day .pl.flat { color: var(--muted); }
 .cal-day .sub { color: var(--faint); font-size: 10.5px; }
 .cal-ms { font-size: 10.5px; line-height: 1.25; padding: 2px 5px; border-radius: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

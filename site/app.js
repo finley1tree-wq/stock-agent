@@ -402,13 +402,17 @@
     let total = 0, up = 0, down = 0, traded = 0;
     for (let n = 1; n <= days; n++) {
       const d = iso(n), dow = (lead + n - 1) % 7, x = day[d], weekend = dow === 0 || dow === 6;
-      let body = "";
-      if (x && (x.sells || x.buys || x.open != null)) {
+      let body = "", tip = d;
+      if (weekend) {
+        body = `<div class="jerk-t">JERK<br>TIME</div>`;                 // the study group - weekends are for school
+      } else if (x && (x.sells || x.buys || x.open != null)) {
         const v = x.pnl + (x.open || 0); total += v; traded++; if (v > 0.005) up++; else if (v < -0.005) down++;
-        body = `<div class="pl ${cls(v)}">${signed(v)}</div><div class="sub">${x.sells} sells${x.sells ? ` · ${Math.round(100 * x.wins / x.sells)}% won` : ""}${x.open != null ? " · incl. open" : ""}</div>`;
-      } else if (hol.has(d)) body = `<div class="sub">market closed</div>`;
+        const a = Math.abs(v), short = a >= 1000 ? (a / 1000).toFixed(1) + "k" : String(Math.round(a));
+        body = `<div class="pl ${cls(v)}">${v < 0 ? "-" : "+"}$${short}</div><div class="sub">${x.sells} sells${x.sells ? ` · ${Math.round(100 * x.wins / x.sells)}%` : ""}${x.open != null ? " · open" : ""}</div>`;
+        tip = `${d}: ${signed(v)}${x.open != null ? " incl. open positions" : ""} · ${x.sells} sells, ${x.buys} buys`;
+      } else if (hol.has(d)) body = `<div class="sub">closed</div>`;
       const chips = (ms[d] || []).map(m => `<div class="cal-ms ${m.k}" title="${esc(m.why)}">${esc(m.t)}</div>`).join("");
-      html.push(`<div class="cal-day${weekend || hol.has(d) ? " off" : ""}${d === todayET ? " today" : ""}" title="${esc(d)}"><div class="n">${n}</div>${body}${chips}</div>`);
+      html.push(`<div class="cal-day${weekend ? " jerk" : hol.has(d) ? " off" : ""}${d === todayET ? " today" : ""}" title="${esc(tip)}"><div class="n">${n}</div>${body}${chips}</div>`);
     }
     box.innerHTML = html.join("");
     const allTime = (+p.realized_pnl || 0) + (anyOpen ? open : 0);
