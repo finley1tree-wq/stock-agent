@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "87705afe",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 14.7664,
-   "status": "filled",
-   "created": "2026-09-14 14:24",
-   "created_ts": 1789410283,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $14.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 14:39"
-  },
-  {
-   "id": "8a0c4a82",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 14.5339,
-   "status": "cancelled",
-   "created": "2026-09-14 14:24",
-   "created_ts": 1789410283,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $14.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-14 14:36",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "93fd6095",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 14.259,
-   "status": "cancelled",
-   "created": "2026-09-14 14:24",
-   "created_ts": 1789410283,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $14.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 14:39",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b806f031",
    "ticker": "META",
    "kind": "stop_loss",
@@ -7548,7 +7492,58 @@
    ],
    "good_until": "2026-09-20",
    "usd": 500.0
+  },
+  {
+   "id": "3481b617",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 175.9973,
+   "status": "working",
+   "created": "2026-09-15 14:26",
+   "created_ts": 1789496793,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $175.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7c800c0f",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 173.0668,
+   "status": "working",
+   "created": "2026-09-15 14:26",
+   "created_ts": 1789496793,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $175.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cc243dfd",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 169.9052,
+   "status": "working",
+   "created": "2026-09-15 14:26",
+   "created_ts": 1789496793,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $175.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-15 14:23"
+ "updated": "2026-09-15 14:26"
 }

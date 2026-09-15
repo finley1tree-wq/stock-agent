@@ -5125,3 +5125,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25406.38 (+1.63% on $25000.00 in) · cash $16418.98 · realised +418.98
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 14:26 ET (Tuesday) — week 2026-W38 — budget left $16013.96 (today $144873.19 put to work, 49 buys, 45 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5hLAXZbkXaACTZc2iUr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,014 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.6% over the month; 79% of today's range
+~ WORKING take_profit 100% PLTR @ $176.00 until 2026-09-20 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% PLTR @ $173.07 until 2026-09-20 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $169.91 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25407.90 (+1.63% on $25000.00 in) · cash $13418.98 · realised +418.98
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13013.96 this week

@@ -1,28 +1,3 @@
-
-## 2026-09-15 13:00 ET (Tuesday) — week 2026-W38 — budget left $15990.92 (today $105873.19 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5ajmiU5UE2VpMnyLmqP'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,991 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.7% over the month; 39% of today's range
-~ WORKING take_profit 100% AAPL @ $330.56 until 2026-09-20 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AAPL @ $327.52 until 2026-09-20 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AAPL @ $319.80 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25401.95 (+1.61% on $25000.00 in) · cash $13395.92 · realised +395.92
-Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12990.92 this week
-- SELL 100% BE [time stop] -> $3004.17 (+0.14%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-15 13:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-15 13:02 ET (Tuesday) — week 2026-W38 — budget left $15995.09 (today $108873.19 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5awXcEWzxHxpWo6GaA3'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25397.98 (+1.59% on $25000.00 in) · cash $16400.09 · realised +400.09
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +373,28 @@ portfolio: equity $25412.34 (+1.65% on $25000.00 in) · cash $13413.56 · realis
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13008.55 this week
 - SELL 100% NEM [time stop] -> $3005.41 (+0.18%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-15 14:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 14:23 ET (Tuesday) — week 2026-W38 — budget left $16013.96 (today $144873.19 put to work, 49 buys, 45 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5h85bZYvxqhqE5CaBR9'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25406.38 (+1.63% on $25000.00 in) · cash $16418.98 · realised +418.98
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 14:26 ET (Tuesday) — week 2026-W38 — budget left $16013.96 (today $144873.19 put to work, 49 buys, 45 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5hLAXZbkXaACTZc2iUr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,014 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.6% over the month; 79% of today's range
+~ WORKING take_profit 100% PLTR @ $176.00 until 2026-09-20 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% PLTR @ $173.07 until 2026-09-20 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $169.91 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25407.90 (+1.63% on $25000.00 in) · cash $13418.98 · realised +418.98
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13013.96 this week
