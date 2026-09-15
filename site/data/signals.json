@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-15T11:37-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,953 idle, so opened 3: BE, MSFT, IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loo",
+ "asOf": "2026-09-15T11:40-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,953 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 499.35,
-   "pct_away": 0.25,
+   "last": 499.4,
+   "pct_away": 0.24,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 248.68,
-   "pct_away": 0.31,
+   "last": 248.65,
+   "pct_away": 0.32,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "33946ac2",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 122.3282,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 121.82,
+   "pct_away": 0.42,
+   "good_until": "2026-09-20",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,27 +197,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 499.35,
-   "pct_away": -0.56,
+   "last": 499.4,
+   "pct_away": -0.57,
    "good_until": "2026-09-20",
    "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "806eab34",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 246.9441,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 248.68,
-   "pct_away": -0.7,
-   "good_until": "2026-09-20",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,10 +214,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 263.69,
-   "pct_away": 0.74,
+   "last": 263.83,
+   "pct_away": 0.68,
    "good_until": "2026-09-20",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "806eab34",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 246.9441,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 248.65,
+   "pct_away": -0.69,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c97eedd6",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 120.7244,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 121.82,
+   "pct_away": -0.9,
+   "good_until": "2026-09-20",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 263.69,
-   "pct_away": -1.77,
+   "last": 263.83,
+   "pct_away": -1.82,
    "good_until": "2026-09-20",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -241,32 +275,15 @@
    ]
   },
   {
-   "id": "c6d3bb5f",
-   "ticker": "BE",
+   "id": "75d47c8e",
+   "ticker": "NEM",
    "kind": "buy_limit",
-   "price": 255.8278,
+   "price": 118.2139,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 263.69,
-   "pct_away": -2.98,
-   "good_until": "2026-09-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4cc15e4f",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 484.4665,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 499.35,
-   "pct_away": -2.98,
+   "last": 121.82,
+   "pct_away": -2.96,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -282,8 +299,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 248.68,
-   "pct_away": -2.98,
+   "last": 248.65,
+   "pct_away": -2.97,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4cc15e4f",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 484.4665,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 499.4,
+   "pct_away": -2.99,
+   "good_until": "2026-09-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c6d3bb5f",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 255.8278,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 263.83,
+   "pct_away": -3.03,
    "good_until": "2026-09-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,953 idle, so opened 3: BE, MSFT, IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loo",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,953 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -355,7 +406,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 248,
+  "decisions_recorded": 249,
   "decisions_graded": 202,
   "decisions_with_buys_graded": 65,
   "independent_days_graded": 5,
@@ -2027,6 +2078,11 @@
   ],
   "AMD": [
    {
+    "title": "The Fund\u2019s Largest Relative Detractor: Unowned Advanced Micro Devices (AMD)",
+    "source": "Insider Monkey",
+    "when": "2026-09-15T15:26"
+   },
+   {
     "title": "Marvell Technology Has Imploded Since June: One Defiant Wall Street Pro Says It\u2019ll Double From Today",
     "source": "24/7 Wall St.",
     "when": "2026-09-15T14:45"
@@ -2035,11 +2091,6 @@
     "title": "MU Stock Rises After Micron Debuts 512GB DDR5 Server Memory \u2013 AMD, Intel To Validate New Server Technology",
     "source": "Stocktwits",
     "when": "2026-09-15T14:23"
-   },
-   {
-    "title": "AMD's Recent Surge Still Matters: Putting These ETFs in Focus",
-    "source": "Zacks",
-    "when": "2026-09-15T14:15"
    }
   ],
   "AMZN": [
@@ -2049,14 +2100,14 @@
     "when": "2026-09-15T10:00"
    },
    {
+    "title": "Nvidia Rebounds, but AI's $1.08 Trillion Boom Faces Its First Brake",
+    "source": "GuruFocus.com",
+    "when": "2026-09-15T15:36"
+   },
+   {
     "title": "Salesforce Broadens Alliances With Nvidia, Google Cloud, AWS for Enterprise AI Integration",
     "source": "MT Newswires",
     "when": "2026-09-15T15:13"
-   },
-   {
-    "title": "Amazon calls timeout on 21 Air cargo contract",
-    "source": "FreightWaves",
-    "when": "2026-09-15T14:16"
    }
   ],
   "AVGO": [
@@ -2360,9 +2411,9 @@
     "when": "2026-09-15T10:00"
    },
    {
-    "title": "Meta To Reportedly Launch New AI Chip In 2027, Aims To Beat Nvidia On Efficiency",
-    "source": "Stocktwits",
-    "when": "2026-09-15T15:10"
+    "title": "Nvidia Rebounds, but AI's $1.08 Trillion Boom Faces Its First Brake",
+    "source": "GuruFocus.com",
+    "when": "2026-09-15T15:36"
    }
   ],
   "MSFT": [
@@ -2377,9 +2428,9 @@
     "when": "2026-09-14T15:45"
    },
    {
-    "title": "Will CoreWeave's Margins Continue Expanding Through 2026?",
-    "source": "Zacks",
-    "when": "2026-09-15T14:52"
+    "title": "Microsoft Slips After Drawing a Line Around Its Own AI",
+    "source": "GuruFocus.com",
+    "when": "2026-09-15T15:37"
    }
   ],
   "NEM": [
@@ -2440,14 +2491,14 @@
     "when": "2026-09-15T15:30"
    },
    {
+    "title": "Nvidia Rebounds, but AI's $1.08 Trillion Boom Faces Its First Brake",
+    "source": "GuruFocus.com",
+    "when": "2026-09-15T15:36"
+   },
+   {
     "title": "Salesforce Slips as Dreamforce Puts Its $3.9 Billion AI Engine on Trial",
     "source": "GuruFocus.com",
     "when": "2026-09-15T15:35"
-   },
-   {
-    "title": "Why Did Robinhood Markets Stock Drop Today?",
-    "source": "Motley Fool",
-    "when": "2026-09-15T15:23"
    }
   ],
   "O": [
@@ -2639,5 +2690,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-15T11:37-04:00"
+ "signalsAsOf": "2026-09-15T11:40-04:00"
 }

@@ -1,20 +1,3 @@
-Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $970.08 this week
-
-## 2026-09-15 10:29 ET (Tuesday) — week 2026-W38 — budget left $970.08 (today $57873.19 put to work, 20 buys, 11 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5PEVMsy7msoXtP2p8e8'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25367.68 (+1.47% on $25000.00 in) · cash $1375.09 · realised +375.09
-Decision: nothing at this check. 24 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on CRWD: position closed)
-- SELL 100% CRWD [stop_loss @ $236.33] -> $3007.85 (+0.26%) — close it all at -1.7% under the average cost
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $667.97] -> $3001.96 (+0.07%) — close it all at -0.9% under the average cost
 ## 2026-09-15 10:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 IBM @ $241.27 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25355.80 (+1.42% on $25000.00 in) · cash $16357.60 · realised +357.60
 Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15952.60 this week
+
+## 2026-09-15 11:40 ET (Tuesday) — week 2026-W38 — budget left $15952.60 (today $75873.19 put to work, 26 buys, 22 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (JANL excluded: too thinly traded ($0.0M a day) — Janel Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5UdXN9Y4iaJ42Wq4jZ7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,953 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.5% over the month; 16% of today's range
+~ WORKING take_profit 100% NEM @ $122.33 until 2026-09-20 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $120.72 until 2026-09-20 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $118.21 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25356.13 (+1.42% on $25000.00 in) · cash $13357.60 · realised +357.60
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12952.60 this week
