@@ -1,28 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25407.17 (+1.63% on $25000.00 in) · cash $16395.92 · realised +395.92
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 12:54 ET (Tuesday) — week 2026-W38 — budget left $15990.92 (today $105873.19 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5aKXvam9v5gB84j1zwn'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25410.26 (+1.64% on $25000.00 in) · cash $16395.92 · realised +395.92
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 12:57 ET (Tuesday) — week 2026-W38 — budget left $15990.92 (today $105873.19 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5aXZdN5tMtvwreyYQb8'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25406.02 (+1.62% on $25000.00 in) · cash $16395.92 · realised +395.92
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +373,28 @@ portfolio: equity $25419.07 (+1.68% on $25000.00 in) · cash $13422.45 · realis
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13017.44 this week
 - SELL 100% BE [time stop] -> $2991.11 (-0.30%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-15 14:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-15 14:18 ET (Tuesday) — week 2026-W38 — budget left $16008.55 (today $141873.19 put to work, 48 buys, 44 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5giB91rT6QrEyYu94SR'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25413.07 (+1.65% on $25000.00 in) · cash $16413.56 · realised +413.56
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-15 14:21 ET (Tuesday) — week 2026-W38 — budget left $16008.55 (today $141873.19 put to work, 48 buys, 44 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5gvP6gvfMvJ39VgUNjA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,009 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +5.7% over the month; 3% of today's range
+~ WORKING take_profit 100% HLI @ $136.46 until 2026-09-20 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $134.93 until 2026-09-20 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $131.94 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25412.34 (+1.65% on $25000.00 in) · cash $13413.56 · realised +413.56
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13008.55 this week
