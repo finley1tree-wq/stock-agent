@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T12:29-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,989 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "asOf": "2026-09-16T12:35-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,989 idle, so opened 2: NEM, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,17 +139,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "0771807e",
-   "ticker": "CHRW",
+   "id": "cece0537",
+   "ticker": "GOOGL",
    "kind": "take_profit",
-   "price": 154.0749,
+   "price": 346.4094,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 153.53,
-   "pct_away": 0.35,
+   "last": 345.51,
+   "pct_away": 0.26,
    "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0e092e8e",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.3584,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 122.85,
+   "pct_away": 0.41,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,10 +180,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 153.53,
-   "pct_away": -0.59,
+   "last": 153.3,
+   "pct_away": -0.44,
    "good_until": "2026-09-21",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0771807e",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 154.0749,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.3,
+   "pct_away": 0.51,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f792f63f",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 343.5031,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 345.51,
+   "pct_away": -0.58,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,10 +231,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 269.79,
-   "pct_away": 0.72,
+   "last": 269.52,
+   "pct_away": 0.82,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7ea98f2f",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 121.7546,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 122.85,
+   "pct_away": -0.89,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 269.79,
-   "pct_away": -1.74,
+   "last": 269.52,
+   "pct_away": -1.64,
    "good_until": "2026-09-21",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -214,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 153.53,
-   "pct_away": -2.92,
+   "last": 153.3,
+   "pct_away": -2.77,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -231,7 +299,41 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 269.79,
+   "last": 269.52,
+   "pct_away": -2.88,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d12522f8",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 119.213,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 122.85,
+   "pct_away": -2.96,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d37cf1c9",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 335.2126,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 345.51,
    "pct_away": -2.98,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -241,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,989 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,989 idle, so opened 2: NEM, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -289,26 +391,27 @@
   "congress_notes": "",
   "insiders": "ok",
   "excluded_instruments": [
-   "AIM excluded: too thinly traded ($1.0M a day) \u2014 AIM ImmunoTech Inc.",
    "AORT excluded: too thinly traded ($17.9M a day) \u2014 Artivion, Inc.",
+   "ARDC excluded: too thinly traded ($1.2M a day) \u2014 Ares Dynamic Credit Allocation Fund, Inc.",
+   "ASYS excluded: too thinly traded ($6.1M a day) \u2014 Amtech Systems, Inc.",
    "BDN excluded: too thinly traded ($5.8M a day) \u2014 Brandywine Realty Trust",
    "EPAC excluded: too thinly traded ($16.4M a day) \u2014 Enerpac Tool Group Corp.",
-   "GAIA excluded: too thinly traded ($0.2M a day) \u2014 Gaia, Inc.",
    "HMN excluded: too thinly traded ($13.6M a day) \u2014 Horace Mann Educators Corporation",
+   "RDGL excluded: too thinly traded ($0.1M a day) \u2014 Vivos Inc.",
    "RICK excluded: too thinly traded ($1.5M a day) \u2014 RCI Hospitality Holdings, Inc.",
    "TLAC excluded: no security information"
   ]
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 407,
-  "decisions_graded": 335,
+  "decisions_recorded": 409,
+  "decisions_graded": 333,
   "decisions_with_buys_graded": 102,
-  "independent_days_graded": 6,
+  "independent_days_graded": 5,
   "avg_regret_pct": 0.26,
   "chosen_avg_pct": -0.41,
   "skipped_avg_pct": -0.15,
-  "idle_universe_avg_pct": -0.03,
+  "idle_universe_avg_pct": -0.02,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -400,28 +503,28 @@
   ],
   "sectors_most_often_missed": {
    "off-watchlist": {
-    "n": 24
+    "n": 23
    },
    "widely_held": {
     "n": 8
    },
    "gold": {
-    "n": 4
-   },
-   "defense": {
     "n": 2
    },
    "real_estate": {
     "n": 1
+   },
+   "defense": {
+    "n": 1
    }
   },
-  "idle_checks": 269,
+  "idle_checks": 268,
   "blocked_checks": 0,
   "idle_share": 0.67,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
-  "warning": "only 6 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+  "warning": "only 5 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
  },
  "disclosure_leaderboard": [
   {
@@ -1327,6 +1430,66 @@
  },
  "insider_trades": [
   {
+   "who": "Smith Gregory Stephen",
+   "role": "director, officer: President and CEO",
+   "ticker": "TER",
+   "type": "sell",
+   "shares": 4000,
+   "price": 337.83,
+   "transaction_date": "2026-09-15",
+   "filing_date": "2026-09-16"
+  },
+  {
+   "who": "MATZ MARILYN",
+   "role": "director",
+   "ticker": "TER",
+   "type": "sell",
+   "shares": 800,
+   "price": 337.83,
+   "transaction_date": "2026-09-15",
+   "filing_date": "2026-09-16"
+  },
+  {
+   "who": "SABOL THOMAS B",
+   "role": "officer: Chief Financial Officer",
+   "ticker": "ASYS",
+   "type": "buy",
+   "shares": 2000,
+   "price": 14.135,
+   "transaction_date": "2026-09-14",
+   "filing_date": "2026-09-16"
+  },
+  {
+   "who": "Spyrou Symeon",
+   "role": "officer: co CFO",
+   "ticker": "SBLK",
+   "type": "buy",
+   "shares": 15000,
+   "price": 28.27,
+   "transaction_date": "2026-09-15",
+   "filing_date": "2026-09-16"
+  },
+  {
+   "who": "Weeks Brad Allan",
+   "role": "officer: President",
+   "ticker": "RDGL",
+   "type": "buy",
+   "shares": 25550,
+   "price": 0.0482,
+   "transaction_date": "2026-09-16",
+   "filing_date": "2026-09-16"
+  },
+  {
+   "who": "THRIVENT FINANCIAL FOR LUTHERANS",
+   "role": "10 percent owner",
+   "ticker": "ARDC",
+   "type": "buy",
+   "shares": 240000,
+   "price": 25,
+   "transaction_date": "2026-09-14",
+   "filing_date": "2026-09-16"
+  },
+  {
    "who": "Three Lions Sponsor, LLC",
    "role": "director",
    "ticker": "TLAC",
@@ -1415,148 +1578,18 @@
    "price": 11.15,
    "transaction_date": "2026-09-15",
    "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Sutherland Paul Howard",
-   "role": "director",
-   "ticker": "GAIA",
-   "type": "buy",
-   "shares": 11000,
-   "price": 1.2294,
-   "transaction_date": "2026-09-14",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Sutherland Paul Howard",
-   "role": "director",
-   "ticker": "GAIA",
-   "type": "buy",
-   "shares": 100,
-   "price": 1.245,
-   "transaction_date": "2026-09-14",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "MARLEY BRIAN T",
-   "role": "director",
-   "ticker": "ASO",
-   "type": "sell",
-   "shares": 3932,
-   "price": 54,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "MARLEY BRIAN T",
-   "role": "director",
-   "ticker": "ASO",
-   "type": "sell",
-   "shares": 6500,
-   "price": 52.8,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Equels Thomas K",
-   "role": "director, officer: CEO & President",
-   "ticker": "AIM",
-   "type": "buy",
-   "shares": 22000,
-   "price": 0.221,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 100,
-   "price": 37.1,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 194,
-   "price": 37.17,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 200,
-   "price": 37.18,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 195,
-   "price": 37.19,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 106,
-   "price": 37.25,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 405,
-   "price": 37.3,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 600,
-   "price": 37.36,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
-  },
-  {
-   "who": "Kessel William B",
-   "role": "director, officer: President & CEO",
-   "ticker": "IBCP",
-   "type": "sell",
-   "shares": 100,
-   "price": 37.38,
-   "transaction_date": "2026-09-15",
-   "filing_date": "2026-09-16"
   }
  ],
  "insider_pressure": {
-  "SBLK": 2.0,
-  "GAIA": 2.0,
+  "SBLK": 3.0,
+  "ASYS": 1.0,
+  "RDGL": 1.0,
+  "ARDC": 1.0,
   "TLAC": 1.0,
   "RICK": 1.0,
   "BDN": 1.0,
-  "AIM": 1.0,
-  "NMAX": -2.0,
-  "ASO": -2.0,
-  "IBCP": -8.0
+  "TER": -2.0,
+  "NMAX": -2.0
  },
  "headlines": {
   "AAPL": [
@@ -1928,9 +1961,9 @@
     "when": "2026-09-16T10:00"
    },
    {
-    "title": "Amazon raises starting pay to $20 an hour and adds Whole Foods perks",
-    "source": "CBS News",
-    "when": "2026-09-16T15:56"
+    "title": "3 Reasons Investors Love Microsoft (MSFT)",
+    "source": "StockStory",
+    "when": "2026-09-16T16:28"
    }
   ],
   "NEM": [
@@ -1996,8 +2029,8 @@
     "when": "2026-09-16T09:44"
    },
    {
-    "title": "Where Will Novo Nordisk Be in 5 Years as the GLP-1 Market Gets More Crowded?",
-    "source": "Motley Fool",
+    "title": "Q2 Earnings Roundup: Nvidia (NASDAQ:NVDA) And The Rest Of The Processors and Graphics Chips Segment",
+    "source": "StockStory",
     "when": "2026-09-16T16:20"
    }
   ],
@@ -2071,6 +2104,11 @@
   ],
   "RTX": [
    {
+    "title": "SpaceX Regains $150 IPO Open Price as Defense Dept. Confirms Space-Based Weapons",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-16T16:26"
+   },
+   {
     "title": "5 Elite Dividend Stocks Backed by America\u2019s Massive Defense Budget",
     "source": "24/7 Wall St.",
     "when": "2026-09-16T16:05"
@@ -2079,11 +2117,6 @@
     "title": "RTX (RTX) Upgraded to Buy: Here's Why",
     "source": "Zacks",
     "when": "2026-09-16T16:00"
-   },
-   {
-    "title": "Can Navy Network Modernization Support Leidos' Growth Outlook?",
-    "source": "Zacks",
-    "when": "2026-09-16T14:22"
    }
   ],
   "SBLK": [
@@ -2207,5 +2240,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T12:29-04:00"
+ "signalsAsOf": "2026-09-16T12:35-04:00"
 }

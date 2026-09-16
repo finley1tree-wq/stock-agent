@@ -6838,3 +6838,24 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25401.86 (+1.61% on $25000.00 in) · cash $19417.19 · realised +417.19
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-16 12:35 ET (Wednesday) — week 2026-W38 — budget left $18989.41 (today $117445.83 put to work, 40 buys, 38 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7SeV6n2ZFAYoLyB2t2Q'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,989 idle, so opened 2: NEM, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.1% over the month; 6% of today's range
+- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.4% over the month; 38% of today's range
+~ WORKING take_profit 100% NEM @ $123.36 until 2026-09-21 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $121.75 until 2026-09-21 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.21 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $346.41 until 2026-09-21 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $343.50 until 2026-09-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $335.21 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25404.73 (+1.62% on $25000.00 in) · cash $13417.19 · realised +417.19
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $12989.41 this week
