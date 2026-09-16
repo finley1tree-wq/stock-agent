@@ -7092,7 +7092,7 @@
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 346.4094,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:35",
    "created_ts": 1789576512,
    "why": "close 100% at +0.2% over the average cost",
@@ -7102,14 +7102,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 13:04",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f792f63f",
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 343.5031,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:35",
    "created_ts": 1789576512,
    "why": "close it all at -0.6% under the average cost",
@@ -7119,14 +7121,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 13:04",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d37cf1c9",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 335.2126,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:35",
    "created_ts": 1789576512,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7136,7 +7140,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 13:04",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5911fd88",
