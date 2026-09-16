@@ -6761,3 +6761,17 @@ Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13008.98 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $240.82] -> $3001.36 (+0.05%) — close it all at -0.8% under the average cost
 ## 2026-09-16 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 12:21 ET (Wednesday) — week 2026-W38 — budget left $16010.34 (today $114445.83 put to work, 39 buys, 36 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7RbrqHFbbJEG8xeHs1x'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25419.77 (+1.68% on $25000.00 in) · cash $16438.12 · realised +438.12
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
