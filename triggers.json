@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "f8a2d073",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 123.1589,
-   "status": "cancelled",
-   "created": "2026-09-15 12:37",
-   "created_ts": 1789490264,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $122.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 13:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c6d9dd1f",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 121.554,
-   "status": "cancelled",
-   "created": "2026-09-15 12:37",
-   "created_ts": 1789490264,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $122.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 13:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "727ae916",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -7394,7 +7356,7 @@
    "ticker": "CHRW",
    "kind": "take_profit",
    "price": 153.6067,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 13:33",
    "created_ts": 1789580003,
    "why": "close 100% at +0.3% over the average cost",
@@ -7404,7 +7366,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 13:45",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ed786ff0",
@@ -7541,7 +7505,43 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "d810c3bf",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 160.8495,
+   "status": "cancelled",
+   "created": "2026-09-16 13:45",
+   "created_ts": 1789580733,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $153.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 13:46",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "9d2a4afd",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 153.6051,
+   "status": "working",
+   "created": "2026-09-16 13:46",
+   "created_ts": 1789580779,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $153.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 13:44"
+ "updated": "2026-09-16 13:46"
 }
