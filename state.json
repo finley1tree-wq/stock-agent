@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12033.43,
+  "spent": 6018.41,
   "deployed": 531255.02,
   "by_ticker": {
     "GOOGL": 25.62,
@@ -16,10 +16,9 @@
     "TTD": 4.43,
     "SKWD": 22.98,
     "AAPL": 4.73,
-    "CRWD": 3014.0,
+    "CRWD": 0.64,
     "CHRW": 21.74,
-    "SBLK": 16.85,
-    "IBM": 3000.0
+    "SBLK": 16.85
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -6856,13 +6855,54 @@
       ],
       "evidence": "bought 30 min ago, +0.30% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 12.461673,
+      "status": "filled",
+      "price": 240.87,
+      "proceeds": 3001.66,
+      "realized_pnl": 1.66,
+      "realized_pct": 0.06,
+      "date": "2026-09-16",
+      "time_et": "13:30",
+      "ts": 1789579800,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $240.74",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 12.442546,
+      "status": "filled",
+      "price": 242.18,
+      "proceeds": 3013.36,
+      "realized_pnl": 13.36,
+      "realized_pct": 0.45,
+      "date": "2026-09-16",
+      "time_et": "13:30",
+      "ts": 1789579838,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.47% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 12033.43,
+  "spent_today": 6018.41,
   "deployed_today": 150445.83,
   "orders_today": 51,
-  "sells_today": 47,
+  "sells_today": 49,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -6886,7 +6926,7 @@
     "CHRW": 1789577213,
     "TTD": 1789579140,
     "AMD": 1789576101,
-    "IBM": 1789575610,
+    "IBM": 1789579838,
     "AAPL": 1789577428,
     "BE": 1789577960,
     "NEM": 1789578079,
@@ -6896,29 +6936,23 @@
     "TPL": 1789500735,
     "GRNT": 1789413927,
     "MAIA": 1789406136,
-    "CRWD": 1789575279,
+    "CRWD": 1789579838,
     "PLTR": 1789498579,
     "SKWD": 1789566945,
     "SBLK": 1789578625
   },
-  "last_publish_ts": 1789579672,
-  "last_check_ts": 1789579758,
-  "last_bar_ts": 1789579500,
-  "last_decision_ts": 1789579674,
+  "last_publish_ts": 1789579838,
+  "last_check_ts": 1789579840,
+  "last_bar_ts": 1789579800,
+  "last_decision_ts": 1789579840,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0053c0c1": 240.992,
-    "7a7dd9ec": 242.7905,
-    "19e4a8c6": 241.4983,
-    "0ded1d6a": 241.68,
     "e9e5f24c": 134.2823,
     "2d4240ca": 525.1179,
     "5d65fa06": 132.6991,
     "a2b1e48c": 517.2904,
     "e01ac270": 507.1936,
-    "4f6fa7d8": 129.8151,
-    "d7d2ccd5": 233.5178,
-    "941df580": 233.8767
+    "4f6fa7d8": 129.8151
   }
 }
