@@ -1,6 +1,3 @@
-## 2026-09-16 11:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on SBLK: position closed)
-- SELL 100% SBLK [stop_loss @ $31.17] -> $3001.15 (+0.04%) — close it all at -0.8% under the average cost
 ## 2026-09-16 11:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-16 11:55 ET (Wednesday) — week 2026-W38 — budget left $13018.24 (today $105445.83 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 CRWD @ $233.88 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25404.75 (+1.62% on $25000.00 in) · cash $4406.71 · realised +406.71
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3978.94 this week
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [stop_loss @ $122.98] -> $3002.03 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-09-16 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

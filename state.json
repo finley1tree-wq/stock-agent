@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 21021.06,
+  "spent": 18019.03,
   "deployed": 522255.02,
   "by_ticker": {
     "GOOGL": 3022.25,
@@ -10,7 +10,7 @@
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 32.09,
-    "NEM": 3014.25,
+    "NEM": 12.22,
     "MSFT": 3008.79,
     "PLTR": 10.45,
     "TTD": 3012.09,
@@ -6683,13 +6683,34 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +12.7% over the month; 57% of today's range"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.41026,
+      "status": "filled",
+      "price": 122.98,
+      "proceeds": 3002.03,
+      "realized_pnl": 2.03,
+      "realized_pct": 0.07,
+      "date": "2026-09-16",
+      "time_et": "13:01",
+      "ts": 1789578000,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $122.9",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 21021.06,
+  "spent_today": 18019.03,
   "deployed_today": 141445.83,
   "orders_today": 48,
-  "sells_today": 41,
+  "sells_today": 42,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -6716,7 +6737,7 @@
     "IBM": 1789575610,
     "AAPL": 1789577428,
     "BE": 1789577960,
-    "NEM": 1789573660,
+    "NEM": 1789578079,
     "MSFT": 1789574355,
     "FLD": 1789399070,
     "GOOGL": 1789573782,
@@ -6728,15 +6749,13 @@
     "SKWD": 1789566945,
     "SBLK": 1789574112
   },
-  "last_publish_ts": 1789578040,
-  "last_check_ts": 1789578040,
+  "last_publish_ts": 1789578078,
+  "last_check_ts": 1789578124,
   "last_bar_ts": 1789578000,
   "last_decision_ts": 1789578040,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "d9ee4f11": 123.044,
-    "0e092e8e": 123.3584,
     "cece0537": 346.4094,
     "fab55514": 495.096,
     "00a4a8cf": 678.9882,
@@ -6751,10 +6770,9 @@
     "4b91df49": 236.9099,
     "37631db2": 30.1864,
     "d5ffef1b": 479.1315,
-    "941df580": 233.8767,
+    "5c059c70": 656.3214,
     "d37cf1c9": 335.2126,
     "df826da6": 14.4627,
-    "5c059c70": 656.3214,
-    "d12522f8": 119.213
+    "941df580": 233.8767
   }
 }
