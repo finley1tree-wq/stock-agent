@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "d176e0f6",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 119.6204,
-   "status": "cancelled",
-   "created": "2026-09-15 15:30",
-   "created_ts": 1789500611,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $123.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "1ee3934a",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.2452,
-   "status": "cancelled",
-   "created": "2026-09-15 15:30",
-   "created_ts": 1789500611,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $497.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "c6f8135a",
    "ticker": "TPL",
    "kind": "buy_limit",
@@ -7530,9 +7492,47 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 474.8732,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 15:43",
    "created_ts": 1789587796,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $489.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0,
+   "closed": "2026-09-16 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "0ccf57af",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 474.8732,
+   "status": "cancelled",
+   "created": "2026-09-16 15:43",
+   "created_ts": 1789587831,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $489.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0,
+   "closed": "2026-09-16 15:44",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "705dc995",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 474.8732,
+   "status": "working",
+   "created": "2026-09-16 15:44",
+   "created_ts": 1789587877,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $489.56",
    "signals": [
@@ -7543,5 +7543,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-16 15:43"
+ "updated": "2026-09-16 15:44"
 }
