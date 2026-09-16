@@ -1,6 +1,3 @@
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
   (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
   (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
   (inside the last max_hold_minutes of the session: no new entries at this check)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $133.64] -> $3009.83 (+0.33%) — close 100% at +0.3% over the average cost
 ## 2026-09-16 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on SKWD: position closed)
+- SELL 100% SKWD [stop_loss @ $57.42] -> $2977.02 (-0.77%) — close it all at -0.7% under the average cost
+## 2026-09-16 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders

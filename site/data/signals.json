@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-16T09:53-04:00",
+ "asOf": "2026-09-16T09:55-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -137,59 +137,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "d207f86e",
-   "ticker": "SKWD",
-   "kind": "stop_loss",
-   "price": 57.4533,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 57.54,
-   "pct_away": -0.15,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8e83bccd",
-   "ticker": "SKWD",
-   "kind": "take_profit",
-   "price": 58.0367,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 57.54,
-   "pct_away": 0.86,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b2723771",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 56.1339,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 57.54,
-   "pct_away": -2.44,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
  "congress_trades": [
