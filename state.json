@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 8987.01,
-  "deployed": 416809.19,
+  "spent": 11987.01,
+  "deployed": 419809.19,
   "by_ticker": {
     "IBM": 17.8,
     "GOOGL": 22.49,
@@ -15,7 +15,8 @@
     "NEM": 3008.45,
     "MSFT": 9.98,
     "PLTR": 10.45,
-    "TTD": 19.92
+    "TTD": 19.92,
+    "SKWD": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -35,7 +36,8 @@
     "GRNT": 9000.0,
     "MAIA": 6000.0,
     "CRWD": 18000.0,
-    "PLTR": 6000.0
+    "PLTR": 6000.0,
+    "SKWD": 3000.0
   },
   "orders": [
     {
@@ -5385,12 +5387,30 @@
       ],
       "evidence": "average cost $240.02",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "SKWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 51.842294,
+      "price": 57.87,
+      "date": "2026-09-16",
+      "time_et": "09:47",
+      "ts": 1789566434,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +0.4% over the month; 75% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 8934.73,
-  "deployed_today": 36000.0,
-  "orders_today": 12,
+  "spent_today": 11934.73,
+  "deployed_today": 39000.0,
+  "orders_today": 13,
   "sells_today": 9,
   "sold_today": [
     "CHRW",
@@ -5423,22 +5443,25 @@
     "CRWD": 1789566354,
     "PLTR": 1789498579
   },
-  "last_publish_ts": 1789566353,
-  "last_check_ts": 1789566353,
+  "last_publish_ts": 1789566434,
+  "last_check_ts": 1789566434,
   "last_bar_ts": 1789566300,
-  "last_decision_ts": 1789566268,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789566434,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "0c67d5f6": 523.52,
+    "67c80fa2": 522.37,
     "50053ba9": 124.2753,
-    "75be5da3": 133.6396,
+    "8e83bccd": 58.0367,
     "c0d533d2": 132.1011,
-    "f3fffd58": 125.8364,
-    "8a709db6": 515.8201,
+    "75be5da3": 133.6396,
+    "d207f86e": 57.4533,
+    "85e016ce": 125.8376,
     "95533767": 513.1217,
     "af927aaa": 121.6283,
     "fda42ddc": 129.204,
+    "b2723771": 56.1339,
     "63138a6e": 505.6804
   }
 }
