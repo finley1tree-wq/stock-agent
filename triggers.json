@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "8ca9a728",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 259.0773,
-   "status": "cancelled",
-   "created": "2026-09-15 10:21",
-   "created_ts": 1789482066,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $267.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 10:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e9caa357",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 249.4238,
-   "status": "cancelled",
-   "created": "2026-09-15 10:21",
-   "created_ts": 1789482066,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $248.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 10:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7074973a",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 246.9243,
-   "status": "cancelled",
-   "created": "2026-09-15 10:21",
-   "created_ts": 1789482066,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $248.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 10:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "16560ae8",
    "ticker": "IBM",
    "kind": "buy_limit",
@@ -7522,7 +7465,58 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "10a6439a",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 123.8089,
+   "status": "working",
+   "created": "2026-09-16 11:36",
+   "created_ts": 1789572968,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $123.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "96b99358",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 122.2041,
+   "status": "working",
+   "created": "2026-09-16 11:36",
+   "created_ts": 1789572968,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $123.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "85e16824",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 119.6495,
+   "status": "working",
+   "created": "2026-09-16 11:36",
+   "created_ts": 1789572968,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $123.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 11:33"
+ "updated": "2026-09-16 11:36"
 }

@@ -1,20 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7H8qxmAEm6hgT3eCXmy'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25393.45 (+1.57% on $25000.00 in) · cash $9940.81 · realised +386.64
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $241.29] -> $3009.50 (+0.32%) — close 100% at +0.3% over the average cost
-## 2026-09-16 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $345.93] -> $3007.24 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-16 10:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 10:33 ET (Wednesday) — week 2026-W38 — budget left $15552.54 (today $57445.83 put to work, 20 buys, 16 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $478.98 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25425.79 (+1.70% on $25000.00 in) · cash $7439.43 · realised +439.43
 Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $7011.65 this week
+
+## 2026-09-16 11:36 ET (Wednesday) — week 2026-W38 — budget left $7011.65 (today $93445.83 put to work, 32 buys, 26 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7N9W9kdsZukLnwQCjd4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,012 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.5% over the month; 20% of today's range
+~ WORKING take_profit 100% NEM @ $123.81 until 2026-09-21 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $122.20 until 2026-09-21 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.65 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25435.52 (+1.74% on $25000.00 in) · cash $4439.43 · realised +439.43
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $4011.65 this week
