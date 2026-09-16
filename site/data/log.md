@@ -1,5 +1,3 @@
-~ WORKING stop_loss 100% SKWD @ $57.45 until 2026-09-21 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 SKWD @ $56.13 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25402.23 (+1.61% on $25000.00 in) · cash $13418.00 · realised +418.00
 Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $13012.99 this week
 
@@ -398,3 +396,5 @@ Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13012.05 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $123.57] -> $3011.18 (+0.37%) — close 100% at +0.4% over the average cost
 ## 2026-09-16 10:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% META [time stop] -> $2997.79 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

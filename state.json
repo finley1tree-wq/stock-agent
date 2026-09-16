@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 8976.77,
+  "spent": 5978.98,
   "deployed": 450255.02,
   "by_ticker": {
     "IBM": 8.3,
@@ -17,7 +17,7 @@
     "PLTR": 10.45,
     "TTD": 15.74,
     "SKWD": 22.98,
-    "META": 3000.0
+    "META": 2.21
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -5849,13 +5849,33 @@
       ],
       "evidence": "average cost $123.11",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.412959,
+      "status": "filled",
+      "price": 679.31,
+      "proceeds": 2997.79,
+      "realized_pnl": -2.21,
+      "realized_pct": -0.07,
+      "date": "2026-09-16",
+      "time_et": "10:52",
+      "ts": 1789570334,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.05% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 8952.96,
+  "spent_today": 5955.17,
   "deployed_today": 69445.83,
   "orders_today": 24,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -5874,7 +5894,7 @@
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789566816,
-    "META": 1789565749,
+    "META": 1789570334,
     "CHRW": 1789569357,
     "TTD": 1789570013,
     "AMD": 1789566609,
@@ -5892,21 +5912,18 @@
     "PLTR": 1789498579,
     "SKWD": 1789566945
   },
-  "last_publish_ts": 1789570255,
-  "last_check_ts": 1789570255,
+  "last_publish_ts": 1789570334,
+  "last_check_ts": 1789570335,
   "last_bar_ts": 1789570200,
-  "last_decision_ts": 1789570172,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789570335,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "facd8020": 134.6108,
-    "e27945dc": 682.1858,
     "d8201943": 525.5646,
-    "a5bee7d6": 673.9056,
     "182c07f3": 517.7408,
     "e660caaa": 133.0331,
     "efafec35": 507.6301,
-    "93c5933b": 659.4254,
     "8790a36d": 130.1352
   }
 }
