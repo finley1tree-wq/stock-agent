@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "29f16503",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 121.8955,
-   "status": "cancelled",
-   "created": "2026-09-15 09:32",
-   "created_ts": 1789479150,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $123.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 09:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c21589e0",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 119.3197,
-   "status": "cancelled",
-   "created": "2026-09-15 09:32",
-   "created_ts": 1789479150,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $123.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "80d8efd3",
    "ticker": "META",
    "kind": "take_profit",
@@ -7496,7 +7458,7 @@
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 134.6108,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:49",
    "created_ts": 1789570172,
    "why": "close 100% at +0.3% over the average cost",
@@ -7506,7 +7468,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 10:56",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e660caaa",
@@ -7541,7 +7505,43 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "e9b88623",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 140.868,
+   "status": "cancelled",
+   "created": "2026-09-16 10:56",
+   "created_ts": 1789570617,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $134.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 10:57",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "264798ba",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 134.6108,
+   "status": "working",
+   "created": "2026-09-16 10:57",
+   "created_ts": 1789570663,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $134.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 10:55"
+ "updated": "2026-09-16 10:57"
 }

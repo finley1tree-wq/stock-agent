@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-16 10:55 ET
+# Pretend portfolio — 2026-09-16 10:57 ET
 
-**Equity $25423.75** on $25000.00 put in → **+1.70%**  
-Cash $19426.02 · Unrealised -2.27 · Realised +426.02
+**Equity $25424.02** on $25000.00 put in → **+1.70%**  
+Cash $19426.02 · Unrealised -2.00 · Realised +426.02
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| HLI | 11.8% | $3001.71 | $134.16 | $134.24 | +0.06% | 0d |
-| AMD | 11.8% | $2996.02 | $523.33 | $522.64 | -0.13% | 0d |
+| HLI | 11.8% | $3002.15 | $134.16 | $134.26 | +0.07% | 0d |
+| AMD | 11.8% | $2995.85 | $523.33 | $522.61 | -0.14% | 0d |
 
 ## Last fills
 

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T10:52-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-16T10:57-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,15 +139,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "facd8020",
+   "id": "264798ba",
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 134.6108,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.29,
-   "pct_away": 0.24,
+   "last": 134.26,
+   "pct_away": 0.26,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,27 +163,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 522.09,
-   "pct_away": 0.67,
+   "last": 522.7,
+   "pct_away": 0.55,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "182c07f3",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 517.7408,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 522.09,
-   "pct_away": -0.83,
-   "good_until": "2026-09-21",
-   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +180,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.29,
-   "pct_away": -0.94,
+   "last": 134.26,
+   "pct_away": -0.91,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "182c07f3",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 517.7408,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 522.7,
+   "pct_away": -0.95,
+   "good_until": "2026-09-21",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +214,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 522.09,
-   "pct_away": -2.77,
+   "last": 522.7,
+   "pct_away": -2.88,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -231,8 +231,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 134.29,
-   "pct_away": -3.09,
+   "last": 134.26,
+   "pct_away": -3.07,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
