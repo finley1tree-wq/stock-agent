@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "f814085c",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 347.6022,
-   "status": "cancelled",
-   "created": "2026-09-15 09:37",
-   "created_ts": 1789479443,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $346.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "575bfee1",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -7434,7 +7415,7 @@
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 152.7535,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 11:22",
    "created_ts": 1789572150,
    "why": "close it all at -0.7% under the average cost",
@@ -7444,7 +7425,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:25",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ba11884f",
@@ -7532,6 +7515,23 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-16 11:25",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "a8dc3406",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 153.982,
+   "status": "working",
+   "created": "2026-09-16 11:25",
+   "created_ts": 1789572353,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $153.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-09-16 11:25"
