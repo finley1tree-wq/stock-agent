@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9157.5,
+  "spent": 6185.07,
   "deployed": 597255.02,
   "by_ticker": {
     "GOOGL": 37.92,
@@ -18,7 +18,7 @@
     "IBM": 0.33,
     "BE": 54.64,
     "AAPL": 20.51,
-    "META": 3000.0,
+    "META": 27.57,
     "TTD": 3000.0
   },
   "deployed_by_ticker": {
@@ -7717,13 +7717,34 @@
         "insider"
       ],
       "evidence": "3 insiders bought (Form 4, incl. officer: co CFO); +2.5% over the month; 29% of today's range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.414128,
+      "status": "filled",
+      "price": 673.39,
+      "proceeds": 2972.43,
+      "realized_pnl": -27.57,
+      "realized_pct": -0.92,
+      "date": "2026-09-16",
+      "time_et": "15:17",
+      "ts": 1789586100,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $679.64",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 9157.5,
+  "spent_today": 6185.07,
   "deployed_today": 216445.83,
   "orders_today": 73,
-  "sells_today": 70,
+  "sells_today": 71,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -7744,7 +7765,7 @@
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789584765,
-    "META": 1789581992,
+    "META": 1789586237,
     "CHRW": 1789585861,
     "TTD": 1789582261,
     "AMD": 1789585045,
@@ -7763,20 +7784,17 @@
     "SKWD": 1789566945,
     "SBLK": 1789583197
   },
-  "last_publish_ts": 1789585987,
-  "last_check_ts": 1789586156,
+  "last_publish_ts": 1789586237,
+  "last_check_ts": 1789586237,
   "last_bar_ts": 1789586100,
   "last_decision_ts": 1789586156,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d5ed91cd": 673.7271,
-    "63ff8dbe": 30.9447,
-    "0c5df0b7": 30.6134,
-    "fa013506": 14.8809,
-    "023140ff": 682.0187,
     "f1d61c4b": 14.6327,
-    "2480a56c": 659.2508,
+    "0c5df0b7": 30.6134,
+    "63ff8dbe": 30.9447,
+    "fa013506": 14.8809,
     "0e003c3b": 14.3657,
     "0ccdca44": 29.9245
   }
