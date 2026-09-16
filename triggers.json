@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "a7ac1f96",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 327.5239,
-   "status": "cancelled",
-   "created": "2026-09-15 13:00",
-   "created_ts": 1789491602,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $329.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 13:30",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0e716590",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 319.7993,
-   "status": "cancelled",
-   "created": "2026-09-15 13:00",
-   "created_ts": 1789491602,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $329.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 13:30",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "779ee655",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 136.9728,
-   "status": "cancelled",
-   "created": "2026-09-15 13:05",
-   "created_ts": 1789491926,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $136.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 13:18",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "708a3445",
    "ticker": "HLI",
    "kind": "stop_loss",
@@ -7535,7 +7478,58 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "55c2a1e3",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 345.6209,
+   "status": "working",
+   "created": "2026-09-16 13:51",
+   "created_ts": 1789581085,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $344.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6a94d543",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 342.7144,
+   "status": "working",
+   "created": "2026-09-16 13:51",
+   "created_ts": 1789581085,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $344.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bfc10035",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 334.4463,
+   "status": "working",
+   "created": "2026-09-16 13:51",
+   "created_ts": 1789581085,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $344.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 13:48"
+ "updated": "2026-09-16 13:51"
 }
