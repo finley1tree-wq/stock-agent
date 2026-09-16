@@ -1,20 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Zi1DARyvA8qJwqeCZ5'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25449.73 (+1.80% on $25000.00 in) · cash $16443.90 · realised +443.90
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-16 14:10 ET (Wednesday) — week 2026-W38 — budget left $16016.13 (today $177445.83 put to work, 60 buys, 57 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7ZuhyuZH372jKL5ixd2'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25460.15 (+1.84% on $25000.00 in) · cash $16443.90 · realised +443.90
 Decision: nothing at this check. 9 standing order(s) working.
@@ -398,3 +381,20 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [stop_loss @ $331.19] -> $2979.49 (-0.68%) — close it all at -0.6% under the average cost
 ## 2026-09-16 15:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 15:13 ET (Wednesday) — week 2026-W38 — budget left $18842.50 (today $213445.83 put to work, 72 buys, 70 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7egsTdrKyVCogW3zvFc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,842 idle, so opened 1: SBLK. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 3 insiders bought (Form 4, incl. officer: co CFO); +2.5% over the month; 29% of today's range
+~ WORKING take_profit 100% SBLK @ $30.94 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% SBLK @ $30.61 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 SBLK @ $29.92 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25245.35 (+0.98% on $25000.00 in) · cash $16270.27 · realised +270.27
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15842.50 this week
