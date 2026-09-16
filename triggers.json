@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "e8dba1ed",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 320.7984,
-   "status": "cancelled",
-   "created": "2026-09-15 14:15",
-   "created_ts": 1789496149,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $330.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 14:46",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f026f4c9",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 122.978,
-   "status": "cancelled",
-   "created": "2026-09-15 14:21",
-   "created_ts": 1789496471,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $122.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:23",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "800273b0",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 136.4553,
-   "status": "cancelled",
-   "created": "2026-09-15 14:21",
-   "created_ts": 1789496473,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $136.02",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "bd504771",
    "ticker": "HLI",
    "kind": "stop_loss",
@@ -7518,7 +7461,58 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "a1bc9c0a",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 682.0051,
+   "status": "working",
+   "created": "2026-09-16 14:54",
+   "created_ts": 1789584848,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $679.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d5ed91cd",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 673.7271,
+   "status": "working",
+   "created": "2026-09-16 14:54",
+   "created_ts": 1789584848,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $679.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2480a56c",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 659.2508,
+   "status": "working",
+   "created": "2026-09-16 14:54",
+   "created_ts": 1789584848,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $679.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 14:52"
+ "updated": "2026-09-16 14:54"
 }
