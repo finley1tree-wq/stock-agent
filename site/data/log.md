@@ -1,49 +1,3 @@
-## 2026-09-15 14:57 ET (Tuesday) — week 2026-W38 — budget left $9987.11 (today $162873.19 put to work, 55 buys, 49 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5jf2mVf4nyhJLeV7yQr'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25372.58 (+1.49% on $25000.00 in) · cash $10392.12 · realised +392.12
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 14:59 ET (Tuesday) — week 2026-W38 — budget left $9987.11 (today $162873.19 put to work, 55 buys, 49 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5jsS24ystwkgazFCFNK'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25375.26 (+1.50% on $25000.00 in) · cash $10392.12 · realised +392.12
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [take_profit @ $157.95] -> $3008.52 (+0.28%) — close 100% at +0.3% over the average cost
-## 2026-09-15 15:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-15 15:02 ET (Tuesday) — week 2026-W38 — budget left $12995.63 (today $162873.19 put to work, 55 buys, 50 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5k5ZQf17hacCVSfaVfd'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,996 idle, so opened 1: TPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TPL [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +4.0% over the month; 60% of today's range
-~ WORKING take_profit 100% TPL @ $374.35 until 2026-09-20 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% TPL @ $369.43 until 2026-09-20 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 TPL @ $361.75 until 2026-09-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25379.23 (+1.52% on $25000.00 in) · cash $10400.65 · realised +400.65
-Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9995.63 this week
-  (cancelled 2 standing order(s) on META: position closed)
-- SELL 100% META [stop_loss @ $670.06] -> $3001.89 (+0.06%) — close it all at -0.9% under the average cost
-## 2026-09-15 15:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-15 15:05 ET (Tuesday) — week 2026-W38 — budget left $12997.52 (today $165873.19 put to work, 56 buys, 51 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
   (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
@@ -398,3 +352,49 @@ portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-15 16:00 ET — published the session's closing state
+
+## 2026-09-16 09:32 ET (Wednesday) — week 2026-W38 — budget left $24947.72 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7CkkMaxmVPU3dWyFyxG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,948 idle, so opened 8: CHRW, HLI, TTD, BE, CRWD, META, NEM, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.2% over the month; 17% of today's range
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.3% over the month; 0% of today's range
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +10.3% over the month; 30% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +15.1% over the month; 78% of today's range
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +12.2% over the month; 81% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +19.3% over the month; 3% of today's range
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +4.2% over the month; 10% of today's range
+- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.5% over the month; 12% of today's range
+~ WORKING take_profit 100% CHRW @ $154.15 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $152.72 until 2026-09-21 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $149.13 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $133.64 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $132.10 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $129.20 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $14.86 until 2026-09-21 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.62 until 2026-09-21 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.35 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $269.10 until 2026-09-21 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $262.66 until 2026-09-21 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 BE @ $259.24 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $241.68 until 2026-09-21 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% CRWD @ $235.87 until 2026-09-21 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $232.82 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $681.28 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% META @ $673.01 until 2026-09-21 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $658.55 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $125.84 until 2026-09-21 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $124.28 until 2026-09-21 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $121.63 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $346.59 until 2026-09-21 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $343.72 until 2026-09-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $335.40 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $513.12 until 2026-09-17 — strong month, weak day: resting 0.79% under $517.21 to catch the dip
+portfolio: equity $25345.54 (+1.38% on $25000.00 in) · cash $1352.73 · realised +352.73
+Done: 0 sell(s), 8 buy(s); 25 order(s) working; budget left $947.72 this week
