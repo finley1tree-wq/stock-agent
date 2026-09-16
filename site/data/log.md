@@ -1,19 +1,3 @@
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7LgYZVWXi9a7as2MEMM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 2: BE, IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +16.2% over the month; 53% of today's range
-- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +5.7% over the month; 57% of today's range
-~ WORKING take_profit 100% BE @ $271.64 until 2026-09-21 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% BE @ $265.01 until 2026-09-21 — close it all at -1.8% under the average cost
-~ WORKING buy_limit $500.00 BE @ $261.66 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $242.60 until 2026-09-21 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% IBM @ $239.94 until 2026-09-21 — close it all at -0.8% under the average cost
 ~ WORKING buy_limit $500.00 IBM @ $234.58 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25426.57 (+1.71% on $25000.00 in) · cash $19427.77 · realised +427.77
 Done: 0 sell(s), 2 buy(s); 6 order(s) working; budget left $19000.00 this week
@@ -398,3 +382,19 @@ Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13008.98 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $240.82] -> $3001.36 (+0.05%) — close it all at -0.8% under the average cost
 ## 2026-09-16 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 12:21 ET (Wednesday) — week 2026-W38 — budget left $16010.34 (today $114445.83 put to work, 39 buys, 36 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7RbrqHFbbJEG8xeHs1x'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25419.77 (+1.68% on $25000.00 in) · cash $16438.12 · realised +438.12
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% HLI [time stop] -> $2990.66 (-0.31%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 12:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
