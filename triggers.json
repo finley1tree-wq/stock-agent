@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "744c42f5",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 480.7223,
-   "status": "cancelled",
-   "created": "2026-09-14 15:43",
-   "created_ts": 1789415000,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $495.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 15:43",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e66f27a4",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 241.9374,
-   "status": "cancelled",
-   "created": "2026-09-14 15:43",
-   "created_ts": 1789415000,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $249.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 15:43",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "3d8ac8b7",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 251.036,
-   "status": "cancelled",
-   "created": "2026-09-14 15:43",
-   "created_ts": 1789415039,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $258.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e23c8297",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 480.7223,
-   "status": "cancelled",
-   "created": "2026-09-14 15:43",
-   "created_ts": 1789415039,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $495.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "e6d80cd1",
    "ticker": "IBM",
    "kind": "buy_limit",
@@ -7029,7 +6953,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 262.6605,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "close it all at -1.7% under the average cost",
@@ -7039,7 +6963,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:37",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b7c1b9c3",
@@ -7063,7 +6989,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 241.6785,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "close 100% at +0.7% over the average cost",
@@ -7073,7 +6999,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b43d0eca",
@@ -7387,7 +7315,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 240.4572,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:35",
    "created_ts": 1789565750,
    "why": "close it all at -0.8% under the average cost",
@@ -7397,7 +7325,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0d9c1c6f",
@@ -7517,7 +7447,77 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "426e8c16",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 252.021,
+   "status": "cancelled",
+   "created": "2026-09-16 09:36",
+   "created_ts": 1789565786,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $240.02",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:37",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "61697cbd",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 242.8,
+   "status": "working",
+   "created": "2026-09-16 09:36",
+   "created_ts": 1789565786,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $242.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e21abf08",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 268.148,
+   "status": "working",
+   "created": "2026-09-16 09:37",
+   "created_ts": 1789565832,
+   "why": "close it all at -1.7% under the average cost",
+   "evidence": "average cost $267.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "de08b10f",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 241.6929,
+   "status": "working",
+   "created": "2026-09-16 09:37",
+   "created_ts": 1789565832,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $240.02",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 09:35"
+ "updated": "2026-09-16 09:37"
 }
