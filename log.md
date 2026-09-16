@@ -7325,3 +7325,24 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [stop_loss @ $153.25] -> $3001.06 (+0.04%) — close it all at -0.7% under the average cost
 ## 2026-09-16 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 13:56 ET (Wednesday) — week 2026-W38 — budget left $12967.62 (today $165445.83 put to work, 56 buys, 52 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Yt73p6JL2wp6dSmsvA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,968 idle, so opened 2: SBLK, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 3 insiders bought (Form 4, incl. officer: co CFO); +3.0% over the month; 54% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +18.7% over the month; 19% of today's range
+~ WORKING take_profit 100% SBLK @ $31.10 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% SBLK @ $30.77 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 SBLK @ $30.08 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $678.12 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% META @ $669.84 until 2026-09-21 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $655.48 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25397.29 (+1.59% on $25000.00 in) · cash $7395.39 · realised +395.39
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $6967.62 this week
