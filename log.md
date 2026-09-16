@@ -6537,3 +6537,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25440.56 (+1.76% on $25000.00 in) · cash $1439.43 · realised +439.43
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [stop_loss @ $270.20] -> $3004.99 (+0.17%) — close it all at -1.7% under the average cost
+## 2026-09-16 11:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders

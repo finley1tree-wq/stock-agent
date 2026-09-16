@@ -1,20 +1,3 @@
-- SELL 100% CHRW [stop_loss @ $153.80] -> $3001.75 (+0.06%) — close it all at -0.7% under the average cost
-## 2026-09-16 10:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 10:35 ET (Wednesday) — week 2026-W38 — budget left $18561.94 (today $60445.83 put to work, 21 buys, 18 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7HZJmyd9XBxyv3hXCts'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $18,562 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.4% over the month; 70% of today's range
-~ WORKING take_profit 100% AMD @ $525.56 until 2026-09-21 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMD @ $517.74 until 2026-09-21 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $507.63 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25409.26 (+1.64% on $25000.00 in) · cash $15966.95 · realised +412.78
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $15561.94 this week
 
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $656.90 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25439.05 (+1.76% on $25000.00 in) · cash $1439.43 · realised +439.43
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1011.65 this week
+
+## 2026-09-16 11:42 ET (Wednesday) — week 2026-W38 — budget left $1011.65 (today $99445.83 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Nbszt8WVywYmdArR3C'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25440.56 (+1.76% on $25000.00 in) · cash $1439.43 · realised +439.43
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [stop_loss @ $270.20] -> $3004.99 (+0.17%) — close it all at -1.7% under the average cost
+## 2026-09-16 11:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
