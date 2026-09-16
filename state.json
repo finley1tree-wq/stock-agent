@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 14978.27,
+  "spent": 11964.4,
   "deployed": 573255.02,
   "by_ticker": {
     "GOOGL": 18.38,
@@ -12,7 +12,6 @@
     "HLI": 3036.28,
     "NEM": 10.35,
     "MSFT": 14.96,
-    "PLTR": 3010.45,
     "SKWD": 22.98,
     "CRWD": 3000.64,
     "CHRW": 20.68,
@@ -7367,13 +7366,34 @@
       ],
       "evidence": "bought 30 min ago, -0.12% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 17.305563,
+      "status": "filled",
+      "price": 174.16,
+      "proceeds": 3013.87,
+      "realized_pnl": 13.87,
+      "realized_pct": 0.46,
+      "date": "2026-09-16",
+      "time_et": "14:41",
+      "ts": 1789584000,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $173.35",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 14978.27,
+  "spent_today": 11964.4,
   "deployed_today": 192445.83,
   "orders_today": 65,
-  "sells_today": 60,
+  "sells_today": 61,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -7388,7 +7408,8 @@
     "NEM",
     "HLI",
     "SKWD",
-    "SBLK"
+    "SBLK",
+    "PLTR"
   ],
   "sold_ts": {
     "ALP": 1789404796,
@@ -7408,31 +7429,28 @@
     "GRNT": 1789413927,
     "MAIA": 1789406136,
     "CRWD": 1789579838,
-    "PLTR": 1789498579,
+    "PLTR": 1789584099,
     "SKWD": 1789566945,
     "SBLK": 1789583197
   },
-  "last_publish_ts": 1789583691,
-  "last_check_ts": 1789584013,
+  "last_publish_ts": 1789584098,
+  "last_check_ts": 1789584098,
   "last_bar_ts": 1789584000,
   "last_decision_ts": 1789584013,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "42da08cf": 240.9161,
-    "df84bd43": 132.6198,
-    "6033bae9": 238.236,
-    "e1fdd5b1": 520.8653,
-    "074266af": 134.2021,
-    "e9cc9f3e": 171.3443,
-    "00064653": 174.1561,
-    "53680eb1": 513.0392,
     "9cdc912d": 243.6593,
+    "df84bd43": 132.6198,
+    "42da08cf": 240.9161,
+    "e1fdd5b1": 520.8653,
+    "6033bae9": 238.236,
+    "074266af": 134.2021,
+    "53680eb1": 513.0392,
     "b71a2d8c": 237.7792,
-    "152e0f91": 168.1495,
-    "931723f4": 234.7206,
     "22ff1ec8": 129.7375,
     "6ce25e18": 232.9455,
-    "b44e0db5": 503.0711
+    "b44e0db5": 503.0711,
+    "931723f4": 234.7206
   }
 }
