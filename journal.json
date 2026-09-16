@@ -12130,8 +12130,8 @@
     "code_version": "25608c0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23,
-    "ret_final": -0.23,
+    "ret_now": -0.38,
+    "ret_final": -0.38,
     "ret_src": "realised"
   },
   {
@@ -12839,8 +12839,8 @@
     "code_version": "b9b7eb2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37,
-    "ret_final": -0.37,
+    "ret_now": -0.52,
+    "ret_final": -0.52,
     "ret_src": "realised"
   },
   {
@@ -13573,8 +13573,8 @@
     "code_version": "ad234c1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18,
-    "ret_final": -0.18,
+    "ret_now": -0.5,
+    "ret_final": -0.5,
     "ret_src": "realised"
   },
   {
@@ -14501,7 +14501,9 @@
     "code_version": "c6fd31a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.62
+    "ret_now": -0.82,
+    "ret_final": -0.82,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -14554,7 +14556,7 @@
     "code_version": "7d43aec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.07
   },
   {
     "symbol": "TTD",
@@ -14582,5 +14584,32 @@
     "hour_et": 15,
     "code_version": "1e16864",
     "hold_minutes": 23
+  },
+  {
+    "symbol": "SBLK",
+    "side": "sell",
+    "qty": 97.23737,
+    "status": "filled",
+    "price": 30.6,
+    "proceeds": 2975.28,
+    "realized_pnl": -24.72,
+    "realized_pct": -0.82,
+    "date": "2026-09-16",
+    "time_et": "15:40",
+    "ts": 1789587300,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $30.85",
+    "trigger": "stop_loss",
+    "hour_et": 15,
+    "code_version": "3093157",
+    "hold_minutes": 21
   }
 ]

@@ -7998,3 +7998,25 @@ portfolio: equity $25180.09 (+0.72% on $25000.00 in) · cash $19206.12 · realis
 Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on SBLK: position closed)
+- SELL 100% SBLK [stop_loss @ $30.60] -> $2975.28 (-0.82%) — close it all at -0.8% under the average cost
+## 2026-09-16 15:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 15:40 ET (Wednesday) — week 2026-W38 — budget left $21753.63 (today $219445.83 put to work, 74 buys, 73 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (no price for TLAC — excluded this check)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7gmV4sHwQwwNzcxsuKq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 MSFT @ $474.87 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25178.84 (+0.72% on $25000.00 in) · cash $22181.40 · realised +181.40
+Decision: nothing at this check. 3 standing order(s) working.
