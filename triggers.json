@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "91994a2b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 228.6484,
-   "status": "cancelled",
-   "created": "2026-09-15 10:23",
-   "created_ts": 1789482224,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $235.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 10:30",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b1bc1bf1",
    "ticker": "NEM",
    "kind": "take_profit",
@@ -6920,7 +6901,7 @@
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 347.5221,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 11:19",
    "created_ts": 1789571980,
    "why": "close 100% at +0.2% over the average cost",
@@ -6930,14 +6911,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:49",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5571fd35",
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 344.6133,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 11:19",
    "created_ts": 1789571980,
    "why": "close it all at -0.6% under the average cost",
@@ -6947,14 +6930,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:49",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "29db3585",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 336.2893,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 11:19",
    "created_ts": 1789571980,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6964,7 +6949,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 11:49",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a59af841",
@@ -7171,7 +7158,7 @@
    "ticker": "SBLK",
    "kind": "stop_loss",
    "price": 30.9232,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 11:33",
    "created_ts": 1789572809,
    "why": "close it all at -0.8% under the average cost",
@@ -7181,7 +7168,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "cac292c6",
@@ -7515,7 +7504,24 @@
    ],
    "good_until": "2026-09-21",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "129d7b47",
+   "ticker": "SBLK",
+   "kind": "stop_loss",
+   "price": 31.19,
+   "status": "working",
+   "created": "2026-09-16 11:50",
+   "created_ts": 1789573827,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $31.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 11:47"
+ "updated": "2026-09-16 11:50"
 }

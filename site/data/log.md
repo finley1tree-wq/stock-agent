@@ -1,5 +1,3 @@
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
@@ -398,3 +396,5 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% META @ $678.06 until 2026-09-21 — close it all at -0.9% under the average cost
 portfolio: equity $25462.36 (+1.85% on $25000.00 in) · cash $4455.60 · realised +455.60
 Decision: nothing at this check. 21 standing order(s) working.
+- SELL 100% GOOGL [time stop] -> $2993.00 (-0.23%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
