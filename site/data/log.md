@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% MSFT @ $490.98 until 2026-09-21 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $479.03 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25426.65 (+1.71% on $25000.00 in) · cash $10418.49 · realised +418.49
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9990.72 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $345.62] -> $3007.24 (+0.24%) — close 100% at +0.2% over the average cost
@@ -398,3 +395,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on BE: position closed)
 - SELL 100% BE [stop_loss @ $262.54] -> $2945.36 (-1.82%) — close it all at -1.8% under the average cost
 ## 2026-09-16 15:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [stop_loss @ $121.03] -> $2969.59 (-1.01%) — close it all at -1.0% under the average cost
+## 2026-09-16 15:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders

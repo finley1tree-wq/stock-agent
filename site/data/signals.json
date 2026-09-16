@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-16T15:06-04:00",
+ "asOf": "2026-09-16T15:07-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "294b6380",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.5105,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.98,
-   "pct_away": -0.31,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bbdd5987",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 121.0901,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 121.47,
-   "pct_away": -0.31,
-   "good_until": "2026-09-21",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "f198cd5c",
    "ticker": "AAPL",
    "kind": "stop_loss",
@@ -180,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.54,
-   "pct_away": -0.36,
+   "last": 332.15,
+   "pct_away": -0.24,
    "good_until": "2026-09-21",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -190,17 +156,17 @@
    ]
   },
   {
-   "id": "a1bc9c0a",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 682.0051,
+   "id": "294b6380",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.5105,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 678.79,
-   "pct_away": 0.47,
+   "last": 152.89,
+   "pct_away": -0.25,
    "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -224,6 +190,23 @@
    ]
   },
   {
+   "id": "a1bc9c0a",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 682.0051,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 678.58,
+   "pct_away": 0.5,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "a2673f29",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -231,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.54,
-   "pct_away": 0.53,
+   "last": 332.15,
+   "pct_away": 0.65,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -248,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 152.98,
-   "pct_away": 0.64,
+   "last": 152.89,
+   "pct_away": 0.7,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -265,27 +248,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 678.79,
-   "pct_away": -0.75,
+   "last": 678.58,
+   "pct_away": -0.72,
    "good_until": "2026-09-21",
    "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "81f66e8f",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 122.742,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 121.47,
-   "pct_away": 1.05,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -309,23 +275,6 @@
    ]
   },
   {
-   "id": "a6405a20",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 118.6019,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 121.47,
-   "pct_away": -2.36,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "991020df",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -333,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 152.98,
-   "pct_away": -2.64,
+   "last": 152.89,
+   "pct_away": -2.58,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 332.54,
-   "pct_away": -2.73,
+   "last": 332.15,
+   "pct_away": -2.61,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -367,8 +316,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 678.79,
-   "pct_away": -2.88,
+   "last": 678.58,
+   "pct_away": -2.85,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
