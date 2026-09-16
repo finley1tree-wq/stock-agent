@@ -51,6 +51,13 @@ jobs:
       - name: think if a decision is due
         run: python -m agent.run --if-due 12
         env: *agent_env
+      # Watch-only news monitor. Reads public Telegram channel pages (no keys), logs keyword signals to
+      # monitor/telegram_signals.jsonl for grading. It never trades, and can never fail this job.
+      - name: telegram monitor (watch only)
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python monitor/telegram_monitor.py --once
       - name: commit results
         if: always()
         run: |

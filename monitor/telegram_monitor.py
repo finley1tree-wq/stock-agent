@@ -94,10 +94,10 @@ class Sink:
         self.seen.append(key); self.seen_set.add(key)
         return True
 
-    def handle(self, channel: str, text: str, ts_ms: int, send: bool = True) -> list[dict]:
+    def handle(self, channel: str, text: str, ts_ms: int, send: bool = True, message_id: str = "") -> list[dict]:
         out = []
         for action, ticker, conf in signals_for(text):
-            payload = {"source": "telegram", "channel": channel, "author_inferred": author_for(channel, text),
+            payload = {"source": "telegram", "channel": channel, "message_id": message_id, "author_inferred": author_for(channel, text),
                        "action": action, "ticker": ticker, "confidence": conf,
                        "text_snippet": text[:100], "timestamp_ms": ts_ms}
             print(f"Signal from {channel}: {action} {ticker} @ {conf} | {text[:90]}", flush=True)
@@ -168,7 +168,7 @@ def run_preview(cfg: dict, backfill: bool, minutes: float) -> int:
             try:
                 for mid, text, ts in preview_messages(c) or []:
                     if sink.new(mid):
-                        sink.handle(c, text, ts)
+                        sink.handle(c, text, ts, message_id=mid)
             except Exception as e:
                 print(f"(check failed for @{c}: {type(e).__name__}: {e})", flush=True)
             time.sleep(max(1.0, cfg.get("poll_seconds", 15) / max(1, len(ok))))
@@ -211,13 +211,61 @@ async def run_live(cfg: dict) -> int:
     return 0
 
 
+STATE = ROOT / "monitor" / "telegram_state.json"
+
+
+def run_once(cfg: dict) -> int:
+    """One pass over every channel, for a scheduled runner (GitHub Actions) that cannot hold a connection.
+
+    Seen message ids live in monitor/telegram_state.json, committed with the bot's other files. The very
+    first run only records what is already on each page, so it never floods the log with history. Signals
+    already in telegram_signals.jsonl are skipped too, so a run that lost the state file cannot duplicate them.
+    Always exits 0: this must never fail the trading job it rides along with."""
+    try:
+        state = json.loads(STATE.read_text()) if STATE.exists() else {}
+    except Exception:
+        state = {}
+    logged = set()
+    try:
+        for line in SIGNALS.read_text().splitlines():
+            mid = json.loads(line).get("message_id")
+            if mid: logged.add(mid)
+    except Exception:
+        pass
+    sink = Sink(cfg["webhook_url"])
+    first = not state
+    total = 0
+    for c in cfg["channels"]:
+        msgs = preview_messages(c)
+        if msgs is None:
+            print(f"(channel @{c} not accessible - skipped)", flush=True); continue
+        seen = set(state.get(c, []))
+        for mid, text, ts in msgs:
+            if first or mid in seen or mid in logged:
+                continue
+            total += len(sink.handle(c, text, ts, send=False, message_id=mid))
+        state[c] = sorted(seen | {m[0] for m in msgs}, key=lambda m: int(m.rsplit("/", 1)[-1]) if m.rsplit("/", 1)[-1].isdigit() else 0)[-200:]
+    try:
+        STATE.write_text(json.dumps(state, indent=0, sort_keys=True))
+    except Exception as e:
+        print(f"(could not save state: {e})", flush=True)
+    print(("primed: recorded existing messages, no signals" if first else f"telegram pass: {total} new signal(s)"), flush=True)
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", choices=["preview", "live"], default="preview")
     ap.add_argument("--backfill", action="store_true")
     ap.add_argument("--minutes", type=float, default=0)
+    ap.add_argument("--once", action="store_true", help="one pass with saved state (for GitHub Actions)")
     a = ap.parse_args()
     cfg = load_config()
+    if a.once:
+        try:
+            return run_once(cfg)
+        except Exception as e:
+            print(f"(telegram pass failed: {type(e).__name__}: {e})", flush=True); return 0
     if a.mode == "live" and not a.backfill:
         return asyncio.run(run_live(cfg))
     return run_preview(cfg, a.backfill, a.minutes)
