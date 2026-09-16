@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "e213f83b",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 672.766,
-   "status": "filled",
-   "created": "2026-09-15 11:19",
-   "created_ts": 1789485556,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $671.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 11:20"
-  },
-  {
-   "id": "384c7cab",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 265.6284,
-   "status": "filled",
-   "created": "2026-09-15 11:37",
-   "created_ts": 1789486647,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $263.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 11:46"
-  },
-  {
-   "id": "ae3a5a0d",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 259.0191,
-   "status": "cancelled",
-   "created": "2026-09-15 11:37",
-   "created_ts": 1789486647,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $263.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 11:42",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "c6d3bb5f",
    "ticker": "BE",
    "kind": "buy_limit",
@@ -7533,7 +7478,58 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "5911fd88",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 333.2677,
+   "status": "working",
+   "created": "2026-09-16 12:37",
+   "created_ts": 1789576672,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $332.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "04543020",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 330.3025,
+   "status": "working",
+   "created": "2026-09-16 12:37",
+   "created_ts": 1789576672,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $332.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1c0e5968",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 322.4474,
+   "status": "working",
+   "created": "2026-09-16 12:37",
+   "created_ts": 1789576672,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $332.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 12:35"
+ "updated": "2026-09-16 12:37"
 }

@@ -1,20 +1,3 @@
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [stop_loss @ $153.91] -> $3002.21 (+0.07%) — close it all at -0.7% under the average cost
-## 2026-09-16 11:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 11:33 ET (Wednesday) — week 2026-W38 — budget left $16011.65 (today $84445.83 put to work, 29 buys, 26 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Mwcj4HcBKNjMCXdBdV'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,012 idle, so opened 3: SBLK, TTD, MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 2 insiders bought (Form 4, incl. director); +3.5% over the month; 78% of today's range
 - BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +11.0% over the month; 80% of today's range
 - BUY $3000.00 MSFT [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.8% over the month; 53% of today's range
 ~ WORKING take_profit 100% SBLK @ $31.25 until 2026-09-21 — close 100% at +0.3% over the average cost
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $335.21 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25404.73 (+1.62% on $25000.00 in) · cash $13417.19 · realised +417.19
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $12989.41 this week
+
+## 2026-09-16 12:37 ET (Wednesday) — week 2026-W38 — budget left $12989.41 (today $123445.83 put to work, 42 buys, 38 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7SrAqGDb5f6PFsdFvVh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,989 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +8.8% over the month; 13% of today's range
+~ WORKING take_profit 100% AAPL @ $333.27 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $330.30 until 2026-09-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $322.45 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25399.71 (+1.60% on $25000.00 in) · cash $10417.19 · realised +417.19
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9989.41 this week
