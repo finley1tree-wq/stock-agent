@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T10:33-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,553 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-16T10:36-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $18,562 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,74 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "fcb3eea2",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 153.878,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 153.86,
-   "pct_away": 0.01,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "36bad37a",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 333.528,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 333.74,
-   "pct_away": -0.06,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "581a2029",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 333.9661,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 333.74,
-   "pct_away": 0.07,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "92943303",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 154.1189,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 153.86,
-   "pct_away": 0.17,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "a2d77ef1",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -214,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 492.33,
-   "pct_away": 0.36,
+   "last": 492.65,
+   "pct_away": 0.3,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -224,34 +156,17 @@
    ]
   },
   {
-   "id": "a312ed7b",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 490.091,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 492.33,
-   "pct_away": -0.45,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b58d0d84",
-   "ticker": "TTD",
+   "id": "d8201943",
+   "ticker": "AMD",
    "kind": "take_profit",
-   "price": 14.9208,
+   "price": 525.5646,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.84,
-   "pct_away": 0.54,
+   "last": 523.23,
+   "pct_away": 0.45,
    "good_until": "2026-09-21",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,10 +180,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 678.1,
-   "pct_away": 0.6,
+   "last": 679.03,
+   "pct_away": 0.46,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b58d0d84",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.9208,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.85,
+   "pct_away": 0.48,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a312ed7b",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 490.091,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 492.65,
+   "pct_away": -0.52,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,10 +231,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 678.1,
-   "pct_away": -0.62,
+   "last": 679.03,
+   "pct_away": -0.75,
    "good_until": "2026-09-21",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "182c07f3",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 517.7408,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 523.23,
+   "pct_away": -1.05,
+   "good_until": "2026-09-21",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -299,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.84,
-   "pct_away": -1.13,
+   "last": 14.85,
+   "pct_away": -1.19,
    "good_until": "2026-09-21",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -316,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 678.1,
-   "pct_away": -2.75,
+   "last": 679.03,
+   "pct_away": -2.89,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -333,8 +299,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 492.33,
-   "pct_away": -2.88,
+   "last": 492.65,
+   "pct_away": -2.94,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "efafec35",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 507.6301,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 523.23,
+   "pct_away": -2.98,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,42 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.84,
-   "pct_away": -2.93,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "dfd52cd6",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.0987,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 153.86,
-   "pct_away": -3.09,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2b5e0c06",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 323.1264,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 333.74,
-   "pct_away": -3.18,
+   "last": 14.85,
+   "pct_away": -3.0,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -394,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,553 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $18,562 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -452,7 +401,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 365,
+  "decisions_recorded": 366,
   "decisions_graded": 342,
   "decisions_with_buys_graded": 104,
   "independent_days_graded": 6,
@@ -1937,6 +1886,11 @@
   ],
   "GOOGL": [
    {
+    "title": "Google's Gemini 3.8 beats rivals on AI voice and slashes costs",
+    "source": "GuruFocus.com",
+    "when": "2026-09-16T14:33"
+   },
+   {
     "title": "Nvidia Targets AI\u2019s Power Bottleneck With New Alliance With Google, Emerald AI \u2014 Flexible Data Center Could Respond To Grid Conditions",
     "source": "Stocktwits",
     "when": "2026-09-16T14:19"
@@ -1945,11 +1899,6 @@
     "title": "Google signs biggest carbon removal deal with Terradot in Brazil",
     "source": "Quartz",
     "when": "2026-09-16T14:14"
-   },
-   {
-    "title": "Ray Dalio\u2019s Fund Was Buying These 2 AI Stocks",
-    "source": "Insider Monkey",
-    "when": "2026-09-16T14:05"
    }
   ],
   "HD": [
@@ -2277,6 +2226,11 @@
   ],
   "SPY": [
    {
+    "title": "Dell Rises 5% Despite Fresh Silver Lake Share Sale Filings; Super Micro Climbs 3%, Hewlett Packard Enterprise Ticks Up",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-16T14:31"
+   },
+   {
     "title": "Cipher Digital Surges 9% on Conditional ERCOT Status for 3.2 GW of Texas Capacity; Core Scientific Rises 4%, IREN Nudges Higher",
     "source": "24/7 Wall St.",
     "when": "2026-09-16T14:00"
@@ -2285,11 +2239,6 @@
     "title": "Ciena Climbs 4% as $10B Backlog Outlook Outweighs Month-Long Slide; Arista and Cisco Edge Higher",
     "source": "24/7 Wall St.",
     "when": "2026-09-16T13:45"
-   },
-   {
-    "title": "Critical Metals Rallies 5% on Tanbreez Refinery Study Projecting Up to $2.2B in Annual Revenue; USA Rare Earth Inches Higher, MP Materials Unmoved",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-16T13:42"
    }
   ],
   "TSM": [
@@ -2362,5 +2311,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T10:33-04:00"
+ "signalsAsOf": "2026-09-16T10:36-04:00"
 }
