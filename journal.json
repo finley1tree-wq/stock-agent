@@ -5010,8 +5010,8 @@
     "code_version": "1d29a78",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -5728,8 +5728,8 @@
     "code_version": "6ce9800",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.0,
-    "ret_final": -0.0,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -6390,8 +6390,8 @@
     "code_version": "ae57171",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03,
-    "ret_final": -0.03,
+    "ret_now": -0.02,
+    "ret_final": -0.02,
     "ret_src": "realised"
   },
   {
@@ -7567,8 +7567,8 @@
     "code_version": "8c9fc68",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -8233,8 +8233,8 @@
     "code_version": "5a07a2f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -9241,8 +9241,8 @@
     "code_version": "e8ca608",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01,
-    "ret_final": -0.01,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -10411,8 +10411,8 @@
     "code_version": "304e76f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -10793,8 +10793,8 @@
     "code_version": "3320e56",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03,
-    "ret_final": -0.03,
+    "ret_now": -0.01,
+    "ret_final": -0.01,
     "ret_src": "realised"
   },
   {
@@ -11721,8 +11721,8 @@
     "code_version": "6a266c7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27,
-    "ret_final": 0.27,
+    "ret_now": 0.22,
+    "ret_final": 0.22,
     "ret_src": "realised"
   },
   {
@@ -12215,8 +12215,8 @@
     "code_version": "ee31f53",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22,
-    "ret_final": 0.22,
+    "ret_now": 0.17,
+    "ret_final": 0.17,
     "ret_src": "realised"
   },
   {
@@ -13381,7 +13381,7 @@
     "code_version": "e365d29",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.22
   },
   {
     "symbol": "HLI",
@@ -13487,7 +13487,9 @@
     "code_version": "3c54e61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -13513,7 +13515,7 @@
     "code_version": "fe07455",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.19
   },
   {
     "symbol": "CHRW",
@@ -13567,7 +13569,7 @@
     "code_version": "ad234c1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.1
   },
   {
     "symbol": "META",
@@ -13593,7 +13595,7 @@
     "code_version": "ad234c1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.08
   },
   {
     "symbol": "BE",
@@ -13645,6 +13647,33 @@
     "evidence": "average cost $123.51",
     "trigger": "stop_loss",
     "hour_et": 14,
-    "code_version": "5a33e01"
+    "code_version": "5a33e01",
+    "hold_minutes": 11
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.074734,
+    "price": 493.85,
+    "date": "2026-09-16",
+    "time_et": "14:02",
+    "ts": 1789581743,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.8% over the month; 55% of today's range",
+    "entry_price": 493.75,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.79,
+    "hour_et": 14,
+    "code_version": "ec9c294",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
