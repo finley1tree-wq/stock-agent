@@ -6397,3 +6397,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $336.29 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25420.85 (+1.68% on $25000.00 in) · cash $16427.77 · realised +427.77
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16000.00 this week
+
+## 2026-09-16 11:22 ET (Wednesday) — week 2026-W38 — budget left $16000.00 (today $78445.83 put to work, 27 buys, 24 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7M6pgXdhe3nZRM4wszg'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,000 idle, so opened 2: CHRW, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.2% over the month; 29% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.0% over the month; 35% of today's range
+~ WORKING take_profit 100% CHRW @ $154.20 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $152.75 until 2026-09-21 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $149.18 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $334.04 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $331.07 until 2026-09-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $323.19 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25411.18 (+1.64% on $25000.00 in) · cash $10427.77 · realised +427.77
+Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $10000.00 this week

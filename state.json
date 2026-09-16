@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 9000.0,
-  "deployed": 459255.02,
+  "spent": 15000.0,
+  "deployed": 465255.02,
   "by_ticker": {
     "IBM": 3008.3,
     "GOOGL": 3015.25,
@@ -17,11 +17,13 @@
     "PLTR": 10.45,
     "TTD": 15.74,
     "SKWD": 22.98,
-    "META": 2.21
+    "META": 2.21,
+    "CHRW": 3000.0,
+    "AAPL": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
-    "CHRW": 33000.0,
+    "CHRW": 36000.0,
     "BE": 45000.0,
     "IBM": 42000.0,
     "FLD": 6000.0,
@@ -30,7 +32,7 @@
     "META": 39478.21,
     "AMD": 16000.0,
     "TTD": 36000.0,
-    "AAPL": 39000.0,
+    "AAPL": 42000.0,
     "MSFT": 30903.62,
     "GOOGL": 24000.0,
     "TPL": 12000.0,
@@ -5962,12 +5964,47 @@
         "autopilot"
       ],
       "evidence": "+0.8% over the month; 62% of today's range"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.506931,
+      "price": 153.79,
+      "date": "2026-09-16",
+      "time_et": "11:22",
+      "ts": 1789572150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +6.2% over the month; 29% of today's range"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.003963,
+      "price": 333.19,
+      "date": "2026-09-16",
+      "time_et": "11:22",
+      "ts": 1789572150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+9.0% over the month; 35% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 9000.0,
-  "deployed_today": 78445.83,
-  "orders_today": 27,
+  "spent_today": 15000.0,
+  "deployed_today": 84445.83,
+  "orders_today": 29,
   "sells_today": 24,
   "sold_today": [
     "CHRW",
@@ -6005,21 +6042,27 @@
     "PLTR": 1789498579,
     "SKWD": 1789566945
   },
-  "last_publish_ts": 1789571980,
-  "last_check_ts": 1789572062,
+  "last_publish_ts": 1789572150,
+  "last_check_ts": 1789572150,
   "last_bar_ts": 1789572000,
-  "last_decision_ts": 1789571980,
+  "last_decision_ts": 1789572150,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "4ebf28a0": 242.5994,
+    "c8cc83cd": 334.0363,
+    "a59af841": 154.2037,
     "90d1c6f7": 347.5221,
     "5571fd35": 344.6133,
+    "b1cb2026": 331.0742,
+    "c30a7e1f": 152.7535,
     "76901f2f": 239.9416,
     "af55d9fc": 271.6517,
     "8b5dda95": 265.0132,
     "22ff742b": 261.6575,
     "29db3585": 336.2893,
+    "ba11884f": 149.1763,
+    "fb51328b": 323.1943,
     "44ffb661": 234.5848
   }
 }

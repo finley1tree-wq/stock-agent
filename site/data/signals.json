@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T11:19-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,000 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gather",
+ "asOf": "2026-09-16T11:22-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,000 idle, so opened 2: CHRW, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,42 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 241.96,
-   "pct_away": 0.26,
+   "last": 242.02,
+   "pct_away": 0.24,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c8cc83cd",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 334.0363,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 333.12,
+   "pct_away": 0.28,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a59af841",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 154.2037,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.73,
+   "pct_away": 0.31,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 346.62,
-   "pct_away": 0.26,
+   "last": 346.19,
+   "pct_away": 0.38,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -180,10 +214,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 346.62,
-   "pct_away": -0.58,
+   "last": 346.19,
+   "pct_away": -0.46,
    "good_until": "2026-09-21",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b1cb2026",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 331.0742,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 333.12,
+   "pct_away": -0.61,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c30a7e1f",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.7535,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.73,
+   "pct_away": -0.64,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 241.96,
-   "pct_away": -0.83,
+   "last": 242.02,
+   "pct_away": -0.86,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -214,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 269.05,
-   "pct_away": 0.97,
+   "last": 268.61,
+   "pct_away": 1.13,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -231,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 269.05,
-   "pct_away": -1.5,
+   "last": 268.61,
+   "pct_away": -1.34,
    "good_until": "2026-09-21",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -248,8 +316,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 269.05,
-   "pct_away": -2.75,
+   "last": 268.61,
+   "pct_away": -2.59,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -265,7 +333,41 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 346.62,
+   "last": 346.19,
+   "pct_away": -2.86,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ba11884f",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 149.1763,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 153.73,
+   "pct_away": -2.96,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fb51328b",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 323.1943,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 333.12,
    "pct_away": -2.98,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -282,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 241.96,
-   "pct_away": -3.05,
+   "last": 242.02,
+   "pct_away": -3.07,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +394,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,000 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gather",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,000 idle, so opened 2: CHRW, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -350,7 +452,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 382,
+  "decisions_recorded": 383,
   "decisions_graded": 342,
   "decisions_with_buys_graded": 104,
   "independent_days_graded": 6,
@@ -1614,6 +1716,11 @@
  "headlines": {
   "AAPL": [
    {
+    "title": "Oura will struggle to justify pulse-racing $16bn valuation",
+    "source": "Financial Times",
+    "when": "2026-09-16T15:00"
+   },
+   {
     "title": "Garbutt Joins Brandtech As Global CCO, Leads AI-Produced Advertising",
     "source": "MediaPost",
     "when": "2026-09-16T15:00"
@@ -1622,11 +1729,6 @@
     "title": "What Happens To Microsoft Stock If Its AI Spending Keeps Climbing?",
     "source": "Trefis",
     "when": "2026-09-16T14:45"
-   },
-   {
-    "title": "Apple Watch Rival Garmin Traverses Rocky Road Toward Buy Range",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-16T14:37"
    }
   ],
   "AMD": [
@@ -1925,14 +2027,14 @@
     "when": "2026-09-16T12:58"
    },
    {
+    "title": "Stock Market Today: Nasdaq, S&P 500 Up With Fed Decision Looming; Intel, Micron, Sandisk Rise (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-16T15:10"
+   },
+   {
     "title": "Intel may be opening the door to a major new chip partnership",
     "source": "GuruFocus.com",
     "when": "2026-09-16T15:01"
-   },
-   {
-    "title": "Taiwan Semiconductor Is a No-Brainer Buy On Repeat And Not For The Reason You Think",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-16T14:45"
    }
   ],
   "LMT": [
@@ -2260,5 +2362,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T11:19-04:00"
+ "signalsAsOf": "2026-09-16T11:22-04:00"
 }
