@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-16T13:20-04:00",
+ "asOf": "2026-09-16T13:26-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "0ded1d6a",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 241.68,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 242.06,
-   "pct_away": -0.16,
-   "good_until": "2026-09-21",
-   "why": "close it all at -1.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "7a7dd9ec",
    "ticker": "CRWD",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 242.06,
-   "pct_away": 0.3,
+   "last": 242.32,
+   "pct_away": 0.19,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -173,15 +156,49 @@
    ]
   },
   {
-   "id": "4f1ba2c1",
+   "id": "19e4a8c6",
    "ticker": "IBM",
    "kind": "take_profit",
-   "price": 241.5007,
+   "price": 241.4983,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 240.7,
-   "pct_away": 0.33,
+   "last": 241.01,
+   "pct_away": 0.2,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0ded1d6a",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 241.68,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 242.32,
+   "pct_away": -0.26,
+   "good_until": "2026-09-21",
+   "why": "close it all at -1.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e9e5f24c",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 134.2823,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 133.72,
+   "pct_away": 0.42,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,27 +214,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 523.3,
-   "pct_away": 0.35,
+   "last": 522.13,
+   "pct_away": 0.57,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e9e5f24c",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 134.2823,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 133.68,
-   "pct_away": 0.45,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 133.68,
-   "pct_away": -0.73,
+   "last": 133.72,
+   "pct_away": -0.76,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -248,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 240.7,
-   "pct_away": -0.77,
+   "last": 241.01,
+   "pct_away": -0.9,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -265,10 +265,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 523.3,
-   "pct_away": -1.15,
+   "last": 522.13,
+   "pct_away": -0.93,
    "good_until": "2026-09-21",
    "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e01ac270",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 507.1936,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 522.13,
+   "pct_away": -2.86,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 133.68,
-   "pct_away": -2.89,
+   "last": 133.72,
+   "pct_away": -2.92,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -299,25 +316,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 240.7,
-   "pct_away": -2.98,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e01ac270",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 507.1936,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 523.3,
-   "pct_away": -3.08,
+   "last": 241.01,
+   "pct_away": -3.11,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -333,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 242.06,
-   "pct_away": -3.38,
+   "last": 242.32,
+   "pct_away": -3.48,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
