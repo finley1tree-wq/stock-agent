@@ -1,6 +1,3 @@
-portfolio: equity $25403.24 (+1.61% on $25000.00 in) · cash $1395.45 · realised +395.45
-Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $967.67 this week
-  (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [stop_loss @ $332.55] -> $3001.24 (+0.04%) — close it all at -0.6% under the average cost
 ## 2026-09-16 12:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $655.48 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25397.29 (+1.59% on $25000.00 in) · cash $7395.39 · realised +395.39
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $6967.62 this week
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $269.24] -> $3021.23 (+0.71%) — close 100% at +0.7% over the average cost
+## 2026-09-16 13:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
