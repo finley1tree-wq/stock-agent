@@ -5769,3 +5769,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25327.25 (+1.31% on $25000.00 in) · cash $4386.54 · realised +386.54
 Decision: nothing at this check. 22 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $242.68] -> $3004.09 (+0.14%) — close it all at -0.8% under the average cost
+## 2026-09-16 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
