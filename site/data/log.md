@@ -1,22 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7awVh9YLVKpdiVDes4Y'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25448.06 (+1.79% on $25000.00 in) · cash $10459.04 · realised +459.04
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% SBLK [time stop] -> $2994.70 (-0.18%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-16 14:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 14:26 ET (Wednesday) — week 2026-W38 — budget left $13025.97 (today $186445.83 put to work, 63 buys, 59 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7b9EFJWfQutmRn8K4ZP'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,026 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +6.8% over the month; 60% of today's range
 ~ WORKING take_profit 100% HLI @ $134.20 until 2026-09-21 — close 100% at +0.3% over the average cost
@@ -398,3 +379,22 @@ portfolio: equity $25179.61 (+0.72% on $25000.00 in) · cash $19206.12 · realis
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-16 15:29 ET (Wednesday) — week 2026-W38 — budget left $18778.35 (today $219445.83 put to work, 74 buys, 72 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7fweP7romhjXMh5Z6rW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 SBLK @ $29.92 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 MSFT @ $474.87 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25183.11 (+0.73% on $25000.00 in) · cash $19206.12 · realised +206.12
+Decision: nothing at this check. 6 standing order(s) working.
