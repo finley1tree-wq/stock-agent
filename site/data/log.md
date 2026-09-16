@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 AMD @ $503.07 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25438.77 (+1.76% on $25000.00 in) · cash $7453.74 · realised +453.74
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7025.97 this week
 - SELL 100% MSFT [time stop] -> $2995.76 (-0.14%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-16 14:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 MSFT @ $474.87 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25188.79 (+0.76% on $25000.00 in) · cash $19206.12 · realised +206.12
 Decision: nothing at this check. 6 standing order(s) working.
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
