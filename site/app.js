@@ -286,7 +286,14 @@
     const held = Object.keys(pos).length;
     const cash = p.cash ?? 0, equity = cash + mv, dep = p.deposited || 0, ret = dep ? (equity / dep - 1) * 100 : null;
     $("#equity").innerHTML = `${money(equity)}<small>${dep ? pct(ret) : ""}</small>`;
-    $("#equity-change").innerHTML = `<span class="pill ${anyLive ? cls(dayChange) : "flat"}">${anyLive ? `${signed(dayChange)} today` : held ? "quotes unavailable · at cost" : "no positions"}</span> <span style="color:var(--muted);font-size:13px;margin-left:8px">${dep ? `${signed(equity - dep)} all time` : ""}</span>`;
+    // "Today" = the account now minus the account at the open. The bot holds nothing overnight, so the
+    // open value is deposits + realised P/L minus what was realised today. (It used to show how far the
+    // held stocks had moved since yesterday's close, which the bot never owned - "+$107 today" on a red day.)
+    const etToday = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+    const realisedToday = (p.fills || []).filter(f => f.type === "sell" && String(f.date || "").startsWith(etToday)).reduce((a, f) => a + (+f.realized_pnl || 0), 0);
+    const openValue = dep + (+p.realized_pnl || 0) - realisedToday;
+    const today = equity - openValue;
+    $("#equity-change").innerHTML = `<span class="pill ${unpriced ? "flat" : cls(today)}" title="Account at the open: ${money(openValue)}">${unpriced ? "quotes unavailable · at cost" : `${signed(today)} today`}</span> <span style="color:var(--muted);font-size:13px;margin-left:8px">${dep ? `${signed(equity - dep)} all time` : ""}</span>`;
     $("#deposited").textContent = money(dep); $("#cash").textContent = money(cash); $("#realized").textContent = signed(p.realized_pnl || 0); $("#unrealized").textContent = unpriced ? "—" : signed(mv - cost);
     const alloc = $("#alloc"), legend = $("#legend"); alloc.innerHTML = ""; legend.innerHTML = "";
     const parts = Object.entries(pos).map(([s, x]) => [s, x.qty * (state.quotes[s]?.price ?? x.avg_cost)]).sort((a, b) => b[1] - a[1]); parts.push(["cash", cash]);
