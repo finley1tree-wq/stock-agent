@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "99076e61",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 483.8748,
-   "status": "cancelled",
-   "created": "2026-09-15 13:59",
-   "created_ts": 1789495156,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $498.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 14:29",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "cd3b376c",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 274.512,
-   "status": "cancelled",
-   "created": "2026-09-15 14:12",
-   "created_ts": 1789495936,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $261.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:13",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "2ca24a65",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 254.904,
-   "status": "cancelled",
-   "created": "2026-09-15 14:12",
-   "created_ts": 1789495936,
-   "why": "close it all at -2.5% under the average cost",
-   "evidence": "average cost $261.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:13",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "630a7064",
    "ticker": "BE",
    "kind": "take_profit",
@@ -7220,7 +7163,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 243.6593,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:15",
    "created_ts": 1789582547,
    "why": "close 100% at +0.7% over the average cost",
@@ -7230,7 +7173,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b71a2d8c",
@@ -7256,7 +7201,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 234.7206,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:15",
    "created_ts": 1789582547,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7266,14 +7211,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 14:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "42da08cf",
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 240.9161,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:15",
    "created_ts": 1789582547,
    "why": "close 100% at +0.3% over the average cost",
@@ -7283,14 +7230,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "6033bae9",
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 238.236,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:15",
    "created_ts": 1789582547,
    "why": "close it all at -0.8% under the average cost",
@@ -7300,14 +7249,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "6ce25e18",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 232.9455,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:15",
    "created_ts": 1789582547,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7317,7 +7268,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 14:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "074266af",
@@ -7463,7 +7416,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 242.658,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:42",
    "created_ts": 1789584137,
    "why": "close it all at -1.7% under the average cost",
@@ -7473,7 +7426,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d806cdaf",
@@ -7525,7 +7480,58 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "094ba93a",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 269.3059,
+   "status": "working",
+   "created": "2026-09-16 14:45",
+   "created_ts": 1789584347,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $267.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "eec5e85b",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 262.6742,
+   "status": "working",
+   "created": "2026-09-16 14:45",
+   "created_ts": 1789584347,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $267.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f419c40e",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 259.3877,
+   "status": "working",
+   "created": "2026-09-16 14:45",
+   "created_ts": 1789584347,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $267.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 14:43"
+ "updated": "2026-09-16 14:45"
 }
