@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7JbA3YAYhMkdPckA6ND'}
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $129.84 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25448.99 (+1.80% on $25000.00 in) · cash $7442.63 · realised +442.63
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7014.85 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $677.72] -> $3002.24 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-09-16 11:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders

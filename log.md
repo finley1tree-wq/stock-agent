@@ -6610,3 +6610,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $129.84 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25448.99 (+1.80% on $25000.00 in) · cash $7442.63 · realised +442.63
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7014.85 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $677.72] -> $3002.24 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-09-16 11:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
