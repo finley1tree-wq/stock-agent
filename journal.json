@@ -1893,8 +1893,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15,
-    "ret_final": 0.15,
+    "ret_now": 0.14,
+    "ret_final": 0.14,
     "ret_src": "realised"
   },
   {
@@ -2451,8 +2451,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15,
-    "ret_final": 0.15,
+    "ret_now": 0.14,
+    "ret_final": 0.14,
     "ret_src": "realised"
   },
   {
@@ -4955,8 +4955,8 @@
     "code_version": "d63c124",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.12,
+    "ret_final": 0.12,
     "ret_src": "realised"
   },
   {
@@ -5898,8 +5898,8 @@
     "code_version": "1deaf89",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11,
-    "ret_final": 0.11,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -7839,8 +7839,8 @@
     "code_version": "71a90da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1,
-    "ret_final": 0.1,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -8861,8 +8861,8 @@
     "code_version": "c76bebf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12,
-    "ret_final": 0.12,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -9406,8 +9406,8 @@
     "code_version": "0630881",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14,
-    "ret_final": 0.14,
+    "ret_now": 0.12,
+    "ret_final": 0.12,
     "ret_src": "realised"
   },
   {
@@ -10113,8 +10113,8 @@
     "code_version": "a360bec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2,
-    "ret_final": 0.2,
+    "ret_now": 0.17,
+    "ret_final": 0.17,
     "ret_src": "realised"
   },
   {
@@ -10621,8 +10621,8 @@
     "code_version": "3320e56",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.17,
-    "ret_now": 0.17,
+    "ret_final": 0.13,
+    "ret_now": 0.13,
     "ret_src": "realised"
   },
   {
@@ -11335,8 +11335,8 @@
     "code_version": "555f21a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06,
-    "ret_final": 0.06,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -11935,7 +11935,7 @@
     "code_version": "a98ee4e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.09
   },
   {
     "symbol": "IBM",
@@ -11989,7 +11989,7 @@
     "code_version": "9246ee4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.29
   },
   {
     "symbol": "CHRW",
@@ -12016,7 +12016,9 @@
     "code_version": "b0e94f3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -12042,7 +12044,7 @@
     "code_version": "b0e94f3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.09
   },
   {
     "symbol": "IBM",
@@ -12094,6 +12096,84 @@
     "evidence": "average cost $153.79",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "8a2d07e"
+    "code_version": "8a2d07e",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "SBLK",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 96.269678,
+    "price": 31.16,
+    "date": "2026-09-16",
+    "time_et": "11:33",
+    "ts": 1789572809,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "2 insiders bought (Form 4, incl. director); +3.5% over the month; 78% of today's range",
+    "entry_price": 31.15,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 3.51,
+    "hour_et": 11,
+    "code_version": "25608c0",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TTD",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 201.66782,
+    "price": 14.88,
+    "date": "2026-09-16",
+    "time_et": "11:33",
+    "ts": 1789572809,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +11.0% over the month; 80% of today's range",
+    "entry_price": 14.87,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.97,
+    "hour_et": 11,
+    "code_version": "25608c0",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.075473,
+    "price": 493.79,
+    "date": "2026-09-16",
+    "time_et": "11:33",
+    "ts": 1789572809,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+2.8% over the month; 53% of today's range",
+    "entry_price": 493.69,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.78,
+    "hour_et": 11,
+    "code_version": "25608c0",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

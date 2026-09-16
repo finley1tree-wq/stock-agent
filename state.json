@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 8988.35,
-  "deployed": 465255.02,
+  "spent": 17988.35,
+  "deployed": 474255.02,
   "by_ticker": {
     "GOOGL": 3015.25,
     "AMD": 12.15,
@@ -12,12 +12,13 @@
     "MAIA": 46.66,
     "HLI": 22.75,
     "NEM": 25.43,
-    "MSFT": 9.88,
+    "MSFT": 3009.88,
     "PLTR": 10.45,
-    "TTD": 15.74,
+    "TTD": 3015.74,
     "SKWD": 22.98,
     "META": 2.21,
-    "AAPL": 3000.0
+    "AAPL": 3000.0,
+    "SBLK": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -29,16 +30,17 @@
     "NEM": 42000.0,
     "META": 39478.21,
     "AMD": 16000.0,
-    "TTD": 36000.0,
+    "TTD": 39000.0,
     "AAPL": 42000.0,
-    "MSFT": 30903.62,
+    "MSFT": 33903.62,
     "GOOGL": 24000.0,
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
     "CRWD": 18000.0,
     "PLTR": 6000.0,
-    "SKWD": 3000.0
+    "SKWD": 3000.0,
+    "SBLK": 3000.0
   },
   "orders": [
     {
@@ -6039,12 +6041,65 @@
       ],
       "evidence": "average cost $153.79",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "SBLK",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 96.269678,
+      "price": 31.16,
+      "date": "2026-09-16",
+      "time_et": "11:33",
+      "ts": 1789572809,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "2 insiders bought (Form 4, incl. director); +3.5% over the month; 78% of today's range"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 201.66782,
+      "price": 14.88,
+      "date": "2026-09-16",
+      "time_et": "11:33",
+      "ts": 1789572809,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +11.0% over the month; 80% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.075473,
+      "price": 493.79,
+      "date": "2026-09-16",
+      "time_et": "11:33",
+      "ts": 1789572809,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+2.8% over the month; 53% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 8988.35,
-  "deployed_today": 84445.83,
-  "orders_today": 29,
+  "spent_today": 17988.35,
+  "deployed_today": 93445.83,
+  "orders_today": 32,
   "sells_today": 26,
   "sold_today": [
     "CHRW",
@@ -6082,21 +6137,30 @@
     "PLTR": 1789498579,
     "SKWD": 1789566945
   },
-  "last_publish_ts": 1789572685,
-  "last_check_ts": 1789572731,
+  "last_publish_ts": 1789572809,
+  "last_check_ts": 1789572809,
   "last_bar_ts": 1789572600,
-  "last_decision_ts": 1789572644,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789572809,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "a2196b72": 494.9356,
     "5571fd35": 344.6133,
+    "251883a4": 31.2547,
     "c8cc83cd": 334.0363,
     "b1cb2026": 331.0742,
+    "ca850e3c": 14.9508,
     "90d1c6f7": 347.5221,
-    "af55d9fc": 271.6517,
+    "36a20258": 490.9211,
+    "c1fadb2a": 271.6436,
+    "45ca3154": 30.9232,
+    "67cfc8ac": 14.7028,
     "8b5dda95": 265.0132,
     "29db3585": 336.2893,
     "fb51328b": 323.1943,
+    "c70aaf7c": 14.4336,
+    "cac292c6": 30.2252,
+    "e704b2cc": 478.9763,
     "22ff742b": 261.6575
   }
 }
