@@ -1,20 +1,3 @@
-## 2026-09-16 13:48 ET (Wednesday) — week 2026-W38 — budget left $15966.56 (today $159445.83 put to work, 54 buys, 51 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7YFRH9TbxxeVpqNFHzc'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,967 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.6% over the month; 25% of today's range
-~ WORKING take_profit 100% NEM @ $123.97 until 2026-09-21 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NEM @ $122.37 until 2026-09-21 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 NEM @ $119.80 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25398.93 (+1.60% on $25000.00 in) · cash $13394.33 · realised +394.33
-Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12966.56 this week
-
 ## 2026-09-16 13:51 ET (Wednesday) — week 2026-W38 — budget left $12966.56 (today $162445.83 put to work, 55 buys, 51 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $334.70 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25433.18 (+1.73% on $25000.00 in) · cash $7477.96 · realised +477.96
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $7050.18 this week
+
+## 2026-09-16 14:51 ET (Wednesday) — week 2026-W38 — budget left $7050.18 (today $204445.83 put to work, 69 buys, 63 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7d2jQH6SLsjCvmkVS6i'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,050 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.1% over the month; 42% of today's range
+~ WORKING take_profit 100% AAPL @ $334.32 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $331.35 until 2026-09-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $323.47 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25387.86 (+1.55% on $25000.00 in) · cash $4477.96 · realised +477.96
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $4050.18 this week
