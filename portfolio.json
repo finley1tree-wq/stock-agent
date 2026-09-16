@@ -1,5 +1,5 @@
 {
-  "cash": 7390.6299496073425,
+  "cash": 10405.155662717147,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
@@ -40,23 +40,14 @@
       "last_buy_ts": 1789565588,
       "opened_ts": 1789565588
     },
-    "AAPL": {
-      "qty": 8.977283289862633,
-      "avg_cost": 334.176822,
+    "AMD": {
+      "qty": 5.75457603310695,
+      "avg_cost": 521.324244,
       "opened": "2026-09-16",
       "last_buy": "2026-09-16",
       "tranches": 1,
-      "last_buy_ts": 1789565755,
-      "opened_ts": 1789565755
-    },
-    "MSFT": {
-      "qty": 6.068097918177598,
-      "avg_cost": 494.388858,
-      "opened": "2026-09-16",
-      "last_buy": "2026-09-16",
-      "tranches": 1,
-      "last_buy_ts": 1789565755,
-      "opened_ts": 1789565755
+      "last_buy_ts": 1789566104,
+      "opened_ts": 1789566104
     }
   },
   "fills": [
@@ -4595,7 +4586,41 @@
       "realized_pct": 0.14,
       "type": "sell",
       "date": "2026-09-16 09:40"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 8.977283,
+      "status": "filled",
+      "price": 335.02,
+      "proceeds": 3007.56,
+      "realized_pnl": 7.56,
+      "realized_pct": 0.25,
+      "type": "sell",
+      "date": "2026-09-16 09:41"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.068098,
+      "status": "filled",
+      "price": 495.54,
+      "proceeds": 3006.97,
+      "realized_pnl": 6.97,
+      "realized_pct": 0.23,
+      "type": "sell",
+      "date": "2026-09-16 09:41"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.754576,
+      "price": 521.32,
+      "type": "buy",
+      "date": "2026-09-16 09:41"
     }
   ],
-  "realized_pnl": 390.62994960735347
+  "realized_pnl": 405.15566271715727
 }
