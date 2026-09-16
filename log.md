@@ -6758,3 +6758,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 CHRW @ $149.05 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25425.15 (+1.70% on $25000.00 in) · cash $13436.76 · realised +436.76
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13008.98 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $240.82] -> $3001.36 (+0.05%) — close it all at -0.8% under the average cost
+## 2026-09-16 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
