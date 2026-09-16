@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "47ac64d4",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 155.3147,
-   "status": "cancelled",
-   "created": "2026-09-15 10:32",
-   "created_ts": 1789482720,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $156.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 11:02",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "102b04ee",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -7510,7 +7491,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 238.8108,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:13",
    "created_ts": 1789575181,
    "why": "close it all at -0.8% under the average cost",
@@ -7520,7 +7501,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 12:15",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d08a8e6d",
@@ -7538,7 +7521,24 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "035d7664",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 240.938,
+   "status": "working",
+   "created": "2026-09-16 12:15",
+   "created_ts": 1789575358,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $240.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 12:13"
+ "updated": "2026-09-16 12:15"
 }
