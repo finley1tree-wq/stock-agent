@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 23.81,
-  "deployed": 419809.19,
+  "spent": 9023.81,
+  "deployed": 428809.19,
   "by_ticker": {
     "IBM": 17.8,
-    "GOOGL": 22.49,
+    "GOOGL": 3022.49,
     "AMD": 3.9,
     "BE": 13.64,
     "FLD": 1.2,
@@ -16,22 +16,24 @@
     "MSFT": 9.98,
     "PLTR": 10.45,
     "TTD": 19.92,
-    "SKWD": 22.98
+    "SKWD": 22.98,
+    "CHRW": 3000.0,
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
-    "CHRW": 30000.0,
+    "CHRW": 33000.0,
     "BE": 39000.0,
     "IBM": 36000.0,
     "FLD": 6000.0,
     "HLI": 36873.19,
     "NEM": 39000.0,
-    "META": 36478.21,
+    "META": 39478.21,
     "AMD": 13000.0,
     "TTD": 33000.0,
     "AAPL": 36000.0,
     "MSFT": 30457.79,
-    "GOOGL": 18000.0,
+    "GOOGL": 21000.0,
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
@@ -5489,12 +5491,64 @@
       ],
       "evidence": "average cost $57.87",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.517087,
+      "price": 153.71,
+      "date": "2026-09-16",
+      "time_et": "10:22",
+      "ts": 1789568536,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +6.1% over the month; 12% of today's range"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.412959,
+      "price": 679.82,
+      "date": "2026-09-16",
+      "time_et": "10:22",
+      "ts": 1789568536,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+19.5% over the month; 49% of today's range"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.693157,
+      "price": 345.1,
+      "date": "2026-09-16",
+      "time_et": "10:22",
+      "ts": 1789568536,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.3% over the month; 28% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 0.0,
-  "deployed_today": 39000.0,
-  "orders_today": 13,
+  "spent_today": 9000.0,
+  "deployed_today": 48000.0,
+  "orders_today": 16,
   "sells_today": 13,
   "sold_today": [
     "CHRW",
@@ -5532,11 +5586,21 @@
     "PLTR": 1789498579,
     "SKWD": 1789566945
   },
-  "last_publish_ts": 1789566945,
-  "last_check_ts": 1789568374,
-  "last_bar_ts": 1789568100,
-  "last_decision_ts": 1789568374,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789568536,
+  "last_check_ts": 1789568536,
+  "last_bar_ts": 1789568400,
+  "last_decision_ts": 1789568536,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "36eed949": 345.9317,
+    "92943303": 154.1189,
+    "e27945dc": 682.1858,
+    "3322d064": 343.0225,
+    "409ec18d": 152.6863,
+    "a5bee7d6": 673.9056,
+    "dfd52cd6": 149.0987,
+    "93c5933b": 659.4254,
+    "efa2ff93": 334.747
+  }
 }

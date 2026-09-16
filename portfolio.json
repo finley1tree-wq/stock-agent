@@ -1,9 +1,37 @@
 {
-  "cash": 25381.204021229605,
+  "cash": 16381.204021229605,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
-  "positions": {},
+  "positions": {
+    "CHRW": {
+      "qty": 19.517087405194122,
+      "avg_cost": 153.71146,
+      "opened": "2026-09-16",
+      "last_buy": "2026-09-16",
+      "tranches": 1,
+      "last_buy_ts": 1789568543,
+      "opened_ts": 1789568543
+    },
+    "META": {
+      "qty": 4.412959216066391,
+      "avg_cost": 679.815936,
+      "opened": "2026-09-16",
+      "last_buy": "2026-09-16",
+      "tranches": 1,
+      "last_buy_ts": 1789568543,
+      "opened_ts": 1789568543
+    },
+    "GOOGL": {
+      "qty": 8.693157464498753,
+      "avg_cost": 345.099006,
+      "opened": "2026-09-16",
+      "last_buy": "2026-09-16",
+      "tranches": 1,
+      "last_buy_ts": 1789568543,
+      "opened_ts": 1789568543
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -4656,6 +4684,36 @@
       "realized_pct": -0.77,
       "type": "sell",
       "date": "2026-09-16 09:55"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.517087,
+      "price": 153.71,
+      "type": "buy",
+      "date": "2026-09-16 10:22"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.412959,
+      "price": 679.82,
+      "type": "buy",
+      "date": "2026-09-16 10:22"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.693157,
+      "price": 345.1,
+      "type": "buy",
+      "date": "2026-09-16 10:22"
     }
   ],
   "realized_pnl": 381.204021229617
