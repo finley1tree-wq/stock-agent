@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "151996db",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 157.9505,
-   "status": "filled",
-   "created": "2026-09-15 14:40",
-   "created_ts": 1789497631,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $157.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 15:01"
-  },
-  {
-   "id": "1bf34b92",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 156.3755,
-   "status": "cancelled",
-   "created": "2026-09-15 14:40",
-   "created_ts": 1789497631,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $157.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:55",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "96ea64fa",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 152.775,
-   "status": "cancelled",
-   "created": "2026-09-15 14:40",
-   "created_ts": 1789497631,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $157.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 15:01",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "20311157",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 703.1115,
-   "status": "cancelled",
-   "created": "2026-09-15 14:43",
-   "created_ts": 1789497838,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $669.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:44",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "23fdb6be",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 652.8892,
-   "status": "cancelled",
-   "created": "2026-09-15 14:43",
-   "created_ts": 1789497838,
-   "why": "close it all at -2.5% under the average cost",
-   "evidence": "average cost $669.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:44",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "8d062a13",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 672.1277,
-   "status": "cancelled",
-   "created": "2026-09-15 14:44",
-   "created_ts": 1789497884,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $669.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 15:03",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "74a9c8f4",
    "ticker": "META",
    "kind": "stop_loss",
@@ -7286,7 +7173,7 @@
    "ticker": "SBLK",
    "kind": "take_profit",
    "price": 30.9447,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 15:13",
    "created_ts": 1789585987,
    "why": "close 100% at +0.3% over the average cost",
@@ -7296,7 +7183,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 15:30",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0c5df0b7",
@@ -7506,9 +7395,121 @@
    "ticker": "SBLK",
    "kind": "buy_limit",
    "price": 29.9245,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 15:29",
    "created_ts": 1789586975,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $30.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0,
+   "closed": "2026-09-16 15:30",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "77a2771d",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 474.8732,
+   "status": "cancelled",
+   "created": "2026-09-16 15:29",
+   "created_ts": 1789586975,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $489.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0,
+   "closed": "2026-09-16 15:30",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "4c46acda",
+   "ticker": "SBLK",
+   "kind": "take_profit",
+   "price": 32.3925,
+   "status": "cancelled",
+   "created": "2026-09-16 15:30",
+   "created_ts": 1789587010,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $30.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 15:30",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "5f242c6d",
+   "ticker": "SBLK",
+   "kind": "buy_limit",
+   "price": 29.9245,
+   "status": "cancelled",
+   "created": "2026-09-16 15:30",
+   "created_ts": 1789587010,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $30.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0,
+   "closed": "2026-09-16 15:30",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "e611abe3",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 474.8732,
+   "status": "cancelled",
+   "created": "2026-09-16 15:30",
+   "created_ts": 1789587010,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $489.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0,
+   "closed": "2026-09-16 15:30",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "b260c931",
+   "ticker": "SBLK",
+   "kind": "take_profit",
+   "price": 30.945,
+   "status": "working",
+   "created": "2026-09-16 15:30",
+   "created_ts": 1789587056,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $30.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "376f715e",
+   "ticker": "SBLK",
+   "kind": "buy_limit",
+   "price": 29.9245,
+   "status": "working",
+   "created": "2026-09-16 15:30",
+   "created_ts": 1789587056,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $30.85",
    "signals": [
@@ -7519,13 +7520,13 @@
    "usd": 500.0
   },
   {
-   "id": "77a2771d",
+   "id": "03cf1be8",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 474.8732,
    "status": "working",
-   "created": "2026-09-16 15:29",
-   "created_ts": 1789586975,
+   "created": "2026-09-16 15:30",
+   "created_ts": 1789587056,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $489.56",
    "signals": [
@@ -7536,5 +7537,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-16 15:29"
+ "updated": "2026-09-16 15:30"
 }
