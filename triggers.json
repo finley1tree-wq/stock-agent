@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "71e0e707",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 122.026,
-   "status": "cancelled",
-   "created": "2026-09-15 11:44",
-   "created_ts": 1789487049,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $121.87",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 11:51",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4288778a",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -7122,7 +7103,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 121.7546,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:35",
    "created_ts": 1789576512,
    "why": "close it all at -0.9% under the average cost",
@@ -7132,7 +7113,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 12:54",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d12522f8",
@@ -7518,7 +7501,24 @@
    ],
    "good_until": "2026-09-21",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "d9ee4f11",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 123.044,
+   "status": "working",
+   "created": "2026-09-16 12:54",
+   "created_ts": 1789577654,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $122.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 12:51"
+ "updated": "2026-09-16 12:55"
 }

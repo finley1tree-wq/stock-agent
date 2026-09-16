@@ -1,17 +1,3 @@
-- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +13.9% over the month; 83% of today's range
-~ WORKING take_profit 100% CRWD @ $245.32 until 2026-09-21 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% CRWD @ $239.44 until 2026-09-21 — close it all at -1.7% under the average cost
-~ WORKING buy_limit $500.00 CRWD @ $236.33 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25434.65 (+1.74% on $25000.00 in) · cash $1444.42 · realised +444.42
-Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1016.64 this week
-  (cancelled 2 standing order(s) on NEM: position closed)
-- SELL 100% NEM [take_profit @ $123.81] -> $3011.18 (+0.37%) — close 100% at +0.4% over the average cost
-## 2026-09-16 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 11:47 ET (Wednesday) — week 2026-W38 — budget left $4027.82 (today $102445.83 put to work, 35 buys, 28 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +384,17 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $967.67 this week
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [stop_loss @ $332.55] -> $3001.24 (+0.04%) — close it all at -0.6% under the average cost
 ## 2026-09-16 12:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 12:51 ET (Wednesday) — week 2026-W38 — budget left $3968.91 (today $138445.83 put to work, 47 buys, 40 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7TuX2eKCjWfsCLVpL7V'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25394.85 (+1.58% on $25000.00 in) · cash $4396.69 · realised +396.69
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
