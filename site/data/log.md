@@ -1,33 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7P2VWyQTpeqUNNqgmEN'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% META @ $678.06 until 2026-09-21 — close it all at -0.9% under the average cost
-portfolio: equity $25462.36 (+1.85% on $25000.00 in) · cash $4455.60 · realised +455.60
-Decision: nothing at this check. 21 standing order(s) working.
-- SELL 100% GOOGL [time stop] -> $2993.00 (-0.23%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-16 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 11:50 ET (Wednesday) — week 2026-W38 — budget left $7020.82 (today $102445.83 put to work, 35 buys, 29 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7PEmXyMyXMpH669DHRt'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25460.30 (+1.84% on $25000.00 in) · cash $7448.60 · realised +448.60
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% AAPL [time stop] -> $2994.03 (-0.20%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-16 11:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 11:53 ET (Wednesday) — week 2026-W38 — budget left $10014.85 (today $102445.83 put to work, 35 buys, 30 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
@@ -398,3 +368,33 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25394.85 (+1.58% on $25000.00 in) · cash $4396.69 · realised +396.69
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-16 12:55 ET (Wednesday) — week 2026-W38 — budget left $3968.91 (today $138445.83 put to work, 47 buys, 40 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7UA7CrCesn95mh29YsA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25389.83 (+1.56% on $25000.00 in) · cash $4396.69 · realised +396.69
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-16 12:57 ET (Wednesday) — week 2026-W38 — budget left $3968.91 (today $138445.83 put to work, 47 buys, 40 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7UNpYrQjdfuid181tSs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25399.43 (+1.60% on $25000.00 in) · cash $4396.69 · realised +396.69
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% BE [time stop] -> $3010.03 (+0.33%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 12:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
