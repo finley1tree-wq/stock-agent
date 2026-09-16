@@ -1,6 +1,3 @@
-- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +12.7% over the month; 57% of today's range
-~ WORKING take_profit 100% CRWD @ $242.79 until 2026-09-21 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% CRWD @ $236.91 until 2026-09-21 — close it all at -1.7% under the average cost
 ~ WORKING buy_limit $500.00 CRWD @ $233.88 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25404.75 (+1.62% on $25000.00 in) · cash $4406.71 · realised +406.71
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3978.94 this week
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 TTD @ $14.41 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25440.60 (+1.76% on $25000.00 in) · cash $13433.38 · realised +433.38
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13005.61 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $678.12] -> $3010.52 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-09-16 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
