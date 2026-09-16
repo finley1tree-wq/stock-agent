@@ -1,6 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,013 idle, so opened 1: SKWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 SKWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +0.4% over the month; 75% of today's range
-~ WORKING take_profit 100% SKWD @ $58.04 until 2026-09-21 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% SKWD @ $57.45 until 2026-09-21 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 SKWD @ $56.13 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25402.23 (+1.61% on $25000.00 in) · cash $13418.00 · realised +418.00
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $130.14 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25418.49 (+1.67% on $25000.00 in) · cash $13417.06 · realised +417.06
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13012.05 this week
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $123.57] -> $3011.18 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-09-16 10:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
