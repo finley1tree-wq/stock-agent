@@ -7048,7 +7048,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 520.8653,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:29",
    "created_ts": 1789583366,
    "why": "close 100% at +0.4% over the average cost",
@@ -7058,14 +7058,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:57",
+   "cancel_reason": "position closed"
   },
   {
    "id": "53680eb1",
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 513.0392,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 14:29",
    "created_ts": 1789583366,
    "why": "close it all at -1.1% under the average cost",
@@ -7075,14 +7077,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:57"
   },
   {
    "id": "b44e0db5",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 503.0711,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:29",
    "created_ts": 1789583366,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7092,7 +7095,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 14:57",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b7afcb78",
@@ -7308,7 +7313,7 @@
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 345.8816,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:48",
    "created_ts": 1789584514,
    "why": "close 100% at +0.2% over the average cost",
@@ -7318,14 +7323,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:57",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6313993c",
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 342.9728,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 14:48",
    "created_ts": 1789584514,
    "why": "close it all at -0.6% under the average cost",
@@ -7335,14 +7342,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:57"
   },
   {
    "id": "ffab4f52",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 334.6985,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:48",
    "created_ts": 1789584514,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7352,7 +7360,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 14:57",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a2673f29",
@@ -7508,5 +7518,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-16 14:56"
+ "updated": "2026-09-16 14:57"
 }

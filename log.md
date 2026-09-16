@@ -7729,3 +7729,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 TTD @ $14.37 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25330.16 (+1.32% on $25000.00 in) · cash $1451.04 · realised +451.04
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1023.27 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $512.78] -> $2966.16 (-1.13%) — close it all at -1.1% under the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $342.80] -> $2980.46 (-0.65%) — close it all at -0.6% under the average cost
+## 2026-09-16 14:57 ET — tick — 2 sell(s), 0 buy(s) from standing orders

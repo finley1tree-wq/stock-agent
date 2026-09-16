@@ -1,8 +1,3 @@
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Yt73p6JL2wp6dSmsvA'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,968 idle, so opened 2: SBLK, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 3 insiders bought (Form 4, incl. officer: co CFO); +3.0% over the month; 54% of today's range
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 TTD @ $14.37 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25330.16 (+1.32% on $25000.00 in) · cash $1451.04 · realised +451.04
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1023.27 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $512.78] -> $2966.16 (-1.13%) — close it all at -1.1% under the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $342.80] -> $2980.46 (-0.65%) — close it all at -0.6% under the average cost
+## 2026-09-16 14:57 ET — tick — 2 sell(s), 0 buy(s) from standing orders
