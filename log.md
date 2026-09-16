@@ -6931,3 +6931,20 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $989.41 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [stop_loss @ $152.55] -> $2978.26 (-0.72%) — close it all at -0.7% under the average cost
 ## 2026-09-16 12:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 12:49 ET (Wednesday) — week 2026-W38 — budget left $3967.67 (today $135445.83 put to work, 46 buys, 39 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7ThiSer88N1XsqFwpqr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,968 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +11.2% over the month; 84% of today's range
+~ WORKING take_profit 100% TTD @ $14.98 until 2026-09-21 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.73 until 2026-09-21 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.46 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25403.24 (+1.61% on $25000.00 in) · cash $1395.45 · realised +395.45
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $967.67 this week
