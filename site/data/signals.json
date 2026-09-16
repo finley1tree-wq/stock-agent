@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T10:22-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,976 idle, so opened 3: CHRW, META, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the",
+ "asOf": "2026-09-16T10:25-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,976 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 345.03,
-   "pct_away": 0.26,
+   "last": 345.06,
+   "pct_away": 0.25,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 153.65,
-   "pct_away": 0.31,
+   "last": 153.6,
+   "pct_away": 0.34,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -180,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 679.68,
-   "pct_away": 0.37,
+   "last": 679.76,
+   "pct_away": 0.36,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3322d064",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 343.0225,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 345.03,
-   "pct_away": -0.58,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,10 +197,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 153.65,
-   "pct_away": -0.63,
+   "last": 153.6,
+   "pct_away": -0.59,
    "good_until": "2026-09-21",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3322d064",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 343.0225,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 345.06,
+   "pct_away": -0.59,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "86bd5ed8",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 272.4136,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 270.47,
+   "pct_away": 0.72,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,10 +248,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 679.68,
-   "pct_away": -0.85,
+   "last": 679.76,
+   "pct_away": -0.86,
    "good_until": "2026-09-21",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5c3c84d2",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 265.7832,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 270.47,
+   "pct_away": -1.73,
+   "good_until": "2026-09-21",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,8 +282,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 153.65,
-   "pct_away": -2.96,
+   "last": 153.6,
+   "pct_away": -2.93,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "500654d2",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 262.4044,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 270.47,
+   "pct_away": -2.98,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -265,8 +316,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 679.68,
-   "pct_away": -2.98,
+   "last": 679.76,
+   "pct_away": -2.99,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -282,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 345.03,
-   "pct_away": -2.98,
+   "last": 345.06,
+   "pct_away": -2.99,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +343,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,976 idle, so opened 3: CHRW, META, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,976 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -354,7 +405,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 361,
+  "decisions_recorded": 362,
   "decisions_graded": 342,
   "decisions_with_buys_graded": 104,
   "independent_days_graded": 6,
@@ -2364,6 +2415,11 @@
   ],
   "NOC": [
    {
+    "title": "Can Rocket Lab's Component Portfolio Support Space Market Growth?",
+    "source": "Zacks",
+    "when": "2026-09-16T14:16"
+   },
+   {
     "title": "What Are You Actually Buying In RKLB Stock?",
     "source": "Trefis",
     "when": "2026-09-16T12:18"
@@ -2372,11 +2428,6 @@
     "title": "Northrop Grumman (NOC) Stock May Be 21% Undervalued Following Sentinel Missile Progress",
     "source": "Simply Wall St.",
     "when": "2026-09-16T00:18"
-   },
-   {
-    "title": "Northrop Grumman (NOC) Secures $4.8 Billion Army Contract. Execution Is the Bigger Test",
-    "source": "Insider Monkey",
-    "when": "2026-09-15T20:39"
    }
   ],
   "NVDA": [
@@ -2585,5 +2636,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T10:22-04:00"
+ "signalsAsOf": "2026-09-16T10:25-04:00"
 }

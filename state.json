@@ -1,12 +1,12 @@
 {
   "week": "2026-W38",
-  "spent": 9023.81,
-  "deployed": 428809.19,
+  "spent": 12023.81,
+  "deployed": 431809.19,
   "by_ticker": {
     "IBM": 17.8,
     "GOOGL": 3022.49,
     "AMD": 3.9,
-    "BE": 13.64,
+    "BE": 3013.64,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -23,7 +23,7 @@
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 33000.0,
-    "BE": 39000.0,
+    "BE": 42000.0,
     "IBM": 36000.0,
     "FLD": 6000.0,
     "HLI": 36873.19,
@@ -5543,12 +5543,30 @@
         "autopilot"
       ],
       "evidence": "+0.3% over the month; 28% of today's range"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.089585,
+      "price": 270.52,
+      "date": "2026-09-16",
+      "time_et": "10:25",
+      "ts": 1789568704,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +16.5% over the month; 60% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 9000.0,
-  "deployed_today": 48000.0,
-  "orders_today": 16,
+  "spent_today": 12000.0,
+  "deployed_today": 51000.0,
+  "orders_today": 17,
   "sells_today": 13,
   "sold_today": [
     "CHRW",
@@ -5586,20 +5604,23 @@
     "PLTR": 1789498579,
     "SKWD": 1789566945
   },
-  "last_publish_ts": 1789568536,
-  "last_check_ts": 1789568622,
-  "last_bar_ts": 1789568400,
-  "last_decision_ts": 1789568536,
+  "last_publish_ts": 1789568704,
+  "last_check_ts": 1789568704,
+  "last_bar_ts": 1789568700,
+  "last_decision_ts": 1789568704,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "36eed949": 345.9317,
     "92943303": 154.1189,
     "e27945dc": 682.1858,
-    "3322d064": 343.0225,
     "409ec18d": 152.6863,
+    "3322d064": 343.0225,
+    "86bd5ed8": 272.4136,
     "a5bee7d6": 673.9056,
+    "5c3c84d2": 265.7832,
     "dfd52cd6": 149.0987,
+    "500654d2": 262.4044,
     "93c5933b": 659.4254,
     "efa2ff93": 334.747
   }

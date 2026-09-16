@@ -1,20 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-15 15:54 ET (Tuesday) — week 2026-W38 — budget left $24947.72 (today $174873.19 put to work, 59 buys, 58 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
-  (CSPI excluded: too thinly traded ($0.3M a day) — CSP Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf5p4CCtRdfusVD9RWW4M'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $334.75 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25378.80 (+1.52% on $25000.00 in) · cash $16381.20 · realised +381.20
 Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15976.19 this week
+
+## 2026-09-16 10:25 ET (Wednesday) — week 2026-W38 — budget left $15976.19 (today $48000.00 put to work, 16 buys, 13 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7GiojeZn5um4xks3Fur'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,976 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +16.5% over the month; 60% of today's range
+~ WORKING take_profit 100% BE @ $272.41 until 2026-09-21 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $265.78 until 2026-09-21 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $262.40 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25377.84 (+1.51% on $25000.00 in) · cash $13381.20 · realised +381.20
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12976.19 this week
