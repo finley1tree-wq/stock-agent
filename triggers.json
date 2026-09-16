@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "d3cb4f56",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 134.921,
-   "status": "cancelled",
-   "created": "2026-09-15 14:34",
-   "created_ts": 1789497296,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $136.02",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:51",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "282cb5ab",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 672.1277,
-   "status": "cancelled",
-   "created": "2026-09-15 14:34",
-   "created_ts": 1789497297,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $669.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "d6429f12",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 663.389,
-   "status": "cancelled",
-   "created": "2026-09-15 14:34",
-   "created_ts": 1789497297,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $669.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "ffd6b679",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7535,7 +7478,58 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "5af42b6a",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 490.7203,
+   "status": "working",
+   "created": "2026-09-16 15:18",
+   "created_ts": 1789586320,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $489.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad89d4a4",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 486.6569,
+   "status": "working",
+   "created": "2026-09-16 15:18",
+   "created_ts": 1789586320,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $489.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f294049a",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 474.8732,
+   "status": "working",
+   "created": "2026-09-16 15:18",
+   "created_ts": 1789586320,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $489.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 15:17"
+ "updated": "2026-09-16 15:18"
 }
