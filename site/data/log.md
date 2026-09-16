@@ -1,18 +1,4 @@
   (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-16 13:27 ET (Wednesday) — week 2026-W38 — budget left $12966.57 (today $150445.83 put to work, 51 buys, 47 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7WfT8TRyw3GbF8PshKK'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25409.67 (+1.64% on $25000.00 in) · cash $13394.34 · realised +394.34
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $240.87] -> $3001.66 (+0.06%) — close it all at -0.8% under the average cost
 - SELL 100% CRWD [time stop] -> $3013.36 (+0.45%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +384,17 @@ portfolio: equity $25438.77 (+1.76% on $25000.00 in) · cash $7453.74 · realise
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7025.97 this week
 - SELL 100% MSFT [time stop] -> $2995.76 (-0.14%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-16 14:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 14:32 ET (Wednesday) — week 2026-W38 — budget left $10021.73 (today $192445.83 put to work, 65 buys, 60 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7bZYVaGCeYwLnFNDpER'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25424.51 (+1.70% on $25000.00 in) · cash $10449.50 · realised +449.50
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

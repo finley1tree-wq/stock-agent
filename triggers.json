@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "d64fcf57",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 123.2982,
-   "status": "cancelled",
-   "created": "2026-09-15 13:53",
-   "created_ts": 1789494817,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $122.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:15",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "dcebb953",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 121.6939,
-   "status": "cancelled",
-   "created": "2026-09-15 13:53",
-   "created_ts": 1789494817,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $122.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 14:13",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "dd8b5093",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -7276,7 +7238,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 174.1526,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:13",
    "created_ts": 1789582383,
    "why": "close 100% at +0.5% over the average cost",
@@ -7286,7 +7248,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e9cc9f3e",
@@ -7525,7 +7489,43 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "b7afcb78",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 182.0175,
+   "status": "cancelled",
+   "created": "2026-09-16 14:34",
+   "created_ts": 1789583646,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $173.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:34",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "00064653",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 174.1561,
+   "status": "working",
+   "created": "2026-09-16 14:34",
+   "created_ts": 1789583691,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $173.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 14:32"
+ "updated": "2026-09-16 14:34"
 }
