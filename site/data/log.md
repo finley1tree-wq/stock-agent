@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
   (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25384.47 (+1.54% on $25000.00 in) · cash $16422.51 · realised +422.51
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $16017.50 this week
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [stop_loss @ $124.21] -> $2971.84 (-0.94%) — close it all at -0.9% under the average cost
+## 2026-09-16 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
