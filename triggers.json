@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "563947f4",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 136.9728,
-   "status": "cancelled",
-   "created": "2026-09-15 13:19",
-   "created_ts": 1789492750,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $136.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 13:35",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "1b065d00",
    "ticker": "HLI",
    "kind": "stop_loss",
@@ -7196,7 +7177,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 262.6027,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 13:44",
    "created_ts": 1789580688,
    "why": "close it all at -1.8% under the average cost",
@@ -7206,7 +7187,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 13:58",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "af4a945f",
@@ -7522,7 +7505,24 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "dabf7d25",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 268.024,
+   "status": "working",
+   "created": "2026-09-16 13:58",
+   "created_ts": 1789581501,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $267.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 13:56"
+ "updated": "2026-09-16 13:58"
 }
