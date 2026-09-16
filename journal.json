@@ -5119,8 +5119,8 @@
     "code_version": "5afc929",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11,
-    "ret_final": 0.11,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -8147,8 +8147,8 @@
     "code_version": "b58f0ef",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04,
-    "ret_final": 0.04,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -9029,8 +9029,8 @@
     "code_version": "3e6505d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -10055,8 +10055,8 @@
     "code_version": "2795c20",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": 0.04,
+    "ret_final": 0.04,
     "ret_src": "realised"
   },
   {
@@ -10765,8 +10765,8 @@
     "code_version": "3320e56",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.02,
-    "ret_now": 0.02,
+    "ret_final": 0.04,
+    "ret_now": 0.04,
     "ret_src": "realised"
   },
   {
@@ -11363,8 +11363,8 @@
     "code_version": "555f21a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07,
-    "ret_final": -0.07,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -12130,7 +12130,9 @@
     "code_version": "25608c0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.04,
+    "ret_final": 0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "TTD",
@@ -12157,7 +12159,7 @@
     "code_version": "25608c0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": 0.07
   },
   {
     "symbol": "MSFT",
@@ -12183,7 +12185,7 @@
     "code_version": "25608c0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.15
   },
   {
     "symbol": "NEM",
@@ -12237,7 +12239,9 @@
     "code_version": "f42ff3e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "BE",
@@ -12291,7 +12295,7 @@
     "code_version": "0bf7a30",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": 0.06
   },
   {
     "symbol": "NEM",
@@ -12393,7 +12397,8 @@
     "hour_et": 11,
     "code_version": "52d1ce6",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "META",
@@ -12418,6 +12423,34 @@
     "evidence": "average cost $677.22",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "ca5baa7"
+    "code_version": "ca5baa7",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "SBLK",
+    "side": "sell",
+    "qty": 96.269678,
+    "status": "filled",
+    "price": 31.17,
+    "proceeds": 3001.15,
+    "realized_pnl": 1.15,
+    "realized_pct": 0.04,
+    "date": "2026-09-16",
+    "time_et": "11:55",
+    "ts": 1789574100,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $31.16",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "26f569c",
+    "hold_minutes": 21
   }
 ]
