@@ -1,5 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7L63jhhdAXuE5wHNYBJ'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25427.77 (+1.71% on $25000.00 in) · cash $25427.77 · realised +427.77
 Decision: nothing at this check.
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 IBM @ $233.49 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25431.22 (+1.72% on $25000.00 in) · cash $13450.76 · realised +450.76
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13022.98 this week
+- SELL 100% CRWD [time stop] -> $2986.00 (-0.47%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 12:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 11977.02,
+  "spent": 8991.02,
   "deployed": 492255.02,
   "by_ticker": {
     "GOOGL": 22.25,
@@ -17,7 +17,7 @@
     "TTD": 12.09,
     "SKWD": 22.98,
     "AAPL": 5.97,
-    "CRWD": 3000.0,
+    "CRWD": 14.0,
     "IBM": 3000.0
   },
   "deployed_by_ticker": {
@@ -6363,13 +6363,33 @@
         "autopilot"
       ],
       "evidence": "+5.2% over the month; 26% of today's range"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 12.313314,
+      "status": "filled",
+      "price": 242.5,
+      "proceeds": 2986.0,
+      "realized_pnl": -14.0,
+      "realized_pct": -0.47,
+      "date": "2026-09-16",
+      "time_et": "12:14",
+      "ts": 1789575279,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.45% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 11977.02,
+  "spent_today": 8991.02,
   "deployed_today": 111445.83,
   "orders_today": 38,
-  "sells_today": 34,
+  "sells_today": 35,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -6403,29 +6423,26 @@
     "TPL": 1789500735,
     "GRNT": 1789413927,
     "MAIA": 1789406136,
-    "CRWD": 1789566354,
+    "CRWD": 1789575279,
     "PLTR": 1789498579,
     "SKWD": 1789566945,
     "SBLK": 1789574112
   },
-  "last_publish_ts": 1789575181,
-  "last_check_ts": 1789575181,
+  "last_publish_ts": 1789575279,
+  "last_check_ts": 1789575279,
   "last_bar_ts": 1789575000,
   "last_decision_ts": 1789575181,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "28838b6f": 134.3124,
     "193a6c75": 241.4706,
     "dc193582": 527.6282,
-    "ddc92bbf": 238.8108,
+    "28838b6f": 134.3124,
     "e171ec66": 132.7289,
+    "ddc92bbf": 238.8108,
     "0f2ccd72": 519.7999,
-    "33a4306c": 245.3211,
-    "7e50b577": 239.4396,
-    "8e402d3c": 236.3308,
+    "28a49663": 129.8442,
     "b20c8f63": 509.6283,
-    "d08a8e6d": 233.4887,
-    "28a49663": 129.8442
+    "d08a8e6d": 233.4887
   }
 }
