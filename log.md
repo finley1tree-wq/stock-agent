@@ -7015,3 +7015,17 @@ Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3978.94 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [stop_loss @ $122.98] -> $3002.03 (+0.07%) — close it all at -0.9% under the average cost
 ## 2026-09-16 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 13:03 ET (Wednesday) — week 2026-W38 — budget left $6980.97 (today $141445.83 put to work, 48 buys, 42 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Uo2DF68QAHsxKeQ2Xf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25399.56 (+1.60% on $25000.00 in) · cash $7408.75 · realised +408.75
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
