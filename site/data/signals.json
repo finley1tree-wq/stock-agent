@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T14:54-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,023 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-16T14:56-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $4,023 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6313993c",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 342.9728,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 343.58,
-   "pct_away": -0.18,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "53680eb1",
    "ticker": "AMD",
    "kind": "stop_loss",
@@ -163,10 +146,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 514.32,
-   "pct_away": -0.25,
+   "last": 512.94,
+   "pct_away": 0.02,
    "good_until": "2026-09-21",
    "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6313993c",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 342.9728,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 343.16,
+   "pct_away": -0.05,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 121.44,
-   "pct_away": -0.29,
+   "last": 121.41,
+   "pct_away": -0.26,
    "good_until": "2026-09-21",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -190,17 +190,17 @@
    ]
   },
   {
-   "id": "a1bc9c0a",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 682.0051,
+   "id": "294b6380",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.5105,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 679.5,
-   "pct_away": 0.37,
+   "last": 152.94,
+   "pct_away": -0.28,
    "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,25 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 333.0,
-   "pct_away": 0.4,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d806cdaf",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 153.9661,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 153.34,
-   "pct_away": 0.41,
+   "last": 332.89,
+   "pct_away": 0.43,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -248,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 333.0,
-   "pct_away": -0.49,
+   "last": 332.89,
+   "pct_away": -0.46,
    "good_until": "2026-09-21",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -258,17 +241,68 @@
    ]
   },
   {
-   "id": "294b6380",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.5105,
+   "id": "a1bc9c0a",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 682.0051,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 153.34,
-   "pct_away": -0.54,
+   "last": 678.62,
+   "pct_away": 0.5,
    "good_until": "2026-09-21",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fa013506",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.8809,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.8,
+   "pct_away": 0.55,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d806cdaf",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 153.9661,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 152.94,
+   "pct_away": 0.67,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d5ed91cd",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 673.7271,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 678.62,
+   "pct_away": -0.72,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,8 +316,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 343.58,
-   "pct_away": 0.67,
+   "last": 343.16,
+   "pct_away": 0.79,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -299,27 +333,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 264.68,
-   "pct_away": -0.76,
+   "last": 264.95,
+   "pct_away": -0.86,
    "good_until": "2026-09-21",
    "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d5ed91cd",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 673.7271,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 679.5,
-   "pct_away": -0.85,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -333,10 +350,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 121.44,
-   "pct_away": 1.07,
+   "last": 121.41,
+   "pct_away": 1.1,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f1d61c4b",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.6327,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.8,
+   "pct_away": -1.13,
+   "good_until": "2026-09-21",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -350,8 +384,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 514.32,
-   "pct_away": 1.27,
+   "last": 512.94,
+   "pct_away": 1.55,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -367,27 +401,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 264.68,
-   "pct_away": 1.75,
+   "last": 264.95,
+   "pct_away": 1.64,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f419c40e",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 259.3877,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 264.68,
-   "pct_away": -2.0,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -401,8 +418,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 514.32,
-   "pct_away": -2.19,
+   "last": 512.94,
+   "pct_away": -1.92,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f419c40e",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 259.3877,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 264.95,
+   "pct_away": -2.1,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,8 +452,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 121.44,
-   "pct_away": -2.34,
+   "last": 121.41,
+   "pct_away": -2.31,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -435,25 +469,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 343.58,
-   "pct_away": -2.58,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1d8b0ca9",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 323.4659,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 333.0,
-   "pct_away": -2.86,
+   "last": 343.16,
+   "pct_away": -2.47,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -469,8 +486,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 153.34,
-   "pct_away": -2.87,
+   "last": 152.94,
+   "pct_away": -2.61,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1d8b0ca9",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 323.4659,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 332.89,
+   "pct_away": -2.83,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -486,8 +520,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 679.5,
-   "pct_away": -2.98,
+   "last": 678.62,
+   "pct_away": -2.85,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0e003c3b",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 14.3657,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 14.8,
+   "pct_away": -2.93,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -496,7 +547,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,023 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $4,023 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -561,7 +612,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 283,
+  "decisions_graded": 282,
   "decisions_with_buys_graded": 84,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.24,
@@ -659,7 +710,7 @@
     "n": 1
    }
   },
-  "idle_checks": 263,
+  "idle_checks": 262,
   "blocked_checks": 0,
   "idle_share": 0.66,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2400,6 +2451,11 @@
   ],
   "SPY": [
    {
+    "title": "An $800,000 SPYI Portfolio Could Fall Below $350,000 by Age 67",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-16T18:48"
+   },
+   {
     "title": "Bloom Energy Gains 4% as S&P 500 Entry Nears; FuelCell Energy Ticks Up, Plug Power Slips",
     "source": "24/7 Wall St.",
     "when": "2026-09-16T17:59"
@@ -2408,11 +2464,6 @@
     "title": "SoundHound AI Drops 4% as Selling Concentrates in Speculative Software Names; UiPath Falls 3%, C3.ai Dips",
     "source": "24/7 Wall St.",
     "when": "2026-09-16T16:56"
-   },
-   {
-    "title": "First Solar Retreats 5% After Dropping ITC Patent Case It Calls Procedural; Enphase Energy Slips, Sunrun Holds Steady",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-16T16:49"
    }
   ],
   "TSM": [
@@ -2485,5 +2536,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T14:54-04:00"
+ "signalsAsOf": "2026-09-16T14:56-04:00"
 }
