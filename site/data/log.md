@@ -1,6 +1,3 @@
-## 2026-09-16 12:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 12:04 ET (Wednesday) — week 2026-W38 — budget left $16022.98 (today $108445.83 put to work, 37 buys, 34 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $129.82 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25387.32 (+1.55% on $25000.00 in) · cash $4405.38 · realised +405.38
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3977.60 this week
+- SELL 100% SBLK [time stop] -> $2983.15 (-0.56%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% META [time stop] -> $3000.09 (+0.00%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 13:10 ET — tick — 2 sell(s), 0 buy(s) from standing orders
