@@ -1,20 +1,3 @@
-## 2026-09-16 11:58 ET (Wednesday) — week 2026-W38 — budget left $13018.24 (today $105445.83 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7PrnyntRxha8Gn5vE7b'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,018 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.8% over the month; 85% of today's range
-~ WORKING take_profit 100% AMD @ $527.63 until 2026-09-21 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMD @ $519.80 until 2026-09-21 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $509.63 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25449.35 (+1.80% on $25000.00 in) · cash $10446.02 · realised +446.02
-Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10018.24 this week
-  (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $493.97] -> $3001.09 (+0.04%) — close it all at -0.6% under the average cost
 ## 2026-09-16 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +381,20 @@ Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% GOOGL [time stop] -> $2996.63 (-0.11%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-16 13:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 13:06 ET (Wednesday) — week 2026-W38 — budget left $9977.60 (today $141445.83 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7V1CpYxJCrLuhT7z25v'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,978 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +5.2% over the month; 27% of today's range
+~ WORKING take_profit 100% IBM @ $241.50 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $238.84 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $233.52 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25399.38 (+1.60% on $25000.00 in) · cash $7405.38 · realised +405.38
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $6977.60 this week
