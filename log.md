@@ -5719,3 +5719,36 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $1000.00 AMD @ $513.12 until 2026-09-17 — strong month, weak day: resting 0.79% under $517.21 to catch the dip
 portfolio: equity $25345.54 (+1.38% on $25000.00 in) · cash $1352.73 · realised +352.73
 Done: 0 sell(s), 8 buy(s); 25 order(s) working; budget left $947.72 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $154.15] -> $3007.95 (+0.27%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $345.99] -> $3001.89 (+0.06%) — close it all at -0.6% under the average cost
+## 2026-09-16 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $679.68] -> $3003.37 (+0.11%) — close it all at -0.9% under the average cost
+## 2026-09-16 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 09:35 ET (Wednesday) — week 2026-W38 — budget left $9960.93 (today $24000.00 put to work, 8 buys, 3 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Cy4seri4W6XTfZJnUS'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,961 idle, so opened 3: IBM, AAPL, MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +5.9% over the month; 69% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +9.3% over the month; 83% of today's range
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.9% over the month; 82% of today's range
+~ WORKING take_profit 100% IBM @ $243.11 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $240.46 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $235.08 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $335.02 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $332.08 until 2026-09-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $324.15 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $495.54 until 2026-09-21 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $491.52 until 2026-09-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $479.56 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25303.72 (+1.21% on $25000.00 in) · cash $1365.94 · realised +365.94
+Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $960.93 this week
