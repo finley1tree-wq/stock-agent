@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "2aed68ab",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 266.4018,
-   "status": "filled",
-   "created": "2026-09-15 09:32",
-   "created_ts": 1789479150,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $264.55",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 09:35"
-  },
-  {
    "id": "66c2cec0",
    "ticker": "BE",
    "kind": "stop_loss",
@@ -7196,7 +7178,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 494.1086,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:27",
    "created_ts": 1789568862,
    "why": "close 100% at +0.2% over the average cost",
@@ -7206,7 +7188,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 10:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a312ed7b",
@@ -7232,7 +7216,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 478.1712,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:27",
    "created_ts": 1789568862,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7242,7 +7226,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 10:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8979c822",
@@ -7467,7 +7453,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 121.9638,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:38",
    "created_ts": 1789569526,
    "why": "close it all at -0.9% under the average cost",
@@ -7477,7 +7463,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 10:48",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1271b221",
@@ -7501,7 +7489,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 493.314,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 10:43",
    "created_ts": 1789569806,
    "why": "close it all at -0.6% under the average cost",
@@ -7511,7 +7499,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 10:47"
   },
   {
    "id": "4a614fe9",
@@ -7530,7 +7519,24 @@
    "good_until": "2026-09-21",
    "pct_of_position": 100.0,
    "closed": "2026-09-16 10:46"
+  },
+  {
+   "id": "3aea0b3c",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 123.266,
+   "status": "working",
+   "created": "2026-09-16 10:48",
+   "created_ts": 1789570094,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $123.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 10:46"
+ "updated": "2026-09-16 10:48"
 }

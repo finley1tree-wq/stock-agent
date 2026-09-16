@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9433.88,
+  "spent": 8987.95,
   "deployed": 447255.02,
   "by_ticker": {
     "IBM": 8.3,
@@ -13,7 +13,7 @@
     "MAIA": 46.66,
     "HLI": 32.75,
     "NEM": 3036.61,
-    "MSFT": 455.81,
+    "MSFT": 9.88,
     "PLTR": 10.45,
     "TTD": 15.74,
     "SKWD": 22.98,
@@ -5789,13 +5789,34 @@
       ],
       "evidence": "average cost $14.85",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 0.904396,
+      "status": "filled",
+      "price": 493.07,
+      "proceeds": 445.93,
+      "realized_pnl": 0.1,
+      "realized_pct": 0.02,
+      "date": "2026-09-16",
+      "time_et": "10:47",
+      "ts": 1789569900,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $492.96",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 9410.07,
+  "spent_today": 8964.14,
   "deployed_today": 66445.83,
   "orders_today": 23,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -5822,7 +5843,7 @@
     "AAPL": 1789569311,
     "BE": 1789569027,
     "NEM": 1789566768,
-    "MSFT": 1789566095,
+    "MSFT": 1789570049,
     "FLD": 1789399070,
     "GOOGL": 1789569188,
     "TPL": 1789500735,
@@ -5832,24 +5853,21 @@
     "PLTR": 1789498579,
     "SKWD": 1789566945
   },
-  "last_publish_ts": 1789570012,
-  "last_check_ts": 1789570014,
+  "last_publish_ts": 1789570094,
+  "last_check_ts": 1789570094,
   "last_bar_ts": 1789569900,
   "last_decision_ts": 1789570014,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "6f1810e1": 493.314,
-    "a2d77ef1": 494.1086,
-    "e27945dc": 682.1858,
+    "3aea0b3c": 123.266,
     "865763f1": 123.568,
+    "e27945dc": 682.1858,
     "d8201943": 525.5646,
     "a5bee7d6": 673.9056,
     "182c07f3": 517.7408,
-    "38eadce5": 121.9638,
     "efafec35": 507.6301,
     "93c5933b": 659.4254,
-    "1271b221": 119.4167,
-    "d964afbd": 478.1712
+    "1271b221": 119.4167
   }
 }
