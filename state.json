@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 9022.6,
-  "deployed": 537255.02,
+  "spent": 9033.44,
+  "deployed": 540255.02,
   "by_ticker": {
     "GOOGL": 25.62,
-    "AMD": 3023.74,
+    "AMD": 34.58,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -18,12 +18,13 @@
     "AAPL": 3004.73,
     "CRWD": 0.64,
     "CHRW": 3021.74,
-    "SBLK": 16.85
+    "SBLK": 16.85,
+    "BE": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 42000.0,
-    "BE": 48000.0,
+    "BE": 51000.0,
     "IBM": 48000.0,
     "FLD": 6000.0,
     "HLI": 45873.19,
@@ -6951,13 +6952,51 @@
       ],
       "evidence": "bought 30 min ago, -0.10% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.737404,
+      "status": "filled",
+      "price": 521.0,
+      "proceeds": 2989.16,
+      "realized_pnl": -10.84,
+      "realized_pct": -0.36,
+      "date": "2026-09-16",
+      "time_et": "13:44",
+      "ts": 1789580641,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.34% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.22152,
+      "price": 267.34,
+      "date": "2026-09-16",
+      "time_et": "13:44",
+      "ts": 1789580688,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +15.1% over the month; 32% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 9022.6,
-  "deployed_today": 156445.83,
-  "orders_today": 53,
-  "sells_today": 50,
+  "spent_today": 9033.44,
+  "deployed_today": 159445.83,
+  "orders_today": 54,
+  "sells_today": 51,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -6980,7 +7019,7 @@
     "META": 1789578625,
     "CHRW": 1789577213,
     "TTD": 1789579140,
-    "AMD": 1789576101,
+    "AMD": 1789580641,
     "IBM": 1789579838,
     "AAPL": 1789577428,
     "BE": 1789577960,
@@ -6996,21 +7035,21 @@
     "SKWD": 1789566945,
     "SBLK": 1789578625
   },
-  "last_publish_ts": 1789580351,
-  "last_check_ts": 1789580604,
+  "last_publish_ts": 1789580688,
+  "last_check_ts": 1789580688,
   "last_bar_ts": 1789580400,
-  "last_decision_ts": 1789580522,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789580688,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "1d67a72a": 334.0965,
     "15c300bf": 153.6067,
-    "ed786ff0": 152.1498,
+    "1d67a72a": 334.0965,
     "9649e38e": 331.1339,
-    "2d4240ca": 525.1179,
-    "a2b1e48c": 517.2904,
-    "e01ac270": 507.1936,
-    "8508e05d": 148.5943,
-    "3fe92f2d": 323.2525
+    "c0d61b06": 269.2354,
+    "ed786ff0": 152.1498,
+    "8d6260af": 262.6027,
+    "3fe92f2d": 323.2525,
+    "af4a945f": 259.3198,
+    "8508e05d": 148.5943
   }
 }

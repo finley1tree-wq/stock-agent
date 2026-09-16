@@ -133,8 +133,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": -0.0,
+    "ret_final": -0.0,
     "ret_src": "realised"
   },
   {
@@ -556,8 +556,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": -0.0,
+    "ret_final": -0.0,
     "ret_src": "realised"
   },
   {
@@ -1334,8 +1334,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.09,
-    "ret_now": -0.09,
+    "ret_final": -0.12,
+    "ret_now": -0.12,
     "ret_src": "realised"
   },
   {
@@ -1733,8 +1733,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.1,
-    "ret_now": -0.1,
+    "ret_final": -0.13,
+    "ret_now": -0.13,
     "ret_src": "realised"
   },
   {
@@ -2210,8 +2210,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.11,
-    "ret_now": -0.11,
+    "ret_final": -0.13,
+    "ret_now": -0.13,
     "ret_src": "realised"
   },
   {
@@ -2954,8 +2954,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11,
-    "ret_final": -0.11,
+    "ret_now": -0.14,
+    "ret_final": -0.14,
     "ret_src": "realised"
   },
   {
@@ -3829,8 +3829,8 @@
     "code_version": "5575817",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1,
-    "ret_final": -0.1,
+    "ret_now": -0.14,
+    "ret_final": -0.14,
     "ret_src": "realised"
   },
   {
@@ -4409,8 +4409,8 @@
     "code_version": "688801e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13,
-    "ret_final": -0.13,
+    "ret_now": -0.16,
+    "ret_final": -0.16,
     "ret_src": "realised"
   },
   {
@@ -5371,8 +5371,8 @@
     "code_version": "82243bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07,
-    "ret_final": -0.07,
+    "ret_now": -0.12,
+    "ret_final": -0.12,
     "ret_src": "realised"
   },
   {
@@ -7182,8 +7182,8 @@
     "code_version": "7738f82",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16,
-    "ret_final": -0.16,
+    "ret_now": -0.2,
+    "ret_final": -0.2,
     "ret_src": "realised"
   },
   {
@@ -11117,8 +11117,8 @@
     "code_version": "5f6480d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17,
-    "ret_final": -0.17,
+    "ret_now": -0.22,
+    "ret_final": -0.22,
     "ret_src": "realised"
   },
   {
@@ -11693,8 +11693,8 @@
     "code_version": "fbfd1a3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33,
-    "ret_final": -0.33,
+    "ret_now": -0.34,
+    "ret_final": -0.34,
     "ret_src": "realised"
   },
   {
@@ -12485,8 +12485,8 @@
     "code_version": "3582af4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.39,
-    "ret_final": -0.39,
+    "ret_now": -0.37,
+    "ret_final": -0.37,
     "ret_src": "realised"
   },
   {
@@ -13220,7 +13220,9 @@
     "code_version": "86d2b47",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.36,
+    "ret_final": -0.36,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -13351,7 +13353,7 @@
     "code_version": "ac74d94",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.1
   },
   {
     "symbol": "AAPL",
@@ -13377,7 +13379,7 @@
     "code_version": "e365d29",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.02
   },
   {
     "symbol": "HLI",
@@ -13404,5 +13406,56 @@
     "hour_et": 13,
     "code_version": "aa627a8",
     "hold_minutes": 30
+  },
+  {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": 5.737404,
+    "status": "filled",
+    "price": 521.0,
+    "proceeds": 2989.16,
+    "realized_pnl": -10.84,
+    "realized_pct": -0.36,
+    "date": "2026-09-16",
+    "time_et": "13:44",
+    "ts": 1789580641,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.34% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "d68a076",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "BE",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.22152,
+    "price": 267.34,
+    "date": "2026-09-16",
+    "time_et": "13:44",
+    "ts": 1789580688,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers); +15.1% over the month; 32% of today's range",
+    "entry_price": 267.29,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 15.13,
+    "hour_et": 13,
+    "code_version": "d68a076",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

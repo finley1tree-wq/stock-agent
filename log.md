@@ -7255,3 +7255,22 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25392.49 (+1.57% on $25000.00 in) · cash $16405.17 · realised +405.17
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMD [time stop] -> $2989.16 (-0.36%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 13:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 13:44 ET (Wednesday) — week 2026-W38 — budget left $18966.56 (today $156445.83 put to work, 53 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7XxEUnZs142KSFx1e5D'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,967 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +15.1% over the month; 32% of today's range
+~ WORKING take_profit 100% BE @ $269.24 until 2026-09-21 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $262.60 until 2026-09-21 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $259.32 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25394.44 (+1.58% on $25000.00 in) · cash $16394.33 · realised +394.33
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15966.56 this week
