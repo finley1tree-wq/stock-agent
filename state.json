@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9185.07,
+  "spent": 6221.65,
   "deployed": 600255.02,
   "by_ticker": {
     "GOOGL": 37.92,
@@ -19,7 +19,7 @@
     "BE": 54.64,
     "AAPL": 20.51,
     "META": 27.57,
-    "TTD": 3000.0
+    "TTD": 36.58
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -7756,13 +7756,34 @@
         "congress"
       ],
       "evidence": "1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +1.9% over the month; 2% of today's range"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 202.621654,
+      "status": "filled",
+      "price": 14.63,
+      "proceeds": 2963.42,
+      "realized_pnl": -36.58,
+      "realized_pct": -1.22,
+      "date": "2026-09-16",
+      "time_et": "15:24",
+      "ts": 1789586400,
+      "why": "close it all at -1.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $14.81",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 9185.07,
+  "spent_today": 6221.65,
   "deployed_today": 219445.83,
   "orders_today": 74,
-  "sells_today": 71,
+  "sells_today": 72,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -7785,7 +7806,7 @@
     "HLI": 1789584765,
     "META": 1789586237,
     "CHRW": 1789585861,
-    "TTD": 1789582261,
+    "TTD": 1789586693,
     "AMD": 1789585045,
     "IBM": 1789584346,
     "AAPL": 1789585907,
@@ -7802,21 +7823,18 @@
     "SKWD": 1789566945,
     "SBLK": 1789583197
   },
-  "last_publish_ts": 1789586320,
-  "last_check_ts": 1789586661,
-  "last_bar_ts": 1789586400,
+  "last_publish_ts": 1789586693,
+  "last_check_ts": 1789586738,
+  "last_bar_ts": 1789586700,
   "last_decision_ts": 1789586661,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "f1d61c4b": 14.6327,
+    "ad89d4a4": 486.6569,
+    "0c5df0b7": 30.6134,
     "5af42b6a": 490.7203,
     "63ff8dbe": 30.9447,
-    "0c5df0b7": 30.6134,
-    "ad89d4a4": 486.6569,
-    "fa013506": 14.8809,
-    "0e003c3b": 14.3657,
-    "0ccdca44": 29.9245,
-    "f294049a": 474.8732
+    "f294049a": 474.8732,
+    "0ccdca44": 29.9245
   }
 }
