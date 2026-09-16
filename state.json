@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 5968.73,
-  "deployed": 558255.02,
+  "spent": 8968.73,
+  "deployed": 561255.02,
   "by_ticker": {
     "GOOGL": 18.38,
     "AMD": 34.58,
@@ -12,7 +12,7 @@
     "HLI": 36.28,
     "NEM": 10.35,
     "MSFT": 3010.72,
-    "PLTR": 10.45,
+    "PLTR": 3010.45,
     "SKWD": 22.98,
     "CRWD": 0.64,
     "CHRW": 20.68,
@@ -36,7 +36,7 @@
     "GRNT": 9000.0,
     "MAIA": 6000.0,
     "CRWD": 24000.0,
-    "PLTR": 6000.0,
+    "PLTR": 9000.0,
     "SKWD": 3000.0,
     "SBLK": 9000.0
   },
@@ -7239,12 +7239,29 @@
       ],
       "evidence": "average cost $14.86",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.305563,
+      "price": 173.35,
+      "date": "2026-09-16",
+      "time_et": "14:13",
+      "ts": 1789582383,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.4% over the month; 85% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 5968.73,
-  "deployed_today": 177445.83,
-  "orders_today": 60,
+  "spent_today": 8968.73,
+  "deployed_today": 180445.83,
+  "orders_today": 61,
   "sells_today": 58,
   "sold_today": [
     "CHRW",
@@ -7284,18 +7301,21 @@
     "SKWD": 1789566945,
     "SBLK": 1789578625
   },
-  "last_publish_ts": 1789582261,
-  "last_check_ts": 1789582306,
+  "last_publish_ts": 1789582383,
+  "last_check_ts": 1789582383,
   "last_bar_ts": 1789582200,
-  "last_decision_ts": 1789582227,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789582383,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "f297c489": 494.9957,
     "a6988d7e": 31.1046,
+    "6b1ec895": 174.1526,
     "9d6d844a": 490.9807,
     "cd6c5f8c": 30.7731,
+    "e9cc9f3e": 171.3443,
     "fb9f38a7": 479.0345,
+    "152e0f91": 168.1495,
     "702d7106": 30.0797
   }
 }

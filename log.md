@@ -7440,3 +7440,20 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $14.93] -> $3015.14 (+0.50%) — close 100% at +0.5% over the average cost
 ## 2026-09-16 14:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 14:13 ET (Wednesday) — week 2026-W38 — budget left $19031.27 (today $177445.83 put to work, 60 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7a7Dy1aMFoFzWGKPQGp'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,031 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.4% over the month; 85% of today's range
+~ WORKING take_profit 100% PLTR @ $174.15 until 2026-09-21 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% PLTR @ $171.34 until 2026-09-21 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $168.15 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25457.00 (+1.83% on $25000.00 in) · cash $16459.04 · realised +459.04
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16031.27 this week
