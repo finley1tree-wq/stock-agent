@@ -6418,3 +6418,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $323.19 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25411.18 (+1.64% on $25000.00 in) · cash $10427.77 · realised +427.77
 Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $10000.00 this week
+
+## 2026-09-16 11:25 ET (Wednesday) — week 2026-W38 — budget left $10000.00 (today $84445.83 put to work, 29 buys, 24 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $242.60] -> $3009.44 (+0.31%) — close 100% at +0.3% over the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7MKAk7TJ4m9CHZDxBEG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25423.14 (+1.69% on $25000.00 in) · cash $13437.21 · realised +437.21
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $13009.44 this week
