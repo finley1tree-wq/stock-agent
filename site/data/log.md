@@ -1,7 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,050 idle, so opened 2: NEM, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +1.6% over the month; 25% of today's range
-- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.3% over the month; 26% of today's range
-~ WORKING take_profit 100% NEM @ $122.74 until 2026-09-21 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% NEM @ $121.09 until 2026-09-21 — close it all at -1.0% under the average cost
 ~ WORKING buy_limit $500.00 NEM @ $118.60 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% GOOGL @ $345.88 until 2026-09-21 — close 100% at +0.2% over the average cost
@@ -398,3 +394,7 @@ portfolio: equity $25178.47 (+0.71% on $25000.00 in) · cash $22181.40 · realis
 Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% MSFT [time stop] -> $2997.08 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 15:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders

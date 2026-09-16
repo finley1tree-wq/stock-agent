@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T15:47-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-16T15:48-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -137,59 +137,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "5af42b6a",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 490.7203,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 489.02,
-   "pct_away": 0.35,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ad89d4a4",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 486.6569,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 489.02,
-   "pct_away": -0.48,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "11abe648",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 474.8732,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 489.02,
-   "pct_away": -2.89,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)",
  "congress_trades": [
