@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T13:06-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,978 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "asOf": "2026-09-16T13:09-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,978 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,27 +146,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.98,
-   "pct_away": -0.31,
+   "last": 30.92,
+   "pct_away": -0.12,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "00a4a8cf",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 678.9882,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 676.89,
-   "pct_away": 0.31,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -190,6 +173,23 @@
    ]
   },
   {
+   "id": "00a4a8cf",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 678.9882,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 676.7,
+   "pct_away": 0.34,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "63412f2e",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -207,6 +207,23 @@
    ]
   },
   {
+   "id": "8e6967dc",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 134.2823,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 133.78,
+   "pct_away": 0.38,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "4f1ba2c1",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -214,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 240.69,
-   "pct_away": 0.34,
+   "last": 240.44,
+   "pct_away": 0.44,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -248,27 +265,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 241.52,
-   "pct_away": 0.53,
+   "last": 241.43,
+   "pct_away": 0.56,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "320a27fb",
-   "ticker": "SBLK",
-   "kind": "take_profit",
-   "price": 31.2146,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 30.98,
-   "pct_away": 0.76,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,8 +282,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 240.69,
-   "pct_away": -0.77,
+   "last": 240.44,
+   "pct_away": -0.67,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5d65fa06",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 132.6991,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 133.78,
+   "pct_away": -0.81,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -299,10 +316,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 676.89,
-   "pct_away": -0.91,
+   "last": 676.7,
+   "pct_away": -0.89,
    "good_until": "2026-09-21",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "320a27fb",
+   "ticker": "SBLK",
+   "kind": "take_profit",
+   "price": 31.2146,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 30.92,
+   "pct_away": 0.95,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -333,8 +367,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 241.52,
-   "pct_away": -1.91,
+   "last": 241.43,
+   "pct_away": -1.87,
    "good_until": "2026-09-21",
    "why": "close it all at -1.7% under the average cost",
    "signals": [
@@ -350,8 +384,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 30.98,
-   "pct_away": -2.56,
+   "last": 30.92,
+   "pct_away": -2.37,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d7d2ccd5",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 233.5178,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 240.44,
+   "pct_away": -2.88,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -377,15 +428,15 @@
    ]
   },
   {
-   "id": "d7d2ccd5",
-   "ticker": "IBM",
+   "id": "4f6fa7d8",
+   "ticker": "HLI",
    "kind": "buy_limit",
-   "price": 233.5178,
+   "price": 129.8151,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 240.69,
-   "pct_away": -2.98,
+   "last": 133.78,
+   "pct_away": -2.96,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -401,8 +452,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 676.89,
-   "pct_away": -3.04,
+   "last": 676.7,
+   "pct_away": -3.01,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -435,8 +486,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 241.52,
-   "pct_away": -3.16,
+   "last": 241.43,
+   "pct_away": -3.13,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -445,7 +496,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,978 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,978 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -507,7 +558,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 322,
+  "decisions_graded": 321,
   "decisions_with_buys_graded": 101,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.24,
@@ -620,7 +671,7 @@
     "n": 1
    }
   },
-  "idle_checks": 263,
+  "idle_checks": 262,
   "blocked_checks": 0,
   "idle_share": 0.66,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1922,14 +1973,14 @@
     "when": "2026-09-16T15:36"
    },
    {
+    "title": "DTE Is Sitting on an AI-Era Power Opportunity",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-16T17:00"
+   },
+   {
     "title": "Bloom Energy Stock Jumps On 'Meaningful' Data-Center Catalyst",
     "source": "Investor's Business Daily",
     "when": "2026-09-16T16:55"
-   },
-   {
-    "title": "31% of Berkshire Hathaway's Portfolio Is Riding on These 2 AI Stocks Under Greg Abel",
-    "source": "Motley Fool",
-    "when": "2026-09-16T16:50"
    }
   ],
   "HD": [
@@ -2257,6 +2308,11 @@
   ],
   "SPY": [
    {
+    "title": "SoundHound AI Drops 4% as Selling Concentrates in Speculative Software Names; UiPath Falls 3%, C3.ai Dips",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-16T16:56"
+   },
+   {
     "title": "First Solar Retreats 5% After Dropping ITC Patent Case It Calls Procedural; Enphase Energy Slips, Sunrun Holds Steady",
     "source": "24/7 Wall St.",
     "when": "2026-09-16T16:49"
@@ -2265,11 +2321,6 @@
     "title": "Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9%",
     "source": "24/7 Wall St.",
     "when": "2026-09-16T16:46"
-   },
-   {
-    "title": "Oil Producers Slide as Crude Retreats: EOG Resources Drops 6%, ConocoPhillips and Occidental Petroleum Fall 5%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-16T16:03"
    }
   ],
   "TSM": [
@@ -2342,5 +2393,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T13:06-04:00"
+ "signalsAsOf": "2026-09-16T13:09-04:00"
 }
