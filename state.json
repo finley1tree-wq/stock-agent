@@ -1,11 +1,11 @@
 {
   "week": "2026-W38",
-  "spent": 11987.01,
+  "spent": 8982.5,
   "deployed": 419809.19,
   "by_ticker": {
     "IBM": 17.8,
     "GOOGL": 22.49,
-    "AMD": 3008.41,
+    "AMD": 3.9,
     "BE": 13.64,
     "FLD": 1.2,
     "TPL": 62.38,
@@ -5405,13 +5405,34 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers); +0.4% over the month; 75% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.754576,
+      "status": "filled",
+      "price": 522.11,
+      "proceeds": 3004.51,
+      "realized_pnl": 4.51,
+      "realized_pct": 0.15,
+      "date": "2026-09-16",
+      "time_et": "09:50",
+      "ts": 1789566602,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $521.32",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 11934.73,
+  "spent_today": 8930.22,
   "deployed_today": 39000.0,
   "orders_today": 13,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -5421,7 +5442,8 @@
     "AAPL",
     "MSFT",
     "TTD",
-    "CRWD"
+    "CRWD",
+    "AMD"
   ],
   "sold_ts": {
     "ALP": 1789404796,
@@ -5429,7 +5451,7 @@
     "META": 1789565749,
     "CHRW": 1789565703,
     "TTD": 1789566354,
-    "AMD": 1789415590,
+    "AMD": 1789566609,
     "IBM": 1789566012,
     "AAPL": 1789566095,
     "BE": 1789565870,
@@ -5443,25 +5465,21 @@
     "CRWD": 1789566354,
     "PLTR": 1789498579
   },
-  "last_publish_ts": 1789566434,
-  "last_check_ts": 1789566519,
-  "last_bar_ts": 1789566300,
-  "last_decision_ts": 1789566434,
-  "next_check_minutes": 6,
+  "last_publish_ts": 1789566602,
+  "last_check_ts": 1789566602,
+  "last_bar_ts": 1789566600,
+  "last_decision_ts": 1789566602,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0c67d5f6": 523.52,
-    "67c80fa2": 522.37,
     "50053ba9": 124.2753,
-    "8e83bccd": 58.0367,
-    "c0d533d2": 132.1011,
-    "75be5da3": 133.6396,
     "d207f86e": 57.4533,
+    "75be5da3": 133.6396,
+    "c0d533d2": 132.1011,
+    "8e83bccd": 58.0367,
     "85e016ce": 125.8376,
-    "95533767": 513.1217,
     "af927aaa": 121.6283,
-    "fda42ddc": 129.204,
     "b2723771": 56.1339,
-    "63138a6e": 505.6804
+    "fda42ddc": 129.204
   }
 }

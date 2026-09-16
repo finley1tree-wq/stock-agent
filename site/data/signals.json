@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T09:47-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,013 idle, so opened 1: SKWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-16T09:50-04:00",
+ "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "0c67d5f6",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 523.52,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 523.23,
-   "pct_away": 0.06,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "67c80fa2",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 522.37,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 523.23,
-   "pct_away": -0.16,
-   "good_until": "2026-09-21",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "50053ba9",
    "ticker": "NEM",
    "kind": "stop_loss",
@@ -180,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 124.74,
-   "pct_away": -0.37,
+   "last": 124.5,
+   "pct_away": -0.18,
    "good_until": "2026-09-21",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -190,15 +156,32 @@
    ]
   },
   {
-   "id": "8e83bccd",
+   "id": "d207f86e",
    "ticker": "SKWD",
-   "kind": "take_profit",
-   "price": 58.0367,
+   "kind": "stop_loss",
+   "price": 57.4533,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 57.81,
-   "pct_away": 0.39,
+   "last": 57.62,
+   "pct_away": -0.29,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "75be5da3",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 133.6396,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 133.03,
+   "pct_away": 0.46,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -214,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 132.84,
-   "pct_away": -0.56,
+   "last": 133.03,
+   "pct_away": -0.7,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -224,34 +207,17 @@
    ]
   },
   {
-   "id": "75be5da3",
-   "ticker": "HLI",
+   "id": "8e83bccd",
+   "ticker": "SKWD",
    "kind": "take_profit",
-   "price": 133.6396,
+   "price": 58.0367,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 132.84,
-   "pct_away": 0.6,
+   "last": 57.62,
+   "pct_away": 0.72,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d207f86e",
-   "ticker": "SKWD",
-   "kind": "stop_loss",
-   "price": 57.4533,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 57.81,
-   "pct_away": -0.62,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,30 +231,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 124.74,
-   "pct_away": 0.88,
+   "last": 124.5,
+   "pct_away": 1.07,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "95533767",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 513.1217,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 523.23,
-   "pct_away": -1.93,
-   "good_until": "2026-09-17",
-   "why": "strong month, weak day: resting 0.79% under $517.21 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -299,25 +248,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 124.74,
-   "pct_away": -2.49,
-   "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fda42ddc",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 129.204,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 132.84,
-   "pct_away": -2.74,
+   "last": 124.5,
+   "pct_away": -2.31,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -333,8 +265,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 57.81,
-   "pct_away": -2.9,
+   "last": 57.62,
+   "pct_away": -2.58,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -343,15 +275,15 @@
    ]
   },
   {
-   "id": "63138a6e",
-   "ticker": "AMD",
+   "id": "fda42ddc",
+   "ticker": "HLI",
    "kind": "buy_limit",
-   "price": 505.6804,
+   "price": 129.204,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 523.23,
-   "pct_away": -3.35,
+   "last": 133.03,
+   "pct_away": -2.88,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -360,8 +292,8 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,013 idle, so opened 1: SKWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
- "next_check_minutes": 6,
+ "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
+ "next_check_minutes": null,
  "allowed": [
   "AAPL",
   "AMD",
@@ -422,7 +354,7 @@
  },
  "learning": {
   "horizon": "1d",
-  "decisions_recorded": 348,
+  "decisions_recorded": 349,
   "decisions_graded": 342,
   "decisions_with_buys_graded": 104,
   "independent_days_graded": 6,
@@ -2534,6 +2466,11 @@
   ],
   "RTX": [
    {
+    "title": "Has Howmet Aerospace (HWM) Outpaced Other Aerospace Stocks This Year?",
+    "source": "Zacks",
+    "when": "2026-09-16T13:40"
+   },
+   {
     "title": "RTX Highlights $289B Backlog as Aerospace, Defense Demand Powers Growth",
     "source": "MarketBeat",
     "when": "2026-09-16T01:02"
@@ -2542,11 +2479,6 @@
     "title": "Boeing (BA) and RTX (RTX) Gain From Pentagon Missile Buildup, But Is the Upside Priced In?",
     "source": "Insider Monkey",
     "when": "2026-09-15T19:37"
-   },
-   {
-    "title": "Surging Oil Prices Singe GE Aerospace",
-    "source": "The Wall Street Journal",
-    "when": "2026-09-15T17:58"
    }
   ],
   "SKWD": [
@@ -2653,5 +2585,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T09:47-04:00"
+ "signalsAsOf": "2026-09-16T09:50-04:00"
 }

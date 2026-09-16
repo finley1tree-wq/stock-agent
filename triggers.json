@@ -6975,7 +6975,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 513.1217,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "strong month, weak day: resting 0.79% under $517.21 to catch the dip",
@@ -6985,7 +6985,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-17",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-16 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ac49b48f",
@@ -7348,7 +7350,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 523.52,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:41",
    "created_ts": 1789566097,
    "why": "close 100% at +0.4% over the average cost",
@@ -7358,7 +7360,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8a709db6",
@@ -7384,7 +7388,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 505.6804,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:41",
    "created_ts": 1789566097,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7394,7 +7398,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f54f64d2",
@@ -7456,7 +7462,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 522.37,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 09:46",
    "created_ts": 1789566386,
    "why": "close it all at -1.1% under the average cost",
@@ -7466,7 +7472,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:50"
   },
   {
    "id": "85e016ce",
@@ -7537,5 +7544,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-16 09:47"
+ "updated": "2026-09-16 09:50"
 }
