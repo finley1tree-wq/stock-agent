@@ -1,11 +1,11 @@
 {
   "week": "2026-W38",
-  "spent": 3010.59,
-  "deployed": 495255.02,
+  "spent": 6010.59,
+  "deployed": 498255.02,
   "by_ticker": {
     "GOOGL": 22.25,
     "AMD": 23.74,
-    "BE": 3.21,
+    "BE": 3003.21,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -23,7 +23,7 @@
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 39000.0,
-    "BE": 45000.0,
+    "BE": 48000.0,
     "IBM": 45000.0,
     "FLD": 6000.0,
     "HLI": 42873.19,
@@ -6462,12 +6462,30 @@
       ],
       "evidence": "bought 30 min ago, -0.37% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.117536,
+      "price": 269.84,
+      "date": "2026-09-16",
+      "time_et": "12:29",
+      "ts": 1789576179,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +16.2% over the month; 54% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 3010.59,
-  "deployed_today": 114445.83,
-  "orders_today": 39,
+  "spent_today": 6010.59,
+  "deployed_today": 117445.83,
+  "orders_today": 40,
   "sells_today": 38,
   "sold_today": [
     "CHRW",
@@ -6507,15 +6525,18 @@
     "SKWD": 1789566945,
     "SBLK": 1789574112
   },
-  "last_publish_ts": 1789576101,
-  "last_check_ts": 1789576101,
+  "last_publish_ts": 1789576179,
+  "last_check_ts": 1789576179,
   "last_bar_ts": 1789575900,
-  "last_decision_ts": 1789576017,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789576179,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "0771807e": 154.0749,
     "cb3e301e": 152.6243,
-    "52ff4fc7": 149.0502
+    "67a12d42": 271.7343,
+    "33028551": 265.1043,
+    "52ff4fc7": 149.0502,
+    "ee99c68d": 261.7448
   }
 }

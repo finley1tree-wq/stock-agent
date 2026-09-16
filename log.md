@@ -6807,3 +6807,20 @@ Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AMD [time stop] -> $2988.41 (-0.39%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-16 12:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 12:29 ET (Wednesday) — week 2026-W38 — budget left $21989.41 (today $114445.83 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7SDy3LrVaqDPBbd8Tnk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,989 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +16.2% over the month; 54% of today's range
+~ WORKING take_profit 100% BE @ $271.73 until 2026-09-21 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $265.10 until 2026-09-21 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $261.74 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25414.02 (+1.66% on $25000.00 in) · cash $19417.19 · realised +417.19
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $18989.41 this week
