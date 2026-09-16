@@ -5863,3 +5863,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25382.02 (+1.53% on $25000.00 in) · cash $19394.35 · realised +394.35
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $133.64] -> $3009.83 (+0.33%) — close 100% at +0.3% over the average cost
+## 2026-09-16 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders

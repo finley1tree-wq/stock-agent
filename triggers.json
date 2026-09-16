@@ -6587,7 +6587,7 @@
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 133.6396,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "close 100% at +0.3% over the average cost",
@@ -6597,14 +6597,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:53"
   },
   {
    "id": "c0d533d2",
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 132.1011,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "close it all at -0.8% under the average cost",
@@ -6614,14 +6615,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:53",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fda42ddc",
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 129.204,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6631,7 +6634,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 09:53",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4200ba84",
@@ -7549,5 +7554,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-16 09:52"
+ "updated": "2026-09-16 09:53"
 }
