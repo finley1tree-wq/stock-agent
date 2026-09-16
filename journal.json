@@ -9814,8 +9814,8 @@
     "code_version": "41d72ec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06,
-    "ret_final": -0.06,
+    "ret_now": -0.05,
+    "ret_final": -0.05,
     "ret_src": "realised"
   },
   {
@@ -10984,8 +10984,8 @@
     "code_version": "c7b5859",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23,
-    "ret_final": 0.23,
+    "ret_now": 0.2,
+    "ret_final": 0.2,
     "ret_src": "realised"
   },
   {
@@ -11363,7 +11363,7 @@
     "code_version": "555f21a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.04
   },
   {
     "symbol": "GOOGL",
@@ -11502,7 +11502,9 @@
     "code_version": "31479eb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "BE",
@@ -11689,7 +11691,7 @@
     "code_version": "fbfd1a3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.24
   },
   {
     "symbol": "NEM",
@@ -11715,7 +11717,7 @@
     "code_version": "6a266c7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.37
   },
   {
     "symbol": "TTD",
@@ -11767,6 +11769,33 @@
     "evidence": "average cost $492.96",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "c6f90eb"
+    "code_version": "c6f90eb",
+    "hold_minutes": 17
+  },
+  {
+    "symbol": "HLI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 22.360752,
+    "price": 134.16,
+    "date": "2026-09-16",
+    "time_et": "10:49",
+    "ts": 1789570172,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.1% over the month; 82% of today's range",
+    "entry_price": 134.11,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.1,
+    "hour_et": 10,
+    "code_version": "8652c82",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

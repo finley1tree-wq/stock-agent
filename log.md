@@ -6207,3 +6207,20 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $493.07] -> $445.93 (+0.02%) — close it all at -0.6% under the average cost
 ## 2026-09-16 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 10:49 ET (Wednesday) — week 2026-W38 — budget left $16012.05 (today $66445.83 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7JbA3YAYhMkdPckA6ND'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,012 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.1% over the month; 82% of today's range
+~ WORKING take_profit 100% HLI @ $134.61 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $133.03 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $130.14 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25418.49 (+1.67% on $25000.00 in) · cash $13417.06 · realised +417.06
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13012.05 this week
