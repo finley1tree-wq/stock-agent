@@ -7810,3 +7810,9 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25277.60 (+1.11% on $25000.00 in) · cash $13312.61 · realised +312.61
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [stop_loss @ $152.43] -> $2978.17 (-0.73%) — close it all at -0.7% under the average cost
+## 2026-09-16 15:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $331.19] -> $2979.49 (-0.68%) — close it all at -0.6% under the average cost
+## 2026-09-16 15:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
