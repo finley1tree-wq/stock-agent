@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "17f42d09",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 15.104,
-   "status": "cancelled",
-   "created": "2026-09-15 13:33",
-   "created_ts": 1789493587,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $15.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 13:36",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "2fbde876",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -7508,7 +7489,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.6827,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 14:05",
    "created_ts": 1789581908,
    "why": "close it all at -1.2% under the average cost",
@@ -7518,7 +7499,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 14:07",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "60633475",
@@ -7536,7 +7519,24 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "8a010be4",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.884,
+   "status": "working",
+   "created": "2026-09-16 14:07",
+   "created_ts": 1789582066,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $14.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 14:06"
+ "updated": "2026-09-16 14:07"
 }
