@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "102b04ee",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 151.7371,
-   "status": "cancelled",
-   "created": "2026-09-15 10:32",
-   "created_ts": 1789482720,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $156.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 11:02",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "de4ba40f",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 137.7425,
-   "status": "filled",
-   "created": "2026-09-15 10:32",
-   "created_ts": 1789482720,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $137.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 11:01"
-  },
-  {
-   "id": "70943ed0",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 136.228,
-   "status": "cancelled",
-   "created": "2026-09-15 10:32",
-   "created_ts": 1789482720,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $137.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 10:55",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "9f775af2",
    "ticker": "HLI",
    "kind": "buy_limit",
@@ -7538,7 +7482,58 @@
    ],
    "good_until": "2026-09-21",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "0771807e",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 154.0749,
+   "status": "working",
+   "created": "2026-09-16 12:18",
+   "created_ts": 1789575524,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $153.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cb3e301e",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.6243,
+   "status": "working",
+   "created": "2026-09-16 12:18",
+   "created_ts": 1789575524,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $153.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "52ff4fc7",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 149.0502,
+   "status": "working",
+   "created": "2026-09-16 12:18",
+   "created_ts": 1789575524,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $153.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 12:15"
+ "updated": "2026-09-16 12:18"
 }

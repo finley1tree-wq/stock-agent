@@ -6741,3 +6741,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25434.49 (+1.74% on $25000.00 in) · cash $16436.76 · realised +436.76
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-16 12:18 ET (Wednesday) — week 2026-W38 — budget left $16008.98 (today $111445.83 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7RPZUvHhmEQiEkD2eYb'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,009 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.1% over the month; 26% of today's range
+~ WORKING take_profit 100% CHRW @ $154.07 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $152.62 until 2026-09-21 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $149.05 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25425.15 (+1.70% on $25000.00 in) · cash $13436.76 · realised +436.76
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13008.98 this week
