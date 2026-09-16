@@ -1,6 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Nbszt8WVywYmdArR3C'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $479.13 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25409.59 (+1.64% on $25000.00 in) · cash $1417.19 · realised +417.19
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $989.41 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [stop_loss @ $152.55] -> $2978.26 (-0.72%) — close it all at -0.7% under the average cost
+## 2026-09-16 12:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
