@@ -1,9 +1,28 @@
 {
-  "cash": 25427.772755964044,
+  "cash": 19427.772755964044,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
-  "positions": {},
+  "positions": {
+    "BE": {
+      "qty": 11.121246273548405,
+      "avg_cost": 269.75394,
+      "opened": "2026-09-16",
+      "last_buy": "2026-09-16",
+      "tranches": 1,
+      "last_buy_ts": 1789571825,
+      "opened_ts": 1789571825
+    },
+    "IBM": {
+      "qty": 12.404980023888518,
+      "avg_cost": 241.838358,
+      "opened": "2026-09-16",
+      "last_buy": "2026-09-16",
+      "tranches": 1,
+      "last_buy_ts": 1789571825,
+      "opened_ts": 1789571825
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -4898,6 +4917,26 @@
       "realized_pct": -0.27,
       "type": "sell",
       "date": "2026-09-16 11:05"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.121246,
+      "price": 269.75,
+      "type": "buy",
+      "date": "2026-09-16 11:17"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.40498,
+      "price": 241.84,
+      "type": "buy",
+      "date": "2026-09-16 11:17"
     }
   ],
   "realized_pnl": 427.7727559640556
