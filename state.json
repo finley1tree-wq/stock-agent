@@ -1,17 +1,17 @@
 {
   "week": "2026-W38",
-  "spent": 5978.98,
+  "spent": 0.0,
   "deployed": 450255.02,
   "by_ticker": {
     "IBM": 8.3,
     "GOOGL": 15.25,
-    "AMD": 3003.9,
+    "AMD": 12.15,
     "BE": 8.2,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3032.75,
+    "HLI": 22.75,
     "NEM": 25.43,
     "MSFT": 9.88,
     "PLTR": 10.45,
@@ -5869,13 +5869,54 @@
       ],
       "evidence": "bought 30 min ago, -0.05% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.360752,
+      "status": "filled",
+      "price": 134.61,
+      "proceeds": 3010.0,
+      "realized_pnl": 10.0,
+      "realized_pct": 0.33,
+      "date": "2026-09-16",
+      "time_et": "11:05",
+      "ts": 1789570800,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $134.16",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.73247,
+      "status": "filled",
+      "price": 521.9,
+      "proceeds": 2991.75,
+      "realized_pnl": -8.25,
+      "realized_pct": -0.27,
+      "date": "2026-09-16",
+      "time_et": "11:05",
+      "ts": 1789571138,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.26% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 5955.17,
+  "spent_today": 0.0,
   "deployed_today": 69445.83,
   "orders_today": 24,
-  "sells_today": 22,
+  "sells_today": 24,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -5893,11 +5934,11 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789566816,
+    "HLI": 1789571139,
     "META": 1789570334,
     "CHRW": 1789569357,
     "TTD": 1789570013,
-    "AMD": 1789566609,
+    "AMD": 1789571139,
     "IBM": 1789569111,
     "AAPL": 1789569311,
     "BE": 1789569027,
@@ -5912,18 +5953,11 @@
     "PLTR": 1789498579,
     "SKWD": 1789566945
   },
-  "last_publish_ts": 1789570827,
-  "last_check_ts": 1789571092,
-  "last_bar_ts": 1789570800,
-  "last_decision_ts": 1789571005,
+  "last_publish_ts": 1789571138,
+  "last_check_ts": 1789571185,
+  "last_bar_ts": 1789571100,
+  "last_decision_ts": 1789571185,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "264798ba": 134.6108,
-    "70175c86": 525.5646,
-    "e660caaa": 133.0331,
-    "182c07f3": 517.7408,
-    "efafec35": 507.6301,
-    "8790a36d": 130.1352
-  }
+  "book_px": {}
 }

@@ -7278,7 +7278,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 517.7408,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:35",
    "created_ts": 1789569358,
    "why": "close it all at -1.1% under the average cost",
@@ -7288,14 +7288,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "efafec35",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 507.6301,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:35",
    "created_ts": 1789569358,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7305,7 +7307,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "865763f1",
@@ -7442,7 +7446,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 133.0331,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:49",
    "created_ts": 1789570172,
    "why": "close it all at -0.8% under the average cost",
@@ -7452,14 +7456,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:05",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8790a36d",
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 130.1352,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 10:49",
    "created_ts": 1789570172,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7469,7 +7475,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 11:05",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e9b88623",
@@ -7495,7 +7503,7 @@
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 134.6108,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 10:57",
    "created_ts": 1789570663,
    "why": "close 100% at +0.3% over the average cost",
@@ -7505,7 +7513,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:05"
   },
   {
    "id": "5a68f139",
@@ -7531,7 +7540,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 525.5646,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 11:00",
    "created_ts": 1789570827,
    "why": "close 100% at +0.4% over the average cost",
@@ -7541,8 +7550,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 11:05",
+   "cancel_reason": "time stop closed the position"
   }
  ],
- "updated": "2026-09-16 11:03"
+ "updated": "2026-09-16 11:06"
 }
