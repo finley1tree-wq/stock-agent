@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "b4f79845",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 236.6001,
-   "status": "cancelled",
-   "created": "2026-09-15 12:05",
-   "created_ts": 1789488322,
-   "why": "close it all at -1.7% under the average cost",
-   "evidence": "average cost $240.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 12:09",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "ff06548f",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 233.5566,
-   "status": "cancelled",
-   "created": "2026-09-15 12:05",
-   "created_ts": 1789488322,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $240.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 12:26",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b96e2d83",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 669.4745,
-   "status": "cancelled",
-   "created": "2026-09-15 12:08",
-   "created_ts": 1789488486,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $666.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 12:37",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "c41e7203",
    "ticker": "META",
    "kind": "stop_loss",
@@ -7529,7 +7472,58 @@
    ],
    "good_until": "2026-09-21",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "2d4240ca",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 525.1179,
+   "status": "working",
+   "created": "2026-09-16 13:14",
+   "created_ts": 1789578860,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $522.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a2b1e48c",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 517.2904,
+   "status": "working",
+   "created": "2026-09-16 13:14",
+   "created_ts": 1789578860,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $522.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e01ac270",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 507.1936,
+   "status": "working",
+   "created": "2026-09-16 13:14",
+   "created_ts": 1789578860,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $522.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-16 13:13"
+ "updated": "2026-09-16 13:14"
 }
