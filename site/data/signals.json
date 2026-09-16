@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T15:24-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-16T15:28-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "ad89d4a4",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 486.6569,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 488.09,
-   "pct_away": -0.29,
-   "good_until": "2026-09-21",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "0c5df0b7",
    "ticker": "SBLK",
    "kind": "stop_loss",
@@ -163,10 +146,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.77,
-   "pct_away": -0.51,
+   "last": 30.7,
+   "pct_away": -0.28,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ad89d4a4",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 486.6569,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 488.07,
+   "pct_away": -0.29,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,7 +180,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 488.09,
+   "last": 488.07,
    "pct_away": 0.54,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.2% over the average cost",
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.77,
-   "pct_away": 0.57,
+   "last": 30.7,
+   "pct_away": 0.8,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -207,15 +207,15 @@
    ]
   },
   {
-   "id": "f294049a",
-   "ticker": "MSFT",
+   "id": "d5bbca59",
+   "ticker": "SBLK",
    "kind": "buy_limit",
-   "price": 474.8732,
+   "price": 29.9245,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 488.09,
-   "pct_away": -2.71,
+   "last": 30.7,
+   "pct_away": -2.53,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -224,15 +224,15 @@
    ]
   },
   {
-   "id": "0ccdca44",
-   "ticker": "SBLK",
+   "id": "d3a8a345",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 29.9245,
+   "price": 474.8732,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 30.77,
-   "pct_away": -2.75,
+   "last": 488.07,
+   "pct_away": -2.7,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

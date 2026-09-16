@@ -7912,3 +7912,4 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25179.61 (+0.72% on $25000.00 in) · cash $19206.12 · realised +206.12
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
