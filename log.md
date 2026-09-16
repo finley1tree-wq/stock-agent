@@ -7437,3 +7437,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25460.15 (+1.84% on $25000.00 in) · cash $16443.90 · realised +443.90
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.93] -> $3015.14 (+0.50%) — close 100% at +0.5% over the average cost
+## 2026-09-16 14:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
