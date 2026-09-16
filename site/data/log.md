@@ -1,36 +1,3 @@
-  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7JBYZTDfZNC3NHMV13N'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25412.20 (+1.65% on $25000.00 in) · cash $12966.95 · realised +412.78
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [stop_loss @ $14.87] -> $3004.18 (+0.14%) — close it all at -1.2% under the average cost
-## 2026-09-16 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 10:46 ET (Wednesday) — week 2026-W38 — budget left $15566.12 (today $66445.83 put to work, 23 buys, 19 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7JPSC3vu7MkbKi3f1Vn'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25418.73 (+1.67% on $25000.00 in) · cash $15971.13 · realised +416.96
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [stop_loss @ $493.07] -> $445.93 (+0.02%) — close it all at -0.6% under the average cost
-## 2026-09-16 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 10:49 ET (Wednesday) — week 2026-W38 — budget left $16012.05 (today $66445.83 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +365,36 @@ portfolio: equity $25462.36 (+1.85% on $25000.00 in) · cash $4455.60 · realise
 Decision: nothing at this check. 21 standing order(s) working.
 - SELL 100% GOOGL [time stop] -> $2993.00 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-16 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 11:50 ET (Wednesday) — week 2026-W38 — budget left $7020.82 (today $102445.83 put to work, 35 buys, 29 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7PEmXyMyXMpH669DHRt'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25460.30 (+1.84% on $25000.00 in) · cash $7448.60 · realised +448.60
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AAPL [time stop] -> $2994.03 (-0.20%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 11:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 11:53 ET (Wednesday) — week 2026-W38 — budget left $10014.85 (today $102445.83 put to work, 35 buys, 30 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7PSuaFXrcodpRhcWSuv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,015 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +6.9% over the month; 64% of today's range
+~ WORKING take_profit 100% HLI @ $134.31 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HLI @ $132.73 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $129.84 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25448.99 (+1.80% on $25000.00 in) · cash $7442.63 · realised +442.63
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7014.85 this week
