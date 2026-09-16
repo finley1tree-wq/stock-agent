@@ -8132,3 +8132,19 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25178.49 (+0.71% on $25000.00 in) · cash $25178.49 · realised +178.49
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-16 15:59 ET (Wednesday) — week 2026-W38 — budget left $24750.71 (today $219445.83 put to work, 74 buys, 74 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (no price for TLAC — excluded this check)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7iBzhNF1kYPdpFLDEAG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25178.49 (+0.71% on $25000.00 in) · cash $25178.49 · realised +178.49
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
