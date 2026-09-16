@@ -6142,3 +6142,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $507.63 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25409.26 (+1.64% on $25000.00 in) · cash $15966.95 · realised +412.78
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $15561.94 this week
+
+## 2026-09-16 10:38 ET (Wednesday) — week 2026-W38 — budget left $15561.94 (today $63445.83 put to work, 22 buys, 18 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVBC excluded: too thinly traded ($3.7M a day) — Avidia Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7Hmdj6BqGh2eK3pup6A'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,562 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.3% over the month; 12% of today's range
+~ WORKING take_profit 100% NEM @ $123.57 until 2026-09-21 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $121.96 until 2026-09-21 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.42 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25410.02 (+1.64% on $25000.00 in) · cash $12966.95 · realised +412.78
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $12561.94 this week
