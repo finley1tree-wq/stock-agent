@@ -1,24 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,978 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +6.8% over the month; 63% of today's range
-~ WORKING take_profit 100% HLI @ $134.28 until 2026-09-21 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% HLI @ $132.70 until 2026-09-21 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 HLI @ $129.82 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25387.32 (+1.55% on $25000.00 in) · cash $4405.38 · realised +405.38
-Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3977.60 this week
-- SELL 100% SBLK [time stop] -> $2983.15 (-0.56%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% META [time stop] -> $3000.09 (+0.00%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-16 13:10 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 13:11 ET (Wednesday) — week 2026-W38 — budget left $9960.84 (today $147445.83 put to work, 50 buys, 45 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7VRpU63scTN7zborXZG'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25391.20 (+1.56% on $25000.00 in) · cash $10388.61 · realised +388.61
 Decision: nothing at this check. 15 standing order(s) working.
@@ -398,3 +377,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $168.15 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25457.00 (+1.83% on $25000.00 in) · cash $16459.04 · realised +459.04
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16031.27 this week
+
+## 2026-09-16 14:15 ET (Wednesday) — week 2026-W38 — budget left $16031.27 (today $180445.83 put to work, 61 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7aKRpEfjdQg3VuEW5Yj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,031 idle, so opened 2: CRWD, IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +13.1% over the month; 66% of today's range
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +4.9% over the month; 26% of today's range
+~ WORKING take_profit 100% CRWD @ $243.66 until 2026-09-21 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% CRWD @ $237.78 until 2026-09-21 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $234.72 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $240.92 until 2026-09-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $238.24 until 2026-09-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $232.95 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25450.20 (+1.80% on $25000.00 in) · cash $10459.04 · realised +459.04
+Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $10031.27 this week

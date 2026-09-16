@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-16T14:13-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,031 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-16T14:15-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,031 idle, so opened 2: CRWD, IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "f297c489",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 494.9957,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 493.65,
-   "pct_away": 0.27,
-   "good_until": "2026-09-21",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "a6988d7e",
    "ticker": "SBLK",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 31.01,
-   "pct_away": 0.31,
+   "last": 31.02,
+   "pct_away": 0.27,
    "good_until": "2026-09-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -173,17 +156,34 @@
    ]
   },
   {
-   "id": "6b1ec895",
-   "ticker": "PLTR",
+   "id": "f297c489",
+   "ticker": "MSFT",
    "kind": "take_profit",
-   "price": 174.1526,
+   "price": 494.9957,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 173.32,
-   "pct_away": 0.48,
+   "last": 493.51,
+   "pct_away": 0.3,
    "good_until": "2026-09-21",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "42da08cf",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 240.9161,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 240.1,
+   "pct_away": 0.34,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +197,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 493.65,
-   "pct_away": -0.54,
+   "last": 493.51,
+   "pct_away": -0.51,
    "good_until": "2026-09-21",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6b1ec895",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 174.1526,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 172.99,
+   "pct_away": 0.67,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9cdc912d",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 243.6593,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 241.93,
+   "pct_away": 0.71,
+   "good_until": "2026-09-21",
+   "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6033bae9",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 238.236,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 240.1,
+   "pct_away": -0.78,
+   "good_until": "2026-09-21",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 31.01,
-   "pct_away": -0.76,
+   "last": 31.02,
+   "pct_away": -0.8,
    "good_until": "2026-09-21",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -231,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 173.32,
-   "pct_away": -1.14,
+   "last": 172.99,
+   "pct_away": -0.95,
    "good_until": "2026-09-21",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -241,17 +292,17 @@
    ]
   },
   {
-   "id": "fb9f38a7",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 479.0345,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "b71a2d8c",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 237.7792,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 493.65,
-   "pct_away": -2.96,
+   "last": 241.93,
+   "pct_away": -1.72,
    "good_until": "2026-09-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close it all at -1.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,7 +316,58 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 173.32,
+   "last": 172.99,
+   "pct_away": -2.8,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fb9f38a7",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 479.0345,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 493.51,
+   "pct_away": -2.93,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "931723f4",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 234.7206,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 241.93,
+   "pct_away": -2.98,
+   "good_until": "2026-09-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6ce25e18",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 232.9455,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 240.1,
    "pct_away": -2.98,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -282,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 31.01,
-   "pct_away": -3.0,
+   "last": 31.02,
+   "pct_away": -3.03,
    "good_until": "2026-09-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,7 +394,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,031 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,031 idle, so opened 2: CRWD, IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -355,13 +457,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 298,
+  "decisions_graded": 297,
   "decisions_with_buys_graded": 86,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.21,
   "chosen_avg_pct": -0.12,
   "skipped_avg_pct": 0.09,
-  "idle_universe_avg_pct": 0.0,
+  "idle_universe_avg_pct": 0.01,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -453,7 +555,7 @@
     "n": 1
    }
   },
-  "idle_checks": 268,
+  "idle_checks": 267,
   "blocked_checks": 0,
   "idle_share": 0.67,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1601,9 +1703,9 @@
     "when": "2026-09-16T14:15"
    },
    {
-    "title": "Costco expands Uber Eats delivery to 47 states",
-    "source": "GuruFocus.com",
-    "when": "2026-09-16T17:55"
+    "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
+    "source": "Motley Fool",
+    "when": "2026-09-16T18:05"
    }
   ],
   "AVGO": [
@@ -1907,9 +2009,9 @@
     "when": "2026-09-16T10:00"
    },
    {
-    "title": "Microsoft's AI Chief Wants Consciousness Talk Out of AI Training",
-    "source": "GuruFocus.com",
-    "when": "2026-09-16T17:57"
+    "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
+    "source": "Motley Fool",
+    "when": "2026-09-16T18:05"
    }
   ],
   "NEM": [
@@ -1970,13 +2072,13 @@
     "when": "2026-09-16T15:09"
    },
    {
-    "title": "Apple Is Considering Something It Hasn't Done in 15 Years. Here's What Investors Need to Know.",
+    "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
     "source": "Motley Fool",
-    "when": "2026-09-16T17:59"
+    "when": "2026-09-16T18:05"
    },
    {
-    "title": "Nvidia Stock Rises as Meta CEO Rejects AI Slowdown Calls",
-    "source": "GuruFocus.com",
+    "title": "Apple Is Considering Something It Hasn't Done in 15 Years. Here's What Investors Need to Know.",
+    "source": "Motley Fool",
     "when": "2026-09-16T17:59"
    }
   ],
@@ -2118,6 +2220,11 @@
   ],
   "TSM": [
    {
+    "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
+    "source": "Motley Fool",
+    "when": "2026-09-16T18:05"
+   },
+   {
     "title": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones",
     "source": "Investor's Business Daily",
     "when": "2026-09-16T16:10"
@@ -2126,11 +2233,6 @@
     "title": "GFS Gains From Expanding Partner base: Will it Boost Growth Prospects?",
     "source": "Zacks",
     "when": "2026-09-16T15:26"
-   },
-   {
-    "title": "Taiwan Semiconductor Is a No-Brainer Buy On Repeat And Not For The Reason You Think",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-16T14:45"
    }
   ],
   "TTD": [
@@ -2186,5 +2288,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-16T14:13-04:00"
+ "signalsAsOf": "2026-09-16T14:15-04:00"
 }
