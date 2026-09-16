@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 11981.76,
-  "deployed": 486255.02,
+  "spent": 14981.76,
+  "deployed": 489255.02,
   "by_ticker": {
     "GOOGL": 22.25,
-    "AMD": 12.15,
+    "AMD": 3012.15,
     "BE": 3.21,
     "FLD": 1.2,
     "TPL": 62.38,
@@ -28,7 +28,7 @@
     "HLI": 42873.19,
     "NEM": 45000.0,
     "META": 42478.21,
-    "AMD": 16000.0,
+    "AMD": 19000.0,
     "TTD": 39000.0,
     "AAPL": 42000.0,
     "MSFT": 33903.62,
@@ -6287,12 +6287,29 @@
       ],
       "evidence": "average cost $31.16",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.710098,
+      "price": 525.39,
+      "date": "2026-09-16",
+      "time_et": "11:58",
+      "ts": 1789574318,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+3.8% over the month; 85% of today's range"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 11981.76,
-  "deployed_today": 105445.83,
-  "orders_today": 36,
+  "spent_today": 14981.76,
+  "deployed_today": 108445.83,
+  "orders_today": 37,
   "sells_today": 32,
   "sold_today": [
     "CHRW",
@@ -6332,24 +6349,27 @@
     "SKWD": 1789566945,
     "SBLK": 1789574112
   },
-  "last_publish_ts": 1789574111,
-  "last_check_ts": 1789574243,
+  "last_publish_ts": 1789574318,
+  "last_check_ts": 1789574318,
   "last_bar_ts": 1789574100,
-  "last_decision_ts": 1789574159,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789574318,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "b9f7ee41": 494.216,
     "a2196b72": 494.9356,
-    "28838b6f": 134.3124,
     "ca850e3c": 14.9508,
+    "28838b6f": 134.3124,
+    "dc193582": 527.6282,
     "33a4306c": 245.3211,
     "e171ec66": 132.7289,
+    "0f2ccd72": 519.7999,
     "67cfc8ac": 14.7028,
     "7e50b577": 239.4396,
-    "c70aaf7c": 14.4336,
     "8e402d3c": 236.3308,
     "28a49663": 129.8442,
-    "e704b2cc": 478.9763
+    "b20c8f63": 509.6283,
+    "e704b2cc": 478.9763,
+    "c70aaf7c": 14.4336
   }
 }
