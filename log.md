@@ -6647,3 +6647,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $509.63 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25449.35 (+1.80% on $25000.00 in) · cash $10446.02 · realised +446.02
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10018.24 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $493.97] -> $3001.09 (+0.04%) — close it all at -0.6% under the average cost
+## 2026-09-16 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
