@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "82f55669",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 320.1291,
-   "status": "cancelled",
-   "created": "2026-09-15 11:42",
-   "created_ts": 1789486969,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $330.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 12:12",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "15caa49a",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 249.012,
-   "status": "cancelled",
-   "created": "2026-09-15 11:43",
-   "created_ts": 1789487003,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $248.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-15 11:44",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "71e0e707",
    "ticker": "NEM",
    "kind": "stop_loss",
@@ -7245,7 +7207,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 333.2677,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:37",
    "created_ts": 1789576672,
    "why": "close 100% at +0.3% over the average cost",
@@ -7255,7 +7217,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 12:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "04543020",
@@ -7281,7 +7245,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 322.4474,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:37",
    "created_ts": 1789576672,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7291,7 +7255,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 12:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "320a27fb",
@@ -7400,7 +7366,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 332.72,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 12:45",
    "created_ts": 1789577122,
    "why": "close it all at -0.6% under the average cost",
@@ -7410,7 +7376,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 12:50"
   },
   {
    "id": "fab55514",
@@ -7468,7 +7435,7 @@
    "ticker": "TTD",
    "kind": "take_profit",
    "price": 14.9808,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 12:49",
    "created_ts": 1789577343,
    "why": "close 100% at +0.5% over the average cost",
@@ -7478,7 +7445,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 12:49",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "f45bd523",
@@ -7513,7 +7482,43 @@
    ],
    "good_until": "2026-09-21",
    "usd": 500.0
+  },
+  {
+   "id": "14f18c70",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 15.6555,
+   "status": "cancelled",
+   "created": "2026-09-16 12:49",
+   "created_ts": 1789577380,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $14.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 12:50",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "63412f2e",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.981,
+   "status": "working",
+   "created": "2026-09-16 12:50",
+   "created_ts": 1789577427,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $14.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 12:49"
+ "updated": "2026-09-16 12:50"
 }
