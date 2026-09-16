@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12018.41,
+  "spent": 9022.6,
   "deployed": 537255.02,
   "by_ticker": {
     "GOOGL": 25.62,
@@ -9,7 +9,7 @@
     "TPL": 62.38,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3032.09,
+    "HLI": 36.28,
     "NEM": 12.22,
     "MSFT": 10.72,
     "PLTR": 10.45,
@@ -6931,13 +6931,33 @@
         "autopilot"
       ],
       "evidence": "+9.0% over the month; 36% of today's range"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.41591,
+      "status": "filled",
+      "price": 133.65,
+      "proceeds": 2995.81,
+      "realized_pnl": -4.19,
+      "realized_pct": -0.14,
+      "date": "2026-09-16",
+      "time_et": "13:39",
+      "ts": 1789580351,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.10% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-16",
-  "spent_today": 12018.41,
+  "spent_today": 9022.6,
   "deployed_today": 156445.83,
   "orders_today": 53,
-  "sells_today": 49,
+  "sells_today": 50,
   "sold_today": [
     "CHRW",
     "GOOGL",
@@ -6956,7 +6976,7 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789575778,
+    "HLI": 1789580351,
     "META": 1789578625,
     "CHRW": 1789577213,
     "TTD": 1789579140,
@@ -6976,24 +6996,21 @@
     "SKWD": 1789566945,
     "SBLK": 1789578625
   },
-  "last_publish_ts": 1789580186,
-  "last_check_ts": 1789580272,
+  "last_publish_ts": 1789580351,
+  "last_check_ts": 1789580353,
   "last_bar_ts": 1789580100,
-  "last_decision_ts": 1789580186,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789580353,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "1d67a72a": 334.0965,
     "15c300bf": 153.6067,
-    "e9e5f24c": 134.2823,
-    "2d4240ca": 525.1179,
     "ed786ff0": 152.1498,
     "9649e38e": 331.1339,
-    "5d65fa06": 132.6991,
+    "2d4240ca": 525.1179,
     "a2b1e48c": 517.2904,
     "e01ac270": 507.1936,
     "8508e05d": 148.5943,
-    "4f6fa7d8": 129.8151,
     "3fe92f2d": 323.2525
   }
 }

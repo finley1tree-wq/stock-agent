@@ -1,5 +1,3 @@
-## 2026-09-16 12:32 ET (Wednesday) — week 2026-W38 — budget left $18989.41 (today $117445.83 put to work, 40 buys, 38 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $323.25 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25400.70 (+1.60% on $25000.00 in) · cash $13409.36 · realised +409.36
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12981.59 this week
+- SELL 100% HLI [time stop] -> $2995.81 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-16 13:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
