@@ -1,4 +1,3 @@
-
 ## 2026-09-15 14:57 ET (Tuesday) — week 2026-W38 — budget left $9987.11 (today $162873.19 put to work, 55 buys, 49 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25352.73 (+1.41% on $25000.00 in) · cash $25352.73 · realised +352.73
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-15 16:00 ET — published the session's closing state
