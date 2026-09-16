@@ -7386,3 +7386,23 @@ Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9990.72 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $345.62] -> $3007.24 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-16 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $334.10] -> $3007.65 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-16 14:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-16 14:05 ET (Wednesday) — week 2026-W38 — budget left $16005.61 (today $174445.83 put to work, 59 buys, 56 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
+  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
+  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7ZWF1nmfrSbJNPpV1cZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $16,006 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +10.8% over the month; 70% of today's range
+~ WORKING take_profit 100% TTD @ $14.93 until 2026-09-21 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.68 until 2026-09-21 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $14.41 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25440.60 (+1.76% on $25000.00 in) · cash $13433.38 · realised +433.38
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $13005.61 this week
