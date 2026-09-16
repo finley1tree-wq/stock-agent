@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "e6d80cd1",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 241.9374,
-   "status": "cancelled",
-   "created": "2026-09-14 15:43",
-   "created_ts": 1789415039,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $249.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 500.0,
-   "closed": "2026-09-14 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "77975c72",
    "ticker": "BE",
    "kind": "buy_limit",
@@ -6936,7 +6917,7 @@
    "ticker": "BE",
    "kind": "take_profit",
    "price": 269.0987,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "close 100% at +0.7% over the average cost",
@@ -6946,7 +6927,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:37"
   },
   {
    "id": "98693fa8",
@@ -6972,7 +6954,7 @@
    "ticker": "BE",
    "kind": "buy_limit",
    "price": 259.2422,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:32",
    "created_ts": 1789565552,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6982,7 +6964,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-16 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "cb1caaba",
@@ -7368,7 +7352,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 332.0813,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:35",
    "created_ts": 1789565750,
    "why": "close it all at -0.6% under the average cost",
@@ -7378,7 +7362,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "01e490d8",
@@ -7489,7 +7475,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 268.148,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-16 09:37",
    "created_ts": 1789565832,
    "why": "close it all at -1.7% under the average cost",
@@ -7499,7 +7485,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-16 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "de08b10f",
@@ -7517,7 +7505,24 @@
    ],
    "good_until": "2026-09-21",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "2c8c523a",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 334.492,
+   "status": "working",
+   "created": "2026-09-16 09:38",
+   "created_ts": 1789565915,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $334.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-16 09:37"
+ "updated": "2026-09-16 09:38"
 }

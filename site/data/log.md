@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BRID excluded: too thinly traded ($0.0M a day) — Bridgford Foods Corporation)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FDBC excluded: too thinly traded ($0.7M a day) — Fidelity D & D Bancorp, Inc.)
   (GAIA excluded: too thinly traded ($0.2M a day) — Gaia, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $479.56 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25303.72 (+1.21% on $25000.00 in) · cash $1365.94 · realised +365.94
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $960.93 this week
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $269.10] -> $3020.60 (+0.69%) — close 100% at +0.7% over the average cost
+## 2026-09-16 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
