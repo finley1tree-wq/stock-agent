@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T10:20-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,760 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "asOf": "2026-09-17T10:23-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,760 idle, so opened 4: TTD, SBLK, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps ",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,91 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "0b0866f4",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 334.327,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 333.41,
+   "pct_away": 0.28,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ae4cbfef",
+   "ticker": "SBLK",
+   "kind": "take_profit",
+   "price": 31.603,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 31.5,
+   "pct_away": 0.33,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "990e76fb",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 538.7394,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 536.28,
+   "pct_away": 0.46,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1a1ac152",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.4914,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.41,
+   "pct_away": 0.56,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c7d3846c",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 331.3624,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 333.41,
+   "pct_away": -0.61,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "13a9656c",
    "ticker": "GLD",
    "kind": "buy_limit",
@@ -146,13 +231,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 400.37,
-   "pct_away": -0.6,
+   "last": 400.52,
+   "pct_away": -0.64,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "16816146",
+   "ticker": "SBLK",
+   "kind": "stop_loss",
+   "price": 31.2775,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 31.5,
+   "pct_away": -0.71,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -163,10 +265,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 277.9,
-   "pct_away": 0.72,
+   "last": 276.93,
+   "pct_away": 1.07,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "43fde25f",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 530.5165,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 536.28,
+   "pct_away": -1.07,
+   "good_until": "2026-09-22",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3eff13fb",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.2416,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.41,
+   "pct_away": -1.17,
+   "good_until": "2026-09-22",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +316,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 277.9,
-   "pct_away": -1.72,
+   "last": 276.93,
+   "pct_away": -1.37,
    "good_until": "2026-09-22",
    "why": "close it all at -1.7% under the average cost",
    "signals": [
@@ -197,7 +333,75 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 277.9,
+   "last": 276.93,
+   "pct_away": -2.64,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dfa3aa9f",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.9874,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 14.41,
+   "pct_away": -2.93,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dd8a16f1",
+   "ticker": "SBLK",
+   "kind": "buy_limit",
+   "price": 30.5647,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 31.5,
+   "pct_away": -2.97,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5c212a9b",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 323.4756,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 333.41,
+   "pct_away": -2.98,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3259c0ec",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 520.2983,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 536.28,
    "pct_away": -2.98,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -207,7 +411,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,760 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,760 idle, so opened 4: TTD, SBLK, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps ",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -270,11 +474,11 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 382,
-  "decisions_with_buys_graded": 125,
+  "decisions_graded": 381,
+  "decisions_with_buys_graded": 124,
   "independent_days_graded": 3,
-  "avg_regret_pct": 0.17,
-  "chosen_avg_pct": 0.11,
+  "avg_regret_pct": 0.14,
+  "chosen_avg_pct": 0.14,
   "skipped_avg_pct": 0.28,
   "idle_universe_avg_pct": 0.33,
   "picking_beats_random": false,
@@ -282,20 +486,20 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 177,
-    "avg_pct": 0.16
+    "n": 176,
+    "avg_pct": 0.18
    },
    "congress": {
     "n": 82,
     "avg_pct": -0.08
    },
    "insider": {
-    "n": 14,
-    "avg_pct": 0.26
+    "n": 13,
+    "avg_pct": 0.61
    },
    "momentum": {
-    "n": 177,
-    "avg_pct": 0.16
+    "n": 176,
+    "avg_pct": 0.18
    }
   },
   "biggest_misses": [
@@ -1794,9 +1998,9 @@
     "when": "2026-09-16T15:36"
    },
    {
-    "title": "Snap Advances 3% as Specs Glasses Add Salesforce and NVIDIA Enterprise Tools; Meta Holds Steady",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T14:09"
+    "title": "Costco faces new challenge from surprising competitor",
+    "source": "TheStreet",
+    "when": "2026-09-17T14:17"
    }
   ],
   "AVGO": [
@@ -1818,9 +2022,9 @@
   ],
   "BE": [
    {
-    "title": "Stock Market Today: Dow Rises In Fed Aftermath; Generac, Nebius, Bloom, SpaceX Are Early Movers (Live Coverage)",
+    "title": "Stock Market Today: Nasdaq Charges Higher On Amazon Deal; This Home Builder Misses Views (Live Coverage)",
     "source": "Investor's Business Daily",
-    "when": "2026-09-17T13:53"
+    "when": "2026-09-17T14:20"
    },
    {
     "title": "Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points",
@@ -1964,9 +2168,9 @@
     "when": "2026-09-16T15:36"
    },
    {
-    "title": "Arm\u2019s CEO Says Demand Is \u2018Off the Charts.\u2019 The Problem Is Nobody Can Build Chips Fast Enough",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T13:45"
+    "title": "Is Goldman Sachs (GS) Becoming A Bigger Force In AI Finance And Private Markets?",
+    "source": "Simply Wall St.",
+    "when": "2026-09-17T14:15"
    }
   ],
   "HD": [
@@ -2158,19 +2362,19 @@
   ],
   "NVDA": [
    {
-    "title": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
+    "title": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
     "source": "Yahoo Finance",
-    "when": "2026-09-17T13:44"
+    "when": "2026-09-17T13:24"
+   },
+   {
+    "title": "Frontier AI developers must be 'liable for the things their products do': Autodesk CEO",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-16T15:09"
    },
    {
     "title": "Snap Advances 3% as Specs Glasses Add Salesforce and NVIDIA Enterprise Tools; Meta Holds Steady",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T14:09"
-   },
-   {
-    "title": "Prediction: ExxonMobil's Low-Carbon Bets Finally Show Up in Guidance by 2027",
-    "source": "Motley Fool",
-    "when": "2026-09-17T14:05"
    }
   ],
   "O": [
@@ -2379,5 +2583,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T10:20-04:00"
+ "signalsAsOf": "2026-09-17T10:23-04:00"
 }
