@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T15:52-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-17T15:53-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -137,59 +137,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "58064b49",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 154.6935,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 154.13,
-   "pct_away": 0.37,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "864697a0",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 153.2448,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 154.13,
-   "pct_away": -0.57,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "888cb311",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.6516,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 154.13,
-   "pct_away": -2.91,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)",
  "congress_trades": [

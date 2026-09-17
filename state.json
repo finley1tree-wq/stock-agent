@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 3118.48,
+  "spent": 122.43,
   "deployed": 845877.32,
   "by_ticker": {
     "GOOGL": 33.49,
@@ -12,7 +12,7 @@
     "HLI": 32.33,
     "NEM": 31.76,
     "SKWD": 22.98,
-    "CHRW": 3054.26,
+    "CHRW": 58.21,
     "SBLK": 24.03,
     "AAPL": 33.25,
     "META": 67.96,
@@ -11029,13 +11029,33 @@
       ],
       "evidence": "bought 30 min ago, -0.09% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 19.444952,
+      "status": "filled",
+      "price": 154.08,
+      "proceeds": 2996.05,
+      "realized_pnl": -3.95,
+      "realized_pct": -0.13,
+      "date": "2026-09-17",
+      "time_et": "15:53",
+      "ts": 1789674798,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.09% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 2981.35,
+  "spent_today": 0.0,
   "deployed_today": 245622.3,
   "orders_today": 85,
-  "sells_today": 83,
+  "sells_today": 84,
   "sold_today": [
     "BE",
     "CRWD",
@@ -11057,7 +11077,7 @@
     "ALP": 1789404796,
     "HLI": 1789670428,
     "META": 1789673285,
-    "CHRW": 1789670251,
+    "CHRW": 1789674798,
     "TTD": 1789672588,
     "AMD": 1789672252,
     "IBM": 1789671065,
@@ -11076,15 +11096,11 @@
     "SBLK": 1789670563,
     "TSM": 1789674128
   },
-  "last_publish_ts": 1789674720,
-  "last_check_ts": 1789674720,
+  "last_publish_ts": 1789674798,
+  "last_check_ts": 1789674800,
   "last_bar_ts": 1789674600,
-  "last_decision_ts": 1789674630,
+  "last_decision_ts": 1789674800,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "58064b49": 154.6935,
-    "864697a0": 153.2448,
-    "888cb311": 149.6516
-  }
+  "book_px": {}
 }

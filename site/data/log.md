@@ -1,7 +1,3 @@
-  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9WvRqzDjWrnY3HbtGdp'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25317.05 (+1.27% on $25000.00 in) · cash $10333.82 · realised +333.82
@@ -398,3 +394,7 @@ portfolio: equity $25301.85 (+1.21% on $25000.00 in) · cash $22309.27 · realis
 Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% CHRW [time stop] -> $2996.05 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 15:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
