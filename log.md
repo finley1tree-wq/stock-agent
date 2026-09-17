@@ -8580,3 +8580,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $1000.00 IBM @ $237.42 until 2026-09-18 — strong month, weak day: resting 0.59% under $238.83 to catch the dip
 portfolio: equity $25210.33 (+0.84% on $25000.00 in) · cash $3901.72 · realised +203.67
 Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $3473.94 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $346.85] -> $3001.57 (+0.05%) — close it all at -0.6% under the average cost
+## 2026-09-17 10:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
