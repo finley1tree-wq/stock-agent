@@ -1,6 +1,3 @@
-portfolio: equity $25319.56 (+1.28% on $25000.00 in) · cash $16321.40 · realised +321.40
-Decision: nothing at this check. 10 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $132.17] -> $3010.62 (+0.35%) — close 100% at +0.4% over the average cost
 ## 2026-09-17 13:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 IBM @ $231.03 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25334.60 (+1.34% on $25000.00 in) · cash $10332.59 · realised +332.59
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9904.84 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $345.44] -> $3001.37 (+0.05%) — close it all at -0.6% under the average cost
+## 2026-09-17 14:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
