@@ -1,28 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (no price for TLAC — excluded this check)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7iBzhNF1kYPdpFLDEAG'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25178.49 (+0.71% on $25000.00 in) · cash $25178.49 · realised +178.49
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-09-16 16:00 ET — published the session's closing state
-
-## 2026-09-17 09:32 ET (Thursday) — week 2026-W38 — budget left $24750.71 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf96ZaFczgAaYFd8swGuR'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,751 idle, so opened 8: CHRW, MSFT, BE, TTD, CRWD, SBLK, AMD, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.4% over the month; 32% of today's range
 - BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.9% over the month; 21% of today's range
@@ -398,3 +373,28 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $520.30 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25173.26 (+0.69% on $25000.00 in) · cash $10187.93 · realised +187.93
 Done: 0 sell(s), 4 buy(s); 16 order(s) working; budget left $9760.15 this week
+
+## 2026-09-17 10:26 ET (Thursday) — week 2026-W38 — budget left $9760.15 (today $56320.35 put to work, 21 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9AeJJ32AS7Zgw4HsH4b'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,760 idle, so opened 3: MSFT, GOOGL, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +3.4% over the month; 59% of today's range
+- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.7% over the month; 48% of today's range
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.0% over the month; 85% of today's range
+~ WORKING take_profit 100% MSFT @ $499.35 until 2026-09-22 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $495.37 until 2026-09-22 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $483.26 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $347.55 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $344.47 until 2026-09-22 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $336.27 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $177.55 until 2026-09-22 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% PLTR @ $174.85 until 2026-09-22 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $171.48 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25186.94 (+0.75% on $25000.00 in) · cash $1187.93 · realised +187.93
+Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $760.15 this week

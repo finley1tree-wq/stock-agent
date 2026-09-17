@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T10:23-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,760 idle, so opened 4: TTD, SBLK, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps ",
+ "asOf": "2026-09-17T10:26-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,760 idle, so opened 3: MSFT, GOOGL, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the ",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "c848ea41",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.444,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.46,
+   "pct_away": -0.11,
+   "good_until": "2026-09-22",
+   "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "0b0866f4",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -146,44 +163,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 333.41,
-   "pct_away": 0.28,
+   "last": 333.79,
+   "pct_away": 0.16,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ae4cbfef",
-   "ticker": "SBLK",
-   "kind": "take_profit",
-   "price": 31.603,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 31.5,
-   "pct_away": 0.33,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "990e76fb",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 538.7394,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 536.28,
-   "pct_away": 0.46,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.41,
-   "pct_away": 0.56,
+   "last": 14.46,
+   "pct_away": 0.22,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -207,14 +190,99 @@
    ]
   },
   {
-   "id": "c7d3846c",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 331.3624,
+   "id": "4233304c",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 499.3459,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 333.41,
+   "last": 498.11,
+   "pct_away": 0.25,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ae4cbfef",
+   "ticker": "SBLK",
+   "kind": "take_profit",
+   "price": 31.603,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 31.52,
+   "pct_away": 0.26,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0b9d62d3",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 347.5505,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 346.6,
+   "pct_away": 0.27,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a5e369fa",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 177.5525,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 176.74,
+   "pct_away": 0.46,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "93d775d1",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 495.3652,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 498.11,
+   "pct_away": -0.55,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "420c82b2",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 344.4686,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 346.6,
    "pct_away": -0.61,
    "good_until": "2026-09-22",
    "why": "close it all at -0.6% under the average cost",
@@ -231,13 +299,47 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 400.52,
-   "pct_away": -0.64,
+   "last": 400.74,
+   "pct_away": -0.69,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "990e76fb",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 538.7394,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 535.0,
+   "pct_away": 0.7,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c7d3846c",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 331.3624,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 333.79,
+   "pct_away": -0.73,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -248,8 +350,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 31.5,
-   "pct_away": -0.71,
+   "last": 31.52,
+   "pct_away": -0.77,
    "good_until": "2026-09-22",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -265,8 +367,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 276.93,
-   "pct_away": 1.07,
+   "last": 277.57,
+   "pct_away": 0.84,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -282,8 +384,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 536.28,
-   "pct_away": -1.07,
+   "last": 535.0,
+   "pct_away": -0.84,
    "good_until": "2026-09-22",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -292,17 +394,17 @@
    ]
   },
   {
-   "id": "3eff13fb",
-   "ticker": "TTD",
+   "id": "373e1d9b",
+   "ticker": "PLTR",
    "kind": "stop_loss",
-   "price": 14.2416,
+   "price": 174.8496,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.41,
-   "pct_away": -1.17,
+   "last": 176.74,
+   "pct_away": -1.07,
    "good_until": "2026-09-22",
-   "why": "close it all at -1.2% under the average cost",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -316,10 +418,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 276.93,
-   "pct_away": -1.37,
+   "last": 277.57,
+   "pct_away": -1.6,
    "good_until": "2026-09-22",
    "why": "close it all at -1.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3259c0ec",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 520.2983,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 535.0,
+   "pct_away": -2.75,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -333,8 +452,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 276.93,
-   "pct_away": -2.64,
+   "last": 277.57,
+   "pct_away": -2.86,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -343,15 +462,49 @@
    ]
   },
   {
-   "id": "dfa3aa9f",
-   "ticker": "TTD",
+   "id": "1c2468df",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 13.9874,
+   "price": 483.2637,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.41,
-   "pct_away": -2.93,
+   "last": 498.11,
+   "pct_away": -2.98,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2d846781",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 336.2699,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 346.6,
+   "pct_away": -2.98,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "31fae222",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 171.4766,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 176.74,
+   "pct_away": -2.98,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -367,8 +520,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 31.5,
-   "pct_away": -2.97,
+   "last": 31.52,
+   "pct_away": -3.03,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -384,8 +537,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 333.41,
-   "pct_away": -2.98,
+   "last": 333.79,
+   "pct_away": -3.09,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -394,15 +547,15 @@
    ]
   },
   {
-   "id": "3259c0ec",
-   "ticker": "AMD",
+   "id": "dfa3aa9f",
+   "ticker": "TTD",
    "kind": "buy_limit",
-   "price": 520.2983,
+   "price": 13.9874,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 536.28,
-   "pct_away": -2.98,
+   "last": 14.46,
+   "pct_away": -3.27,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -411,7 +564,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,760 idle, so opened 4: TTD, SBLK, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps ",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,760 idle, so opened 3: MSFT, GOOGL, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the ",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -474,8 +627,8 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 381,
-  "decisions_with_buys_graded": 124,
+  "decisions_graded": 380,
+  "decisions_with_buys_graded": 123,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.14,
   "chosen_avg_pct": 0.14,
@@ -486,19 +639,19 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 176,
+    "n": 175,
     "avg_pct": 0.18
    },
    "congress": {
-    "n": 82,
-    "avg_pct": -0.08
+    "n": 81,
+    "avg_pct": -0.09
    },
    "insider": {
     "n": 13,
     "avg_pct": 0.61
    },
    "momentum": {
-    "n": 176,
+    "n": 175,
     "avg_pct": 0.18
    }
   },
@@ -1971,19 +2124,19 @@
   ],
   "AMD": [
    {
+    "title": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
+    "source": "Zacks",
+    "when": "2026-09-17T14:17"
+   },
+   {
+    "title": "Advanced Micro Devices (AMD) Expands ROCm Support To RISC V Datacenter Servers",
+    "source": "Simply Wall St.",
+    "when": "2026-09-17T14:13"
+   },
+   {
     "title": "Nebius stock jumps 9% as reported compute price hikes boost AI cloud peers",
     "source": "GuruFocus.com",
     "when": "2026-09-17T13:22"
-   },
-   {
-    "title": "Despite Hype, Broadcom Keeps Edging Sideways and Down: This Wall Street Analyst Says It Will Provide 75% Returns Soon",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T12:51"
-   },
-   {
-    "title": "Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-17T12:16"
    }
   ],
   "AMZN": [
@@ -1998,12 +2151,17 @@
     "when": "2026-09-16T15:36"
    },
    {
-    "title": "Costco faces new challenge from surprising competitor",
-    "source": "TheStreet",
-    "when": "2026-09-17T14:17"
+    "title": "Wall St climbs as easing oil prices offer reprieve after Fed rate hike",
+    "source": "Reuters",
+    "when": "2026-09-17T14:19"
    }
   ],
   "AVGO": [
+   {
+    "title": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
+    "source": "Zacks",
+    "when": "2026-09-17T14:17"
+   },
    {
     "title": "Jim Cramer delivers unmistakable 2026 must-buy call on AI stock",
     "source": "TheStreet",
@@ -2013,11 +2171,6 @@
     "title": "Investors Want to Know When Broadcom\u2019s Custom Hyperscaler Chips Will Move Share Prices",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T12:55"
-   },
-   {
-    "title": "Despite Hype, Broadcom Keeps Edging Sideways and Down: This Wall Street Analyst Says It Will Provide 75% Returns Soon",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T12:51"
    }
   ],
   "BE": [
@@ -2209,6 +2362,11 @@
   ],
   "HUBB": [
    {
+    "title": "Could Eaton Stock Lose A Third Or Gain Half In A Year?",
+    "source": "Trefis",
+    "when": "2026-09-17T14:11"
+   },
+   {
     "title": "1 Profitable Stock to Own for Decades and 2 We Brush Off",
     "source": "StockStory",
     "when": "2026-09-17T08:10"
@@ -2217,11 +2375,6 @@
     "title": "Should You Get Paid While Eaton Finishes Its Factories?",
     "source": "Trefis",
     "when": "2026-09-16T02:37"
-   },
-   {
-    "title": "Why Is Eaton Priced Above Peers That Earn More Per Sale?",
-    "source": "Trefis",
-    "when": "2026-09-11T19:18"
    }
   ],
   "IBM": [
@@ -2299,14 +2452,14 @@
     "when": "2026-09-17T13:44"
    },
    {
+    "title": "This Goldman Sachs Indicator Hit 0 Only 4 Other Times in the\u00a0 Last 20 Years. History Says Big Tech Rallies Followed",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T14:14"
+   },
+   {
     "title": "MRVL Stock Climbs After AI Optical Capacity Deal, New Microsoft Security Platform Launch",
     "source": "Stocktwits",
     "when": "2026-09-17T14:05"
-   },
-   {
-    "title": "SpaceX Is Worth $2 Trillion. Why Does Its Stock Swing Like a Small-Cap?",
-    "source": "Benzinga Prediction Markets",
-    "when": "2026-09-17T14:00"
    }
   ],
   "NEM": [
@@ -2372,12 +2525,17 @@
     "when": "2026-09-16T15:09"
    },
    {
-    "title": "Snap Advances 3% as Specs Glasses Add Salesforce and NVIDIA Enterprise Tools; Meta Holds Steady",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T14:09"
+    "title": "Wall St climbs as easing oil prices offer reprieve after Fed rate hike",
+    "source": "Reuters",
+    "when": "2026-09-17T14:19"
    }
   ],
   "O": [
+   {
+    "title": "3 Low Volatility Dividend Stocks for Investors Seeking Steady Income",
+    "source": "Simply Wall St.",
+    "when": "2026-09-17T14:15"
+   },
    {
     "title": "Want $1,500 In Passive Income? Invest $5,000 In Each of These 4 Dividend Stocks",
     "source": "24/7 Wall St.",
@@ -2387,11 +2545,6 @@
     "title": "History Says This Is the Amount of Yearly Dividend Income a $7,500 Investment in Realty Income Stock Could Generate by 2030",
     "source": "Motley Fool",
     "when": "2026-09-17T12:50"
-   },
-   {
-    "title": "Why VICI Properties\u2019 7.19% Yield Beats Realty Income\u2019s Dividend Streak, At Least For Now",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T11:45"
    }
   ],
   "OKLO": [
@@ -2498,6 +2651,11 @@
   ],
   "SPY": [
    {
+    "title": "Applied Digital and TeraWulf Climb 5% as Oversold AI Capacity Names Bounce; Cipher Digital Edges Higher",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T14:18"
+   },
+   {
     "title": "Snowflake is Up 51% Year-to-Date: Wise Investors Are Acting Accordingly",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T13:55"
@@ -2506,11 +2664,6 @@
     "title": "Moderna Climbs 6% as Cancer Vaccine Trade Extends a 137% Month; BioNTech and Novavax Edge Higher",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T13:50"
-   },
-   {
-    "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Economic Data, Fed Rate Hike",
-    "source": "MT Newswires",
-    "when": "2026-09-17T13:18"
    }
   ],
   "TSM": [
@@ -2532,6 +2685,11 @@
   ],
   "TTD": [
    {
+    "title": "Magnite Jumps 5% as Craig-Hallum Lifts Target to $32 on Google Auction Remedies; PubMatic Rises 6%, Trade Desk Barely Budges",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T14:12"
+   },
+   {
     "title": "TTD Stock In Focus: Morningstar Sees Market Share Shrinking As Amazon, Google And Meta Ramp Up Ad Competition",
     "source": "Stocktwits",
     "when": "2026-09-17T06:09"
@@ -2540,11 +2698,6 @@
     "title": "What Does AppLovin Stock Do On Your Worst Days?",
     "source": "Trefis",
     "when": "2026-09-17T01:13"
-   },
-   {
-    "title": "Three Stocks Are Joining the S&P 500. Will They Actually Improve VOO\u2019s Returns?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-16T15:55"
    }
   ],
   "UNH": [
@@ -2583,5 +2736,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T10:23-04:00"
+ "signalsAsOf": "2026-09-17T10:26-04:00"
 }
