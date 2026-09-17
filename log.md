@@ -8961,3 +8961,17 @@ Decision: nothing at this check. 10 standing order(s) working.
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [stop_loss @ $176.42] -> $3003.48 (+0.12%) — close it all at -1.1% under the average cost
 ## 2026-09-17 11:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 11:32 ET (Thursday) — week 2026-W38 — budget left $21861.03 (today $101622.30 put to work, 37 buys, 35 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9FfaMnuMGtdmXgSCUac'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25291.07 (+1.16% on $25000.00 in) · cash $22288.78 · realised +288.78
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
