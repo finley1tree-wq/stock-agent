@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9106.35,
+  "spent": 6095.73,
   "deployed": 767877.32,
   "by_ticker": {
     "GOOGL": 3032.51,
@@ -9,7 +9,7 @@
     "TPL": 62.38,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3046.41,
+    "HLI": 35.79,
     "NEM": 23.49,
     "MSFT": 4.12,
     "SKWD": 22.98,
@@ -10000,13 +10000,34 @@
       ],
       "evidence": "average cost $154.21",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.778583,
+      "status": "filled",
+      "price": 132.17,
+      "proceeds": 3010.62,
+      "realized_pnl": 10.62,
+      "realized_pct": 0.35,
+      "date": "2026-09-17",
+      "time_et": "13:22",
+      "ts": 1789665600,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $131.7",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 8969.22,
+  "spent_today": 5958.6,
   "deployed_today": 167622.3,
   "orders_today": 59,
-  "sells_today": 55,
+  "sells_today": 56,
   "sold_today": [
     "BE",
     "CRWD",
@@ -10026,7 +10047,7 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789661706,
+    "HLI": 1789665773,
     "META": 1789664189,
     "CHRW": 1789665645,
     "TTD": 1789663341,
@@ -10047,22 +10068,19 @@
     "SBLK": 1789660815,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789665645,
-  "last_check_ts": 1789665692,
+  "last_publish_ts": 1789665772,
+  "last_check_ts": 1789665772,
   "last_bar_ts": 1789665600,
   "last_decision_ts": 1789665692,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "df2def76": 131.898,
-    "7ef3f8cb": 132.1689,
     "ed200489": 346.3509,
-    "13a9656c": 397.9656,
     "6b8a1540": 239.3439,
+    "13a9656c": 397.9656,
     "f69ad313": 343.2694,
     "fd70df05": 236.7051,
     "6bfadf1a": 231.4323,
-    "82eedc5b": 335.1059,
-    "b4e02120": 127.749
+    "82eedc5b": 335.1059
   }
 }
