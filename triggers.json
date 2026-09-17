@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "67cfc8ac",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 14.7028,
-   "status": "cancelled",
-   "created": "2026-09-16 11:33",
-   "created_ts": 1789572809,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $14.88",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 12:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c70aaf7c",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 14.4336,
-   "status": "cancelled",
-   "created": "2026-09-16 11:33",
-   "created_ts": 1789572809,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $14.88",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 12:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "a2196b72",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -7263,7 +7225,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 130.1077,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:52",
    "created_ts": 1789660336,
    "why": "close it all at -0.9% under the average cost",
@@ -7273,7 +7235,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 12:10",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "91288cfc",
@@ -7483,7 +7447,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 342.8188,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 12:06",
    "created_ts": 1789661194,
    "why": "close it all at -0.6% under the average cost",
@@ -7493,7 +7457,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 12:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "90f7dd27",
@@ -7511,7 +7477,41 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "a0af7490",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 345.404,
+   "status": "working",
+   "created": "2026-09-17 12:09",
+   "created_ts": 1789661393,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $345.02",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f1d38d29",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 131.448,
+   "status": "working",
+   "created": "2026-09-17 12:10",
+   "created_ts": 1789661439,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $131.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 12:09"
+ "updated": "2026-09-17 12:10"
 }

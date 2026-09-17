@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T12:07-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-17T12:10-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,10 +146,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 345.22,
-   "pct_away": 0.2,
+   "last": 345.7,
+   "pct_away": 0.06,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a0af7490",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 345.404,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 345.7,
+   "pct_away": -0.09,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f1d38d29",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 131.448,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 131.56,
+   "pct_away": -0.09,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 131.37,
-   "pct_away": 0.29,
+   "last": 131.56,
+   "pct_away": 0.14,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -180,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.15,
-   "pct_away": 0.46,
+   "last": 238.3,
+   "pct_away": 0.39,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,8 +231,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 400.34,
-   "pct_away": -0.59,
+   "last": 400.46,
+   "pct_away": -0.62,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
@@ -214,44 +248,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.15,
-   "pct_away": -0.65,
+   "last": 238.3,
+   "pct_away": -0.72,
    "good_until": "2026-09-22",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e9c69af3",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 342.8188,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 345.22,
-   "pct_away": -0.7,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c9494236",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 130.1077,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 131.37,
-   "pct_away": -0.96,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +265,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 238.15,
-   "pct_away": -2.87,
+   "last": 238.3,
+   "pct_away": -2.93,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -282,8 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 345.22,
-   "pct_away": -3.06,
+   "last": 345.7,
+   "pct_away": -3.19,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -299,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 131.37,
-   "pct_away": -3.07,
+   "last": 131.56,
+   "pct_away": -3.21,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
