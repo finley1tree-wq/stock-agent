@@ -1,20 +1,3 @@
-portfolio: equity $25330.08 (+1.32% on $25000.00 in) · cash $13329.32 · realised +329.32
-Decision: nothing at this check. 13 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-17 14:18 ET (Thursday) — week 2026-W38 — budget left $12901.57 (today $203622.30 put to work, 71 buys, 66 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9UMNp2GJZGQ4xRXAoDh'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25335.98 (+1.34% on $25000.00 in) · cash $13329.32 · realised +329.32
-Decision: nothing at this check. 13 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [stop_loss @ $124.67] -> $3003.27 (+0.11%) — close it all at -1.0% under the average cost
 ## 2026-09-17 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +381,20 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25319.34 (+1.28% on $25000.00 in) · cash $13340.38 · realised +340.38
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 13 order(s) working; budget left $12912.63 this week
+
+## 2026-09-17 15:23 ET (Thursday) — week 2026-W38 — budget left $12912.63 (today $242622.30 put to work, 84 buys, 79 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9ZHHqbhqyNFS7CYY4CY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,913 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.6% over the month; 84% of today's range
+~ WORKING take_profit 100% CHRW @ $154.69 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $153.24 until 2026-09-22 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25314.59 (+1.26% on $25000.00 in) · cash $10340.38 · realised +340.38
+Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9912.63 this week
