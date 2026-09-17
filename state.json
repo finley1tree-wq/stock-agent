@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9143.39,
+  "spent": 3138.97,
   "deployed": 701877.32,
   "by_ticker": {
     "GOOGL": 34.36,
@@ -11,7 +11,7 @@
     "MAIA": 46.66,
     "HLI": 48.69,
     "NEM": 28.43,
-    "MSFT": 3004.16,
+    "MSFT": 3.22,
     "SKWD": 22.98,
     "CHRW": 55.33,
     "SBLK": 35.4,
@@ -19,8 +19,7 @@
     "AAPL": 49.38,
     "META": 3053.29,
     "TTD": 41.43,
-    "TSM": 6.0,
-    "PLTR": 3000.0
+    "TSM": 6.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -9160,13 +9159,55 @@
       ],
       "evidence": "average cost $14.4",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.050715,
+      "status": "filled",
+      "price": 495.96,
+      "proceeds": 3000.94,
+      "realized_pnl": 0.94,
+      "realized_pct": 0.03,
+      "date": "2026-09-17",
+      "time_et": "11:30",
+      "ts": 1789659000,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $495.81",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 17.024635,
+      "status": "filled",
+      "price": 176.42,
+      "proceeds": 3003.48,
+      "realized_pnl": 3.48,
+      "realized_pct": 0.12,
+      "date": "2026-09-17",
+      "time_et": "11:30",
+      "ts": 1789659000,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $176.22",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 8978.49,
+  "spent_today": 2974.07,
   "deployed_today": 101622.3,
   "orders_today": 37,
-  "sells_today": 33,
+  "sells_today": 35,
   "sold_today": [
     "BE",
     "CRWD",
@@ -9195,34 +9236,28 @@
     "AAPL": 1789656809,
     "BE": 1789658772,
     "NEM": 1789657663,
-    "MSFT": 1789655539,
+    "MSFT": 1789659018,
     "FLD": 1789399070,
     "GOOGL": 1789658481,
     "TPL": 1789500735,
     "GRNT": 1789413927,
     "MAIA": 1789406136,
     "CRWD": 1789656939,
-    "PLTR": 1789655539,
+    "PLTR": 1789659018,
     "SKWD": 1789566945,
     "SBLK": 1789655577,
     "TSM": 1789657323
   },
-  "last_publish_ts": 1789658818,
-  "last_check_ts": 1789658983,
-  "last_bar_ts": 1789658700,
+  "last_publish_ts": 1789659018,
+  "last_check_ts": 1789659063,
+  "last_bar_ts": 1789659000,
   "last_decision_ts": 1789658983,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d5b7f076": 176.508,
-    "86f701c0": 496.212,
-    "f4a746ac": 496.9454,
     "a39c93d6": 676.3855,
-    "3de1e23e": 176.9936,
     "13a9656c": 397.9656,
     "45bf2793": 668.2429,
-    "a6400637": 653.8382,
-    "a76211b4": 480.9357,
-    "307630f4": 170.9334
+    "a6400637": 653.8382
   }
 }

@@ -1,22 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9AeJJ32AS7Zgw4HsH4b'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,760 idle, so opened 3: MSFT, GOOGL, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +3.4% over the month; 59% of today's range
-- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.7% over the month; 48% of today's range
-- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.0% over the month; 85% of today's range
-~ WORKING take_profit 100% MSFT @ $499.35 until 2026-09-22 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $495.37 until 2026-09-22 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $483.26 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $347.55 until 2026-09-22 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $344.47 until 2026-09-22 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $336.27 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $177.55 until 2026-09-22 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% PLTR @ $174.85 until 2026-09-22 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 PLTR @ $171.48 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25186.94 (+0.75% on $25000.00 in) · cash $1187.93 · realised +187.93
-Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $760.15 this week
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $14.49] -> $3015.74 (+0.52%) — close 100% at +0.5% over the average cost
 ## 2026-09-17 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-17 10:29 ET (Thursday) — week 2026-W38 — budget left $3775.89 (today $65320.35 put to work, 24 buys, 16 sells) — SIM (pretend money) via sim
@@ -398,3 +379,22 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25294.71 (+1.18% on $25000.00 in) · cash $16284.36 · realised +284.36
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 10 order(s) working; budget left $15856.61 this week
+
+## 2026-09-17 11:29 ET (Thursday) — week 2026-W38 — budget left $15856.61 (today $101622.30 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9FTecSgn5hJXjfxM1py'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25295.18 (+1.18% on $25000.00 in) · cash $16284.36 · realised +284.36
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $495.96] -> $3000.94 (+0.03%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [stop_loss @ $176.42] -> $3003.48 (+0.12%) — close it all at -1.1% under the average cost
+## 2026-09-17 11:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders
