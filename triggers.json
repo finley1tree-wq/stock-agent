@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "d8201943",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 525.5646,
-   "status": "cancelled",
-   "created": "2026-09-16 10:35",
-   "created_ts": 1789569358,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $523.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 10:59",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "182c07f3",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 517.7408,
-   "status": "cancelled",
-   "created": "2026-09-16 10:35",
-   "created_ts": 1789569358,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $523.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 11:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "efafec35",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7254,7 +7216,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 14.2209,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:15",
    "created_ts": 1789658129,
    "why": "close it all at -1.2% under the average cost",
@@ -7264,7 +7226,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 11:22",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ce3ba866",
@@ -7482,7 +7446,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 274.4878,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:21",
    "created_ts": 1789658482,
    "why": "close it all at -1.7% under the average cost",
@@ -7492,7 +7456,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 11:22",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ed2efd7f",
@@ -7510,7 +7476,41 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "28d74d60",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.424,
+   "status": "working",
+   "created": "2026-09-17 11:22",
+   "created_ts": 1789658570,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $14.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c30470fe",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 279.908,
+   "status": "working",
+   "created": "2026-09-17 11:22",
+   "created_ts": 1789658570,
+   "why": "close it all at -1.7% under the average cost",
+   "evidence": "average cost $279.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 11:21"
+ "updated": "2026-09-17 11:22"
 }
