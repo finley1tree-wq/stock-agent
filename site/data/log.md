@@ -1,20 +1,3 @@
-  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9AQiALsx6drD641C1K1'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,760 idle, so opened 4: TTD, SBLK, AAPL, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.4% over the month; 23% of today's range
-- BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. officer: Chief Operating Officer); +4.5% over the month; 58% of today's range
-- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.5% over the month; 60% of today's range
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +10.7% over the month; 69% of today's range
-~ WORKING take_profit 100% TTD @ $14.49 until 2026-09-22 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% TTD @ $14.24 until 2026-09-22 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 TTD @ $13.99 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% SBLK @ $31.60 until 2026-09-22 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% SBLK @ $31.28 until 2026-09-22 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 SBLK @ $30.56 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AAPL @ $334.33 until 2026-09-22 — close 100% at +0.3% over the average cost
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 BE @ $270.94 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25265.31 (+1.06% on $25000.00 in) · cash $13263.70 · realised +263.70
 Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $12835.94 this week
+
+## 2026-09-17 11:24 ET (Thursday) — week 2026-W38 — budget left $12835.94 (today $98622.30 put to work, 36 buys, 31 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9F3PLkakDVVCXScBd16'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,836 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +24.0% over the month; 43% of today's range
+~ WORKING take_profit 100% META @ $676.39 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% META @ $668.24 until 2026-09-22 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 META @ $653.84 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25268.76 (+1.08% on $25000.00 in) · cash $10263.70 · realised +263.70
+Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9835.94 this week
