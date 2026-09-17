@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 15096.05,
-  "deployed": 743877.32,
+  "spent": 18096.05,
+  "deployed": 746877.32,
   "by_ticker": {
     "GOOGL": 32.51,
     "AMD": 42.16,
@@ -20,7 +20,8 @@
     "META": 3051.45,
     "TTD": 3041.43,
     "IBM": 3.09,
-    "PLTR": 3000.0
+    "PLTR": 3000.0,
+    "CRWD": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -39,7 +40,7 @@
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
-    "CRWD": 36000.0,
+    "CRWD": 39000.0,
     "PLTR": 19000.0,
     "SKWD": 3000.0,
     "SBLK": 21000.0,
@@ -9656,12 +9657,30 @@
         "autopilot"
       ],
       "evidence": "+24.9% over the month; 77% of today's range"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.186739,
+      "price": 246.17,
+      "date": "2026-09-17",
+      "time_et": "12:31",
+      "ts": 1789662715,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +15.6% over the month; 76% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 14958.92,
-  "deployed_today": 143622.3,
-  "orders_today": 51,
+  "spent_today": 17958.92,
+  "deployed_today": 146622.3,
+  "orders_today": 52,
   "sells_today": 45,
   "sold_today": [
     "BE",
@@ -9703,28 +9722,31 @@
     "SBLK": 1789660815,
     "TSM": 1789660948
   },
-  "last_publish_ts": 1789662390,
-  "last_check_ts": 1789662637,
+  "last_publish_ts": 1789662715,
+  "last_check_ts": 1789662715,
   "last_bar_ts": 1789662600,
-  "last_decision_ts": 1789662561,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789662715,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "3c95a9c4": 497.1659,
     "f120f1e4": 681.8006,
-    "5d117de9": 14.4016,
-    "e0a9ddbf": 177.6045,
-    "13a9656c": 397.9656,
     "6c405b2e": 493.1877,
-    "db823642": 673.6469,
+    "13a9656c": 397.9656,
+    "9e8ed37c": 247.6692,
+    "5d117de9": 14.4016,
     "d70c5598": 281.8414,
+    "e0a9ddbf": 177.6045,
     "71939566": 174.8919,
+    "db823642": 673.6469,
     "72c537ea": 14.151,
+    "0b388934": 242.4208,
     "df282489": 275.0788,
-    "9e76356d": 271.5127,
     "4b80b41c": 171.5251,
-    "b8ffa176": 659.0859,
+    "f209a6cf": 13.9001,
     "9724bb9f": 481.1491,
-    "f209a6cf": 13.9001
+    "b8ffa176": 659.0859,
+    "9e76356d": 271.5127,
+    "20ff7b64": 238.7849
   }
 }

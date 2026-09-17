@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T12:26-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,904 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-17T12:32-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,904 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 496.05,
-   "pct_away": 0.22,
+   "last": 495.45,
+   "pct_away": 0.35,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 679.33,
-   "pct_away": 0.36,
+   "last": 678.98,
+   "pct_away": 0.42,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -173,34 +173,17 @@
    ]
   },
   {
-   "id": "5d117de9",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 14.4016,
+   "id": "6c405b2e",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 493.1877,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.34,
-   "pct_away": 0.43,
+   "last": 495.45,
+   "pct_away": -0.46,
    "good_until": "2026-09-22",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e0a9ddbf",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 177.6045,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 176.75,
-   "pct_away": 0.48,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +197,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.98,
-   "pct_away": -0.5,
+   "last": 400.02,
+   "pct_away": -0.51,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
@@ -224,34 +207,34 @@
    ]
   },
   {
-   "id": "6c405b2e",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 493.1877,
+   "id": "9e8ed37c",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 247.6692,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 496.05,
-   "pct_away": -0.58,
+   "last": 246.12,
+   "pct_away": 0.63,
    "good_until": "2026-09-22",
-   "why": "close it all at -0.6% under the average cost",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "db823642",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 673.6469,
+   "id": "5d117de9",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.4016,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 679.33,
-   "pct_away": -0.84,
+   "last": 14.31,
+   "pct_away": 0.64,
    "good_until": "2026-09-22",
-   "why": "close it all at -0.9% under the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,10 +248,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 279.08,
-   "pct_away": 0.99,
+   "last": 279.77,
+   "pct_away": 0.74,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e0a9ddbf",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 177.6045,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 176.28,
+   "pct_away": 0.75,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,10 +282,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 176.75,
-   "pct_away": -1.05,
+   "last": 176.28,
+   "pct_away": -0.79,
    "good_until": "2026-09-22",
    "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "db823642",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 673.6469,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 678.98,
+   "pct_away": -0.79,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -299,10 +316,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.34,
-   "pct_away": -1.32,
+   "last": 14.31,
+   "pct_away": -1.11,
    "good_until": "2026-09-22",
    "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0b388934",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 242.4208,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 246.12,
+   "pct_away": -1.5,
+   "good_until": "2026-09-22",
+   "why": "close it all at -1.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -316,27 +350,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 279.08,
-   "pct_away": -1.43,
+   "last": 279.77,
+   "pct_away": -1.68,
    "good_until": "2026-09-22",
    "why": "close it all at -1.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9e76356d",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 271.5127,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 279.08,
-   "pct_away": -2.71,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -350,42 +367,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 176.75,
-   "pct_away": -2.96,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b8ffa176",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 659.0859,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 679.33,
-   "pct_away": -2.98,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9724bb9f",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 481.1491,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 496.05,
-   "pct_away": -3.0,
+   "last": 176.28,
+   "pct_away": -2.7,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -401,8 +384,76 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.34,
-   "pct_away": -3.07,
+   "last": 14.31,
+   "pct_away": -2.86,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9724bb9f",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 481.1491,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 495.45,
+   "pct_away": -2.89,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b8ffa176",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 659.0859,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 678.98,
+   "pct_away": -2.93,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9e76356d",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 271.5127,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 279.77,
+   "pct_away": -2.95,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "20ff7b64",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 238.7849,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 246.12,
+   "pct_away": -2.98,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -411,7 +462,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,904 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,904 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -478,7 +529,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 338,
+  "decisions_graded": 336,
   "decisions_with_buys_graded": 107,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.25,
@@ -579,7 +630,7 @@
     "n": 1
    }
   },
-  "idle_checks": 264,
+  "idle_checks": 263,
   "blocked_checks": 0,
   "idle_share": 0.66,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2576,5 +2627,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T12:26-04:00"
+ "signalsAsOf": "2026-09-17T12:32-04:00"
 }
