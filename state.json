@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9168.2,
+  "spent": 6164.17,
   "deployed": 683877.32,
   "by_ticker": {
     "GOOGL": 35.2,
@@ -9,7 +9,7 @@
     "TPL": 62.38,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3052.72,
+    "HLI": 48.69,
     "NEM": 3019.56,
     "MSFT": 4.16,
     "SKWD": 22.98,
@@ -8930,13 +8930,33 @@
       ],
       "evidence": "bought 30 min ago, -0.18% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.972273,
+      "status": "filled",
+      "price": 130.77,
+      "proceeds": 3004.03,
+      "realized_pnl": 4.03,
+      "realized_pct": 0.13,
+      "date": "2026-09-17",
+      "time_et": "11:04",
+      "ts": 1789657489,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.17% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 8928.35,
+  "spent_today": 5924.32,
   "deployed_today": 83622.3,
   "orders_today": 31,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "BE",
     "CRWD",
@@ -8956,7 +8976,7 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789653000,
+    "HLI": 1789657490,
     "META": 1789655942,
     "CHRW": 1789653557,
     "TTD": 1789655286,
@@ -8977,22 +8997,19 @@
     "SBLK": 1789655577,
     "TSM": 1789657323
   },
-  "last_publish_ts": 1789657321,
-  "last_check_ts": 1789657447,
-  "last_bar_ts": 1789657200,
+  "last_publish_ts": 1789657489,
+  "last_check_ts": 1789657535,
+  "last_bar_ts": 1789657500,
   "last_decision_ts": 1789657447,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "13a9656c": 397.9656,
-    "a1e61689": 131.0575,
     "ea3d0d2e": 152.5839,
+    "13a9656c": 397.9656,
     "36f611af": 151.1352,
-    "e947f0d6": 123.8283,
     "900cd7bc": 125.5389,
-    "9e995d36": 129.4199,
+    "e947f0d6": 123.8283,
     "708975bf": 121.2985,
-    "ce30ce39": 147.6049,
-    "dc9f7c6d": 126.6723
+    "ce30ce39": 147.6049
   }
 }

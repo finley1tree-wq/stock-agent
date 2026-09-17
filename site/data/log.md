@@ -1,19 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25203.40 (+0.81% on $25000.00 in) · cash $22208.89 · realised +208.89
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [stop_loss @ $152.92] -> $2979.04 (-0.70%) — close it all at -0.6% under the average cost
-## 2026-09-17 09:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 10:00 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
-  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf98gTmNqg5NUitQzDq7g'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
@@ -398,3 +382,19 @@ Decision: nothing at this check. 17 standing order(s) working.
 - SELL 100% IBM [time stop] -> $3001.31 (+0.04%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% TSM [time stop] -> $2994.00 (-0.20%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 11:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 11:04 ET (Thursday) — week 2026-W38 — budget left $15831.80 (today $83622.30 put to work, 31 buys, 27 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9DWZWTkMyfwv6h4ZRAM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25256.27 (+1.03% on $25000.00 in) · cash $16259.56 · realised +259.56
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% HLI [time stop] -> $3004.03 (+0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 11:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
