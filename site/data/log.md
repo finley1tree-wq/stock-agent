@@ -1,5 +1,3 @@
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9Qqeh4n3rAWbPMQTij7'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25311.62 (+1.25% on $25000.00 in) · cash $10328.57 · realised +328.57
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $170.11 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25327.46 (+1.31% on $25000.00 in) · cash $7334.80 · realised +334.80
 Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $6907.04 this week
+- SELL 100% CHRW [time stop] -> $2991.96 (-0.27%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
