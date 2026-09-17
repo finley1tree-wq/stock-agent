@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c1fadb2a",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 271.6436,
-   "status": "cancelled",
-   "created": "2026-09-16 11:33",
-   "created_ts": 1789572807,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $269.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 11:43",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "251883a4",
    "ticker": "SBLK",
    "kind": "take_profit",
@@ -7452,7 +7433,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 123.9483,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:55",
    "created_ts": 1789660506,
    "why": "close it all at -1.0% under the average cost",
@@ -7462,7 +7443,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 11:59",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "df711bdb",
@@ -7497,7 +7480,24 @@
    ],
    "good_until": "2026-09-22",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "fb329791",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 125.326,
+   "status": "working",
+   "created": "2026-09-17 11:59",
+   "created_ts": 1789660777,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $125.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 11:58"
+ "updated": "2026-09-17 11:59"
 }
