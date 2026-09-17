@@ -1,34 +1,3 @@
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9G6cUz2jyPuXtoqkkQ5'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25293.65 (+1.17% on $25000.00 in) · cash $22288.78 · realised +288.78
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on META: position closed)
-- SELL 100% META [stop_loss @ $674.48] -> $3001.84 (+0.06%) — close it all at -0.9% under the average cost
-## 2026-09-17 11:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 11:40 ET (Thursday) — week 2026-W38 — budget left $24862.87 (today $101622.30 put to work, 37 buys, 36 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9GK2TTUiEV83E7ZyYQj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,863 idle, so opened 2: CRWD, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +15.4% over the month; 73% of today's range
-- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.6% over the month; 60% of today's range
-~ WORKING take_profit 100% CRWD @ $247.24 until 2026-09-22 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% CRWD @ $241.99 until 2026-09-22 — close it all at -1.5% under the average cost
-~ WORKING buy_limit $500.00 CRWD @ $238.37 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AAPL @ $334.37 until 2026-09-22 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% AAPL @ $331.40 until 2026-09-22 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 AAPL @ $323.51 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +367,34 @@ Decision: nothing at this check. 19 standing order(s) working.
 - SELL 100% BE [time stop] -> $2997.19 (-0.09%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% TTD [time stop] -> $2995.51 (-0.15%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 12:42 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 12:43 ET (Thursday) — week 2026-W38 — budget left $12896.65 (today $146622.30 put to work, 52 buys, 47 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9M6mUZ8Fn495dpfyR6H'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25306.02 (+1.22% on $25000.00 in) · cash $13324.40 · realised +324.40
+Decision: nothing at this check. 13 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 12:46 ET (Thursday) — week 2026-W38 — budget left $12896.65 (today $146622.30 put to work, 52 buys, 47 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9MLAAfaLSq4EgrjHZJj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25308.54 (+1.23% on $25000.00 in) · cash $13324.40 · realised +324.40
+Decision: nothing at this check. 13 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% MSFT [time stop] -> $2999.10 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $2980.99 (-0.63%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 12:48 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T12:43-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-17T12:48-04:00",
+ "note": "tick: 2 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9a54c241",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 246.806,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 247.23,
-   "pct_away": -0.17,
-   "good_until": "2026-09-22",
-   "why": "close it all at -1.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "9e8ed37c",
    "ticker": "CRWD",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 247.23,
-   "pct_away": 0.18,
+   "last": 247.38,
+   "pct_away": 0.12,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -173,34 +156,17 @@
    ]
   },
   {
-   "id": "3c95a9c4",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 497.1659,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 495.59,
-   "pct_away": 0.32,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "71939566",
-   "ticker": "PLTR",
+   "id": "9a54c241",
+   "ticker": "CRWD",
    "kind": "stop_loss",
-   "price": 174.8919,
+   "price": 246.806,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 175.5,
-   "pct_away": -0.35,
+   "last": 247.38,
+   "pct_away": -0.23,
    "good_until": "2026-09-22",
-   "why": "close it all at -1.1% under the average cost",
+   "why": "close it all at -1.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.39,
-   "pct_away": -0.36,
+   "last": 399.68,
+   "pct_away": -0.43,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
@@ -224,17 +190,17 @@
    ]
   },
   {
-   "id": "6c405b2e",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 493.1877,
+   "id": "f120f1e4",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 681.8006,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 495.59,
-   "pct_away": -0.48,
+   "last": 678.33,
+   "pct_away": 0.51,
    "good_until": "2026-09-22",
-   "why": "close it all at -0.6% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,61 +214,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 677.67,
-   "pct_away": -0.59,
+   "last": 678.33,
+   "pct_away": -0.69,
    "good_until": "2026-09-22",
    "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f120f1e4",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 681.8006,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 677.67,
-   "pct_away": 0.61,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e0a9ddbf",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 177.6045,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 175.5,
-   "pct_away": 1.2,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4b80b41c",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 171.5251,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 175.5,
-   "pct_away": -2.26,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -316,25 +231,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 677.67,
-   "pct_away": -2.74,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9724bb9f",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 481.1491,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 495.59,
-   "pct_away": -2.91,
+   "last": 678.33,
+   "pct_away": -2.84,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,8 +248,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 247.23,
-   "pct_away": -3.42,
+   "last": 247.38,
+   "pct_away": -3.47,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

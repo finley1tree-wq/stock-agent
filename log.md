@@ -9419,3 +9419,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25308.54 (+1.23% on $25000.00 in) · cash $13324.40 · realised +324.40
 Decision: nothing at this check. 13 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% MSFT [time stop] -> $2999.10 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $2980.99 (-0.63%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 12:48 ET — tick — 2 sell(s), 0 buy(s) from standing orders
