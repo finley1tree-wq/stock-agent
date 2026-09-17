@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T11:30-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-09-17T11:35-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "27910c4e",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 674.816,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 675.32,
+   "pct_away": -0.07,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "a39c93d6",
    "ticker": "META",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 674.25,
-   "pct_away": 0.32,
+   "last": 675.32,
+   "pct_away": 0.16,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,30 +180,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.42,
-   "pct_away": -0.36,
+   "last": 399.45,
+   "pct_away": -0.37,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "45bf2793",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 668.2429,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 674.25,
-   "pct_away": -0.89,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -197,8 +197,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 674.25,
-   "pct_away": -3.03,
+   "last": 675.32,
+   "pct_away": -3.18,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

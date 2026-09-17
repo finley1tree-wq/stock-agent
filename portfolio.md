@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-17 11:32 ET
+# Pretend portfolio — 2026-09-17 11:35 ET
 
-**Equity $25291.07** on $25000.00 put in → **+1.16%**  
-Cash $22288.78 · Unrealised +2.29 · Realised +288.78
+**Equity $25294.46** on $25000.00 put in → **+1.18%**  
+Cash $22288.78 · Unrealised +5.68 · Realised +288.78
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| META | 11.9% | $3002.29 | $674.06 | $674.58 | +0.08% | 0d |
+| META | 11.9% | $3005.68 | $674.06 | $675.34 | +0.19% | 0d |
 
 ## Last fills
 
