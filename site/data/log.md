@@ -1,6 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,751 idle, so opened 8: CHRW, MSFT, BE, TTD, CRWD, SBLK, AMD, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.4% over the month; 32% of today's range
-- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.9% over the month; 21% of today's range
 - BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +35.8% over the month; 63% of today's range
 - BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +8.9% over the month; 16% of today's range
 - BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +10.8% over the month; 64% of today's range
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $171.48 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25186.94 (+0.75% on $25000.00 in) · cash $1187.93 · realised +187.93
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $760.15 this week
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.49] -> $3015.74 (+0.52%) — close 100% at +0.5% over the average cost
+## 2026-09-17 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
