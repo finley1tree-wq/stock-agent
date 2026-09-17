@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 15117.0,
+  "spent": 12125.53,
   "deployed": 758877.32,
   "by_ticker": {
     "GOOGL": 32.51,
@@ -17,7 +17,7 @@
     "SBLK": 26.71,
     "BE": 11.44,
     "AAPL": 3041.73,
-    "META": 3051.45,
+    "META": 59.98,
     "TTD": 45.92,
     "IBM": 3.09,
     "PLTR": 19.01,
@@ -9845,13 +9845,33 @@
         "congress"
       ],
       "evidence": "congress net buying (3 net buyers): April McClain Delaney; +6.5% over the month; 82% of today's range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.415233,
+      "status": "filled",
+      "price": 677.53,
+      "proceeds": 2991.47,
+      "realized_pnl": -8.53,
+      "realized_pct": -0.28,
+      "date": "2026-09-17",
+      "time_et": "12:56",
+      "ts": 1789664189,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.26% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 14979.87,
+  "spent_today": 11988.4,
   "deployed_today": 158622.3,
   "orders_today": 56,
-  "sells_today": 50,
+  "sells_today": 51,
   "sold_today": [
     "BE",
     "CRWD",
@@ -9872,7 +9892,7 @@
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789661706,
-    "META": 1789659649,
+    "META": 1789664189,
     "CHRW": 1789661278,
     "TTD": 1789663341,
     "AMD": 1789656122,
@@ -9892,8 +9912,8 @@
     "SBLK": 1789660815,
     "TSM": 1789660948
   },
-  "last_publish_ts": 1789664103,
-  "last_check_ts": 1789664103,
+  "last_publish_ts": 1789664189,
+  "last_check_ts": 1789664189,
   "last_bar_ts": 1789664100,
   "last_decision_ts": 1789664103,
   "next_check_minutes": 6,
@@ -9901,18 +9921,15 @@
   "book_px": {
     "b0e79b06": 336.2118,
     "7aeab579": 428.2162,
-    "ea3b9a36": 154.6233,
     "13a9656c": 397.9656,
+    "ea3b9a36": 154.6233,
     "7879c0ab": 124.8287,
-    "f120f1e4": 681.8006,
     "4f045d90": 153.1753,
     "ecc53014": 424.3466,
-    "db823642": 673.6469,
     "07bfe88f": 333.2271,
     "f23af5f4": 123.1177,
-    "b8ffa176": 659.0859,
-    "2d369cf9": 149.5837,
     "60c779aa": 120.6098,
+    "2d369cf9": 149.5837,
     "be5b6d5e": 414.2967,
     "1fd146b2": 325.2992
   }

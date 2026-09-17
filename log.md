@@ -9480,3 +9480,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CHRW @ $149.58 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25307.61 (+1.23% on $25000.00 in) · cash $10310.75 · realised +310.75
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9883.00 this week
+- SELL 100% META [time stop] -> $2991.47 (-0.28%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
