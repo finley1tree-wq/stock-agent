@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "36bad37a",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 333.528,
-   "status": "cancelled",
-   "created": "2026-09-16 10:33",
-   "created_ts": 1789569188,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $333.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 10:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b58d0d84",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -7381,7 +7362,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 344.9888,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:15",
    "created_ts": 1789658129,
    "why": "close it all at -0.6% under the average cost",
@@ -7391,7 +7372,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 11:19",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "52a839c1",
@@ -7511,7 +7494,24 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "cff19474",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 347.46,
+   "status": "working",
+   "created": "2026-09-17 11:19",
+   "created_ts": 1789658394,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $347.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 11:18"
+ "updated": "2026-09-17 11:19"
 }
