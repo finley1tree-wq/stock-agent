@@ -1,5 +1,3 @@
-~ WORKING take_profit 100% PLTR @ $176.15 until 2026-09-22 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% PLTR @ $173.43 until 2026-09-22 — close it all at -1.1% under the average cost
 ~ WORKING buy_limit $500.00 PLTR @ $170.11 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25327.46 (+1.31% on $25000.00 in) · cash $7334.80 · realised +334.80
 Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $6907.04 this week
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25311.19 (+1.24% on $25000.00 in) · cash $16324.18 · realised +324.18
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
