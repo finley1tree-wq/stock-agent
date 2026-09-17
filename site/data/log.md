@@ -1,6 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25180.79 (+0.72% on $25000.00 in) · cash $15177.22 · realised +177.22
 Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on HLI: position closed)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 23 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AAPL [time stop] -> $2991.25 (-0.29%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 10:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $247.65] -> $3004.04 (+0.13%) — close it all at -1.5% under the average cost
+## 2026-09-17 10:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
