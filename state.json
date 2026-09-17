@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 12086.08,
-  "deployed": 836877.32,
+  "spent": 18086.08,
+  "deployed": 842877.32,
   "by_ticker": {
-    "GOOGL": 34.6,
+    "GOOGL": 3034.6,
     "AMD": 47.32,
     "FLD": 1.2,
     "TPL": 62.38,
@@ -20,7 +20,8 @@
     "IBM": 6.03,
     "PLTR": 16.14,
     "CRWD": 3001.32,
-    "BE": 2.49
+    "BE": 2.49,
+    "TSM": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -35,7 +36,7 @@
     "TTD": 66000.0,
     "AAPL": 66000.0,
     "MSFT": 60903.62,
-    "GOOGL": 49000.0,
+    "GOOGL": 52000.0,
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
@@ -43,7 +44,7 @@
     "PLTR": 25000.0,
     "SKWD": 3000.0,
     "SBLK": 27000.0,
-    "TSM": 11320.35
+    "TSM": 14320.35
   },
   "orders": [
     {
@@ -10855,12 +10856,46 @@
       ],
       "evidence": "average cost $544.71",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.667784,
+      "price": 346.11,
+      "date": "2026-09-17",
+      "time_et": "15:12",
+      "ts": 1789672340,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.5% over the month; 38% of today's range"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.987699,
+      "price": 429.33,
+      "date": "2026-09-17",
+      "time_et": "15:12",
+      "ts": 1789672340,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+3.8% over the month; 85% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 11948.95,
-  "deployed_today": 236622.3,
-  "orders_today": 82,
+  "spent_today": 17948.95,
+  "deployed_today": 242622.3,
+  "orders_today": 84,
   "sells_today": 77,
   "sold_today": [
     "BE",
@@ -10902,17 +10937,21 @@
     "SBLK": 1789670563,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789672251,
-  "last_check_ts": 1789672251,
+  "last_publish_ts": 1789672340,
+  "last_check_ts": 1789672340,
   "last_bar_ts": 1789672200,
-  "last_decision_ts": 1789672165,
+  "last_decision_ts": 1789672340,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "d71fd48f": 346.9891,
     "13a9656c": 397.9656,
+    "4b3843d5": 430.4548,
     "b85b80c0": 125.0985,
     "cda14383": 679.5597,
     "eceb36d0": 14.3518,
+    "fb1dd1b9": 343.9087,
+    "c44556e1": 426.5179,
     "7a95fe59": 671.4058,
     "8ec67b61": 123.3888,
     "2ef59ca1": 249.1709,
@@ -10921,6 +10960,8 @@
     "3185e15f": 240.2399,
     "12dafa38": 656.9131,
     "5f1f9709": 13.8516,
-    "a8ff8920": 120.8717
+    "a8ff8920": 120.8717,
+    "2f713f05": 335.7267,
+    "af68a87a": 416.4501
   }
 }
