@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9103.57,
+  "spent": 6115.11,
   "deployed": 845877.32,
   "by_ticker": {
     "GOOGL": 33.49,
@@ -10,7 +10,7 @@
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 32.33,
-    "NEM": 3020.22,
+    "NEM": 31.76,
     "SKWD": 22.98,
     "CHRW": 3054.26,
     "SBLK": 24.03,
@@ -10989,13 +10989,33 @@
       ],
       "evidence": "bought 30 min ago, +0.01% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 24.075148,
+      "status": "filled",
+      "price": 124.13,
+      "proceeds": 2988.46,
+      "realized_pnl": -11.54,
+      "realized_pct": -0.38,
+      "date": "2026-09-17",
+      "time_et": "15:39",
+      "ts": 1789673959,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.34% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 8966.44,
+  "spent_today": 5977.98,
   "deployed_today": 245622.3,
   "orders_today": 85,
-  "sells_today": 81,
+  "sells_today": 82,
   "sold_today": [
     "BE",
     "CRWD",
@@ -11023,7 +11043,7 @@
     "IBM": 1789671065,
     "AAPL": 1789670132,
     "BE": 1789671747,
-    "NEM": 1789669295,
+    "NEM": 1789673960,
     "MSFT": 1789671989,
     "FLD": 1789399070,
     "GOOGL": 1789672843,
@@ -11036,21 +11056,18 @@
     "SBLK": 1789670563,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789673923,
-  "last_check_ts": 1789673923,
-  "last_bar_ts": 1789673700,
-  "last_decision_ts": 1789673838,
+  "last_publish_ts": 1789674007,
+  "last_check_ts": 1789674007,
+  "last_bar_ts": 1789674000,
+  "last_decision_ts": 1789674007,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "58064b49": 154.6935,
     "fe3c6655": 430.4548,
-    "8ec67b61": 123.3888,
+    "58064b49": 154.6935,
     "c44556e1": 426.5179,
     "864697a0": 153.2448,
-    "b85b80c0": 125.0985,
-    "002aff5c": 120.8717,
-    "f4e6f0df": 416.4501,
-    "15cdb866": 149.6516
+    "d5fa588f": 149.6516,
+    "6e1b8bdf": 416.4501
   }
 }
