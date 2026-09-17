@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "54a2f720",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 279.0741,
-   "status": "cancelled",
-   "created": "2026-09-17 09:32",
-   "created_ts": 1789651948,
-   "why": "close it all at -1.7% under the average cost",
-   "evidence": "average cost $283.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 09:33",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c10c3554",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 275.3442,
-   "status": "cancelled",
-   "created": "2026-09-17 09:32",
-   "created_ts": 1789651948,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $283.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "62573267",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -7525,9 +7487,47 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 149.6516,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 15:50",
    "created_ts": 1789674630,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $154.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0,
+   "closed": "2026-09-17 15:51",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "e6993f7a",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 149.6516,
+   "status": "cancelled",
+   "created": "2026-09-17 15:51",
+   "created_ts": 1789674673,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $154.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0,
+   "closed": "2026-09-17 15:52",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "888cb311",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 149.6516,
+   "status": "working",
+   "created": "2026-09-17 15:52",
+   "created_ts": 1789674720,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $154.28",
    "signals": [
@@ -7538,5 +7538,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-17 15:50"
+ "updated": "2026-09-17 15:52"
 }
