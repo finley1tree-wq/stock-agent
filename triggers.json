@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "6f32b1f5",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 119.6204,
-   "status": "cancelled",
-   "created": "2026-09-15 15:38",
-   "created_ts": 1789501115,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $123.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "37dd9b94",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 482.2452,
-   "status": "cancelled",
-   "created": "2026-09-15 15:38",
-   "created_ts": 1789501115,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $497.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-20",
-   "usd": 500.0,
-   "closed": "2026-09-15 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "2ab90d8a",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -7121,7 +7083,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 279.0741,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:32",
    "created_ts": 1789651948,
    "why": "close it all at -1.7% under the average cost",
@@ -7131,7 +7093,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c10c3554",
@@ -7274,7 +7238,7 @@
    "ticker": "SBLK",
    "kind": "stop_loss",
    "price": 31.0368,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:32",
    "created_ts": 1789651948,
    "why": "close it all at -0.7% under the average cost",
@@ -7284,7 +7248,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "be35108b",
@@ -7489,7 +7455,41 @@
    ],
    "good_until": "2026-09-18",
    "usd": 1000.0
+  },
+  {
+   "id": "84a268eb",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 286.194,
+   "status": "working",
+   "created": "2026-09-17 09:33",
+   "created_ts": 1789652029,
+   "why": "close it all at -1.7% under the average cost",
+   "evidence": "average cost $283.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "34a2951e",
+   "ticker": "SBLK",
+   "kind": "stop_loss",
+   "price": 31.308,
+   "status": "working",
+   "created": "2026-09-17 09:33",
+   "created_ts": 1789652029,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $31.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 09:32"
+ "updated": "2026-09-17 09:34"
 }
