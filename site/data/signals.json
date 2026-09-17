@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T14:21-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,905 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-17T14:24-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,905 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 345.8,
-   "pct_away": -0.05,
+   "last": 345.75,
+   "pct_away": -0.04,
    "good_until": "2026-09-22",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 345.8,
-   "pct_away": 0.1,
+   "last": 345.75,
+   "pct_away": 0.12,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -207,6 +207,23 @@
    ]
   },
   {
+   "id": "a2ecc9e9",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 238.9326,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 238.13,
+   "pct_away": 0.34,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "13a9656c",
    "ticker": "GLD",
    "kind": "buy_limit",
@@ -214,8 +231,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.49,
-   "pct_away": -0.38,
+   "last": 399.4,
+   "pct_away": -0.36,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
@@ -275,6 +292,23 @@
    ]
   },
   {
+   "id": "b3f899f9",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 236.296,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 238.13,
+   "pct_away": -0.77,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "b7580245",
    "ticker": "HLI",
    "kind": "stop_loss",
@@ -326,15 +360,15 @@
    ]
   },
   {
-   "id": "dea606dc",
-   "ticker": "HLI",
+   "id": "a907322d",
+   "ticker": "IBM",
    "kind": "buy_limit",
-   "price": 129.1458,
+   "price": 231.0346,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 133.33,
-   "pct_away": -3.14,
+   "last": 238.13,
+   "pct_away": -2.98,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,8 +384,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 345.8,
-   "pct_away": -3.15,
+   "last": 345.75,
+   "pct_away": -3.13,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dea606dc",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 129.1458,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 133.33,
+   "pct_away": -3.14,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -360,7 +411,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,905 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,905 idle, so opened 1: IBM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -426,20 +477,20 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 297,
-  "decisions_with_buys_graded": 94,
+  "decisions_graded": 296,
+  "decisions_with_buys_graded": 93,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.3,
-  "chosen_avg_pct": 0.15,
-  "skipped_avg_pct": 0.45,
+  "chosen_avg_pct": 0.16,
+  "skipped_avg_pct": 0.46,
   "idle_universe_avg_pct": 0.49,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 136,
-    "avg_pct": 0.17
+    "n": 135,
+    "avg_pct": 0.18
    },
    "congress": {
     "n": 65,
@@ -450,8 +501,8 @@
     "avg_pct": 0.09
    },
    "momentum": {
-    "n": 136,
-    "avg_pct": 0.17
+    "n": 135,
+    "avg_pct": 0.18
    }
   },
   "biggest_misses": [
@@ -1774,9 +1825,9 @@
     "when": "2026-09-17T12:16"
    },
    {
-    "title": "T-Mobile adds monthly fee to a new iPhone feature for customers",
-    "source": "TheStreet",
-    "when": "2026-09-17T17:47"
+    "title": "Apple Shares Trade 16.41% Above GF Value as AI Agreement Faces Disclosure",
+    "source": "GuruFocus.com",
+    "when": "2026-09-17T18:24"
    }
   ],
   "AMAT": [
@@ -1798,6 +1849,11 @@
   ],
   "AMD": [
    {
+    "title": "Jim Cramer Turns on the Two Kings of AI: \u201cIf You Want to Destroy Trust, You Couldn\u2019t Find a Better Way\u201d",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T18:18"
+   },
+   {
     "title": "AMD Jumps 7% as Semiconductor Rebound Reaches a Third Session; Broadcom Rises 3%, NVIDIA Edges Higher",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T17:37"
@@ -1806,11 +1862,6 @@
     "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
     "source": "Investor's Business Daily",
     "when": "2026-09-17T16:41"
-   },
-   {
-    "title": "Qualcomm Faces Margin Pressure From Rising Costs: Can it Recover?",
-    "source": "Zacks",
-    "when": "2026-09-17T15:40"
    }
   ],
   "AMZN": [
@@ -1995,9 +2046,9 @@
     "when": "2026-09-17T13:24"
    },
    {
-    "title": "Microsoft fund backs British AI predictions start-up Mantic",
-    "source": "Sky News",
-    "when": "2026-09-17T17:51"
+    "title": "Alphabet Gains 1.5% as $20 Opens Google Home to Rival Agents",
+    "source": "GuruFocus.com",
+    "when": "2026-09-17T18:20"
    }
   ],
   "HD": [
@@ -2199,9 +2250,9 @@
     "when": "2026-09-17T13:24"
    },
    {
-    "title": "Why Lucid Stock Is Surging Today",
-    "source": "GuruFocus.com",
-    "when": "2026-09-17T18:04"
+    "title": "Jim Cramer Turns on the Two Kings of AI: \u201cIf You Want to Destroy Trust, You Couldn\u2019t Find a Better Way\u201d",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T18:18"
    }
   ],
   "O": [
@@ -2427,5 +2478,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T14:21-04:00"
+ "signalsAsOf": "2026-09-17T14:24-04:00"
 }
