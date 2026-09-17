@@ -9975,3 +9975,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25330.08 (+1.32% on $25000.00 in) · cash $13329.32 · realised +329.32
 Decision: nothing at this check. 13 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 14:18 ET (Thursday) — week 2026-W38 — budget left $12901.57 (today $203622.30 put to work, 71 buys, 66 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9UMNp2GJZGQ4xRXAoDh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25335.98 (+1.34% on $25000.00 in) · cash $13329.32 · realised +329.32
+Decision: nothing at this check. 13 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
