@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 3099.19,
-  "deployed": 767877.32,
+  "spent": 15099.19,
+  "deployed": 779877.32,
   "by_ticker": {
     "GOOGL": 35.97,
-    "AMD": 42.16,
+    "AMD": 3042.16,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -14,25 +14,25 @@
     "MSFT": 4.12,
     "SKWD": 22.98,
     "CHRW": 46.22,
-    "SBLK": 26.71,
-    "BE": 11.44,
+    "SBLK": 3026.71,
+    "BE": 3011.44,
     "AAPL": 34.08,
     "META": 59.98,
-    "TTD": 45.92,
+    "TTD": 3045.92,
     "IBM": 3003.09,
     "PLTR": 19.01
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 57000.0,
-    "BE": 66000.0,
+    "BE": 69000.0,
     "IBM": 63000.0,
     "FLD": 6000.0,
     "HLI": 60873.19,
     "NEM": 67000.0,
     "META": 60780.16,
-    "AMD": 31000.0,
-    "TTD": 60000.0,
+    "AMD": 34000.0,
+    "TTD": 63000.0,
     "AAPL": 63000.0,
     "MSFT": 54903.62,
     "GOOGL": 46000.0,
@@ -42,7 +42,7 @@
     "CRWD": 39000.0,
     "PLTR": 19000.0,
     "SKWD": 3000.0,
-    "SBLK": 21000.0,
+    "SBLK": 24000.0,
     "TSM": 11320.35
   },
   "orders": [
@@ -10041,12 +10041,83 @@
       ],
       "evidence": "bought 30 min ago, -0.10% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "SBLK",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 93.800453,
+      "price": 31.98,
+      "date": "2026-09-17",
+      "time_et": "13:29",
+      "ts": 1789666184,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "5 insiders bought (Form 4, incl. director); +6.1% over the month; 85% of today's range"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.751694,
+      "price": 279.03,
+      "date": "2026-09-17",
+      "time_et": "13:29",
+      "ts": 1789666184,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +33.5% over the month; 28% of today's range"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 209.706327,
+      "price": 14.31,
+      "date": "2026-09-17",
+      "time_et": "13:29",
+      "ts": 1789666184,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.5% over the month; 10% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.477656,
+      "price": 547.68,
+      "date": "2026-09-17",
+      "time_et": "13:29",
+      "ts": 1789666184,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+13.0% over the month; 84% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 2962.06,
-  "deployed_today": 167622.3,
-  "orders_today": 59,
+  "spent_today": 14962.06,
+  "deployed_today": 179622.3,
+  "orders_today": 63,
   "sells_today": 57,
   "sold_today": [
     "BE",
@@ -10088,16 +10159,28 @@
     "SBLK": 1789660815,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789666059,
-  "last_check_ts": 1789666104,
+  "last_publish_ts": 1789666184,
+  "last_check_ts": 1789666184,
   "last_bar_ts": 1789665900,
-  "last_decision_ts": 1789666022,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789666184,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "c5ffec62": 32.0759,
     "13a9656c": 397.9656,
+    "6669fce0": 550.1172,
     "6b8a1540": 239.3439,
+    "19cf06d4": 14.3818,
     "fd70df05": 236.7051,
-    "6bfadf1a": 231.4323
+    "fa5686db": 280.9609,
+    "99b9d703": 31.7405,
+    "811257d8": 541.5843,
+    "5d280428": 14.1306,
+    "341e8b58": 274.2,
+    "6bfadf1a": 231.4323,
+    "b38d682c": 13.8807,
+    "1a0c1965": 31.0206,
+    "6a156eb1": 270.6591,
+    "6aa5a6eb": 531.2496
   }
 }

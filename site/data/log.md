@@ -1,32 +1,3 @@
-~ WORKING buy_limit $500.00 MSFT @ $481.15 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $177.60 until 2026-09-22 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% PLTR @ $174.89 until 2026-09-22 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 PLTR @ $171.53 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25319.14 (+1.28% on $25000.00 in) · cash $10334.78 · realised +334.78
-Done: 0 sell(s), 2 buy(s); 16 order(s) working; budget left $9907.04 this week
-- SELL 100% IBM [time stop] -> $2996.91 (-0.10%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-17 12:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 12:20 ET (Thursday) — week 2026-W38 — budget left $12903.95 (today $140622.30 put to work, 50 buys, 45 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9KN99yHYe7he8KkXfuZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25314.63 (+1.26% on $25000.00 in) · cash $13331.70 · realised +331.70
-Decision: nothing at this check. 13 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-17 12:23 ET (Thursday) — week 2026-W38 — budget left $12903.95 (today $140622.30 put to work, 50 buys, 45 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9KaC8tVYuTumYzXEGTE'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +369,32 @@ Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% GOOGL [time stop] -> $2996.54 (-0.12%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 13:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 13:29 ET (Thursday) — week 2026-W38 — budget left $21900.81 (today $167622.30 put to work, 59 buys, 57 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9Qcf1YwYkuEjqaubu8s'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,901 idle, so opened 4: SBLK, BE, TTD, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 5 insiders bought (Form 4, incl. director); +6.1% over the month; 85% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +33.5% over the month; 28% of today's range
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.5% over the month; 10% of today's range
+- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +13.0% over the month; 84% of today's range
+~ WORKING take_profit 100% SBLK @ $32.08 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% SBLK @ $31.74 until 2026-09-22 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 SBLK @ $31.02 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $280.96 until 2026-09-22 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $274.20 until 2026-09-22 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 BE @ $270.66 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $14.38 until 2026-09-22 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.13 until 2026-09-22 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $13.88 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $550.12 until 2026-09-22 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMD @ $541.58 until 2026-09-22 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $531.25 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25319.84 (+1.28% on $25000.00 in) · cash $10328.57 · realised +328.57
+Done: 0 sell(s), 4 buy(s); 16 order(s) working; budget left $9900.81 this week
