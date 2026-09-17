@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "22ff1ec8",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 129.7375,
-   "status": "cancelled",
-   "created": "2026-09-16 14:26",
-   "created_ts": 1789583198,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $133.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 14:52",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e1fdd5b1",
    "ticker": "AMD",
    "kind": "take_profit",
@@ -7338,7 +7319,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 538.6147,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 14:46",
    "created_ts": 1789670802,
    "why": "close it all at -1.1% under the average cost",
@@ -7348,7 +7329,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 15:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "34c9fdd7",
@@ -7505,7 +7488,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-17 15:06",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "b9caab28",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 545.544,
+   "status": "working",
+   "created": "2026-09-17 15:08",
+   "created_ts": 1789672081,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $544.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 15:06"
+ "updated": "2026-09-17 15:08"
 }
