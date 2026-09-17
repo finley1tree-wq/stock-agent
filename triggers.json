@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "cb1caaba",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 241.6785,
-   "status": "cancelled",
-   "created": "2026-09-16 09:32",
-   "created_ts": 1789565552,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $240.02",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 09:36",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "b43d0eca",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 235.8725,
-   "status": "cancelled",
-   "created": "2026-09-16 09:32",
-   "created_ts": 1789565552,
-   "why": "close it all at -1.7% under the average cost",
-   "evidence": "average cost $240.02",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 09:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "60101a20",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 232.8194,
-   "status": "cancelled",
-   "created": "2026-09-16 09:32",
-   "created_ts": 1789565552,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $240.02",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e0e304e9",
    "ticker": "META",
    "kind": "take_profit",
@@ -7530,7 +7473,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-17 09:51",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "8eb947eb",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 279.8918,
+   "status": "working",
+   "created": "2026-09-17 10:20",
+   "created_ts": 1789654840,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $277.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7c8230a8",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 273.1291,
+   "status": "working",
+   "created": "2026-09-17 10:20",
+   "created_ts": 1789654840,
+   "why": "close it all at -1.7% under the average cost",
+   "evidence": "average cost $277.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "490ec701",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 269.6212,
+   "status": "working",
+   "created": "2026-09-17 10:20",
+   "created_ts": 1789654840,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $277.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-17 10:17"
+ "updated": "2026-09-17 10:20"
 }

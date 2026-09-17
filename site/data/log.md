@@ -1,118 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 SBLK @ $29.92 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 MSFT @ $474.87 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25180.09 (+0.72% on $25000.00 in) · cash $19206.12 · realised +206.12
-Decision: nothing at this check. 6 standing order(s) working.
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 standing order(s) on SBLK: position closed)
-- SELL 100% SBLK [stop_loss @ $30.60] -> $2975.28 (-0.82%) — close it all at -0.8% under the average cost
-## 2026-09-16 15:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 15:40 ET (Wednesday) — week 2026-W38 — budget left $21753.63 (today $219445.83 put to work, 74 buys, 73 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (no price for TLAC — excluded this check)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7gmV4sHwQwwNzcxsuKq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 MSFT @ $474.87 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25178.84 (+0.72% on $25000.00 in) · cash $22181.40 · realised +181.40
-Decision: nothing at this check. 3 standing order(s) working.
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-16 15:43 ET (Wednesday) — week 2026-W38 — budget left $21753.63 (today $219445.83 put to work, 74 buys, 73 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (no price for TLAC — excluded this check)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7gzF4cJkHDsdXnRkBrs'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 MSFT @ $474.87 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25177.68 (+0.71% on $25000.00 in) · cash $22181.40 · realised +181.40
-Decision: nothing at this check. 3 standing order(s) working.
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-16 15:45 ET (Wednesday) — week 2026-W38 — budget left $21753.63 (today $219445.83 put to work, 74 buys, 73 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (no price for TLAC — excluded this check)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7hBUamP36yQpKKeUc5R'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 MSFT @ $474.87 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25178.47 (+0.71% on $25000.00 in) · cash $22181.40 · realised +181.40
-Decision: nothing at this check. 3 standing order(s) working.
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% MSFT [time stop] -> $2997.08 (-0.10%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-16 15:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 15:48 ET (Wednesday) — week 2026-W38 — budget left $24750.71 (today $219445.83 put to work, 74 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (no price for TLAC — excluded this check)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7hPJRfAY9qLm3kCbBu6'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25178.49 (+0.71% on $25000.00 in) · cash $25178.49 · realised +178.49
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-16 15:51 ET (Wednesday) — week 2026-W38 — budget left $24750.71 (today $219445.83 put to work, 74 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (no price for TLAC — excluded this check)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7haz9A9BHEgYMhJn22D'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25178.49 (+0.71% on $25000.00 in) · cash $25178.49 · realised +178.49
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-16 15:53 ET (Wednesday) — week 2026-W38 — budget left $24750.71 (today $219445.83 put to work, 74 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
   (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +283,118 @@ Decision: nothing at this check. 4 standing order(s) working.
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [stop_loss @ $152.92] -> $2979.04 (-0.70%) — close it all at -0.6% under the average cost
 ## 2026-09-17 09:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 10:00 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf98gTmNqg5NUitQzDq7g'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:03 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf98tqPUJV1JFKKe6kwUc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:06 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf997M9hqxjRNxnWY7Hk7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:09 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf99LA64C5nQTY9BnhEW8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:12 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf99YbRPcb82t4tj6SqFT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:15 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf99n12pk5PxWDNFuzLmX'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:17 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf99z1zCfrkxdexRggroo'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:20 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9ACDGSh4ofigvArkDGo'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,760 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +33.0% over the month; 10% of today's range
+~ WORKING take_profit 100% BE @ $279.89 until 2026-09-22 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $273.13 until 2026-09-22 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 BE @ $269.62 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25187.33 (+0.75% on $25000.00 in) · cash $22187.93 · realised +187.93
+Done: 0 sell(s), 1 buy(s); 4 order(s) working; budget left $21760.15 this week
