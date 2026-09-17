@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "ee99c68d",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 261.7448,
-   "status": "cancelled",
-   "created": "2026-09-16 12:29",
-   "created_ts": 1789576179,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $269.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 12:59",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0e092e8e",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 123.3584,
-   "status": "cancelled",
-   "created": "2026-09-16 12:35",
-   "created_ts": 1789576512,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $122.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:01",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7ea98f2f",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 121.7546,
-   "status": "cancelled",
-   "created": "2026-09-16 12:35",
-   "created_ts": 1789576512,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $122.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 12:54",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "d12522f8",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -7509,7 +7452,58 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "ed200489",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 346.3509,
+   "status": "working",
+   "created": "2026-09-17 12:57",
+   "created_ts": 1789664279,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $345.47",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f69ad313",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 343.2694,
+   "status": "working",
+   "created": "2026-09-17 12:57",
+   "created_ts": 1789664279,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $345.47",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "82eedc5b",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 335.1059,
+   "status": "working",
+   "created": "2026-09-17 12:57",
+   "created_ts": 1789664279,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $345.47",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-17 12:55"
+ "updated": "2026-09-17 12:57"
 }
