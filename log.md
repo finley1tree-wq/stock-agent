@@ -8609,3 +8609,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $412.31 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25237.78 (+0.95% on $25000.00 in) · cash $6923.32 · realised +225.27
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $6495.54 this week
+  (cancelled 2 standing order(s) on SBLK: position closed)
+- SELL 100% SBLK [take_profit @ $31.60] -> $3008.61 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-17 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
