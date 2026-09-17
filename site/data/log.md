@@ -1,27 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25260.96 (+1.04% on $25000.00 in) · cash $19263.59 · realised +263.59
-Decision: nothing at this check. 7 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% NEM [time stop] -> $2991.13 (-0.30%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-17 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [take_profit @ $152.58] -> $3008.14 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-09-17 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 11:09 ET (Thursday) — week 2026-W38 — budget left $24835.10 (today $83622.30 put to work, 31 buys, 30 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9Dx3eaP2NyMNHXEYnhb'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25262.86 (+1.05% on $25000.00 in) · cash $25262.86 · realised +262.86
-Decision: nothing at this check. 1 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-09-17 11:12 ET (Thursday) — week 2026-W38 — budget left $24835.10 (today $83622.30 put to work, 31 buys, 30 sells) — SIM (pretend money) via sim
   (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
   (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
@@ -398,3 +374,27 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25337.96 (+1.35% on $25000.00 in) · cash $16330.66 · realised +330.66
 Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $345.23] -> $3001.85 (+0.06%) — close it all at -0.6% under the average cost
+## 2026-09-17 12:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 12:12 ET (Thursday) — week 2026-W38 — budget left $18904.76 (today $128622.30 put to work, 46 buys, 43 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9Jheu3nngU76mXkLcCi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,905 idle, so opened 2: BE, TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +33.9% over the month; 35% of today's range
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.7% over the month; 12% of today's range
+~ WORKING take_profit 100% BE @ $281.84 until 2026-09-22 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $275.08 until 2026-09-22 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 BE @ $271.51 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $14.40 until 2026-09-22 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.15 until 2026-09-22 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $13.90 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25331.67 (+1.33% on $25000.00 in) · cash $13332.50 · realised +332.50
+Done: 0 sell(s), 2 buy(s); 13 order(s) working; budget left $12904.76 this week

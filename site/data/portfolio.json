@@ -1,5 +1,5 @@
 {
-  "cash": 16330.65605575788,
+  "cash": 13332.502128056683,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
@@ -22,14 +22,23 @@
       "last_buy_ts": 1789660341,
       "opened_ts": 1789660341
     },
-    "GOOGL": {
-      "qty": 8.695173561316148,
-      "avg_cost": 345.01899,
+    "BE": {
+      "qty": 10.717885009740948,
+      "avg_cost": 279.90597,
       "opened": "2026-09-17",
       "last_buy": "2026-09-17",
       "tranches": 1,
-      "last_buy_ts": 1789661200,
-      "opened_ts": 1789661200
+      "last_buy_ts": 1789661538,
+      "opened_ts": 1789661538
+    },
+    "TTD": {
+      "qty": 209.41344132737967,
+      "avg_cost": 14.325728,
+      "opened": "2026-09-17",
+      "last_buy": "2026-09-17",
+      "tranches": 1,
+      "last_buy_ts": 1789661538,
+      "opened_ts": 1789661538
     }
   },
   "fills": [
@@ -6990,7 +6999,39 @@
       "realized_pct": 0.27,
       "type": "sell",
       "date": "2026-09-17 12:07"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 8.695174,
+      "status": "filled",
+      "price": 345.23,
+      "proceeds": 3001.85,
+      "realized_pnl": 1.85,
+      "realized_pct": 0.06,
+      "type": "sell",
+      "date": "2026-09-17 12:12"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.717885,
+      "price": 279.91,
+      "type": "buy",
+      "date": "2026-09-17 12:12"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 209.413441,
+      "price": 14.33,
+      "type": "buy",
+      "date": "2026-09-17 12:12"
     }
   ],
-  "realized_pnl": 330.65605575789107
+  "realized_pnl": 332.5021280566941
 }
