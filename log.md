@@ -9315,3 +9315,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $659.09 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25324.08 (+1.30% on $25000.00 in) · cash $10331.70 · realised +331.70
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9903.95 this week
+
+## 2026-09-17 12:29 ET (Thursday) — week 2026-W38 — budget left $9903.95 (today $143622.30 put to work, 51 buys, 45 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9L1RXVbSLEWSFgTx3bY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25323.92 (+1.30% on $25000.00 in) · cash $10331.70 · realised +331.70
+Decision: nothing at this check. 16 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
