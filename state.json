@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 9089.36,
-  "deployed": 794877.32,
+  "spent": 12089.36,
+  "deployed": 797877.32,
   "by_ticker": {
     "GOOGL": 35.97,
     "AMD": 50.42,
@@ -13,7 +13,7 @@
     "NEM": 3023.49,
     "MSFT": 3.11,
     "SKWD": 22.98,
-    "CHRW": 46.22,
+    "CHRW": 3046.22,
     "SBLK": 25.1,
     "AAPL": 34.08,
     "META": 3059.98,
@@ -24,7 +24,7 @@
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
-    "CHRW": 57000.0,
+    "CHRW": 60000.0,
     "BE": 69000.0,
     "IBM": 63000.0,
     "FLD": 6000.0,
@@ -10343,12 +10343,30 @@
         "autopilot"
       ],
       "evidence": "+7.3% over the month; 47% of today's range"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.463883,
+      "price": 154.13,
+      "date": "2026-09-17",
+      "time_et": "14:07",
+      "ts": 1789668456,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +6.5% over the month; 80% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 8952.23,
-  "deployed_today": 194622.3,
-  "orders_today": 68,
+  "spent_today": 11952.23,
+  "deployed_today": 197622.3,
+  "orders_today": 69,
   "sells_today": 64,
   "sold_today": [
     "BE",
@@ -10390,22 +10408,25 @@
     "SBLK": 1789667122,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789668121,
-  "last_check_ts": 1789668372,
+  "last_publish_ts": 1789668456,
+  "last_check_ts": 1789668456,
   "last_bar_ts": 1789668300,
-  "last_decision_ts": 1789668290,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789668456,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "fa58dade": 680.3556,
-    "13a9656c": 397.9656,
     "8c79c0b9": 125.0194,
+    "c841d60c": 154.5431,
+    "13a9656c": 397.9656,
+    "fa58dade": 680.3556,
     "00de6a4a": 248.4188,
+    "b710b6c3": 153.0958,
     "c2a051ae": 672.2125,
     "fe6d03a5": 123.3084,
     "f85adda9": 243.1718,
     "317dce78": 657.6891,
-    "a89ecc90": 120.7941,
-    "242c1b90": 239.5124
+    "f5546eb1": 149.5061,
+    "242c1b90": 239.5124,
+    "a89ecc90": 120.7941
   }
 }

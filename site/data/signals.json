@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T14:02-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,911 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-09-17T14:07-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,911 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,15 +139,32 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "fa58dade",
-   "ticker": "META",
+   "id": "8c79c0b9",
+   "ticker": "NEM",
    "kind": "take_profit",
-   "price": 680.3556,
+   "price": 125.0194,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 677.48,
-   "pct_away": 0.42,
+   "last": 124.67,
+   "pct_away": 0.28,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c841d60c",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 154.5431,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 154.07,
+   "pct_away": 0.31,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.68,
-   "pct_away": -0.43,
+   "last": 399.72,
+   "pct_away": -0.44,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
@@ -173,17 +190,17 @@
    ]
   },
   {
-   "id": "8c79c0b9",
-   "ticker": "NEM",
+   "id": "fa58dade",
+   "ticker": "META",
    "kind": "take_profit",
-   "price": 125.0194,
+   "price": 680.3556,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 124.48,
-   "pct_away": 0.43,
+   "last": 677.09,
+   "pct_away": 0.48,
    "good_until": "2026-09-22",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +214,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 246.9,
-   "pct_away": 0.62,
+   "last": 246.98,
+   "pct_away": 0.58,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b710b6c3",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 153.0958,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 154.07,
+   "pct_away": -0.63,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 677.48,
-   "pct_away": -0.78,
+   "last": 677.09,
+   "pct_away": -0.72,
    "good_until": "2026-09-22",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -231,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 124.48,
-   "pct_away": -0.94,
+   "last": 124.67,
+   "pct_away": -1.09,
    "good_until": "2026-09-22",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -248,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 246.9,
-   "pct_away": -1.51,
+   "last": 246.98,
+   "pct_away": -1.54,
    "good_until": "2026-09-22",
    "why": "close it all at -1.5% under the average cost",
    "signals": [
@@ -265,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 677.48,
-   "pct_away": -2.92,
+   "last": 677.09,
+   "pct_away": -2.87,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -275,14 +309,14 @@
    ]
   },
   {
-   "id": "a89ecc90",
-   "ticker": "NEM",
+   "id": "f5546eb1",
+   "ticker": "CHRW",
    "kind": "buy_limit",
-   "price": 120.7941,
+   "price": 149.5061,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 124.48,
+   "last": 154.07,
    "pct_away": -2.96,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -299,8 +333,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.9,
-   "pct_away": -2.99,
+   "last": 246.98,
+   "pct_away": -3.02,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a89ecc90",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 120.7941,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 124.67,
+   "pct_away": -3.11,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -309,7 +360,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,911 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,911 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -375,13 +426,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 304,
+  "decisions_graded": 302,
   "decisions_with_buys_graded": 97,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.28,
   "chosen_avg_pct": 0.14,
   "skipped_avg_pct": 0.43,
-  "idle_universe_avg_pct": 0.47,
+  "idle_universe_avg_pct": 0.48,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -476,7 +527,7 @@
     "n": 1
    }
   },
-  "idle_checks": 261,
+  "idle_checks": 260,
   "blocked_checks": 0,
   "idle_share": 0.65,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1730,6 +1781,11 @@
   ],
   "AMAT": [
    {
+    "title": "Applied Materials Edged Higher Behind a $5 Billion India Buildout",
+    "source": "GuruFocus.com",
+    "when": "2026-09-17T18:06"
+   },
+   {
     "title": "Dow gains 250 points as oil prices and yields fall after Fed hike",
     "source": "Quartz",
     "when": "2026-09-17T13:57"
@@ -1738,11 +1794,6 @@
     "title": "Update: US Equity Futures Higher Pre-Bell as Traders Assess Fed Interest-Rate Increase",
     "source": "MT Newswires",
     "when": "2026-09-17T12:56"
-   },
-   {
-    "title": "Applied Materials (AMAT) Plans $5 Billion India Semiconductor Research Park",
-    "source": "Simply Wall St.",
-    "when": "2026-09-17T12:12"
    }
   ],
   "AMD": [
@@ -2063,9 +2114,9 @@
     "when": "2026-09-17T13:57"
    },
    {
-    "title": "Meta Stays Flat as Europe Prices Child Safety at 6%",
-    "source": "GuruFocus.com",
-    "when": "2026-09-17T17:31"
+    "title": "Meta Platforms Stock Signal Says More Gains Are Coming",
+    "source": "Schaeffer's Investment Research",
+    "when": "2026-09-17T18:00"
    }
   ],
   "MSFT": [
@@ -2148,9 +2199,9 @@
     "when": "2026-09-17T13:24"
    },
    {
-    "title": "Boomers Held Bitcoin ETFs Through a 54% Crash but the S&P 500 Rose 16%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T17:56"
+    "title": "Why Lucid Stock Is Surging Today",
+    "source": "GuruFocus.com",
+    "when": "2026-09-17T18:04"
    }
   ],
   "O": [
@@ -2274,19 +2325,19 @@
   ],
   "SPY": [
    {
+    "title": "Boomers Held Bitcoin ETFs Through a 54% Crash but the S&P 500 Rose 16%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T17:56"
+   },
+   {
+    "title": "Sunrun and First Solar Rise 6% as Solar Selloff Unwinds; SolarEdge Climbs 4%",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T17:56"
+   },
+   {
     "title": "Rocket Lab Jumps 6% as FCC Clears First Hurdle on Iridium Deal; Iridium Communications Barely Budges",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T17:43"
-   },
-   {
-    "title": "Oklo Jumps 13%, NuScale Power Climbs 10%: Does the House Data Center Power Vote Reach Nuclear?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T17:05"
-   },
-   {
-    "title": "BlackBerry Climbs 6%, Mobileye Rises 5%: Is the Software-Defined Vehicle Trade Waking Up?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T17:03"
    }
   ],
   "TPL": [
@@ -2376,5 +2427,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T14:02-04:00"
+ "signalsAsOf": "2026-09-17T14:07-04:00"
 }
