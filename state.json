@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12097.54,
+  "spent": 9096.47,
   "deployed": 818877.32,
   "by_ticker": {
     "GOOGL": 34.6,
@@ -14,7 +14,7 @@
     "MSFT": 3.11,
     "SKWD": 22.98,
     "CHRW": 54.26,
-    "SBLK": 3025.1,
+    "SBLK": 24.03,
     "AAPL": 33.25,
     "META": 67.73,
     "TTD": 48.32,
@@ -10627,13 +10627,34 @@
       ],
       "evidence": "bought 30 min ago, +0.16% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "SBLK",
+      "side": "sell",
+      "qty": 94.124309,
+      "status": "filled",
+      "price": 31.88,
+      "proceeds": 3001.07,
+      "realized_pnl": 1.07,
+      "realized_pct": 0.04,
+      "date": "2026-09-17",
+      "time_et": "14:42",
+      "ts": 1789670400,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $31.87",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 11960.41,
+  "spent_today": 8959.34,
   "deployed_today": 218622.3,
   "orders_today": 76,
-  "sells_today": 71,
+  "sells_today": 72,
   "sold_today": [
     "BE",
     "CRWD",
@@ -10671,28 +10692,25 @@
     "CRWD": 1789668577,
     "PLTR": 1789667374,
     "SKWD": 1789566945,
-    "SBLK": 1789667122,
+    "SBLK": 1789670563,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789670426,
-  "last_check_ts": 1789670475,
+  "last_publish_ts": 1789670563,
+  "last_check_ts": 1789670563,
   "last_bar_ts": 1789670400,
   "last_decision_ts": 1789670475,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "27fffd7c": 31.9659,
-    "c5dc4e90": 31.9,
     "13a9656c": 397.9656,
-    "c288d644": 176.1451,
     "a2ecc9e9": 238.9326,
+    "c288d644": 176.1451,
     "b3f899f9": 236.296,
     "b7f2b06b": 281.1925,
     "8b08ea08": 173.4322,
     "5633650d": 274.4288,
     "a907322d": 231.0346,
-    "b6c4db67": 170.1089,
     "f3de7ab9": 270.8822,
-    "cb6ac78d": 30.9139
+    "b6c4db67": 170.1089
   }
 }

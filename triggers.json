@@ -7340,7 +7340,7 @@
    "ticker": "SBLK",
    "kind": "take_profit",
    "price": 31.9659,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 14:32",
    "created_ts": 1789669968,
    "why": "close 100% at +0.3% over the average cost",
@@ -7350,7 +7350,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 14:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "71a15fbd",
@@ -7376,7 +7378,7 @@
    "ticker": "SBLK",
    "kind": "buy_limit",
    "price": 30.9139,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 14:32",
    "created_ts": 1789669968,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7386,7 +7388,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 14:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b7f2b06b",
@@ -7444,7 +7448,7 @@
    "ticker": "SBLK",
    "kind": "stop_loss",
    "price": 31.9,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 14:35",
    "created_ts": 1789670132,
    "why": "close it all at -0.8% under the average cost",
@@ -7454,7 +7458,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 14:42"
   },
   {
    "id": "c288d644",
@@ -7508,5 +7513,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-17 14:41"
+ "updated": "2026-09-17 14:42"
 }

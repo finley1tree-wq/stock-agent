@@ -1,20 +1,3 @@
-- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.9% over the month; 26% of today's range
-- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +1.9% over the month; 42% of today's range
-~ WORKING take_profit 100% MSFT @ $496.63 until 2026-09-22 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $492.65 until 2026-09-22 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $480.63 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $175.59 until 2026-09-22 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% PLTR @ $172.88 until 2026-09-22 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 PLTR @ $169.58 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25309.31 (+1.24% on $25000.00 in) · cash $4328.57 · realised +328.57
-Done: 0 sell(s), 2 buy(s); 22 order(s) working; budget left $3900.81 this week
-- SELL 100% IBM [time stop] -> $2994.53 (-0.18%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-17 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 13:36 ET (Thursday) — week 2026-W38 — budget left $6895.34 (today $185622.30 put to work, 65 buys, 58 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
@@ -398,3 +381,20 @@ Decision: nothing at this check. 16 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% HLI [time stop] -> $3003.46 (+0.12%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 14:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 14:41 ET (Thursday) — week 2026-W38 — budget left $12902.46 (today $218622.30 put to work, 76 buys, 71 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9W51xS6pqVn68ec3KUh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25327.87 (+1.31% on $25000.00 in) · cash $13330.22 · realised +330.22
+Decision: nothing at this check. 13 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SBLK: position closed)
+- SELL 100% SBLK [stop_loss @ $31.88] -> $3001.07 (+0.04%) — close it all at -0.8% under the average cost
+## 2026-09-17 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

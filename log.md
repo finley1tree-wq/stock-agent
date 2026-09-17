@@ -10130,3 +10130,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25327.87 (+1.31% on $25000.00 in) · cash $13330.22 · realised +330.22
 Decision: nothing at this check. 13 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SBLK: position closed)
+- SELL 100% SBLK [stop_loss @ $31.88] -> $3001.07 (+0.04%) — close it all at -0.8% under the average cost
+## 2026-09-17 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
