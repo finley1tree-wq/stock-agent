@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T12:12-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,905 idle, so opened 2: BE, TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gath",
+ "asOf": "2026-09-17T12:15-04:00",
+ "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "f1d38d29",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 131.448,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 131.34,
-   "pct_away": 0.08,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0b5aeb30",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 131.7487,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 131.34,
-   "pct_away": 0.31,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "35d0ff96",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -180,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.45,
-   "pct_away": 0.33,
+   "last": 238.42,
+   "pct_away": 0.34,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -214,30 +180,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 400.4,
+   "last": 400.39,
    "pct_away": -0.61,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "d70c5598",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 281.8414,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 279.85,
-   "pct_away": 0.71,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -248,10 +197,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.45,
-   "pct_away": -0.78,
+   "last": 238.42,
+   "pct_away": -0.77,
    "good_until": "2026-09-22",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d70c5598",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 281.8414,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 279.66,
+   "pct_away": 0.78,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,10 +248,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 279.85,
-   "pct_away": -1.7,
+   "last": 279.66,
+   "pct_away": -1.64,
    "good_until": "2026-09-22",
    "why": "close it all at -1.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9e76356d",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 271.5127,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 279.66,
+   "pct_away": -2.91,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -309,23 +292,6 @@
    ]
   },
   {
-   "id": "9e76356d",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 271.5127,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 279.85,
-   "pct_away": -2.98,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "356b1e07",
    "ticker": "IBM",
    "kind": "buy_limit",
@@ -333,25 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 238.45,
-   "pct_away": -2.99,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "91288cfc",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 127.3416,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 131.34,
-   "pct_away": -3.04,
+   "last": 238.42,
+   "pct_away": -2.98,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -360,8 +309,8 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,905 idle, so opened 2: BE, TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gath",
- "next_check_minutes": 6,
+ "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
+ "next_check_minutes": null,
  "allowed": [
   "AAPL",
   "ADC",
@@ -427,8 +376,8 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 343,
-  "decisions_with_buys_graded": 108,
+  "decisions_graded": 342,
+  "decisions_with_buys_graded": 107,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.25,
   "chosen_avg_pct": 0.1,
@@ -439,19 +388,19 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 152,
+    "n": 151,
     "avg_pct": 0.13
    },
    "congress": {
-    "n": 72,
-    "avg_pct": -0.18
+    "n": 71,
+    "avg_pct": -0.17
    },
    "insider": {
     "n": 7,
     "avg_pct": 0.38
    },
    "momentum": {
-    "n": 152,
+    "n": 151,
     "avg_pct": 0.13
    }
   },
@@ -1930,6 +1879,11 @@
   ],
   "AVGO": [
    {
+    "title": "Meta Can Save $8.5 Billion in 2027 by Using It\u2019s Own MTIA Chips",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T16:02"
+   },
+   {
     "title": "The Overlooked Semiconductor Stock Poised to Lead in the AI Race",
     "source": "Motley Fool",
     "when": "2026-09-17T15:35"
@@ -1938,11 +1892,6 @@
     "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
     "source": "Motley Fool",
     "when": "2026-09-17T14:29"
-   },
-   {
-    "title": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
-    "source": "Zacks",
-    "when": "2026-09-17T14:17"
    }
   ],
   "BE": [
@@ -1952,14 +1901,14 @@
     "when": "2026-09-17T15:56"
    },
    {
-    "title": "FuelCell Jumps 13% as House Shifts Data Center Power Costs to Operators; Plug Power Climbs 7%, Bloom Energy Rises 3%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T15:52"
-   },
-   {
     "title": "Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points",
     "source": "Investor's Business Daily",
     "when": "2026-09-17T12:16"
+   },
+   {
+    "title": "Why Could Bloom Energy (BE) Change AI Data Center Power Economics?",
+    "source": "Simply Wall St.",
+    "when": "2026-09-17T11:13"
    }
   ],
   "CCJ": [
@@ -2088,14 +2037,14 @@
     "when": "2026-09-17T13:24"
    },
    {
+    "title": "Why Magnite Stock Rocketed Higher Today",
+    "source": "Motley Fool",
+    "when": "2026-09-17T16:03"
+   },
+   {
     "title": "Gang of 3: Zuckerberg, Musk, and Huang Call Trump to Oppose AI Regulation",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T15:57"
-   },
-   {
-    "title": "Lucid\u2019s Robotaxi Push Expands With Bolt Deal In Europe \u2014 CEO Silvio Napoli Says AlixPartners Has Concluded Restructuring Work",
-    "source": "Stocktwits",
-    "when": "2026-09-17T15:49"
    }
   ],
   "HD": [
@@ -2212,9 +2161,9 @@
     "when": "2026-09-17T13:57"
    },
    {
-    "title": "Gang of 3: Zuckerberg, Musk, and Huang Call Trump to Oppose AI Regulation",
+    "title": "Meta Can Save $8.5 Billion in 2027 by Using It\u2019s Own MTIA Chips",
     "source": "24/7 Wall St.",
-    "when": "2026-09-17T15:57"
+    "when": "2026-09-17T16:02"
    }
   ],
   "MSFT": [
@@ -2270,6 +2219,11 @@
   ],
   "NOC": [
    {
+    "title": "Epsilon3 CEO Laura Crabtree- We Help Industries Where Failure Isn't an Option",
+    "source": "NYSE",
+    "when": "2026-09-17T15:55"
+   },
+   {
     "title": "GM Begins Making Missile Parts as Iran War Depletes U.S. Supply",
     "source": "Barrons.com",
     "when": "2026-09-17T14:06"
@@ -2278,11 +2232,6 @@
     "title": "Can Kratos' Manufacturing Expansion Support Affordable Defense Growth?",
     "source": "Zacks",
     "when": "2026-09-17T13:18"
-   },
-   {
-    "title": "How Far Can GE Stock Move When The Work Is Already Booked?",
-    "source": "Trefis",
-    "when": "2026-09-16T16:53"
    }
   ],
   "NVDA": [
@@ -2297,9 +2246,9 @@
     "when": "2026-09-17T13:24"
    },
    {
-    "title": "\u201cHe\u2019s Back, He\u2019s Bigger Than Ever\u201d: 24-Year-Old Who Blew Up $45 Billion Hedge Fund Is Back With Options Bet On AI Stocks",
+    "title": "Nvidia Expects Chip Sales to Double in 2027",
     "source": "24/7 Wall St.",
-    "when": "2026-09-17T15:59"
+    "when": "2026-09-17T16:10"
    }
   ],
   "O": [
@@ -2423,6 +2372,11 @@
   ],
   "SPY": [
    {
+    "title": "Why CoreWeave Is Tumbling Hard While the Market Is Soaring",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T16:06"
+   },
+   {
     "title": "FuelCell Jumps 13% as House Shifts Data Center Power Costs to Operators; Plug Power Climbs 7%, Bloom Energy Rises 3%",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T15:52"
@@ -2431,11 +2385,6 @@
     "title": "Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T15:43"
-   },
-   {
-    "title": "The Strategist Who Wanted 8,400 on the S&P 500 Just Cut His Number, and It Is Not Because Earnings Got Worse",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T15:20"
    }
   ],
   "TPL": [
@@ -2457,6 +2406,11 @@
   ],
   "TSM": [
    {
+    "title": "There\u2019s a Good Reason to Choose GLOBALFOUNDRIES Over Taiwan Semiconductor Manufacturing",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-17T16:02"
+   },
+   {
     "title": "The Overlooked Semiconductor Stock Poised to Lead in the AI Race",
     "source": "Motley Fool",
     "when": "2026-09-17T15:35"
@@ -2465,11 +2419,6 @@
     "title": "If Long-Duration Rates Stay Above 5%, Here\u2019s What AIFR Investors Should Expect",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T12:40"
-   },
-   {
-    "title": "Stock Market Today, Sept. 16: Intel Jumps on SK Hynix Memory-Chip Manufacturing Talks",
-    "source": "Motley Fool",
-    "when": "2026-09-16T21:29"
    }
   ],
   "TTD": [
@@ -2525,5 +2474,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T12:12-04:00"
+ "signalsAsOf": "2026-09-17T12:15-04:00"
 }

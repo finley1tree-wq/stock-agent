@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12095.24,
+  "spent": 9092.96,
   "deployed": 734877.32,
   "by_ticker": {
     "GOOGL": 32.51,
@@ -9,7 +9,7 @@
     "TPL": 62.38,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3048.69,
+    "HLI": 46.41,
     "NEM": 26.19,
     "MSFT": 3.22,
     "SKWD": 22.98,
@@ -9562,13 +9562,34 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.7% over the month; 12% of today's range"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.851486,
+      "status": "filled",
+      "price": 131.38,
+      "proceeds": 3002.28,
+      "realized_pnl": 2.28,
+      "realized_pct": 0.08,
+      "date": "2026-09-17",
+      "time_et": "12:15",
+      "ts": 1789661702,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $131.28",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 11958.11,
+  "spent_today": 8955.83,
   "deployed_today": 134622.3,
   "orders_today": 48,
-  "sells_today": 43,
+  "sells_today": 44,
   "sold_today": [
     "BE",
     "CRWD",
@@ -9588,7 +9609,7 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789657490,
+    "HLI": 1789661706,
     "META": 1789659649,
     "CHRW": 1789661278,
     "TTD": 1789658821,
@@ -9609,25 +9630,22 @@
     "SBLK": 1789660815,
     "TSM": 1789660948
   },
-  "last_publish_ts": 1789661531,
-  "last_check_ts": 1789661622,
-  "last_bar_ts": 1789661400,
-  "last_decision_ts": 1789661531,
-  "next_check_minutes": 6,
+  "last_publish_ts": 1789661702,
+  "last_check_ts": 1789661702,
+  "last_bar_ts": 1789661700,
+  "last_decision_ts": 1789661702,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "f1d38d29": 131.448,
-    "0b5aeb30": 131.7487,
     "35d0ff96": 239.2336,
     "5d117de9": 14.4016,
     "13a9656c": 397.9656,
-    "d70c5598": 281.8414,
     "e4f94c85": 236.596,
+    "d70c5598": 281.8414,
     "72c537ea": 14.151,
     "df282489": 275.0788,
-    "f209a6cf": 13.9001,
     "9e76356d": 271.5127,
-    "356b1e07": 231.3256,
-    "91288cfc": 127.3416
+    "f209a6cf": 13.9001,
+    "356b1e07": 231.3256
   }
 }
