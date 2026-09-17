@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-17 13:22 ET
+# Pretend portfolio — 2026-09-17 13:24 ET
 
-**Equity $25326.65** on $25000.00 put in → **+1.31%**  
-Cash $19332.02 · Unrealised -5.37 · Realised +332.02
+**Equity $25325.95** on $25000.00 put in → **+1.30%**  
+Cash $19332.02 · Unrealised -6.07 · Realised +332.02
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| GOOGL | 11.8% | $2997.49 | $345.47 | $345.18 | -0.08% | 0d |
 | IBM | 11.8% | $2997.14 | $238.59 | $238.36 | -0.10% | 0d |
+| GOOGL | 11.8% | $2996.79 | $345.47 | $345.10 | -0.11% | 0d |
 
 ## Last fills
 
