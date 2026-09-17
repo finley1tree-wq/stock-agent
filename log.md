@@ -8649,3 +8649,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $121.30 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25250.87 (+1.00% on $25000.00 in) · cash $6952.82 · realised +254.77
 Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $6525.05 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $674.45] -> $302.99 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-09-17 10:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
