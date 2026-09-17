@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9090.37,
+  "spent": 6089.36,
   "deployed": 791877.32,
   "by_ticker": {
     "GOOGL": 35.97,
@@ -11,7 +11,7 @@
     "MAIA": 46.66,
     "HLI": 35.79,
     "NEM": 23.49,
-    "MSFT": 3004.12,
+    "MSFT": 3.11,
     "SKWD": 22.98,
     "CHRW": 46.22,
     "SBLK": 25.1,
@@ -10305,13 +10305,34 @@
       ],
       "evidence": "bought 30 min ago, -0.26% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.054624,
+      "status": "filled",
+      "price": 495.66,
+      "proceeds": 3001.01,
+      "realized_pnl": 1.01,
+      "realized_pct": 0.03,
+      "date": "2026-09-17",
+      "time_et": "14:00",
+      "ts": 1789668000,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $495.49",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 8953.24,
+  "spent_today": 5952.23,
   "deployed_today": 191622.3,
   "orders_today": 67,
-  "sells_today": 63,
+  "sells_today": 64,
   "sold_today": [
     "BE",
     "CRWD",
@@ -10340,7 +10361,7 @@
     "AAPL": 1789664453,
     "BE": 1789667242,
     "NEM": 1789665349,
-    "MSFT": 1789663687,
+    "MSFT": 1789668041,
     "FLD": 1789399070,
     "GOOGL": 1789666059,
     "TPL": 1789500735,
@@ -10352,22 +10373,19 @@
     "SBLK": 1789667122,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789667956,
-  "last_check_ts": 1789667956,
-  "last_bar_ts": 1789667700,
+  "last_publish_ts": 1789668041,
+  "last_check_ts": 1789668041,
+  "last_bar_ts": 1789668000,
   "last_decision_ts": 1789667956,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a1e1e7e0": 496.6296,
     "13a9656c": 397.9656,
     "fa58dade": 680.3556,
     "00de6a4a": 248.4188,
-    "114ea2b0": 492.6459,
     "c2a051ae": 672.2125,
     "f85adda9": 243.1718,
     "317dce78": 657.6891,
-    "242c1b90": 239.5124,
-    "e0f8004b": 480.6253
+    "242c1b90": 239.5124
   }
 }

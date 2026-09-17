@@ -1,6 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,883 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.5% over the month; 82% of today's range
 ~ WORKING take_profit 100% CHRW @ $154.62 until 2026-09-22 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% CHRW @ $153.18 until 2026-09-22 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 CHRW @ $149.58 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25336.19 (+1.34% on $25000.00 in) · cash $16337.38 · realised +337.38
 Done: 2 sell(s), 0 buy(s) (incl. 2 from standing orders); 10 order(s) working; budget left $15909.63 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $495.66] -> $3001.01 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-17 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

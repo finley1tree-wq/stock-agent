@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "15c300bf",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 153.6067,
-   "status": "cancelled",
-   "created": "2026-09-16 13:33",
-   "created_ts": 1789580003,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $153.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:45",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "ed786ff0",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -7175,7 +7156,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 496.6296,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:34",
    "created_ts": 1789666488,
    "why": "close 100% at +0.2% over the average cost",
@@ -7185,14 +7166,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 14:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "114ea2b0",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 492.6459,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:34",
    "created_ts": 1789666488,
    "why": "close it all at -0.6% under the average cost",
@@ -7202,14 +7185,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:59",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e0f8004b",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 480.6253,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:34",
    "created_ts": 1789666488,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7219,7 +7204,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 14:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "717d2fc3",
@@ -7510,7 +7497,25 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-17 13:59",
    "cancel_reason": "time stop closed the position"
+  },
+  {
+   "id": "bcf9818a",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 495.904,
+   "status": "filled",
+   "created": "2026-09-17 13:59",
+   "created_ts": 1789667995,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $495.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 14:00"
   }
  ],
- "updated": "2026-09-17 13:59"
+ "updated": "2026-09-17 14:00"
 }
