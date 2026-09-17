@@ -1,4 +1,3 @@
-
 ## 2026-09-16 15:02 ET (Wednesday) — week 2026-W38 — budget left $6969.89 (today $213445.83 put to work, 72 buys, 66 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25178.49 (+0.71% on $25000.00 in) · cash $25178.49 · realised +178.49
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-16 16:00 ET — published the session's closing state
