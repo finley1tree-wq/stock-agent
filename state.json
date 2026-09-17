@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 7240.09,
+  "spent": 3218.89,
   "deployed": 641575.37,
   "by_ticker": {
     "GOOGL": 36.77,
@@ -10,7 +10,7 @@
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 52.72,
-    "NEM": 4040.76,
+    "NEM": 19.56,
     "MSFT": 11.0,
     "SKWD": 22.98,
     "CHRW": 3042.51,
@@ -8376,13 +8376,34 @@
       ],
       "evidence": "average cost $131.87",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 32.224161,
+      "status": "filled",
+      "price": 124.79,
+      "proceeds": 4021.2,
+      "realized_pnl": 21.2,
+      "realized_pct": 0.53,
+      "date": "2026-09-17",
+      "time_et": "09:51",
+      "ts": 1789653000,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $124.3",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 6990.8,
+  "spent_today": 2969.6,
   "deployed_today": 41320.35,
   "orders_today": 16,
-  "sells_today": 13,
+  "sells_today": 14,
   "sold_today": [
     "BE",
     "CRWD",
@@ -8396,7 +8417,8 @@
     "IBM",
     "META",
     "TSM",
-    "HLI"
+    "HLI",
+    "NEM"
   ],
   "sold_ts": {
     "ALP": 1789404796,
@@ -8408,7 +8430,7 @@
     "IBM": 1789652554,
     "AAPL": 1789652213,
     "BE": 1789652132,
-    "NEM": 1789585657,
+    "NEM": 1789653083,
     "MSFT": 1789652473,
     "FLD": 1789399070,
     "GOOGL": 1789652432,
@@ -8421,19 +8443,16 @@
     "SBLK": 1789652178,
     "TSM": 1789652764
   },
-  "last_publish_ts": 1789652999,
-  "last_check_ts": 1789653045,
+  "last_publish_ts": 1789653082,
+  "last_check_ts": 1789653129,
   "last_bar_ts": 1789653000,
-  "last_decision_ts": 1789652957,
+  "last_decision_ts": 1789653129,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "3d8b6901": 124.7885,
-    "4c6891bc": 124.472,
     "4179623c": 152.9921,
-    "13a9656c": 397.9656,
     "6245249c": 154.3888,
-    "4cc5b50a": 149.3703,
-    "e6f7f04d": 120.4061
+    "13a9656c": 397.9656,
+    "4cc5b50a": 149.3703
   }
 }

@@ -1,6 +1,3 @@
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (inside the last max_hold_minutes of the session: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7g9TC1JU2TPaNTZoqC4'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +395,6 @@ Decision: nothing at this check. 10 standing order(s) working.
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $132.33] -> $3010.47 (+0.35%) — close 100% at +0.4% over the average cost
 ## 2026-09-17 09:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $124.79] -> $4021.20 (+0.53%) — close 100% at +0.4% over the average cost
+## 2026-09-17 09:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders

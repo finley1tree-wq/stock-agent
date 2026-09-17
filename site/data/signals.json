@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-17T09:50-04:00",
+ "asOf": "2026-09-17T09:51-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3d8b6901",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 124.7885,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 124.64,
-   "pct_away": 0.12,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4c6891bc",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 124.472,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 124.64,
-   "pct_away": -0.13,
-   "good_until": "2026-09-22",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "4179623c",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -180,10 +146,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 153.41,
-   "pct_away": -0.27,
+   "last": 153.39,
+   "pct_away": -0.26,
    "good_until": "2026-09-22",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6245249c",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 154.3888,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.39,
+   "pct_away": 0.65,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,30 +180,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 400.25,
-   "pct_away": -0.57,
+   "last": 400.6,
+   "pct_away": -0.66,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "6245249c",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 154.3888,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 153.41,
-   "pct_away": 0.64,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -231,25 +197,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 153.41,
-   "pct_away": -2.63,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e6f7f04d",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 120.4061,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 124.64,
-   "pct_away": -3.4,
+   "last": 153.39,
+   "pct_away": -2.62,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
