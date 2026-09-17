@@ -1,17 +1,26 @@
 {
-  "cash": 22288.780485202948,
+  "cash": 19290.622210250425,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
   "positions": {
-    "META": {
-      "qty": 4.450610775564234,
-      "avg_cost": 674.064786,
+    "CRWD": {
+      "qty": 12.208067564719789,
+      "avg_cost": 245.739138,
       "opened": "2026-09-17",
       "last_buy": "2026-09-17",
       "tranches": 1,
-      "last_buy_ts": 1789658658,
-      "opened_ts": 1789658658
+      "last_buy_ts": 1789659657,
+      "opened_ts": 1789659657
+    },
+    "AAPL": {
+      "qty": 8.995052091695921,
+      "avg_cost": 333.51669,
+      "opened": "2026-09-17",
+      "last_buy": "2026-09-17",
+      "tranches": 1,
+      "last_buy_ts": 1789659657,
+      "opened_ts": 1789659657
     }
   },
   "fills": [
@@ -6798,7 +6807,39 @@
       "realized_pct": 0.12,
       "type": "sell",
       "date": "2026-09-17 11:30"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.450611,
+      "status": "filled",
+      "price": 674.48,
+      "proceeds": 3001.84,
+      "realized_pnl": 1.84,
+      "realized_pct": 0.06,
+      "type": "sell",
+      "date": "2026-09-17 11:40"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.208068,
+      "price": 245.74,
+      "type": "buy",
+      "date": "2026-09-17 11:40"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.995052,
+      "price": 333.52,
+      "type": "buy",
+      "date": "2026-09-17 11:40"
     }
   ],
-  "realized_pnl": 288.78048520295744
+  "realized_pnl": 290.6222102504368
 }
