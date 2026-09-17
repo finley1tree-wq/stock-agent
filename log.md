@@ -10405,3 +10405,25 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25314.32 (+1.26% on $25000.00 in) · cash $13324.40 · realised +324.40
 Decision: nothing at this check. 13 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% META [time stop] -> $2999.77 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 15:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-17 15:28 ET (Thursday) — week 2026-W38 — budget left $15896.43 (today $245622.30 put to work, 85 buys, 81 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9ZhVpqpqgCeYCVtpqXe'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 NEM @ $120.87 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 TSM @ $416.45 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25309.33 (+1.24% on $25000.00 in) · cash $16324.18 · realised +324.18
+Decision: nothing at this check. 9 standing order(s) working.
