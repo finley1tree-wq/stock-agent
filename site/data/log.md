@@ -1,8 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9SsG4Kp9m6e1ELmeR6H'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25336.19 (+1.34% on $25000.00 in) · cash $16337.38 · realised +337.38
-Done: 2 sell(s), 0 buy(s) (incl. 2 from standing orders); 10 order(s) working; budget left $15909.63 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $495.66] -> $3001.01 (+0.03%) — close it all at -0.6% under the average cost
 ## 2026-09-17 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +393,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25312.99 (+1.25% on $25000.00 in) · cash $7331.33 · realised +331.33
 Decision: nothing at this check. 19 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% PLTR [time stop] -> $3000.34 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 15:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $496.04] -> $3006.91 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-17 15:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
