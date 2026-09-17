@@ -1,23 +1,3 @@
-~ WORKING take_profit 100% BE @ $281.19 until 2026-09-22 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% BE @ $274.43 until 2026-09-22 — close it all at -1.7% under the average cost
-~ WORKING buy_limit $500.00 BE @ $270.88 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25334.09 (+1.34% on $25000.00 in) · cash $7333.97 · realised +333.97
-Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $6906.21 this week
-  (cancelled 2 standing order(s) on AAPL: position closed)
-- SELL 100% AAPL [stop_loss @ $335.68] -> $3000.83 (+0.03%) — close it all at -0.6% under the average cost
-## 2026-09-17 14:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 14:35 ET (Thursday) — week 2026-W38 — budget left $9907.04 (today $215622.30 put to work, 75 buys, 69 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9VdrE6oj37h496t2QJz'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,907 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.2% over the month; 52% of today's range
 ~ WORKING take_profit 100% PLTR @ $176.15 until 2026-09-22 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% PLTR @ $173.43 until 2026-09-22 — close it all at -1.1% under the average cost
 ~ WORKING buy_limit $500.00 PLTR @ $170.11 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +378,23 @@ portfolio: equity $25312.13 (+1.25% on $25000.00 in) · cash $16324.18 · realis
 Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-17 15:37 ET (Thursday) — week 2026-W38 — budget left $15896.43 (today $245622.30 put to work, 85 buys, 81 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9aLtwg1PAPNDEoRxNBe'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 NEM @ $120.87 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 TSM @ $416.45 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25311.19 (+1.24% on $25000.00 in) · cash $16324.18 · realised +324.18
+Decision: nothing at this check. 9 standing order(s) working.
