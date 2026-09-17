@@ -5563,8 +5563,8 @@
     "code_version": "8ca5265",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -9814,8 +9814,8 @@
     "code_version": "41d72ec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -14694,8 +14694,8 @@
     "code_version": "56247a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12,
-    "ret_final": 0.12,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -15666,8 +15666,8 @@
     "code_version": "a09efaa",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.07,
+    "ret_final": 0.07,
     "ret_src": "realised"
   },
   {
@@ -16399,8 +16399,8 @@
     "code_version": "dce5e03",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -17198,8 +17198,8 @@
     "code_version": "e61c5e5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03,
-    "ret_final": -0.03,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -17962,7 +17962,9 @@
     "code_version": "88e8eeb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.03,
+    "ret_final": 0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLTR",
@@ -18042,7 +18044,7 @@
     "code_version": "6bb2298",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.01
   },
   {
     "symbol": "META",
@@ -18068,7 +18070,7 @@
     "code_version": "f75cf0e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": -0.06
   },
   {
     "symbol": "SBLK",
@@ -18225,6 +18227,32 @@
     "evidence": "average cost $495.49",
     "trigger": "stop_loss",
     "hour_et": 14,
-    "code_version": "675be09"
+    "code_version": "675be09",
+    "hold_minutes": 25
+  },
+  {
+    "symbol": "NEM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 24.090621,
+    "price": 124.53,
+    "date": "2026-09-17",
+    "time_et": "14:02",
+    "ts": 1789668121,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+7.3% over the month; 47% of today's range",
+    "entry_price": 124.48,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.33,
+    "hour_et": 14,
+    "code_version": "af33eab",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6089.36,
-  "deployed": 791877.32,
+  "spent": 9089.36,
+  "deployed": 794877.32,
   "by_ticker": {
     "GOOGL": 35.97,
     "AMD": 50.42,
@@ -10,7 +10,7 @@
     "ALP": 39.88,
     "MAIA": 46.66,
     "HLI": 35.79,
-    "NEM": 23.49,
+    "NEM": 3023.49,
     "MSFT": 3.11,
     "SKWD": 22.98,
     "CHRW": 46.22,
@@ -29,7 +29,7 @@
     "IBM": 63000.0,
     "FLD": 6000.0,
     "HLI": 60873.19,
-    "NEM": 67000.0,
+    "NEM": 70000.0,
     "META": 63780.16,
     "AMD": 34000.0,
     "TTD": 63000.0,
@@ -10326,12 +10326,29 @@
       ],
       "evidence": "average cost $495.49",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.090621,
+      "price": 124.53,
+      "date": "2026-09-17",
+      "time_et": "14:02",
+      "ts": 1789668121,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+7.3% over the month; 47% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 5952.23,
-  "deployed_today": 191622.3,
-  "orders_today": 67,
+  "spent_today": 8952.23,
+  "deployed_today": 194622.3,
+  "orders_today": 68,
   "sells_today": 64,
   "sold_today": [
     "BE",
@@ -10373,19 +10390,22 @@
     "SBLK": 1789667122,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789668041,
-  "last_check_ts": 1789668041,
+  "last_publish_ts": 1789668121,
+  "last_check_ts": 1789668121,
   "last_bar_ts": 1789668000,
-  "last_decision_ts": 1789667956,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789668121,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "13a9656c": 397.9656,
     "fa58dade": 680.3556,
+    "13a9656c": 397.9656,
+    "8c79c0b9": 125.0194,
     "00de6a4a": 248.4188,
     "c2a051ae": 672.2125,
+    "fe6d03a5": 123.3084,
     "f85adda9": 243.1718,
     "317dce78": 657.6891,
+    "a89ecc90": 120.7941,
     "242c1b90": 239.5124
   }
 }

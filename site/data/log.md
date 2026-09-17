@@ -1,20 +1,3 @@
-~ WORKING take_profit 100% CHRW @ $154.62 until 2026-09-22 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CHRW @ $153.18 until 2026-09-22 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CHRW @ $149.58 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25307.61 (+1.23% on $25000.00 in) · cash $10310.75 · realised +310.75
-Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9883.00 this week
-- SELL 100% META [time stop] -> $2991.47 (-0.28%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-17 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 12:57 ET (Thursday) — week 2026-W38 — budget left $12874.47 (today $158622.30 put to work, 56 buys, 51 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9NCJYbMKVMcVXY7ihzD'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,874 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.3% over the month; 27% of today's range
 ~ WORKING take_profit 100% GOOGL @ $346.35 until 2026-09-22 — close 100% at +0.3% over the average cost
@@ -398,3 +381,20 @@ Done: 2 sell(s), 0 buy(s) (incl. 2 from standing orders); 10 order(s) working; b
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $495.66] -> $3001.01 (+0.03%) — close it all at -0.6% under the average cost
 ## 2026-09-17 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 14:02 ET (Thursday) — week 2026-W38 — budget left $18910.64 (today $191622.30 put to work, 67 buys, 64 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9T5KYG5beHJAj2cKmNv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,911 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.3% over the month; 47% of today's range
+~ WORKING take_profit 100% NEM @ $125.02 until 2026-09-22 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $123.31 until 2026-09-22 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $120.79 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25334.54 (+1.34% on $25000.00 in) · cash $16338.39 · realised +338.39
+Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15910.64 this week
