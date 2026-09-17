@@ -10133,3 +10133,17 @@ Decision: nothing at this check. 13 standing order(s) working.
   (cancelled 2 standing order(s) on SBLK: position closed)
 - SELL 100% SBLK [stop_loss @ $31.88] -> $3001.07 (+0.04%) — close it all at -0.8% under the average cost
 ## 2026-09-17 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 14:44 ET (Thursday) — week 2026-W38 — budget left $15903.53 (today $218622.30 put to work, 76 buys, 72 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9WH6TtMKhFBLUD627nE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25310.10 (+1.24% on $25000.00 in) · cash $16331.28 · realised +331.28
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
