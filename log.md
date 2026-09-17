@@ -9422,3 +9422,24 @@ Decision: nothing at this check. 13 standing order(s) working.
 - SELL 100% MSFT [time stop] -> $2999.10 (-0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% PLTR [time stop] -> $2980.99 (-0.63%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 12:48 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 12:49 ET (Thursday) — week 2026-W38 — budget left $18876.74 (today $146622.30 put to work, 52 buys, 49 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9MYRvHxXVuS6UTnFNC7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,877 idle, so opened 2: AAPL, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +8.2% over the month; 82% of today's range
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.3% over the month; 84% of today's range
+~ WORKING take_profit 100% AAPL @ $336.21 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $333.23 until 2026-09-22 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $325.30 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $428.22 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $424.35 until 2026-09-22 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $414.30 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25308.40 (+1.23% on $25000.00 in) · cash $13304.49 · realised +304.49
+Done: 0 sell(s), 2 buy(s); 13 order(s) working; budget left $12876.74 this week

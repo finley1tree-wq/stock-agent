@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "b20c8f63",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 509.6283,
-   "status": "cancelled",
-   "created": "2026-09-16 11:58",
-   "created_ts": 1789574318,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $525.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 12:28",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "193a6c75",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 241.4706,
-   "status": "cancelled",
-   "created": "2026-09-16 12:13",
-   "created_ts": 1789575181,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $240.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 12:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ddc92bbf",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 238.8108,
-   "status": "cancelled",
-   "created": "2026-09-16 12:13",
-   "created_ts": 1789575181,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $240.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 12:15",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "d08a8e6d",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 233.4887,
-   "status": "cancelled",
-   "created": "2026-09-16 12:13",
-   "created_ts": 1789575181,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $240.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 12:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "035d7664",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 240.938,
-   "status": "filled",
-   "created": "2026-09-16 12:15",
-   "created_ts": 1789575358,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $240.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 12:20"
-  },
-  {
-   "id": "0771807e",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 154.0749,
-   "status": "cancelled",
-   "created": "2026-09-16 12:18",
-   "created_ts": 1789575524,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $153.66",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 12:46",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "cb3e301e",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -7520,7 +7407,109 @@
    ],
    "good_until": "2026-09-22",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "b0e79b06",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 336.2118,
+   "status": "working",
+   "created": "2026-09-17 12:49",
+   "created_ts": 1789663769,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $335.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "07bfe88f",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 333.2271,
+   "status": "working",
+   "created": "2026-09-17 12:49",
+   "created_ts": 1789663769,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $335.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1fd146b2",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 325.2992,
+   "status": "working",
+   "created": "2026-09-17 12:49",
+   "created_ts": 1789663769,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $335.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0
+  },
+  {
+   "id": "7aeab579",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 428.2162,
+   "status": "working",
+   "created": "2026-09-17 12:49",
+   "created_ts": 1789663769,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $427.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ecc53014",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 424.3466,
+   "status": "working",
+   "created": "2026-09-17 12:49",
+   "created_ts": 1789663769,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $427.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "be5b6d5e",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 414.2967,
+   "status": "working",
+   "created": "2026-09-17 12:49",
+   "created_ts": 1789663769,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $427.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-17 12:46"
+ "updated": "2026-09-17 12:49"
 }
