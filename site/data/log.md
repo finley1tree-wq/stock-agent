@@ -1,45 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25317.05 (+1.27% on $25000.00 in) · cash $10333.82 · realised +333.82
-Decision: nothing at this check. 16 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-17 14:55 ET (Thursday) — week 2026-W38 — budget left $9906.06 (today $227622.30 put to work, 79 buys, 73 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9X9g7qVoPLZenupMgij'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,906 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +16.3% over the month; 84% of today's range
-~ WORKING take_profit 100% CRWD @ $249.17 until 2026-09-22 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% CRWD @ $243.92 until 2026-09-22 — close it all at -1.5% under the average cost
-~ WORKING buy_limit $500.00 CRWD @ $240.24 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25321.08 (+1.28% on $25000.00 in) · cash $7333.82 · realised +333.82
-Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $6906.06 this week
-
-## 2026-09-17 14:58 ET (Thursday) — week 2026-W38 — budget left $6906.06 (today $230622.30 put to work, 80 buys, 73 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9XNKag7w58N1Tp2QzLA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,906 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +24.5% over the month; 63% of today's range
-~ WORKING take_profit 100% META @ $679.56 until 2026-09-22 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% META @ $671.41 until 2026-09-22 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 META @ $656.91 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25306.52 (+1.23% on $25000.00 in) · cash $4333.82 · realised +333.82
-Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $3906.06 this week
-
-## 2026-09-17 15:01 ET (Thursday) — week 2026-W38 — budget left $3906.06 (today $233622.30 put to work, 81 buys, 73 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
@@ -398,3 +356,45 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% CHRW [time stop] -> $2996.05 (-0.13%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 15:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 15:53 ET (Thursday) — week 2026-W38 — budget left $24877.57 (today $245622.30 put to work, 85 buys, 84 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (RVSB excluded: too thinly traded ($0.6M a day) — Riverview Bancorp, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9bZcPVKEWPAZ2UJD5vu'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25305.32 (+1.22% on $25000.00 in) · cash $25305.32 · realised +305.32
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 15:56 ET (Thursday) — week 2026-W38 — budget left $24877.57 (today $245622.30 put to work, 85 buys, 84 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (RVSB excluded: too thinly traded ($0.6M a day) — Riverview Bancorp, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9bmUzLHA977bfLvNY5E'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25305.32 (+1.22% on $25000.00 in) · cash $25305.32 · realised +305.32
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 15:58 ET (Thursday) — week 2026-W38 — budget left $24877.57 (today $245622.30 put to work, 85 buys, 84 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (RVSB excluded: too thinly traded ($0.6M a day) — Riverview Bancorp, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9bySkyDcLXEiw2knGeG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25305.32 (+1.22% on $25000.00 in) · cash $25305.32 · realised +305.32
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
