@@ -8652,3 +8652,17 @@ Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $6525.05 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $674.45] -> $302.99 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-09-17 10:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 10:41 ET (Thursday) — week 2026-W38 — budget left $6828.04 (today $77622.30 put to work, 29 buys, 22 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9Bn3MxLmwEXCZwmeWuw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25248.05 (+0.99% on $25000.00 in) · cash $7255.81 · realised +255.81
+Decision: nothing at this check. 20 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
