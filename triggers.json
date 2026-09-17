@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "75be5da3",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 133.6396,
-   "status": "filled",
-   "created": "2026-09-16 09:32",
-   "created_ts": 1789565552,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $133.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 09:53"
-  },
-  {
-   "id": "c0d533d2",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 132.1011,
-   "status": "cancelled",
-   "created": "2026-09-16 09:32",
-   "created_ts": 1789565552,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $133.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 09:53",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "fda42ddc",
    "ticker": "HLI",
    "kind": "buy_limit",
@@ -7167,7 +7130,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 174.2132,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 09:36",
    "created_ts": 1789652177,
    "why": "close 100% at +0.4% over the average cost",
@@ -7177,14 +7140,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:40"
   },
   {
    "id": "a1b7be89",
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 171.5403,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:36",
    "created_ts": 1789652177,
    "why": "close it all at -1.1% under the average cost",
@@ -7194,14 +7158,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3a055aac",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 168.2465,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:36",
    "created_ts": 1789652177,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7211,14 +7177,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0ba8e8b3",
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 347.0126,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:36",
    "created_ts": 1789652212,
    "why": "close 100% at +0.3% over the average cost",
@@ -7228,7 +7196,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6511cb02",
@@ -7254,7 +7224,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 335.7461,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:36",
    "created_ts": 1789652212,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7264,7 +7234,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3d69003f",
@@ -7475,7 +7447,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 346.7,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 09:39",
    "created_ts": 1789652341,
    "why": "close it all at -0.6% under the average cost",
@@ -7485,8 +7457,45 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:40"
+  },
+  {
+   "id": "0cb3a16a",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 173.912,
+   "status": "cancelled",
+   "created": "2026-09-17 09:39",
+   "created_ts": 1789652379,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $173.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:40",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "13a9656c",
+   "ticker": "GLD",
+   "kind": "buy_limit",
+   "price": 397.9656,
+   "status": "working",
+   "created": "2026-09-17 09:40",
+   "created_ts": 1789652427,
+   "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
+   "evidence": "+0.3% over the month, sitting at 11% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-18",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-17 09:39"
+ "updated": "2026-09-17 09:40"
 }

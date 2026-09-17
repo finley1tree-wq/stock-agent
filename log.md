@@ -8260,3 +8260,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $412.48 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25164.05 (+0.66% on $25000.00 in) · cash $5856.02 · realised +176.37
 Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $5428.24 this week
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $174.21] -> $1004.38 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-17 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 09:40 ET (Thursday) — week 2026-W38 — budget left $6432.62 (today $37320.35 put to work, 14 buys, 7 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $346.53] -> $1001.15 (+0.11%) — close it all at -0.6% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf978Zwh4iGTwZgbJaAtw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+~ WORKING buy_limit $1000.00 GLD @ $397.97 until 2026-09-18 — strong month, weak day: resting 0.44% under $399.73 to catch the dip
+portfolio: equity $25159.72 (+0.64% on $25000.00 in) · cash $7861.55 · realised +181.90
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 22 order(s) working; budget left $7433.77 this week
