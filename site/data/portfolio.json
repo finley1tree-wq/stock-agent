@@ -1,5 +1,5 @@
 {
-  "cash": 10868.42127144074,
+  "cash": 9877.65483619911,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
@@ -23,21 +23,12 @@
       "opened_ts": 1789652265
     },
     "NEM": {
-      "qty": 24.135215129240056,
-      "avg_cost": 124.2997,
+      "qty": 32.22416118001437,
+      "avg_cost": 124.13046153954895,
       "opened": "2026-09-17",
       "last_buy": "2026-09-17",
-      "tranches": 1,
-      "last_buy_ts": 1789652265,
-      "opened_ts": 1789652265
-    },
-    "IBM": {
-      "qty": 12.466334663241915,
-      "avg_cost": 240.64812,
-      "opened": "2026-09-17",
-      "last_buy": "2026-09-17",
-      "tranches": 1,
-      "last_buy_ts": 1789652265,
+      "tranches": 2,
+      "last_buy_ts": 1789652554,
       "opened_ts": 1789652265
     },
     "TSM": {
@@ -48,6 +39,15 @@
       "tranches": 1,
       "last_buy_ts": 1789652265,
       "opened_ts": 1789652265
+    },
+    "HLI": {
+      "qty": 22.749207099135766,
+      "avg_cost": 131.872728,
+      "opened": "2026-09-17",
+      "last_buy": "2026-09-17",
+      "tranches": 1,
+      "last_buy_ts": 1789652608,
+      "opened_ts": 1789652608
     }
   },
   "fills": [
@@ -6292,7 +6292,39 @@
       "realized_pct": 0.23,
       "type": "sell",
       "date": "2026-09-17 09:41"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 12.466335,
+      "status": "filled",
+      "price": 241.39,
+      "proceeds": 3009.23,
+      "realized_pnl": 9.23,
+      "realized_pct": 0.31,
+      "type": "sell",
+      "date": "2026-09-17 09:42"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.088946,
+      "price": 123.63,
+      "type": "buy",
+      "date": "2026-09-17 09:42"
+    },
+    {
+      "symbol": "HLI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 22.749207,
+      "price": 131.87,
+      "type": "buy",
+      "date": "2026-09-17 09:43"
     }
   ],
-  "realized_pnl": 188.77127144075428
+  "realized_pnl": 198.00483619912427
 }
