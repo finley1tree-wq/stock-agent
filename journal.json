@@ -834,8 +834,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.06,
-    "ret_now": 0.06,
+    "ret_final": 0.04,
+    "ret_now": 0.04,
     "ret_src": "realised"
   },
   {
@@ -1388,8 +1388,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.05,
-    "ret_now": 0.05,
+    "ret_final": 0.03,
+    "ret_now": 0.03,
     "ret_src": "realised"
   },
   {
@@ -1760,8 +1760,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.06,
-    "ret_now": 0.06,
+    "ret_final": 0.04,
+    "ret_now": 0.04,
     "ret_src": "realised"
   },
   {
@@ -2611,8 +2611,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.07,
-    "ret_now": 0.07,
+    "ret_final": 0.04,
+    "ret_now": 0.04,
     "ret_src": "realised"
   },
   {
@@ -3066,8 +3066,8 @@
     "hour_et": 15,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09,
-    "ret_final": 0.09,
+    "ret_now": 0.06,
+    "ret_final": 0.06,
     "ret_src": "realised"
   },
   {
@@ -15198,8 +15198,8 @@
     "code_version": "12e89ca",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14,
-    "ret_final": 0.14,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -15912,8 +15912,8 @@
     "code_version": "87cc0f0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11,
-    "ret_final": 0.11,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -16812,8 +16812,8 @@
     "code_version": "458117f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26,
-    "ret_final": 0.26,
+    "ret_now": 0.14,
+    "ret_final": 0.14,
     "ret_src": "realised"
   },
   {
@@ -17467,8 +17467,8 @@
     "code_version": "d0898d7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26,
-    "ret_final": 0.26,
+    "ret_now": 0.08,
+    "ret_final": 0.08,
     "ret_src": "realised"
   },
   {
@@ -19051,7 +19051,9 @@
     "code_version": "c18362b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.11,
+    "ret_final": -0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "TTD",
@@ -19130,7 +19132,7 @@
     "code_version": "8454551",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.04
   },
   {
     "symbol": "CRWD",
@@ -19206,6 +19208,31 @@
     "trigger": "time_stop",
     "hour_et": 15,
     "code_version": "b466ae9",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 6.987699,
+    "status": "filled",
+    "price": 428.84,
+    "proceeds": 2996.63,
+    "realized_pnl": -3.37,
+    "realized_pct": -0.11,
+    "date": "2026-09-17",
+    "time_et": "15:42",
+    "ts": 1789674127,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.09% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "43bbe8a",
     "hold_minutes": 29
   }
 ]

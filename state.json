@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 6115.11,
+  "spent": 3118.48,
   "deployed": 845877.32,
   "by_ticker": {
     "GOOGL": 33.49,
@@ -21,7 +21,7 @@
     "PLTR": 16.14,
     "CRWD": 17.29,
     "BE": 2.49,
-    "TSM": 3000.0
+    "TSM": 3.37
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -11009,13 +11009,33 @@
       ],
       "evidence": "bought 30 min ago, -0.34% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.987699,
+      "status": "filled",
+      "price": 428.84,
+      "proceeds": 2996.63,
+      "realized_pnl": -3.37,
+      "realized_pct": -0.11,
+      "date": "2026-09-17",
+      "time_et": "15:42",
+      "ts": 1789674127,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.09% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 5977.98,
+  "spent_today": 2981.35,
   "deployed_today": 245622.3,
   "orders_today": 85,
-  "sells_today": 82,
+  "sells_today": 83,
   "sold_today": [
     "BE",
     "CRWD",
@@ -11054,20 +11074,17 @@
     "PLTR": 1789671943,
     "SKWD": 1789566945,
     "SBLK": 1789670563,
-    "TSM": 1789664539
+    "TSM": 1789674128
   },
-  "last_publish_ts": 1789674094,
-  "last_check_ts": 1789674094,
+  "last_publish_ts": 1789674174,
+  "last_check_ts": 1789674174,
   "last_bar_ts": 1789674000,
-  "last_decision_ts": 1789674007,
+  "last_decision_ts": 1789674174,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "58064b49": 154.6935,
-    "fe3c6655": 430.4548,
-    "c44556e1": 426.5179,
     "864697a0": 153.2448,
-    "bed38744": 416.4501,
-    "12b9c17f": 149.6516
+    "d8aa5e3e": 149.6516
   }
 }

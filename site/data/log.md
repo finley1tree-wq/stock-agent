@@ -1,22 +1,3 @@
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9W51xS6pqVn68ec3KUh'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25327.87 (+1.31% on $25000.00 in) · cash $13330.22 · realised +330.22
-Decision: nothing at this check. 13 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on SBLK: position closed)
-- SELL 100% SBLK [stop_loss @ $31.88] -> $3001.07 (+0.04%) — close it all at -0.8% under the average cost
-## 2026-09-17 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 14:44 ET (Thursday) — week 2026-W38 — budget left $15903.53 (today $218622.30 put to work, 76 buys, 72 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +379,22 @@ portfolio: equity $25309.48 (+1.24% on $25000.00 in) · cash $19312.64 · realis
 Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% TSM [time stop] -> $2996.63 (-0.11%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 15:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-17 15:42 ET (Thursday) — week 2026-W38 — budget left $21881.52 (today $245622.30 put to work, 85 buys, 83 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (RVSB excluded: too thinly traded ($0.6M a day) — Riverview Bancorp, Inc.)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9amUTTzSR4Cd3hh8MAy'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25309.24 (+1.24% on $25000.00 in) · cash $22309.27 · realised +309.27
+Decision: nothing at this check. 3 standing order(s) working.
