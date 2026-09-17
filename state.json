@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 15079.71,
+  "spent": 9090.37,
   "deployed": 791877.32,
   "by_ticker": {
     "GOOGL": 35.97,
-    "AMD": 3042.16,
+    "AMD": 50.42,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -17,7 +17,7 @@
     "SBLK": 25.1,
     "AAPL": 34.08,
     "META": 3059.98,
-    "TTD": 3045.92,
+    "TTD": 48.32,
     "IBM": 8.56,
     "PLTR": 16.48,
     "CRWD": 3000.0
@@ -10265,13 +10265,53 @@
       ],
       "evidence": "average cost $174.82",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 209.706327,
+      "status": "filled",
+      "price": 14.29,
+      "proceeds": 2997.6,
+      "realized_pnl": -2.4,
+      "realized_pct": -0.08,
+      "date": "2026-09-17",
+      "time_et": "13:59",
+      "ts": 1789667956,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.04% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.477656,
+      "status": "filled",
+      "price": 546.17,
+      "proceeds": 2991.74,
+      "realized_pnl": -8.26,
+      "realized_pct": -0.28,
+      "date": "2026-09-17",
+      "time_et": "13:59",
+      "ts": 1789667956,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.26% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 14942.58,
+  "spent_today": 8953.24,
   "deployed_today": 191622.3,
   "orders_today": 67,
-  "sells_today": 61,
+  "sells_today": 63,
   "sold_today": [
     "BE",
     "CRWD",
@@ -10294,8 +10334,8 @@
     "HLI": 1789665773,
     "META": 1789664189,
     "CHRW": 1789665645,
-    "TTD": 1789663341,
-    "AMD": 1789656122,
+    "TTD": 1789667961,
+    "AMD": 1789667961,
     "IBM": 1789666616,
     "AAPL": 1789664453,
     "BE": 1789667242,
@@ -10312,28 +10352,22 @@
     "SBLK": 1789667122,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789667373,
-  "last_check_ts": 1789667874,
+  "last_publish_ts": 1789667956,
+  "last_check_ts": 1789667956,
   "last_bar_ts": 1789667700,
-  "last_decision_ts": 1789667793,
+  "last_decision_ts": 1789667956,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "a1e1e7e0": 496.6296,
-    "fa58dade": 680.3556,
     "13a9656c": 397.9656,
+    "fa58dade": 680.3556,
     "00de6a4a": 248.4188,
     "114ea2b0": 492.6459,
-    "a737e5c2": 550.1227,
-    "cb9b9252": 14.3818,
     "c2a051ae": 672.2125,
-    "811257d8": 541.5843,
-    "5d280428": 14.1306,
     "f85adda9": 243.1718,
-    "b38d682c": 13.8807,
-    "6aa5a6eb": 531.2496,
     "317dce78": 657.6891,
-    "e0f8004b": 480.6253,
-    "242c1b90": 239.5124
+    "242c1b90": 239.5124,
+    "e0f8004b": 480.6253
   }
 }
