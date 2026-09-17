@@ -8213,3 +8213,17 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25194.11 (+0.78% on $25000.00 in) · cash $1178.49 · realised +178.49
 Decision: nothing at this check. 29 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (trigger BE stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $285.77] -> $3020.25 (+0.68%) — close 100% at +0.7% over the average cost
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $237.47] -> $3018.19 (+0.61%) — close 100% at +0.6% over the average cost
+## 2026-09-17 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [stop_loss @ $14.44] -> $2963.60 (-1.21%) — close it all at -1.2% under the average cost
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $531.24] -> $3013.10 (+0.44%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on SBLK: position closed)
+- SELL 100% SBLK [stop_loss @ $31.29] -> $3002.86 (+0.10%) — close it all at -0.7% under the average cost
+- BUY $1000.00 PLTR [buy_limit @ $173.45] — strong month, weak day: resting 0.81% under $174.87 to catch the dip
+## 2026-09-17 09:36 ET — tick — 3 sell(s), 1 buy(s) from standing orders
