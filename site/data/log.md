@@ -1,38 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [stop_loss @ $346.53] -> $1001.15 (+0.11%) — close it all at -0.6% under the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf978Zwh4iGTwZgbJaAtw'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-~ WORKING buy_limit $1000.00 GLD @ $397.97 until 2026-09-18 — strong month, weak day: resting 0.44% under $399.73 to catch the dip
-portfolio: equity $25159.72 (+0.64% on $25000.00 in) · cash $7861.55 · realised +181.90
-Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 22 order(s) working; budget left $7433.77 this week
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $497.00] -> $3006.88 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-09-17 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $241.39] -> $3009.23 (+0.31%) — close 100% at +0.3% over the average cost
-- BUY $1000.00 NEM [buy_limit @ $123.63] — strong month, weak day: resting 0.73% under $124.54 to catch the dip
-## 2026-09-17 09:42 ET — tick — 1 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-17 09:43 ET (Thursday) — week 2026-W38 — budget left $12449.88 (today $38320.35 put to work, 15 buys, 10 sells) — SIM (pretend money) via sim
-  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf97MPKb453v2uviEeE75'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,450 idle, so opened 1: HLI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +3.8% over the month; 81% of today's range
-~ WORKING take_profit 100% HLI @ $132.33 until 2026-09-22 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% HLI @ $130.71 until 2026-09-22 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 HLI @ $127.91 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25143.63 (+0.57% on $25000.00 in) · cash $9877.65 · realised +198.00
-Done: 0 sell(s), 1 buy(s); 17 order(s) working; budget left $9449.88 this week
-  (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $669.47] -> $2973.24 (-0.89%) — close it all at -0.8% under the average cost
 ## 2026-09-17 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (trigger TSM stop_loss superseded at this check)
@@ -398,3 +363,38 @@ Decision: nothing at this check. 20 standing order(s) working.
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [take_profit @ $538.74] -> $3013.16 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-09-17 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 10:44 ET (Thursday) — week 2026-W38 — budget left $9841.20 (today $77622.30 put to work, 29 buys, 23 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9BzD3hVSbhJ4hAc914B'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25247.45 (+0.99% on $25000.00 in) · cash $10268.97 · realised +268.97
+Decision: nothing at this check. 17 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-17 10:47 ET (Thursday) — week 2026-W38 — budget left $9841.20 (today $77622.30 put to work, 29 buys, 23 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9CCqxJS69RjMdquqjPj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,841 idle, so opened 2: CHRW, CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +5.1% over the month; 16% of today's range
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +16.1% over the month; 82% of today's range
+~ WORKING take_profit 100% CHRW @ $152.58 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $151.14 until 2026-09-22 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.60 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $248.82 until 2026-09-22 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% CRWD @ $243.57 until 2026-09-22 — close it all at -1.5% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $239.90 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25234.02 (+0.94% on $25000.00 in) · cash $4268.97 · realised +268.97
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $3841.20 this week
