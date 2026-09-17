@@ -8779,3 +8779,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25252.02 (+1.01% on $25000.00 in) · cash $10264.25 · realised +264.25
 Decision: nothing at this check. 17 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% IBM [time stop] -> $3001.31 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2994.00 (-0.20%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 11:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders
