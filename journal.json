@@ -9001,8 +9001,8 @@
     "code_version": "981c5d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22,
-    "ret_final": 0.22,
+    "ret_now": 0.21,
+    "ret_final": 0.21,
     "ret_src": "realised"
   },
   {
@@ -10737,8 +10737,8 @@
     "code_version": "3320e56",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25,
-    "ret_final": 0.25,
+    "ret_now": 0.24,
+    "ret_final": 0.24,
     "ret_src": "realised"
   },
   {
@@ -12299,8 +12299,8 @@
     "code_version": "0bf7a30",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25,
-    "ret_final": 0.25,
+    "ret_now": 0.24,
+    "ret_final": 0.24,
     "ret_src": "realised"
   },
   {
@@ -13033,8 +13033,8 @@
     "code_version": "a557aa0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.42,
-    "ret_final": 0.42,
+    "ret_now": 0.38,
+    "ret_final": 0.38,
     "ret_src": "realised"
   },
   {
@@ -13874,8 +13874,8 @@
     "code_version": "f9c934a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.41,
-    "ret_final": 0.41,
+    "ret_now": 0.36,
+    "ret_final": 0.36,
     "ret_src": "realised"
   },
   {
@@ -14781,8 +14781,8 @@
     "code_version": "56247a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.37,
-    "ret_final": 0.37,
+    "ret_now": 0.31,
+    "ret_final": 0.31,
     "ret_src": "realised"
   },
   {
@@ -16133,8 +16133,8 @@
     "code_version": "d550401",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13,
-    "ret_final": 0.13,
+    "ret_now": 0.16,
+    "ret_final": 0.16,
     "ret_src": "realised"
   },
   {
@@ -16672,7 +16672,9 @@
     "code_version": "9694700",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": 0.19,
+    "ret_final": 0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -16698,6 +16700,59 @@
     "code_version": "9694700",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": 0.12
+  },
+  {
+    "symbol": "CRWD",
+    "side": "sell",
+    "qty": 12.208068,
+    "status": "filled",
+    "price": 246.2,
+    "proceeds": 3005.61,
+    "realized_pnl": 5.61,
+    "realized_pct": 0.19,
+    "date": "2026-09-17",
+    "time_et": "11:45",
+    "ts": 1789659900,
+    "why": "close it all at -1.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $245.74",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "ea33890",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "SBLK",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 94.24263,
+    "price": 31.83,
+    "date": "2026-09-17",
+    "time_et": "11:46",
+    "ts": 1789660002,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "5 insiders bought (Form 4, incl. director); +5.6% over the month; 81% of today's range",
+    "entry_price": 31.82,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 5.61,
+    "hour_et": 11,
+    "code_version": "ea33890",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

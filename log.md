@@ -9041,3 +9041,23 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25297.78 (+1.19% on $25000.00 in) · cash $19290.62 · realised +290.62
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $246.20] -> $3005.61 (+0.19%) — close it all at -1.5% under the average cost
+## 2026-09-17 11:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 11:46 ET (Thursday) — week 2026-W38 — budget left $21868.48 (today $107622.30 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9GkwkfGGAF16TuNHmrM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,868 idle, so opened 1: SBLK. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 5 insiders bought (Form 4, incl. director); +5.6% over the month; 81% of today's range
+~ WORKING take_profit 100% SBLK @ $31.92 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% SBLK @ $31.59 until 2026-09-22 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 SBLK @ $30.88 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25298.12 (+1.19% on $25000.00 in) · cash $19296.23 · realised +296.23
+Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $18868.48 this week
