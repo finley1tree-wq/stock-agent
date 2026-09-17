@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-17T12:00-04:00",
+ "asOf": "2026-09-17T12:02-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,34 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "ae2ab9fb",
-   "ticker": "TSM",
+   "id": "31f2a5b4",
+   "ticker": "CHRW",
    "kind": "take_profit",
-   "price": 426.668,
+   "price": 153.5836,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 426.46,
-   "pct_away": 0.05,
+   "last": 153.45,
+   "pct_away": 0.09,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fb329791",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 125.326,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 125.4,
-   "pct_away": -0.06,
-   "good_until": "2026-09-22",
-   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 153.4,
-   "pct_away": -0.06,
+   "last": 153.45,
+   "pct_away": -0.09,
    "good_until": "2026-09-22",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -190,34 +173,17 @@
    ]
   },
   {
-   "id": "31f2a5b4",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 153.5836,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 153.4,
-   "pct_away": 0.12,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "57e1ea7e",
-   "ticker": "TSM",
+   "id": "fb329791",
+   "ticker": "NEM",
    "kind": "stop_loss",
-   "price": 425.966,
+   "price": 125.326,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 426.46,
-   "pct_away": -0.12,
+   "last": 125.45,
+   "pct_away": -0.1,
    "good_until": "2026-09-22",
-   "why": "close it all at -0.6% under the average cost",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 125.4,
-   "pct_away": 0.21,
+   "last": 125.45,
+   "pct_away": 0.17,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -248,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 131.29,
-   "pct_away": 0.35,
+   "last": 131.38,
+   "pct_away": 0.28,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -265,10 +231,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.28,
-   "pct_away": 0.4,
+   "last": 238.07,
+   "pct_away": 0.49,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e4f94c85",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 236.596,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 238.07,
+   "pct_away": -0.62,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,30 +265,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 400.54,
-   "pct_away": -0.64,
+   "last": 400.68,
+   "pct_away": -0.68,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "e4f94c85",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 236.596,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 238.28,
-   "pct_away": -0.71,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -316,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 131.29,
-   "pct_away": -0.9,
+   "last": 131.38,
+   "pct_away": -0.97,
    "good_until": "2026-09-22",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -333,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 238.28,
-   "pct_away": -2.92,
+   "last": 238.07,
+   "pct_away": -2.83,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,8 +316,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 131.29,
-   "pct_away": -3.01,
+   "last": 131.38,
+   "pct_away": -3.07,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -367,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 153.4,
-   "pct_away": -3.15,
+   "last": 153.45,
+   "pct_away": -3.18,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -384,25 +350,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 125.4,
-   "pct_away": -3.18,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "56a8bc9f",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 412.8029,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 426.46,
-   "pct_away": -3.2,
+   "last": 125.45,
+   "pct_away": -3.22,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

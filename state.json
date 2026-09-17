@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 15115.18,
+  "spent": 12107.41,
   "deployed": 725877.32,
   "by_ticker": {
     "GOOGL": 34.36,
@@ -19,7 +19,6 @@
     "AAPL": 41.73,
     "META": 51.45,
     "TTD": 41.43,
-    "TSM": 3006.0,
     "IBM": 3000.0
   },
   "deployed_by_ticker": {
@@ -9426,13 +9425,34 @@
       ],
       "evidence": "average cost $31.83",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 7.04945,
+      "status": "filled",
+      "price": 426.67,
+      "proceeds": 3007.77,
+      "realized_pnl": 7.77,
+      "realized_pct": 0.26,
+      "date": "2026-09-17",
+      "time_et": "12:02",
+      "ts": 1789660800,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $425.57",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 14978.05,
+  "spent_today": 11970.28,
   "deployed_today": 125622.3,
   "orders_today": 45,
-  "sells_today": 39,
+  "sells_today": 40,
   "sold_today": [
     "BE",
     "CRWD",
@@ -9471,30 +9491,27 @@
     "PLTR": 1789659018,
     "SKWD": 1789566945,
     "SBLK": 1789660815,
-    "TSM": 1789657323
+    "TSM": 1789660948
   },
-  "last_publish_ts": 1789660814,
-  "last_check_ts": 1789660863,
+  "last_publish_ts": 1789660948,
+  "last_check_ts": 1789660948,
   "last_bar_ts": 1789660800,
   "last_decision_ts": 1789660863,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "ae2ab9fb": 426.668,
-    "fb329791": 125.326,
-    "efd788b7": 153.308,
     "31f2a5b4": 153.5836,
-    "57e1ea7e": 425.966,
+    "efd788b7": 153.308,
+    "fb329791": 125.326,
     "4a109fc3": 125.6582,
     "0b5aeb30": 131.7487,
     "7100ce4e": 239.2336,
-    "13a9656c": 397.9656,
     "e4f94c85": 236.596,
+    "13a9656c": 397.9656,
     "c9494236": 130.1077,
     "356b1e07": 231.3256,
     "91288cfc": 127.3416,
     "9b9e5f2f": 148.5749,
-    "df711bdb": 121.4149,
-    "56a8bc9f": 412.8029
+    "df711bdb": 121.4149
   }
 }
