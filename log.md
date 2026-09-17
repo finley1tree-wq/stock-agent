@@ -9194,3 +9194,17 @@ Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $12894.83 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [take_profit @ $153.58] -> $3008.08 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-17 12:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 12:09 ET (Thursday) — week 2026-W38 — budget left $15902.91 (today $128622.30 put to work, 46 buys, 42 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9JUvLNhZ816tZ4dnSer'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25337.96 (+1.35% on $25000.00 in) · cash $16330.66 · realised +330.66
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
