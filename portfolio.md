@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-17 11:40 ET
+# Pretend portfolio — 2026-09-17 11:43 ET
 
-**Equity $25289.42** on $25000.00 put in → **+1.16%**  
-Cash $19290.62 · Unrealised -1.20 · Realised +290.62
+**Equity $25297.78** on $25000.00 put in → **+1.19%**  
+Cash $19290.62 · Unrealised +7.16 · Realised +290.62
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| CRWD | 11.9% | $2999.40 | $245.74 | $245.69 | -0.02% | 0d |
-| AAPL | 11.9% | $2999.40 | $333.52 | $333.45 | -0.02% | 0d |
+| CRWD | 11.9% | $3007.21 | $245.74 | $246.33 | +0.24% | 0d |
+| AAPL | 11.9% | $2999.94 | $333.52 | $333.51 | -0.00% | 0d |
 
 ## Last fills
 
