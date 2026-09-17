@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% NEM @ $123.95 until 2026-09-22 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NEM @ $121.41 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25300.07 (+1.20% on $25000.00 in) · cash $7303.88 · realised +303.88
 Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $6876.13 this week
 
 ## 2026-09-17 11:58 ET (Thursday) — week 2026-W38 — budget left $6876.13 (today $125622.30 put to work, 45 buys, 38 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $127.75 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25317.13 (+1.27% on $25000.00 in) · cash $10309.86 · realised +309.86
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9882.12 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $428.22] -> $3007.80 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-17 13:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

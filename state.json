@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 15117.88,
+  "spent": 12110.08,
   "deployed": 764877.32,
   "by_ticker": {
     "GOOGL": 3032.51,
@@ -20,8 +20,7 @@
     "META": 59.98,
     "TTD": 45.92,
     "IBM": 3.09,
-    "PLTR": 19.01,
-    "TSM": 3000.0
+    "PLTR": 19.01
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -9921,13 +9920,34 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers); +3.7% over the month; 60% of today's range"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 7.024027,
+      "status": "filled",
+      "price": 428.22,
+      "proceeds": 3007.8,
+      "realized_pnl": 7.8,
+      "realized_pct": 0.26,
+      "date": "2026-09-17",
+      "time_et": "13:02",
+      "ts": 1789664400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $427.11",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 14980.75,
+  "spent_today": 11972.95,
   "deployed_today": 164622.3,
   "orders_today": 58,
-  "sells_today": 52,
+  "sells_today": 53,
   "sold_today": [
     "BE",
     "CRWD",
@@ -9966,21 +9986,19 @@
     "PLTR": 1789663687,
     "SKWD": 1789566945,
     "SBLK": 1789660815,
-    "TSM": 1789660948
+    "TSM": 1789664539
   },
-  "last_publish_ts": 1789664454,
-  "last_check_ts": 1789664454,
+  "last_publish_ts": 1789664539,
+  "last_check_ts": 1789664539,
   "last_bar_ts": 1789664400,
   "last_decision_ts": 1789664454,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "7aeab579": 428.2162,
-    "d9e038b2": 427.494,
     "ed200489": 346.3509,
     "7879c0ab": 124.8287,
-    "ea3b9a36": 154.6233,
     "7ef3f8cb": 132.1689,
+    "ea3b9a36": 154.6233,
     "13a9656c": 397.9656,
     "4f045d90": 153.1753,
     "f69ad313": 343.2694,
@@ -9989,7 +10007,6 @@
     "2d369cf9": 149.5837,
     "b4e02120": 127.749,
     "82eedc5b": 335.1059,
-    "60c779aa": 120.6098,
-    "be5b6d5e": 414.2967
+    "60c779aa": 120.6098
   }
 }
