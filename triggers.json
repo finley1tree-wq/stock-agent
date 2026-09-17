@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "e53a331e",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 676.476,
-   "status": "cancelled",
-   "created": "2026-09-16 14:00",
-   "created_ts": 1789581622,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $675.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 14:06",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e1d4fe06",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 333.664,
-   "status": "cancelled",
-   "created": "2026-09-16 14:02",
-   "created_ts": 1789581741,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $333.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 14:05",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "27ea4474",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 345.162,
-   "status": "cancelled",
-   "created": "2026-09-16 14:02",
-   "created_ts": 1789581741,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $344.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 14:03",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f297c489",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 494.9957,
-   "status": "cancelled",
-   "created": "2026-09-16 14:02",
-   "created_ts": 1789581743,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $493.85",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 14:32",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "9d6d844a",
    "ticker": "MSFT",
    "kind": "stop_loss",
@@ -7278,7 +7202,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 336.4424,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 14:21",
    "created_ts": 1789669296,
    "why": "close 100% at +0.3% over the average cost",
@@ -7288,7 +7212,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 14:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2d071d75",
@@ -7314,7 +7240,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 325.5223,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 14:21",
    "created_ts": 1789669296,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7324,7 +7250,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 14:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a2ecc9e9",
@@ -7382,7 +7310,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 335.848,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 14:31",
    "created_ts": 1789669883,
    "why": "close it all at -0.6% under the average cost",
@@ -7392,7 +7320,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 14:35"
   },
   {
    "id": "27fffd7c",
@@ -7416,7 +7345,7 @@
    "ticker": "SBLK",
    "kind": "stop_loss",
    "price": 31.6303,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 14:32",
    "created_ts": 1789669968,
    "why": "close it all at -0.8% under the average cost",
@@ -7426,7 +7355,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 14:35",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "cb6ac78d",
@@ -7495,7 +7426,75 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "c5dc4e90",
+   "ticker": "SBLK",
+   "kind": "stop_loss",
+   "price": 31.9,
+   "status": "working",
+   "created": "2026-09-17 14:35",
+   "created_ts": 1789670132,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $31.87",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c288d644",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 176.1451,
+   "status": "working",
+   "created": "2026-09-17 14:35",
+   "created_ts": 1789670134,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $175.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8b08ea08",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 173.4322,
+   "status": "working",
+   "created": "2026-09-17 14:35",
+   "created_ts": 1789670134,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $175.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b6c4db67",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 170.1089,
+   "status": "working",
+   "created": "2026-09-17 14:35",
+   "created_ts": 1789670134,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $175.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-17 14:32"
+ "updated": "2026-09-17 14:35"
 }

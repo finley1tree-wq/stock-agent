@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T14:32-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,906 idle, so opened 2: SBLK, BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gat",
+ "asOf": "2026-09-17T14:35-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,907 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,85 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "20a84f2e",
-   "ticker": "AAPL",
+   "id": "c5dc4e90",
+   "ticker": "SBLK",
    "kind": "stop_loss",
-   "price": 335.848,
+   "price": 31.9,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 335.8,
-   "pct_away": 0.01,
+   "last": 31.92,
+   "pct_away": -0.06,
    "good_until": "2026-09-22",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1d9d0fdc",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 336.4424,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 335.8,
-   "pct_away": 0.19,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "abff9827",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 133.618,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 133.29,
-   "pct_away": 0.25,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "13a9656c",
-   "ticker": "GLD",
-   "kind": "buy_limit",
-   "price": 397.9656,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 399.0,
-   "pct_away": -0.26,
-   "good_until": "2026-09-18",
-   "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "c841d60c",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 154.5431,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 154.11,
-   "pct_away": 0.28,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +163,59 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 31.86,
-   "pct_away": 0.33,
+   "last": 31.92,
+   "pct_away": 0.14,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "13a9656c",
+   "ticker": "GLD",
+   "kind": "buy_limit",
+   "price": 397.9656,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 398.64,
+   "pct_away": -0.17,
+   "good_until": "2026-09-18",
+   "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "abff9827",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 133.618,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 133.23,
+   "pct_away": 0.29,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c841d60c",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 154.5431,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.93,
+   "pct_away": 0.4,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -248,10 +231,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 237.95,
-   "pct_away": 0.41,
+   "last": 237.92,
+   "pct_away": 0.43,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c288d644",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 176.1451,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 175.33,
+   "pct_away": 0.46,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 154.11,
-   "pct_away": -0.66,
+   "last": 153.93,
+   "pct_away": -0.54,
    "good_until": "2026-09-22",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -282,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 237.95,
-   "pct_away": -0.7,
+   "last": 237.92,
+   "pct_away": -0.68,
    "good_until": "2026-09-22",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -299,27 +299,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 279.2,
-   "pct_away": 0.71,
+   "last": 278.7,
+   "pct_away": 0.89,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "71a15fbd",
-   "ticker": "SBLK",
-   "kind": "stop_loss",
-   "price": 31.6303,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 31.86,
-   "pct_away": -0.72,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -333,10 +316,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 133.29,
-   "pct_away": -1.01,
+   "last": 133.23,
+   "pct_away": -0.96,
    "good_until": "2026-09-22",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8b08ea08",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 173.4322,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 175.33,
+   "pct_away": -1.08,
+   "good_until": "2026-09-22",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -350,44 +350,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 279.2,
-   "pct_away": -1.71,
+   "last": 278.7,
+   "pct_away": -1.53,
    "good_until": "2026-09-22",
    "why": "close it all at -1.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a907322d",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 231.0346,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 237.95,
-   "pct_away": -2.91,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cb6ac78d",
-   "ticker": "SBLK",
-   "kind": "buy_limit",
-   "price": 30.9139,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 31.86,
-   "pct_away": -2.97,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -401,8 +367,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 279.2,
-   "pct_away": -2.98,
+   "last": 278.7,
+   "pct_away": -2.81,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 154.11,
-   "pct_away": -2.99,
+   "last": 153.93,
+   "pct_away": -2.87,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -428,15 +394,32 @@
    ]
   },
   {
-   "id": "eb8b3394",
-   "ticker": "AAPL",
+   "id": "a907322d",
+   "ticker": "IBM",
    "kind": "buy_limit",
-   "price": 325.5223,
+   "price": 231.0346,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 335.8,
-   "pct_away": -3.06,
+   "last": 237.92,
+   "pct_away": -2.89,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b6c4db67",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 170.1089,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 175.33,
+   "pct_away": -2.98,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -452,8 +435,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 133.29,
-   "pct_away": -3.11,
+   "last": 133.23,
+   "pct_away": -3.07,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cb6ac78d",
+   "ticker": "SBLK",
+   "kind": "buy_limit",
+   "price": 30.9139,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 31.92,
+   "pct_away": -3.15,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -462,7 +462,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,906 idle, so opened 2: SBLK, BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gat",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,907 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -528,13 +528,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 293,
+  "decisions_graded": 292,
   "decisions_with_buys_graded": 91,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.33,
   "chosen_avg_pct": 0.15,
   "skipped_avg_pct": 0.48,
-  "idle_universe_avg_pct": 0.49,
+  "idle_universe_avg_pct": 0.5,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -614,7 +614,7 @@
   ],
   "sectors_most_often_missed": {
    "off-watchlist": {
-    "n": 12
+    "n": 11
    },
    "widely_held": {
     "n": 9
@@ -629,7 +629,7 @@
     "n": 1
    }
   },
-  "idle_checks": 261,
+  "idle_checks": 260,
   "blocked_checks": 0,
   "idle_share": 0.65,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1951,7 +1951,7 @@
   ],
   "BE": [
    {
-    "title": "Stock Market Today: Dow Gains 300 Points; Palantir Higher Amid AI Regulation Debate (Live Coverage)",
+    "title": "Stock Market Today: Dow Gains 300 Points; Palantir Higher Amid AI Debate (Live Coverage)",
     "source": "Investor's Business Daily",
     "when": "2026-09-17T18:01"
    },
@@ -2364,7 +2364,7 @@
     "when": "2026-09-17T18:09"
    },
    {
-    "title": "Stock Market Today: Dow Gains 300 Points; Palantir Higher Amid AI Regulation Debate (Live Coverage)",
+    "title": "Stock Market Today: Dow Gains 300 Points; Palantir Higher Amid AI Debate (Live Coverage)",
     "source": "Investor's Business Daily",
     "when": "2026-09-17T18:01"
    },
@@ -2529,5 +2529,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T14:32-04:00"
+ "signalsAsOf": "2026-09-17T14:35-04:00"
 }

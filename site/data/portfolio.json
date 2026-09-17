@@ -1,5 +1,5 @@
 {
-  "cash": 7333.968207372896,
+  "cash": 7334.799550403288,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
@@ -21,15 +21,6 @@
       "tranches": 1,
       "last_buy_ts": 1789668629,
       "opened_ts": 1789668629
-    },
-    "AAPL": {
-      "qty": 8.939556866881272,
-      "avg_cost": 335.587104,
-      "opened": "2026-09-17",
-      "last_buy": "2026-09-17",
-      "tranches": 1,
-      "last_buy_ts": 1789669300,
-      "opened_ts": 1789669300
     },
     "IBM": {
       "qty": 12.595641540234345,
@@ -57,6 +48,15 @@
       "tranches": 1,
       "last_buy_ts": 1789669974,
       "opened_ts": 1789669974
+    },
+    "PLTR": {
+      "qty": 17.10717002210691,
+      "avg_cost": 175.365066,
+      "opened": "2026-09-17",
+      "last_buy": "2026-09-17",
+      "tranches": 1,
+      "last_buy_ts": 1789670141,
+      "opened_ts": 1789670141
     }
   },
   "fills": [
@@ -7619,7 +7619,29 @@
       "price": 279.26,
       "type": "buy",
       "date": "2026-09-17 14:32"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 8.939557,
+      "status": "filled",
+      "price": 335.68,
+      "proceeds": 3000.83,
+      "realized_pnl": 0.83,
+      "realized_pct": 0.03,
+      "type": "sell",
+      "date": "2026-09-17 14:35"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.10717,
+      "price": 175.37,
+      "type": "buy",
+      "date": "2026-09-17 14:35"
     }
   ],
-  "realized_pnl": 333.9682073729094
+  "realized_pnl": 334.7995504033016
 }
