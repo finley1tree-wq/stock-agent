@@ -8279,3 +8279,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING buy_limit $1000.00 GLD @ $397.97 until 2026-09-18 — strong month, weak day: resting 0.44% under $399.73 to catch the dip
 portfolio: equity $25159.72 (+0.64% on $25000.00 in) · cash $7861.55 · realised +181.90
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 22 order(s) working; budget left $7433.77 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $497.00] -> $3006.88 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-17 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
