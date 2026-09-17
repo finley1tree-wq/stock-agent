@@ -8306,3 +8306,22 @@ Done: 0 sell(s), 1 buy(s); 17 order(s) working; budget left $9449.88 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $669.47] -> $2973.24 (-0.89%) — close it all at -0.8% under the average cost
 ## 2026-09-17 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (trigger TSM stop_loss superseded at this check)
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $426.33] -> $2326.32 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-17 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-17 09:46 ET (Thursday) — week 2026-W38 — budget left $14749.44 (today $41320.35 put to work, 16 buys, 12 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf97ZY5mTbbgjSRAUxPDW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% NEM @ $124.47 until 2026-09-22 — close it all at -1.0% under the average cost
+portfolio: equity $25185.28 (+0.74% on $25000.00 in) · cash $15177.22 · realised +177.22
+Decision: nothing at this check. 10 standing order(s) working.

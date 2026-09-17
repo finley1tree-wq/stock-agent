@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b7c1b9c3",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 259.2422,
-   "status": "cancelled",
-   "created": "2026-09-16 09:32",
-   "created_ts": 1789565552,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $267.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "cb1caaba",
    "ticker": "CRWD",
    "kind": "take_profit",
@@ -6916,7 +6897,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 422.2006,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:32",
    "created_ts": 1789651948,
    "why": "strong month, weak day: resting 0.48% under $424.24 to catch the dip",
@@ -6926,7 +6907,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-18",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-17 09:46",
+   "cancel_reason": "position closed"
   },
   {
    "id": "59e0267a",
@@ -7211,7 +7194,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 123.0806,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:37",
    "created_ts": 1789652260,
    "why": "close it all at -1.0% under the average cost",
@@ -7221,7 +7204,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "61831c4b",
@@ -7303,7 +7288,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 426.3286,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 09:37",
    "created_ts": 1789652260,
    "why": "close 100% at +0.3% over the average cost",
@@ -7313,7 +7298,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:46"
   },
   {
    "id": "5b8b3975",
@@ -7339,7 +7325,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 412.4828,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:37",
    "created_ts": 1789652260,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7349,7 +7335,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 09:46",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b284d559",
@@ -7446,7 +7434,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 425.576,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:43",
    "created_ts": 1789652599,
    "why": "close it all at -0.6% under the average cost",
@@ -7456,7 +7444,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:46",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "d9d19a32",
@@ -7508,7 +7498,24 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "4c6891bc",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 124.472,
+   "status": "working",
+   "created": "2026-09-17 09:46",
+   "created_ts": 1789652765,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $124.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 09:44"
+ "updated": "2026-09-17 09:46"
 }
