@@ -1,6 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25256.27 (+1.03% on $25000.00 in) · cash $16259.56 · realised +259.56
 Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% HLI [time stop] -> $3004.03 (+0.13%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $334.67 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25324.38 (+1.30% on $25000.00 in) · cash $13322.58 · realised +322.58
 Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $12894.83 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $153.58] -> $3008.08 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-17 12:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
