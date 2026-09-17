@@ -1,20 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,904 idle, so opened 3: MSFT, TTD, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.7% over the month; 19% of today's range
-- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.3% over the month; 6% of today's range
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +12.4% over the month; 71% of today's range
-~ WORKING take_profit 100% MSFT @ $496.04 until 2026-09-22 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $492.06 until 2026-09-22 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $480.05 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TTD @ $14.35 until 2026-09-22 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% TTD @ $14.10 until 2026-09-22 — close it all at -1.3% under the average cost
-~ WORKING buy_limit $500.00 TTD @ $13.85 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $547.15 until 2026-09-22 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMD @ $538.61 until 2026-09-22 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $528.37 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25324.00 (+1.30% on $25000.00 in) · cash $7331.28 · realised +331.28
-Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $6903.53 this week
-
 ## 2026-09-17 14:49 ET (Thursday) — week 2026-W38 — budget left $6903.53 (today $227622.30 put to work, 79 buys, 72 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -397,4 +380,21 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 ~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25308.07 (+1.23% on $25000.00 in) · cash $22309.27 · realised +309.27
+Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-17 15:47 ET (Thursday) — week 2026-W38 — budget left $21881.52 (today $245622.30 put to work, 85 buys, 83 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (RVSB excluded: too thinly traded ($0.6M a day) — Riverview Bancorp, Inc.)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9b8MJSYhQNN9gvoA8m7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25304.57 (+1.22% on $25000.00 in) · cash $22309.27 · realised +309.27
 Decision: nothing at this check. 3 standing order(s) working.
