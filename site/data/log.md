@@ -1,36 +1,3 @@
-- BUY $3000.00 SBLK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 3 insiders bought (Form 4, incl. officer: co CFO); +2.5% over the month; 29% of today's range
-~ WORKING take_profit 100% SBLK @ $30.94 until 2026-09-21 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% SBLK @ $30.61 until 2026-09-21 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 SBLK @ $29.92 until 2026-09-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25245.35 (+0.98% on $25000.00 in) · cash $16270.27 · realised +270.27
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15842.50 this week
-
-## 2026-09-16 15:15 ET (Wednesday) — week 2026-W38 — budget left $15842.50 (today $216445.83 put to work, 73 buys, 70 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7euHUM24gJARguMCEdG'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25224.92 (+0.90% on $25000.00 in) · cash $16270.27 · realised +270.27
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on META: position closed)
-- SELL 100% META [stop_loss @ $673.39] -> $2972.43 (-0.92%) — close it all at -0.9% under the average cost
-## 2026-09-16 15:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-16 15:18 ET (Wednesday) — week 2026-W38 — budget left $18814.93 (today $216445.83 put to work, 73 buys, 71 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARDC excluded: too thinly traded ($1.2M a day) — Ares Dynamic Credit Allocation Fund, Inc.)
-  (ASYS excluded: too thinly traded ($6.1M a day) — Amtech Systems, Inc.)
-  (BDN excluded: too thinly traded ($5.8M a day) — Brandywine Realty Trust)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf7f7ZoT2PLUfid9uqycJ'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,815 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +1.9% over the month; 2% of today's range
 ~ WORKING take_profit 100% MSFT @ $490.72 until 2026-09-21 — close 100% at +0.2% over the average cost
@@ -398,3 +365,36 @@ Decision: nothing at this check. 29 standing order(s) working.
 - SELL 100% SBLK [stop_loss @ $31.29] -> $3002.86 (+0.10%) — close it all at -0.7% under the average cost
 - BUY $1000.00 PLTR [buy_limit @ $173.45] — strong month, weak day: resting 0.81% under $174.87 to catch the dip
 ## 2026-09-17 09:36 ET — tick — 3 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $331.41] -> $2979.88 (-0.67%) — close it all at -0.6% under the average cost
+- BUY $1000.00 GOOGL [buy_limit @ $346.13] — strong month, weak day: resting 0.47% under $347.78 to catch the dip
+## 2026-09-17 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-17 09:37 ET (Thursday) — week 2026-W38 — budget left $16748.59 (today $26000.00 put to work, 10 buys, 6 sells) — SIM (pretend money) via sim
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf96v5hyjRxrjWiZm2LMM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $16,749 idle, so opened 4: META, NEM, IBM, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +24.2% over the month; 17% of today's range
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.1% over the month; 8% of today's range
+- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.4% over the month; 73% of today's range
+- BUY $2320.35 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.8% over the month; 76% of today's range
+~ WORKING take_profit 100% META @ $677.78 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% META @ $669.81 until 2026-09-22 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 META @ $655.24 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $124.79 until 2026-09-22 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $123.08 until 2026-09-22 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $120.57 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $241.39 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $238.80 until 2026-09-22 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $233.43 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $426.33 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $422.52 until 2026-09-22 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $412.48 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25164.05 (+0.66% on $25000.00 in) · cash $5856.02 · realised +176.37
+Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $5428.24 this week
