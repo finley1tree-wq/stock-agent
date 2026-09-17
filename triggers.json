@@ -6416,7 +6416,7 @@
    "ticker": "CHRW",
    "kind": "take_profit",
    "price": 154.3888,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:32",
    "created_ts": 1789651948,
    "why": "close 100% at +0.3% over the average cost",
@@ -6426,14 +6426,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4179623c",
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 152.9921,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 09:32",
    "created_ts": 1789651948,
    "why": "close it all at -0.6% under the average cost",
@@ -6443,14 +6445,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:59"
   },
   {
    "id": "4cc5b50a",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 149.3703,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:32",
    "created_ts": 1789651948,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6460,7 +6463,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 09:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "cb8fbfda",
@@ -7527,5 +7532,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-17 09:57"
+ "updated": "2026-09-17 09:59"
 }

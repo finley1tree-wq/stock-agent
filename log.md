@@ -8387,3 +8387,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25203.40 (+0.81% on $25000.00 in) · cash $22208.89 · realised +208.89
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [stop_loss @ $152.92] -> $2979.04 (-0.70%) — close it all at -0.6% under the average cost
+## 2026-09-17 09:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
