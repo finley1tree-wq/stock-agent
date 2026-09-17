@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "44e6ccf2",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.1278,
-   "status": "cancelled",
-   "created": "2026-09-16 09:32",
-   "created_ts": 1789565552,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $153.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "75be5da3",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -7254,7 +7235,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 343.9252,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 09:36",
    "created_ts": 1789652212,
    "why": "close it all at -0.6% under the average cost",
@@ -7264,7 +7245,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 09:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "bcb86f93",
@@ -7486,7 +7469,24 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "b284d559",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 346.7,
+   "status": "working",
+   "created": "2026-09-17 09:39",
+   "created_ts": 1789652341,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $346.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 09:37"
+ "updated": "2026-09-17 09:39"
 }
