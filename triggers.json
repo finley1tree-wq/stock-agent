@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "b48a4e86",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 271.15,
-   "status": "filled",
-   "created": "2026-09-16 10:26",
-   "created_ts": 1789568815,
-   "why": "close it all at -1.7% under the average cost",
-   "evidence": "average cost $270.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 10:30"
-  },
-  {
    "id": "4c194c14",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -7155,7 +7137,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 236.8365,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 10:32",
    "created_ts": 1789655540,
    "why": "close it all at -0.8% under the average cost",
@@ -7165,7 +7147,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 11:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0278f413",
@@ -7500,7 +7484,24 @@
    "good_until": "2026-09-22",
    "pct_of_position": 100.0,
    "closed": "2026-09-17 10:55"
+  },
+  {
+   "id": "84240421",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 239.074,
+   "status": "working",
+   "created": "2026-09-17 11:00",
+   "created_ts": 1789657228,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $238.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 10:58"
+ "updated": "2026-09-17 11:01"
 }
