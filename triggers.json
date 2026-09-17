@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "19e4a8c6",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 241.4983,
-   "status": "cancelled",
-   "created": "2026-09-16 13:26",
-   "created_ts": 1789579597,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $240.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:30",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0053c0c1",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 240.992,
-   "status": "filled",
-   "created": "2026-09-16 13:27",
-   "created_ts": 1789579672,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $240.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:30"
-  },
-  {
    "id": "15c300bf",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -7098,7 +7061,7 @@
    "ticker": "TTD",
    "kind": "take_profit",
    "price": 14.3818,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:29",
    "created_ts": 1789666184,
    "why": "close 100% at +0.5% over the average cost",
@@ -7108,7 +7071,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:48",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5d280428",
@@ -7253,7 +7218,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 175.5945,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:34",
    "created_ts": 1789666488,
    "why": "close 100% at +0.4% over the average cost",
@@ -7263,7 +7228,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:49",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6323518c",
@@ -7289,7 +7256,7 @@
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 169.5754,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:34",
    "created_ts": 1789666488,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7299,7 +7266,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 13:49",
+   "cancel_reason": "position closed"
   },
   {
    "id": "00de6a4a",
@@ -7445,7 +7414,7 @@
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 175.06,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 13:44",
    "created_ts": 1789667040,
    "why": "close it all at -1.1% under the average cost",
@@ -7455,7 +7424,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:49"
   },
   {
    "id": "e208489d",
@@ -7492,7 +7462,43 @@
    ],
    "good_until": "2026-09-22",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "bfcfb1a5",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 15.0255,
+   "status": "cancelled",
+   "created": "2026-09-17 13:48",
+   "created_ts": 1789667327,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $14.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:49",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "cb9b9252",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.3818,
+   "status": "working",
+   "created": "2026-09-17 13:49",
+   "created_ts": 1789667373,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $14.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 13:48"
+ "updated": "2026-09-17 13:49"
 }
