@@ -1,6 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25187.93 (+0.75% on $25000.00 in) · cash $25187.93 · realised +187.93
-Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-17 10:06 ET (Thursday) — week 2026-W38 — budget left $24760.15 (today $41320.35 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% NEM [time stop] -> $2991.13 (-0.30%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-17 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $152.58] -> $3008.14 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-17 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders

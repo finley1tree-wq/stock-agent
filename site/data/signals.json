@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-17T11:07-04:00",
+ "asOf": "2026-09-17T11:09-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "ea3d0d2e",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 152.5839,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.52,
-   "pct_away": 0.04,
-   "good_until": "2026-09-22",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a7ae203a",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.302,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.52,
-   "pct_away": -0.14,
-   "good_until": "2026-09-22",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "13a9656c",
    "ticker": "GLD",
    "kind": "buy_limit",
@@ -180,30 +146,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.43,
-   "pct_away": -0.37,
+   "last": 399.34,
+   "pct_away": -0.34,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "ce30ce39",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.6049,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 152.52,
-   "pct_away": -3.22,
-   "good_until": "2026-09-22",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],
