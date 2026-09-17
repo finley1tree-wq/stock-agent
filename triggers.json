@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "04543020",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 330.3025,
-   "status": "cancelled",
-   "created": "2026-09-16 12:37",
-   "created_ts": 1789576672,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $332.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 12:45",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "1c0e5968",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 322.4474,
-   "status": "cancelled",
-   "created": "2026-09-16 12:37",
-   "created_ts": 1789576672,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $332.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 500.0,
-   "closed": "2026-09-16 12:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "320a27fb",
-   "ticker": "SBLK",
-   "kind": "take_profit",
-   "price": 31.2146,
-   "status": "cancelled",
-   "created": "2026-09-16 12:40",
-   "created_ts": 1789576830,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $31.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:10",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "22fb14a8",
-   "ticker": "SBLK",
-   "kind": "stop_loss",
-   "price": 30.8835,
-   "status": "cancelled",
-   "created": "2026-09-16 12:40",
-   "created_ts": 1789576830,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $31.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:10",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "37631db2",
    "ticker": "SBLK",
    "kind": "buy_limit",
@@ -7288,7 +7212,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 123.1177,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 12:52",
    "created_ts": 1789663942,
    "why": "close it all at -1.0% under the average cost",
@@ -7298,7 +7222,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:07",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "60c779aa",
@@ -7507,7 +7433,75 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "a70df5f6",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 124.514,
+   "status": "working",
+   "created": "2026-09-17 13:07",
+   "created_ts": 1789664832,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $124.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6b8a1540",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 239.3439,
+   "status": "working",
+   "created": "2026-09-17 13:07",
+   "created_ts": 1789664834,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $238.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "fd70df05",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 236.7051,
+   "status": "working",
+   "created": "2026-09-17 13:07",
+   "created_ts": 1789664834,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $238.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6bfadf1a",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 231.4323,
+   "status": "working",
+   "created": "2026-09-17 13:07",
+   "created_ts": 1789664834,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $238.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-17 13:04"
+ "updated": "2026-09-17 13:07"
 }
