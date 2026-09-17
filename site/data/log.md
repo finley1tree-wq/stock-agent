@@ -1,20 +1,3 @@
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9GxvEDYA5UJaExmRrk6'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,868 idle, so opened 2: IBM, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.5% over the month; 12% of today's range
-- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.9% over the month; 60% of today's range
-~ WORKING take_profit 100% IBM @ $239.23 until 2026-09-22 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% IBM @ $236.60 until 2026-09-22 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 IBM @ $231.33 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $426.67 until 2026-09-22 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% TSM @ $422.83 until 2026-09-22 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $412.80 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25299.48 (+1.20% on $25000.00 in) · cash $13296.23 · realised +296.23
 Done: 0 sell(s), 2 buy(s); 13 order(s) working; budget left $12868.48 this week
   (cancelled 2 standing order(s) on AAPL: position closed)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $120.61 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25303.19 (+1.21% on $25000.00 in) · cash $13310.75 · realised +310.75
 Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $12883.00 this week
+
+## 2026-09-17 12:55 ET (Thursday) — week 2026-W38 — budget left $12883.00 (today $155622.30 put to work, 55 buys, 50 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9My4PC5kGveWEQL39fW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,883 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.5% over the month; 82% of today's range
+~ WORKING take_profit 100% CHRW @ $154.62 until 2026-09-22 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $153.18 until 2026-09-22 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $149.58 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25307.61 (+1.23% on $25000.00 in) · cash $10310.75 · realised +310.75
+Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9883.00 this week
