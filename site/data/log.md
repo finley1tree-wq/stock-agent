@@ -1,6 +1,3 @@
-portfolio: equity $25339.58 (+1.36% on $25000.00 in) · cash $16338.39 · realised +338.39
-Decision: nothing at this check. 10 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-17 14:07 ET (Thursday) — week 2026-W38 — budget left $15910.64 (today $194622.30 put to work, 68 buys, 64 sells) — SIM (pretend money) via sim
   (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 NEM @ $120.87 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25333.86 (+1.34% on $25000.00 in) · cash $10338.58 · realised +338.58
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9910.82 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $545.27] -> $3003.10 (+0.10%) — close it all at -1.1% under the average cost
+## 2026-09-17 15:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
