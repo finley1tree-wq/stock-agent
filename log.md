@@ -8812,3 +8812,5 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25260.96 (+1.04% on $25000.00 in) · cash $19263.59 · realised +263.59
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% NEM [time stop] -> $2991.13 (-0.30%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
