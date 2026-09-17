@@ -1,9 +1,28 @@
 {
-  "cash": 25262.864275742384,
+  "cash": 19262.864275742384,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
-  "positions": {},
+  "positions": {
+    "TTD": {
+      "qty": 208.39475189771207,
+      "avg_cost": 14.395756,
+      "opened": "2026-09-17",
+      "last_buy": "2026-09-17",
+      "tranches": 1,
+      "last_buy_ts": 1789658134,
+      "opened_ts": 1789658134
+    },
+    "GOOGL": {
+      "qty": 8.64081620182071,
+      "avg_cost": 347.189424,
+      "opened": "2026-09-17",
+      "last_buy": "2026-09-17",
+      "tranches": 1,
+      "last_buy_ts": 1789658134,
+      "opened_ts": 1789658134
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -6668,6 +6687,26 @@
       "realized_pct": 0.27,
       "type": "sell",
       "date": "2026-09-17 11:09"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 208.394752,
+      "price": 14.4,
+      "type": "buy",
+      "date": "2026-09-17 11:15"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.640816,
+      "price": 347.19,
+      "type": "buy",
+      "date": "2026-09-17 11:15"
     }
   ],
   "realized_pnl": 262.8642757423977

@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 164.9,
-  "deployed": 683877.32,
+  "spent": 6164.9,
+  "deployed": 689877.32,
   "by_ticker": {
-    "GOOGL": 35.2,
+    "GOOGL": 3035.2,
     "AMD": 42.16,
     "FLD": 1.2,
     "TPL": 62.38,
@@ -18,7 +18,7 @@
     "BE": 13.49,
     "AAPL": 49.38,
     "META": 53.29,
-    "TTD": 57.24,
+    "TTD": 3057.24,
     "TSM": 6.0
   },
   "deployed_by_ticker": {
@@ -31,10 +31,10 @@
     "NEM": 61000.0,
     "META": 54780.16,
     "AMD": 31000.0,
-    "TTD": 54000.0,
+    "TTD": 57000.0,
     "AAPL": 57000.0,
     "MSFT": 48903.62,
-    "GOOGL": 37000.0,
+    "GOOGL": 40000.0,
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
@@ -8991,12 +8991,47 @@
       ],
       "evidence": "average cost $152.17",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 208.394752,
+      "price": 14.4,
+      "date": "2026-09-17",
+      "time_et": "11:15",
+      "ts": 1789658129,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +7.2% over the month; 22% of today's range"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.640816,
+      "price": 347.19,
+      "date": "2026-09-17",
+      "time_et": "11:15",
+      "ts": 1789658129,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.8% over the month; 58% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 0.0,
-  "deployed_today": 83622.3,
-  "orders_today": 31,
+  "spent_today": 6000.0,
+  "deployed_today": 89622.3,
+  "orders_today": 33,
   "sells_today": 30,
   "sold_today": [
     "BE",
@@ -9038,13 +9073,19 @@
     "SBLK": 1789655577,
     "TSM": 1789657323
   },
-  "last_publish_ts": 1789657748,
-  "last_check_ts": 1789658047,
-  "last_bar_ts": 1789657800,
-  "last_decision_ts": 1789657959,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789658129,
+  "last_check_ts": 1789658129,
+  "last_bar_ts": 1789658100,
+  "last_decision_ts": 1789658129,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "13a9656c": 397.9656
+    "ee40ee50": 348.0684,
+    "13a9656c": 397.9656,
+    "728a6bf6": 14.4716,
+    "423f4e01": 344.9888,
+    "bcbb5c77": 14.2209,
+    "ce3ba866": 13.968,
+    "52a839c1": 336.7743
   }
 }
