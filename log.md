@@ -8666,3 +8666,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25248.05 (+0.99% on $25000.00 in) · cash $7255.81 · realised +255.81
 Decision: nothing at this check. 20 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $538.74] -> $3013.16 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-17 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
