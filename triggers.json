@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "dea17708",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 140.5215,
-   "status": "cancelled",
-   "created": "2026-09-16 13:12",
-   "created_ts": 1789578735,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $133.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:13",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "e9e5f24c",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -7154,7 +7135,7 @@
    "ticker": "SBLK",
    "kind": "stop_loss",
    "price": 31.7405,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:29",
    "created_ts": 1789666184,
    "why": "close it all at -0.7% under the average cost",
@@ -7164,7 +7145,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1a0c1965",
@@ -7488,7 +7471,24 @@
    ],
    "good_until": "2026-09-22",
    "usd": 500.0
+  },
+  {
+   "id": "d9bf5129",
+   "ticker": "SBLK",
+   "kind": "stop_loss",
+   "price": 32.016,
+   "status": "working",
+   "created": "2026-09-17 13:41",
+   "created_ts": 1789666868,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $31.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 13:39"
+ "updated": "2026-09-17 13:41"
 }
