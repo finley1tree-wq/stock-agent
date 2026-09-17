@@ -1,6 +1,3 @@
-
-## 2026-09-17 10:55 ET (Thursday) — week 2026-W38 — budget left $9836.49 (today $83622.30 put to work, 31 buys, 25 sells) — SIM (pretend money) via sim
-  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
   (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25315.15 (+1.26% on $25000.00 in) · cash $7303.88 · realised +303.88
 Decision: nothing at this check. 19 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SBLK: position closed)
+- SELL 100% SBLK [take_profit @ $31.92] -> $3008.69 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-17 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

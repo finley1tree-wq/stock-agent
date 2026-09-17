@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "251883a4",
-   "ticker": "SBLK",
-   "kind": "take_profit",
-   "price": 31.2547,
-   "status": "cancelled",
-   "created": "2026-09-16 11:33",
-   "created_ts": 1789572809,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $31.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 11:55",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "45ca3154",
    "ticker": "SBLK",
    "kind": "stop_loss",
@@ -7121,7 +7102,7 @@
    "ticker": "SBLK",
    "kind": "take_profit",
    "price": 31.9249,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 11:46",
    "created_ts": 1789660002,
    "why": "close 100% at +0.3% over the average cost",
@@ -7131,7 +7112,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 12:00"
   },
   {
    "id": "e16a9b42",
@@ -7157,7 +7139,7 @@
    "ticker": "SBLK",
    "kind": "buy_limit",
    "price": 30.8751,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:46",
    "created_ts": 1789660002,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7167,7 +7149,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 12:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0d442993",
@@ -7297,7 +7281,7 @@
    "ticker": "SBLK",
    "kind": "stop_loss",
    "price": 31.86,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:52",
    "created_ts": 1789660334,
    "why": "close it all at -0.7% under the average cost",
@@ -7307,7 +7291,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 12:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0b5aeb30",
@@ -7382,7 +7368,7 @@
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 152.1361,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 11:55",
    "created_ts": 1789660506,
    "why": "close it all at -0.7% under the average cost",
@@ -7392,7 +7378,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 12:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9b9e5f2f",
@@ -7497,7 +7485,24 @@
    ],
    "good_until": "2026-09-22",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "efd788b7",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 153.308,
+   "status": "working",
+   "created": "2026-09-17 12:00",
+   "created_ts": 1789660814,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $153.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 11:59"
+ "updated": "2026-09-17 12:01"
 }
