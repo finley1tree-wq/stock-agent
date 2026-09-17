@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 6095.73,
+  "spent": 3099.19,
   "deployed": 767877.32,
   "by_ticker": {
-    "GOOGL": 3032.51,
+    "GOOGL": 35.97,
     "AMD": 42.16,
     "FLD": 1.2,
     "TPL": 62.38,
@@ -10021,13 +10021,33 @@
       ],
       "evidence": "average cost $131.7",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 8.683845,
+      "status": "filled",
+      "price": 345.07,
+      "proceeds": 2996.54,
+      "realized_pnl": -3.46,
+      "realized_pct": -0.12,
+      "date": "2026-09-17",
+      "time_et": "13:27",
+      "ts": 1789666059,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.10% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 5958.6,
+  "spent_today": 2962.06,
   "deployed_today": 167622.3,
   "orders_today": 59,
-  "sells_today": 56,
+  "sells_today": 57,
   "sold_today": [
     "BE",
     "CRWD",
@@ -10058,7 +10078,7 @@
     "NEM": 1789665349,
     "MSFT": 1789663687,
     "FLD": 1789399070,
-    "GOOGL": 1789661530,
+    "GOOGL": 1789666059,
     "TPL": 1789500735,
     "GRNT": 1789413927,
     "MAIA": 1789406136,
@@ -10068,19 +10088,16 @@
     "SBLK": 1789660815,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789665772,
-  "last_check_ts": 1789666022,
+  "last_publish_ts": 1789666059,
+  "last_check_ts": 1789666104,
   "last_bar_ts": 1789665900,
   "last_decision_ts": 1789666022,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "ed200489": 346.3509,
-    "6b8a1540": 239.3439,
     "13a9656c": 397.9656,
-    "f69ad313": 343.2694,
+    "6b8a1540": 239.3439,
     "fd70df05": 236.7051,
-    "6bfadf1a": 231.4323,
-    "82eedc5b": 335.1059
+    "6bfadf1a": 231.4323
   }
 }
