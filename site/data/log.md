@@ -1,5 +1,3 @@
-  (cancelled 2 standing order(s) on NEM: position closed)
-- SELL 100% NEM [stop_loss @ $124.67] -> $3003.27 (+0.11%) — close it all at -1.0% under the average cost
 ## 2026-09-17 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-17 14:21 ET (Thursday) — week 2026-W38 — budget left $15904.84 (today $203622.30 put to work, 71 buys, 67 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25314.59 (+1.26% on $25000.00 in) · cash $10340.38 · realised +340.38
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9912.63 this week
+- SELL 100% CRWD [time stop] -> $2984.03 (-0.53%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-17 15:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
