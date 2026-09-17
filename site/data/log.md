@@ -1,20 +1,3 @@
-## 2026-09-17 09:37 ET (Thursday) — week 2026-W38 — budget left $16748.59 (today $26000.00 put to work, 10 buys, 6 sells) — SIM (pretend money) via sim
-  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf96v5hyjRxrjWiZm2LMM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $16,749 idle, so opened 4: META, NEM, IBM, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +24.2% over the month; 17% of today's range
-- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.1% over the month; 8% of today's range
-- BUY $3000.00 IBM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.4% over the month; 73% of today's range
-- BUY $2320.35 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +2.8% over the month; 76% of today's range
-~ WORKING take_profit 100% META @ $677.78 until 2026-09-22 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% META @ $669.81 until 2026-09-22 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 META @ $655.24 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% NEM @ $124.79 until 2026-09-22 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% NEM @ $123.08 until 2026-09-22 — close it all at -1.0% under the average cost
 ~ WORKING buy_limit $500.00 NEM @ $120.57 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 HLI @ $126.67 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25253.00 (+1.01% on $25000.00 in) · cash $9952.82 · realised +254.77
 Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $9525.05 this week
+
+## 2026-09-17 10:37 ET (Thursday) — week 2026-W38 — budget left $9525.05 (today $74622.30 put to work, 28 buys, 21 sells) — SIM (pretend money) via sim
+  (ACNB excluded: too thinly traded ($5.0M a day) — ACNB Corporation)
+  (ADAG excluded: too thinly traded ($1.0M a day) — Adagene Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9BWsG52c6sPCqWrtUzP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $9,525 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.8% over the month; 68% of today's range
+~ WORKING take_profit 100% NEM @ $125.54 until 2026-09-22 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NEM @ $123.83 until 2026-09-22 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NEM @ $121.30 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25250.87 (+1.00% on $25000.00 in) · cash $6952.82 · realised +254.77
+Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $6525.05 this week
