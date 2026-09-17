@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 15101.0,
+  "spent": 12097.54,
   "deployed": 818877.32,
   "by_ticker": {
     "GOOGL": 34.6,
@@ -9,7 +9,7 @@
     "TPL": 62.38,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3035.79,
+    "HLI": 32.33,
     "NEM": 20.22,
     "MSFT": 3.11,
     "SKWD": 22.98,
@@ -10607,13 +10607,33 @@
       ],
       "evidence": "bought 30 min ago, -0.23% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.532125,
+      "status": "filled",
+      "price": 133.3,
+      "proceeds": 3003.46,
+      "realized_pnl": 3.46,
+      "realized_pct": 0.12,
+      "date": "2026-09-17",
+      "time_et": "14:40",
+      "ts": 1789670426,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.16% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 14963.87,
+  "spent_today": 11960.41,
   "deployed_today": 218622.3,
   "orders_today": 76,
-  "sells_today": 70,
+  "sells_today": 71,
   "sold_today": [
     "BE",
     "CRWD",
@@ -10633,7 +10653,7 @@
   ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789665773,
+    "HLI": 1789670428,
     "META": 1789668744,
     "CHRW": 1789670251,
     "TTD": 1789667961,
@@ -10654,28 +10674,25 @@
     "SBLK": 1789667122,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789670250,
-  "last_check_ts": 1789670386,
-  "last_bar_ts": 1789670100,
-  "last_decision_ts": 1789670297,
+  "last_publish_ts": 1789670426,
+  "last_check_ts": 1789670475,
+  "last_bar_ts": 1789670400,
+  "last_decision_ts": 1789670475,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "c5dc4e90": 31.9,
     "27fffd7c": 31.9659,
+    "c5dc4e90": 31.9,
     "13a9656c": 397.9656,
-    "abff9827": 133.618,
-    "a2ecc9e9": 238.9326,
     "c288d644": 176.1451,
+    "a2ecc9e9": 238.9326,
     "b3f899f9": 236.296,
     "b7f2b06b": 281.1925,
-    "b7580245": 131.9457,
     "8b08ea08": 173.4322,
     "5633650d": 274.4288,
     "a907322d": 231.0346,
-    "f3de7ab9": 270.8822,
     "b6c4db67": 170.1089,
-    "dea606dc": 129.1458,
+    "f3de7ab9": 270.8822,
     "cb6ac78d": 30.9139
   }
 }
