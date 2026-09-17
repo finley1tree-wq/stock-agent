@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-17 09:52 ET
+# Pretend portfolio — 2026-09-17 09:55 ET
 
-**Equity $25197.17** on $25000.00 put in → **+0.79%**  
-Cash $22208.89 · Unrealised -11.72 · Realised +208.89
+**Equity $25204.18** on $25000.00 put in → **+0.82%**  
+Cash $22208.89 · Unrealised -4.71 · Realised +208.89
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| CHRW | 11.9% | $2988.28 | $153.99 | $153.39 | -0.39% | 0d |
+| CHRW | 11.9% | $2995.29 | $153.99 | $153.75 | -0.16% | 0d |
 
 ## Last fills
 
