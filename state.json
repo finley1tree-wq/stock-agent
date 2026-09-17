@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 12090.68,
-  "deployed": 800877.32,
+  "spent": 12098.43,
+  "deployed": 803877.32,
   "by_ticker": {
-    "GOOGL": 35.97,
+    "GOOGL": 3035.97,
     "AMD": 50.42,
     "FLD": 1.2,
     "TPL": 62.38,
@@ -16,7 +16,7 @@
     "CHRW": 3046.22,
     "SBLK": 25.1,
     "AAPL": 34.08,
-    "META": 3059.98,
+    "META": 67.73,
     "TTD": 48.32,
     "IBM": 8.56,
     "PLTR": 16.48,
@@ -35,7 +35,7 @@
     "TTD": 63000.0,
     "AAPL": 63000.0,
     "MSFT": 57903.62,
-    "GOOGL": 46000.0,
+    "GOOGL": 49000.0,
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
@@ -10399,13 +10399,50 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers); +4.8% over the month; 82% of today's range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.424612,
+      "status": "filled",
+      "price": 676.27,
+      "proceeds": 2992.25,
+      "realized_pnl": -7.75,
+      "realized_pct": -0.26,
+      "date": "2026-09-17",
+      "time_et": "14:12",
+      "ts": 1789668743,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.24% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.688625,
+      "price": 345.28,
+      "date": "2026-09-17",
+      "time_et": "14:13",
+      "ts": 1789668790,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.3% over the month; 24% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 11953.55,
-  "deployed_today": 200622.3,
-  "orders_today": 70,
-  "sells_today": 65,
+  "spent_today": 11961.3,
+  "deployed_today": 203622.3,
+  "orders_today": 71,
+  "sells_today": 66,
   "sold_today": [
     "BE",
     "CRWD",
@@ -10426,7 +10463,7 @@
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789665773,
-    "META": 1789664189,
+    "META": 1789668744,
     "CHRW": 1789665645,
     "TTD": 1789667961,
     "AMD": 1789667961,
@@ -10446,25 +10483,25 @@
     "SBLK": 1789667122,
     "TSM": 1789664539
   },
-  "last_publish_ts": 1789668623,
-  "last_check_ts": 1789668706,
+  "last_publish_ts": 1789668790,
+  "last_check_ts": 1789668790,
   "last_bar_ts": 1789668600,
-  "last_decision_ts": 1789668623,
+  "last_decision_ts": 1789668790,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "13f7fdb2": 124.728,
     "8c79c0b9": 125.0194,
+    "b994bb7b": 346.1605,
     "c841d60c": 154.5431,
     "abff9827": 133.618,
     "13a9656c": 397.9656,
-    "fa58dade": 680.3556,
     "b710b6c3": 153.0958,
-    "c2a051ae": 672.2125,
+    "8ebef42f": 343.0806,
     "b7580245": 131.9457,
-    "fe6d03a5": 123.3084,
-    "317dce78": 657.6891,
     "f5546eb1": 149.5061,
     "dea606dc": 129.1458,
+    "b7f46c24": 334.9216,
     "a89ecc90": 120.7941
   }
 }
