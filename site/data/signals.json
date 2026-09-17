@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T11:15-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,835 idle, so opened 2: TTD, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "asOf": "2026-09-17T11:18-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,835 idle, so opened 2: MSFT, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,10 +146,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 347.12,
-   "pct_away": 0.27,
+   "last": 347.42,
+   "pct_away": 0.19,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f4a746ac",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 496.9454,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 495.71,
+   "pct_away": 0.25,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3de1e23e",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 176.9936,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 176.18,
+   "pct_away": 0.46,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,8 +197,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.76,
-   "pct_away": -0.45,
+   "last": 399.95,
+   "pct_away": -0.5,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
@@ -180,10 +214,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.39,
-   "pct_away": 0.57,
+   "last": 14.4,
+   "pct_away": 0.5,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "03a27cd1",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 492.969,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 495.71,
+   "pct_away": -0.55,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +248,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 347.12,
-   "pct_away": -0.61,
+   "last": 347.42,
+   "pct_away": -0.7,
    "good_until": "2026-09-22",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e242357c",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 174.2869,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 176.18,
+   "pct_away": -1.07,
+   "good_until": "2026-09-22",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,10 +282,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.39,
-   "pct_away": -1.18,
+   "last": 14.4,
+   "pct_away": -1.24,
    "good_until": "2026-09-22",
    "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a76211b4",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 480.9357,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 495.71,
+   "pct_away": -2.98,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "307630f4",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 170.9334,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 176.18,
+   "pct_away": -2.98,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +333,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.39,
-   "pct_away": -2.93,
+   "last": 14.4,
+   "pct_away": -3.0,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -248,8 +350,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 347.12,
-   "pct_away": -2.98,
+   "last": 347.42,
+   "pct_away": -3.06,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -258,7 +360,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,835 idle, so opened 2: TTD, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,835 idle, so opened 2: MSFT, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -324,7 +426,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 363,
+  "decisions_graded": 362,
   "decisions_with_buys_graded": 115,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.19,
@@ -415,19 +517,19 @@
    "widely_held": {
     "n": 9
    },
-   "nuclear": {
-    "n": 3
-   },
    "gold": {
     "n": 3
+   },
+   "nuclear": {
+    "n": 2
    },
    "defense": {
     "n": 1
    }
   },
-  "idle_checks": 270,
+  "idle_checks": 269,
   "blocked_checks": 0,
-  "idle_share": 0.68,
+  "idle_share": 0.67,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1883,6 +1985,11 @@
   ],
   "AMD": [
    {
+    "title": "Can INTC's AI Inference Advancements Strengthen Its Growth Prospects?",
+    "source": "Zacks",
+    "when": "2026-09-17T15:09"
+   },
+   {
     "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
     "source": "Motley Fool",
     "when": "2026-09-17T14:29"
@@ -1891,11 +1998,6 @@
     "title": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
     "source": "Zacks",
     "when": "2026-09-17T14:17"
-   },
-   {
-    "title": "Advanced Micro Devices (AMD) Expands ROCm Support To RISC V Datacenter Servers",
-    "source": "Simply Wall St.",
-    "when": "2026-09-17T14:13"
    }
   ],
   "AMZN": [
@@ -2211,14 +2313,14 @@
     "when": "2026-09-17T13:44"
    },
    {
-    "title": "This Goldman Sachs Indicator Hit 0 Only 4 Other Times in the\u00a0 Last 20 Years. History Says Big Tech Rallies Followed",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-17T14:14"
+    "title": "From Flip Phones to AI, Nokia\u2019s Microsoft Deal Boosts Its Optical Networking Prowess",
+    "source": "Barrons.com",
+    "when": "2026-09-17T14:31"
    },
    {
-    "title": "MRVL Stock Climbs After AI Optical Capacity Deal, New Microsoft Security Platform Launch",
-    "source": "Stocktwits",
-    "when": "2026-09-17T14:05"
+    "title": "Generac, Nebius, CoreWeave, Nokia, Arm, Fluence, and More Stocks That Explain Today\u2019s Market",
+    "source": "Barrons.com",
+    "when": "2026-09-17T14:19"
    }
   ],
   "NEM": [
@@ -2342,6 +2444,11 @@
   ],
   "PLTR": [
    {
+    "title": "Michael Burry Disclosed Put Options Worth an Estimated $1.1 Billion Against Nvidia and Palantir Before Closing His Hedge Fund. Was That Bearish Bet Ahead of Its",
+    "source": "Motley Fool",
+    "when": "2026-09-17T15:10"
+   },
+   {
     "title": "The Palantir Question Nobody Can Answer Yet: How Big Can This Get?",
     "source": "24/7 Wall St.",
     "when": "2026-09-17T15:00"
@@ -2350,11 +2457,6 @@
     "title": "SRFM Lands First OperatorOS Customer As Palantir-Powered Platform Goes Commercial",
     "source": "Stocktwits",
     "when": "2026-09-17T12:32"
-   },
-   {
-    "title": "Chipotle Turns to Palantir After a Summer of Outbreaks",
-    "source": "GuruFocus.com",
-    "when": "2026-09-17T12:10"
    }
   ],
   "RTX": [
@@ -2495,5 +2597,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T11:15-04:00"
+ "signalsAsOf": "2026-09-17T11:18-04:00"
 }

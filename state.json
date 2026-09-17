@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6164.9,
-  "deployed": 689877.32,
+  "spent": 12164.9,
+  "deployed": 695877.32,
   "by_ticker": {
     "GOOGL": 3035.2,
     "AMD": 42.16,
@@ -11,7 +11,7 @@
     "MAIA": 46.66,
     "HLI": 48.69,
     "NEM": 28.43,
-    "MSFT": 4.16,
+    "MSFT": 3004.16,
     "SKWD": 22.98,
     "CHRW": 55.33,
     "SBLK": 35.4,
@@ -19,7 +19,8 @@
     "AAPL": 49.38,
     "META": 53.29,
     "TTD": 3057.24,
-    "TSM": 6.0
+    "TSM": 6.0,
+    "PLTR": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -33,13 +34,13 @@
     "AMD": 31000.0,
     "TTD": 57000.0,
     "AAPL": 57000.0,
-    "MSFT": 48903.62,
+    "MSFT": 51903.62,
     "GOOGL": 40000.0,
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
     "CRWD": 33000.0,
-    "PLTR": 13000.0,
+    "PLTR": 16000.0,
     "SKWD": 3000.0,
     "SBLK": 18000.0,
     "TSM": 5320.35
@@ -9026,12 +9027,47 @@
         "autopilot"
       ],
       "evidence": "+0.8% over the month; 58% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.050715,
+      "price": 495.81,
+      "date": "2026-09-17",
+      "time_et": "11:18",
+      "ts": 1789658306,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.9% over the month; 30% of today's range"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.024635,
+      "price": 176.22,
+      "date": "2026-09-17",
+      "time_et": "11:18",
+      "ts": 1789658306,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+2.7% over the month; 71% of today's range"
     }
   ],
   "day": "2026-09-17",
-  "spent_today": 6000.0,
-  "deployed_today": 89622.3,
-  "orders_today": 33,
+  "spent_today": 12000.0,
+  "deployed_today": 95622.3,
+  "orders_today": 35,
   "sells_today": 30,
   "sold_today": [
     "BE",
@@ -9073,18 +9109,24 @@
     "SBLK": 1789655577,
     "TSM": 1789657323
   },
-  "last_publish_ts": 1789658129,
-  "last_check_ts": 1789658217,
+  "last_publish_ts": 1789658306,
+  "last_check_ts": 1789658306,
   "last_bar_ts": 1789658100,
-  "last_decision_ts": 1789658129,
+  "last_decision_ts": 1789658306,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "ee40ee50": 348.0684,
+    "f4a746ac": 496.9454,
+    "3de1e23e": 176.9936,
     "13a9656c": 397.9656,
     "728a6bf6": 14.4716,
+    "03a27cd1": 492.969,
     "423f4e01": 344.9888,
+    "e242357c": 174.2869,
     "bcbb5c77": 14.2209,
+    "a76211b4": 480.9357,
+    "307630f4": 170.9334,
     "ce3ba866": 13.968,
     "52a839c1": 336.7743
   }
