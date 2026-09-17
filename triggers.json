@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "0ded1d6a",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 241.68,
-   "status": "cancelled",
-   "created": "2026-09-16 13:20",
-   "created_ts": 1789579221,
-   "why": "close it all at -1.7% under the average cost",
-   "evidence": "average cost $241.11",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:30",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2008cb3b",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 252.777,
-   "status": "cancelled",
-   "created": "2026-09-16 13:25",
-   "created_ts": 1789579551,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $240.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-16 13:26",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "19e4a8c6",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -7023,7 +6985,7 @@
    "ticker": "SBLK",
    "kind": "take_profit",
    "price": 32.0759,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:29",
    "created_ts": 1789666184,
    "why": "close 100% at +0.3% over the average cost",
@@ -7033,7 +6995,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "99b9d703",
@@ -7059,7 +7023,7 @@
    "ticker": "SBLK",
    "kind": "buy_limit",
    "price": 31.0206,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:29",
    "created_ts": 1789666184,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7069,7 +7033,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-17 13:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fa5686db",
@@ -7180,7 +7146,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 550.1172,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-17 13:29",
    "created_ts": 1789666184,
    "why": "close 100% at +0.4% over the average cost",
@@ -7190,7 +7156,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:44",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "811257d8",
@@ -7386,7 +7354,7 @@
    "ticker": "SBLK",
    "kind": "stop_loss",
    "price": 32.016,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-17 13:41",
    "created_ts": 1789666868,
    "why": "close it all at -0.7% under the average cost",
@@ -7396,7 +7364,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:45"
   },
   {
    "id": "4ae19773",
@@ -7482,7 +7451,43 @@
    ],
    "good_until": "2026-09-22",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "e208489d",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 575.064,
+   "status": "cancelled",
+   "created": "2026-09-17 13:44",
+   "created_ts": 1789667076,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $547.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-17 13:45",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "a737e5c2",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 550.1227,
+   "status": "working",
+   "created": "2026-09-17 13:45",
+   "created_ts": 1789667122,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $547.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-17 13:44"
+ "updated": "2026-09-17 13:45"
 }
