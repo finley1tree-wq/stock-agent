@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-17T12:15-04:00",
- "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
+ "asOf": "2026-09-17T12:17-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,907 idle, so opened 2: MSFT, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "3c95a9c4",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 497.1659,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 495.93,
+   "pct_away": 0.25,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "35d0ff96",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -146,10 +163,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.42,
-   "pct_away": 0.34,
+   "last": 238.18,
+   "pct_away": 0.44,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e0a9ddbf",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 177.6045,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 176.79,
+   "pct_away": 0.46,
+   "good_until": "2026-09-22",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6c405b2e",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 493.1877,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 495.93,
+   "pct_away": -0.55,
+   "good_until": "2026-09-22",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +231,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 400.39,
-   "pct_away": -0.61,
+   "last": 400.28,
+   "pct_away": -0.58,
    "good_until": "2026-09-18",
    "why": "strong month, weak day: resting 0.44% under $399.73 to catch the dip",
    "signals": [
@@ -197,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.42,
-   "pct_away": -0.77,
+   "last": 238.18,
+   "pct_away": -0.67,
    "good_until": "2026-09-22",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -214,10 +265,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 279.66,
-   "pct_away": 0.78,
+   "last": 279.02,
+   "pct_away": 1.01,
    "good_until": "2026-09-22",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "71939566",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 174.8919,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 176.79,
+   "pct_away": -1.07,
+   "good_until": "2026-09-22",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,8 +316,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 279.66,
-   "pct_away": -1.64,
+   "last": 279.02,
+   "pct_away": -1.41,
    "good_until": "2026-09-22",
    "why": "close it all at -1.7% under the average cost",
    "signals": [
@@ -265,8 +333,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 279.66,
-   "pct_away": -2.91,
+   "last": 279.02,
+   "pct_away": -2.69,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "356b1e07",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 231.3256,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 238.18,
+   "pct_away": -2.88,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -292,14 +377,31 @@
    ]
   },
   {
-   "id": "356b1e07",
-   "ticker": "IBM",
+   "id": "9724bb9f",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 231.3256,
+   "price": 481.1491,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 238.42,
+   "last": 495.93,
+   "pct_away": -2.98,
+   "good_until": "2026-09-22",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4b80b41c",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 171.5251,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 176.79,
    "pct_away": -2.98,
    "good_until": "2026-09-22",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -309,8 +411,8 @@
    ]
   }
  ],
- "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
- "next_check_minutes": null,
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,907 idle, so opened 2: MSFT, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "next_check_minutes": 6,
  "allowed": [
   "AAPL",
   "ADC",
@@ -376,7 +478,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 342,
+  "decisions_graded": 341,
   "decisions_with_buys_graded": 107,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.25,
@@ -477,9 +579,9 @@
     "n": 1
    }
   },
-  "idle_checks": 266,
+  "idle_checks": 265,
   "blocked_checks": 0,
-  "idle_share": 0.67,
+  "idle_share": 0.66,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2474,5 +2576,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-17T12:15-04:00"
+ "signalsAsOf": "2026-09-17T12:17-04:00"
 }
