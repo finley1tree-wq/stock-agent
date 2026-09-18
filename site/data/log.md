@@ -1,20 +1,3 @@
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBK21Eg1gZXtXNiqXWx3'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25164.20 (+0.66% on $25000.00 in) · cash $9974.01 · realised +144.80
-Decision: nothing at this check. 20 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 13:40 ET (Friday) — week 2026-W38 — budget left $9546.26 (today $160563.99 put to work, 57 buys, 50 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBKERtLDPpiPuNcSMuQw'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25159.00 (+0.64% on $25000.00 in) · cash $9974.01 · realised +144.80
 Decision: nothing at this check. 20 standing order(s) working.
@@ -398,3 +381,20 @@ Decision: nothing at this check. 25 standing order(s) working.
 - SELL 100% GOOGL [time stop] -> $3004.79 (+0.16%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AAPL [time stop] -> $3000.41 (+0.01%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 14:44 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 14:45 ET (Friday) — week 2026-W38 — budget left $15591.28 (today $193735.66 put to work, 69 buys, 64 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBQBjN3npssEFnYjV1S9'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,591 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +4.3% over the month; 16% of today's range
+~ WORKING take_profit 100% TSM @ $431.10 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $427.32 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $417.12 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25187.50 (+0.75% on $25000.00 in) · cash $13019.02 · realised +190.69
+Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $12591.28 this week
