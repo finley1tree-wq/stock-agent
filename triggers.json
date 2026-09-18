@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "dd8a16f1",
-   "ticker": "SBLK",
-   "kind": "buy_limit",
-   "price": 30.5647,
-   "status": "cancelled",
-   "created": "2026-09-17 10:23",
-   "created_ts": 1789655009,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $31.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 10:32",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0b0866f4",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 334.327,
-   "status": "cancelled",
-   "created": "2026-09-17 10:23",
-   "created_ts": 1789655009,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $333.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 10:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "c7d3846c",
    "ticker": "AAPL",
    "kind": "stop_loss",
@@ -7483,7 +7445,7 @@
    "ticker": "META",
    "kind": "take_profit",
    "price": 676.7637,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:23",
    "created_ts": 1789741434,
    "why": "close 100% at +0.3% over the average cost",
@@ -7493,7 +7455,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:24",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "f14bc6d5",
@@ -7528,7 +7492,43 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "8c750c38",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 708.1305,
+   "status": "cancelled",
+   "created": "2026-09-18 10:24",
+   "created_ts": 1789741477,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $674.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:25",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "f7b1afcb",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 676.7704,
+   "status": "working",
+   "created": "2026-09-18 10:25",
+   "created_ts": 1789741522,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $674.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 10:23"
+ "updated": "2026-09-18 10:25"
 }
