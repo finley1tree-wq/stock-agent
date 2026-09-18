@@ -161,8 +161,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15,
-    "ret_final": 0.15,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -382,8 +382,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15,
-    "ret_final": 0.15,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -614,8 +614,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.2,
-    "ret_now": 0.2,
+    "ret_final": 0.06,
+    "ret_now": 0.06,
     "ret_src": "realised"
   },
   {
@@ -1680,8 +1680,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.12,
-    "ret_now": 0.12,
+    "ret_final": -0.02,
+    "ret_now": -0.02,
     "ret_src": "realised"
   },
   {
@@ -2154,8 +2154,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.1,
-    "ret_now": 0.1,
+    "ret_final": -0.05,
+    "ret_now": -0.05,
     "ret_src": "realised"
   },
   {
@@ -2926,8 +2926,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17,
-    "ret_final": 0.17,
+    "ret_now": -0.05,
+    "ret_final": -0.05,
     "ret_src": "realised"
   },
   {
@@ -19375,8 +19375,8 @@
     "code_version": "b05db2d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.55,
-    "ret_final": 0.55,
+    "ret_now": 0.02,
+    "ret_final": 0.02,
     "ret_src": "realised"
   },
   {
@@ -20034,7 +20034,9 @@
     "code_version": "0db5c3f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -0.51,
+    "ret_final": -0.51,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -20061,7 +20063,7 @@
     "code_version": "b8386ee",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.17
   },
   {
     "symbol": "META",
@@ -20145,7 +20147,7 @@
     "code_version": "5e48da9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": 0.21
   },
   {
     "symbol": "MSFT",
@@ -20172,7 +20174,7 @@
     "code_version": "6c23724",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.05
   },
   {
     "symbol": "NVDA",
@@ -20198,7 +20200,7 @@
     "code_version": "6c23724",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": -0.15
   },
   {
     "symbol": "BE",
@@ -20280,7 +20282,7 @@
     "code_version": "2467422",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.09
   },
   {
     "symbol": "CHRW",
@@ -20360,7 +20362,7 @@
     "code_version": "170cc84",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.1
   },
   {
     "symbol": "AAPL",
@@ -20386,6 +20388,57 @@
     "code_version": "170cc84",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.18
+  },
+  {
+    "symbol": "INTC",
+    "side": "sell",
+    "qty": 27.726013,
+    "status": "filled",
+    "price": 107.65,
+    "proceeds": 2984.66,
+    "realized_pnl": -15.34,
+    "realized_pct": -0.51,
+    "date": "2026-09-18",
+    "time_et": "10:50",
+    "ts": 1789743027,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.49% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "84b07d1",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 208.31,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.593814,
+    "price": 350.8,
+    "date": "2026-09-18",
+    "time_et": "10:50",
+    "ts": 1789743027,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+1.7% over the month; 12% of today's range",
+    "entry_price": 350.73,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.74,
+    "hour_et": 10,
+    "code_version": "84b07d1",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

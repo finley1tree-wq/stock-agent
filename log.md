@@ -11160,3 +11160,21 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25129.19 (+0.52% on $25000.00 in) · cash $1160.64 · realised +160.64
 Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 10:50 ET (Friday) — week 2026-W38 — budget left $732.90 (today $73000.00 put to work, 25 buys, 16 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+- SELL 100% INTC [time stop] -> $2984.66 (-0.51%) — held 30 min, the 30-minute limit: out regardless
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB6GyZcmKC2Fzh77TQEs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,718 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $208.31 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +1.7% over the month; 12% of today's range
+~ WORKING take_profit 100% GOOGL @ $351.71 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $348.53 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $340.28 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25146.11 (+0.58% on $25000.00 in) · cash $3936.99 · realised +145.30
+Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 27 order(s) working; budget left $3509.25 this week
