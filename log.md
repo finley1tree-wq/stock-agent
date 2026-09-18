@@ -11237,3 +11237,20 @@ Decision: nothing at this check. 18 standing order(s) working.
 - SELL 100% MSFT [take_profit @ $493.58] -> $3006.64 (+0.22%) — close 100% at +0.2% over the average cost
 - SELL 100% NVDA [time stop] -> $2990.34 (-0.32%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 10:59 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 11:01 ET (Friday) — week 2026-W38 — budget left $15730.90 (today $76208.31 put to work, 27 buys, 23 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB79GkNMKJcozzmiNcD3'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,731 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.1% over the month; 57% of today's range
+~ WORKING take_profit 100% PLTR @ $176.10 until 2026-09-23 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% PLTR @ $173.34 until 2026-09-23 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $170.05 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25150.96 (+0.60% on $25000.00 in) · cash $13158.64 · realised +158.64
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $12730.90 this week
