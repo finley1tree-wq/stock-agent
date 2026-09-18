@@ -11665,3 +11665,19 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $170.66 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25145.22 (+0.58% on $25000.00 in) · cash $9973.57 · realised +158.46
 Done: 0 sell(s), 2 buy(s); 20 order(s) working; budget left $9545.81 this week
+- SELL 100% TTD [time stop] -> $2982.63 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 12:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 12:14 ET (Friday) — week 2026-W38 — budget left $12528.44 (today $118393.20 put to work, 42 buys, 36 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBCghPeN2oBa7JTMBor3'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25133.58 (+0.53% on $25000.00 in) · cash $12956.20 · realised +141.09
+Decision: nothing at this check. 17 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

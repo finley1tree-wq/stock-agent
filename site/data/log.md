@@ -1,5 +1,3 @@
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% PLTR @ $175.56 until 2026-09-23 — close it all at -1.1% under the average cost
 portfolio: equity $25167.97 (+0.67% on $25000.00 in) · cash $13158.64 · realised +158.64
 Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on PLTR: position closed)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $170.66 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25145.22 (+0.58% on $25000.00 in) · cash $9973.57 · realised +158.46
 Done: 0 sell(s), 2 buy(s); 20 order(s) working; budget left $9545.81 this week
+- SELL 100% TTD [time stop] -> $2982.63 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 12:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
