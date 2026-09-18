@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "7f42c1da",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 674.4455,
-   "status": "filled",
-   "created": "2026-09-17 10:29",
-   "created_ts": 1789655374,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $672.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 10:39"
-  },
-  {
-   "id": "68e0e946",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 666.2994,
-   "status": "cancelled",
-   "created": "2026-09-17 10:29",
-   "created_ts": 1789655374,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $672.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 10:33",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "f9de107e",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7438,7 +7401,7 @@
    "ticker": "BE",
    "kind": "take_profit",
    "price": 272.7815,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:32",
    "created_ts": 1789741946,
    "why": "close 100% at +0.7% over the average cost",
@@ -7448,7 +7411,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "dbdd47e9",
@@ -7500,7 +7465,43 @@
    ],
    "good_until": "2026-09-19",
    "usd": 1000.0
+  },
+  {
+   "id": "581b30c8",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 284.3505,
+   "status": "cancelled",
+   "created": "2026-09-18 10:33",
+   "created_ts": 1789741982,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $270.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:33",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "1ddf7385",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 272.7815,
+   "status": "working",
+   "created": "2026-09-18 10:33",
+   "created_ts": 1789742028,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $270.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 10:32"
+ "updated": "2026-09-18 10:33"
 }
