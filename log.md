@@ -12518,3 +12518,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $1000.00 NVDA @ $218.22 until 2026-09-19 — strong month, weak day: resting 0.55% under $219.43 to catch the dip
 portfolio: equity $25181.73 (+0.73% on $25000.00 in) · cash $1193.63 · realised +193.63
 Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $765.88 this week
+- SELL 100% INTC [time stop] -> $2993.47 (-0.22%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 14:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
