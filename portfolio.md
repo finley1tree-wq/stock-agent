@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-18 15:37 ET
+# Pretend portfolio — 2026-09-18 15:39 ET
 
-**Equity $25170.10** on $25000.00 put in → **+0.68%**  
-Cash $22191.81 · Unrealised -21.71 · Realised +191.81
+**Equity $25172.85** on $25000.00 put in → **+0.69%**  
+Cash $22191.81 · Unrealised -18.96 · Realised +191.81
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| CRWD | 11.8% | $2978.29 | $240.13 | $238.39 | -0.72% | 0d |
+| CRWD | 11.8% | $2981.03 | $240.13 | $238.61 | -0.63% | 0d |
 
 ## Last fills
 
