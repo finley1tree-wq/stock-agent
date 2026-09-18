@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T13:44-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-18T13:48-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "1c168be8",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 175.732,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 175.9,
+   "pct_away": -0.1,
+   "good_until": "2026-09-23",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "95a0f2ea",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 175.7,
-   "pct_away": 0.32,
+   "last": 175.9,
+   "pct_away": 0.21,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -275,23 +292,6 @@
    ]
   },
   {
-   "id": "d53b15d8",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 173.5076,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 175.7,
-   "pct_away": -1.25,
-   "good_until": "2026-09-23",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "c75a98ac",
    "ticker": "NVDA",
    "kind": "buy_limit",
@@ -350,8 +350,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 175.7,
-   "pct_away": -3.12,
+   "last": 175.9,
+   "pct_away": -3.23,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
