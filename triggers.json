@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "4b80b41c",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 171.5251,
-   "status": "cancelled",
-   "created": "2026-09-17 12:17",
-   "created_ts": 1789661873,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $176.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 12:48",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f120f1e4",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 681.8006,
-   "status": "cancelled",
-   "created": "2026-09-17 12:26",
-   "created_ts": 1789662390,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $679.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "db823642",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 673.6469,
-   "status": "cancelled",
-   "created": "2026-09-17 12:26",
-   "created_ts": 1789662390,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $679.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b8ffa176",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7543,7 +7486,58 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "8d69502d",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 107.5603,
+   "status": "working",
+   "created": "2026-09-18 12:51",
+   "created_ts": 1789750314,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $106.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "525626ca",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 105.3894,
+   "status": "working",
+   "created": "2026-09-18 12:51",
+   "created_ts": 1789750314,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $106.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d8265f1d",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 103.7318,
+   "status": "working",
+   "created": "2026-09-18 12:51",
+   "created_ts": 1789750314,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $106.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-18 12:49"
+ "updated": "2026-09-18 12:51"
 }
