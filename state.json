@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 3314.91,
-  "deployed": 967270.52,
+  "spent": 6314.91,
+  "deployed": 970270.52,
   "by_ticker": {
     "GOOGL": 53.85,
     "AMD": 59.56,
@@ -15,7 +15,7 @@
     "CHRW": 44.12,
     "SBLK": 24.03,
     "AAPL": 45.22,
-    "META": 107.24,
+    "META": 3107.24,
     "TTD": 97.13,
     "IBM": 6.03,
     "PLTR": 27.41,
@@ -34,7 +34,7 @@
     "FLD": 6000.0,
     "HLI": 72873.19,
     "NEM": 73000.0,
-    "META": 75780.16,
+    "META": 78780.16,
     "AMD": 46000.0,
     "TTD": 75000.0,
     "AAPL": 76000.0,
@@ -12653,12 +12653,29 @@
       ],
       "evidence": "bought 30 min ago, -0.45% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.467448,
+      "price": 671.52,
+      "date": "2026-09-18",
+      "time_et": "12:43",
+      "ts": 1789749803,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+23.0% over the month; 13% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 3192.48,
-  "deployed_today": 121393.2,
-  "orders_today": 43,
+  "spent_today": 6192.48,
+  "deployed_today": 124393.2,
+  "orders_today": 44,
   "sells_today": 41,
   "sold_today": [
     "INTC",
@@ -12701,15 +12718,18 @@
     "INTC": 1789747523,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789749678,
-  "last_check_ts": 1789749724,
+  "last_publish_ts": 1789749803,
+  "last_check_ts": 1789749803,
   "last_bar_ts": 1789749600,
-  "last_decision_ts": 1789749638,
+  "last_decision_ts": 1789749803,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "d7b1770c": 271.56,
     "ec9121d1": 272.9326,
-    "d1101a3a": 266.0285,
+    "ffc172f7": 673.877,
+    "dc7171e1": 665.6308,
+    "eda0b8ee": 651.3744,
     "72fb1504": 262.8312
   }
 }

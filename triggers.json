@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "df282489",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 275.0788,
-   "status": "cancelled",
-   "created": "2026-09-17 12:12",
-   "created_ts": 1789661531,
-   "why": "close it all at -1.7% under the average cost",
-   "evidence": "average cost $279.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 12:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "9e76356d",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 271.5127,
-   "status": "cancelled",
-   "created": "2026-09-17 12:12",
-   "created_ts": 1789661531,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $279.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 12:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "5d117de9",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 14.4016,
-   "status": "cancelled",
-   "created": "2026-09-17 12:12",
-   "created_ts": 1789661531,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $14.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 12:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "72c537ea",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 14.151,
-   "status": "cancelled",
-   "created": "2026-09-17 12:12",
-   "created_ts": 1789661531,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $14.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 12:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f209a6cf",
    "ticker": "TTD",
    "kind": "buy_limit",
@@ -7522,7 +7446,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 266.0285,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 12:40",
    "created_ts": 1789749638,
    "why": "close it all at -1.8% under the average cost",
@@ -7532,7 +7456,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 12:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "72fb1504",
@@ -7550,7 +7476,75 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "d7b1770c",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 271.56,
+   "status": "working",
+   "created": "2026-09-18 12:43",
+   "created_ts": 1789749802,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $270.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ffc172f7",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 673.877,
+   "status": "working",
+   "created": "2026-09-18 12:43",
+   "created_ts": 1789749803,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $671.52",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dc7171e1",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 665.6308,
+   "status": "working",
+   "created": "2026-09-18 12:43",
+   "created_ts": 1789749803,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $671.52",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "eda0b8ee",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 651.3744,
+   "status": "working",
+   "created": "2026-09-18 12:43",
+   "created_ts": 1789749803,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $671.52",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-18 12:40"
+ "updated": "2026-09-18 12:43"
 }
