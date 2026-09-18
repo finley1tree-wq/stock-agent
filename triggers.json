@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c288d644",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 176.1451,
-   "status": "cancelled",
-   "created": "2026-09-17 14:35",
-   "created_ts": 1789670134,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $175.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "8b08ea08",
    "ticker": "PLTR",
    "kind": "stop_loss",
@@ -7334,7 +7315,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 492.5461,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 14:30",
    "created_ts": 1789756256,
    "why": "close it all at -0.6% under the average cost",
@@ -7344,7 +7325,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 14:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3823f5da",
@@ -7532,7 +7515,24 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "4bbbc2b0",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 495.682,
+   "status": "working",
+   "created": "2026-09-18 14:46",
+   "created_ts": 1789757208,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $495.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 14:45"
+ "updated": "2026-09-18 14:46"
 }
