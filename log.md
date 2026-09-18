@@ -11547,3 +11547,27 @@ Decision: nothing at this check. 26 standing order(s) working.
   (cancelled 2 standing order(s) on BE: position closed)
 - SELL 100% BE [stop_loss @ $270.54] -> $3005.05 (+0.17%) — close it all at -1.8% under the average cost
 ## 2026-09-18 11:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% META [time stop] -> $2985.29 (-0.49%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 11:56 ET (Friday) — week 2026-W38 — budget left $6729.11 (today $103208.31 put to work, 36 buys, 29 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBBLYhqJicWYdeM8G71M'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,729 idle, so opened 2: MSFT, CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.0% over the month; 40% of today's range
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +18.2% over the month; 27% of today's range
+~ WORKING take_profit 100% MSFT @ $495.33 until 2026-09-23 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $491.50 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $479.41 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $239.84 until 2026-09-23 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% CRWD @ $234.74 until 2026-09-23 — close it all at -1.5% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $231.23 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 NVDA @ $218.53 until 2026-09-19 — strong month, weak day: resting 0.55% under $219.74 to catch the dip
+portfolio: equity $25122.10 (+0.49% on $25000.00 in) · cash $1156.87 · realised +156.87
+Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $729.11 this week
