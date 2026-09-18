@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9298.02,
+  "spent": 3314.91,
   "deployed": 967270.52,
   "by_ticker": {
     "GOOGL": 53.85,
@@ -18,9 +18,9 @@
     "META": 107.24,
     "TTD": 97.13,
     "IBM": 6.03,
-    "PLTR": 3013.25,
+    "PLTR": 27.41,
     "CRWD": 39.25,
-    "TSM": 3025.88,
+    "TSM": 28.61,
     "MSFT": 17.87,
     "INTC": 19.62,
     "NVDA": 9.59,
@@ -12613,13 +12613,53 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers); +31.1% over the month; 23% of today's range"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.979082,
+      "status": "filled",
+      "price": 429.46,
+      "proceeds": 2997.27,
+      "realized_pnl": -2.73,
+      "realized_pct": -0.09,
+      "date": "2026-09-18",
+      "time_et": "12:41",
+      "ts": 1789749678,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.07% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 17.051735,
+      "status": "filled",
+      "price": 175.1,
+      "proceeds": 2985.84,
+      "realized_pnl": -14.16,
+      "realized_pct": -0.47,
+      "date": "2026-09-18",
+      "time_et": "12:41",
+      "ts": 1789749678,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.45% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 9175.59,
+  "spent_today": 3192.48,
   "deployed_today": 121393.2,
   "orders_today": 43,
-  "sells_today": 39,
+  "sells_today": 41,
   "sold_today": [
     "INTC",
     "HLI",
@@ -12654,28 +12694,22 @@
     "GRNT": 1789413927,
     "MAIA": 1789406136,
     "CRWD": 1789747823,
-    "PLTR": 1789743963,
+    "PLTR": 1789749678,
     "SKWD": 1789566945,
     "SBLK": 1789670563,
-    "TSM": 1789745150,
+    "TSM": 1789749678,
     "INTC": 1789747523,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789749638,
-  "last_check_ts": 1789749638,
+  "last_publish_ts": 1789749678,
+  "last_check_ts": 1789749724,
   "last_bar_ts": 1789749600,
   "last_decision_ts": 1789749638,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "3f1a5302": 430.9389,
-    "9ba0a439": 427.1648,
-    "0f32d61a": 173.9677,
     "ec9121d1": 272.9326,
-    "3dcfbb25": 176.73,
     "d1101a3a": 266.0285,
-    "10eed535": 170.6618,
-    "20ec095a": 416.9642,
     "72fb1504": 262.8312
   }
 }
