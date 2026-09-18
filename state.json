@@ -1,9 +1,9 @@
 {
   "week": "2026-W38",
-  "spent": 18190.56,
-  "deployed": 878877.32,
+  "spent": 15199.48,
+  "deployed": 881877.32,
   "by_ticker": {
-    "GOOGL": 33.49,
+    "GOOGL": 3033.49,
     "AMD": 3047.32,
     "FLD": 1.2,
     "TPL": 62.38,
@@ -22,8 +22,7 @@
     "CRWD": 3017.29,
     "BE": 3002.49,
     "TSM": 3.37,
-    "MSFT": 3000.0,
-    "NVDA": 3000.0
+    "MSFT": 17.54
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -38,7 +37,7 @@
     "TTD": 69000.0,
     "AAPL": 69000.0,
     "MSFT": 63903.62,
-    "GOOGL": 52000.0,
+    "GOOGL": 55000.0,
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
@@ -11352,19 +11351,80 @@
       ],
       "evidence": "average cost $14.33",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 13.680274,
+      "status": "filled",
+      "price": 219.92,
+      "proceeds": 3008.62,
+      "realized_pnl": 8.62,
+      "realized_pct": 0.29,
+      "date": "2026-09-18",
+      "time_et": "09:43",
+      "ts": 1789738800,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $219.29",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.05157,
+      "status": "filled",
+      "price": 492.84,
+      "proceeds": 2982.46,
+      "realized_pnl": -17.54,
+      "realized_pct": -0.58,
+      "date": "2026-09-18",
+      "time_et": "09:43",
+      "ts": 1789738800,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $495.74",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.396742,
+      "price": 357.28,
+      "date": "2026-09-18",
+      "time_et": "09:43",
+      "ts": 1789739032,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+3.6% over the month; 42% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 18068.13,
-  "deployed_today": 33000.0,
-  "orders_today": 11,
-  "sells_today": 5,
+  "spent_today": 15077.05,
+  "deployed_today": 36000.0,
+  "orders_today": 12,
+  "sells_today": 7,
   "sold_today": [
     "INTC",
     "HLI",
     "META",
     "CHRW",
-    "TTD"
+    "TTD",
+    "NVDA",
+    "MSFT"
   ],
   "sold_ts": {
     "ALP": 1789404796,
@@ -11377,7 +11437,7 @@
     "AAPL": 1789670132,
     "BE": 1789671747,
     "NEM": 1789673960,
-    "MSFT": 1789671989,
+    "MSFT": 1789739030,
     "FLD": 1789399070,
     "GOOGL": 1789672843,
     "TPL": 1789500735,
@@ -11388,35 +11448,32 @@
     "SKWD": 1789566945,
     "SBLK": 1789670563,
     "TSM": 1789674128,
-    "INTC": 1789738553
+    "INTC": 1789738553,
+    "NVDA": 1789738985
   },
-  "last_publish_ts": 1789738900,
-  "last_check_ts": 1789738946,
+  "last_publish_ts": 1789739032,
+  "last_check_ts": 1789739032,
   "last_bar_ts": 1789738800,
-  "last_decision_ts": 1789738861,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789739032,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "bd56bcc7": 219.494,
-    "283e1f69": 219.9237,
-    "49c8c737": 493.0878,
     "0051972c": 335.1258,
     "8dbc2dcf": 334.964,
-    "20717d29": 337.8557,
-    "942422dd": 496.8009,
-    "1c0c2b23": 550.5491,
-    "8bc945e5": 274.9406,
-    "7d94189f": 542.2224,
     "947bf8bd": 239.7178,
-    "68b176aa": 217.3522,
-    "b108ae54": 244.6334,
+    "44b645fa": 358.1875,
+    "9362e2af": 355.0148,
     "79d15f5d": 354.7935,
+    "1c0c2b23": 550.5491,
+    "20717d29": 337.8557,
+    "7d94189f": 542.2224,
+    "8bc945e5": 274.9406,
     "53c030ac": 281.5063,
-    "06eef71e": 271.2411,
+    "b108ae54": 244.6334,
     "b84e7cfa": 235.9331,
-    "b219b310": 480.8678,
-    "64022ce9": 531.7249,
+    "06eef71e": 271.2411,
     "d60e829f": 326.9191,
-    "6904b0ce": 212.7113
+    "64022ce9": 531.7249,
+    "198dcfea": 346.5616
   }
 }

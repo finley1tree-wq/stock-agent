@@ -10755,3 +10755,26 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25155.91 (+0.62% on $25000.00 in) · cash $7237.18 · realised +237.18
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 21 order(s) working; budget left $6809.44 this week
+  (cancelled 3 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $219.92] -> $3008.62 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-18 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $492.84] -> $2982.46 (-0.58%) — close it all at -0.5% under the average cost
+## 2026-09-18 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 09:43 ET (Friday) — week 2026-W38 — budget left $12800.52 (today $33000.00 put to work, 11 buys, 7 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB1CQCixdPrbfYUcMkT8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,801 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +3.6% over the month; 42% of today's range
+~ WORKING take_profit 100% GOOGL @ $358.19 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $355.01 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $346.56 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25148.86 (+0.60% on $25000.00 in) · cash $10228.26 · realised +228.26
+Done: 0 sell(s), 1 buy(s); 17 order(s) working; budget left $9800.52 this week

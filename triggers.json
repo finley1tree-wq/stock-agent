@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "d6487e28",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 412.4828,
-   "status": "cancelled",
-   "created": "2026-09-17 09:37",
-   "created_ts": 1789652260,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $425.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b284d559",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 346.7,
-   "status": "filled",
-   "created": "2026-09-17 09:39",
-   "created_ts": 1789652341,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $346.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 09:40"
-  },
-  {
-   "id": "0cb3a16a",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 173.912,
-   "status": "cancelled",
-   "created": "2026-09-17 09:39",
-   "created_ts": 1789652379,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $173.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "13a9656c",
    "ticker": "GLD",
    "kind": "buy_limit",
@@ -6927,7 +6871,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 496.8009,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "close 100% at +0.2% over the average cost",
@@ -6937,14 +6881,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "49c8c737",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 493.0878,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "close it all at -0.5% under the average cost",
@@ -6954,14 +6900,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:43"
   },
   {
    "id": "b219b310",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 480.8678,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6971,7 +6918,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "99a81a58",
@@ -7287,7 +7236,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 217.3522,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "strong month, weak day: resting 0.54% under $218.54 to catch the dip",
@@ -7297,7 +7246,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-19",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-18 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c374b05d",
@@ -7425,7 +7376,7 @@
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 219.9237,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 09:38",
    "created_ts": 1789738687,
    "why": "close 100% at +0.3% over the average cost",
@@ -7435,7 +7386,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:43"
   },
   {
    "id": "de05ac01",
@@ -7461,7 +7413,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 212.7113,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:38",
    "created_ts": 1789738687,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7471,7 +7423,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d298bc2a",
@@ -7497,7 +7451,7 @@
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 219.494,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:41",
    "created_ts": 1789738900,
    "why": "close it all at -0.7% under the average cost",
@@ -7507,8 +7461,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:43",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "44b645fa",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 358.1875,
+   "status": "working",
+   "created": "2026-09-18 09:43",
+   "created_ts": 1789739032,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $357.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "9362e2af",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 355.0148,
+   "status": "working",
+   "created": "2026-09-18 09:43",
+   "created_ts": 1789739032,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $357.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "198dcfea",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 346.5616,
+   "status": "working",
+   "created": "2026-09-18 09:43",
+   "created_ts": 1789739032,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $357.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-18 09:41"
+ "updated": "2026-09-18 09:43"
 }
