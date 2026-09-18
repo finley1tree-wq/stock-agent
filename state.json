@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 12428.58,
+  "spent": 9427.13,
   "deployed": 1048612.98,
   "by_ticker": {
     "GOOGL": 54.37,
-    "AMD": 3060.05,
+    "AMD": 58.6,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -13667,13 +13667,33 @@
         "autopilot"
       ],
       "evidence": "+0.9% over the month; 84% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.511071,
+      "status": "filled",
+      "price": 544.62,
+      "proceeds": 3001.45,
+      "realized_pnl": 1.45,
+      "realized_pct": 0.05,
+      "date": "2026-09-18",
+      "time_et": "15:06",
+      "ts": 1789758406,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.07% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 12306.15,
+  "spent_today": 9304.7,
   "deployed_today": 202735.66,
   "orders_today": 72,
-  "sells_today": 66,
+  "sells_today": 67,
   "sold_today": [
     "INTC",
     "HLI",
@@ -13696,7 +13716,7 @@
     "META": 1789754784,
     "CHRW": 1789757040,
     "TTD": 1789755667,
-    "AMD": 1789753798,
+    "AMD": 1789758406,
     "IBM": 1789671065,
     "AAPL": 1789757040,
     "BE": 1789757896,
@@ -13715,27 +13735,24 @@
     "INTC": 1789756706,
     "NVDA": 1789753798
   },
-  "last_publish_ts": 1789758318,
-  "last_check_ts": 1789758319,
+  "last_publish_ts": 1789758406,
+  "last_check_ts": 1789758406,
   "last_bar_ts": 1789758300,
   "last_decision_ts": 1789758319,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "f47ac317": 430.356,
+    "741eb0a3": 177.148,
     "bd1a6aca": 431.0994,
-    "33f32977": 220.1152,
     "9b69a666": 177.6789,
-    "aeeb6cf6": 546.7824,
+    "33f32977": 220.1152,
     "6a21b071": 676.2085,
     "5be5c335": 218.2227,
     "3c038285": 667.9606,
     "2d59a74d": 217.8591,
-    "e16ac72d": 538.3067,
-    "093d8ba0": 174.9177,
     "99f48320": 653.6345,
     "18912981": 212.8859,
-    "2ef5abc4": 528.0292,
     "55b65019": 417.1194,
     "d8a4e444": 171.5833
   }
