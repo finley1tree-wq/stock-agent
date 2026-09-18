@@ -12418,3 +12418,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% TTD @ $14.03 until 2026-09-23 — close it all at -1.3% under the average cost
 portfolio: equity $25171.27 (+0.69% on $25000.00 in) · cash $4158.77 · realised +158.77
 Decision: nothing at this check. 21 standing order(s) working.
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.07] -> $3016.53 (+0.55%) — close 100% at +0.5% over the average cost
+## 2026-09-18 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

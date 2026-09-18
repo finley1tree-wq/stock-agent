@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 MSFT @ $479.51 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AMD @ $541.07 until 2026-09-19 — strong month, weak day: resting 0.83% under $545.61 to catch the dip
-portfolio: equity $25141.45 (+0.57% on $25000.00 in) · cash $1133.40 · realised +133.40
 Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $705.64 this week
 
 ## 2026-09-18 13:17 ET (Friday) — week 2026-W38 — budget left $705.64 (today $148393.20 put to work, 52 buys, 43 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% TTD @ $14.03 until 2026-09-23 — close it all at -1.3% under the average cost
 portfolio: equity $25171.27 (+0.69% on $25000.00 in) · cash $4158.77 · realised +158.77
 Decision: nothing at this check. 21 standing order(s) working.
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.07] -> $3016.53 (+0.55%) — close 100% at +0.5% over the average cost
+## 2026-09-18 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
