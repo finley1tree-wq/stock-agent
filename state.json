@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6298.02,
-  "deployed": 964270.52,
+  "spent": 9298.02,
+  "deployed": 967270.52,
   "by_ticker": {
     "GOOGL": 53.85,
     "AMD": 59.56,
@@ -23,12 +23,13 @@
     "TSM": 3025.88,
     "MSFT": 17.87,
     "INTC": 19.62,
-    "NVDA": 9.59
+    "NVDA": 9.59,
+    "BE": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
     "CHRW": 72000.0,
-    "BE": 81000.0,
+    "BE": 84000.0,
     "IBM": 66000.0,
     "FLD": 6000.0,
     "HLI": 72873.19,
@@ -12594,12 +12595,30 @@
       ],
       "evidence": "bought 30 min ago, -0.13% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.071574,
+      "price": 270.96,
+      "date": "2026-09-18",
+      "time_et": "12:40",
+      "ts": 1789749638,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +31.1% over the month; 23% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6175.59,
-  "deployed_today": 118393.2,
-  "orders_today": 42,
+  "spent_today": 9175.59,
+  "deployed_today": 121393.2,
+  "orders_today": 43,
   "sells_today": 39,
   "sold_today": [
     "INTC",
@@ -12642,18 +12661,21 @@
     "INTC": 1789747523,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789749103,
-  "last_check_ts": 1789749546,
-  "last_bar_ts": 1789749300,
-  "last_decision_ts": 1789749462,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789749638,
+  "last_check_ts": 1789749638,
+  "last_bar_ts": 1789749600,
+  "last_decision_ts": 1789749638,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "3f1a5302": 430.9389,
     "9ba0a439": 427.1648,
     "0f32d61a": 173.9677,
+    "ec9121d1": 272.9326,
     "3dcfbb25": 176.73,
+    "d1101a3a": 266.0285,
     "10eed535": 170.6618,
-    "20ec095a": 416.9642
+    "20ec095a": 416.9642,
+    "72fb1504": 262.8312
   }
 }
