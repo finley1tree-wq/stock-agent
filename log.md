@@ -12092,3 +12092,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25142.81 (+0.57% on $25000.00 in) · cash $6972.46 · realised +143.25
 Decision: nothing at this check. 23 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% CRWD [time stop] -> $3007.77 (+0.26%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HLI [time stop] -> $2994.65 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $2994.69 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AAPL [time stop] -> $3004.45 (+0.15%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 13:27 ET — tick — 4 sell(s), 0 buy(s) from standing orders
