@@ -20441,5 +20441,55 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": 0.2
+  },
+  {
+    "symbol": "HLI",
+    "side": "sell",
+    "qty": 22.742306,
+    "status": "filled",
+    "price": 131.93,
+    "proceeds": 3000.33,
+    "realized_pnl": 0.33,
+    "realized_pct": 0.01,
+    "date": "2026-09-18",
+    "time_et": "10:53",
+    "ts": 1789743228,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.05% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "50b87e8"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": 9.016685,
+    "status": "filled",
+    "price": 333.58,
+    "proceeds": 3007.74,
+    "realized_pnl": 7.74,
+    "realized_pct": 0.26,
+    "date": "2026-09-18",
+    "time_et": "10:54",
+    "ts": 1789743000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $332.72",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "50b87e8"
   }
 ]

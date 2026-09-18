@@ -1,8 +1,3 @@
-portfolio: equity $25129.27 (+0.52% on $25000.00 in) · cash $13183.48 · realised +183.48
-Decision: nothing at this check. 14 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (trigger BE stop_loss superseded at this check)
-  (cancelled 1 standing order(s) on BE: position closed)
 - SELL 100% BE [take_profit @ $281.51] -> $3020.17 (+0.67%) — close 100% at +0.7% over the average cost
 ## 2026-09-18 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 3 standing order(s) on GOOGL: position closed)
@@ -398,3 +393,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $1000.00 TSM @ $430.06 until 2026-09-19 — strong month, weak day: resting 0.47% under $432.08 to catch the dip
 portfolio: equity $25164.67 (+0.66% on $25000.00 in) · cash $3936.99 · realised +145.30
 Decision: nothing at this check. 28 standing order(s) working.
+- SELL 100% HLI [time stop] -> $3000.33 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 10:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $333.58] -> $3007.74 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-18 10:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders

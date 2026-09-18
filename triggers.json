@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "8f4b17fa",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 248.8188,
-   "status": "cancelled",
-   "created": "2026-09-17 10:47",
-   "created_ts": 1789656420,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $247.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 10:55",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "171dcd00",
    "ticker": "CRWD",
    "kind": "stop_loss",
@@ -6627,7 +6608,7 @@
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 132.3836,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:23",
    "created_ts": 1789741434,
    "why": "close 100% at +0.4% over the average cost",
@@ -6637,14 +6618,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:53",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "81713930",
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 130.7254,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:23",
    "created_ts": 1789741434,
    "why": "close it all at -0.9% under the average cost",
@@ -6654,14 +6637,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:53",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ef9f8e89",
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 127.9527,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:23",
    "created_ts": 1789741434,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6671,7 +6656,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 10:53",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9e2726ec",
@@ -6899,7 +6886,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 489.7665,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:29",
    "created_ts": 1789741775,
    "why": "close it all at -0.6% under the average cost",
@@ -6909,7 +6896,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:53",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0254fba5",
@@ -7289,7 +7278,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 333.5751,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 10:44",
    "created_ts": 1789742677,
    "why": "close 100% at +0.3% over the average cost",
@@ -7299,7 +7288,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:54"
   },
   {
    "id": "dc51a927",
@@ -7325,7 +7315,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 322.7384,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:44",
    "created_ts": 1789742677,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7335,14 +7325,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 10:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "58503e37",
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 333.032,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:46",
    "created_ts": 1789742775,
    "why": "close it all at -0.6% under the average cost",
@@ -7352,7 +7344,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a387d93f",
@@ -7493,7 +7487,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 1000.0
+  },
+  {
+   "id": "b04338d0",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 492.868,
+   "status": "working",
+   "created": "2026-09-18 10:53",
+   "created_ts": 1789743228,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $492.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 10:53"
+ "updated": "2026-09-18 10:54"
 }
