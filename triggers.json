@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "b8cdbada",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 426.3286,
-   "status": "filled",
-   "created": "2026-09-17 09:37",
-   "created_ts": 1789652260,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $425.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 09:46"
-  },
-  {
    "id": "5b8b3975",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -6874,7 +6856,7 @@
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 151.44,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "close it all at -0.7% under the average cost",
@@ -6884,7 +6866,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "627591af",
@@ -7497,7 +7481,24 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "d298bc2a",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.644,
+   "status": "working",
+   "created": "2026-09-18 09:39",
+   "created_ts": 1789738775,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $152.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 09:38"
+ "updated": "2026-09-18 09:39"
 }
