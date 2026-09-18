@@ -1,6 +1,3 @@
-portfolio: equity $25127.66 (+0.51% on $25000.00 in) · cash $1160.64 · realised +160.64
-Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $732.90 this week
-
 ## 2026-09-18 10:47 ET (Friday) — week 2026-W38 — budget left $732.90 (today $73000.00 put to work, 25 buys, 16 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +395,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $738.77 CRWD @ $235.52 until 2026-09-19 — strong month, weak day: resting 1.15% under $238.25 to catch the dip
 portfolio: equity $25122.19 (+0.49% on $25000.00 in) · cash $1166.52 · realised +166.52
 Decision: nothing at this check. 26 standing order(s) working.
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [stop_loss @ $270.54] -> $3005.05 (+0.17%) — close it all at -1.8% under the average cost
+## 2026-09-18 11:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
