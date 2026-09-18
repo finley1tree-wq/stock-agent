@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "4f0ae336",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 238.498,
-   "status": "filled",
-   "created": "2026-09-17 14:48",
-   "created_ts": 1789670926,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $238.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 14:51"
-  },
-  {
-   "id": "2ef59ca1",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 249.1709,
-   "status": "cancelled",
-   "created": "2026-09-17 14:55",
-   "created_ts": 1789671329,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $247.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "877fe6f2",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 243.9203,
-   "status": "cancelled",
-   "created": "2026-09-17 14:55",
-   "created_ts": 1789671329,
-   "why": "close it all at -1.5% under the average cost",
-   "evidence": "average cost $247.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "3185e15f",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -7550,7 +7494,58 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "d2dc0574",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 241.5852,
+   "status": "working",
+   "created": "2026-09-18 15:16",
+   "created_ts": 1789759002,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $240.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "052f2e70",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 236.4896,
+   "status": "working",
+   "created": "2026-09-18 15:16",
+   "created_ts": 1789759002,
+   "why": "close it all at -1.5% under the average cost",
+   "evidence": "average cost $240.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "58a79361",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 232.9261,
+   "status": "working",
+   "created": "2026-09-18 15:16",
+   "created_ts": 1789759002,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $240.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-18 15:13"
+ "updated": "2026-09-18 15:16"
 }

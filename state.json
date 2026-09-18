@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6251.68,
-  "deployed": 1051612.98,
+  "spent": 9251.68,
+  "deployed": 1054612.98,
   "by_ticker": {
     "GOOGL": 54.37,
     "AMD": 58.6,
@@ -19,7 +19,7 @@
     "TTD": 3076.0,
     "IBM": 6.03,
     "PLTR": 18.31,
-    "CRWD": 13.15,
+    "CRWD": 3013.15,
     "TSM": 31.52,
     "MSFT": 7.15,
     "INTC": 25.95,
@@ -43,7 +43,7 @@
     "TPL": 12000.0,
     "GRNT": 9000.0,
     "MAIA": 6000.0,
-    "CRWD": 60000.0,
+    "CRWD": 63000.0,
     "PLTR": 37000.0,
     "SKWD": 3000.0,
     "SBLK": 27000.0,
@@ -13767,12 +13767,30 @@
       ],
       "evidence": "average cost $430.02",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.493336,
+      "price": 240.13,
+      "date": "2026-09-18",
+      "time_et": "15:16",
+      "ts": 1789759002,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +19.1% over the month; 41% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6129.25,
-  "deployed_today": 205735.66,
-  "orders_today": 73,
+  "spent_today": 9129.25,
+  "deployed_today": 208735.66,
+  "orders_today": 74,
   "sells_today": 70,
   "sold_today": [
     "INTC",
@@ -13815,18 +13833,21 @@
     "INTC": 1789756706,
     "NVDA": 1789758575
   },
-  "last_publish_ts": 1789758694,
-  "last_check_ts": 1789758917,
+  "last_publish_ts": 1789759002,
+  "last_check_ts": 1789759002,
   "last_bar_ts": 1789758900,
-  "last_decision_ts": 1789758828,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789759002,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "c95c18ad": 14.1027,
     "6a21b071": 676.2085,
     "3c038285": 667.9606,
-    "c95c18ad": 14.1027,
+    "d2dc0574": 241.5852,
     "b6c0295c": 13.8485,
+    "052f2e70": 236.4896,
     "99f48320": 653.6345,
-    "a4253f7b": 13.6091
+    "a4253f7b": 13.6091,
+    "58a79361": 232.9261
   }
 }
