@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "b9caab28",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 545.544,
-   "status": "filled",
-   "created": "2026-09-17 15:08",
-   "created_ts": 1789672081,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $544.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:10"
-  },
-  {
-   "id": "b85b80c0",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 125.0985,
-   "status": "cancelled",
-   "created": "2026-09-17 15:09",
-   "created_ts": 1789672165,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $124.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:39",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8ec67b61",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 123.3888,
-   "status": "cancelled",
-   "created": "2026-09-17 15:09",
-   "created_ts": 1789672165,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $124.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:39",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a8ff8920",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 120.8717,
-   "status": "cancelled",
-   "created": "2026-09-17 15:09",
-   "created_ts": 1789672165,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $124.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "d71fd48f",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 346.9891,
-   "status": "cancelled",
-   "created": "2026-09-17 15:12",
-   "created_ts": 1789672340,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $346.11",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fb1dd1b9",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 343.9087,
-   "status": "cancelled",
-   "created": "2026-09-17 15:12",
-   "created_ts": 1789672340,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $346.11",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 15:16",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "2f713f05",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -7394,7 +7281,7 @@
    "ticker": "TTD",
    "kind": "buy_limit",
    "price": 13.6091,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 15:08",
    "created_ts": 1789758489,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7404,7 +7291,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d2dc0574",
@@ -7447,7 +7336,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 232.9261,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 15:16",
    "created_ts": 1789759002,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7457,7 +7346,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "a28d6c0c",
@@ -7534,9 +7425,119 @@
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 104.1586,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 15:25",
    "created_ts": 1789759549,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $107.38",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0,
+   "closed": "2026-09-18 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "a6d023af",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.6091,
+   "status": "cancelled",
+   "created": "2026-09-18 15:28",
+   "created_ts": 1789759714,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0,
+   "closed": "2026-09-18 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "44bb1131",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 232.9261,
+   "status": "cancelled",
+   "created": "2026-09-18 15:28",
+   "created_ts": 1789759714,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $240.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0,
+   "closed": "2026-09-18 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "86c60bae",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 104.1586,
+   "status": "cancelled",
+   "created": "2026-09-18 15:28",
+   "created_ts": 1789759714,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $107.38",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0,
+   "closed": "2026-09-18 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "12913f9d",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.6091,
+   "status": "working",
+   "created": "2026-09-18 15:28",
+   "created_ts": 1789759715,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
+  },
+  {
+   "id": "71fca823",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 232.9261,
+   "status": "working",
+   "created": "2026-09-18 15:28",
+   "created_ts": 1789759715,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $240.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
+  },
+  {
+   "id": "844d7f04",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 104.1586,
+   "status": "working",
+   "created": "2026-09-18 15:28",
+   "created_ts": 1789759715,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $107.38",
    "signals": [
@@ -7547,5 +7548,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-18 15:25"
+ "updated": "2026-09-18 15:28"
 }

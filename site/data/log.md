@@ -1,22 +1,3 @@
-Decision: nothing at this check. 21 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 14:19 ET (Friday) — week 2026-W38 — budget left $3731.02 (today $184563.99 put to work, 65 buys, 57 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBNEa6YB12PctY81xJGM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% TTD @ $14.03 until 2026-09-23 — close it all at -1.3% under the average cost
-portfolio: equity $25171.27 (+0.69% on $25000.00 in) · cash $4158.77 · realised +158.77
-Decision: nothing at this check. 21 standing order(s) working.
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $14.07] -> $3016.53 (+0.55%) — close 100% at +0.5% over the average cost
 ## 2026-09-18 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-18 14:22 ET (Friday) — week 2026-W38 — budget left $6747.55 (today $184563.99 put to work, 65 buys, 58 sells) — SIM (pretend money) via sim
@@ -398,3 +379,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 INTC @ $104.16 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25149.94 (+0.60% on $25000.00 in) · cash $16166.22 · realised +166.22
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15738.49 this week
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-18 15:28 ET (Friday) — week 2026-W38 — budget left $15738.49 (today $211735.66 put to work, 75 buys, 71 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBTV48V41TzsTVPUBptd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 TTD @ $13.61 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 CRWD @ $232.93 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 INTC @ $104.16 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25150.60 (+0.60% on $25000.00 in) · cash $16166.22 · realised +166.22
+Decision: nothing at this check. 9 standing order(s) working.
