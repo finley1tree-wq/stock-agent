@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "5b8b3975",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 422.5185,
-   "status": "cancelled",
-   "created": "2026-09-17 09:37",
-   "created_ts": 1789652260,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $425.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 09:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "d6487e28",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -7461,7 +7442,7 @@
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 217.7067,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:38",
    "created_ts": 1789738687,
    "why": "close it all at -0.7% under the average cost",
@@ -7471,7 +7452,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6904b0ce",
@@ -7508,6 +7491,23 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-18 09:40",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "bd56bcc7",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 219.494,
+   "status": "working",
+   "created": "2026-09-18 09:41",
+   "created_ts": 1789738900,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $219.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-09-18 09:41"
