@@ -1,5 +1,3 @@
-## 2026-09-18 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-18 14:22 ET (Friday) — week 2026-W38 — budget left $6747.55 (today $184563.99 put to work, 65 buys, 58 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 INTC @ $104.16 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25150.60 (+0.60% on $25000.00 in) · cash $16166.22 · realised +166.22
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
