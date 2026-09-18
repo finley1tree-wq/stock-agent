@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12427.13,
+  "spent": 12255.5,
   "deployed": 1051612.98,
   "by_ticker": {
     "GOOGL": 54.37,
@@ -23,7 +23,7 @@
     "TSM": 3032.39,
     "MSFT": 7.15,
     "INTC": 25.95,
-    "NVDA": 181.54,
+    "NVDA": 9.91,
     "BE": 26.5
   },
   "deployed_by_ticker": {
@@ -13705,13 +13705,33 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.6% over the month; 16% of today's range"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 0.782189,
+      "status": "filled",
+      "price": 219.43,
+      "proceeds": 171.63,
+      "realized_pnl": -0.04,
+      "realized_pct": -0.02,
+      "date": "2026-09-18",
+      "time_et": "15:09",
+      "ts": 1789758574,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.00% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 12304.7,
+  "spent_today": 12133.07,
   "deployed_today": 205735.66,
   "orders_today": 73,
-  "sells_today": 67,
+  "sells_today": 68,
   "sold_today": [
     "INTC",
     "HLI",
@@ -13751,29 +13771,25 @@
     "SBLK": 1789670563,
     "TSM": 1789754317,
     "INTC": 1789756706,
-    "NVDA": 1789753798
+    "NVDA": 1789758575
   },
-  "last_publish_ts": 1789758489,
-  "last_check_ts": 1789758489,
+  "last_publish_ts": 1789758574,
+  "last_check_ts": 1789758574,
   "last_bar_ts": 1789758300,
   "last_decision_ts": 1789758489,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "f47ac317": 430.356,
     "741eb0a3": 177.148,
+    "f47ac317": 430.356,
     "bd1a6aca": 431.0994,
     "9b69a666": 177.6789,
-    "33f32977": 220.1152,
-    "5be5c335": 218.2227,
     "6a21b071": 676.2085,
-    "c95c18ad": 14.1027,
     "3c038285": 667.9606,
-    "2d59a74d": 217.8591,
+    "c95c18ad": 14.1027,
     "b6c0295c": 13.8485,
-    "99f48320": 653.6345,
     "a4253f7b": 13.6091,
-    "18912981": 212.8859,
+    "99f48320": 653.6345,
     "55b65019": 417.1194,
     "d8a4e444": 171.5833
   }

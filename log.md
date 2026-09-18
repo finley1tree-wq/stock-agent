@@ -12701,3 +12701,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 TTD @ $13.61 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25172.78 (+0.69% on $25000.00 in) · cash $13000.60 · realised +172.27
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $12572.87 this week
+- SELL 100% NVDA [time stop] -> $171.63 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
