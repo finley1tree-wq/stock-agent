@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "36f611af",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 151.1352,
-   "status": "cancelled",
-   "created": "2026-09-17 10:47",
-   "created_ts": 1789656420,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $152.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 11:07",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "ce30ce39",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.6049,
-   "status": "cancelled",
-   "created": "2026-09-17 10:47",
-   "created_ts": 1789656420,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $152.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 11:09",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "8f4b17fa",
    "ticker": "CRWD",
    "kind": "take_profit",
@@ -6884,7 +6846,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 13.9404,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:26",
    "created_ts": 1789741604,
    "why": "close it all at -1.3% under the average cost",
@@ -6894,7 +6856,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:53",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "24b86ec5",
@@ -7495,7 +7459,41 @@
    ],
    "good_until": "2026-09-23",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "2051d7ba",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 14.144,
+   "status": "working",
+   "created": "2026-09-18 10:53",
+   "created_ts": 1789743187,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $14.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "51a3b77d",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 430.0586,
+   "status": "working",
+   "created": "2026-09-18 10:53",
+   "created_ts": 1789743189,
+   "why": "strong month, weak day: resting 0.47% under $432.08 to catch the dip",
+   "evidence": "+4.8% over the month, sitting at 52% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-18 10:51"
+ "updated": "2026-09-18 10:53"
 }
