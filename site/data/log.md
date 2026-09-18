@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 10:00 ET (Friday) — week 2026-W38 — budget left $21737.88 (today $40000.00 put to work, 14 buys, 12 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% PLTR @ $175.56 until 2026-09-23 — close it all at -1.1% under the average cost
 portfolio: equity $25167.97 (+0.67% on $25000.00 in) · cash $13158.64 · realised +158.64
 Decision: nothing at this check. 15 standing order(s) working.
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [stop_loss @ $175.47] -> $3002.89 (+0.10%) — close it all at -1.1% under the average cost
+## 2026-09-18 11:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
