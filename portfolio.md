@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-18 13:49 ET
+# Pretend portfolio — 2026-09-18 13:52 ET
 
-**Equity $25158.90** on $25000.00 put in → **+0.64%**  
-Cash $19154.19 · Unrealised +4.71 · Realised +154.19
+**Equity $25158.21** on $25000.00 put in → **+0.63%**  
+Cash $19154.19 · Unrealised +4.02 · Realised +154.19
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| PLTR | 12.0% | $3007.26 | $175.48 | $175.90 | +0.24% | 0d |
-| TSM | 11.9% | $2997.45 | $430.60 | $430.23 | -0.09% | 0d |
+| PLTR | 11.9% | $3005.38 | $175.48 | $175.79 | +0.18% | 0d |
+| TSM | 11.9% | $2998.63 | $430.60 | $430.40 | -0.05% | 0d |
 
 ## Last fills
 
