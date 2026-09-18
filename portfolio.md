@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-18 09:52 ET
+# Pretend portfolio — 2026-09-18 09:55 ET
 
-**Equity $25165.46** on $25000.00 put in → **+0.66%**  
-Cash $18186.46 · Unrealised -21.00 · Realised +186.46
+**Equity $25166.57** on $25000.00 put in → **+0.67%**  
+Cash $18186.46 · Unrealised -19.89 · Realised +186.46
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| AAPL | 15.8% | $3984.79 | $336.55 | $335.27 | -0.38% | 0d |
-| TSM | 11.9% | $2994.21 | $433.44 | $432.60 | -0.19% | 0d |
+| AAPL | 15.8% | $3984.31 | $336.55 | $335.23 | -0.39% | 0d |
+| TSM | 11.9% | $2995.80 | $433.44 | $432.83 | -0.14% | 0d |
 
 ## Last fills
 
