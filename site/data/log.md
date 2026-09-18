@@ -1,4 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25305.32 (+1.22% on $25000.00 in) · cash $25305.32 · realised +305.32
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-17 16:00 ET — published the session's closing state
