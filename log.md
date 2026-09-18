@@ -12862,3 +12862,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 INTC @ $104.16 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25161.03 (+0.64% on $25000.00 in) · cash $16166.22 · realised +166.22
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on INTC: position closed)
+- SELL 100% INTC [take_profit @ $108.00] -> $3017.30 (+0.58%) — close 100% at +0.6% over the average cost
+## 2026-09-18 15:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders

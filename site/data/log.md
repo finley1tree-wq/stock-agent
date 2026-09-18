@@ -1,8 +1,3 @@
-~ WORKING stop_loss 100% BE @ $266.52 until 2026-09-23 — close it all at -1.8% under the average cost
-~ WORKING buy_limit $500.00 BE @ $263.31 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25172.39 (+0.69% on $25000.00 in) · cash $4175.30 · realised +175.30
-Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $3747.55 this week
-  (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $239.96] -> $3018.33 (+0.61%) — close 100% at +0.6% over the average cost
 ## 2026-09-18 14:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +393,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 INTC @ $104.16 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25161.03 (+0.64% on $25000.00 in) · cash $16166.22 · realised +166.22
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on INTC: position closed)
+- SELL 100% INTC [take_profit @ $108.00] -> $3017.30 (+0.58%) — close 100% at +0.6% over the average cost
+## 2026-09-18 15:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
