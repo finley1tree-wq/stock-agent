@@ -7023,7 +7023,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 540.7053,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:41",
    "created_ts": 1789742504,
    "why": "strong month, weak day: resting 0.83% under $545.21 to catch the dip",
@@ -7033,7 +7033,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-19",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-18 11:14",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c7184de0",
@@ -7078,7 +7080,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 538.3008,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:44",
    "created_ts": 1789742677,
    "why": "close it all at -1.1% under the average cost",
@@ -7088,14 +7090,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 11:14",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "16809560",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 527.9807,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:44",
    "created_ts": 1789742677,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7105,7 +7109,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 11:14",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "dc6e7309",
@@ -7425,7 +7431,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 546.7431,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 11:01",
    "created_ts": 1789743707,
    "why": "close 100% at +0.4% over the average cost",
@@ -7435,7 +7441,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 11:14",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "99cd1b40",

@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 6247.73,
+  "spent": 3258.85,
   "deployed": 925085.63,
   "by_ticker": {
     "GOOGL": 53.94,
-    "AMD": 3043.99,
+    "AMD": 55.11,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -12066,13 +12066,33 @@
       ],
       "evidence": "average cost $236.54",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.511577,
+      "status": "filled",
+      "price": 542.29,
+      "proceeds": 2988.88,
+      "realized_pnl": -11.12,
+      "realized_pct": -0.37,
+      "date": "2026-09-18",
+      "time_et": "11:14",
+      "ts": 1789744482,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.35% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6125.3,
+  "spent_today": 3136.42,
   "deployed_today": 79208.31,
   "orders_today": 28,
-  "sells_today": 25,
+  "sells_today": 26,
   "sold_today": [
     "INTC",
     "HLI",
@@ -12095,7 +12115,7 @@
     "META": 1789742503,
     "CHRW": 1789742545,
     "TTD": 1789743397,
-    "AMD": 1789739409,
+    "AMD": 1789744482,
     "IBM": 1789671065,
     "AAPL": 1789743276,
     "BE": 1789742676,
@@ -12114,8 +12134,8 @@
     "INTC": 1789743031,
     "NVDA": 1789743578
   },
-  "last_publish_ts": 1789744044,
-  "last_check_ts": 1789744387,
+  "last_publish_ts": 1789744482,
+  "last_check_ts": 1789744482,
   "last_bar_ts": 1789744200,
   "last_decision_ts": 1789744387,
   "next_check_minutes": null,
@@ -12123,11 +12143,7 @@
   "book_px": {
     "51a3b77d": 430.0586,
     "4bc7abe9": 432.8795,
-    "df019282": 540.7053,
     "87c9d71e": 429.1056,
-    "7d0eabdb": 546.7431,
-    "66e45280": 538.3008,
-    "16809560": 527.9807,
     "f7c43de1": 418.846
   }
 }
