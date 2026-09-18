@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-18T15:31-04:00",
+ "asOf": "2026-09-18T15:33-04:00",
  "note": "autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "f279bd62",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 108.0007,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 107.43,
-   "pct_away": 0.53,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "c95c18ad",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -163,10 +146,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.02,
-   "pct_away": 0.59,
+   "last": 14.06,
+   "pct_away": 0.3,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f279bd62",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 108.0007,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 107.58,
+   "pct_away": 0.39,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 239.03,
-   "pct_away": -1.06,
+   "last": 238.68,
+   "pct_away": -0.92,
    "good_until": "2026-09-23",
    "why": "close it all at -1.5% under the average cost",
    "signals": [
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 239.03,
-   "pct_away": 1.07,
+   "last": 238.68,
+   "pct_away": 1.22,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -214,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.02,
-   "pct_away": -1.22,
+   "last": 14.06,
+   "pct_away": -1.5,
    "good_until": "2026-09-23",
    "why": "close it all at -1.3% under the average cost",
    "signals": [
@@ -231,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 107.43,
-   "pct_away": -1.49,
+   "last": 107.58,
+   "pct_away": -1.63,
    "good_until": "2026-09-23",
    "why": "close it all at -1.4% under the average cost",
    "signals": [
@@ -241,15 +241,15 @@
    ]
   },
   {
-   "id": "1530f8d1",
+   "id": "3ebebc93",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 232.9261,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 239.03,
-   "pct_away": -2.55,
+   "last": 238.68,
+   "pct_away": -2.41,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -258,32 +258,32 @@
    ]
   },
   {
-   "id": "7932936f",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.6091,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 14.02,
-   "pct_away": -2.93,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "076e6da6",
+   "id": "1b76a410",
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 104.1586,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 107.43,
-   "pct_away": -3.05,
+   "last": 107.58,
+   "pct_away": -3.18,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9873601f",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.6091,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 14.06,
+   "pct_away": -3.21,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -338,7 +338,7 @@
  "feed_status": {
   "congress": "ok",
   "congress_source": "congresswatch",
-  "congress_notes": "",
+  "congress_notes": "fmp: 402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
   "insiders": "ok",
   "excluded_instruments": [
    "AORT excluded: too thinly traded ($17.9M a day) \u2014 Artivion, Inc.",
@@ -355,11 +355,11 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 274,
-  "decisions_with_buys_graded": 98,
+  "decisions_graded": 273,
+  "decisions_with_buys_graded": 97,
   "independent_days_graded": 2,
-  "avg_regret_pct": -0.06,
-  "chosen_avg_pct": 0.35,
+  "avg_regret_pct": -0.07,
+  "chosen_avg_pct": 0.36,
   "skipped_avg_pct": 0.29,
   "idle_universe_avg_pct": 0.4,
   "picking_beats_random": true,
@@ -367,19 +367,19 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 144,
+    "n": 143,
     "avg_pct": 0.36
    },
    "congress": {
-    "n": 61,
-    "avg_pct": -0.01
+    "n": 60,
+    "avg_pct": 0.0
    },
    "insider": {
     "n": 9,
     "avg_pct": 0.94
    },
    "momentum": {
-    "n": 144,
+    "n": 143,
     "avg_pct": 0.36
    }
   },
@@ -456,9 +456,9 @@
     "n": 1
    }
   },
-  "idle_checks": 246,
+  "idle_checks": 247,
   "blocked_checks": 0,
-  "idle_share": 0.61,
+  "idle_share": 0.62,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2243,9 +2243,9 @@
     "when": "2026-09-18T09:46"
    },
    {
-    "title": "Why Ethereum Jumped 5.8% Today",
-    "source": "Motley Fool",
-    "when": "2026-09-18T19:20"
+    "title": "500th Episode: Investing Tips from 11 Years of Podcasting About Stocks",
+    "source": "Zacks",
+    "when": "2026-09-18T19:24"
    }
   ],
   "O": [
@@ -2454,5 +2454,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-18T15:31-04:00"
+ "signalsAsOf": "2026-09-18T15:33-04:00"
 }
