@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "6aa5a6eb",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 531.2496,
-   "status": "cancelled",
-   "created": "2026-09-17 13:29",
-   "created_ts": 1789666184,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $547.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 13:59",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a1e1e7e0",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 496.6296,
-   "status": "cancelled",
-   "created": "2026-09-17 13:34",
-   "created_ts": 1789666488,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $495.49",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 14:00",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "114ea2b0",
    "ticker": "MSFT",
    "kind": "stop_loss",
@@ -7148,7 +7110,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 491.6014,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 13:14",
    "created_ts": 1789751666,
    "why": "close it all at -0.6% under the average cost",
@@ -7158,7 +7120,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 13:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "399f4f38",
@@ -7493,7 +7457,7 @@
    "ticker": "BE",
    "kind": "stop_loss",
    "price": 266.3999,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 13:31",
    "created_ts": 1789752713,
    "why": "close it all at -1.8% under the average cost",
@@ -7503,7 +7467,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 13:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5d67954b",
@@ -7521,7 +7487,41 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "dfd5006a",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 494.688,
+   "status": "working",
+   "created": "2026-09-18 13:36",
+   "created_ts": 1789753001,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $494.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d24e452c",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 272.02,
+   "status": "working",
+   "created": "2026-09-18 13:36",
+   "created_ts": 1789753001,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $271.33",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 13:34"
+ "updated": "2026-09-18 13:37"
 }
