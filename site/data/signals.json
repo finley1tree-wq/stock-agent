@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T10:26-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,718 idle, so opened 2: CHRW, TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-09-18T10:29-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,718 idle, so opened 2: MSFT, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "37d9ecca",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 132.3836,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 132.0,
-   "pct_away": 0.29,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "72a52340",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 152.92,
-   "pct_away": 0.3,
+   "last": 153.02,
+   "pct_away": 0.24,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -173,17 +156,51 @@
    ]
   },
   {
-   "id": "6196556c",
-   "ticker": "INTC",
+   "id": "c84d787c",
+   "ticker": "MSFT",
    "kind": "take_profit",
-   "price": 108.8092,
+   "price": 493.5784,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.2,
-   "pct_away": 0.56,
+   "last": 492.39,
+   "pct_away": 0.24,
    "good_until": "2026-09-23",
-   "why": "close 100% at +0.6% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ad068b37",
+   "ticker": "NVDA",
+   "kind": "take_profit",
+   "price": 220.3738,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 219.69,
+   "pct_away": 0.31,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "37d9ecca",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 132.3836,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 131.95,
+   "pct_away": 0.33,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +214,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 672.92,
-   "pct_away": 0.57,
+   "last": 673.86,
+   "pct_away": 0.43,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4b6e8aa5",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 489.7665,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 492.39,
+   "pct_away": -0.53,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -224,6 +258,23 @@
    ]
   },
   {
+   "id": "6196556c",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 108.8092,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 108.11,
+   "pct_away": 0.65,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "267ca32f",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -231,8 +282,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 152.92,
-   "pct_away": -0.62,
+   "last": 153.02,
+   "pct_away": -0.68,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "935dabb6",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 218.1194,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 219.69,
+   "pct_away": -0.71,
    "good_until": "2026-09-23",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -248,8 +316,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 672.92,
-   "pct_away": -0.65,
+   "last": 673.86,
+   "pct_away": -0.79,
    "good_until": "2026-09-23",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -265,8 +333,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 132.0,
-   "pct_away": -0.97,
+   "last": 131.95,
+   "pct_away": -0.93,
    "good_until": "2026-09-23",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -299,10 +367,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.2,
-   "pct_away": -1.41,
+   "last": 108.11,
+   "pct_away": -1.33,
    "good_until": "2026-09-23",
    "why": "close it all at -1.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "99ccb5da",
+   "ticker": "INTC",
+   "kind": "buy_limit",
+   "price": 104.954,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 108.11,
+   "pct_away": -2.92,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -316,8 +401,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 672.92,
-   "pct_away": -2.79,
+   "last": 673.86,
+   "pct_away": -2.92,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -343,15 +428,15 @@
    ]
   },
   {
-   "id": "3e0007ab",
-   "ticker": "CHRW",
+   "id": "0254fba5",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 148.3906,
+   "price": 477.7153,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 152.92,
-   "pct_away": -2.96,
+   "last": 492.39,
+   "pct_away": -2.98,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -360,15 +445,15 @@
    ]
   },
   {
-   "id": "99ccb5da",
-   "ticker": "INTC",
+   "id": "d9b81b88",
+   "ticker": "NVDA",
    "kind": "buy_limit",
-   "price": 104.954,
+   "price": 213.1381,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 108.2,
-   "pct_away": -3.0,
+   "last": 219.69,
+   "pct_away": -2.98,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -384,8 +469,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 132.0,
-   "pct_away": -3.07,
+   "last": 131.95,
+   "pct_away": -3.03,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3e0007ab",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 148.3906,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 153.02,
+   "pct_away": -3.03,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -394,7 +496,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,718 idle, so opened 2: CHRW, TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,718 idle, so opened 2: MSFT, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -456,7 +558,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 380,
+  "decisions_graded": 379,
   "decisions_with_buys_graded": 133,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.15,
@@ -557,7 +659,7 @@
     "n": 2
    }
   },
-  "idle_checks": 252,
+  "idle_checks": 251,
   "blocked_checks": 0,
   "idle_share": 0.63,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1904,7 +2006,7 @@
   ],
   "CRWD": [
    {
-    "title": "Crowdstrike, Palo Alto Networks, and cybersecurity stocks on track to post strong gains after AI freak-out moment",
+    "title": "Crowdstrike, Palo Alto Networks, and cybersecurity stocks on track to post strong weekly gains after AI freak-out moment",
     "source": "Yahoo Finance",
     "when": "2026-09-18T14:23"
    },
@@ -2232,13 +2334,13 @@
     "when": "2026-09-18T14:13"
    },
    {
-    "title": "Nvidia CEO Sends Strong Signal to Investors",
-    "source": "GuruFocus.com",
-    "when": "2026-09-18T14:05"
+    "title": "2 Growth Stocks I Plan to Buy if the Stock Market Crashes",
+    "source": "Motley Fool",
+    "when": "2026-09-18T14:20"
    },
    {
-    "title": "Could Anthropic's IPO Top SpaceX's $75 Billion?",
-    "source": "Motley Fool",
+    "title": "Nvidia CEO Sends Strong Signal to Investors",
+    "source": "GuruFocus.com",
     "when": "2026-09-18T14:05"
    }
   ],
@@ -2448,5 +2550,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-18T10:26-04:00"
+ "signalsAsOf": "2026-09-18T10:29-04:00"
 }
