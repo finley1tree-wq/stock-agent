@@ -1,24 +1,3 @@
-portfolio: equity $25305.32 (+1.22% on $25000.00 in) · cash $25305.32 · realised +305.32
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-17 15:56 ET (Thursday) — week 2026-W38 — budget left $24877.57 (today $245622.30 put to work, 85 buys, 84 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (RVSB excluded: too thinly traded ($0.6M a day) — Riverview Bancorp, Inc.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9bmUzLHA977bfLvNY5E'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25305.32 (+1.22% on $25000.00 in) · cash $25305.32 · realised +305.32
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-17 15:58 ET (Thursday) — week 2026-W38 — budget left $24877.57 (today $245622.30 put to work, 85 buys, 84 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (RVSB excluded: too thinly traded ($0.6M a day) — Riverview Bancorp, Inc.)
@@ -398,3 +377,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $654.18 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25143.09 (+0.57% on $25000.00 in) · cash $16145.49 · realised +145.49
 Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $15717.75 this week
+
+## 2026-09-18 10:26 ET (Friday) — week 2026-W38 — budget left $15717.75 (today $49000.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB4U9y1dp5K9sCp2Xy3n'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,718 idle, so opened 2: CHRW, TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +5.8% over the month; 61% of today's range
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +4.2% over the month; 18% of today's range
+~ WORKING take_profit 100% CHRW @ $153.38 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $151.97 until 2026-09-23 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $148.39 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $14.19 until 2026-09-23 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $13.94 until 2026-09-23 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $13.70 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25138.38 (+0.55% on $25000.00 in) · cash $10145.49 · realised +145.49
+Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $9717.75 this week
