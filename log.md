@@ -11051,3 +11051,21 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 NVDA @ $213.14 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25139.69 (+0.56% on $25000.00 in) · cash $4145.49 · realised +145.49
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $3717.75 this week
+
+## 2026-09-18 10:32 ET (Friday) — week 2026-W38 — budget left $3717.75 (today $61000.00 put to work, 21 buys, 13 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB4uFXaGhdjusrvMZJB9'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,718 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +31.0% over the month; 22% of today's range
+~ WORKING take_profit 100% BE @ $272.78 until 2026-09-23 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $265.88 until 2026-09-23 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 BE @ $262.69 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CRWD @ $233.98 until 2026-09-19 — strong month, weak day: resting 1.15% under $236.71 to catch the dip
+portfolio: equity $25142.38 (+0.57% on $25000.00 in) · cash $1145.49 · realised +145.49
+Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $717.75 this week
