@@ -10641,3 +10641,51 @@ portfolio: equity $25305.32 (+1.22% on $25000.00 in) · cash $25305.32 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-17 16:00 ET — published the session's closing state
+
+## 2026-09-18 09:32 ET (Friday) — week 2026-W38 — budget left $24877.57 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfAzR3SYwKHZeHcrNCkdt'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,878 idle, so opened 8: CHRW, BE, MSFT, INTC, CRWD, TTD, HLI, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +5.4% over the month; 9% of today's range
+- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +35.3% over the month; 9% of today's range
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.3% over the month; 6% of today's range
+- BUY $3000.00 INTC [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +17.1% over the month; 8% of today's range
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +20.6% over the month; 30% of today's range
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +5.8% over the month; 18% of today's range
+- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +4.5% over the month; 51% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +25.0% over the month; 8% of today's range
+~ WORKING take_profit 100% CHRW @ $152.84 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $151.44 until 2026-09-23 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $147.87 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BE @ $281.51 until 2026-09-23 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% BE @ $274.94 until 2026-09-23 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 BE @ $271.24 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $496.80 until 2026-09-23 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $493.09 until 2026-09-23 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $480.87 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% INTC @ $109.30 until 2026-09-23 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% INTC @ $107.19 until 2026-09-23 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 INTC @ $105.44 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $244.63 until 2026-09-23 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% CRWD @ $239.72 until 2026-09-23 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $235.93 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $14.40 until 2026-09-23 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $14.15 until 2026-09-23 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $13.90 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $133.20 until 2026-09-23 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% HLI @ $131.49 until 2026-09-23 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $128.73 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $684.73 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% META @ $676.85 until 2026-09-23 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 META @ $662.01 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $335.13 until 2026-09-19 — strong month, weak day: resting 0.46% under $336.67 to catch the dip
+~ WORKING buy_limit $1000.00 GOOGL @ $354.79 until 2026-09-19 — strong month, weak day: resting 0.47% under $356.47 to catch the dip
+~ WORKING buy_limit $1000.00 NVDA @ $217.35 until 2026-09-19 — strong month, weak day: resting 0.54% under $218.54 to catch the dip
+portfolio: equity $25298.72 (+1.19% on $25000.00 in) · cash $1305.32 · realised +305.32
+Done: 0 sell(s), 8 buy(s); 27 order(s) working; budget left $877.57 this week
