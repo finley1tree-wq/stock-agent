@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-18T13:22-04:00",
+ "asOf": "2026-09-18T13:25-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "3fb277ef",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 335.5936,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 335.4,
+   "pct_away": 0.06,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "8e035a6f",
    "ticker": "AAPL",
    "kind": "stop_loss",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 335.17,
-   "pct_away": -0.05,
+   "last": 335.4,
+   "pct_away": -0.12,
    "good_until": "2026-09-23",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -156,51 +173,17 @@
    ]
   },
   {
-   "id": "3fb277ef",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 335.5936,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 335.17,
-   "pct_away": 0.13,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8561a300",
+   "id": "313e2ecf",
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 495.4325,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 494.07,
-   "pct_away": 0.28,
+   "last": 494.43,
+   "pct_away": 0.2,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4757da2b",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 350.9065,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 349.58,
-   "pct_away": 0.38,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 219.89,
-   "pct_away": 0.38,
+   "last": 219.99,
+   "pct_away": 0.33,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -224,37 +207,20 @@
    ]
   },
   {
-   "id": "d574ec9b",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 491.6014,
+   "id": "4757da2b",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 350.9065,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 494.07,
-   "pct_away": -0.5,
+   "last": 349.5,
+   "pct_away": 0.4,
    "good_until": "2026-09-23",
-   "why": "close it all at -0.6% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "c1fdaa1e",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 491.4977,
-   "usd": 706.88,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 494.07,
-   "pct_away": -0.52,
-   "good_until": "2026-09-19",
-   "why": "strong month, weak day: resting 0.42% under $493.55 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -265,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 131.85,
-   "pct_away": 0.53,
+   "last": 131.96,
+   "pct_away": 0.45,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -282,8 +248,42 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 349.58,
-   "pct_away": -0.53,
+   "last": 349.5,
+   "pct_away": -0.5,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0d81506f",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 238.9056,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 237.7,
+   "pct_away": 0.51,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d574ec9b",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 491.6014,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 494.43,
+   "pct_away": -0.57,
    "good_until": "2026-09-23",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -299,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 545.37,
-   "pct_away": 0.57,
+   "last": 545.35,
+   "pct_away": 0.58,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -309,20 +309,20 @@
    ]
   },
   {
-   "id": "0d81506f",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 238.9056,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "c1fdaa1e",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 491.4977,
+   "usd": 706.88,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 237.43,
-   "pct_away": 0.62,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.6% over the average cost",
+   "last": 494.43,
+   "pct_away": -0.59,
+   "good_until": "2026-09-19",
+   "why": "strong month, weak day: resting 0.42% under $493.55 to catch the dip",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -333,27 +333,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 219.89,
-   "pct_away": -0.65,
+   "last": 219.99,
+   "pct_away": -0.7,
    "good_until": "2026-09-23",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "993378e9",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 130.8939,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 131.85,
-   "pct_away": -0.73,
-   "good_until": "2026-09-23",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -367,13 +350,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 545.37,
-   "pct_away": -0.79,
+   "last": 545.35,
+   "pct_away": -0.78,
    "good_until": "2026-09-19",
    "why": "strong month, weak day: resting 0.83% under $545.61 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "993378e9",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 130.8939,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 131.96,
+   "pct_away": -0.81,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -384,7 +384,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 545.37,
+   "last": 545.35,
    "pct_away": -0.98,
    "good_until": "2026-09-23",
    "why": "close it all at -1.1% under the average cost",
@@ -401,8 +401,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 237.43,
-   "pct_away": -1.52,
+   "last": 237.7,
+   "pct_away": -1.64,
    "good_until": "2026-09-23",
    "why": "close it all at -1.5% under the average cost",
    "signals": [
@@ -411,15 +411,15 @@
    ]
   },
   {
-   "id": "b8eb7947",
-   "ticker": "HLI",
+   "id": "21ac2340",
+   "ticker": "GOOGL",
    "kind": "buy_limit",
-   "price": 128.1176,
+   "price": 339.5,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 131.85,
-   "pct_away": -2.83,
+   "last": 349.5,
+   "pct_away": -2.86,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -435,7 +435,7 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 545.37,
+   "last": 545.35,
    "pct_away": -2.87,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -445,15 +445,15 @@
    ]
   },
   {
-   "id": "21ac2340",
-   "ticker": "GOOGL",
+   "id": "b8eb7947",
+   "ticker": "HLI",
    "kind": "buy_limit",
-   "price": 339.5,
+   "price": 128.1176,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 349.58,
-   "pct_away": -2.88,
+   "last": 131.96,
+   "pct_away": -2.91,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -469,8 +469,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 219.89,
-   "pct_away": -2.92,
+   "last": 219.99,
+   "pct_away": -2.96,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -486,8 +486,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.07,
-   "pct_away": -2.95,
+   "last": 494.43,
+   "pct_away": -3.02,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -503,8 +503,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 237.43,
-   "pct_away": -2.99,
+   "last": 237.7,
+   "pct_away": -3.1,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -520,8 +520,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 335.17,
-   "pct_away": -3.12,
+   "last": 335.4,
+   "pct_away": -3.19,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

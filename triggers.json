@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "c5ffec62",
-   "ticker": "SBLK",
-   "kind": "take_profit",
-   "price": 32.0759,
-   "status": "cancelled",
-   "created": "2026-09-17 13:29",
-   "created_ts": 1789666184,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $31.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 13:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "99b9d703",
-   "ticker": "SBLK",
-   "kind": "stop_loss",
-   "price": 31.7405,
-   "status": "cancelled",
-   "created": "2026-09-17 13:29",
-   "created_ts": 1789666184,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $31.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 13:41",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "1a0c1965",
    "ticker": "SBLK",
    "kind": "buy_limit",
@@ -7315,7 +7277,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 495.4325,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 13:14",
    "created_ts": 1789751666,
    "why": "close 100% at +0.2% over the average cost",
@@ -7325,7 +7287,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 13:25",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d574ec9b",
@@ -7514,7 +7478,43 @@
    ],
    "good_until": "2026-09-23",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "074f321c",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 519.057,
+   "status": "cancelled",
+   "created": "2026-09-18 13:25",
+   "created_ts": 1789752302,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $494.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 13:25",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "313e2ecf",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 495.4325,
+   "status": "working",
+   "created": "2026-09-18 13:25",
+   "created_ts": 1789752350,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $494.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 13:22"
+ "updated": "2026-09-18 13:25"
 }
