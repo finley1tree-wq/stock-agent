@@ -1,5 +1,5 @@
 {
-  "cash": 4138.447463890243,
+  "cash": 3972.253764239108,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W38",
@@ -49,15 +49,6 @@
       "last_buy_ts": 1789750666,
       "opened_ts": 1789750666
     },
-    "TTD": {
-      "qty": 214.66002002921093,
-      "avg_cost": 13.975588,
-      "opened": "2026-09-18",
-      "last_buy": "2026-09-18",
-      "tranches": 1,
-      "last_buy_ts": 1789750839,
-      "opened_ts": 1789750839
-    },
     "MSFT": {
       "qty": 6.068711799886705,
       "avg_cost": 494.338848,
@@ -66,6 +57,24 @@
       "tranches": 1,
       "last_buy_ts": 1789751671,
       "opened_ts": 1789751671
+    },
+    "AMD": {
+      "qty": 5.493708665267331,
+      "avg_cost": 546.079194,
+      "opened": "2026-09-18",
+      "last_buy": "2026-09-18",
+      "tranches": 1,
+      "last_buy_ts": 1789752013,
+      "opened_ts": 1789752013
+    },
+    "NVDA": {
+      "qty": 0.776057123256983,
+      "avg_cost": 220.074006,
+      "opened": "2026-09-18",
+      "last_buy": "2026-09-18",
+      "tranches": 1,
+      "last_buy_ts": 1789752013,
+      "opened_ts": 1789752013
     }
   },
   "fills": [
@@ -8968,7 +8977,39 @@
       "realized_pct": 0.17,
       "type": "sell",
       "date": "2026-09-18 13:18"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 214.66002,
+      "status": "filled",
+      "price": 14.0,
+      "proceeds": 3004.6,
+      "realized_pnl": 4.6,
+      "realized_pct": 0.15,
+      "type": "sell",
+      "date": "2026-09-18 13:20"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.493709,
+      "price": 546.08,
+      "type": "buy",
+      "date": "2026-09-18 13:20"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 170.79,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.776057,
+      "price": 220.07,
+      "type": "buy",
+      "date": "2026-09-18 13:20"
     }
   ],
-  "realized_pnl": 138.4474638902601
+  "realized_pnl": 143.04376423912552
 }

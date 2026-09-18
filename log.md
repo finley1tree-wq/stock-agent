@@ -12038,3 +12038,27 @@ Decision: nothing at this check. 26 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% CHRW [time stop] -> $3005.05 (+0.17%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 13:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [stop_loss @ $14.00] -> $3004.60 (+0.15%) — close it all at -1.3% under the average cost
+## 2026-09-18 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 13:20 ET (Friday) — week 2026-W38 — budget left $6715.29 (today $148393.20 put to work, 52 buys, 45 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBHgwUZPrdiYgLCrgQKE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,715 idle, so opened 2: AMD, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +17.1% over the month; 39% of today's range
+- BUY $170.79 NVDA [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +1.1% over the month; 70% of today's range
+~ WORKING take_profit 100% AMD @ $548.50 until 2026-09-23 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMD @ $540.02 until 2026-09-23 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $529.70 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $220.71 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NVDA @ $218.46 until 2026-09-23 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 NVDA @ $213.47 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25133.61 (+0.53% on $25000.00 in) · cash $3972.25 · realised +143.04
+Done: 0 sell(s), 2 buy(s); 26 order(s) working; budget left $3544.50 this week
