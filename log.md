@@ -12002,3 +12002,23 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $706.88 MSFT @ $491.50 until 2026-09-19 — strong month, weak day: resting 0.42% under $493.55 to catch the dip
 portfolio: equity $25127.81 (+0.51% on $25000.00 in) · cash $1134.65 · realised +134.65
 Decision: nothing at this check. 25 standing order(s) working.
+- SELL 100% META [time stop] -> $2998.76 (-0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 13:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 13:14 ET (Friday) — week 2026-W38 — budget left $3705.64 (today $145393.20 put to work, 51 buys, 43 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBHFmPPYxPi3SqtUeptF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,706 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.0% over the month; 42% of today's range
+~ WORKING take_profit 100% MSFT @ $495.43 until 2026-09-23 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $491.60 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $479.51 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $541.07 until 2026-09-19 — strong month, weak day: resting 0.83% under $545.61 to catch the dip
+portfolio: equity $25141.45 (+0.57% on $25000.00 in) · cash $1133.40 · realised +133.40
+Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $705.64 this week
