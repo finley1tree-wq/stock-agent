@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12286.6,
+  "spent": 9293.57,
   "deployed": 964270.52,
   "by_ticker": {
     "GOOGL": 53.85,
@@ -21,7 +21,7 @@
     "PLTR": 3013.25,
     "CRWD": 39.25,
     "TSM": 3025.88,
-    "MSFT": 3010.9,
+    "MSFT": 17.87,
     "INTC": 19.62,
     "NVDA": 9.59
   },
@@ -12554,13 +12554,33 @@
       ],
       "evidence": "average cost $219.44",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.06994,
+      "status": "filled",
+      "price": 493.09,
+      "proceeds": 2993.03,
+      "realized_pnl": -6.97,
+      "realized_pct": -0.23,
+      "date": "2026-09-18",
+      "time_et": "12:26",
+      "ts": 1789748796,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.21% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 12164.17,
+  "spent_today": 9171.14,
   "deployed_today": 118393.2,
   "orders_today": 42,
-  "sells_today": 37,
+  "sells_today": 38,
   "sold_today": [
     "INTC",
     "HLI",
@@ -12588,7 +12608,7 @@
     "AAPL": 1789747869,
     "BE": 1789746912,
     "NEM": 1789673960,
-    "MSFT": 1789743578,
+    "MSFT": 1789748796,
     "FLD": 1789399070,
     "GOOGL": 1789747869,
     "TPL": 1789500735,
@@ -12602,24 +12622,20 @@
     "INTC": 1789747523,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789748710,
-  "last_check_ts": 1789748757,
+  "last_publish_ts": 1789748841,
+  "last_check_ts": 1789748841,
   "last_bar_ts": 1789748700,
   "last_decision_ts": 1789748757,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "b420a10f": 491.918,
-    "2d679f6e": 430.9389,
-    "2620bdc0": 491.5019,
-    "ce1654fe": 495.3323,
+    "4bf9f865": 430.9389,
     "9ba0a439": 427.1648,
     "e967b87f": 546.2902,
     "0f32d61a": 173.9677,
     "3dcfbb25": 176.73,
     "18251f4c": 537.8113,
     "10eed535": 170.6618,
-    "8a86bfc8": 479.4128,
     "bbaa8e18": 527.5539,
     "20ec095a": 416.9642
   }
