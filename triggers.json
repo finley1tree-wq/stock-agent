@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "df2def76",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 131.898,
-   "status": "cancelled",
-   "created": "2026-09-17 13:20",
-   "created_ts": 1789665610,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $131.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 13:22",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c5ffec62",
    "ticker": "SBLK",
    "kind": "take_profit",
@@ -7167,7 +7148,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 332.6044,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 12:57",
    "created_ts": 1789750660,
    "why": "close it all at -0.6% under the average cost",
@@ -7177,7 +7158,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 13:22",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d8e9c9b6",
@@ -7514,7 +7497,24 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "8e035a6f",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 334.998,
+   "status": "working",
+   "created": "2026-09-18 13:22",
+   "created_ts": 1789752175,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $334.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 13:20"
+ "updated": "2026-09-18 13:22"
 }
