@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "9e995d36",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 129.4199,
-   "status": "cancelled",
-   "created": "2026-09-17 10:35",
-   "created_ts": 1789655707,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $130.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 11:04",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "dc9f7c6d",
    "ticker": "HLI",
    "kind": "buy_limit",
@@ -7466,7 +7447,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 330.5839,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:44",
    "created_ts": 1789742677,
    "why": "close it all at -0.6% under the average cost",
@@ -7476,7 +7457,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "967a0591",
@@ -7494,7 +7477,24 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "58503e37",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 333.032,
+   "status": "working",
+   "created": "2026-09-18 10:46",
+   "created_ts": 1789742775,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $332.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 10:44"
+ "updated": "2026-09-18 10:46"
 }
