@@ -6874,7 +6874,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 233.9807,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:32",
    "created_ts": 1789741946,
    "why": "strong month, weak day: resting 1.15% under $236.71 to catch the dip",
@@ -6884,7 +6884,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-19",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-18 11:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "581b30c8",
@@ -6965,7 +6967,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 237.9947,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 10:41",
    "created_ts": 1789742504,
    "why": "close 100% at +0.6% over the average cost",
@@ -6975,7 +6977,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 11:07"
   },
   {
    "id": "5a9d0c51",
@@ -7001,7 +7004,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 229.4438,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:41",
    "created_ts": 1789742504,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7011,7 +7014,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 11:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "df019282",
@@ -7494,7 +7499,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 236.984,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 11:03",
    "created_ts": 1789743796,
    "why": "close it all at -1.5% under the average cost",
@@ -7504,7 +7509,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 11:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ed532b34",
@@ -7525,5 +7532,5 @@
    "closed": "2026-09-18 11:06"
   }
  ],
- "updated": "2026-09-18 11:06"
+ "updated": "2026-09-18 11:07"
 }

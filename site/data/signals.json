@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-18T11:06-04:00",
+ "asOf": "2026-09-18T11:07-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,37 +139,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "4499d37a",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 237.9947,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "51a3b77d",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 430.0586,
+   "usd": 1000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 237.71,
-   "pct_away": 0.12,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.6% over the average cost",
+   "last": 431.36,
+   "pct_away": -0.3,
+   "good_until": "2026-09-19",
+   "why": "strong month, weak day: resting 0.47% under $432.08 to catch the dip",
    "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ef535360",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 236.984,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 237.71,
-   "pct_away": -0.31,
-   "good_until": "2026-09-23",
-   "why": "close it all at -1.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -180,30 +163,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 431.51,
-   "pct_away": 0.32,
+   "last": 431.36,
+   "pct_away": 0.35,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "51a3b77d",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 430.0586,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 431.51,
-   "pct_away": -0.34,
-   "good_until": "2026-09-19",
-   "why": "strong month, weak day: resting 0.47% under $432.08 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -214,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 543.27,
-   "pct_away": -0.47,
+   "last": 543.43,
+   "pct_away": -0.5,
    "good_until": "2026-09-19",
    "why": "strong month, weak day: resting 0.83% under $545.21 to catch the dip",
    "signals": [
@@ -231,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 431.51,
-   "pct_away": -0.56,
+   "last": 431.36,
+   "pct_away": -0.52,
    "good_until": "2026-09-23",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -248,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 543.27,
-   "pct_away": 0.64,
+   "last": 543.43,
+   "pct_away": 0.61,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -265,30 +231,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 543.27,
-   "pct_away": -0.91,
+   "last": 543.43,
+   "pct_away": -0.94,
    "good_until": "2026-09-23",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "b129c42e",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 233.9807,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 237.71,
-   "pct_away": -1.57,
-   "good_until": "2026-09-19",
-   "why": "strong month, weak day: resting 1.15% under $236.71 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -299,8 +248,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 543.27,
-   "pct_away": -2.81,
+   "last": 543.43,
+   "pct_away": -2.84,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,25 +265,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 431.51,
-   "pct_away": -2.93,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "48f1c437",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 229.4438,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 237.71,
-   "pct_away": -3.48,
+   "last": 431.36,
+   "pct_away": -2.9,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

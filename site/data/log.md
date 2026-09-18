@@ -1,6 +1,3 @@
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [stop_loss @ $175.47] -> $3002.89 (+0.10%) — close it all at -1.1% under the average cost
 ## 2026-09-18 11:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $237.99] -> $3018.48 (+0.62%) — close 100% at +0.6% over the average cost
+## 2026-09-18 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
