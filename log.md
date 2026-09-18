@@ -12036,3 +12036,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25148.36 (+0.59% on $25000.00 in) · cash $1133.40 · realised +133.40
 Decision: nothing at this check. 26 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% CHRW [time stop] -> $3005.05 (+0.17%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 13:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
