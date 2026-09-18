@@ -11217,3 +11217,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $418.85 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25158.54 (+0.63% on $25000.00 in) · cash $7153.44 · realised +153.44
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $6725.70 this week
+- SELL 100% TTD [time stop] -> $3008.22 (+0.27%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 10:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
