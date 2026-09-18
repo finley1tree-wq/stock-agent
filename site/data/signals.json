@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T12:46-04:00",
- "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
+ "asOf": "2026-09-18T12:49-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,707 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "4dfa321e",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 153.4826,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.02,
+   "pct_away": 0.3,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "2761cbd0",
    "ticker": "META",
    "kind": "take_profit",
@@ -146,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 671.64,
-   "pct_away": 0.33,
+   "last": 670.56,
+   "pct_away": 0.49,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e656b5e0",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.0758,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.02,
+   "pct_away": -0.62,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 671.64,
-   "pct_away": -0.89,
+   "last": 670.56,
+   "pct_away": -0.74,
    "good_until": "2026-09-23",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -180,8 +214,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 671.64,
-   "pct_away": -3.02,
+   "last": 670.56,
+   "pct_away": -2.86,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "316e7663",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 148.4876,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 153.02,
+   "pct_away": -2.96,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -190,8 +241,8 @@
    ]
   }
  ],
- "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
- "next_check_minutes": null,
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,707 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "next_check_minutes": 6,
  "allowed": [
   "AAPL",
   "AMAT",
@@ -258,7 +309,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 332,
+  "decisions_graded": 331,
   "decisions_with_buys_graded": 118,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.08,
@@ -359,7 +410,7 @@
     "n": 2
    }
   },
-  "idle_checks": 248,
+  "idle_checks": 247,
   "blocked_checks": 0,
   "idle_share": 0.62,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1967,6 +2018,11 @@
   ],
   "GOOGL": [
    {
+    "title": "Sam Altman's Worldcoin just launched a global stablecoin app: What to know",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-18T16:42"
+   },
+   {
     "title": "S&P 500 wavers after best one-day rally in six weeks: AlphaCheck",
     "source": "Yahoo Finance",
     "when": "2026-09-18T14:13"
@@ -1975,11 +2031,6 @@
     "title": "Berkshire's Next Chapter Comes With a Buffett-Sized Question",
     "source": "GuruFocus.com",
     "when": "2026-09-18T16:23"
-   },
-   {
-    "title": "Goldman Sachs Delivers Surprising Verdict on Big Tech Stocks",
-    "source": "GuruFocus.com",
-    "when": "2026-09-18T16:18"
    }
   ],
   "HD": [
@@ -2443,5 +2494,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-18T12:46-04:00"
+ "signalsAsOf": "2026-09-18T12:49-04:00"
 }

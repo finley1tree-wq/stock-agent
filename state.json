@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 3293.12,
-  "deployed": 970270.52,
+  "spent": 6293.12,
+  "deployed": 973270.52,
   "by_ticker": {
     "GOOGL": 53.85,
     "AMD": 59.56,
@@ -12,7 +12,7 @@
     "HLI": 59.19,
     "NEM": 31.76,
     "SKWD": 22.98,
-    "CHRW": 44.12,
+    "CHRW": 3044.12,
     "SBLK": 24.03,
     "AAPL": 45.22,
     "META": 3107.24,
@@ -27,7 +27,7 @@
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
-    "CHRW": 72000.0,
+    "CHRW": 75000.0,
     "BE": 84000.0,
     "IBM": 66000.0,
     "FLD": 6000.0,
@@ -12690,12 +12690,30 @@
       ],
       "evidence": "average cost $270.96",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.597441,
+      "price": 153.08,
+      "date": "2026-09-18",
+      "time_et": "12:49",
+      "ts": 1789750149,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +5.9% over the month; 68% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 3170.69,
-  "deployed_today": 124393.2,
-  "orders_today": 44,
+  "spent_today": 6170.69,
+  "deployed_today": 127393.2,
+  "orders_today": 45,
   "sells_today": 42,
   "sold_today": [
     "INTC",
@@ -12738,15 +12756,18 @@
     "INTC": 1789747523,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789749984,
-  "last_check_ts": 1789750068,
+  "last_publish_ts": 1789750149,
+  "last_check_ts": 1789750149,
   "last_bar_ts": 1789749900,
-  "last_decision_ts": 1789749984,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789750149,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "4dfa321e": 153.4826,
     "2761cbd0": 673.877,
+    "e656b5e0": 152.0758,
     "dc7171e1": 665.6308,
-    "eda0b8ee": 651.3744
+    "eda0b8ee": 651.3744,
+    "316e7663": 148.4876
   }
 }
