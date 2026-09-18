@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "91288cfc",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 127.3416,
-   "status": "cancelled",
-   "created": "2026-09-17 11:52",
-   "created_ts": 1789660336,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $131.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 12:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "31f2a5b4",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 153.5836,
-   "status": "filled",
-   "created": "2026-09-17 11:55",
-   "created_ts": 1789660506,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $153.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 12:07"
-  },
-  {
-   "id": "fa71ab0d",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.1361,
-   "status": "cancelled",
-   "created": "2026-09-17 11:55",
-   "created_ts": 1789660506,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $153.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 12:00",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "9b9e5f2f",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 148.5749,
-   "status": "cancelled",
-   "created": "2026-09-17 11:55",
-   "created_ts": 1789660506,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $153.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 12:07",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4a109fc3",
    "ticker": "NEM",
    "kind": "take_profit",
@@ -7010,7 +6935,7 @@
    "ticker": "INTC",
    "kind": "stop_loss",
    "price": 105.699,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 11:35",
    "created_ts": 1789745740,
    "why": "close it all at -1.4% under the average cost",
@@ -7020,14 +6945,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 12:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "12e16d0b",
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 104.0228,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 11:35",
    "created_ts": 1789745740,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7037,7 +6964,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 12:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "269e74d3",
@@ -7216,7 +7145,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 107.8598,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 11:44",
    "created_ts": 1789746251,
    "why": "close 100% at +0.6% over the average cost",
@@ -7226,7 +7155,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 12:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "4d374f7c",
@@ -7404,7 +7335,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 234.7399,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 11:56",
    "created_ts": 1789747011,
    "why": "close it all at -1.5% under the average cost",
@@ -7414,7 +7345,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 12:05",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "091f9548",
@@ -7500,7 +7433,75 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "9378126a",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 238.842,
+   "status": "working",
+   "created": "2026-09-18 12:05",
+   "created_ts": 1789747523,
+   "why": "close it all at -1.5% under the average cost",
+   "evidence": "average cost $238.38",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1fe26a11",
+   "ticker": "NVDA",
+   "kind": "take_profit",
+   "price": 220.0852,
+   "status": "working",
+   "created": "2026-09-18 12:05",
+   "created_ts": 1789747525,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $219.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0974f923",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 217.8293,
+   "status": "working",
+   "created": "2026-09-18 12:05",
+   "created_ts": 1789747525,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $219.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "03c3e28b",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 212.8568,
+   "status": "working",
+   "created": "2026-09-18 12:05",
+   "created_ts": 1789747525,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $219.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-18 12:02"
+ "updated": "2026-09-18 12:05"
 }

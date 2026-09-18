@@ -161,8 +161,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -382,8 +382,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03,
-    "ret_final": 0.03,
+    "ret_now": 0.0,
+    "ret_final": 0.0,
     "ret_src": "realised"
   },
   {
@@ -614,8 +614,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.06,
-    "ret_now": 0.06,
+    "ret_final": 0.03,
+    "ret_now": 0.03,
     "ret_src": "realised"
   },
   {
@@ -1680,8 +1680,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.02,
-    "ret_now": -0.02,
+    "ret_final": -0.05,
+    "ret_now": -0.05,
     "ret_src": "realised"
   },
   {
@@ -2154,8 +2154,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.05,
-    "ret_now": -0.05,
+    "ret_final": -0.07,
+    "ret_now": -0.07,
     "ret_src": "realised"
   },
   {
@@ -2926,8 +2926,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05,
-    "ret_final": -0.05,
+    "ret_now": -0.08,
+    "ret_final": -0.08,
     "ret_src": "realised"
   },
   {
@@ -19375,8 +19375,8 @@
     "code_version": "b05db2d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": -0.03,
+    "ret_final": -0.03,
     "ret_src": "realised"
   },
   {
@@ -20034,8 +20034,8 @@
     "code_version": "0db5c3f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.51,
-    "ret_final": -0.51,
+    "ret_now": -0.32,
+    "ret_final": -0.32,
     "ret_src": "realised"
   },
   {
@@ -20884,7 +20884,9 @@
     "code_version": "ed2cd98",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.14,
+    "ret_final": -0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -20911,7 +20913,7 @@
     "code_version": "6720bcc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.07
   },
   {
     "symbol": "GOOGL",
@@ -20937,7 +20939,7 @@
     "code_version": "6720bcc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.1
   },
   {
     "symbol": "AAPL",
@@ -20963,7 +20965,7 @@
     "code_version": "6720bcc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.05
   },
   {
     "symbol": "TTD",
@@ -20990,7 +20992,7 @@
     "code_version": "3206215",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.5
   },
   {
     "symbol": "BE",
@@ -21069,7 +21071,7 @@
     "code_version": "272b4bd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.08
   },
   {
     "symbol": "CRWD",
@@ -21096,7 +21098,7 @@
     "code_version": "272b4bd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.31
   },
   {
     "symbol": "CHRW",
@@ -21148,6 +21150,57 @@
     "code_version": "4e596d3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": -0.05
+  },
+  {
+    "symbol": "INTC",
+    "side": "sell",
+    "qty": 27.97426,
+    "status": "filled",
+    "price": 107.09,
+    "proceeds": 2995.72,
+    "realized_pnl": -4.28,
+    "realized_pct": -0.14,
+    "date": "2026-09-18",
+    "time_et": "12:05",
+    "ts": 1789747523,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.12% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "5453707",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "NVDA",
+    "notional": 184.89,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.842539,
+    "price": 219.44,
+    "date": "2026-09-18",
+    "time_et": "12:05",
+    "ts": 1789747525,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+0.8% over the month; 48% of today's range",
+    "entry_price": 219.4,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.85,
+    "hour_et": 12,
+    "code_version": "5453707",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
