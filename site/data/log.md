@@ -1,20 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,729 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +22.8% over the month; 10% of today's range
-~ WORKING take_profit 100% META @ $673.19 until 2026-09-23 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $664.95 until 2026-09-23 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 META @ $650.71 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25155.96 (+0.62% on $25000.00 in) · cash $22156.56 · realised +156.56
-Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $21728.81 this week
-
-## 2026-09-18 14:03 ET (Friday) — week 2026-W38 — budget left $21728.81 (today $163563.99 put to work, 58 buys, 56 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBLzvqTjCw5FGv7r5Yhi'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25162.76 (+0.65% on $25000.00 in) · cash $22156.56 · realised +156.56
 Decision: nothing at this check. 3 standing order(s) working.
@@ -398,3 +381,20 @@ Decision: nothing at this check. 16 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AMD [time stop] -> $3001.45 (+0.05%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 15:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 15:08 ET (Friday) — week 2026-W38 — budget left $15572.87 (today $202735.66 put to work, 72 buys, 67 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBRvr4CBDBSPbEmy8ukG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,573 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.6% over the month; 16% of today's range
+~ WORKING take_profit 100% TTD @ $14.10 until 2026-09-23 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $13.85 until 2026-09-23 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $13.61 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25172.78 (+0.69% on $25000.00 in) · cash $13000.60 · realised +172.27
+Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $12572.87 this week

@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 9427.13,
-  "deployed": 1048612.98,
+  "spent": 12427.13,
+  "deployed": 1051612.98,
   "by_ticker": {
     "GOOGL": 54.37,
     "AMD": 58.6,
@@ -16,7 +16,7 @@
     "SBLK": 24.03,
     "AAPL": 40.36,
     "META": 3106.27,
-    "TTD": 76.0,
+    "TTD": 3076.0,
     "IBM": 6.03,
     "PLTR": 3021.26,
     "CRWD": 13.15,
@@ -36,7 +36,7 @@
     "NEM": 73000.0,
     "META": 84780.16,
     "AMD": 52000.0,
-    "TTD": 81000.0,
+    "TTD": 84000.0,
     "AAPL": 82000.0,
     "MSFT": 75903.62,
     "GOOGL": 64208.31,
@@ -13687,12 +13687,30 @@
       ],
       "evidence": "bought 30 min ago, +0.07% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 213.894471,
+      "price": 14.03,
+      "date": "2026-09-18",
+      "time_et": "15:08",
+      "ts": 1789758489,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.6% over the month; 16% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 9304.7,
-  "deployed_today": 202735.66,
-  "orders_today": 72,
+  "spent_today": 12304.7,
+  "deployed_today": 205735.66,
+  "orders_today": 73,
   "sells_today": 67,
   "sold_today": [
     "INTC",
@@ -13735,11 +13753,11 @@
     "INTC": 1789756706,
     "NVDA": 1789753798
   },
-  "last_publish_ts": 1789758406,
-  "last_check_ts": 1789758406,
+  "last_publish_ts": 1789758489,
+  "last_check_ts": 1789758489,
   "last_bar_ts": 1789758300,
-  "last_decision_ts": 1789758319,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789758489,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "f47ac317": 430.356,
@@ -13747,11 +13765,14 @@
     "bd1a6aca": 431.0994,
     "9b69a666": 177.6789,
     "33f32977": 220.1152,
-    "6a21b071": 676.2085,
     "5be5c335": 218.2227,
+    "6a21b071": 676.2085,
+    "c95c18ad": 14.1027,
     "3c038285": 667.9606,
     "2d59a74d": 217.8591,
+    "b6c0295c": 13.8485,
     "99f48320": 653.6345,
+    "a4253f7b": 13.6091,
     "18912981": 212.8859,
     "55b65019": 417.1194,
     "d8a4e444": 171.5833
