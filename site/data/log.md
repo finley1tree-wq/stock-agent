@@ -1,6 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9ZHHqbhqyNFS7CYY4CY'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,913 idle, so opened 1: CHRW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.6% over the month; 84% of today's range
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 GOOGL @ $346.56 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25148.86 (+0.60% on $25000.00 in) · cash $10228.26 · realised +228.26
 Done: 0 sell(s), 1 buy(s); 17 order(s) working; budget left $9800.52 this week
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $239.60] -> $2955.22 (-1.49%) — close it all at -1.4% under the average cost
+## 2026-09-18 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
