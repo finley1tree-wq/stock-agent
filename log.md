@@ -12224,3 +12224,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25160.28 (+0.64% on $25000.00 in) · cash $15984.16 · realised +154.95
 Decision: nothing at this check. 13 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMD [time stop] -> $2999.51 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $170.51 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 13:49 ET — tick — 2 sell(s), 0 buy(s) from standing orders

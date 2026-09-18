@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 9443.58,
+  "spent": 6273.56,
   "deployed": 1006441.31,
   "by_ticker": {
     "GOOGL": 59.16,
-    "AMD": 3059.56,
+    "AMD": 60.05,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -23,7 +23,7 @@
     "TSM": 3028.61,
     "MSFT": 13.79,
     "INTC": 19.42,
-    "NVDA": 180.38
+    "NVDA": 9.87
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -13120,13 +13120,53 @@
       ],
       "evidence": "bought 30 min ago, +0.16% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 5.493709,
+      "status": "filled",
+      "price": 545.99,
+      "proceeds": 2999.51,
+      "realized_pnl": -0.49,
+      "realized_pct": -0.02,
+      "date": "2026-09-18",
+      "time_et": "13:49",
+      "ts": 1789753797,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.00% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 0.776057,
+      "status": "filled",
+      "price": 219.72,
+      "proceeds": 170.51,
+      "realized_pnl": -0.28,
+      "realized_pct": -0.16,
+      "date": "2026-09-18",
+      "time_et": "13:49",
+      "ts": 1789753797,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.14% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 9321.15,
+  "spent_today": 6151.13,
   "deployed_today": 160563.99,
   "orders_today": 57,
-  "sells_today": 52,
+  "sells_today": 54,
   "sold_today": [
     "INTC",
     "HLI",
@@ -13149,7 +13189,7 @@
     "META": 1789751618,
     "CHRW": 1789751924,
     "TTD": 1789752006,
-    "AMD": 1789748960,
+    "AMD": 1789753798,
     "IBM": 1789671065,
     "AAPL": 1789752444,
     "BE": 1789753348,
@@ -13166,11 +13206,11 @@
     "SBLK": 1789670563,
     "TSM": 1789749678,
     "INTC": 1789752094,
-    "NVDA": 1789748710
+    "NVDA": 1789753798
   },
-  "last_publish_ts": 1789753706,
-  "last_check_ts": 1789753754,
-  "last_bar_ts": 1789753500,
+  "last_publish_ts": 1789753797,
+  "last_check_ts": 1789753843,
+  "last_bar_ts": 1789753800,
   "last_decision_ts": 1789753754,
   "next_check_minutes": null,
   "autopiloted": true,
@@ -13178,15 +13218,8 @@
     "1c168be8": 175.732,
     "95a0f2ea": 176.2697,
     "4d0a9ea3": 431.6808,
-    "0ef37d34": 548.5046,
-    "9d307c61": 220.7148,
     "be3d1d85": 427.9001,
-    "9ddface1": 218.4591,
-    "45fbdea9": 541.0691,
-    "c2e6f7dd": 540.024,
-    "c75a98ac": 213.4679,
     "2eb27cc6": 417.682,
-    "e0547c5e": 529.6976,
     "f507dfc6": 170.2156
   }
 }
