@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "b3f899f9",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 236.296,
-   "status": "cancelled",
-   "created": "2026-09-17 14:24",
-   "created_ts": 1789669464,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $238.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 14:48",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "a907322d",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 231.0346,
-   "status": "cancelled",
-   "created": "2026-09-17 14:24",
-   "created_ts": 1789669464,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $238.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 14:51",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "20a84f2e",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 335.848,
-   "status": "filled",
-   "created": "2026-09-17 14:31",
-   "created_ts": 1789669883,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $335.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 14:35"
-  },
-  {
-   "id": "27fffd7c",
-   "ticker": "SBLK",
-   "kind": "take_profit",
-   "price": 31.9659,
-   "status": "cancelled",
-   "created": "2026-09-17 14:32",
-   "created_ts": 1789669968,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $31.87",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 14:42",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "71a15fbd",
    "ticker": "SBLK",
    "kind": "stop_loss",
@@ -7520,7 +7445,75 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "aeeb6cf6",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 546.7824,
+   "status": "working",
+   "created": "2026-09-18 14:37",
+   "created_ts": 1789756621,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $544.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e16ac72d",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 538.3067,
+   "status": "working",
+   "created": "2026-09-18 14:37",
+   "created_ts": 1789756621,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $544.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2ef5abc4",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 528.0292,
+   "status": "working",
+   "created": "2026-09-18 14:37",
+   "created_ts": 1789756621,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $544.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 500.0
+  },
+  {
+   "id": "5be5c335",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 218.2227,
+   "status": "working",
+   "created": "2026-09-18 14:37",
+   "created_ts": 1789756621,
+   "why": "strong month, weak day: resting 0.55% under $219.43 to catch the dip",
+   "evidence": "+0.9% over the month, sitting at 49% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-19",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-18 14:33"
+ "updated": "2026-09-18 14:37"
 }
