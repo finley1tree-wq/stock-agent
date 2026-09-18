@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6244.61,
-  "deployed": 881877.32,
+  "spent": 9244.61,
+  "deployed": 884877.32,
   "by_ticker": {
     "GOOGL": 54.01,
     "AMD": 3047.32,
@@ -20,7 +20,7 @@
     "IBM": 6.03,
     "PLTR": 16.14,
     "CRWD": 62.07,
-    "TSM": 3.37,
+    "TSM": 3003.37,
     "MSFT": 17.54
   },
   "deployed_by_ticker": {
@@ -44,7 +44,7 @@
     "PLTR": 25000.0,
     "SKWD": 3000.0,
     "SBLK": 27000.0,
-    "TSM": 14320.35,
+    "TSM": 17320.35,
     "INTC": 3000.0,
     "NVDA": 3000.0
   },
@@ -11472,12 +11472,29 @@
       ],
       "evidence": "average cost $357.28",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.921426,
+      "price": 433.44,
+      "date": "2026-09-18",
+      "time_et": "09:49",
+      "ts": 1789739367,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+5.2% over the month; 74% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6122.18,
-  "deployed_today": 36000.0,
-  "orders_today": 12,
+  "spent_today": 9122.18,
+  "deployed_today": 39000.0,
+  "orders_today": 13,
   "sells_today": 10,
   "sold_today": [
     "INTC",
@@ -11516,19 +11533,22 @@
     "INTC": 1789738553,
     "NVDA": 1789738985
   },
-  "last_publish_ts": 1789739285,
-  "last_check_ts": 1789739285,
+  "last_publish_ts": 1789739367,
+  "last_check_ts": 1789739367,
   "last_bar_ts": 1789739100,
-  "last_decision_ts": 1789739207,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789739367,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "9df0b6b2": 549.052,
-    "1c0c2b23": 550.5491,
     "0051972c": 335.1258,
+    "9df0b6b2": 549.052,
     "8dbc2dcf": 334.964,
+    "1c0c2b23": 550.5491,
+    "1ea61aa7": 434.5193,
+    "4387c1c4": 430.744,
     "20717d29": 337.8557,
     "d60e829f": 326.9191,
+    "7c8aa042": 420.4368,
     "64022ce9": 531.7249
   }
 }
