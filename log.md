@@ -11233,3 +11233,7 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25144.59 (+0.58% on $25000.00 in) · cash $10161.67 · realised +161.67
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $493.58] -> $3006.64 (+0.22%) — close 100% at +0.2% over the average cost
+- SELL 100% NVDA [time stop] -> $2990.34 (-0.32%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 10:59 ET — tick — 2 sell(s), 0 buy(s) from standing orders

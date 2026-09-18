@@ -20579,5 +20579,55 @@
     "hour_et": 10,
     "code_version": "4ad76d4",
     "hold_minutes": 29
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 6.091513,
+    "status": "filled",
+    "price": 493.58,
+    "proceeds": 3006.64,
+    "realized_pnl": 6.64,
+    "realized_pct": 0.22,
+    "date": "2026-09-18",
+    "time_et": "10:59",
+    "ts": 1789743300,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $492.49",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "dbdce45"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": 13.652875,
+    "status": "filled",
+    "price": 219.03,
+    "proceeds": 2990.34,
+    "realized_pnl": -9.66,
+    "realized_pct": -0.32,
+    "date": "2026-09-18",
+    "time_et": "10:59",
+    "ts": 1789743578,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.30% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "dbdce45"
   }
 ]

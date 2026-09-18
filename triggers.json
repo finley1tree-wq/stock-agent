@@ -6817,7 +6817,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 493.5784,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 10:29",
    "created_ts": 1789741775,
    "why": "close 100% at +0.2% over the average cost",
@@ -6827,7 +6827,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:59"
   },
   {
    "id": "4b6e8aa5",
@@ -6853,7 +6854,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 477.7153,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:29",
    "created_ts": 1789741775,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6863,14 +6864,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 10:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ad068b37",
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 220.3738,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:29",
    "created_ts": 1789741775,
    "why": "close 100% at +0.3% over the average cost",
@@ -6880,14 +6883,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:59",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "935dabb6",
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 218.1194,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:29",
    "created_ts": 1789741775,
    "why": "close it all at -0.7% under the average cost",
@@ -6897,14 +6902,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:59",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d9b81b88",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 213.1381,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:29",
    "created_ts": 1789741775,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6914,7 +6921,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 10:59",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b763d9e8",
@@ -7450,7 +7459,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 492.868,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:53",
    "created_ts": 1789743228,
    "why": "close it all at -0.6% under the average cost",
@@ -7460,7 +7469,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4bc7abe9",
@@ -7514,5 +7525,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-18 10:58"
+ "updated": "2026-09-18 10:59"
 }
