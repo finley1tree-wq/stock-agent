@@ -10795,3 +10795,11 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25129.27 (+0.52% on $25000.00 in) · cash $13183.48 · realised +183.48
 Decision: nothing at this check. 14 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (trigger BE stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $281.51] -> $3020.17 (+0.67%) — close 100% at +0.7% over the average cost
+## 2026-09-18 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $354.84] -> $2979.48 (-0.68%) — close it all at -0.6% under the average cost
+  (dropped GOOGL: sold 0 min ago, cooling off)
+## 2026-09-18 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
