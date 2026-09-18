@@ -1,20 +1,3 @@
-- SELL 100% META [stop_loss @ $671.34] -> $3002.21 (+0.07%) — close it all at -0.9% under the average cost
-## 2026-09-18 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-18 14:06 ET (Friday) — week 2026-W38 — budget left $24731.02 (today $163563.99 put to work, 58 buys, 57 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBMDfUr5XGNHRBFDXKXy'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,731 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.4% over the month; 11% of today's range
-~ WORKING take_profit 100% TTD @ $14.07 until 2026-09-23 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% TTD @ $13.82 until 2026-09-23 — close it all at -1.3% under the average cost
-~ WORKING buy_limit $500.00 TTD @ $13.58 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25157.57 (+0.63% on $25000.00 in) · cash $22158.77 · realised +158.77
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $21731.02 this week
 
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $12572.87 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [stop_loss @ $177.06] -> $3002.95 (+0.10%) — close it all at -1.1% under the average cost
 ## 2026-09-18 15:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 15:10 ET (Friday) — week 2026-W38 — budget left $15747.45 (today $205735.66 put to work, 73 buys, 69 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBS8wf8Jbwmepk56pc6j'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25166.41 (+0.67% on $25000.00 in) · cash $16175.19 · realised +175.19
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $430.14] -> $3000.87 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-18 15:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders

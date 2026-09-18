@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9252.55,
+  "spent": 6251.68,
   "deployed": 1051612.98,
   "by_ticker": {
     "GOOGL": 54.37,
@@ -20,7 +20,7 @@
     "IBM": 6.03,
     "PLTR": 18.31,
     "CRWD": 13.15,
-    "TSM": 3032.39,
+    "TSM": 31.52,
     "MSFT": 7.15,
     "INTC": 25.95,
     "NVDA": 9.91,
@@ -13746,13 +13746,34 @@
       ],
       "evidence": "average cost $176.89",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.976485,
+      "status": "filled",
+      "price": 430.14,
+      "proceeds": 3000.87,
+      "realized_pnl": 0.87,
+      "realized_pct": 0.03,
+      "date": "2026-09-18",
+      "time_et": "15:11",
+      "ts": 1789758600,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $430.02",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 9130.12,
+  "spent_today": 6129.25,
   "deployed_today": 205735.66,
   "orders_today": 73,
-  "sells_today": 69,
+  "sells_today": 70,
   "sold_today": [
     "INTC",
     "HLI",
@@ -13790,25 +13811,22 @@
     "PLTR": 1789758654,
     "SKWD": 1789566945,
     "SBLK": 1789670563,
-    "TSM": 1789754317,
+    "TSM": 1789758694,
     "INTC": 1789756706,
     "NVDA": 1789758575
   },
-  "last_publish_ts": 1789758653,
-  "last_check_ts": 1789758655,
+  "last_publish_ts": 1789758694,
+  "last_check_ts": 1789758739,
   "last_bar_ts": 1789758600,
   "last_decision_ts": 1789758655,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "f47ac317": 430.356,
-    "bd1a6aca": 431.0994,
     "6a21b071": 676.2085,
     "3c038285": 667.9606,
     "c95c18ad": 14.1027,
     "b6c0295c": 13.8485,
     "99f48320": 653.6345,
-    "a4253f7b": 13.6091,
-    "55b65019": 417.1194
+    "a4253f7b": 13.6091
   }
 }
