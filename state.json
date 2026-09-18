@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6261.51,
-  "deployed": 1054612.98,
+  "spent": 9261.51,
+  "deployed": 1057612.98,
   "by_ticker": {
     "GOOGL": 54.37,
     "AMD": 58.6,
@@ -22,7 +22,7 @@
     "CRWD": 3013.15,
     "TSM": 31.52,
     "MSFT": 7.15,
-    "INTC": 25.95,
+    "INTC": 3025.95,
     "NVDA": 9.91,
     "BE": 26.5
   },
@@ -48,7 +48,7 @@
     "SKWD": 3000.0,
     "SBLK": 27000.0,
     "TSM": 29320.35,
-    "INTC": 15000.0,
+    "INTC": 18000.0,
     "NVDA": 6527.35
   },
   "orders": [
@@ -13805,12 +13805,30 @@
       ],
       "evidence": "bought 30 min ago, -0.31% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "INTC",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 27.937781,
+      "price": 107.38,
+      "date": "2026-09-18",
+      "time_et": "15:25",
+      "ts": 1789759549,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +15.7% over the month; 23% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6139.08,
-  "deployed_today": 208735.66,
-  "orders_today": 74,
+  "spent_today": 9139.08,
+  "deployed_today": 211735.66,
+  "orders_today": 75,
   "sells_today": 71,
   "sold_today": [
     "INTC",
@@ -13853,18 +13871,21 @@
     "INTC": 1789756706,
     "NVDA": 1789758575
   },
-  "last_publish_ts": 1789759414,
-  "last_check_ts": 1789759460,
-  "last_bar_ts": 1789759200,
-  "last_decision_ts": 1789759372,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789759549,
+  "last_check_ts": 1789759549,
+  "last_bar_ts": 1789759500,
+  "last_decision_ts": 1789759549,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "f279bd62": 108.0007,
     "c95c18ad": 14.1027,
     "4084193c": 241.5876,
-    "b6c0295c": 13.8485,
     "052f2e70": 236.4896,
+    "b6c0295c": 13.8485,
+    "765622f3": 105.8273,
     "58a79361": 232.9261,
-    "a4253f7b": 13.6091
+    "a4253f7b": 13.6091,
+    "e268a543": 104.1586
   }
 }
