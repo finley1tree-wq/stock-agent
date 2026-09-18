@@ -10689,3 +10689,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $1000.00 NVDA @ $217.35 until 2026-09-19 — strong month, weak day: resting 0.54% under $218.54 to catch the dip
 portfolio: equity $25298.72 (+1.19% on $25000.00 in) · cash $1305.32 · realised +305.32
 Done: 0 sell(s), 8 buy(s); 27 order(s) working; budget left $877.57 this week
+
+## 2026-09-18 09:35 ET (Friday) — week 2026-W38 — budget left $877.57 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfAzXaiuUkgpgoFSE1qEs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25289.02 (+1.16% on $25000.00 in) · cash $1305.32 · realised +305.32
+Decision: nothing at this check. 27 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

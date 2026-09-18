@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "bcb86f93",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 335.7461,
-   "status": "cancelled",
-   "created": "2026-09-17 09:36",
-   "created_ts": 1789652212,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $346.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "3d69003f",
    "ticker": "META",
    "kind": "take_profit",
@@ -7214,7 +7195,7 @@
    "ticker": "INTC",
    "kind": "stop_loss",
    "price": 107.1902,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "close it all at -1.4% under the average cost",
@@ -7224,7 +7205,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:35",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "607a13d6",
@@ -7497,7 +7480,24 @@
    ],
    "good_until": "2026-09-19",
    "usd": 1000.0
+  },
+  {
+   "id": "c374b05d",
+   "ticker": "INTC",
+   "kind": "stop_loss",
+   "price": 108.982,
+   "status": "working",
+   "created": "2026-09-18 09:35",
+   "created_ts": 1789738503,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $108.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 09:32"
+ "updated": "2026-09-18 09:35"
 }
