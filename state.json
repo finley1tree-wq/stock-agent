@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 3262.12,
+  "spent": 282.25,
   "deployed": 885877.32,
   "by_ticker": {
     "GOOGL": 54.01,
@@ -20,7 +20,7 @@
     "IBM": 6.03,
     "PLTR": 16.14,
     "CRWD": 62.07,
-    "TSM": 3003.37,
+    "TSM": 23.5,
     "MSFT": 17.54
   },
   "deployed_by_ticker": {
@@ -11550,13 +11550,34 @@
       ],
       "evidence": "average cost $337.03",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.921426,
+      "status": "filled",
+      "price": 430.53,
+      "proceeds": 2979.87,
+      "realized_pnl": -20.13,
+      "realized_pct": -0.67,
+      "date": "2026-09-18",
+      "time_et": "10:06",
+      "ts": 1789740300,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $433.44",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 3139.69,
+  "spent_today": 159.82,
   "deployed_today": 40000.0,
   "orders_today": 14,
-  "sells_today": 12,
+  "sells_today": 13,
   "sold_today": [
     "INTC",
     "HLI",
@@ -11569,7 +11590,8 @@
     "BE",
     "GOOGL",
     "AMD",
-    "AAPL"
+    "AAPL",
+    "TSM"
   ],
   "sold_ts": {
     "ALP": 1789404796,
@@ -11592,19 +11614,15 @@
     "PLTR": 1789671943,
     "SKWD": 1789566945,
     "SBLK": 1789670563,
-    "TSM": 1789674128,
+    "TSM": 1789740387,
     "INTC": 1789738553,
     "NVDA": 1789738985
   },
-  "last_publish_ts": 1789739861,
-  "last_check_ts": 1789740295,
-  "last_bar_ts": 1789740000,
-  "last_decision_ts": 1789740205,
+  "last_publish_ts": 1789740387,
+  "last_check_ts": 1789740388,
+  "last_bar_ts": 1789740300,
+  "last_decision_ts": 1789740388,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "4387c1c4": 430.744,
-    "1ea61aa7": 434.5193,
-    "7c8aa042": 420.4368
-  }
+  "book_px": {}
 }
