@@ -4,23 +4,6 @@
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBJavJ4aeZZzZSyPa4D9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $12,546 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 BE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +31.3% over the month; 25% of today's range
-~ WORKING take_profit 100% BE @ $273.30 until 2026-09-23 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% BE @ $266.40 until 2026-09-23 — close it all at -1.8% under the average cost
-~ WORKING buy_limit $500.00 BE @ $263.19 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25133.85 (+0.54% on $25000.00 in) · cash $9974.01 · realised +144.80
-Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $9546.26 this week
-
-## 2026-09-18 13:34 ET (Friday) — week 2026-W38 — budget left $9546.26 (today $160563.99 put to work, 57 buys, 50 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBJobnSsmDqYSLWvvYHa'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
@@ -398,3 +381,20 @@ portfolio: equity $25181.73 (+0.73% on $25000.00 in) · cash $1193.63 · realise
 Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $765.88 this week
 - SELL 100% INTC [time stop] -> $2993.47 (-0.22%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 14:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 14:39 ET (Friday) — week 2026-W38 — budget left $3759.35 (today $193563.99 put to work, 68 buys, 60 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBPm682EfVmHGBgFCfvJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,759 idle, so opened 1: NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $171.67 NVDA [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.9% over the month; 49% of today's range
+~ WORKING take_profit 100% NVDA @ $220.12 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NVDA @ $217.86 until 2026-09-23 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 NVDA @ $212.89 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25172.33 (+0.69% on $25000.00 in) · cash $4015.43 · realised +187.10
+Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $3587.68 this week

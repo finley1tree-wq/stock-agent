@@ -161,8 +161,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": -0.03,
+    "ret_final": -0.03,
     "ret_src": "realised"
   },
   {
@@ -382,8 +382,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": -0.03,
+    "ret_final": -0.03,
     "ret_src": "realised"
   },
   {
@@ -614,8 +614,8 @@
     "hour_et": 9,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.02,
-    "ret_now": 0.02,
+    "ret_final": -0.01,
+    "ret_now": -0.01,
     "ret_src": "realised"
   },
   {
@@ -1680,8 +1680,8 @@
     "hour_et": 12,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.04,
-    "ret_now": -0.04,
+    "ret_final": -0.06,
+    "ret_now": -0.06,
     "ret_src": "realised"
   },
   {
@@ -2154,8 +2154,8 @@
     "hour_et": 13,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.06,
-    "ret_now": -0.06,
+    "ret_final": -0.08,
+    "ret_now": -0.08,
     "ret_src": "realised"
   },
   {
@@ -2926,8 +2926,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06,
-    "ret_final": -0.06,
+    "ret_now": -0.09,
+    "ret_final": -0.09,
     "ret_src": "realised"
   },
   {
@@ -19375,8 +19375,8 @@
     "code_version": "b05db2d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02,
-    "ret_final": -0.02,
+    "ret_now": -0.06,
+    "ret_final": -0.06,
     "ret_src": "realised"
   },
   {
@@ -20884,8 +20884,8 @@
     "code_version": "ed2cd98",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06,
-    "ret_final": -0.06,
+    "ret_now": -0.12,
+    "ret_final": -0.12,
     "ret_src": "realised"
   },
   {
@@ -21670,8 +21670,8 @@
     "code_version": "accdba6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01,
-    "ret_final": 0.01,
+    "ret_now": -0.1,
+    "ret_final": -0.1,
     "ret_src": "realised"
   },
   {
@@ -22454,7 +22454,9 @@
     "code_version": "4d5700e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.22,
+    "ret_final": -0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -22537,7 +22539,7 @@
     "code_version": "1c4d400",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.14
   },
   {
     "symbol": "GOOGL",
@@ -22563,7 +22565,7 @@
     "code_version": "1c4d400",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.11
   },
   {
     "symbol": "AAPL",
@@ -22643,7 +22645,7 @@
     "code_version": "ae4ea61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.33
   },
   {
     "symbol": "CRWD",
@@ -22697,7 +22699,7 @@
     "code_version": "000781e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.0
   },
   {
     "symbol": "AMD",
@@ -22722,7 +22724,8 @@
     "hour_et": 14,
     "code_version": "6e69a56",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.07
   },
   {
     "symbol": "INTC",
@@ -22747,6 +22750,32 @@
     "evidence": "bought 30 min ago, -0.20% unrealised",
     "trigger": "time_stop",
     "hour_et": 14,
-    "code_version": "ddcba38"
+    "code_version": "ddcba38",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "NVDA",
+    "notional": 171.67,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.782189,
+    "price": 219.47,
+    "date": "2026-09-18",
+    "time_et": "14:39",
+    "ts": 1789756786,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+0.9% over the month; 49% of today's range",
+    "entry_price": 219.43,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.86,
+    "hour_et": 14,
+    "code_version": "fa12360",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
