@@ -11119,3 +11119,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $1000.00 GOOGL @ $348.90 until 2026-09-19 — strong month, weak day: resting 0.48% under $350.60 to catch the dip
 portfolio: equity $25146.23 (+0.58% on $25000.00 in) · cash $1147.14 · realised +147.14
 Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $719.40 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $153.38] -> $3007.87 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-18 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

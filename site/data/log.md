@@ -1,6 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfAzkzbhsM6R51HmaYzfL'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,839 idle, so opened 3: AAPL, AMD, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +6.3% over the month; 39% of today's range
 - BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +17.5% over the month; 68% of today's range
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $1000.00 GOOGL @ $348.90 until 2026-09-19 — strong month, weak day: resting 0.48% under $350.60 to catch the dip
 portfolio: equity $25146.23 (+0.58% on $25000.00 in) · cash $1147.14 · realised +147.14
 Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $719.40 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $153.38] -> $3007.87 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-18 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
