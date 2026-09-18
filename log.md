@@ -11530,3 +11530,17 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25131.79 (+0.53% on $25000.00 in) · cash $1166.52 · realised +166.52
 Decision: nothing at this check. 25 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 11:53 ET (Friday) — week 2026-W38 — budget left $738.77 (today $103208.31 put to work, 36 buys, 27 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBB6oFZLvET1sazpijj7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $738.77 CRWD @ $235.52 until 2026-09-19 — strong month, weak day: resting 1.15% under $238.25 to catch the dip
+portfolio: equity $25122.19 (+0.49% on $25000.00 in) · cash $1166.52 · realised +166.52
+Decision: nothing at this check. 26 standing order(s) working.
