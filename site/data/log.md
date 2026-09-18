@@ -3,26 +3,6 @@
   (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9YDMjmtDWdWVJkDQYmR'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,911 idle, so opened 1: NEM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 NEM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.4% over the month; 50% of today's range
-~ WORKING take_profit 100% NEM @ $125.10 until 2026-09-22 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NEM @ $123.39 until 2026-09-22 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NEM @ $120.87 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25333.86 (+1.34% on $25000.00 in) · cash $10338.58 · realised +338.58
-Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $9910.82 this week
-  (cancelled 2 standing order(s) on AMD: position closed)
-- SELL 100% AMD [stop_loss @ $545.27] -> $3003.10 (+0.10%) — close it all at -1.1% under the average cost
-## 2026-09-17 15:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-17 15:12 ET (Thursday) — week 2026-W38 — budget left $12913.92 (today $236622.30 put to work, 82 buys, 77 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9YSWFrVK5qv5SASTSEE'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,914 idle, so opened 2: GOOGL, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -398,3 +378,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $1000.00 NVDA @ $217.35 until 2026-09-19 — strong month, weak day: resting 0.54% under $218.54 to catch the dip
 portfolio: equity $25298.72 (+1.19% on $25000.00 in) · cash $1305.32 · realised +305.32
 Done: 0 sell(s), 8 buy(s); 27 order(s) working; budget left $877.57 this week
+
+## 2026-09-18 09:35 ET (Friday) — week 2026-W38 — budget left $877.57 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfAzXaiuUkgpgoFSE1qEs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25289.02 (+1.16% on $25000.00 in) · cash $1305.32 · realised +305.32
+Decision: nothing at this check. 27 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on INTC: position closed)
+- SELL 100% INTC [take_profit @ $109.30] -> $3016.63 (+0.55%) — close 100% at +0.6% over the average cost
+## 2026-09-18 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $131.42] -> $2970.88 (-0.97%) — close it all at -0.9% under the average cost
+## 2026-09-18 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders

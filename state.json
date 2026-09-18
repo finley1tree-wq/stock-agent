@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 24122.43,
+  "spent": 18134.92,
   "deployed": 869877.32,
   "by_ticker": {
     "GOOGL": 33.49,
@@ -9,7 +9,7 @@
     "TPL": 62.38,
     "ALP": 39.88,
     "MAIA": 46.66,
-    "HLI": 3032.33,
+    "HLI": 61.45,
     "NEM": 31.76,
     "SKWD": 22.98,
     "CHRW": 3058.21,
@@ -22,8 +22,7 @@
     "CRWD": 3017.29,
     "BE": 3002.49,
     "TSM": 3.37,
-    "MSFT": 3000.0,
-    "INTC": 3000.0
+    "MSFT": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -11195,17 +11194,62 @@
         "autopilot"
       ],
       "evidence": "+25.0% over the month; 8% of today's range"
+    },
+    {
+      "symbol": "INTC",
+      "side": "sell",
+      "qty": 27.598455,
+      "status": "filled",
+      "price": 109.3,
+      "proceeds": 3016.63,
+      "realized_pnl": 16.63,
+      "realized_pct": 0.55,
+      "date": "2026-09-18",
+      "time_et": "09:35",
+      "ts": 1789738500,
+      "why": "close 100% at +0.6% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $108.7",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 22.60516,
+      "status": "filled",
+      "price": 131.42,
+      "proceeds": 2970.88,
+      "realized_pnl": -29.12,
+      "realized_pct": -0.97,
+      "date": "2026-09-18",
+      "time_et": "09:36",
+      "ts": 1789738500,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $132.71",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 24000.0,
+  "spent_today": 18012.49,
   "deployed_today": 24000.0,
   "orders_today": 8,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 2,
+  "sold_today": [
+    "INTC",
+    "HLI"
+  ],
   "sold_ts": {
     "ALP": 1789404796,
-    "HLI": 1789670428,
+    "HLI": 1789738599,
     "META": 1789673285,
     "CHRW": 1789674798,
     "TTD": 1789672588,
@@ -11224,41 +11268,36 @@
     "PLTR": 1789671943,
     "SKWD": 1789566945,
     "SBLK": 1789670563,
-    "TSM": 1789674128
+    "TSM": 1789674128,
+    "INTC": 1789738553
   },
-  "last_publish_ts": 1789738503,
-  "last_check_ts": 1789738505,
+  "last_publish_ts": 1789738598,
+  "last_check_ts": 1789738598,
   "last_bar_ts": 1789738500,
   "last_decision_ts": 1789738505,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "99a81a58": 109.3044,
-    "c374b05d": 108.982,
+    "49c8c737": 493.0878,
+    "fcb3bca2": 676.8495,
     "bdccc490": 152.8394,
     "942422dd": 496.8009,
-    "6abc346f": 133.1984,
-    "fcb3bca2": 676.8495,
-    "49c8c737": 493.0878,
     "0051972c": 335.1258,
-    "79d15f5d": 354.7935,
-    "68b176aa": 217.3522,
     "68d6a803": 151.44,
-    "0764daa1": 14.4001,
-    "53c030ac": 281.5063,
-    "3e24a11e": 684.7322,
-    "b108ae54": 244.6334,
-    "db944b9d": 131.4904,
-    "9a99f817": 14.1549,
-    "947bf8bd": 239.7178,
+    "68b176aa": 217.3522,
     "8bc945e5": 274.9406,
+    "b108ae54": 244.6334,
+    "9a99f817": 14.1549,
+    "3e24a11e": 684.7322,
+    "0764daa1": 14.4001,
+    "79d15f5d": 354.7935,
+    "947bf8bd": 239.7178,
+    "53c030ac": 281.5063,
+    "06eef71e": 271.2411,
     "0de76645": 662.0056,
-    "b84e7cfa": 235.9331,
     "d868c4e3": 13.9001,
     "b219b310": 480.8678,
-    "627591af": 147.8668,
-    "2fb18d8c": 128.7287,
-    "06eef71e": 271.2411,
-    "607a13d6": 105.439
+    "b84e7cfa": 235.9331,
+    "627591af": 147.8668
   }
 }

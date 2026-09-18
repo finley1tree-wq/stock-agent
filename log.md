@@ -10703,3 +10703,9 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25289.02 (+1.16% on $25000.00 in) · cash $1305.32 · realised +305.32
 Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on INTC: position closed)
+- SELL 100% INTC [take_profit @ $109.30] -> $3016.63 (+0.55%) — close 100% at +0.6% over the average cost
+## 2026-09-18 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $131.42] -> $2970.88 (-0.97%) — close it all at -0.9% under the average cost
+## 2026-09-18 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders

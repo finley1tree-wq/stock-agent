@@ -7178,7 +7178,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 109.3044,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "close 100% at +0.6% over the average cost",
@@ -7188,7 +7188,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:35"
   },
   {
    "id": "8477dfdd",
@@ -7214,7 +7215,7 @@
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 105.439,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7224,7 +7225,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b108ae54",
@@ -7333,7 +7336,7 @@
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 133.1984,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "close 100% at +0.4% over the average cost",
@@ -7343,14 +7346,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "db944b9d",
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 131.4904,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "close it all at -0.9% under the average cost",
@@ -7360,14 +7365,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:36"
   },
   {
    "id": "2fb18d8c",
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 128.7287,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:32",
    "created_ts": 1789738354,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7377,7 +7383,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3e24a11e",
@@ -7486,7 +7494,7 @@
    "ticker": "INTC",
    "kind": "stop_loss",
    "price": 108.982,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:35",
    "created_ts": 1789738503,
    "why": "close it all at -1.4% under the average cost",
@@ -7496,8 +7504,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:35",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-18 09:35"
+ "updated": "2026-09-18 09:36"
 }
