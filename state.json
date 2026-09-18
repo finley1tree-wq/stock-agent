@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 12447.66,
+  "spent": 9443.58,
   "deployed": 1006441.31,
   "by_ticker": {
     "GOOGL": 59.16,
@@ -21,7 +21,7 @@
     "PLTR": 3027.41,
     "CRWD": 31.48,
     "TSM": 3028.61,
-    "MSFT": 3017.87,
+    "MSFT": 13.79,
     "INTC": 19.42,
     "NVDA": 180.38
   },
@@ -13100,13 +13100,33 @@
       ],
       "evidence": "average cost $271.33",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 6.068712,
+      "status": "filled",
+      "price": 495.01,
+      "proceeds": 3004.08,
+      "realized_pnl": 4.08,
+      "realized_pct": 0.14,
+      "date": "2026-09-18",
+      "time_et": "13:44",
+      "ts": 1789753481,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.16% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 12325.23,
+  "spent_today": 9321.15,
   "deployed_today": 160563.99,
   "orders_today": 57,
-  "sells_today": 51,
+  "sells_today": 52,
   "sold_today": [
     "INTC",
     "HLI",
@@ -13134,7 +13154,7 @@
     "AAPL": 1789752444,
     "BE": 1789753348,
     "NEM": 1789673960,
-    "MSFT": 1789748796,
+    "MSFT": 1789753481,
     "FLD": 1789399070,
     "GOOGL": 1789752444,
     "TPL": 1789500735,
@@ -13148,29 +13168,25 @@
     "INTC": 1789752094,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789753347,
-  "last_check_ts": 1789753395,
+  "last_publish_ts": 1789753481,
+  "last_check_ts": 1789753481,
   "last_bar_ts": 1789753200,
   "last_decision_ts": 1789753395,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "313e2ecf": 495.4325,
-    "dfd5006a": 494.688,
-    "4d0a9ea3": 431.6808,
     "95a0f2ea": 176.2697,
-    "9d307c61": 220.7148,
+    "4d0a9ea3": 431.6808,
     "0ef37d34": 548.5046,
+    "9d307c61": 220.7148,
     "be3d1d85": 427.9001,
     "9ddface1": 218.4591,
-    "c1fdaa1e": 491.4977,
     "45fbdea9": 541.0691,
     "c2e6f7dd": 540.024,
     "d53b15d8": 173.5076,
     "c75a98ac": 213.4679,
     "2eb27cc6": 417.682,
     "e0547c5e": 529.6976,
-    "f507dfc6": 170.2156,
-    "399f4f38": 479.5098
+    "f507dfc6": 170.2156
   }
 }
