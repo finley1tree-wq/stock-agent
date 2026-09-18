@@ -10971,3 +10971,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25145.49 (+0.58% on $25000.00 in) · cash $25145.49 · realised +145.49
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 10:20 ET (Friday) — week 2026-W38 — budget left $24717.75 (today $40000.00 put to work, 14 buys, 13 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB42GJY8hLpKoo49H1Nd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,718 idle, so opened 1: INTC. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 INTC [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +16.6% over the month; 13% of today's range
+~ WORKING take_profit 100% INTC @ $108.81 until 2026-09-23 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% INTC @ $106.68 until 2026-09-23 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 INTC @ $104.95 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25144.89 (+0.58% on $25000.00 in) · cash $22145.49 · realised +145.49
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $21717.75 this week

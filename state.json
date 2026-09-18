@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 282.25,
-  "deployed": 885877.32,
+  "spent": 3282.25,
+  "deployed": 888877.32,
   "by_ticker": {
     "GOOGL": 54.01,
     "AMD": 43.99,
@@ -21,7 +21,8 @@
     "PLTR": 16.14,
     "CRWD": 62.07,
     "TSM": 23.5,
-    "MSFT": 17.54
+    "MSFT": 17.54,
+    "INTC": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -45,7 +46,7 @@
     "SKWD": 3000.0,
     "SBLK": 27000.0,
     "TSM": 17320.35,
-    "INTC": 3000.0,
+    "INTC": 6000.0,
     "NVDA": 3000.0
   },
   "orders": [
@@ -11571,12 +11572,30 @@
       ],
       "evidence": "average cost $433.44",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "INTC",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 27.726013,
+      "price": 108.2,
+      "date": "2026-09-18",
+      "time_et": "10:20",
+      "ts": 1789741253,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +16.6% over the month; 13% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 159.82,
-  "deployed_today": 40000.0,
-  "orders_today": 14,
+  "spent_today": 3159.82,
+  "deployed_today": 43000.0,
+  "orders_today": 15,
   "sells_today": 13,
   "sold_today": [
     "INTC",
@@ -11618,11 +11637,15 @@
     "INTC": 1789738553,
     "NVDA": 1789738985
   },
-  "last_publish_ts": 1789740387,
-  "last_check_ts": 1789741084,
-  "last_bar_ts": 1789740900,
-  "last_decision_ts": 1789741084,
-  "next_check_minutes": null,
+  "last_publish_ts": 1789741253,
+  "last_check_ts": 1789741253,
+  "last_bar_ts": 1789741200,
+  "last_decision_ts": 1789741253,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "6196556c": 108.8092,
+    "d7596348": 106.6755,
+    "99ccb5da": 104.954
+  }
 }
