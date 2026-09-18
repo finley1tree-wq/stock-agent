@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6241.28,
-  "deployed": 884877.32,
+  "spent": 7241.28,
+  "deployed": 885877.32,
   "by_ticker": {
     "GOOGL": 54.01,
     "AMD": 43.99,
@@ -14,7 +14,7 @@
     "SKWD": 22.98,
     "CHRW": 50.37,
     "SBLK": 24.03,
-    "AAPL": 3033.25,
+    "AAPL": 4033.25,
     "META": 94.18,
     "TTD": 87.98,
     "IBM": 6.03,
@@ -34,7 +34,7 @@
     "META": 69780.16,
     "AMD": 40000.0,
     "TTD": 69000.0,
-    "AAPL": 69000.0,
+    "AAPL": 70000.0,
     "MSFT": 63903.62,
     "GOOGL": 55000.0,
     "TPL": 12000.0,
@@ -11510,12 +11510,31 @@
       ],
       "evidence": "average cost $548.17",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.983954,
+      "price": 335.13,
+      "date": "2026-09-18",
+      "time_et": "09:51",
+      "ts": 1789739400,
+      "why": "strong month, weak day: resting 0.46% under $336.67 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+6.3% over the month, sitting at 12% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6118.85,
-  "deployed_today": 39000.0,
-  "orders_today": 13,
+  "spent_today": 7118.85,
+  "deployed_today": 40000.0,
+  "orders_today": 14,
   "sells_today": 11,
   "sold_today": [
     "INTC",
@@ -11555,19 +11574,18 @@
     "INTC": 1789738553,
     "NVDA": 1789738985
   },
-  "last_publish_ts": 1789739454,
-  "last_check_ts": 1789739454,
+  "last_publish_ts": 1789739488,
+  "last_check_ts": 1789739536,
   "last_bar_ts": 1789739400,
-  "last_decision_ts": 1789739367,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1789739536,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0051972c": 335.1258,
     "8dbc2dcf": 334.964,
-    "4387c1c4": 430.744,
     "1ea61aa7": 434.5193,
+    "4387c1c4": 430.744,
     "901351ce": 337.8692,
-    "d60e829f": 326.9191,
+    "f861c554": 326.4535,
     "7c8aa042": 420.4368
   }
 }

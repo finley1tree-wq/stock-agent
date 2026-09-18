@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 TSM @ $416.45 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25309.33 (+1.24% on $25000.00 in) · cash $16324.18 · realised +324.18
 Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
@@ -398,3 +396,5 @@ Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15755.39 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [stop_loss @ $548.78] -> $3003.33 (+0.11%) — close it all at -1.1% under the average cost
 ## 2026-09-18 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 AAPL [buy_limit @ $335.13] — strong month, weak day: resting 0.46% under $336.67 to catch the dip
+## 2026-09-18 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders

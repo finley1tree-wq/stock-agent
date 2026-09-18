@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T09:50-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-18T09:51-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "0051972c",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 335.1258,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 335.18,
-   "pct_away": -0.02,
-   "good_until": "2026-09-19",
-   "why": "strong month, weak day: resting 0.46% under $336.67 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "8dbc2dcf",
    "ticker": "AAPL",
    "kind": "stop_loss",
@@ -163,25 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 335.18,
-   "pct_away": -0.06,
-   "good_until": "2026-09-23",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4387c1c4",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 430.744,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 432.6,
-   "pct_away": -0.43,
+   "last": 335.32,
+   "pct_away": -0.11,
    "good_until": "2026-09-23",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -197,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 432.6,
-   "pct_away": 0.44,
+   "last": 432.69,
+   "pct_away": 0.42,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4387c1c4",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 430.744,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 432.69,
+   "pct_away": -0.45,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 335.18,
-   "pct_away": 0.8,
+   "last": 335.32,
+   "pct_away": 0.76,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -224,15 +207,15 @@
    ]
   },
   {
-   "id": "d60e829f",
+   "id": "f861c554",
    "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 326.9191,
+   "price": 326.4535,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 335.18,
-   "pct_away": -2.46,
+   "last": 335.32,
+   "pct_away": -2.64,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -248,8 +231,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 432.6,
-   "pct_away": -2.81,
+   "last": 432.69,
+   "pct_away": -2.83,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
