@@ -11723,3 +11723,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25128.49 (+0.51% on $25000.00 in) · cash $12956.20 · realised +141.09
 Decision: nothing at this check. 17 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 3 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [stop_loss @ $219.53] -> $184.96 (+0.04%) — close it all at -0.7% under the average cost
+## 2026-09-18 12:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 12:25 ET (Friday) — week 2026-W38 — budget left $12713.40 (today $118393.20 put to work, 42 buys, 37 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBDZNvotVdNH6rnZJB5X'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25115.28 (+0.46% on $25000.00 in) · cash $13141.16 · realised +141.16
+Decision: nothing at this check. 13 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

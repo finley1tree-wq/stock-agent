@@ -7269,7 +7269,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 218.5324,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 11:56",
    "created_ts": 1789747011,
    "why": "strong month, weak day: resting 0.55% under $219.74 to catch the dip",
@@ -7279,7 +7279,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-19",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-18 12:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e967b87f",
@@ -7355,7 +7357,7 @@
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 220.0852,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 12:05",
    "created_ts": 1789747525,
    "why": "close 100% at +0.3% over the average cost",
@@ -7365,7 +7367,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 12:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0974f923",
@@ -7391,7 +7395,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 212.8568,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 12:05",
    "created_ts": 1789747525,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7401,7 +7405,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 12:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2d679f6e",
@@ -7510,7 +7516,7 @@
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 219.638,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 12:21",
    "created_ts": 1789748504,
    "why": "close it all at -0.7% under the average cost",
@@ -7520,8 +7526,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 12:25"
   }
  ],
- "updated": "2026-09-18 12:23"
+ "updated": "2026-09-18 12:25"
 }

@@ -20206,8 +20206,8 @@
     "code_version": "6c23724",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32,
-    "ret_final": -0.32,
+    "ret_now": -0.3,
+    "ret_final": -0.3,
     "ret_src": "realised"
   },
   {
@@ -21079,7 +21079,7 @@
     "code_version": "272b4bd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.19
   },
   {
     "symbol": "CRWD",
@@ -21160,7 +21160,7 @@
     "code_version": "4e596d3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.16
   },
   {
     "symbol": "INTC",
@@ -21212,7 +21212,9 @@
     "code_version": "5453707",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.04,
+    "ret_final": 0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -21341,7 +21343,7 @@
     "code_version": "81a6d07",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.04
   },
   {
     "symbol": "PLTR",
@@ -21367,7 +21369,7 @@
     "code_version": "81a6d07",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": -0.39
   },
   {
     "symbol": "TTD",
@@ -21394,5 +21396,31 @@
     "hour_et": 12,
     "code_version": "3459a9b",
     "hold_minutes": 30
+  },
+  {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": 0.842539,
+    "status": "filled",
+    "price": 219.53,
+    "proceeds": 184.96,
+    "realized_pnl": 0.07,
+    "realized_pct": 0.04,
+    "date": "2026-09-18",
+    "time_et": "12:25",
+    "ts": 1789748700,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $219.44",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "825d65c",
+    "hold_minutes": 19
   }
 ]
