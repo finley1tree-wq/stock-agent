@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "317dce78",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 657.6891,
-   "status": "cancelled",
-   "created": "2026-09-17 13:42",
-   "created_ts": 1789666953,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $678.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 500.0,
-   "closed": "2026-09-17 14:12",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0b3d513c",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 175.06,
-   "status": "filled",
-   "created": "2026-09-17 13:44",
-   "created_ts": 1789667040,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $174.82",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 13:49"
-  },
-  {
    "id": "e208489d",
    "ticker": "AMD",
    "kind": "take_profit",
@@ -7503,7 +7466,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 107.4697,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 14:08",
    "created_ts": 1789754907,
    "why": "close 100% at +0.6% over the average cost",
@@ -7513,7 +7476,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 14:10",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "005b1493",
@@ -7548,7 +7513,43 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "cebf2806",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 112.1925,
+   "status": "cancelled",
+   "created": "2026-09-18 14:10",
+   "created_ts": 1789755032,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $106.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 14:11",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "15cbfb9c",
+   "ticker": "INTC",
+   "kind": "take_profit",
+   "price": 107.4708,
+   "status": "working",
+   "created": "2026-09-18 14:11",
+   "created_ts": 1789755078,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $106.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 14:08"
+ "updated": "2026-09-18 14:11"
 }
