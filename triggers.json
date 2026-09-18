@@ -6940,7 +6940,7 @@
    "ticker": "INTC",
    "kind": "take_profit",
    "price": 107.5603,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 12:51",
    "created_ts": 1789750314,
    "why": "close 100% at +0.6% over the average cost",
@@ -6950,14 +6950,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 13:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "525626ca",
    "ticker": "INTC",
    "kind": "stop_loss",
    "price": 105.3894,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 12:51",
    "created_ts": 1789750314,
    "why": "close it all at -1.4% under the average cost",
@@ -6967,14 +6969,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 13:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d8265f1d",
    "ticker": "INTC",
    "kind": "buy_limit",
    "price": 103.7318,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 12:51",
    "created_ts": 1789750314,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6984,7 +6988,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 13:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0d81506f",

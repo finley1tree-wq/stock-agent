@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 PLTR @ $170.66 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25145.22 (+0.58% on $25000.00 in) · cash $9973.57 · realised +158.46
 Done: 0 sell(s), 2 buy(s); 20 order(s) working; budget left $9545.81 this week
 - SELL 100% TTD [time stop] -> $2982.63 (-0.58%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 12:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 NVDA @ $213.47 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25133.61 (+0.53% on $25000.00 in) · cash $3972.25 · realised +143.04
 Done: 0 sell(s), 2 buy(s); 26 order(s) working; budget left $3544.50 this week
+- SELL 100% INTC [time stop] -> $3000.20 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 13:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
