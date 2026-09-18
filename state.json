@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 7241.28,
+  "spent": 3262.12,
   "deployed": 885877.32,
   "by_ticker": {
     "GOOGL": 54.01,
@@ -14,7 +14,7 @@
     "SKWD": 22.98,
     "CHRW": 50.37,
     "SBLK": 24.03,
-    "AAPL": 4033.25,
+    "AAPL": 54.09,
     "META": 94.18,
     "TTD": 87.98,
     "IBM": 6.03,
@@ -11529,13 +11529,34 @@
       ],
       "evidence": "+6.3% over the month, sitting at 12% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 11.885308,
+      "status": "filled",
+      "price": 334.8,
+      "proceeds": 3979.16,
+      "realized_pnl": -20.84,
+      "realized_pct": -0.52,
+      "date": "2026-09-18",
+      "time_et": "09:57",
+      "ts": 1789739700,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $337.03",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 7118.85,
+  "spent_today": 3139.69,
   "deployed_today": 40000.0,
   "orders_today": 14,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "INTC",
     "HLI",
@@ -11547,7 +11568,8 @@
     "CRWD",
     "BE",
     "GOOGL",
-    "AMD"
+    "AMD",
+    "AAPL"
   ],
   "sold_ts": {
     "ALP": 1789404796,
@@ -11557,7 +11579,7 @@
     "TTD": 1789738864,
     "AMD": 1789739409,
     "IBM": 1789671065,
-    "AAPL": 1789670132,
+    "AAPL": 1789739861,
     "BE": 1789739240,
     "NEM": 1789673960,
     "MSFT": 1789739030,
@@ -11574,18 +11596,15 @@
     "INTC": 1789738553,
     "NVDA": 1789738985
   },
-  "last_publish_ts": 1789739488,
-  "last_check_ts": 1789739782,
+  "last_publish_ts": 1789739861,
+  "last_check_ts": 1789739862,
   "last_bar_ts": 1789739700,
-  "last_decision_ts": 1789739702,
+  "last_decision_ts": 1789739862,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "8dbc2dcf": 334.964,
-    "1ea61aa7": 434.5193,
     "4387c1c4": 430.744,
-    "901351ce": 337.8692,
-    "f861c554": 326.4535,
+    "1ea61aa7": 434.5193,
     "7c8aa042": 420.4368
   }
 }

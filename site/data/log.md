@@ -1,34 +1,3 @@
-portfolio: equity $25309.33 (+1.24% on $25000.00 in) · cash $16324.18 · realised +324.18
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-17 15:31 ET (Thursday) — week 2026-W38 — budget left $15896.43 (today $245622.30 put to work, 85 buys, 81 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (ISBA excluded: too thinly traded ($2.9M a day) — Isabella Bank Corporation)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cf9ZuqtRXeo4Eg3yVmiq2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 NEM @ $120.87 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 TSM @ $416.45 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25309.11 (+1.24% on $25000.00 in) · cash $16324.18 · realised +324.18
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-17 15:34 ET (Thursday) — week 2026-W38 — budget left $15896.43 (today $245622.30 put to work, 85 buys, 81 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GIPR excluded: too thinly traded ($3.6M a day) — Generation Income Properties, Inc.)
@@ -398,3 +367,34 @@ Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15755.39 this week
 ## 2026-09-18 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 AAPL [buy_limit @ $335.13] — strong month, weak day: resting 0.46% under $336.67 to catch the dip
 ## 2026-09-18 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-18 09:52 ET (Friday) — week 2026-W38 — budget left $17758.72 (today $40000.00 put to work, 14 buys, 11 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB1qZzcw2EMuQEnhi5Xt'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25165.46 (+0.66% on $25000.00 in) · cash $18186.46 · realised +186.46
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 09:55 ET (Friday) — week 2026-W38 — budget left $17758.72 (today $40000.00 put to work, 14 buys, 11 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB23nUHrRdjh6xSJYv9b'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25166.57 (+0.67% on $25000.00 in) · cash $18186.46 · realised +186.46
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $334.80] -> $3979.16 (-0.52%) — close it all at -0.6% under the average cost
+## 2026-09-18 09:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
