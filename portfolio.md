@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-18 11:07 ET
+# Pretend portfolio — 2026-09-18 11:10 ET
 
-**Equity $25170.81** on $25000.00 put in → **+0.68%**  
-Cash $19180.02 · Unrealised -9.21 · Realised +180.02
+**Equity $25170.56** on $25000.00 put in → **+0.68%**  
+Cash $19180.02 · Unrealised -9.46 · Realised +180.02
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| TSM | 11.9% | $2996.62 | $431.80 | $431.31 | -0.11% | 0d |
-| AMD | 11.9% | $2994.16 | $544.31 | $543.25 | -0.19% | 0d |
+| TSM | 11.9% | $2996.76 | $431.80 | $431.33 | -0.11% | 0d |
+| AMD | 11.9% | $2993.78 | $544.31 | $543.18 | -0.21% | 0d |
 
 ## Last fills
 
