@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ee40ee50",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 348.0684,
-   "status": "cancelled",
-   "created": "2026-09-17 11:15",
-   "created_ts": 1789658129,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $347.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 11:21",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "423f4e01",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -7020,7 +7001,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 232.902,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:41",
    "created_ts": 1789742504,
    "why": "close it all at -1.5% under the average cost",
@@ -7030,7 +7011,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 11:03",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "48f1c437",
@@ -7518,7 +7501,24 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "ef535360",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 236.984,
+   "status": "working",
+   "created": "2026-09-18 11:03",
+   "created_ts": 1789743796,
+   "why": "close it all at -1.5% under the average cost",
+   "evidence": "average cost $236.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 11:01"
+ "updated": "2026-09-18 11:03"
 }
