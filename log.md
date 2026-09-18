@@ -11197,3 +11197,23 @@ Decision: nothing at this check. 28 standing order(s) working.
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $333.58] -> $3007.74 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-09-18 10:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $350.92] -> $208.38 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-18 10:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 10:55 ET (Friday) — week 2026-W38 — budget left $9725.70 (today $73208.31 put to work, 26 buys, 20 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB6hNxCuxFSZUNZk1cAU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,726 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +4.8% over the month; 46% of today's range
+~ WORKING take_profit 100% TSM @ $432.88 until 2026-09-23 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% TSM @ $429.11 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $418.85 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25158.54 (+0.63% on $25000.00 in) · cash $7153.44 · realised +153.44
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $6725.70 this week
