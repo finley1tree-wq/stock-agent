@@ -1,20 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 11:53 ET (Friday) — week 2026-W38 — budget left $738.77 (today $103208.31 put to work, 36 buys, 27 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBB6oFZLvET1sazpijj7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $738.77 CRWD @ $235.52 until 2026-09-19 — strong month, weak day: resting 1.15% under $238.25 to catch the dip
-portfolio: equity $25122.19 (+0.49% on $25000.00 in) · cash $1166.52 · realised +166.52
-Decision: nothing at this check. 26 standing order(s) working.
-  (cancelled 2 standing order(s) on BE: position closed)
-- SELL 100% BE [stop_loss @ $270.54] -> $3005.05 (+0.17%) — close it all at -1.8% under the average cost
 ## 2026-09-18 11:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% META [time stop] -> $2985.29 (-0.49%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $324.70 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25125.29 (+0.50% on $25000.00 in) · cash $4134.65 · realised +134.65
 Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $3706.88 this week
+
+## 2026-09-18 13:00 ET (Friday) — week 2026-W38 — budget left $3706.88 (today $142393.20 put to work, 50 buys, 42 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBGCU4tawr19FDSVS16j'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,707 idle, so opened 1: TTD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TTD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.2% over the month; 6% of today's range
+~ WORKING take_profit 100% TTD @ $14.05 until 2026-09-23 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $13.80 until 2026-09-23 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $13.56 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25117.91 (+0.47% on $25000.00 in) · cash $1134.65 · realised +134.65
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $706.88 this week
