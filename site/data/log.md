@@ -1,45 +1,3 @@
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB6vJfrLz2wUNEjhPVFe'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25144.59 (+0.58% on $25000.00 in) · cash $10161.67 · realised +161.67
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $493.58] -> $3006.64 (+0.22%) — close 100% at +0.2% over the average cost
-- SELL 100% NVDA [time stop] -> $2990.34 (-0.32%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-18 10:59 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-18 11:01 ET (Friday) — week 2026-W38 — budget left $15730.90 (today $76208.31 put to work, 27 buys, 23 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB79GkNMKJcozzmiNcD3'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,731 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.1% over the month; 57% of today's range
-~ WORKING take_profit 100% PLTR @ $176.10 until 2026-09-23 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% PLTR @ $173.34 until 2026-09-23 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 PLTR @ $170.05 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25150.96 (+0.60% on $25000.00 in) · cash $13158.64 · realised +158.64
-Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $12730.90 this week
-
-## 2026-09-18 11:04 ET (Friday) — week 2026-W38 — budget left $12730.90 (today $79208.31 put to work, 28 buys, 23 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB7MW8N7stnnJukamrJ9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
   (re-pinned 1 order(s) to the new average cost)
 ~ WORKING stop_loss 100% PLTR @ $175.56 until 2026-09-23 — close it all at -1.1% under the average cost
 portfolio: equity $25167.97 (+0.67% on $25000.00 in) · cash $13158.64 · realised +158.64
@@ -398,3 +356,45 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 NVDA @ $212.86 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25132.32 (+0.53% on $25000.00 in) · cash $3966.08 · realised +150.97
 Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $3538.32 this week
+
+## 2026-09-18 12:08 ET (Friday) — week 2026-W38 — budget left $3538.32 (today $112393.20 put to work, 40 buys, 31 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBCDQ1NsYY3Z8i9SZu9T'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25143.84 (+0.58% on $25000.00 in) · cash $3966.08 · realised +150.97
+Decision: nothing at this check. 27 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 3 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $238.72] -> $3004.34 (+0.14%) — close it all at -1.5% under the average cost
+## 2026-09-18 12:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% HLI [time stop] -> $3001.93 (+0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $3000.09 (+0.00%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AAPL [time stop] -> $3001.13 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 12:11 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 12:11 ET (Friday) — week 2026-W38 — budget left $15545.81 (today $112393.20 put to work, 40 buys, 35 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBCS69wpE7EhJqj1YhiC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,546 idle, so opened 2: TSM, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +4.3% over the month; 12% of today's range
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.4% over the month; 68% of today's range
+~ WORKING take_profit 100% TSM @ $430.94 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $427.16 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $416.96 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $176.73 until 2026-09-23 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% PLTR @ $173.97 until 2026-09-23 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $170.66 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25145.22 (+0.58% on $25000.00 in) · cash $9973.57 · realised +158.46
+Done: 0 sell(s), 2 buy(s); 20 order(s) working; budget left $9545.81 this week

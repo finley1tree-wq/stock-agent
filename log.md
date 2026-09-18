@@ -11637,3 +11637,31 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25143.84 (+0.58% on $25000.00 in) · cash $3966.08 · realised +150.97
 Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 3 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $238.72] -> $3004.34 (+0.14%) — close it all at -1.5% under the average cost
+## 2026-09-18 12:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% HLI [time stop] -> $3001.93 (+0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $3000.09 (+0.00%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AAPL [time stop] -> $3001.13 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 12:11 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 12:11 ET (Friday) — week 2026-W38 — budget left $15545.81 (today $112393.20 put to work, 40 buys, 35 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBCS69wpE7EhJqj1YhiC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,546 idle, so opened 2: TSM, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +4.3% over the month; 12% of today's range
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.4% over the month; 68% of today's range
+~ WORKING take_profit 100% TSM @ $430.94 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $427.16 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $416.96 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $176.73 until 2026-09-23 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% PLTR @ $173.97 until 2026-09-23 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $170.66 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25145.22 (+0.58% on $25000.00 in) · cash $9973.57 · realised +158.46
+Done: 0 sell(s), 2 buy(s); 20 order(s) working; budget left $9545.81 this week
