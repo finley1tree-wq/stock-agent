@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "fe6b4ab6",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 237.4171,
-   "status": "cancelled",
-   "created": "2026-09-17 10:29",
-   "created_ts": 1789655374,
-   "why": "strong month, weak day: resting 0.59% under $238.83 to catch the dip",
-   "evidence": "+2.6% over the month, sitting at 17% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-18",
-   "usd": 1000.0,
-   "closed": "2026-09-17 11:02",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b96ddaad",
    "ticker": "SBLK",
    "kind": "stop_loss",
@@ -7089,7 +7070,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 668.5157,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:23",
    "created_ts": 1789741434,
    "why": "close it all at -0.9% under the average cost",
@@ -7099,7 +7080,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 10:37",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b7e5bb00",
@@ -7501,7 +7484,24 @@
    ],
    "good_until": "2026-09-23",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "f996087e",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 675.124,
+   "status": "working",
+   "created": "2026-09-18 10:37",
+   "created_ts": 1789742240,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $674.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 10:35"
+ "updated": "2026-09-18 10:38"
 }
