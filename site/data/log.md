@@ -1,33 +1,3 @@
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 14:14 ET (Friday) — week 2026-W38 — budget left $18731.02 (today $169563.99 put to work, 60 buys, 57 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBMoQyfLuWnnB9ixkZoQ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,731 idle, so opened 5: CHRW, CRWD, HLI, GOOGL, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CHRW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +6.1% over the month; 83% of today's range
-- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +18.3% over the month; 28% of today's range
-- BUY $3000.00 HLI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +1.3% over the month; 33% of today's range
-- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +1.7% over the month; 17% of today's range
-- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +5.9% over the month; 51% of today's range
-~ WORKING take_profit 100% CHRW @ $153.79 until 2026-09-23 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CHRW @ $152.39 until 2026-09-23 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CHRW @ $148.79 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $239.96 until 2026-09-23 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% CRWD @ $234.87 until 2026-09-23 — close it all at -1.5% under the average cost
-~ WORKING buy_limit $500.00 CRWD @ $231.35 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HLI @ $132.31 until 2026-09-23 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% HLI @ $130.65 until 2026-09-23 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 HLI @ $127.88 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $351.63 until 2026-09-23 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $348.46 until 2026-09-23 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $340.21 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AAPL @ $336.48 until 2026-09-23 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% AAPL @ $333.48 until 2026-09-23 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 AAPL @ $325.55 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +368,33 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 CRWD @ $232.93 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25166.40 (+0.67% on $25000.00 in) · cash $16176.06 · realised +176.06
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15748.32 this week
+
+## 2026-09-18 15:19 ET (Friday) — week 2026-W38 — budget left $15748.32 (today $208735.66 put to work, 74 buys, 70 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBSnp6Ws9tM64zbqTBaZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25157.42 (+0.63% on $25000.00 in) · cash $16176.06 · realised +176.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 15:22 ET (Friday) — week 2026-W38 — budget left $15748.32 (today $208735.66 put to work, 74 buys, 70 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBT3wo3J9xwCXakJ4fjA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25156.12 (+0.62% on $25000.00 in) · cash $16176.06 · realised +176.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% META [time stop] -> $2990.17 (-0.33%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 15:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders

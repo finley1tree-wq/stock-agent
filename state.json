@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 9251.68,
+  "spent": 6261.51,
   "deployed": 1054612.98,
   "by_ticker": {
     "GOOGL": 54.37,
@@ -15,7 +15,7 @@
     "CHRW": 36.0,
     "SBLK": 24.03,
     "AAPL": 40.36,
-    "META": 3106.27,
+    "META": 116.1,
     "TTD": 3076.0,
     "IBM": 6.03,
     "PLTR": 18.31,
@@ -13785,13 +13785,33 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +19.1% over the month; 41% of today's range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.451998,
+      "status": "filled",
+      "price": 671.65,
+      "proceeds": 2990.17,
+      "realized_pnl": -9.83,
+      "realized_pct": -0.33,
+      "date": "2026-09-18",
+      "time_et": "15:23",
+      "ts": 1789759414,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.31% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 9129.25,
+  "spent_today": 6139.08,
   "deployed_today": 208735.66,
   "orders_today": 74,
-  "sells_today": 70,
+  "sells_today": 71,
   "sold_today": [
     "INTC",
     "HLI",
@@ -13811,7 +13831,7 @@
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789757040,
-    "META": 1789754784,
+    "META": 1789759415,
     "CHRW": 1789757040,
     "TTD": 1789755667,
     "AMD": 1789758406,
@@ -13833,20 +13853,17 @@
     "INTC": 1789756706,
     "NVDA": 1789758575
   },
-  "last_publish_ts": 1789759166,
-  "last_check_ts": 1789759372,
+  "last_publish_ts": 1789759414,
+  "last_check_ts": 1789759460,
   "last_bar_ts": 1789759200,
   "last_decision_ts": 1789759372,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "3c038285": 667.9606,
     "c95c18ad": 14.1027,
-    "6a21b071": 676.2085,
     "4084193c": 241.5876,
     "b6c0295c": 13.8485,
     "052f2e70": 236.4896,
-    "99f48320": 653.6345,
     "58a79361": 232.9261,
     "a4253f7b": 13.6091
   }
