@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T11:27-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,739 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-18T11:30-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,739 idle, so opened 2: CHRW, BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gat",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "055e44e0",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 153.6315,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.17,
+   "pct_away": 0.3,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "2334dac7",
    "ticker": "META",
    "kind": "take_profit",
@@ -146,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 674.95,
-   "pct_away": 0.37,
+   "last": 673.73,
+   "pct_away": 0.55,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f16c43e6",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.2248,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 153.17,
+   "pct_away": -0.62,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,10 +197,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 674.95,
-   "pct_away": -0.85,
+   "last": 673.73,
+   "pct_away": -0.67,
    "good_until": "2026-09-23",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "abb717cd",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 272.0516,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 270.03,
+   "pct_away": 0.75,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6faba3f3",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 265.1483,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 270.03,
+   "pct_away": -1.81,
+   "good_until": "2026-09-23",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,7 +248,41 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 674.95,
+   "last": 673.73,
+   "pct_away": -2.81,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "198a9129",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 148.6331,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 153.17,
+   "pct_away": -2.96,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "44836605",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 261.9776,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 270.03,
    "pct_away": -2.98,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -190,7 +292,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,739 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,739 idle, so opened 2: CHRW, BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gat",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -253,7 +355,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 359,
+  "decisions_graded": 358,
   "decisions_with_buys_graded": 126,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.13,
@@ -354,9 +456,9 @@
     "n": 2
    }
   },
-  "idle_checks": 251,
+  "idle_checks": 250,
   "blocked_checks": 0,
-  "idle_share": 0.63,
+  "idle_share": 0.62,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2063,14 +2165,14 @@
     "when": "2026-09-18T14:13"
    },
    {
+    "title": "Why Salesforce CEO Marc Benioff thinks AI chip king Nvidia is 'exquisite'",
+    "source": "Yahoo Finance",
+    "when": "2026-09-18T09:46"
+   },
+   {
     "title": "Portfolio Fit: SKHQ",
     "source": "24/7 Wall St.",
     "when": "2026-09-18T15:20"
-   },
-   {
-    "title": "Why Palo Alto Networks Stock Dropped Today",
-    "source": "Motley Fool",
-    "when": "2026-09-18T15:19"
    }
   ],
   "O": [
@@ -2211,11 +2313,6 @@
   ],
   "TSM": [
    {
-    "title": "Stock Market Today: Dow Sinks On Surprise Economic Data; Energy Name Teases Buy Point (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-18T15:11"
-   },
-   {
     "title": "These Are The 5 Best Stocks To Buy Or Watch Now",
     "source": "Investor's Business Daily",
     "when": "2026-09-18T13:31"
@@ -2224,6 +2321,11 @@
     "title": "Portfolio Fit: AIFR",
     "source": "24/7 Wall St.",
     "when": "2026-09-18T12:40"
+   },
+   {
+    "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Ramping 2nm Production And Spending More?",
+    "source": "Simply Wall St.",
+    "when": "2026-09-18T10:12"
    }
   ],
   "TTD": [
@@ -2279,5 +2381,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-18T11:27-04:00"
+ "signalsAsOf": "2026-09-18T11:30-04:00"
 }

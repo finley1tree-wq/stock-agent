@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 3261.23,
-  "deployed": 928085.63,
+  "spent": 9261.23,
+  "deployed": 934085.63,
   "by_ticker": {
     "GOOGL": 53.94,
     "AMD": 55.11,
@@ -12,7 +12,7 @@
     "HLI": 61.12,
     "NEM": 31.76,
     "SKWD": 22.98,
-    "CHRW": 42.5,
+    "CHRW": 3042.5,
     "SBLK": 24.03,
     "AAPL": 46.35,
     "META": 3092.53,
@@ -23,12 +23,13 @@
     "TSM": 25.88,
     "MSFT": 10.9,
     "INTC": 15.34,
-    "NVDA": 9.66
+    "NVDA": 9.66,
+    "BE": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
-    "CHRW": 69000.0,
-    "BE": 78000.0,
+    "CHRW": 72000.0,
+    "BE": 81000.0,
     "IBM": 66000.0,
     "FLD": 6000.0,
     "HLI": 69873.19,
@@ -12123,12 +12124,48 @@
         "autopilot"
       ],
       "evidence": "+23.6% over the month; 30% of today's range"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.57825,
+      "price": 153.23,
+      "date": "2026-09-18",
+      "time_et": "11:29",
+      "ts": 1789745397,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +6.0% over the month; 78% of today's range"
+    },
+    {
+      "symbol": "BE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.107655,
+      "price": 270.08,
+      "date": "2026-09-18",
+      "time_et": "11:29",
+      "ts": 1789745397,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +30.7% over the month; 18% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 3138.8,
-  "deployed_today": 82208.31,
-  "orders_today": 29,
+  "spent_today": 9138.8,
+  "deployed_today": 88208.31,
+  "orders_today": 31,
   "sells_today": 27,
   "sold_today": [
     "INTC",
@@ -12171,15 +12208,21 @@
     "INTC": 1789743031,
     "NVDA": 1789743578
   },
-  "last_publish_ts": 1789745228,
-  "last_check_ts": 1789745311,
+  "last_publish_ts": 1789745397,
+  "last_check_ts": 1789745397,
   "last_bar_ts": 1789745100,
-  "last_decision_ts": 1789745228,
+  "last_decision_ts": 1789745397,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "055e44e0": 153.6315,
     "2334dac7": 677.436,
+    "f16c43e6": 152.2248,
     "47af65c1": 669.1866,
-    "f211a9ee": 654.8276
+    "abb717cd": 272.0516,
+    "6faba3f3": 265.1483,
+    "f211a9ee": 654.8276,
+    "198a9129": 148.6331,
+    "44836605": 261.9776
   }
 }
