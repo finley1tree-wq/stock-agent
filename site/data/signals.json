@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T10:20-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,718 idle, so opened 1: INTC. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-18T10:24-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,718 idle, so opened 2: HLI, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "9e2726ec",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 676.7637,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 674.28,
+   "pct_away": 0.37,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "37d9ecca",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 132.3836,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 131.86,
+   "pct_away": 0.4,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "6196556c",
    "ticker": "INTC",
    "kind": "take_profit",
@@ -150,6 +184,40 @@
    "pct_away": 0.58,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f14bc6d5",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 668.5157,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 674.28,
+   "pct_away": -0.85,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "81713930",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 130.7254,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 131.86,
+   "pct_away": -0.86,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -173,6 +241,23 @@
    ]
   },
   {
+   "id": "ef9f8e89",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 127.9527,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 131.86,
+   "pct_away": -2.96,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "99ccb5da",
    "ticker": "INTC",
    "kind": "buy_limit",
@@ -188,9 +273,26 @@
     "risk_management",
     "auto_bracket"
    ]
+  },
+  {
+   "id": "b7e5bb00",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 654.1777,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 674.28,
+   "pct_away": -2.98,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,718 idle, so opened 1: INTC. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,718 idle, so opened 2: HLI, META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -252,7 +354,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 382,
+  "decisions_graded": 381,
   "decisions_with_buys_graded": 134,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.14,
@@ -353,7 +455,7 @@
     "n": 2
    }
   },
-  "idle_checks": 253,
+  "idle_checks": 252,
   "blocked_checks": 0,
   "idle_share": 0.63,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1569,14 +1671,14 @@
     "when": "2026-09-14T14:01"
    },
    {
+    "title": "What Needs To Be True To Buy Qualcomm Stock Now?",
+    "source": "Trefis",
+    "when": "2026-09-18T14:03"
+   },
+   {
     "title": "Apple Stock Near Buy Point As iPhone 18 Pro Goes On Sale",
     "source": "Investor's Business Daily",
     "when": "2026-09-18T14:02"
-   },
-   {
-    "title": "Stock Market Falls On AI Fears, Hawkish Fed But Bounces Back: Weekly Review",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-18T13:50"
    }
   ],
   "AMAT": [
@@ -1598,6 +1700,11 @@
   ],
   "AMD": [
    {
+    "title": "What Needs To Be True To Buy Qualcomm Stock Now?",
+    "source": "Trefis",
+    "when": "2026-09-18T14:03"
+   },
+   {
     "title": "Prediction: AMD\u2019s Biggest Growth\u00a0Opportunity May Still\u00a0Be Ahead",
     "source": "24/7 Wall St.",
     "when": "2026-09-18T14:00"
@@ -1606,11 +1713,6 @@
     "title": "Stock Market Today: Dow Falls As Oil Prices Turn Higher; Buffett Departs Berkshire (Live Coverage)",
     "source": "Investor's Business Daily",
     "when": "2026-09-18T13:40"
-   },
-   {
-    "title": "The HBM Bottleneck: 3 Tech Companies Have Locked Up 85% of the Supply of AI's Scarcest Asset",
-    "source": "Motley Fool",
-    "when": "2026-09-18T13:33"
    }
   ],
   "AMZN": [
@@ -1632,6 +1734,11 @@
   ],
   "AVGO": [
    {
+    "title": "What Needs To Be True To Buy Qualcomm Stock Now?",
+    "source": "Trefis",
+    "when": "2026-09-18T14:03"
+   },
+   {
     "title": "Broadcom Inc. (AVGO) is Attracting Investor Attention: Here is What You Should Know",
     "source": "Zacks",
     "when": "2026-09-18T13:00"
@@ -1640,11 +1747,6 @@
     "title": "Here\u2019s When Nividia\u2019s Dominance Fades, Opening Broadcom\u2019s Era of Dominance",
     "source": "24/7 Wall St.",
     "when": "2026-09-18T12:19"
-   },
-   {
-    "title": "AI Chips Update - BrainChip Expands Edge AI Capabilities With New Development Card",
-    "source": "Simply Wall St.",
-    "when": "2026-09-18T11:37"
    }
   ],
   "BE": [
@@ -1870,6 +1972,11 @@
   ],
   "INTC": [
    {
+    "title": "What Needs To Be True To Buy Qualcomm Stock Now?",
+    "source": "Trefis",
+    "when": "2026-09-18T14:03"
+   },
+   {
     "title": "What Lies Ahead of DRAM ETF as Memory Crisis May Intensify in 2027?",
     "source": "Zacks",
     "when": "2026-09-18T13:33"
@@ -1878,11 +1985,6 @@
     "title": "Options traders buy AI chip calls after Fed rate hike",
     "source": "Quartz",
     "when": "2026-09-18T12:57"
-   },
-   {
-    "title": "Stock Futures Edge Higher, Treasury Yields Tick Up",
-    "source": "The Wall Street Journal",
-    "when": "2026-09-18T12:29"
    }
   ],
   "KRMN": [
@@ -2244,5 +2346,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-18T10:20-04:00"
+ "signalsAsOf": "2026-09-18T10:24-04:00"
 }
