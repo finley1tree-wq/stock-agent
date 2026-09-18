@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T13:28-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $18,546 idle, so opened 2: TSM, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-09-18T13:31-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $12,546 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 494.27,
-   "pct_away": 0.24,
+   "last": 494.08,
+   "pct_away": 0.27,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 430.51,
-   "pct_away": 0.27,
+   "last": 430.32,
+   "pct_away": 0.32,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -180,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 220.04,
-   "pct_away": 0.31,
+   "last": 219.9,
+   "pct_away": 0.37,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "95a0f2ea",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 176.2697,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 175.44,
-   "pct_away": 0.47,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 494.27,
-   "pct_away": -0.54,
+   "last": 494.08,
+   "pct_away": -0.5,
    "good_until": "2026-09-23",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -231,13 +214,47 @@
    "usd": 706.88,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.27,
-   "pct_away": -0.56,
+   "last": 494.08,
+   "pct_away": -0.52,
    "good_until": "2026-09-19",
    "why": "strong month, weak day: resting 0.42% under $493.55 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "95a0f2ea",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 176.2697,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 175.32,
+   "pct_away": 0.54,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "be3d1d85",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 427.9001,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 430.32,
+   "pct_away": -0.56,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -258,23 +275,6 @@
    ]
   },
   {
-   "id": "be3d1d85",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 427.9001,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 430.51,
-   "pct_away": -0.61,
-   "good_until": "2026-09-23",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "9ddface1",
    "ticker": "NVDA",
    "kind": "stop_loss",
@@ -282,10 +282,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 220.04,
-   "pct_away": -0.72,
+   "last": 219.9,
+   "pct_away": -0.66,
    "good_until": "2026-09-23",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e3dd6992",
+   "ticker": "BE",
+   "kind": "take_profit",
+   "price": 273.3026,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 271.28,
+   "pct_away": 0.75,
+   "good_until": "2026-09-23",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -333,10 +350,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 175.44,
-   "pct_away": -1.1,
+   "last": 175.32,
+   "pct_away": -1.03,
    "good_until": "2026-09-23",
    "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9f61ff18",
+   "ticker": "BE",
+   "kind": "stop_loss",
+   "price": 266.3999,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 271.28,
+   "pct_away": -1.8,
+   "good_until": "2026-09-23",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -360,23 +394,6 @@
    ]
   },
   {
-   "id": "2eb27cc6",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 417.682,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 430.51,
-   "pct_away": -2.98,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "f507dfc6",
    "ticker": "PLTR",
    "kind": "buy_limit",
@@ -384,25 +401,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 175.44,
-   "pct_away": -2.98,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "399f4f38",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 479.5098,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 494.27,
-   "pct_away": -2.99,
+   "last": 175.32,
+   "pct_away": -2.91,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,8 +418,59 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 220.04,
-   "pct_away": -2.99,
+   "last": 219.9,
+   "pct_away": -2.93,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2eb27cc6",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 417.682,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 430.32,
+   "pct_away": -2.94,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "399f4f38",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 479.5098,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 494.08,
+   "pct_away": -2.95,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5d67954b",
+   "ticker": "BE",
+   "kind": "buy_limit",
+   "price": 263.1901,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 271.28,
+   "pct_away": -2.98,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -428,7 +479,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $18,546 idle, so opened 2: TSM, PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $12,546 idle, so opened 1: BE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -496,11 +547,11 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 317,
-  "decisions_with_buys_graded": 113,
+  "decisions_graded": 316,
+  "decisions_with_buys_graded": 112,
   "independent_days_graded": 3,
-  "avg_regret_pct": 0.07,
-  "chosen_avg_pct": 0.24,
+  "avg_regret_pct": 0.08,
+  "chosen_avg_pct": 0.23,
   "skipped_avg_pct": 0.31,
   "idle_universe_avg_pct": 0.4,
   "picking_beats_random": false,
@@ -508,7 +559,7 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 168,
+    "n": 167,
     "avg_pct": 0.27
    },
    "congress": {
@@ -520,7 +571,7 @@
     "avg_pct": 0.6
    },
    "momentum": {
-    "n": 168,
+    "n": 167,
     "avg_pct": 0.27
    }
   },
@@ -2681,5 +2732,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-18T13:28-04:00"
+ "signalsAsOf": "2026-09-18T13:31-04:00"
 }
