@@ -1,7 +1,3 @@
-portfolio: equity $25178.16 (+0.71% on $25000.00 in) · cash $4015.43 · realised +187.10
-Decision: nothing at this check. 25 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% CHRW [time stop] -> $3003.07 (+0.10%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% HLI [time stop] -> $2995.33 (-0.16%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% GOOGL [time stop] -> $3004.79 (+0.16%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AAPL [time stop] -> $3000.41 (+0.01%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +394,7 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 CRWD @ $232.93 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25168.35 (+0.67% on $25000.00 in) · cash $22191.81 · realised +191.81
 Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% CRWD [time stop] -> $2978.19 (-0.73%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 15:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
