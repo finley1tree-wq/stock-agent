@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-18T13:36-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-18T13:42-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "dfd5006a",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 494.688,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 494.92,
-   "pct_away": -0.05,
-   "good_until": "2026-09-23",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "313e2ecf",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 494.92,
-   "pct_away": 0.1,
+   "last": 495.06,
+   "pct_away": 0.08,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -173,17 +156,17 @@
    ]
   },
   {
-   "id": "d24e452c",
-   "ticker": "BE",
+   "id": "dfd5006a",
+   "ticker": "MSFT",
    "kind": "stop_loss",
-   "price": 272.02,
+   "price": 494.688,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 272.48,
-   "pct_away": -0.17,
+   "last": 495.06,
+   "pct_away": -0.08,
    "good_until": "2026-09-23",
-   "why": "close it all at -1.8% under the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 430.59,
-   "pct_away": 0.25,
+   "last": 430.15,
+   "pct_away": 0.36,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e3dd6992",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 273.3026,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 272.48,
-   "pct_away": 0.3,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 175.63,
-   "pct_away": 0.36,
+   "last": 175.52,
+   "pct_away": 0.43,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -248,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 219.81,
-   "pct_away": 0.41,
+   "last": 219.65,
+   "pct_away": 0.48,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -265,27 +231,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 545.99,
-   "pct_away": 0.46,
+   "last": 545.7,
+   "pct_away": 0.51,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9ddface1",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 218.4591,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 219.81,
-   "pct_away": -0.61,
-   "good_until": "2026-09-23",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -299,10 +248,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 430.59,
-   "pct_away": -0.62,
+   "last": 430.15,
+   "pct_away": -0.52,
    "good_until": "2026-09-23",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9ddface1",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 218.4591,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 219.65,
+   "pct_away": -0.54,
+   "good_until": "2026-09-23",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -316,8 +282,8 @@
    "usd": 706.88,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.92,
-   "pct_away": -0.69,
+   "last": 495.06,
+   "pct_away": -0.72,
    "good_until": "2026-09-19",
    "why": "strong month, weak day: resting 0.42% under $493.55 to catch the dip",
    "signals": [
@@ -333,8 +299,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 545.99,
-   "pct_away": -0.9,
+   "last": 545.7,
+   "pct_away": -0.85,
    "good_until": "2026-09-19",
    "why": "strong month, weak day: resting 0.83% under $545.61 to catch the dip",
    "signals": [
@@ -350,8 +316,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 545.99,
-   "pct_away": -1.09,
+   "last": 545.7,
+   "pct_away": -1.04,
    "good_until": "2026-09-23",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -367,8 +333,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 175.63,
-   "pct_away": -1.21,
+   "last": 175.52,
+   "pct_away": -1.15,
    "good_until": "2026-09-23",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -384,25 +350,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 219.81,
-   "pct_away": -2.89,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e0547c5e",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 529.6976,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 545.99,
-   "pct_away": -2.98,
+   "last": 219.65,
+   "pct_away": -2.81,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,8 +367,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 430.59,
-   "pct_away": -3.0,
+   "last": 430.15,
+   "pct_away": -2.9,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e0547c5e",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 529.6976,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 545.7,
+   "pct_away": -2.93,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -435,8 +401,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 175.63,
-   "pct_away": -3.08,
+   "last": 175.52,
+   "pct_away": -3.02,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -452,25 +418,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.92,
-   "pct_away": -3.11,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5d67954b",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 263.1901,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 272.48,
-   "pct_away": -3.41,
+   "last": 495.06,
+   "pct_away": -3.14,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
