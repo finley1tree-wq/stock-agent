@@ -1,45 +1,3 @@
-- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +2.0% over the month; 40% of today's range
-- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +18.2% over the month; 27% of today's range
-~ WORKING take_profit 100% MSFT @ $495.33 until 2026-09-23 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $491.50 until 2026-09-23 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $479.41 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $239.84 until 2026-09-23 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% CRWD @ $234.74 until 2026-09-23 — close it all at -1.5% under the average cost
-~ WORKING buy_limit $500.00 CRWD @ $231.23 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 NVDA @ $218.53 until 2026-09-19 — strong month, weak day: resting 0.55% under $219.74 to catch the dip
-portfolio: equity $25122.10 (+0.49% on $25000.00 in) · cash $1156.87 · realised +156.87
-Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $729.11 this week
-- SELL 100% CHRW [time stop] -> $2998.38 (-0.05%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-18 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-18 11:59 ET (Friday) — week 2026-W38 — budget left $3727.49 (today $109208.31 put to work, 38 buys, 30 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBBZKi7AJqYNLkwYRA6P'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $3,727 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +16.6% over the month; 20% of today's range
-~ WORKING take_profit 100% AMD @ $546.29 until 2026-09-23 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMD @ $537.81 until 2026-09-23 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $527.55 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25125.29 (+0.50% on $25000.00 in) · cash $1155.25 · realised +155.25
-Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $727.49 this week
-
-## 2026-09-18 12:02 ET (Friday) — week 2026-W38 — budget left $727.49 (today $112208.31 put to work, 39 buys, 30 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBBnDRgw2D5c2aRDK1oM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25126.97 (+0.51% on $25000.00 in) · cash $1155.25 · realised +155.25
 Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% INTC [time stop] -> $2995.72 (-0.14%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +356,45 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25121.48 (+0.49% on $25000.00 in) · cash $1134.65 · realised +134.65
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 13:06 ET (Friday) — week 2026-W38 — budget left $706.88 (today $145393.20 put to work, 51 buys, 42 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBGfcRBpfP2BJSEWTqPV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25123.56 (+0.49% on $25000.00 in) · cash $1134.65 · realised +134.65
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 13:09 ET (Friday) — week 2026-W38 — budget left $706.88 (today $145393.20 put to work, 51 buys, 42 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBGtXyuR2ke6VhRrwSTi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25127.59 (+0.51% on $25000.00 in) · cash $1134.65 · realised +134.65
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-18 13:12 ET (Friday) — week 2026-W38 — budget left $706.88 (today $145393.20 put to work, 51 buys, 42 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBH6qmKET3a7P6XA3U7A'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $706.88 MSFT @ $491.50 until 2026-09-19 — strong month, weak day: resting 0.42% under $493.55 to catch the dip
+portfolio: equity $25127.81 (+0.51% on $25000.00 in) · cash $1134.65 · realised +134.65
+Decision: nothing at this check. 25 standing order(s) working.
