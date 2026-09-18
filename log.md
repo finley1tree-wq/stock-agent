@@ -12587,3 +12587,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25187.71 (+0.75% on $25000.00 in) · cash $13019.02 · realised +190.69
 Decision: nothing at this check. 16 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $496.37] -> $3006.64 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-18 14:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 14:50 ET (Friday) — week 2026-W38 — budget left $15597.92 (today $196735.66 put to work, 70 buys, 65 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBQciVAJGfsmSfG2FhfF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25182.41 (+0.73% on $25000.00 in) · cash $16025.66 · realised +197.33
+Decision: nothing at this check. 13 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
