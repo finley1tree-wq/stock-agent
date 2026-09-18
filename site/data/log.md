@@ -1,7 +1,3 @@
-
-## 2026-09-18 14:33 ET (Friday) — week 2026-W38 — budget left $3765.88 (today $190563.99 put to work, 67 buys, 59 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
@@ -398,3 +394,7 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 CRWD @ $232.93 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25163.50 (+0.65% on $25000.00 in) · cash $19183.52 · realised +183.52
 Decision: nothing at this check. 6 standing order(s) working.
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% TTD [time stop] -> $3008.29 (+0.28%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-18 15:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
