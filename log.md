@@ -11837,3 +11837,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $651.37 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25124.94 (+0.50% on $25000.00 in) · cash $19112.85 · realised +112.85
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $18685.09 this week
+
+## 2026-09-18 12:46 ET (Friday) — week 2026-W38 — budget left $18685.09 (today $124393.20 put to work, 44 buys, 41 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [take_profit @ $272.93] -> $3021.79 (+0.73%) — close 100% at +0.7% over the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBF7t3XgDHkRfH48CfqA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $25135.16 (+0.54% on $25000.00 in) · cash $22134.65 · realised +134.65
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 3 order(s) working; budget left $21706.88 this week

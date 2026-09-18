@@ -1,6 +1,6 @@
 {
   "week": "2026-W38",
-  "spent": 6314.91,
+  "spent": 3293.12,
   "deployed": 970270.52,
   "by_ticker": {
     "GOOGL": 53.85,
@@ -23,8 +23,7 @@
     "TSM": 28.61,
     "MSFT": 17.87,
     "INTC": 19.62,
-    "NVDA": 9.59,
-    "BE": 3000.0
+    "NVDA": 9.59
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -12670,13 +12669,34 @@
         "autopilot"
       ],
       "evidence": "+23.0% over the month; 13% of today's range"
+    },
+    {
+      "symbol": "BE",
+      "side": "sell",
+      "qty": 11.071574,
+      "status": "filled",
+      "price": 272.93,
+      "proceeds": 3021.79,
+      "realized_pnl": 21.79,
+      "realized_pct": 0.73,
+      "date": "2026-09-18",
+      "time_et": "12:46",
+      "ts": 1789749900,
+      "why": "close 100% at +0.7% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $270.96",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6192.48,
+  "spent_today": 3170.69,
   "deployed_today": 124393.2,
   "orders_today": 44,
-  "sells_today": 41,
+  "sells_today": 42,
   "sold_today": [
     "INTC",
     "HLI",
@@ -12702,7 +12722,7 @@
     "AMD": 1789748960,
     "IBM": 1789671065,
     "AAPL": 1789747869,
-    "BE": 1789746912,
+    "BE": 1789749989,
     "NEM": 1789673960,
     "MSFT": 1789748796,
     "FLD": 1789399070,
@@ -12718,18 +12738,15 @@
     "INTC": 1789747523,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789749895,
-  "last_check_ts": 1789749895,
-  "last_bar_ts": 1789749600,
-  "last_decision_ts": 1789749803,
-  "next_check_minutes": 6,
+  "last_publish_ts": 1789749984,
+  "last_check_ts": 1789749984,
+  "last_bar_ts": 1789749900,
+  "last_decision_ts": 1789749984,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "ec9121d1": 272.9326,
-    "d7b1770c": 271.56,
     "2761cbd0": 673.877,
     "dc7171e1": 665.6308,
-    "eda0b8ee": 651.3744,
-    "72fb1504": 262.8312
+    "eda0b8ee": 651.3744
   }
 }
