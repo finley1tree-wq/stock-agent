@@ -1,27 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,839 idle, so opened 3: AAPL, AMD, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +6.3% over the month; 39% of today's range
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +17.5% over the month; 68% of today's range
-- BUY $3000.00 NVDA [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.8% over the month; 79% of today's range
-~ WORKING take_profit 100% AAPL @ $337.86 until 2026-09-23 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% AAPL @ $334.96 until 2026-09-23 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 AAPL @ $326.92 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $550.55 until 2026-09-23 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMD @ $542.22 until 2026-09-23 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $531.72 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NVDA @ $219.92 until 2026-09-23 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% NVDA @ $217.71 until 2026-09-23 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 NVDA @ $212.71 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25205.79 (+0.82% on $25000.00 in) · cash $1266.60 · realised +266.60
-Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $838.86 this week
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [take_profit @ $152.84] -> $3007.84 (+0.26%) — close 100% at +0.3% over the average cost
-## 2026-09-18 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-18 09:41 ET (Friday) — week 2026-W38 — budget left $3846.70 (today $33000.00 put to work, 11 buys, 4 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (cancelled 2 standing order(s) on TTD: position closed)
@@ -398,3 +374,27 @@ Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $719.40 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [take_profit @ $153.38] -> $3007.87 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-09-18 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on BE: position closed)
+- SELL 100% BE [stop_loss @ $271.32] -> $3005.63 (+0.19%) — close it all at -1.8% under the average cost
+## 2026-09-18 10:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-18 10:44 ET (Friday) — week 2026-W38 — budget left $6732.90 (today $67000.00 put to work, 23 buys, 16 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB5qHjnZXKAWpc8qiy3J'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,733 idle, so opened 2: AMD, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +16.7% over the month; 4% of today's range
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +5.0% over the month; 2% of today's range
+~ WORKING take_profit 100% AMD @ $546.72 until 2026-09-23 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMD @ $538.30 until 2026-09-23 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $527.98 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $333.58 until 2026-09-23 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AAPL @ $330.58 until 2026-09-23 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $322.74 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25127.66 (+0.51% on $25000.00 in) · cash $1160.64 · realised +160.64
+Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $732.90 this week
