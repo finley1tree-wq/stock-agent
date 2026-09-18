@@ -1,6 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 NEM @ $120.87 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING buy_limit $500.00 TSM @ $416.45 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING buy_limit $500.00 CHRW @ $149.65 until 2026-09-22 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25309.33 (+1.24% on $25000.00 in) · cash $16324.18 · realised +324.18
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $420.44 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25174.66 (+0.70% on $25000.00 in) · cash $16183.13 · realised +183.13
 Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $15755.39 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $548.78] -> $3003.33 (+0.11%) — close it all at -1.1% under the average cost
+## 2026-09-18 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

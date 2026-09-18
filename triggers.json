@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "d9d19a32",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 132.3329,
-   "status": "filled",
-   "created": "2026-09-17 09:43",
-   "created_ts": 1789652601,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $131.87",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 09:49"
-  },
-  {
-   "id": "d6b8b93e",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 130.7122,
-   "status": "cancelled",
-   "created": "2026-09-17 09:43",
-   "created_ts": 1789652601,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $131.87",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-17 09:49",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "66af4434",
    "ticker": "HLI",
    "kind": "buy_limit",
@@ -7210,7 +7173,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 337.8557,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:38",
    "created_ts": 1789738687,
    "why": "close 100% at +0.2% over the average cost",
@@ -7220,7 +7183,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "8dbc2dcf",
@@ -7261,7 +7226,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 550.5491,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:38",
    "created_ts": 1789738687,
    "why": "close 100% at +0.4% over the average cost",
@@ -7271,7 +7236,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7d94189f",
@@ -7297,7 +7264,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 531.7249,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 09:38",
    "created_ts": 1789738687,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7307,7 +7274,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "283e1f69",
@@ -7464,7 +7433,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 549.052,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-18 09:46",
    "created_ts": 1789739205,
    "why": "close it all at -1.1% under the average cost",
@@ -7474,7 +7443,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:50"
   },
   {
    "id": "1ea61aa7",
@@ -7526,7 +7496,43 @@
    ],
    "good_until": "2026-09-23",
    "usd": 500.0
+  },
+  {
+   "id": "983e2ccc",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 353.8815,
+   "status": "cancelled",
+   "created": "2026-09-18 09:50",
+   "created_ts": 1789739408,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $337.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 09:50",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "901351ce",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 337.8692,
+   "status": "working",
+   "created": "2026-09-18 09:50",
+   "created_ts": 1789739454,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $337.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-18 09:49"
+ "updated": "2026-09-18 09:50"
 }
