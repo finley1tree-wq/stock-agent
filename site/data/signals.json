@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-18T11:14-04:00",
+ "asOf": "2026-09-18T11:25-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -137,76 +137,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "51a3b77d",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 430.0586,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 431.35,
-   "pct_away": -0.3,
-   "good_until": "2026-09-19",
-   "why": "strong month, weak day: resting 0.47% under $432.08 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "4bc7abe9",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 432.8795,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 431.35,
-   "pct_away": 0.35,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "87c9d71e",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 429.1056,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 431.35,
-   "pct_away": -0.52,
-   "good_until": "2026-09-23",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f7c43de1",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 418.846,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 431.35,
-   "pct_away": -2.9,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)",
  "congress_trades": [

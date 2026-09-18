@@ -7325,7 +7325,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 430.0586,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:53",
    "created_ts": 1789743189,
    "why": "strong month, weak day: resting 0.47% under $432.08 to catch the dip",
@@ -7335,7 +7335,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-19",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-18 11:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b04338d0",
@@ -7361,7 +7363,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 432.8795,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:55",
    "created_ts": 1789743359,
    "why": "close 100% at +0.2% over the average cost",
@@ -7371,14 +7373,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 11:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "87c9d71e",
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 429.1056,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:55",
    "created_ts": 1789743359,
    "why": "close it all at -0.6% under the average cost",
@@ -7388,14 +7392,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-18 11:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f7c43de1",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 418.846,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-18 10:55",
    "created_ts": 1789743359,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7405,7 +7411,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-23",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-18 11:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "4e9e4e51",
