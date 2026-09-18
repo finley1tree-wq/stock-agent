@@ -1,10 +1,10 @@
 {
   "week": "2026-W38",
-  "spent": 18134.92,
-  "deployed": 869877.32,
+  "spent": 24161.14,
+  "deployed": 878877.32,
   "by_ticker": {
     "GOOGL": 33.49,
-    "AMD": 47.32,
+    "AMD": 3047.32,
     "FLD": 1.2,
     "TPL": 62.38,
     "ALP": 39.88,
@@ -14,15 +14,16 @@
     "SKWD": 22.98,
     "CHRW": 3058.21,
     "SBLK": 24.03,
-    "AAPL": 33.25,
-    "META": 3067.96,
+    "AAPL": 3033.25,
+    "META": 94.18,
     "TTD": 3050.72,
     "IBM": 6.03,
     "PLTR": 16.14,
     "CRWD": 3017.29,
     "BE": 3002.49,
     "TSM": 3.37,
-    "MSFT": 3000.0
+    "MSFT": 3000.0,
+    "NVDA": 3000.0
   },
   "deployed_by_ticker": {
     "ALP": 12000.0,
@@ -33,9 +34,9 @@
     "HLI": 66873.19,
     "NEM": 73000.0,
     "META": 69780.16,
-    "AMD": 37000.0,
+    "AMD": 40000.0,
     "TTD": 69000.0,
-    "AAPL": 66000.0,
+    "AAPL": 69000.0,
     "MSFT": 63903.62,
     "GOOGL": 52000.0,
     "TPL": 12000.0,
@@ -46,7 +47,8 @@
     "SKWD": 3000.0,
     "SBLK": 27000.0,
     "TSM": 14320.35,
-    "INTC": 3000.0
+    "INTC": 3000.0,
+    "NVDA": 3000.0
   },
   "orders": [
     {
@@ -11236,21 +11238,94 @@
       ],
       "evidence": "average cost $132.71",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.395756,
+      "status": "filled",
+      "price": 676.51,
+      "proceeds": 2973.78,
+      "realized_pnl": -26.22,
+      "realized_pct": -0.87,
+      "date": "2026-09-18",
+      "time_et": "09:37",
+      "ts": 1789738500,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $682.48",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.901354,
+      "price": 337.03,
+      "date": "2026-09-18",
+      "time_et": "09:38",
+      "ts": 1789738687,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+6.3% over the month; 39% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.472759,
+      "price": 548.17,
+      "date": "2026-09-18",
+      "time_et": "09:38",
+      "ts": 1789738687,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+17.5% over the month; 68% of today's range"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.680274,
+      "price": 219.29,
+      "date": "2026-09-18",
+      "time_et": "09:38",
+      "ts": 1789738687,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.8% over the month; 79% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 18012.49,
-  "deployed_today": 24000.0,
-  "orders_today": 8,
-  "sells_today": 2,
+  "spent_today": 24038.71,
+  "deployed_today": 33000.0,
+  "orders_today": 11,
+  "sells_today": 3,
   "sold_today": [
     "INTC",
-    "HLI"
+    "HLI",
+    "META"
   ],
   "sold_ts": {
     "ALP": 1789404796,
     "HLI": 1789738599,
-    "META": 1789673285,
+    "META": 1789738640,
     "CHRW": 1789674798,
     "TTD": 1789672588,
     "AMD": 1789672252,
@@ -11271,33 +11346,39 @@
     "TSM": 1789674128,
     "INTC": 1789738553
   },
-  "last_publish_ts": 1789738598,
-  "last_check_ts": 1789738598,
+  "last_publish_ts": 1789738687,
+  "last_check_ts": 1789738687,
   "last_bar_ts": 1789738500,
-  "last_decision_ts": 1789738505,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789738687,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "49c8c737": 493.0878,
-    "fcb3bca2": 676.8495,
-    "bdccc490": 152.8394,
-    "942422dd": 496.8009,
-    "0051972c": 335.1258,
-    "68d6a803": 151.44,
-    "68b176aa": 217.3522,
-    "8bc945e5": 274.9406,
-    "b108ae54": 244.6334,
     "9a99f817": 14.1549,
-    "3e24a11e": 684.7322,
-    "0764daa1": 14.4001,
+    "20717d29": 337.8557,
+    "283e1f69": 219.9237,
+    "68d6a803": 151.44,
+    "942422dd": 496.8009,
+    "49c8c737": 493.0878,
+    "1c0c2b23": 550.5491,
+    "0051972c": 335.1258,
+    "bdccc490": 152.8394,
+    "b108ae54": 244.6334,
+    "8dbc2dcf": 334.964,
+    "de05ac01": 217.7067,
+    "68b176aa": 217.3522,
     "79d15f5d": 354.7935,
-    "947bf8bd": 239.7178,
+    "7d94189f": 542.2224,
+    "8bc945e5": 274.9406,
     "53c030ac": 281.5063,
-    "06eef71e": 271.2411,
-    "0de76645": 662.0056,
+    "947bf8bd": 239.7178,
+    "0764daa1": 14.4001,
     "d868c4e3": 13.9001,
+    "06eef71e": 271.2411,
+    "627591af": 147.8668,
     "b219b310": 480.8678,
-    "b84e7cfa": 235.9331,
-    "627591af": 147.8668
+    "d60e829f": 326.9191,
+    "64022ce9": 531.7249,
+    "6904b0ce": 212.7113,
+    "b84e7cfa": 235.9331
   }
 }
