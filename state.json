@@ -1,7 +1,7 @@
 {
   "week": "2026-W38",
-  "spent": 6453.74,
-  "deployed": 997441.31,
+  "spent": 12453.74,
+  "deployed": 1003441.31,
   "by_ticker": {
     "GOOGL": 59.16,
     "AMD": 3059.56,
@@ -18,9 +18,9 @@
     "META": 108.48,
     "TTD": 92.53,
     "IBM": 6.03,
-    "PLTR": 27.41,
+    "PLTR": 3027.41,
     "CRWD": 31.48,
-    "TSM": 28.61,
+    "TSM": 3028.61,
     "MSFT": 3017.87,
     "INTC": 19.42,
     "NVDA": 180.38
@@ -43,10 +43,10 @@
     "GRNT": 9000.0,
     "MAIA": 6000.0,
     "CRWD": 57000.0,
-    "PLTR": 31000.0,
+    "PLTR": 34000.0,
     "SKWD": 3000.0,
     "SBLK": 27000.0,
-    "TSM": 23320.35,
+    "TSM": 26320.35,
     "INTC": 12000.0,
     "NVDA": 6355.68
   },
@@ -13027,12 +13027,46 @@
       ],
       "evidence": "bought 30 min ago, +0.17% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.967086,
+      "price": 430.6,
+      "date": "2026-09-18",
+      "time_et": "13:28",
+      "ts": 1789752532,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+4.5% over the month; 26% of today's range"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.096444,
+      "price": 175.48,
+      "date": "2026-09-18",
+      "time_et": "13:28",
+      "ts": 1789752532,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+0.1% over the month; 60% of today's range"
     }
   ],
   "day": "2026-09-18",
-  "spent_today": 6331.31,
-  "deployed_today": 151563.99,
-  "orders_today": 54,
+  "spent_today": 12331.31,
+  "deployed_today": 157563.99,
+  "orders_today": 56,
   "sells_today": 50,
   "sold_today": [
     "INTC",
@@ -13075,22 +13109,28 @@
     "INTC": 1789752094,
     "NVDA": 1789748710
   },
-  "last_publish_ts": 1789752443,
-  "last_check_ts": 1789752443,
+  "last_publish_ts": 1789752532,
+  "last_check_ts": 1789752532,
   "last_bar_ts": 1789752300,
-  "last_decision_ts": 1789752351,
-  "next_check_minutes": null,
+  "last_decision_ts": 1789752532,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "313e2ecf": 495.4325,
+    "4d0a9ea3": 431.6808,
     "9d307c61": 220.7148,
-    "0ef37d34": 548.5046,
+    "95a0f2ea": 176.2697,
     "d574ec9b": 491.6014,
     "c1fdaa1e": 491.4977,
+    "0ef37d34": 548.5046,
+    "be3d1d85": 427.9001,
     "9ddface1": 218.4591,
     "45fbdea9": 541.0691,
     "c2e6f7dd": 540.024,
+    "d53b15d8": 173.5076,
     "e0547c5e": 529.6976,
+    "2eb27cc6": 417.682,
+    "f507dfc6": 170.2156,
     "399f4f38": 479.5098,
     "c75a98ac": 213.4679
   }
