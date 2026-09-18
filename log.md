@@ -11146,3 +11146,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $322.74 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25127.66 (+0.51% on $25000.00 in) · cash $1160.64 · realised +160.64
 Done: 0 sell(s), 2 buy(s); 27 order(s) working; budget left $732.90 this week
+
+## 2026-09-18 10:47 ET (Friday) — week 2026-W38 — budget left $732.90 (today $73000.00 put to work, 25 buys, 16 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfB64gUsoESw2UKGVim1f'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25129.19 (+0.52% on $25000.00 in) · cash $1160.64 · realised +160.64
+Decision: nothing at this check. 27 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
