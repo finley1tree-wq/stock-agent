@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-18T15:09-04:00",
+ "asOf": "2026-09-18T15:10-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "741eb0a3",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 177.148,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 177.13,
-   "pct_away": 0.01,
-   "good_until": "2026-09-23",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "f47ac317",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 430.46,
-   "pct_away": -0.02,
+   "last": 430.38,
+   "pct_away": -0.01,
    "good_until": "2026-09-23",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -180,27 +163,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 430.46,
-   "pct_away": 0.15,
+   "last": 430.38,
+   "pct_away": 0.17,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9b69a666",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 177.6789,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 177.13,
-   "pct_away": 0.31,
-   "good_until": "2026-09-23",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 672.32,
-   "pct_away": 0.58,
+   "last": 672.4,
+   "pct_away": 0.57,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -231,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 672.32,
-   "pct_away": -0.65,
+   "last": 672.4,
+   "pct_away": -0.66,
    "good_until": "2026-09-23",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -248,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 13.98,
-   "pct_away": 0.88,
+   "last": 14.0,
+   "pct_away": 0.73,
    "good_until": "2026-09-23",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -265,27 +231,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 13.98,
-   "pct_away": -0.94,
+   "last": 14.0,
+   "pct_away": -1.08,
    "good_until": "2026-09-23",
    "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a4253f7b",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.6091,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 13.98,
-   "pct_away": -2.65,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -299,8 +248,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 672.32,
-   "pct_away": -2.78,
+   "last": 672.4,
+   "pct_away": -2.79,
+   "good_until": "2026-09-23",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a4253f7b",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.6091,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 14.0,
+   "pct_away": -2.79,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,25 +282,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 430.46,
-   "pct_away": -3.1,
-   "good_until": "2026-09-23",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d8a4e444",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 171.5833,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 177.13,
-   "pct_away": -3.13,
+   "last": 430.38,
+   "pct_away": -3.08,
    "good_until": "2026-09-23",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

@@ -1,6 +1,3 @@
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $671.34] -> $3002.21 (+0.07%) — close it all at -0.9% under the average cost
 ## 2026-09-18 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +395,6 @@ portfolio: equity $25172.78 (+0.69% on $25000.00 in) · cash $13000.60 · realis
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $12572.87 this week
 - SELL 100% NVDA [time stop] -> $171.63 (-0.02%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-18 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [stop_loss @ $177.06] -> $3002.95 (+0.10%) — close it all at -1.1% under the average cost
+## 2026-09-18 15:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
