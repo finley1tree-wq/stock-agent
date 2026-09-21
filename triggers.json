@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "4d0b4468",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 112.602,
-   "status": "cancelled",
-   "created": "2026-09-18 11:43",
-   "created_ts": 1789746205,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $107.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 11:44",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "1d5411ab",
    "ticker": "INTC",
    "kind": "take_profit",
@@ -7410,7 +7391,7 @@
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 530.1771,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:08",
    "created_ts": 1790010502,
    "why": "close it all at -0.7% under the average cost",
@@ -7420,7 +7401,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 13:19",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c129b2dd",
@@ -7457,7 +7440,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-21 13:17",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "d0e915f4",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 534.348,
+   "status": "working",
+   "created": "2026-09-21 13:19",
+   "created_ts": 1790011161,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $533.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-21 13:17"
+ "updated": "2026-09-21 13:19"
 }
