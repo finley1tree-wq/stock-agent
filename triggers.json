@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "6196556c",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 108.8092,
-   "status": "cancelled",
-   "created": "2026-09-18 10:20",
-   "created_ts": 1789741253,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $108.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d7596348",
-   "ticker": "INTC",
-   "kind": "stop_loss",
-   "price": 106.6755,
-   "status": "cancelled",
-   "created": "2026-09-18 10:20",
-   "created_ts": 1789741253,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $108.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "99ccb5da",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 104.954,
-   "status": "cancelled",
-   "created": "2026-09-18 10:20",
-   "created_ts": 1789741253,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $108.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 10:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "37d9ecca",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 132.3836,
-   "status": "cancelled",
-   "created": "2026-09-18 10:23",
-   "created_ts": 1789741434,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $131.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "81713930",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 130.7254,
-   "status": "cancelled",
-   "created": "2026-09-18 10:23",
-   "created_ts": 1789741434,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $131.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ef9f8e89",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 127.9527,
-   "status": "cancelled",
-   "created": "2026-09-18 10:23",
-   "created_ts": 1789741434,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $131.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 10:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "9e2726ec",
    "ticker": "META",
    "kind": "take_profit",
@@ -7512,7 +7398,107 @@
    ],
    "good_until": "2026-09-22",
    "usd": 1000.0
+  },
+  {
+   "id": "f75af3bd",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 695.0,
+   "status": "working",
+   "created": "2026-09-21 11:13",
+   "created_ts": 1790003635,
+   "why": "protect new META position",
+   "evidence": "META entry near 709, ATR 3.49%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1ce5fa8b",
+   "ticker": "GLD",
+   "kind": "stop_loss",
+   "price": 390.0,
+   "status": "working",
+   "created": "2026-09-21 11:13",
+   "created_ts": 1790003635,
+   "why": "protect new GLD position",
+   "evidence": "GLD entry near 398.76, ATR 1.93%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "580d1d3a",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 711.9948,
+   "status": "working",
+   "created": "2026-09-21 11:13",
+   "created_ts": 1790003635,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $709.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4a653e9d",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 687.9725,
+   "status": "working",
+   "created": "2026-09-21 11:13",
+   "created_ts": 1790003635,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $709.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
+  },
+  {
+   "id": "e367ed2d",
+   "ticker": "GLD",
+   "kind": "take_profit",
+   "price": 399.6975,
+   "status": "working",
+   "created": "2026-09-21 11:13",
+   "created_ts": 1790003635,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $398.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "442585d3",
+   "ticker": "GLD",
+   "kind": "buy_limit",
+   "price": 386.8748,
+   "status": "working",
+   "created": "2026-09-21 11:13",
+   "created_ts": 1790003635,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $398.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 11:05"
+ "updated": "2026-09-21 11:13"
 }
