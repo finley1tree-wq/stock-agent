@@ -1,16 +1,20 @@
 {
   "week": "2026-W39",
-  "spent": 955.25,
-  "deployed": 13000.0,
+  "spent": 2955.25,
+  "deployed": 15000.0,
   "by_ticker": {
-    "TTD": 1000.0
+    "TTD": 1000.0,
+    "PLTR": 1000.0,
+    "MSFT": 1000.0
   },
   "deployed_by_ticker": {
     "AMD": 4200.0,
     "AMAT": 3600.0,
     "NVDA": 3200.0,
     "CHRW": 1000.0,
-    "TTD": 1000.0
+    "TTD": 1000.0,
+    "PLTR": 1000.0,
+    "MSFT": 1000.0
   },
   "orders": [
     {
@@ -185,12 +189,50 @@
       ],
       "evidence": "average cost $152.46",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.645367,
+      "price": 177.14,
+      "date": "2026-09-21",
+      "time_et": "09:41",
+      "ts": 1789998000,
+      "why": "strong month, weak day: resting 0.81% under $178.59 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+2.7% over the month, sitting at 23% of today's range",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.032299,
+      "price": 492.05,
+      "date": "2026-09-21",
+      "time_et": "09:42",
+      "ts": 1789998000,
+      "why": "strong month, weak day: resting 0.40% under $494.04 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+2.7% over the month, sitting at 28% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 955.25,
-  "deployed_today": 13000.0,
-  "orders_today": 5,
+  "spent_today": 2955.25,
+  "deployed_today": 15000.0,
+  "orders_today": 7,
   "sells_today": 4,
   "sold_today": [
     "AMAT",
@@ -204,23 +246,27 @@
     "NVDA": 1789997799,
     "CHRW": 1789998001
   },
-  "last_publish_ts": 1789998000,
-  "last_check_ts": 1789998046,
+  "last_publish_ts": 1789998134,
+  "last_check_ts": 1789998134,
   "last_bar_ts": 1789998000,
   "last_decision_ts": 1789997557,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "0bc3100d": 492.0535,
+    "1562ab02": 177.9212,
+    "e9380427": 493.1227,
     "230d3e80": 56.0309,
-    "ee344eab": 177.1364,
-    "846c83a9": 351.1349,
+    "a67fcde4": 489.3634,
     "bc229357": 39.861,
     "119f1c60": 14.0005,
-    "d7a4220a": 435.4608,
+    "846c83a9": 351.1349,
     "80cffe3e": 13.7536,
+    "d7a4220a": 435.4608,
     "31028f0b": 690.82,
+    "72224f94": 175.1861,
     "a5c4e753": 234.3425,
-    "1a7409e6": 13.5121
+    "1a7409e6": 13.5121,
+    "b4b2af25": 477.2885,
+    "796c4a48": 171.8258
   }
 }

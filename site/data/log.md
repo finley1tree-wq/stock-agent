@@ -1,7 +1,3 @@
-## 2026-09-18 15:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-18 15:08 ET (Friday) — week 2026-W38 — budget left $15572.87 (today $202735.66 put to work, 72 buys, 67 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +394,7 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [stop_loss @ $152.62] -> $1001.10 (+0.11%) — close it all at -0.7% under the average cost
 ## 2026-09-21 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 PLTR [buy_limit @ $177.14] — strong month, weak day: resting 0.81% under $178.59 to catch the dip
+## 2026-09-21 09:41 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $1000.00 MSFT [buy_limit @ $492.05] — strong month, weak day: resting 0.40% under $494.04 to catch the dip
+## 2026-09-21 09:42 ET — tick — 0 sell(s), 1 buy(s) from standing orders
