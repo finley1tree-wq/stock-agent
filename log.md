@@ -13554,3 +13554,31 @@ lesson: Zero positions for hours while writing 'deploy more' lessons is worse th
 ~ WORKING buy_limit $500.00 PLTR @ $176.38 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32788.35 (+31.15% on $25000.00 in) · cash $25289.85 · realised +7789.85
 Done: 0 sell(s), 3 buy(s); 46 order(s) working; budget left $17500.00 this week
+
+## 2026-09-21 12:56 ET (Monday) — week 2026-W39 — budget left $17500.00 (today $76903.74 put to work, 38 buys, 34 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Still well below min_positions (3 of 8) with 70% idle cash - the recurring, measured drag per past_lessons_with_outcome. Deploying real market-size buys now into META (strongest momentum+news), AVGO/AMAT (AI semis with congress overlap), CRWD (congress buy disclosure + momentum), NOC (defense demand headline), and GOOGL (widely-held momentum) to push toward min_positions in size ($1.5-3k each) rather than relying only on resting limits that keep expiring unfilled.
+lesson: When below min_positions with idle cash, place actual market buys sized $1.5-3k across several evidence-backed names in the same check rather than only leaving resting limits - resting limits alone have repeatedly failed to close the position-count gap today.
+  (dropped GOOGL: sold 26 min ago, cooling off)
+  (dropped META: 97% up today's range — resting a limit at $707.29 instead of chasing)
+  (dropped AVGO: 98% up today's range — resting a limit at $357.79 instead of chasing)
+  (dropped CRWD: 92% up today's range — resting a limit at $240.46 instead of chasing)
+  (dropped AMAT: 95% up today's range — resting a limit at $458.69 instead of chasing)
+- BUY $1500.00 NOC [filled] ['momentum', 'news'] — Defense demand headline, decent hit rate sector | evidence: NOC 84.9% of day range, 'U.S. approves potential $2.7 billion air defense sale to Ukraine', defense sector hit_rate 0.67 in track record
+  (dropped trigger AMD stop_loss: duplicate of a working order)
+  (dropped trigger TSM stop_loss: duplicate of a working order)
+  (dropped trigger PLTR stop_loss: duplicate of a working order)
+  (dropped trigger META buy_limit: duplicate of a working order)
+  (dropped trigger CRWD buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2500.00 AVGO @ $357.79 until 2026-09-21 — wanted it, but not at the high — resting at $357.79. AI semis momentum, widely_held sector strength
+~ WORKING buy_limit $2500.00 AMAT @ $458.69 until 2026-09-21 — wanted it, but not at the high — resting at $458.69. Congress overlap plus strong daily momentum in semis-adjacent name
+~ WORKING take_profit 100% NOC @ $526.53 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% NOC @ $521.94 until 2026-09-26 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 NOC @ $509.46 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32783.43 (+31.13% on $25000.00 in) · cash $23789.85 · realised +7789.85
+Done: 0 sell(s), 1 buy(s); 51 order(s) working; budget left $16000.00 this week

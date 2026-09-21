@@ -1,101 +1,6 @@
 {
  "orders": [
   {
-   "id": "6faba3f3",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 265.1483,
-   "status": "cancelled",
-   "created": "2026-09-18 11:29",
-   "created_ts": 1789745397,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $270.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 11:51",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "44836605",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 261.9776,
-   "status": "cancelled",
-   "created": "2026-09-18 11:29",
-   "created_ts": 1789745397,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $270.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 11:55",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1cd6a9e2",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 107.8566,
-   "status": "cancelled",
-   "created": "2026-09-18 11:35",
-   "created_ts": 1789745740,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $107.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 11:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "323c12bf",
-   "ticker": "INTC",
-   "kind": "stop_loss",
-   "price": 105.699,
-   "status": "cancelled",
-   "created": "2026-09-18 11:35",
-   "created_ts": 1789745740,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $107.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "12e16d0b",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 104.0228,
-   "status": "cancelled",
-   "created": "2026-09-18 11:35",
-   "created_ts": 1789745740,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $107.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 12:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "269e74d3",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -7470,7 +7375,95 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "5ca53ace",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 357.79,
+   "status": "working",
+   "created": "2026-09-21 12:56",
+   "created_ts": 1790009782,
+   "why": "wanted it, but not at the high \u2014 resting at $357.79. AI semis momentum, widely_held sector strength",
+   "evidence": "AVGO 98% of day range, 'Broadcom's AI Opportunity Is Bigger Than Its Stock Price Suggests' 24/7 Wall St, AMD set to top $1T pulling semis higher",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "fe0eea99",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 458.6912,
+   "status": "working",
+   "created": "2026-09-21 12:56",
+   "created_ts": 1790009782,
+   "why": "wanted it, but not at the high \u2014 resting at $458.69. Congress overlap plus strong daily momentum in semis-adjacent name",
+   "evidence": "AMAT +4.15% today, +9.15% 5d, Josh Gottheimer disclosed buy 2026-09-14, congress net buy pressure 2.0",
+   "signals": [
+    "momentum",
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "f62eb761",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 526.5331,
+   "status": "working",
+   "created": "2026-09-21 12:56",
+   "created_ts": 1790009782,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $525.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "613fe1b4",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 521.9374,
+   "status": "working",
+   "created": "2026-09-21 12:56",
+   "created_ts": 1790009782,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $525.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9bfdee88",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.4634,
+   "status": "working",
+   "created": "2026-09-21 12:56",
+   "created_ts": 1790009782,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $525.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 12:49"
+ "updated": "2026-09-21 12:56"
 }
