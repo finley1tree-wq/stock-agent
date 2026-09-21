@@ -1,5 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-09-18 15:50 ET (Friday) — week 2026-W38 — budget left $24742.27 (today $211735.66 put to work, 75 buys, 74 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
@@ -398,3 +396,5 @@ Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17625.76 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [stop_loss @ $13.91] -> $1001.86 (+0.19%) — close it all at -1.3% under the average cost
 ## 2026-09-21 11:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% GLD [time stop] -> $1999.00 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 11:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
