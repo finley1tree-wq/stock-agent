@@ -1,6 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25170.00 (+0.68% on $25000.00 in) · cash $25170.00 · realised +170.00
-Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-18 15:50 ET (Friday) — week 2026-W38 — budget left $24742.27 (today $211735.66 put to work, 75 buys, 74 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ lesson: Idle cash and below-target position count persisted across many checks t
 ~ WORKING buy_limit $500.00 TSM @ $428.25 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25294.51 (+1.18% on $25000.00 in) · cash $17795.78 · realised +295.78
 Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17625.76 this week
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [stop_loss @ $13.91] -> $1001.86 (+0.19%) — close it all at -1.3% under the average cost
+## 2026-09-21 11:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
