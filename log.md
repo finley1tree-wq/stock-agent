@@ -13133,3 +13133,25 @@ Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
   (cancelled 2 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $534.97] -> $2005.43 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 09:59 ET (Monday) — week 2026-W39 — budget left $20086.22 (today $26000.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+  (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
+brain: Only 3 positions held vs min_positions of 8, with 80% cash idle - this is a clear violation of the desk's directive. TTD/NOC/RTX are already protected with brackets. Adding NVDA (fresh Jensen Huang catalyst, low in day range), CRWD (momentum + congress overlap, though I size it down since near day high), and AMAT (congress pressure, low in day range, strong today) moves toward min_positions while respecting cooldowns on other sold names. Will check back quickly to add more names as cooldowns clear (HLI, GOOGL, TSM, SKWD, AAPL, META limits already resting).
+lesson: When below min_positions and most cooldowns are active from same-day flips, pick fresh names not on cooldown (NVDA, CRWD, AMAT) with concrete evidence rather than waiting idle for cooldowns to clear.
+  (dropped NVDA: sold 23 min ago, cooling off)
+  (dropped AMAT: sold 25 min ago, cooling off)
+  (dropped CRWD: 98% up today's range — resting a limit at $239.69 instead of chasing)
+  (re-pinned 1 order(s) to the new average cost)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger NVDA take_profit: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+~ WORKING buy_limit $2000.00 CRWD @ $239.69 until 2026-09-21 — wanted it, but not at the high — resting at $239.69. Strong momentum with congressional buying overlap, though at 98% of day range so sizing modestly rather than chasing full size
+~ WORKING stop_loss 100% TTD @ $13.95 until 2026-09-26 — close it all at -1.3% under the average cost
+portfolio: equity $25245.14 (+0.98% on $25000.00 in) · cash $20256.23 · realised +256.23
+Decision: nothing at this check. 17 standing order(s) working.
