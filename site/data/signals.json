@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-21T09:38-04:00",
+ "asOf": "2026-09-21T09:40-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "077f1391",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 152.861,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.86,
-   "pct_away": 0.0,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0c3168c1",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.7,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.86,
-   "pct_away": -0.1,
-   "good_until": "2026-09-26",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "0bc3100d",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -180,27 +146,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 493.86,
+   "last": 493.9,
    "pct_away": -0.37,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.40% under $494.04 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "ee344eab",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 177.1364,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 178.16,
-   "pct_away": -0.57,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.81% under $178.59 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -214,8 +163,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 56.4,
-   "pct_away": -0.65,
+   "last": 56.24,
+   "pct_away": -0.37,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
    "signals": [
@@ -224,71 +173,20 @@
    ]
   },
   {
-   "id": "d7a4220a",
-   "ticker": "TSM",
+   "id": "ee344eab",
+   "ticker": "PLTR",
    "kind": "buy_limit",
-   "price": 435.4608,
+   "price": 177.1364,
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 439.11,
-   "pct_away": -0.83,
+   "last": 177.92,
+   "pct_away": -0.44,
    "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.46% under $437.46 to catch the dip",
+   "why": "strong month, weak day: resting 0.81% under $178.59 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "bc229357",
-   "ticker": "OKLO",
-   "kind": "buy_limit",
-   "price": 39.861,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 40.2,
-   "pct_away": -0.84,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
-   "signals": [
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "80cffe3e",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 13.7536,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 13.87,
-   "pct_away": -0.84,
-   "good_until": "2026-09-26",
-   "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "119f1c60",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 14.0005,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 13.87,
-   "pct_away": 0.94,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -299,14 +197,82 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 354.9,
-   "pct_away": -1.06,
+   "last": 353.34,
+   "pct_away": -0.62,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "bc229357",
+   "ticker": "OKLO",
+   "kind": "buy_limit",
+   "price": 39.861,
+   "usd": 3000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 40.18,
+   "pct_away": -0.79,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
+   "signals": [
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "119f1c60",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.0005,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.89,
+   "pct_away": 0.8,
+   "good_until": "2026-09-26",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d7a4220a",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 435.4608,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 439.29,
+   "pct_away": -0.87,
+   "good_until": "2026-09-22",
+   "why": "strong month, weak day: resting 0.46% under $437.46 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "80cffe3e",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 13.7536,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.89,
+   "pct_away": -0.98,
+   "good_until": "2026-09-26",
+   "why": "close it all at -1.3% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -317,8 +283,8 @@
    "usd": 4200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 699.52,
-   "pct_away": -1.24,
+   "last": 698.72,
+   "pct_away": -1.13,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
    "signals": [
@@ -335,8 +301,8 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 237.91,
-   "pct_away": -1.5,
+   "last": 238.33,
+   "pct_away": -1.67,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
@@ -353,25 +319,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 13.87,
-   "pct_away": -2.58,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f890de88",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.8862,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 152.86,
-   "pct_away": -3.25,
+   "last": 13.89,
+   "pct_away": -2.72,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

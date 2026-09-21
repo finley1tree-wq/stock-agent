@@ -13080,3 +13080,6 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
 ## 2026-09-21 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 TTD [buy_limit @ $13.93] — strong month, weak day: resting 0.93% under $14.06 to catch the dip
 ## 2026-09-21 09:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [stop_loss @ $152.62] -> $1001.10 (+0.11%) — close it all at -0.7% under the average cost
+## 2026-09-21 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,9 +1,8 @@
 {
   "week": "2026-W39",
-  "spent": 1956.35,
+  "spent": 955.25,
   "deployed": 13000.0,
   "by_ticker": {
-    "CHRW": 1000.0,
     "TTD": 1000.0
   },
   "deployed_by_ticker": {
@@ -165,43 +164,63 @@
       ],
       "evidence": "+5.6% over the month, sitting at 38% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 6.5593,
+      "status": "filled",
+      "price": 152.62,
+      "proceeds": 1001.1,
+      "realized_pnl": 1.1,
+      "realized_pct": 0.11,
+      "date": "2026-09-21",
+      "time_et": "09:40",
+      "ts": 1789998000,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $152.46",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 1956.35,
+  "spent_today": 955.25,
   "deployed_today": 13000.0,
   "orders_today": 5,
-  "sells_today": 3,
+  "sells_today": 4,
   "sold_today": [
     "AMAT",
     "AMD",
-    "NVDA"
+    "NVDA",
+    "CHRW"
   ],
   "sold_ts": {
     "AMAT": 1789997719,
     "AMD": 1789997799,
-    "NVDA": 1789997799
+    "NVDA": 1789997799,
+    "CHRW": 1789998001
   },
-  "last_publish_ts": 1789997916,
-  "last_check_ts": 1789997964,
-  "last_bar_ts": 1789997700,
+  "last_publish_ts": 1789998000,
+  "last_check_ts": 1789998046,
+  "last_bar_ts": 1789998000,
   "last_decision_ts": 1789997557,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "077f1391": 152.861,
-    "0c3168c1": 152.7,
     "0bc3100d": 492.0535,
-    "ee344eab": 177.1364,
     "230d3e80": 56.0309,
-    "d7a4220a": 435.4608,
-    "bc229357": 39.861,
-    "80cffe3e": 13.7536,
-    "119f1c60": 14.0005,
+    "ee344eab": 177.1364,
     "846c83a9": 351.1349,
+    "bc229357": 39.861,
+    "119f1c60": 14.0005,
+    "d7a4220a": 435.4608,
+    "80cffe3e": 13.7536,
     "31028f0b": 690.82,
     "a5c4e753": 234.3425,
-    "1a7409e6": 13.5121,
-    "f890de88": 147.8862
+    "1a7409e6": 13.5121
   }
 }
