@@ -1,6 +1,3 @@
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-
 ## 2026-09-18 15:36 ET (Friday) — week 2026-W38 — budget left $18755.79 (today $211735.66 put to work, 75 buys, 72 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
@@ -398,3 +395,6 @@ lesson: Idle cash at 90% with min_positions target of 8 is a bigger problem than
 ~ WORKING buy_limit $500.00 MSFT @ $478.55 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25246.25 (+0.98% on $25000.00 in) · cash $15623.55 · realised +248.55
 Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $15453.53 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $611.97] -> $2511.52 (+0.46%) — close 100% at +0.5% over the average cost
+## 2026-09-21 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
