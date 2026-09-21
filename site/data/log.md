@@ -1,7 +1,3 @@
-## 2026-09-18 15:05 ET (Friday) — week 2026-W38 — budget left $12571.42 (today $202735.66 put to work, 72 buys, 66 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
   (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
@@ -398,3 +394,7 @@ lesson: On a flat book with full_deployment active, hitting 6 names each near ma
 ~ WORKING buy_limit $1000.00 SKWD @ $56.03 until 2026-09-22 — strong month, weak day: resting 0.53% under $56.33 to catch the dip
 portfolio: equity $25167.80 (+0.67% on $25000.00 in) · cash $14170.00 · realised +170.00
 Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [take_profit @ $456.53] -> $3615.76 (+0.44%) — close 100% at +0.4% over the average cost
+- BUY $1000.00 CHRW [buy_limit @ $152.46] — strong month, weak day: resting 0.49% under $153.20 to catch the dip
+## 2026-09-21 09:35 ET — tick — 1 sell(s), 1 buy(s) from standing orders
