@@ -23661,8 +23661,8 @@
     "code_version": "7879f9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.71,
-    "ret_final": 0.71,
+    "ret_now": 0.49,
+    "ret_final": 0.49,
     "ret_src": "realised"
   },
   {
@@ -24871,7 +24871,9 @@
     "code_version": "5914c78",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.17,
+    "ret_final": 0.17,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -24974,7 +24976,8 @@
     "hour_et": 12,
     "code_version": "b56d40e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.11
   },
   {
     "symbol": "OKLO",
@@ -24998,6 +25001,57 @@
     "evidence": "bought 30 min ago, +0.21% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "019d411"
+    "code_version": "019d411",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 2413.79,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.774386,
+    "price": 356.31,
+    "date": "2026-09-21",
+    "time_et": "12:18",
+    "ts": 1790007483,
+    "why": "Widely-held sector has best track record avg_ret 11.01%, buying near market since limits below haven't filled",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "GOOGL +1.92% today, 84% of day range, headline 'Stock Market Today: Dow Up As Boeing, Nvidia Pop' plus Bessent AI comments",
+    "entry_price": 356.24,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 4.57,
+    "hour_et": 12,
+    "code_version": "d46bd3d",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 1448.28,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.310976,
+    "price": 229.49,
+    "date": "2026-09-21",
+    "time_et": "12:18",
+    "ts": 1790007483,
+    "why": "Low in day range gives better entry, diversify away from AI-only names",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "IBM at 17% of day range (low), -0.05% today but 'IBM Has Raised Its Dividend for 31 Years' dividend stability headline",
+    "entry_price": 229.44,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -1.82,
+    "hour_et": 12,
+    "code_version": "d46bd3d",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

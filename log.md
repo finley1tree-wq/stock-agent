@@ -13439,3 +13439,38 @@ portfolio: equity $32786.81 (+31.15% on $25000.00 in) · cash $28289.10 · reali
 Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $22500.00 this week
 - SELL 100% OKLO [time stop] -> $2003.38 (+0.17%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 12:18 ET (Monday) — week 2026-W39 — budget left $24503.38 (today $63541.67 put to work, 32 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Still far below min_positions (1 held vs target 8) with 98% cash idle - the biggest actionable problem per repeated lessons. Deploying into fresh non-cooldown names with concrete headline catalysts and momentum (GOOGL, NVDA, PLTR, AVGO, RTX, CRWD, IBM) to reach 8 positions in size ($1.5-2.5k each), while adding protective stops given several are high in day range. Avoided cooldown names (AMD, META, TSM, GLD, AAPL, OKLO) per rules; left CCJ's existing bracket largely intact.
+lesson: When below min_positions with high idle cash, buy actual market orders in size across several non-cooldown names immediately rather than only resting limits - waiting for perfect dips has repeatedly failed to close the position-count gap across many checks today.
+  (dropped NVDA: 96% up today's range — resting a limit at $223.73 instead of chasing)
+  (dropped PLTR: 95% up today's range — resting a limit at $180.00 instead of chasing)
+  (dropped AVGO: 92% up today's range — resting a limit at $357.10 instead of chasing)
+  (dropped RTX: 91% up today's range — resting a limit at $194.13 instead of chasing)
+  (dropped CRWD: 93% up today's range — resting a limit at $240.46 instead of chasing)
+- BUY $2413.79 GOOGL [filled] ['momentum', 'news'] — Widely-held sector has best track record avg_ret 11.01%, buying near market since limits below haven't filled | evidence: GOOGL +1.92% today, 84% of day range, headline 'Stock Market Today: Dow Up As Boeing, Nvidia Pop' plus Bessent AI comments
+- BUY $1448.28 IBM [filled] ['news', 'momentum'] — Low in day range gives better entry, diversify away from AI-only names | evidence: IBM at 17% of day range (low), -0.05% today but 'IBM Has Raised Its Dividend for 31 Years' dividend stability headline
+  (dropped trigger NVDA take_profit: not held)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% CCJ @ $89.80 until 2026-09-21 — keep protective stop tight below entry
+~ WORKING take_profit 50% GOOGL @ $362.00 until 2026-09-21 — lock partial gains if momentum extends
+~ WORKING buy_limit $1931.03 PLTR @ $180.00 until 2026-09-21 — wanted it, but not at the high — resting at $180.00. Strong intraday momentum with fresh coverage, not held, no cooldown
+~ WORKING buy_limit $1931.03 AVGO @ $357.10 until 2026-09-21 — wanted it, but not at the high — resting at $357.10. AI semis exposure with fresh bullish catalyst, no cooldown
+~ WORKING buy_limit $1931.03 RTX @ $194.13 until 2026-09-21 — wanted it, but not at the high — resting at $194.13. Defense sector best hit rate, fresh positive coverage, not held
+~ WORKING buy_limit $1931.03 CRWD @ $240.46 until 2026-09-21 — wanted it, but not at the high — resting at $240.46. Strong momentum plus congressional buy disclosure overlap, adding to fill min_positions
+~ WORKING take_profit 100% GOOGL @ $357.21 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $354.07 until 2026-09-26 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $345.62 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $230.30 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% IBM @ $227.46 until 2026-09-26 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $222.61 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32788.02 (+31.15% on $25000.00 in) · cash $26430.41 · realised +7792.48
+Done: 0 sell(s), 2 buy(s); 39 order(s) working; budget left $20641.31 this week
