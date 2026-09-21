@@ -13130,3 +13130,6 @@ Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $92.82] -> $2008.25 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 09:45 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $534.97] -> $2005.43 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-21 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

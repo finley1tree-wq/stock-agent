@@ -1,6 +1,3 @@
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBSMefnhk8n6ter6g5wW'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25168.11 (+0.67% on $25000.00 in) · cash $19176.06 · realised +176.06
 Decision: nothing at this check. 6 standing order(s) working.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $92.82] -> $2008.25 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 09:45 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $534.97] -> $2005.43 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-21 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
