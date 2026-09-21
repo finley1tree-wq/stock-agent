@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "85b34866",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 332.6044,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $334.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:22",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "d8e9c9b6",
    "ticker": "AAPL",
    "kind": "buy_limit",
@@ -5539,7 +5520,7 @@
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 194.1305,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-21 12:18",
    "created_ts": 1790007483,
    "why": "wanted it, but not at the high \u2014 resting at $194.13. Defense sector best hit rate, fresh positive coverage, not held",
@@ -5551,7 +5532,8 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 1931.03
+   "usd": 1931.03,
+   "closed": "2026-09-21 15:25"
   },
   {
    "id": "bd3b7c53",
@@ -7448,7 +7430,24 @@
    ],
    "good_until": "2026-09-21",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "457b8762",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 526.6834,
+   "status": "working",
+   "created": "2026-09-21 15:25",
+   "created_ts": 1790018726,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $525.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-21 15:23"
+ "updated": "2026-09-21 15:25"
 }

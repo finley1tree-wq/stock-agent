@@ -1,5 +1,3 @@
-  (dropped NVDA: 88% up today's range — resting a limit at $224.30 instead of chasing)
-  (dropped SPY: 93% up today's range — resting a limit at $769.67 instead of chasing)
 - BUY $3000.00 AMD [filled] ['momentum', 'news'] — Strong breakout momentum leader in AI semis, buying near current level given the size of the move is confirmed by real news flow | evidence: AMD +9.04% today, +23.71% 5d, headline 'AMD stock soars to new record as semiconductors bounce'
 - BUY $2000.00 TSM [filled] ['momentum', 'news'] — Semis exposure complementary to AMD/NVDA, momentum confirmed | evidence: TSM +1.77% today, headline 'AMD Set to Top $1 Trillion in Market Value as Chip Stocks Soar' lifting semis broadly
 - BUY $2500.00 PLTR [filled] ['momentum', 'news'] — Continued momentum with active news catalysts, moderate size given headline risk both ways | evidence: PLTR +2.34% today, +4.9% 5d, fresh Karp/Burry headline flow
@@ -398,3 +396,5 @@ lesson: With one check left and 90% cash idle, market buys with attached stops a
 ~ WORKING stop_loss 100% UNH @ $368.00 until 2026-09-21 — protective stop on new UNH buy
 portfolio: equity $32797.33 (+31.19% on $25000.00 in) · cash $21294.76 · realised +7794.76
 Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
+- BUY $1931.03 RTX [buy_limit @ $194.13] — wanted it, but not at the high — resting at $194.13. Defense sector best hit rate, fresh positive coverage, not held
+## 2026-09-21 15:25 ET — tick — 0 sell(s), 1 buy(s) from standing orders

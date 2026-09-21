@@ -13930,3 +13930,5 @@ lesson: With one check left and 90% cash idle, market buys with attached stops a
 ~ WORKING stop_loss 100% UNH @ $368.00 until 2026-09-21 — protective stop on new UNH buy
 portfolio: equity $32797.33 (+31.19% on $25000.00 in) · cash $21294.76 · realised +7794.76
 Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
+- BUY $1931.03 RTX [buy_limit @ $194.13] — wanted it, but not at the high — resting at $194.13. Defense sector best hit rate, fresh positive coverage, not held
+## 2026-09-21 15:25 ET — tick — 0 sell(s), 1 buy(s) from standing orders
