@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-21T15:28-04:00",
+ "asOf": "2026-09-21T15:29-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -146,8 +146,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.25,
-   "pct_away": 0.2,
+   "last": 194.23,
+   "pct_away": 0.21,
+   "good_until": "2026-09-26",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "457b8762",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 526.6834,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 525.28,
+   "pct_away": 0.27,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 377.32,
-   "pct_away": 0.23,
+   "last": 376.4,
+   "pct_away": 0.48,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "457b8762",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 526.6834,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 525.34,
-   "pct_away": 0.26,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.55,
-   "pct_away": 0.48,
+   "last": 93.53,
+   "pct_away": 0.5,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -214,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.55,
-   "pct_away": -0.93,
+   "last": 93.53,
+   "pct_away": -0.91,
    "good_until": "2026-09-26",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -231,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 525.34,
-   "pct_away": -1.97,
+   "last": 525.28,
+   "pct_away": -1.96,
    "good_until": "2026-09-21",
    "why": "protective stop on new NOC buy",
    "signals": [
@@ -247,8 +247,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.25,
-   "pct_away": -2.19,
+   "last": 194.23,
+   "pct_away": -2.18,
    "good_until": "2026-09-21",
    "why": "protective stop on new RTX buy",
    "signals": [
@@ -263,8 +263,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 377.32,
-   "pct_away": -2.47,
+   "last": 376.4,
+   "pct_away": -2.23,
    "good_until": "2026-09-21",
    "why": "protective stop on new UNH buy",
    "signals": [
@@ -272,66 +272,66 @@
    ]
   },
   {
-   "id": "cae062d1",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 90.8114,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 93.55,
-   "pct_away": -2.93,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "faac95a2",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 509.6089,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 525.34,
-   "pct_away": -2.99,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8505e0d6",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 188.3934,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 194.25,
-   "pct_away": -3.01,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c7695ff1",
+   "id": "9ef2154c",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.7773,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 377.32,
-   "pct_away": -3.06,
+   "last": 376.4,
+   "pct_away": -2.82,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c0d194f1",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 90.8114,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 93.53,
+   "pct_away": -2.91,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c74db195",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 525.28,
+   "pct_away": -2.98,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2a4be14c",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.3934,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 194.23,
+   "pct_away": -3.0,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
