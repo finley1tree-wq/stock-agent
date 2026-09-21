@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 10924.71,
+  "spent": 8916.58,
   "deployed": 121334.77,
   "by_ticker": {
     "NOC": 2510.62,
@@ -8,7 +8,6 @@
     "IBM": 6.06,
     "GLD": 1.0,
     "TSM": 5.39,
-    "CCJ": 2008.03,
     "AMD": 16.82,
     "PLTR": 7.08,
     "UNH": 2000.0
@@ -2113,13 +2112,34 @@
       ],
       "evidence": "average cost $354.84",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 21.363543,
+      "status": "filled",
+      "price": 94.0,
+      "proceeds": 2008.13,
+      "realized_pnl": 8.13,
+      "realized_pct": 0.41,
+      "date": "2026-09-21",
+      "time_et": "15:37",
+      "ts": 1790019300,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $93.62",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 10924.71,
+  "spent_today": 8916.58,
   "deployed_today": 121334.77,
   "orders_today": 58,
-  "sells_today": 52,
+  "sells_today": 53,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -2151,7 +2171,7 @@
     "PLTR": 1790016126,
     "MSFT": 1790016482,
     "OKLO": 1790017007,
-    "CCJ": 1790015119,
+    "CCJ": 1790019434,
     "LMT": 1790011290,
     "TTD": 1790004935,
     "NOC": 1790011615,
@@ -2166,8 +2186,8 @@
     "GLD": 1790005446,
     "AAPL": 1790005508
   },
-  "last_publish_ts": 1790019395,
-  "last_check_ts": 1790019395,
+  "last_publish_ts": 1790019479,
+  "last_check_ts": 1790019479,
   "last_bar_ts": 1790019300,
   "last_decision_ts": 1790018528,
   "next_check_minutes": 30,
@@ -2176,14 +2196,11 @@
     "43e120ba": 194.6434,
     "457b8762": 526.6834,
     "6d1f3d3f": 378.2062,
-    "ff38fb5c": 94.16,
-    "1f4606bc": 93.9982,
     "e8449d7a": 515.0,
     "fe9e4034": 190.0,
     "d80adef8": 368.0,
-    "96fd6344": 365.7773,
-    "7d02723c": 509.6089,
-    "6650871a": 188.3934,
-    "11cab7f1": 90.8114
+    "9752bdf8": 365.7773,
+    "4412b05a": 509.6089,
+    "80da0b3f": 188.3934
   }
 }

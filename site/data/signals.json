@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-21T15:36-04:00",
+ "asOf": "2026-09-21T15:37-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.38,
-   "pct_away": 0.14,
+   "last": 194.32,
+   "pct_away": 0.17,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 525.17,
-   "pct_away": 0.29,
+   "last": 525.01,
+   "pct_away": 0.32,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -180,44 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 376.81,
-   "pct_away": 0.37,
+   "last": 376.77,
+   "pct_away": 0.38,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ff38fb5c",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 94.16,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 94.52,
-   "pct_away": -0.38,
-   "good_until": "2026-09-26",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1f4606bc",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 93.9982,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 94.52,
-   "pct_away": -0.55,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 525.17,
-   "pct_away": -1.94,
+   "last": 525.01,
+   "pct_away": -1.91,
    "good_until": "2026-09-21",
    "why": "protective stop on new NOC buy",
    "signals": [
@@ -247,8 +213,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.38,
-   "pct_away": -2.25,
+   "last": 194.32,
+   "pct_away": -2.22,
    "good_until": "2026-09-21",
    "why": "protective stop on new RTX buy",
    "signals": [
@@ -263,8 +229,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 376.81,
-   "pct_away": -2.34,
+   "last": 376.77,
+   "pct_away": -2.33,
    "good_until": "2026-09-21",
    "why": "protective stop on new UNH buy",
    "signals": [
@@ -272,14 +238,31 @@
    ]
   },
   {
-   "id": "96fd6344",
+   "id": "9752bdf8",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.7773,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 376.81,
+   "last": 376.77,
+   "pct_away": -2.92,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4412b05a",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 525.01,
    "pct_away": -2.93,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -289,49 +272,15 @@
    ]
   },
   {
-   "id": "7d02723c",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 509.6089,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 525.17,
-   "pct_away": -2.96,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6650871a",
+   "id": "80da0b3f",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.3934,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.38,
-   "pct_away": -3.08,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "11cab7f1",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 90.8114,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 94.52,
-   "pct_away": -3.92,
+   "last": 194.32,
+   "pct_away": -3.05,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

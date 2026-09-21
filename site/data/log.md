@@ -1,8 +1,3 @@
-~ WORKING take_profit 100% TSM @ $443.52 until 2026-09-26 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $429.17 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $182.65 until 2026-09-26 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $176.38 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32788.35 (+31.15% on $25000.00 in) · cash $25289.85 · realised +7789.85
 Done: 0 sell(s), 3 buy(s); 46 order(s) working; budget left $17500.00 this week
 
 ## 2026-09-21 12:56 ET (Monday) — week 2026-W39 — budget left $17500.00 (today $76903.74 put to work, 38 buys, 34 sells) — SIM (pretend money) via sim
@@ -398,3 +393,8 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $94.00] -> $2008.13 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-09-21 15:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
