@@ -1,139 +1,6 @@
 {
  "orders": [
   {
-   "id": "ffc172f7",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 673.877,
-   "status": "cancelled",
-   "created": "2026-09-18 12:43",
-   "created_ts": 1789749803,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $671.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:44",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "dc7171e1",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 665.6308,
-   "status": "cancelled",
-   "created": "2026-09-18 12:43",
-   "created_ts": 1789749803,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $671.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:13",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "eda0b8ee",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 651.3744,
-   "status": "cancelled",
-   "created": "2026-09-18 12:43",
-   "created_ts": 1789749803,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $671.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:13",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c39384ad",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 705.096,
-   "status": "cancelled",
-   "created": "2026-09-18 12:44",
-   "created_ts": 1789749848,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $671.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:44",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "2761cbd0",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 673.877,
-   "status": "cancelled",
-   "created": "2026-09-18 12:44",
-   "created_ts": 1789749895,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $671.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:59",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5b91bfd4",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 272.04,
-   "status": "cancelled",
-   "created": "2026-09-18 12:45",
-   "created_ts": 1789749937,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $270.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4dfa321e",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 153.4826,
-   "status": "cancelled",
-   "created": "2026-09-18 12:49",
-   "created_ts": 1789750149,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $153.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:18",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "e656b5e0",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -7461,7 +7328,123 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "266ebe6b",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 484.0,
+   "status": "working",
+   "created": "2026-09-21 14:26",
+   "created_ts": 1790015208,
+   "why": "Protective stop on new MSFT buy",
+   "evidence": "ATR 2.0%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "658bf33c",
+   "ticker": "OKLO",
+   "kind": "stop_loss",
+   "price": 37.5,
+   "status": "working",
+   "created": "2026-09-21 14:26",
+   "created_ts": 1790015208,
+   "why": "Protective stop on new OKLO buy",
+   "evidence": "ATR 6.36%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "992bcff6",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 588.0,
+   "status": "working",
+   "created": "2026-09-21 14:26",
+   "created_ts": 1790015208,
+   "why": "Protective stop on new AMD buy",
+   "evidence": "ATR 4.18%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8e4b5694",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 499.3411,
+   "status": "working",
+   "created": "2026-09-21 14:26",
+   "created_ts": 1790015208,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $498.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "00369a88",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 483.2928,
+   "status": "working",
+   "created": "2026-09-21 14:26",
+   "created_ts": 1790015208,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $498.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
+  },
+  {
+   "id": "69f8c780",
+   "ticker": "OKLO",
+   "kind": "take_profit",
+   "price": 40.4435,
+   "status": "working",
+   "created": "2026-09-21 14:26",
+   "created_ts": 1790015208,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $40.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1ec534e1",
+   "ticker": "OKLO",
+   "kind": "buy_limit",
+   "price": 38.9552,
+   "status": "working",
+   "created": "2026-09-21 14:26",
+   "created_ts": 1790015208,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $40.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 14:25"
+ "updated": "2026-09-21 14:26"
 }

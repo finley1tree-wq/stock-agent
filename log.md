@@ -13759,3 +13759,35 @@ Done: 0 sell(s), 2 buy(s); 60 order(s) working; budget left $12989.06 this week
 - SELL 100% CCJ [time stop] -> $2497.20 (-0.11%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% UNH [time stop] -> $2500.86 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 14:25 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 14:26 ET (Monday) — week 2026-W39 — budget left $20991.81 (today $100403.74 put to work, 49 buys, 46 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Book is only 2 positions with 84% cash idle - severely below min_positions(8). Past-lesson checks confirm resting-limit-only stacking has failed to fill repeatedly; market buys with attached stops are what closes the gap. Deploying $15k across 6 fresh momentum/news-backed names (NVDA, AVGO, GOOGL, MSFT, OKLO, AMD) that are not in cooldown, each with concrete evidence, sized $2-2.5k as guidance suggests, with protective stops per risk_management signal which has 0.85 hit rate historically.
+lesson: Below min_positions with idle cash: fire market buys sized $2-2.5k across multiple non-cooldown evidence-backed names in one check with stops attached, rather than stacking more resting limits that keep expiring unfilled.
+  (dropped AVGO: sold 37 min ago, cooling off)
+  (dropped GOOGL: sold 34 min ago, cooling off)
+  (dropped CCJ: sold 2 min ago, cooling off)
+  (dropped NVDA: 94% up today's range — resting a limit at $224.92 instead of chasing)
+- BUY $2500.00 MSFT [filled] ['momentum', 'news', 'congress'] — Congressional buying pressure plus fresh AI infrastructure headline. | evidence: MSFT +0.88% 1d, Josh Gottheimer disclosed buys of $250k-$1M in MSFT, 'Microsoft and Anthropic dominate Nscale $103B IPO contract backlog'
+- BUY $2500.00 OKLO [filled] ['momentum', 'news'] — Nuclear momentum name with fresh bullish catalyst, room left in day range. | evidence: OKLO +5.63% 1d, 'This Energy Stock Has 130% Upside Potential' headline, 68% of day range not extreme
+- BUY $2500.00 AMD [filled] ['momentum', 'news'] — Strongest momentum name in book today, capped size given extended range. | evidence: AMD +8.85% 1d, 'AMD stock crosses $1 trillion market cap for first time' - major catalyst, but 80% of range leaves some room
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger AMD: working-order book is full (60))
+  (dropped trigger AMD: working-order book is full (60))
+~ WORKING stop_loss 100% MSFT @ $484.00 until 2026-09-21 — Protective stop on new MSFT buy
+~ WORKING stop_loss 100% OKLO @ $37.50 until 2026-09-21 — Protective stop on new OKLO buy
+~ WORKING stop_loss 100% AMD @ $588.00 until 2026-09-21 — Protective stop on new AMD buy
+~ WORKING take_profit 100% MSFT @ $499.34 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $483.29 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OKLO @ $40.44 until 2026-09-26 — close 100% at +0.7% over the average cost
+~ WORKING buy_limit $500.00 OKLO @ $38.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32776.47 (+31.11% on $25000.00 in) · cash $21281.65 · realised +7781.65
+Done: 0 sell(s), 3 buy(s); 60 order(s) working; budget left $13491.81 this week
