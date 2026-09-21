@@ -1,6 +1,3 @@
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [stop_loss @ $430.14] -> $3000.87 (+0.03%) — close it all at -0.6% under the average cost
-## 2026-09-18 15:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-18 15:13 ET (Friday) — week 2026-W38 — budget left $18748.32 (today $205735.66 put to work, 73 buys, 70 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +395,6 @@ lesson: When below min_positions with high idle cash, deploy into sectors with b
 ~ WORKING buy_limit $1000.00 HLI @ $130.87 until 2026-09-22 — strong month, weak day: resting 0.69% under $131.78 to catch the dip
 portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $11214.76 · realised +214.76
 Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $177.92] -> $1004.43 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-21 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
