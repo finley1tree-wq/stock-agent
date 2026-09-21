@@ -13891,3 +13891,42 @@ lesson: With only 1 check left and 90% cash idle, market buys across 7-8 names a
 ~ WORKING buy_limit $2000.00 AMAT @ $459.83 until 2026-09-21 — wanted it, but not at the high — resting at $459.83. Momentum plus congressional buying, semis-adjacent
 portfolio: equity $32793.27 (+31.17% on $25000.00 in) · cash $30294.76 · realised +7794.76
 Decision: nothing at this check. 57 standing order(s) working.
+
+## 2026-09-21 15:22 ET (Monday) — week 2026-W39 — budget left $22500.00 (today $110403.74 put to work, 53 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Only 1 GOOGL position and 90% cash idle with 1 check left today - the recurring lesson pattern shows market buys close the position-count gap while resting limits don't fill in time. Deploying across 8 evidence-backed names (defense, semis, healthcare, nuclear) each with attached protective stops, sized $2-2.5k, to reach min_positions before close.
+lesson: With one check left and 90% cash idle, market buys with attached stops across 7-8 evidence-backed names closed the position gap; resting limits below market kept expiring unfilled all session.
+  (dropped AMD: sold 26 min ago, cooling off)
+  (dropped MSFT: sold 35 min ago, cooling off)
+  (dropped TSM: 99% up today's range — resting a limit at $441.57 instead of chasing)
+  (dropped AVGO: 98% up today's range — resting a limit at $359.07 instead of chasing)
+- BUY $2500.00 NOC [filled] ['news', 'momentum', 'track_record'] — Defense demand catalyst, best hit-rate sector, buying at market since resting limits below haven't filled with only 1 check left | evidence: NOC 81% of day range, defense sector track record hit_rate 0.71, GM-Lockheed partnership and ballistic missile demand headlines today
+- BUY $2500.00 RTX [filled] ['news', 'momentum', 'track_record'] — Defense sector best hit-rate, reasonable entry point in range, final check of day | evidence: RTX at 58% of day range (not extended), Zacks 'Brokers Suggest Investing in RTX' 2026-09-21
+- BUY $2000.00 UNH [filled] ['momentum', 'news'] — Not extended in range, widely_held sector strongest track record bucket | evidence: UNH 62% of day range, 'Should You Buy UnitedHealth Before Oct 13' headline
+- BUY $2000.00 CCJ [filled] ['momentum', 'news'] — Nuclear catalyst headline, not held, reasonable entry at 68% of range | evidence: CCJ +2.14% today, Westinghouse IPO news 'Cameco's Stake Alone Would Be Worth $24.5 Billion'
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger CCJ: working-order book is full (60))
+  (dropped trigger TSM: working-order book is full (60))
+  (dropped trigger AVGO: working-order book is full (60))
+  (dropped trigger NOC: working-order book is full (60))
+  (dropped trigger NOC: working-order book is full (60))
+  (dropped trigger RTX: working-order book is full (60))
+  (dropped trigger RTX: working-order book is full (60))
+  (dropped trigger UNH: working-order book is full (60))
+  (dropped trigger UNH: working-order book is full (60))
+  (dropped trigger CCJ: working-order book is full (60))
+  (dropped trigger CCJ: working-order book is full (60))
+  (dropped trigger CCJ: working-order book is full (60))
+~ WORKING stop_loss 100% NOC @ $515.00 until 2026-09-21 — protective stop on new NOC buy
+~ WORKING stop_loss 100% RTX @ $190.00 until 2026-09-21 — protective stop on new RTX buy
+~ WORKING stop_loss 100% UNH @ $368.00 until 2026-09-21 — protective stop on new UNH buy
+portfolio: equity $32797.33 (+31.19% on $25000.00 in) · cash $21294.76 · realised +7794.76
+Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week

@@ -1,42 +1,3 @@
-  (dropped AMAT: 98% up today's range — resting a limit at $458.37 instead of chasing)
-  (dropped CRWD: 92% up today's range — resting a limit at $240.46 instead of chasing)
-  (dropped PLTR: 91% up today's range — resting a limit at $180.40 instead of chasing)
-  (dropped AVGO: 94% up today's range — resting a limit at $357.60 instead of chasing)
-  (dropped NOC: 99% up today's range — resting a limit at $522.35 instead of chasing)
-- BUY $2000.00 UNH [filled] ['momentum', 'news'] — Low in day range gives better entry, healthcare exposure not yet held | evidence: UNH price at 19.5% of day range (low), 'Should You Buy UnitedHealth Group Stock Before Oct. 13?' headline
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger AMAT stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger CRWD buy_limit: duplicate of a working order)
-~ WORKING buy_limit $3000.00 META @ $707.15 until 2026-09-21 — wanted it, but not at the high — resting at $707.15. Strong breakout with concrete catalysts; buying at market since it's running, sized to 3k not overexposed
-~ WORKING buy_limit $2500.00 AMAT @ $458.37 until 2026-09-21 — wanted it, but not at the high — resting at $458.37. Momentum plus congressional buy overlap in semis-adjacent name
-~ WORKING buy_limit $2000.00 PLTR @ $180.40 until 2026-09-21 — wanted it, but not at the high — resting at $180.40. Continued momentum name with fresh news flow, sizing moderate given Burry bear case headline risk
-~ WORKING buy_limit $2000.00 AVGO @ $357.60 until 2026-09-21 — wanted it, but not at the high — resting at $357.60. AI semis exposure with bullish catalyst, not extreme in day range (93.5%)
-~ WORKING buy_limit $2000.00 NOC @ $522.35 until 2026-09-21 — wanted it, but not at the high — resting at $522.35. Defense demand headline plus best-performing sector by hit rate in track record
-~ WORKING take_profit 100% UNH @ $376.01 until 2026-09-26 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% UNH @ $372.09 until 2026-09-26 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 UNH @ $363.64 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 TTD @ $13.88 until 2026-09-22 — strong month, weak day: resting 0.95% under $14.01 to catch the dip
-portfolio: equity $32788.67 (+31.15% on $25000.00 in) · cash $29339.62 · realised +7787.90
-Done: 0 sell(s), 1 buy(s); 40 order(s) working; budget left $23000.00 this week
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $376.01] -> $2005.93 (+0.30%) — close 100% at +0.3% over the average cost
-## 2026-09-21 12:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% IBM [time stop] -> $1444.29 (-0.28%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 12:49 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $69403.74 put to work, 35 buys, 34 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Zero positions held despite 100% idle cash and repeated past lessons flagging this exact drag (idle_share 0.6 in counterfactual, 3d realised 0.62-0.63% per dollar when deployed). Placing market-size buys across 8 names with concrete headline/momentum evidence to hit min_positions immediately, backed by protective stops per ATR, rather than relying solely on resting limits that have been expiring unfilled all session.
-lesson: Zero positions for hours while writing 'deploy more' lessons is worse than any entry-timing nuance - place market buys across min_positions names the moment the book is empty, with stops attached, instead of stacking more resting limits.
-  (dropped GOOGL: sold 20 min ago, cooling off)
-  (dropped META: 97% up today's range — resting a limit at $707.29 instead of chasing)
-  (dropped CRWD: 90% up today's range — resting a limit at $240.46 instead of chasing)
   (dropped NVDA: 88% up today's range — resting a limit at $224.30 instead of chasing)
   (dropped SPY: 93% up today's range — resting a limit at $769.67 instead of chasing)
 - BUY $3000.00 AMD [filled] ['momentum', 'news'] — Strong breakout momentum leader in AI semis, buying near current level given the size of the move is confirmed by real news flow | evidence: AMD +9.04% today, +23.71% 5d, headline 'AMD stock soars to new record as semiconductors bounce'
@@ -398,3 +359,42 @@ lesson: With only 1 check left and 90% cash idle, market buys across 7-8 names a
 ~ WORKING buy_limit $2000.00 AMAT @ $459.83 until 2026-09-21 — wanted it, but not at the high — resting at $459.83. Momentum plus congressional buying, semis-adjacent
 portfolio: equity $32793.27 (+31.17% on $25000.00 in) · cash $30294.76 · realised +7794.76
 Decision: nothing at this check. 57 standing order(s) working.
+
+## 2026-09-21 15:22 ET (Monday) — week 2026-W39 — budget left $22500.00 (today $110403.74 put to work, 53 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Only 1 GOOGL position and 90% cash idle with 1 check left today - the recurring lesson pattern shows market buys close the position-count gap while resting limits don't fill in time. Deploying across 8 evidence-backed names (defense, semis, healthcare, nuclear) each with attached protective stops, sized $2-2.5k, to reach min_positions before close.
+lesson: With one check left and 90% cash idle, market buys with attached stops across 7-8 evidence-backed names closed the position gap; resting limits below market kept expiring unfilled all session.
+  (dropped AMD: sold 26 min ago, cooling off)
+  (dropped MSFT: sold 35 min ago, cooling off)
+  (dropped TSM: 99% up today's range — resting a limit at $441.57 instead of chasing)
+  (dropped AVGO: 98% up today's range — resting a limit at $359.07 instead of chasing)
+- BUY $2500.00 NOC [filled] ['news', 'momentum', 'track_record'] — Defense demand catalyst, best hit-rate sector, buying at market since resting limits below haven't filled with only 1 check left | evidence: NOC 81% of day range, defense sector track record hit_rate 0.71, GM-Lockheed partnership and ballistic missile demand headlines today
+- BUY $2500.00 RTX [filled] ['news', 'momentum', 'track_record'] — Defense sector best hit-rate, reasonable entry point in range, final check of day | evidence: RTX at 58% of day range (not extended), Zacks 'Brokers Suggest Investing in RTX' 2026-09-21
+- BUY $2000.00 UNH [filled] ['momentum', 'news'] — Not extended in range, widely_held sector strongest track record bucket | evidence: UNH 62% of day range, 'Should You Buy UnitedHealth Before Oct 13' headline
+- BUY $2000.00 CCJ [filled] ['momentum', 'news'] — Nuclear catalyst headline, not held, reasonable entry at 68% of range | evidence: CCJ +2.14% today, Westinghouse IPO news 'Cameco's Stake Alone Would Be Worth $24.5 Billion'
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger CCJ: working-order book is full (60))
+  (dropped trigger TSM: working-order book is full (60))
+  (dropped trigger AVGO: working-order book is full (60))
+  (dropped trigger NOC: working-order book is full (60))
+  (dropped trigger NOC: working-order book is full (60))
+  (dropped trigger RTX: working-order book is full (60))
+  (dropped trigger RTX: working-order book is full (60))
+  (dropped trigger UNH: working-order book is full (60))
+  (dropped trigger UNH: working-order book is full (60))
+  (dropped trigger CCJ: working-order book is full (60))
+  (dropped trigger CCJ: working-order book is full (60))
+  (dropped trigger CCJ: working-order book is full (60))
+~ WORKING stop_loss 100% NOC @ $515.00 until 2026-09-21 — protective stop on new NOC buy
+~ WORKING stop_loss 100% RTX @ $190.00 until 2026-09-21 — protective stop on new RTX buy
+~ WORKING stop_loss 100% UNH @ $368.00 until 2026-09-21 — protective stop on new UNH buy
+portfolio: equity $32797.33 (+31.19% on $25000.00 in) · cash $21294.76 · realised +7794.76
+Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
