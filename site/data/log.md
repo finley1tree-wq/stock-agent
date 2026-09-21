@@ -1,6 +1,3 @@
-
-## 2026-09-18 15:44 ET (Friday) — week 2026-W38 — budget left $21764.08 (today $211735.66 put to work, 75 buys, 73 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $18611.04 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $711.99] -> $2509.67 (+0.39%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $356.19] -> $2005.05 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-09-21 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -13332,3 +13332,6 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $18611.04 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $711.99] -> $2509.67 (+0.39%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $356.19] -> $2005.05 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-09-21 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders

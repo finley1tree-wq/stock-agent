@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-21T11:18-04:00",
+ "asOf": "2026-09-21T11:25-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "7a710854",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 356.1889,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 355.65,
-   "pct_away": 0.15,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "e367ed2d",
    "ticker": "GLD",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 398.9,
-   "pct_away": 0.2,
+   "last": 399.02,
+   "pct_away": 0.17,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -180,8 +163,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 13.95,
-   "pct_away": -0.45,
+   "last": 13.93,
+   "pct_away": -0.31,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.95% under $14.02 to catch the dip",
    "signals": [
@@ -197,31 +180,14 @@
    "usd": 2375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 355.65,
-   "pct_away": -0.53,
+   "last": 355.89,
+   "pct_away": -0.6,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "17531d51",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 150.1202,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 151.31,
-   "pct_away": -0.79,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.52% under $150.91 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -232,14 +198,48 @@
    "usd": 2083.33,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 355.65,
-   "pct_away": -0.89,
+   "last": 355.89,
+   "pct_away": -0.95,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $352.50. Widely-held name with fresh positive coverage and steady momentum, filling below chase limit isn't possible so taking a modest market entry to build position count",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "799399fd",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 332.6577,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 336.94,
+   "pct_away": -1.27,
+   "good_until": "2026-09-22",
+   "why": "strong month, weak day: resting 0.46% under $334.18 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "17531d51",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 150.1202,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 152.05,
+   "pct_away": -1.27,
+   "good_until": "2026-09-22",
+   "why": "strong month, weak day: resting 0.52% under $150.91 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -250,8 +250,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 355.65,
-   "pct_away": -1.27,
+   "last": 355.89,
+   "pct_away": -1.34,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
@@ -268,10 +268,27 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 523.94,
-   "pct_away": -1.32,
+   "last": 524.35,
+   "pct_away": -1.4,
    "good_until": "2026-09-21",
    "why": "resting limit below market to catch a dip in a defense name with strong track record",
+   "signals": [
+    "momentum",
+    "news"
+   ]
+  },
+  {
+   "id": "969528a9",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 353.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 358.06,
+   "pct_away": -1.41,
+   "good_until": "2026-09-21",
+   "why": "resting limit to catch dip once cooldown clears, semis AI exposure",
    "signals": [
     "momentum",
     "news"
@@ -285,27 +302,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 56.86,
-   "pct_away": -1.46,
+   "last": 56.91,
+   "pct_away": -1.54,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "799399fd",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 332.6577,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 337.63,
-   "pct_away": -1.47,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.46% under $334.18 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -319,30 +319,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 132.86,
-   "pct_away": -1.5,
+   "last": 132.95,
+   "pct_away": -1.56,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.69% under $131.78 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "969528a9",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 353.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 358.89,
-   "pct_away": -1.64,
-   "good_until": "2026-09-21",
-   "why": "resting limit to catch dip once cooldown clears, semis AI exposure",
-   "signals": [
-    "momentum",
-    "news"
    ]
   },
   {
@@ -353,8 +336,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 712.84,
-   "pct_away": -1.83,
+   "last": 711.99,
+   "pct_away": -1.71,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength",
    "signals": [
@@ -371,26 +354,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 398.9,
-   "pct_away": -2.23,
+   "last": 399.02,
+   "pct_away": -2.26,
    "good_until": "2026-09-21",
    "why": "protect new GLD position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "22dc2ba1",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 347.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 355.65,
-   "pct_away": -2.43,
-   "good_until": "2026-09-21",
-   "why": "protect new GOOGL position",
    "signals": [
     "risk_management"
    ]
@@ -403,8 +370,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.92,
-   "pct_away": -2.75,
+   "last": 246.86,
+   "pct_away": -2.73,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst",
    "signals": [
@@ -422,8 +389,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.92,
-   "pct_away": -2.89,
+   "last": 246.86,
+   "pct_away": -2.86,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $239.79. momentum plus congressional buying overlap, standing limit at 239.69 may not fill so adding market entry for position count",
    "signals": [
@@ -440,13 +407,31 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.92,
-   "pct_away": -2.93,
+   "last": 246.86,
+   "pct_away": -2.9,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $239.69. Strong momentum with congressional buying overlap, though at 98% of day range so sizing modestly rather than chasing full size",
    "signals": [
     "momentum",
     "congress",
+    "patience"
+   ]
+  },
+  {
+   "id": "31028f0b",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 690.82,
+   "usd": 4200.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 711.99,
+   "pct_away": -2.97,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
+   "signals": [
+    "news",
+    "momentum",
     "patience"
    ]
   },
@@ -458,43 +443,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 398.9,
-   "pct_away": -3.01,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "31028f0b",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 690.82,
-   "usd": 4200.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 712.84,
-   "pct_away": -3.09,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "9e6e7c4c",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 344.6313,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 355.65,
-   "pct_away": -3.1,
+   "last": 399.02,
+   "pct_away": -3.04,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -510,8 +460,8 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.92,
-   "pct_away": -5.09,
+   "last": 246.86,
+   "pct_away": -5.07,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
