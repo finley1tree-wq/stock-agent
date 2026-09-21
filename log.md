@@ -13610,3 +13610,5 @@ lesson: Stop only resting limits when below min_positions - place real market-si
 ~ WORKING buy_limit $500.00 MSFT @ $481.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32786.41 (+31.15% on $25000.00 in) · cash $22289.85 · realised +7789.85
 Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
+- BUY $2000.00 LMT [buy_limit @ $533.85] — wanted it, but not at the high — resting at $533.85. Defense sector strength with concrete demand headline, not held
+## 2026-09-21 13:08 ET — tick — 0 sell(s), 1 buy(s) from standing orders

@@ -1,5 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
   (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
 brain: Only 2 positions held vs min_positions=8, cash_idle 88%. Deploying into strong-momentum names with concrete fresh catalysts (AMD chip price hike, META Trump/Xi AI event, CRWD congress+momentum, TSM chip beneficiary) that are not in cooldown. This brings position count to 6, closer to full_deployment's max_names=6 concentration guidance, with stops protecting each entry.
 lesson: Cooldowns from same-day flips block many high-momentum names; fresh headline-backed names outside cooldown (AMD, META, CRWD, TSM) should be prioritized to hit min_positions quickly rather than waiting.
@@ -398,3 +396,5 @@ lesson: Stop only resting limits when below min_positions - place real market-si
 ~ WORKING buy_limit $500.00 MSFT @ $481.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32786.41 (+31.15% on $25000.00 in) · cash $22289.85 · realised +7789.85
 Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
+- BUY $2000.00 LMT [buy_limit @ $533.85] — wanted it, but not at the high — resting at $533.85. Defense sector strength with concrete demand headline, not held
+## 2026-09-21 13:08 ET — tick — 0 sell(s), 1 buy(s) from standing orders
