@@ -1,11 +1,16 @@
 {
   "week": "2026-W39",
-  "spent": 2955.25,
-  "deployed": 15000.0,
+  "spent": 13955.25,
+  "deployed": 26000.0,
   "by_ticker": {
     "TTD": 1000.0,
     "PLTR": 1000.0,
-    "MSFT": 1000.0
+    "MSFT": 1000.0,
+    "OKLO": 3000.0,
+    "NOC": 2000.0,
+    "LMT": 2000.0,
+    "RTX": 2000.0,
+    "CCJ": 2000.0
   },
   "deployed_by_ticker": {
     "AMD": 4200.0,
@@ -14,7 +19,12 @@
     "CHRW": 1000.0,
     "TTD": 1000.0,
     "PLTR": 1000.0,
-    "MSFT": 1000.0
+    "MSFT": 1000.0,
+    "OKLO": 3000.0,
+    "NOC": 2000.0,
+    "LMT": 2000.0,
+    "RTX": 2000.0,
+    "CCJ": 2000.0
   },
   "orders": [
     {
@@ -227,12 +237,99 @@
       ],
       "evidence": "+2.7% over the month, sitting at 28% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "OKLO",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 75.261534,
+      "price": 39.86,
+      "date": "2026-09-21",
+      "time_et": "09:43",
+      "ts": 1789998000,
+      "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
+      "signals": [
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "OKLO +6.25% today, +11.5% 5d, 91.2% of day range",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "NOC",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.824757,
+      "price": 522.91,
+      "date": "2026-09-21",
+      "time_et": "09:43",
+      "ts": 1789998218,
+      "why": "Defense sector has best avg_ret_pct (0.04) and 0.57 hit rate among sectors; fresh Pentagon contract headlines support entry",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "U.S. approves $2.7B air defense sale to Ukraine (2026-09-19); defense sector best hit_rate 0.57 in track_record"
+    },
+    {
+      "symbol": "LMT",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.748665,
+      "price": 533.52,
+      "date": "2026-09-21",
+      "time_et": "09:43",
+      "ts": 1789998218,
+      "why": "Defense sector strength, fresh contract news, complements NOC/RTX for diversified defense exposure",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "Lockheed building 5 new stealth drones per Motley Fool 2026-09-21; Boeing/Lockheed cashing in on Pentagon contract calendar"
+    },
+    {
+      "symbol": "RTX",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.309408,
+      "price": 194.0,
+      "date": "2026-09-21",
+      "time_et": "09:43",
+      "ts": 1789998218,
+      "why": "Third defense name to build out sector position with concrete news catalyst, defense sector track record positive",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "RTX Beats Lockheed Martin on Risk headline 2026-09-19, defense dividend comparison ongoing coverage"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.636367,
+      "price": 92.44,
+      "date": "2026-09-21",
+      "time_et": "09:43",
+      "ts": 1789998218,
+      "why": "Nuclear sector had best 2y/5y backtest returns (269-282%); concrete catalyst news on CCJ's Westinghouse stake value",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "Westinghouse could IPO at $50B valuation, Cameco stake worth $24.5B per Motley Fool 2026-09-21"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 2955.25,
-  "deployed_today": 15000.0,
-  "orders_today": 7,
+  "spent_today": 13955.25,
+  "deployed_today": 26000.0,
+  "orders_today": 12,
   "sells_today": 4,
   "sold_today": [
     "AMAT",
@@ -246,26 +343,42 @@
     "NVDA": 1789997799,
     "CHRW": 1789998001
   },
-  "last_publish_ts": 1789998134,
-  "last_check_ts": 1789998134,
+  "last_publish_ts": 1789998218,
+  "last_check_ts": 1789998218,
   "last_bar_ts": 1789998000,
-  "last_decision_ts": 1789997557,
-  "next_check_minutes": 10,
+  "last_decision_ts": 1789998218,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "1562ab02": 177.9212,
+    "24387893": 492.512,
     "e9380427": 493.1227,
+    "1562ab02": 177.9212,
+    "6b37fdd9": 177.416,
     "230d3e80": 56.0309,
-    "a67fcde4": 489.3634,
-    "bc229357": 39.861,
-    "119f1c60": 14.0005,
+    "2e9f41be": 194.4152,
+    "61361e6e": 524.1911,
+    "bd316064": 534.9712,
+    "d232172c": 92.8181,
+    "799399fd": 332.6577,
+    "6f013a49": 130.8718,
+    "4e47ab16": 40.1426,
     "846c83a9": 351.1349,
     "80cffe3e": 13.7536,
+    "119f1c60": 14.0005,
+    "5deaaa1b": 517.5,
+    "be48c6d9": 528.0,
+    "42b50887": 191.9,
     "d7a4220a": 435.4608,
+    "ccc5612d": 90.9,
+    "0d3b94e8": 39.1533,
     "31028f0b": 690.82,
-    "72224f94": 175.1861,
-    "a5c4e753": 234.3425,
     "1a7409e6": 13.5121,
+    "0a31753d": 38.6642,
+    "37b85f00": 507.2227,
+    "b5672237": 517.5144,
+    "e30e5bcd": 188.18,
+    "00e97bdd": 89.6668,
+    "a5c4e753": 234.3425,
     "b4b2af25": 477.2885,
     "796c4a48": 171.8258
   }

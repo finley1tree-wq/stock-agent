@@ -13087,3 +13087,36 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
 ## 2026-09-21 09:41 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $1000.00 MSFT [buy_limit @ $492.05] — strong month, weak day: resting 0.40% under $494.04 to catch the dip
 ## 2026-09-21 09:42 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $3000.00 OKLO [buy_limit @ $39.86] — wanted it, but not at the high — resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector
+## 2026-09-21 09:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-21 09:43 ET (Monday) — week 2026-W39 — budget left $19044.75 (today $18000.00 put to work, 8 buys, 4 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+  (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
+brain: Only 4 positions held vs min_positions=8, and cash_idle_pct is 76% - clear signal to deploy more. Adding defense (NOC, LMT, RTX - best hit_rate sector at 0.57) and nuclear (CCJ - best backtest sector) with concrete news catalysts to reach 8 positions. Skipped AMD due to active cooldown; existing buy_limit triggers on GOOGL, META, CRWD, TSM, SKWD remain working to catch dips on those names without chasing extended prices.
+lesson: When below min_positions with high idle cash, deploy into sectors with best track_record hit_rate (defense 0.57, nuclear backtest-favored) backed by concrete fresh headlines rather than waiting for cooldowns to clear.
+  (dropped AMD: sold 7 min ago, cooling off)
+- BUY $2000.00 NOC [filled] ['news', 'momentum'] — Defense sector has best avg_ret_pct (0.04) and 0.57 hit rate among sectors; fresh Pentagon contract headlines support entry | evidence: U.S. approves $2.7B air defense sale to Ukraine (2026-09-19); defense sector best hit_rate 0.57 in track_record
+- BUY $2000.00 LMT [filled] ['news', 'momentum'] — Defense sector strength, fresh contract news, complements NOC/RTX for diversified defense exposure | evidence: Lockheed building 5 new stealth drones per Motley Fool 2026-09-21; Boeing/Lockheed cashing in on Pentagon contract calendar
+- BUY $2000.00 RTX [filled] ['news', 'momentum'] — Third defense name to build out sector position with concrete news catalyst, defense sector track record positive | evidence: RTX Beats Lockheed Martin on Risk headline 2026-09-19, defense dividend comparison ongoing coverage
+- BUY $2000.00 CCJ [filled] ['news', 'momentum'] — Nuclear sector had best 2y/5y backtest returns (269-282%); concrete catalyst news on CCJ's Westinghouse stake value | evidence: Westinghouse could IPO at $50B valuation, Cameco stake worth $24.5B per Motley Fool 2026-09-21
+~ WORKING stop_loss 100% NOC @ $517.50 until 2026-09-26 — Protect against downside on new defense entry
+~ WORKING stop_loss 100% LMT @ $528.00 until 2026-09-26 — Protect new position from reversal
+~ WORKING stop_loss 100% RTX @ $191.90 until 2026-09-26 — Protect new position from reversal
+~ WORKING stop_loss 100% CCJ @ $90.90 until 2026-09-26 — Protect new position given higher volatility
+~ WORKING take_profit 100% NOC @ $524.19 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $507.22 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $534.97 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $517.51 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $194.42 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $188.18 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $92.82 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $89.67 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $332.66 until 2026-09-22 — strong month, weak day: resting 0.46% under $334.18 to catch the dip
+~ WORKING buy_limit $1000.00 HLI @ $130.87 until 2026-09-22 — strong month, weak day: resting 0.69% under $131.78 to catch the dip
+portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $11214.76 · realised +214.76
+Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
