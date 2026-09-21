@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 GLD @ $386.87 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25276.15 (+1.10% on $25000.00 in) · cash $18781.06 · realised +281.06
-Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $18611.04 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $711.99] -> $2509.67 (+0.39%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ lesson: With below min_positions and idle cash, immediately place sized market b
 ~ WORKING buy_limit $500.00 IBM @ $221.92 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32774.36 (+31.10% on $25000.00 in) · cash $22777.46 · realised +7777.46
 Done: 0 sell(s), 4 buy(s); 58 order(s) working; budget left $14987.61 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $228.94] -> $2001.45 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-09-21 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
