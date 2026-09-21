@@ -13404,3 +13404,6 @@ lesson: Stop repeating "deploy more" as a lesson without acting on it in the sam
 ~ WORKING buy_limit $500.00 OKLO @ $38.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25299.00 (+1.20% on $25000.00 in) · cash $17802.81 · realised +302.81
 Done: 0 sell(s), 3 buy(s); 29 order(s) working; budget left $17632.79 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $2437.26] -> $9993.00 (+299.72%) — Protective stop on new AMD position
+## 2026-09-21 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

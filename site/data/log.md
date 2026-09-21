@@ -1,6 +1,3 @@
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBVdjVJ6fBarzjmX6ZaL'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25170.00 (+0.68% on $25000.00 in) · cash $25170.00 · realised +170.00
@@ -398,3 +395,6 @@ lesson: Stop repeating "deploy more" as a lesson without acting on it in the sam
 ~ WORKING buy_limit $500.00 OKLO @ $38.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25299.00 (+1.20% on $25000.00 in) · cash $17802.81 · realised +302.81
 Done: 0 sell(s), 3 buy(s); 29 order(s) working; budget left $17632.79 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $2437.26] -> $9993.00 (+299.72%) — Protective stop on new AMD position
+## 2026-09-21 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

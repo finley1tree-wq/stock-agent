@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 7367.21,
+  "spent": 0.0,
   "deployed": 61041.67,
   "by_ticker": {
     "NOC": 10.51,
@@ -10,7 +10,6 @@
     "MSFT": 0.77,
     "GLD": 1.0,
     "TSM": 3000.0,
-    "AMD": 2500.0,
     "OKLO": 2000.0
   },
   "deployed_by_ticker": {
@@ -1136,13 +1135,33 @@
         "news"
       ],
       "evidence": "TSM +1.45% today, +5.5% 5d, headline 'TSMC Gains as 88.7 Hectares Target Packaging Friction'; already hold small TSM position at 7.9% weight"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 4.100095,
+      "status": "filled",
+      "price": 2437.26,
+      "proceeds": 9993.0,
+      "realized_pnl": 7493.0,
+      "realized_pct": 299.72,
+      "date": "2026-09-21",
+      "time_et": "11:50",
+      "ts": 1790005800,
+      "why": "Protective stop on new AMD position",
+      "signals": [
+        "risk_management",
+        "standing_order"
+      ],
+      "evidence": "ATR 4.18%, protect new position",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 7367.21,
+  "spent_today": 0.0,
   "deployed_today": 61041.67,
   "orders_today": 31,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -1168,7 +1187,7 @@
   ],
   "sold_ts": {
     "AMAT": 1790002923,
-    "AMD": 1790001986,
+    "AMD": 1790005832,
     "NVDA": 1790002648,
     "CHRW": 1789998001,
     "PLTR": 1789998320,
@@ -1189,41 +1208,38 @@
     "GLD": 1790005446,
     "AAPL": 1790005508
   },
-  "last_publish_ts": 1790005555,
-  "last_check_ts": 1790005740,
-  "last_bar_ts": 1790005500,
+  "last_publish_ts": 1790005831,
+  "last_check_ts": 1790005831,
+  "last_bar_ts": 1790005800,
   "last_decision_ts": 1790005555,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "28e7eac4": 768.3125,
     "9aedd59b": 193.8335,
-    "7f8eb87b": 442.5584,
-    "3c24ea11": 612.5692,
-    "8a7ca240": 533.8518,
-    "5b525ad8": 223.727,
     "c81f2b20": 40.4435,
+    "8a7ca240": 533.8518,
+    "7f8eb87b": 442.5584,
+    "5b525ad8": 223.727,
     "100b684c": 353.764,
     "639b261c": 352.499,
     "7a9e7821": 179.8895,
     "6f013a49": 130.8718,
     "9f3f4a8e": 517.0,
-    "17531d51": 150.1202,
-    "846c83a9": 351.1349,
     "969528a9": 353.0,
+    "846c83a9": 351.1349,
+    "17531d51": 150.1202,
     "230d3e80": 56.0309,
     "9e1cf8ec": 430.0,
     "fe34652d": 699.7795,
+    "fb33533e": 428.2453,
     "4beaa325": 240.156,
     "d8c3175b": 240.1175,
     "33c9d89c": 239.7875,
-    "fb33533e": 428.2453,
     "151ee42b": 239.6939,
     "b2c25554": 38.9552,
-    "c791a882": 591.4478,
     "31028f0b": 690.82,
     "a5c4e753": 234.3425,
-    "ea626aa4": 37.63,
-    "f1ecaff9": 2438.48
+    "ea626aa4": 37.63
   }
 }
