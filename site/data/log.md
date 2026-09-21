@@ -1,42 +1,3 @@
-~ WORKING buy_limit $500.00 CCJ @ $89.67 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AAPL @ $332.66 until 2026-09-22 — strong month, weak day: resting 0.46% under $334.18 to catch the dip
-~ WORKING buy_limit $1000.00 HLI @ $130.87 until 2026-09-22 — strong month, weak day: resting 0.69% under $131.78 to catch the dip
-portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $11214.76 · realised +214.76
-Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
-  (cancelled 2 standing order(s) on PLTR: position closed)
-- SELL 100% PLTR [take_profit @ $177.92] -> $1004.43 (+0.44%) — close 100% at +0.4% over the average cost
-## 2026-09-21 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $493.12] -> $1002.17 (+0.22%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on OKLO: position closed)
-- SELL 100% OKLO [take_profit @ $40.14] -> $3021.19 (+0.71%) — close 100% at +0.7% over the average cost
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $92.82] -> $2008.25 (+0.41%) — close 100% at +0.4% over the average cost
-## 2026-09-21 09:45 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on LMT: position closed)
-- SELL 100% LMT [take_profit @ $534.97] -> $2005.43 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-09-21 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 09:59 ET (Monday) — week 2026-W39 — budget left $20086.22 (today $26000.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-  (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
-brain: Only 3 positions held vs min_positions of 8, with 80% cash idle - this is a clear violation of the desk's directive. TTD/NOC/RTX are already protected with brackets. Adding NVDA (fresh Jensen Huang catalyst, low in day range), CRWD (momentum + congress overlap, though I size it down since near day high), and AMAT (congress pressure, low in day range, strong today) moves toward min_positions while respecting cooldowns on other sold names. Will check back quickly to add more names as cooldowns clear (HLI, GOOGL, TSM, SKWD, AAPL, META limits already resting).
-lesson: When below min_positions and most cooldowns are active from same-day flips, pick fresh names not on cooldown (NVDA, CRWD, AMAT) with concrete evidence rather than waiting idle for cooldowns to clear.
-  (dropped NVDA: sold 23 min ago, cooling off)
-  (dropped AMAT: sold 25 min ago, cooling off)
-  (dropped CRWD: 98% up today's range — resting a limit at $239.69 instead of chasing)
-  (re-pinned 1 order(s) to the new average cost)
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger NVDA take_profit: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger AMAT stop_loss: not held)
-~ WORKING buy_limit $2000.00 CRWD @ $239.69 until 2026-09-21 — wanted it, but not at the high — resting at $239.69. Strong momentum with congressional buying overlap, though at 98% of day range so sizing modestly rather than chasing full size
-~ WORKING stop_loss 100% TTD @ $13.95 until 2026-09-26 — close it all at -1.3% under the average cost
-portfolio: equity $25245.14 (+0.98% on $25000.00 in) · cash $20256.23 · realised +256.23
 Decision: nothing at this check. 17 standing order(s) working.
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $14.00] -> $1005.12 (+0.51%) — close 100% at +0.5% over the average cost
@@ -398,3 +359,42 @@ Done: 0 sell(s), 1 buy(s); 40 order(s) working; budget left $23000.00 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $376.01] -> $2005.93 (+0.30%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 12:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% IBM [time stop] -> $1444.29 (-0.28%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 12:49 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $69403.74 put to work, 35 buys, 34 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Zero positions held despite 100% idle cash and repeated past lessons flagging this exact drag (idle_share 0.6 in counterfactual, 3d realised 0.62-0.63% per dollar when deployed). Placing market-size buys across 8 names with concrete headline/momentum evidence to hit min_positions immediately, backed by protective stops per ATR, rather than relying solely on resting limits that have been expiring unfilled all session.
+lesson: Zero positions for hours while writing 'deploy more' lessons is worse than any entry-timing nuance - place market buys across min_positions names the moment the book is empty, with stops attached, instead of stacking more resting limits.
+  (dropped GOOGL: sold 20 min ago, cooling off)
+  (dropped META: 97% up today's range — resting a limit at $707.29 instead of chasing)
+  (dropped CRWD: 90% up today's range — resting a limit at $240.46 instead of chasing)
+  (dropped NVDA: 88% up today's range — resting a limit at $224.30 instead of chasing)
+  (dropped SPY: 93% up today's range — resting a limit at $769.67 instead of chasing)
+- BUY $3000.00 AMD [filled] ['momentum', 'news'] — Strong breakout momentum leader in AI semis, buying near current level given the size of the move is confirmed by real news flow | evidence: AMD +9.04% today, +23.71% 5d, headline 'AMD stock soars to new record as semiconductors bounce'
+- BUY $2000.00 TSM [filled] ['momentum', 'news'] — Semis exposure complementary to AMD/NVDA, momentum confirmed | evidence: TSM +1.77% today, headline 'AMD Set to Top $1 Trillion in Market Value as Chip Stocks Soar' lifting semis broadly
+- BUY $2500.00 PLTR [filled] ['momentum', 'news'] — Continued momentum with active news catalysts, moderate size given headline risk both ways | evidence: PLTR +2.34% today, +4.9% 5d, fresh Karp/Burry headline flow
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger CRWD buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% AMD @ $585.00 until 2026-09-21 — Protective stop roughly 4% below entry
+~ WORKING stop_loss 100% TSM @ $432.00 until 2026-09-21 — Protective stop below entry
+~ WORKING stop_loss 100% PLTR @ $175.00 until 2026-09-21 — Protective stop below entry
+~ WORKING buy_limit $3000.00 META @ $707.29 until 2026-09-21 — wanted it, but not at the high — resting at $707.29. Breakout with concrete positive catalyst, day range 97% but momentum justifies a market-size entry
+~ WORKING buy_limit $2500.00 NVDA @ $224.30 until 2026-09-21 — wanted it, but not at the high — resting at $224.30. Core AI holding, adding to build toward min_positions
+~ WORKING buy_limit $2000.00 SPY @ $769.67 until 2026-09-21 — wanted it, but not at the high — resting at $769.67. Low idiosyncratic risk name to help reach min_positions while book is under-filled
+~ WORKING take_profit 100% AMD @ $613.35 until 2026-09-26 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $592.20 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $443.52 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $429.17 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $182.65 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $176.38 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32788.35 (+31.15% on $25000.00 in) · cash $25289.85 · realised +7789.85
+Done: 0 sell(s), 3 buy(s); 46 order(s) working; budget left $17500.00 this week

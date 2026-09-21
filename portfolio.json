@@ -1,17 +1,35 @@
 {
-  "cash": 31345.558096225064,
+  "cash": 25289.85165444857,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W39",
   "positions": {
-    "IBM": {
-      "qty": 6.310976298464157,
-      "avg_cost": 229.485888,
+    "AMD": {
+      "qty": 4.913827195242472,
+      "avg_cost": 610.52208,
       "opened": "2026-09-21",
       "last_buy": "2026-09-21",
       "tranches": 1,
-      "last_buy_ts": 1790007509,
-      "opened_ts": 1790007509
+      "last_buy_ts": 1790009443,
+      "opened_ts": 1790009443
+    },
+    "TSM": {
+      "qty": 4.520402577108632,
+      "avg_cost": 442.43847,
+      "opened": "2026-09-21",
+      "last_buy": "2026-09-21",
+      "tranches": 1,
+      "last_buy_ts": 1790009443,
+      "opened_ts": 1790009443
+    },
+    "PLTR": {
+      "qty": 13.748625412431265,
+      "avg_cost": 181.83636,
+      "opened": "2026-09-21",
+      "last_buy": "2026-09-21",
+      "tranches": 1,
+      "last_buy_ts": 1790009443,
+      "opened_ts": 1790009443
     }
   },
   "fills": [
@@ -10250,7 +10268,49 @@
       "realized_pct": 0.3,
       "type": "sell",
       "date": "2026-09-21 12:42"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 6.310976,
+      "status": "filled",
+      "price": 228.85,
+      "proceeds": 1444.29,
+      "realized_pnl": -3.99,
+      "realized_pct": -0.28,
+      "type": "sell",
+      "date": "2026-09-21 12:48"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.913827,
+      "price": 610.52,
+      "type": "buy",
+      "date": "2026-09-21 12:50"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.520403,
+      "price": 442.44,
+      "type": "buy",
+      "date": "2026-09-21 12:50"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.748625,
+      "price": 181.84,
+      "type": "buy",
+      "date": "2026-09-21 12:50"
     }
   ],
-  "realized_pnl": 7793.838096225078
+  "realized_pnl": 7789.851654448579
 }
