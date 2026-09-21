@@ -13335,3 +13335,31 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $18611.04 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $356.19] -> $2005.05 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 TTD [buy_limit @ $13.89] — strong month, weak day: resting 0.95% under $14.02 to catch the dip
+## 2026-09-21 11:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-21 11:29 ET (Monday) — week 2026-W39 — budget left $22125.76 (today $51041.67 put to work, 26 buys, 24 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Only 2 positions held vs min_positions=8, cash_idle_pct at 88.5% - a persistent flagged problem in past lessons. Deploying into SPY (broad momentum), AAPL (fresh JPMorgan bullish headline), TSM (named directly in chip price-increase headline), and CRWD (momentum + repeated congressional buy disclosures) to move toward target count with concrete evidence backing each, while leaving existing resting buy_limits working for other names.
+lesson: Idle cash and below-target position count persisted across many checks today; deploying decisively into evidence-backed names (not just resting limits) is needed to actually close the gap rather than repeating the same lesson.
+  (dropped SPY: 94% up today's range — resting a limit at $768.31 instead of chasing)
+  (dropped CRWD: 94% up today's range — resting a limit at $240.16 instead of chasing)
+- BUY $2500.00 AAPL [filled] ['news', 'momentum'] — Fresh bullish analyst headline plus strong 1-month momentum; entry not extreme in range | evidence: JPMorgan Delivers Bullish Message For Apple Stock Fans (GuruFocus, 15:05); +8.28% 1m, 77.8% of day range
+- BUY $2000.00 TSM [filled] ['news', 'momentum'] — AI/semis price-increase tailwind headline directly names TSM; momentum confirms | evidence: AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up (24/7 Wall St, 13:37); TSM +5.6% 5d
+  (dropped trigger SPY stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+~ WORKING stop_loss 100% AAPL @ $328.00 until 2026-09-21 — Protective stop on new AAPL position
+~ WORKING stop_loss 100% TSM @ $430.00 until 2026-09-21 — Protective stop on new TSM position
+~ WORKING buy_limit $3000.00 SPY @ $768.31 until 2026-09-21 — wanted it, but not at the high — resting at $768.31. Add a liquid broad market position to build toward min_positions with low idiosyncratic risk while book is under-filled
+~ WORKING buy_limit $1500.00 CRWD @ $240.16 until 2026-09-21 — wanted it, but not at the high — resting at $240.16. Strong momentum plus repeated congressional buy disclosures; adding modest market clip alongside existing resting limits
+~ WORKING take_profit 100% AAPL @ $337.97 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $327.03 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $442.56 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $428.25 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25294.51 (+1.18% on $25000.00 in) · cash $17795.78 · realised +295.78
+Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17625.76 this week

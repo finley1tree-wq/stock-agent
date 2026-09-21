@@ -1,21 +1,24 @@
 {
   "week": "2026-W39",
-  "spent": 1874.24,
-  "deployed": 50041.67,
+  "spent": 7374.24,
+  "deployed": 55541.67,
   "by_ticker": {
     "NOC": 10.51,
     "RTX": 10.98,
     "UNH": 0.4,
     "IBM": 3.52,
     "MSFT": 0.77,
-    "GLD": 2000.0
+    "GLD": 2000.0,
+    "TTD": 1000.0,
+    "AAPL": 2500.0,
+    "TSM": 2000.0
   },
   "deployed_by_ticker": {
     "AMD": 6700.0,
     "AMAT": 5975.0,
     "NVDA": 5100.0,
     "CHRW": 1000.0,
-    "TTD": 1000.0,
+    "TTD": 2000.0,
     "PLTR": 1000.0,
     "MSFT": 2425.0,
     "OKLO": 3000.0,
@@ -23,14 +26,15 @@
     "LMT": 2000.0,
     "RTX": 2000.0,
     "CCJ": 3425.0,
-    "TSM": 1666.67,
+    "TSM": 3666.67,
     "AVGO": 1666.67,
     "UNH": 1500.0,
     "IBM": 1500.0,
     "PLD": 1583.33,
     "GOOGL": 2000.0,
     "META": 2500.0,
-    "GLD": 2000.0
+    "GLD": 2000.0,
+    "AAPL": 2500.0
   },
   "orders": [
     {
@@ -966,12 +970,65 @@
       ],
       "evidence": "average cost $355.29",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 72.008756,
+      "price": 13.89,
+      "date": "2026-09-21",
+      "time_et": "11:29",
+      "ts": 1790004300,
+      "why": "strong month, weak day: resting 0.95% under $14.02 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+5.3% over the month, sitting at 50% of today's range",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.415374,
+      "price": 337.14,
+      "date": "2026-09-21",
+      "time_et": "11:29",
+      "ts": 1790004590,
+      "why": "Fresh bullish analyst headline plus strong 1-month momentum; entry not extreme in range",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "JPMorgan Delivers Bullish Message For Apple Stock Fans (GuruFocus, 15:05); +8.28% 1m, 77.8% of day range"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.530132,
+      "price": 441.49,
+      "date": "2026-09-21",
+      "time_et": "11:29",
+      "ts": 1790004590,
+      "why": "AI/semis price-increase tailwind headline directly names TSM; momentum confirms",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up (24/7 Wall St, 13:37); TSM +5.6% 5d"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 1874.24,
-  "deployed_today": 50041.67,
-  "orders_today": 25,
+  "spent_today": 7374.24,
+  "deployed_today": 55541.67,
+  "orders_today": 28,
   "sells_today": 24,
   "sold_today": [
     "AMAT",
@@ -1015,31 +1072,41 @@
     "META": 1790003914,
     "GOOGL": 1790004309
   },
-  "last_publish_ts": 1790004308,
-  "last_check_ts": 1790004507,
+  "last_publish_ts": 1790004590,
+  "last_check_ts": 1790004590,
   "last_bar_ts": 1790004300,
-  "last_decision_ts": 1790003635,
+  "last_decision_ts": 1790004590,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "e367ed2d": 399.6975,
-    "78baf00f": 13.8872,
+    "28e7eac4": 768.3125,
+    "7f8eb87b": 442.5584,
+    "78d6e812": 337.9694,
+    "01d1f2c5": 13.9608,
     "100b684c": 353.764,
     "639b261c": 352.499,
+    "218569d4": 13.7128,
     "799399fd": 332.6577,
+    "9f3f4a8e": 517.0,
     "17531d51": 150.1202,
     "846c83a9": 351.1349,
-    "9f3f4a8e": 517.0,
-    "969528a9": 353.0,
     "230d3e80": 56.0309,
+    "969528a9": 353.0,
     "6f013a49": 130.8718,
     "fe34652d": 699.7795,
     "1ce5fa8b": 390.0,
+    "9e1cf8ec": 430.0,
+    "26e94b21": 328.0,
+    "4beaa325": 240.156,
     "d8c3175b": 240.1175,
     "33c9d89c": 239.7875,
     "151ee42b": 239.6939,
-    "31028f0b": 690.82,
+    "66acfd1c": 13.4733,
+    "79f858f4": 327.0258,
+    "fb33533e": 428.2453,
     "442585d3": 386.8748,
+    "31028f0b": 690.82,
     "a5c4e753": 234.3425
   }
 }
