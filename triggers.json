@@ -7262,7 +7262,7 @@
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 353.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:22",
    "created_ts": 1790011373,
    "why": "Protective stop at today's low",
@@ -7271,7 +7271,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 13:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "893bd95d",
@@ -7348,7 +7350,7 @@
    "ticker": "AVGO",
    "kind": "take_profit",
    "price": 360.5862,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-21 13:22",
    "created_ts": 1790011373,
    "why": "close 100% at +0.3% over the average cost",
@@ -7358,14 +7360,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 13:50"
   },
   {
    "id": "4e006dac",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 348.5695,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:22",
    "created_ts": 1790011373,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7375,7 +7378,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 13:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "19b6ad78",
@@ -7471,5 +7476,5 @@
    "usd": 2500.0
   }
  ],
- "updated": "2026-09-21 13:38"
+ "updated": "2026-09-21 13:50"
 }

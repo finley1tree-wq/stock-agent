@@ -1,6 +1,3 @@
-  (dropped CRWD: 97% up today's range — resting a limit at $240.12 instead of chasing)
-- BUY $2000.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name with fresh positive coverage at reasonable range position | evidence: GOOGL +1.62% today, headline 'Meta Spikes 7%... Alphabet Nudges Higher' 2026-09-21T14:24; 72% of day range, not extreme
-  (dropped trigger CRWD stop_loss: not held)
   (dropped trigger TSM stop_loss: not held)
 ~ WORKING stop_loss 100% GOOGL @ $347.00 until 2026-09-21 — protect new GOOGL position
 ~ WORKING buy_limit $1500.00 NOC @ $517.00 until 2026-09-21 — resting limit below market to catch a dip in a defense name with strong track record
@@ -398,3 +395,6 @@ lesson: Repeated resting-limit-only approach failed to fill while below min_posi
 ~ WORKING buy_limit $2500.00 NVDA @ $224.76 until 2026-09-21 — wanted it, but not at the high — resting at $224.76. Core AI leader continuing momentum, building toward min_positions
 portfolio: equity $32770.72 (+31.08% on $25000.00 in) · cash $28268.57 · realised +7768.57
 Decision: nothing at this check. 49 standing order(s) working.
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $360.59] -> $2006.87 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-09-21 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

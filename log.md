@@ -13684,3 +13684,6 @@ lesson: Repeated resting-limit-only approach failed to fill while below min_posi
 ~ WORKING buy_limit $2500.00 NVDA @ $224.76 until 2026-09-21 — wanted it, but not at the high — resting at $224.76. Core AI leader continuing momentum, building toward min_positions
 portfolio: equity $32770.72 (+31.08% on $25000.00 in) · cash $28268.57 · realised +7768.57
 Decision: nothing at this check. 49 standing order(s) working.
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $360.59] -> $2006.87 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-09-21 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
