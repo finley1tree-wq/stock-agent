@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-21T12:56-04:00",
- "note": "Still well below min_positions (3 of 8) with 70% idle cash - the recurring, measured drag per past_lessons_with_outcome. Deploying real market-size buys now into META (strongest momentum+news), AVGO/AMAT (AI semis with congress overlap), CRWD (congress buy disclosure + momentum), NOC (defense demand",
+ "asOf": "2026-09-21T13:06-04:00",
+ "note": "Below min_positions (4/8) with 64% cash idle - the counterfactual and repeated past-lesson data both flag this as a real drag. Deploying market-size buys ($1-2.5k each) into evidence-backed momentum/congress names (GOOGL, NVDA, AMAT, MSFT, AVGO) not in cooldown, while keeping protective stops on the",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "80f4d1df",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 443.5151,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 442.35,
-   "pct_away": 0.26,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "8a7ca240",
    "ticker": "LMT",
    "kind": "buy_limit",
@@ -163,8 +146,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 535.33,
-   "pct_away": -0.28,
+   "last": 534.25,
+   "pct_away": -0.07,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $533.85. Defense sector strength with concrete demand headline, not held",
    "signals": [
@@ -174,15 +157,32 @@
    ]
   },
   {
-   "id": "f62eb761",
-   "ticker": "NOC",
+   "id": "80f4d1df",
+   "ticker": "TSM",
    "kind": "take_profit",
-   "price": 526.5331,
+   "price": 443.5151,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 525.01,
-   "pct_away": 0.29,
+   "last": 443.01,
+   "pct_away": 0.11,
+   "good_until": "2026-09-26",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1b33c834",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 497.5472,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 496.36,
+   "pct_away": 0.24,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -198,8 +198,8 @@
    "usd": 1931.03,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.71,
-   "pct_away": -0.3,
+   "last": 194.63,
+   "pct_away": -0.26,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $194.13. Defense sector best hit rate, fresh positive coverage, not held",
    "signals": [
@@ -210,6 +210,23 @@
    ]
   },
   {
+   "id": "f62eb761",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 526.5331,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 524.72,
+   "pct_away": 0.35,
+   "good_until": "2026-09-26",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "66193fe3",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -217,8 +234,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 772.23,
-   "pct_away": -0.33,
+   "last": 772.47,
+   "pct_away": -0.36,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $769.67. Low idiosyncratic risk name to help reach min_positions while book is under-filled",
    "signals": [
@@ -235,32 +252,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.71,
-   "pct_away": -0.45,
+   "last": 194.63,
+   "pct_away": -0.41,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $193.83. Defense sector has best hit_rate in track record (0.71), fresh broker coverage, not held",
    "signals": [
     "momentum",
     "news",
     "track_record",
-    "patience"
-   ]
-  },
-  {
-   "id": "100b684c",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 353.764,
-   "usd": 2375.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 355.42,
-   "pct_away": -0.47,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme",
-   "signals": [
-    "momentum",
-    "news",
     "patience"
    ]
   },
@@ -272,10 +271,63 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 610.5,
-   "pct_away": 0.47,
+   "last": 610.84,
+   "pct_away": 0.41,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0863574f",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 522.354,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 524.72,
+   "pct_away": -0.45,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $522.35. Defense demand headline plus best-performing sector by hit rate in track record",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "100b684c",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 353.764,
+   "usd": 2375.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 355.58,
+   "pct_away": -0.51,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "250e011e",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 493.7444,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 496.36,
+   "pct_away": -0.53,
+   "good_until": "2026-09-26",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -289,31 +341,13 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 772.23,
-   "pct_away": -0.51,
+   "last": 772.47,
+   "pct_away": -0.54,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $768.31. Add a liquid broad market position to build toward min_positions with low idiosyncratic risk while book is under-filled",
    "signals": [
     "momentum",
     "etf_default",
-    "patience"
-   ]
-  },
-  {
-   "id": "0863574f",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 522.354,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 525.01,
-   "pct_away": -0.51,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $522.35. Defense demand headline plus best-performing sector by hit rate in track record",
-   "signals": [
-    "news",
-    "momentum",
     "patience"
    ]
   },
@@ -325,31 +359,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 181.45,
-   "pct_away": -0.58,
+   "last": 181.41,
+   "pct_away": -0.56,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $180.40. Continued momentum name with fresh news flow, sizing moderate given Burry bear case headline risk",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "613fe1b4",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 521.9374,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 525.01,
-   "pct_away": -0.59,
-   "good_until": "2026-09-26",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -360,8 +377,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 181.45,
-   "pct_away": 0.66,
+   "last": 181.41,
+   "pct_away": 0.68,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -377,28 +394,10 @@
    "usd": 1931.03,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 181.45,
-   "pct_away": -0.8,
+   "last": 181.41,
+   "pct_away": -0.78,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $180.00. Strong intraday momentum with fresh coverage, not held, no cooldown",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "639b261c",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 352.499,
-   "usd": 2083.33,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 355.42,
-   "pct_away": -0.82,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $352.50. Widely-held name with fresh positive coverage and steady momentum, filling below chase limit isn't possible so taking a modest market entry to build position count",
    "signals": [
     "momentum",
     "news",
@@ -413,8 +412,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 181.45,
-   "pct_away": -0.86,
+   "last": 181.41,
+   "pct_away": -0.84,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $179.89. Strong intraday momentum with fresh coverage, not held, not in cooldown",
    "signals": [
@@ -431,48 +430,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 496.51,
-   "pct_away": -0.87,
+   "last": 496.36,
+   "pct_away": -0.84,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.41% under $494.23 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "44b18c55",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 224.299,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 226.26,
-   "pct_away": -0.87,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $224.30. Core AI holding, adding to build toward min_positions",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "1450ef6f",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 605.0,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 610.5,
-   "pct_away": -0.9,
-   "good_until": "2026-09-21",
-   "why": "Wait for cooldown to clear and modest pullback rather than chasing at 84% of range",
-   "signals": [
-    "momentum",
-    "news"
    ]
   },
   {
@@ -483,10 +447,46 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 361.16,
-   "pct_away": -0.93,
+   "last": 360.81,
+   "pct_away": -0.84,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $357.79. AI semis momentum, widely_held sector strength",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "639b261c",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 352.499,
+   "usd": 2083.33,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 355.58,
+   "pct_away": -0.87,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $352.50. Widely-held name with fresh positive coverage and steady momentum, filling below chase limit isn't possible so taking a modest market entry to build position count",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "e3016481",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 357.603,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 360.81,
+   "pct_away": -0.89,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $357.60. AI semis exposure with bullish catalyst, not extreme in day range (93.5%)",
    "signals": [
     "momentum",
     "news",
@@ -501,13 +501,31 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 463.04,
-   "pct_away": -0.94,
+   "last": 462.95,
+   "pct_away": -0.92,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $458.69. Congress overlap plus strong daily momentum in semis-adjacent name",
    "signals": [
     "momentum",
     "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "6f32b15c",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 224.3898,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 226.51,
+   "pct_away": -0.94,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $224.39. Core AI leader momentum continuing, adding to reach min_positions",
+   "signals": [
+    "momentum",
     "news",
     "patience"
    ]
@@ -530,17 +548,34 @@
    ]
   },
   {
-   "id": "e3016481",
-   "ticker": "AVGO",
+   "id": "1450ef6f",
+   "ticker": "AMD",
    "kind": "buy_limit",
-   "price": 357.603,
-   "usd": 2000.0,
+   "price": 605.0,
+   "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 361.16,
+   "last": 610.84,
+   "pct_away": -0.96,
+   "good_until": "2026-09-21",
+   "why": "Wait for cooldown to clear and modest pullback rather than chasing at 84% of range",
+   "signals": [
+    "momentum",
+    "news"
+   ]
+  },
+  {
+   "id": "44b18c55",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 224.299,
+   "usd": 2500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 226.51,
    "pct_away": -0.98,
    "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $357.60. AI semis exposure with bullish catalyst, not extreme in day range (93.5%)",
+   "why": "wanted it, but not at the high \u2014 resting at $224.30. Core AI holding, adding to build toward min_positions",
    "signals": [
     "momentum",
     "news",
@@ -555,31 +590,13 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 463.04,
-   "pct_away": -1.01,
+   "last": 462.95,
+   "pct_away": -0.99,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $458.37. Momentum plus congressional buy overlap in semis-adjacent name",
    "signals": [
     "momentum",
     "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "5b525ad8",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 223.727,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 226.26,
-   "pct_away": -1.12,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $223.73. Core AI leader with continued momentum and positive sentiment, not held, not in cooldown",
-   "signals": [
-    "momentum",
     "news",
     "patience"
    ]
@@ -592,28 +609,10 @@
    "usd": 1931.03,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 361.16,
-   "pct_away": -1.12,
+   "last": 360.81,
+   "pct_away": -1.03,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $357.10. AI semis exposure with fresh bullish catalyst, no cooldown",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "846c83a9",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 351.1349,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 355.42,
-   "pct_away": -1.21,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
     "momentum",
     "news",
@@ -628,8 +627,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 152.01,
-   "pct_away": -1.24,
+   "last": 151.94,
+   "pct_away": -1.2,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.52% under $150.91 to catch the dip",
    "signals": [
@@ -638,37 +637,39 @@
    ]
   },
   {
-   "id": "cf4a6dbc",
-   "ticker": "TSM",
+   "id": "5b525ad8",
+   "ticker": "NVDA",
    "kind": "buy_limit",
-   "price": 436.0,
+   "price": 223.727,
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 442.35,
-   "pct_away": -1.44,
+   "last": 226.51,
+   "pct_away": -1.23,
    "good_until": "2026-09-21",
-   "why": "Resting limit to catch entry once cooldown clears without chasing",
+   "why": "wanted it, but not at the high \u2014 resting at $223.73. Core AI leader with continued momentum and positive sentiment, not held, not in cooldown",
    "signals": [
     "momentum",
-    "news"
+    "news",
+    "patience"
    ]
   },
   {
-   "id": "9f3f4a8e",
-   "ticker": "NOC",
+   "id": "846c83a9",
+   "ticker": "GOOGL",
    "kind": "buy_limit",
-   "price": 517.0,
-   "usd": 1500.0,
+   "price": 351.1349,
+   "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 525.01,
-   "pct_away": -1.53,
+   "last": 355.58,
+   "pct_away": -1.25,
    "good_until": "2026-09-21",
-   "why": "resting limit below market to catch a dip in a defense name with strong track record",
+   "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
     "momentum",
-    "news"
+    "news",
+    "patience"
    ]
   },
   {
@@ -679,13 +680,63 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 56.96,
-   "pct_away": -1.63,
+   "last": 56.85,
+   "pct_away": -1.44,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "9f3f4a8e",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 517.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 524.72,
+   "pct_away": -1.47,
+   "good_until": "2026-09-21",
+   "why": "resting limit below market to catch a dip in a defense name with strong track record",
+   "signals": [
+    "momentum",
+    "news"
+   ]
+  },
+  {
+   "id": "30c080cb",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 517.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 524.72,
+   "pct_away": -1.47,
+   "good_until": "2026-09-21",
+   "why": "Protective stop below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "cf4a6dbc",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 436.0,
+   "usd": 2500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 443.01,
+   "pct_away": -1.58,
+   "good_until": "2026-09-21",
+   "why": "Resting limit to catch entry once cooldown clears without chasing",
+   "signals": [
+    "momentum",
+    "news"
    ]
   },
   {
@@ -696,8 +747,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 133.58,
-   "pct_away": -2.03,
+   "last": 133.45,
+   "pct_away": -1.93,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.69% under $131.78 to catch the dip",
    "signals": [
@@ -713,8 +764,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 361.16,
-   "pct_away": -2.26,
+   "last": 360.81,
+   "pct_away": -2.16,
    "good_until": "2026-09-21",
    "why": "resting limit to catch dip once cooldown clears, semis AI exposure",
    "signals": [
@@ -730,8 +781,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 442.35,
-   "pct_away": -2.34,
+   "last": 443.01,
+   "pct_away": -2.49,
    "good_until": "2026-09-21",
    "why": "Protective stop below entry",
    "signals": [
@@ -746,8 +797,8 @@
    "usd": 1931.03,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.87,
-   "pct_away": -2.59,
+   "last": 246.89,
+   "pct_away": -2.6,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $240.46. Strong momentum plus congressional buy disclosure overlap, adding to fill min_positions",
    "signals": [
@@ -765,8 +816,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.87,
-   "pct_away": -2.7,
+   "last": 246.89,
+   "pct_away": -2.71,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $240.20. Congress buying overlap plus strong momentum catalyst, buying near market given strength",
    "signals": [
@@ -784,8 +835,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.87,
-   "pct_away": -2.72,
+   "last": 246.89,
+   "pct_away": -2.73,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $240.16. Strong momentum plus repeated congressional buy disclosures; adding modest market clip alongside existing resting limits",
    "signals": [
@@ -802,7 +853,7 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.87,
+   "last": 246.89,
    "pct_away": -2.74,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst",
@@ -821,8 +872,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 181.45,
-   "pct_away": -2.79,
+   "last": 181.41,
+   "pct_away": -2.77,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -838,49 +889,13 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.87,
-   "pct_away": -2.87,
+   "last": 246.89,
+   "pct_away": -2.88,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $239.79. momentum plus congressional buying overlap, standing limit at 239.69 may not fill so adding market entry for position count",
    "signals": [
     "momentum",
     "congress",
-    "patience"
-   ]
-  },
-  {
-   "id": "029ab3ca",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 707.2925,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 728.23,
-   "pct_away": -2.88,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $707.29. Breakout with concrete positive catalyst, day range 97% but momentum justifies a market-size entry",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "eadee355",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 707.147,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 728.23,
-   "pct_away": -2.9,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $707.15. Strong breakout with concrete catalysts; buying at market since it's running, sized to 3k not overexposed",
-   "signals": [
-    "news",
-    "momentum",
     "patience"
    ]
   },
@@ -892,7 +907,7 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.87,
+   "last": 246.89,
    "pct_away": -2.91,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $239.69. Strong momentum with congressional buying overlap, though at 98% of day range so sizing modestly rather than chasing full size",
@@ -910,8 +925,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 525.01,
-   "pct_away": -2.96,
+   "last": 524.72,
+   "pct_away": -2.91,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -920,14 +935,14 @@
    ]
   },
   {
-   "id": "578a4a47",
-   "ticker": "TSM",
+   "id": "0dde2114",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 429.1668,
+   "price": 481.5662,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 442.35,
+   "last": 496.36,
    "pct_away": -2.98,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -944,13 +959,66 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 610.5,
-   "pct_away": -3.0,
+   "last": 610.84,
+   "pct_away": -3.05,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "578a4a47",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 429.1668,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 443.01,
+   "pct_away": -3.12,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "029ab3ca",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 707.2925,
+   "usd": 3000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 732.68,
+   "pct_away": -3.47,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $707.29. Breakout with concrete positive catalyst, day range 97% but momentum justifies a market-size entry",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "eadee355",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 707.147,
+   "usd": 3000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 732.68,
+   "pct_away": -3.48,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $707.15. Strong breakout with concrete catalysts; buying at market since it's running, sized to 3k not overexposed",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
    ]
   },
   {
@@ -961,10 +1029,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 181.45,
-   "pct_away": -3.55,
+   "last": 181.41,
+   "pct_away": -3.53,
    "good_until": "2026-09-21",
    "why": "Protective stop below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "38b7c1e6",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 585.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 610.84,
+   "pct_away": -4.23,
+   "good_until": "2026-09-21",
+   "why": "Protective stop roughly 4% below entry",
    "signals": [
     "risk_management"
    ]
@@ -977,30 +1061,14 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 728.23,
-   "pct_away": -3.91,
+   "last": 732.68,
+   "pct_away": -4.49,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength",
    "signals": [
     "news",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "38b7c1e6",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 585.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 610.5,
-   "pct_away": -4.18,
-   "good_until": "2026-09-21",
-   "why": "Protective stop roughly 4% below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -1011,8 +1079,8 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.87,
-   "pct_away": -5.07,
+   "last": 246.89,
+   "pct_away": -5.08,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
@@ -1029,8 +1097,8 @@
    "usd": 4200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 728.23,
-   "pct_away": -5.14,
+   "last": 732.68,
+   "pct_away": -5.71,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
    "signals": [
@@ -1040,8 +1108,8 @@
    ]
   }
  ],
- "last_reasoning": "Still well below min_positions (3 of 8) with 70% idle cash - the recurring, measured drag per past_lessons_with_outcome. Deploying real market-size buys now into META (strongest momentum+news), AVGO/AMAT (AI semis with congress overlap), CRWD (congress buy disclosure + momentum), NOC (defense demand",
- "next_check_minutes": 10,
+ "last_reasoning": "Below min_positions (4/8) with 64% cash idle - the counterfactual and repeated past-lesson data both flag this as a real drag. Deploying market-size buys ($1-2.5k each) into evidence-backed momentum/congress names (GOOGL, NVDA, AMAT, MSFT, AVGO) not in cooldown, while keeping protective stops on the",
+ "next_check_minutes": 15,
  "allowed": [
   "AAPL",
   "AMAT",
@@ -1104,7 +1172,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 385,
+  "decisions_graded": 384,
   "decisions_with_buys_graded": 137,
   "independent_days_graded": 3,
   "avg_regret_pct": -0.39,
@@ -1205,7 +1273,7 @@
     "n": 1
    }
   },
-  "idle_checks": 241,
+  "idle_checks": 240,
   "blocked_checks": 0,
   "idle_share": 0.6,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2682,12 +2750,17 @@
     "when": "2026-09-21T13:50"
    },
    {
-    "title": "Update: Chipmakers Push US Equity Indexes Higher as Treasury Yields, Crude Oil Decline",
-    "source": "MT Newswires",
-    "when": "2026-09-21T16:39"
+    "title": "AMD stock crosses $1 trillion market cap for first time",
+    "source": "Quartz",
+    "when": "2026-09-21T17:01"
    }
   ],
   "AMZN": [
+   {
+    "title": "AST SpaceMobile Is Building Something the World Has Never Had. Here\u2019s My Price Prediction",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-21T17:00"
+   },
    {
     "title": "Amazon Deepens Focus On Delivery Safety, AI And Driver Experience \u2013 Makes Fresh $1.9B Investment",
     "source": "Stocktwits",
@@ -2697,14 +2770,14 @@
     "title": "What Will $5,000 Invested in Amazon Stock Be Worth in 5 Years?",
     "source": "24/7 Wall St.",
     "when": "2026-09-21T16:30"
-   },
-   {
-    "title": "Kuehne+Nagel takes logistics lead for Amazon data center expansion",
-    "source": "FreightWaves",
-    "when": "2026-09-21T16:22"
    }
   ],
   "AVGO": [
+   {
+    "title": "AMD stock crosses $1 trillion market cap for first time",
+    "source": "Quartz",
+    "when": "2026-09-21T17:01"
+   },
    {
     "title": "Why Credo's New 1.6T Optics Matter to Its $600 Million Optical Push",
     "source": "Zacks",
@@ -2714,11 +2787,6 @@
     "title": "AMD Set to Top $1 Trillion in Market Value as Chip Stocks Soar",
     "source": "Bloomberg",
     "when": "2026-09-21T15:36"
-   },
-   {
-    "title": "Broadcom\u2019s AI Opportunity Is Bigger Than Its Stock Price Suggests",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-21T15:30"
    }
   ],
   "CCJ": [
@@ -2927,6 +2995,11 @@
   ],
   "IBM": [
    {
+    "title": "IBM Takes a Billion-Dollar Step Toward Becoming Quantum\u2019s Foundry King",
+    "source": "The Daily Upside",
+    "when": "2026-09-21T04:01"
+   },
+   {
     "title": "I Think IBM Stock Will Be Higher in 5 Years. I Still Wouldn't Buy It Today.",
     "source": "Motley Fool",
     "when": "2026-09-19T23:43"
@@ -2935,11 +3008,6 @@
     "title": "IBM Has Raised Its Dividend for 31 Years. Inflation Is Still Winning",
     "source": "24/7 Wall St.",
     "when": "2026-09-19T14:02"
-   },
-   {
-    "title": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
-    "source": "Motley Fool",
-    "when": "2026-09-19T09:00"
    }
   ],
   "IBP": [
@@ -3199,9 +3267,9 @@
   ],
   "SPY": [
    {
-    "title": "Corning Climbs 6% as AI Optical Interconnect Demo Highlights Its Fiber; Lumentum, Coherent and Applied Optoelectronics Rise 4%",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-21T16:46"
+    "title": "S&P 500 Will \u2018Easily\u2019 Top 8,000 Before Historic Crash, \u2018Black Swan\u2019 Fund Manager Says",
+    "source": "Benzinga Prediction Markets",
+    "when": "2026-09-21T16:54"
    },
    {
     "title": "Moderna Surges 9% as Phase 3 Melanoma Data Wins Presidential Symposium Slot; Merck and BioNTech Edge Higher",
@@ -3284,5 +3352,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-21T12:56-04:00"
+ "signalsAsOf": "2026-09-21T13:06-04:00"
 }

@@ -1,101 +1,6 @@
 {
  "orders": [
   {
-   "id": "269e74d3",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 132.1942,
-   "status": "cancelled",
-   "created": "2026-09-18 11:41",
-   "created_ts": 1789746083,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $131.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "99222cf7",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 130.5345,
-   "status": "cancelled",
-   "created": "2026-09-18 11:41",
-   "created_ts": 1789746083,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $131.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e32536d7",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 127.7684,
-   "status": "cancelled",
-   "created": "2026-09-18 11:41",
-   "created_ts": 1789746083,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $131.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "059d0870",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 350.8965,
-   "status": "cancelled",
-   "created": "2026-09-18 11:41",
-   "created_ts": 1789746083,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $349.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b7f985fd",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 347.7256,
-   "status": "cancelled",
-   "created": "2026-09-18 11:41",
-   "created_ts": 1789746083,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $349.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "192e79ab",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -7435,7 +7340,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 521.9374,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:56",
    "created_ts": 1790009782,
    "why": "close it all at -0.6% under the average cost",
@@ -7445,7 +7350,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 13:06",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9bfdee88",
@@ -7463,7 +7370,92 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "30c080cb",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 517.0,
+   "status": "working",
+   "created": "2026-09-21 13:06",
+   "created_ts": 1790010393,
+   "why": "Protective stop below entry",
+   "evidence": "NOC -0.51% today, ATR 2.26%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6f32b15c",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 224.3898,
+   "status": "working",
+   "created": "2026-09-21 13:06",
+   "created_ts": 1790010393,
+   "why": "wanted it, but not at the high \u2014 resting at $224.39. Core AI leader momentum continuing, adding to reach min_positions",
+   "evidence": "NVDA +1.91% today, 96.2% of day range, Jensen Huang pushing back on AI extinction fears 14:04",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2000.0
+  },
+  {
+   "id": "1b33c834",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 497.5472,
+   "status": "working",
+   "created": "2026-09-21 13:06",
+   "created_ts": 1790010393,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $496.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "250e011e",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 493.7444,
+   "status": "working",
+   "created": "2026-09-21 13:06",
+   "created_ts": 1790010393,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $496.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0dde2114",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 481.5662,
+   "status": "working",
+   "created": "2026-09-21 13:06",
+   "created_ts": 1790010393,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 12:56"
+ "updated": "2026-09-21 13:06"
 }

@@ -1,31 +1,3 @@
-~ WORKING buy_limit $500.00 TSM @ $424.90 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $358.02 until 2026-09-26 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $346.10 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $375.72 until 2026-09-26 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $363.37 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $231.61 until 2026-09-26 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $223.89 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLD @ $135.57 until 2026-09-26 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 PLD @ $131.26 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25238.33 (+0.95% on $25000.00 in) · cash $13344.68 · realised +261.35
-Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $13174.67 this week
-- SELL 100% NOC [time stop] -> $1989.49 (-0.53%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% RTX [time stop] -> $1989.02 (-0.55%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 10:13 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PLD: position closed)
-- SELL 100% PLD [take_profit @ $135.57] -> $1586.16 (+0.18%) — close 100% at +0.2% over the average cost
-## 2026-09-21 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $439.10] -> $1670.73 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-21 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [take_profit @ $358.02] -> $1672.38 (+0.34%) — close 100% at +0.3% over the average cost
-## 2026-09-21 10:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 10:26 ET (Monday) — week 2026-W39 — budget left $22082.45 (today $33916.67 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
   (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
@@ -398,3 +370,31 @@ lesson: When below min_positions with idle cash, place actual market buys sized 
 ~ WORKING buy_limit $500.00 NOC @ $509.46 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32783.43 (+31.13% on $25000.00 in) · cash $23789.85 · realised +7789.85
 Done: 0 sell(s), 1 buy(s); 51 order(s) working; budget left $16000.00 this week
+
+## 2026-09-21 13:06 ET (Monday) — week 2026-W39 — budget left $16000.00 (today $78403.74 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Below min_positions (4/8) with 64% cash idle - the counterfactual and repeated past-lesson data both flag this as a real drag. Deploying market-size buys ($1-2.5k each) into evidence-backed momentum/congress names (GOOGL, NVDA, AMAT, MSFT, AVGO) not in cooldown, while keeping protective stops on the existing four positions.
+lesson: Stop only resting limits when below min_positions - place real market-size buys immediately across non-cooldown evidence-backed names to close the position-count gap, as repeated past checks show resting limits alone fail to fill in time.
+  (dropped GOOGL: sold 37 min ago, cooling off)
+  (dropped NVDA: 96% up today's range — resting a limit at $224.39 instead of chasing)
+  (dropped AMAT: 94% up today's range — resting a limit at $458.69 instead of chasing)
+  (dropped AVGO: 94% up today's range — resting a limit at $357.79 instead of chasing)
+- BUY $1500.00 MSFT [filled] ['momentum', 'news'] — Widely-held sector has best track record avg_ret_pct 10.75%, adding modest size | evidence: MSFT +0.52% today, 83.1% of range, Rep. Gottheimer joint buy up to $1M disclosed 9-14
+  (re-pinned 1 order(s) to the new average cost)
+  (dropped trigger AMD stop_loss: duplicate of a working order)
+  (dropped trigger TSM stop_loss: duplicate of a working order)
+  (dropped trigger PLTR stop_loss: duplicate of a working order)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+  (dropped trigger AVGO buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% NOC @ $517.00 until 2026-09-21 — Protective stop below entry
+~ WORKING buy_limit $2000.00 NVDA @ $224.39 until 2026-09-21 — wanted it, but not at the high — resting at $224.39. Core AI leader momentum continuing, adding to reach min_positions
+~ WORKING take_profit 100% MSFT @ $497.55 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $493.74 until 2026-09-26 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $481.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32786.41 (+31.15% on $25000.00 in) · cash $22289.85 · realised +7789.85
+Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
