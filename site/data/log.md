@@ -1,36 +1,3 @@
-~ WORKING stop_loss 100% AMD @ $591.00 until 2026-09-21 — protect new AMD entry with ~3% stop
-~ WORKING buy_limit $2500.00 META @ $699.78 until 2026-09-21 — wanted it, but not at the high — resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength
-~ WORKING buy_limit $2000.00 CRWD @ $239.79 until 2026-09-21 — wanted it, but not at the high — resting at $239.79. momentum plus congressional buying overlap, standing limit at 239.69 may not fill so adding market entry for position count
-~ WORKING take_profit 100% AMD @ $611.97 until 2026-09-26 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $590.89 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 CHRW @ $150.12 until 2026-09-22 — strong month, weak day: resting 0.52% under $150.91 to catch the dip
-~ WORKING buy_limit $1000.00 NVDA @ $222.33 until 2026-09-22 — strong month, weak day: resting 0.54% under $223.54 to catch the dip
-portfolio: equity $25255.70 (+1.02% on $25000.00 in) · cash $19752.47 · realised +252.47
-Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19582.45 this week
-- SELL 100% UNH [time stop] -> $1499.60 (-0.03%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% IBM [time stop] -> $1496.48 (-0.23%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 10:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 10:41 ET (Monday) — week 2026-W39 — budget left $22578.53 (today $36416.67 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Book is at 1 position with 90% idle cash - severe underdeployment relative to min_positions=8 and full_deployment instructions. Adding 6 fresh names outside cooldown (GOOGL, AMAT, NVDA, TSM, CCJ, MSFT) with concrete news/congress catalysts and reasonable day-range entries to reach 7 total positions near size, each protected with a ~3% stop given AMD already has one. Avoiding names still in cooldown (TTD, NOC, RTX, PLD, AVGO, UNH, IBM).
-lesson: Idle cash at 90% with min_positions target of 8 is a bigger problem than any single entry-timing nuance; deploy into fresh non-cooldown names with concrete headlines even mid-session rather than waiting for perfect dips.
-  (dropped TSM: sold 17 min ago, cooling off)
-  (dropped GOOGL: 88% up today's range — resting a limit at $353.76 instead of chasing)
-- BUY $2375.00 AMAT [filled] ['momentum', 'congress'] — Fresh congress buy pressure plus reasonable entry point in day range, not chasing a high | evidence: AMAT +2.53% today, only 37% of day range (room to run), Josh Gottheimer disclosed buy 2026-09-14
-- BUY $1900.00 NVDA [filled] ['momentum', 'news'] — Cooldown cleared, steady momentum widely-held AI name | evidence: NVDA +0.85% today, 77% of day range, Jensen Huang pushing back on AI extinction fears headline 14:04
-- BUY $1425.00 CCJ [filled] ['news', 'momentum'] — Nuclear name near day low with concrete positive catalyst, good entry point | evidence: CCJ only 8.6% of day range (near low), Westinghouse IPO news could value Cameco stake at $24.5B per Motley Fool 13:05
-- BUY $1425.00 MSFT [filled] ['news', 'momentum'] — Large congressional buy disclosure plus modest entry point in range | evidence: MSFT at 29.7% of day range, Josh Gottheimer disclosed $250k-$1M buy of MSFT (2026-08-14, disclosed 09-14)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-~ WORKING stop_loss 100% AMAT @ $441.60 until 2026-09-21 — protect new AMAT position
-~ WORKING stop_loss 100% NVDA @ $217.40 until 2026-09-21 — protect new NVDA position
-~ WORKING stop_loss 100% CCJ @ $89.40 until 2026-09-21 — protect new CCJ position
 ~ WORKING stop_loss 100% MSFT @ $478.50 until 2026-09-21 — protect new MSFT position
 ~ WORKING buy_limit $2375.00 GOOGL @ $353.76 until 2026-09-21 — wanted it, but not at the high — resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme
 ~ WORKING take_profit 100% AMAT @ $457.93 until 2026-09-26 — close 100% at +0.4% over the average cost
@@ -398,3 +365,36 @@ Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
   (cancelled 2 standing order(s) on LMT: position closed)
 - SELL 100% LMT [stop_loss @ $534.08] -> $2000.86 (+0.04%) — close it all at -0.7% under the average cost
 ## 2026-09-21 13:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 13:22 ET (Monday) — week 2026-W39 — budget left $23478.83 (today $81903.74 put to work, 41 buys, 39 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Book is at 1 position vs min_positions=8 with 93.9% cash idle - the counterfactual and past-lessons data both flag this as a measured drag. Deploying market orders now across 6 evidence-backed, non-cooldown names (META, AMD, NVDA, GOOGL, CRWD, TSM, AVGO minus cooldown conflicts) sized $2000-3000 each to close the position-count gap, each with a protective stop attached per the risk_management signal which has the best hit rate (0.85) in track record.
+lesson: Resting limits alone repeatedly failed to fill while below min_positions today; market orders sized $2-3k with attached stops actually closed the gap - keep doing that instead of stacking more limits.
+  (dropped AMD: sold 3 min ago, cooling off)
+  (dropped TSM: sold 3 min ago, cooling off)
+  (dropped META: 100% up today's range — resting a limit at $711.14 instead of chasing)
+  (dropped NVDA: 93% up today's range — resting a limit at $224.63 instead of chasing)
+  (dropped CRWD: 92% up today's range — resting a limit at $240.46 instead of chasing)
+- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name not extreme in range, reasonable entry | evidence: GOOGL +1.78% today, 78.5% of day range, fresh Google/Apple crypto talent hunt headline
+- BUY $2000.00 AVGO [filled] ['momentum', 'news'] — AI semis exposure, lower range percentile (74%) than AMAT/NVDA | evidence: AVGO +0.47% today, 'AMD Set to Top $1 Trillion in Market Value as Chip Stocks Soar' Bloomberg 15:36
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger CRWD buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% GOOGL @ $349.50 until 2026-09-21 — Protective stop near today's low
+~ WORKING stop_loss 100% AVGO @ $353.50 until 2026-09-21 — Protective stop at today's low
+~ WORKING buy_limit $3000.00 META @ $711.14 until 2026-09-21 — wanted it, but not at the high — resting at $711.14. Strong breakout momentum with fresh bullish broker coverage, buy at market since it keeps running
+~ WORKING buy_limit $2500.00 NVDA @ $224.63 until 2026-09-21 — wanted it, but not at the high — resting at $224.63. Core AI leader continued momentum, filling toward min_positions
+~ WORKING take_profit 100% GOOGL @ $356.73 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $345.16 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $360.59 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $348.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32766.67 (+31.07% on $25000.00 in) · cash $26768.68 · realised +7768.68
+Done: 0 sell(s), 2 buy(s); 49 order(s) working; budget left $18978.83 this week
