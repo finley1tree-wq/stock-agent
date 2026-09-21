@@ -1,5 +1,3 @@
-brain: Book is flat at 100% cash idle, and the owner's rule under full_deployment is to concentrate in up to 6 high-conviction names in real size. I picked names with concrete same-day momentum plus either congress disclosure backing (AMD via Rep. Allen +13.2% excess, CRWD/AMAT via Cisneros/Gottheimer/Moskowitz) or fresh news catalysts (META Trump-Xi AI dinner, GOOGL analyst coverage), plus NVDA and OKLO for AI/nuclear momentum exposure per backtest sector strength. Track record shows momentum+congress combos rank well (avg_ret 0.05-0.02%), and auto_bracket/risk_management stops protect the downside given the mandatory 30-min max hold.
-lesson: On a flat book with full_deployment active, hitting 6 names each near max size beats waiting for a perfect single idea; today's evidence set (news+congress+momentum overlap) justified going to nearly full budget in one check.
   (dropped META: 94% up today's range — resting a limit at $690.82 instead of chasing)
   (dropped CRWD: 92% up today's range — resting a limit at $234.34 instead of chasing)
   (dropped OKLO: 91% up today's range — resting a limit at $39.86 instead of chasing)
@@ -398,3 +396,5 @@ lesson: Acted on repeated 'deploy more' lessons by placing real buy orders acros
 ~ WORKING buy_limit $1000.00 MSFT @ $492.19 until 2026-09-22 — strong month, weak day: resting 0.41% under $494.23 to catch the dip
 portfolio: equity $32786.81 (+31.15% on $25000.00 in) · cash $28289.10 · realised +7789.10
 Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $22500.00 this week
+- SELL 100% OKLO [time stop] -> $2003.38 (+0.17%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders

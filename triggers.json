@@ -7216,7 +7216,7 @@
    "ticker": "OKLO",
    "kind": "stop_loss",
    "price": 37.63,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:45",
    "created_ts": 1790005555,
    "why": "Protective stop on new OKLO position",
@@ -7225,7 +7225,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5b525ad8",
@@ -7343,7 +7345,7 @@
    "ticker": "OKLO",
    "kind": "take_profit",
    "price": 40.4435,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:45",
    "created_ts": 1790005555,
    "why": "close 100% at +0.7% over the average cost",
@@ -7353,14 +7355,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b2c25554",
    "ticker": "OKLO",
    "kind": "buy_limit",
    "price": 38.9552,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:45",
    "created_ts": 1790005555,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7370,7 +7374,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1450ef6f",

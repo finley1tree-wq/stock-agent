@@ -13437,3 +13437,5 @@ lesson: Acted on repeated 'deploy more' lessons by placing real buy orders acros
 ~ WORKING buy_limit $1000.00 MSFT @ $492.19 until 2026-09-22 — strong month, weak day: resting 0.41% under $494.23 to catch the dip
 portfolio: equity $32786.81 (+31.15% on $25000.00 in) · cash $28289.10 · realised +7789.10
 Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $22500.00 this week
+- SELL 100% OKLO [time stop] -> $2003.38 (+0.17%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
