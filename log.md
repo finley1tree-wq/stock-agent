@@ -13303,3 +13303,5 @@ Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $17870.48 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $92.59] -> $1430.89 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% MSFT [time stop] -> $1424.23 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders

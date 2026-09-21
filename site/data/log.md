@@ -1,5 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 ~ WORKING buy_limit $500.00 CRWD @ $232.93 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25172.85 (+0.69% on $25000.00 in) · cash $22191.81 · realised +191.81
 Decision: nothing at this check. 3 standing order(s) working.
@@ -398,3 +396,5 @@ Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $17870.48 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $92.59] -> $1430.89 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% MSFT [time stop] -> $1424.23 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
