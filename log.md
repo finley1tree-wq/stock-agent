@@ -13329,3 +13329,6 @@ lesson: With min_positions=8 and cash_idle_pct>90%, deploy meaningfully every ch
 ~ WORKING buy_limit $500.00 GLD @ $386.87 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25276.15 (+1.10% on $25000.00 in) · cash $18781.06 · realised +281.06
 Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $18611.04 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $711.99] -> $2509.67 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-09-21 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders

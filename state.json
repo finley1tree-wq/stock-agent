@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 6388.96,
+  "spent": 3879.29,
   "deployed": 50041.67,
   "by_ticker": {
     "NOC": 10.51,
@@ -9,7 +9,6 @@
     "IBM": 3.52,
     "MSFT": 0.77,
     "GOOGL": 2000.0,
-    "META": 2500.0,
     "GLD": 2000.0
   },
   "deployed_by_ticker": {
@@ -926,13 +925,34 @@
         "momentum"
       ],
       "evidence": "Fidelity headline 'Sees Gold Climbing Toward $5,000', GLD at 62% day range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 3.524841,
+      "status": "filled",
+      "price": 711.99,
+      "proceeds": 2509.67,
+      "realized_pnl": 9.67,
+      "realized_pct": 0.39,
+      "date": "2026-09-21",
+      "time_et": "11:18",
+      "ts": 1790003700,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $709.25",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 6388.96,
+  "spent_today": 3879.29,
   "deployed_today": 50041.67,
   "orders_today": 25,
-  "sells_today": 22,
+  "sells_today": 23,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -950,7 +970,8 @@
     "TSM",
     "AVGO",
     "UNH",
-    "IBM"
+    "IBM",
+    "META"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -969,39 +990,37 @@
     "TSM": 1790000723,
     "AVGO": 1790000769,
     "UNH": 1790001628,
-    "IBM": 1790001628
+    "IBM": 1790001628,
+    "META": 1790003914
   },
-  "last_publish_ts": 1790003635,
-  "last_check_ts": 1790003830,
+  "last_publish_ts": 1790003913,
+  "last_check_ts": 1790003913,
   "last_bar_ts": 1790003700,
   "last_decision_ts": 1790003635,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "7a710854": 356.1889,
+    "e367ed2d": 399.6975,
     "78baf00f": 13.8872,
     "100b684c": 353.764,
-    "e367ed2d": 399.6975,
-    "580d1d3a": 711.9948,
-    "7a710854": 356.1889,
-    "639b261c": 352.499,
     "17531d51": 150.1202,
+    "639b261c": 352.499,
     "846c83a9": 351.1349,
-    "6f013a49": 130.8718,
     "9f3f4a8e": 517.0,
-    "fe34652d": 699.7795,
-    "799399fd": 332.6577,
     "230d3e80": 56.0309,
+    "799399fd": 332.6577,
+    "6f013a49": 130.8718,
     "969528a9": 353.0,
-    "f75af3bd": 695.0,
-    "22dc2ba1": 347.0,
+    "fe34652d": 699.7795,
     "1ce5fa8b": 390.0,
-    "31028f0b": 690.82,
-    "9e6e7c4c": 344.6313,
+    "22dc2ba1": 347.0,
     "d8c3175b": 240.1175,
-    "4a653e9d": 687.9725,
-    "442585d3": 386.8748,
     "33c9d89c": 239.7875,
     "151ee42b": 239.6939,
+    "442585d3": 386.8748,
+    "31028f0b": 690.82,
+    "9e6e7c4c": 344.6313,
     "a5c4e753": 234.3425
   }
 }
