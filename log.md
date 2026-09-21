@@ -13612,3 +13612,6 @@ portfolio: equity $32786.41 (+31.15% on $25000.00 in) · cash $22289.85 · reali
 Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
 - BUY $2000.00 LMT [buy_limit @ $533.85] — wanted it, but not at the high — resting at $533.85. Defense sector strength with concrete demand headline, not held
 ## 2026-09-21 13:08 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 3 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $497.55] -> $1503.29 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-21 13:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
