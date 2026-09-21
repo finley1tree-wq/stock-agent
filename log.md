@@ -13297,3 +13297,6 @@ lesson: Persistent high idle cash (79.5%) with below-target position count is th
 ~ WORKING buy_limit $1000.00 TTD @ $13.89 until 2026-09-22 — strong month, weak day: resting 0.95% under $14.02 to catch the dip
 portfolio: equity $25254.56 (+1.02% on $25000.00 in) · cash $18040.49 · realised +265.49
 Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $17870.48 this week
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [take_profit @ $457.93] -> $2385.44 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-21 11:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
