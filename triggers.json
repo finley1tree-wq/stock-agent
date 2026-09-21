@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "8d69502d",
-   "ticker": "INTC",
-   "kind": "take_profit",
-   "price": 107.5603,
-   "status": "cancelled",
-   "created": "2026-09-18 12:51",
-   "created_ts": 1789750314,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $106.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "525626ca",
    "ticker": "INTC",
    "kind": "stop_loss",
@@ -7196,7 +7177,7 @@
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 177.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:11",
    "created_ts": 1790014300,
    "why": "Protective stop on new PLTR buy",
@@ -7205,7 +7186,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:42",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "2694f8f7",
@@ -7267,7 +7250,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 182.8117,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:25",
    "created_ts": 1790015118,
    "why": "close 100% at +0.4% over the average cost",
@@ -7277,14 +7260,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:42",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "11a1dc25",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 176.54,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:25",
    "created_ts": 1790015118,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7294,7 +7279,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 14:42",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "266ebe6b",
@@ -7445,7 +7432,25 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "f595ac61",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 459.3347,
+   "status": "working",
+   "created": "2026-09-21 14:42",
+   "created_ts": 1790016128,
+   "why": "wanted it, but not at the high \u2014 resting at $459.33. Strong daily momentum plus congressional buy overlap, not held",
+   "evidence": "AMAT +4.53% today, Josh Gottheimer disclosed AMAT buy 2026-08-06 (disclosed 2026-09-14)",
+   "signals": [
+    "momentum",
+    "congress",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 1500.0
   }
  ],
- "updated": "2026-09-21 14:37"
+ "updated": "2026-09-21 14:42"
 }

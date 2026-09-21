@@ -1,28 +1,3 @@
-~ WORKING buy_limit $2500.00 NVDA @ $223.73 until 2026-09-21 — wanted it, but not at the high — resting at $223.73. Core AI leader with continued momentum and positive sentiment, not held, not in cooldown
-~ WORKING buy_limit $2000.00 PLTR @ $179.89 until 2026-09-21 — wanted it, but not at the high — resting at $179.89. Strong intraday momentum with fresh coverage, not held, not in cooldown
-~ WORKING buy_limit $2000.00 RTX @ $193.83 until 2026-09-21 — wanted it, but not at the high — resting at $193.83. Defense sector has best hit_rate in track record (0.71), fresh broker coverage, not held
-~ WORKING buy_limit $2000.00 LMT @ $533.85 until 2026-09-21 — wanted it, but not at the high — resting at $533.85. Defense sector strength with concrete demand headline, not held
-~ WORKING take_profit 100% AMD @ $612.57 until 2026-09-26 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $591.45 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% OKLO @ $40.44 until 2026-09-26 — close 100% at +0.7% over the average cost
-~ WORKING buy_limit $500.00 OKLO @ $38.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25299.00 (+1.20% on $25000.00 in) · cash $17802.81 · realised +302.81
-Done: 0 sell(s), 3 buy(s); 29 order(s) working; budget left $17632.79 this week
-  (cancelled 2 standing order(s) on AMD: position closed)
-- SELL 100% AMD [stop_loss @ $2437.26] -> $9993.00 (+299.72%) — Protective stop on new AMD position
-## 2026-09-21 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% TSM [time stop] -> $2993.30 (-0.22%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 12:02 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $61041.67 put to work, 31 buys, 29 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Book is at only 1 position (OKLO) with 100% cash idle despite min_positions=8 and full_deployment active requiring concentration in up to 6 names. Deploying now into META (biggest news catalyst, cooldown almost expired), GOOGL, CRWD, CCJ at market since they're evidence-backed and not in blocking cooldown, while queuing AMD and TSM via buy_limit since their cooldowns (33/43 min) haven't cleared yet. This directly acts on repeated past lessons about idle cash rather than restating them.
-lesson: Acted on repeated 'deploy more' lessons by placing real buy orders across 4 non-cooldown names plus limit orders for 2 cooldown names, moving toward min_positions=8 rather than writing another idle-cash lesson.
   (dropped META: sold 44 min ago, cooling off)
   (dropped AMD: sold 12 min ago, cooling off)
   (dropped TSM: sold 2 min ago, cooling off)
@@ -398,3 +373,28 @@ Done: 0 sell(s), 3 buy(s); 60 order(s) working; budget left $13491.81 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $443.29] -> $2004.87 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-21 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% PLTR [time stop] -> $1997.22 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 14:42 ET (Monday) — week 2026-W39 — budget left $17493.90 (today $107903.74 put to work, 52 buys, 48 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Only 3 positions held vs min_positions of 8, with 70% cash idle - a documented drag per counterfactual and past lessons. Deploying market orders now in evidence-backed non-cooldown names (NVDA, PLTR, AAPL, AMAT) at $1.5-2.5k each with protective stops, consistent with the repeated lesson that resting limits alone fail to fill in time before max_hold_minutes closes positions.
+lesson: Market orders with stops reliably close the position-count gap when below min_positions with idle cash; keep sizing at $1.5-2.5k per name across non-cooldown, evidence-backed tickers each check near market close.
+  (dropped PLTR: sold 0 min ago, cooling off)
+  (dropped NVDA: 96% up today's range — resting a limit at $224.92 instead of chasing)
+  (dropped AAPL: 96% up today's range — resting a limit at $336.47 instead of chasing)
+  (dropped AMAT: 99% up today's range — resting a limit at $459.33 instead of chasing)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger AAPL stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger AAPL buy_limit: duplicate of a working order)
+~ WORKING buy_limit $1500.00 AMAT @ $459.33 until 2026-09-21 — wanted it, but not at the high — resting at $459.33. Strong daily momentum plus congressional buy overlap, not held
+portfolio: equity $32772.12 (+31.09% on $25000.00 in) · cash $25283.74 · realised +7783.74
+Decision: nothing at this check. 57 standing order(s) working.

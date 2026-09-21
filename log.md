@@ -13794,3 +13794,28 @@ Done: 0 sell(s), 3 buy(s); 60 order(s) working; budget left $13491.81 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $443.29] -> $2004.87 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-21 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% PLTR [time stop] -> $1997.22 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 14:42 ET (Monday) — week 2026-W39 — budget left $17493.90 (today $107903.74 put to work, 52 buys, 48 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Only 3 positions held vs min_positions of 8, with 70% cash idle - a documented drag per counterfactual and past lessons. Deploying market orders now in evidence-backed non-cooldown names (NVDA, PLTR, AAPL, AMAT) at $1.5-2.5k each with protective stops, consistent with the repeated lesson that resting limits alone fail to fill in time before max_hold_minutes closes positions.
+lesson: Market orders with stops reliably close the position-count gap when below min_positions with idle cash; keep sizing at $1.5-2.5k per name across non-cooldown, evidence-backed tickers each check near market close.
+  (dropped PLTR: sold 0 min ago, cooling off)
+  (dropped NVDA: 96% up today's range — resting a limit at $224.92 instead of chasing)
+  (dropped AAPL: 96% up today's range — resting a limit at $336.47 instead of chasing)
+  (dropped AMAT: 99% up today's range — resting a limit at $459.33 instead of chasing)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger AAPL stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger AAPL buy_limit: duplicate of a working order)
+~ WORKING buy_limit $1500.00 AMAT @ $459.33 until 2026-09-21 — wanted it, but not at the high — resting at $459.33. Strong daily momentum plus congressional buy overlap, not held
+portfolio: equity $32772.12 (+31.09% on $25000.00 in) · cash $25283.74 · realised +7783.74
+Decision: nothing at this check. 57 standing order(s) working.
