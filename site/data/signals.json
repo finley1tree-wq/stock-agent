@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-21T15:29-04:00",
+ "asOf": "2026-09-21T15:31-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.23,
-   "pct_away": 0.21,
+   "last": 194.36,
+   "pct_away": 0.15,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 525.28,
-   "pct_away": 0.27,
+   "last": 525.13,
+   "pct_away": 0.3,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -180,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 376.4,
-   "pct_away": 0.48,
+   "last": 376.38,
+   "pct_away": 0.49,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.53,
-   "pct_away": 0.5,
+   "last": 93.47,
+   "pct_away": 0.57,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -214,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.53,
-   "pct_away": -0.91,
+   "last": 93.47,
+   "pct_away": -0.85,
    "good_until": "2026-09-26",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -231,26 +231,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 525.28,
-   "pct_away": -1.96,
+   "last": 525.13,
+   "pct_away": -1.93,
    "good_until": "2026-09-21",
    "why": "protective stop on new NOC buy",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "fe9e4034",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 190.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 194.23,
-   "pct_away": -2.18,
-   "good_until": "2026-09-21",
-   "why": "protective stop on new RTX buy",
    "signals": [
     "risk_management"
    ]
@@ -263,7 +247,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 376.4,
+   "last": 376.38,
    "pct_away": -2.23,
    "good_until": "2026-09-21",
    "why": "protective stop on new UNH buy",
@@ -272,14 +256,30 @@
    ]
   },
   {
-   "id": "9ef2154c",
+   "id": "fe9e4034",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 190.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 194.36,
+   "pct_away": -2.24,
+   "good_until": "2026-09-21",
+   "why": "protective stop on new RTX buy",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "ed8dc5ed",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.7773,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 376.4,
+   "last": 376.38,
    "pct_away": -2.82,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -289,15 +289,15 @@
    ]
   },
   {
-   "id": "c0d194f1",
+   "id": "da5e3c91",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 90.8114,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 93.53,
-   "pct_away": -2.91,
+   "last": 93.47,
+   "pct_away": -2.84,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -306,15 +306,15 @@
    ]
   },
   {
-   "id": "c74db195",
+   "id": "4ea29b10",
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 509.6089,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 525.28,
-   "pct_away": -2.98,
+   "last": 525.13,
+   "pct_away": -2.96,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -323,15 +323,15 @@
    ]
   },
   {
-   "id": "2a4be14c",
+   "id": "088b949a",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.3934,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.23,
-   "pct_away": -3.0,
+   "last": 194.36,
+   "pct_away": -3.07,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
