@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-21T09:36-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-09-21T09:37-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,10 +146,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 152.43,
-   "pct_away": 0.28,
+   "last": 152.86,
+   "pct_away": 0.0,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0c3168c1",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 152.7,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 152.86,
+   "pct_away": -0.1,
+   "good_until": "2026-09-26",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 13.98,
-   "pct_away": -0.36,
+   "last": 13.99,
+   "pct_away": -0.43,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.93% under $14.06 to catch the dip",
    "signals": [
@@ -180,8 +197,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.7,
-   "pct_away": -0.53,
+   "last": 494.19,
+   "pct_away": -0.43,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.40% under $494.04 to catch the dip",
    "signals": [
@@ -190,37 +207,20 @@
    ]
   },
   {
-   "id": "c4cb4e0e",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 151.4553,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 152.43,
-   "pct_away": -0.64,
-   "good_until": "2026-09-26",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bc229357",
-   "ticker": "OKLO",
+   "id": "230d3e80",
+   "ticker": "SKWD",
    "kind": "buy_limit",
-   "price": 39.861,
-   "usd": 3000.0,
+   "price": 56.0309,
+   "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 40.12,
+   "last": 56.4,
    "pct_away": -0.65,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
+   "good_until": "2026-09-22",
+   "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
    "signals": [
     "momentum",
-    "patience"
+    "dip_entry"
    ]
   },
   {
@@ -231,8 +231,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 438.69,
-   "pct_away": -0.74,
+   "last": 438.64,
+   "pct_away": -0.72,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.46% under $437.46 to catch the dip",
    "signals": [
@@ -248,8 +248,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 354.17,
-   "pct_away": -0.86,
+   "last": 353.7,
+   "pct_away": -0.73,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
@@ -259,20 +259,20 @@
    ]
   },
   {
-   "id": "230d3e80",
-   "ticker": "SKWD",
+   "id": "bc229357",
+   "ticker": "OKLO",
    "kind": "buy_limit",
-   "price": 56.0309,
-   "usd": 1000.0,
+   "price": 39.861,
+   "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 56.54,
-   "pct_away": -0.9,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
+   "last": 40.22,
+   "pct_away": -0.89,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
    "signals": [
     "momentum",
-    "dip_entry"
+    "patience"
    ]
   },
   {
@@ -283,8 +283,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 178.94,
-   "pct_away": -1.01,
+   "last": 178.91,
+   "pct_away": -0.99,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.81% under $178.59 to catch the dip",
    "signals": [
@@ -300,8 +300,8 @@
    "usd": 4200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 698.86,
-   "pct_away": -1.15,
+   "last": 699.0,
+   "pct_away": -1.17,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
    "signals": [
@@ -318,8 +318,8 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 238.4,
-   "pct_away": -1.7,
+   "last": 237.32,
+   "pct_away": -1.25,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
@@ -336,8 +336,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 152.43,
-   "pct_away": -2.98,
+   "last": 152.86,
+   "pct_away": -3.25,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
