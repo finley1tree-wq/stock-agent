@@ -1,5 +1,3 @@
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Still well below min_positions (3 of 8) with 70% idle cash - the recurring, measured drag per past_lessons_with_outcome. Deploying real market-size buys now into META (strongest momentum+news), AVGO/AMAT (AI semis with congress overlap), CRWD (congress buy disclosure + momentum), NOC (defense demand headline), and GOOGL (widely-held momentum) to push toward min_positions in size ($1.5-3k each) rather than relying only on resting limits that keep expiring unfilled.
 lesson: When below min_positions with idle cash, place actual market buys sized $1.5-3k across several evidence-backed names in the same check rather than only leaving resting limits - resting limits alone have repeatedly failed to close the position-count gap today.
   (dropped GOOGL: sold 26 min ago, cooling off)
   (dropped META: 97% up today's range — resting a limit at $707.29 instead of chasing)
@@ -389,6 +387,8 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 1 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $94.00] -> $2008.13 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 15:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
