@@ -1,35 +1,3 @@
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-~ WORKING buy_limit $3000.00 AMD @ $605.00 until 2026-09-21 — Wait for cooldown to clear and modest pullback rather than chasing at 84% of range
-~ WORKING buy_limit $2500.00 TSM @ $436.00 until 2026-09-21 — Resting limit to catch entry once cooldown clears without chasing
-~ WORKING stop_loss 100% CCJ @ $89.50 until 2026-09-21 — Protective stop on new CCJ position
-~ WORKING buy_limit $2500.00 CRWD @ $240.20 until 2026-09-21 — wanted it, but not at the high — resting at $240.20. Congress buying overlap plus strong momentum catalyst, buying near market given strength
-~ WORKING take_profit 100% CCJ @ $93.12 until 2026-09-26 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $89.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 MSFT @ $492.19 until 2026-09-22 — strong month, weak day: resting 0.41% under $494.23 to catch the dip
-portfolio: equity $32786.81 (+31.15% on $25000.00 in) · cash $28289.10 · realised +7789.10
-Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $22500.00 this week
-- SELL 100% OKLO [time stop] -> $2003.38 (+0.17%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 12:18 ET (Monday) — week 2026-W39 — budget left $24503.38 (today $63541.67 put to work, 32 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Still far below min_positions (1 held vs target 8) with 98% cash idle - the biggest actionable problem per repeated lessons. Deploying into fresh non-cooldown names with concrete headline catalysts and momentum (GOOGL, NVDA, PLTR, AVGO, RTX, CRWD, IBM) to reach 8 positions in size ($1.5-2.5k each), while adding protective stops given several are high in day range. Avoided cooldown names (AMD, META, TSM, GLD, AAPL, OKLO) per rules; left CCJ's existing bracket largely intact.
-lesson: When below min_positions with high idle cash, buy actual market orders in size across several non-cooldown names immediately rather than only resting limits - waiting for perfect dips has repeatedly failed to close the position-count gap across many checks today.
-  (dropped NVDA: 96% up today's range — resting a limit at $223.73 instead of chasing)
-  (dropped PLTR: 95% up today's range — resting a limit at $180.00 instead of chasing)
-  (dropped AVGO: 92% up today's range — resting a limit at $357.10 instead of chasing)
-  (dropped RTX: 91% up today's range — resting a limit at $194.13 instead of chasing)
-  (dropped CRWD: 93% up today's range — resting a limit at $240.46 instead of chasing)
-- BUY $2413.79 GOOGL [filled] ['momentum', 'news'] — Widely-held sector has best track record avg_ret 11.01%, buying near market since limits below haven't filled | evidence: GOOGL +1.92% today, 84% of day range, headline 'Stock Market Today: Dow Up As Boeing, Nvidia Pop' plus Bessent AI comments
-- BUY $1448.28 IBM [filled] ['news', 'momentum'] — Low in day range gives better entry, diversify away from AI-only names | evidence: IBM at 17% of day range (low), -0.05% today but 'IBM Has Raised Its Dividend for 31 Years' dividend stability headline
-  (dropped trigger NVDA take_profit: not held)
   (dropped trigger PLTR stop_loss: not held)
   (dropped trigger CRWD stop_loss: not held)
   (dropped trigger NVDA buy_limit: duplicate of a working order)
@@ -398,3 +366,35 @@ Decision: nothing at this check. 57 standing order(s) working.
 - SELL 100% OKLO [time stop] -> $2504.85 (+0.19%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $2500.64 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 14:56 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 14:58 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $107903.74 put to work, 52 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Book is at zero positions with 100% idle cash near market close, and repeated lessons plus counterfactual data show idle cash while below min_positions is a measured drag. Deploying market-size orders ($2-2.5k each) across 8 evidence-backed liquid names to hit min_positions before the session's remaining checks, each with protective stops attached.
+lesson: At 8 names x $2-2.5k with attached stops in one check, closing the position-count gap directly rather than layering more resting limits that keep expiring unfilled - continue this pattern when below min_positions with idle cash.
+  (dropped MSFT: sold 11 min ago, cooling off)
+  (dropped TSM: sold 22 min ago, cooling off)
+  (dropped AMD: sold 3 min ago, cooling off)
+  (dropped CCJ: sold 34 min ago, cooling off)
+  (dropped UNH: sold 34 min ago, cooling off)
+  (dropped NVDA: 90% up today's range — resting a limit at $225.38 instead of chasing)
+  (dropped AVGO: 98% up today's range — resting a limit at $358.71 instead of chasing)
+- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name, fresh positive catalyst, at 67% of day range not extreme | evidence: GOOGL +1.5% today, Kairos Power/Samsung nuclear-AI deal headline
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+~ WORKING stop_loss 100% GOOGL @ $347.50 until 2026-09-21 — protective stop on new GOOGL position
+~ WORKING buy_limit $2500.00 NVDA @ $225.38 until 2026-09-21 — wanted it, but not at the high — resting at $225.38. Core AI momentum leader, market buy for size to build position count near close
+~ WORKING buy_limit $2500.00 AVGO @ $358.71 until 2026-09-21 — wanted it, but not at the high — resting at $358.71. AI semis exposure, widely_held sector strongest track record bucket
+~ WORKING take_profit 100% GOOGL @ $355.74 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $344.19 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32794.26 (+31.18% on $25000.00 in) · cash $30294.76 · realised +7794.76
+Done: 0 sell(s), 1 buy(s); 53 order(s) working; budget left $22500.00 this week

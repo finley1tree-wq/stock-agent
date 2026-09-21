@@ -1,101 +1,6 @@
 {
  "orders": [
   {
-   "id": "525626ca",
-   "ticker": "INTC",
-   "kind": "stop_loss",
-   "price": 105.3894,
-   "status": "cancelled",
-   "created": "2026-09-18 12:51",
-   "created_ts": 1789750314,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $106.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d8265f1d",
-   "ticker": "INTC",
-   "kind": "buy_limit",
-   "price": 103.7318,
-   "status": "cancelled",
-   "created": "2026-09-18 12:51",
-   "created_ts": 1789750314,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $106.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0d81506f",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 238.9056,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $237.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "381305a2",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 233.8099,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "close it all at -1.5% under the average cost",
-   "evidence": "average cost $237.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4d162fad",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 230.3265,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $237.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f48d66ff",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -7467,7 +7372,93 @@
    ],
    "good_until": "2026-09-21",
    "usd": 1500.0
+  },
+  {
+   "id": "e830e9d1",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 347.5,
+   "status": "working",
+   "created": "2026-09-21 14:58",
+   "created_ts": 1790017095,
+   "why": "protective stop on new GOOGL position",
+   "evidence": "ATR 2.28%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2799d9ce",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 225.377,
+   "status": "working",
+   "created": "2026-09-21 14:58",
+   "created_ts": 1790017095,
+   "why": "wanted it, but not at the high \u2014 resting at $225.38. Core AI momentum leader, market buy for size to build position count near close",
+   "evidence": "NVDA +2.5% today, +8% 5d, day range 90.3%, AI chip demand headlines",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "c4a38a7f",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 358.714,
+   "status": "working",
+   "created": "2026-09-21 14:58",
+   "created_ts": 1790017095,
+   "why": "wanted it, but not at the high \u2014 resting at $358.71. AI semis exposure, widely_held sector strongest track record bucket",
+   "evidence": "AVGO +1.45% today, 'AI Chips Target $21.7 Billion' headline",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "aa045864",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 355.7377,
+   "status": "working",
+   "created": "2026-09-21 14:58",
+   "created_ts": 1790017095,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $354.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38abf1a1",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 344.1948,
+   "status": "working",
+   "created": "2026-09-21 14:58",
+   "created_ts": 1790017095,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $354.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 14:48"
+ "updated": "2026-09-21 14:58"
 }
