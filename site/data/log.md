@@ -1,40 +1,3 @@
-~ WORKING buy_limit $1500.00 NOC @ $517.00 until 2026-09-21 — resting limit below market to catch a dip in a defense name with strong track record
-~ WORKING buy_limit $1500.00 AVGO @ $353.00 until 2026-09-21 — resting limit to catch dip once cooldown clears, semis AI exposure
-~ WORKING buy_limit $2500.00 CRWD @ $240.12 until 2026-09-21 — wanted it, but not at the high — resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst
-~ WORKING take_profit 100% GOOGL @ $356.19 until 2026-09-26 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $344.63 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 TTD @ $13.89 until 2026-09-22 — strong month, weak day: resting 0.95% under $14.02 to catch the dip
-portfolio: equity $25254.56 (+1.02% on $25000.00 in) · cash $18040.49 · realised +265.49
-Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $17870.48 this week
-  (cancelled 2 standing order(s) on AMAT: position closed)
-- SELL 100% AMAT [take_profit @ $457.93] -> $2385.44 (+0.44%) — close 100% at +0.4% over the average cost
-## 2026-09-21 11:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $92.59] -> $1430.89 (+0.41%) — close 100% at +0.4% over the average cost
-## 2026-09-21 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% MSFT [time stop] -> $1424.23 (-0.05%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 11:13 ET (Monday) — week 2026-W39 — budget left $23111.04 (today $45541.67 put to work, 23 buys, 22 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Only 1 position held (GOOGL) with 92.4% cash idle and below min_positions of 8 - this is a persistent problem flagged in past lessons across multiple checks today. Deploying into META (fresh breakout catalyst), AMD (relentless rally headline), CCJ (Westinghouse IPO catalyst, low day range entry), and GLD (Fidelity $5000 gold call) to build toward min_positions with concrete evidence-backed names, each protected with a stop_loss per risk_management (highest realized hit_rate signal at 0.85).
-lesson: With min_positions=8 and cash_idle_pct>90%, deploy meaningfully every check into fresh headline-backed names rather than relying solely on resting limits that haven't filled.
-  (dropped AMD: sold 28 min ago, cooling off)
-  (dropped CCJ: sold 9 min ago, cooling off)
-- BUY $2500.00 META [filled] ['news', 'momentum'] — Strong breakout with fresh catalyst, buying at market given 80% day range is under max_entry_range_pct 85 | evidence: META +6.51% today, +29.91% 1m, headline 'Trump and Xi dine with AI titans and Meta takes the stage' and 'I'm going to keep on accumulating' 24/7 Wall St piece
-- BUY $2000.00 GLD [filled] ['news', 'momentum'] — Gold sector diversifier with strong bullish catalyst, backtest shows gold 2y avg return 114% | evidence: Fidelity headline 'Sees Gold Climbing Toward $5,000', GLD at 62% day range
-  (dropped trigger AMD stop_loss: not held)
-  (dropped trigger CCJ stop_loss: not held)
-~ WORKING stop_loss 100% META @ $695.00 until 2026-09-21 — protect new META position
-~ WORKING stop_loss 100% GLD @ $390.00 until 2026-09-21 — protect new GLD position
-~ WORKING take_profit 100% META @ $711.99 until 2026-09-26 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 META @ $687.97 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GLD @ $399.70 until 2026-09-26 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 GLD @ $386.87 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25276.15 (+1.10% on $25000.00 in) · cash $18781.06 · realised +281.06
 Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $18611.04 this week
@@ -398,3 +361,40 @@ Decision: nothing at this check. 49 standing order(s) working.
 ## 2026-09-21 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% GOOGL [time stop] -> $2502.02 (+0.08%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 13:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 13:55 ET (Monday) — week 2026-W39 — budget left $24987.61 (today $86403.74 put to work, 43 buys, 42 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Book is at zero positions with 100% idle cash despite min_positions=8 and full_deployment active - past lessons and counterfactual data both show idle cash is a measured drag (idle_share 0.6) and market-order sizing $2-3k has been what actually closes the position-count gap versus resting limits alone. Placing 8 market buys across momentum/news-backed names spanning tech, defense, nuclear, healthcare sectors to diversify while respecting cooldowns (excluding AMD, PLTR, TSM, AVGO, MSFT, LMT, NOC, TTD, AMAT which are in cooldown).
+lesson: With below min_positions and idle cash, immediately place sized market buys ($2-3k) across multiple evidence-backed non-cooldown names rather than relying solely on resting limits which repeatedly failed to fill.
+  (dropped GOOGL: sold 3 min ago, cooling off)
+  (dropped NVDA: 96% up today's range — resting a limit at $224.92 instead of chasing)
+  (dropped SPY: 95% up today's range — resting a limit at $769.96 instead of chasing)
+  (dropped AAPL: 86% up today's range — resting a limit at $336.47 instead of chasing)
+- BUY $3000.00 RTX [filled] ['momentum', 'news', 'track_record'] — Defense sector strength, ballistic missile demand headline | evidence: RTX +0.2% today, defense sector best hit_rate 0.71 in track record per prior notes
+- BUY $2500.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector catalyst, concrete filing-like headline | evidence: CCJ +1.75% today, Westinghouse IPO headline at $50B valuation with Cameco stake worth $24.5B
+- BUY $2500.00 UNH [filled] ['momentum'] — Diversify sector, add position count with low volatility name | evidence: UNH +0.04% today, 62.7% of range, healthcare defensive name not in cooldown
+- BUY $2000.00 IBM [filled] ['news'] — Concrete positive catalyst, low in day range (6%) so limited chase risk | evidence: IBM headline: 'IBM Takes a Billion-Dollar Step Toward Becoming Quantum's Foundry King'
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% RTX @ $190.00 until 2026-09-21 — Cap downside on new RTX buy
+~ WORKING stop_loss 100% CCJ @ $90.00 until 2026-09-21 — Cap downside on new CCJ buy
+~ WORKING buy_limit $3000.00 NVDA @ $224.92 until 2026-09-21 — wanted it, but not at the high — resting at $224.92. AI leader continuing momentum, market buy for size since chase_limit resting orders haven't filled
+~ WORKING buy_limit $3000.00 SPY @ $769.96 until 2026-09-21 — wanted it, but not at the high — resting at $769.96. Low idiosyncratic risk name to help reach min_positions while book is empty
+~ WORKING buy_limit $2000.00 AAPL @ $336.47 until 2026-09-21 — wanted it, but not at the high — resting at $336.47. Widely-held sector has best avg_ret_pct 9.39% in track record by_sector
+~ WORKING take_profit 100% RTX @ $194.88 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $188.63 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $93.64 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $90.46 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $378.24 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% UNH @ $374.33 until 2026-09-26 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 UNH @ $365.81 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $229.59 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% IBM @ $226.75 until 2026-09-26 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $221.92 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32774.36 (+31.10% on $25000.00 in) · cash $22777.46 · realised +7777.46
+Done: 0 sell(s), 4 buy(s); 58 order(s) working; budget left $14987.61 this week
