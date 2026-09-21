@@ -13123,3 +13123,10 @@ Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $177.92] -> $1004.43 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $493.12] -> $1002.17 (+0.22%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on OKLO: position closed)
+- SELL 100% OKLO [take_profit @ $40.14] -> $3021.19 (+0.71%) — close 100% at +0.7% over the average cost
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $92.82] -> $2008.25 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-09-21 09:45 ET — tick — 3 sell(s), 0 buy(s) from standing orders

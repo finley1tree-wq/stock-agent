@@ -1,10 +1,3 @@
-
-## 2026-09-18 15:13 ET (Friday) — week 2026-W38 — budget left $18748.32 (today $205735.66 put to work, 73 buys, 70 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
   (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBSMefnhk8n6ter6g5wW'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +391,10 @@ Done: 0 sell(s), 4 buy(s); 31 order(s) working; budget left $11044.75 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $177.92] -> $1004.43 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $493.12] -> $1002.17 (+0.22%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on OKLO: position closed)
+- SELL 100% OKLO [take_profit @ $40.14] -> $3021.19 (+0.71%) — close 100% at +0.7% over the average cost
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $92.82] -> $2008.25 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-09-21 09:45 ET — tick — 3 sell(s), 0 buy(s) from standing orders

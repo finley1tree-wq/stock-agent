@@ -7130,7 +7130,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 493.1227,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-21 09:42",
    "created_ts": 1789998134,
    "why": "close 100% at +0.2% over the average cost",
@@ -7140,7 +7140,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 09:45"
   },
   {
    "id": "a67fcde4",
@@ -7166,7 +7167,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 477.2885,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:42",
    "created_ts": 1789998134,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7176,7 +7177,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6b37fdd9",
@@ -7202,7 +7205,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 492.512,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998216,
    "why": "close it all at -0.5% under the average cost",
@@ -7212,14 +7215,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4e47ab16",
    "ticker": "OKLO",
    "kind": "take_profit",
    "price": 40.1426,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998216,
    "why": "close 100% at +0.7% over the average cost",
@@ -7229,14 +7234,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 09:45"
   },
   {
    "id": "0d3b94e8",
    "ticker": "OKLO",
    "kind": "stop_loss",
    "price": 39.1533,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998216,
    "why": "close it all at -1.8% under the average cost",
@@ -7246,14 +7252,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0a31753d",
    "ticker": "OKLO",
    "kind": "buy_limit",
    "price": 38.6642,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998216,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7263,7 +7271,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5deaaa1b",
@@ -7318,7 +7328,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 90.9,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "Protect new position given higher volatility",
@@ -7327,7 +7337,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "61361e6e",
@@ -7436,7 +7448,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 92.8181,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "close 100% at +0.4% over the average cost",
@@ -7446,14 +7458,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 09:45"
   },
   {
    "id": "00e97bdd",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 89.6668,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7463,7 +7476,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "799399fd",

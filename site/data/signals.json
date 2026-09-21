@@ -1,6 +1,6 @@
 {
  "asOf": "2026-09-21T09:45-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "note": "tick: 3 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "e9380427",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 493.1227,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 493.61,
-   "pct_away": -0.1,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d232172c",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 92.8181,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 92.69,
-   "pct_away": 0.14,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "bd316064",
    "ticker": "LMT",
    "kind": "take_profit",
@@ -180,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 534.18,
-   "pct_away": 0.15,
+   "last": 534.41,
+   "pct_away": 0.11,
    "good_until": "2026-09-26",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -190,37 +156,20 @@
    ]
   },
   {
-   "id": "24387893",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 492.512,
+   "id": "61361e6e",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 524.1911,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 493.61,
-   "pct_away": -0.22,
+   "last": 522.99,
+   "pct_away": 0.23,
    "good_until": "2026-09-26",
-   "why": "close it all at -0.5% under the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "799399fd",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 332.6577,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 333.71,
-   "pct_away": -0.32,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.46% under $334.18 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -241,20 +190,20 @@
    ]
   },
   {
-   "id": "61361e6e",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 524.1911,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "799399fd",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 332.6577,
+   "usd": 1000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 522.39,
-   "pct_away": 0.34,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.2% over the average cost",
+   "last": 333.89,
+   "pct_away": -0.37,
+   "good_until": "2026-09-22",
+   "why": "strong month, weak day: resting 0.46% under $334.18 to catch the dip",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -275,17 +224,17 @@
    ]
   },
   {
-   "id": "4e47ab16",
-   "ticker": "OKLO",
+   "id": "119f1c60",
+   "ticker": "TTD",
    "kind": "take_profit",
-   "price": 40.1426,
+   "price": 14.0005,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 39.93,
-   "pct_away": 0.53,
+   "last": 13.92,
+   "pct_away": 0.58,
    "good_until": "2026-09-26",
-   "why": "close 100% at +0.7% over the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -309,40 +258,6 @@
    ]
   },
   {
-   "id": "119f1c60",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 14.0005,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 13.88,
-   "pct_away": 0.87,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "80cffe3e",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 13.7536,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 13.88,
-   "pct_away": -0.91,
-   "good_until": "2026-09-26",
-   "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "d7a4220a",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -350,29 +265,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 439.55,
-   "pct_away": -0.93,
+   "last": 439.65,
+   "pct_away": -0.95,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.46% under $437.46 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "5deaaa1b",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 517.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 522.39,
-   "pct_away": -0.94,
-   "good_until": "2026-09-26",
-   "why": "Protect against downside on new defense entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -392,6 +291,22 @@
    ]
   },
   {
+   "id": "5deaaa1b",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 517.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 522.99,
+   "pct_away": -1.05,
+   "good_until": "2026-09-26",
+   "why": "Protect against downside on new defense entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
    "id": "846c83a9",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -399,14 +314,31 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 354.85,
-   "pct_away": -1.05,
+   "last": 354.93,
+   "pct_away": -1.07,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "80cffe3e",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 13.7536,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.92,
+   "pct_away": -1.2,
+   "good_until": "2026-09-26",
+   "why": "close it all at -1.3% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -417,45 +349,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 534.18,
-   "pct_away": -1.16,
+   "last": 534.41,
+   "pct_away": -1.2,
    "good_until": "2026-09-26",
    "why": "Protect new position from reversal",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "ccc5612d",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 90.9,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 92.69,
-   "pct_away": -1.93,
-   "good_until": "2026-09-26",
-   "why": "Protect new position given higher volatility",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "0d3b94e8",
-   "ticker": "OKLO",
-   "kind": "stop_loss",
-   "price": 39.1533,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 39.93,
-   "pct_away": -1.95,
-   "good_until": "2026-09-26",
-   "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -466,31 +365,14 @@
    "usd": 4200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 705.18,
-   "pct_away": -2.04,
+   "last": 706.36,
+   "pct_away": -2.2,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
    "signals": [
     "news",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "1a7409e6",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.5121,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 13.88,
-   "pct_away": -2.65,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -511,6 +393,23 @@
    ]
   },
   {
+   "id": "1a7409e6",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.5121,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 13.92,
+   "pct_away": -2.93,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "37b85f00",
    "ticker": "NOC",
    "kind": "buy_limit",
@@ -518,8 +417,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 522.39,
-   "pct_away": -2.9,
+   "last": 522.99,
+   "pct_away": -3.01,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -535,59 +434,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 534.18,
-   "pct_away": -3.12,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0a31753d",
-   "ticker": "OKLO",
-   "kind": "buy_limit",
-   "price": 38.6642,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 39.93,
-   "pct_away": -3.17,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "00e97bdd",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 89.6668,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 92.69,
-   "pct_away": -3.26,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b4b2af25",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 477.2885,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 493.61,
-   "pct_away": -3.31,
+   "last": 534.41,
+   "pct_away": -3.16,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -603,8 +451,8 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 242.63,
-   "pct_away": -3.42,
+   "last": 242.88,
+   "pct_away": -3.52,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
