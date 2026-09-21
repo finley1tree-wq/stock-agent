@@ -1,43 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBR4A6Uw2GG7jBAAzpTp'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25186.51 (+0.75% on $25000.00 in) · cash $13025.66 · realised +197.33
-Decision: nothing at this check. 16 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% BE [time stop] -> $2973.50 (-0.88%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-18 14:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-18 14:59 ET (Friday) — week 2026-W38 — budget left $15571.42 (today $199735.66 put to work, 71 buys, 66 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBRH3TjUQoBF8T5rUw3U'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25169.60 (+0.68% on $25000.00 in) · cash $15999.16 · realised +170.83
-Decision: nothing at this check. 13 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 15:02 ET (Friday) — week 2026-W38 — budget left $15571.42 (today $199735.66 put to work, 71 buys, 66 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBRW6VueHoRab3yzQX3N'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $15,571 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.9% over the month; 84% of today's range
-~ WORKING take_profit 100% PLTR @ $177.68 until 2026-09-23 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% PLTR @ $174.92 until 2026-09-23 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 PLTR @ $171.58 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25171.98 (+0.69% on $25000.00 in) · cash $12999.16 · realised +170.83
-Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $12571.42 this week
-
 ## 2026-09-18 15:05 ET (Friday) — week 2026-W38 — budget left $12571.42 (today $202735.66 put to work, 72 buys, 66 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
@@ -398,3 +358,43 @@ Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-18 16:00 ET — published the session's closing state
 ## 2026-09-21 00:04 ET — published the session's closing state
+
+## 2026-09-21 09:32 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+  (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
+brain: Book is flat at 100% cash idle, and the owner's rule under full_deployment is to concentrate in up to 6 high-conviction names in real size. I picked names with concrete same-day momentum plus either congress disclosure backing (AMD via Rep. Allen +13.2% excess, CRWD/AMAT via Cisneros/Gottheimer/Moskowitz) or fresh news catalysts (META Trump-Xi AI dinner, GOOGL analyst coverage), plus NVDA and OKLO for AI/nuclear momentum exposure per backtest sector strength. Track record shows momentum+congress combos rank well (avg_ret 0.05-0.02%), and auto_bracket/risk_management stops protect the downside given the mandatory 30-min max hold.
+lesson: On a flat book with full_deployment active, hitting 6 names each near max size beats waiting for a perfect single idea; today's evidence set (news+congress+momentum overlap) justified going to nearly full budget in one check.
+  (dropped META: 94% up today's range — resting a limit at $690.82 instead of chasing)
+  (dropped CRWD: 92% up today's range — resting a limit at $234.34 instead of chasing)
+  (dropped OKLO: 91% up today's range — resting a limit at $39.86 instead of chasing)
+  (dropped GOOGL: 90% up today's range — resting a limit at $351.13 instead of chasing)
+- BUY $4200.00 AMD [filled] ['momentum', 'congress'] — Strongest momentum name on list with a proven congress buyer backing it | evidence: AMD +4.45% today, +18.51% 5d, +24.55% 1m; Rep. Rick W. Allen disclosed AMD buy with +13.2% excess return
+- BUY $3600.00 AMAT [filled] ['momentum', 'congress'] — Chip capex momentum plus two congress disclosures | evidence: AMAT +2.22% today; Josh Gottheimer and Jared Moskowitz both disclosed buys, congress_net_buy_pressure=2.0
+- BUY $3200.00 NVDA [filled] ['momentum', 'track_record'] — Core AI momentum name, moderate day range (50%) leaves room to run | evidence: NVDA +5.48% 5d, +2.62% 1m, widely-held sector with heavy AI news flow
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger OKLO stop_loss: not held)
+~ WORKING stop_loss 100% AMD @ $565.00 until 2026-09-21 — Cap downside on a fast mover
+~ WORKING buy_limit $4200.00 META @ $690.82 until 2026-09-21 — wanted it, but not at the high — resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%
+~ WORKING buy_limit $3800.00 CRWD @ $234.34 until 2026-09-21 — wanted it, but not at the high — resting at $234.34. Strong 1m momentum plus repeated congressional buying
+~ WORKING buy_limit $3000.00 OKLO @ $39.86 until 2026-09-21 — wanted it, but not at the high — resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector
+~ WORKING buy_limit $3000.00 GOOGL @ $351.13 until 2026-09-21 — wanted it, but not at the high — resting at $351.13. Steady widely-held momentum with fresh coverage
+~ WORKING take_profit 100% AMD @ $587.46 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $567.29 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMAT @ $456.53 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMAT @ $449.57 until 2026-09-26 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 AMAT @ $440.90 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $223.20 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NVDA @ $220.99 until 2026-09-26 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 NVDA @ $215.89 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CHRW @ $152.46 until 2026-09-22 — strong month, weak day: resting 0.49% under $153.20 to catch the dip
+~ WORKING buy_limit $1000.00 TTD @ $13.93 until 2026-09-22 — strong month, weak day: resting 0.93% under $14.06 to catch the dip
+~ WORKING buy_limit $1000.00 TSM @ $435.46 until 2026-09-22 — strong month, weak day: resting 0.46% under $437.46 to catch the dip
+~ WORKING buy_limit $1000.00 MSFT @ $492.05 until 2026-09-22 — strong month, weak day: resting 0.40% under $494.04 to catch the dip
+~ WORKING buy_limit $1000.00 PLTR @ $177.14 until 2026-09-22 — strong month, weak day: resting 0.81% under $178.59 to catch the dip
+~ WORKING buy_limit $1000.00 SKWD @ $56.03 until 2026-09-22 — strong month, weak day: resting 0.53% under $56.33 to catch the dip
+portfolio: equity $25167.80 (+0.67% on $25000.00 in) · cash $14170.00 · realised +170.00
+Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
