@@ -7148,7 +7148,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 367.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:10",
    "created_ts": 1789999803,
    "why": "protect new UNH entry",
@@ -7157,14 +7157,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "57df9110",
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 226.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:10",
    "created_ts": 1789999803,
    "why": "protect new IBM entry",
@@ -7173,7 +7175,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "fabe464a",
@@ -7290,7 +7294,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 375.7226,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:10",
    "created_ts": 1789999803,
    "why": "close 100% at +0.3% over the average cost",
@@ -7300,14 +7304,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8e96bc15",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 363.3717,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:10",
    "created_ts": 1789999803,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7317,14 +7323,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 10:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "e11722cb",
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 231.6109,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:10",
    "created_ts": 1789999803,
    "why": "close 100% at +0.3% over the average cost",
@@ -7334,14 +7342,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "fba5a65f",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 223.8857,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:10",
    "created_ts": 1789999803,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7351,7 +7361,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 10:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "20328186",

@@ -1,6 +1,3 @@
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBThHjNoDFfgbkwBQS8D'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +395,6 @@ lesson: Cooldowns from same-day flips block many high-momentum names; fresh head
 ~ WORKING buy_limit $1000.00 NVDA @ $222.33 until 2026-09-22 — strong month, weak day: resting 0.54% under $223.54 to catch the dip
 portfolio: equity $25255.70 (+1.02% on $25000.00 in) · cash $19752.47 · realised +252.47
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19582.45 this week
+- SELL 100% UNH [time stop] -> $1499.60 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $1496.48 (-0.23%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 10:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders

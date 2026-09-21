@@ -13231,3 +13231,6 @@ lesson: Cooldowns from same-day flips block many high-momentum names; fresh head
 ~ WORKING buy_limit $1000.00 NVDA @ $222.33 until 2026-09-22 — strong month, weak day: resting 0.54% under $223.54 to catch the dip
 portfolio: equity $25255.70 (+1.02% on $25000.00 in) · cash $19752.47 · realised +252.47
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19582.45 this week
+- SELL 100% UNH [time stop] -> $1499.60 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $1496.48 (-0.23%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 10:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders

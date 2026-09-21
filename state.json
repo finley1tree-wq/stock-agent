@@ -1,12 +1,12 @@
 {
   "week": "2026-W39",
-  "spent": 5417.55,
+  "spent": 2421.47,
   "deployed": 36416.67,
   "by_ticker": {
     "NOC": 10.51,
     "RTX": 10.98,
-    "UNH": 1500.0,
-    "IBM": 1500.0,
+    "UNH": 0.4,
+    "IBM": 3.52,
     "AMD": 2500.0
   },
   "deployed_by_ticker": {
@@ -657,13 +657,53 @@
         "news"
       ],
       "evidence": "AMD +8.79% today, +23.43% 5d on '10% chip price increase' report per 24/7 Wall St headline 13:37"
+    },
+    {
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 4.004112,
+      "status": "filled",
+      "price": 374.52,
+      "proceeds": 1499.6,
+      "realized_pnl": -0.4,
+      "realized_pct": -0.03,
+      "date": "2026-09-21",
+      "time_et": "10:40",
+      "ts": 1790001627,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.01% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 6.49896,
+      "status": "filled",
+      "price": 230.26,
+      "proceeds": 1496.48,
+      "realized_pnl": -3.52,
+      "realized_pct": -0.23,
+      "date": "2026-09-21",
+      "time_et": "10:40",
+      "ts": 1790001627,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.21% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 5417.55,
+  "spent_today": 2421.47,
   "deployed_today": 36416.67,
   "orders_today": 18,
-  "sells_today": 15,
+  "sells_today": 17,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -679,7 +719,9 @@
     "RTX",
     "PLD",
     "TSM",
-    "AVGO"
+    "AVGO",
+    "UNH",
+    "IBM"
   ],
   "sold_ts": {
     "AMAT": 1789997719,
@@ -696,35 +738,31 @@
     "RTX": 1790000036,
     "PLD": 1790000555,
     "TSM": 1790000723,
-    "AVGO": 1790000769
+    "AVGO": 1790000769,
+    "UNH": 1790001628,
+    "IBM": 1790001628
   },
-  "last_publish_ts": 1790000770,
-  "last_check_ts": 1790001540,
-  "last_bar_ts": 1790001300,
+  "last_publish_ts": 1790001627,
+  "last_check_ts": 1790001627,
+  "last_bar_ts": 1790001600,
   "last_decision_ts": 1790000770,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "3d07b1a2": 375.7226,
-    "e11722cb": 231.6109,
-    "d0db27f7": 611.9682,
     "17531d51": 150.1202,
+    "d0db27f7": 611.9682,
     "107dc8ca": 222.3306,
-    "230d3e80": 56.0309,
     "639b261c": 352.499,
+    "230d3e80": 56.0309,
     "6f013a49": 130.8718,
     "799399fd": 332.6577,
-    "846c83a9": 351.1349,
     "fe34652d": 699.7795,
-    "57df9110": 226.0,
-    "deb37700": 367.0,
+    "846c83a9": 351.1349,
+    "31028f0b": 690.82,
     "33c9d89c": 239.7875,
     "151ee42b": 239.6939,
     "a0473448": 591.0,
     "836a1058": 590.8852,
-    "fba5a65f": 223.8857,
-    "31028f0b": 690.82,
-    "8e96bc15": 363.3717,
     "a5c4e753": 234.3425
   }
 }
