@@ -1,5 +1,3 @@
-~ WORKING take_profit 100% AMD @ $613.35 until 2026-09-26 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $592.20 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% TSM @ $443.52 until 2026-09-26 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 TSM @ $429.17 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% PLTR @ $182.65 until 2026-09-26 — close 100% at +0.4% over the average cost
@@ -388,6 +386,8 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
 - SELL 100% GOOGL [take_profit @ $355.74] -> $2506.32 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 15:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 55 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 4 resting buy order(s): inside the last max_hold_minutes of the session)
