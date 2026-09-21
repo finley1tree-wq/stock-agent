@@ -1,5 +1,3 @@
-  (dropped CRWD: 92% up today's range — resting a limit at $240.46 instead of chasing)
-  (dropped AMAT: 95% up today's range — resting a limit at $458.69 instead of chasing)
 - BUY $1500.00 NOC [filled] ['momentum', 'news'] — Defense demand headline, decent hit rate sector | evidence: NOC 84.9% of day range, 'U.S. approves potential $2.7 billion air defense sale to Ukraine', defense sector hit_rate 0.67 in track record
   (dropped trigger AMD stop_loss: duplicate of a working order)
   (dropped trigger TSM stop_loss: duplicate of a working order)
@@ -383,6 +381,8 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 1 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $94.00] -> $2008.13 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 15:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
