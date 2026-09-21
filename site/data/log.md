@@ -1,5 +1,3 @@
-  (dropped trigger TSM stop_loss: duplicate of a working order)
-  (dropped trigger PLTR stop_loss: duplicate of a working order)
   (dropped trigger META buy_limit: duplicate of a working order)
   (dropped trigger CRWD buy_limit: duplicate of a working order)
 ~ WORKING buy_limit $2500.00 AVGO @ $357.79 until 2026-09-21 — wanted it, but not at the high — resting at $357.79. AI semis momentum, widely_held sector strength
@@ -379,6 +377,8 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 1 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $94.00] -> $2008.13 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 15:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
