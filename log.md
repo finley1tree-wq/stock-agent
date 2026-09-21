@@ -13155,3 +13155,6 @@ lesson: When below min_positions and most cooldowns are active from same-day fli
 ~ WORKING stop_loss 100% TTD @ $13.95 until 2026-09-26 — close it all at -1.3% under the average cost
 portfolio: equity $25245.14 (+0.98% on $25000.00 in) · cash $20256.23 · realised +256.23
 Decision: nothing at this check. 17 standing order(s) working.
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $14.00] -> $1005.12 (+0.51%) — close 100% at +0.5% over the average cost
+## 2026-09-21 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
