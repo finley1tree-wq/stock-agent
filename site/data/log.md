@@ -1,6 +1,3 @@
-  (dropped GOOGL: sold 37 min ago, cooling off)
-  (dropped CRWD: 100% up today's range — resting a limit at $240.20 instead of chasing)
-- BUY $2500.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has best hit_rate (0.73) in track record and fresh IPO-value headline | evidence: CCJ +1.18% today, 'Westinghouse Could IPO at $50B, Cameco stake worth $24.5B' - concrete catalyst, nuclear sector track record hit_rate 0.73
   (dropped trigger META stop_loss: not held)
   (dropped trigger GOOGL stop_loss: not held)
   (dropped trigger CRWD stop_loss: not held)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 57 standing order(s) working.
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $499.34] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-09-21 14:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% OKLO [time stop] -> $2504.85 (+0.19%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $2500.64 (+0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 14:56 ET — tick — 2 sell(s), 0 buy(s) from standing orders
