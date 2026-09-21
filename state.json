@@ -1,16 +1,16 @@
 {
   "week": "2026-W39",
-  "spent": 7034.95,
-  "deployed": 43541.67,
+  "spent": 7129.52,
+  "deployed": 45541.67,
   "by_ticker": {
     "NOC": 10.51,
     "RTX": 10.98,
     "UNH": 0.4,
     "IBM": 3.52,
     "AMAT": 2375.0,
-    "NVDA": 1900.0,
     "CCJ": 1425.0,
-    "MSFT": 1425.0
+    "MSFT": 1425.0,
+    "GOOGL": 2000.0
   },
   "deployed_by_ticker": {
     "AMD": 6700.0,
@@ -29,7 +29,8 @@
     "AVGO": 1666.67,
     "UNH": 1500.0,
     "IBM": 1500.0,
-    "PLD": 1583.33
+    "PLD": 1583.33,
+    "GOOGL": 2000.0
   },
   "orders": [
     {
@@ -789,13 +790,51 @@
       ],
       "evidence": "average cost $609.16",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 8.474394,
+      "status": "filled",
+      "price": 224.85,
+      "proceeds": 1905.43,
+      "realized_pnl": 5.43,
+      "realized_pct": 0.29,
+      "date": "2026-09-21",
+      "time_et": "10:57",
+      "ts": 1790002500,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $224.2",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.629188,
+      "price": 355.29,
+      "date": "2026-09-21",
+      "time_et": "10:58",
+      "ts": 1790002695,
+      "why": "Widely-held momentum name with fresh positive coverage at reasonable range position",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "GOOGL +1.62% today, headline 'Meta Spikes 7%... Alphabet Nudges Higher' 2026-09-21T14:24; 72% of day range, not extreme"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 7034.95,
-  "deployed_today": 43541.67,
-  "orders_today": 22,
-  "sells_today": 18,
+  "spent_today": 7129.52,
+  "deployed_today": 45541.67,
+  "orders_today": 23,
+  "sells_today": 19,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -818,7 +857,7 @@
   "sold_ts": {
     "AMAT": 1789997719,
     "AMD": 1790001986,
-    "NVDA": 1789997799,
+    "NVDA": 1790002648,
     "CHRW": 1789998001,
     "PLTR": 1789998320,
     "MSFT": 1789998356,
@@ -834,37 +873,40 @@
     "UNH": 1790001628,
     "IBM": 1790001628
   },
-  "last_publish_ts": 1790001985,
-  "last_check_ts": 1790002573,
+  "last_publish_ts": 1790002695,
+  "last_check_ts": 1790002695,
   "last_bar_ts": 1790002500,
-  "last_decision_ts": 1790001718,
+  "last_decision_ts": 1790002695,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "38816f1d": 224.8457,
     "653b952f": 494.4354,
-    "9401e0f6": 92.5881,
+    "7a710854": 356.1889,
     "100b684c": 353.764,
-    "9035c787": 457.926,
     "17531d51": 150.1202,
-    "107dc8ca": 222.3306,
+    "9401e0f6": 92.5881,
     "639b261c": 352.499,
-    "799399fd": 332.6577,
-    "230d3e80": 56.0309,
-    "fe34652d": 699.7795,
+    "9035c787": 457.926,
+    "78baf00f": 13.8872,
+    "9f3f4a8e": 517.0,
     "846c83a9": 351.1349,
     "6f013a49": 130.8718,
-    "31028f0b": 690.82,
-    "33c9d89c": 239.7875,
+    "230d3e80": 56.0309,
+    "799399fd": 332.6577,
+    "fe34652d": 699.7795,
+    "969528a9": 353.0,
+    "22dc2ba1": 347.0,
     "2f468c38": 442.2424,
-    "151ee42b": 239.6939,
-    "d3870df7": 441.6,
-    "18364454": 478.5495,
-    "ce37b7c3": 478.5,
+    "31028f0b": 690.82,
     "c4b832c4": 89.4437,
     "b9faea7c": 89.4,
-    "59c0224e": 217.474,
-    "b073fbe9": 217.4,
+    "d3870df7": 441.6,
+    "d8c3175b": 240.1175,
+    "9e6e7c4c": 344.6313,
+    "33c9d89c": 239.7875,
+    "151ee42b": 239.6939,
+    "18364454": 478.5495,
+    "ce37b7c3": 478.5,
     "a5c4e753": 234.3425
   }
 }

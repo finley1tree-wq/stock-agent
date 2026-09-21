@@ -13270,3 +13270,30 @@ Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $15453.53 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [take_profit @ $611.97] -> $2511.52 (+0.46%) — close 100% at +0.5% over the average cost
 ## 2026-09-21 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $224.85] -> $1905.43 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-21 10:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 10:58 ET (Monday) — week 2026-W39 — budget left $19870.48 (today $43541.67 put to work, 22 buys, 19 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Below min_positions (3 held vs 8 target) with 79.5% cash idle - this is the main problem per counterfactual regret data and past lessons. Adding CRWD (momentum+congress overlap), GOOGL (news+momentum, reasonable range), and TSM (cooldown expiring in 12min, strong semis momentum) to build toward min_positions with concrete evidence. Left resting buy_limits on NOC/AVGO for dip entries and protective stops on all new positions per risk_management best practice (0.85 hit rate signal).
+lesson: Persistent high idle cash (79.5%) with below-target position count is the recurring problem; prioritize filling to min_positions with concrete evidence-backed names over waiting for perfect dips, and use resting buy_limits for names still in cooldown.
+  (dropped TSM: sold 33 min ago, cooling off)
+  (dropped CRWD: 97% up today's range — resting a limit at $240.12 instead of chasing)
+- BUY $2000.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name with fresh positive coverage at reasonable range position | evidence: GOOGL +1.62% today, headline 'Meta Spikes 7%... Alphabet Nudges Higher' 2026-09-21T14:24; 72% of day range, not extreme
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% GOOGL @ $347.00 until 2026-09-21 — protect new GOOGL position
+~ WORKING buy_limit $1500.00 NOC @ $517.00 until 2026-09-21 — resting limit below market to catch a dip in a defense name with strong track record
+~ WORKING buy_limit $1500.00 AVGO @ $353.00 until 2026-09-21 — resting limit to catch dip once cooldown clears, semis AI exposure
+~ WORKING buy_limit $2500.00 CRWD @ $240.12 until 2026-09-21 — wanted it, but not at the high — resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst
+~ WORKING take_profit 100% GOOGL @ $356.19 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $344.63 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 TTD @ $13.89 until 2026-09-22 — strong month, weak day: resting 0.95% under $14.02 to catch the dip
+portfolio: equity $25254.56 (+1.02% on $25000.00 in) · cash $18040.49 · realised +265.49
+Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $17870.48 this week
