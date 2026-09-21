@@ -13407,3 +13407,5 @@ Done: 0 sell(s), 3 buy(s); 29 order(s) working; budget left $17632.79 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [stop_loss @ $2437.26] -> $9993.00 (+299.72%) — Protective stop on new AMD position
 ## 2026-09-21 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $2993.30 (-0.22%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
