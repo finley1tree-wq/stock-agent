@@ -13199,3 +13199,35 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $13174.67 this week
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [take_profit @ $135.57] -> $1586.16 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-09-21 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $439.10] -> $1670.73 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-21 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $358.02] -> $1672.38 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-09-21 10:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 10:26 ET (Monday) — week 2026-W39 — budget left $22082.45 (today $33916.67 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+  (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
+brain: Only 2 positions held vs min_positions=8, cash_idle 88%. Deploying into strong-momentum names with concrete fresh catalysts (AMD chip price hike, META Trump/Xi AI event, CRWD congress+momentum, TSM chip beneficiary) that are not in cooldown. This brings position count to 6, closer to full_deployment's max_names=6 concentration guidance, with stops protecting each entry.
+lesson: Cooldowns from same-day flips block many high-momentum names; fresh headline-backed names outside cooldown (AMD, META, CRWD, TSM) should be prioritized to hit min_positions quickly rather than waiting.
+  (dropped TSM: sold 1 min ago, cooling off)
+  (dropped META: 90% up today's range — resting a limit at $699.78 instead of chasing)
+  (dropped CRWD: 90% up today's range — resting a limit at $239.79 instead of chasing)
+- BUY $2500.00 AMD [filled] ['momentum', 'news'] — strong fresh momentum/news catalyst, not on cooldown, high conviction breakout | evidence: AMD +8.79% today, +23.43% 5d on '10% chip price increase' report per 24/7 Wall St headline 13:37
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% AMD @ $591.00 until 2026-09-21 — protect new AMD entry with ~3% stop
+~ WORKING buy_limit $2500.00 META @ $699.78 until 2026-09-21 — wanted it, but not at the high — resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength
+~ WORKING buy_limit $2000.00 CRWD @ $239.79 until 2026-09-21 — wanted it, but not at the high — resting at $239.79. momentum plus congressional buying overlap, standing limit at 239.69 may not fill so adding market entry for position count
+~ WORKING take_profit 100% AMD @ $611.97 until 2026-09-26 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $590.89 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CHRW @ $150.12 until 2026-09-22 — strong month, weak day: resting 0.52% under $150.91 to catch the dip
+~ WORKING buy_limit $1000.00 NVDA @ $222.33 until 2026-09-22 — strong month, weak day: resting 0.54% under $223.54 to catch the dip
+portfolio: equity $25255.70 (+1.02% on $25000.00 in) · cash $19752.47 · realised +252.47
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19582.45 this week

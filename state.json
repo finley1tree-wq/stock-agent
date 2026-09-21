@@ -1,17 +1,16 @@
 {
   "week": "2026-W39",
-  "spent": 6260.66,
-  "deployed": 33916.67,
+  "spent": 5417.55,
+  "deployed": 36416.67,
   "by_ticker": {
     "NOC": 10.51,
     "RTX": 10.98,
-    "TSM": 1666.67,
-    "AVGO": 1666.67,
     "UNH": 1500.0,
-    "IBM": 1500.0
+    "IBM": 1500.0,
+    "AMD": 2500.0
   },
   "deployed_by_ticker": {
-    "AMD": 4200.0,
+    "AMD": 6700.0,
     "AMAT": 3600.0,
     "NVDA": 3200.0,
     "CHRW": 1000.0,
@@ -599,13 +598,72 @@
       ],
       "evidence": "average cost $135.32",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 3.804856,
+      "status": "filled",
+      "price": 439.1,
+      "proceeds": 1670.73,
+      "realized_pnl": 4.06,
+      "realized_pct": 0.24,
+      "date": "2026-09-21",
+      "time_et": "10:25",
+      "ts": 1790000400,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $438.04",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 4.671143,
+      "status": "filled",
+      "price": 358.02,
+      "proceeds": 1672.38,
+      "realized_pnl": 5.71,
+      "realized_pct": 0.34,
+      "date": "2026-09-21",
+      "time_et": "10:26",
+      "ts": 1790000700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $356.8",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.104,
+      "price": 609.16,
+      "date": "2026-09-21",
+      "time_et": "10:26",
+      "ts": 1790000770,
+      "why": "strong fresh momentum/news catalyst, not on cooldown, high conviction breakout",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AMD +8.79% today, +23.43% 5d on '10% chip price increase' report per 24/7 Wall St headline 13:37"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 6260.66,
-  "deployed_today": 33916.67,
-  "orders_today": 17,
-  "sells_today": 13,
+  "spent_today": 5417.55,
+  "deployed_today": 36416.67,
+  "orders_today": 18,
+  "sells_today": 15,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -619,7 +677,9 @@
     "TTD",
     "NOC",
     "RTX",
-    "PLD"
+    "PLD",
+    "TSM",
+    "AVGO"
   ],
   "sold_ts": {
     "AMAT": 1789997719,
@@ -634,34 +694,36 @@
     "TTD": 1789999290,
     "NOC": 1790000036,
     "RTX": 1790000036,
-    "PLD": 1790000555
+    "PLD": 1790000555,
+    "TSM": 1790000723,
+    "AVGO": 1790000769
   },
-  "last_publish_ts": 1790000554,
-  "last_check_ts": 1790000681,
-  "last_bar_ts": 1790000400,
-  "last_decision_ts": 1789999803,
+  "last_publish_ts": 1790000770,
+  "last_check_ts": 1790000770,
+  "last_bar_ts": 1790000700,
+  "last_decision_ts": 1790000770,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "3d07b1a2": 375.7226,
-    "f1575845": 439.1044,
-    "8cecca97": 358.0238,
     "e11722cb": 231.6109,
-    "d7a4220a": 435.4608,
+    "d0db27f7": 611.9682,
+    "17531d51": 150.1202,
+    "107dc8ca": 222.3306,
     "230d3e80": 56.0309,
-    "6f013a49": 130.8718,
     "639b261c": 352.499,
+    "6f013a49": 130.8718,
     "799399fd": 332.6577,
     "846c83a9": 351.1349,
-    "4224dd28": 429.0,
-    "50ad41ba": 349.5,
+    "fe34652d": 699.7795,
     "57df9110": 226.0,
     "deb37700": 367.0,
+    "33c9d89c": 239.7875,
     "151ee42b": 239.6939,
-    "31028f0b": 690.82,
-    "62c3ef9a": 424.8988,
-    "21fb0a76": 346.096,
+    "a0473448": 591.0,
+    "836a1058": 590.8852,
     "fba5a65f": 223.8857,
+    "31028f0b": 690.82,
     "8e96bc15": 363.3717,
     "a5c4e753": 234.3425
   }
