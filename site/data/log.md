@@ -1,4 +1,3 @@
-  (dropped trigger META stop_loss: not held)
   (dropped trigger CRWD stop_loss: not held)
   (dropped trigger NVDA stop_loss: not held)
   (dropped trigger GOOGL stop_loss: not held)
@@ -398,3 +397,4 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $355.74] -> $2506.32 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 15:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 55 resting buy order(s): inside the last max_hold_minutes of the session)

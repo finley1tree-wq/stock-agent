@@ -1,139 +1,6 @@
 {
  "orders": [
   {
-   "id": "3c9f0a80",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 14.0527,
-   "status": "cancelled",
-   "created": "2026-09-18 13:00",
-   "created_ts": 1789750831,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $13.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "60a0689c",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 13.7984,
-   "status": "cancelled",
-   "created": "2026-09-18 13:00",
-   "created_ts": 1789750831,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $13.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:17",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "72cbbbd5",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.5606,
-   "status": "cancelled",
-   "created": "2026-09-18 13:00",
-   "created_ts": 1789750831,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $13.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f74d54b8",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 153.23,
-   "status": "cancelled",
-   "created": "2026-09-18 13:05",
-   "created_ts": 1789751118,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $153.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:18",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c1fdaa1e",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 491.4977,
-   "status": "cancelled",
-   "created": "2026-09-18 13:12",
-   "created_ts": 1789751544,
-   "why": "strong month, weak day: resting 0.42% under $493.55 to catch the dip",
-   "evidence": "+1.9% over the month, sitting at 32% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 706.88,
-   "closed": "2026-09-18 13:44",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8561a300",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 495.4325,
-   "status": "cancelled",
-   "created": "2026-09-18 13:14",
-   "created_ts": 1789751666,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $494.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:25",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "d574ec9b",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 491.6014,
-   "status": "cancelled",
-   "created": "2026-09-18 13:14",
-   "created_ts": 1789751666,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $494.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:36",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "399f4f38",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -2959,7 +2826,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 690.82,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:32",
    "created_ts": 1789997557,
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
@@ -2970,14 +2837,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 4200.0
+   "usd": 4200.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "a5c4e753",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 234.3425,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:32",
    "created_ts": 1789997557,
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
@@ -2988,7 +2857,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3800.0
+   "usd": 3800.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "bc229357",
@@ -3013,7 +2884,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 351.1349,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:32",
    "created_ts": 1789997557,
    "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
@@ -3024,7 +2895,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "59e43f04",
@@ -3271,7 +3144,7 @@
    "ticker": "SKWD",
    "kind": "buy_limit",
    "price": 56.0309,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:32",
    "created_ts": 1789997557,
    "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
@@ -3281,7 +3154,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-22",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "a9de4193",
@@ -3904,7 +3779,7 @@
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 130.8718,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "strong month, weak day: resting 0.69% under $131.78 to catch the dip",
@@ -3914,14 +3789,16 @@
     "dip_entry"
    ],
    "good_until": "2026-09-22",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "151ee42b",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 239.6939,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:59",
    "created_ts": 1789999185,
    "why": "wanted it, but not at the high \u2014 resting at $239.69. Strong momentum with congressional buying overlap, though at 98% of day range so sizing modestly rather than chasing full size",
@@ -3932,7 +3809,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "35b1df23",
@@ -4048,7 +3927,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 352.499,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:10",
    "created_ts": 1789999803,
    "why": "wanted it, but not at the high \u2014 resting at $352.50. Widely-held name with fresh positive coverage and steady momentum, filling below chase limit isn't possible so taking a modest market entry to build position count",
@@ -4059,7 +3938,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2083.33
+   "usd": 2083.33,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "f1575845",
@@ -4271,7 +4152,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 699.7795,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:26",
    "created_ts": 1790000770,
    "why": "wanted it, but not at the high \u2014 resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength",
@@ -4282,14 +4163,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "33c9d89c",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 239.7875,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:26",
    "created_ts": 1790000770,
    "why": "wanted it, but not at the high \u2014 resting at $239.79. momentum plus congressional buying overlap, standing limit at 239.69 may not fill so adding market entry for position count",
@@ -4300,7 +4183,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d0db27f7",
@@ -4344,7 +4229,7 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 150.1202,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:26",
    "created_ts": 1790000770,
    "why": "strong month, weak day: resting 0.52% under $150.91 to catch the dip",
@@ -4354,7 +4239,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-22",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "107dc8ca",
@@ -4452,7 +4339,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 353.764,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:41",
    "created_ts": 1790001718,
    "why": "wanted it, but not at the high \u2014 resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme",
@@ -4463,7 +4350,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2375.0
+   "usd": 2375.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "9035c787",
@@ -4637,7 +4526,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 517.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:58",
    "created_ts": 1790002695,
    "why": "resting limit below market to catch a dip in a defense name with strong track record",
@@ -4647,14 +4536,16 @@
     "news"
    ],
    "good_until": "2026-09-21",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "969528a9",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 353.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:58",
    "created_ts": 1790002695,
    "why": "resting limit to catch dip once cooldown clears, semis AI exposure",
@@ -4664,14 +4555,16 @@
     "news"
    ],
    "good_until": "2026-09-21",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d8c3175b",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 240.1175,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 10:58",
    "created_ts": 1790002695,
    "why": "wanted it, but not at the high \u2014 resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst",
@@ -4683,7 +4576,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "7a710854",
@@ -4949,7 +4844,7 @@
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 768.3125,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:29",
    "created_ts": 1790004590,
    "why": "wanted it, but not at the high \u2014 resting at $768.31. Add a liquid broad market position to build toward min_positions with low idiosyncratic risk while book is under-filled",
@@ -4960,14 +4855,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "4beaa325",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 240.156,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:29",
    "created_ts": 1790004590,
    "why": "wanted it, but not at the high \u2014 resting at $240.16. Strong momentum plus repeated congressional buy disclosures; adding modest market clip alongside existing resting limits",
@@ -4978,7 +4875,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "78d6e812",
@@ -5113,7 +5012,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 223.727,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:45",
    "created_ts": 1790005555,
    "why": "wanted it, but not at the high \u2014 resting at $223.73. Core AI leader with continued momentum and positive sentiment, not held, not in cooldown",
@@ -5124,14 +5023,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "7a9e7821",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 179.8895,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:45",
    "created_ts": 1790005555,
    "why": "wanted it, but not at the high \u2014 resting at $179.89. Strong intraday momentum with fresh coverage, not held, not in cooldown",
@@ -5142,14 +5043,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "9aedd59b",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 193.8335,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 11:45",
    "created_ts": 1790005555,
    "why": "wanted it, but not at the high \u2014 resting at $193.83. Defense sector has best hit_rate in track record (0.71), fresh broker coverage, not held",
@@ -5161,7 +5064,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "8a7ca240",
@@ -5263,7 +5168,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 605.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:02",
    "created_ts": 1790006523,
    "why": "Wait for cooldown to clear and modest pullback rather than chasing at 84% of range",
@@ -5273,14 +5178,16 @@
     "news"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "cf4a6dbc",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 436.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:02",
    "created_ts": 1790006523,
    "why": "Resting limit to catch entry once cooldown clears without chasing",
@@ -5290,7 +5197,9 @@
     "news"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "b96b15bc",
@@ -5315,7 +5224,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 240.1989,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:02",
    "created_ts": 1790006523,
    "why": "wanted it, but not at the high \u2014 resting at $240.20. Congress buying overlap plus strong momentum catalyst, buying near market given strength",
@@ -5327,7 +5236,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "198fd678",
@@ -5427,7 +5338,7 @@
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 179.9973,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:18",
    "created_ts": 1790007483,
    "why": "wanted it, but not at the high \u2014 resting at $180.00. Strong intraday momentum with fresh coverage, not held, no cooldown",
@@ -5438,14 +5349,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 1931.03
+   "usd": 1931.03,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d31960cf",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 357.1022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:18",
    "created_ts": 1790007483,
    "why": "wanted it, but not at the high \u2014 resting at $357.10. AI semis exposure with fresh bullish catalyst, no cooldown",
@@ -5456,7 +5369,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 1931.03
+   "usd": 1931.03,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "b6e55d0c",
@@ -5483,7 +5398,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 240.464,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:18",
    "created_ts": 1790007483,
    "why": "wanted it, but not at the high \u2014 resting at $240.46. Strong momentum plus congressional buy disclosure overlap, adding to fill min_positions",
@@ -5495,7 +5410,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 1931.03
+   "usd": 1931.03,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d8b45f21",
@@ -5634,7 +5551,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 707.147,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:33",
    "created_ts": 1790008397,
    "why": "wanted it, but not at the high \u2014 resting at $707.15. Strong breakout with concrete catalysts; buying at market since it's running, sized to 3k not overexposed",
@@ -5645,14 +5562,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "5f3cae3e",
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 458.3723,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:33",
    "created_ts": 1790008397,
    "why": "wanted it, but not at the high \u2014 resting at $458.37. Momentum plus congressional buy overlap in semis-adjacent name",
@@ -5664,14 +5583,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "8b537d84",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 180.401,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:33",
    "created_ts": 1790008397,
    "why": "wanted it, but not at the high \u2014 resting at $180.40. Continued momentum name with fresh news flow, sizing moderate given Burry bear case headline risk",
@@ -5682,14 +5603,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "e3016481",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 357.603,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:33",
    "created_ts": 1790008397,
    "why": "wanted it, but not at the high \u2014 resting at $357.60. AI semis exposure with bullish catalyst, not extreme in day range (93.5%)",
@@ -5700,14 +5623,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "0863574f",
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 522.354,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:33",
    "created_ts": 1790008397,
    "why": "wanted it, but not at the high \u2014 resting at $522.35. Defense demand headline plus best-performing sector by hit rate in track record",
@@ -5718,7 +5643,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "72cc42b7",
@@ -5781,7 +5708,7 @@
    "ticker": "TTD",
    "kind": "buy_limit",
    "price": 13.8771,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:33",
    "created_ts": 1790008397,
    "why": "strong month, weak day: resting 0.95% under $14.01 to catch the dip",
@@ -5791,7 +5718,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-22",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "b8531aa2",
@@ -5871,7 +5800,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 707.2925,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:49",
    "created_ts": 1790009352,
    "why": "wanted it, but not at the high \u2014 resting at $707.29. Breakout with concrete positive catalyst, day range 97% but momentum justifies a market-size entry",
@@ -5882,14 +5811,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "44b18c55",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 224.299,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:49",
    "created_ts": 1790009352,
    "why": "wanted it, but not at the high \u2014 resting at $224.30. Core AI holding, adding to build toward min_positions",
@@ -5900,14 +5831,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "66193fe3",
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 769.671,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:49",
    "created_ts": 1790009352,
    "why": "wanted it, but not at the high \u2014 resting at $769.67. Low idiosyncratic risk name to help reach min_positions while book is under-filled",
@@ -5918,7 +5851,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "e8837790",
@@ -6039,7 +5974,7 @@
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 357.79,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:56",
    "created_ts": 1790009782,
    "why": "wanted it, but not at the high \u2014 resting at $357.79. AI semis momentum, widely_held sector strength",
@@ -6050,14 +5985,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "fe0eea99",
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 458.6912,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:56",
    "created_ts": 1790009782,
    "why": "wanted it, but not at the high \u2014 resting at $458.69. Congress overlap plus strong daily momentum in semis-adjacent name",
@@ -6069,7 +6006,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "f62eb761",
@@ -6151,7 +6090,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 224.3898,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:06",
    "created_ts": 1790010393,
    "why": "wanted it, but not at the high \u2014 resting at $224.39. Core AI leader momentum continuing, adding to reach min_positions",
@@ -6162,7 +6101,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "1b33c834",
@@ -6355,7 +6296,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 711.1424,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:22",
    "created_ts": 1790011373,
    "why": "wanted it, but not at the high \u2014 resting at $711.14. Strong breakout momentum with fresh bullish broker coverage, buy at market since it keeps running",
@@ -6366,14 +6307,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "1df19d1b",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 224.6318,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:22",
    "created_ts": 1790011373,
    "why": "wanted it, but not at the high \u2014 resting at $224.63. Core AI leader continued momentum, filling toward min_positions",
@@ -6384,7 +6327,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "f80bfedf",
@@ -6504,7 +6449,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 713.3782,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:38",
    "created_ts": 1790012303,
    "why": "wanted it, but not at the high \u2014 resting at $713.38. Strong breakout momentum with concrete bullish catalyst; sized moderately given extended range",
@@ -6515,14 +6460,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "76c15335",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 240.519,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:38",
    "created_ts": 1790012303,
    "why": "wanted it, but not at the high \u2014 resting at $240.52. Momentum plus congressional buy overlap in cybersecurity theme",
@@ -6534,14 +6481,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "f9a110ed",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 224.7555,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:38",
    "created_ts": 1790012303,
    "why": "wanted it, but not at the high \u2014 resting at $224.76. Core AI leader continuing momentum, building toward min_positions",
@@ -6552,7 +6501,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "248e6c3c",
@@ -6595,7 +6546,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 224.9205,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "wanted it, but not at the high \u2014 resting at $224.92. AI leader continuing momentum, market buy for size since chase_limit resting orders haven't filled",
@@ -6606,14 +6557,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "bae17653",
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 769.957,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "wanted it, but not at the high \u2014 resting at $769.96. Low idiosyncratic risk name to help reach min_positions while book is empty",
@@ -6624,14 +6577,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d133ac92",
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 336.4655,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "wanted it, but not at the high \u2014 resting at $336.47. Widely-held sector has best avg_ret_pct 9.39% in track record by_sector",
@@ -6641,7 +6596,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "2e56bf1d",
@@ -6892,7 +6849,7 @@
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 458.8727,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:11",
    "created_ts": 1790014300,
    "why": "wanted it, but not at the high \u2014 resting at $458.87. Strong daily momentum plus congressional buy overlap, not held, no cooldown",
@@ -6903,7 +6860,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "66407809",
@@ -7152,7 +7111,7 @@
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 459.3347,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:42",
    "created_ts": 1790016128,
    "why": "wanted it, but not at the high \u2014 resting at $459.33. Strong daily momentum plus congressional buy overlap, not held",
@@ -7163,7 +7122,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "e830e9d1",
@@ -7188,7 +7149,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 225.377,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:58",
    "created_ts": 1790017095,
    "why": "wanted it, but not at the high \u2014 resting at $225.38. Core AI momentum leader, market buy for size to build position count near close",
@@ -7199,14 +7160,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "c4a38a7f",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 358.714,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:58",
    "created_ts": 1790017095,
    "why": "wanted it, but not at the high \u2014 resting at $358.71. AI semis exposure, widely_held sector strongest track record bucket",
@@ -7217,7 +7180,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "aa045864",
@@ -7261,7 +7226,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 522.6868,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:05",
    "created_ts": 1790017506,
    "why": "wanted it, but not at the high \u2014 resting at $522.69. Defense exposure, not held, fresh sector catalyst",
@@ -7273,14 +7238,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "640a2a53",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 241.421,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:05",
    "created_ts": 1790017506,
    "why": "wanted it, but not at the high \u2014 resting at $241.42. Momentum plus congressional buy overlap in cybersecurity theme, not held",
@@ -7292,14 +7259,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "4e5fc69a",
    "ticker": "META",
    "kind": "buy_limit",
    "price": 718.0395,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:05",
    "created_ts": 1790017506,
    "why": "wanted it, but not at the high \u2014 resting at $718.04. Major breakout with concrete catalyst, widely_held sector strength",
@@ -7310,14 +7279,16 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "ca9990d2",
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 459.8297,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:05",
    "created_ts": 1790017506,
    "why": "wanted it, but not at the high \u2014 resting at $459.83. Momentum plus congressional buying, semis-adjacent",
@@ -7329,7 +7300,9 @@
     "patience"
    ],
    "good_until": "2026-09-21",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "e8449d7a",
@@ -7401,7 +7374,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 509.6089,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:26",
    "created_ts": 1790018766,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7411,7 +7384,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "43e120ba",
@@ -7435,7 +7410,7 @@
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.3934,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:26",
    "created_ts": 1790018766,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7445,8 +7420,129 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "faac95a2",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "status": "working",
+   "created": "2026-09-21 15:28",
+   "created_ts": 1790018906,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $525.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
+  },
+  {
+   "id": "8505e0d6",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.3934,
+   "status": "working",
+   "created": "2026-09-21 15:28",
+   "created_ts": 1790018906,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
+  },
+  {
+   "id": "6d1f3d3f",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 378.2062,
+   "status": "working",
+   "created": "2026-09-21 15:28",
+   "created_ts": 1790018906,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $377.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c7695ff1",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 365.7773,
+   "status": "working",
+   "created": "2026-09-21 15:28",
+   "created_ts": 1790018906,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $377.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
+  },
+  {
+   "id": "1f4606bc",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 93.9982,
+   "status": "working",
+   "created": "2026-09-21 15:28",
+   "created_ts": 1790018906,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $93.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1eab0a0c",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 92.6754,
+   "status": "working",
+   "created": "2026-09-21 15:28",
+   "created_ts": 1790018906,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $93.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cae062d1",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 90.8114,
+   "status": "working",
+   "created": "2026-09-21 15:28",
+   "created_ts": 1790018906,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $93.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
    "usd": 500.0
   }
  ],
- "updated": "2026-09-21 15:26"
+ "updated": "2026-09-21 15:28"
 }
