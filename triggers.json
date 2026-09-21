@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "d8e9c9b6",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 324.6978,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $334.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "67927e5a",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 705.096,
-   "status": "cancelled",
-   "created": "2026-09-18 12:59",
-   "created_ts": 1789750783,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $671.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:00",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "072d14da",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 673.8838,
-   "status": "cancelled",
-   "created": "2026-09-18 13:00",
-   "created_ts": 1789750830,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $671.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:13",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "3c9f0a80",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -7227,7 +7170,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 347.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:58",
    "created_ts": 1790017095,
    "why": "protective stop on new GOOGL position",
@@ -7236,7 +7179,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2799d9ce",
@@ -7279,7 +7224,7 @@
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 355.7377,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-21 14:58",
    "created_ts": 1790017095,
    "why": "close 100% at +0.3% over the average cost",
@@ -7289,14 +7234,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:26"
   },
   {
    "id": "38abf1a1",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 344.1948,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 14:58",
    "created_ts": 1790017095,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7306,7 +7252,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 15:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b9e7c542",
@@ -7447,7 +7395,58 @@
    ],
    "good_until": "2026-09-26",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "e157dc17",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "status": "working",
+   "created": "2026-09-21 15:26",
+   "created_ts": 1790018766,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $525.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
+  },
+  {
+   "id": "43e120ba",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 194.6434,
+   "status": "working",
+   "created": "2026-09-21 15:26",
+   "created_ts": 1790018766,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $194.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2f8ba926",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.3934,
+   "status": "working",
+   "created": "2026-09-21 15:26",
+   "created_ts": 1790018766,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 15:25"
+ "updated": "2026-09-21 15:26"
 }
