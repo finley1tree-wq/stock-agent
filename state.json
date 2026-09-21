@@ -1,16 +1,16 @@
 {
   "week": "2026-W39",
-  "spent": 8916.58,
+  "spent": 0.0,
   "deployed": 121334.77,
   "by_ticker": {
-    "NOC": 2510.62,
-    "RTX": 4437.32,
+    "NOC": 17.99,
+    "RTX": 5.08,
     "IBM": 6.06,
     "GLD": 1.0,
     "TSM": 5.39,
     "AMD": 16.82,
     "PLTR": 7.08,
-    "UNH": 2000.0
+    "UNH": 1.97
   },
   "deployed_by_ticker": {
     "AMD": 14700.0,
@@ -2133,13 +2133,73 @@
       ],
       "evidence": "average cost $93.62",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 4.758551,
+      "status": "filled",
+      "price": 523.82,
+      "proceeds": 2492.63,
+      "realized_pnl": -7.37,
+      "realized_pct": -0.29,
+      "date": "2026-09-21",
+      "time_et": "15:52",
+      "ts": 1790020339,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.26% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "RTX",
+      "side": "sell",
+      "qty": 22.814588,
+      "status": "filled",
+      "price": 194.27,
+      "proceeds": 4432.24,
+      "realized_pnl": 1.21,
+      "realized_pct": 0.03,
+      "date": "2026-09-21",
+      "time_et": "15:52",
+      "ts": 1790020339,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.07% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 5.303838,
+      "status": "filled",
+      "price": 376.71,
+      "proceeds": 1998.03,
+      "realized_pnl": -1.97,
+      "realized_pct": -0.1,
+      "date": "2026-09-21",
+      "time_et": "15:52",
+      "ts": 1790020339,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.08% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 8916.58,
+  "spent_today": 0.0,
   "deployed_today": 121334.77,
   "orders_today": 58,
-  "sells_today": 53,
+  "sells_today": 56,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -2174,33 +2234,23 @@
     "CCJ": 1790019434,
     "LMT": 1790011290,
     "TTD": 1790004935,
-    "NOC": 1790011615,
-    "RTX": 1790015119,
+    "NOC": 1790020340,
+    "RTX": 1790020340,
     "PLD": 1790000555,
     "TSM": 1790015824,
     "AVGO": 1790013011,
-    "UNH": 1790015119,
+    "UNH": 1790020340,
     "IBM": 1790014208,
     "META": 1790003914,
     "GOOGL": 1790018768,
     "GLD": 1790005446,
     "AAPL": 1790005508
   },
-  "last_publish_ts": 1790020300,
-  "last_check_ts": 1790020300,
+  "last_publish_ts": 1790020339,
+  "last_check_ts": 1790020386,
   "last_bar_ts": 1790020200,
-  "last_decision_ts": 1790018528,
+  "last_decision_ts": 1790020386,
   "next_check_minutes": 30,
   "autopiloted": false,
-  "book_px": {
-    "578fb79e": 194.6434,
-    "ed4bd441": 378.21,
-    "457b8762": 526.6834,
-    "e8449d7a": 515.0,
-    "fe9e4034": 190.0,
-    "d80adef8": 368.0,
-    "670a84ee": 509.6089,
-    "f24443bb": 365.7773,
-    "6ee20ec3": 188.3934
-  }
+  "book_px": {}
 }

@@ -13973,3 +13973,22 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% NOC [time stop] -> $2492.63 (-0.29%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% RTX [time stop] -> $4432.24 (+0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $1998.03 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 15:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 15:53 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $121334.77 put to work, 58 buys, 56 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain: no_new_entries_this_check is true (session inside last max_hold_minutes window at 15:53 with close at 16:00), so no new buys are permitted and any submitted would be dropped. No open positions to sell or protect. Sitting flat into the close is the only compliant action.
+lesson: When no_new_entries_this_check is true near the close, do not attempt buys - they will be dropped; just confirm flat book and end the session cleanly.
+portfolio: equity $32801.08 (+31.20% on $25000.00 in) · cash $32801.08 · realised +7801.08
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

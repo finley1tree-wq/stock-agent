@@ -1,8 +1,3 @@
-  (dropped trigger META buy_limit: duplicate of a working order)
-  (dropped trigger CRWD buy_limit: duplicate of a working order)
-~ WORKING buy_limit $2500.00 AVGO @ $357.79 until 2026-09-21 — wanted it, but not at the high — resting at $357.79. AI semis momentum, widely_held sector strength
-~ WORKING buy_limit $2500.00 AMAT @ $458.69 until 2026-09-21 — wanted it, but not at the high — resting at $458.69. Congress overlap plus strong daily momentum in semis-adjacent name
-~ WORKING take_profit 100% NOC @ $526.53 until 2026-09-26 — close 100% at +0.2% over the average cost
 ~ WORKING stop_loss 100% NOC @ $521.94 until 2026-09-26 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 NOC @ $509.46 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32783.43 (+31.13% on $25000.00 in) · cash $23789.85 · realised +7789.85
@@ -398,3 +393,8 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% NOC [time stop] -> $2492.63 (-0.29%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% RTX [time stop] -> $4432.24 (+0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $1998.03 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 15:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders

@@ -5057,7 +5057,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 515.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:22",
    "created_ts": 1790018528,
    "why": "protective stop on new NOC buy",
@@ -5066,14 +5066,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "fe9e4034",
    "ticker": "RTX",
    "kind": "stop_loss",
    "price": 190.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:22",
    "created_ts": 1790018528,
    "why": "protective stop on new RTX buy",
@@ -5082,14 +5084,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d80adef8",
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 368.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:22",
    "created_ts": 1790018528,
    "why": "protective stop on new UNH buy",
@@ -5098,14 +5102,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "457b8762",
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 526.6834,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:25",
    "created_ts": 1790018726,
    "why": "close 100% at +0.2% over the average cost",
@@ -5115,7 +5121,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "e157dc17",
@@ -7268,7 +7276,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 378.21,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:48",
    "created_ts": 1790020138,
    "why": "close 100% at +0.3% over the average cost",
@@ -7278,7 +7286,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "36458133",
@@ -7399,7 +7409,7 @@
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 194.6434,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:50",
    "created_ts": 1790020220,
    "why": "close 100% at +0.2% over the average cost",
@@ -7409,7 +7419,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "138f20cf",
@@ -7511,7 +7523,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 509.6089,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:51",
    "created_ts": 1790020300,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7521,14 +7533,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "6ee20ec3",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.3934,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:51",
    "created_ts": 1790020300,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7538,14 +7552,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "f24443bb",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.7773,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:51",
    "created_ts": 1790020300,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7555,8 +7571,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 15:52",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   }
  ],
- "updated": "2026-09-21 15:51"
+ "updated": "2026-09-21 15:53"
 }
