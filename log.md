@@ -13193,3 +13193,6 @@ lesson: When most high-momentum names are in same-day rebuy cooldown, look furth
 ~ WORKING buy_limit $500.00 PLD @ $131.26 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25238.33 (+0.95% on $25000.00 in) · cash $13344.68 · realised +261.35
 Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $13174.67 this week
+- SELL 100% NOC [time stop] -> $1989.49 (-0.53%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% RTX [time stop] -> $1989.02 (-0.55%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 10:13 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -6948,7 +6948,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 517.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "Protect against downside on new defense entry",
@@ -6957,7 +6957,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:13",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "be48c6d9",
@@ -6982,7 +6984,7 @@
    "ticker": "RTX",
    "kind": "stop_loss",
    "price": 191.9,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "Protect new position from reversal",
@@ -6991,7 +6993,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:13",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ccc5612d",
@@ -7016,7 +7020,7 @@
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 524.1911,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "close 100% at +0.2% over the average cost",
@@ -7026,14 +7030,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:13",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "37b85f00",
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 507.2227,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7043,7 +7049,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 10:13",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "bd316064",
@@ -7087,7 +7095,7 @@
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 194.4152,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "close 100% at +0.2% over the average cost",
@@ -7097,14 +7105,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 10:13",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "e30e5bcd",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.18,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 09:43",
    "created_ts": 1789998218,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7114,7 +7124,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 10:13",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d232172c",
