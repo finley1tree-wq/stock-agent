@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "72fb1504",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 262.8312,
-   "status": "cancelled",
-   "created": "2026-09-18 12:40",
-   "created_ts": 1789749638,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $270.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 12:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d7b1770c",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 271.56,
-   "status": "cancelled",
-   "created": "2026-09-18 12:43",
-   "created_ts": 1789749802,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $270.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:45",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "ffc172f7",
    "ticker": "META",
    "kind": "take_profit",
@@ -7090,7 +7052,7 @@
    "ticker": "RTX",
    "kind": "stop_loss",
    "price": 190.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "Cap downside on new RTX buy",
@@ -7099,14 +7061,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "2147f0fb",
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 90.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "Cap downside on new CCJ buy",
@@ -7115,7 +7079,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a92869c6",
@@ -7175,7 +7141,7 @@
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 194.8839,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "close 100% at +0.2% over the average cost",
@@ -7185,14 +7151,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a0e8d5bb",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.6262,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7202,14 +7170,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c379f456",
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 93.6377,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "close 100% at +0.4% over the average cost",
@@ -7219,14 +7189,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9eb2208f",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 90.4622,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7236,14 +7208,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9edffa44",
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 378.24,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "close 100% at +0.3% over the average cost",
@@ -7253,14 +7227,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8d6b0b47",
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 374.3255,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "close it all at -0.7% under the average cost",
@@ -7270,14 +7246,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0ae05eb0",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.8064,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 13:55",
    "created_ts": 1790013319,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7287,7 +7265,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-21 14:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f5039fb5",
@@ -7447,7 +7427,41 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "5bd54e2a",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 182.8117,
+   "status": "working",
+   "created": "2026-09-21 14:25",
+   "created_ts": 1790015118,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $182",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "11a1dc25",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 176.54,
+   "status": "working",
+   "created": "2026-09-21 14:25",
+   "created_ts": 1790015118,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $182",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 14:23"
+ "updated": "2026-09-21 14:25"
 }

@@ -13755,3 +13755,7 @@ lesson: Market orders with attached stops are the only thing that reliably close
 ~ WORKING buy_limit $500.00 TSM @ $428.95 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32782.31 (+31.13% on $25000.00 in) · cash $20778.90 · realised +7778.90
 Done: 0 sell(s), 2 buy(s); 60 order(s) working; budget left $12989.06 this week
+- SELL 100% RTX [time stop] -> $3004.69 (+0.16%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $2497.20 (-0.11%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2500.86 (+0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 14:25 ET — tick — 3 sell(s), 0 buy(s) from standing orders

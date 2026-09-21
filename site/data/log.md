@@ -1,7 +1,3 @@
-~ WORKING buy_limit $3000.00 SPY @ $768.31 until 2026-09-21 — wanted it, but not at the high — resting at $768.31. Add a liquid broad market position to build toward min_positions with low idiosyncratic risk while book is under-filled
-~ WORKING buy_limit $1500.00 CRWD @ $240.16 until 2026-09-21 — wanted it, but not at the high — resting at $240.16. Strong momentum plus repeated congressional buy disclosures; adding modest market clip alongside existing resting limits
-~ WORKING take_profit 100% AAPL @ $337.97 until 2026-09-26 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AAPL @ $327.03 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% TSM @ $442.56 until 2026-09-26 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 TSM @ $428.25 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25294.51 (+1.18% on $25000.00 in) · cash $17795.78 · realised +295.78
@@ -398,3 +394,7 @@ lesson: Market orders with attached stops are the only thing that reliably close
 ~ WORKING buy_limit $500.00 TSM @ $428.95 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32782.31 (+31.13% on $25000.00 in) · cash $20778.90 · realised +7778.90
 Done: 0 sell(s), 2 buy(s); 60 order(s) working; budget left $12989.06 this week
+- SELL 100% RTX [time stop] -> $3004.69 (+0.16%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $2497.20 (-0.11%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2500.86 (+0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 14:25 ET — tick — 3 sell(s), 0 buy(s) from standing orders
