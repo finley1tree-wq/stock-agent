@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% INTC @ $108.00 until 2026-09-23 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% INTC @ $105.83 until 2026-09-23 — close it all at -1.4% under the average cost
-~ WORKING buy_limit $500.00 INTC @ $104.16 until 2026-09-23 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25149.94 (+0.60% on $25000.00 in) · cash $16166.22 · realised +166.22
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15738.49 this week
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $13174.67 this week
 - SELL 100% NOC [time stop] -> $1989.49 (-0.53%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% RTX [time stop] -> $1989.02 (-0.55%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 10:13 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $135.57] -> $1586.16 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-09-21 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders

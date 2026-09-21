@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 7846.82,
+  "spent": 6260.66,
   "deployed": 33916.67,
   "by_ticker": {
     "NOC": 10.51,
@@ -8,8 +8,7 @@
     "TSM": 1666.67,
     "AVGO": 1666.67,
     "UNH": 1500.0,
-    "IBM": 1500.0,
-    "PLD": 1583.33
+    "IBM": 1500.0
   },
   "deployed_by_ticker": {
     "AMD": 4200.0,
@@ -579,13 +578,34 @@
       ],
       "evidence": "bought 30 min ago, -0.51% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 11.70028,
+      "status": "filled",
+      "price": 135.57,
+      "proceeds": 1586.16,
+      "realized_pnl": 2.83,
+      "realized_pct": 0.18,
+      "date": "2026-09-21",
+      "time_et": "10:22",
+      "ts": 1790000400,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $135.32",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 7846.82,
+  "spent_today": 6260.66,
   "deployed_today": 33916.67,
   "orders_today": 17,
-  "sells_today": 12,
+  "sells_today": 13,
   "sold_today": [
     "AMAT",
     "AMD",
@@ -598,7 +618,8 @@
     "LMT",
     "TTD",
     "NOC",
-    "RTX"
+    "RTX",
+    "PLD"
   ],
   "sold_ts": {
     "AMAT": 1789997719,
@@ -612,38 +633,36 @@
     "LMT": 1789998438,
     "TTD": 1789999290,
     "NOC": 1790000036,
-    "RTX": 1790000036
+    "RTX": 1790000036,
+    "PLD": 1790000555
   },
-  "last_publish_ts": 1790000033,
-  "last_check_ts": 1790000521,
+  "last_publish_ts": 1790000554,
+  "last_check_ts": 1790000601,
   "last_bar_ts": 1790000400,
   "last_decision_ts": 1789999803,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "f1575845": 439.1044,
-    "20328186": 135.5663,
-    "8cecca97": 358.0238,
     "3d07b1a2": 375.7226,
+    "f1575845": 439.1044,
+    "8cecca97": 358.0238,
     "e11722cb": 231.6109,
     "d7a4220a": 435.4608,
+    "230d3e80": 56.0309,
     "6f013a49": 130.8718,
     "639b261c": 352.499,
-    "230d3e80": 56.0309,
     "799399fd": 332.6577,
     "846c83a9": 351.1349,
-    "57df9110": 226.0,
-    "deb37700": 367.0,
-    "fabe464a": 132.5,
     "4224dd28": 429.0,
     "50ad41ba": 349.5,
+    "57df9110": 226.0,
+    "deb37700": 367.0,
     "151ee42b": 239.6939,
-    "fba5a65f": 223.8857,
-    "8e96bc15": 363.3717,
-    "baa42b0f": 131.2604,
     "31028f0b": 690.82,
     "62c3ef9a": 424.8988,
     "21fb0a76": 346.096,
+    "fba5a65f": 223.8857,
+    "8e96bc15": 363.3717,
     "a5c4e753": 234.3425
   }
 }

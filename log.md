@@ -13196,3 +13196,6 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $13174.67 this week
 - SELL 100% NOC [time stop] -> $1989.49 (-0.53%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% RTX [time stop] -> $1989.02 (-0.55%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 10:13 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $135.57] -> $1586.16 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-09-21 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
