@@ -13857,3 +13857,37 @@ lesson: At 8 names x $2-2.5k with attached stops in one check, closing the posit
 ~ WORKING buy_limit $500.00 GOOGL @ $344.19 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32794.26 (+31.18% on $25000.00 in) · cash $30294.76 · realised +7794.76
 Done: 0 sell(s), 1 buy(s); 53 order(s) working; budget left $22500.00 this week
+
+## 2026-09-21 15:05 ET (Monday) — week 2026-W39 — budget left $22500.00 (today $110403.74 put to work, 53 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Only 1 position held (GOOGL), 90% cash idle, deep below min_positions with 1 check left today. Deploying market buys across 7 new momentum/news-backed names to close the gap before close, sized $2-2.5k each per the lesson history showing market orders (not resting limits) actually fill and close the position count gap. Attaching protective stops on each new position given max_hold_minutes constraint and general risk management practice.
+lesson: With only 1 check left and 90% cash idle, market buys across 7-8 names at $2-2.5k with stops attached closes the position gap fast; resting limits kept expiring unfilled all day per the dropped-orders log.
+  (dropped PLTR: sold 23 min ago, cooling off)
+  (dropped TSM: sold 28 min ago, cooling off)
+  (dropped NOC: 89% up today's range — resting a limit at $522.69 instead of chasing)
+  (dropped AVGO: 92% up today's range — resting a limit at $358.71 instead of chasing)
+  (dropped NVDA: 88% up today's range — resting a limit at $225.38 instead of chasing)
+  (dropped CRWD: 99% up today's range — resting a limit at $241.42 instead of chasing)
+  (dropped META: 94% up today's range — resting a limit at $718.04 instead of chasing)
+  (dropped AMAT: 95% up today's range — resting a limit at $459.83 instead of chasing)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger AVGO buy_limit: duplicate of a working order)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2500.00 NOC @ $522.69 until 2026-09-21 — wanted it, but not at the high — resting at $522.69. Defense exposure, not held, fresh sector catalyst
+~ WORKING buy_limit $2500.00 CRWD @ $241.42 until 2026-09-21 — wanted it, but not at the high — resting at $241.42. Momentum plus congressional buy overlap in cybersecurity theme, not held
+~ WORKING buy_limit $2500.00 META @ $718.04 until 2026-09-21 — wanted it, but not at the high — resting at $718.04. Major breakout with concrete catalyst, widely_held sector strength
+~ WORKING buy_limit $2000.00 AMAT @ $459.83 until 2026-09-21 — wanted it, but not at the high — resting at $459.83. Momentum plus congressional buying, semis-adjacent
+portfolio: equity $32793.27 (+31.17% on $25000.00 in) · cash $30294.76 · realised +7794.76
+Decision: nothing at this check. 57 standing order(s) working.

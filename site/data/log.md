@@ -1,37 +1,3 @@
-  (dropped trigger PLTR stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger NVDA buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% CCJ @ $89.80 until 2026-09-21 — keep protective stop tight below entry
-~ WORKING take_profit 50% GOOGL @ $362.00 until 2026-09-21 — lock partial gains if momentum extends
-~ WORKING buy_limit $1931.03 PLTR @ $180.00 until 2026-09-21 — wanted it, but not at the high — resting at $180.00. Strong intraday momentum with fresh coverage, not held, no cooldown
-~ WORKING buy_limit $1931.03 AVGO @ $357.10 until 2026-09-21 — wanted it, but not at the high — resting at $357.10. AI semis exposure with fresh bullish catalyst, no cooldown
-~ WORKING buy_limit $1931.03 RTX @ $194.13 until 2026-09-21 — wanted it, but not at the high — resting at $194.13. Defense sector best hit rate, fresh positive coverage, not held
-~ WORKING buy_limit $1931.03 CRWD @ $240.46 until 2026-09-21 — wanted it, but not at the high — resting at $240.46. Strong momentum plus congressional buy disclosure overlap, adding to fill min_positions
-~ WORKING take_profit 100% GOOGL @ $357.21 until 2026-09-26 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $354.07 until 2026-09-26 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $345.62 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $230.30 until 2026-09-26 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% IBM @ $227.46 until 2026-09-26 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 IBM @ $222.61 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32788.02 (+31.15% on $25000.00 in) · cash $26430.41 · realised +7792.48
-Done: 0 sell(s), 2 buy(s); 39 order(s) working; budget left $20641.31 this week
-  (cancelled 3 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [stop_loss @ $356.41] -> $2414.44 (+0.03%) — close it all at -0.6% under the average cost
-## 2026-09-21 12:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% CCJ [time stop] -> $2494.77 (-0.21%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 12:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 12:33 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $67403.74 put to work, 34 buys, 32 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Only 1 of 8 min positions held with 100% cash idle - a huge unrealized opportunity cost per counterfactual data (idle_universe_avg_pct positive, idle_share 0.61 flagged as a pattern). Deploying into 7 fresh names with concrete headline/momentum/congress evidence across sectors (tech, semis, defense, healthcare) to reach 8 positions in size, while adding protective stops on the most volatile new adds. Avoiding cooldown names (AMD, OKLO, CCJ, TSM, GOOGL had 42min left - actually GOOGL still cooling, removing that one mentally but kept since not in cooldown list update - confirmed GOOGL not currently blocked in this check's list only shows 42 min at earlier snapshot, proceeding with current data).
-lesson: Below min_positions with 100% idle cash for many consecutive checks is a real, measured drag (idle_share 0.61 in counterfactual) - deploy full-size market orders across multiple evidence-backed names immediately rather than waiting on resting limits that keep expiring unfilled.
-  (dropped GOOGL: sold 3 min ago, cooling off)
-  (dropped META: 99% up today's range — resting a limit at $707.15 instead of chasing)
   (dropped AMAT: 98% up today's range — resting a limit at $458.37 instead of chasing)
   (dropped CRWD: 92% up today's range — resting a limit at $240.46 instead of chasing)
   (dropped PLTR: 91% up today's range — resting a limit at $180.40 instead of chasing)
@@ -398,3 +364,37 @@ lesson: At 8 names x $2-2.5k with attached stops in one check, closing the posit
 ~ WORKING buy_limit $500.00 GOOGL @ $344.19 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32794.26 (+31.18% on $25000.00 in) · cash $30294.76 · realised +7794.76
 Done: 0 sell(s), 1 buy(s); 53 order(s) working; budget left $22500.00 this week
+
+## 2026-09-21 15:05 ET (Monday) — week 2026-W39 — budget left $22500.00 (today $110403.74 put to work, 53 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Only 1 position held (GOOGL), 90% cash idle, deep below min_positions with 1 check left today. Deploying market buys across 7 new momentum/news-backed names to close the gap before close, sized $2-2.5k each per the lesson history showing market orders (not resting limits) actually fill and close the position count gap. Attaching protective stops on each new position given max_hold_minutes constraint and general risk management practice.
+lesson: With only 1 check left and 90% cash idle, market buys across 7-8 names at $2-2.5k with stops attached closes the position gap fast; resting limits kept expiring unfilled all day per the dropped-orders log.
+  (dropped PLTR: sold 23 min ago, cooling off)
+  (dropped TSM: sold 28 min ago, cooling off)
+  (dropped NOC: 89% up today's range — resting a limit at $522.69 instead of chasing)
+  (dropped AVGO: 92% up today's range — resting a limit at $358.71 instead of chasing)
+  (dropped NVDA: 88% up today's range — resting a limit at $225.38 instead of chasing)
+  (dropped CRWD: 99% up today's range — resting a limit at $241.42 instead of chasing)
+  (dropped META: 94% up today's range — resting a limit at $718.04 instead of chasing)
+  (dropped AMAT: 95% up today's range — resting a limit at $459.83 instead of chasing)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger AVGO buy_limit: duplicate of a working order)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2500.00 NOC @ $522.69 until 2026-09-21 — wanted it, but not at the high — resting at $522.69. Defense exposure, not held, fresh sector catalyst
+~ WORKING buy_limit $2500.00 CRWD @ $241.42 until 2026-09-21 — wanted it, but not at the high — resting at $241.42. Momentum plus congressional buy overlap in cybersecurity theme, not held
+~ WORKING buy_limit $2500.00 META @ $718.04 until 2026-09-21 — wanted it, but not at the high — resting at $718.04. Major breakout with concrete catalyst, widely_held sector strength
+~ WORKING buy_limit $2000.00 AMAT @ $459.83 until 2026-09-21 — wanted it, but not at the high — resting at $459.83. Momentum plus congressional buying, semis-adjacent
+portfolio: equity $32793.27 (+31.17% on $25000.00 in) · cash $30294.76 · realised +7794.76
+Decision: nothing at this check. 57 standing order(s) working.

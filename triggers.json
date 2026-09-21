@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "f48d66ff",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 132.5542,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $132.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "993378e9",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 130.8939,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $132.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b8eb7947",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 128.1176,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $132.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4757da2b",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 350.9065,
-   "status": "cancelled",
-   "created": "2026-09-18 12:57",
-   "created_ts": 1789750660,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $350",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "c429e49a",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -7458,7 +7382,82 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "b9e7c542",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 522.6868,
+   "status": "working",
+   "created": "2026-09-21 15:05",
+   "created_ts": 1790017506,
+   "why": "wanted it, but not at the high \u2014 resting at $522.69. Defense exposure, not held, fresh sector catalyst",
+   "evidence": "NOC defense sector has best hit_rate 0.32 in track record; headline 'Can Rising Ballistic Missile Demand Support Lockheed Martin's Growth' spillover to defense sector",
+   "signals": [
+    "news",
+    "momentum",
+    "track_record",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "640a2a53",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 241.421,
+   "status": "working",
+   "created": "2026-09-21 15:05",
+   "created_ts": 1790017506,
+   "why": "wanted it, but not at the high \u2014 resting at $241.42. Momentum plus congressional buy overlap in cybersecurity theme, not held",
+   "evidence": "CRWD +5.15% today, congress net buy pressure +2.0 (Gilbert Ray Cisneros disclosed buy 2026-09-10/09-04), headline 'Cybersecurity Stocks Extend Gains on AI Safety Warnings'",
+   "signals": [
+    "momentum",
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "4e5fc69a",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 718.0395,
+   "status": "working",
+   "created": "2026-09-21 15:05",
+   "created_ts": 1790017506,
+   "why": "wanted it, but not at the high \u2014 resting at $718.04. Major breakout with concrete catalyst, widely_held sector strength",
+   "evidence": "META +11.91% today, headline 'Trump and Xi dine with AI titans and Meta takes the stage'",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "ca9990d2",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 459.8297,
+   "status": "working",
+   "created": "2026-09-21 15:05",
+   "created_ts": 1790017506,
+   "why": "wanted it, but not at the high \u2014 resting at $459.83. Momentum plus congressional buying, semis-adjacent",
+   "evidence": "AMAT +4.6% today, congress buy overlap (Josh Gottheimer disclosed 2026-09-14, Jared Moskowitz 2026-08-27), headline 'Applied Materials Jumps 3.6% Behind a $5 Billion India Bet'",
+   "signals": [
+    "momentum",
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2000.0
   }
  ],
- "updated": "2026-09-21 14:58"
+ "updated": "2026-09-21 15:05"
 }

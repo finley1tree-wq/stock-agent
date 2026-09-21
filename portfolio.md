@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-21 14:59 ET
+# Pretend portfolio — 2026-09-21 15:05 ET
 
-**Equity $32794.26** on $25000.00 put in → **+31.18%**  
-Cash $30294.76 · Unrealised -0.50 · Realised +7794.76
+**Equity $32793.27** on $25000.00 put in → **+31.17%**  
+Cash $30294.76 · Unrealised -1.49 · Realised +7794.76
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| GOOGL | 7.6% | $2499.50 | $354.84 | $354.77 | -0.02% | 0d |
+| GOOGL | 7.6% | $2498.51 | $354.84 | $354.63 | -0.06% | 0d |
 
 ## Last fills
 
