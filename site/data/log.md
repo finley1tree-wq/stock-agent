@@ -1,4 +1,3 @@
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBR4A6Uw2GG7jBAAzpTp'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
@@ -398,3 +397,4 @@ portfolio: equity $25170.00 (+0.68% on $25000.00 in) · cash $25170.00 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-18 16:00 ET — published the session's closing state
+## 2026-09-21 00:04 ET — published the session's closing state
