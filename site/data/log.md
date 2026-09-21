@@ -1,39 +1,3 @@
-## 2026-09-18 15:50 ET (Friday) — week 2026-W38 — budget left $24742.27 (today $211735.66 put to work, 75 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBVBkExsWQqJoPD6RuzA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25170.00 (+0.68% on $25000.00 in) · cash $25170.00 · realised +170.00
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 15:53 ET (Friday) — week 2026-W38 — budget left $24742.27 (today $211735.66 put to work, 75 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBVQZWAinYMbEYLgFSRj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25170.00 (+0.68% on $25000.00 in) · cash $25170.00 · realised +170.00
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 15:56 ET (Friday) — week 2026-W38 — budget left $24742.27 (today $211735.66 put to work, 75 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
   (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
   (inside the last max_hold_minutes of the session: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBVdjVJ6fBarzjmX6ZaL'}
@@ -398,3 +362,39 @@ Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17625.76 this week
 ## 2026-09-21 11:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% GLD [time stop] -> $1999.00 (-0.05%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 11:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $337.97] -> $2506.17 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-21 11:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 11:45 ET (Monday) — week 2026-W39 — budget left $23132.79 (today $55541.67 put to work, 28 buys, 27 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Book is critically underfilled (1 position, 92.5% idle cash) despite repeated lessons about this exact problem. Deploying into 6 fresh, non-cooldown names with concrete headline/momentum evidence (AMD chip demand, NVDA AI sentiment, PLTR coverage, OKLO nuclear bounce, RTX/LMT defense with best track-record hit rate 0.71) plus a small add to existing TSM. This brings position count to 7-8 and cash_idle down substantially, addressing the recurring idle-cash problem flagged across multiple past checks. Adding protective stops per risk_management convention on all new names.
+lesson: Stop repeating "deploy more" as a lesson without acting on it in the same check - actually place the buys with concrete evidence at every check until min_positions is reached.
+  (dropped NVDA: 88% up today's range — resting a limit at $223.73 instead of chasing)
+  (dropped PLTR: 98% up today's range — resting a limit at $179.89 instead of chasing)
+  (dropped RTX: 92% up today's range — resting a limit at $193.83 instead of chasing)
+  (dropped LMT: 92% up today's range — resting a limit at $533.85 instead of chasing)
+- BUY $2500.00 AMD [filled] ['momentum', 'news'] — Strong breakout momentum with fresh AI demand catalyst, not currently held, outside cooldown | evidence: AMD +8.9% today, +23.5% 5d, headline 'AMD Stock Jumps. Record Chip Exports Point to Strong AI Demand' - Arm surges 13%, Intel +12%, AMD +9% on AI CPU demand read-through
+- BUY $2000.00 OKLO [filled] ['momentum', 'news'] — Nuclear sector bounce with concrete headline, backtest shows nuclear sector avg total return favorable over both windows, not held | evidence: OKLO +5.63% today, +10.85% 5d, headline 'Oklo Climbs 5% as Nuclear Names Bounce Back' 24/7 Wall St
+- BUY $1000.00 TSM [filled] ['momentum', 'news'] — Add modestly to existing TSM conviction within max_per_ticker allowance given continued positive AI chip demand headlines | evidence: TSM +1.45% today, +5.5% 5d, headline 'TSMC Gains as 88.7 Hectares Target Packaging Friction'; already hold small TSM position at 7.9% weight
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger RTX stop_loss: not held)
+  (dropped trigger LMT stop_loss: not held)
+~ WORKING stop_loss 100% AMD @ $2438.48 until 2026-09-21 — Protective stop on new AMD position
+~ WORKING stop_loss 100% OKLO @ $37.63 until 2026-09-21 — Protective stop on new OKLO position
+~ WORKING buy_limit $2500.00 NVDA @ $223.73 until 2026-09-21 — wanted it, but not at the high — resting at $223.73. Core AI leader with continued momentum and positive sentiment, not held, not in cooldown
+~ WORKING buy_limit $2000.00 PLTR @ $179.89 until 2026-09-21 — wanted it, but not at the high — resting at $179.89. Strong intraday momentum with fresh coverage, not held, not in cooldown
+~ WORKING buy_limit $2000.00 RTX @ $193.83 until 2026-09-21 — wanted it, but not at the high — resting at $193.83. Defense sector has best hit_rate in track record (0.71), fresh broker coverage, not held
+~ WORKING buy_limit $2000.00 LMT @ $533.85 until 2026-09-21 — wanted it, but not at the high — resting at $533.85. Defense sector strength with concrete demand headline, not held
+~ WORKING take_profit 100% AMD @ $612.57 until 2026-09-26 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $591.45 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OKLO @ $40.44 until 2026-09-26 — close 100% at +0.7% over the average cost
+~ WORKING buy_limit $500.00 OKLO @ $38.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25299.00 (+1.20% on $25000.00 in) · cash $17802.81 · realised +302.81
+Done: 0 sell(s), 3 buy(s); 29 order(s) working; budget left $17632.79 this week

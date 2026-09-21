@@ -1,26 +1,35 @@
 {
-  "cash": 20796.637609005633,
+  "cash": 17802.807096323348,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W39",
   "positions": {
-    "AAPL": {
-      "qty": 7.415373957872265,
-      "avg_cost": 337.137414,
+    "TSM": {
+      "qty": 6.797354675295615,
+      "avg_cost": 441.34816311751905,
       "opened": "2026-09-21",
       "last_buy": "2026-09-21",
-      "tranches": 1,
-      "last_buy_ts": 1790004612,
+      "tranches": 2,
+      "last_buy_ts": 1790005579,
       "opened_ts": 1790004612
     },
-    "TSM": {
-      "qty": 4.530131581295884,
-      "avg_cost": 441.48828,
+    "AMD": {
+      "qty": 4.100095305239336,
+      "avg_cost": 609.741924,
       "opened": "2026-09-21",
       "last_buy": "2026-09-21",
       "tranches": 1,
-      "last_buy_ts": 1790004612,
-      "opened_ts": 1790004612
+      "last_buy_ts": 1790005579,
+      "opened_ts": 1790005579
+    },
+    "OKLO": {
+      "qty": 49.80568808849156,
+      "avg_cost": 40.156056,
+      "opened": "2026-09-21",
+      "last_buy": "2026-09-21",
+      "tranches": 1,
+      "last_buy_ts": 1790005579,
+      "opened_ts": 1790005579
     }
   },
   "fills": [
@@ -10105,7 +10114,49 @@
       "realized_pct": -0.05,
       "type": "sell",
       "date": "2026-09-21 11:44"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 7.415374,
+      "status": "filled",
+      "price": 337.97,
+      "proceeds": 2506.17,
+      "realized_pnl": 6.17,
+      "realized_pct": 0.25,
+      "type": "sell",
+      "date": "2026-09-21 11:45"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.100095,
+      "price": 609.74,
+      "type": "buy",
+      "date": "2026-09-21 11:46"
+    },
+    {
+      "symbol": "OKLO",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 49.805688,
+      "price": 40.16,
+      "type": "buy",
+      "date": "2026-09-21 11:46"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.267223,
+      "price": 441.07,
+      "type": "buy",
+      "date": "2026-09-21 11:46"
     }
   ],
-  "realized_pnl": 296.63760900564637
+  "realized_pnl": 302.8070963233609
 }
