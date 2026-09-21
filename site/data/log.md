@@ -1,5 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $25178.22 (+0.71% on $25000.00 in) · cash $12999.16 · realised +170.83
 Decision: nothing at this check. 16 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AMD [time stop] -> $3001.45 (+0.05%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +396,5 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
   (cancelled 2 standing order(s) on NVDA: position closed)
 - SELL 100% NVDA [take_profit @ $223.20] -> $3209.05 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 TTD [buy_limit @ $13.93] — strong month, weak day: resting 0.93% under $14.06 to catch the dip
+## 2026-09-21 09:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders

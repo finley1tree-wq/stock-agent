@@ -1,15 +1,17 @@
 {
   "week": "2026-W39",
-  "spent": 956.35,
-  "deployed": 12000.0,
+  "spent": 1956.35,
+  "deployed": 13000.0,
   "by_ticker": {
-    "CHRW": 1000.0
+    "CHRW": 1000.0,
+    "TTD": 1000.0
   },
   "deployed_by_ticker": {
     "AMD": 4200.0,
     "AMAT": 3600.0,
     "NVDA": 3200.0,
-    "CHRW": 1000.0
+    "CHRW": 1000.0,
+    "TTD": 1000.0
   },
   "orders": [
     {
@@ -144,12 +146,31 @@
       ],
       "evidence": "average cost $222.57",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 71.791632,
+      "price": 13.93,
+      "date": "2026-09-21",
+      "time_et": "09:38",
+      "ts": 1789997700,
+      "why": "strong month, weak day: resting 0.93% under $14.06 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+5.6% over the month, sitting at 38% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 956.35,
-  "deployed_today": 12000.0,
-  "orders_today": 4,
+  "spent_today": 1956.35,
+  "deployed_today": 13000.0,
+  "orders_today": 5,
   "sells_today": 3,
   "sold_today": [
     "AMAT",
@@ -161,8 +182,8 @@
     "AMD": 1789997799,
     "NVDA": 1789997799
   },
-  "last_publish_ts": 1789997833,
-  "last_check_ts": 1789997880,
+  "last_publish_ts": 1789997916,
+  "last_check_ts": 1789997964,
   "last_bar_ts": 1789997700,
   "last_decision_ts": 1789997557,
   "next_check_minutes": 10,
@@ -170,15 +191,17 @@
   "book_px": {
     "077f1391": 152.861,
     "0c3168c1": 152.7,
-    "a15cbdfb": 13.9292,
     "0bc3100d": 492.0535,
+    "ee344eab": 177.1364,
     "230d3e80": 56.0309,
     "d7a4220a": 435.4608,
-    "846c83a9": 351.1349,
     "bc229357": 39.861,
-    "ee344eab": 177.1364,
+    "80cffe3e": 13.7536,
+    "119f1c60": 14.0005,
+    "846c83a9": 351.1349,
     "31028f0b": 690.82,
     "a5c4e753": 234.3425,
+    "1a7409e6": 13.5121,
     "f890de88": 147.8862
   }
 }

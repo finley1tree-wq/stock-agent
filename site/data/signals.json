@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-21T09:37-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-21T09:38-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -173,23 +173,6 @@
    ]
   },
   {
-   "id": "a15cbdfb",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.9292,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 13.99,
-   "pct_away": -0.43,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.93% under $14.06 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "0bc3100d",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -197,10 +180,27 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.19,
-   "pct_away": -0.43,
+   "last": 493.86,
+   "pct_away": -0.37,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.40% under $494.04 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "ee344eab",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 177.1364,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 178.16,
+   "pct_away": -0.57,
+   "good_until": "2026-09-22",
+   "why": "strong month, weak day: resting 0.81% under $178.59 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -231,31 +231,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 438.64,
-   "pct_away": -0.72,
+   "last": 439.11,
+   "pct_away": -0.83,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.46% under $437.46 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "846c83a9",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 351.1349,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 353.7,
-   "pct_away": -0.73,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
    ]
   },
   {
@@ -266,8 +248,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 40.22,
-   "pct_away": -0.89,
+   "last": 40.2,
+   "pct_away": -0.84,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
    "signals": [
@@ -276,20 +258,55 @@
    ]
   },
   {
-   "id": "ee344eab",
-   "ticker": "PLTR",
+   "id": "80cffe3e",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 13.7536,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.87,
+   "pct_away": -0.84,
+   "good_until": "2026-09-26",
+   "why": "close it all at -1.3% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "119f1c60",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 14.0005,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.87,
+   "pct_away": 0.94,
+   "good_until": "2026-09-26",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "846c83a9",
+   "ticker": "GOOGL",
    "kind": "buy_limit",
-   "price": 177.1364,
-   "usd": 1000.0,
+   "price": 351.1349,
+   "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 178.91,
-   "pct_away": -0.99,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.81% under $178.59 to catch the dip",
+   "last": 354.9,
+   "pct_away": -1.06,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
     "momentum",
-    "dip_entry"
+    "news",
+    "patience"
    ]
   },
   {
@@ -300,8 +317,8 @@
    "usd": 4200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 699.0,
-   "pct_away": -1.17,
+   "last": 699.52,
+   "pct_away": -1.24,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
    "signals": [
@@ -318,14 +335,31 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 237.32,
-   "pct_away": -1.25,
+   "last": 237.91,
+   "pct_away": -1.5,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
     "momentum",
     "congress",
     "patience"
+   ]
+  },
+  {
+   "id": "1a7409e6",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.5121,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 13.87,
+   "pct_away": -2.58,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
