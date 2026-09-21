@@ -13615,3 +13615,10 @@ Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
   (cancelled 3 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $497.55] -> $1503.29 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-09-21 13:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMD [time stop] -> $2982.54 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $1996.44 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $2495.70 (-0.17%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 13:20 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [stop_loss @ $534.08] -> $2000.86 (+0.04%) — close it all at -0.7% under the average cost
+## 2026-09-21 13:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

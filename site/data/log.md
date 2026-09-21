@@ -1,10 +1,3 @@
-  (dropped TSM: sold 1 min ago, cooling off)
-  (dropped META: 90% up today's range — resting a limit at $699.78 instead of chasing)
-  (dropped CRWD: 90% up today's range — resting a limit at $239.79 instead of chasing)
-- BUY $2500.00 AMD [filled] ['momentum', 'news'] — strong fresh momentum/news catalyst, not on cooldown, high conviction breakout | evidence: AMD +8.79% today, +23.43% 5d on '10% chip price increase' report per 24/7 Wall St headline 13:37
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
 ~ WORKING stop_loss 100% AMD @ $591.00 until 2026-09-21 — protect new AMD entry with ~3% stop
 ~ WORKING buy_limit $2500.00 META @ $699.78 until 2026-09-21 — wanted it, but not at the high — resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength
 ~ WORKING buy_limit $2000.00 CRWD @ $239.79 until 2026-09-21 — wanted it, but not at the high — resting at $239.79. momentum plus congressional buying overlap, standing limit at 239.69 may not fill so adding market entry for position count
@@ -398,3 +391,10 @@ Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
   (cancelled 3 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $497.55] -> $1503.29 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-09-21 13:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMD [time stop] -> $2982.54 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $1996.44 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $2495.70 (-0.17%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 13:20 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [stop_loss @ $534.08] -> $2000.86 (+0.04%) — close it all at -0.7% under the average cost
+## 2026-09-21 13:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
