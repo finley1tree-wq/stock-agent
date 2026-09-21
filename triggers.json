@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "e16ac72d",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 538.3067,
-   "status": "cancelled",
-   "created": "2026-09-18 14:37",
-   "created_ts": 1789756621,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $544.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 15:06",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2ef5abc4",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 528.0292,
-   "status": "cancelled",
-   "created": "2026-09-18 14:37",
-   "created_ts": 1789756621,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $544.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 15:06",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "5be5c335",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 218.2227,
-   "status": "cancelled",
-   "created": "2026-09-18 14:37",
-   "created_ts": 1789756621,
-   "why": "strong month, weak day: resting 0.55% under $219.43 to catch the dip",
-   "evidence": "+0.9% over the month, sitting at 49% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-19",
-   "usd": 1000.0,
-   "closed": "2026-09-18 15:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "33f32977",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 220.1152,
-   "status": "cancelled",
-   "created": "2026-09-18 14:39",
-   "created_ts": 1789756786,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $219.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 15:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2d59a74d",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 217.8591,
-   "status": "cancelled",
-   "created": "2026-09-18 14:39",
-   "created_ts": 1789756786,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $219.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 15:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "18912981",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 212.8859,
-   "status": "cancelled",
-   "created": "2026-09-18 14:39",
-   "created_ts": 1789756786,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $219.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 15:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "bd1a6aca",
    "ticker": "TSM",
    "kind": "take_profit",
@@ -7508,9 +7394,123 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 509.6089,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:39",
    "created_ts": 1790019564,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $525.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:39",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "32d3b8ea",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.3934,
+   "status": "cancelled",
+   "created": "2026-09-21 15:39",
+   "created_ts": 1790019564,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:39",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "4c7ece47",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 365.7773,
+   "status": "cancelled",
+   "created": "2026-09-21 15:39",
+   "created_ts": 1790019564,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $377.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:39",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "ade1f236",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "status": "cancelled",
+   "created": "2026-09-21 15:39",
+   "created_ts": 1790019598,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $525.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:40",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "5339378d",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.3934,
+   "status": "cancelled",
+   "created": "2026-09-21 15:39",
+   "created_ts": 1790019598,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:40",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "8554fb6a",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 365.7773,
+   "status": "cancelled",
+   "created": "2026-09-21 15:39",
+   "created_ts": 1790019598,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $377.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:40",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "6e56db0c",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "status": "working",
+   "created": "2026-09-21 15:40",
+   "created_ts": 1790019643,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $525.37",
    "signals": [
@@ -7521,13 +7521,13 @@
    "usd": 500.0
   },
   {
-   "id": "32d3b8ea",
+   "id": "746ea3c8",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.3934,
    "status": "working",
-   "created": "2026-09-21 15:39",
-   "created_ts": 1790019564,
+   "created": "2026-09-21 15:40",
+   "created_ts": 1790019643,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $194.22",
    "signals": [
@@ -7538,13 +7538,13 @@
    "usd": 500.0
   },
   {
-   "id": "4c7ece47",
+   "id": "ee1466ce",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.7773,
    "status": "working",
-   "created": "2026-09-21 15:39",
-   "created_ts": 1790019564,
+   "created": "2026-09-21 15:40",
+   "created_ts": 1790019643,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $377.09",
    "signals": [
@@ -7555,5 +7555,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-21 15:39"
+ "updated": "2026-09-21 15:40"
 }
