@@ -13234,3 +13234,36 @@ Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19582.45 this week
 - SELL 100% UNH [time stop] -> $1499.60 (-0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% IBM [time stop] -> $1496.48 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 10:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 10:41 ET (Monday) — week 2026-W39 — budget left $22578.53 (today $36416.67 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Book is at 1 position with 90% idle cash - severe underdeployment relative to min_positions=8 and full_deployment instructions. Adding 6 fresh names outside cooldown (GOOGL, AMAT, NVDA, TSM, CCJ, MSFT) with concrete news/congress catalysts and reasonable day-range entries to reach 7 total positions near size, each protected with a ~3% stop given AMD already has one. Avoiding names still in cooldown (TTD, NOC, RTX, PLD, AVGO, UNH, IBM).
+lesson: Idle cash at 90% with min_positions target of 8 is a bigger problem than any single entry-timing nuance; deploy into fresh non-cooldown names with concrete headlines even mid-session rather than waiting for perfect dips.
+  (dropped TSM: sold 17 min ago, cooling off)
+  (dropped GOOGL: 88% up today's range — resting a limit at $353.76 instead of chasing)
+- BUY $2375.00 AMAT [filled] ['momentum', 'congress'] — Fresh congress buy pressure plus reasonable entry point in day range, not chasing a high | evidence: AMAT +2.53% today, only 37% of day range (room to run), Josh Gottheimer disclosed buy 2026-09-14
+- BUY $1900.00 NVDA [filled] ['momentum', 'news'] — Cooldown cleared, steady momentum widely-held AI name | evidence: NVDA +0.85% today, 77% of day range, Jensen Huang pushing back on AI extinction fears headline 14:04
+- BUY $1425.00 CCJ [filled] ['news', 'momentum'] — Nuclear name near day low with concrete positive catalyst, good entry point | evidence: CCJ only 8.6% of day range (near low), Westinghouse IPO news could value Cameco stake at $24.5B per Motley Fool 13:05
+- BUY $1425.00 MSFT [filled] ['news', 'momentum'] — Large congressional buy disclosure plus modest entry point in range | evidence: MSFT at 29.7% of day range, Josh Gottheimer disclosed $250k-$1M buy of MSFT (2026-08-14, disclosed 09-14)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% AMAT @ $441.60 until 2026-09-21 — protect new AMAT position
+~ WORKING stop_loss 100% NVDA @ $217.40 until 2026-09-21 — protect new NVDA position
+~ WORKING stop_loss 100% CCJ @ $89.40 until 2026-09-21 — protect new CCJ position
+~ WORKING stop_loss 100% MSFT @ $478.50 until 2026-09-21 — protect new MSFT position
+~ WORKING buy_limit $2375.00 GOOGL @ $353.76 until 2026-09-21 — wanted it, but not at the high — resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme
+~ WORKING take_profit 100% AMAT @ $457.93 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AMAT @ $442.24 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $224.85 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $217.47 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $92.59 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $89.44 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $494.44 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $478.55 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25246.25 (+0.98% on $25000.00 in) · cash $15623.55 · realised +248.55
+Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $15453.53 this week

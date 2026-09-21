@@ -1,27 +1,31 @@
 {
   "week": "2026-W39",
-  "spent": 2421.47,
-  "deployed": 36416.67,
+  "spent": 9546.47,
+  "deployed": 43541.67,
   "by_ticker": {
     "NOC": 10.51,
     "RTX": 10.98,
     "UNH": 0.4,
     "IBM": 3.52,
-    "AMD": 2500.0
+    "AMD": 2500.0,
+    "AMAT": 2375.0,
+    "NVDA": 1900.0,
+    "CCJ": 1425.0,
+    "MSFT": 1425.0
   },
   "deployed_by_ticker": {
     "AMD": 6700.0,
-    "AMAT": 3600.0,
-    "NVDA": 3200.0,
+    "AMAT": 5975.0,
+    "NVDA": 5100.0,
     "CHRW": 1000.0,
     "TTD": 1000.0,
     "PLTR": 1000.0,
-    "MSFT": 1000.0,
+    "MSFT": 2425.0,
     "OKLO": 3000.0,
     "NOC": 2000.0,
     "LMT": 2000.0,
     "RTX": 2000.0,
-    "CCJ": 2000.0,
+    "CCJ": 3425.0,
     "TSM": 1666.67,
     "AVGO": 1666.67,
     "UNH": 1500.0,
@@ -697,12 +701,80 @@
       ],
       "evidence": "bought 30 min ago, -0.21% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMAT",
+      "notional": 2375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.209234,
+      "price": 455.92,
+      "date": "2026-09-21",
+      "time_et": "10:41",
+      "ts": 1790001718,
+      "why": "Fresh congress buy pressure plus reasonable entry point in day range, not chasing a high",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "AMAT +2.53% today, only 37% of day range (room to run), Josh Gottheimer disclosed buy 2026-09-14"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 1900.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.474394,
+      "price": 224.2,
+      "date": "2026-09-21",
+      "time_et": "10:41",
+      "ts": 1790001718,
+      "why": "Cooldown cleared, steady momentum widely-held AI name",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "NVDA +0.85% today, 77% of day range, Jensen Huang pushing back on AI extinction fears headline 14:04"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 1425.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 15.45438,
+      "price": 92.21,
+      "date": "2026-09-21",
+      "time_et": "10:41",
+      "ts": 1790001718,
+      "why": "Nuclear name near day low with concrete positive catalyst, good entry point",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "CCJ only 8.6% of day range (near low), Westinghouse IPO news could value Cameco stake at $24.5B per Motley Fool 13:05"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 1425.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.888424,
+      "price": 493.35,
+      "date": "2026-09-21",
+      "time_et": "10:41",
+      "ts": 1790001718,
+      "why": "Large congressional buy disclosure plus modest entry point in range",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "MSFT at 29.7% of day range, Josh Gottheimer disclosed $250k-$1M buy of MSFT (2026-08-14, disclosed 09-14)"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 2421.47,
-  "deployed_today": 36416.67,
-  "orders_today": 18,
+  "spent_today": 9546.47,
+  "deployed_today": 43541.67,
+  "orders_today": 22,
   "sells_today": 17,
   "sold_today": [
     "AMAT",
@@ -742,19 +814,24 @@
     "UNH": 1790001628,
     "IBM": 1790001628
   },
-  "last_publish_ts": 1790001627,
-  "last_check_ts": 1790001627,
+  "last_publish_ts": 1790001718,
+  "last_check_ts": 1790001718,
   "last_bar_ts": 1790001600,
-  "last_decision_ts": 1790000770,
+  "last_decision_ts": 1790001718,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "653b952f": 494.4354,
+    "38816f1d": 224.8457,
     "17531d51": 150.1202,
+    "9401e0f6": 92.5881,
+    "9035c787": 457.926,
     "d0db27f7": 611.9682,
+    "100b684c": 353.764,
     "107dc8ca": 222.3306,
     "639b261c": 352.499,
-    "230d3e80": 56.0309,
     "6f013a49": 130.8718,
+    "230d3e80": 56.0309,
     "799399fd": 332.6577,
     "fe34652d": 699.7795,
     "846c83a9": 351.1349,
@@ -762,7 +839,15 @@
     "33c9d89c": 239.7875,
     "151ee42b": 239.6939,
     "a0473448": 591.0,
+    "c4b832c4": 89.4437,
     "836a1058": 590.8852,
+    "2f468c38": 442.2424,
+    "59c0224e": 217.474,
+    "18364454": 478.5495,
+    "ce37b7c3": 478.5,
+    "b9faea7c": 89.4,
+    "b073fbe9": 217.4,
+    "d3870df7": 441.6,
     "a5c4e753": 234.3425
   }
 }
