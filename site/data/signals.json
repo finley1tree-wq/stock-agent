@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-21T11:02-04:00",
+ "asOf": "2026-09-21T11:05-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "653b952f",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 494.4354,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 493.37,
-   "pct_away": 0.22,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9401e0f6",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 92.5881,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 92.35,
-   "pct_away": 0.26,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "100b684c",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -180,8 +146,8 @@
    "usd": 2375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 354.86,
-   "pct_away": -0.31,
+   "last": 354.79,
+   "pct_away": -0.29,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme",
    "signals": [
@@ -191,17 +157,17 @@
    ]
   },
   {
-   "id": "7a710854",
-   "ticker": "GOOGL",
+   "id": "653b952f",
+   "ticker": "MSFT",
    "kind": "take_profit",
-   "price": 356.1889,
+   "price": 494.4354,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 354.86,
-   "pct_away": 0.37,
+   "last": 492.95,
+   "pct_away": 0.3,
    "good_until": "2026-09-26",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -215,13 +181,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 13.97,
-   "pct_away": -0.59,
+   "last": 13.94,
+   "pct_away": -0.38,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.95% under $14.02 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "7a710854",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 356.1889,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 354.79,
+   "pct_away": 0.39,
+   "good_until": "2026-09-26",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -232,8 +215,8 @@
    "usd": 2083.33,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 354.86,
-   "pct_away": -0.67,
+   "last": 354.79,
+   "pct_away": -0.65,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $352.50. Widely-held name with fresh positive coverage and steady momentum, filling below chase limit isn't possible so taking a modest market entry to build position count",
    "signals": [
@@ -250,31 +233,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 151.2,
+   "last": 151.19,
    "pct_away": -0.71,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.52% under $150.91 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "fe34652d",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 699.7795,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 706.51,
-   "pct_away": -0.95,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -285,13 +250,31 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 354.86,
-   "pct_away": -1.05,
+   "last": 354.79,
+   "pct_away": -1.03,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
    "signals": [
     "momentum",
     "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "fe34652d",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 699.7795,
+   "usd": 2500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 708.01,
+   "pct_away": -1.16,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength",
+   "signals": [
+    "news",
+    "momentum",
     "patience"
    ]
   },
@@ -303,8 +286,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 522.87,
-   "pct_away": -1.12,
+   "last": 523.34,
+   "pct_away": -1.21,
    "good_until": "2026-09-21",
    "why": "resting limit below market to catch a dip in a defense name with strong track record",
    "signals": [
@@ -320,8 +303,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 337.04,
-   "pct_away": -1.3,
+   "last": 337.07,
+   "pct_away": -1.31,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.46% under $334.18 to catch the dip",
    "signals": [
@@ -337,8 +320,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 56.86,
-   "pct_away": -1.46,
+   "last": 56.83,
+   "pct_away": -1.41,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
    "signals": [
@@ -354,8 +337,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 132.87,
-   "pct_away": -1.5,
+   "last": 132.78,
+   "pct_away": -1.44,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.69% under $131.78 to catch the dip",
    "signals": [
@@ -371,8 +354,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 358.57,
-   "pct_away": -1.55,
+   "last": 358.76,
+   "pct_away": -1.61,
    "good_until": "2026-09-21",
    "why": "resting limit to catch dip once cooldown clears, semis AI exposure",
    "signals": [
@@ -388,8 +371,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 354.86,
-   "pct_away": -2.21,
+   "last": 354.79,
+   "pct_away": -2.2,
    "good_until": "2026-09-21",
    "why": "protect new GOOGL position",
    "signals": [
@@ -404,32 +387,13 @@
    "usd": 4200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 706.51,
-   "pct_away": -2.22,
+   "last": 708.01,
+   "pct_away": -2.43,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
    "signals": [
     "news",
     "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "d8c3175b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 240.1175,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 247.04,
-   "pct_away": -2.8,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst",
-   "signals": [
-    "momentum",
-    "congress",
-    "news",
     "patience"
    ]
   },
@@ -441,13 +405,65 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 354.86,
-   "pct_away": -2.88,
+   "last": 354.79,
+   "pct_away": -2.86,
    "good_until": "2026-09-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "d8c3175b",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 240.1175,
+   "usd": 2500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 247.2,
+   "pct_away": -2.87,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst",
+   "signals": [
+    "momentum",
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "18364454",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 478.5495,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 492.95,
+   "pct_away": -2.92,
+   "good_until": "2026-09-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ce37b7c3",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 478.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 492.95,
+   "pct_away": -2.93,
+   "good_until": "2026-09-21",
+   "why": "protect new MSFT position",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -458,8 +474,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 247.04,
-   "pct_away": -2.94,
+   "last": 247.2,
+   "pct_away": -3.0,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $239.79. momentum plus congressional buying overlap, standing limit at 239.69 may not fill so adding market entry for position count",
    "signals": [
@@ -476,80 +492,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 247.04,
-   "pct_away": -2.97,
+   "last": 247.2,
+   "pct_away": -3.04,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $239.69. Strong momentum with congressional buying overlap, though at 98% of day range so sizing modestly rather than chasing full size",
    "signals": [
     "momentum",
     "congress",
     "patience"
-   ]
-  },
-  {
-   "id": "18364454",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 478.5495,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 493.37,
-   "pct_away": -3.0,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ce37b7c3",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 478.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 493.37,
-   "pct_away": -3.01,
-   "good_until": "2026-09-21",
-   "why": "protect new MSFT position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "c4b832c4",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 89.4437,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 92.35,
-   "pct_away": -3.15,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b9faea7c",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 89.4,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 92.35,
-   "pct_away": -3.19,
-   "good_until": "2026-09-21",
-   "why": "protect new CCJ position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -560,8 +510,8 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 247.04,
-   "pct_away": -5.14,
+   "last": 247.2,
+   "pct_away": -5.2,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
