@@ -1,157 +1,6 @@
 {
  "orders": [
   {
-   "id": "d53b15d8",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 173.5076,
-   "status": "cancelled",
-   "created": "2026-09-18 13:28",
-   "created_ts": 1789752532,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $175.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:48",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "f507dfc6",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 170.2156,
-   "status": "cancelled",
-   "created": "2026-09-18 13:28",
-   "created_ts": 1789752532,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $175.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:59",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e3dd6992",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 273.3026,
-   "status": "cancelled",
-   "created": "2026-09-18 13:31",
-   "created_ts": 1789752713,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $271.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:42",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9f61ff18",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 266.3999,
-   "status": "cancelled",
-   "created": "2026-09-18 13:31",
-   "created_ts": 1789752713,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $271.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:36",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5d67954b",
-   "ticker": "BE",
-   "kind": "buy_limit",
-   "price": 263.1901,
-   "status": "cancelled",
-   "created": "2026-09-18 13:31",
-   "created_ts": 1789752713,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $271.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 13:42",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "dfd5006a",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 494.688,
-   "status": "cancelled",
-   "created": "2026-09-18 13:36",
-   "created_ts": 1789753001,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $494.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:44",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d24e452c",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 272.02,
-   "status": "filled",
-   "created": "2026-09-18 13:36",
-   "created_ts": 1789753001,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $271.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:42"
-  },
-  {
-   "id": "1c168be8",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 175.732,
-   "status": "cancelled",
-   "created": "2026-09-18 13:48",
-   "created_ts": 1789753706,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $175.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 13:59",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "7d08907b",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -7481,9 +7330,161 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 509.6089,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 15:31",
    "created_ts": 1790019071,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $525.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "088b949a",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.3934,
+   "status": "cancelled",
+   "created": "2026-09-21 15:31",
+   "created_ts": 1790019071,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "ed8dc5ed",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 365.7773,
+   "status": "cancelled",
+   "created": "2026-09-21 15:31",
+   "created_ts": 1790019071,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $377.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "da5e3c91",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 90.8114,
+   "status": "cancelled",
+   "created": "2026-09-21 15:31",
+   "created_ts": 1790019071,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $93.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:31",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "731d64f1",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "status": "cancelled",
+   "created": "2026-09-21 15:31",
+   "created_ts": 1790019110,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $525.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:32",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "43ee9d97",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.3934,
+   "status": "cancelled",
+   "created": "2026-09-21 15:31",
+   "created_ts": 1790019110,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:32",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "7b936364",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 365.7773,
+   "status": "cancelled",
+   "created": "2026-09-21 15:31",
+   "created_ts": 1790019110,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $377.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:32",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "97682605",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 90.8114,
+   "status": "cancelled",
+   "created": "2026-09-21 15:31",
+   "created_ts": 1790019110,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $93.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0,
+   "closed": "2026-09-21 15:32",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "52c5ee3b",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 509.6089,
+   "status": "working",
+   "created": "2026-09-21 15:32",
+   "created_ts": 1790019157,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $525.37",
    "signals": [
@@ -7494,13 +7495,13 @@
    "usd": 500.0
   },
   {
-   "id": "088b949a",
+   "id": "0c80928b",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 188.3934,
    "status": "working",
-   "created": "2026-09-21 15:31",
-   "created_ts": 1790019071,
+   "created": "2026-09-21 15:32",
+   "created_ts": 1790019157,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $194.22",
    "signals": [
@@ -7511,13 +7512,13 @@
    "usd": 500.0
   },
   {
-   "id": "ed8dc5ed",
+   "id": "11817399",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.7773,
    "status": "working",
-   "created": "2026-09-21 15:31",
-   "created_ts": 1790019071,
+   "created": "2026-09-21 15:32",
+   "created_ts": 1790019157,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $377.09",
    "signals": [
@@ -7528,13 +7529,13 @@
    "usd": 500.0
   },
   {
-   "id": "da5e3c91",
+   "id": "b580cab7",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 90.8114,
    "status": "working",
-   "created": "2026-09-21 15:31",
-   "created_ts": 1790019071,
+   "created": "2026-09-21 15:32",
+   "created_ts": 1790019157,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $93.62",
    "signals": [
@@ -7545,5 +7546,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-21 15:31"
+ "updated": "2026-09-21 15:32"
 }
