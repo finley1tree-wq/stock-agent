@@ -1,17 +1,3 @@
-~ WORKING stop_loss 100% NOC @ $521.94 until 2026-09-26 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 NOC @ $509.46 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32783.43 (+31.13% on $25000.00 in) · cash $23789.85 · realised +7789.85
-Done: 0 sell(s), 1 buy(s); 51 order(s) working; budget left $16000.00 this week
-
-## 2026-09-21 13:06 ET (Monday) — week 2026-W39 — budget left $16000.00 (today $78403.74 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Below min_positions (4/8) with 64% cash idle - the counterfactual and repeated past-lesson data both flag this as a real drag. Deploying market-size buys ($1-2.5k each) into evidence-backed momentum/congress names (GOOGL, NVDA, AMAT, MSFT, AVGO) not in cooldown, while keeping protective stops on the existing four positions.
-lesson: Stop only resting limits when below min_positions - place real market-size buys immediately across non-cooldown evidence-backed names to close the position-count gap, as repeated past checks show resting limits alone fail to fill in time.
   (dropped GOOGL: sold 37 min ago, cooling off)
   (dropped NVDA: 96% up today's range — resting a limit at $224.39 instead of chasing)
   (dropped AMAT: 94% up today's range — resting a limit at $458.69 instead of chasing)
@@ -398,3 +384,17 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
 - SELL 100% RTX [time stop] -> $4432.24 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% UNH [time stop] -> $1998.03 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 15:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 15:53 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $121334.77 put to work, 58 buys, 56 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain: no_new_entries_this_check is true (session inside last max_hold_minutes window at 15:53 with close at 16:00), so no new buys are permitted and any submitted would be dropped. No open positions to sell or protect. Sitting flat into the close is the only compliant action.
+lesson: When no_new_entries_this_check is true near the close, do not attempt buys - they will be dropped; just confirm flat book and end the session cleanly.
+portfolio: equity $32801.08 (+31.20% on $25000.00 in) · cash $32801.08 · realised +7801.08
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
