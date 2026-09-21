@@ -13158,3 +13158,38 @@ Decision: nothing at this check. 17 standing order(s) working.
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $14.00] -> $1005.12 (+0.51%) — close 100% at +0.5% over the average cost
 ## 2026-09-21 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 10:10 ET (Monday) — week 2026-W39 — budget left $21091.34 (today $26000.00 put to work, 12 buys, 10 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+  (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
+brain: Only 2 positions held vs min_positions=8, and cash_idle_pct is 84.4% - a clear violation of the owner's instruction to stay deployed. Most attractive momentum names (AMD, NVDA, AMAT, CRWD, OKLO, etc.) are in cooldown from earlier flips today, so I'm building the book with fresh, non-cooled names that have concrete positive evidence and are not high in their day range (avoiding the chase-limit problem): GOOGL, TSM, AVGO, UNH, IBM, PLD. This gets me to 8 positions with real size ($1800-2500 each) while adding protective stops on each new entry.
+lesson: When most high-momentum names are in same-day rebuy cooldown, look further down the allowed list for names with genuine headline catalysts and low-to-mid day-range entries rather than sitting idle at 84% cash.
+  (dropped GOOGL: 91% up today's range — resting a limit at $352.50 instead of chasing)
+- BUY $1666.67 TSM [filled] ['momentum', 'news'] — Chip price increase read-through positive for TSM, only 17% of day range so not chasing | evidence: TSM +0.75% today, +4.77% 5d, headline 'AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up'
+- BUY $1666.67 AVGO [filled] ['momentum', 'news'] — Mid-range entry in a semis name with sector tailwind, not chasing a high | evidence: AVGO at 50.2% of day range, headline 'Marvell Technology Fell Hard...Wall Street Pro's Confidence That 78% Gains are Coming' shows semis sector optimism
+- BUY $1500.00 UNH [filled] ['news', 'momentum'] — Deep in range entry, defensive healthcare name to diversify away from defense/semis concentration | evidence: UNH at only 2.8% of day range - near day low, headline 'Should You Buy UnitedHealth Group Stock Before Oct. 13?'
+- BUY $1500.00 IBM [filled] ['momentum', 'news'] — Low in range entry on a stable dividend tech name, diversifies book | evidence: IBM at 11.9% of day range, 'IBM Has Raised Its Dividend for 31 Years' headline, -1.26% 1m giving room to run
+- BUY $1583.33 PLD [filled] ['momentum', 'news'] — Real estate diversification with positive data-center demand catalyst | evidence: PLD at 62.1% of range, headline 'Prologis Sees Leasing Surge, Data Centers Fuel Growth Outlook'
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $429.00 until 2026-09-21 — protect new TSM entry
+~ WORKING stop_loss 100% AVGO @ $349.50 until 2026-09-21 — protect new AVGO entry
+~ WORKING stop_loss 100% UNH @ $367.00 until 2026-09-21 — protect new UNH entry
+~ WORKING stop_loss 100% IBM @ $226.00 until 2026-09-21 — protect new IBM entry
+~ WORKING stop_loss 100% PLD @ $132.50 until 2026-09-21 — protect new PLD entry
+~ WORKING buy_limit $2083.33 GOOGL @ $352.50 until 2026-09-21 — wanted it, but not at the high — resting at $352.50. Widely-held name with fresh positive coverage and steady momentum, filling below chase limit isn't possible so taking a modest market entry to build position count
+~ WORKING take_profit 100% TSM @ $439.10 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $424.90 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $358.02 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $346.10 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $375.72 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $363.37 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $231.61 until 2026-09-26 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $223.89 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $135.57 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $131.26 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25238.33 (+0.95% on $25000.00 in) · cash $13344.68 · realised +261.35
+Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $13174.67 this week
