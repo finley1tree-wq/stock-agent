@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-21T09:35-04:00",
+ "asOf": "2026-09-21T09:36-04:00",
  "note": "tick: 2 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9bbd0ddc",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 223.2043,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 223.12,
-   "pct_away": 0.04,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "29f14812",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 222.9,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 223.12,
-   "pct_away": -0.1,
-   "good_until": "2026-09-26",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "077f1391",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -197,30 +163,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 13.97,
-   "pct_away": -0.29,
+   "last": 13.98,
+   "pct_away": -0.36,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.93% under $14.06 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "59e43f04",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 587.4601,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 585.3,
-   "pct_away": 0.37,
-   "good_until": "2026-09-26",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -231,47 +180,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 494.1,
-   "pct_away": -0.41,
+   "last": 494.7,
+   "pct_away": -0.53,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.40% under $494.04 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "230d3e80",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 56.0309,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 56.32,
-   "pct_away": -0.51,
-   "good_until": "2026-09-22",
-   "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "bc229357",
-   "ticker": "OKLO",
-   "kind": "buy_limit",
-   "price": 39.861,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 40.08,
-   "pct_away": -0.55,
-   "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
-   "signals": [
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -292,20 +207,19 @@
    ]
   },
   {
-   "id": "846c83a9",
-   "ticker": "GOOGL",
+   "id": "bc229357",
+   "ticker": "OKLO",
    "kind": "buy_limit",
-   "price": 351.1349,
+   "price": 39.861,
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 353.59,
-   "pct_away": -0.69,
+   "last": 40.12,
+   "pct_away": -0.65,
    "good_until": "2026-09-21",
-   "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
+   "why": "wanted it, but not at the high \u2014 resting at $39.86. Nuclear momentum breakout on volume, backtest sector_performance shows nuclear strongest 2y/5y sector",
    "signals": [
     "momentum",
-    "news",
     "patience"
    ]
   },
@@ -317,10 +231,45 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 438.7,
+   "last": 438.69,
    "pct_away": -0.74,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.46% under $437.46 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "846c83a9",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 351.1349,
+   "usd": 3000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 354.17,
+   "pct_away": -0.86,
+   "good_until": "2026-09-21",
+   "why": "wanted it, but not at the high \u2014 resting at $351.13. Steady widely-held momentum with fresh coverage",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "230d3e80",
+   "ticker": "SKWD",
+   "kind": "buy_limit",
+   "price": 56.0309,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 56.54,
+   "pct_away": -0.9,
+   "good_until": "2026-09-22",
+   "why": "strong month, weak day: resting 0.53% under $56.33 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -334,8 +283,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 178.45,
-   "pct_away": -0.74,
+   "last": 178.94,
+   "pct_away": -1.01,
    "good_until": "2026-09-22",
    "why": "strong month, weak day: resting 0.81% under $178.59 to catch the dip",
    "signals": [
@@ -351,8 +300,8 @@
    "usd": 4200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 699.66,
-   "pct_away": -1.26,
+   "last": 698.86,
+   "pct_away": -1.15,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
    "signals": [
@@ -369,8 +318,8 @@
    "usd": 3800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 237.68,
-   "pct_away": -1.4,
+   "last": 238.4,
+   "pct_away": -1.7,
    "good_until": "2026-09-21",
    "why": "wanted it, but not at the high \u2014 resting at $234.34. Strong 1m momentum plus repeated congressional buying",
    "signals": [
@@ -394,56 +343,6 @@
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "85ba11eb",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 567.2948,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 585.3,
-   "pct_away": -3.08,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bc75ed5d",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 215.8929,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 223.12,
-   "pct_away": -3.24,
-   "good_until": "2026-09-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5c0f0eba",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 565.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 585.3,
-   "pct_away": -3.47,
-   "good_until": "2026-09-21",
-   "why": "Cap downside on a fast mover",
-   "signals": [
-    "risk_management"
    ]
   }
  ],

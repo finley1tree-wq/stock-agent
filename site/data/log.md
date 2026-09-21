@@ -1,8 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBRiBE1Gc4ajKo1Txv4r'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $25178.22 (+0.71% on $25000.00 in) · cash $12999.16 · realised +170.83
 Decision: nothing at this check. 16 standing order(s) working.
@@ -398,3 +393,8 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
 - SELL 100% AMAT [take_profit @ $456.53] -> $3615.76 (+0.44%) — close 100% at +0.4% over the average cost
 - BUY $1000.00 CHRW [buy_limit @ $152.46] — strong month, weak day: resting 0.49% under $153.20 to catch the dip
 ## 2026-09-21 09:35 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $587.46] -> $4218.84 (+0.45%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $223.20] -> $3209.05 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-21 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders

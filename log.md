@@ -13073,3 +13073,8 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $14000.00 this week
 - SELL 100% AMAT [take_profit @ $456.53] -> $3615.76 (+0.44%) — close 100% at +0.4% over the average cost
 - BUY $1000.00 CHRW [buy_limit @ $152.46] — strong month, weak day: resting 0.49% under $153.20 to catch the dip
 ## 2026-09-21 09:35 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $587.46] -> $4218.84 (+0.45%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $223.20] -> $3209.05 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-21 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders

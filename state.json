@@ -1,10 +1,8 @@
 {
   "week": "2026-W39",
-  "spent": 8384.24,
+  "spent": 956.35,
   "deployed": 12000.0,
   "by_ticker": {
-    "AMD": 4200.0,
-    "NVDA": 3200.0,
     "CHRW": 1000.0
   },
   "deployed_by_ticker": {
@@ -104,43 +102,83 @@
       ],
       "evidence": "+6.5% over the month, sitting at 0% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 7.181489,
+      "status": "filled",
+      "price": 587.46,
+      "proceeds": 4218.84,
+      "realized_pnl": 18.84,
+      "realized_pct": 0.45,
+      "date": "2026-09-21",
+      "time_et": "09:36",
+      "ts": 1789997700,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $584.84",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 14.377208,
+      "status": "filled",
+      "price": 223.2,
+      "proceeds": 3209.05,
+      "realized_pnl": 9.05,
+      "realized_pct": 0.28,
+      "date": "2026-09-21",
+      "time_et": "09:36",
+      "ts": 1789997700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $222.57",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-21",
-  "spent_today": 8384.24,
+  "spent_today": 956.35,
   "deployed_today": 12000.0,
   "orders_today": 4,
-  "sells_today": 1,
+  "sells_today": 3,
   "sold_today": [
-    "AMAT"
+    "AMAT",
+    "AMD",
+    "NVDA"
   ],
   "sold_ts": {
-    "AMAT": 1789997719
+    "AMAT": 1789997719,
+    "AMD": 1789997799,
+    "NVDA": 1789997799
   },
-  "last_publish_ts": 1789997718,
-  "last_check_ts": 1789997718,
+  "last_publish_ts": 1789997798,
+  "last_check_ts": 1789997798,
   "last_bar_ts": 1789997700,
   "last_decision_ts": 1789997557,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "9bbd0ddc": 223.2043,
-    "29f14812": 222.9,
     "077f1391": 152.861,
     "a15cbdfb": 13.9292,
-    "59e43f04": 587.4601,
     "0bc3100d": 492.0535,
-    "230d3e80": 56.0309,
-    "bc229357": 39.861,
     "c4cb4e0e": 151.4553,
-    "846c83a9": 351.1349,
+    "bc229357": 39.861,
     "d7a4220a": 435.4608,
+    "846c83a9": 351.1349,
+    "230d3e80": 56.0309,
     "ee344eab": 177.1364,
     "31028f0b": 690.82,
     "a5c4e753": 234.3425,
-    "f890de88": 147.8862,
-    "85ba11eb": 567.2948,
-    "bc75ed5d": 215.8929,
-    "5c0f0eba": 565.0
+    "f890de88": 147.8862
   }
 }
