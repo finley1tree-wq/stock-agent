@@ -1,6 +1,3 @@
-  (dropped trigger LMT stop_loss: not held)
-~ WORKING stop_loss 100% AMD @ $2438.48 until 2026-09-21 — Protective stop on new AMD position
-~ WORKING stop_loss 100% OKLO @ $37.63 until 2026-09-21 — Protective stop on new OKLO position
 ~ WORKING buy_limit $2500.00 NVDA @ $223.73 until 2026-09-21 — wanted it, but not at the high — resting at $223.73. Core AI leader with continued momentum and positive sentiment, not held, not in cooldown
 ~ WORKING buy_limit $2000.00 PLTR @ $179.89 until 2026-09-21 — wanted it, but not at the high — resting at $179.89. Strong intraday momentum with fresh coverage, not held, not in cooldown
 ~ WORKING buy_limit $2000.00 RTX @ $193.83 until 2026-09-21 — wanted it, but not at the high — resting at $193.83. Defense sector has best hit_rate in track record (0.71), fresh broker coverage, not held
@@ -398,3 +395,6 @@ lesson: Below min_positions with idle cash: fire market buys sized $2-2.5k acros
 ~ WORKING buy_limit $500.00 OKLO @ $38.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32776.47 (+31.11% on $25000.00 in) · cash $21281.65 · realised +7781.65
 Done: 0 sell(s), 3 buy(s); 60 order(s) working; budget left $13491.81 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $443.29] -> $2004.87 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-21 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders

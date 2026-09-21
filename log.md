@@ -13791,3 +13791,6 @@ lesson: Below min_positions with idle cash: fire market buys sized $2-2.5k acros
 ~ WORKING buy_limit $500.00 OKLO @ $38.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32776.47 (+31.11% on $25000.00 in) · cash $21281.65 · realised +7781.65
 Done: 0 sell(s), 3 buy(s); 60 order(s) working; budget left $13491.81 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $443.29] -> $2004.87 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-21 14:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
