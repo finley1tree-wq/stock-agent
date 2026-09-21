@@ -1,5 +1,3 @@
-Done: 0 sell(s), 3 buy(s); 46 order(s) working; budget left $17500.00 this week
-
 ## 2026-09-21 12:56 ET (Monday) — week 2026-W39 — budget left $17500.00 (today $76903.74 put to work, 38 buys, 34 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -397,4 +395,6 @@ Done: 0 sell(s), 4 buy(s); 60 order(s) working; budget left $13500.00 this week
   (cancelled 1 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $94.00] -> $2008.13 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 15:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
