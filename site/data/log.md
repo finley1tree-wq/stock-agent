@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% RTX @ $194.42 until 2026-09-26 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 RTX @ $188.18 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $92.82 until 2026-09-26 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 CCJ @ $89.67 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING buy_limit $1000.00 AAPL @ $332.66 until 2026-09-22 — strong month, weak day: resting 0.46% under $334.18 to catch the dip
 ~ WORKING buy_limit $1000.00 HLI @ $130.87 until 2026-09-22 — strong month, weak day: resting 0.69% under $131.78 to catch the dip
@@ -398,3 +395,6 @@ lesson: Below min_positions with 100% idle cash for many consecutive checks is a
 ~ WORKING buy_limit $1000.00 TTD @ $13.88 until 2026-09-22 — strong month, weak day: resting 0.95% under $14.01 to catch the dip
 portfolio: equity $32788.67 (+31.15% on $25000.00 in) · cash $29339.62 · realised +7787.90
 Done: 0 sell(s), 1 buy(s); 40 order(s) working; budget left $23000.00 this week
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $376.01] -> $2005.93 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-09-21 12:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
