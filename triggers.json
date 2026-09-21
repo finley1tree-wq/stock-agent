@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "2620bdc0",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 491.5019,
-   "status": "cancelled",
-   "created": "2026-09-18 11:56",
-   "created_ts": 1789747011,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $494.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8a86bfc8",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 479.4128,
-   "status": "cancelled",
-   "created": "2026-09-18 11:56",
-   "created_ts": 1789747011,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $494.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 12:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "35cf24c0",
    "ticker": "CRWD",
    "kind": "take_profit",
@@ -7098,7 +7060,7 @@
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 526.5331,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:56",
    "created_ts": 1790009782,
    "why": "close 100% at +0.2% over the average cost",
@@ -7108,7 +7070,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 13:23",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "613fe1b4",
@@ -7465,7 +7429,43 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "19b6ad78",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 551.481,
+   "status": "cancelled",
+   "created": "2026-09-21 13:23",
+   "created_ts": 1790011435,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $525.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 13:24",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "88c1be85",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 526.5331,
+   "status": "working",
+   "created": "2026-09-21 13:24",
+   "created_ts": 1790011482,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $525.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-21 13:22"
+ "updated": "2026-09-21 13:24"
 }
