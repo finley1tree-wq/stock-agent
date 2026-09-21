@@ -1,5 +1,3 @@
-  (dropped trigger TSM stop_loss: not held)
-~ WORKING stop_loss 100% GOOGL @ $347.00 until 2026-09-21 — protect new GOOGL position
 ~ WORKING buy_limit $1500.00 NOC @ $517.00 until 2026-09-21 — resting limit below market to catch a dip in a defense name with strong track record
 ~ WORKING buy_limit $1500.00 AVGO @ $353.00 until 2026-09-21 — resting limit to catch dip once cooldown clears, semis AI exposure
 ~ WORKING buy_limit $2500.00 CRWD @ $240.12 until 2026-09-21 — wanted it, but not at the high — resting at $240.12. Strong momentum plus disclosed congressional buying, not yet held, fresh catalyst
@@ -398,3 +396,5 @@ Decision: nothing at this check. 49 standing order(s) working.
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $360.59] -> $2006.87 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% GOOGL [time stop] -> $2502.02 (+0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 13:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
