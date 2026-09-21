@@ -1,31 +1,3 @@
-portfolio: equity $25170.00 (+0.68% on $25000.00 in) · cash $25170.00 · realised +170.00
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-18 15:58 ET (Friday) — week 2026-W38 — budget left $24742.27 (today $211735.66 put to work, 75 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GRWG excluded: too thinly traded ($0.5M a day) — GrowGeneration Corp.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfBVnVEYfo6MAuWrMdHAD'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25170.00 (+0.68% on $25000.00 in) · cash $25170.00 · realised +170.00
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-09-18 16:00 ET — published the session's closing state
-## 2026-09-21 00:04 ET — published the session's closing state
-
-## 2026-09-21 09:32 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-  (HLEO excluded: too thinly traded ($0.0M a day) — Helio Corporation)
 brain: Book is flat at 100% cash idle, and the owner's rule under full_deployment is to concentrate in up to 6 high-conviction names in real size. I picked names with concrete same-day momentum plus either congress disclosure backing (AMD via Rep. Allen +13.2% excess, CRWD/AMAT via Cisneros/Gottheimer/Moskowitz) or fresh news catalysts (META Trump-Xi AI dinner, GOOGL analyst coverage), plus NVDA and OKLO for AI/nuclear momentum exposure per backtest sector strength. Track record shows momentum+congress combos rank well (avg_ret 0.05-0.02%), and auto_bracket/risk_management stops protect the downside given the mandatory 30-min max hold.
 lesson: On a flat book with full_deployment active, hitting 6 names each near max size beats waiting for a perfect single idea; today's evidence set (news+congress+momentum overlap) justified going to nearly full budget in one check.
   (dropped META: 94% up today's range — resting a limit at $690.82 instead of chasing)
@@ -398,3 +370,31 @@ Done: 0 sell(s), 3 buy(s); 29 order(s) working; budget left $17632.79 this week
 ## 2026-09-21 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% TSM [time stop] -> $2993.30 (-0.22%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 12:02 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $61041.67 put to work, 31 buys, 29 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Book is at only 1 position (OKLO) with 100% cash idle despite min_positions=8 and full_deployment active requiring concentration in up to 6 names. Deploying now into META (biggest news catalyst, cooldown almost expired), GOOGL, CRWD, CCJ at market since they're evidence-backed and not in blocking cooldown, while queuing AMD and TSM via buy_limit since their cooldowns (33/43 min) haven't cleared yet. This directly acts on repeated past lessons about idle cash rather than restating them.
+lesson: Acted on repeated 'deploy more' lessons by placing real buy orders across 4 non-cooldown names plus limit orders for 2 cooldown names, moving toward min_positions=8 rather than writing another idle-cash lesson.
+  (dropped META: sold 44 min ago, cooling off)
+  (dropped AMD: sold 12 min ago, cooling off)
+  (dropped TSM: sold 2 min ago, cooling off)
+  (dropped GOOGL: sold 37 min ago, cooling off)
+  (dropped CRWD: 100% up today's range — resting a limit at $240.20 instead of chasing)
+- BUY $2500.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has best hit_rate (0.73) in track record and fresh IPO-value headline | evidence: CCJ +1.18% today, 'Westinghouse Could IPO at $50B, Cameco stake worth $24.5B' - concrete catalyst, nuclear sector track record hit_rate 0.73
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+~ WORKING buy_limit $3000.00 AMD @ $605.00 until 2026-09-21 — Wait for cooldown to clear and modest pullback rather than chasing at 84% of range
+~ WORKING buy_limit $2500.00 TSM @ $436.00 until 2026-09-21 — Resting limit to catch entry once cooldown clears without chasing
+~ WORKING stop_loss 100% CCJ @ $89.50 until 2026-09-21 — Protective stop on new CCJ position
+~ WORKING buy_limit $2500.00 CRWD @ $240.20 until 2026-09-21 — wanted it, but not at the high — resting at $240.20. Congress buying overlap plus strong momentum catalyst, buying near market given strength
+~ WORKING take_profit 100% CCJ @ $93.12 until 2026-09-26 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $89.96 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 MSFT @ $492.19 until 2026-09-22 — strong month, weak day: resting 0.41% under $494.23 to catch the dip
+portfolio: equity $32786.81 (+31.15% on $25000.00 in) · cash $28289.10 · realised +7789.10
+Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $22500.00 this week

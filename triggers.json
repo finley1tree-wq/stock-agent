@@ -1,136 +1,6 @@
 {
  "orders": [
   {
-   "id": "581b30c8",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 284.3505,
-   "status": "cancelled",
-   "created": "2026-09-18 10:33",
-   "created_ts": 1789741982,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $270.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:33",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "1ddf7385",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 272.7815,
-   "status": "cancelled",
-   "created": "2026-09-18 10:33",
-   "created_ts": 1789742028,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $270.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:44",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ace4099c",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 271.458,
-   "status": "filled",
-   "created": "2026-09-18 10:35",
-   "created_ts": 1789742110,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $270.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:44"
-  },
-  {
-   "id": "f996087e",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 675.124,
-   "status": "filled",
-   "created": "2026-09-18 10:37",
-   "created_ts": 1789742240,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $674.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 10:41"
-  },
-  {
-   "id": "4499d37a",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 237.9947,
-   "status": "filled",
-   "created": "2026-09-18 10:41",
-   "created_ts": 1789742504,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $236.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 11:07"
-  },
-  {
-   "id": "5a9d0c51",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 232.902,
-   "status": "cancelled",
-   "created": "2026-09-18 10:41",
-   "created_ts": 1789742504,
-   "why": "close it all at -1.5% under the average cost",
-   "evidence": "average cost $236.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 11:03",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "48f1c437",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 229.4438,
-   "status": "cancelled",
-   "created": "2026-09-18 10:41",
-   "created_ts": 1789742504,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $236.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 11:07",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "df019282",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7501,7 +7371,127 @@
    ],
    "good_until": "2026-09-26",
    "usd": 500.0
+  },
+  {
+   "id": "1450ef6f",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 605.0,
+   "status": "working",
+   "created": "2026-09-21 12:02",
+   "created_ts": 1790006523,
+   "why": "Wait for cooldown to clear and modest pullback rather than chasing at 84% of range",
+   "evidence": "AMD +9.06% today, cooldown 33min, resting below current 610.53 to get better entry",
+   "signals": [
+    "momentum",
+    "news"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 3000.0
+  },
+  {
+   "id": "cf4a6dbc",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 436.0,
+   "status": "working",
+   "created": "2026-09-21 12:02",
+   "created_ts": 1790006523,
+   "why": "Resting limit to catch entry once cooldown clears without chasing",
+   "evidence": "TSM 65.5% of day range, cooldown 43min remains",
+   "signals": [
+    "momentum",
+    "news"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "b96b15bc",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 89.5,
+   "status": "working",
+   "created": "2026-09-21 12:02",
+   "created_ts": 1790006523,
+   "why": "Protective stop on new CCJ position",
+   "evidence": "CCJ ATR 3.67%, current 92.7, day low 91.645",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8daf6c6e",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 240.1989,
+   "status": "working",
+   "created": "2026-09-21 12:02",
+   "created_ts": 1790006523,
+   "why": "wanted it, but not at the high \u2014 resting at $240.20. Congress buying overlap plus strong momentum catalyst, buying near market given strength",
+   "evidence": "CRWD +4.27% today, 99.7% of day range, Rep. Gilbert Ray Cisneros disclosed buy 2026-09-10 and 2026-09-04, 'CrowdStrike Stock Jumped 15% Last Week'",
+   "signals": [
+    "momentum",
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "198fd678",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 93.1175,
+   "status": "working",
+   "created": "2026-09-21 12:02",
+   "created_ts": 1790006523,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $92.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "79e54846",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 89.9578,
+   "status": "working",
+   "created": "2026-09-21 12:02",
+   "created_ts": 1790006523,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $92.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
+  },
+  {
+   "id": "21c673a0",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 492.1944,
+   "status": "working",
+   "created": "2026-09-21 12:02",
+   "created_ts": 1790006523,
+   "why": "strong month, weak day: resting 0.41% under $494.23 to catch the dip",
+   "evidence": "+2.7% over the month, sitting at 48% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-21 11:50"
+ "updated": "2026-09-21 12:02"
 }
