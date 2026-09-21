@@ -1,100 +1,6 @@
 {
  "orders": [
   {
-   "id": "4bf9f865",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 430.9389,
-   "status": "cancelled",
-   "created": "2026-09-18 12:27",
-   "created_ts": 1789748841,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $429.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:30",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "bf4726cb",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 451.353,
-   "status": "cancelled",
-   "created": "2026-09-18 12:30",
-   "created_ts": 1789749057,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $429.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:31",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "3f1a5302",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 430.9389,
-   "status": "cancelled",
-   "created": "2026-09-18 12:31",
-   "created_ts": 1789749103,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $429.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ec9121d1",
-   "ticker": "BE",
-   "kind": "take_profit",
-   "price": 272.9326,
-   "status": "filled",
-   "created": "2026-09-18 12:40",
-   "created_ts": 1789749638,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $270.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:46"
-  },
-  {
-   "id": "d1101a3a",
-   "ticker": "BE",
-   "kind": "stop_loss",
-   "price": 266.0285,
-   "status": "cancelled",
-   "created": "2026-09-18 12:40",
-   "created_ts": 1789749638,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $270.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 12:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "72fb1504",
    "ticker": "BE",
    "kind": "buy_limit",
@@ -7457,7 +7363,91 @@
    "good_until": "2026-09-26",
    "pct_of_position": 100.0,
    "closed": "2026-09-21 14:10"
+  },
+  {
+   "id": "0d52de0d",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 430.0,
+   "status": "working",
+   "created": "2026-09-21 14:11",
+   "created_ts": 1790014300,
+   "why": "Protective stop on new TSM buy",
+   "evidence": "ATR 2.19%, cap downside on new TSM position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "55942e79",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 177.0,
+   "status": "working",
+   "created": "2026-09-21 14:11",
+   "created_ts": 1790014300,
+   "why": "Protective stop on new PLTR buy",
+   "evidence": "ATR 4.0%, cap downside on new PLTR position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2694f8f7",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 458.8727,
+   "status": "working",
+   "created": "2026-09-21 14:11",
+   "created_ts": 1790014300,
+   "why": "wanted it, but not at the high \u2014 resting at $458.87. Strong daily momentum plus congressional buy overlap, not held, no cooldown",
+   "evidence": "AMAT +4.36% today, +9.37% 5d; Rep. Josh Gottheimer disclosed AMAT buy 2026-08-06 (disclosed 2026-09-14)",
+   "signals": [
+    "momentum",
+    "congress",
+    "patience"
+   ],
+   "good_until": "2026-09-21",
+   "usd": 2500.0
+  },
+  {
+   "id": "66407809",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 443.2946,
+   "status": "working",
+   "created": "2026-09-21 14:11",
+   "created_ts": 1790014300,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $442.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "fb87f16a",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 428.9534,
+   "status": "working",
+   "created": "2026-09-21 14:11",
+   "created_ts": 1790014300,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $442.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-21 14:10"
+ "updated": "2026-09-21 14:11"
 }

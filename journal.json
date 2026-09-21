@@ -6553,8 +6553,8 @@
     "code_version": "a0d22a4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -10166,8 +10166,8 @@
     "code_version": "70eb329",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02,
-    "ret_final": 0.02,
+    "ret_now": 0.03,
+    "ret_final": 0.03,
     "ret_src": "realised"
   },
   {
@@ -12565,8 +12565,8 @@
     "code_version": "d75ddf2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.01,
+    "ret_final": 0.01,
     "ret_src": "realised"
   },
   {
@@ -13112,8 +13112,8 @@
     "code_version": "9c091da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01,
-    "ret_final": -0.01,
+    "ret_now": -0.0,
+    "ret_final": -0.0,
     "ret_src": "realised"
   },
   {
@@ -13902,8 +13902,8 @@
     "code_version": "f9c934a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02,
-    "ret_final": -0.02,
+    "ret_now": -0.01,
+    "ret_final": -0.01,
     "ret_src": "realised"
   },
   {
@@ -15170,8 +15170,8 @@
     "code_version": "12e89ca",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02,
-    "ret_final": -0.02,
+    "ret_now": -0.01,
+    "ret_final": -0.01,
     "ret_src": "realised"
   },
   {
@@ -15884,8 +15884,8 @@
     "code_version": "87cc0f0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08,
-    "ret_final": -0.08,
+    "ret_now": -0.06,
+    "ret_final": -0.06,
     "ret_src": "realised"
   },
   {
@@ -16784,8 +16784,8 @@
     "code_version": "458117f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11,
-    "ret_final": -0.11,
+    "ret_now": -0.09,
+    "ret_final": -0.09,
     "ret_src": "realised"
   },
   {
@@ -17713,8 +17713,8 @@
     "code_version": "754304c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12,
-    "ret_final": -0.12,
+    "ret_now": -0.08,
+    "ret_final": -0.08,
     "ret_src": "realised"
   },
   {
@@ -18477,8 +18477,8 @@
     "code_version": "7099261",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09,
-    "ret_final": -0.09,
+    "ret_now": -0.05,
+    "ret_final": -0.05,
     "ret_src": "realised"
   },
   {
@@ -24041,8 +24041,8 @@
     "code_version": "c145e13",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25,
-    "ret_final": -0.25,
+    "ret_now": -0.12,
+    "ret_final": -0.12,
     "ret_src": "realised"
   },
   {
@@ -25058,8 +25058,8 @@
     "code_version": "d46bd3d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28,
-    "ret_final": -0.28,
+    "ret_now": -0.08,
+    "ret_final": -0.08,
     "ret_src": "realised"
   },
   {
@@ -25647,7 +25647,8 @@
     "hour_et": 13,
     "code_version": "651c7b9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.15
   },
   {
     "symbol": "CCJ",
@@ -25672,7 +25673,8 @@
     "hour_et": 13,
     "code_version": "651c7b9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.06
   },
   {
     "symbol": "UNH",
@@ -25696,7 +25698,8 @@
     "hour_et": 13,
     "code_version": "651c7b9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.03
   },
   {
     "symbol": "IBM",
@@ -25720,7 +25723,10 @@
     "hour_et": 13,
     "code_version": "651c7b9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.07,
+    "ret_now": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -25744,6 +25750,57 @@
     "evidence": "average cost $228.78",
     "trigger": "stop_loss",
     "hour_et": 14,
-    "code_version": "79be39b"
+    "code_version": "79be39b",
+    "hold_minutes": 9
+  },
+  {
+    "symbol": "TSM",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.522652,
+    "price": 442.22,
+    "date": "2026-09-21",
+    "time_et": "14:11",
+    "ts": 1790014300,
+    "why": "Semis exposure with strong momentum, past week's cost basis showed +0.42% avg_ret_pct in track record",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "TSM +1.72% today, +5.77% 5d, cooldown cleared, AI chip demand headlines",
+    "entry_price": 442.13,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 6.28,
+    "hour_et": 14,
+    "code_version": "d46519e",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "PLTR",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.989229,
+    "price": 182.0,
+    "date": "2026-09-21",
+    "time_et": "14:11",
+    "ts": 1790014300,
+    "why": "Momentum name with fresh coverage, not held, no cooldown",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "PLTR +2.43% today at 78.6% of range, congress overlap via disclosure history, fresh news flow",
+    "entry_price": 181.96,
+    "sector": "defense",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.6,
+    "hour_et": 14,
+    "code_version": "d46519e",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

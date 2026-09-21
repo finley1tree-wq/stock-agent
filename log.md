@@ -13729,3 +13729,29 @@ Done: 0 sell(s), 4 buy(s); 58 order(s) working; budget left $14987.61 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $228.94] -> $2001.45 (+0.07%) — close it all at -0.9% under the average cost
 ## 2026-09-21 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 14:11 ET (Monday) — week 2026-W39 — budget left $16989.06 (today $96403.74 put to work, 47 buys, 43 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Still below min_positions (3 held, need 8) with 68% cash idle and 3 checks left today - the counterfactual data shows idle sitting has real cost (idle_universe_avg_pct 0.63%) and past lessons consistently show market orders close the gap while limits don't fill. Adding NVDA, TSM, PLTR, AMAT as market buys with protective stops, all backed by concrete momentum/news/congress evidence, to push toward min_positions while avoiding cooldown names (AVGO, IBM, GOOGL, NOC) and not chasing extreme-range names.
+lesson: Market orders with attached stops are the only thing that reliably closes the position-count gap; keep sizing at $2-2.5k per name and prioritize non-cooldown, evidence-backed tickers each check until min_positions is met.
+  (dropped NVDA: 92% up today's range — resting a limit at $224.92 instead of chasing)
+  (dropped AMAT: 100% up today's range — resting a limit at $458.87 instead of chasing)
+- BUY $2000.00 TSM [filled] ['momentum', 'news'] — Semis exposure with strong momentum, past week's cost basis showed +0.42% avg_ret_pct in track record | evidence: TSM +1.72% today, +5.77% 5d, cooldown cleared, AI chip demand headlines
+- BUY $2000.00 PLTR [filled] ['momentum', 'news'] — Momentum name with fresh coverage, not held, no cooldown | evidence: PLTR +2.43% today at 78.6% of range, congress overlap via disclosure history, fresh news flow
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger PLTR: working-order book is full (60))
+  (dropped trigger PLTR: working-order book is full (60))
+~ WORKING stop_loss 100% TSM @ $430.00 until 2026-09-21 — Protective stop on new TSM buy
+~ WORKING stop_loss 100% PLTR @ $177.00 until 2026-09-21 — Protective stop on new PLTR buy
+~ WORKING buy_limit $2500.00 AMAT @ $458.87 until 2026-09-21 — wanted it, but not at the high — resting at $458.87. Strong daily momentum plus congressional buy overlap, not held, no cooldown
+~ WORKING take_profit 100% TSM @ $443.29 until 2026-09-26 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $428.95 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32782.31 (+31.13% on $25000.00 in) · cash $20778.90 · realised +7778.90
+Done: 0 sell(s), 2 buy(s); 60 order(s) working; budget left $12989.06 this week
