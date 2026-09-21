@@ -13655,3 +13655,5 @@ lesson: Resting limits alone repeatedly failed to fill while below min_positions
 ~ WORKING buy_limit $500.00 AVGO @ $348.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32766.67 (+31.07% on $25000.00 in) · cash $26768.68 · realised +7768.68
 Done: 0 sell(s), 2 buy(s); 49 order(s) working; budget left $18978.83 this week
+- SELL 100% NOC [time stop] -> $1499.89 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 13:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders

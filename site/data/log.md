@@ -1,5 +1,3 @@
-~ WORKING stop_loss 100% MSFT @ $478.50 until 2026-09-21 — protect new MSFT position
-~ WORKING buy_limit $2375.00 GOOGL @ $353.76 until 2026-09-21 — wanted it, but not at the high — resting at $353.76. Widely-held momentum name with fresh positive coverage, buying at market since limit orders resting below haven't filled and range is not extreme
 ~ WORKING take_profit 100% AMAT @ $457.93 until 2026-09-26 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 AMAT @ $442.24 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% NVDA @ $224.85 until 2026-09-26 — close 100% at +0.3% over the average cost
@@ -398,3 +396,5 @@ lesson: Resting limits alone repeatedly failed to fill while below min_positions
 ~ WORKING buy_limit $500.00 AVGO @ $348.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32766.67 (+31.07% on $25000.00 in) · cash $26768.68 · realised +7768.68
 Done: 0 sell(s), 2 buy(s); 49 order(s) working; budget left $18978.83 this week
+- SELL 100% NOC [time stop] -> $1499.89 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-21 13:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
