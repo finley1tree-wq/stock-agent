@@ -13657,3 +13657,30 @@ portfolio: equity $32766.67 (+31.07% on $25000.00 in) · cash $26768.68 · reali
 Done: 0 sell(s), 2 buy(s); 49 order(s) working; budget left $18978.83 this week
 - SELL 100% NOC [time stop] -> $1499.89 (-0.01%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 13:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-21 13:38 ET (Monday) — week 2026-W39 — budget left $20478.72 (today $86403.74 put to work, 43 buys, 40 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
+brain: Below min_positions (2 of 8) with 81.9% cash idle for hours despite repeated past lessons flagging this exact failure - resting limits keep expiring unfilled while momentum names run. Deploying real market-size orders ($2-3k each) across 6 evidence-backed momentum/news names (META, AMD, CRWD, NVDA, PLTR, TSM) to close the position-count gap immediately, with protective stops attached per guardrails. This brings the book to 8 positions total with GOOGL/AVGO already held, consistent with full_deployment instruction to concentrate in high-conviction names.
+lesson: Repeated resting-limit-only approach failed to fill while below min_positions for hours; market orders with attached stops are the fix, confirmed again this check - do not revert to limit-only stacking when position count is short.
+  (dropped AMD: sold 18 min ago, cooling off)
+  (dropped PLTR: sold 18 min ago, cooling off)
+  (dropped TSM: sold 18 min ago, cooling off)
+  (dropped META: 100% up today's range — resting a limit at $713.38 instead of chasing)
+  (dropped CRWD: 94% up today's range — resting a limit at $240.52 instead of chasing)
+  (dropped NVDA: 94% up today's range — resting a limit at $224.76 instead of chasing)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING buy_limit $3000.00 META @ $713.38 until 2026-09-21 — wanted it, but not at the high — resting at $713.38. Strong breakout momentum with concrete bullish catalyst; sized moderately given extended range
+~ WORKING buy_limit $2500.00 CRWD @ $240.52 until 2026-09-21 — wanted it, but not at the high — resting at $240.52. Momentum plus congressional buy overlap in cybersecurity theme
+~ WORKING buy_limit $2500.00 NVDA @ $224.76 until 2026-09-21 — wanted it, but not at the high — resting at $224.76. Core AI leader continuing momentum, building toward min_positions
+portfolio: equity $32770.72 (+31.08% on $25000.00 in) · cash $28268.57 · realised +7768.57
+Decision: nothing at this check. 49 standing order(s) working.
