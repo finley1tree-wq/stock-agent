@@ -13819,3 +13819,6 @@ lesson: Market orders with stops reliably close the position-count gap when belo
 ~ WORKING buy_limit $1500.00 AMAT @ $459.33 until 2026-09-21 — wanted it, but not at the high — resting at $459.33. Strong daily momentum plus congressional buy overlap, not held
 portfolio: equity $32772.12 (+31.09% on $25000.00 in) · cash $25283.74 · realised +7783.74
 Decision: nothing at this check. 57 standing order(s) working.
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $499.34] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-21 14:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
