@@ -13474,3 +13474,6 @@ lesson: When below min_positions with high idle cash, buy actual market orders i
 ~ WORKING buy_limit $500.00 IBM @ $222.61 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32788.02 (+31.15% on $25000.00 in) · cash $26430.41 · realised +7792.48
 Done: 0 sell(s), 2 buy(s); 39 order(s) working; budget left $20641.31 this week
+  (cancelled 3 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $356.41] -> $2414.44 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-21 12:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders

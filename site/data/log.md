@@ -1,6 +1,3 @@
-- SELL 100% AMD [take_profit @ $587.46] -> $4218.84 (+0.45%) — close 100% at +0.4% over the average cost
-  (cancelled 2 standing order(s) on NVDA: position closed)
-- SELL 100% NVDA [take_profit @ $223.20] -> $3209.05 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-21 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 TTD [buy_limit @ $13.93] — strong month, weak day: resting 0.93% under $14.06 to catch the dip
 ## 2026-09-21 09:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
@@ -398,3 +395,6 @@ lesson: When below min_positions with high idle cash, buy actual market orders i
 ~ WORKING buy_limit $500.00 IBM @ $222.61 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32788.02 (+31.15% on $25000.00 in) · cash $26430.41 · realised +7792.48
 Done: 0 sell(s), 2 buy(s); 39 order(s) working; budget left $20641.31 this week
+  (cancelled 3 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $356.41] -> $2414.44 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-21 12:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
