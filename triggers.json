@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "7d0eabdb",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 546.7431,
-   "status": "cancelled",
-   "created": "2026-09-18 11:01",
-   "created_ts": 1789743707,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $544.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-18 11:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "99cd1b40",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -7437,7 +7418,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 372.0933,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-21 12:33",
    "created_ts": 1790008397,
    "why": "close it all at -0.7% under the average cost",
@@ -7447,7 +7428,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-21 12:40",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "49932c04",
@@ -7482,7 +7465,24 @@
    ],
    "good_until": "2026-09-22",
    "usd": 1000.0
+  },
+  {
+   "id": "b8531aa2",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 375.358,
+   "status": "working",
+   "created": "2026-09-21 12:40",
+   "created_ts": 1790008834,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $374.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-26",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-21 12:33"
+ "updated": "2026-09-21 12:40"
 }
