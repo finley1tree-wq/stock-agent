@@ -14738,3 +14738,6 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
 ## 2026-09-22 14:17 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% AAPL [time stop] -> $2893.57 (-0.04%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $497.59] -> $2505.83 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-22 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders

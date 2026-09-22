@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 AVGO @ $351.85 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NVDA @ $229.32 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NVDA @ $221.81 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% UNH @ $375.35 until 2026-09-27 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% UNH @ $371.50 until 2026-09-27 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 UNH @ $363.02 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
 ## 2026-09-22 14:17 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% AAPL [time stop] -> $2893.57 (-0.04%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $497.59] -> $2505.83 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-22 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
