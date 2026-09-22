@@ -1,5 +1,3 @@
-- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name, fresh positive catalyst, at 67% of day range not extreme | evidence: GOOGL +1.5% today, Kairos Power/Samsung nuclear-AI deal headline
-  (dropped trigger NVDA stop_loss: not held)
   (dropped trigger MSFT stop_loss: not held)
   (dropped trigger TSM stop_loss: not held)
   (dropped trigger AVGO stop_loss: not held)
@@ -398,3 +396,5 @@ lesson: Queuing buys on names with cooldowns under ~35min continues to test the 
 ~ WORKING buy_limit $1000.00 TTD @ $13.18 until 2026-09-23 — strong month, weak day: resting 1.01% under $13.32 to catch the dip
 portfolio: equity $32802.44 (+31.21% on $25000.00 in) · cash $20850.43 · realised +7850.43
 Decision: nothing at this check. 23 standing order(s) working.
+- SELL 100% CHRW [time stop] -> $995.21 (-0.48%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
