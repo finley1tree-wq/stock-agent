@@ -1,4 +1,3 @@
-  (dropped GOOGL: sold 37 min ago, cooling off)
   (dropped NVDA: 96% up today's range — resting a limit at $224.39 instead of chasing)
   (dropped AMAT: 94% up today's range — resting a limit at $458.69 instead of chasing)
   (dropped AVGO: 94% up today's range — resting a limit at $357.79 instead of chasing)
@@ -398,3 +397,4 @@ lesson: When no_new_entries_this_check is true near the close, do not attempt bu
 portfolio: equity $32801.08 (+31.20% on $25000.00 in) · cash $32801.08 · realised +7801.08
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-21 16:00 ET — published the session's closing state
