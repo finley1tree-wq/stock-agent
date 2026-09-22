@@ -1,5 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
@@ -394,6 +392,8 @@ lesson: In the final 30-minute window before close, new market buys have almost 
 portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
 Decision: nothing at this check. 27 standing order(s) working.
   (cancelled 25 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
