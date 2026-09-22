@@ -14594,3 +14594,6 @@ lesson: With below_target_position_count and high idle cash, deploy sized buys a
 ~ WORKING buy_limit $500.00 GOOGL @ $340.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32790.66 (+31.16% on $25000.00 in) · cash $25286.98 · realised +7786.98
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $17424.22 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $351.95] -> $2506.82 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-22 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
