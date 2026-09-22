@@ -14349,3 +14349,19 @@ Done: 1 sell(s), 4 buy(s) (incl. 1 from standing orders); 29 order(s) working; b
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [take_profit @ $135.04] -> $2003.66 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 11:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% IBM [time stop] -> $1989.64 (-0.52%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 11:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 11:27 ET (Tuesday) — week 2026-W39 — budget left $15036.73 (today $82123.59 put to work, 37 buys, 32 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain: placeholder
+lesson: placeholder
+  (dropped GOOGL: sold 31 min ago, cooling off)
+portfolio: equity $32868.05 (+31.47% on $25000.00 in) · cash $22868.07 · realised +7868.07
+Decision: nothing at this check. 23 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

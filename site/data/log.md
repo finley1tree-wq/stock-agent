@@ -1,5 +1,3 @@
-  (cancelled 1 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $94.00] -> $2008.13 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-21 15:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
@@ -398,3 +396,5 @@ Done: 1 sell(s), 4 buy(s) (incl. 1 from standing orders); 29 order(s) working; b
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [take_profit @ $135.04] -> $2003.66 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 11:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% IBM [time stop] -> $1989.64 (-0.52%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 11:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
