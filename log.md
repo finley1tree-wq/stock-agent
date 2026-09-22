@@ -14486,3 +14486,42 @@ lesson: Reaching min_positions fast with sized ($2.5-4k) evidence-backed buys in
 ~ WORKING buy_limit $1000.00 AAPL @ $340.80 until 2026-09-23 — strong month, weak day: resting 0.43% under $342.29 to catch the dip
 portfolio: equity $32804.16 (+31.22% on $25000.00 in) · cash $28807.15 · realised +7807.15
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $20944.39 this week
+
+## 2026-09-22 12:42 ET (Tuesday) — week 2026-W39 — budget left $20944.39 (today $111057.42 put to work, 47 buys, 44 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 2 positions held with 83.8% cash idle - well below min_positions of 8 and full_deployment is active demanding concentration in up to 6 names. Widely_held sector has the best realized track record (5.62% avg_ret, and news signal shows 13.59% avg_ret in track_record). Adding META, AMZN, IBM, UNH, AAPL from widely_held plus NOC/RTX as a defense-sector dip-buy (prior check at 10:57 buying the defense selloff returned +0.84% avg). All new buys are sized $2-3.5k each, backed by concrete headlines/numbers, avoiding cooldown-blocked names (GOOGL, AMD, TSM, CCJ, PLTR, TTD, IBP, NEM).
+lesson: Full deployment mode with 83.8% idle cash and 2 positions is the clearest signal to act - deploy sized buys across 6+ names from the best-performing sector (widely_held) plus a contrarian defense dip, backed by concrete headlines, rather than waiting on resting limits.
+  (dropped GOOGL: sold 28 min ago, cooling off)
+  (dropped AAPL: sector widely_held at its 50% cap ($0.00))
+- BUY $3500.00 META [filled] ['news', 'momentum'] — Strong news-driven momentum in AI, widely_held sector has best realized track record | evidence: Meta Muse AI: 'AMD's path to $1T market cap' and 'Meta stock jumps as Wells Fargo raises price target' 2026-09-21; META change_1m_pct +35.04%, widely_held sector avg_ret_pct 5.62% best in track record
+- BUY $2500.00 AMZN [filled] ['news', 'momentum'] — Low in day range with positive ecosystem news, widely_held sector strength | evidence: 'PayPal Joins Meta's Muse Checkout Ecosystem' headline 16:22, AMZN pct_of_day_range 10.9 (near day low, room to run)
+- BUY $2500.00 IBM [filled] ['news', 'momentum'] — Low in day range, quantum computing catalyst news, widely_held sector strength | evidence: 'Will This Major Industry Showcase Boost Quantum Computing Stocks?' 2026-09-22, IBM pct_of_day_range 25.6, widely_held sector avg 5.62%
+- BUY $880.76 UNH [filled] ['news', 'momentum'] — Low in day range, positive analyst framing, widely_held sector strength | evidence: 'Should You Buy UnitedHealth Group Stock Before Oct. 13?' Motley Fool 2026-09-21, pct_of_day_range 25.4
+- BUY $2500.00 NOC [filled] ['news', 'risk_management'] — Defense sector dip buying rebound thesis validated by prior check outcome | evidence: NOC -2.84% today, day_low 506.5 vs price 511.73, pct_of_day_range 23.2 - defense sell-off overdone per lesson from 10:57 check (avg_ret 0.84% that check)
+- BUY $2500.00 RTX [filled] ['news', 'risk_management'] — Record backlog news despite intraday sell-off, defense sector dip | evidence: 'RTX record $289 billion backlog' Motley Fool headline 15:50, RTX -2.19% today at day pct 39.0, backlog fundamentals strong despite sell-off
+  (dropped trigger AAPL stop_loss: not held)
+~ WORKING stop_loss 100% META @ $735.00 until 2026-09-22 — Protective stop ~1% below entry
+~ WORKING stop_loss 100% AMZN @ $251.50 until 2026-09-22 — Protective stop below entry
+~ WORKING stop_loss 100% IBM @ $229.50 until 2026-09-22 — Protective stop below entry
+~ WORKING stop_loss 100% UNH @ $371.00 until 2026-09-22 — Protective stop below entry
+~ WORKING stop_loss 100% NOC @ $503.50 until 2026-09-22 — Protective stop below today's low
+~ WORKING stop_loss 100% RTX @ $186.50 until 2026-09-22 — Protective stop below today's low
+~ WORKING take_profit 100% META @ $745.78 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 META @ $720.48 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $254.98 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $246.78 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $232.86 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $225.08 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $375.78 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $363.43 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $513.27 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $496.57 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $190.60 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $184.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32801.77 (+31.21% on $25000.00 in) · cash $14426.39 · realised +7807.15
+Done: 0 sell(s), 6 buy(s); 33 order(s) working; budget left $6563.63 this week

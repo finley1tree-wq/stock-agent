@@ -1,42 +1,3 @@
-lesson: Below min_positions with idle cash, deploy sized market buys across multiple low-day-range names with concrete evidence in one check rather than waiting on resting limits.
-  (dropped AMAT: 98% up today's range — resting a limit at $460.59 instead of chasing)
-- BUY $2307.69 NVDA [filled] ['momentum', 'news', 'track_record'] — Strong sector track record and AI chip momentum, Alibaba chip news underscores AI capex theme | evidence: NVDA +7.28% 5d, widely_held sector avg_ret_pct 7.41% best sector in track record
-- BUY $2307.69 AVGO [filled] ['momentum', 'news'] — Broadcom low in day range with bullish analyst coverage, good entry point | evidence: Motley Fool: 'Prediction: Broadcom Will Be a $3 Trillion Company by End of 2030', low in day range (14.8%)
-- BUY $2307.69 UNH [filled] ['momentum', 'news'] — Defensive healthcare name near day low, buy-before-catalyst headline | evidence: UNH near day low (4% of range), 'Should You Buy UnitedHealth Group Stock Before Oct. 13?'
-- BUY $2307.69 NOC [filled] ['momentum', 'news'] — Defense sector low in range, contract-driven tailwinds persist | evidence: NOC pct_of_day_range 15.3%, defense headlines on Super Hornet demand and Pentagon contracts
-- BUY $2307.69 IBM [filled] ['news', 'momentum'] — IBM sitting at day low with quantum manufacturing catalyst | evidence: IBM at day low (0% of range), '$2 Billion Builds a Quantum Manufacturing Platform' headline
-- BUY $2307.69 GLD [filled] ['news', 'momentum'] — Gold safe-haven bid with bullish long-term price target headline | evidence: 'Fidelity Sees Gold Climbing Toward $5,000' - GuruFocus
-- BUY $2307.69 PLD [filled] ['news', 'momentum'] — Real estate data-center leasing tailwind, low in day range (27.8%) | evidence: 'Prologis Sees Leasing Surge, Data Centers Fuel Growth Outlook' - MarketBeat
-~ WORKING buy_limit $1846.15 AMAT @ $460.59 until 2026-09-22 — wanted it, but not at the high — resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size
-~ WORKING take_profit 100% NVDA @ $228.31 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% NVDA @ $226.03 until 2026-09-27 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 NVDA @ $220.83 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $361.37 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AVGO @ $357.09 until 2026-09-27 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 AVGO @ $349.35 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $377.63 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% UNH @ $373.87 until 2026-09-27 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 UNH @ $365.26 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $520.66 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% NOC @ $516.28 until 2026-09-27 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 NOC @ $503.83 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $233.94 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% IBM @ $231.10 until 2026-09-27 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 IBM @ $226.14 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GLD @ $398.33 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% GLD @ $395.63 until 2026-09-27 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 GLD @ $385.63 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLD @ $135.56 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% PLD @ $134.69 until 2026-09-27 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 PLD @ $131.25 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32818.47 (+31.27% on $25000.00 in) · cash $14677.54 · realised +7831.37
-Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
-  (cancelled 2 standing order(s) on HLI: position closed)
-- SELL 100% HLI [stop_loss @ $129.75] -> $990.30 (-0.97%) — close it all at -0.9% under the average cost
-## 2026-09-22 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CRWD: position closed)
-- SELL 100% CRWD [take_profit @ $246.56] -> $1005.63 (+0.56%) — close 100% at +0.6% over the average cost
-## 2026-09-22 09:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [stop_loss @ $360.61] -> $2310.60 (+0.13%) — close it all at -0.8% under the average cost
   (cancelled 2 standing order(s) on IBM: position closed)
@@ -398,3 +359,42 @@ lesson: Reaching min_positions fast with sized ($2.5-4k) evidence-backed buys in
 ~ WORKING buy_limit $1000.00 AAPL @ $340.80 until 2026-09-23 — strong month, weak day: resting 0.43% under $342.29 to catch the dip
 portfolio: equity $32804.16 (+31.22% on $25000.00 in) · cash $28807.15 · realised +7807.15
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $20944.39 this week
+
+## 2026-09-22 12:42 ET (Tuesday) — week 2026-W39 — budget left $20944.39 (today $111057.42 put to work, 47 buys, 44 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 2 positions held with 83.8% cash idle - well below min_positions of 8 and full_deployment is active demanding concentration in up to 6 names. Widely_held sector has the best realized track record (5.62% avg_ret, and news signal shows 13.59% avg_ret in track_record). Adding META, AMZN, IBM, UNH, AAPL from widely_held plus NOC/RTX as a defense-sector dip-buy (prior check at 10:57 buying the defense selloff returned +0.84% avg). All new buys are sized $2-3.5k each, backed by concrete headlines/numbers, avoiding cooldown-blocked names (GOOGL, AMD, TSM, CCJ, PLTR, TTD, IBP, NEM).
+lesson: Full deployment mode with 83.8% idle cash and 2 positions is the clearest signal to act - deploy sized buys across 6+ names from the best-performing sector (widely_held) plus a contrarian defense dip, backed by concrete headlines, rather than waiting on resting limits.
+  (dropped GOOGL: sold 28 min ago, cooling off)
+  (dropped AAPL: sector widely_held at its 50% cap ($0.00))
+- BUY $3500.00 META [filled] ['news', 'momentum'] — Strong news-driven momentum in AI, widely_held sector has best realized track record | evidence: Meta Muse AI: 'AMD's path to $1T market cap' and 'Meta stock jumps as Wells Fargo raises price target' 2026-09-21; META change_1m_pct +35.04%, widely_held sector avg_ret_pct 5.62% best in track record
+- BUY $2500.00 AMZN [filled] ['news', 'momentum'] — Low in day range with positive ecosystem news, widely_held sector strength | evidence: 'PayPal Joins Meta's Muse Checkout Ecosystem' headline 16:22, AMZN pct_of_day_range 10.9 (near day low, room to run)
+- BUY $2500.00 IBM [filled] ['news', 'momentum'] — Low in day range, quantum computing catalyst news, widely_held sector strength | evidence: 'Will This Major Industry Showcase Boost Quantum Computing Stocks?' 2026-09-22, IBM pct_of_day_range 25.6, widely_held sector avg 5.62%
+- BUY $880.76 UNH [filled] ['news', 'momentum'] — Low in day range, positive analyst framing, widely_held sector strength | evidence: 'Should You Buy UnitedHealth Group Stock Before Oct. 13?' Motley Fool 2026-09-21, pct_of_day_range 25.4
+- BUY $2500.00 NOC [filled] ['news', 'risk_management'] — Defense sector dip buying rebound thesis validated by prior check outcome | evidence: NOC -2.84% today, day_low 506.5 vs price 511.73, pct_of_day_range 23.2 - defense sell-off overdone per lesson from 10:57 check (avg_ret 0.84% that check)
+- BUY $2500.00 RTX [filled] ['news', 'risk_management'] — Record backlog news despite intraday sell-off, defense sector dip | evidence: 'RTX record $289 billion backlog' Motley Fool headline 15:50, RTX -2.19% today at day pct 39.0, backlog fundamentals strong despite sell-off
+  (dropped trigger AAPL stop_loss: not held)
+~ WORKING stop_loss 100% META @ $735.00 until 2026-09-22 — Protective stop ~1% below entry
+~ WORKING stop_loss 100% AMZN @ $251.50 until 2026-09-22 — Protective stop below entry
+~ WORKING stop_loss 100% IBM @ $229.50 until 2026-09-22 — Protective stop below entry
+~ WORKING stop_loss 100% UNH @ $371.00 until 2026-09-22 — Protective stop below entry
+~ WORKING stop_loss 100% NOC @ $503.50 until 2026-09-22 — Protective stop below today's low
+~ WORKING stop_loss 100% RTX @ $186.50 until 2026-09-22 — Protective stop below today's low
+~ WORKING take_profit 100% META @ $745.78 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 META @ $720.48 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $254.98 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $246.78 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $232.86 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $225.08 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $375.78 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $363.43 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $513.27 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $496.57 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $190.60 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $184.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32801.77 (+31.21% on $25000.00 in) · cash $14426.39 · realised +7807.15
+Done: 0 sell(s), 6 buy(s); 33 order(s) working; budget left $6563.63 this week
