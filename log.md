@@ -14346,3 +14346,6 @@ lesson: Idle cash at 80% with only 3/8 positions is a self-inflicted regret; dep
 ~ WORKING buy_limit $500.00 UNH @ $363.02 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32866.44 (+31.47% on $25000.00 in) · cash $18874.77 · realised +7874.77
 Done: 1 sell(s), 4 buy(s) (incl. 1 from standing orders); 29 order(s) working; budget left $11043.43 this week
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $135.04] -> $2003.66 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-09-22 11:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
