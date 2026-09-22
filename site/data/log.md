@@ -1,39 +1,3 @@
-portfolio: equity $32815.14 (+31.26% on $25000.00 in) · cash $14823.13 · realised +7823.13
-Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $509.42] -> $2506.56 (+0.26%) — close 100% at +0.3% over the average cost
-## 2026-09-22 11:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on RTX: position closed)
-- SELL 100% RTX [take_profit @ $188.52] -> $2505.79 (+0.23%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on LMT: position closed)
-- SELL 100% LMT [take_profit @ $519.13] -> $2005.63 (+0.28%) — close 100% at +0.3% over the average cost
-## 2026-09-22 11:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on OKLO: position closed)
-- SELL 100% OKLO [take_profit @ $40.32] -> $3020.70 (+0.69%) — close 100% at +0.7% over the average cost
-## 2026-09-22 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NLR: position closed)
-- SELL 100% NLR [take_profit @ $111.10] -> $2007.27 (+0.36%) — close 100% at +0.4% over the average cost
-## 2026-09-22 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $1000.00 MSFT [buy_limit @ $495.26] — strong month, weak day: resting 0.43% under $497.39 to catch the dip
-## 2026-09-22 11:12 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-22 11:12 ET (Tuesday) — week 2026-W39 — budget left $18037.74 (today $73123.59 put to work, 33 buys, 29 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (cancelled 2 standing order(s) on HUBB: position closed)
-- SELL 100% HUBB [take_profit @ $456.90] -> $2005.69 (+0.28%) — close 100% at +0.3% over the average cost
-brain: Only 3 positions held vs min_positions 8, and cash_idle_pct is 80% - this is a clear case where the owner's instructions demand deployment. Full deployment mode is active (max 6 names concentrated), so I'm adding 6 more widely_held mega-cap names with concrete momentum/news evidence rather than sitting idle. Widely_held sector has the best track record (avg_ret_pct 6.55%) by far versus defense/gold/index which are flat or negative.
-lesson: Idle cash at 80% with only 3/8 positions is a self-inflicted regret; deploy sized market buys ($2-2.5k) into widely_held mega-caps with concrete news/momentum evidence rather than waiting on resting limits that keep expiring.
-  (dropped GOOGL: sold 16 min ago, cooling off)
-  (dropped TSM: sold 41 min ago, cooling off)
-- BUY $2200.00 AMZN [filled] ['momentum', 'news'] — Mega-cap tech participating in AI rally, room to run since it's mid-range not chasing highs | evidence: AMZN pct_of_day_range 34.2%, not extended; Magnificent 7 rally headline 'The Magnificent 7 are back'
-- BUY $2500.00 AVGO [filled] ['momentum', 'news'] — Broadcom riding chip rally, moderate entry point in day range | evidence: AVGO +6.89% 5d, pct_of_day_range 63%; headline 'Nvidia Price Prediction: Wall Street and Our Model Finally Agree' tied to chip rally
-- BUY $2000.00 NVDA [filled] ['momentum', 'news'] — Core AI chip name with strong 5d momentum, adding to diversify beyond current 3 positions | evidence: NVDA +7.76% 5d, +0.55% today, pct_of_day_range 68.5%; AI infrastructure theme headlines dominant today
-- BUY $2300.00 UNH [filled] ['momentum', 'track_record'] — Diversify into healthcare mega-cap, contrarian entry after pullback | evidence: UNH -0.9% today but -4.08% 1m already priced in; track record shows widely_held sector strongest at avg_ret_pct 6.55%
   (dropped trigger GOOGL stop_loss: not held)
 ~ WORKING stop_loss 100% NVDA @ $222.00 until 2026-09-22 — Protective stop sized to ATR
 ~ WORKING stop_loss 100% AVGO @ $355.00 until 2026-09-22 — Protective stop sized to ATR
@@ -398,3 +362,39 @@ Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $15177.67 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $185.08] -> $2378.53 (+0.43%) — close 100% at +0.4% over the average cost
 ## 2026-09-22 13:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 CHRW [buy_limit @ $150.13] — strong month, weak day: resting 0.51% under $150.91 to catch the dip
+- SELL 100% NVDA [time stop] -> $2499.87 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 14:06 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-22 14:06 ET (Tuesday) — week 2026-W39 — budget left $21067.84 (today $146201.34 put to work, 63 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 2 positions held with 84.3% cash idle - well below min_positions of 8 despite full_deployment active mandate. Widely_held sector shows best track record (4.93% avg_ret, though wide n) and today's AI rally headlines (Meta's Muse app, TSMC capex, Nasdaq +2-3%) support entries in GOOGL, MSFT, AMZN, TSM, NVDA, IBM - all currently low-to-mid in their day range avoiding chase risk. Sizing at $2-2.5k each to reach 8 total positions in size while respecting max_hold_minutes exit and adding protective stops per risk_management signal which has 86% hit rate historically.
+lesson: Below min_positions with idle cash is the dominant signal - deploy across the widely_held sector (best historical avg_ret) at low-day-range entries with protective stops rather than waiting on resting limits that keep expiring.
+  (dropped NVDA: sold 1 min ago, cooling off)
+  (dropped TSM: 98% up today's range — resting a limit at $445.60 instead of chasing)
+- BUY $2500.00 GOOGL [filled] ['news', 'momentum'] — AI rally broadening (Nasdaq +2-3%), GOOGL cheap in range vs recent momentum | evidence: Meta's Muse AI app tops charts; GOOGL down -0.53% today but +2.35% 5d, pct_of_day_range 20.6 - buying low in range
+- BUY $2500.00 MSFT [filled] ['news', 'momentum'] — Widely_held sector has best track record (avg_ret 4.93%), MSFT low in range offers good entry | evidence: 'Three AI Stocks Now Dwarf Decades of Tech IPOs' headline; MSFT pct_of_day_range 18.0, near day low
+- BUY $2000.00 AMZN [filled] ['news', 'momentum'] — Part of broad AI mega-cap rally, low in day range | evidence: Magnificent 7 rally headline; AMZN pct_of_day_range 33.0, -1.14% today but part of AI mega-cap rally
+- BUY $2000.00 IBM [filled] ['news'] — Quantum/AI catalyst news, cheap in today's range | evidence: 'What Do IBM Lunar AI And Quantum Hub Moves Mean For Investors?' headline, IBM pct_of_day_range 21.7 near low
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+~ WORKING stop_loss 100% GOOGL @ $345.50 until 2026-09-22 — Protective stop on new GOOGL position
+~ WORKING stop_loss 100% MSFT @ $486.00 until 2026-09-22 — Protective stop on new MSFT position
+~ WORKING stop_loss 100% AMZN @ $249.50 until 2026-09-22 — Protective stop on new AMZN position
+~ WORKING stop_loss 100% IBM @ $227.00 until 2026-09-22 — Protective stop on new IBM position
+~ WORKING buy_limit $2484.48 TSM @ $445.60 until 2026-09-22 — wanted it, but not at the high — resting at $445.60. Strong semiconductor capex story, momentum intact
+~ WORKING take_profit 100% GOOGL @ $354.12 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $342.57 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $497.59 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $481.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $256.13 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $247.89 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $232.29 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $224.52 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32823.89 (+31.30% on $25000.00 in) · cash $19930.61 · realised +7825.35
+Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
