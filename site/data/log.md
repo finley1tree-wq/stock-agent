@@ -1,5 +1,3 @@
-  (dropped trigger PLTR: malformed or out of range)
-~ WORKING take_profit 100% AMD @ $620.95 until 2026-09-27 — close 100% at +0.5% over the average cost
 ~ WORKING stop_loss 100% AMD @ $611.11 until 2026-09-27 — close it all at -1.1% under the average cost
 ~ WORKING buy_limit $500.00 AMD @ $599.60 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% GOOGL @ $362.63 until 2026-09-27 — close 100% at +0.3% over the average cost
@@ -398,3 +396,5 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $17424.22 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $351.95] -> $2506.82 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-22 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AVGO [time stop] -> $2004.98 (+0.25%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 13:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-22T13:20-04:00",
+ "asOf": "2026-09-22T13:28-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -146,8 +146,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 773.21,
-   "pct_away": -0.09,
+   "last": 773.43,
+   "pct_away": -0.12,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
    "signals": [
@@ -163,44 +163,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.39,
-   "pct_away": -0.17,
+   "last": 341.61,
+   "pct_away": -0.24,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.43% under $342.29 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "c1a379ba",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 364.5344,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 363.82,
-   "pct_away": 0.2,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c136c6c6",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.1848,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 13.26,
-   "pct_away": -0.57,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -214,45 +180,10 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.73,
-   "pct_away": -0.57,
+   "last": 229.44,
+   "pct_away": -0.45,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $228.41. Core AI momentum name, widely_held sector strongest performer",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "5aa636b4",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 620.0886,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 616.43,
-   "pct_away": 0.59,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "61f73ff1",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 445.2645,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 448.0,
-   "pct_away": -0.61,
-   "good_until": "2026-09-22",
-   "why": "wanted it, but not at the high \u2014 resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave",
    "signals": [
     "momentum",
     "news",
@@ -267,13 +198,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 504.43,
-   "pct_away": -0.62,
+   "last": 503.6,
+   "pct_away": -0.46,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "5aa636b4",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 620.0886,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 616.94,
+   "pct_away": 0.51,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -284,14 +232,49 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.73,
-   "pct_away": -0.66,
+   "last": 229.44,
+   "pct_away": -0.54,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "61f73ff1",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 445.2645,
+   "usd": 3000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 447.9,
+   "pct_away": -0.59,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "c136c6c6",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.1848,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 13.27,
+   "pct_away": -0.64,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -302,8 +285,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 94.68,
-   "pct_away": -0.97,
+   "last": 94.49,
+   "pct_away": -0.77,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst",
    "signals": [
@@ -320,8 +303,8 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 745.46,
-   "pct_away": -1.0,
+   "last": 743.84,
+   "pct_away": -0.79,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
    "signals": [
@@ -355,8 +338,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 468.62,
-   "pct_away": -1.26,
+   "last": 468.18,
+   "pct_away": -1.17,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $462.70. Congress buy pressure plus semiconductor equipment momentum",
    "signals": [
@@ -374,8 +357,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 248.69,
-   "pct_away": -1.43,
+   "last": 248.86,
+   "pct_away": -1.5,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
    "signals": [
@@ -391,8 +374,8 @@
    "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 468.62,
-   "pct_away": -1.71,
+   "last": 468.18,
+   "pct_away": -1.62,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
    "signals": [
@@ -409,26 +392,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 616.43,
-   "pct_away": -2.5,
+   "last": 616.94,
+   "pct_away": -2.58,
    "good_until": "2026-09-22",
    "why": "protective stop ~2.5% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "5980fab5",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 354.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 363.82,
-   "pct_away": -2.7,
-   "good_until": "2026-09-22",
-   "why": "Protective stop ~2.5% below entry",
    "signals": [
     "risk_management"
    ]
@@ -441,8 +408,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 131.85,
-   "pct_away": -2.79,
+   "last": 131.79,
+   "pct_away": -2.75,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.72% under $129.10 to catch the dip",
    "signals": [
@@ -458,25 +425,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 616.43,
-   "pct_away": -2.87,
-   "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7b2d5a18",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 352.4107,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 363.82,
-   "pct_away": -3.14,
+   "last": 616.94,
+   "pct_away": -2.95,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

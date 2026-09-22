@@ -14597,3 +14597,5 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $17424.22 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $351.95] -> $2506.82 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-22 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AVGO [time stop] -> $2004.98 (+0.25%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 13:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
