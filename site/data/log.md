@@ -1,20 +1,3 @@
-~ WORKING take_profit 100% AMD @ $613.72 until 2026-09-27 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $592.63 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $505.48 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $501.66 until 2026-09-27 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $489.26 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $359.04 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $355.96 until 2026-09-27 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $347.42 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $444.60 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% TSM @ $440.85 until 2026-09-27 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $430.22 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $92.79 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $89.66 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 CRWD @ $245.18 until 2026-09-23 — strong month, weak day: resting 1.03% under $247.74 to catch the dip
-~ WORKING buy_limit $1000.00 TTD @ $13.64 until 2026-09-23 — strong month, weak day: resting 0.94% under $13.77 to catch the dip
-~ WORKING buy_limit $1000.00 PLTR @ $182.79 until 2026-09-23 — strong month, weak day: resting 0.79% under $184.24 to catch the dip
-~ WORKING buy_limit $1000.00 HLI @ $131.02 until 2026-09-23 — strong month, weak day: resting 0.66% under $131.89 to catch the dip
 ~ WORKING buy_limit $1000.00 BRK-B @ $501.31 until 2026-09-23 — strong month, weak day: resting 0.25% under $502.58 to catch the dip
 ~ WORKING buy_limit $1000.00 BRK-A @ $750249.25 until 2026-09-23 — strong month, weak day: resting 0.26% under $752180.00 to catch the dip
 portfolio: equity $32797.39 (+31.19% on $25000.00 in) · cash $17331.32 · realised +7801.08
@@ -398,3 +381,20 @@ lesson: When flat with 100% idle cash and no cooldown conflicts on strong-moment
 ~ WORKING buy_limit $1000.00 CHRW @ $151.41 until 2026-09-23 — strong month, weak day: resting 0.50% under $152.17 to catch the dip
 portfolio: equity $32856.39 (+31.43% on $25000.00 in) · cash $8928.94 · realised +7862.77
 Done: 0 sell(s), 7 buy(s); 30 order(s) working; budget left $1066.17 this week
+
+## 2026-09-22 11:54 ET (Tuesday) — week 2026-W39 — budget left $1066.17 (today $106057.42 put to work, 44 buys, 37 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Remaining budget is only $1,066 with 7 positions already open at 10 minutes held and multiple bracket orders working. Rather than force a weak 8th name into a tiny position, I'm adding to IBP which has concrete congress buy evidence (Rep. Taylor filing) and today's +3.4% momentum, using nearly all of the remaining budget. All existing positions already have take-profit/stop-loss brackets working from auto_bracket; I'm tightening AMD's stop and adding a partial trailing stop to CCJ to lock in today's nuclear-sector gains per the Westinghouse IPO headline. Budget is too small this check to responsibly open new standalone positions per the $1-3k sizing guidance.
+lesson: With remaining_budget_usd near the min_order floor, sizing into an existing high-evidence position is better than spreading thin new names.
+- BUY $1000.00 IBP [filled] ['congress', 'momentum'] — Add to existing IBP position on congress buy pressure and today's momentum to bring position to a fuller size, closing the gap toward min_positions while remaining budget is limited | evidence: IBP +3.4% today, Rep. David J. Taylor disclosed a buy on IBP ($1,001-$15,000, filed 2026-09-17); already held at 6.1% weight, adding to reach min_positions size band
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% AMD @ $605.00 until 2026-09-22 — Tighten protective stop below existing bracket to bound downside on fresh position
+~ WORKING trailing_stop 50% CCJ @ trail 1.5% until 2026-09-22 — Lock in gains on CCJ if it reverses after today's nuclear-sector strength (Westinghouse IPO headlines)
+~ WORKING buy_limit $500.00 IBP @ $203.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32824.93 (+31.30% on $25000.00 in) · cash $7928.94 · realised +7862.77
+Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $66.17 this week

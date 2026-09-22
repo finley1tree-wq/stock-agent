@@ -14415,3 +14415,20 @@ lesson: When flat with 100% idle cash and no cooldown conflicts on strong-moment
 ~ WORKING buy_limit $1000.00 CHRW @ $151.41 until 2026-09-23 — strong month, weak day: resting 0.50% under $152.17 to catch the dip
 portfolio: equity $32856.39 (+31.43% on $25000.00 in) · cash $8928.94 · realised +7862.77
 Done: 0 sell(s), 7 buy(s); 30 order(s) working; budget left $1066.17 this week
+
+## 2026-09-22 11:54 ET (Tuesday) — week 2026-W39 — budget left $1066.17 (today $106057.42 put to work, 44 buys, 37 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Remaining budget is only $1,066 with 7 positions already open at 10 minutes held and multiple bracket orders working. Rather than force a weak 8th name into a tiny position, I'm adding to IBP which has concrete congress buy evidence (Rep. Taylor filing) and today's +3.4% momentum, using nearly all of the remaining budget. All existing positions already have take-profit/stop-loss brackets working from auto_bracket; I'm tightening AMD's stop and adding a partial trailing stop to CCJ to lock in today's nuclear-sector gains per the Westinghouse IPO headline. Budget is too small this check to responsibly open new standalone positions per the $1-3k sizing guidance.
+lesson: With remaining_budget_usd near the min_order floor, sizing into an existing high-evidence position is better than spreading thin new names.
+- BUY $1000.00 IBP [filled] ['congress', 'momentum'] — Add to existing IBP position on congress buy pressure and today's momentum to bring position to a fuller size, closing the gap toward min_positions while remaining budget is limited | evidence: IBP +3.4% today, Rep. David J. Taylor disclosed a buy on IBP ($1,001-$15,000, filed 2026-09-17); already held at 6.1% weight, adding to reach min_positions size band
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% AMD @ $605.00 until 2026-09-22 — Tighten protective stop below existing bracket to bound downside on fresh position
+~ WORKING trailing_stop 50% CCJ @ trail 1.5% until 2026-09-22 — Lock in gains on CCJ if it reverses after today's nuclear-sector strength (Westinghouse IPO headlines)
+~ WORKING buy_limit $500.00 IBP @ $203.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32824.93 (+31.30% on $25000.00 in) · cash $7928.94 · realised +7862.77
+Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $66.17 this week
