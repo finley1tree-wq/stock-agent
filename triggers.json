@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "11a1dc25",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 176.54,
-   "status": "cancelled",
-   "created": "2026-09-21 14:25",
-   "created_ts": 1790015118,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $182",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 14:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "266ebe6b",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 484.0,
-   "status": "cancelled",
-   "created": "2026-09-21 14:26",
-   "created_ts": 1790015208,
-   "why": "Protective stop on new MSFT buy",
-   "evidence": "ATR 2.0%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 14:48",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "658bf33c",
    "ticker": "OKLO",
    "kind": "stop_loss",
@@ -7188,7 +7151,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 341.9715,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:59",
    "created_ts": 1790099990,
    "why": "close 100% at +0.2% over the average cost",
@@ -7198,14 +7161,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 14:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "92fddce2",
    "ticker": "CHRW",
    "kind": "take_profit",
    "price": 150.5459,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:06",
    "created_ts": 1790100370,
    "why": "close 100% at +0.3% over the average cost",
@@ -7215,14 +7180,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 14:10",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dff0f0d8",
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 150.262,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 14:06",
    "created_ts": 1790100370,
    "why": "close it all at -0.7% under the average cost",
@@ -7232,14 +7199,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 14:10"
   },
   {
    "id": "8da6be9a",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 145.6261,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:06",
    "created_ts": 1790100370,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7249,7 +7217,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 14:10",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d895006e",
@@ -7468,7 +7438,43 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "ab37c216",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 358.239,
+   "status": "cancelled",
+   "created": "2026-09-22 14:09",
+   "created_ts": 1790100568,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $341.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 14:10",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "867de46d",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 341.9715,
+   "status": "working",
+   "created": "2026-09-22 14:10",
+   "created_ts": 1790100615,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $341.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 14:06"
+ "updated": "2026-09-22 14:10"
 }

@@ -14731,3 +14731,6 @@ lesson: Below min_positions with idle cash is the dominant signal - deploy acros
 ~ WORKING buy_limit $500.00 IBM @ $224.52 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32823.89 (+31.30% on $25000.00 in) · cash $19930.61 · realised +7825.35
 Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [stop_loss @ $150.19] -> $1000.35 (+0.03%) — close it all at -0.7% under the average cost
+## 2026-09-22 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
