@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 8119.44,
+  "spent": 5609.36,
   "deployed": 160458.36,
   "by_ticker": {
     "NOC": 33.02,
@@ -12,8 +12,7 @@
     "MSFT": 17.76,
     "HLI": 9.7,
     "NVDA": 2307.69,
-    "AAPL": 1000.0,
-    "META": 2500.0
+    "AAPL": 1000.0
   },
   "deployed_by_ticker": {
     "AMD": 18200.0,
@@ -2810,13 +2809,34 @@
         "momentum"
       ],
       "evidence": "META +11.87% 5d, +36.36% 1m, headline 'Meta stock jumps as Wells Fargo raises price target'; already have a resting buy_limit at 737.97 (below current 749.83)"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 3.333422,
+      "status": "filled",
+      "price": 753.0,
+      "proceeds": 2510.08,
+      "realized_pnl": 10.08,
+      "realized_pct": 0.4,
+      "date": "2026-09-22",
+      "time_et": "10:15",
+      "ts": 1790086500,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $749.98",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 8119.44,
+  "spent_today": 5609.36,
   "deployed_today": 39123.59,
   "orders_today": 18,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "AMD",
     "MSFT",
@@ -2831,7 +2851,8 @@
     "IBM",
     "NOC",
     "PLD",
-    "UNH"
+    "UNH",
+    "META"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -2851,38 +2872,35 @@
     "AVGO": 1790085662,
     "UNH": 1790085789,
     "IBM": 1790085662,
-    "META": 1790003914,
+    "META": 1790086516,
     "GOOGL": 1790084112,
     "GLD": 1790005446,
     "AAPL": 1790005508,
     "HLI": 1790085321,
     "CRWD": 1790085367
   },
-  "last_publish_ts": 1790086384,
-  "last_check_ts": 1790086430,
-  "last_bar_ts": 1790086200,
+  "last_publish_ts": 1790086515,
+  "last_check_ts": 1790086515,
+  "last_bar_ts": 1790086500,
   "last_decision_ts": 1790086236,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "c4ae5d5d": 228.3134,
-    "700cfcef": 753.0024,
     "bdb6fac3": 227.954,
     "6a67aad1": 152.4289,
     "ce8f3880": 772.4819,
-    "337a96ee": 395.6279,
     "11503185": 398.3313,
     "d1b6d7d7": 338.0445,
+    "337a96ee": 395.6279,
     "2837422d": 340.8122,
     "2bf19c12": 501.3056,
-    "0fc494f4": 226.3061,
     "ed4babdf": 750249.2478,
+    "0fc494f4": 226.3061,
     "5592886c": 460.5895,
     "a146788c": 737.9695,
     "6222c82b": 329.8194,
     "302ce751": 385.6332,
-    "6638a8d7": 730.0,
-    "0a2845a0": 220.8302,
-    "0c385ba0": 727.4806
+    "0a2845a0": 220.8302
   }
 }

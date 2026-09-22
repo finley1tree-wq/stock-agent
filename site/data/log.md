@@ -1,6 +1,3 @@
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Book is only 2 positions with 84% cash idle - severely below min_positions(8). Past-lesson checks confirm resting-limit-only stacking has failed to fill repeatedly; market buys with attached stops are what closes the gap. Deploying $15k across 6 fresh momentum/news-backed names (NVDA, AVGO, GOOGL, MSFT, OKLO, AMD) that are not in cooldown, each with concrete evidence, sized $2-2.5k as guidance suggests, with protective stops per risk_management signal which has 0.85 hit rate historically.
-lesson: Below min_positions with idle cash: fire market buys sized $2-2.5k across multiple non-cooldown evidence-backed names in one check with stops attached, rather than stacking more resting limits that keep expiring unfilled.
   (dropped AVGO: sold 37 min ago, cooling off)
   (dropped GOOGL: sold 34 min ago, cooling off)
   (dropped CCJ: sold 2 min ago, cooling off)
@@ -398,3 +395,6 @@ lesson: Cooldown timers matter: check cooling_off_minutes_left before proposing 
 ~ WORKING buy_limit $500.00 META @ $727.48 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32819.89 (+31.28% on $25000.00 in) · cash $24711.92 · realised +7827.30
 Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16880.56 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $753.00] -> $2510.08 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
