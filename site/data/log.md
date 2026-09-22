@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 GOOGL @ $345.16 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $360.59 until 2026-09-26 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $348.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32766.67 (+31.07% on $25000.00 in) · cash $26768.68 · realised +7768.68
 Done: 0 sell(s), 2 buy(s); 49 order(s) working; budget left $18978.83 this week
 - SELL 100% NOC [time stop] -> $1499.89 (-0.01%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
 - BUY $1000.00 TTD [buy_limit @ $13.64] — strong month, weak day: resting 0.94% under $13.77 to catch the dip
 - BUY $1000.00 PLTR [buy_limit @ $182.79] — strong month, weak day: resting 0.79% under $184.24 to catch the dip
 ## 2026-09-22 09:37 ET — tick — 1 sell(s), 2 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $183.56] -> $1004.24 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-09-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,26 +1,6 @@
 {
  "orders": [
   {
-   "id": "31028f0b",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 690.82,
-   "status": "cancelled",
-   "created": "2026-09-21 09:32",
-   "created_ts": 1789997557,
-   "why": "wanted it, but not at the high \u2014 resting at $690.82. Strong breakout with fresh catalyst news, momentum confirmed by 1m +28%",
-   "evidence": "META +4.95% today, 93.5% of day range, headline 'Trump and Xi dine with AI titans and Meta takes the stage'",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 4200.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "a5c4e753",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -7447,7 +7427,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 13.4665,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:37",
    "created_ts": 1790084234,
    "why": "close it all at -1.3% under the average cost",
@@ -7457,7 +7437,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:40",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7838ea39",
@@ -7481,7 +7463,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 183.5632,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:37",
    "created_ts": 1790084234,
    "why": "close 100% at +0.4% over the average cost",
@@ -7491,7 +7473,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:40"
   },
   {
    "id": "b0264b02",
@@ -7517,7 +7500,7 @@
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 177.3063,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:37",
    "created_ts": 1790084234,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7527,14 +7510,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "709b84e2",
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 183.666,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:38",
    "created_ts": 1790084317,
    "why": "close it all at -1.1% under the average cost",
@@ -7544,8 +7529,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:40",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "2a03d45d",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 13.67,
+   "status": "working",
+   "created": "2026-09-22 09:40",
+   "created_ts": 1790084401,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $13.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 09:38"
+ "updated": "2026-09-22 09:40"
 }

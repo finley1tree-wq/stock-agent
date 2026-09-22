@@ -14050,3 +14050,6 @@ Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
 - BUY $1000.00 TTD [buy_limit @ $13.64] — strong month, weak day: resting 0.94% under $13.77 to catch the dip
 - BUY $1000.00 PLTR [buy_limit @ $182.79] — strong month, weak day: resting 0.79% under $184.24 to catch the dip
 ## 2026-09-22 09:37 ET — tick — 1 sell(s), 2 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $183.56] -> $1004.24 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-09-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
