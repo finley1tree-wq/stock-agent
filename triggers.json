@@ -1,123 +1,6 @@
 {
  "orders": [
   {
-   "id": "6c30d767",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 713.3782,
-   "status": "cancelled",
-   "created": "2026-09-21 13:38",
-   "created_ts": 1790012303,
-   "why": "wanted it, but not at the high \u2014 resting at $713.38. Strong breakout momentum with concrete bullish catalyst; sized moderately given extended range",
-   "evidence": "META +11.27% today, day range at 99.6%, Wells Fargo bullish, 'We Think Meta Could Keep Soaring Higher and Wells Fargo Agrees'",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 3000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "76c15335",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 240.519,
-   "status": "cancelled",
-   "created": "2026-09-21 13:38",
-   "created_ts": 1790012303,
-   "why": "wanted it, but not at the high \u2014 resting at $240.52. Momentum plus congressional buy overlap in cybersecurity theme",
-   "evidence": "CRWD +4.11% today, +29.98% 1m, Gilbert Ray Cisneros disclosed buy 2026-09-10, cybersecurity AI safety headlines",
-   "signals": [
-    "momentum",
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "f9a110ed",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 224.7555,
-   "status": "cancelled",
-   "created": "2026-09-21 13:38",
-   "created_ts": 1790012303,
-   "why": "wanted it, but not at the high \u2014 resting at $224.76. Core AI leader continuing momentum, building toward min_positions",
-   "evidence": "NVDA +2.14% today at 94% of day range, AI computing demand headlines",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "248e6c3c",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 190.0,
-   "status": "cancelled",
-   "created": "2026-09-21 13:55",
-   "created_ts": 1790013319,
-   "why": "Cap downside on new RTX buy",
-   "evidence": "ATR 1.97%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 14:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2147f0fb",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 90.0,
-   "status": "cancelled",
-   "created": "2026-09-21 13:55",
-   "created_ts": 1790013319,
-   "why": "Cap downside on new CCJ buy",
-   "evidence": "ATR 3.65%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 14:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a92869c6",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 224.9205,
-   "status": "cancelled",
-   "created": "2026-09-21 13:55",
-   "created_ts": 1790013319,
-   "why": "wanted it, but not at the high \u2014 resting at $224.92. AI leader continuing momentum, market buy for size since chase_limit resting orders haven't filled",
-   "evidence": "NVDA +2.33% today, 96.3% of day range, +7.81% 5d",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 3000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "bae17653",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -7500,7 +7383,107 @@
    ],
    "good_until": "2026-09-23",
    "usd": 1000.0
+  },
+  {
+   "id": "4fd990c1",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 178.0,
+   "status": "working",
+   "created": "2026-09-22 13:50",
+   "created_ts": 1790099447,
+   "why": "protect new PLTR position",
+   "evidence": "ATR 3.827%, protective level below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9b319e30",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 333.0,
+   "status": "working",
+   "created": "2026-09-22 13:50",
+   "created_ts": 1790099447,
+   "why": "protect new AAPL position",
+   "evidence": "ATR 2.092%, protective level below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9dd60c3b",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 185.0833,
+   "status": "working",
+   "created": "2026-09-22 13:50",
+   "created_ts": 1790099447,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $184.3",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5d3a2b8a",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 178.771,
+   "status": "working",
+   "created": "2026-09-22 13:50",
+   "created_ts": 1790099447,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $184.3",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0
+  },
+  {
+   "id": "5bc6f8f1",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 342.172,
+   "status": "working",
+   "created": "2026-09-22 13:50",
+   "created_ts": 1790099447,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $341.38",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "148afa2e",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 331.1386,
+   "status": "working",
+   "created": "2026-09-22 13:50",
+   "created_ts": 1790099447,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $341.38",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-22 13:35"
+ "updated": "2026-09-22 13:50"
 }

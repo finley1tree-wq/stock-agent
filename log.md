@@ -14657,3 +14657,34 @@ portfolio: equity $32786.84 (+31.15% on $25000.00 in) · cash $22798.79 · reali
 Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $14936.02 this week
 - SELL 100% AMD [time stop] -> $4504.81 (+0.11%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 13:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped META: sold 42 min ago, cooling off)
+
+## 2026-09-22 13:50 ET (Tuesday) — week 2026-W39 — budget left $19440.83 (today $139938.18 put to work, 59 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Below target position count (2 of 8) with 77.8% idle cash and 4 checks left today - this is the clearest signal to act per repeated past lessons. Deploying into widely_held sector (best track record at 4.97% avg_ret, 255 trades) names with concrete news/momentum evidence: TSM (AI capex), AMD ($1T club), PLTR (AI infra), AAPL (Ives commentary), plus AMAT on congress buy pressure. Adding protective stops on all new positions per risk_management best practice (3.64% avg_ret, 86% hit rate signal).
+lesson: When below min_positions with high idle cash, deploy sized buys (~$2-3k) across widely_held names with concrete news/momentum evidence immediately rather than waiting on resting limits that keep expiring - always pair with a protective stop_loss trigger.
+  (dropped AMD: sold 7 min ago, cooling off)
+  (dropped TSM: 93% up today's range — resting a limit at $445.26 instead of chasing)
+  (dropped AMAT: 92% up today's range — resting a limit at $462.70 instead of chasing)
+- BUY $2368.42 PLTR [filled] ['momentum', 'news'] — AI infra momentum name, widely_held sector strongest in track record (4.97% avg_ret) | evidence: PLTR +6.78% 5d, 'Is Palantir a Millionaire-Maker Stock?' Motley Fool 2026-09-22
+- BUY $1894.74 AAPL [filled] ['news', 'momentum'] — Positive analyst commentary and steady uptrend, low in day range at 38.9% | evidence: AAPL +10.33% 1m, Dan Ives calls Apple 'toll collector' in AI arms race per Stocktwits
+  (dropped trigger CCJ stop_loss: duplicate of a working order)
+  (dropped trigger NVDA stop_loss: duplicate of a working order)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger TSM buy_limit: duplicate of a working order)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% PLTR @ $178.00 until 2026-09-22 — protect new PLTR position
+~ WORKING stop_loss 100% AAPL @ $333.00 until 2026-09-22 — protect new AAPL position
+~ WORKING take_profit 100% PLTR @ $185.08 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $178.77 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $342.17 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $331.14 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32797.83 (+31.19% on $25000.00 in) · cash $23040.43 · realised +7803.59
+Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $15177.67 this week
