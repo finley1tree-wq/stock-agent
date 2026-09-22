@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 4619.44,
-  "deployed": 156958.36,
+  "spent": 5619.44,
+  "deployed": 157958.36,
   "by_ticker": {
     "NOC": 33.02,
     "RTX": 5.08,
@@ -11,7 +11,8 @@
     "PLTR": 2.84,
     "MSFT": 17.76,
     "HLI": 9.7,
-    "NVDA": 2307.69
+    "NVDA": 2307.69,
+    "AAPL": 1000.0
   },
   "deployed_by_ticker": {
     "AMD": 18200.0,
@@ -34,7 +35,7 @@
     "GOOGL": 12413.79,
     "META": 2500.0,
     "GLD": 4307.69,
-    "AAPL": 2500.0,
+    "AAPL": 3500.0,
     "CRWD": 1000.0,
     "HLI": 1000.0
   },
@@ -2772,12 +2773,31 @@
       ],
       "evidence": "average cost $376.56",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.941019,
+      "price": 340.02,
+      "date": "2026-09-22",
+      "time_et": "10:04",
+      "ts": 1790085600,
+      "why": "strong month, weak day: resting 0.43% under $341.50 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+10.4% over the month, sitting at 31% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 4619.44,
-  "deployed_today": 35623.59,
-  "orders_today": 16,
+  "spent_today": 5619.44,
+  "deployed_today": 36623.59,
+  "orders_today": 17,
   "sells_today": 14,
   "sold_today": [
     "AMD",
@@ -2820,26 +2840,28 @@
     "HLI": 1790085321,
     "CRWD": 1790085367
   },
-  "last_publish_ts": 1790085788,
-  "last_check_ts": 1790085788,
+  "last_publish_ts": 1790085870,
+  "last_check_ts": 1790085870,
   "last_bar_ts": 1790085600,
   "last_decision_ts": 1790085260,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "e50fb60f": 340.0182,
     "ce8f3880": 772.4819,
+    "eeba84b8": 340.8122,
     "11503185": 398.3313,
     "337a96ee": 395.6279,
-    "fc3ce88d": 228.3134,
     "0fc494f4": 226.3061,
+    "fc3ce88d": 228.3134,
     "6a67aad1": 152.4289,
-    "2bf19c12": 501.3056,
     "e92ad4d7": 226.0277,
+    "d1b6d7d7": 338.0445,
+    "2bf19c12": 501.3056,
     "ed4babdf": 750249.2478,
     "a146788c": 737.9695,
     "5592886c": 460.5895,
     "0a2845a0": 220.8302,
-    "302ce751": 385.6332
+    "302ce751": 385.6332,
+    "6222c82b": 329.8194
   }
 }

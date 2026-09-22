@@ -1,5 +1,3 @@
-lesson: Market orders with attached stops are the only thing that reliably closes the position-count gap; keep sizing at $2-2.5k per name and prioritize non-cooldown, evidence-backed tickers each check until min_positions is met.
-  (dropped NVDA: 92% up today's range — resting a limit at $224.92 instead of chasing)
   (dropped AMAT: 100% up today's range — resting a limit at $458.87 instead of chasing)
 - BUY $2000.00 TSM [filled] ['momentum', 'news'] — Semis exposure with strong momentum, past week's cost basis showed +0.42% avg_ret_pct in track record | evidence: TSM +1.72% today, +5.77% 5d, cooldown cleared, AI chip demand headlines
 - BUY $2000.00 PLTR [filled] ['momentum', 'news'] — Momentum name with fresh coverage, not held, no cooldown | evidence: PLTR +2.43% today at 78.6% of range, congress overlap via disclosure history, fresh news flow
@@ -398,3 +396,5 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $377.63] -> $2314.30 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-22 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 AAPL [buy_limit @ $340.02] — strong month, weak day: resting 0.43% under $341.50 to catch the dip
+## 2026-09-22 10:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders

@@ -14138,3 +14138,5 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $377.63] -> $2314.30 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-22 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 AAPL [buy_limit @ $340.02] — strong month, weak day: resting 0.43% under $341.50 to catch the dip
+## 2026-09-22 10:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
