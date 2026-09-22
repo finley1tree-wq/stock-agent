@@ -1,29 +1,3 @@
-  (dropped AMAT: 100% up today's range — resting a limit at $458.87 instead of chasing)
-- BUY $2000.00 TSM [filled] ['momentum', 'news'] — Semis exposure with strong momentum, past week's cost basis showed +0.42% avg_ret_pct in track record | evidence: TSM +1.72% today, +5.77% 5d, cooldown cleared, AI chip demand headlines
-- BUY $2000.00 PLTR [filled] ['momentum', 'news'] — Momentum name with fresh coverage, not held, no cooldown | evidence: PLTR +2.43% today at 78.6% of range, congress overlap via disclosure history, fresh news flow
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger AMAT stop_loss: not held)
-  (dropped trigger NVDA buy_limit: duplicate of a working order)
-  (dropped trigger PLTR: working-order book is full (60))
-  (dropped trigger PLTR: working-order book is full (60))
-~ WORKING stop_loss 100% TSM @ $430.00 until 2026-09-21 — Protective stop on new TSM buy
-~ WORKING stop_loss 100% PLTR @ $177.00 until 2026-09-21 — Protective stop on new PLTR buy
-~ WORKING buy_limit $2500.00 AMAT @ $458.87 until 2026-09-21 — wanted it, but not at the high — resting at $458.87. Strong daily momentum plus congressional buy overlap, not held, no cooldown
-~ WORKING take_profit 100% TSM @ $443.29 until 2026-09-26 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $428.95 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32782.31 (+31.13% on $25000.00 in) · cash $20778.90 · realised +7778.90
-Done: 0 sell(s), 2 buy(s); 60 order(s) working; budget left $12989.06 this week
-- SELL 100% RTX [time stop] -> $3004.69 (+0.16%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% CCJ [time stop] -> $2497.20 (-0.11%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% UNH [time stop] -> $2500.86 (+0.03%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 14:25 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 14:26 ET (Monday) — week 2026-W39 — budget left $20991.81 (today $100403.74 put to work, 49 buys, 46 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
 brain: Book is only 2 positions with 84% cash idle - severely below min_positions(8). Past-lesson checks confirm resting-limit-only stacking has failed to fill repeatedly; market buys with attached stops are what closes the gap. Deploying $15k across 6 fresh momentum/news-backed names (NVDA, AVGO, GOOGL, MSFT, OKLO, AMD) that are not in cooldown, each with concrete evidence, sized $2-2.5k as guidance suggests, with protective stops per risk_management signal which has 0.85 hit rate historically.
 lesson: Below min_positions with idle cash: fire market buys sized $2-2.5k across multiple non-cooldown evidence-backed names in one check with stops attached, rather than stacking more resting limits that keep expiring unfilled.
@@ -398,3 +372,29 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
 ## 2026-09-22 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 AAPL [buy_limit @ $340.02] — strong month, weak day: resting 0.43% under $341.50 to catch the dip
 ## 2026-09-22 10:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-22 10:10 ET (Tuesday) — week 2026-W39 — budget left $19380.56 (today $36623.59 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
+brain: Below min_positions (3 held vs 8 target) with 77.5% cash idle - a decision I must correct per owner instructions. Deploying $14k across 6 evidence-backed names (CRWD, AMD, GOOGL, META, TSM, CCJ) that are just clearing cooldown or already outside it, each backed by concrete headline/momentum evidence, sized at $2,500 to build toward min_positions with real weight. Attached protective stops on each new position per risk_management (best-performing signal bucket at 3.81% avg return, 85% hit rate).
+lesson: Cooldown timers matter: check cooling_off_minutes_left before proposing buys on recently-sold names, and prefer sizing $2.5k across evidence-backed non-cooldown names to close the min_positions gap in one check rather than spreading too thin.
+  (dropped CRWD: sold 16 min ago, cooling off)
+  (dropped AMD: sold 37 min ago, cooling off)
+  (dropped GOOGL: sold 37 min ago, cooling off)
+  (dropped TSM: sold 37 min ago, cooling off)
+  (dropped CCJ: sold 35 min ago, cooling off)
+- BUY $2500.00 META [filled] ['news', 'momentum'] — news signal has best realized avg return per track_record (18.32%); META is leading Mag7 rally per headlines | evidence: META +11.87% 5d, +36.36% 1m, headline 'Meta stock jumps as Wells Fargo raises price target'; already have a resting buy_limit at 737.97 (below current 749.83)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% META @ $730.00 until 2026-09-22 — cap downside on new META position
+~ WORKING take_profit 100% META @ $753.00 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 META @ $727.48 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32819.89 (+31.28% on $25000.00 in) · cash $24711.92 · realised +7827.30
+Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16880.56 this week

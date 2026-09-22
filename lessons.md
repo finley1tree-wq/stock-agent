@@ -61,3 +61,4 @@
 - 2026-09-21 (3d graded, realised 0.6% per dollar): When no_new_entries_this_check is true near the close, do not attempt buys - they will be dropped; just confirm flat book and end the session cleanly.
 - 2026-09-22 (4d graded, realised 0.6% per dollar): Past lessons and track record confirm: at flat/idle-cash starts, immediate sized ($3k+) market buys across 8 evidence-backed names outperform resting limits that repeatedly expire unfilled.
 - 2026-09-22 (4d graded, realised 0.59% per dollar): placeholder
+- 2026-09-22 (4d graded, realised 0.59% per dollar): Cooldown timers matter: check cooling_off_minutes_left before proposing buys on recently-sold names, and prefer sizing $2.5k across evidence-backed non-cooldown names to close the min_positions gap in one check rather than spreading too thin.

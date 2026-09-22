@@ -14140,3 +14140,29 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
 ## 2026-09-22 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 AAPL [buy_limit @ $340.02] — strong month, weak day: resting 0.43% under $341.50 to catch the dip
 ## 2026-09-22 10:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-22 10:10 ET (Tuesday) — week 2026-W39 — budget left $19380.56 (today $36623.59 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
+brain: Below min_positions (3 held vs 8 target) with 77.5% cash idle - a decision I must correct per owner instructions. Deploying $14k across 6 evidence-backed names (CRWD, AMD, GOOGL, META, TSM, CCJ) that are just clearing cooldown or already outside it, each backed by concrete headline/momentum evidence, sized at $2,500 to build toward min_positions with real weight. Attached protective stops on each new position per risk_management (best-performing signal bucket at 3.81% avg return, 85% hit rate).
+lesson: Cooldown timers matter: check cooling_off_minutes_left before proposing buys on recently-sold names, and prefer sizing $2.5k across evidence-backed non-cooldown names to close the min_positions gap in one check rather than spreading too thin.
+  (dropped CRWD: sold 16 min ago, cooling off)
+  (dropped AMD: sold 37 min ago, cooling off)
+  (dropped GOOGL: sold 37 min ago, cooling off)
+  (dropped TSM: sold 37 min ago, cooling off)
+  (dropped CCJ: sold 35 min ago, cooling off)
+- BUY $2500.00 META [filled] ['news', 'momentum'] — news signal has best realized avg return per track_record (18.32%); META is leading Mag7 rally per headlines | evidence: META +11.87% 5d, +36.36% 1m, headline 'Meta stock jumps as Wells Fargo raises price target'; already have a resting buy_limit at 737.97 (below current 749.83)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% META @ $730.00 until 2026-09-22 — cap downside on new META position
+~ WORKING take_profit 100% META @ $753.00 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 META @ $727.48 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32819.89 (+31.28% on $25000.00 in) · cash $24711.92 · realised +7827.30
+Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16880.56 this week

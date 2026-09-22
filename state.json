@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 5619.44,
-  "deployed": 157958.36,
+  "spent": 8119.44,
+  "deployed": 160458.36,
   "by_ticker": {
     "NOC": 33.02,
     "RTX": 5.08,
@@ -12,7 +12,8 @@
     "MSFT": 17.76,
     "HLI": 9.7,
     "NVDA": 2307.69,
-    "AAPL": 1000.0
+    "AAPL": 1000.0,
+    "META": 2500.0
   },
   "deployed_by_ticker": {
     "AMD": 18200.0,
@@ -33,7 +34,7 @@
     "IBM": 7255.97,
     "PLD": 3891.02,
     "GOOGL": 12413.79,
-    "META": 2500.0,
+    "META": 5000.0,
     "GLD": 4307.69,
     "AAPL": 3500.0,
     "CRWD": 1000.0,
@@ -2792,12 +2793,29 @@
       ],
       "evidence": "+10.4% over the month, sitting at 31% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "META",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.333422,
+      "price": 749.98,
+      "date": "2026-09-22",
+      "time_et": "10:10",
+      "ts": 1790086236,
+      "why": "news signal has best realized avg return per track_record (18.32%); META is leading Mag7 rally per headlines",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "META +11.87% 5d, +36.36% 1m, headline 'Meta stock jumps as Wells Fargo raises price target'; already have a resting buy_limit at 737.97 (below current 749.83)"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 5619.44,
-  "deployed_today": 36623.59,
-  "orders_today": 17,
+  "spent_today": 8119.44,
+  "deployed_today": 39123.59,
+  "orders_today": 18,
   "sells_today": 14,
   "sold_today": [
     "AMD",
@@ -2840,28 +2858,31 @@
     "HLI": 1790085321,
     "CRWD": 1790085367
   },
-  "last_publish_ts": 1790086141,
-  "last_check_ts": 1790086141,
-  "last_bar_ts": 1790085900,
-  "last_decision_ts": 1790085260,
+  "last_publish_ts": 1790086236,
+  "last_check_ts": 1790086236,
+  "last_bar_ts": 1790086200,
+  "last_decision_ts": 1790086236,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "ce8f3880": 772.4819,
     "6a67aad1": 152.4289,
-    "337a96ee": 395.6279,
     "11503185": 398.3313,
-    "d1b6d7d7": 338.0445,
+    "337a96ee": 395.6279,
     "c4ae5d5d": 228.3134,
+    "d1b6d7d7": 338.0445,
+    "700cfcef": 753.0024,
     "2837422d": 340.8122,
-    "0fc494f4": 226.3061,
     "2bf19c12": 501.3056,
+    "0fc494f4": 226.3061,
     "e92ad4d7": 226.0277,
     "ed4babdf": 750249.2478,
-    "a146788c": 737.9695,
     "5592886c": 460.5895,
+    "a146788c": 737.9695,
+    "6638a8d7": 730.0,
     "6222c82b": 329.8194,
     "302ce751": 385.6332,
-    "0a2845a0": 220.8302
+    "0a2845a0": 220.8302,
+    "0c385ba0": 727.4806
   }
 }
