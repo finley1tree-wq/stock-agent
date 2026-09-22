@@ -1,5 +1,3 @@
-brain: Book is far below min_positions (only CHRW held) with 95.8% cash idle - this is the exact self-inflicted regret the counterfactual data flags. Deploying across 8 widely_held/chip/AI names with concrete evidence (AMD $1T club, TSMC capex surge, Gottheimer's large MSFT disclosure, Westinghouse IPO for CCJ) matches the best-performing sector bucket (widely_held avg_ret_pct 5.64%) and momentum signal ranking. Adding protective stops on each new position per risk_management guidance which has the best realized hit rate (86%).
-lesson: Reaching min_positions fast with sized ($2.5-4k) evidence-backed buys in the highest-performing sector (widely_held, 5.64% avg_ret) beats waiting on resting limits that keep expiring unfilled.
   (dropped AMD: sold 13 min ago, cooling off)
   (dropped NVDA: sold 44 min ago, cooling off)
   (dropped AVGO: sold 44 min ago, cooling off)
@@ -388,6 +386,8 @@ lesson: In the final 30-minute window before close, new market buys have almost 
 portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
 Decision: nothing at this check. 27 standing order(s) working.
   (cancelled 25 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
