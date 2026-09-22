@@ -14551,3 +14551,6 @@ lesson: When below min_positions with idle cash, add sized buys ($2k each) in th
 ~ WORKING buy_limit $500.00 AVGO @ $352.41 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32791.77 (+31.17% on $25000.00 in) · cash $16429.61 · realised +7810.37
 Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $8566.85 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $745.78] -> $3514.25 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-09-22 13:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
