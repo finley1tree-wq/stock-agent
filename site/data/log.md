@@ -1,7 +1,3 @@
-~ WORKING take_profit 100% HUBB @ $456.90 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% HUBB @ $452.35 until 2026-09-27 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 HUBB @ $441.93 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NLR @ $111.10 until 2026-09-27 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% NLR @ $109.69 until 2026-09-27 — close it all at -0.9% under the average cost
 ~ WORKING buy_limit $500.00 NLR @ $107.38 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING buy_limit $1000.00 HLI @ $128.17 until 2026-09-23 — strong month, weak day: resting 0.72% under $129.10 to catch the dip
@@ -398,3 +394,7 @@ lesson: When below min_positions with high idle cash, deploy sized buys (~$2-3k)
 ~ WORKING buy_limit $500.00 AAPL @ $331.14 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32797.83 (+31.19% on $25000.00 in) · cash $23040.43 · realised +7803.59
 Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $15177.67 this week
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $94.82] -> $3011.77 (+0.39%) — close 100% at +0.4% over the average cost
+- BUY $1000.00 AAPL [buy_limit @ $340.80] — strong month, weak day: resting 0.43% under $342.29 to catch the dip
+## 2026-09-22 13:54 ET — tick — 1 sell(s), 1 buy(s) from standing orders

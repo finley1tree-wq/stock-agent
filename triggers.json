@@ -1,26 +1,6 @@
 {
  "orders": [
   {
-   "id": "bae17653",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 769.957,
-   "status": "cancelled",
-   "created": "2026-09-21 13:55",
-   "created_ts": 1790013319,
-   "why": "wanted it, but not at the high \u2014 resting at $769.96. Low idiosyncratic risk name to help reach min_positions while book is empty",
-   "evidence": "SPY +1.46% today at 95.1% of range, broad market strength",
-   "signals": [
-    "momentum",
-    "etf_default",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 3000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "d133ac92",
    "ticker": "AAPL",
    "kind": "buy_limit",
@@ -6645,7 +6625,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 340.8048,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 12:27",
    "created_ts": 1790094422,
    "why": "strong month, weak day: resting 0.43% under $342.29 to catch the dip",
@@ -6655,7 +6635,8 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 13:54"
   },
   {
    "id": "782e1be4",
@@ -7255,7 +7236,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 91.6,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:29",
    "created_ts": 1790098168,
    "why": "protective stop ~3% below entry",
@@ -7264,14 +7245,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "84b423f0",
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 94.8184,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 13:29",
    "created_ts": 1790098168,
    "why": "close 100% at +0.4% over the average cost",
@@ -7281,14 +7264,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:54"
   },
   {
    "id": "051259d0",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 91.6165,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:29",
    "created_ts": 1790098168,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7298,7 +7282,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 13:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3f9d3a83",
@@ -7472,7 +7458,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 331.1386,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:50",
    "created_ts": 1790099447,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7482,8 +7468,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
+   "usd": 500.0,
+   "closed": "2026-09-22 13:54",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "05060ab9",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 330.9446,
+   "status": "working",
+   "created": "2026-09-22 13:54",
+   "created_ts": 1790099682,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $341.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
    "usd": 500.0
   }
  ],
- "updated": "2026-09-22 13:50"
+ "updated": "2026-09-22 13:54"
 }

@@ -14688,3 +14688,7 @@ lesson: When below min_positions with high idle cash, deploy sized buys (~$2-3k)
 ~ WORKING buy_limit $500.00 AAPL @ $331.14 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32797.83 (+31.19% on $25000.00 in) · cash $23040.43 · realised +7803.59
 Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $15177.67 this week
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $94.82] -> $3011.77 (+0.39%) — close 100% at +0.4% over the average cost
+- BUY $1000.00 AAPL [buy_limit @ $340.80] — strong month, weak day: resting 0.43% under $342.29 to catch the dip
+## 2026-09-22 13:54 ET — tick — 1 sell(s), 1 buy(s) from standing orders

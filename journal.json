@@ -29523,5 +29523,58 @@
     "code_version": "b9baa8a",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "side": "sell",
+    "qty": 31.763589,
+    "status": "filled",
+    "price": 94.82,
+    "proceeds": 3011.77,
+    "realized_pnl": 11.77,
+    "realized_pct": 0.39,
+    "date": "2026-09-22",
+    "time_et": "13:54",
+    "ts": 1790099400,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $94.45",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "38bb322"
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.934231,
+    "price": 340.8,
+    "date": "2026-09-22",
+    "time_et": "13:54",
+    "ts": 1790099400,
+    "why": "strong month, weak day: resting 0.43% under $342.29 to catch the dip",
+    "signals": [
+      "dip_entry",
+      "momentum",
+      "standing_order"
+    ],
+    "evidence": "+10.7% over the month, sitting at 54% of today's range",
+    "trigger": "buy_limit",
+    "entry_price": 340.8048,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 10.15,
+    "hour_et": 13,
+    "code_version": "38bb322",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
