@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "4a653e9d",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 687.9725,
-   "status": "cancelled",
-   "created": "2026-09-21 11:13",
-   "created_ts": 1790003635,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $709.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 11:18",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e367ed2d",
    "ticker": "GLD",
    "kind": "take_profit",
@@ -7452,7 +7433,7 @@
    "ticker": "NLR",
    "kind": "stop_loss",
    "price": 109.6915,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "close it all at -0.9% under the average cost",
@@ -7462,7 +7443,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0dc940dd",
@@ -7533,7 +7516,24 @@
    ],
    "good_until": "2026-09-27",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "35e97aca",
+   "ticker": "NLR",
+   "kind": "stop_loss",
+   "price": 110.91,
+   "status": "working",
+   "created": "2026-09-22 11:09",
+   "created_ts": 1790089748,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $110.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 11:07"
+ "updated": "2026-09-22 11:09"
 }

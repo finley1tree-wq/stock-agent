@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-22T11:07-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-22T11:09-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "46dfab20",
+   "ticker": "NLR",
+   "kind": "take_profit",
+   "price": 111.1029,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 111.05,
+   "pct_away": 0.05,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "99607d79",
    "ticker": "HUBB",
    "kind": "stop_loss",
@@ -150,6 +167,23 @@
    "pct_away": -0.06,
    "good_until": "2026-09-27",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "35e97aca",
+   "ticker": "NLR",
+   "kind": "stop_loss",
+   "price": 110.91,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 111.05,
+   "pct_away": -0.13,
+   "good_until": "2026-09-27",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,10 +214,27 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 773.65,
+   "last": 773.63,
    "pct_away": -0.15,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "3293214d",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 495.2566,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 496.04,
+   "pct_away": -0.16,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.43% under $497.39 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -197,44 +248,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.79,
-   "pct_away": 0.19,
+   "last": 134.82,
+   "pct_away": 0.16,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3293214d",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 495.2566,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 496.43,
-   "pct_away": -0.24,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.43% under $497.39 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "46dfab20",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 111.1029,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 110.72,
-   "pct_away": 0.35,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,8 +265,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 503.43,
-   "pct_away": -0.42,
+   "last": 503.66,
+   "pct_away": -0.47,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
    "signals": [
@@ -265,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.79,
-   "pct_away": -0.47,
+   "last": 134.82,
+   "pct_away": -0.49,
    "good_until": "2026-09-27",
    "why": "close it all at -0.5% under the average cost",
    "signals": [
@@ -282,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 231.61,
-   "pct_away": 0.55,
+   "last": 231.57,
+   "pct_away": 0.57,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -316,8 +333,8 @@
    "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 463.58,
-   "pct_away": -0.65,
+   "last": 463.66,
+   "pct_away": -0.66,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
    "signals": [
@@ -334,8 +351,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 231.61,
-   "pct_away": -0.7,
+   "last": 231.57,
+   "pct_away": -0.68,
    "good_until": "2026-09-27",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -368,30 +385,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 247.31,
-   "pct_away": -0.88,
+   "last": 247.19,
+   "pct_away": -0.83,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "ed23d04f",
-   "ticker": "NLR",
-   "kind": "stop_loss",
-   "price": 109.6915,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 110.72,
-   "pct_away": -0.93,
-   "good_until": "2026-09-27",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -402,8 +402,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 129.66,
-   "pct_away": -1.15,
+   "last": 129.82,
+   "pct_away": -1.27,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.72% under $129.10 to catch the dip",
    "signals": [
@@ -419,8 +419,8 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 748.63,
-   "pct_away": -1.42,
+   "last": 749.56,
+   "pct_away": -1.55,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
    "signals": [
@@ -437,8 +437,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 231.61,
-   "pct_away": -2.81,
+   "last": 231.57,
+   "pct_away": -2.79,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -454,24 +454,7 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 134.79,
-   "pct_away": -3.0,
-   "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0dc940dd",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 107.379,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 110.72,
+   "last": 134.82,
    "pct_away": -3.02,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -490,6 +473,23 @@
    "trail_pct": null,
    "last": 456.25,
    "pct_away": -3.14,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0dc940dd",
+   "ticker": "NLR",
+   "kind": "buy_limit",
+   "price": 107.379,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 111.05,
+   "pct_away": -3.31,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
