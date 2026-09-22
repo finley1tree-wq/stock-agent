@@ -14370,3 +14370,48 @@ Decision: nothing at this check. 23 standing order(s) working.
 ## 2026-09-22 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% MSFT [time stop] -> $998.68 (-0.13%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 11:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AVGO [time stop] -> $2500.17 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $1996.49 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2298.77 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 11:43 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 11:43 ET (Tuesday) — week 2026-W39 — budget left $25000.00 (today $82123.59 put to work, 37 buys, 37 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Book is completely flat (0 positions, 100% cash idle) despite $25k budget available and full_deployment active - this is a self-inflicted regret per past lessons and counterfactual data showing idle_universe_avg_pct at 0.64%. Deploying across 7 names avoiding all cooldown-restricted tickers (AMD, GOOGL, CCJ, TSM, PLTR, IBP, NEM), sized $2-5k each with concrete evidence (momentum, news catalysts, congressional disclosure) and protective stops per risk_management signal which has 86% hit rate in track record.
+lesson: When flat with 100% idle cash and no cooldown conflicts on strong-momentum names, deploy full budget immediately across 7+ names with stops rather than waiting - idle cash while book stat shows 3.03% avg return all buys is the real regret.
+- BUY $5000.00 AMD [filled] ['momentum', 'news'] — Strongest momentum name in universe, chip rally continuing, no cooldown restriction | evidence: AMD +22.71% 5d, +30.74% 1m, headline 'AMD stock soars to new record as semiconductors bounce'; not in cooldown list
+- BUY $4500.00 GOOGL [filled] ['momentum', 'news'] — Low in day range gives good entry on a name with positive momentum and AI-theme tailwind; not on cooldown | evidence: pct_of_day_range 0.9% (near day low) despite +3.27% 5d momentum, headline 'Magnificent 7 are back: Meta's AI bet leads the charge'
+- BUY $4000.00 CCJ [filled] ['news', 'momentum'] — Nuclear sector has 89% hit rate in track record by_sector, positive catalyst news on Cameco stake value | evidence: CCJ +1.43% today, day range 84%, headline 'Westinghouse Could IPO at $50B Valuation, Cameco's Stake Alone Worth $24.5B'
+- BUY $2933.83 TSM [filled] ['momentum', 'news'] — Chip supply chain leader with strong momentum and capex growth headline, not on cooldown | evidence: TSM +7.93% 5d, +6.59% 1m, headline 'TSMC Spent $15.59 Billion on CapEx in a Single Quarter, 42% More' showing capacity expansion
+- BUY $3500.00 PLTR [filled] ['momentum', 'news'] — Defense-tech name with continued momentum and positive analyst coverage, not on cooldown | evidence: PLTR +6.66% 5d, headline 'Prediction: Here's What a $5,000 Investment in Palantir Today Could Be Worth by 2031'
+- BUY $2000.00 IBP [filled] ['congress', 'momentum'] — Congressional buy pressure plus strong daily momentum in a name not currently held | evidence: Rep. David J. Taylor bought IBP $1,001-$15,000 disclosed 2026-09-17; IBP +3.69% today, day range 76%
+- BUY $2000.00 NEM [filled] ['momentum', 'news'] — Gold miner with analyst upgrade catalyst, diversifies away from GLD which has weak sector track record | evidence: NEM +0.89% today, headline 'Newmont price target raised by UBS on capital returns outlook'
+~ WORKING stop_loss 100% AMD @ $600.00 until 2026-09-22 — Protective stop ~3% below entry per ATR sizing
+~ WORKING stop_loss 100% GOOGL @ $347.00 until 2026-09-22 — Protective stop bounding downside on new position
+~ WORKING stop_loss 100% CCJ @ $91.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% TSM @ $433.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% PLTR @ $177.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% IBP @ $200.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% NEM @ $120.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING take_profit 100% AMD @ $621.65 until 2026-09-27 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $600.27 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $357.24 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $345.63 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $94.97 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $91.76 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $447.76 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $433.26 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $184.88 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $178.58 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBP @ $211.14 until 2026-09-27 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $203.73 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $124.64 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $120.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CHRW @ $151.41 until 2026-09-23 — strong month, weak day: resting 0.50% under $152.17 to catch the dip
+portfolio: equity $32856.39 (+31.43% on $25000.00 in) · cash $8928.94 · realised +7862.77
+Done: 0 sell(s), 7 buy(s); 30 order(s) working; budget left $1066.17 this week

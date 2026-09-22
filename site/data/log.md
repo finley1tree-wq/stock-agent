@@ -1,48 +1,3 @@
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% NOC [time stop] -> $2492.63 (-0.29%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% RTX [time stop] -> $4432.24 (+0.03%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% UNH [time stop] -> $1998.03 (-0.10%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 15:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 15:53 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $121334.77 put to work, 58 buys, 56 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain: no_new_entries_this_check is true (session inside last max_hold_minutes window at 15:53 with close at 16:00), so no new buys are permitted and any submitted would be dropped. No open positions to sell or protect. Sitting flat into the close is the only compliant action.
-lesson: When no_new_entries_this_check is true near the close, do not attempt buys - they will be dropped; just confirm flat book and end the session cleanly.
-portfolio: equity $32801.08 (+31.20% on $25000.00 in) · cash $32801.08 · realised +7801.08
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-09-21 16:00 ET — published the session's closing state
-
-## 2026-09-22 09:32 ET (Tuesday) — week 2026-W39 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
-brain: Flat book with 100% idle cash and min_positions=8 target under full_deployment mode - the guardrail is explicit that idle cash with no positions is a decision, not caution. Deploying across 8 evidence-backed names (AI/chip momentum, congressional MSFT buy, nuclear catalyst, healthcare) at $3-3.5k each puts real money to work per the owner's instruction and past lessons showing market buys close the position gap effectively (0.6%/day realized when doing this).
-lesson: Past lessons and track record confirm: at flat/idle-cash starts, immediate sized ($3k+) market buys across 8 evidence-backed names outperform resting limits that repeatedly expire unfilled.
-  (dropped META: 97% up today's range — resting a limit at $737.97 instead of chasing)
-  (dropped AVGO: sector widely_held at its 50% cap ($0.00))
-  (dropped UNH: sector widely_held at its 50% cap ($0.00))
-- BUY $3500.00 AMD [filled] ['momentum', 'news', 'track_record'] — Strong momentum + AI chip rally continuation, best-performing sector bucket | evidence: AMD +21.15% 5d, +29.07% 1m, 'AMD stock soars to new record as semiconductors bounce' (Yahoo Finance 09/21); widely_held sector avg_ret 8.36% in track record
-- BUY $3000.00 MSFT [filled] ['congress', 'momentum'] — Large congressional buy plus steady widely-held momentum | evidence: Rep. Josh Gottheimer disclosed $250k-1M MSFT buy (filed 2026-09-14); MSFT +4.36% 1m
-- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Widely-held sector momentum with fresh AI-competition headline flow | evidence: GOOGL +3.8% 5d, 'DeepSeek, Moonshot Face China Scrutiny Over Anthropic Claims Ahead of Trump-Xi AI Talks' headline 09/22, day range 56.9%
-- BUY $2969.76 TSM [filled] ['momentum', 'news'] — Chip supply chain momentum with concrete capex evidence | evidence: TSM +7.18% 5d, 'TSMC Spent $15.59B on CapEx in a Single Quarter, 42% More' (TIKR 09/22)
-- BUY $3000.00 CCJ [filled] ['news', 'momentum'] — Nuclear thesis with concrete Westinghouse IPO valuation catalyst, cheap entry near day low | evidence: 'Westinghouse Could IPO at $50B Valuation, Cameco Stake Alone Worth $24.5B' (Motley Fool 09/21); CCJ low in range at 6.5%
-  (dropped trigger META take_profit: not held)
-~ WORKING stop_loss 100% AMD @ $595.00 until 2026-09-22 — Cap downside on high-momentum name per ATR-based stop
-~ WORKING stop_loss 100% CCJ @ $89.00 until 2026-09-22 — Protect against further downside given -0.91% 1d, -9.88% 1m trend
-~ WORKING buy_limit $3500.00 META @ $737.97 until 2026-09-22 — wanted it, but not at the high — resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking
 ~ WORKING take_profit 100% AMD @ $613.72 until 2026-09-27 — close 100% at +0.5% over the average cost
 ~ WORKING buy_limit $500.00 AMD @ $592.63 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% MSFT @ $505.48 until 2026-09-27 — close 100% at +0.2% over the average cost
@@ -398,3 +353,48 @@ Decision: nothing at this check. 23 standing order(s) working.
 ## 2026-09-22 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% MSFT [time stop] -> $998.68 (-0.13%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 11:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AVGO [time stop] -> $2500.17 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $1996.49 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2298.77 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 11:43 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 11:43 ET (Tuesday) — week 2026-W39 — budget left $25000.00 (today $82123.59 put to work, 37 buys, 37 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Book is completely flat (0 positions, 100% cash idle) despite $25k budget available and full_deployment active - this is a self-inflicted regret per past lessons and counterfactual data showing idle_universe_avg_pct at 0.64%. Deploying across 7 names avoiding all cooldown-restricted tickers (AMD, GOOGL, CCJ, TSM, PLTR, IBP, NEM), sized $2-5k each with concrete evidence (momentum, news catalysts, congressional disclosure) and protective stops per risk_management signal which has 86% hit rate in track record.
+lesson: When flat with 100% idle cash and no cooldown conflicts on strong-momentum names, deploy full budget immediately across 7+ names with stops rather than waiting - idle cash while book stat shows 3.03% avg return all buys is the real regret.
+- BUY $5000.00 AMD [filled] ['momentum', 'news'] — Strongest momentum name in universe, chip rally continuing, no cooldown restriction | evidence: AMD +22.71% 5d, +30.74% 1m, headline 'AMD stock soars to new record as semiconductors bounce'; not in cooldown list
+- BUY $4500.00 GOOGL [filled] ['momentum', 'news'] — Low in day range gives good entry on a name with positive momentum and AI-theme tailwind; not on cooldown | evidence: pct_of_day_range 0.9% (near day low) despite +3.27% 5d momentum, headline 'Magnificent 7 are back: Meta's AI bet leads the charge'
+- BUY $4000.00 CCJ [filled] ['news', 'momentum'] — Nuclear sector has 89% hit rate in track record by_sector, positive catalyst news on Cameco stake value | evidence: CCJ +1.43% today, day range 84%, headline 'Westinghouse Could IPO at $50B Valuation, Cameco's Stake Alone Worth $24.5B'
+- BUY $2933.83 TSM [filled] ['momentum', 'news'] — Chip supply chain leader with strong momentum and capex growth headline, not on cooldown | evidence: TSM +7.93% 5d, +6.59% 1m, headline 'TSMC Spent $15.59 Billion on CapEx in a Single Quarter, 42% More' showing capacity expansion
+- BUY $3500.00 PLTR [filled] ['momentum', 'news'] — Defense-tech name with continued momentum and positive analyst coverage, not on cooldown | evidence: PLTR +6.66% 5d, headline 'Prediction: Here's What a $5,000 Investment in Palantir Today Could Be Worth by 2031'
+- BUY $2000.00 IBP [filled] ['congress', 'momentum'] — Congressional buy pressure plus strong daily momentum in a name not currently held | evidence: Rep. David J. Taylor bought IBP $1,001-$15,000 disclosed 2026-09-17; IBP +3.69% today, day range 76%
+- BUY $2000.00 NEM [filled] ['momentum', 'news'] — Gold miner with analyst upgrade catalyst, diversifies away from GLD which has weak sector track record | evidence: NEM +0.89% today, headline 'Newmont price target raised by UBS on capital returns outlook'
+~ WORKING stop_loss 100% AMD @ $600.00 until 2026-09-22 — Protective stop ~3% below entry per ATR sizing
+~ WORKING stop_loss 100% GOOGL @ $347.00 until 2026-09-22 — Protective stop bounding downside on new position
+~ WORKING stop_loss 100% CCJ @ $91.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% TSM @ $433.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% PLTR @ $177.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% IBP @ $200.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING stop_loss 100% NEM @ $120.00 until 2026-09-22 — Protective stop bounding downside
+~ WORKING take_profit 100% AMD @ $621.65 until 2026-09-27 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $600.27 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $357.24 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $345.63 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $94.97 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $91.76 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $447.76 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $433.26 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $184.88 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $178.58 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBP @ $211.14 until 2026-09-27 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $203.73 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $124.64 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $120.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CHRW @ $151.41 until 2026-09-23 — strong month, weak day: resting 0.50% under $152.17 to catch the dip
+portfolio: equity $32856.39 (+31.43% on $25000.00 in) · cash $8928.94 · realised +7862.77
+Done: 0 sell(s), 7 buy(s); 30 order(s) working; budget left $1066.17 this week
