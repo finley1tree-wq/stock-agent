@@ -1,5 +1,3 @@
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [stop_loss @ $13.66] -> $1001.61 (+0.16%) — close it all at -1.3% under the average cost
 ## 2026-09-22 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-22 09:48 ET (Tuesday) — week 2026-W39 — budget left $25000.00 (today $17469.76 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ Decision: nothing at this check. 32 standing order(s) working.
 - SELL 100% IBP [time stop] -> $3008.42 (+0.28%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% NEM [time stop] -> $2000.82 (+0.04%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 12:14 ET — tick — 7 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 CHRW [buy_limit @ $151.41] — strong month, weak day: resting 0.50% under $152.17 to catch the dip
+## 2026-09-22 12:19 ET — tick — 0 sell(s), 1 buy(s) from standing orders

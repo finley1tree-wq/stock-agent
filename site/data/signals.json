@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-22T12:14-04:00",
- "note": "tick: 7 standing order(s) filled",
+ "asOf": "2026-09-22T12:19-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,13 +146,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 773.28,
-   "pct_away": -0.1,
+   "last": 773.07,
+   "pct_away": -0.08,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "4f3f1ffc",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 151.8158,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 151.38,
+   "pct_away": 0.29,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -163,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 245.94,
-   "pct_away": -0.33,
+   "last": 246.25,
+   "pct_away": -0.45,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
    "signals": [
@@ -173,20 +190,20 @@
    ]
   },
   {
-   "id": "e1f11d5e",
+   "id": "2c60e32c",
    "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 151.4116,
-   "usd": 1000.0,
-   "pct_of_position": null,
+   "kind": "stop_loss",
+   "price": 150.3956,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 152.11,
-   "pct_away": -0.46,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.50% under $152.17 to catch the dip",
+   "last": 151.38,
+   "pct_away": -0.65,
+   "good_until": "2026-09-27",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
-    "momentum",
-    "dip_entry"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -197,8 +214,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 504.54,
-   "pct_away": -0.64,
+   "last": 504.69,
+   "pct_away": -0.67,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
    "signals": [
@@ -231,31 +248,13 @@
    "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 466.17,
-   "pct_away": -1.2,
+   "last": 466.12,
+   "pct_away": -1.19,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
    "signals": [
     "congress",
     "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "a146788c",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 737.9695,
-   "usd": 3500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 747.17,
-   "pct_away": -1.23,
-   "good_until": "2026-09-22",
-   "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
-   "signals": [
-    "news",
-    "momentum",
     "patience"
    ]
   },
@@ -267,13 +266,48 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 13.36,
-   "pct_away": -1.31,
+   "last": 13.35,
+   "pct_away": -1.24,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "a146788c",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 737.9695,
+   "usd": 3500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 749.12,
+   "pct_away": -1.49,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "f596c6f5",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 146.8677,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 151.38,
+   "pct_away": -2.98,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -284,8 +318,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 132.34,
-   "pct_away": -3.15,
+   "last": 132.12,
+   "pct_away": -2.99,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.72% under $129.10 to catch the dip",
    "signals": [

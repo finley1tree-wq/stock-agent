@@ -1,67 +1,6 @@
 {
  "orders": [
   {
-   "id": "eadee355",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 707.147,
-   "status": "cancelled",
-   "created": "2026-09-21 12:33",
-   "created_ts": 1790008397,
-   "why": "wanted it, but not at the high \u2014 resting at $707.15. Strong breakout with concrete catalysts; buying at market since it's running, sized to 3k not overexposed",
-   "evidence": "META +9.56% today, day range 99.4%, 'Trump and Xi dine with AI titans and Meta takes the stage' headline, +33.6% 1m momentum",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 3000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "5f3cae3e",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 458.3723,
-   "status": "cancelled",
-   "created": "2026-09-21 12:33",
-   "created_ts": 1790008397,
-   "why": "wanted it, but not at the high \u2014 resting at $458.37. Momentum plus congressional buy overlap in semis-adjacent name",
-   "evidence": "AMAT +4.12% today at 98.5% of range, Rep. Gottheimer disclosed buy 2026-08-06 disclosed 09-14, '3 of Wall Street's Favorite Stocks' headline",
-   "signals": [
-    "momentum",
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "8b537d84",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 180.401,
-   "status": "cancelled",
-   "created": "2026-09-21 12:33",
-   "created_ts": 1790008397,
-   "why": "wanted it, but not at the high \u2014 resting at $180.40. Continued momentum name with fresh news flow, sizing moderate given Burry bear case headline risk",
-   "evidence": "PLTR +2.88% today, 90.6% of range, 'Palantir CEO Karp' headline, +5.06% 1m momentum",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "e3016481",
    "ticker": "AVGO",
    "kind": "buy_limit",
@@ -7435,7 +7374,7 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 151.4116,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 11:43",
    "created_ts": 1790091828,
    "why": "strong month, weak day: resting 0.50% under $152.17 to catch the dip",
@@ -7445,7 +7384,8 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 12:19"
   },
   {
    "id": "be60f954",
@@ -7541,7 +7481,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-22 12:14",
    "cancel_reason": "time stop closed the position"
+  },
+  {
+   "id": "4f3f1ffc",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 151.8158,
+   "status": "working",
+   "created": "2026-09-22 12:19",
+   "created_ts": 1790093971,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $151.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2c60e32c",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 150.3956,
+   "status": "working",
+   "created": "2026-09-22 12:19",
+   "created_ts": 1790093971,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $151.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f596c6f5",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 146.8677,
+   "status": "working",
+   "created": "2026-09-22 12:19",
+   "created_ts": 1790093971,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $151.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-22 12:10"
+ "updated": "2026-09-22 12:19"
 }

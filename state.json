@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 55.61,
-  "deployed": 228392.19,
+  "spent": 1055.61,
+  "deployed": 229392.19,
   "by_ticker": {
     "NOC": 26.46,
     "IBM": 15.05,
@@ -10,7 +10,7 @@
     "PLTR": 15.16,
     "MSFT": 19.08,
     "HLI": 9.7,
-    "CHRW": 4.79,
+    "CHRW": 1004.79,
     "GOOGL": 52.99,
     "NVDA": 3.51,
     "UNH": 1.23,
@@ -21,7 +21,7 @@
     "AMD": 26200.0,
     "AMAT": 5975.0,
     "NVDA": 9407.69,
-    "CHRW": 2000.0,
+    "CHRW": 3000.0,
     "TTD": 3000.0,
     "PLTR": 12500.0,
     "MSFT": 10425.0,
@@ -3888,12 +3888,31 @@
       ],
       "evidence": "bought 30 min ago, +0.08% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.604514,
+      "price": 151.41,
+      "date": "2026-09-22",
+      "time_et": "12:19",
+      "ts": 1790093700,
+      "why": "strong month, weak day: resting 0.50% under $152.17 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+7.4% over the month, sitting at 25% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 55.61,
-  "deployed_today": 107057.42,
-  "orders_today": 45,
+  "spent_today": 1055.61,
+  "deployed_today": 108057.42,
+  "orders_today": 46,
   "sells_today": 44,
   "sold_today": [
     "AMD",
@@ -3954,21 +3973,23 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790093661,
-  "last_check_ts": 1790093892,
+  "last_publish_ts": 1790093971,
+  "last_check_ts": 1790093971,
   "last_bar_ts": 1790093700,
   "last_decision_ts": 1790093428,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "ce8f3880": 772.4819,
+    "4f3f1ffc": 151.8158,
     "da7eddf2": 245.1322,
-    "e1f11d5e": 151.4116,
+    "2c60e32c": 150.3956,
     "2bf19c12": 501.3056,
     "ed4babdf": 750249.2478,
     "5592886c": 460.5895,
-    "a146788c": 737.9695,
     "c136c6c6": 13.1848,
+    "a146788c": 737.9695,
+    "f596c6f5": 146.8677,
     "06fa679b": 128.1692
   }
 }
