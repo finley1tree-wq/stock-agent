@@ -14365,3 +14365,6 @@ lesson: placeholder
 portfolio: equity $32868.05 (+31.47% on $25000.00 in) · cash $22868.07 · realised +7868.07
 Decision: nothing at this check. 23 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AMZN: position closed)
+- SELL 100% AMZN [stop_loss @ $255.69] -> $2200.59 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-22 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders

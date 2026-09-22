@@ -7325,7 +7325,7 @@
    "ticker": "AMZN",
    "kind": "take_profit",
    "price": 256.19,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 11:12",
    "created_ts": 1790089970,
    "why": "close 100% at +0.2% over the average cost",
@@ -7335,7 +7335,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3ad7f546",
@@ -7361,7 +7363,7 @@
    "ticker": "AMZN",
    "kind": "buy_limit",
    "price": 247.9514,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 11:12",
    "created_ts": 1790089970,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7371,7 +7373,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 11:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ab9f2168",
@@ -7516,7 +7520,7 @@
    "ticker": "AMZN",
    "kind": "stop_loss",
    "price": 255.818,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 11:25",
    "created_ts": 1790090759,
    "why": "close it all at -0.6% under the average cost",
@@ -7526,8 +7530,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:30"
   }
  ],
- "updated": "2026-09-22 11:27"
+ "updated": "2026-09-22 11:30"
 }

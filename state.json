@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 9963.27,
+  "spent": 7762.68,
   "deployed": 203458.36,
   "by_ticker": {
     "NOC": 26.46,
@@ -12,7 +12,6 @@
     "HLI": 9.7,
     "CHRW": 4.79,
     "GOOGL": 13.06,
-    "AMZN": 2200.0,
     "AVGO": 2500.0,
     "NVDA": 2000.0,
     "UNH": 2300.0
@@ -3509,13 +3508,34 @@
       ],
       "evidence": "bought 30 min ago, -0.50% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMZN",
+      "side": "sell",
+      "qty": 8.606488,
+      "status": "filled",
+      "price": 255.69,
+      "proceeds": 2200.59,
+      "realized_pnl": 0.59,
+      "realized_pct": 0.03,
+      "date": "2026-09-22",
+      "time_et": "11:30",
+      "ts": 1790091000,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $255.62",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 9963.27,
+  "spent_today": 7762.68,
   "deployed_today": 82123.59,
   "orders_today": 37,
-  "sells_today": 32,
+  "sells_today": 33,
   "sold_today": [
     "AMD",
     "MSFT",
@@ -3540,7 +3560,8 @@
     "LMT",
     "OKLO",
     "NLR",
-    "HUBB"
+    "HUBB",
+    "AMZN"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -3567,26 +3588,25 @@
     "HLI": 1790085321,
     "CRWD": 1790085367,
     "NLR": 1790089922,
-    "HUBB": 1790089975
+    "HUBB": 1790089975,
+    "AMZN": 1790091052
   },
-  "last_publish_ts": 1790090868,
-  "last_check_ts": 1790090958,
-  "last_bar_ts": 1790090700,
+  "last_publish_ts": 1790091051,
+  "last_check_ts": 1790091051,
+  "last_bar_ts": 1790091000,
   "last_decision_ts": 1790090870,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "77bd6ae1": 255.818,
     "ce8f3880": 772.4819,
-    "9bc09190": 256.19,
     "0e33a769": 496.4041,
-    "0b8dc3b8": 229.324,
     "ab9f2168": 363.9524,
-    "88700bb8": 375.354,
+    "0b8dc3b8": 229.324,
     "68f1f9ac": 371.4955,
     "2bf19c12": 501.3056,
-    "5592886c": 460.5895,
     "fe5035d6": 492.3974,
+    "5592886c": 460.5895,
+    "88700bb8": 375.354,
     "da7eddf2": 245.1322,
     "ed4babdf": 750249.2478,
     "06fa679b": 128.1692,
@@ -3595,9 +3615,8 @@
     "1b936283": 355.0,
     "11e0c5a5": 363.0225,
     "1dac6b27": 222.0,
-    "28cf6dab": 351.8481,
     "493954cf": 480.4022,
-    "ba044797": 247.9514,
-    "4cc90033": 221.8099
+    "4cc90033": 221.8099,
+    "28cf6dab": 351.8481
   }
 }
