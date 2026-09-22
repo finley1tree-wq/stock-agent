@@ -14308,3 +14308,41 @@ Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
   (cancelled 2 standing order(s) on OKLO: position closed)
 - SELL 100% OKLO [take_profit @ $40.32] -> $3020.70 (+0.69%) — close 100% at +0.7% over the average cost
 ## 2026-09-22 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NLR: position closed)
+- SELL 100% NLR [take_profit @ $111.10] -> $2007.27 (+0.36%) — close 100% at +0.4% over the average cost
+## 2026-09-22 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 MSFT [buy_limit @ $495.26] — strong month, weak day: resting 0.43% under $497.39 to catch the dip
+## 2026-09-22 11:12 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-22 11:12 ET (Tuesday) — week 2026-W39 — budget left $18037.74 (today $73123.59 put to work, 33 buys, 29 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $456.90] -> $2005.69 (+0.28%) — close 100% at +0.3% over the average cost
+brain: Only 3 positions held vs min_positions 8, and cash_idle_pct is 80% - this is a clear case where the owner's instructions demand deployment. Full deployment mode is active (max 6 names concentrated), so I'm adding 6 more widely_held mega-cap names with concrete momentum/news evidence rather than sitting idle. Widely_held sector has the best track record (avg_ret_pct 6.55%) by far versus defense/gold/index which are flat or negative.
+lesson: Idle cash at 80% with only 3/8 positions is a self-inflicted regret; deploy sized market buys ($2-2.5k) into widely_held mega-caps with concrete news/momentum evidence rather than waiting on resting limits that keep expiring.
+  (dropped GOOGL: sold 16 min ago, cooling off)
+  (dropped TSM: sold 41 min ago, cooling off)
+- BUY $2200.00 AMZN [filled] ['momentum', 'news'] — Mega-cap tech participating in AI rally, room to run since it's mid-range not chasing highs | evidence: AMZN pct_of_day_range 34.2%, not extended; Magnificent 7 rally headline 'The Magnificent 7 are back'
+- BUY $2500.00 AVGO [filled] ['momentum', 'news'] — Broadcom riding chip rally, moderate entry point in day range | evidence: AVGO +6.89% 5d, pct_of_day_range 63%; headline 'Nvidia Price Prediction: Wall Street and Our Model Finally Agree' tied to chip rally
+- BUY $2000.00 NVDA [filled] ['momentum', 'news'] — Core AI chip name with strong 5d momentum, adding to diversify beyond current 3 positions | evidence: NVDA +7.76% 5d, +0.55% today, pct_of_day_range 68.5%; AI infrastructure theme headlines dominant today
+- BUY $2300.00 UNH [filled] ['momentum', 'track_record'] — Diversify into healthcare mega-cap, contrarian entry after pullback | evidence: UNH -0.9% today but -4.08% 1m already priced in; track record shows widely_held sector strongest at avg_ret_pct 6.55%
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% NVDA @ $222.00 until 2026-09-22 — Protective stop sized to ATR
+~ WORKING stop_loss 100% AVGO @ $355.00 until 2026-09-22 — Protective stop sized to ATR
+~ WORKING take_profit 100% AMZN @ $256.19 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% AMZN @ $254.19 until 2026-09-27 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AMZN @ $247.95 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $363.95 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $351.85 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $229.32 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $221.81 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $375.35 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% UNH @ $371.50 until 2026-09-27 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 UNH @ $363.02 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32866.44 (+31.47% on $25000.00 in) · cash $18874.77 · realised +7874.77
+Done: 1 sell(s), 4 buy(s) (incl. 1 from standing orders); 29 order(s) working; budget left $11043.43 this week

@@ -1,37 +1,39 @@
 {
   "week": "2026-W39",
-  "spent": 7969.53,
-  "deployed": 193458.36,
+  "spent": 13956.57,
+  "deployed": 203458.36,
   "by_ticker": {
     "NOC": 26.46,
     "IBM": 2004.69,
     "GLD": 4.3,
     "AMD": 14.24,
     "PLTR": 6.16,
-    "MSFT": 17.76,
+    "MSFT": 1017.76,
     "HLI": 9.7,
     "CHRW": 4.79,
     "GOOGL": 13.06,
     "PLD": 2000.0,
-    "HUBB": 2000.0,
-    "NLR": 2000.0
+    "AMZN": 2200.0,
+    "AVGO": 2500.0,
+    "NVDA": 2000.0,
+    "UNH": 2300.0
   },
   "deployed_by_ticker": {
     "AMD": 21200.0,
     "AMAT": 5975.0,
-    "NVDA": 7407.69,
+    "NVDA": 9407.69,
     "CHRW": 2000.0,
     "TTD": 3000.0,
     "PLTR": 9000.0,
-    "MSFT": 9425.0,
+    "MSFT": 10425.0,
     "OKLO": 10500.0,
     "NOC": 10807.69,
     "LMT": 6000.0,
     "RTX": 11931.03,
     "CCJ": 15925.0,
     "TSM": 14636.43,
-    "AVGO": 5974.36,
-    "UNH": 10307.69,
+    "AVGO": 8474.36,
+    "UNH": 12607.69,
     "IBM": 9255.97,
     "PLD": 5891.02,
     "GOOGL": 15413.79,
@@ -41,7 +43,8 @@
     "CRWD": 1000.0,
     "HLI": 1000.0,
     "HUBB": 2000.0,
-    "NLR": 2000.0
+    "NLR": 2000.0,
+    "AMZN": 2200.0
   },
   "orders": [
     {
@@ -3337,13 +3340,142 @@
       ],
       "evidence": "average cost $40.05",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NLR",
+      "side": "sell",
+      "qty": 18.066751,
+      "status": "filled",
+      "price": 111.1,
+      "proceeds": 2007.27,
+      "realized_pnl": 7.27,
+      "realized_pct": 0.36,
+      "date": "2026-09-22",
+      "time_et": "11:12",
+      "ts": 1790089800,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $110.7",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.019155,
+      "price": 495.26,
+      "date": "2026-09-22",
+      "time_et": "11:12",
+      "ts": 1790089800,
+      "why": "strong month, weak day: resting 0.43% under $497.39 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+2.9% over the month, sitting at 12% of today's range",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "HUBB",
+      "side": "sell",
+      "qty": 4.389795,
+      "status": "filled",
+      "price": 456.9,
+      "proceeds": 2005.69,
+      "realized_pnl": 5.69,
+      "realized_pct": 0.28,
+      "date": "2026-09-22",
+      "time_et": "11:12",
+      "ts": 1790089800,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $455.6",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMZN",
+      "notional": 2200.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.606488,
+      "price": 255.62,
+      "date": "2026-09-22",
+      "time_et": "11:12",
+      "ts": 1790089970,
+      "why": "Mega-cap tech participating in AI rally, room to run since it's mid-range not chasing highs",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AMZN pct_of_day_range 34.2%, not extended; Magnificent 7 rally headline 'The Magnificent 7 are back'"
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.892131,
+      "price": 362.73,
+      "date": "2026-09-22",
+      "time_et": "11:12",
+      "ts": 1790089970,
+      "why": "Broadcom riding chip rally, moderate entry point in day range",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AVGO +6.89% 5d, pct_of_day_range 63%; headline 'Nvidia Price Prediction: Wall Street and Our Model Finally Agree' tied to chip rally"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.746392,
+      "price": 228.67,
+      "date": "2026-09-22",
+      "time_et": "11:12",
+      "ts": 1790089970,
+      "why": "Core AI chip name with strong 5d momentum, adding to diversify beyond current 3 positions",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "NVDA +7.76% 5d, +0.55% today, pct_of_day_range 68.5%; AI infrastructure theme headlines dominant today"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 2300.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.145545,
+      "price": 374.25,
+      "date": "2026-09-22",
+      "time_et": "11:12",
+      "ts": 1790089970,
+      "why": "Diversify into healthcare mega-cap, contrarian entry after pullback",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "UNH -0.9% today but -4.08% 1m already priced in; track record shows widely_held sector strongest at avg_ret_pct 6.55%"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 7969.53,
-  "deployed_today": 72123.59,
-  "orders_today": 32,
-  "sells_today": 28,
+  "spent_today": 13956.57,
+  "deployed_today": 82123.59,
+  "orders_today": 37,
+  "sells_today": 30,
   "sold_today": [
     "AMD",
     "MSFT",
@@ -3366,7 +3498,9 @@
     "CHRW",
     "RTX",
     "LMT",
-    "OKLO"
+    "OKLO",
+    "NLR",
+    "HUBB"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -3391,35 +3525,45 @@
     "GLD": 1790087064,
     "AAPL": 1790087301,
     "HLI": 1790085321,
-    "CRWD": 1790085367
+    "CRWD": 1790085367,
+    "NLR": 1790089922,
+    "HUBB": 1790089975
   },
-  "last_publish_ts": 1790089748,
-  "last_check_ts": 1790089881,
+  "last_publish_ts": 1790089970,
+  "last_check_ts": 1790089970,
   "last_bar_ts": 1790089800,
-  "last_decision_ts": 1790089059,
+  "last_decision_ts": 1790089970,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "46dfab20": 111.1029,
-    "99607d79": 455.99,
-    "35e97aca": 110.91,
-    "077504a3": 456.8985,
     "ce8f3880": 772.4819,
-    "3293214d": 495.2566,
+    "9bc09190": 256.19,
     "acaf4f3c": 135.0407,
-    "2bf19c12": 501.3056,
+    "0e33a769": 496.4041,
+    "0b8dc3b8": 229.324,
+    "88700bb8": 375.354,
+    "ab9f2168": 363.9524,
     "df9d39bc": 134.1619,
-    "872bf8f4": 232.8838,
+    "2bf19c12": 501.3056,
     "c136c6c6": 13.1848,
-    "5592886c": 460.5895,
+    "3ad7f546": 254.1936,
+    "fe5035d6": 492.3974,
+    "872bf8f4": 232.8838,
     "58804de7": 229.9993,
     "ed4babdf": 750249.2478,
+    "68f1f9ac": 371.4955,
+    "5592886c": 460.5895,
     "da7eddf2": 245.1322,
     "06fa679b": 128.1692,
     "a146788c": 737.9695,
+    "1b936283": 355.0,
     "84d768d4": 225.0982,
+    "1dac6b27": 222.0,
     "4d0f70f2": 130.7463,
-    "638e1b8e": 441.932,
-    "0dc940dd": 107.379
+    "493954cf": 480.4022,
+    "ba044797": 247.9514,
+    "28cf6dab": 351.8481,
+    "4cc90033": 221.8099,
+    "11e0c5a5": 363.0225
   }
 }
