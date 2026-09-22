@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "d133ac92",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 336.4655,
-   "status": "cancelled",
-   "created": "2026-09-21 13:55",
-   "created_ts": 1790013319,
-   "why": "wanted it, but not at the high \u2014 resting at $336.47. Widely-held sector has best avg_ret_pct 9.39% in track record by_sector",
-   "evidence": "AAPL +0.68% today, 86.5% of range, +8.71% 1m",
-   "signals": [
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "2e56bf1d",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 194.8839,
-   "status": "cancelled",
-   "created": "2026-09-21 13:55",
-   "created_ts": 1790013319,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $194.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 14:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "a0e8d5bb",
    "ticker": "RTX",
    "kind": "buy_limit",
@@ -7446,7 +7408,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 342.172,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:50",
    "created_ts": 1790099447,
    "why": "close 100% at +0.2% over the average cost",
@@ -7456,7 +7418,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:59",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "148afa2e",
@@ -7493,7 +7457,43 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "0682c026",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 358.239,
+   "status": "cancelled",
+   "created": "2026-09-22 13:59",
+   "created_ts": 1790099943,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $341.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:59",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "fccadc03",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 341.9715,
+   "status": "working",
+   "created": "2026-09-22 13:59",
+   "created_ts": 1790099990,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $341.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 13:58"
+ "updated": "2026-09-22 13:59"
 }
