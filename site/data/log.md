@@ -1,6 +1,3 @@
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $499.34] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-09-21 14:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% OKLO [time stop] -> $2504.85 (+0.19%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $2500.64 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 14:56 ET — tick — 2 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 27 order(s) working; budget left $9009.39 this week
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $340.81] -> $1002.34 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $447.25] -> $3007.36 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-22 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
