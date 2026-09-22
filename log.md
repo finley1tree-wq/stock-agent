@@ -14125,3 +14125,13 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $246.56] -> $1005.63 (+0.56%) — close 100% at +0.6% over the average cost
 ## 2026-09-22 09:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [stop_loss @ $360.61] -> $2310.60 (+0.13%) — close it all at -0.8% under the average cost
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $233.27] -> $2309.06 (+0.06%) — close it all at -0.9% under the average cost
+## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [stop_loss @ $516.03] -> $2292.66 (-0.65%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $135.56] -> $2311.84 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders

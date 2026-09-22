@@ -1,13 +1,3 @@
-Done: 0 sell(s), 4 buy(s); 58 order(s) working; budget left $14987.61 this week
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [stop_loss @ $228.94] -> $2001.45 (+0.07%) — close it all at -0.9% under the average cost
-## 2026-09-21 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 14:11 ET (Monday) — week 2026-W39 — budget left $16989.06 (today $96403.74 put to work, 47 buys, 43 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
 brain: Still below min_positions (3 held, need 8) with 68% cash idle and 3 checks left today - the counterfactual data shows idle sitting has real cost (idle_universe_avg_pct 0.63%) and past lessons consistently show market orders close the gap while limits don't fill. Adding NVDA, TSM, PLTR, AMAT as market buys with protective stops, all backed by concrete momentum/news/congress evidence, to push toward min_positions while avoiding cooldown names (AVGO, IBM, GOOGL, NOC) and not chasing extreme-range names.
@@ -398,3 +388,13 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $246.56] -> $1005.63 (+0.56%) — close 100% at +0.6% over the average cost
 ## 2026-09-22 09:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [stop_loss @ $360.61] -> $2310.60 (+0.13%) — close it all at -0.8% under the average cost
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $233.27] -> $2309.06 (+0.06%) — close it all at -0.9% under the average cost
+## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [stop_loss @ $516.03] -> $2292.66 (-0.65%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $135.56] -> $2311.84 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
