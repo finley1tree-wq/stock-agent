@@ -14833,3 +14833,5 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week
   (dropped META: sold 13 min ago, cooling off)
   (dropped META: sold 14 min ago, cooling off)
   (dropped META: sold 14 min ago, cooling off)
+  (dropped META: sold 15 min ago, cooling off)
+  (dropped META: sold 16 min ago, cooling off)
