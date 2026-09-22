@@ -1,17 +1,3 @@
-  (dropped trigger AMD stop_loss: not held)
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger AVGO stop_loss: not held)
-  (dropped trigger UNH stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger CCJ stop_loss: not held)
-~ WORKING stop_loss 100% MSFT @ $483.00 until 2026-09-22 — Protective stop below entry
-~ WORKING take_profit 100% MSFT @ $496.70 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 MSFT @ $480.68 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AAPL @ $340.80 until 2026-09-23 — strong month, weak day: resting 0.43% under $342.29 to catch the dip
-portfolio: equity $32804.16 (+31.22% on $25000.00 in) · cash $28807.15 · realised +7807.15
-Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $20944.39 this week
-
 ## 2026-09-22 12:42 ET (Tuesday) — week 2026-W39 — budget left $20944.39 (today $111057.42 put to work, 47 buys, 44 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
@@ -398,3 +384,17 @@ Decision: nothing at this check. 27 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% CCJ [time stop] -> $3965.61 (+0.14%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 15:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 15:55 ET (Tuesday) — week 2026-W39 — budget left $24967.29 (today $163661.34 put to work, 70 buys, 67 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain: Market closes in 5 minutes (15:55, close 16:00) and checks_left_today is 0 - this is the final check of the day. no_new_entries_this_check is true, so new buys would be dropped anyway. Positions_held is 0, so there's nothing to protect with stops or sells. With no time left for a position to do anything before the hard close, sitting out this last 5-minute window is the only sensible action.
+lesson: When checks_left_today is 0 and only minutes remain to market close, do not force new entries even if below min_positions - there's no time for a round trip and no_new_entries flag confirms it.
+portfolio: equity $32830.06 (+31.32% on $25000.00 in) · cash $32830.06 · realised +7830.06
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

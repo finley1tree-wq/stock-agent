@@ -14887,3 +14887,4 @@ lesson: When checks_left_today is 0 and only minutes remain to market close, do 
 portfolio: equity $32830.06 (+31.32% on $25000.00 in) · cash $32830.06 · realised +7830.06
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-22 16:00 ET — published the session's closing state
