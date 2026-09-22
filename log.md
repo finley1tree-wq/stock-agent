@@ -14554,3 +14554,9 @@ Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $8566.85 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $745.78] -> $3514.25 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-09-22 13:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMZN [time stop] -> $2496.84 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $2483.92 (-0.64%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $879.96 (-0.09%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NOC [time stop] -> $2489.26 (-0.43%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% RTX [time stop] -> $2493.14 (-0.27%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 13:12 ET — tick — 5 sell(s), 0 buy(s) from standing orders
