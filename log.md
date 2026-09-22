@@ -14368,3 +14368,5 @@ Decision: nothing at this check. 23 standing order(s) working.
   (cancelled 2 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [stop_loss @ $255.69] -> $2200.59 (+0.03%) — close it all at -0.6% under the average cost
 ## 2026-09-22 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% MSFT [time stop] -> $998.68 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 11:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

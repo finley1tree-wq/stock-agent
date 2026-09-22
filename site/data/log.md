@@ -2,8 +2,6 @@
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% NOC [time stop] -> $2492.63 (-0.29%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% RTX [time stop] -> $4432.24 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% UNH [time stop] -> $1998.03 (-0.10%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +396,5 @@ Decision: nothing at this check. 23 standing order(s) working.
   (cancelled 2 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [stop_loss @ $255.69] -> $2200.59 (+0.03%) — close it all at -0.6% under the average cost
 ## 2026-09-22 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% MSFT [time stop] -> $998.68 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 11:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
