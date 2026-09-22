@@ -1,5 +1,3 @@
-  (dropped AMD: sold 13 min ago, cooling off)
-  (dropped NVDA: sold 44 min ago, cooling off)
   (dropped AVGO: sold 44 min ago, cooling off)
   (dropped UNH: sold 44 min ago, cooling off)
   (dropped TSM: sold 13 min ago, cooling off)
@@ -386,6 +384,8 @@ lesson: In the final 30-minute window before close, new market buys have almost 
 portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
 Decision: nothing at this check. 27 standing order(s) working.
   (cancelled 25 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
