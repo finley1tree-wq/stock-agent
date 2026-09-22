@@ -14174,3 +14174,5 @@ Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16880.56 this week
 ## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 CHRW [buy_limit @ $152.43] — strong month, weak day: resting 0.48% under $153.17 to catch the dip
 ## 2026-09-22 10:17 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% GLD [time stop] -> $2304.39 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders

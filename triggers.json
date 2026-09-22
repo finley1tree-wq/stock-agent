@@ -1,45 +1,6 @@
 {
  "orders": [
   {
-   "id": "6f013a49",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 130.8718,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998218,
-   "why": "strong month, weak day: resting 0.69% under $131.78 to catch the dip",
-   "evidence": "+2.9% over the month, sitting at 0% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 1000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "151ee42b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 239.6939,
-   "status": "cancelled",
-   "created": "2026-09-21 09:59",
-   "created_ts": 1789999185,
-   "why": "wanted it, but not at the high \u2014 resting at $239.69. Strong momentum with congressional buying overlap, though at 98% of day range so sizing modestly rather than chasing full size",
-   "evidence": "CRWD +3.77% today, +29.56% 1m; Rep. Gilbert Ray Cisneros disclosed buys 09-10 and 09-04",
-   "signals": [
-    "momentum",
-    "congress",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "35b1df23",
    "ticker": "TTD",
    "kind": "stop_loss",
@@ -7114,7 +7075,7 @@
    "ticker": "GLD",
    "kind": "take_profit",
    "price": 398.3313,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "close 100% at +0.2% over the average cost",
@@ -7124,14 +7085,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:24",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "337a96ee",
    "ticker": "GLD",
    "kind": "stop_loss",
    "price": 395.6279,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "close it all at -0.5% under the average cost",
@@ -7141,14 +7104,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:24",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "302ce751",
    "ticker": "GLD",
    "kind": "buy_limit",
    "price": 385.6332,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7158,7 +7123,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 10:24",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0808b3bc",
@@ -7495,7 +7462,7 @@
    "ticker": "CHRW",
    "kind": "take_profit",
    "price": 152.8278,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:17",
    "created_ts": 1790086643,
    "why": "close 100% at +0.3% over the average cost",
@@ -7505,7 +7472,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:24",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "66b80875",
@@ -7540,7 +7509,43 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "e8930574",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 160.0515,
+   "status": "cancelled",
+   "created": "2026-09-22 10:24",
+   "created_ts": 1790087064,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $152.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:25",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "d444c8f6",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 152.8309,
+   "status": "working",
+   "created": "2026-09-22 10:25",
+   "created_ts": 1790087110,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $152.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 10:17"
+ "updated": "2026-09-22 10:25"
 }
