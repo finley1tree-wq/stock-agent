@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "457b8762",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 526.6834,
-   "status": "cancelled",
-   "created": "2026-09-21 15:25",
-   "created_ts": 1790018726,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $525.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 15:52",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "e157dc17",
    "ticker": "NOC",
    "kind": "buy_limit",
@@ -2510,7 +2491,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 737.9695,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
@@ -2521,7 +2502,9 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 3500.0
+   "usd": 3500.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "2ce7470c",
@@ -2842,7 +2825,7 @@
    "ticker": "BRK-B",
    "kind": "buy_limit",
    "price": 501.3056,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
@@ -2852,14 +2835,16 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "ed4babdf",
    "ticker": "BRK-A",
    "kind": "buy_limit",
    "price": 750249.2478,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
@@ -2869,7 +2854,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "59fa4efe",
@@ -3100,7 +3087,7 @@
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 772.4819,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:48",
    "created_ts": 1790084900,
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
@@ -3110,7 +3097,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "47d5d1bc",
@@ -3229,7 +3218,7 @@
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 460.5895,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
@@ -3240,7 +3229,9 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 1846.15
+   "usd": 1846.15,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "fc3ce88d",
@@ -4338,7 +4329,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 245.1322,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:42",
    "created_ts": 1790088153,
    "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
@@ -4348,7 +4339,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "c136c6c6",
@@ -4838,7 +4831,7 @@
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 128.1692,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "strong month, weak day: resting 0.72% under $129.10 to catch the dip",
@@ -4848,7 +4841,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "90b28d7b",
@@ -6220,7 +6215,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 228.205,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 12:58",
    "created_ts": 1790096287,
    "why": "wanted it, but not at the high \u2014 resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap",
@@ -6231,7 +6226,9 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "c1a379ba",
@@ -6312,7 +6309,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 445.2645,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:14",
    "created_ts": 1790097249,
    "why": "wanted it, but not at the high \u2014 resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave",
@@ -6323,14 +6320,16 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "ff07d6e0",
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 462.7015,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:14",
    "created_ts": 1790097249,
    "why": "wanted it, but not at the high \u2014 resting at $462.70. Congress buy pressure plus semiconductor equipment momentum",
@@ -6342,14 +6341,16 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "e8705841",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 228.414,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:14",
    "created_ts": 1790097249,
    "why": "wanted it, but not at the high \u2014 resting at $228.41. Core AI momentum name, widely_held sector strongest performer",
@@ -6360,14 +6361,16 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d7a6a1e7",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 93.7625,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:14",
    "created_ts": 1790097249,
    "why": "wanted it, but not at the high \u2014 resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst",
@@ -6378,7 +6381,9 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "5aa636b4",
@@ -6904,7 +6909,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 445.6,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:06",
    "created_ts": 1790100419,
    "why": "wanted it, but not at the high \u2014 resting at $445.60. Strong semiconductor capex story, momentum intact",
@@ -6915,7 +6920,9 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 2484.48
+   "usd": 2484.48,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "4b6909e9",
@@ -7204,7 +7211,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 614.9406,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:37",
    "created_ts": 1790102272,
    "why": "wanted it, but not at the high \u2014 resting at $614.94. strongest momentum name in AI chip rally, widely_held sector has best avg_ret 4.86%",
@@ -7215,14 +7222,16 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 3500.0
+   "usd": 3500.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "d65fe6e6",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 362.359,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:37",
    "created_ts": 1790102272,
    "why": "wanted it, but not at the high \u2014 resting at $362.36. broadcom riding AI capex theme with strong week momentum",
@@ -7233,14 +7242,16 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "4deb691c",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 446.084,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:37",
    "created_ts": 1790102272,
    "why": "wanted it, but not at the high \u2014 resting at $446.08. chip supply chain leader, strong capex news catalyst",
@@ -7251,14 +7262,16 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "e9e16ef9",
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 463.5045,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:37",
    "created_ts": 1790102272,
    "why": "wanted it, but not at the high \u2014 resting at $463.50. congress buy pressure plus semiconductor equipment momentum",
@@ -7269,7 +7282,9 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "76de772a",
@@ -7330,7 +7345,7 @@
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 362.5295,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:09",
    "created_ts": 1790104153,
    "why": "wanted it, but not at the high \u2014 resting at $362.53. AI capex momentum leader, widely_held sector, buying now given last check of day",
@@ -7341,14 +7356,16 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 4200.0
+   "usd": 4200.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "b4719002",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 446.975,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:09",
    "created_ts": 1790104153,
    "why": "wanted it, but not at the high \u2014 resting at $446.98. Chip supply chain leader with strong momentum and capex catalyst news, widely_held sector",
@@ -7359,7 +7376,9 @@
     "patience"
    ],
    "good_until": "2026-09-22",
-   "usd": 4200.0
+   "usd": 4200.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "b5bdba27",
@@ -7383,7 +7402,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 91.8687,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:09",
    "created_ts": 1790104153,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7393,14 +7412,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "6780fdbe",
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 338.7246,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:09",
    "created_ts": 1790104153,
    "why": "strong month, weak day: resting 0.44% under $340.21 to catch the dip",
@@ -7410,14 +7431,16 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "3da0659c",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 148.2514,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:09",
    "created_ts": 1790104153,
    "why": "strong month, weak day: resting 0.54% under $149.06 to catch the dip",
@@ -7427,14 +7450,16 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "e0d3c8f5",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 496.5628,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:25",
    "created_ts": 1790105126,
    "why": "strong month, weak day: resting 0.43% under $498.73 to catch the dip",
@@ -7444,14 +7469,16 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "389654e7",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 351.3219,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:25",
    "created_ts": 1790105126,
    "why": "strong month, weak day: resting 0.51% under $353.12 to catch the dip",
@@ -7461,14 +7488,16 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "a8676e6d",
    "ticker": "TTD",
    "kind": "buy_limit",
    "price": 13.0625,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:25",
    "created_ts": 1790105126,
    "why": "strong month, weak day: resting 1.04% under $13.20 to catch the dip",
@@ -7478,8 +7507,27 @@
     "dip_entry"
    ],
    "good_until": "2026-09-23",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-22 15:28",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "854b2edf",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 91.8687,
+   "status": "working",
+   "created": "2026-09-22 15:28",
+   "created_ts": 1790105292,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $94.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-22 15:25"
+ "updated": "2026-09-22 15:28"
 }

@@ -1,4 +1,3 @@
-## 2026-09-22 12:14 ET — tick — 7 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 CHRW [buy_limit @ $151.41] — strong month, weak day: resting 0.50% under $152.17 to catch the dip
 ## 2026-09-22 12:19 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 
@@ -398,3 +397,4 @@ lesson: In the final 30-minute window before close, new market buys have almost 
 ~ WORKING buy_limit $1000.00 TTD @ $13.06 until 2026-09-23 — strong month, weak day: resting 1.04% under $13.20 to catch the dip
 portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
 Decision: nothing at this check. 27 standing order(s) working.
+  (cancelled 25 resting buy order(s): inside the last max_hold_minutes of the session)
