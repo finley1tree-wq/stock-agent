@@ -14056,3 +14056,21 @@ Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [stop_loss @ $13.66] -> $1001.61 (+0.16%) — close it all at -1.3% under the average cost
 ## 2026-09-22 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 09:48 ET (Tuesday) — week 2026-W39 — budget left $25000.00 (today $17469.76 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
+brain: placeholder
+lesson: placeholder
+  (dropped AMD: sold 13 min ago, cooling off)
+  (dropped GOOGL: sold 13 min ago, cooling off)
+~ WORKING buy_limit $1000.00 AAPL @ $340.02 until 2026-09-23 — strong month, weak day: resting 0.43% under $341.50 to catch the dip
+~ WORKING buy_limit $1000.00 CHRW @ $152.43 until 2026-09-23 — strong month, weak day: resting 0.48% under $153.17 to catch the dip
+~ WORKING buy_limit $1000.00 NVDA @ $226.31 until 2026-09-23 — strong month, weak day: resting 0.54% under $227.53 to catch the dip
+~ WORKING buy_limit $1000.00 SPY @ $772.48 until 2026-09-23 — strong month, weak day: resting 0.20% under $774.03 to catch the dip
+portfolio: equity $32831.37 (+31.33% on $25000.00 in) · cash $32831.37 · realised +7831.37
+Decision: nothing at this check. 9 standing order(s) working.
