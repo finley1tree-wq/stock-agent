@@ -14560,3 +14560,37 @@ Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $8566.85 this week
 - SELL 100% NOC [time stop] -> $2489.26 (-0.43%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% RTX [time stop] -> $2493.14 (-0.27%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 13:12 ET — tick — 5 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 13:14 ET (Tuesday) — week 2026-W39 — budget left $22924.22 (today $127438.18 put to work, 54 buys, 52 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 1 position held with 91.7% cash idle - a clear signal to act per repeated lessons. Deploying into 6 new names across widely_held (best-performing sector at 5.51% avg_ret) and nuclear (85% hit rate), each backed by concrete headlines/momentum/congress evidence, sized $2.5-3.5k to reach min_positions in one move while respecting cooldowns (AMD/GOOGL clear, others fresh).
+lesson: With below_target_position_count and high idle cash, deploy sized buys across multiple names in the best-performing sectors immediately rather than waiting on resting limits that keep expiring unfilled.
+  (dropped META: sold 6 min ago, cooling off)
+  (dropped TSM: 96% up today's range — resting a limit at $445.26 instead of chasing)
+  (dropped AMAT: 93% up today's range — resting a limit at $462.70 instead of chasing)
+  (dropped NVDA: 93% up today's range — resting a limit at $228.41 instead of chasing)
+  (dropped CCJ: 88% up today's range — resting a limit at $93.76 instead of chasing)
+- BUY $3000.00 AMD [filled] ['momentum', 'news'] — Widely_held sector has 5.51% avg_ret in track record, strongest momentum name, cooling off expired | evidence: AMD joined $1T market cap club, +22.4% 5d, +30.4% 1m, Nasdaq surged 2% to record on chip rally
+- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Mag7 rotation into AI theme, widely_held sector | evidence: Meta's Muse AI driving Mag7 rally, GOOGL part of 'Magnificent 7 are back' theme per Yahoo Finance headline
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% AMD @ $601.00 until 2026-09-22 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% GOOGL @ $342.00 until 2026-09-22 — protective stop ~2.5% below entry
+~ WORKING buy_limit $3000.00 TSM @ $445.26 until 2026-09-22 — wanted it, but not at the high — resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave
+~ WORKING buy_limit $2500.00 AMAT @ $462.70 until 2026-09-22 — wanted it, but not at the high — resting at $462.70. Congress buy pressure plus semiconductor equipment momentum
+~ WORKING buy_limit $2500.00 NVDA @ $228.41 until 2026-09-22 — wanted it, but not at the high — resting at $228.41. Core AI momentum name, widely_held sector strongest performer
+~ WORKING buy_limit $1500.00 CCJ @ $93.76 until 2026-09-22 — wanted it, but not at the high — resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst
+~ WORKING take_profit 100% AMD @ $620.09 until 2026-09-27 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $598.76 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $351.95 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $340.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32790.66 (+31.16% on $25000.00 in) · cash $25286.98 · realised +7786.98
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $17424.22 this week

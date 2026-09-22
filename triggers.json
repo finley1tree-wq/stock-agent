@@ -1,192 +1,6 @@
 {
  "orders": [
   {
-   "id": "1b33c834",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 497.5472,
-   "status": "filled",
-   "created": "2026-09-21 13:06",
-   "created_ts": 1790010393,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $496.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:17"
-  },
-  {
-   "id": "250e011e",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 493.7444,
-   "status": "cancelled",
-   "created": "2026-09-21 13:06",
-   "created_ts": 1790010393,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $496.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:15",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "0dde2114",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 481.5662,
-   "status": "cancelled",
-   "created": "2026-09-21 13:06",
-   "created_ts": 1790010393,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $496.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 13:17",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "00fc9f13",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 535.3181,
-   "status": "cancelled",
-   "created": "2026-09-21 13:08",
-   "created_ts": 1790010502,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $533.85",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:21",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c8272d6d",
-   "ticker": "LMT",
-   "kind": "stop_loss",
-   "price": 530.1771,
-   "status": "cancelled",
-   "created": "2026-09-21 13:08",
-   "created_ts": 1790010502,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $533.85",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:19",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c129b2dd",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 517.8345,
-   "status": "cancelled",
-   "created": "2026-09-21 13:08",
-   "created_ts": 1790010502,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $533.85",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 13:21",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "96f1d1e6",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 496.964,
-   "status": "cancelled",
-   "created": "2026-09-21 13:15",
-   "created_ts": 1790010953,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $496.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:17",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d0e915f4",
-   "ticker": "LMT",
-   "kind": "stop_loss",
-   "price": 534.348,
-   "status": "filled",
-   "created": "2026-09-21 13:19",
-   "created_ts": 1790011161,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $533.85",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:21"
-  },
-  {
-   "id": "fe548848",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 349.5,
-   "status": "cancelled",
-   "created": "2026-09-21 13:22",
-   "created_ts": 1790011373,
-   "why": "Protective stop near today's low",
-   "evidence": "ATR 2.28%, day low 349.1",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d789cb15",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 353.5,
-   "status": "cancelled",
-   "created": "2026-09-21 13:22",
-   "created_ts": 1790011373,
-   "why": "Protective stop at today's low",
-   "evidence": "ATR 3.1%, day low 353.5",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:50",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "893bd95d",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7515,7 +7329,180 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "472f1367",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 601.0,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "protective stop ~2.5% below entry",
+   "evidence": "ATR 4.1%, day_low 606.31",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f9471f7b",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 342.0,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "protective stop ~2.5% below entry",
+   "evidence": "ATR 2.5%, day_low 350.22",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "61f73ff1",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 445.2645,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "wanted it, but not at the high \u2014 resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave",
+   "evidence": "TSM 96.1% of day range, +8.35% 5d, TSMC capex up 42% QoQ per TIKR headline",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 3000.0
+  },
+  {
+   "id": "ff07d6e0",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 462.7015,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "wanted it, but not at the high \u2014 resting at $462.70. Congress buy pressure plus semiconductor equipment momentum",
+   "evidence": "Rep. Josh Gottheimer disclosed AMAT buy 2026-09-14; Michael Burry memory stocks thesis note; AMAT 93.4% of day range +11.39% 5d",
+   "signals": [
+    "congress",
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 2500.0
+  },
+  {
+   "id": "e8705841",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 228.414,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "wanted it, but not at the high \u2014 resting at $228.41. Core AI momentum name, widely_held sector strongest performer",
+   "evidence": "NVDA 93.1% of day range, +8.28% 5d, +7% 1m; 'AI Fears Reaching Fever Pitch But Not Slowing Nvidia Accumulation' headline",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 2500.0
+  },
+  {
+   "id": "d7a6a1e7",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 93.7625,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "wanted it, but not at the high \u2014 resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst",
+   "evidence": "CCJ +1.53% today, 87.6% of day range; Westinghouse IPO could value at $50B with Cameco stake worth $24.5B per Motley Fool",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 1500.0
+  },
+  {
+   "id": "5aa636b4",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 620.0886,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $617.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f8b5f553",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 598.7616,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $617.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0
+  },
+  {
+   "id": "168c009d",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 351.9482,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $350.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8e0ebe8b",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 340.4603,
+   "status": "working",
+   "created": "2026-09-22 13:14",
+   "created_ts": 1790097249,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $350.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-22 13:08"
+ "updated": "2026-09-22 13:14"
 }

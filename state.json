@@ -1,17 +1,17 @@
 {
   "week": "2026-W39",
-  "spent": 2075.78,
-  "deployed": 248772.95,
+  "spent": 7575.78,
+  "deployed": 254272.95,
   "by_ticker": {
     "NOC": 37.2,
     "IBM": 31.13,
     "GLD": 4.3,
-    "AMD": 27.06,
+    "AMD": 3027.06,
     "PLTR": 15.16,
     "MSFT": 12.08,
     "HLI": 9.7,
     "CHRW": 8.57,
-    "GOOGL": 52.99,
+    "GOOGL": 2552.99,
     "NVDA": 3.51,
     "UNH": 2.03,
     "CCJ": 2.78,
@@ -21,7 +21,7 @@
     "AVGO": 2000.0
   },
   "deployed_by_ticker": {
-    "AMD": 26200.0,
+    "AMD": 29200.0,
     "AMAT": 5975.0,
     "NVDA": 9407.69,
     "CHRW": 3000.0,
@@ -38,7 +38,7 @@
     "UNH": 13488.45,
     "IBM": 11755.97,
     "PLD": 5891.02,
-    "GOOGL": 19913.79,
+    "GOOGL": 22413.79,
     "META": 8500.0,
     "GLD": 4307.69,
     "AAPL": 3500.0,
@@ -4208,12 +4208,46 @@
       ],
       "evidence": "bought 30 min ago, -0.23% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.860004,
+      "price": 617.28,
+      "date": "2026-09-22",
+      "time_et": "13:14",
+      "ts": 1790097249,
+      "why": "Widely_held sector has 5.51% avg_ret in track record, strongest momentum name, cooling off expired",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AMD joined $1T market cap club, +22.4% 5d, +30.4% 1m, Nasdaq surged 2% to record on chip rally"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.122706,
+      "price": 350.99,
+      "date": "2026-09-22",
+      "time_et": "13:14",
+      "ts": 1790097249,
+      "why": "Mag7 rotation into AI theme, widely_held sector",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "Meta's Muse AI driving Mag7 rally, GOOGL part of 'Magnificent 7 are back' theme per Yahoo Finance headline"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 2075.78,
-  "deployed_today": 127438.18,
-  "orders_today": 54,
+  "spent_today": 7575.78,
+  "deployed_today": 132938.18,
+  "orders_today": 56,
   "sells_today": 52,
   "sold_today": [
     "AMD",
@@ -4274,25 +4308,35 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790097158,
-  "last_check_ts": 1790097158,
+  "last_publish_ts": 1790097249,
+  "last_check_ts": 1790097249,
   "last_bar_ts": 1790097000,
-  "last_decision_ts": 1790096287,
+  "last_decision_ts": 1790097249,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "ce8f3880": 772.4819,
     "c1a379ba": 364.5344,
+    "ce8f3880": 772.4819,
+    "168c009d": 351.9482,
     "19553243": 340.8048,
-    "c136c6c6": 13.1848,
+    "5aa636b4": 620.0886,
+    "e8705841": 228.414,
     "8a885c67": 228.205,
-    "2bf19c12": 501.3056,
+    "61f73ff1": 445.2645,
+    "c136c6c6": 13.1848,
+    "d7a6a1e7": 93.7625,
     "a146788c": 737.9695,
-    "ed4babdf": 750249.2478,
+    "ff07d6e0": 462.7015,
     "da7eddf2": 245.1322,
     "5592886c": 460.5895,
+    "f9471f7b": 342.0,
+    "472f1367": 601.0,
     "06fa679b": 128.1692,
     "5980fab5": 354.0,
-    "7b2d5a18": 352.4107
+    "f8b5f553": 598.7616,
+    "8e0ebe8b": 340.4603,
+    "7b2d5a18": 352.4107,
+    "2bf19c12": 501.3056,
+    "ed4babdf": 750249.2478
   }
 }

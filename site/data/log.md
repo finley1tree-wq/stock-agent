@@ -1,37 +1,3 @@
-  (dropped trigger CCJ stop_loss: not held)
-~ WORKING stop_loss 100% META @ $730.00 until 2026-09-22 — cap downside on new META position
-~ WORKING take_profit 100% META @ $753.00 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 META @ $727.48 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32819.89 (+31.28% on $25000.00 in) · cash $24711.92 · realised +7827.30
-Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16880.56 this week
-  (cancelled 2 standing order(s) on META: position closed)
-- SELL 100% META [take_profit @ $753.00] -> $2510.08 (+0.40%) — close 100% at +0.4% over the average cost
-## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on NVDA: position closed)
-- SELL 100% NVDA [take_profit @ $228.31] -> $2314.36 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $1000.00 CHRW [buy_limit @ $152.43] — strong month, weak day: resting 0.48% under $153.17 to catch the dip
-## 2026-09-22 10:17 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% GLD [time stop] -> $2304.39 (-0.14%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-22 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-22 10:26 ET (Tuesday) — week 2026-W39 — budget left $23009.39 (today $40123.59 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
-brain: Only 2 positions held, 92% cash idle, well below min_positions of 8. Cooldowns on AMD/NVDA/GOOGL/TSM/CCJ will have expired by execution time (checked minutes_left vs run interval). Deploying $17.5k across 6 evidence-backed momentum/news names (widely_held sector shows best track record avg_ret_pct 7.23%) to close the position gap immediately per repeated lesson that market buys beat resting limits when idle cash is high.
-lesson: When cooldowns are near expiry (under ~35min) and next check is 15-30min out, it's fine to queue buys on those names since they'll clear by fill time - track whether this assumption holds.
-  (dropped NVDA: sold 11 min ago, cooling off)
-- BUY $3000.00 AMD [filled] ['momentum', 'news', 'track_record'] — Strong sustained AI rally momentum, widely_held sector shows best avg_ret_pct 7.23% in track record | evidence: AMD stock soars to new record, entered $1T club per Yahoo Finance 09-22; change_1m_pct +30.59%, cooldown from prior sell has expired-check timing
-- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Momentum plus mag-7 AI rally headline, widely_held sector historically strongest bucket | evidence: GOOGL +1.88% today, +4.83% 5d; headline 'Magnificent 7 are back: Meta's AI bet leads the charge' 09-22
-- BUY $3000.00 TSM [filled] ['momentum', 'news'] — AI chip supply chain strength, momentum plus concrete capex evidence | evidence: TSM +7.81% 5d, TSMC spent $15.59B capex in single quarter per TIKR 09-22
-- BUY $2500.00 CCJ [filled] ['momentum', 'news'] — Nuclear theme with concrete IPO valuation catalyst tied directly to CCJ's stake | evidence: Westinghouse could IPO at $50B valuation, Cameco stake worth $24.5B per Motley Fool 09-21
-- BUY $2500.00 PLTR [filled] ['momentum', 'news'] — Momentum plus expanding enterprise use-case headline | evidence: PLTR +6.06% 5d; 'Chipotle has 4,186 restaurants, Palantir is helping score the risk' TheStreet 09-22
-  (dropped trigger AMD: malformed or out of range)
-  (dropped trigger NVDA: malformed or out of range)
   (dropped trigger TSM: malformed or out of range)
   (dropped trigger GOOGL: malformed or out of range)
   (dropped trigger CCJ: malformed or out of range)
@@ -398,3 +364,37 @@ Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $8566.85 this week
 - SELL 100% NOC [time stop] -> $2489.26 (-0.43%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% RTX [time stop] -> $2493.14 (-0.27%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 13:12 ET — tick — 5 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 13:14 ET (Tuesday) — week 2026-W39 — budget left $22924.22 (today $127438.18 put to work, 54 buys, 52 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 1 position held with 91.7% cash idle - a clear signal to act per repeated lessons. Deploying into 6 new names across widely_held (best-performing sector at 5.51% avg_ret) and nuclear (85% hit rate), each backed by concrete headlines/momentum/congress evidence, sized $2.5-3.5k to reach min_positions in one move while respecting cooldowns (AMD/GOOGL clear, others fresh).
+lesson: With below_target_position_count and high idle cash, deploy sized buys across multiple names in the best-performing sectors immediately rather than waiting on resting limits that keep expiring unfilled.
+  (dropped META: sold 6 min ago, cooling off)
+  (dropped TSM: 96% up today's range — resting a limit at $445.26 instead of chasing)
+  (dropped AMAT: 93% up today's range — resting a limit at $462.70 instead of chasing)
+  (dropped NVDA: 93% up today's range — resting a limit at $228.41 instead of chasing)
+  (dropped CCJ: 88% up today's range — resting a limit at $93.76 instead of chasing)
+- BUY $3000.00 AMD [filled] ['momentum', 'news'] — Widely_held sector has 5.51% avg_ret in track record, strongest momentum name, cooling off expired | evidence: AMD joined $1T market cap club, +22.4% 5d, +30.4% 1m, Nasdaq surged 2% to record on chip rally
+- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Mag7 rotation into AI theme, widely_held sector | evidence: Meta's Muse AI driving Mag7 rally, GOOGL part of 'Magnificent 7 are back' theme per Yahoo Finance headline
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% AMD @ $601.00 until 2026-09-22 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% GOOGL @ $342.00 until 2026-09-22 — protective stop ~2.5% below entry
+~ WORKING buy_limit $3000.00 TSM @ $445.26 until 2026-09-22 — wanted it, but not at the high — resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave
+~ WORKING buy_limit $2500.00 AMAT @ $462.70 until 2026-09-22 — wanted it, but not at the high — resting at $462.70. Congress buy pressure plus semiconductor equipment momentum
+~ WORKING buy_limit $2500.00 NVDA @ $228.41 until 2026-09-22 — wanted it, but not at the high — resting at $228.41. Core AI momentum name, widely_held sector strongest performer
+~ WORKING buy_limit $1500.00 CCJ @ $93.76 until 2026-09-22 — wanted it, but not at the high — resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst
+~ WORKING take_profit 100% AMD @ $620.09 until 2026-09-27 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $598.76 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $351.95 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $340.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32790.66 (+31.16% on $25000.00 in) · cash $25286.98 · realised +7786.98
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $17424.22 this week
