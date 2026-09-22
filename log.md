@@ -14119,3 +14119,9 @@ lesson: Below min_positions with idle cash, deploy sized market buys across mult
 ~ WORKING buy_limit $500.00 PLD @ $131.25 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32818.47 (+31.27% on $25000.00 in) · cash $14677.54 · realised +7831.37
 Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $129.75] -> $990.30 (-0.97%) — close it all at -0.9% under the average cost
+## 2026-09-22 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $246.56] -> $1005.63 (+0.56%) — close 100% at +0.6% over the average cost
+## 2026-09-22 09:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

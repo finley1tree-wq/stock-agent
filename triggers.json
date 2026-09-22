@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "6b37fdd9",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 177.416,
-   "status": "cancelled",
-   "created": "2026-09-21 09:42",
-   "created_ts": 1789998170,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $177.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "24387893",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 492.512,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998216,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $492.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4e47ab16",
    "ticker": "OKLO",
    "kind": "take_profit",
@@ -7032,7 +6994,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 246.5628,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:50",
    "created_ts": 1790085036,
    "why": "close 100% at +0.6% over the average cost",
@@ -7042,14 +7004,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:56"
   },
   {
    "id": "9702a7c0",
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 241.723,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:50",
    "created_ts": 1790085036,
    "why": "close it all at -1.4% under the average cost",
@@ -7059,14 +7022,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:55",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "68cd62e3",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 237.8246,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:50",
    "created_ts": 1790085036,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7076,14 +7041,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 09:56",
+   "cancel_reason": "position closed"
   },
   {
    "id": "449836af",
    "ticker": "HLI",
    "kind": "take_profit",
    "price": 131.5022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:50",
    "created_ts": 1790085036,
    "why": "close 100% at +0.4% over the average cost",
@@ -7093,14 +7060,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:55",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c2053c21",
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 129.8159,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:50",
    "created_ts": 1790085036,
    "why": "close it all at -0.9% under the average cost",
@@ -7110,14 +7079,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:55"
   },
   {
    "id": "c9916c8a",
    "ticker": "HLI",
    "kind": "buy_limit",
    "price": 127.0894,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:50",
    "created_ts": 1790085036,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7127,7 +7097,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 09:55",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5592886c",
@@ -7220,7 +7192,7 @@
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 357.0887,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "close it all at -0.8% under the average cost",
@@ -7230,7 +7202,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:55",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c25fa8e8",
@@ -7503,7 +7477,43 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "c837559f",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 245.912,
+   "status": "cancelled",
+   "created": "2026-09-22 09:55",
+   "created_ts": 1790085320,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $245.18",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:56",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "1aa00ffa",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 360.786,
+   "status": "working",
+   "created": "2026-09-22 09:55",
+   "created_ts": 1790085320,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $360.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 09:54"
+ "updated": "2026-09-22 09:56"
 }
