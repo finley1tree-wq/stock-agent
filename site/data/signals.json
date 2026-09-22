@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-22T14:10-04:00",
+ "asOf": "2026-09-22T14:17-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 497.03,
-   "pct_away": 0.11,
+   "last": 496.93,
+   "pct_away": 0.13,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,8 +163,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 774.1,
-   "pct_away": -0.21,
+   "last": 774.02,
+   "pct_away": -0.2,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
    "signals": [
@@ -173,34 +173,17 @@
    ]
   },
   {
-   "id": "c136c6c6",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.1848,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 13.22,
-   "pct_away": -0.27,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "083756cb",
-   "ticker": "AMZN",
+   "id": "4b6909e9",
+   "ticker": "GOOGL",
    "kind": "take_profit",
-   "price": 256.1299,
+   "price": 354.1206,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 255.45,
-   "pct_away": 0.27,
+   "last": 353.23,
+   "pct_away": 0.25,
    "good_until": "2026-09-27",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 340.97,
-   "pct_away": 0.29,
+   "last": 341.11,
+   "pct_away": 0.25,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -231,10 +214,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 231.6,
-   "pct_away": 0.3,
+   "last": 231.64,
+   "pct_away": 0.28,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "083756cb",
+   "ticker": "AMZN",
+   "kind": "take_profit",
+   "price": 256.1299,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 255.35,
+   "pct_away": 0.31,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,45 +248,10 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.17,
-   "pct_away": -0.33,
+   "last": 229.29,
+   "pct_away": -0.38,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $228.41. Core AI momentum name, widely_held sector strongest performer",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "4b6909e9",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 354.1206,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 352.97,
-   "pct_away": 0.33,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8a885c67",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 228.205,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 229.17,
-   "pct_away": -0.42,
-   "good_until": "2026-09-22",
-   "why": "wanted it, but not at the high \u2014 resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap",
    "signals": [
     "momentum",
     "news",
@@ -301,13 +266,31 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 503.58,
-   "pct_away": -0.45,
+   "last": 503.67,
+   "pct_away": -0.47,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "8a885c67",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 228.205,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 229.29,
+   "pct_away": -0.47,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
    ]
   },
   {
@@ -318,10 +301,44 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 497.03,
-   "pct_away": -0.51,
+   "last": 496.93,
+   "pct_away": -0.49,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.44% under $496.64 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "d72f0f35",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 13.2531,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.18,
+   "pct_away": 0.55,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ed4babdf",
+   "ticker": "BRK-A",
+   "kind": "buy_limit",
+   "price": 750249.2478,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 755700.0,
+   "pct_away": -0.72,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -335,31 +352,14 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 743.07,
-   "pct_away": -0.69,
+   "last": 743.7,
+   "pct_away": -0.77,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
    "signals": [
     "news",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "ed4babdf",
-   "ticker": "BRK-A",
-   "kind": "buy_limit",
-   "price": 750249.2478,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 756145.69,
-   "pct_away": -0.78,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -370,8 +370,8 @@
    "usd": 2484.48,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 449.85,
-   "pct_away": -0.94,
+   "last": 449.64,
+   "pct_away": -0.9,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $445.60. Strong semiconductor capex story, momentum intact",
    "signals": [
@@ -388,8 +388,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 449.85,
-   "pct_away": -1.02,
+   "last": 449.64,
+   "pct_away": -0.97,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave",
    "signals": [
@@ -406,14 +406,31 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 95.17,
-   "pct_away": -1.48,
+   "last": 94.87,
+   "pct_away": -1.17,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "c99e0ae5",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 12.9969,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.18,
+   "pct_away": -1.39,
+   "good_until": "2026-09-27",
+   "why": "close it all at -1.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -424,8 +441,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 471.33,
-   "pct_away": -1.83,
+   "last": 469.83,
+   "pct_away": -1.52,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $462.70. Congress buy pressure plus semiconductor equipment momentum",
    "signals": [
@@ -436,20 +453,21 @@
    ]
   },
   {
-   "id": "da7eddf2",
-   "ticker": "CRWD",
+   "id": "5592886c",
+   "ticker": "AMAT",
    "kind": "buy_limit",
-   "price": 245.1322,
-   "usd": 1000.0,
+   "price": 460.5895,
+   "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.72,
-   "pct_away": -1.84,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
+   "last": 469.83,
+   "pct_away": -1.97,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
    "signals": [
-    "momentum",
-    "dip_entry"
+    "congress",
+    "news",
+    "patience"
    ]
   },
   {
@@ -460,12 +478,29 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 231.6,
-   "pct_away": -1.99,
+   "last": 231.64,
+   "pct_away": -2.0,
    "good_until": "2026-09-22",
    "why": "Protective stop on new IBM position",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "da7eddf2",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 245.1322,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 250.2,
+   "pct_away": -2.03,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -476,8 +511,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 352.97,
-   "pct_away": -2.12,
+   "last": 353.23,
+   "pct_away": -2.19,
    "good_until": "2026-09-22",
    "why": "Protective stop on new GOOGL position",
    "signals": [
@@ -492,30 +527,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 497.03,
-   "pct_away": -2.22,
+   "last": 496.93,
+   "pct_away": -2.2,
    "good_until": "2026-09-22",
    "why": "Protective stop on new MSFT position",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "5592886c",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 460.5895,
-   "usd": 1846.15,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 471.33,
-   "pct_away": -2.28,
-   "good_until": "2026-09-22",
-   "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
    ]
   },
   {
@@ -526,8 +543,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 255.45,
-   "pct_away": -2.33,
+   "last": 255.35,
+   "pct_away": -2.29,
    "good_until": "2026-09-22",
    "why": "Protective stop on new AMZN position",
    "signals": [
@@ -542,12 +559,46 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 340.97,
-   "pct_away": -2.34,
+   "last": 341.11,
+   "pct_away": -2.38,
    "good_until": "2026-09-22",
    "why": "protect new AAPL position",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "06fa679b",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 128.1692,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 131.8,
+   "pct_away": -2.75,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.72% under $129.10 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "3e367fba",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 247.8932,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 255.35,
+   "pct_away": -2.92,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -558,8 +609,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.97,
-   "pct_away": -2.94,
+   "last": 341.11,
+   "pct_away": -2.98,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7dc46f0f",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 12.7846,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 13.18,
+   "pct_away": -3.0,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -575,47 +643,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 352.97,
-   "pct_away": -2.95,
+   "last": 353.23,
+   "pct_away": -3.02,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "3e367fba",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 247.8932,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 255.45,
-   "pct_away": -2.96,
-   "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "06fa679b",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 128.1692,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 132.19,
-   "pct_away": -3.04,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.72% under $129.10 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -626,8 +660,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 231.6,
-   "pct_away": -3.06,
+   "last": 231.64,
+   "pct_away": -3.08,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -643,8 +677,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 497.03,
-   "pct_away": -3.12,
+   "last": 496.93,
+   "pct_away": -3.1,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

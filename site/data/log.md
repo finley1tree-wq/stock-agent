@@ -1,5 +1,3 @@
-~ WORKING take_profit 100% AMZN @ $256.19 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% AMZN @ $254.19 until 2026-09-27 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 AMZN @ $247.95 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AVGO @ $363.95 until 2026-09-27 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 AVGO @ $351.85 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +396,5 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [stop_loss @ $150.19] -> $1000.35 (+0.03%) — close it all at -0.7% under the average cost
 ## 2026-09-22 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 TTD [buy_limit @ $13.18] — strong month, weak day: resting 1.01% under $13.32 to catch the dip
+## 2026-09-22 14:17 ET — tick — 0 sell(s), 1 buy(s) from standing orders
