@@ -62,3 +62,4 @@
 - 2026-09-22 (4d graded, realised 0.6% per dollar): Past lessons and track record confirm: at flat/idle-cash starts, immediate sized ($3k+) market buys across 8 evidence-backed names outperform resting limits that repeatedly expire unfilled.
 - 2026-09-22 (4d graded, realised 0.59% per dollar): placeholder
 - 2026-09-22 (4d graded, realised 0.59% per dollar): Cooldown timers matter: check cooling_off_minutes_left before proposing buys on recently-sold names, and prefer sizing $2.5k across evidence-backed non-cooldown names to close the min_positions gap in one check rather than spreading too thin.
+- 2026-09-22 (4d graded, realised 0.58% per dollar): When cooldowns are near expiry (under ~35min) and next check is 15-30min out, it's fine to queue buys on those names since they'll clear by fill time - track whether this assumption holds.
