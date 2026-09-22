@@ -1,24 +1,3 @@
-~ WORKING buy_limit $1000.00 BRK-B @ $501.31 until 2026-09-23 — strong month, weak day: resting 0.25% under $502.58 to catch the dip
-~ WORKING buy_limit $1000.00 BRK-A @ $750249.25 until 2026-09-23 — strong month, weak day: resting 0.26% under $752180.00 to catch the dip
-portfolio: equity $32797.39 (+31.19% on $25000.00 in) · cash $17331.32 · realised +7801.08
-Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
-  (cancelled 2 standing order(s) on AMD: position closed)
-- SELL 100% AMD [take_profit @ $613.72] -> $3515.81 (+0.45%) — close 100% at +0.5% over the average cost
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [stop_loss @ $501.41] -> $2982.24 (-0.59%) — close it all at -0.5% under the average cost
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $359.04] -> $3007.34 (+0.24%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $444.60] -> $2976.96 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-22 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $92.79] -> $3011.86 (+0.40%) — close 100% at +0.4% over the average cost
-- BUY $1000.00 TTD [buy_limit @ $13.64] — strong month, weak day: resting 0.94% under $13.77 to catch the dip
-- BUY $1000.00 PLTR [buy_limit @ $182.79] — strong month, weak day: resting 0.79% under $184.24 to catch the dip
-## 2026-09-22 09:37 ET — tick — 1 sell(s), 2 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PLTR: position closed)
-- SELL 100% PLTR [take_profit @ $183.56] -> $1004.24 (+0.42%) — close 100% at +0.4% over the average cost
-## 2026-09-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [stop_loss @ $13.66] -> $1001.61 (+0.16%) — close it all at -1.3% under the average cost
 ## 2026-09-22 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +377,24 @@ lesson: With remaining_budget_usd near the min_order floor, sizing into an exist
 ~ WORKING buy_limit $500.00 IBP @ $203.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32824.93 (+31.30% on $25000.00 in) · cash $7928.94 · realised +7862.77
 Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $66.17 this week
+
+## 2026-09-22 12:10 ET (Tuesday) — week 2026-W39 — budget left $66.17 (today $107057.42 put to work, 45 buys, 37 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Book is already effectively full: 7 positions totaling ~$24,900 of the $25k weekly budget (full_deployment concentration mode active, max 6 names is a soft guide but 7 held is fine). Remaining_budget_usd is only $66.17 - below min_order_usd of $100, so any new buy order would be dropped by guardrails regardless. All 7 positions were just opened 26 minutes ago with full auto_bracket stop/take-profit/scale-in triggers already working (visible in working_orders: stop_loss, take_profit, trailing_stop, and add-on buy_limits for AMD, GOOGL, CCJ, TSM, PLTR, IBP, NEM). No fresh evidence has emerged since the last check to justify selling a young position early (min_hold_days=0 allows it, but nothing here shows a thesis broken - GOOGL/PLTR/CCJ are only fractionally red, well within ATR noise). Best move is to let the existing brackets work and check back soon in case a stop/take-profit fires or a dip-limit fills, freeing capital for redeployment.
+lesson: When remaining_budget_usd is below min_order_usd right after a full deployment sweep, there is nothing actionable to buy - just monitor existing brackets rather than force an order that guardrails will drop.
+portfolio: equity $32828.79 (+31.32% on $25000.00 in) · cash $7928.94 · realised +7862.77
+Decision: nothing at this check. 32 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMD [time stop] -> $4987.18 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $4460.07 (-0.89%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $3997.22 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2933.51 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $3491.00 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBP [time stop] -> $3008.42 (+0.28%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $2000.82 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 12:14 ET — tick — 7 sell(s), 0 buy(s) from standing orders

@@ -14445,3 +14445,11 @@ lesson: When remaining_budget_usd is below min_order_usd right after a full depl
 portfolio: equity $32828.79 (+31.32% on $25000.00 in) · cash $7928.94 · realised +7862.77
 Decision: nothing at this check. 32 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMD [time stop] -> $4987.18 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $4460.07 (-0.89%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $3997.22 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2933.51 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $3491.00 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBP [time stop] -> $3008.42 (+0.28%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $2000.82 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 12:14 ET — tick — 7 sell(s), 0 buy(s) from standing orders
