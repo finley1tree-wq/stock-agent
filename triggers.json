@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "ea626aa4",
-   "ticker": "OKLO",
-   "kind": "stop_loss",
-   "price": 37.63,
-   "status": "cancelled",
-   "created": "2026-09-21 11:45",
-   "created_ts": 1790005555,
-   "why": "Protective stop on new OKLO position",
-   "evidence": "ATR 6.36%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 12:15",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "5b525ad8",
    "ticker": "NVDA",
    "kind": "buy_limit",
@@ -7049,7 +7031,7 @@
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 134.1619,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "close it all at -0.5% under the average cost",
@@ -7059,7 +7041,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:15",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4d0f70f2",
@@ -7516,7 +7500,24 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "404cb03b",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 134.898,
+   "status": "working",
+   "created": "2026-09-22 11:15",
+   "created_ts": 1790090125,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $134.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 11:12"
+ "updated": "2026-09-22 11:15"
 }
