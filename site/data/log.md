@@ -1,23 +1,3 @@
-- SELL 100% OKLO [time stop] -> $2504.85 (+0.19%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AMD [time stop] -> $2500.64 (+0.03%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 14:56 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 14:58 ET (Monday) — week 2026-W39 — budget left $25000.00 (today $107903.74 put to work, 52 buys, 51 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Book is at zero positions with 100% idle cash near market close, and repeated lessons plus counterfactual data show idle cash while below min_positions is a measured drag. Deploying market-size orders ($2-2.5k each) across 8 evidence-backed liquid names to hit min_positions before the session's remaining checks, each with protective stops attached.
-lesson: At 8 names x $2-2.5k with attached stops in one check, closing the position-count gap directly rather than layering more resting limits that keep expiring unfilled - continue this pattern when below min_positions with idle cash.
-  (dropped MSFT: sold 11 min ago, cooling off)
-  (dropped TSM: sold 22 min ago, cooling off)
-  (dropped AMD: sold 3 min ago, cooling off)
-  (dropped CCJ: sold 34 min ago, cooling off)
-  (dropped UNH: sold 34 min ago, cooling off)
-  (dropped NVDA: 90% up today's range — resting a limit at $225.38 instead of chasing)
-  (dropped AVGO: 98% up today's range — resting a limit at $358.71 instead of chasing)
 - BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name, fresh positive catalyst, at 67% of day range not extreme | evidence: GOOGL +1.5% today, Kairos Power/Samsung nuclear-AI deal headline
   (dropped trigger NVDA stop_loss: not held)
   (dropped trigger MSFT stop_loss: not held)
@@ -398,3 +378,23 @@ Done: 0 sell(s), 5 buy(s); 27 order(s) working; budget left $9009.39 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $447.25] -> $3007.36 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 10:42 ET (Tuesday) — week 2026-W39 — budget left $13019.09 (today $54123.59 put to work, 24 buys, 19 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain: Below min_positions (5 of 8) with 52% cash idle - need to close the gap. TSM/AVGO/UNH cooldowns expire in 34/3/6 minutes respectively so orders should clear by execution given the 15-min check cadence, consistent with the lesson about near-expiry cooldowns. Sizing at ~$2,100-2,200 each keeps positions meaningful without over-concentrating, backed by concrete headlines and momentum data.
+lesson: Queuing buys on names with cooldowns under ~35min continues to test the assumption that they clear by fill time; verify at next check whether these three filled or were dropped.
+  (dropped TSM: sold 11 min ago, cooling off)
+  (dropped AVGO: sold 42 min ago, cooling off)
+  (dropped UNH: sold 40 min ago, cooling off)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+~ WORKING buy_limit $1000.00 CRWD @ $245.13 until 2026-09-23 — strong month, weak day: resting 1.04% under $247.72 to catch the dip
+~ WORKING buy_limit $1000.00 TTD @ $13.18 until 2026-09-23 — strong month, weak day: resting 1.01% under $13.32 to catch the dip
+portfolio: equity $32802.44 (+31.21% on $25000.00 in) · cash $20850.43 · realised +7850.43
+Decision: nothing at this check. 23 standing order(s) working.

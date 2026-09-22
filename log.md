@@ -14222,3 +14222,23 @@ Done: 0 sell(s), 5 buy(s); 27 order(s) working; budget left $9009.39 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $447.25] -> $3007.36 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 10:42 ET (Tuesday) — week 2026-W39 — budget left $13019.09 (today $54123.59 put to work, 24 buys, 19 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain: Below min_positions (5 of 8) with 52% cash idle - need to close the gap. TSM/AVGO/UNH cooldowns expire in 34/3/6 minutes respectively so orders should clear by execution given the 15-min check cadence, consistent with the lesson about near-expiry cooldowns. Sizing at ~$2,100-2,200 each keeps positions meaningful without over-concentrating, backed by concrete headlines and momentum data.
+lesson: Queuing buys on names with cooldowns under ~35min continues to test the assumption that they clear by fill time; verify at next check whether these three filled or were dropped.
+  (dropped TSM: sold 11 min ago, cooling off)
+  (dropped AVGO: sold 42 min ago, cooling off)
+  (dropped UNH: sold 40 min ago, cooling off)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+~ WORKING buy_limit $1000.00 CRWD @ $245.13 until 2026-09-23 — strong month, weak day: resting 1.04% under $247.72 to catch the dip
+~ WORKING buy_limit $1000.00 TTD @ $13.18 until 2026-09-23 — strong month, weak day: resting 1.01% under $13.32 to catch the dip
+portfolio: equity $32802.44 (+31.21% on $25000.00 in) · cash $20850.43 · realised +7850.43
+Decision: nothing at this check. 23 standing order(s) working.

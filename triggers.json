@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "a0473448",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 591.0,
-   "status": "cancelled",
-   "created": "2026-09-21 10:26",
-   "created_ts": 1790000770,
-   "why": "protect new AMD entry with ~3% stop",
-   "evidence": "AMD ATR 4.16%, entry near 609",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 10:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fe34652d",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 699.7795,
-   "status": "cancelled",
-   "created": "2026-09-21 10:26",
-   "created_ts": 1790000770,
-   "why": "wanted it, but not at the high \u2014 resting at $699.78. major breakout with fresh catalyst, buying near market since limit at 690.82 unlikely to fill given current strength",
-   "evidence": "META +7.02% today, +30.54% 1m; Yahoo Finance headline 'Trump and Xi dine with AI titans and Meta takes the stage' 10:00",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "33c9d89c",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -7530,7 +7492,41 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-22 10:31",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "da7eddf2",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 245.1322,
+   "status": "working",
+   "created": "2026-09-22 10:42",
+   "created_ts": 1790088153,
+   "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
+   "evidence": "+29.1% over the month, sitting at 58% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 1000.0
+  },
+  {
+   "id": "c136c6c6",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.1848,
+   "status": "working",
+   "created": "2026-09-22 10:42",
+   "created_ts": 1790088153,
+   "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
+   "evidence": "+1.1% over the month, sitting at 3% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-22 10:31"
+ "updated": "2026-09-22 10:42"
 }

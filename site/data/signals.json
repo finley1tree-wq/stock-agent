@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-22T10:31-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-22T10:42-04:00",
+ "note": "Below min_positions (5 of 8) with 52% cash idle - need to close the gap. TSM/AVGO/UNH cooldowns expire in 34/3/6 minutes respectively so orders should clear by execution given the 15-min check cadence, consistent with the lesson about near-expiry cooldowns. Sizing at ~$2,100-2,200 each keeps positio",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,64 +146,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 773.78,
-   "pct_away": -0.17,
+   "last": 773.16,
+   "pct_away": -0.09,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "900f4323",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 362.6324,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 362.01,
-   "pct_away": 0.17,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2bf19c12",
-   "ticker": "BRK-B",
-   "kind": "buy_limit",
-   "price": 501.3056,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 502.82,
-   "pct_away": -0.3,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "338ee4d1",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 620.9525,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 618.93,
-   "pct_away": 0.33,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -214,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 151.98,
-   "pct_away": -0.36,
+   "last": 151.95,
+   "pct_away": -0.34,
    "good_until": "2026-09-27",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -231,78 +180,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 497.26,
-   "pct_away": -0.4,
+   "last": 496.98,
+   "pct_away": -0.35,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.43% under $497.39 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "413c5fb9",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 93.7624,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 93.33,
-   "pct_away": 0.46,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d444c8f6",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 152.8309,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 151.98,
-   "pct_away": 0.56,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a39221b3",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 183.8298,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 182.7,
-   "pct_away": 0.62,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ed4babdf",
-   "ticker": "BRK-A",
-   "kind": "buy_limit",
-   "price": 750249.2478,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 755535.75,
-   "pct_away": -0.7,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -316,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 362.01,
-   "pct_away": -0.72,
+   "last": 360.7,
+   "pct_away": -0.36,
    "good_until": "2026-09-27",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -326,17 +207,68 @@
    ]
   },
   {
-   "id": "f7b28286",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 181.1005,
+   "id": "ed4babdf",
+   "ticker": "BRK-A",
+   "kind": "buy_limit",
+   "price": 750249.2478,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 753805.62,
+   "pct_away": -0.47,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "2bf19c12",
+   "ticker": "BRK-B",
+   "kind": "buy_limit",
+   "price": 501.3056,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 503.74,
+   "pct_away": -0.48,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "900f4323",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 362.6324,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 182.7,
-   "pct_away": -0.88,
+   "last": 360.7,
+   "pct_away": 0.54,
    "good_until": "2026-09-27",
-   "why": "close it all at -1.1% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d444c8f6",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 152.8309,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 151.95,
+   "pct_away": 0.58,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -350,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.33,
-   "pct_away": -0.89,
+   "last": 93.03,
+   "pct_away": -0.58,
    "good_until": "2026-09-27",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -367,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 618.93,
-   "pct_away": -1.26,
+   "last": 614.73,
+   "pct_away": -0.59,
    "good_until": "2026-09-27",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -377,21 +309,54 @@
    ]
   },
   {
-   "id": "a146788c",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 737.9695,
-   "usd": 3500.0,
-   "pct_of_position": null,
+   "id": "f7b28286",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 181.1005,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 750.31,
-   "pct_away": -1.64,
-   "good_until": "2026-09-22",
-   "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
+   "last": 182.31,
+   "pct_away": -0.66,
+   "good_until": "2026-09-27",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
-    "news",
-    "momentum",
-    "patience"
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "413c5fb9",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 93.7624,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 93.03,
+   "pct_away": 0.79,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a39221b3",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 183.8298,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 182.31,
+   "pct_away": 0.83,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -402,8 +367,8 @@
    "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 469.6,
-   "pct_away": -1.92,
+   "last": 465.01,
+   "pct_away": -0.95,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
    "signals": [
@@ -413,32 +378,84 @@
    ]
   },
   {
-   "id": "abf82b38",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 147.8571,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "338ee4d1",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 620.9525,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 151.98,
-   "pct_away": -2.71,
+   "last": 614.73,
+   "pct_away": 1.01,
    "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "83773524",
-   "ticker": "PLTR",
+   "id": "c136c6c6",
+   "ticker": "TTD",
    "kind": "buy_limit",
-   "price": 177.5585,
+   "price": 13.1848,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 13.32,
+   "pct_away": -1.02,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "da7eddf2",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 245.1322,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 247.72,
+   "pct_away": -1.04,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "a146788c",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 737.9695,
+   "usd": 3500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 746.48,
+   "pct_away": -1.14,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "df9c65e8",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 599.5958,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 182.7,
-   "pct_away": -2.81,
+   "last": 614.73,
+   "pct_away": -2.46,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -454,8 +471,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 93.33,
-   "pct_away": -2.93,
+   "last": 93.03,
+   "pct_away": -2.61,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "83773524",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 177.5585,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 182.31,
+   "pct_away": -2.61,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "abf82b38",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.8571,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 151.95,
+   "pct_away": -2.69,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -471,25 +522,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 362.01,
-   "pct_away": -3.08,
-   "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "df9c65e8",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 599.5958,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 618.93,
-   "pct_away": -3.12,
+   "last": 360.7,
+   "pct_away": -2.73,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -498,8 +532,350 @@
    ]
   }
  ],
- "next_check_minutes": null,
- "last_reasoning": "Only 2 positions held, 92% cash idle, well below min_positions of 8. Cooldowns on AMD/NVDA/GOOGL/TSM/CCJ will have expired by execution time (checked minutes_left vs run interval). Deploying $17.5k across 6 evidence-backed momentum/news names (widely_held sector shows best track record avg_ret_pct 7",
+ "last_reasoning": "Below min_positions (5 of 8) with 52% cash idle - need to close the gap. TSM/AVGO/UNH cooldowns expire in 34/3/6 minutes respectively so orders should clear by execution given the 15-min check cadence, consistent with the lesson about near-expiry cooldowns. Sizing at ~$2,100-2,200 each keeps positio",
+ "next_check_minutes": 15,
+ "allowed": [
+  "AAPL",
+  "AMAT",
+  "AMD",
+  "AMZN",
+  "AVGO",
+  "BRK-A",
+  "BRK-B",
+  "CCJ",
+  "CHRW",
+  "CRWD",
+  "DIA",
+  "ESE",
+  "FWONK",
+  "GLD",
+  "GOOGL",
+  "HD",
+  "HLI",
+  "HUBB",
+  "IBM",
+  "IBP",
+  "LEN",
+  "LMT",
+  "LSYIX",
+  "LTH",
+  "META",
+  "MSFT",
+  "NEM",
+  "NLR",
+  "NOC",
+  "NVDA",
+  "O",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "RTX",
+  "SKWD",
+  "SPY",
+  "TPL",
+  "TSM",
+  "TTD",
+  "UNH",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "",
+  "insiders": "ok",
+  "excluded_instruments": [
+   "AORT excluded: too thinly traded ($17.9M a day) \u2014 Artivion, Inc.",
+   "BBD excluded: share price $3.50 is below $5: the spread eats the trade \u2014 Banco Bradesco S.A.",
+   "BZUN excluded: too thinly traded ($0.6M a day) \u2014 Baozun Inc.",
+   "CTTH excluded: too thinly traded ($0.0M a day) \u2014 CTT Pharmaceutical Holdings, Inc.",
+   "DUOT excluded: too thinly traded ($8.8M a day) \u2014 Duos Technologies Group, Inc.",
+   "EPAC excluded: too thinly traded ($16.4M a day) \u2014 Enerpac Tool Group Corp.",
+   "EU excluded: too thinly traded ($4.3M a day) \u2014 enCore Energy Corp.",
+   "FMNB excluded: too thinly traded ($6.7M a day) \u2014 Farmers National Banc Corp.",
+   "HKHC excluded: too thinly traded ($0.1M a day) \u2014 Horizon Kinetics Holding Corporation",
+   "HMN excluded: too thinly traded ($13.6M a day) \u2014 Horace Mann Educators Corporation",
+   "MCFT excluded: too thinly traded ($4.1M a day) \u2014 MasterCraft Boat Holdings, Inc.",
+   "NYAX excluded: too thinly traded ($0.9M a day) \u2014 Nayax Ltd."
+  ]
+ },
+ "learning": {
+  "horizon": "1d",
+  "decisions_recorded": 420,
+  "decisions_graded": 394,
+  "decisions_with_buys_graded": 152,
+  "independent_days_graded": 4,
+  "avg_regret_pct": -0.4,
+  "chosen_avg_pct": 0.91,
+  "skipped_avg_pct": 0.52,
+  "idle_universe_avg_pct": 0.64,
+  "picking_beats_random": true,
+  "avg_fraction_of_universe_bought": 0.02,
+  "checks_that_bought_everything": 0,
+  "by_signal_chosen": {
+   "autopilot": {
+    "n": 196,
+    "avg_pct": 0.82
+   },
+   "congress": {
+    "n": 96,
+    "avg_pct": 0.45
+   },
+   "insider": {
+    "n": 8,
+    "avg_pct": 1.02
+   },
+   "momentum": {
+    "n": 245,
+    "avg_pct": 0.81
+   },
+   "news": {
+    "n": 45,
+    "avg_pct": 0.65
+   },
+   "track_record": {
+    "n": 4,
+    "avg_pct": 0.43
+   }
+  },
+  "biggest_misses": [
+   {
+    "ticker": "INTC",
+    "fwd_pct": 8.49,
+    "sector": "off-watchlist",
+    "m1m_then": 14.8,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "BE",
+    "fwd_pct": 8.3,
+    "sector": "off-watchlist",
+    "m1m_then": 12.9,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AMAT",
+    "fwd_pct": 7.96,
+    "sector": "off-watchlist",
+    "m1m_then": -15.2,
+    "congress": 2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AMD",
+    "fwd_pct": 7.82,
+    "sector": "widely_held",
+    "m1m_then": 16.3,
+    "congress": 0,
+    "insider": 0
+   },
+   {
+    "ticker": "OKLO",
+    "fwd_pct": 7.59,
+    "sector": "nuclear",
+    "m1m_then": -12.6,
+    "congress": 0,
+    "insider": 0
+   }
+  ],
+  "biggest_avoided": [
+   {
+    "ticker": "CRWD",
+    "fwd_pct": -3.32
+   },
+   {
+    "ticker": "IBM",
+    "fwd_pct": -3.2
+   },
+   {
+    "ticker": "OKLO",
+    "fwd_pct": -3.18
+   }
+  ],
+  "sectors_most_often_missed": {
+   "widely_held": {
+    "n": 15
+   },
+   "off-watchlist": {
+    "n": 8
+   },
+   "nuclear": {
+    "n": 5
+   },
+   "defense": {
+    "n": 2
+   },
+   "gold": {
+    "n": 1
+   }
+  },
+  "idle_checks": 237,
+  "blocked_checks": 0,
+  "idle_share": 0.59,
+  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
+  "evidence_strength": "anecdote",
+  "how_many_days_before_this_means_anything": 30,
+  "warning": "only 4 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+ },
+ "disclosure_leaderboard": [
+  {
+   "who": "Tim Moore",
+   "disclosed_buys_scored": 22,
+   "avg_excess_pct": 4.76,
+   "beat_index_rate": 0.64,
+   "best": {
+    "ticker": "CBRL",
+    "excess_pct": 20.0,
+    "disclosed": "2026-01-07"
+   }
+  },
+  {
+   "who": "Robert E. Latta",
+   "disclosed_buys_scored": 4,
+   "avg_excess_pct": 4.63,
+   "beat_index_rate": 0.75,
+   "best": {
+    "ticker": "FMAO",
+    "excess_pct": 7.7,
+    "disclosed": "2026-06-05"
+   }
+  },
+  {
+   "who": "Rick Larsen",
+   "disclosed_buys_scored": 9,
+   "avg_excess_pct": 4.07,
+   "beat_index_rate": 0.78,
+   "best": {
+    "ticker": "CASY",
+    "excess_pct": 10.2,
+    "disclosed": "2026-04-15"
+   }
+  },
+  {
+   "who": "Tim Walberg",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 3.74,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "UA",
+    "excess_pct": 25.4,
+    "disclosed": "2026-06-03"
+   }
+  },
+  {
+   "who": "Rick W. Allen",
+   "disclosed_buys_scored": 8,
+   "avg_excess_pct": 2.76,
+   "beat_index_rate": 0.62,
+   "best": {
+    "ticker": "AMD",
+    "excess_pct": 13.2,
+    "disclosed": "2026-08-18"
+   }
+  },
+  {
+   "who": "Jared Moskowitz",
+   "disclosed_buys_scored": 33,
+   "avg_excess_pct": 2.33,
+   "beat_index_rate": 0.48,
+   "best": {
+    "ticker": "PANW",
+    "excess_pct": 62.0,
+    "disclosed": "2026-04-30"
+   }
+  },
+  {
+   "who": "Michael A. Rulli",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 2.04,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "MU",
+    "excess_pct": 14.9,
+    "disclosed": "2026-08-07"
+   }
+  },
+  {
+   "who": "Jonathan L. Jackson",
+   "disclosed_buys_scored": 18,
+   "avg_excess_pct": 2.03,
+   "beat_index_rate": 0.61,
+   "best": {
+    "ticker": "C",
+    "excess_pct": 16.4,
+    "disclosed": "2026-03-12"
+   }
+  },
+  {
+   "who": "Maria Elvira Salazar",
+   "disclosed_buys_scored": 49,
+   "avg_excess_pct": 1.02,
+   "beat_index_rate": 0.43,
+   "best": {
+    "ticker": "MRVL",
+    "excess_pct": 69.6,
+    "disclosed": "2026-05-08"
+   }
+  },
+  {
+   "who": "David J. Taylor",
+   "disclosed_buys_scored": 70,
+   "avg_excess_pct": 0.83,
+   "beat_index_rate": 0.51,
+   "best": {
+    "ticker": "MEDP",
+    "excess_pct": 20.9,
+    "disclosed": "2026-05-28"
+   }
+  },
+  {
+   "who": "Ed Case",
+   "disclosed_buys_scored": 10,
+   "avg_excess_pct": 0.53,
+   "beat_index_rate": 0.2,
+   "best": {
+    "ticker": "AAPL",
+    "excess_pct": 9.3,
+    "disclosed": "2026-08-18"
+   }
+  },
+  {
+   "who": "Richard McCormick",
+   "disclosed_buys_scored": 11,
+   "avg_excess_pct": -0.06,
+   "beat_index_rate": 0.64,
+   "best": {
+    "ticker": "ABT",
+    "excess_pct": 13.0,
+    "disclosed": "2026-07-09"
+   }
+  }
+ ],
+ "disclosure_leaderboard_meta": {
+  "built": "2026-09-22",
+  "horizon_days": 30,
+  "buys_scored": 1156,
+  "measured_from": "disclosure date, not transaction date",
+  "benchmark": "SPY",
+  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
+ },
+ "disclosure_significance": {
+  "members": 25,
+  "best": "Tim Moore",
+  "best_avg_excess_pct": 4.76,
+  "best_t_stat": 2.18,
+  "members_weighted": 0,
+  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
+  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
+ },
+ "wallet_moves": [],
+ "wallet_status": {
+  "followed_total": 0,
+  "checked_this_pass": 0,
+  "starting_at": 0,
+  "names": []
+ },
  "congress_trades": [
   {
    "who": "David J. Taylor",
@@ -1246,6 +1622,126 @@
  },
  "insider_trades": [
   {
+   "who": "Schlachet Amir",
+   "role": "director, officer: CEO",
+   "ticker": "GLBE",
+   "type": "sell",
+   "shares": 12856,
+   "price": 37.3848,
+   "transaction_date": "2026-09-17",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Brass Lorin L.",
+   "role": "director",
+   "ticker": "VTOL",
+   "type": "sell",
+   "shares": 1000,
+   "price": 41.54,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Bueno Julio Cesar",
+   "role": "officer: Executive Officer",
+   "ticker": "BBD",
+   "type": "buy",
+   "shares": 56355,
+   "price": 17.98,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Freiberger Fernando",
+   "role": "officer: Executive Officer",
+   "ticker": "BBD",
+   "type": "buy",
+   "shares": 49550,
+   "price": 17.98,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "CTT PHARMACEUTICAL HOLDINGS, INC.",
+   "role": "director, officer: CEO",
+   "ticker": "CTTH",
+   "type": "buy",
+   "shares": 10100,
+   "price": 0.045,
+   "transaction_date": "2026-09-22",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Ramalho Miranda Jose Augusto",
+   "role": "officer: Executive Officer",
+   "ticker": "BBD",
+   "type": "buy",
+   "shares": 63719,
+   "price": 17.98,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Richardson Gina A",
+   "role": "director",
+   "ticker": "FMNB",
+   "type": "buy",
+   "shares": 1430,
+   "price": 15.35,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Ben-Avi David",
+   "role": "director, officer: CTO and Co Founder",
+   "ticker": "NYAX",
+   "type": "buy",
+   "shares": 1014,
+   "price": 42.9098,
+   "transaction_date": "2026-09-17",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+   "role": "10 percent owner",
+   "ticker": "TPL",
+   "type": "buy",
+   "shares": 1,
+   "price": 348.98,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Debbi Nir",
+   "role": "director, officer: President",
+   "ticker": "GLBE",
+   "type": "sell",
+   "shares": 12272,
+   "price": 39.5565,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Brossman Douglas S",
+   "role": "director",
+   "ticker": "YORW",
+   "type": "buy",
+   "shares": 30.315,
+   "price": 32.987,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Nagelberg Allison",
+   "role": "director",
+   "ticker": "HKHC",
+   "type": "buy",
+   "shares": 190,
+   "price": 26.27,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-22"
+  },
+  {
    "who": "Nunes Regina Helena Jorge",
    "role": "director",
    "ticker": "BBD",
@@ -1724,149 +2220,29 @@
    "price": 77.23,
    "transaction_date": "2026-09-21",
    "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 483809,
-   "price": 77.97,
-   "transaction_date": "2026-09-21",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 8959,
-   "price": 76.96,
-   "transaction_date": "2026-09-17",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 8306,
-   "price": 77.94,
-   "transaction_date": "2026-09-17",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 33122,
-   "price": 74.8,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 390,
-   "price": 75.76,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 710,
-   "price": 76.98,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 500,
-   "price": 78.38,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 4888,
-   "price": 75.76,
-   "transaction_date": "2026-09-21",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "BRK-B",
-   "type": "buy",
-   "shares": 18146,
-   "price": 76.62,
-   "transaction_date": "2026-09-21",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "LEN",
-   "type": "buy",
-   "shares": 267585,
-   "price": 78.41,
-   "transaction_date": "2026-09-17",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "LEN",
-   "type": "buy",
-   "shares": 410164,
-   "price": 79.41,
-   "transaction_date": "2026-09-17",
-   "filing_date": "2026-09-21"
-  },
-  {
-   "who": "BERKSHIRE HATHAWAY INC",
-   "role": "10 percent owner",
-   "ticker": "LEN",
-   "type": "buy",
-   "shares": 1218429,
-   "price": 76.39,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-21"
   }
  ],
  "insider_pressure": {
   "BRK-A": 16.0,
   "BRK-B": 16.0,
-  "LEN": 16.0,
-  "BBD": 5.0,
+  "LEN": 12.0,
+  "BBD": 8.0,
   "DUOT": 2.0,
   "BZUN": 2.0,
+  "CTTH": 1.0,
+  "FMNB": 1.0,
+  "NYAX": 1.0,
+  "TPL": 1.0,
+  "YORW": 1.0,
+  "HKHC": 1.0,
   "MCFT": 1.0,
   "VFF": 1.0,
   "EU": 1.0,
   "ECOR": 1.0,
   "VENU": 1.0,
-  "ENHA": 1.0,
+  "VTOL": -1.0,
   "NVMI": -1.0,
-  "TILE": -1.0,
-  "SFST": -1.0,
-  "UMC": -1.0,
-  "ELTK": -1.0,
-  "GLBE": -2.0,
-  "SBLK": -2.0,
-  "SMWB": -2.0
+  "TILE": -1.0
  },
  "headlines": {
   "AAPL": [
@@ -1881,9 +2257,9 @@
     "when": "2026-09-21T17:41"
    },
    {
-    "title": "What Will $5,000 Invested in Apple Stock Be Worth in 5 Years?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-22T14:00"
+    "title": "Stock Market Today: Dow Slips, Oil Stocks Fall On U.S.-Iran Hopes; Homebuilders, Retailers Shine (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-22T14:19"
    }
   ],
   "AMAT": [
@@ -1932,12 +2308,17 @@
     "when": "2026-09-21T19:52"
    },
    {
-    "title": "Amazon Gains While Closing Its Store to Muse",
-    "source": "GuruFocus.com",
-    "when": "2026-09-22T13:17"
+    "title": "Market Chatter: Big Software Firms Offer AI Discounts in Bid to Counter Anthropic, OpenAI",
+    "source": "MT Newswires",
+    "when": "2026-09-22T14:20"
    }
   ],
   "AVGO": [
+   {
+    "title": "Nvidia Price Prediction: Wall Street and Our Model Finally Agree",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-22T14:30"
+   },
    {
     "title": "Company News for Sep 22, 2026",
     "source": "Zacks",
@@ -1947,11 +2328,6 @@
     "title": "Chip Trillionaires Club: Only One Clear Buy Among NVDA, AVGO, MU, AMD",
     "source": "Zacks",
     "when": "2026-09-22T12:48"
-   },
-   {
-    "title": "Prediction: Broadcom Will Be a $3 Trillion Company by the End of 2030",
-    "source": "Motley Fool",
-    "when": "2026-09-22T12:46"
    }
   ],
   "BRK-A": [
@@ -2114,14 +2490,14 @@
     "when": "2026-09-22T14:03"
    },
    {
-    "title": "Should NextEra\u2019s US$1.9 Billion Google-Backed Nuclear Restart Require Action From NextEra Energy (NEE) Investors?",
-    "source": "Simply Wall St.",
-    "when": "2026-09-22T14:13"
+    "title": "Nasdaq hits intraday record high on Alphabet boost, Mideast negotiation hopes",
+    "source": "Reuters",
+    "when": "2026-09-22T14:30"
    },
    {
-    "title": "Netflix Faces Growing YouTube Threat As Viewer Share Hits Multi-Year Low, HSBC Says \u2014 Wells Fargo Flags Engagement Risk",
-    "source": "Stocktwits",
-    "when": "2026-09-22T13:50"
+    "title": "Stock Market Today: Dow Slips, Oil Stocks Fall On U.S.-Iran Hopes; Homebuilders, Retailers Shine (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-22T14:19"
    }
   ],
   "HD": [
@@ -2262,19 +2638,19 @@
   ],
   "META": [
    {
-    "title": "AMD\u2019s path to $1T market cap: A timeline of CEO Lisa Su\u2019s big wins",
+    "title": "The case for investors resisting the rush into Meta's Muse hype",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-22T14:16"
+    "when": "2026-09-22T14:29"
    },
    {
-    "title": "Meta, Shopify, AutoZone lead stocks on the move for Sept. 22",
+    "title": "The Magnificent 7 are back: Meta\u2019s AI bet leads the charge",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-22T13:59"
+    "when": "2026-09-22T14:03"
    },
    {
-    "title": "Why Meta's Muse AI agent is soaring in popularity",
+    "title": "Cracks are forming in AI data center boom as projects face increased opposition",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-22T13:02"
+    "when": "2026-09-22T13:18"
    }
   ],
   "MSFT": [
@@ -2289,9 +2665,9 @@
     "when": "2026-09-21T19:52"
    },
    {
-    "title": "IREN Broadens Its AI Customer Base: Can Diversification Pay Off?",
-    "source": "Zacks",
-    "when": "2026-09-22T14:12"
+    "title": "Market Chatter: Big Software Firms Offer AI Discounts in Bid to Counter Anthropic, OpenAI",
+    "source": "MT Newswires",
+    "when": "2026-09-22T14:20"
    }
   ],
   "NEM": [
@@ -2481,6 +2857,23 @@
     "when": "2026-09-22T13:43"
    }
   ],
+  "TPL": [
+   {
+    "title": "2 Energy Stocks with Impressive Fundamentals and 1 We Find Risky",
+    "source": "StockStory",
+    "when": "2026-09-18T21:20"
+   },
+   {
+    "title": "3 Oil Stocks Retail Investors Are Screening As Crude Price Risk Returns",
+    "source": "Simply Wall St.",
+    "when": "2026-09-17T13:13"
+   },
+   {
+    "title": "Texas Pacific Land (TPL) Dropped, What Is Driving Attention Now?",
+    "source": "Simply Wall St.",
+    "when": "2026-09-17T08:12"
+   }
+  ],
   "TSM": [
    {
     "title": "Here is What to Know Beyond Why Taiwan Semiconductor Manufacturing Company Ltd. (TSM) is a Trending Stock",
@@ -2551,346 +2944,5 @@
   ]
  },
  "people_news": {},
- "allowed": [
-  "AAPL",
-  "AMAT",
-  "AMD",
-  "AMZN",
-  "AVGO",
-  "BRK-A",
-  "BRK-B",
-  "CCJ",
-  "CHRW",
-  "CRWD",
-  "DIA",
-  "ESE",
-  "FWONK",
-  "GLD",
-  "GOOGL",
-  "HD",
-  "HLI",
-  "HUBB",
-  "IBM",
-  "IBP",
-  "LEN",
-  "LMT",
-  "LSYIX",
-  "LTH",
-  "META",
-  "MSFT",
-  "NEM",
-  "NLR",
-  "NOC",
-  "NVDA",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "RTX",
-  "SKWD",
-  "SPY",
-  "TSM",
-  "TTD",
-  "UNH",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "",
-  "insiders": "ok",
-  "excluded_instruments": [
-   "AORT excluded: too thinly traded ($17.9M a day) \u2014 Artivion, Inc.",
-   "BBD excluded: share price $3.50 is below $5: the spread eats the trade \u2014 Banco Bradesco S.A.",
-   "BZUN excluded: too thinly traded ($0.6M a day) \u2014 Baozun Inc.",
-   "DUOT excluded: too thinly traded ($8.8M a day) \u2014 Duos Technologies Group, Inc.",
-   "ECOR excluded: too thinly traded ($1.0M a day) \u2014 electroCore, Inc.",
-   "ENHA excluded: too thinly traded ($1.3M a day) \u2014 Enhanced Group Inc.",
-   "EPAC excluded: too thinly traded ($16.4M a day) \u2014 Enerpac Tool Group Corp.",
-   "EU excluded: too thinly traded ($4.3M a day) \u2014 enCore Energy Corp.",
-   "HMN excluded: too thinly traded ($13.6M a day) \u2014 Horace Mann Educators Corporation",
-   "MCFT excluded: too thinly traded ($4.1M a day) \u2014 MasterCraft Boat Holdings, Inc.",
-   "VENU excluded: too thinly traded ($1.0M a day) \u2014 Venu Holding Corporation",
-   "VFF excluded: too thinly traded ($2.8M a day) \u2014 Village Farms International, Inc."
-  ]
- },
- "learning": {
-  "horizon": "1d",
-  "decisions_recorded": 420,
-  "decisions_graded": 395,
-  "decisions_with_buys_graded": 153,
-  "independent_days_graded": 4,
-  "avg_regret_pct": -0.39,
-  "chosen_avg_pct": 0.91,
-  "skipped_avg_pct": 0.52,
-  "idle_universe_avg_pct": 0.64,
-  "picking_beats_random": true,
-  "avg_fraction_of_universe_bought": 0.02,
-  "checks_that_bought_everything": 0,
-  "by_signal_chosen": {
-   "autopilot": {
-    "n": 197,
-    "avg_pct": 0.82
-   },
-   "congress": {
-    "n": 96,
-    "avg_pct": 0.45
-   },
-   "insider": {
-    "n": 8,
-    "avg_pct": 1.02
-   },
-   "momentum": {
-    "n": 246,
-    "avg_pct": 0.81
-   },
-   "news": {
-    "n": 45,
-    "avg_pct": 0.65
-   },
-   "track_record": {
-    "n": 4,
-    "avg_pct": 0.43
-   }
-  },
-  "biggest_misses": [
-   {
-    "ticker": "INTC",
-    "fwd_pct": 8.49,
-    "sector": "off-watchlist",
-    "m1m_then": 14.8,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "BE",
-    "fwd_pct": 8.3,
-    "sector": "off-watchlist",
-    "m1m_then": 12.9,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "AMAT",
-    "fwd_pct": 7.96,
-    "sector": "off-watchlist",
-    "m1m_then": -15.2,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "AMD",
-    "fwd_pct": 7.82,
-    "sector": "widely_held",
-    "m1m_then": 16.3,
-    "congress": 0,
-    "insider": 0
-   },
-   {
-    "ticker": "OKLO",
-    "fwd_pct": 7.59,
-    "sector": "nuclear",
-    "m1m_then": -12.6,
-    "congress": 0,
-    "insider": 0
-   }
-  ],
-  "biggest_avoided": [
-   {
-    "ticker": "CRWD",
-    "fwd_pct": -3.42
-   },
-   {
-    "ticker": "IBM",
-    "fwd_pct": -3.2
-   },
-   {
-    "ticker": "OKLO",
-    "fwd_pct": -3.18
-   }
-  ],
-  "sectors_most_often_missed": {
-   "widely_held": {
-    "n": 15
-   },
-   "off-watchlist": {
-    "n": 9
-   },
-   "nuclear": {
-    "n": 5
-   },
-   "defense": {
-    "n": 2
-   },
-   "gold": {
-    "n": 1
-   }
-  },
-  "idle_checks": 236,
-  "blocked_checks": 0,
-  "idle_share": 0.59,
-  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
-  "evidence_strength": "anecdote",
-  "how_many_days_before_this_means_anything": 30,
-  "warning": "only 4 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
- },
- "signalsAsOf": "2026-09-22T10:27-04:00",
- "disclosure_leaderboard": [
-  {
-   "who": "Tim Moore",
-   "disclosed_buys_scored": 22,
-   "avg_excess_pct": 4.76,
-   "beat_index_rate": 0.64,
-   "best": {
-    "ticker": "CBRL",
-    "excess_pct": 20.0,
-    "disclosed": "2026-01-07"
-   }
-  },
-  {
-   "who": "Robert E. Latta",
-   "disclosed_buys_scored": 4,
-   "avg_excess_pct": 4.63,
-   "beat_index_rate": 0.75,
-   "best": {
-    "ticker": "FMAO",
-    "excess_pct": 7.7,
-    "disclosed": "2026-06-05"
-   }
-  },
-  {
-   "who": "Rick Larsen",
-   "disclosed_buys_scored": 9,
-   "avg_excess_pct": 4.07,
-   "beat_index_rate": 0.78,
-   "best": {
-    "ticker": "CASY",
-    "excess_pct": 10.2,
-    "disclosed": "2026-04-15"
-   }
-  },
-  {
-   "who": "Tim Walberg",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 3.74,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "UA",
-    "excess_pct": 25.4,
-    "disclosed": "2026-06-03"
-   }
-  },
-  {
-   "who": "Rick W. Allen",
-   "disclosed_buys_scored": 8,
-   "avg_excess_pct": 2.76,
-   "beat_index_rate": 0.62,
-   "best": {
-    "ticker": "AMD",
-    "excess_pct": 13.2,
-    "disclosed": "2026-08-18"
-   }
-  },
-  {
-   "who": "Jared Moskowitz",
-   "disclosed_buys_scored": 33,
-   "avg_excess_pct": 2.33,
-   "beat_index_rate": 0.48,
-   "best": {
-    "ticker": "PANW",
-    "excess_pct": 62.0,
-    "disclosed": "2026-04-30"
-   }
-  },
-  {
-   "who": "Michael A. Rulli",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 2.04,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "MU",
-    "excess_pct": 14.9,
-    "disclosed": "2026-08-07"
-   }
-  },
-  {
-   "who": "Jonathan L. Jackson",
-   "disclosed_buys_scored": 18,
-   "avg_excess_pct": 2.03,
-   "beat_index_rate": 0.61,
-   "best": {
-    "ticker": "C",
-    "excess_pct": 16.4,
-    "disclosed": "2026-03-12"
-   }
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "disclosed_buys_scored": 49,
-   "avg_excess_pct": 1.02,
-   "beat_index_rate": 0.43,
-   "best": {
-    "ticker": "MRVL",
-    "excess_pct": 69.6,
-    "disclosed": "2026-05-08"
-   }
-  },
-  {
-   "who": "David J. Taylor",
-   "disclosed_buys_scored": 70,
-   "avg_excess_pct": 0.83,
-   "beat_index_rate": 0.51,
-   "best": {
-    "ticker": "MEDP",
-    "excess_pct": 20.9,
-    "disclosed": "2026-05-28"
-   }
-  },
-  {
-   "who": "Ed Case",
-   "disclosed_buys_scored": 10,
-   "avg_excess_pct": 0.53,
-   "beat_index_rate": 0.2,
-   "best": {
-    "ticker": "AAPL",
-    "excess_pct": 9.3,
-    "disclosed": "2026-08-18"
-   }
-  },
-  {
-   "who": "Richard McCormick",
-   "disclosed_buys_scored": 11,
-   "avg_excess_pct": -0.06,
-   "beat_index_rate": 0.64,
-   "best": {
-    "ticker": "ABT",
-    "excess_pct": 13.0,
-    "disclosed": "2026-07-09"
-   }
-  }
- ],
- "disclosure_leaderboard_meta": {
-  "built": "2026-09-22",
-  "horizon_days": 30,
-  "buys_scored": 1156,
-  "measured_from": "disclosure date, not transaction date",
-  "benchmark": "SPY",
-  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
- },
- "disclosure_significance": {
-  "members": 25,
-  "best": "Tim Moore",
-  "best_avg_excess_pct": 4.76,
-  "best_t_stat": 2.18,
-  "members_weighted": 0,
-  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
-  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
- },
- "wallet_moves": [],
- "wallet_status": {
-  "followed_total": 0,
-  "checked_this_pass": 0,
-  "starting_at": 0,
-  "names": []
- }
+ "signalsAsOf": "2026-09-22T10:42-04:00"
 }
