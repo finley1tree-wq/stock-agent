@@ -1,17 +1,26 @@
 {
-  "cash": 29813.661589384003,
+  "cash": 30825.519948107838,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W39",
   "positions": {
-    "CCJ": {
-      "qty": 32.45806342470047,
-      "avg_cost": 92.426956,
+    "TTD": {
+      "qty": 73.30733366565991,
+      "avg_cost": 13.6412,
       "opened": "2026-09-22",
       "last_buy": "2026-09-22",
       "tranches": 1,
-      "last_buy_ts": 1790084031,
-      "opened_ts": 1790084031
+      "last_buy_ts": 1790084236,
+      "opened_ts": 1790084236
+    },
+    "PLTR": {
+      "qty": 5.470797702483797,
+      "avg_cost": 182.7887,
+      "opened": "2026-09-22",
+      "last_buy": "2026-09-22",
+      "tranches": 1,
+      "last_buy_ts": 1790084236,
+      "opened_ts": 1790084236
     }
   },
   "fills": [
@@ -10854,7 +10863,39 @@
       "realized_pct": 0.24,
       "type": "sell",
       "date": "2026-09-22 09:35"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 32.458063,
+      "status": "filled",
+      "price": 92.79,
+      "proceeds": 3011.86,
+      "realized_pnl": 11.86,
+      "realized_pct": 0.4,
+      "type": "sell",
+      "date": "2026-09-22 09:37"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 73.307334,
+      "price": 13.64,
+      "type": "buy",
+      "date": "2026-09-22 09:37"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.470798,
+      "price": 182.79,
+      "type": "buy",
+      "date": "2026-09-22 09:37"
     }
   ],
-  "realized_pnl": 7813.661589384022
+  "realized_pnl": 7825.519948107855
 }

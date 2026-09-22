@@ -1,25 +1,25 @@
 {
   "week": "2026-W39",
-  "spent": 2987.41,
-  "deployed": 136804.53,
+  "spent": 2000.0,
+  "deployed": 138804.53,
   "by_ticker": {
     "NOC": 17.99,
     "RTX": 5.08,
     "IBM": 6.06,
     "GLD": 1.0,
     "AMD": 1.01,
-    "PLTR": 7.08,
+    "PLTR": 1007.08,
     "UNH": 1.97,
     "MSFT": 17.76,
-    "CCJ": 3000.0
+    "TTD": 1000.0
   },
   "deployed_by_ticker": {
     "AMD": 18200.0,
     "AMAT": 5975.0,
     "NVDA": 5100.0,
     "CHRW": 1000.0,
-    "TTD": 2000.0,
-    "PLTR": 5500.0,
+    "TTD": 3000.0,
+    "PLTR": 6500.0,
     "MSFT": 9425.0,
     "OKLO": 7500.0,
     "NOC": 6000.0,
@@ -2364,18 +2364,78 @@
       ],
       "evidence": "average cost $443.53",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 32.458063,
+      "status": "filled",
+      "price": 92.79,
+      "proceeds": 3011.86,
+      "realized_pnl": 11.86,
+      "realized_pct": 0.4,
+      "date": "2026-09-22",
+      "time_et": "09:37",
+      "ts": 1790084100,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $92.43",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 73.307334,
+      "price": 13.64,
+      "date": "2026-09-22",
+      "time_et": "09:37",
+      "ts": 1790084100,
+      "why": "strong month, weak day: resting 0.94% under $13.77 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+4.5% over the month, sitting at 15% of today's range",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.470798,
+      "price": 182.79,
+      "date": "2026-09-22",
+      "time_et": "09:37",
+      "ts": 1790084100,
+      "why": "strong month, weak day: resting 0.79% under $184.24 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+2.4% over the month, sitting at 46% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 2987.41,
-  "deployed_today": 15469.76,
-  "orders_today": 5,
-  "sells_today": 4,
+  "spent_today": 2000.0,
+  "deployed_today": 17469.76,
+  "orders_today": 7,
+  "sells_today": 5,
   "sold_today": [
     "AMD",
     "MSFT",
     "GOOGL",
-    "TSM"
+    "TSM",
+    "CCJ"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -2385,7 +2445,7 @@
     "PLTR": 1790016126,
     "MSFT": 1790084112,
     "OKLO": 1790017007,
-    "CCJ": 1790019434,
+    "CCJ": 1790084236,
     "LMT": 1790011290,
     "TTD": 1790004935,
     "NOC": 1790020340,
@@ -2400,22 +2460,23 @@
     "GLD": 1790005446,
     "AAPL": 1790005508
   },
-  "last_publish_ts": 1790084111,
-  "last_check_ts": 1790084196,
+  "last_publish_ts": 1790084234,
+  "last_check_ts": 1790084281,
   "last_bar_ts": 1790084100,
   "last_decision_ts": 1790083966,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "84cda4b0": 92.7923,
+    "945f7b44": 183.5632,
     "2bf19c12": 501.3056,
+    "b0264b02": 183.282,
+    "8f970ec4": 13.7094,
     "ed4babdf": 750249.2478,
-    "d37da076": 182.7887,
-    "5fc7fe67": 13.6412,
-    "75227949": 131.0225,
     "ef6f6647": 245.1829,
+    "75227949": 131.0225,
+    "5e568283": 13.4665,
     "a146788c": 737.9695,
-    "a2b65c14": 89.6571,
-    "d3e53f6e": 89.0
+    "7838ea39": 13.2308,
+    "2b0d1427": 177.3063
   }
 }

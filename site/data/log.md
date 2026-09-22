@@ -1,8 +1,3 @@
-~ WORKING stop_loss 100% GOOGL @ $349.50 until 2026-09-21 — Protective stop near today's low
-~ WORKING stop_loss 100% AVGO @ $353.50 until 2026-09-21 — Protective stop at today's low
-~ WORKING buy_limit $3000.00 META @ $711.14 until 2026-09-21 — wanted it, but not at the high — resting at $711.14. Strong breakout momentum with fresh bullish broker coverage, buy at market since it keeps running
-~ WORKING buy_limit $2500.00 NVDA @ $224.63 until 2026-09-21 — wanted it, but not at the high — resting at $224.63. Core AI leader continued momentum, filling toward min_positions
-~ WORKING take_profit 100% GOOGL @ $356.73 until 2026-09-26 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 GOOGL @ $345.16 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AVGO @ $360.59 until 2026-09-26 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 AVGO @ $348.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +393,8 @@ Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $444.60] -> $2976.96 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $92.79] -> $3011.86 (+0.40%) — close 100% at +0.4% over the average cost
+- BUY $1000.00 TTD [buy_limit @ $13.64] — strong month, weak day: resting 0.94% under $13.77 to catch the dip
+- BUY $1000.00 PLTR [buy_limit @ $182.79] — strong month, weak day: resting 0.79% under $184.24 to catch the dip
+## 2026-09-22 09:37 ET — tick — 1 sell(s), 2 buy(s) from standing orders
