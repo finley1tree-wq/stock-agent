@@ -14455,3 +14455,34 @@ Decision: nothing at this check. 32 standing order(s) working.
 ## 2026-09-22 12:14 ET — tick — 7 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 CHRW [buy_limit @ $151.41] — strong month, weak day: resting 0.50% under $152.17 to catch the dip
 ## 2026-09-22 12:19 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-22 12:27 ET (Tuesday) — week 2026-W39 — budget left $23944.39 (today $108057.42 put to work, 46 buys, 44 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Book is far below min_positions (only CHRW held) with 95.8% cash idle - this is the exact self-inflicted regret the counterfactual data flags. Deploying across 8 widely_held/chip/AI names with concrete evidence (AMD $1T club, TSMC capex surge, Gottheimer's large MSFT disclosure, Westinghouse IPO for CCJ) matches the best-performing sector bucket (widely_held avg_ret_pct 5.64%) and momentum signal ranking. Adding protective stops on each new position per risk_management guidance which has the best realized hit rate (86%).
+lesson: Reaching min_positions fast with sized ($2.5-4k) evidence-backed buys in the highest-performing sector (widely_held, 5.64% avg_ret) beats waiting on resting limits that keep expiring unfilled.
+  (dropped AMD: sold 13 min ago, cooling off)
+  (dropped NVDA: sold 44 min ago, cooling off)
+  (dropped AVGO: sold 44 min ago, cooling off)
+  (dropped UNH: sold 44 min ago, cooling off)
+  (dropped TSM: sold 13 min ago, cooling off)
+  (dropped GOOGL: sold 13 min ago, cooling off)
+  (dropped CCJ: sold 13 min ago, cooling off)
+- BUY $3000.00 MSFT [filled] ['congress', 'news'] — Large congressional buy pressure plus positive AI news catalyst | evidence: Rep. Josh Gottheimer disclosed $250k-1M MSFT buy 2026-08-14, Microsoft 'Scores Positive Reviews On AI Momentum' headline
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% MSFT @ $483.00 until 2026-09-22 — Protective stop below entry
+~ WORKING take_profit 100% MSFT @ $496.70 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $480.68 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $340.80 until 2026-09-23 — strong month, weak day: resting 0.43% under $342.29 to catch the dip
+portfolio: equity $32804.16 (+31.22% on $25000.00 in) · cash $28807.15 · realised +7807.15
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $20944.39 this week

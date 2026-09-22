@@ -1,14 +1,14 @@
 {
   "week": "2026-W39",
-  "spent": 1055.61,
-  "deployed": 229392.19,
+  "spent": 4055.61,
+  "deployed": 232392.19,
   "by_ticker": {
     "NOC": 26.46,
     "IBM": 15.05,
     "GLD": 4.3,
     "AMD": 27.06,
     "PLTR": 15.16,
-    "MSFT": 19.08,
+    "MSFT": 3019.08,
     "HLI": 9.7,
     "CHRW": 1004.79,
     "GOOGL": 52.99,
@@ -24,7 +24,7 @@
     "CHRW": 3000.0,
     "TTD": 3000.0,
     "PLTR": 12500.0,
-    "MSFT": 10425.0,
+    "MSFT": 13425.0,
     "OKLO": 10500.0,
     "NOC": 10807.69,
     "LMT": 6000.0,
@@ -3907,12 +3907,29 @@
       ],
       "evidence": "+7.4% over the month, sitting at 25% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.053891,
+      "price": 495.55,
+      "date": "2026-09-22",
+      "time_et": "12:27",
+      "ts": 1790094422,
+      "why": "Large congressional buy pressure plus positive AI news catalyst",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Rep. Josh Gottheimer disclosed $250k-1M MSFT buy 2026-08-14, Microsoft 'Scores Positive Reviews On AI Momentum' headline"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 1055.61,
-  "deployed_today": 108057.42,
-  "orders_today": 46,
+  "spent_today": 4055.61,
+  "deployed_today": 111057.42,
+  "orders_today": 47,
   "sells_today": 44,
   "sold_today": [
     "AMD",
@@ -3973,23 +3990,27 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790093971,
-  "last_check_ts": 1790094316,
+  "last_publish_ts": 1790094422,
+  "last_check_ts": 1790094422,
   "last_bar_ts": 1790094300,
-  "last_decision_ts": 1790093428,
+  "last_decision_ts": 1790094422,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "ce8f3880": 772.4819,
+    "36672ef9": 496.7046,
+    "2c60e32c": 150.3956,
+    "19553243": 340.8048,
     "4f3f1ffc": 151.8158,
     "da7eddf2": 245.1322,
-    "2c60e32c": 150.3956,
-    "2bf19c12": 501.3056,
     "ed4babdf": 750249.2478,
     "5592886c": 460.5895,
     "c136c6c6": 13.1848,
     "a146788c": 737.9695,
+    "ee1220e2": 483.0,
     "f596c6f5": 146.8677,
-    "06fa679b": 128.1692
+    "06fa679b": 128.1692,
+    "96f80804": 480.6835,
+    "2bf19c12": 501.3056
   }
 }

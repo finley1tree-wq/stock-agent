@@ -1,34 +1,3 @@
-## 2026-09-22 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-22 09:48 ET (Tuesday) — week 2026-W39 — budget left $25000.00 (today $17469.76 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
-brain: placeholder
-lesson: placeholder
-  (dropped AMD: sold 13 min ago, cooling off)
-  (dropped GOOGL: sold 13 min ago, cooling off)
-~ WORKING buy_limit $1000.00 AAPL @ $340.02 until 2026-09-23 — strong month, weak day: resting 0.43% under $341.50 to catch the dip
-~ WORKING buy_limit $1000.00 CHRW @ $152.43 until 2026-09-23 — strong month, weak day: resting 0.48% under $153.17 to catch the dip
-~ WORKING buy_limit $1000.00 NVDA @ $226.31 until 2026-09-23 — strong month, weak day: resting 0.54% under $227.53 to catch the dip
-~ WORKING buy_limit $1000.00 SPY @ $772.48 until 2026-09-23 — strong month, weak day: resting 0.20% under $774.03 to catch the dip
-portfolio: equity $32831.37 (+31.33% on $25000.00 in) · cash $32831.37 · realised +7831.37
-Decision: nothing at this check. 9 standing order(s) working.
-- BUY $1000.00 CRWD [buy_limit @ $245.18] — strong month, weak day: resting 1.03% under $247.74 to catch the dip
-- BUY $1000.00 HLI [buy_limit @ $131.02] — strong month, weak day: resting 0.66% under $131.89 to catch the dip
-## 2026-09-22 09:50 ET — tick — 0 sell(s), 2 buy(s) from standing orders
-
-## 2026-09-22 09:54 ET (Tuesday) — week 2026-W39 — budget left $23000.00 (today $19469.76 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
-brain: Only 2 positions held vs min_positions of 8, with 92% cash idle - this is the primary problem to fix. Past lessons and track record both confirm immediate sized market buys ($2-2.5k) across evidence-backed names close the position gap faster than resting limits that keep expiring unfilled. I picked names across sectors (chips, healthcare, defense, tech, gold, REIT) that are low in their day range (avoiding the max_entry_range_pct chase penalty) with concrete headline or congressional evidence, avoiding all cooldown-locked tickers (AMD, PLTR, MSFT, CCJ, TTD, TSM, GOOGL).
 lesson: Below min_positions with idle cash, deploy sized market buys across multiple low-day-range names with concrete evidence in one check rather than waiting on resting limits.
   (dropped AMAT: 98% up today's range — resting a limit at $460.59 instead of chasing)
 - BUY $2307.69 NVDA [filled] ['momentum', 'news', 'track_record'] — Strong sector track record and AI chip momentum, Alibaba chip news underscores AI capex theme | evidence: NVDA +7.28% 5d, widely_held sector avg_ret_pct 7.41% best sector in track record
@@ -398,3 +367,34 @@ Decision: nothing at this check. 32 standing order(s) working.
 ## 2026-09-22 12:14 ET — tick — 7 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 CHRW [buy_limit @ $151.41] — strong month, weak day: resting 0.50% under $152.17 to catch the dip
 ## 2026-09-22 12:19 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-22 12:27 ET (Tuesday) — week 2026-W39 — budget left $23944.39 (today $108057.42 put to work, 46 buys, 44 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Book is far below min_positions (only CHRW held) with 95.8% cash idle - this is the exact self-inflicted regret the counterfactual data flags. Deploying across 8 widely_held/chip/AI names with concrete evidence (AMD $1T club, TSMC capex surge, Gottheimer's large MSFT disclosure, Westinghouse IPO for CCJ) matches the best-performing sector bucket (widely_held avg_ret_pct 5.64%) and momentum signal ranking. Adding protective stops on each new position per risk_management guidance which has the best realized hit rate (86%).
+lesson: Reaching min_positions fast with sized ($2.5-4k) evidence-backed buys in the highest-performing sector (widely_held, 5.64% avg_ret) beats waiting on resting limits that keep expiring unfilled.
+  (dropped AMD: sold 13 min ago, cooling off)
+  (dropped NVDA: sold 44 min ago, cooling off)
+  (dropped AVGO: sold 44 min ago, cooling off)
+  (dropped UNH: sold 44 min ago, cooling off)
+  (dropped TSM: sold 13 min ago, cooling off)
+  (dropped GOOGL: sold 13 min ago, cooling off)
+  (dropped CCJ: sold 13 min ago, cooling off)
+- BUY $3000.00 MSFT [filled] ['congress', 'news'] — Large congressional buy pressure plus positive AI news catalyst | evidence: Rep. Josh Gottheimer disclosed $250k-1M MSFT buy 2026-08-14, Microsoft 'Scores Positive Reviews On AI Momentum' headline
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% MSFT @ $483.00 until 2026-09-22 — Protective stop below entry
+~ WORKING take_profit 100% MSFT @ $496.70 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $480.68 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $340.80 until 2026-09-23 — strong month, weak day: resting 0.43% under $342.29 to catch the dip
+portfolio: equity $32804.16 (+31.22% on $25000.00 in) · cash $28807.15 · realised +7807.15
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $20944.39 this week
