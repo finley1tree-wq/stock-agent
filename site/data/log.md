@@ -1,6 +1,3 @@
-- BUY $2500.00 NOC [filled] ['news', 'momentum', 'track_record'] — Defense demand catalyst, best hit-rate sector, buying at market since resting limits below haven't filled with only 1 check left | evidence: NOC 81% of day range, defense sector track record hit_rate 0.71, GM-Lockheed partnership and ballistic missile demand headlines today
-- BUY $2500.00 RTX [filled] ['news', 'momentum', 'track_record'] — Defense sector best hit-rate, reasonable entry point in range, final check of day | evidence: RTX at 58% of day range (not extended), Zacks 'Brokers Suggest Investing in RTX' 2026-09-21
-- BUY $2000.00 UNH [filled] ['momentum', 'news'] — Not extended in range, widely_held sector strongest track record bucket | evidence: UNH 62% of day range, 'Should You Buy UnitedHealth Before Oct 13' headline
 - BUY $2000.00 CCJ [filled] ['momentum', 'news'] — Nuclear catalyst headline, not held, reasonable entry at 68% of range | evidence: CCJ +2.14% today, Westinghouse IPO news 'Cameco's Stake Alone Would Be Worth $24.5 Billion'
   (dropped trigger AMD stop_loss: not held)
   (dropped trigger TSM stop_loss: not held)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
   (cancelled 2 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $519.13] -> $2005.63 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-22 11:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on OKLO: position closed)
+- SELL 100% OKLO [take_profit @ $40.32] -> $3020.70 (+0.69%) — close 100% at +0.7% over the average cost
+## 2026-09-22 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders

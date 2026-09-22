@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "580d1d3a",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 711.9948,
-   "status": "filled",
-   "created": "2026-09-21 11:13",
-   "created_ts": 1790003635,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $709.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 11:18"
-  },
-  {
    "id": "4a653e9d",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7131,7 +7113,7 @@
    "ticker": "OKLO",
    "kind": "take_profit",
    "price": 40.3223,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "close 100% at +0.7% over the average cost",
@@ -7141,7 +7123,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:07"
   },
   {
    "id": "fb119b57",
@@ -7167,7 +7150,7 @@
    "ticker": "OKLO",
    "kind": "buy_limit",
    "price": 38.8485,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7177,7 +7160,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 11:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7716120a",
@@ -7414,7 +7399,7 @@
    "ticker": "HUBB",
    "kind": "stop_loss",
    "price": 452.3516,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "close it all at -0.7% under the average cost",
@@ -7424,7 +7409,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:07",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "638e1b8e",
@@ -7516,7 +7503,7 @@
    "ticker": "OKLO",
    "kind": "stop_loss",
    "price": 40.17,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 11:04",
    "created_ts": 1790089475,
    "why": "close it all at -1.7% under the average cost",
@@ -7526,8 +7513,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:07",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "99607d79",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 455.99,
+   "status": "working",
+   "created": "2026-09-22 11:07",
+   "created_ts": 1790089660,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $455.6",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 11:04"
+ "updated": "2026-09-22 11:07"
 }

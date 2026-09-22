@@ -14305,3 +14305,6 @@ Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
   (cancelled 2 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $519.13] -> $2005.63 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-22 11:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on OKLO: position closed)
+- SELL 100% OKLO [take_profit @ $40.32] -> $3020.70 (+0.69%) — close 100% at +0.7% over the average cost
+## 2026-09-22 11:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
