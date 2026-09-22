@@ -1,80 +1,6 @@
 {
  "orders": [
   {
-   "id": "42b50887",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 191.9,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998218,
-   "why": "Protect new position from reversal",
-   "evidence": "RTX atr_pct 1.93%, tight range today",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 10:13",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ccc5612d",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 90.9,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998218,
-   "why": "Protect new position given higher volatility",
-   "evidence": "CCJ atr_pct 3.68%, low in day range at 3.8%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "61361e6e",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 524.1911,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998218,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $522.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 10:13",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "37b85f00",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 507.2227,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998218,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $522.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 10:13",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "bd316064",
    "ticker": "LMT",
    "kind": "take_profit",
@@ -7033,7 +6959,7 @@
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 228.3134,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "close 100% at +0.3% over the average cost",
@@ -7043,7 +6969,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e92ad4d7",
@@ -7491,7 +7419,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 340.8122,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:04",
    "created_ts": 1790085870,
    "why": "close 100% at +0.2% over the average cost",
@@ -7501,7 +7429,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d1b6d7d7",
@@ -7536,7 +7466,79 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "37e86128",
+   "ticker": "NVDA",
+   "kind": "take_profit",
+   "price": 239.043,
+   "status": "cancelled",
+   "created": "2026-09-22 10:08",
+   "created_ts": 1790086094,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $227.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:09",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "e55efaa6",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 357.021,
+   "status": "cancelled",
+   "created": "2026-09-22 10:08",
+   "created_ts": 1790086094,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $340.02",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:09",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "c4ae5d5d",
+   "ticker": "NVDA",
+   "kind": "take_profit",
+   "price": 228.3134,
+   "status": "working",
+   "created": "2026-09-22 10:09",
+   "created_ts": 1790086141,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $227.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2837422d",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 340.8122,
+   "status": "working",
+   "created": "2026-09-22 10:09",
+   "created_ts": 1790086141,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $340.02",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 10:04"
+ "updated": "2026-09-22 10:09"
 }

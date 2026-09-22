@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-22T10:04-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-22T10:09-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 774.12,
-   "pct_away": -0.21,
+   "last": 773.91,
+   "pct_away": -0.18,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
    "signals": [
@@ -156,17 +156,34 @@
    ]
   },
   {
-   "id": "eeba84b8",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 340.8122,
+   "id": "6a67aad1",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 152.4289,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 152.83,
+   "pct_away": -0.26,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.48% under $153.17 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "337a96ee",
+   "ticker": "GLD",
+   "kind": "stop_loss",
+   "price": 395.6279,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 339.9,
-   "pct_away": 0.27,
+   "last": 396.95,
+   "pct_away": -0.33,
    "good_until": "2026-09-27",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,95 +197,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 397.14,
-   "pct_away": 0.3,
+   "last": 396.95,
+   "pct_away": 0.35,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "337a96ee",
-   "ticker": "GLD",
-   "kind": "stop_loss",
-   "price": 395.6279,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 397.14,
-   "pct_away": -0.38,
-   "good_until": "2026-09-27",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0fc494f4",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 226.3061,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 227.28,
-   "pct_away": -0.43,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.54% under $227.53 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "fc3ce88d",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 228.3134,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 227.28,
-   "pct_away": 0.45,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6a67aad1",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 152.4289,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 153.16,
-   "pct_away": -0.48,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.48% under $153.17 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "e92ad4d7",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 226.0277,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 227.28,
-   "pct_away": -0.55,
-   "good_until": "2026-09-27",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,13 +214,64 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 339.9,
-   "pct_away": -0.55,
+   "last": 339.39,
+   "pct_away": -0.4,
    "good_until": "2026-09-27",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "c4ae5d5d",
+   "ticker": "NVDA",
+   "kind": "take_profit",
+   "price": 228.3134,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 227.38,
+   "pct_away": 0.41,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2837422d",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 340.8122,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 339.39,
+   "pct_away": 0.42,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0fc494f4",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 226.3061,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 227.38,
+   "pct_away": -0.47,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.54% under $227.53 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -299,13 +282,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 504.35,
-   "pct_away": -0.6,
+   "last": 504.07,
+   "pct_away": -0.55,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "e92ad4d7",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 226.0277,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 227.38,
+   "pct_away": -0.59,
+   "good_until": "2026-09-27",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -316,8 +316,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 756451.75,
-   "pct_away": -0.82,
+   "last": 756814.62,
+   "pct_away": -0.87,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
    "signals": [
@@ -333,8 +333,8 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 745.84,
-   "pct_away": -1.06,
+   "last": 745.44,
+   "pct_away": -1.0,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
    "signals": [
@@ -351,8 +351,8 @@
    "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 466.19,
-   "pct_away": -1.2,
+   "last": 467.53,
+   "pct_away": -1.48,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
    "signals": [
@@ -362,15 +362,15 @@
    ]
   },
   {
-   "id": "0a2845a0",
-   "ticker": "NVDA",
+   "id": "6222c82b",
+   "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 220.8302,
+   "price": 329.8194,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 227.28,
-   "pct_away": -2.84,
+   "last": 339.39,
+   "pct_away": -2.82,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -386,8 +386,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 397.14,
-   "pct_away": -2.9,
+   "last": 396.95,
+   "pct_away": -2.85,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -396,15 +396,15 @@
    ]
   },
   {
-   "id": "6222c82b",
-   "ticker": "AAPL",
+   "id": "0a2845a0",
+   "ticker": "NVDA",
    "kind": "buy_limit",
-   "price": 329.8194,
+   "price": 220.8302,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 339.9,
-   "pct_away": -2.97,
+   "last": 227.38,
+   "pct_away": -2.88,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
