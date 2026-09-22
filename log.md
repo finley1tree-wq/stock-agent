@@ -14819,3 +14819,5 @@ portfolio: equity $32822.86 (+31.29% on $25000.00 in) · cash $28864.45 · reali
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week
   (dropped META: sold 3 min ago, cooling off)
   (dropped META: sold 4 min ago, cooling off)
+  (dropped META: sold 4 min ago, cooling off)
+  (dropped META: sold 5 min ago, cooling off)
