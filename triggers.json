@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "e30e5bcd",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 188.18,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998218,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $194",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 10:13",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "d232172c",
    "ticker": "CCJ",
    "kind": "take_profit",
@@ -6922,7 +6903,7 @@
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 226.0277,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "close it all at -0.7% under the average cost",
@@ -6932,7 +6913,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:13",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0a2845a0",
@@ -7532,7 +7515,24 @@
    ],
    "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "bdb6fac3",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 227.954,
+   "status": "working",
+   "created": "2026-09-22 10:13",
+   "created_ts": 1790086384,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $227.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 10:10"
+ "updated": "2026-09-22 10:13"
 }
