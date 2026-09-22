@@ -1,12 +1,3 @@
-  (dropped CRWD: 92% up today's range — resting a limit at $240.46 instead of chasing)
-- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name not extreme in range, reasonable entry | evidence: GOOGL +1.78% today, 78.5% of day range, fresh Google/Apple crypto talent hunt headline
-- BUY $2000.00 AVGO [filled] ['momentum', 'news'] — AI semis exposure, lower range percentile (74%) than AMAT/NVDA | evidence: AVGO +0.47% today, 'AMD Set to Top $1 Trillion in Market Value as Chip Stocks Soar' Bloomberg 15:36
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger AMD stop_loss: not held)
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger CRWD buy_limit: duplicate of a working order)
 ~ WORKING stop_loss 100% GOOGL @ $349.50 until 2026-09-21 — Protective stop near today's low
 ~ WORKING stop_loss 100% AVGO @ $353.50 until 2026-09-21 — Protective stop at today's low
 ~ WORKING buy_limit $3000.00 META @ $711.14 until 2026-09-21 — wanted it, but not at the high — resting at $711.14. Strong breakout momentum with fresh bullish broker coverage, buy at market since it keeps running
@@ -398,3 +389,12 @@ lesson: Past lessons and track record confirm: at flat/idle-cash starts, immedia
 ~ WORKING buy_limit $1000.00 BRK-A @ $750249.25 until 2026-09-23 — strong month, weak day: resting 0.26% under $752180.00 to catch the dip
 portfolio: equity $32797.39 (+31.19% on $25000.00 in) · cash $17331.32 · realised +7801.08
 Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $613.72] -> $3515.81 (+0.45%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $501.41] -> $2982.24 (-0.59%) — close it all at -0.5% under the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $359.04] -> $3007.34 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $444.60] -> $2976.96 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-22 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders

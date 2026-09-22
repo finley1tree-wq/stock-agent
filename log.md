@@ -14036,3 +14036,12 @@ lesson: Past lessons and track record confirm: at flat/idle-cash starts, immedia
 ~ WORKING buy_limit $1000.00 BRK-A @ $750249.25 until 2026-09-23 — strong month, weak day: resting 0.26% under $752180.00 to catch the dip
 portfolio: equity $32797.39 (+31.19% on $25000.00 in) · cash $17331.32 · realised +7801.08
 Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $613.72] -> $3515.81 (+0.45%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $501.41] -> $2982.24 (-0.59%) — close it all at -0.5% under the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $359.04] -> $3007.34 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $444.60] -> $2976.96 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-22 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders

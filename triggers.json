@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "3d615c8b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 232.9261,
-   "status": "cancelled",
-   "created": "2026-09-18 15:42",
-   "created_ts": 1789760527,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $240.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 500.0,
-   "closed": "2026-09-18 15:42",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "69591c2f",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -7162,7 +7143,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 595.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "Cap downside on high-momentum name per ATR-based stop",
@@ -7171,7 +7152,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d3e53f6e",
@@ -7212,7 +7195,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 613.7215,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "close 100% at +0.5% over the average cost",
@@ -7222,14 +7205,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35"
   },
   {
    "id": "076811fc",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 592.6312,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7239,14 +7223,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "97cdaffb",
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 505.4845,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "close 100% at +0.2% over the average cost",
@@ -7256,14 +7242,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ad4b54bc",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 501.6562,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "close it all at -0.5% under the average cost",
@@ -7273,14 +7261,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35"
   },
   {
    "id": "cf11a28c",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 489.2583,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7290,14 +7279,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "044592ca",
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 359.0375,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "close 100% at +0.2% over the average cost",
@@ -7307,14 +7298,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35"
   },
   {
    "id": "555f588b",
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 355.9645,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "close it all at -0.6% under the average cost",
@@ -7324,14 +7316,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "51e511af",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 347.4152,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7341,14 +7335,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4641dbad",
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 444.6033,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "close 100% at +0.2% over the average cost",
@@ -7358,14 +7354,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35"
   },
   {
    "id": "816028be",
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 440.8466,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "close it all at -0.6% under the average cost",
@@ -7375,14 +7372,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "086b0ddf",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 430.2241,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:32",
    "created_ts": 1790083966,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7392,7 +7391,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "84cda4b0",
@@ -7529,7 +7530,26 @@
    ],
    "good_until": "2026-09-23",
    "usd": 1000.0
+  },
+  {
+   "id": "59fa4efe",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 358.436,
+   "status": "cancelled",
+   "created": "2026-09-22 09:34",
+   "created_ts": 1790084065,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $358.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 09:35",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-22 09:32"
+ "updated": "2026-09-22 09:35"
 }
