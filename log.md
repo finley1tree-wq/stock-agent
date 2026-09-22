@@ -14835,3 +14835,20 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week
   (dropped META: sold 14 min ago, cooling off)
   (dropped META: sold 15 min ago, cooling off)
   (dropped META: sold 16 min ago, cooling off)
+  (dropped META: sold 16 min ago, cooling off)
+  (dropped META: sold 17 min ago, cooling off)
+
+## 2026-09-22 15:25 ET (Tuesday) — week 2026-W39 — budget left $21001.68 (today $163661.34 put to work, 70 buys, 66 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+brain: Last check of the day (15:25, close 16:00) — max_hold_minutes=30 means any new buy now would be forcibly closed right at/after the close with essentially zero time to work, and no_new_entries would effectively apply given the 30-min window ends at close. CCJ already has a take_profit at 95.08 and stop_loss at 92.00 working. Rather than chase names already up 88-98% of today's range (AMD, AVGO, TSM, AMAT, NVDA all flagged as chase-risk in orders_dropped_at_last_check), I'll let the existing resting buy_limits and CCJ brackets do their job into the close instead of buying at market into extended prices with no time left to actually hold the position.
+lesson: In the final 30-minute window before close, new market buys have almost no time to work before the hard 30-min exit collides with market close — better to let existing dip/limit orders and CCJ's bracket manage the last stretch than chase extended names.
+~ WORKING buy_limit $1000.00 MSFT @ $496.56 until 2026-09-23 — strong month, weak day: resting 0.43% under $498.73 to catch the dip
+~ WORKING buy_limit $1000.00 GOOGL @ $351.32 until 2026-09-23 — strong month, weak day: resting 0.51% under $353.12 to catch the dip
+~ WORKING buy_limit $1000.00 TTD @ $13.06 until 2026-09-23 — strong month, weak day: resting 1.04% under $13.20 to catch the dip
+portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
+Decision: nothing at this check. 27 standing order(s) working.

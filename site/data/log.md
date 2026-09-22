@@ -1,38 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-brain: Remaining budget is only $1,066 with 7 positions already open at 10 minutes held and multiple bracket orders working. Rather than force a weak 8th name into a tiny position, I'm adding to IBP which has concrete congress buy evidence (Rep. Taylor filing) and today's +3.4% momentum, using nearly all of the remaining budget. All existing positions already have take-profit/stop-loss brackets working from auto_bracket; I'm tightening AMD's stop and adding a partial trailing stop to CCJ to lock in today's nuclear-sector gains per the Westinghouse IPO headline. Budget is too small this check to responsibly open new standalone positions per the $1-3k sizing guidance.
-lesson: With remaining_budget_usd near the min_order floor, sizing into an existing high-evidence position is better than spreading thin new names.
-- BUY $1000.00 IBP [filled] ['congress', 'momentum'] — Add to existing IBP position on congress buy pressure and today's momentum to bring position to a fuller size, closing the gap toward min_positions while remaining budget is limited | evidence: IBP +3.4% today, Rep. David J. Taylor disclosed a buy on IBP ($1,001-$15,000, filed 2026-09-17); already held at 6.1% weight, adding to reach min_positions size band
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% AMD @ $605.00 until 2026-09-22 — Tighten protective stop below existing bracket to bound downside on fresh position
-~ WORKING trailing_stop 50% CCJ @ trail 1.5% until 2026-09-22 — Lock in gains on CCJ if it reverses after today's nuclear-sector strength (Westinghouse IPO headlines)
-~ WORKING buy_limit $500.00 IBP @ $203.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32824.93 (+31.30% on $25000.00 in) · cash $7928.94 · realised +7862.77
-Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $66.17 this week
-
-## 2026-09-22 12:10 ET (Tuesday) — week 2026-W39 — budget left $66.17 (today $107057.42 put to work, 45 buys, 37 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-brain: Book is already effectively full: 7 positions totaling ~$24,900 of the $25k weekly budget (full_deployment concentration mode active, max 6 names is a soft guide but 7 held is fine). Remaining_budget_usd is only $66.17 - below min_order_usd of $100, so any new buy order would be dropped by guardrails regardless. All 7 positions were just opened 26 minutes ago with full auto_bracket stop/take-profit/scale-in triggers already working (visible in working_orders: stop_loss, take_profit, trailing_stop, and add-on buy_limits for AMD, GOOGL, CCJ, TSM, PLTR, IBP, NEM). No fresh evidence has emerged since the last check to justify selling a young position early (min_hold_days=0 allows it, but nothing here shows a thesis broken - GOOGL/PLTR/CCJ are only fractionally red, well within ATR noise). Best move is to let the existing brackets work and check back soon in case a stop/take-profit fires or a dip-limit fills, freeing capital for redeployment.
-lesson: When remaining_budget_usd is below min_order_usd right after a full deployment sweep, there is nothing actionable to buy - just monitor existing brackets rather than force an order that guardrails will drop.
-portfolio: equity $32828.79 (+31.32% on $25000.00 in) · cash $7928.94 · realised +7862.77
-Decision: nothing at this check. 32 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% AMD [time stop] -> $4987.18 (-0.26%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% GOOGL [time stop] -> $4460.07 (-0.89%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% CCJ [time stop] -> $3997.22 (-0.07%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% TSM [time stop] -> $2933.51 (-0.01%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% PLTR [time stop] -> $3491.00 (-0.26%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% IBP [time stop] -> $3008.42 (+0.28%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NEM [time stop] -> $2000.82 (+0.04%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 12:14 ET — tick — 7 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 CHRW [buy_limit @ $151.41] — strong month, weak day: resting 0.50% under $152.17 to catch the dip
 ## 2026-09-22 12:19 ET — tick — 0 sell(s), 1 buy(s) from standing orders
@@ -398,3 +363,38 @@ lesson: On the last check of the day with idle cash, buy at market with protecti
 ~ WORKING buy_limit $1000.00 CHRW @ $148.25 until 2026-09-23 — strong month, weak day: resting 0.54% under $149.06 to catch the dip
 portfolio: equity $32822.86 (+31.29% on $25000.00 in) · cash $28864.45 · realised +7824.45
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week
+  (dropped META: sold 3 min ago, cooling off)
+  (dropped META: sold 4 min ago, cooling off)
+  (dropped META: sold 4 min ago, cooling off)
+  (dropped META: sold 5 min ago, cooling off)
+  (dropped META: sold 6 min ago, cooling off)
+  (dropped META: sold 6 min ago, cooling off)
+  (dropped META: sold 7 min ago, cooling off)
+  (dropped META: sold 8 min ago, cooling off)
+  (dropped META: sold 8 min ago, cooling off)
+  (dropped META: sold 9 min ago, cooling off)
+  (dropped META: sold 10 min ago, cooling off)
+  (dropped META: sold 11 min ago, cooling off)
+  (dropped META: sold 12 min ago, cooling off)
+  (dropped META: sold 13 min ago, cooling off)
+  (dropped META: sold 14 min ago, cooling off)
+  (dropped META: sold 14 min ago, cooling off)
+  (dropped META: sold 15 min ago, cooling off)
+  (dropped META: sold 16 min ago, cooling off)
+  (dropped META: sold 16 min ago, cooling off)
+  (dropped META: sold 17 min ago, cooling off)
+
+## 2026-09-22 15:25 ET (Tuesday) — week 2026-W39 — budget left $21001.68 (today $163661.34 put to work, 70 buys, 66 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+brain: Last check of the day (15:25, close 16:00) — max_hold_minutes=30 means any new buy now would be forcibly closed right at/after the close with essentially zero time to work, and no_new_entries would effectively apply given the 30-min window ends at close. CCJ already has a take_profit at 95.08 and stop_loss at 92.00 working. Rather than chase names already up 88-98% of today's range (AMD, AVGO, TSM, AMAT, NVDA all flagged as chase-risk in orders_dropped_at_last_check), I'll let the existing resting buy_limits and CCJ brackets do their job into the close instead of buying at market into extended prices with no time left to actually hold the position.
+lesson: In the final 30-minute window before close, new market buys have almost no time to work before the hard 30-min exit collides with market close — better to let existing dip/limit orders and CCJ's bracket manage the last stretch than chase extended names.
+~ WORKING buy_limit $1000.00 MSFT @ $496.56 until 2026-09-23 — strong month, weak day: resting 0.43% under $498.73 to catch the dip
+~ WORKING buy_limit $1000.00 GOOGL @ $351.32 until 2026-09-23 — strong month, weak day: resting 0.51% under $353.12 to catch the dip
+~ WORKING buy_limit $1000.00 TTD @ $13.06 until 2026-09-23 — strong month, weak day: resting 1.04% under $13.20 to catch the dip
+portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
+Decision: nothing at this check. 27 standing order(s) working.

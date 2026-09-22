@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-22 15:10 ET
+# Pretend portfolio — 2026-09-22 15:25 ET
 
-**Equity $32822.86** on $25000.00 put in → **+31.29%**  
-Cash $28864.45 · Unrealised -1.59 · Realised +7824.45
+**Equity $32824.54** on $25000.00 put in → **+31.30%**  
+Cash $28864.45 · Unrealised +0.09 · Realised +7824.45
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| CCJ | 12.1% | $3958.42 | $94.71 | $94.67 | -0.04% | 0d |
+| CCJ | 12.1% | $3960.09 | $94.71 | $94.71 | +0.00% | 0d |
 
 ## Last fills
 
