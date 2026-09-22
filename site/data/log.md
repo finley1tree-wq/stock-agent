@@ -1,6 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Still below min_positions (3 held, need 8) with 68% cash idle and 3 checks left today - the counterfactual data shows idle sitting has real cost (idle_universe_avg_pct 0.63%) and past lessons consistently show market orders close the gap while limits don't fill. Adding NVDA, TSM, PLTR, AMAT as market buys with protective stops, all backed by concrete momentum/news/congress evidence, to push toward min_positions while avoiding cooldown names (AVGO, IBM, GOOGL, NOC) and not chasing extreme-range names.
 lesson: Market orders with attached stops are the only thing that reliably closes the position-count gap; keep sizing at $2-2.5k per name and prioritize non-cooldown, evidence-backed tickers each check until min_positions is met.
   (dropped NVDA: 92% up today's range — resting a limit at $224.92 instead of chasing)
   (dropped AMAT: 100% up today's range — resting a limit at $458.87 instead of chasing)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [take_profit @ $135.56] -> $2311.84 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $377.63] -> $2314.30 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-22 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 6933.74,
+  "spent": 4619.44,
   "deployed": 156958.36,
   "by_ticker": {
     "NOC": 33.02,
@@ -9,7 +9,6 @@
     "GLD": 2308.69,
     "AMD": 1.01,
     "PLTR": 2.84,
-    "UNH": 2309.66,
     "MSFT": 17.76,
     "HLI": 9.7,
     "NVDA": 2307.69
@@ -2752,13 +2751,34 @@
       ],
       "evidence": "average cost $135.31",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 6.128423,
+      "status": "filled",
+      "price": 377.63,
+      "proceeds": 2314.3,
+      "realized_pnl": 6.61,
+      "realized_pct": 0.29,
+      "date": "2026-09-22",
+      "time_et": "10:03",
+      "ts": 1790085600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $376.56",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 6933.74,
+  "spent_today": 4619.44,
   "deployed_today": 35623.59,
   "orders_today": 16,
-  "sells_today": 13,
+  "sells_today": 14,
   "sold_today": [
     "AMD",
     "MSFT",
@@ -2772,7 +2792,8 @@
     "AVGO",
     "IBM",
     "NOC",
-    "PLD"
+    "PLD",
+    "UNH"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -2790,7 +2811,7 @@
     "PLD": 1790085708,
     "TSM": 1790084112,
     "AVGO": 1790085662,
-    "UNH": 1790020340,
+    "UNH": 1790085789,
     "IBM": 1790085662,
     "META": 1790003914,
     "GOOGL": 1790084112,
@@ -2799,29 +2820,26 @@
     "HLI": 1790085321,
     "CRWD": 1790085367
   },
-  "last_publish_ts": 1790085707,
-  "last_check_ts": 1790085707,
+  "last_publish_ts": 1790085788,
+  "last_check_ts": 1790085788,
   "last_bar_ts": 1790085600,
   "last_decision_ts": 1790085260,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "ce8f3880": 772.4819,
-    "110b363c": 377.6332,
     "e50fb60f": 340.0182,
+    "ce8f3880": 772.4819,
     "11503185": 398.3313,
-    "0fc494f4": 226.3061,
     "337a96ee": 395.6279,
-    "2bf19c12": 501.3056,
     "fc3ce88d": 228.3134,
+    "0fc494f4": 226.3061,
     "6a67aad1": 152.4289,
+    "2bf19c12": 501.3056,
     "e92ad4d7": 226.0277,
-    "db755e06": 373.8714,
     "ed4babdf": 750249.2478,
     "a146788c": 737.9695,
     "5592886c": 460.5895,
     "0a2845a0": 220.8302,
-    "302ce751": 385.6332,
-    "df4fbe8d": 365.2632
+    "302ce751": 385.6332
   }
 }

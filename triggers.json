@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "0d3b94e8",
-   "ticker": "OKLO",
-   "kind": "stop_loss",
-   "price": 39.1533,
-   "status": "cancelled",
-   "created": "2026-09-21 09:43",
-   "created_ts": 1789998216,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $39.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "0a31753d",
    "ticker": "OKLO",
    "kind": "buy_limit",
@@ -7214,7 +7195,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 377.6332,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "close 100% at +0.3% over the average cost",
@@ -7224,14 +7205,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:03"
   },
   {
    "id": "db755e06",
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 373.8714,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "close it all at -0.7% under the average cost",
@@ -7241,14 +7223,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:02",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "df4fbe8d",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.2632,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 09:54",
    "created_ts": 1790085260,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7258,7 +7242,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 10:03",
+   "cancel_reason": "position closed"
   },
   {
    "id": "946cd4f4",
@@ -7534,7 +7520,26 @@
    "good_until": "2026-09-27",
    "pct_of_position": 100.0,
    "closed": "2026-09-22 10:01"
+  },
+  {
+   "id": "90fa7bfa",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 376.974,
+   "status": "cancelled",
+   "created": "2026-09-22 10:02",
+   "created_ts": 1790085742,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $376.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 10:03",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-22 10:01"
+ "updated": "2026-09-22 10:03"
 }

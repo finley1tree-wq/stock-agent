@@ -14135,3 +14135,6 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $6846.17 this week
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [take_profit @ $135.56] -> $2311.84 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $377.63] -> $2314.30 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-22 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
