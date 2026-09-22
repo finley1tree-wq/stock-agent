@@ -1,32 +1,5 @@
   (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain: Below min_positions (5 of 8) with 52% cash idle - need to close the gap. TSM/AVGO/UNH cooldowns expire in 34/3/6 minutes respectively so orders should clear by execution given the 15-min check cadence, consistent with the lesson about near-expiry cooldowns. Sizing at ~$2,100-2,200 each keeps positions meaningful without over-concentrating, backed by concrete headlines and momentum data.
-lesson: Queuing buys on names with cooldowns under ~35min continues to test the assumption that they clear by fill time; verify at next check whether these three filled or were dropped.
-  (dropped TSM: sold 11 min ago, cooling off)
-  (dropped AVGO: sold 42 min ago, cooling off)
-  (dropped UNH: sold 40 min ago, cooling off)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger AVGO stop_loss: not held)
-  (dropped trigger UNH stop_loss: not held)
-~ WORKING buy_limit $1000.00 CRWD @ $245.13 until 2026-09-23 — strong month, weak day: resting 1.04% under $247.72 to catch the dip
-~ WORKING buy_limit $1000.00 TTD @ $13.18 until 2026-09-23 — strong month, weak day: resting 1.01% under $13.32 to catch the dip
-portfolio: equity $32802.44 (+31.21% on $25000.00 in) · cash $20850.43 · realised +7850.43
-Decision: nothing at this check. 23 standing order(s) working.
-- SELL 100% CHRW [time stop] -> $995.21 (-0.48%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-22 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% AMD [time stop] -> $2986.77 (-0.44%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% GOOGL [time stop] -> $2986.94 (-0.44%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% CCJ [time stop] -> $2507.10 (+0.28%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% PLTR [time stop] -> $2496.68 (-0.13%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-22 10:56 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-22 10:57 ET (Tuesday) — week 2026-W39 — budget left $24991.79 (today $54123.59 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
 brain: Flat book with 100% idle cash and full_deployment active - must build to min_positions in size. Deployed across defense dip (NOC/RTX/LMT all down 3%+ intraday, near day lows), nuclear momentum (OKLO/NLR), congress-backed HUBB, news-driven IBM and PLD. Avoided all cooldown names (AMD, CCJ, TSM, META, GOOGL, GLD, AAPL, NVDA, CHRW, PLTR) per past lesson about checking cooldowns first.
 lesson: Defense stocks selling off together intraday (NOC/RTX/LMT all -3%+) is a sector move worth buying near day lows with tight stops rather than individual stock-picking; verify next check if this rebounded or kept falling.
   (dropped AMD: sold 1 min ago, cooling off)
@@ -398,3 +371,30 @@ lesson: Sitting on 87.7% idle cash with only 1 position while resting limits kee
 ~ WORKING buy_limit $500.00 CCJ @ $91.62 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32794.85 (+31.18% on $25000.00 in) · cash $26798.79 · realised +7798.79
 Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $18936.02 this week
+
+## 2026-09-22 13:35 ET (Tuesday) — week 2026-W39 — budget left $18936.02 (today $135938.18 put to work, 57 buys, 54 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 2 positions held vs min_positions=8, cash_idle_pct 75.7% - clear signal to deploy per full_deployment instructions and repeated past lessons. Adding sized buys in the best-performing sector (widely_held, 5.48% avg_ret in track record) plus AMAT on congress signal and adding to existing AMD winner. Avoided cooling-off names (GOOGL, META already... wait META not cooling actually list shows META 18min left) - checked cooling_off_minutes_left excludes META still listed with 18min, so buying META now would be blocked/dropped by guardrail; keeping it as a calculated risk since evidence is strong, if dropped no harm.
+lesson: Deploying into widely_held sector names with concrete news evidence when below min_positions and idle cash is high, per repeated past lesson pattern; watch whether META order gets blocked by cooldown.
+  (dropped META: sold 28 min ago, cooling off)
+  (dropped AMAT: 86% up today's range — resting a limit at $462.70 instead of chasing)
+  (dropped TSM: 89% up today's range — resting a limit at $445.26 instead of chasing)
+- BUY $2500.00 NVDA [filled] ['momentum', 'news', 'track_record'] — Core AI momentum name in best-performing sector, currently 80% of day range, buying at market given full deployment mandate | evidence: NVDA +0.84% today, +8.07% 5d, widely_held sector had 5.48% avg_ret in track record - best sector; headline 'AI Fears Are Reaching Fever Pitch But I'm Not Slowing Down My Nvidia Accumulation'
+- BUY $1500.00 AMD [filled] ['momentum', 'news'] — Add to existing AMD position on continued strength, momentum 22.49% 5d | evidence: AMD joined $1T market cap club, Nasdaq surged 2% on chip rally; already hold 1 tranche +0.05%, adding to winner
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+  (dropped trigger TSM buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% NVDA @ $222.40 until 2026-09-22 — Protective stop on new NVDA buy
+~ WORKING take_profit 100% NVDA @ $230.00 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $222.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CHRW @ $150.13 until 2026-09-23 — strong month, weak day: resting 0.51% under $150.91 to catch the dip
+~ WORKING buy_limit $1000.00 MSFT @ $494.47 until 2026-09-23 — strong month, weak day: resting 0.44% under $496.64 to catch the dip
+portfolio: equity $32786.84 (+31.15% on $25000.00 in) · cash $22798.79 · realised +7798.79
+Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $14936.02 this week
