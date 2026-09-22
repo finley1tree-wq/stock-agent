@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 3998.32,
+  "spent": 32.71,
   "deployed": 284996.11,
   "by_ticker": {
     "NOC": 37.2,
@@ -18,8 +18,7 @@
     "AMZN": 7.48,
     "RTX": 6.86,
     "AAPL": 1.17,
-    "META": 6.42,
-    "CCJ": 3960.0
+    "META": 6.42
   },
   "deployed_by_ticker": {
     "AMD": 30700.0,
@@ -4774,13 +4773,33 @@
         "news"
       ],
       "evidence": "CCJ +3.79% 5d, 'Westinghouse Could IPO at $50 Billion Valuation, Cameco stake worth $24.5B' 9/21 headline, nuclear sector 90% hit_rate in track record"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 41.812788,
+      "status": "filled",
+      "price": 94.84,
+      "proceeds": 3965.61,
+      "realized_pnl": 5.61,
+      "realized_pct": 0.14,
+      "date": "2026-09-22",
+      "time_et": "15:40",
+      "ts": 1790106052,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.18% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 3998.32,
+  "spent_today": 32.71,
   "deployed_today": 163661.34,
   "orders_today": 70,
-  "sells_today": 66,
+  "sells_today": 67,
   "sold_today": [
     "AMD",
     "MSFT",
@@ -4818,7 +4837,7 @@
     "PLTR": 1790099906,
     "MSFT": 1790101753,
     "OKLO": 1790089661,
-    "CCJ": 1790099683,
+    "CCJ": 1790106052,
     "LMT": 1790089354,
     "TTD": 1790101793,
     "NOC": 1790097159,
@@ -4840,15 +4859,11 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790105967,
-  "last_check_ts": 1790105967,
-  "last_bar_ts": 1790105700,
+  "last_publish_ts": 1790106052,
+  "last_check_ts": 1790106052,
+  "last_bar_ts": 1790106000,
   "last_decision_ts": 1790105126,
   "next_check_minutes": 30,
   "autopiloted": false,
-  "book_px": {
-    "b5bdba27": 95.0813,
-    "c0b4984b": 92.0,
-    "0a2db719": 91.8687
-  }
+  "book_px": {}
 }

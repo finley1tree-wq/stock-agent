@@ -1,7 +1,3 @@
-  (dropped TSM: sold 13 min ago, cooling off)
-  (dropped GOOGL: sold 13 min ago, cooling off)
-  (dropped CCJ: sold 13 min ago, cooling off)
-- BUY $3000.00 MSFT [filled] ['congress', 'news'] — Large congressional buy pressure plus positive AI news catalyst | evidence: Rep. Josh Gottheimer disclosed $250k-1M MSFT buy 2026-08-14, Microsoft 'Scores Positive Reviews On AI Momentum' headline
   (dropped trigger AMD stop_loss: not held)
   (dropped trigger NVDA stop_loss: not held)
   (dropped trigger AVGO stop_loss: not held)
@@ -398,3 +394,7 @@ Decision: nothing at this check. 27 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% CCJ [time stop] -> $3965.61 (+0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 15:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -14869,3 +14869,7 @@ Decision: nothing at this check. 27 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% CCJ [time stop] -> $3965.61 (+0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 15:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

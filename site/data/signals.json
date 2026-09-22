@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-22T15:39-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-22T15:40-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -137,58 +137,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "b5bdba27",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 95.0813,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 95.0,
-   "pct_away": 0.09,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c0b4984b",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 92.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 95.0,
-   "pct_away": -3.16,
-   "good_until": "2026-09-22",
-   "why": "protective stop ~2.8% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "0a2db719",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.8687,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 95.0,
-   "pct_away": -3.3,
-   "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "Last check of the day (15:25, close 16:00) \u2014 max_hold_minutes=30 means any new buy now would be forcibly closed right at/after the close with essentially zero time to work, and no_new_entries would effectively apply given the 30-min window ends at close. CCJ already has a take_profit at 95.08 and st",
  "congress_trades": [
