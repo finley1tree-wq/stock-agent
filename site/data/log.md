@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% UNH @ $375.35 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% UNH @ $371.50 until 2026-09-27 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 UNH @ $363.02 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32866.44 (+31.47% on $25000.00 in) · cash $18874.77 · realised +7874.77
 Done: 1 sell(s), 4 buy(s) (incl. 1 from standing orders); 29 order(s) working; budget left $11043.43 this week
   (cancelled 2 standing order(s) on PLD: position closed)
@@ -397,4 +394,7 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
 ## 2026-09-22 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 3 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $497.59] -> $2505.83 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-22 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $13.25] -> $1005.18 (+0.52%) — close 100% at +0.6% over the average cost
 ## 2026-09-22 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
