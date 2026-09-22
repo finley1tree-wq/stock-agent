@@ -14817,3 +14817,5 @@ lesson: On the last check of the day with idle cash, buy at market with protecti
 ~ WORKING buy_limit $1000.00 CHRW @ $148.25 until 2026-09-23 — strong month, weak day: resting 0.54% under $149.06 to catch the dip
 portfolio: equity $32822.86 (+31.29% on $25000.00 in) · cash $28864.45 · realised +7824.45
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week
+  (dropped META: sold 3 min ago, cooling off)
+  (dropped META: sold 4 min ago, cooling off)
