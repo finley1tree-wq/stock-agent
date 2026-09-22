@@ -14744,3 +14744,39 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $13.25] -> $1005.18 (+0.52%) — close 100% at +0.6% over the average cost
 ## 2026-09-22 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% GOOGL [time stop] -> $2498.29 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $1995.68 (-0.22%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $2001.36 (+0.07%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 14:37 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 14:37 ET (Tuesday) — week 2026-W39 — budget left $24968.10 (today $156201.34 put to work, 68 buys, 65 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Book is completely flat (0 positions, 99.9% idle cash) with only 2 checks left today - past lessons consistently show idleness is graded negatively and full_deployment mode explicitly instructs concentrating in up to 6 names. I'm deploying into the widely_held sector (best track record avg_ret 4.86%, 261 trades) plus nuclear (CCJ, best hit rate 90%) and congress-backed AMAT, all with concrete news/momentum evidence and protective stops sized for the account.
+lesson: With near 100% idle cash and 2 checks left, deploy immediately in size across best-performing sectors (widely_held, nuclear) rather than waiting on resting limits - late-day idleness cannot be recovered.
+  (dropped GOOGL: sold 1 min ago, cooling off)
+  (dropped CCJ: sold 44 min ago, cooling off)
+  (dropped AMD: 86% up today's range — resting a limit at $614.94 instead of chasing)
+  (dropped AVGO: 97% up today's range — resting a limit at $362.36 instead of chasing)
+  (dropped TSM: 96% up today's range — resting a limit at $446.08 instead of chasing)
+  (dropped AMAT: 89% up today's range — resting a limit at $463.50 instead of chasing)
+- BUY $3500.00 META [filled] ['news', 'momentum'] — strongest news-driven momentum in widely_held sector, best signal in ranking (news avg_ret 11.25%) | evidence: headline 'Why Muse just added billions to Meta's market cap' and 'Meta stock jumps as Wells Fargo raises price target', +34.47% 1m
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% META @ $712.00 until 2026-09-22 — protect against reversal
+~ WORKING buy_limit $3500.00 AMD @ $614.94 until 2026-09-22 — wanted it, but not at the high — resting at $614.94. strongest momentum name in AI chip rally, widely_held sector has best avg_ret 4.86%
+~ WORKING buy_limit $3000.00 AVGO @ $362.36 until 2026-09-22 — wanted it, but not at the high — resting at $362.36. broadcom riding AI capex theme with strong week momentum
+~ WORKING buy_limit $3000.00 TSM @ $446.08 until 2026-09-22 — wanted it, but not at the high — resting at $446.08. chip supply chain leader, strong capex news catalyst
+~ WORKING buy_limit $2500.00 AMAT @ $463.50 until 2026-09-22 — wanted it, but not at the high — resting at $463.50. congress buy pressure plus semiconductor equipment momentum
+~ WORKING take_profit 100% META @ $742.61 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 META @ $717.40 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32830.16 (+31.32% on $25000.00 in) · cash $29330.86 · realised +7830.86
+Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $21468.10 this week
