@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-22T10:47-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-22T10:56-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,20 +139,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "ce8f3880",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 772.4819,
-   "usd": 1000.0,
-   "pct_of_position": null,
+   "id": "127ecc32",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 93.544,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 773.06,
-   "pct_away": -0.07,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
+   "last": 93.64,
+   "pct_away": -0.1,
+   "good_until": "2026-09-27",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
-    "momentum",
-    "dip_entry"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -163,13 +163,82 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.47,
-   "pct_away": 0.31,
+   "last": 93.64,
+   "pct_away": 0.13,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "ce8f3880",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 772.4819,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 773.65,
+   "pct_away": -0.15,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "2bf19c12",
+   "ticker": "BRK-B",
+   "kind": "buy_limit",
+   "price": 501.3056,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 503.0,
+   "pct_away": -0.34,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "168c0533",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 359.4059,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 360.71,
+   "pct_away": -0.36,
+   "good_until": "2026-09-27",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5592886c",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 460.5895,
+   "usd": 1846.15,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 462.76,
+   "pct_away": -0.47,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
    ]
   },
   {
@@ -180,8 +249,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 497.47,
-   "pct_away": -0.44,
+   "last": 497.62,
+   "pct_away": -0.47,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.43% under $497.39 to catch the dip",
    "signals": [
@@ -197,96 +266,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 361.02,
-   "pct_away": 0.45,
+   "last": 360.71,
+   "pct_away": 0.53,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "168c0533",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 359.4059,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 361.02,
-   "pct_away": -0.45,
-   "good_until": "2026-09-27",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ed4babdf",
-   "ticker": "BRK-A",
-   "kind": "buy_limit",
-   "price": 750249.2478,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 753805.62,
-   "pct_away": -0.47,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "5592886c",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 460.5895,
-   "usd": 1846.15,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 462.89,
-   "pct_away": -0.5,
-   "good_until": "2026-09-22",
-   "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "2bf19c12",
-   "ticker": "BRK-B",
-   "kind": "buy_limit",
-   "price": 501.3056,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 503.88,
-   "pct_away": -0.51,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "4919eaaf",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 611.1117,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 614.88,
-   "pct_away": -0.61,
-   "good_until": "2026-09-27",
-   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -300,10 +283,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 182.51,
-   "pct_away": 0.72,
+   "last": 182.86,
+   "pct_away": 0.53,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ed4babdf",
+   "ticker": "BRK-A",
+   "kind": "buy_limit",
+   "price": 750249.2478,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 755897.75,
+   "pct_away": -0.75,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "4919eaaf",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 611.1117,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 615.91,
+   "pct_away": -0.78,
+   "good_until": "2026-09-27",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "338ee4d1",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 620.9525,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 615.91,
+   "pct_away": 0.82,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -317,61 +351,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 182.51,
-   "pct_away": -0.77,
+   "last": 182.86,
+   "pct_away": -0.96,
    "good_until": "2026-09-27",
    "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c136c6c6",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.1848,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 13.3,
-   "pct_away": -0.87,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "338ee4d1",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 620.9525,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 614.88,
-   "pct_away": 0.99,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f30fc030",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 92.495,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 93.47,
-   "pct_away": -1.04,
-   "good_until": "2026-09-27",
-   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -385,10 +368,27 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 247.73,
-   "pct_away": -1.05,
+   "last": 247.93,
+   "pct_away": -1.13,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "c136c6c6",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 13.1848,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 13.34,
+   "pct_away": -1.16,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 1.01% under $13.32 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -402,8 +402,8 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 746.53,
-   "pct_away": -1.15,
+   "last": 748.39,
+   "pct_away": -1.39,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
    "signals": [
@@ -420,25 +420,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 614.88,
-   "pct_away": -2.49,
-   "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "83773524",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 177.5585,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 182.51,
-   "pct_away": -2.71,
+   "last": 615.91,
+   "pct_away": -2.65,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -454,8 +437,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 361.02,
-   "pct_away": -2.81,
+   "last": 360.71,
+   "pct_away": -2.73,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "83773524",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 177.5585,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 182.86,
+   "pct_away": -2.9,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -471,8 +471,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 93.47,
-   "pct_away": -3.07,
+   "last": 93.64,
+   "pct_away": -3.25,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
