@@ -14599,3 +14599,32 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $17424.22 this week
 ## 2026-09-22 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% AVGO [time stop] -> $2004.98 (+0.25%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 13:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 13:29 ET (Tuesday) — week 2026-W39 — budget left $21936.02 (today $132938.18 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 1 position held with 87.7% cash idle - a clear violation of min_positions=8 target and the owner's explicit full_deployment instruction to concentrate in up to 6 names. Deploying $18k across 6 evidence-backed names (NVDA, TSM, META, GOOGL, AMAT, CCJ) covering AI/semis/nuclear themes with concrete headlines and congress/news signals, each with a protective stop since max_hold_minutes exit is coming regardless.
+lesson: Sitting on 87.7% idle cash with only 1 position while resting limits keep expiring unfilled is worse than buying at market with a protective stop - deploy in size immediately when below min_positions.
+  (dropped META: sold 22 min ago, cooling off)
+  (dropped GOOGL: sold 10 min ago, cooling off)
+  (dropped NVDA: 86% up today's range — resting a limit at $228.41 instead of chasing)
+  (dropped TSM: 90% up today's range — resting a limit at $445.26 instead of chasing)
+  (dropped AMAT: 89% up today's range — resting a limit at $462.70 instead of chasing)
+- BUY $3000.00 CCJ [filled] ['momentum', 'news', 'track_record'] — Nuclear catalyst news plus best hit-rate sector (85%) in track record | evidence: Westinghouse IPO could value at $50B, 'Cameco's Stake Alone Would Be Worth $24.5 Billion', nuclear sector 85% hit_rate in track record
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger TSM buy_limit: duplicate of a working order)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% CCJ @ $91.60 until 2026-09-22 — protective stop ~3% below entry
+~ WORKING take_profit 100% CCJ @ $94.82 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $91.62 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32794.85 (+31.18% on $25000.00 in) · cash $26798.79 · realised +7798.79
+Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $18936.02 this week

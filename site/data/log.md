@@ -1,32 +1,3 @@
-~ WORKING stop_loss 100% AMD @ $611.11 until 2026-09-27 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $599.60 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $362.63 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $359.41 until 2026-09-27 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $350.86 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $447.25 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% TSM @ $443.43 until 2026-09-27 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $432.78 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $93.76 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% CCJ @ $92.50 until 2026-09-27 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 CCJ @ $90.60 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $183.83 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% PLTR @ $181.10 until 2026-09-27 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 PLTR @ $177.56 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 MSFT @ $495.26 until 2026-09-23 — strong month, weak day: resting 0.43% under $497.39 to catch the dip
-portfolio: equity $32835.35 (+31.34% on $25000.00 in) · cash $16840.74 · realised +7840.74
-Done: 0 sell(s), 5 buy(s); 27 order(s) working; budget left $9009.39 this week
-  (cancelled 2 standing order(s) on AAPL: position closed)
-- SELL 100% AAPL [take_profit @ $340.81] -> $1002.34 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-09-22 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $447.25] -> $3007.36 (+0.25%) — close 100% at +0.2% over the average cost
-## 2026-09-22 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-22 10:42 ET (Tuesday) — week 2026-W39 — budget left $13019.09 (today $54123.59 put to work, 24 buys, 19 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
 brain: Below min_positions (5 of 8) with 52% cash idle - need to close the gap. TSM/AVGO/UNH cooldowns expire in 34/3/6 minutes respectively so orders should clear by execution given the 15-min check cadence, consistent with the lesson about near-expiry cooldowns. Sizing at ~$2,100-2,200 each keeps positions meaningful without over-concentrating, backed by concrete headlines and momentum data.
@@ -398,3 +369,32 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $17424.22 this week
 ## 2026-09-22 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% AVGO [time stop] -> $2004.98 (+0.25%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 13:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 13:29 ET (Tuesday) — week 2026-W39 — budget left $21936.02 (today $132938.18 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Only 1 position held with 87.7% cash idle - a clear violation of min_positions=8 target and the owner's explicit full_deployment instruction to concentrate in up to 6 names. Deploying $18k across 6 evidence-backed names (NVDA, TSM, META, GOOGL, AMAT, CCJ) covering AI/semis/nuclear themes with concrete headlines and congress/news signals, each with a protective stop since max_hold_minutes exit is coming regardless.
+lesson: Sitting on 87.7% idle cash with only 1 position while resting limits keep expiring unfilled is worse than buying at market with a protective stop - deploy in size immediately when below min_positions.
+  (dropped META: sold 22 min ago, cooling off)
+  (dropped GOOGL: sold 10 min ago, cooling off)
+  (dropped NVDA: 86% up today's range — resting a limit at $228.41 instead of chasing)
+  (dropped TSM: 90% up today's range — resting a limit at $445.26 instead of chasing)
+  (dropped AMAT: 89% up today's range — resting a limit at $462.70 instead of chasing)
+- BUY $3000.00 CCJ [filled] ['momentum', 'news', 'track_record'] — Nuclear catalyst news plus best hit-rate sector (85%) in track record | evidence: Westinghouse IPO could value at $50B, 'Cameco's Stake Alone Would Be Worth $24.5 Billion', nuclear sector 85% hit_rate in track record
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger TSM buy_limit: duplicate of a working order)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% CCJ @ $91.60 until 2026-09-22 — protective stop ~3% below entry
+~ WORKING take_profit 100% CCJ @ $94.82 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $91.62 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32794.85 (+31.18% on $25000.00 in) · cash $26798.79 · realised +7798.79
+Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $18936.02 this week

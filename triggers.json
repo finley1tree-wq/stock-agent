@@ -1,65 +1,6 @@
 {
  "orders": [
   {
-   "id": "893bd95d",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 711.1424,
-   "status": "cancelled",
-   "created": "2026-09-21 13:22",
-   "created_ts": 1790011373,
-   "why": "wanted it, but not at the high \u2014 resting at $711.14. Strong breakout momentum with fresh bullish broker coverage, buy at market since it keeps running",
-   "evidence": "META +10.67% today, +34.99% 1m, 'We Think Meta Could Keep Soaring Higher and Wells Fargo Agrees' (24/7 Wall St 16:45)",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 3000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "1df19d1b",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 224.6318,
-   "status": "cancelled",
-   "created": "2026-09-21 13:22",
-   "created_ts": 1790011373,
-   "why": "wanted it, but not at the high \u2014 resting at $224.63. Core AI leader continued momentum, filling toward min_positions",
-   "evidence": "NVDA +2.02% today, day range 93%, 'Jensen Huang pushes back on AI extinction fears' fresh coverage",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "f80bfedf",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 356.7267,
-   "status": "cancelled",
-   "created": "2026-09-21 13:22",
-   "created_ts": 1790011373,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $355.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "8a183651",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -7513,7 +7454,57 @@
    "usd": 500.0,
    "closed": "2026-09-22 13:20",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "274b94e6",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 91.6,
+   "status": "working",
+   "created": "2026-09-22 13:29",
+   "created_ts": 1790098168,
+   "why": "protective stop ~3% below entry",
+   "evidence": "ATR 3.517%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "84b423f0",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 94.8184,
+   "status": "working",
+   "created": "2026-09-22 13:29",
+   "created_ts": 1790098168,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $94.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "051259d0",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 91.6165,
+   "status": "working",
+   "created": "2026-09-22 13:29",
+   "created_ts": 1790098168,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $94.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-22 13:20"
+ "updated": "2026-09-22 13:29"
 }
