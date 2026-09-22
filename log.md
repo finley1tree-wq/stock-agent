@@ -14432,3 +14432,16 @@ lesson: With remaining_budget_usd near the min_order floor, sizing into an exist
 ~ WORKING buy_limit $500.00 IBP @ $203.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32824.93 (+31.30% on $25000.00 in) · cash $7928.94 · realised +7862.77
 Done: 0 sell(s), 1 buy(s); 32 order(s) working; budget left $66.17 this week
+
+## 2026-09-22 12:10 ET (Tuesday) — week 2026-W39 — budget left $66.17 (today $107057.42 put to work, 45 buys, 37 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Book is already effectively full: 7 positions totaling ~$24,900 of the $25k weekly budget (full_deployment concentration mode active, max 6 names is a soft guide but 7 held is fine). Remaining_budget_usd is only $66.17 - below min_order_usd of $100, so any new buy order would be dropped by guardrails regardless. All 7 positions were just opened 26 minutes ago with full auto_bracket stop/take-profit/scale-in triggers already working (visible in working_orders: stop_loss, take_profit, trailing_stop, and add-on buy_limits for AMD, GOOGL, CCJ, TSM, PLTR, IBP, NEM). No fresh evidence has emerged since the last check to justify selling a young position early (min_hold_days=0 allows it, but nothing here shows a thesis broken - GOOGL/PLTR/CCJ are only fractionally red, well within ATR noise). Best move is to let the existing brackets work and check back soon in case a stop/take-profit fires or a dip-limit fills, freeing capital for redeployment.
+lesson: When remaining_budget_usd is below min_order_usd right after a full deployment sweep, there is nothing actionable to buy - just monitor existing brackets rather than force an order that guardrails will drop.
+portfolio: equity $32828.79 (+31.32% on $25000.00 in) · cash $7928.94 · realised +7862.77
+Decision: nothing at this check. 32 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
