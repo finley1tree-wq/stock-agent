@@ -29006,5 +29006,55 @@
     "code_version": "3ee6a7f",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 6.053891,
+    "status": "filled",
+    "price": 496.7,
+    "proceeds": 3007.0,
+    "realized_pnl": 7.0,
+    "realized_pct": 0.23,
+    "date": "2026-09-22",
+    "time_et": "12:48",
+    "ts": 1790095500,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $495.55",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "781dc2d"
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 6.604514,
+    "status": "filled",
+    "price": 150.84,
+    "proceeds": 996.22,
+    "realized_pnl": -3.78,
+    "realized_pct": -0.38,
+    "date": "2026-09-22",
+    "time_et": "12:49",
+    "ts": 1790095767,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "dip_entry",
+      "intraday_limit",
+      "momentum",
+      "standing_order",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.34% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "781dc2d"
   }
 ]

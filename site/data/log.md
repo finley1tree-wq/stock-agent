@@ -1,8 +1,3 @@
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [stop_loss @ $360.61] -> $2310.60 (+0.13%) — close it all at -0.8% under the average cost
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [stop_loss @ $233.27] -> $2309.06 (+0.06%) — close it all at -0.9% under the average cost
-## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [stop_loss @ $516.03] -> $2292.66 (-0.65%) — close it all at -0.6% under the average cost
   (cancelled 2 standing order(s) on PLD: position closed)
@@ -398,3 +393,8 @@ lesson: Full deployment mode with 83.8% idle cash and 2 positions is the cleares
 ~ WORKING buy_limit $500.00 RTX @ $184.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32801.77 (+31.21% on $25000.00 in) · cash $14426.39 · realised +7807.15
 Done: 0 sell(s), 6 buy(s); 33 order(s) working; budget left $6563.63 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $496.70] -> $3007.00 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-22 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CHRW [time stop] -> $996.22 (-0.38%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 12:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
