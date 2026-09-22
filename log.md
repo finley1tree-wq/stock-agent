@@ -14244,3 +14244,56 @@ portfolio: equity $32802.44 (+31.21% on $25000.00 in) · cash $20850.43 · reali
 Decision: nothing at this check. 23 standing order(s) working.
 - SELL 100% CHRW [time stop] -> $995.21 (-0.48%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMD [time stop] -> $2986.77 (-0.44%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $2986.94 (-0.44%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $2507.10 (+0.28%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $2496.68 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 10:56 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 10:57 ET (Tuesday) — week 2026-W39 — budget left $24991.79 (today $54123.59 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain: Flat book with 100% idle cash and full_deployment active - must build to min_positions in size. Deployed across defense dip (NOC/RTX/LMT all down 3%+ intraday, near day lows), nuclear momentum (OKLO/NLR), congress-backed HUBB, news-driven IBM and PLD. Avoided all cooldown names (AMD, CCJ, TSM, META, GOOGL, GLD, AAPL, NVDA, CHRW, PLTR) per past lesson about checking cooldowns first.
+lesson: Defense stocks selling off together intraday (NOC/RTX/LMT all -3%+) is a sector move worth buying near day lows with tight stops rather than individual stock-picking; verify next check if this rebounded or kept falling.
+  (dropped AMD: sold 1 min ago, cooling off)
+  (dropped CCJ: sold 1 min ago, cooling off)
+  (dropped AAPL: sold 30 min ago, cooling off)
+- BUY $3000.00 OKLO [filled] ['momentum', 'news'] — Strong nuclear momentum, sector backtest priors show nuclear historically top sector, not in cooldown | evidence: OKLO +11.26% 5d, +76% pct_of_day_range, nuclear headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now'
+- BUY $2500.00 NOC [filled] ['momentum', 'risk_management'] — Defense name sold off sharply intraday, buying the dip with tight stop | evidence: NOC down -3.57% today to $507.88, near day low (6.1% of range) - oversold defense name after Boeing headline noise
+- BUY $2500.00 RTX [filled] ['momentum'] — Defense dip entry, low in range, not in cooldown | evidence: RTX down -3.26% today at 12.4% of day range, defense sector selloff on Boeing jet-business headlines
+- BUY $2000.00 LMT [filled] ['momentum'] — Deep defense pullback, buying low in range with stop protection | evidence: LMT -3.35% today, at 8.8% of day range - among lowest in range across watchlist
+- BUY $2000.00 IBM [filled] ['news'] — Not in cooldown, news-driven dip, quantum computing catalyst | evidence: IBM headline 'IBM Drops as $2 Billion Builds a Quantum Manufacturing Platform', at 25.9% of day range
+- BUY $2000.00 PLD [filled] ['news'] — Real estate data-center growth story, low in range | evidence: headline 'Prologis Sees Leasing Surge, Data Centers Fuel Growth Outlook', 13.1% of day range
+- BUY $2000.00 HUBB [filled] ['congress', 'momentum'] — Congressional buy pressure plus low-in-range entry | evidence: Rep. April McClain Delaney bought HUBB, congress_net_buy_pressure 3.0, at 20.6% of day range
+- BUY $2000.00 NLR [filled] ['momentum'] — Nuclear theme diversification, backtest shows nuclear sector strongest 2y/5y window | evidence: NLR nuclear ETF theme, +2.1% 5d, at 43.7% of day range, not held/cooldown
+~ WORKING stop_loss 100% NOC @ $495.00 until 2026-09-22 — protect against further defense sector slide
+~ WORKING stop_loss 100% RTX @ $183.00 until 2026-09-22 — protect against further defense sector slide
+~ WORKING stop_loss 100% LMT @ $505.00 until 2026-09-22 — protect against further defense sector slide
+~ WORKING take_profit 100% OKLO @ $40.32 until 2026-09-27 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% OKLO @ $39.37 until 2026-09-27 — close it all at -1.7% under the average cost
+~ WORKING buy_limit $500.00 OKLO @ $38.85 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $509.42 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $492.84 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $188.52 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $182.45 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $519.13 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $502.15 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $232.88 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% IBM @ $230.00 until 2026-09-27 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $225.10 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $135.04 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PLD @ $134.16 until 2026-09-27 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 PLD @ $130.75 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $456.90 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HUBB @ $452.35 until 2026-09-27 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 HUBB @ $441.93 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NLR @ $111.10 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NLR @ $109.69 until 2026-09-27 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NLR @ $107.38 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 HLI @ $128.17 until 2026-09-23 — strong month, weak day: resting 0.72% under $129.10 to catch the dip
+portfolio: equity $32815.14 (+31.26% on $25000.00 in) · cash $14823.13 · realised +7823.13
+Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
