@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "c7695ff1",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 365.7773,
-   "status": "cancelled",
-   "created": "2026-09-21 15:28",
-   "created_ts": 1790018906,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $377.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "1f4606bc",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 93.9982,
-   "status": "filled",
-   "created": "2026-09-21 15:28",
-   "created_ts": 1790018906,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $93.62",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 15:37"
-  },
-  {
    "id": "1eab0a0c",
    "ticker": "CCJ",
    "kind": "stop_loss",
@@ -7516,9 +7479,47 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 91.8687,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 15:32",
    "created_ts": 1790105549,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $94.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0,
+   "closed": "2026-09-22 15:33",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "b69f036a",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 91.8687,
+   "status": "cancelled",
+   "created": "2026-09-22 15:33",
+   "created_ts": 1790105589,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $94.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "usd": 500.0,
+   "closed": "2026-09-22 15:33",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "28b9ec60",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 91.8687,
+   "status": "working",
+   "created": "2026-09-22 15:33",
+   "created_ts": 1790105635,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $94.71",
    "signals": [
@@ -7529,5 +7530,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-22 15:32"
+ "updated": "2026-09-22 15:33"
 }
