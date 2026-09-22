@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% NLR @ $109.69 until 2026-09-27 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 NLR @ $107.38 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 HLI @ $128.17 until 2026-09-23 — strong month, weak day: resting 0.72% under $129.10 to catch the dip
 portfolio: equity $32815.14 (+31.26% on $25000.00 in) · cash $14823.13 · realised +7823.13
 Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
   (cancelled 2 standing order(s) on NOC: position closed)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $15177.67 this week
 - SELL 100% CCJ [take_profit @ $94.82] -> $3011.77 (+0.39%) — close 100% at +0.4% over the average cost
 - BUY $1000.00 AAPL [buy_limit @ $340.80] — strong month, weak day: resting 0.43% under $342.29 to catch the dip
 ## 2026-09-22 13:54 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $185.08] -> $2378.53 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-09-22 13:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders

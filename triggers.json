@@ -7375,7 +7375,7 @@
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 178.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:50",
    "created_ts": 1790099447,
    "why": "protect new PLTR position",
@@ -7384,7 +7384,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:58",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9b319e30",
@@ -7407,7 +7409,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 185.0833,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 13:50",
    "created_ts": 1790099447,
    "why": "close 100% at +0.4% over the average cost",
@@ -7417,14 +7419,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:58"
   },
   {
    "id": "5d3a2b8a",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 178.771,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:50",
    "created_ts": 1790099447,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7434,7 +7437,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 13:58",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5bc6f8f1",
@@ -7490,5 +7495,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-22 13:54"
+ "updated": "2026-09-22 13:58"
 }
