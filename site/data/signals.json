@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-22T10:16-04:00",
+ "asOf": "2026-09-22T10:17-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6a67aad1",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 152.4289,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 152.57,
-   "pct_away": -0.09,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 0.48% under $153.17 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "ce8f3880",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -163,8 +146,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 774.42,
-   "pct_away": -0.25,
+   "last": 773.88,
+   "pct_away": -0.18,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
    "signals": [
@@ -173,17 +156,34 @@
    ]
   },
   {
-   "id": "11503185",
+   "id": "337a96ee",
    "ticker": "GLD",
-   "kind": "take_profit",
-   "price": 398.3313,
+   "kind": "stop_loss",
+   "price": 395.6279,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 397.31,
-   "pct_away": 0.26,
+   "last": 396.83,
+   "pct_away": -0.3,
    "good_until": "2026-09-27",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7587886c",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 152.8278,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 152.36,
+   "pct_away": 0.31,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 339.67,
-   "pct_away": 0.34,
+   "last": 339.64,
+   "pct_away": 0.35,
    "good_until": "2026-09-27",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -207,34 +207,17 @@
    ]
   },
   {
-   "id": "337a96ee",
+   "id": "11503185",
    "ticker": "GLD",
-   "kind": "stop_loss",
-   "price": 395.6279,
+   "kind": "take_profit",
+   "price": 398.3313,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 397.31,
-   "pct_away": -0.42,
+   "last": 396.83,
+   "pct_away": 0.38,
    "good_until": "2026-09-27",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d1b6d7d7",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 338.0445,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 339.67,
-   "pct_away": -0.48,
-   "good_until": "2026-09-27",
-   "why": "close it all at -0.6% under the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,13 +231,47 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 503.83,
-   "pct_away": -0.5,
+   "last": 503.32,
+   "pct_away": -0.4,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "d1b6d7d7",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 338.0445,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 339.64,
+   "pct_away": -0.47,
+   "good_until": "2026-09-27",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "66b80875",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 151.4346,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 152.36,
+   "pct_away": -0.61,
+   "good_until": "2026-09-27",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -282,7 +299,7 @@
    "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 467.63,
+   "last": 467.67,
    "pct_away": -1.51,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
@@ -300,31 +317,14 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 754.38,
-   "pct_away": -2.18,
+   "last": 751.14,
+   "pct_away": -1.75,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
    "signals": [
     "news",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "6222c82b",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 329.8194,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 339.67,
-   "pct_away": -2.9,
-   "good_until": "2026-09-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -335,8 +335,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 397.31,
-   "pct_away": -2.94,
+   "last": 396.83,
+   "pct_away": -2.82,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6222c82b",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 329.8194,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 339.64,
+   "pct_away": -2.89,
+   "good_until": "2026-09-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "abf82b38",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 147.8571,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 152.36,
+   "pct_away": -2.96,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
