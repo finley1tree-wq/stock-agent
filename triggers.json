@@ -1,26 +1,6 @@
 {
  "orders": [
   {
-   "id": "5b525ad8",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 223.727,
-   "status": "cancelled",
-   "created": "2026-09-21 11:45",
-   "created_ts": 1790005555,
-   "why": "wanted it, but not at the high \u2014 resting at $223.73. Core AI leader with continued momentum and positive sentiment, not held, not in cooldown",
-   "evidence": "NVDA +1.23% today, +6.66% 5d, pct_of_day_range 87.6, Huang pushing back on AI doomsday fears per Yahoo Finance headline",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "7a9e7821",
    "ticker": "PLTR",
    "kind": "buy_limit",
@@ -7356,7 +7336,7 @@
    "ticker": "AMZN",
    "kind": "stop_loss",
    "price": 254.1936,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 11:12",
    "created_ts": 1790089970,
    "why": "close it all at -0.6% under the average cost",
@@ -7366,7 +7346,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:25",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ba044797",
@@ -7522,7 +7504,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-22 11:17",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "77bd6ae1",
+   "ticker": "AMZN",
+   "kind": "stop_loss",
+   "price": 255.818,
+   "status": "working",
+   "created": "2026-09-22 11:25",
+   "created_ts": 1790090759,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $255.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-22 11:17"
+ "updated": "2026-09-22 11:25"
 }
