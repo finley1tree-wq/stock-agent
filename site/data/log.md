@@ -1,5 +1,3 @@
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
 brain: Flat book with 100% idle cash and full_deployment active - must build to min_positions in size. Deployed across defense dip (NOC/RTX/LMT all down 3%+ intraday, near day lows), nuclear momentum (OKLO/NLR), congress-backed HUBB, news-driven IBM and PLD. Avoided all cooldown names (AMD, CCJ, TSM, META, GOOGL, GLD, AAPL, NVDA, CHRW, PLTR) per past lesson about checking cooldowns first.
 lesson: Defense stocks selling off together intraday (NOC/RTX/LMT all -3%+) is a sector move worth buying near day lows with tight stops rather than individual stock-picking; verify next check if this rebounded or kept falling.
   (dropped AMD: sold 1 min ago, cooling off)
@@ -398,3 +396,5 @@ lesson: Deploying into widely_held sector names with concrete news evidence when
 ~ WORKING buy_limit $1000.00 MSFT @ $494.47 until 2026-09-23 — strong month, weak day: resting 0.44% under $496.64 to catch the dip
 portfolio: equity $32786.84 (+31.15% on $25000.00 in) · cash $22798.79 · realised +7798.79
 Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $14936.02 this week
+- SELL 100% AMD [time stop] -> $4504.81 (+0.11%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 13:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

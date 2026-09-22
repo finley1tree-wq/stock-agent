@@ -7188,7 +7188,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 601.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:14",
    "created_ts": 1790097249,
    "why": "protective stop ~2.5% below entry",
@@ -7197,7 +7197,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:44",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f9471f7b",
@@ -7295,7 +7297,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 620.0886,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:14",
    "created_ts": 1790097249,
    "why": "close 100% at +0.5% over the average cost",
@@ -7305,14 +7307,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 13:44",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f8b5f553",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 598.7616,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 13:14",
    "created_ts": 1790097249,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7322,7 +7326,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 13:44",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "168c009d",
