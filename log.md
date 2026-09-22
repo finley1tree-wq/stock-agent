@@ -14780,3 +14780,40 @@ lesson: With near 100% idle cash and 2 checks left, deploy immediately in size a
 ~ WORKING buy_limit $500.00 META @ $717.40 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32830.16 (+31.32% on $25000.00 in) · cash $29330.86 · realised +7830.86
 Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $21468.10 this week
+- SELL 100% META [time stop] -> $3493.58 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 15:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped META: sold 1 min ago, cooling off)
+
+## 2026-09-22 15:09 ET (Tuesday) — week 2026-W39 — budget left $24961.68 (today $159701.34 put to work, 69 buys, 66 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (dropped META: sold 1 min ago, cooling off)
+brain: This is the last check of the day (checks_left_today=1) with 99.8% cash idle and 0 positions - a clear case where sitting out costs more than acting, per repeated counterfactual evidence (idle_universe_avg_pct positive, avg_regret negative meaning picking beats random). I'm deploying the full remaining budget across 6 widely_held/nuclear names with concrete news/momentum evidence, buying at market since resting limits keep expiring unfilled with only one check left, and pairing every buy with a protective stop given entries are high in the day's range.
+lesson: On the last check of the day with idle cash, buy at market with protective stops rather than resting limits that won't have time to fill before the session ends.
+  (dropped NVDA: 89% up today's range — resting a limit at $228.41 instead of chasing)
+  (dropped AMD: 93% up today's range — resting a limit at $614.94 instead of chasing)
+  (dropped AVGO: 98% up today's range — resting a limit at $362.53 instead of chasing)
+  (dropped TSM: 97% up today's range — resting a limit at $446.97 instead of chasing)
+  (dropped AMAT: 93% up today's range — resting a limit at $463.50 instead of chasing)
+- BUY $3960.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has 90% hit rate historically, Westinghouse IPO catalyst news, cooling off ended | evidence: CCJ +3.79% 5d, 'Westinghouse Could IPO at $50 Billion Valuation, Cameco stake worth $24.5B' 9/21 headline, nuclear sector 90% hit_rate in track record
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% CCJ @ $92.00 until 2026-09-22 — protective stop ~2.8% below entry
+~ WORKING buy_limit $4200.00 AVGO @ $362.53 until 2026-09-22 — wanted it, but not at the high — resting at $362.53. AI capex momentum leader, widely_held sector, buying now given last check of day
+~ WORKING buy_limit $4200.00 TSM @ $446.98 until 2026-09-22 — wanted it, but not at the high — resting at $446.98. Chip supply chain leader with strong momentum and capex catalyst news, widely_held sector
+~ WORKING take_profit 100% CCJ @ $95.08 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $91.87 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $338.72 until 2026-09-23 — strong month, weak day: resting 0.44% under $340.21 to catch the dip
+~ WORKING buy_limit $1000.00 CHRW @ $148.25 until 2026-09-23 — strong month, weak day: resting 0.54% under $149.06 to catch the dip
+portfolio: equity $32822.86 (+31.29% on $25000.00 in) · cash $28864.45 · realised +7824.45
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week

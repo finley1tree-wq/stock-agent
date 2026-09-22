@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 3531.9,
-  "deployed": 281036.11,
+  "spent": 3998.32,
+  "deployed": 284996.11,
   "by_ticker": {
     "NOC": 37.2,
     "IBM": 29.77,
@@ -18,7 +18,8 @@
     "AMZN": 7.48,
     "RTX": 6.86,
     "AAPL": 1.17,
-    "META": 3500.0
+    "META": 6.42,
+    "CCJ": 3960.0
   },
   "deployed_by_ticker": {
     "AMD": 30700.0,
@@ -32,7 +33,7 @@
     "NOC": 13307.69,
     "LMT": 6000.0,
     "RTX": 14431.03,
-    "CCJ": 22925.0,
+    "CCJ": 26885.0,
     "TSM": 17570.26,
     "AVGO": 10474.36,
     "UNH": 13488.45,
@@ -4736,13 +4737,50 @@
         "momentum"
       ],
       "evidence": "headline 'Why Muse just added billions to Meta's market cap' and 'Meta stock jumps as Wells Fargo raises price target', +34.47% 1m"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.732365,
+      "status": "filled",
+      "price": 738.23,
+      "proceeds": 3493.58,
+      "realized_pnl": -6.42,
+      "realized_pct": -0.18,
+      "date": "2026-09-22",
+      "time_et": "15:08",
+      "ts": 1790104104,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.16% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 3960.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 41.812788,
+      "price": 94.71,
+      "date": "2026-09-22",
+      "time_et": "15:09",
+      "ts": 1790104153,
+      "why": "Nuclear sector has 90% hit rate historically, Westinghouse IPO catalyst news, cooling off ended",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "CCJ +3.79% 5d, 'Westinghouse Could IPO at $50 Billion Valuation, Cameco stake worth $24.5B' 9/21 headline, nuclear sector 90% hit_rate in track record"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 3531.9,
-  "deployed_today": 159701.34,
-  "orders_today": 69,
-  "sells_today": 65,
+  "spent_today": 3998.32,
+  "deployed_today": 163661.34,
+  "orders_today": 70,
+  "sells_today": 66,
   "sold_today": [
     "AMD",
     "MSFT",
@@ -4790,7 +4828,7 @@
     "AVGO": 1790098083,
     "UNH": 1790097159,
     "IBM": 1790102224,
-    "META": 1790096904,
+    "META": 1790104105,
     "GOOGL": 1790102224,
     "GLD": 1790087064,
     "AAPL": 1790101272,
@@ -4802,31 +4840,35 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790102272,
-  "last_check_ts": 1790104032,
+  "last_publish_ts": 1790104153,
+  "last_check_ts": 1790104153,
   "last_bar_ts": 1790103900,
-  "last_decision_ts": 1790102272,
-  "next_check_minutes": 30,
+  "last_decision_ts": 1790104153,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "ce8f3880": 772.4819,
     "a146788c": 737.9695,
+    "ce8f3880": 772.4819,
+    "b5bdba27": 95.0813,
+    "6780fdbe": 338.7246,
     "e8705841": 228.414,
-    "76de772a": 742.6075,
+    "3da0659c": 148.2514,
     "8a885c67": 228.205,
+    "f3e0e923": 362.5295,
     "d65fe6e6": 362.359,
     "d7a6a1e7": 93.7625,
     "52fe5468": 614.9406,
+    "b4719002": 446.975,
     "4deb691c": 446.084,
     "ef02e0f8": 445.6,
+    "da7eddf2": 245.1322,
     "61f73ff1": 445.2645,
     "e9e16ef9": 463.5045,
     "ff07d6e0": 462.7015,
-    "da7eddf2": 245.1322,
     "5592886c": 460.5895,
     "06fa679b": 128.1692,
-    "7f819a04": 717.4023,
-    "5f6673cf": 712.0,
+    "c0b4984b": 92.0,
+    "a957fede": 91.8687,
     "2bf19c12": 501.3056,
     "ed4babdf": 750249.2478
   }

@@ -1,146 +1,6 @@
 {
  "orders": [
   {
-   "id": "c4a38a7f",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 358.714,
-   "status": "cancelled",
-   "created": "2026-09-21 14:58",
-   "created_ts": 1790017095,
-   "why": "wanted it, but not at the high \u2014 resting at $358.71. AI semis exposure, widely_held sector strongest track record bucket",
-   "evidence": "AVGO +1.45% today, 'AI Chips Target $21.7 Billion' headline",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "aa045864",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 355.7377,
-   "status": "filled",
-   "created": "2026-09-21 14:58",
-   "created_ts": 1790017095,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $354.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 15:26"
-  },
-  {
-   "id": "38abf1a1",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 344.1948,
-   "status": "cancelled",
-   "created": "2026-09-21 14:58",
-   "created_ts": 1790017095,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $354.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:26",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b9e7c542",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 522.6868,
-   "status": "cancelled",
-   "created": "2026-09-21 15:05",
-   "created_ts": 1790017506,
-   "why": "wanted it, but not at the high \u2014 resting at $522.69. Defense exposure, not held, fresh sector catalyst",
-   "evidence": "NOC defense sector has best hit_rate 0.32 in track record; headline 'Can Rising Ballistic Missile Demand Support Lockheed Martin's Growth' spillover to defense sector",
-   "signals": [
-    "news",
-    "momentum",
-    "track_record",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "640a2a53",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 241.421,
-   "status": "cancelled",
-   "created": "2026-09-21 15:05",
-   "created_ts": 1790017506,
-   "why": "wanted it, but not at the high \u2014 resting at $241.42. Momentum plus congressional buy overlap in cybersecurity theme, not held",
-   "evidence": "CRWD +5.15% today, congress net buy pressure +2.0 (Gilbert Ray Cisneros disclosed buy 2026-09-10/09-04), headline 'Cybersecurity Stocks Extend Gains on AI Safety Warnings'",
-   "signals": [
-    "momentum",
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "4e5fc69a",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 718.0395,
-   "status": "cancelled",
-   "created": "2026-09-21 15:05",
-   "created_ts": 1790017506,
-   "why": "wanted it, but not at the high \u2014 resting at $718.04. Major breakout with concrete catalyst, widely_held sector strength",
-   "evidence": "META +11.91% today, headline 'Trump and Xi dine with AI titans and Meta takes the stage'",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2500.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "ca9990d2",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 459.8297,
-   "status": "cancelled",
-   "created": "2026-09-21 15:05",
-   "created_ts": 1790017506,
-   "why": "wanted it, but not at the high \u2014 resting at $459.83. Momentum plus congressional buying, semis-adjacent",
-   "evidence": "AMAT +4.6% today, congress buy overlap (Josh Gottheimer disclosed 2026-09-14, Jared Moskowitz 2026-08-27), headline 'Applied Materials Jumps 3.6% Behind a $5 Billion India Bet'",
-   "signals": [
-    "momentum",
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-21",
-   "usd": 2000.0,
-   "closed": "2026-09-21 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "e8449d7a",
    "ticker": "NOC",
    "kind": "stop_loss",
@@ -7380,7 +7240,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 712.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:37",
    "created_ts": 1790102272,
    "why": "protect against reversal",
@@ -7389,7 +7249,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 15:08",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "52fe5468",
@@ -7468,7 +7330,7 @@
    "ticker": "META",
    "kind": "take_profit",
    "price": 742.6075,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:37",
    "created_ts": 1790102272,
    "why": "close 100% at +0.4% over the average cost",
@@ -7478,14 +7340,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 15:08",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7f819a04",
    "ticker": "META",
    "kind": "buy_limit",
    "price": 717.4023,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 14:37",
    "created_ts": 1790102272,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7495,8 +7359,130 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
+   "usd": 500.0,
+   "closed": "2026-09-22 15:08",
+   "cancel_reason": "time stop closed the position"
+  },
+  {
+   "id": "c0b4984b",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 92.0,
+   "status": "working",
+   "created": "2026-09-22 15:09",
+   "created_ts": 1790104153,
+   "why": "protective stop ~2.8% below entry",
+   "evidence": "CCJ ATR 3.535%, entry near day high 94.67",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-22",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f3e0e923",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 362.5295,
+   "status": "working",
+   "created": "2026-09-22 15:09",
+   "created_ts": 1790104153,
+   "why": "wanted it, but not at the high \u2014 resting at $362.53. AI capex momentum leader, widely_held sector, buying now given last check of day",
+   "evidence": "AVGO 97.6% of day range, +7.6% 5d, 'AMD Stock Just Sent a Huge AI Signal' 9/22 headline tying broadcom-adjacent AI capex theme",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 4200.0
+  },
+  {
+   "id": "b4719002",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 446.975,
+   "status": "working",
+   "created": "2026-09-22 15:09",
+   "created_ts": 1790104153,
+   "why": "wanted it, but not at the high \u2014 resting at $446.98. Chip supply chain leader with strong momentum and capex catalyst news, widely_held sector",
+   "evidence": "TSM +9.1% 5d, 97.3% of day range, 'TSMC Gains as Packaging Moves Closer to Its Suppliers' 9/22",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-22",
+   "usd": 4200.0
+  },
+  {
+   "id": "b5bdba27",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 95.0813,
+   "status": "working",
+   "created": "2026-09-22 15:09",
+   "created_ts": 1790104153,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $94.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a957fede",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 91.8687,
+   "status": "working",
+   "created": "2026-09-22 15:09",
+   "created_ts": 1790104153,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $94.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-27",
    "usd": 500.0
+  },
+  {
+   "id": "6780fdbe",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 338.7246,
+   "status": "working",
+   "created": "2026-09-22 15:09",
+   "created_ts": 1790104153,
+   "why": "strong month, weak day: resting 0.44% under $340.21 to catch the dip",
+   "evidence": "+10.0% over the month, sitting at 22% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 1000.0
+  },
+  {
+   "id": "3da0659c",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 148.2514,
+   "status": "working",
+   "created": "2026-09-22 15:09",
+   "created_ts": 1790104153,
+   "why": "strong month, weak day: resting 0.54% under $149.06 to catch the dip",
+   "evidence": "+5.2% over the month, sitting at 16% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-22 14:37"
+ "updated": "2026-09-22 15:09"
 }

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-22T14:38-04:00",
- "note": "Book is completely flat (0 positions, 99.9% idle cash) with only 2 checks left today - past lessons consistently show idleness is graded negatively and full_deployment mode explicitly instructs concentrating in up to 6 names. I'm deploying into the widely_held sector (best track record avg_ret 4.86%",
+ "asOf": "2026-09-22T15:10-04:00",
+ "note": "This is the last check of the day (checks_left_today=1) with 99.8% cash idle and 0 positions - a clear case where sitting out costs more than acting, per repeated counterfactual evidence (idle_universe_avg_pct positive, avg_regret negative meaning picking beats random). I'm deploying the full remain",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,24 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "a146788c",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 737.9695,
+   "usd": 3500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 737.9,
+   "pct_away": 0.01,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
    "id": "ce8f3880",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -146,8 +164,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 773.91,
-   "pct_away": -0.18,
+   "last": 773.92,
+   "pct_away": -0.19,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
    "signals": [
@@ -156,21 +174,37 @@
    ]
   },
   {
-   "id": "a146788c",
-   "ticker": "META",
+   "id": "b5bdba27",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 95.0813,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 94.67,
+   "pct_away": 0.43,
+   "good_until": "2026-09-27",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6780fdbe",
+   "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 737.9695,
-   "usd": 3500.0,
+   "price": 338.7246,
+   "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 739.44,
-   "pct_away": -0.2,
-   "good_until": "2026-09-22",
-   "why": "wanted it, but not at the high \u2014 resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking",
+   "last": 340.21,
+   "pct_away": -0.44,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.44% under $340.21 to catch the dip",
    "signals": [
-    "news",
     "momentum",
-    "patience"
+    "dip_entry"
    ]
   },
   {
@@ -181,8 +215,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.36,
-   "pct_away": -0.41,
+   "last": 229.59,
+   "pct_away": -0.51,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $228.41. Core AI momentum name, widely_held sector strongest performer",
    "signals": [
@@ -192,20 +226,20 @@
    ]
   },
   {
-   "id": "76de772a",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 742.6075,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "3da0659c",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 148.2514,
+   "usd": 1000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 739.44,
-   "pct_away": 0.43,
-   "good_until": "2026-09-27",
-   "why": "close 100% at +0.4% over the average cost",
+   "last": 149.06,
+   "pct_away": -0.54,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 0.54% under $149.06 to catch the dip",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -216,10 +250,28 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.36,
-   "pct_away": -0.5,
+   "last": 229.59,
+   "pct_away": -0.6,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "f3e0e923",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 362.5295,
+   "usd": 4200.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 365.04,
+   "pct_away": -0.69,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $362.53. AI capex momentum leader, widely_held sector, buying now given last check of day",
    "signals": [
     "momentum",
     "news",
@@ -234,8 +286,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 364.7,
-   "pct_away": -0.64,
+   "last": 365.04,
+   "pct_away": -0.73,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $362.36. broadcom riding AI capex theme with strong week momentum",
    "signals": [
@@ -252,8 +304,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 94.44,
-   "pct_away": -0.72,
+   "last": 94.67,
+   "pct_away": -0.96,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst",
    "signals": [
@@ -270,10 +322,28 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 619.8,
-   "pct_away": -0.78,
+   "last": 620.97,
+   "pct_away": -0.97,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $614.94. strongest momentum name in AI chip rally, widely_held sector has best avg_ret 4.86%",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "b4719002",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 446.975,
+   "usd": 4200.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 451.42,
+   "pct_away": -0.98,
+   "good_until": "2026-09-22",
+   "why": "wanted it, but not at the high \u2014 resting at $446.98. Chip supply chain leader with strong momentum and capex catalyst news, widely_held sector",
    "signals": [
     "momentum",
     "news",
@@ -288,8 +358,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 449.68,
-   "pct_away": -0.8,
+   "last": 451.42,
+   "pct_away": -1.18,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $446.08. chip supply chain leader, strong capex news catalyst",
    "signals": [
@@ -306,14 +376,31 @@
    "usd": 2484.48,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 449.68,
-   "pct_away": -0.91,
+   "last": 451.42,
+   "pct_away": -1.29,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $445.60. Strong semiconductor capex story, momentum intact",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "da7eddf2",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 245.1322,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 248.49,
+   "pct_away": -1.35,
+   "good_until": "2026-09-23",
+   "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -324,8 +411,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 449.68,
-   "pct_away": -0.98,
+   "last": 451.42,
+   "pct_away": -1.36,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $445.26. High momentum widely_held semiconductor name riding AI capex wave",
    "signals": [
@@ -342,8 +429,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 469.66,
-   "pct_away": -1.31,
+   "last": 470.37,
+   "pct_away": -1.46,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $463.50. congress buy pressure plus semiconductor equipment momentum",
    "signals": [
@@ -360,8 +447,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 469.66,
-   "pct_away": -1.48,
+   "last": 470.37,
+   "pct_away": -1.63,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $462.70. Congress buy pressure plus semiconductor equipment momentum",
    "signals": [
@@ -372,23 +459,6 @@
    ]
   },
   {
-   "id": "da7eddf2",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 245.1322,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 249.55,
-   "pct_away": -1.77,
-   "good_until": "2026-09-23",
-   "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "5592886c",
    "ticker": "AMAT",
    "kind": "buy_limit",
@@ -396,8 +466,8 @@
    "usd": 1846.15,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 469.66,
-   "pct_away": -1.93,
+   "last": 470.37,
+   "pct_away": -2.08,
    "good_until": "2026-09-22",
    "why": "wanted it, but not at the high \u2014 resting at $460.59. Congressional buy pressure plus India expansion capex news, near day high but adding modest size",
    "signals": [
@@ -414,8 +484,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 131.91,
-   "pct_away": -2.84,
+   "last": 131.78,
+   "pct_away": -2.74,
    "good_until": "2026-09-23",
    "why": "strong month, weak day: resting 0.72% under $129.10 to catch the dip",
    "signals": [
@@ -424,36 +494,36 @@
    ]
   },
   {
-   "id": "7f819a04",
-   "ticker": "META",
+   "id": "c0b4984b",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 92.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 94.67,
+   "pct_away": -2.82,
+   "good_until": "2026-09-22",
+   "why": "protective stop ~2.8% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "a957fede",
+   "ticker": "CCJ",
    "kind": "buy_limit",
-   "price": 717.4023,
+   "price": 91.8687,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 739.44,
-   "pct_away": -2.98,
+   "last": 94.67,
+   "pct_away": -2.96,
    "good_until": "2026-09-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "5f6673cf",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 712.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 739.44,
-   "pct_away": -3.71,
-   "good_until": "2026-09-22",
-   "why": "protect against reversal",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -491,8 +561,8 @@
    ]
   }
  ],
- "last_reasoning": "Book is completely flat (0 positions, 99.9% idle cash) with only 2 checks left today - past lessons consistently show idleness is graded negatively and full_deployment mode explicitly instructs concentrating in up to 6 names. I'm deploying into the widely_held sector (best track record avg_ret 4.86%",
- "next_check_minutes": 30,
+ "last_reasoning": "This is the last check of the day (checks_left_today=1) with 99.8% cash idle and 0 positions - a clear case where sitting out costs more than acting, per repeated counterfactual evidence (idle_universe_avg_pct positive, avg_regret negative meaning picking beats random). I'm deploying the full remain",
+ "next_check_minutes": 15,
  "allowed": [
   "AAPL",
   "AMAT",
@@ -543,22 +613,22 @@
   "excluded_instruments": [
    "AORT excluded: too thinly traded ($17.9M a day) \u2014 Artivion, Inc.",
    "BBD excluded: share price $3.50 is below $5: the spread eats the trade \u2014 Banco Bradesco S.A.",
-   "BZUN excluded: too thinly traded ($0.6M a day) \u2014 Baozun Inc.",
+   "BCBP excluded: too thinly traded ($1.9M a day) \u2014 BCB Bancorp, Inc.",
+   "BUKS excluded: too thinly traded ($0.3M a day) \u2014 Butler National Corporation",
    "CTTH excluded: too thinly traded ($0.0M a day) \u2014 CTT Pharmaceutical Holdings, Inc.",
    "CULP excluded: too thinly traded ($0.3M a day) \u2014 Culp, Inc.",
-   "DUOT excluded: too thinly traded ($8.8M a day) \u2014 Duos Technologies Group, Inc.",
    "EPAC excluded: too thinly traded ($16.4M a day) \u2014 Enerpac Tool Group Corp.",
    "FMNB excluded: too thinly traded ($6.7M a day) \u2014 Farmers National Banc Corp.",
    "HKHC excluded: too thinly traded ($0.1M a day) \u2014 Horizon Kinetics Holding Corporation",
    "HMN excluded: too thinly traded ($13.6M a day) \u2014 Horace Mann Educators Corporation",
-   "MCFT excluded: too thinly traded ($4.1M a day) \u2014 MasterCraft Boat Holdings, Inc.",
+   "NSLR excluded: too thinly traded ($2.8M a day) \u2014 Neostellar Capital Corp.",
    "NYAX excluded: too thinly traded ($0.9M a day) \u2014 Nayax Ltd."
   ]
  },
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 379,
+  "decisions_graded": 378,
   "decisions_with_buys_graded": 147,
   "independent_days_graded": 4,
   "avg_regret_pct": -0.45,
@@ -667,7 +737,7 @@
     "n": 1
    }
   },
-  "idle_checks": 229,
+  "idle_checks": 228,
   "blocked_checks": 0,
   "idle_share": 0.57,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1579,6 +1649,86 @@
  },
  "insider_trades": [
   {
+   "who": "CHANG FRED FACHING",
+   "role": "director, 10 percent owner: ",
+   "ticker": "NEGG",
+   "type": "sell",
+   "shares": 3582,
+   "price": 13.544,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "CHANG FRED FACHING",
+   "role": "director, 10 percent owner: ",
+   "ticker": "NEGG",
+   "type": "sell",
+   "shares": 3582,
+   "price": 13.792,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Klein Mark D",
+   "role": "director, officer: Chairman, CEO and President",
+   "ticker": "NSLR",
+   "type": "buy",
+   "shares": 5000,
+   "price": 7.91,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "OBrien Thomas M",
+   "role": "director, officer: CHIEF EXECUTIVE OFFICER",
+   "ticker": "BCBP",
+   "type": "buy",
+   "shares": 160000,
+   "price": 7.75,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Chaudhry Jawad",
+   "role": "officer: CHIEF FINANCIAL OFFICER",
+   "ticker": "BCBP",
+   "type": "buy",
+   "shares": 10000,
+   "price": 7.75,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Hemhauser Maureen",
+   "role": "officer: EVP & Chief Risk Officer",
+   "ticker": "PGC",
+   "type": "sell",
+   "shares": 2297,
+   "price": 45.3241,
+   "transaction_date": "2026-09-21",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Daly Joseph Patrick",
+   "role": "director, 10 percent owner: ",
+   "ticker": "BUKS",
+   "type": "buy",
+   "shares": 1303,
+   "price": 4.19,
+   "transaction_date": "2026-09-22",
+   "filing_date": "2026-09-22"
+  },
+  {
+   "who": "Daly Joseph Patrick",
+   "role": "director, 10 percent owner: ",
+   "ticker": "BUKS",
+   "type": "buy",
+   "shares": 5000,
+   "price": 4.01,
+   "transaction_date": "2026-09-22",
+   "filing_date": "2026-09-22"
+  },
+  {
    "who": "Souri Shukri Jeries",
    "role": "officer: Group Vice President",
    "ticker": "EXPO",
@@ -2067,123 +2217,14 @@
    "price": 32.34,
    "transaction_date": "2026-09-18",
    "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Alvarez Denise Aguiar",
-   "role": "director",
-   "ticker": "BBD",
-   "type": "buy",
-   "shares": 130596,
-   "price": 17.98,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Vrettou Eleni",
-   "role": "director",
-   "ticker": "SBLK",
-   "type": "sell",
-   "shares": 3500,
-   "price": 32.12,
-   "transaction_date": "2026-09-21",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Pavarina Denise Pauli",
-   "role": "director",
-   "ticker": "BBD",
-   "type": "buy",
-   "shares": 46874,
-   "price": 17.98,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "LEEMPUTTE PETER G",
-   "role": "director",
-   "ticker": "MCFT",
-   "type": "buy",
-   "shares": 1265,
-   "price": 19.73,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Nixon James Craig",
-   "role": "director",
-   "ticker": "DUOT",
-   "type": "buy",
-   "shares": 2857,
-   "price": 8.5,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Nixon James Craig",
-   "role": "director",
-   "ticker": "DUOT",
-   "type": "buy",
-   "shares": 2907.2907,
-   "price": 8.6,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Offer Or",
-   "role": "officer: Chief Executive Officer",
-   "ticker": "SMWB",
-   "type": "sell",
-   "shares": 37500,
-   "price": 8.2476,
-   "transaction_date": "2026-09-18",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Offer Or",
-   "role": "officer: Chief Executive Officer",
-   "ticker": "SMWB",
-   "type": "sell",
-   "shares": 32200,
-   "price": 8.404,
-   "transaction_date": "2026-09-21",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "DEGIGLIO MICHAEL A",
-   "role": "director, officer: Chief Executive Officer",
-   "ticker": "VFF",
-   "type": "buy",
-   "shares": 35000,
-   "price": 2.8931,
-   "transaction_date": "2026-09-22",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Little Richard H",
-   "role": "director, officer: Chief Executive Officer",
-   "ticker": "EU",
-   "type": "buy",
-   "shares": 10000,
-   "price": 1.06,
-   "transaction_date": "2026-09-21",
-   "filing_date": "2026-09-22"
-  },
-  {
-   "who": "Errico Thomas J.",
-   "role": "director",
-   "ticker": "ECOR",
-   "type": "buy",
-   "shares": 5000,
-   "price": 9.8163,
-   "transaction_date": "2026-09-14",
-   "filing_date": "2026-09-22"
   }
  ],
  "insider_pressure": {
-  "BBD": 16.0,
+  "BBD": 14.0,
   "WVVI": 12.0,
-  "DUOT": 2.0,
-  "BZUN": 2.0,
+  "BCBP": 2.0,
+  "BUKS": 2.0,
+  "NSLR": 1.0,
   "EXPO": 1.0,
   "RCG": 1.0,
   "CULP": 1.0,
@@ -2193,13 +2234,12 @@
   "TPL": 1.0,
   "YORW": 1.0,
   "HKHC": 1.0,
-  "MCFT": 1.0,
-  "VFF": 1.0,
-  "EU": 1.0,
-  "ECOR": 1.0,
+  "PGC": -1.0,
   "SYBT": -1.0,
   "KLTR": -1.0,
-  "VTOL": -1.0
+  "VTOL": -1.0,
+  "NVMI": -1.0,
+  "TILE": -1.0
  },
  "headlines": {
   "AAPL": [
@@ -2265,26 +2305,26 @@
     "when": "2026-09-21T19:52"
    },
    {
-    "title": "Nasdaq hits intraday record high, AI stocks rally",
-    "source": "Reuters",
-    "when": "2026-09-22T18:27"
+    "title": "Shopify Just Gave Meta's AI Agent a Major Boost",
+    "source": "GuruFocus.com",
+    "when": "2026-09-22T18:56"
    }
   ],
   "AVGO": [
    {
+    "title": "AMD Stock Just Sent a Huge AI Signal",
+    "source": "GuruFocus.com",
+    "when": "2026-09-22T19:07"
+   },
+   {
+    "title": "Apple\u2019s New CEO Is Already Being Pressured to Drop the Chinese Chip Deal Tim Cook Fought to Keep",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-22T18:48"
+   },
+   {
     "title": "AMD Stock Just Entered Rarefied Territory",
     "source": "GuruFocus.com",
     "when": "2026-09-22T18:04"
-   },
-   {
-    "title": "Is NVIDIA Funding Its Own Stock Rally?",
-    "source": "Trefis",
-    "when": "2026-09-22T17:29"
-   },
-   {
-    "title": "Price Prediction: Marvell, AMD & Broadcom- Our Bold Price Predictions for 2027",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-22T16:00"
    }
   ],
   "CCJ": [
@@ -2430,14 +2470,14 @@
     "when": "2026-09-22T14:03"
    },
    {
-    "title": "Meta Added $200 Billion in One Day on an App That Beat ChatGPT\u2019s Launch",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-22T18:11"
+    "title": "Shopify Just Gave Meta's AI Agent a Major Boost",
+    "source": "GuruFocus.com",
+    "when": "2026-09-22T18:56"
    },
    {
-    "title": "Meta Platforms Just Hit an Amazon Roadblock",
-    "source": "GuruFocus.com",
-    "when": "2026-09-22T18:07"
+    "title": "Netflix Stock Downgraded As YouTube Swipes Viewers",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-22T18:39"
    }
   ],
   "HD": [
@@ -2493,6 +2533,11 @@
   ],
   "IBM": [
    {
+    "title": "IBM Holds Flat as z17 Moves Into an AI Classroom",
+    "source": "GuruFocus.com",
+    "when": "2026-09-22T18:59"
+   },
+   {
     "title": "What Do IBM (IBM) Lunar AI And Quantum Hub Moves Mean For Investors?",
     "source": "Simply Wall St.",
     "when": "2026-09-22T17:12"
@@ -2501,11 +2546,6 @@
     "title": "Can Dell's Margins Catch Up With Its Stock?",
     "source": "Trefis",
     "when": "2026-09-22T17:01"
-   },
-   {
-    "title": "Will This Major Industry Showcase Boost Quantum Computing Stocks?",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-22T12:00"
    }
   ],
   "IBP": [
@@ -2588,9 +2628,9 @@
     "when": "2026-09-21T19:52"
    },
    {
-    "title": "Update: Market Chatter: British Columbia Sues OpenAI Over Tumbler Ridge School Shooting",
+    "title": "Microsoft Azure, M365 Commercial Can Sustain Acceleration in Fiscal 2027 Despite Some Risks, Oppenheimer Says",
     "source": "MT Newswires",
-    "when": "2026-09-22T18:16"
+    "when": "2026-09-22T18:55"
    }
   ],
   "NEM": [
@@ -2656,9 +2696,9 @@
     "when": "2026-09-22T13:23"
    },
    {
-    "title": "Is Nebius Group (NBIS) Still Undervalued Following FTSE All World Index Inclusion?",
-    "source": "Simply Wall St.",
-    "when": "2026-09-22T18:14"
+    "title": "Where Will IonQ Stock Be in 5 Years?",
+    "source": "Motley Fool",
+    "when": "2026-09-22T18:50"
    }
   ],
   "O": [
@@ -2714,6 +2754,11 @@
   ],
   "PLTR": [
    {
+    "title": "Prediction: 3 Stocks That Will Be Worth More Than Palantir 5 Years From Now",
+    "source": "Motley Fool",
+    "when": "2026-09-22T18:43"
+   },
+   {
     "title": "Is Palantir a Millionaire-Maker Stock?",
     "source": "Motley Fool",
     "when": "2026-09-22T17:25"
@@ -2722,11 +2767,6 @@
     "title": "Michael Burry Adds To Micron, Nebius, Palantir Shorts As Acer Flags Rising Memory Supply",
     "source": "Stocktwits",
     "when": "2026-09-22T16:54"
-   },
-   {
-    "title": "AI Leaders Are Standing On a Liability Landmine",
-    "source": "The Wall Street Journal",
-    "when": "2026-09-22T16:00"
    }
   ],
   "RTX": [
@@ -2765,6 +2805,11 @@
   ],
   "SPY": [
    {
+    "title": "Adobe Is Down 32% This Year: Is ADBE Stock Dead Money or Due for a Bounce?",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-22T18:59"
+   },
+   {
     "title": "ETF Zoo: 6 Pundits Walk Into a Bar",
     "source": "etf.com",
     "when": "2026-09-22T18:09"
@@ -2773,11 +2818,6 @@
     "title": "Cleveland-Cliffs Jumps 5% as Month-Long Rebound Extends; Nucor and Steel Dynamics Tick Up",
     "source": "24/7 Wall St.",
     "when": "2026-09-22T18:03"
-   },
-   {
-    "title": "Fastly Tumbles 7% as Investor Day Meets Profit Taking; Cloudflare and Akamai Edge Higher",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-22T17:57"
    }
   ],
   "TPL": [
@@ -2799,6 +2839,11 @@
   ],
   "TSM": [
    {
+    "title": "TSMC Gains as Packaging Moves Closer to Its Suppliers",
+    "source": "GuruFocus.com",
+    "when": "2026-09-22T18:50"
+   },
+   {
     "title": "Here is What to Know Beyond Why Taiwan Semiconductor Manufacturing Company Ltd. (TSM) is a Trending Stock",
     "source": "Zacks",
     "when": "2026-09-22T13:00"
@@ -2807,11 +2852,6 @@
     "title": "Nvidia and AMD Can't Make AI Chips Without This Growth Stock. Here's Why It Could Soar.",
     "source": "Motley Fool",
     "when": "2026-09-22T12:35"
-   },
-   {
-    "title": "TSMC Spent $15.59 Billion on CapEx in a Single Quarter, 42% More Than the Quarter Before. Here\u2019s What It Means For the Stock.",
-    "source": "TIKR",
-    "when": "2026-09-22T10:22"
    }
   ],
   "TTD": [
@@ -2867,5 +2907,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-22T14:38-04:00"
+ "signalsAsOf": "2026-09-22T15:10-04:00"
 }

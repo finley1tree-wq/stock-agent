@@ -1,40 +1,3 @@
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-brain: Book is completely flat (0 positions, 100% cash idle) despite $25k budget available and full_deployment active - this is a self-inflicted regret per past lessons and counterfactual data showing idle_universe_avg_pct at 0.64%. Deploying across 7 names avoiding all cooldown-restricted tickers (AMD, GOOGL, CCJ, TSM, PLTR, IBP, NEM), sized $2-5k each with concrete evidence (momentum, news catalysts, congressional disclosure) and protective stops per risk_management signal which has 86% hit rate in track record.
-lesson: When flat with 100% idle cash and no cooldown conflicts on strong-momentum names, deploy full budget immediately across 7+ names with stops rather than waiting - idle cash while book stat shows 3.03% avg return all buys is the real regret.
-- BUY $5000.00 AMD [filled] ['momentum', 'news'] — Strongest momentum name in universe, chip rally continuing, no cooldown restriction | evidence: AMD +22.71% 5d, +30.74% 1m, headline 'AMD stock soars to new record as semiconductors bounce'; not in cooldown list
-- BUY $4500.00 GOOGL [filled] ['momentum', 'news'] — Low in day range gives good entry on a name with positive momentum and AI-theme tailwind; not on cooldown | evidence: pct_of_day_range 0.9% (near day low) despite +3.27% 5d momentum, headline 'Magnificent 7 are back: Meta's AI bet leads the charge'
-- BUY $4000.00 CCJ [filled] ['news', 'momentum'] — Nuclear sector has 89% hit rate in track record by_sector, positive catalyst news on Cameco stake value | evidence: CCJ +1.43% today, day range 84%, headline 'Westinghouse Could IPO at $50B Valuation, Cameco's Stake Alone Worth $24.5B'
-- BUY $2933.83 TSM [filled] ['momentum', 'news'] — Chip supply chain leader with strong momentum and capex growth headline, not on cooldown | evidence: TSM +7.93% 5d, +6.59% 1m, headline 'TSMC Spent $15.59 Billion on CapEx in a Single Quarter, 42% More' showing capacity expansion
-- BUY $3500.00 PLTR [filled] ['momentum', 'news'] — Defense-tech name with continued momentum and positive analyst coverage, not on cooldown | evidence: PLTR +6.66% 5d, headline 'Prediction: Here's What a $5,000 Investment in Palantir Today Could Be Worth by 2031'
-- BUY $2000.00 IBP [filled] ['congress', 'momentum'] — Congressional buy pressure plus strong daily momentum in a name not currently held | evidence: Rep. David J. Taylor bought IBP $1,001-$15,000 disclosed 2026-09-17; IBP +3.69% today, day range 76%
-- BUY $2000.00 NEM [filled] ['momentum', 'news'] — Gold miner with analyst upgrade catalyst, diversifies away from GLD which has weak sector track record | evidence: NEM +0.89% today, headline 'Newmont price target raised by UBS on capital returns outlook'
-~ WORKING stop_loss 100% AMD @ $600.00 until 2026-09-22 — Protective stop ~3% below entry per ATR sizing
-~ WORKING stop_loss 100% GOOGL @ $347.00 until 2026-09-22 — Protective stop bounding downside on new position
-~ WORKING stop_loss 100% CCJ @ $91.00 until 2026-09-22 — Protective stop bounding downside
-~ WORKING stop_loss 100% TSM @ $433.00 until 2026-09-22 — Protective stop bounding downside
-~ WORKING stop_loss 100% PLTR @ $177.00 until 2026-09-22 — Protective stop bounding downside
-~ WORKING stop_loss 100% IBP @ $200.00 until 2026-09-22 — Protective stop bounding downside
-~ WORKING stop_loss 100% NEM @ $120.00 until 2026-09-22 — Protective stop bounding downside
-~ WORKING take_profit 100% AMD @ $621.65 until 2026-09-27 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $600.27 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $357.24 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $345.63 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $94.97 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $91.76 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $447.76 until 2026-09-27 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $433.26 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $184.88 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $178.58 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBP @ $211.14 until 2026-09-27 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 IBP @ $203.73 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NEM @ $124.64 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NEM @ $120.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 CHRW @ $151.41 until 2026-09-23 — strong month, weak day: resting 0.50% under $152.17 to catch the dip
-portfolio: equity $32856.39 (+31.43% on $25000.00 in) · cash $8928.94 · realised +7862.77
-Done: 0 sell(s), 7 buy(s); 30 order(s) working; budget left $1066.17 this week
-
-## 2026-09-22 11:54 ET (Tuesday) — week 2026-W39 — budget left $1066.17 (today $106057.42 put to work, 44 buys, 37 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
@@ -398,3 +361,40 @@ lesson: With near 100% idle cash and 2 checks left, deploy immediately in size a
 ~ WORKING buy_limit $500.00 META @ $717.40 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32830.16 (+31.32% on $25000.00 in) · cash $29330.86 · realised +7830.86
 Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $21468.10 this week
+- SELL 100% META [time stop] -> $3493.58 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-22 15:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped META: sold 1 min ago, cooling off)
+
+## 2026-09-22 15:09 ET (Tuesday) — week 2026-W39 — budget left $24961.68 (today $159701.34 put to work, 69 buys, 66 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (dropped META: sold 1 min ago, cooling off)
+brain: This is the last check of the day (checks_left_today=1) with 99.8% cash idle and 0 positions - a clear case where sitting out costs more than acting, per repeated counterfactual evidence (idle_universe_avg_pct positive, avg_regret negative meaning picking beats random). I'm deploying the full remaining budget across 6 widely_held/nuclear names with concrete news/momentum evidence, buying at market since resting limits keep expiring unfilled with only one check left, and pairing every buy with a protective stop given entries are high in the day's range.
+lesson: On the last check of the day with idle cash, buy at market with protective stops rather than resting limits that won't have time to fill before the session ends.
+  (dropped NVDA: 89% up today's range — resting a limit at $228.41 instead of chasing)
+  (dropped AMD: 93% up today's range — resting a limit at $614.94 instead of chasing)
+  (dropped AVGO: 98% up today's range — resting a limit at $362.53 instead of chasing)
+  (dropped TSM: 97% up today's range — resting a limit at $446.97 instead of chasing)
+  (dropped AMAT: 93% up today's range — resting a limit at $463.50 instead of chasing)
+- BUY $3960.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has 90% hit rate historically, Westinghouse IPO catalyst news, cooling off ended | evidence: CCJ +3.79% 5d, 'Westinghouse Could IPO at $50 Billion Valuation, Cameco stake worth $24.5B' 9/21 headline, nuclear sector 90% hit_rate in track record
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger NVDA buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% CCJ @ $92.00 until 2026-09-22 — protective stop ~2.8% below entry
+~ WORKING buy_limit $4200.00 AVGO @ $362.53 until 2026-09-22 — wanted it, but not at the high — resting at $362.53. AI capex momentum leader, widely_held sector, buying now given last check of day
+~ WORKING buy_limit $4200.00 TSM @ $446.98 until 2026-09-22 — wanted it, but not at the high — resting at $446.98. Chip supply chain leader with strong momentum and capex catalyst news, widely_held sector
+~ WORKING take_profit 100% CCJ @ $95.08 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $91.87 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $338.72 until 2026-09-23 — strong month, weak day: resting 0.44% under $340.21 to catch the dip
+~ WORKING buy_limit $1000.00 CHRW @ $148.25 until 2026-09-23 — strong month, weak day: resting 0.54% under $149.06 to catch the dip
+portfolio: equity $32822.86 (+31.29% on $25000.00 in) · cash $28864.45 · realised +7824.45
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week
