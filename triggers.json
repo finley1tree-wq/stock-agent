@@ -7095,7 +7095,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 495.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "protect against further defense sector slide",
@@ -7104,14 +7104,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "98e8cb60",
    "ticker": "RTX",
    "kind": "stop_loss",
    "price": 183.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "protect against further defense sector slide",
@@ -7120,14 +7122,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "af4f90f0",
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 505.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "protect against further defense sector slide",
@@ -7136,7 +7140,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-22",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7519870f",
@@ -7194,7 +7200,7 @@
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 509.4163,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "close 100% at +0.3% over the average cost",
@@ -7204,14 +7210,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:01"
   },
   {
    "id": "4c3416e2",
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 492.8376,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7221,14 +7228,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 11:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0a097fb0",
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 188.5207,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "close 100% at +0.2% over the average cost",
@@ -7238,14 +7247,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:02"
   },
   {
    "id": "7b300a78",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 182.4473,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7255,14 +7265,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 11:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "cc6bfddd",
    "ticker": "LMT",
    "kind": "take_profit",
    "price": 519.1347,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "close 100% at +0.3% over the average cost",
@@ -7272,14 +7284,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-22 11:02"
   },
   {
    "id": "2acd3504",
    "ticker": "LMT",
    "kind": "buy_limit",
    "price": 502.1496,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-22 10:57",
    "created_ts": 1790089059,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7289,7 +7302,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-22 11:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "872bf8f4",
@@ -7513,5 +7528,5 @@
    "usd": 1000.0
   }
  ],
- "updated": "2026-09-22 10:57"
+ "updated": "2026-09-22 11:02"
 }

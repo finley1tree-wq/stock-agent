@@ -1,11 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Only 1 GOOGL position and 90% cash idle with 1 check left today - the recurring lesson pattern shows market buys close the position-count gap while resting limits don't fill in time. Deploying across 8 evidence-backed names (defense, semis, healthcare, nuclear) each with attached protective stops, sized $2-2.5k, to reach min_positions before close.
-lesson: With one check left and 90% cash idle, market buys with attached stops across 7-8 evidence-backed names closed the position gap; resting limits below market kept expiring unfilled all session.
-  (dropped AMD: sold 26 min ago, cooling off)
-  (dropped MSFT: sold 35 min ago, cooling off)
-  (dropped TSM: 99% up today's range — resting a limit at $441.57 instead of chasing)
-  (dropped AVGO: 98% up today's range — resting a limit at $359.07 instead of chasing)
 - BUY $2500.00 NOC [filled] ['news', 'momentum', 'track_record'] — Defense demand catalyst, best hit-rate sector, buying at market since resting limits below haven't filled with only 1 check left | evidence: NOC 81% of day range, defense sector track record hit_rate 0.71, GM-Lockheed partnership and ballistic missile demand headlines today
 - BUY $2500.00 RTX [filled] ['news', 'momentum', 'track_record'] — Defense sector best hit-rate, reasonable entry point in range, final check of day | evidence: RTX at 58% of day range (not extended), Zacks 'Brokers Suggest Investing in RTX' 2026-09-21
 - BUY $2000.00 UNH [filled] ['momentum', 'news'] — Not extended in range, widely_held sector strongest track record bucket | evidence: UNH 62% of day range, 'Should You Buy UnitedHealth Before Oct 13' headline
@@ -398,3 +390,11 @@ lesson: Defense stocks selling off together intraday (NOC/RTX/LMT all -3%+) is a
 ~ WORKING buy_limit $1000.00 HLI @ $128.17 until 2026-09-23 — strong month, weak day: resting 0.72% under $129.10 to catch the dip
 portfolio: equity $32815.14 (+31.26% on $25000.00 in) · cash $14823.13 · realised +7823.13
 Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $509.42] -> $2506.56 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-22 11:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RTX: position closed)
+- SELL 100% RTX [take_profit @ $188.52] -> $2505.79 (+0.23%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $519.13] -> $2005.63 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-22 11:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders

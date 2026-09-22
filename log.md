@@ -14297,3 +14297,11 @@ lesson: Defense stocks selling off together intraday (NOC/RTX/LMT all -3%+) is a
 ~ WORKING buy_limit $1000.00 HLI @ $128.17 until 2026-09-23 — strong month, weak day: resting 0.72% under $129.10 to catch the dip
 portfolio: equity $32815.14 (+31.26% on $25000.00 in) · cash $14823.13 · realised +7823.13
 Done: 0 sell(s), 8 buy(s); 33 order(s) working; budget left $6991.79 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $509.42] -> $2506.56 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-22 11:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RTX: position closed)
+- SELL 100% RTX [take_profit @ $188.52] -> $2505.79 (+0.23%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $519.13] -> $2005.63 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-22 11:02 ET — tick — 2 sell(s), 0 buy(s) from standing orders
