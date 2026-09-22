@@ -14530,3 +14530,24 @@ Done: 0 sell(s), 6 buy(s); 33 order(s) working; budget left $6563.63 this week
 ## 2026-09-22 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% CHRW [time stop] -> $996.22 (-0.38%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 12:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 12:58 ET (Tuesday) — week 2026-W39 — budget left $10566.85 (today $125438.18 put to work, 53 buys, 46 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Below min_positions (6 vs target 8) with 42% idle cash - clear case to act per past lesson and counterfactual data showing idle checks cost regret. Adding AMD/NVDA/AVGO gives exposure to widely_held sector (best-performing at 5.54% avg_ret in track record) with concrete news catalysts (AMD $1T club, NVDA AI accumulation, AVGO bullish predictions), while existing defense/healthcare positions (NOC, RTX, UNH, IBM) already have take-profit/stop-loss brackets working.
+lesson: When below min_positions with idle cash, add sized buys ($2k each) in the best-performing sector (widely_held) backed by concrete headlines rather than waiting on resting dip orders.
+  (dropped AMD: sold 44 min ago, cooling off)
+  (dropped NVDA: 91% up today's range — resting a limit at $228.20 instead of chasing)
+- BUY $2000.00 AVGO [filled] ['momentum', 'news'] — Widely_held sector leader with strong 5d momentum, diversifies book toward best-performing sector | evidence: AVGO +7.07% 5d, price prediction headline bullish on Broadcom/AMD
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+~ WORKING stop_loss 100% AVGO @ $354.00 until 2026-09-22 — Protective stop ~2.5% below entry
+~ WORKING buy_limit $2000.00 NVDA @ $228.21 until 2026-09-22 — wanted it, but not at the high — resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap
+~ WORKING take_profit 100% AVGO @ $364.53 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $352.41 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32791.77 (+31.17% on $25000.00 in) · cash $16429.61 · realised +7810.37
+Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $8566.85 this week

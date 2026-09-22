@@ -1,24 +1,3 @@
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [stop_loss @ $516.03] -> $2292.66 (-0.65%) — close it all at -0.6% under the average cost
-  (cancelled 2 standing order(s) on PLD: position closed)
-- SELL 100% PLD [take_profit @ $135.56] -> $2311.84 (+0.18%) — close 100% at +0.2% over the average cost
-## 2026-09-22 10:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $377.63] -> $2314.30 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-09-22 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $1000.00 AAPL [buy_limit @ $340.02] — strong month, weak day: resting 0.43% under $341.50 to catch the dip
-## 2026-09-22 10:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-22 10:10 ET (Tuesday) — week 2026-W39 — budget left $19380.56 (today $36623.59 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
-  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
-brain: Below min_positions (3 held vs 8 target) with 77.5% cash idle - a decision I must correct per owner instructions. Deploying $14k across 6 evidence-backed names (CRWD, AMD, GOOGL, META, TSM, CCJ) that are just clearing cooldown or already outside it, each backed by concrete headline/momentum evidence, sized at $2,500 to build toward min_positions with real weight. Attached protective stops on each new position per risk_management (best-performing signal bucket at 3.81% avg return, 85% hit rate).
-lesson: Cooldown timers matter: check cooling_off_minutes_left before proposing buys on recently-sold names, and prefer sizing $2.5k across evidence-backed non-cooldown names to close the min_positions gap in one check rather than spreading too thin.
-  (dropped CRWD: sold 16 min ago, cooling off)
   (dropped AMD: sold 37 min ago, cooling off)
   (dropped GOOGL: sold 37 min ago, cooling off)
   (dropped TSM: sold 37 min ago, cooling off)
@@ -398,3 +377,24 @@ Done: 0 sell(s), 6 buy(s); 33 order(s) working; budget left $6563.63 this week
 ## 2026-09-22 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% CHRW [time stop] -> $996.22 (-0.38%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 12:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-22 12:58 ET (Tuesday) — week 2026-W39 — budget left $10566.85 (today $125438.18 put to work, 53 buys, 46 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+brain: Below min_positions (6 vs target 8) with 42% idle cash - clear case to act per past lesson and counterfactual data showing idle checks cost regret. Adding AMD/NVDA/AVGO gives exposure to widely_held sector (best-performing at 5.54% avg_ret in track record) with concrete news catalysts (AMD $1T club, NVDA AI accumulation, AVGO bullish predictions), while existing defense/healthcare positions (NOC, RTX, UNH, IBM) already have take-profit/stop-loss brackets working.
+lesson: When below min_positions with idle cash, add sized buys ($2k each) in the best-performing sector (widely_held) backed by concrete headlines rather than waiting on resting dip orders.
+  (dropped AMD: sold 44 min ago, cooling off)
+  (dropped NVDA: 91% up today's range — resting a limit at $228.20 instead of chasing)
+- BUY $2000.00 AVGO [filled] ['momentum', 'news'] — Widely_held sector leader with strong 5d momentum, diversifies book toward best-performing sector | evidence: AVGO +7.07% 5d, price prediction headline bullish on Broadcom/AMD
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+~ WORKING stop_loss 100% AVGO @ $354.00 until 2026-09-22 — Protective stop ~2.5% below entry
+~ WORKING buy_limit $2000.00 NVDA @ $228.21 until 2026-09-22 — wanted it, but not at the high — resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap
+~ WORKING take_profit 100% AVGO @ $364.53 until 2026-09-27 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $352.41 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32791.77 (+31.17% on $25000.00 in) · cash $16429.61 · realised +7810.37
+Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $8566.85 this week
