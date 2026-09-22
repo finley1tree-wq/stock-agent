@@ -1,6 +1,3 @@
-portfolio: equity $32766.67 (+31.07% on $25000.00 in) · cash $26768.68 · realised +7768.68
-Done: 0 sell(s), 2 buy(s); 49 order(s) working; budget left $18978.83 this week
-- SELL 100% NOC [time stop] -> $1499.89 (-0.01%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-21 13:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-21 13:38 ET (Monday) — week 2026-W39 — budget left $20478.72 (today $86403.74 put to work, 43 buys, 40 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $183.56] -> $1004.24 (+0.42%) — close 100% at +0.4% over the average cost
 ## 2026-09-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [stop_loss @ $13.66] -> $1001.61 (+0.16%) — close it all at -1.3% under the average cost
+## 2026-09-22 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders

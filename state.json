@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 995.76,
+  "spent": 0.0,
   "deployed": 138804.53,
   "by_ticker": {
     "NOC": 17.99,
@@ -10,8 +10,7 @@
     "AMD": 1.01,
     "PLTR": 2.84,
     "UNH": 1.97,
-    "MSFT": 17.76,
-    "TTD": 1000.0
+    "MSFT": 17.76
   },
   "deployed_by_ticker": {
     "AMD": 18200.0,
@@ -2444,20 +2443,42 @@
       ],
       "evidence": "average cost $182.79",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 73.307334,
+      "status": "filled",
+      "price": 13.66,
+      "proceeds": 1001.61,
+      "realized_pnl": 1.61,
+      "realized_pct": 0.16,
+      "date": "2026-09-22",
+      "time_et": "09:45",
+      "ts": 1790084700,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $13.64",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 995.76,
+  "spent_today": 0.0,
   "deployed_today": 17469.76,
   "orders_today": 7,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "AMD",
     "MSFT",
     "GOOGL",
     "TSM",
     "CCJ",
-    "PLTR"
+    "PLTR",
+    "TTD"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -2469,7 +2490,7 @@
     "OKLO": 1790017007,
     "CCJ": 1790084236,
     "LMT": 1790011290,
-    "TTD": 1790004935,
+    "TTD": 1790084728,
     "NOC": 1790020340,
     "RTX": 1790020340,
     "PLD": 1790000555,
@@ -2482,20 +2503,17 @@
     "GLD": 1790005446,
     "AAPL": 1790005508
   },
-  "last_publish_ts": 1790084401,
-  "last_check_ts": 1790084650,
-  "last_bar_ts": 1790084400,
+  "last_publish_ts": 1790084727,
+  "last_check_ts": 1790084727,
+  "last_bar_ts": 1790084700,
   "last_decision_ts": 1790083966,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "8f970ec4": 13.7094,
-    "2bf19c12": 501.3056,
-    "2a03d45d": 13.67,
     "ed4babdf": 750249.2478,
-    "ef6f6647": 245.1829,
+    "2bf19c12": 501.3056,
     "75227949": 131.0225,
-    "a146788c": 737.9695,
-    "7838ea39": 13.2308
+    "ef6f6647": 245.1829,
+    "a146788c": 737.9695
   }
 }

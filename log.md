@@ -14053,3 +14053,6 @@ Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $183.56] -> $1004.24 (+0.42%) — close 100% at +0.4% over the average cost
 ## 2026-09-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [stop_loss @ $13.66] -> $1001.61 (+0.16%) — close it all at -1.3% under the average cost
+## 2026-09-22 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
