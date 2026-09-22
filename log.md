@@ -14074,3 +14074,6 @@ lesson: placeholder
 ~ WORKING buy_limit $1000.00 SPY @ $772.48 until 2026-09-23 — strong month, weak day: resting 0.20% under $774.03 to catch the dip
 portfolio: equity $32831.37 (+31.33% on $25000.00 in) · cash $32831.37 · realised +7831.37
 Decision: nothing at this check. 9 standing order(s) working.
+- BUY $1000.00 CRWD [buy_limit @ $245.18] — strong month, weak day: resting 1.03% under $247.74 to catch the dip
+- BUY $1000.00 HLI [buy_limit @ $131.02] — strong month, weak day: resting 0.66% under $131.89 to catch the dip
+## 2026-09-22 09:50 ET — tick — 0 sell(s), 2 buy(s) from standing orders
