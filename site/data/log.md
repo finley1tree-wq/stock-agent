@@ -1,6 +1,3 @@
-~ WORKING buy_limit $1500.00 AMAT @ $459.33 until 2026-09-21 — wanted it, but not at the high — resting at $459.33. Strong daily momentum plus congressional buy overlap, not held
-portfolio: equity $32772.12 (+31.09% on $25000.00 in) · cash $25283.74 · realised +7783.74
-Decision: nothing at this check. 57 standing order(s) working.
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $499.34] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-09-21 14:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ lesson: When cooldowns are near expiry (under ~35min) and next check is 15-30min
 ~ WORKING buy_limit $1000.00 MSFT @ $495.26 until 2026-09-23 — strong month, weak day: resting 0.43% under $497.39 to catch the dip
 portfolio: equity $32835.35 (+31.34% on $25000.00 in) · cash $16840.74 · realised +7840.74
 Done: 0 sell(s), 5 buy(s); 27 order(s) working; budget left $9009.39 this week
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $340.81] -> $1002.34 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-22 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders

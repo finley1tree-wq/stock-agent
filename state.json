@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 15990.61,
+  "spent": 14988.27,
   "deployed": 175458.36,
   "by_ticker": {
     "NOC": 33.02,
@@ -11,7 +11,6 @@
     "PLTR": 2502.84,
     "MSFT": 17.76,
     "HLI": 9.7,
-    "AAPL": 1000.0,
     "CHRW": 1000.0,
     "GOOGL": 3000.0,
     "TSM": 3000.0,
@@ -2979,13 +2978,34 @@
         "news"
       ],
       "evidence": "PLTR +6.06% 5d; 'Chipotle has 4,186 restaurants, Palantir is helping score the risk' TheStreet 09-22"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 2.941019,
+      "status": "filled",
+      "price": 340.81,
+      "proceeds": 1002.34,
+      "realized_pnl": 2.34,
+      "realized_pct": 0.23,
+      "date": "2026-09-22",
+      "time_et": "10:28",
+      "ts": 1790087100,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $340.02",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-22",
-  "spent_today": 15990.61,
+  "spent_today": 14988.27,
   "deployed_today": 54123.59,
   "orders_today": 24,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "AMD",
     "MSFT",
@@ -3003,7 +3023,8 @@
     "UNH",
     "META",
     "NVDA",
-    "GLD"
+    "GLD",
+    "AAPL"
   ],
   "sold_ts": {
     "AMAT": 1790002923,
@@ -3026,43 +3047,40 @@
     "META": 1790086516,
     "GOOGL": 1790084112,
     "GLD": 1790087064,
-    "AAPL": 1790005508,
+    "AAPL": 1790087301,
     "HLI": 1790085321,
     "CRWD": 1790085367
   },
-  "last_publish_ts": 1790087197,
-  "last_check_ts": 1790087197,
+  "last_publish_ts": 1790087301,
+  "last_check_ts": 1790087301,
   "last_bar_ts": 1790087100,
   "last_decision_ts": 1790087197,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "ce8f3880": 772.4819,
-    "2837422d": 340.8122,
-    "900f4323": 362.6324,
     "7a859e2a": 447.2531,
-    "66b80875": 151.4346,
-    "413c5fb9": 93.7624,
     "3293214d": 495.2566,
-    "a39221b3": 183.8298,
-    "338ee4d1": 620.9525,
+    "900f4323": 362.6324,
     "2bf19c12": 501.3056,
+    "338ee4d1": 620.9525,
+    "66b80875": 151.4346,
     "d444c8f6": 152.8309,
-    "5db7559b": 443.4295,
-    "d1b6d7d7": 338.0445,
     "168c0533": 359.4059,
-    "ed4babdf": 750249.2478,
+    "a39221b3": 183.8298,
+    "413c5fb9": 93.7624,
+    "5db7559b": 443.4295,
     "f30fc030": 92.495,
+    "ed4babdf": 750249.2478,
     "f7b28286": 181.1005,
     "4919eaaf": 611.1117,
-    "5592886c": 460.5895,
     "a146788c": 737.9695,
-    "abf82b38": 147.8571,
+    "5592886c": 460.5895,
     "75d25f08": 90.598,
-    "df9c65e8": 599.5958,
-    "d54d0e93": 350.8587,
-    "c10dac8b": 432.7752,
+    "abf82b38": 147.8571,
     "83773524": 177.5585,
-    "6222c82b": 329.8194
+    "d54d0e93": 350.8587,
+    "df9c65e8": 599.5958,
+    "c10dac8b": 432.7752
   }
 }
