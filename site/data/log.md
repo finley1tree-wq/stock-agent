@@ -1,5 +1,3 @@
-- BUY $1000.00 CHRW [buy_limit @ $151.41] — strong month, weak day: resting 0.50% under $152.17 to catch the dip
-## 2026-09-22 12:19 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 
 ## 2026-09-22 12:27 ET (Tuesday) — week 2026-W39 — budget left $23944.39 (today $108057.42 put to work, 46 buys, 44 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +396,5 @@ lesson: In the final 30-minute window before close, new market buys have almost 
 portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
 Decision: nothing at this check. 27 standing order(s) working.
   (cancelled 25 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
