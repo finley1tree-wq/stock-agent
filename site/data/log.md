@@ -1,6 +1,3 @@
-  (dropped AVGO: sold 37 min ago, cooling off)
-  (dropped GOOGL: sold 34 min ago, cooling off)
-  (dropped CCJ: sold 2 min ago, cooling off)
   (dropped NVDA: 94% up today's range — resting a limit at $224.92 instead of chasing)
 - BUY $2500.00 MSFT [filled] ['momentum', 'news', 'congress'] — Congressional buying pressure plus fresh AI infrastructure headline. | evidence: MSFT +0.88% 1d, Josh Gottheimer disclosed buys of $250k-$1M in MSFT, 'Microsoft and Anthropic dominate Nscale $103B IPO contract backlog'
 - BUY $2500.00 OKLO [filled] ['momentum', 'news'] — Nuclear momentum name with fresh bullish catalyst, room left in day range. | evidence: OKLO +5.63% 1d, 'This Energy Stock Has 130% Upside Potential' headline, 68% of day range not extreme
@@ -397,4 +394,7 @@ portfolio: equity $32819.89 (+31.28% on $25000.00 in) · cash $24711.92 · reali
 Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16880.56 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $753.00] -> $2510.08 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $228.31] -> $2314.36 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders

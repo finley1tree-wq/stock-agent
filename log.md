@@ -14169,3 +14169,6 @@ Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16880.56 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $753.00] -> $2510.08 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $228.31] -> $2314.36 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-22 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
