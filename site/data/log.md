@@ -1,46 +1,3 @@
-  (dropped NVDA: 96% up today's range — resting a limit at $224.39 instead of chasing)
-  (dropped AMAT: 94% up today's range — resting a limit at $458.69 instead of chasing)
-  (dropped AVGO: 94% up today's range — resting a limit at $357.79 instead of chasing)
-- BUY $1500.00 MSFT [filled] ['momentum', 'news'] — Widely-held sector has best track record avg_ret_pct 10.75%, adding modest size | evidence: MSFT +0.52% today, 83.1% of range, Rep. Gottheimer joint buy up to $1M disclosed 9-14
-  (re-pinned 1 order(s) to the new average cost)
-  (dropped trigger AMD stop_loss: duplicate of a working order)
-  (dropped trigger TSM stop_loss: duplicate of a working order)
-  (dropped trigger PLTR stop_loss: duplicate of a working order)
-  (dropped trigger AMAT buy_limit: duplicate of a working order)
-  (dropped trigger AVGO buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% NOC @ $517.00 until 2026-09-21 — Protective stop below entry
-~ WORKING buy_limit $2000.00 NVDA @ $224.39 until 2026-09-21 — wanted it, but not at the high — resting at $224.39. Core AI leader momentum continuing, adding to reach min_positions
-~ WORKING take_profit 100% MSFT @ $497.55 until 2026-09-26 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $493.74 until 2026-09-26 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $481.57 until 2026-09-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32786.41 (+31.15% on $25000.00 in) · cash $22289.85 · realised +7789.85
-Done: 0 sell(s), 1 buy(s); 55 order(s) working; budget left $14500.00 this week
-- BUY $2000.00 LMT [buy_limit @ $533.85] — wanted it, but not at the high — resting at $533.85. Defense sector strength with concrete demand headline, not held
-## 2026-09-21 13:08 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 3 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $497.55] -> $1503.29 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-09-21 13:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% AMD [time stop] -> $2982.54 (-0.58%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% TSM [time stop] -> $1996.44 (-0.18%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% PLTR [time stop] -> $2495.70 (-0.17%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-21 13:20 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on LMT: position closed)
-- SELL 100% LMT [stop_loss @ $534.08] -> $2000.86 (+0.04%) — close it all at -0.7% under the average cost
-## 2026-09-21 13:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-21 13:22 ET (Monday) — week 2026-W39 — budget left $23478.83 (today $81903.74 put to work, 41 buys, 39 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CBKM excluded: too thinly traded ($0.1M a day) — Consumers Bancorp, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (EU excluded: too thinly traded ($4.3M a day) — enCore Energy Corp.)
-brain: Book is at 1 position vs min_positions=8 with 93.9% cash idle - the counterfactual and past-lessons data both flag this as a measured drag. Deploying market orders now across 6 evidence-backed, non-cooldown names (META, AMD, NVDA, GOOGL, CRWD, TSM, AVGO minus cooldown conflicts) sized $2000-3000 each to close the position-count gap, each with a protective stop attached per the risk_management signal which has the best hit rate (0.85) in track record.
-lesson: Resting limits alone repeatedly failed to fill while below min_positions today; market orders sized $2-3k with attached stops actually closed the gap - keep doing that instead of stacking more limits.
-  (dropped AMD: sold 3 min ago, cooling off)
-  (dropped TSM: sold 3 min ago, cooling off)
-  (dropped META: 100% up today's range — resting a limit at $711.14 instead of chasing)
-  (dropped NVDA: 93% up today's range — resting a limit at $224.63 instead of chasing)
   (dropped CRWD: 92% up today's range — resting a limit at $240.46 instead of chasing)
 - BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely-held momentum name not extreme in range, reasonable entry | evidence: GOOGL +1.78% today, 78.5% of day range, fresh Google/Apple crypto talent hunt headline
 - BUY $2000.00 AVGO [filled] ['momentum', 'news'] — AI semis exposure, lower range percentile (74%) than AMAT/NVDA | evidence: AVGO +0.47% today, 'AMD Set to Top $1 Trillion in Market Value as Chip Stocks Soar' Bloomberg 15:36
@@ -398,3 +355,46 @@ portfolio: equity $32801.08 (+31.20% on $25000.00 in) · cash $32801.08 · reali
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-21 16:00 ET — published the session's closing state
+
+## 2026-09-22 09:32 ET (Tuesday) — week 2026-W39 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (ECOR excluded: too thinly traded ($1.0M a day) — electroCore, Inc.)
+  (ENHA excluded: too thinly traded ($1.3M a day) — Enhanced Group Inc.)
+brain: Flat book with 100% idle cash and min_positions=8 target under full_deployment mode - the guardrail is explicit that idle cash with no positions is a decision, not caution. Deploying across 8 evidence-backed names (AI/chip momentum, congressional MSFT buy, nuclear catalyst, healthcare) at $3-3.5k each puts real money to work per the owner's instruction and past lessons showing market buys close the position gap effectively (0.6%/day realized when doing this).
+lesson: Past lessons and track record confirm: at flat/idle-cash starts, immediate sized ($3k+) market buys across 8 evidence-backed names outperform resting limits that repeatedly expire unfilled.
+  (dropped META: 97% up today's range — resting a limit at $737.97 instead of chasing)
+  (dropped AVGO: sector widely_held at its 50% cap ($0.00))
+  (dropped UNH: sector widely_held at its 50% cap ($0.00))
+- BUY $3500.00 AMD [filled] ['momentum', 'news', 'track_record'] — Strong momentum + AI chip rally continuation, best-performing sector bucket | evidence: AMD +21.15% 5d, +29.07% 1m, 'AMD stock soars to new record as semiconductors bounce' (Yahoo Finance 09/21); widely_held sector avg_ret 8.36% in track record
+- BUY $3000.00 MSFT [filled] ['congress', 'momentum'] — Large congressional buy plus steady widely-held momentum | evidence: Rep. Josh Gottheimer disclosed $250k-1M MSFT buy (filed 2026-09-14); MSFT +4.36% 1m
+- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Widely-held sector momentum with fresh AI-competition headline flow | evidence: GOOGL +3.8% 5d, 'DeepSeek, Moonshot Face China Scrutiny Over Anthropic Claims Ahead of Trump-Xi AI Talks' headline 09/22, day range 56.9%
+- BUY $2969.76 TSM [filled] ['momentum', 'news'] — Chip supply chain momentum with concrete capex evidence | evidence: TSM +7.18% 5d, 'TSMC Spent $15.59B on CapEx in a Single Quarter, 42% More' (TIKR 09/22)
+- BUY $3000.00 CCJ [filled] ['news', 'momentum'] — Nuclear thesis with concrete Westinghouse IPO valuation catalyst, cheap entry near day low | evidence: 'Westinghouse Could IPO at $50B Valuation, Cameco Stake Alone Worth $24.5B' (Motley Fool 09/21); CCJ low in range at 6.5%
+  (dropped trigger META take_profit: not held)
+~ WORKING stop_loss 100% AMD @ $595.00 until 2026-09-22 — Cap downside on high-momentum name per ATR-based stop
+~ WORKING stop_loss 100% CCJ @ $89.00 until 2026-09-22 — Protect against further downside given -0.91% 1d, -9.88% 1m trend
+~ WORKING buy_limit $3500.00 META @ $737.97 until 2026-09-22 — wanted it, but not at the high — resting at $737.97. Powerful news-driven momentum, news signal has 21.43% avg realized return, best in signal ranking
+~ WORKING take_profit 100% AMD @ $613.72 until 2026-09-27 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $592.63 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $505.48 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $501.66 until 2026-09-27 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $489.26 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $359.04 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $355.96 until 2026-09-27 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $347.42 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $444.60 until 2026-09-27 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% TSM @ $440.85 until 2026-09-27 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $430.22 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $92.79 until 2026-09-27 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $89.66 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CRWD @ $245.18 until 2026-09-23 — strong month, weak day: resting 1.03% under $247.74 to catch the dip
+~ WORKING buy_limit $1000.00 TTD @ $13.64 until 2026-09-23 — strong month, weak day: resting 0.94% under $13.77 to catch the dip
+~ WORKING buy_limit $1000.00 PLTR @ $182.79 until 2026-09-23 — strong month, weak day: resting 0.79% under $184.24 to catch the dip
+~ WORKING buy_limit $1000.00 HLI @ $131.02 until 2026-09-23 — strong month, weak day: resting 0.66% under $131.89 to catch the dip
+~ WORKING buy_limit $1000.00 BRK-B @ $501.31 until 2026-09-23 — strong month, weak day: resting 0.25% under $502.58 to catch the dip
+~ WORKING buy_limit $1000.00 BRK-A @ $750249.25 until 2026-09-23 — strong month, weak day: resting 0.26% under $752180.00 to catch the dip
+portfolio: equity $32797.39 (+31.19% on $25000.00 in) · cash $17331.32 · realised +7801.08
+Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $9530.24 this week
