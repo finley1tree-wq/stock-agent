@@ -15001,3 +15001,34 @@ Done: 0 sell(s), 5 buy(s); 25 order(s) working; budget left $10536.69 this week
   (cancelled 2 standing order(s) on OKLO: position closed)
 - SELL 100% OKLO [take_profit @ $40.02] -> $2517.64 (+0.71%) — close 100% at +0.7% over the average cost
 ## 2026-09-23 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:04 ET (Wednesday) — week 2026-W39 — budget left $16545.85 (today $33206.13 put to work, 14 buys, 10 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
+brain: Only 4 positions held vs min_positions=8, with 66% cash idle - past lessons and counterfactual data both flag this as a costly pattern. Deploying $10k across 5 new names spanning nuclear (91% hit rate sector), gold, healthcare, defense-adjacent tech and widely_held (best avg_ret sector at 4.43%) to reach 9 positions total, each backed by concrete headline/momentum evidence and protected with ATR-based stops.
+lesson: At 66% idle cash and below min_positions, deploy across multiple sectors immediately with concrete evidence rather than waiting for resting limits to fill.
+- BUY $2500.00 PLTR [filled] ['momentum', 'news'] — strong momentum plus fresh bullish catalyst, buying at market since limit at 188.66 has not filled and range is reasonable | evidence: PLTR +3.82% today, day range 68%, headline 'Palantir Could Be a Major Winner as Air Traffic Control Goes AI' (Barrons 09-23)
+- BUY $2000.00 IBM [filled] ['momentum', 'news'] — widely_held sector has best historical realized returns, IBM showing clean uptrend | evidence: IBM +1.66% today at 70% of range, no cooldown restriction; widely_held sector avg_ret_pct 4.43% best in track record
+- BUY $2000.00 UNH [filled] ['news', 'momentum'] — beaten down but at low range, discount narrative, adding diversification outside tech | evidence: UNH -2.62% today at 30% of range, headline 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' Simply Wall St 09-23
+- BUY $2000.00 CCJ [filled] ['momentum', 'news'] — nuclear sector has 91% hit rate in track record, low in range entry | evidence: CCJ at 23% of day range, headline 'Cameco And 2 Canadian Nuclear Stocks To Watch' Simply Wall St 09-23; nuclear sector track record hit_rate 0.91
+- BUY $1500.00 NEM [filled] ['momentum'] — diversification into gold at low range entry | evidence: NEM at 24% of day range, gold sector diversifier vs concentrated tech book
+~ WORKING stop_loss 100% PLTR @ $184.00 until 2026-09-23 — protective stop on new PLTR buy
+~ WORKING stop_loss 100% IBM @ $229.50 until 2026-09-23 — protective stop on new IBM buy
+~ WORKING stop_loss 100% UNH @ $357.00 until 2026-09-23 — protective stop on new UNH buy
+~ WORKING stop_loss 100% CCJ @ $89.00 until 2026-09-23 — protective stop on new CCJ buy
+~ WORKING stop_loss 100% NEM @ $118.00 until 2026-09-23 — protective stop on new NEM buy
+~ WORKING take_profit 100% PLTR @ $190.96 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $184.42 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $236.65 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $228.76 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $368.87 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $356.71 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $92.60 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $89.47 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $122.33 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $118.21 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32877.36 (+31.51% on $25000.00 in) · cash $14408.61 · realised +7908.61
+Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
