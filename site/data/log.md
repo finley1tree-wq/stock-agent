@@ -1,5 +1,3 @@
-## 2026-09-23 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-23 10:04 ET (Wednesday) — week 2026-W39 — budget left $16545.85 (today $33206.13 put to work, 14 buys, 10 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +396,5 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $8117.73 this week
   (cancelled 2 standing order(s) on ESE: position closed)
 - SELL 100% ESE [take_profit @ $264.88] -> $1982.60 (+0.33%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 12:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% IBP [time stop] -> $1844.23 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
