@@ -15395,3 +15395,5 @@ portfolio: equity $32855.76 (+31.42% on $25000.00 in) · cash $16015.80 · reali
 Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $8117.73 this week
 - BUY $1000.00 SPY [buy_limit @ $768.15] — strong month, weak day: resting 0.20% under $769.69 to catch the dip
 ## 2026-09-23 12:23 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $1000.00 NVDA [buy_limit @ $224.45] — strong month, weak day: resting 0.55% under $225.69 to catch the dip
+## 2026-09-23 12:26 ET — tick — 0 sell(s), 1 buy(s) from standing orders

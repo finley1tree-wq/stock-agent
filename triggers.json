@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "4919eaaf",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 611.1117,
-   "status": "cancelled",
-   "created": "2026-09-22 10:26",
-   "created_ts": 1790087197,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $618.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 10:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "df9c65e8",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 599.5958,
-   "status": "cancelled",
-   "created": "2026-09-22 10:26",
-   "created_ts": 1790087197,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $618.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 10:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "900f4323",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 362.6324,
-   "status": "cancelled",
-   "created": "2026-09-22 10:26",
-   "created_ts": 1790087197,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $361.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 10:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "168c0533",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -5614,7 +5557,7 @@
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 224.4534,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 10:25",
    "created_ts": 1790173556,
    "why": "strong month, weak day: resting 0.55% under $225.69 to catch the dip",
@@ -5624,7 +5567,8 @@
     "dip_entry"
    ],
    "good_until": "2026-09-24",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-23 12:26"
   },
   {
    "id": "cec4673a",
@@ -7408,7 +7352,58 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "c1cc6182",
+   "ticker": "NVDA",
+   "kind": "take_profit",
+   "price": 225.1144,
+   "status": "working",
+   "created": "2026-09-23 12:26",
+   "created_ts": 1790180802,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $224.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "860d9205",
+   "ticker": "NVDA",
+   "kind": "stop_loss",
+   "price": 222.7913,
+   "status": "working",
+   "created": "2026-09-23 12:26",
+   "created_ts": 1790180802,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $224.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "43240ef2",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 217.7165,
+   "status": "working",
+   "created": "2026-09-23 12:26",
+   "created_ts": 1790180802,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $224.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 12:23"
+ "updated": "2026-09-23 12:26"
 }
