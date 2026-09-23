@@ -1,10 +1,3 @@
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-brain: Below min_positions (6 vs target 8) with 42% idle cash - clear case to act per past lesson and counterfactual data showing idle checks cost regret. Adding AMD/NVDA/AVGO gives exposure to widely_held sector (best-performing at 5.54% avg_ret in track record) with concrete news catalysts (AMD $1T club, NVDA AI accumulation, AVGO bullish predictions), while existing defense/healthcare positions (NOC, RTX, UNH, IBM) already have take-profit/stop-loss brackets working.
-lesson: When below min_positions with idle cash, add sized buys ($2k each) in the best-performing sector (widely_held) backed by concrete headlines rather than waiting on resting dip orders.
-  (dropped AMD: sold 44 min ago, cooling off)
-  (dropped NVDA: 91% up today's range — resting a limit at $228.20 instead of chasing)
 - BUY $2000.00 AVGO [filled] ['momentum', 'news'] — Widely_held sector leader with strong 5d momentum, diversifies book toward best-performing sector | evidence: AVGO +7.07% 5d, price prediction headline bullish on Broadcom/AMD
   (dropped trigger AMD stop_loss: not held)
   (dropped trigger NVDA stop_loss: not held)
@@ -398,3 +391,10 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
 - SELL 100% AMAT [take_profit @ $470.31] -> $2678.01 (+0.43%) — close 100% at +0.4% over the average cost
 - BUY $1000.00 CHRW [buy_limit @ $149.00] — strong month, weak day: resting 0.51% under $149.77 to catch the dip
 ## 2026-09-23 09:35 ET — tick — 2 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $620.87] -> $3571.40 (+0.45%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $228.80] -> $3119.88 (+0.28%) — close 100% at +0.3% over the average cost
+- BUY $2666.67 CRWD [buy_limit @ $250.65] — wanted it, but not at the high — resting at $250.65. Congress buy pressure plus bullish security-AI news
+- BUY $1000.00 GOOGL [buy_limit @ $346.79] — strong month, weak day: resting 0.49% under $348.48 to catch the dip
+## 2026-09-23 09:35 ET — tick — 2 sell(s), 2 buy(s) from standing orders

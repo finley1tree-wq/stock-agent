@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-23T09:35-04:00",
- "note": "tick: 3 standing order(s) filled",
+ "asOf": "2026-09-23T09:36-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,51 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "8edd1bd6",
-   "ticker": "AMD",
+   "id": "0713a0f7",
+   "ticker": "CRWD",
    "kind": "take_profit",
-   "price": 620.8668,
+   "price": 252.016,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 620.53,
-   "pct_away": 0.05,
+   "last": 252.12,
+   "pct_away": -0.04,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6a67ad2c",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 147.9376,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 148.03,
-   "pct_away": -0.06,
-   "good_until": "2026-09-28",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9480e1ab",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 228.7988,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 228.55,
-   "pct_away": 0.11,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,7 +163,7 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 772.34,
+   "last": 772.32,
    "pct_away": -0.14,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.20% under $772.79 to catch the dip",
@@ -207,38 +173,37 @@
    ]
   },
   {
-   "id": "ca34f5a9",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 250.6495,
-   "usd": 2666.67,
-   "pct_of_position": null,
+   "id": "6a67ad2c",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 147.9376,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.55,
-   "pct_away": -0.36,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $250.65. Congress buy pressure plus bullish security-AI news",
+   "last": 148.24,
+   "pct_away": -0.2,
+   "good_until": "2026-09-28",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
-    "news",
-    "congress",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
-   "id": "3b062f49",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 346.7874,
-   "usd": 1000.0,
-   "pct_of_position": null,
+   "id": "f3024566",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 251.532,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.03,
-   "pct_away": -0.36,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.49% under $348.48 to catch the dip",
+   "last": 252.12,
+   "pct_away": -0.23,
+   "good_until": "2026-09-28",
+   "why": "close it all at -1.4% under the average cost",
    "signals": [
-    "momentum",
-    "dip_entry"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -249,10 +214,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 744.0,
-   "pct_away": 0.61,
+   "last": 746.25,
+   "pct_away": 0.31,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f4ae7c0f",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 347.7055,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 346.4,
+   "pct_away": 0.38,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ef0fb573",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 344.4977,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 346.4,
+   "pct_away": -0.55,
+   "good_until": "2026-09-28",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -266,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.03,
-   "pct_away": 0.94,
+   "last": 148.24,
+   "pct_away": 0.8,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -283,8 +282,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 744.0,
-   "pct_away": -1.88,
+   "last": 746.25,
+   "pct_away": -2.18,
    "good_until": "2026-09-23",
    "why": "Protective stop ~2% below entry",
    "signals": [
@@ -299,8 +298,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 148.03,
-   "pct_away": -2.36,
+   "last": 148.24,
+   "pct_away": -2.5,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3f1d2871",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 336.3863,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 346.4,
+   "pct_away": -2.89,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,8 +332,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 744.0,
-   "pct_away": -2.78,
+   "last": 746.25,
+   "pct_away": -3.07,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -326,64 +342,15 @@
    ]
   },
   {
-   "id": "84484e7a",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 222.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 228.55,
-   "pct_away": -2.87,
-   "good_until": "2026-09-23",
-   "why": "Protective stop ~2.7% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "115f31c4",
-   "ticker": "NVDA",
+   "id": "914320b7",
+   "ticker": "CRWD",
    "kind": "buy_limit",
-   "price": 221.3152,
+   "price": 243.1305,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 228.55,
-   "pct_away": -3.17,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "02b45a0d",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 600.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 620.53,
-   "pct_away": -3.31,
-   "good_until": "2026-09-23",
-   "why": "Protective stop ~3% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "b704a83d",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 599.5667,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 620.53,
-   "pct_away": -3.38,
+   "last": 252.12,
+   "pct_away": -3.57,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
