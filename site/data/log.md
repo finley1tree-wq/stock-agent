@@ -1,5 +1,3 @@
-- BUY $2245.51 NOC [filled] ['momentum', 'news'] — defense sector pullback entry, not cooling off, mid-range price | evidence: NOC -2.33% today pct_of_day_range 40.4, Zacks headline 'Can APN-241 Processor Demand Support Northrop Grumman's Growth?' 15:40
-- BUY $1976.05 ESE [filled] ['congress', 'news'] — congress buying pressure plus niche defense-infra news, diversifies book | evidence: congress_net_buy_pressure ESE=2.0, headline '3 Stocks Riding The Push To Protect Undersea Cables' 09-19, price 76.7% of range but fresh defense-adjacent name
 - BUY $1796.41 SKWD [filled] ['congress'] — congress buy pressure name, insurance diversifier, low in day range 40.2% | evidence: congress_net_buy_pressure SKWD=2.0, headline 'What Could Skyward Specialty Insurance Group (SKWD) Gain From Its Claims Payments Deal?' 08:18
 - BUY $2245.51 IBM [filled] ['momentum', 'news'] — tech name with fresh AI-productivity news catalyst, mid-range entry not chasing | evidence: IBM +1.6% today, 'AI magic sends markets higher, plus one-on-one with IBM vice chair' Yahoo Finance 14:32, pct_of_day_range 53.6
 - BUY $2245.51 GOOGL [filled] ['momentum', 'news'] — deep pullback to day low on a mega-cap AI name, cheap entry point vs range | evidence: GOOGL pct_of_day_range only 4.3% (near day low), -4.06% today creating dip entry despite AI cash-flow growth story per Yahoo Finance Chart of Day
@@ -374,6 +372,8 @@ Decision: nothing at this check. 21 standing order(s) working.
 - BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
 ## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (cancelled 19 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
