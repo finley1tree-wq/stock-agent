@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% AVGO @ $354.00 until 2026-09-22 — Protective stop ~2.5% below entry
-~ WORKING buy_limit $2000.00 NVDA @ $228.21 until 2026-09-22 — wanted it, but not at the high — resting at $228.21. High momentum widely_held name, not currently held, fills a min_positions gap
-~ WORKING take_profit 100% AVGO @ $364.53 until 2026-09-27 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 AVGO @ $352.41 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32791.77 (+31.17% on $25000.00 in) · cash $16429.61 · realised +7810.37
 Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $8566.85 this week
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $748.56] -> $3569.29 (+0.39%) — close 100% at +0.4% over the average cost
 ## 2026-09-23 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $252.02] -> $2681.21 (+0.55%) — close 100% at +0.5% over the average cost
+## 2026-09-23 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -14945,3 +14945,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $748.56] -> $3569.29 (+0.39%) — close 100% at +0.4% over the average cost
 ## 2026-09-23 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $252.02] -> $2681.21 (+0.55%) — close 100% at +0.5% over the average cost
+## 2026-09-23 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
