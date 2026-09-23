@@ -1,5 +1,3 @@
-- SELL 100% NOC [take_profit @ $513.73] -> $2506.28 (+0.25%) — close 100% at +0.3% over the average cost
-## 2026-09-23 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [stop_loss @ $344.33] -> $992.90 (-0.71%) — close it all at -0.7% under the average cost
 ## 2026-09-23 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +396,5 @@ lesson: With min_positions target far below actual count and huge idle cash, buy
 ~ WORKING buy_limit $500.00 AMD @ $597.36 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32855.76 (+31.42% on $25000.00 in) · cash $16015.80 · realised +7861.95
 Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $8117.73 this week
+- BUY $1000.00 SPY [buy_limit @ $768.15] — strong month, weak day: resting 0.20% under $769.69 to catch the dip
+## 2026-09-23 12:23 ET — tick — 0 sell(s), 1 buy(s) from standing orders
