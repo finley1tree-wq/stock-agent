@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% IBM @ $227.00 until 2026-09-22 — Protective stop on new IBM position
-~ WORKING buy_limit $2484.48 TSM @ $445.60 until 2026-09-22 — wanted it, but not at the high — resting at $445.60. Strong semiconductor capex story, momentum intact
-~ WORKING take_profit 100% GOOGL @ $354.12 until 2026-09-27 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 GOOGL @ $342.57 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% MSFT @ $497.59 until 2026-09-27 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 MSFT @ $481.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ lesson: Check cooling_off_minutes_left before drafting orders for specific ticke
 ~ WORKING buy_limit $1000.00 NVDA @ $224.45 until 2026-09-24 — strong month, weak day: resting 0.55% under $225.69 to catch the dip
 portfolio: equity $32881.01 (+31.52% on $25000.00 in) · cash $13385.50 · realised +7885.50
 Done: 0 sell(s), 6 buy(s); 30 order(s) working; budget left $5522.75 this week
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $337.76] -> $1002.31 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-23 10:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
