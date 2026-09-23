@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-23T10:57-04:00",
- "note": "Below min_positions with 100% idle cash despite $25k weekly budget available - the dominant instruction here is to deploy now. I picked 6 eligible (non-cooling-off) names spanning widely_held (best historical sector avg_ret 4.32%), defense, and nuclear (92% hit rate historically), each backed by a c",
+ "asOf": "2026-09-23T11:13-04:00",
+ "note": "Below min_positions (5 held, need 8) with 40% cash idle - deploying into 3 more names to reach 8 positions. RTX and OKLO add sector diversity (defense, nuclear) with concrete news/momentum evidence; TTD adds congress-backed contrarian entry at a low point in its day range after an -8.57% drop. All n",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,24 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9d64de1c",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 192.9905,
-   "usd": 2200.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 193.55,
-   "pct_away": -0.29,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
    "id": "291bb68a",
    "ticker": "NOC",
    "kind": "take_profit",
@@ -164,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 516.48,
-   "pct_away": 0.29,
+   "last": 517.02,
+   "pct_away": 0.19,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -174,17 +156,51 @@
    ]
   },
   {
-   "id": "31a5e60e",
-   "ticker": "GOOGL",
+   "id": "dae03ea7",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 768.1506,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 769.69,
+   "pct_away": -0.2,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.20% under $769.69 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "fd442c7f",
+   "ticker": "NLR",
    "kind": "take_profit",
-   "price": 343.4358,
+   "price": 109.6987,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 342.4,
-   "pct_away": 0.3,
+   "last": 109.43,
+   "pct_away": 0.25,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "347eedd3",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 194.4717,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 193.99,
+   "pct_away": 0.25,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -198,13 +214,48 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.45,
-   "pct_away": 0.32,
+   "last": 371.17,
+   "pct_away": 0.4,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "ba66b745",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 496.1125,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 498.26,
+   "pct_away": -0.43,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "9d64de1c",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 192.9905,
+   "usd": 2200.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 193.99,
+   "pct_away": -0.52,
+   "good_until": "2026-09-23",
+   "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
    ]
   },
   {
@@ -215,8 +266,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 235.93,
-   "pct_away": 0.37,
+   "last": 235.37,
+   "pct_away": 0.61,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -225,17 +276,68 @@
    ]
   },
   {
-   "id": "fd442c7f",
-   "ticker": "NLR",
+   "id": "31a5e60e",
+   "ticker": "GOOGL",
    "kind": "take_profit",
-   "price": 109.6987,
+   "price": 343.4358,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.18,
-   "pct_away": 0.48,
+   "last": 341.37,
+   "pct_away": 0.61,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7f8cd152",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 224.4534,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 225.96,
+   "pct_away": -0.67,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.55% under $225.69 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "3373278a",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 12.7767,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 12.69,
+   "pct_away": 0.68,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "76fe1f3b",
+   "ticker": "OKLO",
+   "kind": "take_profit",
+   "price": 40.106,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 39.81,
+   "pct_away": 0.74,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -249,8 +351,8 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 150.44,
-   "pct_away": -0.82,
+   "last": 150.71,
+   "pct_away": -1.0,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
    "signals": [
@@ -259,17 +361,17 @@
    ]
   },
   {
-   "id": "7f8cd152",
-   "ticker": "NVDA",
+   "id": "e187e6f8",
+   "ticker": "META",
    "kind": "buy_limit",
-   "price": 224.4534,
+   "price": 740.849,
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 226.49,
-   "pct_away": -0.9,
+   "last": 748.55,
+   "pct_away": -1.03,
    "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.55% under $225.69 to catch the dip",
+   "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -283,31 +385,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 463.46,
-   "pct_away": -1.15,
+   "last": 464.23,
+   "pct_away": -1.31,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "e187e6f8",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 740.849,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 749.56,
-   "pct_away": -1.16,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -318,8 +403,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 614.41,
-   "pct_away": -1.67,
+   "last": 615.7,
+   "pct_away": -1.88,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.87% under $609.41 to catch the dip",
    "signals": [
@@ -335,8 +420,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 463.46,
-   "pct_away": -1.8,
+   "last": 464.23,
+   "pct_away": -1.96,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $455.13. Highest congress buy pressure score in list plus positive momentum",
    "signals": [
@@ -353,24 +438,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 342.4,
-   "pct_away": -2.45,
-   "good_until": "2026-09-23",
-   "why": "protective stop ~2.5% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "233ce426",
-   "ticker": "NLR",
-   "kind": "stop_loss",
-   "price": 106.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 109.18,
-   "pct_away": -2.45,
+   "last": 341.37,
+   "pct_away": -2.16,
    "good_until": "2026-09-23",
    "why": "protective stop ~2.5% below entry",
    "signals": [
@@ -385,8 +454,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 235.93,
-   "pct_away": -2.51,
+   "last": 235.37,
+   "pct_away": -2.28,
    "good_until": "2026-09-23",
    "why": "protective stop ~2.5% below entry",
    "signals": [
@@ -401,8 +470,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.45,
-   "pct_away": -2.54,
+   "last": 371.17,
+   "pct_away": -2.47,
    "good_until": "2026-09-23",
    "why": "protective stop ~2.5% below entry",
    "signals": [
@@ -410,70 +479,67 @@
    ]
   },
   {
-   "id": "2f917080",
-   "ticker": "NOC",
+   "id": "ec459a63",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 198.85,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 193.99,
+   "pct_away": 2.51,
+   "good_until": "2026-09-23",
+   "why": "Lock in gains on defense momentum trade",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "250c7c8e",
+   "ticker": "OKLO",
    "kind": "stop_loss",
-   "price": 503.0,
+   "price": 38.8,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 516.48,
-   "pct_away": -2.61,
+   "last": 39.81,
+   "pct_away": -2.54,
    "good_until": "2026-09-23",
-   "why": "protective stop ~2.5% below entry",
+   "why": "Protective stop on new OKLO position, wider due to high ATR",
    "signals": [
     "risk_management"
    ]
   },
   {
-   "id": "b93569bf",
+   "id": "6a4134f8",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 189.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 193.99,
+   "pct_away": -2.57,
+   "good_until": "2026-09-23",
+   "why": "Protective stop on new RTX position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "233ce426",
    "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 106.0113,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "kind": "stop_loss",
+   "price": 106.5,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.18,
-   "pct_away": -2.9,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 109.43,
+   "pct_away": -2.68,
+   "good_until": "2026-09-23",
+   "why": "protective stop ~2.5% below entry",
    "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "30157112",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 501.1893,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 516.48,
-   "pct_away": -2.96,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8cb2313f",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 228.9006,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 235.93,
-   "pct_away": -2.98,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
+    "risk_management"
    ]
   },
   {
@@ -484,8 +550,41 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 342.4,
-   "pct_away": -2.98,
+   "last": 341.37,
+   "pct_away": -2.69,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2f917080",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 503.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 517.02,
+   "pct_away": -2.71,
+   "good_until": "2026-09-23",
+   "why": "protective stop ~2.5% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "8cb2313f",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 228.9006,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 235.37,
+   "pct_away": -2.75,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -501,17 +600,150 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.45,
-   "pct_away": -2.98,
+   "last": 371.17,
+   "pct_away": -2.91,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
+  },
+  {
+   "id": "82a8c53d",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 12.319,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 12.69,
+   "pct_away": -2.92,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b7f0d4d5",
+   "ticker": "OKLO",
+   "kind": "buy_limit",
+   "price": 38.6351,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 39.81,
+   "pct_away": -2.95,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2bd6c5bd",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.2479,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 193.99,
+   "pct_away": -2.96,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "30157112",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 501.1893,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 517.02,
+   "pct_away": -3.06,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b93569bf",
+   "ticker": "NLR",
+   "kind": "buy_limit",
+   "price": 106.0113,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 109.43,
+   "pct_away": -3.12,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "66315de9",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 13.1,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 12.69,
+   "pct_away": 3.23,
+   "good_until": "2026-09-23",
+   "why": "Lock in gains on TTD contrarian bounce trade",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "65e1cac2",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 12.2,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 12.69,
+   "pct_away": -3.86,
+   "good_until": "2026-09-23",
+   "why": "Protective stop on new TTD position given high volatility",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "9c3c256e",
+   "ticker": "OKLO",
+   "kind": "take_profit",
+   "price": 41.4,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 39.81,
+   "pct_away": 3.99,
+   "good_until": "2026-09-23",
+   "why": "Lock in gains on nuclear momentum trade",
+   "signals": [
+    "risk_management"
+   ]
   }
  ],
- "last_reasoning": "Below min_positions with 100% idle cash despite $25k weekly budget available - the dominant instruction here is to deploy now. I picked 6 eligible (non-cooling-off) names spanning widely_held (best historical sector avg_ret 4.32%), defense, and nuclear (92% hit rate historically), each backed by a c",
+ "last_reasoning": "Below min_positions (5 held, need 8) with 40% cash idle - deploying into 3 more names to reach 8 positions. RTX and OKLO add sector diversity (defense, nuclear) with concrete news/momentum evidence; TTD adds congress-backed contrarian entry at a low point in its day range after an -8.57% drop. All n",
  "next_check_minutes": 15,
  "allowed": [
   "AAPL",
@@ -572,7 +804,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 393,
+  "decisions_graded": 392,
   "decisions_with_buys_graded": 159,
   "independent_days_graded": 5,
   "avg_regret_pct": -0.41,
@@ -685,7 +917,7 @@
     "n": 1
    }
   },
-  "idle_checks": 228,
+  "idle_checks": 227,
   "blocked_checks": 0,
   "idle_share": 0.57,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1907,19 +2139,19 @@
  "headlines": {
   "AAPL": [
    {
-    "title": "Why Apple's stock chart is probably putting a smile on the face of new CEO John Ternus",
-    "source": "Yahoo Finance",
-    "when": "2026-09-23T13:53"
+    "title": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-23T14:32"
    },
    {
-    "title": "The AI panic, tech concentration, and Nvidia windfalls",
+    "title": "The hidden tech trap destroying your portfolio",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-23T10:00"
+    "when": "2026-09-23T11:00"
    },
    {
-    "title": "AI can transform shopping, but human touch wins in-store: Ron Johnson",
+    "title": "Meta\u2019s Muse just changed the AI game",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-22T19:59"
+    "when": "2026-09-22T21:31"
    }
   ],
   "ADC": [
@@ -1941,6 +2173,11 @@
   ],
   "AMAT": [
    {
+    "title": "3 Top Chip Equipment Stocks to Buy as AI Demand Fuels BofA Optimism",
+    "source": "Zacks",
+    "when": "2026-09-23T14:49"
+   },
+   {
     "title": "Wall Street Bulls Look Optimistic About Applied Materials (AMAT): Should You Buy?",
     "source": "Zacks",
     "when": "2026-09-23T13:30"
@@ -1949,11 +2186,6 @@
     "title": "Applied Materials (AMAT) Stock Moves 1.77%: What You Should Know",
     "source": "Zacks",
     "when": "2026-09-22T21:45"
-   },
-   {
-    "title": "What Are AMAT Stock Bears Missing?",
-    "source": "Trefis",
-    "when": "2026-09-22T17:13"
    }
   ],
   "AMD": [
@@ -1963,14 +2195,14 @@
     "when": "2026-09-23T14:44"
    },
    {
-    "title": "The AI panic, tech concentration, and Nvidia windfalls",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-23T10:00"
+    "title": "Tech retreats as Treasury yields and oil climb: AlphaCheck",
+    "source": "Yahoo Finance",
+    "when": "2026-09-23T13:53"
    },
    {
-    "title": "Should investors play AI bottlenecks over social media stocks?",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-22T17:39"
+    "title": "Billionaire Chase Coleman\u2019s Top 2 New AI Stock Picks",
+    "source": "Insider Monkey",
+    "when": "2026-09-23T14:34"
    }
   ],
   "AMZN": [
@@ -2201,14 +2433,14 @@
     "when": "2026-09-23T14:44"
    },
    {
-    "title": "IBM's Gary Cohn on AI's productivity boom: 'There's no real losers'",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-23T14:27"
-   },
-   {
     "title": "What Is Really Driving Palantir's Growth?",
     "source": "Trefis",
     "when": "2026-09-23T13:32"
+   },
+   {
+    "title": "Verizon Commits $70 Million to Nationwide AI Training Initiative",
+    "source": "InvestorsHub",
+    "when": "2026-09-23T12:48"
    }
   ],
   "IBP": [
@@ -2269,14 +2501,14 @@
     "when": "2026-09-23T14:44"
    },
    {
-    "title": "Here are the stocks taking a hit amid the Muse hype",
+    "title": "Meta\u2019s Muse is a game changer\u2014but can it win consumers' trust?",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-23T13:20"
+    "when": "2026-09-23T13:29"
    },
    {
-    "title": "Meta\u2019s Muse just changed the AI game",
+    "title": "Meta\u2019s new AI agent just got me $250 in flight credits",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-22T21:31"
+    "when": "2026-09-22T21:45"
    }
   ],
   "MSFT": [
@@ -2286,14 +2518,14 @@
     "when": "2026-09-22T19:32"
    },
    {
-    "title": "Apple Takes AI Fight Straight to Nvidia and Microsoft",
-    "source": "GuruFocus.com",
-    "when": "2026-09-23T14:46"
+    "title": "Microsoft Stock Gets Another Upgrade, Price-Target Hike",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-23T15:01"
    },
    {
-    "title": "The Street is Finally Going Bullish on Salesforce and I Keep Buying",
+    "title": "Americans Fear of Losing Their Job Is Highest in 13 Years",
     "source": "24/7 Wall St.",
-    "when": "2026-09-23T14:45"
+    "when": "2026-09-23T14:57"
    }
   ],
   "NEM": [
@@ -2349,19 +2581,19 @@
   ],
   "NVDA": [
    {
-    "title": "Nasdaq rally hasn't stopped these tech stocks from flashing warning signs",
-    "source": "Yahoo Finance",
-    "when": "2026-09-23T14:17"
+    "title": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-23T14:32"
    },
    {
-    "title": "The AI panic, tech concentration, and Nvidia windfalls",
+    "title": "The hidden tech trap destroying your portfolio",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-23T10:00"
+    "when": "2026-09-23T11:00"
    },
    {
-    "title": "Should investors play AI bottlenecks over social media stocks?",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-22T17:39"
+    "title": "Prediction: This Underrated ETF Could Be the Most Surprising Outperformer of the Next 10 Years",
+    "source": "Motley Fool",
+    "when": "2026-09-23T14:50"
    }
   ],
   "O": [
@@ -2553,5 +2785,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-23T10:57-04:00"
+ "signalsAsOf": "2026-09-23T11:13-04:00"
 }

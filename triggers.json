@@ -1,267 +1,6 @@
 {
  "orders": [
   {
-   "id": "816028be",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 440.8466,
-   "status": "cancelled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $443.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "086b0ddf",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 430.2241,
-   "status": "cancelled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $443.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "84cda4b0",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 92.7923,
-   "status": "filled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $92.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:37"
-  },
-  {
-   "id": "a2b65c14",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 89.6571,
-   "status": "cancelled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $92.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ef6f6647",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 245.1829,
-   "status": "filled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "strong month, weak day: resting 1.03% under $247.74 to catch the dip",
-   "evidence": "+29.1% over the month, sitting at 31% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 09:50"
-  },
-  {
-   "id": "5fc7fe67",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.6412,
-   "status": "filled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "strong month, weak day: resting 0.94% under $13.77 to catch the dip",
-   "evidence": "+4.5% over the month, sitting at 15% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 09:37"
-  },
-  {
-   "id": "d37da076",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 182.7887,
-   "status": "filled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "strong month, weak day: resting 0.79% under $184.24 to catch the dip",
-   "evidence": "+2.4% over the month, sitting at 46% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 09:37"
-  },
-  {
-   "id": "75227949",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 131.0225,
-   "status": "filled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "strong month, weak day: resting 0.66% under $131.89 to catch the dip",
-   "evidence": "+2.2% over the month, sitting at 2% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 09:50"
-  },
-  {
-   "id": "2bf19c12",
-   "ticker": "BRK-B",
-   "kind": "buy_limit",
-   "price": 501.3056,
-   "status": "cancelled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "strong month, weak day: resting 0.25% under $502.58 to catch the dip",
-   "evidence": "+1.4% over the month, sitting at 52% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "ed4babdf",
-   "ticker": "BRK-A",
-   "kind": "buy_limit",
-   "price": 750249.2478,
-   "status": "cancelled",
-   "created": "2026-09-22 09:32",
-   "created_ts": 1790083966,
-   "why": "strong month, weak day: resting 0.26% under $752180.00 to catch the dip",
-   "evidence": "+1.0% over the month, sitting at 0% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "59fa4efe",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 358.436,
-   "status": "cancelled",
-   "created": "2026-09-22 09:34",
-   "created_ts": 1790084065,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $358.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8f970ec4",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 13.7094,
-   "status": "cancelled",
-   "created": "2026-09-22 09:37",
-   "created_ts": 1790084234,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $13.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "5e568283",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 13.4665,
-   "status": "cancelled",
-   "created": "2026-09-22 09:37",
-   "created_ts": 1790084234,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $13.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:40",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "7838ea39",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.2308,
-   "status": "cancelled",
-   "created": "2026-09-22 09:37",
-   "created_ts": 1790084234,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $13.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "945f7b44",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -7445,7 +7184,239 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "6a4134f8",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 189.0,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "Protective stop on new RTX position",
+   "evidence": "ATR 1.87%, protect new position ~2.5% below entry at 193.99",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "250c7c8e",
+   "ticker": "OKLO",
+   "kind": "stop_loss",
+   "price": 38.8,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "Protective stop on new OKLO position, wider due to high ATR",
+   "evidence": "ATR 6.25%, protect new OKLO position at 39.81 entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "65e1cac2",
+   "ticker": "TTD",
+   "kind": "stop_loss",
+   "price": 12.2,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "Protective stop on new TTD position given high volatility",
+   "evidence": "ATR 5.44%, protect new TTD position at 12.69 entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ec459a63",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 198.85,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "Lock in gains on defense momentum trade",
+   "evidence": "~2.5% gain target on 193.99 entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "9c3c256e",
+   "ticker": "OKLO",
+   "kind": "take_profit",
+   "price": 41.4,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "Lock in gains on nuclear momentum trade",
+   "evidence": "~4% gain target on 39.81 entry given high ATR",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "66315de9",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 13.1,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "Lock in gains on TTD contrarian bounce trade",
+   "evidence": "~3.2% gain target on 12.69 entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "347eedd3",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 194.4717,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $194.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2bd6c5bd",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.2479,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
+  },
+  {
+   "id": "76fe1f3b",
+   "ticker": "OKLO",
+   "kind": "take_profit",
+   "price": 40.106,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $39.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b7f0d4d5",
+   "ticker": "OKLO",
+   "kind": "buy_limit",
+   "price": 38.6351,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $39.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
+  },
+  {
+   "id": "3373278a",
+   "ticker": "TTD",
+   "kind": "take_profit",
+   "price": 12.7767,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $12.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "82a8c53d",
+   "ticker": "TTD",
+   "kind": "buy_limit",
+   "price": 12.319,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $12.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
+  },
+  {
+   "id": "ba66b745",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 496.1125,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
+   "evidence": "+3.1% over the month, sitting at 17% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 1000.0
+  },
+  {
+   "id": "dae03ea7",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 768.1506,
+   "status": "working",
+   "created": "2026-09-23 11:13",
+   "created_ts": 1790176382,
+   "why": "strong month, weak day: resting 0.20% under $769.69 to catch the dip",
+   "evidence": "+0.5% over the month, sitting at 28% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-23 10:56"
+ "updated": "2026-09-23 11:13"
 }

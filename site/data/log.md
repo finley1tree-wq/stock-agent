@@ -1,32 +1,3 @@
-  (dropped trigger AMAT stop_loss: not held)
-  (dropped trigger NVDA buy_limit: duplicate of a working order)
-  (dropped trigger AMD buy_limit: duplicate of a working order)
-  (dropped trigger AMAT buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% CCJ @ $92.00 until 2026-09-22 — protective stop ~2.8% below entry
-~ WORKING buy_limit $4200.00 AVGO @ $362.53 until 2026-09-22 — wanted it, but not at the high — resting at $362.53. AI capex momentum leader, widely_held sector, buying now given last check of day
-~ WORKING buy_limit $4200.00 TSM @ $446.98 until 2026-09-22 — wanted it, but not at the high — resting at $446.98. Chip supply chain leader with strong momentum and capex catalyst news, widely_held sector
-~ WORKING take_profit 100% CCJ @ $95.08 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $91.87 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AAPL @ $338.72 until 2026-09-23 — strong month, weak day: resting 0.44% under $340.21 to catch the dip
-~ WORKING buy_limit $1000.00 CHRW @ $148.25 until 2026-09-23 — strong month, weak day: resting 0.54% under $149.06 to catch the dip
-portfolio: equity $32822.86 (+31.29% on $25000.00 in) · cash $28864.45 · realised +7824.45
-Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21001.68 this week
-  (dropped META: sold 3 min ago, cooling off)
-  (dropped META: sold 4 min ago, cooling off)
-  (dropped META: sold 4 min ago, cooling off)
-  (dropped META: sold 5 min ago, cooling off)
-  (dropped META: sold 6 min ago, cooling off)
-  (dropped META: sold 6 min ago, cooling off)
-  (dropped META: sold 7 min ago, cooling off)
-  (dropped META: sold 8 min ago, cooling off)
-  (dropped META: sold 8 min ago, cooling off)
-  (dropped META: sold 9 min ago, cooling off)
-  (dropped META: sold 10 min ago, cooling off)
-  (dropped META: sold 11 min ago, cooling off)
-  (dropped META: sold 12 min ago, cooling off)
-  (dropped META: sold 13 min ago, cooling off)
-  (dropped META: sold 14 min ago, cooling off)
-  (dropped META: sold 14 min ago, cooling off)
   (dropped META: sold 15 min ago, cooling off)
   (dropped META: sold 16 min ago, cooling off)
   (dropped META: sold 16 min ago, cooling off)
@@ -398,3 +369,32 @@ lesson: When below min_positions and 100% idle with multiple eligible tickers, d
 ~ WORKING buy_limit $500.00 NLR @ $106.01 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32892.07 (+31.57% on $25000.00 in) · cash $17898.06 · realised +7898.06
 Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $10000.00 this week
+
+## 2026-09-23 11:13 ET (Wednesday) — week 2026-W39 — budget left $10000.00 (today $79406.13 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+brain: Below min_positions (5 held, need 8) with 40% cash idle - deploying into 3 more names to reach 8 positions. RTX and OKLO add sector diversity (defense, nuclear) with concrete news/momentum evidence; TTD adds congress-backed contrarian entry at a low point in its day range after an -8.57% drop. All new positions get ATR-sized protective stops per risk_management practice which has the best hit rate (0.86-0.87) in track record.
+lesson: Congress-buy-pressure tickers (TTD, CHRW, HUBB) that are cooling off or resting on unfilled limits should be actively re-evaluated for direct market buys when still below min_positions rather than left only as passive limit orders.
+- BUY $2000.00 RTX [filled] ['momentum', 'news'] — Defense sector diversification, fresh momentum and news, price near mid-range not chasing highs | evidence: RTX +75th pct of day range, headline 'RTX Corporation is Attracting Investor Attention'; not in cooling-off list
+- BUY $2000.00 OKLO [filled] ['momentum', 'news'] — Nuclear theme momentum, complements existing NLR position, sits at 59.5% of day range - not extended | evidence: OKLO change_1m +10.64%, headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now'; not cooling off
+- BUY $1500.00 TTD [filled] ['congress', 'momentum'] — Contrarian entry near day low with congressional buy pressure backing, cheap entry point | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buy 2026-09-10 and 2026-09-04; TTD at 18.6% of day range (low), oversold after -8.57% 1d drop
+~ WORKING stop_loss 100% RTX @ $189.00 until 2026-09-23 — Protective stop on new RTX position
+~ WORKING stop_loss 100% OKLO @ $38.80 until 2026-09-23 — Protective stop on new OKLO position, wider due to high ATR
+~ WORKING stop_loss 100% TTD @ $12.20 until 2026-09-23 — Protective stop on new TTD position given high volatility
+~ WORKING take_profit 50% RTX @ $198.85 until 2026-09-23 — Lock in gains on defense momentum trade
+~ WORKING take_profit 50% OKLO @ $41.40 until 2026-09-23 — Lock in gains on nuclear momentum trade
+~ WORKING take_profit 50% TTD @ $13.10 until 2026-09-23 — Lock in gains on TTD contrarian bounce trade
+~ WORKING take_profit 100% RTX @ $194.47 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $188.25 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OKLO @ $40.11 until 2026-09-28 — close 100% at +0.7% over the average cost
+~ WORKING buy_limit $500.00 OKLO @ $38.64 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.78 until 2026-09-28 — close 100% at +0.6% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $12.32 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 MSFT @ $496.11 until 2026-09-24 — strong month, weak day: resting 0.43% under $498.26 to catch the dip
+~ WORKING buy_limit $1000.00 SPY @ $768.15 until 2026-09-24 — strong month, weak day: resting 0.20% under $769.69 to catch the dip
+portfolio: equity $32881.46 (+31.53% on $25000.00 in) · cash $12398.06 · realised +7898.06
+Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $4500.00 this week
