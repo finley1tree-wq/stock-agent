@@ -23,8 +23,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.42,
-    "ret_final": 0.42,
+    "ret_now": 0.12,
+    "ret_final": 0.12,
     "ret_src": "realised"
   },
   {
@@ -23379,8 +23379,8 @@
     "code_version": "4d4d82a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.44,
-    "ret_now": 0.44,
+    "ret_final": 0.13,
+    "ret_now": 0.13,
     "ret_src": "realised"
   },
   {
@@ -24303,8 +24303,8 @@
     "code_version": "6372edc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.43,
-    "ret_final": 0.43,
+    "ret_now": -0.02,
+    "ret_final": -0.02,
     "ret_src": "realised"
   },
   {
@@ -30233,8 +30233,8 @@
     "code_version": "706af62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.43,
-    "ret_now": 0.43,
+    "ret_final": -0.24,
+    "ret_now": -0.24,
     "ret_src": "realised"
   },
   {
@@ -32057,7 +32057,9 @@
     "code_version": "41a2ddc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.96,
+    "ret_final": -0.96,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLTR",
@@ -32183,7 +32185,8 @@
     "hour_et": 11,
     "code_version": "2c4bdc3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.17
   },
   {
     "symbol": "NEM",
@@ -32208,7 +32211,8 @@
     "hour_et": 11,
     "code_version": "2c4bdc3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.42
   },
   {
     "symbol": "TSM",
@@ -32233,7 +32237,8 @@
     "hour_et": 11,
     "code_version": "2c4bdc3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.26
   },
   {
     "symbol": "AMZN",
@@ -32258,7 +32263,8 @@
     "hour_et": 11,
     "code_version": "2c4bdc3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.06
   },
   {
     "symbol": "HD",
@@ -32283,7 +32289,8 @@
     "hour_et": 11,
     "code_version": "2c4bdc3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "AAPL",
@@ -32307,7 +32314,8 @@
     "hour_et": 11,
     "code_version": "2c4bdc3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.11
   },
   {
     "symbol": "AMAT",
@@ -32332,6 +32340,32 @@
     "evidence": "bought 30 min ago, -0.94% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "a190dce"
+    "code_version": "a190dce",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "IBP",
+    "notional": 1846.15,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.809489,
+    "price": 209.56,
+    "date": "2026-09-23",
+    "time_et": "12:00",
+    "ts": 1790179257,
+    "why": "Congress buy pressure plus positive daily momentum, adds construction-sector diversification",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. David J. Taylor disclosed buy 9/17; IBP +3.46% today, congress_net_buy_pressure score 1",
+    "entry_price": 209.48,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -15.12,
+    "hour_et": 12,
+    "code_version": "06b170f",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

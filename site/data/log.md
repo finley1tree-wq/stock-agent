@@ -1,26 +1,3 @@
-~ WORKING take_profit 100% AMAT @ $470.31 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 AMAT @ $454.27 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 CHRW @ $149.00 until 2026-09-24 — strong month, weak day: resting 0.51% under $149.77 to catch the dip
-~ WORKING buy_limit $1000.00 GOOGL @ $346.79 until 2026-09-24 — strong month, weak day: resting 0.49% under $348.48 to catch the dip
-~ WORKING buy_limit $1000.00 SPY @ $771.24 until 2026-09-24 — strong month, weak day: resting 0.20% under $772.79 to catch the dip
-portfolio: equity $32827.05 (+31.31% on $25000.00 in) · cash $17790.60 · realised +7830.06
-Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $450.34] -> $2155.74 (+0.24%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on AMAT: position closed)
-- SELL 100% AMAT [take_profit @ $470.31] -> $2678.01 (+0.43%) — close 100% at +0.4% over the average cost
-- BUY $1000.00 CHRW [buy_limit @ $149.00] — strong month, weak day: resting 0.51% under $149.77 to catch the dip
-## 2026-09-23 09:35 ET — tick — 2 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AMD: position closed)
-- SELL 100% AMD [take_profit @ $620.87] -> $3571.40 (+0.45%) — close 100% at +0.4% over the average cost
-  (cancelled 2 standing order(s) on NVDA: position closed)
-- SELL 100% NVDA [take_profit @ $228.80] -> $3119.88 (+0.28%) — close 100% at +0.3% over the average cost
-- BUY $2666.67 CRWD [buy_limit @ $250.65] — wanted it, but not at the high — resting at $250.65. Congress buy pressure plus bullish security-AI news
-- BUY $1000.00 GOOGL [buy_limit @ $346.79] — strong month, weak day: resting 0.49% under $348.48 to catch the dip
-## 2026-09-23 09:35 ET — tick — 2 sell(s), 2 buy(s) from standing orders
-  (cancelled 2 standing order(s) on META: position closed)
-- SELL 100% META [take_profit @ $748.56] -> $3569.29 (+0.39%) — close 100% at +0.4% over the average cost
-## 2026-09-23 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $252.02] -> $2681.21 (+0.55%) — close 100% at +0.5% over the average cost
 ## 2026-09-23 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +375,26 @@ Done: 0 sell(s), 6 buy(s); 32 order(s) working; budget left $7659.52 this week
   (dropped RTX: sold 16 min ago, cooling off)
 - SELL 100% AMAT [time stop] -> $2475.89 (-0.96%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped RTX: sold 17 min ago, cooling off)
+
+## 2026-09-23 12:00 ET (Wednesday) — week 2026-W39 — budget left $10135.41 (today $104753.45 put to work, 45 buys, 38 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (6 of 8) with 40.5% cash idle - need to add names. CRWD has strong momentum (+5.1%) plus fresh cybersecurity rally news, PLD has data-center growth headline and real estate diversification, IBP has both congress buy pressure and today's +3.46% move. Avoided cooling-off names (AMAT, PLTR, OKLO, TTD, NOC, RTX, UNH, IBM, GOOGL, NLR) per lesson. Added protective stops on all new positions per risk_management best-performing signal (86% hit rate, 3.4% avg return).
+lesson: Rotating into fresh momentum+news names (CRWD, PLD, IBP) to hit min_positions while avoiding all cooling-off tickers works better than chasing already-cooling congress names at market.
+  (dropped CRWD: 98% up today's range — resting a limit at $256.13 instead of chasing)
+  (dropped PLD: 95% up today's range — resting a limit at $134.83 instead of chasing)
+- BUY $1846.15 IBP [filled] ['congress', 'momentum'] — Congress buy pressure plus positive daily momentum, adds construction-sector diversification | evidence: Rep. David J. Taylor disclosed buy 9/17; IBP +3.46% today, congress_net_buy_pressure score 1
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger PLD stop_loss: not held)
+~ WORKING stop_loss 100% IBP @ $203.00 until 2026-09-23 — protect new IBP position
+~ WORKING buy_limit $2307.69 CRWD @ $256.13 until 2026-09-23 — wanted it, but not at the high — resting at $256.13. Strong intraday momentum with fresh bullish news catalyst, diversifies away from mega-cap tech already held
+~ WORKING buy_limit $1846.15 PLD @ $134.83 until 2026-09-23 — wanted it, but not at the high — resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off
+~ WORKING take_profit 100% IBP @ $210.66 until 2026-09-28 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $203.27 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32855.83 (+31.42% on $25000.00 in) · cash $16187.33 · realised +7880.80
+Done: 0 sell(s), 1 buy(s); 33 order(s) working; budget left $8289.26 this week
