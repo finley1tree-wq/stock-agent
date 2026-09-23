@@ -1,6 +1,3 @@
-  (dropped META: sold 17 min ago, cooling off)
-
-## 2026-09-22 15:25 ET (Tuesday) — week 2026-W39 — budget left $21001.68 (today $163661.34 put to work, 70 buys, 66 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $4500.00 this week
   (cancelled 2 standing order(s) on NLR: position closed)
 - SELL 100% NLR [take_profit @ $109.70] -> $3011.24 (+0.37%) — close 100% at +0.4% over the average cost
 ## 2026-09-23 11:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $236.81] -> $3010.54 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-09-23 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
