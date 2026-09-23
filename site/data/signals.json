@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-23T15:30-04:00",
+ "asOf": "2026-09-23T15:31-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -146,27 +146,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.94,
-   "pct_away": 0.19,
+   "last": 149.91,
+   "pct_away": 0.21,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ce5a0590",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 193.3933,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 192.74,
-   "pct_away": 0.34,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 192.74,
-   "pct_away": -0.39,
+   "last": 192.65,
+   "pct_away": -0.35,
    "good_until": "2026-09-28",
    "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ce5a0590",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 193.3933,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 192.65,
+   "pct_away": 0.39,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.94,
-   "pct_away": -0.83,
+   "last": 149.91,
+   "pct_away": -0.81,
    "good_until": "2026-09-23",
    "why": "protect sole position into close, existing auto_bracket stop stands",
    "signals": [
@@ -206,15 +206,15 @@
    ]
   },
   {
-   "id": "c1bb10b2",
+   "id": "305f5f9c",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 187.2003,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 192.74,
-   "pct_away": -2.87,
+   "last": 192.65,
+   "pct_away": -2.83,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -223,15 +223,15 @@
    ]
   },
   {
-   "id": "89aa6443",
+   "id": "a101bc56",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 145.306,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.94,
-   "pct_away": -3.09,
+   "last": 149.91,
+   "pct_away": -3.07,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

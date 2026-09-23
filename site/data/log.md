@@ -1,5 +1,3 @@
-~ WORKING take_profit 100% IBP @ $210.66 until 2026-09-28 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 IBP @ $203.27 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32855.83 (+31.42% on $25000.00 in) · cash $16187.33 · realised +7880.80
 Done: 0 sell(s), 1 buy(s); 33 order(s) working; budget left $8289.26 this week
 - SELL 100% AVGO [time stop] -> $2994.00 (-0.20%) — held 30 min, the 30-minute limit: out regardless
@@ -396,5 +394,7 @@ Decision: nothing at this check. 21 standing order(s) working.
 - BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
 ## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (cancelled 19 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
