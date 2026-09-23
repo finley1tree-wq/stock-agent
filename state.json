@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 4223.17,
-  "deployed": 451841.86,
+  "spent": 9623.17,
+  "deployed": 457241.86,
   "by_ticker": {
     "NOC": 28.64,
     "IBM": 25.45,
@@ -23,10 +23,12 @@
     "TSM": 7.41,
     "HD": 0.23,
     "IBP": 10.7,
-    "SKWD": 4.23,
+    "SKWD": 2004.23,
     "NVDA": 0.66,
     "HUBB": 3.36,
-    "PLTR": 2200.0
+    "PLTR": 2200.0,
+    "NLR": 2000.0,
+    "LMT": 1400.0
   },
   "deployed_by_ticker": {
     "AMD": 36501.06,
@@ -38,7 +40,7 @@
     "MSFT": 18925.0,
     "OKLO": 15000.0,
     "NOC": 23053.2,
-    "LMT": 8000.0,
+    "LMT": 9400.0,
     "RTX": 18431.03,
     "CCJ": 30885.0,
     "TSM": 27220.82,
@@ -53,7 +55,7 @@
     "CRWD": 9666.67,
     "HLI": 1000.0,
     "HUBB": 4200.0,
-    "NLR": 5000.0,
+    "NLR": 7000.0,
     "AMZN": 13700.0,
     "IBP": 8846.15,
     "NEM": 7800.0,
@@ -61,7 +63,7 @@
     "O": 3600.0,
     "HD": 5600.0,
     "ESE": 1976.05,
-    "SKWD": 1796.41
+    "SKWD": 3796.41
   },
   "orders": [
     {
@@ -7539,12 +7541,61 @@
       ],
       "evidence": "bought 30 min ago, +0.04% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "SKWD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 36.248222,
+      "price": 55.18,
+      "date": "2026-09-23",
+      "time_et": "14:23",
+      "ts": 1790187790,
+      "why": "Congress buy pressure name, diversifies into insurance sector, not cooling off",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "congress_net_buy_pressure SKWD=2.0, headline 'What Could Skyward Specialty Insurance Group (SKWD) Gain From Its Claims Payments Deal?'"
+    },
+    {
+      "symbol": "NLR",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 18.313492,
+      "price": 109.21,
+      "date": "2026-09-23",
+      "time_et": "14:23",
+      "ts": 1790187790,
+      "why": "Nuclear sector has best hit rate (0.96) in track record by_sector, diversifies book",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now', nuclear sector avg_ret_pct 0.19% hit_rate 0.96 in track record"
+    },
+    {
+      "symbol": "LMT",
+      "notional": 1400.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.655484,
+      "price": 527.21,
+      "date": "2026-09-23",
+      "time_et": "14:23",
+      "ts": 1790187790,
+      "why": "Defense sector diversification with fresh growth narrative, not cooling off",
+      "signals": [
+        "news"
+      ],
+      "evidence": "headline 'Is Lockheed Martin Entering a New Growth Cycle Through Missile Defense?', defense sector hit_rate 0.70 in track record"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 4223.17,
-  "deployed_today": 166845.75,
-  "orders_today": 74,
+  "spent_today": 9623.17,
+  "deployed_today": 172245.75,
+  "orders_today": 77,
   "sells_today": 71,
   "sold_today": [
     "TSM",
@@ -7615,33 +7666,45 @@
     "ESE": 1790180977,
     "SKWD": 1790182075
   },
-  "last_publish_ts": 1790187703,
-  "last_check_ts": 1790187703,
+  "last_publish_ts": 1790187790,
+  "last_check_ts": 1790187790,
   "last_bar_ts": 1790187600,
-  "last_decision_ts": 1790186807,
+  "last_decision_ts": 1790187790,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "bef36a45": 191.4205,
     "64fd2013": 194.7222,
     "4736b8f9": 335.8849,
+    "4a1a82fe": 528.5913,
     "b69edfa6": 765.8752,
+    "bef36a45": 191.4205,
+    "a000aa2c": 55.3455,
+    "30f501bc": 109.6195,
     "9d64de1c": 192.9905,
     "d49470d2": 223.8887,
     "ba66b745": 496.1125,
     "02703baa": 149.8,
+    "18627ab1": 129.753,
+    "d43f1385": 468.645,
     "bfdd06ca": 607.4978,
+    "e9ad1b8b": 258.5,
     "e187e6f8": 740.849,
     "ddb9c92e": 149.4195,
+    "3d2e4919": 262.4105,
     "51f5cda6": 262.3115,
     "cb25544a": 149.1994,
-    "e9ad1b8b": 258.5,
     "f1217f2e": 256.1329,
     "ef0c7f59": 458.1465,
     "f1bd45fe": 189.0,
-    "38ecd3fe": 188.4904,
-    "e21f9d51": 455.1325,
+    "35f8ab16": 53.5246,
+    "bef18265": 105.9337,
+    "7f0efd0d": 511.3937,
     "06491e09": 185.0,
-    "235e5678": 184.8626
+    "38ecd3fe": 188.4904,
+    "9e4e16c3": 105.8,
+    "e21f9d51": 455.1325,
+    "08d71828": 511.0,
+    "235e5678": 184.8626,
+    "5d684b33": 53.4
   }
 }

@@ -1,40 +1,3 @@
-- SELL 100% NOC [time stop] -> $3003.11 (+0.10%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% UNH [time stop] -> $2999.20 (-0.03%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 11:27 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 11:29 ET (Wednesday) — week 2026-W39 — budget left $19511.94 (today $84906.13 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
-brain: Still well below min_positions (3/8) with 78% cash idle - need to add more names now rather than wait on resting limits. Picked PLTR, AMAT, CRWD: all show strong intraday momentum, fresh bullish headlines, and congress buy-pressure confirmation, avoiding all cooling-off tickers. Sized at $2,500 each (normal position size per guardrails) with ATR-based protective stops and take-profits attached immediately.
-lesson: When below min_positions with large idle cash, buy directly at market in size ($2-3k) on names with concrete momentum+news+congress evidence rather than only resting limit orders that may not fill in time.
-  (dropped CRWD: sold 44 min ago, cooling off)
-- BUY $2500.00 PLTR [filled] ['momentum', 'news'] — Strong momentum and fresh bullish news, not cooling off, diversifies into widely_held sector which has best track record (4.28% avg ret) | evidence: PLTR +4.63% today, 79.6% of day range, headline 'Palantir, IBD Stock Of The Day, Flashes Buy Signal Amid Earnings, AI Momentum'
-- BUY $2500.00 AMAT [filled] ['momentum', 'congress', 'news'] — Congress buy pressure score 2.0, strong momentum, widely_held sector has best avg_ret_pct historically | evidence: AMAT +1.78% today, +12.19% 5d; Josh Gottheimer and Jared Moskowitz disclosed buys; headline '3 Top Chip Equipment Stocks to Buy as AI Demand Fuels BofA Optimism'
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger CRWD take_profit: not held)
-~ WORKING stop_loss 100% PLTR @ $184.00 until 2026-09-23 — Protective stop on new PLTR position
-~ WORKING stop_loss 100% AMAT @ $455.00 until 2026-09-23 — Protective stop on new AMAT position
-~ WORKING take_profit 50% PLTR @ $198.00 until 2026-09-23 — Lock in gains on PLTR momentum trade
-~ WORKING take_profit 50% AMAT @ $485.00 until 2026-09-23 — Lock in gains on AMAT momentum trade
-~ WORKING take_profit 100% PLTR @ $192.45 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $185.86 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMAT @ $474.61 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 AMAT @ $458.41 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AAPL @ $334.63 until 2026-09-24 — strong month, weak day: resting 0.44% under $336.10 to catch the dip
-portfolio: equity $32895.19 (+31.58% on $25000.00 in) · cash $22410.01 · realised +7910.01
-Done: 0 sell(s), 2 buy(s); 30 order(s) working; budget left $14511.94 this week
-  (cancelled 3 standing order(s) on PLTR: position closed)
-- SELL 100% PLTR [take_profit @ $192.45] -> $2511.00 (+0.44%) — close 100% at +0.4% over the average cost
-## 2026-09-23 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% RTX [time stop] -> $1995.41 (-0.23%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% OKLO [time stop] -> $1990.87 (-0.46%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% TTD [time stop] -> $1497.62 (-0.16%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 11:43 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-23 11:44 ET (Wednesday) — week 2026-W39 — budget left $22506.84 (today $89906.13 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (AXIA3 excluded: no security information)
@@ -398,3 +361,40 @@ Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $11185.92 this week
 - SELL 100% IBM [time stop] -> $1996.06 (-0.20%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% HD [time stop] -> $1600.37 (+0.02%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 14:21 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 14:23 ET (Wednesday) — week 2026-W39 — budget left $20776.83 (today $166845.75 put to work, 74 buys, 71 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 2 of 8 target positions held with 83% cash idle - directly against the owner's explicit instruction to reach min_positions with real size. Adding 6 new names (AMAT, ESE, SKWD, O, HLI, NLR, LMT) at $1.4-2.3k each with concrete evidence (congress pressure, fresh headlines, momentum) and immediate protective stops, avoiding all currently-cooling tickers (IBP, TSM, CCJ, NOC, etc).
+lesson: Past lessons consistently show $2-2.3k market buys across distinct sectors with immediate stops outperform sitting idle; keep screening cooling_off_minutes_left first and prioritize congress/news evidence.
+  (dropped IBP: sold 29 min ago, cooling off)
+  (dropped O: sold 44 min ago, cooling off)
+  (dropped TSM: sold 36 min ago, cooling off)
+  (dropped AMAT: 87% up today's range — resting a limit at $468.64 instead of chasing)
+  (dropped ESE: 97% up today's range — resting a limit at $262.41 instead of chasing)
+  (dropped HLI: 92% up today's range — resting a limit at $129.75 instead of chasing)
+- BUY $2000.00 SKWD [filled] ['congress'] — Congress buy pressure name, diversifies into insurance sector, not cooling off | evidence: congress_net_buy_pressure SKWD=2.0, headline 'What Could Skyward Specialty Insurance Group (SKWD) Gain From Its Claims Payments Deal?'
+- BUY $2000.00 NLR [filled] ['momentum', 'news'] — Nuclear sector has best hit rate (0.96) in track record by_sector, diversifies book | evidence: headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now', nuclear sector avg_ret_pct 0.19% hit_rate 0.96 in track record
+- BUY $1400.00 LMT [filled] ['news'] — Defense sector diversification with fresh growth narrative, not cooling off | evidence: headline 'Is Lockheed Martin Entering a New Growth Cycle Through Missile Defense?', defense sector hit_rate 0.70 in track record
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger ESE stop_loss: not held)
+  (dropped trigger O stop_loss: not held)
+  (dropped trigger HLI stop_loss: not held)
+~ WORKING stop_loss 100% SKWD @ $53.40 until 2026-09-23 — Protective stop for new SKWD position
+~ WORKING stop_loss 100% NLR @ $105.80 until 2026-09-23 — Protective stop for new NLR position
+~ WORKING stop_loss 100% LMT @ $511.00 until 2026-09-23 — Protective stop for new LMT position
+~ WORKING buy_limit $2300.00 AMAT @ $468.64 until 2026-09-23 — wanted it, but not at the high — resting at $468.64. Fresh chip-equipment momentum name with congressional buying pressure, diversifies away from PLTR/RTX
+~ WORKING buy_limit $2300.00 ESE @ $262.41 until 2026-09-23 — wanted it, but not at the high — resting at $262.41. Defense-adjacent infra theme with steady momentum, not cooling off
+~ WORKING buy_limit $2000.00 HLI @ $129.75 until 2026-09-23 — wanted it, but not at the high — resting at $129.75. Financial services diversification, strong intraday momentum, not cooling off
+~ WORKING take_profit 100% SKWD @ $55.35 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $53.52 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NLR @ $109.62 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $105.93 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $528.59 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $511.39 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32872.64 (+31.49% on $25000.00 in) · cash $23274.90 · realised +7874.90
+Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $15376.83 this week
