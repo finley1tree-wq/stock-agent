@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "813192e3",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 184.8843,
-   "status": "cancelled",
-   "created": "2026-09-22 11:57",
-   "created_ts": 1790092645,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $184.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4f3f1ffc",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 151.8158,
-   "status": "cancelled",
-   "created": "2026-09-22 12:19",
-   "created_ts": 1790093971,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $151.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:49",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2c60e32c",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 150.3956,
-   "status": "cancelled",
-   "created": "2026-09-22 12:19",
-   "created_ts": 1790093971,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $151.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:49",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f596c6f5",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -3985,7 +3928,7 @@
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 192.9905,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 10:40",
    "created_ts": 1790174459,
    "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
@@ -3996,7 +3939,8 @@
     "patience"
    ],
    "good_until": "2026-09-23",
-   "usd": 2200.0
+   "usd": 2200.0,
+   "closed": "2026-09-23 15:27"
   },
   {
    "id": "cb25544a",
@@ -7435,7 +7379,58 @@
    ],
    "good_until": "2026-09-23",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "ce5a0590",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 193.3933,
+   "status": "working",
+   "created": "2026-09-23 15:27",
+   "created_ts": 1790191631,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "81e519ae",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 191.9826,
+   "status": "working",
+   "created": "2026-09-23 15:27",
+   "created_ts": 1790191631,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6b089091",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "working",
+   "created": "2026-09-23 15:27",
+   "created_ts": 1790191631,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 15:25"
+ "updated": "2026-09-23 15:27"
 }

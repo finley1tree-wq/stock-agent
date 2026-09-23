@@ -15736,3 +15736,5 @@ lesson: With 1 check left and <35min to close on a red day, forcing new 30-min-h
 ~ WORKING stop_loss 100% CHRW @ $148.70 until 2026-09-23 — protect sole position into close, existing auto_bracket stop stands
 portfolio: equity $32841.95 (+31.37% on $25000.00 in) · cash $30741.95 · realised +7841.95
 Decision: nothing at this check. 21 standing order(s) working.
+- BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
+## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
