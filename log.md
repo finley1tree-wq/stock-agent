@@ -15769,3 +15769,7 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% CHRW [time stop] -> $2098.32 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 15:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders

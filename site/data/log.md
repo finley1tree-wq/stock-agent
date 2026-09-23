@@ -1,7 +1,3 @@
-- BUY $2245.50 AMD [filled] ['momentum', 'news'] — strong momentum name with reasonable entry point in range, not at high | evidence: AMD +30.1% 1m, 'AMD enters $1 Trillion Club' Stocktwits, pct_of_day_range 46.0 mid-range not chasing
-~ WORKING stop_loss 100% NOC @ $501.00 until 2026-09-23 — protective stop on NOC entry
-~ WORKING stop_loss 100% ESE @ $256.00 until 2026-09-23 — protective stop on ESE entry
-~ WORKING stop_loss 100% SKWD @ $53.90 until 2026-09-23 — protective stop on SKWD entry
 ~ WORKING stop_loss 100% IBM @ $228.50 until 2026-09-23 — protective stop on IBM entry
 ~ WORKING stop_loss 100% GOOGL @ $330.50 until 2026-09-23 — protective stop on GOOGL entry
 ~ WORKING stop_loss 100% UNH @ $360.00 until 2026-09-23 — protective stop on UNH entry
@@ -398,3 +394,7 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% CHRW [time stop] -> $2098.32 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 15:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders

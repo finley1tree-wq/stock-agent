@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 4356.12,
+  "spent": 2257.8,
   "deployed": 463741.86,
   "by_ticker": {
     "NOC": 28.64,
@@ -8,7 +8,7 @@
     "AMD": 15.51,
     "MSFT": 47.41,
     "HLI": 9.7,
-    "CHRW": 2115.88,
+    "CHRW": 17.56,
     "GOOGL": 70.75,
     "RTX": 2216.75,
     "AVGO": 21.57,
@@ -7768,13 +7768,33 @@
       ],
       "evidence": "RTX at 97.3% of day range, headline 'RTX Corporation is Attracting Investor Attention' Zacks 2026-09-23, defense sector fresh catalyst (fusion laser/Pratt leadership)",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 14.018692,
+      "status": "filled",
+      "price": 149.68,
+      "proceeds": 2098.32,
+      "realized_pnl": -1.68,
+      "realized_pct": -0.08,
+      "date": "2026-09-23",
+      "time_et": "15:51",
+      "ts": 1790193115,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.04% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 4356.12,
+  "spent_today": 2257.8,
   "deployed_today": 178745.75,
   "orders_today": 80,
-  "sells_today": 77,
+  "sells_today": 78,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -7813,7 +7833,7 @@
     "AMAT": 1790183968,
     "AMD": 1790182075,
     "NVDA": 1790182585,
-    "CHRW": 1790171335,
+    "CHRW": 1790193115,
     "PLTR": 1790188600,
     "MSFT": 1790173101,
     "OKLO": 1790178209,
@@ -7844,18 +7864,15 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790193031,
-  "last_check_ts": 1790193031,
+  "last_publish_ts": 1790193115,
+  "last_check_ts": 1790193115,
   "last_bar_ts": 1790193000,
   "last_decision_ts": 1790191534,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "a76fda12": 150.2269,
     "81e519ae": 191.9826,
     "d9f85906": 193.3933,
-    "572d690a": 148.7,
-    "c52e1086": 187.2003,
-    "485e8c19": 145.306
+    "2fe23a4b": 187.2003
   }
 }
