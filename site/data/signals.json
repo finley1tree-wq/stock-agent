@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-23T10:34-04:00",
+ "asOf": "2026-09-23T10:37-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "c17d244f",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 445.8975,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 445.59,
-   "pct_away": 0.07,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "aff08c25",
    "ticker": "AMZN",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.18,
-   "pct_away": 0.11,
+   "last": 249.05,
+   "pct_away": 0.16,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -180,25 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 300.2,
-   "pct_away": 0.14,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "81fca63e",
-   "ticker": "O",
-   "kind": "take_profit",
-   "price": 55.7802,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 55.62,
-   "pct_away": 0.29,
+   "last": 300.08,
+   "pct_away": 0.18,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -214,10 +180,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 252.07,
-   "pct_away": 0.44,
+   "last": 252.39,
+   "pct_away": 0.31,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "81fca63e",
+   "ticker": "O",
+   "kind": "take_profit",
+   "price": 55.7802,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 55.6,
+   "pct_away": 0.32,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,13 +214,30 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.71,
-   "pct_away": 0.46,
+   "last": 134.83,
+   "pct_away": 0.37,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "e187e6f8",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 740.849,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 744.61,
+   "pct_away": -0.51,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -248,8 +248,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 532.34,
-   "pct_away": -0.47,
+   "last": 532.73,
+   "pct_away": -0.55,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book",
    "signals": [
@@ -266,8 +266,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 225.68,
-   "pct_away": -0.54,
+   "last": 226.01,
+   "pct_away": -0.69,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.55% under $225.69 to catch the dip",
    "signals": [
@@ -294,23 +294,6 @@
    ]
   },
   {
-   "id": "e187e6f8",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 740.849,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 747.57,
-   "pct_away": -0.9,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "b06ffd3d",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -318,8 +301,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 610.54,
-   "pct_away": -1.05,
+   "last": 611.65,
+   "pct_away": -1.23,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.87% under $609.41 to catch the dip",
    "signals": [
@@ -353,8 +336,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.71,
-   "pct_away": -1.49,
+   "last": 134.83,
+   "pct_away": -1.58,
    "good_until": "2026-09-23",
    "why": "protective stop on new PLD position",
    "signals": [
@@ -369,8 +352,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 55.62,
-   "pct_away": -1.74,
+   "last": 55.6,
+   "pct_away": -1.71,
    "good_until": "2026-09-23",
    "why": "protective stop on new O position",
    "signals": [
@@ -385,8 +368,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 300.2,
-   "pct_away": -2.1,
+   "last": 300.08,
+   "pct_away": -2.06,
    "good_until": "2026-09-23",
    "why": "protective stop on new HD position",
    "signals": [
@@ -401,26 +384,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 252.07,
-   "pct_away": -2.13,
+   "last": 252.39,
+   "pct_away": -2.25,
    "good_until": "2026-09-23",
    "why": "protective stop on new CRWD position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "6706d2d1",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 435.8,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 445.59,
-   "pct_away": -2.2,
-   "good_until": "2026-09-23",
-   "why": "protective stop on new TSM position",
    "signals": [
     "risk_management"
    ]
@@ -433,8 +400,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.18,
-   "pct_away": -2.36,
+   "last": 249.05,
+   "pct_away": -2.31,
    "good_until": "2026-09-23",
    "why": "protective stop on new AMZN position",
    "signals": [
@@ -449,8 +416,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 134.71,
-   "pct_away": -2.74,
+   "last": 134.83,
+   "pct_away": -2.83,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -466,8 +433,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 55.62,
-   "pct_away": -2.91,
+   "last": 55.6,
+   "pct_away": -2.88,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -483,7 +450,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 300.2,
+   "last": 300.08,
+   "pct_away": -3.04,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c2750f22",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 241.3748,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 249.05,
    "pct_away": -3.08,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -500,42 +484,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 252.07,
-   "pct_away": -3.11,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c2750f22",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 241.3748,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 249.18,
-   "pct_away": -3.13,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e5c483b1",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 431.4463,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 445.59,
-   "pct_away": -3.17,
+   "last": 252.39,
+   "pct_away": -3.23,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

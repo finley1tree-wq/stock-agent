@@ -15124,3 +15124,6 @@ Done: 0 sell(s), 6 buy(s); 30 order(s) working; budget left $5522.75 this week
 ## 2026-09-23 10:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% PLTR [time stop] -> $5497.17 (-0.05%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 10:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $445.90] -> $2506.23 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-23 10:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
