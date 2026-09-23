@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "945f7b44",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 183.5632,
-   "status": "filled",
-   "created": "2026-09-22 09:37",
-   "created_ts": 1790084234,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $182.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:40"
-  },
-  {
-   "id": "b0264b02",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 183.282,
-   "status": "cancelled",
-   "created": "2026-09-22 09:37",
-   "created_ts": 1790084234,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $182.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "2b0d1427",
    "ticker": "PLTR",
    "kind": "buy_limit",
@@ -7022,7 +6985,7 @@
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 236.8059,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:56",
    "created_ts": 1790175406,
    "why": "close 100% at +0.3% over the average cost",
@@ -7032,7 +6995,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 11:19",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "8cb2313f",
@@ -7421,7 +7386,43 @@
    ],
    "good_until": "2026-09-24",
    "usd": 1000.0
+  },
+  {
+   "id": "d33c66b7",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 247.779,
+   "status": "cancelled",
+   "created": "2026-09-23 11:19",
+   "created_ts": 1790176790,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $235.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 11:20",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "3265f42e",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 236.8059,
+   "status": "working",
+   "created": "2026-09-23 11:20",
+   "created_ts": 1790176836,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $235.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-23 11:16"
+ "updated": "2026-09-23 11:20"
 }
