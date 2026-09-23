@@ -1,29 +1,3 @@
-  (dropped AVGO: sold 39 min ago, cooling off)
-- BUY $3000.00 IBM [filled] ['news', 'momentum'] — Widely_held sector has best track record avg_ret 4.32%; IBM has fresh positive news and room in day range, not cooling off | evidence: IBM +1.72% today, headline 'IBM's Gary Cohn on AI's productivity boom' 2026-09-23, 59.5% of day range - not chasing
-- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Widely_held sector, deep pullback puts it at bottom of day range, good entry for mean reversion | evidence: GOOGL -3.54% today, 23% of day range - lowest in range among mega caps, Pete Sessions and Thomas Kean both disclosed sells but that's already priced
-- BUY $3000.00 NOC [filled] ['news', 'momentum'] — Defense sector news catalyst, reasonable entry point in day range, diversifies away from tech | evidence: Headline 'US Running Low on the 2 Weapons It Would Need Most' 2026-09-23, defense demand theme; NOC 59.7% of day range
-- BUY $3000.00 UNH [filled] ['momentum', 'news'] — Healthcare diversification, discount narrative supports entry despite high range position | evidence: UNH -1.62% today at 82.5% of range but headline 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' suggests value entry
-- BUY $3000.00 NLR [filled] ['news', 'momentum'] — Nuclear sector has 92% hit rate historically per track_record by_sector, low in day range for entry | evidence: Headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks 2026-09-22, NLR 32.7% of day range
-  (dropped trigger AMZN stop_loss: not held)
-~ WORKING stop_loss 100% IBM @ $230.00 until 2026-09-23 — protective stop ~2.5% below entry
-~ WORKING stop_loss 100% GOOGL @ $334.00 until 2026-09-23 — protective stop ~2.5% below entry
-~ WORKING stop_loss 100% NOC @ $503.00 until 2026-09-23 — protective stop ~2.5% below entry
-~ WORKING stop_loss 100% UNH @ $362.00 until 2026-09-23 — protective stop ~2.5% below entry
-~ WORKING stop_loss 100% NLR @ $106.50 until 2026-09-23 — protective stop ~2.5% below entry
-~ WORKING take_profit 100% IBM @ $236.81 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $228.90 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $343.44 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $332.20 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $517.98 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 NOC @ $501.19 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $372.65 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $360.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NLR @ $109.70 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NLR @ $106.01 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32892.07 (+31.57% on $25000.00 in) · cash $17898.06 · realised +7898.06
-Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $10000.00 this week
-
-## 2026-09-23 11:13 ET (Wednesday) — week 2026-W39 — budget left $10000.00 (today $79406.13 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
@@ -398,3 +372,29 @@ Done: 0 sell(s), 6 buy(s); 35 order(s) working; budget left $9474.81 this week
   (cancelled 3 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $447.12] -> $2004.96 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 13:51 ET (Wednesday) — week 2026-W39 — budget left $14488.52 (today $159045.75 put to work, 70 buys, 64 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 5 positions held vs min 8, cash 58% idle - clear regret risk per counterfactual data (idle_universe_avg_pct positive). Adding CHRW (top congress pressure score), IBM (fresh AI news catalyst), PLD (data center tailwind, cooling off almost expired), and HD (cheap entry near day low, housing recovery headline) diversifies sectors beyond current tech/defense/healthcare cluster while respecting cooling-off list. Sized at $1.6-2.2k each per what has scored best in recent checks, each with individual stop_loss protection.
+lesson: Diversifying into non-cooling-off names (CHRW/IBM/PLD/HD) at $1.6-2.2k with immediate stops to reach min_positions is consistent with the pattern that scored best in past checks; keep checking cooling_off_minutes_left before selecting candidates.
+  (dropped PLD: sold 38 min ago, cooling off)
+  (dropped CHRW: 96% up today's range — resting a limit at $149.42 instead of chasing)
+- BUY $2000.00 IBM [filled] ['news', 'momentum'] — Fresh positive news catalyst, reasonable entry at 49% of day range | evidence: IBM +1.51% today, headline 'AI magic sends markets higher, plus one-on-one with IBM vice chair' 2026-09-23; not in cooling_off
+- BUY $1600.00 HD [filled] ['news', 'momentum'] — Cheap entry near day low with positive housing-recovery catalyst | evidence: HD +0.89% today at 16.3% of day range (near low), headline 'Home Depot Positioned to benefit from Housing Market Recovery' 2026-09-23
+  (dropped trigger CHRW stop_loss: not held)
+  (dropped trigger PLD stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $229.50 until 2026-09-23 — Protective stop for new IBM position
+~ WORKING stop_loss 100% HD @ $293.50 until 2026-09-23 — Protective stop for new HD position
+~ WORKING buy_limit $2200.00 CHRW @ $149.42 until 2026-09-23 — wanted it, but not at the high — resting at $149.42. Top congress-pressure name not held, diversifies away from tech/defense already in book
+~ WORKING take_profit 100% IBM @ $236.31 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $228.42 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $300.56 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $290.89 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 NVDA @ $223.89 until 2026-09-24 — strong month, weak day: resting 0.56% under $225.14 to catch the dip
+portfolio: equity $32881.83 (+31.53% on $25000.00 in) · cash $18786.59 · realised +7886.59
+Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $10888.52 this week
