@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 14463.31,
-  "deployed": 317202.24,
+  "spent": 14470.97,
+  "deployed": 318202.24,
   "by_ticker": {
     "NOC": 2537.2,
     "IBM": 29.77,
@@ -10,7 +10,7 @@
     "PLTR": 5.05,
     "MSFT": 3006.25,
     "HLI": 9.7,
-    "CHRW": 1008.22,
+    "CHRW": 15.88,
     "GOOGL": 1047.88,
     "UNH": 2.03,
     "AMZN": 7.48,
@@ -18,7 +18,8 @@
     "AAPL": 1.17,
     "AVGO": 2500.0,
     "OKLO": 2500.0,
-    "IBP": 2000.0
+    "IBP": 2000.0,
+    "SPY": 1000.0
   },
   "deployed_by_ticker": {
     "AMD": 34255.56,
@@ -48,7 +49,8 @@
     "NLR": 2000.0,
     "AMZN": 6700.0,
     "IBP": 5000.0,
-    "NEM": 2000.0
+    "NEM": 2000.0,
+    "SPY": 1000.0
   },
   "orders": [
     {
@@ -5147,26 +5149,67 @@
         "news"
       ],
       "evidence": "Rep. David J. Taylor disclosed buy of IBP 09-08 (filed 09-17); headline 'Installed Building Products Could Be 19% Undervalued' (Simply Wall St 09-21)"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 6.711207,
+      "status": "filled",
+      "price": 147.86,
+      "proceeds": 992.34,
+      "realized_pnl": -7.66,
+      "realized_pct": -0.77,
+      "date": "2026-09-23",
+      "time_et": "09:48",
+      "ts": 1790171100,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $149",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "SPY",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.296606,
+      "price": 771.24,
+      "date": "2026-09-23",
+      "time_et": "09:48",
+      "ts": 1790171100,
+      "why": "strong month, weak day: resting 0.20% under $772.79 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+0.9% over the month, sitting at 55% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 14430.6,
-  "deployed_today": 32206.13,
-  "orders_today": 13,
-  "sells_today": 6,
+  "spent_today": 14438.26,
+  "deployed_today": 33206.13,
+  "orders_today": 14,
+  "sells_today": 7,
   "sold_today": [
     "TSM",
     "AMAT",
     "AMD",
     "NVDA",
     "META",
-    "CRWD"
+    "CRWD",
+    "CHRW"
   ],
   "sold_ts": {
     "AMAT": 1790170515,
     "AMD": 1790170560,
     "NVDA": 1790170561,
-    "CHRW": 1790100616,
+    "CHRW": 1790171335,
     "PLTR": 1790099906,
     "MSFT": 1790101753,
     "OKLO": 1790089661,
@@ -5192,37 +5235,36 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790171272,
-  "last_check_ts": 1790171272,
+  "last_publish_ts": 1790171334,
+  "last_check_ts": 1790171380,
   "last_bar_ts": 1790171100,
   "last_decision_ts": 1790171272,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "74dfad50": 771.2444,
-    "6a67ad2c": 147.9376,
     "848eb3f2": 505.4495,
-    "fdacd26b": 513.7313,
+    "05a8f060": 772.3969,
+    "0689876d": 769.3582,
     "e21f9d51": 455.1325,
     "f20a85ae": 359.8866,
     "f4ae7c0f": 347.7055,
     "60fd7cd4": 336.9806,
     "ef0fb573": 344.4977,
+    "fdacd26b": 513.7313,
     "2b49006f": 209.3593,
     "7b4710bb": 40.0162,
-    "4b2e47fd": 149.4247,
     "663d590d": 494.0,
-    "7081a784": 188.659,
     "4af2900b": 351.0,
     "3685aa17": 500.0,
-    "89cd9430": 144.53,
-    "3f1d2871": 336.3863,
-    "311ddb61": 38.5478,
+    "7081a784": 188.659,
     "793574d2": 497.0668,
+    "311ddb61": 38.5478,
     "5326714c": 202.0219,
     "4475dccc": 202.0,
-    "69496d58": 489.2098,
+    "3f1d2871": 336.3863,
+    "4d898039": 748.1028,
     "49b019aa": 347.9002,
+    "69496d58": 489.2098,
     "6fde0af6": 37.5
   }
 }

@@ -30605,5 +30605,57 @@
     "code_version": "3af1996",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 6.711207,
+    "status": "filled",
+    "price": 147.86,
+    "proceeds": 992.34,
+    "realized_pnl": -7.66,
+    "realized_pct": -0.77,
+    "date": "2026-09-23",
+    "time_et": "09:48",
+    "ts": 1790171100,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "dip_entry",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $149",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "5e77bd3"
+  },
+  {
+    "symbol": "SPY",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.296606,
+    "price": 771.24,
+    "date": "2026-09-23",
+    "time_et": "09:48",
+    "ts": 1790171100,
+    "why": "strong month, weak day: resting 0.20% under $772.79 to catch the dip",
+    "signals": [
+      "dip_entry",
+      "momentum",
+      "standing_order"
+    ],
+    "evidence": "+0.9% over the month, sitting at 55% of today's range",
+    "trigger": "buy_limit",
+    "entry_price": 771.2444,
+    "sector": "index",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.72,
+    "hour_et": 9,
+    "code_version": "5e77bd3",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

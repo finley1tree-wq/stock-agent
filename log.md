@@ -14988,3 +14988,7 @@ lesson: When below min_positions with high idle cash, deploy across 6-8 names sp
 ~ WORKING buy_limit $1000.00 AAPL @ $336.98 until 2026-09-24 — strong month, weak day: resting 0.43% under $338.44 to catch the dip
 portfolio: equity $32888.42 (+31.55% on $25000.00 in) · cash $18399.45 · realised +7899.45
 Done: 0 sell(s), 5 buy(s); 25 order(s) working; budget left $10536.69 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [stop_loss @ $147.86] -> $992.34 (-0.77%) — close it all at -0.7% under the average cost
+- BUY $1000.00 SPY [buy_limit @ $771.24] — strong month, weak day: resting 0.20% under $772.79 to catch the dip
+## 2026-09-23 09:48 ET — tick — 1 sell(s), 1 buy(s) from standing orders
