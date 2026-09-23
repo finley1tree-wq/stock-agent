@@ -15122,3 +15122,5 @@ Done: 0 sell(s), 6 buy(s); 30 order(s) working; budget left $5522.75 this week
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $337.76] -> $1002.31 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 10:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% PLTR [time stop] -> $5497.17 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 10:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders

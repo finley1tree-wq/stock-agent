@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 GOOGL @ $342.57 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $497.59 until 2026-09-27 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 MSFT @ $481.54 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMZN @ $256.13 until 2026-09-27 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 AMZN @ $247.89 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +396,5 @@ Done: 0 sell(s), 6 buy(s); 30 order(s) working; budget left $5522.75 this week
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $337.76] -> $1002.31 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 10:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% PLTR [time stop] -> $5497.17 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 10:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
