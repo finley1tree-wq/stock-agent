@@ -1,173 +1,6 @@
 {
  "orders": [
   {
-   "id": "2b0d1427",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 177.3063,
-   "status": "cancelled",
-   "created": "2026-09-22 09:37",
-   "created_ts": 1790084234,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $182.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "709b84e2",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 183.666,
-   "status": "cancelled",
-   "created": "2026-09-22 09:38",
-   "created_ts": 1790084317,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $182.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2a03d45d",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 13.67,
-   "status": "filled",
-   "created": "2026-09-22 09:40",
-   "created_ts": 1790084401,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $13.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:45"
-  },
-  {
-   "id": "e50fb60f",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 340.0182,
-   "status": "filled",
-   "created": "2026-09-22 09:48",
-   "created_ts": 1790084900,
-   "why": "strong month, weak day: resting 0.43% under $341.50 to catch the dip",
-   "evidence": "+10.4% over the month, sitting at 31% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 10:04"
-  },
-  {
-   "id": "6a67aad1",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 152.4289,
-   "status": "filled",
-   "created": "2026-09-22 09:48",
-   "created_ts": 1790084900,
-   "why": "strong month, weak day: resting 0.48% under $153.17 to catch the dip",
-   "evidence": "+8.2% over the month, sitting at 34% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 10:17"
-  },
-  {
-   "id": "0fc494f4",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 226.3061,
-   "status": "cancelled",
-   "created": "2026-09-22 09:48",
-   "created_ts": 1790084900,
-   "why": "strong month, weak day: resting 0.54% under $227.53 to catch the dip",
-   "evidence": "+6.0% over the month, sitting at 33% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 10:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ce8f3880",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 772.4819,
-   "status": "cancelled",
-   "created": "2026-09-22 09:48",
-   "created_ts": 1790084900,
-   "why": "strong month, weak day: resting 0.20% under $774.03 to catch the dip",
-   "evidence": "+1.1% over the month, sitting at 12% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "47d5d1bc",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 246.5628,
-   "status": "filled",
-   "created": "2026-09-22 09:50",
-   "created_ts": 1790085036,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $245.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:56"
-  },
-  {
-   "id": "9702a7c0",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 241.723,
-   "status": "cancelled",
-   "created": "2026-09-22 09:50",
-   "created_ts": 1790085036,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $245.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 09:55",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "68cd62e3",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -7445,7 +7278,156 @@
    "good_until": "2026-09-28",
    "pct_of_position": 100.0,
    "closed": "2026-09-23 11:25"
+  },
+  {
+   "id": "c85a24cf",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 184.0,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "Protective stop on new PLTR position",
+   "evidence": "ATR 3.955%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6cdf96f4",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 455.0,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "Protective stop on new AMAT position",
+   "evidence": "ATR 3.854%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8ffca51a",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 198.0,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "Lock in gains on PLTR momentum trade",
+   "evidence": "momentum trade, lock gains at ~3.4% up",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "a78f6332",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 485.0,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "Lock in gains on AMAT momentum trade",
+   "evidence": "momentum trade, lock gains at ~2.6% up",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "11238bea",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 192.4512,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $191.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8fed0c14",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 185.8617,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $191.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
+  },
+  {
+   "id": "91828039",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 474.6127,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $472.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "14ba5deb",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 458.4123,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $472.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
+  },
+  {
+   "id": "3b0331cf",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 334.6269,
+   "status": "working",
+   "created": "2026-09-23 11:29",
+   "created_ts": 1790177353,
+   "why": "strong month, weak day: resting 0.44% under $336.10 to catch the dip",
+   "evidence": "+8.7% over the month, sitting at 1% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-23 11:25"
+ "updated": "2026-09-23 11:29"
 }

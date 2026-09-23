@@ -1,29 +1,3 @@
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-brain: Last check of the day (15:25, close 16:00) — max_hold_minutes=30 means any new buy now would be forcibly closed right at/after the close with essentially zero time to work, and no_new_entries would effectively apply given the 30-min window ends at close. CCJ already has a take_profit at 95.08 and stop_loss at 92.00 working. Rather than chase names already up 88-98% of today's range (AMD, AVGO, TSM, AMAT, NVDA all flagged as chase-risk in orders_dropped_at_last_check), I'll let the existing resting buy_limits and CCJ brackets do their job into the close instead of buying at market into extended prices with no time left to actually hold the position.
-lesson: In the final 30-minute window before close, new market buys have almost no time to work before the hard 30-min exit collides with market close — better to let existing dip/limit orders and CCJ's bracket manage the last stretch than chase extended names.
-~ WORKING buy_limit $1000.00 MSFT @ $496.56 until 2026-09-23 — strong month, weak day: resting 0.43% under $498.73 to catch the dip
-~ WORKING buy_limit $1000.00 GOOGL @ $351.32 until 2026-09-23 — strong month, weak day: resting 0.51% under $353.12 to catch the dip
-~ WORKING buy_limit $1000.00 TTD @ $13.06 until 2026-09-23 — strong month, weak day: resting 1.04% under $13.20 to catch the dip
-portfolio: equity $32824.54 (+31.30% on $25000.00 in) · cash $28864.45 · realised +7824.45
-Decision: nothing at this check. 27 standing order(s) working.
-  (cancelled 25 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% CCJ [time stop] -> $3965.61 (+0.14%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +372,29 @@ Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $4500.00 this week
 - SELL 100% NOC [time stop] -> $3003.11 (+0.10%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% UNH [time stop] -> $2999.20 (-0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 11:27 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 11:29 ET (Wednesday) — week 2026-W39 — budget left $19511.94 (today $84906.13 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+brain: Still well below min_positions (3/8) with 78% cash idle - need to add more names now rather than wait on resting limits. Picked PLTR, AMAT, CRWD: all show strong intraday momentum, fresh bullish headlines, and congress buy-pressure confirmation, avoiding all cooling-off tickers. Sized at $2,500 each (normal position size per guardrails) with ATR-based protective stops and take-profits attached immediately.
+lesson: When below min_positions with large idle cash, buy directly at market in size ($2-3k) on names with concrete momentum+news+congress evidence rather than only resting limit orders that may not fill in time.
+  (dropped CRWD: sold 44 min ago, cooling off)
+- BUY $2500.00 PLTR [filled] ['momentum', 'news'] — Strong momentum and fresh bullish news, not cooling off, diversifies into widely_held sector which has best track record (4.28% avg ret) | evidence: PLTR +4.63% today, 79.6% of day range, headline 'Palantir, IBD Stock Of The Day, Flashes Buy Signal Amid Earnings, AI Momentum'
+- BUY $2500.00 AMAT [filled] ['momentum', 'congress', 'news'] — Congress buy pressure score 2.0, strong momentum, widely_held sector has best avg_ret_pct historically | evidence: AMAT +1.78% today, +12.19% 5d; Josh Gottheimer and Jared Moskowitz disclosed buys; headline '3 Top Chip Equipment Stocks to Buy as AI Demand Fuels BofA Optimism'
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger CRWD take_profit: not held)
+~ WORKING stop_loss 100% PLTR @ $184.00 until 2026-09-23 — Protective stop on new PLTR position
+~ WORKING stop_loss 100% AMAT @ $455.00 until 2026-09-23 — Protective stop on new AMAT position
+~ WORKING take_profit 50% PLTR @ $198.00 until 2026-09-23 — Lock in gains on PLTR momentum trade
+~ WORKING take_profit 50% AMAT @ $485.00 until 2026-09-23 — Lock in gains on AMAT momentum trade
+~ WORKING take_profit 100% PLTR @ $192.45 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $185.86 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMAT @ $474.61 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AMAT @ $458.41 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $334.63 until 2026-09-24 — strong month, weak day: resting 0.44% under $336.10 to catch the dip
+portfolio: equity $32895.19 (+31.58% on $25000.00 in) · cash $22410.01 · realised +7910.01
+Done: 0 sell(s), 2 buy(s); 30 order(s) working; budget left $14511.94 this week
