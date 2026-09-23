@@ -15794,3 +15794,7 @@ lesson: On the last check of the day with no_new_entries_this_check true and mar
 ~ WORKING buy_limit $500.00 RTX @ $187.20 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32836.73 (+31.35% on $25000.00 in) · cash $30640.27 · realised +7840.27
 Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% RTX [time stop] -> $2193.07 (-0.31%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 15:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders

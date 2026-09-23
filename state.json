@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 2257.8,
+  "spent": 64.73,
   "deployed": 463741.86,
   "by_ticker": {
     "NOC": 28.64,
@@ -10,7 +10,7 @@
     "HLI": 9.7,
     "CHRW": 17.56,
     "GOOGL": 70.75,
-    "RTX": 2216.75,
+    "RTX": 23.68,
     "AVGO": 21.57,
     "SPY": 4.27,
     "O": 14.94,
@@ -7788,13 +7788,33 @@
       ],
       "evidence": "bought 30 min ago, -0.04% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "RTX",
+      "side": "sell",
+      "qty": 11.399525,
+      "status": "filled",
+      "price": 192.38,
+      "proceeds": 2193.07,
+      "realized_pnl": -6.93,
+      "realized_pct": -0.31,
+      "date": "2026-09-23",
+      "time_et": "15:57",
+      "ts": 1790193446,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.27% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 2257.8,
+  "spent_today": 64.73,
   "deployed_today": 178745.75,
   "orders_today": 80,
-  "sells_today": 78,
+  "sells_today": 79,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -7841,7 +7861,7 @@
     "LMT": 1790189594,
     "TTD": 1790178209,
     "NOC": 1790187047,
-    "RTX": 1790188600,
+    "RTX": 1790193446,
     "PLD": 1790183632,
     "TSM": 1790185688,
     "AVGO": 1790187047,
@@ -7864,15 +7884,11 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790193350,
-  "last_check_ts": 1790193350,
+  "last_publish_ts": 1790193446,
+  "last_check_ts": 1790193446,
   "last_bar_ts": 1790193300,
   "last_decision_ts": 1790193350,
   "next_check_minutes": 30,
   "autopiloted": false,
-  "book_px": {
-    "81e519ae": 191.9826,
-    "d9f85906": 193.3933,
-    "14ce2cb3": 187.2003
-  }
+  "book_px": {}
 }

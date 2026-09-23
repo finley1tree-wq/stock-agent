@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "7dc46f0f",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 12.7846,
-   "status": "cancelled",
-   "created": "2026-09-22 14:17",
-   "created_ts": 1790101050,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $13.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 14:29",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "181e5719",
    "ticker": "TTD",
    "kind": "stop_loss",
@@ -6059,7 +6040,7 @@
    "ticker": "RTX",
    "kind": "stop_loss",
    "price": 191.9826,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 15:27",
    "created_ts": 1790191631,
    "why": "close it all at -0.5% under the average cost",
@@ -6069,7 +6050,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 15:57",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "6b089091",
@@ -6893,7 +6876,7 @@
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 193.3933,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 15:43",
    "created_ts": 1790192612,
    "why": "close 100% at +0.2% over the average cost",
@@ -6903,7 +6886,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 15:57",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "6f092911",
@@ -7480,7 +7465,7 @@
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 187.2003,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 15:55",
    "created_ts": 1790193350,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7490,8 +7475,29 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 15:56",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "28fdd86c",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "cancelled",
+   "created": "2026-09-23 15:56",
+   "created_ts": 1790193400,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:57",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   }
  ],
- "updated": "2026-09-23 15:55"
+ "updated": "2026-09-23 15:56"
 }
