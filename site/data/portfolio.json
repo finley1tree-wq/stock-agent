@@ -1,18 +1,9 @@
 {
-  "cash": 30832.870391949516,
+  "cash": 21331.537247120887,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W39",
   "positions": {
-    "SPY": {
-      "qty": 1.3018280529885675,
-      "avg_cost": 768.1506,
-      "opened": "2026-09-23",
-      "last_buy": "2026-09-23",
-      "tranches": 1,
-      "last_buy_ts": 1790180585,
-      "opened_ts": 1790180585
-    },
     "NVDA": {
       "qty": 4.455267774959078,
       "avg_cost": 224.4534,
@@ -21,6 +12,33 @@
       "tranches": 1,
       "last_buy_ts": 1790180804,
       "opened_ts": 1790180804
+    },
+    "PLTR": {
+      "qty": 21.00751252806643,
+      "avg_cost": 190.408074,
+      "opened": "2026-09-23",
+      "last_buy": "2026-09-23",
+      "tranches": 1,
+      "last_buy_ts": 1790182460,
+      "opened_ts": 1790182460
+    },
+    "CRWD": {
+      "qty": 13.42734407724955,
+      "avg_cost": 260.662122,
+      "opened": "2026-09-23",
+      "last_buy": "2026-09-23",
+      "tranches": 1,
+      "last_buy_ts": 1790182460,
+      "opened_ts": 1790182460
+    },
+    "AMAT": {
+      "qty": 6.4044586509000165,
+      "avg_cost": 468.423666,
+      "opened": "2026-09-23",
+      "last_buy": "2026-09-23",
+      "tranches": 1,
+      "last_buy_ts": 1790182460,
+      "opened_ts": 1790182460
     }
   },
   "fills": [
@@ -13443,7 +13461,49 @@
       "realized_pct": -0.41,
       "type": "sell",
       "date": "2026-09-23 12:47"
+    },
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 1.301828,
+      "status": "filled",
+      "price": 767.13,
+      "proceeds": 998.67,
+      "realized_pnl": -1.33,
+      "realized_pct": -0.13,
+      "type": "sell",
+      "date": "2026-09-23 12:53"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 4000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.007513,
+      "price": 190.41,
+      "type": "buy",
+      "date": "2026-09-23 12:54"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.427344,
+      "price": 260.66,
+      "type": "buy",
+      "date": "2026-09-23 12:54"
+    },
+    {
+      "symbol": "AMAT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.404459,
+      "price": 468.42,
+      "type": "buy",
+      "date": "2026-09-23 12:54"
     }
   ],
-  "realized_pnl": 7832.870391949536
+  "realized_pnl": 7831.537247120904
 }

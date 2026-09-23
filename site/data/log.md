@@ -1,37 +1,3 @@
-~ WORKING take_profit 100% UNH @ $368.87 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $356.71 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $92.60 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $89.47 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NEM @ $122.33 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NEM @ $118.21 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32877.36 (+31.51% on $25000.00 in) · cash $14408.61 · realised +7908.61
-Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
-  (cancelled 2 standing order(s) on NEM: position closed)
-- SELL 100% NEM [take_profit @ $122.33] -> $1505.64 (+0.38%) — close 100% at +0.4% over the average cost
-- BUY $3000.00 PLTR [buy_limit @ $188.66] — wanted it, but not at the high — resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record
-## 2026-09-23 10:08 ET — tick — 1 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $368.87] -> $2006.12 (+0.31%) — close 100% at +0.3% over the average cost
-## 2026-09-23 10:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $236.65] -> $2007.00 (+0.35%) — close 100% at +0.3% over the average cost
-## 2026-09-23 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on SPY: position closed)
-- SELL 100% SPY [stop_loss @ $768.97] -> $997.06 (-0.29%) — close it all at -0.2% under the average cost
-## 2026-09-23 10:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 10:14 ET (Wednesday) — week 2026-W39 — budget left $10061.67 (today $46206.13 put to work, 20 buys, 14 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
-  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
-brain: Below min_positions (5 of 8) with 40% idle cash and $10k remaining budget - past checks show idleness is penalized. Adding HUBB (top congress buy pressure score), LMT (defense news catalyst), and TSM (strong momentum, near day low entry, cooldown expired) brings us to 8 positions across defense/tech/semis, diversifying away from the current AI-chip heavy book while respecting max_entry_range_pct guardrails.
-lesson: Reaching min_positions matters more than perfect entries - spread new capital across sectors with concrete evidence (congress score, headlines, day-range position) and always attach a stop, rather than waiting on limits.
-  (dropped TSM: sold 40 min ago, cooling off)
-  (dropped HUBB: 86% up today's range — resting a limit at $458.15 instead of chasing)
-  (dropped LMT: 99% up today's range — resting a limit at $529.82 instead of chasing)
-  (dropped trigger HUBB stop_loss: not held)
   (dropped trigger LMT stop_loss: not held)
   (dropped trigger TSM stop_loss: not held)
   (dropped trigger HUBB take_profit: not held)
@@ -398,3 +364,37 @@ Decision: nothing at this check. 35 standing order(s) working.
 - SELL 100% UNH [time stop] -> $2245.04 (-0.02%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $2236.40 (-0.41%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 12:47 ET — tick — 6 sell(s), 0 buy(s) from standing orders
+- SELL 100% SPY [time stop] -> $998.67 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 12:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 12:53 ET (Wednesday) — week 2026-W39 — budget left $23933.47 (today $123599.60 put to work, 55 buys, 53 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Book is at 1 position with 95.7% cash idle - far below min_positions of 8 and full_deployment is active requiring concentration in up to 6 names. I'm deploying into 7 fresh names (with NVDA that's 8) across sectors with concrete catalysts: PLTR (FAA news), CRWD (cybersecurity rally), NOC (defense, decent track record), IBP (congress disclosure + turnaround story), AMAT (double congress buy pressure), TSM (chip momentum, not extended), and a small GOOGL dip-buy at day low. Each gets an individual stop_loss for protection per the auto_bracket rules, since prior lessons show unprotected fresh buys got hit by time_stop losses.
+lesson: Deploying 6-8 fresh names in $3-4k size with individual stops immediately after screening cooling_off list is the right move when idle_pct is 95%+ and full_deployment is active; smaller $500-1000 buys get dropped or add little value versus real position sizing.
+  (dropped NOC: sold 6 min ago, cooling off)
+  (dropped IBP: sold 23 min ago, cooling off)
+  (dropped TSM: sold 39 min ago, cooling off)
+  (dropped GOOGL: sold 6 min ago, cooling off)
+- BUY $4000.00 PLTR [filled] ['news', 'momentum'] — Strong fresh news catalyst with momentum, not in cooling-off list | evidence: Palantir +3.98% today, headline 'Palantir Just Got a Major Vote of Confidence From the FAA' and 'Could Be Big Winner as Air Traffic Control Goes AI', 68.5% of day range - fresh catalyst not stale
+- BUY $3500.00 CRWD [filled] ['news', 'momentum'] — Momentum plus sector rotation into cybersecurity as tech slides; resting limits at 258.50/256.13 unlikely to fill given rally, buy some at market | evidence: CrowdStrike +4.52% today at 82.4% of range, headline 'Cybersecurity Stocks Rally... CrowdStrike... Each Gain 4%' and Cramer 'must buy' mention
+- BUY $3000.00 AMAT [filled] ['congress', 'momentum'] — Two congress buy disclosures plus 5d momentum of 11.2%, biggest_misses list flagged AMAT fwd +7.96% missed previously | evidence: Rep. Josh Gottheimer and Jared Moskowitz both disclosed AMAT buys; AMAT +0.88% today, +11.2% 5d, headline 'Wall Street Bulls Look Optimistic About Applied Materials'
+  (dropped trigger NOC stop_loss: not held)
+  (dropped trigger IBP stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% PLTR @ $186.56 until 2026-09-23 — Protective stop on new PLTR position
+~ WORKING stop_loss 100% CRWD @ $255.40 until 2026-09-23 — Protective stop on new CRWD position
+~ WORKING stop_loss 100% AMAT @ $459.00 until 2026-09-23 — Protective stop on new AMAT position
+~ WORKING take_profit 100% PLTR @ $191.25 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $184.70 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $262.11 until 2026-09-28 — close 100% at +0.6% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $252.84 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMAT @ $470.44 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AMAT @ $454.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32828.09 (+31.31% on $25000.00 in) · cash $21331.54 · realised +7831.54
+Done: 0 sell(s), 3 buy(s); 22 order(s) working; budget left $13433.47 this week
