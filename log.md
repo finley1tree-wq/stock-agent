@@ -15352,3 +15352,44 @@ Done: 0 sell(s), 1 buy(s); 33 order(s) working; budget left $8289.26 this week
 - SELL 100% HD [time stop] -> $1999.40 (-0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AAPL [time stop] -> $1848.45 (+0.06%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 12:14 ET — tick — 6 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 12:17 ET (Wednesday) — week 2026-W39 — budget left $23117.73 (today $106599.60 put to work, 46 buys, 44 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 1 of 8 min_positions held with 92.5% cash idle - a clear regret situation per counterfactual data. Deploying into 7 new names across defense (NOC, ESE), insurance (SKWD), tech (IBM, GOOGL dip at day low, AMD), and healthcare (UNH) at mid-range or discounted entries, backed by concrete headlines and congress buy-pressure scores, while avoiding all cooling-off tickers (AMAT, PLTR, OKLO, TTD, RTX, TSM, AVGO, AAPL, AMZN, NEM, HD). Existing working limit orders on RTX/CHRW/HUBB/CRWD/PLD/MSFT/META/NVDA/SPY remain in place to catch further dips.
+lesson: With min_positions target far below actual count and huge idle cash, buying 6-8 fresh non-cooling names at mid-range prices with individual stops beats waiting on limits; check cooling_off list first to avoid wasted candidates.
+  (dropped AMAT: sold 18 min ago, cooling off)
+- BUY $2245.51 NOC [filled] ['momentum', 'news'] — defense sector pullback entry, not cooling off, mid-range price | evidence: NOC -2.33% today pct_of_day_range 40.4, Zacks headline 'Can APN-241 Processor Demand Support Northrop Grumman's Growth?' 15:40
+- BUY $1976.05 ESE [filled] ['congress', 'news'] — congress buying pressure plus niche defense-infra news, diversifies book | evidence: congress_net_buy_pressure ESE=2.0, headline '3 Stocks Riding The Push To Protect Undersea Cables' 09-19, price 76.7% of range but fresh defense-adjacent name
+- BUY $1796.41 SKWD [filled] ['congress'] — congress buy pressure name, insurance diversifier, low in day range 40.2% | evidence: congress_net_buy_pressure SKWD=2.0, headline 'What Could Skyward Specialty Insurance Group (SKWD) Gain From Its Claims Payments Deal?' 08:18
+- BUY $2245.51 IBM [filled] ['momentum', 'news'] — tech name with fresh AI-productivity news catalyst, mid-range entry not chasing | evidence: IBM +1.6% today, 'AI magic sends markets higher, plus one-on-one with IBM vice chair' Yahoo Finance 14:32, pct_of_day_range 53.6
+- BUY $2245.51 GOOGL [filled] ['momentum', 'news'] — deep pullback to day low on a mega-cap AI name, cheap entry point vs range | evidence: GOOGL pct_of_day_range only 4.3% (near day low), -4.06% today creating dip entry despite AI cash-flow growth story per Yahoo Finance Chart of Day
+- BUY $2245.51 UNH [filled] ['news'] — value/discount narrative in fresh headline, healthcare diversifier | evidence: 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' Simply Wall St 09-23, pct_of_day_range 69.7
+- BUY $2245.50 AMD [filled] ['momentum', 'news'] — strong momentum name with reasonable entry point in range, not at high | evidence: AMD +30.1% 1m, 'AMD enters $1 Trillion Club' Stocktwits, pct_of_day_range 46.0 mid-range not chasing
+~ WORKING stop_loss 100% NOC @ $501.00 until 2026-09-23 — protective stop on NOC entry
+~ WORKING stop_loss 100% ESE @ $256.00 until 2026-09-23 — protective stop on ESE entry
+~ WORKING stop_loss 100% SKWD @ $53.90 until 2026-09-23 — protective stop on SKWD entry
+~ WORKING stop_loss 100% IBM @ $228.50 until 2026-09-23 — protective stop on IBM entry
+~ WORKING stop_loss 100% GOOGL @ $330.50 until 2026-09-23 — protective stop on GOOGL entry
+~ WORKING stop_loss 100% UNH @ $360.00 until 2026-09-23 — protective stop on UNH entry
+~ WORKING stop_loss 100% AMD @ $598.00 until 2026-09-23 — protective stop on AMD entry
+~ WORKING take_profit 100% NOC @ $515.91 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $499.18 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ESE @ $264.88 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 ESE @ $256.09 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $55.77 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $53.94 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $236.53 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $228.63 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $341.60 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $330.41 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $371.81 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $359.56 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $618.66 until 2026-09-28 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $597.36 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32855.76 (+31.42% on $25000.00 in) · cash $16015.80 · realised +7861.95
+Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $8117.73 this week
