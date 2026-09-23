@@ -1,21 +1,24 @@
 {
   "week": "2026-W39",
-  "spent": 1963.31,
-  "deployed": 304702.24,
+  "spent": 14463.31,
+  "deployed": 317202.24,
   "by_ticker": {
-    "NOC": 37.2,
+    "NOC": 2537.2,
     "IBM": 29.77,
     "GLD": 4.3,
     "AMD": 6.41,
     "PLTR": 5.05,
-    "MSFT": 6.25,
+    "MSFT": 3006.25,
     "HLI": 9.7,
     "CHRW": 1008.22,
     "GOOGL": 1047.88,
     "UNH": 2.03,
     "AMZN": 7.48,
     "RTX": 6.86,
-    "AAPL": 1.17
+    "AAPL": 1.17,
+    "AVGO": 2500.0,
+    "OKLO": 2500.0,
+    "IBP": 2000.0
   },
   "deployed_by_ticker": {
     "AMD": 34255.56,
@@ -24,14 +27,14 @@
     "CHRW": 5000.0,
     "TTD": 4000.0,
     "PLTR": 14868.42,
-    "MSFT": 15925.0,
-    "OKLO": 10500.0,
-    "NOC": 13307.69,
+    "MSFT": 18925.0,
+    "OKLO": 13000.0,
+    "NOC": 15807.69,
     "LMT": 6000.0,
     "RTX": 14431.03,
     "CCJ": 26885.0,
     "TSM": 19720.82,
-    "AVGO": 10474.36,
+    "AVGO": 12974.36,
     "UNH": 13488.45,
     "IBM": 13755.97,
     "PLD": 5891.02,
@@ -44,7 +47,7 @@
     "HUBB": 2000.0,
     "NLR": 2000.0,
     "AMZN": 6700.0,
-    "IBP": 3000.0,
+    "IBP": 5000.0,
     "NEM": 2000.0
   },
   "orders": [
@@ -5059,12 +5062,97 @@
       ],
       "evidence": "average cost $250.65",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.948358,
+      "price": 504.34,
+      "date": "2026-09-23",
+      "time_et": "09:47",
+      "ts": 1790171272,
+      "why": "Widely_held sector has best avg_ret_pct 4.47% in track record, large recent congress buy pressure",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "MSFT +0.52% 1d, headline 'The Magnificent 7 are back: Meta's AI bet leads the charge' driving AI mega-cap strength; congress buy by Josh Gottheimer $250k-1M disclosed 09-14"
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.970356,
+      "price": 358.66,
+      "date": "2026-09-23",
+      "time_et": "09:47",
+      "ts": 1790171272,
+      "why": "AI chip rally spillover, widely_held sector strength",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "headline 'Nvidia Stock Set For 40% Surge: 3 Catalysts' lifting AI chip complex; AVGO +5.69% 5d"
+    },
+    {
+      "symbol": "NOC",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.878573,
+      "price": 512.44,
+      "date": "2026-09-23",
+      "time_et": "09:47",
+      "ts": 1790171272,
+      "why": "Defense demand headline plus pullback entry point",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "NOC -2.74% today but headline 'US Running Low on the 2 Weapons It Would Need Most' (24/7 Wall St 09-23) signals structural defense demand; NOC low in day range at 55.2 pct_of_day_range"
+    },
+    {
+      "symbol": "OKLO",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 62.915418,
+      "price": 39.74,
+      "date": "2026-09-23",
+      "time_et": "09:47",
+      "ts": 1790171272,
+      "why": "Nuclear sector has 91% hit rate in track record, strong 5d momentum",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "OKLO +10.39% 5d, headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' (Zacks 09-22); nuclear sector hit_rate 0.91 in track record"
+    },
+    {
+      "symbol": "IBP",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.602768,
+      "price": 208.27,
+      "date": "2026-09-23",
+      "time_et": "09:47",
+      "ts": 1790171272,
+      "why": "Congress buy pressure plus undervaluation thesis",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Rep. David J. Taylor disclosed buy of IBP 09-08 (filed 09-17); headline 'Installed Building Products Could Be 19% Undervalued' (Simply Wall St 09-21)"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 1930.6,
-  "deployed_today": 19706.13,
-  "orders_today": 8,
+  "spent_today": 14430.6,
+  "deployed_today": 32206.13,
+  "orders_today": 13,
   "sells_today": 6,
   "sold_today": [
     "TSM",
@@ -5104,19 +5192,37 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790170934,
-  "last_check_ts": 1790171186,
+  "last_publish_ts": 1790171272,
+  "last_check_ts": 1790171272,
   "last_bar_ts": 1790171100,
-  "last_decision_ts": 1790170359,
+  "last_decision_ts": 1790171272,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "74dfad50": 771.2444,
     "6a67ad2c": 147.9376,
+    "848eb3f2": 505.4495,
+    "fdacd26b": 513.7313,
+    "e21f9d51": 455.1325,
+    "f20a85ae": 359.8866,
     "f4ae7c0f": 347.7055,
+    "60fd7cd4": 336.9806,
     "ef0fb573": 344.4977,
+    "2b49006f": 209.3593,
+    "7b4710bb": 40.0162,
     "4b2e47fd": 149.4247,
+    "663d590d": 494.0,
+    "7081a784": 188.659,
+    "4af2900b": 351.0,
+    "3685aa17": 500.0,
     "89cd9430": 144.53,
-    "3f1d2871": 336.3863
+    "3f1d2871": 336.3863,
+    "311ddb61": 38.5478,
+    "793574d2": 497.0668,
+    "5326714c": 202.0219,
+    "4475dccc": 202.0,
+    "69496d58": 489.2098,
+    "49b019aa": 347.9002,
+    "6fde0af6": 37.5
   }
 }

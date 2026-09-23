@@ -14948,3 +14948,43 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $252.02] -> $2681.21 (+0.55%) — close 100% at +0.5% over the average cost
 ## 2026-09-23 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 09:47 ET (Wednesday) — week 2026-W39 — budget left $23036.69 (today $19706.13 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
+brain: Below min_positions (only 2 held) with 92% idle cash - counterfactual data shows idle checks cost money (idle_universe_avg_pct positive) and past lessons repeatedly confirm deploying beats sitting out. Adding 7 new names across best-performing sectors (widely_held 4.47% avg_ret, nuclear 0.91 hit_rate) with concrete evidence: PLTR air traffic AI news, MSFT congress mega-buy by Gottheimer, AVGO/OKLO momentum+news, NOC defense shortage headline, IBP/HUBB congress buy pressure. Each position sized ~$2-3k with ATR-based protective stops.
+lesson: When below min_positions with high idle cash, deploy across 6-8 names spanning multiple sectors immediately with ATR-sized stops rather than waiting for perfect entries - concrete evidence (headlines, congress filings, momentum) across a diversified set beats concentration risk on day one of full deployment.
+  (dropped AMD: sold 12 min ago, cooling off)
+  (dropped TSM: sold 13 min ago, cooling off)
+  (dropped PLTR: 94% up today's range — resting a limit at $188.66 instead of chasing)
+  (dropped HUBB: 88% up today's range — resting a limit at $455.13 instead of chasing)
+- BUY $3000.00 MSFT [filled] ['news', 'momentum'] — Widely_held sector has best avg_ret_pct 4.47% in track record, large recent congress buy pressure | evidence: MSFT +0.52% 1d, headline 'The Magnificent 7 are back: Meta's AI bet leads the charge' driving AI mega-cap strength; congress buy by Josh Gottheimer $250k-1M disclosed 09-14
+- BUY $2500.00 AVGO [filled] ['news', 'momentum'] — AI chip rally spillover, widely_held sector strength | evidence: headline 'Nvidia Stock Set For 40% Surge: 3 Catalysts' lifting AI chip complex; AVGO +5.69% 5d
+- BUY $2500.00 NOC [filled] ['momentum', 'news'] — Defense demand headline plus pullback entry point | evidence: NOC -2.74% today but headline 'US Running Low on the 2 Weapons It Would Need Most' (24/7 Wall St 09-23) signals structural defense demand; NOC low in day range at 55.2 pct_of_day_range
+- BUY $2500.00 OKLO [filled] ['momentum', 'news'] — Nuclear sector has 91% hit rate in track record, strong 5d momentum | evidence: OKLO +10.39% 5d, headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' (Zacks 09-22); nuclear sector hit_rate 0.91 in track record
+- BUY $2000.00 IBP [filled] ['congress', 'news'] — Congress buy pressure plus undervaluation thesis | evidence: Rep. David J. Taylor disclosed buy of IBP 09-08 (filed 09-17); headline 'Installed Building Products Could Be 19% Undervalued' (Simply Wall St 09-21)
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger HUBB stop_loss: not held)
+~ WORKING stop_loss 100% MSFT @ $494.00 until 2026-09-23 — Protective stop
+~ WORKING stop_loss 100% AVGO @ $351.00 until 2026-09-23 — Protective stop
+~ WORKING stop_loss 100% NOC @ $500.00 until 2026-09-23 — Protective stop
+~ WORKING stop_loss 100% OKLO @ $37.50 until 2026-09-23 — Protective stop
+~ WORKING stop_loss 100% IBP @ $202.00 until 2026-09-23 — Protective stop
+~ WORKING buy_limit $3000.00 PLTR @ $188.66 until 2026-09-23 — wanted it, but not at the high — resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record
+~ WORKING buy_limit $2000.00 HUBB @ $455.13 until 2026-09-23 — wanted it, but not at the high — resting at $455.13. Highest congress buy pressure score in list plus positive momentum
+~ WORKING take_profit 100% MSFT @ $505.45 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $489.21 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $359.89 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $347.90 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $513.73 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $497.07 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OKLO @ $40.02 until 2026-09-28 — close 100% at +0.7% over the average cost
+~ WORKING buy_limit $500.00 OKLO @ $38.55 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBP @ $209.36 until 2026-09-28 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $202.02 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $336.98 until 2026-09-24 — strong month, weak day: resting 0.43% under $338.44 to catch the dip
+portfolio: equity $32888.42 (+31.55% on $25000.00 in) · cash $18399.45 · realised +7899.45
+Done: 0 sell(s), 5 buy(s); 25 order(s) working; budget left $10536.69 this week
