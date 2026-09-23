@@ -1,6 +1,3 @@
-- BUY $2000.00 HD [filled] ['momentum', 'news'] — widely_held sector best avg_ret 4.36% in track record, diversifies book | evidence: HD +0.91% today, TP-Link Tapo smart home deal headline 2026-09-22
-- BUY $2000.00 AMZN [filled] ['momentum', 'news'] — buying widely_held name on a dip in range | evidence: AMZN -3.74% today pulled back to 10.7% of day range, Muse AI competitive dynamics headline, widely_held sector strongest track record bucket
-~ WORKING stop_loss 100% TSM @ $435.80 until 2026-09-23 — protective stop on new TSM position
 ~ WORKING stop_loss 100% CRWD @ $246.70 until 2026-09-23 — protective stop on new CRWD position
 ~ WORKING stop_loss 100% O @ $54.65 until 2026-09-23 — protective stop on new O position
 ~ WORKING stop_loss 100% PLD @ $132.70 until 2026-09-23 — protective stop on new PLD position
@@ -398,3 +395,6 @@ lesson: Fresh market buys sized $1.6-2.2k across distinct sectors (not just tech
 ~ WORKING buy_limit $1000.00 TSM @ $441.93 until 2026-09-24 — strong month, weak day: resting 0.47% under $444.00 to catch the dip
 portfolio: equity $32838.30 (+31.35% on $25000.00 in) · cash $12884.73 · realised +7830.88
 Done: 0 sell(s), 4 buy(s); 35 order(s) working; budget left $4986.66 this week
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $134.86] -> $1846.54 (+0.02%) — close it all at -0.5% under the average cost
+## 2026-09-23 13:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
