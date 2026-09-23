@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 6477.25,
-  "deployed": 332202.24,
+  "spent": 19477.25,
+  "deployed": 345202.24,
   "by_ticker": {
     "NOC": 30.92,
     "IBM": 22.77,
@@ -12,11 +12,16 @@
     "HLI": 9.7,
     "CHRW": 15.88,
     "GOOGL": 54.98,
-    "AMZN": 7.48,
+    "AMZN": 2007.48,
     "RTX": 6.86,
     "AAPL": 1001.17,
     "AVGO": 16.12,
-    "SPY": 2.94
+    "SPY": 2.94,
+    "TSM": 2500.0,
+    "CRWD": 2500.0,
+    "O": 2000.0,
+    "PLD": 2000.0,
+    "HD": 2000.0
   },
   "deployed_by_ticker": {
     "AMD": 34255.56,
@@ -31,23 +36,25 @@
     "LMT": 6000.0,
     "RTX": 14431.03,
     "CCJ": 28885.0,
-    "TSM": 19720.82,
+    "TSM": 22220.82,
     "AVGO": 12974.36,
     "UNH": 15488.45,
     "IBM": 15755.97,
-    "PLD": 5891.02,
+    "PLD": 7891.02,
     "GOOGL": 25913.79,
     "META": 15555.56,
     "GLD": 4307.69,
     "AAPL": 7394.74,
-    "CRWD": 3666.67,
+    "CRWD": 6166.67,
     "HLI": 1000.0,
     "HUBB": 2000.0,
     "NLR": 2000.0,
-    "AMZN": 6700.0,
+    "AMZN": 8700.0,
     "IBP": 5000.0,
     "NEM": 3500.0,
-    "SPY": 1000.0
+    "SPY": 1000.0,
+    "O": 2000.0,
+    "HD": 2000.0
   },
   "orders": [
     {
@@ -5538,12 +5545,116 @@
       ],
       "evidence": "bought 30 min ago, -0.63% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.620643,
+      "price": 444.79,
+      "date": "2026-09-23",
+      "time_et": "10:25",
+      "ts": 1790173556,
+      "why": "cooldown expired soon-ish? actually check cooling list - not in cooling_off, reintroduce widely_held exposure",
+      "signals": [
+        "momentum",
+        "news",
+        "track_record"
+      ],
+      "evidence": "TSM +7.48% 5d, widely_held sector avg_ret 4.36% best signal bucket in track record, Zacks bullish note 2026-09-23"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.928895,
+      "price": 251.79,
+      "date": "2026-09-23",
+      "time_et": "10:25",
+      "ts": 1790173556,
+      "why": "strong news catalyst plus congress buy pressure, not in cooldown",
+      "signals": [
+        "news",
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Jim Cramer 'must buy' headline 2026-09-23, Cisneros disclosed buy 2026-09-10/04, +31% 1m momentum"
+    },
+    {
+      "symbol": "O",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 35.924534,
+      "price": 55.67,
+      "date": "2026-09-23",
+      "time_et": "10:25",
+      "ts": 1790173556,
+      "why": "real estate diversification with strong historical hit rate",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "Realty Income outperformed S&P in 11 of 13 corrections since 1994 per Motley Fool 2026-09-22, real estate sector 100% hit rate in track record (n=3)"
+    },
+    {
+      "symbol": "PLD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.806698,
+      "price": 135.07,
+      "date": "2026-09-23",
+      "time_et": "10:25",
+      "ts": 1790173556,
+      "why": "real estate diversification, data center demand tailwind",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "Prologis leasing surge data center growth outlook MarketBeat 2026-09-20, real estate sector 100% hit rate track record"
+    },
+    {
+      "symbol": "HD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.667778,
+      "price": 299.95,
+      "date": "2026-09-23",
+      "time_et": "10:25",
+      "ts": 1790173556,
+      "why": "widely_held sector best avg_ret 4.36% in track record, diversifies book",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "HD +0.91% today, TP-Link Tapo smart home deal headline 2026-09-22"
+    },
+    {
+      "symbol": "AMZN",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.037301,
+      "price": 248.84,
+      "date": "2026-09-23",
+      "time_et": "10:25",
+      "ts": 1790173556,
+      "why": "buying widely_held name on a dip in range",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AMZN -3.74% today pulled back to 10.7% of day range, Muse AI competitive dynamics headline, widely_held sector strongest track record bucket"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 6444.54,
-  "deployed_today": 47206.13,
-  "orders_today": 21,
+  "spent_today": 19444.54,
+  "deployed_today": 60206.13,
+  "orders_today": 27,
   "sells_today": 18,
   "sold_today": [
     "TSM",
@@ -5596,21 +5707,42 @@
     "NEM": 1790172517,
     "SPY": 1790172882
   },
-  "last_publish_ts": 1790173099,
-  "last_check_ts": 1790173473,
-  "last_bar_ts": 1790173200,
-  "last_decision_ts": 1790172884,
-  "next_check_minutes": 10,
+  "last_publish_ts": 1790173556,
+  "last_check_ts": 1790173556,
+  "last_bar_ts": 1790173500,
+  "last_decision_ts": 1790173556,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "fee82d2f": 337.7584,
-    "18a110df": 335.0323,
+    "81fca63e": 55.7802,
+    "ac7b3ceb": 135.3253,
+    "b7c65a40": 300.6159,
     "d600afce": 529.8157,
+    "fee82d2f": 337.7584,
+    "c17d244f": 445.8975,
+    "aff08c25": 249.4497,
     "ef0c7f59": 458.1465,
     "d230690d": 190.1587,
+    "18a110df": 335.0323,
+    "7f8cd152": 224.4534,
+    "ee8f7406": 253.1849,
+    "e187e6f8": 740.849,
+    "b06ffd3d": 604.1277,
     "e21f9d51": 455.1325,
+    "a0303c99": 132.7,
+    "e4ee72c4": 54.65,
+    "6706d2d1": 435.8,
+    "87366809": 246.7,
+    "77a7ee7e": 293.9,
+    "a12fcda4": 243.3,
     "dde91470": 184.0,
+    "bc9e72d6": 131.0179,
+    "37d19b03": 53.9999,
     "4de966ff": 183.6404,
-    "b3976b58": 326.8706
+    "b3976b58": 326.8706,
+    "e5c483b1": 431.4463,
+    "5a3af176": 244.2363,
+    "6bca1415": 290.9515,
+    "c2750f22": 241.3748
   }
 }

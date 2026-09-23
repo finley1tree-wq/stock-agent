@@ -15078,3 +15078,44 @@ Decision: nothing at this check. 19 standing order(s) working.
 - SELL 100% MSFT [time stop] -> $2958.84 (-1.37%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AVGO [time stop] -> $2483.88 (-0.64%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 10:18 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:25 ET (Wednesday) — week 2026-W39 — budget left $18522.75 (today $47206.13 put to work, 21 buys, 18 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
+brain: Below min_positions (2 of 8) with 74% idle cash - deploying into TSM, CRWD, O, PLD, HD, AMZN to reach 8 positions across widely_held/real_estate sectors, using concrete headline and momentum evidence, each with an ATR-based stop. Skipped GOOGL/IBM/NOC/MSFT/AVGO due to active cooldowns from earlier sells today.
+lesson: Check cooling_off_minutes_left before drafting orders for specific tickers to avoid wasted candidate slots; build the order list only from names actually eligible.
+  (dropped GOOGL: sold 30 min ago, cooling off)
+  (dropped IBM: sold 15 min ago, cooling off)
+  (dropped NOC: sold 31 min ago, cooling off)
+- BUY $2500.00 TSM [filled] ['momentum', 'news', 'track_record'] — cooldown expired soon-ish? actually check cooling list - not in cooling_off, reintroduce widely_held exposure | evidence: TSM +7.48% 5d, widely_held sector avg_ret 4.36% best signal bucket in track record, Zacks bullish note 2026-09-23
+- BUY $2500.00 CRWD [filled] ['news', 'congress', 'momentum'] — strong news catalyst plus congress buy pressure, not in cooldown | evidence: Jim Cramer 'must buy' headline 2026-09-23, Cisneros disclosed buy 2026-09-10/04, +31% 1m momentum
+- BUY $2000.00 O [filled] ['news', 'momentum'] — real estate diversification with strong historical hit rate | evidence: Realty Income outperformed S&P in 11 of 13 corrections since 1994 per Motley Fool 2026-09-22, real estate sector 100% hit rate in track record (n=3)
+- BUY $2000.00 PLD [filled] ['news', 'momentum'] — real estate diversification, data center demand tailwind | evidence: Prologis leasing surge data center growth outlook MarketBeat 2026-09-20, real estate sector 100% hit rate track record
+- BUY $2000.00 HD [filled] ['momentum', 'news'] — widely_held sector best avg_ret 4.36% in track record, diversifies book | evidence: HD +0.91% today, TP-Link Tapo smart home deal headline 2026-09-22
+- BUY $2000.00 AMZN [filled] ['momentum', 'news'] — buying widely_held name on a dip in range | evidence: AMZN -3.74% today pulled back to 10.7% of day range, Muse AI competitive dynamics headline, widely_held sector strongest track record bucket
+~ WORKING stop_loss 100% TSM @ $435.80 until 2026-09-23 — protective stop on new TSM position
+~ WORKING stop_loss 100% CRWD @ $246.70 until 2026-09-23 — protective stop on new CRWD position
+~ WORKING stop_loss 100% O @ $54.65 until 2026-09-23 — protective stop on new O position
+~ WORKING stop_loss 100% PLD @ $132.70 until 2026-09-23 — protective stop on new PLD position
+~ WORKING stop_loss 100% HD @ $293.90 until 2026-09-23 — protective stop on new HD position
+~ WORKING stop_loss 100% AMZN @ $243.30 until 2026-09-23 — protective stop on new AMZN position
+~ WORKING take_profit 100% TSM @ $445.90 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $431.45 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $253.18 until 2026-09-28 — close 100% at +0.6% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $244.24 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% O @ $55.78 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 O @ $54.00 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $135.33 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $131.02 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $300.62 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $290.95 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $249.45 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $241.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 META @ $740.85 until 2026-09-24 — strong month, weak day: resting 0.75% under $746.47 to catch the dip
+~ WORKING buy_limit $1000.00 AMD @ $604.13 until 2026-09-24 — strong month, weak day: resting 0.87% under $609.41 to catch the dip
+~ WORKING buy_limit $1000.00 NVDA @ $224.45 until 2026-09-24 — strong month, weak day: resting 0.55% under $225.69 to catch the dip
+portfolio: equity $32881.01 (+31.52% on $25000.00 in) · cash $13385.50 · realised +7885.50
+Done: 0 sell(s), 6 buy(s); 30 order(s) working; budget left $5522.75 this week
