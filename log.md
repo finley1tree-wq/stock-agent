@@ -15739,3 +15739,5 @@ Decision: nothing at this check. 21 standing order(s) working.
 - BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
 ## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (cancelled 19 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
