@@ -1,10 +1,3 @@
-~ WORKING buy_limit $500.00 META @ $723.31 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $620.87 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $599.57 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NVDA @ $228.80 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NVDA @ $221.32 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $450.34 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $435.78 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMAT @ $470.31 until 2026-09-28 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 AMAT @ $454.27 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING buy_limit $1000.00 CHRW @ $149.00 until 2026-09-24 — strong month, weak day: resting 0.51% under $149.77 to catch the dip
@@ -398,3 +391,10 @@ lesson: When below min_positions with high idle cash, buy 6-8 names directly at 
 ~ WORKING buy_limit $500.00 AAPL @ $326.53 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32893.91 (+31.58% on $25000.00 in) · cash $15557.59 · realised +7904.91
 Done: 0 sell(s), 6 buy(s); 32 order(s) working; budget left $7659.52 this week
+  (dropped RTX: sold 13 min ago, cooling off)
+  (dropped RTX: sold 14 min ago, cooling off)
+  (dropped RTX: sold 15 min ago, cooling off)
+  (dropped RTX: sold 15 min ago, cooling off)
+  (dropped RTX: sold 16 min ago, cooling off)
+- SELL 100% AMAT [time stop] -> $2475.89 (-0.96%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders

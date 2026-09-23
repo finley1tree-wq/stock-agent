@@ -15318,3 +15318,7 @@ Done: 0 sell(s), 6 buy(s); 32 order(s) working; budget left $7659.52 this week
   (dropped RTX: sold 13 min ago, cooling off)
   (dropped RTX: sold 14 min ago, cooling off)
   (dropped RTX: sold 15 min ago, cooling off)
+  (dropped RTX: sold 15 min ago, cooling off)
+  (dropped RTX: sold 16 min ago, cooling off)
+- SELL 100% AMAT [time stop] -> $2475.89 (-0.96%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
