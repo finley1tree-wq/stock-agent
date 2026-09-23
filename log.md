@@ -15151,3 +15151,6 @@ lesson: Always cross-check allowed_tickers against cooling_off_minutes_left befo
 ~ WORKING buy_limit $500.00 GLD @ $381.05 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32888.45 (+31.55% on $25000.00 in) · cash $20191.21 · realised +7891.21
 Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $253.17] -> $2513.75 (+0.55%) — close 100% at +0.6% over the average cost
+## 2026-09-23 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders

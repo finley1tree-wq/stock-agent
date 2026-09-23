@@ -1,6 +1,3 @@
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
   (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
 brain: Book is completely flat (0 positions, 99.9% idle cash) with only 2 checks left today - past lessons consistently show idleness is graded negatively and full_deployment mode explicitly instructs concentrating in up to 6 names. I'm deploying into the widely_held sector (best track record avg_ret 4.86%, 261 trades) plus nuclear (CCJ, best hit rate 90%) and congress-backed AMAT, all with concrete news/momentum evidence and protective stops sized for the account.
@@ -398,3 +395,6 @@ lesson: Always cross-check allowed_tickers against cooling_off_minutes_left befo
 ~ WORKING buy_limit $500.00 GLD @ $381.05 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32888.45 (+31.55% on $25000.00 in) · cash $20191.21 · realised +7891.21
 Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $253.17] -> $2513.75 (+0.55%) — close 100% at +0.6% over the average cost
+## 2026-09-23 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders

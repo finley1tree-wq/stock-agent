@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 12671.54,
+  "spent": 10157.79,
   "deployed": 347402.24,
   "by_ticker": {
     "NOC": 30.92,
@@ -16,7 +16,6 @@
     "RTX": 6.86,
     "AVGO": 16.12,
     "SPY": 2.94,
-    "CRWD": 2500.0,
     "O": 2000.0,
     "PLD": 2000.0,
     "HD": 2000.0
@@ -5726,13 +5725,34 @@
         "risk_management"
       ],
       "evidence": "GLD at 18.1% of day range (low), gold sector backtest 5y avg_total_return 148.58% (weak prior, but cheap entry point today after -1.41% 1d move)"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 9.928895,
+      "status": "filled",
+      "price": 253.17,
+      "proceeds": 2513.75,
+      "realized_pnl": 13.75,
+      "realized_pct": 0.55,
+      "date": "2026-09-23",
+      "time_et": "10:45",
+      "ts": 1790174700,
+      "why": "close 100% at +0.6% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $251.79",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 12638.83,
+  "spent_today": 10125.08,
   "deployed_today": 62406.13,
   "orders_today": 28,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -5778,7 +5798,7 @@
     "GLD": 1790087064,
     "AAPL": 1790173991,
     "HLI": 1790085321,
-    "CRWD": 1790170809,
+    "CRWD": 1790174725,
     "NLR": 1790089922,
     "HUBB": 1790089975,
     "AMZN": 1790102224,
@@ -5786,38 +5806,35 @@
     "NEM": 1790172517,
     "SPY": 1790172882
   },
-  "last_publish_ts": 1790174564,
-  "last_check_ts": 1790174646,
-  "last_bar_ts": 1790174400,
+  "last_publish_ts": 1790174724,
+  "last_check_ts": 1790174724,
+  "last_bar_ts": 1790174700,
   "last_decision_ts": 1790174459,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "dca257ff": 253.1748,
     "aff08c25": 249.4497,
     "b7c65a40": 300.6159,
     "47267323": 393.6493,
-    "81fca63e": 55.7802,
     "ac7b3ceb": 135.3253,
     "d600afce": 529.8157,
-    "7f8cd152": 224.4534,
+    "81fca63e": 55.7802,
     "cb25544a": 149.1994,
-    "e187e6f8": 740.849,
-    "b06ffd3d": 604.1277,
+    "7f8cd152": 224.4534,
     "9d64de1c": 192.9905,
+    "e187e6f8": 740.849,
     "ef0c7f59": 458.1465,
-    "a0303c99": 132.7,
+    "b06ffd3d": 604.1277,
     "93db7795": 386.9,
-    "e21f9d51": 455.1325,
+    "a0303c99": 132.7,
     "e4ee72c4": 54.65,
+    "e21f9d51": 455.1325,
     "77a7ee7e": 293.9,
     "a12fcda4": 243.3,
-    "87366809": 246.7,
-    "bc9e72d6": 131.0179,
     "37d19b03": 53.9999,
+    "bc9e72d6": 131.0179,
     "68a827ec": 381.0548,
     "6bca1415": 290.9515,
-    "c2750f22": 241.3748,
-    "5a3af176": 244.2363
+    "c2750f22": 241.3748
   }
 }
