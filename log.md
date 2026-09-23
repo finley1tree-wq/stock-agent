@@ -15777,3 +15777,20 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-23 15:55 ET (Wednesday) — week 2026-W39 — budget left $22742.20 (today $178745.75 put to work, 80 buys, 78 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain: Market closes in 5 minutes (15:55, close 16:00) and no_new_entries_this_check is true, so no new buys are possible. RTX already has working stop_loss and take_profit brackets in place from auto_bracket, and it's only 29 minutes held so those orders will manage the exit. Checks_left_today is 0, so nothing further to do - let the existing protective orders handle RTX into the close.
+lesson: On the last check of the day with no_new_entries_this_check true and market closing in minutes, rely on existing auto_bracket stop/take-profit orders rather than trying to force new entries that will be dropped.
+~ WORKING buy_limit $500.00 RTX @ $187.20 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32836.73 (+31.35% on $25000.00 in) · cash $30640.27 · realised +7840.27
+Decision: nothing at this check. 3 standing order(s) working.

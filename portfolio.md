@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-23 15:51 ET
+# Pretend portfolio — 2026-09-23 15:56 ET
 
-**Equity $32833.88** on $25000.00 put in → **+31.34%**  
-Cash $30640.27 · Unrealised -6.39 · Realised +7840.27
+**Equity $32836.73** on $25000.00 put in → **+31.35%**  
+Cash $30640.27 · Unrealised -3.54 · Realised +7840.27
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| RTX | 6.7% | $2193.61 | $192.99 | $192.43 | -0.29% | 0d |
+| RTX | 6.7% | $2196.46 | $192.99 | $192.68 | -0.16% | 0d |
 
 ## Last fills
 
