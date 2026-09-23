@@ -1,9 +1,3 @@
-## 2026-09-22 12:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-22 12:58 ET (Tuesday) — week 2026-W39 — budget left $10566.85 (today $125438.18 put to work, 53 buys, 46 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
   (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
@@ -398,3 +392,9 @@ lesson: Do not sit at 99.9% idle cash for even one check when below min_position
 ~ WORKING buy_limit $1000.00 SPY @ $771.24 until 2026-09-24 — strong month, weak day: resting 0.20% under $772.79 to catch the dip
 portfolio: equity $32827.05 (+31.31% on $25000.00 in) · cash $17790.60 · realised +7830.06
 Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $450.34] -> $2155.74 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [take_profit @ $470.31] -> $2678.01 (+0.43%) — close 100% at +0.4% over the average cost
+- BUY $1000.00 CHRW [buy_limit @ $149.00] — strong month, weak day: resting 0.51% under $149.77 to catch the dip
+## 2026-09-23 09:35 ET — tick — 2 sell(s), 1 buy(s) from standing orders

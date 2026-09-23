@@ -30221,5 +30221,82 @@
     "code_version": "706af62",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 4.786896,
+    "status": "filled",
+    "price": 450.34,
+    "proceeds": 2155.74,
+    "realized_pnl": 5.18,
+    "realized_pct": 0.24,
+    "date": "2026-09-23",
+    "time_et": "09:35",
+    "ts": 1790170500,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $449.26",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "3f68ac6"
+  },
+  {
+    "symbol": "AMAT",
+    "side": "sell",
+    "qty": 5.694075,
+    "status": "filled",
+    "price": 470.31,
+    "proceeds": 2678.01,
+    "realized_pnl": 11.34,
+    "realized_pct": 0.43,
+    "date": "2026-09-23",
+    "time_et": "09:35",
+    "ts": 1790170500,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $468.32",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "3f68ac6"
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.711207,
+    "price": 149.0,
+    "date": "2026-09-23",
+    "time_et": "09:35",
+    "ts": 1790170500,
+    "why": "strong month, weak day: resting 0.51% under $149.77 to catch the dip",
+    "signals": [
+      "dip_entry",
+      "momentum",
+      "standing_order"
+    ],
+    "evidence": "+5.8% over the month, sitting at 0% of today's range",
+    "trigger": "buy_limit",
+    "entry_price": 149.0045,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 4.52,
+    "hour_et": 9,
+    "code_version": "3f68ac6",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
