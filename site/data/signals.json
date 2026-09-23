@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-23T09:36-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-23T09:37-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,17 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "0713a0f7",
+   "id": "f3024566",
    "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 252.016,
+   "kind": "stop_loss",
+   "price": 251.532,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 252.12,
-   "pct_away": -0.04,
+   "last": 251.67,
+   "pct_away": -0.05,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close it all at -1.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,13 +163,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 772.32,
-   "pct_away": -0.14,
+   "last": 772.28,
+   "pct_away": -0.13,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.20% under $772.79 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "0713a0f7",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 252.016,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 251.67,
+   "pct_away": 0.14,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -184,40 +201,6 @@
    "pct_away": -0.2,
    "good_until": "2026-09-28",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f3024566",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 251.532,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 252.12,
-   "pct_away": -0.23,
-   "good_until": "2026-09-28",
-   "why": "close it all at -1.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fe01166f",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 748.5583,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 746.25,
-   "pct_away": 0.31,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -275,22 +258,6 @@
    ]
   },
   {
-   "id": "29a7d610",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 730.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 746.25,
-   "pct_away": -2.18,
-   "good_until": "2026-09-23",
-   "why": "Protective stop ~2% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
    "id": "89cd9430",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -325,23 +292,6 @@
    ]
   },
   {
-   "id": "6cc15fa3",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 723.3096,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 746.25,
-   "pct_away": -3.07,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "914320b7",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -349,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 252.12,
-   "pct_away": -3.57,
+   "last": 251.67,
+   "pct_away": -3.39,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

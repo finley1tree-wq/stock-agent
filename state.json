@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 8213.81,
+  "spent": 4644.52,
   "deployed": 304702.24,
   "by_ticker": {
     "NOC": 37.2,
@@ -16,7 +16,6 @@
     "AMZN": 7.48,
     "RTX": 6.86,
     "AAPL": 1.17,
-    "META": 3561.98,
     "CRWD": 2666.67
   },
   "deployed_by_ticker": {
@@ -5019,18 +5018,40 @@
       ],
       "evidence": "+1.1% over the month, sitting at 20% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.768217,
+      "status": "filled",
+      "price": 748.56,
+      "proceeds": 3569.29,
+      "realized_pnl": 13.73,
+      "realized_pct": 0.39,
+      "date": "2026-09-23",
+      "time_et": "09:37",
+      "ts": 1790170500,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $745.68",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 8181.1,
+  "spent_today": 4611.81,
   "deployed_today": 19706.13,
   "orders_today": 8,
-  "sells_today": 4,
+  "sells_today": 5,
   "sold_today": [
     "TSM",
     "AMAT",
     "AMD",
-    "NVDA"
+    "NVDA",
+    "META"
   ],
   "sold_ts": {
     "AMAT": 1790170515,
@@ -5050,7 +5071,7 @@
     "AVGO": 1790098083,
     "UNH": 1790097159,
     "IBM": 1790102224,
-    "META": 1790104105,
+    "META": 1790170644,
     "GOOGL": 1790102224,
     "GLD": 1790087064,
     "AAPL": 1790101272,
@@ -5062,25 +5083,22 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790170606,
-  "last_check_ts": 1790170606,
+  "last_publish_ts": 1790170644,
+  "last_check_ts": 1790170690,
   "last_bar_ts": 1790170500,
   "last_decision_ts": 1790170359,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "0713a0f7": 252.016,
-    "74dfad50": 771.2444,
-    "6a67ad2c": 147.9376,
     "f3024566": 251.532,
-    "fe01166f": 748.5583,
+    "74dfad50": 771.2444,
+    "0713a0f7": 252.016,
+    "6a67ad2c": 147.9376,
     "f4ae7c0f": 347.7055,
     "ef0fb573": 344.4977,
     "b9619e36": 149.4247,
-    "29a7d610": 730.0,
     "89cd9430": 144.53,
     "3f1d2871": 336.3863,
-    "6cc15fa3": 723.3096,
     "914320b7": 243.1305
   }
 }

@@ -14942,3 +14942,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
 - BUY $2666.67 CRWD [buy_limit @ $250.65] — wanted it, but not at the high — resting at $250.65. Congress buy pressure plus bullish security-AI news
 - BUY $1000.00 GOOGL [buy_limit @ $346.79] — strong month, weak day: resting 0.49% under $348.48 to catch the dip
 ## 2026-09-23 09:35 ET — tick — 2 sell(s), 2 buy(s) from standing orders
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $748.56] -> $3569.29 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-09-23 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
