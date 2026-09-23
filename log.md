@@ -15036,3 +15036,6 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
 - SELL 100% NEM [take_profit @ $122.33] -> $1505.64 (+0.38%) — close 100% at +0.4% over the average cost
 - BUY $3000.00 PLTR [buy_limit @ $188.66] — wanted it, but not at the high — resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record
 ## 2026-09-23 10:08 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $368.87] -> $2006.12 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-09-23 10:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders

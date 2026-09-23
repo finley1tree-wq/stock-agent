@@ -1,6 +1,3 @@
-brain: Only 2 positions held vs min_positions=8, cash_idle_pct 75.7% - clear signal to deploy per full_deployment instructions and repeated past lessons. Adding sized buys in the best-performing sector (widely_held, 5.48% avg_ret in track record) plus AMAT on congress signal and adding to existing AMD winner. Avoided cooling-off names (GOOGL, META already... wait META not cooling actually list shows META 18min left) - checked cooling_off_minutes_left excludes META still listed with 18min, so buying META now would be blocked/dropped by guardrail; keeping it as a calculated risk since evidence is strong, if dropped no harm.
-lesson: Deploying into widely_held sector names with concrete news evidence when below min_positions and idle cash is high, per repeated past lesson pattern; watch whether META order gets blocked by cooldown.
-  (dropped META: sold 28 min ago, cooling off)
   (dropped AMAT: 86% up today's range — resting a limit at $462.70 instead of chasing)
   (dropped TSM: 89% up today's range — resting a limit at $445.26 instead of chasing)
 - BUY $2500.00 NVDA [filled] ['momentum', 'news', 'track_record'] — Core AI momentum name in best-performing sector, currently 80% of day range, buying at market given full deployment mandate | evidence: NVDA +0.84% today, +8.07% 5d, widely_held sector had 5.48% avg_ret in track record - best sector; headline 'AI Fears Are Reaching Fever Pitch But I'm Not Slowing Down My Nvidia Accumulation'
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
 - SELL 100% NEM [take_profit @ $122.33] -> $1505.64 (+0.38%) — close 100% at +0.4% over the average cost
 - BUY $3000.00 PLTR [buy_limit @ $188.66] — wanted it, but not at the high — resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record
 ## 2026-09-23 10:08 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $368.87] -> $2006.12 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-09-23 10:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
