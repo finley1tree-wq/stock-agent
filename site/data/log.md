@@ -1,4 +1,3 @@
-## 2026-09-22 12:42 ET (Tuesday) — week 2026-W39 — budget left $20944.39 (today $111057.42 put to work, 47 buys, 44 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
@@ -398,3 +397,4 @@ lesson: When checks_left_today is 0 and only minutes remain to market close, do 
 portfolio: equity $32830.06 (+31.32% on $25000.00 in) · cash $32830.06 · realised +7830.06
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-22 16:00 ET — published the session's closing state
