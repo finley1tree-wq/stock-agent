@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 7977.06,
+  "spent": 2493.16,
   "deployed": 374902.24,
   "by_ticker": {
     "NOC": 27.81,
@@ -11,14 +11,14 @@
     "CHRW": 15.88,
     "GOOGL": 67.13,
     "AMZN": 2.58,
-    "RTX": 2006.86,
+    "RTX": 11.45,
     "AVGO": 16.12,
     "SPY": 2.94,
     "O": 11.65,
     "PLD": 6.34,
     "UNH": 0.8,
-    "OKLO": 2000.0,
-    "TTD": 1500.0,
+    "OKLO": 9.13,
+    "TTD": 2.38,
     "AMAT": 2500.0
   },
   "deployed_by_ticker": {
@@ -6184,13 +6184,73 @@
       ],
       "evidence": "average cost $191.61",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RTX",
+      "side": "sell",
+      "qty": 10.305688,
+      "status": "filled",
+      "price": 193.62,
+      "proceeds": 1995.41,
+      "realized_pnl": -4.59,
+      "realized_pct": -0.23,
+      "date": "2026-09-23",
+      "time_et": "11:43",
+      "ts": 1790178208,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.19% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "OKLO",
+      "side": "sell",
+      "qty": 50.218546,
+      "status": "filled",
+      "price": 39.64,
+      "proceeds": 1990.87,
+      "realized_pnl": -9.13,
+      "realized_pct": -0.46,
+      "date": "2026-09-23",
+      "time_et": "11:43",
+      "ts": 1790178208,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.42% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 118.156047,
+      "status": "filled",
+      "price": 12.67,
+      "proceeds": 1497.62,
+      "realized_pnl": -2.38,
+      "realized_pct": -0.16,
+      "date": "2026-09-23",
+      "time_et": "11:43",
+      "ts": 1790178208,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.12% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 7977.06,
+  "spent_today": 2493.16,
   "deployed_today": 89906.13,
   "orders_today": 39,
-  "sells_today": 34,
+  "sells_today": 37,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -6218,7 +6278,9 @@
     "O",
     "PLD",
     "HD",
-    "NLR"
+    "NLR",
+    "RTX",
+    "TTD"
   ],
   "sold_ts": {
     "AMAT": 1790170515,
@@ -6227,12 +6289,12 @@
     "CHRW": 1790171335,
     "PLTR": 1790177951,
     "MSFT": 1790173101,
-    "OKLO": 1790172025,
+    "OKLO": 1790178209,
     "CCJ": 1790172937,
     "LMT": 1790175358,
-    "TTD": 1790101793,
+    "TTD": 1790178209,
     "NOC": 1790177228,
-    "RTX": 1790097159,
+    "RTX": 1790178209,
     "PLD": 1790175358,
     "TSM": 1790174237,
     "AVGO": 1790173101,
@@ -6253,38 +6315,26 @@
     "O": 1790175358,
     "HD": 1790175358
   },
-  "last_publish_ts": 1790177949,
-  "last_check_ts": 1790178119,
+  "last_publish_ts": 1790178208,
+  "last_check_ts": 1790178208,
   "last_bar_ts": 1790178000,
   "last_decision_ts": 1790177353,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "dae03ea7": 768.1506,
-    "347eedd3": 194.4717,
     "9d64de1c": 192.9905,
     "7f8cd152": 224.4534,
-    "3b0331cf": 334.6269,
     "ba66b745": 496.1125,
-    "3373278a": 12.7767,
-    "91828039": 474.6127,
+    "3b0331cf": 334.6269,
     "cb25544a": 149.1994,
-    "76fe1f3b": 40.106,
+    "91828039": 474.6127,
     "b06ffd3d": 604.1277,
     "ef0c7f59": 458.1465,
     "e187e6f8": 740.849,
-    "250c7c8e": 38.8,
     "e21f9d51": 455.1325,
-    "6a4134f8": 189.0,
-    "b7f0d4d5": 38.6351,
     "14ba5deb": 458.4123,
-    "ec459a63": 198.85,
-    "2bd6c5bd": 188.2479,
-    "82a8c53d": 12.319,
     "a78f6332": 485.0,
-    "66315de9": 13.1,
-    "6cdf96f4": 455.0,
-    "65e1cac2": 12.2,
-    "9c3c256e": 41.4
+    "6cdf96f4": 455.0
   }
 }

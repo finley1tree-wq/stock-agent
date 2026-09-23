@@ -1,7 +1,3 @@
-## 2026-09-22 15:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-22 15:55 ET (Tuesday) — week 2026-W39 — budget left $24967.29 (today $163661.34 put to work, 70 buys, 67 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
   (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
@@ -398,3 +394,7 @@ Done: 0 sell(s), 2 buy(s); 30 order(s) working; budget left $14511.94 this week
   (cancelled 3 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $192.45] -> $2511.00 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-09-23 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% RTX [time stop] -> $1995.41 (-0.23%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% OKLO [time stop] -> $1990.87 (-0.46%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TTD [time stop] -> $1497.62 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 11:43 ET — tick — 3 sell(s), 0 buy(s) from standing orders
