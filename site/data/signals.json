@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-23T13:04-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-23T13:07-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "91339814",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 134.926,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 134.99,
+   "pct_away": -0.05,
+   "good_until": "2026-09-28",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "ea09670a",
    "ticker": "PLD",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.91,
-   "pct_away": 0.13,
+   "last": 134.99,
+   "pct_away": 0.07,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 261.42,
-   "pct_away": 0.27,
+   "last": 261.34,
+   "pct_away": 0.3,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "89f367e6",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 191.2516,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 190.62,
-   "pct_away": 0.33,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +197,8 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 193.64,
-   "pct_away": -0.34,
+   "last": 193.68,
+   "pct_away": -0.36,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
    "signals": [
@@ -208,17 +208,17 @@
    ]
   },
   {
-   "id": "a7e6dddb",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 134.1923,
+   "id": "89f367e6",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 191.2516,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 134.91,
-   "pct_away": -0.53,
+   "last": 190.53,
+   "pct_away": 0.38,
    "good_until": "2026-09-28",
-   "why": "close it all at -0.5% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -232,30 +232,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 467.63,
-   "pct_away": 0.6,
+   "last": 468.03,
+   "pct_away": 0.51,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "ba66b745",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 496.1125,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 499.27,
-   "pct_away": -0.63,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -266,13 +249,30 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 150.79,
-   "pct_away": -0.66,
+   "last": 150.75,
+   "pct_away": -0.63,
    "good_until": "2026-09-23",
    "why": "Tighten limit slightly to improve fill odds on top congress-pressure name",
    "signals": [
     "congress",
     "momentum"
+   ]
+  },
+  {
+   "id": "ba66b745",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 496.1125,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 499.53,
+   "pct_away": -0.68,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -283,8 +283,8 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 150.79,
-   "pct_away": -1.05,
+   "last": 150.75,
+   "pct_away": -1.03,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
    "signals": [
@@ -300,8 +300,8 @@
    "usd": 2300.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 261.42,
-   "pct_away": -1.12,
+   "last": 261.34,
+   "pct_away": -1.09,
    "good_until": "2026-09-23",
    "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
    "signals": [
@@ -317,8 +317,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 751.51,
-   "pct_away": -1.42,
+   "last": 751.33,
+   "pct_away": -1.39,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
    "signals": [
@@ -334,8 +334,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 467.63,
-   "pct_away": -1.85,
+   "last": 468.03,
+   "pct_away": -1.93,
    "good_until": "2026-09-23",
    "why": "Protective stop on new AMAT position",
    "signals": [
@@ -350,8 +350,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 466.9,
-   "pct_away": -1.87,
+   "last": 467.32,
+   "pct_away": -1.96,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
    "signals": [
@@ -368,8 +368,8 @@
    "usd": 2307.69,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 261.42,
-   "pct_away": -2.02,
+   "last": 261.34,
+   "pct_away": -1.99,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $256.13. Strong intraday momentum with fresh bullish news catalyst, diversifies away from mega-cap tech already held",
    "signals": [
@@ -386,8 +386,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 190.62,
-   "pct_away": -2.13,
+   "last": 190.53,
+   "pct_away": -2.08,
    "good_until": "2026-09-23",
    "why": "Protective stop on new PLTR position",
    "signals": [
@@ -402,8 +402,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 261.42,
-   "pct_away": -2.3,
+   "last": 261.34,
+   "pct_away": -2.27,
    "good_until": "2026-09-23",
    "why": "Protective stop on new CRWD position",
    "signals": [
@@ -418,8 +418,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 466.9,
-   "pct_away": -2.52,
+   "last": 467.32,
+   "pct_away": -2.61,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $455.13. Highest congress buy pressure score in list plus positive momentum",
    "signals": [
@@ -436,25 +436,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 467.63,
-   "pct_away": -2.84,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5a1b5795",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 130.7851,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 134.91,
-   "pct_away": -3.06,
+   "last": 468.03,
+   "pct_away": -2.92,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -470,7 +453,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 190.62,
+   "last": 190.53,
+   "pct_away": -3.06,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5a1b5795",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 130.7851,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 134.99,
    "pct_away": -3.11,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -487,8 +487,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 261.42,
-   "pct_away": -3.28,
+   "last": 261.34,
+   "pct_away": -3.25,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
