@@ -1,114 +1,6 @@
 {
  "orders": [
   {
-   "id": "6b0d632d",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 600.0,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "Protective stop ~3% below entry per ATR sizing",
-   "evidence": "AMD ATR 4.094%, entry ~618.72",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "61b65121",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 347.0,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "Protective stop bounding downside on new position",
-   "evidence": "GOOGL ATR 2.331%, entry ~356.25",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e1d9c61c",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 91.0,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "Protective stop bounding downside",
-   "evidence": "CCJ ATR 3.512%, entry ~94.56",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "1987a24a",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 433.0,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "Protective stop bounding downside",
-   "evidence": "TSM ATR 2.217%, entry ~446.57",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "fddadb34",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 177.0,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "Protective stop bounding downside",
-   "evidence": "PLTR ATR 3.832%, entry ~184.06",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8a9c2e25",
-   "ticker": "IBP",
-   "kind": "stop_loss",
-   "price": 200.0,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "Protective stop bounding downside",
-   "evidence": "IBP ATR 4.747%, entry ~209.95",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f58ab285",
    "ticker": "NEM",
    "kind": "stop_loss",
@@ -7414,7 +7306,107 @@
    ],
    "good_until": "2026-09-24",
    "usd": 1000.0
+  },
+  {
+   "id": "06491e09",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 185.0,
+   "status": "working",
+   "created": "2026-09-23 14:06",
+   "created_ts": 1790186807,
+   "why": "Protective stop for new PLTR position",
+   "evidence": "ATR 3.98%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f1bd45fe",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 189.0,
+   "status": "working",
+   "created": "2026-09-23 14:06",
+   "created_ts": 1790186807,
+   "why": "Protective stop for new RTX position",
+   "evidence": "ATR 1.87%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bef36a45",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 191.4205,
+   "status": "working",
+   "created": "2026-09-23 14:06",
+   "created_ts": 1790186807,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $190.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "235e5678",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 184.8626,
+   "status": "working",
+   "created": "2026-09-23 14:06",
+   "created_ts": 1790186807,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $190.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
+  },
+  {
+   "id": "64fd2013",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 194.7222,
+   "status": "working",
+   "created": "2026-09-23 14:06",
+   "created_ts": 1790186807,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $194.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38ecd3fe",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 188.4904,
+   "status": "working",
+   "created": "2026-09-23 14:06",
+   "created_ts": 1790186807,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $194.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 13:57"
+ "updated": "2026-09-23 14:06"
 }

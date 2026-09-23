@@ -15611,3 +15611,25 @@ Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $10888.52 this week
   (cancelled 2 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [take_profit @ $248.95] -> $2506.18 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 13:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 14:06 ET (Wednesday) — week 2026-W39 — budget left $15385.92 (today $162645.75 put to work, 72 buys, 66 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Still below min_positions (5 of 8) with 61.5% cash idle. Adding CRWD (strong relative momentum + news catalyst, not cooling off), PLTR (fresh FAA catalyst, momentum), and RTX (defense sector diversification, historically 71% hit rate) at $2-2.3k each in market orders per the pattern that scored best in recent checks. Protective stops attached immediately per risk_management signal which has the best hit rate (0.87) in track record.
+lesson: Market buys at $2-2.3k across distinct sectors with immediate stops continues to be the pattern to follow when below min_positions and cash is idle; keep screening cooling_off list first.
+  (dropped CRWD: sold 44 min ago, cooling off)
+- BUY $2200.00 PLTR [filled] ['momentum', 'news'] — Momentum plus concrete FAA catalyst, not in cooling-off list | evidence: PLTR +4.07% today, 'Palantir Just Got a Major Vote of Confidence From the FAA', IBD flashes buy signal
+- BUY $2000.00 RTX [filled] ['momentum', 'news'] — Defense sector diversification away from tech-heavy book, decent hit rate historically | evidence: RTX headline 'Is Lockheed Martin Entering a New Growth Cycle Through Missile Defense?' sector tailwind, defense hit_rate 0.71 per track record
+  (dropped trigger CRWD stop_loss: not held)
+~ WORKING stop_loss 100% PLTR @ $185.00 until 2026-09-23 — Protective stop for new PLTR position
+~ WORKING stop_loss 100% RTX @ $189.00 until 2026-09-23 — Protective stop for new RTX position
+~ WORKING take_profit 100% PLTR @ $191.42 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $184.86 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $194.72 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $188.49 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32878.49 (+31.51% on $25000.00 in) · cash $19083.98 · realised +7883.98
+Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $11185.92 this week

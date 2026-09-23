@@ -1048,8 +1048,8 @@
     "hour_et": 10,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.02,
-    "ret_now": 0.02,
+    "ret_final": 0.06,
+    "ret_now": 0.06,
     "ret_src": "realised"
   },
   {
@@ -28140,8 +28140,8 @@
     "code_version": "7d1104a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0,
-    "ret_final": 0.0,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -28568,8 +28568,8 @@
     "code_version": "fe9097b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25,
-    "ret_final": 0.25,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -28624,8 +28624,8 @@
     "code_version": "fcca2b3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25,
-    "ret_final": 0.25,
+    "ret_now": 0.09,
+    "ret_final": 0.09,
     "ret_src": "realised"
   },
   {
@@ -28913,8 +28913,8 @@
     "code_version": "3ee6a7f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01,
-    "ret_final": -0.01,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -29753,8 +29753,8 @@
     "code_version": "6c12514",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.04,
-    "ret_now": 0.04,
+    "ret_final": 0.1,
+    "ret_now": 0.1,
     "ret_src": "realised"
   },
   {
@@ -30621,8 +30621,8 @@
     "code_version": "3af1996",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22,
-    "ret_final": 0.22,
+    "ret_now": -0.0,
+    "ret_final": -0.0,
     "ret_src": "realised"
   },
   {
@@ -31330,8 +31330,8 @@
     "code_version": "b165c27",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16,
-    "ret_final": 0.16,
+    "ret_now": 0.19,
+    "ret_final": 0.19,
     "ret_src": "realised"
   },
   {
@@ -32270,8 +32270,8 @@
     "code_version": "2c4bdc3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.17,
+    "ret_final": 0.17,
     "ret_src": "realised"
   },
   {
@@ -32379,8 +32379,8 @@
     "code_version": "06b170f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1,
-    "ret_final": -0.1,
+    "ret_now": -0.28,
+    "ret_final": -0.28,
     "ret_src": "realised"
   },
   {
@@ -33393,7 +33393,9 @@
     "code_version": "daf949a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.44,
+    "ret_final": -0.44,
+    "ret_src": "realised"
   },
   {
     "symbol": "HUBB",
@@ -33547,7 +33549,9 @@
     "code_version": "3e9f97a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -33601,7 +33605,7 @@
     "code_version": "3e9f97a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.1
   },
   {
     "symbol": "NOC",
@@ -33627,7 +33631,7 @@
     "code_version": "3e9f97a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.14
   },
   {
     "symbol": "UNH",
@@ -33652,7 +33656,7 @@
     "code_version": "3e9f97a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": -0.04
   },
   {
     "symbol": "GOOGL",
@@ -33729,7 +33733,8 @@
     "hour_et": 13,
     "code_version": "c463672",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "HD",
@@ -33754,7 +33759,8 @@
     "hour_et": 13,
     "code_version": "c463672",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.03
   },
   {
     "symbol": "IBP",
@@ -33778,7 +33784,8 @@
     "evidence": "bought 30 min ago, -0.40% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "0abd265"
+    "code_version": "0abd265",
+    "hold_minutes": 30
   },
   {
     "symbol": "AMZN",
@@ -33803,6 +33810,57 @@
     "evidence": "average cost $248.34",
     "trigger": "take_profit",
     "hour_et": 13,
-    "code_version": "43dd451"
+    "code_version": "43dd451",
+    "hold_minutes": 14
+  },
+  {
+    "symbol": "PLTR",
+    "notional": 2200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.543823,
+    "price": 190.58,
+    "date": "2026-09-23",
+    "time_et": "14:06",
+    "ts": 1790186807,
+    "why": "Momentum plus concrete FAA catalyst, not in cooling-off list",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "PLTR +4.07% today, 'Palantir Just Got a Major Vote of Confidence From the FAA', IBD flashes buy signal",
+    "entry_price": 190.54,
+    "sector": "defense",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 5.89,
+    "hour_et": 14,
+    "code_version": "4e656ef",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "RTX",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.292423,
+    "price": 194.32,
+    "date": "2026-09-23",
+    "time_et": "14:06",
+    "ts": 1790186807,
+    "why": "Defense sector diversification away from tech-heavy book, decent hit rate historically",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "RTX headline 'Is Lockheed Martin Entering a New Growth Cycle Through Missile Defense?' sector tailwind, defense hit_rate 0.71 per track record",
+    "entry_price": 194.24,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.46,
+    "hour_et": 14,
+    "code_version": "4e656ef",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
