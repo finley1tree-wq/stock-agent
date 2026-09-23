@@ -15718,3 +15718,5 @@ lesson: On a broadly red day (SPY -0.7%, most watchlist down 1-4%) with only ~1h
 portfolio: equity $32846.19 (+31.38% on $25000.00 in) · cash $30647.31 · realised +7847.31
 Decision: nothing at this check. 22 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% CCJ [time stop] -> $2194.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,18 +1,3 @@
-~ WORKING take_profit 100% TSM @ $449.66 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $435.09 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMZN @ $250.62 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AMZN @ $242.51 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $300.24 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $290.58 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AAPL @ $337.42 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AAPL @ $326.53 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32893.91 (+31.58% on $25000.00 in) · cash $15557.59 · realised +7904.91
-Done: 0 sell(s), 6 buy(s); 32 order(s) working; budget left $7659.52 this week
-  (dropped RTX: sold 13 min ago, cooling off)
-  (dropped RTX: sold 14 min ago, cooling off)
-  (dropped RTX: sold 15 min ago, cooling off)
-  (dropped RTX: sold 15 min ago, cooling off)
-  (dropped RTX: sold 16 min ago, cooling off)
 - SELL 100% AMAT [time stop] -> $2475.89 (-0.96%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (dropped RTX: sold 17 min ago, cooling off)
@@ -398,3 +383,18 @@ Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $17370.53 this week
 - SELL 100% NLR [time stop] -> $1991.06 (-0.45%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% LMT [time stop] -> $1395.99 (-0.29%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 14:53 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 14:55 ET (Wednesday) — week 2026-W39 — budget left $22749.24 (today $174445.75 put to work, 78 buys, 76 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 2 checks left today (14:55, market closes 16:00) and max_hold_minutes=30 means any new buy now would be force-closed near the close anyway, likely at a worse price given today's broad risk-off tape (SPY -0.72%, GOOGL -4.5%, AMZN -3.3%, most watchlist red). CCJ position already has a working stop_loss (88.70) and take_profit (91.91) bracket in place. Given the day's negative momentum across nearly every name and the short runway left, I'm not chasing new entries into a closing market; existing working buy_limits will only fill on a real dip which is fine to leave resting. Given the last several checks already churned through the cooldown roster with mixed/negative results (many just hit the 30-min time stop for losses), and today is broadly red, I'll sit this one out rather than force a low-quality entry into the close.
+lesson: On a broadly red day (SPY -0.7%, most watchlist down 1-4%) with only ~1hr left before close and a 30-min hard exit, new entries mostly get force-closed into weak momentum; better to protect existing CCJ position and let resting dip-buy_limits work rather than chase red names at 14:55.
+portfolio: equity $32846.19 (+31.38% on $25000.00 in) · cash $30647.31 · realised +7847.31
+Decision: nothing at this check. 22 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% CCJ [time stop] -> $2194.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
