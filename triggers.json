@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "578fb79e",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 194.6434,
-   "status": "cancelled",
-   "created": "2026-09-21 15:50",
-   "created_ts": 1790020220,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $194.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 15:52",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "138f20cf",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 188.3934,
-   "status": "cancelled",
-   "created": "2026-09-21 15:50",
-   "created_ts": 1790020220,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $194.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:50",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "b830cec0",
    "ticker": "UNH",
    "kind": "buy_limit",
@@ -7123,7 +7085,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 253.1849,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:25",
    "created_ts": 1790173556,
    "why": "close 100% at +0.6% over the average cost",
@@ -7133,7 +7095,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5a3af176",
@@ -7442,7 +7406,43 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "cde76b1d",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 264.3795,
+   "status": "cancelled",
+   "created": "2026-09-23 10:41",
+   "created_ts": 1790174518,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $251.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:42",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "dca257ff",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 253.1748,
+   "status": "working",
+   "created": "2026-09-23 10:42",
+   "created_ts": 1790174564,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $251.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-23 10:40"
+ "updated": "2026-09-23 10:42"
 }
