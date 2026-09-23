@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "3293214d",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 495.2566,
-   "status": "filled",
-   "created": "2026-09-22 10:26",
-   "created_ts": 1790087197,
-   "why": "strong month, weak day: resting 0.43% under $497.39 to catch the dip",
-   "evidence": "+2.9% over the month, sitting at 12% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 11:12"
-  },
-  {
-   "id": "955618c5",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 446.502,
-   "status": "cancelled",
-   "created": "2026-09-22 10:29",
-   "created_ts": 1790087378,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $446.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 10:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "da7eddf2",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 245.1322,
-   "status": "cancelled",
-   "created": "2026-09-22 10:42",
-   "created_ts": 1790088153,
-   "why": "strong month, weak day: resting 1.04% under $247.72 to catch the dip",
-   "evidence": "+29.1% over the month, sitting at 58% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "c136c6c6",
    "ticker": "TTD",
    "kind": "buy_limit",
@@ -6701,7 +6645,7 @@
    "ticker": "PLD",
    "kind": "buy_limit",
    "price": 134.8297,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 12:00",
    "created_ts": 1790179257,
    "why": "wanted it, but not at the high \u2014 resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off",
@@ -6712,7 +6656,8 @@
     "patience"
    ],
    "good_until": "2026-09-23",
-   "usd": 1846.15
+   "usd": 1846.15,
+   "closed": "2026-09-23 13:03"
   },
   {
    "id": "1dce473f",
@@ -7440,7 +7385,58 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "ea09670a",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 135.0848,
+   "status": "working",
+   "created": "2026-09-23 13:03",
+   "created_ts": 1790183039,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $134.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a7e6dddb",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 134.1923,
+   "status": "working",
+   "created": "2026-09-23 13:03",
+   "created_ts": 1790183039,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $134.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5a1b5795",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 130.7851,
+   "status": "working",
+   "created": "2026-09-23 13:03",
+   "created_ts": 1790183039,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $134.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 12:53"
+ "updated": "2026-09-23 13:03"
 }

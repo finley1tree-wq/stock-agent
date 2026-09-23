@@ -1,5 +1,3 @@
-  (dropped trigger HUBB take_profit: not held)
-  (dropped trigger LMT take_profit: not held)
   (dropped trigger TSM take_profit: not held)
 ~ WORKING buy_limit $2000.00 HUBB @ $458.15 until 2026-09-23 — wanted it, but not at the high — resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions
 ~ WORKING buy_limit $2000.00 LMT @ $529.82 until 2026-09-23 — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
@@ -398,3 +396,5 @@ portfolio: equity $32828.09 (+31.31% on $25000.00 in) · cash $21331.54 · reali
 Done: 0 sell(s), 3 buy(s); 22 order(s) working; budget left $13433.47 this week
 - SELL 100% NVDA [time stop] -> $999.34 (-0.07%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1846.15 PLD [buy_limit @ $134.83] — wanted it, but not at the high — resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off
+## 2026-09-23 13:03 ET — tick — 0 sell(s), 1 buy(s) from standing orders

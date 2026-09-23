@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-23T12:56-04:00",
+ "asOf": "2026-09-23T13:04-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,21 +139,37 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "998a7bac",
+   "id": "ea09670a",
    "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 134.8297,
-   "usd": 1846.15,
-   "pct_of_position": null,
+   "kind": "take_profit",
+   "price": 135.0848,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 135.11,
-   "pct_away": -0.21,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off",
+   "last": 134.91,
+   "pct_away": 0.13,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
-    "news",
-    "momentum",
-    "patience"
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bebb9224",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 262.1145,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 261.42,
+   "pct_away": 0.27,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -164,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 190.59,
-   "pct_away": 0.35,
+   "last": 190.62,
+   "pct_away": 0.33,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -181,14 +197,31 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 193.7,
-   "pct_away": -0.37,
+   "last": 193.64,
+   "pct_away": -0.34,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "a7e6dddb",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 134.1923,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 134.91,
+   "pct_away": -0.53,
+   "good_until": "2026-09-28",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -199,8 +232,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 468.61,
-   "pct_away": 0.39,
+   "last": 467.63,
+   "pct_away": 0.6,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -216,8 +249,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 498.69,
-   "pct_away": -0.52,
+   "last": 499.27,
+   "pct_away": -0.63,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
    "signals": [
@@ -233,47 +266,13 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 150.68,
-   "pct_away": -0.58,
+   "last": 150.79,
+   "pct_away": -0.66,
    "good_until": "2026-09-23",
    "why": "Tighten limit slightly to improve fill odds on top congress-pressure name",
    "signals": [
     "congress",
     "momentum"
-   ]
-  },
-  {
-   "id": "bebb9224",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 262.1145,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 260.52,
-   "pct_away": 0.61,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e9ad1b8b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 258.5,
-   "usd": 2300.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 260.52,
-   "pct_away": -0.78,
-   "good_until": "2026-09-23",
-   "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
-   "signals": [
-    "momentum",
-    "news"
    ]
   },
   {
@@ -284,13 +283,30 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 150.68,
-   "pct_away": -0.98,
+   "last": 150.79,
+   "pct_away": -1.05,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
    "signals": [
     "congress",
     "patience"
+   ]
+  },
+  {
+   "id": "e9ad1b8b",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 258.5,
+   "usd": 2300.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 261.42,
+   "pct_away": -1.12,
+   "good_until": "2026-09-23",
+   "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
+   "signals": [
+    "momentum",
+    "news"
    ]
   },
   {
@@ -301,47 +317,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 753.36,
-   "pct_away": -1.66,
+   "last": 751.51,
+   "pct_away": -1.42,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "f1217f2e",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 256.1329,
-   "usd": 2307.69,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 260.52,
-   "pct_away": -1.68,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $256.13. Strong intraday momentum with fresh bullish news catalyst, diversifies away from mega-cap tech already held",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "6c50d918",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 255.4,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 260.52,
-   "pct_away": -1.97,
-   "good_until": "2026-09-23",
-   "why": "Protective stop on new CRWD position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -352,26 +334,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 468.61,
-   "pct_away": -2.05,
+   "last": 467.63,
+   "pct_away": -1.85,
    "good_until": "2026-09-23",
    "why": "Protective stop on new AMAT position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "08c3f417",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 186.56,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 190.59,
-   "pct_away": -2.11,
-   "good_until": "2026-09-23",
-   "why": "Protective stop on new PLTR position",
    "signals": [
     "risk_management"
    ]
@@ -384,14 +350,64 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 468.25,
-   "pct_away": -2.16,
+   "last": 466.9,
+   "pct_away": -1.87,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
    "signals": [
     "congress",
     "momentum",
     "patience"
+   ]
+  },
+  {
+   "id": "f1217f2e",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 256.1329,
+   "usd": 2307.69,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 261.42,
+   "pct_away": -2.02,
+   "good_until": "2026-09-23",
+   "why": "wanted it, but not at the high \u2014 resting at $256.13. Strong intraday momentum with fresh bullish news catalyst, diversifies away from mega-cap tech already held",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "08c3f417",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 186.56,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 190.62,
+   "pct_away": -2.13,
+   "good_until": "2026-09-23",
+   "why": "Protective stop on new PLTR position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "6c50d918",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 255.4,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 261.42,
+   "pct_away": -2.3,
+   "good_until": "2026-09-23",
+   "why": "Protective stop on new CRWD position",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -402,31 +418,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 468.25,
-   "pct_away": -2.8,
+   "last": 466.9,
+   "pct_away": -2.52,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $455.13. Highest congress buy pressure score in list plus positive momentum",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "f1d2a291",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 252.8402,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 260.52,
-   "pct_away": -2.95,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -437,8 +436,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 468.61,
-   "pct_away": -3.04,
+   "last": 467.63,
+   "pct_away": -2.84,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5a1b5795",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 130.7851,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 134.91,
+   "pct_away": -3.06,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -454,8 +470,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 190.59,
-   "pct_away": -3.09,
+   "last": 190.62,
+   "pct_away": -3.11,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f1d2a291",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 252.8402,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 261.42,
+   "pct_away": -3.28,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
