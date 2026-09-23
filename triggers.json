@@ -7195,7 +7195,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 229.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:51",
    "created_ts": 1790185901,
    "why": "Protective stop for new IBM position",
@@ -7204,14 +7204,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 14:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "17ebd8a1",
    "ticker": "HD",
    "kind": "stop_loss",
    "price": 293.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:51",
    "created_ts": 1790185901,
    "why": "Protective stop for new HD position",
@@ -7220,7 +7222,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 14:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ddb9c92e",
@@ -7245,7 +7249,7 @@
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 236.3065,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:51",
    "created_ts": 1790185901,
    "why": "close 100% at +0.4% over the average cost",
@@ -7255,14 +7259,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 14:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7f04b0f0",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 228.4156,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:51",
    "created_ts": 1790185901,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7272,14 +7278,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 14:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "85ac78eb",
    "ticker": "HD",
    "kind": "take_profit",
    "price": 300.5558,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:51",
    "created_ts": 1790185901,
    "why": "close 100% at +0.2% over the average cost",
@@ -7289,14 +7297,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 14:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b0d812bc",
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 290.8933,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:51",
    "created_ts": 1790185901,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7306,7 +7316,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 14:21",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d49470d2",
