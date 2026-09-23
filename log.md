@@ -15233,3 +15233,6 @@ lesson: Congress-buy-pressure tickers (TTD, CHRW, HUBB) that are cooling off or 
 ~ WORKING buy_limit $1000.00 SPY @ $768.15 until 2026-09-24 — strong month, weak day: resting 0.20% under $769.69 to catch the dip
 portfolio: equity $32881.46 (+31.53% on $25000.00 in) · cash $12398.06 · realised +7898.06
 Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $4500.00 this week
+  (cancelled 2 standing order(s) on NLR: position closed)
+- SELL 100% NLR [take_profit @ $109.70] -> $3011.24 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-09-23 11:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
