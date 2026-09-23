@@ -1,10 +1,3 @@
-~ WORKING stop_loss 100% UNH @ $357.00 until 2026-09-23 — protective stop on new UNH buy
-~ WORKING stop_loss 100% CCJ @ $89.00 until 2026-09-23 — protective stop on new CCJ buy
-~ WORKING stop_loss 100% NEM @ $118.00 until 2026-09-23 — protective stop on new NEM buy
-~ WORKING take_profit 100% PLTR @ $190.96 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $184.42 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $236.65 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $228.76 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% UNH @ $368.87 until 2026-09-28 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 UNH @ $356.71 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% CCJ @ $92.60 until 2026-09-28 — close 100% at +0.4% over the average cost
@@ -398,3 +391,10 @@ lesson: Book already met min_positions with protective stops on every position -
 ~ WORKING buy_limit $2100.00 CHRW @ $149.80 until 2026-09-23 — Tighten limit slightly to improve fill odds on top congress-pressure name
 portfolio: equity $32852.24 (+31.41% on $25000.00 in) · cash $17842.64 · realised +7866.59
 Decision: nothing at this check. 35 standing order(s) working.
+- SELL 100% NOC [time stop] -> $2247.25 (+0.08%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% SKWD [time stop] -> $1792.18 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $2236.23 (-0.41%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $2233.14 (-0.55%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2245.04 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $2236.40 (-0.41%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 12:47 ET — tick — 6 sell(s), 0 buy(s) from standing orders
