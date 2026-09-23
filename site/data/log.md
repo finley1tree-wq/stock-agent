@@ -1,35 +1,3 @@
-  (dropped trigger TSM take_profit: not held)
-~ WORKING buy_limit $2000.00 HUBB @ $458.15 until 2026-09-23 — wanted it, but not at the high — resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions
-~ WORKING buy_limit $2000.00 LMT @ $529.82 until 2026-09-23 — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
-portfolio: equity $32871.70 (+31.49% on $25000.00 in) · cash $17924.43 · realised +7924.43
-Decision: nothing at this check. 19 standing order(s) working.
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $92.60] -> $2007.93 (+0.40%) — close 100% at +0.4% over the average cost
-## 2026-09-23 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $1000.00 AAPL [buy_limit @ $336.98] — strong month, weak day: resting 0.43% under $338.44 to catch the dip
-## 2026-09-23 10:16 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBP: position closed)
-- SELL 100% IBP [take_profit @ $209.36] -> $2010.43 (+0.52%) — close 100% at +0.5% over the average cost
-## 2026-09-23 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% MSFT [time stop] -> $2958.84 (-1.37%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AVGO [time stop] -> $2483.88 (-0.64%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 10:18 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 10:25 ET (Wednesday) — week 2026-W39 — budget left $18522.75 (today $47206.13 put to work, 21 buys, 18 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
-  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
-brain: Below min_positions (2 of 8) with 74% idle cash - deploying into TSM, CRWD, O, PLD, HD, AMZN to reach 8 positions across widely_held/real_estate sectors, using concrete headline and momentum evidence, each with an ATR-based stop. Skipped GOOGL/IBM/NOC/MSFT/AVGO due to active cooldowns from earlier sells today.
-lesson: Check cooling_off_minutes_left before drafting orders for specific tickers to avoid wasted candidate slots; build the order list only from names actually eligible.
-  (dropped GOOGL: sold 30 min ago, cooling off)
-  (dropped IBM: sold 15 min ago, cooling off)
-  (dropped NOC: sold 31 min ago, cooling off)
-- BUY $2500.00 TSM [filled] ['momentum', 'news', 'track_record'] — cooldown expired soon-ish? actually check cooling list - not in cooling_off, reintroduce widely_held exposure | evidence: TSM +7.48% 5d, widely_held sector avg_ret 4.36% best signal bucket in track record, Zacks bullish note 2026-09-23
-- BUY $2500.00 CRWD [filled] ['news', 'congress', 'momentum'] — strong news catalyst plus congress buy pressure, not in cooldown | evidence: Jim Cramer 'must buy' headline 2026-09-23, Cisneros disclosed buy 2026-09-10/04, +31% 1m momentum
-- BUY $2000.00 O [filled] ['news', 'momentum'] — real estate diversification with strong historical hit rate | evidence: Realty Income outperformed S&P in 11 of 13 corrections since 1994 per Motley Fool 2026-09-22, real estate sector 100% hit rate in track record (n=3)
-- BUY $2000.00 PLD [filled] ['news', 'momentum'] — real estate diversification, data center demand tailwind | evidence: Prologis leasing surge data center growth outlook MarketBeat 2026-09-20, real estate sector 100% hit rate track record
 - BUY $2000.00 HD [filled] ['momentum', 'news'] — widely_held sector best avg_ret 4.36% in track record, diversifies book | evidence: HD +0.91% today, TP-Link Tapo smart home deal headline 2026-09-22
 - BUY $2000.00 AMZN [filled] ['momentum', 'news'] — buying widely_held name on a dip in range | evidence: AMZN -3.74% today pulled back to 10.7% of day range, Muse AI competitive dynamics headline, widely_held sector strongest track record bucket
 ~ WORKING stop_loss 100% TSM @ $435.80 until 2026-09-23 — protective stop on new TSM position
@@ -398,3 +366,35 @@ Done: 0 sell(s), 3 buy(s); 22 order(s) working; budget left $13433.47 this week
 ## 2026-09-23 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1846.15 PLD [buy_limit @ $134.83] — wanted it, but not at the high — resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off
 ## 2026-09-23 13:03 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-23 13:09 ET (Wednesday) — week 2026-W39 — budget left $12586.66 (today $135945.75 put to work, 59 buys, 54 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (4 of 8) with 50% cash idle - deploying into 5 fresh diversified names (defense/congress via HUBB, nuclear via CCJ, widely-held via IBM, gold via NEM, real estate via O) at reasonable day-range levels, each backed by concrete evidence and protected with a stop. This brings book to 9 positions, spreads sector risk, and follows track-record signal that widely_held and nuclear sectors have the best historical hit rates while congress-pressure names (HUBB) have shown edge.
+lesson: Fresh market buys sized $1.6-2.2k across distinct sectors (not just tech) with immediate stops is the consistent winning pattern per past_lessons_with_outcome; keep screening cooling_off list first and avoid overloading tech/momentum names already held.
+  (dropped IBM: sold 22 min ago, cooling off)
+- BUY $2200.00 HUBB [filled] ['congress', 'momentum'] — Top congress-pressure name in allowed list, not cooling off, add at market since resting limits below have not filled | evidence: congress_net_buy_pressure HUBB=3.0 (April McClain Delaney disclosed buy 2026-09-09), price 467.67 mid-range (84.8% of day) but data-center demand headline 'Bull Case For Hubbell Could Change Following
+- BUY $2000.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has strongest hit-rate in track record (96%), diversifies away from tech-heavy book | evidence: CCJ price 91.63, 5d momentum flat but nuclear sector avg_ret_pct 0.21% hit_rate 0.96 in track_record by_sector, headline 'Cameco And 2 Canadian Nuclear Stocks To Watch'
+- BUY $1800.00 NEM [filled] ['momentum', 'news'] — Gold sector diversifier, name not cooling off, positive day momentum | evidence: NEM +0.11% today, pct_of_day_range 67.2%, headline 'Can Newmont's Record Free Cash Flow Momentum Carry Into Q3?'
+- BUY $1600.00 O [filled] ['news', 'momentum'] — Real estate diversifier with bullish analyst call, reasonable entry point in day range | evidence: headline 'Realty Income Falls for 3 Months: Two Wall Street Pros Say Near 30% Gains Lie Ahead', real_estate sector, price 55.67 mid-range 44.1%
+  (dropped trigger IBM stop_loss: not held)
+~ WORKING stop_loss 100% HUBB @ $454.00 until 2026-09-23 — Protective stop on new HUBB position
+~ WORKING stop_loss 100% CCJ @ $88.90 until 2026-09-23 — Protective stop on new CCJ position
+~ WORKING stop_loss 100% NEM @ $119.50 until 2026-09-23 — Protective stop on new NEM position
+~ WORKING stop_loss 100% O @ $54.00 until 2026-09-23 — Protective stop on new O position
+~ WORKING take_profit 100% HUBB @ $469.21 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $453.82 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $92.03 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $88.92 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $123.70 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.54 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% O @ $55.80 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 O @ $54.02 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $335.88 until 2026-09-24 — strong month, weak day: resting 0.44% under $337.36 to catch the dip
+~ WORKING buy_limit $1000.00 TSM @ $441.93 until 2026-09-24 — strong month, weak day: resting 0.47% under $444.00 to catch the dip
+portfolio: equity $32838.30 (+31.35% on $25000.00 in) · cash $12884.73 · realised +7830.88
+Done: 0 sell(s), 4 buy(s); 35 order(s) working; budget left $4986.66 this week
