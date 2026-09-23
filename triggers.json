@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "9705c115",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 365.7773,
-   "status": "cancelled",
-   "created": "2026-09-21 15:50",
-   "created_ts": 1790020255,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $377.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:51",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "670a84ee",
    "ticker": "NOC",
    "kind": "buy_limit",
@@ -7424,7 +7405,7 @@
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 526.3709,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:48",
    "created_ts": 1790174896,
    "why": "close it all at -0.7% under the average cost",
@@ -7434,7 +7415,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:54",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2c659b20",
@@ -7452,7 +7435,24 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "cdedd5a1",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 530.324,
+   "status": "working",
+   "created": "2026-09-23 10:54",
+   "created_ts": 1790175276,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $529.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-23 10:53"
+ "updated": "2026-09-23 10:54"
 }
