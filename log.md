@@ -15161,3 +15161,46 @@ Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week
   (cancelled 2 standing order(s) on GLD: position closed)
 - SELL 100% GLD [take_profit @ $393.65] -> $2204.54 (+0.21%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 10:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [stop_loss @ $530.06] -> $2000.92 (+0.05%) — close it all at -0.7% under the average cost
+- SELL 100% O [time stop] -> $1988.35 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLD [time stop] -> $1993.66 (-0.32%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HD [time stop] -> $2000.73 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 10:55 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:56 ET (Wednesday) — week 2026-W39 — budget left $25000.00 (today $64406.13 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+brain: Below min_positions with 100% idle cash despite $25k weekly budget available - the dominant instruction here is to deploy now. I picked 6 eligible (non-cooling-off) names spanning widely_held (best historical sector avg_ret 4.32%), defense, and nuclear (92% hit rate historically), each backed by a concrete headline or day-range entry point, skipping CCJ/TSM/AVGO which are cooling off. Left the existing working buy_limit orders (RTX, CHRW, HUBB, NVDA, META, AMD) in place to catch dips, and added fresh stops on each new position for risk management.
+lesson: When below min_positions and 100% idle with multiple eligible tickers, deploy across sectors immediately using day-range position and fresh headlines as evidence rather than waiting on limits, while explicitly excluding cooling-off names first.
+  (dropped AMZN: sold 9 min ago, cooling off)
+  (dropped CCJ: sold 42 min ago, cooling off)
+  (dropped TSM: sold 20 min ago, cooling off)
+  (dropped AVGO: sold 39 min ago, cooling off)
+- BUY $3000.00 IBM [filled] ['news', 'momentum'] — Widely_held sector has best track record avg_ret 4.32%; IBM has fresh positive news and room in day range, not cooling off | evidence: IBM +1.72% today, headline 'IBM's Gary Cohn on AI's productivity boom' 2026-09-23, 59.5% of day range - not chasing
+- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Widely_held sector, deep pullback puts it at bottom of day range, good entry for mean reversion | evidence: GOOGL -3.54% today, 23% of day range - lowest in range among mega caps, Pete Sessions and Thomas Kean both disclosed sells but that's already priced
+- BUY $3000.00 NOC [filled] ['news', 'momentum'] — Defense sector news catalyst, reasonable entry point in day range, diversifies away from tech | evidence: Headline 'US Running Low on the 2 Weapons It Would Need Most' 2026-09-23, defense demand theme; NOC 59.7% of day range
+- BUY $3000.00 UNH [filled] ['momentum', 'news'] — Healthcare diversification, discount narrative supports entry despite high range position | evidence: UNH -1.62% today at 82.5% of range but headline 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' suggests value entry
+- BUY $3000.00 NLR [filled] ['news', 'momentum'] — Nuclear sector has 92% hit rate historically per track_record by_sector, low in day range for entry | evidence: Headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks 2026-09-22, NLR 32.7% of day range
+  (dropped trigger AMZN stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $230.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% GOOGL @ $334.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% NOC @ $503.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% UNH @ $362.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% NLR @ $106.50 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING take_profit 100% IBM @ $236.81 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $228.90 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $343.44 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $332.20 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $517.98 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $501.19 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $372.65 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $360.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NLR @ $109.70 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $106.01 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32892.07 (+31.57% on $25000.00 in) · cash $17898.06 · realised +7898.06
+Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $10000.00 this week

@@ -1,46 +1,3 @@
-  (dropped AVGO: 97% up today's range — resting a limit at $362.36 instead of chasing)
-  (dropped TSM: 96% up today's range — resting a limit at $446.08 instead of chasing)
-  (dropped AMAT: 89% up today's range — resting a limit at $463.50 instead of chasing)
-- BUY $3500.00 META [filled] ['news', 'momentum'] — strongest news-driven momentum in widely_held sector, best signal in ranking (news avg_ret 11.25%) | evidence: headline 'Why Muse just added billions to Meta's market cap' and 'Meta stock jumps as Wells Fargo raises price target', +34.47% 1m
-  (dropped trigger AMD stop_loss: not held)
-  (dropped trigger AVGO stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger AMAT stop_loss: not held)
-  (dropped trigger CCJ stop_loss: not held)
-~ WORKING stop_loss 100% META @ $712.00 until 2026-09-22 — protect against reversal
-~ WORKING buy_limit $3500.00 AMD @ $614.94 until 2026-09-22 — wanted it, but not at the high — resting at $614.94. strongest momentum name in AI chip rally, widely_held sector has best avg_ret 4.86%
-~ WORKING buy_limit $3000.00 AVGO @ $362.36 until 2026-09-22 — wanted it, but not at the high — resting at $362.36. broadcom riding AI capex theme with strong week momentum
-~ WORKING buy_limit $3000.00 TSM @ $446.08 until 2026-09-22 — wanted it, but not at the high — resting at $446.08. chip supply chain leader, strong capex news catalyst
-~ WORKING buy_limit $2500.00 AMAT @ $463.50 until 2026-09-22 — wanted it, but not at the high — resting at $463.50. congress buy pressure plus semiconductor equipment momentum
-~ WORKING take_profit 100% META @ $742.61 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 META @ $717.40 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32830.16 (+31.32% on $25000.00 in) · cash $29330.86 · realised +7830.86
-Done: 0 sell(s), 1 buy(s); 20 order(s) working; budget left $21468.10 this week
-- SELL 100% META [time stop] -> $3493.58 (-0.18%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-22 15:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (dropped META: sold 1 min ago, cooling off)
-
-## 2026-09-22 15:09 ET (Tuesday) — week 2026-W39 — budget left $24961.68 (today $159701.34 put to work, 69 buys, 66 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (dropped META: sold 1 min ago, cooling off)
-brain: This is the last check of the day (checks_left_today=1) with 99.8% cash idle and 0 positions - a clear case where sitting out costs more than acting, per repeated counterfactual evidence (idle_universe_avg_pct positive, avg_regret negative meaning picking beats random). I'm deploying the full remaining budget across 6 widely_held/nuclear names with concrete news/momentum evidence, buying at market since resting limits keep expiring unfilled with only one check left, and pairing every buy with a protective stop given entries are high in the day's range.
-lesson: On the last check of the day with idle cash, buy at market with protective stops rather than resting limits that won't have time to fill before the session ends.
-  (dropped NVDA: 89% up today's range — resting a limit at $228.41 instead of chasing)
-  (dropped AMD: 93% up today's range — resting a limit at $614.94 instead of chasing)
-  (dropped AVGO: 98% up today's range — resting a limit at $362.53 instead of chasing)
-  (dropped TSM: 97% up today's range — resting a limit at $446.97 instead of chasing)
-  (dropped AMAT: 93% up today's range — resting a limit at $463.50 instead of chasing)
-- BUY $3960.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has 90% hit rate historically, Westinghouse IPO catalyst news, cooling off ended | evidence: CCJ +3.79% 5d, 'Westinghouse Could IPO at $50 Billion Valuation, Cameco stake worth $24.5B' 9/21 headline, nuclear sector 90% hit_rate in track record
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger AMD stop_loss: not held)
-  (dropped trigger AVGO stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
   (dropped trigger AMAT stop_loss: not held)
   (dropped trigger NVDA buy_limit: duplicate of a working order)
   (dropped trigger AMD buy_limit: duplicate of a working order)
@@ -398,3 +355,46 @@ Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week
   (cancelled 2 standing order(s) on GLD: position closed)
 - SELL 100% GLD [take_profit @ $393.65] -> $2204.54 (+0.21%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 10:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [stop_loss @ $530.06] -> $2000.92 (+0.05%) — close it all at -0.7% under the average cost
+- SELL 100% O [time stop] -> $1988.35 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLD [time stop] -> $1993.66 (-0.32%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HD [time stop] -> $2000.73 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 10:55 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:56 ET (Wednesday) — week 2026-W39 — budget left $25000.00 (today $64406.13 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+brain: Below min_positions with 100% idle cash despite $25k weekly budget available - the dominant instruction here is to deploy now. I picked 6 eligible (non-cooling-off) names spanning widely_held (best historical sector avg_ret 4.32%), defense, and nuclear (92% hit rate historically), each backed by a concrete headline or day-range entry point, skipping CCJ/TSM/AVGO which are cooling off. Left the existing working buy_limit orders (RTX, CHRW, HUBB, NVDA, META, AMD) in place to catch dips, and added fresh stops on each new position for risk management.
+lesson: When below min_positions and 100% idle with multiple eligible tickers, deploy across sectors immediately using day-range position and fresh headlines as evidence rather than waiting on limits, while explicitly excluding cooling-off names first.
+  (dropped AMZN: sold 9 min ago, cooling off)
+  (dropped CCJ: sold 42 min ago, cooling off)
+  (dropped TSM: sold 20 min ago, cooling off)
+  (dropped AVGO: sold 39 min ago, cooling off)
+- BUY $3000.00 IBM [filled] ['news', 'momentum'] — Widely_held sector has best track record avg_ret 4.32%; IBM has fresh positive news and room in day range, not cooling off | evidence: IBM +1.72% today, headline 'IBM's Gary Cohn on AI's productivity boom' 2026-09-23, 59.5% of day range - not chasing
+- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Widely_held sector, deep pullback puts it at bottom of day range, good entry for mean reversion | evidence: GOOGL -3.54% today, 23% of day range - lowest in range among mega caps, Pete Sessions and Thomas Kean both disclosed sells but that's already priced
+- BUY $3000.00 NOC [filled] ['news', 'momentum'] — Defense sector news catalyst, reasonable entry point in day range, diversifies away from tech | evidence: Headline 'US Running Low on the 2 Weapons It Would Need Most' 2026-09-23, defense demand theme; NOC 59.7% of day range
+- BUY $3000.00 UNH [filled] ['momentum', 'news'] — Healthcare diversification, discount narrative supports entry despite high range position | evidence: UNH -1.62% today at 82.5% of range but headline 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' suggests value entry
+- BUY $3000.00 NLR [filled] ['news', 'momentum'] — Nuclear sector has 92% hit rate historically per track_record by_sector, low in day range for entry | evidence: Headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks 2026-09-22, NLR 32.7% of day range
+  (dropped trigger AMZN stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $230.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% GOOGL @ $334.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% NOC @ $503.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% UNH @ $362.00 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% NLR @ $106.50 until 2026-09-23 — protective stop ~2.5% below entry
+~ WORKING take_profit 100% IBM @ $236.81 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $228.90 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $343.44 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $332.20 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $517.98 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $501.19 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $372.65 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $360.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NLR @ $109.70 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $106.01 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32892.07 (+31.57% on $25000.00 in) · cash $17898.06 · realised +7898.06
+Done: 0 sell(s), 5 buy(s); 22 order(s) working; budget left $10000.00 this week
