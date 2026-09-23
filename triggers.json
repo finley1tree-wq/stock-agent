@@ -1,117 +1,6 @@
 {
  "orders": [
   {
-   "id": "84b423f0",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 94.8184,
-   "status": "filled",
-   "created": "2026-09-22 13:29",
-   "created_ts": 1790098168,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $94.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 13:54"
-  },
-  {
-   "id": "051259d0",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.6165,
-   "status": "cancelled",
-   "created": "2026-09-22 13:29",
-   "created_ts": 1790098168,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 13:54",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3f9d3a83",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 222.4,
-   "status": "cancelled",
-   "created": "2026-09-22 13:35",
-   "created_ts": 1790098546,
-   "why": "Protective stop on new NVDA buy",
-   "evidence": "ATR 2.579%, protect new position ~3% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 14:06",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "cc616c6d",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 229.9959,
-   "status": "cancelled",
-   "created": "2026-09-22 13:35",
-   "created_ts": 1790098546,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $229.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 14:06",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "cdd18b2f",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 222.4598,
-   "status": "cancelled",
-   "created": "2026-09-22 13:35",
-   "created_ts": 1790098546,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $229.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 14:06",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4f2e5d4b",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 150.1346,
-   "status": "filled",
-   "created": "2026-09-22 13:35",
-   "created_ts": 1790098546,
-   "why": "strong month, weak day: resting 0.51% under $150.91 to catch the dip",
-   "evidence": "+6.5% over the month, sitting at 14% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 14:06"
-  },
-  {
    "id": "69f9ab00",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -6708,7 +6597,7 @@
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 193.3933,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 15:27",
    "created_ts": 1790191631,
    "why": "close 100% at +0.2% over the average cost",
@@ -6718,7 +6607,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 15:42",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "81e519ae",
@@ -7445,9 +7336,104 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 145.306,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 15:42",
    "created_ts": 1790192526,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:42",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "1a7ac8a7",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "cancelled",
+   "created": "2026-09-23 15:42",
+   "created_ts": 1790192526,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:42",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "9df48968",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 145.306,
+   "status": "cancelled",
+   "created": "2026-09-23 15:42",
+   "created_ts": 1790192566,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "3323ae9e",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 202.6395,
+   "status": "cancelled",
+   "created": "2026-09-23 15:42",
+   "created_ts": 1790192566,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 15:43",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "f1a22225",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "cancelled",
+   "created": "2026-09-23 15:42",
+   "created_ts": 1790192566,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "740d9d8a",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 145.306,
+   "status": "working",
+   "created": "2026-09-23 15:43",
+   "created_ts": 1790192612,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $149.8",
    "signals": [
@@ -7458,13 +7444,30 @@
    "usd": 500.0
   },
   {
-   "id": "1a7ac8a7",
+   "id": "d9f85906",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 193.3933,
+   "status": "working",
+   "created": "2026-09-23 15:43",
+   "created_ts": 1790192612,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6f092911",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 187.2003,
    "status": "working",
-   "created": "2026-09-23 15:42",
-   "created_ts": 1790192526,
+   "created": "2026-09-23 15:43",
+   "created_ts": 1790192612,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $192.99",
    "signals": [
@@ -7475,5 +7478,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-23 15:42"
+ "updated": "2026-09-23 15:43"
 }
