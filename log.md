@@ -14888,3 +14888,44 @@ portfolio: equity $32830.06 (+31.32% on $25000.00 in) · cash $32830.06 · reali
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-22 16:00 ET — published the session's closing state
+
+## 2026-09-23 09:32 ET (Wednesday) — week 2026-W39 — budget left $24967.29 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
+brain: Book is completely flat with 99.9% idle cash - this is the dominant problem per counterfactual_learning (idle_share 0.57, idle_universe_avg_pct positive). Deploying across 8 widely_held/tech momentum names backed by concrete headlines and congressional disclosures, sized $3-4k each per full_deployment instructions to concentrate in max 6-8 highest conviction ideas. Each position gets a protective stop per risk_management (best-performing signal bucket, 3.6% avg_ret, 86% hit rate).
+lesson: Do not sit at 99.9% idle cash for even one check when below min_positions - deploy immediately across best-evidenced names with protective stops rather than waiting.
+  (dropped MSFT: sector widely_held at its 50% cap ($0.00))
+  (dropped CRWD: 93% up today's range — resting a limit at $250.65 instead of chasing)
+  (dropped GOOGL: sector widely_held at its 50% cap ($0.00))
+- BUY $3555.56 META [filled] ['news', 'momentum'] — Strongest widely_held momentum name with fresh catalyst headline, sector avg_ret_pct 4.84% best of all sectors | evidence: Meta's Muse AI: 'Meta has enormous advantage in rally sparked by new Muse AI', stock +11.23% 5d, +35.57% 1m
+- BUY $3555.56 AMD [filled] ['momentum', 'news'] — Top momentum name in widely_held sector, but entering low in day range (10.5% of range) avoiding chase | evidence: AMD +22.57% 5d, +30.58% 1m, headline 'AMD Is Up 293% in a Year and Still Climbing'
+- BUY $3111.11 NVDA [filled] ['momentum', 'news'] — AI momentum leader, 47% of day range so reasonable entry | evidence: NVDA +7.51% 5d, headline 'Nasdaq climbs to record high off the back of revived AI trade'
+- BUY $2150.56 TSM [filled] ['momentum', 'news'] — Semis momentum continuing, only 27% of day range | evidence: TSM +8.56% 5d, headline 'TSMC's A14 Gains Customer Traction Ahead of 2028 Volume Production'
+- BUY $2666.67 AMAT [filled] ['congress', 'momentum'] — Strong 5d momentum plus congressional buying pressure | evidence: Rep. Josh Gottheimer disclosed AMAT buy 2026-08-06; AMAT +11.17% 5d
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% META @ $730.00 until 2026-09-23 — Protective stop ~2% below entry
+~ WORKING stop_loss 100% AMD @ $600.00 until 2026-09-23 — Protective stop ~3% below entry
+~ WORKING stop_loss 100% NVDA @ $222.00 until 2026-09-23 — Protective stop ~2.7% below entry
+~ WORKING stop_loss 100% TSM @ $439.00 until 2026-09-23 — Protective stop ~2.3% below entry
+~ WORKING stop_loss 100% AMAT @ $455.00 until 2026-09-23 — Protective stop ~2.8% below entry
+~ WORKING buy_limit $2666.67 CRWD @ $250.65 until 2026-09-23 — wanted it, but not at the high — resting at $250.65. Congress buy pressure plus bullish security-AI news
+~ WORKING take_profit 100% META @ $748.56 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 META @ $723.31 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $620.87 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $599.57 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $228.80 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $221.32 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $450.34 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $435.78 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMAT @ $470.31 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AMAT @ $454.27 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CHRW @ $149.00 until 2026-09-24 — strong month, weak day: resting 0.51% under $149.77 to catch the dip
+~ WORKING buy_limit $1000.00 GOOGL @ $346.79 until 2026-09-24 — strong month, weak day: resting 0.49% under $348.48 to catch the dip
+~ WORKING buy_limit $1000.00 SPY @ $771.24 until 2026-09-24 — strong month, weak day: resting 0.20% under $772.79 to catch the dip
+portfolio: equity $32827.05 (+31.31% on $25000.00 in) · cash $17790.60 · realised +7830.06
+Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $9927.83 this week
