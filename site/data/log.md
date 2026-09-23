@@ -1,5 +1,3 @@
-~ WORKING stop_loss 100% IBM @ $228.50 until 2026-09-23 — protective stop on IBM entry
-~ WORKING stop_loss 100% GOOGL @ $330.50 until 2026-09-23 — protective stop on GOOGL entry
 ~ WORKING stop_loss 100% UNH @ $360.00 until 2026-09-23 — protective stop on UNH entry
 ~ WORKING stop_loss 100% AMD @ $598.00 until 2026-09-23 — protective stop on AMD entry
 ~ WORKING take_profit 100% NOC @ $515.91 until 2026-09-28 — close 100% at +0.3% over the average cost
@@ -398,3 +396,5 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% CHRW [time stop] -> $2098.32 (-0.08%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 15:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
