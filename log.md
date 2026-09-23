@@ -15158,3 +15158,6 @@ Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week
 - SELL 100% AMZN [take_profit @ $249.45] -> $2004.90 (+0.25%) — close 100% at +0.2% over the average cost
 - BUY $2000.00 LMT [buy_limit @ $529.82] — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
 ## 2026-09-23 10:48 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GLD: position closed)
+- SELL 100% GLD [take_profit @ $393.65] -> $2204.54 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-09-23 10:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders

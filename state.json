@@ -1,11 +1,10 @@
 {
   "week": "2026-W39",
-  "spent": 10152.89,
+  "spent": 7948.35,
   "deployed": 349402.24,
   "by_ticker": {
     "NOC": 30.92,
     "IBM": 22.77,
-    "GLD": 2204.3,
     "AMD": 6.41,
     "PLTR": 7.88,
     "MSFT": 47.41,
@@ -5788,13 +5787,34 @@
       ],
       "evidence": "'US Running Low on the 2 Weapons It Would Need Most' headline 2026-09-23, day_high 534.93 near top of range showing strength, defense sector JATM contract news",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "qty": 5.600265,
+      "status": "filled",
+      "price": 393.65,
+      "proceeds": 2204.54,
+      "realized_pnl": 4.54,
+      "realized_pct": 0.21,
+      "date": "2026-09-23",
+      "time_et": "10:53",
+      "ts": 1790175000,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $392.84",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 10120.18,
+  "spent_today": 7915.64,
   "deployed_today": 64406.13,
   "orders_today": 29,
-  "sells_today": 23,
+  "sells_today": 24,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -5816,7 +5836,8 @@
     "AVGO",
     "AAPL",
     "PLTR",
-    "AMZN"
+    "AMZN",
+    "GLD"
   ],
   "sold_ts": {
     "AMAT": 1790170515,
@@ -5838,7 +5859,7 @@
     "IBM": 1790172680,
     "META": 1790170644,
     "GOOGL": 1790171758,
-    "GLD": 1790087064,
+    "GLD": 1790175194,
     "AAPL": 1790173991,
     "HLI": 1790085321,
     "CRWD": 1790174725,
@@ -5849,18 +5870,17 @@
     "NEM": 1790172517,
     "SPY": 1790172882
   },
-  "last_publish_ts": 1790174896,
-  "last_check_ts": 1790175154,
+  "last_publish_ts": 1790175192,
+  "last_check_ts": 1790175239,
   "last_bar_ts": 1790175000,
   "last_decision_ts": 1790174459,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "b7c65a40": 300.6159,
-    "47267323": 393.6493,
     "a414afaf": 531.1975,
-    "9d64de1c": 192.9905,
     "ac7b3ceb": 135.3253,
+    "9d64de1c": 192.9905,
     "81fca63e": 55.7802,
     "37e5fa04": 526.3709,
     "7f8cd152": 224.4534,
@@ -5868,15 +5888,13 @@
     "ef0c7f59": 458.1465,
     "e187e6f8": 740.849,
     "b06ffd3d": 604.1277,
+    "e4ee72c4": 54.65,
     "e21f9d51": 455.1325,
     "a0303c99": 132.7,
-    "e4ee72c4": 54.65,
-    "93db7795": 386.9,
     "77a7ee7e": 293.9,
     "37d19b03": 53.9999,
     "bc9e72d6": 131.0179,
-    "2c659b20": 513.9254,
-    "68a827ec": 381.0548,
-    "6bca1415": 290.9515
+    "6bca1415": 290.9515,
+    "2c659b20": 513.9254
   }
 }
