@@ -1,6 +1,3 @@
-- SELL 100% GOOGL [take_profit @ $351.95] -> $2506.82 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-09-22 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% AVGO [time stop] -> $2004.98 (+0.25%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 13:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-22 13:29 ET (Tuesday) — week 2026-W39 — budget left $21936.02 (today $132938.18 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
@@ -397,4 +394,7 @@ Done: 0 sell(s), 5 buy(s); 25 order(s) working; budget left $10536.69 this week
 ## 2026-09-23 09:48 ET — tick — 1 sell(s), 1 buy(s) from standing orders
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $513.73] -> $2506.28 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-09-23 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $344.33] -> $992.90 (-0.71%) — close it all at -0.7% under the average cost
 ## 2026-09-23 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
