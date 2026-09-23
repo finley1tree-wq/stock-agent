@@ -15701,3 +15701,7 @@ lesson: PLTR was in cooling_off (42 min) - always double check cooling_off_minut
 ~ WORKING buy_limit $1000.00 TSM @ $444.01 until 2026-09-24 — strong month, weak day: resting 0.46% under $446.08 to catch the dip
 portfolio: equity $32852.46 (+31.41% on $25000.00 in) · cash $25268.60 · realised +7868.60
 Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $17370.53 this week
+- SELL 100% SKWD [time stop] -> $1991.66 (-0.42%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NLR [time stop] -> $1991.06 (-0.45%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LMT [time stop] -> $1395.99 (-0.29%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 14:53 ET — tick — 3 sell(s), 0 buy(s) from standing orders
