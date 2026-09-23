@@ -15574,3 +15574,6 @@ lesson: At 91.9% idle cash with only 1 of 8 target positions, deploy directly in
 ~ WORKING buy_limit $1000.00 SPY @ $765.88 until 2026-09-24 — strong month, weak day: resting 0.20% under $767.41 to catch the dip
 portfolio: equity $32860.26 (+31.44% on $25000.00 in) · cash $17372.87 · realised +7872.87
 Done: 0 sell(s), 6 buy(s); 35 order(s) working; budget left $9474.81 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $339.12] -> $3008.75 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-23 13:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders

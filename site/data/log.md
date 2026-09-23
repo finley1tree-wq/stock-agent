@@ -1,6 +1,3 @@
-  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
-brain: Below min_positions with 100% idle cash despite $25k weekly budget available - the dominant instruction here is to deploy now. I picked 6 eligible (non-cooling-off) names spanning widely_held (best historical sector avg_ret 4.32%), defense, and nuclear (92% hit rate historically), each backed by a concrete headline or day-range entry point, skipping CCJ/TSM/AVGO which are cooling off. Left the existing working buy_limit orders (RTX, CHRW, HUBB, NVDA, META, AMD) in place to catch dips, and added fresh stops on each new position for risk management.
-lesson: When below min_positions and 100% idle with multiple eligible tickers, deploy across sectors immediately using day-range position and fresh headlines as evidence rather than waiting on limits, while explicitly excluding cooling-off names first.
   (dropped AMZN: sold 9 min ago, cooling off)
   (dropped CCJ: sold 42 min ago, cooling off)
   (dropped TSM: sold 20 min ago, cooling off)
@@ -398,3 +395,6 @@ lesson: At 91.9% idle cash with only 1 of 8 target positions, deploy directly in
 ~ WORKING buy_limit $1000.00 SPY @ $765.88 until 2026-09-24 — strong month, weak day: resting 0.20% under $767.41 to catch the dip
 portfolio: equity $32860.26 (+31.44% on $25000.00 in) · cash $17372.87 · realised +7872.87
 Done: 0 sell(s), 6 buy(s); 35 order(s) working; budget left $9474.81 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $339.12] -> $3008.75 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-23 13:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
