@@ -15720,3 +15720,5 @@ Decision: nothing at this check. 22 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% CCJ [time stop] -> $2194.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2100.00 CHRW [buy_limit @ $149.80] — Tighten limit slightly to improve fill odds on top congress-pressure name
+## 2026-09-23 15:22 ET — tick — 0 sell(s), 1 buy(s) from standing orders

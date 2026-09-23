@@ -1,5 +1,3 @@
-- SELL 100% AMAT [time stop] -> $2475.89 (-0.96%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 11:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (dropped RTX: sold 17 min ago, cooling off)
 
 ## 2026-09-23 12:00 ET (Wednesday) — week 2026-W39 — budget left $10135.41 (today $104753.45 put to work, 45 buys, 38 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ Decision: nothing at this check. 22 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% CCJ [time stop] -> $2194.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2100.00 CHRW [buy_limit @ $149.80] — Tighten limit slightly to improve fill odds on top congress-pressure name
+## 2026-09-23 15:22 ET — tick — 0 sell(s), 1 buy(s) from standing orders

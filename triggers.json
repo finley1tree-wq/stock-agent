@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "be60f954",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 605.0,
-   "status": "cancelled",
-   "created": "2026-09-22 11:54",
-   "created_ts": 1790092449,
-   "why": "Tighten protective stop below existing bracket to bound downside on fresh position",
-   "evidence": "AMD -0.21% unrealized, ATR 4.1%, new position 10 min old",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7faaf60c",
-   "ticker": "CCJ",
-   "kind": "trailing_stop",
-   "price": 93.4075,
-   "status": "cancelled",
-   "created": "2026-09-22 11:54",
-   "created_ts": 1790092449,
-   "why": "Lock in gains on CCJ if it reverses after today's nuclear-sector strength (Westinghouse IPO headlines)",
-   "evidence": "CCJ +1.28% today, near day high 79% of range",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 50.0,
-   "trail_pct": 1.5,
-   "high_water": 94.8299,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "83a4b0c3",
-   "ticker": "IBP",
-   "kind": "buy_limit",
-   "price": 203.5448,
-   "status": "cancelled",
-   "created": "2026-09-22 11:54",
-   "created_ts": 1790092449,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $209.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ce6bf34b",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -5935,7 +5878,7 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 149.8,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 12:33",
    "created_ts": 1790181197,
    "why": "Tighten limit slightly to improve fill odds on top congress-pressure name",
@@ -5945,7 +5888,8 @@
     "momentum"
    ],
    "good_until": "2026-09-23",
-   "usd": 2100.0
+   "usd": 2100.0,
+   "closed": "2026-09-23 15:22"
   },
   {
    "id": "08c3f417",
@@ -7441,7 +7385,58 @@
    ],
    "good_until": "2026-09-24",
    "usd": 1000.0
+  },
+  {
+   "id": "a76fda12",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 150.2269,
+   "status": "working",
+   "created": "2026-09-23 15:22",
+   "created_ts": 1790191320,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $149.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "04ffa077",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 148.7319,
+   "status": "working",
+   "created": "2026-09-23 15:22",
+   "created_ts": 1790191320,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $149.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0efbca49",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 145.306,
+   "status": "working",
+   "created": "2026-09-23 15:22",
+   "created_ts": 1790191320,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 14:55"
+ "updated": "2026-09-23 15:22"
 }
