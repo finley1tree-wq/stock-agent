@@ -15529,3 +15529,48 @@ lesson: Fresh market buys at $2-2.2k across distinct sectors (tech/defense-infra
 ~ WORKING buy_limit $500.00 IBP @ $202.45 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32881.72 (+31.53% on $25000.00 in) · cash $23281.40 · realised +7881.40
 Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $15383.33 this week
+- SELL 100% HUBB [time stop] -> $2196.64 (-0.15%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $2000.15 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $1797.98 (-0.11%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% O [time stop] -> $1596.71 (-0.21%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 13:39 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 13:40 ET (Wednesday) — week 2026-W39 — budget left $22974.81 (today $145545.75 put to work, 64 buys, 62 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Cash idle is 91.9% with only IBP held against min_positions of 8 - a clear violation the owner flagged repeatedly. Adding 7 fresh names ($16k) sized $2-3k each in distinct sectors (tech mega-caps down on overreaction dips, defense, healthcare, AI-momentum) backed by concrete headlines and low-in-range entries brings the book to 8 positions with real size, matching what past checks graded positively (+0.26%, -0.05% when sized $1.6-4k vs consistently worse when sitting idle). Each new position gets an individual ATR-based stop per risk_management, the best-performing signal bucket (avg_ret 3.36%, hit rate 0.86).
+lesson: At 91.9% idle cash with only 1 of 8 target positions, deploy directly into $2-3k market buys on names with concrete low-range dip evidence or fresh headlines rather than waiting on resting limits that may not fill before the next check.
+  (dropped PLTR: sold 21 min ago, cooling off)
+- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Deep intraday dip in a widely_held mega-cap with strong sector track record, buying near the low | evidence: GOOGL down -4.76% today, low in range (2.7% of day range) after Netflix/YouTube headline; oversold bounce candidate among widely_held (best sector by realized_ret in track_record, avg_ret_pct 3.95)
+- BUY $2500.00 AMZN [filled] ['momentum', 'news'] — Sharp overreaction dip on strong fundamental AWS news, entering near day low | evidence: AMZN -3.93% today at 8.8% of day range; AWS backlog $496B headline, 39% cloud margin per Motley Fool
+- BUY $2000.00 TSM [filled] ['momentum', 'dip_entry'] — Chip moat name with steady uptrend, adding market entry alongside existing dip order | evidence: TSM +0.18% today, +7.78% 5d, resting dip order already at 441.93; buying some now at 445.92 (38% of range) to secure position
+- BUY $2000.00 AVGO [filled] ['momentum', 'news'] — Low-in-range pullback on a widely_held name with fresh bullish coverage | evidence: AVGO -2.21% today at only 7.3% of day range; '24/7 Wall St: Broadcom Just Made a Move That Further Solidifies My Decision to Buy on Repeat'
+- BUY $2000.00 NOC [filled] ['momentum', 'news'] — Defense sector high hit-rate, pullback entry on processor demand story | evidence: NOC -2.03% today, defense sector avg_ret_pct 0.06 but hit_rate 0.73 in track record; APN-241 processor demand headline
+- BUY $2000.00 UNH [filled] ['news'] — Value dislocation story with concrete headline evidence | evidence: 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' - Simply Wall St; UNH -1.91% today at 65.7% of range
+  (dropped trigger PLTR stop_loss: not held)
+~ WORKING stop_loss 100% GOOGL @ $331.30 until 2026-09-23 — Cap downside on GOOGL entry near day low
+~ WORKING stop_loss 100% AMZN @ $243.30 until 2026-09-23 — Cap downside on AMZN entry
+~ WORKING stop_loss 100% TSM @ $437.00 until 2026-09-23 — Protective stop for TSM
+~ WORKING stop_loss 100% AVGO @ $347.50 until 2026-09-23 — Protective stop for AVGO
+~ WORKING stop_loss 100% NOC @ $504.00 until 2026-09-23 — Protective stop for NOC
+~ WORKING stop_loss 100% UNH @ $362.00 until 2026-09-23 — Protective stop for UNH
+~ WORKING take_profit 100% GOOGL @ $339.12 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $328.00 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $248.95 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $240.89 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $447.12 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $432.63 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $355.98 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $344.09 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $517.45 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $500.68 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $371.54 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $359.30 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $607.50 until 2026-09-24 — strong month, weak day: resting 0.86% under $612.78 to catch the dip
+~ WORKING buy_limit $1000.00 SPY @ $765.88 until 2026-09-24 — strong month, weak day: resting 0.20% under $767.41 to catch the dip
+portfolio: equity $32860.26 (+31.44% on $25000.00 in) · cash $17372.87 · realised +7872.87
+Done: 0 sell(s), 6 buy(s); 35 order(s) working; budget left $9474.81 this week

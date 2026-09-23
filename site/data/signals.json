@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-23T13:24-04:00",
- "note": "Only 4 positions held vs min_positions of 8, with 69.5% cash idle - this is a decision costing us per counterfactual data (idle_universe_avg_pct positive). Adding PLTR (fresh FAA news catalyst), CRWD (cybersecurity rally amid tech selloff, congress pressure), IBP (congressional buy disclosed, overso",
+ "asOf": "2026-09-23T13:40-04:00",
+ "note": "Cash idle is 91.9% with only IBP held against min_positions of 8 - a clear violation the owner flagged repeatedly. Adding 7 fresh names ($16k) sized $2-3k each in distinct sectors (tech mega-caps down on overreaction dips, defense, healthcare, AI-momentum) backed by concrete headlines and low-in-ran",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,32 +139,83 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "61ee6aad",
-   "ticker": "CCJ",
+   "id": "b69edfa6",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 765.8752,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 767.41,
+   "pct_away": -0.2,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.20% under $767.41 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "f10e9c37",
+   "ticker": "AMZN",
    "kind": "take_profit",
-   "price": 92.0339,
+   "price": 248.9534,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 91.93,
-   "pct_away": 0.11,
+   "last": 248.29,
+   "pct_away": 0.27,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "2b0fbb09",
-   "ticker": "HUBB",
+   "id": "3311e941",
+   "ticker": "TSM",
    "kind": "take_profit",
-   "price": 469.2074,
+   "price": 447.1161,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 467.8,
-   "pct_away": 0.3,
+   "last": 445.92,
+   "pct_away": 0.27,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b71ab6bf",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 517.4504,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 515.95,
+   "pct_away": 0.29,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "85ff4b30",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 339.124,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 338.07,
+   "pct_away": 0.31,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -173,15 +224,32 @@
    ]
   },
   {
-   "id": "661cee68",
-   "ticker": "NEM",
+   "id": "7ae81d83",
+   "ticker": "UNH",
    "kind": "take_profit",
-   "price": 123.696,
+   "price": 371.5398,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 123.26,
-   "pct_away": 0.35,
+   "last": 370.34,
+   "pct_away": 0.32,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8b49f65a",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 355.9822,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 354.66,
+   "pct_away": 0.37,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -197,7 +265,7 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 337.16,
+   "last": 337.17,
    "pct_away": -0.38,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.44% under $337.36 to catch the dip",
@@ -214,30 +282,13 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 150.51,
-   "pct_away": -0.47,
+   "last": 150.48,
+   "pct_away": -0.45,
    "good_until": "2026-09-23",
    "why": "Tighten limit slightly to improve fill odds on top congress-pressure name",
    "signals": [
     "congress",
     "momentum"
-   ]
-  },
-  {
-   "id": "e51335b2",
-   "ticker": "O",
-   "kind": "take_profit",
-   "price": 55.8003,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 55.53,
-   "pct_away": 0.49,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -248,8 +299,8 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.07,
-   "pct_away": -0.56,
+   "last": 193.91,
+   "pct_away": -0.47,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
    "signals": [
@@ -259,20 +310,20 @@
    ]
   },
   {
-   "id": "eb33e630",
-   "ticker": "IBP",
-   "kind": "take_profit",
-   "price": 209.812,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "e9ad1b8b",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 258.5,
+   "usd": 2300.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 208.63,
-   "pct_away": 0.57,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.5% over the average cost",
+   "last": 260.01,
+   "pct_away": -0.58,
+   "good_until": "2026-09-23",
+   "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "momentum",
+    "news"
    ]
   },
   {
@@ -283,27 +334,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 499.42,
-   "pct_away": -0.66,
+   "last": 499.19,
+   "pct_away": -0.62,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "bd7127cb",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 441.9275,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 444.88,
-   "pct_away": -0.66,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.47% under $444.00 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -317,13 +351,30 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 150.51,
-   "pct_away": -0.87,
+   "last": 150.48,
+   "pct_away": -0.85,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
    "signals": [
     "congress",
     "patience"
+   ]
+  },
+  {
+   "id": "bfdd06ca",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 607.4978,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 612.78,
+   "pct_away": -0.86,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.86% under $612.78 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -334,14 +385,48 @@
    "usd": 2100.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 264.64,
-   "pct_away": -0.88,
+   "last": 264.68,
+   "pct_away": -0.89,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $262.31. Defense-adjacent infra theme with steady momentum, diversifies away from tech/nuclear/gold already held",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "bd7127cb",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 441.9275,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 445.92,
+   "pct_away": -0.9,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.47% under $444.00 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "eb33e630",
+   "ticker": "IBP",
+   "kind": "take_profit",
+   "price": 209.812,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 207.72,
+   "pct_away": 1.01,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -352,48 +437,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 747.68,
-   "pct_away": -0.91,
+   "last": 749.34,
+   "pct_away": -1.13,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "e9ad1b8b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 258.5,
-   "usd": 2300.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 261.66,
-   "pct_away": -1.21,
-   "good_until": "2026-09-23",
-   "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
-   "signals": [
-    "momentum",
-    "news"
-   ]
-  },
-  {
-   "id": "ef0c7f59",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 458.1465,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 467.8,
-   "pct_away": -2.06,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -404,14 +454,128 @@
    "usd": 2307.69,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 261.66,
-   "pct_away": -2.11,
+   "last": 260.01,
+   "pct_away": -1.49,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $256.13. Strong intraday momentum with fresh bullish news catalyst, diversifies away from mega-cap tech already held",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "ef0c7f59",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 458.1465,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 466.98,
+   "pct_away": -1.89,
+   "good_until": "2026-09-23",
+   "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "57a9f089",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 331.3,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 338.07,
+   "pct_away": -2.0,
+   "good_until": "2026-09-23",
+   "why": "Cap downside on GOOGL entry near day low",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "d16a2d01",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 437.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 445.92,
+   "pct_away": -2.0,
+   "good_until": "2026-09-23",
+   "why": "Protective stop for TSM",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "8cd8deb7",
+   "ticker": "AMZN",
+   "kind": "stop_loss",
+   "price": 243.3,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 248.29,
+   "pct_away": -2.01,
+   "good_until": "2026-09-23",
+   "why": "Cap downside on AMZN entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "ec8d049d",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 347.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 354.66,
+   "pct_away": -2.02,
+   "good_until": "2026-09-23",
+   "why": "Protective stop for AVGO",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "e192be5b",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 362.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 370.34,
+   "pct_away": -2.25,
+   "good_until": "2026-09-23",
+   "why": "Protective stop for UNH",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "b51bdcb2",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 504.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 515.95,
+   "pct_away": -2.32,
+   "good_until": "2026-09-23",
+   "why": "Protective stop for NOC",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -422,63 +586,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 467.8,
-   "pct_away": -2.71,
+   "last": 466.98,
+   "pct_away": -2.54,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $455.13. Highest congress buy pressure score in list plus positive momentum",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "d46255f0",
-   "ticker": "O",
-   "kind": "buy_limit",
-   "price": 54.0193,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 55.53,
-   "pct_away": -2.72,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a5d78840",
-   "ticker": "O",
-   "kind": "stop_loss",
-   "price": 54.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 55.53,
-   "pct_away": -2.76,
-   "good_until": "2026-09-23",
-   "why": "Protective stop on new O position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "e756d9b8",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 454.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 467.8,
-   "pct_away": -2.95,
-   "good_until": "2026-09-23",
-   "why": "Protective stop on new HUBB position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -489,7 +604,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 208.63,
+   "last": 207.72,
+   "pct_away": -2.54,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8e70b09f",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 500.6752,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 515.95,
    "pct_away": -2.96,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -499,15 +631,15 @@
    ]
   },
   {
-   "id": "65303772",
-   "ticker": "HUBB",
+   "id": "ebc5ffc5",
+   "ticker": "GOOGL",
    "kind": "buy_limit",
-   "price": 453.8242,
+   "price": 327.9958,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 467.8,
-   "pct_away": -2.99,
+   "last": 338.07,
+   "pct_away": -2.98,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -516,15 +648,15 @@
    ]
   },
   {
-   "id": "189e620e",
-   "ticker": "NEM",
+   "id": "e629d7ab",
+   "ticker": "AMZN",
    "kind": "buy_limit",
-   "price": 119.5428,
+   "price": 240.8898,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 123.26,
-   "pct_away": -3.02,
+   "last": 248.29,
+   "pct_away": -2.98,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -533,31 +665,15 @@
    ]
   },
   {
-   "id": "e1cb54d8",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 119.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 123.26,
-   "pct_away": -3.05,
-   "good_until": "2026-09-23",
-   "why": "Protective stop on new NEM position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "fb9dc538",
-   "ticker": "CCJ",
+   "id": "04cb1143",
+   "ticker": "TSM",
    "kind": "buy_limit",
-   "price": 88.9199,
+   "price": 432.6297,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 91.93,
-   "pct_away": -3.27,
+   "last": 445.92,
+   "pct_away": -2.98,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -566,19 +682,37 @@
    ]
   },
   {
-   "id": "071ff144",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 88.9,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "eb0c56fc",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 344.0881,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 91.93,
-   "pct_away": -3.3,
-   "good_until": "2026-09-23",
-   "why": "Protective stop on new CCJ position",
+   "last": 354.66,
+   "pct_away": -2.98,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
-    "risk_management"
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7554d6af",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 359.2977,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 370.34,
+   "pct_away": -2.98,
+   "good_until": "2026-09-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -589,8 +723,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 208.63,
-   "pct_away": -4.14,
+   "last": 207.72,
+   "pct_away": -3.72,
    "good_until": "2026-09-23",
    "why": "Protective stop on new IBP position",
    "signals": [
@@ -598,8 +732,8 @@
    ]
   }
  ],
- "last_reasoning": "Only 4 positions held vs min_positions of 8, with 69.5% cash idle - this is a decision costing us per counterfactual data (idle_universe_avg_pct positive). Adding PLTR (fresh FAA news catalyst), CRWD (cybersecurity rally amid tech selloff, congress pressure), IBP (congressional buy disclosed, overso",
- "next_check_minutes": 15,
+ "last_reasoning": "Cash idle is 91.9% with only IBP held against min_positions of 8 - a clear violation the owner flagged repeatedly. Adding 7 fresh names ($16k) sized $2-3k each in distinct sectors (tech mega-caps down on overreaction dips, defense, healthcare, AI-momentum) backed by concrete headlines and low-in-ran",
+ "next_check_minutes": 10,
  "allowed": [
   "AAPL",
   "ADC",
@@ -662,7 +796,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 384,
+  "decisions_graded": 383,
   "decisions_with_buys_graded": 155,
   "independent_days_graded": 5,
   "avg_regret_pct": -0.45,
@@ -775,7 +909,7 @@
     "n": 1
    }
   },
-  "idle_checks": 224,
+  "idle_checks": 223,
   "blocked_checks": 0,
   "idle_share": 0.56,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2132,19 +2266,19 @@
  "headlines": {
   "AAPL": [
    {
-    "title": "Gary Cohn on Meta's Muse: 'I'm not comfortable giving up my personal data'",
+    "title": "Looking for consumer and investor sentiment trends? Turn to social media.",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-23T17:32"
+   },
+   {
+    "title": "Why Apple's stock chart is probably putting a smile on the face of new CEO John Ternus",
     "source": "Yahoo Finance",
-    "when": "2026-09-23T15:59"
+    "when": "2026-09-23T13:53"
    },
    {
-    "title": "Meta\u2019s Muse is a game changer\u2014but can it win consumers' trust?",
+    "title": "The AI panic, tech concentration, and Nvidia windfalls",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-23T13:29"
-   },
-   {
-    "title": "Meta\u2019s new AI agent just got me $250 in flight credits",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-22T21:45"
+    "when": "2026-09-23T10:00"
    }
   ],
   "ADC": [
@@ -2193,26 +2327,26 @@
     "when": "2026-09-23T10:00"
    },
    {
-    "title": "Should investors play AI bottlenecks over social media stocks?",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-22T17:39"
+    "title": "AMD Falls 2% After AI Carries It Past $1 Trillion",
+    "source": "GuruFocus.com",
+    "when": "2026-09-23T17:28"
    }
   ],
   "AMZN": [
    {
-    "title": "Here are the stocks taking a hit amid the Muse hype",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-23T13:20"
+    "title": "Meta's Muse is an impressively capable AI agent, despite some hiccups",
+    "source": "Yahoo Finance",
+    "when": "2026-09-23T17:33"
    },
    {
-    "title": "Meta's Muse AI teams up with Shopify, lifting its stock",
+    "title": "Meta\u2019s Muse just changed the AI game",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-22T19:50"
+    "when": "2026-09-22T21:31"
    },
    {
-    "title": "Anthropic vs. OpenAI: Competition heats up with release of new AI models",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-22T19:32"
+    "title": "Amazon's AWS Backlog Climbed to $496 Billion as Its Cloud Margin Reached 39%. The Stock Is Primed to Skyrocket as a Result.",
+    "source": "Motley Fool",
+    "when": "2026-09-23T17:33"
    }
   ],
   "AVGO": [
@@ -2336,6 +2470,11 @@
   ],
   "GLD": [
    {
+    "title": "Rejoice! The Summer Stock Slump is Over",
+    "source": "Zacks",
+    "when": "2026-09-23T17:31"
+   },
+   {
     "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks",
     "source": "MT Newswires",
     "when": "2026-09-23T13:31"
@@ -2344,28 +2483,23 @@
     "title": "Gold Slides as Fed Fears Take Over",
     "source": "GuruFocus.com",
     "when": "2026-09-22T22:15"
-   },
-   {
-    "title": "Silver Made America\u2019s Critical Minerals List. This ETF Is the Easiest Way In",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-22T17:03"
    }
   ],
   "GOOGL": [
    {
-    "title": "Netflix has a big YouTube problem \u2014 and it's only getting worse",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-23T14:20"
-   },
-   {
-    "title": "The future of AI growth rests on Big Tech's cash flow tripling to $2 trillion: Chart of the Day",
+    "title": "Meta's Muse is an impressively capable AI agent, despite some hiccups",
     "source": "Yahoo Finance",
-    "when": "2026-09-23T10:00"
+    "when": "2026-09-23T17:33"
    },
    {
-    "title": "Meta's Muse AI teams up with Shopify, lifting its stock",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-22T19:50"
+    "title": "Netflix stock is getting shredded \u2014 and Google's YouTube may be the reason",
+    "source": "Yahoo Finance",
+    "when": "2026-09-23T12:30"
+   },
+   {
+    "title": "What Will $5,000 Invested in Alphabet Stock Be Worth in 5 Years?",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-23T17:30"
    }
   ],
   "HD": [
@@ -2489,19 +2623,19 @@
   ],
   "META": [
    {
-    "title": "Gary Cohn on Meta's Muse: 'I'm not comfortable giving up my personal data'",
+    "title": "Meta's Muse is an impressively capable AI agent, despite some hiccups",
     "source": "Yahoo Finance",
-    "when": "2026-09-23T15:59"
+    "when": "2026-09-23T17:33"
    },
    {
-    "title": "Nasdaq climbs higher, McDonald's investor day updates",
+    "title": "How Meta's Muse is driving a magic moment for the stock market",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-23T14:14"
+    "when": "2026-09-23T14:44"
    },
    {
-    "title": "The AI panic, tech concentration, and Nvidia windfalls",
+    "title": "Meta\u2019s Muse is a game changer\u2014but can it win consumers' trust?",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-23T10:00"
+    "when": "2026-09-23T13:29"
    }
   ],
   "MSFT": [
@@ -2732,14 +2866,14 @@
     "when": "2026-09-23T14:17"
    },
    {
+    "title": "Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers.",
+    "source": "Motley Fool",
+    "when": "2026-09-23T17:35"
+   },
+   {
     "title": "Intel\u2019s Price Targets Reveal Just How Much Is Riding on Its Turnaround",
     "source": "24/7 Wall St.",
     "when": "2026-09-23T14:00"
-   },
-   {
-    "title": "Wall Street Bulls Look Optimistic About TSMC (TSM): Should You Buy?",
-    "source": "Zacks",
-    "when": "2026-09-23T13:30"
    }
   ],
   "TTD": [
@@ -2795,5 +2929,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-23T13:24-04:00"
+ "signalsAsOf": "2026-09-23T13:40-04:00"
 }
