@@ -15269,3 +15269,6 @@ lesson: When below min_positions with large idle cash, buy directly at market in
 ~ WORKING buy_limit $1000.00 AAPL @ $334.63 until 2026-09-24 — strong month, weak day: resting 0.44% under $336.10 to catch the dip
 portfolio: equity $32895.19 (+31.58% on $25000.00 in) · cash $22410.01 · realised +7910.01
 Done: 0 sell(s), 2 buy(s); 30 order(s) working; budget left $14511.94 this week
+  (cancelled 3 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $192.45] -> $2511.00 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-23 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders

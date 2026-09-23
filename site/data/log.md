@@ -1,6 +1,3 @@
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% CCJ [time stop] -> $3965.61 (+0.14%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-22 15:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-22 15:55 ET (Tuesday) — week 2026-W39 — budget left $24967.29 (today $163661.34 put to work, 70 buys, 67 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ lesson: When below min_positions with large idle cash, buy directly at market in
 ~ WORKING buy_limit $1000.00 AAPL @ $334.63 until 2026-09-24 — strong month, weak day: resting 0.44% under $336.10 to catch the dip
 portfolio: equity $32895.19 (+31.58% on $25000.00 in) · cash $22410.01 · realised +7910.01
 Done: 0 sell(s), 2 buy(s); 30 order(s) working; budget left $14511.94 this week
+  (cancelled 3 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $192.45] -> $2511.00 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-23 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
