@@ -1,7 +1,3 @@
-  (cancelled 2 standing order(s) on NLR: position closed)
-- SELL 100% NLR [take_profit @ $109.70] -> $3011.24 (+0.37%) — close 100% at +0.4% over the average cost
-## 2026-09-23 11:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $236.81] -> $3010.54 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% GOOGL [time stop] -> $2987.85 (-0.40%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +394,7 @@ lesson: Market buys at $2-2.3k across distinct sectors with immediate stops cont
 ~ WORKING buy_limit $500.00 RTX @ $188.49 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32878.49 (+31.51% on $25000.00 in) · cash $19083.98 · realised +7883.98
 Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $11185.92 this week
+- SELL 100% AVGO [time stop] -> $2000.55 (+0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NOC [time stop] -> $1997.43 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $1996.50 (-0.17%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 14:10 ET — tick — 3 sell(s), 0 buy(s) from standing orders
