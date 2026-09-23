@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 11566.53,
+  "spent": 10567.19,
   "deployed": 419095.71,
   "by_ticker": {
     "NOC": 26.07,
@@ -25,7 +25,7 @@
     "HD": 0.6,
     "IBP": 1.92,
     "SKWD": 4.23,
-    "NVDA": 1000.0,
+    "NVDA": 0.66,
     "PLTR": 4000.0,
     "CRWD": 3500.0
   },
@@ -6899,13 +6899,33 @@
         "momentum"
       ],
       "evidence": "Rep. Josh Gottheimer and Jared Moskowitz both disclosed AMAT buys; AMAT +0.88% today, +11.2% 5d, headline 'Wall Street Bulls Look Optimistic About Applied Materials'"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 4.455268,
+      "status": "filled",
+      "price": 224.31,
+      "proceeds": 999.34,
+      "realized_pnl": -0.66,
+      "realized_pct": -0.07,
+      "date": "2026-09-23",
+      "time_et": "12:56",
+      "ts": 1790182584,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.05% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 11566.53,
+  "spent_today": 10567.19,
   "deployed_today": 134099.6,
   "orders_today": 58,
-  "sells_today": 53,
+  "sells_today": 54,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -6942,7 +6962,7 @@
   "sold_ts": {
     "AMAT": 1790179168,
     "AMD": 1790182075,
-    "NVDA": 1790170561,
+    "NVDA": 1790182585,
     "CHRW": 1790171335,
     "PLTR": 1790177951,
     "MSFT": 1790173101,
@@ -6974,34 +6994,31 @@
     "ESE": 1790180977,
     "SKWD": 1790182075
   },
-  "last_publish_ts": 1790182430,
-  "last_check_ts": 1790182547,
+  "last_publish_ts": 1790182584,
+  "last_check_ts": 1790182630,
   "last_bar_ts": 1790182500,
   "last_decision_ts": 1790182430,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "998a7bac": 134.8297,
-    "9d64de1c": 192.9905,
-    "ba66b745": 496.1125,
-    "c1cc6182": 225.1144,
-    "02703baa": 149.8,
-    "60d74377": 470.4389,
     "89f367e6": 191.2516,
+    "9d64de1c": 192.9905,
+    "60d74377": 470.4389,
+    "ba66b745": 496.1125,
+    "02703baa": 149.8,
     "bebb9224": 262.1145,
-    "860d9205": 222.7913,
     "e9ad1b8b": 258.5,
     "cb25544a": 149.1994,
-    "f1217f2e": 256.1329,
     "e187e6f8": 740.849,
+    "f1217f2e": 256.1329,
+    "6c50d918": 255.4,
     "bc51c169": 459.0,
     "08c3f417": 186.56,
-    "6c50d918": 255.4,
     "ef0c7f59": 458.1465,
     "e21f9d51": 455.1325,
-    "43240ef2": 217.7165,
-    "8daf8a06": 184.6977,
     "f1d2a291": 252.8402,
-    "7bfbe2c8": 454.3674
+    "7bfbe2c8": 454.3674,
+    "8daf8a06": 184.6977
   }
 }

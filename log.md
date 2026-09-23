@@ -15458,3 +15458,5 @@ lesson: Deploying 6-8 fresh names in $3-4k size with individual stops immediatel
 ~ WORKING buy_limit $500.00 AMAT @ $454.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32828.09 (+31.31% on $25000.00 in) · cash $21331.54 · realised +7831.54
 Done: 0 sell(s), 3 buy(s); 22 order(s) working; budget left $13433.47 this week
+- SELL 100% NVDA [time stop] -> $999.34 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
