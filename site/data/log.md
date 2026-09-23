@@ -1,10 +1,3 @@
-  (cancelled 2 standing order(s) on CRWD: position closed)
-- SELL 100% CRWD [take_profit @ $252.02] -> $2681.21 (+0.55%) — close 100% at +0.5% over the average cost
-## 2026-09-23 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 09:47 ET (Wednesday) — week 2026-W39 — budget left $23036.69 (today $19706.13 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
   (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
@@ -398,3 +391,10 @@ lesson: Rotating into fresh momentum+news names (CRWD, PLD, IBP) to hit min_posi
 ~ WORKING buy_limit $500.00 IBP @ $203.27 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32855.83 (+31.42% on $25000.00 in) · cash $16187.33 · realised +7880.80
 Done: 0 sell(s), 1 buy(s); 33 order(s) working; budget left $8289.26 this week
+- SELL 100% AVGO [time stop] -> $2994.00 (-0.20%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $2496.99 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2987.63 (-0.41%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $2502.00 (+0.08%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HD [time stop] -> $1999.40 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AAPL [time stop] -> $1848.45 (+0.06%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 12:14 ET — tick — 6 sell(s), 0 buy(s) from standing orders
