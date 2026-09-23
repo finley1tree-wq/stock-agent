@@ -15402,3 +15402,18 @@ Done: 0 sell(s), 7 buy(s); 35 order(s) working; budget left $8117.73 this week
 ## 2026-09-23 12:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% IBP [time stop] -> $1844.23 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 12:33 ET (Wednesday) — week 2026-W39 — budget left $9944.56 (today $123599.60 put to work, 55 buys, 46 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Book already at 8 positions (min target met) with $9.9k budget remaining and 39.8% cash idle - full_deployment mode wants concentration in up to 6 names but I already hold 8 diversified names each with protective stops/take-profits working. GOOGL is down -4.55% today (worst in book) but already has stop_loss and averaging-in limit working, so leaving it alone rather than adding to a loser. Adding IBP at market given fresh congressional buy disclosure (Rep. Taylor, 9/8 buy, disclosed 9/17) plus today's +3.43% move and bullish Zacks turnaround piece; tightening CRWD and CHRW limits since they have strong congress/momentum evidence but haven't filled yet.
+lesson: Book already met min_positions with protective stops on every position - the job this check was tightening dip/momentum limits toward market rather than forcing new market buys, since existing positions are working as designed.
+  (dropped IBP: sold 3 min ago, cooling off)
+~ WORKING buy_limit $2300.00 CRWD @ $258.50 until 2026-09-23 — Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held
+~ WORKING buy_limit $2100.00 CHRW @ $149.80 until 2026-09-23 — Tighten limit slightly to improve fill odds on top congress-pressure name
+portfolio: equity $32852.24 (+31.41% on $25000.00 in) · cash $17842.64 · realised +7866.59
+Decision: nothing at this check. 35 standing order(s) working.

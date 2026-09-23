@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "168c0533",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 359.4059,
-   "status": "cancelled",
-   "created": "2026-09-22 10:26",
-   "created_ts": 1790087197,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $361.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 10:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d54d0e93",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 350.8587,
-   "status": "cancelled",
-   "created": "2026-09-22 10:26",
-   "created_ts": 1790087197,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $361.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 10:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "7a859e2a",
    "ticker": "TSM",
    "kind": "take_profit",
@@ -7414,7 +7376,41 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "e9ad1b8b",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 258.5,
+   "status": "working",
+   "created": "2026-09-23 12:33",
+   "created_ts": 1790181197,
+   "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
+   "evidence": "CRWD +5.01% today, 'Cybersecurity Stocks Rally...CrowdStrike gains 4%' 24/7 Wall St, Cramer called Nvidia-linked security peer a must-buy",
+   "signals": [
+    "momentum",
+    "news"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 2300.0
+  },
+  {
+   "id": "02703baa",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 149.8,
+   "status": "working",
+   "created": "2026-09-23 12:33",
+   "created_ts": 1790181197,
+   "why": "Tighten limit slightly to improve fill odds on top congress-pressure name",
+   "evidence": "congress_net_buy_pressure CHRW=3.0 highest in list, Rep. April McClain Delaney disclosed buys",
+   "signals": [
+    "congress",
+    "momentum"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 2100.0
   }
  ],
- "updated": "2026-09-23 12:29"
+ "updated": "2026-09-23 12:33"
 }
