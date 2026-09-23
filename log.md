@@ -15722,3 +15722,17 @@ Decision: nothing at this check. 22 standing order(s) working.
 ## 2026-09-23 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2100.00 CHRW [buy_limit @ $149.80] — Tighten limit slightly to improve fill odds on top congress-pressure name
 ## 2026-09-23 15:22 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-23 15:25 ET (Wednesday) — week 2026-W39 — budget left $22843.88 (today $176545.75 put to work, 79 buys, 77 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 1 check left today, market closes in 35 minutes, and no_new_entries flag isn't set but we're deep into the last 30-min window before close on a broadly red day (SPY -0.74%, most watchlist down 1-4%, GOOGL -4.5%, AMZN -3.4%). Per own recent lesson: 'broadly red day with ~1hr left before close and 30-min hard exit, new entries mostly get force-closed into weak momentum.' With only 1 check left and max_hold_minutes=30, any new buy now would be forced to close right at/after market close with essentially no time to work - a bad risk/reward given the red tape. Existing working orders (buy_limits, stops) remain in place to catch any dip fills automatically. Better to sit tight on the single CHRW position with its existing stop/take-profit bracket rather than force new trades into the last half hour of a down day.
+lesson: With 1 check left and <35min to close on a red day, forcing new 30-min-hold entries into the close is worse than letting existing resting limit orders and brackets do the work; protect what you hold instead of chasing.
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% CHRW @ $148.70 until 2026-09-23 — protect sole position into close, existing auto_bracket stop stands
+portfolio: equity $32841.95 (+31.37% on $25000.00 in) · cash $30741.95 · realised +7841.95
+Decision: nothing at this check. 21 standing order(s) working.
