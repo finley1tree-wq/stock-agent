@@ -15042,3 +15042,28 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $236.65] -> $2007.00 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on SPY: position closed)
+- SELL 100% SPY [stop_loss @ $768.97] -> $997.06 (-0.29%) — close it all at -0.2% under the average cost
+## 2026-09-23 10:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:14 ET (Wednesday) — week 2026-W39 — budget left $10061.67 (today $46206.13 put to work, 20 buys, 14 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
+brain: Below min_positions (5 of 8) with 40% idle cash and $10k remaining budget - past checks show idleness is penalized. Adding HUBB (top congress buy pressure score), LMT (defense news catalyst), and TSM (strong momentum, near day low entry, cooldown expired) brings us to 8 positions across defense/tech/semis, diversifying away from the current AI-chip heavy book while respecting max_entry_range_pct guardrails.
+lesson: Reaching min_positions matters more than perfect entries - spread new capital across sectors with concrete evidence (congress score, headlines, day-range position) and always attach a stop, rather than waiting on limits.
+  (dropped TSM: sold 40 min ago, cooling off)
+  (dropped HUBB: 86% up today's range — resting a limit at $458.15 instead of chasing)
+  (dropped LMT: 99% up today's range — resting a limit at $529.82 instead of chasing)
+  (dropped trigger HUBB stop_loss: not held)
+  (dropped trigger LMT stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger HUBB take_profit: not held)
+  (dropped trigger LMT take_profit: not held)
+  (dropped trigger TSM take_profit: not held)
+~ WORKING buy_limit $2000.00 HUBB @ $458.15 until 2026-09-23 — wanted it, but not at the high — resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions
+~ WORKING buy_limit $2000.00 LMT @ $529.82 until 2026-09-23 — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
+portfolio: equity $32871.70 (+31.49% on $25000.00 in) · cash $17924.43 · realised +7924.43
+Decision: nothing at this check. 19 standing order(s) working.

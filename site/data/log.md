@@ -1,28 +1,3 @@
-- BUY $1500.00 AMD [filled] ['momentum', 'news'] — Add to existing AMD position on continued strength, momentum 22.49% 5d | evidence: AMD joined $1T market cap club, Nasdaq surged 2% on chip rally; already hold 1 tranche +0.05%, adding to winner
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger AMAT stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger AMAT buy_limit: duplicate of a working order)
-  (dropped trigger TSM buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% NVDA @ $222.40 until 2026-09-22 — Protective stop on new NVDA buy
-~ WORKING take_profit 100% NVDA @ $230.00 until 2026-09-27 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NVDA @ $222.46 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 CHRW @ $150.13 until 2026-09-23 — strong month, weak day: resting 0.51% under $150.91 to catch the dip
-~ WORKING buy_limit $1000.00 MSFT @ $494.47 until 2026-09-23 — strong month, weak day: resting 0.44% under $496.64 to catch the dip
-portfolio: equity $32786.84 (+31.15% on $25000.00 in) · cash $22798.79 · realised +7798.79
-Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $14936.02 this week
-- SELL 100% AMD [time stop] -> $4504.81 (+0.11%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-22 13:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (dropped META: sold 42 min ago, cooling off)
-
-## 2026-09-22 13:50 ET (Tuesday) — week 2026-W39 — budget left $19440.83 (today $139938.18 put to work, 59 buys, 55 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-brain: Below target position count (2 of 8) with 77.8% idle cash and 4 checks left today - this is the clearest signal to act per repeated past lessons. Deploying into widely_held sector (best track record at 4.97% avg_ret, 255 trades) names with concrete news/momentum evidence: TSM (AI capex), AMD ($1T club), PLTR (AI infra), AAPL (Ives commentary), plus AMAT on congress buy pressure. Adding protective stops on all new positions per risk_management best practice (3.64% avg_ret, 86% hit rate signal).
 lesson: When below min_positions with high idle cash, deploy sized buys (~$2-3k) across widely_held names with concrete news/momentum evidence immediately rather than waiting on resting limits that keep expiring - always pair with a protective stop_loss trigger.
   (dropped AMD: sold 7 min ago, cooling off)
   (dropped TSM: 93% up today's range — resting a limit at $445.26 instead of chasing)
@@ -398,3 +373,28 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $236.65] -> $2007.00 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on SPY: position closed)
+- SELL 100% SPY [stop_loss @ $768.97] -> $997.06 (-0.29%) — close it all at -0.2% under the average cost
+## 2026-09-23 10:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:14 ET (Wednesday) — week 2026-W39 — budget left $10061.67 (today $46206.13 put to work, 20 buys, 14 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
+brain: Below min_positions (5 of 8) with 40% idle cash and $10k remaining budget - past checks show idleness is penalized. Adding HUBB (top congress buy pressure score), LMT (defense news catalyst), and TSM (strong momentum, near day low entry, cooldown expired) brings us to 8 positions across defense/tech/semis, diversifying away from the current AI-chip heavy book while respecting max_entry_range_pct guardrails.
+lesson: Reaching min_positions matters more than perfect entries - spread new capital across sectors with concrete evidence (congress score, headlines, day-range position) and always attach a stop, rather than waiting on limits.
+  (dropped TSM: sold 40 min ago, cooling off)
+  (dropped HUBB: 86% up today's range — resting a limit at $458.15 instead of chasing)
+  (dropped LMT: 99% up today's range — resting a limit at $529.82 instead of chasing)
+  (dropped trigger HUBB stop_loss: not held)
+  (dropped trigger LMT stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger HUBB take_profit: not held)
+  (dropped trigger LMT take_profit: not held)
+  (dropped trigger TSM take_profit: not held)
+~ WORKING buy_limit $2000.00 HUBB @ $458.15 until 2026-09-23 — wanted it, but not at the high — resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions
+~ WORKING buy_limit $2000.00 LMT @ $529.82 until 2026-09-23 — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
+portfolio: equity $32871.70 (+31.49% on $25000.00 in) · cash $17924.43 · realised +7924.43
+Decision: nothing at this check. 19 standing order(s) working.

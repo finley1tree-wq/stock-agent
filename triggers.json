@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "73a3682b",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 365.7773,
-   "status": "cancelled",
-   "created": "2026-09-21 15:43",
-   "created_ts": 1790019803,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $377.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "152d3eec",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 509.6089,
-   "status": "cancelled",
-   "created": "2026-09-21 15:44",
-   "created_ts": 1790019842,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $525.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "893b6ed2",
    "ticker": "RTX",
    "kind": "buy_limit",
@@ -7078,7 +7040,7 @@
    "ticker": "SPY",
    "kind": "take_profit",
    "price": 772.3969,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 09:48",
    "created_ts": 1790171334,
    "why": "close 100% at +0.1% over the average cost",
@@ -7088,14 +7050,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:14",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0689876d",
    "ticker": "SPY",
    "kind": "stop_loss",
    "price": 769.3582,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 09:48",
    "created_ts": 1790171334,
    "why": "close it all at -0.2% under the average cost",
@@ -7105,14 +7069,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:14"
   },
   {
    "id": "4d898039",
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 748.1028,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 09:48",
    "created_ts": 1790171334,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7122,7 +7087,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 10:14",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dde91470",
@@ -7464,7 +7431,43 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "ef0c7f59",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 458.1465,
+   "status": "working",
+   "created": "2026-09-23 10:14",
+   "created_ts": 1790172884,
+   "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
+   "evidence": "Highest congress buy pressure score (April McClain Delaney, 3.0) plus 'Backlog-Driven Data Center Demand' headline; currently 86% of day range but resting limit at 455.13 already working",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 2000.0
+  },
+  {
+   "id": "d600afce",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 529.8157,
+   "status": "working",
+   "created": "2026-09-23 10:14",
+   "created_ts": 1790172884,
+   "why": "wanted it, but not at the high \u2014 resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book",
+   "evidence": "'US Running Low on the 2 Weapons It Would Need Most' headline 2026-09-23, day_high 534.93 near top of range showing strength, defense sector JATM contract news",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 2000.0
   }
  ],
- "updated": "2026-09-23 10:11"
+ "updated": "2026-09-23 10:14"
 }
