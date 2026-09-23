@@ -1,6 +1,3 @@
-  (dropped AMAT: 86% up today's range — resting a limit at $462.70 instead of chasing)
-  (dropped TSM: 89% up today's range — resting a limit at $445.26 instead of chasing)
-- BUY $2500.00 NVDA [filled] ['momentum', 'news', 'track_record'] — Core AI momentum name in best-performing sector, currently 80% of day range, buying at market given full deployment mandate | evidence: NVDA +0.84% today, +8.07% 5d, widely_held sector had 5.48% avg_ret in track record - best sector; headline 'AI Fears Are Reaching Fever Pitch But I'm Not Slowing Down My Nvidia Accumulation'
 - BUY $1500.00 AMD [filled] ['momentum', 'news'] — Add to existing AMD position on continued strength, momentum 22.49% 5d | evidence: AMD joined $1T market cap club, Nasdaq surged 2% on chip rally; already hold 1 tranche +0.05%, adding to winner
   (dropped trigger META stop_loss: not held)
   (dropped trigger AMAT stop_loss: not held)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $368.87] -> $2006.12 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 10:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $236.65] -> $2007.00 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-09-23 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -15039,3 +15039,6 @@ Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $368.87] -> $2006.12 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 10:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $236.65] -> $2007.00 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-09-23 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
