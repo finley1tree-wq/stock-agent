@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "5052f177",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 224.5162,
-   "status": "cancelled",
-   "created": "2026-09-22 14:06",
-   "created_ts": 1790100419,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $231.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 14:37",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ab37c216",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 358.239,
-   "status": "cancelled",
-   "created": "2026-09-22 14:09",
-   "created_ts": 1790100568,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $341.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 14:10",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "867de46d",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -7479,9 +7441,47 @@
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 187.2003,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 15:53",
    "created_ts": 1790193193,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:53",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "7d5888e6",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "cancelled",
+   "created": "2026-09-23 15:53",
+   "created_ts": 1790193222,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:54",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "dc695df5",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "working",
+   "created": "2026-09-23 15:54",
+   "created_ts": 1790193267,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $192.99",
    "signals": [
@@ -7492,5 +7492,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-23 15:53"
+ "updated": "2026-09-23 15:54"
 }

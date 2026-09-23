@@ -15775,3 +15775,5 @@ Decision: nothing at this check. 21 standing order(s) working.
 ## 2026-09-23 15:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
