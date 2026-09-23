@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "b830cec0",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 365.7773,
-   "status": "cancelled",
-   "created": "2026-09-21 15:50",
-   "created_ts": 1790020220,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $377.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:50",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "7944f328",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 509.6089,
-   "status": "cancelled",
-   "created": "2026-09-21 15:50",
-   "created_ts": 1790020255,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $525.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:51",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "86cde8b1",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 188.3934,
-   "status": "cancelled",
-   "created": "2026-09-21 15:50",
-   "created_ts": 1790020255,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $194.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:51",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "9705c115",
    "ticker": "UNH",
    "kind": "buy_limit",
@@ -6876,7 +6819,7 @@
    "ticker": "LMT",
    "kind": "buy_limit",
    "price": 529.8157,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 10:14",
    "created_ts": 1790172884,
    "why": "wanted it, but not at the high \u2014 resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book",
@@ -6887,7 +6830,8 @@
     "patience"
    ],
    "good_until": "2026-09-23",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-23 10:48"
   },
   {
    "id": "fee82d2f",
@@ -7034,7 +6978,7 @@
    "ticker": "AMZN",
    "kind": "stop_loss",
    "price": 243.3,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:25",
    "created_ts": 1790173556,
    "why": "protective stop on new AMZN position",
@@ -7043,7 +6987,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c17d244f",
@@ -7227,7 +7173,7 @@
    "ticker": "AMZN",
    "kind": "take_profit",
    "price": 249.4497,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 10:25",
    "created_ts": 1790173556,
    "why": "close 100% at +0.2% over the average cost",
@@ -7237,14 +7183,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:48"
   },
   {
    "id": "c2750f22",
    "ticker": "AMZN",
    "kind": "buy_limit",
    "price": 241.3748,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:25",
    "created_ts": 1790173556,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7254,7 +7201,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e187e6f8",
@@ -7447,7 +7396,58 @@
    "good_until": "2026-09-28",
    "pct_of_position": 100.0,
    "closed": "2026-09-23 10:45"
+  },
+  {
+   "id": "a414afaf",
+   "ticker": "LMT",
+   "kind": "take_profit",
+   "price": 531.1975,
+   "status": "working",
+   "created": "2026-09-23 10:48",
+   "created_ts": 1790174896,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $529.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "37e5fa04",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 526.3709,
+   "status": "working",
+   "created": "2026-09-23 10:48",
+   "created_ts": 1790174896,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $529.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2c659b20",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 513.9254,
+   "status": "working",
+   "created": "2026-09-23 10:48",
+   "created_ts": 1790174896,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $529.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 10:45"
+ "updated": "2026-09-23 10:48"
 }

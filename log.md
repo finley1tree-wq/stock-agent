@@ -15154,3 +15154,7 @@ Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $253.17] -> $2513.75 (+0.55%) — close 100% at +0.6% over the average cost
 ## 2026-09-23 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMZN: position closed)
+- SELL 100% AMZN [take_profit @ $249.45] -> $2004.90 (+0.25%) — close 100% at +0.2% over the average cost
+- BUY $2000.00 LMT [buy_limit @ $529.82] — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
+## 2026-09-23 10:48 ET — tick — 1 sell(s), 1 buy(s) from standing orders
