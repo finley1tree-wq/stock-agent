@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-23T15:27-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-23T15:28-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,72 +139,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "4736b8f9",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 335.8849,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 336.38,
-   "pct_away": -0.15,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.44% under $337.36 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "ddb9c92e",
+   "id": "a76fda12",
    "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.4195,
-   "usd": 2200.0,
-   "pct_of_position": null,
+   "kind": "take_profit",
+   "price": 150.2269,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.65,
-   "pct_away": -0.15,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $149.42. Top congress-pressure name not held, diversifies away from tech/defense already in book",
+   "last": 149.77,
+   "pct_away": 0.31,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "b69edfa6",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 765.8752,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 767.43,
-   "pct_away": -0.2,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.20% under $767.41 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "cb25544a",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.1994,
-   "usd": 2100.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 149.65,
-   "pct_away": -0.3,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
-   "signals": [
-    "congress",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -215,27 +163,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 192.62,
-   "pct_away": -0.33,
+   "last": 192.63,
+   "pct_away": -0.34,
    "good_until": "2026-09-28",
    "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a76fda12",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 150.2269,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 149.65,
-   "pct_away": 0.39,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -249,30 +180,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 192.62,
+   "last": 192.63,
    "pct_away": 0.4,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "d49470d2",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 223.8887,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 225.12,
-   "pct_away": -0.55,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.56% under $225.14 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -283,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.65,
-   "pct_away": -0.63,
+   "last": 149.77,
+   "pct_away": -0.71,
    "good_until": "2026-09-23",
    "why": "protect sole position into close, existing auto_bracket stop stands",
    "signals": [
@@ -292,226 +206,15 @@
    ]
   },
   {
-   "id": "6f5f9aa6",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 444.0071,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 447.01,
-   "pct_away": -0.67,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.46% under $446.08 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "ba66b745",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 496.1125,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 500.13,
-   "pct_away": -0.8,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "18627ab1",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 129.753,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 130.83,
-   "pct_away": -0.82,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $129.75. Financial services diversification, strong intraday momentum, not cooling off",
-   "signals": [
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "e187e6f8",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 740.849,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 747.33,
-   "pct_away": -0.87,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "d43f1385",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 468.645,
-   "usd": 2300.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 472.8,
-   "pct_away": -0.88,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $468.64. Fresh chip-equipment momentum name with congressional buying pressure, diversifies away from PLTR/RTX",
-   "signals": [
-    "momentum",
-    "congress",
-    "track_record",
-    "patience"
-   ]
-  },
-  {
-   "id": "e9ad1b8b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 258.5,
-   "usd": 2300.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 260.87,
-   "pct_away": -0.91,
-   "good_until": "2026-09-23",
-   "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
-   "signals": [
-    "momentum",
-    "news"
-   ]
-  },
-  {
-   "id": "bfdd06ca",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 607.4978,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 614.15,
-   "pct_away": -1.08,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.86% under $612.78 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "f1217f2e",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 256.1329,
-   "usd": 2307.69,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 260.87,
-   "pct_away": -1.82,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $256.13. Strong intraday momentum with fresh bullish news catalyst, diversifies away from mega-cap tech already held",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "ef0c7f59",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 458.1465,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 467.49,
-   "pct_away": -2.0,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "3d2e4919",
-   "ticker": "ESE",
-   "kind": "buy_limit",
-   "price": 262.4105,
-   "usd": 2300.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 267.86,
-   "pct_away": -2.03,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $262.41. Defense-adjacent infra theme with steady momentum, not cooling off",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "51f5cda6",
-   "ticker": "ESE",
-   "kind": "buy_limit",
-   "price": 262.3115,
-   "usd": 2100.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 267.86,
-   "pct_away": -2.07,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $262.31. Defense-adjacent infra theme with steady momentum, diversifies away from tech/nuclear/gold already held",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "e21f9d51",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 455.1325,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 467.49,
-   "pct_away": -2.64,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $455.13. Highest congress buy pressure score in list plus positive momentum",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "6b089091",
+   "id": "7319314b",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 187.2003,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 192.62,
-   "pct_away": -2.81,
+   "last": 192.63,
+   "pct_away": -2.82,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -520,15 +223,15 @@
    ]
   },
   {
-   "id": "0efbca49",
+   "id": "4d4908b5",
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 145.306,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.65,
-   "pct_away": -2.9,
+   "last": 149.77,
+   "pct_away": -2.98,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
