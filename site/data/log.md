@@ -1,42 +1,3 @@
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain: Market closes in 5 minutes (15:55, close 16:00) and checks_left_today is 0 - this is the final check of the day. no_new_entries_this_check is true, so new buys would be dropped anyway. Positions_held is 0, so there's nothing to protect with stops or sells. With no time left for a position to do anything before the hard close, sitting out this last 5-minute window is the only sensible action.
-lesson: When checks_left_today is 0 and only minutes remain to market close, do not force new entries even if below min_positions - there's no time for a round trip and no_new_entries flag confirms it.
-portfolio: equity $32830.06 (+31.32% on $25000.00 in) · cash $32830.06 · realised +7830.06
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-09-22 16:00 ET — published the session's closing state
-
-## 2026-09-23 09:32 ET (Wednesday) — week 2026-W39 — budget left $24967.29 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
-  (RCT excluded: too thinly traded ($1.2M a day) — RedCloud Holdings plc)
-brain: Book is completely flat with 99.9% idle cash - this is the dominant problem per counterfactual_learning (idle_share 0.57, idle_universe_avg_pct positive). Deploying across 8 widely_held/tech momentum names backed by concrete headlines and congressional disclosures, sized $3-4k each per full_deployment instructions to concentrate in max 6-8 highest conviction ideas. Each position gets a protective stop per risk_management (best-performing signal bucket, 3.6% avg_ret, 86% hit rate).
-lesson: Do not sit at 99.9% idle cash for even one check when below min_positions - deploy immediately across best-evidenced names with protective stops rather than waiting.
-  (dropped MSFT: sector widely_held at its 50% cap ($0.00))
-  (dropped CRWD: 93% up today's range — resting a limit at $250.65 instead of chasing)
-  (dropped GOOGL: sector widely_held at its 50% cap ($0.00))
-- BUY $3555.56 META [filled] ['news', 'momentum'] — Strongest widely_held momentum name with fresh catalyst headline, sector avg_ret_pct 4.84% best of all sectors | evidence: Meta's Muse AI: 'Meta has enormous advantage in rally sparked by new Muse AI', stock +11.23% 5d, +35.57% 1m
-- BUY $3555.56 AMD [filled] ['momentum', 'news'] — Top momentum name in widely_held sector, but entering low in day range (10.5% of range) avoiding chase | evidence: AMD +22.57% 5d, +30.58% 1m, headline 'AMD Is Up 293% in a Year and Still Climbing'
-- BUY $3111.11 NVDA [filled] ['momentum', 'news'] — AI momentum leader, 47% of day range so reasonable entry | evidence: NVDA +7.51% 5d, headline 'Nasdaq climbs to record high off the back of revived AI trade'
-- BUY $2150.56 TSM [filled] ['momentum', 'news'] — Semis momentum continuing, only 27% of day range | evidence: TSM +8.56% 5d, headline 'TSMC's A14 Gains Customer Traction Ahead of 2028 Volume Production'
-- BUY $2666.67 AMAT [filled] ['congress', 'momentum'] — Strong 5d momentum plus congressional buying pressure | evidence: Rep. Josh Gottheimer disclosed AMAT buy 2026-08-06; AMAT +11.17% 5d
-  (dropped trigger MSFT stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-~ WORKING stop_loss 100% META @ $730.00 until 2026-09-23 — Protective stop ~2% below entry
-~ WORKING stop_loss 100% AMD @ $600.00 until 2026-09-23 — Protective stop ~3% below entry
-~ WORKING stop_loss 100% NVDA @ $222.00 until 2026-09-23 — Protective stop ~2.7% below entry
-~ WORKING stop_loss 100% TSM @ $439.00 until 2026-09-23 — Protective stop ~2.3% below entry
-~ WORKING stop_loss 100% AMAT @ $455.00 until 2026-09-23 — Protective stop ~2.8% below entry
-~ WORKING buy_limit $2666.67 CRWD @ $250.65 until 2026-09-23 — wanted it, but not at the high — resting at $250.65. Congress buy pressure plus bullish security-AI news
-~ WORKING take_profit 100% META @ $748.56 until 2026-09-28 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 META @ $723.31 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMD @ $620.87 until 2026-09-28 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 AMD @ $599.57 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +359,42 @@ Done: 0 sell(s), 2 buy(s); 30 order(s) working; budget left $14511.94 this week
 - SELL 100% OKLO [time stop] -> $1990.87 (-0.46%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% TTD [time stop] -> $1497.62 (-0.16%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 11:43 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 11:44 ET (Wednesday) — week 2026-W39 — budget left $22506.84 (today $89906.13 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions with 90% cash idle - the owner's rule is explicit to deploy in size. Adding 7 new names (IBM, AVGO, NEM, TSM, AMZN, HD, AAPL) with concrete evidence from today's headlines and momentum, avoiding all cooling-off tickers (PLTR, OKLO, TTD, NOC, RTX, UNH, IBM was checked clear, GOOGL, NLR). Widely_held sector has the best realized track record (4.28% avg) so weighting there, plus gold/TSM for diversification, each with a protective stop per risk_management guardrails.
+lesson: When below min_positions with high idle cash, buy 6-8 names directly at market in $2-3k size backed by today's headlines/momentum, skipping cooling-off names, and attach individual stop_loss triggers immediately rather than relying only on resting limits.
+  (dropped IBM: sold 20 min ago, cooling off)
+  (dropped GOOGL: sold 18 min ago, cooling off)
+- BUY $3000.00 AVGO [filled] ['momentum', 'news'] — Widely_held sector has best track record avg_ret_pct 4.28% in this book; fresh bullish coverage today | evidence: AVGO 5d +5.03%, headline 'This Magnificent Seven Stock Could Turn $10,000 Into $20,000 by 2027' 2026-09-23
+- BUY $2500.00 NEM [filled] ['momentum', 'news'] — Gold sector diversifier, positive momentum, fresh headline on cash flow strength | evidence: NEM 1d +0.13%, pct_of_day_range 67.7, headline 'Can Newmont's Record Free Cash Flow Momentum Carry Into Q3?' 2026-09-23
+- BUY $3000.00 TSM [filled] ['momentum', 'news'] — Strong momentum widely_held name, chip demand tailwind, not cooling off | evidence: TSM 1d +0.75%, 5d +8.39%, pct_of_day_range 69.8, headline 'Wall Street Bulls Look Optimistic About TSMC' 2026-09-23
+- BUY $2500.00 AMZN [filled] ['momentum', 'news'] — Widely_held sector strong track record, dip-buy opportunity at 31.6% of day range | evidence: AMZN pct_of_day_range 31.6, headline 'Meta's Muse AI teams up with Shopify' affects e-commerce competitors 2026-09-22
+- BUY $2000.00 HD [filled] ['momentum', 'news'] — Low in day range gives good entry, positive housing recovery headline | evidence: HD 1d +0.78%, pct_of_day_range 6.1 (near day low), headline 'Home Depot (HD) is Positioned to benefit from Housing Market Recovery' 2026-09-23
+- BUY $1847.32 AAPL [filled] ['momentum'] — Near day low entry on a name with strong monthly momentum, diversifies widely_held sleeve | evidence: AAPL pct_of_day_range 11.0 (near day low), 1m +8.8%
+  (dropped trigger IBM stop_loss: not held)
+~ WORKING stop_loss 100% AVGO @ $346.00 until 2026-09-23 — protective stop ~2.9% below entry
+~ WORKING stop_loss 100% TSM @ $436.00 until 2026-09-23 — protective stop ~2.7% below entry
+~ WORKING stop_loss 100% AMZN @ $242.50 until 2026-09-23 — protective stop ~3% below entry
+~ WORKING stop_loss 100% HD @ $291.00 until 2026-09-23 — protective stop ~2.8% below entry
+~ WORKING stop_loss 100% AAPL @ $326.00 until 2026-09-23 — protective stop ~3% below entry
+~ WORKING stop_loss 100% NEM @ $119.00 until 2026-09-23 — protective stop ~3.4% below entry
+~ WORKING take_profit 100% AVGO @ $357.66 until 2026-09-28 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $345.73 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $123.72 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $119.56 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $449.66 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $435.09 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $250.62 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $242.51 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $300.24 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $290.58 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $337.42 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $326.53 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32893.91 (+31.58% on $25000.00 in) · cash $15557.59 · realised +7904.91
+Done: 0 sell(s), 6 buy(s); 32 order(s) working; budget left $7659.52 this week

@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 2493.16,
-  "deployed": 374902.24,
+  "spent": 17340.48,
+  "deployed": 389749.56,
   "by_ticker": {
     "NOC": 27.81,
     "IBM": 12.23,
@@ -10,16 +10,20 @@
     "HLI": 9.7,
     "CHRW": 15.88,
     "GOOGL": 67.13,
-    "AMZN": 2.58,
+    "AMZN": 2502.58,
     "RTX": 11.45,
-    "AVGO": 16.12,
+    "AVGO": 3016.12,
     "SPY": 2.94,
     "O": 11.65,
     "PLD": 6.34,
     "UNH": 0.8,
     "OKLO": 9.13,
     "TTD": 2.38,
-    "AMAT": 2500.0
+    "AMAT": 2500.0,
+    "NEM": 2500.0,
+    "TSM": 3000.0,
+    "HD": 2000.0,
+    "AAPL": 1847.32
   },
   "deployed_by_ticker": {
     "AMD": 34255.56,
@@ -34,25 +38,25 @@
     "LMT": 8000.0,
     "RTX": 16431.03,
     "CCJ": 28885.0,
-    "TSM": 22220.82,
-    "AVGO": 12974.36,
+    "TSM": 25220.82,
+    "AVGO": 15974.36,
     "UNH": 18488.45,
     "IBM": 18755.97,
     "PLD": 7891.02,
     "GOOGL": 28913.79,
     "META": 15555.56,
     "GLD": 6507.69,
-    "AAPL": 7394.74,
+    "AAPL": 9242.06,
     "CRWD": 6166.67,
     "HLI": 1000.0,
     "HUBB": 2000.0,
     "NLR": 5000.0,
-    "AMZN": 8700.0,
+    "AMZN": 11200.0,
     "IBP": 5000.0,
-    "NEM": 3500.0,
+    "NEM": 6000.0,
     "SPY": 1000.0,
     "O": 2000.0,
-    "HD": 2000.0
+    "HD": 4000.0
   },
   "orders": [
     {
@@ -6244,12 +6248,113 @@
       ],
       "evidence": "bought 30 min ago, -0.12% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.417006,
+      "price": 356.42,
+      "date": "2026-09-23",
+      "time_et": "11:44",
+      "ts": 1790178296,
+      "why": "Widely_held sector has best track record avg_ret_pct 4.28% in this book; fresh bullish coverage today",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AVGO 5d +5.03%, headline 'This Magnificent Seven Stock Could Turn $10,000 Into $20,000 by 2027' 2026-09-23"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.282448,
+      "price": 123.26,
+      "date": "2026-09-23",
+      "time_et": "11:44",
+      "ts": 1790178296,
+      "why": "Gold sector diversifier, positive momentum, fresh headline on cash flow strength",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "NEM 1d +0.13%, pct_of_day_range 67.7, headline 'Can Newmont's Record Free Cash Flow Momentum Carry Into Q3?' 2026-09-23"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.688222,
+      "price": 448.55,
+      "date": "2026-09-23",
+      "time_et": "11:44",
+      "ts": 1790178296,
+      "why": "Strong momentum widely_held name, chip demand tailwind, not cooling off",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "TSM 1d +0.75%, 5d +8.39%, pct_of_day_range 69.8, headline 'Wall Street Bulls Look Optimistic About TSMC' 2026-09-23"
+    },
+    {
+      "symbol": "AMZN",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.9996,
+      "price": 250.01,
+      "date": "2026-09-23",
+      "time_et": "11:44",
+      "ts": 1790178296,
+      "why": "Widely_held sector strong track record, dip-buy opportunity at 31.6% of day range",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AMZN pct_of_day_range 31.6, headline 'Meta's Muse AI teams up with Shopify' affects e-commerce competitors 2026-09-22"
+    },
+    {
+      "symbol": "HD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.676238,
+      "price": 299.57,
+      "date": "2026-09-23",
+      "time_et": "11:44",
+      "ts": 1790178296,
+      "why": "Low in day range gives good entry, positive housing recovery headline",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "HD 1d +0.78%, pct_of_day_range 6.1 (near day low), headline 'Home Depot (HD) is Positioned to benefit from Housing Market Recovery' 2026-09-23"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 1847.32,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.487731,
+      "price": 336.63,
+      "date": "2026-09-23",
+      "time_et": "11:44",
+      "ts": 1790178296,
+      "why": "Near day low entry on a name with strong monthly momentum, diversifies widely_held sleeve",
+      "signals": [
+        "momentum"
+      ],
+      "evidence": "AAPL pct_of_day_range 11.0 (near day low), 1m +8.8%"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 2493.16,
-  "deployed_today": 89906.13,
-  "orders_today": 39,
+  "spent_today": 17340.48,
+  "deployed_today": 104753.45,
+  "orders_today": 45,
   "sells_today": 37,
   "sold_today": [
     "TSM",
@@ -6315,26 +6420,44 @@
     "O": 1790175358,
     "HD": 1790175358
   },
-  "last_publish_ts": 1790178208,
-  "last_check_ts": 1790178208,
+  "last_publish_ts": 1790178296,
+  "last_check_ts": 1790178296,
   "last_bar_ts": 1790178000,
-  "last_decision_ts": 1790177353,
+  "last_decision_ts": 1790178296,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "dae03ea7": 768.1506,
+    "091a5b97": 300.235,
+    "d4da3143": 337.4177,
+    "3cf220a4": 250.62,
+    "7dfe820f": 449.6579,
     "9d64de1c": 192.9905,
-    "7f8cd152": 224.4534,
+    "12bfb8ba": 357.6639,
     "ba66b745": 496.1125,
+    "72834df2": 123.7161,
+    "7f8cd152": 224.4534,
     "3b0331cf": 334.6269,
-    "cb25544a": 149.1994,
     "91828039": 474.6127,
+    "cb25544a": 149.1994,
     "b06ffd3d": 604.1277,
     "ef0c7f59": 458.1465,
     "e187e6f8": 740.849,
     "e21f9d51": 455.1325,
     "14ba5deb": 458.4123,
+    "85a82d77": 436.0,
+    "6942550e": 291.0,
+    "703c5f1a": 346.0,
     "a78f6332": 485.0,
+    "2d7357ec": 119.5622,
+    "9e85e68b": 242.5,
+    "6846e23e": 345.7274,
+    "802d92e3": 435.0935,
+    "1786b3ee": 242.5097,
+    "3fb08561": 290.5829,
+    "daadea71": 326.5311,
+    "1e400fdb": 326.0,
+    "08258d8e": 119.0,
     "6cdf96f4": 455.0
   }
 }
