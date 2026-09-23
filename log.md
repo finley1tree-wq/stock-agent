@@ -15070,3 +15070,8 @@ Decision: nothing at this check. 19 standing order(s) working.
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $92.60] -> $2007.93 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-09-23 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 AAPL [buy_limit @ $336.98] — strong month, weak day: resting 0.43% under $338.44 to catch the dip
+## 2026-09-23 10:16 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBP: position closed)
+- SELL 100% IBP [take_profit @ $209.36] -> $2010.43 (+0.52%) — close 100% at +0.5% over the average cost
+## 2026-09-23 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders

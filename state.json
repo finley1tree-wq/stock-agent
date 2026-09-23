@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 12930.4,
-  "deployed": 331202.24,
+  "spent": 11919.97,
+  "deployed": 332202.24,
   "by_ticker": {
     "NOC": 30.92,
     "IBM": 22.77,
@@ -14,9 +14,8 @@
     "GOOGL": 54.98,
     "AMZN": 7.48,
     "RTX": 6.86,
-    "AAPL": 1.17,
+    "AAPL": 1001.17,
     "AVGO": 2500.0,
-    "IBP": 2000.0,
     "SPY": 2.94
   },
   "deployed_by_ticker": {
@@ -40,7 +39,7 @@
     "GOOGL": 25913.79,
     "META": 15555.56,
     "GLD": 4307.69,
-    "AAPL": 6394.74,
+    "AAPL": 7394.74,
     "CRWD": 3666.67,
     "HLI": 1000.0,
     "HUBB": 2000.0,
@@ -5459,13 +5458,53 @@
       ],
       "evidence": "average cost $92.24",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.96753,
+      "price": 336.98,
+      "date": "2026-09-23",
+      "time_et": "10:16",
+      "ts": 1790172900,
+      "why": "strong month, weak day: resting 0.43% under $338.44 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+9.4% over the month, sitting at 30% of today's range",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "IBP",
+      "side": "sell",
+      "qty": 9.602768,
+      "status": "filled",
+      "price": 209.36,
+      "proceeds": 2010.43,
+      "realized_pnl": 10.43,
+      "realized_pct": 0.52,
+      "date": "2026-09-23",
+      "time_et": "10:17",
+      "ts": 1790172900,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $208.27",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 12897.69,
-  "deployed_today": 46206.13,
-  "orders_today": 20,
-  "sells_today": 15,
+  "spent_today": 11887.26,
+  "deployed_today": 47206.13,
+  "orders_today": 21,
+  "sells_today": 16,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -5481,7 +5520,8 @@
     "UNH",
     "IBM",
     "SPY",
-    "CCJ"
+    "CCJ",
+    "IBP"
   ],
   "sold_ts": {
     "AMAT": 1790170515,
@@ -5510,32 +5550,31 @@
     "NLR": 1790089922,
     "HUBB": 1790089975,
     "AMZN": 1790102224,
-    "IBP": 1790093662,
+    "IBP": 1790173063,
     "NEM": 1790172517,
     "SPY": 1790172882
   },
-  "last_publish_ts": 1790172935,
-  "last_check_ts": 1790172982,
+  "last_publish_ts": 1790173063,
+  "last_check_ts": 1790173063,
   "last_bar_ts": 1790172900,
   "last_decision_ts": 1790172884,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "60fd7cd4": 336.9806,
-    "2b49006f": 209.3593,
-    "d230690d": 190.1587,
-    "ef0c7f59": 458.1465,
+    "fee82d2f": 337.7584,
+    "18a110df": 335.0323,
     "d600afce": 529.8157,
-    "f20a85ae": 359.8866,
+    "ef0c7f59": 458.1465,
+    "d230690d": 190.1587,
     "663d590d": 494.0,
-    "848eb3f2": 505.4495,
+    "f20a85ae": 359.8866,
     "e21f9d51": 455.1325,
+    "848eb3f2": 505.4495,
     "4af2900b": 351.0,
     "69496d58": 489.2098,
     "49b019aa": 347.9002,
     "dde91470": 184.0,
     "4de966ff": 183.6404,
-    "5326714c": 202.0219,
-    "4475dccc": 202.0
+    "b3976b58": 326.8706
   }
 }

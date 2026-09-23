@@ -1,8 +1,3 @@
-  (dropped AMAT: 92% up today's range — resting a limit at $462.70 instead of chasing)
-- BUY $2368.42 PLTR [filled] ['momentum', 'news'] — AI infra momentum name, widely_held sector strongest in track record (4.97% avg_ret) | evidence: PLTR +6.78% 5d, 'Is Palantir a Millionaire-Maker Stock?' Motley Fool 2026-09-22
-- BUY $1894.74 AAPL [filled] ['news', 'momentum'] — Positive analyst commentary and steady uptrend, low in day range at 38.9% | evidence: AAPL +10.33% 1m, Dan Ives calls Apple 'toll collector' in AI arms race per Stocktwits
-  (dropped trigger CCJ stop_loss: duplicate of a working order)
-  (dropped trigger NVDA stop_loss: duplicate of a working order)
   (dropped trigger TSM stop_loss: not held)
   (dropped trigger AMD stop_loss: not held)
   (dropped trigger AMAT stop_loss: not held)
@@ -398,3 +393,8 @@ Decision: nothing at this check. 19 standing order(s) working.
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $92.60] -> $2007.93 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-09-23 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 AAPL [buy_limit @ $336.98] — strong month, weak day: resting 0.43% under $338.44 to catch the dip
+## 2026-09-23 10:16 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBP: position closed)
+- SELL 100% IBP [take_profit @ $209.36] -> $2010.43 (+0.52%) — close 100% at +0.5% over the average cost
+## 2026-09-23 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders

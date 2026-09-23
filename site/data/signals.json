@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-23T10:15-04:00",
+ "asOf": "2026-09-23T10:17-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,72 +139,37 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "60fd7cd4",
+   "id": "fee82d2f",
    "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 336.9806,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 337.12,
-   "pct_away": -0.04,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.43% under $338.44 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "2b49006f",
-   "ticker": "IBP",
    "kind": "take_profit",
-   "price": 209.3593,
+   "price": 337.7584,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 208.43,
-   "pct_away": 0.45,
+   "last": 337.06,
+   "pct_away": 0.21,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "d230690d",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 190.1587,
+   "id": "18a110df",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 335.0323,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 189.03,
-   "pct_away": 0.6,
+   "last": 337.06,
+   "pct_away": -0.6,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "ef0c7f59",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 458.1465,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 461.53,
-   "pct_away": -0.73,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -215,8 +180,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 533.81,
-   "pct_away": -0.75,
+   "last": 533.1,
+   "pct_away": -0.62,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book",
    "signals": [
@@ -226,17 +191,35 @@
    ]
   },
   {
-   "id": "f20a85ae",
-   "ticker": "AVGO",
+   "id": "ef0c7f59",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 458.1465,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 461.22,
+   "pct_away": -0.67,
+   "good_until": "2026-09-23",
+   "why": "wanted it, but not at the high \u2014 resting at $458.15. Congress buy pressure leader in list, data center demand tailwind; adds to diversification below min_positions",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "d230690d",
+   "ticker": "PLTR",
    "kind": "take_profit",
-   "price": 359.8866,
+   "price": 190.1587,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 356.68,
-   "pct_away": 0.9,
+   "last": 188.65,
+   "pct_away": 0.8,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -250,8 +233,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 498.79,
-   "pct_away": -0.96,
+   "last": 498.33,
+   "pct_away": -0.87,
    "good_until": "2026-09-23",
    "why": "Protective stop",
    "signals": [
@@ -259,17 +242,17 @@
    ]
   },
   {
-   "id": "848eb3f2",
-   "ticker": "MSFT",
+   "id": "f20a85ae",
+   "ticker": "AVGO",
    "kind": "take_profit",
-   "price": 505.4495,
+   "price": 359.8866,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 498.79,
-   "pct_away": 1.34,
+   "last": 356.19,
+   "pct_away": 1.04,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -283,14 +266,31 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 461.53,
-   "pct_away": -1.39,
+   "last": 461.22,
+   "pct_away": -1.32,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $455.13. Highest congress buy pressure score in list plus positive momentum",
    "signals": [
     "congress",
     "momentum",
     "patience"
+   ]
+  },
+  {
+   "id": "848eb3f2",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 505.4495,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 498.33,
+   "pct_away": 1.43,
+   "good_until": "2026-09-28",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -301,8 +301,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 356.68,
-   "pct_away": -1.59,
+   "last": 356.19,
+   "pct_away": -1.46,
    "good_until": "2026-09-23",
    "why": "Protective stop",
    "signals": [
@@ -317,8 +317,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 498.79,
-   "pct_away": -1.92,
+   "last": 498.33,
+   "pct_away": -1.83,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -334,8 +334,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 356.68,
-   "pct_away": -2.46,
+   "last": 356.19,
+   "pct_away": -2.33,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -351,8 +351,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 189.03,
-   "pct_away": -2.66,
+   "last": 188.65,
+   "pct_away": -2.46,
    "good_until": "2026-09-23",
    "why": "protective stop on new PLTR buy",
    "signals": [
@@ -367,8 +367,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 189.03,
-   "pct_away": -2.85,
+   "last": 188.65,
+   "pct_away": -2.66,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -377,36 +377,20 @@
    ]
   },
   {
-   "id": "5326714c",
-   "ticker": "IBP",
+   "id": "b3976b58",
+   "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 202.0219,
+   "price": 326.8706,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 208.43,
-   "pct_away": -3.07,
+   "last": 337.06,
+   "pct_away": -3.02,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "4475dccc",
-   "ticker": "IBP",
-   "kind": "stop_loss",
-   "price": 202.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 208.43,
-   "pct_away": -3.08,
-   "good_until": "2026-09-23",
-   "why": "Protective stop",
-   "signals": [
-    "risk_management"
    ]
   }
  ],
