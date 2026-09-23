@@ -1,9 +1,3 @@
-~ WORKING stop_loss 100% CRWD @ $246.70 until 2026-09-23 — protective stop on new CRWD position
-~ WORKING stop_loss 100% O @ $54.65 until 2026-09-23 — protective stop on new O position
-~ WORKING stop_loss 100% PLD @ $132.70 until 2026-09-23 — protective stop on new PLD position
-~ WORKING stop_loss 100% HD @ $293.90 until 2026-09-23 — protective stop on new HD position
-~ WORKING stop_loss 100% AMZN @ $243.30 until 2026-09-23 — protective stop on new AMZN position
-~ WORKING take_profit 100% TSM @ $445.90 until 2026-09-28 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 TSM @ $431.45 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% CRWD @ $253.18 until 2026-09-28 — close 100% at +0.6% over the average cost
 ~ WORKING buy_limit $500.00 CRWD @ $244.24 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +392,9 @@ Done: 0 sell(s), 4 buy(s); 35 order(s) working; budget left $4986.66 this week
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [stop_loss @ $134.86] -> $1846.54 (+0.02%) — close it all at -0.5% under the average cost
 ## 2026-09-23 13:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [take_profit @ $470.44] -> $3012.91 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-09-23 13:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $191.25] -> $4017.72 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-23 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
