@@ -1,5 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +396,5 @@ lesson: Diversifying into non-cooling-off names (CHRW/IBM/PLD/HD) at $1.6-2.2k w
 ~ WORKING buy_limit $1000.00 NVDA @ $223.89 until 2026-09-24 — strong month, weak day: resting 0.56% under $225.14 to catch the dip
 portfolio: equity $32881.83 (+31.53% on $25000.00 in) · cash $18786.59 · realised +7886.59
 Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $10888.52 this week
+- SELL 100% IBP [time stop] -> $1991.22 (-0.44%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -6862,7 +6862,7 @@
    "ticker": "IBP",
    "kind": "stop_loss",
    "price": 200.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:24",
    "created_ts": 1790184273,
    "why": "Protective stop on new IBP position",
@@ -6871,7 +6871,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 13:55",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "51f5cda6",
@@ -6896,7 +6898,7 @@
    "ticker": "IBP",
    "kind": "take_profit",
    "price": 209.812,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:24",
    "created_ts": 1790184273,
    "why": "close 100% at +0.5% over the average cost",
@@ -6906,14 +6908,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 13:55",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "16bf38b7",
    "ticker": "IBP",
    "kind": "buy_limit",
    "price": 202.4487,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:24",
    "created_ts": 1790184273,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6923,7 +6927,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 13:55",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "57a9f089",
