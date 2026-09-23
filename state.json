@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 10971.79,
+  "spent": 8454.15,
   "deployed": 318202.24,
   "by_ticker": {
     "NOC": 30.92,
@@ -17,7 +17,6 @@
     "RTX": 6.86,
     "AAPL": 1.17,
     "AVGO": 2500.0,
-    "OKLO": 2500.0,
     "IBP": 2000.0,
     "SPY": 1000.0
   },
@@ -5231,13 +5230,34 @@
       ],
       "evidence": "average cost $346.79",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "OKLO",
+      "side": "sell",
+      "qty": 62.915418,
+      "status": "filled",
+      "price": 40.02,
+      "proceeds": 2517.64,
+      "realized_pnl": 17.64,
+      "realized_pct": 0.71,
+      "date": "2026-09-23",
+      "time_et": "10:00",
+      "ts": 1790172000,
+      "why": "close 100% at +0.7% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $39.74",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 10939.08,
+  "spent_today": 8421.44,
   "deployed_today": 33206.13,
   "orders_today": 14,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "TSM",
     "AMAT",
@@ -5247,7 +5267,8 @@
     "CRWD",
     "CHRW",
     "NOC",
-    "GOOGL"
+    "GOOGL",
+    "OKLO"
   ],
   "sold_ts": {
     "AMAT": 1790170515,
@@ -5256,7 +5277,7 @@
     "CHRW": 1790171335,
     "PLTR": 1790099906,
     "MSFT": 1790101753,
-    "OKLO": 1790089661,
+    "OKLO": 1790172025,
     "CCJ": 1790106052,
     "LMT": 1790089354,
     "TTD": 1790101793,
@@ -5279,30 +5300,27 @@
     "IBP": 1790093662,
     "NEM": 1790093662
   },
-  "last_publish_ts": 1790171756,
-  "last_check_ts": 1790171981,
-  "last_bar_ts": 1790171700,
+  "last_publish_ts": 1790172022,
+  "last_check_ts": 1790172070,
+  "last_bar_ts": 1790172000,
   "last_decision_ts": 1790171272,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "60fd7cd4": 336.9806,
-    "0689876d": 769.3582,
     "05a8f060": 772.3969,
+    "0689876d": 769.3582,
     "848eb3f2": 505.4495,
     "f20a85ae": 359.8866,
     "2b49006f": 209.3593,
-    "e21f9d51": 455.1325,
     "7081a784": 188.659,
-    "7b4710bb": 40.0162,
+    "e21f9d51": 455.1325,
     "663d590d": 494.0,
     "4af2900b": 351.0,
-    "311ddb61": 38.5478,
-    "49b019aa": 347.9002,
-    "69496d58": 489.2098,
     "5326714c": 202.0219,
     "4475dccc": 202.0,
-    "4d898039": 748.1028,
-    "6fde0af6": 37.5
+    "69496d58": 489.2098,
+    "49b019aa": 347.9002,
+    "4d898039": 748.1028
   }
 }
