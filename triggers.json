@@ -1,101 +1,6 @@
 {
  "orders": [
   {
-   "id": "91f6d31f",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 509.6089,
-   "status": "cancelled",
-   "created": "2026-09-21 15:49",
-   "created_ts": 1790020174,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $525.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:50",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "3b5c70c6",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 203.931,
-   "status": "cancelled",
-   "created": "2026-09-21 15:49",
-   "created_ts": 1790020174,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $194.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-21 15:50",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "69c753dc",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 188.3934,
-   "status": "cancelled",
-   "created": "2026-09-21 15:49",
-   "created_ts": 1790020174,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $194.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:50",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "ab29d636",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 365.7773,
-   "status": "cancelled",
-   "created": "2026-09-21 15:49",
-   "created_ts": 1790020174,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $377.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:50",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "26a62fae",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 509.6089,
-   "status": "cancelled",
-   "created": "2026-09-21 15:50",
-   "created_ts": 1790020220,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $525.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:50",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "578fb79e",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -7452,7 +7357,92 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-23 10:33",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "93db7795",
+   "ticker": "GLD",
+   "kind": "stop_loss",
+   "price": 386.9,
+   "status": "working",
+   "created": "2026-09-23 10:40",
+   "created_ts": 1790174459,
+   "why": "protective stop on new GLD position",
+   "evidence": "ATR 1.86%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9d64de1c",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 192.9905,
+   "status": "working",
+   "created": "2026-09-23 10:40",
+   "created_ts": 1790174459,
+   "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
+   "evidence": "RTX at 97.3% of day range, headline 'RTX Corporation is Attracting Investor Attention' Zacks 2026-09-23, defense sector fresh catalyst (fusion laser/Pratt leadership)",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 2200.0
+  },
+  {
+   "id": "cb25544a",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 149.1994,
+   "status": "working",
+   "created": "2026-09-23 10:40",
+   "created_ts": 1790174459,
+   "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
+   "evidence": "congress_net_buy_pressure CHRW=3.0 (highest score), Rep. April McClain Delaney disclosed multiple buys 2026-09-09",
+   "signals": [
+    "congress",
+    "patience"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 2100.0
+  },
+  {
+   "id": "47267323",
+   "ticker": "GLD",
+   "kind": "take_profit",
+   "price": 393.6493,
+   "status": "working",
+   "created": "2026-09-23 10:40",
+   "created_ts": 1790174459,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $392.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "68a827ec",
+   "ticker": "GLD",
+   "kind": "buy_limit",
+   "price": 381.0548,
+   "status": "working",
+   "created": "2026-09-23 10:40",
+   "created_ts": 1790174459,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $392.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 10:37"
+ "updated": "2026-09-23 10:40"
 }

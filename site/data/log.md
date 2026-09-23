@@ -1,27 +1,3 @@
-~ WORKING take_profit 100% IBM @ $232.29 until 2026-09-27 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $224.52 until 2026-09-27 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32823.89 (+31.30% on $25000.00 in) · cash $19930.61 · realised +7825.35
-Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $12067.84 this week
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [stop_loss @ $150.19] -> $1000.35 (+0.03%) — close it all at -0.7% under the average cost
-## 2026-09-22 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $1000.00 TTD [buy_limit @ $13.18] — strong month, weak day: resting 1.01% under $13.32 to catch the dip
-## 2026-09-22 14:17 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% AAPL [time stop] -> $2893.57 (-0.04%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-22 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $497.59] -> $2505.83 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-09-22 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $13.25] -> $1005.18 (+0.52%) — close 100% at +0.6% over the average cost
-## 2026-09-22 14:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% GOOGL [time stop] -> $2498.29 (-0.07%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AMZN [time stop] -> $1995.68 (-0.22%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% IBM [time stop] -> $2001.36 (+0.07%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-22 14:37 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-22 14:37 ET (Tuesday) — week 2026-W39 — budget left $24968.10 (today $156201.34 put to work, 68 buys, 65 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
@@ -398,3 +374,27 @@ Done: 0 sell(s), 6 buy(s); 30 order(s) working; budget left $5522.75 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $445.90] -> $2506.23 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 10:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:40 ET (Wednesday) — week 2026-W39 — budget left $14528.46 (today $60206.13 put to work, 27 buys, 21 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+brain: Below min_positions (5 of 8) with 58% idle cash - need more names now. Picked RTX (defense momentum, no cooldown), GLD (low day-range entry, diversifies away from tech), CHRW (highest congress buy pressure score 3.0 with confirmed disclosed buys). Avoided all cooling-off names (TSM, CCJ, MSFT, AVGO, UNH, IBM, AAPL, PLTR, OKLO, NEM, IBP, SPY) per last lesson. Added protective stops on each new position consistent with risk_management signal which has 86% hit rate historically.
+lesson: Always cross-check allowed_tickers against cooling_off_minutes_left before building candidate list to avoid wasted picks; congress_net_buy_pressure score plus who_disclosed_it confirmation is a decent tiebreaker among eligible names.
+  (dropped TSM: sold 4 min ago, cooling off)
+  (dropped CCJ: sold 26 min ago, cooling off)
+  (dropped RTX: 97% up today's range — resting a limit at $192.99 instead of chasing)
+  (dropped CHRW: 86% up today's range — resting a limit at $149.20 instead of chasing)
+- BUY $2200.00 GLD [filled] ['momentum', 'risk_management'] — Diversification into gold at low point of day range, hedges tech-heavy book | evidence: GLD at 18.1% of day range (low), gold sector backtest 5y avg_total_return 148.58% (weak prior, but cheap entry point today after -1.41% 1d move)
+  (dropped trigger RTX stop_loss: not held)
+  (dropped trigger CHRW stop_loss: not held)
+~ WORKING stop_loss 100% GLD @ $386.90 until 2026-09-23 — protective stop on new GLD position
+~ WORKING buy_limit $2200.00 RTX @ $192.99 until 2026-09-23 — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
+~ WORKING buy_limit $2100.00 CHRW @ $149.20 until 2026-09-23 — wanted it, but not at the high — resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list
+~ WORKING take_profit 100% GLD @ $393.65 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GLD @ $381.05 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32888.45 (+31.55% on $25000.00 in) · cash $20191.21 · realised +7891.21
+Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week

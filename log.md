@@ -15127,3 +15127,27 @@ Done: 0 sell(s), 6 buy(s); 30 order(s) working; budget left $5522.75 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $445.90] -> $2506.23 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 10:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 10:40 ET (Wednesday) — week 2026-W39 — budget left $14528.46 (today $60206.13 put to work, 27 buys, 21 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
+brain: Below min_positions (5 of 8) with 58% idle cash - need more names now. Picked RTX (defense momentum, no cooldown), GLD (low day-range entry, diversifies away from tech), CHRW (highest congress buy pressure score 3.0 with confirmed disclosed buys). Avoided all cooling-off names (TSM, CCJ, MSFT, AVGO, UNH, IBM, AAPL, PLTR, OKLO, NEM, IBP, SPY) per last lesson. Added protective stops on each new position consistent with risk_management signal which has 86% hit rate historically.
+lesson: Always cross-check allowed_tickers against cooling_off_minutes_left before building candidate list to avoid wasted picks; congress_net_buy_pressure score plus who_disclosed_it confirmation is a decent tiebreaker among eligible names.
+  (dropped TSM: sold 4 min ago, cooling off)
+  (dropped CCJ: sold 26 min ago, cooling off)
+  (dropped RTX: 97% up today's range — resting a limit at $192.99 instead of chasing)
+  (dropped CHRW: 86% up today's range — resting a limit at $149.20 instead of chasing)
+- BUY $2200.00 GLD [filled] ['momentum', 'risk_management'] — Diversification into gold at low point of day range, hedges tech-heavy book | evidence: GLD at 18.1% of day range (low), gold sector backtest 5y avg_total_return 148.58% (weak prior, but cheap entry point today after -1.41% 1d move)
+  (dropped trigger RTX stop_loss: not held)
+  (dropped trigger CHRW stop_loss: not held)
+~ WORKING stop_loss 100% GLD @ $386.90 until 2026-09-23 — protective stop on new GLD position
+~ WORKING buy_limit $2200.00 RTX @ $192.99 until 2026-09-23 — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
+~ WORKING buy_limit $2100.00 CHRW @ $149.20 until 2026-09-23 — wanted it, but not at the high — resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list
+~ WORKING take_profit 100% GLD @ $393.65 until 2026-09-28 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GLD @ $381.05 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32888.45 (+31.55% on $25000.00 in) · cash $20191.21 · realised +7891.21
+Done: 0 sell(s), 1 buy(s); 26 order(s) working; budget left $12328.46 this week
