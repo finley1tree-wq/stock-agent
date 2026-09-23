@@ -30874,5 +30874,57 @@
     "code_version": "0305703",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "NEM",
+    "side": "sell",
+    "qty": 12.308326,
+    "status": "filled",
+    "price": 122.33,
+    "proceeds": 1505.64,
+    "realized_pnl": 5.64,
+    "realized_pct": 0.38,
+    "date": "2026-09-23",
+    "time_et": "10:08",
+    "ts": 1790172300,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $121.87",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "af30f0d"
+  },
+  {
+    "symbol": "PLTR",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 15.901706,
+    "price": 188.66,
+    "date": "2026-09-23",
+    "time_et": "10:08",
+    "ts": 1790172300,
+    "why": "wanted it, but not at the high \u2014 resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record",
+    "signals": [
+      "momentum",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "PLTR +5.26% 1d, +11.69% 5d, headline 'Palantir Could Be a Major Winner as Air Traffic Control Goes AI' (Barrons 09-23)",
+    "trigger": "buy_limit",
+    "entry_price": 188.659,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 4.91,
+    "hour_et": 10,
+    "code_version": "af30f0d",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

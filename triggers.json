@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "63b26401",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 509.6089,
-   "status": "cancelled",
-   "created": "2026-09-21 15:43",
-   "created_ts": 1790019803,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $525.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "bf073463",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 188.3934,
-   "status": "cancelled",
-   "created": "2026-09-21 15:43",
-   "created_ts": 1790019803,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $194.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-26",
-   "usd": 500.0,
-   "closed": "2026-09-21 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "73a3682b",
    "ticker": "UNH",
    "kind": "buy_limit",
@@ -6886,7 +6848,7 @@
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 188.659,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 09:47",
    "created_ts": 1790171272,
    "why": "wanted it, but not at the high \u2014 resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record",
@@ -6897,7 +6859,8 @@
     "patience"
    ],
    "good_until": "2026-09-23",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-23 10:08"
   },
   {
    "id": "e21f9d51",
@@ -7230,7 +7193,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 118.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:04",
    "created_ts": 1790172256,
    "why": "protective stop on new NEM buy",
@@ -7239,14 +7202,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:08",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a3123c40",
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 190.9565,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:04",
    "created_ts": 1790172256,
    "why": "close 100% at +0.4% over the average cost",
@@ -7256,14 +7221,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "945757df",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 184.4164,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:04",
    "created_ts": 1790172256,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7273,7 +7240,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 10:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "14f0b23f",
@@ -7384,7 +7353,7 @@
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 122.327,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 10:04",
    "created_ts": 1790172256,
    "why": "close 100% at +0.4% over the average cost",
@@ -7394,14 +7363,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 10:08"
   },
   {
    "id": "834e07af",
    "ticker": "NEM",
    "kind": "buy_limit",
    "price": 118.2139,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 10:04",
    "created_ts": 1790172256,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7411,7 +7381,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 10:08",
+   "cancel_reason": "position closed"
   },
   {
    "id": "764f1429",
@@ -7448,7 +7420,41 @@
    ],
    "good_until": "2026-09-28",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "d230690d",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 190.1587,
+   "status": "working",
+   "created": "2026-09-23 10:08",
+   "created_ts": 1790172516,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $189.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4de966ff",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 183.6404,
+   "status": "working",
+   "created": "2026-09-23 10:08",
+   "created_ts": 1790172516,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $189.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 10:06"
+ "updated": "2026-09-23 10:08"
 }

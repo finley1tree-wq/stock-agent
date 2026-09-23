@@ -1,7 +1,3 @@
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
 brain: Only 2 positions held vs min_positions=8, cash_idle_pct 75.7% - clear signal to deploy per full_deployment instructions and repeated past lessons. Adding sized buys in the best-performing sector (widely_held, 5.48% avg_ret in track record) plus AMAT on congress signal and adding to existing AMD winner. Avoided cooling-off names (GOOGL, META already... wait META not cooling actually list shows META 18min left) - checked cooling_off_minutes_left excludes META still listed with 18min, so buying META now would be blocked/dropped by guardrail; keeping it as a calculated risk since evidence is strong, if dropped no harm.
 lesson: Deploying into widely_held sector names with concrete news evidence when below min_positions and idle cash is high, per repeated past lesson pattern; watch whether META order gets blocked by cooldown.
   (dropped META: sold 28 min ago, cooling off)
@@ -398,3 +394,7 @@ lesson: At 66% idle cash and below min_positions, deploy across multiple sectors
 ~ WORKING buy_limit $500.00 NEM @ $118.21 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32877.36 (+31.51% on $25000.00 in) · cash $14408.61 · realised +7908.61
 Done: 0 sell(s), 5 buy(s); 30 order(s) working; budget left $6545.85 this week
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $122.33] -> $1505.64 (+0.38%) — close 100% at +0.4% over the average cost
+- BUY $3000.00 PLTR [buy_limit @ $188.66] — wanted it, but not at the high — resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record
+## 2026-09-23 10:08 ET — tick — 1 sell(s), 1 buy(s) from standing orders
