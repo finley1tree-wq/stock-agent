@@ -1,6 +1,3 @@
-## 2026-09-23 11:44 ET (Wednesday) — week 2026-W39 — budget left $22506.84 (today $89906.13 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
@@ -398,3 +395,6 @@ lesson: Past lessons consistently show $2-2.3k market buys across distinct secto
 ~ WORKING buy_limit $500.00 LMT @ $511.39 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32872.64 (+31.49% on $25000.00 in) · cash $23274.90 · realised +7874.90
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $15376.83 this week
+- SELL 100% PLTR [time stop] -> $2199.00 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% RTX [time stop] -> $1994.70 (-0.27%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 14:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders

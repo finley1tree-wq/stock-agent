@@ -15677,3 +15677,6 @@ lesson: Past lessons consistently show $2-2.3k market buys across distinct secto
 ~ WORKING buy_limit $500.00 LMT @ $511.39 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32872.64 (+31.49% on $25000.00 in) · cash $23274.90 · realised +7874.90
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $15376.83 this week
+- SELL 100% PLTR [time stop] -> $2199.00 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% RTX [time stop] -> $1994.70 (-0.27%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 14:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
