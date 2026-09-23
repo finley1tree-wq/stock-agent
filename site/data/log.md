@@ -1,6 +1,3 @@
-  (dropped AMZN: sold 9 min ago, cooling off)
-  (dropped CCJ: sold 42 min ago, cooling off)
-  (dropped TSM: sold 20 min ago, cooling off)
   (dropped AVGO: sold 39 min ago, cooling off)
 - BUY $3000.00 IBM [filled] ['news', 'momentum'] — Widely_held sector has best track record avg_ret 4.32%; IBM has fresh positive news and room in day range, not cooling off | evidence: IBM +1.72% today, headline 'IBM's Gary Cohn on AI's productivity boom' 2026-09-23, 59.5% of day range - not chasing
 - BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Widely_held sector, deep pullback puts it at bottom of day range, good entry for mean reversion | evidence: GOOGL -3.54% today, 23% of day range - lowest in range among mega caps, Pete Sessions and Thomas Kean both disclosed sells but that's already priced
@@ -398,3 +395,6 @@ Done: 0 sell(s), 6 buy(s); 35 order(s) working; budget left $9474.81 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $339.12] -> $3008.75 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 13:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $447.12] -> $2004.96 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-23 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders

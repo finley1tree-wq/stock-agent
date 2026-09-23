@@ -6994,7 +6994,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 441.9275,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:09",
    "created_ts": 1790183365,
    "why": "strong month, weak day: resting 0.47% under $444.00 to catch the dip",
@@ -7004,7 +7004,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-24",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-23 13:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c3ff961e",
@@ -7113,7 +7115,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 437.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:40",
    "created_ts": 1790185221,
    "why": "Protective stop for TSM",
@@ -7122,7 +7124,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-23",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 13:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ec8d049d",
@@ -7248,7 +7252,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 447.1161,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-23 13:40",
    "created_ts": 1790185221,
    "why": "close 100% at +0.2% over the average cost",
@@ -7258,14 +7262,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-23 13:48"
   },
   {
    "id": "04cb1143",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 432.6297,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 13:40",
    "created_ts": 1790185221,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7275,7 +7280,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-23 13:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8b49f65a",
@@ -7414,5 +7421,5 @@
    "usd": 1000.0
   }
  ],
- "updated": "2026-09-23 13:46"
+ "updated": "2026-09-23 13:48"
 }
