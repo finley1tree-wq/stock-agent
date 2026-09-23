@@ -15608,3 +15608,6 @@ portfolio: equity $32881.83 (+31.53% on $25000.00 in) · cash $18786.59 · reali
 Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $10888.52 this week
 - SELL 100% IBP [time stop] -> $1991.22 (-0.44%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMZN: position closed)
+- SELL 100% AMZN [take_profit @ $248.95] -> $2506.18 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-23 13:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders

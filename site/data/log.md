@@ -1,6 +1,3 @@
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (NTRP excluded: too thinly traded ($0.4M a day) — NextTrip, Inc.)
 brain: Below min_positions (5 held, need 8) with 40% cash idle - deploying into 3 more names to reach 8 positions. RTX and OKLO add sector diversity (defense, nuclear) with concrete news/momentum evidence; TTD adds congress-backed contrarian entry at a low point in its day range after an -8.57% drop. All new positions get ATR-sized protective stops per risk_management practice which has the best hit rate (0.86-0.87) in track record.
 lesson: Congress-buy-pressure tickers (TTD, CHRW, HUBB) that are cooling off or resting on unfilled limits should be actively re-evaluated for direct market buys when still below min_positions rather than left only as passive limit orders.
@@ -398,3 +395,6 @@ portfolio: equity $32881.83 (+31.53% on $25000.00 in) · cash $18786.59 · reali
 Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $10888.52 this week
 - SELL 100% IBP [time stop] -> $1991.22 (-0.44%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMZN: position closed)
+- SELL 100% AMZN [take_profit @ $248.95] -> $2506.18 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-23 13:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
