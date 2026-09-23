@@ -1,6 +1,3 @@
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger AMD stop_loss: not held)
-  (dropped trigger AMAT stop_loss: not held)
   (dropped trigger TSM buy_limit: duplicate of a working order)
   (dropped trigger AMAT buy_limit: duplicate of a working order)
 ~ WORKING stop_loss 100% PLTR @ $178.00 until 2026-09-22 — protect new PLTR position
@@ -398,3 +395,6 @@ Decision: nothing at this check. 19 standing order(s) working.
   (cancelled 2 standing order(s) on IBP: position closed)
 - SELL 100% IBP [take_profit @ $209.36] -> $2010.43 (+0.52%) — close 100% at +0.5% over the average cost
 ## 2026-09-23 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% MSFT [time stop] -> $2958.84 (-1.37%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AVGO [time stop] -> $2483.88 (-0.64%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 10:18 ET — tick — 2 sell(s), 0 buy(s) from standing orders
