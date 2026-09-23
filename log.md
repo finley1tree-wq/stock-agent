@@ -15705,3 +15705,16 @@ Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $17370.53 this week
 - SELL 100% NLR [time stop] -> $1991.06 (-0.45%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% LMT [time stop] -> $1395.99 (-0.29%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 14:53 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 14:55 ET (Wednesday) — week 2026-W39 — budget left $22749.24 (today $174445.75 put to work, 78 buys, 76 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 2 checks left today (14:55, market closes 16:00) and max_hold_minutes=30 means any new buy now would be force-closed near the close anyway, likely at a worse price given today's broad risk-off tape (SPY -0.72%, GOOGL -4.5%, AMZN -3.3%, most watchlist red). CCJ position already has a working stop_loss (88.70) and take_profit (91.91) bracket in place. Given the day's negative momentum across nearly every name and the short runway left, I'm not chasing new entries into a closing market; existing working buy_limits will only fill on a real dip which is fine to leave resting. Given the last several checks already churned through the cooldown roster with mixed/negative results (many just hit the 30-min time stop for losses), and today is broadly red, I'll sit this one out rather than force a low-quality entry into the close.
+lesson: On a broadly red day (SPY -0.7%, most watchlist down 1-4%) with only ~1hr left before close and a 30-min hard exit, new entries mostly get force-closed into weak momentum; better to protect existing CCJ position and let resting dip-buy_limits work rather than chase red names at 14:55.
+portfolio: equity $32846.19 (+31.38% on $25000.00 in) · cash $30647.31 · realised +7847.31
+Decision: nothing at this check. 22 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
