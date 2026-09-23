@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "58804de7",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 229.9993,
-   "status": "cancelled",
-   "created": "2026-09-22 10:57",
-   "created_ts": 1790089059,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $232.06",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 11:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "84d768d4",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 225.0982,
-   "status": "cancelled",
-   "created": "2026-09-22 10:57",
-   "created_ts": 1790089059,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $232.06",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 11:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "acaf4f3c",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 135.0407,
-   "status": "filled",
-   "created": "2026-09-22 10:57",
-   "created_ts": 1790089059,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $134.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 11:17"
-  },
-  {
-   "id": "df9d39bc",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 134.1619,
-   "status": "cancelled",
-   "created": "2026-09-22 10:57",
-   "created_ts": 1790089059,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $134.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 11:15",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "4d0f70f2",
    "ticker": "PLD",
    "kind": "buy_limit",
@@ -7432,7 +7357,75 @@
    ],
    "good_until": "2026-09-24",
    "usd": 1000.0
+  },
+  {
+   "id": "c3ff961e",
+   "ticker": "IBP",
+   "kind": "stop_loss",
+   "price": 200.0,
+   "status": "working",
+   "created": "2026-09-23 13:24",
+   "created_ts": 1790184273,
+   "why": "Protective stop on new IBP position",
+   "evidence": "IBP ATR 4.756%, day low 206.45",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "51f5cda6",
+   "ticker": "ESE",
+   "kind": "buy_limit",
+   "price": 262.3115,
+   "status": "working",
+   "created": "2026-09-23 13:24",
+   "created_ts": 1790184273,
+   "why": "wanted it, but not at the high \u2014 resting at $262.31. Defense-adjacent infra theme with steady momentum, diversifies away from tech/nuclear/gold already held",
+   "evidence": "ESE +0.85% 1d, day range 86.7% (near high), '3 Stocks Riding The Push To Protect Undersea Cables And Seabed Infrastructure' Simply Wall St",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-23",
+   "usd": 2100.0
+  },
+  {
+   "id": "eb33e630",
+   "ticker": "IBP",
+   "kind": "take_profit",
+   "price": 209.812,
+   "status": "working",
+   "created": "2026-09-23 13:24",
+   "created_ts": 1790184273,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $208.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "16bf38b7",
+   "ticker": "IBP",
+   "kind": "buy_limit",
+   "price": 202.4487,
+   "status": "working",
+   "created": "2026-09-23 13:24",
+   "created_ts": 1790184273,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $208.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-23 13:23"
+ "updated": "2026-09-23 13:24"
 }

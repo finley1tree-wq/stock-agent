@@ -15506,3 +15506,26 @@ Done: 0 sell(s), 4 buy(s); 35 order(s) working; budget left $4986.66 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $262.11] -> $3519.50 (+0.56%) — close 100% at +0.6% over the average cost
 ## 2026-09-23 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 13:24 ET (Wednesday) — week 2026-W39 — budget left $17383.33 (today $143545.75 put to work, 63 buys, 58 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 4 positions held vs min_positions of 8, with 69.5% cash idle - this is a decision costing us per counterfactual data (idle_universe_avg_pct positive). Adding PLTR (fresh FAA news catalyst), CRWD (cybersecurity rally amid tech selloff, congress pressure), IBP (congressional buy disclosed, oversold reversal), and ESE (steady momentum, infra theme) diversifies sectors beyond the nuclear/gold/reit names already held. Sizing at $2-2.2k each per past lesson pattern that scored best (+0.38%, +0.04% last two checks) versus smaller orders that get dropped.
+lesson: Fresh market buys at $2-2.2k across distinct sectors (tech/defense-infra/homebuilding) with immediate stops, using concrete headline catalysts, has scored best in recent checks (+0.38%, +0.04%) versus idle cash or smaller orders.
+  (dropped PLTR: sold 5 min ago, cooling off)
+  (dropped CRWD: sold 2 min ago, cooling off)
+  (dropped ESE: 87% up today's range — resting a limit at $262.31 instead of chasing)
+- BUY $2000.00 IBP [filled] ['congress', 'momentum'] — Congress buying pressure plus reversal setup after month decline | evidence: Rep. David J. Taylor disclosed IBP buy $1,001-$15,000 filed 2026-09-17; IBP +3.04% 1d, 'Down 18.6% in 4 Weeks... Looks Ripe for a Turnaround' Zacks
+  (dropped trigger PLTR stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger ESE stop_loss: not held)
+~ WORKING stop_loss 100% IBP @ $200.00 until 2026-09-23 — Protective stop on new IBP position
+~ WORKING buy_limit $2100.00 ESE @ $262.31 until 2026-09-23 — wanted it, but not at the high — resting at $262.31. Defense-adjacent infra theme with steady momentum, diversifies away from tech/nuclear/gold already held
+~ WORKING take_profit 100% IBP @ $209.81 until 2026-09-28 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $202.45 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32881.72 (+31.53% on $25000.00 in) · cash $23281.40 · realised +7881.40
+Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $15383.33 this week
