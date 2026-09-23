@@ -15067,3 +15067,6 @@ lesson: Reaching min_positions matters more than perfect entries - spread new ca
 ~ WORKING buy_limit $2000.00 LMT @ $529.82 until 2026-09-23 — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
 portfolio: equity $32871.70 (+31.49% on $25000.00 in) · cash $17924.43 · realised +7924.43
 Decision: nothing at this check. 19 standing order(s) working.
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $92.60] -> $2007.93 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-09-23 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders

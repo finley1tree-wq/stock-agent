@@ -1,6 +1,3 @@
-lesson: When below min_positions with high idle cash, deploy sized buys (~$2-3k) across widely_held names with concrete news/momentum evidence immediately rather than waiting on resting limits that keep expiring - always pair with a protective stop_loss trigger.
-  (dropped AMD: sold 7 min ago, cooling off)
-  (dropped TSM: 93% up today's range — resting a limit at $445.26 instead of chasing)
   (dropped AMAT: 92% up today's range — resting a limit at $462.70 instead of chasing)
 - BUY $2368.42 PLTR [filled] ['momentum', 'news'] — AI infra momentum name, widely_held sector strongest in track record (4.97% avg_ret) | evidence: PLTR +6.78% 5d, 'Is Palantir a Millionaire-Maker Stock?' Motley Fool 2026-09-22
 - BUY $1894.74 AAPL [filled] ['news', 'momentum'] — Positive analyst commentary and steady uptrend, low in day range at 38.9% | evidence: AAPL +10.33% 1m, Dan Ives calls Apple 'toll collector' in AI arms race per Stocktwits
@@ -398,3 +395,6 @@ lesson: Reaching min_positions matters more than perfect entries - spread new ca
 ~ WORKING buy_limit $2000.00 LMT @ $529.82 until 2026-09-23 — wanted it, but not at the high — resting at $529.82. Defense sector momentum with fresh news catalyst, diversifies away from tech-heavy book
 portfolio: equity $32871.70 (+31.49% on $25000.00 in) · cash $17924.43 · realised +7924.43
 Decision: nothing at this check. 19 standing order(s) working.
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $92.60] -> $2007.93 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-09-23 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
