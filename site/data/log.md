@@ -1,24 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Below min_positions with 90% cash idle - the owner's rule is explicit to deploy in size. Adding 7 new names (IBM, AVGO, NEM, TSM, AMZN, HD, AAPL) with concrete evidence from today's headlines and momentum, avoiding all cooling-off tickers (PLTR, OKLO, TTD, NOC, RTX, UNH, IBM was checked clear, GOOGL, NLR). Widely_held sector has the best realized track record (4.28% avg) so weighting there, plus gold/TSM for diversification, each with a protective stop per risk_management guardrails.
-lesson: When below min_positions with high idle cash, buy 6-8 names directly at market in $2-3k size backed by today's headlines/momentum, skipping cooling-off names, and attach individual stop_loss triggers immediately rather than relying only on resting limits.
-  (dropped IBM: sold 20 min ago, cooling off)
-  (dropped GOOGL: sold 18 min ago, cooling off)
-- BUY $3000.00 AVGO [filled] ['momentum', 'news'] — Widely_held sector has best track record avg_ret_pct 4.28% in this book; fresh bullish coverage today | evidence: AVGO 5d +5.03%, headline 'This Magnificent Seven Stock Could Turn $10,000 Into $20,000 by 2027' 2026-09-23
-- BUY $2500.00 NEM [filled] ['momentum', 'news'] — Gold sector diversifier, positive momentum, fresh headline on cash flow strength | evidence: NEM 1d +0.13%, pct_of_day_range 67.7, headline 'Can Newmont's Record Free Cash Flow Momentum Carry Into Q3?' 2026-09-23
-- BUY $3000.00 TSM [filled] ['momentum', 'news'] — Strong momentum widely_held name, chip demand tailwind, not cooling off | evidence: TSM 1d +0.75%, 5d +8.39%, pct_of_day_range 69.8, headline 'Wall Street Bulls Look Optimistic About TSMC' 2026-09-23
-- BUY $2500.00 AMZN [filled] ['momentum', 'news'] — Widely_held sector strong track record, dip-buy opportunity at 31.6% of day range | evidence: AMZN pct_of_day_range 31.6, headline 'Meta's Muse AI teams up with Shopify' affects e-commerce competitors 2026-09-22
-- BUY $2000.00 HD [filled] ['momentum', 'news'] — Low in day range gives good entry, positive housing recovery headline | evidence: HD 1d +0.78%, pct_of_day_range 6.1 (near day low), headline 'Home Depot (HD) is Positioned to benefit from Housing Market Recovery' 2026-09-23
-- BUY $1847.32 AAPL [filled] ['momentum'] — Near day low entry on a name with strong monthly momentum, diversifies widely_held sleeve | evidence: AAPL pct_of_day_range 11.0 (near day low), 1m +8.8%
-  (dropped trigger IBM stop_loss: not held)
-~ WORKING stop_loss 100% AVGO @ $346.00 until 2026-09-23 — protective stop ~2.9% below entry
-~ WORKING stop_loss 100% TSM @ $436.00 until 2026-09-23 — protective stop ~2.7% below entry
-~ WORKING stop_loss 100% AMZN @ $242.50 until 2026-09-23 — protective stop ~3% below entry
-~ WORKING stop_loss 100% HD @ $291.00 until 2026-09-23 — protective stop ~2.8% below entry
-~ WORKING stop_loss 100% AAPL @ $326.00 until 2026-09-23 — protective stop ~3% below entry
-~ WORKING stop_loss 100% NEM @ $119.00 until 2026-09-23 — protective stop ~3.4% below entry
 ~ WORKING take_profit 100% AVGO @ $357.66 until 2026-09-28 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 AVGO @ $345.73 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% NEM @ $123.72 until 2026-09-28 — close 100% at +0.4% over the average cost
@@ -398,3 +377,24 @@ Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $15376.83 this week
 - SELL 100% PLTR [time stop] -> $2199.00 (-0.05%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% RTX [time stop] -> $1994.70 (-0.27%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 14:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-23 14:39 ET (Wednesday) — week 2026-W39 — budget left $19570.53 (today $172245.75 put to work, 77 buys, 73 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AXIA3 excluded: no security information)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (3 of 8) with 78% cash idle - must deploy more. PLTR is in cooldown (42 min left) so I'm dropping it and adding CCJ instead which is low in its day range (8.7%) with strong nuclear sector track record (0.93 hit rate). AMAT has congress buying pressure from Gottheimer and positive momentum. Adding stops on new positions per risk_management pattern that has 0.87 hit rate historically.
+lesson: PLTR was in cooling_off (42 min) - always double check cooling_off_minutes_left before finalizing orders, not just before drafting.
+  (dropped PLTR: sold 3 min ago, cooling off)
+  (dropped AMAT: 93% up today's range — resting a limit at $468.64 instead of chasing)
+- BUY $2200.00 CCJ [filled] ['momentum', 'track_record', 'news'] — Deep in day range nuclear name with strong historical sector hit-rate, diversifies away from NLR/defense already held | evidence: CCJ at 8.7% of day range (91.5, low 91.29/high 93.69), nuclear sector has 0.93 hit_rate in track_record by_sector
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger AMAT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% CCJ @ $88.70 until 2026-09-23 — Protective stop for new CCJ position
+~ WORKING take_profit 100% CCJ @ $91.91 until 2026-09-28 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $88.79 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 TSM @ $444.01 until 2026-09-24 — strong month, weak day: resting 0.46% under $446.08 to catch the dip
+portfolio: equity $32852.46 (+31.41% on $25000.00 in) · cash $25268.60 · realised +7868.60
+Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $17370.53 this week

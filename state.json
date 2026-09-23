@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 5429.47,
-  "deployed": 457241.86,
+  "spent": 7629.47,
+  "deployed": 459441.86,
   "by_ticker": {
     "NOC": 28.64,
     "IBM": 25.45,
@@ -28,7 +28,8 @@
     "HUBB": 3.36,
     "PLTR": 1.0,
     "NLR": 2000.0,
-    "LMT": 1400.0
+    "LMT": 1400.0,
+    "CCJ": 2200.0
   },
   "deployed_by_ticker": {
     "AMD": 36501.06,
@@ -42,7 +43,7 @@
     "NOC": 23053.2,
     "LMT": 9400.0,
     "RTX": 18431.03,
-    "CCJ": 30885.0,
+    "CCJ": 33085.0,
     "TSM": 27220.82,
     "AVGO": 17974.36,
     "UNH": 22733.96,
@@ -7630,12 +7631,30 @@
       ],
       "evidence": "bought 30 min ago, -0.23% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 2200.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.034102,
+      "price": 91.54,
+      "date": "2026-09-23",
+      "time_et": "14:39",
+      "ts": 1790188766,
+      "why": "Deep in day range nuclear name with strong historical sector hit-rate, diversifies away from NLR/defense already held",
+      "signals": [
+        "momentum",
+        "track_record",
+        "news"
+      ],
+      "evidence": "CCJ at 8.7% of day range (91.5, low 91.29/high 93.69), nuclear sector has 0.93 hit_rate in track_record by_sector"
     }
   ],
   "day": "2026-09-23",
-  "spent_today": 5429.47,
-  "deployed_today": 172245.75,
-  "orders_today": 77,
+  "spent_today": 7629.47,
+  "deployed_today": 174445.75,
+  "orders_today": 78,
   "sells_today": 73,
   "sold_today": [
     "TSM",
@@ -7706,23 +7725,25 @@
     "ESE": 1790180977,
     "SKWD": 1790182075
   },
-  "last_publish_ts": 1790188599,
-  "last_check_ts": 1790188684,
+  "last_publish_ts": 1790188766,
+  "last_check_ts": 1790188766,
   "last_bar_ts": 1790188500,
-  "last_decision_ts": 1790187790,
+  "last_decision_ts": 1790188766,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "b69edfa6": 765.8752,
     "4736b8f9": 335.8849,
     "9d64de1c": 192.9905,
-    "4a1a82fe": 528.5913,
+    "b5ed7928": 91.9062,
+    "6f5f9aa6": 444.0071,
     "a000aa2c": 55.3455,
-    "02703baa": 149.8,
+    "4a1a82fe": 528.5913,
     "d49470d2": 223.8887,
+    "02703baa": 149.8,
+    "18627ab1": 129.753,
     "30f501bc": 109.6195,
     "ba66b745": 496.1125,
-    "18627ab1": 129.753,
     "ddb9c92e": 149.4195,
     "e187e6f8": 740.849,
     "e9ad1b8b": 258.5,
@@ -7735,10 +7756,12 @@
     "ef0c7f59": 458.1465,
     "bef18265": 105.9337,
     "7f0efd0d": 511.3937,
-    "35f8ab16": 53.5246,
-    "9e4e16c3": 105.8,
     "08d71828": 511.0,
+    "9e4e16c3": 105.8,
+    "35f8ab16": 53.5246,
     "e21f9d51": 455.1325,
-    "5d684b33": 53.4
+    "58554163": 88.7938,
+    "5d684b33": 53.4,
+    "5ed6bc2b": 88.7
   }
 }

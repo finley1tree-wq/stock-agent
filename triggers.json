@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "4d2a1a52",
-   "ticker": "IBP",
-   "kind": "buy_limit",
-   "price": 203.7291,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $210.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 11:54",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "e6c03c67",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 124.6371,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $124.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7142afaf",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 120.4643,
-   "status": "cancelled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $124.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e1f11d5e",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 151.4116,
-   "status": "filled",
-   "created": "2026-09-22 11:43",
-   "created_ts": 1790091828,
-   "why": "strong month, weak day: resting 0.50% under $152.17 to catch the dip",
-   "evidence": "+7.4% over the month, sitting at 25% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 12:19"
-  },
-  {
    "id": "be60f954",
    "ticker": "AMD",
    "kind": "stop_loss",
@@ -7425,7 +7350,74 @@
    ],
    "good_until": "2026-09-28",
    "usd": 500.0
+  },
+  {
+   "id": "5ed6bc2b",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 88.7,
+   "status": "working",
+   "created": "2026-09-23 14:39",
+   "created_ts": 1790188766,
+   "why": "Protective stop for new CCJ position",
+   "evidence": "CCJ ATR 3.6%, protect new position ~3% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-23",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b5ed7928",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 91.9062,
+   "status": "working",
+   "created": "2026-09-23 14:39",
+   "created_ts": 1790188766,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $91.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "58554163",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 88.7938,
+   "status": "working",
+   "created": "2026-09-23 14:39",
+   "created_ts": 1790188766,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $91.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0
+  },
+  {
+   "id": "6f5f9aa6",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 444.0071,
+   "status": "working",
+   "created": "2026-09-23 14:39",
+   "created_ts": 1790188766,
+   "why": "strong month, weak day: resting 0.46% under $446.08 to catch the dip",
+   "evidence": "+6.5% over the month, sitting at 40% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-23 14:23"
+ "updated": "2026-09-23 14:39"
 }
