@@ -1,5 +1,3 @@
-- BUY $2245.51 GOOGL [filled] ['momentum', 'news'] — deep pullback to day low on a mega-cap AI name, cheap entry point vs range | evidence: GOOGL pct_of_day_range only 4.3% (near day low), -4.06% today creating dip entry despite AI cash-flow growth story per Yahoo Finance Chart of Day
-- BUY $2245.51 UNH [filled] ['news'] — value/discount narrative in fresh headline, healthcare diversifier | evidence: 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' Simply Wall St 09-23, pct_of_day_range 69.7
 - BUY $2245.50 AMD [filled] ['momentum', 'news'] — strong momentum name with reasonable entry point in range, not at high | evidence: AMD +30.1% 1m, 'AMD enters $1 Trillion Club' Stocktwits, pct_of_day_range 46.0 mid-range not chasing
 ~ WORKING stop_loss 100% NOC @ $501.00 until 2026-09-23 — protective stop on NOC entry
 ~ WORKING stop_loss 100% ESE @ $256.00 until 2026-09-23 — protective stop on ESE entry
@@ -370,6 +368,8 @@ Decision: nothing at this check. 21 standing order(s) working.
 - BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
 ## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (cancelled 19 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
