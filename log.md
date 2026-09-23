@@ -15315,3 +15315,4 @@ lesson: When below min_positions with high idle cash, buy 6-8 names directly at 
 ~ WORKING buy_limit $500.00 AAPL @ $326.53 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32893.91 (+31.58% on $25000.00 in) · cash $15557.59 · realised +7904.91
 Done: 0 sell(s), 6 buy(s); 32 order(s) working; budget left $7659.52 this week
+  (dropped RTX: sold 13 min ago, cooling off)
