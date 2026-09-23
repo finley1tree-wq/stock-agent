@@ -1,86 +1,6 @@
 {
  "orders": [
   {
-   "id": "ff07d6e0",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 462.7015,
-   "status": "cancelled",
-   "created": "2026-09-22 13:14",
-   "created_ts": 1790097249,
-   "why": "wanted it, but not at the high \u2014 resting at $462.70. Congress buy pressure plus semiconductor equipment momentum",
-   "evidence": "Rep. Josh Gottheimer disclosed AMAT buy 2026-09-14; Michael Burry memory stocks thesis note; AMAT 93.4% of day range +11.39% 5d",
-   "signals": [
-    "congress",
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 2500.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e8705841",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 228.414,
-   "status": "cancelled",
-   "created": "2026-09-22 13:14",
-   "created_ts": 1790097249,
-   "why": "wanted it, but not at the high \u2014 resting at $228.41. Core AI momentum name, widely_held sector strongest performer",
-   "evidence": "NVDA 93.1% of day range, +8.28% 5d, +7% 1m; 'AI Fears Reaching Fever Pitch But Not Slowing Nvidia Accumulation' headline",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 2500.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "d7a6a1e7",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 93.7625,
-   "status": "cancelled",
-   "created": "2026-09-22 13:14",
-   "created_ts": 1790097249,
-   "why": "wanted it, but not at the high \u2014 resting at $93.76. Nuclear sector had 0.18% avg_ret with 85% hit_rate in track record, Westinghouse IPO catalyst",
-   "evidence": "CCJ +1.53% today, 87.6% of day range; Westinghouse IPO could value at $50B with Cameco stake worth $24.5B per Motley Fool",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 1500.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "5aa636b4",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 620.0886,
-   "status": "cancelled",
-   "created": "2026-09-22 13:14",
-   "created_ts": 1790097249,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $617.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 13:44",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f8b5f553",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7447,9 +7367,85 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 145.306,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-23 15:38",
    "created_ts": 1790192319,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:39",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "494c7645",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "cancelled",
+   "created": "2026-09-23 15:38",
+   "created_ts": 1790192319,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:39",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "18e53366",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 145.306,
+   "status": "cancelled",
+   "created": "2026-09-23 15:39",
+   "created_ts": 1790192399,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:40",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "e34c315b",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 187.2003,
+   "status": "cancelled",
+   "created": "2026-09-23 15:39",
+   "created_ts": 1790192399,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $192.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 500.0,
+   "closed": "2026-09-23 15:40",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "f72023a3",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 145.306,
+   "status": "working",
+   "created": "2026-09-23 15:40",
+   "created_ts": 1790192445,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $149.8",
    "signals": [
@@ -7460,13 +7456,13 @@
    "usd": 500.0
   },
   {
-   "id": "494c7645",
+   "id": "80dc107d",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 187.2003,
    "status": "working",
-   "created": "2026-09-23 15:38",
-   "created_ts": 1790192319,
+   "created": "2026-09-23 15:40",
+   "created_ts": 1790192445,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $192.99",
    "signals": [
@@ -7477,5 +7473,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-23 15:38"
+ "updated": "2026-09-23 15:40"
 }
