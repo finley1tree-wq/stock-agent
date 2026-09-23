@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-23T11:25-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-23T11:27-04:00",
+ "note": "tick: 3 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "291bb68a",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 517.9817,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 517.82,
-   "pct_away": 0.03,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "347eedd3",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.42,
-   "pct_away": 0.03,
+   "last": 194.2,
+   "pct_away": 0.14,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -180,47 +163,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 769.93,
-   "pct_away": -0.23,
+   "last": 769.65,
+   "pct_away": -0.19,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.20% under $769.69 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "54ef00d3",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 372.6494,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 371.45,
-   "pct_away": 0.32,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "76fe1f3b",
-   "ticker": "OKLO",
-   "kind": "take_profit",
-   "price": 40.106,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 39.93,
-   "pct_away": 0.44,
-   "good_until": "2026-09-28",
-   "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -231,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 498.55,
-   "pct_away": -0.49,
+   "last": 498.69,
+   "pct_away": -0.52,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.43% under $498.26 to catch the dip",
    "signals": [
@@ -248,8 +197,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 225.57,
-   "pct_away": -0.5,
+   "last": 225.67,
+   "pct_away": -0.54,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.55% under $225.69 to catch the dip",
    "signals": [
@@ -258,17 +207,17 @@
    ]
   },
   {
-   "id": "31a5e60e",
-   "ticker": "GOOGL",
+   "id": "76fe1f3b",
+   "ticker": "OKLO",
    "kind": "take_profit",
-   "price": 343.4358,
+   "price": 40.106,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 341.45,
-   "pct_away": 0.58,
+   "last": 39.89,
+   "pct_away": 0.54,
    "good_until": "2026-09-28",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,13 +231,30 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.42,
-   "pct_away": -0.74,
+   "last": 194.2,
+   "pct_away": -0.62,
    "good_until": "2026-09-23",
    "why": "wanted it, but not at the high \u2014 resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh",
    "signals": [
     "momentum",
     "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "cb25544a",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 149.1994,
+   "usd": 2100.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 150.62,
+   "pct_away": -0.94,
+   "good_until": "2026-09-23",
+   "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
+   "signals": [
+    "congress",
     "patience"
    ]
   },
@@ -300,30 +266,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 12.65,
-   "pct_away": 1.0,
+   "last": 12.64,
+   "pct_away": 1.08,
    "good_until": "2026-09-28",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "cb25544a",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.1994,
-   "usd": 2100.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 150.79,
-   "pct_away": -1.05,
-   "good_until": "2026-09-23",
-   "why": "wanted it, but not at the high \u2014 resting at $149.20. Highest congress buy pressure score in the allowed list; cooling off check confirms CHRW not in cooling_off list",
-   "signals": [
-    "congress",
-    "patience"
    ]
   },
   {
@@ -352,10 +301,27 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 614.49,
-   "pct_away": -1.69,
+   "last": 614.74,
+   "pct_away": -1.73,
    "good_until": "2026-09-24",
    "why": "strong month, weak day: resting 0.87% under $609.41 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "e187e6f8",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 740.849,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 756.88,
+   "pct_away": -2.12,
+   "good_until": "2026-09-24",
+   "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -380,39 +346,6 @@
    ]
   },
   {
-   "id": "c39381b4",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 334.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 341.45,
-   "pct_away": -2.18,
-   "good_until": "2026-09-23",
-   "why": "protective stop ~2.5% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "e187e6f8",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 740.849,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 757.4,
-   "pct_away": -2.19,
-   "good_until": "2026-09-24",
-   "why": "strong month, weak day: resting 0.75% under $746.47 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "ec459a63",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -420,26 +353,10 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 194.42,
-   "pct_away": 2.28,
+   "last": 194.2,
+   "pct_away": 2.39,
    "good_until": "2026-09-23",
    "why": "Lock in gains on defense momentum trade",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "2efecbe7",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 362.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 371.45,
-   "pct_away": -2.54,
-   "good_until": "2026-09-23",
-   "why": "protective stop ~2.5% below entry",
    "signals": [
     "risk_management"
    ]
@@ -452,25 +369,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 12.65,
-   "pct_away": -2.62,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8f3b8998",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 332.1959,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 341.45,
-   "pct_away": -2.71,
+   "last": 12.64,
+   "pct_away": -2.54,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -486,8 +386,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.42,
-   "pct_away": -2.79,
+   "last": 194.2,
+   "pct_away": -2.68,
    "good_until": "2026-09-23",
    "why": "Protective stop on new RTX position",
    "signals": [
@@ -502,45 +402,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 39.93,
-   "pct_away": -2.83,
+   "last": 39.89,
+   "pct_away": -2.73,
    "good_until": "2026-09-23",
    "why": "Protective stop on new OKLO position, wider due to high ATR",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "2f917080",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 503.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 517.82,
-   "pct_away": -2.86,
-   "good_until": "2026-09-23",
-   "why": "protective stop ~2.5% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "22c1c655",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 360.3744,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 371.45,
-   "pct_away": -2.98,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -551,25 +418,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.42,
-   "pct_away": -3.17,
-   "good_until": "2026-09-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "30157112",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 501.1893,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 517.82,
-   "pct_away": -3.21,
+   "last": 194.2,
+   "pct_away": -3.06,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -585,8 +435,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 39.93,
-   "pct_away": -3.24,
+   "last": 39.89,
+   "pct_away": -3.15,
    "good_until": "2026-09-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -602,8 +452,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 12.65,
-   "pct_away": -3.56,
+   "last": 12.64,
+   "pct_away": -3.48,
    "good_until": "2026-09-23",
    "why": "Protective stop on new TTD position given high volatility",
    "signals": [
@@ -618,8 +468,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 12.65,
-   "pct_away": 3.56,
+   "last": 12.64,
+   "pct_away": 3.64,
    "good_until": "2026-09-23",
    "why": "Lock in gains on TTD contrarian bounce trade",
    "signals": [
@@ -634,8 +484,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 39.93,
-   "pct_away": 3.68,
+   "last": 39.89,
+   "pct_away": 3.79,
    "good_until": "2026-09-23",
    "why": "Lock in gains on nuclear momentum trade",
    "signals": [

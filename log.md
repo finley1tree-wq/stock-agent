@@ -15239,3 +15239,7 @@ Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $4500.00 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $236.81] -> $3010.54 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% GOOGL [time stop] -> $2987.85 (-0.40%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NOC [time stop] -> $3003.11 (+0.10%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2999.20 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 11:27 ET — tick — 3 sell(s), 0 buy(s) from standing orders

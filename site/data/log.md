@@ -1,7 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (BUKS excluded: too thinly traded ($0.3M a day) — Butler National Corporation)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (CULP excluded: too thinly traded ($0.3M a day) — Culp, Inc.)
 brain: Last check of the day (15:25, close 16:00) — max_hold_minutes=30 means any new buy now would be forcibly closed right at/after the close with essentially zero time to work, and no_new_entries would effectively apply given the 30-min window ends at close. CCJ already has a take_profit at 95.08 and stop_loss at 92.00 working. Rather than chase names already up 88-98% of today's range (AMD, AVGO, TSM, AMAT, NVDA all flagged as chase-risk in orders_dropped_at_last_check), I'll let the existing resting buy_limits and CCJ brackets do their job into the close instead of buying at market into extended prices with no time left to actually hold the position.
@@ -398,3 +394,7 @@ Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $4500.00 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $236.81] -> $3010.54 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% GOOGL [time stop] -> $2987.85 (-0.40%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NOC [time stop] -> $3003.11 (+0.10%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2999.20 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-23 11:27 ET — tick — 3 sell(s), 0 buy(s) from standing orders
