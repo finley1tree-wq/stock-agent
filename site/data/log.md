@@ -1,5 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Only 1 of 8 min_positions held with 92.5% cash idle - a clear regret situation per counterfactual data. Deploying into 7 new names across defense (NOC, ESE), insurance (SKWD), tech (IBM, GOOGL dip at day low, AMD), and healthcare (UNH) at mid-range or discounted entries, backed by concrete headlines and congress buy-pressure scores, while avoiding all cooling-off tickers (AMAT, PLTR, OKLO, TTD, RTX, TSM, AVGO, AAPL, AMZN, NEM, HD). Existing working limit orders on RTX/CHRW/HUBB/CRWD/PLD/MSFT/META/NVDA/SPY remain in place to catch further dips.
 lesson: With min_positions target far below actual count and huge idle cash, buying 6-8 fresh non-cooling names at mid-range prices with individual stops beats waiting on limits; check cooling_off list first to avoid wasted candidates.
   (dropped AMAT: sold 18 min ago, cooling off)
 - BUY $2245.51 NOC [filled] ['momentum', 'news'] — defense sector pullback entry, not cooling off, mid-range price | evidence: NOC -2.33% today pct_of_day_range 40.4, Zacks headline 'Can APN-241 Processor Demand Support Northrop Grumman's Growth?' 15:40
@@ -378,6 +376,8 @@ Decision: nothing at this check. 21 standing order(s) working.
 - BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
 ## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (cancelled 19 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
