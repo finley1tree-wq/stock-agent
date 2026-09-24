@@ -16292,3 +16292,6 @@ lesson: When flat with high idle cash, deploy across widely_held + congress-back
 ~ WORKING buy_limit $500.00 NOC @ $500.34 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32831.50 (+31.33% on $25000.00 in) · cash $27833.00 · realised +7833.00
 Done: 0 sell(s), 2 buy(s); 11 order(s) working; budget left $19921.35 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $517.05] -> $2506.02 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-24 12:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
