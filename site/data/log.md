@@ -1,6 +1,3 @@
-## 2026-09-23 13:03 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-23 13:09 ET (Wednesday) — week 2026-W39 — budget left $12586.66 (today $135945.75 put to work, 59 buys, 54 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (AXIA3 excluded: no security information)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [stop_loss @ $127.73] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
 ## 2026-09-24 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [stop_loss @ $515.07] -> $4202.63 (+0.06%) — close it all at -0.6% under the average cost
+## 2026-09-24 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders

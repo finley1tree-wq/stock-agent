@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-24T09:43-04:00",
+ "asOf": "2026-09-24T09:45-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9af7e682",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 515.97,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 515.72,
-   "pct_away": 0.05,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cd08f0b2",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 515.332,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 515.72,
-   "pct_away": -0.08,
-   "good_until": "2026-09-29",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "fbc6e2eb",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -180,8 +146,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 148.9,
-   "pct_away": -0.6,
+   "last": 148.46,
+   "pct_away": -0.31,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.52% under $148.77 to catch the dip",
    "signals": [
@@ -197,30 +163,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 222.9,
-   "pct_away": -0.93,
+   "last": 222.74,
+   "pct_away": -0.85,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.51% under $221.96 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "5c682797",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 499.3075,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 515.72,
-   "pct_away": -3.18,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],

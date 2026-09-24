@@ -1,9 +1,9 @@
 {
   "week": "2026-W39",
-  "spent": 4218.82,
+  "spent": 16.19,
   "deployed": 490641.86,
   "by_ticker": {
-    "NOC": 4228.64,
+    "NOC": 26.01,
     "IBM": 34.86,
     "MSFT": 47.41,
     "HLI": 19.11,
@@ -8094,13 +8094,34 @@
       ],
       "evidence": "average cost $128.95",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 8.159264,
+      "status": "filled",
+      "price": 515.07,
+      "proceeds": 4202.63,
+      "realized_pnl": 2.63,
+      "realized_pct": 0.06,
+      "date": "2026-09-24",
+      "time_et": "09:45",
+      "ts": 1790257500,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $514.75",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 4218.82,
+  "spent_today": 16.19,
   "deployed_today": 26900.0,
   "orders_today": 8,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "PLTR",
     "CRWD",
@@ -8108,7 +8129,8 @@
     "HUBB",
     "TSM",
     "IBM",
-    "HLI"
+    "HLI",
+    "NOC"
   ],
   "sold_ts": {
     "AMAT": 1790183968,
@@ -8121,7 +8143,7 @@
     "CCJ": 1790190589,
     "LMT": 1790189594,
     "TTD": 1790178209,
-    "NOC": 1790187047,
+    "NOC": 1790257517,
     "RTX": 1790193446,
     "PLD": 1790183632,
     "TSM": 1790257006,
@@ -8145,17 +8167,14 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790257381,
-  "last_check_ts": 1790257427,
-  "last_bar_ts": 1790257200,
+  "last_publish_ts": 1790257516,
+  "last_check_ts": 1790257516,
+  "last_bar_ts": 1790257500,
   "last_decision_ts": 1790256771,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "9af7e682": 515.97,
-    "cd08f0b2": 515.332,
     "fbc6e2eb": 148.0001,
-    "911f4796": 220.8367,
-    "5c682797": 499.3075
+    "911f4796": 220.8367
   }
 }

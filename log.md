@@ -15861,3 +15861,6 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [stop_loss @ $127.73] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
 ## 2026-09-24 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [stop_loss @ $515.07] -> $4202.63 (+0.06%) — close it all at -0.6% under the average cost
+## 2026-09-24 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
