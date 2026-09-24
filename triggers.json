@@ -6349,7 +6349,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 333.8009,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "strong month, weak day: resting 0.43% under $335.25 to catch the dip",
@@ -6359,7 +6359,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-25",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1a669c3b",
@@ -6906,7 +6908,7 @@
    "ticker": "RTX",
    "kind": "stop_loss",
    "price": 189.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "protective stop below today's low",
@@ -6915,14 +6917,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "78dab97b",
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 519.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "protective stop below today's low",
@@ -6931,14 +6935,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "99b624a8",
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 330.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "protective stop below today's low",
@@ -6947,14 +6953,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "81e23efc",
    "ticker": "AMZN",
    "kind": "stop_loss",
    "price": 242.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "protective stop below today's low",
@@ -6963,7 +6971,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "6947e7c8",
@@ -7025,7 +7035,7 @@
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 193.1043,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "close 100% at +0.2% over the average cost",
@@ -7035,14 +7045,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ac1ba8b3",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 186.9578,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7052,14 +7064,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1d2d4de1",
    "ticker": "LMT",
    "kind": "take_profit",
    "price": 530.3061,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "close 100% at +0.2% over the average cost",
@@ -7069,14 +7083,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f962f08a",
    "ticker": "LMT",
    "kind": "buy_limit",
    "price": 513.1397,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7086,14 +7102,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7f62ba6c",
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 337.1537,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "close 100% at +0.2% over the average cost",
@@ -7103,14 +7121,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1f3d4f7f",
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 326.2789,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7120,14 +7140,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c9d05e5a",
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 445.3773,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "close 100% at +0.3% over the average cost",
@@ -7137,14 +7159,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5e510b46",
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 441.3969,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "close it all at -0.6% under the average cost",
@@ -7154,14 +7178,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0afc5ae6",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 430.9128,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7171,14 +7197,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "488bc7bd",
    "ticker": "AMZN",
    "kind": "take_profit",
    "price": 247.5276,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "close 100% at +0.2% over the average cost",
@@ -7188,14 +7216,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "fcd76bfa",
    "ticker": "AMZN",
    "kind": "buy_limit",
    "price": 239.5221,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7205,7 +7235,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 11:05",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "bd0b2060",

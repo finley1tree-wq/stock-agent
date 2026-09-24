@@ -1,9 +1,3 @@
-  (dropped trigger O stop_loss: not held)
-  (dropped trigger HLI stop_loss: not held)
-~ WORKING stop_loss 100% SKWD @ $53.40 until 2026-09-23 — Protective stop for new SKWD position
-~ WORKING stop_loss 100% NLR @ $105.80 until 2026-09-23 — Protective stop for new NLR position
-~ WORKING stop_loss 100% LMT @ $511.00 until 2026-09-23 — Protective stop for new LMT position
-~ WORKING buy_limit $2300.00 AMAT @ $468.64 until 2026-09-23 — wanted it, but not at the high — resting at $468.64. Fresh chip-equipment momentum name with congressional buying pressure, diversifies away from PLTR/RTX
 ~ WORKING buy_limit $2300.00 ESE @ $262.41 until 2026-09-23 — wanted it, but not at the high — resting at $262.41. Defense-adjacent infra theme with steady momentum, not cooling off
 ~ WORKING buy_limit $2000.00 HLI @ $129.75 until 2026-09-23 — wanted it, but not at the high — resting at $129.75. Financial services diversification, strong intraday momentum, not cooling off
 ~ WORKING take_profit 100% SKWD @ $55.35 until 2026-09-28 — close 100% at +0.3% over the average cost
@@ -398,3 +392,9 @@ lesson: Adding names near day-range lows in underrepresented sectors (nuclear, r
 ~ WORKING buy_limit $500.00 HD @ $283.44 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32895.17 (+31.58% on $25000.00 in) · cash $11916.96 · realised +7916.96
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $4005.31 this week
+- SELL 100% RTX [time stop] -> $2976.44 (-0.79%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LMT [time stop] -> $2985.24 (-0.49%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AAPL [time stop] -> $2994.61 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2994.55 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $2995.28 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 11:05 ET — tick — 5 sell(s), 0 buy(s) from standing orders

@@ -16061,3 +16061,9 @@ lesson: Adding names near day-range lows in underrepresented sectors (nuclear, r
 ~ WORKING buy_limit $500.00 HD @ $283.44 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32895.17 (+31.58% on $25000.00 in) · cash $11916.96 · realised +7916.96
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $4005.31 this week
+- SELL 100% RTX [time stop] -> $2976.44 (-0.79%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LMT [time stop] -> $2985.24 (-0.49%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AAPL [time stop] -> $2994.61 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2994.55 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $2995.28 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 11:05 ET — tick — 5 sell(s), 0 buy(s) from standing orders
