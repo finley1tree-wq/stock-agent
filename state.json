@@ -1,20 +1,20 @@
 {
   "week": "2026-W39",
-  "spent": 16.19,
-  "deployed": 490641.86,
+  "spent": 17016.19,
+  "deployed": 507641.86,
   "by_ticker": {
     "NOC": 26.01,
     "IBM": 34.86,
-    "MSFT": 47.41,
+    "MSFT": 4047.41,
     "HLI": 19.11,
     "CHRW": 17.56,
-    "GOOGL": 70.75,
+    "GOOGL": 4070.75,
     "RTX": 23.68,
     "AVGO": 21.57,
     "SPY": 4.27,
-    "O": 14.94,
+    "O": 3014.94,
     "PLD": 5.95,
-    "UNH": 4.77,
+    "UNH": 2504.77,
     "OKLO": 9.13,
     "TTD": 2.38,
     "AMAT": 11.2,
@@ -25,7 +25,7 @@
     "NVDA": 0.66,
     "NLR": 8.94,
     "LMT": 4.01,
-    "CCJ": 5.36
+    "CCJ": 3505.36
   },
   "deployed_by_ticker": {
     "AMD": 40701.06,
@@ -34,18 +34,18 @@
     "CHRW": 7100.0,
     "TTD": 5500.0,
     "PLTR": 33268.42,
-    "MSFT": 18925.0,
+    "MSFT": 22925.0,
     "OKLO": 15000.0,
     "NOC": 27253.2,
     "LMT": 9400.0,
     "RTX": 20631.03,
-    "CCJ": 33085.0,
+    "CCJ": 36585.0,
     "TSM": 31120.82,
     "AVGO": 17974.36,
-    "UNH": 22733.96,
+    "UNH": 25233.96,
     "IBM": 24001.48,
     "PLD": 9737.17,
-    "GOOGL": 34159.3,
+    "GOOGL": 38159.3,
     "META": 15555.56,
     "GLD": 6507.69,
     "AAPL": 9242.06,
@@ -57,7 +57,7 @@
     "IBP": 8846.15,
     "NEM": 7800.0,
     "SPY": 2000.0,
-    "O": 3600.0,
+    "O": 6600.0,
     "HD": 5600.0,
     "ESE": 1976.05,
     "SKWD": 3796.41
@@ -8115,12 +8115,98 @@
       ],
       "evidence": "average cost $514.75",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 4000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.125978,
+      "price": 492.25,
+      "date": "2026-09-24",
+      "time_et": "09:48",
+      "ts": 1790257687,
+      "why": "Large congressional buy pressure plus deep intraday pullback offers good entry",
+      "signals": [
+        "congress",
+        "news",
+        "momentum"
+      ],
+      "evidence": "Rep. Josh Gottheimer disclosed $250k-$1M MSFT buy (2026-08-14, disclosed 2026-09-14); currently -1.69% today, 14.9% of day range, buying the dip"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 4000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.825655,
+      "price": 338.25,
+      "date": "2026-09-24",
+      "time_et": "09:48",
+      "ts": 1790257687,
+      "why": "Widely-held sector has best track record avg_ret_pct 3.58%; reasonable entry mid-range",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "GOOGL +0.1% 1d but -2.63% 5d, 60.8% of range; AI capex headline 'Alphabet Or Meta: Whose AI Build Would You Rather Fund?'"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 3500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 39.07741,
+      "price": 89.57,
+      "date": "2026-09-24",
+      "time_et": "09:48",
+      "ts": 1790257687,
+      "why": "Nuclear sector has best hit_rate (0.79) in track record, low in day range = good entry",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "CCJ at 24.2% of day range (near low), 'Is the Options Market Predicting a Spike in Cameco Stock?' -Zacks; nuclear sector hit_rate 0.79 in track record"
+    },
+    {
+      "symbol": "O",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 53.915866,
+      "price": 55.64,
+      "date": "2026-09-24",
+      "time_et": "09:48",
+      "ts": 1790257687,
+      "why": "Defensive REIT entry mid-range with dividend headline support",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "O at 45.6% of range, '2 Monster Dividend Stocks to Buy Now and Hold for Decades' headline, real estate defensive amid bond selloff"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.751027,
+      "price": 370.31,
+      "date": "2026-09-24",
+      "time_et": "09:48",
+      "ts": 1790257687,
+      "why": "Healthcare diversification at reasonable entry point",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "UNH -0.28% today, 33.8% of range, 'UnitedHealth: Inside the $942 Million Industry Problem' headline shows attention but stock resilient"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 16.19,
-  "deployed_today": 26900.0,
-  "orders_today": 8,
+  "spent_today": 17016.19,
+  "deployed_today": 43900.0,
+  "orders_today": 13,
   "sells_today": 8,
   "sold_today": [
     "PLTR",
@@ -8167,14 +8253,32 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790257516,
-  "last_check_ts": 1790257600,
+  "last_publish_ts": 1790257687,
+  "last_check_ts": 1790257687,
   "last_bar_ts": 1790257500,
-  "last_decision_ts": 1790256771,
+  "last_decision_ts": 1790257687,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "3874d10b": 348.655,
+    "88882469": 55.7457,
+    "ee43222c": 493.3773,
+    "f22defe5": 339.2309,
+    "cc33f22c": 371.4431,
     "fbc6e2eb": 148.0001,
-    "911f4796": 220.8367
+    "14f4888b": 333.8009,
+    "8d7ed6f1": 89.9265,
+    "46d04d6a": 464.5355,
+    "911f4796": 220.8367,
+    "fbb8ebe5": 54.2,
+    "361a3c1d": 479.0,
+    "faa38448": 329.0,
+    "9561dd44": 360.0,
+    "afc1bf9a": 86.8829,
+    "cf870ab4": 53.9708,
+    "62aec3b5": 477.4825,
+    "ab85e134": 328.1025,
+    "629bd66d": 359.2007,
+    "008acce6": 86.5
   }
 }

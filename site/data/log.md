@@ -1,42 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Below min_positions (4 of 8) with 50% cash idle - deploying into 5 fresh diversified names (defense/congress via HUBB, nuclear via CCJ, widely-held via IBM, gold via NEM, real estate via O) at reasonable day-range levels, each backed by concrete evidence and protected with a stop. This brings book to 9 positions, spreads sector risk, and follows track-record signal that widely_held and nuclear sectors have the best historical hit rates while congress-pressure names (HUBB) have shown edge.
-lesson: Fresh market buys sized $1.6-2.2k across distinct sectors (not just tech) with immediate stops is the consistent winning pattern per past_lessons_with_outcome; keep screening cooling_off list first and avoid overloading tech/momentum names already held.
-  (dropped IBM: sold 22 min ago, cooling off)
-- BUY $2200.00 HUBB [filled] ['congress', 'momentum'] — Top congress-pressure name in allowed list, not cooling off, add at market since resting limits below have not filled | evidence: congress_net_buy_pressure HUBB=3.0 (April McClain Delaney disclosed buy 2026-09-09), price 467.67 mid-range (84.8% of day) but data-center demand headline 'Bull Case For Hubbell Could Change Following
-- BUY $2000.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has strongest hit-rate in track record (96%), diversifies away from tech-heavy book | evidence: CCJ price 91.63, 5d momentum flat but nuclear sector avg_ret_pct 0.21% hit_rate 0.96 in track_record by_sector, headline 'Cameco And 2 Canadian Nuclear Stocks To Watch'
-- BUY $1800.00 NEM [filled] ['momentum', 'news'] — Gold sector diversifier, name not cooling off, positive day momentum | evidence: NEM +0.11% today, pct_of_day_range 67.2%, headline 'Can Newmont's Record Free Cash Flow Momentum Carry Into Q3?'
-- BUY $1600.00 O [filled] ['news', 'momentum'] — Real estate diversifier with bullish analyst call, reasonable entry point in day range | evidence: headline 'Realty Income Falls for 3 Months: Two Wall Street Pros Say Near 30% Gains Lie Ahead', real_estate sector, price 55.67 mid-range 44.1%
-  (dropped trigger IBM stop_loss: not held)
-~ WORKING stop_loss 100% HUBB @ $454.00 until 2026-09-23 — Protective stop on new HUBB position
-~ WORKING stop_loss 100% CCJ @ $88.90 until 2026-09-23 — Protective stop on new CCJ position
-~ WORKING stop_loss 100% NEM @ $119.50 until 2026-09-23 — Protective stop on new NEM position
-~ WORKING stop_loss 100% O @ $54.00 until 2026-09-23 — Protective stop on new O position
-~ WORKING take_profit 100% HUBB @ $469.21 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HUBB @ $453.82 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $92.03 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $88.92 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NEM @ $123.70 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NEM @ $119.54 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% O @ $55.80 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 O @ $54.02 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AAPL @ $335.88 until 2026-09-24 — strong month, weak day: resting 0.44% under $337.36 to catch the dip
-~ WORKING buy_limit $1000.00 TSM @ $441.93 until 2026-09-24 — strong month, weak day: resting 0.47% under $444.00 to catch the dip
-portfolio: equity $32838.30 (+31.35% on $25000.00 in) · cash $12884.73 · realised +7830.88
-Done: 0 sell(s), 4 buy(s); 35 order(s) working; budget left $4986.66 this week
-  (cancelled 2 standing order(s) on PLD: position closed)
-- SELL 100% PLD [stop_loss @ $134.86] -> $1846.54 (+0.02%) — close it all at -0.5% under the average cost
-## 2026-09-23 13:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AMAT: position closed)
-- SELL 100% AMAT [take_profit @ $470.44] -> $3012.91 (+0.43%) — close 100% at +0.4% over the average cost
-## 2026-09-23 13:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PLTR: position closed)
-- SELL 100% PLTR [take_profit @ $191.25] -> $4017.72 (+0.44%) — close 100% at +0.4% over the average cost
-## 2026-09-23 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $262.11] -> $3519.50 (+0.56%) — close 100% at +0.6% over the average cost
 ## 2026-09-23 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +359,42 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [stop_loss @ $515.07] -> $4202.63 (+0.06%) — close it all at -0.6% under the average cost
 ## 2026-09-24 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 09:48 ET (Thursday) — week 2026-W39 — budget left $24983.81 (today $26900.00 put to work, 8 buys, 8 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Flat book (0 positions) with 99.9% idle cash under full_deployment mandate - must deploy now per owner instruction and past lesson from today's earlier check (+0.78% avg when deployed at check start). Chose 7 names spanning widely_held (best sector track record 3.58% avg), nuclear (best hit rate 0.79), and real estate/healthcare for diversification, each backed by concrete congress disclosures, news headlines, or day-range positioning; sized $2.5-4k per the account guidance, avoided all 8 cooling-off tickers (AMD/PLTR/NOC/TSM/IBM/HLI/CRWD/HUBB).
+lesson: Deploying broadly across sectors immediately from a flat book beat waiting; keep doing so at check start rather than accumulating idle cash, while respecting cooling-off lists.
+  (dropped AVGO: 88% up today's range — resting a limit at $348.66 instead of chasing)
+  (dropped AMAT: 86% up today's range — resting a limit at $464.54 instead of chasing)
+- BUY $4000.00 MSFT [filled] ['congress', 'news', 'momentum'] — Large congressional buy pressure plus deep intraday pullback offers good entry | evidence: Rep. Josh Gottheimer disclosed $250k-$1M MSFT buy (2026-08-14, disclosed 2026-09-14); currently -1.69% today, 14.9% of day range, buying the dip
+- BUY $4000.00 GOOGL [filled] ['momentum', 'news'] — Widely-held sector has best track record avg_ret_pct 3.58%; reasonable entry mid-range | evidence: GOOGL +0.1% 1d but -2.63% 5d, 60.8% of range; AI capex headline 'Alphabet Or Meta: Whose AI Build Would You Rather Fund?'
+- BUY $3500.00 CCJ [filled] ['momentum', 'news'] — Nuclear sector has best hit_rate (0.79) in track record, low in day range = good entry | evidence: CCJ at 24.2% of day range (near low), 'Is the Options Market Predicting a Spike in Cameco Stock?' -Zacks; nuclear sector hit_rate 0.79 in track record
+- BUY $3000.00 O [filled] ['news', 'momentum'] — Defensive REIT entry mid-range with dividend headline support | evidence: O at 45.6% of range, '2 Monster Dividend Stocks to Buy Now and Hold for Decades' headline, real estate defensive amid bond selloff
+- BUY $2500.00 UNH [filled] ['momentum', 'news'] — Healthcare diversification at reasonable entry point | evidence: UNH -0.28% today, 33.8% of range, 'UnitedHealth: Inside the $942 Million Industry Problem' headline shows attention but stock resilient
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+~ WORKING stop_loss 100% MSFT @ $479.00 until 2026-09-24 — protective stop per ATR sizing
+~ WORKING stop_loss 100% GOOGL @ $329.00 until 2026-09-24 — protective stop
+~ WORKING stop_loss 100% CCJ @ $86.50 until 2026-09-24 — protective stop
+~ WORKING stop_loss 100% O @ $54.20 until 2026-09-24 — protective stop
+~ WORKING stop_loss 100% UNH @ $360.00 until 2026-09-24 — protective stop
+~ WORKING buy_limit $4000.00 AVGO @ $348.65 until 2026-09-24 — wanted it, but not at the high — resting at $348.65. AI semis theme, widely_held sector strongest by track record
+~ WORKING buy_limit $3000.00 AMAT @ $464.54 until 2026-09-24 — wanted it, but not at the high — resting at $464.54. Congress buy pressure score 2.0, semis equipment AI demand theme
+~ WORKING take_profit 100% MSFT @ $493.38 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $477.48 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $339.23 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $328.10 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $89.93 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $86.88 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% O @ $55.75 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 O @ $53.97 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $371.44 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $359.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $333.80 until 2026-09-25 — strong month, weak day: resting 0.43% under $335.25 to catch the dip
+portfolio: equity $32890.77 (+31.56% on $25000.00 in) · cash $15895.47 · realised +7895.47
+Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
