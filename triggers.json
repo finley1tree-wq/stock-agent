@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "7dfe820f",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 449.6579,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $448.55",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "802d92e3",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 435.0935,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $448.55",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3cf220a4",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 250.62,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $250.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "1786b3ee",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 242.5097,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $250.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "091a5b97",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 300.235,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $299.57",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3fb08561",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 290.5829,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $299.57",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "d4da3143",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -7074,7 +6960,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 361.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 12:25",
    "created_ts": 1790267142,
    "why": "Standard protective stop",
@@ -7083,7 +6969,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 12:55",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d5499f78",
@@ -7145,7 +7033,7 @@
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 360.1416,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 12:25",
    "created_ts": 1790267142,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7155,7 +7043,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 12:55",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c0a084d0",
@@ -7218,7 +7108,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 372.4235,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 12:32",
    "created_ts": 1790267531,
    "why": "close 100% at +0.3% over the average cost",
@@ -7228,7 +7118,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 12:55",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "dbe31c63",
@@ -7452,7 +7344,111 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "b42a8209",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 340.0,
+   "status": "working",
+   "created": "2026-09-24 12:56",
+   "created_ts": 1790268997,
+   "why": "catch GOOGL on minor pullback once cooldown clears",
+   "evidence": "GOOGL +1.29% today, near day high, cooldown 5min left - resting limit slightly below current $342.18",
+   "signals": [
+    "momentum",
+    "congress"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2200.0
+  },
+  {
+   "id": "31e6fa58",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 222.0,
+   "status": "working",
+   "created": "2026-09-24 12:56",
+   "created_ts": 1790268997,
+   "why": "buy the dip near session low once cooldown clears",
+   "evidence": "NVDA -0.59% today, day_low 221.09, cooldown 5min left - resting near day low for good entry",
+   "signals": [
+    "momentum",
+    "news"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2000.0
+  },
+  {
+   "id": "e70b221a",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 448.0,
+   "status": "working",
+   "created": "2026-09-24 12:56",
+   "created_ts": 1790268997,
+   "why": "avoid chasing 99.6% of range, wait for small pullback",
+   "evidence": "TSM +1.2%, 99.6% of day range - too extended to chase now, resting below market; Rep. Rick W. Allen disclosed buy Aug 12",
+   "signals": [
+    "momentum",
+    "congress"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 1500.0
+  },
+  {
+   "id": "e795fd89",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 247.5932,
+   "status": "working",
+   "created": "2026-09-24 12:56",
+   "created_ts": 1790268997,
+   "why": "wanted it, but not at the high \u2014 resting at $247.59. add widely_held diversification, best realized sector bucket",
+   "evidence": "AMZN at 98.5% of day range, price $249.16, but headline 'Amazon Blocked Meta's Shopping Bot' shows competitive strength; not held, diversifies widely_held bucket which realizes 3.29% avg_ret_pct best ",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2000.0
+  },
+  {
+   "id": "cb98bafe",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 766.3442,
+   "status": "working",
+   "created": "2026-09-24 12:56",
+   "created_ts": 1790268997,
+   "why": "wanted it, but not at the high \u2014 resting at $766.34. diversification anchor while individual stock cooldowns clear",
+   "evidence": "SPY +0.07% today, 91% of range, broad market stability while individual names correct",
+   "signals": [
+    "momentum",
+    "etf_default",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 1500.0
+  },
+  {
+   "id": "14a9bc5e",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 146.58,
+   "status": "working",
+   "created": "2026-09-24 12:56",
+   "created_ts": 1790268997,
+   "why": "strong month, weak day: resting 0.55% under $147.39 to catch the dip",
+   "evidence": "+3.2% over the month, sitting at 19% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-25",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-24 12:48"
+ "updated": "2026-09-24 12:56"
 }

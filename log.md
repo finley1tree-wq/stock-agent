@@ -16335,3 +16335,29 @@ Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $13927.37 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $194.08] -> $2508.77 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-09-24 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% UNH [time stop] -> $2498.93 (-0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 12:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 12:56 ET (Thursday) — week 2026-W39 — budget left $18935.07 (today $138539.71 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 of 8 min_positions held with 75.7% cash idle - this is the dominant issue per repeated past lessons and counterfactual data showing idle sitting-out has a real cost (idle_universe_avg_pct 0.61%). Several strong widely_held candidates (AMZN, GOOGL, NVDA, TSM) are in short cooldown windows (5 min), so I'm buying AMZN and SPY at market now for immediate diversification while placing tight buy_limits just below market for the cooling-off names to catch them the moment cooldown clears without chasing an extended range. Widely_held is the best-performing sector bucket (avg_ret_pct 3.29%, n=319) in track record, and TSM/AVGO carry real congressional buying disclosure from Rep. Rick W. Allen (2.76% avg excess over 8 scored buys).
+lesson: When several strong widely_held names are in 5-min cooldown, buy what's available now (AMZN, SPY) and place tight buy_limits just below market for the cooling-off ones instead of waiting idle for the whole next check.
+  (dropped GOOGL: sold 41 min ago, cooling off)
+  (dropped NVDA: sold 41 min ago, cooling off)
+  (dropped TSM: sold 41 min ago, cooling off)
+  (dropped AMZN: 98% up today's range — resting a limit at $247.59 instead of chasing)
+  (dropped SPY: 91% up today's range — resting a limit at $766.34 instead of chasing)
+  (dropped trigger CCJ stop_loss: duplicate of a working order)
+~ WORKING buy_limit $2200.00 GOOGL @ $340.00 until 2026-09-24 — catch GOOGL on minor pullback once cooldown clears
+~ WORKING buy_limit $2000.00 NVDA @ $222.00 until 2026-09-24 — buy the dip near session low once cooldown clears
+~ WORKING buy_limit $1500.00 TSM @ $448.00 until 2026-09-24 — avoid chasing 99.6% of range, wait for small pullback
+~ WORKING buy_limit $2000.00 AMZN @ $247.59 until 2026-09-24 — wanted it, but not at the high — resting at $247.59. add widely_held diversification, best realized sector bucket
+~ WORKING buy_limit $1500.00 SPY @ $766.34 until 2026-09-24 — wanted it, but not at the high — resting at $766.34. diversification anchor while individual stock cooldowns clear
+~ WORKING buy_limit $1000.00 CHRW @ $146.58 until 2026-09-25 — strong month, weak day: resting 0.55% under $147.39 to catch the dip
+portfolio: equity $32832.50 (+31.33% on $25000.00 in) · cash $26846.72 · realised +7846.72
+Decision: nothing at this check. 21 standing order(s) working.
