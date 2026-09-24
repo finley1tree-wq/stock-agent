@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 100.11,
-  "deployed": 619607.65,
+  "spent": 7100.11,
+  "deployed": 626607.65,
   "by_ticker": {
     "NOC": 12.77,
     "IBM": 35.75,
@@ -23,16 +23,18 @@
     "AAPL": 5.39,
     "CCJ": 15.72,
     "UNH": 3.38,
-    "AMD": 0.96,
+    "AMD": 3000.96,
     "HUBB": 1.56,
     "TPL": 15.58,
     "TSM": 8.3,
     "PLTR": 2.95,
-    "NVDA": 2.09
+    "NVDA": 2.09,
+    "AMAT": 2500.0,
+    "ESE": 1500.0
   },
   "deployed_by_ticker": {
-    "AMD": 42363.85,
-    "AMAT": 19141.67,
+    "AMD": 45363.85,
+    "AMAT": 21641.67,
     "NVDA": 21477.89,
     "CHRW": 10600.0,
     "TTD": 7500.0,
@@ -62,7 +64,7 @@
     "SPY": 3500.0,
     "O": 6600.0,
     "HD": 9600.0,
-    "ESE": 1976.05,
+    "ESE": 3476.05,
     "SKWD": 5796.41,
     "LTH": 1500.0,
     "TPL": 2000.0
@@ -10263,12 +10265,64 @@
       ],
       "evidence": "bought 30 min ago, -0.10% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.844149,
+      "price": 619.3,
+      "date": "2026-09-24",
+      "time_et": "14:11",
+      "ts": 1790273496,
+      "why": "Strongest 1-month momentum in allowed widely_held list, semis theme intact per Nebius/BNP price target headline",
+      "signals": [
+        "momentum",
+        "news",
+        "track_record"
+      ],
+      "evidence": "AMD +0.74% 1d, +13.6% 5d, +29.2% 1m; track_record shows widely_held sector avg_ret 3.22% with n=325 the best bucket"
+    },
+    {
+      "symbol": "AMAT",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.31967,
+      "price": 469.95,
+      "date": "2026-09-24",
+      "time_et": "14:11",
+      "ts": 1790273496,
+      "why": "Congress buy pressure score 2.0 plus fresh bullish AI-demand headline, semis equipment name diversifies from pure chip plays",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Josh Gottheimer disclosed AMAT buy 2026-09-14 ($1,001-$15,000), headline 'Applied Materials Continues to Benefit from Surging AI-Driven Demand' 2026-09-24"
+    },
+    {
+      "symbol": "ESE",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.580825,
+      "price": 268.78,
+      "date": "2026-09-24",
+      "time_et": "14:11",
+      "ts": 1790273496,
+      "why": "Small diversifying infra name with congress interest and positive daily momentum, complements resting limits already in place",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "ESE +0.93% 1d, headline '3 Stocks Riding The Push To Protect Undersea Cables And Seabed Infrastructure' 2026-09-19, congress buy pressure score 2.0"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 100.11,
-  "deployed_today": 155865.79,
-  "orders_today": 65,
+  "spent_today": 7100.11,
+  "deployed_today": 162865.79,
+  "orders_today": 68,
   "sells_today": 65,
   "sold_today": [
     "PLTR",
@@ -10343,29 +10397,38 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790273363,
-  "last_check_ts": 1790273410,
+  "last_publish_ts": 1790273496,
+  "last_check_ts": 1790273496,
   "last_bar_ts": 1790273400,
-  "last_decision_ts": 1790272530,
-  "next_check_minutes": 15,
+  "last_decision_ts": 1790273496,
+  "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
     "e70b221a": 448.0,
     "2ae78174": 447.2075,
     "e796bb95": 223.0374,
     "14a9bc5e": 146.58,
+    "2304c16d": 269.7288,
+    "35d84525": 472.0554,
+    "0e240eb5": 622.2664,
     "d57a0cc5": 615.586,
     "b42a8209": 340.0,
     "1dbd9024": 339.9085,
-    "44610dde": 334.8636,
-    "31e6fa58": 222.0,
     "ec7847d8": 247.8787,
-    "9fa082b2": 613.3695,
+    "44610dde": 334.8636,
     "e795fd89": 247.5932,
+    "31e6fa58": 222.0,
+    "9fa082b2": 613.3695,
     "42d2648b": 264.3975,
-    "af272fca": 760.1902,
     "6947e7c8": 263.908,
+    "af272fca": 760.1902,
     "b2802822": 758.3477,
-    "e45d1db1": 754.5527
+    "411088d9": 460.0,
+    "91d3a5e1": 263.0,
+    "6a37530a": 605.0,
+    "e45d1db1": 754.5527,
+    "1a23c199": 260.7166,
+    "12dc70a4": 600.721,
+    "71bdf206": 455.8515
   }
 }

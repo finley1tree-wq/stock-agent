@@ -1,170 +1,6 @@
 {
  "orders": [
   {
-   "id": "02703baa",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.8,
-   "status": "filled",
-   "created": "2026-09-23 12:33",
-   "created_ts": 1790181197,
-   "why": "Tighten limit slightly to improve fill odds on top congress-pressure name",
-   "evidence": "congress_net_buy_pressure CHRW=3.0 highest in list, Rep. April McClain Delaney disclosed buys",
-   "signals": [
-    "congress",
-    "momentum"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 2100.0,
-   "closed": "2026-09-23 15:22"
-  },
-  {
-   "id": "08c3f417",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 186.56,
-   "status": "cancelled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "Protective stop on new PLTR position",
-   "evidence": "ATR 3.98%, protect new position at ~2% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6c50d918",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 255.4,
-   "status": "cancelled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "Protective stop on new CRWD position",
-   "evidence": "ATR 5.03%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "bc51c169",
-   "ticker": "AMAT",
-   "kind": "stop_loss",
-   "price": 459.0,
-   "status": "cancelled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "Protective stop on new AMAT position",
-   "evidence": "ATR 3.89%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:19",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "89f367e6",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 191.2516,
-   "status": "filled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $190.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:20"
-  },
-  {
-   "id": "8daf8a06",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 184.6977,
-   "status": "cancelled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $190.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 13:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "bebb9224",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 262.1145,
-   "status": "filled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $260.66",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:23"
-  },
-  {
-   "id": "f1d2a291",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 252.8402,
-   "status": "cancelled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $260.66",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 13:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "60d74377",
-   "ticker": "AMAT",
-   "kind": "take_profit",
-   "price": 470.4389,
-   "status": "filled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $468.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:19"
-  },
-  {
    "id": "7bfbe2c8",
    "ticker": "AMAT",
    "kind": "buy_limit",
@@ -7460,7 +7296,157 @@
    "good_until": "2026-09-29",
    "pct_of_position": 100.0,
    "closed": "2026-09-24 14:05"
+  },
+  {
+   "id": "6a37530a",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 605.0,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "Protective stop ~2.3% below entry",
+   "evidence": "AMD ATR 4.3%, entry near 619.18",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "411088d9",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 460.0,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "Protective stop ~2.1% below entry",
+   "evidence": "AMAT ATR 4.0%, entry near 469.86",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "91d3a5e1",
+   "ticker": "ESE",
+   "kind": "stop_loss",
+   "price": 263.0,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "Protective stop ~2.1% below entry",
+   "evidence": "ESE ATR 3.18%, entry near 268.67",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0e240eb5",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 622.2664,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $619.3",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "12dc70a4",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 600.721,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $619.3",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "35d84525",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 472.0554,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $469.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "71bdf206",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 455.8515,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $469.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "2304c16d",
+   "ticker": "ESE",
+   "kind": "take_profit",
+   "price": 269.7288,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $268.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1a23c199",
+   "ticker": "ESE",
+   "kind": "buy_limit",
+   "price": 260.7166,
+   "status": "working",
+   "created": "2026-09-24 14:11",
+   "created_ts": 1790273496,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $268.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 14:05"
+ "updated": "2026-09-24 14:11"
 }

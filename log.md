@@ -16509,3 +16509,38 @@ Decision: nothing at this check. 32 standing order(s) working.
 - SELL 100% NVDA [time stop] -> $1737.04 (-0.12%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 14:09 ET — tick — 3 sell(s), 0 buy(s) from standing orders
   (dropped TSM: sold 17 min ago, cooling off)
+
+## 2026-09-24 14:11 ET (Thursday) — week 2026-W39 — budget left $24899.89 (today $155865.79 put to work, 65 buys, 65 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Book is completely flat (0 positions, 99.6% idle cash) despite min_positions=8 and full_deployment active - this is the exact pattern past_lessons flag repeatedly as costly. Deploying ~$21k across 8 names spanning widely_held (best realized sector, avg 3.22%), congress-backed (avg 2.19% when congress buying True vs 1.08% False), and momentum leaders, each with a concrete headline/filing/number and an immediate ATR-based stop given max_hold_minutes=30 forces a fast round trip anyway.
+lesson: When flat with min_positions unmet, buy market orders directly in size across widely_held/congress names with stops attached immediately rather than relying solely on resting limits that may not fill within the 30-min hold window.
+  (dropped GOOGL: sold 3 min ago, cooling off)
+  (dropped CRWD: sold 19 min ago, cooling off)
+  (dropped NVDA: sold 3 min ago, cooling off)
+  (dropped TSM: sold 19 min ago, cooling off)
+  (dropped META: 99% up today's range — resting a limit at $760.19 instead of chasing)
+- BUY $3000.00 AMD [filled] ['momentum', 'news', 'track_record'] — Strongest 1-month momentum in allowed widely_held list, semis theme intact per Nebius/BNP price target headline | evidence: AMD +0.74% 1d, +13.6% 5d, +29.2% 1m; track_record shows widely_held sector avg_ret 3.22% with n=325 the best bucket
+- BUY $2500.00 AMAT [filled] ['congress', 'news'] — Congress buy pressure score 2.0 plus fresh bullish AI-demand headline, semis equipment name diversifies from pure chip plays | evidence: Josh Gottheimer disclosed AMAT buy 2026-09-14 ($1,001-$15,000), headline 'Applied Materials Continues to Benefit from Surging AI-Driven Demand' 2026-09-24
+- BUY $1500.00 ESE [filled] ['congress', 'news'] — Small diversifying infra name with congress interest and positive daily momentum, complements resting limits already in place | evidence: ESE +0.93% 1d, headline '3 Stocks Riding The Push To Protect Undersea Cables And Seabed Infrastructure' 2026-09-19, congress buy pressure score 2.0
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger META buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% AMD @ $605.00 until 2026-09-24 — Protective stop ~2.3% below entry
+~ WORKING stop_loss 100% AMAT @ $460.00 until 2026-09-24 — Protective stop ~2.1% below entry
+~ WORKING stop_loss 100% ESE @ $263.00 until 2026-09-24 — Protective stop ~2.1% below entry
+~ WORKING take_profit 100% AMD @ $622.27 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $600.72 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMAT @ $472.06 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 AMAT @ $455.85 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ESE @ $269.73 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ESE @ $260.72 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32809.84 (+31.24% on $25000.00 in) · cash $25811.54 · realised +7811.54
+Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $17899.89 this week
