@@ -1,10 +1,10 @@
 {
   "week": "2026-W39",
-  "spent": 6200.0,
+  "spent": 5209.41,
   "deployed": 490641.86,
   "by_ticker": {
     "NOC": 4228.64,
-    "IBM": 1025.45,
+    "IBM": 34.86,
     "MSFT": 47.41,
     "HLI": 1009.7,
     "CHRW": 17.56,
@@ -8052,19 +8052,41 @@
       ],
       "evidence": "NOC at 100% of day range, +0.29% today; Zacks headline on Northrop APN-241 processor demand 09-23",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 4.341303,
+      "status": "filled",
+      "price": 228.18,
+      "proceeds": 990.59,
+      "realized_pnl": -9.41,
+      "realized_pct": -0.94,
+      "date": "2026-09-24",
+      "time_et": "09:42",
+      "ts": 1790257200,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $230.35",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 6200.0,
+  "spent_today": 5209.41,
   "deployed_today": 26900.0,
   "orders_today": 8,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "PLTR",
     "CRWD",
     "AMD",
     "HUBB",
-    "TSM"
+    "TSM",
+    "IBM"
   ],
   "sold_ts": {
     "AMAT": 1790183968,
@@ -8083,7 +8105,7 @@
     "TSM": 1790257006,
     "AVGO": 1790187047,
     "UNH": 1790187048,
-    "IBM": 1790187704,
+    "IBM": 1790257339,
     "META": 1790170644,
     "GOOGL": 1790185574,
     "GLD": 1790175194,
@@ -8101,22 +8123,19 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790257210,
-  "last_check_ts": 1790257256,
+  "last_publish_ts": 1790257338,
+  "last_check_ts": 1790257338,
   "last_bar_ts": 1790257200,
   "last_decision_ts": 1790256771,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "9af7e682": 515.97,
-    "fbc6e2eb": 148.0001,
-    "f18144ae": 228.293,
     "602040a0": 129.4104,
+    "fbc6e2eb": 148.0001,
     "b9f44293": 511.7027,
     "f1112423": 127.7985,
-    "9fe0a731": 231.1723,
     "911f4796": 220.8367,
-    "116e0ae1": 223.4395,
     "3424e7ce": 125.0815,
     "5c682797": 499.3075
   }

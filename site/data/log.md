@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 AMAT @ $454.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32828.09 (+31.31% on $25000.00 in) · cash $21331.54 · realised +7831.54
-Done: 0 sell(s), 3 buy(s); 22 order(s) working; budget left $13433.47 this week
 - SELL 100% NVDA [time stop] -> $999.34 (-0.07%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $1846.15 PLD [buy_limit @ $134.83] — wanted it, but not at the high — resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
 ## 2026-09-24 09:37 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $4200.00 NOC [buy_limit @ $514.75] — wanted it, but not at the high — resting at $514.75. Defense sector strength, NOC making new intraday high
 ## 2026-09-24 09:40 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $228.18] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
+## 2026-09-24 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
