@@ -16605,3 +16605,6 @@ Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
 ## 2026-09-24 14:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% ESE [time stop] -> $1501.37 (+0.09%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $449.63] -> $1737.91 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-09-24 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-24T14:42-04:00",
+ "asOf": "2026-09-24T14:51-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,85 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3cc6d535",
-   "ticker": "TSM",
+   "id": "dd0e6ea1",
+   "ticker": "CRWD",
    "kind": "take_profit",
-   "price": 449.6339,
+   "price": 263.6347,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 449.05,
-   "pct_away": 0.13,
+   "last": 263.54,
+   "pct_away": 0.04,
    "good_until": "2026-09-29",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bb0eda87",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 464.6089,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 463.76,
-   "pct_away": 0.18,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e70b221a",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 448.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 449.05,
-   "pct_away": -0.23,
-   "good_until": "2026-09-24",
-   "why": "avoid chasing 99.6% of range, wait for small pullback",
-   "signals": [
-    "momentum",
-    "congress"
-   ]
-  },
-  {
-   "id": "81145a36",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 228.2304,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 227.58,
-   "pct_away": 0.29,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8835ed0e",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 147.0139,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 146.56,
-   "pct_away": 0.31,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,10 +163,78 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 121.02,
-   "pct_away": 0.34,
+   "last": 121.21,
+   "pct_away": 0.18,
    "good_until": "2026-09-29",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bb0eda87",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 464.6089,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 463.55,
+   "pct_away": 0.23,
+   "good_until": "2026-09-29",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "81145a36",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 228.2304,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 227.71,
+   "pct_away": 0.23,
+   "good_until": "2026-09-29",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e70b221a",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 448.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 449.44,
+   "pct_away": -0.32,
+   "good_until": "2026-09-24",
+   "why": "avoid chasing 99.6% of range, wait for small pullback",
+   "signals": [
+    "momentum",
+    "congress"
+   ]
+  },
+  {
+   "id": "8835ed0e",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 147.0139,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 146.55,
+   "pct_away": 0.32,
+   "good_until": "2026-09-29",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,31 +248,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 449.05,
-   "pct_away": -0.41,
+   "last": 449.44,
+   "pct_away": -0.5,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $447.21. Congress buy pressure plus positive momentum, cooldown cleared",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "dd0e6ea1",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 263.6347,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 262.49,
-   "pct_away": 0.44,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -283,8 +266,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 224.06,
-   "pct_away": -0.46,
+   "last": 224.15,
+   "pct_away": -0.5,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $223.04. Semis momentum continuing, add diversification to AI hardware theme",
    "signals": [
@@ -301,8 +284,8 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 342.36,
-   "pct_away": -0.69,
+   "last": 342.22,
+   "pct_away": -0.65,
    "good_until": "2026-09-24",
    "why": "catch GOOGL on minor pullback once cooldown clears",
    "signals": [
@@ -318,8 +301,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 342.36,
-   "pct_away": -0.72,
+   "last": 342.22,
+   "pct_away": -0.68,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $339.91. Widely_held momentum name with fresh partnership news",
    "signals": [
@@ -336,8 +319,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 146.56,
-   "pct_away": -0.73,
+   "last": 146.55,
+   "pct_away": -0.72,
    "good_until": "2026-09-29",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -353,8 +336,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 337.46,
-   "pct_away": -0.77,
+   "last": 337.44,
+   "pct_away": -0.76,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.44% under $336.33 to catch the dip",
    "signals": [
@@ -370,10 +353,28 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.99,
-   "pct_away": -0.84,
+   "last": 249.88,
+   "pct_away": -0.8,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $247.88. Diversify into widely_held bucket, not yet held, no cooldown",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "e795fd89",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 247.5932,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 249.88,
+   "pct_away": -0.92,
+   "good_until": "2026-09-24",
+   "why": "wanted it, but not at the high \u2014 resting at $247.59. add widely_held diversification, best realized sector bucket",
    "signals": [
     "momentum",
     "news",
@@ -388,31 +389,13 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 224.06,
-   "pct_away": -0.92,
+   "last": 224.15,
+   "pct_away": -0.96,
    "good_until": "2026-09-24",
    "why": "buy the dip near session low once cooldown clears",
    "signals": [
     "momentum",
     "news"
-   ]
-  },
-  {
-   "id": "e795fd89",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 247.5932,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 249.99,
-   "pct_away": -0.96,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $247.59. add widely_held diversification, best realized sector bucket",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
    ]
   },
   {
@@ -423,8 +406,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 463.76,
-   "pct_away": 1.07,
+   "last": 463.55,
+   "pct_away": 1.11,
    "good_until": "2026-09-24",
    "why": "lock in gains on half position",
    "signals": [
@@ -439,32 +422,14 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 623.58,
-   "pct_away": -1.28,
+   "last": 625.56,
+   "pct_away": -1.59,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $615.59. Strong multi-timeframe momentum in the best-performing sector, adding size while below min_positions",
    "signals": [
     "momentum",
     "news",
     "track_record",
-    "patience"
-   ]
-  },
-  {
-   "id": "9fa082b2",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 613.3695,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 623.58,
-   "pct_away": -1.64,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $613.37. Strong multi-timeframe momentum in widely_held best sector, cooldown recently ended history of prior gains",
-   "signals": [
-    "momentum",
-    "news",
     "patience"
    ]
   },
@@ -476,8 +441,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 463.76,
-   "pct_away": -1.67,
+   "last": 463.55,
+   "pct_away": -1.63,
    "good_until": "2026-09-24",
    "why": "protective stop on new HUBB buy",
    "signals": [
@@ -492,12 +457,30 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 269.13,
-   "pct_away": -1.76,
+   "last": 269.57,
+   "pct_away": -1.92,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held",
    "signals": [
     "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "9fa082b2",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 613.3695,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 625.56,
+   "pct_away": -1.95,
+   "good_until": "2026-09-24",
+   "why": "wanted it, but not at the high \u2014 resting at $613.37. Strong multi-timeframe momentum in widely_held best sector, cooldown recently ended history of prior gains",
+   "signals": [
+    "momentum",
     "news",
     "patience"
    ]
@@ -510,30 +493,14 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 269.13,
-   "pct_away": -1.94,
+   "last": 269.57,
+   "pct_away": -2.1,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst",
    "signals": [
     "congress",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "b6a8f88c",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 118.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 121.02,
-   "pct_away": -2.08,
-   "good_until": "2026-09-24",
-   "why": "Protective stop on new NEM buy",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -544,8 +511,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 776.4,
-   "pct_away": -2.09,
+   "last": 776.88,
+   "pct_away": -2.15,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $760.19. Strong multi-timeframe momentum plus fresh AI product news; widely_held is best realized sector (avg_ret 3.28%, n=320)",
    "signals": [
@@ -562,8 +529,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 227.58,
-   "pct_away": -2.1,
+   "last": 227.71,
+   "pct_away": -2.16,
    "good_until": "2026-09-24",
    "why": "Protective stop on new IBM buy",
    "signals": [
@@ -571,33 +538,17 @@
    ]
   },
   {
-   "id": "83289c96",
-   "ticker": "CRWD",
+   "id": "b6a8f88c",
+   "ticker": "NEM",
    "kind": "stop_loss",
-   "price": 256.9,
+   "price": 118.5,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.49,
-   "pct_away": -2.13,
+   "last": 121.21,
+   "pct_away": -2.24,
    "good_until": "2026-09-24",
-   "why": "Protective stop on new CRWD buy",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "12072c54",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 439.4,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 449.05,
-   "pct_away": -2.15,
-   "good_until": "2026-09-24",
-   "why": "Protective stop on new TSM buy",
+   "why": "Protective stop on new NEM buy",
    "signals": [
     "risk_management"
    ]
@@ -610,14 +561,30 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 776.4,
-   "pct_away": -2.33,
+   "last": 776.88,
+   "pct_away": -2.39,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $758.35. Strong momentum + news catalyst, widely_held is top realized sector",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "83289c96",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 256.9,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 263.54,
+   "pct_away": -2.52,
+   "good_until": "2026-09-24",
+   "why": "Protective stop on new CRWD buy",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -628,8 +595,8 @@
    "usd": 2800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 776.4,
-   "pct_away": -2.81,
+   "last": 776.88,
+   "pct_away": -2.87,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration",
    "signals": [
@@ -646,59 +613,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 146.56,
-   "pct_away": -2.99,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f23d8f4d",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 117.3506,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 121.02,
-   "pct_away": -3.03,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8bd3ec38",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 220.5586,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 227.58,
-   "pct_away": -3.09,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "199b0f23",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 254.3825,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 262.49,
-   "pct_away": -3.09,
+   "last": 146.55,
+   "pct_away": -2.98,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -714,8 +630,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 463.76,
-   "pct_away": -3.1,
+   "last": 463.55,
+   "pct_away": -3.06,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -724,15 +640,49 @@
    ]
   },
   {
-   "id": "d9ba5e82",
-   "ticker": "TSM",
+   "id": "8bd3ec38",
+   "ticker": "IBM",
    "kind": "buy_limit",
-   "price": 434.9965,
+   "price": 220.5586,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 449.05,
-   "pct_away": -3.13,
+   "last": 227.71,
+   "pct_away": -3.14,
+   "good_until": "2026-09-29",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f23d8f4d",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 117.3506,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 121.21,
+   "pct_away": -3.18,
+   "good_until": "2026-09-29",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "199b0f23",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 254.3825,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 263.54,
+   "pct_away": -3.47,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
