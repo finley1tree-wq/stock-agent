@@ -1,5 +1,3 @@
-~ WORKING buy_limit $1000.00 CRWD @ $258.07 until 2026-09-25 — strong month, weak day: resting 0.99% under $260.64 to catch the dip
-portfolio: equity $32911.95 (+31.65% on $25000.00 in) · cash $12922.28 · realised +7922.28
 Done: 0 sell(s), 6 buy(s); 26 order(s) working; budget left $5010.63 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $517.38] -> $3007.22 (+0.24%) — close 100% at +0.2% over the average cost
@@ -398,3 +396,5 @@ lesson: When below min_positions with high idle cash, deploy across multiple wid
 ~ WORKING buy_limit $500.00 AVGO @ $339.86 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32819.21 (+31.28% on $25000.00 in) · cash $24821.27 · realised +7821.27
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $16909.62 this week
+- SELL 100% MSFT [time stop] -> $2496.63 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
