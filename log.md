@@ -16651,3 +16651,4 @@ lesson: On the last check of the day, prefer letting existing well-placed buy_li
 portfolio: equity $32846.48 (+31.39% on $25000.00 in) · cash $32846.48 · realised +7846.48
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 18 resting buy order(s): inside the last max_hold_minutes of the session)
