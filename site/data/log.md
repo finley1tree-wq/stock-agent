@@ -1,11 +1,3 @@
-~ WORKING buy_limit $500.00 UNH @ $360.57 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% SKWD @ $55.35 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 SKWD @ $53.53 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AMD @ $606.25 until 2026-09-25 — strong month, weak day: resting 0.90% under $611.75 to catch the dip
-portfolio: equity $32851.63 (+31.41% on $25000.00 in) · cash $17863.08 · realised +7863.08
-Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $9951.43 this week
-- SELL 100% OKLO [time stop] -> $1992.08 (-0.40%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% CCJ [time stop] -> $1994.79 (-0.26%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% HD [time stop] -> $1993.11 (-0.34%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 11:21 ET — tick — 3 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +390,11 @@ Decision: nothing at this check. 32 standing order(s) working.
   (cancelled 2 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [take_profit @ $249.50] -> $2179.17 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-24 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped TSM: sold 9 min ago, cooling off)
+  (dropped TSM: sold 10 min ago, cooling off)
+  (dropped TSM: sold 10 min ago, cooling off)
+  (dropped TSM: sold 11 min ago, cooling off)
+  (cancelled 2 standing order(s) on SPY: position closed)
+- SELL 100% SPY [stop_loss @ $766.33] -> $1499.97 (-0.00%) — close it all at -0.2% under the average cost
+  (dropped TSM: sold 12 min ago, cooling off)
+## 2026-09-24 14:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders

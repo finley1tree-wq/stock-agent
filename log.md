@@ -16494,3 +16494,8 @@ Decision: nothing at this check. 32 standing order(s) working.
   (dropped TSM: sold 10 min ago, cooling off)
   (dropped TSM: sold 10 min ago, cooling off)
   (dropped TSM: sold 11 min ago, cooling off)
+  (cancelled 2 standing order(s) on SPY: position closed)
+- SELL 100% SPY [stop_loss @ $766.33] -> $1499.97 (-0.00%) — close it all at -0.2% under the average cost
+  (dropped TSM: sold 12 min ago, cooling off)
+## 2026-09-24 14:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped TSM: sold 13 min ago, cooling off)
