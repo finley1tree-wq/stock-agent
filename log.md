@@ -16490,3 +16490,5 @@ Decision: nothing at this check. 32 standing order(s) working.
   (cancelled 2 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [take_profit @ $249.50] -> $2179.17 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-24 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped TSM: sold 9 min ago, cooling off)
+  (dropped TSM: sold 10 min ago, cooling off)
