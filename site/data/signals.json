@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-24T14:29-04:00",
+ "asOf": "2026-09-24T14:31-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "0e240eb5",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 622.2664,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 621.96,
-   "pct_away": 0.05,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "bb0eda87",
    "ticker": "HUBB",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 464.39,
-   "pct_away": 0.05,
+   "last": 464.15,
+   "pct_away": 0.1,
    "good_until": "2026-09-29",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -180,13 +163,30 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 448.92,
-   "pct_away": -0.2,
+   "last": 448.82,
+   "pct_away": -0.18,
    "good_until": "2026-09-24",
    "why": "avoid chasing 99.6% of range, wait for small pullback",
    "signals": [
     "momentum",
     "congress"
+   ]
+  },
+  {
+   "id": "2304c16d",
+   "ticker": "ESE",
+   "kind": "take_profit",
+   "price": 269.7288,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 269.17,
+   "pct_away": 0.21,
+   "good_until": "2026-09-29",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -214,25 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 470.61,
-   "pct_away": 0.31,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2304c16d",
-   "ticker": "ESE",
-   "kind": "take_profit",
-   "price": 269.7288,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 268.89,
-   "pct_away": 0.31,
+   "last": 470.75,
+   "pct_away": 0.28,
    "good_until": "2026-09-29",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -248,8 +231,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 448.92,
-   "pct_away": -0.38,
+   "last": 448.82,
+   "pct_away": -0.36,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $447.21. Congress buy pressure plus positive momentum, cooldown cleared",
    "signals": [
@@ -284,8 +267,8 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.83,
-   "pct_away": -0.54,
+   "last": 341.92,
+   "pct_away": -0.56,
    "good_until": "2026-09-24",
    "why": "catch GOOGL on minor pullback once cooldown clears",
    "signals": [
@@ -301,28 +284,10 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.83,
-   "pct_away": -0.56,
+   "last": 341.92,
+   "pct_away": -0.59,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $339.91. Widely_held momentum name with fresh partnership news",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "ec7847d8",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 247.8787,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 249.84,
-   "pct_away": -0.79,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $247.88. Diversify into widely_held bucket, not yet held, no cooldown",
    "signals": [
     "momentum",
     "news",
@@ -337,13 +302,31 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 337.56,
-   "pct_away": -0.8,
+   "last": 337.49,
+   "pct_away": -0.78,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.44% under $336.33 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "ec7847d8",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 247.8787,
+   "usd": 2500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 249.86,
+   "pct_away": -0.79,
+   "good_until": "2026-09-24",
+   "why": "wanted it, but not at the high \u2014 resting at $247.88. Diversify into widely_held bucket, not yet held, no cooldown",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
    ]
   },
   {
@@ -388,8 +371,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.84,
-   "pct_away": -0.9,
+   "last": 249.86,
+   "pct_away": -0.91,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $247.59. add widely_held diversification, best realized sector bucket",
    "signals": [
@@ -406,8 +389,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 464.39,
-   "pct_away": 0.93,
+   "last": 464.15,
+   "pct_away": 0.98,
    "good_until": "2026-09-24",
    "why": "lock in gains on half position",
    "signals": [
@@ -422,8 +405,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 621.96,
-   "pct_away": -1.02,
+   "last": 622.25,
+   "pct_away": -1.07,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $615.59. Strong multi-timeframe momentum in the best-performing sector, adding size while below min_positions",
    "signals": [
@@ -441,30 +424,12 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 621.96,
-   "pct_away": -1.38,
+   "last": 622.25,
+   "pct_away": -1.43,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $613.37. Strong multi-timeframe momentum in widely_held best sector, cooldown recently ended history of prior gains",
    "signals": [
     "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "42d2648b",
-   "ticker": "ESE",
-   "kind": "buy_limit",
-   "price": 264.3975,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 268.89,
-   "pct_away": -1.67,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held",
-   "signals": [
-    "congress",
     "news",
     "patience"
    ]
@@ -477,8 +442,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 464.39,
-   "pct_away": -1.81,
+   "last": 464.15,
+   "pct_away": -1.76,
    "good_until": "2026-09-24",
    "why": "protective stop on new HUBB buy",
    "signals": [
@@ -486,17 +451,17 @@
    ]
   },
   {
-   "id": "6947e7c8",
+   "id": "42d2648b",
    "ticker": "ESE",
    "kind": "buy_limit",
-   "price": 263.908,
-   "usd": 3000.0,
+   "price": 264.3975,
+   "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 268.89,
-   "pct_away": -1.85,
+   "last": 269.17,
+   "pct_away": -1.77,
    "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst",
+   "why": "wanted it, but not at the high \u2014 resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held",
    "signals": [
     "congress",
     "news",
@@ -511,12 +476,30 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 774.68,
-   "pct_away": -1.87,
+   "last": 774.23,
+   "pct_away": -1.81,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $760.19. Strong multi-timeframe momentum plus fresh AI product news; widely_held is best realized sector (avg_ret 3.28%, n=320)",
    "signals": [
     "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "6947e7c8",
+   "ticker": "ESE",
+   "kind": "buy_limit",
+   "price": 263.908,
+   "usd": 3000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 269.17,
+   "pct_away": -1.95,
+   "good_until": "2026-09-24",
+   "why": "wanted it, but not at the high \u2014 resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst",
+   "signals": [
+    "congress",
     "news",
     "patience"
    ]
@@ -529,30 +512,14 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 774.68,
-   "pct_away": -2.11,
+   "last": 774.23,
+   "pct_away": -2.05,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $758.35. Strong momentum + news catalyst, widely_held is top realized sector",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "91d3a5e1",
-   "ticker": "ESE",
-   "kind": "stop_loss",
-   "price": 263.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 268.89,
-   "pct_away": -2.19,
-   "good_until": "2026-09-24",
-   "why": "Protective stop ~2.1% below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -563,8 +530,24 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 470.61,
-   "pct_away": -2.25,
+   "last": 470.75,
+   "pct_away": -2.28,
+   "good_until": "2026-09-24",
+   "why": "Protective stop ~2.1% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "91d3a5e1",
+   "ticker": "ESE",
+   "kind": "stop_loss",
+   "price": 263.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 269.17,
+   "pct_away": -2.29,
    "good_until": "2026-09-24",
    "why": "Protective stop ~2.1% below entry",
    "signals": [
@@ -579,47 +562,14 @@
    "usd": 2800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 774.68,
-   "pct_away": -2.6,
+   "last": 774.23,
+   "pct_away": -2.54,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "6a37530a",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 605.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 621.96,
-   "pct_away": -2.73,
-   "good_until": "2026-09-24",
-   "why": "Protective stop ~2.3% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "1a23c199",
-   "ticker": "ESE",
-   "kind": "buy_limit",
-   "price": 260.7166,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 268.89,
-   "pct_away": -3.04,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -640,6 +590,23 @@
    ]
   },
   {
+   "id": "1a23c199",
+   "ticker": "ESE",
+   "kind": "buy_limit",
+   "price": 260.7166,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 269.17,
+   "pct_away": -3.14,
+   "good_until": "2026-09-29",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "71bdf206",
    "ticker": "AMAT",
    "kind": "buy_limit",
@@ -647,8 +614,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 470.61,
-   "pct_away": -3.14,
+   "last": 470.75,
+   "pct_away": -3.16,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -664,25 +631,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 464.39,
-   "pct_away": -3.23,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "12dc70a4",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 600.721,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 621.96,
-   "pct_away": -3.41,
+   "last": 464.15,
+   "pct_away": -3.18,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

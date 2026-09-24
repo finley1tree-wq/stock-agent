@@ -16569,3 +16569,6 @@ portfolio: equity $32816.52 (+31.27% on $25000.00 in) · cash $24011.54 · reali
 Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $16099.89 this week
 - BUY $1000.00 CHRW [buy_limit @ $146.58] — strong month, weak day: resting 0.55% under $147.39 to catch the dip
 ## 2026-09-24 14:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $622.27] -> $3014.35 (+0.48%) — close 100% at +0.5% over the average cost
+## 2026-09-24 14:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
