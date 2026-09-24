@@ -16206,3 +16206,8 @@ lesson: Congress-score-3.0 CHRW/HUBB/LTH positions are flat/slightly red after 1
 ~ WORKING buy_limit $1000.00 AAPL @ $334.86 until 2026-09-25 — strong month, weak day: resting 0.44% under $336.33 to catch the dip
 portfolio: equity $32808.32 (+31.23% on $25000.00 in) · cash $22822.37 · realised +7822.37
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $14910.71 this week
+- SELL 100% GLD [time stop] -> $1500.02 (+0.00%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LTH [time stop] -> $1502.60 (+0.17%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CHRW [time stop] -> $1482.23 (-1.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HUBB [time stop] -> $1498.44 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 12:08 ET — tick — 4 sell(s), 0 buy(s) from standing orders

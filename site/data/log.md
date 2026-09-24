@@ -1,8 +1,3 @@
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-brain: Book is completely flat (0 positions, 99.7% idle cash) with full_deployment active and min_positions=8, so the priority is getting to target count in size immediately rather than waiting. I picked 6 names spanning distinct sectors (AI/software, semis, defense, congress-favored industrial) each backed by a concrete headline or congress disclosure, sized $3.9-4.2k which is well within max_per_ticker/sector caps and puts most of the budget to work. Added protective stops on each per risk_management (the best-performing signal bucket historically at 87% hit rate).
-lesson: From a flat book under full_deployment, act on the first check rather than waiting: size positions at $3.5-4.5k across distinct sectors with immediate stops, using concrete evidence (headline/congress/momentum) per name.
-  (dropped NOC: 100% up today's range — resting a limit at $514.75 instead of chasing)
-- BUY $4200.00 PLTR [filled] ['momentum', 'news'] — Fresh high momentum name with strong AI narrative, not extended intraday | evidence: Palantir just hit a one-year high per GuruFocus 09-24; change_1m +10.35%, currently 51.8% of day range
 - BUY $4200.00 CRWD [filled] ['congress', 'news'] — Congress buy pressure plus strong 1-month momentum, only 29% of day range so room to run | evidence: Rep. Gilbert Ray Cisneros disclosed buy 2026-09-04/09-10; CRWD 1m momentum +36.2%
 - BUY $4200.00 AMD [filled] ['momentum', 'news'] — Best signal_evidence bucket historically is widely_held sector (avg_ret 3.87%); AMD leads that group | evidence: AMD 1m momentum +26.27%, Insider Monkey headline 'Emerging as a Viable Alternative to Nvidia' 09-24
 - BUY $4200.00 HUBB [filled] ['congress', 'news'] — Highest congress buy pressure score in the disclosed list, at 47.7% of day range | evidence: Rep. April McClain Delaney disclosed buys in HUBB 09-09; congress_net_buy_pressure HUBB=3.0 highest tier
@@ -398,3 +393,8 @@ lesson: Congress-score-3.0 CHRW/HUBB/LTH positions are flat/slightly red after 1
 ~ WORKING buy_limit $1000.00 AAPL @ $334.86 until 2026-09-25 — strong month, weak day: resting 0.44% under $336.33 to catch the dip
 portfolio: equity $32808.32 (+31.23% on $25000.00 in) · cash $22822.37 · realised +7822.37
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $14910.71 this week
+- SELL 100% GLD [time stop] -> $1500.02 (+0.00%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LTH [time stop] -> $1502.60 (+0.17%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CHRW [time stop] -> $1482.23 (-1.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HUBB [time stop] -> $1498.44 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 12:08 ET — tick — 4 sell(s), 0 buy(s) from standing orders
