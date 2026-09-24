@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "c1cc6182",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 225.1144,
-   "status": "cancelled",
-   "created": "2026-09-23 12:26",
-   "created_ts": 1790180802,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $224.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "860d9205",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 222.7913,
-   "status": "cancelled",
-   "created": "2026-09-23 12:26",
-   "created_ts": 1790180802,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $224.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "43240ef2",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 217.7165,
-   "status": "cancelled",
-   "created": "2026-09-23 12:26",
-   "created_ts": 1790180802,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $224.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "e9ad1b8b",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -6856,7 +6799,7 @@
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 766.3442,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 12:56",
    "created_ts": 1790268997,
    "why": "wanted it, but not at the high \u2014 resting at $766.34. diversification anchor while individual stock cooldowns clear",
@@ -6867,7 +6810,8 @@
     "patience"
    ],
    "good_until": "2026-09-24",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-09-24 13:43"
   },
   {
    "id": "14a9bc5e",
@@ -7417,7 +7361,58 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "0a31a359",
+   "ticker": "SPY",
+   "kind": "take_profit",
+   "price": 767.4895,
+   "status": "working",
+   "created": "2026-09-24 13:43",
+   "created_ts": 1790271818,
+   "why": "close 100% at +0.1% over the average cost",
+   "evidence": "average cost $766.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1dd98bc2",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 764.4701,
+   "status": "working",
+   "created": "2026-09-24 13:43",
+   "created_ts": 1790271818,
+   "why": "close it all at -0.2% under the average cost",
+   "evidence": "average cost $766.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "410f8621",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 743.3498,
+   "status": "working",
+   "created": "2026-09-24 13:43",
+   "created_ts": 1790271818,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $766.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 13:39"
+ "updated": "2026-09-24 13:43"
 }

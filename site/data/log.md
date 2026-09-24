@@ -1,5 +1,3 @@
-portfolio: equity $32895.17 (+31.58% on $25000.00 in) · cash $11916.96 · realised +7916.96
-Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $4005.31 this week
 - SELL 100% RTX [time stop] -> $2976.44 (-0.79%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% LMT [time stop] -> $2985.24 (-0.49%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AAPL [time stop] -> $2994.61 (-0.18%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +396,5 @@ lesson: When below min_positions with high idle cash, deploy into 4-6 names in a
 ~ WORKING buy_limit $500.00 NVDA @ $217.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32812.37 (+31.25% on $25000.00 in) · cash $19491.82 · realised +7817.90
 Done: 0 sell(s), 4 buy(s); 40 order(s) working; budget left $11580.17 this week
+- BUY $1500.00 SPY [buy_limit @ $766.34] — wanted it, but not at the high — resting at $766.34. diversification anchor while individual stock cooldowns clear
+## 2026-09-24 13:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
