@@ -16067,3 +16067,32 @@ Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $4005.31 this week
 - SELL 100% TSM [time stop] -> $2994.55 (-0.18%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMZN [time stop] -> $2995.28 (-0.16%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 11:05 ET — tick — 5 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 11:07 ET (Thursday) — week 2026-W39 — budget left $18951.43 (today $85219.75 put to work, 30 buys, 27 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Below min_positions (3 held, need 8) with 76% idle cash - deploying into 4 more distinct names with concrete evidence (nuclear sector track record, congress pressure on SKWD, fresh UNH news, GOOGL mid-range widely_held). All new entries are mid-range (not chasing), sized $2-2.5k each per account guidance, with protective stops attached since none exist yet on these new positions.
+lesson: Keep filling toward min_positions with mid-range entries and immediate stops rather than waiting; track whether NLR/SKWD add value versus GOOGL/UNH widely_held picks.
+- BUY $2500.00 NLR [filled] ['momentum', 'news', 'track_record'] — Add third nuclear name low in range to diversify within a sector that has strong historical hit-rate (0.81) without concentrating further in OKLO/CCJ | evidence: NLR at 10.2% of day range, -2.13% today, nuclear sector backtest shows +282% 2y avg return; underrepresented in book (only OKLO/CCJ held)
+- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely_held sector has the best realized track record (3.48% avg, though hit rate 37%); GOOGL not in cooldown, priced mid-range not chasing | evidence: GOOGL flat 0.03% today at 44.7% of range, headline 'Lowe's launches drone delivery pilot' and AI narrative ongoing, widely_held sector has best avg_ret_pct 3.48% in track record
+- BUY $2000.00 UNH [filled] ['news', 'momentum'] — Healthcare diversification with fresh corporate news, priced mid-range, not chasing a extended move | evidence: UNH +0.1% today at 50.5% of range, headline 'UnitedHealth names first chief administrative officer' - fresh news catalyst, not in cooldown
+- BUY $2000.00 SKWD [filled] ['congress', 'news'] — Congressional buying pressure signal plus mid-range entry, adds a name outside overlapping sectors | evidence: congress_net_buy_pressure SKWD=2.0, disclosed buys from April McClain Delaney-linked pressure list, priced at 50% of day range
+~ WORKING stop_loss 100% NLR @ $103.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% GOOGL @ $331.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% UNH @ $365.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% SKWD @ $54.00 until 2026-09-24 — protective stop below day low
+~ WORKING take_profit 100% NLR @ $106.54 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $102.95 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $338.97 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $327.85 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $372.86 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $360.57 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $55.35 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $53.53 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $606.25 until 2026-09-25 — strong month, weak day: resting 0.90% under $611.75 to catch the dip
+portfolio: equity $32851.63 (+31.41% on $25000.00 in) · cash $17863.08 · realised +7863.08
+Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $9951.43 this week

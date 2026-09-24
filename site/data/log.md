@@ -1,32 +1,3 @@
-~ WORKING buy_limit $2300.00 ESE @ $262.41 until 2026-09-23 — wanted it, but not at the high — resting at $262.41. Defense-adjacent infra theme with steady momentum, not cooling off
-~ WORKING buy_limit $2000.00 HLI @ $129.75 until 2026-09-23 — wanted it, but not at the high — resting at $129.75. Financial services diversification, strong intraday momentum, not cooling off
-~ WORKING take_profit 100% SKWD @ $55.35 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 SKWD @ $53.52 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NLR @ $109.62 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NLR @ $105.93 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LMT @ $528.59 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 LMT @ $511.39 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32872.64 (+31.49% on $25000.00 in) · cash $23274.90 · realised +7874.90
-Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $15376.83 this week
-- SELL 100% PLTR [time stop] -> $2199.00 (-0.05%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% RTX [time stop] -> $1994.70 (-0.27%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 14:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 14:39 ET (Wednesday) — week 2026-W39 — budget left $19570.53 (today $172245.75 put to work, 77 buys, 73 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Below min_positions (3 of 8) with 78% cash idle - must deploy more. PLTR is in cooldown (42 min left) so I'm dropping it and adding CCJ instead which is low in its day range (8.7%) with strong nuclear sector track record (0.93 hit rate). AMAT has congress buying pressure from Gottheimer and positive momentum. Adding stops on new positions per risk_management pattern that has 0.87 hit rate historically.
-lesson: PLTR was in cooling_off (42 min) - always double check cooling_off_minutes_left before finalizing orders, not just before drafting.
-  (dropped PLTR: sold 3 min ago, cooling off)
-  (dropped AMAT: 93% up today's range — resting a limit at $468.64 instead of chasing)
-- BUY $2200.00 CCJ [filled] ['momentum', 'track_record', 'news'] — Deep in day range nuclear name with strong historical sector hit-rate, diversifies away from NLR/defense already held | evidence: CCJ at 8.7% of day range (91.5, low 91.29/high 93.69), nuclear sector has 0.93 hit_rate in track_record by_sector
-  (dropped trigger AMAT stop_loss: not held)
-  (dropped trigger AMAT buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% CCJ @ $88.70 until 2026-09-23 — Protective stop for new CCJ position
 ~ WORKING take_profit 100% CCJ @ $91.91 until 2026-09-28 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 CCJ @ $88.79 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING buy_limit $1000.00 TSM @ $444.01 until 2026-09-24 — strong month, weak day: resting 0.46% under $446.08 to catch the dip
@@ -398,3 +369,32 @@ Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $4005.31 this week
 - SELL 100% TSM [time stop] -> $2994.55 (-0.18%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMZN [time stop] -> $2995.28 (-0.16%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 11:05 ET — tick — 5 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 11:07 ET (Thursday) — week 2026-W39 — budget left $18951.43 (today $85219.75 put to work, 30 buys, 27 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Below min_positions (3 held, need 8) with 76% idle cash - deploying into 4 more distinct names with concrete evidence (nuclear sector track record, congress pressure on SKWD, fresh UNH news, GOOGL mid-range widely_held). All new entries are mid-range (not chasing), sized $2-2.5k each per account guidance, with protective stops attached since none exist yet on these new positions.
+lesson: Keep filling toward min_positions with mid-range entries and immediate stops rather than waiting; track whether NLR/SKWD add value versus GOOGL/UNH widely_held picks.
+- BUY $2500.00 NLR [filled] ['momentum', 'news', 'track_record'] — Add third nuclear name low in range to diversify within a sector that has strong historical hit-rate (0.81) without concentrating further in OKLO/CCJ | evidence: NLR at 10.2% of day range, -2.13% today, nuclear sector backtest shows +282% 2y avg return; underrepresented in book (only OKLO/CCJ held)
+- BUY $2500.00 GOOGL [filled] ['momentum', 'news'] — Widely_held sector has the best realized track record (3.48% avg, though hit rate 37%); GOOGL not in cooldown, priced mid-range not chasing | evidence: GOOGL flat 0.03% today at 44.7% of range, headline 'Lowe's launches drone delivery pilot' and AI narrative ongoing, widely_held sector has best avg_ret_pct 3.48% in track record
+- BUY $2000.00 UNH [filled] ['news', 'momentum'] — Healthcare diversification with fresh corporate news, priced mid-range, not chasing a extended move | evidence: UNH +0.1% today at 50.5% of range, headline 'UnitedHealth names first chief administrative officer' - fresh news catalyst, not in cooldown
+- BUY $2000.00 SKWD [filled] ['congress', 'news'] — Congressional buying pressure signal plus mid-range entry, adds a name outside overlapping sectors | evidence: congress_net_buy_pressure SKWD=2.0, disclosed buys from April McClain Delaney-linked pressure list, priced at 50% of day range
+~ WORKING stop_loss 100% NLR @ $103.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% GOOGL @ $331.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% UNH @ $365.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% SKWD @ $54.00 until 2026-09-24 — protective stop below day low
+~ WORKING take_profit 100% NLR @ $106.54 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $102.95 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $338.97 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $327.85 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $372.86 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $360.57 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $55.35 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $53.53 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $606.25 until 2026-09-25 — strong month, weak day: resting 0.90% under $611.75 to catch the dip
+portfolio: equity $32851.63 (+31.41% on $25000.00 in) · cash $17863.08 · realised +7863.08
+Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $9951.43 this week
