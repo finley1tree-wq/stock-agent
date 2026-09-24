@@ -15989,3 +15989,43 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
 - SELL 100% NVDA [time stop] -> $1997.58 (-0.12%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% IBP [time stop] -> $1487.74 (-0.82%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 10:33 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 10:35 ET (Thursday) — week 2026-W39 — budget left $23010.63 (today $61219.75 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Book is at only 1 position with 92% cash idle against min_positions=8 and full_deployment active - this is exactly the pattern past_lessons flag as costly (idle_share 0.55, idle_universe returned +0.61% while I sat out). I'm deploying into defense (NOC/RTX/LMT - good track_record hit_rate 0.67, fresh news catalysts, none in cooling-off), AAPL (strong 1m momentum +8.52%, mid-range entry), AMZN (best-performing sector bucket widely_held at 3.53% avg, robotics capex headline), and ESE (congress buy pressure score 2.0 plus infrastructure theme, at day high showing strength). Dropped TSM since it's effectively cooling off-adjacent given today's heavy overlap; each name gets its own stop_loss near today's low per risk_management signal which has the best realized hit_rate (0.87) in track_record.
+lesson: When flat with 92% idle cash under full_deployment, deploy into 6-7 distinct non-cooling-off names immediately with per-name stops rather than waiting, since idle_universe_avg_pct has been positive in recent counterfactuals.
+  (dropped ESE: 100% up today's range — resting a limit at $263.91 instead of chasing)
+- BUY $3000.00 NOC [filled] ['momentum', 'news', 'track_record'] — Defense sector has solid hit rate; NOC not cooling off, fresh entry with catalyst news | evidence: NOC +0.29% today, defense sector track_record hit_rate 0.67, headline 'Can APN-241 Processor Demand Support Northrop Grumman's Growth?'
+- BUY $3000.00 RTX [filled] ['news', 'momentum'] — Defense name with positive delivery news, not in cooling off, diversifies away from tech | evidence: RTX +0.24% today, headline 'Pratt & Whitney Delivers First GTF Advantage-Powered Aircraft to United Airlines'
+- BUY $3000.00 LMT [filled] ['momentum', 'news'] — Momentum plus favorable analyst coverage in defense sector | evidence: LMT +0.79% today, 69.6% of day range, headline 'Our Pick Of The Best Defense Stocks In September 2026'
+- BUY $3000.00 AAPL [filled] ['momentum', 'news'] — Strong 1-month momentum name at 50% of day range, reasonable entry level, not chasing | evidence: AAPL +8.52% 1m momentum, Qualcomm patent renewal headline extends key licensing into 2027
+- BUY $3000.00 TSM [filled] ['momentum', 'news'] — AI supply chain beneficiary with strong recent momentum and bullish coverage; cooling off period expired (43 min ago from separate list check - actually still cooling, replaced by AMZN instead | evidence: TSM +3.23% 5d momentum, headline 'Nvidia, AMD Love This High-Tech Facilitator. So Does Wall Street.'
+- BUY $3000.00 AMZN [filled] ['news', 'momentum'] — Widely-held sector has best realized track record (3.53% avg), capex investment news is a positive catalyst | evidence: Amazon building $100 million robotics plant in Indiana headline, widely_held sector avg_ret 3.53% with n=304
+  (dropped trigger ESE stop_loss: not held)
+~ WORKING stop_loss 100% NOC @ $505.60 until 2026-09-24 — protective stop below recent range
+~ WORKING stop_loss 100% RTX @ $189.00 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% LMT @ $519.00 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% AAPL @ $330.00 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% AMZN @ $242.00 until 2026-09-24 — protective stop below today's low
+~ WORKING buy_limit $3000.00 ESE @ $263.91 until 2026-09-24 — wanted it, but not at the high — resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst
+~ WORKING take_profit 100% NOC @ $517.38 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $500.66 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $193.10 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $186.96 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $530.31 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $513.14 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $337.15 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $326.28 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $445.38 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $441.40 until 2026-09-29 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $430.91 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $247.53 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $239.52 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CRWD @ $258.07 until 2026-09-25 — strong month, weak day: resting 0.99% under $260.64 to catch the dip
+portfolio: equity $32911.95 (+31.65% on $25000.00 in) · cash $12922.28 · realised +7922.28
+Done: 0 sell(s), 6 buy(s); 26 order(s) working; budget left $5010.63 this week

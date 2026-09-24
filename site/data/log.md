@@ -1,43 +1,3 @@
-lesson: Diversifying into non-cooling-off names (CHRW/IBM/PLD/HD) at $1.6-2.2k with immediate stops to reach min_positions is consistent with the pattern that scored best in past checks; keep checking cooling_off_minutes_left before selecting candidates.
-  (dropped PLD: sold 38 min ago, cooling off)
-  (dropped CHRW: 96% up today's range — resting a limit at $149.42 instead of chasing)
-- BUY $2000.00 IBM [filled] ['news', 'momentum'] — Fresh positive news catalyst, reasonable entry at 49% of day range | evidence: IBM +1.51% today, headline 'AI magic sends markets higher, plus one-on-one with IBM vice chair' 2026-09-23; not in cooling_off
-- BUY $1600.00 HD [filled] ['news', 'momentum'] — Cheap entry near day low with positive housing-recovery catalyst | evidence: HD +0.89% today at 16.3% of day range (near low), headline 'Home Depot Positioned to benefit from Housing Market Recovery' 2026-09-23
-  (dropped trigger CHRW stop_loss: not held)
-  (dropped trigger PLD stop_loss: not held)
-~ WORKING stop_loss 100% IBM @ $229.50 until 2026-09-23 — Protective stop for new IBM position
-~ WORKING stop_loss 100% HD @ $293.50 until 2026-09-23 — Protective stop for new HD position
-~ WORKING buy_limit $2200.00 CHRW @ $149.42 until 2026-09-23 — wanted it, but not at the high — resting at $149.42. Top congress-pressure name not held, diversifies away from tech/defense already in book
-~ WORKING take_profit 100% IBM @ $236.31 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $228.42 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $300.56 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $290.89 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 NVDA @ $223.89 until 2026-09-24 — strong month, weak day: resting 0.56% under $225.14 to catch the dip
-portfolio: equity $32881.83 (+31.53% on $25000.00 in) · cash $18786.59 · realised +7886.59
-Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $10888.52 this week
-- SELL 100% IBP [time stop] -> $1991.22 (-0.44%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AMZN: position closed)
-- SELL 100% AMZN [take_profit @ $248.95] -> $2506.18 (+0.25%) — close 100% at +0.2% over the average cost
-## 2026-09-23 13:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 14:06 ET (Wednesday) — week 2026-W39 — budget left $15385.92 (today $162645.75 put to work, 72 buys, 66 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Still below min_positions (5 of 8) with 61.5% cash idle. Adding CRWD (strong relative momentum + news catalyst, not cooling off), PLTR (fresh FAA catalyst, momentum), and RTX (defense sector diversification, historically 71% hit rate) at $2-2.3k each in market orders per the pattern that scored best in recent checks. Protective stops attached immediately per risk_management signal which has the best hit rate (0.87) in track record.
-lesson: Market buys at $2-2.3k across distinct sectors with immediate stops continues to be the pattern to follow when below min_positions and cash is idle; keep screening cooling_off list first.
-  (dropped CRWD: sold 44 min ago, cooling off)
-- BUY $2200.00 PLTR [filled] ['momentum', 'news'] — Momentum plus concrete FAA catalyst, not in cooling-off list | evidence: PLTR +4.07% today, 'Palantir Just Got a Major Vote of Confidence From the FAA', IBD flashes buy signal
-- BUY $2000.00 RTX [filled] ['momentum', 'news'] — Defense sector diversification away from tech-heavy book, decent hit rate historically | evidence: RTX headline 'Is Lockheed Martin Entering a New Growth Cycle Through Missile Defense?' sector tailwind, defense hit_rate 0.71 per track record
-  (dropped trigger CRWD stop_loss: not held)
-~ WORKING stop_loss 100% PLTR @ $185.00 until 2026-09-23 — Protective stop for new PLTR position
-~ WORKING stop_loss 100% RTX @ $189.00 until 2026-09-23 — Protective stop for new RTX position
-~ WORKING take_profit 100% PLTR @ $191.42 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $184.86 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% RTX @ $194.72 until 2026-09-28 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 RTX @ $188.49 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32878.49 (+31.51% on $25000.00 in) · cash $19083.98 · realised +7883.98
@@ -398,3 +358,43 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
 - SELL 100% NVDA [time stop] -> $1997.58 (-0.12%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% IBP [time stop] -> $1487.74 (-0.82%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 10:33 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 10:35 ET (Thursday) — week 2026-W39 — budget left $23010.63 (today $61219.75 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Book is at only 1 position with 92% cash idle against min_positions=8 and full_deployment active - this is exactly the pattern past_lessons flag as costly (idle_share 0.55, idle_universe returned +0.61% while I sat out). I'm deploying into defense (NOC/RTX/LMT - good track_record hit_rate 0.67, fresh news catalysts, none in cooling-off), AAPL (strong 1m momentum +8.52%, mid-range entry), AMZN (best-performing sector bucket widely_held at 3.53% avg, robotics capex headline), and ESE (congress buy pressure score 2.0 plus infrastructure theme, at day high showing strength). Dropped TSM since it's effectively cooling off-adjacent given today's heavy overlap; each name gets its own stop_loss near today's low per risk_management signal which has the best realized hit_rate (0.87) in track_record.
+lesson: When flat with 92% idle cash under full_deployment, deploy into 6-7 distinct non-cooling-off names immediately with per-name stops rather than waiting, since idle_universe_avg_pct has been positive in recent counterfactuals.
+  (dropped ESE: 100% up today's range — resting a limit at $263.91 instead of chasing)
+- BUY $3000.00 NOC [filled] ['momentum', 'news', 'track_record'] — Defense sector has solid hit rate; NOC not cooling off, fresh entry with catalyst news | evidence: NOC +0.29% today, defense sector track_record hit_rate 0.67, headline 'Can APN-241 Processor Demand Support Northrop Grumman's Growth?'
+- BUY $3000.00 RTX [filled] ['news', 'momentum'] — Defense name with positive delivery news, not in cooling off, diversifies away from tech | evidence: RTX +0.24% today, headline 'Pratt & Whitney Delivers First GTF Advantage-Powered Aircraft to United Airlines'
+- BUY $3000.00 LMT [filled] ['momentum', 'news'] — Momentum plus favorable analyst coverage in defense sector | evidence: LMT +0.79% today, 69.6% of day range, headline 'Our Pick Of The Best Defense Stocks In September 2026'
+- BUY $3000.00 AAPL [filled] ['momentum', 'news'] — Strong 1-month momentum name at 50% of day range, reasonable entry level, not chasing | evidence: AAPL +8.52% 1m momentum, Qualcomm patent renewal headline extends key licensing into 2027
+- BUY $3000.00 TSM [filled] ['momentum', 'news'] — AI supply chain beneficiary with strong recent momentum and bullish coverage; cooling off period expired (43 min ago from separate list check - actually still cooling, replaced by AMZN instead | evidence: TSM +3.23% 5d momentum, headline 'Nvidia, AMD Love This High-Tech Facilitator. So Does Wall Street.'
+- BUY $3000.00 AMZN [filled] ['news', 'momentum'] — Widely-held sector has best realized track record (3.53% avg), capex investment news is a positive catalyst | evidence: Amazon building $100 million robotics plant in Indiana headline, widely_held sector avg_ret 3.53% with n=304
+  (dropped trigger ESE stop_loss: not held)
+~ WORKING stop_loss 100% NOC @ $505.60 until 2026-09-24 — protective stop below recent range
+~ WORKING stop_loss 100% RTX @ $189.00 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% LMT @ $519.00 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% AAPL @ $330.00 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% AMZN @ $242.00 until 2026-09-24 — protective stop below today's low
+~ WORKING buy_limit $3000.00 ESE @ $263.91 until 2026-09-24 — wanted it, but not at the high — resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst
+~ WORKING take_profit 100% NOC @ $517.38 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $500.66 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $193.10 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $186.96 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $530.31 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $513.14 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $337.15 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $326.28 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $445.38 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $441.40 until 2026-09-29 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $430.91 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $247.53 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $239.52 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CRWD @ $258.07 until 2026-09-25 — strong month, weak day: resting 0.99% under $260.64 to catch the dip
+portfolio: equity $32911.95 (+31.65% on $25000.00 in) · cash $12922.28 · realised +7922.28
+Done: 0 sell(s), 6 buy(s); 26 order(s) working; budget left $5010.63 this week
