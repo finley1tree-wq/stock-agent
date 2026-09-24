@@ -1,27 +1,3 @@
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain: Market closes in 5 minutes (15:55, close 16:00) and no_new_entries_this_check is true, so no new buys are possible. RTX already has working stop_loss and take_profit brackets in place from auto_bracket, and it's only 29 minutes held so those orders will manage the exit. Checks_left_today is 0, so nothing further to do - let the existing protective orders handle RTX into the close.
-lesson: On the last check of the day with no_new_entries_this_check true and market closing in minutes, rely on existing auto_bracket stop/take-profit orders rather than trying to force new entries that will be dropped.
-~ WORKING buy_limit $500.00 RTX @ $187.20 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32836.73 (+31.35% on $25000.00 in) · cash $30640.27 · realised +7840.27
-Decision: nothing at this check. 3 standing order(s) working.
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% RTX [time stop] -> $2193.07 (-0.31%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 15:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-## 2026-09-23 16:00 ET — published the session's closing state
-
-## 2026-09-24 09:32 ET (Thursday) — week 2026-W39 — budget left $24935.27 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
   (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
 brain: Book is completely flat (0 positions, 99.7% idle cash) with full_deployment active and min_positions=8, so the priority is getting to target count in size immediately rather than waiting. I picked 6 names spanning distinct sectors (AI/software, semis, defense, congress-favored industrial) each backed by a concrete headline or congress disclosure, sized $3.9-4.2k which is well within max_per_ticker/sector caps and puts most of the budget to work. Added protective stops on each per risk_management (the best-performing signal bucket historically at 87% hit rate).
 lesson: From a flat book under full_deployment, act on the first check rather than waiting: size positions at $3.5-4.5k across distinct sectors with immediate stops, using concrete evidence (headline/congress/momentum) per name.
@@ -398,3 +374,27 @@ Done: 0 sell(s), 5 buy(s); 29 order(s) working; budget left $12002.71 this week
 - SELL 100% AMD [time stop] -> $1661.83 (-0.06%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% IBP [time stop] -> $1573.86 (-0.84%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 11:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 11:54 ET (Thursday) — week 2026-W39 — budget left $18910.71 (today $108719.75 put to work, 43 buys, 39 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Still below min_positions (4 of 8) with 75% cash idle - need to keep deploying. Adding ESE (congress+news, low in range), AMAT (insider/congress disclosure + AI demand news, mid-range not chasing), and TPL (fresh same-day insider buy by 10% owner, near day low). All three avoid cooling-off list and add sector diversity (industrial, semis, land/royalty) beyond current GLD/LTH/CHRW/HUBB holdings.
+lesson: Congress-score-3.0 CHRW/HUBB/LTH positions are flat/slightly red after 16 min - don't overweight congress score alone without a fresh news catalyst; combine with insider filings or momentum for better odds.
+  (dropped ESE: 88% up today's range — resting a limit at $264.40 instead of chasing)
+- BUY $2000.00 AMAT [filled] ['news', 'congress', 'track_record'] — AI semis demand story plus congressional buy signal, currently mid-range (54% of day range) not chasing highs | evidence: Josh Gottheimer disclosed AMAT buy (2026-09-14); 'Applied Materials (AMAT) Continues to Benefit from Surging AI-Driven Demand' - Insider Monkey; congress score 2.0
+- BUY $2000.00 TPL [filled] ['insider', 'momentum'] — Insider buy filed same day plus low position in day range gives room to the upside | evidence: Horizon Kinetics (10% owner) bought TPL shares filed 2026-09-24; TPL +0.9% today, only 15% of day range (near day low)
+  (dropped trigger ESE stop_loss: not held)
+~ WORKING stop_loss 100% AMAT @ $452.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% TPL @ $333.00 until 2026-09-24 — protective stop below day low
+~ WORKING buy_limit $2000.00 ESE @ $264.40 until 2026-09-24 — wanted it, but not at the high — resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held
+~ WORKING take_profit 100% AMAT @ $466.65 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMAT @ $450.61 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TPL @ $340.63 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TPL @ $328.73 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AAPL @ $334.86 until 2026-09-25 — strong month, weak day: resting 0.44% under $336.33 to catch the dip
+portfolio: equity $32808.32 (+31.23% on $25000.00 in) · cash $22822.37 · realised +7822.37
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $14910.71 this week

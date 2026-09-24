@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 6089.29,
-  "deployed": 572461.61,
+  "spent": 10089.29,
+  "deployed": 576461.61,
   "by_ticker": {
     "NOC": 18.79,
     "IBM": 34.86,
@@ -15,7 +15,7 @@
     "O": 31.89,
     "PLD": 9.35,
     "OKLO": 17.05,
-    "AMAT": 6.82,
+    "AMAT": 2006.82,
     "HD": 7.12,
     "IBP": 36.31,
     "SKWD": 24.17,
@@ -30,11 +30,12 @@
     "AMD": 0.96,
     "GLD": 1500.0,
     "LTH": 1500.0,
-    "HUBB": 1500.0
+    "HUBB": 1500.0,
+    "TPL": 2000.0
   },
   "deployed_by_ticker": {
     "AMD": 42363.85,
-    "AMAT": 17141.67,
+    "AMAT": 19141.67,
     "NVDA": 18018.8,
     "CHRW": 10600.0,
     "TTD": 7500.0,
@@ -66,7 +67,8 @@
     "HD": 7600.0,
     "ESE": 1976.05,
     "SKWD": 5796.41,
-    "LTH": 1500.0
+    "LTH": 1500.0,
+    "TPL": 2000.0
   },
   "orders": [
     {
@@ -9354,12 +9356,47 @@
       ],
       "evidence": "bought 30 min ago, -0.80% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMAT",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.305215,
+      "price": 464.55,
+      "date": "2026-09-24",
+      "time_et": "11:54",
+      "ts": 1790265260,
+      "why": "AI semis demand story plus congressional buy signal, currently mid-range (54% of day range) not chasing highs",
+      "signals": [
+        "news",
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Josh Gottheimer disclosed AMAT buy (2026-09-14); 'Applied Materials (AMAT) Continues to Benefit from Surging AI-Driven Demand' - Insider Monkey; congress score 2.0"
+    },
+    {
+      "symbol": "TPL",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.901524,
+      "price": 338.9,
+      "date": "2026-09-24",
+      "time_et": "11:54",
+      "ts": 1790265260,
+      "why": "Insider buy filed same day plus low position in day range gives room to the upside",
+      "signals": [
+        "insider",
+        "momentum"
+      ],
+      "evidence": "Horizon Kinetics (10% owner) bought TPL shares filed 2026-09-24; TPL +0.9% today, only 15% of day range (near day low)"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 6089.29,
-  "deployed_today": 108719.75,
-  "orders_today": 43,
+  "spent_today": 10089.29,
+  "deployed_today": 112719.75,
+  "orders_today": 45,
   "sells_today": 39,
   "sold_today": [
     "PLTR",
@@ -9428,26 +9465,34 @@
     "ESE": 1790180977,
     "SKWD": 1790264294
   },
-  "last_publish_ts": 1790265173,
-  "last_check_ts": 1790265173,
+  "last_publish_ts": 1790265260,
+  "last_check_ts": 1790265260,
   "last_bar_ts": 1790265000,
-  "last_decision_ts": 1790264296,
+  "last_decision_ts": 1790265260,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "40dbf2ad": 390.5701,
     "c8dab6d8": 463.2511,
-    "0eae67f0": 39.622,
+    "44610dde": 334.8636,
+    "fc6dd7eb": 466.6544,
+    "21ce6c91": 340.6318,
     "ca7e57a0": 220.6065,
     "4b02c03c": 148.7999,
+    "0eae67f0": 39.622,
+    "42d2648b": 264.3975,
     "700837db": 386.0,
     "6947e7c8": 263.908,
     "4f371dee": 145.7,
     "e45d1db1": 754.5527,
+    "d32f90ef": 333.0,
     "4e0caacc": 38.6,
     "6ceb206d": 452.0,
     "b60f2f11": 143.9286,
     "652cb054": 38.2859,
+    "891b694a": 452.0,
+    "803b669f": 328.733,
+    "db277e9a": 450.6135,
     "1b1a5d16": 448.0721,
     "79453f37": 378.1157
   }
