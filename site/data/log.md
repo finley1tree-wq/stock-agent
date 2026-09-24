@@ -1,34 +1,3 @@
-lesson: Fresh market buys at $2-2.2k across distinct sectors (tech/defense-infra/homebuilding) with immediate stops, using concrete headline catalysts, has scored best in recent checks (+0.38%, +0.04%) versus idle cash or smaller orders.
-  (dropped PLTR: sold 5 min ago, cooling off)
-  (dropped CRWD: sold 2 min ago, cooling off)
-  (dropped ESE: 87% up today's range — resting a limit at $262.31 instead of chasing)
-- BUY $2000.00 IBP [filled] ['congress', 'momentum'] — Congress buying pressure plus reversal setup after month decline | evidence: Rep. David J. Taylor disclosed IBP buy $1,001-$15,000 filed 2026-09-17; IBP +3.04% 1d, 'Down 18.6% in 4 Weeks... Looks Ripe for a Turnaround' Zacks
-  (dropped trigger PLTR stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger ESE stop_loss: not held)
-~ WORKING stop_loss 100% IBP @ $200.00 until 2026-09-23 — Protective stop on new IBP position
-~ WORKING buy_limit $2100.00 ESE @ $262.31 until 2026-09-23 — wanted it, but not at the high — resting at $262.31. Defense-adjacent infra theme with steady momentum, diversifies away from tech/nuclear/gold already held
-~ WORKING take_profit 100% IBP @ $209.81 until 2026-09-28 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 IBP @ $202.45 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32881.72 (+31.53% on $25000.00 in) · cash $23281.40 · realised +7881.40
-Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $15383.33 this week
-- SELL 100% HUBB [time stop] -> $2196.64 (-0.15%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% CCJ [time stop] -> $2000.15 (+0.01%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NEM [time stop] -> $1797.98 (-0.11%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% O [time stop] -> $1596.71 (-0.21%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 13:39 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 13:40 ET (Wednesday) — week 2026-W39 — budget left $22974.81 (today $145545.75 put to work, 64 buys, 62 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Cash idle is 91.9% with only IBP held against min_positions of 8 - a clear violation the owner flagged repeatedly. Adding 7 fresh names ($16k) sized $2-3k each in distinct sectors (tech mega-caps down on overreaction dips, defense, healthcare, AI-momentum) backed by concrete headlines and low-in-range entries brings the book to 8 positions with real size, matching what past checks graded positively (+0.26%, -0.05% when sized $1.6-4k vs consistently worse when sitting idle). Each new position gets an individual ATR-based stop per risk_management, the best-performing signal bucket (avg_ret 3.36%, hit rate 0.86).
-lesson: At 91.9% idle cash with only 1 of 8 target positions, deploy directly into $2-3k market buys on names with concrete low-range dip evidence or fresh headlines rather than waiting on resting limits that may not fill before the next check.
-  (dropped PLTR: sold 21 min ago, cooling off)
-- BUY $3000.00 GOOGL [filled] ['momentum', 'news'] — Deep intraday dip in a widely_held mega-cap with strong sector track record, buying near the low | evidence: GOOGL down -4.76% today, low in range (2.7% of day range) after Netflix/YouTube headline; oversold bounce candidate among widely_held (best sector by realized_ret in track_record, avg_ret_pct 3.95)
 - BUY $2500.00 AMZN [filled] ['momentum', 'news'] — Sharp overreaction dip on strong fundamental AWS news, entering near day low | evidence: AMZN -3.93% today at 8.8% of day range; AWS backlog $496B headline, 39% cloud margin per Motley Fool
 - BUY $2000.00 TSM [filled] ['momentum', 'dip_entry'] — Chip moat name with steady uptrend, adding market entry alongside existing dip order | evidence: TSM +0.18% today, +7.78% 5d, resting dip order already at 441.93; buying some now at 445.92 (38% of range) to secure position
 - BUY $2000.00 AVGO [filled] ['momentum', 'news'] — Low-in-range pullback on a widely_held name with fresh bullish coverage | evidence: AVGO -2.21% today at only 7.3% of day range; '24/7 Wall St: Broadcom Just Made a Move That Further Solidifies My Decision to Buy on Repeat'
@@ -398,3 +367,34 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $89.93] -> $3514.09 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-09-24 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 10:03 ET (Thursday) — week 2026-W39 — budget left $13194.94 (today $48719.75 put to work, 15 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Only 4 positions held against min_positions of 8 and cash_idle_pct is 52.8% - need to deploy more to reach target count and reduce idle cash. Adding META (strong momentum+news), PLD (real estate diversification), TTD (congress pressure + undervaluation), NVDA (widely_held sector has best track record), and IBP (congress buy) brings us to 9 positions across distinct sectors, respecting cooling-off list which excludes AMD/PLTR/MSFT/CCJ/NOC/TSM/UNH/IBM/HLI/CRWD/HUBB.
+lesson: When below min_positions with high idle cash, deploy across distinct sectors immediately using concrete evidence rather than waiting on resting dip orders that may not fill.
+  (dropped META: 87% up today's range — resting a limit at $754.55 instead of chasing)
+- BUY $2200.00 PLD [filled] ['news', 'track_record'] — Adds real estate diversification alongside O, data center REIT demand narrative | evidence: Headline '3 Buy-Rated REITs Collecting Rent From Warehouses, Data Centers' 09-20; real_estate sector currently underweight in book
+- BUY $2000.00 TTD [filled] ['congress', 'news'] — Congress buy pressure plus undervaluation headline, cheap entry at $12.69 near day range 40% | evidence: Rep. Gilbert Ray Cisneros disclosed buy 2026-09-04/09-10; headline 'Trade Desk (TTD) Stock May Be 33% Undervalued After Healthcare Ad Push' 09-23
+- BUY $2000.00 NVDA [filled] ['momentum', 'news'] — Add exposure to widely_held bucket which has best realized sector track record (3.55% avg ret, best sector by dollar count) | evidence: NVDA price $222.68, pct_of_day_range 74%, prior dip buy limit resting at $220.84 unfilled; widely_held sector track record avg_ret 3.55%
+- BUY $1500.00 IBP [filled] ['congress'] — Small congress-backed diversification into homebuilding-adjacent name, currently mid-range at 54% of day | evidence: Rep. David J. Taylor disclosed buy 2026-09-08/09-17 in IBP $1,001-$15,000
+  (dropped trigger META stop_loss: not held)
+~ WORKING stop_loss 100% PLD @ $132.90 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% TTD @ $12.35 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% NVDA @ $218.50 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% IBP @ $199.50 until 2026-09-24 — protective stop below today's low
+~ WORKING buy_limit $2800.00 META @ $754.55 until 2026-09-24 — wanted it, but not at the high — resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration
+~ WORKING take_profit 100% PLD @ $134.88 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $130.60 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.77 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $12.32 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $223.32 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $216.04 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBP @ $204.35 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $197.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32929.09 (+31.72% on $25000.00 in) · cash $13406.61 · realised +7926.36
+Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $5494.94 this week

@@ -15915,3 +15915,34 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $89.93] -> $3514.09 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-09-24 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 10:03 ET (Thursday) — week 2026-W39 — budget left $13194.94 (today $48719.75 put to work, 15 buys, 11 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Only 4 positions held against min_positions of 8 and cash_idle_pct is 52.8% - need to deploy more to reach target count and reduce idle cash. Adding META (strong momentum+news), PLD (real estate diversification), TTD (congress pressure + undervaluation), NVDA (widely_held sector has best track record), and IBP (congress buy) brings us to 9 positions across distinct sectors, respecting cooling-off list which excludes AMD/PLTR/MSFT/CCJ/NOC/TSM/UNH/IBM/HLI/CRWD/HUBB.
+lesson: When below min_positions with high idle cash, deploy across distinct sectors immediately using concrete evidence rather than waiting on resting dip orders that may not fill.
+  (dropped META: 87% up today's range — resting a limit at $754.55 instead of chasing)
+- BUY $2200.00 PLD [filled] ['news', 'track_record'] — Adds real estate diversification alongside O, data center REIT demand narrative | evidence: Headline '3 Buy-Rated REITs Collecting Rent From Warehouses, Data Centers' 09-20; real_estate sector currently underweight in book
+- BUY $2000.00 TTD [filled] ['congress', 'news'] — Congress buy pressure plus undervaluation headline, cheap entry at $12.69 near day range 40% | evidence: Rep. Gilbert Ray Cisneros disclosed buy 2026-09-04/09-10; headline 'Trade Desk (TTD) Stock May Be 33% Undervalued After Healthcare Ad Push' 09-23
+- BUY $2000.00 NVDA [filled] ['momentum', 'news'] — Add exposure to widely_held bucket which has best realized sector track record (3.55% avg ret, best sector by dollar count) | evidence: NVDA price $222.68, pct_of_day_range 74%, prior dip buy limit resting at $220.84 unfilled; widely_held sector track record avg_ret 3.55%
+- BUY $1500.00 IBP [filled] ['congress'] — Small congress-backed diversification into homebuilding-adjacent name, currently mid-range at 54% of day | evidence: Rep. David J. Taylor disclosed buy 2026-09-08/09-17 in IBP $1,001-$15,000
+  (dropped trigger META stop_loss: not held)
+~ WORKING stop_loss 100% PLD @ $132.90 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% TTD @ $12.35 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% NVDA @ $218.50 until 2026-09-24 — protective stop below today's low
+~ WORKING stop_loss 100% IBP @ $199.50 until 2026-09-24 — protective stop below today's low
+~ WORKING buy_limit $2800.00 META @ $754.55 until 2026-09-24 — wanted it, but not at the high — resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration
+~ WORKING take_profit 100% PLD @ $134.88 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $130.60 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.77 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $12.32 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $223.32 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $216.04 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBP @ $204.35 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $197.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32929.09 (+31.72% on $25000.00 in) · cash $13406.61 · realised +7926.36
+Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $5494.94 this week
