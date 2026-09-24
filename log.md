@@ -15847,3 +15847,9 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
   (cancelled 2 standing order(s) on HUBB: position closed)
 - SELL 100% HUBB [take_profit @ $458.72] -> $4212.03 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-24 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $442.89] -> $3910.04 (+0.26%) — close 100% at +0.3% over the average cost
+- BUY $1000.00 IBM [buy_limit @ $230.35] — strong month, weak day: resting 0.65% under $231.86 to catch the dip
+## 2026-09-24 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+- BUY $1000.00 HLI [buy_limit @ $128.95] — strong month, weak day: resting 0.65% under $129.79 to catch the dip
+## 2026-09-24 09:37 ET — tick — 0 sell(s), 1 buy(s) from standing orders

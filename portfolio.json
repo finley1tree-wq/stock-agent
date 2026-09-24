@@ -1,17 +1,26 @@
 {
-  "cash": 29001.615228790404,
+  "cash": 30911.65301473953,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W39",
   "positions": {
-    "TSM": {
-      "qty": 8.828556255872858,
-      "avg_cost": 441.748332,
+    "IBM": {
+      "qty": 4.341302807607352,
+      "avg_cost": 230.3456,
       "opened": "2026-09-24",
       "last_buy": "2026-09-24",
       "tranches": 1,
-      "last_buy_ts": 1790256847,
-      "opened_ts": 1790256847
+      "last_buy_ts": 1790257006,
+      "opened_ts": 1790257006
+    },
+    "HLI": {
+      "qty": 7.755082099176643,
+      "avg_cost": 128.9477,
+      "opened": "2026-09-24",
+      "last_buy": "2026-09-24",
+      "tranches": 1,
+      "last_buy_ts": 1790257053,
+      "opened_ts": 1790257053
     }
   },
   "fills": [
@@ -14106,7 +14115,39 @@
       "realized_pct": 0.29,
       "type": "sell",
       "date": "2026-09-24 09:35"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 8.828556,
+      "status": "filled",
+      "price": 442.89,
+      "proceeds": 3910.04,
+      "realized_pnl": 10.04,
+      "realized_pct": 0.26,
+      "type": "sell",
+      "date": "2026-09-24 09:36"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.341303,
+      "price": 230.35,
+      "type": "buy",
+      "date": "2026-09-24 09:36"
+    },
+    {
+      "symbol": "HLI",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.755082,
+      "price": 128.95,
+      "type": "buy",
+      "date": "2026-09-24 09:37"
     }
   ],
-  "realized_pnl": 7901.615228790431
+  "realized_pnl": 7911.653014739558
 }
