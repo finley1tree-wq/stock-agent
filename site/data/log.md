@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 CRWD @ $252.84 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMAT @ $470.44 until 2026-09-28 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 AMAT @ $454.37 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32828.09 (+31.31% on $25000.00 in) · cash $21331.54 · realised +7831.54
 Done: 0 sell(s), 3 buy(s); 22 order(s) working; budget left $13433.47 this week
@@ -398,3 +396,5 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
 ## 2026-09-24 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
 - BUY $1000.00 HLI [buy_limit @ $128.95] — strong month, weak day: resting 0.65% under $129.79 to catch the dip
 ## 2026-09-24 09:37 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $4200.00 NOC [buy_limit @ $514.75] — wanted it, but not at the high — resting at $514.75. Defense sector strength, NOC making new intraday high
+## 2026-09-24 09:40 ET — tick — 0 sell(s), 1 buy(s) from standing orders

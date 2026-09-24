@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "28b9ec60",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.8687,
-   "status": "cancelled",
-   "created": "2026-09-22 15:33",
-   "created_ts": 1790105635,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 15:34",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "a50230c1",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.8687,
-   "status": "cancelled",
-   "created": "2026-09-22 15:34",
-   "created_ts": 1790105672,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 15:35",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e7cb4e2e",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.8687,
-   "status": "cancelled",
-   "created": "2026-09-22 15:35",
-   "created_ts": 1790105718,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 15:35",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "617cfc69",
    "ticker": "CCJ",
    "kind": "buy_limit",
@@ -7095,7 +7038,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 514.7523,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 09:32",
    "created_ts": 1790256771,
    "why": "wanted it, but not at the high \u2014 resting at $514.75. Defense sector strength, NOC making new intraday high",
@@ -7106,7 +7049,8 @@
     "patience"
    ],
    "good_until": "2026-09-24",
-   "usd": 4200.0
+   "usd": 4200.0,
+   "closed": "2026-09-24 09:40"
   },
   {
    "id": "7d551b20",
@@ -7464,7 +7408,58 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "9af7e682",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 515.97,
+   "status": "working",
+   "created": "2026-09-24 09:40",
+   "created_ts": 1790257210,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $514.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b9f44293",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 511.7027,
+   "status": "working",
+   "created": "2026-09-24 09:40",
+   "created_ts": 1790257210,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $514.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5c682797",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 499.3075,
+   "status": "working",
+   "created": "2026-09-24 09:40",
+   "created_ts": 1790257210,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $514.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 09:37"
+ "updated": "2026-09-24 09:40"
 }

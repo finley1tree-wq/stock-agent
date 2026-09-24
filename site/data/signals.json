@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-24T09:37-04:00",
+ "asOf": "2026-09-24T09:40-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,21 +139,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "c337befa",
+   "id": "9af7e682",
    "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 514.7523,
-   "usd": 4200.0,
-   "pct_of_position": null,
+   "kind": "take_profit",
+   "price": 515.97,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 514.91,
-   "pct_away": -0.03,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $514.75. Defense sector strength, NOC making new intraday high",
+   "last": 515.08,
+   "pct_away": 0.17,
+   "good_until": "2026-09-29",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
-    "momentum",
-    "news",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -164,13 +163,64 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 148.84,
-   "pct_away": -0.56,
+   "last": 148.55,
+   "pct_away": -0.37,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.52% under $148.77 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "f18144ae",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 228.293,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 229.13,
+   "pct_away": -0.37,
+   "good_until": "2026-09-29",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "602040a0",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 129.4104,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 128.82,
+   "pct_away": 0.46,
+   "good_until": "2026-09-29",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b9f44293",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 511.7027,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 515.08,
+   "pct_away": -0.66,
+   "good_until": "2026-09-29",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -181,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.52,
-   "pct_away": -0.56,
+   "last": 128.82,
+   "pct_away": -0.79,
    "good_until": "2026-09-29",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -198,27 +248,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 229.77,
-   "pct_away": 0.61,
+   "last": 229.13,
+   "pct_away": 0.89,
    "good_until": "2026-09-29",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f18144ae",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 228.293,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 229.77,
-   "pct_away": -0.64,
-   "good_until": "2026-09-29",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -232,8 +265,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 222.37,
-   "pct_away": -0.69,
+   "last": 222.92,
+   "pct_away": -0.93,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.51% under $221.96 to catch the dip",
    "signals": [
@@ -242,17 +275,17 @@
    ]
   },
   {
-   "id": "602040a0",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 129.4104,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "116e0ae1",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 223.4395,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.52,
-   "pct_away": 0.69,
+   "last": 229.13,
+   "pct_away": -2.48,
    "good_until": "2026-09-29",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -266,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.52,
-   "pct_away": -2.68,
+   "last": 128.82,
+   "pct_away": -2.9,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -276,15 +309,15 @@
    ]
   },
   {
-   "id": "116e0ae1",
-   "ticker": "IBM",
+   "id": "5c682797",
+   "ticker": "NOC",
    "kind": "buy_limit",
-   "price": 223.4395,
+   "price": 499.3075,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.77,
-   "pct_away": -2.76,
+   "last": 515.08,
+   "pct_away": -3.06,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
