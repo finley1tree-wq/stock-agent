@@ -15982,3 +15982,6 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $766.12] -> $2811.11 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-09-24 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.77] -> $2011.13 (+0.56%) — close 100% at +0.5% over the average cost
+## 2026-09-24 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders

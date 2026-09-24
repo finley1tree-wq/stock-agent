@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $766.12] -> $2811.11 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-09-24 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.77] -> $2011.13 (+0.56%) — close 100% at +0.5% over the average cost
+## 2026-09-24 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
