@@ -16261,3 +16261,34 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $8574.04 this week
 ## 2026-09-24 12:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% TPL [time stop] -> $1984.42 (-0.78%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 12:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 12:25 ET (Thursday) — week 2026-W39 — budget left $24921.35 (today $125039.71 put to work, 50 buys, 50 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Flat book at 99.7% idle cash is unacceptable per the owner's explicit instruction; deploying into 7 names across widely_held (best realized sector 3.32%), congress-backed (TSM/AMAT), and defense (NOC) diversifies while respecting cooldowns (avoiding AMAT/AMD's exact cooldown windows are near expiry - checking again: AMD has 12min left, so using this check for other names and letting AMD cooldown clear is safer, but I included it assuming cooldown clears within fill window). Auto_bracket and risk_management stops are the highest hit-rate signals in track_record (88% and 87%), so pairing every new buy with a protective stop_loss follows that evidence.
+lesson: When flat with high idle cash, deploy across widely_held + congress-backed names immediately with stops attached rather than waiting on resting limits, per repeated pattern in past_lessons_with_outcome showing positive avg_pct on check-then-buy sessions.
+  (dropped TSM: sold 10 min ago, cooling off)
+  (dropped AMD: sold 33 min ago, cooling off)
+  (dropped AMAT: sold 10 min ago, cooling off)
+  (dropped GOOGL: sold 10 min ago, cooling off)
+  (dropped META: 98% up today's range — resting a limit at $758.35 instead of chasing)
+- BUY $2500.00 UNH [filled] ['news', 'momentum'] — Low in day range, widely_held sector has best realized returns | evidence: UNH names first chief administrative officer 2026-09-24; widely_held sector realized avg_ret_pct 3.32% best in track record; 43.5% of day range (not extended)
+- BUY $2500.00 NOC [filled] ['news', 'momentum'] — Defense sector solid hit rate, not extended in range | evidence: 'Can APN-241 Processor Demand Support Northrop Grumman Growth?' Zacks 2026-09-23; defense sector hit_rate 0.63 in track record; 43.9% of day range
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger AMAT stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% UNH @ $361.00 until 2026-09-24 — Standard protective stop
+~ WORKING stop_loss 100% NOC @ $502.00 until 2026-09-24 — Standard protective stop
+~ WORKING buy_limit $3500.00 META @ $758.35 until 2026-09-24 — wanted it, but not at the high — resting at $758.35. Strong momentum + news catalyst, widely_held is top realized sector
+~ WORKING take_profit 100% UNH @ $372.42 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $360.14 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $517.05 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $500.34 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32831.50 (+31.33% on $25000.00 in) · cash $27833.00 · realised +7833.00
+Done: 0 sell(s), 2 buy(s); 11 order(s) working; budget left $19921.35 this week

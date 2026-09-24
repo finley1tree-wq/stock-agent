@@ -1,133 +1,6 @@
 {
  "orders": [
   {
-   "id": "dae03ea7",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 768.1506,
-   "status": "filled",
-   "created": "2026-09-23 11:13",
-   "created_ts": 1790176382,
-   "why": "strong month, weak day: resting 0.20% under $769.69 to catch the dip",
-   "evidence": "+0.5% over the month, sitting at 28% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 1000.0,
-   "closed": "2026-09-23 12:23"
-  },
-  {
-   "id": "d33c66b7",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 247.779,
-   "status": "cancelled",
-   "created": "2026-09-23 11:19",
-   "created_ts": 1790176790,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $235.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 11:20",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "3265f42e",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 236.8059,
-   "status": "filled",
-   "created": "2026-09-23 11:20",
-   "created_ts": 1790176836,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $235.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 11:25"
-  },
-  {
-   "id": "c85a24cf",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 184.0,
-   "status": "cancelled",
-   "created": "2026-09-23 11:29",
-   "created_ts": 1790177353,
-   "why": "Protective stop on new PLTR position",
-   "evidence": "ATR 3.955%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 11:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6cdf96f4",
-   "ticker": "AMAT",
-   "kind": "stop_loss",
-   "price": 455.0,
-   "status": "cancelled",
-   "created": "2026-09-23 11:29",
-   "created_ts": 1790177353,
-   "why": "Protective stop on new AMAT position",
-   "evidence": "ATR 3.854%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 11:59",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8ffca51a",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 198.0,
-   "status": "cancelled",
-   "created": "2026-09-23 11:29",
-   "created_ts": 1790177353,
-   "why": "Lock in gains on PLTR momentum trade",
-   "evidence": "momentum trade, lock gains at ~3.4% up",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-23 11:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a78f6332",
-   "ticker": "AMAT",
-   "kind": "take_profit",
-   "price": 485.0,
-   "status": "cancelled",
-   "created": "2026-09-23 11:29",
-   "created_ts": 1790177353,
-   "why": "Lock in gains on AMAT momentum trade",
-   "evidence": "momentum trade, lock gains at ~2.6% up",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-23 11:59",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "11238bea",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -7473,7 +7346,125 @@
    "usd": 500.0,
    "closed": "2026-09-24 12:16",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "0dc6093a",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 361.0,
+   "status": "working",
+   "created": "2026-09-24 12:25",
+   "created_ts": 1790267142,
+   "why": "Standard protective stop",
+   "evidence": "ATR 2.77%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d5499f78",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 502.0,
+   "status": "working",
+   "created": "2026-09-24 12:25",
+   "created_ts": 1790267142,
+   "why": "Standard protective stop",
+   "evidence": "ATR 2.17%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b2802822",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 758.3477,
+   "status": "working",
+   "created": "2026-09-24 12:25",
+   "created_ts": 1790267142,
+   "why": "wanted it, but not at the high \u2014 resting at $758.35. Strong momentum + news catalyst, widely_held is top realized sector",
+   "evidence": "META +3.52% 1d, +12.89% 5d, day range 97.8% - 'Meta unveils $1,299 VR Glasses' and Muse AI agent headlines; widely_held sector has best realized return 3.32% avg_ret_pct in track_record",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 3500.0
+  },
+  {
+   "id": "4a1184eb",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 372.4198,
+   "status": "working",
+   "created": "2026-09-24 12:25",
+   "created_ts": 1790267142,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $371.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "40053094",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 360.1416,
+   "status": "working",
+   "created": "2026-09-24 12:25",
+   "created_ts": 1790267142,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $371.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "c0a084d0",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 517.0479,
+   "status": "working",
+   "created": "2026-09-24 12:25",
+   "created_ts": 1790267142,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $515.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "772bac0d",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 500.3357,
+   "status": "working",
+   "created": "2026-09-24 12:25",
+   "created_ts": 1790267142,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $515.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 12:16"
+ "updated": "2026-09-24 12:25"
 }

@@ -1,9 +1,9 @@
 {
   "week": "2026-W39",
-  "spent": 78.65,
-  "deployed": 588781.57,
+  "spent": 5078.65,
+  "deployed": 593781.57,
   "by_ticker": {
-    "NOC": 18.79,
+    "NOC": 2518.79,
     "IBM": 34.86,
     "MSFT": 32.28,
     "HLI": 19.11,
@@ -23,7 +23,7 @@
     "AAPL": 5.39,
     "AMZN": 4.72,
     "CCJ": 5.21,
-    "UNH": 2.31,
+    "UNH": 2502.31,
     "AMD": 0.96,
     "HUBB": 1.56,
     "TPL": 15.58
@@ -37,13 +37,13 @@
     "PLTR": 33268.42,
     "MSFT": 25525.0,
     "OKLO": 17000.0,
-    "NOC": 30253.2,
+    "NOC": 32753.2,
     "LMT": 12400.0,
     "RTX": 23631.03,
     "CCJ": 38585.0,
     "TSM": 36720.82,
     "AVGO": 22394.11,
-    "UNH": 27233.96,
+    "UNH": 29733.96,
     "IBM": 24001.48,
     "PLD": 13524.38,
     "GOOGL": 43459.3,
@@ -9697,12 +9697,46 @@
       ],
       "evidence": "bought 30 min ago, -0.74% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.733386,
+      "price": 371.28,
+      "date": "2026-09-24",
+      "time_et": "12:25",
+      "ts": 1790267142,
+      "why": "Low in day range, widely_held sector has best realized returns",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "UNH names first chief administrative officer 2026-09-24; widely_held sector realized avg_ret_pct 3.32% best in track record; 43.5% of day range (not extended)"
+    },
+    {
+      "symbol": "NOC",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.846781,
+      "price": 515.81,
+      "date": "2026-09-24",
+      "time_et": "12:25",
+      "ts": 1790267142,
+      "why": "Defense sector solid hit rate, not extended in range",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "'Can APN-241 Processor Demand Support Northrop Grumman Growth?' Zacks 2026-09-23; defense sector hit_rate 0.63 in track record; 43.9% of day range"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 78.65,
-  "deployed_today": 125039.71,
-  "orders_today": 50,
+  "spent_today": 5078.65,
+  "deployed_today": 130039.71,
+  "orders_today": 52,
   "sells_today": 50,
   "sold_today": [
     "PLTR",
@@ -9776,16 +9810,23 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790267062,
-  "last_check_ts": 1790267062,
-  "last_bar_ts": 1790266800,
-  "last_decision_ts": 1790266219,
+  "last_publish_ts": 1790267142,
+  "last_check_ts": 1790267142,
+  "last_bar_ts": 1790267100,
+  "last_decision_ts": 1790267142,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "c0a084d0": 517.0479,
+    "4a1184eb": 372.4198,
     "44610dde": 334.8636,
+    "b2802822": 758.3477,
     "e45d1db1": 754.5527,
     "42d2648b": 264.3975,
-    "6947e7c8": 263.908
+    "6947e7c8": 263.908,
+    "d5499f78": 502.0,
+    "0dc6093a": 361.0,
+    "772bac0d": 500.3357,
+    "40053094": 360.1416
   }
 }
