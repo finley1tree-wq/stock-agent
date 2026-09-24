@@ -16572,3 +16572,31 @@ Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $16099.89 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [take_profit @ $622.27] -> $3014.35 (+0.48%) — close 100% at +0.5% over the average cost
 ## 2026-09-24 14:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 14:38 ET (Thursday) — week 2026-W39 — budget left $18114.24 (today $165665.79 put to work, 70 buys, 66 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 4 positions held vs min_positions=8, and 72.5% cash idle - this is the persistent gap flagged repeatedly in past_lessons. Adding TSM (congress+momentum, cooldown clear), IBM (low in range, value entry), CRWD (strong momentum), NEM (gold diversification, decent range position) brings me to 8 names with stops attached immediately per risk_management best-performing signal (avg_ret 3.08%, hit_rate 0.87). Given max_hold_minutes=30, requesting a quick 15-min check to manage exits/fills near close.
+lesson: Stop trickling 1-2 buys per check when below min_positions with high idle cash; deploy 3-4 names at once with stops attached immediately to close the position-count gap faster, as the repeated past-lesson pattern confirms.
+- BUY $1733.33 TSM [filled] ['congress', 'momentum'] — Congress buy pressure plus strong multi-timeframe momentum, cooldown clear, currently mid-range (64.7% of day) | evidence: Rep. Rick W. Allen (spouse) bought TSM $1,001-15,000 disclosed 2026-09-22; TSM +4.21% 5d, +7.41% 1m
+- BUY $1733.33 IBM [filled] ['momentum', 'news'] — Low in day range gives good entry point per guardrails, not currently held, diversifies into widely_held sector (best realized avg_ret 3.08%) | evidence: IBM at 19.6% of day range, price $227.33, down 2.33% today but headline 'These Dow Jones Stocks Buck Index's Dud Performance' - value entry near session low
+- BUY $1733.33 CRWD [filled] ['momentum', 'news'] — Strong sustained momentum in security software, not currently held, no cooldown | evidence: CRWD +37.51% 1m momentum, +8.64% 5d, headline 'BlackBerry Lifts Full-Year Outlook as Software Solutions Unit Drives Growth' sector tailwind
+- BUY $1300.00 NEM [filled] ['momentum', 'news'] — Diversify into gold sector as hedge, reasonable entry point in day range | evidence: NEM at 36.9% of day range, headline 'Gold Defied the Fed's Rate Hike-These 3 Plays Stand Out'; gold sector getting inflow attention
+~ WORKING stop_loss 100% TSM @ $439.40 until 2026-09-24 — Protective stop on new TSM buy
+~ WORKING stop_loss 100% IBM @ $222.80 until 2026-09-24 — Protective stop on new IBM buy
+~ WORKING stop_loss 100% CRWD @ $256.90 until 2026-09-24 — Protective stop on new CRWD buy
+~ WORKING stop_loss 100% NEM @ $118.50 until 2026-09-24 — Protective stop on new NEM buy
+~ WORKING take_profit 100% TSM @ $449.63 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $435.00 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $228.23 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $220.56 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $263.63 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $254.38 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $121.43 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $117.35 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32826.49 (+31.31% on $25000.00 in) · cash $19525.90 · realised +7825.89
+Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week

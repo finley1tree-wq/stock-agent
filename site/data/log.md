@@ -1,31 +1,3 @@
-~ WORKING buy_limit $500.00 HUBB @ $448.07 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32817.53 (+31.27% on $25000.00 in) · cash $19914.37 · realised +7827.16
-Done: 0 sell(s), 5 buy(s); 29 order(s) working; budget left $12002.71 this week
-  (cancelled 2 standing order(s) on NEM: position closed)
-- SELL 100% NEM [take_profit @ $120.71] -> $2007.51 (+0.38%) — close 100% at +0.4% over the average cost
-## 2026-09-24 11:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% CRWD [time stop] -> $1664.80 (+0.12%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AMD [time stop] -> $1661.83 (-0.06%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% IBP [time stop] -> $1573.86 (-0.84%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 11:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 11:54 ET (Thursday) — week 2026-W39 — budget left $18910.71 (today $108719.75 put to work, 43 buys, 39 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-brain: Still below min_positions (4 of 8) with 75% cash idle - need to keep deploying. Adding ESE (congress+news, low in range), AMAT (insider/congress disclosure + AI demand news, mid-range not chasing), and TPL (fresh same-day insider buy by 10% owner, near day low). All three avoid cooling-off list and add sector diversity (industrial, semis, land/royalty) beyond current GLD/LTH/CHRW/HUBB holdings.
-lesson: Congress-score-3.0 CHRW/HUBB/LTH positions are flat/slightly red after 16 min - don't overweight congress score alone without a fresh news catalyst; combine with insider filings or momentum for better odds.
-  (dropped ESE: 88% up today's range — resting a limit at $264.40 instead of chasing)
-- BUY $2000.00 AMAT [filled] ['news', 'congress', 'track_record'] — AI semis demand story plus congressional buy signal, currently mid-range (54% of day range) not chasing highs | evidence: Josh Gottheimer disclosed AMAT buy (2026-09-14); 'Applied Materials (AMAT) Continues to Benefit from Surging AI-Driven Demand' - Insider Monkey; congress score 2.0
-- BUY $2000.00 TPL [filled] ['insider', 'momentum'] — Insider buy filed same day plus low position in day range gives room to the upside | evidence: Horizon Kinetics (10% owner) bought TPL shares filed 2026-09-24; TPL +0.9% today, only 15% of day range (near day low)
-  (dropped trigger ESE stop_loss: not held)
-~ WORKING stop_loss 100% AMAT @ $452.00 until 2026-09-24 — protective stop below day low
-~ WORKING stop_loss 100% TPL @ $333.00 until 2026-09-24 — protective stop below day low
-~ WORKING buy_limit $2000.00 ESE @ $264.40 until 2026-09-24 — wanted it, but not at the high — resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held
-~ WORKING take_profit 100% AMAT @ $466.65 until 2026-09-29 — close 100% at +0.5% over the average cost
 ~ WORKING buy_limit $500.00 AMAT @ $450.61 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% TPL @ $340.63 until 2026-09-29 — close 100% at +0.5% over the average cost
 ~ WORKING buy_limit $500.00 TPL @ $328.73 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +370,31 @@ Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $16099.89 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [take_profit @ $622.27] -> $3014.35 (+0.48%) — close 100% at +0.5% over the average cost
 ## 2026-09-24 14:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 14:38 ET (Thursday) — week 2026-W39 — budget left $18114.24 (today $165665.79 put to work, 70 buys, 66 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 4 positions held vs min_positions=8, and 72.5% cash idle - this is the persistent gap flagged repeatedly in past_lessons. Adding TSM (congress+momentum, cooldown clear), IBM (low in range, value entry), CRWD (strong momentum), NEM (gold diversification, decent range position) brings me to 8 names with stops attached immediately per risk_management best-performing signal (avg_ret 3.08%, hit_rate 0.87). Given max_hold_minutes=30, requesting a quick 15-min check to manage exits/fills near close.
+lesson: Stop trickling 1-2 buys per check when below min_positions with high idle cash; deploy 3-4 names at once with stops attached immediately to close the position-count gap faster, as the repeated past-lesson pattern confirms.
+- BUY $1733.33 TSM [filled] ['congress', 'momentum'] — Congress buy pressure plus strong multi-timeframe momentum, cooldown clear, currently mid-range (64.7% of day) | evidence: Rep. Rick W. Allen (spouse) bought TSM $1,001-15,000 disclosed 2026-09-22; TSM +4.21% 5d, +7.41% 1m
+- BUY $1733.33 IBM [filled] ['momentum', 'news'] — Low in day range gives good entry point per guardrails, not currently held, diversifies into widely_held sector (best realized avg_ret 3.08%) | evidence: IBM at 19.6% of day range, price $227.33, down 2.33% today but headline 'These Dow Jones Stocks Buck Index's Dud Performance' - value entry near session low
+- BUY $1733.33 CRWD [filled] ['momentum', 'news'] — Strong sustained momentum in security software, not currently held, no cooldown | evidence: CRWD +37.51% 1m momentum, +8.64% 5d, headline 'BlackBerry Lifts Full-Year Outlook as Software Solutions Unit Drives Growth' sector tailwind
+- BUY $1300.00 NEM [filled] ['momentum', 'news'] — Diversify into gold sector as hedge, reasonable entry point in day range | evidence: NEM at 36.9% of day range, headline 'Gold Defied the Fed's Rate Hike-These 3 Plays Stand Out'; gold sector getting inflow attention
+~ WORKING stop_loss 100% TSM @ $439.40 until 2026-09-24 — Protective stop on new TSM buy
+~ WORKING stop_loss 100% IBM @ $222.80 until 2026-09-24 — Protective stop on new IBM buy
+~ WORKING stop_loss 100% CRWD @ $256.90 until 2026-09-24 — Protective stop on new CRWD buy
+~ WORKING stop_loss 100% NEM @ $118.50 until 2026-09-24 — Protective stop on new NEM buy
+~ WORKING take_profit 100% TSM @ $449.63 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $435.00 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $228.23 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $220.56 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $263.63 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $254.38 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $121.43 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $117.35 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32826.49 (+31.31% on $25000.00 in) · cash $19525.90 · realised +7825.89
+Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
