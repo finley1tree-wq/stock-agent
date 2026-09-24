@@ -1,37 +1,3 @@
-~ WORKING take_profit 100% CCJ @ $91.91 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $88.79 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 TSM @ $444.01 until 2026-09-24 — strong month, weak day: resting 0.46% under $446.08 to catch the dip
-portfolio: equity $32852.46 (+31.41% on $25000.00 in) · cash $25268.60 · realised +7868.60
-Done: 0 sell(s), 1 buy(s); 31 order(s) working; budget left $17370.53 this week
-- SELL 100% SKWD [time stop] -> $1991.66 (-0.42%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NLR [time stop] -> $1991.06 (-0.45%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% LMT [time stop] -> $1395.99 (-0.29%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 14:53 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 14:55 ET (Wednesday) — week 2026-W39 — budget left $22749.24 (today $174445.75 put to work, 78 buys, 76 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Only 2 checks left today (14:55, market closes 16:00) and max_hold_minutes=30 means any new buy now would be force-closed near the close anyway, likely at a worse price given today's broad risk-off tape (SPY -0.72%, GOOGL -4.5%, AMZN -3.3%, most watchlist red). CCJ position already has a working stop_loss (88.70) and take_profit (91.91) bracket in place. Given the day's negative momentum across nearly every name and the short runway left, I'm not chasing new entries into a closing market; existing working buy_limits will only fill on a real dip which is fine to leave resting. Given the last several checks already churned through the cooldown roster with mixed/negative results (many just hit the 30-min time stop for losses), and today is broadly red, I'll sit this one out rather than force a low-quality entry into the close.
-lesson: On a broadly red day (SPY -0.7%, most watchlist down 1-4%) with only ~1hr left before close and a 30-min hard exit, new entries mostly get force-closed into weak momentum; better to protect existing CCJ position and let resting dip-buy_limits work rather than chase red names at 14:55.
-portfolio: equity $32846.19 (+31.38% on $25000.00 in) · cash $30647.31 · realised +7847.31
-Decision: nothing at this check. 22 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% CCJ [time stop] -> $2194.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $2100.00 CHRW [buy_limit @ $149.80] — Tighten limit slightly to improve fill odds on top congress-pressure name
-## 2026-09-23 15:22 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-23 15:25 ET (Wednesday) — week 2026-W39 — budget left $22843.88 (today $176545.75 put to work, 79 buys, 77 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain: Only 1 check left today, market closes in 35 minutes, and no_new_entries flag isn't set but we're deep into the last 30-min window before close on a broadly red day (SPY -0.74%, most watchlist down 1-4%, GOOGL -4.5%, AMZN -3.4%). Per own recent lesson: 'broadly red day with ~1hr left before close and 30-min hard exit, new entries mostly get force-closed into weak momentum.' With only 1 check left and max_hold_minutes=30, any new buy now would be forced to close right at/after market close with essentially no time to work - a bad risk/reward given the red tape. Existing working orders (buy_limits, stops) remain in place to catch any dip fills automatically. Better to sit tight on the single CHRW position with its existing stop/take-profit bracket rather than force new trades into the last half hour of a down day.
 lesson: With 1 check left and <35min to close on a red day, forcing new 30-min-hold entries into the close is worse than letting existing resting limit orders and brackets do the work; protect what you hold instead of chasing.
   (re-pinned 1 order(s) to the new average cost)
@@ -398,3 +364,37 @@ lesson: Keep filling toward min_positions with mid-range entries and immediate s
 ~ WORKING buy_limit $1000.00 AMD @ $606.25 until 2026-09-25 — strong month, weak day: resting 0.90% under $611.75 to catch the dip
 portfolio: equity $32851.63 (+31.41% on $25000.00 in) · cash $17863.08 · realised +7863.08
 Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $9951.43 this week
+- SELL 100% OKLO [time stop] -> $1992.08 (-0.40%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $1994.79 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HD [time stop] -> $1993.11 (-0.34%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 11:21 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 11:22 ET (Thursday) — week 2026-W39 — budget left $15931.41 (today $94219.75 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Only 4 positions held vs min_positions=8, cash_idle_pct 63.7% is high - need to deploy toward target count with concrete evidence. TSM is in cooldown (28min left) so I skipped buying it and substituted PLD/IBP for sector diversification (real estate, congress-backed industrials) plus AMD/CRWD for widely_held tech momentum with mid-range entries to avoid chasing. All new buys get protective stops per risk_management signal which has the best hit rate (0.87) in track record.
+lesson: Don't propose a buy order for a ticker in cooling_off (TSM had 28min left) - check cooling_off_minutes_left list explicitly before finalizing each order, not just for the flagged ones.
+  (dropped TSM: sold 18 min ago, cooling off)
+- BUY $1662.79 CRWD [filled] ['momentum', 'news', 'track_record'] — strong momentum name at reasonable 43.7% of day range, congress pressure plus resting dip order already there for extra fill | evidence: CRWD +36.79% 1m, headline 'Can Strong Momentum in Next-Gen SIEM Drive CRWD's Platform Expansion?' Zacks 09-24; congress buy pressure score 2 (Gilbert Ray Cisneros)
+- BUY $1662.79 AMD [filled] ['momentum', 'news'] — strong widely_held momentum name, mid-range entry avoids chasing high, track_record shows widely_held sector avg_ret 3.45% n=310 | evidence: AMD +27.72% 1m, 'NVIDIA's $279B Supply Commitments' Zacks 09-24, at 49.6% of day range (mid-range entry)
+- BUY $1587.21 PLD [filled] ['momentum', 'news'] — real estate diversification at low end of day range, not currently held, fills a sector gap | evidence: PLD +0.15% 1d at 24.2% of day range (low), headline '3 Buy-Rated REITs Collecting Rent From Warehouses, Data Centers' 24/7 Wall St 09-20
+- BUY $1587.21 IBP [filled] ['congress', 'news'] — congressional buy signal plus oversold turnaround setup, at 0% of day range (very low) | evidence: Rep. David J. Taylor bought IBP $1,001-$15,000 disclosed 2026-09-17; congress_net_buy_pressure IBP=1.0; headline 'Down 18.6% in 4 Weeks, Here's Why IBP Looks Ripe for a Turnaround' Zacks 09-18
+~ WORKING stop_loss 100% CRWD @ $255.50 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% AMD @ $598.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% PLD @ $132.50 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% IBP @ $197.50 until 2026-09-24 — protective stop below day low
+~ WORKING take_profit 100% CRWD @ $262.26 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $253.05 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $615.03 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $593.74 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $134.44 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $130.17 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBP @ $202.01 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $194.93 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 NVDA @ $220.61 until 2026-09-25 — strong month, weak day: resting 0.51% under $221.73 to catch the dip
+portfolio: equity $32830.27 (+31.32% on $25000.00 in) · cash $17343.06 · realised +7843.06
+Done: 0 sell(s), 4 buy(s); 29 order(s) working; budget left $9431.41 this week

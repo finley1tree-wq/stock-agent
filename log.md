@@ -16096,3 +16096,37 @@ lesson: Keep filling toward min_positions with mid-range entries and immediate s
 ~ WORKING buy_limit $1000.00 AMD @ $606.25 until 2026-09-25 — strong month, weak day: resting 0.90% under $611.75 to catch the dip
 portfolio: equity $32851.63 (+31.41% on $25000.00 in) · cash $17863.08 · realised +7863.08
 Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $9951.43 this week
+- SELL 100% OKLO [time stop] -> $1992.08 (-0.40%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $1994.79 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HD [time stop] -> $1993.11 (-0.34%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 11:21 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 11:22 ET (Thursday) — week 2026-W39 — budget left $15931.41 (today $94219.75 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Only 4 positions held vs min_positions=8, cash_idle_pct 63.7% is high - need to deploy toward target count with concrete evidence. TSM is in cooldown (28min left) so I skipped buying it and substituted PLD/IBP for sector diversification (real estate, congress-backed industrials) plus AMD/CRWD for widely_held tech momentum with mid-range entries to avoid chasing. All new buys get protective stops per risk_management signal which has the best hit rate (0.87) in track record.
+lesson: Don't propose a buy order for a ticker in cooling_off (TSM had 28min left) - check cooling_off_minutes_left list explicitly before finalizing each order, not just for the flagged ones.
+  (dropped TSM: sold 18 min ago, cooling off)
+- BUY $1662.79 CRWD [filled] ['momentum', 'news', 'track_record'] — strong momentum name at reasonable 43.7% of day range, congress pressure plus resting dip order already there for extra fill | evidence: CRWD +36.79% 1m, headline 'Can Strong Momentum in Next-Gen SIEM Drive CRWD's Platform Expansion?' Zacks 09-24; congress buy pressure score 2 (Gilbert Ray Cisneros)
+- BUY $1662.79 AMD [filled] ['momentum', 'news'] — strong widely_held momentum name, mid-range entry avoids chasing high, track_record shows widely_held sector avg_ret 3.45% n=310 | evidence: AMD +27.72% 1m, 'NVIDIA's $279B Supply Commitments' Zacks 09-24, at 49.6% of day range (mid-range entry)
+- BUY $1587.21 PLD [filled] ['momentum', 'news'] — real estate diversification at low end of day range, not currently held, fills a sector gap | evidence: PLD +0.15% 1d at 24.2% of day range (low), headline '3 Buy-Rated REITs Collecting Rent From Warehouses, Data Centers' 24/7 Wall St 09-20
+- BUY $1587.21 IBP [filled] ['congress', 'news'] — congressional buy signal plus oversold turnaround setup, at 0% of day range (very low) | evidence: Rep. David J. Taylor bought IBP $1,001-$15,000 disclosed 2026-09-17; congress_net_buy_pressure IBP=1.0; headline 'Down 18.6% in 4 Weeks, Here's Why IBP Looks Ripe for a Turnaround' Zacks 09-18
+~ WORKING stop_loss 100% CRWD @ $255.50 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% AMD @ $598.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% PLD @ $132.50 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% IBP @ $197.50 until 2026-09-24 — protective stop below day low
+~ WORKING take_profit 100% CRWD @ $262.26 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $253.05 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $615.03 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $593.74 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $134.44 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $130.17 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBP @ $202.01 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $194.93 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 NVDA @ $220.61 until 2026-09-25 — strong month, weak day: resting 0.51% under $221.73 to catch the dip
+portfolio: equity $32830.27 (+31.32% on $25000.00 in) · cash $17343.06 · realised +7843.06
+Done: 0 sell(s), 4 buy(s); 29 order(s) working; budget left $9431.41 this week
