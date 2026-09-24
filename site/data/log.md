@@ -1,40 +1,3 @@
-~ WORKING buy_limit $500.00 CCJ @ $86.88 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% O @ $55.75 until 2026-09-29 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 O @ $53.97 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $371.44 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $359.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AAPL @ $333.80 until 2026-09-25 — strong month, weak day: resting 0.43% under $335.25 to catch the dip
-portfolio: equity $32890.77 (+31.56% on $25000.00 in) · cash $15895.47 · realised +7895.47
-Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
-- BUY $1819.75 AVGO [buy_limit @ $348.65] — wanted it, but not at the high — resting at $348.65. AI semis theme, widely_held sector strongest by track record
-## 2026-09-24 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $371.44] -> $2507.62 (+0.30%) — close 100% at +0.3% over the average cost
-- BUY $3000.00 AMAT [buy_limit @ $464.54] — wanted it, but not at the high — resting at $464.54. Congress buy pressure score 2.0, semis equipment AI demand theme
-## 2026-09-24 09:54 ET — tick — 1 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $493.38] -> $4009.17 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-09-24 09:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $89.93] -> $3514.09 (+0.40%) — close 100% at +0.4% over the average cost
-## 2026-09-24 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 10:03 ET (Thursday) — week 2026-W39 — budget left $13194.94 (today $48719.75 put to work, 15 buys, 11 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-brain: Only 4 positions held against min_positions of 8 and cash_idle_pct is 52.8% - need to deploy more to reach target count and reduce idle cash. Adding META (strong momentum+news), PLD (real estate diversification), TTD (congress pressure + undervaluation), NVDA (widely_held sector has best track record), and IBP (congress buy) brings us to 9 positions across distinct sectors, respecting cooling-off list which excludes AMD/PLTR/MSFT/CCJ/NOC/TSM/UNH/IBM/HLI/CRWD/HUBB.
-lesson: When below min_positions with high idle cash, deploy across distinct sectors immediately using concrete evidence rather than waiting on resting dip orders that may not fill.
-  (dropped META: 87% up today's range — resting a limit at $754.55 instead of chasing)
-- BUY $2200.00 PLD [filled] ['news', 'track_record'] — Adds real estate diversification alongside O, data center REIT demand narrative | evidence: Headline '3 Buy-Rated REITs Collecting Rent From Warehouses, Data Centers' 09-20; real_estate sector currently underweight in book
-- BUY $2000.00 TTD [filled] ['congress', 'news'] — Congress buy pressure plus undervaluation headline, cheap entry at $12.69 near day range 40% | evidence: Rep. Gilbert Ray Cisneros disclosed buy 2026-09-04/09-10; headline 'Trade Desk (TTD) Stock May Be 33% Undervalued After Healthcare Ad Push' 09-23
-- BUY $2000.00 NVDA [filled] ['momentum', 'news'] — Add exposure to widely_held bucket which has best realized sector track record (3.55% avg ret, best sector by dollar count) | evidence: NVDA price $222.68, pct_of_day_range 74%, prior dip buy limit resting at $220.84 unfilled; widely_held sector track record avg_ret 3.55%
-- BUY $1500.00 IBP [filled] ['congress'] — Small congress-backed diversification into homebuilding-adjacent name, currently mid-range at 54% of day | evidence: Rep. David J. Taylor disclosed buy 2026-09-08/09-17 in IBP $1,001-$15,000
-  (dropped trigger META stop_loss: not held)
-~ WORKING stop_loss 100% PLD @ $132.90 until 2026-09-24 — protective stop below today's low
 ~ WORKING stop_loss 100% TTD @ $12.35 until 2026-09-24 — protective stop below today's low
 ~ WORKING stop_loss 100% NVDA @ $218.50 until 2026-09-24 — protective stop below today's low
 ~ WORKING stop_loss 100% IBP @ $199.50 until 2026-09-24 — protective stop below today's low
@@ -398,3 +361,40 @@ Done: 0 sell(s), 2 buy(s); 11 order(s) working; budget left $19921.35 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $517.05] -> $2506.02 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-24 12:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 12:41 ET (Thursday) — week 2026-W39 — budget left $22427.37 (today $130039.71 put to work, 52 buys, 51 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 1 position held (UNH) with 89.7% cash idle despite full_deployment active - this is the core problem to fix. Adding 7 new names off cooldown across widely_held (best realized sector 3.31%), defense, and nuclear at mid-range entries (not chasing highs) with congress/news evidence, bringing total to 8 positions matching min_positions. Each gets a protective stop per risk_management best practice (highest hit rate signal at 0.87-0.88).
+lesson: With min_positions=8 and only 1 held plus 89.7% idle cash, the fix is immediate diversified deployment across cooldown-free names with stops attached, not waiting for resting limits alone.
+  (dropped MSFT: sold 25 min ago, cooling off)
+  (dropped TSM: sold 26 min ago, cooling off)
+  (dropped NOC: sold 11 min ago, cooling off)
+  (dropped AMD: 96% up today's range — resting a limit at $613.37 instead of chasing)
+- BUY $2500.00 PLTR [filled] ['momentum', 'news'] — Strong momentum continuing, not in cooldown, fresh high-of-year headline | evidence: PLTR +0.82% today, +9.71% 5d, headline 'Palantir Just Hit a One-Year High' 2026-09-24T12:33
+- BUY $2000.00 CCJ [filled] ['news', 'momentum'] — Nuclear theme with positive headline, reasonable entry point mid-range not chasing highs | evidence: '2 Strong Buy Nuclear Power Stocks Offering Compelling Value' TipRanks 2026-09-23; CCJ at 67.4% of day range, off cooldown
+- BUY $2000.00 IBM [filled] ['news', 'momentum'] — Low in day range gives good entry, fresh positive catalyst headline, off cooldown | evidence: IBM 31.3% of day range (low), headline 'IBM Expands Digital Asset Platform With Swift Ledger Integration' 2026-09-24T15:55
+- BUY $2000.00 HD [filled] ['news', 'momentum'] — Low in day range entry, positive retail supply-chain headline catalyst | evidence: HD 38.4% of day range (low), headline 'This Company's Software Manages Supply Chains for Retailers. Its Stock Can Surge 30%' Barrons 2026-09-24T12:01
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+~ WORKING stop_loss 100% PLTR @ $188.50 until 2026-09-24 — Standard protective stop on new PLTR position
+~ WORKING stop_loss 100% CCJ @ $87.50 until 2026-09-24 — Standard protective stop on new CCJ position
+~ WORKING stop_loss 100% IBM @ $222.50 until 2026-09-24 — Standard protective stop on new IBM position
+~ WORKING stop_loss 100% HD @ $287.00 until 2026-09-24 — Standard protective stop on new HD position
+~ WORKING buy_limit $2000.00 AMD @ $613.37 until 2026-09-24 — wanted it, but not at the high — resting at $613.37. Strong multi-timeframe momentum in widely_held best sector, cooldown recently ended history of prior gains
+~ WORKING take_profit 100% PLTR @ $194.08 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $187.60 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $90.12 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $87.06 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $229.00 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $221.31 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $294.94 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $285.41 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32836.62 (+31.35% on $25000.00 in) · cash $21839.02 · realised +7839.02
+Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $13927.37 this week

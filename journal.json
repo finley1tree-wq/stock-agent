@@ -23689,8 +23689,8 @@
     "code_version": "7879f9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06,
-    "ret_final": -0.06,
+    "ret_now": -0.04,
+    "ret_final": -0.04,
     "ret_src": "realised"
   },
   {
@@ -25300,8 +25300,8 @@
     "code_version": "e5debb9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03,
-    "ret_final": -0.03,
+    "ret_now": -0.01,
+    "ret_final": -0.01,
     "ret_src": "realised"
   },
   {
@@ -26156,8 +26156,8 @@
     "code_version": "69e725f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.03,
-    "ret_now": -0.03,
+    "ret_final": -0.01,
+    "ret_now": -0.01,
     "ret_src": "realised"
   },
   {
@@ -26959,8 +26959,8 @@
     "code_version": "93458a0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.0,
-    "ret_now": -0.0,
+    "ret_final": 0.02,
+    "ret_now": 0.02,
     "ret_src": "realised"
   },
   {
@@ -27767,8 +27767,8 @@
     "code_version": "708f895",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.06,
-    "ret_now": 0.06,
+    "ret_final": 0.08,
+    "ret_now": 0.08,
     "ret_src": "realised"
   },
   {
@@ -28997,8 +28997,8 @@
     "code_version": "3ee6a7f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04,
-    "ret_final": 0.04,
+    "ret_now": 0.06,
+    "ret_final": 0.06,
     "ret_src": "realised"
   },
   {
@@ -30565,8 +30565,8 @@
     "code_version": "3af1996",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.11,
-    "ret_now": 0.11,
+    "ret_final": 0.12,
+    "ret_now": 0.12,
     "ret_src": "realised"
   },
   {
@@ -31733,8 +31733,8 @@
     "code_version": "4adfd7f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -32556,8 +32556,8 @@
     "code_version": "8369296",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -33633,8 +33633,8 @@
     "code_version": "3e9f97a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08,
-    "ret_final": 0.08,
+    "ret_now": 0.11,
+    "ret_final": 0.11,
     "ret_src": "realised"
   },
   {
@@ -34734,8 +34734,8 @@
     "code_version": "65fc80c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.14,
-    "ret_now": 0.14,
+    "ret_final": 0.16,
+    "ret_now": 0.16,
     "ret_src": "realised"
   },
   {
@@ -37096,7 +37096,8 @@
     "hour_et": 12,
     "code_version": "1ee3211",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
   },
   {
     "symbol": "NOC",
@@ -37121,7 +37122,10 @@
     "hour_et": 12,
     "code_version": "1ee3211",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.24,
+    "ret_now": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -37146,6 +37150,107 @@
     "evidence": "average cost $515.81",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "919b99a"
+    "code_version": "919b99a",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "PLTR",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 12.926666,
+    "price": 193.4,
+    "date": "2026-09-24",
+    "time_et": "12:41",
+    "ts": 1790268096,
+    "why": "Strong momentum continuing, not in cooldown, fresh high-of-year headline",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "PLTR +0.82% today, +9.71% 5d, headline 'Palantir Just Hit a One-Year High' 2026-09-24T12:33",
+    "entry_price": 193.36,
+    "sector": "defense",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 11.94,
+    "hour_et": 12,
+    "code_version": "0119bea",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 22.285145,
+    "price": 89.75,
+    "date": "2026-09-24",
+    "time_et": "12:41",
+    "ts": 1790268096,
+    "why": "Nuclear theme with positive headline, reasonable entry point mid-range not chasing highs",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "'2 Strong Buy Nuclear Power Stocks Offering Compelling Value' TipRanks 2026-09-23; CCJ at 67.4% of day range, off cooldown",
+    "entry_price": 89.71,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -12.28,
+    "hour_et": 12,
+    "code_version": "0119bea",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.766331,
+    "price": 228.15,
+    "date": "2026-09-24",
+    "time_et": "12:41",
+    "ts": 1790268096,
+    "why": "Low in day range gives good entry, fresh positive catalyst headline, off cooldown",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "IBM 31.3% of day range (low), headline 'IBM Expands Digital Asset Platform With Swift Ledger Integration' 2026-09-24T15:55",
+    "entry_price": 228.1,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -1.27,
+    "hour_et": 12,
+    "code_version": "0119bea",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HD",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.797199,
+    "price": 294.24,
+    "date": "2026-09-24",
+    "time_et": "12:41",
+    "ts": 1790268096,
+    "why": "Low in day range entry, positive retail supply-chain headline catalyst",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "HD 38.4% of day range (low), headline 'This Company's Software Manages Supply Chains for Retailers. Its Stock Can Surge 30%' Barrons 2026-09-24T12:01",
+    "entry_price": 294.18,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -12.82,
+    "hour_et": 12,
+    "code_version": "0119bea",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
