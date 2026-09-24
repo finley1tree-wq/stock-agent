@@ -1,11 +1,11 @@
 {
   "week": "2026-W39",
-  "spent": 19328.32,
+  "spent": 15319.15,
   "deployed": 512461.61,
   "by_ticker": {
     "NOC": 26.01,
     "IBM": 34.86,
-    "MSFT": 4047.41,
+    "MSFT": 38.24,
     "HLI": 19.11,
     "CHRW": 17.56,
     "GOOGL": 4070.75,
@@ -8261,13 +8261,34 @@
       ],
       "evidence": "Rep. Josh Gottheimer and Jared Moskowitz both disclosed AMAT buys; AMAT +11.84% 5d despite -1.6% today at 86.5% of range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 8.125978,
+      "status": "filled",
+      "price": 493.38,
+      "proceeds": 4009.17,
+      "realized_pnl": 9.17,
+      "realized_pct": 0.23,
+      "date": "2026-09-24",
+      "time_et": "09:58",
+      "ts": 1790258100,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $492.25",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 19328.32,
+  "spent_today": 15319.15,
   "deployed_today": 48719.75,
   "orders_today": 15,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "PLTR",
     "CRWD",
@@ -8277,7 +8298,8 @@
     "IBM",
     "HLI",
     "NOC",
-    "UNH"
+    "UNH",
+    "MSFT"
   ],
   "sold_ts": {
     "AMAT": 1790183968,
@@ -8285,7 +8307,7 @@
     "NVDA": 1790182585,
     "CHRW": 1790193115,
     "PLTR": 1790256937,
-    "MSFT": 1790173101,
+    "MSFT": 1790258290,
     "OKLO": 1790178209,
     "CCJ": 1790190589,
     "LMT": 1790189594,
@@ -8314,33 +8336,30 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790258064,
-  "last_check_ts": 1790258243,
+  "last_publish_ts": 1790258288,
+  "last_check_ts": 1790258335,
   "last_bar_ts": 1790258100,
   "last_decision_ts": 1790257687,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "88882469": 55.7457,
-    "1a669c3b": 349.7831,
     "f22defe5": 339.2309,
-    "ee43222c": 493.3773,
-    "fbc6e2eb": 148.0001,
-    "0cd7f749": 466.6444,
+    "1a669c3b": 349.7831,
     "8d7ed6f1": 89.9265,
     "529772d6": 345.8155,
-    "14f4888b": 333.8009,
+    "fbc6e2eb": 148.0001,
     "911f4796": 220.8367,
     "d640613d": 459.2768,
-    "361a3c1d": 479.0,
+    "0cd7f749": 466.6444,
+    "14f4888b": 333.8009,
     "fbb8ebe5": 54.2,
     "faa38448": 329.0,
-    "62aec3b5": 477.4825,
+    "294988fc": 450.6038,
     "afc1bf9a": 86.8829,
+    "4f42d7a8": 338.1905,
     "ab85e134": 328.1025,
     "cf870ab4": 53.9708,
-    "4f42d7a8": 338.1905,
-    "294988fc": 450.6038,
     "008acce6": 86.5
   }
 }

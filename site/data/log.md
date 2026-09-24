@@ -1,6 +1,3 @@
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain: Only 4 positions held vs min_positions of 8, with 69.5% cash idle - this is a decision costing us per counterfactual data (idle_universe_avg_pct positive). Adding PLTR (fresh FAA news catalyst), CRWD (cybersecurity rally amid tech selloff, congress pressure), IBP (congressional buy disclosed, oversold reversal), and ESE (steady momentum, infra theme) diversifies sectors beyond the nuclear/gold/reit names already held. Sizing at $2-2.2k each per past lesson pattern that scored best (+0.38%, +0.04% last two checks) versus smaller orders that get dropped.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
 - SELL 100% UNH [take_profit @ $371.44] -> $2507.62 (+0.30%) — close 100% at +0.3% over the average cost
 - BUY $3000.00 AMAT [buy_limit @ $464.54] — wanted it, but not at the high — resting at $464.54. Congress buy pressure score 2.0, semis equipment AI demand theme
 ## 2026-09-24 09:54 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $493.38] -> $4009.17 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-24 09:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
