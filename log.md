@@ -16635,3 +16635,6 @@ portfolio: equity $32855.91 (+31.42% on $25000.00 in) · cash $28820.09 · reali
 Decision: nothing at this check. 27 standing order(s) working.
 - SELL 100% CHRW [time stop] -> $997.96 (-0.20%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 14:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% IBM [time stop] -> $1732.26 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $1296.17 (-0.29%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 15:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders

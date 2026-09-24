@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% TSM @ $446.95 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $432.44 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $348.81 until 2026-09-29 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 AVGO @ $337.24 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% MSFT @ $495.88 until 2026-09-29 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 MSFT @ $479.91 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ portfolio: equity $32855.91 (+31.42% on $25000.00 in) · cash $28820.09 · reali
 Decision: nothing at this check. 27 standing order(s) working.
 - SELL 100% CHRW [time stop] -> $997.96 (-0.20%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 14:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% IBM [time stop] -> $1732.26 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $1296.17 (-0.29%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 15:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders
