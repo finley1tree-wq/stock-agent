@@ -16603,3 +16603,5 @@ Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
   (cancelled 2 standing order(s) on AMAT: position closed)
 - SELL 100% AMAT [take_profit @ $472.06] -> $2511.18 (+0.45%) — close 100% at +0.4% over the average cost
 ## 2026-09-24 14:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% ESE [time stop] -> $1501.37 (+0.09%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

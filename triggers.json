@@ -6983,7 +6983,7 @@
    "ticker": "ESE",
    "kind": "stop_loss",
    "price": 263.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:11",
    "created_ts": 1790273496,
    "why": "Protective stop ~2.1% below entry",
@@ -6992,7 +6992,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:42",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0e240eb5",
@@ -7073,7 +7075,7 @@
    "ticker": "ESE",
    "kind": "take_profit",
    "price": 269.7288,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:11",
    "created_ts": 1790273496,
    "why": "close 100% at +0.4% over the average cost",
@@ -7083,14 +7085,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:42",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1a23c199",
    "ticker": "ESE",
    "kind": "buy_limit",
    "price": 260.7166,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:11",
    "created_ts": 1790273496,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7100,7 +7104,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 14:42",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "4372b423",
