@@ -1,5 +1,3 @@
-Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $11185.92 this week
-- SELL 100% AVGO [time stop] -> $2000.55 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% NOC [time stop] -> $1997.43 (-0.13%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% UNH [time stop] -> $1996.50 (-0.17%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 14:10 ET — tick — 3 sell(s), 0 buy(s) from standing orders
@@ -398,3 +396,5 @@ Done: 0 sell(s), 6 buy(s); 26 order(s) working; budget left $5010.63 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $517.38] -> $3007.22 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-24 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CHRW [time stop] -> $1987.46 (-0.63%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders

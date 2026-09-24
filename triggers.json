@@ -6018,7 +6018,7 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 148.0001,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:32",
    "created_ts": 1790256771,
    "why": "strong month, weak day: resting 0.52% under $148.77 to catch the dip",
@@ -6028,7 +6028,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-25",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-24 10:49",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3796ac78",
@@ -6980,7 +6982,7 @@
    "ticker": "CHRW",
    "kind": "stop_loss",
    "price": 147.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:19",
    "created_ts": 1790259554,
    "why": "protective stop below today's low",
@@ -6989,7 +6991,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:49",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3ec1afc2",
@@ -7052,7 +7056,7 @@
    "ticker": "CHRW",
    "kind": "buy_limit",
    "price": 145.3157,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:19",
    "created_ts": 1790259554,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7062,7 +7066,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 10:49",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8b959d88",
@@ -7088,7 +7094,7 @@
    "ticker": "CHRW",
    "kind": "take_profit",
    "price": 150.231,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260513,
    "why": "close 100% at +0.3% over the average cost",
@@ -7098,7 +7104,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:49",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3aa9c0cb",
