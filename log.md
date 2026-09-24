@@ -15949,3 +15949,6 @@ Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $5494.94 this week
   (cancelled 2 standing order(s) on AMAT: position closed)
 - SELL 100% AMAT [stop_loss @ $465.21] -> $3004.38 (+0.15%) — close it all at -1.1% under the average cost
 ## 2026-09-24 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $339.23] -> $4011.63 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-24 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders

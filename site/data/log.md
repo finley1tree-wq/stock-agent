@@ -1,6 +1,3 @@
-- BUY $2000.00 NOC [filled] ['momentum', 'news'] — Defense sector high hit-rate, pullback entry on processor demand story | evidence: NOC -2.03% today, defense sector avg_ret_pct 0.06 but hit_rate 0.73 in track record; APN-241 processor demand headline
-- BUY $2000.00 UNH [filled] ['news'] — Value dislocation story with concrete headline evidence | evidence: 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' - Simply Wall St; UNH -1.91% today at 65.7% of range
-  (dropped trigger PLTR stop_loss: not held)
 ~ WORKING stop_loss 100% GOOGL @ $331.30 until 2026-09-23 — Cap downside on GOOGL entry near day low
 ~ WORKING stop_loss 100% AMZN @ $243.30 until 2026-09-23 — Cap downside on AMZN entry
 ~ WORKING stop_loss 100% TSM @ $437.00 until 2026-09-23 — Protective stop for TSM
@@ -398,3 +395,6 @@ Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $5494.94 this week
   (cancelled 2 standing order(s) on AMAT: position closed)
 - SELL 100% AMAT [stop_loss @ $465.21] -> $3004.38 (+0.15%) — close it all at -1.1% under the average cost
 ## 2026-09-24 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $339.23] -> $4011.63 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-24 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
