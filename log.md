@@ -16652,3 +16652,17 @@ portfolio: equity $32846.48 (+31.39% on $25000.00 in) · cash $32846.48 · reali
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 18 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-24 15:40 ET (Thursday) — week 2026-W39 — budget left $24934.85 (today $172165.78 put to work, 74 buys, 74 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain: no_new_entries_this_check is true (last 30 min before close) so no new buys are allowed and would be dropped anyway; checks_left_today is 0 so there is no further check to act on triggers today. Book is already flat (0 positions) after the day's round trips, so there is nothing to protect or sell. Sitting out this final window is the only compliant action.
+lesson: When no_new_entries_this_check is true and checks_left_today is 0, buys/triggers are pointless (dropped or never evaluated) - just confirm flat book and stop.
+portfolio: equity $32846.48 (+31.39% on $25000.00 in) · cash $32846.48 · realised +7846.48
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
