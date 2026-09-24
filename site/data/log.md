@@ -1,7 +1,3 @@
-- SELL 100% RTX [time stop] -> $2976.44 (-0.79%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% LMT [time stop] -> $2985.24 (-0.49%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AAPL [time stop] -> $2994.61 (-0.18%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% TSM [time stop] -> $2994.55 (-0.18%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMZN [time stop] -> $2995.28 (-0.16%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 11:05 ET — tick — 5 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +394,7 @@ portfolio: equity $32812.37 (+31.25% on $25000.00 in) · cash $19491.82 · reali
 Done: 0 sell(s), 4 buy(s); 40 order(s) working; budget left $11580.17 this week
 - BUY $1500.00 SPY [buy_limit @ $766.34] — wanted it, but not at the high — resting at $766.34. diversification anchor while individual stock cooldowns clear
 ## 2026-09-24 13:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $1991.70 (-0.41%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CRWD [time stop] -> $2000.27 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AVGO [time stop] -> $1497.26 (-0.18%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 13:53 ET — tick — 3 sell(s), 0 buy(s) from standing orders
