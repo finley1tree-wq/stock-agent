@@ -1,7 +1,3 @@
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Only 5 positions held vs min 8, cash 58% idle - clear regret risk per counterfactual data (idle_universe_avg_pct positive). Adding CHRW (top congress pressure score), IBM (fresh AI news catalyst), PLD (data center tailwind, cooling off almost expired), and HD (cheap entry near day low, housing recovery headline) diversifies sectors beyond current tech/defense/healthcare cluster while respecting cooling-off list. Sized at $1.6-2.2k each per what has scored best in recent checks, each with individual stop_loss protection.
 lesson: Diversifying into non-cooling-off names (CHRW/IBM/PLD/HD) at $1.6-2.2k with immediate stops to reach min_positions is consistent with the pattern that scored best in past checks; keep checking cooling_off_minutes_left before selecting candidates.
   (dropped PLD: sold 38 min ago, cooling off)
   (dropped CHRW: 96% up today's range — resting a limit at $149.42 instead of chasing)
@@ -398,3 +394,7 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $12.77] -> $2011.13 (+0.56%) — close 100% at +0.5% over the average cost
 ## 2026-09-24 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% PLD [time stop] -> $2193.83 (-0.28%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $1997.58 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBP [time stop] -> $1487.74 (-0.82%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 10:33 ET — tick — 3 sell(s), 0 buy(s) from standing orders

@@ -15985,3 +15985,7 @@ Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $12.77] -> $2011.13 (+0.56%) — close 100% at +0.5% over the average cost
 ## 2026-09-24 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% PLD [time stop] -> $2193.83 (-0.28%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $1997.58 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBP [time stop] -> $1487.74 (-0.82%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 10:33 ET — tick — 3 sell(s), 0 buy(s) from standing orders
