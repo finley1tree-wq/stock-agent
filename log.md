@@ -15905,3 +15905,7 @@ portfolio: equity $32890.77 (+31.56% on $25000.00 in) · cash $15895.47 · reali
 Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
 - BUY $1819.75 AVGO [buy_limit @ $348.65] — wanted it, but not at the high — resting at $348.65. AI semis theme, widely_held sector strongest by track record
 ## 2026-09-24 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $371.44] -> $2507.62 (+0.30%) — close 100% at +0.3% over the average cost
+- BUY $3000.00 AMAT [buy_limit @ $464.54] — wanted it, but not at the high — resting at $464.54. Congress buy pressure score 2.0, semis equipment AI demand theme
+## 2026-09-24 09:54 ET — tick — 1 sell(s), 1 buy(s) from standing orders

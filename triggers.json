@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "68d1beab",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 454.2704,
-   "status": "cancelled",
-   "created": "2026-09-23 09:32",
-   "created_ts": 1790170359,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $468.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8692b706",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.0045,
-   "status": "filled",
-   "created": "2026-09-23 09:32",
-   "created_ts": 1790170359,
-   "why": "strong month, weak day: resting 0.51% under $149.77 to catch the dip",
-   "evidence": "+5.8% over the month, sitting at 0% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 1000.0,
-   "closed": "2026-09-23 09:35"
-  },
-  {
-   "id": "3b062f49",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 346.7874,
-   "status": "filled",
-   "created": "2026-09-23 09:32",
-   "created_ts": 1790170359,
-   "why": "strong month, weak day: resting 0.49% under $348.48 to catch the dip",
-   "evidence": "+1.1% over the month, sitting at 20% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 1000.0,
-   "closed": "2026-09-23 09:35"
-  },
-  {
    "id": "74dfad50",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -7155,7 +7100,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 360.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "protective stop",
@@ -7164,7 +7109,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 09:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3874d10b",
@@ -7190,7 +7137,7 @@
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 464.5355,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "wanted it, but not at the high \u2014 resting at $464.54. Congress buy pressure score 2.0, semis equipment AI demand theme",
@@ -7201,7 +7148,8 @@
     "patience"
    ],
    "good_until": "2026-09-24",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-24 09:54"
   },
   {
    "id": "ee43222c",
@@ -7344,7 +7292,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 371.4431,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "close 100% at +0.3% over the average cost",
@@ -7354,14 +7302,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 09:54"
   },
   {
    "id": "629bd66d",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 359.2007,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7371,7 +7320,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 09:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "14f4888b",
@@ -7440,7 +7391,58 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "0cd7f749",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 466.6444,
+   "status": "working",
+   "created": "2026-09-24 09:54",
+   "created_ts": 1790258064,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $464.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d640613d",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 459.2768,
+   "status": "working",
+   "created": "2026-09-24 09:54",
+   "created_ts": 1790258064,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $464.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "294988fc",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 450.6038,
+   "status": "working",
+   "created": "2026-09-24 09:54",
+   "created_ts": 1790258064,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $464.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 09:51"
+ "updated": "2026-09-24 09:54"
 }
