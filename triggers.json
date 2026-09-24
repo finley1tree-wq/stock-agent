@@ -1,139 +1,6 @@
 {
  "orders": [
   {
-   "id": "d4da3143",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 337.4177,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $336.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "daadea71",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 326.5311,
-   "status": "cancelled",
-   "created": "2026-09-23 11:44",
-   "created_ts": 1790178296,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $336.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2d9d6e63",
-   "ticker": "IBP",
-   "kind": "stop_loss",
-   "price": 203.0,
-   "status": "cancelled",
-   "created": "2026-09-23 12:00",
-   "created_ts": 1790179257,
-   "why": "protect new IBP position",
-   "evidence": "IBP ATR 4.74%, protective stop ~3.1% below entry at 209.48",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:31",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f1217f2e",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 256.1329,
-   "status": "cancelled",
-   "created": "2026-09-23 12:00",
-   "created_ts": 1790179257,
-   "why": "wanted it, but not at the high \u2014 resting at $256.13. Strong intraday momentum with fresh bullish news catalyst, diversifies away from mega-cap tech already held",
-   "evidence": "CRWD +5.1% today, day range 97.7% high; headline: 'Cybersecurity Stocks Rally... CrowdStrike, Palo Alto, Okta, and Palantir Each Gain 4%' and Jim Cramer 'must buy' call",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 2307.69,
-   "closed": "2026-09-23 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "998a7bac",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 134.8297,
-   "status": "filled",
-   "created": "2026-09-23 12:00",
-   "created_ts": 1790179257,
-   "why": "wanted it, but not at the high \u2014 resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off",
-   "evidence": "PLD at 95.2% of day range; headline 'Prologis Sees Leasing Surge, Data Centers Fuel Growth Outlook'",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1846.15,
-   "closed": "2026-09-23 13:03"
-  },
-  {
-   "id": "1dce473f",
-   "ticker": "IBP",
-   "kind": "take_profit",
-   "price": 210.6623,
-   "status": "cancelled",
-   "created": "2026-09-23 12:00",
-   "created_ts": 1790179257,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $209.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 12:31",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a424e352",
-   "ticker": "IBP",
-   "kind": "buy_limit",
-   "price": 203.2732,
-   "status": "cancelled",
-   "created": "2026-09-23 12:00",
-   "created_ts": 1790179257,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $209.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 12:31",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ea3753cb",
    "ticker": "NOC",
    "kind": "stop_loss",
@@ -7448,7 +7315,129 @@
    ],
    "good_until": "2026-09-25",
    "usd": 1000.0
+  },
+  {
+   "id": "07119c33",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 481.0,
+   "status": "working",
+   "created": "2026-09-24 13:06",
+   "created_ts": 1790269614,
+   "why": "Standard protective stop ~3% below entry",
+   "evidence": "ATR 2.06%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d57a0cc5",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 615.586,
+   "status": "working",
+   "created": "2026-09-24 13:06",
+   "created_ts": 1790269614,
+   "why": "wanted it, but not at the high \u2014 resting at $615.59. Strong multi-timeframe momentum in the best-performing sector, adding size while below min_positions",
+   "evidence": "AMD +1.89% today, +30.69% 1m, widely_held sector realized avg_ret 3.29% best bucket in track_record",
+   "signals": [
+    "momentum",
+    "news",
+    "track_record",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2500.0
+  },
+  {
+   "id": "2ae78174",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 447.2075,
+   "status": "working",
+   "created": "2026-09-24 13:06",
+   "created_ts": 1790269614,
+   "why": "wanted it, but not at the high \u2014 resting at $447.21. Congress buy pressure plus positive momentum, cooldown cleared",
+   "evidence": "Rep. Rick W. Allen (spouse) bought TSM 2026-08-12 disclosed 2026-09-22; TSM +1.13% today, +8.2% 1m",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2000.0
+  },
+  {
+   "id": "1dbd9024",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 339.9085,
+   "status": "working",
+   "created": "2026-09-24 13:06",
+   "created_ts": 1790269614,
+   "why": "wanted it, but not at the high \u2014 resting at $339.91. Widely_held momentum name with fresh partnership news",
+   "evidence": "GOOGL +1.41% today, 93% of day range, Gemini/Tapestry partnership headline 2026-09-24",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2000.0
+  },
+  {
+   "id": "8d8de5cc",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 497.2512,
+   "status": "working",
+   "created": "2026-09-24 13:06",
+   "created_ts": 1790269614,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $496.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b1609cd4",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 481.2364,
+   "status": "working",
+   "created": "2026-09-24 13:06",
+   "created_ts": 1790269614,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $496.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "54abccb3",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 259.1066,
+   "status": "working",
+   "created": "2026-09-24 13:06",
+   "created_ts": 1790269614,
+   "why": "strong month, weak day: resting 0.99% under $261.70 to catch the dip",
+   "evidence": "+37.2% over the month, sitting at 60% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-25",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-24 12:56"
+ "updated": "2026-09-24 13:06"
 }

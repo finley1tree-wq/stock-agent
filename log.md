@@ -16361,3 +16361,29 @@ lesson: When several strong widely_held names are in 5-min cooldown, buy what's 
 ~ WORKING buy_limit $1000.00 CHRW @ $146.58 until 2026-09-25 — strong month, weak day: resting 0.55% under $147.39 to catch the dip
 portfolio: equity $32832.50 (+31.33% on $25000.00 in) · cash $26846.72 · realised +7846.72
 Decision: nothing at this check. 21 standing order(s) working.
+
+## 2026-09-24 13:06 ET (Thursday) — week 2026-W39 — budget left $18935.07 (today $138539.71 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 positions held vs min_positions=8, and cash_idle_pct is 75.7% - a clear instruction to deploy more. Adding AMD, TSM, GOOGL, MSFT diversifies into the best-performing sector (widely_held, avg_ret 3.29%) with concrete congress/news/momentum evidence, each backed by a specific disclosure or headline, and each gets a protective stop per risk_management best practice (87% hit rate historically).
+lesson: Below min_positions with high idle cash, deploy into widely_held names with concrete evidence (congress disclosures, news catalysts) rather than waiting on resting limits alone, and always attach a stop_loss immediately.
+  (dropped AMD: 91% up today's range — resting a limit at $615.59 instead of chasing)
+  (dropped TSM: 92% up today's range — resting a limit at $447.21 instead of chasing)
+  (dropped GOOGL: 93% up today's range — resting a limit at $339.91 instead of chasing)
+- BUY $2500.00 MSFT [filled] ['congress', 'track_record'] — Large congressional buy disclosure plus strong sector track record | evidence: Rep. Josh Gottheimer joint buy $250k-1M disclosed 2026-09-14; widely_held sector best realized bucket
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% MSFT @ $481.00 until 2026-09-24 — Standard protective stop ~3% below entry
+~ WORKING buy_limit $2500.00 AMD @ $615.59 until 2026-09-24 — wanted it, but not at the high — resting at $615.59. Strong multi-timeframe momentum in the best-performing sector, adding size while below min_positions
+~ WORKING buy_limit $2000.00 TSM @ $447.21 until 2026-09-24 — wanted it, but not at the high — resting at $447.21. Congress buy pressure plus positive momentum, cooldown cleared
+~ WORKING buy_limit $2000.00 GOOGL @ $339.91 until 2026-09-24 — wanted it, but not at the high — resting at $339.91. Widely_held momentum name with fresh partnership news
+~ WORKING take_profit 100% MSFT @ $497.25 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $481.24 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CRWD @ $259.11 until 2026-09-25 — strong month, weak day: resting 0.99% under $261.70 to catch the dip
+portfolio: equity $32831.21 (+31.32% on $25000.00 in) · cash $24346.72 · realised +7846.72
+Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $16435.07 this week

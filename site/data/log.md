@@ -1,29 +1,3 @@
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-brain: Only 5 of 8 target positions held with 62% cash idle - below_target_position_count is true and this is graded as a decision. Adding META (fresh AI news catalyst, not yet held), CRWD (highest-scored congress buyer plus news momentum, cooling off expires imminently), GOOGL (best-performing sector per track_record), and CHRW (top congress buy-pressure score of any ticker) to reach 9 positions with concrete evidence behind each, sized $2-2.8k per the owner's guidance for real positions.
-lesson: Below-target position count with high idle cash should be filled immediately using concrete distinct evidence per name (congress score, news catalyst, sector track record) rather than waiting on resting limits alone.
-  (dropped CRWD: sold 44 min ago, cooling off)
-  (dropped GOOGL: sold 11 min ago, cooling off)
-- BUY $2800.00 META [filled] ['momentum', 'news'] — Strong momentum name not yet held, diversifies away from chip-heavy book; cancel resting limit and take at market since range is mid (83%) but trend is strong | evidence: META +2.53% today, 33.84% 1m momentum, Yahoo Finance headline on Muse AI launch driving positive sentiment
-- BUY $2000.00 CHRW [filled] ['congress', 'momentum'] — Highest congress net buy pressure score on the list, resting buy_limit already working at 148, adding market order for immediate exposure | evidence: Rep. April McClain Delaney multiple disclosed buys in CHRW; congress_net_buy_pressure CHRW=3.0 (highest on list)
-  (dropped trigger CRWD stop_loss: not held)
-~ WORKING stop_loss 100% META @ $747.70 until 2026-09-24 — protective stop just below intraday support
-~ WORKING stop_loss 100% CHRW @ $147.50 until 2026-09-24 — protective stop below today's low
-~ WORKING take_profit 100% META @ $766.12 until 2026-09-29 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 META @ $740.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CHRW @ $150.23 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 CHRW @ $145.32 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32906.09 (+31.62% on $25000.00 in) · cash $18605.66 · realised +7925.41
-Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
-- SELL 100% AVGO [time stop] -> $1815.24 (-0.25%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 10:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on META: position closed)
-- SELL 100% META [take_profit @ $766.12] -> $2811.11 (+0.40%) — close 100% at +0.4% over the average cost
-## 2026-09-24 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $12.77] -> $2011.13 (+0.56%) — close 100% at +0.5% over the average cost
-## 2026-09-24 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% PLD [time stop] -> $2193.83 (-0.28%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NVDA [time stop] -> $1997.58 (-0.12%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% IBP [time stop] -> $1487.74 (-0.82%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 10:33 ET — tick — 3 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +372,29 @@ lesson: When several strong widely_held names are in 5-min cooldown, buy what's 
 ~ WORKING buy_limit $1000.00 CHRW @ $146.58 until 2026-09-25 — strong month, weak day: resting 0.55% under $147.39 to catch the dip
 portfolio: equity $32832.50 (+31.33% on $25000.00 in) · cash $26846.72 · realised +7846.72
 Decision: nothing at this check. 21 standing order(s) working.
+
+## 2026-09-24 13:06 ET (Thursday) — week 2026-W39 — budget left $18935.07 (today $138539.71 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 positions held vs min_positions=8, and cash_idle_pct is 75.7% - a clear instruction to deploy more. Adding AMD, TSM, GOOGL, MSFT diversifies into the best-performing sector (widely_held, avg_ret 3.29%) with concrete congress/news/momentum evidence, each backed by a specific disclosure or headline, and each gets a protective stop per risk_management best practice (87% hit rate historically).
+lesson: Below min_positions with high idle cash, deploy into widely_held names with concrete evidence (congress disclosures, news catalysts) rather than waiting on resting limits alone, and always attach a stop_loss immediately.
+  (dropped AMD: 91% up today's range — resting a limit at $615.59 instead of chasing)
+  (dropped TSM: 92% up today's range — resting a limit at $447.21 instead of chasing)
+  (dropped GOOGL: 93% up today's range — resting a limit at $339.91 instead of chasing)
+- BUY $2500.00 MSFT [filled] ['congress', 'track_record'] — Large congressional buy disclosure plus strong sector track record | evidence: Rep. Josh Gottheimer joint buy $250k-1M disclosed 2026-09-14; widely_held sector best realized bucket
+  (dropped trigger AMD stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% MSFT @ $481.00 until 2026-09-24 — Standard protective stop ~3% below entry
+~ WORKING buy_limit $2500.00 AMD @ $615.59 until 2026-09-24 — wanted it, but not at the high — resting at $615.59. Strong multi-timeframe momentum in the best-performing sector, adding size while below min_positions
+~ WORKING buy_limit $2000.00 TSM @ $447.21 until 2026-09-24 — wanted it, but not at the high — resting at $447.21. Congress buy pressure plus positive momentum, cooldown cleared
+~ WORKING buy_limit $2000.00 GOOGL @ $339.91 until 2026-09-24 — wanted it, but not at the high — resting at $339.91. Widely_held momentum name with fresh partnership news
+~ WORKING take_profit 100% MSFT @ $497.25 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $481.24 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 CRWD @ $259.11 until 2026-09-25 — strong month, weak day: resting 0.99% under $261.70 to catch the dip
+portfolio: equity $32831.21 (+31.32% on $25000.00 in) · cash $24346.72 · realised +7846.72
+Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $16435.07 this week
