@@ -1,30 +1,3 @@
-- SELL 100% NOC [time stop] -> $1997.43 (-0.13%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% UNH [time stop] -> $1996.50 (-0.17%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 14:10 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-- SELL 100% IBM [time stop] -> $1996.06 (-0.20%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% HD [time stop] -> $1600.37 (+0.02%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 14:21 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 14:23 ET (Wednesday) — week 2026-W39 — budget left $20776.83 (today $166845.75 put to work, 74 buys, 71 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Only 2 of 8 target positions held with 83% cash idle - directly against the owner's explicit instruction to reach min_positions with real size. Adding 6 new names (AMAT, ESE, SKWD, O, HLI, NLR, LMT) at $1.4-2.3k each with concrete evidence (congress pressure, fresh headlines, momentum) and immediate protective stops, avoiding all currently-cooling tickers (IBP, TSM, CCJ, NOC, etc).
-lesson: Past lessons consistently show $2-2.3k market buys across distinct sectors with immediate stops outperform sitting idle; keep screening cooling_off_minutes_left first and prioritize congress/news evidence.
-  (dropped IBP: sold 29 min ago, cooling off)
-  (dropped O: sold 44 min ago, cooling off)
-  (dropped TSM: sold 36 min ago, cooling off)
-  (dropped AMAT: 87% up today's range — resting a limit at $468.64 instead of chasing)
-  (dropped ESE: 97% up today's range — resting a limit at $262.41 instead of chasing)
-  (dropped HLI: 92% up today's range — resting a limit at $129.75 instead of chasing)
-- BUY $2000.00 SKWD [filled] ['congress'] — Congress buy pressure name, diversifies into insurance sector, not cooling off | evidence: congress_net_buy_pressure SKWD=2.0, headline 'What Could Skyward Specialty Insurance Group (SKWD) Gain From Its Claims Payments Deal?'
-- BUY $2000.00 NLR [filled] ['momentum', 'news'] — Nuclear sector has best hit rate (0.96) in track record by_sector, diversifies book | evidence: headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now', nuclear sector avg_ret_pct 0.19% hit_rate 0.96 in track record
-- BUY $1400.00 LMT [filled] ['news'] — Defense sector diversification with fresh growth narrative, not cooling off | evidence: headline 'Is Lockheed Martin Entering a New Growth Cycle Through Missile Defense?', defense sector hit_rate 0.70 in track record
-  (dropped trigger AMAT stop_loss: not held)
-  (dropped trigger ESE stop_loss: not held)
   (dropped trigger O stop_loss: not held)
   (dropped trigger HLI stop_loss: not held)
 ~ WORKING stop_loss 100% SKWD @ $53.40 until 2026-09-23 — Protective stop for new SKWD position
@@ -398,3 +371,30 @@ Done: 0 sell(s), 6 buy(s); 26 order(s) working; budget left $5010.63 this week
 ## 2026-09-24 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% CHRW [time stop] -> $1987.46 (-0.63%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 10:51 ET (Thursday) — week 2026-W39 — budget left $10005.31 (today $79219.75 put to work, 27 buys, 22 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Book is at 5 positions vs min 8, with 40% idle cash - below target and cash idle per guardrails. Adding OKLO, CCJ (nuclear, both near day lows, sector has 87% historical hit rate) and HD (near day low with a balance-sheet-strength news catalyst) diversifies away from the current defense/tech-heavy book and gets closer to min_positions while each entry is near the low of its day range (respecting max_entry_range_pct).
+lesson: Adding names near day-range lows in underrepresented sectors (nuclear, retail) while below min_positions moves toward target count without chasing extended momentum names.
+- BUY $2000.00 OKLO [filled] ['momentum', 'news'] — add nuclear exposure at low point in range, diversify beyond RTX/LMT defense-only book | evidence: OKLO -14.3% 1m but nuclear theme intact per 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' (Zacks 9/22); low in day range at 14.6% pct_of_day_range, cheap entry
+- BUY $2000.00 CCJ [filled] ['momentum', 'news'] — nuclear sector has 87% hit rate in track record; buying near day low | evidence: CCJ at 15.8% of day range (near day low $88.20), 'Is the Options Market Predicting a Spike in Cameco Stock?' Zacks 9/24, nuclear sector track_record avg_ret_pct 0.14% hit_rate 0.87 in track_record.by_
+- BUY $2000.00 HD [filled] ['news', 'momentum'] — buying HD near day low after 13% monthly pullback with balance sheet strength narrative, adds retail/widely_held diversification (widely_held sector avg_ret 3.5% in track record) | evidence: HD at 1.6% of day range, essentially at day low $292.04; headline 'Home Depot's Real Story Isn't Housing, It's the Balance Sheet' TIKR 9/23 supports value case despite -13.42% 1m pullback
+~ WORKING stop_loss 100% OKLO @ $36.60 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% CCJ @ $86.90 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% HD @ $289.50 until 2026-09-24 — protective stop below day low
+~ WORKING take_profit 50% OKLO @ $38.90 until 2026-09-24 — take partial profit on bounce
+~ WORKING take_profit 50% CCJ @ $90.30 until 2026-09-24 — take partial profit near day high
+~ WORKING take_profit 50% HD @ $295.00 until 2026-09-24 — take partial profit on bounce
+~ WORKING take_profit 100% OKLO @ $38.24 until 2026-09-29 — close 100% at +0.7% over the average cost
+~ WORKING buy_limit $500.00 OKLO @ $36.82 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $88.97 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $85.94 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $292.90 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $283.44 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32895.17 (+31.58% on $25000.00 in) · cash $11916.96 · realised +7916.96
+Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $4005.31 this week
