@@ -1,5 +1,3 @@
-  (cancelled 2 standing order(s) on CRWD: position closed)
-- SELL 100% CRWD [take_profit @ $262.11] -> $3519.50 (+0.56%) — close 100% at +0.6% over the average cost
 ## 2026-09-23 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-23 13:24 ET (Wednesday) — week 2026-W39 — budget left $17383.33 (today $143545.75 put to work, 63 buys, 58 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ lesson: Deploying broadly across sectors immediately from a flat book beat waiti
 ~ WORKING buy_limit $1000.00 AAPL @ $333.80 until 2026-09-25 — strong month, weak day: resting 0.43% under $335.25 to catch the dip
 portfolio: equity $32890.77 (+31.56% on $25000.00 in) · cash $15895.47 · realised +7895.47
 Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
+- BUY $1819.75 AVGO [buy_limit @ $348.65] — wanted it, but not at the high — resting at $348.65. AI semis theme, widely_held sector strongest by track record
+## 2026-09-24 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders

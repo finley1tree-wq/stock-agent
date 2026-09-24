@@ -15903,3 +15903,5 @@ lesson: Deploying broadly across sectors immediately from a flat book beat waiti
 ~ WORKING buy_limit $1000.00 AAPL @ $333.80 until 2026-09-25 — strong month, weak day: resting 0.43% under $335.25 to catch the dip
 portfolio: equity $32890.77 (+31.56% on $25000.00 in) · cash $15895.47 · realised +7895.47
 Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $7983.81 this week
+- BUY $1819.75 AVGO [buy_limit @ $348.65] — wanted it, but not at the high — resting at $348.65. AI semis theme, widely_held sector strongest by track record
+## 2026-09-24 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders

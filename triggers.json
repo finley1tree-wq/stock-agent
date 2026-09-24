@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "eb162df8",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 450.3427,
-   "status": "filled",
-   "created": "2026-09-23 09:32",
-   "created_ts": 1790170359,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $449.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 09:35"
-  },
-  {
-   "id": "7c67a119",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 435.7822,
-   "status": "cancelled",
-   "created": "2026-09-23 09:32",
-   "created_ts": 1790170359,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $449.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "323ef9a9",
-   "ticker": "AMAT",
-   "kind": "take_profit",
-   "price": 470.315,
-   "status": "filled",
-   "created": "2026-09-23 09:32",
-   "created_ts": 1790170359,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $468.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 09:35"
-  },
-  {
    "id": "68d1beab",
    "ticker": "AMAT",
    "kind": "buy_limit",
@@ -7226,7 +7171,7 @@
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 348.655,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "wanted it, but not at the high \u2014 resting at $348.65. AI semis theme, widely_held sector strongest by track record",
@@ -7237,7 +7182,8 @@
     "patience"
    ],
    "good_until": "2026-09-24",
-   "usd": 4000.0
+   "usd": 4000.0,
+   "closed": "2026-09-24 09:51"
   },
   {
    "id": "46d04d6a",
@@ -7443,7 +7389,58 @@
    ],
    "good_until": "2026-09-25",
    "usd": 1000.0
+  },
+  {
+   "id": "1a669c3b",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 349.7831,
+   "status": "working",
+   "created": "2026-09-24 09:51",
+   "created_ts": 1790257885,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $348.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "529772d6",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 345.8155,
+   "status": "working",
+   "created": "2026-09-24 09:51",
+   "created_ts": 1790257885,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $348.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4f42d7a8",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 338.1905,
+   "status": "working",
+   "created": "2026-09-24 09:51",
+   "created_ts": 1790257885,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $348.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 09:48"
+ "updated": "2026-09-24 09:51"
 }
