@@ -7146,7 +7146,7 @@
    "ticker": "AMAT",
    "kind": "take_profit",
    "price": 466.6444,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:54",
    "created_ts": 1790258064,
    "why": "close 100% at +0.5% over the average cost",
@@ -7156,7 +7156,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:06",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d640613d",
@@ -7182,7 +7184,7 @@
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 450.6038,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:54",
    "created_ts": 1790258064,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7192,14 +7194,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 10:06",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2b1ef26f",
    "ticker": "AMAT",
    "kind": "stop_loss",
    "price": 465.446,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 10:03",
    "created_ts": 1790258587,
    "why": "close it all at -1.1% under the average cost",
@@ -7209,7 +7213,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:06"
   },
   {
    "id": "6b43d19f",
@@ -7430,5 +7435,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-24 10:03"
+ "updated": "2026-09-24 10:06"
 }

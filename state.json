@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 19505.06,
+  "spent": 16500.68,
   "deployed": 520161.61,
   "by_ticker": {
     "NOC": 26.01,
@@ -16,7 +16,7 @@
     "PLD": 2205.95,
     "OKLO": 9.13,
     "TTD": 2002.38,
-    "AMAT": 3011.2,
+    "AMAT": 6.82,
     "NEM": 5.03,
     "HD": 0.23,
     "IBP": 1510.7,
@@ -8369,13 +8369,34 @@
         "congress"
       ],
       "evidence": "Rep. David J. Taylor disclosed buy 2026-09-08/09-17 in IBP $1,001-$15,000"
+    },
+    {
+      "symbol": "AMAT",
+      "side": "sell",
+      "qty": 6.458064,
+      "status": "filled",
+      "price": 465.21,
+      "proceeds": 3004.38,
+      "realized_pnl": 4.38,
+      "realized_pct": 0.15,
+      "date": "2026-09-24",
+      "time_et": "10:06",
+      "ts": 1790258700,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $464.54",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 19505.06,
+  "spent_today": 16500.68,
   "deployed_today": 56419.75,
   "orders_today": 19,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "PLTR",
     "CRWD",
@@ -8387,10 +8408,11 @@
     "NOC",
     "UNH",
     "MSFT",
-    "CCJ"
+    "CCJ",
+    "AMAT"
   ],
   "sold_ts": {
-    "AMAT": 1790183968,
+    "AMAT": 1790258776,
     "AMD": 1790256937,
     "NVDA": 1790182585,
     "CHRW": 1790193115,
@@ -8424,40 +8446,37 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790258590,
-  "last_check_ts": 1790258695,
-  "last_bar_ts": 1790258400,
+  "last_publish_ts": 1790258774,
+  "last_check_ts": 1790258774,
+  "last_bar_ts": 1790258700,
   "last_decision_ts": 1790258590,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "0cd7f749": 466.6444,
-    "2b1ef26f": 465.446,
     "f22defe5": 339.2309,
     "5522f6a3": 134.8783,
     "07bfce58": 223.3191,
     "1a669c3b": 349.7831,
-    "88882469": 55.7457,
-    "f51ced8c": 204.349,
     "4fd113d0": 12.7657,
+    "88882469": 55.7457,
+    "e45d1db1": 754.5527,
     "529772d6": 345.8155,
     "911f4796": 220.8367,
-    "e45d1db1": 754.5527,
+    "f51ced8c": 204.349,
     "14f4888b": 333.8009,
-    "6b43d19f": 132.9,
     "fbc6e2eb": 148.0001,
+    "6b43d19f": 132.9,
     "c18f29fa": 199.5,
     "57e0aa91": 218.5,
     "fbb8ebe5": 54.2,
-    "5c3f3aab": 12.35,
     "cf870ab4": 53.9708,
-    "faa38448": 329.0,
-    "90ff40cf": 12.319,
-    "9086e855": 130.6008,
     "509205d9": 197.201,
+    "faa38448": 329.0,
+    "5c3f3aab": 12.35,
+    "9086e855": 130.6008,
     "d782d2bc": 216.0384,
     "4f42d7a8": 338.1905,
     "ab85e134": 328.1025,
-    "294988fc": 450.6038
+    "90ff40cf": 12.319
   }
 }

@@ -15946,3 +15946,6 @@ lesson: When below min_positions with high idle cash, deploy across distinct sec
 ~ WORKING buy_limit $500.00 IBP @ $197.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32929.09 (+31.72% on $25000.00 in) · cash $13406.61 · realised +7926.36
 Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $5494.94 this week
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [stop_loss @ $465.21] -> $3004.38 (+0.15%) — close it all at -1.1% under the average cost
+## 2026-09-24 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders

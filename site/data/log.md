@@ -1,6 +1,3 @@
-- BUY $2500.00 AMZN [filled] ['momentum', 'news'] — Sharp overreaction dip on strong fundamental AWS news, entering near day low | evidence: AMZN -3.93% today at 8.8% of day range; AWS backlog $496B headline, 39% cloud margin per Motley Fool
-- BUY $2000.00 TSM [filled] ['momentum', 'dip_entry'] — Chip moat name with steady uptrend, adding market entry alongside existing dip order | evidence: TSM +0.18% today, +7.78% 5d, resting dip order already at 441.93; buying some now at 445.92 (38% of range) to secure position
-- BUY $2000.00 AVGO [filled] ['momentum', 'news'] — Low-in-range pullback on a widely_held name with fresh bullish coverage | evidence: AVGO -2.21% today at only 7.3% of day range; '24/7 Wall St: Broadcom Just Made a Move That Further Solidifies My Decision to Buy on Repeat'
 - BUY $2000.00 NOC [filled] ['momentum', 'news'] — Defense sector high hit-rate, pullback entry on processor demand story | evidence: NOC -2.03% today, defense sector avg_ret_pct 0.06 but hit_rate 0.73 in track record; APN-241 processor demand headline
 - BUY $2000.00 UNH [filled] ['news'] — Value dislocation story with concrete headline evidence | evidence: 'UnitedHealth Group (UNH) Stock Trades At A Discount Despite A 21% Slide' - Simply Wall St; UNH -1.91% today at 65.7% of range
   (dropped trigger PLTR stop_loss: not held)
@@ -398,3 +395,6 @@ lesson: When below min_positions with high idle cash, deploy across distinct sec
 ~ WORKING buy_limit $500.00 IBP @ $197.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32929.09 (+31.72% on $25000.00 in) · cash $13406.61 · realised +7926.36
 Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $5494.94 this week
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [stop_loss @ $465.21] -> $3004.38 (+0.15%) — close it all at -1.1% under the average cost
+## 2026-09-24 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
