@@ -7105,7 +7105,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 505.6,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "protective stop below recent range",
@@ -7114,7 +7114,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b7496450",
@@ -7203,7 +7205,7 @@
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 517.3787,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "close 100% at +0.2% over the average cost",
@@ -7213,14 +7215,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:48"
   },
   {
    "id": "09b0b64b",
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 500.6558,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 10:35",
    "created_ts": 1790260515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7230,7 +7233,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bd205d6d",
@@ -7437,5 +7442,5 @@
    "usd": 1000.0
   }
  ],
- "updated": "2026-09-24 10:35"
+ "updated": "2026-09-24 10:48"
 }

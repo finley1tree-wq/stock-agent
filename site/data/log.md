@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% RTX @ $194.72 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 RTX @ $188.49 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32878.49 (+31.51% on $25000.00 in) · cash $19083.98 · realised +7883.98
 Done: 0 sell(s), 2 buy(s); 36 order(s) working; budget left $11185.92 this week
 - SELL 100% AVGO [time stop] -> $2000.55 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% NOC [time stop] -> $1997.43 (-0.13%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +395,6 @@ lesson: When flat with 92% idle cash under full_deployment, deploy into 6-7 dist
 ~ WORKING buy_limit $1000.00 CRWD @ $258.07 until 2026-09-25 — strong month, weak day: resting 0.99% under $260.64 to catch the dip
 portfolio: equity $32911.95 (+31.65% on $25000.00 in) · cash $12922.28 · realised +7922.28
 Done: 0 sell(s), 6 buy(s); 26 order(s) working; budget left $5010.63 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $517.38] -> $3007.22 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-24 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
