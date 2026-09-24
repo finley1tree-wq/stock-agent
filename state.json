@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 12490.76,
+  "spent": 9679.65,
   "deployed": 524961.61,
   "by_ticker": {
     "NOC": 26.01,
@@ -23,8 +23,7 @@
     "SKWD": 12.57,
     "NVDA": 2000.66,
     "NLR": 8.94,
-    "LMT": 4.01,
-    "META": 2800.0
+    "LMT": 4.01
   },
   "deployed_by_ticker": {
     "AMD": 40701.06,
@@ -8486,13 +8485,34 @@
       ],
       "evidence": "bought 30 min ago, -0.23% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 3.66928,
+      "status": "filled",
+      "price": 766.12,
+      "proceeds": 2811.11,
+      "realized_pnl": 11.11,
+      "realized_pct": 0.4,
+      "date": "2026-09-24",
+      "time_et": "10:22",
+      "ts": 1790259600,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $763.09",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 12490.76,
+  "spent_today": 9679.65,
   "deployed_today": 61219.75,
   "orders_today": 21,
-  "sells_today": 15,
+  "sells_today": 16,
   "sold_today": [
     "PLTR",
     "CRWD",
@@ -8508,7 +8528,8 @@
     "AMAT",
     "GOOGL",
     "O",
-    "AVGO"
+    "AVGO",
+    "META"
   ],
   "sold_ts": {
     "AMAT": 1790258776,
@@ -8528,7 +8549,7 @@
     "AVGO": 1790259662,
     "UNH": 1790258065,
     "IBM": 1790257339,
-    "META": 1790170644,
+    "META": 1790259746,
     "GOOGL": 1790258943,
     "GLD": 1790175194,
     "AAPL": 1790180099,
@@ -8545,34 +8566,31 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790259661,
-  "last_check_ts": 1790259661,
+  "last_publish_ts": 1790259745,
+  "last_check_ts": 1790259745,
   "last_bar_ts": 1790259600,
   "last_decision_ts": 1790259554,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "3ec1afc2": 766.1195,
     "5522f6a3": 134.8783,
-    "8456e13a": 150.2295,
     "07bfce58": 223.3191,
+    "8456e13a": 150.2295,
     "911f4796": 220.8367,
     "4fd113d0": 12.7657,
+    "fbc6e2eb": 148.0001,
     "14f4888b": 333.8009,
     "c18f29fa": 199.5,
-    "fbc6e2eb": 148.0001,
     "6b43d19f": 132.9,
     "f51ced8c": 204.349,
-    "e45d1db1": 754.5527,
     "72ca930e": 147.5,
+    "e45d1db1": 754.5527,
     "57e0aa91": 218.5,
     "509205d9": 197.201,
-    "b6da622c": 747.7,
     "5c3f3aab": 12.35,
     "90ff40cf": 12.319,
-    "d782d2bc": 216.0384,
-    "9086e855": 130.6008,
     "8787c8a9": 145.3157,
-    "b734c3b6": 740.1973
+    "d782d2bc": 216.0384,
+    "9086e855": 130.6008
   }
 }

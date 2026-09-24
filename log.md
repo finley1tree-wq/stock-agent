@@ -15979,3 +15979,6 @@ portfolio: equity $32906.09 (+31.62% on $25000.00 in) · cash $18605.66 · reali
 Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
 - SELL 100% AVGO [time stop] -> $1815.24 (-0.25%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 10:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $766.12] -> $2811.11 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-09-24 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
