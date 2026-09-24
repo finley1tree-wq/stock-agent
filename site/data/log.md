@@ -1,6 +1,3 @@
-brain: Only 1 check left today, market closes in 35 minutes, and no_new_entries flag isn't set but we're deep into the last 30-min window before close on a broadly red day (SPY -0.74%, most watchlist down 1-4%, GOOGL -4.5%, AMZN -3.4%). Per own recent lesson: 'broadly red day with ~1hr left before close and 30-min hard exit, new entries mostly get force-closed into weak momentum.' With only 1 check left and max_hold_minutes=30, any new buy now would be forced to close right at/after market close with essentially no time to work - a bad risk/reward given the red tape. Existing working orders (buy_limits, stops) remain in place to catch any dip fills automatically. Better to sit tight on the single CHRW position with its existing stop/take-profit bracket rather than force new trades into the last half hour of a down day.
-lesson: With 1 check left and <35min to close on a red day, forcing new 30-min-hold entries into the close is worse than letting existing resting limit orders and brackets do the work; protect what you hold instead of chasing.
-  (re-pinned 1 order(s) to the new average cost)
 ~ WORKING stop_loss 100% CHRW @ $148.70 until 2026-09-23 — protect sole position into close, existing auto_bracket stop stands
 portfolio: equity $32841.95 (+31.37% on $25000.00 in) · cash $30741.95 · realised +7841.95
 Decision: nothing at this check. 21 standing order(s) working.
@@ -398,3 +395,6 @@ lesson: Don't propose a buy order for a ticker in cooling_off (TSM had 28min lef
 ~ WORKING buy_limit $1000.00 NVDA @ $220.61 until 2026-09-25 — strong month, weak day: resting 0.51% under $221.73 to catch the dip
 portfolio: equity $32830.27 (+31.32% on $25000.00 in) · cash $17343.06 · realised +7843.06
 Done: 0 sell(s), 4 buy(s); 29 order(s) working; budget left $9431.41 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $338.97] -> $2507.29 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-24 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders

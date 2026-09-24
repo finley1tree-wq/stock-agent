@@ -16130,3 +16130,6 @@ lesson: Don't propose a buy order for a ticker in cooling_off (TSM had 28min lef
 ~ WORKING buy_limit $1000.00 NVDA @ $220.61 until 2026-09-25 — strong month, weak day: resting 0.51% under $221.73 to catch the dip
 portfolio: equity $32830.27 (+31.32% on $25000.00 in) · cash $17343.06 · realised +7843.06
 Done: 0 sell(s), 4 buy(s); 29 order(s) working; budget left $9431.41 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $338.97] -> $2507.29 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-24 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
