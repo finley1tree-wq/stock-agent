@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% TTD @ $12.35 until 2026-09-24 — protective stop below today's low
-~ WORKING stop_loss 100% NVDA @ $218.50 until 2026-09-24 — protective stop below today's low
-~ WORKING stop_loss 100% IBP @ $199.50 until 2026-09-24 — protective stop below today's low
 ~ WORKING buy_limit $2800.00 META @ $754.55 until 2026-09-24 — wanted it, but not at the high — resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration
 ~ WORKING take_profit 100% PLD @ $134.88 until 2026-09-29 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 PLD @ $130.60 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ lesson: With min_positions=8 and only 1 held plus 89.7% idle cash, the fix is im
 ~ WORKING buy_limit $500.00 HD @ $285.41 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32836.62 (+31.35% on $25000.00 in) · cash $21839.02 · realised +7839.02
 Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $13927.37 this week
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $194.08] -> $2508.77 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-09-24 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
