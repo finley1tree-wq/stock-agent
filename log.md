@@ -16633,3 +16633,5 @@ lesson: With few checks left in the day and min_positions unmet, buy at market i
 ~ WORKING buy_limit $2500.00 AMZN @ $248.26 until 2026-09-24 — wanted it, but not at the high — resting at $248.26. Diversify into widely_held bucket not yet held, resting limits already working but adding market exposure now given only 45min left
 portfolio: equity $32855.91 (+31.42% on $25000.00 in) · cash $28820.09 · realised +7853.42
 Decision: nothing at this check. 27 standing order(s) working.
+- SELL 100% CHRW [time stop] -> $997.96 (-0.20%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 14:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
