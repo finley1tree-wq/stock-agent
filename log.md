@@ -16465,3 +16465,25 @@ Done: 0 sell(s), 4 buy(s); 40 order(s) working; budget left $11580.17 this week
 - SELL 100% CRWD [time stop] -> $2000.27 (+0.01%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AVGO [time stop] -> $1497.26 (-0.18%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 13:53 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 13:55 ET (Thursday) — week 2026-W39 — budget left $15569.40 (today $155865.79 put to work, 65 buys, 60 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Below min_positions (5/8) with 62% idle cash despite many resting buy_limits - need to actively deploy into names clearing cooldown now (MSFT) plus fresh momentum/congress names (META, TSM, AVGO) to reach target count in size, backed by concrete evidence, with stops attached per risk_management best practice (0.87 hit rate historically).
+lesson: Resting buy_limits alone haven't closed the position-count gap for hours; combine them with market buys sized $1.5-2.5k in cooldown-cleared/momentum names each check to hit min_positions faster.
+  (dropped MSFT: sold 19 min ago, cooling off)
+  (dropped TSM: sold 3 min ago, cooling off)
+  (dropped AVGO: sold 3 min ago, cooling off)
+  (dropped META: 87% up today's range — resting a limit at $760.19 instead of chasing)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger META buy_limit: duplicate of a working order)
+portfolio: equity $32805.43 (+31.22% on $25000.00 in) · cash $23481.05 · realised +7807.13
+Decision: nothing at this check. 32 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
