@@ -16387,3 +16387,7 @@ lesson: Below min_positions with high idle cash, deploy into widely_held names w
 ~ WORKING buy_limit $1000.00 CRWD @ $259.11 until 2026-09-25 — strong month, weak day: resting 0.99% under $261.70 to catch the dip
 portfolio: equity $32831.21 (+31.32% on $25000.00 in) · cash $24346.72 · realised +7846.72
 Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $16435.07 this week
+- SELL 100% CCJ [time stop] -> $1989.49 (-0.53%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $1999.11 (-0.04%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HD [time stop] -> $1985.95 (-0.70%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 13:11 ET — tick — 3 sell(s), 0 buy(s) from standing orders
