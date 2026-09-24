@@ -16391,3 +16391,38 @@ Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $16435.07 this week
 - SELL 100% IBM [time stop] -> $1999.11 (-0.04%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% HD [time stop] -> $1985.95 (-0.70%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 13:11 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 13:22 ET (Thursday) — week 2026-W39 — budget left $22409.62 (today $141039.71 put to work, 57 buys, 56 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 1 of min 8 positions held with 89.6% cash idle - a persistent pattern the desk has repeatedly flagged and been penalized for. Deploying into widely_held names (best realized sector, 3.28% avg) plus congress-backed TSM/AVGO, all with immediate protective stops since max_hold_minutes forces a 30-min round trip anyway. Existing resting buy_limits remain working for the cooling-off names (GOOGL, AMD) to catch better entries without chasing.
+lesson: When below min_positions with high idle cash, deploy across multiple widely_held/congress-backed names in one check with immediate stops rather than trickling in 1-2 names per check - the repeated pattern of small partial fills is why the book stayed at 1-2 positions for hours.
+  (dropped IBM: sold 12 min ago, cooling off)
+  (dropped META: 91% up today's range — resting a limit at $760.19 instead of chasing)
+  (dropped AMZN: 89% up today's range — resting a limit at $247.88 instead of chasing)
+  (dropped NVDA: 92% up today's range — resting a limit at $223.04 instead of chasing)
+- BUY $2000.00 TSM [filled] ['congress', 'momentum'] — Congress buy pressure plus AI chip momentum, cooldown cleared | evidence: Rep. Rick W. Allen bought TSM Aug 12 (disclosed 9/22); TSM +4.73% 5d, +7.95% 1m
+- BUY $2000.00 CRWD [filled] ['momentum', 'news'] — Strong 1m momentum in security software, adds sector diversity | evidence: CRWD +37.63% 1m, 'Palantir Stock Has a Growth Story Few Companies Can Match' cybersecurity/AI tailwind coverage
+- BUY $1500.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure signal, fills out position count toward min_positions=8 | evidence: Rep. Rick W. Allen disclosed AVGO buy 9/22; AVGO widely_held
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMZN stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $440.00 until 2026-09-24 — Protective stop
+~ WORKING stop_loss 100% CRWD @ $256.00 until 2026-09-24 — Protective stop
+~ WORKING stop_loss 100% AVGO @ $342.00 until 2026-09-24 — Protective stop
+~ WORKING buy_limit $3000.00 META @ $760.19 until 2026-09-24 — wanted it, but not at the high — resting at $760.19. Strong multi-timeframe momentum plus fresh AI product news; widely_held is best realized sector (avg_ret 3.28%, n=320)
+~ WORKING buy_limit $2500.00 AMZN @ $247.88 until 2026-09-24 — wanted it, but not at the high — resting at $247.88. Diversify into widely_held bucket, not yet held, no cooldown
+~ WORKING buy_limit $2000.00 NVDA @ $223.04 until 2026-09-24 — wanted it, but not at the high — resting at $223.04. Semis momentum continuing, add diversification to AI hardware theme
+~ WORKING take_profit 100% TSM @ $451.88 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $437.17 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $263.86 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $254.61 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $351.51 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $339.86 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32819.21 (+31.28% on $25000.00 in) · cash $24821.27 · realised +7821.27
+Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $16909.62 this week
