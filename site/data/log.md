@@ -1,23 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-brain: Only 2 positions held vs min_positions=8, cash_idle_pct 83.6% - severely below target. Widely_held sector has the best realized track record (avg_ret_pct 3.36%, n=311) versus off-watchlist/nuclear/gold which are near zero. Adding 6 names in tech/chip theme backed by congressional disclosures (Rick W. Allen on TSM/AVGO, Gottheimer's large MSFT buy) and fresh AI catalyst news (Google space chip test, chip trillion-dollar-club coverage) to reach closer to min_positions, each with a protective stop under the day low per risk_management (best hit_rate 0.87 signal in track record).
-lesson: Below min_positions with 83%+ idle cash is a persistent pattern this session - prioritize deploying into widely_held names (best realized sector return 3.36%) backed by congress/news evidence rather than waiting on resting limits alone.
-  (dropped CRWD: sold 18 min ago, cooling off)
-- BUY $2800.00 GOOGL [filled] ['momentum', 'news'] — Widely_held sector has strongest realized track record; fresh AI catalyst news, not currently held, momentum positive | evidence: GOOGL +0.5% today, pct_of_day_range 82.4, headline 'Google to test custom AI chips in space on upcoming SpaceX mission' 2026-09-24; widely_held sector track record avg_ret_pct 3.36% n=311
-- BUY $2600.00 TSM [filled] ['congress', 'momentum'] — Congress buy pressure plus AI chip demand momentum, TSM cooling off has cleared (44min list doesn't include TSM currently) | evidence: Rep. Rick W. Allen (spouse) disclosed TSM buy 2026-08-12, disclosed 2026-09-22; Allen has beat_index_rate 0.62 over 8 scored buys; TSM +3.59% 5d, pct_of_day_range 79.1
-- BUY $2600.00 AVGO [filled] ['congress', 'momentum'] — Congress buying pressure plus chip sector strength, diversifies from AMAT/TPL | evidence: Rep. Rick W. Allen disclosed AVGO buy 2026-08-12 disclosed 2026-09-22; AVGO in AI chip trillion-dollar-club headline cluster 2026-09-24
-- BUY $2600.00 MSFT [filled] ['congress', 'momentum'] — Large congressional buy disclosure, widely_held sector strongest realized bucket | evidence: Rep. Josh Gottheimer disclosed MSFT buy $250k-$1M range 2026-08-14 disclosed 2026-09-14 (large size, joint); MSFT pct_of_day_range 75.9
-- BUY $1719.96 NVDA [filled] ['momentum', 'dip_entry'] — Adds a fifth widely_held name at reasonable range position, complements existing dip order | evidence: NVDA -1.45% today, pct_of_day_range 53.7, already have resting buy_limit at 220.61; taking direct entry given AI chip theme strength across TSM/AVGO headlines
-  (dropped trigger CRWD stop_loss: not held)
-~ WORKING stop_loss 100% GOOGL @ $333.00 until 2026-09-24 — protective stop below day low
-~ WORKING stop_loss 100% TSM @ $437.00 until 2026-09-24 — protective stop below day low
-~ WORKING stop_loss 100% AVGO @ $344.00 until 2026-09-24 — protective stop below day low
-~ WORKING stop_loss 100% MSFT @ $488.00 until 2026-09-24 — protective stop below day low
-~ WORKING stop_loss 100% NVDA @ $219.00 until 2026-09-24 — protective stop below day low
 ~ WORKING take_profit 100% GOOGL @ $340.58 until 2026-09-29 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 GOOGL @ $329.41 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% TSM @ $446.95 until 2026-09-29 — close 100% at +0.3% over the average cost
@@ -398,3 +378,23 @@ Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
 ## 2026-09-24 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% HUBB [time stop] -> $1801.28 (+0.07%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 14:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 14:53 ET (Thursday) — week 2026-W39 — budget left $20908.46 (today $172165.78 put to work, 74 buys, 71 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 positions held vs min_positions=8, cash_idle_pct 83.6% with 2 checks left today - this is a clear regret-generating idle state per counterfactual data (idle_universe_avg_pct 0.61%). GOOGL cooldown just cleared; META has best realized sector track record (widely_held 3.06% avg_ret, n=328) plus a live AI news catalyst; AMZN adds diversification with resting limits already validating the level. With only 2 checks left today and max_hold_minutes forcing exits anyway, I'm buying at market now in decent size rather than waiting on unfilled limits, backed by concrete headlines/momentum data.
+lesson: With few checks left in the day and min_positions unmet, buy at market in $2-3k size backed by concrete evidence rather than waiting on resting limits that may not fill before close.
+  (dropped GOOGL: sold 45 min ago, cooling off)
+  (dropped META: 100% up today's range — resting a limit at $762.19 instead of chasing)
+  (dropped AMZN: 88% up today's range — resting a limit at $248.26 instead of chasing)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMZN stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING buy_limit $2500.00 META @ $762.19 until 2026-09-24 — wanted it, but not at the high — resting at $762.19. Strong intraday momentum and AI narrative catalyst, widely_held is best realized sector at 3.06% avg_ret
+~ WORKING buy_limit $2500.00 AMZN @ $248.26 until 2026-09-24 — wanted it, but not at the high — resting at $248.26. Diversify into widely_held bucket not yet held, resting limits already working but adding market exposure now given only 45min left
+portfolio: equity $32855.91 (+31.42% on $25000.00 in) · cash $28820.09 · realised +7853.42
+Decision: nothing at this check. 27 standing order(s) working.

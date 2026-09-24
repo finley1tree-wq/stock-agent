@@ -16613,3 +16613,23 @@ Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
 ## 2026-09-24 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% HUBB [time stop] -> $1801.28 (+0.07%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 14:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 14:53 ET (Thursday) — week 2026-W39 — budget left $20908.46 (today $172165.78 put to work, 74 buys, 71 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 positions held vs min_positions=8, cash_idle_pct 83.6% with 2 checks left today - this is a clear regret-generating idle state per counterfactual data (idle_universe_avg_pct 0.61%). GOOGL cooldown just cleared; META has best realized sector track record (widely_held 3.06% avg_ret, n=328) plus a live AI news catalyst; AMZN adds diversification with resting limits already validating the level. With only 2 checks left today and max_hold_minutes forcing exits anyway, I'm buying at market now in decent size rather than waiting on unfilled limits, backed by concrete headlines/momentum data.
+lesson: With few checks left in the day and min_positions unmet, buy at market in $2-3k size backed by concrete evidence rather than waiting on resting limits that may not fill before close.
+  (dropped GOOGL: sold 45 min ago, cooling off)
+  (dropped META: 100% up today's range — resting a limit at $762.19 instead of chasing)
+  (dropped AMZN: 88% up today's range — resting a limit at $248.26 instead of chasing)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger AMZN stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING buy_limit $2500.00 META @ $762.19 until 2026-09-24 — wanted it, but not at the high — resting at $762.19. Strong intraday momentum and AI narrative catalyst, widely_held is best realized sector at 3.06% avg_ret
+~ WORKING buy_limit $2500.00 AMZN @ $248.26 until 2026-09-24 — wanted it, but not at the high — resting at $248.26. Diversify into widely_held bucket not yet held, resting limits already working but adding market exposure now given only 45min left
+portfolio: equity $32855.91 (+31.42% on $25000.00 in) · cash $28820.09 · realised +7853.42
+Decision: nothing at this check. 27 standing order(s) working.

@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "c3ff961e",
-   "ticker": "IBP",
-   "kind": "stop_loss",
-   "price": 200.0,
-   "status": "cancelled",
-   "created": "2026-09-23 13:24",
-   "created_ts": 1790184273,
-   "why": "Protective stop on new IBP position",
-   "evidence": "IBP ATR 4.756%, day low 206.45",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "51f5cda6",
-   "ticker": "ESE",
-   "kind": "buy_limit",
-   "price": 262.3115,
-   "status": "cancelled",
-   "created": "2026-09-23 13:24",
-   "created_ts": 1790184273,
-   "why": "wanted it, but not at the high \u2014 resting at $262.31. Defense-adjacent infra theme with steady momentum, diversifies away from tech/nuclear/gold already held",
-   "evidence": "ESE +0.85% 1d, day range 86.7% (near high), '3 Stocks Riding The Push To Protect Undersea Cables And Seabed Infrastructure' Simply Wall St",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 2100.0,
-   "closed": "2026-09-23 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "eb33e630",
    "ticker": "IBP",
    "kind": "take_profit",
@@ -7442,7 +7404,44 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "c012ad9a",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 762.1922,
+   "status": "working",
+   "created": "2026-09-24 14:53",
+   "created_ts": 1790276038,
+   "why": "wanted it, but not at the high \u2014 resting at $762.19. Strong intraday momentum and AI narrative catalyst, widely_held is best realized sector at 3.06% avg_ret",
+   "evidence": "META +4.52% today, day range 99.5% pct, headline 'Meta is banking its future on its Muse AI agent -- and winning user trust' 2026-09-24",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2500.0
+  },
+  {
+   "id": "b6af2a5e",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 248.2587,
+   "status": "working",
+   "created": "2026-09-24 14:53",
+   "created_ts": 1790276038,
+   "why": "wanted it, but not at the high \u2014 resting at $248.26. Diversify into widely_held bucket not yet held, resting limits already working but adding market exposure now given only 45min left",
+   "evidence": "AMZN +0.24% 1d, pct_of_day_range 88.2, headline 'Amazon rolls out safety tech, pay bump for delivery providers' 2026-09-24",
+   "signals": [
+    "momentum",
+    "news",
+    "patience",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 2500.0
   }
  ],
- "updated": "2026-09-24 14:51"
+ "updated": "2026-09-24 14:53"
 }
