@@ -1,5 +1,3 @@
-  (cancelled 3 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $447.12] -> $2004.96 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-23 13:51 ET (Wednesday) — week 2026-W39 — budget left $14488.52 (today $159045.75 put to work, 70 buys, 64 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ lesson: Below-target position count with high idle cash should be filled immedia
 ~ WORKING buy_limit $500.00 CHRW @ $145.32 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32906.09 (+31.62% on $25000.00 in) · cash $18605.66 · realised +7925.41
 Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
+- SELL 100% AVGO [time stop] -> $1815.24 (-0.25%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 10:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

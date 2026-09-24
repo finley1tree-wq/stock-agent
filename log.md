@@ -15977,3 +15977,5 @@ lesson: Below-target position count with high idle cash should be filled immedia
 ~ WORKING buy_limit $500.00 CHRW @ $145.32 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32906.09 (+31.62% on $25000.00 in) · cash $18605.66 · realised +7925.41
 Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week
+- SELL 100% AVGO [time stop] -> $1815.24 (-0.25%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 10:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
