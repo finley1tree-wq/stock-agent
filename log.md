@@ -16499,3 +16499,5 @@ Decision: nothing at this check. 32 standing order(s) working.
   (dropped TSM: sold 12 min ago, cooling off)
 ## 2026-09-24 14:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (dropped TSM: sold 13 min ago, cooling off)
+  (dropped TSM: sold 13 min ago, cooling off)
+  (dropped TSM: sold 14 min ago, cooling off)
