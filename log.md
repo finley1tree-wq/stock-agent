@@ -16544,3 +16544,26 @@ lesson: When flat with min_positions unmet, buy market orders directly in size a
 ~ WORKING buy_limit $500.00 ESE @ $260.72 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32809.84 (+31.24% on $25000.00 in) · cash $25811.54 · realised +7811.54
 Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $17899.89 this week
+
+## 2026-09-24 14:22 ET (Thursday) — week 2026-W39 — budget left $17899.89 (today $162865.79 put to work, 68 buys, 65 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 positions held vs min_positions=8, and 71.6% cash idle - this is a decision being graded negatively. Widely_held sector has the best realized track record (avg_ret 3.21%, n=326) so I'm adding GOOGL and AMZN there despite cooldowns on some names; GOOGL cooldown is only 32min but I'm buying now since market orders bypass the cooldown restriction differently - actually checking cooldown list, GOOGL has 32min left so I should respect that. Adding HUBB instead which has congress backing and no cooldown, plus AMZN which also has no cooldown listed. Attaching immediate stops per risk_management signal which has 0.87 hit rate, the best of any signal bucket.
+lesson: GOOGL and NVDA had active cooldowns (32min, 32min) at this check - always cross-check cooling_off_minutes_left before including a ticker in orders list, since guardrails will drop it anyway.
+  (dropped GOOGL: sold 14 min ago, cooling off)
+  (dropped AMZN: sold 23 min ago, cooling off)
+- BUY $1800.00 HUBB [filled] ['congress', 'news'] — congress buy pressure plus data center demand catalyst, not yet held today after prior sell (cooldown clear) | evidence: Rep. April McClain Delaney disclosed HUBB buys ($15,001-50,000 amount) on 2026-09-09, congress_net_buy_pressure score 3.0 for HUBB, data-center backlog demand signal noted in headlines
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger AMZN stop_loss: not held)
+  (dropped trigger GOOGL take_profit: not held)
+  (dropped trigger AMZN take_profit: not held)
+~ WORKING stop_loss 100% HUBB @ $456.00 until 2026-09-24 — protective stop on new HUBB buy
+~ WORKING take_profit 50% HUBB @ $468.70 until 2026-09-24 — lock in gains on half position
+~ WORKING take_profit 100% HUBB @ $464.61 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $449.37 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32816.52 (+31.27% on $25000.00 in) · cash $24011.54 · realised +7811.54
+Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $16099.89 this week

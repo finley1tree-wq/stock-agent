@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "7bfbe2c8",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 454.3674,
-   "status": "cancelled",
-   "created": "2026-09-23 12:53",
-   "created_ts": 1790182430,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $468.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 13:19",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ea09670a",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 135.0848,
-   "status": "cancelled",
-   "created": "2026-09-23 13:03",
-   "created_ts": 1790183039,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $134.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:13",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a7e6dddb",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 134.1923,
-   "status": "cancelled",
-   "created": "2026-09-23 13:03",
-   "created_ts": 1790183039,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $134.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 13:07",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5a1b5795",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 130.7851,
-   "status": "cancelled",
-   "created": "2026-09-23 13:03",
-   "created_ts": 1790183039,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $134.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 13:13",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "91339814",
    "ticker": "PLD",
    "kind": "stop_loss",
@@ -7446,7 +7370,73 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "4372b423",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 456.0,
+   "status": "working",
+   "created": "2026-09-24 14:22",
+   "created_ts": 1790274150,
+   "why": "protective stop on new HUBB buy",
+   "evidence": "protect new entry ~1.5% below current 463.08 price",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "29022452",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 468.7,
+   "status": "working",
+   "created": "2026-09-24 14:22",
+   "created_ts": 1790274150,
+   "why": "lock in gains on half position",
+   "evidence": "take partial profit at +1.2% over entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "bb0eda87",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 464.6089,
+   "status": "working",
+   "created": "2026-09-24 14:22",
+   "created_ts": 1790274150,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $463.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9747c932",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 449.3719,
+   "status": "working",
+   "created": "2026-09-24 14:22",
+   "created_ts": 1790274150,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $463.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 14:11"
+ "updated": "2026-09-24 14:22"
 }
