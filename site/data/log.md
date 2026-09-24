@@ -1,5 +1,3 @@
-- SELL 100% HLI [stop_loss @ $127.73] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
-## 2026-09-24 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [stop_loss @ $515.07] -> $4202.63 (+0.06%) — close it all at -0.6% under the average cost
 ## 2026-09-24 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +396,5 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $8574.04 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $495.88] -> $2605.96 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-09-24 12:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% TPL [time stop] -> $1984.42 (-0.78%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 12:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
