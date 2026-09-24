@@ -15799,3 +15799,42 @@ Decision: nothing at this check. 3 standing order(s) working.
 - SELL 100% RTX [time stop] -> $2193.07 (-0.31%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 15:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 ## 2026-09-23 16:00 ET — published the session's closing state
+
+## 2026-09-24 09:32 ET (Thursday) — week 2026-W39 — budget left $24935.27 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Book is completely flat (0 positions, 99.7% idle cash) with full_deployment active and min_positions=8, so the priority is getting to target count in size immediately rather than waiting. I picked 6 names spanning distinct sectors (AI/software, semis, defense, congress-favored industrial) each backed by a concrete headline or congress disclosure, sized $3.9-4.2k which is well within max_per_ticker/sector caps and puts most of the budget to work. Added protective stops on each per risk_management (the best-performing signal bucket historically at 87% hit rate).
+lesson: From a flat book under full_deployment, act on the first check rather than waiting: size positions at $3.5-4.5k across distinct sectors with immediate stops, using concrete evidence (headline/congress/momentum) per name.
+  (dropped NOC: 100% up today's range — resting a limit at $514.75 instead of chasing)
+- BUY $4200.00 PLTR [filled] ['momentum', 'news'] — Fresh high momentum name with strong AI narrative, not extended intraday | evidence: Palantir just hit a one-year high per GuruFocus 09-24; change_1m +10.35%, currently 51.8% of day range
+- BUY $4200.00 CRWD [filled] ['congress', 'news'] — Congress buy pressure plus strong 1-month momentum, only 29% of day range so room to run | evidence: Rep. Gilbert Ray Cisneros disclosed buy 2026-09-04/09-10; CRWD 1m momentum +36.2%
+- BUY $4200.00 AMD [filled] ['momentum', 'news'] — Best signal_evidence bucket historically is widely_held sector (avg_ret 3.87%); AMD leads that group | evidence: AMD 1m momentum +26.27%, Insider Monkey headline 'Emerging as a Viable Alternative to Nvidia' 09-24
+- BUY $4200.00 HUBB [filled] ['congress', 'news'] — Highest congress buy pressure score in the disclosed list, at 47.7% of day range | evidence: Rep. April McClain Delaney disclosed buys in HUBB 09-09; congress_net_buy_pressure HUBB=3.0 highest tier
+- BUY $3900.00 TSM [filled] ['momentum', 'news'] — Semiconductor supply chain exposure with fresh bullish coverage, mid-range entry at 53.6% | evidence: TSM 1m momentum +5.81%, IBD headline 'Nvidia, AMD Love This High-Tech Facilitator' 09-24
+  (dropped trigger NOC stop_loss: not held)
+~ WORKING stop_loss 100% PLTR @ $184.00 until 2026-09-24 — Protective stop ~3.5% below entry
+~ WORKING stop_loss 100% CRWD @ $251.00 until 2026-09-24 — Protective stop ~3.3% below entry
+~ WORKING stop_loss 100% AMD @ $586.00 until 2026-09-24 — Protective stop ~3.1% below entry
+~ WORKING stop_loss 100% HUBB @ $442.00 until 2026-09-24 — Protective stop ~3.3% below entry
+~ WORKING stop_loss 100% TSM @ $427.00 until 2026-09-24 — Protective stop ~3.3% below entry
+~ WORKING buy_limit $4200.00 NOC @ $514.75 until 2026-09-24 — wanted it, but not at the high — resting at $514.75. Defense sector strength, NOC making new intraday high
+~ WORKING take_profit 100% PLTR @ $191.29 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $184.92 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $261.12 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $251.96 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $608.02 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $587.01 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $458.72 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $443.69 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $442.89 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $428.50 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 NVDA @ $220.84 until 2026-09-25 — strong month, weak day: resting 0.51% under $221.96 to catch the dip
+~ WORKING buy_limit $1000.00 CHRW @ $148.00 until 2026-09-25 — strong month, weak day: resting 0.52% under $148.77 to catch the dip
+~ WORKING buy_limit $1000.00 HLI @ $128.95 until 2026-09-25 — strong month, weak day: resting 0.65% under $129.79 to catch the dip
+~ WORKING buy_limit $1000.00 IBM @ $230.35 until 2026-09-25 — strong month, weak day: resting 0.65% under $231.86 to catch the dip
+portfolio: equity $32828.37 (+31.31% on $25000.00 in) · cash $12133.35 · realised +7833.35
+Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week

@@ -1,42 +1,3 @@
-## 2026-09-23 12:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% IBP [time stop] -> $1844.23 (-0.10%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 12:33 ET (Wednesday) — week 2026-W39 — budget left $9944.56 (today $123599.60 put to work, 55 buys, 46 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Book already at 8 positions (min target met) with $9.9k budget remaining and 39.8% cash idle - full_deployment mode wants concentration in up to 6 names but I already hold 8 diversified names each with protective stops/take-profits working. GOOGL is down -4.55% today (worst in book) but already has stop_loss and averaging-in limit working, so leaving it alone rather than adding to a loser. Adding IBP at market given fresh congressional buy disclosure (Rep. Taylor, 9/8 buy, disclosed 9/17) plus today's +3.43% move and bullish Zacks turnaround piece; tightening CRWD and CHRW limits since they have strong congress/momentum evidence but haven't filled yet.
-lesson: Book already met min_positions with protective stops on every position - the job this check was tightening dip/momentum limits toward market rather than forcing new market buys, since existing positions are working as designed.
-  (dropped IBP: sold 3 min ago, cooling off)
-~ WORKING buy_limit $2300.00 CRWD @ $258.50 until 2026-09-23 — Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held
-~ WORKING buy_limit $2100.00 CHRW @ $149.80 until 2026-09-23 — Tighten limit slightly to improve fill odds on top congress-pressure name
-portfolio: equity $32852.24 (+31.41% on $25000.00 in) · cash $17842.64 · realised +7866.59
-Decision: nothing at this check. 35 standing order(s) working.
-- SELL 100% NOC [time stop] -> $2247.25 (+0.08%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% SKWD [time stop] -> $1792.18 (-0.24%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% IBM [time stop] -> $2236.23 (-0.41%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% GOOGL [time stop] -> $2233.14 (-0.55%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% UNH [time stop] -> $2245.04 (-0.02%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AMD [time stop] -> $2236.40 (-0.41%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 12:47 ET — tick — 6 sell(s), 0 buy(s) from standing orders
-- SELL 100% SPY [time stop] -> $998.67 (-0.13%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 12:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-23 12:53 ET (Wednesday) — week 2026-W39 — budget left $23933.47 (today $123599.60 put to work, 55 buys, 53 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AXIA3 excluded: no security information)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Book is at 1 position with 95.7% cash idle - far below min_positions of 8 and full_deployment is active requiring concentration in up to 6 names. I'm deploying into 7 fresh names (with NVDA that's 8) across sectors with concrete catalysts: PLTR (FAA news), CRWD (cybersecurity rally), NOC (defense, decent track record), IBP (congress disclosure + turnaround story), AMAT (double congress buy pressure), TSM (chip momentum, not extended), and a small GOOGL dip-buy at day low. Each gets an individual stop_loss for protection per the auto_bracket rules, since prior lessons show unprotected fresh buys got hit by time_stop losses.
-lesson: Deploying 6-8 fresh names in $3-4k size with individual stops immediately after screening cooling_off list is the right move when idle_pct is 95%+ and full_deployment is active; smaller $500-1000 buys get dropped or add little value versus real position sizing.
-  (dropped NOC: sold 6 min ago, cooling off)
-  (dropped IBP: sold 23 min ago, cooling off)
   (dropped TSM: sold 39 min ago, cooling off)
   (dropped GOOGL: sold 6 min ago, cooling off)
 - BUY $4000.00 PLTR [filled] ['news', 'momentum'] — Strong fresh news catalyst with momentum, not in cooling-off list | evidence: Palantir +3.98% today, headline 'Palantir Just Got a Major Vote of Confidence From the FAA' and 'Could Be Big Winner as Air Traffic Control Goes AI', 68.5% of day range - fresh catalyst not stale
@@ -398,3 +359,42 @@ Decision: nothing at this check. 3 standing order(s) working.
 - SELL 100% RTX [time stop] -> $2193.07 (-0.31%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 15:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 ## 2026-09-23 16:00 ET — published the session's closing state
+
+## 2026-09-24 09:32 ET (Thursday) — week 2026-W39 — budget left $24935.27 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Book is completely flat (0 positions, 99.7% idle cash) with full_deployment active and min_positions=8, so the priority is getting to target count in size immediately rather than waiting. I picked 6 names spanning distinct sectors (AI/software, semis, defense, congress-favored industrial) each backed by a concrete headline or congress disclosure, sized $3.9-4.2k which is well within max_per_ticker/sector caps and puts most of the budget to work. Added protective stops on each per risk_management (the best-performing signal bucket historically at 87% hit rate).
+lesson: From a flat book under full_deployment, act on the first check rather than waiting: size positions at $3.5-4.5k across distinct sectors with immediate stops, using concrete evidence (headline/congress/momentum) per name.
+  (dropped NOC: 100% up today's range — resting a limit at $514.75 instead of chasing)
+- BUY $4200.00 PLTR [filled] ['momentum', 'news'] — Fresh high momentum name with strong AI narrative, not extended intraday | evidence: Palantir just hit a one-year high per GuruFocus 09-24; change_1m +10.35%, currently 51.8% of day range
+- BUY $4200.00 CRWD [filled] ['congress', 'news'] — Congress buy pressure plus strong 1-month momentum, only 29% of day range so room to run | evidence: Rep. Gilbert Ray Cisneros disclosed buy 2026-09-04/09-10; CRWD 1m momentum +36.2%
+- BUY $4200.00 AMD [filled] ['momentum', 'news'] — Best signal_evidence bucket historically is widely_held sector (avg_ret 3.87%); AMD leads that group | evidence: AMD 1m momentum +26.27%, Insider Monkey headline 'Emerging as a Viable Alternative to Nvidia' 09-24
+- BUY $4200.00 HUBB [filled] ['congress', 'news'] — Highest congress buy pressure score in the disclosed list, at 47.7% of day range | evidence: Rep. April McClain Delaney disclosed buys in HUBB 09-09; congress_net_buy_pressure HUBB=3.0 highest tier
+- BUY $3900.00 TSM [filled] ['momentum', 'news'] — Semiconductor supply chain exposure with fresh bullish coverage, mid-range entry at 53.6% | evidence: TSM 1m momentum +5.81%, IBD headline 'Nvidia, AMD Love This High-Tech Facilitator' 09-24
+  (dropped trigger NOC stop_loss: not held)
+~ WORKING stop_loss 100% PLTR @ $184.00 until 2026-09-24 — Protective stop ~3.5% below entry
+~ WORKING stop_loss 100% CRWD @ $251.00 until 2026-09-24 — Protective stop ~3.3% below entry
+~ WORKING stop_loss 100% AMD @ $586.00 until 2026-09-24 — Protective stop ~3.1% below entry
+~ WORKING stop_loss 100% HUBB @ $442.00 until 2026-09-24 — Protective stop ~3.3% below entry
+~ WORKING stop_loss 100% TSM @ $427.00 until 2026-09-24 — Protective stop ~3.3% below entry
+~ WORKING buy_limit $4200.00 NOC @ $514.75 until 2026-09-24 — wanted it, but not at the high — resting at $514.75. Defense sector strength, NOC making new intraday high
+~ WORKING take_profit 100% PLTR @ $191.29 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $184.92 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $261.12 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $251.96 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $608.02 until 2026-09-29 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $587.01 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $458.72 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $443.69 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $442.89 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $428.50 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 NVDA @ $220.84 until 2026-09-25 — strong month, weak day: resting 0.51% under $221.96 to catch the dip
+~ WORKING buy_limit $1000.00 CHRW @ $148.00 until 2026-09-25 — strong month, weak day: resting 0.52% under $148.77 to catch the dip
+~ WORKING buy_limit $1000.00 HLI @ $128.95 until 2026-09-25 — strong month, weak day: resting 0.65% under $129.79 to catch the dip
+~ WORKING buy_limit $1000.00 IBM @ $230.35 until 2026-09-25 — strong month, weak day: resting 0.65% under $231.86 to catch the dip
+portfolio: equity $32828.37 (+31.31% on $25000.00 in) · cash $12133.35 · realised +7833.35
+Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week

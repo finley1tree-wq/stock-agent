@@ -23745,8 +23745,8 @@
     "code_version": "7879f9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09,
-    "ret_final": -0.09,
+    "ret_now": -0.11,
+    "ret_final": -0.11,
     "ret_src": "realised"
   },
   {
@@ -25648,8 +25648,8 @@
     "code_version": "651c7b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03,
-    "ret_final": -0.03,
+    "ret_now": -0.06,
+    "ret_final": -0.06,
     "ret_src": "realised"
   },
   {
@@ -26185,8 +26185,8 @@
     "code_version": "69e725f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.07,
-    "ret_now": -0.07,
+    "ret_final": -0.11,
+    "ret_now": -0.11,
     "ret_src": "realised"
   },
   {
@@ -26273,8 +26273,8 @@
     "code_version": "c9edde4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.07,
-    "ret_now": -0.07,
+    "ret_final": -0.11,
+    "ret_now": -0.11,
     "ret_src": "realised"
   },
   {
@@ -27794,8 +27794,8 @@
     "code_version": "708f895",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": -0.12,
-    "ret_now": -0.12,
+    "ret_final": -0.16,
+    "ret_now": -0.16,
     "ret_src": "realised"
   },
   {
@@ -29025,8 +29025,8 @@
     "code_version": "3ee6a7f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26,
-    "ret_final": -0.26,
+    "ret_now": -0.27,
+    "ret_final": -0.27,
     "ret_src": "realised"
   },
   {
@@ -31817,8 +31817,8 @@
     "code_version": "d8b0e30",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25,
-    "ret_final": -0.25,
+    "ret_now": -0.27,
+    "ret_final": -0.27,
     "ret_src": "realised"
   },
   {
@@ -33875,8 +33875,8 @@
     "code_version": "4e656ef",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27,
-    "ret_final": -0.27,
+    "ret_now": -0.29,
+    "ret_final": -0.29,
     "ret_src": "realised"
   },
   {
@@ -34320,7 +34320,9 @@
     "code_version": "00c3244",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.31,
+    "ret_final": -0.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -34372,6 +34374,132 @@
     "evidence": "bought 30 min ago, -0.27% unrealised",
     "trigger": "time_stop",
     "hour_et": 15,
-    "code_version": "25741b7"
+    "code_version": "25741b7",
+    "hold_minutes": 32
+  },
+  {
+    "symbol": "PLTR",
+    "notional": 4200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 22.031271,
+    "price": 190.64,
+    "date": "2026-09-24",
+    "time_et": "09:32",
+    "ts": 1790256771,
+    "why": "Fresh high momentum name with strong AI narrative, not extended intraday",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Palantir just hit a one-year high per GuruFocus 09-24; change_1m +10.35%, currently 51.8% of day range",
+    "entry_price": 190.6,
+    "sector": "defense",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.35,
+    "hour_et": 9,
+    "code_version": "5b23ff8",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CRWD",
+    "notional": 4200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 16.169273,
+    "price": 259.75,
+    "date": "2026-09-24",
+    "time_et": "09:32",
+    "ts": 1790256771,
+    "why": "Congress buy pressure plus strong 1-month momentum, only 29% of day range so room to run",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Rep. Gilbert Ray Cisneros disclosed buy 2026-09-04/09-10; CRWD 1m momentum +36.2%",
+    "entry_price": 259.7,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 36.2,
+    "hour_et": 9,
+    "code_version": "5b23ff8",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMD",
+    "notional": 4200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.940187,
+    "price": 605.17,
+    "date": "2026-09-24",
+    "time_et": "09:32",
+    "ts": 1790256771,
+    "why": "Best signal_evidence bucket historically is widely_held sector (avg_ret 3.87%); AMD leads that group",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "AMD 1m momentum +26.27%, Insider Monkey headline 'Emerging as a Viable Alternative to Nvidia' 09-24",
+    "entry_price": 605.05,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 26.27,
+    "hour_et": 9,
+    "code_version": "5b23ff8",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 4200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 9.182076,
+    "price": 457.41,
+    "date": "2026-09-24",
+    "time_et": "09:32",
+    "ts": 1790256771,
+    "why": "Highest congress buy pressure score in the disclosed list, at 47.7% of day range",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Rep. April McClain Delaney disclosed buys in HUBB 09-09; congress_net_buy_pressure HUBB=3.0 highest tier",
+    "entry_price": 457.23,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -1.5,
+    "hour_et": 9,
+    "code_version": "5b23ff8",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 3900.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.828556,
+    "price": 441.75,
+    "date": "2026-09-24",
+    "time_et": "09:32",
+    "ts": 1790256771,
+    "why": "Semiconductor supply chain exposure with fresh bullish coverage, mid-range entry at 53.6%",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "TSM 1m momentum +5.81%, IBD headline 'Nvidia, AMD Love This High-Tech Facilitator' 09-24",
+    "entry_price": 441.66,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 5.81,
+    "hour_et": 9,
+    "code_version": "5b23ff8",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,390 +1,6 @@
 {
  "orders": [
   {
-   "id": "181e5719",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 13.21,
-   "status": "cancelled",
-   "created": "2026-09-22 14:28",
-   "created_ts": 1790101703,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $13.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 14:29",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "5f6673cf",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 712.0,
-   "status": "cancelled",
-   "created": "2026-09-22 14:37",
-   "created_ts": 1790102272,
-   "why": "protect against reversal",
-   "evidence": "ATR 3.682%, entry ~739.44",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 15:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "52fe5468",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 614.9406,
-   "status": "cancelled",
-   "created": "2026-09-22 14:37",
-   "created_ts": 1790102272,
-   "why": "wanted it, but not at the high \u2014 resting at $614.94. strongest momentum name in AI chip rally, widely_held sector has best avg_ret 4.86%",
-   "evidence": "AMD +0.7% today, +22.93% 5d, +30.97% 1m, headline 'AMD enters $1 trillion club' and 'Nasdaq surges 2% to record high, chip stocks rally'",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 3500.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "d65fe6e6",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 362.359,
-   "status": "cancelled",
-   "created": "2026-09-22 14:37",
-   "created_ts": 1790102272,
-   "why": "wanted it, but not at the high \u2014 resting at $362.36. broadcom riding AI capex theme with strong week momentum",
-   "evidence": "AVGO 96.9% of day range, +7.49% 5d, headline 'Is NVIDIA Funding Its Own Stock Rally?' amid broad chip rally",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 3000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "4deb691c",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 446.084,
-   "status": "cancelled",
-   "created": "2026-09-22 14:37",
-   "created_ts": 1790102272,
-   "why": "wanted it, but not at the high \u2014 resting at $446.08. chip supply chain leader, strong capex news catalyst",
-   "evidence": "TSM 95.5% of day range, +8.68% 5d, headline 'TSMC Spent $15.59 Billion on CapEx in a Single Quarter, 42% More' - AI capex demand story",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 3000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e9e16ef9",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 463.5045,
-   "status": "cancelled",
-   "created": "2026-09-22 14:37",
-   "created_ts": 1790102272,
-   "why": "wanted it, but not at the high \u2014 resting at $463.50. congress buy pressure plus semiconductor equipment momentum",
-   "evidence": "Rep. Josh Gottheimer disclosed AMAT buy 2026-08-06 (disclosed 2026-09-14), AMAT +11.51% 5d, 88.8% of day range",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 2500.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "76de772a",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 742.6075,
-   "status": "cancelled",
-   "created": "2026-09-22 14:37",
-   "created_ts": 1790102272,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $739.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 15:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7f819a04",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 717.4023,
-   "status": "cancelled",
-   "created": "2026-09-22 14:37",
-   "created_ts": 1790102272,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $739.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 15:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c0b4984b",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 92.0,
-   "status": "cancelled",
-   "created": "2026-09-22 15:09",
-   "created_ts": 1790104153,
-   "why": "protective stop ~2.8% below entry",
-   "evidence": "CCJ ATR 3.535%, entry near day high 94.67",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-22",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 15:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f3e0e923",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 362.5295,
-   "status": "cancelled",
-   "created": "2026-09-22 15:09",
-   "created_ts": 1790104153,
-   "why": "wanted it, but not at the high \u2014 resting at $362.53. AI capex momentum leader, widely_held sector, buying now given last check of day",
-   "evidence": "AVGO 97.6% of day range, +7.6% 5d, 'AMD Stock Just Sent a Huge AI Signal' 9/22 headline tying broadcom-adjacent AI capex theme",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 4200.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "b4719002",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 446.975,
-   "status": "cancelled",
-   "created": "2026-09-22 15:09",
-   "created_ts": 1790104153,
-   "why": "wanted it, but not at the high \u2014 resting at $446.98. Chip supply chain leader with strong momentum and capex catalyst news, widely_held sector",
-   "evidence": "TSM +9.1% 5d, 97.3% of day range, 'TSMC Gains as Packaging Moves Closer to Its Suppliers' 9/22",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-22",
-   "usd": 4200.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "b5bdba27",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 95.0813,
-   "status": "cancelled",
-   "created": "2026-09-22 15:09",
-   "created_ts": 1790104153,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $94.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-22 15:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a957fede",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.8687,
-   "status": "cancelled",
-   "created": "2026-09-22 15:09",
-   "created_ts": 1790104153,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "6780fdbe",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 338.7246,
-   "status": "cancelled",
-   "created": "2026-09-22 15:09",
-   "created_ts": 1790104153,
-   "why": "strong month, weak day: resting 0.44% under $340.21 to catch the dip",
-   "evidence": "+10.0% over the month, sitting at 22% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "3da0659c",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 148.2514,
-   "status": "cancelled",
-   "created": "2026-09-22 15:09",
-   "created_ts": 1790104153,
-   "why": "strong month, weak day: resting 0.54% under $149.06 to catch the dip",
-   "evidence": "+5.2% over the month, sitting at 16% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e0d3c8f5",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 496.5628,
-   "status": "cancelled",
-   "created": "2026-09-22 15:25",
-   "created_ts": 1790105126,
-   "why": "strong month, weak day: resting 0.43% under $498.73 to catch the dip",
-   "evidence": "+3.2% over the month, sitting at 34% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "389654e7",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 351.3219,
-   "status": "cancelled",
-   "created": "2026-09-22 15:25",
-   "created_ts": 1790105126,
-   "why": "strong month, weak day: resting 0.51% under $353.12 to catch the dip",
-   "evidence": "+2.4% over the month, sitting at 21% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "a8676e6d",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 13.0625,
-   "status": "cancelled",
-   "created": "2026-09-22 15:25",
-   "created_ts": 1790105126,
-   "why": "strong month, weak day: resting 1.04% under $13.20 to catch the dip",
-   "evidence": "+0.1% over the month, sitting at 6% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 1000.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "854b2edf",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.8687,
-   "status": "cancelled",
-   "created": "2026-09-22 15:28",
-   "created_ts": 1790105292,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "a02681b4",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 91.8687,
-   "status": "cancelled",
-   "created": "2026-09-22 15:28",
-   "created_ts": 1790105333,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-27",
-   "usd": 500.0,
-   "closed": "2026-09-22 15:29",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "ae811231",
    "ticker": "CCJ",
    "kind": "buy_limit",
@@ -7497,7 +7113,343 @@
    "usd": 500.0,
    "closed": "2026-09-23 15:57",
    "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "7f642059",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 184.0,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "Protective stop ~3.5% below entry",
+   "evidence": "ATR 3.06%, entry 190.6",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ddea68a3",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 251.0,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "Protective stop ~3.3% below entry",
+   "evidence": "ATR 4.76%, entry 259.7",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2f7a5a30",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 586.0,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "Protective stop ~3.1% below entry",
+   "evidence": "ATR 4.25%, entry 605.05",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9721d096",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 442.0,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "Protective stop ~3.3% below entry",
+   "evidence": "ATR 2.58%, entry 457.23",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b616904b",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 427.0,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "Protective stop ~3.3% below entry",
+   "evidence": "ATR 2.32%, entry 441.66",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c337befa",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 514.7523,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "wanted it, but not at the high \u2014 resting at $514.75. Defense sector strength, NOC making new intraday high",
+   "evidence": "NOC at 100% of day range, +0.29% today; Zacks headline on Northrop APN-241 processor demand 09-23",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-24",
+   "usd": 4200.0
+  },
+  {
+   "id": "7d551b20",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 191.2882,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $190.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "06e989fe",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 184.9208,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $190.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "82cc80c4",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 261.1215,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $259.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "69eb39ec",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 251.9575,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $259.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "74a3c298",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 608.0204,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $605.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2687ab96",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 587.0149,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $605.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "92093772",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 458.7228,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $457.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5445d22a",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 443.6877,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $457.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "bbddc8a5",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 442.8853,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $441.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e8e0dda0",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 428.4975,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $441.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "911f4796",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 220.8367,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "strong month, weak day: resting 0.51% under $221.96 to catch the dip",
+   "evidence": "+4.2% over the month, sitting at 46% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-25",
+   "usd": 1000.0
+  },
+  {
+   "id": "fbc6e2eb",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 148.0001,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "strong month, weak day: resting 0.52% under $148.77 to catch the dip",
+   "evidence": "+4.1% over the month, sitting at 5% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-25",
+   "usd": 1000.0
+  },
+  {
+   "id": "3796ac78",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 128.9477,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "strong month, weak day: resting 0.65% under $129.79 to catch the dip",
+   "evidence": "+0.7% over the month, sitting at 0% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-25",
+   "usd": 1000.0
+  },
+  {
+   "id": "ace523a8",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 230.3456,
+   "status": "working",
+   "created": "2026-09-24 09:32",
+   "created_ts": 1790256771,
+   "why": "strong month, weak day: resting 0.65% under $231.86 to catch the dip",
+   "evidence": "+0.4% over the month, sitting at 41% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-25",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-23 15:56"
+ "updated": "2026-09-24 09:32"
 }
