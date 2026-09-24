@@ -16638,3 +16638,16 @@ Decision: nothing at this check. 27 standing order(s) working.
 - SELL 100% IBM [time stop] -> $1732.26 (-0.06%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% NEM [time stop] -> $1296.17 (-0.29%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 15:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 15:09 ET (Thursday) — week 2026-W39 — budget left $24934.85 (today $172165.78 put to work, 74 buys, 74 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: This is the last check of the day (checks_left_today=1) at 15:09 ET with market close at 16:00 - any new market buy would be forced into a same-day round trip inside 30-50 minutes near the close, which is exactly the low-hit-rate 'time_stop'/'intraday_limit' bucket (avg -0.18%, hit rate 0.24 per track_record). I already have 17 working buy_limit orders resting below market on TSM, GOOGL, NVDA, AMZN, AAPL, AMD, META, ESE covering widely_held/congress/momentum themes with concrete evidence (Rep. Rick W. Allen TSM buy disclosed 9/22, congress pressure on ESE/AMD, Meta AI Muse news, AMZN/NVDA/GOOGL momentum) - these will fill automatically if the dip arrives before close without me chasing the current high-of-range prices (AMD 86.5%, AMZN 83.8%, CRWD 89.7%, MSFT 92.1% of day range - all above the 85% max_entry_range_pct guardrail). Placing new market buys now near session highs into a closing market with only one check left risks poor entries with no time to manage them; better to let the existing well-evidenced limit orders work and take no new action.
+lesson: On the last check of the day, prefer letting existing well-placed buy_limit orders work rather than chasing market buys at high-of-range prices right before close, since forced 30-50min holds into the close land in the worst-performing time_stop/intraday_limit bucket.
+portfolio: equity $32846.48 (+31.39% on $25000.00 in) · cash $32846.48 · realised +7846.48
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
