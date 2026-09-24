@@ -1,4 +1,3 @@
-- SELL 100% ESE [take_profit @ $264.88] -> $1982.60 (+0.33%) — close 100% at +0.3% over the average cost
 ## 2026-09-23 12:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% IBP [time stop] -> $1844.23 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +397,4 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
 - SELL 100% RTX [time stop] -> $2193.07 (-0.31%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-23 15:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+## 2026-09-23 16:00 ET — published the session's closing state
