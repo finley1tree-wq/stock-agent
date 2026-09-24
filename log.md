@@ -16175,3 +16175,6 @@ lesson: Congress-score-3.0 names (CHRW/HUBB/LTH via April McClain Delaney) haven
 ~ WORKING buy_limit $500.00 HUBB @ $448.07 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32817.53 (+31.27% on $25000.00 in) · cash $19914.37 · realised +7827.16
 Done: 0 sell(s), 5 buy(s); 29 order(s) working; budget left $12002.71 this week
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $120.71] -> $2007.51 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-09-24 11:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
