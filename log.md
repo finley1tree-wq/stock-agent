@@ -16178,3 +16178,7 @@ Done: 0 sell(s), 5 buy(s); 29 order(s) working; budget left $12002.71 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $120.71] -> $2007.51 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-09-24 11:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CRWD [time stop] -> $1664.80 (+0.12%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $1661.83 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBP [time stop] -> $1573.86 (-0.84%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 11:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders

@@ -1,7 +1,3 @@
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-23 15:55 ET (Wednesday) — week 2026-W39 — budget left $22742.20 (today $178745.75 put to work, 80 buys, 78 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (AXIA3 excluded: no security information)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (GAM excluded: too thinly traded ($1.4M a day) — General American Investors Company, Inc.)
@@ -398,3 +394,7 @@ Done: 0 sell(s), 5 buy(s); 29 order(s) working; budget left $12002.71 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $120.71] -> $2007.51 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-09-24 11:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CRWD [time stop] -> $1664.80 (+0.12%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $1661.83 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBP [time stop] -> $1573.86 (-0.84%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 11:52 ET — tick — 3 sell(s), 0 buy(s) from standing orders
