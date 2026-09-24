@@ -16245,3 +16245,14 @@ lesson: Below min_positions with 83%+ idle cash is a persistent pattern this ses
 ~ WORKING buy_limit $500.00 NVDA @ $215.61 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32795.50 (+31.18% on $25000.00 in) · cash $16485.70 · realised +7805.66
 Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $8574.04 this week
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [take_profit @ $466.65] -> $2009.05 (+0.45%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $340.58] -> $2808.14 (+0.29%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $446.95] -> $2606.66 (+0.26%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $348.81] -> $2608.51 (+0.33%) — close 100% at +0.3% over the average cost
+  (cancelled 3 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $222.88] -> $1724.57 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-24 12:16 ET — tick — 5 sell(s), 0 buy(s) from standing orders
