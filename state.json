@@ -1,12 +1,12 @@
 {
   "week": "2026-W39",
-  "spent": 5209.41,
+  "spent": 4218.82,
   "deployed": 490641.86,
   "by_ticker": {
     "NOC": 4228.64,
     "IBM": 34.86,
     "MSFT": 47.41,
-    "HLI": 1009.7,
+    "HLI": 19.11,
     "CHRW": 17.56,
     "GOOGL": 70.75,
     "RTX": 23.68,
@@ -8073,20 +8073,42 @@
       ],
       "evidence": "average cost $230.35",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 7.755082,
+      "status": "filled",
+      "price": 127.73,
+      "proceeds": 990.59,
+      "realized_pnl": -9.41,
+      "realized_pct": -0.94,
+      "date": "2026-09-24",
+      "time_et": "09:43",
+      "ts": 1790257200,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $128.95",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 5209.41,
+  "spent_today": 4218.82,
   "deployed_today": 26900.0,
   "orders_today": 8,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "PLTR",
     "CRWD",
     "AMD",
     "HUBB",
     "TSM",
-    "IBM"
+    "IBM",
+    "HLI"
   ],
   "sold_ts": {
     "AMAT": 1790183968,
@@ -8110,7 +8132,7 @@
     "GOOGL": 1790185574,
     "GLD": 1790175194,
     "AAPL": 1790180099,
-    "HLI": 1790085321,
+    "HLI": 1790257382,
     "CRWD": 1790256937,
     "NLR": 1790189594,
     "HUBB": 1790256937,
@@ -8123,20 +8145,17 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790257338,
-  "last_check_ts": 1790257338,
+  "last_publish_ts": 1790257381,
+  "last_check_ts": 1790257427,
   "last_bar_ts": 1790257200,
   "last_decision_ts": 1790256771,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "9af7e682": 515.97,
-    "602040a0": 129.4104,
+    "cd08f0b2": 515.332,
     "fbc6e2eb": 148.0001,
-    "b9f44293": 511.7027,
-    "f1112423": 127.7985,
     "911f4796": 220.8367,
-    "3424e7ce": 125.0815,
     "5c682797": 499.3075
   }
 }

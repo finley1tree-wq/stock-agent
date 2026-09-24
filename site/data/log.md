@@ -1,6 +1,3 @@
-- SELL 100% NVDA [time stop] -> $999.34 (-0.07%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $1846.15 PLD [buy_limit @ $134.83] — wanted it, but not at the high — resting at $134.83. Real estate diversifier with data-center demand tailwind, not currently held and not cooling off
 ## 2026-09-23 13:03 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 
 ## 2026-09-23 13:09 ET (Wednesday) — week 2026-W39 — budget left $12586.66 (today $135945.75 put to work, 59 buys, 54 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $228.18] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
 ## 2026-09-24 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $127.73] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
+## 2026-09-24 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders

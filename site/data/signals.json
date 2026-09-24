@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-24T09:42-04:00",
+ "asOf": "2026-09-24T09:43-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 515.05,
-   "pct_away": 0.18,
+   "last": 515.72,
+   "pct_away": 0.05,
    "good_until": "2026-09-29",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -156,17 +156,17 @@
    ]
   },
   {
-   "id": "602040a0",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 129.4104,
+   "id": "cd08f0b2",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 515.332,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.82,
-   "pct_away": 0.46,
+   "last": 515.72,
+   "pct_away": -0.08,
    "good_until": "2026-09-29",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -190,40 +190,6 @@
    ]
   },
   {
-   "id": "b9f44293",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 511.7027,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 515.05,
-   "pct_away": -0.65,
-   "good_until": "2026-09-29",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f1112423",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 127.7985,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 128.82,
-   "pct_away": -0.79,
-   "good_until": "2026-09-29",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "911f4796",
    "ticker": "NVDA",
    "kind": "buy_limit",
@@ -231,30 +197,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 222.81,
-   "pct_away": -0.89,
+   "last": 222.9,
+   "pct_away": -0.93,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.51% under $221.96 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "3424e7ce",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 125.0815,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 128.82,
-   "pct_away": -2.9,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -265,8 +214,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 515.05,
-   "pct_away": -3.06,
+   "last": 515.72,
+   "pct_away": -3.18,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
