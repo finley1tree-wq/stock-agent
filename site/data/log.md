@@ -1,12 +1,3 @@
-  (dropped TSM: sold 39 min ago, cooling off)
-  (dropped GOOGL: sold 6 min ago, cooling off)
-- BUY $4000.00 PLTR [filled] ['news', 'momentum'] — Strong fresh news catalyst with momentum, not in cooling-off list | evidence: Palantir +3.98% today, headline 'Palantir Just Got a Major Vote of Confidence From the FAA' and 'Could Be Big Winner as Air Traffic Control Goes AI', 68.5% of day range - fresh catalyst not stale
-- BUY $3500.00 CRWD [filled] ['news', 'momentum'] — Momentum plus sector rotation into cybersecurity as tech slides; resting limits at 258.50/256.13 unlikely to fill given rally, buy some at market | evidence: CrowdStrike +4.52% today at 82.4% of range, headline 'Cybersecurity Stocks Rally... CrowdStrike... Each Gain 4%' and Cramer 'must buy' mention
-- BUY $3000.00 AMAT [filled] ['congress', 'momentum'] — Two congress buy disclosures plus 5d momentum of 11.2%, biggest_misses list flagged AMAT fwd +7.96% missed previously | evidence: Rep. Josh Gottheimer and Jared Moskowitz both disclosed AMAT buys; AMAT +0.88% today, +11.2% 5d, headline 'Wall Street Bulls Look Optimistic About Applied Materials'
-  (dropped trigger NOC stop_loss: not held)
-  (dropped trigger IBP stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
 ~ WORKING stop_loss 100% PLTR @ $186.56 until 2026-09-23 — Protective stop on new PLTR position
 ~ WORKING stop_loss 100% CRWD @ $255.40 until 2026-09-23 — Protective stop on new CRWD position
 ~ WORKING stop_loss 100% AMAT @ $459.00 until 2026-09-23 — Protective stop on new AMAT position
@@ -398,3 +389,12 @@ lesson: From a flat book under full_deployment, act on the first check rather th
 ~ WORKING buy_limit $1000.00 IBM @ $230.35 until 2026-09-25 — strong month, weak day: resting 0.65% under $231.86 to catch the dip
 portfolio: equity $32828.37 (+31.31% on $25000.00 in) · cash $12133.35 · realised +7833.35
 Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $191.29] -> $4214.32 (+0.34%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $261.12] -> $4222.14 (+0.53%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $608.02] -> $4219.78 (+0.47%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $458.72] -> $4212.03 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-24 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders

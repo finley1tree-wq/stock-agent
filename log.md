@@ -15838,3 +15838,12 @@ lesson: From a flat book under full_deployment, act on the first check rather th
 ~ WORKING buy_limit $1000.00 IBM @ $230.35 until 2026-09-25 — strong month, weak day: resting 0.65% under $231.86 to catch the dip
 portfolio: equity $32828.37 (+31.31% on $25000.00 in) · cash $12133.35 · realised +7833.35
 Done: 0 sell(s), 5 buy(s); 20 order(s) working; budget left $4235.27 this week
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $191.29] -> $4214.32 (+0.34%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $261.12] -> $4222.14 (+0.53%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $608.02] -> $4219.78 (+0.47%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $458.72] -> $4212.03 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-09-24 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders

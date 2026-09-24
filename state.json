@@ -1,11 +1,10 @@
 {
   "week": "2026-W39",
-  "spent": 20764.73,
+  "spent": 3896.46,
   "deployed": 484441.86,
   "by_ticker": {
     "NOC": 28.64,
     "IBM": 25.45,
-    "AMD": 4215.51,
     "MSFT": 47.41,
     "HLI": 9.7,
     "CHRW": 17.56,
@@ -25,12 +24,9 @@
     "IBP": 10.7,
     "SKWD": 12.57,
     "NVDA": 0.66,
-    "HUBB": 4203.36,
-    "PLTR": 4201.0,
     "NLR": 8.94,
     "LMT": 4.01,
-    "CCJ": 5.36,
-    "CRWD": 4200.0
+    "CCJ": 5.36
   },
   "deployed_by_ticker": {
     "AMD": 40701.06,
@@ -7894,20 +7890,109 @@
         "news"
       ],
       "evidence": "TSM 1m momentum +5.81%, IBD headline 'Nvidia, AMD Love This High-Tech Facilitator' 09-24"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 22.031271,
+      "status": "filled",
+      "price": 191.29,
+      "proceeds": 4214.32,
+      "realized_pnl": 14.32,
+      "realized_pct": 0.34,
+      "date": "2026-09-24",
+      "time_et": "09:35",
+      "ts": 1790256900,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $190.64",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 16.169273,
+      "status": "filled",
+      "price": 261.12,
+      "proceeds": 4222.14,
+      "realized_pnl": 22.14,
+      "realized_pct": 0.53,
+      "date": "2026-09-24",
+      "time_et": "09:35",
+      "ts": 1790256900,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $259.75",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 6.940187,
+      "status": "filled",
+      "price": 608.02,
+      "proceeds": 4219.78,
+      "realized_pnl": 19.78,
+      "realized_pct": 0.47,
+      "date": "2026-09-24",
+      "time_et": "09:35",
+      "ts": 1790256900,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $605.17",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "HUBB",
+      "side": "sell",
+      "qty": 9.182076,
+      "status": "filled",
+      "price": 458.72,
+      "proceeds": 4212.03,
+      "realized_pnl": 12.03,
+      "realized_pct": 0.29,
+      "date": "2026-09-24",
+      "time_et": "09:35",
+      "ts": 1790256900,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $457.41",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 20700.0,
+  "spent_today": 3831.73,
   "deployed_today": 20700.0,
   "orders_today": 5,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 4,
+  "sold_today": [
+    "PLTR",
+    "CRWD",
+    "AMD",
+    "HUBB"
+  ],
   "sold_ts": {
     "AMAT": 1790183968,
-    "AMD": 1790182075,
+    "AMD": 1790256937,
     "NVDA": 1790182585,
     "CHRW": 1790193115,
-    "PLTR": 1790188600,
+    "PLTR": 1790256937,
     "MSFT": 1790173101,
     "OKLO": 1790178209,
     "CCJ": 1790190589,
@@ -7925,9 +8010,9 @@
     "GLD": 1790175194,
     "AAPL": 1790180099,
     "HLI": 1790085321,
-    "CRWD": 1790184190,
+    "CRWD": 1790256937,
     "NLR": 1790189594,
-    "HUBB": 1790185173,
+    "HUBB": 1790256937,
     "AMZN": 1790186274,
     "IBP": 1790186103,
     "NEM": 1790185173,
@@ -7937,32 +8022,20 @@
     "ESE": 1790180977,
     "SKWD": 1790189594
   },
-  "last_publish_ts": 1790256771,
-  "last_check_ts": 1790256771,
-  "last_bar_ts": 1790256600,
+  "last_publish_ts": 1790256935,
+  "last_check_ts": 1790256935,
+  "last_bar_ts": 1790256900,
   "last_decision_ts": 1790256771,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "c337befa": 514.7523,
     "bbddc8a5": 442.8853,
-    "92093772": 458.7228,
-    "7d551b20": 191.2882,
-    "74a3c298": 608.0204,
+    "c337befa": 514.7523,
     "911f4796": 220.8367,
-    "fbc6e2eb": 148.0001,
-    "82cc80c4": 261.1215,
-    "3796ac78": 128.9477,
     "ace523a8": 230.3456,
-    "5445d22a": 443.6877,
-    "06e989fe": 184.9208,
-    "69eb39ec": 251.9575,
-    "2687ab96": 587.0149,
+    "3796ac78": 128.9477,
+    "fbc6e2eb": 148.0001,
     "e8e0dda0": 428.4975,
-    "2f7a5a30": 586.0,
-    "b616904b": 427.0,
-    "9721d096": 442.0,
-    "ddea68a3": 251.0,
-    "7f642059": 184.0
+    "b616904b": 427.0
   }
 }
