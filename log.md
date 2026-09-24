@@ -16600,3 +16600,6 @@ lesson: Stop trickling 1-2 buys per check when below min_positions with high idl
 ~ WORKING buy_limit $500.00 NEM @ $117.35 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32826.49 (+31.31% on $25000.00 in) · cash $19525.90 · realised +7825.89
 Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [take_profit @ $472.06] -> $2511.18 (+0.45%) — close 100% at +0.4% over the average cost
+## 2026-09-24 14:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
