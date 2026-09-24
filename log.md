@@ -16487,3 +16487,6 @@ lesson: Resting buy_limits alone haven't closed the position-count gap for hours
 portfolio: equity $32805.43 (+31.22% on $25000.00 in) · cash $23481.05 · realised +7807.13
 Decision: nothing at this check. 32 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AMZN: position closed)
+- SELL 100% AMZN [take_profit @ $249.50] -> $2179.17 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-24 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

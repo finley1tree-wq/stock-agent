@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "e9ad1b8b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 258.5,
-   "status": "cancelled",
-   "created": "2026-09-23 12:33",
-   "created_ts": 1790181197,
-   "why": "Raise resting limit closer to market to increase odds of fill on strong momentum name not currently held",
-   "evidence": "CRWD +5.01% today, 'Cybersecurity Stocks Rally...CrowdStrike gains 4%' 24/7 Wall St, Cramer called Nvidia-linked security peer a must-buy",
-   "signals": [
-    "momentum",
-    "news"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 2300.0,
-   "closed": "2026-09-23 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "02703baa",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -7187,7 +7168,7 @@
    "ticker": "AMZN",
    "kind": "stop_loss",
    "price": 244.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 13:39",
    "created_ts": 1790271553,
    "why": "Protective stop on new AMZN position",
@@ -7196,7 +7177,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "24edf809",
@@ -7251,7 +7234,7 @@
    "ticker": "AMZN",
    "kind": "take_profit",
    "price": 249.5023,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 13:39",
    "created_ts": 1790271553,
    "why": "close 100% at +0.2% over the average cost",
@@ -7261,14 +7244,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:00"
   },
   {
    "id": "c7e8d1e9",
    "ticker": "AMZN",
    "kind": "buy_limit",
    "price": 241.433,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 13:39",
    "created_ts": 1790271553,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7278,7 +7262,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 14:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "21ee7dee",
@@ -7404,7 +7390,7 @@
    "ticker": "SPY",
    "kind": "stop_loss",
    "price": 764.4701,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 13:43",
    "created_ts": 1790271818,
    "why": "close it all at -0.2% under the average cost",
@@ -7414,7 +7400,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "410f8621",
@@ -7432,7 +7420,24 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "b048041a",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 766.712,
+   "status": "working",
+   "created": "2026-09-24 14:00",
+   "created_ts": 1790272805,
+   "why": "close it all at -0.2% under the average cost",
+   "evidence": "average cost $766.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-24 13:55"
+ "updated": "2026-09-24 14:00"
 }
