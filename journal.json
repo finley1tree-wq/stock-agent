@@ -38215,5 +38215,54 @@
     "trigger": "take_profit",
     "hour_et": 14,
     "code_version": "65ff52a"
+  },
+  {
+    "symbol": "CRWD",
+    "side": "sell",
+    "qty": 6.609395,
+    "status": "filled",
+    "price": 263.63,
+    "proceeds": 1742.47,
+    "realized_pnl": 9.14,
+    "realized_pct": 0.53,
+    "date": "2026-09-24",
+    "time_et": "14:51",
+    "ts": 1790275800,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $262.25",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "ab37668"
+  },
+  {
+    "symbol": "HUBB",
+    "side": "sell",
+    "qty": 3.885463,
+    "status": "filled",
+    "price": 463.59,
+    "proceeds": 1801.28,
+    "realized_pnl": 1.28,
+    "realized_pct": 0.07,
+    "date": "2026-09-24",
+    "time_et": "14:52",
+    "ts": 1790275953,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.11% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "ab37668"
   }
 ]

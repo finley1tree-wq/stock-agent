@@ -7113,7 +7113,7 @@
    "ticker": "HUBB",
    "kind": "stop_loss",
    "price": 456.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:22",
    "created_ts": 1790274150,
    "why": "protective stop on new HUBB buy",
@@ -7122,14 +7122,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "29022452",
    "ticker": "HUBB",
    "kind": "take_profit",
    "price": 468.7,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:22",
    "created_ts": 1790274150,
    "why": "lock in gains on half position",
@@ -7138,14 +7140,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-24 14:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "bb0eda87",
    "ticker": "HUBB",
    "kind": "take_profit",
    "price": 464.6089,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:22",
    "created_ts": 1790274150,
    "why": "close 100% at +0.3% over the average cost",
@@ -7155,14 +7159,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9747c932",
    "ticker": "HUBB",
    "kind": "buy_limit",
    "price": 449.3719,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:22",
    "created_ts": 1790274150,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7172,7 +7178,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 14:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8835ed0e",
@@ -7264,7 +7272,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 256.9,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:38",
    "created_ts": 1790275103,
    "why": "Protective stop on new CRWD buy",
@@ -7273,7 +7281,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:51",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b6a8f88c",
@@ -7367,7 +7377,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 263.6347,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 14:38",
    "created_ts": 1790275103,
    "why": "close 100% at +0.5% over the average cost",
@@ -7377,14 +7387,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 14:51"
   },
   {
    "id": "199b0f23",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 254.3825,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 14:38",
    "created_ts": 1790275103,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7394,7 +7405,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 14:51",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d14caf39",

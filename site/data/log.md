@@ -1,8 +1,3 @@
-- SELL 100% CHRW [time stop] -> $1482.23 (-1.18%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% HUBB [time stop] -> $1498.44 (-0.10%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 12:08 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 12:10 ET (Thursday) — week 2026-W39 — budget left $20894.00 (today $112719.75 put to work, 45 buys, 43 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
@@ -398,3 +393,8 @@ Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $449.63] -> $1737.91 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-09-24 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $263.63] -> $1742.47 (+0.53%) — close 100% at +0.5% over the average cost
+## 2026-09-24 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% HUBB [time stop] -> $1801.28 (+0.07%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 14:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
