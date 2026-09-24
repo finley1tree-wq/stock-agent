@@ -1,11 +1,11 @@
 {
   "week": "2026-W39",
-  "spent": 4669.03,
+  "spent": 2063.07,
   "deployed": 588781.57,
   "by_ticker": {
     "NOC": 18.79,
     "IBM": 34.86,
-    "MSFT": 2638.24,
+    "MSFT": 32.28,
     "HLI": 19.11,
     "CHRW": 47.87,
     "GOOGL": 43.69,
@@ -9656,13 +9656,34 @@
       ],
       "evidence": "average cost $222.28",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 5.255191,
+      "status": "filled",
+      "price": 495.88,
+      "proceeds": 2605.96,
+      "realized_pnl": 5.96,
+      "realized_pct": 0.23,
+      "date": "2026-09-24",
+      "time_et": "12:16",
+      "ts": 1790266500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $494.75",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-24",
-  "spent_today": 4669.03,
+  "spent_today": 2063.07,
   "deployed_today": 125039.71,
   "orders_today": 50,
-  "sells_today": 48,
+  "sells_today": 49,
   "sold_today": [
     "PLTR",
     "CRWD",
@@ -9703,7 +9724,7 @@
     "NVDA": 1790266582,
     "CHRW": 1790266131,
     "PLTR": 1790256937,
-    "MSFT": 1790258290,
+    "MSFT": 1790266619,
     "OKLO": 1790263310,
     "CCJ": 1790263310,
     "LMT": 1790262328,
@@ -9733,22 +9754,19 @@
     "SKWD": 1790264294,
     "LTH": 1790266131
   },
-  "last_publish_ts": 1790266581,
-  "last_check_ts": 1790266581,
+  "last_publish_ts": 1790266617,
+  "last_check_ts": 1790266664,
   "last_bar_ts": 1790266500,
   "last_decision_ts": 1790266219,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "3be64252": 495.883,
     "d32f90ef": 333.0,
     "44610dde": 334.8636,
-    "e45d1db1": 754.5527,
-    "42d2648b": 264.3975,
-    "7aca5eca": 488.0,
     "21ce6c91": 340.6318,
-    "6947e7c8": 263.908,
+    "e45d1db1": 754.5527,
     "803b669f": 328.733,
-    "1cc83c32": 479.9075
+    "42d2648b": 264.3975,
+    "6947e7c8": 263.908
   }
 }

@@ -1,6 +1,6 @@
 {
  "asOf": "2026-09-24T12:16-04:00",
- "note": "tick: 5 standing order(s) filled",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3be64252",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 495.883,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 495.58,
-   "pct_away": 0.06,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "d32f90ef",
    "ticker": "TPL",
    "kind": "stop_loss",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 335.47,
-   "pct_away": -0.74,
+   "last": 335.2,
+   "pct_away": -0.66,
    "good_until": "2026-09-24",
    "why": "protective stop below day low",
    "signals": [
@@ -179,65 +162,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 338.52,
-   "pct_away": -1.08,
+   "last": 338.8,
+   "pct_away": -1.16,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.44% under $336.33 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "e45d1db1",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 754.5527,
-   "usd": 2800.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 765.97,
-   "pct_away": -1.49,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "42d2648b",
-   "ticker": "ESE",
-   "kind": "buy_limit",
-   "price": 264.3975,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 268.5,
-   "pct_away": -1.53,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "7aca5eca",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 488.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 495.58,
-   "pct_away": -1.53,
-   "good_until": "2026-09-24",
-   "why": "protective stop below day low",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -248,8 +179,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 335.47,
-   "pct_away": 1.54,
+   "last": 335.2,
+   "pct_away": 1.62,
    "good_until": "2026-09-29",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -258,19 +189,19 @@
    ]
   },
   {
-   "id": "6947e7c8",
-   "ticker": "ESE",
+   "id": "e45d1db1",
+   "ticker": "META",
    "kind": "buy_limit",
-   "price": 263.908,
-   "usd": 3000.0,
+   "price": 754.5527,
+   "usd": 2800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 268.5,
-   "pct_away": -1.71,
+   "last": 767.62,
+   "pct_away": -1.7,
    "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst",
+   "why": "wanted it, but not at the high \u2014 resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration",
    "signals": [
-    "congress",
+    "momentum",
     "news",
     "patience"
    ]
@@ -283,8 +214,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 335.47,
-   "pct_away": -2.01,
+   "last": 335.2,
+   "pct_away": -1.93,
    "good_until": "2026-09-29",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -293,20 +224,39 @@
    ]
   },
   {
-   "id": "1cc83c32",
-   "ticker": "MSFT",
+   "id": "42d2648b",
+   "ticker": "ESE",
    "kind": "buy_limit",
-   "price": 479.9075,
-   "usd": 500.0,
+   "price": 264.3975,
+   "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 495.58,
-   "pct_away": -3.16,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 270.4,
+   "pct_away": -2.22,
+   "good_until": "2026-09-24",
+   "why": "wanted it, but not at the high \u2014 resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "6947e7c8",
+   "ticker": "ESE",
+   "kind": "buy_limit",
+   "price": 263.908,
+   "usd": 3000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 270.4,
+   "pct_away": -2.4,
+   "good_until": "2026-09-24",
+   "why": "wanted it, but not at the high \u2014 resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
    ]
   }
  ],

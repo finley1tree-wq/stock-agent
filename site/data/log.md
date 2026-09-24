@@ -1,6 +1,3 @@
-- SELL 100% IBM [stop_loss @ $228.18] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
-## 2026-09-24 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [stop_loss @ $127.73] -> $990.59 (-0.94%) — close it all at -0.9% under the average cost
 ## 2026-09-24 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on NOC: position closed)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $8574.04 this week
   (cancelled 3 standing order(s) on NVDA: position closed)
 - SELL 100% NVDA [take_profit @ $222.88] -> $1724.57 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-24 12:16 ET — tick — 5 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $495.88] -> $2605.96 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-24 12:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
