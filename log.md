@@ -16503,3 +16503,9 @@ Decision: nothing at this check. 32 standing order(s) working.
   (dropped TSM: sold 14 min ago, cooling off)
   (dropped TSM: sold 15 min ago, cooling off)
   (dropped TSM: sold 15 min ago, cooling off)
+  (dropped TSM: sold 16 min ago, cooling off)
+- SELL 100% GOOGL [time stop] -> $2178.13 (+0.19%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $1736.18 (-0.17%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $1737.04 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 14:09 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (dropped TSM: sold 17 min ago, cooling off)

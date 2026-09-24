@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-24T14:05-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-24T14:09-04:00",
+ "note": "tick: 3 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "e70b221a",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 448.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 448.03,
+   "pct_away": -0.01,
+   "good_until": "2026-09-24",
+   "why": "avoid chasing 99.6% of range, wait for small pullback",
+   "signals": [
+    "momentum",
+    "congress"
+   ]
+  },
+  {
    "id": "2ae78174",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -146,8 +163,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 447.4,
-   "pct_away": -0.04,
+   "last": 448.03,
+   "pct_away": -0.18,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $447.21. Congress buy pressure plus positive momentum, cooldown cleared",
    "signals": [
@@ -157,38 +174,20 @@
    ]
   },
   {
-   "id": "e70b221a",
-   "ticker": "TSM",
+   "id": "e796bb95",
+   "ticker": "NVDA",
    "kind": "buy_limit",
-   "price": 448.0,
-   "usd": 1500.0,
+   "price": 223.0374,
+   "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 447.4,
-   "pct_away": 0.13,
+   "last": 223.7,
+   "pct_away": -0.3,
    "good_until": "2026-09-24",
-   "why": "avoid chasing 99.6% of range, wait for small pullback",
-   "signals": [
-    "momentum",
-    "congress"
-   ]
-  },
-  {
-   "id": "d57a0cc5",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 615.586,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 616.97,
-   "pct_away": -0.22,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $615.59. Strong multi-timeframe momentum in the best-performing sector, adding size while below min_positions",
+   "why": "wanted it, but not at the high \u2014 resting at $223.04. Semis momentum continuing, add diversification to AI hardware theme",
    "signals": [
     "momentum",
     "news",
-    "track_record",
     "patience"
    ]
   },
@@ -200,8 +199,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 146.94,
-   "pct_away": -0.24,
+   "last": 147.23,
+   "pct_away": -0.44,
    "good_until": "2026-09-25",
    "why": "strong month, weak day: resting 0.55% under $147.39 to catch the dip",
    "signals": [
@@ -210,55 +209,22 @@
    ]
   },
   {
-   "id": "e796bb95",
-   "ticker": "NVDA",
+   "id": "d57a0cc5",
+   "ticker": "AMD",
    "kind": "buy_limit",
-   "price": 223.0374,
-   "usd": 2000.0,
+   "price": 615.586,
+   "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 223.57,
-   "pct_away": -0.24,
+   "last": 618.55,
+   "pct_away": -0.48,
    "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $223.04. Semis momentum continuing, add diversification to AI hardware theme",
+   "why": "wanted it, but not at the high \u2014 resting at $615.59. Strong multi-timeframe momentum in the best-performing sector, adding size while below min_positions",
    "signals": [
     "momentum",
     "news",
+    "track_record",
     "patience"
-   ]
-  },
-  {
-   "id": "21ee7dee",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 342.5475,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 341.54,
-   "pct_away": 0.29,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "34355a6b",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 224.5201,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 223.57,
-   "pct_away": 0.42,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -269,8 +235,8 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.54,
-   "pct_away": -0.45,
+   "last": 342.27,
+   "pct_away": -0.66,
    "good_until": "2026-09-24",
    "why": "catch GOOGL on minor pullback once cooldown clears",
    "signals": [
@@ -286,14 +252,48 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.54,
-   "pct_away": -0.48,
+   "last": 342.27,
+   "pct_away": -0.69,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $339.91. Widely_held momentum name with fresh partnership news",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "44610dde",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 334.8636,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 337.24,
+   "pct_away": -0.7,
+   "good_until": "2026-09-25",
+   "why": "strong month, weak day: resting 0.44% under $336.33 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "31e6fa58",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 222.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 223.7,
+   "pct_away": -0.76,
+   "good_until": "2026-09-24",
+   "why": "buy the dip near session low once cooldown clears",
+   "signals": [
+    "momentum",
+    "news"
    ]
   },
   {
@@ -304,8 +304,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.21,
-   "pct_away": -0.53,
+   "last": 249.79,
+   "pct_away": -0.77,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $247.88. Diversify into widely_held bucket, not yet held, no cooldown",
    "signals": [
@@ -322,31 +322,14 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 616.97,
-   "pct_away": -0.58,
+   "last": 618.55,
+   "pct_away": -0.84,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $613.37. Strong multi-timeframe momentum in widely_held best sector, cooldown recently ended history of prior gains",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "44610dde",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 334.8636,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 336.97,
-   "pct_away": -0.63,
-   "good_until": "2026-09-25",
-   "why": "strong month, weak day: resting 0.44% under $336.33 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -357,62 +340,10 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.21,
-   "pct_away": -0.65,
+   "last": 249.79,
+   "pct_away": -0.88,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $247.59. add widely_held diversification, best realized sector bucket",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "31e6fa58",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 222.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 223.57,
-   "pct_away": -0.7,
-   "good_until": "2026-09-24",
-   "why": "buy the dip near session low once cooldown clears",
-   "signals": [
-    "momentum",
-    "news"
-   ]
-  },
-  {
-   "id": "b45b236f",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 193.2478,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 191.86,
-   "pct_away": 0.72,
-   "good_until": "2026-09-29",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "af272fca",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 760.1902,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 770.71,
-   "pct_away": -1.36,
-   "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $760.19. Strong multi-timeframe momentum plus fresh AI product news; widely_held is best realized sector (avg_ret 3.28%, n=320)",
    "signals": [
     "momentum",
     "news",
@@ -427,8 +358,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 268.71,
-   "pct_away": -1.6,
+   "last": 268.67,
+   "pct_away": -1.59,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $264.40. Small-cap infra name with congressional buying interest and positive daily momentum; diversifies away from tech/retail names already held",
    "signals": [
@@ -438,17 +369,17 @@
    ]
   },
   {
-   "id": "b2802822",
+   "id": "af272fca",
    "ticker": "META",
    "kind": "buy_limit",
-   "price": 758.3477,
-   "usd": 3500.0,
+   "price": 760.1902,
+   "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 770.71,
-   "pct_away": -1.6,
+   "last": 772.51,
+   "pct_away": -1.59,
    "good_until": "2026-09-24",
-   "why": "wanted it, but not at the high \u2014 resting at $758.35. Strong momentum + news catalyst, widely_held is top realized sector",
+   "why": "wanted it, but not at the high \u2014 resting at $760.19. Strong multi-timeframe momentum plus fresh AI product news; widely_held is best realized sector (avg_ret 3.28%, n=320)",
    "signals": [
     "momentum",
     "news",
@@ -463,8 +394,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 268.71,
-   "pct_away": -1.79,
+   "last": 268.67,
+   "pct_away": -1.77,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $263.91. Congressional buying pressure plus infrastructure theme catalyst",
    "signals": [
@@ -474,19 +405,21 @@
    ]
   },
   {
-   "id": "24edf809",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 335.0,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "b2802822",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 758.3477,
+   "usd": 3500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 341.54,
-   "pct_away": -1.91,
+   "last": 772.51,
+   "pct_away": -1.83,
    "good_until": "2026-09-24",
-   "why": "Protective stop on new GOOGL position",
+   "why": "wanted it, but not at the high \u2014 resting at $758.35. Strong momentum + news catalyst, widely_held is top realized sector",
    "signals": [
-    "risk_management"
+    "momentum",
+    "news",
+    "patience"
    ]
   },
   {
@@ -497,97 +430,14 @@
    "usd": 2800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 770.71,
-   "pct_away": -2.1,
+   "last": 772.51,
+   "pct_away": -2.32,
    "good_until": "2026-09-24",
    "why": "wanted it, but not at the high \u2014 resting at $754.55. Strong momentum + positive AI narrative, not yet held, adds diversification away from GOOGL/AVGO tech concentration",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "932cfa8a",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 186.7929,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 191.86,
-   "pct_away": -2.64,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0a889294",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 217.2024,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 223.57,
-   "pct_away": -2.85,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f7627a8b",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 217.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 223.57,
-   "pct_away": -2.94,
-   "good_until": "2026-09-24",
-   "why": "Protective stop on new NVDA position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "5e6f8e31",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 331.2938,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 341.54,
-   "pct_away": -3.0,
-   "good_until": "2026-09-29",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3e5ab6a0",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 186.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 191.86,
-   "pct_away": -3.05,
-   "good_until": "2026-09-24",
-   "why": "Protective stop on new PLTR position",
-   "signals": [
-    "risk_management"
    ]
   }
  ],

@@ -1,13 +1,3 @@
-- SELL 100% HD [time stop] -> $1993.11 (-0.34%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 11:21 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 11:22 ET (Thursday) — week 2026-W39 — budget left $15931.41 (today $94219.75 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
 brain: Only 4 positions held vs min_positions=8, cash_idle_pct 63.7% is high - need to deploy toward target count with concrete evidence. TSM is in cooldown (28min left) so I skipped buying it and substituted PLD/IBP for sector diversification (real estate, congress-backed industrials) plus AMD/CRWD for widely_held tech momentum with mid-range entries to avoid chasing. All new buys get protective stops per risk_management signal which has the best hit rate (0.87) in track record.
 lesson: Don't propose a buy order for a ticker in cooling_off (TSM had 28min left) - check cooling_off_minutes_left list explicitly before finalizing each order, not just for the flagged ones.
   (dropped TSM: sold 18 min ago, cooling off)
@@ -398,3 +388,13 @@ Decision: nothing at this check. 32 standing order(s) working.
 - SELL 100% SPY [stop_loss @ $766.33] -> $1499.97 (-0.00%) — close it all at -0.2% under the average cost
   (dropped TSM: sold 12 min ago, cooling off)
 ## 2026-09-24 14:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped TSM: sold 13 min ago, cooling off)
+  (dropped TSM: sold 13 min ago, cooling off)
+  (dropped TSM: sold 14 min ago, cooling off)
+  (dropped TSM: sold 15 min ago, cooling off)
+  (dropped TSM: sold 15 min ago, cooling off)
+  (dropped TSM: sold 16 min ago, cooling off)
+- SELL 100% GOOGL [time stop] -> $2178.13 (+0.19%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $1736.18 (-0.17%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $1737.04 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 14:09 ET — tick — 3 sell(s), 0 buy(s) from standing orders
