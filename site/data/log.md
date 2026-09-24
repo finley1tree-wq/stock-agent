@@ -1,34 +1,3 @@
-Done: 0 sell(s), 6 buy(s); 26 order(s) working; budget left $5010.63 this week
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $517.38] -> $3007.22 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-24 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% CHRW [time stop] -> $1987.46 (-0.63%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 10:51 ET (Thursday) — week 2026-W39 — budget left $10005.31 (today $79219.75 put to work, 27 buys, 22 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-brain: Book is at 5 positions vs min 8, with 40% idle cash - below target and cash idle per guardrails. Adding OKLO, CCJ (nuclear, both near day lows, sector has 87% historical hit rate) and HD (near day low with a balance-sheet-strength news catalyst) diversifies away from the current defense/tech-heavy book and gets closer to min_positions while each entry is near the low of its day range (respecting max_entry_range_pct).
-lesson: Adding names near day-range lows in underrepresented sectors (nuclear, retail) while below min_positions moves toward target count without chasing extended momentum names.
-- BUY $2000.00 OKLO [filled] ['momentum', 'news'] — add nuclear exposure at low point in range, diversify beyond RTX/LMT defense-only book | evidence: OKLO -14.3% 1m but nuclear theme intact per 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' (Zacks 9/22); low in day range at 14.6% pct_of_day_range, cheap entry
-- BUY $2000.00 CCJ [filled] ['momentum', 'news'] — nuclear sector has 87% hit rate in track record; buying near day low | evidence: CCJ at 15.8% of day range (near day low $88.20), 'Is the Options Market Predicting a Spike in Cameco Stock?' Zacks 9/24, nuclear sector track_record avg_ret_pct 0.14% hit_rate 0.87 in track_record.by_
-- BUY $2000.00 HD [filled] ['news', 'momentum'] — buying HD near day low after 13% monthly pullback with balance sheet strength narrative, adds retail/widely_held diversification (widely_held sector avg_ret 3.5% in track record) | evidence: HD at 1.6% of day range, essentially at day low $292.04; headline 'Home Depot's Real Story Isn't Housing, It's the Balance Sheet' TIKR 9/23 supports value case despite -13.42% 1m pullback
-~ WORKING stop_loss 100% OKLO @ $36.60 until 2026-09-24 — protective stop below day low
-~ WORKING stop_loss 100% CCJ @ $86.90 until 2026-09-24 — protective stop below day low
-~ WORKING stop_loss 100% HD @ $289.50 until 2026-09-24 — protective stop below day low
-~ WORKING take_profit 50% OKLO @ $38.90 until 2026-09-24 — take partial profit on bounce
-~ WORKING take_profit 50% CCJ @ $90.30 until 2026-09-24 — take partial profit near day high
-~ WORKING take_profit 50% HD @ $295.00 until 2026-09-24 — take partial profit on bounce
-~ WORKING take_profit 100% OKLO @ $38.24 until 2026-09-29 — close 100% at +0.7% over the average cost
-~ WORKING buy_limit $500.00 OKLO @ $36.82 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $88.97 until 2026-09-29 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $85.94 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $292.90 until 2026-09-29 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $283.44 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32895.17 (+31.58% on $25000.00 in) · cash $11916.96 · realised +7916.96
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $4005.31 this week
 - SELL 100% RTX [time stop] -> $2976.44 (-0.79%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +367,34 @@ portfolio: equity $32819.21 (+31.28% on $25000.00 in) · cash $24821.27 · reali
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $16909.62 this week
 - SELL 100% MSFT [time stop] -> $2496.63 (-0.13%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 13:39 ET (Thursday) — week 2026-W39 — budget left $19406.25 (today $146539.71 put to work, 60 buys, 57 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 positions held vs min_positions=8, cash_idle_pct=77.6%, and past lessons repeatedly flagged this exact pattern of trickling in 1-2 names per check while sitting on idle cash. Deploying into 5 widely_held names (best realized sector, avg_ret 3.25%) with concrete news/momentum catalysts and immediate protective stops, bringing the book to 8 positions.
+lesson: When below min_positions with high idle cash, deploy into 4-6 names in a single check across the best-performing sector rather than trickling in 1-2 - the repeated small-fill pattern was the root cause of staying under target count for hours.
+  (dropped META: 88% up today's range — resting a limit at $760.19 instead of chasing)
+- BUY $2173.91 AMZN [filled] ['momentum', 'news', 'track_record'] — Deploy into best-performing sector at reasonable entry, buy_limit orders already resting below market for better fills too | evidence: Widely_held sector realized avg_ret 3.25% n=322 (best sector); price 248.85, 78% of day range, off 1m -4.68% so not chasing a spike
+- BUY $2173.91 GOOGL [filled] ['momentum', 'congress', 'news'] — Widely_held name at $341.47, well off highs, adding diversification beyond TSM/CRWD/AVGO concentration | evidence: Rep. Thomas H. Kean and John W. Rose disclosed GOOGL sells recently but also Alphabet Drops Below $350 headline framed as buying opportunity; widely_held sector best realized bucket
+- BUY $1739.13 PLTR [filled] ['news', 'momentum'] — Defense/AI theme name with fresh bullish catalyst, not yet held, diversifies sector exposure | evidence: Motley Fool: 'Inside the $600 Billion Sovereign AI Gold Rush -- and Why Palantir Is Positioned to Win', +9.24% 5d momentum
+- BUY $1739.13 NVDA [filled] ['momentum', 'news'] — Semis/AI theme diversification, adds to existing AVGO/TSM chip exposure with independent catalyst | evidence: Motley Fool: 'I'm Buying More Nvidia Stock Right Now. Here's Why.' published today; widely_held sector
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger META buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% AMZN @ $244.00 until 2026-09-24 — Protective stop on new AMZN position
+~ WORKING stop_loss 100% GOOGL @ $335.00 until 2026-09-24 — Protective stop on new GOOGL position
+~ WORKING stop_loss 100% PLTR @ $186.00 until 2026-09-24 — Protective stop on new PLTR position
+~ WORKING stop_loss 100% NVDA @ $217.00 until 2026-09-24 — Protective stop on new NVDA position
+~ WORKING take_profit 100% AMZN @ $249.50 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $241.43 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $342.55 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $331.29 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $193.25 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $186.79 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $224.52 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $217.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32812.37 (+31.25% on $25000.00 in) · cash $19491.82 · realised +7817.90
+Done: 0 sell(s), 4 buy(s); 40 order(s) working; budget left $11580.17 this week

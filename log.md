@@ -16428,3 +16428,34 @@ portfolio: equity $32819.21 (+31.28% on $25000.00 in) · cash $24821.27 · reali
 Done: 0 sell(s), 3 buy(s); 31 order(s) working; budget left $16909.62 this week
 - SELL 100% MSFT [time stop] -> $2496.63 (-0.13%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-24 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 13:39 ET (Thursday) — week 2026-W39 — budget left $19406.25 (today $146539.71 put to work, 60 buys, 57 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+brain: Only 3 positions held vs min_positions=8, cash_idle_pct=77.6%, and past lessons repeatedly flagged this exact pattern of trickling in 1-2 names per check while sitting on idle cash. Deploying into 5 widely_held names (best realized sector, avg_ret 3.25%) with concrete news/momentum catalysts and immediate protective stops, bringing the book to 8 positions.
+lesson: When below min_positions with high idle cash, deploy into 4-6 names in a single check across the best-performing sector rather than trickling in 1-2 - the repeated small-fill pattern was the root cause of staying under target count for hours.
+  (dropped META: 88% up today's range — resting a limit at $760.19 instead of chasing)
+- BUY $2173.91 AMZN [filled] ['momentum', 'news', 'track_record'] — Deploy into best-performing sector at reasonable entry, buy_limit orders already resting below market for better fills too | evidence: Widely_held sector realized avg_ret 3.25% n=322 (best sector); price 248.85, 78% of day range, off 1m -4.68% so not chasing a spike
+- BUY $2173.91 GOOGL [filled] ['momentum', 'congress', 'news'] — Widely_held name at $341.47, well off highs, adding diversification beyond TSM/CRWD/AVGO concentration | evidence: Rep. Thomas H. Kean and John W. Rose disclosed GOOGL sells recently but also Alphabet Drops Below $350 headline framed as buying opportunity; widely_held sector best realized bucket
+- BUY $1739.13 PLTR [filled] ['news', 'momentum'] — Defense/AI theme name with fresh bullish catalyst, not yet held, diversifies sector exposure | evidence: Motley Fool: 'Inside the $600 Billion Sovereign AI Gold Rush -- and Why Palantir Is Positioned to Win', +9.24% 5d momentum
+- BUY $1739.13 NVDA [filled] ['momentum', 'news'] — Semis/AI theme diversification, adds to existing AVGO/TSM chip exposure with independent catalyst | evidence: Motley Fool: 'I'm Buying More Nvidia Stock Right Now. Here's Why.' published today; widely_held sector
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger META buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% AMZN @ $244.00 until 2026-09-24 — Protective stop on new AMZN position
+~ WORKING stop_loss 100% GOOGL @ $335.00 until 2026-09-24 — Protective stop on new GOOGL position
+~ WORKING stop_loss 100% PLTR @ $186.00 until 2026-09-24 — Protective stop on new PLTR position
+~ WORKING stop_loss 100% NVDA @ $217.00 until 2026-09-24 — Protective stop on new NVDA position
+~ WORKING take_profit 100% AMZN @ $249.50 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $241.43 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $342.55 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $331.29 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $193.25 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $186.79 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $224.52 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $217.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32812.37 (+31.25% on $25000.00 in) · cash $19491.82 · realised +7817.90
+Done: 0 sell(s), 4 buy(s); 40 order(s) working; budget left $11580.17 this week
