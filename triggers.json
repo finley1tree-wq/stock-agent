@@ -7253,7 +7253,7 @@
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 132.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 11:22",
    "created_ts": 1790263357,
    "why": "protective stop below day low",
@@ -7262,7 +7262,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c0f4f5d9",
@@ -7353,7 +7355,7 @@
    "ticker": "PLD",
    "kind": "take_profit",
    "price": 134.4375,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-24 11:22",
    "created_ts": 1790263357,
    "why": "close 100% at +0.2% over the average cost",
@@ -7363,14 +7365,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 11:34"
   },
   {
    "id": "d5575d47",
    "ticker": "PLD",
    "kind": "buy_limit",
    "price": 130.174,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 11:22",
    "created_ts": 1790263357,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7380,7 +7383,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 11:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0fc17c4b",
@@ -7434,5 +7439,5 @@
    "usd": 1000.0
   }
  ],
- "updated": "2026-09-24 11:25"
+ "updated": "2026-09-24 11:34"
 }

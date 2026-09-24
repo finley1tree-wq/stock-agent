@@ -16133,3 +16133,6 @@ Done: 0 sell(s), 4 buy(s); 29 order(s) working; budget left $9431.41 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $338.97] -> $2507.29 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-24 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $134.44] -> $1589.98 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-09-24 11:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders

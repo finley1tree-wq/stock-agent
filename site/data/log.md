@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% CHRW @ $148.70 until 2026-09-23 — protect sole position into close, existing auto_bracket stop stands
-portfolio: equity $32841.95 (+31.37% on $25000.00 in) · cash $30741.95 · realised +7841.95
-Decision: nothing at this check. 21 standing order(s) working.
 - BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
 ## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (cancelled 19 resting buy order(s): inside the last max_hold_minutes of the session)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 4 buy(s); 29 order(s) working; budget left $9431.41 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $338.97] -> $2507.29 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-24 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $134.44] -> $1589.98 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-09-24 11:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
