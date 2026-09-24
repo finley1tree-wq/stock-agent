@@ -1,28 +1,3 @@
-~ WORKING stop_loss 100% GOOGL @ $331.30 until 2026-09-23 — Cap downside on GOOGL entry near day low
-~ WORKING stop_loss 100% AMZN @ $243.30 until 2026-09-23 — Cap downside on AMZN entry
-~ WORKING stop_loss 100% TSM @ $437.00 until 2026-09-23 — Protective stop for TSM
-~ WORKING stop_loss 100% AVGO @ $347.50 until 2026-09-23 — Protective stop for AVGO
-~ WORKING stop_loss 100% NOC @ $504.00 until 2026-09-23 — Protective stop for NOC
-~ WORKING stop_loss 100% UNH @ $362.00 until 2026-09-23 — Protective stop for UNH
-~ WORKING take_profit 100% GOOGL @ $339.12 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $328.00 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMZN @ $248.95 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AMZN @ $240.89 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $447.12 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $432.63 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $355.98 until 2026-09-28 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $344.09 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $517.45 until 2026-09-28 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 NOC @ $500.68 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $371.54 until 2026-09-28 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $359.30 until 2026-09-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AMD @ $607.50 until 2026-09-24 — strong month, weak day: resting 0.86% under $612.78 to catch the dip
-~ WORKING buy_limit $1000.00 SPY @ $765.88 until 2026-09-24 — strong month, weak day: resting 0.20% under $767.41 to catch the dip
-portfolio: equity $32860.26 (+31.44% on $25000.00 in) · cash $17372.87 · realised +7872.87
-Done: 0 sell(s), 6 buy(s); 35 order(s) working; budget left $9474.81 this week
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $339.12] -> $3008.75 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-09-23 13:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 3 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $447.12] -> $2004.96 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-23 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +373,28 @@ Done: 0 sell(s), 4 buy(s); 28 order(s) working; budget left $5494.94 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $339.23] -> $4011.63 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-09-24 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% O [time stop] -> $2983.05 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 10:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 10:19 ET (Thursday) — week 2026-W39 — budget left $15494.00 (today $56419.75 put to work, 19 buys, 14 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Only 5 of 8 target positions held with 62% cash idle - below_target_position_count is true and this is graded as a decision. Adding META (fresh AI news catalyst, not yet held), CRWD (highest-scored congress buyer plus news momentum, cooling off expires imminently), GOOGL (best-performing sector per track_record), and CHRW (top congress buy-pressure score of any ticker) to reach 9 positions with concrete evidence behind each, sized $2-2.8k per the owner's guidance for real positions.
+lesson: Below-target position count with high idle cash should be filled immediately using concrete distinct evidence per name (congress score, news catalyst, sector track record) rather than waiting on resting limits alone.
+  (dropped CRWD: sold 44 min ago, cooling off)
+  (dropped GOOGL: sold 11 min ago, cooling off)
+- BUY $2800.00 META [filled] ['momentum', 'news'] — Strong momentum name not yet held, diversifies away from chip-heavy book; cancel resting limit and take at market since range is mid (83%) but trend is strong | evidence: META +2.53% today, 33.84% 1m momentum, Yahoo Finance headline on Muse AI launch driving positive sentiment
+- BUY $2000.00 CHRW [filled] ['congress', 'momentum'] — Highest congress net buy pressure score on the list, resting buy_limit already working at 148, adding market order for immediate exposure | evidence: Rep. April McClain Delaney multiple disclosed buys in CHRW; congress_net_buy_pressure CHRW=3.0 (highest on list)
+  (dropped trigger CRWD stop_loss: not held)
+~ WORKING stop_loss 100% META @ $747.70 until 2026-09-24 — protective stop just below intraday support
+~ WORKING stop_loss 100% CHRW @ $147.50 until 2026-09-24 — protective stop below today's low
+~ WORKING take_profit 100% META @ $766.12 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 META @ $740.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $150.23 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $145.32 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32906.09 (+31.62% on $25000.00 in) · cash $18605.66 · realised +7925.41
+Done: 0 sell(s), 2 buy(s); 25 order(s) working; budget left $10694.00 this week

@@ -1,117 +1,6 @@
 {
  "orders": [
   {
-   "id": "4af2900b",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 351.0,
-   "status": "cancelled",
-   "created": "2026-09-23 09:47",
-   "created_ts": 1790171272,
-   "why": "Protective stop",
-   "evidence": "AVGO ATR 3.087%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 10:18",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3685aa17",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 500.0,
-   "status": "cancelled",
-   "created": "2026-09-23 09:47",
-   "created_ts": 1790171272,
-   "why": "Protective stop",
-   "evidence": "NOC ATR 2.269%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 09:55",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6fde0af6",
-   "ticker": "OKLO",
-   "kind": "stop_loss",
-   "price": 37.5,
-   "status": "cancelled",
-   "created": "2026-09-23 09:47",
-   "created_ts": 1790171272,
-   "why": "Protective stop",
-   "evidence": "OKLO ATR 6.261%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 10:00",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4475dccc",
-   "ticker": "IBP",
-   "kind": "stop_loss",
-   "price": 202.0,
-   "status": "cancelled",
-   "created": "2026-09-23 09:47",
-   "created_ts": 1790171272,
-   "why": "Protective stop",
-   "evidence": "IBP ATR 4.714%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 10:17",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7081a784",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 188.659,
-   "status": "filled",
-   "created": "2026-09-23 09:47",
-   "created_ts": 1790171272,
-   "why": "wanted it, but not at the high \u2014 resting at $188.66. Strong momentum plus fresh bullish catalyst news, widely_held-adjacent defense/tech theme performing best in track record",
-   "evidence": "PLTR +5.26% 1d, +11.69% 5d, headline 'Palantir Could Be a Major Winner as Air Traffic Control Goes AI' (Barrons 09-23)",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 3000.0,
-   "closed": "2026-09-23 10:08"
-  },
-  {
-   "id": "e21f9d51",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 455.1325,
-   "status": "cancelled",
-   "created": "2026-09-23 09:47",
-   "created_ts": 1790171272,
-   "why": "wanted it, but not at the high \u2014 resting at $455.13. Highest congress buy pressure score in list plus positive momentum",
-   "evidence": "Congress net buy pressure score 3.0 for HUBB via April McClain Delaney disclosed buys; HUBB +4.0% 5d",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 2000.0,
-   "closed": "2026-09-23 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "848eb3f2",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -6829,7 +6718,7 @@
    "ticker": "O",
    "kind": "stop_loss",
    "price": 54.2,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "protective stop",
@@ -6838,7 +6727,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:18",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9561dd44",
@@ -7012,7 +6903,7 @@
    "ticker": "O",
    "kind": "take_profit",
    "price": 55.7457,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "close 100% at +0.2% over the average cost",
@@ -7022,14 +6913,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-24 10:18",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cf870ab4",
    "ticker": "O",
    "kind": "buy_limit",
    "price": 53.9708,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-24 09:48",
    "created_ts": 1790257687,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7039,7 +6932,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-29",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-24 10:18",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cc33f22c",
@@ -7438,7 +7333,107 @@
    ],
    "good_until": "2026-09-29",
    "usd": 500.0
+  },
+  {
+   "id": "b6da622c",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 747.7,
+   "status": "working",
+   "created": "2026-09-24 10:19",
+   "created_ts": 1790259554,
+   "why": "protective stop just below intraday support",
+   "evidence": "day_low 743.0, ATR 3.58%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "72ca930e",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 147.5,
+   "status": "working",
+   "created": "2026-09-24 10:19",
+   "created_ts": 1790259554,
+   "why": "protective stop below today's low",
+   "evidence": "day_low 148.26, ATR 2.53%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3ec1afc2",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 766.1195,
+   "status": "working",
+   "created": "2026-09-24 10:19",
+   "created_ts": 1790259554,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $763.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b734c3b6",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 740.1973,
+   "status": "working",
+   "created": "2026-09-24 10:19",
+   "created_ts": 1790259554,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $763.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
+  },
+  {
+   "id": "8456e13a",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 150.2295,
+   "status": "working",
+   "created": "2026-09-24 10:19",
+   "created_ts": 1790259554,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $149.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8787c8a9",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 145.3157,
+   "status": "working",
+   "created": "2026-09-24 10:19",
+   "created_ts": 1790259554,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-24 10:09"
+ "updated": "2026-09-24 10:19"
 }
