@@ -1,42 +1,3 @@
-- BUY $2200.00 RTX [buy_limit @ $192.99] — wanted it, but not at the high — resting at $192.99. Defense momentum name not cooling off, diversifies book away from tech; buy near current levels since range is high but story is fresh
-## 2026-09-23 15:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 19 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 2 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% CHRW [time stop] -> $2098.32 (-0.08%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-23 15:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
@@ -398,3 +359,42 @@ Done: 0 sell(s), 4 buy(s); 29 order(s) working; budget left $9431.41 this week
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [take_profit @ $134.44] -> $1589.98 (+0.17%) — close 100% at +0.2% over the average cost
 ## 2026-09-24 11:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% NLR [time stop] -> $2487.94 (-0.48%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $1997.69 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+- SELL SKWD [rejected_no_price]
+## 2026-09-24 11:37 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+- SELL 100% SKWD [time stop] -> $1988.40 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-24 11:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-24 11:38 ET (Thursday) — week 2026-W39 — budget left $20002.71 (today $100719.75 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
+  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
+brain: Still well below min_positions (3 of 8) with 80% cash idle - counterfactual data shows idle sitting out has cost (idle_universe_avg_pct positive). Adding names in underrepresented sectors (gold) and top congress-scored tickers (LTH, CHRW, HUBB all at score 3.0 from Rep. McClain Delaney disclosed buys) near day-range lows, sized at $1,500-2,000 each to reach closer to target count while respecting TSM cooldown.
+lesson: Congress-score-3.0 names (CHRW/HUBB/LTH via April McClain Delaney) haven't been tested yet this session - track whether they outperform the widely_held picks that regretted negatively today.
+  (dropped TSM: sold 33 min ago, cooling off)
+- BUY $2000.00 NEM [filled] ['momentum', 'news'] — Gold pullback near day low, buying the dip in a sector with recent strength | evidence: NEM at 7.9% of day range, price 120.21, -2.7% today - Zacks headline on record FCF momentum, gold sector had strong recent months
+- BUY $1500.00 GLD [filled] ['momentum', 'news'] — Diversify into gold on weakness after a record month | evidence: GLD -0.8% today at 22.4% of day range; etf.com: 'Gold ETFs Just Had Their 2nd-Biggest Month Ever'
+- BUY $1500.00 LTH [filled] ['congress'] — Congress buy pressure top score, sitting at day low | evidence: congress_net_buy_pressure LTH=3.0 (Rep April McClain Delaney disclosed multiple buys 2026-09-09), at 0.5% of day range (day low)
+- BUY $1500.00 CHRW [filled] ['congress'] — Highest congress score name, near day low entry | evidence: congress_net_buy_pressure CHRW=3.0, April McClain Delaney buys disclosed 2026-09-09, price at 6.8% of day range
+- BUY $1500.00 HUBB [filled] ['congress', 'news'] — Top congress score, data-center demand tailwind headline | evidence: congress_net_buy_pressure HUBB=3.0; headline 'Hubbell (HUBB) Faces A Valuation Test' but backlog-driven data center demand signal noted
+~ WORKING stop_loss 100% NEM @ $117.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% GLD @ $386.00 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% LTH @ $38.60 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% CHRW @ $145.70 until 2026-09-24 — protective stop below day low
+~ WORKING stop_loss 100% HUBB @ $452.00 until 2026-09-24 — protective stop below day low
+~ WORKING take_profit 100% NEM @ $120.71 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $116.65 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GLD @ $390.57 until 2026-09-29 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GLD @ $378.12 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LTH @ $39.62 until 2026-09-29 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 LTH @ $38.29 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $148.80 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $143.93 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $463.25 until 2026-09-29 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $448.07 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32817.53 (+31.27% on $25000.00 in) · cash $19914.37 · realised +7827.16
+Done: 0 sell(s), 5 buy(s); 29 order(s) working; budget left $12002.71 this week

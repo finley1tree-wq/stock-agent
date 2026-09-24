@@ -111,3 +111,4 @@
 - 2026-09-24 (6d graded, realised 0.46% per dollar): Adding names near day-range lows in underrepresented sectors (nuclear, retail) while below min_positions moves toward target count without chasing extended momentum names.
 - 2026-09-24 (6d graded, realised 0.46% per dollar): Keep filling toward min_positions with mid-range entries and immediate stops rather than waiting; track whether NLR/SKWD add value versus GOOGL/UNH widely_held picks.
 - 2026-09-24 (6d graded, realised 0.45% per dollar): Don't propose a buy order for a ticker in cooling_off (TSM had 28min left) - check cooling_off_minutes_left list explicitly before finalizing each order, not just for the flagged ones.
+- 2026-09-24 (6d graded, realised 0.45% per dollar): Congress-score-3.0 names (CHRW/HUBB/LTH via April McClain Delaney) haven't been tested yet this session - track whether they outperform the widely_held picks that regretted negatively today.
