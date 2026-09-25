@@ -18548,3 +18548,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32827.45 (+31.31% on $25000.00 in) · cash $17827.56 · realised +7827.56
 Decision: nothing at this check. 17 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% PLTR [time stop] -> $2996.45 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $2995.86 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 15:20 ET — tick — 2 sell(s), 0 buy(s) from standing orders

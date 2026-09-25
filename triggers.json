@@ -1,42 +1,6 @@
 {
  "orders": [
   {
-   "id": "3aa9c0cb",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 505.6,
-   "status": "cancelled",
-   "created": "2026-09-24 10:35",
-   "created_ts": 1790260515,
-   "why": "protective stop below recent range",
-   "evidence": "NOC day_low 513.3, ATR 2.16%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 10:48",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b7496450",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 189.0,
-   "status": "cancelled",
-   "created": "2026-09-24 10:35",
-   "created_ts": 1790260515,
-   "why": "protective stop below today's low",
-   "evidence": "RTX day_low 191.54, ATR 1.7%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 11:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "78dab97b",
    "ticker": "LMT",
    "kind": "stop_loss",
@@ -7226,7 +7190,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 192.0474,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 14:50",
    "created_ts": 1790362233,
    "why": "close 100% at +0.3% over the average cost",
@@ -7236,14 +7200,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:20",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "06014173",
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 189.8156,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 14:50",
    "created_ts": 1790362233,
    "why": "close it all at -0.8% under the average cost",
@@ -7253,14 +7219,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:20",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5e3e9db6",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 185.6677,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 14:50",
    "created_ts": 1790362233,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7270,14 +7238,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 15:20",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "23aa8fea",
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 224.7383,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 14:50",
    "created_ts": 1790362233,
    "why": "close 100% at +0.3% over the average cost",
@@ -7287,14 +7257,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:20",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ec2ea9f0",
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 222.7119,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 14:50",
    "created_ts": 1790362233,
    "why": "close it all at -0.6% under the average cost",
@@ -7304,14 +7276,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:20",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "214fc7d4",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 217.4352,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 14:50",
    "created_ts": 1790362233,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7321,7 +7295,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 15:20",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "14af9d8b",
@@ -7379,7 +7355,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 517.1525,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:13",
    "created_ts": 1790363589,
    "why": "close 100% at +0.2% over the average cost",
@@ -7389,7 +7365,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:19",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5445a701",
@@ -7475,7 +7453,43 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "32d139b5",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 541.737,
+   "status": "cancelled",
+   "created": "2026-09-25 15:19",
+   "created_ts": 1790363968,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $515.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:20",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "7306ca5d",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 517.1525,
+   "status": "working",
+   "created": "2026-09-25 15:20",
+   "created_ts": 1790364014,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $515.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 15:18"
+ "updated": "2026-09-25 15:20"
 }
