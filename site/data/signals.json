@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-25T10:31-04:00",
+ "asOf": "2026-09-25T10:32-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "b01730f6",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 344.115,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 342.4,
-   "pct_away": 0.5,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b2a7ab68",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 340.6289,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 342.4,
-   "pct_away": -0.52,
-   "good_until": "2026-09-30",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "ac48daa3",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -180,31 +146,14 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 513.47,
-   "pct_away": -2.31,
+   "last": 513.94,
+   "pct_away": -2.4,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "8339aa1b",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 332.8264,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 342.4,
-   "pct_away": -2.8,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],

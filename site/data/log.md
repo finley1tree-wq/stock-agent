@@ -1,19 +1,3 @@
-  (dropped GOOGL: sold 3 min ago, cooling off)
-  (dropped CRWD: sold 19 min ago, cooling off)
-  (dropped NVDA: sold 3 min ago, cooling off)
-  (dropped TSM: sold 19 min ago, cooling off)
-  (dropped META: 99% up today's range — resting a limit at $760.19 instead of chasing)
-- BUY $3000.00 AMD [filled] ['momentum', 'news', 'track_record'] — Strongest 1-month momentum in allowed widely_held list, semis theme intact per Nebius/BNP price target headline | evidence: AMD +0.74% 1d, +13.6% 5d, +29.2% 1m; track_record shows widely_held sector avg_ret 3.22% with n=325 the best bucket
-- BUY $2500.00 AMAT [filled] ['congress', 'news'] — Congress buy pressure score 2.0 plus fresh bullish AI-demand headline, semis equipment name diversifies from pure chip plays | evidence: Josh Gottheimer disclosed AMAT buy 2026-09-14 ($1,001-$15,000), headline 'Applied Materials Continues to Benefit from Surging AI-Driven Demand' 2026-09-24
-- BUY $1500.00 ESE [filled] ['congress', 'news'] — Small diversifying infra name with congress interest and positive daily momentum, complements resting limits already in place | evidence: ESE +0.93% 1d, headline '3 Stocks Riding The Push To Protect Undersea Cables And Seabed Infrastructure' 2026-09-19, congress buy pressure score 2.0
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger META buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% AMD @ $605.00 until 2026-09-24 — Protective stop ~2.3% below entry
-~ WORKING stop_loss 100% AMAT @ $460.00 until 2026-09-24 — Protective stop ~2.1% below entry
 ~ WORKING stop_loss 100% ESE @ $263.00 until 2026-09-24 — Protective stop ~2.1% below entry
 ~ WORKING take_profit 100% AMD @ $622.27 until 2026-09-29 — close 100% at +0.5% over the average cost
 ~ WORKING buy_limit $500.00 AMD @ $600.72 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +382,19 @@ Decision: nothing at this check. 11 standing order(s) working.
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [stop_loss @ $191.30] -> $3002.58 (+0.09%) — close it all at -0.8% under the average cost
 ## 2026-09-25 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 10:31 ET (Friday) — week 2026-W39 — budget left $21926.55 (today $42346.78 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQKXE7S6sok6xDfVx52R'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32831.02 (+31.32% on $25000.00 in) · cash $29838.18 · realised +7838.18
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GOOGL [time stop] -> $2992.77 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
