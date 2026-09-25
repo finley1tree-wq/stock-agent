@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "509205d9",
-   "ticker": "IBP",
-   "kind": "buy_limit",
-   "price": 197.201,
-   "status": "cancelled",
-   "created": "2026-09-24 10:03",
-   "created_ts": 1790258590,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $203.3",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 10:33",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b6da622c",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 747.7,
-   "status": "cancelled",
-   "created": "2026-09-24 10:19",
-   "created_ts": 1790259554,
-   "why": "protective stop just below intraday support",
-   "evidence": "day_low 743.0, ATR 3.58%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 10:22",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "72ca930e",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 147.5,
-   "status": "cancelled",
-   "created": "2026-09-24 10:19",
-   "created_ts": 1790259554,
-   "why": "protective stop below today's low",
-   "evidence": "day_low 148.26, ATR 2.53%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 10:49",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "3ec1afc2",
    "ticker": "META",
    "kind": "take_profit",
@@ -7472,7 +7417,58 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "14af9d8b",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 345.1715,
+   "status": "working",
+   "created": "2026-09-25 14:53",
+   "created_ts": 1790362410,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $344.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cd25578b",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 341.661,
+   "status": "working",
+   "created": "2026-09-25 14:53",
+   "created_ts": 1790362410,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $344.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "78326f53",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 333.8449,
+   "status": "working",
+   "created": "2026-09-25 14:53",
+   "created_ts": 1790362410,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $344.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-25 14:50"
+ "updated": "2026-09-25 14:53"
 }

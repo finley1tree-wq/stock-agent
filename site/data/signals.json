@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-25T14:50-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,934 idle, so opened 2: PLTR, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "asOf": "2026-09-25T14:53-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,934 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 451.49,
-   "pct_away": 0.22,
+   "last": 451.36,
+   "pct_away": 0.25,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,8 +163,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 224.12,
-   "pct_away": 0.28,
+   "last": 224.08,
+   "pct_away": 0.29,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "14af9d8b",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 345.1715,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 344.1,
+   "pct_away": 0.31,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -190,23 +207,6 @@
    ]
   },
   {
-   "id": "c8b13bdb",
-   "ticker": "AMAT",
-   "kind": "take_profit",
-   "price": 487.3992,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 485.06,
-   "pct_away": 0.48,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "3f554f6c",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -214,13 +214,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 770.79,
-   "pct_away": -0.51,
+   "last": 770.84,
+   "pct_away": -0.52,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.20% under $768.40 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "c8b13bdb",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 487.3992,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 484.47,
+   "pct_away": 0.6,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -231,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 224.12,
-   "pct_away": -0.63,
+   "last": 224.08,
+   "pct_away": -0.61,
    "good_until": "2026-09-30",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -248,10 +265,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 451.49,
-   "pct_away": -0.66,
+   "last": 451.36,
+   "pct_away": -0.63,
    "good_until": "2026-09-30",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cd25578b",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 341.661,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 344.1,
+   "pct_away": -0.71,
+   "good_until": "2026-09-30",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +299,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 254.42,
-   "pct_away": 0.72,
+   "last": 254.39,
+   "pct_away": 0.74,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -299,8 +333,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 485.06,
-   "pct_away": -0.97,
+   "last": 484.47,
+   "pct_away": -0.85,
    "good_until": "2026-09-30",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -316,8 +350,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 254.42,
-   "pct_away": -1.12,
+   "last": 254.39,
+   "pct_away": -1.11,
    "good_until": "2026-09-30",
    "why": "close it all at -1.3% under the average cost",
    "signals": [
@@ -333,8 +367,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 254.42,
-   "pct_away": -2.81,
+   "last": 254.39,
+   "pct_away": -2.8,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,8 +384,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 485.06,
-   "pct_away": -2.94,
+   "last": 484.47,
+   "pct_away": -2.82,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -367,14 +401,31 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 516.82,
-   "pct_away": -2.95,
+   "last": 516.45,
+   "pct_away": -2.88,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "214fc7d4",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 217.4352,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 224.08,
+   "pct_away": -2.97,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -395,14 +446,14 @@
    ]
   },
   {
-   "id": "214fc7d4",
-   "ticker": "NVDA",
+   "id": "78326f53",
+   "ticker": "GOOGL",
    "kind": "buy_limit",
-   "price": 217.4352,
+   "price": 333.8449,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 224.12,
+   "last": 344.1,
    "pct_away": -2.98,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -419,8 +470,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 451.49,
-   "pct_away": -3.03,
+   "last": 451.36,
+   "pct_away": -3.0,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -429,7 +480,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,934 idle, so opened 2: PLTR, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,934 idle, so opened 1: GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -492,13 +543,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 298,
+  "decisions_graded": 297,
   "decisions_with_buys_graded": 143,
   "independent_days_graded": 6,
   "avg_regret_pct": -0.38,
   "chosen_avg_pct": 0.67,
   "skipped_avg_pct": 0.29,
-  "idle_universe_avg_pct": 0.57,
+  "idle_universe_avg_pct": 0.58,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.03,
   "checks_that_bought_everything": 0,
@@ -609,7 +660,7 @@
     "n": 1
    }
   },
-  "idle_checks": 220,
+  "idle_checks": 219,
   "blocked_checks": 0,
   "idle_share": 0.55,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2107,9 +2158,9 @@
     "when": "2026-09-25T13:44"
    },
    {
-    "title": "Investing.com\u2019s stocks of the week",
-    "source": "Investing.com",
-    "when": "2026-09-25T18:30"
+    "title": "Is AMD Stock Priced Right Against Its Chip Peers?",
+    "source": "Trefis",
+    "when": "2026-09-25T18:34"
    }
   ],
   "AMZN": [
@@ -2131,14 +2182,14 @@
     "when": "2026-09-25T16:57"
    },
    {
+    "title": "Is AMD Stock Priced Right Against Its Chip Peers?",
+    "source": "Trefis",
+    "when": "2026-09-25T18:34"
+   },
+   {
     "title": "Marvell\u2019s 203% YTD Surge Sets High Bar but We See More Runway Ahead",
     "source": "24/7 Wall St.",
     "when": "2026-09-25T17:30"
-   },
-   {
-    "title": "What Does NVIDIA Offer That Texas Instruments Does Not?",
-    "source": "Trefis",
-    "when": "2026-09-25T14:27"
    }
   ],
   "CCJ": [
@@ -2662,5 +2713,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-25T14:50-04:00"
+ "signalsAsOf": "2026-09-25T14:53-04:00"
 }
