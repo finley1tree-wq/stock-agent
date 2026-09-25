@@ -1,5 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32835.72 (+31.34% on $25000.00 in) · cash $32835.72 · realised +7835.72
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $437.82 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32848.16 (+31.39% on $25000.00 in) · cash $23844.30 · realised +7844.30
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $15932.65 this week
+- SELL 100% META [time stop] -> $3006.64 (+0.22%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 13:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders

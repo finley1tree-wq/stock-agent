@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 9067.35,
+  "spent": 6060.71,
   "deployed": 753254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -29,7 +29,6 @@
     "CRWD": 42.84,
     "AMAT": 3031.64,
     "PLTR": 11.65,
-    "META": 3000.0,
     "TSM": 3000.0
   },
   "deployed_by_ticker": {
@@ -12070,13 +12069,33 @@
         "congress"
       ],
       "evidence": "1 member of congress bought (Rick W. Allen), $1,001 - $15,000; +8.0% over the month; 38% of today's range"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.001868,
+      "status": "filled",
+      "price": 751.31,
+      "proceeds": 3006.64,
+      "realized_pnl": 6.64,
+      "realized_pct": 0.22,
+      "date": "2026-09-25",
+      "time_et": "13:22",
+      "ts": 1790356972,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.24% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 9034.04,
+  "spent_today": 6027.4,
   "deployed_today": 117346.78,
   "orders_today": 40,
-  "sells_today": 37,
+  "sells_today": 38,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -12110,7 +12129,7 @@
     "AVGO": 1790343305,
     "UNH": 1790268950,
     "IBM": 1790276895,
-    "META": 1790352435,
+    "META": 1790356973,
     "GOOGL": 1790355123,
     "GLD": 1790266131,
     "AAPL": 1790356625,
@@ -12129,23 +12148,20 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790356881,
-  "last_check_ts": 1790356881,
+  "last_publish_ts": 1790356972,
+  "last_check_ts": 1790356972,
   "last_bar_ts": 1790356800,
   "last_decision_ts": 1790356881,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "18dc61a9": 752.9335,
     "b4469c86": 452.4929,
     "b456c3d5": 486.8871,
     "3f554f6c": 766.8632,
     "2c7ca6b6": 448.53,
     "4007f2e8": 479.8274,
-    "c1c2ff33": 741.4413,
     "ac48daa3": 501.59,
     "5d05c213": 470.3239,
-    "48e6d814": 437.8192,
-    "cee4647f": 727.1605
+    "48e6d814": 437.8192
   }
 }
