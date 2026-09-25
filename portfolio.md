@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-25 11:44 ET
+# Pretend portfolio — 2026-09-25 11:47 ET
 
-**Equity $32815.40** on $25000.00 put in → **+31.26%**  
-Cash $26826.45 · Unrealised -11.05 · Realised +7826.45
+**Equity $32813.80** on $25000.00 put in → **+31.26%**  
+Cash $26826.45 · Unrealised -12.65 · Realised +7826.45
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| AAPL | 9.1% | $2999.40 | $338.33 | $338.26 | -0.02% | 0d |
-| PLTR | 9.1% | $2989.55 | $191.81 | $191.14 | -0.35% | 0d |
+| AAPL | 9.1% | $3001.08 | $338.33 | $338.45 | +0.04% | 0d |
+| PLTR | 9.1% | $2986.26 | $191.81 | $190.93 | -0.46% | 0d |
 
 ## Last fills
 
