@@ -18060,3 +18060,19 @@ Decision: nothing at this check. 20 standing order(s) working.
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [stop_loss @ $255.62] -> $3003.70 (+0.12%) — close it all at -1.3% under the average cost
 ## 2026-09-25 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $2996.28 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 13:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 13:52 ET (Friday) — week 2026-W39 — budget left $12931.51 (today $132346.78 put to work, 45 buys, 41 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQaoW4KYaN1EWKcVZTbs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32842.61 (+31.37% on $25000.00 in) · cash $20843.17 · realised +7843.17
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

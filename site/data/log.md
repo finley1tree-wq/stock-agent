@@ -1,5 +1,3 @@
-## 2026-09-25 12:41 ET (Friday) — week 2026-W39 — budget left $12944.73 (today $102346.78 put to work, 35 buys, 31 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
@@ -398,3 +396,5 @@ Decision: nothing at this check. 20 standing order(s) working.
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [stop_loss @ $255.62] -> $3003.70 (+0.12%) — close it all at -1.3% under the average cost
 ## 2026-09-25 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $2996.28 (-0.12%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 13:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
