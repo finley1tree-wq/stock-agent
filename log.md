@@ -16725,3 +16725,41 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [take_profit @ $637.59] -> $4018.10 (+0.45%) — close 100% at +0.5% over the average cost
 ## 2026-09-25 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 10:02 ET (Friday) — week 2026-W39 — budget left $24966.69 (today $20000.00 put to work, 6 buys, 6 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQHHh24mMNCav46G7cxc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,967 idle, so opened 6: MSFT, AMAT, META, NVDA, GOOGL, AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +3.4% over the month; 78% of today's range
+- BUY $3000.00 AMAT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer, Jared Moskowitz), $1,001 - $15,000; +0.9% over the month; 74% of today's range
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +31.3% over the month; 27% of today's range
+- BUY $3000.00 NVDA [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.3% over the month; 17% of today's range
+- BUY $3000.00 GOOGL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +0.3% over the month; 21% of today's range
+- BUY $346.78 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.1% over the month; 50% of today's range
+~ WORKING take_profit 100% MSFT @ $514.41 until 2026-09-30 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $510.21 until 2026-09-30 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $497.81 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMAT @ $486.38 until 2026-09-30 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMAT @ $479.33 until 2026-09-30 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 AMAT @ $469.84 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $759.97 until 2026-09-30 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $748.63 until 2026-09-30 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 META @ $734.03 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $225.67 until 2026-09-30 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NVDA @ $223.68 until 2026-09-30 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 NVDA @ $218.35 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $344.12 until 2026-09-30 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $340.63 until 2026-09-30 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $332.83 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $336.45 until 2026-09-30 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% AAPL @ $333.94 until 2026-09-30 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $325.66 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 SPY @ $767.13 until 2026-09-26 — strong month, weak day: resting 0.20% under $768.67 to catch the dip
+portfolio: equity $32875.25 (+31.50% on $25000.00 in) · cash $17531.54 · realised +7878.32
+Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $9619.91 this week
