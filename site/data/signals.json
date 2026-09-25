@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-25T12:00-04:00",
+ "asOf": "2026-09-25T12:07-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,40 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6bc65cfb",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 748.838,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 749.87,
-   "pct_away": -0.14,
-   "good_until": "2026-09-30",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6bd8ebd3",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 751.0527,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 749.87,
-   "pct_away": 0.16,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "3f554f6c",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -180,8 +146,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 769.99,
-   "pct_away": -0.41,
+   "last": 771.65,
+   "pct_away": -0.62,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.20% under $768.40 to catch the dip",
    "signals": [
@@ -197,31 +163,14 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 514.6,
-   "pct_away": -2.53,
+   "last": 516.32,
+   "pct_away": -2.85,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "3766cdf9",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 725.3369,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 749.87,
-   "pct_away": -3.27,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],

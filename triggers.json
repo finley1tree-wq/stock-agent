@@ -7318,7 +7318,7 @@
    "ticker": "META",
    "kind": "take_profit",
    "price": 751.0527,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:50",
    "created_ts": 1790351409,
    "why": "close 100% at +0.4% over the average cost",
@@ -7328,7 +7328,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c08e95a5",
@@ -7354,7 +7356,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 725.3369,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:50",
    "created_ts": 1790351409,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7364,7 +7366,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 12:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3fd95a8d",
@@ -7390,7 +7394,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 748.838,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 11:55",
    "created_ts": 1790351755,
    "why": "close it all at -1.1% under the average cost",
@@ -7400,7 +7404,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:07"
   },
   {
    "id": "58c243e4",
@@ -7478,5 +7483,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-25 12:04"
+ "updated": "2026-09-25 12:07"
 }
