@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-25T13:02-04:00",
+ "asOf": "2026-09-25T13:14-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -139,23 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "abe7c9b5",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 339.454,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 339.63,
-   "pct_away": -0.05,
-   "good_until": "2026-09-30",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "64d3fc11",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -163,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 339.63,
-   "pct_away": 0.09,
+   "last": 339.7,
+   "pct_away": 0.07,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -173,17 +156,34 @@
    ]
   },
   {
-   "id": "18dc61a9",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 752.9335,
+   "id": "abe7c9b5",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 339.454,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 750.61,
-   "pct_away": 0.31,
+   "last": 339.7,
+   "pct_away": -0.07,
    "good_until": "2026-09-30",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "792b84af",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 630.604,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 631.22,
+   "pct_away": -0.1,
+   "good_until": "2026-09-30",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +197,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 629.78,
-   "pct_away": 0.45,
+   "last": 631.22,
+   "pct_away": 0.22,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "18dc61a9",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 752.9335,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 750.77,
+   "pct_away": 0.29,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -224,23 +241,6 @@
    ]
   },
   {
-   "id": "9e60ca04",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 622.4072,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 629.78,
-   "pct_away": -1.17,
-   "good_until": "2026-09-30",
-   "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "c1c2ff33",
    "ticker": "META",
    "kind": "stop_loss",
@@ -248,27 +248,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 750.61,
-   "pct_away": -1.22,
+   "last": 750.77,
+   "pct_away": -1.24,
    "good_until": "2026-09-30",
    "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "33084381",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 610.7896,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 629.78,
-   "pct_away": -3.02,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,8 +265,8 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.75,
-   "pct_away": -3.12,
+   "last": 516.94,
+   "pct_away": -2.97,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
@@ -300,8 +283,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 750.61,
-   "pct_away": -3.12,
+   "last": 750.77,
+   "pct_away": -3.14,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -317,8 +300,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 339.63,
-   "pct_away": -3.13,
+   "last": 339.7,
+   "pct_away": -3.15,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "33084381",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 610.7896,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 631.22,
+   "pct_away": -3.24,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "3796ac78",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 128.9477,
-   "status": "filled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "strong month, weak day: resting 0.65% under $129.79 to catch the dip",
-   "evidence": "+0.7% over the month, sitting at 0% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-25",
-   "usd": 1000.0,
-   "closed": "2026-09-24 09:37"
-  },
-  {
    "id": "ace523a8",
    "ticker": "IBM",
    "kind": "buy_limit",
@@ -7320,7 +7302,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 622.4072,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 12:47",
    "created_ts": 1790354836,
    "why": "close it all at -1.2% under the average cost",
@@ -7330,7 +7312,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 13:14",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "33084381",
@@ -7469,7 +7453,24 @@
    ],
    "good_until": "2026-09-30",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "792b84af",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 630.604,
+   "status": "working",
+   "created": "2026-09-25 13:14",
+   "created_ts": 1790356450,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $629.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 13:12"
+ "updated": "2026-09-25 13:14"
 }
