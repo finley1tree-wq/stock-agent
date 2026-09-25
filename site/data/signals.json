@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-25T11:50-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,901 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-09-25T11:56-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,901 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "3fd95a8d",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 338.57,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 338.72,
+   "pct_away": -0.04,
+   "good_until": "2026-09-30",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6bc65cfb",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 748.838,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 749.55,
+   "pct_away": -0.09,
+   "good_until": "2026-09-30",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "23ec9f10",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -146,10 +180,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 338.49,
-   "pct_away": 0.17,
+   "last": 338.72,
+   "pct_away": 0.1,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6bd8ebd3",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 751.0527,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 749.55,
+   "pct_away": 0.2,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -163,8 +214,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 768.32,
-   "pct_away": -0.19,
+   "last": 768.64,
+   "pct_away": -0.23,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.20% under $768.40 to catch the dip",
    "signals": [
@@ -173,51 +224,34 @@
    ]
   },
   {
-   "id": "6bd8ebd3",
-   "ticker": "META",
+   "id": "58c243e4",
+   "ticker": "AMD",
    "kind": "take_profit",
-   "price": 751.0527,
+   "price": 628.9611,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 747.62,
-   "pct_away": 0.46,
+   "last": 625.92,
+   "pct_away": 0.49,
    "good_until": "2026-09-30",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "3de885c9",
-   "ticker": "AAPL",
+   "id": "bcf16446",
+   "ticker": "AMD",
    "kind": "stop_loss",
-   "price": 336.4929,
+   "price": 618.7816,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 338.49,
-   "pct_away": -0.59,
+   "last": 625.92,
+   "pct_away": -1.14,
    "good_until": "2026-09-30",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c08e95a5",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 739.567,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 747.62,
-   "pct_away": -1.08,
-   "good_until": "2026-09-30",
-   "why": "close it all at -1.1% under the average cost",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,8 +265,8 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 513.91,
-   "pct_away": -2.4,
+   "last": 514.0,
+   "pct_away": -2.41,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
@@ -242,14 +276,14 @@
    ]
   },
   {
-   "id": "3766cdf9",
-   "ticker": "META",
+   "id": "237d23f2",
+   "ticker": "AMD",
    "kind": "buy_limit",
-   "price": 725.3369,
+   "price": 607.2685,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 747.62,
+   "last": 625.92,
    "pct_away": -2.98,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -266,8 +300,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 338.49,
-   "pct_away": -3.05,
+   "last": 338.72,
+   "pct_away": -3.11,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3766cdf9",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 725.3369,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 749.55,
+   "pct_away": -3.23,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -276,7 +327,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,901 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,901 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -339,7 +390,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 361,
+  "decisions_graded": 359,
   "decisions_with_buys_graded": 170,
   "independent_days_graded": 6,
   "avg_regret_pct": -0.38,
@@ -456,9 +507,9 @@
     "n": 1
    }
   },
-  "idle_checks": 210,
+  "idle_checks": 209,
   "blocked_checks": 0,
-  "idle_share": 0.53,
+  "idle_share": 0.52,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1798,19 +1849,14 @@
  "headlines": {
   "AAPL": [
    {
-    "title": "These are stocks getting lifted up by Meta's Muse",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-25T13:55"
+    "title": "Over 30 CEOs scored an invite to the US-China state dinner \u2014 and these 4 got a spot at the head table",
+    "source": "Yahoo Finance",
+    "when": "2026-09-25T13:44"
    },
    {
-    "title": "If You Invest $15,000 Into These 3 Stocks, You Could Have $30,000 In 2030",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T15:00"
-   },
-   {
-    "title": "Nvidia, AMD Love This High-Tech Facilitator. So Does Wall Street.",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-25T14:47"
+    "title": "The \"Magnificent Seven\" Stocks: Here's the 1 I'm Buying Hand Over Fist Right Now",
+    "source": "Motley Fool",
+    "when": "2026-09-25T14:20"
    }
   ],
   "ACN": [
@@ -1823,11 +1869,6 @@
     "title": "Is IBM Stock A Real Bargain?",
     "source": "Trefis",
     "when": "2026-09-25T12:19"
-   },
-   {
-    "title": "Accenture (ACN) Declines More Than Market: Some Information for Investors",
-    "source": "Zacks",
-    "when": "2026-09-24T21:00"
    }
   ],
   "AMAT": [
@@ -1852,33 +1893,13 @@
     "title": "AMD CEO Lisa Su is having a September to remember",
     "source": "Yahoo Finance",
     "when": "2026-09-25T13:59"
-   },
-   {
-    "title": "BofA raises AMD target to $720, sees server CPU TAM tripling to $211B by 2030",
-    "source": "Investing.com",
-    "when": "2026-09-25T15:14"
-   },
-   {
-    "title": "If You Invest $15,000 Into These 3 Stocks, You Could Have $30,000 In 2030",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T15:00"
    }
   ],
   "AMZN": [
    {
-    "title": "AI financing fears are mounting, sparked by Oracle's force majeure notice",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-25T14:34"
-   },
-   {
     "title": "Goldman Sachs just gave AI stock fans a cold, hard reality check",
     "source": "Yahoo Finance",
     "when": "2026-09-25T12:16"
-   },
-   {
-    "title": "Hyperscaler Stocks Could Rebound In This 2027 Scenario, Says Goldman Sachs",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-25T15:02"
    }
   ],
   "AVGO": [
@@ -1925,19 +1946,9 @@
     "title": "Does UnitedHealth\u2019s New CAO Hire Reveal a Deeper Shift in Efficiency Strategy for UNH?",
     "source": "Simply Wall St.",
     "when": "2026-09-24T23:12"
-   },
-   {
-    "title": "What Smart Supply Chain Operators Are Watching Right Now",
-    "source": "FreightWaves",
-    "when": "2026-09-23T19:58"
    }
   ],
   "CRWD": [
-   {
-    "title": "CrowdStrike (CRWD) Up 13.9% Since Last Earnings Report: Can It Continue?",
-    "source": "Zacks",
-    "when": "2026-09-25T14:30"
-   },
    {
     "title": "CrowdStrike (CRWD): Can AI-Driven Cyber Risks Accelerate Demand for Next-Generation Security Platforms?",
     "source": "Insider Monkey",
@@ -2019,19 +2030,14 @@
   ],
   "GOOGL": [
    {
-    "title": "Why now might be a good time to invest in Alphabet",
+    "title": "Meta's stock surges as it moves from AI laggard to leader",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-25T15:35"
+    "when": "2026-09-24T19:40"
    },
    {
     "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
     "source": "Yahoo Finance Video",
     "when": "2026-09-24T18:05"
-   },
-   {
-    "title": "Hyperscaler Stocks Could Rebound In This 2027 Scenario, Says Goldman Sachs",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-25T15:02"
    }
   ],
   "HD": [
@@ -2087,27 +2093,12 @@
   ],
   "IBM": [
    {
-    "title": "Litecoin, Cardano, Stellar, and Chainlink All Outperformed Bitcoin This Week. Which Rally Has the Strongest Support?",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T15:08"
-   },
-   {
     "title": "Twilio downgraded, Synopsys upgraded: Wall Street's top analyst calls",
     "source": "The Fly",
     "when": "2026-09-25T13:43"
-   },
-   {
-    "title": "Chevron or IBM: One of These Dividends Costs $17 Billion a Year to Protect",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T13:10"
    }
   ],
   "LMT": [
-   {
-    "title": "Can Rising F-35 Radar Demand Support Northrop Grumman's Growth?",
-    "source": "Zacks",
-    "when": "2026-09-25T14:15"
-   },
    {
     "title": "The S&P 500\u2019s Best Dividend Stocks Share One Powerful Advantage",
     "source": "24/7 Wall St.",
@@ -2138,36 +2129,31 @@
   ],
   "META": [
    {
-    "title": "Inside Mark Zuckerberg's intense founder era: Fmr Meta CTO",
+    "title": "Meta's Muse says it can manage your money. Should you let it?",
+    "source": "Yahoo Personal Finance",
+    "when": "2026-09-25T14:10"
+   },
+   {
+    "title": "The era of AI wearables focused on listening is here",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-24T10:00"
+    "when": "2026-09-24T20:03"
+   },
+   {
+    "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-24T18:05"
+   }
+  ],
+  "MSFT": [
+   {
+    "title": "Microsoft CEO Satya Nadella talks US-China AI safety norms",
+    "source": "Yahoo Finance Video",
+    "when": "2026-09-25T14:07"
    },
    {
     "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
     "source": "Yahoo Finance",
     "when": "2026-09-25T13:51"
-   },
-   {
-    "title": "Meta's new AI device changes everything",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-24T20:00"
-   }
-  ],
-  "MSFT": [
-   {
-    "title": "Why 'trust' will Microsoft's 'biggest' AI issue: CEO Satya Nadella explains",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-25T14:00"
-   },
-   {
-    "title": "Qualcomm's CMO reveals the secret behind Snapdragon's rise",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-25T14:07"
-   },
-   {
-    "title": "Satya Nadella sees that China and the US both want AI to help their citizens",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-25T13:48"
    }
   ],
   "NEM": [
@@ -2206,11 +2192,6 @@
   ],
   "NOC": [
    {
-    "title": "Can Rising F-35 Radar Demand Support Northrop Grumman's Growth?",
-    "source": "Zacks",
-    "when": "2026-09-25T14:15"
-   },
-   {
     "title": "Can L3Harris' Contract Cost Control Support Future Margin Growth?",
     "source": "Zacks",
     "when": "2026-09-25T12:08"
@@ -2219,23 +2200,18 @@
     "title": "Soaring Defense Spending Means Great News for These 2 Stocks",
     "source": "Motley Fool",
     "when": "2026-09-24T20:23"
+   },
+   {
+    "title": "Is GE Aerospace's Lead Already In Its Stock Price?",
+    "source": "Trefis",
+    "when": "2026-09-24T19:25"
    }
   ],
   "NVDA": [
    {
-    "title": "What mortgage rate surges mean for home improvement stocks",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-25T14:30"
-   },
-   {
-    "title": "BofA raises AMD target to $720, sees server CPU TAM tripling to $211B by 2030",
-    "source": "Investing.com",
-    "when": "2026-09-25T15:14"
-   },
-   {
-    "title": "If You Invest $15,000 Into These 3 Stocks, You Could Have $30,000 In 2030",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T15:00"
+    "title": "AMD CEO Lisa Su is having a September to remember",
+    "source": "Yahoo Finance",
+    "when": "2026-09-25T13:59"
    }
   ],
   "O": [
@@ -2291,11 +2267,6 @@
   ],
   "PLTR": [
    {
-    "title": "1 Cash-Heavy Stock with Impressive Fundamentals and 2 Facing Challenges",
-    "source": "StockStory",
-    "when": "2026-09-25T14:56"
-   },
-   {
     "title": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
     "source": "GuruFocus.com",
     "when": "2026-09-25T13:46"
@@ -2304,23 +2275,23 @@
     "title": "EXCLUSIVE: Palantir Is \u2018Not Really an AI Company\u2019 but an \u2018Incredible Data Architecture Company,\u2019 Defense AI CEO Says",
     "source": "Benzinga Prediction Markets",
     "when": "2026-09-25T13:01"
+   },
+   {
+    "title": "Palantir\u2019s Valuation Is Huge. So Is the Opportunity",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-25T12:30"
    }
   ],
   "RTX": [
    {
-    "title": "Can Rising F-35 Radar Demand Support Northrop Grumman's Growth?",
-    "source": "Zacks",
-    "when": "2026-09-25T14:15"
-   },
-   {
-    "title": "Can Rising Aerospace and Defense Demand Drive Curtiss-Wright's Growth?",
-    "source": "Zacks",
-    "when": "2026-09-25T14:11"
-   },
-   {
     "title": "Is OSI Systems (OSIS) Built to Be a Long-Term Compounding Powerhouse in Defense and Security?",
     "source": "Insider Monkey",
     "when": "2026-09-25T07:52"
+   },
+   {
+    "title": "Here's Why RTX (RTX) Fell More Than Broader Market",
+    "source": "Zacks",
+    "when": "2026-09-24T21:00"
    }
   ],
   "SKWD": [
@@ -2338,23 +2309,6 @@
     "title": "Property & Casualty Insurance Stocks Q2 In Review: Skyward Specialty Insurance (NASDAQ:SKWD) Vs Peers",
     "source": "StockStory",
     "when": "2026-09-17T13:38"
-   }
-  ],
-  "SPY": [
-   {
-    "title": "GameStop Tumbles 8% Despite Ryan Cohen\u2019s $26M Insider Buy; eBay Ticks Up",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T14:56"
-   },
-   {
-    "title": "Jaguar Health Soars 32% as Rare-Disease Pipeline News Meets Thin Post-Split Float",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T14:49"
-   },
-   {
-    "title": "Micron at $1080: The Street Loves What It Sees Underneath The Headlines",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T14:41"
    }
   ],
   "TPL": [
@@ -2375,11 +2329,6 @@
    }
   ],
   "TSM": [
-   {
-    "title": "Nvidia, AMD Love This High-Tech Facilitator. So Does Wall Street.",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-25T14:47"
-   },
    {
     "title": "HSBC Upgrades Synopsys to Buy, Sees 28% Earnings Growth Through 2028",
     "source": "24/7 Wall St.",
@@ -2410,11 +2359,6 @@
   ],
   "UNH": [
    {
-    "title": "Encompass Health Adds New Capacity With First Small-Format Hospital",
-    "source": "Zacks",
-    "when": "2026-09-25T13:54"
-   },
-   {
     "title": "UnitedHealth, BlackRock, and Stanley Black & Decker Just Paid Shareholders. Here\u2019s What They Got.",
     "source": "24/7 Wall St.",
     "when": "2026-09-25T12:05"
@@ -2423,6 +2367,11 @@
     "title": "Does UnitedHealth\u2019s New CAO Hire Reveal a Deeper Shift in Efficiency Strategy for UNH?",
     "source": "Simply Wall St.",
     "when": "2026-09-24T23:12"
+   },
+   {
+    "title": "Q2 Earnings Outperformers: UnitedHealth (NYSE:UNH) And The Rest Of The Health Insurance Providers Stocks",
+    "source": "StockStory",
+    "when": "2026-09-24T16:56"
    }
   ],
   "VNQ": [
@@ -2444,5 +2393,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-25T11:50-04:00"
+ "signalsAsOf": "2026-09-25T11:56-04:00"
 }

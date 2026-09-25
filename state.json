@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 6099.21,
-  "deployed": 714254.42,
+  "spent": 9099.21,
+  "deployed": 717254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -30,10 +30,11 @@
     "CRWD": 31.91,
     "AMAT": 44.17,
     "PLTR": 14.02,
-    "META": 3000.0
+    "META": 3000.0,
+    "AMD": 3000.0
   },
   "deployed_by_ticker": {
-    "AMD": 52363.85,
+    "AMD": 55363.85,
     "AMAT": 27641.67,
     "NVDA": 27477.89,
     "CHRW": 11600.0,
@@ -11596,12 +11597,29 @@
         "autopilot"
       ],
       "evidence": "+29.8% over the month; 5% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.791986,
+      "price": 626.05,
+      "date": "2026-09-25",
+      "time_et": "11:55",
+      "ts": 1790351755,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+30.1% over the month; 3% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6065.9,
-  "deployed_today": 78346.78,
-  "orders_today": 27,
+  "spent_today": 9065.9,
+  "deployed_today": 81346.78,
+  "orders_today": 28,
   "sells_today": 25,
   "sold_today": [
     "AVGO",
@@ -11655,20 +11673,23 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790351409,
-  "last_check_ts": 1790351666,
-  "last_bar_ts": 1790351400,
-  "last_decision_ts": 1790351579,
-  "next_check_minutes": null,
+  "last_publish_ts": 1790351755,
+  "last_check_ts": 1790351755,
+  "last_bar_ts": 1790351700,
+  "last_decision_ts": 1790351755,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "3fd95a8d": 338.57,
+    "6bc65cfb": 748.838,
     "23ec9f10": 339.0642,
-    "3f554f6c": 766.8632,
     "6bd8ebd3": 751.0527,
-    "3de885c9": 336.4929,
-    "c08e95a5": 739.567,
+    "3f554f6c": 766.8632,
+    "58c243e4": 628.9611,
+    "bcf16446": 618.7816,
     "ac48daa3": 501.59,
-    "3766cdf9": 725.3369,
-    "08e5599a": 328.1801
+    "237d23f2": 607.2685,
+    "08e5599a": 328.1801,
+    "3766cdf9": 725.3369
   }
 }
