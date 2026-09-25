@@ -17087,3 +17087,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32840.22 (+31.36% on $25000.00 in) · cash $26831.80 · realised +7831.80
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $751.51] -> $3013.11 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-25 11:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

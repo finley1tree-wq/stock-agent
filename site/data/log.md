@@ -1,20 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Book is completely flat (0 positions, 99.7% idle cash) with min_positions=8 required and full_deployment active - this is exactly the scenario past_lessons flag as costly to delay. I'm deploying across 7 names spanning widely_held (best track-record sector at 3.06% avg_ret), defense, and semis with concrete evidence (congress disclosures, momentum, news) and immediate protective stops per risk_management (best-performing signal at 3.07% avg_ret, 87% hit rate).
-lesson: Flat book with min_positions unmet and full_deployment active should be filled immediately in size across evidenced names rather than trickling, per repeated past_lessons_with_outcome pattern.
-  (dropped MSFT: 100% up today's range — resting a limit at $501.59 instead of chasing)
-  (dropped TSM: 86% up today's range — resting a limit at $451.51 instead of chasing)
-- BUY $4000.00 PLTR [filled] ['news', 'momentum'] — Strong momentum + bullish news flow, defense/AI data theme intact | evidence: PLTR +7.92% 5d, headline 'Palantir's Valuation Is Huge. So Is the Opportunity' 2026-09-25
-- BUY $4000.00 AMD [filled] ['momentum', 'news'] — Strongest momentum name in book, widely_held sector has best avg_ret_pct 3.06% per track record | evidence: AMD +13.36% 5d, +31.95% 1m, headline '189%: YTD number pushed AMD into Trillion Dollar Club'
-- BUY $3500.00 AVGO [filled] ['congress', 'news'] — Congress buy pressure plus AI chip equipment demand news | evidence: Rep. Rick W. Allen (leaderboard +2.76% avg excess, 8 scored buys) disclosed AVGO buy 2026-09-22
-- BUY $3500.00 NOC [filled] ['news', 'momentum'] — Defense sector has 65% hit rate per track record, positive day momentum | evidence: NOC at 81.6% of day range, headline 'Soaring Defense Spending Means Great News for These 2 Stocks'
-- BUY $2000.00 CRWD [filled] ['news', 'momentum'] — Strong cybersecurity momentum name, was a past winner (realized +0.53% last sell) | evidence: CRWD +9.08% 5d, +37.03% 1m, headline 'CrowdStrike Joined A Founding Alliance To Secure AI Agents'
-  (dropped trigger MSFT take_profit: not held)
-~ WORKING stop_loss 100% PLTR @ $186.00 until 2026-09-25 — Cap downside near 3% below entry per ATR-based stop
-~ WORKING stop_loss 100% AMD @ $615.00 until 2026-09-25 — Protect against reversal in high-momentum high-ATR name
-~ WORKING buy_limit $4000.00 MSFT @ $501.59 until 2026-09-25 — wanted it, but not at the high — resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently
-~ WORKING buy_limit $3000.00 TSM @ $451.51 until 2026-09-25 — wanted it, but not at the high — resting at $451.51. Semiconductor momentum plus congress buy signal
-~ WORKING take_profit 100% PLTR @ $192.38 until 2026-09-30 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 PLTR @ $186.00 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMD @ $637.59 until 2026-09-30 — close 100% at +0.5% over the average cost
 ~ WORKING buy_limit $500.00 AMD @ $615.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +381,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32837.76 (+31.35% on $25000.00 in) · cash $26831.80 · realised +7831.80
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 11:00 ET (Friday) — week 2026-W39 — budget left $18920.17 (today $51346.78 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQMixQw3eUanGJW2fosZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32840.22 (+31.36% on $25000.00 in) · cash $26831.80 · realised +7831.80
+Decision: nothing at this check. 7 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $751.51] -> $3013.11 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-25 11:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
