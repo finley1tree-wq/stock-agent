@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 18065.58,
+  "spent": 12082.56,
   "deployed": 792254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -26,8 +26,8 @@
     "TPL": 15.58,
     "NVDA": 3029.37,
     "NEM": 3.83,
-    "CRWD": 3039.14,
-    "AMAT": 3039.4,
+    "CRWD": 53.87,
+    "AMAT": 41.65,
     "PLTR": 3018.78,
     "TSM": 3003.72,
     "META": 1.6
@@ -12500,13 +12500,53 @@
         "autopilot"
       ],
       "evidence": "+0.6% over the month; 50% of today's range"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 11.768353,
+      "status": "filled",
+      "price": 253.67,
+      "proceeds": 2985.27,
+      "realized_pnl": -14.73,
+      "realized_pct": -0.49,
+      "date": "2026-09-25",
+      "time_et": "15:06",
+      "ts": 1790363180,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.47% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMAT",
+      "side": "sell",
+      "qty": 6.180762,
+      "status": "filled",
+      "price": 485.01,
+      "proceeds": 2997.75,
+      "realized_pnl": -2.25,
+      "realized_pct": -0.08,
+      "date": "2026-09-25",
+      "time_et": "15:06",
+      "ts": 1790363180,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.06% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 18032.27,
+  "spent_today": 12049.25,
   "deployed_today": 156346.78,
   "orders_today": 53,
-  "sells_today": 47,
+  "sells_today": 49,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -12523,7 +12563,7 @@
     "GOOGL"
   ],
   "sold_ts": {
-    "AMAT": 1790358519,
+    "AMAT": 1790363181,
     "AMD": 1790360836,
     "NVDA": 1790359517,
     "CHRW": 1790276396,
@@ -12545,7 +12585,7 @@
     "GLD": 1790266131,
     "AAPL": 1790356625,
     "HLI": 1790257382,
-    "CRWD": 1790358605,
+    "CRWD": 1790363181,
     "NLR": 1790264248,
     "HUBB": 1790275954,
     "AMZN": 1790272806,
@@ -12559,32 +12599,26 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790362410,
-  "last_check_ts": 1790363095,
-  "last_bar_ts": 1790362800,
+  "last_publish_ts": 1790363180,
+  "last_check_ts": 1790363180,
+  "last_bar_ts": 1790363100,
   "last_decision_ts": 1790363095,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "61edc524": 452.4729,
-    "23aa8fea": 224.7383,
     "14af9d8b": 345.1715,
-    "3c3aed74": 192.0474,
+    "23aa8fea": 224.7383,
     "3f554f6c": 766.8632,
-    "c8b13bdb": 487.3992,
+    "3c3aed74": 192.0474,
     "ec2ea9f0": 222.7119,
     "fbf972c4": 448.5101,
-    "cd25578b": 341.661,
-    "da2a8a58": 256.2634,
     "06014173": 189.8156,
-    "2fe23f11": 480.3369,
-    "37abc90d": 251.5602,
-    "954def26": 247.2724,
-    "d1bbac50": 470.8186,
-    "ac48daa3": 501.59,
-    "214fc7d4": 217.4352,
+    "cd25578b": 341.661,
     "5e3e9db6": 185.6677,
-    "78326f53": 333.8449,
-    "d2cda89e": 437.7998
+    "214fc7d4": 217.4352,
+    "ac48daa3": 501.59,
+    "d2cda89e": 437.7998,
+    "78326f53": 333.8449
   }
 }

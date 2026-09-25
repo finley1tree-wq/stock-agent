@@ -18466,3 +18466,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32822.00 (+31.29% on $25000.00 in) · cash $14846.07 · realised +7846.07
 Decision: nothing at this check. 20 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% CRWD [time stop] -> $2985.27 (-0.49%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMAT [time stop] -> $2997.75 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 15:06 ET — tick — 2 sell(s), 0 buy(s) from standing orders
