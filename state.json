@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 6076.03,
+  "spent": 3073.45,
   "deployed": 678254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -28,8 +28,7 @@
     "NVDA": 22.44,
     "NEM": 3.83,
     "CRWD": 10.36,
-    "AMAT": 32.7,
-    "PLTR": 3000.0
+    "AMAT": 32.7
   },
   "deployed_by_ticker": {
     "AMD": 49363.85,
@@ -11140,13 +11139,34 @@
       ],
       "evidence": "average cost $335.73",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 15.695448,
+      "status": "filled",
+      "price": 191.3,
+      "proceeds": 3002.58,
+      "realized_pnl": 2.58,
+      "realized_pct": 0.09,
+      "date": "2026-09-25",
+      "time_et": "10:31",
+      "ts": 1790346600,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $191.14",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6042.72,
+  "spent_today": 3040.14,
   "deployed_today": 42346.78,
   "orders_today": 15,
-  "sells_today": 13,
+  "sells_today": 14,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -11166,7 +11186,7 @@
     "AMD": 1790344455,
     "NVDA": 1790345775,
     "CHRW": 1790276396,
-    "PLTR": 1790343341,
+    "PLTR": 1790346666,
     "MSFT": 1790345180,
     "OKLO": 1790263310,
     "CCJ": 1790269896,
@@ -11198,19 +11218,16 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790346628,
-  "last_check_ts": 1790346628,
+  "last_publish_ts": 1790346666,
+  "last_check_ts": 1790346713,
   "last_bar_ts": 1790346600,
-  "last_decision_ts": 1790346541,
+  "last_decision_ts": 1790346713,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "acac0e96": 191.398,
-    "2ccbe50c": 191.7746,
     "b01730f6": 344.115,
     "b2a7ab68": 340.6289,
     "ac48daa3": 501.59,
-    "8339aa1b": 332.8264,
-    "2a6f5e3b": 185.4058
+    "8339aa1b": 332.8264
   }
 }

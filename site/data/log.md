@@ -1,6 +1,3 @@
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-brain: Book is completely flat (0 positions, 99.6% idle cash) despite min_positions=8 and full_deployment active - this is the exact pattern past_lessons flag repeatedly as costly. Deploying ~$21k across 8 names spanning widely_held (best realized sector, avg 3.22%), congress-backed (avg 2.19% when congress buying True vs 1.08% False), and momentum leaders, each with a concrete headline/filing/number and an immediate ATR-based stop given max_hold_minutes=30 forces a fast round trip anyway.
-lesson: When flat with min_positions unmet, buy market orders directly in size across widely_held/congress names with stops attached immediately rather than relying solely on resting limits that may not fill within the 30-min hold window.
   (dropped GOOGL: sold 3 min ago, cooling off)
   (dropped CRWD: sold 19 min ago, cooling off)
   (dropped NVDA: sold 3 min ago, cooling off)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 11 standing order(s) working.
   (cancelled 3 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $336.45] -> $347.53 (+0.21%) — close 100% at +0.2% over the average cost
 ## 2026-09-25 10:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [stop_loss @ $191.30] -> $3002.58 (+0.09%) — close it all at -0.8% under the average cost
+## 2026-09-25 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
