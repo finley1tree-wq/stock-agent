@@ -1,5 +1,3 @@
-portfolio: equity $32851.84 (+31.41% on $25000.00 in) · cash $26843.83 · realised +7843.83
-Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-25 14:26 ET (Friday) — week 2026-W39 — budget left $18932.18 (today $138346.78 put to work, 47 buys, 45 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32816.23 (+31.26% on $25000.00 in) · cash $23817.36 · realised +7817.36
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
