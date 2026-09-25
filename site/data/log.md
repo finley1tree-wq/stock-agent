@@ -1,17 +1,3 @@
-Decision: nothing at this check. 32 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on AMZN: position closed)
-- SELL 100% AMZN [take_profit @ $249.50] -> $2179.17 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-24 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (dropped TSM: sold 9 min ago, cooling off)
-  (dropped TSM: sold 10 min ago, cooling off)
-  (dropped TSM: sold 10 min ago, cooling off)
-  (dropped TSM: sold 11 min ago, cooling off)
-  (cancelled 2 standing order(s) on SPY: position closed)
-- SELL 100% SPY [stop_loss @ $766.33] -> $1499.97 (-0.00%) — close it all at -0.2% under the average cost
-  (dropped TSM: sold 12 min ago, cooling off)
-## 2026-09-24 14:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (dropped TSM: sold 13 min ago, cooling off)
   (dropped TSM: sold 13 min ago, cooling off)
   (dropped TSM: sold 14 min ago, cooling off)
   (dropped TSM: sold 15 min ago, cooling off)
@@ -398,3 +384,17 @@ Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $15560.64 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $256.18] -> $3015.80 (+0.53%) — close 100% at +0.5% over the average cost
 ## 2026-09-25 10:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 10:26 ET (Friday) — week 2026-W39 — budget left $18576.44 (today $42346.78 put to work, 15 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQK5b6m8y8aRXPgq9nvd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32838.18 (+31.35% on $25000.00 in) · cash $26488.08 · realised +7834.86
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
