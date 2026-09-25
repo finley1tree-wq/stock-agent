@@ -1,5 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-09-25 11:41 ET (Friday) — week 2026-W39 — budget left $18936.36 (today $72346.78 put to work, 25 buys, 23 sells) — SIM (pretend money) via sim
   (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AAPL @ $329.01 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32846.86 (+31.39% on $25000.00 in) · cash $14856.38 · realised +7856.38
 Done: 0 sell(s), 2 buy(s); 20 order(s) working; budget left $6944.73 this week
+- SELL 100% NVDA [time stop] -> $2994.14 (-0.20%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
