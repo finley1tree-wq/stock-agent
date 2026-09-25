@@ -1,62 +1,3 @@
-~ WORKING stop_loss 100% TSM @ $439.40 until 2026-09-24 — Protective stop on new TSM buy
-~ WORKING stop_loss 100% IBM @ $222.80 until 2026-09-24 — Protective stop on new IBM buy
-~ WORKING stop_loss 100% CRWD @ $256.90 until 2026-09-24 — Protective stop on new CRWD buy
-~ WORKING stop_loss 100% NEM @ $118.50 until 2026-09-24 — Protective stop on new NEM buy
-~ WORKING take_profit 100% TSM @ $449.63 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $435.00 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $228.23 until 2026-09-29 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $220.56 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $263.63 until 2026-09-29 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 CRWD @ $254.38 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NEM @ $121.43 until 2026-09-29 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NEM @ $117.35 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32826.49 (+31.31% on $25000.00 in) · cash $19525.90 · realised +7825.89
-Done: 0 sell(s), 4 buy(s); 41 order(s) working; budget left $11614.25 this week
-  (cancelled 2 standing order(s) on AMAT: position closed)
-- SELL 100% AMAT [take_profit @ $472.06] -> $2511.18 (+0.45%) — close 100% at +0.4% over the average cost
-## 2026-09-24 14:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% ESE [time stop] -> $1501.37 (+0.09%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $449.63] -> $1737.91 (+0.26%) — close 100% at +0.3% over the average cost
-## 2026-09-24 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CRWD: position closed)
-- SELL 100% CRWD [take_profit @ $263.63] -> $1742.47 (+0.53%) — close 100% at +0.5% over the average cost
-## 2026-09-24 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% HUBB [time stop] -> $1801.28 (+0.07%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 14:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 14:53 ET (Thursday) — week 2026-W39 — budget left $20908.46 (today $172165.78 put to work, 74 buys, 71 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-brain: Only 3 positions held vs min_positions=8, cash_idle_pct 83.6% with 2 checks left today - this is a clear regret-generating idle state per counterfactual data (idle_universe_avg_pct 0.61%). GOOGL cooldown just cleared; META has best realized sector track record (widely_held 3.06% avg_ret, n=328) plus a live AI news catalyst; AMZN adds diversification with resting limits already validating the level. With only 2 checks left today and max_hold_minutes forcing exits anyway, I'm buying at market now in decent size rather than waiting on unfilled limits, backed by concrete headlines/momentum data.
-lesson: With few checks left in the day and min_positions unmet, buy at market in $2-3k size backed by concrete evidence rather than waiting on resting limits that may not fill before close.
-  (dropped GOOGL: sold 45 min ago, cooling off)
-  (dropped META: 100% up today's range — resting a limit at $762.19 instead of chasing)
-  (dropped AMZN: 88% up today's range — resting a limit at $248.26 instead of chasing)
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger AMZN stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-~ WORKING buy_limit $2500.00 META @ $762.19 until 2026-09-24 — wanted it, but not at the high — resting at $762.19. Strong intraday momentum and AI narrative catalyst, widely_held is best realized sector at 3.06% avg_ret
-~ WORKING buy_limit $2500.00 AMZN @ $248.26 until 2026-09-24 — wanted it, but not at the high — resting at $248.26. Diversify into widely_held bucket not yet held, resting limits already working but adding market exposure now given only 45min left
-portfolio: equity $32855.91 (+31.42% on $25000.00 in) · cash $28820.09 · realised +7853.42
-Decision: nothing at this check. 27 standing order(s) working.
-- SELL 100% CHRW [time stop] -> $997.96 (-0.20%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 14:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% IBM [time stop] -> $1732.26 (-0.06%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NEM [time stop] -> $1296.17 (-0.29%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 15:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 15:09 ET (Thursday) — week 2026-W39 — budget left $24934.85 (today $172165.78 put to work, 74 buys, 74 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
 brain: This is the last check of the day (checks_left_today=1) at 15:09 ET with market close at 16:00 - any new market buy would be forced into a same-day round trip inside 30-50 minutes near the close, which is exactly the low-hit-rate 'time_stop'/'intraday_limit' bucket (avg -0.18%, hit rate 0.24 per track_record). I already have 17 working buy_limit orders resting below market on TSM, GOOGL, NVDA, AMZN, AAPL, AMD, META, ESE covering widely_held/congress/momentum themes with concrete evidence (Rep. Rick W. Allen TSM buy disclosed 9/22, congress pressure on ESE/AMD, Meta AI Muse news, AMZN/NVDA/GOOGL momentum) - these will fill automatically if the dip arrives before close without me chasing the current high-of-range prices (AMD 86.5%, AMZN 83.8%, CRWD 89.7%, MSFT 92.1% of day range - all above the 85% max_entry_range_pct guardrail). Placing new market buys now near session highs into a closing market with only one check left risks poor entries with no time to manage them; better to let the existing well-evidenced limit orders work and take no new action.
 lesson: On the last check of the day, prefer letting existing well-placed buy_limit orders work rather than chasing market buys at high-of-range prices right before close, since forced 30-50min holds into the close land in the worst-performing time_stop/intraday_limit bucket.
@@ -398,3 +339,62 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $613.17 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32831.20 (+31.32% on $25000.00 in) · cash $29831.80 · realised +7831.80
 Done: 0 sell(s), 1 buy(s); 4 order(s) working; budget left $21920.17 this week
+
+## 2026-09-25 10:43 ET (Friday) — week 2026-W39 — budget left $21920.17 (today $48346.78 put to work, 17 buys, 16 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQLNfwohpWYtp5Z5kyiQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32824.37 (+31.30% on $25000.00 in) · cash $29831.80 · realised +7831.80
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 10:45 ET (Friday) — week 2026-W39 — budget left $21920.17 (today $48346.78 put to work, 17 buys, 16 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQLbX7c9giNfYRgKL7aw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32826.17 (+31.30% on $25000.00 in) · cash $29831.80 · realised +7831.80
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 10:49 ET (Friday) — week 2026-W39 — budget left $21920.17 (today $48346.78 put to work, 17 buys, 16 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQLrGMWgHJBD5e9uVHGF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32828.73 (+31.31% on $25000.00 in) · cash $29831.80 · realised +7831.80
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 10:52 ET (Friday) — week 2026-W39 — budget left $21920.17 (today $48346.78 put to work, 17 buys, 16 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQM4wnAuhFngLztURct9'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,920 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +29.9% over the month; 3% of today's range
+~ WORKING take_profit 100% META @ $751.52 until 2026-09-30 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $740.05 until 2026-09-30 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 META @ $725.79 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32827.85 (+31.31% on $25000.00 in) · cash $26831.80 · realised +7831.80
+Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $18920.17 this week
