@@ -1,11 +1,11 @@
 {
   "week": "2026-W39",
-  "spent": 9084.09,
-  "deployed": 792254.42,
+  "spent": 15084.09,
+  "deployed": 798254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
-    "MSFT": 39.26,
+    "MSFT": 3039.26,
     "HLI": 19.11,
     "CHRW": 49.91,
     "GOOGL": 3044.6,
@@ -30,16 +30,17 @@
     "AMAT": 41.65,
     "PLTR": 3018.78,
     "TSM": 5.25,
-    "META": 1.6
+    "META": 1.6,
+    "AMD": 3000.0
   },
   "deployed_by_ticker": {
-    "AMD": 61363.85,
+    "AMD": 64363.85,
     "AMAT": 36641.67,
     "NVDA": 36477.89,
     "CHRW": 11600.0,
     "TTD": 7500.0,
     "PLTR": 56507.55,
-    "MSFT": 40025.0,
+    "MSFT": 43025.0,
     "OKLO": 17000.0,
     "NOC": 36253.2,
     "LMT": 12400.0,
@@ -12560,12 +12561,47 @@
       ],
       "evidence": "bought 30 min ago, -0.03% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.814594,
+      "price": 515.94,
+      "date": "2026-09-25",
+      "time_et": "15:13",
+      "ts": 1790363589,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +3.9% over the month; 84% of today's range"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.763145,
+      "price": 629.84,
+      "date": "2026-09-25",
+      "time_et": "15:13",
+      "ts": 1790363589,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+30.9% over the month; 31% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 9050.78,
-  "deployed_today": 156346.78,
-  "orders_today": 53,
+  "spent_today": 15050.78,
+  "deployed_today": 162346.78,
+  "orders_today": 55,
   "sells_today": 50,
   "sold_today": [
     "AVGO",
@@ -12619,23 +12655,29 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790363342,
-  "last_check_ts": 1790363505,
+  "last_publish_ts": 1790363589,
+  "last_check_ts": 1790363589,
   "last_bar_ts": 1790363400,
-  "last_decision_ts": 1790363427,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790363589,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "14af9d8b": 345.1715,
+    "50b7f2a2": 517.1525,
     "23aa8fea": 224.7383,
     "3c3aed74": 192.0474,
+    "fb3bf0a9": 632.7499,
     "3f554f6c": 766.8632,
+    "5445a701": 512.9063,
     "ec2ea9f0": 222.7119,
     "06014173": 189.8156,
     "cd25578b": 341.661,
-    "214fc7d4": 217.4352,
-    "5e3e9db6": 185.6677,
+    "cba77f9d": 622.5716,
     "ac48daa3": 501.59,
+    "5e3e9db6": 185.6677,
+    "214fc7d4": 217.4352,
+    "3decf479": 500.4618,
+    "84da9cc8": 610.9448,
     "78326f53": 333.8449
   }
 }
