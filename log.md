@@ -16763,3 +16763,19 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $1000.00 SPY @ $767.13 until 2026-09-26 — strong month, weak day: resting 0.20% under $768.67 to catch the dip
 portfolio: equity $32875.25 (+31.50% on $25000.00 in) · cash $17531.54 · realised +7878.32
 Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $9619.91 this week
+- BUY $1000.00 SPY [buy_limit @ $767.13] — strong month, weak day: resting 0.20% under $768.67 to catch the dip
+## 2026-09-25 10:05 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-25 10:05 ET (Friday) — week 2026-W39 — budget left $8619.91 (today $36346.78 put to work, 13 buys, 6 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQHWyVNTuU6gswvb2bVJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32834.94 (+31.34% on $25000.00 in) · cash $16531.54 · realised +7878.32
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

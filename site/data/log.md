@@ -1,5 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
   (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
   (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
   (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $1000.00 SPY @ $767.13 until 2026-09-26 — strong month, weak day: resting 0.20% under $768.67 to catch the dip
 portfolio: equity $32875.25 (+31.50% on $25000.00 in) · cash $17531.54 · realised +7878.32
 Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $9619.91 this week
+- BUY $1000.00 SPY [buy_limit @ $767.13] — strong month, weak day: resting 0.20% under $768.67 to catch the dip
+## 2026-09-25 10:05 ET — tick — 0 sell(s), 1 buy(s) from standing orders

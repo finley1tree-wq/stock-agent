@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "bef18265",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 105.9337,
-   "status": "cancelled",
-   "created": "2026-09-23 14:23",
-   "created_ts": 1790187790,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $109.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 14:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4a1a82fe",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 528.5913,
-   "status": "cancelled",
-   "created": "2026-09-23 14:23",
-   "created_ts": 1790187790,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $527.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 14:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7f0efd0d",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 511.3937,
-   "status": "cancelled",
-   "created": "2026-09-23 14:23",
-   "created_ts": 1790187790,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $527.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 14:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "5ed6bc2b",
    "ticker": "CCJ",
    "kind": "stop_loss",
@@ -7428,7 +7371,7 @@
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 767.1327,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 10:02",
    "created_ts": 1790344956,
    "why": "strong month, weak day: resting 0.20% under $768.67 to catch the dip",
@@ -7438,7 +7381,8 @@
     "dip_entry"
    ],
    "good_until": "2026-09-26",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-25 10:05"
   },
   {
    "id": "85d29efe",
@@ -7456,7 +7400,58 @@
    ],
    "good_until": "2026-09-30",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "31a114a6",
+   "ticker": "SPY",
+   "kind": "take_profit",
+   "price": 768.2807,
+   "status": "working",
+   "created": "2026-09-25 10:05",
+   "created_ts": 1790345132,
+   "why": "close 100% at +0.1% over the average cost",
+   "evidence": "average cost $767.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4d49b279",
+   "ticker": "SPY",
+   "kind": "stop_loss",
+   "price": 765.2735,
+   "status": "working",
+   "created": "2026-09-25 10:05",
+   "created_ts": 1790345132,
+   "why": "close it all at -0.2% under the average cost",
+   "evidence": "average cost $767.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c45b2e52",
+   "ticker": "SPY",
+   "kind": "buy_limit",
+   "price": 744.1161,
+   "status": "working",
+   "created": "2026-09-25 10:05",
+   "created_ts": 1790345132,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $767.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-25 10:03"
+ "updated": "2026-09-25 10:05"
 }
