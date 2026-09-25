@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-25T14:15-04:00",
+ "asOf": "2026-09-25T14:17-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -146,8 +146,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 631.2,
-   "pct_away": -0.12,
+   "last": 631.09,
+   "pct_away": -0.1,
    "good_until": "2026-09-30",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -156,15 +156,15 @@
    ]
   },
   {
-   "id": "0be9e1f8",
+   "id": "279d0189",
    "ticker": "AMD",
    "kind": "take_profit",
-   "price": 632.2476,
+   "price": 632.2413,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 631.2,
-   "pct_away": 0.17,
+   "last": 631.09,
+   "pct_away": 0.18,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -180,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 751.46,
-   "pct_away": 0.42,
+   "last": 751.4,
+   "pct_away": 0.43,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -197,8 +197,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 771.43,
-   "pct_away": -0.59,
+   "last": 771.36,
+   "pct_away": -0.58,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.20% under $768.40 to catch the dip",
    "signals": [
@@ -214,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 751.46,
-   "pct_away": -1.11,
+   "last": 751.4,
+   "pct_away": -1.1,
    "good_until": "2026-09-30",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -231,8 +231,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 751.46,
+   "last": 751.4,
    "pct_away": -3.01,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d845523e",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 610.4598,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 631.09,
+   "pct_away": -3.27,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -248,31 +265,14 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.88,
-   "pct_away": -3.15,
+   "last": 518.6,
+   "pct_away": -3.28,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "d845523e",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 610.4598,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 631.2,
-   "pct_away": -3.29,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],

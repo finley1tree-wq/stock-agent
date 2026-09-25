@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "4f42d7a8",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 338.1905,
-   "status": "cancelled",
-   "created": "2026-09-24 09:51",
-   "created_ts": 1790257885,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $348.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 10:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0cd7f749",
-   "ticker": "AMAT",
-   "kind": "take_profit",
-   "price": 466.6444,
-   "status": "cancelled",
-   "created": "2026-09-24 09:54",
-   "created_ts": 1790258064,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $464.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 10:06",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "d640613d",
    "ticker": "AMAT",
    "kind": "stop_loss",
@@ -7371,7 +7333,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 632.2476,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 14:04",
    "created_ts": 1790359481,
    "why": "close 100% at +0.5% over the average cost",
@@ -7381,7 +7343,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 14:16",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "196fe40a",
@@ -7486,7 +7450,43 @@
    ],
    "good_until": "2026-09-30",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "2a7702d6",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 660.807,
+   "status": "cancelled",
+   "created": "2026-09-25 14:16",
+   "created_ts": 1790360201,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $629.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 14:17",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "279d0189",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 632.2413,
+   "status": "working",
+   "created": "2026-09-25 14:17",
+   "created_ts": 1790360246,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $629.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 14:16"
+ "updated": "2026-09-25 14:17"
 }
