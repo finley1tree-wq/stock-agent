@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 6063.64,
+  "spent": 3085.19,
   "deployed": 708254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -27,7 +27,7 @@
     "TPL": 15.58,
     "NVDA": 22.84,
     "NEM": 3.83,
-    "CRWD": 3010.36,
+    "CRWD": 31.91,
     "AMAT": 44.17,
     "PLTR": 3000.0
   },
@@ -11521,13 +11521,33 @@
       ],
       "evidence": "average cost $343.59",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 11.629188,
+      "status": "filled",
+      "price": 256.12,
+      "proceeds": 2978.45,
+      "realized_pnl": -21.55,
+      "realized_pct": -0.72,
+      "date": "2026-09-25",
+      "time_et": "11:42",
+      "ts": 1790350955,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.70% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6030.33,
+  "spent_today": 3051.88,
   "deployed_today": 72346.78,
   "orders_today": 25,
-  "sells_today": 23,
+  "sells_today": 24,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -11566,7 +11586,7 @@
     "GLD": 1790266131,
     "AAPL": 1790346628,
     "HLI": 1790257382,
-    "CRWD": 1790346363,
+    "CRWD": 1790350955,
     "NLR": 1790264248,
     "HUBB": 1790275954,
     "AMZN": 1790272806,
@@ -11580,20 +11600,17 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790350768,
-  "last_check_ts": 1790350867,
+  "last_publish_ts": 1790350955,
+  "last_check_ts": 1790350955,
   "last_bar_ts": 1790350800,
   "last_decision_ts": 1790350867,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "3f554f6c": 766.8632,
-    "8d07be72": 192.4487,
     "55e91623": 190.2161,
-    "aad84310": 254.6112,
-    "8fc890b5": 259.3218,
+    "8d07be72": 192.4487,
     "ac48daa3": 501.59,
-    "53ec9ddf": 250.2309,
     "56a82919": 186.0557
   }
 }
