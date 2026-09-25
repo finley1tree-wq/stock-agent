@@ -7054,7 +7054,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 615.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "Protect against reversal in high-momentum high-ATR name",
@@ -7063,7 +7063,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-25",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ac48daa3",
@@ -7144,7 +7146,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 637.5889,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "close 100% at +0.5% over the average cost",
@@ -7154,14 +7156,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:54"
   },
   {
    "id": "d328455f",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 615.6784,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7171,7 +7174,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 09:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b80af62f",
@@ -7489,5 +7494,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-25 09:47"
+ "updated": "2026-09-25 09:54"
 }

@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% PLTR @ $194.08 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $187.60 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $90.12 until 2026-09-29 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 CCJ @ $87.06 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% IBM @ $229.00 until 2026-09-29 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 IBM @ $221.31 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $452.62] -> $3007.35 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-25 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $637.59] -> $4018.10 (+0.45%) — close 100% at +0.5% over the average cost
+## 2026-09-25 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders

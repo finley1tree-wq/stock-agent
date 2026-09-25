@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-25T09:47-04:00",
+ "asOf": "2026-09-25T09:54-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -139,20 +139,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "88486b3f",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 637.5889,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "bf8a585c",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 333.9247,
+   "usd": 1000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 634.08,
-   "pct_away": 0.55,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.5% over the average cost",
+   "last": 335.82,
+   "pct_away": -0.56,
+   "good_until": "2026-09-26",
+   "why": "strong month, weak day: resting 0.40% under $335.27 to catch the dip",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -163,27 +163,10 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 756.0,
-   "pct_away": -0.57,
+   "last": 756.22,
+   "pct_away": -0.59,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.79% under $757.74 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "bf8a585c",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 333.9247,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 335.93,
-   "pct_away": -0.6,
-   "good_until": "2026-09-26",
-   "why": "strong month, weak day: resting 0.40% under $335.27 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -197,47 +180,14 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 514.2,
-   "pct_away": -2.45,
+   "last": 516.05,
+   "pct_away": -2.8,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "d328455f",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 615.6784,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 634.08,
-   "pct_away": -2.9,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f5acc49f",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 615.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 634.08,
-   "pct_away": -3.01,
-   "good_until": "2026-09-25",
-   "why": "Protect against reversal in high-momentum high-ATR name",
-   "signals": [
-    "risk_management"
    ]
   }
  ],
