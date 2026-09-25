@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 3085.19,
-  "deployed": 708254.42,
+  "spent": 6085.19,
+  "deployed": 711254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -20,7 +20,7 @@
     "SKWD": 24.17,
     "NLR": 21.0,
     "LMT": 18.77,
-    "AAPL": 4.64,
+    "AAPL": 3004.64,
     "CCJ": 15.72,
     "UNH": 3.38,
     "HUBB": 0.28,
@@ -52,7 +52,7 @@
     "GOOGL": 51633.21,
     "META": 24355.56,
     "GLD": 8007.69,
-    "AAPL": 12588.84,
+    "AAPL": 15588.84,
     "CRWD": 27262.79,
     "HLI": 2000.0,
     "HUBB": 11700.0,
@@ -11541,12 +11541,29 @@
       ],
       "evidence": "bought 30 min ago, -0.70% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.867144,
+      "price": 338.33,
+      "date": "2026-09-25",
+      "time_et": "11:44",
+      "ts": 1790351046,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+7.9% over the month; 82% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 3051.88,
-  "deployed_today": 72346.78,
-  "orders_today": 25,
+  "spent_today": 6051.88,
+  "deployed_today": 75346.78,
+  "orders_today": 26,
   "sells_today": 24,
   "sold_today": [
     "AVGO",
@@ -11600,17 +11617,20 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790350955,
-  "last_check_ts": 1790350955,
+  "last_publish_ts": 1790351046,
+  "last_check_ts": 1790351046,
   "last_bar_ts": 1790350800,
-  "last_decision_ts": 1790350867,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790351046,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "3f554f6c": 766.8632,
+    "23ec9f10": 339.0642,
     "55e91623": 190.2161,
+    "3de885c9": 336.4929,
     "8d07be72": 192.4487,
     "ac48daa3": 501.59,
-    "56a82919": 186.0557
+    "56a82919": 186.0557,
+    "08e5599a": 328.1801
   }
 }

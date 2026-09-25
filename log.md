@@ -17325,3 +17325,20 @@ Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% CRWD [time stop] -> $2978.45 (-0.72%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 11:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 11:44 ET (Friday) — week 2026-W39 — budget left $21914.81 (today $72346.78 put to work, 25 buys, 24 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQR2pW2oQ63pp8LDDG2L'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,915 idle, so opened 1: AAPL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.9% over the month; 82% of today's range
+~ WORKING take_profit 100% AAPL @ $339.06 until 2026-09-30 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% AAPL @ $336.49 until 2026-09-30 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 AAPL @ $328.18 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32815.40 (+31.26% on $25000.00 in) · cash $26826.45 · realised +7826.45
+Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $18914.81 this week
