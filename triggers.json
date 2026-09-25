@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "7f642059",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 184.0,
-   "status": "cancelled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "Protective stop ~3.5% below entry",
-   "evidence": "ATR 3.06%, entry 190.6",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "ddea68a3",
    "ticker": "CRWD",
    "kind": "stop_loss",
@@ -7285,7 +7267,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 449.652,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 12:21",
    "created_ts": 1790353318,
    "why": "close it all at -0.6% under the average cost",
@@ -7295,7 +7277,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:28",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c0031c64",
@@ -7456,7 +7440,24 @@
    ],
    "good_until": "2026-09-30",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "9bb4a09d",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 452.882,
+   "status": "working",
+   "created": "2026-09-25 12:28",
+   "created_ts": 1790353729,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $452.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 12:27"
+ "updated": "2026-09-25 12:28"
 }
