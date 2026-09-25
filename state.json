@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 9386.31,
+  "spent": 3439.36,
   "deployed": 672254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -25,10 +25,10 @@
     "UNH": 3.38,
     "HUBB": 0.28,
     "TPL": 15.58,
-    "NVDA": 3002.09,
+    "NVDA": 22.44,
     "NEM": 3.83,
     "CRWD": 26.16,
-    "AMAT": 3000.0
+    "AMAT": 32.7
   },
   "deployed_by_ticker": {
     "AMD": 49363.85,
@@ -11020,13 +11020,55 @@
       ],
       "evidence": "average cost $767.13",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMAT",
+      "side": "sell",
+      "qty": 6.193653,
+      "status": "filled",
+      "price": 479.09,
+      "proceeds": 2967.3,
+      "realized_pnl": -32.7,
+      "realized_pct": -1.09,
+      "date": "2026-09-25",
+      "time_et": "10:16",
+      "ts": 1790345700,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $484.37",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 13.327705,
+      "status": "filled",
+      "price": 223.57,
+      "proceeds": 2979.65,
+      "realized_pnl": -20.35,
+      "realized_pct": -0.68,
+      "date": "2026-09-25",
+      "time_et": "10:16",
+      "ts": 1790345700,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $225.1",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 9353.0,
+  "spent_today": 3406.05,
   "deployed_today": 36346.78,
   "orders_today": 13,
-  "sells_today": 9,
+  "sells_today": 11,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -11036,12 +11078,14 @@
     "AMD",
     "MSFT",
     "META",
-    "SPY"
+    "SPY",
+    "AMAT",
+    "NVDA"
   ],
   "sold_ts": {
-    "AMAT": 1790275164,
+    "AMAT": 1790345775,
     "AMD": 1790344455,
-    "NVDA": 1790273364,
+    "NVDA": 1790345775,
     "CHRW": 1790276396,
     "PLTR": 1790343341,
     "MSFT": 1790345180,
@@ -11075,25 +11119,19 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790345736,
-  "last_check_ts": 1790345736,
+  "last_publish_ts": 1790345773,
+  "last_check_ts": 1790345822,
   "last_bar_ts": 1790345700,
-  "last_decision_ts": 1790345647,
+  "last_decision_ts": 1790345822,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "484c02cc": 223.6796,
-    "6ddd1f3a": 479.3277,
     "b2a7ab68": 340.6289,
+    "adfb2377": 336.4485,
     "bf8a585c": 333.9247,
     "fd2324e2": 333.9372,
-    "adfb2377": 336.4485,
     "b01730f6": 344.115,
-    "f7873049": 225.6673,
-    "c57e822c": 486.385,
     "ac48daa3": 501.59,
-    "2e190bca": 469.8389,
-    "a2cab6e6": 218.347,
     "8339aa1b": 332.8264,
     "6366b9b6": 325.6581
   }

@@ -1,8 +1,3 @@
-## 2026-09-24 13:39 ET (Thursday) — week 2026-W39 — budget left $19406.25 (today $146539.71 put to work, 60 buys, 57 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
   (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
 brain: Only 3 positions held vs min_positions=8, cash_idle_pct=77.6%, and past lessons repeatedly flagged this exact pattern of trickling in 1-2 names per check while sitting on idle cash. Deploying into 5 widely_held names (best realized sector, avg_ret 3.25%) with concrete news/momentum catalysts and immediate protective stops, bringing the book to 8 positions.
@@ -398,3 +393,8 @@ Decision: nothing at this check. 17 standing order(s) working.
   (cancelled 2 standing order(s) on SPY: position closed)
 - SELL 100% SPY [stop_loss @ $767.12] -> $999.98 (-0.00%) — close it all at -0.2% under the average cost
 ## 2026-09-25 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [stop_loss @ $479.09] -> $2967.30 (-1.09%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [stop_loss @ $223.57] -> $2979.65 (-0.68%) — close it all at -0.6% under the average cost
+## 2026-09-25 10:16 ET — tick — 2 sell(s), 0 buy(s) from standing orders
