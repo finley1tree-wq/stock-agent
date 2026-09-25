@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "305f5f9c",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 187.2003,
-   "status": "cancelled",
-   "created": "2026-09-23 15:31",
-   "created_ts": 1790191886,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $192.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:32",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "22edbae0",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 145.306,
-   "status": "cancelled",
-   "created": "2026-09-23 15:32",
-   "created_ts": 1790191928,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:32",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "d4ff02d7",
    "ticker": "RTX",
    "kind": "buy_limit",
@@ -7433,7 +7395,7 @@
    "ticker": "META",
    "kind": "take_profit",
    "price": 751.5173,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:52",
    "created_ts": 1790347929,
    "why": "close 100% at +0.4% over the average cost",
@@ -7443,7 +7405,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:52",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ad1ef6af",
@@ -7478,7 +7442,43 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "9122c801",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 785.652,
+   "status": "cancelled",
+   "created": "2026-09-25 10:52",
+   "created_ts": 1790347963,
+   "why": "close 100% at +5.0% over the average cost",
+   "evidence": "average cost $748.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:53",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "0fcfcd7d",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 751.5098,
+   "status": "working",
+   "created": "2026-09-25 10:53",
+   "created_ts": 1790348009,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $748.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 10:52"
+ "updated": "2026-09-25 10:53"
 }
