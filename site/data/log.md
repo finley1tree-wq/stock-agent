@@ -1,8 +1,3 @@
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger AMD stop_loss: not held)
-  (dropped trigger NOC stop_loss: not held)
-~ WORKING stop_loss 100% PLTR @ $188.50 until 2026-09-24 — Standard protective stop on new PLTR position
-~ WORKING stop_loss 100% CCJ @ $87.50 until 2026-09-24 — Standard protective stop on new CCJ position
 ~ WORKING stop_loss 100% IBM @ $222.50 until 2026-09-24 — Standard protective stop on new IBM position
 ~ WORKING stop_loss 100% HD @ $287.00 until 2026-09-24 — Standard protective stop on new HD position
 ~ WORKING buy_limit $2000.00 AMD @ $613.37 until 2026-09-24 — wanted it, but not at the high — resting at $613.37. Strong multi-timeframe momentum in widely_held best sector, cooldown recently ended history of prior gains
@@ -398,3 +393,8 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $192.38] -> $4013.15 (+0.33%) — close 100% at +0.3% over the average cost
 ## 2026-09-25 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $511.69] -> $3508.34 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-25 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $3000.00 TSM [buy_limit @ $451.51] — wanted it, but not at the high — resting at $451.51. Semiconductor momentum plus congress buy signal
+## 2026-09-25 09:44 ET — tick — 0 sell(s), 1 buy(s) from standing orders

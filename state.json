@@ -1,9 +1,9 @@
 {
   "week": "2026-W39",
-  "spent": 7567.1,
-  "deployed": 652907.64,
+  "spent": 7058.76,
+  "deployed": 655907.64,
   "by_ticker": {
-    "NOC": 3512.77,
+    "NOC": 4.43,
     "IBM": 36.82,
     "MSFT": 35.65,
     "HLI": 19.11,
@@ -25,7 +25,7 @@
     "UNH": 3.38,
     "HUBB": 0.28,
     "TPL": 15.58,
-    "TSM": 3.72,
+    "TSM": 3003.72,
     "NVDA": 2.09,
     "NEM": 3.83,
     "AMD": 4000.0,
@@ -44,7 +44,7 @@
     "LMT": 12400.0,
     "RTX": 23631.03,
     "CCJ": 40585.0,
-    "TSM": 40454.15,
+    "TSM": 43454.15,
     "AVGO": 27394.11,
     "UNH": 29733.96,
     "IBM": 27734.81,
@@ -10752,17 +10752,59 @@
       ],
       "evidence": "average cost $191.75",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 6.856371,
+      "status": "filled",
+      "price": 511.69,
+      "proceeds": 3508.34,
+      "realized_pnl": 8.34,
+      "realized_pct": 0.24,
+      "date": "2026-09-25",
+      "time_et": "09:43",
+      "ts": 1790343600,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $510.47",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.644312,
+      "price": 451.51,
+      "date": "2026-09-25",
+      "time_et": "09:44",
+      "ts": 1790343600,
+      "why": "wanted it, but not at the high \u2014 resting at $451.51. Semiconductor momentum plus congress buy signal",
+      "signals": [
+        "momentum",
+        "congress",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "TSM +4.02% 5d, Rep. Rick W. Allen disclosed TSM buy 2026-08-12",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 7501.95,
-  "deployed_today": 17000.0,
-  "orders_today": 5,
-  "sells_today": 3,
+  "spent_today": 6993.61,
+  "deployed_today": 20000.0,
+  "orders_today": 6,
+  "sells_today": 4,
   "sold_today": [
     "AVGO",
     "CRWD",
-    "PLTR"
+    "PLTR",
+    "NOC"
   ],
   "sold_ts": {
     "AMAT": 1790275164,
@@ -10775,7 +10817,7 @@
     "CCJ": 1790269896,
     "LMT": 1790262328,
     "TTD": 1790260111,
-    "NOC": 1790267444,
+    "NOC": 1790343821,
     "RTX": 1790262328,
     "PLD": 1790264066,
     "TSM": 1790275871,
@@ -10801,22 +10843,21 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790343662,
-  "last_check_ts": 1790343787,
+  "last_publish_ts": 1790343866,
+  "last_check_ts": 1790343866,
   "last_bar_ts": 1790343600,
   "last_decision_ts": 1790343148,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "e047bac6": 511.69,
-    "b2da9297": 511.082,
-    "32f03242": 451.514,
     "239e0ede": 751.7205,
-    "88486b3f": 637.5889,
+    "f3a83efb": 452.6207,
+    "75f917a3": 448.7332,
     "bf8a585c": 333.9247,
+    "88486b3f": 637.5889,
     "ac48daa3": 501.59,
     "d328455f": 615.6784,
     "f5acc49f": 615.0,
-    "c9a3407e": 495.1559
+    "2e1618ac": 437.9647
   }
 }

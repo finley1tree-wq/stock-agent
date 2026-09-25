@@ -38565,5 +38565,58 @@
     "trigger": "take_profit",
     "hour_et": 9,
     "code_version": "2be57cd"
+  },
+  {
+    "symbol": "NOC",
+    "side": "sell",
+    "qty": 6.856371,
+    "status": "filled",
+    "price": 511.69,
+    "proceeds": 3508.34,
+    "realized_pnl": 8.34,
+    "realized_pct": 0.24,
+    "date": "2026-09-25",
+    "time_et": "09:43",
+    "ts": 1790343600,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $510.47",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "55540e4"
+  },
+  {
+    "symbol": "TSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.644312,
+    "price": 451.51,
+    "date": "2026-09-25",
+    "time_et": "09:44",
+    "ts": 1790343600,
+    "why": "wanted it, but not at the high \u2014 resting at $451.51. Semiconductor momentum plus congress buy signal",
+    "signals": [
+      "congress",
+      "momentum",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "TSM +4.02% 5d, Rep. Rick W. Allen disclosed TSM buy 2026-08-12",
+    "trigger": "buy_limit",
+    "entry_price": 451.514,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.98,
+    "hour_et": 9,
+    "code_version": "55540e4",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

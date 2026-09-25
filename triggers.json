@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "b69edfa6",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 765.8752,
-   "status": "cancelled",
-   "created": "2026-09-23 13:40",
-   "created_ts": 1790185221,
-   "why": "strong month, weak day: resting 0.20% under $767.41 to catch the dip",
-   "evidence": "+0.2% over the month, sitting at 14% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 1000.0,
-   "closed": "2026-09-23 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "bcce3e23",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 229.5,
-   "status": "cancelled",
-   "created": "2026-09-23 13:51",
-   "created_ts": 1790185901,
-   "why": "Protective stop for new IBM position",
-   "evidence": "ATR 3.16% on IBM",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 14:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "17ebd8a1",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 293.5,
-   "status": "cancelled",
-   "created": "2026-09-23 13:51",
-   "created_ts": 1790185901,
-   "why": "Protective stop for new HD position",
-   "evidence": "ATR 2.0% on HD",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-23",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 14:21",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ddb9c92e",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -7163,7 +7108,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 451.514,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "wanted it, but not at the high \u2014 resting at $451.51. Semiconductor momentum plus congress buy signal",
@@ -7174,7 +7119,8 @@
     "patience"
    ],
    "good_until": "2026-09-25",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-25 09:44"
   },
   {
    "id": "45dc7ea9",
@@ -7308,7 +7254,7 @@
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 511.69,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "close 100% at +0.2% over the average cost",
@@ -7318,7 +7264,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:43"
   },
   {
    "id": "0e97a806",
@@ -7344,7 +7291,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 495.1559,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7354,7 +7301,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f26792c4",
@@ -7470,7 +7419,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 511.082,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:41",
    "created_ts": 1790343662,
    "why": "close it all at -0.6% under the average cost",
@@ -7480,8 +7429,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:43",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "f3a83efb",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 452.6207,
+   "status": "working",
+   "created": "2026-09-25 09:44",
+   "created_ts": 1790343866,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $451.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "75f917a3",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 448.7332,
+   "status": "working",
+   "created": "2026-09-25 09:44",
+   "created_ts": 1790343866,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $451.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2e1618ac",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 437.9647,
+   "status": "working",
+   "created": "2026-09-25 09:44",
+   "created_ts": 1790343866,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $451.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-25 09:41"
+ "updated": "2026-09-25 09:44"
 }

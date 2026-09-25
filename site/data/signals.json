@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-25T09:41-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-25T09:44-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,58 +139,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "e047bac6",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 511.69,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 511.49,
-   "pct_away": 0.04,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b2da9297",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 511.082,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 511.49,
-   "pct_away": -0.08,
-   "good_until": "2026-09-30",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "32f03242",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 451.514,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 452.79,
-   "pct_away": -0.28,
-   "good_until": "2026-09-25",
-   "why": "wanted it, but not at the high \u2014 resting at $451.51. Semiconductor momentum plus congress buy signal",
-   "signals": [
-    "momentum",
-    "congress",
-    "patience"
-   ]
-  },
-  {
    "id": "239e0ede",
    "ticker": "META",
    "kind": "buy_limit",
@@ -198,8 +146,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 754.24,
-   "pct_away": -0.33,
+   "last": 754.09,
+   "pct_away": -0.31,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.79% under $757.74 to catch the dip",
    "signals": [
@@ -208,17 +156,34 @@
    ]
   },
   {
-   "id": "88486b3f",
-   "ticker": "AMD",
+   "id": "f3a83efb",
+   "ticker": "TSM",
    "kind": "take_profit",
-   "price": 637.5889,
+   "price": 452.6207,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 634.82,
-   "pct_away": 0.44,
+   "last": 451.04,
+   "pct_away": 0.35,
    "good_until": "2026-09-30",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "75f917a3",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 448.7332,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 451.04,
+   "pct_away": -0.51,
+   "good_until": "2026-09-30",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -232,13 +197,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 335.77,
-   "pct_away": -0.55,
+   "last": 335.68,
+   "pct_away": -0.52,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.40% under $335.27 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "88486b3f",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 637.5889,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 633.1,
+   "pct_away": 0.71,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -249,8 +231,8 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 511.67,
-   "pct_away": -1.97,
+   "last": 512.87,
+   "pct_away": -2.2,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
@@ -267,8 +249,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 634.82,
-   "pct_away": -3.02,
+   "last": 633.1,
+   "pct_away": -2.75,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -284,8 +266,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 634.82,
-   "pct_away": -3.12,
+   "last": 633.1,
+   "pct_away": -2.86,
    "good_until": "2026-09-25",
    "why": "Protect against reversal in high-momentum high-ATR name",
    "signals": [
@@ -293,15 +275,15 @@
    ]
   },
   {
-   "id": "c9a3407e",
-   "ticker": "NOC",
+   "id": "2e1618ac",
+   "ticker": "TSM",
    "kind": "buy_limit",
-   "price": 495.1559,
+   "price": 437.9647,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 511.49,
-   "pct_away": -3.19,
+   "last": 451.04,
+   "pct_away": -2.9,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
