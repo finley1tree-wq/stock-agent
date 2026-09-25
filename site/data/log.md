@@ -1,24 +1,3 @@
-~ WORKING buy_limit $500.00 PLTR @ $186.00 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $637.59 until 2026-09-30 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $615.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $353.00 until 2026-09-30 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AVGO @ $349.11 until 2026-09-30 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 AVGO @ $341.33 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $511.69 until 2026-09-30 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% NOC @ $507.42 until 2026-09-30 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 NOC @ $495.16 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $260.58 until 2026-09-30 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% CRWD @ $256.02 until 2026-09-30 — close it all at -1.3% under the average cost
-~ WORKING buy_limit $500.00 CRWD @ $251.50 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 META @ $751.72 until 2026-09-26 — strong month, weak day: resting 0.79% under $757.74 to catch the dip
-~ WORKING buy_limit $1000.00 AAPL @ $333.92 until 2026-09-26 — strong month, weak day: resting 0.40% under $335.27 to catch the dip
-portfolio: equity $32842.38 (+31.37% on $25000.00 in) · cash $15846.48 · realised +7846.48
-Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [take_profit @ $353.00] -> $3511.06 (+0.32%) — close 100% at +0.3% over the average cost
-  (cancelled 2 standing order(s) on CRWD: position closed)
-- SELL 100% CRWD [stop_loss @ $255.89] -> $1973.84 (-1.31%) — close it all at -1.3% under the average cost
-## 2026-09-25 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $192.38] -> $4013.15 (+0.33%) — close 100% at +0.3% over the average cost
 ## 2026-09-25 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +377,24 @@ Decision: nothing at this check. 7 standing order(s) working.
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $751.51] -> $3013.11 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-09-25 11:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 11:03 ET (Friday) — week 2026-W39 — budget left $21933.28 (today $51346.78 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQMwJZyCBKujQD2MAGKQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,933 idle, so opened 2: AMAT, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AMAT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer, Jared Moskowitz), $1,001 - $15,000; +0.4% over the month; 49% of today's range
+- BUY $3000.00 NVDA [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.1% over the month; 37% of today's range
+~ WORKING take_profit 100% AMAT @ $483.72 until 2026-09-30 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMAT @ $476.66 until 2026-09-30 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 AMAT @ $467.25 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NVDA @ $225.16 until 2026-09-30 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NVDA @ $223.13 until 2026-09-30 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 NVDA @ $217.84 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32851.56 (+31.41% on $25000.00 in) · cash $23844.91 · realised +7844.91
+Done: 0 sell(s), 2 buy(s); 10 order(s) working; budget left $15933.28 this week
