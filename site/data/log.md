@@ -1,6 +1,3 @@
-- BUY $2000.00 IBM [filled] ['news', 'momentum'] — Low in day range gives good entry, fresh positive catalyst headline, off cooldown | evidence: IBM 31.3% of day range (low), headline 'IBM Expands Digital Asset Platform With Swift Ledger Integration' 2026-09-24T15:55
-- BUY $2000.00 HD [filled] ['news', 'momentum'] — Low in day range entry, positive retail supply-chain headline catalyst | evidence: HD 38.4% of day range (low), headline 'This Company's Software Manages Supply Chains for Retailers. Its Stock Can Surge 30%' Barrons 2026-09-24T12:01
-  (dropped trigger MSFT stop_loss: not held)
   (dropped trigger TSM stop_loss: not held)
   (dropped trigger AMD stop_loss: not held)
   (dropped trigger NOC stop_loss: not held)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [stop_loss @ $255.89] -> $1973.84 (-1.31%) — close it all at -1.3% under the average cost
 ## 2026-09-25 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $192.38] -> $4013.15 (+0.33%) — close 100% at +0.3% over the average cost
+## 2026-09-25 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -7130,7 +7130,7 @@
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 186.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "Cap downside near 3% below entry per ATR-based stop",
@@ -7139,7 +7139,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-25",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f5acc49f",
@@ -7198,7 +7200,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 192.3789,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "close 100% at +0.3% over the average cost",
@@ -7208,14 +7210,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:35"
   },
   {
    "id": "b8c727a7",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 185.9975,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7225,7 +7228,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "88486b3f",

@@ -16711,3 +16711,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [stop_loss @ $255.89] -> $1973.84 (-1.31%) — close it all at -1.3% under the average cost
 ## 2026-09-25 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $192.38] -> $4013.15 (+0.33%) — close 100% at +0.3% over the average cost
+## 2026-09-25 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
