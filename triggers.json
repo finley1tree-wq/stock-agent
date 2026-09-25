@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "4c29f6cd",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 145.306,
-   "status": "cancelled",
-   "created": "2026-09-23 15:42",
-   "created_ts": 1790192526,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:42",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "1a7ac8a7",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 187.2003,
-   "status": "cancelled",
-   "created": "2026-09-23 15:42",
-   "created_ts": 1790192526,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $192.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:42",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "9df48968",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 145.306,
-   "status": "cancelled",
-   "created": "2026-09-23 15:42",
-   "created_ts": 1790192566,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:43",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "3323ae9e",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -7451,7 +7394,58 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "ec550804",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 451.8714,
+   "status": "working",
+   "created": "2026-09-25 11:26",
+   "created_ts": 1790349994,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $450.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a0ca7adc",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 447.9139,
+   "status": "working",
+   "created": "2026-09-25 11:26",
+   "created_ts": 1790349994,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $450.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b0bec586",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 437.2178,
+   "status": "working",
+   "created": "2026-09-25 11:26",
+   "created_ts": 1790349994,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $450.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-25 11:23"
+ "updated": "2026-09-25 11:26"
 }
