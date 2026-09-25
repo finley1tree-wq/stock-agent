@@ -18485,3 +18485,17 @@ Decision: nothing at this check. 14 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% TSM [time stop] -> $2998.47 (-0.05%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 15:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 15:10 ET (Friday) — week 2026-W39 — budget left $15915.91 (today $156346.78 put to work, 53 buys, 50 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQgmGXNc2H5Nkps89KYJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32825.51 (+31.30% on $25000.00 in) · cash $23827.56 · realised +7827.56
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
