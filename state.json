@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 15061.13,
+  "spent": 12058.76,
   "deployed": 744254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -28,7 +28,7 @@
     "NEM": 3.83,
     "CRWD": 3031.91,
     "AMAT": 31.64,
-    "PLTR": 3014.02,
+    "PLTR": 11.65,
     "AMD": 3000.0,
     "AAPL": 3000.0
   },
@@ -11916,13 +11916,34 @@
       ],
       "evidence": "bought 30 min ago, -0.18% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 15.639796,
+      "status": "filled",
+      "price": 191.97,
+      "proceeds": 3002.37,
+      "realized_pnl": 2.37,
+      "realized_pct": 0.08,
+      "date": "2026-09-25",
+      "time_et": "12:50",
+      "ts": 1790355000,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $191.82",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 15027.82,
+  "spent_today": 12025.45,
   "deployed_today": 108346.78,
   "orders_today": 37,
-  "sells_today": 32,
+  "sells_today": 33,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -11943,7 +11964,7 @@
     "AMD": 1790352024,
     "NVDA": 1790354923,
     "CHRW": 1790276396,
-    "PLTR": 1790351275,
+    "PLTR": 1790355003,
     "MSFT": 1790353647,
     "OKLO": 1790263310,
     "CCJ": 1790269896,
@@ -11975,29 +11996,26 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790354922,
-  "last_check_ts": 1790354922,
-  "last_bar_ts": 1790354700,
-  "last_decision_ts": 1790354836,
-  "next_check_minutes": 6,
+  "last_publish_ts": 1790355002,
+  "last_check_ts": 1790355005,
+  "last_bar_ts": 1790355000,
+  "last_decision_ts": 1790355005,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "1f178575": 192.066,
-    "09aa414b": 192.4588,
     "64d3fc11": 339.9362,
     "910ba6d5": 342.0218,
     "3f554f6c": 766.8632,
-    "f16e73b6": 337.3278,
     "751f3032": 345.5326,
+    "f16e73b6": 337.3278,
     "a4640c60": 632.5891,
     "0085915f": 257.1228,
     "9e60ca04": 622.4072,
     "77d6faf1": 252.4216,
+    "33084381": 610.7896,
     "7b435564": 334.1941,
     "11d0e550": 248.1066,
-    "33084381": 610.7896,
     "32e4d59d": 329.0143,
-    "ac48daa3": 501.59,
-    "476a0844": 186.0654
+    "ac48daa3": 501.59
   }
 }

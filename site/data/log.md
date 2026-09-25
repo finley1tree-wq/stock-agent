@@ -1,6 +1,3 @@
-## 2026-09-25 11:41 ET (Friday) — week 2026-W39 — budget left $18936.36 (today $72346.78 put to work, 25 buys, 23 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
@@ -398,3 +395,6 @@ portfolio: equity $32846.86 (+31.39% on $25000.00 in) · cash $14856.38 · reali
 Done: 0 sell(s), 2 buy(s); 20 order(s) working; budget left $6944.73 this week
 - SELL 100% NVDA [time stop] -> $2994.14 (-0.20%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 12:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [stop_loss @ $191.97] -> $3002.37 (+0.08%) — close it all at -0.8% under the average cost
+## 2026-09-25 12:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
