@@ -1,34 +1,3 @@
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-brain: Only 3 positions held vs min_positions=8, cash_idle_pct=77.6%, and past lessons repeatedly flagged this exact pattern of trickling in 1-2 names per check while sitting on idle cash. Deploying into 5 widely_held names (best realized sector, avg_ret 3.25%) with concrete news/momentum catalysts and immediate protective stops, bringing the book to 8 positions.
-lesson: When below min_positions with high idle cash, deploy into 4-6 names in a single check across the best-performing sector rather than trickling in 1-2 - the repeated small-fill pattern was the root cause of staying under target count for hours.
-  (dropped META: 88% up today's range — resting a limit at $760.19 instead of chasing)
-- BUY $2173.91 AMZN [filled] ['momentum', 'news', 'track_record'] — Deploy into best-performing sector at reasonable entry, buy_limit orders already resting below market for better fills too | evidence: Widely_held sector realized avg_ret 3.25% n=322 (best sector); price 248.85, 78% of day range, off 1m -4.68% so not chasing a spike
-- BUY $2173.91 GOOGL [filled] ['momentum', 'congress', 'news'] — Widely_held name at $341.47, well off highs, adding diversification beyond TSM/CRWD/AVGO concentration | evidence: Rep. Thomas H. Kean and John W. Rose disclosed GOOGL sells recently but also Alphabet Drops Below $350 headline framed as buying opportunity; widely_held sector best realized bucket
-- BUY $1739.13 PLTR [filled] ['news', 'momentum'] — Defense/AI theme name with fresh bullish catalyst, not yet held, diversifies sector exposure | evidence: Motley Fool: 'Inside the $600 Billion Sovereign AI Gold Rush -- and Why Palantir Is Positioned to Win', +9.24% 5d momentum
-- BUY $1739.13 NVDA [filled] ['momentum', 'news'] — Semis/AI theme diversification, adds to existing AVGO/TSM chip exposure with independent catalyst | evidence: Motley Fool: 'I'm Buying More Nvidia Stock Right Now. Here's Why.' published today; widely_held sector
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger META buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% AMZN @ $244.00 until 2026-09-24 — Protective stop on new AMZN position
-~ WORKING stop_loss 100% GOOGL @ $335.00 until 2026-09-24 — Protective stop on new GOOGL position
-~ WORKING stop_loss 100% PLTR @ $186.00 until 2026-09-24 — Protective stop on new PLTR position
-~ WORKING stop_loss 100% NVDA @ $217.00 until 2026-09-24 — Protective stop on new NVDA position
-~ WORKING take_profit 100% AMZN @ $249.50 until 2026-09-29 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AMZN @ $241.43 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $342.55 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $331.29 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $193.25 until 2026-09-29 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $186.79 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NVDA @ $224.52 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NVDA @ $217.20 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32812.37 (+31.25% on $25000.00 in) · cash $19491.82 · realised +7817.90
-Done: 0 sell(s), 4 buy(s); 40 order(s) working; budget left $11580.17 this week
-- BUY $1500.00 SPY [buy_limit @ $766.34] — wanted it, but not at the high — resting at $766.34. diversification anchor while individual stock cooldowns clear
-## 2026-09-24 13:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% TSM [time stop] -> $1991.70 (-0.41%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% CRWD [time stop] -> $2000.27 (+0.01%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AVGO [time stop] -> $1497.26 (-0.18%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 13:53 ET — tick — 3 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-24 13:55 ET (Thursday) — week 2026-W39 — budget left $15569.40 (today $155865.79 put to work, 65 buys, 60 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +367,34 @@ Decision: nothing at this check. 17 standing order(s) working.
   (cancelled 2 standing order(s) on NVDA: position closed)
 - SELL 100% NVDA [stop_loss @ $223.57] -> $2979.65 (-0.68%) — close it all at -0.6% under the average cost
 ## 2026-09-25 10:16 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 10:17 ET (Friday) — week 2026-W39 — budget left $21560.64 (today $36346.78 put to work, 13 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQJPa784aAo3EdZG5MZY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32803.14 (+31.21% on $25000.00 in) · cash $29472.28 · realised +7819.06
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 10:20 ET (Friday) — week 2026-W39 — budget left $21560.64 (today $36346.78 put to work, 13 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQJecYPLPnnMmSUZRqrA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,561 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +34.7% over the month; 34% of today's range
+~ WORKING take_profit 100% CRWD @ $256.18 until 2026-09-30 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% CRWD @ $251.48 until 2026-09-30 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $247.19 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32807.21 (+31.23% on $25000.00 in) · cash $26472.28 · realised +7819.06
+Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $18560.64 this week

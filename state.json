@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 3439.36,
-  "deployed": 672254.42,
+  "spent": 6439.36,
+  "deployed": 675254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -27,7 +27,7 @@
     "TPL": 15.58,
     "NVDA": 22.44,
     "NEM": 3.83,
-    "CRWD": 26.16,
+    "CRWD": 3026.16,
     "AMAT": 32.7
   },
   "deployed_by_ticker": {
@@ -52,7 +52,7 @@
     "META": 21355.56,
     "GLD": 8007.69,
     "AAPL": 12588.84,
-    "CRWD": 21262.79,
+    "CRWD": 24262.79,
     "HLI": 2000.0,
     "HUBB": 11700.0,
     "NLR": 9500.0,
@@ -11062,12 +11062,30 @@
       ],
       "evidence": "average cost $225.1",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.772048,
+      "price": 254.84,
+      "date": "2026-09-25",
+      "time_et": "10:20",
+      "ts": 1790346027,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers); +34.7% over the month; 34% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 3406.05,
-  "deployed_today": 36346.78,
-  "orders_today": 13,
+  "spent_today": 6406.05,
+  "deployed_today": 39346.78,
+  "orders_today": 14,
   "sells_today": 11,
   "sold_today": [
     "AVGO",
@@ -11119,20 +11137,23 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790345773,
-  "last_check_ts": 1790345910,
-  "last_bar_ts": 1790345700,
-  "last_decision_ts": 1790345822,
-  "next_check_minutes": null,
+  "last_publish_ts": 1790346027,
+  "last_check_ts": 1790346027,
+  "last_bar_ts": 1790346000,
+  "last_decision_ts": 1790346027,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "b2a7ab68": 340.6289,
     "adfb2377": 336.4485,
+    "b2a7ab68": 340.6289,
     "bf8a585c": 333.9247,
     "fd2324e2": 333.9372,
+    "6f9821dd": 256.183,
     "b01730f6": 344.115,
+    "d6d9e35d": 251.4812,
     "ac48daa3": 501.59,
     "8339aa1b": 332.8264,
-    "6366b9b6": 325.6581
+    "6366b9b6": 325.6581,
+    "eb2ea0c8": 247.1948
   }
 }
