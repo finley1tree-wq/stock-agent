@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "0dc6093a",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 361.0,
-   "status": "cancelled",
-   "created": "2026-09-24 12:25",
-   "created_ts": 1790267142,
-   "why": "Standard protective stop",
-   "evidence": "ATR 2.77%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 12:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d5499f78",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 502.0,
-   "status": "cancelled",
-   "created": "2026-09-24 12:25",
-   "created_ts": 1790267142,
-   "why": "Standard protective stop",
-   "evidence": "ATR 2.17%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 12:30",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b2802822",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 758.3477,
-   "status": "cancelled",
-   "created": "2026-09-24 12:25",
-   "created_ts": 1790267142,
-   "why": "wanted it, but not at the high \u2014 resting at $758.35. Strong momentum + news catalyst, widely_held is top realized sector",
-   "evidence": "META +3.52% 1d, +12.89% 5d, day range 97.8% - 'Meta unveils $1,299 VR Glasses' and Muse AI agent headlines; widely_held sector has best realized return 3.32% avg_ret_pct in track_record",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 3500.0,
-   "closed": "2026-09-24 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "4a1184eb",
    "ticker": "UNH",
    "kind": "take_profit",
@@ -7531,9 +7475,66 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 728.6834,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:48",
    "created_ts": 1790365722,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:49",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "be21de6d",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "cancelled",
+   "created": "2026-09-25 15:49",
+   "created_ts": 1790365757,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:50",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "752a3bb4",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "cancelled",
+   "created": "2026-09-25 15:50",
+   "created_ts": 1790365803,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:50",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "f52081be",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "working",
+   "created": "2026-09-25 15:50",
+   "created_ts": 1790365804,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $751.22",
    "signals": [
@@ -7544,5 +7545,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-25 15:48"
+ "updated": "2026-09-25 15:50"
 }
