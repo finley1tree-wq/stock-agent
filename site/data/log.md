@@ -1,7 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-25 14:50 ET (Friday) — week 2026-W39 — budget left $15934.42 (today $147346.78 put to work, 50 buys, 47 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +394,7 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32822.93 (+31.29% on $25000.00 in) · cash $29816.02 · realised +7816.02
 Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $751.88] -> $3002.64 (+0.09%) — close it all at -1.1% under the average cost
+## 2026-09-25 15:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

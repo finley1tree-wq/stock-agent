@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 3095.63,
+  "spent": 92.99,
   "deployed": 801254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -30,7 +30,6 @@
     "AMAT": 41.65,
     "PLTR": 22.33,
     "TSM": 5.25,
-    "META": 3001.6,
     "AMD": 1.01
   },
   "deployed_by_ticker": {
@@ -12713,13 +12712,34 @@
       ],
       "evidence": "bought 30 min ago, -0.01% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 3.993503,
+      "status": "filled",
+      "price": 751.88,
+      "proceeds": 3002.64,
+      "realized_pnl": 2.64,
+      "realized_pct": 0.09,
+      "date": "2026-09-25",
+      "time_et": "15:50",
+      "ts": 1790365800,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $751.22",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 3062.32,
+  "spent_today": 59.68,
   "deployed_today": 165346.78,
   "orders_today": 56,
-  "sells_today": 55,
+  "sells_today": 56,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -12753,7 +12773,7 @@
     "AVGO": 1790343305,
     "UNH": 1790268950,
     "IBM": 1790276895,
-    "META": 1790361611,
+    "META": 1790365841,
     "GOOGL": 1790364197,
     "GLD": 1790266131,
     "AAPL": 1790356625,
@@ -12772,15 +12792,11 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790365804,
-  "last_check_ts": 1790365804,
+  "last_publish_ts": 1790365841,
+  "last_check_ts": 1790365841,
   "last_bar_ts": 1790365800,
   "last_decision_ts": 1790365804,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "dc2e1f6a": 752.258,
-    "50f002fd": 754.5028,
-    "f52081be": 728.6834
-  }
+  "book_px": {}
 }

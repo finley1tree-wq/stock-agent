@@ -18771,3 +18771,7 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32822.93 (+31.29% on $25000.00 in) · cash $29816.02 · realised +7816.02
 Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $751.88] -> $3002.64 (+0.09%) — close it all at -1.1% under the average cost
+## 2026-09-25 15:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
