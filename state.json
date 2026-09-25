@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 12055.27,
-  "deployed": 738254.42,
+  "spent": 18055.27,
+  "deployed": 744254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -28,10 +28,12 @@
     "NEM": 3.83,
     "CRWD": 3031.91,
     "AMAT": 31.64,
-    "PLTR": 3014.02
+    "PLTR": 3014.02,
+    "AMD": 3000.0,
+    "AAPL": 3000.0
   },
   "deployed_by_ticker": {
-    "AMD": 55363.85,
+    "AMD": 58363.85,
     "AMAT": 30641.67,
     "NVDA": 30477.89,
     "CHRW": 11600.0,
@@ -51,7 +53,7 @@
     "GOOGL": 54633.21,
     "META": 27355.56,
     "GLD": 8007.69,
-    "AAPL": 15588.84,
+    "AAPL": 18588.84,
     "CRWD": 30262.79,
     "HLI": 2000.0,
     "HUBB": 11700.0,
@@ -11860,12 +11862,46 @@
       ],
       "evidence": "average cost $452.48",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.764356,
+      "price": 629.68,
+      "date": "2026-09-25",
+      "time_et": "12:47",
+      "ts": 1790354836,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+30.9% over the month; 30% of today's range"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.844657,
+      "price": 339.19,
+      "date": "2026-09-25",
+      "time_et": "12:47",
+      "ts": 1790354836,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+8.2% over the month; 80% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 12021.96,
-  "deployed_today": 102346.78,
-  "orders_today": 35,
+  "spent_today": 18021.96,
+  "deployed_today": 108346.78,
+  "orders_today": 37,
   "sells_today": 31,
   "sold_today": [
     "AVGO",
@@ -11919,26 +11955,32 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790354065,
-  "last_check_ts": 1790354749,
+  "last_publish_ts": 1790354836,
+  "last_check_ts": 1790354836,
   "last_bar_ts": 1790354700,
-  "last_decision_ts": 1790354660,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790354836,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "1f178575": 192.066,
+    "09aa414b": 192.4588,
+    "64d3fc11": 339.9362,
     "11ade722": 225.8289,
-    "bcd6d332": 190.226,
+    "a4640c60": 632.5891,
+    "a502f847": 223.8016,
     "751f3032": 345.5326,
     "3f554f6c": 766.8632,
-    "a502f847": 223.8016,
     "910ba6d5": 342.0218,
-    "09aa414b": 192.4588,
+    "f16e73b6": 337.3278,
     "0085915f": 257.1228,
+    "9e60ca04": 622.4072,
     "77d6faf1": 252.4216,
-    "476a0844": 186.0654,
-    "11d0e550": 248.1066,
     "7b435564": 334.1941,
     "596b928b": 218.4925,
-    "ac48daa3": 501.59
+    "11d0e550": 248.1066,
+    "33084381": 610.7896,
+    "32e4d59d": 329.0143,
+    "ac48daa3": 501.59,
+    "476a0844": 186.0654
   }
 }
