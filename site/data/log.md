@@ -1,21 +1,3 @@
-- BUY $346.78 AAPL [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.1% over the month; 50% of today's range
-~ WORKING take_profit 100% MSFT @ $514.41 until 2026-09-30 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $510.21 until 2026-09-30 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $497.81 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMAT @ $486.38 until 2026-09-30 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMAT @ $479.33 until 2026-09-30 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 AMAT @ $469.84 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% META @ $759.97 until 2026-09-30 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $748.63 until 2026-09-30 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 META @ $734.03 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NVDA @ $225.67 until 2026-09-30 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% NVDA @ $223.68 until 2026-09-30 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 NVDA @ $218.35 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $344.12 until 2026-09-30 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $340.63 until 2026-09-30 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $332.83 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AAPL @ $336.45 until 2026-09-30 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% AAPL @ $333.94 until 2026-09-30 — close it all at -0.5% under the average cost
 ~ WORKING buy_limit $500.00 AAPL @ $325.66 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING buy_limit $1000.00 SPY @ $767.13 until 2026-09-26 — strong month, weak day: resting 0.20% under $768.67 to catch the dip
 portfolio: equity $32875.25 (+31.50% on $25000.00 in) · cash $17531.54 · realised +7878.32
@@ -398,3 +380,21 @@ Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AMD [time stop] -> $3003.78 (+0.13%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 11:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 11:12 ET (Friday) — week 2026-W39 — budget left $18937.06 (today $57346.78 put to work, 20 buys, 18 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQNbrg5Btfy4RGD1k8Dj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,937 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +36.3% over the month; 75% of today's range
+~ WORKING take_profit 100% CRWD @ $259.31 until 2026-09-30 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% CRWD @ $254.61 until 2026-09-30 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $250.23 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 SPY @ $766.86 until 2026-09-26 — strong month, weak day: resting 0.20% under $768.40 to catch the dip
+portfolio: equity $32830.00 (+31.32% on $25000.00 in) · cash $23848.70 · realised +7848.70
+Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $15937.06 this week
