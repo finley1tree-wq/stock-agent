@@ -1,17 +1,3 @@
-## 2026-09-25 12:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-25 13:01 ET (Friday) — week 2026-W39 — budget left $15922.23 (today $111346.78 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQWvJYWH2F3KiRcj8AYi'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32831.28 (+31.33% on $25000.00 in) · cash $23833.89 · realised +7833.89
-Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-25 13:04 ET (Friday) — week 2026-W39 — budget left $15922.23 (today $111346.78 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
@@ -398,3 +384,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $728.82 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32844.11 (+31.38% on $25000.00 in) · cash $26843.83 · realised +7843.83
 Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $18932.18 this week
+
+## 2026-09-25 14:13 ET (Friday) — week 2026-W39 — budget left $18932.18 (today $138346.78 put to work, 47 buys, 45 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQcQ4wZQpvVbj8imaStP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32847.87 (+31.39% on $25000.00 in) · cash $26843.83 · realised +7843.83
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
