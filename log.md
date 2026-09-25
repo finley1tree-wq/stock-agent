@@ -17273,3 +17273,22 @@ Decision: nothing at this check. 23 standing order(s) working.
 - SELL 100% AMAT [time stop] -> $2988.53 (-0.38%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% NVDA [time stop] -> $2999.60 (-0.01%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 11:33 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $514.53] -> $3001.42 (+0.05%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $450.89] -> $3001.01 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-25 11:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 11:35 ET (Friday) — week 2026-W39 — budget left $15927.62 (today $72346.78 put to work, 25 buys, 22 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQQMWsnmVx7fSZ6cCPPh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32840.97 (+31.36% on $25000.00 in) · cash $23839.26 · realised +7839.26
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
