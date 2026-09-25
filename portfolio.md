@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-25 11:50 ET
+# Pretend portfolio — 2026-09-25 11:53 ET
 
-**Equity $32813.27** on $25000.00 put in → **+31.25%**  
-Cash $26812.43 · Unrealised +0.84 · Realised +7812.43
+**Equity $32813.17** on $25000.00 put in → **+31.25%**  
+Cash $26812.43 · Unrealised +0.74 · Realised +7812.43
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| AAPL | 9.1% | $3001.44 | $338.33 | $338.49 | +0.05% | 0d |
-| META | 9.1% | $2999.40 | $747.77 | $747.62 | -0.02% | 0d |
+| META | 9.1% | $3001.25 | $747.77 | $748.08 | +0.04% | 0d |
+| AAPL | 9.1% | $2999.49 | $338.33 | $338.27 | -0.02% | 0d |
 
 ## Last fills
 
