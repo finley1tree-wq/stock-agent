@@ -18121,3 +18121,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32848.46 (+31.39% on $25000.00 in) · cash $23850.20 · realised +7850.20
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 14:04 ET (Friday) — week 2026-W39 — budget left $15938.54 (today $132346.78 put to work, 45 buys, 42 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQbkJtPboyaQFBZryQPc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,939 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +30.8% over the month; 28% of today's range
+~ WORKING take_profit 100% AMD @ $632.25 until 2026-09-30 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% AMD @ $622.07 until 2026-09-30 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $610.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32845.28 (+31.38% on $25000.00 in) · cash $20850.20 · realised +7850.20
+Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $12938.54 this week

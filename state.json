@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 9061.46,
-  "deployed": 768254.42,
+  "spent": 12061.46,
+  "deployed": 771254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -29,10 +29,11 @@
     "CRWD": 39.14,
     "AMAT": 39.4,
     "PLTR": 3011.65,
-    "TSM": 3.72
+    "TSM": 3.72,
+    "AMD": 3000.0
   },
   "deployed_by_ticker": {
-    "AMD": 58363.85,
+    "AMD": 61363.85,
     "AMAT": 33641.67,
     "NVDA": 33477.89,
     "CHRW": 11600.0,
@@ -12258,12 +12259,29 @@
       ],
       "evidence": "average cost $516.17",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.76693,
+      "price": 629.34,
+      "date": "2026-09-25",
+      "time_et": "14:04",
+      "ts": 1790359481,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+30.8% over the month; 28% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 9028.15,
-  "deployed_today": 132346.78,
-  "orders_today": 45,
+  "spent_today": 12028.15,
+  "deployed_today": 135346.78,
+  "orders_today": 46,
   "sells_today": 42,
   "sold_today": [
     "AVGO",
@@ -12317,23 +12335,26 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790358973,
-  "last_check_ts": 1790359396,
+  "last_publish_ts": 1790359481,
+  "last_check_ts": 1790359481,
   "last_bar_ts": 1790359200,
-  "last_decision_ts": 1790359304,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790359481,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "4d7935b9": 225.37,
+    "cecb22ad": 344.546,
     "618b6dd1": 345.2117,
-    "1048c3b5": 192.6876,
+    "4d7935b9": 225.37,
+    "0be9e1f8": 632.2476,
     "3f554f6c": 766.8632,
-    "3976efe5": 223.3401,
-    "95eb00d3": 341.7007,
     "78a53b17": 190.456,
+    "1048c3b5": 192.6876,
+    "3976efe5": 223.3401,
+    "196fe40a": 622.0711,
     "5ca77800": 186.2885,
-    "969b4b98": 333.8837,
     "3ffbaaa2": 218.0463,
-    "ac48daa3": 501.59
+    "d845523e": 610.4598,
+    "ac48daa3": 501.59,
+    "969b4b98": 333.8837
   }
 }
