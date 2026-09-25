@@ -7400,7 +7400,7 @@
    "ticker": "SPY",
    "kind": "take_profit",
    "price": 768.2807,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:05",
    "created_ts": 1790345132,
    "why": "close 100% at +0.1% over the average cost",
@@ -7410,7 +7410,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4d49b279",
@@ -7436,7 +7438,7 @@
    "ticker": "SPY",
    "kind": "buy_limit",
    "price": 744.1161,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:05",
    "created_ts": 1790345132,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7446,14 +7448,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 10:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "905b8aa7",
    "ticker": "SPY",
    "kind": "stop_loss",
    "price": 767.502,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 10:10",
    "created_ts": 1790345426,
    "why": "close it all at -0.2% under the average cost",
@@ -7463,8 +7467,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:15"
   }
  ],
- "updated": "2026-09-25 10:14"
+ "updated": "2026-09-25 10:15"
 }
