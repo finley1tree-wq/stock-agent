@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "6df96e97",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 145.306,
-   "status": "cancelled",
-   "created": "2026-09-23 15:29",
-   "created_ts": 1790191757,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:30",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "d05cca6e",
    "ticker": "RTX",
    "kind": "buy_limit",
@@ -7457,7 +7438,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 447.735,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:34",
    "created_ts": 1790346878,
    "why": "close it all at -0.6% under the average cost",
@@ -7467,7 +7448,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5120f0ab",
@@ -7485,7 +7468,24 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "4041608f",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 450.914,
+   "status": "working",
+   "created": "2026-09-25 10:36",
+   "created_ts": 1790347000,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $450.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 10:34"
+ "updated": "2026-09-25 10:37"
 }
