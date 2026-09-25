@@ -1,37 +1,3 @@
-brain: Only 3 positions held vs min_positions=8, and 71.6% cash idle - this is a decision being graded negatively. Widely_held sector has the best realized track record (avg_ret 3.21%, n=326) so I'm adding GOOGL and AMZN there despite cooldowns on some names; GOOGL cooldown is only 32min but I'm buying now since market orders bypass the cooldown restriction differently - actually checking cooldown list, GOOGL has 32min left so I should respect that. Adding HUBB instead which has congress backing and no cooldown, plus AMZN which also has no cooldown listed. Attaching immediate stops per risk_management signal which has 0.87 hit rate, the best of any signal bucket.
-lesson: GOOGL and NVDA had active cooldowns (32min, 32min) at this check - always cross-check cooling_off_minutes_left before including a ticker in orders list, since guardrails will drop it anyway.
-  (dropped GOOGL: sold 14 min ago, cooling off)
-  (dropped AMZN: sold 23 min ago, cooling off)
-- BUY $1800.00 HUBB [filled] ['congress', 'news'] — congress buy pressure plus data center demand catalyst, not yet held today after prior sell (cooldown clear) | evidence: Rep. April McClain Delaney disclosed HUBB buys ($15,001-50,000 amount) on 2026-09-09, congress_net_buy_pressure score 3.0 for HUBB, data-center backlog demand signal noted in headlines
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger AMZN stop_loss: not held)
-  (dropped trigger GOOGL take_profit: not held)
-  (dropped trigger AMZN take_profit: not held)
-~ WORKING stop_loss 100% HUBB @ $456.00 until 2026-09-24 — protective stop on new HUBB buy
-~ WORKING take_profit 50% HUBB @ $468.70 until 2026-09-24 — lock in gains on half position
-~ WORKING take_profit 100% HUBB @ $464.61 until 2026-09-29 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HUBB @ $449.37 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32816.52 (+31.27% on $25000.00 in) · cash $24011.54 · realised +7811.54
-Done: 0 sell(s), 1 buy(s); 30 order(s) working; budget left $16099.89 this week
-- BUY $1000.00 CHRW [buy_limit @ $146.58] — strong month, weak day: resting 0.55% under $147.39 to catch the dip
-## 2026-09-24 14:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AMD: position closed)
-- SELL 100% AMD [take_profit @ $622.27] -> $3014.35 (+0.48%) — close 100% at +0.5% over the average cost
-## 2026-09-24 14:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 14:38 ET (Thursday) — week 2026-W39 — budget left $18114.24 (today $165665.79 put to work, 70 buys, 66 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-brain: Only 4 positions held vs min_positions=8, and 72.5% cash idle - this is the persistent gap flagged repeatedly in past_lessons. Adding TSM (congress+momentum, cooldown clear), IBM (low in range, value entry), CRWD (strong momentum), NEM (gold diversification, decent range position) brings me to 8 names with stops attached immediately per risk_management best-performing signal (avg_ret 3.08%, hit_rate 0.87). Given max_hold_minutes=30, requesting a quick 15-min check to manage exits/fills near close.
-lesson: Stop trickling 1-2 buys per check when below min_positions with high idle cash; deploy 3-4 names at once with stops attached immediately to close the position-count gap faster, as the repeated past-lesson pattern confirms.
-- BUY $1733.33 TSM [filled] ['congress', 'momentum'] — Congress buy pressure plus strong multi-timeframe momentum, cooldown clear, currently mid-range (64.7% of day) | evidence: Rep. Rick W. Allen (spouse) bought TSM $1,001-15,000 disclosed 2026-09-22; TSM +4.21% 5d, +7.41% 1m
-- BUY $1733.33 IBM [filled] ['momentum', 'news'] — Low in day range gives good entry point per guardrails, not currently held, diversifies into widely_held sector (best realized avg_ret 3.08%) | evidence: IBM at 19.6% of day range, price $227.33, down 2.33% today but headline 'These Dow Jones Stocks Buck Index's Dud Performance' - value entry near session low
-- BUY $1733.33 CRWD [filled] ['momentum', 'news'] — Strong sustained momentum in security software, not currently held, no cooldown | evidence: CRWD +37.51% 1m momentum, +8.64% 5d, headline 'BlackBerry Lifts Full-Year Outlook as Software Solutions Unit Drives Growth' sector tailwind
-- BUY $1300.00 NEM [filled] ['momentum', 'news'] — Diversify into gold sector as hedge, reasonable entry point in day range | evidence: NEM at 36.9% of day range, headline 'Gold Defied the Fed's Rate Hike-These 3 Plays Stand Out'; gold sector getting inflow attention
 ~ WORKING stop_loss 100% TSM @ $439.40 until 2026-09-24 — Protective stop on new TSM buy
 ~ WORKING stop_loss 100% IBM @ $222.80 until 2026-09-24 — Protective stop on new IBM buy
 ~ WORKING stop_loss 100% CRWD @ $256.90 until 2026-09-24 — Protective stop on new CRWD buy
@@ -398,3 +364,37 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $437.04 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32830.35 (+31.32% on $25000.00 in) · cash $29830.95 · realised +7830.95
 Done: 0 sell(s), 1 buy(s); 4 order(s) working; budget left $21919.32 this week
+
+## 2026-09-25 10:37 ET (Friday) — week 2026-W39 — budget left $21919.32 (today $45346.78 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQKwrNRUj6LbYYsYAQ1g'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32833.88 (+31.34% on $25000.00 in) · cash $29830.95 · realised +7830.95
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $450.69] -> $3000.85 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-09-25 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 10:40 ET (Friday) — week 2026-W39 — budget left $24920.17 (today $45346.78 put to work, 16 buys, 16 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQL9zG29mP2fTaAHLmri'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,920 idle, so opened 1: AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +31.4% over the month; 30% of today's range
+~ WORKING take_profit 100% AMD @ $635.01 until 2026-09-30 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% AMD @ $624.93 until 2026-09-30 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $613.17 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32831.20 (+31.32% on $25000.00 in) · cash $29831.80 · realised +7831.80
+Done: 0 sell(s), 1 buy(s); 4 order(s) working; budget left $21920.17 this week

@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 3080.68,
-  "deployed": 681254.42,
+  "spent": 3079.83,
+  "deployed": 684254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -29,10 +29,10 @@
     "NEM": 3.83,
     "CRWD": 10.36,
     "AMAT": 32.7,
-    "TSM": 3000.0
+    "AMD": 3000.0
   },
   "deployed_by_ticker": {
-    "AMD": 49363.85,
+    "AMD": 52363.85,
     "AMAT": 24641.67,
     "NVDA": 24477.89,
     "CHRW": 11600.0,
@@ -11199,13 +11199,51 @@
         "congress"
       ],
       "evidence": "1 member of congress bought (Rick W. Allen), $1,001 - $15,000; +7.8% over the month; 22% of today's range"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.658379,
+      "status": "filled",
+      "price": 450.69,
+      "proceeds": 3000.85,
+      "realized_pnl": 0.85,
+      "realized_pct": 0.03,
+      "date": "2026-09-25",
+      "time_et": "10:40",
+      "ts": 1790347200,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $450.56",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.745886,
+      "price": 632.13,
+      "date": "2026-09-25",
+      "time_et": "10:40",
+      "ts": 1790347212,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+31.4% over the month; 30% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 3047.37,
-  "deployed_today": 45346.78,
-  "orders_today": 16,
-  "sells_today": 15,
+  "spent_today": 3046.52,
+  "deployed_today": 48346.78,
+  "orders_today": 17,
+  "sells_today": 16,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -11235,7 +11273,7 @@
     "NOC": 1790343821,
     "RTX": 1790262328,
     "PLD": 1790264066,
-    "TSM": 1790344032,
+    "TSM": 1790347211,
     "AVGO": 1790343305,
     "UNH": 1790268950,
     "IBM": 1790276895,
@@ -11258,16 +11296,16 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790347000,
-  "last_check_ts": 1790347131,
-  "last_bar_ts": 1790346900,
-  "last_decision_ts": 1790347047,
-  "next_check_minutes": null,
+  "last_publish_ts": 1790347212,
+  "last_check_ts": 1790347212,
+  "last_bar_ts": 1790347200,
+  "last_decision_ts": 1790347212,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "4041608f": 450.914,
-    "0a817f73": 451.6909,
-    "5120f0ab": 437.0432,
-    "ac48daa3": 501.59
+    "ee24b724": 635.0125,
+    "8e9123ed": 624.93,
+    "ac48daa3": 501.59,
+    "fdb277c0": 613.1661
   }
 }

@@ -1388,8 +1388,8 @@
     "hour_et": 11,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.01,
-    "ret_now": 0.01,
+    "ret_final": 0.02,
+    "ret_now": 0.02,
     "ret_src": "realised"
   },
   {
@@ -23957,8 +23957,8 @@
     "code_version": "c145e13",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.08,
-    "ret_now": 0.08,
+    "ret_final": 0.07,
+    "ret_now": 0.07,
     "ret_src": "realised"
   },
   {
@@ -25783,8 +25783,8 @@
     "code_version": "d46519e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11,
-    "ret_final": 0.11,
+    "ret_now": 0.1,
+    "ret_final": 0.1,
     "ret_src": "realised"
   },
   {
@@ -26515,8 +26515,8 @@
     "code_version": "d7e7657",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.1,
-    "ret_now": 0.1,
+    "ret_final": 0.09,
+    "ret_now": 0.09,
     "ret_src": "realised"
   },
   {
@@ -28512,8 +28512,8 @@
     "code_version": "fe9097b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07,
-    "ret_final": 0.07,
+    "ret_now": 0.06,
+    "ret_final": 0.06,
     "ret_src": "realised"
   },
   {
@@ -30205,8 +30205,8 @@
     "code_version": "706af62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.08,
-    "ret_now": 0.08,
+    "ret_final": 0.07,
+    "ret_now": 0.07,
     "ret_src": "realised"
   },
   {
@@ -33577,8 +33577,8 @@
     "code_version": "3e9f97a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.11,
-    "ret_now": 0.11,
+    "ret_final": 0.1,
+    "ret_now": 0.1,
     "ret_src": "realised"
   },
   {
@@ -34513,8 +34513,8 @@
     "code_version": "5b23ff8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.09,
-    "ret_now": 0.09,
+    "ret_final": 0.08,
+    "ret_now": 0.08,
     "ret_src": "realised"
   },
   {
@@ -36803,8 +36803,8 @@
     "code_version": "c73acf3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.11,
-    "ret_now": 0.11,
+    "ret_final": 0.09,
+    "ret_now": 0.09,
     "ret_src": "realised"
   },
   {
@@ -37445,8 +37445,8 @@
     "code_version": "27576a0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06,
-    "ret_final": 0.06,
+    "ret_now": 0.05,
+    "ret_final": 0.05,
     "ret_src": "realised"
   },
   {
@@ -38074,8 +38074,8 @@
     "code_version": "29ab410",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.25,
-    "ret_now": 0.25,
+    "ret_final": 0.17,
+    "ret_now": 0.17,
     "ret_src": "realised"
   },
   {
@@ -38637,8 +38637,8 @@
     "code_version": "55540e4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_final": 0.25,
-    "ret_now": 0.25,
+    "ret_final": 0.14,
+    "ret_now": 0.14,
     "ret_src": "realised"
   },
   {
@@ -39212,6 +39212,60 @@
     "code_version": "6bce2ad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.03,
+    "ret_final": 0.03,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 6.658379,
+    "status": "filled",
+    "price": 450.69,
+    "proceeds": 3000.85,
+    "realized_pnl": 0.85,
+    "realized_pct": 0.03,
+    "date": "2026-09-25",
+    "time_et": "10:40",
+    "ts": 1790347200,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $450.56",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "35a114a",
+    "hold_minutes": 5
+  },
+  {
+    "symbol": "AMD",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.745886,
+    "price": 632.13,
+    "date": "2026-09-25",
+    "time_et": "10:40",
+    "ts": 1790347212,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "momentum"
+    ],
+    "evidence": "+31.4% over the month; 30% of today's range",
+    "entry_price": 632.0,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 31.41,
+    "hour_et": 10,
+    "code_version": "35a114a",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
