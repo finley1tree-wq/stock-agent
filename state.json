@@ -1,11 +1,11 @@
 {
   "week": "2026-W39",
-  "spent": 6060.71,
-  "deployed": 753254.42,
+  "spent": 9060.71,
+  "deployed": 756254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
-    "MSFT": 46.29,
+    "MSFT": 3046.29,
     "HLI": 19.11,
     "CHRW": 49.91,
     "GOOGL": 46.04,
@@ -38,7 +38,7 @@
     "CHRW": 11600.0,
     "TTD": 7500.0,
     "PLTR": 50507.55,
-    "MSFT": 37025.0,
+    "MSFT": 40025.0,
     "OKLO": 17000.0,
     "NOC": 36253.2,
     "LMT": 12400.0,
@@ -12089,12 +12089,30 @@
       ],
       "evidence": "bought 30 min ago, +0.24% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.812002,
+      "price": 516.17,
+      "date": "2026-09-25",
+      "time_et": "13:32",
+      "ts": 1790357551,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +4.0% over the month; 85% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6027.4,
-  "deployed_today": 117346.78,
-  "orders_today": 40,
+  "spent_today": 9027.4,
+  "deployed_today": 120346.78,
+  "orders_today": 41,
   "sells_today": 38,
   "sold_today": [
     "AVGO",
@@ -12148,20 +12166,23 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790356972,
-  "last_check_ts": 1790357463,
+  "last_publish_ts": 1790357551,
+  "last_check_ts": 1790357551,
   "last_bar_ts": 1790357400,
-  "last_decision_ts": 1790357380,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790357551,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "f3f106f6": 517.383,
     "b4469c86": 452.4929,
     "b456c3d5": 486.8871,
     "3f554f6c": 766.8632,
+    "fcc27489": 513.1349,
     "2c7ca6b6": 448.53,
     "4007f2e8": 479.8274,
     "ac48daa3": 501.59,
     "5d05c213": 470.3239,
-    "48e6d814": 437.8192
+    "48e6d814": 437.8192,
+    "82c58fb3": 500.6849
   }
 }
