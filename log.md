@@ -18565,3 +18565,5 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32823.41 (+31.29% on $25000.00 in) · cash $23819.87 · realised +7819.87
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GOOGL [time stop] -> $2997.49 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 15:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
