@@ -1,23 +1,3 @@
-portfolio: equity $32851.97 (+31.41% on $25000.00 in) · cash $26843.83 · realised +7843.83
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-25 14:18 ET (Friday) — week 2026-W39 — budget left $18932.18 (today $138346.78 put to work, 47 buys, 45 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQcqcNNTnLdNcCVUcKyG'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32853.58 (+31.41% on $25000.00 in) · cash $26843.83 · realised +7843.83
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-25 14:21 ET (Friday) — week 2026-W39 — budget left $18932.18 (today $138346.78 put to work, 47 buys, 45 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
@@ -398,3 +378,23 @@ portfolio: equity $32819.79 (+31.28% on $25000.00 in) · cash $23817.36 · reali
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $15905.71 this week
   (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-25 15:30 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQiHJNhRzd1T99iHFcsj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 MSFT @ $500.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 AMD @ $610.94 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32810.82 (+31.24% on $25000.00 in) · cash $23817.36 · realised +7817.36
+Decision: nothing at this check. 9 standing order(s) working.
