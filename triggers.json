@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "ddea68a3",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 251.0,
-   "status": "cancelled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "Protective stop ~3.3% below entry",
-   "evidence": "ATR 4.76%, entry 259.7",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2f7a5a30",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 586.0,
-   "status": "cancelled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "Protective stop ~3.1% below entry",
-   "evidence": "ATR 4.25%, entry 605.05",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9721d096",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 442.0,
-   "status": "cancelled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "Protective stop ~3.3% below entry",
-   "evidence": "ATR 2.58%, entry 457.23",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b616904b",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7457,7 +7403,58 @@
    ],
    "good_until": "2026-09-30",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "0085915f",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 257.1228,
+   "status": "working",
+   "created": "2026-09-25 12:30",
+   "created_ts": 1790353806,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $255.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "77d6faf1",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 252.4216,
+   "status": "working",
+   "created": "2026-09-25 12:30",
+   "created_ts": 1790353806,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $255.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "11d0e550",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 248.1066,
+   "status": "working",
+   "created": "2026-09-25 12:30",
+   "created_ts": 1790353806,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $255.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-25 12:28"
+ "updated": "2026-09-25 12:30"
 }
