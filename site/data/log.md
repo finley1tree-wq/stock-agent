@@ -1,8 +1,3 @@
-~ WORKING buy_limit $500.00 AMAT @ $470.82 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32846.31 (+31.39% on $25000.00 in) · cash $23847.67 · realised +7847.67
-Done: 0 sell(s), 2 buy(s); 11 order(s) working; budget left $15936.02 this week
-
-## 2026-09-25 14:39 ET (Friday) — week 2026-W39 — budget left $15936.02 (today $144346.78 put to work, 49 buys, 46 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
@@ -398,3 +393,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32818.68 (+31.27% on $25000.00 in) · cash $23817.36 · realised +7817.36
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% MSFT [time stop] -> $2999.67 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $2998.99 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 15:43 ET — tick — 2 sell(s), 0 buy(s) from standing orders

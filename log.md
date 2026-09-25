@@ -18708,3 +18708,8 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32818.68 (+31.27% on $25000.00 in) · cash $23817.36 · realised +7817.36
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
+- SELL 100% MSFT [time stop] -> $2999.67 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $2998.99 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 15:43 ET — tick — 2 sell(s), 0 buy(s) from standing orders

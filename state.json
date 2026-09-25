@@ -1,11 +1,11 @@
 {
   "week": "2026-W39",
-  "spent": 9094.29,
+  "spent": 3095.63,
   "deployed": 801254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
-    "MSFT": 3039.26,
+    "MSFT": 39.59,
     "HLI": 19.11,
     "CHRW": 49.91,
     "GOOGL": 47.11,
@@ -31,7 +31,7 @@
     "PLTR": 22.33,
     "TSM": 5.25,
     "META": 3001.6,
-    "AMD": 3000.0
+    "AMD": 1.01
   },
   "deployed_by_ticker": {
     "AMD": 64363.85,
@@ -12673,13 +12673,53 @@
         "autopilot"
       ],
       "evidence": "+30.4% over the month; 20% of today's range"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 5.814594,
+      "status": "filled",
+      "price": 515.89,
+      "proceeds": 2999.67,
+      "realized_pnl": -0.33,
+      "realized_pct": -0.01,
+      "date": "2026-09-25",
+      "time_et": "15:43",
+      "ts": 1790365380,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.01% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 4.763145,
+      "status": "filled",
+      "price": 629.62,
+      "proceeds": 2998.99,
+      "realized_pnl": -1.01,
+      "realized_pct": -0.03,
+      "date": "2026-09-25",
+      "time_et": "15:43",
+      "ts": 1790365380,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.01% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 9060.98,
+  "spent_today": 3062.32,
   "deployed_today": 165346.78,
   "orders_today": 56,
-  "sells_today": 53,
+  "sells_today": 55,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -12697,11 +12737,11 @@
   ],
   "sold_ts": {
     "AMAT": 1790363181,
-    "AMD": 1790360836,
+    "AMD": 1790365380,
     "NVDA": 1790364015,
     "CHRW": 1790276396,
     "PLTR": 1790364015,
-    "MSFT": 1790358973,
+    "MSFT": 1790365380,
     "OKLO": 1790263310,
     "CCJ": 1790269896,
     "LMT": 1790262328,
@@ -12732,21 +12772,15 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790365292,
-  "last_check_ts": 1790365292,
+  "last_publish_ts": 1790365380,
+  "last_check_ts": 1790365380,
   "last_bar_ts": 1790365200,
   "last_decision_ts": 1790365292,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "7306ca5d": 517.1525,
     "50f002fd": 754.5028,
-    "72922300": 632.7499,
-    "5445a701": 512.9063,
-    "cba77f9d": 622.5716,
     "c35af854": 743.0167,
-    "9ece1e09": 610.9448,
-    "42985b96": 500.4618,
-    "264fa141": 728.6834
+    "cefe7cef": 728.6834
   }
 }

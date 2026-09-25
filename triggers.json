@@ -1,78 +1,6 @@
 {
  "orders": [
   {
-   "id": "a30635d3",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 333.0,
-   "status": "cancelled",
-   "created": "2026-09-24 12:10",
-   "created_ts": 1790266219,
-   "why": "protective stop below day low",
-   "evidence": "day_low 336.02, setting stop just under",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 12:16",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "15cda094",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 437.0,
-   "status": "cancelled",
-   "created": "2026-09-24 12:10",
-   "created_ts": 1790266219,
-   "why": "protective stop below day low",
-   "evidence": "day_low 440.69",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 12:16",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "61e5c710",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 344.0,
-   "status": "cancelled",
-   "created": "2026-09-24 12:10",
-   "created_ts": 1790266219,
-   "why": "protective stop below day low",
-   "evidence": "day_low 346.89",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 12:16",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7aca5eca",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 488.0,
-   "status": "cancelled",
-   "created": "2026-09-24 12:10",
-   "created_ts": 1790266219,
-   "why": "protective stop below day low",
-   "evidence": "day_low 491.22",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 12:16",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "3f8b14f8",
    "ticker": "NVDA",
    "kind": "stop_loss",
@@ -5891,7 +5819,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 512.9063,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:13",
    "created_ts": 1790363589,
    "why": "close it all at -0.6% under the average cost",
@@ -5901,7 +5829,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:43",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3decf479",
@@ -5946,7 +5876,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 622.5716,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:13",
    "created_ts": 1790363589,
    "why": "close it all at -1.2% under the average cost",
@@ -5956,7 +5886,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:43",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "84da9cc8",
@@ -6001,7 +5933,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 517.1525,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:20",
    "created_ts": 1790364014,
    "why": "close 100% at +0.2% over the average cost",
@@ -6011,7 +5943,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:43",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "50f002fd",
@@ -7135,7 +7069,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 632.7499,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:38",
    "created_ts": 1790365128,
    "why": "close 100% at +0.5% over the average cost",
@@ -7145,7 +7079,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 15:43",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "04950847",
@@ -7475,7 +7411,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 500.4618,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:41",
    "created_ts": 1790365292,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7485,14 +7421,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 15:42",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "9ece1e09",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 610.9448,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:41",
    "created_ts": 1790365292,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7502,16 +7440,94 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 15:42",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
   },
   {
    "id": "264fa141",
    "ticker": "META",
    "kind": "buy_limit",
    "price": 728.6834,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:41",
    "created_ts": 1790365292,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:42",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "805e9b19",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 500.4618,
+   "status": "cancelled",
+   "created": "2026-09-25 15:42",
+   "created_ts": 1790365334,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $515.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "712f04f0",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 610.9448,
+   "status": "cancelled",
+   "created": "2026-09-25 15:42",
+   "created_ts": 1790365334,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $629.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "042af339",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "cancelled",
+   "created": "2026-09-25 15:42",
+   "created_ts": 1790365334,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:43",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "cefe7cef",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "working",
+   "created": "2026-09-25 15:43",
+   "created_ts": 1790365380,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $751.22",
    "signals": [
@@ -7522,5 +7538,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-25 15:41"
+ "updated": "2026-09-25 15:43"
 }
