@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 3099.21,
-  "deployed": 711254.42,
+  "spent": 6099.21,
+  "deployed": 714254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -29,7 +29,8 @@
     "NEM": 3.83,
     "CRWD": 31.91,
     "AMAT": 44.17,
-    "PLTR": 14.02
+    "PLTR": 14.02,
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "AMD": 52363.85,
@@ -50,7 +51,7 @@
     "IBM": 27734.81,
     "PLD": 13524.38,
     "GOOGL": 51633.21,
-    "META": 24355.56,
+    "META": 27355.56,
     "GLD": 8007.69,
     "AAPL": 15588.84,
     "CRWD": 27262.79,
@@ -11578,12 +11579,29 @@
       ],
       "evidence": "bought 30 min ago, -0.45% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.011931,
+      "price": 747.77,
+      "date": "2026-09-25",
+      "time_et": "11:50",
+      "ts": 1790351409,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+29.8% over the month; 5% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 3065.9,
-  "deployed_today": 75346.78,
-  "orders_today": 26,
+  "spent_today": 6065.9,
+  "deployed_today": 78346.78,
+  "orders_today": 27,
   "sells_today": 25,
   "sold_today": [
     "AVGO",
@@ -11637,17 +11655,20 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790351275,
-  "last_check_ts": 1790351321,
-  "last_bar_ts": 1790351100,
-  "last_decision_ts": 1790351225,
-  "next_check_minutes": null,
+  "last_publish_ts": 1790351409,
+  "last_check_ts": 1790351409,
+  "last_bar_ts": 1790351400,
+  "last_decision_ts": 1790351409,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "3f554f6c": 766.8632,
     "23ec9f10": 339.0642,
+    "3f554f6c": 766.8632,
+    "6bd8ebd3": 751.0527,
     "3de885c9": 336.4929,
+    "c08e95a5": 739.567,
     "ac48daa3": 501.59,
+    "3766cdf9": 725.3369,
     "08e5599a": 328.1801
   }
 }
