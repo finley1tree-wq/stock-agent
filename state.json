@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 75.93,
-  "deployed": 717254.42,
+  "spent": 6075.93,
+  "deployed": 723254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -24,16 +24,16 @@
     "UNH": 3.38,
     "HUBB": 0.28,
     "TPL": 15.58,
-    "NVDA": 22.84,
+    "NVDA": 3022.84,
     "NEM": 3.83,
     "CRWD": 31.91,
-    "AMAT": 44.17,
+    "AMAT": 3044.17,
     "PLTR": 14.02
   },
   "deployed_by_ticker": {
     "AMD": 55363.85,
-    "AMAT": 27641.67,
-    "NVDA": 27477.89,
+    "AMAT": 30641.67,
+    "NVDA": 30477.89,
     "CHRW": 11600.0,
     "TTD": 7500.0,
     "PLTR": 47507.55,
@@ -11674,12 +11674,47 @@
       ],
       "evidence": "average cost $747.77",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMAT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.207625,
+      "price": 483.28,
+      "date": "2026-09-25",
+      "time_et": "12:19",
+      "ts": 1790353146,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Josh Gottheimer, Jared Moskowitz), $1,001 - $15,000; +0.7% over the month; 64% of today's range"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.318828,
+      "price": 225.25,
+      "date": "2026-09-25",
+      "time_et": "12:19",
+      "ts": 1790353146,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+7.4% over the month; 54% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 42.62,
-  "deployed_today": 81346.78,
-  "orders_today": 28,
+  "spent_today": 6042.62,
+  "deployed_today": 87346.78,
+  "orders_today": 30,
   "sells_today": 28,
   "sold_today": [
     "AVGO",
@@ -11733,14 +11768,20 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790352434,
-  "last_check_ts": 1790353059,
+  "last_publish_ts": 1790353146,
+  "last_check_ts": 1790353146,
   "last_bar_ts": 1790352900,
-  "last_decision_ts": 1790352964,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790353146,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "11ade722": 225.8289,
+    "25b77e8f": 485.2953,
     "3f554f6c": 766.8632,
-    "ac48daa3": 501.59
+    "a502f847": 223.8016,
+    "3446fad1": 478.2394,
+    "ac48daa3": 501.59,
+    "7ae62482": 468.7816,
+    "596b928b": 218.4925
   }
 }
