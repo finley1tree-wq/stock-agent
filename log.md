@@ -18713,3 +18713,21 @@ Decision: nothing at this check. 9 standing order(s) working.
 - SELL 100% MSFT [time stop] -> $2999.67 (-0.01%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $2998.99 (-0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 15:43 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-25 15:44 ET (Friday) — week 2026-W39 — budget left $21904.37 (today $165346.78 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (DHF excluded: too thinly traded ($0.7M a day) — BNY Mellon High Yield Strategies Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQjMaQ5sMndxiPfSQbYK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32821.37 (+31.29% on $25000.00 in) · cash $29816.02 · realised +7816.02
+Decision: nothing at this check. 3 standing order(s) working.

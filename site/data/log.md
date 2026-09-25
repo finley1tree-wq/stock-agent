@@ -1,21 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQeNstW4gFg4qmftEHdq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,936 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick W. Allen), $1,001 - $15,000; +8.0% over the month; 37% of today's range
-~ WORKING take_profit 100% TSM @ $452.47 until 2026-09-30 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% TSM @ $448.51 until 2026-09-30 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $437.80 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32841.06 (+31.36% on $25000.00 in) · cash $20847.67 · realised +7847.67
-Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $12936.02 this week
-- SELL 100% META [time stop] -> $2998.40 (-0.05%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-25 14:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-25 14:42 ET (Friday) — week 2026-W39 — budget left $15934.42 (today $147346.78 put to work, 50 buys, 47 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
@@ -398,3 +380,21 @@ Decision: nothing at this check. 9 standing order(s) working.
 - SELL 100% MSFT [time stop] -> $2999.67 (-0.01%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $2998.99 (-0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 15:43 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+
+## 2026-09-25 15:44 ET (Friday) — week 2026-W39 — budget left $21904.37 (today $165346.78 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (DHF excluded: too thinly traded ($0.7M a day) — BNY Mellon High Yield Strategies Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQjMaQ5sMndxiPfSQbYK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32821.37 (+31.29% on $25000.00 in) · cash $29816.02 · realised +7816.02
+Decision: nothing at this check. 3 standing order(s) working.
