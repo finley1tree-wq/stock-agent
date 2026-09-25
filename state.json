@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 6094.29,
-  "deployed": 798254.42,
+  "spent": 9094.29,
+  "deployed": 801254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -30,7 +30,7 @@
     "AMAT": 41.65,
     "PLTR": 22.33,
     "TSM": 5.25,
-    "META": 1.6,
+    "META": 3001.6,
     "AMD": 3000.0
   },
   "deployed_by_ticker": {
@@ -52,7 +52,7 @@
     "IBM": 27734.81,
     "PLD": 13524.38,
     "GOOGL": 60633.21,
-    "META": 33355.56,
+    "META": 36355.56,
     "GLD": 8007.69,
     "AAPL": 18588.84,
     "CRWD": 36262.79,
@@ -12656,12 +12656,29 @@
       ],
       "evidence": "bought 30 min ago, -0.06% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.993503,
+      "price": 751.22,
+      "date": "2026-09-25",
+      "time_et": "15:27",
+      "ts": 1790364456,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+30.4% over the month; 20% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6060.98,
-  "deployed_today": 162346.78,
-  "orders_today": 55,
+  "spent_today": 9060.98,
+  "deployed_today": 165346.78,
+  "orders_today": 56,
   "sells_today": 53,
   "sold_today": [
     "AVGO",
@@ -12715,19 +12732,22 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790364196,
-  "last_check_ts": 1790364365,
+  "last_publish_ts": 1790364456,
+  "last_check_ts": 1790364456,
   "last_bar_ts": 1790364300,
-  "last_decision_ts": 1790364277,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790364456,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "7306ca5d": 517.1525,
     "fb3bf0a9": 632.7499,
     "3f554f6c": 766.8632,
+    "50f002fd": 754.5028,
     "5445a701": 512.9063,
+    "c35af854": 743.0167,
     "cba77f9d": 622.5716,
     "ac48daa3": 501.59,
+    "c7c8b730": 728.6834,
     "3decf479": 500.4618,
     "84da9cc8": 610.9448
   }

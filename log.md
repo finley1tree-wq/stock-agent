@@ -18581,3 +18581,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32820.48 (+31.28% on $25000.00 in) · cash $26817.36 · realised +7817.36
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 15:27 ET (Friday) — week 2026-W39 — budget left $18905.71 (today $162346.78 put to work, 55 buys, 53 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQi5AKvniZYEZ5NeLGBY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,906 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +30.4% over the month; 20% of today's range
+~ WORKING take_profit 100% META @ $754.50 until 2026-09-30 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $743.02 until 2026-09-30 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32819.79 (+31.28% on $25000.00 in) · cash $23817.36 · realised +7817.36
+Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $15905.71 this week
