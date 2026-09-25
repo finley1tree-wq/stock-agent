@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 18068.47,
+  "spent": 15064.77,
   "deployed": 768254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -26,7 +26,7 @@
     "TPL": 15.58,
     "NVDA": 3028.7,
     "NEM": 3.83,
-    "CRWD": 3042.84,
+    "CRWD": 39.14,
     "AMAT": 39.4,
     "PLTR": 3011.65,
     "TSM": 3000.0
@@ -12196,13 +12196,34 @@
       ],
       "evidence": "bought 30 min ago, -0.24% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 11.750833,
+      "status": "filled",
+      "price": 255.62,
+      "proceeds": 3003.7,
+      "realized_pnl": 3.7,
+      "realized_pct": 0.12,
+      "date": "2026-09-25",
+      "time_et": "13:50",
+      "ts": 1790358600,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $255.3",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 18035.16,
+  "spent_today": 15031.46,
   "deployed_today": 132346.78,
   "orders_today": 45,
-  "sells_today": 39,
+  "sells_today": 40,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -12241,7 +12262,7 @@
     "GLD": 1790266131,
     "AAPL": 1790356625,
     "HLI": 1790257382,
-    "CRWD": 1790355592,
+    "CRWD": 1790358605,
     "NLR": 1790264248,
     "HUBB": 1790275954,
     "AMZN": 1790272806,
@@ -12255,32 +12276,29 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790358564,
-  "last_check_ts": 1790358566,
-  "last_bar_ts": 1790358300,
+  "last_publish_ts": 1790358650,
+  "last_check_ts": 1790358650,
+  "last_bar_ts": 1790358600,
   "last_decision_ts": 1790358566,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "ecde0301": 255.744,
+    "2959f246": 516.602,
     "f3f106f6": 517.383,
     "4d7935b9": 225.37,
-    "0a4719b9": 256.6429,
     "b4469c86": 452.4929,
     "618b6dd1": 345.2117,
     "1048c3b5": 192.6876,
-    "3f554f6c": 766.8632,
     "2c7ca6b6": 448.53,
-    "fcc27489": 513.1349,
-    "95eb00d3": 341.7007,
+    "3f554f6c": 766.8632,
     "3976efe5": 223.3401,
+    "95eb00d3": 341.7007,
     "78a53b17": 190.456,
-    "ac48daa3": 501.59,
-    "5ca77800": 186.2885,
-    "969b4b98": 333.8837,
     "48e6d814": 437.8192,
+    "969b4b98": 333.8837,
+    "5ca77800": 186.2885,
+    "ac48daa3": 501.59,
     "3ffbaaa2": 218.0463,
-    "82c58fb3": 500.6849,
-    "66d90bb0": 247.641
+    "82c58fb3": 500.6849
   }
 }
