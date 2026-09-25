@@ -17408,3 +17408,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $607.27 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32822.45 (+31.29% on $25000.00 in) · cash $23812.43 · realised +7812.43
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $15900.79 this week
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $339.06] -> $3006.53 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-09-25 11:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
