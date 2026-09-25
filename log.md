@@ -18790,3 +18790,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $32818.66 (+31.27% on $25000.00 in) · cash $32818.66 · realised +7818.66
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 15:55 ET (Friday) — week 2026-W39 — budget left $24907.01 (today $165346.78 put to work, 56 buys, 56 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (DHF excluded: too thinly traded ($0.7M a day) — BNY Mellon High Yield Strategies Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (inside the last max_hold_minutes of the session: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQkCKbi4JH1YGvhBskpQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $32818.66 (+31.27% on $25000.00 in) · cash $32818.66 · realised +7818.66
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
