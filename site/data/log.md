@@ -1,9 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,933 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +30.1% over the month; 13% of today's range
-~ WORKING take_profit 100% META @ $752.93 until 2026-09-30 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $741.44 until 2026-09-30 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 META @ $727.16 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32827.76 (+31.31% on $25000.00 in) · cash $20844.82 · realised +7844.82
 Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $12933.16 this week
 
@@ -398,3 +392,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $610.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32845.28 (+31.38% on $25000.00 in) · cash $20850.20 · realised +7850.20
 Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $12938.54 this week
+- SELL 100% PLTR [time stop] -> $2992.87 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $2999.33 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 14:05 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $344.37] -> $3001.44 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-09-25 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders

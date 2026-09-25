@@ -18138,3 +18138,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AMD @ $610.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32845.28 (+31.38% on $25000.00 in) · cash $20850.20 · realised +7850.20
 Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $12938.54 this week
+- SELL 100% PLTR [time stop] -> $2992.87 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $2999.33 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 14:05 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $344.37] -> $3001.44 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-09-25 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders

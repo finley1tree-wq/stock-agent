@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 12061.46,
+  "spent": 3067.82,
   "deployed": 771254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -8,7 +8,7 @@
     "MSFT": 39.26,
     "HLI": 19.11,
     "CHRW": 49.91,
-    "GOOGL": 3046.04,
+    "GOOGL": 44.6,
     "RTX": 47.24,
     "AVGO": 9.25,
     "SPY": 4.32,
@@ -24,11 +24,11 @@
     "UNH": 3.38,
     "HUBB": 0.28,
     "TPL": 15.58,
-    "NVDA": 3028.7,
+    "NVDA": 29.37,
     "NEM": 3.83,
     "CRWD": 39.14,
     "AMAT": 39.4,
-    "PLTR": 3011.65,
+    "PLTR": 18.78,
     "TSM": 3.72,
     "AMD": 3000.0
   },
@@ -12276,13 +12276,74 @@
         "autopilot"
       ],
       "evidence": "+30.8% over the month; 28% of today's range"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 15.621062,
+      "status": "filled",
+      "price": 191.59,
+      "proceeds": 2992.87,
+      "realized_pnl": -7.13,
+      "realized_pct": -0.24,
+      "date": "2026-09-25",
+      "time_et": "14:05",
+      "ts": 1790359514,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.22% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 13.345496,
+      "status": "filled",
+      "price": 224.75,
+      "proceeds": 2999.33,
+      "realized_pnl": -0.67,
+      "realized_pct": -0.02,
+      "date": "2026-09-25",
+      "time_et": "14:05",
+      "ts": 1790359514,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.00% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 8.715639,
+      "status": "filled",
+      "price": 344.37,
+      "proceeds": 3001.44,
+      "realized_pnl": 1.44,
+      "realized_pct": 0.05,
+      "date": "2026-09-25",
+      "time_et": "14:06",
+      "ts": 1790359500,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $344.21",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 12028.15,
+  "spent_today": 3034.51,
   "deployed_today": 135346.78,
   "orders_today": 46,
-  "sells_today": 42,
+  "sells_today": 45,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -12301,9 +12362,9 @@
   "sold_ts": {
     "AMAT": 1790358519,
     "AMD": 1790356625,
-    "NVDA": 1790354923,
+    "NVDA": 1790359517,
     "CHRW": 1790276396,
-    "PLTR": 1790355003,
+    "PLTR": 1790359517,
     "MSFT": 1790358973,
     "OKLO": 1790263310,
     "CCJ": 1790269896,
@@ -12317,7 +12378,7 @@
     "UNH": 1790268950,
     "IBM": 1790276895,
     "META": 1790356973,
-    "GOOGL": 1790355123,
+    "GOOGL": 1790359563,
     "GLD": 1790266131,
     "AAPL": 1790356625,
     "HLI": 1790257382,
@@ -12335,26 +12396,17 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790359481,
-  "last_check_ts": 1790359481,
-  "last_bar_ts": 1790359200,
+  "last_publish_ts": 1790359562,
+  "last_check_ts": 1790359562,
+  "last_bar_ts": 1790359500,
   "last_decision_ts": 1790359481,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "cecb22ad": 344.546,
-    "618b6dd1": 345.2117,
-    "4d7935b9": 225.37,
     "0be9e1f8": 632.2476,
     "3f554f6c": 766.8632,
-    "78a53b17": 190.456,
-    "1048c3b5": 192.6876,
-    "3976efe5": 223.3401,
     "196fe40a": 622.0711,
-    "5ca77800": 186.2885,
-    "3ffbaaa2": 218.0463,
     "d845523e": 610.4598,
-    "ac48daa3": 501.59,
-    "969b4b98": 333.8837
+    "ac48daa3": 501.59
   }
 }

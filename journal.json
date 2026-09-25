@@ -40760,5 +40760,78 @@
     "code_version": "3654f61",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "PLTR",
+    "side": "sell",
+    "qty": 15.621062,
+    "status": "filled",
+    "price": 191.59,
+    "proceeds": 2992.87,
+    "realized_pnl": -7.13,
+    "realized_pct": -0.24,
+    "date": "2026-09-25",
+    "time_et": "14:05",
+    "ts": 1790359514,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.22% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "e124d28"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": 13.345496,
+    "status": "filled",
+    "price": 224.75,
+    "proceeds": 2999.33,
+    "realized_pnl": -0.67,
+    "realized_pct": -0.02,
+    "date": "2026-09-25",
+    "time_et": "14:05",
+    "ts": 1790359514,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.00% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "e124d28"
+  },
+  {
+    "symbol": "GOOGL",
+    "side": "sell",
+    "qty": 8.715639,
+    "status": "filled",
+    "price": 344.37,
+    "proceeds": 3001.44,
+    "realized_pnl": 1.44,
+    "realized_pct": 0.05,
+    "date": "2026-09-25",
+    "time_et": "14:06",
+    "ts": 1790359500,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $344.21",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "e124d28"
   }
 ]
