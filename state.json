@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 9077.77,
+  "spent": 3067.35,
   "deployed": 747254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -29,8 +29,6 @@
     "CRWD": 42.84,
     "AMAT": 31.64,
     "PLTR": 11.65,
-    "AMD": 3000.0,
-    "AAPL": 3000.0,
     "META": 3000.0
   },
   "deployed_by_ticker": {
@@ -11995,13 +11993,53 @@
       ],
       "evidence": "bought 30 min ago, -0.34% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 4.764356,
+      "status": "filled",
+      "price": 630.96,
+      "proceeds": 3006.14,
+      "realized_pnl": 6.14,
+      "realized_pct": 0.2,
+      "date": "2026-09-25",
+      "time_et": "13:17",
+      "ts": 1790356624,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.22% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 8.844657,
+      "status": "filled",
+      "price": 339.67,
+      "proceeds": 3004.28,
+      "realized_pnl": 4.28,
+      "realized_pct": 0.14,
+      "date": "2026-09-25",
+      "time_et": "13:17",
+      "ts": 1790356624,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.16% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 9044.46,
+  "spent_today": 3034.04,
   "deployed_today": 111346.78,
   "orders_today": 38,
-  "sells_today": 35,
+  "sells_today": 37,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -12019,7 +12057,7 @@
   ],
   "sold_ts": {
     "AMAT": 1790353932,
-    "AMD": 1790352024,
+    "AMD": 1790356625,
     "NVDA": 1790354923,
     "CHRW": 1790276396,
     "PLTR": 1790355003,
@@ -12038,7 +12076,7 @@
     "META": 1790352435,
     "GOOGL": 1790355123,
     "GLD": 1790266131,
-    "AAPL": 1790351847,
+    "AAPL": 1790356625,
     "HLI": 1790257382,
     "CRWD": 1790355592,
     "NLR": 1790264248,
@@ -12054,23 +12092,17 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790356450,
-  "last_check_ts": 1790356542,
+  "last_publish_ts": 1790356624,
+  "last_check_ts": 1790356624,
   "last_bar_ts": 1790356500,
   "last_decision_ts": 1790356542,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "64d3fc11": 339.9362,
-    "abe7c9b5": 339.454,
-    "792b84af": 630.604,
-    "a4640c60": 632.5891,
     "18dc61a9": 752.9335,
     "3f554f6c": 766.8632,
     "c1c2ff33": 741.4413,
     "ac48daa3": 501.59,
-    "cee4647f": 727.1605,
-    "32e4d59d": 329.0143,
-    "33084381": 610.7896
+    "cee4647f": 727.1605
   }
 }
