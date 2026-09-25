@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "14ce2cb3",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 187.2003,
-   "status": "cancelled",
-   "created": "2026-09-23 15:55",
-   "created_ts": 1790193350,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $192.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:56",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "28fdd86c",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 187.2003,
-   "status": "cancelled",
-   "created": "2026-09-23 15:56",
-   "created_ts": 1790193400,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $192.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:57",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "7f642059",
    "ticker": "PLTR",
    "kind": "stop_loss",
@@ -7219,7 +7181,7 @@
    "ticker": "AMAT",
    "kind": "stop_loss",
    "price": 478.2394,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 12:19",
    "created_ts": 1790353146,
    "why": "close it all at -1.0% under the average cost",
@@ -7229,7 +7191,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:27",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7ae62482",
@@ -7406,7 +7370,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 515.7088,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 12:24",
    "created_ts": 1790353484,
    "why": "close 100% at +0.2% over the average cost",
@@ -7416,14 +7380,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:27"
   },
   {
    "id": "c95dcb15",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 511.5156,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 12:24",
    "created_ts": 1790353484,
    "why": "close it all at -0.6% under the average cost",
@@ -7433,14 +7398,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:26",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "8759701a",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 499.0747,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 12:24",
    "created_ts": 1790353484,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7450,8 +7417,46 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 12:27",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "ed11f1e5",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 515.014,
+   "status": "cancelled",
+   "created": "2026-09-25 12:26",
+   "created_ts": 1790353601,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $514.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:27",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "1defd048",
+   "ticker": "AMAT",
+   "kind": "stop_loss",
+   "price": 484.0,
+   "status": "working",
+   "created": "2026-09-25 12:27",
+   "created_ts": 1790353647,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $483.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 12:24"
+ "updated": "2026-09-25 12:27"
 }

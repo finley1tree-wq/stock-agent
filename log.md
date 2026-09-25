@@ -17574,3 +17574,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $499.07 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32819.41 (+31.28% on $25000.00 in) · cash $17835.72 · realised +7835.72
 Done: 0 sell(s), 1 buy(s); 17 order(s) working; budget left $9924.07 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $515.71] -> $3006.97 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-25 12:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 12:27 ET (Friday) — week 2026-W39 — budget left $12931.04 (today $96346.78 put to work, 33 buys, 29 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQULPwm53cMuzYgTJzwr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32848.95 (+31.40% on $25000.00 in) · cash $20842.69 · realised +7842.69
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
