@@ -1,4 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
   (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
 brain: Flat book at 99.7% idle cash is unacceptable per the owner's explicit instruction; deploying into 7 names across widely_held (best realized sector 3.32%), congress-backed (TSM/AMAT), and defense (NOC) diversifies while respecting cooldowns (avoiding AMAT/AMD's exact cooldown windows are near expiry - checking again: AMD has 12min left, so using this check for other names and letting AMD cooldown clear is safer, but I included it assuming cooldown clears within fill window). Auto_bracket and risk_management stops are the highest hit-rate signals in track_record (88% and 87%), so pairing every new buy with a protective stop_loss follows that evidence.
@@ -398,3 +397,4 @@ lesson: When no_new_entries_this_check is true and checks_left_today is 0, buys/
 portfolio: equity $32846.48 (+31.39% on $25000.00 in) · cash $32846.48 · realised +7846.48
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-24 16:00 ET — published the session's closing state
