@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 3067.82,
-  "deployed": 771254.42,
+  "spent": 6067.82,
+  "deployed": 774254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -30,7 +30,8 @@
     "AMAT": 39.4,
     "PLTR": 18.78,
     "TSM": 3.72,
-    "AMD": 3000.0
+    "AMD": 3000.0,
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "AMD": 61363.85,
@@ -51,7 +52,7 @@
     "IBM": 27734.81,
     "PLD": 13524.38,
     "GOOGL": 57633.21,
-    "META": 30355.56,
+    "META": 33355.56,
     "GLD": 8007.69,
     "AAPL": 18588.84,
     "CRWD": 33262.79,
@@ -12337,12 +12338,29 @@
       ],
       "evidence": "average cost $344.21",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.992759,
+      "price": 751.36,
+      "date": "2026-09-25",
+      "time_et": "14:10",
+      "ts": 1790359820,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+30.4% over the month; 20% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 3034.51,
-  "deployed_today": 135346.78,
-  "orders_today": 46,
+  "spent_today": 6034.51,
+  "deployed_today": 138346.78,
+  "orders_today": 47,
   "sells_today": 45,
   "sold_today": [
     "AVGO",
@@ -12396,16 +12414,19 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790359562,
-  "last_check_ts": 1790359743,
-  "last_bar_ts": 1790359500,
-  "last_decision_ts": 1790359654,
-  "next_check_minutes": null,
+  "last_publish_ts": 1790359820,
+  "last_check_ts": 1790359820,
+  "last_bar_ts": 1790359800,
+  "last_decision_ts": 1790359820,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "0be9e1f8": 632.2476,
+    "d2d7f69e": 754.6434,
     "3f554f6c": 766.8632,
+    "a9b541d4": 743.1551,
     "196fe40a": 622.0711,
+    "8c7cfd90": 728.8192,
     "d845523e": 610.4598,
     "ac48daa3": 501.59
   }
