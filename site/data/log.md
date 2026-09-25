@@ -1,8 +1,3 @@
-  (dropped TSM: sold 26 min ago, cooling off)
-  (dropped NOC: sold 11 min ago, cooling off)
-  (dropped AMD: 96% up today's range — resting a limit at $613.37 instead of chasing)
-- BUY $2500.00 PLTR [filled] ['momentum', 'news'] — Strong momentum continuing, not in cooldown, fresh high-of-year headline | evidence: PLTR +0.82% today, +9.71% 5d, headline 'Palantir Just Hit a One-Year High' 2026-09-24T12:33
-- BUY $2000.00 CCJ [filled] ['news', 'momentum'] — Nuclear theme with positive headline, reasonable entry point mid-range not chasing highs | evidence: '2 Strong Buy Nuclear Power Stocks Offering Compelling Value' TipRanks 2026-09-23; CCJ at 67.4% of day range, off cooldown
 - BUY $2000.00 IBM [filled] ['news', 'momentum'] — Low in day range gives good entry, fresh positive catalyst headline, off cooldown | evidence: IBM 31.3% of day range (low), headline 'IBM Expands Digital Asset Platform With Swift Ledger Integration' 2026-09-24T15:55
 - BUY $2000.00 HD [filled] ['news', 'momentum'] — Low in day range entry, positive retail supply-chain headline catalyst | evidence: HD 38.4% of day range (low), headline 'This Company's Software Manages Supply Chains for Retailers. Its Stock Can Surge 30%' Barrons 2026-09-24T12:01
   (dropped trigger MSFT stop_loss: not held)
@@ -398,3 +393,8 @@ lesson: Flat book with min_positions unmet and full_deployment active should be 
 ~ WORKING buy_limit $1000.00 AAPL @ $333.92 until 2026-09-26 — strong month, weak day: resting 0.40% under $335.27 to catch the dip
 portfolio: equity $32842.38 (+31.37% on $25000.00 in) · cash $15846.48 · realised +7846.48
 Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $353.00] -> $3511.06 (+0.32%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $255.89] -> $1973.84 (-1.31%) — close it all at -1.3% under the average cost
+## 2026-09-25 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders

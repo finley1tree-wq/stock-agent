@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 17065.15,
+  "spent": 11580.25,
   "deployed": 652907.64,
   "by_ticker": {
     "NOC": 3512.77,
@@ -10,7 +10,7 @@
     "CHRW": 49.91,
     "GOOGL": 39.47,
     "RTX": 47.24,
-    "AVGO": 3520.31,
+    "AVGO": 9.25,
     "SPY": 4.3,
     "O": 31.89,
     "PLD": 9.35,
@@ -30,7 +30,7 @@
     "NVDA": 2.09,
     "NEM": 3.83,
     "AMD": 4000.0,
-    "CRWD": 2000.0
+    "CRWD": 26.16
   },
   "deployed_by_ticker": {
     "AMD": 49363.85,
@@ -10690,14 +10690,59 @@
         "momentum"
       ],
       "evidence": "CRWD +9.08% 5d, +37.03% 1m, headline 'CrowdStrike Joined A Founding Alliance To Secure AI Agents'"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 9.94628,
+      "status": "filled",
+      "price": 353.0,
+      "proceeds": 3511.06,
+      "realized_pnl": 11.06,
+      "realized_pct": 0.32,
+      "date": "2026-09-25",
+      "time_et": "09:35",
+      "ts": 1790343300,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $351.89",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 7.713614,
+      "status": "filled",
+      "price": 255.89,
+      "proceeds": 1973.84,
+      "realized_pnl": -26.16,
+      "realized_pct": -1.31,
+      "date": "2026-09-25",
+      "time_et": "09:35",
+      "ts": 1790343300,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $259.28",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 17000.0,
+  "spent_today": 11515.1,
   "deployed_today": 17000.0,
   "orders_today": 5,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 2,
+  "sold_today": [
+    "AVGO",
+    "CRWD"
+  ],
   "sold_ts": {
     "AMAT": 1790275164,
     "AMD": 1790274667,
@@ -10713,7 +10758,7 @@
     "RTX": 1790262328,
     "PLD": 1790264066,
     "TSM": 1790275871,
-    "AVGO": 1790272395,
+    "AVGO": 1790343305,
     "UNH": 1790268950,
     "IBM": 1790276895,
     "META": 1790259746,
@@ -10721,7 +10766,7 @@
     "GLD": 1790266131,
     "AAPL": 1790262328,
     "HLI": 1790257382,
-    "CRWD": 1790275908,
+    "CRWD": 1790343306,
     "NLR": 1790264248,
     "HUBB": 1790275954,
     "AMZN": 1790272806,
@@ -10735,31 +10780,25 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790343148,
-  "last_check_ts": 1790343148,
-  "last_bar_ts": 1790343000,
+  "last_publish_ts": 1790343305,
+  "last_check_ts": 1790343305,
+  "last_bar_ts": 1790343300,
   "last_decision_ts": 1790343148,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "32f03242": 451.514,
-    "e047bac6": 511.69,
-    "b80af62f": 353.002,
     "45dc7ea9": 192.3789,
     "bf8a585c": 333.9247,
-    "88486b3f": 637.5889,
-    "f26792c4": 260.5842,
     "0e97a806": 507.4225,
-    "ac48daa3": 501.59,
-    "63a5fe69": 349.1101,
+    "32f03242": 451.514,
+    "88486b3f": 637.5889,
     "239e0ede": 751.7205,
-    "6ea00982": 256.0183,
+    "e047bac6": 511.69,
+    "ac48daa3": 501.59,
     "c9a3407e": 495.1559,
-    "77f49c96": 186.0,
-    "b8c727a7": 185.9975,
     "d328455f": 615.6784,
-    "98b15c2e": 341.3333,
-    "fd99f0b5": 251.5016,
-    "f5acc49f": 615.0
+    "77f49c96": 186.0,
+    "f5acc49f": 615.0,
+    "b8c727a7": 185.9975
   }
 }

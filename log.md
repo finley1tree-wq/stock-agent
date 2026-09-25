@@ -16706,3 +16706,8 @@ lesson: Flat book with min_positions unmet and full_deployment active should be 
 ~ WORKING buy_limit $1000.00 AAPL @ $333.92 until 2026-09-26 — strong month, weak day: resting 0.40% under $335.27 to catch the dip
 portfolio: equity $32842.38 (+31.37% on $25000.00 in) · cash $15846.48 · realised +7846.48
 Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $353.00] -> $3511.06 (+0.32%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $255.89] -> $1973.84 (-1.31%) — close it all at -1.3% under the average cost
+## 2026-09-25 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
