@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 6085.19,
+  "spent": 3099.21,
   "deployed": 711254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -29,7 +29,7 @@
     "NEM": 3.83,
     "CRWD": 31.91,
     "AMAT": 44.17,
-    "PLTR": 3000.0
+    "PLTR": 14.02
   },
   "deployed_by_ticker": {
     "AMD": 52363.85,
@@ -11558,13 +11558,33 @@
         "autopilot"
       ],
       "evidence": "+7.9% over the month; 82% of today's range"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 15.640612,
+      "status": "filled",
+      "price": 190.91,
+      "proceeds": 2985.98,
+      "realized_pnl": -14.02,
+      "realized_pct": -0.47,
+      "date": "2026-09-25",
+      "time_et": "11:47",
+      "ts": 1790351275,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.45% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6051.88,
+  "spent_today": 3065.9,
   "deployed_today": 75346.78,
   "orders_today": 26,
-  "sells_today": 24,
+  "sells_today": 25,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -11585,7 +11605,7 @@
     "AMD": 1790349004,
     "NVDA": 1790350423,
     "CHRW": 1790276396,
-    "PLTR": 1790346666,
+    "PLTR": 1790351275,
     "MSFT": 1790350512,
     "OKLO": 1790263310,
     "CCJ": 1790269896,
@@ -11617,8 +11637,8 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790351046,
-  "last_check_ts": 1790351225,
+  "last_publish_ts": 1790351275,
+  "last_check_ts": 1790351321,
   "last_bar_ts": 1790351100,
   "last_decision_ts": 1790351225,
   "next_check_minutes": null,
@@ -11626,11 +11646,8 @@
   "book_px": {
     "3f554f6c": 766.8632,
     "23ec9f10": 339.0642,
-    "55e91623": 190.2161,
     "3de885c9": 336.4929,
-    "8d07be72": 192.4487,
     "ac48daa3": 501.59,
-    "56a82919": 186.0557,
     "08e5599a": 328.1801
   }
 }
