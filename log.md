@@ -18024,3 +18024,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32836.19 (+31.34% on $25000.00 in) · cash $14850.95 · realised +7850.95
 Decision: nothing at this check. 20 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 13:46 ET (Friday) — week 2026-W39 — budget left $6939.29 (today $129346.78 put to work, 44 buys, 38 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQaNXk5DvLaZZ69HNN7j'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,939 idle, so opened 1: CRWD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +34.9% over the month; 40% of today's range
+~ WORKING take_profit 100% CRWD @ $256.64 until 2026-09-30 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% CRWD @ $251.94 until 2026-09-30 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $247.64 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32836.77 (+31.35% on $25000.00 in) · cash $11850.95 · realised +7850.95
+Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $3939.29 this week
