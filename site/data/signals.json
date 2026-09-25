@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-25T14:36-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,936 idle, so opened 2: CRWD, AMAT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "asOf": "2026-09-25T14:39-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,936 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "61edc524",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 452.4729,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 451.25,
+   "pct_away": 0.27,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "d2d7f69e",
    "ticker": "META",
    "kind": "take_profit",
@@ -146,44 +163,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 751.32,
-   "pct_away": 0.44,
+   "last": 751.07,
+   "pct_away": 0.48,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c8b13bdb",
-   "ticker": "AMAT",
-   "kind": "take_profit",
-   "price": 487.3992,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 485.28,
-   "pct_away": 0.44,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "da2a8a58",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 256.2634,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 254.87,
-   "pct_away": 0.55,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,13 +180,64 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 771.17,
-   "pct_away": -0.56,
+   "last": 770.61,
+   "pct_away": -0.49,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.20% under $768.40 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "da2a8a58",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 256.2634,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 254.88,
+   "pct_away": 0.54,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c8b13bdb",
+   "ticker": "AMAT",
+   "kind": "take_profit",
+   "price": 487.3992,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 484.67,
+   "pct_away": 0.56,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fbf972c4",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 448.5101,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 451.25,
+   "pct_away": -0.61,
+   "good_until": "2026-09-30",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -214,8 +248,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 485.28,
-   "pct_away": -1.02,
+   "last": 484.67,
+   "pct_away": -0.89,
    "good_until": "2026-09-30",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -231,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 751.32,
-   "pct_away": -1.09,
+   "last": 751.07,
+   "pct_away": -1.05,
    "good_until": "2026-09-30",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -248,27 +282,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 254.87,
+   "last": 254.88,
    "pct_away": -1.3,
    "good_until": "2026-09-30",
    "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "954def26",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 247.2724,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 254.87,
-   "pct_away": -2.98,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,8 +299,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 485.28,
-   "pct_away": -2.98,
+   "last": 484.67,
+   "pct_away": -2.86,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -299,8 +316,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 751.32,
-   "pct_away": -2.99,
+   "last": 751.07,
+   "pct_away": -2.96,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "954def26",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 247.2724,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 254.88,
+   "pct_away": -2.98,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d2cda89e",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 437.7998,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 451.25,
+   "pct_away": -2.98,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -316,8 +367,8 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 518.24,
-   "pct_away": -3.21,
+   "last": 517.7,
+   "pct_away": -3.11,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
@@ -327,7 +378,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,936 idle, so opened 2: CRWD, AMAT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,936 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -375,10 +426,9 @@
   "congress_notes": "",
   "insiders": "ok",
   "excluded_instruments": [
-   "AEF excluded: too thinly traded ($1.1M a day) \u2014 abrdn Emerging Markets ex-China Fund, Inc.",
-   "ANIX excluded: too thinly traded ($0.8M a day) \u2014 Anixa Biosciences, Inc.",
    "AORT excluded: too thinly traded ($17.9M a day) \u2014 Artivion, Inc.",
-   "EDRY excluded: too thinly traded ($6.5M a day) \u2014 EuroDry Ltd.",
+   "CUEN excluded: too thinly traded ($0.0M a day) \u2014 Cuentas Inc.",
+   "DFDV excluded: too thinly traded ($8.5M a day) \u2014 DeFi Development Corp.",
    "EPAC excluded: too thinly traded ($16.4M a day) \u2014 Enerpac Tool Group Corp.",
    "FTHY excluded: too thinly traded ($1.2M a day) \u2014 First Trust High Yield Opportunities 2027 Term Fund",
    "HMN excluded: too thinly traded ($13.6M a day) \u2014 Horace Mann Educators Corporation",
@@ -391,8 +441,8 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 303,
-  "decisions_with_buys_graded": 148,
+  "decisions_graded": 302,
+  "decisions_with_buys_graded": 147,
   "independent_days_graded": 6,
   "avg_regret_pct": -0.39,
   "chosen_avg_pct": 0.67,
@@ -403,8 +453,8 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 107,
-    "avg_pct": 1.17
+    "n": 105,
+    "avg_pct": 1.18
    },
    "congress": {
     "n": 96,
@@ -419,8 +469,8 @@
     "avg_pct": -0.3
    },
    "momentum": {
-    "n": 322,
-    "avg_pct": 0.36
+    "n": 320,
+    "avg_pct": 0.35
    },
    "news": {
     "n": 205,
@@ -1420,6 +1470,326 @@
  },
  "insider_trades": [
   {
+   "who": "White Parker",
+   "role": "10 percent owner",
+   "ticker": "DFDV",
+   "type": "buy",
+   "shares": 9462,
+   "price": 8.96,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "White Parker",
+   "role": "10 percent owner",
+   "ticker": "DFDV",
+   "type": "buy",
+   "shares": 538,
+   "price": 8.9,
+   "transaction_date": "2026-09-25",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 300,
+   "price": 0.56,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 300,
+   "price": 0.63,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 300,
+   "price": 0.6,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 300,
+   "price": 0.54,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 500,
+   "price": 0.55,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 500,
+   "price": 0.55,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 500,
+   "price": 0.55,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 500,
+   "price": 0.54,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 1000,
+   "price": 0.54,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 1200,
+   "price": 0.55,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 300,
+   "price": 0.54,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 500,
+   "price": 0.63,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.63,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.63,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 1500,
+   "price": 0.63,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.63,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.64,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 300,
+   "price": 0.65,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.6,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.62,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.6,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.6,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.64,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 500,
+   "price": 0.66,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 200,
+   "price": 0.64,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.57,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.57,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.57,
+   "transaction_date": "2026-09-24",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Maimon Shalom Arik",
+   "role": "officer: CEO",
+   "ticker": "CUEN",
+   "type": "buy",
+   "shares": 100,
+   "price": 0.64,
+   "transaction_date": "2026-09-25",
+   "filing_date": "2026-09-25"
+  },
+  {
+   "who": "Monges Viviane",
+   "role": "director",
+   "ticker": "PHVS",
+   "type": "sell",
+   "shares": 11969,
+   "price": 33.0457,
+   "transaction_date": "2026-09-23",
+   "filing_date": "2026-09-25"
+  },
+  {
    "who": "Hamilton Michael S.",
    "role": "other: Portfolio Manager",
    "ticker": "NEA",
@@ -1618,113 +1988,19 @@
    "price": 2.15,
    "transaction_date": "2026-09-15",
    "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Pittas Aristeidis P",
-   "role": "director",
-   "ticker": "EDRY",
-   "type": "buy",
-   "shares": 450,
-   "price": 51.3324,
-   "transaction_date": "2026-09-24",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Cope Jennifer",
-   "role": "officer: EVP Ops Services & Risk Mgmt",
-   "ticker": "CBL",
-   "type": "sell",
-   "shares": 6763,
-   "price": 52.0012,
-   "transaction_date": "2026-09-24",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Lam Chi Ming",
-   "role": "director",
-   "ticker": "PMA",
-   "type": "sell",
-   "shares": 120000,
-   "price": 1.3005,
-   "transaction_date": "2026-09-24",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Lam Chi Ming",
-   "role": "director",
-   "ticker": "PMA",
-   "type": "sell",
-   "shares": 47865,
-   "price": 1.3023,
-   "transaction_date": "2026-09-25",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Clark Anthony S.",
-   "role": "director",
-   "ticker": "AEF",
-   "type": "buy",
-   "shares": 4500,
-   "price": 9.63,
-   "transaction_date": "2026-09-24",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Japan Post Holdings Co., Ltd.",
-   "role": "10 percent owner",
-   "ticker": "AFL",
-   "type": "sell",
-   "shares": 3542,
-   "price": 114.93,
-   "transaction_date": "2026-09-23",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Japan Post Holdings Co., Ltd.",
-   "role": "10 percent owner",
-   "ticker": "AFL",
-   "type": "sell",
-   "shares": 9958,
-   "price": 115.3,
-   "transaction_date": "2026-09-23",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Titterton Lewis H jr",
-   "role": "director",
-   "ticker": "ANIX",
-   "type": "buy",
-   "shares": 49036,
-   "price": 2.69,
-   "transaction_date": "2026-09-23",
-   "filing_date": "2026-09-25"
-  },
-  {
-   "who": "Yue Ying",
-   "role": "officer: Vice President",
-   "ticker": "YB",
-   "type": "sell",
-   "shares": 2866,
-   "price": 0,
-   "transaction_date": "2026-09-24",
-   "filing_date": "2026-09-25"
   }
  ],
  "insider_pressure": {
+  "CUEN": 29.0,
   "RGCO": 13.0,
+  "DFDV": 2.0,
   "HRGN": 2.0,
   "RCG": 1.0,
   "FTHY": 1.0,
   "TPL": 1.0,
   "KBDC": 1.0,
-  "EDRY": 1.0,
-  "AEF": 1.0,
-  "ANIX": 1.0,
-  "NEA": -1.0,
-  "CBL": -1.0,
-  "YB": -1.0,
-  "PMA": -2.0,
-  "AFL": -2.0
+  "PHVS": -1.0,
+  "NEA": -1.0
  },
  "headlines": {
   "AAPL": [
@@ -1960,9 +2236,9 @@
     "when": "2026-09-25T15:08"
    },
    {
-    "title": "America Needs More Electricity. Here\u2019s What It Could Mean for DTE Energy",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-25T18:00"
+    "title": "Google\u2019s New Initiative Aims to Match 25,000 Veterans With These In-Demand Jobs",
+    "source": "Entrepreneur",
+    "when": "2026-09-25T18:04"
    }
   ],
   "HD": [
@@ -2375,5 +2651,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-25T14:36-04:00"
+ "signalsAsOf": "2026-09-25T14:39-04:00"
 }

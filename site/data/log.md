@@ -1,20 +1,3 @@
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-25 13:27 ET (Friday) — week 2026-W39 — budget left $18939.29 (today $117346.78 put to work, 40 buys, 38 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQYsiMcx9g1d29UXGYU4'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32849.92 (+31.40% on $25000.00 in) · cash $26850.95 · realised +7850.95
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-09-25 13:29 ET (Friday) — week 2026-W39 — budget left $18939.29 (today $117346.78 put to work, 40 buys, 38 sells) — SIM (pretend money) via sim
   (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 AMAT @ $470.82 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32846.31 (+31.39% on $25000.00 in) · cash $23847.67 · realised +7847.67
 Done: 0 sell(s), 2 buy(s); 11 order(s) working; budget left $15936.02 this week
+
+## 2026-09-25 14:39 ET (Friday) — week 2026-W39 — budget left $15936.02 (today $144346.78 put to work, 49 buys, 46 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
+  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQeNstW4gFg4qmftEHdq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,936 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick W. Allen), $1,001 - $15,000; +8.0% over the month; 37% of today's range
+~ WORKING take_profit 100% TSM @ $452.47 until 2026-09-30 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $448.51 until 2026-09-30 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $437.80 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32841.06 (+31.36% on $25000.00 in) · cash $20847.67 · realised +7847.67
+Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $12936.02 this week
