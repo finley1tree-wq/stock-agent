@@ -1,52 +1,3 @@
-## 2026-09-25 13:17 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-25 13:18 ET (Friday) — week 2026-W39 — budget left $21932.65 (today $111346.78 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQYDz38ttK8EpHi246Sm'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,933 idle, so opened 1: AMAT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 AMAT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer, Jared Moskowitz), $1,001 - $15,000; +1.0% over the month; 79% of today's range
-~ WORKING take_profit 100% AMAT @ $486.89 until 2026-09-30 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMAT @ $479.83 until 2026-09-30 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 AMAT @ $470.32 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32845.47 (+31.38% on $25000.00 in) · cash $26844.30 · realised +7844.30
-Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $18932.65 this week
-
-## 2026-09-25 13:21 ET (Friday) — week 2026-W39 — budget left $18932.65 (today $114346.78 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQYStNSCktAs2xwigEM2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,933 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick W. Allen), $1,001 - $15,000; +8.0% over the month; 38% of today's range
-~ WORKING take_profit 100% TSM @ $452.49 until 2026-09-30 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% TSM @ $448.53 until 2026-09-30 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $437.82 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32848.16 (+31.39% on $25000.00 in) · cash $23844.30 · realised +7844.30
-Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $15932.65 this week
-- SELL 100% META [time stop] -> $3006.64 (+0.22%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-25 13:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-25 13:24 ET (Friday) — week 2026-W39 — budget left $18939.29 (today $117346.78 put to work, 40 buys, 38 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQYfdRNgQ1MJM2rPJfo7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32851.50 (+31.41% on $25000.00 in) · cash $26850.95 · realised +7850.95
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +349,52 @@ Decision: nothing at this check. 8 standing order(s) working.
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [stop_loss @ $630.14] -> $3003.84 (+0.13%) — close it all at -1.2% under the average cost
 ## 2026-09-25 14:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 14:29 ET (Friday) — week 2026-W39 — budget left $21936.02 (today $138346.78 put to work, 47 buys, 46 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQde6cmjFU88nTtdQhBA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32844.72 (+31.38% on $25000.00 in) · cash $29847.67 · realised +7847.67
+Decision: nothing at this check. 5 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 14:32 ET (Friday) — week 2026-W39 — budget left $21936.02 (today $138346.78 put to work, 47 buys, 46 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQds8M4cLz9c9MtSWdeS'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32848.23 (+31.39% on $25000.00 in) · cash $29847.67 · realised +7847.67
+Decision: nothing at this check. 5 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-25 14:36 ET (Friday) — week 2026-W39 — budget left $21936.02 (today $138346.78 put to work, 47 buys, 46 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQe9SviC4m4a9yuChpim'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,936 idle, so opened 2: CRWD, AMAT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CRWD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers); +34.7% over the month; 35% of today's range
+- BUY $3000.00 AMAT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer, Jared Moskowitz), $1,001 - $15,000; +1.1% over the month; 84% of today's range
+~ WORKING take_profit 100% CRWD @ $256.26 until 2026-09-30 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% CRWD @ $251.56 until 2026-09-30 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $247.27 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMAT @ $487.40 until 2026-09-30 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMAT @ $480.34 until 2026-09-30 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 AMAT @ $470.82 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32846.31 (+31.39% on $25000.00 in) · cash $23847.67 · realised +7847.67
+Done: 0 sell(s), 2 buy(s); 11 order(s) working; budget left $15936.02 this week
