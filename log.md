@@ -16719,3 +16719,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
 ## 2026-09-25 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $3000.00 TSM [buy_limit @ $451.51] — wanted it, but not at the high — resting at $451.51. Semiconductor momentum plus congress buy signal
 ## 2026-09-25 09:44 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $452.62] -> $3007.35 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-25 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% IBM @ $222.50 until 2026-09-24 — Standard protective stop on new IBM position
-~ WORKING stop_loss 100% HD @ $287.00 until 2026-09-24 — Standard protective stop on new HD position
-~ WORKING buy_limit $2000.00 AMD @ $613.37 until 2026-09-24 — wanted it, but not at the high — resting at $613.37. Strong multi-timeframe momentum in widely_held best sector, cooldown recently ended history of prior gains
 ~ WORKING take_profit 100% PLTR @ $194.08 until 2026-09-29 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 PLTR @ $187.60 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% CCJ @ $90.12 until 2026-09-29 — close 100% at +0.4% over the average cost
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 19 order(s) working; budget left $7934.85 this week
 ## 2026-09-25 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $3000.00 TSM [buy_limit @ $451.51] — wanted it, but not at the high — resting at $451.51. Semiconductor momentum plus congress buy signal
 ## 2026-09-25 09:44 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $452.62] -> $3007.35 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-25 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

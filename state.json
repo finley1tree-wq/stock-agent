@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 7058.76,
+  "spent": 4051.41,
   "deployed": 655907.64,
   "by_ticker": {
     "NOC": 4.43,
@@ -25,7 +25,6 @@
     "UNH": 3.38,
     "HUBB": 0.28,
     "TPL": 15.58,
-    "TSM": 3003.72,
     "NVDA": 2.09,
     "NEM": 3.83,
     "AMD": 4000.0,
@@ -10793,18 +10792,40 @@
       ],
       "evidence": "TSM +4.02% 5d, Rep. Rick W. Allen disclosed TSM buy 2026-08-12",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.644312,
+      "status": "filled",
+      "price": 452.62,
+      "proceeds": 3007.35,
+      "realized_pnl": 7.35,
+      "realized_pct": 0.25,
+      "date": "2026-09-25",
+      "time_et": "09:47",
+      "ts": 1790343900,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $451.51",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6993.61,
+  "spent_today": 3986.26,
   "deployed_today": 20000.0,
   "orders_today": 6,
-  "sells_today": 4,
+  "sells_today": 5,
   "sold_today": [
     "AVGO",
     "CRWD",
     "PLTR",
-    "NOC"
+    "NOC",
+    "TSM"
   ],
   "sold_ts": {
     "AMAT": 1790275164,
@@ -10820,7 +10841,7 @@
     "NOC": 1790343821,
     "RTX": 1790262328,
     "PLD": 1790264066,
-    "TSM": 1790275871,
+    "TSM": 1790344032,
     "AVGO": 1790343305,
     "UNH": 1790268950,
     "IBM": 1790276895,
@@ -10843,21 +10864,18 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790343866,
-  "last_check_ts": 1790343949,
+  "last_publish_ts": 1790344032,
+  "last_check_ts": 1790344032,
   "last_bar_ts": 1790343900,
   "last_decision_ts": 1790343148,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "239e0ede": 751.7205,
-    "f3a83efb": 452.6207,
-    "75f917a3": 448.7332,
-    "bf8a585c": 333.9247,
     "88486b3f": 637.5889,
+    "239e0ede": 751.7205,
+    "bf8a585c": 333.9247,
     "ac48daa3": 501.59,
     "d328455f": 615.6784,
-    "f5acc49f": 615.0,
-    "2e1618ac": 437.9647
+    "f5acc49f": 615.0
   }
 }

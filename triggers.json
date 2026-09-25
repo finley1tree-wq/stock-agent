@@ -1,26 +1,6 @@
 {
  "orders": [
   {
-   "id": "ddb9c92e",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 149.4195,
-   "status": "cancelled",
-   "created": "2026-09-23 13:51",
-   "created_ts": 1790185901,
-   "why": "wanted it, but not at the high \u2014 resting at $149.42. Top congress-pressure name not held, diversifies away from tech/defense already in book",
-   "evidence": "congress_net_buy_pressure CHRW=3.0 (highest score, April McClain Delaney buys disclosed 2026-09-09); price 150.92, day range 95.7% - near high but cooling_off list clear",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-23",
-   "usd": 2200.0,
-   "closed": "2026-09-23 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "11f9c646",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -7438,7 +7418,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 452.6207,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 09:44",
    "created_ts": 1790343866,
    "why": "close 100% at +0.2% over the average cost",
@@ -7448,14 +7428,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:47"
   },
   {
    "id": "75f917a3",
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 448.7332,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:44",
    "created_ts": 1790343866,
    "why": "close it all at -0.6% under the average cost",
@@ -7465,14 +7446,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2e1618ac",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 437.9647,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:44",
    "created_ts": 1790343866,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7482,8 +7465,29 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 09:47",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "a6b8912e",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 451.864,
+   "status": "cancelled",
+   "created": "2026-09-25 09:46",
+   "created_ts": 1790343986,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $451.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:47",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-25 09:44"
+ "updated": "2026-09-25 09:47"
 }
