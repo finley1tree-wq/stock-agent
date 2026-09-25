@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 6439.36,
-  "deployed": 675254.42,
+  "spent": 9439.36,
+  "deployed": 678254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -28,7 +28,8 @@
     "NVDA": 22.44,
     "NEM": 3.83,
     "CRWD": 3026.16,
-    "AMAT": 32.7
+    "AMAT": 32.7,
+    "PLTR": 3000.0
   },
   "deployed_by_ticker": {
     "AMD": 49363.85,
@@ -36,7 +37,7 @@
     "NVDA": 24477.89,
     "CHRW": 11600.0,
     "TTD": 7500.0,
-    "PLTR": 41507.55,
+    "PLTR": 44507.55,
     "MSFT": 31025.0,
     "OKLO": 17000.0,
     "NOC": 36253.2,
@@ -11080,12 +11081,29 @@
         "congress"
       ],
       "evidence": "congress net buying (2 net buyers); +34.7% over the month; 34% of today's range"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 15.695448,
+      "price": 191.14,
+      "date": "2026-09-25",
+      "time_et": "10:23",
+      "ts": 1790346194,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+7.7% over the month; 14% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6406.05,
-  "deployed_today": 39346.78,
-  "orders_today": 14,
+  "spent_today": 9406.05,
+  "deployed_today": 42346.78,
+  "orders_today": 15,
   "sells_today": 11,
   "sold_today": [
     "AVGO",
@@ -11137,23 +11155,26 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790346027,
-  "last_check_ts": 1790346111,
+  "last_publish_ts": 1790346194,
+  "last_check_ts": 1790346194,
   "last_bar_ts": 1790346000,
-  "last_decision_ts": 1790346027,
+  "last_decision_ts": 1790346194,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "adfb2377": 336.4485,
-    "b2a7ab68": 340.6289,
-    "bf8a585c": 333.9247,
-    "fd2324e2": 333.9372,
     "6f9821dd": 256.183,
+    "2ccbe50c": 191.7746,
+    "fd2324e2": 333.9372,
+    "bf8a585c": 333.9247,
+    "b2a7ab68": 340.6289,
     "b01730f6": 344.115,
+    "abf15e43": 189.5516,
     "d6d9e35d": 251.4812,
     "ac48daa3": 501.59,
     "8339aa1b": 332.8264,
     "6366b9b6": 325.6581,
+    "2a6f5e3b": 185.4058,
     "eb2ea0c8": 247.1948
   }
 }

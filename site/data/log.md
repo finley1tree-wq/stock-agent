@@ -1,20 +1,3 @@
-
-## 2026-09-24 13:55 ET (Thursday) — week 2026-W39 — budget left $15569.40 (today $155865.79 put to work, 65 buys, 60 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-brain: Below min_positions (5/8) with 62% idle cash despite many resting buy_limits - need to actively deploy into names clearing cooldown now (MSFT) plus fresh momentum/congress names (META, TSM, AVGO) to reach target count in size, backed by concrete evidence, with stops attached per risk_management best practice (0.87 hit rate historically).
-lesson: Resting buy_limits alone haven't closed the position-count gap for hours; combine them with market buys sized $1.5-2.5k in cooldown-cleared/momentum names each check to hit min_positions faster.
-  (dropped MSFT: sold 19 min ago, cooling off)
-  (dropped TSM: sold 3 min ago, cooling off)
-  (dropped AVGO: sold 3 min ago, cooling off)
-  (dropped META: 87% up today's range — resting a limit at $760.19 instead of chasing)
-  (dropped trigger MSFT stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger META stop_loss: not held)
   (dropped trigger AVGO stop_loss: not held)
   (dropped trigger META buy_limit: duplicate of a working order)
 portfolio: equity $32805.43 (+31.22% on $25000.00 in) · cash $23481.05 · realised +7807.13
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 CRWD @ $247.19 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32807.21 (+31.23% on $25000.00 in) · cash $26472.28 · realised +7819.06
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $18560.64 this week
+
+## 2026-09-25 10:23 ET (Friday) — week 2026-W39 — budget left $18560.64 (today $39346.78 put to work, 14 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQJrwt4Da1HUeBQxWefv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $18,561 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +7.7% over the month; 14% of today's range
+~ WORKING take_profit 100% PLTR @ $191.77 until 2026-09-30 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% PLTR @ $189.55 until 2026-09-30 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $185.41 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32815.42 (+31.26% on $25000.00 in) · cash $23472.28 · realised +7819.06
+Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $15560.64 this week
