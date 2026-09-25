@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "b616904b",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 427.0,
-   "status": "cancelled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "Protective stop ~3.3% below entry",
-   "evidence": "ATR 2.32%, entry 441.66",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c337befa",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 514.7523,
-   "status": "filled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "wanted it, but not at the high \u2014 resting at $514.75. Defense sector strength, NOC making new intraday high",
-   "evidence": "NOC at 100% of day range, +0.29% today; Zacks headline on Northrop APN-241 processor demand 09-23",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 4200.0,
-   "closed": "2026-09-24 09:40"
-  },
-  {
-   "id": "7d551b20",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 191.2882,
-   "status": "filled",
-   "created": "2026-09-24 09:32",
-   "created_ts": 1790256771,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $190.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 09:35"
-  },
-  {
    "id": "06e989fe",
    "ticker": "PLTR",
    "kind": "buy_limit",
@@ -7092,7 +7037,7 @@
    "ticker": "AMAT",
    "kind": "take_profit",
    "price": 485.2953,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 12:19",
    "created_ts": 1790353146,
    "why": "close 100% at +0.4% over the average cost",
@@ -7102,7 +7047,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:32"
   },
   {
    "id": "3446fad1",
@@ -7128,7 +7074,7 @@
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 468.7816,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 12:19",
    "created_ts": 1790353146,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7138,7 +7084,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 12:32",
+   "cancel_reason": "position closed"
   },
   {
    "id": "11ade722",
@@ -7375,7 +7323,7 @@
    "ticker": "AMAT",
    "kind": "stop_loss",
    "price": 484.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 12:27",
    "created_ts": 1790353647,
    "why": "close it all at -1.0% under the average cost",
@@ -7385,7 +7333,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 12:32",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9bb4a09d",
@@ -7454,7 +7404,58 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "09aa414b",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 192.4588,
+   "status": "working",
+   "created": "2026-09-25 12:32",
+   "created_ts": 1790353979,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $191.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bcd6d332",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 190.226,
+   "status": "working",
+   "created": "2026-09-25 12:32",
+   "created_ts": 1790353979,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $191.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "476a0844",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 186.0654,
+   "status": "working",
+   "created": "2026-09-25 12:32",
+   "created_ts": 1790353979,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $191.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-25 12:30"
+ "updated": "2026-09-25 12:32"
 }

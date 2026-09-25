@@ -17608,3 +17608,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CRWD @ $248.11 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32851.46 (+31.41% on $25000.00 in) · cash $17842.69 · realised +7842.69
 Done: 0 sell(s), 1 buy(s); 17 order(s) working; budget left $9931.04 this week
+  (cancelled 2 standing order(s) on AMAT: position closed)
+- SELL 100% AMAT [take_profit @ $485.30] -> $3012.53 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-09-25 12:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 12:32 ET (Friday) — week 2026-W39 — budget left $12943.57 (today $99346.78 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQUkotLoamAAacvpta44'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,944 idle, so opened 1: PLTR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 PLTR [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +8.1% over the month; 38% of today's range
+~ WORKING take_profit 100% PLTR @ $192.46 until 2026-09-30 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% PLTR @ $190.23 until 2026-09-30 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 PLTR @ $186.07 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32852.74 (+31.41% on $25000.00 in) · cash $17855.22 · realised +7855.22
+Done: 0 sell(s), 1 buy(s); 17 order(s) working; budget left $9943.57 this week

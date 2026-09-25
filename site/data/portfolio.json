@@ -1,18 +1,9 @@
 {
-  "cash": 17842.69261763158,
+  "cash": 17855.2237262118,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W39",
   "positions": {
-    "AMAT": {
-      "qty": 6.207624736073523,
-      "avg_cost": 483.276636,
-      "opened": "2026-09-25",
-      "last_buy": "2026-09-25",
-      "tranches": 1,
-      "last_buy_ts": 1790353150,
-      "opened_ts": 1790353150
-    },
     "NVDA": {
       "qty": 13.318828241456504,
       "avg_cost": 225.24504,
@@ -48,6 +39,15 @@
       "tranches": 1,
       "last_buy_ts": 1790353810,
       "opened_ts": 1790353810
+    },
+    "PLTR": {
+      "qty": 15.639796224715846,
+      "avg_cost": 191.818356,
+      "opened": "2026-09-25",
+      "last_buy": "2026-09-25",
+      "tranches": 1,
+      "last_buy_ts": 1790353984,
+      "opened_ts": 1790353984
     }
   },
   "fills": [
@@ -16360,7 +16360,29 @@
       "price": 255.78,
       "type": "buy",
       "date": "2026-09-25 12:30"
+    },
+    {
+      "symbol": "AMAT",
+      "side": "sell",
+      "qty": 6.207625,
+      "status": "filled",
+      "price": 485.3,
+      "proceeds": 3012.53,
+      "realized_pnl": 12.53,
+      "realized_pct": 0.42,
+      "type": "sell",
+      "date": "2026-09-25 12:32"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 15.639796,
+      "price": 191.82,
+      "type": "buy",
+      "date": "2026-09-25 12:33"
     }
   ],
-  "realized_pnl": 7842.692617631601
+  "realized_pnl": 7855.223726211822
 }
