@@ -1,17 +1,3 @@
-~ WORKING buy_limit $1000.00 CRWD @ $259.11 until 2026-09-25 — strong month, weak day: resting 0.99% under $261.70 to catch the dip
-portfolio: equity $32831.21 (+31.32% on $25000.00 in) · cash $24346.72 · realised +7846.72
-Done: 0 sell(s), 1 buy(s); 28 order(s) working; budget left $16435.07 this week
-- SELL 100% CCJ [time stop] -> $1989.49 (-0.53%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% IBM [time stop] -> $1999.11 (-0.04%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% HD [time stop] -> $1985.95 (-0.70%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-24 13:11 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-24 13:22 ET (Thursday) — week 2026-W39 — budget left $22409.62 (today $141039.71 put to work, 57 buys, 56 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
 brain: Only 1 of min 8 positions held with 89.6% cash idle - a persistent pattern the desk has repeatedly flagged and been penalized for. Deploying into widely_held names (best realized sector, 3.28% avg) plus congress-backed TSM/AVGO, all with immediate protective stops since max_hold_minutes forces a 30-min round trip anyway. Existing resting buy_limits remain working for the cooling-off names (GOOGL, AMD) to catch better entries without chasing.
 lesson: When below min_positions with high idle cash, deploy across multiple widely_held/congress-backed names in one check with immediate stops rather than trickling in 1-2 names per check - the repeated pattern of small partial fills is why the book stayed at 1-2 positions for hours.
@@ -398,3 +384,17 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 3 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $759.97] -> $3012.83 (+0.43%) — close 100% at +0.4% over the average cost
 ## 2026-09-25 10:06 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 10:08 ET (Friday) — week 2026-W39 — budget left $14613.71 (today $36346.78 put to work, 13 buys, 8 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQHjafo6JfL9ZXja7AXw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
+portfolio: equity $32842.68 (+31.37% on $25000.00 in) · cash $22525.35 · realised +7872.13
+Decision: nothing at this check. 17 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
