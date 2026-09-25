@@ -6747,7 +6747,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 333.9247,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "strong month, weak day: resting 0.40% under $335.27 to catch the dip",
@@ -6757,7 +6757,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-26",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-25 10:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f657bcc3",
@@ -7152,7 +7154,7 @@
    "ticker": "AAPL",
    "kind": "take_profit",
    "price": 336.4485,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 10:02",
    "created_ts": 1790344956,
    "why": "close 100% at +0.2% over the average cost",
@@ -7162,7 +7164,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:30"
   },
   {
    "id": "fd2324e2",
@@ -7188,7 +7191,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 325.6581,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:02",
    "created_ts": 1790344956,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7198,7 +7201,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 10:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dc16d704",
@@ -7462,7 +7467,7 @@
    "ticker": "AAPL",
    "kind": "stop_loss",
    "price": 335.964,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:26",
    "created_ts": 1790346405,
    "why": "close it all at -0.5% under the average cost",
@@ -7472,8 +7477,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:30",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-25 10:29"
+ "updated": "2026-09-25 10:30"
 }
