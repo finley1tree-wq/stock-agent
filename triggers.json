@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "736e730a",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 187.2003,
-   "status": "cancelled",
-   "created": "2026-09-23 15:48",
-   "created_ts": 1790192895,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $192.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:49",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "f4c64bcb",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -7443,7 +7424,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 618.7816,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:55",
    "created_ts": 1790351755,
    "why": "close it all at -1.2% under the average cost",
@@ -7453,7 +7434,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 11:58",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "237d23f2",
@@ -7471,7 +7454,24 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "b37eae9f",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 627.49,
+   "status": "working",
+   "created": "2026-09-25 11:58",
+   "created_ts": 1790351932,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $626.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 11:57"
+ "updated": "2026-09-25 11:58"
 }
