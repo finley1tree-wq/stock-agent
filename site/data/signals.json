@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-25T12:19-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,924 idle, so opened 2: AMAT, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "asOf": "2026-09-25T12:22-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,924 idle, so opened 2: TSM, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "00848c82",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 453.6112,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 452.39,
+   "pct_away": 0.27,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "751f3032",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 345.5326,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 344.46,
+   "pct_away": 0.31,
+   "good_until": "2026-09-30",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "11ade722",
    "ticker": "NVDA",
    "kind": "take_profit",
@@ -146,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 225.2,
-   "pct_away": 0.28,
+   "last": 224.89,
+   "pct_away": 0.42,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -163,7 +197,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 483.18,
+   "last": 483.19,
    "pct_away": 0.44,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.4% over the average cost",
@@ -180,8 +214,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 770.8,
-   "pct_away": -0.51,
+   "last": 770.59,
+   "pct_away": -0.48,
    "good_until": "2026-09-26",
    "why": "strong month, weak day: resting 0.20% under $768.40 to catch the dip",
    "signals": [
@@ -197,10 +231,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 225.2,
-   "pct_away": -0.62,
+   "last": 224.89,
+   "pct_away": -0.48,
    "good_until": "2026-09-30",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d20a9f9a",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 449.652,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 452.39,
+   "pct_away": -0.61,
+   "good_until": "2026-09-30",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "910ba6d5",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 342.0218,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 344.46,
+   "pct_away": -0.71,
+   "good_until": "2026-09-30",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,7 +282,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 483.18,
+   "last": 483.19,
    "pct_away": -1.02,
    "good_until": "2026-09-30",
    "why": "close it all at -1.0% under the average cost",
@@ -231,31 +299,14 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 515.09,
-   "pct_away": -2.62,
+   "last": 514.8,
+   "pct_away": -2.57,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "7ae62482",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 468.7816,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 483.18,
-   "pct_away": -2.98,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -266,7 +317,58 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 225.2,
+   "last": 224.89,
+   "pct_away": -2.84,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7ae62482",
+   "ticker": "AMAT",
+   "kind": "buy_limit",
+   "price": 468.7816,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 483.19,
+   "pct_away": -2.98,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c0031c64",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 438.9056,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 452.39,
+   "pct_away": -2.98,
+   "good_until": "2026-09-30",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7b435564",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 334.1941,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 344.46,
    "pct_away": -2.98,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -276,7 +378,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,924 idle, so opened 2: AMAT, NVDA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,924 idle, so opened 2: TSM, GOOGL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -339,8 +441,8 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 351,
-  "decisions_with_buys_graded": 166,
+  "decisions_graded": 350,
+  "decisions_with_buys_graded": 165,
   "independent_days_graded": 6,
   "avg_regret_pct": -0.37,
   "chosen_avg_pct": 0.63,
@@ -351,8 +453,8 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 134,
-    "avg_pct": 0.96
+    "n": 132,
+    "avg_pct": 0.98
    },
    "congress": {
     "n": 109,
@@ -367,7 +469,7 @@
     "avg_pct": -0.06
    },
    "momentum": {
-    "n": 349,
+    "n": 347,
     "avg_pct": 0.34
    },
    "news": {
@@ -2444,5 +2546,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-25T12:19-04:00"
+ "signalsAsOf": "2026-09-25T12:22-04:00"
 }
