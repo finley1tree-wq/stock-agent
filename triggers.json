@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "0ef7fd4a",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 337.2399,
-   "status": "cancelled",
-   "created": "2026-09-24 12:10",
-   "created_ts": 1790266219,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $347.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 12:16",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3be64252",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 495.883,
-   "status": "filled",
-   "created": "2026-09-24 12:10",
-   "created_ts": 1790266219,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $494.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 12:16"
-  },
-  {
-   "id": "1cc83c32",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 479.9075,
-   "status": "cancelled",
-   "created": "2026-09-24 12:10",
-   "created_ts": 1790266219,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $494.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 12:16",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "44b5cdc1",
    "ticker": "NVDA",
    "kind": "take_profit",
@@ -7529,9 +7473,66 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 728.6834,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 15:45",
    "created_ts": 1790365552,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:46",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "6013ac92",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "cancelled",
+   "created": "2026-09-25 15:46",
+   "created_ts": 1790365587,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:47",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "027e8003",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "cancelled",
+   "created": "2026-09-25 15:47",
+   "created_ts": 1790365635,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $751.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0,
+   "closed": "2026-09-25 15:47",
+   "cancel_reason": "inside the last max_hold_minutes of the session"
+  },
+  {
+   "id": "ec134317",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 728.6834,
+   "status": "working",
+   "created": "2026-09-25 15:47",
+   "created_ts": 1790365636,
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "evidence": "average cost $751.22",
    "signals": [
@@ -7542,5 +7543,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-25 15:45"
+ "updated": "2026-09-25 15:47"
 }
