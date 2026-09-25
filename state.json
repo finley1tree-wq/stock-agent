@@ -1,6 +1,6 @@
 {
   "week": "2026-W39",
-  "spent": 6092.68,
+  "spent": 3078.71,
   "deployed": 717254.42,
   "by_ticker": {
     "NOC": 4.43,
@@ -29,8 +29,7 @@
     "CRWD": 31.91,
     "AMAT": 44.17,
     "PLTR": 14.02,
-    "META": 3000.0,
-    "AMD": 3000.0
+    "META": 3000.0
   },
   "deployed_by_ticker": {
     "AMD": 55363.85,
@@ -11634,13 +11633,34 @@
       ],
       "evidence": "average cost $338.33",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 4.791986,
+      "status": "filled",
+      "price": 628.96,
+      "proceeds": 3013.97,
+      "realized_pnl": 13.97,
+      "realized_pct": 0.47,
+      "date": "2026-09-25",
+      "time_et": "12:00",
+      "ts": 1790352000,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $626.05",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 6059.37,
+  "spent_today": 3045.4,
   "deployed_today": 81346.78,
   "orders_today": 28,
-  "sells_today": 26,
+  "sells_today": 27,
   "sold_today": [
     "AVGO",
     "CRWD",
@@ -11658,7 +11678,7 @@
   ],
   "sold_ts": {
     "AMAT": 1790350423,
-    "AMD": 1790349004,
+    "AMD": 1790352024,
     "NVDA": 1790350423,
     "CHRW": 1790276396,
     "PLTR": 1790351275,
@@ -11693,20 +11713,17 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790351932,
-  "last_check_ts": 1790351934,
-  "last_bar_ts": 1790351700,
+  "last_publish_ts": 1790352024,
+  "last_check_ts": 1790352024,
+  "last_bar_ts": 1790352000,
   "last_decision_ts": 1790351934,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "58c243e4": 628.9611,
     "6bc65cfb": 748.838,
-    "b37eae9f": 627.49,
     "6bd8ebd3": 751.0527,
     "3f554f6c": 766.8632,
     "ac48daa3": 501.59,
-    "3766cdf9": 725.3369,
-    "237d23f2": 607.2685
+    "3766cdf9": 725.3369
   }
 }
