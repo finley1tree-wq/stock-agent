@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 9065.58,
-  "deployed": 783254.42,
+  "spent": 15065.58,
+  "deployed": 789254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -24,21 +24,21 @@
     "UNH": 3.38,
     "HUBB": 0.28,
     "TPL": 15.58,
-    "NVDA": 29.37,
+    "NVDA": 3029.37,
     "NEM": 3.83,
     "CRWD": 3039.14,
     "AMAT": 3039.4,
-    "PLTR": 18.78,
+    "PLTR": 3018.78,
     "TSM": 3003.72,
     "META": 1.6
   },
   "deployed_by_ticker": {
     "AMD": 61363.85,
     "AMAT": 36641.67,
-    "NVDA": 33477.89,
+    "NVDA": 36477.89,
     "CHRW": 11600.0,
     "TTD": 7500.0,
-    "PLTR": 53507.55,
+    "PLTR": 56507.55,
     "MSFT": 40025.0,
     "OKLO": 17000.0,
     "NOC": 36253.2,
@@ -12449,12 +12449,46 @@
       ],
       "evidence": "bought 30 min ago, -0.03% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 15.673304,
+      "price": 191.41,
+      "date": "2026-09-25",
+      "time_et": "14:50",
+      "ts": 1790362233,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+7.8% over the month; 27% of today's range"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.38301,
+      "price": 224.16,
+      "date": "2026-09-25",
+      "time_et": "14:50",
+      "ts": 1790362233,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot"
+      ],
+      "evidence": "+6.9% over the month; 26% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 9032.27,
-  "deployed_today": 147346.78,
-  "orders_today": 50,
+  "spent_today": 15032.27,
+  "deployed_today": 153346.78,
+  "orders_today": 52,
   "sells_today": 47,
   "sold_today": [
     "AVGO",
@@ -12508,23 +12542,29 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790361610,
-  "last_check_ts": 1790362153,
-  "last_bar_ts": 1790361900,
-  "last_decision_ts": 1790362075,
-  "next_check_minutes": null,
+  "last_publish_ts": 1790362233,
+  "last_check_ts": 1790362233,
+  "last_bar_ts": 1790362200,
+  "last_decision_ts": 1790362233,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "61edc524": 452.4729,
-    "3f554f6c": 766.8632,
-    "fbf972c4": 448.5101,
+    "23aa8fea": 224.7383,
+    "3c3aed74": 192.0474,
     "c8b13bdb": 487.3992,
+    "3f554f6c": 766.8632,
+    "ec2ea9f0": 222.7119,
+    "fbf972c4": 448.5101,
     "da2a8a58": 256.2634,
+    "06014173": 189.8156,
     "2fe23f11": 480.3369,
     "37abc90d": 251.5602,
-    "d1bbac50": 470.8186,
     "954def26": 247.2724,
-    "d2cda89e": 437.7998,
-    "ac48daa3": 501.59
+    "d1bbac50": 470.8186,
+    "ac48daa3": 501.59,
+    "5e3e9db6": 185.6677,
+    "214fc7d4": 217.4352,
+    "d2cda89e": 437.7998
   }
 }
