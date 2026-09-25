@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-09-25 13:22 ET
+# Pretend portfolio — 2026-09-25 13:24 ET
 
-**Equity $32850.40** on $25000.00 put in → **+31.40%**  
-Cash $26850.95 · Unrealised -0.55 · Realised +7850.95
+**Equity $32851.50** on $25000.00 put in → **+31.41%**  
+Cash $26850.95 · Unrealised +0.55 · Realised +7850.95
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| TSM | 9.1% | $2999.87 | $451.36 | $451.34 | -0.00% | 0d |
-| AMAT | 9.1% | $2999.59 | $484.87 | $484.80 | -0.01% | 0d |
+| TSM | 9.1% | $3000.60 | $451.36 | $451.45 | +0.02% | 0d |
+| AMAT | 9.1% | $2999.96 | $484.87 | $484.86 | -0.00% | 0d |
 
 ## Last fills
 
