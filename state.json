@@ -1,7 +1,7 @@
 {
   "week": "2026-W39",
-  "spent": 80.68,
-  "deployed": 678254.42,
+  "spent": 3080.68,
+  "deployed": 681254.42,
   "by_ticker": {
     "NOC": 4.43,
     "IBM": 36.82,
@@ -28,7 +28,8 @@
     "NVDA": 22.44,
     "NEM": 3.83,
     "CRWD": 10.36,
-    "AMAT": 32.7
+    "AMAT": 32.7,
+    "TSM": 3000.0
   },
   "deployed_by_ticker": {
     "AMD": 49363.85,
@@ -43,7 +44,7 @@
     "LMT": 12400.0,
     "RTX": 23631.03,
     "CCJ": 40585.0,
-    "TSM": 43454.15,
+    "TSM": 46454.15,
     "AVGO": 27394.11,
     "UNH": 29733.96,
     "IBM": 27734.81,
@@ -11180,12 +11181,30 @@
       ],
       "evidence": "bought 30 min ago, -0.22% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.658379,
+      "price": 450.56,
+      "date": "2026-09-25",
+      "time_et": "10:34",
+      "ts": 1790346878,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick W. Allen), $1,001 - $15,000; +7.8% over the month; 22% of today's range"
     }
   ],
   "day": "2026-09-25",
-  "spent_today": 47.37,
-  "deployed_today": 42346.78,
-  "orders_today": 15,
+  "spent_today": 3047.37,
+  "deployed_today": 45346.78,
+  "orders_today": 16,
   "sells_today": 15,
   "sold_today": [
     "AVGO",
@@ -11239,13 +11258,16 @@
     "LTH": 1790266131,
     "TPL": 1790267062
   },
-  "last_publish_ts": 1790346746,
-  "last_check_ts": 1790346792,
+  "last_publish_ts": 1790346878,
+  "last_check_ts": 1790346878,
   "last_bar_ts": 1790346600,
-  "last_decision_ts": 1790346713,
-  "next_check_minutes": null,
+  "last_decision_ts": 1790346878,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "ac48daa3": 501.59
+    "0a817f73": 451.6909,
+    "fca362f4": 447.735,
+    "ac48daa3": 501.59,
+    "5120f0ab": 437.0432
   }
 }

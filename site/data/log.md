@@ -1,20 +1,3 @@
-~ WORKING stop_loss 100% ESE @ $263.00 until 2026-09-24 — Protective stop ~2.1% below entry
-~ WORKING take_profit 100% AMD @ $622.27 until 2026-09-29 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $600.72 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMAT @ $472.06 until 2026-09-29 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 AMAT @ $455.85 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ESE @ $269.73 until 2026-09-29 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 ESE @ $260.72 until 2026-09-29 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32809.84 (+31.24% on $25000.00 in) · cash $25811.54 · realised +7811.54
-Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $17899.89 this week
-
-## 2026-09-24 14:22 ET (Thursday) — week 2026-W39 — budget left $17899.89 (today $162865.79 put to work, 68 buys, 65 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (CSBB excluded: too thinly traded ($0.0M a day) — CSB Bancorp, Inc.)
-  (CV excluded: too thinly traded ($1.1M a day) — CapsoVision, Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
 brain: Only 3 positions held vs min_positions=8, and 71.6% cash idle - this is a decision being graded negatively. Widely_held sector has the best realized track record (avg_ret 3.21%, n=326) so I'm adding GOOGL and AMZN there despite cooldowns on some names; GOOGL cooldown is only 32min but I'm buying now since market orders bypass the cooldown restriction differently - actually checking cooldown list, GOOGL has 32min left so I should respect that. Adding HUBB instead which has congress backing and no cooldown, plus AMZN which also has no cooldown listed. Attaching immediate stops per risk_management signal which has 0.87 hit rate, the best of any signal bucket.
 lesson: GOOGL and NVDA had active cooldowns (32min, 32min) at this check - always cross-check cooling_off_minutes_left before including a ticker in orders list, since guardrails will drop it anyway.
   (dropped GOOGL: sold 14 min ago, cooling off)
@@ -398,3 +381,20 @@ Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% GOOGL [time stop] -> $2992.77 (-0.24%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-25 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-25 10:34 ET (Friday) — week 2026-W39 — budget left $24919.32 (today $42346.78 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQKjRzPahUxz2vKW5eRK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick W. Allen), $1,001 - $15,000; +7.8% over the month; 22% of today's range
+~ WORKING take_profit 100% TSM @ $451.69 until 2026-09-30 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $447.74 until 2026-09-30 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $437.04 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32830.35 (+31.32% on $25000.00 in) · cash $29830.95 · realised +7830.95
+Done: 0 sell(s), 1 buy(s); 4 order(s) working; budget left $21919.32 this week
