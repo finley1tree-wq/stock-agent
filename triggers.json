@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "9561dd44",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 360.0,
-   "status": "cancelled",
-   "created": "2026-09-24 09:48",
-   "created_ts": 1790257687,
-   "why": "protective stop",
-   "evidence": "ATR 2.754%, stop ~2.8% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 09:54",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3874d10b",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 348.655,
-   "status": "filled",
-   "created": "2026-09-24 09:48",
-   "created_ts": 1790257687,
-   "why": "wanted it, but not at the high \u2014 resting at $348.65. AI semis theme, widely_held sector strongest by track record",
-   "evidence": "AVGO -1.57% today at 88.5% of range but 1m flat -2.05%; 'Where Will Broadcom Stock Be in 5 Years?' bullish semis coverage",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 4000.0,
-   "closed": "2026-09-24 09:51"
-  },
-  {
-   "id": "46d04d6a",
-   "ticker": "AMAT",
-   "kind": "buy_limit",
-   "price": 464.5355,
-   "status": "filled",
-   "created": "2026-09-24 09:48",
-   "created_ts": 1790257687,
-   "why": "wanted it, but not at the high \u2014 resting at $464.54. Congress buy pressure score 2.0, semis equipment AI demand theme",
-   "evidence": "Rep. Josh Gottheimer and Jared Moskowitz both disclosed AMAT buys; AMAT +11.84% 5d despite -1.6% today at 86.5% of range",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 3000.0,
-   "closed": "2026-09-24 09:54"
-  },
-  {
    "id": "ee43222c",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -7466,7 +7410,58 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "618b6dd1",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 345.2117,
+   "status": "working",
+   "created": "2026-09-25 13:38",
+   "created_ts": 1790357903,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $344.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "95eb00d3",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 341.7007,
+   "status": "working",
+   "created": "2026-09-25 13:38",
+   "created_ts": 1790357903,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $344.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "969b4b98",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 333.8837,
+   "status": "working",
+   "created": "2026-09-25 13:38",
+   "created_ts": 1790357903,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $344.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-25 13:35"
+ "updated": "2026-09-25 13:38"
 }
