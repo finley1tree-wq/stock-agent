@@ -1,5 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32828.34 (+31.31% on $25000.00 in) · cash $20856.38 · realised +7856.38
 Decision: nothing at this check. 14 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 CRWD @ $247.64 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32836.77 (+31.35% on $25000.00 in) · cash $11850.95 · realised +7850.95
 Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $3939.29 this week
+- SELL 100% AMAT [time stop] -> $2992.24 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
