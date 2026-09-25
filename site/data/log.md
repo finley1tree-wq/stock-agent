@@ -1,5 +1,3 @@
-## 2026-09-25 13:29 ET (Friday) — week 2026-W39 — budget left $18939.29 (today $117346.78 put to work, 40 buys, 38 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $437.80 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32841.06 (+31.36% on $25000.00 in) · cash $20847.67 · realised +7847.67
 Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $12936.02 this week
+- SELL 100% META [time stop] -> $2998.40 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 14:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
