@@ -17270,3 +17270,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $32852.83 (+31.41% on $25000.00 in) · cash $11848.70 · realised +7848.70
 Decision: nothing at this check. 23 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMAT [time stop] -> $2988.53 (-0.38%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $2999.60 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-25 11:33 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "6f092911",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 187.2003,
-   "status": "cancelled",
-   "created": "2026-09-23 15:43",
-   "created_ts": 1790192612,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $192.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 500.0,
-   "closed": "2026-09-23 15:44",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "f8bbb917",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -6925,7 +6906,7 @@
    "ticker": "AMAT",
    "kind": "take_profit",
    "price": 483.7183,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:03",
    "created_ts": 1790348613,
    "why": "close 100% at +0.4% over the average cost",
@@ -6935,14 +6916,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 11:33",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7c00d470",
    "ticker": "AMAT",
    "kind": "stop_loss",
    "price": 476.6566,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:03",
    "created_ts": 1790348613,
    "why": "close it all at -1.0% under the average cost",
@@ -6952,14 +6935,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 11:33",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3323cfe8",
    "ticker": "AMAT",
    "kind": "buy_limit",
    "price": 467.249,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:03",
    "created_ts": 1790348613,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6969,7 +6954,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 11:33",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f1173a07",
@@ -6995,7 +6982,7 @@
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 223.1315,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:03",
    "created_ts": 1790348613,
    "why": "close it all at -0.6% under the average cost",
@@ -7005,14 +6992,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 11:33",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f83de134",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 217.8426,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:03",
    "created_ts": 1790348613,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7022,7 +7011,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 11:33",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "77633724",
@@ -7118,7 +7109,7 @@
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 225.1594,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:18",
    "created_ts": 1790349480,
    "why": "close 100% at +0.3% over the average cost",
@@ -7128,7 +7119,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 11:33",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8d07be72",
@@ -7347,7 +7340,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 447.9139,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 11:26",
    "created_ts": 1790349994,
    "why": "close it all at -0.6% under the average cost",
@@ -7357,7 +7350,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 11:32",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b0bec586",
@@ -7439,6 +7434,23 @@
    "created_ts": 1790350338,
    "why": "close it all at -0.6% under the average cost",
    "evidence": "average cost $514.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dc64c6a9",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 451.118,
+   "status": "working",
+   "created": "2026-09-25 11:32",
+   "created_ts": 1790350377,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $450.74",
    "signals": [
     "risk_management",
     "auto_bracket"
