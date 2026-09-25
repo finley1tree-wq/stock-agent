@@ -1,6 +1,3 @@
-  (dropped trigger AVGO stop_loss: not held)
-  (dropped trigger META buy_limit: duplicate of a working order)
-portfolio: equity $32805.43 (+31.22% on $25000.00 in) · cash $23481.05 · realised +7807.13
 Decision: nothing at this check. 32 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on AMZN: position closed)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 PLTR @ $185.41 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32815.42 (+31.26% on $25000.00 in) · cash $23472.28 · realised +7819.06
 Done: 0 sell(s), 1 buy(s); 14 order(s) working; budget left $15560.64 this week
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $256.18] -> $3015.80 (+0.53%) — close 100% at +0.5% over the average cost
+## 2026-09-25 10:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders

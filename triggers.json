@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ce5a0590",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 193.3933,
-   "status": "cancelled",
-   "created": "2026-09-23 15:27",
-   "created_ts": 1790191631,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $192.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-23 15:42",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "81e519ae",
    "ticker": "RTX",
    "kind": "stop_loss",
@@ -7353,7 +7334,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 256.183,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-25 10:20",
    "created_ts": 1790346027,
    "why": "close 100% at +0.5% over the average cost",
@@ -7363,7 +7344,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:26"
   },
   {
    "id": "d6d9e35d",
@@ -7389,7 +7371,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 247.1948,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:20",
    "created_ts": 1790346027,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7399,7 +7381,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-25 10:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2ccbe50c",
@@ -7423,7 +7407,7 @@
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 189.5516,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:23",
    "created_ts": 1790346194,
    "why": "close it all at -0.8% under the average cost",
@@ -7433,7 +7417,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:26",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2a6f5e3b",
@@ -7457,7 +7443,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 255.314,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 10:24",
    "created_ts": 1790346281,
    "why": "close it all at -1.3% under the average cost",
@@ -7467,8 +7453,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 10:26",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "acac0e96",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 191.398,
+   "status": "working",
+   "created": "2026-09-25 10:26",
+   "created_ts": 1790346362,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $191.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 10:24"
+ "updated": "2026-09-25 10:26"
 }

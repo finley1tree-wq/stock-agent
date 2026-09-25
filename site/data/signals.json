@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-25T10:24-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-25T10:26-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,34 +139,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "c29e1cc4",
-   "ticker": "CRWD",
+   "id": "acac0e96",
+   "ticker": "PLTR",
    "kind": "stop_loss",
-   "price": 255.314,
+   "price": 191.398,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 255.63,
-   "pct_away": -0.12,
+   "last": 191.57,
+   "pct_away": -0.09,
    "good_until": "2026-09-30",
-   "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6f9821dd",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 256.183,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 255.63,
-   "pct_away": 0.22,
-   "good_until": "2026-09-30",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 191.26,
-   "pct_away": 0.27,
+   "last": 191.57,
+   "pct_away": 0.11,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -197,61 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 335.26,
-   "pct_away": 0.35,
+   "last": 335.97,
+   "pct_away": 0.14,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fd2324e2",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 333.9372,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 335.26,
-   "pct_away": -0.39,
-   "good_until": "2026-09-30",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bf8a585c",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 333.9247,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 335.26,
-   "pct_away": -0.4,
-   "good_until": "2026-09-26",
-   "why": "strong month, weak day: resting 0.40% under $335.27 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "b2a7ab68",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 340.6289,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 342.34,
-   "pct_away": -0.5,
-   "good_until": "2026-09-30",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 342.34,
-   "pct_away": 0.52,
+   "last": 342.67,
+   "pct_away": 0.42,
    "good_until": "2026-09-30",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -275,17 +207,51 @@
    ]
   },
   {
-   "id": "abf15e43",
-   "ticker": "PLTR",
+   "id": "b2a7ab68",
+   "ticker": "GOOGL",
    "kind": "stop_loss",
-   "price": 189.5516,
+   "price": 340.6289,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 191.26,
-   "pct_away": -0.89,
+   "last": 342.67,
+   "pct_away": -0.6,
    "good_until": "2026-09-30",
-   "why": "close it all at -0.8% under the average cost",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bf8a585c",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 333.9247,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 335.97,
+   "pct_away": -0.61,
+   "good_until": "2026-09-26",
+   "why": "strong month, weak day: resting 0.40% under $335.27 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "fd2324e2",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 333.9372,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 335.97,
+   "pct_away": -0.61,
+   "good_until": "2026-09-30",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -299,8 +265,8 @@
    "usd": 4000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 512.22,
-   "pct_away": -2.08,
+   "last": 513.99,
+   "pct_away": -2.41,
    "good_until": "2026-09-25",
    "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
    "signals": [
@@ -317,8 +283,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 342.34,
-   "pct_away": -2.78,
+   "last": 342.67,
+   "pct_away": -2.87,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -334,8 +300,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 335.26,
-   "pct_away": -2.86,
+   "last": 335.97,
+   "pct_away": -3.07,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -351,25 +317,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 191.26,
-   "pct_away": -3.06,
-   "good_until": "2026-09-30",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "eb2ea0c8",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 247.1948,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 255.63,
-   "pct_away": -3.3,
+   "last": 191.57,
+   "pct_away": -3.22,
    "good_until": "2026-09-30",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
