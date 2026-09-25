@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "bfdd06ca",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 607.4978,
-   "status": "cancelled",
-   "created": "2026-09-23 13:40",
-   "created_ts": 1790185221,
-   "why": "strong month, weak day: resting 0.86% under $612.78 to catch the dip",
-   "evidence": "+29.5% over the month, sitting at 28% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 1000.0,
-   "closed": "2026-09-23 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "b69edfa6",
    "ticker": "SPY",
    "kind": "buy_limit",
@@ -7344,7 +7325,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 507.4225,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-25 09:32",
    "created_ts": 1790343148,
    "why": "close it all at -0.6% under the average cost",
@@ -7354,7 +7335,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-25 09:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c9a3407e",
@@ -7481,7 +7464,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-09-25 09:35",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "b2da9297",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 511.082,
+   "status": "working",
+   "created": "2026-09-25 09:41",
+   "created_ts": 1790343662,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $510.47",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-25 09:35"
+ "updated": "2026-09-25 09:41"
 }
