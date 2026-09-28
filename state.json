@@ -1,11 +1,12 @@
 {
   "week": "2026-W40",
-  "spent": 7943.63,
-  "deployed": 26852.94,
+  "spent": 12443.63,
+  "deployed": 31352.94,
   "by_ticker": {
     "AVGO": 3000.0,
     "TTD": 2000.0,
-    "CRWD": 3000.0
+    "CRWD": 3000.0,
+    "NVDA": 4500.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -18,7 +19,8 @@
     "MSFT": 2058.82,
     "NOC": 1647.06,
     "UNH": 1647.06,
-    "CRWD": 3000.0
+    "CRWD": 3000.0,
+    "NVDA": 4500.0
   },
   "orders": [
     {
@@ -385,12 +387,32 @@
       ],
       "evidence": "CRWD +0.54% 1d, 85.3% of day range; Motley Fool 'Jim Cramer Says Buy 2 AI Stocks Up 875% and 1,400% Since 2023'",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 4500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.472604,
+      "price": 231.09,
+      "date": "2026-09-28",
+      "time_et": "09:53",
+      "ts": 1790603400,
+      "why": "wanted it, but not at the high \u2014 resting at $231.09. Positive momentum with major buyback catalyst, strong day-range strength",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "NVDA +3.1% 1d, 87.9% of day range, board authorized record $150B buyback per WSJ headline",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 7943.63,
-  "deployed_today": 26852.94,
-  "orders_today": 11,
+  "spent_today": 12443.63,
+  "deployed_today": 31352.94,
+  "orders_today": 12,
   "sells_today": 8,
   "sold_today": [
     "PLTR",
@@ -412,24 +434,26 @@
     "NOC": 1790603436,
     "UNH": 1790603437
   },
-  "last_publish_ts": 1790603483,
-  "last_check_ts": 1790603483,
+  "last_publish_ts": 1790603625,
+  "last_check_ts": 1790603625,
   "last_bar_ts": 1790603400,
   "last_decision_ts": 1790602810,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "930fe27d": 342.096,
-    "7fc09325": 231.0939,
     "f519354e": 252.3755,
+    "e753daa3": 231.6608,
+    "930fe27d": 342.096,
+    "9816eda5": 231.588,
+    "51062ff4": 251.748,
     "3e22ec46": 718.8947,
     "9c19d4a4": 354.439,
     "a37dccff": 340.0351,
     "166222d4": 12.3981,
-    "eaaf7f5b": 247.5963,
     "92a07b97": 11.9698,
     "1a3ae429": 342.798,
     "88f57c55": 342.0,
+    "efeaa2e3": 224.1573,
     "04e5b89c": 243.4797,
     "9175f355": 11.7
   }

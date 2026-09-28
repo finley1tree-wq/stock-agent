@@ -1,5 +1,3 @@
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQhBPhteu8E78QmzwNcN'}
@@ -398,3 +396,5 @@ Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
 ## 2026-09-28 09:50 ET — tick — 3 sell(s), 0 buy(s) from standing orders
 - BUY $3000.00 CRWD [buy_limit @ $251.01] — wanted it, but not at the high — resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted
 ## 2026-09-28 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $4500.00 NVDA [buy_limit @ $231.09] — wanted it, but not at the high — resting at $231.09. Positive momentum with major buyback catalyst, strong day-range strength
+## 2026-09-28 09:53 ET — tick — 0 sell(s), 1 buy(s) from standing orders
