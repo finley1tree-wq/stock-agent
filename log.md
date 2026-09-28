@@ -19219,3 +19219,27 @@ lesson: Always cross-check cooling_off_minutes_left before finalizing order list
 ~ WORKING buy_limit $500.00 RTX @ $182.61 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32805.12 (+31.22% on $25000.00 in) · cash $26806.91 · realised +7806.91
 Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $18988.22 this week
+
+## 2026-09-28 12:12 ET (Monday) — week 2026-W40 — budget left $18988.22 (today $75352.94 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Only 2 positions held (PLTR, RTX) vs min_positions=8, cash_idle_pct 76%. Adding GOOGL, UNH, CCJ - all clear of the 45-min cooldown list, with concrete evidence (day-range position, sector track record, headlines). Sized at $2000-2200 each which is meaningful vs the $25k account per owner instruction. Attaching stop_loss/take_profit per risk_management's 88% hit rate in track record. Still below min_positions after this so requesting a short next check to add more as cooldowns clear.
+lesson: With only 5 names ever in cooldown, prioritize adding non-cooled widely_held/sector names in $2000+ size immediately rather than waiting, since idle cash at 76% is a self-inflicted drag per counterfactual regret data.
+  (dropped GOOGL: sold 32 min ago, cooling off)
+  (dropped UNH: sold 32 min ago, cooling off)
+- BUY $2100.00 CCJ [filled] ['momentum', 'news'] — nuclear sector has 67% hit rate in track record, CCJ not in cooldown list, positive catalyst headline | evidence: CCJ 65.6% of day range, headline 'Cameco's Westinghouse Stake Could Be Worth More Than $24.5 Billion'
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger GOOGL take_profit: not held)
+  (dropped trigger UNH stop_loss: not held)
+  (dropped trigger UNH take_profit: not held)
+~ WORKING stop_loss 100% CCJ @ $84.50 until 2026-09-28 — cap downside on fresh entry
+~ WORKING take_profit 50% CCJ @ $89.00 until 2026-09-28 — lock partial gains on a move toward range highs
+~ WORKING take_profit 100% CCJ @ $87.25 until 2026-10-03 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $84.30 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $598.67 until 2026-09-29 — strong month, weak day: resting 0.90% under $604.12 to catch the dip
+portfolio: equity $32806.02 (+31.22% on $25000.00 in) · cash $24706.91 · realised +7806.91
+Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16888.22 this week

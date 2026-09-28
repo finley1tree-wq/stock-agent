@@ -1,100 +1,6 @@
 {
  "orders": [
   {
-   "id": "fca362f4",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 447.735,
-   "status": "cancelled",
-   "created": "2026-09-25 10:34",
-   "created_ts": 1790346878,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $450.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 10:36",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5120f0ab",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 437.0432,
-   "status": "cancelled",
-   "created": "2026-09-25 10:34",
-   "created_ts": 1790346878,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $450.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 10:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4041608f",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 450.914,
-   "status": "filled",
-   "created": "2026-09-25 10:36",
-   "created_ts": 1790347000,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $450.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 10:40"
-  },
-  {
-   "id": "ee24b724",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 635.0125,
-   "status": "cancelled",
-   "created": "2026-09-25 10:40",
-   "created_ts": 1790347212,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $632.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 11:10",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8e9123ed",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 624.93,
-   "status": "cancelled",
-   "created": "2026-09-25 10:40",
-   "created_ts": 1790347212,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $632.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 11:03",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "fdb277c0",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7491,7 +7397,90 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "8f45d5bd",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 84.5,
+   "status": "working",
+   "created": "2026-09-28 12:12",
+   "created_ts": 1790611972,
+   "why": "cap downside on fresh entry",
+   "evidence": "CCJ price 86.88, ATR 3.6%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b3ea523e",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 89.0,
+   "status": "working",
+   "created": "2026-09-28 12:12",
+   "created_ts": 1790611972,
+   "why": "lock partial gains on a move toward range highs",
+   "evidence": "CCJ day_high 87.5, recent momentum",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "9f73a403",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 87.255,
+   "status": "working",
+   "created": "2026-09-28 12:12",
+   "created_ts": 1790611972,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $86.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "785d6828",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 84.3027,
+   "status": "working",
+   "created": "2026-09-28 12:12",
+   "created_ts": 1790611972,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $86.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
+  },
+  {
+   "id": "d8bb370b",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 598.6712,
+   "status": "working",
+   "created": "2026-09-28 12:12",
+   "created_ts": 1790611972,
+   "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
+   "evidence": "+26.7% over the month, sitting at 24% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-28 11:57"
+ "updated": "2026-09-28 12:12"
 }

@@ -1,27 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-09-25 16:00 ET — published the session's closing state
-## 2026-09-28 00:11 ET — published the session's closing state
-
-## 2026-09-28 09:33 ET (Monday) — week 2026-W40 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-brain: Flat book, 100% idle cash, min_positions=8 unmet, full_deployment active - counterfactual data and past_lessons_with_outcome both show trickling caused prior underperformance while immediate diversified deployment worked better. Deploying full budget across 8 names with concrete evidence (congress disclosures, insider pressure, momentum, news catalysts) each with a protective stop.
-lesson: Full deployment across 8 evidenced names at once beats trickling in 1-2 per check per repeated past_lessons_with_outcome pattern; always attach stops immediately.
-  (dropped NVDA: 88% up today's range — resting a limit at $231.09 instead of chasing)
-  (dropped CRWD: 85% up today's range — resting a limit at $251.01 instead of chasing)
-- BUY $4000.00 LEN [filled] ['insider', 'news'] — Strongest insider buy pressure in dataset plus major disclosed Berkshire stake increase | evidence: insider_net_buy_pressure LEN=9.0 (highest of all tickers); Barron's: 'Berkshire Hathaway Buys More Lennar Stock-and Now Owns 11% of the Homebuilder'
-- BUY $4000.00 PLTR [filled] ['momentum', 'news'] — Strong momentum and bullish analyst target commentary | evidence: PLTR +2.29% 5d, 80.7% of day range; TIKR headline 'Palantir Stock Is Up 77% Since June. A $1,344 Target Says the Run Is Early.'
-- BUY $3500.00 TSM [filled] ['congress', 'news'] — Congressional buy pressure plus concrete demand catalyst headline | evidence: Rick W. Allen (Rep, +2.76% avg excess, 62% beat rate) disclosed TSM buy 8/12; GuruFocus: 'Apple and Nvidia Just Delivered a Major Boost for TSMC Chip Business'
-- BUY $3000.00 AVGO [filled] ['congress', 'momentum'] — Congressional buying pressure and relative resilience vs peers | evidence: congress_net_buy_pressure AVGO=2.0 (Rick W. Allen, David J. Taylor both bought); price +0.15% 1d holding steady despite NVDA buyback news pulling peers down
-- BUY $2000.00 TTD [filled] ['congress'] — Congressional buying pressure on a beaten-down name (change_1m -8.12%) | evidence: Gilbert Ray Cisneros disclosed TTD buys 9/4 and 9/10; congress_net_buy_pressure TTD=2.0
-- BUY $1000.00 ACN [filled] ['congress'] — Small congress-backed add to round out position count to 8 | evidence: Scott Franklin disclosed ACN buy 8/26 ($1,001-$15,000); congress_net_buy_pressure ACN=2.0
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-~ WORKING stop_loss 100% LEN @ $79.80 until 2026-09-28 — Protective stop
 ~ WORKING stop_loss 100% PLTR @ $181.00 until 2026-09-28 — Protective stop
 ~ WORKING stop_loss 100% TSM @ $435.00 until 2026-09-28 — Protective stop
 ~ WORKING stop_loss 100% AVGO @ $342.00 until 2026-09-28 — Protective stop
@@ -398,3 +374,27 @@ lesson: Always cross-check cooling_off_minutes_left before finalizing order list
 ~ WORKING buy_limit $500.00 RTX @ $182.61 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32805.12 (+31.22% on $25000.00 in) · cash $26806.91 · realised +7806.91
 Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $18988.22 this week
+
+## 2026-09-28 12:12 ET (Monday) — week 2026-W40 — budget left $18988.22 (today $75352.94 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Only 2 positions held (PLTR, RTX) vs min_positions=8, cash_idle_pct 76%. Adding GOOGL, UNH, CCJ - all clear of the 45-min cooldown list, with concrete evidence (day-range position, sector track record, headlines). Sized at $2000-2200 each which is meaningful vs the $25k account per owner instruction. Attaching stop_loss/take_profit per risk_management's 88% hit rate in track record. Still below min_positions after this so requesting a short next check to add more as cooldowns clear.
+lesson: With only 5 names ever in cooldown, prioritize adding non-cooled widely_held/sector names in $2000+ size immediately rather than waiting, since idle cash at 76% is a self-inflicted drag per counterfactual regret data.
+  (dropped GOOGL: sold 32 min ago, cooling off)
+  (dropped UNH: sold 32 min ago, cooling off)
+- BUY $2100.00 CCJ [filled] ['momentum', 'news'] — nuclear sector has 67% hit rate in track record, CCJ not in cooldown list, positive catalyst headline | evidence: CCJ 65.6% of day range, headline 'Cameco's Westinghouse Stake Could Be Worth More Than $24.5 Billion'
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger GOOGL take_profit: not held)
+  (dropped trigger UNH stop_loss: not held)
+  (dropped trigger UNH take_profit: not held)
+~ WORKING stop_loss 100% CCJ @ $84.50 until 2026-09-28 — cap downside on fresh entry
+~ WORKING take_profit 50% CCJ @ $89.00 until 2026-09-28 — lock partial gains on a move toward range highs
+~ WORKING take_profit 100% CCJ @ $87.25 until 2026-10-03 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $84.30 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $598.67 until 2026-09-29 — strong month, weak day: resting 0.90% under $604.12 to catch the dip
+portfolio: equity $32806.02 (+31.22% on $25000.00 in) · cash $24706.91 · realised +7806.91
+Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16888.22 this week

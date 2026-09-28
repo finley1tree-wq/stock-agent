@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-28T11:58-04:00",
- "note": "Book is flat with 100% idle cash and below min_positions; deploying into non-cooled names (PLTR, CCJ, NOC, RTX) with concrete news/momentum evidence per repeated lesson to check cooldown list explicitly rather than sitting out. Swapped MSFT (in cooldown 44min) for a defense pair instead. Attached st",
+ "asOf": "2026-09-28T12:13-04:00",
+ "note": "Only 2 positions held (PLTR, RTX) vs min_positions=8, cash_idle_pct 76%. Adding GOOGL, UNH, CCJ - all clear of the 45-min cooldown list, with concrete evidence (day-range position, sector track record, headlines). Sized at $2000-2200 each which is meaningful vs the $25k account per owner instruction",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "f312e837",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 189.1415,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 188.67,
+   "pct_away": 0.25,
+   "good_until": "2026-10-03",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "476fcd7d",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 188.18,
-   "pct_away": 0.26,
+   "last": 188.09,
+   "pct_away": 0.31,
    "good_until": "2026-10-03",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -156,17 +173,17 @@
    ]
   },
   {
-   "id": "f312e837",
-   "ticker": "PLTR",
+   "id": "9f73a403",
+   "ticker": "CCJ",
    "kind": "take_profit",
-   "price": 189.1415,
+   "price": 87.255,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 188.47,
-   "pct_away": 0.36,
+   "last": 86.88,
+   "pct_away": 0.43,
    "good_until": "2026-10-03",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,10 +197,27 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 718.15,
-   "pct_away": -0.43,
+   "last": 719.4,
+   "pct_away": -0.61,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.89% under $721.48 to catch the dip",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ]
+  },
+  {
+   "id": "d8bb370b",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 598.6712,
+   "usd": 1000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 604.12,
+   "pct_away": -0.9,
+   "good_until": "2026-09-29",
+   "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
@@ -197,8 +231,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 230.04,
-   "pct_away": -0.86,
+   "last": 230.41,
+   "pct_away": -1.02,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.47% under $229.13 to catch the dip",
    "signals": [
@@ -214,8 +248,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 188.47,
-   "pct_away": -1.31,
+   "last": 188.67,
+   "pct_away": -1.42,
    "good_until": "2026-09-28",
    "why": "resting limit below market to get better entry than chasing at 69% of range",
    "signals": [
@@ -231,8 +265,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 350.74,
-   "pct_away": -1.64,
+   "last": 350.51,
+   "pct_away": -1.57,
    "good_until": "2026-09-28",
    "why": "resting limit below current 349.87 to get better entry on congress-backed name",
    "signals": [
@@ -248,30 +282,13 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 450.11,
-   "pct_away": -1.8,
+   "last": 451.11,
+   "pct_away": -2.02,
    "good_until": "2026-09-28",
    "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
    "signals": [
     "congress",
     "momentum"
-   ]
-  },
-  {
-   "id": "4e1f5f09",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 253.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 258.67,
-   "pct_away": -2.19,
-   "good_until": "2026-09-28",
-   "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
-   "signals": [
-    "momentum",
-    "news"
    ]
   },
   {
@@ -282,12 +299,29 @@
    "usd": null,
    "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 188.47,
-   "pct_away": 2.4,
+   "last": 188.67,
+   "pct_away": 2.3,
    "good_until": "2026-09-28",
    "why": "lock partial gains on a move",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "4e1f5f09",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 253.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 259.2,
+   "pct_away": -2.39,
+   "good_until": "2026-09-28",
+   "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
+   "signals": [
+    "momentum",
+    "news"
    ]
   },
   {
@@ -298,10 +332,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 188.18,
-   "pct_away": -2.49,
+   "last": 188.09,
+   "pct_away": -2.44,
    "good_until": "2026-09-28",
    "why": "protect defense entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "b3ea523e",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 89.0,
+   "usd": null,
+   "pct_of_position": 50.0,
+   "trail_pct": null,
+   "last": 86.88,
+   "pct_away": 2.44,
+   "good_until": "2026-09-28",
+   "why": "lock partial gains on a move toward range highs",
    "signals": [
     "risk_management"
    ]
@@ -314,8 +364,24 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 188.47,
-   "pct_away": -2.64,
+   "last": 188.67,
+   "pct_away": -2.74,
+   "good_until": "2026-09-28",
+   "why": "cap downside on fresh entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "8f45d5bd",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 84.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.88,
+   "pct_away": -2.74,
    "good_until": "2026-09-28",
    "why": "cap downside on fresh entry",
    "signals": [
@@ -330,8 +396,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 188.18,
-   "pct_away": -2.96,
+   "last": 188.09,
+   "pct_away": -2.91,
+   "good_until": "2026-10-03",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "785d6828",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 84.3027,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 86.88,
+   "pct_away": -2.97,
    "good_until": "2026-10-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -347,8 +430,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 188.47,
-   "pct_away": -2.98,
+   "last": 188.67,
+   "pct_away": -3.08,
    "good_until": "2026-10-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -364,8 +447,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 258.67,
-   "pct_away": -3.58,
+   "last": 259.2,
+   "pct_away": -3.77,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
    "signals": [
@@ -374,7 +457,7 @@
    ]
   }
  ],
- "last_reasoning": "Book is flat with 100% idle cash and below min_positions; deploying into non-cooled names (PLTR, CCJ, NOC, RTX) with concrete news/momentum evidence per repeated lesson to check cooldown list explicitly rather than sitting out. Swapped MSFT (in cooldown 44min) for a defense pair instead. Attached st",
+ "last_reasoning": "Only 2 positions held (PLTR, RTX) vs min_positions=8, cash_idle_pct 76%. Adding GOOGL, UNH, CCJ - all clear of the 45-min cooldown list, with concrete evidence (day-range position, sector track record, headlines). Sized at $2000-2200 each which is meaningful vs the $25k account per owner instruction",
  "next_check_minutes": 15,
  "allowed": [
   "AAPL",
@@ -438,7 +521,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 389,
+  "decisions_graded": 388,
   "decisions_with_buys_graded": 166,
   "independent_days_graded": 7,
   "avg_regret_pct": -0.32,
@@ -555,9 +638,9 @@
     "n": 2
    }
   },
-  "idle_checks": 222,
+  "idle_checks": 221,
   "blocked_checks": 0,
-  "idle_share": 0.56,
+  "idle_share": 0.55,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1970,9 +2053,9 @@
     "when": "2026-09-28T14:40"
    },
    {
-    "title": "Nvidia Announces Largest Buyback In History. Cramer Says \u201cIt Will Change Trajectory Of The Stock\u201d If The Buyback Is Active",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-28T15:17"
+    "title": "European Equities Mixed in Monday Trading; UBS Sees Multiple Merger Inquiries",
+    "source": "MT Newswires",
+    "when": "2026-09-28T15:56"
    }
   ],
   "ACN": [
@@ -2004,9 +2087,9 @@
     "when": "2026-09-28T13:33"
    },
    {
-    "title": "Kirsten Harmon Joins Vinson & Elkins as NY-Based Corporate Partner",
-    "source": "Exec Edge",
-    "when": "2026-09-28T15:28"
+    "title": "This AI Infrastructure Stock Is Flying Under the Radar",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-28T16:00"
    }
   ],
   "AMZN": [
@@ -2028,19 +2111,19 @@
   ],
   "AVGO": [
    {
+    "title": "This AI Infrastructure Stock Is Flying Under the Radar",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-28T16:00"
+   },
+   {
+    "title": "Marvell Likely to Lift Fiscal 2029 AI Revenue Estimate by at Least $2 Billion Largely Due to Google Deal, RBC Says",
+    "source": "MT Newswires",
+    "when": "2026-09-28T15:51"
+   },
+   {
     "title": "Adobe And 2 Other Top AI Stocks To Watch",
     "source": "Simply Wall St.",
     "when": "2026-09-28T15:09"
-   },
-   {
-    "title": "Nvidia and AMD Just Got a New AI Demand Risk to Watch",
-    "source": "GuruFocus.com",
-    "when": "2026-09-28T14:58"
-   },
-   {
-    "title": "China Went From 32% to 17% of Broadcom\u2019s Sales Since 2023. Here\u2019s What Beijing\u2019s Switch Review Actually Puts at Risk",
-    "source": "TIKR",
-    "when": "2026-09-28T14:44"
    }
   ],
   "CCJ": [
@@ -2186,14 +2269,14 @@
     "when": "2026-09-28T14:40"
    },
    {
-    "title": "Hyperscaler Bang for Buck: The AI Capex ROI Has Two Clear Winners",
-    "source": "24/7 Wall St.",
-    "when": "2026-09-28T15:35"
+    "title": "Palantir's latest AI move reveals a much bigger ambition",
+    "source": "TheStreet",
+    "when": "2026-09-28T16:03"
    },
    {
-    "title": "AI Stock Leader Arista Eyes Latest Buy Point With RS Line At New Highs",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-28T15:34"
+    "title": "This AI Infrastructure Stock Is Flying Under the Radar",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-28T16:00"
    }
   ],
   "HD": [
@@ -2327,9 +2410,9 @@
     "when": "2026-09-28T10:00"
    },
    {
-    "title": "AI Stock Leader Arista Eyes Latest Buy Point With RS Line At New Highs",
-    "source": "Investor's Business Daily",
-    "when": "2026-09-28T15:34"
+    "title": "Marvell Likely to Lift Fiscal 2029 AI Revenue Estimate by at Least $2 Billion Largely Due to Google Deal, RBC Says",
+    "source": "MT Newswires",
+    "when": "2026-09-28T15:51"
    }
   ],
   "NEM": [
@@ -2385,19 +2468,19 @@
   ],
   "NVDA": [
    {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq slip as US-Iran tensions resurface, Treasury yields jump",
+    "title": "'So much cash': Nvidia stock jumps after largest share buyback ever",
     "source": "Yahoo Finance",
-    "when": "2026-09-28T08:04"
+    "when": "2026-09-28T13:43"
    },
    {
-    "title": "The impact that AI will have on advertising, according to Sir Martin Sorrell",
+    "title": "Trump hosted Anthropic's CEO for dinner at the White House. Here's why that matters.",
     "source": "Yahoo Finance Video",
-    "when": "2026-09-28T14:40"
+    "when": "2026-09-28T13:50"
    },
    {
-    "title": "Nvidia latest: What to know about its new AI security system & stock buyback increase",
-    "source": "Yahoo Finance Video",
-    "when": "2026-09-28T13:14"
+    "title": "Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history",
+    "source": "Yahoo Finance",
+    "when": "2026-09-28T12:13"
    }
   ],
   "O": [
@@ -2453,6 +2536,11 @@
   ],
   "PLTR": [
    {
+    "title": "Palantir's latest AI move reveals a much bigger ambition",
+    "source": "TheStreet",
+    "when": "2026-09-28T16:03"
+   },
+   {
     "title": "If You Invest $10,000 in Palantir Today, Here\u2019s What It Could Be Worth by 2030",
     "source": "24/7 Wall St.",
     "when": "2026-09-28T15:30"
@@ -2461,11 +2549,6 @@
     "title": "Capital Markets Assessment and IPO Readiness: 2nd LA CorpGov Forum",
     "source": "CorpGov.com",
     "when": "2026-09-28T14:23"
-   },
-   {
-    "title": "Palantir and Tyson Foods have been highlighted as Zacks Bull and Bear of the Day",
-    "source": "Zacks",
-    "when": "2026-09-28T12:29"
    }
   ],
   "RTX": [
@@ -2589,5 +2672,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-28T11:58-04:00"
+ "signalsAsOf": "2026-09-28T12:13-04:00"
 }
