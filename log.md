@@ -19186,3 +19186,36 @@ lesson: When most watchlist names are either in cooldown or high in their day ra
 ~ WORKING stop_loss 100% AAPL @ $336.00 until 2026-09-28 — tighten protective stop
 portfolio: equity $32811.11 (+31.24% on $25000.00 in) · cash $24818.09 · realised +7818.09
 Decision: nothing at this check. 25 standing order(s) working.
+  (cancelled 4 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $510.24] -> $2004.91 (+0.25%) — close 100% at +0.2% over the average cost
+- SELL 100% AAPL [time stop] -> $1999.32 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TTD [time stop] -> $1988.64 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $1995.96 (-0.20%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 11:56 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 11:57 ET (Monday) — week 2026-W40 — budget left $24988.22 (today $69352.94 put to work, 34 buys, 32 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Book is flat with 100% idle cash and below min_positions; deploying into non-cooled names (PLTR, CCJ, NOC, RTX) with concrete news/momentum evidence per repeated lesson to check cooldown list explicitly rather than sitting out. Swapped MSFT (in cooldown 44min) for a defense pair instead. Attached stops immediately per the risk_management signal's 88% hit rate track record.
+lesson: Always cross-check cooling_off_minutes_left before finalizing order list - MSFT/AAPL/AMZN/TTD were still cooling despite being widely_held top performers, so pivoted to non-cooled defense names instead.
+  (dropped CCJ: sold 43 min ago, cooling off)
+  (dropped MSFT: sold 2 min ago, cooling off)
+  (dropped NOC: sold 28 min ago, cooling off)
+- BUY $3000.00 PLTR [filled] ['momentum', 'news'] — momentum continuation with fresh bullish news, not in cooldown | evidence: PLTR +2.94% 5d, 71.6% of day range, headline '$10,000 in Palantir Today Could Be Worth by 2030'
+- BUY $3000.00 RTX [filled] ['momentum', 'news'] — defense sector diversification with moderate entry range, cooldown table shows RTX not listed as cooling | evidence: RTX headline 'Boeing Drops 3% ... RTX Treads Water', 44.9% of day range
+  (dropped trigger CCJ stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+  (dropped trigger CCJ take_profit: not held)
+~ WORKING stop_loss 100% PLTR @ $183.50 until 2026-09-28 — cap downside on fresh entry
+~ WORKING stop_loss 100% RTX @ $183.50 until 2026-09-28 — protect defense entry
+~ WORKING take_profit 33% PLTR @ $193.00 until 2026-09-28 — lock partial gains on a move
+~ WORKING take_profit 100% PLTR @ $189.14 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $182.85 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $188.67 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $182.61 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32805.12 (+31.22% on $25000.00 in) · cash $26806.91 · realised +7806.91
+Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $18988.22 this week

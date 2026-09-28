@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-28T11:42-04:00",
- "note": "Only 4 positions held vs min_positions=8, cash_idle_pct=68% - must deploy more. GOOGL/UNH/NEM/NOC/LMT/RTX/CCJ/TSM/AMD are in cooldown so can't rebuy those. Rather than chasing names already high in day range (CRWD at 97.4%, PLTR at 69.3%), I'm placing buy_limit orders below market to get better entr",
+ "asOf": "2026-09-28T11:58-04:00",
+ "note": "Book is flat with 100% idle cash and below min_positions; deploying into non-cooled names (PLTR, CCJ, NOC, RTX) with concrete news/momentum evidence per repeated lesson to check cooldown list explicitly rather than sitting out. Swapped MSFT (in cooldown 44min) for a defense pair instead. Attached st",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,15 +139,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "ce151b24",
-   "ticker": "MSFT",
+   "id": "476fcd7d",
+   "ticker": "RTX",
    "kind": "take_profit",
-   "price": 510.2421,
+   "price": 188.6723,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 509.16,
-   "pct_away": 0.21,
+   "last": 188.18,
+   "pct_away": 0.26,
    "good_until": "2026-10-03",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -156,34 +156,17 @@
    ]
   },
   {
-   "id": "864304df",
-   "ticker": "AAPL",
+   "id": "f312e837",
+   "ticker": "PLTR",
    "kind": "take_profit",
-   "price": 341.9604,
+   "price": 189.1415,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 340.98,
-   "pct_away": 0.29,
+   "last": 188.47,
+   "pct_away": 0.36,
    "good_until": "2026-10-03",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fd13c00c",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 247.3596,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 246.49,
-   "pct_away": 0.35,
-   "good_until": "2026-10-03",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,46 +180,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 718.83,
-   "pct_away": -0.53,
+   "last": 718.15,
+   "pct_away": -0.43,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.89% under $721.48 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "5c5511b3",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 12.3891,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 12.3,
-   "pct_away": 0.72,
-   "good_until": "2026-10-03",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b893fe78",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 513.0,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 509.16,
-   "pct_away": 0.75,
-   "good_until": "2026-09-28",
-   "why": "lock partial gain near day high",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -247,79 +197,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.99,
-   "pct_away": -0.84,
+   "last": 230.04,
+   "pct_away": -0.86,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.47% under $229.13 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "baa15595",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 344.5,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 340.98,
-   "pct_away": 1.03,
-   "good_until": "2026-09-28",
-   "why": "lock partial gain near day high",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "98532105",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 442.0,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 447.07,
-   "pct_away": -1.13,
-   "good_until": "2026-09-28",
-   "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
-   "signals": [
-    "congress",
-    "momentum"
-   ]
-  },
-  {
-   "id": "75ce8e50",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 503.2977,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 509.16,
-   "pct_away": -1.15,
-   "good_until": "2026-09-29",
-   "why": "strong month, weak day: resting 0.46% under $505.64 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "009ef94c",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 249.5,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 246.49,
-   "pct_away": 1.22,
-   "good_until": "2026-09-28",
-   "why": "lock partial gain near day high",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -330,8 +214,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 188.38,
-   "pct_away": -1.26,
+   "last": 188.47,
+   "pct_away": -1.31,
    "good_until": "2026-09-28",
    "why": "resting limit below market to get better entry than chasing at 69% of range",
    "signals": [
@@ -347,8 +231,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 349.87,
-   "pct_away": -1.39,
+   "last": 350.74,
+   "pct_away": -1.64,
    "good_until": "2026-09-28",
    "why": "resting limit below current 349.87 to get better entry on congress-backed name",
    "signals": [
@@ -357,67 +241,20 @@
    ]
   },
   {
-   "id": "3f891af6",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 502.0,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "98532105",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 442.0,
+   "usd": 2500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 509.16,
-   "pct_away": -1.41,
+   "last": 450.11,
+   "pct_away": -1.8,
    "good_until": "2026-09-28",
-   "why": "protect new position against reversal",
+   "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
    "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "65c16a0e",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 243.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 246.49,
-   "pct_away": -1.42,
-   "good_until": "2026-09-28",
-   "why": "protect new position against reversal",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "cae20e4b",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 336.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 340.98,
-   "pct_away": -1.46,
-   "good_until": "2026-09-28",
-   "why": "tighten protective stop",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "7ce44709",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 335.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 340.98,
-   "pct_away": -1.75,
-   "good_until": "2026-09-28",
-   "why": "protect new position against reversal",
-   "signals": [
-    "risk_management"
+    "congress",
+    "momentum"
    ]
   },
   {
@@ -428,8 +265,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 258.27,
-   "pct_away": -2.04,
+   "last": 258.67,
+   "pct_away": -2.19,
    "good_until": "2026-09-28",
    "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
    "signals": [
@@ -438,48 +275,63 @@
    ]
   },
   {
-   "id": "18b7923f",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 11.9601,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 12.3,
-   "pct_away": -2.76,
-   "good_until": "2026-10-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3e62db61",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 11.95,
+   "id": "1591378b",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 193.0,
    "usd": null,
-   "pct_of_position": 100.0,
+   "pct_of_position": 33.0,
    "trail_pct": null,
-   "last": 12.3,
-   "pct_away": -2.85,
+   "last": 188.47,
+   "pct_away": 2.4,
    "good_until": "2026-09-28",
-   "why": "protect new position against reversal",
+   "why": "lock partial gains on a move",
    "signals": [
     "risk_management"
    ]
   },
   {
-   "id": "fd2bc912",
-   "ticker": "AMZN",
+   "id": "c55cbf30",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 183.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 188.18,
+   "pct_away": -2.49,
+   "good_until": "2026-09-28",
+   "why": "protect defense entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "423b879f",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 183.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 188.47,
+   "pct_away": -2.64,
+   "good_until": "2026-09-28",
+   "why": "cap downside on fresh entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "654ce0e7",
+   "ticker": "RTX",
    "kind": "buy_limit",
-   "price": 239.3572,
+   "price": 182.6122,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 246.49,
-   "pct_away": -2.89,
+   "last": 188.18,
+   "pct_away": -2.96,
    "good_until": "2026-10-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -488,32 +340,15 @@
    ]
   },
   {
-   "id": "cee62bfc",
-   "ticker": "AAPL",
+   "id": "529eb6b5",
+   "ticker": "PLTR",
    "kind": "buy_limit",
-   "price": 330.9834,
+   "price": 182.8547,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.98,
-   "pct_away": -2.93,
-   "good_until": "2026-10-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "457737f7",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 493.7203,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 509.16,
-   "pct_away": -3.03,
+   "last": 188.47,
+   "pct_away": -2.98,
    "good_until": "2026-10-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -529,33 +364,17 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 258.27,
-   "pct_away": -3.43,
+   "last": 258.67,
+   "pct_away": -3.58,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
    ]
-  },
-  {
-   "id": "6c78c5b1",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 12.75,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 12.3,
-   "pct_away": 3.66,
-   "good_until": "2026-09-28",
-   "why": "lock partial gain near day high",
-   "signals": [
-    "risk_management"
-   ]
   }
  ],
- "last_reasoning": "Only 4 positions held vs min_positions=8, cash_idle_pct=68% - must deploy more. GOOGL/UNH/NEM/NOC/LMT/RTX/CCJ/TSM/AMD are in cooldown so can't rebuy those. Rather than chasing names already high in day range (CRWD at 97.4%, PLTR at 69.3%), I'm placing buy_limit orders below market to get better entr",
+ "last_reasoning": "Book is flat with 100% idle cash and below min_positions; deploying into non-cooled names (PLTR, CCJ, NOC, RTX) with concrete news/momentum evidence per repeated lesson to check cooldown list explicitly rather than sitting out. Swapped MSFT (in cooldown 44min) for a defense pair instead. Attached st",
  "next_check_minutes": 15,
  "allowed": [
   "AAPL",
@@ -619,7 +438,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 390,
+  "decisions_graded": 389,
   "decisions_with_buys_graded": 166,
   "independent_days_graded": 7,
   "avg_regret_pct": -0.32,
@@ -736,7 +555,7 @@
     "n": 2
    }
   },
-  "idle_checks": 223,
+  "idle_checks": 222,
   "blocked_checks": 0,
   "idle_share": 0.56,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2197,14 +2016,14 @@
     "when": "2026-09-28T14:40"
    },
    {
+    "title": "Goldman Sachs has a blunt message for AI stock investors",
+    "source": "TheStreet",
+    "when": "2026-09-28T15:33"
+   },
+   {
     "title": "AI Debt To Top Germany\u2019s GDP",
     "source": "24/7 Wall St.",
     "when": "2026-09-28T14:34"
-   },
-   {
-    "title": "QUICK SPARK: Trump\u2019s $2.5 Billion Investment Week Was 88% Defense",
-    "source": "Benzinga Private Markets",
-    "when": "2026-09-28T14:31"
    }
   ],
   "AVGO": [
@@ -2367,14 +2186,14 @@
     "when": "2026-09-28T14:40"
    },
    {
-    "title": "Marvell Has Revenue Acceleration Potential in 2027, 2028, RBC Says",
-    "source": "MT Newswires",
-    "when": "2026-09-28T15:19"
+    "title": "Hyperscaler Bang for Buck: The AI Capex ROI Has Two Clear Winners",
+    "source": "24/7 Wall St.",
+    "when": "2026-09-28T15:35"
    },
    {
-    "title": "Claude and Gemini hacks bring agentic AI risks into underwriting",
-    "source": "Life Insurance International",
-    "when": "2026-09-28T15:00"
+    "title": "AI Stock Leader Arista Eyes Latest Buy Point With RS Line At New Highs",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-28T15:34"
    }
   ],
   "HD": [
@@ -2430,6 +2249,11 @@
   ],
   "IBM": [
    {
+    "title": "Stock Market Today: Dow Dives, Gold Stocks Melt; Chips Tumble But Nvidia Rises On This Move (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-28T15:37"
+   },
+   {
     "title": "IonQ Is Building a Quantum Empire, BofA Says. Why the Stock Is a Buy.",
     "source": "Barrons.com",
     "when": "2026-09-28T14:26"
@@ -2438,11 +2262,6 @@
     "title": "Can IBM's Swift Integration Shape the Future of Digital Banking?",
     "source": "Zacks",
     "when": "2026-09-28T14:07"
-   },
-   {
-    "title": "Can PEAK:AIO Buyout Give NetApp a Competitive Edge in AI-Scale Storage?",
-    "source": "Zacks",
-    "when": "2026-09-28T13:38"
    }
   ],
   "LMT": [
@@ -2508,9 +2327,9 @@
     "when": "2026-09-28T10:00"
    },
    {
-    "title": "Marvell Has Revenue Acceleration Potential in 2027, 2028, RBC Says",
-    "source": "MT Newswires",
-    "when": "2026-09-28T15:19"
+    "title": "AI Stock Leader Arista Eyes Latest Buy Point With RS Line At New Highs",
+    "source": "Investor's Business Daily",
+    "when": "2026-09-28T15:34"
    }
   ],
   "NEM": [
@@ -2770,5 +2589,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-09-28T11:42-04:00"
+ "signalsAsOf": "2026-09-28T11:58-04:00"
 }
