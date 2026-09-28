@@ -1,13 +1,14 @@
 {
   "week": "2026-W40",
-  "spent": 5799.58,
-  "deployed": 40852.94,
+  "spent": 6799.58,
+  "deployed": 41852.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
     "AAPL": 2500.0,
     "AMZN": 2500.0,
-    "IBM": 852.94
+    "IBM": 852.94,
+    "META": 1000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -26,7 +27,8 @@
     "AAPL": 2500.0,
     "AMZN": 2500.0,
     "HD": 2000.0,
-    "IBM": 852.94
+    "IBM": 852.94,
+    "META": 1000.0
   },
   "orders": [
     {
@@ -625,12 +627,31 @@
       ],
       "evidence": "average cost $291.66",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "META",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.391024,
+      "price": 718.89,
+      "date": "2026-09-28",
+      "time_et": "10:11",
+      "ts": 1790604600,
+      "why": "strong month, weak day: resting 0.87% under $725.22 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+27.0% over the month, sitting at 1% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 5799.58,
-  "deployed_today": 40852.94,
-  "orders_today": 17,
+  "spent_today": 6799.58,
+  "deployed_today": 41852.94,
+  "orders_today": 18,
   "sells_today": 14,
   "sold_today": [
     "PLTR",
@@ -664,26 +685,29 @@
     "TTD": 1790604345,
     "HD": 1790604480
   },
-  "last_publish_ts": 1790604477,
-  "last_check_ts": 1790604526,
-  "last_bar_ts": 1790604300,
-  "last_decision_ts": 1790603769,
-  "next_check_minutes": 15,
+  "last_publish_ts": 1790604670,
+  "last_check_ts": 1790604670,
+  "last_bar_ts": 1790604600,
+  "last_decision_ts": 1790604670,
+  "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
     "eac58930": 246.2193,
-    "8a90c227": 342.9824,
-    "3e22ec46": 718.8947,
     "d157cd32": 221.988,
+    "8a90c227": 342.9824,
     "a37dccff": 340.0351,
+    "373226a3": 722.3191,
+    "95739700": 726.0,
     "3738968e": 346.5,
     "ae6c7892": 249.5,
     "33fabc9c": 336.5,
     "2961d616": 241.0,
-    "6ce04472": 216.5,
     "d047925e": 226.0,
+    "2286615c": 703.0,
+    "6ce04472": 216.5,
     "45be2684": 331.9825,
-    "2c506ac4": 214.4961,
-    "d4f4ab09": 238.2514
+    "5b449525": 697.3233,
+    "d4f4ab09": 238.2514,
+    "2c506ac4": 214.4961
   }
 }

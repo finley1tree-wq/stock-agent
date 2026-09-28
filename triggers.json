@@ -1,80 +1,6 @@
 {
  "orders": [
   {
-   "id": "4372b423",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 456.0,
-   "status": "cancelled",
-   "created": "2026-09-24 14:22",
-   "created_ts": 1790274150,
-   "why": "protective stop on new HUBB buy",
-   "evidence": "protect new entry ~1.5% below current 463.08 price",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 14:52",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "29022452",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 468.7,
-   "status": "cancelled",
-   "created": "2026-09-24 14:22",
-   "created_ts": 1790274150,
-   "why": "lock in gains on half position",
-   "evidence": "take partial profit at +1.2% over entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-24 14:52",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "bb0eda87",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 464.6089,
-   "status": "cancelled",
-   "created": "2026-09-24 14:22",
-   "created_ts": 1790274150,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $463.27",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 14:52",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "9747c932",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 449.3719,
-   "status": "cancelled",
-   "created": "2026-09-24 14:22",
-   "created_ts": 1790274150,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $463.27",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 14:52",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "8835ed0e",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -6644,7 +6570,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 718.8947,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "strong month, weak day: resting 0.87% under $725.22 to catch the dip",
@@ -6654,7 +6580,8 @@
     "dip_entry"
    ],
    "good_until": "2026-09-29",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-28 10:11"
   },
   {
    "id": "a37dccff",
@@ -7504,7 +7431,73 @@
    "good_until": "2026-10-03",
    "pct_of_position": 100.0,
    "closed": "2026-09-28 10:01"
+  },
+  {
+   "id": "2286615c",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 703.0,
+   "status": "working",
+   "created": "2026-09-28 10:11",
+   "created_ts": 1790604670,
+   "why": "protective stop on new META position, ~2.1% below cost",
+   "evidence": "META -4.42% today, price near day low (0.5% of range), avg cost 718.89",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "95739700",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 726.0,
+   "status": "working",
+   "created": "2026-09-28 10:11",
+   "created_ts": 1790604670,
+   "why": "lock in gain on half position at ~1% above cost",
+   "evidence": "avg cost 718.89",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "373226a3",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 722.3191,
+   "status": "working",
+   "created": "2026-09-28 10:11",
+   "created_ts": 1790604670,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $718.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5b449525",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 697.3233,
+   "status": "working",
+   "created": "2026-09-28 10:11",
+   "created_ts": 1790604670,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $718.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 10:07"
+ "updated": "2026-09-28 10:11"
 }

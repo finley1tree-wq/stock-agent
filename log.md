@@ -18976,3 +18976,24 @@ Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $10583.68 this week
   (cancelled 3 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $292.36] -> $2004.83 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-28 10:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 10:11 ET (Monday) — week 2026-W40 — budget left $19200.42 (today $40852.94 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+- BUY $1000.00 META [buy_limit @ $718.89] — strong month, weak day: resting 0.87% under $725.22 to catch the dip
+brain: Most attractive rotation candidates (GOOGL, MSFT, NVDA, TSM, AVGO, TTD, PLTR) are all in cooldown right now from this morning's churn, so I cannot legally rebuy them yet. I'm keeping current 4 positions (AAPL, AMZN, IBM, META) which already have stops/take-profits working, adding a protective stop+partial TP to the newly-opened META (currently -4.4% intraday, no protection yet), and requesting a very short next check (10min) so I can deploy into GOOGL/MSFT/NVDA/TSM the moment their 11-35min cooldowns expire to reach min_positions=8 with real size, per the desk's explicit instruction to avoid idle cash.
+lesson: When most of the best widely_held names are all in simultaneous cooldown from a prior churn, don't force buys into low-evidence off-watchlist names just to hit position count - instead protect existing positions and request a short next_check to catch cooldown expiries in real size.
+  (dropped GOOGL: sold 11 min ago, cooling off)
+  (dropped MSFT: sold 21 min ago, cooling off)
+  (dropped NVDA: sold 16 min ago, cooling off)
+  (dropped TSM: sold 35 min ago, cooling off)
+~ WORKING stop_loss 100% META @ $703.00 until 2026-09-28 — protective stop on new META position, ~2.1% below cost
+~ WORKING take_profit 50% META @ $726.00 until 2026-09-28 — lock in gain on half position at ~1% above cost
+~ WORKING take_profit 100% META @ $722.32 until 2026-10-03 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 META @ $697.32 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32872.35 (+31.49% on $25000.00 in) · cash $26019.10 · realised +7872.04
+Done: 0 sell(s), 1 buy(s) (incl. 1 from standing orders); 17 order(s) working; budget left $18200.42 this week

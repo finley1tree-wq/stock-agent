@@ -1,24 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32820.48 (+31.28% on $25000.00 in) · cash $26817.36 · realised +7817.36
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-25 15:27 ET (Friday) — week 2026-W39 — budget left $18905.71 (today $162346.78 put to work, 55 buys, 53 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQi5AKvniZYEZ5NeLGBY'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,906 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 META [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +30.4% over the month; 20% of today's range
-~ WORKING take_profit 100% META @ $754.50 until 2026-09-30 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $743.02 until 2026-09-30 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32819.79 (+31.28% on $25000.00 in) · cash $23817.36 · realised +7817.36
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $15905.71 this week
   (cancelled 5 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
@@ -398,3 +377,24 @@ Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $10583.68 this week
   (cancelled 3 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $292.36] -> $2004.83 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-28 10:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 10:11 ET (Monday) — week 2026-W40 — budget left $19200.42 (today $40852.94 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+- BUY $1000.00 META [buy_limit @ $718.89] — strong month, weak day: resting 0.87% under $725.22 to catch the dip
+brain: Most attractive rotation candidates (GOOGL, MSFT, NVDA, TSM, AVGO, TTD, PLTR) are all in cooldown right now from this morning's churn, so I cannot legally rebuy them yet. I'm keeping current 4 positions (AAPL, AMZN, IBM, META) which already have stops/take-profits working, adding a protective stop+partial TP to the newly-opened META (currently -4.4% intraday, no protection yet), and requesting a very short next check (10min) so I can deploy into GOOGL/MSFT/NVDA/TSM the moment their 11-35min cooldowns expire to reach min_positions=8 with real size, per the desk's explicit instruction to avoid idle cash.
+lesson: When most of the best widely_held names are all in simultaneous cooldown from a prior churn, don't force buys into low-evidence off-watchlist names just to hit position count - instead protect existing positions and request a short next_check to catch cooldown expiries in real size.
+  (dropped GOOGL: sold 11 min ago, cooling off)
+  (dropped MSFT: sold 21 min ago, cooling off)
+  (dropped NVDA: sold 16 min ago, cooling off)
+  (dropped TSM: sold 35 min ago, cooling off)
+~ WORKING stop_loss 100% META @ $703.00 until 2026-09-28 — protective stop on new META position, ~2.1% below cost
+~ WORKING take_profit 50% META @ $726.00 until 2026-09-28 — lock in gain on half position at ~1% above cost
+~ WORKING take_profit 100% META @ $722.32 until 2026-10-03 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 META @ $697.32 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32872.35 (+31.49% on $25000.00 in) · cash $26019.10 · realised +7872.04
+Done: 0 sell(s), 1 buy(s) (incl. 1 from standing orders); 17 order(s) working; budget left $18200.42 this week
