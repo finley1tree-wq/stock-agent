@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "1a23c199",
-   "ticker": "ESE",
-   "kind": "buy_limit",
-   "price": 260.7166,
-   "status": "cancelled",
-   "created": "2026-09-24 14:11",
-   "created_ts": 1790273496,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $268.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 14:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "4372b423",
    "ticker": "HUBB",
    "kind": "stop_loss",
@@ -7188,7 +7169,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 339.6506,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:55",
    "created_ts": 1790603706,
    "why": "close it all at -0.7% under the average cost",
@@ -7198,7 +7179,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:58",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9f1c8fab",
@@ -7480,7 +7463,24 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "d0690775",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 342.43,
+   "status": "working",
+   "created": "2026-09-28 09:58",
+   "created_ts": 1790603911,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $342.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-28 09:56"
+ "updated": "2026-09-28 09:58"
 }
