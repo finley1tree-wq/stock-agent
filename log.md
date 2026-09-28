@@ -18997,3 +18997,6 @@ lesson: When most of the best widely_held names are all in simultaneous cooldown
 ~ WORKING buy_limit $500.00 META @ $697.32 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32872.35 (+31.49% on $25000.00 in) · cash $26019.10 · realised +7872.04
 Done: 0 sell(s), 1 buy(s) (incl. 1 from standing orders); 17 order(s) working; budget left $18200.42 this week
+  (cancelled 3 standing order(s) on AMZN: position closed)
+- SELL 100% AMZN [take_profit @ $246.22] -> $2506.11 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-28 10:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
