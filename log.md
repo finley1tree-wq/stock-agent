@@ -19065,3 +19065,5 @@ portfolio: equity $32867.65 (+31.47% on $25000.00 in) · cash $27728.07 · reali
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $19909.38 this week
 - BUY $1000.00 TSM [buy_limit @ $445.35] — strong month, weak day: resting 0.44% under $447.33 to catch the dip
 ## 2026-09-28 10:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $1000.00 AMD [buy_limit @ $600.80] — strong month, weak day: resting 0.87% under $606.10 to catch the dip
+## 2026-09-28 10:46 ET — tick — 0 sell(s), 1 buy(s) from standing orders

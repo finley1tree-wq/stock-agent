@@ -1,6 +1,4 @@
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
 
 ## 2026-09-25 15:38 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +396,5 @@ portfolio: equity $32867.65 (+31.47% on $25000.00 in) · cash $27728.07 · reali
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $19909.38 this week
 - BUY $1000.00 TSM [buy_limit @ $445.35] — strong month, weak day: resting 0.44% under $447.33 to catch the dip
 ## 2026-09-28 10:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $1000.00 AMD [buy_limit @ $600.80] — strong month, weak day: resting 0.87% under $606.10 to catch the dip
+## 2026-09-28 10:46 ET — tick — 0 sell(s), 1 buy(s) from standing orders

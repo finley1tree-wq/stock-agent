@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "f5acc49f",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 615.0,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "Protect against reversal in high-momentum high-ATR name",
-   "evidence": "ATR 4.077%, AMD price 634.59",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:54",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ac48daa3",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 501.59,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "wanted it, but not at the high \u2014 resting at $501.59. Top of day range breakout plus large congressional buy disclosed recently",
-   "evidence": "MSFT +1.44% today at 100% of day range, Josh Gottheimer disclosed $250k-$1M buy 2026-08-14",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-25",
-   "usd": 4000.0,
-   "closed": "2026-09-25 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "32f03242",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 451.514,
-   "status": "filled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "wanted it, but not at the high \u2014 resting at $451.51. Semiconductor momentum plus congress buy signal",
-   "evidence": "TSM +4.02% 5d, Rep. Rick W. Allen disclosed TSM buy 2026-08-12",
-   "signals": [
-    "momentum",
-    "congress",
-    "patience"
-   ],
-   "good_until": "2026-09-25",
-   "usd": 3000.0,
-   "closed": "2026-09-25 09:44"
-  },
-  {
    "id": "45dc7ea9",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -7484,7 +7427,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 600.7972,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 10:38",
    "created_ts": 1790606315,
    "why": "strong month, weak day: resting 0.87% under $606.10 to catch the dip",
@@ -7494,8 +7437,60 @@
     "dip_entry"
    ],
    "good_until": "2026-09-29",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-28 10:46"
+  },
+  {
+   "id": "0f313b9f",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 603.6658,
+   "status": "working",
+   "created": "2026-09-28 10:46",
+   "created_ts": 1790606764,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $600.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e450c75c",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 593.6325,
+   "status": "working",
+   "created": "2026-09-28 10:46",
+   "created_ts": 1790606764,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $600.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3706c5af",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 582.776,
+   "status": "working",
+   "created": "2026-09-28 10:46",
+   "created_ts": 1790606764,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $600.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 10:43"
+ "updated": "2026-09-28 10:46"
 }
