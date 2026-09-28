@@ -19243,3 +19243,6 @@ lesson: With only 5 names ever in cooldown, prioritize adding non-cooled widely_
 ~ WORKING buy_limit $1000.00 AMD @ $598.67 until 2026-09-29 — strong month, weak day: resting 0.90% under $604.12 to catch the dip
 portfolio: equity $32806.02 (+31.22% on $25000.00 in) · cash $24706.91 · realised +7806.91
 Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16888.22 this week
+  (cancelled 3 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $87.25] -> $2108.22 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-09-28 12:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders

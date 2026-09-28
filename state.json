@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 8111.78,
+  "spent": 6003.56,
   "deployed": 77452.94,
   "by_ticker": {
     "AVGO": 18.09,
@@ -16,8 +16,7 @@
     "GOOGL": 4.72,
     "UNH": 11.79,
     "NEM": 4.25,
-    "AMZN": 4.04,
-    "CCJ": 2100.0
+    "AMZN": 4.04
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -1361,13 +1360,34 @@
         "news"
       ],
       "evidence": "CCJ 65.6% of day range, headline 'Cameco's Westinghouse Stake Could Be Worth More Than $24.5 Billion'"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 24.161606,
+      "status": "filled",
+      "price": 87.25,
+      "proceeds": 2108.22,
+      "realized_pnl": 8.22,
+      "realized_pct": 0.39,
+      "date": "2026-09-28",
+      "time_et": "12:18",
+      "ts": 1790612100,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.91",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 8111.78,
+  "spent_today": 6003.56,
   "deployed_today": 77452.94,
   "orders_today": 37,
-  "sells_today": 32,
+  "sells_today": 33,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -1412,34 +1432,30 @@
     "AAPL": 1790610992,
     "IBM": 1790605604,
     "RTX": 1790608181,
-    "CCJ": 1790608523,
+    "CCJ": 1790612328,
     "LMT": 1790609334,
     "NEM": 1790610063
   },
-  "last_publish_ts": 1790611972,
-  "last_check_ts": 1790612246,
+  "last_publish_ts": 1790612325,
+  "last_check_ts": 1790612374,
   "last_bar_ts": 1790612100,
   "last_decision_ts": 1790611972,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "f312e837": 189.1415,
     "476fcd7d": 188.6723,
-    "9f73a403": 87.255,
+    "f312e837": 189.1415,
     "189a96c9": 715.0447,
     "d8bb370b": 598.6712,
     "1388993a": 228.0543,
     "dee71357": 186.0,
     "ada2e9da": 345.0,
-    "98532105": 442.0,
     "1591378b": 193.0,
+    "98532105": 442.0,
     "4e1f5f09": 253.0,
     "c55cbf30": 183.5,
-    "b3ea523e": 89.0,
     "423b879f": 183.5,
-    "8f45d5bd": 84.5,
     "654ce0e7": 182.6122,
-    "785d6828": 84.3027,
     "529eb6b5": 182.8547,
     "6e4d20d8": 249.4201
   }
