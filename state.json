@@ -1,10 +1,10 @@
 {
   "week": "2026-W40",
-  "spent": 12768.48,
+  "spent": 7804.41,
   "deployed": 40852.94,
   "by_ticker": {
-    "AVGO": 3000.0,
-    "TTD": 2000.0,
+    "AVGO": 18.09,
+    "TTD": 17.84,
     "AAPL": 2500.0,
     "AMZN": 2500.0,
     "HD": 2000.0,
@@ -565,13 +565,53 @@
       ],
       "evidence": "average cost $342.1",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 8.488948,
+      "status": "filled",
+      "price": 351.27,
+      "proceeds": 2981.91,
+      "realized_pnl": -18.09,
+      "realized_pct": -0.6,
+      "date": "2026-09-28",
+      "time_et": "10:05",
+      "ts": 1790604342,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.58% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 162.140172,
+      "status": "filled",
+      "price": 12.22,
+      "proceeds": 1982.16,
+      "realized_pnl": -17.84,
+      "realized_pct": -0.89,
+      "date": "2026-09-28",
+      "time_et": "10:05",
+      "ts": 1790604342,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.85% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 12768.48,
+  "spent_today": 7804.41,
   "deployed_today": 40852.94,
   "orders_today": 17,
-  "sells_today": 11,
+  "sells_today": 13,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -583,7 +623,9 @@
     "UNH",
     "CRWD",
     "NVDA",
-    "GOOGL"
+    "GOOGL",
+    "AVGO",
+    "TTD"
   ],
   "sold_ts": {
     "PLTR": 1790602620,
@@ -596,38 +638,34 @@
     "UNH": 1790603437,
     "CRWD": 1790603708,
     "NVDA": 1790603756,
-    "GOOGL": 1790604063
+    "GOOGL": 1790604063,
+    "AVGO": 1790604344,
+    "TTD": 1790604345
   },
-  "last_publish_ts": 1790604060,
-  "last_check_ts": 1790604252,
-  "last_bar_ts": 1790604000,
+  "last_publish_ts": 1790604342,
+  "last_check_ts": 1790604391,
+  "last_bar_ts": 1790604300,
   "last_decision_ts": 1790603769,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "d157cd32": 221.988,
-    "eac58930": 246.2193,
     "8a90c227": 342.9824,
+    "eac58930": 246.2193,
     "790ed5d7": 292.3629,
+    "d157cd32": 221.988,
     "3e22ec46": 718.8947,
-    "9c19d4a4": 354.439,
     "a37dccff": 340.0351,
-    "166222d4": 12.3981,
     "3738968e": 346.5,
     "ae6c7892": 249.5,
     "46336fe5": 286.5,
-    "33fabc9c": 336.5,
     "6f85c6fe": 296.5,
-    "d047925e": 226.0,
+    "33fabc9c": 336.5,
     "2961d616": 241.0,
     "6ce04472": 216.5,
-    "92a07b97": 11.9698,
-    "1a3ae429": 342.798,
-    "c6e16130": 282.9102,
-    "88f57c55": 342.0,
-    "45be2684": 331.9825,
-    "d4f4ab09": 238.2514,
+    "d047925e": 226.0,
     "2c506ac4": 214.4961,
-    "9175f355": 11.7
+    "d4f4ab09": 238.2514,
+    "c6e16130": 282.9102,
+    "45be2684": 331.9825
   }
 }

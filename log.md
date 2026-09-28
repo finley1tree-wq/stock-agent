@@ -18970,3 +18970,6 @@ Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $10583.68 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [stop_loss @ $342.26] -> $1647.84 (+0.05%) — close it all at -0.7% under the average cost
 ## 2026-09-28 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AVGO [time stop] -> $2981.91 (-0.60%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TTD [time stop] -> $1982.16 (-0.89%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 10:05 ET — tick — 2 sell(s), 0 buy(s) from standing orders
