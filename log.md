@@ -19294,3 +19294,24 @@ lesson: When rebuilding from fully flat with idle_pct=100%, deploy across 8 name
 ~ WORKING buy_limit $500.00 UNH @ $364.56 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32822.23 (+31.29% on $25000.00 in) · cash $17326.33 · realised +7826.33
 Done: 0 sell(s), 6 buy(s); 28 order(s) working; budget left $9500.00 this week
+
+## 2026-09-28 12:35 ET (Monday) — week 2026-W40 — budget left $9500.00 (today $92952.94 put to work, 43 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Below min_positions (6 of 8) with 38% cash idle - need to add names. PLTR is in cooldown so I'm swapping to CRWD (strong momentum, active news) and TSM (congress buy from Rep. Allen who has +2.76% avg excess/62% beat rate per leaderboard, plus real momentum). Adding protective stops and take-profits on new positions per risk_management discipline that has 88% hit rate historically.
+lesson: Check cooling_off_minutes_left list explicitly before drafting orders - PLTR was cooling (37min left) so I had to substitute it out; keep a mental checklist of the 5-7 cooling names at each check rather than assuming full universe access.
+  (dropped PLTR: sold 9 min ago, cooling off)
+  (dropped CRWD: 94% up today's range — resting a limit at $253.85 instead of chasing)
+  (dropped TSM: 88% up today's range — resting a limit at $449.80 instead of chasing)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger CRWD take_profit: not held)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger TSM take_profit: not held)
+~ WORKING buy_limit $2500.00 CRWD @ $253.85 until 2026-09-28 — wanted it, but not at the high — resting at $253.85. Strong momentum name, adds 7th position, existing limit orders will layer in on dips
+~ WORKING buy_limit $1947.24 TSM @ $449.80 until 2026-09-28 — wanted it, but not at the high — resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions
+portfolio: equity $32784.28 (+31.14% on $25000.00 in) · cash $17326.33 · realised +7826.33
+Decision: nothing at this check. 30 standing order(s) working.

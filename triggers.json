@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "8d07be72",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 192.4487,
-   "status": "cancelled",
-   "created": "2026-09-25 11:18",
-   "created_ts": 1790349482,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $191.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 11:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "55e91623",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 190.2161,
-   "status": "cancelled",
-   "created": "2026-09-25 11:18",
-   "created_ts": 1790349482,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $191.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 11:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "56a82919",
    "ticker": "PLTR",
    "kind": "buy_limit",
@@ -7457,7 +7419,43 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "d65c7308",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 253.8525,
+   "status": "working",
+   "created": "2026-09-28 12:35",
+   "created_ts": 1790613336,
+   "why": "wanted it, but not at the high \u2014 resting at $253.85. Strong momentum name, adds 7th position, existing limit orders will layer in on dips",
+   "evidence": "+2.73% today, 93.6% of day range, headline 'Is CrowdStrike Stock Outperforming the S&P 500?' - already have working buy_limits below market, but adding market-priced tranche since it's a fresh name fo",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 2500.0
+  },
+  {
+   "id": "77abff6c",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 449.799,
+   "status": "working",
+   "created": "2026-09-28 12:35",
+   "created_ts": 1790613336,
+   "why": "wanted it, but not at the high \u2014 resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions",
+   "evidence": "Rep. Rick W. Allen (disclosed leaderboard +2.76% avg excess, 62% beat rate) bought TSM Aug 12, disclosed Sep 22; TSM +0.72% today at 88% of range",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 1947.24
   }
  ],
- "updated": "2026-09-28 12:28"
+ "updated": "2026-09-28 12:35"
 }
