@@ -19063,3 +19063,5 @@ lesson: When below min_positions with most widely_held names cooling off, rotate
 ~ WORKING buy_limit $1000.00 AMD @ $600.80 until 2026-09-29 — strong month, weak day: resting 0.87% under $606.10 to catch the dip
 portfolio: equity $32867.65 (+31.47% on $25000.00 in) · cash $27728.07 · realised +7878.07
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $19909.38 this week
+- BUY $1000.00 TSM [buy_limit @ $445.35] — strong month, weak day: resting 0.44% under $447.33 to catch the dip
+## 2026-09-28 10:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders

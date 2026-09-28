@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 5090.62,
-  "deployed": 47002.94,
+  "spent": 6090.62,
+  "deployed": 48002.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
@@ -9,12 +9,12 @@
     "IBM": 1.07,
     "PLTR": 2000.0,
     "RTX": 1800.0,
-    "TSM": 1350.0
+    "TSM": 2350.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
     "PLTR": 6000.0,
-    "TSM": 4850.0,
+    "TSM": 5850.0,
     "AVGO": 3000.0,
     "TTD": 2000.0,
     "ACN": 1000.0,
@@ -781,12 +781,31 @@
         "congress"
       ],
       "evidence": "Rep. Rick W. Allen disclosed TSM buy 2026-08-12 (disclosed 2026-09-22); Apple/Nvidia boosting TSMC chip demand per GuruFocus headline"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.245421,
+      "price": 445.35,
+      "date": "2026-09-28",
+      "time_et": "10:43",
+      "ts": 1790606400,
+      "why": "strong month, weak day: resting 0.44% under $447.33 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+4.7% over the month, sitting at 53% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 5090.62,
-  "deployed_today": 47002.94,
-  "orders_today": 21,
+  "spent_today": 6090.62,
+  "deployed_today": 48002.94,
+  "orders_today": 22,
   "sells_today": 18,
   "sold_today": [
     "PLTR",
@@ -828,30 +847,29 @@
     "AAPL": 1790605604,
     "IBM": 1790605604
   },
-  "last_publish_ts": 1790606315,
-  "last_check_ts": 1790606484,
+  "last_publish_ts": 1790606625,
+  "last_check_ts": 1790606625,
   "last_bar_ts": 1790606400,
   "last_decision_ts": 1790606315,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "28181c1b": 445.3508,
+    "0425268b": 521.3245,
     "b60343b7": 189.6024,
     "af7857d1": 446.8766,
-    "0425268b": 521.3245,
     "c96c3ac2": 510.5482,
+    "57451006": 600.7972,
     "62d34c74": 86.6833,
     "58051b81": 188.8524,
-    "57451006": 600.7972,
     "15b4b681": 86.4523,
     "4f245eea": 184.4,
-    "7660e260": 193.0,
-    "7b07dd6d": 455.0,
     "ad77c537": 185.0,
     "d367ed73": 436.0,
+    "7660e260": 193.0,
+    "7b07dd6d": 455.0,
     "013b6edf": 182.5734,
     "fb987d57": 183.5143,
-    "6efdfc7b": 192.9,
-    "b77856a6": 432.4454
+    "b77856a6": 432.4454,
+    "6efdfc7b": 192.9
   }
 }
