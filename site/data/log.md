@@ -1,6 +1,3 @@
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
 ## 2026-09-25 15:30 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 1 buy(s) (incl. 1 from standing orders); 17 order(s) working; b
   (cancelled 3 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [take_profit @ $246.22] -> $2506.11 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-28 10:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $722.32] -> $1004.76 (+0.48%) — close 100% at +0.5% over the average cost
+## 2026-09-28 10:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders

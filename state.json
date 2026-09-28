@@ -1,13 +1,12 @@
 {
   "week": "2026-W40",
-  "spent": 4293.47,
+  "spent": 3288.71,
   "deployed": 41852.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
     "AAPL": 2500.0,
-    "IBM": 852.94,
-    "META": 1000.0
+    "IBM": 852.94
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -666,13 +665,34 @@
       ],
       "evidence": "average cost $245.62",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 1.391024,
+      "status": "filled",
+      "price": 722.32,
+      "proceeds": 1004.76,
+      "realized_pnl": 4.76,
+      "realized_pct": 0.48,
+      "date": "2026-09-28",
+      "time_et": "10:16",
+      "ts": 1790604900,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $718.89",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 4293.47,
+  "spent_today": 3288.71,
   "deployed_today": 41852.94,
   "orders_today": 18,
-  "sells_today": 15,
+  "sells_today": 16,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -688,7 +708,8 @@
     "AVGO",
     "TTD",
     "HD",
-    "AMZN"
+    "AMZN",
+    "META"
   ],
   "sold_ts": {
     "PLTR": 1790602620,
@@ -705,26 +726,23 @@
     "AVGO": 1790604344,
     "TTD": 1790604345,
     "HD": 1790604480,
-    "AMZN": 1790604790
+    "AMZN": 1790604790,
+    "META": 1790604966
   },
-  "last_publish_ts": 1790604789,
-  "last_check_ts": 1790604837,
-  "last_bar_ts": 1790604600,
+  "last_publish_ts": 1790604965,
+  "last_check_ts": 1790604965,
+  "last_bar_ts": 1790604900,
   "last_decision_ts": 1790604670,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
     "8a90c227": 342.9824,
     "d157cd32": 221.988,
-    "373226a3": 722.3191,
     "a37dccff": 340.0351,
-    "95739700": 726.0,
     "3738968e": 346.5,
     "33fabc9c": 336.5,
-    "d047925e": 226.0,
-    "2286615c": 703.0,
     "6ce04472": 216.5,
-    "5b449525": 697.3233,
+    "d047925e": 226.0,
     "45be2684": 331.9825,
     "2c506ac4": 214.4961
   }
