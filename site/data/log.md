@@ -1,6 +1,3 @@
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQhr3KP44mFDPUy9UAxW'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $32820.48 (+31.28% on $25000.00 in) · cash $26817.36 · realised +7817.36
@@ -398,3 +395,6 @@ Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $10583.68 this week
 - SELL 100% AVGO [time stop] -> $2981.91 (-0.60%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% TTD [time stop] -> $1982.16 (-0.89%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 10:05 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $292.36] -> $2004.83 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-28 10:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders

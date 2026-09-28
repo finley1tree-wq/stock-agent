@@ -7285,7 +7285,7 @@
    "ticker": "HD",
    "kind": "stop_loss",
    "price": 286.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:56",
    "created_ts": 1790603769,
    "why": "protective stop on new HD position",
@@ -7294,14 +7294,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 10:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6f85c6fe",
    "ticker": "HD",
    "kind": "take_profit",
    "price": 296.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:56",
    "created_ts": 1790603769,
    "why": "lock in gain on half position",
@@ -7310,7 +7312,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-28 10:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6ce04472",
@@ -7417,7 +7421,7 @@
    "ticker": "HD",
    "kind": "take_profit",
    "price": 292.3629,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:56",
    "created_ts": 1790603769,
    "why": "close 100% at +0.2% over the average cost",
@@ -7427,14 +7431,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 10:07"
   },
   {
    "id": "c6e16130",
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 282.9102,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:56",
    "created_ts": 1790603769,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7444,7 +7449,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 10:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d157cd32",
@@ -7499,5 +7506,5 @@
    "closed": "2026-09-28 10:01"
   }
  ],
- "updated": "2026-09-28 10:01"
+ "updated": "2026-09-28 10:07"
 }
