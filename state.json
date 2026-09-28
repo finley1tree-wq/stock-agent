@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 13321.36,
+  "spent": 9516.75,
   "deployed": 61352.94,
   "by_ticker": {
     "AVGO": 18.09,
@@ -11,7 +11,6 @@
     "RTX": 10.95,
     "TSM": 2.52,
     "AMD": 1000.0,
-    "CCJ": 3800.0,
     "LMT": 2250.0,
     "NOC": 1800.0,
     "GOOGL": 1600.0,
@@ -1019,13 +1018,34 @@
         "news"
       ],
       "evidence": "NEM -4.18% today, 65% of day range but gold sector avg_total_return_pct 114-148% in 2y/5y backtest windows despite today's dip; Zacks headline on gold miner exploration."
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 43.89939,
+      "status": "filled",
+      "price": 86.67,
+      "proceeds": 3804.61,
+      "realized_pnl": 4.61,
+      "realized_pct": 0.12,
+      "date": "2026-09-28",
+      "time_et": "11:15",
+      "ts": 1790608500,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.56",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 13321.36,
+  "spent_today": 9516.75,
   "deployed_today": 61352.94,
   "orders_today": 30,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -1045,7 +1065,8 @@
     "META",
     "AAPL",
     "IBM",
-    "RTX"
+    "RTX",
+    "CCJ"
   ],
   "sold_ts": {
     "PLTR": 1790607174,
@@ -1066,42 +1087,40 @@
     "META": 1790604966,
     "AAPL": 1790605604,
     "IBM": 1790605604,
-    "RTX": 1790608181
+    "RTX": 1790608181,
+    "CCJ": 1790608523
   },
-  "last_publish_ts": 1790608243,
-  "last_check_ts": 1790608395,
-  "last_bar_ts": 1790608200,
+  "last_publish_ts": 1790608521,
+  "last_check_ts": 1790608521,
+  "last_bar_ts": 1790608500,
   "last_decision_ts": 1790608243,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "be1647da": 86.71,
+    "32003cff": 518.0044,
+    "d42a8323": 342.3566,
+    "27f1f033": 507.4867,
     "c771e78d": 511.7753,
     "1bbec4cf": 378.953,
-    "d42a8323": 342.3566,
-    "83b940c6": 87.025,
     "9ce6435b": 522.6442,
     "efe40421": 116.885,
-    "32003cff": 518.0044,
-    "27f1f033": 507.4867,
-    "0f313b9f": 603.6658,
     "e450c75c": 593.6325,
     "189a96c9": 715.0447,
-    "1388993a": 228.0543,
-    "70bcfe75": 344.5,
     "9c34803c": 338.0,
-    "75ce8e50": 503.2977,
-    "a997f38e": 382.0,
+    "0f313b9f": 603.6658,
+    "70bcfe75": 344.5,
+    "1388993a": 228.0543,
     "0360ade3": 373.0,
+    "a997f38e": 382.0,
+    "75ce8e50": 503.2977,
     "3706c5af": 582.776,
-    "be6bd8c8": 119.5,
-    "3c0f7b59": 505.6804,
     "6e4d20d8": 249.4201,
-    "dcb83d8b": 495.2335,
+    "3c0f7b59": 505.6804,
     "bd26482f": 112.9177,
-    "934fcbb8": 331.1289,
     "62d865b7": 366.5727,
-    "aeaf91a6": 83.9632,
+    "dcb83d8b": 495.2335,
+    "be6bd8c8": 119.5,
+    "934fcbb8": 331.1289,
     "0c73258b": 112.5
   }
 }

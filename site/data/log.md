@@ -1,6 +1,3 @@
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQjMaQ5sMndxiPfSQbYK'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 ~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ lesson: Cooldown list is short (only 5 tickers) - check it explicitly before ass
 ~ WORKING buy_limit $1000.00 META @ $715.04 until 2026-09-29 — strong month, weak day: resting 0.89% under $721.48 to catch the dip
 portfolio: equity $32844.05 (+31.38% on $25000.00 in) · cash $19497.33 · realised +7847.33
 Done: 0 sell(s), 3 buy(s); 28 order(s) working; budget left $11678.64 this week
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [stop_loss @ $86.67] -> $3804.61 (+0.12%) — close it all at -1.0% under the average cost
+## 2026-09-28 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
