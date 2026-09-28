@@ -1,5 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 ~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32821.37 (+31.29% on $25000.00 in) · cash $29816.02 · realised +7816.02
 Decision: nothing at this check. 3 standing order(s) working.
@@ -398,3 +396,5 @@ Done: 0 sell(s), 3 buy(s); 28 order(s) working; budget left $11678.64 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [stop_loss @ $86.67] -> $3804.61 (+0.12%) — close it all at -1.0% under the average cost
 ## 2026-09-28 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMD [time stop] -> $993.93 (-0.61%) — held 31 min, the 30-minute limit: out regardless
+## 2026-09-28 11:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders

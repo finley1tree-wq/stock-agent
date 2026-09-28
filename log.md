@@ -19126,3 +19126,5 @@ Done: 0 sell(s), 3 buy(s); 28 order(s) working; budget left $11678.64 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [stop_loss @ $86.67] -> $3804.61 (+0.12%) — close it all at -1.0% under the average cost
 ## 2026-09-28 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMD [time stop] -> $993.93 (-0.61%) — held 31 min, the 30-minute limit: out regardless
+## 2026-09-28 11:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
