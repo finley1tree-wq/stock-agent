@@ -1,22 +1,3 @@
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $510.11] -> $1650.93 (+0.24%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $377.94] -> $1651.53 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-09-28 09:50 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-- BUY $3000.00 CRWD [buy_limit @ $251.01] — wanted it, but not at the high — resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted
-## 2026-09-28 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- BUY $4500.00 NVDA [buy_limit @ $231.09] — wanted it, but not at the high — resting at $231.09. Positive momentum with major buyback catalyst, strong day-range strength
-## 2026-09-28 09:53 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CRWD: position closed)
-- SELL 100% CRWD [take_profit @ $252.38] -> $3016.27 (+0.54%) — close 100% at +0.5% over the average cost
-- BUY $1647.06 GOOGL [buy_limit @ $342.10] — wanted it, but not at the high — resting at $342.10. Widely_held AI name with stable momentum, entering near top of range but backed by news catalyst
-## 2026-09-28 09:55 ET — tick — 1 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NVDA: position closed)
-- SELL 100% NVDA [take_profit @ $231.66] -> $4511.04 (+0.25%) — close 100% at +0.2% over the average cost
-## 2026-09-28 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-28 09:56 ET (Monday) — week 2026-W40 — budget left $18436.62 (today $33000.00 put to work, 13 buys, 10 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +379,22 @@ portfolio: equity $32784.28 (+31.14% on $25000.00 in) · cash $17326.33 · reali
 Decision: nothing at this check. 30 standing order(s) working.
 - BUY $1947.24 HD [buy_limit @ $291.69] — wanted it, but not at the high — resting at $291.69. Widely_held name with beaten down 1m performance, potential value entry
 ## 2026-09-28 12:40 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-28 12:52 ET (Monday) — week 2026-W40 — budget left $7552.76 (today $94900.18 put to work, 44 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Below min_positions (7 of 8) with $7.5k budget idle (30% cash). AVGO has congress buy pressure (Rep. Allen) plus strong AI revenue headline and is mid-range (45.8%) rather than chased. MSFT is high in range but has the best-performing signal bucket (news, +4.7% avg) and isn't in cooldown, giving instant diversification toward min_positions with protective brackets on both. Existing TSM/CRWD/AVGO/PLTR/AMD/NVDA/META limit orders remain working to catch dips without chasing.
+lesson: Stop repeating the same 'check cooldown list' lesson - it's been noted 7+ times; instead track that MSFT/AVGO have real signal support today and were available, confirming cooldown checks are already working.
+  (dropped AVGO: sector widely_held at its 50% cap ($0.00))
+  (dropped MSFT: sector widely_held at its 50% cap ($0.00))
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger AVGO take_profit: not held)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger MSFT take_profit: not held)
+~ WORKING buy_limit $1000.00 AAPL @ $339.41 until 2026-09-29 — strong month, weak day: resting 0.41% under $340.80 to catch the dip
+portfolio: equity $32787.70 (+31.15% on $25000.00 in) · cash $15379.09 · realised +7826.33
+Decision: nothing at this check. 33 standing order(s) working.

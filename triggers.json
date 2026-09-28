@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "d3607f4a",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 333.2823,
-   "status": "cancelled",
-   "created": "2026-09-25 11:18",
-   "created_ts": 1790349482,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $343.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 11:36",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "6d9fe8c2",
    "ticker": "CRWD",
    "kind": "take_profit",
@@ -7450,7 +7431,24 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "dca65cdd",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 339.4141,
+   "status": "working",
+   "created": "2026-09-28 12:52",
+   "created_ts": 1790614351,
+   "why": "strong month, weak day: resting 0.41% under $340.80 to catch the dip",
+   "evidence": "+8.3% over the month, sitting at 40% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-28 12:40"
+ "updated": "2026-09-28 12:52"
 }
