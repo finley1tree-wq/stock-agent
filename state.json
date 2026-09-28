@@ -1,18 +1,20 @@
 {
   "week": "2026-W40",
-  "spent": 1940.62,
-  "deployed": 43852.94,
+  "spent": 5090.62,
+  "deployed": 47002.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
     "AAPL": 3.78,
     "IBM": 1.07,
-    "PLTR": 2000.0
+    "PLTR": 2000.0,
+    "RTX": 1800.0,
+    "TSM": 1350.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
     "PLTR": 6000.0,
-    "TSM": 3500.0,
+    "TSM": 4850.0,
     "AVGO": 3000.0,
     "TTD": 2000.0,
     "ACN": 1000.0,
@@ -27,7 +29,8 @@
     "AMZN": 2500.0,
     "HD": 2000.0,
     "IBM": 852.94,
-    "META": 1000.0
+    "META": 1000.0,
+    "RTX": 1800.0
   },
   "orders": [
     {
@@ -744,12 +747,46 @@
       ],
       "evidence": "bought 30 min ago, -0.11% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "RTX",
+      "notional": 1800.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.514464,
+      "price": 189.19,
+      "date": "2026-09-28",
+      "time_et": "10:38",
+      "ts": 1790606315,
+      "why": "Defense sector diversification alongside LMT/NOC, not in cooldown",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "RTX 81.3% of day range, 'RTX Treads Water' amid Boeing weakness but holding steady, defense capex tailwind"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 1350.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.028134,
+      "price": 445.82,
+      "date": "2026-09-28",
+      "time_et": "10:38",
+      "ts": 1790606315,
+      "why": "TSM has resting buy_limit at 445.35 already but adding market entry given congress buy pressure signal and news catalyst",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "Rep. Rick W. Allen disclosed TSM buy 2026-08-12 (disclosed 2026-09-22); Apple/Nvidia boosting TSMC chip demand per GuruFocus headline"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 1940.62,
-  "deployed_today": 43852.94,
-  "orders_today": 19,
+  "spent_today": 5090.62,
+  "deployed_today": 47002.94,
+  "orders_today": 21,
   "sells_today": 18,
   "sold_today": [
     "PLTR",
@@ -791,18 +828,30 @@
     "AAPL": 1790605604,
     "IBM": 1790605604
   },
-  "last_publish_ts": 1790605602,
-  "last_check_ts": 1790606164,
+  "last_publish_ts": 1790606315,
+  "last_check_ts": 1790606315,
   "last_bar_ts": 1790606100,
-  "last_decision_ts": 1790605363,
+  "last_decision_ts": 1790606315,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "28181c1b": 445.3508,
+    "b60343b7": 189.6024,
+    "af7857d1": 446.8766,
+    "0425268b": 521.3245,
+    "c96c3ac2": 510.5482,
+    "62d34c74": 86.6833,
     "58051b81": 188.8524,
+    "57451006": 600.7972,
     "15b4b681": 86.4523,
     "4f245eea": 184.4,
+    "7660e260": 193.0,
+    "7b07dd6d": 455.0,
+    "ad77c537": 185.0,
+    "d367ed73": 436.0,
+    "013b6edf": 182.5734,
+    "fb987d57": 183.5143,
     "6efdfc7b": 192.9,
-    "013b6edf": 182.5734
+    "b77856a6": 432.4454
   }
 }
