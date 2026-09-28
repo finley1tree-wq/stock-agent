@@ -1,5 +1,3 @@
-  (DHF excluded: too thinly traded ($0.7M a day) — BNY Mellon High Yield Strategies Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (inside the last max_hold_minutes of the session: no new entries at this check)
@@ -398,3 +396,5 @@ lesson: Cooldown list only blocks 5 names at a time - always check it explicitly
 ~ WORKING buy_limit $500.00 MSFT @ $493.72 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32827.60 (+31.31% on $25000.00 in) · cash $16295.87 · realised +7845.87
 Done: 0 sell(s), 4 buy(s); 38 order(s) working; budget left $8477.18 this week
+- SELL 100% LMT [time stop] -> $2244.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 11:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders

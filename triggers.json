@@ -6852,7 +6852,7 @@
    "ticker": "LMT",
    "kind": "take_profit",
    "price": 522.6442,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:58",
    "created_ts": 1790607537,
    "why": "close 100% at +0.3% over the average cost",
@@ -6862,14 +6862,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "32003cff",
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 518.0044,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:58",
    "created_ts": 1790607537,
    "why": "close it all at -0.6% under the average cost",
@@ -6879,14 +6881,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3c0f7b59",
    "ticker": "LMT",
    "kind": "buy_limit",
    "price": 505.6804,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:58",
    "created_ts": 1790607537,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6896,7 +6900,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 11:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c771e78d",
