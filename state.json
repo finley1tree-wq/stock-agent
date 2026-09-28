@@ -1,16 +1,17 @@
 {
   "week": "2026-W40",
-  "spent": 3288.71,
-  "deployed": 41852.94,
+  "spent": 5288.71,
+  "deployed": 43852.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
     "AAPL": 2500.0,
-    "IBM": 852.94
+    "IBM": 852.94,
+    "PLTR": 2000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
-    "PLTR": 4000.0,
+    "PLTR": 6000.0,
     "TSM": 3500.0,
     "AVGO": 3000.0,
     "TTD": 2000.0,
@@ -686,12 +687,29 @@
       ],
       "evidence": "average cost $718.89",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.625997,
+      "price": 188.22,
+      "date": "2026-09-28",
+      "time_et": "10:22",
+      "ts": 1790605363,
+      "why": "Fresh cooldown expiry, strong bullish news flow and momentum, not yet stretched in day range",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "'Palantir Stock Is Up 77% Since June. A $1,344 Target Says the Run Is Early' (TIKR); +2.78% 5d momentum, currently 64% of day range, cooldown expired"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 3288.71,
-  "deployed_today": 41852.94,
-  "orders_today": 18,
+  "spent_today": 5288.71,
+  "deployed_today": 43852.94,
+  "orders_today": 19,
   "sells_today": 16,
   "sold_today": [
     "PLTR",
@@ -729,21 +747,27 @@
     "AMZN": 1790604790,
     "META": 1790604966
   },
-  "last_publish_ts": 1790604965,
-  "last_check_ts": 1790605224,
+  "last_publish_ts": 1790605363,
+  "last_check_ts": 1790605363,
   "last_bar_ts": 1790605200,
-  "last_decision_ts": 1790604670,
-  "next_check_minutes": 10,
+  "last_decision_ts": 1790605363,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "8a90c227": 342.9824,
+    "58051b81": 188.8524,
+    "28181c1b": 445.3508,
     "d157cd32": 221.988,
     "a37dccff": 340.0351,
+    "15b4b681": 86.4523,
     "3738968e": 346.5,
     "33fabc9c": 336.5,
+    "4f245eea": 184.4,
     "6ce04472": 216.5,
     "d047925e": 226.0,
+    "6efdfc7b": 192.9,
     "45be2684": 331.9825,
-    "2c506ac4": 214.4961
+    "2c506ac4": 214.4961,
+    "013b6edf": 182.5734
   }
 }

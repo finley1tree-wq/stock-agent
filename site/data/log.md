@@ -1,25 +1,3 @@
-## 2026-09-25 15:30 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQiHJNhRzd1T99iHFcsj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 MSFT @ $500.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $610.94 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32810.82 (+31.24% on $25000.00 in) · cash $23817.36 · realised +7817.36
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
 ## 2026-09-25 15:33 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
@@ -398,3 +376,25 @@ Done: 0 sell(s), 1 buy(s) (incl. 1 from standing orders); 17 order(s) working; b
   (cancelled 3 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $722.32] -> $1004.76 (+0.48%) — close 100% at +0.5% over the average cost
 ## 2026-09-28 10:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 10:22 ET (Monday) — week 2026-W40 — budget left $21711.29 (today $41852.94 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+brain: Below min_positions (2 of 8) with 87% cash idle - the desk instruction is explicit to deploy in size. Most widely_held names (GOOGL, MSFT, NVDA, TSM, AVGO, TTD, HD, AMZN, META, CRWD, NOC, UNH, LEN, AMD, ACN) are still in cooldown from earlier churn today, so I'm adding PLTR (strong news momentum, not in cooldown, backtest shows nuclear/defense sectors historically strong) and CCJ (nuclear, at day high, oversold 1m) with tight risk_management stops/take-profits attached immediately per the 88% hit-rate risk_management signal. Requesting a short 15-min check to catch more cooldown expiries and add further names toward min_positions.
+lesson: When most widely_held names are in cooldown, look to non-cooldown watchlist names (PLTR, CCJ) with concrete news/momentum evidence rather than waiting idle - always pair with immediate stop_loss/take_profit.
+  (dropped CCJ: 100% up today's range — resting a limit at $86.45 instead of chasing)
+- BUY $2000.00 PLTR [filled] ['news', 'momentum'] — Fresh cooldown expiry, strong bullish news flow and momentum, not yet stretched in day range | evidence: 'Palantir Stock Is Up 77% Since June. A $1,344 Target Says the Run Is Early' (TIKR); +2.78% 5d momentum, currently 64% of day range, cooldown expired
+  (dropped trigger CCJ stop_loss: not held)
+  (dropped trigger CCJ take_profit: not held)
+~ WORKING stop_loss 100% PLTR @ $184.40 until 2026-09-28 — protective stop on new PLTR position
+~ WORKING take_profit 50% PLTR @ $192.90 until 2026-09-28 — lock in gain on half position at +2.5%
+~ WORKING buy_limit $2000.00 CCJ @ $86.45 until 2026-09-28 — wanted it, but not at the high — resting at $86.45. Nuclear sector name at day high, not in cooldown, oversold on 1m basis (-18.1%) which could mean-revert
+~ WORKING take_profit 100% PLTR @ $188.85 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $182.57 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 TSM @ $445.35 until 2026-09-29 — strong month, weak day: resting 0.44% under $447.33 to catch the dip
+portfolio: equity $32879.34 (+31.52% on $25000.00 in) · cash $27529.98 · realised +7882.92
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $19711.29 this week
