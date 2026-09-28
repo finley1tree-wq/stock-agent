@@ -1,12 +1,15 @@
 {
   "week": "2026-W40",
-  "spent": 12443.63,
-  "deployed": 31352.94,
+  "spent": 14416.32,
+  "deployed": 40852.94,
   "by_ticker": {
     "AVGO": 3000.0,
     "TTD": 2000.0,
-    "CRWD": 3000.0,
-    "NVDA": 4500.0
+    "GOOGL": 1647.06,
+    "AAPL": 2500.0,
+    "AMZN": 2500.0,
+    "HD": 2000.0,
+    "IBM": 852.94
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -20,7 +23,12 @@
     "NOC": 1647.06,
     "UNH": 1647.06,
     "CRWD": 3000.0,
-    "NVDA": 4500.0
+    "NVDA": 4500.0,
+    "GOOGL": 1647.06,
+    "AAPL": 2500.0,
+    "AMZN": 2500.0,
+    "HD": 2000.0,
+    "IBM": 852.94
   },
   "orders": [
     {
@@ -407,13 +415,143 @@
       ],
       "evidence": "NVDA +3.1% 1d, 87.9% of day range, board authorized record $150B buyback per WSJ headline",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 11.951501,
+      "status": "filled",
+      "price": 252.38,
+      "proceeds": 3016.27,
+      "realized_pnl": 16.27,
+      "realized_pct": 0.54,
+      "date": "2026-09-28",
+      "time_et": "09:55",
+      "ts": 1790603700,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $251.01",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 1647.06,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.814613,
+      "price": 342.1,
+      "date": "2026-09-28",
+      "time_et": "09:55",
+      "ts": 1790603400,
+      "why": "wanted it, but not at the high \u2014 resting at $342.10. Widely_held AI name with stable momentum, entering near top of range but backed by news catalyst",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "GOOGL price $343.14, pct_of_day_range 86.4%, change_1m +0.73%; AI stocks headline 'These AI Stocks Took Off Or Tumbled In Q3'",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 19.472604,
+      "status": "filled",
+      "price": 231.66,
+      "proceeds": 4511.04,
+      "realized_pnl": 11.04,
+      "realized_pct": 0.25,
+      "date": "2026-09-28",
+      "time_et": "09:55",
+      "ts": 1790603700,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $231.09",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.304635,
+      "price": 342.25,
+      "date": "2026-09-28",
+      "time_et": "09:56",
+      "ts": 1790603769,
+      "why": "widely_held bucket has best track record (avg_ret 2.14%, n=372); AAPL has strong 1m momentum and is not overextended intraday",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AAPL +8.78% 1m, headline 'Nvidia stock jumps after largest share buyback ever' lifting AI-adjacent hardware names; AAPL at 71.5% of day range, not yet extended"
+    },
+    {
+      "symbol": "AMZN",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.178361,
+      "price": 245.62,
+      "date": "2026-09-28",
+      "time_et": "09:56",
+      "ts": 1790603769,
+      "why": "widely_held sector best performing bucket; pullback gives decent entry vs recent extended names",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AMZN -1.64% today at 39.4% of day range (not extended), headline 'Adobe Expects Record U.S. Holiday Online Shopping' supports e-commerce demand"
+    },
+    {
+      "symbol": "HD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.857339,
+      "price": 291.66,
+      "date": "2026-09-28",
+      "time_et": "09:56",
+      "ts": 1790603769,
+      "why": "widely_held name, contrarian bounce candidate off oversold 1m level",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "HD at 70.2% of day range, down -11.26% over 1m already priced in weakness, headline 'Home Depot Is 32% Below Its All-Time High' suggests value entry"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 852.94,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.857115,
+      "price": 221.13,
+      "date": "2026-09-28",
+      "time_et": "09:56",
+      "ts": 1790603769,
+      "why": "widely_held bucket, reasonable entry point mid-range",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "IBM at 45.7% of day range, -7.41% 1m already, headline on AI officer hire; not extended"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 12443.63,
-  "deployed_today": 31352.94,
-  "orders_today": 12,
-  "sells_today": 8,
+  "spent_today": 14416.32,
+  "deployed_today": 40852.94,
+  "orders_today": 17,
+  "sells_today": 10,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -422,7 +560,9 @@
     "ACN",
     "MSFT",
     "NOC",
-    "UNH"
+    "UNH",
+    "CRWD",
+    "NVDA"
   ],
   "sold_ts": {
     "PLTR": 1790602620,
@@ -432,29 +572,43 @@
     "ACN": 1790603225,
     "MSFT": 1790603436,
     "NOC": 1790603436,
-    "UNH": 1790603437
+    "UNH": 1790603437,
+    "CRWD": 1790603708,
+    "NVDA": 1790603756
   },
-  "last_publish_ts": 1790603625,
-  "last_check_ts": 1790603625,
-  "last_bar_ts": 1790603400,
-  "last_decision_ts": 1790602810,
+  "last_publish_ts": 1790603769,
+  "last_check_ts": 1790603769,
+  "last_bar_ts": 1790603700,
+  "last_decision_ts": 1790603769,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "f519354e": 252.3755,
-    "e753daa3": 231.6608,
-    "930fe27d": 342.096,
-    "9816eda5": 231.588,
-    "51062ff4": 251.748,
+    "8a90c227": 342.9824,
     "3e22ec46": 718.8947,
-    "9c19d4a4": 354.439,
+    "eac58930": 246.2193,
+    "790ed5d7": 292.3629,
+    "6d2c9389": 343.0818,
+    "d157cd32": 221.988,
     "a37dccff": 340.0351,
+    "a3d013cd": 339.6506,
+    "9c19d4a4": 354.439,
+    "3738968e": 346.5,
     "166222d4": 12.3981,
+    "ae6c7892": 249.5,
+    "33fabc9c": 336.5,
+    "6f85c6fe": 296.5,
+    "46336fe5": 286.5,
+    "2961d616": 241.0,
+    "6ce04472": 216.5,
     "92a07b97": 11.9698,
+    "d047925e": 226.0,
     "1a3ae429": 342.798,
     "88f57c55": 342.0,
-    "efeaa2e3": 224.1573,
-    "04e5b89c": 243.4797,
+    "45be2684": 331.9825,
+    "d4f4ab09": 238.2514,
+    "c6e16130": 282.9102,
+    "2c506ac4": 214.4961,
+    "9f1c8fab": 331.837,
     "9175f355": 11.7
   }
 }

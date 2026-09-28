@@ -1,44 +1,3 @@
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQhBPhteu8E78QmzwNcN'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32827.83 (+31.31% on $25000.00 in) · cash $17827.56 · realised +7827.56
-Decision: nothing at this check. 17 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-25 15:18 ET (Friday) — week 2026-W39 — budget left $9915.91 (today $162346.78 put to work, 55 buys, 50 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQhQFKizhBshhC3sgJSZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32827.45 (+31.31% on $25000.00 in) · cash $17827.56 · realised +7827.56
-Decision: nothing at this check. 17 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% PLTR [time stop] -> $2996.45 (-0.12%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NVDA [time stop] -> $2995.86 (-0.14%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-25 15:20 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-25 15:21 ET (Friday) — week 2026-W39 — budget left $15908.22 (today $162346.78 put to work, 55 buys, 52 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQhcjxzPNe3ATbZykJdn'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
-portfolio: equity $32823.41 (+31.29% on $25000.00 in) · cash $23819.87 · realised +7819.87
-Decision: nothing at this check. 11 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% GOOGL [time stop] -> $2997.49 (-0.08%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-25 15:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-25 15:24 ET (Friday) — week 2026-W39 — budget left $18905.71 (today $162346.78 put to work, 55 buys, 53 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +357,44 @@ Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
 ## 2026-09-28 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $4500.00 NVDA [buy_limit @ $231.09] — wanted it, but not at the high — resting at $231.09. Positive momentum with major buyback catalyst, strong day-range strength
 ## 2026-09-28 09:53 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $252.38] -> $3016.27 (+0.54%) — close 100% at +0.5% over the average cost
+- BUY $1647.06 GOOGL [buy_limit @ $342.10] — wanted it, but not at the high — resting at $342.10. Widely_held AI name with stable momentum, entering near top of range but backed by news catalyst
+## 2026-09-28 09:55 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $231.66] -> $4511.04 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-28 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 09:56 ET (Monday) — week 2026-W40 — budget left $18436.62 (today $33000.00 put to work, 13 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+brain: Book is far below min_positions (3 of 8) with 73.7% cash idle - this is the dominant problem per counterfactual data showing idle_universe_avg_pct positive and idle_share 0.56. Adding AAPL, AMZN, HD, IBM (all widely_held, the best-performing sector bucket at 2.14% avg_ret) brings us to 7 names while avoiding cooldown-blocked TSM/MSFT/NOC/UNH/CRWD/NVDA/PLTR/LEN/ACN/AMD. Each new buy is sized ~$2000-2500, entered at reasonable (not extended) day-range levels, with protective stops and partial take-profits attached immediately per risk_management signal which has the best hit rate (0.88) in track record.
+lesson: Widely_held sector has the best track record (2.14% avg_ret, n=372) - prioritize it when rebuilding a depleted book, and always attach stop_loss + partial take_profit immediately per risk_management's 88% hit rate.
+  (dropped TSM: sold 20 min ago, cooling off)
+  (dropped MSFT: sold 6 min ago, cooling off)
+- BUY $2500.00 AAPL [filled] ['momentum', 'news'] — widely_held bucket has best track record (avg_ret 2.14%, n=372); AAPL has strong 1m momentum and is not overextended intraday | evidence: AAPL +8.78% 1m, headline 'Nvidia stock jumps after largest share buyback ever' lifting AI-adjacent hardware names; AAPL at 71.5% of day range, not yet extended
+- BUY $2500.00 AMZN [filled] ['momentum', 'news'] — widely_held sector best performing bucket; pullback gives decent entry vs recent extended names | evidence: AMZN -1.64% today at 39.4% of day range (not extended), headline 'Adobe Expects Record U.S. Holiday Online Shopping' supports e-commerce demand
+- BUY $2000.00 HD [filled] ['momentum', 'news'] — widely_held name, contrarian bounce candidate off oversold 1m level | evidence: HD at 70.2% of day range, down -11.26% over 1m already priced in weakness, headline 'Home Depot Is 32% Below Its All-Time High' suggests value entry
+- BUY $852.94 IBM [filled] ['momentum', 'news'] — widely_held bucket, reasonable entry point mid-range | evidence: IBM at 45.7% of day range, -7.41% 1m already, headline on AI officer hire; not extended
+~ WORKING stop_loss 100% AAPL @ $336.50 until 2026-09-28 — protective stop on new AAPL position
+~ WORKING take_profit 50% AAPL @ $346.50 until 2026-09-28 — lock in gain on half position
+~ WORKING stop_loss 100% AMZN @ $241.00 until 2026-09-28 — protective stop on new AMZN position
+~ WORKING take_profit 50% AMZN @ $249.50 until 2026-09-28 — lock in gain on half position
+~ WORKING stop_loss 100% HD @ $286.50 until 2026-09-28 — protective stop on new HD position
+~ WORKING take_profit 50% HD @ $296.50 until 2026-09-28 — lock in gain on half position
+~ WORKING stop_loss 100% IBM @ $216.50 until 2026-09-28 — protective stop on new IBM position
+~ WORKING take_profit 50% IBM @ $226.00 until 2026-09-28 — lock in gain on half position
+~ WORKING take_profit 100% AAPL @ $342.98 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $331.98 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $246.22 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $238.25 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $292.36 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $282.91 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $221.99 until 2026-10-03 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $214.50 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32872.47 (+31.49% on $25000.00 in) · cash $18402.35 · realised +7902.35
+Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $10583.68 this week
