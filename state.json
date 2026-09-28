@@ -1,13 +1,12 @@
 {
   "week": "2026-W40",
-  "spent": 10978.35,
-  "deployed": 18500.0,
+  "spent": 8020.26,
+  "deployed": 20558.82,
   "by_ticker": {
-    "LEN": 4000.0,
     "AVGO": 3000.0,
     "TTD": 2000.0,
     "ACN": 1000.0,
-    "AMD": 1000.0
+    "MSFT": 2058.82
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -16,7 +15,8 @@
     "AVGO": 3000.0,
     "TTD": 2000.0,
     "ACN": 1000.0,
-    "AMD": 1000.0
+    "AMD": 1000.0,
+    "MSFT": 2058.82
   },
   "orders": [
     {
@@ -179,45 +179,110 @@
       ],
       "evidence": "+30.7% over the month, sitting at 25% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "LEN",
+      "side": "sell",
+      "qty": 48.648262,
+      "status": "filled",
+      "price": 82.52,
+      "proceeds": 4014.42,
+      "realized_pnl": 14.42,
+      "realized_pct": 0.36,
+      "date": "2026-09-28",
+      "time_et": "09:39",
+      "ts": 1790602500,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $82.22",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "qty": 1.617962,
+      "status": "filled",
+      "price": 619.6,
+      "proceeds": 1002.49,
+      "realized_pnl": 2.49,
+      "realized_pct": 0.25,
+      "date": "2026-09-28",
+      "time_et": "09:40",
+      "ts": 1790602800,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $618.06",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 2058.82,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.082928,
+      "price": 504.25,
+      "date": "2026-09-28",
+      "time_et": "09:40",
+      "ts": 1790602810,
+      "why": "Congress buy pressure plus strong widely_held sector history; pullback to 45% of day range gives decent entry",
+      "signals": [
+        "momentum",
+        "news",
+        "track_record"
+      ],
+      "evidence": "Josh Gottheimer disclosed $250k-$1M MSFT buys (filed 2026-09-14); widely_held sector track record +2.15% avg_ret_pct, best signal bucket besides news"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 10978.35,
-  "deployed_today": 18500.0,
-  "orders_today": 7,
-  "sells_today": 2,
+  "spent_today": 8020.26,
+  "deployed_today": 20558.82,
+  "orders_today": 8,
+  "sells_today": 4,
   "sold_today": [
     "PLTR",
-    "TSM"
+    "TSM",
+    "LEN",
+    "AMD"
   ],
   "sold_ts": {
     "PLTR": 1790602620,
-    "TSM": 1790602620
+    "TSM": 1790602620,
+    "LEN": 1790602749,
+    "AMD": 1790602825
   },
-  "last_publish_ts": 1790602666,
-  "last_check_ts": 1790602666,
-  "last_bar_ts": 1790602500,
-  "last_decision_ts": 1790602419,
-  "next_check_minutes": 6,
+  "last_publish_ts": 1790602810,
+  "last_check_ts": 1790602810,
+  "last_bar_ts": 1790602800,
+  "last_decision_ts": 1790602810,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "ce316521": 620.7795,
-    "024f2c66": 619.908,
-    "5783a960": 82.5193,
-    "9c19d4a4": 354.439,
+    "22b2d566": 376.9112,
+    "c5a9269a": 505.5005,
+    "930fe27d": 342.096,
+    "c1b67d21": 508.9147,
     "7fc09325": 231.0939,
+    "3e22ec46": 718.8947,
     "a37dccff": 340.0351,
     "166222d4": 12.3981,
-    "ca050240": 251.0145,
-    "3e22ec46": 718.8947,
     "86d80180": 174.5193,
-    "b3d6ecce": 168.5472,
-    "92a07b97": 11.9698,
+    "9c19d4a4": 354.439,
+    "ca050240": 251.0145,
+    "253e847c": 514.0,
     "1a3ae429": 342.798,
-    "885017d7": 79.8,
-    "df2e819e": 79.7534,
+    "b3d6ecce": 168.5472,
+    "b5d6cb2a": 491.0,
     "88f57c55": 342.0,
-    "866f2a19": 599.5182,
+    "92a07b97": 11.9698,
+    "bb7e74c2": 489.1225,
     "e68c3e7d": 166.5,
     "9175f355": 11.7
   }

@@ -128,3 +128,4 @@
 - 2026-09-24 (6d graded, realised 0.43% per dollar): When no_new_entries_this_check is true and checks_left_today is 0, buys/triggers are pointless (dropped or never evaluated) - just confirm flat book and stop.
 - 2026-09-25 (7d graded, realised 0.43% per dollar): Flat book with min_positions unmet and full_deployment active should be filled immediately in size across evidenced names rather than trickling, per repeated past_lessons_with_outcome pattern.
 - 2026-09-28 (7d graded, realised 0.39% per dollar): Full deployment across 8 evidenced names at once beats trickling in 1-2 per check per repeated past_lessons_with_outcome pattern; always attach stops immediately.
+- 2026-09-28 (7d graded, realised 0.39% per dollar): Deploying 4 new evidenced names at once while below min_positions with idle cash, rather than trickling, matches the desk's repeated instruction; always pair with immediate stop_loss/take_profit triggers.

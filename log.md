@@ -18874,3 +18874,38 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $7500.00 this week
 ## 2026-09-28 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 - BUY $1000.00 AMD [buy_limit @ $618.06] — strong month, weak day: resting 0.81% under $623.14 to catch the dip
 ## 2026-09-28 09:37 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LEN: position closed)
+- SELL 100% LEN [take_profit @ $82.52] -> $4014.42 (+0.36%) — close 100% at +0.4% over the average cost
+## 2026-09-28 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 09:40 ET (Monday) — week 2026-W40 — budget left $18036.07 (today $18500.00 put to work, 7 buys, 3 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $619.60] -> $1002.49 (+0.25%) — close it all at -1.1% under the average cost
+brain: Book is far below min_positions (3 held vs 8 target) with 76% cash idle - this is the exact pattern past_lessons flags as costly. Adding MSFT (congress buy from Gottheimer), GOOGL and NOC (news catalysts, defense sector has 0.71 hit rate historically), and UNH (momentum+news) brings me to 7 names while respecting cooldowns on PLTR/TSM/LEN/AMD. Attaching stops and partial take-profits immediately per risk_management signal which has the best hit_rate (0.87) in track record.
+lesson: Deploying 4 new evidenced names at once while below min_positions with idle cash, rather than trickling, matches the desk's repeated instruction; always pair with immediate stop_loss/take_profit triggers.
+  (dropped TSM: sold 4 min ago, cooling off)
+  (dropped GOOGL: 86% up today's range — resting a limit at $342.10 instead of chasing)
+  (dropped NOC: 100% up today's range — resting a limit at $508.91 instead of chasing)
+  (dropped UNH: 87% up today's range — resting a limit at $376.91 instead of chasing)
+- BUY $2058.82 MSFT [filled] ['momentum', 'news', 'track_record'] — Congress buy pressure plus strong widely_held sector history; pullback to 45% of day range gives decent entry | evidence: Josh Gottheimer disclosed $250k-$1M MSFT buys (filed 2026-09-14); widely_held sector track record +2.15% avg_ret_pct, best signal bucket besides news
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+  (dropped trigger GOOGL take_profit: not held)
+  (dropped trigger NOC take_profit: not held)
+  (dropped trigger UNH take_profit: not held)
+~ WORKING stop_loss 100% MSFT @ $491.00 until 2026-09-28 — Protective stop ~2.5% below entry
+~ WORKING take_profit 50% MSFT @ $514.00 until 2026-09-28 — take partial profit ~2% up
+~ WORKING buy_limit $1647.06 GOOGL @ $342.10 until 2026-09-28 — wanted it, but not at the high — resting at $342.10. Widely_held AI name with stable momentum, entering near top of range but backed by news catalyst
+~ WORKING buy_limit $1647.06 NOC @ $508.91 until 2026-09-28 — wanted it, but not at the high — resting at $508.91. Defense sector track record hit_rate 0.71 in track_record.by_sector, strong headline catalyst on missile output demand
+~ WORKING buy_limit $1647.06 UNH @ $376.91 until 2026-09-28 — wanted it, but not at the high — resting at $376.91. Positive daily momentum with range strength, healthcare defensive positioning to diversify book
+~ WORKING take_profit 100% MSFT @ $505.50 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $489.12 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32828.65 (+31.31% on $25000.00 in) · cash $24798.41 · realised +7857.23
+Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 20 order(s) working; budget left $16979.74 this week
