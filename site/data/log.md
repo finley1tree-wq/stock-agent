@@ -1,9 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $15,916 idle, so opened 2: MSFT, AMD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Josh Gottheimer), $250,001 - $500,000; +3.9% over the month; 84% of today's range
-- BUY $3000.00 AMD [filled] ['momentum', 'autopilot'] — autopilot: best available on the measured screen | evidence: +30.9% over the month; 31% of today's range
-~ WORKING take_profit 100% MSFT @ $517.15 until 2026-09-30 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $512.91 until 2026-09-30 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $500.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMD @ $632.75 until 2026-09-30 — close 100% at +0.5% over the average cost
 ~ WORKING stop_loss 100% AMD @ $622.57 until 2026-09-30 — close it all at -1.2% under the average cost
 ~ WORKING buy_limit $500.00 AMD @ $610.94 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +392,9 @@ lesson: Deploying 4 new evidenced names at once while below min_positions with i
 ~ WORKING buy_limit $500.00 MSFT @ $489.12 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32828.65 (+31.31% on $25000.00 in) · cash $24798.41 · realised +7857.23
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 20 order(s) working; budget left $16979.74 this week
+- BUY $1647.06 NOC [buy_limit @ $508.91] — wanted it, but not at the high — resting at $508.91. Defense sector track record hit_rate 0.71 in track_record.by_sector, strong headline catalyst on missile output demand
+- BUY $1647.06 UNH [buy_limit @ $376.91] — wanted it, but not at the high — resting at $376.91. Positive daily momentum with range strength, healthcare defensive positioning to diversify book
+## 2026-09-28 09:46 ET — tick — 0 sell(s), 2 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $174.52] -> $1004.37 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-09-28 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

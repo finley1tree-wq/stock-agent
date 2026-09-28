@@ -1,121 +1,6 @@
 {
  "orders": [
   {
-   "id": "181c80c0",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 256.0,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "Protective stop",
-   "evidence": "~2.4% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "19f3f5e2",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 342.0,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "Protective stop",
-   "evidence": "~2.4% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "af272fca",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 760.1902,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "wanted it, but not at the high \u2014 resting at $760.19. Strong multi-timeframe momentum plus fresh AI product news; widely_held is best realized sector (avg_ret 3.28%, n=320)",
-   "evidence": "META +3.67% today, +35.32% 1m, 'Meta Rises 3% as Its Month-Long Run Extends on Muse Buzz' (24/7 Wall St, 16:53)",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 3000.0,
-   "closed": "2026-09-24 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "ec7847d8",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 247.8787,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "wanted it, but not at the high \u2014 resting at $247.88. Diversify into widely_held bucket, not yet held, no cooldown",
-   "evidence": "AMZN 88.8% of day range, flat 1d but widely_held sector top performer",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 2500.0,
-   "closed": "2026-09-24 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e796bb95",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 223.0374,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "wanted it, but not at the high \u2014 resting at $223.04. Semis momentum continuing, add diversification to AI hardware theme",
-   "evidence": "NVDA 92.4% of day range, 'IonQ Rises 4% as Post-Breakthrough Buying Continues' tech tailwind headline",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 2000.0,
-   "closed": "2026-09-24 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "5faec8e2",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 451.8753,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $450.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "afa0dd70",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -7016,7 +6901,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 166.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "Protective stop",
@@ -7025,7 +6910,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7fc09325",
@@ -7247,7 +7134,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 174.5193,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "close 100% at +0.4% over the average cost",
@@ -7257,14 +7144,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:47"
   },
   {
    "id": "b3d6ecce",
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 168.5472,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7274,7 +7162,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c98c6542",
@@ -7439,7 +7329,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 508.9147,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:40",
    "created_ts": 1790602810,
    "why": "wanted it, but not at the high \u2014 resting at $508.91. Defense sector track record hit_rate 0.71 in track_record.by_sector, strong headline catalyst on missile output demand",
@@ -7450,14 +7340,15 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 1647.06
+   "usd": 1647.06,
+   "closed": "2026-09-28 09:46"
   },
   {
    "id": "22b2d566",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 376.9112,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:40",
    "created_ts": 1790602810,
    "why": "wanted it, but not at the high \u2014 resting at $376.91. Positive daily momentum with range strength, healthcare defensive positioning to diversify book",
@@ -7468,7 +7359,8 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 1647.06
+   "usd": 1647.06,
+   "closed": "2026-09-28 09:46"
   },
   {
    "id": "c5a9269a",
@@ -7503,7 +7395,109 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "187b7819",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 510.111,
+   "status": "working",
+   "created": "2026-09-28 09:46",
+   "created_ts": 1790603172,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $508.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "df5a8f84",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 505.9023,
+   "status": "working",
+   "created": "2026-09-28 09:46",
+   "created_ts": 1790603172,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $508.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "33b4a442",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 493.6427,
+   "status": "working",
+   "created": "2026-09-28 09:46",
+   "created_ts": 1790603172,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $508.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
+  },
+  {
+   "id": "3d99ad98",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 377.9352,
+   "status": "working",
+   "created": "2026-09-28 09:46",
+   "created_ts": 1790603172,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $376.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "377f8b69",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 378.338,
+   "status": "working",
+   "created": "2026-09-28 09:46",
+   "created_ts": 1790603172,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $376.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "89426469",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 365.6027,
+   "status": "working",
+   "created": "2026-09-28 09:46",
+   "created_ts": 1790603172,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $376.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 09:40"
+ "updated": "2026-09-28 09:47"
 }
