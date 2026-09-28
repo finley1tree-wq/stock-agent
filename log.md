@@ -19315,3 +19315,5 @@ lesson: Check cooling_off_minutes_left list explicitly before drafting orders - 
 ~ WORKING buy_limit $1947.24 TSM @ $449.80 until 2026-09-28 — wanted it, but not at the high — resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions
 portfolio: equity $32784.28 (+31.14% on $25000.00 in) · cash $17326.33 · realised +7826.33
 Decision: nothing at this check. 30 standing order(s) working.
+- BUY $1947.24 HD [buy_limit @ $291.69] — wanted it, but not at the high — resting at $291.69. Widely_held name with beaten down 1m performance, potential value entry
+## 2026-09-28 12:40 ET — tick — 0 sell(s), 1 buy(s) from standing orders

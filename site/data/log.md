@@ -1,5 +1,3 @@
-  (cancelled 3 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $505.50] -> $2063.92 (+0.25%) — close 100% at +0.2% over the average cost
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $510.11] -> $1650.93 (+0.24%) — close 100% at +0.2% over the average cost
   (cancelled 2 standing order(s) on UNH: position closed)
@@ -398,3 +396,5 @@ lesson: Check cooling_off_minutes_left list explicitly before drafting orders - 
 ~ WORKING buy_limit $1947.24 TSM @ $449.80 until 2026-09-28 — wanted it, but not at the high — resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions
 portfolio: equity $32784.28 (+31.14% on $25000.00 in) · cash $17326.33 · realised +7826.33
 Decision: nothing at this check. 30 standing order(s) working.
+- BUY $1947.24 HD [buy_limit @ $291.69] — wanted it, but not at the high — resting at $291.69. Widely_held name with beaten down 1m performance, potential value entry
+## 2026-09-28 12:40 ET — tick — 0 sell(s), 1 buy(s) from standing orders

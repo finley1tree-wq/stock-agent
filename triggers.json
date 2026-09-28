@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "56a82919",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 186.0557,
-   "status": "cancelled",
-   "created": "2026-09-25 11:18",
-   "created_ts": 1790349482,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $191.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 11:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ab53697a",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 344.5933,
-   "status": "cancelled",
-   "created": "2026-09-25 11:18",
-   "created_ts": 1790349482,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $343.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 11:30",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "23e4aef7",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 341.0818,
-   "status": "cancelled",
-   "created": "2026-09-25 11:18",
-   "created_ts": 1790349482,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $343.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 11:30",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "d3607f4a",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -7203,7 +7146,7 @@
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 291.686,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 12:28",
    "created_ts": 1790612902,
    "why": "wanted it, but not at the high \u2014 resting at $291.69. Widely_held name with beaten down 1m performance, potential value entry",
@@ -7214,7 +7157,8 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-28 12:40"
   },
   {
    "id": "8ae97e8d",
@@ -7455,7 +7399,58 @@
    ],
    "good_until": "2026-09-28",
    "usd": 1947.24
+  },
+  {
+   "id": "cf81ade8",
+   "ticker": "HD",
+   "kind": "take_profit",
+   "price": 292.3988,
+   "status": "working",
+   "created": "2026-09-28 12:40",
+   "created_ts": 1790613614,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $291.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "780a87fa",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 289.9224,
+   "status": "working",
+   "created": "2026-09-28 12:40",
+   "created_ts": 1790613614,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $291.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4029242e",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 282.9393,
+   "status": "working",
+   "created": "2026-09-28 12:40",
+   "created_ts": 1790613614,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $291.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 12:35"
+ "updated": "2026-09-28 12:40"
 }
