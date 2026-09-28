@@ -1,6 +1,3 @@
-
-## 2026-09-25 15:24 ET (Friday) — week 2026-W39 — budget left $18905.71 (today $162346.78 put to work, 55 buys, 53 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +395,6 @@ lesson: Widely_held sector has the best track record (2.14% avg_ret, n=372) - pr
 ~ WORKING buy_limit $500.00 IBM @ $214.50 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32872.47 (+31.49% on $25000.00 in) · cash $18402.35 · realised +7902.35
 Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $10583.68 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $342.26] -> $1647.84 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-09-28 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

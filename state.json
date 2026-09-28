@@ -1,11 +1,10 @@
 {
   "week": "2026-W40",
-  "spent": 14416.32,
+  "spent": 12768.48,
   "deployed": 40852.94,
   "by_ticker": {
     "AVGO": 3000.0,
     "TTD": 2000.0,
-    "GOOGL": 1647.06,
     "AAPL": 2500.0,
     "AMZN": 2500.0,
     "HD": 2000.0,
@@ -545,13 +544,34 @@
         "news"
       ],
       "evidence": "IBM at 45.7% of day range, -7.41% 1m already, headline on AI officer hire; not extended"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 4.814613,
+      "status": "filled",
+      "price": 342.26,
+      "proceeds": 1647.84,
+      "realized_pnl": 0.78,
+      "realized_pct": 0.05,
+      "date": "2026-09-28",
+      "time_et": "10:01",
+      "ts": 1790604000,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $342.1",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 14416.32,
+  "spent_today": 12768.48,
   "deployed_today": 40852.94,
   "orders_today": 17,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -562,7 +582,8 @@
     "NOC",
     "UNH",
     "CRWD",
-    "NVDA"
+    "NVDA",
+    "GOOGL"
   ],
   "sold_ts": {
     "PLTR": 1790602620,
@@ -574,41 +595,39 @@
     "NOC": 1790603436,
     "UNH": 1790603437,
     "CRWD": 1790603708,
-    "NVDA": 1790603756
+    "NVDA": 1790603756,
+    "GOOGL": 1790604063
   },
-  "last_publish_ts": 1790603911,
-  "last_check_ts": 1790603961,
-  "last_bar_ts": 1790603700,
+  "last_publish_ts": 1790604060,
+  "last_check_ts": 1790604109,
+  "last_bar_ts": 1790604000,
   "last_decision_ts": 1790603769,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "d157cd32": 221.988,
     "eac58930": 246.2193,
-    "d0690775": 342.43,
-    "6d2c9389": 343.0818,
     "8a90c227": 342.9824,
     "790ed5d7": 292.3629,
     "3e22ec46": 718.8947,
-    "d157cd32": 221.988,
     "9c19d4a4": 354.439,
     "a37dccff": 340.0351,
     "166222d4": 12.3981,
     "3738968e": 346.5,
     "ae6c7892": 249.5,
-    "6f85c6fe": 296.5,
-    "33fabc9c": 336.5,
     "46336fe5": 286.5,
-    "6ce04472": 216.5,
-    "2961d616": 241.0,
+    "33fabc9c": 336.5,
+    "6f85c6fe": 296.5,
     "d047925e": 226.0,
+    "2961d616": 241.0,
+    "6ce04472": 216.5,
     "92a07b97": 11.9698,
     "1a3ae429": 342.798,
-    "2c506ac4": 214.4961,
-    "88f57c55": 342.0,
     "c6e16130": 282.9102,
+    "88f57c55": 342.0,
     "45be2684": 331.9825,
-    "9f1c8fab": 331.837,
     "d4f4ab09": 238.2514,
+    "2c506ac4": 214.4961,
     "9175f355": 11.7
   }
 }
