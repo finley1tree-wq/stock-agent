@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "afa0dd70",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 437.1693,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $450.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f1af2dfd",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 263.8633,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $262.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e3b221e5",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 254.6056,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $262.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "7ffc128e",
    "ticker": "AVGO",
    "kind": "take_profit",
@@ -7418,7 +7361,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 505.9023,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:46",
    "created_ts": 1790603172,
    "why": "close it all at -0.6% under the average cost",
@@ -7428,7 +7371,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:48",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "33b4a442",
@@ -7469,7 +7414,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 378.338,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:46",
    "created_ts": 1790603172,
    "why": "close it all at -0.7% under the average cost",
@@ -7479,7 +7424,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:49",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "89426469",
@@ -7497,7 +7444,60 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "911c4435",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 509.906,
+   "status": "cancelled",
+   "created": "2026-09-28 09:48",
+   "created_ts": 1790603304,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $508.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:49",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "f71540fa",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 510.68,
+   "status": "working",
+   "created": "2026-09-28 09:49",
+   "created_ts": 1790603353,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $508.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "41c2ffdb",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 379.106,
+   "status": "working",
+   "created": "2026-09-28 09:49",
+   "created_ts": 1790603353,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $376.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-28 09:47"
+ "updated": "2026-09-28 09:49"
 }
