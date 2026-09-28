@@ -1,25 +1,3 @@
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQjnYcdWuXKxbjC4ga5u'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32822.93 (+31.29% on $25000.00 in) · cash $29816.02 · realised +7816.02
-Decision: nothing at this check. 3 standing order(s) working.
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 standing order(s) on META: position closed)
-- SELL 100% META [stop_loss @ $751.88] -> $3002.64 (+0.09%) — close it all at -1.1% under the average cost
-## 2026-09-25 15:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-25 15:52 ET (Friday) — week 2026-W39 — budget left $24907.01 (today $165346.78 put to work, 56 buys, 56 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (DHF excluded: too thinly traded ($0.7M a day) — BNY Mellon High Yield Strategies Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQjzniY2gRZcmye2WM44'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $32818.66 (+31.27% on $25000.00 in) · cash $32818.66 · realised +7818.66
 Decision: nothing at this check.
@@ -398,3 +376,25 @@ Done: 0 sell(s), 4 buy(s); 38 order(s) working; budget left $8477.18 this week
 ## 2026-09-28 11:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% NOC [time stop] -> $1798.33 (-0.09%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% GOOGL [time stop] -> $1595.28 (-0.29%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $1488.21 (-0.79%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $1395.75 (-0.30%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 11:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 11:42 ET (Monday) — week 2026-W40 — budget left $16999.39 (today $69352.94 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Only 4 positions held vs min_positions=8, cash_idle_pct=68% - must deploy more. GOOGL/UNH/NEM/NOC/LMT/RTX/CCJ/TSM/AMD are in cooldown so can't rebuy those. Rather than chasing names already high in day range (CRWD at 97.4%, PLTR at 69.3%), I'm placing buy_limit orders below market to get better entries per guardrail rules on max_entry_range_pct, while also adding congress-backed TSM and AVGO limits. This keeps working capital ready without paying up for moves already made.
+lesson: When most watchlist names are either in cooldown or high in their day range (>85%), use buy_limit orders resting below market instead of market orders to satisfy min_positions goal without chasing.
+  (dropped GOOGL: sold 2 min ago, cooling off)
+~ WORKING buy_limit $2500.00 TSM @ $442.00 until 2026-09-28 — wait for pullback below current 447 before entering, congress buy pressure + momentum
+~ WORKING buy_limit $2500.00 PLTR @ $186.00 until 2026-09-28 — resting limit below market to get better entry than chasing at 69% of range
+~ WORKING buy_limit $2000.00 CRWD @ $253.00 until 2026-09-28 — working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting
+~ WORKING buy_limit $2000.00 AVGO @ $345.00 until 2026-09-28 — resting limit below current 349.87 to get better entry on congress-backed name
+~ WORKING stop_loss 100% AAPL @ $336.00 until 2026-09-28 — tighten protective stop
+portfolio: equity $32811.11 (+31.24% on $25000.00 in) · cash $24818.09 · realised +7818.09
+Decision: nothing at this check. 25 standing order(s) working.

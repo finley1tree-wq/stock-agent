@@ -1,99 +1,6 @@
 {
  "orders": [
   {
-   "id": "c45b2e52",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 744.1161,
-   "status": "cancelled",
-   "created": "2026-09-25 10:05",
-   "created_ts": 1790345132,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $767.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 10:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "905b8aa7",
-   "ticker": "SPY",
-   "kind": "stop_loss",
-   "price": 767.502,
-   "status": "filled",
-   "created": "2026-09-25 10:10",
-   "created_ts": 1790345426,
-   "why": "close it all at -0.2% under the average cost",
-   "evidence": "average cost $767.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 10:15"
-  },
-  {
-   "id": "6f9821dd",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 256.183,
-   "status": "filled",
-   "created": "2026-09-25 10:20",
-   "created_ts": 1790346027,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $254.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 10:26"
-  },
-  {
-   "id": "d6d9e35d",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 251.4812,
-   "status": "cancelled",
-   "created": "2026-09-25 10:20",
-   "created_ts": 1790346027,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $254.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 10:24",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "eb2ea0c8",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 247.1948,
-   "status": "cancelled",
-   "created": "2026-09-25 10:20",
-   "created_ts": 1790346027,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $254.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 10:26",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "2ccbe50c",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -6984,7 +6891,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 338.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "protect new position against reversal",
@@ -6993,14 +6900,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "70bcfe75",
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 344.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "lock partial gain near recent day high",
@@ -7009,14 +6918,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0360ade3",
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 373.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "protect new position",
@@ -7025,14 +6936,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a997f38e",
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 382.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "lock partial gain above today's high",
@@ -7041,14 +6954,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0c73258b",
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 112.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "protect against further gold slide",
@@ -7057,14 +6972,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "be6bd8c8",
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 119.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "lock partial gain on bounce",
@@ -7073,14 +6990,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d42a8323",
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 342.3566,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "close 100% at +0.3% over the average cost",
@@ -7090,14 +7009,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "934fcbb8",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 331.1289,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7107,14 +7028,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1bbec4cf",
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 378.953,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "close 100% at +0.3% over the average cost",
@@ -7124,14 +7047,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "62d865b7",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 366.5727,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7141,14 +7066,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "efe40421",
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 116.885,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "close 100% at +0.4% over the average cost",
@@ -7158,14 +7085,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "bd26482f",
    "ticker": "NEM",
    "kind": "buy_limit",
    "price": 112.9177,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7175,7 +7104,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "189a96c9",
@@ -7457,7 +7388,91 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "98532105",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 442.0,
+   "status": "working",
+   "created": "2026-09-28 11:42",
+   "created_ts": 1790610123,
+   "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
+   "evidence": "Rep. Rick W. Allen (spouse) bought TSM Aug 12, disclosed Sep 22; TSM +4.63% 1m, currently 60.9% of day range",
+   "signals": [
+    "congress",
+    "momentum"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 2500.0
+  },
+  {
+   "id": "dee71357",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 186.0,
+   "status": "working",
+   "created": "2026-09-28 11:42",
+   "created_ts": 1790610123,
+   "why": "resting limit below market to get better entry than chasing at 69% of range",
+   "evidence": "PLTR +2.89% 5d, headline '24/7 Wall St: If You Invest $10,000 in Palantir Today', currently 69.3% of day range",
+   "signals": [
+    "momentum",
+    "news"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 2500.0
+  },
+  {
+   "id": "4e1f5f09",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 253.0,
+   "status": "working",
+   "created": "2026-09-28 11:42",
+   "created_ts": 1790610123,
+   "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
+   "evidence": "CRWD +2.44% today, +13.3% 1m, Cramer 'Buy 2 AI Stocks Up 875%/1400%' headline mentions CRWD-adjacent names, but CRWD itself at 97.4% of day range now - wait for pullback",
+   "signals": [
+    "momentum",
+    "news"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 2000.0
+  },
+  {
+   "id": "ada2e9da",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 345.0,
+   "status": "working",
+   "created": "2026-09-28 11:42",
+   "created_ts": 1790610123,
+   "why": "resting limit below current 349.87 to get better entry on congress-backed name",
+   "evidence": "Rep. Rick W. Allen bought AVGO Aug 12 disclosed Sep 22; congress_net_buy_pressure AVGO=2.0",
+   "signals": [
+    "congress",
+    "insider"
+   ],
+   "good_until": "2026-09-28",
+   "usd": 2000.0
+  },
+  {
+   "id": "cae20e4b",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 336.0,
+   "status": "working",
+   "created": "2026-09-28 11:42",
+   "created_ts": 1790610123,
+   "why": "tighten protective stop",
+   "evidence": "AAPL down -0.07% unrealized, existing stop at 335 too loose given ATR 1.95%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-28 11:26"
+ "updated": "2026-09-28 11:42"
 }
