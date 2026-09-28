@@ -19162,3 +19162,5 @@ portfolio: equity $32827.60 (+31.31% on $25000.00 in) · cash $16295.87 · reali
 Done: 0 sell(s), 4 buy(s); 38 order(s) working; budget left $8477.18 this week
 - SELL 100% LMT [time stop] -> $2244.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 11:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% NOC [time stop] -> $1798.33 (-0.09%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders

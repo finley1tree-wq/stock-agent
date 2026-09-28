@@ -1,5 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (inside the last max_hold_minutes of the session: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQjnYcdWuXKxbjC4ga5u'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +396,5 @@ portfolio: equity $32827.60 (+31.31% on $25000.00 in) · cash $16295.87 · reali
 Done: 0 sell(s), 4 buy(s); 38 order(s) working; budget left $8477.18 this week
 - SELL 100% LMT [time stop] -> $2244.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 11:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% NOC [time stop] -> $1798.33 (-0.09%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
