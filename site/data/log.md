@@ -1,6 +1,3 @@
-## 2026-09-25 15:33 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
@@ -398,3 +395,6 @@ lesson: When most widely_held names are in cooldown, look to non-cooldown watchl
 ~ WORKING buy_limit $1000.00 TSM @ $445.35 until 2026-09-29 — strong month, weak day: resting 0.44% under $447.33 to catch the dip
 portfolio: equity $32879.34 (+31.52% on $25000.00 in) · cash $27529.98 · realised +7882.92
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $19711.29 this week
+- SELL 100% AAPL [time stop] -> $2496.22 (-0.15%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $851.87 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 10:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders

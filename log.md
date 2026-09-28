@@ -19025,3 +19025,6 @@ lesson: When most widely_held names are in cooldown, look to non-cooldown watchl
 ~ WORKING buy_limit $1000.00 TSM @ $445.35 until 2026-09-29 — strong month, weak day: resting 0.44% under $447.33 to catch the dip
 portfolio: equity $32879.34 (+31.52% on $25000.00 in) · cash $27529.98 · realised +7882.92
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $19711.29 this week
+- SELL 100% AAPL [time stop] -> $2496.22 (-0.15%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $851.87 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 10:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders

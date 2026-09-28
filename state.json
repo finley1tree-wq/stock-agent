@@ -1,12 +1,12 @@
 {
   "week": "2026-W40",
-  "spent": 5288.71,
+  "spent": 1940.62,
   "deployed": 43852.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
-    "AAPL": 2500.0,
-    "IBM": 852.94,
+    "AAPL": 3.78,
+    "IBM": 1.07,
     "PLTR": 2000.0
   },
   "deployed_by_ticker": {
@@ -704,13 +704,53 @@
         "momentum"
       ],
       "evidence": "'Palantir Stock Is Up 77% Since June. A $1,344 Target Says the Run Is Early' (TIKR); +2.78% 5d momentum, currently 64% of day range, cooldown expired"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 7.304635,
+      "status": "filled",
+      "price": 341.73,
+      "proceeds": 2496.22,
+      "realized_pnl": -3.78,
+      "realized_pct": -0.15,
+      "date": "2026-09-28",
+      "time_et": "10:26",
+      "ts": 1790605602,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.13% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 3.857115,
+      "status": "filled",
+      "price": 220.86,
+      "proceeds": 851.87,
+      "realized_pnl": -1.07,
+      "realized_pct": -0.13,
+      "date": "2026-09-28",
+      "time_et": "10:26",
+      "ts": 1790605602,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.11% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 5288.71,
+  "spent_today": 1940.62,
   "deployed_today": 43852.94,
   "orders_today": 19,
-  "sells_today": 16,
+  "sells_today": 18,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -727,7 +767,9 @@
     "TTD",
     "HD",
     "AMZN",
-    "META"
+    "META",
+    "AAPL",
+    "IBM"
   ],
   "sold_ts": {
     "PLTR": 1790602620,
@@ -745,29 +787,22 @@
     "TTD": 1790604345,
     "HD": 1790604480,
     "AMZN": 1790604790,
-    "META": 1790604966
+    "META": 1790604966,
+    "AAPL": 1790605604,
+    "IBM": 1790605604
   },
-  "last_publish_ts": 1790605363,
-  "last_check_ts": 1790605521,
+  "last_publish_ts": 1790605602,
+  "last_check_ts": 1790605650,
   "last_bar_ts": 1790605500,
   "last_decision_ts": 1790605363,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "8a90c227": 342.9824,
-    "58051b81": 188.8524,
     "28181c1b": 445.3508,
-    "d157cd32": 221.988,
-    "a37dccff": 340.0351,
+    "58051b81": 188.8524,
     "15b4b681": 86.4523,
-    "3738968e": 346.5,
-    "33fabc9c": 336.5,
     "4f245eea": 184.4,
-    "6ce04472": 216.5,
-    "d047925e": 226.0,
     "6efdfc7b": 192.9,
-    "45be2684": 331.9825,
-    "2c506ac4": 214.4961,
     "013b6edf": 182.5734
   }
 }
