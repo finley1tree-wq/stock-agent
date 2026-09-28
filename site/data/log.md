@@ -1,7 +1,3 @@
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-25 15:41 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
@@ -398,3 +394,7 @@ lesson: With 4 positions freshly opened and two limit orders resting for better 
 ~ WORKING buy_limit $1000.00 MSFT @ $503.30 until 2026-09-29 — strong month, weak day: resting 0.46% under $505.64 to catch the dip
 portfolio: equity $32837.54 (+31.35% on $25000.00 in) · cash $23910.80 · realised +7860.80
 Decision: nothing at this check. 19 standing order(s) working.
+- BUY $2250.00 LMT [buy_limit @ $521.32] — wanted it, but not at the high — resting at $521.32. Defense sector had 0.70 hit_rate historically and LMT not in cooldown, strong intraday momentum near high
+## 2026-09-28 10:58 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $1800.00 NOC [buy_limit @ $510.55] — wanted it, but not at the high — resting at $510.55. NOC cooldown expired (0 min left listed), strong defense momentum, was previously bought/sold this week profitably per track record widely_held/defense mix
+## 2026-09-28 10:59 ET — tick — 0 sell(s), 1 buy(s) from standing orders

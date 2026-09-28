@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "e047bac6",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 511.69,
-   "status": "filled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $510.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:43"
-  },
-  {
-   "id": "0e97a806",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 507.4225,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $510.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:41",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c9a3407e",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 495.1559,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $510.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 09:43",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f26792c4",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 260.5842,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $259.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6ea00982",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 256.0183,
-   "status": "filled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $259.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:35"
-  },
-  {
-   "id": "fd99f0b5",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 251.5016,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $259.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "239e0ede",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7184,7 +7072,7 @@
    "ticker": "LMT",
    "kind": "buy_limit",
    "price": 521.3245,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 10:38",
    "created_ts": 1790606315,
    "why": "wanted it, but not at the high \u2014 resting at $521.32. Defense sector had 0.70 hit_rate historically and LMT not in cooldown, strong intraday momentum near high",
@@ -7195,14 +7083,15 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 2250.0
+   "usd": 2250.0,
+   "closed": "2026-09-28 10:58"
   },
   {
    "id": "c96c3ac2",
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 510.5482,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 10:38",
    "created_ts": 1790606315,
    "why": "wanted it, but not at the high \u2014 resting at $510.55. NOC cooldown expired (0 min left listed), strong defense momentum, was previously bought/sold this week profitably per track record widely_held/defense mix",
@@ -7213,7 +7102,8 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 1800.0
+   "usd": 1800.0,
+   "closed": "2026-09-28 10:59"
   },
   {
    "id": "62d34c74",
@@ -7491,7 +7381,109 @@
    ],
    "good_until": "2026-09-29",
    "usd": 1000.0
+  },
+  {
+   "id": "9ce6435b",
+   "ticker": "LMT",
+   "kind": "take_profit",
+   "price": 522.6442,
+   "status": "working",
+   "created": "2026-09-28 10:58",
+   "created_ts": 1790607537,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $521.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "32003cff",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 518.0044,
+   "status": "working",
+   "created": "2026-09-28 10:58",
+   "created_ts": 1790607537,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $521.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3c0f7b59",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 505.6804,
+   "status": "working",
+   "created": "2026-09-28 10:58",
+   "created_ts": 1790607537,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $521.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
+  },
+  {
+   "id": "c771e78d",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 511.7753,
+   "status": "working",
+   "created": "2026-09-28 10:59",
+   "created_ts": 1790607586,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $510.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "27f1f033",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 507.4867,
+   "status": "working",
+   "created": "2026-09-28 10:59",
+   "created_ts": 1790607586,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $510.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dcb83d8b",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 495.2335,
+   "status": "working",
+   "created": "2026-09-28 10:59",
+   "created_ts": 1790607586,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $510.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 10:55"
+ "updated": "2026-09-28 10:59"
 }

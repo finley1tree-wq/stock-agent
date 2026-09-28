@@ -42618,5 +42618,61 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": 0.15
+  },
+  {
+    "symbol": "LMT",
+    "notional": 2250.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.31593,
+    "price": 521.32,
+    "date": "2026-09-28",
+    "time_et": "10:58",
+    "ts": 1790607300,
+    "why": "wanted it, but not at the high \u2014 resting at $521.32. Defense sector had 0.70 hit_rate historically and LMT not in cooldown, strong intraday momentum near high",
+    "signals": [
+      "momentum",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "LMT +0.75% today, 88.3% of day range, WSJ: 'Defense Firms Are Rushing to Boost Missile Output' 2026-09-28",
+    "trigger": "buy_limit",
+    "entry_price": 521.3245,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.95,
+    "hour_et": 10,
+    "code_version": "15ea5081",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 1800.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.525622,
+    "price": 510.55,
+    "date": "2026-09-28",
+    "time_et": "10:59",
+    "ts": 1790607300,
+    "why": "wanted it, but not at the high \u2014 resting at $510.55. NOC cooldown expired (0 min left listed), strong defense momentum, was previously bought/sold this week profitably per track record widely_held/defense mix",
+    "signals": [
+      "momentum",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "NOC +0.49% today, 89.1% of day range, WSJ missile output headline applies sector-wide",
+    "trigger": "buy_limit",
+    "entry_price": 510.5482,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -6.35,
+    "hour_et": 10,
+    "code_version": "15ea5081",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
