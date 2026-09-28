@@ -18822,3 +18822,48 @@ Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-25 16:00 ET — published the session's closing state
 ## 2026-09-28 00:11 ET — published the session's closing state
+
+## 2026-09-28 09:33 ET (Monday) — week 2026-W40 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+brain: Flat book, 100% idle cash, min_positions=8 unmet, full_deployment active - counterfactual data and past_lessons_with_outcome both show trickling caused prior underperformance while immediate diversified deployment worked better. Deploying full budget across 8 names with concrete evidence (congress disclosures, insider pressure, momentum, news catalysts) each with a protective stop.
+lesson: Full deployment across 8 evidenced names at once beats trickling in 1-2 per check per repeated past_lessons_with_outcome pattern; always attach stops immediately.
+  (dropped NVDA: 88% up today's range — resting a limit at $231.09 instead of chasing)
+  (dropped CRWD: 85% up today's range — resting a limit at $251.01 instead of chasing)
+- BUY $4000.00 LEN [filled] ['insider', 'news'] — Strongest insider buy pressure in dataset plus major disclosed Berkshire stake increase | evidence: insider_net_buy_pressure LEN=9.0 (highest of all tickers); Barron's: 'Berkshire Hathaway Buys More Lennar Stock-and Now Owns 11% of the Homebuilder'
+- BUY $4000.00 PLTR [filled] ['momentum', 'news'] — Strong momentum and bullish analyst target commentary | evidence: PLTR +2.29% 5d, 80.7% of day range; TIKR headline 'Palantir Stock Is Up 77% Since June. A $1,344 Target Says the Run Is Early.'
+- BUY $3500.00 TSM [filled] ['congress', 'news'] — Congressional buy pressure plus concrete demand catalyst headline | evidence: Rick W. Allen (Rep, +2.76% avg excess, 62% beat rate) disclosed TSM buy 8/12; GuruFocus: 'Apple and Nvidia Just Delivered a Major Boost for TSMC Chip Business'
+- BUY $3000.00 AVGO [filled] ['congress', 'momentum'] — Congressional buying pressure and relative resilience vs peers | evidence: congress_net_buy_pressure AVGO=2.0 (Rick W. Allen, David J. Taylor both bought); price +0.15% 1d holding steady despite NVDA buyback news pulling peers down
+- BUY $2000.00 TTD [filled] ['congress'] — Congressional buying pressure on a beaten-down name (change_1m -8.12%) | evidence: Gilbert Ray Cisneros disclosed TTD buys 9/4 and 9/10; congress_net_buy_pressure TTD=2.0
+- BUY $1000.00 ACN [filled] ['congress'] — Small congress-backed add to round out position count to 8 | evidence: Scott Franklin disclosed ACN buy 8/26 ($1,001-$15,000); congress_net_buy_pressure ACN=2.0
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+~ WORKING stop_loss 100% LEN @ $79.80 until 2026-09-28 — Protective stop
+~ WORKING stop_loss 100% PLTR @ $181.00 until 2026-09-28 — Protective stop
+~ WORKING stop_loss 100% TSM @ $435.00 until 2026-09-28 — Protective stop
+~ WORKING stop_loss 100% AVGO @ $342.00 until 2026-09-28 — Protective stop
+~ WORKING stop_loss 100% TTD @ $11.70 until 2026-09-28 — Protective stop
+~ WORKING stop_loss 100% ACN @ $166.50 until 2026-09-28 — Protective stop
+~ WORKING buy_limit $4500.00 NVDA @ $231.09 until 2026-09-28 — wanted it, but not at the high — resting at $231.09. Positive momentum with major buyback catalyst, strong day-range strength
+~ WORKING buy_limit $3000.00 CRWD @ $251.01 until 2026-09-28 — wanted it, but not at the high — resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted
+~ WORKING take_profit 100% LEN @ $82.52 until 2026-10-03 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 LEN @ $79.75 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $187.94 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $181.69 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $449.25 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $434.76 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $354.44 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $342.80 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.40 until 2026-10-03 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $11.97 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $174.52 until 2026-10-03 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $168.55 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 AMD @ $618.06 until 2026-09-29 — strong month, weak day: resting 0.81% under $623.14 to catch the dip
+~ WORKING buy_limit $1000.00 META @ $718.89 until 2026-09-29 — strong month, weak day: resting 0.87% under $725.22 to catch the dip
+~ WORKING buy_limit $1000.00 AAPL @ $340.04 until 2026-09-29 — strong month, weak day: resting 0.40% under $341.40 to catch the dip
+portfolio: equity $32813.75 (+31.26% on $25000.00 in) · cash $15318.66 · realised +7818.66
+Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $7500.00 this week
