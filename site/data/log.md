@@ -1,10 +1,3 @@
-- SELL 100% AMAT [time stop] -> $2997.75 (-0.08%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-25 15:06 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-25 15:07 ET (Friday) — week 2026-W39 — budget left $12917.44 (today $156346.78 put to work, 53 buys, 49 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +391,10 @@ lesson: Full deployment across 8 evidenced names at once beats trickling in 1-2 
 ~ WORKING buy_limit $1000.00 AAPL @ $340.04 until 2026-09-29 — strong month, weak day: resting 0.40% under $341.40 to catch the dip
 portfolio: equity $32813.75 (+31.26% on $25000.00 in) · cash $15318.66 · realised +7818.66
 Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $7500.00 this week
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $187.94] -> $4013.53 (+0.34%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $449.25] -> $3508.12 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-28 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+- BUY $1000.00 AMD [buy_limit @ $618.06] — strong month, weak day: resting 0.81% under $623.14 to catch the dip
+## 2026-09-28 09:37 ET — tick — 0 sell(s), 1 buy(s) from standing orders

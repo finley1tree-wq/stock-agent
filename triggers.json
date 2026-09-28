@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "cb98bafe",
-   "ticker": "SPY",
-   "kind": "buy_limit",
-   "price": 766.3442,
-   "status": "filled",
-   "created": "2026-09-24 12:56",
-   "created_ts": 1790268997,
-   "why": "wanted it, but not at the high \u2014 resting at $766.34. diversification anchor while individual stock cooldowns clear",
-   "evidence": "SPY +0.07% today, 91% of range, broad market stability while individual names correct",
-   "signals": [
-    "momentum",
-    "etf_default",
-    "patience"
-   ],
-   "good_until": "2026-09-24",
-   "usd": 1500.0,
-   "closed": "2026-09-24 13:43"
-  },
-  {
-   "id": "14a9bc5e",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 146.58,
-   "status": "filled",
-   "created": "2026-09-24 12:56",
-   "created_ts": 1790268997,
-   "why": "strong month, weak day: resting 0.55% under $147.39 to catch the dip",
-   "evidence": "+3.2% over the month, sitting at 19% of today's range",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ],
-   "good_until": "2026-09-25",
-   "usd": 1000.0,
-   "closed": "2026-09-24 14:29"
-  },
-  {
-   "id": "07119c33",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 481.0,
-   "status": "cancelled",
-   "created": "2026-09-24 13:06",
-   "created_ts": 1790269614,
-   "why": "Standard protective stop ~3% below entry",
-   "evidence": "ATR 2.06%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 13:36",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "d57a0cc5",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7137,7 +7082,7 @@
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 181.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "Protective stop",
@@ -7146,14 +7091,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a1a1c3be",
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 435.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "Protective stop",
@@ -7162,7 +7109,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "88f57c55",
@@ -7287,7 +7236,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 187.9412,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "close 100% at +0.3% over the average cost",
@@ -7297,14 +7246,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:36"
   },
   {
    "id": "58bfa620",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 181.6907,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7314,14 +7264,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "af7e9986",
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 449.2498,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "close 100% at +0.2% over the average cost",
@@ -7331,14 +7283,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:36"
   },
   {
    "id": "c5df270a",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 434.7637,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7348,7 +7301,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9c19d4a4",
@@ -7457,7 +7412,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 618.0615,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "strong month, weak day: resting 0.81% under $623.14 to catch the dip",
@@ -7467,7 +7422,8 @@
     "dip_entry"
    ],
    "good_until": "2026-09-29",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-28 09:37"
   },
   {
    "id": "3e22ec46",
@@ -7502,7 +7458,58 @@
    ],
    "good_until": "2026-09-29",
    "usd": 1000.0
+  },
+  {
+   "id": "ce316521",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 620.7795,
+   "status": "working",
+   "created": "2026-09-28 09:37",
+   "created_ts": 1790602666,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $618.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "024f2c66",
+   "ticker": "AMD",
+   "kind": "stop_loss",
+   "price": 619.908,
+   "status": "working",
+   "created": "2026-09-28 09:37",
+   "created_ts": 1790602666,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $618.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "866f2a19",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 599.5182,
+   "status": "working",
+   "created": "2026-09-28 09:37",
+   "created_ts": 1790602666,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $618.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 09:33"
+ "updated": "2026-09-28 09:37"
 }

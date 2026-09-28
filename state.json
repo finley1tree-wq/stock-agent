@@ -1,14 +1,13 @@
 {
   "week": "2026-W40",
-  "spent": 17500.0,
-  "deployed": 17500.0,
+  "spent": 10978.35,
+  "deployed": 18500.0,
   "by_ticker": {
     "LEN": 4000.0,
-    "PLTR": 4000.0,
-    "TSM": 3500.0,
     "AVGO": 3000.0,
     "TTD": 2000.0,
-    "ACN": 1000.0
+    "ACN": 1000.0,
+    "AMD": 1000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -16,7 +15,8 @@
     "TSM": 3500.0,
     "AVGO": 3000.0,
     "TTD": 2000.0,
-    "ACN": 1000.0
+    "ACN": 1000.0,
+    "AMD": 1000.0
   },
   "orders": [
     {
@@ -118,43 +118,106 @@
         "congress"
       ],
       "evidence": "Scott Franklin disclosed ACN buy 8/26 ($1,001-$15,000); congress_net_buy_pressure ACN=2.0"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 21.355263,
+      "status": "filled",
+      "price": 187.94,
+      "proceeds": 4013.53,
+      "realized_pnl": 13.53,
+      "realized_pct": 0.34,
+      "date": "2026-09-28",
+      "time_et": "09:36",
+      "ts": 1790602500,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $187.31",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 7.808846,
+      "status": "filled",
+      "price": 449.25,
+      "proceeds": 3508.12,
+      "realized_pnl": 8.12,
+      "realized_pct": 0.23,
+      "date": "2026-09-28",
+      "time_et": "09:36",
+      "ts": 1790602500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $448.21",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.617962,
+      "price": 618.06,
+      "date": "2026-09-28",
+      "time_et": "09:37",
+      "ts": 1790602500,
+      "why": "strong month, weak day: resting 0.81% under $623.14 to catch the dip",
+      "signals": [
+        "momentum",
+        "dip_entry",
+        "standing_order"
+      ],
+      "evidence": "+30.7% over the month, sitting at 25% of today's range",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 17500.0,
-  "deployed_today": 17500.0,
-  "orders_today": 6,
-  "sells_today": 0,
-  "sold_today": [],
-  "sold_ts": {},
-  "last_publish_ts": 1790602419,
-  "last_check_ts": 1790602419,
-  "last_bar_ts": 1790602200,
+  "spent_today": 10978.35,
+  "deployed_today": 18500.0,
+  "orders_today": 7,
+  "sells_today": 2,
+  "sold_today": [
+    "PLTR",
+    "TSM"
+  ],
+  "sold_ts": {
+    "PLTR": 1790602620,
+    "TSM": 1790602620
+  },
+  "last_publish_ts": 1790602666,
+  "last_check_ts": 1790602666,
+  "last_bar_ts": 1790602500,
   "last_decision_ts": 1790602419,
   "next_check_minutes": 6,
   "autopiloted": false,
   "book_px": {
-    "af7e9986": 449.2498,
-    "9c19d4a4": 354.439,
-    "8c395a6b": 187.9412,
+    "ce316521": 620.7795,
+    "024f2c66": 619.908,
     "5783a960": 82.5193,
-    "a37dccff": 340.0351,
+    "9c19d4a4": 354.439,
     "7fc09325": 231.0939,
-    "86d80180": 174.5193,
+    "a37dccff": 340.0351,
     "166222d4": 12.3981,
-    "c98c6542": 618.0615,
-    "3e22ec46": 718.8947,
     "ca050240": 251.0145,
-    "885017d7": 79.8,
-    "92a07b97": 11.9698,
-    "a1a1c3be": 435.0,
-    "df2e819e": 79.7534,
+    "3e22ec46": 718.8947,
+    "86d80180": 174.5193,
     "b3d6ecce": 168.5472,
-    "58bfa620": 181.6907,
-    "c5df270a": 434.7637,
+    "92a07b97": 11.9698,
     "1a3ae429": 342.798,
+    "885017d7": 79.8,
+    "df2e819e": 79.7534,
     "88f57c55": 342.0,
-    "9759dc3f": 181.0,
+    "866f2a19": 599.5182,
     "e68c3e7d": 166.5,
     "9175f355": 11.7
   }

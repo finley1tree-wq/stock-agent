@@ -41558,5 +41558,82 @@
     "code_version": "fba474ec",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "PLTR",
+    "side": "sell",
+    "qty": 21.355263,
+    "status": "filled",
+    "price": 187.94,
+    "proceeds": 4013.53,
+    "realized_pnl": 13.53,
+    "realized_pct": 0.34,
+    "date": "2026-09-28",
+    "time_et": "09:36",
+    "ts": 1790602500,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $187.31",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "374ac5a2"
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 7.808846,
+    "status": "filled",
+    "price": 449.25,
+    "proceeds": 3508.12,
+    "realized_pnl": 8.12,
+    "realized_pct": 0.23,
+    "date": "2026-09-28",
+    "time_et": "09:36",
+    "ts": 1790602500,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $448.21",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "374ac5a2"
+  },
+  {
+    "symbol": "AMD",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.617962,
+    "price": 618.06,
+    "date": "2026-09-28",
+    "time_et": "09:37",
+    "ts": 1790602500,
+    "why": "strong month, weak day: resting 0.81% under $623.14 to catch the dip",
+    "signals": [
+      "dip_entry",
+      "momentum",
+      "standing_order"
+    ],
+    "evidence": "+30.7% over the month, sitting at 25% of today's range",
+    "trigger": "buy_limit",
+    "entry_price": 618.0615,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 30.31,
+    "hour_et": 9,
+    "code_version": "374ac5a2",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
