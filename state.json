@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6907.89,
-  "deployed": 50802.94,
+  "spent": 8907.89,
+  "deployed": 52802.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
@@ -11,7 +11,7 @@
     "RTX": 1800.0,
     "TSM": 2350.0,
     "AMD": 1000.0,
-    "CCJ": 1800.0
+    "CCJ": 3800.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -33,7 +33,7 @@
     "IBM": 852.94,
     "META": 1000.0,
     "RTX": 1800.0,
-    "CCJ": 1800.0
+    "CCJ": 3800.0
   },
   "orders": [
     {
@@ -862,12 +862,31 @@
       ],
       "evidence": "bought 30 min ago, -0.84% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.134144,
+      "price": 86.45,
+      "date": "2026-09-28",
+      "time_et": "10:54",
+      "ts": 1790607000,
+      "why": "wanted it, but not at the high \u2014 resting at $86.45. Nuclear sector name at day high, not in cooldown, oversold on 1m basis (-18.1%) which could mean-revert",
+      "signals": [
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "CCJ at 100% of day range today (87.08, day high=day low touch), -1.12% 1d but at day high suggests fresh buying interest despite -18.1% 1m pullback offering value",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 6907.89,
-  "deployed_today": 50802.94,
-  "orders_today": 24,
+  "spent_today": 8907.89,
+  "deployed_today": 52802.94,
+  "orders_today": 25,
   "sells_today": 19,
   "sold_today": [
     "PLTR",
@@ -909,21 +928,23 @@
     "AAPL": 1790605604,
     "IBM": 1790605604
   },
-  "last_publish_ts": 1790607171,
-  "last_check_ts": 1790607171,
-  "last_bar_ts": 1790607000,
-  "last_decision_ts": 1790606315,
+  "last_publish_ts": 1790607314,
+  "last_check_ts": 1790607314,
+  "last_bar_ts": 1790607300,
+  "last_decision_ts": 1790607314,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "15b4b681": 86.4523,
     "0425268b": 521.3245,
     "c96c3ac2": 510.5482,
-    "e450c75c": 593.6325,
+    "75ce8e50": 503.2977,
+    "1388993a": 228.0543,
     "83b940c6": 87.025,
+    "e450c75c": 593.6325,
     "b60343b7": 189.6024,
     "af7857d1": 446.8766,
     "8a906688": 85.8167,
+    "6e4d20d8": 249.4201,
     "0f313b9f": 603.6658,
     "d367ed73": 436.0,
     "ad77c537": 185.0,
@@ -932,6 +953,6 @@
     "b77856a6": 432.4454,
     "7b07dd6d": 455.0,
     "fb987d57": 183.5143,
-    "1ea41059": 84.0796
+    "aeaf91a6": 83.9632
   }
 }

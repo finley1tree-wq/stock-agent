@@ -1,20 +1,3 @@
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQivpAcjx8w12Zfqzijk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 MSFT @ $500.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $610.94 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32817.62 (+31.27% on $25000.00 in) · cash $23817.36 · realised +7817.36
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
   (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
 
@@ -398,3 +381,20 @@ Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $19909.38 this week
 ## 2026-09-28 10:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% PLTR [time stop] -> $1982.73 (-0.86%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2000.00 CCJ [buy_limit @ $86.45] — wanted it, but not at the high — resting at $86.45. Nuclear sector name at day high, not in cooldown, oversold on 1m basis (-18.1%) which could mean-revert
+## 2026-09-28 10:54 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-28 10:55 ET (Monday) — week 2026-W40 — budget left $16092.11 (today $52802.94 put to work, 25 buys, 19 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Book already has 4 fresh positions (RTX, TSM, AMD, CCJ) opened in the last ~20 min, all with stops/take-profits/scale-in orders working. LMT and NOC buy_limits are resting just below market waiting for a pullback rather than chasing (both >85% of day range, guardrail would reject a market buy anyway). Today's track record shows heavy churn (25 orders, 19 sells) with intraday_limit/time_stop signals averaging -0.18%, so I don't want to add more market buys chasing extended names right now. I'll let the working buy_limits (LMT, NOC) and scale-in orders do their job and re-check soon to catch fills or fresh setups instead of forcing new market entries into names already high in their range.
+lesson: With 4 positions freshly opened and two limit orders resting for better entries, don't force additional market buys into names sitting >85% of day range - let working orders fill at better levels first.
+~ WORKING buy_limit $1000.00 CRWD @ $249.42 until 2026-09-29 — strong month, weak day: resting 1.02% under $251.98 to catch the dip
+~ WORKING buy_limit $1000.00 NVDA @ $228.05 until 2026-09-29 — strong month, weak day: resting 0.47% under $229.13 to catch the dip
+~ WORKING buy_limit $1000.00 MSFT @ $503.30 until 2026-09-29 — strong month, weak day: resting 0.46% under $505.64 to catch the dip
+portfolio: equity $32837.54 (+31.35% on $25000.00 in) · cash $23910.80 · realised +7860.80
+Decision: nothing at this check. 19 standing order(s) working.

@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "d328455f",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 615.6784,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $634.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 09:54",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b80af62f",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 353.002,
-   "status": "filled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $351.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:35"
-  },
-  {
-   "id": "63a5fe69",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 349.1101,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $351.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "98b15c2e",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 341.3333,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $351.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e047bac6",
    "ticker": "NOC",
    "kind": "take_profit",
@@ -7121,7 +7046,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 86.4523,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 10:22",
    "created_ts": 1790605363,
    "why": "wanted it, but not at the high \u2014 resting at $86.45. Nuclear sector name at day high, not in cooldown, oversold on 1m basis (-18.1%) which could mean-revert",
@@ -7131,7 +7056,8 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-28 10:54"
   },
   {
    "id": "58051b81",
@@ -7484,7 +7410,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 84.0796,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:52",
    "created_ts": 1790607122,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7494,8 +7420,78 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
+   "usd": 500.0,
+   "closed": "2026-09-28 10:54",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "aeaf91a6",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 83.9632,
+   "status": "working",
+   "created": "2026-09-28 10:54",
+   "created_ts": 1790607251,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $86.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "6e4d20d8",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 249.4201,
+   "status": "working",
+   "created": "2026-09-28 10:55",
+   "created_ts": 1790607314,
+   "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
+   "evidence": "+10.5% over the month, sitting at 56% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 1000.0
+  },
+  {
+   "id": "1388993a",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 228.0543,
+   "status": "working",
+   "created": "2026-09-28 10:55",
+   "created_ts": 1790607314,
+   "why": "strong month, weak day: resting 0.47% under $229.13 to catch the dip",
+   "evidence": "+0.5% over the month, sitting at 14% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 1000.0
+  },
+  {
+   "id": "75ce8e50",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 503.2977,
+   "status": "working",
+   "created": "2026-09-28 10:55",
+   "created_ts": 1790607314,
+   "why": "strong month, weak day: resting 0.46% under $505.64 to catch the dip",
+   "evidence": "+0.1% over the month, sitting at 45% of today's range",
+   "signals": [
+    "momentum",
+    "dip_entry"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 1000.0
   }
  ],
- "updated": "2026-09-28 10:52"
+ "updated": "2026-09-28 10:55"
 }
