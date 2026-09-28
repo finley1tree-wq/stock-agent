@@ -1,34 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (DHF excluded: too thinly traded ($0.7M a day) — BNY Mellon High Yield Strategies Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (inside the last max_hold_minutes of the session: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQj8wah7qu1QL5af6bbp'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-~ WORKING buy_limit $500.00 MSFT @ $500.46 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 AMD @ $610.94 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $500.00 META @ $728.68 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32818.68 (+31.27% on $25000.00 in) · cash $23817.36 · realised +7817.36
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-- SELL 100% MSFT [time stop] -> $2999.67 (-0.01%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AMD [time stop] -> $2998.99 (-0.03%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-25 15:43 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-  (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-25 15:44 ET (Friday) — week 2026-W39 — budget left $21904.37 (today $165346.78 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
-  (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
-  (DHF excluded: too thinly traded ($0.7M a day) — BNY Mellon High Yield Strategies Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (cancelled 1 resting buy order(s): inside the last max_hold_minutes of the session)
   (inside the last max_hold_minutes of the session: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfQjMaQ5sMndxiPfSQbYK'}
@@ -398,3 +367,34 @@ Decision: nothing at this check. 19 standing order(s) working.
 ## 2026-09-28 10:58 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $1800.00 NOC [buy_limit @ $510.55] — wanted it, but not at the high — resting at $510.55. NOC cooldown expired (0 min left listed), strong defense momentum, was previously bought/sold this week profitably per track record widely_held/defense mix
 ## 2026-09-28 10:59 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% RTX [time stop] -> $1789.05 (-0.61%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TSM [time stop] -> $2347.48 (-0.11%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 11:09 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 11:10 ET (Monday) — week 2026-W40 — budget left $16178.64 (today $56852.94 put to work, 27 buys, 21 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Book is well below min_positions (4 of 8) with 64.7% cash idle - a clear violation of the owner's full-deployment/min-positions instruction. Most widely_held names are in 45-min cooldown from a churny morning, but GOOGL, UNH, and NEM are not restricted and each has a concrete evidence hook (AI-agent news, healthcare sector pick, gold sector's strong multi-year backtest despite today's dip). Adding these three brings the book to 7 names with real size ($1.4-1.6k each) and protective stops/take-profits on every new position, consistent with risk_management being the highest-hit-rate signal (88%).
+lesson: Cooldown list is short (only 5 tickers) - check it explicitly before assuming widely_held names are unavailable; GOOGL/UNH/NEM were free to buy despite the morning's heavy churn.
+- BUY $1600.00 GOOGL [filled] ['news', 'momentum'] — Widely_held sector has best track record (avg_ret 2.09%, n=380) and GOOGL is not in cooldown, with fresh AI-agent news catalyst and mid-range entry. | evidence: Cooldown does not apply to GOOGL (only PLTR/TSM/AAPL/IBM/RTX listed in cooling_off_minutes_left); OpenAI DevDay agent-platform headlines and Claude/Gemini agentic-AI coverage 14:47-15:00, price only 4
+- BUY $1500.00 UNH [filled] ['news', 'momentum'] — UNH not in cooldown, healthcare pick-of-week headline, low in day range so not chasing a spike. | evidence: UNH +0.33% 1d, 38.9% of day range (low), StockStory headline 'Healthcare Stocks to Target This Week' 2026-09-28.
+- BUY $1400.00 NEM [filled] ['momentum', 'news'] — Gold sector shows strong multi-year backtest performance; today's pullback is an entry point, diversifies away from concentrated defense/nuclear book. | evidence: NEM -4.18% today, 65% of day range but gold sector avg_total_return_pct 114-148% in 2y/5y backtest windows despite today's dip; Zacks headline on gold miner exploration.
+~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-09-28 — protect new position against reversal
+~ WORKING take_profit 50% GOOGL @ $344.50 until 2026-09-28 — lock partial gain near recent day high
+~ WORKING stop_loss 100% UNH @ $373.00 until 2026-09-28 — protect new position
+~ WORKING take_profit 50% UNH @ $382.00 until 2026-09-28 — lock partial gain above today's high
+~ WORKING stop_loss 100% NEM @ $112.50 until 2026-09-28 — protect against further gold slide
+~ WORKING take_profit 50% NEM @ $119.50 until 2026-09-28 — lock partial gain on bounce
+~ WORKING take_profit 100% GOOGL @ $342.36 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $331.13 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $378.95 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $366.57 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $116.89 until 2026-10-03 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $112.92 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $1000.00 META @ $715.04 until 2026-09-29 — strong month, weak day: resting 0.89% under $721.48 to catch the dip
+portfolio: equity $32844.05 (+31.38% on $25000.00 in) · cash $19497.33 · realised +7847.33
+Done: 0 sell(s), 3 buy(s); 28 order(s) working; budget left $11678.64 this week

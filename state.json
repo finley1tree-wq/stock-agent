@@ -1,19 +1,22 @@
 {
   "week": "2026-W40",
-  "spent": 12957.89,
-  "deployed": 56852.94,
+  "spent": 13321.36,
+  "deployed": 61352.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
     "AAPL": 3.78,
     "IBM": 1.07,
     "PLTR": 17.27,
-    "RTX": 1800.0,
-    "TSM": 2350.0,
+    "RTX": 10.95,
+    "TSM": 2.52,
     "AMD": 1000.0,
     "CCJ": 3800.0,
     "LMT": 2250.0,
-    "NOC": 1800.0
+    "NOC": 1800.0,
+    "GOOGL": 1600.0,
+    "UNH": 1500.0,
+    "NEM": 1400.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -25,10 +28,10 @@
     "AMD": 2000.0,
     "MSFT": 2058.82,
     "NOC": 3447.06,
-    "UNH": 1647.06,
+    "UNH": 3147.06,
     "CRWD": 3000.0,
     "NVDA": 4500.0,
-    "GOOGL": 1647.06,
+    "GOOGL": 3247.06,
     "AAPL": 2500.0,
     "AMZN": 2500.0,
     "HD": 2000.0,
@@ -36,7 +39,8 @@
     "META": 1000.0,
     "RTX": 1800.0,
     "CCJ": 3800.0,
-    "LMT": 2250.0
+    "LMT": 2250.0,
+    "NEM": 1400.0
   },
   "orders": [
     {
@@ -924,13 +928,104 @@
       ],
       "evidence": "NOC +0.49% today, 89.1% of day range, WSJ missile output headline applies sector-wide",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "RTX",
+      "side": "sell",
+      "qty": 9.514464,
+      "status": "filled",
+      "price": 188.03,
+      "proceeds": 1789.05,
+      "realized_pnl": -10.95,
+      "realized_pct": -0.61,
+      "date": "2026-09-28",
+      "time_et": "11:09",
+      "ts": 1790608178,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.57% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 5.273555,
+      "status": "filled",
+      "price": 445.14,
+      "proceeds": 2347.48,
+      "realized_pnl": -2.52,
+      "realized_pct": -0.11,
+      "date": "2026-09-28",
+      "time_et": "11:09",
+      "ts": 1790608178,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.09% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 1600.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.68702,
+      "price": 341.37,
+      "date": "2026-09-28",
+      "time_et": "11:10",
+      "ts": 1790608243,
+      "why": "Widely_held sector has best track record (avg_ret 2.09%, n=380) and GOOGL is not in cooldown, with fresh AI-agent news catalyst and mid-range entry.",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "Cooldown does not apply to GOOGL (only PLTR/TSM/AAPL/IBM/RTX listed in cooling_off_minutes_left); OpenAI DevDay agent-platform headlines and Claude/Gemini agentic-AI coverage 14:47-15:00, price only 4"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.969246,
+      "price": 377.91,
+      "date": "2026-09-28",
+      "time_et": "11:10",
+      "ts": 1790608243,
+      "why": "UNH not in cooldown, healthcare pick-of-week headline, low in day range so not chasing a spike.",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "UNH +0.33% 1d, 38.9% of day range (low), StockStory headline 'Healthcare Stocks to Target This Week' 2026-09-28."
+    },
+    {
+      "symbol": "NEM",
+      "notional": 1400.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.026815,
+      "price": 116.41,
+      "date": "2026-09-28",
+      "time_et": "11:10",
+      "ts": 1790608243,
+      "why": "Gold sector shows strong multi-year backtest performance; today's pullback is an entry point, diversifies away from concentrated defense/nuclear book.",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "NEM -4.18% today, 65% of day range but gold sector avg_total_return_pct 114-148% in 2y/5y backtest windows despite today's dip; Zacks headline on gold miner exploration."
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 12957.89,
-  "deployed_today": 56852.94,
-  "orders_today": 27,
-  "sells_today": 19,
+  "spent_today": 13321.36,
+  "deployed_today": 61352.94,
+  "orders_today": 30,
+  "sells_today": 21,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -949,11 +1044,12 @@
     "AMZN",
     "META",
     "AAPL",
-    "IBM"
+    "IBM",
+    "RTX"
   ],
   "sold_ts": {
     "PLTR": 1790607174,
-    "TSM": 1790602620,
+    "TSM": 1790608181,
     "LEN": 1790602749,
     "AMD": 1790602825,
     "ACN": 1790603225,
@@ -969,37 +1065,43 @@
     "AMZN": 1790604790,
     "META": 1790604966,
     "AAPL": 1790605604,
-    "IBM": 1790605604
+    "IBM": 1790605604,
+    "RTX": 1790608181
   },
-  "last_publish_ts": 1790607586,
-  "last_check_ts": 1790608097,
-  "last_bar_ts": 1790607900,
-  "last_decision_ts": 1790607314,
+  "last_publish_ts": 1790608243,
+  "last_check_ts": 1790608243,
+  "last_bar_ts": 1790608200,
+  "last_decision_ts": 1790608243,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "be1647da": 86.71,
     "c771e78d": 511.7753,
-    "9ce6435b": 522.6442,
+    "1bbec4cf": 378.953,
+    "d42a8323": 342.3566,
     "83b940c6": 87.025,
-    "af7857d1": 446.8766,
-    "1388993a": 228.0543,
-    "e450c75c": 593.6325,
-    "27f1f033": 507.4867,
+    "9ce6435b": 522.6442,
+    "efe40421": 116.885,
     "32003cff": 518.0044,
-    "b60343b7": 189.6024,
-    "75ce8e50": 503.2977,
-    "8a906688": 85.8167,
+    "27f1f033": 507.4867,
     "0f313b9f": 603.6658,
-    "6e4d20d8": 249.4201,
-    "ad77c537": 185.0,
-    "d367ed73": 436.0,
-    "7b07dd6d": 455.0,
+    "e450c75c": 593.6325,
+    "189a96c9": 715.0447,
+    "1388993a": 228.0543,
+    "70bcfe75": 344.5,
+    "9c34803c": 338.0,
+    "75ce8e50": 503.2977,
+    "a997f38e": 382.0,
+    "0360ade3": 373.0,
     "3706c5af": 582.776,
-    "7660e260": 193.0,
-    "fb987d57": 183.5143,
-    "b77856a6": 432.4454,
+    "be6bd8c8": 119.5,
     "3c0f7b59": 505.6804,
+    "6e4d20d8": 249.4201,
     "dcb83d8b": 495.2335,
-    "aeaf91a6": 83.9632
+    "bd26482f": 112.9177,
+    "934fcbb8": 331.1289,
+    "62d865b7": 366.5727,
+    "aeaf91a6": 83.9632,
+    "0c73258b": 112.5
   }
 }
