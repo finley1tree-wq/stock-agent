@@ -1,4 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, and it must not be an index fund)
 portfolio: equity $32828.37 (+31.31% on $25000.00 in) · cash $14846.07 · realised +7846.07
 Decision: nothing at this check. 20 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $32818.66 (+31.27% on $25000.00 in) · cash $32818.66 · realised +7818.66
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-25 16:00 ET — published the session's closing state
