@@ -19246,3 +19246,51 @@ Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16888.22 this week
   (cancelled 3 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $87.25] -> $2108.22 (+0.39%) — close 100% at +0.4% over the average cost
 ## 2026-09-28 12:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $189.14] -> $3010.09 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-09-28 12:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% RTX [time stop] -> $3001.11 (+0.04%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 12:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-28 12:28 ET (Monday) — week 2026-W40 — budget left $25000.00 (today $77452.94 put to work, 37 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+brain: Fully flat book with 100% idle cash and below min_positions - deploying into 8 non-cooldown names with concrete evidence (buyback news for NVDA, defense missile-output WSJ story for LMT/NOC, mean-reversion setups for HD/IBM/UNH near day lows). Skipped AAPL/MSFT/AMZN/TTD/CCJ/RTX/PLTR due to active cooldowns per orders_dropped_at_last_check pattern. Attached ATR-based stop_loss on every new position since risk_management signal has 88% hit rate historically.
+lesson: When rebuilding from fully flat with idle_pct=100%, deploy across 8 names immediately using non-cooled tickers with concrete news/momentum evidence rather than spreading thin - full deployment mode wants concentration in 6 max but min_positions=8 takes priority for diversification.
+  (dropped AAPL: sold 33 min ago, cooling off)
+  (dropped CRWD: 100% up today's range — resting a limit at $253.82 instead of chasing)
+  (dropped HD: 85% up today's range — resting a limit at $291.69 instead of chasing)
+- BUY $3000.00 NVDA [filled] ['news', 'momentum'] — Positive momentum plus buyback catalyst, not in cooldown, best-performing signal source is news per track record (4.7% avg_ret) | evidence: NVDA +3.1% 1d, 'Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history' - Yahoo Finance
+- BUY $2500.00 GOOGL [filled] ['news', 'momentum'] — Widely_held sector has best track record, GOOGL at only 46% of day range so room to run | evidence: GOOGL not in cooldown list, 'Palantir's latest AI move reveals a much bigger ambition' AI infra tailwind, widely_held sector avg_ret 2.03%
+- BUY $2500.00 LMT [filled] ['news', 'congress'] — Defense sector has solid hit rate (0.62) and active missile-production news catalyst | evidence: 'Defense Firms Are Rushing to Boost Missile Output. It's Coming Too Late.' WSJ, LMT ATR 2.3%, defense sector hit_rate 0.62
+- BUY $2500.00 IBM [filled] ['news', 'momentum'] — Widely_held name pulled back to mid-range, buyable dip vs other names high in range | evidence: IBM -1.97% 1d at 47% of day range, 'Can IBM's Swift Integration Shape the Future of Digital Banking?' Zacks
+- BUY $2500.00 NOC [filled] ['news', 'congress'] — Defense sector momentum with room in day range, same catalyst as LMT diversifying defense allocation | evidence: 'Defense Firms Are Rushing to Boost Missile Output' WSJ; NOC at 48% of day range, not overbought
+- BUY $2500.00 UNH [filled] ['news', 'momentum'] — Deep in day range low (18.7%) offering better entry than chasing names at top of range | evidence: UNH not in cooldown, at only 18.7% of day range (near day low), '2 Healthcare Stocks to Target This Week' StockStory
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger HD stop_loss: not held)
+~ WORKING stop_loss 100% NVDA @ $225.00 until 2026-09-28 — Stop below entry to cap downside on 30-min hold
+~ WORKING stop_loss 100% GOOGL @ $334.00 until 2026-09-28 — Standard protective stop
+~ WORKING stop_loss 100% LMT @ $508.00 until 2026-09-28 — Protective stop below day low
+~ WORKING stop_loss 100% IBM @ $216.00 until 2026-09-28 — Protective stop
+~ WORKING stop_loss 100% NOC @ $498.00 until 2026-09-28 — Protective stop below day low
+~ WORKING stop_loss 100% UNH @ $368.00 until 2026-09-28 — Protective stop below day low
+~ WORKING buy_limit $3000.00 CRWD @ $253.82 until 2026-09-28 — wanted it, but not at the high — resting at $253.82. Strong 1d/1m momentum (+13.97% 1m) with active security news flow
+~ WORKING buy_limit $2500.00 HD @ $291.69 until 2026-09-28 — wanted it, but not at the high — resting at $291.69. Widely_held name with beaten down 1m performance, potential value entry
+~ WORKING take_profit 100% NVDA @ $232.67 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $225.14 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $342.48 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $331.25 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $521.30 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $504.37 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $221.97 until 2026-10-03 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $214.48 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $511.46 until 2026-10-03 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $494.93 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $376.89 until 2026-10-03 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $364.56 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $32822.23 (+31.29% on $25000.00 in) · cash $17326.33 · realised +7826.33
+Done: 0 sell(s), 6 buy(s); 28 order(s) working; budget left $9500.00 this week
