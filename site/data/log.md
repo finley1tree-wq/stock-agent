@@ -1,12 +1,3 @@
-~ WORKING take_profit 100% AMD @ $632.75 until 2026-09-30 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% AMD @ $622.57 until 2026-09-30 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $610.94 until 2026-09-30 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32827.06 (+31.31% on $25000.00 in) · cash $17827.56 · realised +7827.56
-Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $9915.91 this week
-
-## 2026-09-25 15:15 ET (Friday) — week 2026-W39 — budget left $9915.91 (today $162346.78 put to work, 55 buys, 50 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FTHY excluded: too thinly traded ($1.2M a day) — First Trust High Yield Opportunities 2027 Term Fund)
@@ -398,3 +389,12 @@ Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $174.52] -> $1004.37 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-09-28 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $505.50] -> $2063.92 (+0.25%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $510.11] -> $1650.93 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $377.94] -> $1651.53 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-28 09:50 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+- BUY $3000.00 CRWD [buy_limit @ $251.01] — wanted it, but not at the high — resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted
+## 2026-09-28 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders

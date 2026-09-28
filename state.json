@@ -1,13 +1,11 @@
 {
   "week": "2026-W40",
-  "spent": 10310.01,
-  "deployed": 23852.94,
+  "spent": 7943.63,
+  "deployed": 26852.94,
   "by_ticker": {
     "AVGO": 3000.0,
     "TTD": 2000.0,
-    "MSFT": 2058.82,
-    "NOC": 1647.06,
-    "UNH": 1647.06
+    "CRWD": 3000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -19,7 +17,8 @@
     "AMD": 1000.0,
     "MSFT": 2058.82,
     "NOC": 1647.06,
-    "UNH": 1647.06
+    "UNH": 1647.06,
+    "CRWD": 3000.0
   },
   "orders": [
     {
@@ -303,54 +302,135 @@
       ],
       "evidence": "average cost $173.76",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 4.082928,
+      "status": "filled",
+      "price": 505.5,
+      "proceeds": 2063.92,
+      "realized_pnl": 5.1,
+      "realized_pct": 0.25,
+      "date": "2026-09-28",
+      "time_et": "09:50",
+      "ts": 1790603100,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $504.25",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 3.236417,
+      "status": "filled",
+      "price": 510.11,
+      "proceeds": 1650.93,
+      "realized_pnl": 3.87,
+      "realized_pct": 0.24,
+      "date": "2026-09-28",
+      "time_et": "09:50",
+      "ts": 1790603400,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $508.91",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 4.369889,
+      "status": "filled",
+      "price": 377.94,
+      "proceeds": 1651.53,
+      "realized_pnl": 4.47,
+      "realized_pct": 0.27,
+      "date": "2026-09-28",
+      "time_et": "09:50",
+      "ts": 1790603400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $376.91",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.951501,
+      "price": 251.01,
+      "date": "2026-09-28",
+      "time_et": "09:51",
+      "ts": 1790603400,
+      "why": "wanted it, but not at the high \u2014 resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "CRWD +0.54% 1d, 85.3% of day range; Motley Fool 'Jim Cramer Says Buy 2 AI Stocks Up 875% and 1,400% Since 2023'",
+      "trigger": "buy_limit"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 10310.01,
-  "deployed_today": 23852.94,
-  "orders_today": 10,
-  "sells_today": 5,
+  "spent_today": 7943.63,
+  "deployed_today": 26852.94,
+  "orders_today": 11,
+  "sells_today": 8,
   "sold_today": [
     "PLTR",
     "TSM",
     "LEN",
     "AMD",
-    "ACN"
+    "ACN",
+    "MSFT",
+    "NOC",
+    "UNH"
   ],
   "sold_ts": {
     "PLTR": 1790602620,
     "TSM": 1790602620,
     "LEN": 1790602749,
     "AMD": 1790602825,
-    "ACN": 1790603225
+    "ACN": 1790603225,
+    "MSFT": 1790603436,
+    "NOC": 1790603436,
+    "UNH": 1790603437
   },
-  "last_publish_ts": 1790603353,
-  "last_check_ts": 1790603353,
-  "last_bar_ts": 1790603100,
+  "last_publish_ts": 1790603483,
+  "last_check_ts": 1790603483,
+  "last_bar_ts": 1790603400,
   "last_decision_ts": 1790602810,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "c5a9269a": 505.5005,
     "930fe27d": 342.096,
-    "f71540fa": 510.68,
-    "187b7819": 510.111,
-    "41c2ffdb": 379.106,
-    "9c19d4a4": 354.439,
-    "3e22ec46": 718.8947,
     "7fc09325": 231.0939,
+    "f519354e": 252.3755,
+    "3e22ec46": 718.8947,
+    "9c19d4a4": 354.439,
     "a37dccff": 340.0351,
-    "3d99ad98": 377.9352,
     "166222d4": 12.3981,
-    "ca050240": 251.0145,
-    "253e847c": 514.0,
+    "eaaf7f5b": 247.5963,
     "92a07b97": 11.9698,
     "1a3ae429": 342.798,
-    "b5d6cb2a": 491.0,
     "88f57c55": 342.0,
-    "bb7e74c2": 489.1225,
-    "33b4a442": 493.6427,
-    "89426469": 365.6027,
+    "04e5b89c": 243.4797,
     "9175f355": 11.7
   }
 }

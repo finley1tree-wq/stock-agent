@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "7ffc128e",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 351.5087,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $350.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "524551a6",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 339.8589,
-   "status": "cancelled",
-   "created": "2026-09-24 13:22",
-   "created_ts": 1790270572,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $350.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 500.0,
-   "closed": "2026-09-24 13:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "bf269607",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 244.0,
-   "status": "cancelled",
-   "created": "2026-09-24 13:39",
-   "created_ts": 1790271553,
-   "why": "Protective stop on new AMZN position",
-   "evidence": "ATR 2.18%, protect new position from adverse move",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-24 14:00",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "24edf809",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -6880,7 +6824,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 251.0145,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:33",
    "created_ts": 1790602419,
    "why": "wanted it, but not at the high \u2014 resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted",
@@ -6891,7 +6835,8 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-28 09:51"
   },
   {
    "id": "5783a960",
@@ -7222,7 +7167,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 491.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:40",
    "created_ts": 1790602810,
    "why": "Protective stop ~2.5% below entry",
@@ -7231,14 +7176,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "253e847c",
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 514.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:40",
    "created_ts": 1790602810,
    "why": "take partial profit ~2% up",
@@ -7247,7 +7194,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "930fe27d",
@@ -7310,7 +7259,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 505.5005,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:40",
    "created_ts": 1790602810,
    "why": "close 100% at +0.2% over the average cost",
@@ -7320,14 +7269,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:50"
   },
   {
    "id": "bb7e74c2",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 489.1225,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:40",
    "created_ts": 1790602810,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7337,14 +7287,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "187b7819",
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 510.111,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:46",
    "created_ts": 1790603172,
    "why": "close 100% at +0.2% over the average cost",
@@ -7354,7 +7306,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:50"
   },
   {
    "id": "df5a8f84",
@@ -7380,7 +7333,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 493.6427,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:46",
    "created_ts": 1790603172,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7390,14 +7343,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3d99ad98",
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 377.9352,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 09:46",
    "created_ts": 1790603172,
    "why": "close 100% at +0.3% over the average cost",
@@ -7407,7 +7362,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:50"
   },
   {
    "id": "377f8b69",
@@ -7433,7 +7389,7 @@
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.6027,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:46",
    "created_ts": 1790603172,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7443,7 +7399,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "911c4435",
@@ -7469,7 +7427,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 510.68,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:49",
    "created_ts": 1790603353,
    "why": "close it all at -0.6% under the average cost",
@@ -7479,14 +7437,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "41c2ffdb",
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 379.106,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 09:49",
    "created_ts": 1790603353,
    "why": "close it all at -0.7% under the average cost",
@@ -7496,8 +7456,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 09:50",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "f519354e",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 252.3755,
+   "status": "working",
+   "created": "2026-09-28 09:51",
+   "created_ts": 1790603483,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $251.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "eaaf7f5b",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 247.5963,
+   "status": "working",
+   "created": "2026-09-28 09:51",
+   "created_ts": 1790603483,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $251.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "04e5b89c",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 243.4797,
+   "status": "working",
+   "created": "2026-09-28 09:51",
+   "created_ts": 1790603483,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $251.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 09:49"
+ "updated": "2026-09-28 09:51"
 }

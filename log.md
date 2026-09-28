@@ -18915,3 +18915,12 @@ Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $174.52] -> $1004.37 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-09-28 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $505.50] -> $2063.92 (+0.25%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $510.11] -> $1650.93 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $377.94] -> $1651.53 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-28 09:50 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+- BUY $3000.00 CRWD [buy_limit @ $251.01] — wanted it, but not at the high — resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted
+## 2026-09-28 09:51 ET — tick — 0 sell(s), 1 buy(s) from standing orders
