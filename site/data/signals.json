@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-28T12:58-04:00",
- "note": "tick: 6 standing order(s) filled",
+ "asOf": "2026-09-28T13:01-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,6 +139,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "923c9f3c",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 291.906,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 292.05,
+   "pct_away": -0.05,
+   "good_until": "2026-10-03",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "cf81ade8",
    "ticker": "HD",
    "kind": "take_profit",
@@ -146,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 292.02,
-   "pct_away": 0.13,
+   "last": 292.05,
+   "pct_away": 0.12,
    "good_until": "2026-10-03",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -163,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.9,
-   "pct_away": -0.44,
+   "last": 340.62,
+   "pct_away": -0.35,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.41% under $340.80 to catch the dip",
    "signals": [
@@ -180,31 +197,14 @@
    "usd": 1947.24,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 452.27,
-   "pct_away": -0.55,
+   "last": 452.14,
+   "pct_away": -0.52,
    "good_until": "2026-09-28",
    "why": "wanted it, but not at the high \u2014 resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "780a87fa",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 289.9224,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 292.02,
-   "pct_away": -0.72,
-   "good_until": "2026-10-03",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -215,8 +215,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 723.15,
-   "pct_away": -1.12,
+   "last": 723.21,
+   "pct_away": -1.13,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.89% under $721.48 to catch the dip",
    "signals": [
@@ -232,8 +232,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 606.11,
-   "pct_away": -1.23,
+   "last": 605.84,
+   "pct_away": -1.18,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
@@ -249,8 +249,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 188.79,
-   "pct_away": -1.48,
+   "last": 188.73,
+   "pct_away": -1.45,
    "good_until": "2026-09-28",
    "why": "resting limit below market to get better entry than chasing at 69% of range",
    "signals": [
@@ -266,8 +266,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 350.93,
-   "pct_away": -1.69,
+   "last": 350.61,
+   "pct_away": -1.6,
    "good_until": "2026-09-28",
    "why": "resting limit below current 349.87 to get better entry on congress-backed name",
    "signals": [
@@ -283,8 +283,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.15,
-   "pct_away": -2.04,
+   "last": 259.35,
+   "pct_away": -2.12,
    "good_until": "2026-09-28",
    "why": "wanted it, but not at the high \u2014 resting at $253.85. Strong momentum name, adds 7th position, existing limit orders will layer in on dips",
    "signals": [
@@ -301,8 +301,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.15,
-   "pct_away": -2.05,
+   "last": 259.35,
+   "pct_away": -2.13,
    "good_until": "2026-09-28",
    "why": "wanted it, but not at the high \u2014 resting at $253.82. Strong 1d/1m momentum (+13.97% 1m) with active security news flow",
    "signals": [
@@ -319,8 +319,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 452.27,
-   "pct_away": -2.27,
+   "last": 452.14,
+   "pct_away": -2.24,
    "good_until": "2026-09-28",
    "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
    "signals": [
@@ -336,8 +336,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.15,
-   "pct_away": -2.37,
+   "last": 259.35,
+   "pct_away": -2.45,
    "good_until": "2026-09-28",
    "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
    "signals": [
@@ -353,8 +353,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 292.02,
-   "pct_away": -3.11,
+   "last": 292.05,
+   "pct_away": -3.12,
    "good_until": "2026-10-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -370,8 +370,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.15,
-   "pct_away": -3.75,
+   "last": 259.35,
+   "pct_away": -3.83,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
    "signals": [
