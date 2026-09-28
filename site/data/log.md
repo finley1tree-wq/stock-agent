@@ -1,7 +1,3 @@
-  (cancelled 3 resting buy order(s): inside the last max_hold_minutes of the session)
-
-## 2026-09-25 15:38 ET (Friday) — week 2026-W39 — budget left $15905.71 (today $165346.78 put to work, 56 buys, 53 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CUEN excluded: too thinly traded ($0.0M a day) — Cuentas Inc.)
   (DFDV excluded: too thinly traded ($8.5M a day) — DeFi Development Corp.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +394,7 @@ Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $19909.38 this week
 ## 2026-09-28 10:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $1000.00 AMD [buy_limit @ $600.80] — strong month, weak day: resting 0.87% under $606.10 to catch the dip
 ## 2026-09-28 10:46 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $1800.00 CCJ [buy_limit @ $86.68] — wanted it, but not at the high — resting at $86.68. Nuclear thesis intact, CCJ strength today despite -17.8% 1m drawdown offering value
+## 2026-09-28 10:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% PLTR [time stop] -> $1982.73 (-0.86%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

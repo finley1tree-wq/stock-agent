@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "45dc7ea9",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 192.3789,
-   "status": "filled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $191.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:35"
-  },
-  {
-   "id": "b8c727a7",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 185.9975,
-   "status": "cancelled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $191.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "88486b3f",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 637.5889,
-   "status": "filled",
-   "created": "2026-09-25 09:32",
-   "created_ts": 1790343148,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $634.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 09:54"
-  },
-  {
    "id": "d328455f",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7140,7 +7085,7 @@
    "ticker": "PLTR",
    "kind": "stop_loss",
    "price": 184.4,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:22",
    "created_ts": 1790605363,
    "why": "protective stop on new PLTR position",
@@ -7149,14 +7094,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 10:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "6efdfc7b",
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 192.9,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:22",
    "created_ts": 1790605363,
    "why": "lock in gain on half position at +2.5%",
@@ -7165,7 +7112,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-28",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-28 10:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "15b4b681",
@@ -7189,7 +7138,7 @@
    "ticker": "PLTR",
    "kind": "take_profit",
    "price": 188.8524,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:22",
    "created_ts": 1790605363,
    "why": "close 100% at +0.3% over the average cost",
@@ -7199,14 +7148,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-28 10:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "013b6edf",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 182.5734,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 10:22",
    "created_ts": 1790605363,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7216,7 +7167,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-28 10:52",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "28181c1b",
@@ -7341,7 +7294,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 86.6833,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 10:38",
    "created_ts": 1790606315,
    "why": "wanted it, but not at the high \u2014 resting at $86.68. Nuclear thesis intact, CCJ strength today despite -17.8% 1m drawdown offering value",
@@ -7352,7 +7305,8 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 1800.0
+   "usd": 1800.0,
+   "closed": "2026-09-28 10:52"
   },
   {
    "id": "b60343b7",
@@ -7490,7 +7444,58 @@
    ],
    "good_until": "2026-10-03",
    "usd": 500.0
+  },
+  {
+   "id": "83b940c6",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 87.025,
+   "status": "working",
+   "created": "2026-09-28 10:52",
+   "created_ts": 1790607122,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $86.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8a906688",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 85.8167,
+   "status": "working",
+   "created": "2026-09-28 10:52",
+   "created_ts": 1790607122,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $86.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1ea41059",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 84.0796,
+   "status": "working",
+   "created": "2026-09-28 10:52",
+   "created_ts": 1790607122,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $86.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-28 10:46"
+ "updated": "2026-09-28 10:52"
 }

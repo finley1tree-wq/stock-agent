@@ -1,16 +1,17 @@
 {
   "week": "2026-W40",
-  "spent": 7090.62,
-  "deployed": 49002.94,
+  "spent": 6907.89,
+  "deployed": 50802.94,
   "by_ticker": {
     "AVGO": 18.09,
     "TTD": 17.84,
     "AAPL": 3.78,
     "IBM": 1.07,
-    "PLTR": 2000.0,
+    "PLTR": 17.27,
     "RTX": 1800.0,
     "TSM": 2350.0,
-    "AMD": 1000.0
+    "AMD": 1000.0,
+    "CCJ": 1800.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -31,7 +32,8 @@
     "HD": 2000.0,
     "IBM": 852.94,
     "META": 1000.0,
-    "RTX": 1800.0
+    "RTX": 1800.0,
+    "CCJ": 1800.0
   },
   "orders": [
     {
@@ -820,13 +822,53 @@
       ],
       "evidence": "+27.1% over the month, sitting at 1% of today's range",
       "trigger": "buy_limit"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 1800.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.765245,
+      "price": 86.68,
+      "date": "2026-09-28",
+      "time_et": "10:52",
+      "ts": 1790607000,
+      "why": "wanted it, but not at the high \u2014 resting at $86.68. Nuclear thesis intact, CCJ strength today despite -17.8% 1m drawdown offering value",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "CCJ at 92.3% of day range near $87.36, Cameco Westinghouse stake headline 'could be worth more than $24.5B', nuclear sector track record hit_rate 0.62",
+      "trigger": "buy_limit"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 10.625997,
+      "status": "filled",
+      "price": 186.59,
+      "proceeds": 1982.73,
+      "realized_pnl": -17.27,
+      "realized_pct": -0.86,
+      "date": "2026-09-28",
+      "time_et": "10:52",
+      "ts": 1790607171,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.84% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-28",
-  "spent_today": 7090.62,
-  "deployed_today": 49002.94,
-  "orders_today": 23,
-  "sells_today": 18,
+  "spent_today": 6907.89,
+  "deployed_today": 50802.94,
+  "orders_today": 24,
+  "sells_today": 19,
   "sold_today": [
     "PLTR",
     "TSM",
@@ -848,7 +890,7 @@
     "IBM"
   ],
   "sold_ts": {
-    "PLTR": 1790602620,
+    "PLTR": 1790607174,
     "TSM": 1790602620,
     "LEN": 1790602749,
     "AMD": 1790602825,
@@ -867,31 +909,29 @@
     "AAPL": 1790605604,
     "IBM": 1790605604
   },
-  "last_publish_ts": 1790606764,
-  "last_check_ts": 1790607044,
+  "last_publish_ts": 1790607171,
+  "last_check_ts": 1790607171,
   "last_bar_ts": 1790607000,
   "last_decision_ts": 1790606315,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "15b4b681": 86.4523,
     "0425268b": 521.3245,
-    "0f313b9f": 603.6658,
     "c96c3ac2": 510.5482,
-    "62d34c74": 86.6833,
+    "e450c75c": 593.6325,
+    "83b940c6": 87.025,
     "b60343b7": 189.6024,
     "af7857d1": 446.8766,
-    "15b4b681": 86.4523,
-    "58051b81": 188.8524,
-    "4f245eea": 184.4,
-    "e450c75c": 593.6325,
+    "8a906688": 85.8167,
+    "0f313b9f": 603.6658,
     "d367ed73": 436.0,
     "ad77c537": 185.0,
-    "013b6edf": 182.5734,
-    "7660e260": 193.0,
-    "7b07dd6d": 455.0,
-    "b77856a6": 432.4454,
-    "fb987d57": 183.5143,
     "3706c5af": 582.776,
-    "6efdfc7b": 192.9
+    "7660e260": 193.0,
+    "b77856a6": 432.4454,
+    "7b07dd6d": 455.0,
+    "fb987d57": 183.5143,
+    "1ea41059": 84.0796
   }
 }
