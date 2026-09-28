@@ -19336,3 +19336,10 @@ lesson: Stop repeating the same 'check cooldown list' lesson - it's been noted 7
 ~ WORKING buy_limit $1000.00 AAPL @ $339.41 until 2026-09-29 — strong month, weak day: resting 0.41% under $340.80 to catch the dip
 portfolio: equity $32787.70 (+31.15% on $25000.00 in) · cash $15379.09 · realised +7826.33
 Decision: nothing at this check. 33 standing order(s) working.
+- SELL 100% NVDA [time stop] -> $2983.42 (-0.55%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $2496.44 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LMT [time stop] -> $2485.79 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $2495.95 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NOC [time stop] -> $2488.35 (-0.47%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2502.72 (+0.11%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 12:58 ET — tick — 6 sell(s), 0 buy(s) from standing orders

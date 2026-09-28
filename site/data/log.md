@@ -1,10 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-brain: Book is far below min_positions (3 of 8) with 73.7% cash idle - this is the dominant problem per counterfactual data showing idle_universe_avg_pct positive and idle_share 0.56. Adding AAPL, AMZN, HD, IBM (all widely_held, the best-performing sector bucket at 2.14% avg_ret) brings us to 7 names while avoiding cooldown-blocked TSM/MSFT/NOC/UNH/CRWD/NVDA/PLTR/LEN/ACN/AMD. Each new buy is sized ~$2000-2500, entered at reasonable (not extended) day-range levels, with protective stops and partial take-profits attached immediately per risk_management signal which has the best hit rate (0.88) in track record.
-lesson: Widely_held sector has the best track record (2.14% avg_ret, n=372) - prioritize it when rebuilding a depleted book, and always attach stop_loss + partial take_profit immediately per risk_management's 88% hit rate.
   (dropped TSM: sold 20 min ago, cooling off)
   (dropped MSFT: sold 6 min ago, cooling off)
 - BUY $2500.00 AAPL [filled] ['momentum', 'news'] — widely_held bucket has best track record (avg_ret 2.14%, n=372); AAPL has strong 1m momentum and is not overextended intraday | evidence: AAPL +8.78% 1m, headline 'Nvidia stock jumps after largest share buyback ever' lifting AI-adjacent hardware names; AAPL at 71.5% of day range, not yet extended
@@ -398,3 +391,10 @@ lesson: Stop repeating the same 'check cooldown list' lesson - it's been noted 7
 ~ WORKING buy_limit $1000.00 AAPL @ $339.41 until 2026-09-29 — strong month, weak day: resting 0.41% under $340.80 to catch the dip
 portfolio: equity $32787.70 (+31.15% on $25000.00 in) · cash $15379.09 · realised +7826.33
 Decision: nothing at this check. 33 standing order(s) working.
+- SELL 100% NVDA [time stop] -> $2983.42 (-0.55%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $2496.44 (-0.14%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LMT [time stop] -> $2485.79 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $2495.95 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NOC [time stop] -> $2488.35 (-0.47%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% UNH [time stop] -> $2502.72 (+0.11%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-28 12:58 ET — tick — 6 sell(s), 0 buy(s) from standing orders
