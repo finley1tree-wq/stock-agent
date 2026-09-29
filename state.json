@@ -1,9 +1,9 @@
 {
   "week": "2026-W40",
-  "spent": 7070.04,
-  "deployed": 131900.18,
+  "spent": 12070.04,
+  "deployed": 136900.18,
   "by_ticker": {
-    "AVGO": 10.48,
+    "AVGO": 2510.48,
     "TTD": 19.02,
     "AAPL": 4.46,
     "IBM": 5.12,
@@ -21,15 +21,16 @@
     "CRWD": 21.17,
     "HLI": 20.2,
     "FWONK": 7.89,
-    "HUBB": 16.26
+    "HUBB": 16.26,
+    "ACN": 2500.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
     "PLTR": 11000.0,
     "TSM": 8850.0,
-    "AVGO": 5500.0,
+    "AVGO": 8000.0,
     "TTD": 6000.0,
-    "ACN": 4000.0,
+    "ACN": 6500.0,
     "AMD": 2000.0,
     "MSFT": 4058.82,
     "NOC": 8947.06,
@@ -2232,12 +2233,45 @@
         "congress"
       ],
       "evidence": "PLTR -0.53% today, mid-range 43.8%, defense/tech watchlist name with congress interest in defense theme"
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.930158,
+      "price": 360.74,
+      "date": "2026-09-29",
+      "time_et": "10:52",
+      "ts": 1790693545,
+      "why": "Congress buy pressure plus positive 1d momentum, diversifies into widely_held/semis sector",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Rick W. Allen (spouse) bought AVGO disclosed 2026-09-22; AVGO +3.18% today, 80% of day range"
+    },
+    {
+      "symbol": "ACN",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.381081,
+      "price": 173.84,
+      "date": "2026-09-29",
+      "time_et": "10:52",
+      "ts": 1790693545,
+      "why": "Congress buy signal, oversold on 1m (-8.35%), reasonable entry at 50% of day range",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "Rep. Scott Franklin bought ACN disclosed 2026-09-17; congress_net_buy_pressure=2.0 for ACN"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 7027.47,
-  "deployed_today": 37000.0,
-  "orders_today": 16,
+  "spent_today": 12027.47,
+  "deployed_today": 42000.0,
+  "orders_today": 18,
   "sells_today": 14,
   "sold_today": [
     "HD",
@@ -2283,23 +2317,31 @@
     "HUBB": 1790691347,
     "NLR": 1790691936
   },
-  "last_publish_ts": 1790692613,
-  "last_check_ts": 1790693453,
+  "last_publish_ts": 1790693545,
+  "last_check_ts": 1790693545,
   "last_bar_ts": 1790693400,
-  "last_decision_ts": 1790692613,
+  "last_decision_ts": 1790693545,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "a062a584": 231.414,
     "cf4d55a6": 340.0327,
-    "0d4a4532": 187.1698,
+    "3e4985cf": 361.8403,
+    "29de2659": 174.5962,
     "7c92d33c": 507.9852,
+    "0d4a4532": 187.1698,
+    "b4e51d52": 452.57,
+    "36278fb2": 365.5,
+    "74026745": 182.5,
+    "b33806c4": 353.5,
+    "38f1e389": 170.3,
     "07bbdcc0": 332.5,
     "da0a2e17": 226.0,
-    "74026745": 182.5,
+    "ee979652": 180.9341,
     "d8bb370b": 598.6712,
+    "fdbf6143": 168.6248,
+    "96f70fe5": 349.9178,
     "2a2f16aa": 223.9051,
-    "a1096c66": 328.9173,
-    "ee979652": 180.9341
+    "a1096c66": 328.9173
   }
 }

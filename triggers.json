@@ -1,158 +1,6 @@
 {
  "orders": [
   {
-   "id": "33084381",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 610.7896,
-   "status": "cancelled",
-   "created": "2026-09-25 12:47",
-   "created_ts": 1790354836,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $629.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 13:17",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "64d3fc11",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 339.9362,
-   "status": "cancelled",
-   "created": "2026-09-25 12:47",
-   "created_ts": 1790354836,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $339.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 13:17",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f16e73b6",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 337.3278,
-   "status": "cancelled",
-   "created": "2026-09-25 12:47",
-   "created_ts": 1790354836,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $339.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 13:02",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "32e4d59d",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 329.0143,
-   "status": "cancelled",
-   "created": "2026-09-25 12:47",
-   "created_ts": 1790354836,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $339.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 13:17",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "18dc61a9",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 752.9335,
-   "status": "cancelled",
-   "created": "2026-09-25 12:52",
-   "created_ts": 1790355170,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $749.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 13:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c1c2ff33",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 741.4413,
-   "status": "cancelled",
-   "created": "2026-09-25 12:52",
-   "created_ts": 1790355170,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $749.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 13:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "cee4647f",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 727.1605,
-   "status": "cancelled",
-   "created": "2026-09-25 12:52",
-   "created_ts": 1790355170,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $749.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 13:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "abe7c9b5",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 339.454,
-   "status": "cancelled",
-   "created": "2026-09-25 13:02",
-   "created_ts": 1790355764,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $339.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 13:17",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "792b84af",
    "ticker": "AMD",
    "kind": "stop_loss",
@@ -7469,7 +7317,141 @@
    ],
    "good_until": "2026-10-04",
    "usd": 500.0
+  },
+  {
+   "id": "b33806c4",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 353.5,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "protective stop ~2% below entry",
+   "evidence": "ATR 2.75%, entry near 360.67",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38f1e389",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 170.3,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "protective stop ~2% below entry",
+   "evidence": "ATR 3.918%, entry 173.77",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "36278fb2",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 365.5,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "lock partial gains near recent range top",
+   "evidence": "day high 361.86, target above recent high",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "b4e51d52",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 452.57,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "wanted it, but not at the high \u2014 resting at $452.57. Congress buy pressure plus strong 1m momentum, semis exposure diversifies book",
+   "evidence": "Rep. Rick W. Allen bought TSM disclosed 2026-09-22; TSM +0.93% today, +9.47% 1m momentum",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 2500.0
+  },
+  {
+   "id": "3e4985cf",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 361.8403,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $360.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "96f70fe5",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 349.9178,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $360.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "usd": 500.0
+  },
+  {
+   "id": "29de2659",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 174.5962,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $173.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "fdbf6143",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 168.6248,
+   "status": "working",
+   "created": "2026-09-29 10:52",
+   "created_ts": 1790693545,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $173.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-29 10:36"
+ "updated": "2026-09-29 10:52"
 }

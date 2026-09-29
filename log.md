@@ -19648,3 +19648,28 @@ lesson: Auto_bracket and risk_management signals have the best realized track re
 ~ WORKING buy_limit $500.00 PLTR @ $180.93 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25260.15 (+1.04% on $25000.00 in) · cash $18261.55 · realised +261.55
 Done: 0 sell(s), 3 buy(s); 11 order(s) working; budget left $17929.96 this week
+
+## 2026-09-29 10:52 ET (Tuesday) — week 2026-W40 — budget left $17929.96 (today $37000.00 put to work, 16 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Still below min_positions (3 held, need 8) with 71.7% cash idle. Adding AVGO, ACN, TSM using named congress disclosures (Rick W. Allen bought AVGO and TSM disclosed 9/22; Scott Franklin bought ACN disclosed 9/17) which pass the non-momentum-only entry bar. Sized at $2500 each per owner's size guidance, paired with ATR-based stops per the auto_bracket/risk_management lesson that has 88% hit rate historically.
+lesson: Congress-disclosed buys with concrete filer names remain the most reliable non-momentum entry tag to reach min_positions when below target; keep pairing every new buy with an explicit stop_loss.
+  (dropped TSM: 100% up today's range — resting a limit at $452.57 instead of chasing)
+- BUY $2500.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure plus positive 1d momentum, diversifies into widely_held/semis sector | evidence: Rep. Rick W. Allen (spouse) bought AVGO disclosed 2026-09-22; AVGO +3.18% today, 80% of day range
+- BUY $2500.00 ACN [filled] ['congress'] — Congress buy signal, oversold on 1m (-8.35%), reasonable entry at 50% of day range | evidence: Rep. Scott Franklin bought ACN disclosed 2026-09-17; congress_net_buy_pressure=2.0 for ACN
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger TSM take_profit: not held)
+~ WORKING stop_loss 100% AVGO @ $353.50 until 2026-09-29 — protective stop ~2% below entry
+~ WORKING stop_loss 100% ACN @ $170.30 until 2026-09-29 — protective stop ~2% below entry
+~ WORKING take_profit 50% AVGO @ $365.50 until 2026-09-29 — lock partial gains near recent range top
+~ WORKING buy_limit $2500.00 TSM @ $452.57 until 2026-09-29 — wanted it, but not at the high — resting at $452.57. Congress buy pressure plus strong 1m momentum, semis exposure diversifies book
+~ WORKING take_profit 100% AVGO @ $361.84 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $349.92 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $174.60 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $168.62 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25264.89 (+1.06% on $25000.00 in) · cash $13261.55 · realised +261.55
+Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $12929.96 this week
