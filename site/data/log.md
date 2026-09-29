@@ -1,33 +1,3 @@
-- SELL 100% LMT [take_profit @ $518.76] -> $2004.79 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-29 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% CRWD [time stop] -> $1978.83 (-1.06%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% HLI [time stop] -> $1479.80 (-1.35%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% FWONK [time stop] -> $992.11 (-0.79%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 10:09 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 10:10 ET (Tuesday) — week 2026-W40 — budget left $22945.07 (today $27000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain unavailable: brain failed after retry: InternalServerError: credential validation failed
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,945 idle, so opened 1: HUBB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 HUBB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +1.9% over the month; 35% of today's range
-~ WORKING take_profit 100% HUBB @ $469.92 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% HUBB @ $465.34 until 2026-10-04 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 HUBB @ $454.55 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25274.61 (+1.10% on $25000.00 in) · cash $20276.66 · realised +276.66
-Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $19945.07 this week
-
-## 2026-09-29 10:13 ET (Tuesday) — week 2026-W40 — budget left $19945.07 (today $30000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
   (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
 brain unavailable: brain failed after retry: InternalServerError: credential validation failed
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +368,33 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $13166.44 this week
 - SELL 100% NOC [time stop] -> $2001.80 (+0.09%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% GOOGL [time stop] -> $2000.14 (+0.01%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 12:41 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 12:42 ET (Tuesday) — week 2026-W40 — budget left $23291.13 (today $79850.00 put to work, 35 buys, 35 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Below target position count (1 of min 8) with 93% cash idle - unacceptable per guardrails. Adding 5 new names with concrete congress/insider/track-record evidence (CHRW, MSFT, TTD, ACN, NEM) at reasonable entry points in day range, each with a protective stop. This gets us to 6 positions; will add more next check as cooldowns clear (NEM clears in 11min, HLI in 11min, GOOGL/AAPL in 44min).
+lesson: When below min_positions with high idle cash, batch 4-5 named-evidence buys per check with immediate stops rather than 1-2 at a time - waiting for perfect setups while sitting on 93% cash is the larger error.
+  (dropped NEM: sold 34 min ago, cooling off)
+- BUY $2500.00 CHRW [filled] ['congress', 'track_record'] — Strongest congress pressure score in list, reasonable entry range, diversifies away from tech/CRWD | evidence: congress_net_buy_pressure CHRW=3.0 (April McClain Delaney multiple buys disclosed 2026-09-09), currently 61% of day range, not high in range
+- BUY $2500.00 MSFT [filled] ['congress', 'followed_person'] — Large disclosed congressional buy, not chasing since mid-range, sector diversification from CRWD | evidence: Rep. Josh Gottheimer disclosed a $250k-1M buy in MSFT filed 2026-09-14, MSFT only 54% of day range
+- BUY $2500.00 TTD [filled] ['congress', 'news'] — Congress buy pressure plus cheap entry point mid-range, not previously sold today after cooldown check | evidence: Gilbert Ray Cisneros disclosed buy pressure TTD=2.0, price at 48% of day range, TTD cooled off list clear
+- BUY $2000.00 ACN [filled] ['congress', 'news'] — Multiple congress buyers on ACN, adding smaller market order alongside existing resting limits since ACN not extreme high in range | evidence: Scott Franklin and Gilbert Ray Cisneros both disclosed ACN buys, congress_net_buy_pressure=2.0, price 67.6% of range
+  (dropped trigger NEM stop_loss: not held)
+~ WORKING stop_loss 100% CHRW @ $144.40 until 2026-09-29 — Protective stop on new CHRW position per desk rule
+~ WORKING stop_loss 100% MSFT @ $493.30 until 2026-09-29 — Protective stop on new MSFT position per desk rule
+~ WORKING stop_loss 100% TTD @ $12.00 until 2026-09-29 — Protective stop on new TTD position per desk rule
+~ WORKING stop_loss 100% ACN @ $169.30 until 2026-09-29 — Protective stop on new ACN position per desk rule
+~ WORKING take_profit 100% CHRW @ $149.18 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $144.30 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $509.92 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $493.36 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.46 until 2026-10-04 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $12.03 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $175.34 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $169.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25245.65 (+0.98% on $25000.00 in) · cash $14122.72 · realised +247.72
+Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $13791.13 this week

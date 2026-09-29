@@ -45305,7 +45305,9 @@
     "code_version": "711e9a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -0.33,
+    "ret_final": -0.33,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -45331,7 +45333,9 @@
     "code_version": "711e9a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.11,
+    "ret_final": 0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -45357,7 +45361,9 @@
     "code_version": "711e9a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.09,
+    "ret_final": 0.09,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -45383,7 +45389,9 @@
     "code_version": "711e9a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.01,
+    "ret_final": 0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "TPL",
@@ -45432,7 +45440,8 @@
     "hour_et": 12,
     "code_version": "038bf81",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.1
   },
   {
     "symbol": "UNH",
@@ -45457,7 +45466,10 @@
     "hour_et": 12,
     "code_version": "038bf81",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.23,
+    "ret_now": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -45482,7 +45494,8 @@
     "evidence": "average cost $372.42",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "1412311"
+    "code_version": "1412311",
+    "hold_minutes": 3
   },
   {
     "symbol": "LTH",
@@ -45506,7 +45519,8 @@
     "evidence": "bought 30 min ago, -0.29% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "77c56ff"
+    "code_version": "77c56ff",
+    "hold_minutes": 30
   },
   {
     "symbol": "AAPL",
@@ -45530,7 +45544,8 @@
     "evidence": "bought 30 min ago, +0.13% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "77c56ff"
+    "code_version": "77c56ff",
+    "hold_minutes": 30
   },
   {
     "symbol": "NOC",
@@ -45554,7 +45569,8 @@
     "evidence": "bought 30 min ago, +0.13% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "77c56ff"
+    "code_version": "77c56ff",
+    "hold_minutes": 30
   },
   {
     "symbol": "GOOGL",
@@ -45578,6 +45594,107 @@
     "evidence": "bought 30 min ago, +0.03% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "77c56ff"
+    "code_version": "77c56ff",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 16.805652,
+    "price": 148.76,
+    "date": "2026-09-29",
+    "time_et": "12:42",
+    "ts": 1790700165,
+    "why": "Strongest congress pressure score in list, reasonable entry range, diversifies away from tech/CRWD",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure CHRW=3.0 (April McClain Delaney multiple buys disclosed 2026-09-09), currently 61% of day range, not high in range",
+    "entry_price": 148.7,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -1.12,
+    "hour_et": 12,
+    "code_version": "f134a99",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.915244,
+    "price": 508.62,
+    "date": "2026-09-29",
+    "time_et": "12:42",
+    "ts": 1790700165,
+    "why": "Large disclosed congressional buy, not chasing since mid-range, sector diversification from CRWD",
+    "signals": [
+      "congress",
+      "followed_person"
+    ],
+    "evidence": "Rep. Josh Gottheimer disclosed a $250k-1M buy in MSFT filed 2026-09-14, MSFT only 54% of day range",
+    "entry_price": 508.52,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -0.98,
+    "hour_et": 12,
+    "code_version": "f134a99",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TTD",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 201.531689,
+    "price": 12.4,
+    "date": "2026-09-29",
+    "time_et": "12:42",
+    "ts": 1790700165,
+    "why": "Congress buy pressure plus cheap entry point mid-range, not previously sold today after cooldown check",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Gilbert Ray Cisneros disclosed buy pressure TTD=2.0, price at 48% of day range, TTD cooled off list clear",
+    "entry_price": 12.4,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -8.66,
+    "hour_et": 12,
+    "code_version": "f134a99",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "ACN",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.456079,
+    "price": 174.58,
+    "date": "2026-09-29",
+    "time_et": "12:42",
+    "ts": 1790700165,
+    "why": "Multiple congress buyers on ACN, adding smaller market order alongside existing resting limits since ACN not extreme high in range",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Scott Franklin and Gilbert Ray Cisneros both disclosed ACN buys, congress_net_buy_pressure=2.0, price 67.6% of range",
+    "entry_price": 174.51,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -7.96,
+    "hour_et": 12,
+    "code_version": "f134a99",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
