@@ -19613,3 +19613,38 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 10:36 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain: Flat book at 99.7% idle cash with 10 checks left today - deploying to 8 names across sectors (tech/widely_held, defense, real estate) using congress disclosure evidence (Gottheimer MSFT buy), momentum, and day-range positioning to avoid chasing highs. Each entry sized at $2000-2500 with ATR-based protective stops per risk_management, which has the best realized track record (0.17-0.18% avg, 88% hit rate) in this account's history.
+lesson: Auto_bracket and risk_management signals have the best realized track record (0.17-0.18%, 88% hit rate) - always pair every buy with an explicit ATR-based stop_loss trigger rather than relying on the desk default.
+  (dropped IBM: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped RTX: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped NOC: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped O: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped MSFT: 94% up today's range — resting a limit at $507.99 instead of chasing)
+- BUY $2500.00 NVDA [filled] ['momentum', 'track_record'] — Reasonable entry point mid-range with positive multi-week momentum | evidence: NVDA +0.84% today, +6.08% 1m, widely_held sector track record avg_ret 0.0% hit_rate 0.56, mid-range at 43% of day
+- BUY $2500.00 GOOGL [filled] ['news', 'momentum'] — Low in day range, oversold short-term, widely held sector | evidence: GOOGL -1.09% today, low in range at 20.7%, -3.46% 5d - potential dip entry after Rep sells disclosed (contrarian to overdone selling)
+- BUY $2000.00 PLTR [filled] ['momentum', 'congress'] — Defense-adjacent tech name for diversification, not cooling off | evidence: PLTR -0.53% today, mid-range 43.8%, defense/tech watchlist name with congress interest in defense theme
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger RTX stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+  (dropped trigger O stop_loss: not held)
+~ WORKING stop_loss 100% NVDA @ $226.00 until 2026-09-29 — Protective stop near 2% below entry
+~ WORKING stop_loss 100% GOOGL @ $332.50 until 2026-09-29 — Protective stop below entry
+~ WORKING stop_loss 100% PLTR @ $182.50 until 2026-09-29 — Protective stop below entry
+~ WORKING buy_limit $2500.00 MSFT @ $507.99 until 2026-09-29 — wanted it, but not at the high — resting at $507.99. Congress buy pressure plus positive momentum, not cooling off
+~ WORKING take_profit 100% NVDA @ $231.41 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $223.91 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $340.03 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $328.92 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $187.17 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $180.93 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25260.15 (+1.04% on $25000.00 in) · cash $18261.55 · realised +261.55
+Done: 0 sell(s), 3 buy(s); 11 order(s) working; budget left $17929.96 this week

@@ -1,9 +1,37 @@
 {
-  "cash": 25261.54677474917,
+  "cash": 18261.54677474917,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W40",
-  "positions": {},
+  "positions": {
+    "NVDA": {
+      "qty": 10.830661669035463,
+      "avg_cost": 230.826156,
+      "opened": "2026-09-29",
+      "last_buy": "2026-09-29",
+      "tranches": 1,
+      "last_buy_ts": 1790692675,
+      "opened_ts": 1790692675
+    },
+    "GOOGL": {
+      "qty": 7.372721668279169,
+      "avg_cost": 339.087804,
+      "opened": "2026-09-29",
+      "last_buy": "2026-09-29",
+      "tranches": 1,
+      "last_buy_ts": 1790692675,
+      "opened_ts": 1790692675
+    },
+    "PLTR": {
+      "qty": 10.722291168341483,
+      "avg_cost": 186.527298,
+      "opened": "2026-09-29",
+      "last_buy": "2026-09-29",
+      "tranches": 1,
+      "last_buy_ts": 1790692675,
+      "opened_ts": 1790692675
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -18089,6 +18117,36 @@
       "realized_pct": 0.06,
       "type": "sell",
       "date": "2026-09-29 10:25"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.830662,
+      "price": 230.83,
+      "type": "buy",
+      "date": "2026-09-29 10:37"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.372722,
+      "price": 339.09,
+      "type": "buy",
+      "date": "2026-09-29 10:37"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.722291,
+      "price": 186.53,
+      "type": "buy",
+      "date": "2026-09-29 10:37"
     }
   ],
   "realized_pnl": 261.54677474919373

@@ -1,22 +1,22 @@
 {
   "week": "2026-W40",
-  "spent": 70.04,
-  "deployed": 124900.18,
+  "spent": 7070.04,
+  "deployed": 131900.18,
   "by_ticker": {
     "AVGO": 10.48,
     "TTD": 19.02,
     "AAPL": 4.46,
     "IBM": 5.12,
-    "PLTR": 7.18,
+    "PLTR": 2007.18,
     "RTX": 9.84,
     "AMD": 6.07,
     "LMT": 14.78,
     "NOC": 6.09,
-    "GOOGL": 8.28,
+    "GOOGL": 2508.28,
     "UNH": 0.53,
     "NEM": 4.25,
     "AMZN": 4.04,
-    "NVDA": 16.58,
+    "NVDA": 2516.58,
     "CCJ": 21.44,
     "CRWD": 21.17,
     "HLI": 20.2,
@@ -25,7 +25,7 @@
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
-    "PLTR": 9000.0,
+    "PLTR": 11000.0,
     "TSM": 8850.0,
     "AVGO": 5500.0,
     "TTD": 6000.0,
@@ -35,8 +35,8 @@
     "NOC": 8947.06,
     "UNH": 7647.06,
     "CRWD": 5000.0,
-    "NVDA": 7500.0,
-    "GOOGL": 5747.06,
+    "NVDA": 10000.0,
+    "GOOGL": 8247.06,
     "AAPL": 4500.0,
     "AMZN": 4500.0,
     "HD": 3947.24,
@@ -2181,12 +2181,63 @@
       ],
       "evidence": "bought 30 min ago, +0.16% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.830662,
+      "price": 230.83,
+      "date": "2026-09-29",
+      "time_et": "10:36",
+      "ts": 1790692613,
+      "why": "Reasonable entry point mid-range with positive multi-week momentum",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "NVDA +0.84% today, +6.08% 1m, widely_held sector track record avg_ret 0.0% hit_rate 0.56, mid-range at 43% of day"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.372722,
+      "price": 339.09,
+      "date": "2026-09-29",
+      "time_et": "10:36",
+      "ts": 1790692613,
+      "why": "Low in day range, oversold short-term, widely held sector",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "GOOGL -1.09% today, low in range at 20.7%, -3.46% 5d - potential dip entry after Rep sells disclosed (contrarian to overdone selling)"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.722291,
+      "price": 186.53,
+      "date": "2026-09-29",
+      "time_et": "10:36",
+      "ts": 1790692613,
+      "why": "Defense-adjacent tech name for diversification, not cooling off",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "PLTR -0.53% today, mid-range 43.8%, defense/tech watchlist name with congress interest in defense theme"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 27.47,
-  "deployed_today": 30000.0,
-  "orders_today": 13,
+  "spent_today": 7027.47,
+  "deployed_today": 37000.0,
+  "orders_today": 16,
   "sells_today": 14,
   "sold_today": [
     "HD",
@@ -2232,13 +2283,23 @@
     "HUBB": 1790691347,
     "NLR": 1790691936
   },
-  "last_publish_ts": 1790691936,
-  "last_check_ts": 1790692482,
-  "last_bar_ts": 1790692200,
-  "last_decision_ts": 1790692482,
-  "next_check_minutes": null,
-  "autopiloted": true,
+  "last_publish_ts": 1790692613,
+  "last_check_ts": 1790692613,
+  "last_bar_ts": 1790692500,
+  "last_decision_ts": 1790692613,
+  "next_check_minutes": 15,
+  "autopiloted": false,
   "book_px": {
-    "d8bb370b": 598.6712
+    "a062a584": 231.414,
+    "cf4d55a6": 340.0327,
+    "0d4a4532": 187.1698,
+    "7c92d33c": 507.9852,
+    "07bbdcc0": 332.5,
+    "da0a2e17": 226.0,
+    "74026745": 182.5,
+    "d8bb370b": 598.6712,
+    "2a2f16aa": 223.9051,
+    "a1096c66": 328.9173,
+    "ee979652": 180.9341
   }
 }

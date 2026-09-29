@@ -1,94 +1,3 @@
-~ WORKING buy_limit $500.00 MSFT @ $493.72 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32827.60 (+31.31% on $25000.00 in) · cash $16295.87 · realised +7845.87
-Done: 0 sell(s), 4 buy(s); 38 order(s) working; budget left $8477.18 this week
-- SELL 100% LMT [time stop] -> $2244.64 (-0.24%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-28 11:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% NOC [time stop] -> $1798.33 (-0.09%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-28 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% GOOGL [time stop] -> $1595.28 (-0.29%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% UNH [time stop] -> $1488.21 (-0.79%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NEM [time stop] -> $1395.75 (-0.30%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-28 11:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-28 11:42 ET (Monday) — week 2026-W40 — budget left $16999.39 (today $69352.94 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-brain: Only 4 positions held vs min_positions=8, cash_idle_pct=68% - must deploy more. GOOGL/UNH/NEM/NOC/LMT/RTX/CCJ/TSM/AMD are in cooldown so can't rebuy those. Rather than chasing names already high in day range (CRWD at 97.4%, PLTR at 69.3%), I'm placing buy_limit orders below market to get better entries per guardrail rules on max_entry_range_pct, while also adding congress-backed TSM and AVGO limits. This keeps working capital ready without paying up for moves already made.
-lesson: When most watchlist names are either in cooldown or high in their day range (>85%), use buy_limit orders resting below market instead of market orders to satisfy min_positions goal without chasing.
-  (dropped GOOGL: sold 2 min ago, cooling off)
-~ WORKING buy_limit $2500.00 TSM @ $442.00 until 2026-09-28 — wait for pullback below current 447 before entering, congress buy pressure + momentum
-~ WORKING buy_limit $2500.00 PLTR @ $186.00 until 2026-09-28 — resting limit below market to get better entry than chasing at 69% of range
-~ WORKING buy_limit $2000.00 CRWD @ $253.00 until 2026-09-28 — working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting
-~ WORKING buy_limit $2000.00 AVGO @ $345.00 until 2026-09-28 — resting limit below current 349.87 to get better entry on congress-backed name
-~ WORKING stop_loss 100% AAPL @ $336.00 until 2026-09-28 — tighten protective stop
-portfolio: equity $32811.11 (+31.24% on $25000.00 in) · cash $24818.09 · realised +7818.09
-Decision: nothing at this check. 25 standing order(s) working.
-  (cancelled 4 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $510.24] -> $2004.91 (+0.25%) — close 100% at +0.2% over the average cost
-- SELL 100% AAPL [time stop] -> $1999.32 (-0.03%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% TTD [time stop] -> $1988.64 (-0.57%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AMZN [time stop] -> $1995.96 (-0.20%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-28 11:56 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-28 11:57 ET (Monday) — week 2026-W40 — budget left $24988.22 (today $69352.94 put to work, 34 buys, 32 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-brain: Book is flat with 100% idle cash and below min_positions; deploying into non-cooled names (PLTR, CCJ, NOC, RTX) with concrete news/momentum evidence per repeated lesson to check cooldown list explicitly rather than sitting out. Swapped MSFT (in cooldown 44min) for a defense pair instead. Attached stops immediately per the risk_management signal's 88% hit rate track record.
-lesson: Always cross-check cooling_off_minutes_left before finalizing order list - MSFT/AAPL/AMZN/TTD were still cooling despite being widely_held top performers, so pivoted to non-cooled defense names instead.
-  (dropped CCJ: sold 43 min ago, cooling off)
-  (dropped MSFT: sold 2 min ago, cooling off)
-  (dropped NOC: sold 28 min ago, cooling off)
-- BUY $3000.00 PLTR [filled] ['momentum', 'news'] — momentum continuation with fresh bullish news, not in cooldown | evidence: PLTR +2.94% 5d, 71.6% of day range, headline '$10,000 in Palantir Today Could Be Worth by 2030'
-- BUY $3000.00 RTX [filled] ['momentum', 'news'] — defense sector diversification with moderate entry range, cooldown table shows RTX not listed as cooling | evidence: RTX headline 'Boeing Drops 3% ... RTX Treads Water', 44.9% of day range
-  (dropped trigger CCJ stop_loss: not held)
-  (dropped trigger NOC stop_loss: not held)
-  (dropped trigger CCJ take_profit: not held)
-~ WORKING stop_loss 100% PLTR @ $183.50 until 2026-09-28 — cap downside on fresh entry
-~ WORKING stop_loss 100% RTX @ $183.50 until 2026-09-28 — protect defense entry
-~ WORKING take_profit 33% PLTR @ $193.00 until 2026-09-28 — lock partial gains on a move
-~ WORKING take_profit 100% PLTR @ $189.14 until 2026-10-03 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $182.85 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% RTX @ $188.67 until 2026-10-03 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 RTX @ $182.61 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32805.12 (+31.22% on $25000.00 in) · cash $26806.91 · realised +7806.91
-Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $18988.22 this week
-
-## 2026-09-28 12:12 ET (Monday) — week 2026-W40 — budget left $18988.22 (today $75352.94 put to work, 36 buys, 32 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-brain: Only 2 positions held (PLTR, RTX) vs min_positions=8, cash_idle_pct 76%. Adding GOOGL, UNH, CCJ - all clear of the 45-min cooldown list, with concrete evidence (day-range position, sector track record, headlines). Sized at $2000-2200 each which is meaningful vs the $25k account per owner instruction. Attaching stop_loss/take_profit per risk_management's 88% hit rate in track record. Still below min_positions after this so requesting a short next check to add more as cooldowns clear.
-lesson: With only 5 names ever in cooldown, prioritize adding non-cooled widely_held/sector names in $2000+ size immediately rather than waiting, since idle cash at 76% is a self-inflicted drag per counterfactual regret data.
-  (dropped GOOGL: sold 32 min ago, cooling off)
-  (dropped UNH: sold 32 min ago, cooling off)
-- BUY $2100.00 CCJ [filled] ['momentum', 'news'] — nuclear sector has 67% hit rate in track record, CCJ not in cooldown list, positive catalyst headline | evidence: CCJ 65.6% of day range, headline 'Cameco's Westinghouse Stake Could Be Worth More Than $24.5 Billion'
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger GOOGL take_profit: not held)
-  (dropped trigger UNH stop_loss: not held)
-  (dropped trigger UNH take_profit: not held)
-~ WORKING stop_loss 100% CCJ @ $84.50 until 2026-09-28 — cap downside on fresh entry
-~ WORKING take_profit 50% CCJ @ $89.00 until 2026-09-28 — lock partial gains on a move toward range highs
-~ WORKING take_profit 100% CCJ @ $87.25 until 2026-10-03 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $84.30 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING buy_limit $1000.00 AMD @ $598.67 until 2026-09-29 — strong month, weak day: resting 0.90% under $604.12 to catch the dip
-portfolio: equity $32806.02 (+31.22% on $25000.00 in) · cash $24706.91 · realised +7806.91
-Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $16888.22 this week
-  (cancelled 3 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $87.25] -> $2108.22 (+0.39%) — close 100% at +0.4% over the average cost
-## 2026-09-28 12:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on PLTR: position closed)
-- SELL 100% PLTR [take_profit @ $189.14] -> $3010.09 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-09-28 12:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% RTX [time stop] -> $3001.11 (+0.04%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 12:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +307,94 @@ Decision: nothing at this check. 5 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% NLR [time stop] -> $2001.15 (+0.06%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 10:25 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 10:28 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 10:31 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 10:34 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 10:36 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain: Flat book at 99.7% idle cash with 10 checks left today - deploying to 8 names across sectors (tech/widely_held, defense, real estate) using congress disclosure evidence (Gottheimer MSFT buy), momentum, and day-range positioning to avoid chasing highs. Each entry sized at $2000-2500 with ATR-based protective stops per risk_management, which has the best realized track record (0.17-0.18% avg, 88% hit rate) in this account's history.
+lesson: Auto_bracket and risk_management signals have the best realized track record (0.17-0.18%, 88% hit rate) - always pair every buy with an explicit ATR-based stop_loss trigger rather than relying on the desk default.
+  (dropped IBM: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped RTX: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped NOC: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped O: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped MSFT: 94% up today's range — resting a limit at $507.99 instead of chasing)
+- BUY $2500.00 NVDA [filled] ['momentum', 'track_record'] — Reasonable entry point mid-range with positive multi-week momentum | evidence: NVDA +0.84% today, +6.08% 1m, widely_held sector track record avg_ret 0.0% hit_rate 0.56, mid-range at 43% of day
+- BUY $2500.00 GOOGL [filled] ['news', 'momentum'] — Low in day range, oversold short-term, widely held sector | evidence: GOOGL -1.09% today, low in range at 20.7%, -3.46% 5d - potential dip entry after Rep sells disclosed (contrarian to overdone selling)
+- BUY $2000.00 PLTR [filled] ['momentum', 'congress'] — Defense-adjacent tech name for diversification, not cooling off | evidence: PLTR -0.53% today, mid-range 43.8%, defense/tech watchlist name with congress interest in defense theme
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger RTX stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+  (dropped trigger O stop_loss: not held)
+~ WORKING stop_loss 100% NVDA @ $226.00 until 2026-09-29 — Protective stop near 2% below entry
+~ WORKING stop_loss 100% GOOGL @ $332.50 until 2026-09-29 — Protective stop below entry
+~ WORKING stop_loss 100% PLTR @ $182.50 until 2026-09-29 — Protective stop below entry
+~ WORKING buy_limit $2500.00 MSFT @ $507.99 until 2026-09-29 — wanted it, but not at the high — resting at $507.99. Congress buy pressure plus positive momentum, not cooling off
+~ WORKING take_profit 100% NVDA @ $231.41 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NVDA @ $223.91 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $340.03 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $328.92 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $187.17 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $180.93 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25260.15 (+1.04% on $25000.00 in) · cash $18261.55 · realised +261.55
+Done: 0 sell(s), 3 buy(s); 11 order(s) working; budget left $17929.96 this week
