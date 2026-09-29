@@ -1,18 +1,18 @@
 {
   "week": "2026-W40",
-  "spent": 10204.74,
+  "spent": 1708.87,
   "deployed": 174750.18,
   "by_ticker": {
     "AVGO": 24.44,
     "TTD": 19.02,
-    "AAPL": 2004.46,
+    "AAPL": 2.24,
     "IBM": 2.17,
     "PLTR": 18.16,
     "RTX": 4.33,
     "AMD": 6.07,
     "LMT": 14.78,
-    "NOC": 2006.09,
-    "GOOGL": 2008.69,
+    "NOC": 4.29,
+    "GOOGL": 8.55,
     "NEM": 5.21,
     "AMZN": 4.04,
     "NVDA": 10.21,
@@ -21,7 +21,7 @@
     "HLI": 30.43,
     "FWONK": 7.89,
     "HUBB": 28.09,
-    "LTH": 2500.0
+    "LTH": 8.29
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -2904,13 +2904,93 @@
       ],
       "evidence": "average cost $372.42",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "LTH",
+      "side": "sell",
+      "qty": 62.978841,
+      "status": "filled",
+      "price": 39.56,
+      "proceeds": 2491.71,
+      "realized_pnl": -8.29,
+      "realized_pct": -0.33,
+      "date": "2026-09-29",
+      "time_et": "12:41",
+      "ts": 1790700083,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.29% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AAPL",
+      "side": "sell",
+      "qty": 6.04474,
+      "status": "filled",
+      "price": 331.23,
+      "proceeds": 2002.22,
+      "realized_pnl": 2.22,
+      "realized_pct": 0.11,
+      "date": "2026-09-29",
+      "time_et": "12:41",
+      "ts": 1790700083,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.13% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 3.956227,
+      "status": "filled",
+      "price": 505.99,
+      "proceeds": 2001.8,
+      "realized_pnl": 1.8,
+      "realized_pct": 0.09,
+      "date": "2026-09-29",
+      "time_et": "12:41",
+      "ts": 1790700083,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.13% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 5.900962,
+      "status": "filled",
+      "price": 338.95,
+      "proceeds": 2000.14,
+      "realized_pnl": 0.14,
+      "realized_pct": 0.01,
+      "date": "2026-09-29",
+      "time_et": "12:41",
+      "ts": 1790700083,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.03% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 10162.17,
+  "spent_today": 1666.3,
   "deployed_today": 79850.0,
   "orders_today": 35,
-  "sells_today": 31,
+  "sells_today": 35,
   "sold_today": [
     "HD",
     "NOC",
@@ -2934,7 +3014,9 @@
     "RTX",
     "CHRW",
     "NEM",
-    "TPL"
+    "TPL",
+    "LTH",
+    "AAPL"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -2943,17 +3025,17 @@
     "AMD": 1790608606,
     "ACN": 1790695358,
     "MSFT": 1790695875,
-    "NOC": 1790688997,
+    "NOC": 1790700084,
     "UNH": 1790699486,
     "CRWD": 1790696280,
     "NVDA": 1790693661,
-    "GOOGL": 1790694453,
+    "GOOGL": 1790700084,
     "AVGO": 1790695358,
     "TTD": 1790690030,
     "HD": 1790688629,
     "AMZN": 1790610993,
     "META": 1790604966,
-    "AAPL": 1790610992,
+    "AAPL": 1790700084,
     "IBM": 1790696326,
     "RTX": 1790696391,
     "CCJ": 1790697226,
@@ -2964,34 +3046,23 @@
     "HUBB": 1790696335,
     "NLR": 1790691936,
     "CHRW": 1790696896,
-    "TPL": 1790699120
+    "TPL": 1790699120,
+    "LTH": 1790700083
   },
-  "last_publish_ts": 1790699485,
-  "last_check_ts": 1790699999,
-  "last_bar_ts": 1790699700,
+  "last_publish_ts": 1790700083,
+  "last_check_ts": 1790700083,
+  "last_bar_ts": 1790700000,
   "last_decision_ts": 1790699208,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "1b78f4ec": 339.8722,
-    "f349d91c": 331.6078,
-    "798412c6": 506.7382,
     "62aca446": 174.066,
     "4d0dec97": 174.044,
     "380b692b": 260.6551,
-    "9b9e45c6": 39.8715,
     "045e5900": 453.1365,
     "b4e51d52": 452.57,
     "d8bb370b": 598.6712,
-    "023c06a8": 38.509,
-    "c216cff0": 490.3641,
-    "ffb74bf6": 320.9439,
     "d03335f3": 251.4725,
-    "25401468": 251.4,
-    "1e2ea212": 490.0,
-    "3f118ac6": 328.7621,
-    "3b589cf0": 38.3,
-    "3410f6c9": 320.0,
-    "09bb7209": 328.0
+    "25401468": 251.4
   }
 }

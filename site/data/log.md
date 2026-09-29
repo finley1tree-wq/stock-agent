@@ -1,8 +1,3 @@
-- SELL 100% ACN [take_profit @ $174.24] -> $3012.82 (+0.43%) — close 100% at +0.4% over the average cost
-## 2026-09-29 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% CCJ [time stop] -> $2978.56 (-0.71%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $518.76] -> $2004.79 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-29 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% CRWD [time stop] -> $1978.83 (-1.06%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +393,8 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $13166.44 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $373.30] -> $1628.82 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-09-29 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% LTH [time stop] -> $2491.71 (-0.33%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AAPL [time stop] -> $2002.22 (+0.11%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NOC [time stop] -> $2001.80 (+0.09%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% GOOGL [time stop] -> $2000.14 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 12:41 ET — tick — 4 sell(s), 0 buy(s) from standing orders

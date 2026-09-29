@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-29T12:31-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-29T12:41-04:00",
+ "note": "tick: 4 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -141,57 +141,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "1b78f4ec",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 339.8722,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 339.49,
-   "pct_away": 0.11,
-   "good_until": "2026-10-04",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f349d91c",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 331.6078,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 331.0,
-   "pct_away": 0.18,
-   "good_until": "2026-10-04",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "798412c6",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 506.7382,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 505.68,
-   "pct_away": 0.21,
-   "good_until": "2026-10-04",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "62aca446",
    "ticker": "ACN",
    "kind": "buy_limit",
@@ -199,8 +148,8 @@
    "usd": 1625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 174.88,
-   "pct_away": -0.47,
+   "last": 174.59,
+   "pct_away": -0.3,
    "good_until": "2026-09-29",
    "why": "wanted it, but not at the high \u2014 resting at $174.07. named congress buy pressure plus pullback, currently mid-range (85% of day range is high but limit resting near low was not hit, buying market small size given ACN sits at day high signal",
    "signals": [
@@ -217,8 +166,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 174.88,
-   "pct_away": -0.48,
+   "last": 174.59,
+   "pct_away": -0.31,
    "good_until": "2026-09-29",
    "why": "wanted it, but not at the high \u2014 resting at $174.04. Congress buy pressure plus recent pullback gives room; ACN not in cooldown anymore was sold 33min ago but cooldown was only flagged as dropped, checking cooling_off list - not present now",
    "signals": [
@@ -235,27 +184,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.42,
-   "pct_away": 0.48,
+   "last": 259.52,
+   "pct_away": 0.44,
    "good_until": "2026-10-04",
    "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9b9e45c6",
-   "ticker": "LTH",
-   "kind": "take_profit",
-   "price": 39.8715,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 39.6,
-   "pct_away": 0.69,
-   "good_until": "2026-10-04",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -269,8 +201,8 @@
    "usd": 1625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 457.09,
-   "pct_away": -0.86,
+   "last": 457.14,
+   "pct_away": -0.88,
    "good_until": "2026-09-29",
    "why": "wanted it, but not at the high \u2014 resting at $453.14. congress buy plus strong momentum, diversifies book into semis away from AAPL/GOOGL concentration",
    "signals": [
@@ -287,8 +219,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 457.09,
-   "pct_away": -0.99,
+   "last": 457.14,
+   "pct_away": -1.0,
    "good_until": "2026-09-29",
    "why": "wanted it, but not at the high \u2014 resting at $452.57. Congress buy pressure plus strong 1m momentum, semis exposure diversifies book",
    "signals": [
@@ -305,64 +237,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 612.13,
-   "pct_away": -2.2,
+   "last": 612.51,
+   "pct_away": -2.26,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "023c06a8",
-   "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 38.509,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 39.6,
-   "pct_away": -2.76,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c216cff0",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 490.3641,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 505.68,
-   "pct_away": -3.03,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ffb74bf6",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 320.9439,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 331.0,
-   "pct_away": -3.04,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -373,8 +254,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.42,
-   "pct_away": -3.06,
+   "last": 259.52,
+   "pct_away": -3.1,
    "good_until": "2026-10-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -390,91 +271,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.42,
-   "pct_away": -3.09,
+   "last": 259.52,
+   "pct_away": -3.13,
    "good_until": "2026-09-29",
    "why": "protect new CRWD position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "1e2ea212",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 490.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 505.68,
-   "pct_away": -3.1,
-   "good_until": "2026-09-29",
-   "why": "Protective stop ~3% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "3f118ac6",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 328.7621,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 339.49,
-   "pct_away": -3.16,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3b589cf0",
-   "ticker": "LTH",
-   "kind": "stop_loss",
-   "price": 38.3,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 39.6,
-   "pct_away": -3.28,
-   "good_until": "2026-09-29",
-   "why": "Protective stop ~3.5% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "3410f6c9",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 320.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 331.0,
-   "pct_away": -3.32,
-   "good_until": "2026-09-29",
-   "why": "Protective stop ~3.3% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "09bb7209",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 328.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 339.49,
-   "pct_away": -3.38,
-   "good_until": "2026-09-29",
-   "why": "Protective stop ~3.2% below entry",
    "signals": [
     "risk_management"
    ]
