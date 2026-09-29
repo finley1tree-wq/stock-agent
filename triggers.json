@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "1defd048",
-   "ticker": "AMAT",
-   "kind": "stop_loss",
-   "price": 484.0,
-   "status": "cancelled",
-   "created": "2026-09-25 12:27",
-   "created_ts": 1790353647,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $483.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 12:32",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9bb4a09d",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7448,7 +7429,7 @@
    "ticker": "HUBB",
    "kind": "stop_loss",
    "price": 465.3438,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 10:10",
    "created_ts": 1790691022,
    "why": "close it all at -0.7% under the average cost",
@@ -7458,7 +7439,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:11",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "a3bbf607",
@@ -7476,7 +7459,24 @@
    ],
    "good_until": "2026-10-04",
    "usd": 500.0
+  },
+  {
+   "id": "8f7cac70",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 469.012,
+   "status": "working",
+   "created": "2026-09-29 10:11",
+   "created_ts": 1790691112,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $468.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-29 10:10"
+ "updated": "2026-09-29 10:11"
 }
