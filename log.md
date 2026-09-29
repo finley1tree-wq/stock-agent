@@ -19704,3 +19704,33 @@ lesson: Past lessons show repeatedly buying only 2-3 names per check keeps below
 ~ WORKING buy_limit $500.00 HUBB @ $448.70 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25256.08 (+1.02% on $25000.00 in) · cash $12756.52 · realised +256.52
 Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $12424.94 this week
+- BUY $2500.00 MSFT [buy_limit @ $507.99] — wanted it, but not at the high — resting at $507.99. Congress buy pressure plus positive momentum, not cooling off
+- SELL 100% AVGO [time stop] -> $2486.04 (-0.56%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% ACN [time stop] -> $2500.30 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 11:22 ET — tick — 2 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-29 11:23 ET (Tuesday) — week 2026-W40 — budget left $14911.28 (today $52000.00 put to work, 22 buys, 19 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Still below min_positions (4 of 8) with 59.6% cash idle - counterfactual data shows idleness has cost, and past lessons (though unproven) consistently flag under-deployment as the recurring mistake. Adding 4 names across defense/nuclear/semis/consulting sectors, each with concrete evidence (named congress filer or day-range low entry), sized at $2,500 each, all paired with ATR-based stop_losses per the best-performing signal (risk_management/auto_bracket at 88% hit rate). Avoiding cooled-off names (PLTR, ACN is not in cooldown list, GOOGL, NVDA, AVGO) and avoiding momentum-only entries per guardrail.
+lesson: Batching 3-4 new names per check with named-evidence signals (congress filer, day-range-low entry) and immediate stop_loss triggers is the path to min_positions without waiting on cooldowns.
+  (dropped ACN: sold 1 min ago, cooling off)
+- BUY $2500.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear sector diversification at a low point in day range, not chasing | evidence: CCJ at 8.8% of day range ($86.31, low $86.09) after -8.75% 5d pullback; nuclear sector track_record avg_ret -0.17% but low entry point reduces downside
+- BUY $2500.00 RTX [filled] ['news', 'track_record'] — Defense sector diversification at day low, adds a fifth uncorrelated name | evidence: RTX at 2.1% of day range ($186.58, low $186.52), defense sector hit_rate 0.55 in track record
+- BUY $2500.00 TSM [filled] ['congress', 'momentum'] — Semis exposure with named congress buy; existing buy_limit at 452.57 resting, adding smaller market-ish position since price ran up | evidence: Rep. Rick W. Allen (spouse) bought TSM disclosed 2026-09-22; TSM +9.2% 1m momentum, currently 80% of day range so using limit not market
+  (dropped trigger ACN stop_loss: not held)
+~ WORKING stop_loss 100% CCJ @ $83.50 until 2026-09-29 — protective stop per risk_management best-performing signal
+~ WORKING stop_loss 100% RTX @ $181.50 until 2026-09-29 — protective stop per risk_management best-performing signal
+~ WORKING stop_loss 100% TSM @ $443.00 until 2026-09-29 — protective stop per risk_management best-performing signal
+~ WORKING take_profit 100% CCJ @ $86.68 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $83.75 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $187.07 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $181.05 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $457.16 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $442.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25227.41 (+0.91% on $25000.00 in) · cash $7742.86 · realised +242.86
+Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $7411.28 this week

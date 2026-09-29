@@ -44562,7 +44562,9 @@
     "code_version": "6c53b10",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.56,
+    "ret_final": -0.56,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -44587,7 +44589,9 @@
     "code_version": "6c53b10",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.01,
+    "ret_final": 0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "NVDA",
@@ -44688,7 +44692,8 @@
     "hour_et": 11,
     "code_version": "7b69a2c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.06
   },
   {
     "symbol": "CRWD",
@@ -44713,7 +44718,8 @@
     "hour_et": 11,
     "code_version": "7b69a2c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.01
   },
   {
     "symbol": "HUBB",
@@ -44736,6 +44742,160 @@
     "momentum_1m_at_entry": 0.6,
     "hour_et": 11,
     "code_version": "7b69a2c",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.49
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.921403,
+    "price": 507.99,
+    "date": "2026-09-29",
+    "time_et": "11:22",
+    "ts": 1790695200,
+    "why": "wanted it, but not at the high \u2014 resting at $507.99. Congress buy pressure plus positive momentum, not cooling off",
+    "signals": [
+      "congress",
+      "momentum",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "Rep. Josh Gottheimer disclosed a $250k-1M MSFT buy (filed 2026-09-14); MSFT +0.53% today, near day high (93.5% of range) but strong 5d momentum +2.79%",
+    "trigger": "buy_limit",
+    "entry_price": 507.9852,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -1.06,
+    "hour_et": 11,
+    "code_version": "7c25499",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.0
+  },
+  {
+    "symbol": "AVGO",
+    "side": "sell",
+    "qty": 6.930158,
+    "status": "filled",
+    "price": 358.73,
+    "proceeds": 2486.04,
+    "realized_pnl": -13.96,
+    "realized_pct": -0.56,
+    "date": "2026-09-29",
+    "time_et": "11:22",
+    "ts": 1790695357,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.54% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "7c25499",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "ACN",
+    "side": "sell",
+    "qty": 14.381081,
+    "status": "filled",
+    "price": 173.86,
+    "proceeds": 2500.3,
+    "realized_pnl": 0.3,
+    "realized_pct": 0.01,
+    "date": "2026-09-29",
+    "time_et": "11:22",
+    "ts": 1790695357,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.05% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "7c25499",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 28.953776,
+    "price": 86.34,
+    "date": "2026-09-29",
+    "time_et": "11:23",
+    "ts": 1790695405,
+    "why": "Nuclear sector diversification at a low point in day range, not chasing",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "CCJ at 8.8% of day range ($86.31, low $86.09) after -8.75% 5d pullback; nuclear sector track_record avg_ret -0.17% but low entry point reduces downside",
+    "entry_price": 86.31,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -13.7,
+    "hour_et": 11,
+    "code_version": "7c25499",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "RTX",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 13.393721,
+    "price": 186.65,
+    "date": "2026-09-29",
+    "time_et": "11:23",
+    "ts": 1790695405,
+    "why": "Defense sector diversification at day low, adds a fifth uncorrelated name",
+    "signals": [
+      "news",
+      "track_record"
+    ],
+    "evidence": "RTX at 2.1% of day range ($186.58, low $186.52), defense sector hit_rate 0.55 in track record",
+    "entry_price": 186.58,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -11.87,
+    "hour_et": 11,
+    "code_version": "7c25499",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.482201,
+    "price": 456.02,
+    "date": "2026-09-29",
+    "time_et": "11:23",
+    "ts": 1790695405,
+    "why": "Semis exposure with named congress buy; existing buy_limit at 452.57 resting, adding smaller market-ish position since price ran up",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Rick W. Allen (spouse) bought TSM disclosed 2026-09-22; TSM +9.2% 1m momentum, currently 80% of day range so using limit not market",
+    "entry_price": 455.93,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.2,
+    "hour_et": 11,
+    "code_version": "7c25499",
     "ret_1w": null,
     "ret_1m": null
   }

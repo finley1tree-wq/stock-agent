@@ -1,33 +1,3 @@
-  (dropped PLTR: sold 9 min ago, cooling off)
-  (dropped CRWD: 94% up today's range — resting a limit at $253.85 instead of chasing)
-  (dropped TSM: 88% up today's range — resting a limit at $449.80 instead of chasing)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger CRWD take_profit: not held)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger TSM take_profit: not held)
-~ WORKING buy_limit $2500.00 CRWD @ $253.85 until 2026-09-28 — wanted it, but not at the high — resting at $253.85. Strong momentum name, adds 7th position, existing limit orders will layer in on dips
-~ WORKING buy_limit $1947.24 TSM @ $449.80 until 2026-09-28 — wanted it, but not at the high — resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions
-portfolio: equity $32784.28 (+31.14% on $25000.00 in) · cash $17326.33 · realised +7826.33
-Decision: nothing at this check. 30 standing order(s) working.
-- BUY $1947.24 HD [buy_limit @ $291.69] — wanted it, but not at the high — resting at $291.69. Widely_held name with beaten down 1m performance, potential value entry
-## 2026-09-28 12:40 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-28 12:52 ET (Monday) — week 2026-W40 — budget left $7552.76 (today $94900.18 put to work, 44 buys, 35 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-brain: Below min_positions (7 of 8) with $7.5k budget idle (30% cash). AVGO has congress buy pressure (Rep. Allen) plus strong AI revenue headline and is mid-range (45.8%) rather than chased. MSFT is high in range but has the best-performing signal bucket (news, +4.7% avg) and isn't in cooldown, giving instant diversification toward min_positions with protective brackets on both. Existing TSM/CRWD/AVGO/PLTR/AMD/NVDA/META limit orders remain working to catch dips without chasing.
-lesson: Stop repeating the same 'check cooldown list' lesson - it's been noted 7+ times; instead track that MSFT/AVGO have real signal support today and were available, confirming cooldown checks are already working.
-  (dropped AVGO: sector widely_held at its 50% cap ($0.00))
-  (dropped MSFT: sector widely_held at its 50% cap ($0.00))
-  (dropped trigger AVGO stop_loss: not held)
-  (dropped trigger AVGO take_profit: not held)
-  (dropped trigger MSFT stop_loss: not held)
-  (dropped trigger MSFT take_profit: not held)
-~ WORKING buy_limit $1000.00 AAPL @ $339.41 until 2026-09-29 — strong month, weak day: resting 0.41% under $340.80 to catch the dip
 portfolio: equity $32787.70 (+31.15% on $25000.00 in) · cash $15379.09 · realised +7826.33
 Decision: nothing at this check. 33 standing order(s) working.
 - SELL 100% NVDA [time stop] -> $2983.42 (-0.55%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +368,33 @@ lesson: Past lessons show repeatedly buying only 2-3 names per check keeps below
 ~ WORKING buy_limit $500.00 HUBB @ $448.70 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25256.08 (+1.02% on $25000.00 in) · cash $12756.52 · realised +256.52
 Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $12424.94 this week
+- BUY $2500.00 MSFT [buy_limit @ $507.99] — wanted it, but not at the high — resting at $507.99. Congress buy pressure plus positive momentum, not cooling off
+- SELL 100% AVGO [time stop] -> $2486.04 (-0.56%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% ACN [time stop] -> $2500.30 (+0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 11:22 ET — tick — 2 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-29 11:23 ET (Tuesday) — week 2026-W40 — budget left $14911.28 (today $52000.00 put to work, 22 buys, 19 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Still below min_positions (4 of 8) with 59.6% cash idle - counterfactual data shows idleness has cost, and past lessons (though unproven) consistently flag under-deployment as the recurring mistake. Adding 4 names across defense/nuclear/semis/consulting sectors, each with concrete evidence (named congress filer or day-range low entry), sized at $2,500 each, all paired with ATR-based stop_losses per the best-performing signal (risk_management/auto_bracket at 88% hit rate). Avoiding cooled-off names (PLTR, ACN is not in cooldown list, GOOGL, NVDA, AVGO) and avoiding momentum-only entries per guardrail.
+lesson: Batching 3-4 new names per check with named-evidence signals (congress filer, day-range-low entry) and immediate stop_loss triggers is the path to min_positions without waiting on cooldowns.
+  (dropped ACN: sold 1 min ago, cooling off)
+- BUY $2500.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear sector diversification at a low point in day range, not chasing | evidence: CCJ at 8.8% of day range ($86.31, low $86.09) after -8.75% 5d pullback; nuclear sector track_record avg_ret -0.17% but low entry point reduces downside
+- BUY $2500.00 RTX [filled] ['news', 'track_record'] — Defense sector diversification at day low, adds a fifth uncorrelated name | evidence: RTX at 2.1% of day range ($186.58, low $186.52), defense sector hit_rate 0.55 in track record
+- BUY $2500.00 TSM [filled] ['congress', 'momentum'] — Semis exposure with named congress buy; existing buy_limit at 452.57 resting, adding smaller market-ish position since price ran up | evidence: Rep. Rick W. Allen (spouse) bought TSM disclosed 2026-09-22; TSM +9.2% 1m momentum, currently 80% of day range so using limit not market
+  (dropped trigger ACN stop_loss: not held)
+~ WORKING stop_loss 100% CCJ @ $83.50 until 2026-09-29 — protective stop per risk_management best-performing signal
+~ WORKING stop_loss 100% RTX @ $181.50 until 2026-09-29 — protective stop per risk_management best-performing signal
+~ WORKING stop_loss 100% TSM @ $443.00 until 2026-09-29 — protective stop per risk_management best-performing signal
+~ WORKING take_profit 100% CCJ @ $86.68 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $83.75 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $187.07 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $181.05 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $457.16 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $442.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25227.41 (+0.91% on $25000.00 in) · cash $7742.86 · realised +242.86
+Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $7411.28 this week
