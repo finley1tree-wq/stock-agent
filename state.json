@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 11208.87,
+  "spent": 9586.02,
   "deployed": 184250.18,
   "by_ticker": {
     "AVGO": 24.44,
@@ -17,7 +17,7 @@
     "AMZN": 4.04,
     "NVDA": 10.21,
     "CCJ": 25.18,
-    "CRWD": 1641.67,
+    "CRWD": 18.82,
     "HLI": 30.43,
     "FWONK": 7.89,
     "HUBB": 28.09,
@@ -3055,13 +3055,33 @@
         "news"
       ],
       "evidence": "Scott Franklin and Gilbert Ray Cisneros both disclosed ACN buys, congress_net_buy_pressure=2.0, price 67.6% of range"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 6.268037,
+      "status": "filled",
+      "price": 258.91,
+      "proceeds": 1622.85,
+      "realized_pnl": -2.15,
+      "realized_pct": -0.13,
+      "date": "2026-09-29",
+      "time_et": "12:56",
+      "ts": 1790701005,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.11% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 11166.3,
+  "spent_today": 9543.45,
   "deployed_today": 89350.0,
   "orders_today": 39,
-  "sells_today": 35,
+  "sells_today": 36,
   "sold_today": [
     "HD",
     "NOC",
@@ -3098,7 +3118,7 @@
     "MSFT": 1790695875,
     "NOC": 1790700084,
     "UNH": 1790699486,
-    "CRWD": 1790696280,
+    "CRWD": 1790701006,
     "NVDA": 1790693661,
     "GOOGL": 1790700084,
     "AVGO": 1790695358,
@@ -3120,32 +3140,29 @@
     "TPL": 1790699120,
     "LTH": 1790700083
   },
-  "last_publish_ts": 1790700165,
-  "last_check_ts": 1790700923,
+  "last_publish_ts": 1790701005,
+  "last_check_ts": 1790701005,
   "last_bar_ts": 1790700900,
   "last_decision_ts": 1790700165,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "42351f1e": 509.9221,
+    "2de0c25b": 175.3377,
     "62aca446": 174.066,
     "4d0dec97": 174.044,
-    "42351f1e": 509.9221,
     "850d123e": 149.1795,
-    "380b692b": 260.6551,
     "54a94e16": 12.4587,
-    "2de0c25b": 175.3377,
     "045e5900": 453.1365,
     "b4e51d52": 452.57,
     "d8bb370b": 598.6712,
     "a62f09a4": 144.4,
     "bc4e2d97": 144.2972,
-    "36eb2ee6": 169.3426,
+    "3712b6f4": 12.028,
+    "be4a35cd": 12.0,
     "1dd96a0f": 493.3614,
     "061320ba": 493.3,
-    "12265bf9": 169.3,
-    "3712b6f4": 12.028,
-    "d03335f3": 251.4725,
-    "25401468": 251.4,
-    "be4a35cd": 12.0
+    "36eb2ee6": 169.3426,
+    "12265bf9": 169.3
   }
 }

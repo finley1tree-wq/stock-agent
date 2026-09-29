@@ -1,5 +1,3 @@
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain unavailable: brain failed after retry: InternalServerError: credential validation failed
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25280.11 (+1.12% on $25000.00 in) · cash $20276.66 · realised +276.66
@@ -398,3 +396,5 @@ lesson: When below min_positions with high idle cash, batch 4-5 named-evidence b
 ~ WORKING buy_limit $500.00 ACN @ $169.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25245.65 (+0.98% on $25000.00 in) · cash $14122.72 · realised +247.72
 Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $13791.13 this week
+- SELL 100% CRWD [time stop] -> $1622.85 (-0.13%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

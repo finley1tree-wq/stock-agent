@@ -7094,7 +7094,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 251.4,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "protect new CRWD position",
@@ -7103,7 +7103,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 12:56",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "bf7120a5",
@@ -7164,7 +7166,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 260.6551,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "close 100% at +0.5% over the average cost",
@@ -7174,14 +7176,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 12:56",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "d03335f3",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 251.4725,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7191,7 +7195,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 12:56",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "910082ee",
