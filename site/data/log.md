@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% GOOGL @ $334.00 until 2026-09-28 — Standard protective stop
-~ WORKING stop_loss 100% LMT @ $508.00 until 2026-09-28 — Protective stop below day low
-~ WORKING stop_loss 100% IBM @ $216.00 until 2026-09-28 — Protective stop
 ~ WORKING stop_loss 100% NOC @ $498.00 until 2026-09-28 — Protective stop below day low
 ~ WORKING stop_loss 100% UNH @ $368.00 until 2026-09-28 — Protective stop below day low
 ~ WORKING buy_limit $3000.00 CRWD @ $253.82 until 2026-09-28 — wanted it, but not at the high — resting at $253.82. Strong 1d/1m momentum (+13.97% 1m) with active security news flow
@@ -398,3 +395,6 @@ lesson: Congress-disclosed buys with concrete filer names remain the most reliab
 ~ WORKING buy_limit $500.00 ACN @ $168.62 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25264.89 (+1.06% on $25000.00 in) · cash $13261.55 · realised +261.55
 Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $12929.96 this week
+  (cancelled 2 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $231.41] -> $2506.37 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-09-29 10:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders

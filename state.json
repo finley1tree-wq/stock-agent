@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 12070.04,
+  "spent": 9563.67,
   "deployed": 136900.18,
   "by_ticker": {
     "AVGO": 2510.48,
@@ -16,7 +16,7 @@
     "UNH": 0.53,
     "NEM": 4.25,
     "AMZN": 4.04,
-    "NVDA": 2516.58,
+    "NVDA": 10.21,
     "CCJ": 21.44,
     "CRWD": 21.17,
     "HLI": 20.2,
@@ -2266,13 +2266,34 @@
         "congress"
       ],
       "evidence": "Rep. Scott Franklin bought ACN disclosed 2026-09-17; congress_net_buy_pressure=2.0 for ACN"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 10.830662,
+      "status": "filled",
+      "price": 231.41,
+      "proceeds": 2506.37,
+      "realized_pnl": 6.37,
+      "realized_pct": 0.25,
+      "date": "2026-09-29",
+      "time_et": "10:54",
+      "ts": 1790693400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $230.83",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 12027.47,
+  "spent_today": 9521.1,
   "deployed_today": 42000.0,
   "orders_today": 18,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "HD",
     "NOC",
@@ -2287,7 +2308,8 @@
     "HLI",
     "FWONK",
     "HUBB",
-    "NLR"
+    "NLR",
+    "NVDA"
   ],
   "sold_ts": {
     "PLTR": 1790612839,
@@ -2299,7 +2321,7 @@
     "NOC": 1790688997,
     "UNH": 1790690435,
     "CRWD": 1790690975,
-    "NVDA": 1790614722,
+    "NVDA": 1790693661,
     "GOOGL": 1790614722,
     "AVGO": 1790690481,
     "TTD": 1790690030,
@@ -2317,14 +2339,13 @@
     "HUBB": 1790691347,
     "NLR": 1790691936
   },
-  "last_publish_ts": 1790693545,
-  "last_check_ts": 1790693545,
+  "last_publish_ts": 1790693660,
+  "last_check_ts": 1790693660,
   "last_bar_ts": 1790693400,
   "last_decision_ts": 1790693545,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "a062a584": 231.414,
     "cf4d55a6": 340.0327,
     "3e4985cf": 361.8403,
     "29de2659": 174.5962,
@@ -2332,16 +2353,14 @@
     "0d4a4532": 187.1698,
     "b4e51d52": 452.57,
     "36278fb2": 365.5,
-    "74026745": 182.5,
     "b33806c4": 353.5,
+    "74026745": 182.5,
     "38f1e389": 170.3,
     "07bbdcc0": 332.5,
-    "da0a2e17": 226.0,
     "ee979652": 180.9341,
+    "96f70fe5": 349.9178,
     "d8bb370b": 598.6712,
     "fdbf6143": 168.6248,
-    "96f70fe5": 349.9178,
-    "2a2f16aa": 223.9051,
     "a1096c66": 328.9173
   }
 }
