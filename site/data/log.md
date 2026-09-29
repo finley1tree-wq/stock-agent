@@ -1,6 +1,3 @@
-- SELL 100% AVGO [take_profit @ $360.52] -> $2507.61 (+0.30%) — close 100% at +0.3% over the average cost
-## 2026-09-29 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $174.24] -> $3012.82 (+0.43%) — close 100% at +0.4% over the average cost
 ## 2026-09-29 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% CCJ [time stop] -> $2978.56 (-0.71%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +395,6 @@ lesson: Keep batching 3-4 named-evidence names each check with immediate stops u
 ~ WORKING buy_limit $500.00 UNH @ $361.25 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25244.01 (+0.98% on $25000.00 in) · cash $13498.03 · realised +248.03
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $13166.44 this week
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $373.30] -> $1628.82 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-29 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

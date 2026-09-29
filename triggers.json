@@ -7314,7 +7314,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 361.2,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "protect new UNH position",
@@ -7323,7 +7323,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 12:31",
+   "cancel_reason": "position closed"
   },
   {
    "id": "62aca446",
@@ -7400,7 +7402,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 373.2989,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "close 100% at +0.2% over the average cost",
@@ -7410,14 +7412,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 12:31"
   },
   {
    "id": "9465f599",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 361.2474,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7427,8 +7430,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 12:31",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-29 12:26"
+ "updated": "2026-09-29 12:31"
 }

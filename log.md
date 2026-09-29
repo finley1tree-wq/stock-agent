@@ -19865,3 +19865,6 @@ lesson: Keep batching 3-4 named-evidence names each check with immediate stops u
 ~ WORKING buy_limit $500.00 UNH @ $361.25 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25244.01 (+0.98% on $25000.00 in) · cash $13498.03 · realised +248.03
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $13166.44 this week
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $373.30] -> $1628.82 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-09-29 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
