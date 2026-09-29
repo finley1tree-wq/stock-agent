@@ -1,17 +1,3 @@
-portfolio: equity $25260.15 (+1.04% on $25000.00 in) · cash $18261.55 · realised +261.55
-Done: 0 sell(s), 3 buy(s); 11 order(s) working; budget left $17929.96 this week
-
-## 2026-09-29 10:52 ET (Tuesday) — week 2026-W40 — budget left $17929.96 (today $37000.00 put to work, 16 buys, 14 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Still below min_positions (3 held, need 8) with 71.7% cash idle. Adding AVGO, ACN, TSM using named congress disclosures (Rick W. Allen bought AVGO and TSM disclosed 9/22; Scott Franklin bought ACN disclosed 9/17) which pass the non-momentum-only entry bar. Sized at $2500 each per owner's size guidance, paired with ATR-based stops per the auto_bracket/risk_management lesson that has 88% hit rate historically.
-lesson: Congress-disclosed buys with concrete filer names remain the most reliable non-momentum entry tag to reach min_positions when below target; keep pairing every new buy with an explicit stop_loss.
-  (dropped TSM: 100% up today's range — resting a limit at $452.57 instead of chasing)
-- BUY $2500.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure plus positive 1d momentum, diversifies into widely_held/semis sector | evidence: Rep. Rick W. Allen (spouse) bought AVGO disclosed 2026-09-22; AVGO +3.18% today, 80% of day range
 - BUY $2500.00 ACN [filled] ['congress'] — Congress buy signal, oversold on 1m (-8.35%), reasonable entry at 50% of day range | evidence: Rep. Scott Franklin bought ACN disclosed 2026-09-17; congress_net_buy_pressure=2.0 for ACN
   (dropped trigger TSM stop_loss: not held)
   (dropped trigger TSM take_profit: not held)
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so there is nothing actionable - any buy orders would be dropped per guardrails. Sitting out this check respects the cutoff rather than forcing a doomed order.
 lesson: When no_new_entries_this_check is true and positions_held is 0, do not attempt buys - they will be dropped; wait for the next check.
+portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 14:52 ET (Tuesday) — week 2026-W40 — budget left $24867.87 (today $109350.00 put to work, 48 buys, 49 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DTIL excluded: too thinly traded ($2.2M a day) — Precision BioSciences, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so no buys can be placed - they would be dropped per guardrails. There is nothing to sell or protect since the book is flat. I'll wait for the next check rather than force an order that gets rejected.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable this session; respect the cutoff.
 portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)

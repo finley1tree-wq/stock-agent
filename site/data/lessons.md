@@ -159,3 +159,4 @@
 - 2026-09-29 (8d graded, realised 0.01% per dollar): With full_deployment max_names=6 already filled and hit, do not try to add more positions - min_positions target is overridden by the deployment cap; just manage stops on the 6 held.
 - 2026-09-29 (7d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - respect the cutoff rather than trying to force an order that will be dropped.
 - 2026-09-29 (7d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions_held is 0, do not attempt buys - they will be dropped; wait for the next check.
+- 2026-09-29 (7d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable this session; respect the cutoff.
