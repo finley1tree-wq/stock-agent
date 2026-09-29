@@ -152,15 +152,31 @@ jobs:
             # one concurrency group (deliberately - it is what guarantees a single writer on the
             # ledger), and a lane holds only ONE pending run, so queueing a tick behind a waiting
             # decision cancels it outright. Every decision dispatched on 2026-09-10 died that way.
-            waiting=$(gh run list -R "$GITHUB_REPOSITORY" -w agent.yml -L 5 \
-                        --json status -q '[.[] | select(.status=="queued" or .status=="in_progress" or .status=="pending")] | length' 2>/dev/null || echo 0)
+            # Only a LIVE decision counts: one in progress, or queued/pending/waiting for less than
+            # 30 minutes (longer than any job may run - agent.yml times out at 20, this job at 25).
+            # A decision queued longer than that will never take the lane: its workflow was
+            # disabled, or GitHub lost it, and yielding to it would end the chain for good. Stale
+            # queued runs are real - tick.yml run 36200868188 sat queued from 2026-09-25 23:24Z and
+            # never started. That one was a TICK run: watchdog.yml is what cancels stale queued
+            # ticks. A stale decision is only ignored here, never cancelled. watchdog.yml uses this
+            # same filter before it dispatches a tick.
+            cutoff=$(date -u -d '30 minutes ago' +%FT%TZ)
+            waiting=$(gh run list -R "$GITHUB_REPOSITORY" -w agent.yml -L 5 --json status,createdAt \
+                        -q "[.[] | select(.status==\"in_progress\" or ((.status==\"queued\" or .status==\"pending\" or .status==\"waiting\") and .createdAt >= \"$cutoff\"))] | length" 2>/dev/null || echo 0)
             if [ "${waiting:-0}" != "0" ]; then
-              echo "a decision is queued or running; staying out of the lane"
+              echo "a decision is queued or running; staying out of the lane (agent.yml restarts the chain when it ends)"
             else
+              ok=0
               for k in 1 2 3 4 5; do
-                gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next tick queued" && break
+                if gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY"; then echo "next tick queued"; ok=1; break; fi
                 echo "dispatch attempt $k failed"; sleep $((k * 15))
               done
+              # A chain that cannot hand on must fail LOUDLY. A green run that quietly ended the chain
+              # is how an afternoon goes missing; a red one e-mails the owner.
+              if [ "$ok" != 1 ]; then
+                echo "::error::could not queue the next tick - the chain has STOPPED. Is tick.yml disabled? (Actions -> tick -> Enable workflow)"
+                exit 1
+              fi
             fi
             # NOTE: the watchdog must NOT dispatch agent.yml any more. Decisions now happen in the
             # step above via --if-due, inside this same job. When the watchdog also dispatched one,
@@ -179,8 +195,13 @@ jobs:
           print(max(1, min(600, int((datetime.combine(d, time(9, 30), tzinfo=n.tzinfo) - n).total_seconds()))))
           " 2>/dev/null || echo 600)
             sleep "$secs"
+            ok=0
             for k in 1 2 3 4 5; do
-              gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "next idle pass queued" && break
+              if gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY"; then echo "next idle pass queued"; ok=1; break; fi
               echo "dispatch attempt $k failed"; sleep $((k * 15))
             done
+            if [ "$ok" != 1 ]; then
+              echo "::error::could not queue the next idle pass - the chain has STOPPED. Is tick.yml disabled? (Actions -> tick -> Enable workflow)"
+              exit 1
+            fi
           fi

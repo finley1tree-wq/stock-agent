@@ -12,3 +12,6 @@ config/*.session-journal
 *.session
 .venv/
 monitor/*.log
+# A second clone nested inside a working copy. A local 'git add -A' committed it as a gitlink on
+# 2026-09-26 (tick 6f50a5ad); remove that with 'git rm --cached stock-agent'.
+/stock-agent/

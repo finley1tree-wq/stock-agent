@@ -117,7 +117,20 @@ jobs:
           n = datetime.now(ZoneInfo('America/New_York'))
           sys.exit(0 if (is_trading_day(n.date()) and time(9,30) <= n.time() < close_time(n.date())) else 1)
           "; then
-            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY" && echo "tick chain restarted"
+            # Not over ANOTHER decision waiting for the lane (a scheduled or control.yml run queued
+            # behind this one): the lane keeps one pending run, so a tick queued now would cancel it.
+            # That decision restarts the chain itself when it ends. Same cutoff as tick.yml/watchdog.
+            cutoff=$(date -u -d '30 minutes ago' +%FT%TZ)
+            others=$(gh run list -R "$GITHUB_REPOSITORY" -w agent.yml -L 5 --json databaseId,status,createdAt \
+                       -q "[.[] | select(.databaseId != ${GITHUB_RUN_ID} and (.status==\"queued\" or .status==\"pending\" or .status==\"waiting\") and .createdAt >= \"$cutoff\")] | length" 2>/dev/null || echo 0)
+            if [ "${others:-0}" != "0" ]; then
+              echo "another decision is waiting for the lane; not queueing a tick over it"; exit 0
+            fi
+            for k in 1 2 3; do
+              if gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY"; then echo "tick chain restarted"; exit 0; fi
+              echo "dispatch attempt $k failed"; sleep $((k * 15))
+            done
+            echo "::error::could not restart the tick chain - is tick.yml disabled? (Actions -> tick -> Enable workflow)"; exit 1
           else
             echo "market closed; chain stays down"
           fi

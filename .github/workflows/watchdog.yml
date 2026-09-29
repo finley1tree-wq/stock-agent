@@ -1,14 +1,25 @@
-# Backstop for the agent's schedule. GitHub cron is best-effort, so between the agent's :02/:32 slots this
-# checks whether a slot was missed while the market is open and, if so, dispatches agent.yml itself.
-# Costs about one runner-minute per tick and never calls the brain.
+# Backstop for the tick chain. tick.yml sustains itself (each run queues the next); this only
+# restarts it when it has stopped. Never calls the brain, never touches the ledger.
+#
+# Three blind spots of the old version, all seen for real:
+#   1. It ran hourly, and GitHub's best-effort cron delivered it about twice a day (37 runs in three
+#      weeks), so a stopped chain could sit dead for hours. It now asks every ten minutes.
+#   2. It counted ANY queued tick run as "alive". Run 36200868188 has been queued since 2026-09-25
+#      23:24Z and will never start; the old test would have trusted it forever. A run queued for
+#      more than 30 minutes (longer than any job may run) is now cancelled and treated as dead.
+#   3. A disabled tick.yml cannot be dispatched and nothing said so. It is now a red run (which
+#      e-mails the owner) instead of silence.
+# And one rule it must never break: it does not queue a tick while a decision (agent.yml) is live.
+# Both share the 'stock-agent' concurrency group, which keeps only ONE pending run, so a tick queued
+# behind a waiting decision cancels that decision outright (every decision on 2026-09-10 died that way).
 name: watchdog
 on:
   schedule:
-    - cron: "47 13-21 * * 1-5"
+    - cron: "3,13,23,33,43,53 13-21 * * 1-5"
   workflow_dispatch:
     inputs:
       force:
-        description: "Dispatch a check now even if one ran recently (tests the wiring)"
+        description: "Restart the tick chain now even if it looks alive (tests the wiring)"
         type: boolean
         default: false
 permissions: { actions: write, contents: read }
@@ -18,20 +29,50 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: dispatch a check if one was missed
+        with: { ref: main }
+      - name: restart the tick chain if it has stopped
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE: ${{ inputs.force }}
         run: |
-          # Decisions are made inside the tick job now (agent/run.py --if-due), so dispatching
-          # agent.yml from here only queued a run that the next tick promptly cancelled - which is
-          # exactly what happened all morning on 2026-09-10. This is now a REPORTER: it says
-          # whether a check is overdue and starts the chain if it has stopped entirely.
+          R="$GITHUB_REPOSITORY"
           python3 -m agent.watchdog --dry-run || true
-          if ! gh run list -R "$GITHUB_REPOSITORY" -w tick.yml -L 3                  --json status -q '[.[] | select(.status=="in_progress" or .status=="queued")] | length'                | grep -qv '^0$'; then
+          state=$(gh api "repos/$R/actions/workflows/tick.yml" -q .state 2>/dev/null || echo unknown)
+          if [ "$state" != "active" ]; then
+            echo "::error::tick.yml is '$state' - the agent cannot tick. Fix: Actions -> tick -> Enable workflow."
+            exit 1
+          fi
+          cutoff=$(date -u -d '30 minutes ago' +%FT%TZ)
+          for id in $(gh run list -R "$R" -w tick.yml -L 20 --json databaseId,status,createdAt \
+                        -q ".[] | select((.status==\"queued\" or .status==\"pending\" or .status==\"waiting\") and .createdAt < \"$cutoff\") | .databaseId" 2>/dev/null); do
+            echo "cancelling tick run $id: queued since before $cutoff, it will never start"
+            gh run cancel "$id" -R "$R" || true
+          done
+          live=$(gh run list -R "$R" -w tick.yml -L 10 --json status,createdAt \
+                   -q "[.[] | select(.status==\"in_progress\" or ((.status==\"queued\" or .status==\"pending\" or .status==\"waiting\") and .createdAt >= \"$cutoff\"))] | length" 2>/dev/null || echo 0)
+          # Second opinion from the ledger itself: how long since the agent last checked in. A flat
+          # book only refreshes this every 30 minutes, so the bar sits at the dashboard's own 45.
+          age=$(python3 -c "import json,time; print(int((time.time() - float(json.load(open('state.json')).get('last_check_ts') or 0)) // 60))" 2>/dev/null || echo 0)
+          open=$(python3 -c "
+          from datetime import datetime, time
+          from zoneinfo import ZoneInfo
+          from agent.broker_sim import is_trading_day, close_time
+          n = datetime.now(ZoneInfo('America/New_York'))
+          print(1 if (is_trading_day(n.date()) and time(9, 35) <= n.time() < close_time(n.date())) else 0)
+          " 2>/dev/null || echo 0)
+          # A decision that is running, or queued/pending/waiting inside the cutoff, owns the lane:
+          # queueing a tick now would cancel it if it is still waiting. The same filter as tick.yml's
+          # "keep the chain alive" step, so the two can never disagree about what is live. A decision
+          # that finishes restarts the chain itself (agent.yml, "restart the tick chain").
+          decisions=$(gh run list -R "$R" -w agent.yml -L 5 --json status,createdAt \
+                        -q "[.[] | select(.status==\"in_progress\" or ((.status==\"queued\" or .status==\"pending\" or .status==\"waiting\") and .createdAt >= \"$cutoff\"))] | length" 2>/dev/null || echo 0)
+          echo "live tick runs: ${live:-0}; live decisions: ${decisions:-0}; last check-in ${age} min ago; market open: ${open}"
+          if [ "${decisions:-0}" != "0" ]; then
+            echo "a decision is queued or running; not dispatching a tick (it would cancel a waiting decision; agent.yml restarts the chain when it ends)"
+          elif [ "$FORCE" = "true" ] || [ "${live:-0}" = "0" ] || { [ "$open" = "1" ] && [ "${age:-0}" -gt 45 ]; }; then
             echo "the chain has stopped; restarting it"
-            gh workflow run tick.yml --ref main -R "$GITHUB_REPOSITORY"
+            gh workflow run tick.yml --ref main -R "$R"
           else
             echo "chain is alive; nothing to do"
           fi
