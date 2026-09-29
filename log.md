@@ -19470,3 +19470,8 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $174.24] -> $3012.82 (+0.43%) — close 100% at +0.4% over the average cost
 ## 2026-09-29 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CCJ [time stop] -> $2978.56 (-0.71%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $518.76] -> $2004.79 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-29 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders

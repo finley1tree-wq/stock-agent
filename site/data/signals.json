@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-29T10:02-04:00",
+ "asOf": "2026-09-29T10:04-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -141,23 +141,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3209d176",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 518.7569,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 518.28,
-   "pct_away": 0.09,
-   "good_until": "2026-10-04",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "104b4460",
    "ticker": "NLR",
    "kind": "take_profit",
@@ -182,8 +165,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 127.89,
-   "pct_away": -0.85,
+   "last": 127.67,
+   "pct_away": -0.68,
    "good_until": "2026-09-29",
    "why": "Protective stop per desk rule",
    "signals": [
@@ -191,17 +174,17 @@
    ]
   },
   {
-   "id": "2989539e",
-   "ticker": "CCJ",
+   "id": "95834660",
+   "ticker": "FWONK",
    "kind": "take_profit",
-   "price": 88.5443,
+   "price": 94.7743,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 87.75,
-   "pct_away": 0.91,
+   "last": 93.85,
+   "pct_away": 0.98,
    "good_until": "2026-10-04",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -215,8 +198,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.06,
-   "pct_away": 0.94,
+   "last": 258.83,
+   "pct_away": 1.03,
    "good_until": "2026-10-04",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -232,8 +215,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.55,
-   "pct_away": -1.12,
+   "last": 93.85,
+   "pct_away": -1.44,
    "good_until": "2026-09-29",
    "why": "Protective stop per desk rule",
    "signals": [
@@ -241,17 +224,17 @@
    ]
   },
   {
-   "id": "95834660",
-   "ticker": "FWONK",
-   "kind": "take_profit",
-   "price": 94.7743,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "3b3c162a",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 125.5471,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 93.55,
-   "pct_away": 1.31,
+   "last": 127.67,
+   "pct_away": -1.66,
    "good_until": "2026-10-04",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,63 +248,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 127.89,
-   "pct_away": 1.58,
+   "last": 127.67,
+   "pct_away": 1.75,
    "good_until": "2026-10-04",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "3b3c162a",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 125.5471,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 127.89,
-   "pct_away": -1.83,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3011b5f4",
-   "ticker": "FWONK",
-   "kind": "buy_limit",
-   "price": 91.6844,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 93.55,
-   "pct_away": -1.99,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "70a2d882",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 528.7,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 518.28,
-   "pct_away": 2.01,
-   "good_until": "2026-09-29",
-   "why": "take partial profit at ~2.2% gain",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -332,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.06,
-   "pct_away": -2.34,
+   "last": 258.83,
+   "pct_away": -2.25,
    "good_until": "2026-09-29",
    "why": "Protective stop per desk rule",
    "signals": [
@@ -341,36 +274,20 @@
    ]
   },
   {
-   "id": "a7ec7e45",
-   "ticker": "CCJ",
+   "id": "3011b5f4",
+   "ticker": "FWONK",
    "kind": "buy_limit",
-   "price": 85.5637,
+   "price": 91.6844,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 87.75,
-   "pct_away": -2.49,
+   "last": 93.85,
+   "pct_away": -2.31,
    "good_until": "2026-10-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "8eed747a",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 85.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 87.75,
-   "pct_away": -2.56,
-   "good_until": "2026-09-29",
-   "why": "Protective stop below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -381,8 +298,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.06,
-   "pct_away": -2.61,
+   "last": 258.83,
+   "pct_away": -2.52,
    "good_until": "2026-10-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -404,39 +321,6 @@
    "why": "protective stop ~2.5% below entry",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "ac75f24b",
-   "ticker": "LMT",
-   "kind": "stop_loss",
-   "price": 504.4,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 518.28,
-   "pct_away": -2.68,
-   "good_until": "2026-09-29",
-   "why": "protective stop ~2.5% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "d8bb370b",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 598.6712,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 615.59,
-   "pct_away": -2.75,
-   "good_until": "2026-09-29",
-   "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
    ]
   },
   {
@@ -473,20 +357,20 @@
    ]
   },
   {
-   "id": "79be6e47",
-   "ticker": "LMT",
+   "id": "d8bb370b",
+   "ticker": "AMD",
    "kind": "buy_limit",
-   "price": 501.9944,
-   "usd": 500.0,
+   "price": 598.6712,
+   "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 518.28,
-   "pct_away": -3.14,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 617.68,
+   "pct_away": -3.08,
+   "good_until": "2026-09-29",
+   "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "momentum",
+    "dip_entry"
    ]
   },
   {
@@ -497,8 +381,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.06,
-   "pct_away": -3.72,
+   "last": 258.83,
+   "pct_away": -3.64,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
    "signals": [

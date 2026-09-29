@@ -1,8 +1,3 @@
-## 2026-09-28 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $2000.00 CCJ [buy_limit @ $86.45] — wanted it, but not at the high — resting at $86.45. Nuclear sector name at day high, not in cooldown, oversold on 1m basis (-18.1%) which could mean-revert
-## 2026-09-28 10:54 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-28 10:55 ET (Monday) — week 2026-W40 — budget left $16092.11 (today $52802.94 put to work, 25 buys, 19 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
@@ -398,3 +393,8 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $174.24] -> $3012.82 (+0.43%) — close 100% at +0.4% over the average cost
 ## 2026-09-29 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CCJ [time stop] -> $2978.56 (-0.71%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 10:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $518.76] -> $2004.79 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-29 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders

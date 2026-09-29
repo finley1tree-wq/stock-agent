@@ -6775,7 +6775,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 85.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:32",
    "created_ts": 1790688760,
    "why": "Protective stop below entry",
@@ -6784,7 +6784,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "396cc3fd",
@@ -6845,7 +6847,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 88.5443,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:32",
    "created_ts": 1790688760,
    "why": "close 100% at +0.4% over the average cost",
@@ -6855,14 +6857,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a7ec7e45",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 85.5637,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:32",
    "created_ts": 1790688760,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6872,7 +6876,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 10:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f69486ae",
@@ -7266,7 +7272,7 @@
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 504.4,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "protective stop ~2.5% below entry",
@@ -7275,7 +7281,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:04",
+   "cancel_reason": "position closed"
   },
   {
    "id": "067992de",
@@ -7316,7 +7324,7 @@
    "ticker": "LMT",
    "kind": "take_profit",
    "price": 528.7,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "take partial profit at ~2.2% gain",
@@ -7325,7 +7333,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-29 10:04",
+   "cancel_reason": "position closed"
   },
   {
    "id": "56f0f26e",
@@ -7384,7 +7394,7 @@
    "ticker": "LMT",
    "kind": "take_profit",
    "price": 518.7569,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "close 100% at +0.2% over the average cost",
@@ -7394,14 +7404,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:04"
   },
   {
    "id": "79be6e47",
    "ticker": "LMT",
    "kind": "buy_limit",
    "price": 501.9944,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7411,7 +7422,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 10:04",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8a0cc8bd",
@@ -7451,5 +7464,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-29 10:02"
+ "updated": "2026-09-29 10:04"
 }
