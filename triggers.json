@@ -4037,7 +4037,7 @@
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 598.6712,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 12:12",
    "created_ts": 1790611972,
    "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
@@ -4047,7 +4047,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-29",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "eb56ef73",
@@ -5594,7 +5596,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 452.57,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 10:52",
    "created_ts": 1790693545,
    "why": "wanted it, but not at the high \u2014 resting at $452.57. Congress buy pressure plus strong 1m momentum, semis exposure diversifies book",
@@ -5605,7 +5607,9 @@
     "patience"
    ],
    "good_until": "2026-09-29",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "3e4985cf",
@@ -6392,7 +6396,7 @@
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 174.044,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:10",
    "created_ts": 1790698251,
    "why": "wanted it, but not at the high \u2014 resting at $174.04. Congress buy pressure plus recent pullback gives room; ACN not in cooldown anymore was sold 33min ago but cooldown was only flagged as dropped, checking cooling_off list - not present now",
@@ -6403,7 +6407,9 @@
     "patience"
    ],
    "good_until": "2026-09-29",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "9b9e45c6",
@@ -6598,7 +6604,7 @@
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 174.066,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "wanted it, but not at the high \u2014 resting at $174.07. named congress buy pressure plus pullback, currently mid-range (85% of day range is high but limit resting near low was not hit, buying market small size given ACN sits at day high signal",
@@ -6609,14 +6615,16 @@
     "patience"
    ],
    "good_until": "2026-09-29",
-   "usd": 1625.0
+   "usd": 1625.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "045e5900",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 453.1365,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:26",
    "created_ts": 1790699208,
    "why": "wanted it, but not at the high \u2014 resting at $453.14. congress buy plus strong momentum, diversifies book into semis away from AAPL/GOOGL concentration",
@@ -6627,7 +6635,9 @@
     "patience"
    ],
    "good_until": "2026-09-29",
-   "usd": 1625.0
+   "usd": 1625.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "380b692b",
@@ -6969,7 +6979,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 337.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 12:58",
    "created_ts": 1790701089,
    "why": "Wait for cooldown to clear and get a better entry below current price",
@@ -6979,7 +6989,9 @@
     "momentum"
    ],
    "good_until": "2026-09-29",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "65be0ea0",
@@ -7136,7 +7148,7 @@
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 595.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "protective stop below day low",
@@ -7145,14 +7157,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "53adfff4",
    "ticker": "NVDA",
    "kind": "stop_loss",
    "price": 224.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "protective stop below day low",
@@ -7161,14 +7175,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ab472510",
    "ticker": "TPL",
    "kind": "stop_loss",
    "price": 324.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "protective stop below entry",
@@ -7177,14 +7193,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "78f31fa5",
    "ticker": "LTH",
    "kind": "stop_loss",
    "price": 38.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "protective stop below day low",
@@ -7193,14 +7211,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "037ee545",
    "ticker": "HUBB",
    "kind": "stop_loss",
    "price": 445.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "protective stop below day low",
@@ -7209,7 +7229,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "245f2a73",
@@ -7253,7 +7275,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 615.242,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "close 100% at +0.5% over the average cost",
@@ -7263,14 +7285,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8aa69d80",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 593.9989,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7280,14 +7304,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "9b0eb56a",
    "ticker": "NVDA",
    "kind": "take_profit",
    "price": 229.7945,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "close 100% at +0.3% over the average cost",
@@ -7297,14 +7323,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0d4ce3f8",
    "ticker": "NVDA",
    "kind": "buy_limit",
    "price": 222.3337,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7314,14 +7342,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "05d04ea2",
    "ticker": "TPL",
    "kind": "take_profit",
    "price": 333.4768,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "close 100% at +0.5% over the average cost",
@@ -7331,14 +7361,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f69d457a",
    "ticker": "TPL",
    "kind": "buy_limit",
    "price": 321.9721,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7348,14 +7380,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "6013c0e2",
    "ticker": "LTH",
    "kind": "take_profit",
    "price": 39.6614,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "close 100% at +0.4% over the average cost",
@@ -7365,14 +7399,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "43ae0a4a",
    "ticker": "LTH",
    "kind": "buy_limit",
    "price": 38.3053,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7382,14 +7418,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "ae8f547a",
    "ticker": "HUBB",
    "kind": "take_profit",
    "price": 459.5846,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "close 100% at +0.3% over the average cost",
@@ -7399,14 +7437,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a7b1840e",
    "ticker": "HUBB",
    "kind": "buy_limit",
    "price": 444.4637,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 13:29",
    "created_ts": 1790702987,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7416,7 +7456,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   }
  ],
  "updated": "2026-09-29 13:55"

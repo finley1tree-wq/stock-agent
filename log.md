@@ -20011,3 +20011,10 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $730.57] -> $3013.49 (+0.45%) — close 100% at +0.4% over the average cost
 ## 2026-09-29 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 11 resting buy order(s): past the entry cutoff)
+- SELL 100% AMD [time stop] -> $2488.59 (-0.46%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $2485.70 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TPL [time stop] -> $1996.83 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LTH [time stop] -> $2007.51 (+0.38%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HUBB [time stop] -> $1999.36 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 14:00 ET — tick — 5 sell(s), 0 buy(s) from standing orders

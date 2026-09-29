@@ -1,10 +1,3 @@
-Decision: nothing at this check. 1 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-29 10:36 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
   (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
   (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
@@ -398,3 +391,10 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $730.57] -> $3013.49 (+0.45%) — close 100% at +0.4% over the average cost
 ## 2026-09-29 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 11 resting buy order(s): past the entry cutoff)
+- SELL 100% AMD [time stop] -> $2488.59 (-0.46%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $2485.70 (-0.57%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TPL [time stop] -> $1996.83 (-0.16%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% LTH [time stop] -> $2007.51 (+0.38%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HUBB [time stop] -> $1999.36 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 14:00 ET — tick — 5 sell(s), 0 buy(s) from standing orders
