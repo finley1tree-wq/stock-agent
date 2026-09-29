@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 2071.19,
+  "spent": 70.04,
   "deployed": 124900.18,
   "by_ticker": {
     "AVGO": 10.48,
@@ -21,7 +21,6 @@
     "CRWD": 21.17,
     "HLI": 20.2,
     "FWONK": 7.89,
-    "NLR": 2000.0,
     "HUBB": 16.26
   },
   "deployed_by_ticker": {
@@ -2162,13 +2161,33 @@
       ],
       "evidence": "average cost $468.61",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NLR",
+      "side": "sell",
+      "qty": 19.072184,
+      "status": "filled",
+      "price": 104.92,
+      "proceeds": 2001.15,
+      "realized_pnl": 1.15,
+      "realized_pct": 0.06,
+      "date": "2026-09-29",
+      "time_et": "10:25",
+      "ts": 1790691936,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.16% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 2028.62,
+  "spent_today": 27.47,
   "deployed_today": 30000.0,
   "orders_today": 13,
-  "sells_today": 13,
+  "sells_today": 14,
   "sold_today": [
     "HD",
     "NOC",
@@ -2182,7 +2201,8 @@
     "CRWD",
     "HLI",
     "FWONK",
-    "HUBB"
+    "HUBB",
+    "NLR"
   ],
   "sold_ts": {
     "PLTR": 1790612839,
@@ -2209,19 +2229,16 @@
     "NEM": 1790610063,
     "HLI": 1790690975,
     "FWONK": 1790690975,
-    "HUBB": 1790691347
+    "HUBB": 1790691347,
+    "NLR": 1790691936
   },
-  "last_publish_ts": 1790691346,
-  "last_check_ts": 1790691852,
-  "last_bar_ts": 1790691600,
-  "last_decision_ts": 1790691758,
+  "last_publish_ts": 1790691936,
+  "last_check_ts": 1790691938,
+  "last_bar_ts": 1790691900,
+  "last_decision_ts": 1790691938,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "104b4460": 105.2312,
-    "c08ec58c": 102.1,
-    "d8bb370b": 598.6712,
-    "f7ba7f90": 107.9,
-    "300b7401": 101.7142
+    "d8bb370b": 598.6712
   }
 }

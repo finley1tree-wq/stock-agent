@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-29T10:15-04:00",
+ "asOf": "2026-09-29T10:25-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -141,39 +141,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "104b4460",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 105.2312,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.82,
-   "pct_away": 0.39,
-   "good_until": "2026-10-04",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c08ec58c",
-   "ticker": "NLR",
-   "kind": "stop_loss",
-   "price": 102.1,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.82,
-   "pct_away": -2.59,
-   "good_until": "2026-09-29",
-   "why": "protective stop ~2.5% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
    "id": "d8bb370b",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -181,46 +148,13 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 615.15,
-   "pct_away": -2.68,
+   "last": 615.79,
+   "pct_away": -2.78,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "f7ba7f90",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 107.9,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 104.82,
-   "pct_away": 2.94,
-   "good_until": "2026-09-29",
-   "why": "take partial profit at ~3% gain",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "300b7401",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 101.7142,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 104.82,
-   "pct_away": -2.96,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],

@@ -44111,7 +44111,9 @@
     "code_version": "c392f20",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "LMT",
@@ -44426,5 +44428,30 @@
     "hour_et": 10,
     "code_version": "35f0951",
     "hold_minutes": 4
+  },
+  {
+    "symbol": "NLR",
+    "side": "sell",
+    "qty": 19.072184,
+    "status": "filled",
+    "price": 104.92,
+    "proceeds": 2001.15,
+    "realized_pnl": 1.15,
+    "realized_pct": 0.06,
+    "date": "2026-09-29",
+    "time_et": "10:25",
+    "ts": 1790691936,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "time_stop",
+      "track_record"
+    ],
+    "evidence": "bought 30 min ago, +0.16% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "756364d",
+    "hold_minutes": 30
   }
 ]
