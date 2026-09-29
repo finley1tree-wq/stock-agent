@@ -1,10 +1,10 @@
 {
   "week": "2026-W40",
-  "spent": 9035.34,
-  "deployed": 106900.18,
+  "spent": 18035.34,
+  "deployed": 115900.18,
   "by_ticker": {
-    "AVGO": 18.09,
-    "TTD": 29.2,
+    "AVGO": 2518.09,
+    "TTD": 2029.2,
     "AAPL": 4.46,
     "IBM": 5.12,
     "PLTR": 7.18,
@@ -19,20 +19,23 @@
     "AMZN": 4.04,
     "NVDA": 16.58,
     "CCJ": 3000.0,
-    "ACN": 3000.0
+    "ACN": 3000.0,
+    "CRWD": 2000.0,
+    "HLI": 1500.0,
+    "FWONK": 1000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
     "PLTR": 9000.0,
     "TSM": 8850.0,
-    "AVGO": 3000.0,
-    "TTD": 4000.0,
+    "AVGO": 5500.0,
+    "TTD": 6000.0,
     "ACN": 4000.0,
     "AMD": 2000.0,
     "MSFT": 4058.82,
     "NOC": 8947.06,
     "UNH": 5647.06,
-    "CRWD": 3000.0,
+    "CRWD": 5000.0,
     "NVDA": 7500.0,
     "GOOGL": 5747.06,
     "AAPL": 4500.0,
@@ -43,7 +46,9 @@
     "RTX": 4800.0,
     "CCJ": 8900.0,
     "LMT": 4750.0,
-    "NEM": 1400.0
+    "NEM": 1400.0,
+    "HLI": 1500.0,
+    "FWONK": 1000.0
   },
   "orders": [
     {
@@ -1776,12 +1781,95 @@
       ],
       "evidence": "average cost $503.75",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.955615,
+      "price": 359.42,
+      "date": "2026-09-29",
+      "time_et": "09:39",
+      "ts": 1790689166,
+      "why": "Congress buy pressure plus positive daily momentum, not yet extended (65% of range)",
+      "signals": [
+        "congress",
+        "momentum",
+        "news"
+      ],
+      "evidence": "Rep. Rick W. Allen (spouse) bought AVGO $1,001-$15,000 disclosed 2026-09-22; stock +2.8% today, 65% of day range, congress_net_buy_pressure 2.0"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.689291,
+      "price": 260.1,
+      "date": "2026-09-29",
+      "time_et": "09:39",
+      "ts": 1790689166,
+      "why": "Congress pressure ticker with strong 1m momentum, room before hitting chase limit",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "congress_net_buy_pressure 2.0 for CRWD, +0.31% today, +19.07% 1mo; existing buy_limit working at 249.42 but adding core position now at market since only 59.6% of range"
+    },
+    {
+      "symbol": "TTD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 162.140172,
+      "price": 12.34,
+      "date": "2026-09-29",
+      "time_et": "09:39",
+      "ts": 1790689166,
+      "why": "Repeated congressional buying signal on TTD, currently only 27.8% of day range - not chasing",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "Rep. Gilbert Ray Cisneros disclosed TTD buys twice ($1,001-$15,000 each, 2026-09-10 and 2026-09-04); congress_net_buy_pressure 2.0"
+    },
+    {
+      "symbol": "HLI",
+      "notional": 1500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.589119,
+      "price": 129.43,
+      "date": "2026-09-29",
+      "time_et": "09:39",
+      "ts": 1790689166,
+      "why": "Congress-flagged name at the low of its day range, good entry point",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "congress_net_buy_pressure 2.0 for HLI, at 0% of day range (low)"
+    },
+    {
+      "symbol": "FWONK",
+      "notional": 1000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.580019,
+      "price": 94.52,
+      "date": "2026-09-29",
+      "time_et": "09:39",
+      "ts": 1790689166,
+      "why": "Congress-flagged ticker in allowed list with room before chase limit",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "congress_net_buy_pressure 2.0 for FWONK, at 36.5% of day range"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 8992.77,
-  "deployed_today": 12000.0,
-  "orders_today": 4,
+  "spent_today": 17992.77,
+  "deployed_today": 21000.0,
+  "orders_today": 9,
   "sells_today": 2,
   "sold_today": [
     "HD",
@@ -1811,22 +1899,37 @@
     "LMT": 1790614723,
     "NEM": 1790610063
   },
-  "last_publish_ts": 1790688996,
-  "last_check_ts": 1790689074,
+  "last_publish_ts": 1790689166,
+  "last_check_ts": 1790689166,
   "last_bar_ts": 1790688900,
-  "last_decision_ts": 1790688760,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1790689166,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "7a429cdd": 174.2408,
+    "95834660": 94.7743,
+    "67ff06ca": 360.5162,
+    "0acc0605": 129.9076,
     "ac183e42": 450.6244,
+    "7a429cdd": 174.2408,
+    "26c2e1a6": 12.3978,
+    "c665f966": 261.4967,
     "2989539e": 88.5443,
     "d8bb370b": 598.6712,
-    "66e3e944": 438.0,
+    "00b7eb5e": 126.8,
+    "9cbbbb8f": 352.0,
     "a7ec7e45": 85.5637,
+    "75a401ae": 92.5,
     "8eed747a": 85.5,
+    "66e3e944": 438.0,
     "a5192aee": 436.0635,
+    "ff63fb4c": 253.0,
     "9f2077cf": 168.295,
+    "16dfcb84": 11.9698,
+    "3b3c162a": 125.5471,
+    "3011b5f4": 91.6844,
+    "e87e10e4": 348.6374,
+    "29c5e8e4": 252.297,
+    "967a15d1": 11.95,
     "26d22025": 167.0,
     "6e4d20d8": 249.4201
   }

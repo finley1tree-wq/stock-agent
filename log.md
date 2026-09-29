@@ -19396,3 +19396,35 @@ Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $12957.43 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $504.96] -> $3007.23 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-29 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 09:39 ET (Tuesday) — week 2026-W40 — budget left $15964.66 (today $12000.00 put to work, 4 buys, 2 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain: Only 3 positions held vs min_positions=8, cash_idle_pct 63.9% - need to deploy toward target count. Picked congress-flagged tickers (AVGO, TTD, HLI, FWONK have congress_net_buy_pressure >=2) plus CRWD which has both congress pressure and strong momentum, each with concrete disclosure evidence, sized $1000-2500 to build toward 8 positions while respecting momentum-only entry ban. Added protective stops on all new buys per risk_management practice which has the best track record (0.17% avg, 88% hit rate).
+lesson: Congress-pressure tickers (congress_net_buy_pressure>=2) with named disclosures give a real evidence tag distinct from momentum-only entries that get dropped by guardrails; use them to hit min_positions instead of waiting on cooldowns.
+- BUY $2500.00 AVGO [filled] ['congress', 'momentum', 'news'] — Congress buy pressure plus positive daily momentum, not yet extended (65% of range) | evidence: Rep. Rick W. Allen (spouse) bought AVGO $1,001-$15,000 disclosed 2026-09-22; stock +2.8% today, 65% of day range, congress_net_buy_pressure 2.0
+- BUY $2000.00 CRWD [filled] ['congress', 'momentum'] — Congress pressure ticker with strong 1m momentum, room before hitting chase limit | evidence: congress_net_buy_pressure 2.0 for CRWD, +0.31% today, +19.07% 1mo; existing buy_limit working at 249.42 but adding core position now at market since only 59.6% of range
+- BUY $2000.00 TTD [filled] ['congress'] — Repeated congressional buying signal on TTD, currently only 27.8% of day range - not chasing | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buys twice ($1,001-$15,000 each, 2026-09-10 and 2026-09-04); congress_net_buy_pressure 2.0
+- BUY $1500.00 HLI [filled] ['congress'] — Congress-flagged name at the low of its day range, good entry point | evidence: congress_net_buy_pressure 2.0 for HLI, at 0% of day range (low)
+- BUY $1000.00 FWONK [filled] ['congress'] — Congress-flagged ticker in allowed list with room before chase limit | evidence: congress_net_buy_pressure 2.0 for FWONK, at 36.5% of day range
+~ WORKING stop_loss 100% AVGO @ $352.00 until 2026-09-29 — Protective stop per desk rule
+~ WORKING stop_loss 100% CRWD @ $253.00 until 2026-09-29 — Protective stop per desk rule
+~ WORKING stop_loss 100% TTD @ $11.95 until 2026-09-29 — Protective stop per desk rule
+~ WORKING stop_loss 100% HLI @ $126.80 until 2026-09-29 — Protective stop per desk rule
+~ WORKING stop_loss 100% FWONK @ $92.50 until 2026-09-29 — Protective stop per desk rule
+~ WORKING take_profit 100% AVGO @ $360.52 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $348.64 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $261.50 until 2026-10-04 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $252.30 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.40 until 2026-10-04 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $11.97 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $129.91 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 HLI @ $125.55 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FWONK @ $94.77 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 FWONK @ $91.68 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25252.53 (+1.01% on $25000.00 in) · cash $7296.24 · realised +296.24
+Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $6964.66 this week

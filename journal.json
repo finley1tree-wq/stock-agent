@@ -43784,7 +43784,8 @@
     "hour_et": 9,
     "code_version": "3e932da",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.9
   },
   {
     "symbol": "NOC",
@@ -43809,7 +43810,10 @@
     "hour_et": 9,
     "code_version": "3e932da",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.24,
+    "ret_now": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -43834,7 +43838,8 @@
     "hour_et": 9,
     "code_version": "3e932da",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.28
   },
   {
     "symbol": "ACN",
@@ -43858,7 +43863,8 @@
     "hour_et": 9,
     "code_version": "3e932da",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.09
   },
   {
     "symbol": "NOC",
@@ -43883,6 +43889,130 @@
     "evidence": "average cost $503.75",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "1b6a48b"
+    "code_version": "1b6a48b",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.955615,
+    "price": 359.42,
+    "date": "2026-09-29",
+    "time_et": "09:39",
+    "ts": 1790689166,
+    "why": "Congress buy pressure plus positive daily momentum, not yet extended (65% of range)",
+    "signals": [
+      "congress",
+      "momentum",
+      "news"
+    ],
+    "evidence": "Rep. Rick W. Allen (spouse) bought AVGO $1,001-$15,000 disclosed 2026-09-22; stock +2.8% today, 65% of day range, congress_net_buy_pressure 2.0",
+    "entry_price": 359.35,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -2.56,
+    "hour_et": 9,
+    "code_version": "7f7f390",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CRWD",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.689291,
+    "price": 260.1,
+    "date": "2026-09-29",
+    "time_et": "09:39",
+    "ts": 1790689166,
+    "why": "Congress pressure ticker with strong 1m momentum, room before hitting chase limit",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress_net_buy_pressure 2.0 for CRWD, +0.31% today, +19.07% 1mo; existing buy_limit working at 249.42 but adding core position now at market since only 59.6% of range",
+    "entry_price": 260.05,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 19.07,
+    "hour_et": 9,
+    "code_version": "7f7f390",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TTD",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 162.140172,
+    "price": 12.34,
+    "date": "2026-09-29",
+    "time_et": "09:39",
+    "ts": 1790689166,
+    "why": "Repeated congressional buying signal on TTD, currently only 27.8% of day range - not chasing",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "Rep. Gilbert Ray Cisneros disclosed TTD buys twice ($1,001-$15,000 each, 2026-09-10 and 2026-09-04); congress_net_buy_pressure 2.0",
+    "entry_price": 12.33,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -9.14,
+    "hour_et": 9,
+    "code_version": "7f7f390",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HLI",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.589119,
+    "price": 129.43,
+    "date": "2026-09-29",
+    "time_et": "09:39",
+    "ts": 1790689166,
+    "why": "Congress-flagged name at the low of its day range, good entry point",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure 2.0 for HLI, at 0% of day range (low)",
+    "entry_price": 129.38,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -2.74,
+    "hour_et": 9,
+    "code_version": "7f7f390",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "FWONK",
+    "notional": 1000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.580019,
+    "price": 94.52,
+    "date": "2026-09-29",
+    "time_et": "09:39",
+    "ts": 1790689166,
+    "why": "Congress-flagged ticker in allowed list with room before chase limit",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure 2.0 for FWONK, at 36.5% of day range",
+    "entry_price": 94.48,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -7.19,
+    "hour_et": 9,
+    "code_version": "7f7f390",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
