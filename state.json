@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 13017.99,
-  "deployed": 115900.18,
+  "spent": 19017.99,
+  "deployed": 121900.18,
   "by_ticker": {
     "AVGO": 2518.09,
     "TTD": 19.02,
@@ -10,10 +10,10 @@
     "PLTR": 7.18,
     "RTX": 9.84,
     "AMD": 6.07,
-    "LMT": 19.57,
+    "LMT": 2019.57,
     "NOC": 6.09,
     "GOOGL": 8.28,
-    "UNH": 9.07,
+    "UNH": 2009.07,
     "NEM": 4.25,
     "AMZN": 4.04,
     "NVDA": 16.58,
@@ -21,7 +21,8 @@
     "ACN": 3000.0,
     "CRWD": 2000.0,
     "HLI": 1500.0,
-    "FWONK": 1000.0
+    "FWONK": 1000.0,
+    "NLR": 2000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -33,7 +34,7 @@
     "AMD": 2000.0,
     "MSFT": 4058.82,
     "NOC": 8947.06,
-    "UNH": 5647.06,
+    "UNH": 7647.06,
     "CRWD": 5000.0,
     "NVDA": 7500.0,
     "GOOGL": 5747.06,
@@ -44,10 +45,11 @@
     "META": 1000.0,
     "RTX": 4800.0,
     "CCJ": 8900.0,
-    "LMT": 4750.0,
+    "LMT": 6750.0,
     "NEM": 1400.0,
     "HLI": 1500.0,
-    "FWONK": 1000.0
+    "FWONK": 1000.0,
+    "NLR": 2000.0
   },
   "orders": [
     {
@@ -1905,12 +1907,63 @@
       ],
       "evidence": "average cost $12.34",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NLR",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.072184,
+      "price": 104.86,
+      "date": "2026-09-29",
+      "time_et": "09:55",
+      "ts": 1790690120,
+      "why": "Diversify nuclear exposure beyond CCJ using a different vehicle (NLR ETF-like basket) to add a position count without concentrating single-name nuclear risk; low in day range (65.8% of range) is not extreme",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "NLR +0.76% today, part of nuclear sector where backtest_priors shows nuclear sector avg_total_return_pct 269-282% over 2y/5y windows (weak prior, but consistent with existing CCJ nuclear holding)"
+    },
+    {
+      "symbol": "LMT",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.864608,
+      "price": 517.52,
+      "date": "2026-09-29",
+      "time_et": "09:55",
+      "ts": 1790690120,
+      "why": "Add defense sector name to diversify beyond widely_held tech names already at cooldown, defense sector has strong historical backtest support",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Defense sector backtest 2y avg_total_return_pct 137.93%, LMT part of watchlist defense group alongside PLTR/RTX/NOC which have congress buy pressure; LMT price $517.31 mid-range (63.4% of day range)"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.352822,
+      "price": 373.63,
+      "date": "2026-09-29",
+      "time_et": "09:55",
+      "ts": 1790690120,
+      "why": "UNH near its day low (0.3% of range) offers a good entry level versus buying names high in their range; widely_held sector has largest sample size (n=392) in track record",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "UNH day range only 0.3% (near day low $373.55), widely_held sector track record avg_ret_pct -0.0% but hit_rate 0.56, price pulled back -1.13% today creating a lower entry point"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 12975.42,
-  "deployed_today": 21000.0,
-  "orders_today": 9,
+  "spent_today": 18975.42,
+  "deployed_today": 27000.0,
+  "orders_today": 12,
   "sells_today": 4,
   "sold_today": [
     "HD",
@@ -1942,31 +1995,43 @@
     "LMT": 1790614723,
     "NEM": 1790610063
   },
-  "last_publish_ts": 1790690029,
-  "last_check_ts": 1790690029,
-  "last_bar_ts": 1790689800,
-  "last_decision_ts": 1790689166,
+  "last_publish_ts": 1790690120,
+  "last_check_ts": 1790690120,
+  "last_bar_ts": 1790690100,
+  "last_decision_ts": 1790690120,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "7a429cdd": 174.2408,
+    "8a0cc8bd": 374.4931,
+    "3209d176": 518.7569,
     "67ff06ca": 360.5162,
-    "0acc0605": 129.9076,
+    "104b4460": 105.2312,
     "95834660": 94.7743,
     "2989539e": 88.5443,
-    "75a401ae": 92.5,
     "00b7eb5e": 126.8,
+    "0acc0605": 129.9076,
     "c665f966": 261.4967,
+    "75a401ae": 92.5,
+    "56f0f26e": 379.5,
     "ff63fb4c": 253.0,
-    "29c5e8e4": 252.297,
     "9cbbbb8f": 352.0,
-    "3011b5f4": 91.6844,
-    "a7ec7e45": 85.5637,
+    "29c5e8e4": 252.297,
     "3b3c162a": 125.5471,
+    "70a2d882": 528.7,
+    "a7ec7e45": 85.5637,
+    "3011b5f4": 91.6844,
     "8eed747a": 85.5,
+    "067992de": 364.3,
+    "ac75f24b": 504.4,
+    "c08ec58c": 102.1,
+    "300b7401": 101.7142,
     "e87e10e4": 348.6374,
-    "6e4d20d8": 249.4201,
+    "79be6e47": 501.9944,
+    "ca9b4593": 362.4211,
+    "f7ba7f90": 107.9,
     "9f2077cf": 168.295,
+    "6e4d20d8": 249.4201,
     "d8bb370b": 598.6712,
     "26d22025": 167.0
   }

@@ -19434,3 +19434,30 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $6964.66 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $12.40] -> $2010.18 (+0.51%) — close 100% at +0.5% over the average cost
 ## 2026-09-29 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 09:55 ET (Tuesday) — week 2026-W40 — budget left $11982.01 (today $21000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain: Below min_positions (6 of 8) with $11,982 remaining budget and 47.9% cash idle - a self-inflicted drag per counterfactual data (idle_share 0.55, avg_regret_pct -0.31 historically when sitting out). Adding NLR (nuclear diversification distinct from CCJ), LMT (defense sector, strong 2y/5y backtest, congress pressure names in same watchlist group), and UNH (widely_held, currently at day low giving good entry) brings us to 9 positions across sectors while respecting cooldowns (TSM/NOC/TTD/HD blocked). Each new buy gets a stop_loss and take_profit per risk_management signal which historically shows 0.17% avg_ret and 0.88 hit_rate, the best-performing signal bucket.
+lesson: When below min_positions with idle cash, prioritize sector diversification (nuclear/defense/widely_held) using entries near day lows or with named congress/backtest support rather than waiting on cooldowns to clear.
+- BUY $2000.00 NLR [filled] ['momentum', 'track_record'] — Diversify nuclear exposure beyond CCJ using a different vehicle (NLR ETF-like basket) to add a position count without concentrating single-name nuclear risk; low in day range (65.8% of range) is not extreme | evidence: NLR +0.76% today, part of nuclear sector where backtest_priors shows nuclear sector avg_total_return_pct 269-282% over 2y/5y windows (weak prior, but consistent with existing CCJ nuclear holding)
+- BUY $2000.00 LMT [filled] ['congress', 'momentum'] — Add defense sector name to diversify beyond widely_held tech names already at cooldown, defense sector has strong historical backtest support | evidence: Defense sector backtest 2y avg_total_return_pct 137.93%, LMT part of watchlist defense group alongside PLTR/RTX/NOC which have congress buy pressure; LMT price $517.31 mid-range (63.4% of day range)
+- BUY $2000.00 UNH [filled] ['momentum', 'track_record'] — UNH near its day low (0.3% of range) offers a good entry level versus buying names high in their range; widely_held sector has largest sample size (n=392) in track record | evidence: UNH day range only 0.3% (near day low $373.55), widely_held sector track record avg_ret_pct -0.0% but hit_rate 0.56, price pulled back -1.13% today creating a lower entry point
+~ WORKING stop_loss 100% NLR @ $102.10 until 2026-09-29 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% LMT @ $504.40 until 2026-09-29 — protective stop ~2.5% below entry
+~ WORKING stop_loss 100% UNH @ $364.30 until 2026-09-29 — protective stop ~2.5% below entry
+~ WORKING take_profit 50% NLR @ $107.90 until 2026-09-29 — take partial profit at ~3% gain
+~ WORKING take_profit 50% LMT @ $528.70 until 2026-09-29 — take partial profit at ~2.2% gain
+~ WORKING take_profit 50% UNH @ $379.50 until 2026-09-29 — take partial profit at ~1.6% gain
+~ WORKING take_profit 100% NLR @ $105.23 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $101.71 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $518.76 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $501.99 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $374.49 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $362.42 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25259.73 (+1.04% on $25000.00 in) · cash $6313.59 · realised +313.59
+Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week

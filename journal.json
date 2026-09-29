@@ -43785,7 +43785,7 @@
     "code_version": "3e932da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.9
+    "ret_now": -0.6
   },
   {
     "symbol": "NOC",
@@ -43839,7 +43839,9 @@
     "code_version": "3e932da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -43864,7 +43866,7 @@
     "code_version": "3e932da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": 0.27
   },
   {
     "symbol": "NOC",
@@ -43916,7 +43918,8 @@
     "hour_et": 9,
     "code_version": "7f7f390",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.03
   },
   {
     "symbol": "CRWD",
@@ -43941,7 +43944,8 @@
     "hour_et": 9,
     "code_version": "7f7f390",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.87
   },
   {
     "symbol": "TTD",
@@ -43965,7 +43969,10 @@
     "hour_et": 9,
     "code_version": "7f7f390",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.51,
+    "ret_now": 0.51,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -43989,7 +43996,8 @@
     "hour_et": 9,
     "code_version": "7f7f390",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.82
   },
   {
     "symbol": "FWONK",
@@ -44013,7 +44021,8 @@
     "hour_et": 9,
     "code_version": "7f7f390",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.6
   },
   {
     "symbol": "TSM",
@@ -44038,7 +44047,8 @@
     "evidence": "average cost $449.55",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "cf6096b"
+    "code_version": "cf6096b",
+    "hold_minutes": 17
   },
   {
     "symbol": "TTD",
@@ -44062,6 +44072,82 @@
     "evidence": "average cost $12.34",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "cf6096b"
+    "code_version": "cf6096b",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "NLR",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 19.072184,
+    "price": 104.86,
+    "date": "2026-09-29",
+    "time_et": "09:55",
+    "ts": 1790690120,
+    "why": "Diversify nuclear exposure beyond CCJ using a different vehicle (NLR ETF-like basket) to add a position count without concentrating single-name nuclear risk; low in day range (65.8% of range) is not extreme",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "NLR +0.76% today, part of nuclear sector where backtest_priors shows nuclear sector avg_total_return_pct 269-282% over 2y/5y windows (weak prior, but consistent with existing CCJ nuclear holding)",
+    "entry_price": 104.76,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -11.31,
+    "hour_et": 9,
+    "code_version": "c392f20",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "LMT",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.864608,
+    "price": 517.52,
+    "date": "2026-09-29",
+    "time_et": "09:55",
+    "ts": 1790690120,
+    "why": "Add defense sector name to diversify beyond widely_held tech names already at cooldown, defense sector has strong historical backtest support",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Defense sector backtest 2y avg_total_return_pct 137.93%, LMT part of watchlist defense group alongside PLTR/RTX/NOC which have congress buy pressure; LMT price $517.31 mid-range (63.4% of day range)",
+    "entry_price": 517.31,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.25,
+    "hour_et": 9,
+    "code_version": "c392f20",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "UNH",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.352822,
+    "price": 373.63,
+    "date": "2026-09-29",
+    "time_et": "09:55",
+    "ts": 1790690120,
+    "why": "UNH near its day low (0.3% of range) offers a good entry level versus buying names high in their range; widely_held sector has largest sample size (n=392) in track record",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "UNH day range only 0.3% (near day low $373.55), widely_held sector track record avg_ret_pct -0.0% but hit_rate 0.56, price pulled back -1.13% today creating a lower entry point",
+    "entry_price": 373.56,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -4.93,
+    "hour_et": 9,
+    "code_version": "c392f20",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
