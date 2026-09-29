@@ -42,6 +42,8 @@ learning loop keeps working while the credits are out.
 """
 from __future__ import annotations
 
+from .selection import entry_blocked
+
 ETFS = {"SPY", "DIA", "GLD", "VNQ", "NLR", "QQQ", "IWM", "XLF", "XLE", "ARKK"}
 
 def _f(v, d=0.0):
@@ -128,11 +130,18 @@ def plan(ctx: dict, g: dict) -> dict:
                            + (f", incl. {role}" if role else "") + ")")
         elif ip > 0:
             bits.insert(0, "insider net buying (Form 4)")
-        ranked.append((score, t, "; ".join(bits)))
+        why = "; ".join(bits)
+        # Momentum alone is not a reason under allow_momentum_only_entries: false (selection.py:
+        # this file's momentum-only picks lost $164 after costs). Skip the name here rather than
+        # propose an order the guardrails would drop, so a disclosure-backed name gets the slot.
+        if entry_blocked(_signals(why), g):
+            continue
+        ranked.append((score, t, why))
 
     if not ranked:
         return _empty("autopilot: no name passed the screen (needs positive one-month momentum, "
-                      "room below the day's high, and it must not be an index fund)")
+                      "room below the day's high, it must not be an index fund - and while "
+                      "allow_momentum_only_entries is false, congressional or insider buying behind it)")
 
     ranked.sort(reverse=True)
     take = ranked[:max(0, want - have)]

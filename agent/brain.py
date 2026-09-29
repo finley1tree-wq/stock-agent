@@ -103,7 +103,12 @@ Rules of thumb:
   another check spent holding. The owner's instruction is explicit: more stocks at a time, in real size.
 - Dip orders are placed automatically on names you do NOT hold: positive one-month momentum, currently low in
   the day's range. They rest under the market and fill only if the dip arrives. You do not need to recreate
-  them; place your own buy_limit only when you want a different level or a name they missed.
+  them; place your own buy_limit only when you want a different level or a name they missed. They are
+  momentum-only by construction, so they are not placed while allow_momentum_only_entries is false.
+- When guardrails.allow_momentum_only_entries is false, an entry (a buy, a buy_limit or a buy_stop) whose ONLY
+  signal is momentum is dropped: over three weeks momentum-only entries lost money after costs and their win
+  rate fell every week. An entry needs a reason besides the trend - a filing, a headline, a followed person.
+  Tag the signals that are genuinely behind it; never add a tag the evidence does not support.
 - SIZE YOUR ORDERS FOR THE ACCOUNT YOU HAVE. The budget is in "remaining_budget_usd" and it is thousands of
   dollars, not hundreds. An order of a few hundred dollars against a $25,000 account is not caution, it is
   leaving the account uninvested - and orders below min_order_usd are DROPPED, so a too-small order does not
@@ -146,8 +151,9 @@ Rules of thumb:
 - Don't chase tickers that already ran up a lot this month. Respect the guardrails given.
 - If "friday_cleanup" is true you MUST deploy the entire remaining budget now (still split sensibly). It is only
   ever true when max_hold_minutes is 0: a weekly deploy-everything sweep cannot coexist with an intraday clock.
-- If "no_new_entries_this_check" is true the session is inside its last max_hold_minutes: do not propose buys,
-  they will be dropped. Sells and protective orders are still yours to make.
+- If "no_new_entries_this_check" is true the session is past its entry cutoff - at or after
+  no_new_entries_after_et (in "guardrails"), or inside its last max_hold_minutes: do not propose buys, they
+  will be dropped. Sells and protective orders are still yours to make.
 
 Answer by calling the submit_plan tool exactly once. Use empty lists for orders/sells when doing nothing."""
 

@@ -78,6 +78,7 @@ guardrails:
   # Status of that gate, honestly: one-month momentum is indistinguishable from luck at every horizon
   # the replay measured, and nothing has been measured at 30 minutes at all. It is kept because it is
   # cheap, explainable and graded (the dip_entry tag), not because it is proven.
+  # INACTIVE while allow_momentum_only_entries is false: a dip order's only signal is momentum.
   dip_hunt:
     enabled: true
     names: 10                    # how many resting dip orders to keep out at once. More resting orders
@@ -111,6 +112,18 @@ guardrails:
   autopilot_decision_minutes: 2
   min_decision_minutes: 6
   max_decision_minutes: 30
+
+  # SELECTION CULLS (agent/selection.py). Post-mortem of 797 closed round trips, 09-08..09-28, after
+  # costs, with the fake AMD fill of 09-21 removed: the whole book netted +$286 at t = 0.58, so NOTHING
+  # here is proven. These two habits are cut only because trades that show no edge still pay the
+  # spread both ways; not taking them saves that. Exits (stops, targets, the clock) are unaffected.
+  no_new_entries_after_et: "14:00"   # entries at 14:00-15:59 ET: -$365 over 146 trips, 42-45% won
+                                     # (09:00-10:59 entries: +$592). Remove the line to turn it off.
+  allow_momentum_only_entries: false # an entry whose ONLY signal is momentum: -$88 in all, win rate
+                                     # 63% -> 55% -> 49% week by week; the rules-only autopilot's
+                                     # momentum-only picks -$164 after costs. Disclosure-backed entries
+                                     # stay (congress +$215, insider +$97). Also retires dip_hunt below,
+                                     # whose orders are momentum-only by construction.
 
   max_hold_minutes: 30
   max_hold_days: 20              # measured on 5y of this watchlist, per trade after costs:

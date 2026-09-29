@@ -15,6 +15,7 @@ from datetime import date, datetime, time, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
 from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets, replay, autopilot
+from . import selection
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -68,13 +69,18 @@ def is_cleanup_check(now: datetime, g: dict, every_min: int) -> bool:
     return now >= after or checks_left_today(now, every_min) <= 1
 
 def past_entry_cutoff(now: datetime, g: dict) -> bool:
-    """No NEW position inside the last max_hold_minutes of the session.
+    """No NEW position inside the last max_hold_minutes of the session, or at/after
+    no_new_entries_after_et (selection.py: 14:00-15:59 entries lost $365 over 146 trips).
 
     A position bought at 15:40 cannot be closed by the 30-minute clock: once the market is shut
     nothing runs, so it is carried overnight - or over a weekend - on a rule that promised half
     an hour. Two extra minutes cover tick latency."""
+    if not is_trading_day(now.date()):
+        return False
+    if selection.past_entry_time(now, g):
+        return True
     mins = int(g.get("max_hold_minutes", 0) or 0)
-    if mins <= 0 or not is_trading_day(now.date()):
+    if mins <= 0:
         return False
     close_dt = datetime.combine(now.date(), close_time(now.date()), ET)
     return now >= close_dt - timedelta(minutes=mins + 2)
@@ -174,6 +180,9 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
             dropped.append(f"{t}: sold today, no same-day rebuy"); continue
         if not str(o.get("evidence", "")).strip():
             dropped.append(f"{t}: no evidence given"); continue
+        blocked = selection.entry_blocked(_clean_signals(o), g)   # e.g. momentum-only (selection.py)
+        if blocked:
+            dropped.append(f"{t}: {blocked}"); continue
         usd = max(0.0, float(o.get("usd", 0) or 0))          # never negative
         if t in merged:                                       # repeated ticker -> one order
             merged[t]["usd"] += usd; continue
@@ -494,8 +503,8 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
     buy_fires = [f for f in fires if f["kind"] in triggers.BUY_KINDS]
     if buy_fires and no_new_entries:
         for f in buy_fires:
-            triggers.close(f["id"], now, "cancelled", "inside the last max_hold_minutes of the session")
-            log_fn(f"  (cancelled standing buy {f['ticker']}: inside the last max_hold_minutes of the session)")
+            triggers.close(f["id"], now, "cancelled", "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)")
+            log_fn(f"  (cancelled standing buy {f['ticker']}: past the entry cutoff)")
         buy_fires = []
     if buy_fires:
         fmap = {}
@@ -503,6 +512,10 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             if f["ticker"] in fmap:
                 triggers.close(f["id"], now, "cancelled", "another standing order on the same ticker filled first")
                 continue
+            blocked = selection.entry_blocked(f.get("signals"), g)
+            if blocked:     # cancel it: left working, the guardrails would drop it again every tick
+                triggers.close(f["id"], now, "cancelled", blocked)
+                log_fn(f"  (cancelled standing buy {f['ticker']}: {blocked})"); continue
             fmap[f["ticker"]] = f
         # A standing order can sit for days. Whatever made the ticker acceptable when the order
         # was placed has to still be true now, or the screen is only a formality: it would let an
@@ -652,9 +665,9 @@ def _tick_once(force: bool = False) -> None:
     # at fill time, cached a transient lookup failure forever, and cancelled the order on it.
     cutoff = past_entry_cutoff(now, g)
     if cutoff:
-        n = triggers.cancel_all_buys(now, "inside the last max_hold_minutes of the session")
+        n = triggers.cancel_all_buys(now, "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)")
         if n:
-            log(f"  (cancelled {n} resting buy order(s): inside the last max_hold_minutes of the session)")
+            log(f"  (cancelled {n} resting buy order(s): past the entry cutoff)")
     bought, sold, did = fill_standing_orders(now, today, broker, broker.positions(), px, st, g,
                                              set(sector_of), remaining, sector_of, {}, log, no_new_entries=cutoff)
     # The clock has to be enforced on EVERY pass, not only when the brain is asked. Checked only
@@ -771,9 +784,9 @@ def main(report_only: bool = False, force: bool = False) -> None:
     #     reached them. The brain then decides against the resulting portfolio. ---
     cutoff = past_entry_cutoff(now, g)
     if cutoff:
-        n = triggers.cancel_all_buys(now, "inside the last max_hold_minutes of the session")
+        n = triggers.cancel_all_buys(now, "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)")
         if n:
-            log(f"  (cancelled {n} resting buy order(s): inside the last max_hold_minutes of the session)")
+            log(f"  (cancelled {n} resting buy order(s): past the entry cutoff)")
     tbuys, tsells, tdid = fill_standing_orders(now, today, broker, positions, px, st, g,
                                                allowed, remaining, sector_of, cpressure, log, no_new_entries=cutoff)
     stale_sells, stale_n = time_stops(now, broker, broker.positions(), st, g, log)
@@ -801,7 +814,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
     cleanup = is_cleanup_check(now, g, every_min)
     nothing_to_buy = remaining < g["min_order_usd"] or cutoff
     if cutoff:
-        log("  (inside the last max_hold_minutes of the session: no new entries at this check)")
+        log("  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)")
     ctx = {
         "datetime_et": now.strftime("%Y-%m-%d %H:%M"), "weekday": today.strftime("%A"),
         "market_close_et": close_time(today).strftime("%H:%M"), "last_trading_day_of_week": last_trading_day_of_week(today),
@@ -921,8 +934,17 @@ def main(report_only: bool = False, force: bool = False) -> None:
         for t in want:
             if str(t.get("kind", "")).lower() in triggers.BUY_KINDS:
                 t["good_until"] = min(str(t.get("good_until") or "9999-12-31")[:10], now.date().isoformat())
-        if cutoff:
-            want = [t for t in want if str(t.get("kind", "")).lower() not in triggers.BUY_KINDS]
+    if cutoff:              # either cutoff (no_new_entries_after_et now applies without a clock too)
+        want = [t for t in want if str(t.get("kind", "")).lower() not in triggers.BUY_KINDS]
+    # A resting buy is an entry too: the same selection culls as a market buy (selection.py).
+    keep = []
+    for t in want:
+        blocked = selection.entry_blocked(t.get("signals"), g) if str(t.get("kind", "")).lower() in triggers.BUY_KINDS else None
+        if blocked:
+            log(f"  (dropped trigger {t.get('ticker')} {t.get('kind')}: {blocked})")
+        else:
+            keep.append(t)
+    want = keep
     for d in deferred:
         want.append({"ticker": d["ticker"], "kind": "buy_limit", "price": d["limit_price"], "usd": d["usd"],
                      # Alive through this session, gone tomorrow. Left blank it defaulted to a
@@ -938,7 +960,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
     _cool = int(g.get("rebuy_cooldown_minutes", 0) or 0)
     _cooling = {t for t, ts in (st.get("sold_ts") or {}).items()
                 if _cool and (now.timestamp() - float(ts or 0)) / 60 < _cool}
-    auto += [] if cutoff else triggers.dip_hunt(now, set(broker.positions()), allowed, px,
+    dips = [] if cutoff else triggers.dip_hunt(now, set(broker.positions()), allowed, px,
                               {**(g.get("dip_hunt") or {}),
                                "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0),
                                "_min_order_usd": float(g.get("min_order_usd", 0) or 0),
@@ -946,6 +968,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
                                "_cash_cap": remaining,
                                "_skip": sorted(_cooling)},    # no live order to re-enter a name it may not re-enter
                               float(g["_weekly_budget"]))
+    # Dip orders are ["momentum", "dip_entry"] by construction, so allow_momentum_only_entries: false
+    # retires them (journal.json 09-08..09-28: 38 closed dip entries, -$17 together). Dropped
+    # quietly - otherwise it is the same ten log lines at every check.
+    auto += [o for o in dips if not selection.entry_blocked(o.get("signals"), g)]
     if stale:
         log(f"  (re-pinned {stale} order(s) to the new average cost)")
     if auto:
