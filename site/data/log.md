@@ -1,17 +1,3 @@
-- BUY $2500.00 ACN [filled] ['congress'] — Congress buy signal, oversold on 1m (-8.35%), reasonable entry at 50% of day range | evidence: Rep. Scott Franklin bought ACN disclosed 2026-09-17; congress_net_buy_pressure=2.0 for ACN
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger TSM take_profit: not held)
-~ WORKING stop_loss 100% AVGO @ $353.50 until 2026-09-29 — protective stop ~2% below entry
-~ WORKING stop_loss 100% ACN @ $170.30 until 2026-09-29 — protective stop ~2% below entry
-~ WORKING take_profit 50% AVGO @ $365.50 until 2026-09-29 — lock partial gains near recent range top
-~ WORKING buy_limit $2500.00 TSM @ $452.57 until 2026-09-29 — wanted it, but not at the high — resting at $452.57. Congress buy pressure plus strong 1m momentum, semis exposure diversifies book
-~ WORKING take_profit 100% AVGO @ $361.84 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $349.92 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ACN @ $174.60 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $168.62 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25264.89 (+1.06% on $25000.00 in) · cash $13261.55 · realised +261.55
-Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $12929.96 this week
-  (cancelled 2 standing order(s) on NVDA: position closed)
 - SELL 100% NVDA [take_profit @ $231.41] -> $2506.37 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-29 10:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% GOOGL [time stop] -> $2499.59 (-0.02%) — held 30 min, the 30-minute limit: out regardless
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so no buys can be placed - they would be dropped per guardrails. There is nothing to sell or protect since the book is flat. I'll wait for the next check rather than force an order that gets rejected.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable this session; respect the cutoff.
+portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 15:07 ET (Tuesday) — week 2026-W40 — budget left $24867.87 (today $109350.00 put to work, 48 buys, 49 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DTIL excluded: too thinly traded ($2.2M a day) — Precision BioSciences, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so any buy orders would be dropped per guardrails. There are also no open positions to protect with sells or triggers. Consistent with prior lessons at this exact state, the only actionable move is to wait for the next session/check.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing to do this check - respect the cutoff.
 portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
