@@ -1,20 +1,3 @@
-## 2026-09-28 11:10 ET (Monday) — week 2026-W40 — budget left $16178.64 (today $56852.94 put to work, 27 buys, 21 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-brain: Book is well below min_positions (4 of 8) with 64.7% cash idle - a clear violation of the owner's full-deployment/min-positions instruction. Most widely_held names are in 45-min cooldown from a churny morning, but GOOGL, UNH, and NEM are not restricted and each has a concrete evidence hook (AI-agent news, healthcare sector pick, gold sector's strong multi-year backtest despite today's dip). Adding these three brings the book to 7 names with real size ($1.4-1.6k each) and protective stops/take-profits on every new position, consistent with risk_management being the highest-hit-rate signal (88%).
-lesson: Cooldown list is short (only 5 tickers) - check it explicitly before assuming widely_held names are unavailable; GOOGL/UNH/NEM were free to buy despite the morning's heavy churn.
-- BUY $1600.00 GOOGL [filled] ['news', 'momentum'] — Widely_held sector has best track record (avg_ret 2.09%, n=380) and GOOGL is not in cooldown, with fresh AI-agent news catalyst and mid-range entry. | evidence: Cooldown does not apply to GOOGL (only PLTR/TSM/AAPL/IBM/RTX listed in cooling_off_minutes_left); OpenAI DevDay agent-platform headlines and Claude/Gemini agentic-AI coverage 14:47-15:00, price only 4
-- BUY $1500.00 UNH [filled] ['news', 'momentum'] — UNH not in cooldown, healthcare pick-of-week headline, low in day range so not chasing a spike. | evidence: UNH +0.33% 1d, 38.9% of day range (low), StockStory headline 'Healthcare Stocks to Target This Week' 2026-09-28.
-- BUY $1400.00 NEM [filled] ['momentum', 'news'] — Gold sector shows strong multi-year backtest performance; today's pullback is an entry point, diversifies away from concentrated defense/nuclear book. | evidence: NEM -4.18% today, 65% of day range but gold sector avg_total_return_pct 114-148% in 2y/5y backtest windows despite today's dip; Zacks headline on gold miner exploration.
-~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-09-28 — protect new position against reversal
-~ WORKING take_profit 50% GOOGL @ $344.50 until 2026-09-28 — lock partial gain near recent day high
-~ WORKING stop_loss 100% UNH @ $373.00 until 2026-09-28 — protect new position
-~ WORKING take_profit 50% UNH @ $382.00 until 2026-09-28 — lock partial gain above today's high
-~ WORKING stop_loss 100% NEM @ $112.50 until 2026-09-28 — protect against further gold slide
 ~ WORKING take_profit 50% NEM @ $119.50 until 2026-09-28 — lock partial gain on bounce
 ~ WORKING take_profit 100% GOOGL @ $342.36 until 2026-10-03 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 GOOGL @ $331.13 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 HUBB @ $454.55 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25274.61 (+1.10% on $25000.00 in) · cash $20276.66 · realised +276.66
 Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $19945.07 this week
+
+## 2026-09-29 10:13 ET (Tuesday) — week 2026-W40 — budget left $19945.07 (today $30000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25280.11 (+1.12% on $25000.00 in) · cash $20276.66 · realised +276.66
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [stop_loss @ $466.07] -> $2983.74 (-0.54%) — close it all at -0.7% under the average cost
+## 2026-09-29 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 5054.93,
+  "spent": 2071.19,
   "deployed": 124900.18,
   "by_ticker": {
     "AVGO": 10.48,
@@ -22,7 +22,7 @@
     "HLI": 20.2,
     "FWONK": 7.89,
     "NLR": 2000.0,
-    "HUBB": 3000.0
+    "HUBB": 16.26
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -2141,13 +2141,34 @@
         "congress"
       ],
       "evidence": "congress net buying (3 net buyers): April McClain Delaney; +1.9% over the month; 35% of today's range"
+    },
+    {
+      "symbol": "HUBB",
+      "side": "sell",
+      "qty": 6.401948,
+      "status": "filled",
+      "price": 466.07,
+      "proceeds": 2983.74,
+      "realized_pnl": -16.26,
+      "realized_pct": -0.54,
+      "date": "2026-09-29",
+      "time_et": "10:15",
+      "ts": 1790691300,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $468.61",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 5012.36,
+  "spent_today": 2028.62,
   "deployed_today": 30000.0,
   "orders_today": 13,
-  "sells_today": 12,
+  "sells_today": 13,
   "sold_today": [
     "HD",
     "NOC",
@@ -2160,7 +2181,8 @@
     "LMT",
     "CRWD",
     "HLI",
-    "FWONK"
+    "FWONK",
+    "HUBB"
   ],
   "sold_ts": {
     "PLTR": 1790612839,
@@ -2186,22 +2208,20 @@
     "LMT": 1790690655,
     "NEM": 1790610063,
     "HLI": 1790690975,
-    "FWONK": 1790690975
+    "FWONK": 1790690975,
+    "HUBB": 1790691347
   },
-  "last_publish_ts": 1790691112,
-  "last_check_ts": 1790691303,
+  "last_publish_ts": 1790691346,
+  "last_check_ts": 1790691394,
   "last_bar_ts": 1790691300,
-  "last_decision_ts": 1790691195,
+  "last_decision_ts": 1790691394,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "8f7cac70": 469.012,
-    "c4fcbfb9": 469.9174,
     "104b4460": 105.2312,
     "c08ec58c": 102.1,
     "d8bb370b": 598.6712,
     "f7ba7f90": 107.9,
-    "300b7401": 101.7142,
-    "a3bbf607": 454.5517
+    "300b7401": 101.7142
   }
 }

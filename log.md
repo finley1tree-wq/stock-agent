@@ -19510,3 +19510,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25280.11 (+1.12% on $25000.00 in) · cash $20276.66 · realised +276.66
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [stop_loss @ $466.07] -> $2983.74 (-0.54%) — close it all at -0.7% under the average cost
+## 2026-09-29 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 10:16 ET (Tuesday) — week 2026-W40 — budget left $22928.81 (today $30000.00 put to work, 13 buys, 13 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25259.54 (+1.04% on $25000.00 in) · cash $23260.40 · realised +260.40
+Decision: nothing at this check. 5 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
