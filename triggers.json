@@ -1,158 +1,6 @@
 {
  "orders": [
   {
-   "id": "ec2ea9f0",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 222.7119,
-   "status": "cancelled",
-   "created": "2026-09-25 14:50",
-   "created_ts": 1790362233,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $224.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 15:20",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "214fc7d4",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 217.4352,
-   "status": "cancelled",
-   "created": "2026-09-25 14:50",
-   "created_ts": 1790362233,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $224.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:20",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "14af9d8b",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 345.1715,
-   "status": "cancelled",
-   "created": "2026-09-25 14:53",
-   "created_ts": 1790362410,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $344.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 15:23",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "cd25578b",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 341.661,
-   "status": "cancelled",
-   "created": "2026-09-25 14:53",
-   "created_ts": 1790362410,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $344.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 15:23",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "78326f53",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 333.8449,
-   "status": "cancelled",
-   "created": "2026-09-25 14:53",
-   "created_ts": 1790362410,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $344.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:23",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "50b7f2a2",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 517.1525,
-   "status": "cancelled",
-   "created": "2026-09-25 15:13",
-   "created_ts": 1790363589,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $515.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 15:19",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5445a701",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 512.9063,
-   "status": "cancelled",
-   "created": "2026-09-25 15:13",
-   "created_ts": 1790363589,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $515.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 15:43",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3decf479",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 500.4618,
-   "status": "cancelled",
-   "created": "2026-09-25 15:13",
-   "created_ts": 1790363589,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $515.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:28",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "fb3bf0a9",
    "ticker": "AMD",
    "kind": "take_profit",
@@ -7444,7 +7292,143 @@
    ],
    "good_until": "2026-10-04",
    "usd": 500.0
+  },
+  {
+   "id": "25401468",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 251.4,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "protect new CRWD position",
+   "evidence": "ATR 4.9%, protective stop ~3% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bf7120a5",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 361.2,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "protect new UNH position",
+   "evidence": "ATR 2.1%, protective stop ~3% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-29",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "62aca446",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 174.066,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "wanted it, but not at the high \u2014 resting at $174.07. named congress buy pressure plus pullback, currently mid-range (85% of day range is high but limit resting near low was not hit, buying market small size given ACN sits at day high signal",
+   "evidence": "Rep. Scott Franklin and Rep. Gilbert Ray Cisneros both filed ACN buys (disclosed 2026-09-17, 2026-09-04); ACN +0.38% today, pulled back -7.64% 1m giving room",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 1625.0
+  },
+  {
+   "id": "045e5900",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 453.1365,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "wanted it, but not at the high \u2014 resting at $453.14. congress buy plus strong momentum, diversifies book into semis away from AAPL/GOOGL concentration",
+   "evidence": "Rep. Rick W. Allen disclosed TSM buy (2026-08-12, filed 2026-09-22); TSM +0.91% today, +9.45% 1m, avg_excess for Allen +2.76% across 8 buys",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-29",
+   "usd": 1625.0
+  },
+  {
+   "id": "380b692b",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 260.6551,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $259.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d03335f3",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 251.4725,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $259.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "usd": 500.0
+  },
+  {
+   "id": "910082ee",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 373.2989,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $372.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9465f599",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 361.2474,
+   "status": "working",
+   "created": "2026-09-29 12:26",
+   "created_ts": 1790699208,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $372.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-29 12:10"
+ "updated": "2026-09-29 12:26"
 }

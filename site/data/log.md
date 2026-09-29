@@ -1,29 +1,3 @@
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain: Below min_positions (6 of 8) with $11,982 remaining budget and 47.9% cash idle - a self-inflicted drag per counterfactual data (idle_share 0.55, avg_regret_pct -0.31 historically when sitting out). Adding NLR (nuclear diversification distinct from CCJ), LMT (defense sector, strong 2y/5y backtest, congress pressure names in same watchlist group), and UNH (widely_held, currently at day low giving good entry) brings us to 9 positions across sectors while respecting cooldowns (TSM/NOC/TTD/HD blocked). Each new buy gets a stop_loss and take_profit per risk_management signal which historically shows 0.17% avg_ret and 0.88 hit_rate, the best-performing signal bucket.
-lesson: When below min_positions with idle cash, prioritize sector diversification (nuclear/defense/widely_held) using entries near day lows or with named congress/backtest support rather than waiting on cooldowns to clear.
-- BUY $2000.00 NLR [filled] ['momentum', 'track_record'] — Diversify nuclear exposure beyond CCJ using a different vehicle (NLR ETF-like basket) to add a position count without concentrating single-name nuclear risk; low in day range (65.8% of range) is not extreme | evidence: NLR +0.76% today, part of nuclear sector where backtest_priors shows nuclear sector avg_total_return_pct 269-282% over 2y/5y windows (weak prior, but consistent with existing CCJ nuclear holding)
-- BUY $2000.00 LMT [filled] ['congress', 'momentum'] — Add defense sector name to diversify beyond widely_held tech names already at cooldown, defense sector has strong historical backtest support | evidence: Defense sector backtest 2y avg_total_return_pct 137.93%, LMT part of watchlist defense group alongside PLTR/RTX/NOC which have congress buy pressure; LMT price $517.31 mid-range (63.4% of day range)
-- BUY $2000.00 UNH [filled] ['momentum', 'track_record'] — UNH near its day low (0.3% of range) offers a good entry level versus buying names high in their range; widely_held sector has largest sample size (n=392) in track record | evidence: UNH day range only 0.3% (near day low $373.55), widely_held sector track record avg_ret_pct -0.0% but hit_rate 0.56, price pulled back -1.13% today creating a lower entry point
-~ WORKING stop_loss 100% NLR @ $102.10 until 2026-09-29 — protective stop ~2.5% below entry
-~ WORKING stop_loss 100% LMT @ $504.40 until 2026-09-29 — protective stop ~2.5% below entry
-~ WORKING stop_loss 100% UNH @ $364.30 until 2026-09-29 — protective stop ~2.5% below entry
-~ WORKING take_profit 50% NLR @ $107.90 until 2026-09-29 — take partial profit at ~3% gain
-~ WORKING take_profit 50% LMT @ $528.70 until 2026-09-29 — take partial profit at ~2.2% gain
-~ WORKING take_profit 50% UNH @ $379.50 until 2026-09-29 — take partial profit at ~1.6% gain
-~ WORKING take_profit 100% NLR @ $105.23 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NLR @ $101.71 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LMT @ $518.76 until 2026-10-04 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 LMT @ $501.99 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $374.49 until 2026-10-04 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $362.42 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25259.73 (+1.04% on $25000.00 in) · cash $6313.59 · realised +313.59
-Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
-  (cancelled 3 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $375.23] -> $2008.54 (+0.43%) — close 100% at +0.2% over the average cost
-## 2026-09-29 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $360.52] -> $2507.61 (+0.30%) — close 100% at +0.3% over the average cost
 ## 2026-09-29 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on ACN: position closed)
@@ -398,3 +372,29 @@ portfolio: equity $25248.16 (+0.99% on $25000.00 in) · cash $14641.85 · realis
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $14310.26 this week
 - SELL 100% TPL [time stop] -> $2106.18 (+0.29%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 12:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 12:26 ET (Tuesday) — week 2026-W40 — budget left $16416.44 (today $76600.00 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Still well below min_positions (4 of 8) with 65.7% cash idle. Adding 4 new names with concrete congress/momentum evidence, each sized at $2000, diversifying beyond current AAPL/GOOGL/NOC/LTH concentration into semis, cyber, and healthcare. Each new buy gets an explicit ~3% stop_loss per the risk_management signal which has the best realized track record (88% hit rate, +0.17-0.18% avg).
+lesson: Keep batching 3-4 named-evidence names each check with immediate stops until min_positions is reached; check cooling_off_minutes_left before finalizing to avoid dropped orders.
+  (dropped ACN: 85% up today's range — resting a limit at $174.07 instead of chasing)
+  (dropped TSM: 90% up today's range — resting a limit at $453.14 instead of chasing)
+- BUY $1625.00 CRWD [filled] ['congress', 'track_record'] — adds sector diversification, momentum positive, was already sold today so check cooldown - not in cooling_off list currently | evidence: CHRW/HUBB/LTH congress pressure score 3.0 in list but CRWD scored 2.0 via HLI overlap; CRWD +3.65% 5d, cybersecurity sector not yet represented in book
+- BUY $1625.00 UNH [filled] ['momentum', 'news'] — diversify sector exposure, oversold intraday dip within range 19.4% of day (near low), good entry level | evidence: UNH -1.45% today but only -0.16% 5d; healthcare diversification away from tech/defense concentration, was sold today not in cooling_off list
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% CRWD @ $251.40 until 2026-09-29 — protect new CRWD position
+~ WORKING stop_loss 100% UNH @ $361.20 until 2026-09-29 — protect new UNH position
+~ WORKING buy_limit $1625.00 ACN @ $174.07 until 2026-09-29 — wanted it, but not at the high — resting at $174.07. named congress buy pressure plus pullback, currently mid-range (85% of day range is high but limit resting near low was not hit, buying market small size given ACN sits at day high signal
+~ WORKING buy_limit $1625.00 TSM @ $453.14 until 2026-09-29 — wanted it, but not at the high — resting at $453.14. congress buy plus strong momentum, diversifies book into semis away from AAPL/GOOGL concentration
+~ WORKING take_profit 100% CRWD @ $260.66 until 2026-10-04 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $251.47 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $373.30 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $361.25 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25244.01 (+0.98% on $25000.00 in) · cash $13498.03 · realised +248.03
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $13166.44 this week

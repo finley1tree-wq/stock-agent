@@ -2982,8 +2982,8 @@
     "hour_et": 14,
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.55,
-    "ret_final": -0.55,
+    "ret_now": -0.44,
+    "ret_final": -0.44,
     "ret_src": "realised"
   },
   {
@@ -4844,8 +4844,8 @@
     "code_version": "3659094",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.55,
-    "ret_final": -0.55,
+    "ret_now": -0.44,
+    "ret_final": -0.44,
     "ret_src": "realised"
   },
   {
@@ -5671,8 +5671,8 @@
     "code_version": "e09ddde",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.51,
-    "ret_final": -0.51,
+    "ret_now": -0.38,
+    "ret_final": -0.38,
     "ret_src": "realised"
   },
   {
@@ -6964,8 +6964,8 @@
     "code_version": "841c1c1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.74,
-    "ret_final": -0.74,
+    "ret_now": -0.53,
+    "ret_final": -0.53,
     "ret_src": "realised"
   },
   {
@@ -10302,8 +10302,8 @@
     "code_version": "4362627",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.44,
-    "ret_final": -0.44,
+    "ret_now": -0.22,
+    "ret_final": -0.22,
     "ret_src": "realised"
   },
   {
@@ -36650,8 +36650,8 @@
     "code_version": "e4dc111",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.78,
-    "ret_final": -0.78,
+    "ret_now": -0.23,
+    "ret_final": -0.23,
     "ret_src": "realised"
   },
   {
@@ -45227,7 +45227,9 @@
     "code_version": "e69e025",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.46
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -45302,7 +45304,8 @@
     "hour_et": 12,
     "code_version": "711e9a9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.35
   },
   {
     "symbol": "AAPL",
@@ -45327,7 +45330,8 @@
     "hour_et": 12,
     "code_version": "711e9a9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.1
   },
   {
     "symbol": "NOC",
@@ -45352,7 +45356,8 @@
     "hour_et": 12,
     "code_version": "711e9a9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.09
   },
   {
     "symbol": "GOOGL",
@@ -45377,7 +45382,8 @@
     "hour_et": 12,
     "code_version": "711e9a9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.21
   },
   {
     "symbol": "TPL",
@@ -45400,6 +45406,57 @@
     "evidence": "bought 30 min ago, +0.33% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "4b93f36"
+    "code_version": "4b93f36",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "CRWD",
+    "notional": 1625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.268037,
+    "price": 259.25,
+    "date": "2026-09-29",
+    "time_et": "12:26",
+    "ts": 1790699208,
+    "why": "adds sector diversification, momentum positive, was already sold today so check cooldown - not in cooling_off list currently",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "CHRW/HUBB/LTH congress pressure score 3.0 in list but CRWD scored 2.0 via HLI overlap; CRWD +3.65% 5d, cybersecurity sector not yet represented in book",
+    "entry_price": 259.2,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 18.68,
+    "hour_et": 12,
+    "code_version": "038bf81",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "UNH",
+    "notional": 1625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.363301,
+    "price": 372.42,
+    "date": "2026-09-29",
+    "time_et": "12:26",
+    "ts": 1790699208,
+    "why": "diversify sector exposure, oversold intraday dip within range 19.4% of day (near low), good entry level",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "UNH -1.45% today but only -0.16% 5d; healthcare diversification away from tech/defense concentration, was sold today not in cooling_off list",
+    "entry_price": 372.35,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -5.24,
+    "hour_et": 12,
+    "code_version": "038bf81",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -19839,3 +19839,29 @@ portfolio: equity $25248.16 (+0.99% on $25000.00 in) · cash $14641.85 · realis
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $14310.26 this week
 - SELL 100% TPL [time stop] -> $2106.18 (+0.29%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 12:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 12:26 ET (Tuesday) — week 2026-W40 — budget left $16416.44 (today $76600.00 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Still well below min_positions (4 of 8) with 65.7% cash idle. Adding 4 new names with concrete congress/momentum evidence, each sized at $2000, diversifying beyond current AAPL/GOOGL/NOC/LTH concentration into semis, cyber, and healthcare. Each new buy gets an explicit ~3% stop_loss per the risk_management signal which has the best realized track record (88% hit rate, +0.17-0.18% avg).
+lesson: Keep batching 3-4 named-evidence names each check with immediate stops until min_positions is reached; check cooling_off_minutes_left before finalizing to avoid dropped orders.
+  (dropped ACN: 85% up today's range — resting a limit at $174.07 instead of chasing)
+  (dropped TSM: 90% up today's range — resting a limit at $453.14 instead of chasing)
+- BUY $1625.00 CRWD [filled] ['congress', 'track_record'] — adds sector diversification, momentum positive, was already sold today so check cooldown - not in cooling_off list currently | evidence: CHRW/HUBB/LTH congress pressure score 3.0 in list but CRWD scored 2.0 via HLI overlap; CRWD +3.65% 5d, cybersecurity sector not yet represented in book
+- BUY $1625.00 UNH [filled] ['momentum', 'news'] — diversify sector exposure, oversold intraday dip within range 19.4% of day (near low), good entry level | evidence: UNH -1.45% today but only -0.16% 5d; healthcare diversification away from tech/defense concentration, was sold today not in cooling_off list
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% CRWD @ $251.40 until 2026-09-29 — protect new CRWD position
+~ WORKING stop_loss 100% UNH @ $361.20 until 2026-09-29 — protect new UNH position
+~ WORKING buy_limit $1625.00 ACN @ $174.07 until 2026-09-29 — wanted it, but not at the high — resting at $174.07. named congress buy pressure plus pullback, currently mid-range (85% of day range is high but limit resting near low was not hit, buying market small size given ACN sits at day high signal
+~ WORKING buy_limit $1625.00 TSM @ $453.14 until 2026-09-29 — wanted it, but not at the high — resting at $453.14. congress buy plus strong momentum, diversifies book into semis away from AAPL/GOOGL concentration
+~ WORKING take_profit 100% CRWD @ $260.66 until 2026-10-04 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $251.47 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $373.30 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $361.25 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25244.01 (+0.98% on $25000.00 in) · cash $13498.03 · realised +248.03
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $13166.44 this week
