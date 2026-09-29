@@ -1,21 +1,3 @@
-Decision: nothing at this check. 5 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-29 10:22 ET (Tuesday) — week 2026-W40 — budget left $22928.81 (today $30000.00 put to work, 13 buys, 13 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain unavailable: brain failed after retry: InternalServerError: credential validation failed
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25259.93 (+1.04% on $25000.00 in) · cash $23260.40 · realised +260.40
-Decision: nothing at this check. 5 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% NLR [time stop] -> $2001.15 (+0.06%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-29 10:25 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
   (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
@@ -398,3 +380,21 @@ Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $9413.98 this week
 - SELL 100% TTD [time stop] -> $2485.89 (-0.56%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% ACN [time stop] -> $1997.94 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 13:12 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 13:14 ET (Tuesday) — week 2026-W40 — budget left $18878.17 (today $95350.00 put to work, 42 buys, 40 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Correcting - see next call
+lesson: placeholder
+  (dropped NOC: sold 33 min ago, cooling off)
+portfolio: equity $25208.79 (+0.84% on $25000.00 in) · cash $19209.76 · realised +209.76
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AVGO [time stop] -> $2499.28 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $1999.79 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HLI [time stop] -> $1499.15 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 13:28 ET — tick — 3 sell(s), 0 buy(s) from standing orders

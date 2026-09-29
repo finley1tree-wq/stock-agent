@@ -19953,3 +19953,7 @@ lesson: placeholder
 portfolio: equity $25208.79 (+0.84% on $25000.00 in) · cash $19209.76 · realised +209.76
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AVGO [time stop] -> $2499.28 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $1999.79 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HLI [time stop] -> $1499.15 (-0.06%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 13:28 ET — tick — 3 sell(s), 0 buy(s) from standing orders
