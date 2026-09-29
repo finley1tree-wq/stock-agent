@@ -19734,3 +19734,6 @@ lesson: Batching 3-4 new names per check with named-evidence signals (congress f
 ~ WORKING buy_limit $500.00 TSM @ $442.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25227.41 (+0.91% on $25000.00 in) · cash $7742.86 · realised +242.86
 Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $7411.28 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $508.06] -> $2500.35 (+0.01%) — close it all at -0.6% under the average cost
+## 2026-09-29 11:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
