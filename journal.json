@@ -45441,7 +45441,9 @@
     "code_version": "038bf81",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": -0.13,
+    "ret_final": -0.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -45620,7 +45622,8 @@
     "hour_et": 12,
     "code_version": "f134a99",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.2
   },
   {
     "symbol": "MSFT",
@@ -45645,7 +45648,8 @@
     "hour_et": 12,
     "code_version": "f134a99",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.0
   },
   {
     "symbol": "TTD",
@@ -45670,7 +45674,8 @@
     "hour_et": 12,
     "code_version": "f134a99",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.16
   },
   {
     "symbol": "ACN",
@@ -45695,7 +45700,8 @@
     "hour_et": 12,
     "code_version": "f134a99",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.18
   },
   {
     "symbol": "CRWD",
@@ -45719,6 +45725,81 @@
     "evidence": "bought 30 min ago, -0.11% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "43f57fc"
+    "code_version": "43f57fc",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.028965,
+    "price": 355.67,
+    "date": "2026-09-29",
+    "time_et": "12:58",
+    "ts": 1790701089,
+    "why": "Congress buy pressure plus pullback entry near day low, diversifies into semis",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Rick W. Allen (spouse) disclosed AVGO buy filed 2026-09-22; AVGO +1.72% today, only 1.8% of day range (near low)",
+    "entry_price": 355.6,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -3.58,
+    "hour_et": 12,
+    "code_version": "2b036e1",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 23.14961,
+    "price": 86.39,
+    "date": "2026-09-29",
+    "time_et": "12:58",
+    "ts": 1790701089,
+    "why": "Nuclear sector historically strong per backtest, CCJ near day low offers entry after selloff",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress_net_buy_pressure not listed but CCJ down -8.7% 5d, -13.65% 1m, at 12.5% of day range - deep pullback in nuclear theme with strong 2y backtest sector return (282%)",
+    "entry_price": 86.36,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -13.65,
+    "hour_et": 12,
+    "code_version": "2b036e1",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HLI",
+    "notional": 1500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.795156,
+    "price": 127.17,
+    "date": "2026-09-29",
+    "time_et": "12:58",
+    "ts": 1790701089,
+    "why": "Congress buy pressure name at 15.4% of day range, adds fifth position for diversification",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure HLI=2.0, April McClain Delaney disclosed buys 2026-09-09",
+    "entry_price": 127.12,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -4.44,
+    "hour_et": 12,
+    "code_version": "2b036e1",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

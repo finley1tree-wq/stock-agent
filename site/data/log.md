@@ -1,32 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25280.11 (+1.12% on $25000.00 in) · cash $20276.66 · realised +276.66
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on HUBB: position closed)
-- SELL 100% HUBB [stop_loss @ $466.07] -> $2983.74 (-0.54%) — close it all at -0.7% under the average cost
-## 2026-09-29 10:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 10:16 ET (Tuesday) — week 2026-W40 — budget left $22928.81 (today $30000.00 put to work, 13 buys, 13 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain unavailable: brain failed after retry: InternalServerError: credential validation failed
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25259.54 (+1.04% on $25000.00 in) · cash $23260.40 · realised +260.40
-Decision: nothing at this check. 5 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-29 10:19 ET (Tuesday) — week 2026-W40 — budget left $22928.81 (today $30000.00 put to work, 13 buys, 13 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
   (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
 brain unavailable: brain failed after retry: InternalServerError: credential validation failed
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +369,32 @@ portfolio: equity $25245.65 (+0.98% on $25000.00 in) · cash $14122.72 · realis
 Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $13791.13 this week
 - SELL 100% CRWD [time stop] -> $1622.85 (-0.13%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 12:58 ET (Tuesday) — week 2026-W40 — budget left $15413.98 (today $89350.00 put to work, 39 buys, 36 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Only 4 positions held vs min_positions=8, cash_idle_pct=61.7% - must deploy more. Adding AVGO/TSM on congress disclosure (Rep. Allen), CCJ on nuclear sector pullback, HLI on congress pressure, and a resting buy_limit for GOOGL once cooldown clears in 28min. Sized $1500-2500 each per guardrail guidance, each with protective stop_loss.
+lesson: Batch 4-5 named-evidence buys with immediate stops when below min_positions and idle cash is high; use buy_limit triggers for names still in cooldown rather than waiting idle.
+  (dropped GOOGL: sold 17 min ago, cooling off)
+  (dropped TSM: 89% up today's range — resting a limit at $453.14 instead of chasing)
+- BUY $2500.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure plus pullback entry near day low, diversifies into semis | evidence: Rep. Rick W. Allen (spouse) disclosed AVGO buy filed 2026-09-22; AVGO +1.72% today, only 1.8% of day range (near low)
+- BUY $2000.00 CCJ [filled] ['congress', 'momentum'] — Nuclear sector historically strong per backtest, CCJ near day low offers entry after selloff | evidence: congress_net_buy_pressure not listed but CCJ down -8.7% 5d, -13.65% 1m, at 12.5% of day range - deep pullback in nuclear theme with strong 2y backtest sector return (282%)
+- BUY $1500.00 HLI [filled] ['congress'] — Congress buy pressure name at 15.4% of day range, adds fifth position for diversification | evidence: congress_net_buy_pressure HLI=2.0, April McClain Delaney disclosed buys 2026-09-09
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger TSM buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% AVGO @ $345.50 until 2026-09-29 — Protective stop on new AVGO position per desk rule
+~ WORKING stop_loss 100% CCJ @ $83.80 until 2026-09-29 — Protective stop on new CCJ position per desk rule
+~ WORKING buy_limit $2000.00 GOOGL @ $337.50 until 2026-09-29 — Wait for cooldown to clear and get a better entry below current price
+~ WORKING stop_loss 100% HLI @ $123.00 until 2026-09-29 — Protective stop on new HLI position per desk rule
+~ WORKING take_profit 100% AVGO @ $356.77 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $345.00 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $86.73 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $83.80 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $127.67 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 HLI @ $123.35 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25234.85 (+0.94% on $25000.00 in) · cash $9745.56 · realised +245.56
+Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $9413.98 this week
