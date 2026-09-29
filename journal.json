@@ -44856,7 +44856,9 @@
     "code_version": "7c25499",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": -0.15,
+    "ret_final": -0.15,
+    "ret_src": "realised"
   },
   {
     "symbol": "RTX",
@@ -44882,7 +44884,9 @@
     "code_version": "7c25499",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.22,
+    "ret_final": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -44908,7 +44912,9 @@
     "code_version": "7c25499",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -45034,7 +45040,10 @@
     "hour_et": 11,
     "code_version": "18d2169",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.28,
+    "ret_now": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -45059,7 +45068,8 @@
     "hour_et": 11,
     "code_version": "18d2169",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.24
   },
   {
     "symbol": "NEM",
@@ -45084,7 +45094,8 @@
     "hour_et": 11,
     "code_version": "18d2169",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "RTX",
@@ -45109,7 +45120,8 @@
     "evidence": "average cost $186.65",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "925f10b"
+    "code_version": "925f10b",
+    "hold_minutes": 11
   },
   {
     "symbol": "TSM",
@@ -45134,7 +45146,8 @@
     "evidence": "average cost $456.02",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "925f10b"
+    "code_version": "925f10b",
+    "hold_minutes": 11
   },
   {
     "symbol": "CHRW",
@@ -45159,7 +45172,8 @@
     "evidence": "average cost $148.86",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "502fce3"
+    "code_version": "502fce3",
+    "hold_minutes": 6
   },
   {
     "symbol": "CCJ",
@@ -45183,6 +45197,31 @@
     "evidence": "bought 30 min ago, -0.11% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "9db1e49"
+    "code_version": "9db1e49",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "TPL",
+    "notional": 2100.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.293013,
+    "price": 333.7,
+    "date": "2026-09-29",
+    "time_et": "11:55",
+    "ts": 1790697314,
+    "why": "insider buy signal, real estate/materials diversification, price 333.57 is below insider's buy price of 339.72",
+    "signals": [
+      "insider"
+    ],
+    "evidence": "Horizon Kinetics Asset Management (10% holder) bought TPL shares 9/25 at $339.72, filed 9/29; insider signal has 0.11% avg_ret, 67% hit rate track record",
+    "entry_price": 333.57,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.46,
+    "hour_et": 11,
+    "code_version": "e69e025",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 4378.55,
-  "deployed": 160900.18,
+  "spent": 6478.55,
+  "deployed": 163000.18,
   "by_ticker": {
     "AVGO": 24.44,
     "TTD": 19.02,
@@ -21,7 +21,8 @@
     "CRWD": 16.67,
     "HLI": 2220.2,
     "FWONK": 7.89,
-    "HUBB": 28.09
+    "HUBB": 28.09,
+    "TPL": 2100.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -50,7 +51,8 @@
     "FWONK": 1000.0,
     "NLR": 2000.0,
     "HUBB": 5500.0,
-    "CHRW": 2200.0
+    "CHRW": 2200.0,
+    "TPL": 2100.0
   },
   "orders": [
     {
@@ -2703,12 +2705,28 @@
       ],
       "evidence": "bought 30 min ago, -0.11% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TPL",
+      "notional": 2100.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.293013,
+      "price": 333.7,
+      "date": "2026-09-29",
+      "time_et": "11:55",
+      "ts": 1790697314,
+      "why": "insider buy signal, real estate/materials diversification, price 333.57 is below insider's buy price of 339.72",
+      "signals": [
+        "insider"
+      ],
+      "evidence": "Horizon Kinetics Asset Management (10% holder) bought TPL shares 9/25 at $339.72, filed 9/29; insider signal has 0.11% avg_ret, 67% hit rate track record"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 4335.98,
-  "deployed_today": 66000.0,
-  "orders_today": 28,
+  "spent_today": 6435.98,
+  "deployed_today": 68100.0,
+  "orders_today": 29,
   "sells_today": 27,
   "sold_today": [
     "HD",
@@ -2762,20 +2780,23 @@
     "NLR": 1790691936,
     "CHRW": 1790696896
   },
-  "last_publish_ts": 1790697225,
-  "last_check_ts": 1790697225,
-  "last_bar_ts": 1790697000,
-  "last_decision_ts": 1790696328,
+  "last_publish_ts": 1790697314,
+  "last_check_ts": 1790697314,
+  "last_bar_ts": 1790697300,
+  "last_decision_ts": 1790697314,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "7fd6839f": 116.9123,
+    "dfdc4017": 335.2417,
     "af00c82e": 127.7388,
     "b4e51d52": 452.57,
     "d8bb370b": 598.6712,
     "03a8c893": 123.5,
     "5470b7db": 123.4228,
     "2b51d335": 113.0,
-    "2a220900": 112.9565
+    "2a220900": 112.9565,
+    "08b2f64d": 323.689,
+    "81faa8e3": 323.5
   }
 }

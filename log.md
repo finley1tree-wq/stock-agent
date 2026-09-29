@@ -19780,3 +19780,23 @@ Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
 ## 2026-09-29 11:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% CCJ [time stop] -> $2496.26 (-0.15%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 11:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 11:55 ET (Tuesday) — week 2026-W40 — budget left $20621.45 (today $66000.00 put to work, 28 buys, 27 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Still well below min_positions (2 of 8) with 82.5% cash idle. Adding 3 more names with concrete evidence: ACN (congress filer Scott Franklin), CCJ (nuclear sector, cheap entry at 10.5% of day range after -13.7% 1m decline), TPL (insider 10% holder bought at higher price than current). All paired with ATR-based stops per risk_management being the best-performing signal (0.17-0.18% avg, 88% hit rate). Existing TSM/AMD/HLI/NEM buy_limits and take-profits remain working.
+lesson: Batching diversified-evidence names (congress+insider+cheap-momentum) each check while pairing every buy with an explicit stop_loss is the fastest path to min_positions without waiting on cooldowns; keep new entries below max_entry_range_pct to avoid chasing.
+  (dropped ACN: sold 33 min ago, cooling off)
+  (dropped CCJ: sold 2 min ago, cooling off)
+- BUY $2100.00 TPL [filled] ['insider'] — insider buy signal, real estate/materials diversification, price 333.57 is below insider's buy price of 339.72 | evidence: Horizon Kinetics Asset Management (10% holder) bought TPL shares 9/25 at $339.72, filed 9/29; insider signal has 0.11% avg_ret, 67% hit rate track record
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING stop_loss 100% TPL @ $323.50 until 2026-09-29 — protective stop per desk rules
+~ WORKING take_profit 100% TPL @ $335.24 until 2026-10-04 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TPL @ $323.69 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25244.39 (+0.98% on $25000.00 in) · cash $18853.03 · realised +253.03
+Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $18521.45 this week
