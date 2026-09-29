@@ -19934,3 +19934,8 @@ lesson: Batch 4-5 named-evidence buys with immediate stops when below min_positi
 ~ WORKING buy_limit $500.00 HLI @ $123.35 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25234.85 (+0.94% on $25000.00 in) · cash $9745.56 · realised +245.56
 Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $9413.98 this week
+- SELL 100% CHRW [time stop] -> $2498.17 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% MSFT [time stop] -> $2482.19 (-0.71%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% TTD [time stop] -> $2485.89 (-0.56%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% ACN [time stop] -> $1997.94 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 13:12 ET — tick — 4 sell(s), 0 buy(s) from standing orders
