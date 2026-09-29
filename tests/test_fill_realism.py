@@ -11,12 +11,14 @@ Plain python3 (prints PASS/FAIL per check, exits 1 on any failure), also collect
 Every order book and journal lives in a temp directory; nothing here touches the repo's ledger, the
 network, a broker or the model.
 """
+import ast
 import json
 import random
 import sys
 import tempfile
-from datetime import datetime
+from datetime import datetime, time, timedelta
 from pathlib import Path
+from types import SimpleNamespace
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -98,22 +100,31 @@ def _placement():
     placed, rej = place(612.00, signals=("risk_management", "auto_bracket"))
     check("an auto_bracket break-even stop at 612.00 (entry) above a 609.62 quote is accepted",
           len(placed) == 1, str(rej))
+    # each rejection is checked for its REASON, so a check cannot pass on an unrelated refusal
+    def refused(placed, rej, why):
+        return not placed and bool(rej) and why in rej[0]
     placed, rej = place(612.00)
-    check("the same stop at 612.00 NOT tagged auto_bracket (at/above the quote) is rejected", not placed, str(placed))
+    check("the same stop at 612.00 NOT tagged auto_bracket (at/above the quote) is rejected",
+          refused(placed, rej, "at or above the quote"), f"{placed} {rej}")
     placed, rej = place(600.00, px={})
-    check("a stop_loss with no quote to check it against is rejected", not placed, str(placed))
+    check("a stop_loss with no quote to check it against is rejected", refused(placed, rej, "no quote"), f"{placed} {rej}")
     placed, rej = place(600.00, kind="buy_limit", px={})
-    check("a buy_limit with no quote is rejected", not placed, str(placed))
+    check("a buy_limit with no quote is rejected", refused(placed, rej, "no quote"), f"{placed} {rej}")
     placed, rej = place(615.00, kind="buy_limit")
-    check("a buy_limit above the quote (it would fill at once, not on a dip) is rejected", not placed, str(placed))
+    check("a buy_limit above the quote (it would fill at once, not on a dip) is rejected",
+          refused(placed, rej, "at or above the quote"), f"{placed} {rej}")
     placed, rej = place(600.00, kind="take_profit")
-    check("a take_profit below the quote is rejected", not placed, str(placed))
+    check("a take_profit below the quote is rejected", refused(placed, rej, "at or below the quote"), f"{placed} {rej}")
     placed, rej = place(600.00, kind="buy_stop")
-    check("a buy_stop below the quote is rejected", not placed, str(placed))
+    check("a buy_stop below the quote is rejected", refused(placed, rej, "at or below the quote"), f"{placed} {rej}")
     placed, rej = place(609.62 * 1.6, kind="take_profit")
-    check("a take_profit at 1.6x the quote (outside the 0.5-1.5x band) is rejected", not placed, str(placed))
+    check("a take_profit at 1.6x the quote (outside the 0.5-1.5x band) is rejected",
+          refused(placed, rej, "outside 0.5-1.5x"), f"{placed} {rej}")
     placed, rej = place(609.62 * 0.45, kind="buy_limit")
-    check("a buy_limit at 0.45x the quote is rejected", not placed, str(placed))
+    check("a buy_limit at 0.45x the quote is rejected", refused(placed, rej, "outside 0.5-1.5x"), f"{placed} {rej}")
+    placed, rej = place(609.62 * 1.6, kind="take_profit", signals=("risk_management", "auto_bracket"))
+    check("the band applies to auto_bracket levels too (only the side test is waived)",
+          refused(placed, rej, "outside 0.5-1.5x"), f"{placed} {rej}")
     placed, rej = place(0, kind="trailing_stop", trail_pct=2.0)
     check("a trailing_stop is still accepted (its level comes from the quote)", len(placed) == 1, str(rej))
 
@@ -230,6 +241,130 @@ def test_invariant():
     _group(_invariant)
 
 
+def _trailing_replayed_bar():
+    """Consecutive passes overlap by one bar: the bar still forming at one pass is replayed, complete,
+    at the next. Its early high is already in high_water by then, and must not turn it into a 'gap'."""
+    s = SLIP / 100
+    fresh_book()
+    triggers._save({"orders": [stored("X", "trailing_stop", 98.0, trail_pct=2.0, high_water=100.0)]})
+    fires, _ = triggers.evaluate(NOW, {}, {"X": [bar(0, 100.0, 110.0, 108.5, 109.0)]}, {"X"}, SLIP)
+    check("pass 1: a forming bar that ran 100 -> 110 does not fire a 2% trailing stop (stop 107.8, low 108.5)",
+          not fires, str(fires))
+    fires, _ = triggers.evaluate(NOW, {}, {"X": [bar(0, 100.0, 110.0, 99.0, 99.5)]}, {"X"}, SLIP)
+    f = fires[0] if fires else None
+    check("pass 2: the same bar, replayed complete, fills at the raised stop 107.8 - not at its open 100",
+          f and near(f["fill_price"], triggers.px_round(107.8 * (1 - s)), 1e-4), str(f and f["fill_price"]))
+    # a real gap on the NEXT bar is still a gap
+    fresh_book()
+    triggers._save({"orders": [stored("X", "trailing_stop", 98.0, trail_pct=2.0, high_water=100.0)]})
+    triggers.evaluate(NOW, {}, {"X": [bar(0, 100.0, 101.0, 99.5, 100.5)]}, {"X"}, SLIP)
+    fires, _ = triggers.evaluate(NOW, {}, {"X": [bar(0, 100.0, 101.0, 99.5, 100.2), bar(300, 95.0, 96.0, 94.5, 95.5)]},
+                                 {"X"}, SLIP)
+    f = fires[0] if fires else None
+    check("a bar after the replayed one that opens under the live stop (98.98) still fills at its open (95)",
+          f and near(f["fill_price"], triggers.px_round(95.0 * (1 - s)), 1e-4) and f["fired_ts"] == T0 + 300,
+          str(f and (f["fill_price"], f["fired_ts"])))
+
+
+def test_trailing_replayed_bar():
+    _group(_trailing_replayed_bar)
+
+
+def _no_quote_keeps_brackets():
+    """A held name whose quote is missing (or dropped by safety.sane_prices) keeps its working stop and
+    target: placement refuses any level it cannot check against a quote, so the brackets must not be
+    cancelled as 'stale' in the meantime."""
+    fresh_book()
+    cfg = {"enabled": True, "intraday_target_mult": 0.4, "intraday_stop_mult": 1.0, "intraday_floor_pct": 0.15,
+           "ratchet_after_pct_of_target": 50, "ratchet_keep_pct_of_gain": 60, "_max_hold_minutes": 30,
+           "take_profit_pct": 5, "stop_loss_pct": 2.5, "scale_in": {"enabled": False}}
+    pos = {"XYZ": {"qty": 30.0, "avg_cost": 100.0}}
+    px = {"XYZ": {"price": 100.0, "atr_pct": 2.6}}
+    auto, _ = triggers.rebalance_brackets(NOW, pos, px, cfg)
+    triggers.place(auto, NOW, set(pos), set(pos), px)
+    before = sorted((o["kind"], o["price"]) for o in triggers.working(NOW))
+    auto, cancelled = triggers.rebalance_brackets(NOW, pos, {}, cfg)
+    triggers.place(auto, NOW, set(pos), set(pos), {})
+    after = sorted((o["kind"], o["price"]) for o in triggers.working(NOW))
+    check("with the quote missing the position keeps its stop and target (none cancelled, none re-placed)",
+          len(before) == 2 and after == before and cancelled == 0 and not auto,
+          f"before {before} after {after} cancelled {cancelled} auto {auto}")
+
+
+def test_no_quote_keeps_brackets():
+    _group(_no_quote_keeps_brackets)
+
+
+def _run_functions(**stubs):
+    """agent/run.py cannot be imported offline (yfinance, anthropic, the feeds), so compile just the
+    named top-level definitions from its source into a namespace with stubs."""
+    src = (ROOT / "agent" / "run.py").read_text(encoding="utf-8")
+    names = {"SIGNALS", "_clean_signals", "apply_guardrails", "apply_sell_guardrails", "_at_price",
+             "fill_standing_orders"}
+    body = [n for n in ast.parse(src).body
+            if (isinstance(n, ast.FunctionDef) and n.name in names)
+            or (isinstance(n, ast.Assign) and any(getattr(t, "id", None) in names for t in n.targets))]
+    from agent import selection
+    ns = {"datetime": datetime, "timedelta": timedelta, "time": time, "ET": ET,
+          "selection": selection, "triggers": triggers, **stubs}
+    exec(compile(ast.Module(body=body, type_ignores=[]), str(ROOT / "agent" / "run.py"), "exec"), ns)
+    return ns
+
+
+def _implausible_cancel():
+    """C: a standing-order fill >20% from the check-time quote is refused AND the order is cancelled,
+    so it does not fire and get refused again at every tick."""
+    fresh_book()
+    triggers._save({"orders": [stored("XYZ", "stop_loss", 99.0, signals=["risk_management"]),
+                               stored("BUYX", "buy_limit", 95.0, signals=["congress"])]})
+    crash = [bar(0, 70.0, 72.0, 69.0, 71.0)]              # bars 30% under a stale-looking quote of 100
+    noop = lambda *a, **k: None
+
+    class Broker:
+        def __init__(self):
+            self.prices, self.spread_pct, self.calls = {"XYZ": 100.0, "BUYX": 100.0}, 0.02, []
+
+        def positions(self):
+            return {"XYZ": {"qty": 10.0, "avg_cost": 100.0, "days_since_buy": 0}}
+
+        def sell_qty(self, sym, qty):
+            self.calls.append(("sell", sym))
+            return {"symbol": sym, "status": "filled", "qty": qty, "price": self.prices[sym], "proceeds": 1.0}
+
+        def buy_notional(self, sym, usd):
+            self.calls.append(("buy", sym))
+            return {"symbol": sym, "status": "filled", "notional": usd, "price": self.prices[sym]}
+
+    ns = _run_functions(prices=SimpleNamespace(intraday=lambda tickers, since_ts=0: {t: crash for t in tickers}),
+                        state=SimpleNamespace(record_order=noop, record_sell=noop, save=noop),
+                        learn=SimpleNamespace(record=noop, record_sell=noop, entry_signals=lambda s: []),
+                        instruments=SimpleNamespace(check=lambda t: {}))
+    g = {"_weekly_budget": 25000.0, "max_daily_deploy_pct": 100, "max_per_ticker_pct": 100, "min_order_usd": 100,
+         "max_orders_per_day": 200, "max_sells_per_day": 200, "min_hold_days": 0, "rebuy_cooldown_minutes": 0,
+         "trigger_slippage_pct": SLIP}
+    st = {"spent_today": 0.0, "orders_today": 0, "sells_today": 0, "by_ticker": {}, "sold_today": [], "sold_ts": {}}
+    px = {"XYZ": {"price": 100.0}, "BUYX": {"price": 100.0}}
+    b, logs = Broker(), []
+    args = (NOW, NOW.date(), b, b.positions(), px, st, g, {"BUYX"}, 25000.0, {}, {}, logs.append)
+    ns["fill_standing_orders"](*args)
+    orders = {o["ticker"]: o for o in triggers.all_orders()}
+    check("an implausible stop fill (69.97 vs a 100 quote) is refused and the stop is cancelled",
+          orders["XYZ"]["status"] == "cancelled" and orders["XYZ"].get("cancel_reason") == "implausible fill",
+          str(orders["XYZ"]))
+    check("an implausible limit-buy fill (72 vs a 100 quote) is refused and the order is cancelled",
+          orders["BUYX"]["status"] == "cancelled" and orders["BUYX"].get("cancel_reason") == "implausible fill",
+          str(orders["BUYX"]))
+    check("  ...the broker was never asked to fill either, and the log says why",
+          not b.calls and sum("rejected_implausible_fill" in line for line in logs) == 2, f"{b.calls} {logs}")
+    ns["fill_standing_orders"](*args)
+    check("the next pass over the same bars fires nothing: the refusal does not retry every tick",
+          not b.calls and sum("rejected_implausible_fill" in line for line in logs) == 2, f"{b.calls} {logs}")
+
+
+def test_implausible_cancel():
+    _group(_implausible_cancel)
+
+
 # --------------------------------------------------------------------------------------------------
 # learn.py: each buy is graded on its own position's sells
 # --------------------------------------------------------------------------------------------------
@@ -274,9 +409,34 @@ def test_learn_window():
     _group(_learn_window)
 
 
+def _lesson_dedupe():
+    """The 2026-09-28 repair annotated 95 lessons in place; a restated lesson must still read as a repeat."""
+    tmp = Path(tempfile.mkdtemp(prefix="test_lessons_"))
+    learn.LESSONS = tmp / "lessons.md"
+    text = "Deploy into evidence-backed names when idle cash is high."
+    note = (" [2026-09-28 note: the realised % per dollar here, and any sector/signal average this lesson cites, were "
+            "inflated by a fake +$7,493 AMD fill on 09-21 (since repaired); the real figure was about 0.01-0.03% per "
+            "dollar. Not evidence.]")
+    learn.LESSONS.write_text(f"# Lessons\n\n- 2026-09-21 (3d graded, realised 0.63% per dollar): {text}{note}\n")
+    learn.add_lesson(text, {"realized_per_dollar_pct": 0.02}, evidence_days=5)
+    n = sum(1 for l in learn.LESSONS.read_text().splitlines() if l.startswith("- "))
+    check("a lesson restated after its annotated original is still caught as a repeat (not written twice)",
+          n == 1, f"{n} lessons on file")
+    learn.add_lesson("Take-profit exits carried the book; keep brackets tight on the 30-minute clock.",
+                     {"realized_per_dollar_pct": 0.02}, evidence_days=5)
+    n = sum(1 for l in learn.LESSONS.read_text().splitlines() if l.startswith("- "))
+    check("  ...while a genuinely new lesson is still written", n == 2, f"{n} lessons on file")
+
+
+def test_lesson_dedupe():
+    _group(_lesson_dedupe)
+
+
 def main():
     for name, fn in (("placement", _placement), ("fills", _fills), ("invariant", _invariant),
-                     ("learn window", _learn_window)):
+                     ("trailing: replayed bar", _trailing_replayed_bar), ("no quote keeps brackets", _no_quote_keeps_brackets),
+                     ("implausible fill cancels", _implausible_cancel), ("learn window", _learn_window),
+                     ("lesson dedupe", _lesson_dedupe)):
         print(f"--- {name}")
         try:
             fn()

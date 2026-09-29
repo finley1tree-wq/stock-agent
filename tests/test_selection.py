@@ -134,7 +134,10 @@ def _standing_buys():
     base = {"kind": "buy_limit", "price": 95.0, "status": "working", "created": "2026-09-28 10:00", "created_ts": 0,
             "why": "", "evidence": "x", "good_until": "2099-12-31", "usd": 1000.0}
     triggers._save({"orders": [{**base, "id": "momo", "ticker": "MOMO", "signals": ["momentum", "dip_entry"]},
-                               {**base, "id": "cong", "ticker": "CONG", "signals": ["momentum", "congress"]}]})
+                               {**base, "id": "cong", "ticker": "CONG", "signals": ["momentum", "congress"]},
+                               # an unknown tag is not a reason: apply_guardrails cleans it away, so
+                               # this is momentum-only and must be cancelled, not dropped every tick
+                               {**base, "id": "odd", "ticker": "ODD", "signals": ["momentum", "breakout"]}]})
     bar = [{"t": int(now.timestamp()) - 300, "o": 96.0, "h": 96.5, "l": 94.5, "c": 95.2}]
     calls = []
 
@@ -158,12 +161,15 @@ def _standing_buys():
          "max_orders_per_day": 200, "rebuy_cooldown_minutes": 0, "trigger_slippage_pct": 0.05, **CULL}
     st = {"spent_today": 0.0, "orders_today": 0, "by_ticker": {}, "sold_today": [], "sold_ts": {}}
     logs = []
-    bought, sold, did = ns["fill_standing_orders"](now, now.date(), Broker(), {}, {}, st, g, {"MOMO", "CONG"},
+    bought, sold, did = ns["fill_standing_orders"](now, now.date(), Broker(), {}, {}, st, g, {"MOMO", "CONG", "ODD"},
                                                    25000.0, {}, {}, logs.append)
     orders = {o["id"]: o for o in triggers.all_orders()}
     check("a momentum-only standing buy that fires is cancelled, with the reason",
           orders["momo"]["status"] == "cancelled" and "momentum-only" in orders["momo"].get("cancel_reason", ""),
           str(orders["momo"]))
+    check("a standing buy tagged momentum plus an unknown tag is cancelled too (same cleaned tags as the guardrails)",
+          orders["odd"]["status"] == "cancelled" and "momentum-only" in orders["odd"].get("cancel_reason", ""),
+          str(orders["odd"]))
     check("the congress-backed standing buy on the same bar fills at its level (95.0)",
           calls == [("CONG", 1000.0, 95.0)] and orders["cong"]["status"] == "filled", f"{calls} {orders['cong']['status']}")
 
@@ -205,7 +211,7 @@ def _main_wiring():
     fn = next(n for n in ast.parse(src).body if isinstance(n, ast.FunctionDef) and n.name == "main")
     body = ast.get_source_segment(src, fn)
     check("run.main culls the model's buy triggers through selection.entry_blocked",
-          bool(re.search(r"selection\.entry_blocked\(t\.get\(\"signals\"\), g\) if .*BUY_KINDS", body)))
+          bool(re.search(r"selection\.entry_blocked\(_clean_signals\(t\), g\) if .*BUY_KINDS", body)))
     check("run.main culls dip_hunt's orders through selection.entry_blocked",
           bool(re.search(r"auto \+= \[o for o in dips if not selection\.entry_blocked\(o\.get\(\"signals\"\), g\)\]", body)))
     check("run.main drops buy triggers past either cutoff, clock or no clock",

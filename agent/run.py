@@ -512,7 +512,9 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             if f["ticker"] in fmap:
                 triggers.close(f["id"], now, "cancelled", "another standing order on the same ticker filled first")
                 continue
-            blocked = selection.entry_blocked(f.get("signals"), g)
+            # judged on the SAME cleaned tags apply_guardrails uses below: on raw tags an order tagged
+            # ["momentum", "breakout"] passed here, was dropped there, and retried every tick
+            blocked = selection.entry_blocked(_clean_signals(f), g)
             if blocked:     # cancel it: left working, the guardrails would drop it again every tick
                 triggers.close(f["id"], now, "cancelled", blocked)
                 log_fn(f"  (cancelled standing buy {f['ticker']}: {blocked})"); continue
@@ -936,10 +938,12 @@ def main(report_only: bool = False, force: bool = False) -> None:
                 t["good_until"] = min(str(t.get("good_until") or "9999-12-31")[:10], now.date().isoformat())
     if cutoff:              # either cutoff (no_new_entries_after_et now applies without a clock too)
         want = [t for t in want if str(t.get("kind", "")).lower() not in triggers.BUY_KINDS]
-    # A resting buy is an entry too: the same selection culls as a market buy (selection.py).
+    # A resting buy is an entry too: the same selection culls as a market buy (selection.py), on the
+    # same cleaned tags - an unknown tag must not turn a momentum-only order into an allowed one here
+    # when apply_guardrails would drop it at fill time.
     keep = []
     for t in want:
-        blocked = selection.entry_blocked(t.get("signals"), g) if str(t.get("kind", "")).lower() in triggers.BUY_KINDS else None
+        blocked = selection.entry_blocked(_clean_signals(t), g) if str(t.get("kind", "")).lower() in triggers.BUY_KINDS else None
         if blocked:
             log(f"  (dropped trigger {t.get('ticker')} {t.get('kind')}: {blocked})")
         else:

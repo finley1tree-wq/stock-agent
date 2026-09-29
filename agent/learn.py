@@ -10,6 +10,7 @@ guardrails, but it does get smarter about which of its ideas - and which sources
 been working, and in what order.
 """
 import json
+import re
 from datetime import date
 from pathlib import Path
 from .version import code_version
@@ -266,6 +267,13 @@ def past_lessons(n: int = 12, evidence_days: int = 0) -> dict:
                    "evidence." if thin else "backed by enough graded days to carry weight"),
     }
 
+def _lesson_text(line: str) -> str:
+    """The lesson itself, from a lessons.md line: without the "- date (header): " prefix and without a
+    trailing "[YYYY-MM-DD note: ...]" annotation. The 2026-09-28 repair appended a ~30-word note to 95
+    lessons; compared with it, a restated lesson scores under the duplicate bar and gets written again."""
+    body = line.split(": ", 1)[-1].strip()
+    return re.sub(r"\s*\[\d{4}-\d{2}-\d{2} note:[^\]]*\]$", "", body).strip()
+
 def _similar(a: str, b: str) -> float:
     """Cheap word-overlap similarity, enough to catch a lesson being written nine times."""
     wa = {w for w in a.lower().split() if len(w) > 3}
@@ -289,7 +297,7 @@ def add_lesson(text: str, track: dict, evidence_days: int = 0, min_days: int = 1
         return
     prior = []
     if LESSONS.exists():
-        prior = [l.split(": ", 1)[-1].strip() for l in LESSONS.read_text().splitlines() if l.startswith("- ")]
+        prior = [_lesson_text(l) for l in LESSONS.read_text().splitlines() if l.startswith("- ")]
     # Tightened from 0.6: nine lessons on one day all said "hold cash on a red day" in slightly
     # different words, cleared the old bar, and the model then cited "the last 8 lessons" as its
     # reason never to trade. A conclusion repeated in fresh wording is still the same conclusion.

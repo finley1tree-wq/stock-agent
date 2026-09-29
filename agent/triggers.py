@@ -249,14 +249,26 @@ def evaluate(now: datetime, px: dict, bars: dict, held: set, slippage_pct: float
             # dip is never judged against a peak that had not happened yet.
             hw = float(o.get("high_water") or 0)
             trail = float(o["trail_pct"]) / 100
-            hit = None
+            # Consecutive passes overlap by one bar (run.fill_standing_orders replays from the bar that
+            # was still forming last time), so high_water can already hold THAT bar's early high. The
+            # stop live as that bar opened came from the mark before it, kept in hw_before_bar; using
+            # high_water instead reads any bar that rose more than trail_pct as a gap and fills it at
+            # its open, far under the stop that was actually hit.
+            seen_t = int(o.get("hw_bar_t") or 0)
+            seen_before = o.get("hw_before_bar")
+            hit, last_t, last_before = None, None, None
             for b in seq:
-                stop_prev = px_round(hw * (1 - trail)) if hw > 0 else 0.0   # live as this bar opened
+                bt = int(b.get("t", 0))
+                before = float(seen_before) if (seen_t and bt <= seen_t and seen_before is not None) else hw
+                stop_prev = px_round(before * (1 - trail)) if before > 0 else 0.0   # live as this bar opened
+                last_t, last_before = bt, before
                 hw = max(hw, float(b["h"]))
                 stop = px_round(hw * (1 - trail))
                 if float(b["l"]) <= stop:
                     hit = (b, stop, stop_prev); break
             o["high_water"] = px_round(hw)
+            if last_t is not None:
+                o["hw_bar_t"], o["hw_before_bar"] = last_t, px_round(last_before)
             o["price"] = px_round(hw * (1 - trail))             # shown on the dashboard as the live stop
             if not hit:
                 continue
@@ -496,8 +508,14 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
         entry = float(pos.get("avg_cost") or 0)
         if entry <= 0:
             continue
-        tp, sl = levels(t, px, cfg)
         price = float(((px or {}).get(t) or {}).get("price") or 0)
+        if price <= 0:
+            # No usable quote (missing, or dropped by safety.sane_prices). _clean refuses every level
+            # it cannot check against a quote, and levels() falls back to fixed percentages without
+            # the ATR, so re-pinning now would cancel the working stop and target as "stale" and put
+            # nothing back. Leave this position's orders exactly as they are until a quote returns.
+            continue
+        tp, sl = levels(t, px, cfg)
         mine = [o for o in live if o["ticker"] == t and _is_auto(o)]
         # Has this position's automatic target already been taken? Selling does not change
         # avg_cost, so without this check a new target is recreated at the same price after every
