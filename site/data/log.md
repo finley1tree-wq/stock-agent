@@ -1,24 +1,3 @@
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-brain: Book already has 4 fresh positions (RTX, TSM, AMD, CCJ) opened in the last ~20 min, all with stops/take-profits/scale-in orders working. LMT and NOC buy_limits are resting just below market waiting for a pullback rather than chasing (both >85% of day range, guardrail would reject a market buy anyway). Today's track record shows heavy churn (25 orders, 19 sells) with intraday_limit/time_stop signals averaging -0.18%, so I don't want to add more market buys chasing extended names right now. I'll let the working buy_limits (LMT, NOC) and scale-in orders do their job and re-check soon to catch fills or fresh setups instead of forcing new market entries into names already high in their range.
-lesson: With 4 positions freshly opened and two limit orders resting for better entries, don't force additional market buys into names sitting >85% of day range - let working orders fill at better levels first.
-~ WORKING buy_limit $1000.00 CRWD @ $249.42 until 2026-09-29 — strong month, weak day: resting 1.02% under $251.98 to catch the dip
-~ WORKING buy_limit $1000.00 NVDA @ $228.05 until 2026-09-29 — strong month, weak day: resting 0.47% under $229.13 to catch the dip
-~ WORKING buy_limit $1000.00 MSFT @ $503.30 until 2026-09-29 — strong month, weak day: resting 0.46% under $505.64 to catch the dip
-portfolio: equity $32837.54 (+31.35% on $25000.00 in) · cash $23910.80 · realised +7860.80
-Decision: nothing at this check. 19 standing order(s) working.
-- BUY $2250.00 LMT [buy_limit @ $521.32] — wanted it, but not at the high — resting at $521.32. Defense sector had 0.70 hit_rate historically and LMT not in cooldown, strong intraday momentum near high
-## 2026-09-28 10:58 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- BUY $1800.00 NOC [buy_limit @ $510.55] — wanted it, but not at the high — resting at $510.55. NOC cooldown expired (0 min left listed), strong defense momentum, was previously bought/sold this week profitably per track record widely_held/defense mix
-## 2026-09-28 10:59 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% RTX [time stop] -> $1789.05 (-0.61%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% TSM [time stop] -> $2347.48 (-0.11%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-28 11:09 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
 ## 2026-09-28 11:10 ET (Monday) — week 2026-W40 — budget left $16178.64 (today $56852.94 put to work, 27 buys, 21 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +377,24 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
   (cancelled 3 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $518.76] -> $2004.79 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-29 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CRWD [time stop] -> $1978.83 (-1.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HLI [time stop] -> $1479.80 (-1.35%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% FWONK [time stop] -> $992.11 (-0.79%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 10:09 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 10:10 ET (Tuesday) — week 2026-W40 — budget left $22945.07 (today $27000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,945 idle, so opened 1: HUBB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 HUBB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +1.9% over the month; 35% of today's range
+~ WORKING take_profit 100% HUBB @ $469.92 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HUBB @ $465.34 until 2026-10-04 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 HUBB @ $454.55 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25274.61 (+1.10% on $25000.00 in) · cash $20276.66 · realised +276.66
+Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $19945.07 this week

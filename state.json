@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6505.67,
-  "deployed": 121900.18,
+  "spent": 5054.93,
+  "deployed": 124900.18,
   "by_ticker": {
     "AVGO": 10.48,
     "TTD": 19.02,
@@ -18,10 +18,11 @@
     "AMZN": 4.04,
     "NVDA": 16.58,
     "CCJ": 21.44,
-    "CRWD": 2000.0,
-    "HLI": 1500.0,
-    "FWONK": 1000.0,
-    "NLR": 2000.0
+    "CRWD": 21.17,
+    "HLI": 20.2,
+    "FWONK": 7.89,
+    "NLR": 2000.0,
+    "HUBB": 3000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -48,7 +49,8 @@
     "NEM": 1400.0,
     "HLI": 1500.0,
     "FWONK": 1000.0,
-    "NLR": 2000.0
+    "NLR": 2000.0,
+    "HUBB": 3000.0
   },
   "orders": [
     {
@@ -2061,13 +2063,91 @@
       ],
       "evidence": "average cost $517.52",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 7.689291,
+      "status": "filled",
+      "price": 257.35,
+      "proceeds": 1978.83,
+      "realized_pnl": -21.17,
+      "realized_pct": -1.06,
+      "date": "2026-09-29",
+      "time_et": "10:09",
+      "ts": 1790690974,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -1.04% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 11.589119,
+      "status": "filled",
+      "price": 127.69,
+      "proceeds": 1479.8,
+      "realized_pnl": -20.2,
+      "realized_pct": -1.35,
+      "date": "2026-09-29",
+      "time_et": "10:09",
+      "ts": 1790690974,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -1.31% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "FWONK",
+      "side": "sell",
+      "qty": 10.580019,
+      "status": "filled",
+      "price": 93.77,
+      "proceeds": 992.11,
+      "realized_pnl": -7.89,
+      "realized_pct": -0.79,
+      "date": "2026-09-29",
+      "time_et": "10:09",
+      "ts": 1790690974,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.75% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.401948,
+      "price": 468.61,
+      "date": "2026-09-29",
+      "time_et": "10:10",
+      "ts": 1790691022,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (3 net buyers): April McClain Delaney; +1.9% over the month; 35% of today's range"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 6463.1,
-  "deployed_today": 27000.0,
-  "orders_today": 12,
-  "sells_today": 9,
+  "spent_today": 5012.36,
+  "deployed_today": 30000.0,
+  "orders_today": 13,
+  "sells_today": 12,
   "sold_today": [
     "HD",
     "NOC",
@@ -2077,7 +2157,10 @@
     "AVGO",
     "ACN",
     "CCJ",
-    "LMT"
+    "LMT",
+    "CRWD",
+    "HLI",
+    "FWONK"
   ],
   "sold_ts": {
     "PLTR": 1790612839,
@@ -2088,7 +2171,7 @@
     "MSFT": 1790610992,
     "NOC": 1790688997,
     "UNH": 1790690435,
-    "CRWD": 1790603708,
+    "CRWD": 1790690975,
     "NVDA": 1790614722,
     "GOOGL": 1790614722,
     "AVGO": 1790690481,
@@ -2101,29 +2184,24 @@
     "RTX": 1790612887,
     "CCJ": 1790690609,
     "LMT": 1790690655,
-    "NEM": 1790610063
+    "NEM": 1790610063,
+    "HLI": 1790690975,
+    "FWONK": 1790690975
   },
-  "last_publish_ts": 1790690654,
-  "last_check_ts": 1790690935,
-  "last_bar_ts": 1790690700,
-  "last_decision_ts": 1790690120,
-  "next_check_minutes": 15,
-  "autopiloted": false,
+  "last_publish_ts": 1790691022,
+  "last_check_ts": 1790691022,
+  "last_bar_ts": 1790691000,
+  "last_decision_ts": 1790691022,
+  "next_check_minutes": 6,
+  "autopiloted": true,
   "book_px": {
+    "c4fcbfb9": 469.9174,
     "104b4460": 105.2312,
-    "00b7eb5e": 126.8,
-    "95834660": 94.7743,
-    "c665f966": 261.4967,
-    "75a401ae": 92.5,
-    "3b3c162a": 125.5471,
-    "0acc0605": 129.9076,
-    "ff63fb4c": 253.0,
-    "3011b5f4": 91.6844,
-    "29c5e8e4": 252.297,
+    "ebc156d1": 465.3438,
     "c08ec58c": 102.1,
     "f7ba7f90": 107.9,
     "300b7401": 101.7142,
-    "d8bb370b": 598.6712,
-    "6e4d20d8": 249.4201
+    "a3bbf607": 454.5517,
+    "d8bb370b": 598.6712
   }
 }

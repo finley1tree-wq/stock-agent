@@ -19475,3 +19475,24 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
   (cancelled 3 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $518.76] -> $2004.79 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-09-29 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CRWD [time stop] -> $1978.83 (-1.06%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% HLI [time stop] -> $1479.80 (-1.35%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% FWONK [time stop] -> $992.11 (-0.79%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 10:09 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 10:10 ET (Tuesday) — week 2026-W40 — budget left $22945.07 (today $27000.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,945 idle, so opened 1: HUBB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 HUBB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (3 net buyers): April McClain Delaney; +1.9% over the month; 35% of today's range
+~ WORKING take_profit 100% HUBB @ $469.92 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% HUBB @ $465.34 until 2026-10-04 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 HUBB @ $454.55 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25274.61 (+1.10% on $25000.00 in) · cash $20276.66 · realised +276.66
+Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $19945.07 this week

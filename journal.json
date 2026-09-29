@@ -43785,7 +43785,9 @@
     "code_version": "3e932da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -0.71,
+    "ret_final": -0.71,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -43866,7 +43868,9 @@
     "code_version": "3e932da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.43,
+    "ret_final": 0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -43919,7 +43923,9 @@
     "code_version": "7f7f390",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": 0.3,
+    "ret_final": 0.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -43945,7 +43951,9 @@
     "code_version": "7f7f390",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.87
+    "ret_now": -1.06,
+    "ret_final": -1.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "TTD",
@@ -43997,7 +44005,9 @@
     "code_version": "7f7f390",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.82
+    "ret_now": -1.35,
+    "ret_final": -1.35,
+    "ret_src": "realised"
   },
   {
     "symbol": "FWONK",
@@ -44022,7 +44032,9 @@
     "code_version": "7f7f390",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -0.79,
+    "ret_final": -0.79,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -44098,7 +44110,8 @@
     "hour_et": 9,
     "code_version": "c392f20",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.06
   },
   {
     "symbol": "LMT",
@@ -44123,7 +44136,10 @@
     "hour_et": 9,
     "code_version": "c392f20",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.24,
+    "ret_now": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -44148,7 +44164,10 @@
     "hour_et": 9,
     "code_version": "c392f20",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.43,
+    "ret_now": 0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -44173,7 +44192,8 @@
     "evidence": "average cost $373.63",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "5208add"
+    "code_version": "5208add",
+    "hold_minutes": 4
   },
   {
     "symbol": "AVGO",
@@ -44199,7 +44219,8 @@
     "evidence": "average cost $359.42",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "5208add"
+    "code_version": "5208add",
+    "hold_minutes": 20
   },
   {
     "symbol": "ACN",
@@ -44223,7 +44244,8 @@
     "evidence": "average cost $173.5",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "6dc4ddf"
+    "code_version": "6dc4ddf",
+    "hold_minutes": 27
   },
   {
     "symbol": "CCJ",
@@ -44247,7 +44269,8 @@
     "evidence": "bought 30 min ago, -0.67% unrealised",
     "trigger": "time_stop",
     "hour_et": 10,
-    "code_version": "6f966de"
+    "code_version": "6f966de",
+    "hold_minutes": 30
   },
   {
     "symbol": "LMT",
@@ -44272,6 +44295,106 @@
     "evidence": "average cost $517.52",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "6f966de"
+    "code_version": "6f966de",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "CRWD",
+    "side": "sell",
+    "qty": 7.689291,
+    "status": "filled",
+    "price": 257.35,
+    "proceeds": 1978.83,
+    "realized_pnl": -21.17,
+    "realized_pct": -1.06,
+    "date": "2026-09-29",
+    "time_et": "10:09",
+    "ts": 1790690974,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -1.04% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "71b6796",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "HLI",
+    "side": "sell",
+    "qty": 11.589119,
+    "status": "filled",
+    "price": 127.69,
+    "proceeds": 1479.8,
+    "realized_pnl": -20.2,
+    "realized_pct": -1.35,
+    "date": "2026-09-29",
+    "time_et": "10:09",
+    "ts": 1790690974,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -1.31% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "71b6796",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "FWONK",
+    "side": "sell",
+    "qty": 10.580019,
+    "status": "filled",
+    "price": 93.77,
+    "proceeds": 992.11,
+    "realized_pnl": -7.89,
+    "realized_pct": -0.79,
+    "date": "2026-09-29",
+    "time_et": "10:09",
+    "ts": 1790690974,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.75% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "71b6796",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.401948,
+    "price": 468.61,
+    "date": "2026-09-29",
+    "time_et": "10:10",
+    "ts": 1790691022,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (3 net buyers): April McClain Delaney; +1.9% over the month; 35% of today's range",
+    "entry_price": 468.42,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.9,
+    "hour_et": 10,
+    "code_version": "71b6796",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
