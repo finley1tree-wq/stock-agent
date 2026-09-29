@@ -1,5 +1,3 @@
-  (dropped trigger UNH stop_loss: not held)
-~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-29 — Protective stop below entry
 ~ WORKING stop_loss 100% NOC @ $491.00 until 2026-09-29 — Protective stop
 ~ WORKING stop_loss 100% TSM @ $438.00 until 2026-09-29 — Protective stop
 ~ WORKING stop_loss 100% ACN @ $167.00 until 2026-09-29 — Protective stop
@@ -398,3 +396,5 @@ Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [take_profit @ $149.28] -> $2206.21 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-29 11:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CCJ [time stop] -> $2496.26 (-0.15%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 11:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -19778,3 +19778,5 @@ Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [take_profit @ $149.28] -> $2206.21 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-29 11:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CCJ [time stop] -> $2496.26 (-0.15%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 11:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders

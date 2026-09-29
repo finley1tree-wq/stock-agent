@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 6874.81,
+  "spent": 4378.55,
   "deployed": 160900.18,
   "by_ticker": {
     "AVGO": 24.44,
@@ -17,7 +17,7 @@
     "NEM": 2104.25,
     "AMZN": 4.04,
     "NVDA": 10.21,
-    "CCJ": 2521.44,
+    "CCJ": 25.18,
     "CRWD": 16.67,
     "HLI": 2220.2,
     "FWONK": 7.89,
@@ -2683,13 +2683,33 @@
       ],
       "evidence": "average cost $148.86",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 28.953776,
+      "status": "filled",
+      "price": 86.22,
+      "proceeds": 2496.26,
+      "realized_pnl": -3.74,
+      "realized_pct": -0.15,
+      "date": "2026-09-29",
+      "time_et": "11:53",
+      "ts": 1790697225,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.11% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 6832.24,
+  "spent_today": 4335.98,
   "deployed_today": 66000.0,
   "orders_today": 28,
-  "sells_today": 26,
+  "sells_today": 27,
   "sold_today": [
     "HD",
     "NOC",
@@ -2733,7 +2753,7 @@
     "AAPL": 1790610992,
     "IBM": 1790696326,
     "RTX": 1790696391,
-    "CCJ": 1790690609,
+    "CCJ": 1790697226,
     "LMT": 1790690655,
     "NEM": 1790610063,
     "HLI": 1790690975,
@@ -2742,8 +2762,8 @@
     "NLR": 1790691936,
     "CHRW": 1790696896
   },
-  "last_publish_ts": 1790696895,
-  "last_check_ts": 1790697141,
+  "last_publish_ts": 1790697225,
+  "last_check_ts": 1790697225,
   "last_bar_ts": 1790697000,
   "last_decision_ts": 1790696328,
   "next_check_minutes": 15,
@@ -2751,14 +2771,11 @@
   "book_px": {
     "7fd6839f": 116.9123,
     "af00c82e": 127.7388,
-    "d5941d05": 86.6819,
     "b4e51d52": 452.57,
     "d8bb370b": 598.6712,
-    "e8c23d02": 83.7498,
     "03a8c893": 123.5,
     "5470b7db": 123.4228,
     "2b51d335": 113.0,
-    "2a220900": 112.9565,
-    "c62e4ce3": 83.5
+    "2a220900": 112.9565
   }
 }
