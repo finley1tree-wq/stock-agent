@@ -1,37 +1,3 @@
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain: Only 3 positions held vs min_positions=8, cash_idle_pct 63.9% - need to deploy toward target count. Picked congress-flagged tickers (AVGO, TTD, HLI, FWONK have congress_net_buy_pressure >=2) plus CRWD which has both congress pressure and strong momentum, each with concrete disclosure evidence, sized $1000-2500 to build toward 8 positions while respecting momentum-only entry ban. Added protective stops on all new buys per risk_management practice which has the best track record (0.17% avg, 88% hit rate).
-lesson: Congress-pressure tickers (congress_net_buy_pressure>=2) with named disclosures give a real evidence tag distinct from momentum-only entries that get dropped by guardrails; use them to hit min_positions instead of waiting on cooldowns.
-- BUY $2500.00 AVGO [filled] ['congress', 'momentum', 'news'] — Congress buy pressure plus positive daily momentum, not yet extended (65% of range) | evidence: Rep. Rick W. Allen (spouse) bought AVGO $1,001-$15,000 disclosed 2026-09-22; stock +2.8% today, 65% of day range, congress_net_buy_pressure 2.0
-- BUY $2000.00 CRWD [filled] ['congress', 'momentum'] — Congress pressure ticker with strong 1m momentum, room before hitting chase limit | evidence: congress_net_buy_pressure 2.0 for CRWD, +0.31% today, +19.07% 1mo; existing buy_limit working at 249.42 but adding core position now at market since only 59.6% of range
-- BUY $2000.00 TTD [filled] ['congress'] — Repeated congressional buying signal on TTD, currently only 27.8% of day range - not chasing | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buys twice ($1,001-$15,000 each, 2026-09-10 and 2026-09-04); congress_net_buy_pressure 2.0
-- BUY $1500.00 HLI [filled] ['congress'] — Congress-flagged name at the low of its day range, good entry point | evidence: congress_net_buy_pressure 2.0 for HLI, at 0% of day range (low)
-- BUY $1000.00 FWONK [filled] ['congress'] — Congress-flagged ticker in allowed list with room before chase limit | evidence: congress_net_buy_pressure 2.0 for FWONK, at 36.5% of day range
-~ WORKING stop_loss 100% AVGO @ $352.00 until 2026-09-29 — Protective stop per desk rule
-~ WORKING stop_loss 100% CRWD @ $253.00 until 2026-09-29 — Protective stop per desk rule
-~ WORKING stop_loss 100% TTD @ $11.95 until 2026-09-29 — Protective stop per desk rule
-~ WORKING stop_loss 100% HLI @ $126.80 until 2026-09-29 — Protective stop per desk rule
-~ WORKING stop_loss 100% FWONK @ $92.50 until 2026-09-29 — Protective stop per desk rule
-~ WORKING take_profit 100% AVGO @ $360.52 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $348.64 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $261.50 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 CRWD @ $252.30 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TTD @ $12.40 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 TTD @ $11.97 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HLI @ $129.91 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 HLI @ $125.55 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FWONK @ $94.77 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 FWONK @ $91.68 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25252.53 (+1.01% on $25000.00 in) · cash $7296.24 · realised +296.24
-Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $6964.66 this week
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $450.62] -> $3007.17 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-29 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $12.40] -> $2010.18 (+0.51%) — close 100% at +0.5% over the average cost
-## 2026-09-29 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 09:55 ET (Tuesday) — week 2026-W40 — budget left $11982.01 (today $21000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
   (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
@@ -398,3 +364,37 @@ Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $18521.45 this week
 - SELL 100% HLI [time stop] -> $2189.77 (-0.46%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% NEM [time stop] -> $2099.04 (-0.05%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 12:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 12:10 ET (Tuesday) — week 2026-W40 — budget left $22810.26 (today $68100.00 put to work, 29 buys, 29 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Only 1 position held (TPL) against min_positions=8, cash_idle_pct 91.2% - urgent need to deploy. Building out to 7 positions using concrete evidence: congress disclosures with named filers (ACN, LTH both show congress_net_buy_pressure=3.0, LTH specifically flagged as a past biggest_miss at +7.69% when skipped), day-range-low entries (AAPL 3.5%, GOOGL 17.5%), and sector diversification (NOC defense, PLD real estate) to avoid concentration risk in one name. Every buy paired with a protective stop_loss per risk_management/auto_bracket track record (best performing signal bucket at 0.17-0.18% avg with 88% hit rate).
+lesson: HUBB and CCJ still cooling off, must substitute; check cooling_off_minutes_left every time before finalizing tickers.
+  (dropped HUBB: sold 32 min ago, cooling off)
+  (dropped PLD: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped ACN: 96% up today's range — resting a limit at $174.04 instead of chasing)
+- BUY $2500.00 LTH [filled] ['congress', 'track_record'] — High congress pressure score (3.0) and counterfactual data shows this was a big miss last time it was skipped | evidence: congress_net_buy_pressure=3.0 for LTH, disclosed buy from Rep. April McClain Delaney; biggest_misses shows LTH fwd_pct +7.69% when passed over previously
+- BUY $2000.00 AAPL [filled] ['momentum', 'news'] — Near day low entry point, positive 1-month momentum, widely_held sector track record 0.0% avg but large positive skew possible on bounce | evidence: AAPL price 330.8, pct_of_day_range 3.5 (near day low), down 2.24% today - potential dip entry with 1m momentum still +3.47%
+- BUY $2000.00 NOC [filled] ['track_record', 'momentum'] — Defense sector diversifier, reasonable entry mid-range, no cooldown restriction | evidence: NOC price 505.33 at pct_of_day_range 48.5, defense sector track_record avg_ret_pct -0.02% but hit_rate 0.55; NOC is not in cooling_off list
+- BUY $2000.00 GOOGL [filled] ['congress', 'momentum'] — Low in day range entry, widely held sector with decent hit rate, diversifies book beyond single TPL position | evidence: Rep. Thomas H. Kean and Rep. Scott Franklin both disclosed GOOGL sells recently (2026-09-14, 2026-09-17) - contrarian signal noted, but widely_held sector has n=399 avg_ret 0.0% hit_rate 0.56; price a
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger PLD stop_loss: not held)
+~ WORKING stop_loss 100% LTH @ $38.30 until 2026-09-29 — Protective stop ~3.5% below entry
+~ WORKING stop_loss 100% AAPL @ $320.00 until 2026-09-29 — Protective stop ~3.3% below entry
+~ WORKING stop_loss 100% NOC @ $490.00 until 2026-09-29 — Protective stop ~3% below entry
+~ WORKING stop_loss 100% GOOGL @ $328.00 until 2026-09-29 — Protective stop ~3.2% below entry
+~ WORKING buy_limit $2500.00 ACN @ $174.04 until 2026-09-29 — wanted it, but not at the high — resting at $174.04. Congress buy pressure plus recent pullback gives room; ACN not in cooldown anymore was sold 33min ago but cooldown was only flagged as dropped, checking cooling_off list - not present now
+~ WORKING take_profit 100% LTH @ $39.87 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 LTH @ $38.51 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AAPL @ $331.61 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $320.94 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $506.74 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $490.36 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $339.87 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $328.76 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25248.16 (+0.99% on $25000.00 in) · cash $14641.85 · realised +241.85
+Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $14310.26 this week

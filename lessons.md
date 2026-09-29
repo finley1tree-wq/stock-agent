@@ -151,3 +151,4 @@
 - 2026-09-29 (8d graded, realised 0.01% per dollar): Batching 3-4 new names per check with named-evidence signals (congress filer, day-range-low entry) and immediate stop_loss triggers is the path to min_positions without waiting on cooldowns.
 - 2026-09-29 (8d graded, realised 0.01% per dollar): Batch 3 new names per check with named congress filers or sector track-record evidence plus immediate stop_loss to close the min_positions gap faster without waiting on cooldowns.
 - 2026-09-29 (8d graded, realised 0.01% per dollar): Batching diversified-evidence names (congress+insider+cheap-momentum) each check while pairing every buy with an explicit stop_loss is the fastest path to min_positions without waiting on cooldowns; keep new entries below max_entry_range_pct to avoid chasing.
+- 2026-09-29 (8d graded, realised 0.01% per dollar): HUBB and CCJ still cooling off, must substitute; check cooling_off_minutes_left every time before finalizing tickers.

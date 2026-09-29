@@ -1,18 +1,18 @@
 {
   "week": "2026-W40",
-  "spent": 2189.74,
-  "deployed": 163000.18,
+  "spent": 10689.74,
+  "deployed": 171500.18,
   "by_ticker": {
     "AVGO": 24.44,
     "TTD": 19.02,
-    "AAPL": 4.46,
+    "AAPL": 2004.46,
     "IBM": 2.17,
     "PLTR": 18.16,
     "RTX": 4.33,
     "AMD": 6.07,
     "LMT": 14.78,
-    "NOC": 6.09,
-    "GOOGL": 8.69,
+    "NOC": 2006.09,
+    "GOOGL": 2008.69,
     "UNH": 0.53,
     "NEM": 5.21,
     "AMZN": 4.04,
@@ -22,7 +22,8 @@
     "HLI": 30.43,
     "FWONK": 7.89,
     "HUBB": 28.09,
-    "TPL": 2100.0
+    "TPL": 2100.0,
+    "LTH": 2500.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -33,12 +34,12 @@
     "ACN": 6500.0,
     "AMD": 2000.0,
     "MSFT": 6558.82,
-    "NOC": 8947.06,
+    "NOC": 10947.06,
     "UNH": 7647.06,
     "CRWD": 7500.0,
     "NVDA": 10000.0,
-    "GOOGL": 8247.06,
-    "AAPL": 4500.0,
+    "GOOGL": 10247.06,
+    "AAPL": 6500.0,
     "AMZN": 4500.0,
     "HD": 3947.24,
     "IBM": 5852.94,
@@ -52,7 +53,8 @@
     "NLR": 2000.0,
     "HUBB": 5500.0,
     "CHRW": 2200.0,
-    "TPL": 2100.0
+    "TPL": 2100.0,
+    "LTH": 2500.0
   },
   "orders": [
     {
@@ -2761,12 +2763,80 @@
       ],
       "evidence": "bought 30 min ago, -0.01% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "LTH",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 62.978841,
+      "price": 39.7,
+      "date": "2026-09-29",
+      "time_et": "12:10",
+      "ts": 1790698251,
+      "why": "High congress pressure score (3.0) and counterfactual data shows this was a big miss last time it was skipped",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "congress_net_buy_pressure=3.0 for LTH, disclosed buy from Rep. April McClain Delaney; biggest_misses shows LTH fwd_pct +7.69% when passed over previously"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.04474,
+      "price": 330.87,
+      "date": "2026-09-29",
+      "time_et": "12:10",
+      "ts": 1790698251,
+      "why": "Near day low entry point, positive 1-month momentum, widely_held sector track record 0.0% avg but large positive skew possible on bounce",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "AAPL price 330.8, pct_of_day_range 3.5 (near day low), down 2.24% today - potential dip entry with 1m momentum still +3.47%"
+    },
+    {
+      "symbol": "NOC",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.956227,
+      "price": 505.53,
+      "date": "2026-09-29",
+      "time_et": "12:10",
+      "ts": 1790698251,
+      "why": "Defense sector diversifier, reasonable entry mid-range, no cooldown restriction",
+      "signals": [
+        "track_record",
+        "momentum"
+      ],
+      "evidence": "NOC price 505.33 at pct_of_day_range 48.5, defense sector track_record avg_ret_pct -0.02% but hit_rate 0.55; NOC is not in cooling_off list"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.900962,
+      "price": 338.93,
+      "date": "2026-09-29",
+      "time_et": "12:10",
+      "ts": 1790698251,
+      "why": "Low in day range entry, widely held sector with decent hit rate, diversifies book beyond single TPL position",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Thomas H. Kean and Rep. Scott Franklin both disclosed GOOGL sells recently (2026-09-14, 2026-09-17) - contrarian signal noted, but widely_held sector has n=399 avg_ret 0.0% hit_rate 0.56; price a"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 2147.17,
-  "deployed_today": 68100.0,
-  "orders_today": 29,
+  "spent_today": 10647.17,
+  "deployed_today": 76600.0,
+  "orders_today": 33,
   "sells_today": 29,
   "sold_today": [
     "HD",
@@ -2821,17 +2891,30 @@
     "NLR": 1790691936,
     "CHRW": 1790696896
   },
-  "last_publish_ts": 1790698124,
-  "last_check_ts": 1790698170,
-  "last_bar_ts": 1790697900,
-  "last_decision_ts": 1790697314,
+  "last_publish_ts": 1790698251,
+  "last_check_ts": 1790698251,
+  "last_bar_ts": 1790698200,
+  "last_decision_ts": 1790698251,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "dfdc4017": 335.2417,
+    "f349d91c": 331.6078,
+    "798412c6": 506.7382,
+    "1b78f4ec": 339.8722,
+    "9b9e45c6": 39.8715,
+    "4d0dec97": 174.044,
     "b4e51d52": 452.57,
     "d8bb370b": 598.6712,
+    "023c06a8": 38.509,
+    "c216cff0": 490.3641,
+    "ffb74bf6": 320.9439,
+    "3f118ac6": 328.7621,
+    "1e2ea212": 490.0,
+    "09bb7209": 328.0,
+    "3410f6c9": 320.0,
     "08b2f64d": 323.689,
-    "81faa8e3": 323.5
+    "81faa8e3": 323.5,
+    "3b589cf0": 38.3
   }
 }

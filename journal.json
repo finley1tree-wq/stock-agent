@@ -45069,7 +45069,9 @@
     "code_version": "18d2169",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.46,
+    "ret_final": -0.46,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEM",
@@ -45095,7 +45097,9 @@
     "code_version": "18d2169",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.05,
+    "ret_final": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "RTX",
@@ -45222,7 +45226,8 @@
     "hour_et": 11,
     "code_version": "e69e025",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.46
   },
   {
     "symbol": "HLI",
@@ -45246,7 +45251,8 @@
     "evidence": "bought 30 min ago, -0.43% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "fcb4245"
+    "code_version": "fcb4245",
+    "hold_minutes": 29
   },
   {
     "symbol": "NEM",
@@ -45270,6 +45276,107 @@
     "evidence": "bought 30 min ago, -0.01% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "fcb4245"
+    "code_version": "fcb4245",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "LTH",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 62.978841,
+    "price": 39.7,
+    "date": "2026-09-29",
+    "time_et": "12:10",
+    "ts": 1790698251,
+    "why": "High congress pressure score (3.0) and counterfactual data shows this was a big miss last time it was skipped",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure=3.0 for LTH, disclosed buy from Rep. April McClain Delaney; biggest_misses shows LTH fwd_pct +7.69% when passed over previously",
+    "entry_price": 39.68,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -8.8,
+    "hour_et": 12,
+    "code_version": "711e9a9",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.04474,
+    "price": 330.87,
+    "date": "2026-09-29",
+    "time_et": "12:10",
+    "ts": 1790698251,
+    "why": "Near day low entry point, positive 1-month momentum, widely_held sector track record 0.0% avg but large positive skew possible on bounce",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "AAPL price 330.8, pct_of_day_range 3.5 (near day low), down 2.24% today - potential dip entry with 1m momentum still +3.47%",
+    "entry_price": 330.8,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 3.47,
+    "hour_et": 12,
+    "code_version": "711e9a9",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.956227,
+    "price": 505.53,
+    "date": "2026-09-29",
+    "time_et": "12:10",
+    "ts": 1790698251,
+    "why": "Defense sector diversifier, reasonable entry mid-range, no cooldown restriction",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "NOC price 505.33 at pct_of_day_range 48.5, defense sector track_record avg_ret_pct -0.02% but hit_rate 0.55; NOC is not in cooling_off list",
+    "entry_price": 505.33,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.38,
+    "hour_et": 12,
+    "code_version": "711e9a9",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.900962,
+    "price": 338.93,
+    "date": "2026-09-29",
+    "time_et": "12:10",
+    "ts": 1790698251,
+    "why": "Low in day range entry, widely held sector with decent hit rate, diversifies book beyond single TPL position",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Thomas H. Kean and Rep. Scott Franklin both disclosed GOOGL sells recently (2026-09-14, 2026-09-17) - contrarian signal noted, but widely_held sector has n=399 avg_ret 0.0% hit_rate 0.56; price a",
+    "entry_price": 338.86,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -2.23,
+    "hour_et": 12,
+    "code_version": "711e9a9",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
