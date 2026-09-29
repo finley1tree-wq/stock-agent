@@ -1,39 +1,3 @@
-~ WORKING take_profit 100% AAPL @ $342.98 until 2026-10-03 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AAPL @ $331.98 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMZN @ $246.22 until 2026-10-03 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AMZN @ $238.25 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $292.36 until 2026-10-03 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $282.91 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $221.99 until 2026-10-03 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $214.50 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32872.47 (+31.49% on $25000.00 in) · cash $18402.35 · realised +7902.35
-Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $10583.68 this week
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [stop_loss @ $342.26] -> $1647.84 (+0.05%) — close it all at -0.7% under the average cost
-## 2026-09-28 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% AVGO [time stop] -> $2981.91 (-0.60%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% TTD [time stop] -> $1982.16 (-0.89%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-28 10:05 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $292.36] -> $2004.83 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-09-28 10:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-28 10:11 ET (Monday) — week 2026-W40 — budget left $19200.42 (today $40852.94 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-- BUY $1000.00 META [buy_limit @ $718.89] — strong month, weak day: resting 0.87% under $725.22 to catch the dip
-brain: Most attractive rotation candidates (GOOGL, MSFT, NVDA, TSM, AVGO, TTD, PLTR) are all in cooldown right now from this morning's churn, so I cannot legally rebuy them yet. I'm keeping current 4 positions (AAPL, AMZN, IBM, META) which already have stops/take-profits working, adding a protective stop+partial TP to the newly-opened META (currently -4.4% intraday, no protection yet), and requesting a very short next check (10min) so I can deploy into GOOGL/MSFT/NVDA/TSM the moment their 11-35min cooldowns expire to reach min_positions=8 with real size, per the desk's explicit instruction to avoid idle cash.
-lesson: When most of the best widely_held names are all in simultaneous cooldown from a prior churn, don't force buys into low-evidence off-watchlist names just to hit position count - instead protect existing positions and request a short next_check to catch cooldown expiries in real size.
-  (dropped GOOGL: sold 11 min ago, cooling off)
-  (dropped MSFT: sold 21 min ago, cooling off)
-  (dropped NVDA: sold 16 min ago, cooling off)
-  (dropped TSM: sold 35 min ago, cooling off)
-~ WORKING stop_loss 100% META @ $703.00 until 2026-09-28 — protective stop on new META position, ~2.1% below cost
-~ WORKING take_profit 50% META @ $726.00 until 2026-09-28 — lock in gain on half position at ~1% above cost
 ~ WORKING take_profit 100% META @ $722.32 until 2026-10-03 — close 100% at +0.5% over the average cost
 ~ WORKING buy_limit $500.00 META @ $697.32 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $32872.35 (+31.49% on $25000.00 in) · cash $26019.10 · realised +7872.04
@@ -398,3 +362,39 @@ Decision: nothing at this check. 33 standing order(s) working.
   (cancelled standing buy META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
   (cancelled standing buy AAPL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
 ## 2026-09-29 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 09:32 ET (Tuesday) — week 2026-W40 — budget left $24957.43 (today $0.00 put to work, 0 buys, 1 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain: Book is fully flat (100% cash) with min_positions=8 required and remaining_budget of ~$25k. Deploying $3000 each into 8 names spanning nuclear (CCJ), defense (NOC, RTX), tech/AI (NVDA, GOOGL, TSM), healthcare (UNH), and a congress-backed value name (ACN) diversifies across sectors while respecting max_per_sector_pct=50%. Each pick has a concrete evidence point (congress disclosure, momentum, day-range position) and comes with a protective stop_loss per risk_management guidance, which historically has the best realized return (0.17% avg, 88% hit rate) in the signal ranking.
+lesson: Deploy to min_positions in size immediately when fully flat rather than waiting, using diversified sectors with concrete evidence and pairing every buy with a stop_loss trigger.
+  (dropped RTX: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped GOOGL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped UNH: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+- BUY $3000.00 CCJ [filled] ['momentum', 'congress'] — Fresh entry in nuclear theme, reasonable entry point not chasing | evidence: CCJ +1.3% today, mid-range (50% of day range), nuclear sector backtest shows strong multi-year returns; not in cooldown
+- BUY $3000.00 NOC [filled] ['momentum', 'news'] — Defense name at reasonable entry, not extended | evidence: NOC price $503.55, mid-range (50%), defense sector historically resilient per backtest 5y avg_total_return 212%
+- BUY $3000.00 TSM [filled] ['congress', 'momentum'] — Congress buy signal plus positive 1-month momentum | evidence: Rep. Rick W. Allen (spouse) bought TSM 2026-08-12 per disclosure; TSM +7.65% 1m momentum
+- BUY $3000.00 ACN [filled] ['congress'] — Congressional buying signal, ACN down -8.53% 1m offering value entry | evidence: Rep. Scott Franklin bought ACN 2026-08-26 per disclosure filed 2026-09-17; congress_net_buy_pressure ACN=2.0
+  (dropped trigger RTX stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-29 — Protective stop below entry
+~ WORKING stop_loss 100% NOC @ $491.00 until 2026-09-29 — Protective stop
+~ WORKING stop_loss 100% TSM @ $438.00 until 2026-09-29 — Protective stop
+~ WORKING stop_loss 100% ACN @ $167.00 until 2026-09-29 — Protective stop
+~ WORKING take_profit 100% CCJ @ $88.54 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $85.56 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $504.93 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $488.64 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $450.62 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $436.06 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $174.24 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $168.29 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25284.82 (+1.14% on $25000.00 in) · cash $13289.01 · realised +289.01
+Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $12957.43 this week

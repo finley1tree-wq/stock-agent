@@ -19357,3 +19357,39 @@ Decision: nothing at this check. 33 standing order(s) working.
   (cancelled standing buy META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
   (cancelled standing buy AAPL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
 ## 2026-09-29 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 09:32 ET (Tuesday) — week 2026-W40 — budget left $24957.43 (today $0.00 put to work, 0 buys, 1 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain: Book is fully flat (100% cash) with min_positions=8 required and remaining_budget of ~$25k. Deploying $3000 each into 8 names spanning nuclear (CCJ), defense (NOC, RTX), tech/AI (NVDA, GOOGL, TSM), healthcare (UNH), and a congress-backed value name (ACN) diversifies across sectors while respecting max_per_sector_pct=50%. Each pick has a concrete evidence point (congress disclosure, momentum, day-range position) and comes with a protective stop_loss per risk_management guidance, which historically has the best realized return (0.17% avg, 88% hit rate) in the signal ranking.
+lesson: Deploy to min_positions in size immediately when fully flat rather than waiting, using diversified sectors with concrete evidence and pairing every buy with a stop_loss trigger.
+  (dropped RTX: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped GOOGL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped UNH: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+- BUY $3000.00 CCJ [filled] ['momentum', 'congress'] — Fresh entry in nuclear theme, reasonable entry point not chasing | evidence: CCJ +1.3% today, mid-range (50% of day range), nuclear sector backtest shows strong multi-year returns; not in cooldown
+- BUY $3000.00 NOC [filled] ['momentum', 'news'] — Defense name at reasonable entry, not extended | evidence: NOC price $503.55, mid-range (50%), defense sector historically resilient per backtest 5y avg_total_return 212%
+- BUY $3000.00 TSM [filled] ['congress', 'momentum'] — Congress buy signal plus positive 1-month momentum | evidence: Rep. Rick W. Allen (spouse) bought TSM 2026-08-12 per disclosure; TSM +7.65% 1m momentum
+- BUY $3000.00 ACN [filled] ['congress'] — Congressional buying signal, ACN down -8.53% 1m offering value entry | evidence: Rep. Scott Franklin bought ACN 2026-08-26 per disclosure filed 2026-09-17; congress_net_buy_pressure ACN=2.0
+  (dropped trigger RTX stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-29 — Protective stop below entry
+~ WORKING stop_loss 100% NOC @ $491.00 until 2026-09-29 — Protective stop
+~ WORKING stop_loss 100% TSM @ $438.00 until 2026-09-29 — Protective stop
+~ WORKING stop_loss 100% ACN @ $167.00 until 2026-09-29 — Protective stop
+~ WORKING take_profit 100% CCJ @ $88.54 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $85.56 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $504.93 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $488.64 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $450.62 until 2026-10-04 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $436.06 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $174.24 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $168.29 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25284.82 (+1.14% on $25000.00 in) · cash $13289.01 · realised +289.01
+Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $12957.43 this week
