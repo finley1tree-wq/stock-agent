@@ -19393,3 +19393,6 @@ lesson: Deploy to min_positions in size immediately when fully flat rather than 
 ~ WORKING buy_limit $500.00 ACN @ $168.29 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25284.82 (+1.14% on $25000.00 in) · cash $13289.01 · realised +289.01
 Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $12957.43 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $504.96] -> $3007.23 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-29 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders

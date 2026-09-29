@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 12042.57,
+  "spent": 9035.34,
   "deployed": 106900.18,
   "by_ticker": {
     "AVGO": 18.09,
@@ -12,7 +12,7 @@
     "TSM": 3002.52,
     "AMD": 6.07,
     "LMT": 19.57,
-    "NOC": 3013.32,
+    "NOC": 6.09,
     "GOOGL": 8.28,
     "UNH": 9.07,
     "NEM": 4.25,
@@ -1755,15 +1755,37 @@
         "congress"
       ],
       "evidence": "Rep. Scott Franklin bought ACN 2026-08-26 per disclosure filed 2026-09-17; congress_net_buy_pressure ACN=2.0"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 5.955318,
+      "status": "filled",
+      "price": 504.96,
+      "proceeds": 3007.23,
+      "realized_pnl": 7.23,
+      "realized_pct": 0.24,
+      "date": "2026-09-29",
+      "time_et": "09:36",
+      "ts": 1790688900,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $503.75",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 12000.0,
+  "spent_today": 8992.77,
   "deployed_today": 12000.0,
   "orders_today": 4,
-  "sells_today": 1,
+  "sells_today": 2,
   "sold_today": [
-    "HD"
+    "HD",
+    "NOC"
   ],
   "sold_ts": {
     "PLTR": 1790612839,
@@ -1772,7 +1794,7 @@
     "AMD": 1790608606,
     "ACN": 1790603225,
     "MSFT": 1790610992,
-    "NOC": 1790614723,
+    "NOC": 1790688997,
     "UNH": 1790614724,
     "CRWD": 1790603708,
     "NVDA": 1790614722,
@@ -1789,25 +1811,22 @@
     "LMT": 1790614723,
     "NEM": 1790610063
   },
-  "last_publish_ts": 1790688760,
-  "last_check_ts": 1790688915,
+  "last_publish_ts": 1790688996,
+  "last_check_ts": 1790688996,
   "last_bar_ts": 1790688900,
   "last_decision_ts": 1790688760,
   "next_check_minutes": 6,
   "autopiloted": false,
   "book_px": {
-    "ac183e42": 450.6244,
-    "f69486ae": 504.9338,
-    "2989539e": 88.5443,
     "7a429cdd": 174.2408,
+    "ac183e42": 450.6244,
+    "2989539e": 88.5443,
     "d8bb370b": 598.6712,
-    "396cc3fd": 491.0,
     "66e3e944": 438.0,
     "a7ec7e45": 85.5637,
-    "6f69648f": 488.6375,
-    "9f2077cf": 168.295,
-    "a5192aee": 436.0635,
     "8eed747a": 85.5,
+    "a5192aee": 436.0635,
+    "9f2077cf": 168.295,
     "26d22025": 167.0,
     "6e4d20d8": 249.4201
   }
