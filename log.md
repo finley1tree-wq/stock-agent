@@ -20032,3 +20032,17 @@ lesson: When no_new_entries_this_check is true and positions_held is 0, there is
 portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 14:22 ET (Tuesday) — week 2026-W40 — budget left $24867.87 (today $109350.00 put to work, 48 buys, 49 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DTIL excluded: too thinly traded ($2.2M a day) — Precision BioSciences, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so there is nothing actionable - any buy orders would be dropped per guardrails. Sitting out this check respects the cutoff rather than forcing a doomed order.
+lesson: When no_new_entries_this_check is true and positions_held is 0, do not attempt buys - they will be dropped; wait for the next check.
+portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
