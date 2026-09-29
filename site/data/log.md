@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
   (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
 brain: Only 3 positions held vs min_positions=8, cash_idle_pct 63.9% - need to deploy toward target count. Picked congress-flagged tickers (AVGO, TTD, HLI, FWONK have congress_net_buy_pressure >=2) plus CRWD which has both congress pressure and strong momentum, each with concrete disclosure evidence, sized $1000-2500 to build toward 8 positions while respecting momentum-only entry ban. Added protective stops on all new buys per risk_management practice which has the best track record (0.17% avg, 88% hit rate).
 lesson: Congress-pressure tickers (congress_net_buy_pressure>=2) with named disclosures give a real evidence tag distinct from momentum-only entries that get dropped by guardrails; use them to hit min_positions instead of waiting on cooldowns.
@@ -398,3 +395,6 @@ lesson: Batching diversified-evidence names (congress+insider+cheap-momentum) ea
 ~ WORKING buy_limit $500.00 TPL @ $323.69 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25244.39 (+0.98% on $25000.00 in) · cash $18853.03 · realised +253.03
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $18521.45 this week
+- SELL 100% HLI [time stop] -> $2189.77 (-0.46%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $2099.04 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 12:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders

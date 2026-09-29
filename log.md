@@ -19800,3 +19800,6 @@ lesson: Batching diversified-evidence names (congress+insider+cheap-momentum) ea
 ~ WORKING buy_limit $500.00 TPL @ $323.69 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25244.39 (+0.98% on $25000.00 in) · cash $18853.03 · realised +253.03
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $18521.45 this week
+- SELL 100% HLI [time stop] -> $2189.77 (-0.46%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NEM [time stop] -> $2099.04 (-0.05%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 12:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders

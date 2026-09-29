@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 6478.55,
+  "spent": 2189.74,
   "deployed": 163000.18,
   "by_ticker": {
     "AVGO": 24.44,
@@ -14,12 +14,12 @@
     "NOC": 6.09,
     "GOOGL": 8.69,
     "UNH": 0.53,
-    "NEM": 2104.25,
+    "NEM": 5.21,
     "AMZN": 4.04,
     "NVDA": 10.21,
     "CCJ": 25.18,
     "CRWD": 16.67,
-    "HLI": 2220.2,
+    "HLI": 30.43,
     "FWONK": 7.89,
     "HUBB": 28.09,
     "TPL": 2100.0
@@ -2721,13 +2721,53 @@
         "insider"
       ],
       "evidence": "Horizon Kinetics Asset Management (10% holder) bought TPL shares 9/25 at $339.72, filed 9/29; insider signal has 0.11% avg_ret, 67% hit rate track record"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 17.290041,
+      "status": "filled",
+      "price": 126.65,
+      "proceeds": 2189.77,
+      "realized_pnl": -10.23,
+      "realized_pct": -0.46,
+      "date": "2026-09-29",
+      "time_et": "12:08",
+      "ts": 1790698124,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.43% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 18.034024,
+      "status": "filled",
+      "price": 116.39,
+      "proceeds": 2099.04,
+      "realized_pnl": -0.96,
+      "realized_pct": -0.05,
+      "date": "2026-09-29",
+      "time_et": "12:08",
+      "ts": 1790698124,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.01% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 6435.98,
+  "spent_today": 2147.17,
   "deployed_today": 68100.0,
   "orders_today": 29,
-  "sells_today": 27,
+  "sells_today": 29,
   "sold_today": [
     "HD",
     "NOC",
@@ -2749,7 +2789,8 @@
     "MSFT",
     "IBM",
     "RTX",
-    "CHRW"
+    "CHRW",
+    "NEM"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -2773,29 +2814,23 @@
     "RTX": 1790696391,
     "CCJ": 1790697226,
     "LMT": 1790690655,
-    "NEM": 1790610063,
-    "HLI": 1790690975,
+    "NEM": 1790698125,
+    "HLI": 1790698125,
     "FWONK": 1790690975,
     "HUBB": 1790696335,
     "NLR": 1790691936,
     "CHRW": 1790696896
   },
-  "last_publish_ts": 1790697314,
-  "last_check_ts": 1790698087,
+  "last_publish_ts": 1790698124,
+  "last_check_ts": 1790698170,
   "last_bar_ts": 1790697900,
   "last_decision_ts": 1790697314,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "7fd6839f": 116.9123,
     "dfdc4017": 335.2417,
-    "af00c82e": 127.7388,
     "b4e51d52": 452.57,
     "d8bb370b": 598.6712,
-    "03a8c893": 123.5,
-    "5470b7db": 123.4228,
-    "2b51d335": 113.0,
-    "2a220900": 112.9565,
     "08b2f64d": 323.689,
     "81faa8e3": 323.5
   }
