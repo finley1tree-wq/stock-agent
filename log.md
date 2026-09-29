@@ -19344,3 +19344,16 @@ Decision: nothing at this check. 33 standing order(s) working.
 - SELL 100% UNH [time stop] -> $2502.72 (+0.11%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 12:58 ET — tick — 6 sell(s), 0 buy(s) from standing orders
 ## 2026-09-29 03:22 ET — published the session's closing state
+  (trigger TSM buy_limit @ 442.0 expired)
+  (trigger PLTR buy_limit @ 186.0 expired)
+  (trigger CRWD buy_limit @ 253.0 expired)
+  (trigger AVGO buy_limit @ 345.0 expired)
+  (trigger CRWD buy_limit @ 253.825 expired)
+  (trigger CRWD buy_limit @ 253.8525 expired)
+  (trigger TSM buy_limit @ 449.799 expired)
+  (trigger HD stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $292.40] -> $1952.00 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled standing buy META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (cancelled standing buy AAPL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+## 2026-09-29 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders

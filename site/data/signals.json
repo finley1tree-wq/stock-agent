@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-29T03:22-04:00",
- "note": "market closed - final state for the session",
+ "asOf": "2026-09-29T09:30-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -76,6 +76,8 @@
   "autopilot_decision_minutes": 2,
   "min_decision_minutes": 6,
   "max_decision_minutes": 30,
+  "no_new_entries_after_et": "14:00",
+  "allow_momentum_only_entries": false,
   "max_hold_minutes": 30,
   "max_hold_days": 20,
   "time_stop_min_gain_pct": 1.0,
@@ -139,40 +141,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6e4d20d8",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 249.4201,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-09-29",
-   "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
-   "id": "189a96c9",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 715.0447,
-   "usd": 1000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-09-29",
-   "why": "strong month, weak day: resting 0.89% under $721.48 to catch the dip",
-   "signals": [
-    "momentum",
-    "dip_entry"
-   ]
-  },
-  {
    "id": "d8bb370b",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -180,8 +148,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
+   "last": 616.91,
+   "pct_away": -2.96,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
@@ -190,71 +158,20 @@
    ]
   },
   {
-   "id": "cf81ade8",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 292.3988,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-03",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4029242e",
-   "ticker": "HD",
+   "id": "6e4d20d8",
+   "ticker": "CRWD",
    "kind": "buy_limit",
-   "price": 282.9393,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "dca65cdd",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 339.4141,
+   "price": 249.4201,
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
+   "last": 258.64,
+   "pct_away": -3.56,
    "good_until": "2026-09-29",
-   "why": "strong month, weak day: resting 0.41% under $340.80 to catch the dip",
+   "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "923c9f3c",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 291.906,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-03",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],

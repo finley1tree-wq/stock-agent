@@ -1,17 +1,3 @@
-  (dropped TSM: sold 20 min ago, cooling off)
-  (dropped MSFT: sold 6 min ago, cooling off)
-- BUY $2500.00 AAPL [filled] ['momentum', 'news'] — widely_held bucket has best track record (avg_ret 2.14%, n=372); AAPL has strong 1m momentum and is not overextended intraday | evidence: AAPL +8.78% 1m, headline 'Nvidia stock jumps after largest share buyback ever' lifting AI-adjacent hardware names; AAPL at 71.5% of day range, not yet extended
-- BUY $2500.00 AMZN [filled] ['momentum', 'news'] — widely_held sector best performing bucket; pullback gives decent entry vs recent extended names | evidence: AMZN -1.64% today at 39.4% of day range (not extended), headline 'Adobe Expects Record U.S. Holiday Online Shopping' supports e-commerce demand
-- BUY $2000.00 HD [filled] ['momentum', 'news'] — widely_held name, contrarian bounce candidate off oversold 1m level | evidence: HD at 70.2% of day range, down -11.26% over 1m already priced in weakness, headline 'Home Depot Is 32% Below Its All-Time High' suggests value entry
-- BUY $852.94 IBM [filled] ['momentum', 'news'] — widely_held bucket, reasonable entry point mid-range | evidence: IBM at 45.7% of day range, -7.41% 1m already, headline on AI officer hire; not extended
-~ WORKING stop_loss 100% AAPL @ $336.50 until 2026-09-28 — protective stop on new AAPL position
-~ WORKING take_profit 50% AAPL @ $346.50 until 2026-09-28 — lock in gain on half position
-~ WORKING stop_loss 100% AMZN @ $241.00 until 2026-09-28 — protective stop on new AMZN position
-~ WORKING take_profit 50% AMZN @ $249.50 until 2026-09-28 — lock in gain on half position
-~ WORKING stop_loss 100% HD @ $286.50 until 2026-09-28 — protective stop on new HD position
-~ WORKING take_profit 50% HD @ $296.50 until 2026-09-28 — lock in gain on half position
-~ WORKING stop_loss 100% IBM @ $216.50 until 2026-09-28 — protective stop on new IBM position
-~ WORKING take_profit 50% IBM @ $226.00 until 2026-09-28 — lock in gain on half position
 ~ WORKING take_profit 100% AAPL @ $342.98 until 2026-10-03 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 AAPL @ $331.98 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMZN @ $246.22 until 2026-10-03 — close 100% at +0.2% over the average cost
@@ -398,3 +384,17 @@ Decision: nothing at this check. 33 standing order(s) working.
 - SELL 100% NOC [time stop] -> $2488.35 (-0.47%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% UNH [time stop] -> $2502.72 (+0.11%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 12:58 ET — tick — 6 sell(s), 0 buy(s) from standing orders
+## 2026-09-29 03:22 ET — published the session's closing state
+  (trigger TSM buy_limit @ 442.0 expired)
+  (trigger PLTR buy_limit @ 186.0 expired)
+  (trigger CRWD buy_limit @ 253.0 expired)
+  (trigger AVGO buy_limit @ 345.0 expired)
+  (trigger CRWD buy_limit @ 253.825 expired)
+  (trigger CRWD buy_limit @ 253.8525 expired)
+  (trigger TSM buy_limit @ 449.799 expired)
+  (trigger HD stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $292.40] -> $1952.00 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled standing buy META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (cancelled standing buy AAPL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+## 2026-09-29 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders

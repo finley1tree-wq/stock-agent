@@ -6379,7 +6379,7 @@
    "ticker": "META",
    "kind": "buy_limit",
    "price": 715.0447,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 11:10",
    "created_ts": 1790608243,
    "why": "strong month, weak day: resting 0.89% under $721.48 to catch the dip",
@@ -6389,7 +6389,9 @@
     "dip_entry"
    ],
    "good_until": "2026-09-29",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-29 09:30",
+   "cancel_reason": "momentum-only entry (guardrails.allow_momentum_only_entries is false)"
   },
   {
    "id": "7ce44709",
@@ -6691,7 +6693,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 442.0,
-   "status": "working",
+   "status": "expired",
    "created": "2026-09-28 11:42",
    "created_ts": 1790610123,
    "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
@@ -6701,14 +6703,15 @@
     "momentum"
    ],
    "good_until": "2026-09-28",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "dee71357",
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 186.0,
-   "status": "working",
+   "status": "expired",
    "created": "2026-09-28 11:42",
    "created_ts": 1790610123,
    "why": "resting limit below market to get better entry than chasing at 69% of range",
@@ -6718,14 +6721,15 @@
     "news"
    ],
    "good_until": "2026-09-28",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "4e1f5f09",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 253.0,
-   "status": "working",
+   "status": "expired",
    "created": "2026-09-28 11:42",
    "created_ts": 1790610123,
    "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
@@ -6735,14 +6739,15 @@
     "news"
    ],
    "good_until": "2026-09-28",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "ada2e9da",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 345.0,
-   "status": "working",
+   "status": "expired",
    "created": "2026-09-28 11:42",
    "created_ts": 1790610123,
    "why": "resting limit below current 349.87 to get better entry on congress-backed name",
@@ -6752,7 +6757,8 @@
     "insider"
    ],
    "good_until": "2026-09-28",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "cae20e4b",
@@ -7104,7 +7110,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 253.825,
-   "status": "working",
+   "status": "expired",
    "created": "2026-09-28 12:28",
    "created_ts": 1790612902,
    "why": "wanted it, but not at the high \u2014 resting at $253.82. Strong 1d/1m momentum (+13.97% 1m) with active security news flow",
@@ -7115,7 +7121,8 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 3000.0
+   "usd": 3000.0,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "5a77c159",
@@ -7369,7 +7376,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 253.8525,
-   "status": "working",
+   "status": "expired",
    "created": "2026-09-28 12:35",
    "created_ts": 1790613336,
    "why": "wanted it, but not at the high \u2014 resting at $253.85. Strong momentum name, adds 7th position, existing limit orders will layer in on dips",
@@ -7380,14 +7387,15 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "77abff6c",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 449.799,
-   "status": "working",
+   "status": "expired",
    "created": "2026-09-28 12:35",
    "created_ts": 1790613336,
    "why": "wanted it, but not at the high \u2014 resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions",
@@ -7398,14 +7406,15 @@
     "patience"
    ],
    "good_until": "2026-09-28",
-   "usd": 1947.24
+   "usd": 1947.24,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "cf81ade8",
    "ticker": "HD",
    "kind": "take_profit",
    "price": 292.3988,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-28 12:40",
    "created_ts": 1790613614,
    "why": "close 100% at +0.2% over the average cost",
@@ -7415,7 +7424,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 09:30"
   },
   {
    "id": "780a87fa",
@@ -7441,7 +7451,7 @@
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 282.9393,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 12:40",
    "created_ts": 1790613614,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7451,14 +7461,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 09:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dca65cdd",
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 339.4141,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 12:52",
    "created_ts": 1790614351,
    "why": "strong month, weak day: resting 0.41% under $340.80 to catch the dip",
@@ -7468,14 +7480,16 @@
     "dip_entry"
    ],
    "good_until": "2026-09-29",
-   "usd": 1000.0
+   "usd": 1000.0,
+   "closed": "2026-09-29 09:30",
+   "cancel_reason": "momentum-only entry (guardrails.allow_momentum_only_entries is false)"
   },
   {
    "id": "923c9f3c",
    "ticker": "HD",
    "kind": "stop_loss",
    "price": 291.906,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-28 13:01",
    "created_ts": 1790614895,
    "why": "close it all at -0.6% under the average cost",
@@ -7485,8 +7499,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 09:30",
+   "cancel_reason": "another standing order on the same ticker filled first"
   }
  ],
- "updated": "2026-09-28 13:01"
+ "updated": "2026-09-29 09:30"
 }
