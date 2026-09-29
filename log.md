@@ -19585,3 +19585,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 10:31 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+brain unavailable: brain failed after retry: InternalServerError: credential validation failed
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
