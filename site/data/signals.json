@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-28T13:01-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-29T03:22-04:00",
+ "note": "market closed - final state for the session",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -139,72 +139,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "923c9f3c",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 291.906,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 292.05,
-   "pct_away": -0.05,
-   "good_until": "2026-10-03",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cf81ade8",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 292.3988,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 292.05,
-   "pct_away": 0.12,
-   "good_until": "2026-10-03",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "dca65cdd",
-   "ticker": "AAPL",
+   "id": "6e4d20d8",
+   "ticker": "CRWD",
    "kind": "buy_limit",
-   "price": 339.4141,
+   "price": 249.4201,
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.62,
-   "pct_away": -0.35,
+   "last": null,
+   "pct_away": null,
    "good_until": "2026-09-29",
-   "why": "strong month, weak day: resting 0.41% under $340.80 to catch the dip",
+   "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
-   ]
-  },
-  {
-   "id": "77abff6c",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 449.799,
-   "usd": 1947.24,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 452.14,
-   "pct_away": -0.52,
-   "good_until": "2026-09-28",
-   "why": "wanted it, but not at the high \u2014 resting at $449.80. Congress-backed semis name with real momentum, adds 8th position to hit min_positions",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -215,8 +163,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 723.21,
-   "pct_away": -1.13,
+   "last": null,
+   "pct_away": null,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.89% under $721.48 to catch the dip",
    "signals": [
@@ -232,8 +180,8 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 605.84,
-   "pct_away": -1.18,
+   "last": null,
+   "pct_away": null,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
@@ -242,107 +190,20 @@
    ]
   },
   {
-   "id": "dee71357",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 186.0,
-   "usd": 2500.0,
-   "pct_of_position": null,
+   "id": "cf81ade8",
+   "ticker": "HD",
+   "kind": "take_profit",
+   "price": 292.3988,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 188.73,
-   "pct_away": -1.45,
-   "good_until": "2026-09-28",
-   "why": "resting limit below market to get better entry than chasing at 69% of range",
+   "last": null,
+   "pct_away": null,
+   "good_until": "2026-10-03",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
-    "momentum",
-    "news"
-   ]
-  },
-  {
-   "id": "ada2e9da",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 345.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 350.61,
-   "pct_away": -1.6,
-   "good_until": "2026-09-28",
-   "why": "resting limit below current 349.87 to get better entry on congress-backed name",
-   "signals": [
-    "congress",
-    "insider"
-   ]
-  },
-  {
-   "id": "d65c7308",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 253.8525,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 259.35,
-   "pct_away": -2.12,
-   "good_until": "2026-09-28",
-   "why": "wanted it, but not at the high \u2014 resting at $253.85. Strong momentum name, adds 7th position, existing limit orders will layer in on dips",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "2dc3aba8",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 253.825,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 259.35,
-   "pct_away": -2.13,
-   "good_until": "2026-09-28",
-   "why": "wanted it, but not at the high \u2014 resting at $253.82. Strong 1d/1m momentum (+13.97% 1m) with active security news flow",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "98532105",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 442.0,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 452.14,
-   "pct_away": -2.24,
-   "good_until": "2026-09-28",
-   "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
-   "signals": [
-    "congress",
-    "momentum"
-   ]
-  },
-  {
-   "id": "4e1f5f09",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 253.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 259.35,
-   "pct_away": -2.45,
-   "good_until": "2026-09-28",
-   "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
-   "signals": [
-    "momentum",
-    "news"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -353,8 +214,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 292.05,
-   "pct_away": -3.12,
+   "last": null,
+   "pct_away": null,
    "good_until": "2026-10-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -363,20 +224,37 @@
    ]
   },
   {
-   "id": "6e4d20d8",
-   "ticker": "CRWD",
+   "id": "dca65cdd",
+   "ticker": "AAPL",
    "kind": "buy_limit",
-   "price": 249.4201,
+   "price": 339.4141,
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.35,
-   "pct_away": -3.83,
+   "last": null,
+   "pct_away": null,
    "good_until": "2026-09-29",
-   "why": "strong month, weak day: resting 1.02% under $251.98 to catch the dip",
+   "why": "strong month, weak day: resting 0.41% under $340.80 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "923c9f3c",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 291.906,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": null,
+   "pct_away": null,
+   "good_until": "2026-10-03",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   }
  ],
