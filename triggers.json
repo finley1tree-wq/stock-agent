@@ -6985,7 +6985,7 @@
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 352.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:39",
    "created_ts": 1790689166,
    "why": "Protective stop per desk rule",
@@ -6994,7 +6994,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ff63fb4c",
@@ -7067,7 +7069,7 @@
    "ticker": "AVGO",
    "kind": "take_profit",
    "price": 360.5162,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-29 09:39",
    "created_ts": 1790689166,
    "why": "close 100% at +0.3% over the average cost",
@@ -7077,14 +7079,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:01"
   },
   {
    "id": "e87e10e4",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 348.6374,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:39",
    "created_ts": 1790689166,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7094,7 +7097,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 10:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c665f966",
@@ -7272,7 +7277,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 364.3,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "protective stop ~2.5% below entry",
@@ -7281,7 +7286,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f7ba7f90",
@@ -7320,7 +7327,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 379.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "take partial profit at ~1.6% gain",
@@ -7329,7 +7336,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-09-29 10:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "104b4460",
@@ -7404,7 +7413,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 374.4931,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "close 100% at +0.2% over the average cost",
@@ -7414,14 +7423,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 10:00"
   },
   {
    "id": "ca9b4593",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 362.4211,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:55",
    "created_ts": 1790690120,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7431,8 +7441,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 10:00",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-29 09:55"
+ "updated": "2026-09-29 10:01"
 }

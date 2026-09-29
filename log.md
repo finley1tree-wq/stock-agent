@@ -19461,3 +19461,9 @@ lesson: When below min_positions with idle cash, prioritize sector diversificati
 ~ WORKING buy_limit $500.00 UNH @ $362.42 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25259.73 (+1.04% on $25000.00 in) · cash $6313.59 · realised +313.59
 Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
+  (cancelled 3 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $375.23] -> $2008.54 (+0.43%) — close 100% at +0.2% over the average cost
+## 2026-09-29 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $360.52] -> $2507.61 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-09-29 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

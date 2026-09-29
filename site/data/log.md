@@ -1,9 +1,3 @@
-portfolio: equity $32867.65 (+31.47% on $25000.00 in) · cash $27728.07 · realised +7878.07
-Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $19909.38 this week
-- BUY $1000.00 TSM [buy_limit @ $445.35] — strong month, weak day: resting 0.44% under $447.33 to catch the dip
-## 2026-09-28 10:43 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- BUY $1000.00 AMD [buy_limit @ $600.80] — strong month, weak day: resting 0.87% under $606.10 to catch the dip
-## 2026-09-28 10:46 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - BUY $1800.00 CCJ [buy_limit @ $86.68] — wanted it, but not at the high — resting at $86.68. Nuclear thesis intact, CCJ strength today despite -17.8% 1m drawdown offering value
 ## 2026-09-28 10:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% PLTR [time stop] -> $1982.73 (-0.86%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +392,9 @@ lesson: When below min_positions with idle cash, prioritize sector diversificati
 ~ WORKING buy_limit $500.00 UNH @ $362.42 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25259.73 (+1.04% on $25000.00 in) · cash $6313.59 · realised +313.59
 Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
+  (cancelled 3 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $375.23] -> $2008.54 (+0.43%) — close 100% at +0.2% over the average cost
+## 2026-09-29 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $360.52] -> $2507.61 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-09-29 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
