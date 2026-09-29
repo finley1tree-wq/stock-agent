@@ -1,31 +1,3 @@
-~ WORKING stop_loss 100% NOC @ $498.00 until 2026-09-28 — Protective stop below day low
-~ WORKING stop_loss 100% UNH @ $368.00 until 2026-09-28 — Protective stop below day low
-~ WORKING buy_limit $3000.00 CRWD @ $253.82 until 2026-09-28 — wanted it, but not at the high — resting at $253.82. Strong 1d/1m momentum (+13.97% 1m) with active security news flow
-~ WORKING buy_limit $2500.00 HD @ $291.69 until 2026-09-28 — wanted it, but not at the high — resting at $291.69. Widely_held name with beaten down 1m performance, potential value entry
-~ WORKING take_profit 100% NVDA @ $232.67 until 2026-10-03 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 NVDA @ $225.14 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $342.48 until 2026-10-03 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $331.25 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LMT @ $521.30 until 2026-10-03 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 LMT @ $504.37 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $221.97 until 2026-10-03 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $214.48 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $511.46 until 2026-10-03 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 NOC @ $494.93 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $376.89 until 2026-10-03 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $364.56 until 2026-10-03 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $32822.23 (+31.29% on $25000.00 in) · cash $17326.33 · realised +7826.33
-Done: 0 sell(s), 6 buy(s); 28 order(s) working; budget left $9500.00 this week
-
-## 2026-09-28 12:35 ET (Monday) — week 2026-W40 — budget left $9500.00 (today $92952.94 put to work, 43 buys, 35 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-brain: Below min_positions (6 of 8) with 38% cash idle - need to add names. PLTR is in cooldown so I'm swapping to CRWD (strong momentum, active news) and TSM (congress buy from Rep. Allen who has +2.76% avg excess/62% beat rate per leaderboard, plus real momentum). Adding protective stops and take-profits on new positions per risk_management discipline that has 88% hit rate historically.
-lesson: Check cooling_off_minutes_left list explicitly before drafting orders - PLTR was cooling (37min left) so I had to substitute it out; keep a mental checklist of the 5-7 cooling names at each check rather than assuming full universe access.
   (dropped PLTR: sold 9 min ago, cooling off)
   (dropped CRWD: 94% up today's range — resting a limit at $253.85 instead of chasing)
   (dropped TSM: 88% up today's range — resting a limit at $449.80 instead of chasing)
@@ -398,3 +370,31 @@ Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $12929.96 this week
   (cancelled 2 standing order(s) on NVDA: position closed)
 - SELL 100% NVDA [take_profit @ $231.41] -> $2506.37 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-29 10:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% GOOGL [time stop] -> $2499.59 (-0.02%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% PLTR [time stop] -> $1989.02 (-0.55%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 11:07 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 11:07 ET (Tuesday) — week 2026-W40 — budget left $19924.94 (today $42000.00 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: Only 2 of min_positions=8 held with 79.7% cash idle - this is a self-inflicted drag per counterfactual_learning (idle_share=0.55, avg_regret negative when picking). Adding IBM (congress pressure, positive day momentum, not cooling), CRWD (congress_net_buy_pressure=2.0, mid-range entry avoiding the chase), and HUBB (highest congress_net_buy_pressure=3.0 on the whole list, named disclosures from April McClain Delaney) moves toward min_positions with concrete evidence-backed entries, each paired with an ATR-based stop_loss per the risk_management signal which has the best realized track record (88% hit rate).
+lesson: Past lessons show repeatedly buying only 2-3 names per check keeps below_target_position_count true for hours; batch to 3+ new names per check when idle cash is high and evidence exists, using congress_net_buy_pressure ranking to pick the strongest non-momentum-only candidates.
+- BUY $2500.00 IBM [filled] ['congress', 'momentum'] — Diversify into widely_held tech with positive day momentum and congress interest; not currently held or cooling off | evidence: IBM +0.39% today, congress net buy pressure disclosed, not in cooldown
+- BUY $2500.00 CRWD [filled] ['news', 'momentum'] — Re-enter CRWD; congress pressure=2 plus mid-range entry avoids chasing the high | evidence: CRWD price 259.11, day range 52.8%, congress_net_buy_pressure 2.0, sold earlier today but cooldown already expired (not in cooling_off_minutes_left list)
+- BUY $2500.00 HUBB [filled] ['congress'] — Strongest congress buy-pressure score on the list, not in cooldown, reasonable entry at 6.6% of day range | evidence: congress_net_buy_pressure 3.0 (highest on list), disclosed buyer April McClain Delaney with multiple buy filings
+  (dropped trigger AVGO take_profit: duplicate of a working order)
+~ WORKING stop_loss 100% IBM @ $216.00 until 2026-09-29 — Protective stop per risk_management best-performing signal
+~ WORKING stop_loss 100% CRWD @ $252.50 until 2026-09-29 — Protective stop per risk_management best-performing signal
+~ WORKING stop_loss 100% HUBB @ $450.00 until 2026-09-29 — Protective stop per risk_management best-performing signal
+~ WORKING take_profit 100% IBM @ $222.37 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $214.93 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $260.56 until 2026-10-04 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $251.39 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $463.92 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $448.70 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25256.08 (+1.02% on $25000.00 in) · cash $12756.52 · realised +256.52
+Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $12424.94 this week

@@ -1,27 +1,27 @@
 {
   "week": "2026-W40",
-  "spent": 9563.67,
-  "deployed": 136900.18,
+  "spent": 12575.06,
+  "deployed": 144400.18,
   "by_ticker": {
     "AVGO": 2510.48,
     "TTD": 19.02,
     "AAPL": 4.46,
-    "IBM": 5.12,
-    "PLTR": 2007.18,
+    "IBM": 2505.12,
+    "PLTR": 18.16,
     "RTX": 9.84,
     "AMD": 6.07,
     "LMT": 14.78,
     "NOC": 6.09,
-    "GOOGL": 2508.28,
+    "GOOGL": 8.69,
     "UNH": 0.53,
     "NEM": 4.25,
     "AMZN": 4.04,
     "NVDA": 10.21,
     "CCJ": 21.44,
-    "CRWD": 21.17,
+    "CRWD": 2521.17,
     "HLI": 20.2,
     "FWONK": 7.89,
-    "HUBB": 16.26,
+    "HUBB": 2516.26,
     "ACN": 2500.0
   },
   "deployed_by_ticker": {
@@ -35,13 +35,13 @@
     "MSFT": 4058.82,
     "NOC": 8947.06,
     "UNH": 7647.06,
-    "CRWD": 5000.0,
+    "CRWD": 7500.0,
     "NVDA": 10000.0,
     "GOOGL": 8247.06,
     "AAPL": 4500.0,
     "AMZN": 4500.0,
     "HD": 3947.24,
-    "IBM": 3352.94,
+    "IBM": 5852.94,
     "META": 1000.0,
     "RTX": 4800.0,
     "CCJ": 8900.0,
@@ -50,7 +50,7 @@
     "HLI": 1500.0,
     "FWONK": 1000.0,
     "NLR": 2000.0,
-    "HUBB": 3000.0
+    "HUBB": 5500.0
   },
   "orders": [
     {
@@ -2287,13 +2287,103 @@
       ],
       "evidence": "average cost $230.83",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 7.372722,
+      "status": "filled",
+      "price": 339.03,
+      "proceeds": 2499.59,
+      "realized_pnl": -0.41,
+      "realized_pct": -0.02,
+      "date": "2026-09-29",
+      "time_et": "11:07",
+      "ts": 1790694452,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.00% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 10.722291,
+      "status": "filled",
+      "price": 185.5,
+      "proceeds": 1989.02,
+      "realized_pnl": -10.98,
+      "realized_pct": -0.55,
+      "date": "2026-09-29",
+      "time_et": "11:07",
+      "ts": 1790694452,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.53% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.282387,
+      "price": 221.58,
+      "date": "2026-09-29",
+      "time_et": "11:07",
+      "ts": 1790694454,
+      "why": "Diversify into widely_held tech with positive day momentum and congress interest; not currently held or cooling off",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "IBM +0.39% today, congress net buy pressure disclosed, not in cooldown"
+    },
+    {
+      "symbol": "CRWD",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.646483,
+      "price": 259.16,
+      "date": "2026-09-29",
+      "time_et": "11:07",
+      "ts": 1790694454,
+      "why": "Re-enter CRWD; congress pressure=2 plus mid-range entry avoids chasing the high",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "CRWD price 259.11, day range 52.8%, congress_net_buy_pressure 2.0, sold earlier today but cooldown already expired (not in cooling_off_minutes_left list)"
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.404413,
+      "price": 462.58,
+      "date": "2026-09-29",
+      "time_et": "11:07",
+      "ts": 1790694454,
+      "why": "Strongest congress buy-pressure score on the list, not in cooldown, reasonable entry at 6.6% of day range",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "congress_net_buy_pressure 3.0 (highest on list), disclosed buyer April McClain Delaney with multiple buy filings"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 9521.1,
-  "deployed_today": 42000.0,
-  "orders_today": 18,
-  "sells_today": 15,
+  "spent_today": 12532.49,
+  "deployed_today": 49500.0,
+  "orders_today": 21,
+  "sells_today": 17,
   "sold_today": [
     "HD",
     "NOC",
@@ -2309,10 +2399,12 @@
     "FWONK",
     "HUBB",
     "NLR",
-    "NVDA"
+    "NVDA",
+    "GOOGL",
+    "PLTR"
   ],
   "sold_ts": {
-    "PLTR": 1790612839,
+    "PLTR": 1790694453,
     "TSM": 1790689984,
     "LEN": 1790602749,
     "AMD": 1790608606,
@@ -2322,7 +2414,7 @@
     "UNH": 1790690435,
     "CRWD": 1790690975,
     "NVDA": 1790693661,
-    "GOOGL": 1790614722,
+    "GOOGL": 1790694453,
     "AVGO": 1790690481,
     "TTD": 1790690030,
     "HD": 1790688629,
@@ -2339,28 +2431,31 @@
     "HUBB": 1790691347,
     "NLR": 1790691936
   },
-  "last_publish_ts": 1790693660,
-  "last_check_ts": 1790694359,
+  "last_publish_ts": 1790694454,
+  "last_check_ts": 1790694454,
   "last_bar_ts": 1790694300,
-  "last_decision_ts": 1790693545,
+  "last_decision_ts": 1790694454,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "cf4d55a6": 340.0327,
-    "3e4985cf": 361.8403,
-    "29de2659": 174.5962,
     "7c92d33c": 507.9852,
-    "0d4a4532": 187.1698,
+    "29de2659": 174.5962,
+    "33acb9f2": 463.9169,
+    "540a9282": 222.3733,
+    "3e4985cf": 361.8403,
+    "8ae4a352": 260.5646,
     "b4e51d52": 452.57,
     "36278fb2": 365.5,
     "b33806c4": 353.5,
-    "74026745": 182.5,
     "38f1e389": 170.3,
-    "07bbdcc0": 332.5,
-    "ee979652": 180.9341,
+    "7682d513": 216.0,
+    "1a09552f": 252.5,
+    "23bf13dd": 450.0,
     "96f70fe5": 349.9178,
     "d8bb370b": 598.6712,
-    "fdbf6143": 168.6248,
-    "a1096c66": 328.9173
+    "e5851b7b": 448.7026,
+    "fa57229f": 214.9326,
+    "b49abee9": 251.3852,
+    "fdbf6143": 168.6248
   }
 }
