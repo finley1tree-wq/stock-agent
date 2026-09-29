@@ -1,36 +1,3 @@
-- SELL 100% GOOGL [time stop] -> $2496.44 (-0.14%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% LMT [time stop] -> $2485.79 (-0.57%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% IBM [time stop] -> $2495.95 (-0.16%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NOC [time stop] -> $2488.35 (-0.47%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% UNH [time stop] -> $2502.72 (+0.11%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-28 12:58 ET — tick — 6 sell(s), 0 buy(s) from standing orders
-## 2026-09-29 03:22 ET — published the session's closing state
-  (trigger TSM buy_limit @ 442.0 expired)
-  (trigger PLTR buy_limit @ 186.0 expired)
-  (trigger CRWD buy_limit @ 253.0 expired)
-  (trigger AVGO buy_limit @ 345.0 expired)
-  (trigger CRWD buy_limit @ 253.825 expired)
-  (trigger CRWD buy_limit @ 253.8525 expired)
-  (trigger TSM buy_limit @ 449.799 expired)
-  (trigger HD stop_loss superseded at this check)
-  (cancelled 1 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $292.40] -> $1952.00 (+0.24%) — close 100% at +0.2% over the average cost
-  (cancelled standing buy META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (cancelled standing buy AAPL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-## 2026-09-29 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 09:32 ET (Tuesday) — week 2026-W40 — budget left $24957.43 (today $0.00 put to work, 0 buys, 1 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain: Book is fully flat (100% cash) with min_positions=8 required and remaining_budget of ~$25k. Deploying $3000 each into 8 names spanning nuclear (CCJ), defense (NOC, RTX), tech/AI (NVDA, GOOGL, TSM), healthcare (UNH), and a congress-backed value name (ACN) diversifies across sectors while respecting max_per_sector_pct=50%. Each pick has a concrete evidence point (congress disclosure, momentum, day-range position) and comes with a protective stop_loss per risk_management guidance, which historically has the best realized return (0.17% avg, 88% hit rate) in the signal ranking.
-lesson: Deploy to min_positions in size immediately when fully flat rather than waiting, using diversified sectors with concrete evidence and pairing every buy with a stop_loss trigger.
-  (dropped RTX: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (dropped GOOGL: momentum-only entry (guardrails.allow_momentum_only_entries is false))
   (dropped UNH: momentum-only entry (guardrails.allow_momentum_only_entries is false))
 - BUY $3000.00 CCJ [filled] ['momentum', 'congress'] — Fresh entry in nuclear theme, reasonable entry point not chasing | evidence: CCJ +1.3% today, mid-range (50% of day range), nuclear sector backtest shows strong multi-year returns; not in cooldown
 - BUY $3000.00 NOC [filled] ['momentum', 'news'] — Defense name at reasonable entry, not extended | evidence: NOC price $503.55, mid-range (50%), defense sector historically resilient per backtest 5y avg_total_return 212%
@@ -398,3 +365,36 @@ Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $7411.28 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $508.06] -> $2500.35 (+0.01%) — close it all at -0.6% under the average cost
 ## 2026-09-29 11:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL IBM [rejected_no_price]
+- SELL 100% CRWD [time stop] -> $2504.50 (+0.18%) — held 30 min, the 30-minute limit: out regardless
+- SELL HUBB [rejected_no_price]
+## 2026-09-29 11:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% IBM [time stop] -> $2502.95 (+0.12%) — held 31 min, the 30-minute limit: out regardless
+- SELL HUBB [rejected_no_price]
+## 2026-09-29 11:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-29 11:38 ET (Tuesday) — week 2026-W40 — budget left $14919.08 (today $59500.00 put to work, 25 buys, 22 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (no price for ESE — excluded this check)
+- SELL 100% HUBB [time stop] -> $2488.17 (-0.47%) — held 31 min, the 30-minute limit: out regardless
+brain: Still below min_positions (3 held, need 8) with 69.6% cash idle. Adding CHRW (congress pressure 3.0, named filer, not extended), HLI (congress pressure 2.0, near day low), NEM (gold sector positive track record, pulled back 8.5% giving cheaper entry) - none are momentum-only, all have concrete evidence and paired stops per risk_management/auto_bracket which are the best-performing signal buckets historically.
+lesson: Batch 3 new names per check with named congress filers or sector track-record evidence plus immediate stop_loss to close the min_positions gap faster without waiting on cooldowns.
+- BUY $2200.00 CHRW [filled] ['congress', 'track_record'] — Highest congress buy-pressure name not held/cooled, real filer name backing it | evidence: congress_net_buy_pressure CHRW=3.0, Rep. April McClain Delaney filed multiple buys disclosed 2026-09-09; price at 65.3% of day range, not extended
+- BUY $2200.00 HLI [filled] ['congress', 'momentum'] — Low in day range entry on a name with congress buy pressure, cheap relative entry | evidence: congress_net_buy_pressure HLI=2.0 (April McClain Delaney), price 127.19 at 11.8% of day range (near low), down -1.81% today but only -4.38% 1m
+- BUY $2100.00 NEM [filled] ['momentum', 'track_record'] — Gold sector has positive realized track record; NEM pulled back giving better entry than the recent highs | evidence: gold sector track_record avg_ret_pct +0.03% hit_rate 0.59 (best sector in track_record besides risk_management/standing_order); NEM at 23.7% of day range, -8.53% 5d oversold bounce candidate
+~ WORKING stop_loss 100% CHRW @ $145.80 until 2026-09-29 — Protect new CHRW position per risk_management best-performing signal bucket
+~ WORKING stop_loss 100% HLI @ $123.50 until 2026-09-29 — Protect new HLI position, similar sizing to other stops
+~ WORKING stop_loss 100% NEM @ $113.00 until 2026-09-29 — Protect new NEM position per risk_management best-performing signal bucket
+~ WORKING take_profit 100% CHRW @ $149.28 until 2026-10-04 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $144.39 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $127.74 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 HLI @ $123.42 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $116.91 until 2026-10-04 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $112.96 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25248.52 (+0.99% on $25000.00 in) · cash $11238.83 · realised +238.83
+Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 20 order(s) working; budget left $10907.25 this week

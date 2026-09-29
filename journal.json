@@ -44693,7 +44693,9 @@
     "code_version": "7b69a2c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.12,
+    "ret_final": 0.12,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -44719,7 +44721,9 @@
     "code_version": "7b69a2c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.18,
+    "ret_final": 0.18,
+    "ret_src": "realised"
   },
   {
     "symbol": "HUBB",
@@ -44744,7 +44748,9 @@
     "code_version": "7b69a2c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.49
+    "ret_now": -0.47,
+    "ret_final": -0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -44773,7 +44779,9 @@
     "code_version": "7c25499",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.0
+    "ret_now": 0.01,
+    "ret_final": 0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -44847,7 +44855,8 @@
     "hour_et": 11,
     "code_version": "7c25499",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.12
   },
   {
     "symbol": "RTX",
@@ -44872,7 +44881,8 @@
     "hour_et": 11,
     "code_version": "7c25499",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.24
   },
   {
     "symbol": "TSM",
@@ -44897,7 +44907,8 @@
     "hour_et": 11,
     "code_version": "7c25499",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.23
   },
   {
     "symbol": "MSFT",
@@ -44923,6 +44934,156 @@
     "evidence": "average cost $507.99",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "8acd7e0"
+    "code_version": "8acd7e0",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "CRWD",
+    "side": "sell",
+    "qty": 9.646483,
+    "status": "filled",
+    "price": 259.63,
+    "proceeds": 2504.5,
+    "realized_pnl": 4.5,
+    "realized_pct": 0.18,
+    "date": "2026-09-29",
+    "time_et": "11:37",
+    "ts": 1790696278,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, +0.20% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "18d2169",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 11.282387,
+    "status": "filled",
+    "price": 221.85,
+    "proceeds": 2502.95,
+    "realized_pnl": 2.95,
+    "realized_pct": 0.12,
+    "date": "2026-09-29",
+    "time_et": "11:38",
+    "ts": 1790696325,
+    "why": "held 31 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 31 min ago, +0.14% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "18d2169",
+    "hold_minutes": 31
+  },
+  {
+    "symbol": "HUBB",
+    "side": "sell",
+    "qty": 5.404413,
+    "status": "filled",
+    "price": 460.4,
+    "proceeds": 2488.17,
+    "realized_pnl": -11.83,
+    "realized_pct": -0.47,
+    "date": "2026-09-29",
+    "time_et": "11:38",
+    "ts": 1790696328,
+    "why": "held 31 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "time_stop"
+    ],
+    "evidence": "bought 31 min ago, -0.43% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "18d2169",
+    "hold_minutes": 31
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 2200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 14.779035,
+    "price": 148.86,
+    "date": "2026-09-29",
+    "time_et": "11:38",
+    "ts": 1790696328,
+    "why": "Highest congress buy-pressure name not held/cooled, real filer name backing it",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure CHRW=3.0, Rep. April McClain Delaney filed multiple buys disclosed 2026-09-09; price at 65.3% of day range, not extended",
+    "entry_price": 148.8,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -1.06,
+    "hour_et": 11,
+    "code_version": "18d2169",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HLI",
+    "notional": 2200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 17.290041,
+    "price": 127.24,
+    "date": "2026-09-29",
+    "time_et": "11:38",
+    "ts": 1790696328,
+    "why": "Low in day range entry on a name with congress buy pressure, cheap relative entry",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress_net_buy_pressure HLI=2.0 (April McClain Delaney), price 127.19 at 11.8% of day range (near low), down -1.81% today but only -4.38% 1m",
+    "entry_price": 127.19,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -4.38,
+    "hour_et": 11,
+    "code_version": "18d2169",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NEM",
+    "notional": 2100.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 18.034024,
+    "price": 116.45,
+    "date": "2026-09-29",
+    "time_et": "11:38",
+    "ts": 1790696328,
+    "why": "Gold sector has positive realized track record; NEM pulled back giving better entry than the recent highs",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "gold sector track_record avg_ret_pct +0.03% hit_rate 0.59 (best sector in track_record besides risk_management/standing_order); NEM at 23.7% of day range, -8.53% 5d oversold bounce candidate",
+    "entry_price": 116.4,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -9.05,
+    "hour_et": 11,
+    "code_version": "18d2169",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
