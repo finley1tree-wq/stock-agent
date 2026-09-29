@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-09-29 10:10 ET
+# Pretend portfolio — 2026-09-29 10:13 ET
 
-**Equity $25274.61** on $25000.00 put in → **+1.10%**  
-Cash $20276.66 · Unrealised -2.05 · Realised +276.66
+**Equity $25280.11** on $25000.00 put in → **+1.12%**  
+Cash $20276.66 · Unrealised +3.45 · Realised +276.66
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| HUBB | 11.9% | $2998.80 | $468.61 | $468.42 | -0.04% | 0d |
+| HUBB | 11.9% | $3004.31 | $468.61 | $469.28 | +0.14% | 0d |
 | NLR | 7.9% | $1999.15 | $104.86 | $104.82 | -0.04% | 0d |
 
 ## Last fills
