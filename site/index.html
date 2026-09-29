@@ -3,122 +3,378 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0a0e13">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Stock Agent</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a84ff'/%3E%3Cpath d='M12 44l12-14 10 8 18-22' fill='none' stroke='%23fff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="/styles.css?v=20260916a">
+<meta name="color-scheme" content="dark"><meta name="theme-color" content="#0a0e13">
+<title>Trading Dashboard</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233987e5'/%3E%3Cpath d='M12 44l12-14 10 8 18-22' fill='none' stroke='%23fff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{--page:#0a0e13;--surface:#121821;--surface-2:#182130;--ink:#e8eef5;--ink-2:#b4c0cf;--muted:#8b98a9;--grid:#1c2633;--line:#1f2a38;
+--series:#0a84ff;--pos:#0a84ff;--neg:#ff6b5e;--good:#30d158;--warn:#ffb340;--crit:#ff453a;--link:#4da3ff}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--page);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1120px;margin:0 auto;padding:18px 16px 60px}
+header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:14px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em;font-weight:700}h2{font-size:13px;margin:0 0 10px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.sub{color:var(--muted);font-size:13px}
+.tabs{display:flex;gap:4px;margin:6px 0 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tabs button{flex:1;background:none;border:0;color:var(--muted);font:inherit;font-weight:600;font-size:14px;padding:9px 12px;cursor:pointer;border-radius:9px;white-space:nowrap}
+.tabs button[aria-selected="true"]{background:var(--surface-2);color:var(--ink)}
+.grid{display:grid;gap:12px}.tiles{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}.two{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0}
+.tile .label{color:var(--muted);font-size:12.5px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}.tile .value{font-size:28px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums;letter-spacing:-.01em}.tile .note{color:var(--muted);font-size:13px;margin-top:4px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:600;background:var(--surface-2);color:var(--ink);white-space:nowrap}
+.pill i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.dot-good{background:var(--good)}.dot-crit{background:var(--crit)}.dot-warn{background:var(--warn)}.dot-muted{background:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody tr:hover{background:rgba(255,255,255,.02)}
+.tbl{overflow-x:auto}.why{margin:4px 0 0;padding-left:18px;color:var(--ink-2);font-size:12.5px}
+section{margin-top:16px}.chart{position:relative}.chart svg{display:block;width:100%;height:auto}
+.tip{position:absolute;pointer-events:none;background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12.5px;white-space:nowrap;transform:translate(-50%,-110%);display:none;color:var(--ink)}
+ul.list{margin:0;padding-left:18px}ul.list li{margin:8px 0}ul.list b{color:var(--ink)}ul.list span{color:var(--ink-2)}
+.banner{border-radius:12px;padding:12px 14px;margin:0 0 12px;border:1px solid var(--line);background:var(--surface);font-size:14px;color:var(--ink-2)}
+.banner b{color:var(--ink)}.banner.warn{border-color:rgba(255,179,64,.5);background:rgba(255,179,64,.08)}.banner.crit{border-color:rgba(255,69,58,.5);background:rgba(255,69,58,.08)}
+.theme{display:none}
+details{margin-top:6px}details summary{cursor:pointer;color:var(--link);font-size:13px;list-style:none}details summary::-webkit-details-marker{display:none}details summary::before{content:"▸ ";}details[open] summary::before{content:"▾ ";}
+details .more{color:var(--ink-2);font-size:13.5px;margin-top:6px}
+.fix{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;padding:12px 0;border-bottom:1px solid var(--line)}.fix:last-child{border-bottom:0}
+.fix .t{font-weight:600;color:var(--ink)}.fix .s{color:var(--ink-2);font-size:14px}.fix .who{grid-column:2;font-size:13.5px;color:var(--ink)}
+@media (max-width:560px){.tile .value{font-size:22px}.two{grid-template-columns:1fr}.fix{grid-template-columns:1fr}.fix .who{grid-column:1}}
+</style>
 </head>
 <body>
 <div class="wrap">
-  <header class="top">
-    <div class="brand"><h1>Stock Agent</h1><span class="mode" id="mode">SIM · pretend money</span></div>
-    <div class="search" role="search">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input id="q" type="search" placeholder="Search any stock or ETF" autocomplete="off" aria-label="Search stocks">
-      <div class="results" id="results" hidden></div>
-    </div>
-    <div class="status" id="status"><span class="dot" id="dot"></span><b>Loading…</b></div>
+  <header>
+    <div><h1>Trading Dashboard</h1><div class="sub" id="asof">Loading…</div></div>
+    <button class="theme" id="theme" type="button" aria-label="Toggle light or dark theme">Theme</button>
   </header>
-
-  <section class="hero">
-    <div class="card" id="portfolio-card">
-      <h2>Pretend portfolio</h2>
-      <div class="equity num" id="equity">—</div>
-      <div id="equity-change" style="margin-top:6px"></div>
-      <div class="kv">
-        <div>Put in<b class="num" id="deposited">—</b></div>
-        <div>Cash<b class="num" id="cash">—</b></div>
-        <div>Realised<b class="num" id="realized">—</b></div>
-        <div>Unrealised<b class="num" id="unrealized">—</b></div>
-      </div>
-      <div class="alloc" id="alloc" aria-hidden="true"></div>
-      <div class="legend" id="legend"></div>
-    </div>
-    <div class="card">
-      <h2>This week's budget</h2>
-      <div class="week">
-        <div class="row"><span id="week-label">—</span><span class="num" id="week-spent">—</span></div>
-        <div class="bar"><span id="week-bar" style="width:0%"></span></div>
-      </div>
-      <div class="kv">
-        <div>Today<b class="num" id="today-spent">—</b></div>
-        <div>Buys today<b class="num" id="today-buys">—</b></div>
-        <div>Sells today<b class="num" id="today-sells">—</b></div>
-        <div>Next check<b id="next-check">—</b></div>
-      </div>
-      <div class="kv" style="margin-top:12px">
-        <div>Congress feed<b id="feed-congress">—</b></div>
-        <div>Insider feed<b id="feed-insiders">—</b></div>
-      </div>
-      <p id="last-reasoning" style="margin:12px 0 0;color:var(--muted);font-size:13px"></p>
-    </div>
-  </section>
-
-  <nav class="tabs" role="tablist" id="tabs">
-    <button role="tab" aria-selected="true" data-tab="holdings">Holdings</button>
-    <button role="tab" aria-selected="false" data-tab="watchlist">Watchlist</button>
-    <button role="tab" aria-selected="false" data-tab="politics">Politics &amp; insiders</button>
-    <button role="tab" aria-selected="false" data-tab="activity">Activity</button>
-    <button role="tab" aria-selected="false" data-tab="calendar">Calendar</button>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="crypto">Crypto</button>
+    <button role="tab" aria-selected="false" data-tab="stock">Stock agent</button>
   </nav>
 
-  <section class="panel" id="panel-holdings" role="tabpanel">
-    <div class="section" id="working-section" hidden><h3>Waiting to fire <span class="count" id="working-count"></span></h3><div class="list working" id="working"></div></div>
-    <div class="section"><h3>Holdings <span class="count" id="holdings-count"></span></h3><div class="list" id="holdings"></div></div>
-  </section>
+  <main id="tab-crypto">
+    <div class="banner"><b>Pretend money only.</b> No exchange account is connected. Nothing here trades real money. It updates every day at 5:30 PM Pacific.</div>
+    <div class="grid tiles" id="c-tiles"></div>
+    <section class="card"><h2>Paper trading: pretend $10,000 per strategy</h2><div class="sub" id="p-note" style="margin:-4px 0 8px"></div><div class="grid tiles" id="p-tiles"></div><h2 style="margin-top:14px">Profit or loss by day (all books)</h2><div class="chart" id="p-days"></div><div class="sub" id="p-days-note"></div></section>
+    <section class="grid two">
+      <div class="card"><h2>Each strategy's book</h2><div class="tbl" id="p-books"></div></div>
+      <div class="card"><h2>Mistakes it made, and why</h2><ul class="list" id="p-mistakes"></ul></div>
+    </section>
+    <section class="card"><h2>Money in and out by day</h2><div class="tbl" id="p-daily"></div></section>
+    <section class="card"><h2>Ideas tested</h2><div class="sub" style="margin:-4px 0 8px">Every idea states its expected verdict before it runs. A survivor must pass every gate; a gate that did not run is never a pass.</div><div class="tbl" id="c-grades"></div></section>
+    <section class="grid two">
+      <div class="card"><h2>Bitcoin, last 12 months (benchmark)</h2><div class="chart" id="c-btc"></div><div class="sub" id="c-btc-note"></div></div>
+      <div class="card"><h2>Waiting on you</h2><ul class="list" id="c-pending"></ul></div>
+    </section>
+    <section class="card"><h2>Trading cost by venue ($1,000 position)</h2><div class="sub" style="margin:-4px 0 8px">Round trip = 2 taker fees + measured spread and slippage. Annual drag if the position turns over every 7 days.</div><div class="tbl" id="c-costs"></div></section>
+    <section class="grid two">
+      <div class="card"><h2>What the machine has learned</h2><ul class="list" id="c-findings"></ul></div>
+      <div class="card"><h2>Perp funding carry (long side)</h2><div class="tbl" id="c-funding"></div></div>
+    </section>
+    <section class="grid two">
+      <div class="card"><h2>Data health</h2><div id="c-health"></div></div>
+      <div class="card"><h2>Recent activity</h2><ul class="list" id="c-activity"></ul></div>
+    </section>
+  </main>
 
-  <section class="panel" id="panel-watchlist" role="tabpanel" hidden>
-    <div id="watchlist"></div>
-  </section>
-
-  <section class="panel" id="panel-politics" role="tabpanel" hidden>
-    <div id="feed-note"></div>
-    <div class="grid2">
-      <div class="card"><h2>Net buying pressure · Congress</h2><div class="pressure" id="congress-pressure"></div></div>
-      <div class="card"><h2>Net buying pressure · Insiders (Form 4)</h2><div class="pressure" id="insider-pressure"></div></div>
-    </div>
-    <div class="section" style="margin-top:14px">
-      <h3>Investors we follow <span class="count" id="investors-count"></span></h3>
-      <div class="card" id="investors"></div>
-    </div>
-    <div class="section"><h3>Congress trades <span class="count" id="congress-count"></span></h3><div class="list tbl-wrap" id="congress"></div></div>
-    <div class="section"><h3>Insider filings <span class="count" id="insider-count"></span></h3><div class="list tbl-wrap" id="insiders"></div></div>
-    <div class="section" id="people-section" hidden><h3>Followed people</h3><div class="list" id="people"></div></div>
-  </section>
-
-  <section class="panel" id="panel-activity" role="tabpanel" hidden>
-    <div class="section"><h3>Fills <span class="count" id="fills-count"></span></h3><div class="list fills" id="fills"></div></div>
-    <div class="section"><h3>What it's learning <span class="count" id="learn-count"></span></h3><div class="card" id="learning"></div></div>
-    <div class="section"><h3>Lessons it wrote itself</h3><div class="card"><ul class="lessons" id="lessons" style="margin:0;padding-left:18px"></ul></div></div>
-    <div class="section"><h3>Log</h3><div class="list"><pre class="log" id="log"></pre></div></div>
-  </section>
-
-  <section class="panel" id="panel-calendar" role="tabpanel" hidden>
-    <div class="card">
-      <div class="cal-head">
-        <button type="button" id="cal-prev" aria-label="Previous month">‹</button>
-        <h2 id="cal-title">—</h2>
-        <button type="button" id="cal-next" aria-label="Next month">›</button>
-      </div>
-      <div class="cal-sum" id="cal-sum"></div>
-      <div class="cal-grid" id="calendar"></div>
-      <div class="cal-legend">
-        <span class="cal-ms fix">Change goes live</span><span class="cal-ms check">Check / test</span><span class="cal-ms verdict">Verdict</span><span class="cal-ms money">Real-money decision</span>
-      </div>
-    </div>
-    <div class="section" style="margin-top:14px"><h3>Coming up</h3><div class="list" id="cal-upcoming"></div></div>
-  </section>
-
-  <footer>Prices via Yahoo Finance, delayed up to 15 minutes. Pretend money: nothing here is a real position or advice.<br><span id="asof"></span></footer>
+  <main id="tab-stock" hidden>
+    <div id="s-banner"></div>
+    <div class="grid tiles" id="s-tiles"></div>
+    <section class="card"><h2>Natural selection: which strategies make money and which lose it</h2>
+      <div class="sub" style="margin:-4px 0 8px" id="s-select-note"></div>
+      <div class="grid tiles" id="s-stage-tiles" style="margin-bottom:12px"></div>
+      <h2 style="margin-top:6px">By time of entry (New York)</h2><div class="tbl" id="s-select-hour"></div>
+      <h2 style="margin-top:16px">By signal mix</h2><div class="tbl" id="s-select-signals"></div>
+    </section>
+    <section class="card"><h2>Profit or loss by day</h2><div class="chart" id="s-days"></div><div class="sub" id="s-days-note"></div></section>
+    <section class="grid two">
+      <div class="card"><h2>Holdings</h2><div class="tbl" id="s-holdings"></div></div>
+      <div class="card"><h2>Mistakes it made, and why</h2><ul class="list" id="s-mistakes"></ul></div>
+    </section>
+    <section class="card"><h2>Money in and out by day</h2><div class="tbl" id="s-daily"></div></section>
+    <section class="card"><h2 id="s-fills-title">Latest day's trades</h2><div class="tbl" id="s-fills"></div></section>
+    <section class="grid two">
+      <div class="card"><h2>What the machine has learned</h2><ul class="list" id="s-lessons"></ul></div>
+      <div class="card"><h2>Recent activity</h2><ul class="list" id="s-activity"></ul></div>
+    </section>
+    <div class="sub" style="margin-top:14px">Pretend money. Read live from the public repository <a href="https://github.com/finley1tree-wq/stock-agent" target="_blank" rel="noopener">finley1tree-wq/stock-agent</a> every minute. Charts, watchlist and stock search: <a href="https://stock-agent-dashboard-black.vercel.app/classic" target="_blank" rel="noopener">detailed view</a>. Nothing here is advice.</div>
+  </main>
 </div>
 
-<div id="sheet-root"></div>
-<div id="trade-root"></div>
-<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
-<script src="/trade.js?v=20260916a"></script>
-<script src="/app.js?v=20260916a"></script>
+<script>
+(() => {
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const usd = (v, d = 0) => v == null || isNaN(v) ? "—" : (v < 0 ? "-$" : "$") + Math.abs(v).toLocaleString("en-US", {minimumFractionDigits: d, maximumFractionDigits: d});
+const sgnUsd = (v, d = 2) => v == null || isNaN(v) ? "—" : (v > 0 ? "+" : v < 0 ? "-" : "") + "$" + Math.abs(v).toLocaleString("en-US", {minimumFractionDigits: d, maximumFractionDigits: d});
+const pct = (v, d = 2) => v == null || isNaN(v) ? "—" : (v > 0 ? "+" : "") + Number(v).toFixed(d) + "%";
+const when = s => { if (!s) return "—"; const d = new Date(s); return isNaN(d) ? esc(s) : d.toLocaleString("en-US", {timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit"}) + " ET"; };
+const pill = (kind, text) => `<span class="pill"><i class="dot-${kind}"></i>${esc(text)}</span>`;
+const tile = (label, value, note) => `<div class="card tile"><div class="label">${esc(label)}</div><div class="value">${value}</div>${note ? `<div class="note">${note}</div>` : ""}</div>`;
+
+// ---- theme --------------------------------------------------------------------------
+try { const t = localStorage.getItem("ct.theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+$("#theme").addEventListener("click", () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+  const next = cur === "light" ? "dark" : "light";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("ct.theme", next); } catch (e) {}
+  if (window.__redraw) window.__redraw();
+});
+
+// ---- tabs ---------------------------------------------------------------------------
+let stockLoaded = false;
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  $("#tab-crypto").hidden = b.dataset.tab !== "crypto";
+  $("#tab-stock").hidden = b.dataset.tab !== "stock";
+  try { localStorage.setItem("ct.tab", b.dataset.tab); } catch (e) {}
+  if (b.dataset.tab === "stock" && !stockLoaded) { stockLoaded = true; loadStock(); }
+  if (window.__redraw) window.__redraw();
+}));
+
+// ---- small SVG charts with hover ------------------------------------------------------
+function css(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+function lineChart(el, pts, fmtY, fmtX) {
+  const W = Math.max(320, el.clientWidth || 600), H = 220, L = 8, R = 62, T = 10, B = 24;
+  const ys = pts.map(p => p[1]); let lo = Math.min(...ys), hi = Math.max(...ys); const pad = (hi - lo) * .06 || 1; lo -= pad; hi += pad;
+  const x = i => L + i / (pts.length - 1) * (W - L - R), y = v => T + (1 - (v - lo) / (hi - lo)) * (H - T - B);
+  let g = "";
+  for (let k = 0; k <= 4; k++) { const v = lo + (hi - lo) * k / 4, yy = y(v); g += `<line x1="${L}" x2="${W - R + 4}" y1="${yy}" y2="${yy}" stroke="${css("--grid")}" stroke-width="1"/><text x="${W - R + 8}" y="${yy + 4}" fill="${css("--muted")}" font-size="11">${fmtY(v)}</text>`; }
+  [0, .25, .5, .75, 1].forEach(f => { const i = Math.round(f * (pts.length - 1)); g += `<text x="${x(i)}" y="${H - 6}" fill="${css("--muted")}" font-size="11" text-anchor="middle">${fmtX(pts[i][0])}</text>`; });
+  const d = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p[1]).toFixed(1)}`).join("");
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="line chart">${g}<path d="${d}" fill="none" stroke="${css("--series")}" stroke-width="2" stroke-linejoin="round"/><line id="xh" y1="${T}" y2="${H - B}" stroke="${css("--muted")}" stroke-dasharray="3 3" visibility="hidden"/><circle id="xd" r="4" fill="${css("--series")}" stroke="${css("--surface")}" stroke-width="2" visibility="hidden"/></svg><div class="tip"></div>`;
+  const svg = el.querySelector("svg"), tip = el.querySelector(".tip"), xh = svg.querySelector("#xh"), xd = svg.querySelector("#xd");
+  svg.addEventListener("mousemove", ev => {
+    const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) / r.width * W;
+    const i = Math.max(0, Math.min(pts.length - 1, Math.round((px - L) / (W - L - R) * (pts.length - 1))));
+    xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.setAttribute("visibility", "visible");
+    xd.setAttribute("cx", x(i)); xd.setAttribute("cy", y(pts[i][1])); xd.setAttribute("visibility", "visible");
+    tip.style.display = "block"; tip.style.left = (x(i) / W * r.width) + "px"; tip.style.top = (y(pts[i][1]) / H * r.height) + "px";
+    tip.innerHTML = `<b>${esc(pts[i][0])}</b><br>${fmtY(pts[i][1])}`;
+  });
+  svg.addEventListener("mouseleave", () => { tip.style.display = "none"; xh.setAttribute("visibility", "hidden"); xd.setAttribute("visibility", "hidden"); });
+}
+function barChart(el, pts, fmt) {
+  const W = Math.max(320, el.clientWidth || 600), H = 200, L = 8, R = 62, T = 10, B = 24;
+  const ys = pts.map(p => p[1]); let lo = Math.min(0, ...ys), hi = Math.max(0, ...ys); if (hi - lo < 1e-9) { hi += 1; lo -= 1; } const pad = (hi - lo) * .08; lo -= pad; hi += pad;
+  const bw = (W - L - R) / pts.length, y = v => T + (1 - (v - lo) / (hi - lo)) * (H - T - B);
+  let g = "";
+  for (let k = 0; k <= 4; k++) { const v = lo + (hi - lo) * k / 4, yy = y(v); g += `<line x1="${L}" x2="${W - R + 4}" y1="${yy}" y2="${yy}" stroke="${css("--grid")}"/><text x="${W - R + 8}" y="${yy + 4}" fill="${css("--muted")}" font-size="11">${fmt(v)}</text>`; }
+  g += `<line x1="${L}" x2="${W - R + 4}" y1="${y(0)}" y2="${y(0)}" stroke="${css("--muted")}"/>`;
+  pts.forEach((p, i) => {
+    const x0 = L + i * bw + 2, w = Math.max(2, bw - 4), top = Math.min(y(p[1]), y(0)), h = Math.max(1, Math.abs(y(p[1]) - y(0)));
+    g += `<rect data-i="${i}" x="${x0}" y="${top}" width="${w}" height="${h}" rx="3" fill="${p[1] >= 0 ? css("--pos") : css("--neg")}"/>`;
+    if (i % Math.ceil(pts.length / 6) === 0) g += `<text x="${x0 + w / 2}" y="${H - 6}" fill="${css("--muted")}" font-size="11" text-anchor="middle">${esc(p[0].slice(5))}</text>`;
+  });
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="bar chart">${g}</svg><div class="tip"></div>`;
+  const svg = el.querySelector("svg"), tip = el.querySelector(".tip");
+  svg.addEventListener("mousemove", ev => {
+    const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) / r.width * W, i = Math.floor((px - L) / bw);
+    if (i < 0 || i >= pts.length) { tip.style.display = "none"; return; }
+    tip.style.display = "block"; tip.style.left = ((L + (i + .5) * bw) / W * r.width) + "px"; tip.style.top = (Math.min(y(pts[i][1]), y(0)) / H * r.height) + "px";
+    tip.innerHTML = `<b>${esc(pts[i][0])}</b><br>${fmt(pts[i][1])}${pts[i][2] ? `<br>${esc(pts[i][2])}` : ""}`;
+  });
+  svg.addEventListener("mouseleave", () => tip.style.display = "none");
+}
+
+// The same page is served by both sites; each reads the other's data cross-origin.
+const CRYPTO_DATA = location.hostname.startsWith("crypto-trader") ? "data.json" : "https://crypto-trader-dashboard-eta.vercel.app/data.json";
+// ---- crypto research tab -------------------------------------------------------------
+async function loadCrypto() {
+  let d;
+  try { d = await (await fetch(CRYPTO_DATA, {cache: "no-store"})).json(); }
+  catch (e) { $("#asof").textContent = "Could not load data.json"; return; }
+  $("#asof").innerHTML = `Updated ${when(d.generated_at)} · pretend money`;
+  $("#asof").title = `Research data: train ${d.config.train[0]} to ${d.config.train[1]}, holdout ${d.config.holdout[0]} to ${d.config.holdout[1]}`;
+  const a = d.audit, real = d.grades.filter(g => !g.counterfactual);
+  const survivors = real.filter(g => (g.verdict || "").startsWith("SURVIVOR")).length;
+  const col = d.collector || {};
+  $("#c-tiles").innerHTML = [
+    tile("Engine", a.valid_now ? pill("good", "Certified") : pill("crit", "Not certified"), a.valid_now ? `null audit passed ${when(a.when)} · holds ${esc((a.holds || []).join(", "))}` : esc(a.why_invalid || "")),
+    tile("Ideas tested", `${d.ledger.distinct_hypotheses}`, `bar for the next idea: t ≥ ${d.ledger.current_bar}`),
+    tile("Survivors", `${survivors}`, survivors ? "suspect the harness first" : "none yet, as expected this early"),
+    tile("Cost collector", `${col.distinct_hours ?? 0} / ${col.target_hours ?? 48} h`, `${(col.records || 0).toLocaleString()} order-book snapshots`),
+    tile("Prices through", esc((d.live_freshness || d.freshness).latest_bar_day || "—"), d.live_freshness ? `live copy · research snapshot frozen at ${esc(d.freshness.latest_bar_day)} so grading stays certified` : `restated rows: ${(d.freshness.usdt?.restated ?? "—")} (${d.freshness.usdt?.fetches ?? 0} fetches compared)`),
+    (() => { const s = d.daily; if (!s) return tile("Daily update", pill("warn", "not run yet"), "scheduled for 5:30 PM Pacific each day");
+      const st = Object.entries(s.steps || {}), bad = st.filter(([, r]) => r.status === "FAILED" || r.status === "REFUSED");
+      return tile("Daily update", bad.length ? pill("crit", `${bad.length} step${bad.length > 1 ? "s" : ""} failed`) : pill("good", "OK"), `${when(s.finished || s.started)} · ${bad.length ? "failed: " + esc(bad.map(([n]) => n).join(", ")) : st.length + " steps ran"}`); })(),
+  ].join("");
+  // grades
+  const rows = d.grades.map(g => {
+    const b = g.rows.baseline || {}, dead = (g.verdict || "").includes("DEAD"), cf = g.counterfactual;
+    const kind = (g.verdict || "").startsWith("SURVIVOR") ? "good" : cf ? "muted" : dead ? "crit" : "warn";
+    const label = cf ? "Counterfactual" : (g.verdict || "—").split(" - ")[0].split(":")[0];
+    return `<tr><td><b>${esc(g.name)}</b><div class="sub">graded ${when(g.graded)}</div></td><td class="num">${g.hold}d</td><td>${pill(kind, label)}</td>
+      <td class="num">${b.net != null ? pct(b.net, 3) : "—"}</td><td class="num">${b.t != null ? b.t.toFixed(2) : "—"}</td>
+      <td><ul class="why">${(g.why || []).slice(0, 4).map(w => `<li>${esc(w)}</li>`).join("")}</ul></td></tr>`;
+  }).join("");
+  $("#c-grades").innerHTML = `<table><thead><tr><th>Idea</th><th class="num">Hold</th><th>Verdict</th><th class="num">Net / entry</th><th class="num">t</th><th>Why</th></tr></thead><tbody>${rows}</tbody></table>`;
+  // btc
+  const btc = d.btc || [];
+  const drawBtc = () => lineChart($("#c-btc"), btc, v => "$" + Math.round(v).toLocaleString(), s => new Date(s + "T00:00:00Z").toLocaleDateString("en-US", {month: "short", year: "2-digit", timeZone: "UTC"}));
+  if (btc.length > 2) { drawBtc(); const r = (btc[btc.length - 1][1] / btc[0][1] - 1) * 100; $("#c-btc-note").textContent = `Buy-and-hold BTC over this period: ${pct(r, 1)}. Every candidate must beat this after costs.`; }
+  // pending, findings
+  $("#c-pending").innerHTML = d.pending.map(p => `<li><b>${esc(p.title)}</b><br><span>${esc(p.detail)}</span></li>`).join("");
+  $("#c-findings").innerHTML = d.findings.map(p => `<li><b>${esc(p.title)}</b><br><span>${esc(p.detail)}</span></li>`).join("");
+  // costs
+  const v = d.costs.venues;
+  $("#c-costs").innerHTML = `<table><thead><tr><th>Coin liquidity</th>${v.map(x => `<th class="num">${esc(x)}</th>`).join("")}</tr></thead><tbody>${d.costs.table.map(r => `<tr><td>${esc(r.tier)}</td>${v.map(x => `<td class="num">${r[x].round_trip_pct.toFixed(2)}%<div class="sub">${r[x].drag_h7_pct_yr.toFixed(0)}%/yr at 7d</div></td>`).join("")}</tr>`).join("")}</tbody></table><div class="sub" style="margin-top:6px">Spread model: ${d.costs.fit_1000.n_pairs} pairs, leave-one-out rank correlation ${d.costs.fit_1000.loo_spearman.toFixed(2)}, refit ${when(d.costs.fitted_at)}.</div>`;
+  $("#c-funding").innerHTML = `<table><thead><tr><th>Perp</th><th class="num">Since</th><th class="num">Long pays / yr</th><th class="num">Share of prints &gt; 0</th></tr></thead><tbody>${(d.funding || []).map(f => `<tr><td>${esc(f.perp.replace("USDT", ""))}</td><td class="num">${esc(f.since)}</td><td class="num">${pct(f.carry_pct_yr, 1)}</td><td class="num">${Math.round(f.share_positive * 100)}%</td></tr>`).join("")}</tbody></table>`;
+  const u = d.universe, fr = d.freshness, ff = fr.funding_feed || {};
+  $("#c-health").innerHTML = `<table><tbody>
+    <tr><td>Assets (incl. dead)</td><td class="num">${u.assets} (${u.dead_or_renamed} dead or renamed)</td></tr>
+    <tr><td>Research pool after exclusions</td><td class="num">${u.pool_universe}</td></tr>
+    <tr><td>Excluded (stable, leveraged, tokenized stock, wrapped)</td><td class="num">${u.excluded}</td></tr>
+    <tr><td>USDT pairs · last fetch</td><td class="num">${fr.usdt?.pairs ?? "—"} · ${when(fr.usdt?.fetched)}</td></tr>
+    <tr><td>BTC pairs · last fetch</td><td class="num">${fr.btc?.pairs ?? "—"} · ${when(fr.btc?.fetched)}</td></tr>
+    <tr><td>Funding feed (real prints only)</td><td class="num">${(ff.rows || 0).toLocaleString()} days · ${ff.assets_with_values ?? "—"} coins</td></tr>
+    <tr><td>Phantom funding prints removed</td><td class="num">${(ff.dropped_not_traded || 0).toLocaleString()}</td></tr>
+    <tr><td>Audit: planted edges (uniform false-fail / concentrated caught)</td><td class="num">${a.plant ? `${a.plant.uniform_false_fails} / ${a.plant.concentrated_detected} of ${a.plant.trials}` : "—"}</td></tr>
+  </tbody></table>`;
+  $("#c-activity").innerHTML = (d.activity || []).slice(0, 12).map(x => `<li><span>${when(x.when)}</span><br><b>${esc(x.what)}</b></li>`).join("");
+  // paper trading books
+  const P = d.paper;
+  let drawPaper = null;
+  if (P && P.books && P.books.length) {
+    const B = P.books, sum = k => B.reduce((s, b) => s + (+b[k] || 0), 0);
+    const put = sum("budget_usd"), eq = sum("equity"), btcEq = sum("btc_equity");
+    const last = P.days[P.days.length - 1] || null, lt = last ? last.total || {} : {};
+    const liveSince = B.map(b => b.live_since).filter(Boolean).sort()[0];
+    $("#p-note").innerHTML = `Each strategy gets a pretend $10,000 and pays real trading costs. Real testing starts ${esc(liveSince || "at the start")}; earlier days are replays.<details><summary>How it works</summary><div class="more">It buys at the next day's average price, the way a real order would fill. Days before ${esc(liveSince || "the start")} were replayed when the books were created, and only days from then on are a true forward test. Ideas graded DEAD stay as controls so you can watch them. One month of results is noise, not proof.</div></details>`;
+    $("#p-tiles").innerHTML = [
+      tile("Pretend books now", usd(eq), `pretend start ${usd(put)} · ${sgnUsd(eq - put, 0)} (${pct(put ? (eq / put - 1) * 100 : null)}) since ${esc((P.days[0] || {}).day || "")}`),
+      tile(last ? `Latest day (${last.day})` : "Latest day", sgnUsd(lt.pnl_day), last ? `${last.mode === "live" ? "live" : "replayed"} · spent ${usd(lt.spent)} · got back ${usd(lt.received)}` : ""),
+      tile("Spent / got back, all time", `${usd(sum("total_spent"))} / ${usd(sum("total_received"))}`, `trading costs ${usd(sum("total_costs"), 2)}`),
+      tile("Same money in Bitcoin", usd(btcEq), `${sgnUsd(eq - btcEq, 0)} vs just holding BTC`),
+    ].join("");
+    const dayPts = P.days.slice(-45).map(x => [x.day, Math.round((x.total?.pnl_day || 0) * 100) / 100, x.mode === "live" ? "live" : "replayed"]);
+    drawPaper = () => { if (dayPts.length) barChart($("#p-days"), dayPts, v => sgnUsd(v, 0)); };
+    drawPaper();
+    $("#p-days-note").textContent = `Last ${dayPts.length} days, all books together. Blue = profit, orange = loss. Hover for values.`;
+    const gradeOf = b => { const g = real.find(g => g.name === b.strategy && g.hold === b.hold); return g ? (g.verdict || "").split(" - ")[0].split(":")[0] : null; };
+    $("#p-books").innerHTML = `<table><thead><tr><th>Book</th><th>Test verdict</th><th class="num">Now</th><th class="num">Return</th><th class="num">BTC, same days</th><th class="num">Worst drop</th><th class="num">Spent</th><th class="num">Got back</th><th class="num">Costs</th><th class="num">Mistakes</th></tr></thead><tbody>${B.map(b => {
+      const v = b.strategy && b.strategy.startsWith("__") ? "benchmark" : gradeOf(b);
+      const vp = v === "benchmark" ? pill("muted", "benchmark") : v ? pill((v || "").startsWith("SURVIVOR") ? "good" : "crit", v) : pill("warn", "not graded");
+      return `<tr><td><b>${esc(b.book)}</b><div class="sub">${b.live_days || 0} live · ${b.backfilled_days || 0} replayed days</div></td><td>${vp}</td><td class="num">${usd(b.equity)}</td><td class="num">${pct(b.return_pct)}</td><td class="num">${pct(b.btc_return_pct)}</td><td class="num">${pct(b.max_drawdown_pct != null ? -Math.abs(b.max_drawdown_pct) : null)}</td><td class="num">${usd(b.total_spent)}</td><td class="num">${usd(b.total_received)}</td><td class="num">${usd(b.total_costs, 2)}</td><td class="num">${b.mistakes?.count ?? 0}</td></tr>`;
+    }).join("")}</tbody></table>`;
+    const ms = B.flatMap(b => b.recent_mistakes || []).sort((x, y) => (y.day || "").localeCompare(x.day || "")).slice(0, 8);
+    $("#p-mistakes").innerHTML = ms.length ? ms.map(m => `<li><b>${esc(m.book)}: ${esc(m.asset || (m.kind || "").replace("_", " "))} ${m.pnl != null ? sgnUsd(+m.pnl) : ""}${m.pct != null ? ` (${pct(+m.pct)})` : ""}</b><br><span>${esc(m.day)}${m.mode === "backfilled" ? " (replayed)" : ""} · ${esc(m.reason || "")}</span></li>`).join("") : `<li><span>No mistakes logged yet.</span></li>`;
+    $("#p-daily").innerHTML = `<table><thead><tr><th>Day</th><th>Mode</th><th class="num">Spent</th><th class="num">Got back</th><th class="num">Costs</th><th class="num">Profit / loss</th><th class="num">All books</th><th class="num">Same in BTC</th></tr></thead><tbody>${P.days.slice(-14).reverse().map(x => { const t = x.total || {}; return `<tr><td>${esc(x.day)}</td><td>${x.mode === "live" ? pill("good", "live") : pill("muted", "replayed")}</td><td class="num">${usd(t.spent)}</td><td class="num">${usd(t.received)}</td><td class="num">${usd(t.costs, 2)}</td><td class="num">${sgnUsd(t.pnl_day)}</td><td class="num">${usd(t.equity)}</td><td class="num">${usd(t.btc_equity)}</td></tr>`; }).join("")}</tbody></table>`;
+  } else {
+    $("#p-note").textContent = "The paper-trading books haven't run yet.";
+  }
+  window.__redrawCrypto = () => { if (btc.length > 2) drawBtc(); if (drawPaper) drawPaper(); };
+}
+
+// ---- stock agent tab (live) ------------------------------------------------------------
+// The same page runs on both sites. On the stock site /api/data is same-origin; on the crypto site
+// it is read cross-origin (the route sends Access-Control-Allow-Origin: *).
+const STOCK_API = location.hostname.startsWith("stock-agent") ? "/api/data" : "https://stock-agent-dashboard-black.vercel.app/api/data";
+function nyParts(d = new Date()) {
+  const f = new Intl.DateTimeFormat("en-US", {timeZone: "America/New_York", weekday: "short", hour: "numeric", minute: "numeric", hour12: false});
+  const p = Object.fromEntries(f.formatToParts(d).map(x => [x.type, x.value])); return {wd: p.weekday, min: (+p.hour % 24) * 60 + +p.minute};
+}
+const STAGE = {SURVIVOR: ["good", "survivor"], PROBATION: ["warn", "probation"], CULLED: ["crit", "culled"]};
+const hourLabel = h => { const n = +h, ap = x => x < 12 ? "AM" : "PM", c = x => x % 12 || 12;
+  return ap(n) === ap(n + 1) ? `${c(n)}–${c(n + 1)} ${ap(n)}` : `${c(n)} ${ap(n)}–${c(n + 1)} ${ap(n + 1)}`; };
+const isFlag = j => j.side === "sell" && j.realized_pct != null && Math.abs(+j.realized_pct) >= 50;
+
+let stockTimer = null;
+async function loadStock() {
+  let d;
+  try { const r = await fetch(STOCK_API, {cache: "no-store"}); if (!r.ok) throw new Error("HTTP " + r.status); d = await r.json(); }
+  catch (e) { $("#s-banner").innerHTML = `<div class="banner crit">Could not load the agent's data: ${esc(e.message)}</div>`; return; }
+  const pf = d.portfolio || {}, st = d.st || {}, sig = d.signals || {}, jr = d.journal || [], ev = d.evolve || {}, h = d.health || {};
+  const pos = pf.positions || {};
+  // ---- status banner
+  const lastPub = st.last_publish_ts ? new Date(st.last_publish_ts * 1000) : (sig.asOf ? new Date(sig.asOf) : null);
+  const ageMin = lastPub ? (Date.now() - lastPub.getTime()) / 60000 : null;
+  const ny = nyParts(), open = !["Sat", "Sun"].includes(ny.wd) && ny.min >= 570 && ny.min < 960;
+  let banner = `<div class="banner"><b>Pretend money only.</b> ${open ? "Market open" : "Market closed"} · agent last updated ${when(lastPub)}${ageMin != null ? ` (${ageMin < 90 ? Math.round(ageMin) + " min" : Math.round(ageMin / 60) + " h"} ago)` : ""} · ${esc((sig.broker || "sim").toUpperCase())}, no real account. This tab refreshes every minute.</div>`;
+  if (open && ageMin != null && ageMin > 45) banner += `<div class="banner warn"><b>Agent looks stalled.</b> The market is open but its last update was ${Math.round(ageMin)} minutes ago.</div>`;
+  if (sig.paused) banner += `<div class="banner warn"><b>Paused.</b> ${esc(sig.pause_reason || "")}</div>`;
+  if (h.brain_ok_now === false) banner += `<div class="banner crit"><b>AI brain off right now.</b> ${/credit balance/i.test(h.last_error || "") ? "The Anthropic account is out of credit, so the agent trades on basic rules only. Turn on auto-reload in the Anthropic console Billing page." : `Last check ${esc(h.last_check || "")} ET failed: ${esc(h.last_error || "model error")}.`}</div>`;
+  $("#s-banner").innerHTML = banner;
+  // ---- realised P/L by day, from round trips (flagged simulator errors left out)
+  const byDay = {}, flow = {};
+  let realised = 0;
+  jr.forEach(j => {
+    if (j.status && j.status !== "filled") return;
+    const f = flow[j.date] = flow[j.date] || {spent: 0, got: 0, buys: 0, sells: 0, pnl: 0, wins: 0};
+    if (j.side === "buy") { f.spent += +(j.notional || 0); f.buys++; }
+    else if (j.side === "sell" && !isFlag(j)) { const v = +(j.realized_pnl || 0); f.got += +(j.proceeds || 0); f.sells++; f.pnl += v; f.wins += v > 0; byDay[j.date] = (byDay[j.date] || 0) + v; realised += v; }
+  });
+  const days = Object.keys(flow).sort(), lastDay = days[days.length - 1], ld = flow[lastDay] || {};
+  const atCost = Object.values(pos).reduce((s, p) => s + p.qty * p.avg_cost, 0), equity = (pf.cash || 0) + atCost, dep = pf.deposited || 0;
+  const orgs = Object.values((ev.lenses || {}).hour || {}).concat(Object.values((ev.lenses || {}).signals || {}));
+  const count = k => orgs.filter(o => o.stage === k && o.n >= 5).length;
+  $("#s-tiles").innerHTML = [
+    tile("Pretend account", usd(equity, 2), `put in ${usd(dep)} · ${sgnUsd(equity - dep, 0)} (${pct(dep ? (equity / dep - 1) * 100 : null)})`),
+    tile(`Latest day (${lastDay || "—"})`, sgnUsd(ld.pnl), `${ld.buys || 0} buys · ${ld.sells || 0} sells · ${ld.sells ? Math.round(100 * ld.wins / ld.sells) : 0}% won`),
+    tile("Realised, all time", sgnUsd(+(pf.realized_pnl ?? realised)), `trading costs are already taken out`),
+    tile("Open positions", `${Object.keys(pos).length}`, `${usd(atCost)} at cost · cash ${usd(pf.cash)}`),
+    tile("Engine", h.brain_ok_now === false ? pill("crit", "Brain off") : pill("good", "Brain OK"), `last check ${esc(h.last_check || "—")} ET${(h.brain_credit_errors || 0) + (h.brain_other_errors || 0) ? ` · ${(h.brain_credit_errors || 0) + (h.brain_other_errors || 0)} earlier errors, recovered` : ""}`),
+    tile("Survivors", `${count("SURVIVOR")}`, `${count("CULLED")} culled · ${count("PROBATION")} on probation`),
+  ].join("");
+  // ---- natural selection (agent/evolve.py, rescored at every check)
+  const cfg = ev.settings || {};
+  $("#s-select-note").innerHTML = ev.lenses ? `${(ev.trips || 0).toLocaleString()} closed trades, after costs, rescored at every check (${when(ev.generated_at)}). Every entry hour and every signal mix is a strategy. Winners get full size, unproven ones trade small while they prove themselves, losers are cut.
+    <details><summary>The rules</summary><div class="more"><b>Survivor</b>: at least ${cfg.min_trips} trades and t ≥ ${cfg.survive_t}, so the profit is unlikely to be luck. It trades at full size.<br><b>Probation</b>: not proven either way. It trades at ${Math.round((cfg.probation_size || 0) * 100)}% size, so it keeps collecting evidence cheaply.<br><b>Culled</b>: at least ${cfg.min_trips} trades and t ≤ ${cfg.cull_t}. No new entries. Culling needs less proof than surviving on purpose: a trade with no edge still pays the spread twice.<br>A trade is blocked if either its hour or its signal mix is culled. Otherwise it gets the better of the two sizes. Stages change on their own as trades come in.</div></details>` : "The selection scores haven't been published yet. They appear after the agent's next check.";
+  const selTable = (lens, label) => {
+    const rows = Object.entries((ev.lenses || {})[lens] || {}).filter(([, o]) => o.n >= 5)
+      .sort((a, b) => lens === "hour" ? a[0].localeCompare(b[0]) : b[1].net - a[1].net);
+    if (!rows.length) return `<div class="sub">No data yet.</div>`;
+    return `<table><thead><tr><th>${label}</th><th>Stage</th><th class="num">Trades</th><th class="num">Net after costs</th><th class="num">Won</th><th class="num">t</th><th>By week</th></tr></thead><tbody>${rows.map(([k, o]) => {
+      const [kind, text] = STAGE[o.stage] || ["muted", o.stage];
+      const weeks = Object.entries(o.weeks || {}).map(([w, v]) => `<span style="color:${v >= 0 ? "var(--pos)" : "var(--neg)"}">${esc(w.slice(-3))} ${sgnUsd(v, 0)}</span>`).join(" · ");
+      return `<tr><td><b>${esc(lens === "hour" ? hourLabel(k) : k.replaceAll("+", " + ").replaceAll("_", " "))}</b></td><td>${pill(kind, text)}</td><td class="num">${o.n}</td><td class="num">${sgnUsd(o.net, 0)}</td><td class="num">${o.win_rate != null ? Math.round(o.win_rate * 100) + "%" : "—"}</td><td class="num">${(+o.t).toFixed(2)}</td><td class="sub">${weeks}</td></tr>`;
+    }).join("")}</tbody></table>`;
+  };
+  $("#s-select-hour").innerHTML = selTable("hour", "Entry time");
+  $("#s-select-signals").innerHTML = selTable("signals", "Why it bought");
+  const g = sig.guardrails || {};
+  $("#s-stage-tiles").innerHTML = [
+    tile("Full size", pill("good", "survivors"), "trades bought at the size the agent asks for"),
+    tile("Trial size", pill("warn", `${Math.round((cfg.probation_size || .25) * 100)}% size`), "unproven strategies, still gathering evidence"),
+    tile("No new entries", pill("crit", "culled"), `plus the fixed cut-off: nothing new after ${esc(g.no_new_entries_after_et || "—")} ET`),
+  ].join("");
+  // ---- P/L by day chart
+  const dayPts = days.slice(-25).map(x => [x, Math.round((byDay[x] || 0) * 100) / 100]);
+  const drawDays = () => { if (dayPts.length) barChart($("#s-days"), dayPts, v => sgnUsd(v, 0)); };
+  drawDays();
+  $("#s-days-note").textContent = `Last ${dayPts.length} trading days, realised after costs. Blue = profit, orange = loss. Hover for values.`;
+  // ---- holdings
+  $("#s-holdings").innerHTML = Object.keys(pos).length ? `<table><thead><tr><th>Symbol</th><th class="num">Shares</th><th class="num">Avg cost</th><th class="num">At cost</th></tr></thead><tbody>${Object.entries(pos).map(([s, p]) => `<tr><td><b>${esc(s)}</b></td><td class="num">${(+p.qty).toFixed(3)}</td><td class="num">${usd(p.avg_cost, 2)}</td><td class="num">${usd(p.qty * p.avg_cost)}</td></tr>`).join("")}</tbody></table>` : `<div class="sub">No open positions. 100% cash.</div>`;
+  // ---- mistakes: the latest day's biggest losing sells, with the reason it sold
+  const ms = jr.filter(j => j.side === "sell" && j.date === lastDay && +j.realized_pnl < 0 && !isFlag(j)).sort((a, b) => a.realized_pnl - b.realized_pnl).slice(0, 8);
+  $("#s-mistakes").innerHTML = ms.length ? ms.map(m => `<li><b>${esc(m.symbol)} ${sgnUsd(+m.realized_pnl)} (${pct(+m.realized_pct)})</b><br><span>${esc(m.date)} ${esc(m.time_et || "")} · ${esc(m.why || m.trigger || "")}</span></li>`).join("") : `<li><span>No losing trades on ${esc(lastDay || "the latest day")}.</span></li>`;
+  // ---- money in and out by day
+  $("#s-daily").innerHTML = `<table><thead><tr><th>Day</th><th class="num">Buys</th><th class="num">Sells</th><th class="num">Spent</th><th class="num">Got back</th><th class="num">Won</th><th class="num">Profit / loss</th></tr></thead><tbody>${days.slice(-14).reverse().map(x => { const f = flow[x]; return `<tr><td>${esc(x)}</td><td class="num">${f.buys}</td><td class="num">${f.sells}</td><td class="num">${usd(f.spent)}</td><td class="num">${usd(f.got)}</td><td class="num">${f.sells ? Math.round(100 * f.wins / f.sells) + "%" : "—"}</td><td class="num">${sgnUsd(f.pnl)}</td></tr>`; }).join("")}</tbody></table>`;
+  // ---- latest day's trades
+  const todays = jr.filter(j => j.date === lastDay);
+  $("#s-fills-title").textContent = `Trades on ${lastDay || "the latest day"} (${todays.length})`;
+  $("#s-fills").innerHTML = `<table><thead><tr><th>Time ET</th><th>Side</th><th>Symbol</th><th class="num">Price</th><th class="num">Amount</th><th class="num">Result</th><th>Why</th></tr></thead><tbody>${todays.slice().reverse().map(j => `<tr><td>${esc(j.time_et || "")}</td><td>${j.side === "sell" ? pill("warn", "SELL") : pill("good", "BUY")}</td><td><b>${esc(j.symbol)}</b></td><td class="num">${usd(+j.price, 2)}</td><td class="num">${usd(+(j.side === "sell" ? j.proceeds : j.notional), 0)}</td><td class="num">${j.side === "sell" ? `${sgnUsd(+j.realized_pnl)}<div class="sub">${pct(+j.realized_pct)}</div>` : ""}</td><td class="sub">${esc((j.why || "").slice(0, 110))}</td></tr>`).join("")}</tbody></table>`;
+  // ---- lessons (newest first) and recent decisions from the log
+  const lessons = String(d.lessons || "").split("\n").filter(l => l.startsWith("- ")).slice(-6).reverse();
+  $("#s-lessons").innerHTML = lessons.length ? lessons.map(l => { const m = /^- (\d{4}-\d{2}-\d{2})[^:]*:\s*(.*)$/.exec(l); return `<li><b>${esc(m ? m[1] : "")}</b><br><span>${esc(m ? m[2] : l.slice(2))}</span></li>`; }).join("") : `<li><span>No lessons yet.</span></li>`;
+  const acts = []; let at = null;
+  String(d.log || "").split("\n").forEach(l => {
+    const hd = /^## (\d{4}-\d{2}-\d{2} \d{2}:\d{2}) ET/.exec(l); if (hd) { at = hd[1]; return; }
+    const m = /^(?:Decision|brain):\s*(.*)$/.exec(l); if (m && at && l.startsWith("Decision")) acts.push([at, m[1]]);
+  });
+  $("#s-activity").innerHTML = acts.length ? acts.slice(-10).reverse().map(([w, t]) => `<li><span>${esc(w)} ET</span><br><b>${esc(t.slice(0, 160))}</b></li>`).join("") : `<li><span>No decisions in the recent log.</span></li>`;
+  window.__redrawStock = drawDays;
+  if (!stockTimer) stockTimer = setInterval(() => { if (!$("#tab-stock").hidden) loadStock(); }, 60000);
+}
+
+window.__redraw = () => { window.__redrawCrypto && window.__redrawCrypto(); window.__redrawStock && window.__redrawStock(); };
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(window.__redraw, 150); });
+loadCrypto();
+// Each site opens on its own tab; a tab the viewer picked last time wins.
+let startTab = location.hostname.startsWith("stock-agent") ? "stock" : "crypto";
+try { startTab = localStorage.getItem("ct.tab") || startTab; } catch (e) {}
+if (startTab === "stock") document.querySelector('.tabs button[data-tab="stock"]').click();
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,333 @@
+{
+ "generated_at": "2026-09-29T19:49-04:00",
+ "settings": {
+  "min_trips": 30,
+  "survive_t": 2.0,
+  "cull_t": -1.0,
+  "probation_size": 0.25
+ },
+ "trips": 847,
+ "lenses": {
+  "hour": {
+   "09": {
+    "n": 161,
+    "net": 468.72,
+    "mean": 2.911,
+    "t": 2.55,
+    "win_rate": 0.752,
+    "stage": "SURVIVOR",
+    "weeks": {
+     "2026-W37": 56.83,
+     "2026-W38": 120.86,
+     "2026-W39": 247.62,
+     "2026-W40": 43.41
+    }
+   },
+   "10": {
+    "n": 158,
+    "net": 76.93,
+    "mean": 0.487,
+    "t": 0.59,
+    "win_rate": 0.601,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 6.89,
+     "2026-W38": 112.06,
+     "2026-W39": 27.39,
+     "2026-W40": -69.41
+    }
+   },
+   "11": {
+    "n": 142,
+    "net": 11.37,
+    "mean": 0.08,
+    "t": 0.11,
+    "win_rate": 0.585,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": -16.22,
+     "2026-W38": 188.03,
+     "2026-W39": -138.69,
+     "2026-W40": -21.75
+    }
+   },
+   "12": {
+    "n": 138,
+    "net": -44.91,
+    "mean": -0.325,
+    "t": -0.44,
+    "win_rate": 0.5,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 6.56,
+     "2026-W38": 9.76,
+     "2026-W39": 13.17,
+     "2026-W40": -74.4
+    }
+   },
+   "13": {
+    "n": 101,
+    "net": 83.53,
+    "mean": 0.827,
+    "t": 0.97,
+    "win_rate": 0.535,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 24.67,
+     "2026-W38": 37.71,
+     "2026-W39": 26.5,
+     "2026-W40": -5.35
+    }
+   },
+   "14": {
+    "n": 111,
+    "net": -354.76,
+    "mean": -3.196,
+    "t": -2.43,
+    "win_rate": 0.432,
+    "stage": "CULLED",
+    "weeks": {
+     "2026-W37": -11.4,
+     "2026-W38": -338.6,
+     "2026-W39": -4.76
+    }
+   },
+   "15": {
+    "n": 36,
+    "net": -47.27,
+    "mean": -1.313,
+    "t": -0.91,
+    "win_rate": 0.444,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 4.27,
+     "2026-W38": -49.84,
+     "2026-W39": -1.7
+    }
+   }
+  },
+  "signals": {
+   "congress": {
+    "n": 15,
+    "net": -71.58,
+    "mean": -4.772,
+    "t": -1.83,
+    "win_rate": 0.333,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W39": -40.0,
+     "2026-W40": -31.58
+    }
+   },
+   "congress+followed_person": {
+    "n": 1,
+    "net": -17.81,
+    "mean": -17.81,
+    "t": 0.0,
+    "win_rate": 0.0,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W40": -17.81
+    }
+   },
+   "congress+insider": {
+    "n": 1,
+    "net": 3.96,
+    "mean": 3.96,
+    "t": 0.0,
+    "win_rate": 1.0,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 3.96
+    }
+   },
+   "congress+momentum": {
+    "n": 241,
+    "net": 106.5,
+    "mean": 0.442,
+    "t": 0.51,
+    "win_rate": 0.598,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 55.74,
+     "2026-W38": 170.28,
+     "2026-W39": -14.15,
+     "2026-W40": -105.37
+    }
+   },
+   "congress+momentum+news": {
+    "n": 15,
+    "net": 21.28,
+    "mean": 1.419,
+    "t": 0.62,
+    "win_rate": 0.667,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 5.11,
+     "2026-W39": 8.56,
+     "2026-W40": 7.61
+    }
+   },
+   "congress+news": {
+    "n": 22,
+    "net": 41.6,
+    "mean": 1.891,
+    "t": 0.83,
+    "win_rate": 0.591,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": -0.24,
+     "2026-W39": 82.2,
+     "2026-W40": -40.36
+    }
+   },
+   "congress+news+track_record": {
+    "n": 1,
+    "net": 9.05,
+    "mean": 9.05,
+    "t": 0.0,
+    "win_rate": 1.0,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W39": 9.05
+    }
+   },
+   "congress+track_record": {
+    "n": 6,
+    "net": -1.92,
+    "mean": -0.32,
+    "t": -0.13,
+    "win_rate": 0.333,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W39": -3.37,
+     "2026-W40": 1.45
+    }
+   },
+   "etf_default": {
+    "n": 1,
+    "net": -0.41,
+    "mean": -0.41,
+    "t": 0.0,
+    "win_rate": 0.0,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": -0.41
+    }
+   },
+   "etf_default+momentum": {
+    "n": 2,
+    "net": -0.1,
+    "mean": -0.05,
+    "t": -2.5,
+    "win_rate": 0.0,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": -0.07,
+     "2026-W39": -0.03
+    }
+   },
+   "insider+momentum": {
+    "n": 30,
+    "net": 76.09,
+    "mean": 2.536,
+    "t": 0.57,
+    "win_rate": 0.633,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 4.76,
+     "2026-W38": 71.33
+    }
+   },
+   "insider+news": {
+    "n": 3,
+    "net": 17.09,
+    "mean": 5.697,
+    "t": 1.18,
+    "win_rate": 0.667,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 2.67,
+     "2026-W40": 14.42
+    }
+   },
+   "momentum": {
+    "n": 249,
+    "net": -100.73,
+    "mean": -0.405,
+    "t": -0.73,
+    "win_rate": 0.598,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": -0.51,
+     "2026-W38": -161.63,
+     "2026-W39": 60.23,
+     "2026-W40": 1.18
+    }
+   },
+   "momentum+news": {
+    "n": 221,
+    "net": 88.5,
+    "mean": 0.4,
+    "t": 0.66,
+    "win_rate": 0.534,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": -2.78,
+     "2026-W39": 57.79,
+     "2026-W40": 33.49
+    }
+   },
+   "momentum+news+track_record": {
+    "n": 17,
+    "net": 32.12,
+    "mean": 1.889,
+    "t": 0.88,
+    "win_rate": 0.647,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": -10.05,
+     "2026-W39": 37.07,
+     "2026-W40": 5.1
+    }
+   },
+   "momentum+track_record": {
+    "n": 10,
+    "net": 16.54,
+    "mean": 1.654,
+    "t": 0.71,
+    "win_rate": 0.6,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 9.86,
+     "2026-W39": 7.82,
+     "2026-W40": -1.14
+    }
+   },
+   "news": {
+    "n": 9,
+    "net": -29.47,
+    "mean": -3.274,
+    "t": -1.88,
+    "win_rate": 0.333,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W39": -29.47
+    }
+   },
+   "news+track_record": {
+    "n": 3,
+    "net": 2.9,
+    "mean": 0.967,
+    "t": 0.27,
+    "win_rate": 0.667,
+    "stage": "PROBATION",
+    "weeks": {
+     "2026-W37": 3.56,
+     "2026-W39": -6.17,
+     "2026-W40": 5.51
+    }
+   }
+  }
+ }
+}

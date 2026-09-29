@@ -154,6 +154,10 @@ Rules of thumb:
 - If "no_new_entries_this_check" is true the session is past its entry cutoff - at or after
   no_new_entries_after_et (in "guardrails"), or inside its last max_hold_minutes: do not propose buys, they
   will be dropped. Sells and protective orders are still yours to make.
+- "strategy_stages" is natural selection over your own past entries, by New York entry hour and by signal mix,
+  rescored from the journal every check. A CULLED hour or signal mix is dropped at the guardrails. PROBATION
+  buys are cut to a quarter of the size you ask for; only a SURVIVOR is bought at full size. Put your
+  conviction where the survivors are, and do not size up a probation idea to make up for the cut.
 
 Answer by calling the submit_plan tool exactly once. Use empty lists for orders/sells when doing nothing."""
 

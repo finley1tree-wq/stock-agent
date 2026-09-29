@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
-from . import state, safety, triggers   # triggers imports only stdlib: no cycle
+from . import state, safety, triggers, evolve   # stdlib-only modules: no cycle
 from .broker_sim import HOLIDAYS, EARLY_CLOSE_1PM
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -39,6 +39,10 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "", working_orde
     lines = log.read_text().splitlines()[-400:] if log.exists() else []
     (OUT / "log.md").write_text("\n".join(lines) + ("\n" if lines else ""))
     g = cfg.get("guardrails", {})
+    try:                                          # natural selection stages for the dashboard (evolve.py)
+        evolve.write(evolve.load(g), datetime.now(ET).isoformat(timespec="minutes"))
+    except Exception:
+        pass
     meta = {
         "asOf": datetime.now(ET).isoformat(timespec="minutes"), "note": note,
         "broker": cfg["env"]["broker"], "watchlist": cfg["watchlist"], "weekly_budget": cfg["weekly_budget"],

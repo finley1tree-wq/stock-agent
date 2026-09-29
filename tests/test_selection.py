@@ -20,7 +20,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from agent import autopilot, selection, triggers  # noqa: E402
+from agent import autopilot, evolve, selection, triggers  # noqa: E402
 from agent.broker_sim import close_time, is_trading_day  # noqa: E402
 
 ET = ZoneInfo("America/New_York")
@@ -48,13 +48,13 @@ def run_functions(**stubs):
     """Compile the named top-level definitions of agent/run.py, and only those, into a namespace."""
     src = (ROOT / "agent" / "run.py").read_text(encoding="utf-8")
     names = {"SIGNALS", "_clean_signals", "apply_guardrails", "apply_sell_guardrails", "_at_price",
-             "fill_standing_orders", "past_entry_cutoff"}
+             "fill_standing_orders", "past_entry_cutoff", "_evolve_verdict"}
     body = [n for n in ast.parse(src).body
             if (isinstance(n, ast.FunctionDef) and n.name in names)
             or (isinstance(n, ast.Assign) and any(getattr(t, "id", None) in names for t in n.targets))]
     ns = {"datetime": datetime, "timedelta": timedelta, "time": time, "ET": ET,
           "is_trading_day": is_trading_day, "close_time": close_time,
-          "selection": selection, "triggers": triggers, **stubs}
+          "selection": selection, "evolve": evolve, "triggers": triggers, **stubs}
     exec(compile(ast.Module(body=body, type_ignores=[]), str(ROOT / "agent" / "run.py"), "exec"), ns)
     return ns, src
 

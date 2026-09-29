@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets, replay, autopilot
 from . import selection
+from . import evolve
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -115,6 +116,14 @@ def _clean_signals(o: dict) -> list[str]:
         raw = [raw]
     return [s for s in raw if isinstance(s, str) and s in SIGNALS] or ["unspecified"]
 
+def _evolve_verdict(signals, g: dict, now: datetime | None = None) -> tuple[float, str]:
+    """Size multiplier and reason from natural selection over past entries (agent/evolve.py).
+    1.0 with no reason when guardrails.evolve is off or the journal cannot be read."""
+    scores = evolve.load(g)
+    if not scores:
+        return 1.0, ""
+    return evolve.verdict(scores, signals, (now or datetime.now(ET)).hour)
+
 def _full_deployment(today, g: dict) -> dict:
     """Finley's phase two: from a set date, every dollar works and it concentrates.
 
@@ -184,6 +193,13 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
         if blocked:
             dropped.append(f"{t}: {blocked}"); continue
         usd = max(0.0, float(o.get("usd", 0) or 0))          # never negative
+        if not cleanup:     # natural selection (evolve.py): culled strategies out, unproven ones small
+            mult, fit = _evolve_verdict(_clean_signals(o), g)
+            if mult <= 0:
+                dropped.append(f"{t}: {fit}"); continue
+            if mult < 1:
+                usd *= mult
+                o = {**o, "why": f"{o.get('why', '')} [{fit}]".strip()}
         if t in merged:                                       # repeated ticker -> one order
             merged[t]["usd"] += usd; continue
         merged[t] = {**o, "ticker": t, "usd": usd}
@@ -838,6 +854,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
                                      for t, ts in (st.get("sold_ts") or {}).items()
                                      if int(g.get("rebuy_cooldown_minutes", 0) or 0) and (now.timestamp() - float(ts or 0)) / 60 < int(g.get("rebuy_cooldown_minutes", 0) or 0)},
         "no_new_entries_this_check": cutoff,
+        "strategy_stages": evolve.summary(evolve.load(g)),
         "guardrails": {k: v for k, v in g.items() if not k.startswith("_")},
         "sell_rules": {"allowed": not g.get("only_buy", False), "min_hold_days": g.get("min_hold_days", 0), "max_sells_per_day": g.get("max_sells_per_day", 3)},
         "allowed_tickers": sorted(allowed), "watchlist": cfg["watchlist"], "prices": px,
@@ -944,6 +961,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
     keep = []
     for t in want:
         blocked = selection.entry_blocked(_clean_signals(t), g) if str(t.get("kind", "")).lower() in triggers.BUY_KINDS else None
+        is_buy = str(t.get("kind", "")).lower() in triggers.BUY_KINDS
+        if is_buy and not blocked:          # a culled strategy's resting buy would be dropped at fill time
+            mult, fit = _evolve_verdict(_clean_signals(t), g, now)
+            blocked = fit if mult <= 0 else None
         if blocked:
             log(f"  (dropped trigger {t.get('ticker')} {t.get('kind')}: {blocked})")
         else:

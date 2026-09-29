@@ -294,3 +294,7 @@ footer { margin-top: 30px; color: var(--faint); font-size: 12px; text-align: cen
 
 /* the trade's shape: how much it is playing for against how much it is risking */
 .t-zonelegend { top: auto; bottom: 8px; left: 10px; }
+
+/* stop / target under the symbol on phones, where the position column is hidden */
+.lvls-m { display: none; }
+@media (max-width: 760px) { .lvls-m { display: block; } .lvls-m .lvls { font-size: 11px !important; } }

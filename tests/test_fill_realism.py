@@ -300,13 +300,13 @@ def _run_functions(**stubs):
     named top-level definitions from its source into a namespace with stubs."""
     src = (ROOT / "agent" / "run.py").read_text(encoding="utf-8")
     names = {"SIGNALS", "_clean_signals", "apply_guardrails", "apply_sell_guardrails", "_at_price",
-             "fill_standing_orders"}
+             "fill_standing_orders", "_evolve_verdict"}
     body = [n for n in ast.parse(src).body
             if (isinstance(n, ast.FunctionDef) and n.name in names)
             or (isinstance(n, ast.Assign) and any(getattr(t, "id", None) in names for t in n.targets))]
-    from agent import selection
+    from agent import evolve, selection
     ns = {"datetime": datetime, "timedelta": timedelta, "time": time, "ET": ET,
-          "selection": selection, "triggers": triggers, **stubs}
+          "selection": selection, "evolve": evolve, "triggers": triggers, **stubs}
     exec(compile(ast.Module(body=body, type_ignores=[]), str(ROOT / "agent" / "run.py"), "exec"), ns)
     return ns
 

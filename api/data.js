@@ -37,7 +37,31 @@ const FILES = [
   { key: "journal", path: "journal.json", json: true, fallback: [], tail: 1500 },
   { key: "lessons", path: "lessons.md", json: false, fallback: "" },
   { key: "log", path: "log.md", json: false, fallback: "", lines: 400 },
+  { key: "evolve", path: "site/data/evolve.json", json: true, fallback: {} },
 ];
+
+// Is the AI brain working? Read from the log tail the page already receives. Only the LATEST check
+// decides brain_ok_now: an error that has since recovered is history, not a live problem.
+function health(log, windowLines = 400) {
+  const lines = String(log || "").split("\n");
+  let credit = 0, other = 0, fallbacks = 0, lastCheck = null, lastError = null, lastErrorAt = null, okNow = null;
+  let at = null;
+  for (const line of lines) {
+    const h = /^## (\d{4}-\d{2}-\d{2} \d{2}:\d{2}) ET/.exec(line);
+    if (h) { at = h[1]; continue; }
+    if (line.startsWith("brain error:")) {
+      if (/credit balance/i.test(line)) credit++; else other++;
+      lastError = line.slice(12, 220).trim(); lastErrorAt = at; lastCheck = at; okNow = false;
+    } else if (line.startsWith("brain:")) {
+      lastCheck = at; okNow = true;
+    } else if (line.includes("falling back to autopilot")) {
+      fallbacks++;
+    }
+  }
+  return { brain_credit_errors: credit, brain_other_errors: other, autopilot_fallbacks: fallbacks,
+           window_lines: windowLines, brain_ok_now: okNow, last_check: lastCheck,
+           last_error: okNow === false ? lastError : null, last_error_at: lastErrorAt };
+}
 
 // Parse a git smart-HTTP v0 ref advertisement (pkt-line framing) and return the object id of
 // `ref`: "main" means refs/heads/main (then a tag of that name, peeled); a full "refs/..." name is
@@ -125,16 +149,20 @@ async function handler(req, res) {
   const sha = await resolveSha();
   const got = await Promise.all(FILES.map(f => one(f, sha)));
   FILES.forEach((f, i) => { out[f.key] = got[i].v; });
+  out.health = health(out.log);
+  out.corrections = [];          // the fake AMD fill is repaired in the ledger itself (f313c4e9)
   out.servedAt = Date.now();
   out.source = `${REPO}@${REF}`;
   // which commit the files were read at; via[] names any file that had to use the branch URL
   out.meta = { sha: sha || null, ref: REF, via: Object.fromEntries(FILES.map((f, i) => [f.key, got[i].via])) };
   // 10s at the edge: enough to absorb a burst of viewers, short enough to feel live
   res.setHeader("Cache-Control", "s-maxage=10, stale-while-revalidate=60");
+  res.setHeader("Access-Control-Allow-Origin", "*");   // the crypto dashboard's Stock agent tab reads this
   res.status(200).json(out);
 }
 
 module.exports = handler;
 module.exports.parseRefAdvertisement = parseRefAdvertisement;
 module.exports.resolveSha = resolveSha;
+module.exports.health = health;
 module.exports._resetShaCache = () => { shaCache = { sha: null, at: 0 }; inflight = null; };

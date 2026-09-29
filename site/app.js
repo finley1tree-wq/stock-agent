@@ -73,12 +73,23 @@
     ctx.fillStyle = color; ctx.beginPath(); ctx.arc(X(points.length - 1), Y(ys[ys.length - 1]), 2, 0, Math.PI * 2); ctx.fill();
   }
 
-  function bigChart(canvas, c) {
+  // The agent's own levels for a symbol: where it bought, its stop, its take-profit, its resting buys.
+  const LEVEL_STYLE = { bought: ["Bought", "#8b98a9"], take_profit: ["Take profit", "#30d158"], stop_loss: ["Stop loss", "#ff453a"], trailing_stop: ["Trailing stop", "#ff453a"], buy_limit: ["Buy dip", "#0a84ff"], buy_stop: ["Buy break", "#0a84ff"] };
+  function levelsFor(sym) {
+    const pos = (state.data.portfolio.positions || {})[sym], out = [];
+    if (pos && pos.avg_cost > 0) out.push({ kind: "bought", price: +pos.avg_cost });
+    ((state.data.signals || {}).working_orders || []).filter(o => o.ticker === sym && +o.price > 0)
+      .forEach(o => out.push({ kind: o.kind, price: +o.price, size: o.pct_of_position ? `${Math.round(o.pct_of_position)}% of position` : o.usd ? money(o.usd) : "" }));
+    return out.map(l => ({ ...l, label: (LEVEL_STYLE[l.kind] || [l.kind])[0], color: (LEVEL_STYLE[l.kind] || [0, "#8b98a9"])[1] }));
+  }
+  function bigChart(canvas, c, levels) {
     const dpr = window.devicePixelRatio || 1; const w = canvas.clientWidth || 500, h = canvas.clientHeight || 240;
     canvas.width = w * dpr; canvas.height = h * dpr; const ctx = canvas.getContext("2d"); ctx.scale(dpr, dpr); ctx.clearRect(0, 0, w, h);
     const pts = c.points || []; if (pts.length < 2) { ctx.fillStyle = "#8b98a9"; ctx.font = "13px -apple-system, sans-serif"; ctx.fillText("No chart data", 12, h / 2); return; }
     const base = c.range === "1d" ? c.prevClose : c.rangeStart; const ys = pts.map(p => p.c);
     let min = Math.min(...ys), max = Math.max(...ys); if (base != null) { min = Math.min(min, base); max = Math.max(max, base); }
+    const lv = (levels || []).filter(l => l.price > 0);
+    lv.forEach(l => { min = Math.min(min, l.price); max = Math.max(max, l.price); });   // keep stop and target on screen
     const pad = (max - min) * 0.08 || 1; min -= pad; max += pad;
     const L = 8, R = 62, T = 10, B = 26; const X = i => L + (i / (pts.length - 1)) * (w - L - R), Y = v => T + (1 - (v - min) / (max - min)) * (h - T - B);
     const up = c.change == null ? null : c.change >= 0; const color = up === null ? "#8b98a9" : up ? "#30d158" : "#ff453a";
@@ -90,6 +101,17 @@
     ctx.strokeStyle = color; ctx.lineWidth = 2; ctx.lineJoin = "round"; ctx.beginPath(); pts.forEach((p, i) => i ? ctx.lineTo(X(i), Y(p.c)) : ctx.moveTo(X(i), Y(p.c))); ctx.stroke();
     const fmt = c.range === "1d" ? (t) => new Date(t).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "America/New_York" }) : (t) => new Date(t).toLocaleDateString("en-US", { month: "short", day: "numeric" });
     ctx.fillStyle = "#8b98a9"; ctx.textAlign = "center"; [0, 0.25, 0.5, 0.75, 1].forEach(f => { const i = Math.round(f * (pts.length - 1)); ctx.fillText(fmt(pts[i].t), X(i), h - 8); });
+    // the agent's levels as labelled dashed lines
+    ctx.textAlign = "left"; ctx.font = "600 11px -apple-system, sans-serif";
+    const placed = [];   // labels that would overlap slide right instead
+    lv.slice().sort((a, b) => b.price - a.price).forEach(l => {
+      const y = Y(l.price); ctx.strokeStyle = l.color; ctx.lineWidth = 1.5; ctx.setLineDash(l.kind === "bought" ? [2, 3] : [6, 4]);
+      ctx.beginPath(); ctx.moveTo(L, y); ctx.lineTo(w - R + 4, y); ctx.stroke(); ctx.setLineDash([]);
+      const txt = `${l.label} ${money(l.price)}`, tw = ctx.measureText(txt).width + 10;
+      let x = L + 2; placed.filter(p => Math.abs(p.y - y) < 16).forEach(p => { x = Math.max(x, p.x + p.w + 6); });
+      placed.push({ x, y, w: tw });
+      ctx.fillStyle = "rgba(10,14,19,.85)"; ctx.fillRect(x, y - 8, tw, 16); ctx.fillStyle = l.color; ctx.fillText(txt, x + 5, y + 4);
+    });
   }
 
   // ---------- rows ----------
@@ -103,7 +125,12 @@
     if (pos) { const live = q.price != null ? pos.qty * q.price : pos.qty * pos.avg_cost; const pl = q.price != null ? (q.price / pos.avg_cost - 1) * 100 : null;
       // every position is sold automatically after max_hold_minutes; tick() counts this down each second
       const limit = +(((state.data.signals || {}).guardrails || {}).max_hold_minutes || 0), opened = +(pos.opened_ts || pos.last_buy_ts || 0);
-      hold.innerHTML = `<b class="num">${money(live)}</b>${pos.qty.toFixed(4)} sh · avg ${money(pos.avg_cost)} · <span style="color:${pl > 0 ? "var(--up)" : pl < 0 ? "var(--down)" : "inherit"}">${pct(pl)}</span>${limit && opened ? `<span class="sellclock" data-open="${opened}"></span>` : ""}`; }
+      const now = q.price ?? pos.avg_cost, lv = levelsFor(sym), away = p => `${p / now >= 1 ? "+" : ""}${((p / now - 1) * 100).toFixed(1)}%`;
+      const stop = lv.filter(l => l.kind === "stop_loss" || l.kind === "trailing_stop").sort((a, b) => b.price - a.price)[0];
+      const tgt = lv.filter(l => l.kind === "take_profit").sort((a, b) => a.price - b.price)[0];
+      const lvHtml = `<div class="lvls" style="margin-top:3px;font-size:12px"><span style="color:#ff453a">Stop ${stop ? `${money(stop.price)} (${away(stop.price)})` : "none"}</span> · <span style="color:#30d158">Target ${tgt ? `${money(tgt.price)} (${away(tgt.price)})` : "none"}</span></div>`;
+      hold.innerHTML = `<b class="num">${money(live)}</b>${pos.qty.toFixed(4)} sh · avg ${money(pos.avg_cost)} · <span style="color:${pl > 0 ? "var(--up)" : pl < 0 ? "var(--down)" : "inherit"}">${pct(pl)}</span>${limit && opened ? `<span class="sellclock" data-open="${opened}"></span>` : ""}${lvHtml}`;
+      id.insertAdjacentHTML("beforeend", `<span class="lvls-m">${lvHtml}</span>`); }   // phones hide the position column
     else if (extra?.hint) hold.innerHTML = `<b>${esc(extra.hint)}</b>${esc(extra.sub || "")}`;
     const px = el("div", "px num" + (state.flash && state.flash.has(sym) ? " pulse" : ""), q.price != null ? money(q.price) : (q.error ? "n/a" : "…"));
     const ch = el("div", "chg"); ch.appendChild(el("span", "pill num " + (q.change == null ? "flat" : cls(q.change)), q.change == null ? "—" : `${signed(q.change)}<br><span style="font-size:11.5px;opacity:.85">${pct(q.changePct)}</span>`));
@@ -456,8 +483,9 @@
       <div class="sub" id="sh-sub">${q.change != null ? `<span class="pill ${cls(q.change)}">${signed(q.change)} (${pct(q.changePct)})</span> today` : ""}</div>
       <div class="ranges" role="group" aria-label="Range">${["1d", "5d", "1mo", "3mo", "6mo", "1y", "5y"].map(r => `<button data-r="${r}" aria-pressed="${r === sheetRange}">${r.toUpperCase().replace("MO", "M")}</button>`).join("")}</div>
       <canvas class="chart" id="sh-chart"></canvas>
+      <div id="sh-levels"></div>
       <div class="stats" id="sh-stats"></div>
-      <div class="actions" id="sh-actions"><button class="btn primary" id="sh-trade">Full-screen chart</button></div>
+      <div class="actions" id="sh-actions"><button class="btn primary" id="sh-trade">Full-screen chart (candles, orders, zones)</button></div>
       <div id="sh-pos"></div>
       <h4>Headlines the agent saw</h4><ul class="news" id="sh-news"></ul>
       <h4>Agent activity in ${esc(sym)}</h4><div class="list fills" id="sh-fills"></div>`;
@@ -471,6 +499,9 @@
     const news = (state.data.signals.headlines || {})[sym] || []; const ul = $("#sh-news"); ul.innerHTML = news.length ? "" : "<li style='color:var(--muted)'>None captured at the last check.</li>"; news.forEach(n => ul.appendChild(el("li", null, `${esc(n.title)}<div class="src">${esc(n.source || "")} · ${esc(n.when || "")}</div>`)));
     const fills = (state.data.journal || []).filter(r => r.symbol === sym).reverse(); const fb = $("#sh-fills"); fb.innerHTML = fills.length ? "" : "<div class='empty'>No fills in this symbol.</div>";
     fills.forEach(r => { const isSell = r.side === "sell"; fb.appendChild(el("div", "f", `<div class="when">${esc(r.date || "")}<br>${esc(r.time_et || "")}</div><div class="what"><span class="tag ${isSell ? "sell" : "buy"}">${isSell ? "SELL" : "BUY"}</span>${r.trigger ? ` <span class="tag n" title="left as a standing order at an earlier check and filled when the price got there">${esc(KIND_LABEL[r.trigger] || r.trigger)}</span>` : ""} @ ${money(+r.price)}<div class="why">${esc(r.why || "")}</div>${r.evidence ? `<div class="ev">evidence: ${esc(r.evidence)}</div>` : ""}</div><div class="amt num">${isSell ? money(+r.proceeds) : money(+r.notional)}</div>`)); });
+    const lv = levelsFor(sym).sort((a, b) => b.price - a.price), nowPx = q.price ?? (pos && pos.avg_cost);
+    $("#sh-levels").innerHTML = lv.length ? `<h4>The agent's levels</h4><div class="list">${lv.map(l => `<div style="display:flex;gap:10px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line)"><i style="width:10px;height:10px;border-radius:50%;background:${l.color};display:inline-block"></i><b style="flex:1">${esc(l.label)}${l.size ? `<span style="color:var(--muted);font-weight:400"> · ${esc(l.size)}</span>` : ""}</b><span class="num">${money(l.price)}</span><span class="num" style="min-width:64px;text-align:right;color:var(--muted)">${nowPx ? `${l.price >= nowPx ? "+" : ""}${((l.price / nowPx - 1) * 100).toFixed(2)}%` : ""}</span></div>`).join("")}</div>`
+      : `<h4>The agent's levels</h4><div class="empty">No stop, target or resting order for ${esc(sym)} right now.</div>`;
     drawSheetChart(sym, sheetRange);
     document.addEventListener("keydown", escClose);
   }
@@ -483,7 +514,7 @@
     if (my !== chartSeq) return;   // a newer symbol/range request superseded this one
     const cv = $("#sh-chart"); if (!cv) return;
     if (!c || c.error) { const ctx = cv.getContext("2d"); ctx.clearRect(0, 0, cv.width, cv.height); return; }
-    bigChart(cv, c);
+    bigChart(cv, c, range === "1d" || range === "5d" ? levelsFor(sym) : []);
     if (c.price != null) $("#sh-price").textContent = money(c.price);
     const label = { "1d": "today", "5d": "past 5 days", "1mo": "past month", "3mo": "past 3 months", "6mo": "past 6 months", "1y": "past year", "5y": "past 5 years" }[range];
     $("#sh-sub").innerHTML = c.change != null ? `<span class="pill ${cls(c.change)}">${signed(c.change)} (${pct(c.changePct)})</span> ${label}` : "";
