@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "66d90bb0",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 247.641,
-   "status": "cancelled",
-   "created": "2026-09-25 13:46",
-   "created_ts": 1790358398,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $255.3",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 13:50",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "ecde0301",
    "ticker": "CRWD",
    "kind": "stop_loss",
@@ -7258,7 +7239,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 504.7338,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 11:22",
    "created_ts": 1790695357,
    "why": "close it all at -0.6% under the average cost",
@@ -7268,7 +7249,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 11:26",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "797b4639",
@@ -7436,7 +7419,24 @@
    ],
    "good_until": "2026-10-04",
    "usd": 500.0
+  },
+  {
+   "id": "e6475716",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 508.41,
+   "status": "working",
+   "created": "2026-09-29 11:26",
+   "created_ts": 1790695577,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $507.99",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-04",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-09-29 11:23"
+ "updated": "2026-09-29 11:26"
 }
