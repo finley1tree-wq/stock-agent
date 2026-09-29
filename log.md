@@ -19428,3 +19428,9 @@ lesson: Congress-pressure tickers (congress_net_buy_pressure>=2) with named disc
 ~ WORKING buy_limit $500.00 FWONK @ $91.68 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25252.53 (+1.01% on $25000.00 in) · cash $7296.24 · realised +296.24
 Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $6964.66 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $450.62] -> $3007.17 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-29 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.40] -> $2010.18 (+0.51%) — close 100% at +0.5% over the average cost
+## 2026-09-29 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders

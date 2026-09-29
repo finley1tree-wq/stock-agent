@@ -7036,7 +7036,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 438.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:32",
    "created_ts": 1790688760,
    "why": "Protective stop",
@@ -7045,7 +7045,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 09:53",
+   "cancel_reason": "position closed"
   },
   {
    "id": "26d22025",
@@ -7139,7 +7141,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 450.6244,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-29 09:32",
    "created_ts": 1790688760,
    "why": "close 100% at +0.2% over the average cost",
@@ -7149,14 +7151,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 09:53"
   },
   {
    "id": "a5192aee",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 436.0635,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:32",
    "created_ts": 1790688760,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7166,7 +7169,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 09:53",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7a429cdd",
@@ -7239,7 +7244,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 11.95,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:39",
    "created_ts": 1790689166,
    "why": "Protective stop per desk rule",
@@ -7248,7 +7253,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-29",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 09:53",
+   "cancel_reason": "position closed"
   },
   {
    "id": "00b7eb5e",
@@ -7355,7 +7362,7 @@
    "ticker": "TTD",
    "kind": "take_profit",
    "price": 12.3978,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-29 09:39",
    "created_ts": 1790689166,
    "why": "close 100% at +0.5% over the average cost",
@@ -7365,14 +7372,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-29 09:53"
   },
   {
    "id": "16dfcb84",
    "ticker": "TTD",
    "kind": "buy_limit",
    "price": 11.9698,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-29 09:39",
    "created_ts": 1790689166,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7382,7 +7390,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-29 09:53",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0acc0605",
@@ -7453,5 +7463,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-29 09:39"
+ "updated": "2026-09-29 09:53"
 }

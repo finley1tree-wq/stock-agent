@@ -1,9 +1,3 @@
-
-## 2026-09-28 10:38 ET (Monday) — week 2026-W40 — budget left $23059.38 (today $43852.94 put to work, 19 buys, 18 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DMRA excluded: too thinly traded ($11.0M a day) — Damora Therapeutics, Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
 brain: Only 1 position held (PLTR) against min_positions=8 with 92% cash idle - this is the exact scenario the desk instructs against sitting out. Most widely_held names are in cooldown (33min left on some) but defense sector (LMT/RTX/NOC) is not cooled off and has 70% historical hit rate, plus concrete WSJ headline on missile output boosting demand. Adding TSM (congress buy disclosed, TSMC chip demand news) and CCJ (nuclear thesis, Cameco Westinghouse stake headline) to diversify sectors and push toward min_positions with real size ($1.5-2.5k each) rather than trickling.
@@ -398,3 +392,9 @@ lesson: Congress-pressure tickers (congress_net_buy_pressure>=2) with named disc
 ~ WORKING buy_limit $500.00 FWONK @ $91.68 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25252.53 (+1.01% on $25000.00 in) · cash $7296.24 · realised +296.24
 Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $6964.66 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $450.62] -> $3007.17 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-09-29 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.40] -> $2010.18 (+0.51%) — close 100% at +0.5% over the average cost
+## 2026-09-29 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
