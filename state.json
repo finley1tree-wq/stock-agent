@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 10689.74,
+  "spent": 8583.56,
   "deployed": 171500.18,
   "by_ticker": {
     "AVGO": 24.44,
@@ -22,7 +22,6 @@
     "HLI": 30.43,
     "FWONK": 7.89,
     "HUBB": 28.09,
-    "TPL": 2100.0,
     "LTH": 2500.0
   },
   "deployed_by_ticker": {
@@ -2831,13 +2830,33 @@
         "momentum"
       ],
       "evidence": "Rep. Thomas H. Kean and Rep. Scott Franklin both disclosed GOOGL sells recently (2026-09-14, 2026-09-17) - contrarian signal noted, but widely_held sector has n=399 avg_ret 0.0% hit_rate 0.56; price a"
+    },
+    {
+      "symbol": "TPL",
+      "side": "sell",
+      "qty": 6.293013,
+      "status": "filled",
+      "price": 334.69,
+      "proceeds": 2106.18,
+      "realized_pnl": 6.18,
+      "realized_pct": 0.29,
+      "date": "2026-09-29",
+      "time_et": "12:25",
+      "ts": 1790699120,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, +0.33% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 10647.17,
+  "spent_today": 8540.99,
   "deployed_today": 76600.0,
   "orders_today": 33,
-  "sells_today": 29,
+  "sells_today": 30,
   "sold_today": [
     "HD",
     "NOC",
@@ -2860,7 +2879,8 @@
     "IBM",
     "RTX",
     "CHRW",
-    "NEM"
+    "NEM",
+    "TPL"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -2889,32 +2909,30 @@
     "FWONK": 1790690975,
     "HUBB": 1790696335,
     "NLR": 1790691936,
-    "CHRW": 1790696896
+    "CHRW": 1790696896,
+    "TPL": 1790699120
   },
-  "last_publish_ts": 1790698251,
-  "last_check_ts": 1790699041,
-  "last_bar_ts": 1790698800,
+  "last_publish_ts": 1790699120,
+  "last_check_ts": 1790699120,
+  "last_bar_ts": 1790699100,
   "last_decision_ts": 1790698251,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "dfdc4017": 335.2417,
-    "f349d91c": 331.6078,
-    "798412c6": 506.7382,
     "1b78f4ec": 339.8722,
-    "9b9e45c6": 39.8715,
+    "798412c6": 506.7382,
+    "f349d91c": 331.6078,
     "4d0dec97": 174.044,
+    "9b9e45c6": 39.8715,
     "b4e51d52": 452.57,
     "d8bb370b": 598.6712,
     "023c06a8": 38.509,
-    "c216cff0": 490.3641,
     "ffb74bf6": 320.9439,
-    "3f118ac6": 328.7621,
+    "c216cff0": 490.3641,
     "1e2ea212": 490.0,
-    "09bb7209": 328.0,
+    "3f118ac6": 328.7621,
+    "3b589cf0": 38.3,
     "3410f6c9": 320.0,
-    "08b2f64d": 323.689,
-    "81faa8e3": 323.5,
-    "3b589cf0": 38.3
+    "09bb7209": 328.0
   }
 }

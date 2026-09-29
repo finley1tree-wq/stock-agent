@@ -19837,3 +19837,5 @@ lesson: HUBB and CCJ still cooling off, must substitute; check cooling_off_minut
 ~ WORKING buy_limit $500.00 GOOGL @ $328.76 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25248.16 (+0.99% on $25000.00 in) · cash $14641.85 · realised +241.85
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $14310.26 this week
+- SELL 100% TPL [time stop] -> $2106.18 (+0.29%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-29 12:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
