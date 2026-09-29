@@ -45760,7 +45760,9 @@
     "code_version": "2b036e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": -0.03,
+    "ret_final": -0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -45786,7 +45788,9 @@
     "code_version": "2b036e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": -0.01,
+    "ret_final": -0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -45811,7 +45815,9 @@
     "code_version": "2b036e1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.06,
+    "ret_final": -0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -45935,7 +45941,8 @@
     "evidence": "bought 30 min ago, -0.01% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "13f889f"
+    "code_version": "13f889f",
+    "hold_minutes": 30
   },
   {
     "symbol": "CCJ",
@@ -45959,7 +45966,8 @@
     "evidence": "bought 30 min ago, +0.03% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "13f889f"
+    "code_version": "13f889f",
+    "hold_minutes": 30
   },
   {
     "symbol": "HLI",
@@ -45982,6 +45990,155 @@
     "evidence": "bought 30 min ago, -0.02% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "13f889f"
+    "code_version": "13f889f",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "META",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.124871,
+    "price": 727.3,
+    "date": "2026-09-29",
+    "time_et": "13:29",
+    "ts": 1790702987,
+    "why": "Strong 1m momentum plus news-driven strength, not at day high so reasonable entry",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "META +1.61% today, +25.8% 1m, insider filing shows Zuckerberg sold at $777.44 on 9/24 but stock still near highs at $727.15, pct_of_day_range 63.2 not chasing",
+    "entry_price": 727.15,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 25.8,
+    "hour_et": 13,
+    "code_version": "0a4c001",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMD",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.082483,
+    "price": 612.37,
+    "date": "2026-09-29",
+    "time_et": "13:29",
+    "ts": 1790702987,
+    "why": "Congress-backed name low in day range with strong monthly trend",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "AMD +31.5% 1m momentum, Rep. Rick W. Allen disclosed AMD buy with +13.2% excess return per disclosure_leaderboard, currently only 27.7% of day range",
+    "entry_price": 612.25,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 31.5,
+    "hour_et": 13,
+    "code_version": "0a4c001",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NVDA",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.907227,
+    "price": 229.21,
+    "date": "2026-09-29",
+    "time_et": "13:29",
+    "ts": 1790702987,
+    "why": "Near day low entry point in a name with steady track record hit rate",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "NVDA only 8.5% of day range (near day low), widely_held sector avg_ret_pct 0.0 hit_rate 0.56 per track_record, semis strength continuing",
+    "entry_price": 229.16,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 5.34,
+    "hour_et": 13,
+    "code_version": "0a4c001",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TPL",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.025317,
+    "price": 331.93,
+    "date": "2026-09-29",
+    "time_et": "13:29",
+    "ts": 1790702987,
+    "why": "Fresh insider buy above current price with stock at day low, cheap relative entry",
+    "signals": [
+      "insider"
+    ],
+    "evidence": "insider filing 2026-09-29: Horizon Kinetics Asset Management LLC bought TPL at $339.72 on 9/25, insider_net_buy_pressure TPL=1.0, stock now at $331.80 below that insider's buy price and only 3.4% of d",
+    "entry_price": 331.8,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.94,
+    "hour_et": 13,
+    "code_version": "0a4c001",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "LTH",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 50.651136,
+    "price": 39.49,
+    "date": "2026-09-29",
+    "time_et": "13:29",
+    "ts": 1790702987,
+    "why": "Highest congress buy-pressure score tier and counterfactual data shows this name was a missed opportunity before",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure LTH=3.0 (highest tier), Rep. April McClain Delaney disclosed multiple LTH buys 2026-09-09, counterfactual biggest_misses shows LTH fwd_pct +7.69% was missed previously",
+    "entry_price": 39.47,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -9.27,
+    "hour_et": 13,
+    "code_version": "0a4c001",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.36478,
+    "price": 458.21,
+    "date": "2026-09-29",
+    "time_et": "13:29",
+    "ts": 1790702987,
+    "why": "Top-tier congress signal with stock near day low, good entry point despite cooldown clearing shortly",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure HUBB=3.0 highest tier, April McClain Delaney disclosed buys 2026-09-09, HUBB down -1.65% today at 6.1% of day range near low",
+    "entry_price": 458.03,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -0.35,
+    "hour_et": 13,
+    "code_version": "0a4c001",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 123.61,
-  "deployed": 190250.18,
+  "spent": 14123.61,
+  "deployed": 204250.18,
   "by_ticker": {
     "AVGO": 25.16,
     "TTD": 33.13,
@@ -9,22 +9,24 @@
     "IBM": 2.17,
     "PLTR": 18.16,
     "RTX": 4.33,
-    "AMD": 6.07,
+    "AMD": 2506.07,
     "LMT": 14.78,
     "NOC": 4.29,
     "GOOGL": 8.55,
     "NEM": 5.21,
     "AMZN": 4.04,
-    "NVDA": 10.21,
+    "NVDA": 2510.21,
     "CCJ": 25.39,
     "CRWD": 18.82,
     "HLI": 31.28,
     "FWONK": 7.89,
-    "HUBB": 28.09,
-    "LTH": 8.29,
+    "HUBB": 2028.09,
+    "LTH": 2008.29,
     "CHRW": 1.83,
     "MSFT": 17.81,
-    "ACN": 2.06
+    "ACN": 2.06,
+    "META": 3000.0,
+    "TPL": 2000.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -33,18 +35,18 @@
     "AVGO": 10500.0,
     "TTD": 8500.0,
     "ACN": 8500.0,
-    "AMD": 2000.0,
+    "AMD": 4500.0,
     "MSFT": 9058.82,
     "NOC": 10947.06,
     "UNH": 9272.06,
     "CRWD": 9125.0,
-    "NVDA": 10000.0,
+    "NVDA": 12500.0,
     "GOOGL": 10247.06,
     "AAPL": 6500.0,
     "AMZN": 4500.0,
     "HD": 3947.24,
     "IBM": 5852.94,
-    "META": 1000.0,
+    "META": 4000.0,
     "RTX": 7300.0,
     "CCJ": 13400.0,
     "LMT": 6750.0,
@@ -52,10 +54,10 @@
     "HLI": 5200.0,
     "FWONK": 1000.0,
     "NLR": 2000.0,
-    "HUBB": 5500.0,
+    "HUBB": 7500.0,
     "CHRW": 4700.0,
-    "TPL": 2100.0,
-    "LTH": 2500.0
+    "TPL": 4100.0,
+    "LTH": 4500.0
   },
   "orders": [
     {
@@ -3265,12 +3267,112 @@
       ],
       "evidence": "bought 30 min ago, -0.02% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.124871,
+      "price": 727.3,
+      "date": "2026-09-29",
+      "time_et": "13:29",
+      "ts": 1790702987,
+      "why": "Strong 1m momentum plus news-driven strength, not at day high so reasonable entry",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "META +1.61% today, +25.8% 1m, insider filing shows Zuckerberg sold at $777.44 on 9/24 but stock still near highs at $727.15, pct_of_day_range 63.2 not chasing"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.082483,
+      "price": 612.37,
+      "date": "2026-09-29",
+      "time_et": "13:29",
+      "ts": 1790702987,
+      "why": "Congress-backed name low in day range with strong monthly trend",
+      "signals": [
+        "momentum",
+        "congress"
+      ],
+      "evidence": "AMD +31.5% 1m momentum, Rep. Rick W. Allen disclosed AMD buy with +13.2% excess return per disclosure_leaderboard, currently only 27.7% of day range"
+    },
+    {
+      "symbol": "NVDA",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.907227,
+      "price": 229.21,
+      "date": "2026-09-29",
+      "time_et": "13:29",
+      "ts": 1790702987,
+      "why": "Near day low entry point in a name with steady track record hit rate",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "NVDA only 8.5% of day range (near day low), widely_held sector avg_ret_pct 0.0 hit_rate 0.56 per track_record, semis strength continuing"
+    },
+    {
+      "symbol": "TPL",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.025317,
+      "price": 331.93,
+      "date": "2026-09-29",
+      "time_et": "13:29",
+      "ts": 1790702987,
+      "why": "Fresh insider buy above current price with stock at day low, cheap relative entry",
+      "signals": [
+        "insider"
+      ],
+      "evidence": "insider filing 2026-09-29: Horizon Kinetics Asset Management LLC bought TPL at $339.72 on 9/25, insider_net_buy_pressure TPL=1.0, stock now at $331.80 below that insider's buy price and only 3.4% of d"
+    },
+    {
+      "symbol": "LTH",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 50.651136,
+      "price": 39.49,
+      "date": "2026-09-29",
+      "time_et": "13:29",
+      "ts": 1790702987,
+      "why": "Highest congress buy-pressure score tier and counterfactual data shows this name was a missed opportunity before",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "congress_net_buy_pressure LTH=3.0 (highest tier), Rep. April McClain Delaney disclosed multiple LTH buys 2026-09-09, counterfactual biggest_misses shows LTH fwd_pct +7.69% was missed previously"
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.36478,
+      "price": 458.21,
+      "date": "2026-09-29",
+      "time_et": "13:29",
+      "ts": 1790702987,
+      "why": "Top-tier congress signal with stock near day low, good entry point despite cooldown clearing shortly",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "congress_net_buy_pressure HUBB=3.0 highest tier, April McClain Delaney disclosed buys 2026-09-09, HUBB down -1.65% today at 6.1% of day range near low"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 81.04,
-  "deployed_today": 95350.0,
-  "orders_today": 42,
+  "spent_today": 14081.04,
+  "deployed_today": 109350.0,
+  "orders_today": 48,
   "sells_today": 43,
   "sold_today": [
     "HD",
@@ -3330,18 +3432,36 @@
     "TPL": 1790699120,
     "LTH": 1790700083
   },
-  "last_publish_ts": 1790702912,
-  "last_check_ts": 1790702912,
+  "last_publish_ts": 1790702987,
+  "last_check_ts": 1790702987,
   "last_bar_ts": 1790702700,
-  "last_decision_ts": 1790702055,
+  "last_decision_ts": 1790702987,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "62aca446": 174.066,
+    "9b0eb56a": 229.7945,
     "4d0dec97": 174.044,
+    "ae8f547a": 459.5846,
+    "245f2a73": 730.5656,
+    "6013c0e2": 39.6614,
+    "f6d47d8b": 615.242,
     "43726885": 337.5,
+    "05d04ea2": 333.4768,
     "045e5900": 453.1365,
     "b4e51d52": 452.57,
-    "d8bb370b": 598.6712
+    "7ecd9c46": 712.0,
+    "d8bb370b": 598.6712,
+    "53adfff4": 224.0,
+    "ab472510": 324.0,
+    "78f31fa5": 38.5,
+    "9a533686": 595.0,
+    "037ee545": 445.0,
+    "43ae0a4a": 38.3053,
+    "f69d457a": 321.9721,
+    "a7b1840e": 444.4637,
+    "f969b451": 705.481,
+    "8aa69d80": 593.9989,
+    "0d4ce3f8": 222.3337
   }
 }

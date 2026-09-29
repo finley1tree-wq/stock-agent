@@ -155,3 +155,4 @@
 - 2026-09-29 (8d graded, realised 0.01% per dollar): Keep batching 3-4 named-evidence names each check with immediate stops until min_positions is reached; check cooling_off_minutes_left before finalizing to avoid dropped orders.
 - 2026-09-29 (8d graded, realised 0.01% per dollar): When below min_positions with high idle cash, batch 4-5 named-evidence buys per check with immediate stops rather than 1-2 at a time - waiting for perfect setups while sitting on 93% cash is the larger error.
 - 2026-09-29 (8d graded, realised 0.01% per dollar): placeholder
+- 2026-09-29 (8d graded, realised 0.01% per dollar): Reaching min_positions fast with $2000-3000 sized, evidence-backed buys plus immediate stop_loss triggers (the risk_management/auto_bracket signals have 0.17-0.18% avg return at 88% hit rate) beats sitting on idle cash even mid-session.
