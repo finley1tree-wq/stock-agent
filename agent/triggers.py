@@ -46,6 +46,27 @@ KINDS = BUY_KINDS | SELL_KINDS
 MAX_WORKING = 60                 # 5 positions x 2-3 brackets + 6 dip orders needs far more than 24;
                                  # at 24 the newest orders were silently dropped
 DEFAULT_GOOD_FOR_DAYS = 5
+# A level must sit within this multiple of the quote at placement. On 2026-09-21 the model placed an
+# AMD stop_loss at 2438.48 against a 609.62 quote (4.0x); every bar's low was under it, so it fired on
+# the first bar and the ledger booked a sale at $2,437.26 (+$7,493, +299.72%) that never traded.
+LEVEL_BAND = (0.5, 1.5)
+# A standing-order fill further than this from the check-time quote is refused (run._at_price).
+MAX_FILL_DEVIATION = 0.20
+
+def plausible_fill(fill: float, quote: float | None, max_dev: float = MAX_FILL_DEVIATION) -> bool:
+    """Is a standing-order fill close enough to the current quote to have really traded?
+
+    evaluate() already fills inside the bar that fired, so this is the backstop for anything that
+    slips past it. With no quote there is nothing to compare against and the bar-bounded fill stands.
+    """
+    try:
+        q = float(quote or 0)
+        f = float(fill)
+    except (TypeError, ValueError):
+        return False
+    if q <= 0:
+        return True
+    return f > 0 and abs(f / q - 1) <= max_dev
 
 def _load() -> dict:
     if not FILE.exists():
@@ -68,14 +89,40 @@ def working(now: datetime | None = None) -> list[dict]:
 def all_orders() -> list[dict]:
     return _load()["orders"]
 
-def _clean(o: dict, now: datetime, default_good_until: str, px: dict | None = None) -> dict | None:
-    """Validate one brain-proposed order into a stored trigger, or None if unusable."""
+def _level_problem(kind: str, price: float, last: float, signals) -> str | None:
+    """Why a non-trailing level cannot be real, or None if it can.
+
+    The level must be near the quote (LEVEL_BAND), and on the right side of it: a stop_loss or
+    buy_limit at or above the market, or a take_profit or buy_stop at or below it, is not a resting
+    order at all - it fires on the first bar at a price that was never there. auto_bracket levels are
+    exempt from the side test only: they are pinned to the average cost, and a break-even or
+    ratcheted stop legitimately sits above a price that has dipped back under it.
+    """
+    if last <= 0:
+        return "no quote to check the level against"
+    ratio = price / last
+    if not LEVEL_BAND[0] <= ratio <= LEVEL_BAND[1]:
+        return f"level {price:g} is {ratio:.2f}x the quote {last:g}, outside {LEVEL_BAND[0]}-{LEVEL_BAND[1]}x"
+    if AUTO in (signals if isinstance(signals, (list, tuple, set)) else []):
+        return None
+    if kind in ("stop_loss", "buy_limit") and price >= last:
+        return f"{kind} at {price:g} is at or above the quote {last:g}"
+    if kind in ("take_profit", "buy_stop") and price <= last:
+        return f"{kind} at {price:g} is at or below the quote {last:g}"
+    return None
+
+def _clean(o: dict, now: datetime, default_good_until: str, px: dict | None = None,
+           why: list | None = None) -> dict | None:
+    """Validate one brain-proposed order into a stored trigger, or None if unusable.
+
+    A rejection for an implausible level appends its reason to `why` when a list is passed."""
     try:
         kind = str(o.get("kind", "")).strip().lower()
         ticker = str(o.get("ticker", "")).strip().upper()
         price = float(o.get("price", 0) or 0)
         if kind not in KINDS or not ticker:
             return None
+        last = float(((px or {}).get(ticker) or {}).get("price") or 0)
         if kind == "trailing_stop":
             pct = float(o.get("trail_pct", 0) or 0)
             if not 0.5 <= pct <= 50:
@@ -83,6 +130,12 @@ def _clean(o: dict, now: datetime, default_good_until: str, px: dict | None = No
             price = 0.0
         elif price <= 0:
             return None
+        else:
+            problem = _level_problem(kind, price, last, o.get("signals"))
+            if problem:
+                if why is not None:
+                    why.append(problem)
+                return None
         rec = {
             "id": uuid.uuid4().hex[:8], "ticker": ticker, "kind": kind, "price": px_round(price),
             "status": "working", "created": now.strftime("%Y-%m-%d %H:%M"), "created_ts": int(now.timestamp()),
@@ -108,7 +161,6 @@ def _clean(o: dict, now: datetime, default_good_until: str, px: dict | None = No
                 rec["trail_pct"] = round(float(o["trail_pct"]), 2)
                 # the high since placement starts at the price right now, so the stop has a real
                 # level from the first moment instead of showing zero until the next bar arrives
-                last = float(((px or {}).get(ticker) or {}).get("price") or 0)
                 rec["high_water"] = px_round(last)
                 rec["price"] = px_round(last * (1 - rec["trail_pct"] / 100)) if last else 0.0
         return rec
@@ -127,9 +179,11 @@ def place(plan_triggers: list, now: datetime, held: set, allowed: set, px: dict 
     for raw in (plan_triggers or [])[:40]:      # was 12: brackets alone can exceed that with 5 names
         if not isinstance(raw, dict):
             continue
-        rec = _clean(raw, now, default_good_until, px)
+        why: list[str] = []
+        rec = _clean(raw, now, default_good_until, px, why)
         if not rec:
-            rejected.append(f"trigger {str(raw.get('ticker', '?'))[:8]}: malformed or out of range"); continue
+            rejected.append(f"trigger {str(raw.get('ticker', '?'))[:8]} {str(raw.get('kind', ''))[:14]}: "
+                            f"{why[0] if why else 'malformed or out of range'}"); continue
         if not str(rec.get("evidence", "")).strip():
             rejected.append(f"trigger {rec['ticker']}: no evidence given"); continue
         if rec["kind"] in SELL_KINDS and rec["ticker"] not in held:
@@ -160,13 +214,19 @@ def _crossed(o: dict, lo: float, hi: float) -> bool:
 def evaluate(now: datetime, px: dict, bars: dict, held: set, slippage_pct: float = 0.05) -> tuple[list[dict], list[str]]:
     """Replay the bars since the last check and fire any order whose level was reached.
 
-    bars: {ticker: [{"t": epoch_s, "h": high, "l": low, "c": close}, ...]} newest last. When a
-    ticker has no bars, the current quote is used as a single bar. Returns (fires, notes) where a
-    fire carries the price to fill at; the caller executes it through the broker.
+    bars: {ticker: [{"t": epoch_s, "o": open, "h": high, "l": low, "c": close}, ...]} newest last.
+    When a ticker has no bars, the current quote is used as a single bar. Returns (fires, notes)
+    where a fire carries the price to fill at; the caller executes it through the broker.
+
+    A fill is always a price that traded inside the bar that fired it (before slippage). The level
+    is what the order ASKED for, not what it got: a stop the market gapped through fills at the
+    open, and a limit the market gapped past fills at the edge of the bar. Filling at the level
+    itself booked an AMD stop at $2,437 while AMD traded at $609 (2026-09-21).
     """
     d = _load()
     today = now.date()
     fires, notes = [], []
+    slip = slippage_pct / 100
     for o in d["orders"]:
         if o.get("status") != "working":
             continue
@@ -179,7 +239,7 @@ def evaluate(now: datetime, px: dict, bars: dict, held: set, slippage_pct: float
             notes.append(f"trigger {o['ticker']} {o['kind']} cancelled (position gone)"); continue
         q = px.get(o["ticker"]) or {}
         last = q.get("price")
-        seq = bars.get(o["ticker"]) or ([{"t": int(now.timestamp()), "h": last, "l": last, "c": last}] if last else [])
+        seq = bars.get(o["ticker"]) or ([{"t": int(now.timestamp()), "o": last, "h": last, "l": last, "c": last}] if last else [])
         seq = [b for b in seq if b.get("h") is not None and b.get("l") is not None
                and int(b.get("t", 0)) >= int(o.get("created_ts", 0))]
         if not seq:
@@ -191,30 +251,54 @@ def evaluate(now: datetime, px: dict, bars: dict, held: set, slippage_pct: float
             trail = float(o["trail_pct"]) / 100
             hit = None
             for b in seq:
+                stop_prev = px_round(hw * (1 - trail)) if hw > 0 else 0.0   # live as this bar opened
                 hw = max(hw, float(b["h"]))
                 stop = px_round(hw * (1 - trail))
                 if float(b["l"]) <= stop:
-                    hit = (b, stop); break
+                    hit = (b, stop, stop_prev); break
             o["high_water"] = px_round(hw)
             o["price"] = px_round(hw * (1 - trail))             # shown on the dashboard as the live stop
             if not hit:
                 continue
-            b, stop = hit
+            b, stop, stop_prev = hit
+            lo, hi, op = float(b["l"]), float(b["h"]), _bar_open(b, stop)
+            if stop_prev > 0 and op <= stop_prev:
+                fill, stop = min(stop_prev, op), stop_prev      # gapped through the stop: out at the open
+            else:
+                fill = min(stop, hi)
+            fill = min(max(fill, lo), hi)
             o["price"] = stop
-            fill = px_round(stop * (1 - slippage_pct / 100))
+            fill = px_round(fill * (1 - slip))
             fires.append({**o, "fill_price": fill, "fired_ts": int(b["t"]), "stop_at": stop})
         else:
             hit = next((b for b in seq if _crossed(o, float(b["l"]), float(b["h"]))), None)
             if not hit:
                 continue
-            fill = o["price"]
-            if o["kind"] == "buy_stop":                        # a stop becomes a market order: pay up
-                fill = px_round(fill * (1 + slippage_pct / 100))
-            elif o["kind"] == "stop_loss":
-                fill = px_round(fill * (1 - slippage_pct / 100))
+            lvl, k = float(o["price"]), o["kind"]
+            lo, hi, op = float(hit["l"]), float(hit["h"]), _bar_open(hit, lvl)
+            if k == "stop_loss":
+                fill = min(lvl, op)          # opened below the stop: a market sell gets the open
+            elif k == "buy_stop":
+                fill = max(lvl, op)          # opened above the stop: a market buy pays the open
+            elif k == "take_profit":
+                fill = max(lvl, lo)          # a limit sell never gets less than its level...
+            else:                            # buy_limit
+                fill = min(lvl, hi)          # ...and a limit buy never pays more than its level
+            fill = min(max(fill, lo), hi)    # and nothing fills at a price the bar did not trade
+            if k == "buy_stop":                                # a stop becomes a market order: pay up
+                fill = fill * (1 + slip)
+            elif k == "stop_loss":
+                fill = fill * (1 - slip)
             fires.append({**o, "fill_price": px_round(fill), "fired_ts": int(hit["t"])})
     _save(d)
     return fires, notes
+
+def _bar_open(b: dict, fallback: float) -> float:
+    """The bar's open; bars recorded before the open was kept fall back to the close, then the level."""
+    for k in ("o", "c"):
+        if b.get(k) is not None:
+            return float(b[k])
+    return float(fallback)
 
 def close(order_id: str, now: datetime, status: str, detail: str = "") -> None:
     d = _load()

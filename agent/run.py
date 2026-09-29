@@ -338,6 +338,11 @@ def _at_price(broker, sym: str, price: float, fn):
     if not isinstance(px_map, dict):
         return fn()                                    # a real broker prices its own fills
     saved = px_map.get(sym)
+    # Backstop: a price more than 20% from the check-time quote did not trade in the last few
+    # minutes. triggers.evaluate already fills inside the bar; this refuses anything that gets past
+    # it rather than writing it into the ledger (2026-09-21: an AMD "stop" booked at 4x the quote).
+    if not triggers.plausible_fill(price, saved):
+        return {"symbol": sym, "status": "rejected_implausible_fill", "fill_price": price, "quote": saved}
     saved_spread = getattr(broker, "spread_pct", 0.0)
     px_map[sym] = float(price)
     broker.spread_pct = 0.0                            # it gets the level it asked for; stops already
@@ -470,6 +475,8 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             f = fmap[sl["ticker"]]
             rec = _at_price(broker, sl["ticker"], f["fill_price"], lambda: broker.sell_qty(sl["ticker"], sl["qty"]))
             if str(rec.get("status", "")).startswith("rejected"):
+                if rec["status"] == "rejected_implausible_fill":
+                    triggers.close(f["id"], now, "cancelled", "implausible fill")   # or it retries every tick
                 log_fn(f"- SELL {sl['pct']:.0f}% {sl['ticker']} [{rec['status']}]"); continue
             full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
                     "why": sl["why"], "signals": sl["signals"], "evidence": sl["evidence"], "trigger": f["kind"]}
@@ -529,6 +536,8 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
             o["usd"] = min(o["usd"], float(f["usd"]))       # never more than the order rested for
             rec = _at_price(broker, o["ticker"], f["fill_price"], lambda: broker.buy_notional(o["ticker"], o["usd"]))
             if str(rec.get("status", "")).startswith("rejected"):
+                if rec["status"] == "rejected_implausible_fill":
+                    triggers.close(f["id"], now, "cancelled", "implausible fill")   # or it retries every tick
                 log_fn(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
             full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
                     "why": o["why"], "signals": o["signals"], "evidence": o["evidence"], "trigger": f["kind"]}
@@ -901,6 +910,11 @@ def main(report_only: bool = False, force: bool = False) -> None:
 
     # anything that was too high in the range to buy at market rests as a limit lower down
     want = list(plan.get("triggers") or [])
+    # The auto_bracket tag exempts a level from triggers' side-of-the-market check, so only the
+    # code's own brackets may carry it - never an order the model wrote.
+    for t in want:
+        if isinstance(t, dict) and isinstance(t.get("signals"), list):
+            t["signals"] = [s for s in t["signals"] if s != triggers.AUTO]
     if int(g.get("max_hold_minutes", 0) or 0) > 0:
         # Under an intraday clock a buy order never outlives the session, whether the model left
         # good_until blank (which defaulted to a 5-day life spanning the weekend) or set a later date.

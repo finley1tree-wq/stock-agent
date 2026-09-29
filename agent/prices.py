@@ -107,9 +107,10 @@ def _frame(data, y: str):
 def intraday(tickers: list[str], since_ts: int = 0, interval: str = "5m") -> dict:
     """Bars for today so a standing order can be filled at the moment its level was reached.
 
-    Returns {ticker: [{"t": epoch_seconds, "h": high, "l": low, "c": close}, ...]} oldest first,
-    keeping only bars at or after since_ts. Empty dict on any failure — callers fall back to the
-    current quote, which simply means a level is only seen at check time.
+    Returns {ticker: [{"t": epoch_seconds, "o": open, "h": high, "l": low, "c": close}, ...]} oldest
+    first, keeping only bars at or after since_ts. Empty dict on any failure — callers fall back to
+    the current quote, which simply means a level is only seen at check time. The open is what a
+    stop the market gapped through actually fills at (triggers.evaluate).
     """
     out = {}
     tickers = sorted({t for t in tickers if t})
@@ -126,13 +127,13 @@ def intraday(tickers: list[str], since_ts: int = 0, interval: str = "5m") -> dic
         return out
     for y in ysyms:
         try:
-            f = _frame(data, y)[["High", "Low", "Close"]].dropna()
+            f = _frame(data, y)[["Open", "High", "Low", "Close"]].dropna()
             rows = []
             for idx, r in f.iterrows():
                 ts = int(idx.timestamp())
                 if ts < since_ts:
                     continue
-                rows.append({"t": ts, "h": round(float(r["High"]), 4),
+                rows.append({"t": ts, "o": round(float(r["Open"]), 4), "h": round(float(r["High"]), 4),
                              "l": round(float(r["Low"]), 4), "c": round(float(r["Close"]), 4)})
             if rows:
                 out[ymap[y]] = rows

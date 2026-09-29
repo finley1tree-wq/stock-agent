@@ -83,13 +83,14 @@ def score(prices: dict, held: set | None = None) -> dict:
     today = date.today()
     still = set(held) if held is not None else None
     sells_all = _sells(rows)
+    windows = _sell_windows(rows)
     for r in _buys(rows):
         closed = still is not None and r["symbol"] not in still
         if closed:
             # Self-healing: derive the frozen value from the SELL rows every time, never from a
             # one-off repair. A mark-to-today freeze (or a tick/replay race) cannot resurrect the
             # inflated number, because the sells are the source of truth and they do not move.
-            real = _realised_for(r, sells_all)
+            real = _realised_for(r, windows.get(id(r), []))
             if real is not None:
                 r["ret_final"] = real; r["ret_now"] = real; r["ret_src"] = "realised"; continue
         if r.get("ret_final") is not None:
@@ -171,15 +172,62 @@ def score(prices: dict, held: set | None = None) -> dict:
     return rec
 
 def _realised_for(buy: dict, sells: list[dict]) -> float | None:
-    """What this buy actually returned, from the sell rows that closed it: proceeds-weighted realised %."""
-    bts = int(buy.get("ts") or 0)
-    bdate = str(buy.get("date", ""))[:10]
-    mine = [s for s in sells if s.get("symbol") == buy.get("symbol") and s.get("realized_pct") is not None
-            and ((int(s.get("ts") or 0) >= bts) if bts and s.get("ts") else str(s.get("date", ""))[:10] >= bdate)]
+    """What this buy actually returned, from the sell rows that closed it: proceeds-weighted realised %.
+
+    `sells` must be this buy's own window (_sell_windows), not every later sell of the symbol.
+    """
+    mine = [s for s in sells if s.get("symbol") == buy.get("symbol") and s.get("realized_pct") is not None]
     if not mine:
         return None
     w = [float(s.get("proceeds") or s.get("qty") or 1) for s in mine]
     return round(sum(float(s["realized_pct"]) * x for s, x in zip(mine, w)) / (sum(w) or 1), 2)
+
+def _sell_windows(rows: list[dict]) -> dict[int, list[dict]]:
+    """For each buy row (keyed by id()), the sells that belong to it: every sell of the same symbol
+    after it, up to the next buy that OPENED a new position in that symbol.
+
+    Grading a buy on every later sell of the name averaged unrelated trades into it: under a 30-minute
+    clock a name is re-bought dozens of times, so one bad sell on 2026-09-21 (a fake AMD fill booked at
+    +299.72%) was folded into 27 earlier AMD buys and into every ranking built from them.
+
+    Journal order is the ledger's order, so it decides what came first (a closing sell and the next
+    opening buy often share one timestamp). A buy opens a position when the running quantity before
+    it is flat; rows without a qty fall back to "the previous row of this symbol was not a buy".
+    """
+    out: dict[int, list[dict]] = {}
+    qty: dict[str, float] = {}
+    peak: dict[str, float] = {}
+    qty_known: dict[str, bool] = {}
+    prev_side: dict[str, str] = {}
+    active: dict[str, list[dict]] = {}               # buys of the position currently open
+    for r in rows:
+        s = r.get("symbol")
+        if not s:
+            continue
+        side = "sell" if r.get("side") == "sell" else "buy"
+        q = r.get("qty")
+        if q is None:
+            qty_known[s] = False
+        q = float(q or 0)
+        if side == "buy":
+            before = qty.get(s, 0.0)
+            if qty_known.get(s, True):
+                opening = before <= max(1e-5, 1e-6 * peak.get(s, 0.0))   # 6-dp rounding residue is flat
+            else:
+                opening = prev_side.get(s) != "buy"
+            if opening:
+                active[s] = []
+                peak[s] = 0.0
+            active.setdefault(s, []).append(r)
+            out[id(r)] = []
+            qty[s] = (0.0 if opening else before) + q
+            peak[s] = max(peak.get(s, 0.0), qty[s])
+        else:
+            for b in active.get(s, []):
+                out[id(b)].append(r)
+            qty[s] = max(0.0, qty.get(s, 0.0) - q)
+        prev_side[s] = side
+    return out
 
 def _entry_for(sell: dict, rows: list[dict]) -> dict | None:
     """The most recent buy of the same symbol at or before this sell."""
