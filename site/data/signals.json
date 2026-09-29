@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-29T11:39-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-09-29T11:48-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -141,32 +141,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6777c61b",
-   "ticker": "CHRW",
+   "id": "7fd6839f",
+   "ticker": "NEM",
    "kind": "take_profit",
-   "price": 149.2798,
+   "price": 116.9123,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.89,
+   "last": 116.61,
    "pct_away": 0.26,
-   "good_until": "2026-10-04",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d5941d05",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 86.6819,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.45,
-   "pct_away": 0.27,
    "good_until": "2026-10-04",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -182,8 +165,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 127.19,
-   "pct_away": 0.43,
+   "last": 127.23,
+   "pct_away": 0.4,
    "good_until": "2026-10-04",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -192,15 +175,15 @@
    ]
   },
   {
-   "id": "7fd6839f",
-   "ticker": "NEM",
+   "id": "d5941d05",
+   "ticker": "CCJ",
    "kind": "take_profit",
-   "price": 116.9123,
+   "price": 86.6819,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 116.4,
-   "pct_away": 0.44,
+   "last": 86.25,
+   "pct_away": 0.5,
    "good_until": "2026-10-04",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -216,30 +199,14 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 457.24,
-   "pct_away": -1.02,
+   "last": 457.4,
+   "pct_away": -1.06,
    "good_until": "2026-09-29",
    "why": "wanted it, but not at the high \u2014 resting at $452.57. Congress buy pressure plus strong 1m momentum, semis exposure diversifies book",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "f574fa93",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 145.8,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 148.89,
-   "pct_away": -2.08,
-   "good_until": "2026-09-29",
-   "why": "Protect new CHRW position per risk_management best-performing signal bucket",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -250,13 +217,30 @@
    "usd": 1000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 613.83,
-   "pct_away": -2.47,
+   "last": 613.73,
+   "pct_away": -2.45,
    "good_until": "2026-09-29",
    "why": "strong month, weak day: resting 0.90% under $604.12 to catch the dip",
    "signals": [
     "momentum",
     "dip_entry"
+   ]
+  },
+  {
+   "id": "e8c23d02",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 83.7498,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 86.25,
+   "pct_away": -2.9,
+   "good_until": "2026-10-04",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -267,26 +251,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 127.19,
-   "pct_away": -2.9,
+   "last": 127.23,
+   "pct_away": -2.93,
    "good_until": "2026-09-29",
    "why": "Protect new HLI position, similar sizing to other stops",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "2b51d335",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 113.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 116.4,
-   "pct_away": -2.92,
-   "good_until": "2026-09-29",
-   "why": "Protect new NEM position per risk_management best-performing signal bucket",
    "signals": [
     "risk_management"
    ]
@@ -299,13 +267,29 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 127.19,
-   "pct_away": -2.96,
+   "last": 127.23,
+   "pct_away": -2.99,
    "good_until": "2026-10-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "2b51d335",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 113.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 116.61,
+   "pct_away": -3.1,
+   "good_until": "2026-09-29",
+   "why": "Protect new NEM position per risk_management best-performing signal bucket",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -316,42 +300,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 116.4,
-   "pct_away": -2.96,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1a9dcd62",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 144.3942,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 148.89,
-   "pct_away": -3.02,
-   "good_until": "2026-10-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e8c23d02",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 83.7498,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 86.45,
-   "pct_away": -3.12,
+   "last": 116.61,
+   "pct_away": -3.13,
    "good_until": "2026-10-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -367,8 +317,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.45,
-   "pct_away": -3.41,
+   "last": 86.25,
+   "pct_away": -3.19,
    "good_until": "2026-09-29",
    "why": "protective stop per risk_management best-performing signal",
    "signals": [

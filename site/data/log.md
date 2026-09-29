@@ -1,6 +1,3 @@
-  (dropped trigger RTX stop_loss: not held)
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
   (dropped trigger UNH stop_loss: not held)
 ~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-29 — Protective stop below entry
 ~ WORKING stop_loss 100% NOC @ $491.00 until 2026-09-29 — Protective stop
@@ -398,3 +395,6 @@ Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 20 order(s) working; b
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $457.16] -> $2506.22 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-09-29 11:39 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $149.28] -> $2206.21 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-29 11:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders

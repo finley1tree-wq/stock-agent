@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 9081.02,
+  "spent": 6874.81,
   "deployed": 160900.18,
   "by_ticker": {
     "AVGO": 24.44,
@@ -21,8 +21,7 @@
     "CRWD": 16.67,
     "HLI": 2220.2,
     "FWONK": 7.89,
-    "HUBB": 28.09,
-    "CHRW": 2200.0
+    "HUBB": 28.09
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -2663,13 +2662,34 @@
       ],
       "evidence": "average cost $456.02",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 14.779035,
+      "status": "filled",
+      "price": 149.28,
+      "proceeds": 2206.21,
+      "realized_pnl": 6.21,
+      "realized_pct": 0.28,
+      "date": "2026-09-29",
+      "time_et": "11:48",
+      "ts": 1790696700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $148.86",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 9038.45,
+  "spent_today": 6832.24,
   "deployed_today": 66000.0,
   "orders_today": 28,
-  "sells_today": 25,
+  "sells_today": 26,
   "sold_today": [
     "HD",
     "NOC",
@@ -2690,7 +2710,8 @@
     "PLTR",
     "MSFT",
     "IBM",
-    "RTX"
+    "RTX",
+    "CHRW"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -2718,28 +2739,26 @@
     "HLI": 1790690975,
     "FWONK": 1790690975,
     "HUBB": 1790696335,
-    "NLR": 1790691936
+    "NLR": 1790691936,
+    "CHRW": 1790696896
   },
-  "last_publish_ts": 1790696390,
-  "last_check_ts": 1790696810,
+  "last_publish_ts": 1790696895,
+  "last_check_ts": 1790696895,
   "last_bar_ts": 1790696700,
   "last_decision_ts": 1790696328,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "6777c61b": 149.2798,
-    "d5941d05": 86.6819,
-    "af00c82e": 127.7388,
     "7fd6839f": 116.9123,
+    "af00c82e": 127.7388,
+    "d5941d05": 86.6819,
     "b4e51d52": 452.57,
-    "f574fa93": 145.8,
     "d8bb370b": 598.6712,
-    "03a8c893": 123.5,
-    "2b51d335": 113.0,
-    "5470b7db": 123.4228,
-    "2a220900": 112.9565,
-    "1a9dcd62": 144.3942,
     "e8c23d02": 83.7498,
+    "03a8c893": 123.5,
+    "5470b7db": 123.4228,
+    "2b51d335": 113.0,
+    "2a220900": 112.9565,
     "c62e4ce3": 83.5
   }
 }
