@@ -19995,3 +19995,16 @@ lesson: Reaching min_positions fast with $2000-3000 sized, evidence-backed buys 
 ~ WORKING buy_limit $500.00 HUBB @ $444.46 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25203.99 (+0.82% on $25000.00 in) · cash $11207.99 · realised +207.99
 Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $10876.39 this week
+
+## 2026-09-29 13:45 ET (Tuesday) — week 2026-W40 — budget left $10876.39 (today $109350.00 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: no_new_entries_after_et is 14:00 and it's now 13:45, with full_deployment/max_names=6 already met by current 6 positions (META, AMD, NVDA, TPL, LTH, HUBB) all opened 16 minutes ago. Adding more names would exceed the max_names=6 full-deployment cap, and cooldowns (ACN, MSFT, AVGO, TTD, CCJ, HLI, CHRW) block re-entry into the sold names anyway. All 6 positions already have protective stop_loss and take_profit triggers working plus scale-in buy_limits, so the book is fully bracketed. I'll let the standing orders do their job and check back shortly before the 14:00 cutoff closes new entries entirely.
+lesson: With full_deployment max_names=6 already filled and hit, do not try to add more positions - min_positions target is overridden by the deployment cap; just manage stops on the 6 held.
+portfolio: equity $25194.84 (+0.78% on $25000.00 in) · cash $11207.99 · realised +207.99
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
