@@ -1,19 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
-Decision: nothing at this check. 1 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-29 10:34 ET (Tuesday) — week 2026-W40 — budget left $24929.96 (today $30000.00 put to work, 13 buys, 14 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AOMR excluded: too thinly traded ($1.0M a day) — Angel Oak Mortgage REIT, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-brain unavailable: brain failed after retry: InternalServerError: credential validation failed
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25261.55 (+1.05% on $25000.00 in) · cash $25261.55 · realised +261.55
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +382,19 @@ lesson: Reaching min_positions fast with $2000-3000 sized, evidence-backed buys 
 ~ WORKING buy_limit $500.00 HUBB @ $444.46 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25203.99 (+0.82% on $25000.00 in) · cash $11207.99 · realised +207.99
 Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $10876.39 this week
+
+## 2026-09-29 13:45 ET (Tuesday) — week 2026-W40 — budget left $10876.39 (today $109350.00 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+brain: no_new_entries_after_et is 14:00 and it's now 13:45, with full_deployment/max_names=6 already met by current 6 positions (META, AMD, NVDA, TPL, LTH, HUBB) all opened 16 minutes ago. Adding more names would exceed the max_names=6 full-deployment cap, and cooldowns (ACN, MSFT, AVGO, TTD, CCJ, HLI, CHRW) block re-entry into the sold names anyway. All 6 positions already have protective stop_loss and take_profit triggers working plus scale-in buy_limits, so the book is fully bracketed. I'll let the standing orders do their job and check back shortly before the 14:00 cutoff closes new entries entirely.
+lesson: With full_deployment max_names=6 already filled and hit, do not try to add more positions - min_positions target is overridden by the deployment cap; just manage stops on the 6 held.
+portfolio: equity $25194.84 (+0.78% on $25000.00 in) · cash $11207.99 · realised +207.99
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $730.57] -> $3013.49 (+0.45%) — close 100% at +0.4% over the average cost
+## 2026-09-29 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders

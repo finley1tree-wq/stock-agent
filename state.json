@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 14123.61,
+  "spent": 11110.12,
   "deployed": 204250.18,
   "by_ticker": {
     "AVGO": 25.16,
@@ -25,7 +25,6 @@
     "CHRW": 1.83,
     "MSFT": 17.81,
     "ACN": 2.06,
-    "META": 3000.0,
     "TPL": 2000.0
   },
   "deployed_by_ticker": {
@@ -3367,13 +3366,34 @@
         "congress"
       ],
       "evidence": "congress_net_buy_pressure HUBB=3.0 highest tier, April McClain Delaney disclosed buys 2026-09-09, HUBB down -1.65% today at 6.1% of day range near low"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.124871,
+      "status": "filled",
+      "price": 730.57,
+      "proceeds": 3013.49,
+      "realized_pnl": 13.49,
+      "realized_pct": 0.45,
+      "date": "2026-09-29",
+      "time_et": "13:55",
+      "ts": 1790704200,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $727.3",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-29",
-  "spent_today": 14081.04,
+  "spent_today": 11067.55,
   "deployed_today": 109350.0,
   "orders_today": 48,
-  "sells_today": 43,
+  "sells_today": 44,
   "sold_today": [
     "HD",
     "NOC",
@@ -3399,7 +3419,8 @@
     "NEM",
     "TPL",
     "LTH",
-    "AAPL"
+    "AAPL",
+    "META"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -3417,7 +3438,7 @@
     "TTD": 1790701969,
     "HD": 1790688629,
     "AMZN": 1790610993,
-    "META": 1790604966,
+    "META": 1790704505,
     "AAPL": 1790700084,
     "IBM": 1790696326,
     "RTX": 1790696391,
@@ -3432,36 +3453,33 @@
     "TPL": 1790699120,
     "LTH": 1790700083
   },
-  "last_publish_ts": 1790702987,
-  "last_check_ts": 1790704468,
-  "last_bar_ts": 1790704200,
+  "last_publish_ts": 1790704504,
+  "last_check_ts": 1790704550,
+  "last_bar_ts": 1790704500,
   "last_decision_ts": 1790703953,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "6013c0e2": 39.6614,
+    "43726885": 337.5,
     "62aca446": 174.066,
-    "9b0eb56a": 229.7945,
     "4d0dec97": 174.044,
     "ae8f547a": 459.5846,
-    "245f2a73": 730.5656,
-    "6013c0e2": 39.6614,
-    "f6d47d8b": 615.242,
-    "43726885": 337.5,
     "05d04ea2": 333.4768,
+    "9b0eb56a": 229.7945,
     "045e5900": 453.1365,
+    "f6d47d8b": 615.242,
     "b4e51d52": 452.57,
-    "7ecd9c46": 712.0,
     "d8bb370b": 598.6712,
     "53adfff4": 224.0,
     "ab472510": 324.0,
-    "78f31fa5": 38.5,
     "9a533686": 595.0,
+    "8aa69d80": 593.9989,
+    "0d4ce3f8": 222.3337,
     "037ee545": 445.0,
-    "43ae0a4a": 38.3053,
     "f69d457a": 321.9721,
     "a7b1840e": 444.4637,
-    "f969b451": 705.481,
-    "8aa69d80": 593.9989,
-    "0d4ce3f8": 222.3337
+    "78f31fa5": 38.5,
+    "43ae0a4a": 38.3053
   }
 }

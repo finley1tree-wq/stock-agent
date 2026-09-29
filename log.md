@@ -20008,3 +20008,6 @@ lesson: With full_deployment max_names=6 already filled and hit, do not try to a
 portfolio: equity $25194.84 (+0.78% on $25000.00 in) · cash $11207.99 · realised +207.99
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $730.57] -> $3013.49 (+0.45%) — close 100% at +0.4% over the average cost
+## 2026-09-29 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
