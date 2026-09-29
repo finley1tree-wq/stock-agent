@@ -1,17 +1,3 @@
-- SELL 100% NVDA [take_profit @ $231.41] -> $2506.37 (+0.25%) — close 100% at +0.3% over the average cost
-## 2026-09-29 10:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% GOOGL [time stop] -> $2499.59 (-0.02%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% PLTR [time stop] -> $1989.02 (-0.55%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 11:07 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 11:07 ET (Tuesday) — week 2026-W40 — budget left $19924.94 (today $42000.00 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Only 2 of min_positions=8 held with 79.7% cash idle - this is a self-inflicted drag per counterfactual_learning (idle_share=0.55, avg_regret negative when picking). Adding IBM (congress pressure, positive day momentum, not cooling), CRWD (congress_net_buy_pressure=2.0, mid-range entry avoiding the chase), and HUBB (highest congress_net_buy_pressure=3.0 on the whole list, named disclosures from April McClain Delaney) moves toward min_positions with concrete evidence-backed entries, each paired with an ATR-based stop_loss per the risk_management signal which has the best realized track record (88% hit rate).
 lesson: Past lessons show repeatedly buying only 2-3 names per check keeps below_target_position_count true for hours; batch to 3+ new names per check when idle cash is high and evidence exists, using congress_net_buy_pressure ranking to pick the strongest non-momentum-only candidates.
 - BUY $2500.00 IBM [filled] ['congress', 'momentum'] — Diversify into widely_held tech with positive day momentum and congress interest; not currently held or cooling off | evidence: IBM +0.39% today, congress net buy pressure disclosed, not in cooldown
 - BUY $2500.00 CRWD [filled] ['news', 'momentum'] — Re-enter CRWD; congress pressure=2 plus mid-range entry avoids chasing the high | evidence: CRWD price 259.11, day range 52.8%, congress_net_buy_pressure 2.0, sold earlier today but cooldown already expired (not in cooling_off_minutes_left list)
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so any buy orders would be dropped per guardrails. There are also no open positions to protect with sells or triggers. Consistent with prior lessons at this exact state, the only actionable move is to wait for the next session/check.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing to do this check - respect the cutoff.
+portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-29 15:38 ET (Tuesday) — week 2026-W40 — budget left $24867.87 (today $109350.00 put to work, 48 buys, 49 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
+  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (DTIL excluded: too thinly traded ($2.2M a day) — Precision BioSciences, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff, and checks_left_today=0 confirms session is ending at 16:00 close). Positions_held is 0, so there are no sells or protective orders to manage either. Any buy order would be dropped per guardrails, so placing one is pointless; the correct action is to do nothing and let the day close.
+lesson: When no_new_entries_this_check is true and checks_left_today is 0, the session is over - confirm there are no open positions needing protection and stop, rather than proposing buys that will be dropped.
 portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
