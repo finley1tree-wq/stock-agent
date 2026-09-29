@@ -1,8 +1,3 @@
-  (dropped UNH: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-- BUY $3000.00 CCJ [filled] ['momentum', 'congress'] — Fresh entry in nuclear theme, reasonable entry point not chasing | evidence: CCJ +1.3% today, mid-range (50% of day range), nuclear sector backtest shows strong multi-year returns; not in cooldown
-- BUY $3000.00 NOC [filled] ['momentum', 'news'] — Defense name at reasonable entry, not extended | evidence: NOC price $503.55, mid-range (50%), defense sector historically resilient per backtest 5y avg_total_return 212%
-- BUY $3000.00 TSM [filled] ['congress', 'momentum'] — Congress buy signal plus positive 1-month momentum | evidence: Rep. Rick W. Allen (spouse) bought TSM 2026-08-12 per disclosure; TSM +7.65% 1m momentum
-- BUY $3000.00 ACN [filled] ['congress'] — Congressional buying signal, ACN down -8.53% 1m offering value entry | evidence: Rep. Scott Franklin bought ACN 2026-08-26 per disclosure filed 2026-09-17; congress_net_buy_pressure ACN=2.0
   (dropped trigger RTX stop_loss: not held)
   (dropped trigger NVDA stop_loss: not held)
   (dropped trigger GOOGL stop_loss: not held)
@@ -398,3 +393,8 @@ lesson: Batch 3 new names per check with named congress filers or sector track-r
 ~ WORKING buy_limit $500.00 NEM @ $112.96 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25248.52 (+0.99% on $25000.00 in) · cash $11238.83 · realised +238.83
 Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 20 order(s) working; budget left $10907.25 this week
+  (cancelled 2 standing order(s) on RTX: position closed)
+- SELL 100% RTX [take_profit @ $187.07] -> $2505.51 (+0.22%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $457.16] -> $2506.22 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-09-29 11:39 ET — tick — 2 sell(s), 0 buy(s) from standing orders
