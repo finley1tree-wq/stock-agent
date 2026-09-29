@@ -19467,3 +19467,6 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $360.52] -> $2507.61 (+0.30%) — close 100% at +0.3% over the average cost
 ## 2026-09-29 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $174.24] -> $3012.82 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-09-29 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

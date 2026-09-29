@@ -1,6 +1,3 @@
-- BUY $1800.00 CCJ [buy_limit @ $86.68] — wanted it, but not at the high — resting at $86.68. Nuclear thesis intact, CCJ strength today despite -17.8% 1m drawdown offering value
-## 2026-09-28 10:52 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% PLTR [time stop] -> $1982.73 (-0.86%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-28 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2000.00 CCJ [buy_limit @ $86.45] — wanted it, but not at the high — resting at $86.45. Nuclear sector name at day high, not in cooldown, oversold on 1m basis (-18.1%) which could mean-revert
 ## 2026-09-28 10:54 ET — tick — 0 sell(s), 1 buy(s) from standing orders
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $5982.01 this week
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $360.52] -> $2507.61 (+0.30%) — close 100% at +0.3% over the average cost
 ## 2026-09-29 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $174.24] -> $3012.82 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-09-29 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
