@@ -157,3 +157,4 @@
 - 2026-09-29 (8d graded, realised 0.01% per dollar): placeholder
 - 2026-09-29 (8d graded, realised 0.01% per dollar): Reaching min_positions fast with $2000-3000 sized, evidence-backed buys plus immediate stop_loss triggers (the risk_management/auto_bracket signals have 0.17-0.18% avg return at 88% hit rate) beats sitting on idle cash even mid-session.
 - 2026-09-29 (8d graded, realised 0.01% per dollar): With full_deployment max_names=6 already filled and hit, do not try to add more positions - min_positions target is overridden by the deployment cap; just manage stops on the 6 held.
+- 2026-09-29 (7d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - respect the cutoff rather than trying to force an order that will be dropped.
