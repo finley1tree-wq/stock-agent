@@ -1,6 +1,3 @@
-
-## 2026-09-29 13:45 ET (Tuesday) — week 2026-W40 — budget left $10876.39 (today $109350.00 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
   (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
@@ -398,3 +395,6 @@ lesson: With only ~2 hours left before the 14:00 no-new-entries cutoff and 84% c
 ~ WORKING buy_limit $500.00 CRWD @ $259.52 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25216.69 (+0.87% on $25000.00 in) · cash $20176.85 · realised +226.85
 Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $19845.25 this week
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $371.57] -> $876.57 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-09-30 12:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
