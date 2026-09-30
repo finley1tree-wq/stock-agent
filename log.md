@@ -20473,3 +20473,29 @@ Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $21083.97 this week
 - SELL 100% ACN [time stop] -> $499.87 (-0.03%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% NVDA [time stop] -> $498.85 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 12:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 12:47 ET (Wednesday) — week 2026-W40 — budget left $22580.67 (today $39725.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +49.5% in a day looks like a bad tick)
+brain: Still well below min_positions (5 of 8) with 90% cash idle and only ~70 min until the 14:00 entry cutoff, so I'm deploying now across diversified sectors (semis, internet/AI, defense) each backed by concrete headlines/congress filings rather than waiting for perfect dips. NOC's sharp single-day drop on an isolated jet-loss headline looks like an overreaction versus sector peers, and GOOGL/AVGO/TSM have genuine same-day catalysts beyond pure momentum, satisfying the non-momentum-only rule.
+lesson: Approaching the no-new-entries cutoff with <8 positions, deploy across multiple sectors each check rather than concentrating repeatedly in the same widely_held cluster (MSFT/AMD/HD/IBM) already crowding the book.
+  (dropped TSM: sold 18 min ago, cooling off)
+  (dropped GOOGL: 85% up today's range — resting a limit at $348.77 instead of chasing)
+- BUY $500.00 AVGO [filled] ['congress', 'news'] — Congress buy pressure tier 2.0 plus fresh headline catalyst, not yet in book, semis diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep disclosed buy (Rick W. Allen, AVGO, disclosed 2026-09-22) + 'Broadcom Stocks Edge Higher as Netlist Seeks AI-Memory Import Ban' (GuruFocus 15:21)
+- BUY $375.00 NOC [filled] ['news'] — Sharp single-stock selloff on one bad headline looks overdone vs sector peers; defense sector diversification away from crowded widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC -3.65% today on 'Navy Jet Loss Stings Northrop Grumman' (WSJ 15:56) - overreaction dip in defense name with strong fundamentals
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% AVGO @ $346.00 until 2026-09-30 — protective stop on new AVGO position
+~ WORKING stop_loss 100% NOC @ $476.00 until 2026-09-30 — protective stop on new NOC position sized for the headline-driven selloff risk
+~ WORKING buy_limit $625.00 GOOGL @ $348.77 until 2026-09-30 — wanted it, but not at the high — resting at $348.77. Cooldown on GOOGL cleared soon; strong same-day news catalyst plus momentum, adds widely_held diversification toward min_positions [probation at 25% size (no hour or signal lens has prove
+~ WORKING take_profit 100% AVGO @ $354.51 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $342.83 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $487.71 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $471.78 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25210.39 (+0.84% on $25000.00 in) · cash $22037.27 · realised +212.27
+Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week

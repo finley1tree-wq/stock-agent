@@ -47203,7 +47203,9 @@
     "code_version": "0f81535",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.4,
+    "ret_final": -0.4,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -47642,7 +47644,7 @@
     "code_version": "4daf6a7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": 0.02
   },
   {
     "symbol": "ACN",
@@ -47669,7 +47671,9 @@
     "code_version": "4daf6a7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": -0.03,
+    "ret_final": -0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMD",
@@ -47696,7 +47700,7 @@
     "code_version": "4daf6a7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.17
   },
   {
     "symbol": "NVDA",
@@ -47723,7 +47727,9 @@
     "code_version": "4daf6a7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22
+    "ret_now": -0.23,
+    "ret_final": -0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "FWONK",
@@ -47823,7 +47829,8 @@
     "hour_et": 12,
     "code_version": "c34644d",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.07
   },
   {
     "symbol": "IBM",
@@ -47849,7 +47856,8 @@
     "hour_et": 12,
     "code_version": "c34644d",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.01
   },
   {
     "symbol": "CCJ",
@@ -47875,7 +47883,8 @@
     "hour_et": 12,
     "code_version": "c34644d",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
   },
   {
     "symbol": "AAPL",
@@ -47898,7 +47907,8 @@
     "evidence": "bought 90 min ago, -0.38% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "09d0034"
+    "code_version": "09d0034",
+    "hold_minutes": 90
   },
   {
     "symbol": "ACN",
@@ -47922,7 +47932,8 @@
     "evidence": "bought 30 min ago, +0.01% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "b324d4c"
+    "code_version": "b324d4c",
+    "hold_minutes": 30
   },
   {
     "symbol": "NVDA",
@@ -47946,6 +47957,58 @@
     "evidence": "bought 30 min ago, -0.21% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "b324d4c"
+    "code_version": "b324d4c",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.414705,
+    "price": 353.43,
+    "date": "2026-09-30",
+    "time_et": "12:47",
+    "ts": 1790786862,
+    "why": "Congress buy pressure tier 2.0 plus fresh headline catalyst, not yet in book, semis diversification [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Rep disclosed buy (Rick W. Allen, AVGO, disclosed 2026-09-22) + 'Broadcom Stocks Edge Higher as Netlist Seeks AI-Memory Import Ban' (GuruFocus 15:21)",
+    "hold_minutes": 90,
+    "entry_price": 353.36,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -4.58,
+    "hour_et": 12,
+    "code_version": "aabe822",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.771011,
+    "price": 486.37,
+    "date": "2026-09-30",
+    "time_et": "12:47",
+    "ts": 1790786862,
+    "why": "Sharp single-stock selloff on one bad headline looks overdone vs sector peers; defense sector diversification away from crowded widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "NOC -3.65% today on 'Navy Jet Loss Stings Northrop Grumman' (WSJ 15:56) - overreaction dip in defense name with strong fundamentals",
+    "hold_minutes": 30,
+    "entry_price": 486.18,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -9.92,
+    "hour_et": 12,
+    "code_version": "aabe822",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
