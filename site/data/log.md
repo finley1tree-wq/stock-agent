@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% TSM @ $443.00 until 2026-09-29 — protective stop per risk_management best-performing signal
-~ WORKING take_profit 100% CCJ @ $86.68 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $83.75 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% RTX @ $187.07 until 2026-10-04 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 RTX @ $181.05 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% TSM @ $457.16 until 2026-10-04 — close 100% at +0.2% over the average cost
@@ -398,3 +395,6 @@ lesson: Never let the book sit at 0 positions with 99% idle cash for multiple ch
 ~ WORKING buy_limit $500.00 TTD @ $11.68 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25190.61 (+0.76% on $25000.00 in) · cash $1199.47 · realised +199.47
 Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $485.62] -> $4030.69 (+0.77%) — close 100% at +0.3% over the average cost
+## 2026-09-30 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
