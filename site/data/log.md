@@ -1,6 +1,3 @@
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Book is flat with 0 positions and 99.5% idle cash - the single biggest error I can make right now. Deploying into 7 names with concrete evidence (congress disclosures for LTH/HUBB/CRWD, insider filing for TPL, momentum+congress for AMD, news/momentum for META, track record for NVDA), sized $2000-3000 each to reach near min_positions quickly, each protected with a stop_loss per risk_management (the best-performing signal bucket at 0.17-0.18% avg with 88% hit rate). Existing buy_limit triggers on ACN/GOOGL/TSM remain working for additional entries at better levels.
 lesson: Reaching min_positions fast with $2000-3000 sized, evidence-backed buys plus immediate stop_loss triggers (the risk_management/auto_bracket signals have 0.17-0.18% avg return at 88% hit rate) beats sitting on idle cash even mid-session.
   (dropped CRWD: sold 33 min ago, cooling off)
 - BUY $3000.00 META [filled] ['news', 'momentum'] — Strong 1m momentum plus news-driven strength, not at day high so reasonable entry | evidence: META +1.61% today, +25.8% 1m, insider filing shows Zuckerberg sold at $777.44 on 9/24 but stock still near highs at $727.15, pct_of_day_range 63.2 not chasing
@@ -398,3 +395,6 @@ lesson: Below min_positions with high idle cash and approaching the 14:00 cutoff
 ~ WORKING buy_limit $500.00 UNH @ $359.59 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25214.72 (+0.86% on $25000.00 in) · cash $20349.12 · realised +224.12
 Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $352.25] -> $501.41 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-30 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders

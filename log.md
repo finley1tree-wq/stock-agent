@@ -20363,3 +20363,6 @@ lesson: Below min_positions with high idle cash and approaching the 14:00 cutoff
 ~ WORKING buy_limit $500.00 UNH @ $359.59 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25214.72 (+0.86% on $25000.00 in) · cash $20349.12 · realised +224.12
 Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $352.25] -> $501.41 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-09-30 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
