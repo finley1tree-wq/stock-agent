@@ -20572,3 +20572,18 @@ lesson: When no_new_entries_this_check is true and positions_held is 0, there is
 portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-30 14:50 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +46.9% in a day looks like a bad tick)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and I hold zero positions, so no buys are possible or would fill anyway - guardrails would drop them. Nothing to sell (flat book) and no protective triggers needed since there are no open positions. Will wait for next session/entry window.
+lesson: When no_new_entries_this_check is true and the book is flat, there is nothing productive to do except wait - don't waste a check proposing orders that will be dropped.
+portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
