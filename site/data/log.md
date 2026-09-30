@@ -1,29 +1,3 @@
-- BUY $2500.00 AMD [filled] ['momentum', 'congress'] — Congress-backed name low in day range with strong monthly trend | evidence: AMD +31.5% 1m momentum, Rep. Rick W. Allen disclosed AMD buy with +13.2% excess return per disclosure_leaderboard, currently only 27.7% of day range
-- BUY $2500.00 NVDA [filled] ['momentum', 'track_record'] — Near day low entry point in a name with steady track record hit rate | evidence: NVDA only 8.5% of day range (near day low), widely_held sector avg_ret_pct 0.0 hit_rate 0.56 per track_record, semis strength continuing
-- BUY $2000.00 TPL [filled] ['insider'] — Fresh insider buy above current price with stock at day low, cheap relative entry | evidence: insider filing 2026-09-29: Horizon Kinetics Asset Management LLC bought TPL at $339.72 on 9/25, insider_net_buy_pressure TPL=1.0, stock now at $331.80 below that insider's buy price and only 3.4% of d
-- BUY $2000.00 LTH [filled] ['congress', 'track_record'] — Highest congress buy-pressure score tier and counterfactual data shows this name was a missed opportunity before | evidence: congress_net_buy_pressure LTH=3.0 (highest tier), Rep. April McClain Delaney disclosed multiple LTH buys 2026-09-09, counterfactual biggest_misses shows LTH fwd_pct +7.69% was missed previously
-- BUY $2000.00 HUBB [filled] ['congress'] — Top-tier congress signal with stock near day low, good entry point despite cooldown clearing shortly | evidence: congress_net_buy_pressure HUBB=3.0 highest tier, April McClain Delaney disclosed buys 2026-09-09, HUBB down -1.65% today at 6.1% of day range near low
-  (dropped trigger CRWD stop_loss: not held)
-~ WORKING stop_loss 100% META @ $712.00 until 2026-09-29 — protective stop ~2% below entry
-~ WORKING stop_loss 100% AMD @ $595.00 until 2026-09-29 — protective stop below day low
-~ WORKING stop_loss 100% NVDA @ $224.00 until 2026-09-29 — protective stop below day low
-~ WORKING stop_loss 100% TPL @ $324.00 until 2026-09-29 — protective stop below entry
-~ WORKING stop_loss 100% LTH @ $38.50 until 2026-09-29 — protective stop below day low
-~ WORKING stop_loss 100% HUBB @ $445.00 until 2026-09-29 — protective stop below day low
-~ WORKING take_profit 100% META @ $730.57 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 META @ $705.48 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $615.24 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $594.00 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NVDA @ $229.79 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NVDA @ $222.33 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TPL @ $333.48 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 TPL @ $321.97 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LTH @ $39.66 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 LTH @ $38.31 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HUBB @ $459.58 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HUBB @ $444.46 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25203.99 (+0.82% on $25000.00 in) · cash $11207.99 · realised +207.99
-Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $10876.39 this week
 
 ## 2026-09-29 13:45 ET (Tuesday) — week 2026-W40 — budget left $10876.39 (today $109350.00 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
   (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
@@ -398,3 +372,29 @@ Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
   (cancelled 2 standing order(s) on SKWD: position closed)
 - SELL 100% SKWD [take_profit @ $53.37] -> $501.33 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 12:00 ET (Wednesday) — week 2026-W40 — budget left $21020.25 (today $35250.00 put to work, 24 buys, 15 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +49.1% in a day looks like a bad tick)
+brain: Below min_positions (7/8) with 84% idle cash and approaching the 14:00 entry cutoff - deploying now into evidence-backed names (UNH leadership news, TSM capex headline, CRWD partner-network news, GOOGL AI-accord momentum via limit for cooldown) rather than waiting. Adding protective stops on new names since auto_bracket covers existing positions.
+lesson: With only ~2 hours left before the 14:00 no-new-entries cutoff and 84% cash idle at 7/8 positions, prioritize immediate deployment with concrete headline evidence over waiting for perfect entries or cooldowns to clear naturally.
+  (dropped GOOGL: sold 11 min ago, cooling off)
+- BUY $375.00 UNH [filled] ['news', 'momentum'] — add to existing position on leadership news, already have stop/tp bracket working [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH: 'Robert Hunter Named UnitedHealth (UNH) Insurance President' - leadership reset headline, UNH at 64.2% of day range, ATR 2.09%
+- BUY $375.00 TSM [filled] ['news'] — strong capex tailwind headline, no cooldown, diversify into semis [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'TSMC's $265 Billion U.S. Expansion May Be Getting Even Bigger' - GuruFocus 14:25, plus Texas investment headline
+- BUY $425.00 CRWD [filled] ['news', 'momentum'] — cybersecurity/AI infra momentum with concrete same-day headline [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'CoreWeave Launches Partner Network for AI Cloud Integrations' + CRWD +1.81% today, 80.3% of day range
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING buy_limit $1800.00 GOOGL @ $349.00 until 2026-09-30 — re-enter GOOGL once cooldown clears, at a level below current price
+~ WORKING stop_loss 100% TSM @ $450.00 until 2026-09-30 — cap downside on new TSM position
+~ WORKING stop_loss 100% CRWD @ $261.00 until 2026-09-30 — cap downside on new CRWD position
+~ WORKING buy_limit $500.00 UNH @ $359.77 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $461.17 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $446.26 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $268.98 until 2026-10-05 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $259.52 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25216.69 (+0.87% on $25000.00 in) · cash $20176.85 · realised +226.85
+Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $19845.25 this week

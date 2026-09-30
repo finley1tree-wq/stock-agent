@@ -20369,3 +20369,29 @@ Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
   (cancelled 2 standing order(s) on SKWD: position closed)
 - SELL 100% SKWD [take_profit @ $53.37] -> $501.33 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 12:00 ET (Wednesday) — week 2026-W40 — budget left $21020.25 (today $35250.00 put to work, 24 buys, 15 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +49.1% in a day looks like a bad tick)
+brain: Below min_positions (7/8) with 84% idle cash and approaching the 14:00 entry cutoff - deploying now into evidence-backed names (UNH leadership news, TSM capex headline, CRWD partner-network news, GOOGL AI-accord momentum via limit for cooldown) rather than waiting. Adding protective stops on new names since auto_bracket covers existing positions.
+lesson: With only ~2 hours left before the 14:00 no-new-entries cutoff and 84% cash idle at 7/8 positions, prioritize immediate deployment with concrete headline evidence over waiting for perfect entries or cooldowns to clear naturally.
+  (dropped GOOGL: sold 11 min ago, cooling off)
+- BUY $375.00 UNH [filled] ['news', 'momentum'] — add to existing position on leadership news, already have stop/tp bracket working [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH: 'Robert Hunter Named UnitedHealth (UNH) Insurance President' - leadership reset headline, UNH at 64.2% of day range, ATR 2.09%
+- BUY $375.00 TSM [filled] ['news'] — strong capex tailwind headline, no cooldown, diversify into semis [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'TSMC's $265 Billion U.S. Expansion May Be Getting Even Bigger' - GuruFocus 14:25, plus Texas investment headline
+- BUY $425.00 CRWD [filled] ['news', 'momentum'] — cybersecurity/AI infra momentum with concrete same-day headline [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'CoreWeave Launches Partner Network for AI Cloud Integrations' + CRWD +1.81% today, 80.3% of day range
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING buy_limit $1800.00 GOOGL @ $349.00 until 2026-09-30 — re-enter GOOGL once cooldown clears, at a level below current price
+~ WORKING stop_loss 100% TSM @ $450.00 until 2026-09-30 — cap downside on new TSM position
+~ WORKING stop_loss 100% CRWD @ $261.00 until 2026-09-30 — cap downside on new CRWD position
+~ WORKING buy_limit $500.00 UNH @ $359.77 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $461.17 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $446.26 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $268.98 until 2026-10-05 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $259.52 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25216.69 (+0.87% on $25000.00 in) · cash $20176.85 · realised +226.85
+Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $19845.25 this week
