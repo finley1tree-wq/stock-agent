@@ -1,18 +1,3 @@
-
-## 2026-09-30 10:25 ET (Wednesday) — week 2026-W40 — budget left $20302.39 (today $25250.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Only 2 positions held vs min_positions=8, cash_idle_pct=81%, and full_deployment instruction requires deploying aggressively. Adding NOC (oversold on competitor news, not fundamentals), CCJ (nuclear momentum with analyst bullishness), and MSFT (AI infra tailwind news, already had resting limits that didn't fill) at $3k each in size, each with a protective stop. Existing GOOGL/CCJ/MSFT buy_limit triggers remain working for additional entries; will continue adding names next check to reach min_positions.
-lesson: When below min_positions with high idle cash, buy at market in $3k tranches with immediate stops rather than only resting limits that may not fill - waiting for the "perfect" dip while sitting on 80%+ cash is the larger error per counterfactual data.
-  (dropped MSFT: 88% up today's range — resting a limit at $515.55 instead of chasing)
-- BUY $750.00 NOC [filled] ['news', 'momentum'] — contrarian dip buy on defense name that fell sharply on competitor news, not fundamentals; cooling_off shows NOC not in cooldown list [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC -4.53% today after Boeing wins $20B Navy fighter contract, oversold in defense sector on a one-off contract loss headline
-- BUY $750.00 CCJ [filled] ['news', 'momentum'] — nuclear theme strength with bullish analyst coverage, replaces working buy_limit at market since price already moving [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CCJ +2.13% today, 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' Zacks; nuclear theme momentum
-  (dropped trigger MSFT stop_loss: not held)
-  (dropped trigger MSFT buy_limit: duplicate of a working order)
 ~ WORKING stop_loss 100% NOC @ $473.00 until 2026-09-30 — protective stop below today's range floor
 ~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-30 — protective stop below today's low
 ~ WORKING take_profit 100% NOC @ $483.30 until 2026-10-05 — close 100% at +0.3% over the average cost
@@ -395,6 +380,21 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and I hold zero positions, so no buys are possible or would fill anyway - guardrails would drop them. Nothing to sell (flat book) and no protective triggers needed since there are no open positions. Will wait for next session/entry window.
 lesson: When no_new_entries_this_check is true and the book is flat, there is nothing productive to do except wait - don't waste a check proposing orders that will be dropped.
+portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-30 15:21 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +46.5% in a day looks like a bad tick)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after the desk sold everything down today - there's nothing to protect and no new buys are allowed. Sitting out this single remaining check is mechanical compliance, not a discretionary cash-hold decision.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is genuinely nothing actionable - confirm this state quickly rather than proposing orders that will be dropped.
 portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
