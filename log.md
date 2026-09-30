@@ -20549,3 +20549,5 @@ lesson: Near the 14:00 cutoff with resting buy_limit triggers already covering d
 portfolio: equity $25211.97 (+0.85% on $25000.00 in) · cash $23083.92 · realised +208.92
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% TSM [time stop] -> $624.38 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

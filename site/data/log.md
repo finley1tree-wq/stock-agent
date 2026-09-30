@@ -1,19 +1,3 @@
-## 2026-09-30 10:02 ET (Wednesday) — week 2026-W40 — budget left $12945.72 (today $24000.00 put to work, 6 buys, 3 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Currently at 3 positions (RTX/CHRW/AVGO) with 51.8% cash idle, well below min_positions of 8. Adding MSFT, GOOGL, CCJ with concrete momentum+news evidence (all near day highs with supportive headlines) to move toward target count while auto_bracket/risk_management stops protect capital; avoiding NOC/TTD/ACN due to cooldown.
-lesson: Below-target position count with high idle cash should be filled in $3k tranches per check using momentum+news evidence, not waited out, per counterfactual data showing idle checks cost ~1% vs the universe.
-  (dropped MSFT: 98% up today's range — resting a limit at $515.03 instead of chasing)
-  (dropped GOOGL: 92% up today's range — resting a limit at $348.46 instead of chasing)
-  (dropped CCJ: 97% up today's range — resting a limit at $88.43 instead of chasing)
-  (dropped trigger MSFT stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger CCJ stop_loss: not held)
-~ WORKING buy_limit $750.00 MSFT @ $515.03 until 2026-09-30 — wanted it, but not at the high — resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
 ~ WORKING buy_limit $750.00 GOOGL @ $348.46 until 2026-09-30 — wanted it, but not at the high — resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]
 ~ WORKING buy_limit $750.00 CCJ @ $88.43 until 2026-09-30 — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
 portfolio: equity $25194.29 (+0.78% on $25000.00 in) · cash $13277.32 · realised +277.32
@@ -398,3 +382,19 @@ Decision: nothing at this check. 20 standing order(s) working.
 - SELL 100% MSFT [time stop] -> $549.90 (-0.02%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 13:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 13:49 ET (Wednesday) — week 2026-W40 — budget left $22752.32 (today $42225.00 put to work, 39 buys, 32 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +46.5% in a day looks like a bad tick)
+brain: It's 13:49 ET, past the no_new_entries_after_et cutoff (14:00 is only 11 minutes away and orders_today=39/sells_today=32 show heavy churn already today with poor realized results - track_record shows intraday_limit/time_stop signals at -0.19% avg with only 23% hit rate). With no_new_entries_this_check effectively about to trigger and only 3 small positions (AVGO, CRWD, TSM) all opened in the last 61 minutes and already carrying auto-bracket stops/take-profits, I'll let the existing working orders (stop_loss/take_profit on all 3 positions, plus resting buy_limits on GOOGL/MSFT/ACN for later re-entry) do their job rather than force new market buys this close to cutoff which risk guardrail rejection or poor fills. The existing standing orders already cover reasonable protection and entries.
+lesson: Near the 14:00 cutoff with resting buy_limit triggers already covering diversification, avoid adding fresh market orders that risk guardrail rejection - let standing orders work and focus on protecting open positions.
+portfolio: equity $25211.97 (+0.85% on $25000.00 in) · cash $23083.92 · realised +208.92
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% TSM [time stop] -> $624.38 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
