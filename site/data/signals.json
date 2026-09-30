@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-30T10:43-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-09-30T10:52-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,6 +156,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "ee75b920",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 348.896,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 349.14,
+   "pct_away": -0.07,
+   "good_until": "2026-10-05",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "315fea1e",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 349.59,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 349.14,
+   "pct_away": 0.13,
+   "good_until": "2026-10-05",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "38c6373f",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -163,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 517.68,
-   "pct_away": 0.24,
+   "last": 517.47,
+   "pct_away": 0.28,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -180,42 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 458.82,
-   "pct_away": 0.26,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4756ad2e",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 105.5989,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 105.23,
-   "pct_away": 0.35,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "315fea1e",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 349.59,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 348.35,
-   "pct_away": 0.36,
+   "last": 458.66,
+   "pct_away": 0.29,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -231,10 +231,28 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.68,
-   "pct_away": -0.41,
+   "last": 517.47,
+   "pct_away": -0.37,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "7460935d",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 515.0325,
+   "usd": 750.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 517.47,
+   "pct_away": -0.47,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "momentum",
     "news",
@@ -249,8 +267,8 @@
    "usd": 625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 40.29,
-   "pct_away": -0.45,
+   "last": 40.4,
+   "pct_away": -0.72,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens ",
    "signals": [
@@ -260,35 +278,17 @@
    ]
   },
   {
-   "id": "7460935d",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 515.0325,
-   "usd": 750.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 517.68,
-   "pct_away": -0.51,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "8e51abdd",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 346.1249,
+   "id": "4756ad2e",
+   "ticker": "NLR",
+   "kind": "take_profit",
+   "price": 105.5989,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.35,
-   "pct_away": -0.64,
+   "last": 104.65,
+   "pct_away": 0.91,
    "good_until": "2026-10-05",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -302,13 +302,45 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.62,
-   "pct_away": 1.48,
+   "last": 150.04,
+   "pct_away": 1.19,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "d19f996e",
+   "ticker": "NLR",
+   "kind": "stop_loss",
+   "price": 102.9,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.65,
+   "pct_away": -1.67,
+   "good_until": "2026-09-30",
+   "why": "protective stop ~2.1% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "e0048d73",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 507.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 517.47,
+   "pct_away": -2.02,
+   "good_until": "2026-09-30",
+   "why": "protective stop ~2% below entry",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -319,8 +351,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.62,
-   "pct_away": -1.75,
+   "last": 150.04,
+   "pct_away": -2.03,
    "good_until": "2026-09-30",
    "why": "Protective stop below entry",
    "signals": [
@@ -335,29 +367,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.62,
-   "pct_away": -1.84,
+   "last": 150.04,
+   "pct_away": -2.11,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "e0048d73",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 507.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 517.68,
-   "pct_away": -2.06,
-   "good_until": "2026-09-30",
-   "why": "protective stop ~2% below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -368,45 +384,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 458.82,
-   "pct_away": -2.14,
+   "last": 458.66,
+   "pct_away": -2.11,
    "good_until": "2026-09-30",
    "why": "protective stop ~2% below entry",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "d19f996e",
-   "ticker": "NLR",
-   "kind": "stop_loss",
-   "price": 102.9,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 105.23,
-   "pct_away": -2.21,
-   "good_until": "2026-09-30",
-   "why": "protective stop ~2.1% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "74534bb9",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 338.142,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 348.35,
-   "pct_away": -2.93,
-   "good_until": "2026-10-05",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -417,8 +400,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 105.23,
-   "pct_away": -2.99,
+   "last": 104.65,
+   "pct_away": -2.45,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -434,8 +417,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.68,
-   "pct_away": -3.01,
+   "last": 517.47,
+   "pct_away": -2.97,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -451,8 +434,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 458.82,
-   "pct_away": -3.03,
+   "last": 458.66,
+   "pct_away": -3.0,
+   "good_until": "2026-10-05",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "74534bb9",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 338.142,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 349.14,
+   "pct_away": -3.15,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
