@@ -20400,3 +20400,6 @@ Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $19845.25 this week
 ## 2026-09-30 12:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% LTH [time stop] -> $625.22 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% HUBB [time stop] -> $625.40 (+0.06%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% NLR [time stop] -> $493.31 (-1.34%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 12:11 ET — tick — 2 sell(s), 0 buy(s) from standing orders

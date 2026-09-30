@@ -1,6 +1,3 @@
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
 brain: no_new_entries_after_et is 14:00 and it's now 13:45, with full_deployment/max_names=6 already met by current 6 positions (META, AMD, NVDA, TPL, LTH, HUBB) all opened 16 minutes ago. Adding more names would exceed the max_names=6 full-deployment cap, and cooldowns (ACN, MSFT, AVGO, TTD, CCJ, HLI, CHRW) block re-entry into the sold names anyway. All 6 positions already have protective stop_loss and take_profit triggers working plus scale-in buy_limits, so the book is fully bracketed. I'll let the standing orders do their job and check back shortly before the 14:00 cutoff closes new entries entirely.
 lesson: With full_deployment max_names=6 already filled and hit, do not try to add more positions - min_positions target is overridden by the deployment cap; just manage stops on the 6 held.
 portfolio: equity $25194.84 (+0.78% on $25000.00 in) · cash $11207.99 · realised +207.99
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $19845.25 this week
 ## 2026-09-30 12:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% LTH [time stop] -> $625.22 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% HUBB [time stop] -> $625.40 (+0.06%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% NLR [time stop] -> $493.31 (-1.34%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 12:11 ET — tick — 2 sell(s), 0 buy(s) from standing orders
