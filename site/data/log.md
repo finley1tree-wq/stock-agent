@@ -1,27 +1,4 @@
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Still well below min_positions (2 of 8) with 82.5% cash idle. Adding 3 more names with concrete evidence: ACN (congress filer Scott Franklin), CCJ (nuclear sector, cheap entry at 10.5% of day range after -13.7% 1m decline), TPL (insider 10% holder bought at higher price than current). All paired with ATR-based stops per risk_management being the best-performing signal (0.17-0.18% avg, 88% hit rate). Existing TSM/AMD/HLI/NEM buy_limits and take-profits remain working.
-lesson: Batching diversified-evidence names (congress+insider+cheap-momentum) each check while pairing every buy with an explicit stop_loss is the fastest path to min_positions without waiting on cooldowns; keep new entries below max_entry_range_pct to avoid chasing.
-  (dropped ACN: sold 33 min ago, cooling off)
-  (dropped CCJ: sold 2 min ago, cooling off)
-- BUY $2100.00 TPL [filled] ['insider'] — insider buy signal, real estate/materials diversification, price 333.57 is below insider's buy price of 339.72 | evidence: Horizon Kinetics Asset Management (10% holder) bought TPL shares 9/25 at $339.72, filed 9/29; insider signal has 0.11% avg_ret, 67% hit rate track record
-  (dropped trigger ACN stop_loss: not held)
-  (dropped trigger CCJ stop_loss: not held)
-~ WORKING stop_loss 100% TPL @ $323.50 until 2026-09-29 — protective stop per desk rules
-~ WORKING take_profit 100% TPL @ $335.24 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 TPL @ $323.69 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25244.39 (+0.98% on $25000.00 in) · cash $18853.03 · realised +253.03
-Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $18521.45 this week
-- SELL 100% HLI [time stop] -> $2189.77 (-0.46%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NEM [time stop] -> $2099.04 (-0.05%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 12:08 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 12:10 ET (Tuesday) — week 2026-W40 — budget left $22810.26 (today $68100.00 put to work, 29 buys, 29 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
 brain: Only 1 position held (TPL) against min_positions=8, cash_idle_pct 91.2% - urgent need to deploy. Building out to 7 positions using concrete evidence: congress disclosures with named filers (ACN, LTH both show congress_net_buy_pressure=3.0, LTH specifically flagged as a past biggest_miss at +7.69% when skipped), day-range-low entries (AAPL 3.5%, GOOGL 17.5%), and sector diversification (NOC defense, PLD real estate) to avoid concentration risk in one name. Every buy paired with a protective stop_loss per risk_management/auto_bracket track record (best performing signal bucket at 0.17-0.18% avg with 88% hit rate).
 lesson: HUBB and CCJ still cooling off, must substitute; check cooling_off_minutes_left every time before finalizing tickers.
   (dropped HUBB: sold 32 min ago, cooling off)
@@ -398,3 +375,26 @@ Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $19675.07 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $117.57] -> $627.32 (+0.37%) — close 100% at +0.4% over the average cost
 ## 2026-09-30 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:25 ET (Wednesday) — week 2026-W40 — budget left $20302.39 (today $25250.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 2 positions held vs min_positions=8, cash_idle_pct=81%, and full_deployment instruction requires deploying aggressively. Adding NOC (oversold on competitor news, not fundamentals), CCJ (nuclear momentum with analyst bullishness), and MSFT (AI infra tailwind news, already had resting limits that didn't fill) at $3k each in size, each with a protective stop. Existing GOOGL/CCJ/MSFT buy_limit triggers remain working for additional entries; will continue adding names next check to reach min_positions.
+lesson: When below min_positions with high idle cash, buy at market in $3k tranches with immediate stops rather than only resting limits that may not fill - waiting for the "perfect" dip while sitting on 80%+ cash is the larger error per counterfactual data.
+  (dropped MSFT: 88% up today's range — resting a limit at $515.55 instead of chasing)
+- BUY $750.00 NOC [filled] ['news', 'momentum'] — contrarian dip buy on defense name that fell sharply on competitor news, not fundamentals; cooling_off shows NOC not in cooldown list [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC -4.53% today after Boeing wins $20B Navy fighter contract, oversold in defense sector on a one-off contract loss headline
+- BUY $750.00 CCJ [filled] ['news', 'momentum'] — nuclear theme strength with bullish analyst coverage, replaces working buy_limit at market since price already moving [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CCJ +2.13% today, 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' Zacks; nuclear theme momentum
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger MSFT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% NOC @ $473.00 until 2026-09-30 — protective stop below today's range floor
+~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-30 — protective stop below today's low
+~ WORKING take_profit 100% NOC @ $483.30 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $467.50 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $89.11 until 2026-10-05 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $86.11 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25193.09 (+0.77% on $25000.00 in) · cash $19134.00 · realised +259.00
+Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week

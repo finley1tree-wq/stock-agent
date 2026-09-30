@@ -20187,3 +20187,26 @@ Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $19675.07 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $117.57] -> $627.32 (+0.37%) — close 100% at +0.4% over the average cost
 ## 2026-09-30 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:25 ET (Wednesday) — week 2026-W40 — budget left $20302.39 (today $25250.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 2 positions held vs min_positions=8, cash_idle_pct=81%, and full_deployment instruction requires deploying aggressively. Adding NOC (oversold on competitor news, not fundamentals), CCJ (nuclear momentum with analyst bullishness), and MSFT (AI infra tailwind news, already had resting limits that didn't fill) at $3k each in size, each with a protective stop. Existing GOOGL/CCJ/MSFT buy_limit triggers remain working for additional entries; will continue adding names next check to reach min_positions.
+lesson: When below min_positions with high idle cash, buy at market in $3k tranches with immediate stops rather than only resting limits that may not fill - waiting for the "perfect" dip while sitting on 80%+ cash is the larger error per counterfactual data.
+  (dropped MSFT: 88% up today's range — resting a limit at $515.55 instead of chasing)
+- BUY $750.00 NOC [filled] ['news', 'momentum'] — contrarian dip buy on defense name that fell sharply on competitor news, not fundamentals; cooling_off shows NOC not in cooldown list [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC -4.53% today after Boeing wins $20B Navy fighter contract, oversold in defense sector on a one-off contract loss headline
+- BUY $750.00 CCJ [filled] ['news', 'momentum'] — nuclear theme strength with bullish analyst coverage, replaces working buy_limit at market since price already moving [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CCJ +2.13% today, 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' Zacks; nuclear theme momentum
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger MSFT buy_limit: duplicate of a working order)
+~ WORKING stop_loss 100% NOC @ $473.00 until 2026-09-30 — protective stop below today's range floor
+~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-30 — protective stop below today's low
+~ WORKING take_profit 100% NOC @ $483.30 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $467.50 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $89.11 until 2026-10-05 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $86.11 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25193.09 (+0.77% on $25000.00 in) · cash $19134.00 · realised +259.00
+Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week

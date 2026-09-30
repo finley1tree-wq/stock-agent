@@ -46390,7 +46390,7 @@
     "code_version": "100ed01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.27
+    "ret_now": -1.59
   },
   {
     "symbol": "AVGO",
@@ -46630,7 +46630,10 @@
     "hour_et": 10,
     "code_version": "5fcbd1e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.37,
+    "ret_now": 0.37,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -46656,7 +46659,8 @@
     "hour_et": 10,
     "code_version": "5fcbd1e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.03
   },
   {
     "symbol": "NEM",
@@ -46681,6 +46685,59 @@
     "evidence": "average cost $117.14",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "d459cb7"
+    "code_version": "d459cb7",
+    "hold_minutes": 1
+  },
+  {
+    "symbol": "NOC",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.556137,
+    "price": 481.96,
+    "date": "2026-09-30",
+    "time_et": "10:25",
+    "ts": 1790778311,
+    "why": "contrarian dip buy on defense name that fell sharply on competitor news, not fundamentals; cooling_off shows NOC not in cooldown list [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "NOC -4.53% today after Boeing wins $20B Navy fighter contract, oversold in defense sector on a one-off contract loss headline",
+    "hold_minutes": 90,
+    "entry_price": 481.77,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.73,
+    "hour_et": 10,
+    "code_version": "5d50646",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.449229,
+    "price": 88.77,
+    "date": "2026-09-30",
+    "time_et": "10:25",
+    "ts": 1790778311,
+    "why": "nuclear theme strength with bullish analyst coverage, replaces working buy_limit at market since price already moving [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "CCJ +2.13% today, 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' Zacks; nuclear theme momentum",
+    "hold_minutes": 30,
+    "entry_price": 88.73,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.16,
+    "hour_et": 10,
+    "code_version": "5d50646",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 4697.61,
-  "deployed": 229500.18,
+  "spent": 6197.61,
+  "deployed": 231000.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -15,7 +15,7 @@
     "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 24.51,
-    "CCJ": 25.39,
+    "CCJ": 775.39,
     "CRWD": 18.82,
     "HLI": 31.28,
     "FWONK": 7.89,
@@ -24,7 +24,8 @@
     "CHRW": 4001.83,
     "MSFT": 17.81,
     "TPL": 3.17,
-    "TSM": 625.0
+    "TSM": 625.0,
+    "NOC": 750.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -35,7 +36,7 @@
     "ACN": 12500.0,
     "AMD": 4500.0,
     "MSFT": 9058.82,
-    "NOC": 14947.06,
+    "NOC": 15697.06,
     "UNH": 9272.06,
     "CRWD": 9125.0,
     "NVDA": 12500.0,
@@ -46,7 +47,7 @@
     "IBM": 5852.94,
     "META": 4000.0,
     "RTX": 11300.0,
-    "CCJ": 13400.0,
+    "CCJ": 14150.0,
     "LMT": 6750.0,
     "NEM": 4125.0,
     "HLI": 5200.0,
@@ -3753,12 +3754,48 @@
       ],
       "evidence": "average cost $117.14",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NOC",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.556137,
+      "price": 481.96,
+      "date": "2026-09-30",
+      "time_et": "10:25",
+      "ts": 1790778311,
+      "why": "contrarian dip buy on defense name that fell sharply on competitor news, not fundamentals; cooling_off shows NOC not in cooldown list [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "NOC -4.53% today after Boeing wins $20B Navy fighter contract, oversold in defense sector on a one-off contract loss headline",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.449229,
+      "price": 88.77,
+      "date": "2026-09-30",
+      "time_et": "10:25",
+      "ts": 1790778311,
+      "why": "nuclear theme strength with bullish analyst coverage, replaces working buy_limit at market since price already moving [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "CCJ +2.13% today, 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' Zacks; nuclear theme momentum",
+      "hold_minutes": 30
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 4565.48,
-  "deployed_today": 25250.0,
-  "orders_today": 8,
+  "spent_today": 6065.48,
+  "deployed_today": 26750.0,
+  "orders_today": 10,
   "sells_today": 6,
   "sold_today": [
     "NOC",
@@ -3799,28 +3836,35 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790777566,
-  "last_check_ts": 1790778221,
-  "last_bar_ts": 1790778000,
-  "last_decision_ts": 1790777333,
+  "last_publish_ts": 1790778311,
+  "last_check_ts": 1790778311,
+  "last_bar_ts": 1790778300,
+  "last_decision_ts": 1790778311,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "1726ede5": 459.7917,
+    "2bafd63f": 348.601,
+    "2d6a7663": 483.2998,
+    "c240ea1f": 88.4347,
+    "acbe23a4": 348.4635,
+    "9c1464ac": 89.1135,
     "b52730f4": 515.5548,
     "7460935d": 515.0325,
-    "2bafd63f": 348.601,
-    "acbe23a4": 348.4635,
-    "c240ea1f": 88.4347,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
+    "cced00c4": 473.0,
     "eb12b0c1": 151.8279,
     "03866069": 449.5,
-    "1726ede5": 459.7917,
-    "383579d2": 444.939
+    "383579d2": 444.939,
+    "02ec09e8": 467.5012,
+    "55df9a19": 86.1069,
+    "827206c6": 85.5
   },
   "hold_arm": {
     "CHRW": 90,
-    "NEM": 90,
-    "TSM": 30
+    "TSM": 30,
+    "NOC": 90,
+    "CCJ": 30
   }
 }
