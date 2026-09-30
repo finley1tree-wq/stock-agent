@@ -20557,3 +20557,18 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 7 resting buy order(s): past the entry cutoff)
 - SELL 100% AVGO [time stop] -> $500.63 (+0.13%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 14:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 14:19 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +47.2% in a day looks like a bad tick)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and current_positions is empty, so there is nothing to protect and no new buys are permitted. Sitting out this check is mechanically required, not a preference; I'll re-engage next check for sells/trigger management if positions open via any working orders, though none are currently working either.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - respect the cutoff rather than trying to force an order that guardrails will drop.
+portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

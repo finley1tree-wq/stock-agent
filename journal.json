@@ -47995,7 +47995,9 @@
     "code_version": "aabe822",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.13,
+    "ret_final": 0.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -48152,7 +48154,9 @@
     "code_version": "c60c810",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.15,
+    "ret_final": 0.15,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -48182,7 +48186,9 @@
     "code_version": "f86f798",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.42
+    "ret_now": 0.15,
+    "ret_final": 0.15,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -48212,7 +48218,9 @@
     "code_version": "f86f798",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.1,
+    "ret_final": -0.1,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -48288,7 +48296,8 @@
     "evidence": "bought 30 min ago, -0.08% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "8c3873d"
+    "code_version": "8c3873d",
+    "hold_minutes": 30
   },
   {
     "symbol": "CRWD",
@@ -48314,7 +48323,8 @@
     "evidence": "average cost $265.39",
     "trigger": "stop_loss",
     "hour_et": 13,
-    "code_version": "37116ff"
+    "code_version": "37116ff",
+    "hold_minutes": 30
   },
   {
     "symbol": "AVGO",
@@ -48338,6 +48348,7 @@
     "evidence": "bought 90 min ago, +0.15% unrealised",
     "trigger": "time_stop",
     "hour_et": 14,
-    "code_version": "6820594"
+    "code_version": "6820594",
+    "hold_minutes": 89
   }
 ]
