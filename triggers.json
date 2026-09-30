@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "3f626fd1",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 610.9448,
-   "status": "cancelled",
-   "created": "2026-09-25 15:40",
-   "created_ts": 1790365245,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $629.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:41",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "6b3f85d6",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 728.6834,
-   "status": "cancelled",
-   "created": "2026-09-25 15:40",
-   "created_ts": 1790365245,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $751.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:41",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "59f30d20",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 500.4618,
-   "status": "cancelled",
-   "created": "2026-09-25 15:41",
-   "created_ts": 1790365290,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $515.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:41",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "ab365865",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7196,7 +7139,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 348.601,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 10:08",
    "created_ts": 1790777333,
    "why": "wanted it, but not at the high \u2014 resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -7207,7 +7150,8 @@
     "patience"
    ],
    "good_until": "2026-09-30",
-   "usd": 750.0
+   "usd": 750.0,
+   "closed": "2026-09-30 10:36"
   },
   {
    "id": "21d7c567",
@@ -7422,7 +7366,58 @@
    ],
    "good_until": "2026-10-05",
    "usd": 500.0
+  },
+  {
+   "id": "315fea1e",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 349.59,
+   "status": "working",
+   "created": "2026-09-30 10:36",
+   "created_ts": 1790778995,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $348.6",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8e51abdd",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 346.1249,
+   "status": "working",
+   "created": "2026-09-30 10:36",
+   "created_ts": 1790778995,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $348.6",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "74534bb9",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 338.142,
+   "status": "working",
+   "created": "2026-09-30 10:36",
+   "created_ts": 1790778995,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $348.6",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-30 10:32"
+ "updated": "2026-09-30 10:36"
 }

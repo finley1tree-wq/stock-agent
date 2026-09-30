@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6195.53,
-  "deployed": 231750.18,
+  "spent": 6945.53,
+  "deployed": 232500.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -11,7 +11,7 @@
     "RTX": 6.02,
     "AMD": 17.48,
     "LMT": 14.78,
-    "GOOGL": 8.55,
+    "GOOGL": 758.55,
     "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 24.51,
@@ -39,7 +39,7 @@
     "UNH": 9272.06,
     "CRWD": 9125.0,
     "NVDA": 12500.0,
-    "GOOGL": 10247.06,
+    "GOOGL": 10997.06,
     "AAPL": 6500.0,
     "AMZN": 4500.0,
     "HD": 3947.24,
@@ -3831,12 +3831,33 @@
       "evidence": "CCJ +3.38% today at day high (pct_of_day_range 97.0), Zacks headline 'Wall Street Bulls Look Optimistic About Cameco'",
       "trigger": "buy_limit",
       "hold_minutes": 30
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.151457,
+      "price": 348.6,
+      "date": "2026-09-30",
+      "time_et": "10:36",
+      "ts": 1790778900,
+      "why": "wanted it, but not at the high \u2014 resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "GOOGL +3.28% 1d, +4.23% 5d, headline 'AI companies just signed a White House accord' 2026-09-30",
+      "trigger": "buy_limit",
+      "hold_minutes": 30
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 6063.4,
-  "deployed_today": 27500.0,
-  "orders_today": 11,
+  "spent_today": 6813.4,
+  "deployed_today": 28250.0,
+  "orders_today": 12,
   "sells_today": 7,
   "sold_today": [
     "NOC",
@@ -3877,30 +3898,33 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790778742,
-  "last_check_ts": 1790778957,
+  "last_publish_ts": 1790778995,
+  "last_check_ts": 1790779041,
   "last_bar_ts": 1790778900,
   "last_decision_ts": 1790778311,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "2bafd63f": 348.601,
     "acbe23a4": 348.4635,
+    "315fea1e": 349.59,
     "7b3830da": 88.9429,
-    "1726ede5": 459.7917,
     "b52730f4": 515.5548,
+    "1726ede5": 459.7917,
     "7460935d": 515.0325,
+    "8e51abdd": 346.1249,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
     "03866069": 449.5,
     "eb12b0c1": 151.8279,
     "383579d2": 444.939,
+    "74534bb9": 338.142,
     "b70c7b0d": 85.942,
     "827206c6": 85.5
   },
   "hold_arm": {
     "CHRW": 90,
     "TSM": 30,
-    "CCJ": 30
+    "CCJ": 30,
+    "GOOGL": 30
   }
 }

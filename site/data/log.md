@@ -1,5 +1,3 @@
-  (dropped PLD: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (dropped ACN: 96% up today's range — resting a limit at $174.04 instead of chasing)
 - BUY $2500.00 LTH [filled] ['congress', 'track_record'] — High congress pressure score (3.0) and counterfactual data shows this was a big miss last time it was skipped | evidence: congress_net_buy_pressure=3.0 for LTH, disclosed buy from Rep. April McClain Delaney; biggest_misses shows LTH fwd_pct +7.69% when passed over previously
 - BUY $2000.00 AAPL [filled] ['momentum', 'news'] — Near day low entry point, positive 1-month momentum, widely_held sector track record 0.0% avg but large positive skew possible on bounce | evidence: AAPL price 330.8, pct_of_day_range 3.5 (near day low), down 2.24% today - potential dip entry with 1m momentum still +3.47%
 - BUY $2000.00 NOC [filled] ['track_record', 'momentum'] — Defense sector diversifier, reasonable entry mid-range, no cooldown restriction | evidence: NOC price 505.33 at pct_of_day_range 48.5, defense sector track_record avg_ret_pct -0.02% but hit_rate 0.55; NOC is not in cooling_off list
@@ -398,3 +396,5 @@ Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week
 - SELL 100% NOC [take_profit @ $483.30] -> $752.08 (+0.28%) — close 100% at +0.3% over the average cost
 - BUY $750.00 CCJ [buy_limit @ $88.43] — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-09-30 10:32 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+- BUY $750.00 GOOGL [buy_limit @ $348.60] — wanted it, but not at the high — resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-09-30 10:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
