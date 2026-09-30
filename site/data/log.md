@@ -1,6 +1,3 @@
-lesson: Reaching min_positions fast with $2000-3000 sized, evidence-backed buys plus immediate stop_loss triggers (the risk_management/auto_bracket signals have 0.17-0.18% avg return at 88% hit rate) beats sitting on idle cash even mid-session.
-  (dropped CRWD: sold 33 min ago, cooling off)
-- BUY $3000.00 META [filled] ['news', 'momentum'] — Strong 1m momentum plus news-driven strength, not at day high so reasonable entry | evidence: META +1.61% today, +25.8% 1m, insider filing shows Zuckerberg sold at $777.44 on 9/24 but stock still near highs at $727.15, pct_of_day_range 63.2 not chasing
 - BUY $2500.00 AMD [filled] ['momentum', 'congress'] — Congress-backed name low in day range with strong monthly trend | evidence: AMD +31.5% 1m momentum, Rep. Rick W. Allen disclosed AMD buy with +13.2% excess return per disclosure_leaderboard, currently only 27.7% of day range
 - BUY $2500.00 NVDA [filled] ['momentum', 'track_record'] — Near day low entry point in a name with steady track record hit rate | evidence: NVDA only 8.5% of day range (near day low), widely_held sector avg_ret_pct 0.0 hit_rate 0.56 per track_record, semis strength continuing
 - BUY $2000.00 TPL [filled] ['insider'] — Fresh insider buy above current price with stock at day low, cheap relative entry | evidence: insider filing 2026-09-29: Horizon Kinetics Asset Management LLC bought TPL at $339.72 on 9/25, insider_net_buy_pressure TPL=1.0, stock now at $331.80 below that insider's buy price and only 3.4% of d
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $352.25] -> $501.41 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on SKWD: position closed)
+- SELL 100% SKWD [take_profit @ $53.37] -> $501.33 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-30 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

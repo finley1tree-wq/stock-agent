@@ -6849,7 +6849,7 @@
    "ticker": "SKWD",
    "kind": "stop_loss",
    "price": 51.7,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 10:57",
    "created_ts": 1790780255,
    "why": "cap downside on new SKWD position",
@@ -6858,7 +6858,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 11:56",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4d6c0bbe",
@@ -6918,7 +6920,7 @@
    "ticker": "SKWD",
    "kind": "take_profit",
    "price": 53.3743,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 10:57",
    "created_ts": 1790780255,
    "why": "close 100% at +0.3% over the average cost",
@@ -6928,14 +6930,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 11:56"
   },
   {
    "id": "014b1846",
    "ticker": "SKWD",
    "kind": "buy_limit",
    "price": 51.6331,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 10:57",
    "created_ts": 1790780255,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6945,7 +6948,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-30 11:56",
+   "cancel_reason": "position closed"
   },
   {
    "id": "411d6961",
@@ -7385,5 +7390,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-30 11:49"
+ "updated": "2026-09-30 11:56"
 }

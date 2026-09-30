@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-30T11:49-04:00",
+ "asOf": "2026-09-30T11:56-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -156,20 +156,55 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3adc8ab0",
-   "ticker": "SKWD",
+   "id": "575a2ffd",
+   "ticker": "UNH",
    "kind": "take_profit",
-   "price": 53.3743,
+   "price": 371.57,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.28,
-   "pct_away": 0.18,
+   "last": 371.2,
+   "pct_away": 0.1,
+   "good_until": "2026-10-05",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "448bcb34",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 460.0085,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 459.24,
+   "pct_away": 0.17,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "bff5b513",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 458.442,
+   "usd": 625.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 460.15,
+   "pct_away": -0.37,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
    ]
   },
   {
@@ -180,25 +215,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 337.99,
-   "pct_away": 0.2,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "575a2ffd",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 371.57,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 370.7,
-   "pct_away": 0.23,
+   "last": 337.35,
+   "pct_away": 0.39,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -214,42 +232,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 190.43,
-   "pct_away": 0.27,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "448bcb34",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 460.0085,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 458.49,
-   "pct_away": 0.33,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "eff905f1",
-   "ticker": "FWONK",
-   "kind": "take_profit",
-   "price": 93.7879,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 93.4,
-   "pct_away": 0.42,
+   "last": 190.2,
+   "pct_away": 0.39,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -265,8 +249,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 40.02,
-   "pct_away": 0.63,
+   "last": 40.1,
+   "pct_away": 0.42,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -282,8 +266,8 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 518.93,
-   "pct_away": -0.65,
+   "last": 518.82,
+   "pct_away": -0.63,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
    "signals": [
@@ -293,21 +277,20 @@
    ]
   },
   {
-   "id": "bff5b513",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 458.442,
-   "usd": 625.0,
-   "pct_of_position": null,
+   "id": "eff905f1",
+   "ticker": "FWONK",
+   "kind": "take_profit",
+   "price": 93.7879,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 461.66,
-   "pct_away": -0.7,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa",
+   "last": 93.2,
+   "pct_away": 0.63,
+   "good_until": "2026-10-05",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
-    "news",
-    "momentum",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -318,13 +301,65 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 518.93,
-   "pct_away": -0.75,
+   "last": 518.82,
+   "pct_away": -0.73,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "momentum",
     "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "8f0cda95",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 265.6344,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 267.7,
+   "pct_away": -0.77,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "d19f996e",
+   "ticker": "NLR",
+   "kind": "stop_loss",
+   "price": 102.9,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.87,
+   "pct_away": -0.93,
+   "good_until": "2026-09-30",
+   "why": "protective stop ~2.1% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "e0bbba9b",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 265.1449,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 267.7,
+   "pct_away": -0.95,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha",
+   "signals": [
+    "news",
+    "momentum",
     "patience"
    ]
   },
@@ -336,29 +371,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 40.02,
-   "pct_away": -0.87,
+   "last": 40.1,
+   "pct_away": -1.06,
    "good_until": "2026-10-05",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "d19f996e",
-   "ticker": "NLR",
-   "kind": "stop_loss",
-   "price": 102.9,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.09,
-   "pct_away": -1.14,
-   "good_until": "2026-09-30",
-   "why": "protective stop ~2.1% below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -369,14 +388,30 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 182.82,
-   "pct_away": -1.16,
+   "last": 182.93,
+   "pct_away": -1.22,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $180.69. Add ACN with a resting limit below market rather than chasing the high; existing working buy_limit at 180.33 covers this, adding fresh evidence-backed conviction [probation at 25% size (n",
    "signals": [
     "congress",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "1270396f",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 347.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 351.67,
+   "pct_away": -1.33,
+   "good_until": "2026-09-30",
+   "why": "wait for cooldown to clear and a small dip before entering",
+   "signals": [
+    "news"
    ]
   },
   {
@@ -387,8 +422,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 182.82,
-   "pct_away": -1.36,
+   "last": 182.93,
+   "pct_away": -1.42,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i",
    "signals": [
@@ -405,45 +440,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.09,
-   "pct_away": 1.45,
+   "last": 103.87,
+   "pct_away": 1.66,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "1270396f",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 347.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 352.31,
-   "pct_away": -1.51,
-   "good_until": "2026-09-30",
-   "why": "wait for cooldown to clear and a small dip before entering",
-   "signals": [
-    "news"
-   ]
-  },
-  {
-   "id": "a0c1df26",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 364.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 370.7,
-   "pct_away": -1.81,
-   "good_until": "2026-09-30",
-   "why": "protective stop just below today's low to cap downside on new position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -454,29 +457,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.09,
-   "pct_away": -1.93,
+   "last": 103.87,
+   "pct_away": -1.72,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "65b05100",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 449.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 458.49,
-   "pct_away": -2.07,
-   "good_until": "2026-09-30",
-   "why": "protective stop ~2% below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -487,10 +474,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 337.99,
-   "pct_away": -2.07,
+   "last": 337.35,
+   "pct_away": -1.88,
    "good_until": "2026-09-30",
    "why": "protective stop ~2% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "a0c1df26",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 364.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 371.2,
+   "pct_away": -1.94,
+   "good_until": "2026-09-30",
+   "why": "protective stop just below today's low to cap downside on new position",
    "signals": [
     "risk_management"
    ]
@@ -503,10 +506,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 190.43,
-   "pct_away": -2.33,
+   "last": 190.2,
+   "pct_away": -2.21,
    "good_until": "2026-09-30",
    "why": "protective stop just below today's low to cap downside on new position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "65b05100",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 449.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 459.24,
+   "pct_away": -2.23,
+   "good_until": "2026-09-30",
+   "why": "protective stop ~2% below entry",
    "signals": [
     "risk_management"
    ]
@@ -519,29 +538,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 93.4,
-   "pct_away": -2.57,
+   "last": 93.2,
+   "pct_away": -2.36,
    "good_until": "2026-09-30",
    "why": "cap downside on new FWONK position",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "0930992a",
-   "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 38.897,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 40.02,
-   "pct_away": -2.81,
-   "good_until": "2026-10-05",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -552,58 +554,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 93.4,
-   "pct_away": -2.85,
-   "good_until": "2026-10-05",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7157785f",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 444.9002,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 458.49,
-   "pct_away": -2.96,
-   "good_until": "2026-10-05",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9243c3bf",
-   "ticker": "SKWD",
-   "kind": "stop_loss",
-   "price": 51.7,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.28,
-   "pct_away": -2.97,
-   "good_until": "2026-09-30",
-   "why": "cap downside on new SKWD position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "05b821f7",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 359.5887,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 370.7,
-   "pct_away": -3.0,
+   "last": 93.2,
+   "pct_away": -2.65,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -619,8 +571,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 337.99,
-   "pct_away": -3.02,
+   "last": 337.35,
+   "pct_away": -2.83,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -636,8 +588,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 190.43,
-   "pct_away": -3.06,
+   "last": 190.2,
+   "pct_away": -2.94,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -646,15 +598,15 @@
    ]
   },
   {
-   "id": "014b1846",
-   "ticker": "SKWD",
+   "id": "0930992a",
+   "ticker": "LTH",
    "kind": "buy_limit",
-   "price": 51.6331,
+   "price": 38.897,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.28,
-   "pct_away": -3.09,
+   "last": 40.1,
+   "pct_away": -3.0,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -663,39 +615,37 @@
    ]
   },
   {
-   "id": "e0bbba9b",
-   "ticker": "CRWD",
+   "id": "7157785f",
+   "ticker": "HUBB",
    "kind": "buy_limit",
-   "price": 265.1449,
+   "price": 444.9002,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha",
+   "last": 459.24,
+   "pct_away": -3.12,
+   "good_until": "2026-10-05",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
-    "news",
-    "momentum",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
-   "id": "8f0cda95",
-   "ticker": "CRWD",
+   "id": "05b821f7",
+   "ticker": "UNH",
    "kind": "buy_limit",
-   "price": 265.6344,
+   "price": 359.5887,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
+   "last": 371.2,
+   "pct_away": -3.13,
+   "good_until": "2026-10-05",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
-    "news",
-    "momentum",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   }
  ],

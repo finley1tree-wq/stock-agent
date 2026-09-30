@@ -20366,3 +20366,6 @@ Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $352.25] -> $501.41 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on SKWD: position closed)
+- SELL 100% SKWD [take_profit @ $53.37] -> $501.33 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-09-30 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

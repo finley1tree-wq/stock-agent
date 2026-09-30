@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 4481.08,
+  "spent": 3979.75,
   "deployed": 239500.18,
   "by_ticker": {
     "AVGO": 44.12,
@@ -26,7 +26,6 @@
     "TPL": 3.17,
     "TSM": 1.65,
     "NLR": 500.0,
-    "SKWD": 500.0,
     "UNH": 500.0
   },
   "deployed_by_ticker": {
@@ -4225,13 +4224,34 @@
       ],
       "evidence": "average cost $351.26",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "SKWD",
+      "side": "sell",
+      "qty": 9.392638,
+      "status": "filled",
+      "price": 53.37,
+      "proceeds": 501.33,
+      "realized_pnl": 1.33,
+      "realized_pct": 0.27,
+      "date": "2026-09-30",
+      "time_et": "11:56",
+      "ts": 1790783700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $53.23",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 4348.95,
+  "spent_today": 3847.62,
   "deployed_today": 35250.0,
   "orders_today": 24,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "NOC",
     "TTD",
@@ -4244,7 +4264,8 @@
     "MSFT",
     "GOOGL",
     "CHRW",
-    "HLI"
+    "HLI",
+    "SKWD"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -4275,47 +4296,45 @@
     "NLR": 1790691936,
     "CHRW": 1790780628,
     "TPL": 1790704804,
-    "LTH": 1790704804
+    "LTH": 1790704804,
+    "SKWD": 1790783788
   },
-  "last_publish_ts": 1790783360,
-  "last_check_ts": 1790783756,
+  "last_publish_ts": 1790783786,
+  "last_check_ts": 1790783833,
   "last_bar_ts": 1790783700,
   "last_decision_ts": 1790783086,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "3adc8ab0": 53.3743,
-    "0c775669": 338.6734,
     "575a2ffd": 371.57,
-    "7fefd452": 190.9437,
     "448bcb34": 460.0085,
-    "eff905f1": 93.7879,
+    "bff5b513": 458.442,
+    "0c775669": 338.6734,
+    "7fefd452": 190.9437,
     "b95b79e2": 40.2704,
     "b52730f4": 515.5548,
-    "bff5b513": 458.442,
+    "eff905f1": 93.7879,
     "7460935d": 515.0325,
-    "e42ebac9": 39.6737,
+    "8f0cda95": 265.6344,
     "d19f996e": 102.9,
+    "e0bbba9b": 265.1449,
+    "e42ebac9": 39.6737,
     "93318e7b": 180.6924,
+    "1270396f": 347.0,
     "be99c1fb": 180.3348,
     "4756ad2e": 105.5989,
-    "1270396f": 347.0,
-    "a0c1df26": 364.0,
     "27b4972c": 102.0828,
-    "65b05100": 449.0,
     "1efcaba2": 331.0,
+    "a0c1df26": 364.0,
     "83e90a97": 186.0,
+    "65b05100": 449.0,
     "ed40a942": 91.0,
-    "0930992a": 38.897,
     "63a1f59f": 90.7338,
-    "7157785f": 444.9002,
-    "9243c3bf": 51.7,
-    "05b821f7": 359.5887,
     "4b85b91a": 327.7921,
     "cafe4c9a": 184.6007,
-    "014b1846": 51.6331,
-    "e0bbba9b": 265.1449,
-    "8f0cda95": 265.6344
+    "0930992a": 38.897,
+    "7157785f": 444.9002,
+    "05b821f7": 359.5887
   },
   "hold_arm": {
     "HUBB": 90,
