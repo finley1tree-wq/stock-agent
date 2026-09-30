@@ -46361,7 +46361,9 @@
     "code_version": "100ed01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": -0.04,
+    "ret_final": -0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -46388,7 +46390,7 @@
     "code_version": "100ed01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.58
+    "ret_now": -1.27
   },
   {
     "symbol": "AVGO",
@@ -46415,7 +46417,9 @@
     "code_version": "100ed01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.53
+    "ret_now": -0.47,
+    "ret_final": -0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -46574,7 +46578,8 @@
     "evidence": "bought 30 min ago, +0.00% unrealised",
     "trigger": "time_stop",
     "hour_et": 10,
-    "code_version": "ab479ac"
+    "code_version": "ab479ac",
+    "hold_minutes": 31
   },
   {
     "symbol": "AVGO",
@@ -46598,6 +46603,59 @@
     "evidence": "bought 30 min ago, -0.45% unrealised",
     "trigger": "time_stop",
     "hour_et": 10,
-    "code_version": "ab479ac"
+    "code_version": "ab479ac",
+    "hold_minutes": 31
+  },
+  {
+    "symbol": "NEM",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.33564,
+    "price": 117.14,
+    "date": "2026-09-30",
+    "time_et": "10:08",
+    "ts": 1790777333,
+    "why": "Gold sector has best hit rate in track record; concrete FCF beat headline gives fundamental support beyond momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news",
+      "track_record"
+    ],
+    "evidence": "Newmont posted record $5.3B free cash flow per MarketBeat 2026-09-30, gold sector track record avg_ret_pct 0.03 hit_rate 0.57 (best of sectors)",
+    "hold_minutes": 90,
+    "entry_price": 117.09,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.12,
+    "hour_et": 10,
+    "code_version": "5fcbd1e",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.362541,
+    "price": 458.7,
+    "date": "2026-09-30",
+    "time_et": "10:08",
+    "ts": 1790777333,
+    "why": "Concrete capex expansion headline plus positive momentum in widely_held semis [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "TSM +0.37% 1d, +2.7% 5d, 'TSMC reportedly weighs Texas chip investment on top of $265B Arizona push' 2026-09-30",
+    "hold_minutes": 30,
+    "entry_price": 458.61,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.42,
+    "hour_et": 10,
+    "code_version": "5fcbd1e",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

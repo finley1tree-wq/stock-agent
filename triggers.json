@@ -1,158 +1,6 @@
 {
  "orders": [
   {
-   "id": "538fb815",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 610.9448,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365083,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $629.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "e865d6a3",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 728.6834,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365083,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $751.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "96eb1dfd",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 500.4618,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365128,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $515.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "72922300",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 632.7499,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365128,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $629.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 15:43",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "04950847",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 610.9448,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365128,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $629.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "fe65a9ec",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 728.6834,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365128,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $751.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "d6208f4d",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 500.4618,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365130,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $515.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:39",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "14804a32",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 610.9448,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365130,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $629.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:39",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
    "id": "877b8702",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7441,7 +7289,143 @@
    ],
    "good_until": "2026-09-30",
    "usd": 750.0
+  },
+  {
+   "id": "9fb44c6e",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 114.7,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "Protective stop below day range",
+   "evidence": "ATR 3.32%, day low 116.45",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "03866069",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 449.5,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "Protective stop below day range",
+   "evidence": "ATR 2.15%, day low 454.9",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b52730f4",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 515.5548,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
+   "evidence": "MSFT +1.87% 1d, 86% of day range, headline 'Nvidia CEO: AI data center build-out could create 1 million jobs' 2026-09-30",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 750.0
+  },
+  {
+   "id": "2bafd63f",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 348.601,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "wanted it, but not at the high \u2014 resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "GOOGL +3.28% 1d, +4.23% 5d, headline 'AI companies just signed a White House accord' 2026-09-30",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 750.0
+  },
+  {
+   "id": "21d7c567",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 117.5722,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $117.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "66ab9a9a",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 113.6258,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $117.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 500.0
+  },
+  {
+   "id": "1726ede5",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 459.7917,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $458.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "383579d2",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 444.939,
+   "status": "working",
+   "created": "2026-09-30 10:08",
+   "created_ts": 1790777333,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $458.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-30 10:02"
+ "updated": "2026-09-30 10:08"
 }

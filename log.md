@@ -20158,3 +20158,29 @@ Decision: nothing at this check. 12 standing order(s) working.
 - SELL 100% RTX [time stop] -> $3998.31 (-0.04%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AVGO [time stop] -> $3981.04 (-0.47%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:08 ET (Wednesday) — week 2026-W40 — budget left $20925.07 (today $24000.00 put to work, 6 buys, 5 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 1 position held against min_positions of 8, with 83.7% cash idle - counterfactual data explicitly flags this as a costly pattern (idle_universe_avg_pct positive, past lessons repeatedly say deploy immediately). Adding MSFT, GOOGL (AI-policy/infra news momentum), NEM (gold sector's best hit-rate + concrete FCF beat headline), and TSM (capex expansion headline) diversifies sectors while backed by concrete evidence, each with a protective stop per auto_bracket/risk_management which has the best realized track record (0.18% avg, 88% hit rate).
+lesson: With below_target_position_count true and idle cash near 84%, deploy multiple evidence-backed names immediately in $2.5-3k tranches with stops attached rather than waiting for perfect setups.
+  (dropped MSFT: 86% up today's range — resting a limit at $515.55 instead of chasing)
+  (dropped GOOGL: 98% up today's range — resting a limit at $348.60 instead of chasing)
+- BUY $625.00 NEM [filled] ['news', 'track_record'] — Gold sector has best hit rate in track record; concrete FCF beat headline gives fundamental support beyond momentum [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Newmont posted record $5.3B free cash flow per MarketBeat 2026-09-30, gold sector track record avg_ret_pct 0.03 hit_rate 0.57 (best of sectors)
+- BUY $625.00 TSM [filled] ['news', 'momentum'] — Concrete capex expansion headline plus positive momentum in widely_held semis [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: TSM +0.37% 1d, +2.7% 5d, 'TSMC reportedly weighs Texas chip investment on top of $265B Arizona push' 2026-09-30
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING stop_loss 100% NEM @ $114.70 until 2026-09-30 — Protective stop below day range
+~ WORKING stop_loss 100% TSM @ $449.50 until 2026-09-30 — Protective stop below day range
+~ WORKING buy_limit $750.00 MSFT @ $515.55 until 2026-09-30 — wanted it, but not at the high — resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si
+~ WORKING buy_limit $750.00 GOOGL @ $348.60 until 2026-09-30 — wanted it, but not at the high — resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% NEM @ $117.57 until 2026-10-05 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $113.63 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $459.79 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $444.94 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25203.98 (+0.82% on $25000.00 in) · cash $20006.67 · realised +256.67
+Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $19675.07 this week
