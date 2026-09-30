@@ -193,7 +193,11 @@ def apply_guardrails(plan: dict, allowed: set[str], remaining_week: float, st: d
         if blocked:
             dropped.append(f"{t}: {blocked}"); continue
         usd = max(0.0, float(o.get("usd", 0) or 0))          # never negative
-        if not cleanup:     # natural selection (evolve.py): culled strategies out, unproven ones small
+        # natural selection (evolve.py): culled strategies out, unproven ones small. Only a NEW entry
+        # is judged, once: a chase-deferred limit ("patience") was already sized when it was
+        # deferred - judging it again at fill time cut a $2,000 probation order to $125 - and an
+        # auto_bracket scale-in adds to a position whose entry was already judged.
+        if not cleanup and not ({"patience", "auto_bracket"} & set(_clean_signals(o))):
             mult, fit = _evolve_verdict(_clean_signals(o), g)
             if mult <= 0:
                 dropped.append(f"{t}: {fit}"); continue
@@ -484,6 +488,10 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
     sell_fires = [f for f in fires if f["kind"] in triggers.SELL_KINDS]
     if sell_fires and hasattr(broker, "sell_qty"):
         fmap = {}
+        # Whichever level the market reached FIRST wins, and inside one bar that touched both the
+        # stop wins (the conservative reading). In triggers.json order a target placed before the
+        # stop used to take every such tie: 8 of 8 "superseded" lines were a stop losing to a target.
+        sell_fires.sort(key=lambda f: (int(f.get("fired_ts") or 0), 0 if f["kind"] in ("stop_loss", "trailing_stop") else 1))
         for f in sell_fires:
             if f["ticker"] in fmap:
                 triggers.close(f["id"], now, "cancelled", "another standing order on the same ticker filled first")
@@ -563,6 +571,12 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
         orders, dropped, _ = apply_guardrails(plan, allowed | set(fmap), remaining, st, g, False, chase_check=False, sector_of=sector_of)
         for d in dropped:
             log_fn(f"  (dropped {d})")
+            # A drop that will be the same at every pass is final: close the order, or it fires and
+            # is dropped again on every bar at its level. Budget, cooldown and order-count drops
+            # can clear later in the session, so those orders stay working.
+            t, _, why = d.partition(": ")
+            if t in fmap and ("below min order" in why or "culled strategy" in why):
+                triggers.close(fmap[t]["id"], now, "cancelled", f"dropped at fill time: {why}"[:200])
         for o in orders:
             f = fmap[o["ticker"]]
             o["usd"] = min(o["usd"], float(f["usd"]))       # never more than the order rested for
@@ -574,7 +588,7 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
                 log_fn(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
             full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
                     "why": o["why"], "signals": o["signals"], "evidence": o["evidence"], "trigger": f["kind"]}
-            hold = evolve.assign_hold(st, g, o["ticker"], held_before, evolve.load(g))
+            hold = evolve.assign_hold(st, g, o["ticker"], held_before, None)
             if hold is not None:
                 full["hold_minutes"] = hold
             state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
@@ -710,6 +724,8 @@ def _tick_once(force: bool = False) -> None:
     # high instead of riding the clock down.
     if broker.positions():
         auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
+        if cutoff:          # no scale-in adds past the entry cutoff: placed here, cancelled next pass, for ever
+            auto = [o for o in auto if str(o.get("kind", "")).lower() not in triggers.BUY_KINDS]
         if auto:
             triggers.place(auto, now, set(broker.positions()), set(broker.positions()), px)
     st["last_check_ts"] = int(now.timestamp())
@@ -861,7 +877,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         "no_new_entries_this_check": cutoff,
         "strategy_stages": evolve.summary(evolve.load(g)),
         "hold_trial": {"clock_minutes_by_position": {t: evolve.hold_for(st, g, t, int(g.get("max_hold_minutes", 0) or 0)) for t in positions},
-                       **{k: v for k, v in ((evolve.load(g) or {}).get("hold_trial") or {}).items() if k in ("winner", "arms", "t")}}
+                       **{k: v for k, v in (evolve.trial_state(g) or {}).items() if k in ("winner", "arms", "t")}}
                       if evolve.trial_settings(g) else None,
         "guardrails": {k: v for k, v in g.items() if not k.startswith("_")},
         "sell_rules": {"allowed": not g.get("only_buy", False), "min_hold_days": g.get("min_hold_days", 0), "max_sells_per_day": g.get("max_sells_per_day", 3)},
@@ -941,7 +957,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
         if str(rec.get("status", "")).startswith("rejected"):
             log(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
         full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": o["why"], "signals": o["signals"], "evidence": o["evidence"]}
-        hold = evolve.assign_hold(st, g, o["ticker"], held_before, evolve.load(g))
+        hold = evolve.assign_hold(st, g, o["ticker"], held_before, None)
         if hold is not None:                  # the hold-time trial's arm for this position (evolve.py)
             full["hold_minutes"] = hold
         state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
@@ -993,6 +1009,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
                      "why": f"wanted it, but not at the high — resting at ${d['limit_price']:.2f}. {d.get('why','')}"[:240]})
     placed, trejected = triggers.place(want, now, set(broker.positions()), allowed, px)
     auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
+    if cutoff:
+        auto = [o for o in auto if str(o.get("kind", "")).lower() not in triggers.BUY_KINDS]
     # Rest dip orders on names it does NOT hold, so a dip can be an entry and not just an average-down.
     _cool = int(g.get("rebuy_cooldown_minutes", 0) or 0)
     _cooling = {t for t, ts in (st.get("sold_ts") or {}).items()

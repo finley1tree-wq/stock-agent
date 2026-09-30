@@ -23,7 +23,13 @@ def _copy_tail(name: str, keep: int) -> None:
     src = ROOT / name
     try:
         rows = json.loads(src.read_text()) if src.exists() else []
-        rows = rows[-keep:] if isinstance(rows, list) else []
+        if isinstance(rows, list) and len(rows) > keep:
+            cut = rows[-keep:]
+            first = cut[0].get("date") if cut and isinstance(cut[0], dict) else None
+            if first and isinstance(rows[-keep - 1], dict) and rows[-keep - 1].get("date") == first:
+                cut = [r for r in cut if not (isinstance(r, dict) and r.get("date") == first)]   # whole days only
+            rows = cut
+        rows = rows if isinstance(rows, list) else []
     except Exception:
         rows = []
     (OUT / name).write_text(json.dumps(rows))
@@ -40,7 +46,7 @@ def publish(cfg: dict, signals: dict | None = None, note: str = "", working_orde
     (OUT / "log.md").write_text("\n".join(lines) + ("\n" if lines else ""))
     g = cfg.get("guardrails", {})
     try:                                          # natural selection stages for the dashboard (evolve.py)
-        evolve.write(evolve.load(g), datetime.now(ET).isoformat(timespec="minutes"))
+        evolve.write(evolve.load(g), datetime.now(ET).isoformat(timespec="minutes"), g)
     except Exception:
         pass
     meta = {

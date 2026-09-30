@@ -49,9 +49,9 @@ function health(log, windowLines = 400) {
   for (const line of lines) {
     const h = /^## (\d{4}-\d{2}-\d{2} \d{2}:\d{2}) ET/.exec(line);
     if (h) { at = h[1]; continue; }
-    if (line.startsWith("brain error:")) {
+    if (line.startsWith("brain error:") || line.startsWith("brain unavailable:")) {
       if (/credit balance/i.test(line)) credit++; else other++;
-      lastError = line.slice(12, 220).trim(); lastErrorAt = at; lastCheck = at; okNow = false;
+      lastError = line.slice(line.indexOf(":") + 1, 220).trim(); lastErrorAt = at; lastCheck = at; okNow = false;
     } else if (line.startsWith("brain:")) {
       lastCheck = at; okNow = true;
     } else if (line.includes("falling back to autopilot")) {
@@ -125,6 +125,16 @@ async function fetchText(url, headers) {
   return r.text();
 }
 
+// The last `n` rows, minus the oldest day if the cut landed inside it: half a day's fills summed
+// read as that day's P/L (09-14 showed -$118 on the chart; the whole day was +$126).
+function tailWholeDays(rows, n) {
+  if (rows.length <= n) return rows;
+  const out = rows.slice(-n), first = out[0] && out[0].date;
+  if (!first || rows[rows.length - n - 1].date !== first) return out;
+  const i = out.findIndex(r => r.date !== first);
+  return i < 0 ? out : out.slice(i);
+}
+
 async function one(f, sha) {
   // By commit when the head is known (immutable, so never stale); otherwise by branch with a
   // cache-bust. A commit URL that fails is retried by branch: one missing file must never blank
@@ -138,7 +148,7 @@ async function one(f, sha) {
     if (text == null) text = await fetchText(byBranch, { ...UA, "Cache-Control": "no-cache" });
     if (!f.json) return { v: f.lines ? text.split("\n").slice(-f.lines).join("\n") : text, via };
     const v = JSON.parse(text);
-    return { v: f.tail && Array.isArray(v) ? v.slice(-f.tail) : v, via };
+    return { v: f.tail && Array.isArray(v) ? tailWholeDays(v, f.tail) : v, via };
   } catch (e) {
     return { v: f.fallback, via: "fallback" };
   }
@@ -165,4 +175,5 @@ module.exports = handler;
 module.exports.parseRefAdvertisement = parseRefAdvertisement;
 module.exports.resolveSha = resolveSha;
 module.exports.health = health;
+module.exports.tailWholeDays = tailWholeDays;
 module.exports._resetShaCache = () => { shaCache = { sha: null, at: 0 }; inflight = null; };

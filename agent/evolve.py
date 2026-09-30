@@ -68,9 +68,16 @@ def round_trips(rows: list[dict]) -> list[dict]:
     """One row per filled sell, carrying the signals and hour of the buy that OPENED the position."""
     held: dict[str, dict] = {}
     out = []
+    day = None
     for r in rows:
         if r.get("status") != "filled":
             continue
+        # Nothing is carried overnight under the intraday clock, so each day starts flat. Without
+        # this, one sell missing from the journal (MO and TPL on 2026-09-11) left a position "open"
+        # for ever and credited every later trip in that name to the 09-11 entry's hour and signals.
+        d = str(r.get("date") or "")[:10]
+        if d and d != day:
+            held, day = {}, d
         sym, side, qty = r.get("symbol"), r.get("side", "buy"), float(r.get("qty") or 0)
         if side == "buy":
             pos = held.get(sym)
@@ -239,7 +246,8 @@ def assign_hold(st: dict, g: dict, ticker: str, held: set, scores: dict | None, 
         arms.pop(t, None)                         # positions that have closed since
     if ticker in held and ticker in arms:
         return int(arms[ticker])
-    win = ((scores or {}).get("hold_trial") or {}).get("winner")
+    standing = (scores or {}).get("hold_trial") if scores and "hold_trial" in scores else trial_state(g)
+    win = (standing or {}).get("winner")
     arm = int(win) if win else cfg["arms"][0 if rng() < 0.5 else 1]
     arms[ticker] = arm
     return arm
@@ -255,34 +263,50 @@ def hold_for(st: dict, g: dict, ticker: str, default: int) -> int:
 _CACHE: dict = {}
 
 
-def _score_all(rows: list[dict], cfg: dict, tcfg: dict | None) -> dict:
-    out = score(rows, cfg)
-    if tcfg is not None:
-        out["hold_trial"] = trial(rows, tcfg)
-    return out
-
-
-def load(g: dict, rows: list[dict] | None = None) -> dict | None:
-    """Scores for this check, or None when guardrails.evolve is off. Cached on the journal's mtime."""
-    cfg = settings(g)
-    if cfg is None:
+def _rows() -> list[dict] | None:
+    """journal.json, cached on its mtime so every call in one check reads it once."""
+    try:
+        stamp = JOURNAL.stat().st_mtime_ns
+    except OSError:
         return None
-    tcfg = trial_settings(g)
-    if rows is None:
-        try:
-            stamp = JOURNAL.stat().st_mtime_ns
-        except OSError:
-            return None
-        key = (stamp, json.dumps(cfg, sort_keys=True), json.dumps(tcfg, sort_keys=True))
-        if _CACHE.get("key") == key:
-            return _CACHE["scores"]
+    if _CACHE.get("stamp") != stamp:
         try:
             rows = json.loads(JOURNAL.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             return None
-        _CACHE.update(key=key, scores=_score_all(rows, cfg, tcfg))
-        return _CACHE["scores"]
-    return _score_all(rows, cfg, tcfg)
+        _CACHE.clear()
+        _CACHE.update(stamp=stamp, rows=rows)
+    return _CACHE["rows"]
+
+
+def _cached(name: str, cfg: dict, fn):
+    rows = _rows()
+    if rows is None:
+        return None
+    key = (name, json.dumps(cfg, sort_keys=True))
+    if key not in _CACHE:
+        _CACHE[key] = fn(rows, cfg)
+    return _CACHE[key]
+
+
+def trial_state(g: dict, rows: list[dict] | None = None) -> dict | None:
+    """The hold trial's standing, or None when it is off. Independent of guardrails.evolve."""
+    tcfg = trial_settings(g)
+    if tcfg is None:
+        return None
+    return trial(rows, tcfg) if rows is not None else _cached("trial", tcfg, trial)
+
+
+def load(g: dict, rows: list[dict] | None = None) -> dict | None:
+    """Selection scores for this check (plus the trial's standing), or None when guardrails.evolve is off."""
+    cfg = settings(g)
+    if cfg is None:
+        return None
+    out = score(rows, cfg) if rows is not None else _cached("score", cfg, score)
+    if out is None:
+        return None
+    t = trial_state(g, rows)
+    return {**out, "hold_trial": t} if t is not None else out
 
 
 def summary(scores: dict | None) -> dict:
@@ -293,7 +317,9 @@ def summary(scores: dict | None) -> dict:
             for lens, orgs in scores["lenses"].items()}
 
 
-def write(scores: dict | None, generated_at: str) -> None:
+def write(scores: dict | None, generated_at: str, g: dict | None = None) -> None:
+    if not scores and g is not None and trial_state(g) is not None:
+        scores = {"hold_trial": trial_state(g)}          # the trial still shows with evolve off
     if not scores:
         return
     OUT.parent.mkdir(parents=True, exist_ok=True)

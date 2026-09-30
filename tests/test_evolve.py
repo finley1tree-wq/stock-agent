@@ -97,6 +97,24 @@ def test_stages():
     check("verdict: a culled signal mix is blocked even in a survivor hour", w == 0.0 and "signals" in why, why)
 
 
+def test_day_reset():
+    rows = [{"symbol": "TPL", "side": "buy", "status": "filled", "qty": 1, "date": "2026-09-11", "hour_et": 14, "signals": ["congress"]}]
+    rows += trip("TPL", 10, ["news"], 4.0, date="2026-09-14")         # the 09-11 sell is missing from the journal
+    t = evolve.round_trips(rows)
+    check("pairing: a day with no sell does not leak into the next day's trip",
+          len(t) == 1 and t[0]["hour"] == 10 and t[0]["date"] == "2026-09-14", str(t))
+
+
+def test_trial_without_evolve():
+    rows = []
+    random.seed(3)
+    for i in range(45):
+        rows += trip(f"S{i}", 10, ["x"], 1.0, pct=random.gauss(-0.10, 0.3), hold=30)
+        rows += trip(f"L{i}", 10, ["x"], 3.0, pct=random.gauss(0.25, 0.3), hold=90)
+    g = {"hold_trial": {}}                                            # evolve switched off
+    check("trial: works with evolve off", evolve.load(g, rows) is None and evolve.trial_state(g, rows)["winner"] == 90)
+
+
 def test_settings():
     check("settings: absent -> off", evolve.settings({}) is None)
     check("settings: enabled false -> off", evolve.settings({"evolve": {"enabled": False}}) is None)
@@ -152,6 +170,8 @@ def test_hold_trial():
 
 if __name__ == "__main__":
     test_hold_trial()
+    test_day_reset()
+    test_trial_without_evolve()
     test_pairing()
     test_stages()
     test_settings()

@@ -201,3 +201,17 @@ test("next check: the observed bug - old code said 26 min under autopilot, new c
   assert.equal(was, "in 26 min · 3:19 PM ET");
   assert.equal(now, "any moment");
 });
+
+test("tail keeps whole days only, and health counts 'brain unavailable'", () => {
+  const rows = [{date: "d1"}, {date: "d1"}, {date: "d2"}, {date: "d2"}, {date: "d3"}];
+  assert.deepEqual(api.tailWholeDays(rows, 3).map(r => r.date), ["d2", "d2", "d3"]);  // cut on a day boundary
+  assert.deepEqual(api.tailWholeDays(rows, 4).map(r => r.date), ["d2", "d2", "d3"]);  // cut inside d1: d1 dropped
+  assert.deepEqual(api.tailWholeDays(rows, 2).map(r => r.date), ["d3"]);              // cut inside d2: d2 dropped
+  assert.equal(api.tailWholeDays(rows, 9).length, 5);
+  const log = "## 2026-09-29 10:30 ET (Tuesday)\nbrain unavailable: Error code: 400 credit balance is too low\n  -> falling back to autopilot: rules only, no model call\n";
+  const h = api.health(log);
+  assert.equal(h.brain_ok_now, false);
+  assert.equal(h.brain_credit_errors, 1);
+  assert.equal(h.autopilot_fallbacks, 1);
+  assert.equal(api.health(log + "## 2026-09-29 10:34 ET\nbrain: fine\n").brain_ok_now, true);
+});
