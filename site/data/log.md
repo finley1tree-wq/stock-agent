@@ -1,18 +1,3 @@
-## 2026-09-30 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-30 10:08 ET (Wednesday) — week 2026-W40 — budget left $20925.07 (today $24000.00 put to work, 6 buys, 5 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Only 1 position held against min_positions of 8, with 83.7% cash idle - counterfactual data explicitly flags this as a costly pattern (idle_universe_avg_pct positive, past lessons repeatedly say deploy immediately). Adding MSFT, GOOGL (AI-policy/infra news momentum), NEM (gold sector's best hit-rate + concrete FCF beat headline), and TSM (capex expansion headline) diversifies sectors while backed by concrete evidence, each with a protective stop per auto_bracket/risk_management which has the best realized track record (0.18% avg, 88% hit rate).
-lesson: With below_target_position_count true and idle cash near 84%, deploy multiple evidence-backed names immediately in $2.5-3k tranches with stops attached rather than waiting for perfect setups.
-  (dropped MSFT: 86% up today's range — resting a limit at $515.55 instead of chasing)
-  (dropped GOOGL: 98% up today's range — resting a limit at $348.60 instead of chasing)
-- BUY $625.00 NEM [filled] ['news', 'track_record'] — Gold sector has best hit rate in track record; concrete FCF beat headline gives fundamental support beyond momentum [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Newmont posted record $5.3B free cash flow per MarketBeat 2026-09-30, gold sector track record avg_ret_pct 0.03 hit_rate 0.57 (best of sectors)
-- BUY $625.00 TSM [filled] ['news', 'momentum'] — Concrete capex expansion headline plus positive momentum in widely_held semis [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: TSM +0.37% 1d, +2.7% 5d, 'TSMC reportedly weighs Texas chip investment on top of $265B Arizona push' 2026-09-30
   (dropped trigger MSFT stop_loss: not held)
   (dropped trigger GOOGL stop_loss: not held)
 ~ WORKING stop_loss 100% NEM @ $114.70 until 2026-09-30 — Protective stop below day range
@@ -398,3 +383,18 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 7 resting buy order(s): past the entry cutoff)
 - SELL 100% AVGO [time stop] -> $500.63 (+0.13%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 14:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 14:19 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +47.2% in a day looks like a bad tick)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and current_positions is empty, so there is nothing to protect and no new buys are permitted. Sitting out this check is mechanically required, not a preference; I'll re-engage next check for sells/trigger management if positions open via any working orders, though none are currently working either.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - respect the cutoff rather than trying to force an order that guardrails will drop.
+portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
