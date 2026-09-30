@@ -20216,3 +20216,7 @@ Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week
 ## 2026-09-30 10:32 ET — tick — 1 sell(s), 1 buy(s) from standing orders
 - BUY $750.00 GOOGL [buy_limit @ $348.60] — wanted it, but not at the high — resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-09-30 10:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $750.00 GOOGL [buy_limit @ $348.46] — wanted it, but not at the high — resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-09-30 10:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $623.35 (-0.26%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders

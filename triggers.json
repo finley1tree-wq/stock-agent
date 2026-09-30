@@ -7050,7 +7050,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 348.4635,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 10:02",
    "created_ts": 1790776967,
    "why": "wanted it, but not at the high \u2014 resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -7061,7 +7061,8 @@
     "patience"
    ],
    "good_until": "2026-09-30",
-   "usd": 750.0
+   "usd": 750.0,
+   "closed": "2026-09-30 10:38"
   },
   {
    "id": "c240ea1f",
@@ -7105,7 +7106,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 449.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 10:08",
    "created_ts": 1790777333,
    "why": "Protective stop below day range",
@@ -7114,7 +7115,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 10:38",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b52730f4",
@@ -7195,7 +7198,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 459.7917,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 10:08",
    "created_ts": 1790777333,
    "why": "close 100% at +0.2% over the average cost",
@@ -7205,14 +7208,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 10:38",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "383579d2",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 444.939,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 10:08",
    "created_ts": 1790777333,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7222,7 +7227,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-30 10:38",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cced00c4",
@@ -7419,5 +7426,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-09-30 10:36"
+ "updated": "2026-09-30 10:38"
 }

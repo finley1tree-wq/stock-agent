@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-30T10:36-04:00",
+ "asOf": "2026-09-30T10:38-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -156,21 +156,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "acbe23a4",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 348.4635,
-   "usd": 750.0,
-   "pct_of_position": null,
+   "id": "7b3830da",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 88.9429,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.61,
-   "pct_away": -0.04,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "last": 88.71,
+   "pct_away": 0.26,
+   "good_until": "2026-10-05",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
-    "momentum",
-    "news",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -191,23 +190,6 @@
    ]
   },
   {
-   "id": "7b3830da",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 88.9429,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 88.64,
-   "pct_away": 0.34,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "b52730f4",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -215,31 +197,14 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.56,
-   "pct_away": -0.39,
+   "last": 517.45,
+   "pct_away": -0.37,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "1726ede5",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 459.7917,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 457.62,
-   "pct_away": 0.47,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -250,8 +215,8 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.56,
-   "pct_away": -0.49,
+   "last": 517.45,
+   "pct_away": -0.47,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -285,8 +250,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.09,
-   "pct_away": -1.4,
+   "last": 149.05,
+   "pct_away": -1.38,
    "good_until": "2026-09-30",
    "why": "Protective stop below entry",
    "signals": [
@@ -301,29 +266,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.09,
-   "pct_away": -1.49,
+   "last": 149.05,
+   "pct_away": -1.46,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "03866069",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 449.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 457.62,
-   "pct_away": -1.77,
-   "good_until": "2026-09-30",
-   "why": "Protective stop below day range",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -334,27 +283,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.09,
-   "pct_away": 1.84,
+   "last": 149.05,
+   "pct_away": 1.86,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "383579d2",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 444.939,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 457.62,
-   "pct_away": -2.77,
-   "good_until": "2026-10-05",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -385,8 +317,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 88.64,
-   "pct_away": -3.04,
+   "last": 88.71,
+   "pct_away": -3.12,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -402,8 +334,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 88.64,
-   "pct_away": -3.54,
+   "last": 88.71,
+   "pct_away": -3.62,
    "good_until": "2026-09-30",
    "why": "protective stop below today's low",
    "signals": [

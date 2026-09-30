@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6945.53,
-  "deployed": 232500.18,
+  "spent": 7072.18,
+  "deployed": 233250.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -11,7 +11,7 @@
     "RTX": 6.02,
     "AMD": 17.48,
     "LMT": 14.78,
-    "GOOGL": 758.55,
+    "GOOGL": 1508.55,
     "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 24.51,
@@ -24,7 +24,7 @@
     "CHRW": 4001.83,
     "MSFT": 17.81,
     "TPL": 3.17,
-    "TSM": 625.0
+    "TSM": 1.65
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -39,7 +39,7 @@
     "UNH": 9272.06,
     "CRWD": 9125.0,
     "NVDA": 12500.0,
-    "GOOGL": 10997.06,
+    "GOOGL": 11747.06,
     "AAPL": 6500.0,
     "AMZN": 4500.0,
     "HD": 3947.24,
@@ -3852,24 +3852,66 @@
       "evidence": "GOOGL +3.28% 1d, +4.23% 5d, headline 'AI companies just signed a White House accord' 2026-09-30",
       "trigger": "buy_limit",
       "hold_minutes": 30
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.152306,
+      "price": 348.46,
+      "date": "2026-09-30",
+      "time_et": "10:38",
+      "ts": 1790778900,
+      "why": "wanted it, but not at the high \u2014 resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "GOOGL +3.09% today, pct_of_day_range 92.3, headline on Trump/AI leaders meeting with Karp/Huang",
+      "trigger": "buy_limit",
+      "hold_minutes": 30
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 1.362541,
+      "status": "filled",
+      "price": 457.49,
+      "proceeds": 623.35,
+      "realized_pnl": -1.65,
+      "realized_pct": -0.26,
+      "date": "2026-09-30",
+      "time_et": "10:38",
+      "ts": 1790779127,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.24% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 6813.4,
-  "deployed_today": 28250.0,
-  "orders_today": 12,
-  "sells_today": 7,
+  "spent_today": 6940.05,
+  "deployed_today": 29000.0,
+  "orders_today": 13,
+  "sells_today": 8,
   "sold_today": [
     "NOC",
     "TTD",
     "ACN",
     "RTX",
     "AVGO",
-    "NEM"
+    "NEM",
+    "TSM"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
-    "TSM": 1790696391,
+    "TSM": 1790779127,
     "LEN": 1790602749,
     "AMD": 1790704804,
     "ACN": 1790775623,
@@ -3898,25 +3940,21 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790778995,
-  "last_check_ts": 1790779041,
+  "last_publish_ts": 1790779127,
+  "last_check_ts": 1790779127,
   "last_bar_ts": 1790778900,
   "last_decision_ts": 1790778311,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "acbe23a4": 348.4635,
-    "315fea1e": 349.59,
     "7b3830da": 88.9429,
+    "315fea1e": 349.59,
     "b52730f4": 515.5548,
-    "1726ede5": 459.7917,
     "7460935d": 515.0325,
     "8e51abdd": 346.1249,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
-    "03866069": 449.5,
     "eb12b0c1": 151.8279,
-    "383579d2": 444.939,
     "74534bb9": 338.142,
     "b70c7b0d": 85.942,
     "827206c6": 85.5
