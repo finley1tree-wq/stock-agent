@@ -20535,3 +20535,17 @@ Decision: nothing at this check. 20 standing order(s) working.
 - SELL 100% MSFT [time stop] -> $549.90 (-0.02%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% AMD [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 13:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 13:49 ET (Wednesday) — week 2026-W40 — budget left $22752.32 (today $42225.00 put to work, 39 buys, 32 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +46.5% in a day looks like a bad tick)
+brain: It's 13:49 ET, past the no_new_entries_after_et cutoff (14:00 is only 11 minutes away and orders_today=39/sells_today=32 show heavy churn already today with poor realized results - track_record shows intraday_limit/time_stop signals at -0.19% avg with only 23% hit rate). With no_new_entries_this_check effectively about to trigger and only 3 small positions (AVGO, CRWD, TSM) all opened in the last 61 minutes and already carrying auto-bracket stops/take-profits, I'll let the existing working orders (stop_loss/take_profit on all 3 positions, plus resting buy_limits on GOOGL/MSFT/ACN for later re-entry) do their job rather than force new market buys this close to cutoff which risk guardrail rejection or poor fills. The existing standing orders already cover reasonable protection and entries.
+lesson: Near the 14:00 cutoff with resting buy_limit triggers already covering diversification, avoid adding fresh market orders that risk guardrail rejection - let standing orders work and focus on protecting open positions.
+portfolio: equity $25211.97 (+0.85% on $25000.00 in) · cash $23083.92 · realised +208.92
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
