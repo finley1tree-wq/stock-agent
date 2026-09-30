@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "46336fe5",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 286.5,
-   "status": "cancelled",
-   "created": "2026-09-28 09:56",
-   "created_ts": 1790603769,
-   "why": "protective stop on new HD position",
-   "evidence": "ATR 2.18%, cap loss ~1.75% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 10:07",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6f85c6fe",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 296.5,
-   "status": "cancelled",
-   "created": "2026-09-28 09:56",
-   "created_ts": 1790603769,
-   "why": "lock in gain on half position",
-   "evidence": "take partial profit at ~1.7% gain",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-28 10:07",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6ce04472",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 216.5,
-   "status": "cancelled",
-   "created": "2026-09-28 09:56",
-   "created_ts": 1790603769,
-   "why": "protective stop on new IBM position",
-   "evidence": "ATR 3.49%, cap loss ~2.1% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 10:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "d047925e",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -6526,7 +6472,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 265.6344,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 11:28",
    "created_ts": 1790782125,
    "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
@@ -6537,7 +6483,8 @@
     "patience"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-30 13:18"
   },
   {
    "id": "b95b79e2",
@@ -7413,7 +7360,58 @@
    "usd": 500.0,
    "closed": "2026-09-30 13:17",
    "cancel_reason": "time stop closed the position"
+  },
+  {
+   "id": "2f36f7e5",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 267.0591,
+   "status": "working",
+   "created": "2026-09-30 13:18",
+   "created_ts": 1790788726,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $265.63",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "43c07acb",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 262.0599,
+   "status": "working",
+   "created": "2026-09-30 13:18",
+   "created_ts": 1790788726,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $265.63",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e6340ad5",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 257.6611,
+   "status": "working",
+   "created": "2026-09-30 13:18",
+   "created_ts": 1790788726,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $265.63",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-30 13:16"
+ "updated": "2026-09-30 13:18"
 }

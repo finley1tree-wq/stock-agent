@@ -1,7 +1,3 @@
-~ WORKING stop_loss 100% AVGO @ $348.00 until 2026-09-30 — Protective stop below entry
-~ WORKING stop_loss 100% ACN @ $173.00 until 2026-09-30 — Protective stop below entry
-~ WORKING stop_loss 100% TTD @ $11.50 until 2026-09-30 — Protective stop below entry given high volatility name
-~ WORKING take_profit 100% NOC @ $483.25 until 2026-10-05 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 NOC @ $467.46 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% RTX @ $185.98 until 2026-10-05 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 RTX @ $180.00 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +394,7 @@ Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week
   (dropped ACN: sold 31 min ago, cooling off)
 - SELL 100% NOC [time stop] -> $373.74 (-0.34%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 13:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped ACN: sold 32 min ago, cooling off)
+  (dropped ACN: sold 32 min ago, cooling off)
+- BUY $500.00 CRWD [buy_limit @ $265.63] — wanted it, but not at the high — resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h
+## 2026-09-30 13:18 ET — tick — 0 sell(s), 1 buy(s) from standing orders

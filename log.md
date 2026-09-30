@@ -20508,3 +20508,22 @@ Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week
   (dropped ACN: sold 31 min ago, cooling off)
 - SELL 100% NOC [time stop] -> $373.74 (-0.34%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 13:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped ACN: sold 32 min ago, cooling off)
+  (dropped ACN: sold 32 min ago, cooling off)
+- BUY $500.00 CRWD [buy_limit @ $265.63] — wanted it, but not at the high — resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h
+## 2026-09-30 13:18 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-30 13:18 ET (Wednesday) — week 2026-W40 — budget left $22827.15 (today $41100.00 put to work, 37 buys, 30 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +48.0% in a day looks like a bad tick)
+  (dropped ACN: sold 33 min ago, cooling off)
+brain: no_new_entries_after_et is 14:00 and it's 13:18, so a new buy placed now would need to fill within minutes - risky. I already have 4 positions (MSFT, AMD, AVGO, CRWD) each with auto-bracket take_profit/stop_loss and scale-in buy_limits working, which covers protection. Existing resting buy_limit triggers on CRWD/TSM/ACN/MSFT/GOOGL are already working toward min_positions without chasing at today's high prices (several names are 50-80% of day range). Rather than add fresh market buys this close to cutoff (which the guardrail would convert to limits anyway per max_entry_range_pct), I'll let existing triggers work and check back in 30 min once past the entries cutoff to manage the book with sells/stops only.
+lesson: Working buy_limit triggers placed earlier already cover diversification toward min_positions; near the 14:00 cutoff, adding fresh market orders risks guardrail rejection/chasing, so let resting limits do the work and focus subsequent checks on protecting/managing the 4 open positions.
+portfolio: equity $25207.52 (+0.83% on $25000.00 in) · cash $23158.75 · realised +208.75
+Decision: nothing at this check. 20 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

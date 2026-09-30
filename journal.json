@@ -47644,7 +47644,7 @@
     "code_version": "4daf6a7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.18
   },
   {
     "symbol": "ACN",
@@ -47700,7 +47700,7 @@
     "code_version": "4daf6a7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": 0.25
   },
   {
     "symbol": "NVDA",
@@ -47830,7 +47830,9 @@
     "code_version": "c34644d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.07,
+    "ret_final": -0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -47857,7 +47859,9 @@
     "code_version": "c34644d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.27,
+    "ret_final": -0.27,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -47884,7 +47888,9 @@
     "code_version": "c34644d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": -0.23,
+    "ret_final": -0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "AAPL",
@@ -47984,7 +47990,8 @@
     "hour_et": 12,
     "code_version": "aabe822",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.16
   },
   {
     "symbol": "NOC",
@@ -48009,7 +48016,10 @@
     "hour_et": 12,
     "code_version": "aabe822",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.34,
+    "ret_now": -0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "HD",
@@ -48033,7 +48043,8 @@
     "evidence": "bought 30 min ago, -0.05% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "243565e"
+    "code_version": "243565e",
+    "hold_minutes": 29
   },
   {
     "symbol": "IBM",
@@ -48057,7 +48068,8 @@
     "evidence": "bought 30 min ago, -0.25% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "243565e"
+    "code_version": "243565e",
+    "hold_minutes": 29
   },
   {
     "symbol": "CCJ",
@@ -48081,7 +48093,8 @@
     "evidence": "bought 30 min ago, -0.19% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "243565e"
+    "code_version": "243565e",
+    "hold_minutes": 29
   },
   {
     "symbol": "NOC",
@@ -48104,6 +48117,37 @@
     "evidence": "bought 30 min ago, -0.30% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "d2da60a"
+    "code_version": "d2da60a",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "CRWD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.882286,
+    "price": 265.63,
+    "date": "2026-09-30",
+    "time_et": "13:18",
+    "ts": 1790788500,
+    "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
+    "signals": [
+      "momentum",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "'CoreWeave Launches Partner Network for AI Cloud Integrations' and 'Palo Alto CEO Said The Quiet Part About AI Aloud' both 2026-09-30, CRWD +2% today +16% 1m",
+    "trigger": "buy_limit",
+    "hold_minutes": 90,
+    "entry_price": 265.6344,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 14.81,
+    "hour_et": 13,
+    "code_version": "c60c810",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.08
   }
 ]
