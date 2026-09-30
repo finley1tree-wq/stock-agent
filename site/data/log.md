@@ -1,6 +1,3 @@
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DTIL excluded: too thinly traded ($2.2M a day) — Precision BioSciences, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so there is nothing actionable - any buy orders would be dropped per guardrails. Sitting out this check respects the cutoff rather than forcing a doomed order.
 lesson: When no_new_entries_this_check is true and positions_held is 0, do not attempt buys - they will be dropped; wait for the next check.
 portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
@@ -398,3 +395,6 @@ portfolio: equity $25216.34 (+0.87% on $25000.00 in) · cash $21246.70 · realis
 Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20915.10 this week
 - SELL 100% FWONK [time stop] -> $622.63 (-0.38%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 12:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $373.89 (-0.30%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CRWD [time stop] -> $422.35 (-0.62%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 12:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders

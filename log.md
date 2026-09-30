@@ -20438,3 +20438,6 @@ portfolio: equity $25216.34 (+0.87% on $25000.00 in) · cash $21246.70 · realis
 Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20915.10 this week
 - SELL 100% FWONK [time stop] -> $622.63 (-0.38%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 12:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $373.89 (-0.30%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CRWD [time stop] -> $422.35 (-0.62%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 12:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -7074,7 +7074,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 450.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 12:00",
    "created_ts": 1790784007,
    "why": "cap downside on new TSM position",
@@ -7083,14 +7083,16 @@
     "risk_management"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 12:30",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5f3912be",
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 261.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 12:00",
    "created_ts": 1790784007,
    "why": "cap downside on new CRWD position",
@@ -7099,7 +7101,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 12:30",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "2116370e",
@@ -7125,7 +7129,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 461.1687,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 12:00",
    "created_ts": 1790784007,
    "why": "close 100% at +0.2% over the average cost",
@@ -7135,14 +7139,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 12:30",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f0f53b7e",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 446.2582,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 12:00",
    "created_ts": 1790784007,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7152,14 +7158,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-30 12:30",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0d6f47d1",
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 268.976,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 12:00",
    "created_ts": 1790784007,
    "why": "close 100% at +0.5% over the average cost",
@@ -7169,14 +7177,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 12:30",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "af7b1017",
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 259.5235,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 12:00",
    "created_ts": 1790784007,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7186,7 +7196,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-30 12:30",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "282849c0",
