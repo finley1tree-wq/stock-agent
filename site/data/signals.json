@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-30T11:03-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-09-30T11:08-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,34 +156,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3adc8ab0",
-   "ticker": "SKWD",
-   "kind": "take_profit",
-   "price": 53.3743,
+   "id": "3ed66487",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 127.36,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.22,
-   "pct_away": 0.29,
+   "last": 127.48,
+   "pct_away": -0.09,
    "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "eff905f1",
-   "ticker": "FWONK",
-   "kind": "take_profit",
-   "price": 93.7879,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 93.51,
-   "pct_away": 0.3,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,10 +180,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 127.18,
-   "pct_away": 0.36,
+   "last": 127.48,
+   "pct_away": 0.13,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3adc8ab0",
+   "ticker": "SKWD",
+   "kind": "take_profit",
+   "price": 53.3743,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.21,
+   "pct_away": 0.31,
+   "good_until": "2026-10-05",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 458.02,
-   "pct_away": 0.43,
+   "last": 458.55,
+   "pct_away": 0.32,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -231,14 +231,31 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.87,
-   "pct_away": -0.45,
+   "last": 517.78,
+   "pct_away": -0.43,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
    "signals": [
     "momentum",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "eff905f1",
+   "ticker": "FWONK",
+   "kind": "take_profit",
+   "price": 93.7879,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 93.32,
+   "pct_away": 0.5,
+   "good_until": "2026-10-05",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -249,8 +266,8 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 517.87,
-   "pct_away": -0.55,
+   "last": 517.78,
+   "pct_away": -0.53,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -260,17 +277,17 @@
    ]
   },
   {
-   "id": "f06f13e1",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 126.0227,
+   "id": "4756ad2e",
+   "ticker": "NLR",
+   "kind": "take_profit",
+   "price": 105.5989,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 127.18,
-   "pct_away": -0.91,
+   "last": 104.91,
+   "pct_away": 0.66,
    "good_until": "2026-10-05",
-   "why": "close it all at -0.9% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -284,31 +301,14 @@
    "usd": 625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 40.51,
-   "pct_away": -0.99,
+   "last": 40.46,
+   "pct_away": -0.87,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens ",
    "signals": [
     "congress",
     "momentum",
     "patience"
-   ]
-  },
-  {
-   "id": "4756ad2e",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 105.5989,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.45,
-   "pct_away": 1.1,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -319,8 +319,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.45,
-   "pct_away": -1.48,
+   "last": 104.91,
+   "pct_away": -1.92,
    "good_until": "2026-09-30",
    "why": "protective stop ~2.1% below entry",
    "signals": [
@@ -335,10 +335,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 458.02,
-   "pct_away": -1.97,
+   "last": 458.55,
+   "pct_away": -2.08,
    "good_until": "2026-09-30",
    "why": "protective stop ~2% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "ed40a942",
+   "ticker": "FWONK",
+   "kind": "stop_loss",
+   "price": 91.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 93.32,
+   "pct_away": -2.49,
+   "good_until": "2026-09-30",
+   "why": "cap downside on new FWONK position",
    "signals": [
     "risk_management"
    ]
@@ -351,8 +367,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.45,
-   "pct_away": -2.27,
+   "last": 104.91,
+   "pct_away": -2.69,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -361,31 +377,15 @@
    ]
   },
   {
-   "id": "ed40a942",
+   "id": "63a1f59f",
    "ticker": "FWONK",
-   "kind": "stop_loss",
-   "price": 91.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 93.51,
-   "pct_away": -2.68,
-   "good_until": "2026-09-30",
-   "why": "cap downside on new FWONK position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "7157785f",
-   "ticker": "HUBB",
    "kind": "buy_limit",
-   "price": 444.9002,
+   "price": 90.7338,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 458.02,
-   "pct_away": -2.86,
+   "last": 93.32,
+   "pct_away": -2.77,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -401,29 +401,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.22,
-   "pct_away": -2.86,
+   "last": 53.21,
+   "pct_away": -2.84,
    "good_until": "2026-09-30",
    "why": "cap downside on new SKWD position",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "63a1f59f",
-   "ticker": "FWONK",
-   "kind": "buy_limit",
-   "price": 90.7338,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 93.51,
-   "pct_away": -2.97,
-   "good_until": "2026-10-05",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -434,7 +417,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.22,
+   "last": 53.21,
+   "pct_away": -2.96,
+   "good_until": "2026-10-05",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7157785f",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 444.9002,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 458.55,
    "pct_away": -2.98,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -451,8 +451,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 127.18,
-   "pct_away": -3.0,
+   "last": 127.48,
+   "pct_away": -3.23,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
