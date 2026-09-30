@@ -1,25 +1,3 @@
-lesson: Batch 4-5 named-evidence buys with immediate stops when below min_positions and idle cash is high; use buy_limit triggers for names still in cooldown rather than waiting idle.
-  (dropped GOOGL: sold 17 min ago, cooling off)
-  (dropped TSM: 89% up today's range — resting a limit at $453.14 instead of chasing)
-- BUY $2500.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure plus pullback entry near day low, diversifies into semis | evidence: Rep. Rick W. Allen (spouse) disclosed AVGO buy filed 2026-09-22; AVGO +1.72% today, only 1.8% of day range (near low)
-- BUY $2000.00 CCJ [filled] ['congress', 'momentum'] — Nuclear sector historically strong per backtest, CCJ near day low offers entry after selloff | evidence: congress_net_buy_pressure not listed but CCJ down -8.7% 5d, -13.65% 1m, at 12.5% of day range - deep pullback in nuclear theme with strong 2y backtest sector return (282%)
-- BUY $1500.00 HLI [filled] ['congress'] — Congress buy pressure name at 15.4% of day range, adds fifth position for diversification | evidence: congress_net_buy_pressure HLI=2.0, April McClain Delaney disclosed buys 2026-09-09
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger TSM buy_limit: duplicate of a working order)
-~ WORKING stop_loss 100% AVGO @ $345.50 until 2026-09-29 — Protective stop on new AVGO position per desk rule
-~ WORKING stop_loss 100% CCJ @ $83.80 until 2026-09-29 — Protective stop on new CCJ position per desk rule
-~ WORKING buy_limit $2000.00 GOOGL @ $337.50 until 2026-09-29 — Wait for cooldown to clear and get a better entry below current price
-~ WORKING stop_loss 100% HLI @ $123.00 until 2026-09-29 — Protective stop on new HLI position per desk rule
-~ WORKING take_profit 100% AVGO @ $356.77 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $345.00 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $86.73 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $83.80 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HLI @ $127.67 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 HLI @ $123.35 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25234.85 (+0.94% on $25000.00 in) · cash $9745.56 · realised +245.56
-Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $9413.98 this week
-- SELL 100% CHRW [time stop] -> $2498.17 (-0.07%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% MSFT [time stop] -> $2482.19 (-0.71%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% TTD [time stop] -> $2485.89 (-0.56%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% ACN [time stop] -> $1997.94 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 13:12 ET — tick — 4 sell(s), 0 buy(s) from standing orders
@@ -398,3 +376,25 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21516.96 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [stop_loss @ $127.30] -> $625.55 (+0.09%) — close it all at -0.9% under the average cost
 ## 2026-09-30 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 11:28 ET (Wednesday) — week 2026-W40 — budget left $22142.51 (today $33125.00 put to work, 20 buys, 13 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (bad quote TNON: +48.5% in a day looks like a bad tick)
+brain: Only 5 positions held vs min_positions 8, cash_idle_pct 88.6% - need to deploy more. Adding ACN (congress pressure + earnings headline), TSM (news catalyst on Texas expansion), and CRWD (dual same-day AI infra headlines) to diversify sectors beyond the current nuclear/industrial/consumer cluster, each with concrete evidence and immediate stop-loss protection. Avoiding GOOGL/MSFT/HLI/CHRW due to active cooldowns.
+lesson: Even with full_deployment mandate, always pair new-name buys with an explicit protective stop_loss trigger in the same call rather than relying solely on auto_bracket defaults.
+  (dropped ACN: 93% up today's range — resting a limit at $180.69 instead of chasing)
+  (dropped TSM: 95% up today's range — resting a limit at $458.44 instead of chasing)
+  (dropped CRWD: 87% up today's range — resting a limit at $265.63 instead of chasing)
+  (dropped trigger TSM stop_loss: not held)
+  (dropped trigger CRWD stop_loss: not held)
+  (dropped trigger ACN stop_loss: not held)
+~ WORKING buy_limit $500.00 ACN @ $180.69 until 2026-09-30 — wanted it, but not at the high — resting at $180.69. Add ACN with a resting limit below market rather than chasing the high; existing working buy_limit at 180.33 covers this, adding fresh evidence-backed conviction [probation at 25% size (n
+~ WORKING buy_limit $625.00 TSM @ $458.44 until 2026-09-30 — wanted it, but not at the high — resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa
+~ WORKING buy_limit $500.00 CRWD @ $265.63 until 2026-09-30 — wanted it, but not at the high — resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h
+portfolio: equity $25215.02 (+0.86% on $25000.00 in) · cash $22474.12 · realised +224.12
+Decision: nothing at this check. 24 standing order(s) working.

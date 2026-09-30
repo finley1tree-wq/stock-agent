@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "e68c3e7d",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 166.5,
-   "status": "cancelled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "Protective stop",
-   "evidence": "ATR 3.94%, day low 173.0",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7fc09325",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 231.0939,
-   "status": "filled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "wanted it, but not at the high \u2014 resting at $231.09. Positive momentum with major buyback catalyst, strong day-range strength",
-   "evidence": "NVDA +3.1% 1d, 87.9% of day range, board authorized record $150B buyback per WSJ headline",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 4500.0,
-   "closed": "2026-09-28 09:53"
-  },
-  {
-   "id": "ca050240",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 251.0145,
-   "status": "filled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "wanted it, but not at the high \u2014 resting at $251.01. High in day range with positive momentum and bullish media coverage, despite CFO insider selling noted",
-   "evidence": "CRWD +0.54% 1d, 85.3% of day range; Motley Fool 'Jim Cramer Says Buy 2 AI Stocks Up 875% and 1,400% Since 2023'",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 3000.0,
-   "closed": "2026-09-28 09:51"
-  },
-  {
    "id": "5783a960",
    "ticker": "LEN",
    "kind": "take_profit",
@@ -7402,7 +7346,61 @@
    ],
    "good_until": "2026-10-05",
    "usd": 500.0
+  },
+  {
+   "id": "93318e7b",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 180.6924,
+   "status": "working",
+   "created": "2026-09-30 11:28",
+   "created_ts": 1790782125,
+   "why": "wanted it, but not at the high \u2014 resting at $180.69. Add ACN with a resting limit below market rather than chasing the high; existing working buy_limit at 180.33 covers this, adding fresh evidence-backed conviction [probation at 25% size (n",
+   "evidence": "Congress net_buy_pressure 2.0 (Rep. Scott Franklin, Gilbert Ray Cisneros disclosed buys) + 'Accenture Fiscal Q4 Earnings Due As AI Impacts Business' headline; ACN up 3.18% today but pct_of_day_range 9",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
+  },
+  {
+   "id": "bff5b513",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 458.442,
+   "status": "working",
+   "created": "2026-09-30 11:28",
+   "created_ts": 1790782125,
+   "why": "wanted it, but not at the high \u2014 resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa",
+   "evidence": "'TSMC Reportedly Weighs Texas Chip Investment On Top Of $265B Arizona Push' 2026-09-30, 1m momentum +11%, 5d +3.24%",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 625.0
+  },
+  {
+   "id": "8f0cda95",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 265.6344,
+   "status": "working",
+   "created": "2026-09-30 11:28",
+   "created_ts": 1790782125,
+   "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
+   "evidence": "'CoreWeave Launches Partner Network for AI Cloud Integrations' and 'Palo Alto CEO Said The Quiet Part About AI Aloud' both 2026-09-30, CRWD +2% today +16% 1m",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-30 11:23"
+ "updated": "2026-09-30 11:28"
 }
