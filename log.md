@@ -20532,3 +20532,6 @@ Decision: nothing at this check. 20 standing order(s) working.
 - BUY $500.00 CRWD [buy_limit @ $265.14] — wanted it, but not at the high — resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha
 - BUY $625.00 TSM [buy_limit @ $458.44] — wanted it, but not at the high — resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa
 ## 2026-09-30 13:21 ET — tick — 0 sell(s), 2 buy(s) from standing orders
+- SELL 100% MSFT [time stop] -> $549.90 (-0.02%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% AMD [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 13:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
