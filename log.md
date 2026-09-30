@@ -20089,3 +20089,39 @@ portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-29 16:00 ET — published the session's closing state
+
+## 2026-09-30 09:32 ET (Wednesday) — week 2026-W40 — budget left $24867.87 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Book is completely flat (0 positions, 99.5% idle cash) despite min_positions=8 requirement and full_deployment active - this is the largest error I can make per counterfactual_learning (idle_share 0.54, idle_universe positive). I'm deploying into 6 names with concrete evidence: congress disclosures (CHRW/HUBB/LTH top scorers, ACN, AVGO, TTD all have named filers), and fresh news catalysts (NOC dip on Boeing news, RTX AMRAAM contract). Sizing at $4000 each keeps within max_per_ticker/sector limits while getting meaningfully invested; auto_bracket/risk_management signals have shown 0.17-0.18% avg with 88% hit rate historically so I'm adding explicit stops on each.
+lesson: Never let the book sit at 0 positions with 99% idle cash for multiple checks - deploy into evidence-backed names immediately per owner's explicit full_deployment instruction rather than waiting for a "perfect" setup.
+- BUY $4000.00 NOC [filled] ['news', 'momentum'] — Defense sector oversold on competitor headline, buying the dip low in day range (5.9% of range) | evidence: NOC -4.53% today on Boeing's $20B Navy fighter jet contract win (Boeing Stock Rises After Pentagon Picks It for Navy Fighter) - overreaction dip in low-of-range defense name, ATR 2.49%
+- BUY $4000.00 RTX [filled] ['news'] — Concrete large new defense contract headline, price near mid-range (46%) not chased | evidence: RTX (RTX) Lands $20.7 Billion AMRAAM Deal Under Arsenal Of Freedom - Simply Wall St 2026-09-30
+- BUY $4000.00 CHRW [filled] ['congress', 'news'] — Top congress buy-pressure score in the list, already held profitably per track record signal congress avg 0.36% chosen | evidence: Rep. April McClain Delaney disclosed buys in CHRW (congress_net_buy_pressure 3.0, highest score); +1.1% today
+- BUY $4000.00 AVGO [filled] ['insider', 'news'] — Multiple insider/congress buy signals plus AI semiconductor demand headline | evidence: Rep. Rick W. Allen and David J. Taylor disclosed AVGO buys; congress_net_buy_pressure 2.0; Motley Fool 'Broadcom vs NVIDIA: Which is a Better Buy' 2026-09-30
+- BUY $4000.00 ACN [filled] ['congress', 'news'] — Congress buy pressure plus earnings catalyst tomorrow, price mid-range 53.5% | evidence: Rep. Scott Franklin and Gilbert Ray Cisneros disclosed ACN buys (congress_net_buy_pressure 2.0); 'Accenture Fiscal Q4 Earnings Due As AI Impacts Business' IBD 2026-09-30
+- BUY $4000.00 TTD [filled] ['congress', 'news'] — Congress buying pressure, deeply oversold (9 straight down days), low in day range for entry | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buys twice (congress_net_buy_pressure 2.0); price at 16.7% of day range - low, after 9 straight down days per Trefis headline
+~ WORKING stop_loss 100% NOC @ $465.00 until 2026-09-30 — Protective stop ~3.5% below entry given elevated volatility today
+~ WORKING stop_loss 100% RTX @ $180.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% CHRW @ $147.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% AVGO @ $348.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% ACN @ $173.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% TTD @ $11.50 until 2026-09-30 — Protective stop below entry given high volatility name
+~ WORKING take_profit 100% NOC @ $483.25 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $467.46 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $185.98 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $180.00 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $151.83 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $146.87 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $358.13 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $346.36 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $179.78 until 2026-10-05 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $173.65 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.10 until 2026-10-05 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $11.68 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25190.61 (+0.76% on $25000.00 in) · cash $1199.47 · realised +199.47
+Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week

@@ -161,3 +161,4 @@
 - 2026-09-29 (7d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions_held is 0, do not attempt buys - they will be dropped; wait for the next check.
 - 2026-09-29 (7d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable this session; respect the cutoff.
 - 2026-09-29 (7d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and checks_left_today is 0, the session is over - confirm there are no open positions needing protection and stop, rather than proposing buys that will be dropped.
+- 2026-09-30 (8d graded, realised 0.01% per dollar): Never let the book sit at 0 positions with 99% idle cash for multiple checks - deploy into evidence-backed names immediately per owner's explicit full_deployment instruction rather than waiting for a "perfect" setup.

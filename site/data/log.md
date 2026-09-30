@@ -1,39 +1,3 @@
-- BUY $2500.00 IBM [filled] ['congress', 'momentum'] — Diversify into widely_held tech with positive day momentum and congress interest; not currently held or cooling off | evidence: IBM +0.39% today, congress net buy pressure disclosed, not in cooldown
-- BUY $2500.00 CRWD [filled] ['news', 'momentum'] — Re-enter CRWD; congress pressure=2 plus mid-range entry avoids chasing the high | evidence: CRWD price 259.11, day range 52.8%, congress_net_buy_pressure 2.0, sold earlier today but cooldown already expired (not in cooling_off_minutes_left list)
-- BUY $2500.00 HUBB [filled] ['congress'] — Strongest congress buy-pressure score on the list, not in cooldown, reasonable entry at 6.6% of day range | evidence: congress_net_buy_pressure 3.0 (highest on list), disclosed buyer April McClain Delaney with multiple buy filings
-  (dropped trigger AVGO take_profit: duplicate of a working order)
-~ WORKING stop_loss 100% IBM @ $216.00 until 2026-09-29 — Protective stop per risk_management best-performing signal
-~ WORKING stop_loss 100% CRWD @ $252.50 until 2026-09-29 — Protective stop per risk_management best-performing signal
-~ WORKING stop_loss 100% HUBB @ $450.00 until 2026-09-29 — Protective stop per risk_management best-performing signal
-~ WORKING take_profit 100% IBM @ $222.37 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $214.93 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $260.56 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 CRWD @ $251.39 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HUBB @ $463.92 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HUBB @ $448.70 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25256.08 (+1.02% on $25000.00 in) · cash $12756.52 · realised +256.52
-Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $12424.94 this week
-- BUY $2500.00 MSFT [buy_limit @ $507.99] — wanted it, but not at the high — resting at $507.99. Congress buy pressure plus positive momentum, not cooling off
-- SELL 100% AVGO [time stop] -> $2486.04 (-0.56%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% ACN [time stop] -> $2500.30 (+0.01%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 11:22 ET — tick — 2 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-29 11:23 ET (Tuesday) — week 2026-W40 — budget left $14911.28 (today $52000.00 put to work, 22 buys, 19 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Still below min_positions (4 of 8) with 59.6% cash idle - counterfactual data shows idleness has cost, and past lessons (though unproven) consistently flag under-deployment as the recurring mistake. Adding 4 names across defense/nuclear/semis/consulting sectors, each with concrete evidence (named congress filer or day-range low entry), sized at $2,500 each, all paired with ATR-based stop_losses per the best-performing signal (risk_management/auto_bracket at 88% hit rate). Avoiding cooled-off names (PLTR, ACN is not in cooldown list, GOOGL, NVDA, AVGO) and avoiding momentum-only entries per guardrail.
-lesson: Batching 3-4 new names per check with named-evidence signals (congress filer, day-range-low entry) and immediate stop_loss triggers is the path to min_positions without waiting on cooldowns.
-  (dropped ACN: sold 1 min ago, cooling off)
-- BUY $2500.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear sector diversification at a low point in day range, not chasing | evidence: CCJ at 8.8% of day range ($86.31, low $86.09) after -8.75% 5d pullback; nuclear sector track_record avg_ret -0.17% but low entry point reduces downside
-- BUY $2500.00 RTX [filled] ['news', 'track_record'] — Defense sector diversification at day low, adds a fifth uncorrelated name | evidence: RTX at 2.1% of day range ($186.58, low $186.52), defense sector hit_rate 0.55 in track record
-- BUY $2500.00 TSM [filled] ['congress', 'momentum'] — Semis exposure with named congress buy; existing buy_limit at 452.57 resting, adding smaller market-ish position since price ran up | evidence: Rep. Rick W. Allen (spouse) bought TSM disclosed 2026-09-22; TSM +9.2% 1m momentum, currently 80% of day range so using limit not market
-  (dropped trigger ACN stop_loss: not held)
-~ WORKING stop_loss 100% CCJ @ $83.50 until 2026-09-29 — protective stop per risk_management best-performing signal
-~ WORKING stop_loss 100% RTX @ $181.50 until 2026-09-29 — protective stop per risk_management best-performing signal
 ~ WORKING stop_loss 100% TSM @ $443.00 until 2026-09-29 — protective stop per risk_management best-performing signal
 ~ WORKING take_profit 100% CCJ @ $86.68 until 2026-10-04 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 CCJ @ $83.75 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +362,39 @@ portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-29 16:00 ET — published the session's closing state
+
+## 2026-09-30 09:32 ET (Wednesday) — week 2026-W40 — budget left $24867.87 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Book is completely flat (0 positions, 99.5% idle cash) despite min_positions=8 requirement and full_deployment active - this is the largest error I can make per counterfactual_learning (idle_share 0.54, idle_universe positive). I'm deploying into 6 names with concrete evidence: congress disclosures (CHRW/HUBB/LTH top scorers, ACN, AVGO, TTD all have named filers), and fresh news catalysts (NOC dip on Boeing news, RTX AMRAAM contract). Sizing at $4000 each keeps within max_per_ticker/sector limits while getting meaningfully invested; auto_bracket/risk_management signals have shown 0.17-0.18% avg with 88% hit rate historically so I'm adding explicit stops on each.
+lesson: Never let the book sit at 0 positions with 99% idle cash for multiple checks - deploy into evidence-backed names immediately per owner's explicit full_deployment instruction rather than waiting for a "perfect" setup.
+- BUY $4000.00 NOC [filled] ['news', 'momentum'] — Defense sector oversold on competitor headline, buying the dip low in day range (5.9% of range) | evidence: NOC -4.53% today on Boeing's $20B Navy fighter jet contract win (Boeing Stock Rises After Pentagon Picks It for Navy Fighter) - overreaction dip in low-of-range defense name, ATR 2.49%
+- BUY $4000.00 RTX [filled] ['news'] — Concrete large new defense contract headline, price near mid-range (46%) not chased | evidence: RTX (RTX) Lands $20.7 Billion AMRAAM Deal Under Arsenal Of Freedom - Simply Wall St 2026-09-30
+- BUY $4000.00 CHRW [filled] ['congress', 'news'] — Top congress buy-pressure score in the list, already held profitably per track record signal congress avg 0.36% chosen | evidence: Rep. April McClain Delaney disclosed buys in CHRW (congress_net_buy_pressure 3.0, highest score); +1.1% today
+- BUY $4000.00 AVGO [filled] ['insider', 'news'] — Multiple insider/congress buy signals plus AI semiconductor demand headline | evidence: Rep. Rick W. Allen and David J. Taylor disclosed AVGO buys; congress_net_buy_pressure 2.0; Motley Fool 'Broadcom vs NVIDIA: Which is a Better Buy' 2026-09-30
+- BUY $4000.00 ACN [filled] ['congress', 'news'] — Congress buy pressure plus earnings catalyst tomorrow, price mid-range 53.5% | evidence: Rep. Scott Franklin and Gilbert Ray Cisneros disclosed ACN buys (congress_net_buy_pressure 2.0); 'Accenture Fiscal Q4 Earnings Due As AI Impacts Business' IBD 2026-09-30
+- BUY $4000.00 TTD [filled] ['congress', 'news'] — Congress buying pressure, deeply oversold (9 straight down days), low in day range for entry | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buys twice (congress_net_buy_pressure 2.0); price at 16.7% of day range - low, after 9 straight down days per Trefis headline
+~ WORKING stop_loss 100% NOC @ $465.00 until 2026-09-30 — Protective stop ~3.5% below entry given elevated volatility today
+~ WORKING stop_loss 100% RTX @ $180.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% CHRW @ $147.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% AVGO @ $348.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% ACN @ $173.00 until 2026-09-30 — Protective stop below entry
+~ WORKING stop_loss 100% TTD @ $11.50 until 2026-09-30 — Protective stop below entry given high volatility name
+~ WORKING take_profit 100% NOC @ $483.25 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $467.46 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $185.98 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $180.00 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $151.83 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $146.87 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $358.13 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $346.36 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $179.78 until 2026-10-05 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $173.65 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.10 until 2026-10-05 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $11.68 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25190.61 (+0.76% on $25000.00 in) · cash $1199.47 · realised +199.47
+Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
