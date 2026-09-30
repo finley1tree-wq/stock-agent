@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 16079.94,
+  "spent": 12054.28,
   "deployed": 228250.18,
   "by_ticker": {
     "AVGO": 4025.16,
@@ -23,7 +23,6 @@
     "LTH": 0.78,
     "CHRW": 4001.83,
     "MSFT": 17.81,
-    "ACN": 4002.06,
     "TPL": 3.17
   },
   "deployed_by_ticker": {
@@ -3635,23 +3634,45 @@
       ],
       "evidence": "average cost $12.04",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 22.343675,
+      "status": "filled",
+      "price": 180.17,
+      "proceeds": 4025.66,
+      "realized_pnl": 25.66,
+      "realized_pct": 0.64,
+      "date": "2026-09-30",
+      "time_et": "09:40",
+      "ts": 1790775600,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $179.02",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 15947.81,
+  "spent_today": 11922.15,
   "deployed_today": 24000.0,
   "orders_today": 6,
-  "sells_today": 2,
+  "sells_today": 3,
   "sold_today": [
     "NOC",
-    "TTD"
+    "TTD",
+    "ACN"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
     "TSM": 1790696391,
     "LEN": 1790602749,
     "AMD": 1790704804,
-    "ACN": 1790701969,
+    "ACN": 1790775623,
     "MSFT": 1790701969,
     "NOC": 1790775334,
     "UNH": 1790699486,
@@ -3677,25 +3698,22 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790775497,
-  "last_check_ts": 1790775542,
-  "last_bar_ts": 1790775300,
+  "last_publish_ts": 1790775623,
+  "last_check_ts": 1790775623,
+  "last_bar_ts": 1790775600,
   "last_decision_ts": 1790775163,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "ce8fa49d": 179.7844,
-    "eb12b0c1": 151.8279,
     "32cc4a87": 185.9838,
+    "eb12b0c1": 151.8279,
     "80d101f3": 358.1341,
     "17cd58e9": 348.0,
-    "a733e85e": 180.0,
-    "dcf8bc14": 180.0029,
-    "42ea1e08": 346.3579,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
-    "ced50ee5": 173.6494,
-    "31fe5adf": 173.0
+    "42ea1e08": 346.3579,
+    "a733e85e": 180.0,
+    "dcf8bc14": 180.0029
   },
   "hold_arm": {
     "NOC": 30,

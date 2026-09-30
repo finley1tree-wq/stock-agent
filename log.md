@@ -20131,3 +20131,6 @@ Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $12.10] -> $4021.50 (+0.54%) — close 100% at +0.5% over the average cost
 ## 2026-09-30 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $180.17] -> $4025.66 (+0.64%) — close 100% at +0.4% over the average cost
+## 2026-09-30 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

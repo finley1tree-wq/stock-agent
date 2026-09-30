@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 TSM @ $442.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25227.41 (+0.91% on $25000.00 in) · cash $7742.86 · realised +242.86
-Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $7411.28 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $508.06] -> $2500.35 (+0.01%) — close it all at -0.6% under the average cost
 ## 2026-09-29 11:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $12.10] -> $4021.50 (+0.54%) — close 100% at +0.5% over the average cost
 ## 2026-09-30 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $180.17] -> $4025.66 (+0.64%) — close 100% at +0.4% over the average cost
+## 2026-09-30 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
