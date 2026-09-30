@@ -28,9 +28,11 @@ def check(name, ok, detail=""):
     return bool(ok)
 
 
-def trip(sym, hour, signals, pnl, date="2026-09-21", qty=1.0, pct=None):
+def trip(sym, hour, signals, pnl, date="2026-09-21", qty=1.0, pct=None, hold=None):
     buy = {"symbol": sym, "side": "buy", "status": "filled", "qty": qty, "date": date,
            "time_et": f"{hour:02d}:05", "hour_et": hour, "signals": signals}
+    if hold is not None:
+        buy["hold_minutes"] = hold
     sell = {"symbol": sym, "side": "sell", "status": "filled", "qty": qty, "date": date,
             "realized_pnl": pnl, "realized_pct": pct if pct is not None else pnl / 20, "trigger": "time_stop",
             "signals": signals + ["time_stop"]}
@@ -104,7 +106,52 @@ def test_settings():
     check("summary: None-safe", evolve.summary(None) == {})
 
 
+def test_hold_trial():
+    g = {"evolve": {}, "hold_trial": {}}
+    check("trial: absent -> off", evolve.trial_settings({}) is None and evolve.assign_hold({}, {}, "X", set(), None) is None)
+    st = {}
+    flips = iter([0.1, 0.9])
+    a = evolve.assign_hold(st, g, "AAA", set(), None, rng=lambda: next(flips))
+    b = evolve.assign_hold(st, g, "BBB", {"AAA"}, None, rng=lambda: next(flips))
+    check("trial: a coin picks each new position's arm", (a, b) == (30, 90), str((a, b)))
+    check("trial: an add to a held position keeps its arm",
+          evolve.assign_hold(st, g, "BBB", {"AAA", "BBB"}, None, rng=lambda: 0.0) == 90)
+    check("trial: a closed position's arm is forgotten; a rebuy gets a new coin",
+          evolve.assign_hold(st, g, "BBB", {"AAA"}, None, rng=lambda: 0.0) == 30)
+    check("trial: hold_for reads the stored arm", evolve.hold_for(st, g, "AAA", 30) == 30
+          and evolve.hold_for({"hold_arm": {"Z": 90}}, g, "Z", 30) == 90)
+    check("trial: hold_for without a trial is the default", evolve.hold_for({"hold_arm": {"Z": 90}}, {}, "Z", 30) == 30)
+    check("trial: once there is a winner every new position gets it",
+          evolve.assign_hold({}, g, "C", set(), {"hold_trial": {"winner": 90}}, rng=lambda: 0.0) == 90)
+
+    cfg = evolve.trial_settings(g)
+    random.seed(3)
+    rows = []
+    for i in range(45):
+        rows += trip(f"S{i}", 10, ["congress"], 1.0, pct=random.gauss(-0.10, 0.3), hold=30)
+        rows += trip(f"L{i}", 10, ["congress"], 3.0, pct=random.gauss(0.25, 0.3), hold=90)
+    r = evolve.trial(rows, cfg)
+    check("trial: a clearly better arm wins", r["winner"] == 90 and r["arms"]["90"]["n"] == 45, str(r))
+    later = rows + sum((trip(f"M{i}", 10, ["congress"], -5.0, pct=-2.0, hold=90) for i in range(60)), [])
+    check("trial: the verdict is final - the winner's later losses do not reopen it",
+          evolve.trial(later, cfg)["winner"] == 90)
+    young = sum((trip(f"Y{i}", 10, ["x"], 1.0, pct=1.0 if i % 2 else -0.2, hold=90 if i % 2 else 30) for i in range(20)), [])
+    check("trial: no verdict before min_trips_per_arm", evolve.trial(young, cfg)["winner"] is None)
+    random.seed(5)
+    close = []
+    for i in range(160):
+        close += trip(f"A{i}", 10, ["x"], 1.0, pct=random.gauss(0.02, 1.0), hold=30)
+        close += trip(f"B{i}", 10, ["x"], 1.0, pct=random.gauss(0.05, 1.0), hold=90)
+    rc = evolve.trial(close, cfg)
+    check("trial: a close race is settled by the average after max_trips_per_arm",
+          rc["winner"] in (30, 90) and "not proven" in (rc["why"] or ""), str(rc["why"]))
+    pre = trip("P", 10, ["x"], 1.0, pct=5.0)          # before the trial: no hold_minutes on the buy
+    check("trial: trades from before the trial are not counted", evolve.trial(pre, cfg)["arms"]["30"]["n"] == 0)
+    check("load: attaches the trial when both are on", "hold_trial" in evolve.load(g, rows))
+
+
 if __name__ == "__main__":
+    test_hold_trial()
     test_pairing()
     test_stages()
     test_settings()

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:49-04:00",
+ "generated_at": "2026-09-30T00:10:54+00:00",
  "settings": {
   "min_trips": 30,
   "survive_t": 2.0,
@@ -329,5 +329,34 @@
     }
    }
   }
+ },
+ "hold_trial": {
+  "settings": {
+   "arms": [
+    30,
+    90
+   ],
+   "min_trips_per_arm": 40,
+   "decide_t": 2.0,
+   "max_trips_per_arm": 150
+  },
+  "arms": {
+   "30": {
+    "n": 0,
+    "net": 0,
+    "mean_pct": null,
+    "win_rate": null
+   },
+   "90": {
+    "n": 0,
+    "net": 0,
+    "mean_pct": null,
+    "win_rate": null
+   }
+  },
+  "winner": null,
+  "why": null,
+  "decided_on": null,
+  "t": 0.0
  }
 }

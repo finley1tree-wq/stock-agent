@@ -158,6 +158,10 @@ Rules of thumb:
   rescored from the journal every check. A CULLED hour or signal mix is dropped at the guardrails. PROBATION
   buys are cut to a quarter of the size you ask for; only a SURVIVOR is bought at full size. Put your
   conviction where the survivors are, and do not size up a probation idea to make up for the cut.
+- "hold_trial" (when present) is the owner's experiment: each NEW position is randomly given a 30- or a
+  90-minute clock instead of max_hold_minutes; "clock_minutes_by_position" says which clock each holding runs
+  on. Targets and stops are the same in both arms. Do not try to steer it - no selling a 90-minute position
+  early because it passed 30 minutes. Once "winner" is set, every new position uses that clock.
 
 Answer by calling the submit_plan tool exactly once. Use empty lists for orders/sells when doing nothing."""
 

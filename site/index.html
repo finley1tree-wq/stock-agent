@@ -85,6 +85,7 @@ details .more{color:var(--ink-2);font-size:13.5px;margin-top:6px}
       <h2 style="margin-top:6px">By time of entry (New York)</h2><div class="tbl" id="s-select-hour"></div>
       <h2 style="margin-top:16px">By signal mix</h2><div class="tbl" id="s-select-signals"></div>
     </section>
+    <section class="card"><h2>Hold-time trial: 30 minutes vs 90 minutes</h2><div class="sub" style="margin:-4px 0 8px" id="s-trial-note"></div><div class="tbl" id="s-trial"></div></section>
     <section class="card"><h2>Profit or loss by day</h2><div class="chart" id="s-days"></div><div class="sub" id="s-days-note"></div></section>
     <section class="grid two">
       <div class="card"><h2>Holdings</h2><div class="tbl" id="s-holdings"></div></div>
@@ -338,6 +339,20 @@ async function loadStock() {
     tile("Trial size", pill("warn", `${Math.round((cfg.probation_size || .25) * 100)}% size`), "unproven strategies, still gathering evidence"),
     tile("No new entries", pill("crit", "culled"), `plus the fixed cut-off: nothing new after ${esc(g.no_new_entries_after_et || "—")} ET`),
   ].join("");
+  // ---- hold-time trial (evolve.py): each new position gets a random 30- or 90-minute clock
+  const tr = ev.hold_trial;
+  if (tr && tr.arms) {
+    const tc = tr.settings || {}, arms = Object.keys(tr.arms);
+    $("#s-trial-note").innerHTML = (tr.winner ? `<b>Decided on ${esc(tr.decided_on || "")}: the ${esc(tr.winner)}-minute hold wins</b>, ${esc(tr.why || "")}. Every new position now uses it.`
+      : `Running. Each new position gets a random 30- or 90-minute clock, with the same targets and stops either way. A winner is picked once both arms have ${tc.min_trips_per_arm} trades and one is clearly ahead (t ≥ ${tc.decide_t}). If it's still close at ${tc.max_trips_per_arm} trades each, the higher average wins.`)
+      + ` Compared on % return per trade, so a small trial-size order counts the same as a full one.`;
+    $("#s-trial").innerHTML = `<table><thead><tr><th>Hold</th><th>Status</th><th class="num">Trades</th><th class="num">Avg per trade</th><th class="num">Won</th><th class="num">Net after costs</th></tr></thead><tbody>${arms.map(a => { const o = tr.arms[a];
+      const st = tr.winner ? (String(tr.winner) === a ? pill("good", "winner") : pill("crit", "dropped")) : pill("warn", o.n < (tc.min_trips_per_arm || 0) ? `${o.n} / ${tc.min_trips_per_arm} trades` : "in the race");
+      return `<tr><td><b>${esc(a)} minutes</b></td><td>${st}</td><td class="num">${o.n}</td><td class="num">${o.mean_pct != null ? pct(o.mean_pct, 3) : "—"}</td><td class="num">${o.win_rate != null ? Math.round(o.win_rate * 100) + "%" : "—"}</td><td class="num">${sgnUsd(o.net, 0)}</td></tr>`; }).join("")}</tbody></table><div class="sub" style="margin-top:6px">Difference so far: t = ${(+tr.t || 0).toFixed(2)} (positive means 90 minutes is ahead).</div>`;
+  } else {
+    $("#s-trial-note").textContent = "Trial results will appear after the agent's next check.";
+    $("#s-trial").innerHTML = "";
+  }
   // ---- P/L by day chart
   const dayPts = days.slice(-25).map(x => [x, Math.round((byDay[x] || 0) * 100) / 100]);
   const drawDays = () => { if (dayPts.length) barChart($("#s-days"), dayPts, v => sgnUsd(v, 0)); };

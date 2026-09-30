@@ -30,8 +30,9 @@ Stages are recomputed from the journal every check, so organisms graduate and di
 Pure standard library: no network, no broker, no model.
 """
 import json
-from datetime import date
 import math
+import random
+from datetime import date
 from pathlib import Path
 
 from .selection import MECHANICS
@@ -87,7 +88,8 @@ def round_trips(rows: list[dict]) -> list[dict]:
         if hour is None and str(e.get("time_et", ""))[:2].isdigit():
             hour = int(str(e["time_et"])[:2])
         out.append({"symbol": sym, "date": e.get("date"), "hour": hour, "signals": e.get("signals") or [],
-                    "pnl": float(r.get("realized_pnl") or 0), "trigger": r.get("trigger"),
+                    "pnl": float(r.get("realized_pnl") or 0), "pct": float(pct or 0), "trigger": r.get("trigger"),
+                    "hold": e.get("hold_minutes"), "ts": r.get("ts"),
                     "flagged": pct is not None and abs(float(pct)) >= FLAG_PCT})
         pos["qty"] -= qty
         if pos["qty"] <= max(1e-6, 0.001 * qty):
@@ -160,7 +162,104 @@ def verdict(scores: dict, signals, hour) -> tuple[float, str]:
     return w, f"probation at {w:.0%} size (no {lens} or signal lens has proven itself yet)"
 
 
+# ---- the hold-time trial --------------------------------------------------------------------
+# Owner's instruction, 2026-09-29: try a 90-minute hold against the 30-minute one and keep whichever
+# does better. Every NEW position is assigned an arm at random when it is bought; the arm is stored
+# with the position (state hold_arm) and on its journal buy row (hold_minutes). Target and stop
+# levels stay sized for 30 minutes in both arms (auto_bracket still scales to max_hold_minutes), so
+# the clock is the only difference. The arms are compared on % return per round trip, which does
+# not care that probation orders are smaller. The first time a decision is reached it is final:
+# the verdict is recomputed from the journal in trade order and stops at that point, so the winner's
+# own later trades cannot un-decide it.
+TRIAL_DEFAULTS = {"arms": [30, 90], "min_trips_per_arm": 40, "decide_t": 2.0, "max_trips_per_arm": 150}
+
+
+def trial_settings(g: dict) -> dict | None:
+    cfg = g.get("hold_trial")
+    if cfg is None or cfg is False or (isinstance(cfg, dict) and cfg.get("enabled") is False):
+        return None
+    out = {**TRIAL_DEFAULTS, **(cfg if isinstance(cfg, dict) else {})}
+    out["arms"] = [int(a) for a in out["arms"]][:2]
+    return out if len(out["arms"]) == 2 else None
+
+
+def _welch_t(a: list[float], b: list[float]) -> float:
+    if len(a) < 2 or len(b) < 2:
+        return 0.0
+    ma, mb = sum(a) / len(a), sum(b) / len(b)
+    va = sum((x - ma) ** 2 for x in a) / (len(a) - 1)
+    vb = sum((x - mb) ** 2 for x in b) / (len(b) - 1)
+    se = math.sqrt(va / len(a) + vb / len(b))
+    return (ma - mb) / se if se > 0 else 0.0
+
+
+def trial(rows: list[dict], cfg: dict) -> dict:
+    """Standing of the hold-time trial: per-arm stats and, once reached, the winner."""
+    arms = cfg["arms"]
+    trips = [t for t in round_trips(rows) if not t["flagged"] and t["hold"] in arms]
+    seen = {a: [] for a in arms}
+    winner, why, decided_at = None, None, None
+    for t in trips:
+        seen[t["hold"]].append(t)
+        if winner is not None:
+            continue
+        a, b = ([x["pct"] for x in seen[arm]] for arm in arms)
+        n = min(len(a), len(b))
+        if n < cfg["min_trips_per_arm"]:
+            continue
+        tt = _welch_t(b, a)                       # > 0: the second arm (90) is ahead
+        if abs(tt) >= cfg["decide_t"]:
+            winner, why = (arms[1] if tt > 0 else arms[0]), f"clearly better (t {abs(tt):.2f})"
+        elif n >= cfg["max_trips_per_arm"]:
+            ma, mb = sum(a) / len(a), sum(b) / len(b)
+            winner, why = (arms[1] if mb > ma else arms[0]), f"better on average after {n} trades each (t {abs(tt):.2f}, not proven)"
+        if winner is not None:
+            decided_at = t.get("date")
+    out = {"settings": cfg, "arms": {}, "winner": winner, "why": why, "decided_on": decided_at}
+    for arm in arms:
+        ts = seen[arm]
+        out["arms"][str(arm)] = {"n": len(ts), "net": round(sum(t["pnl"] for t in ts), 2),
+                                 "mean_pct": round(sum(t["pct"] for t in ts) / len(ts), 4) if ts else None,
+                                 "win_rate": round(sum(t["pnl"] > 0 for t in ts) / len(ts), 3) if ts else None}
+    a, b = ([t["pct"] for t in seen[arm]] for arm in arms)
+    out["t"] = round(_welch_t(b, a), 2)
+    return out
+
+
+def assign_hold(st: dict, g: dict, ticker: str, held: set, scores: dict | None, rng=random.random) -> int | None:
+    """The hold clock for a buy of `ticker`, in minutes, or None when the trial is off.
+
+    An add to a position already held keeps that position's arm. A new position gets the winner
+    once there is one, and otherwise a fair coin."""
+    cfg = trial_settings(g)
+    if cfg is None:
+        return None
+    arms = st.setdefault("hold_arm", {})
+    for t in [t for t in arms if t not in held]:
+        arms.pop(t, None)                         # positions that have closed since
+    if ticker in held and ticker in arms:
+        return int(arms[ticker])
+    win = ((scores or {}).get("hold_trial") or {}).get("winner")
+    arm = int(win) if win else cfg["arms"][0 if rng() < 0.5 else 1]
+    arms[ticker] = arm
+    return arm
+
+
+def hold_for(st: dict, g: dict, ticker: str, default: int) -> int:
+    """The clock a held position runs on: its trial arm, else max_hold_minutes."""
+    if trial_settings(g) is None:
+        return default
+    return int((st.get("hold_arm") or {}).get(ticker) or default)
+
+
 _CACHE: dict = {}
+
+
+def _score_all(rows: list[dict], cfg: dict, tcfg: dict | None) -> dict:
+    out = score(rows, cfg)
+    if tcfg is not None:
+        out["hold_trial"] = trial(rows, tcfg)
+    return out
 
 
 def load(g: dict, rows: list[dict] | None = None) -> dict | None:
@@ -168,21 +267,22 @@ def load(g: dict, rows: list[dict] | None = None) -> dict | None:
     cfg = settings(g)
     if cfg is None:
         return None
+    tcfg = trial_settings(g)
     if rows is None:
         try:
             stamp = JOURNAL.stat().st_mtime_ns
         except OSError:
             return None
-        key = (stamp, json.dumps(cfg, sort_keys=True))
+        key = (stamp, json.dumps(cfg, sort_keys=True), json.dumps(tcfg, sort_keys=True))
         if _CACHE.get("key") == key:
             return _CACHE["scores"]
         try:
             rows = json.loads(JOURNAL.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             return None
-        _CACHE.update(key=key, scores=score(rows, cfg))
+        _CACHE.update(key=key, scores=_score_all(rows, cfg, tcfg))
         return _CACHE["scores"]
-    return score(rows, cfg)
+    return _score_all(rows, cfg, tcfg)
 
 
 def summary(scores: dict | None) -> dict:
@@ -202,9 +302,10 @@ def write(scores: dict | None, generated_at: str) -> None:
 
 if __name__ == "__main__":
     from datetime import datetime, timezone
-    s = load({"evolve": {}})
+    s = load({"evolve": {}, "hold_trial": {}})
     for lens, orgs in s["lenses"].items():
         print(f"== {lens}")
         for k, o in orgs.items():
             print(f"  {k:32} {o['stage']:9} n={o['n']:4} net={o['net']:+9.2f} t={o['t']:+.2f}")
+    print("== hold trial", json.dumps(s.get("hold_trial")))
     write(s, datetime.now(timezone.utc).isoformat(timespec="seconds"))

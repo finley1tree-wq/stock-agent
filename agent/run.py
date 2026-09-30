@@ -410,9 +410,10 @@ def time_stops(now, broker, positions, st, g, log_fn):
         # An intraday clock, when one is set, overrides the daily one: this is the rule that makes
         # the agent take the trade it has rather than wait for one it might get. It fires whether
         # the position is up or down - the point is the time, not the outcome.
-        if mins and held_m is not None and held_m >= mins:
+        lim = evolve.hold_for(st, g, t, mins) if mins else 0    # its trial arm (30 or 90), else the default
+        if mins and held_m is not None and held_m >= lim:
             stale.append({"ticker": t, "pct_of_position": 100,
-                          "why": f"held {held_m} min, the {mins}-minute limit: out regardless",
+                          "why": f"held {held_m} min, the {lim}-minute limit: out regardless",
                           "evidence": f"bought {held_m} min ago, {pl:+.2f}% unrealised",
                           "signals": ["time_stop", "intraday_limit"]})
             continue
@@ -451,7 +452,7 @@ def session_end_flatten(now, broker, positions, st, g, log_fn):
     if int(g.get("max_hold_minutes", 0) or 0) <= 0 or not positions or not hasattr(broker, "sell_qty"):
         return [], 0
     stale = [{"ticker": t, "pct_of_position": 100,
-              "why": "session ending: a 30-minute rule cannot carry a position overnight",
+              "why": "session ending: an intraday hold clock cannot carry a position overnight",
               "evidence": f"{pos.get('minutes_held')} min held, {float(pos.get('unrealized_plpc') or 0):+.2f}% unrealised, market closes in minutes",
               "signals": ["time_stop", "session_close"]} for t, pos in positions.items()]
     return _forced_sells(now, broker, positions, st, g, log_fn, stale, "session_close", "session close")
@@ -565,6 +566,7 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
         for o in orders:
             f = fmap[o["ticker"]]
             o["usd"] = min(o["usd"], float(f["usd"]))       # never more than the order rested for
+            held_before = set(broker.positions())
             rec = _at_price(broker, o["ticker"], f["fill_price"], lambda: broker.buy_notional(o["ticker"], o["usd"]))
             if str(rec.get("status", "")).startswith("rejected"):
                 if rec["status"] == "rejected_implausible_fill":
@@ -572,6 +574,9 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
                 log_fn(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
             full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
                     "why": o["why"], "signals": o["signals"], "evidence": o["evidence"], "trigger": f["kind"]}
+            hold = evolve.assign_hold(st, g, o["ticker"], held_before, evolve.load(g))
+            if hold is not None:
+                full["hold_minutes"] = hold
             state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
             learn.record(full, f["fill_price"], sector_of.get(o["ticker"], "off-watchlist"),
                          cpressure.get(o["ticker"], 0) > 0, px.get(o["ticker"], {}).get("change_1m_pct"),
@@ -855,6 +860,9 @@ def main(report_only: bool = False, force: bool = False) -> None:
                                      if int(g.get("rebuy_cooldown_minutes", 0) or 0) and (now.timestamp() - float(ts or 0)) / 60 < int(g.get("rebuy_cooldown_minutes", 0) or 0)},
         "no_new_entries_this_check": cutoff,
         "strategy_stages": evolve.summary(evolve.load(g)),
+        "hold_trial": {"clock_minutes_by_position": {t: evolve.hold_for(st, g, t, int(g.get("max_hold_minutes", 0) or 0)) for t in positions},
+                       **{k: v for k, v in ((evolve.load(g) or {}).get("hold_trial") or {}).items() if k in ("winner", "arms", "t")}}
+                      if evolve.trial_settings(g) else None,
         "guardrails": {k: v for k, v in g.items() if not k.startswith("_")},
         "sell_rules": {"allowed": not g.get("only_buy", False), "min_hold_days": g.get("min_hold_days", 0), "max_sells_per_day": g.get("max_sells_per_day", 3)},
         "allowed_tickers": sorted(allowed), "watchlist": cfg["watchlist"], "prices": px,
@@ -928,10 +936,14 @@ def main(report_only: bool = False, force: bool = False) -> None:
     orders, dropped, deferred = ([], [], []) if nothing_to_buy else apply_guardrails(plan, allowed, remaining, st, g, cleanup, px, sector_of=sector_of)
     for d in dropped: log(f"  (dropped {d})")
     for o in orders:
+        held_before = set(broker.positions())
         rec = broker.buy_notional(o["ticker"], o["usd"])
         if str(rec.get("status", "")).startswith("rejected"):
             log(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
         full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": o["why"], "signals": o["signals"], "evidence": o["evidence"]}
+        hold = evolve.assign_hold(st, g, o["ticker"], held_before, evolve.load(g))
+        if hold is not None:                  # the hold-time trial's arm for this position (evolve.py)
+            full["hold_minutes"] = hold
         state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
         learn.record(full, px.get(o["ticker"], {}).get("price"), sector_of.get(o["ticker"], "off-watchlist"),
                      cpressure.get(o["ticker"], 0) > 0, px.get(o["ticker"], {}).get("change_1m_pct"),
