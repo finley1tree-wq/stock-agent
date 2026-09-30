@@ -1,5 +1,3 @@
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so any buy orders would be dropped per guardrails. There are also no open positions to protect with sells or triggers. Consistent with prior lessons at this exact state, the only actionable move is to wait for the next session/check.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing to do this check - respect the cutoff.
 portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
 Decision: nothing at this check.
@@ -398,3 +396,5 @@ lesson: Past lessons confirm acting each check with named evidence beats waiting
 ~ WORKING buy_limit $500.00 CCJ @ $85.28 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25209.53 (+0.84% on $25000.00 in) · cash $21415.57 · realised +215.57
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $21083.97 this week
+- SELL 100% AAPL [time stop] -> $497.98 (-0.40%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 12:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -20468,3 +20468,5 @@ lesson: Past lessons confirm acting each check with named evidence beats waiting
 ~ WORKING buy_limit $500.00 CCJ @ $85.28 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25209.53 (+0.84% on $25000.00 in) · cash $21415.57 · realised +215.57
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $21083.97 this week
+- SELL 100% AAPL [time stop] -> $497.98 (-0.40%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 12:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
