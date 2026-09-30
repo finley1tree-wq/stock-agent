@@ -20210,3 +20210,7 @@ lesson: When below min_positions with high idle cash, buy at market in $3k tranc
 ~ WORKING buy_limit $500.00 CCJ @ $86.11 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25193.09 (+0.77% on $25000.00 in) · cash $19134.00 · realised +259.00
 Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $483.30] -> $752.08 (+0.28%) — close 100% at +0.3% over the average cost
+- BUY $750.00 CCJ [buy_limit @ $88.43] — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-09-30 10:32 ET — tick — 1 sell(s), 1 buy(s) from standing orders

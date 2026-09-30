@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6197.61,
-  "deployed": 231000.18,
+  "spent": 6195.53,
+  "deployed": 231750.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -15,7 +15,7 @@
     "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 24.51,
-    "CCJ": 775.39,
+    "CCJ": 1525.39,
     "CRWD": 18.82,
     "HLI": 31.28,
     "FWONK": 7.89,
@@ -24,8 +24,7 @@
     "CHRW": 4001.83,
     "MSFT": 17.81,
     "TPL": 3.17,
-    "TSM": 625.0,
-    "NOC": 750.0
+    "TSM": 625.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -47,7 +46,7 @@
     "IBM": 5852.94,
     "META": 4000.0,
     "RTX": 11300.0,
-    "CCJ": 14150.0,
+    "CCJ": 14900.0,
     "LMT": 6750.0,
     "NEM": 4125.0,
     "HLI": 5200.0,
@@ -3790,13 +3789,55 @@
       ],
       "evidence": "CCJ +2.13% today, 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' Zacks; nuclear theme momentum",
       "hold_minutes": 30
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 1.556137,
+      "status": "filled",
+      "price": 483.3,
+      "proceeds": 752.08,
+      "realized_pnl": 2.08,
+      "realized_pct": 0.28,
+      "date": "2026-09-30",
+      "time_et": "10:32",
+      "ts": 1790778600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $481.96",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.480834,
+      "price": 88.43,
+      "date": "2026-09-30",
+      "time_et": "10:32",
+      "ts": 1790778600,
+      "why": "wanted it, but not at the high \u2014 resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "CCJ +3.38% today at day high (pct_of_day_range 97.0), Zacks headline 'Wall Street Bulls Look Optimistic About Cameco'",
+      "trigger": "buy_limit",
+      "hold_minutes": 30
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 6065.48,
-  "deployed_today": 26750.0,
-  "orders_today": 10,
-  "sells_today": 6,
+  "spent_today": 6063.4,
+  "deployed_today": 27500.0,
+  "orders_today": 11,
+  "sells_today": 7,
   "sold_today": [
     "NOC",
     "TTD",
@@ -3812,7 +3853,7 @@
     "AMD": 1790704804,
     "ACN": 1790775623,
     "MSFT": 1790701969,
-    "NOC": 1790775334,
+    "NOC": 1790778743,
     "UNH": 1790699486,
     "CRWD": 1790701006,
     "NVDA": 1790704804,
@@ -3836,35 +3877,30 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790778311,
-  "last_check_ts": 1790778663,
+  "last_publish_ts": 1790778742,
+  "last_check_ts": 1790778788,
   "last_bar_ts": 1790778600,
   "last_decision_ts": 1790778311,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "1726ede5": 459.7917,
     "2bafd63f": 348.601,
-    "2d6a7663": 483.2998,
-    "c240ea1f": 88.4347,
     "acbe23a4": 348.4635,
-    "9c1464ac": 89.1135,
+    "7b3830da": 88.9429,
+    "1726ede5": 459.7917,
     "b52730f4": 515.5548,
     "7460935d": 515.0325,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
-    "cced00c4": 473.0,
-    "eb12b0c1": 151.8279,
     "03866069": 449.5,
+    "eb12b0c1": 151.8279,
     "383579d2": 444.939,
-    "02ec09e8": 467.5012,
-    "55df9a19": 86.1069,
+    "b70c7b0d": 85.942,
     "827206c6": 85.5
   },
   "hold_arm": {
     "CHRW": 90,
     "TSM": 30,
-    "NOC": 90,
     "CCJ": 30
   }
 }

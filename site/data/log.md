@@ -1,7 +1,3 @@
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Only 1 position held (TPL) against min_positions=8, cash_idle_pct 91.2% - urgent need to deploy. Building out to 7 positions using concrete evidence: congress disclosures with named filers (ACN, LTH both show congress_net_buy_pressure=3.0, LTH specifically flagged as a past biggest_miss at +7.69% when skipped), day-range-low entries (AAPL 3.5%, GOOGL 17.5%), and sector diversification (NOC defense, PLD real estate) to avoid concentration risk in one name. Every buy paired with a protective stop_loss per risk_management/auto_bracket track record (best performing signal bucket at 0.17-0.18% avg with 88% hit rate).
-lesson: HUBB and CCJ still cooling off, must substitute; check cooling_off_minutes_left every time before finalizing tickers.
-  (dropped HUBB: sold 32 min ago, cooling off)
   (dropped PLD: momentum-only entry (guardrails.allow_momentum_only_entries is false))
   (dropped ACN: 96% up today's range — resting a limit at $174.04 instead of chasing)
 - BUY $2500.00 LTH [filled] ['congress', 'track_record'] — High congress pressure score (3.0) and counterfactual data shows this was a big miss last time it was skipped | evidence: congress_net_buy_pressure=3.0 for LTH, disclosed buy from Rep. April McClain Delaney; biggest_misses shows LTH fwd_pct +7.69% when passed over previously
@@ -398,3 +394,7 @@ lesson: When below min_positions with high idle cash, buy at market in $3k tranc
 ~ WORKING buy_limit $500.00 CCJ @ $86.11 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25193.09 (+0.77% on $25000.00 in) · cash $19134.00 · realised +259.00
 Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $483.30] -> $752.08 (+0.28%) — close 100% at +0.3% over the average cost
+- BUY $750.00 CCJ [buy_limit @ $88.43] — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-09-30 10:32 ET — tick — 1 sell(s), 1 buy(s) from standing orders

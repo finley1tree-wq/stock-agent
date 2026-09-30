@@ -46739,5 +46739,59 @@
     "code_version": "5d50646",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "side": "sell",
+    "qty": 1.556137,
+    "status": "filled",
+    "price": 483.3,
+    "proceeds": 752.08,
+    "realized_pnl": 2.08,
+    "realized_pct": 0.28,
+    "date": "2026-09-30",
+    "time_et": "10:32",
+    "ts": 1790778600,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $481.96",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "22aca43"
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.480834,
+    "price": 88.43,
+    "date": "2026-09-30",
+    "time_et": "10:32",
+    "ts": 1790778600,
+    "why": "wanted it, but not at the high \u2014 resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "CCJ +3.38% today at day high (pct_of_day_range 97.0), Zacks headline 'Wall Street Bulls Look Optimistic About Cameco'",
+    "trigger": "buy_limit",
+    "hold_minutes": 30,
+    "entry_price": 88.4347,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.19,
+    "hour_et": 10,
+    "code_version": "22aca43",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
