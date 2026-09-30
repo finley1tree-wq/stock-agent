@@ -1,4 +1,3 @@
-- BUY $4000.00 ACN [filled] ['congress', 'news'] — Congress buy pressure plus earnings catalyst tomorrow, price mid-range 53.5% | evidence: Rep. Scott Franklin and Gilbert Ray Cisneros disclosed ACN buys (congress_net_buy_pressure 2.0); 'Accenture Fiscal Q4 Earnings Due As AI Impacts Business' IBD 2026-09-30
 - BUY $4000.00 TTD [filled] ['congress', 'news'] — Congress buying pressure, deeply oversold (9 straight down days), low in day range for entry | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buys twice (congress_net_buy_pressure 2.0); price at 16.7% of day range - low, after 9 straight down days per Trefis headline
 ~ WORKING stop_loss 100% NOC @ $465.00 until 2026-09-30 — Protective stop ~3.5% below entry given elevated volatility today
 ~ WORKING stop_loss 100% RTX @ $180.00 until 2026-09-30 — Protective stop below entry
@@ -398,3 +397,4 @@ Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week
 - SELL 100% IBM [time stop] -> $498.67 (-0.27%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% CCJ [time stop] -> $249.43 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 13:01 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (dropped ACN: sold 30 min ago, cooling off)

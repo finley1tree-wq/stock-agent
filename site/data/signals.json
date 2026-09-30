@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-30T13:01-04:00",
- "note": "tick: 3 standing order(s) filled",
+ "asOf": "2026-09-30T13:16-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,20 +156,39 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "05dd1d33",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 606.9835,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "be99c1fb",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 180.3348,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 606.04,
-   "pct_away": 0.16,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.5% over the average cost",
+   "last": 180.37,
+   "pct_away": -0.02,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "8f0cda95",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 265.6344,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 265.87,
+   "pct_away": -0.09,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
    ]
   },
   {
@@ -180,13 +199,84 @@
    "usd": 625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 459.56,
-   "pct_away": -0.24,
+   "last": 459.12,
+   "pct_away": -0.15,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa",
    "signals": [
     "news",
     "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "e0bbba9b",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 265.1449,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 265.87,
+   "pct_away": -0.27,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "b52730f4",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 515.5548,
+   "usd": 750.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 517.08,
+   "pct_away": -0.29,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "05dd1d33",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 606.9835,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 605.0,
+   "pct_away": 0.33,
+   "good_until": "2026-10-05",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7460935d",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 515.0325,
+   "usd": 750.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 517.08,
+   "pct_away": -0.4,
+   "good_until": "2026-09-30",
+   "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "momentum",
+    "news",
     "patience"
    ]
   },
@@ -198,13 +288,30 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 518.05,
-   "pct_away": 0.29,
+   "last": 517.08,
+   "pct_away": 0.48,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "71caea25",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 349.0,
+   "usd": 1800.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 350.79,
+   "pct_away": -0.51,
+   "good_until": "2026-09-30",
+   "why": "re-enter GOOGL once cooldown clears, at a level below current price",
+   "signals": [
+    "news",
+    "momentum"
    ]
   },
   {
@@ -215,8 +322,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 486.26,
-   "pct_away": 0.3,
+   "last": 485.11,
+   "pct_away": 0.54,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -232,138 +339,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 353.43,
-   "pct_away": 0.31,
+   "last": 352.51,
+   "pct_away": 0.57,
    "good_until": "2026-10-05",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "8f0cda95",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 265.6344,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 266.61,
-   "pct_away": -0.37,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "b52730f4",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 515.5548,
-   "usd": 750.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 518.05,
-   "pct_away": -0.48,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "e0bbba9b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 265.1449,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 266.61,
-   "pct_away": -0.55,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "7460935d",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 515.0325,
-   "usd": 750.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 518.05,
-   "pct_away": -0.58,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "93318e7b",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 180.6924,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 181.9,
-   "pct_away": -0.66,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $180.69. Add ACN with a resting limit below market rather than chasing the high; existing working buy_limit at 180.33 covers this, adding fresh evidence-backed conviction [probation at 25% size (n",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "71caea25",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 349.0,
-   "usd": 1800.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 351.92,
-   "pct_away": -0.83,
-   "good_until": "2026-09-30",
-   "why": "re-enter GOOGL once cooldown clears, at a level below current price",
-   "signals": [
-    "news",
-    "momentum"
-   ]
-  },
-  {
-   "id": "be99c1fb",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 180.3348,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 181.9,
-   "pct_away": -0.86,
-   "good_until": "2026-09-30",
-   "why": "wanted it, but not at the high \u2014 resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
    ]
   },
   {
@@ -374,8 +356,8 @@
    "usd": 625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 351.92,
-   "pct_away": -0.9,
+   "last": 350.79,
+   "pct_away": -0.58,
    "good_until": "2026-09-30",
    "why": "wanted it, but not at the high \u2014 resting at $348.77. Cooldown on GOOGL cleared soon; strong same-day news catalyst plus momentum, adds widely_held diversification toward min_positions [probation at 25% size (no hour or signal lens has prove",
    "signals": [
@@ -392,8 +374,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 351.92,
-   "pct_away": -1.4,
+   "last": 350.79,
+   "pct_away": -1.08,
    "good_until": "2026-09-30",
    "why": "wait for cooldown to clear and a small dip before entering",
    "signals": [
@@ -408,8 +390,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 518.05,
-   "pct_away": -1.94,
+   "last": 517.08,
+   "pct_away": -1.76,
    "good_until": "2026-09-30",
    "why": "protective stop on new MSFT buy",
    "signals": [
@@ -424,8 +406,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 353.43,
-   "pct_away": -2.1,
+   "last": 352.51,
+   "pct_away": -1.85,
    "good_until": "2026-09-30",
    "why": "protective stop on new AVGO position",
    "signals": [
@@ -440,8 +422,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 486.26,
-   "pct_away": -2.11,
+   "last": 485.11,
+   "pct_away": -1.88,
    "good_until": "2026-09-30",
    "why": "protective stop on new NOC position sized for the headline-driven selloff risk",
    "signals": [
@@ -456,8 +438,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 606.04,
-   "pct_away": -2.32,
+   "last": 605.0,
+   "pct_away": -2.15,
    "good_until": "2026-09-30",
    "why": "protective stop on new AMD buy",
    "signals": [
@@ -465,15 +447,15 @@
    ]
   },
   {
-   "id": "657aa07c",
-   "ticker": "MSFT",
+   "id": "7bd3cd0b",
+   "ticker": "AVGO",
    "kind": "buy_limit",
-   "price": 502.6734,
+   "price": 342.8271,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 518.05,
-   "pct_away": -2.97,
+   "last": 352.51,
+   "pct_away": -2.75,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -489,8 +471,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 486.26,
-   "pct_away": -2.98,
+   "last": 485.11,
+   "pct_away": -2.75,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -499,15 +481,15 @@
    ]
   },
   {
-   "id": "7bd3cd0b",
-   "ticker": "AVGO",
+   "id": "657aa07c",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 342.8271,
+   "price": 502.6734,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 353.43,
-   "pct_away": -3.0,
+   "last": 517.08,
+   "pct_away": -2.79,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -523,8 +505,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 606.04,
-   "pct_away": -3.31,
+   "last": 605.0,
+   "pct_away": -3.14,
    "good_until": "2026-10-05",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

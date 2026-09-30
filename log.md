@@ -20503,3 +20503,4 @@ Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week
 - SELL 100% IBM [time stop] -> $498.67 (-0.27%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% CCJ [time stop] -> $249.43 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 13:01 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (dropped ACN: sold 30 min ago, cooling off)
