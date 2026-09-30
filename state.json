@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 2857.49,
-  "deployed": 237375.18,
+  "spent": 3482.49,
+  "deployed": 238000.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -20,7 +20,7 @@
     "HLI": 30.73,
     "FWONK": 632.89,
     "HUBB": 653.73,
-    "LTH": 0.78,
+    "LTH": 625.78,
     "CHRW": 46.22,
     "MSFT": 15.9,
     "TPL": 3.17,
@@ -57,7 +57,7 @@
     "HUBB": 8125.0,
     "CHRW": 8700.0,
     "TPL": 4100.0,
-    "LTH": 4500.0,
+    "LTH": 5125.0,
     "SKWD": 500.0
   },
   "orders": [
@@ -4128,12 +4128,33 @@
       ],
       "evidence": "average cost $127.18",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "LTH",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 15.586035,
+      "price": 40.1,
+      "date": "2026-09-30",
+      "time_et": "11:36",
+      "ts": 1790782500,
+      "why": "wanted it, but not at the high \u2014 resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens ",
+      "signals": [
+        "congress",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep. April McClain Delaney disclosed buys in LTH 2026-09-09; congress_net_buy_pressure LTH=3.0; price 87.5% of day range up 0.52% today",
+      "trigger": "buy_limit",
+      "hold_minutes": 30
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 2725.36,
-  "deployed_today": 33125.0,
-  "orders_today": 20,
+  "spent_today": 3350.36,
+  "deployed_today": 33750.0,
+  "orders_today": 21,
   "sells_today": 13,
   "sold_today": [
     "NOC",
@@ -4180,28 +4201,29 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790782125,
-  "last_check_ts": 1790782487,
-  "last_bar_ts": 1790782200,
+  "last_publish_ts": 1790782571,
+  "last_check_ts": 1790782571,
+  "last_bar_ts": 1790782500,
   "last_decision_ts": 1790782125,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "61419fc1": 40.108,
-    "3adc8ab0": 53.3743,
-    "0c775669": 338.6734,
     "448bcb34": 460.0085,
-    "b52730f4": 515.5548,
+    "0c775669": 338.6734,
+    "3adc8ab0": 53.3743,
+    "b95b79e2": 40.2704,
     "bff5b513": 458.442,
     "eff905f1": 93.7879,
-    "7460935d": 515.0325,
+    "b52730f4": 515.5548,
     "8f0cda95": 265.6344,
+    "7460935d": 515.0325,
     "e0bbba9b": 265.1449,
-    "1270396f": 347.0,
-    "93318e7b": 180.6924,
+    "e42ebac9": 39.6737,
     "4756ad2e": 105.5989,
-    "be99c1fb": 180.3348,
+    "1270396f": 347.0,
     "d19f996e": 102.9,
+    "93318e7b": 180.6924,
+    "be99c1fb": 180.3348,
     "1efcaba2": 331.0,
     "65b05100": 449.0,
     "27b4972c": 102.0828,
@@ -4209,15 +4231,16 @@
     "63a1f59f": 90.7338,
     "9243c3bf": 51.7,
     "4b85b91a": 327.7921,
+    "014b1846": 51.6331,
     "7157785f": 444.9002,
-    "014b1846": 51.6331
+    "0930992a": 38.897
   },
   "hold_arm": {
     "HUBB": 90,
     "NLR": 90,
     "FWONK": 90,
     "SKWD": 90,
-    "HLI": 90,
-    "AAPL": 90
+    "AAPL": 90,
+    "LTH": 30
   }
 }

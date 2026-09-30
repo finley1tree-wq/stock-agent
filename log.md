@@ -20336,3 +20336,5 @@ lesson: Even with full_deployment mandate, always pair new-name buys with an exp
 ~ WORKING buy_limit $500.00 CRWD @ $265.63 until 2026-09-30 — wanted it, but not at the high — resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h
 portfolio: equity $25215.02 (+0.86% on $25000.00 in) · cash $22474.12 · realised +224.12
 Decision: nothing at this check. 24 standing order(s) working.
+- BUY $625.00 LTH [buy_limit @ $40.10] — wanted it, but not at the high — resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens 
+## 2026-09-30 11:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders

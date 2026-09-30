@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "5783a960",
-   "ticker": "LEN",
-   "kind": "take_profit",
-   "price": 82.5193,
-   "status": "filled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $82.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 09:39"
-  },
-  {
-   "id": "df2e819e",
-   "ticker": "LEN",
-   "kind": "buy_limit",
-   "price": 79.7534,
-   "status": "cancelled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $82.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 09:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8c395a6b",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 187.9412,
-   "status": "filled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $187.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 09:36"
-  },
-  {
    "id": "58bfa620",
    "ticker": "PLTR",
    "kind": "buy_limit",
@@ -6915,7 +6860,7 @@
    "ticker": "LTH",
    "kind": "buy_limit",
    "price": 40.108,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 10:41",
    "created_ts": 1790779295,
    "why": "wanted it, but not at the high \u2014 resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens ",
@@ -6926,7 +6871,8 @@
     "patience"
    ],
    "good_until": "2026-09-30",
-   "usd": 625.0
+   "usd": 625.0,
+   "closed": "2026-09-30 11:36"
   },
   {
    "id": "38c6373f",
@@ -7400,7 +7346,58 @@
    ],
    "good_until": "2026-09-30",
    "usd": 500.0
+  },
+  {
+   "id": "b95b79e2",
+   "ticker": "LTH",
+   "kind": "take_profit",
+   "price": 40.2704,
+   "status": "working",
+   "created": "2026-09-30 11:36",
+   "created_ts": 1790782571,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $40.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e42ebac9",
+   "ticker": "LTH",
+   "kind": "stop_loss",
+   "price": 39.6737,
+   "status": "working",
+   "created": "2026-09-30 11:36",
+   "created_ts": 1790782571,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $40.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0930992a",
+   "ticker": "LTH",
+   "kind": "buy_limit",
+   "price": 38.897,
+   "status": "working",
+   "created": "2026-09-30 11:36",
+   "created_ts": 1790782571,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $40.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-30 11:28"
+ "updated": "2026-09-30 11:36"
 }

@@ -1,5 +1,3 @@
-- SELL 100% TTD [time stop] -> $2485.89 (-0.56%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% ACN [time stop] -> $1997.94 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-29 13:12 ET — tick — 4 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-29 13:14 ET (Tuesday) — week 2026-W40 — budget left $18878.17 (today $95350.00 put to work, 42 buys, 40 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ lesson: Even with full_deployment mandate, always pair new-name buys with an exp
 ~ WORKING buy_limit $500.00 CRWD @ $265.63 until 2026-09-30 — wanted it, but not at the high — resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h
 portfolio: equity $25215.02 (+0.86% on $25000.00 in) · cash $22474.12 · realised +224.12
 Decision: nothing at this check. 24 standing order(s) working.
+- BUY $625.00 LTH [buy_limit @ $40.10] — wanted it, but not at the high — resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens 
+## 2026-09-30 11:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
