@@ -1,30 +1,3 @@
-brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so there is nothing actionable - any buy orders would be dropped per guardrails. Sitting out this check respects the cutoff rather than forcing a doomed order.
-lesson: When no_new_entries_this_check is true and positions_held is 0, do not attempt buys - they will be dropped; wait for the next check.
-portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-29 14:52 ET (Tuesday) — week 2026-W40 — budget left $24867.87 (today $109350.00 put to work, 48 buys, 49 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DTIL excluded: too thinly traded ($2.2M a day) — Precision BioSciences, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so no buys can be placed - they would be dropped per guardrails. There is nothing to sell or protect since the book is flat. I'll wait for the next check rather than force an order that gets rejected.
-lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable this session; respect the cutoff.
-portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-29 15:07 ET (Tuesday) — week 2026-W40 — budget left $24867.87 (today $109350.00 put to work, 48 buys, 49 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (DTIL excluded: too thinly traded ($2.2M a day) — Precision BioSciences, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and positions_held is 0, so any buy orders would be dropped per guardrails. There are also no open positions to protect with sells or triggers. Consistent with prior lessons at this exact state, the only actionable move is to wait for the next session/check.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing to do this check - respect the cutoff.
@@ -398,3 +371,30 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20915.10 this week
 - SELL 100% TSM [time stop] -> $373.89 (-0.30%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% CRWD [time stop] -> $422.35 (-0.62%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 12:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 12:31 ET (Wednesday) — week 2026-W40 — budget left $22333.97 (today $38475.00 put to work, 31 buys, 23 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +39.2% in a day looks like a bad tick)
+brain: Still below min_positions (5 of 8) with 89% cash idle and approaching the 14:00 cutoff in ~90 minutes; deploying into diversified names (TSM, HD, IBM, CCJ) with distinct headline evidence and entries not chasing today's highs, each with a protective stop. This spreads sector exposure beyond the existing tech cluster (AAPL/MSFT/ACN/AMD/NVDA) into semis, retail, enterprise tech, and nuclear/uranium.
+lesson: Past lessons confirm acting each check with named evidence beats waiting for cooldowns/perfect dips when below min_positions and cash-idle is high near the entry cutoff.
+  (dropped TSM: sold 2 min ago, cooling off)
+- BUY $500.00 HD [filled] ['congress', 'news'] — Low in day range (9.3%) offering good entry, active news flow, diversify away from megacap tech cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Kevin Hern (Joint acct) disclosed multiple HD sells 2026-09-25 disclosure but also Trefis headline 'The $66 Billion Consolation Prize For HD Shareholders' 09-30 13:57 shows active analyst attenti
+- BUY $500.00 IBM [filled] ['news', 'momentum'] — Diversify into enterprise tech with distinct news catalyst, entry well off day highs avoiding chase guardrail [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Barrons headline 'How This Beaten-Down Quantum Stock Could Rise 154%' 09-30 14:12 plus 1d change +0.29%, pct_of_day_range 32.8 (not chasing highs)
+- BUY $250.00 CCJ [filled] ['news', 'momentum'] — Nuclear sector renewed bullish coverage, reasonable entry point mid-range not chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Zacks 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' 09-30 12:30, 1d change +1.15%, pct_of_day_range 38.2
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% HD @ $280.20 until 2026-09-30 — protective stop on new HD buy
+~ WORKING stop_loss 100% IBM @ $216.20 until 2026-09-30 — protective stop on new IBM buy
+~ WORKING stop_loss 100% CCJ @ $86.00 until 2026-09-30 — protective stop on new CCJ buy
+~ WORKING take_profit 100% HD @ $286.72 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $277.43 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $221.39 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $214.04 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $88.26 until 2026-10-05 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $85.28 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25209.53 (+0.84% on $25000.00 in) · cash $21415.57 · realised +215.57
+Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $21083.97 this week

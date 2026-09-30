@@ -47089,7 +47089,9 @@
     "code_version": "2644685",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.38,
+    "ret_final": -0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "SKWD",
@@ -47201,7 +47203,7 @@
     "code_version": "0f81535",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.34
   },
   {
     "symbol": "HLI",
@@ -47454,7 +47456,9 @@
     "code_version": "948ccfb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.3,
+    "ret_final": -0.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -47481,7 +47485,9 @@
     "code_version": "948ccfb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.62,
+    "ret_final": -0.62,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -47635,7 +47641,8 @@
     "hour_et": 12,
     "code_version": "4daf6a7",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.13
   },
   {
     "symbol": "ACN",
@@ -47661,7 +47668,8 @@
     "hour_et": 12,
     "code_version": "4daf6a7",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
   },
   {
     "symbol": "AMD",
@@ -47687,7 +47695,8 @@
     "hour_et": 12,
     "code_version": "4daf6a7",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.34
   },
   {
     "symbol": "NVDA",
@@ -47713,7 +47722,8 @@
     "hour_et": 12,
     "code_version": "4daf6a7",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.22
   },
   {
     "symbol": "FWONK",
@@ -47737,7 +47747,8 @@
     "evidence": "bought 90 min ago, -0.34% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "bb95fe5"
+    "code_version": "bb95fe5",
+    "hold_minutes": 89
   },
   {
     "symbol": "TSM",
@@ -47760,7 +47771,8 @@
     "evidence": "bought 30 min ago, -0.28% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "0ab2e3a"
+    "code_version": "0ab2e3a",
+    "hold_minutes": 30
   },
   {
     "symbol": "CRWD",
@@ -47784,6 +47796,85 @@
     "evidence": "bought 30 min ago, -0.60% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "0ab2e3a"
+    "code_version": "0ab2e3a",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "HD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.748208,
+    "price": 286.01,
+    "date": "2026-09-30",
+    "time_et": "12:31",
+    "ts": 1790785900,
+    "why": "Low in day range (9.3%) offering good entry, active news flow, diversify away from megacap tech cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Rep. Kevin Hern (Joint acct) disclosed multiple HD sells 2026-09-25 disclosure but also Trefis headline 'The $66 Billion Consolation Prize For HD Shareholders' 09-30 13:57 shows active analyst attenti",
+    "hold_minutes": 30,
+    "entry_price": 285.95,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -12.78,
+    "hour_et": 12,
+    "code_version": "c34644d",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.265887,
+    "price": 220.66,
+    "date": "2026-09-30",
+    "time_et": "12:31",
+    "ts": 1790785900,
+    "why": "Diversify into enterprise tech with distinct news catalyst, entry well off day highs avoiding chase guardrail [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Barrons headline 'How This Beaten-Down Quantum Stock Could Rise 154%' 09-30 14:12 plus 1d change +0.29%, pct_of_day_range 32.8 (not chasing highs)",
+    "hold_minutes": 30,
+    "entry_price": 220.62,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -5.67,
+    "hour_et": 12,
+    "code_version": "c34644d",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 250.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.843651,
+    "price": 87.92,
+    "date": "2026-09-30",
+    "time_et": "12:31",
+    "ts": 1790785900,
+    "why": "Nuclear sector renewed bullish coverage, reasonable entry point mid-range not chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Zacks 'Wall Street Bulls Look Optimistic About Cameco (CCJ): Should You Buy?' 09-30 12:30, 1d change +1.15%, pct_of_day_range 38.2",
+    "hold_minutes": 30,
+    "entry_price": 87.88,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -11.02,
+    "hour_et": 12,
+    "code_version": "c34644d",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
