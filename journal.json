@@ -46390,7 +46390,7 @@
     "code_version": "100ed01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.14
+    "ret_now": -0.8
   },
   {
     "symbol": "AVGO",
@@ -46744,7 +46744,9 @@
     "code_version": "5d50646",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": 0.39,
+    "ret_final": 0.39,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -46800,7 +46802,9 @@
     "code_version": "22aca43",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.39,
+    "ret_final": 0.39,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -46830,7 +46834,9 @@
     "code_version": "ede5bb3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.05,
+    "ret_final": 0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -46860,7 +46866,9 @@
     "code_version": "0e6f5f7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.05,
+    "ret_final": 0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -46911,7 +46919,10 @@
     "hour_et": 10,
     "code_version": "4663401",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.25,
+    "ret_now": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "HUBB",
@@ -46937,7 +46948,8 @@
     "hour_et": 10,
     "code_version": "4663401",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.05
   },
   {
     "symbol": "NLR",
@@ -46963,7 +46975,8 @@
     "hour_et": 10,
     "code_version": "4663401",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.15
   },
   {
     "symbol": "CCJ",
@@ -46989,7 +47002,8 @@
     "evidence": "average cost $88.6",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "3d6b3d5"
+    "code_version": "3d6b3d5",
+    "hold_minutes": 10
   },
   {
     "symbol": "MSFT",
@@ -47014,6 +47028,86 @@
     "evidence": "average cost $517.61",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "8daf4b4"
+    "code_version": "8daf4b4",
+    "hold_minutes": 13
+  },
+  {
+    "symbol": "GOOGL",
+    "side": "sell",
+    "qty": 4.303763,
+    "status": "filled",
+    "price": 348.72,
+    "proceeds": 1500.81,
+    "realized_pnl": 0.81,
+    "realized_pct": 0.05,
+    "date": "2026-09-30",
+    "time_et": "10:57",
+    "ts": 1790780100,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $348.53",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "2644685",
+    "hold_minutes": 20
+  },
+  {
+    "symbol": "FWONK",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.681819,
+    "price": 93.54,
+    "date": "2026-09-30",
+    "time_et": "10:57",
+    "ts": 1790780255,
+    "why": "diversifier outside tech/nuclear cluster, congress pressure plus positive news framing, low correlation to current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "congress_net_buy_pressure FWONK=2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' 2026-09-28",
+    "hold_minutes": 90,
+    "entry_price": 93.5,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -6.46,
+    "hour_et": 10,
+    "code_version": "2644685",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "SKWD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 9.392638,
+    "price": 53.23,
+    "date": "2026-09-30",
+    "time_et": "10:57",
+    "ts": 1790780255,
+    "why": "congress pressure plus decent entry point mid-range, insurance sector diversifier [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "congress_net_buy_pressure SKWD=2.0; headline 'Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' 2026-09-28, 55.3 pct_of_day_range (mid-range entry)",
+    "hold_minutes": 90,
+    "entry_price": 53.18,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -7.37,
+    "hour_et": 10,
+    "code_version": "2644685",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

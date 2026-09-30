@@ -1,32 +1,3 @@
-  (dropped trigger TSM stop_loss: not held)
-~ WORKING stop_loss 100% CRWD @ $251.40 until 2026-09-29 — protect new CRWD position
-~ WORKING stop_loss 100% UNH @ $361.20 until 2026-09-29 — protect new UNH position
-~ WORKING buy_limit $1625.00 ACN @ $174.07 until 2026-09-29 — wanted it, but not at the high — resting at $174.07. named congress buy pressure plus pullback, currently mid-range (85% of day range is high but limit resting near low was not hit, buying market small size given ACN sits at day high signal
-~ WORKING buy_limit $1625.00 TSM @ $453.14 until 2026-09-29 — wanted it, but not at the high — resting at $453.14. congress buy plus strong momentum, diversifies book into semis away from AAPL/GOOGL concentration
-~ WORKING take_profit 100% CRWD @ $260.66 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 CRWD @ $251.47 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $373.30 until 2026-10-04 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $361.25 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25244.01 (+0.98% on $25000.00 in) · cash $13498.03 · realised +248.03
-Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $13166.44 this week
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $373.30] -> $1628.82 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-09-29 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% LTH [time stop] -> $2491.71 (-0.33%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AAPL [time stop] -> $2002.22 (+0.11%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NOC [time stop] -> $2001.80 (+0.09%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% GOOGL [time stop] -> $2000.14 (+0.01%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 12:41 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 12:42 ET (Tuesday) — week 2026-W40 — budget left $23291.13 (today $79850.00 put to work, 35 buys, 35 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Below target position count (1 of min 8) with 93% cash idle - unacceptable per guardrails. Adding 5 new names with concrete congress/insider/track-record evidence (CHRW, MSFT, TTD, ACN, NEM) at reasonable entry points in day range, each with a protective stop. This gets us to 6 positions; will add more next check as cooldowns clear (NEM clears in 11min, HLI in 11min, GOOGL/AAPL in 44min).
-lesson: When below min_positions with high idle cash, batch 4-5 named-evidence buys per check with immediate stops rather than 1-2 at a time - waiting for perfect setups while sitting on 93% cash is the larger error.
   (dropped NEM: sold 34 min ago, cooling off)
 - BUY $2500.00 CHRW [filled] ['congress', 'track_record'] — Strongest congress pressure score in list, reasonable entry range, diversifies away from tech/CRWD | evidence: congress_net_buy_pressure CHRW=3.0 (April McClain Delaney multiple buys disclosed 2026-09-09), currently 61% of day range, not high in range
 - BUY $2500.00 MSFT [filled] ['congress', 'followed_person'] — Large disclosed congressional buy, not chasing since mid-range, sector diversification from CRWD | evidence: Rep. Josh Gottheimer disclosed a $250k-1M buy in MSFT filed 2026-09-14, MSFT only 54% of day range
@@ -398,3 +369,32 @@ Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $16052.82 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $518.93] -> $751.91 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 10:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $348.72] -> $1500.81 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-09-30 10:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:57 ET (Wednesday) — week 2026-W40 — budget left $19811.35 (today $30875.00 put to work, 16 buys, 11 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (bad quote TNON: +45.4% in a day looks like a bad tick)
+brain: Below min_positions (3 of 8) with 79% idle cash - need to fill toward target with concrete evidence per owner instruction, weighing named congress-buy-pressure tickers (HLI, FWONK, SKWD all at top tier 2.0) plus TPL which already passed this week's screen, diversifying away from the CHRW/HUBB/NLR cluster already held. Attached protective stops per risk_management signal which has the best realized track record (0.18% avg, 88% hit rate).
+lesson: Congress net_buy_pressure tier of 2.0-3.0 combined with a relevant headline is usable non-momentum evidence to satisfy allow_momentum_only_entries=false; keep diversifying sectors rather than adding to an already-crowded logistics/industrial cluster.
+  (dropped TPL: not in allowed list)
+  (dropped HLI: 88% up today's range — resting a limit at $127.19 instead of chasing)
+- BUY $625.00 FWONK [filled] ['congress', 'news'] — diversifier outside tech/nuclear cluster, congress pressure plus positive news framing, low correlation to current holdings [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure FWONK=2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' 2026-09-28
+- BUY $500.00 SKWD [filled] ['congress', 'news'] — congress pressure plus decent entry point mid-range, insurance sector diversifier [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure SKWD=2.0; headline 'Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' 2026-09-28, 55.3 pct_of_day_range (mid-range entry)
+  (dropped trigger HLI stop_loss: not held)
+  (dropped trigger TPL stop_loss: not held)
+~ WORKING stop_loss 100% FWONK @ $91.00 until 2026-09-30 — cap downside on new FWONK position
+~ WORKING stop_loss 100% SKWD @ $51.70 until 2026-09-30 — cap downside on new SKWD position
+~ WORKING buy_limit $625.00 HLI @ $127.19 until 2026-09-30 — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
+~ WORKING take_profit 100% FWONK @ $93.79 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 FWONK @ $90.73 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $53.37 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $51.63 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25232.43 (+0.93% on $25000.00 in) · cash $19017.96 · realised +267.96
+Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $18686.35 this week

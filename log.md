@@ -20254,3 +20254,32 @@ Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $16052.82 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $518.93] -> $751.91 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 10:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [stop_loss @ $348.72] -> $1500.81 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-09-30 10:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:57 ET (Wednesday) — week 2026-W40 — budget left $19811.35 (today $30875.00 put to work, 16 buys, 11 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (bad quote TNON: +45.4% in a day looks like a bad tick)
+brain: Below min_positions (3 of 8) with 79% idle cash - need to fill toward target with concrete evidence per owner instruction, weighing named congress-buy-pressure tickers (HLI, FWONK, SKWD all at top tier 2.0) plus TPL which already passed this week's screen, diversifying away from the CHRW/HUBB/NLR cluster already held. Attached protective stops per risk_management signal which has the best realized track record (0.18% avg, 88% hit rate).
+lesson: Congress net_buy_pressure tier of 2.0-3.0 combined with a relevant headline is usable non-momentum evidence to satisfy allow_momentum_only_entries=false; keep diversifying sectors rather than adding to an already-crowded logistics/industrial cluster.
+  (dropped TPL: not in allowed list)
+  (dropped HLI: 88% up today's range — resting a limit at $127.19 instead of chasing)
+- BUY $625.00 FWONK [filled] ['congress', 'news'] — diversifier outside tech/nuclear cluster, congress pressure plus positive news framing, low correlation to current holdings [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure FWONK=2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' 2026-09-28
+- BUY $500.00 SKWD [filled] ['congress', 'news'] — congress pressure plus decent entry point mid-range, insurance sector diversifier [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure SKWD=2.0; headline 'Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' 2026-09-28, 55.3 pct_of_day_range (mid-range entry)
+  (dropped trigger HLI stop_loss: not held)
+  (dropped trigger TPL stop_loss: not held)
+~ WORKING stop_loss 100% FWONK @ $91.00 until 2026-09-30 — cap downside on new FWONK position
+~ WORKING stop_loss 100% SKWD @ $51.70 until 2026-09-30 — cap downside on new SKWD position
+~ WORKING buy_limit $625.00 HLI @ $127.19 until 2026-09-30 — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
+~ WORKING take_profit 100% FWONK @ $93.79 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 FWONK @ $90.73 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $53.37 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $51.63 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25232.43 (+0.93% on $25000.00 in) · cash $19017.96 · realised +267.96
+Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $18686.35 this week

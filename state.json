@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6689.46,
-  "deployed": 235125.18,
+  "spent": 6313.65,
+  "deployed": 236250.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -11,21 +11,22 @@
     "RTX": 6.02,
     "AMD": 17.48,
     "LMT": 14.78,
-    "GOOGL": 1508.55,
+    "GOOGL": 7.74,
     "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 24.51,
     "CCJ": 19.58,
     "CRWD": 18.82,
     "HLI": 31.28,
-    "FWONK": 7.89,
+    "FWONK": 632.89,
     "HUBB": 653.73,
     "LTH": 0.78,
     "CHRW": 4001.83,
     "MSFT": 15.9,
     "TPL": 3.17,
     "TSM": 1.65,
-    "NLR": 500.0
+    "NLR": 500.0,
+    "SKWD": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -51,12 +52,13 @@
     "LMT": 6750.0,
     "NEM": 4125.0,
     "HLI": 5200.0,
-    "FWONK": 1000.0,
+    "FWONK": 1625.0,
     "NLR": 2500.0,
     "HUBB": 8125.0,
     "CHRW": 8700.0,
     "TPL": 4100.0,
-    "LTH": 4500.0
+    "LTH": 4500.0,
+    "SKWD": 500.0
   },
   "orders": [
     {
@@ -3990,13 +3992,70 @@
       ],
       "evidence": "average cost $517.61",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 4.303763,
+      "status": "filled",
+      "price": 348.72,
+      "proceeds": 1500.81,
+      "realized_pnl": 0.81,
+      "realized_pct": 0.05,
+      "date": "2026-09-30",
+      "time_et": "10:57",
+      "ts": 1790780100,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $348.53",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "FWONK",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.681819,
+      "price": 93.54,
+      "date": "2026-09-30",
+      "time_et": "10:57",
+      "ts": 1790780255,
+      "why": "diversifier outside tech/nuclear cluster, congress pressure plus positive news framing, low correlation to current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "congress_net_buy_pressure FWONK=2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' 2026-09-28",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "SKWD",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.392638,
+      "price": 53.23,
+      "date": "2026-09-30",
+      "time_et": "10:57",
+      "ts": 1790780255,
+      "why": "congress pressure plus decent entry point mid-range, insurance sector diversifier [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "congress_net_buy_pressure SKWD=2.0; headline 'Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' 2026-09-28, 55.3 pct_of_day_range (mid-range entry)",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 6557.33,
-  "deployed_today": 30875.0,
-  "orders_today": 16,
-  "sells_today": 10,
+  "spent_today": 6181.52,
+  "deployed_today": 32000.0,
+  "orders_today": 18,
+  "sells_today": 11,
   "sold_today": [
     "NOC",
     "TTD",
@@ -4006,7 +4065,8 @@
     "NEM",
     "TSM",
     "CCJ",
-    "MSFT"
+    "MSFT",
+    "GOOGL"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -4019,7 +4079,7 @@
     "UNH": 1790699486,
     "CRWD": 1790701006,
     "NVDA": 1790704804,
-    "GOOGL": 1790700084,
+    "GOOGL": 1790780254,
     "AVGO": 1790777027,
     "TTD": 1790775497,
     "HD": 1790688629,
@@ -4039,35 +4099,38 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790780172,
-  "last_check_ts": 1790780172,
+  "last_publish_ts": 1790780255,
+  "last_check_ts": 1790780255,
   "last_bar_ts": 1790780100,
-  "last_decision_ts": 1790779295,
+  "last_decision_ts": 1790780255,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "ee75b920": 348.896,
-    "315fea1e": 349.59,
     "448bcb34": 460.0085,
-    "b52730f4": 515.5548,
-    "61419fc1": 40.108,
+    "eff905f1": 93.7879,
+    "3adc8ab0": 53.3743,
+    "4d6c0bbe": 127.1938,
     "4756ad2e": 105.5989,
+    "b52730f4": 515.5548,
     "7460935d": 515.0325,
+    "61419fc1": 40.108,
     "eb12b0c1": 151.8279,
     "d19f996e": 102.9,
     "2409c14b": 147.0,
-    "3cab44b5": 146.8677,
     "65b05100": 449.0,
+    "3cab44b5": 146.8677,
+    "ed40a942": 91.0,
     "27b4972c": 102.0828,
-    "7157785f": 444.9002,
-    "74534bb9": 338.142
+    "9243c3bf": 51.7,
+    "014b1846": 51.6331,
+    "63a1f59f": 90.7338,
+    "7157785f": 444.9002
   },
   "hold_arm": {
     "CHRW": 90,
-    "CCJ": 30,
-    "GOOGL": 30,
-    "MSFT": 90,
     "HUBB": 90,
-    "NLR": 90
+    "NLR": 90,
+    "FWONK": 90,
+    "SKWD": 90
   }
 }
