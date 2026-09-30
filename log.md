@@ -20527,3 +20527,5 @@ lesson: Working buy_limit triggers placed earlier already cover diversification 
 portfolio: equity $25207.52 (+0.83% on $25000.00 in) · cash $23158.75 · realised +208.75
 Decision: nothing at this check. 20 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (dropped ACN: sold 33 min ago, cooling off)
+  (dropped ACN: sold 34 min ago, cooling off)
