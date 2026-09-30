@@ -13,5 +13,6 @@ module.exports = async (req, res) => {
   // still and then jumped. Five seconds is fresh enough to look live and still absorbs the poll -
   // every viewer of the same symbol shares one upstream fetch per 5s window.
   res.setHeader("Cache-Control", "s-maxage=5, stale-while-revalidate=30");
+  res.setHeader("Access-Control-Allow-Origin", "*");   // the crypto site serves the same page and prices stocks from here
   res.status(200).json({ asOf: Date.now(), quotes });
 };

@@ -59,6 +59,12 @@ details .more{color:var(--ink-2);font-size:13.5px;margin-top:6px}
 
   <main id="tab-crypto">
     <div class="banner"><b>Pretend money only.</b> No exchange account is connected. Nothing here trades real money. It runs once a day on the crypto PC<span id="c-lastrun"></span>.</div>
+    <section class="card" style="margin:0 0 12px"><h2>Our money, live · updates every second</h2>
+      <div class="grid tiles" id="m-crypto-tiles"></div>
+      <h2 style="margin-top:14px">Where it is</h2><div id="m-crypto-alloc"></div>
+      <div class="tbl" id="m-crypto-books" style="margin-top:8px"></div>
+      <h2 style="margin-top:14px">Our crypto money since you opened this page</h2><div class="chart" id="m-crypto-chart"></div>
+    </section>
     <section class="card" style="margin:0 0 12px">
       <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between"><h2 style="margin:0">Live market · Coinbase real-time feed</h2><span id="c-feed"></span></div>
       <div class="grid tiles" id="c-live" style="margin-top:12px"></div>
@@ -93,6 +99,12 @@ details .more{color:var(--ink-2);font-size:13.5px;margin-top:6px}
 
   <main id="tab-stock" hidden>
     <div id="s-banner"></div>
+    <section class="card" style="margin:0 0 12px"><h2>Our money, live · re-priced every 5 seconds</h2>
+      <div class="grid tiles" id="m-stock-tiles"></div>
+      <h2 style="margin-top:14px">Where it is</h2><div id="m-stock-alloc"></div>
+      <div class="tbl" id="m-stock-pos" style="margin-top:8px"></div>
+      <h2 style="margin-top:14px">Our stock money since you opened this page</h2><div class="chart" id="m-stock-chart"></div>
+    </section>
     <div class="grid tiles" id="s-tiles"></div>
     <section class="card"><h2>Natural selection: which strategies make money and which lose it</h2>
       <div class="sub" style="margin:-4px 0 8px" id="s-select-note"></div>
@@ -377,10 +389,116 @@ function startLive(d) {
     ].join("");
   };
   $("#c-live-note").innerHTML = `Prices stream live from Coinbase Exchange's public feed; charts are TradingView's. The strategy books decide once a day, so between runs only prices move. They publish how many coins they hold (${held.map(x => `${esc(x.book)}: ${x.open_positions}`).join(", ")}) but not which ones yet, so only the BTC book can be re-priced live.`;
-  drawCoins(); tvChart(); loadSparks(); connectFeed(); tiles();
-  setInterval(tiles, 1000);
+  drawCoins(); tvChart(); loadSparks(); connectFeed(); tiles(); drawCryptoMoney(d); watchBookCoins(d);
+  setInterval(() => { tiles(); drawCryptoMoney(d); }, 1000);
+  setInterval(() => { if (!$("#tab-crypto").hidden) drawHist($("#m-crypto-chart"), "crypto"); }, 2000);
   setInterval(loadSparks, 5 * 60000);
   window.__drawLive = () => {};
+}
+
+// ---- our money, live -------------------------------------------------------------------------
+// Re-prices what we hold as fast as the prices arrive: crypto every second from the Coinbase feed,
+// stocks every 5 seconds from /api/quotes while positions are open. A chart keeps every value seen
+// since the page opened, so the fluctuation is visible, not just the latest number.
+const moneyHist = {crypto: [], stock: []};
+function pushHist(key, v) {
+  if (v == null || !isFinite(v)) return;
+  const h = moneyHist[key], t = new Date().toLocaleTimeString("en-US", {hour: "numeric", minute: "2-digit", second: "2-digit"});
+  if (h.length && h[h.length - 1][2] > Date.now() - 900) return;           // at most ~1 point a second
+  h.push([t, Math.round(v * 100) / 100, Date.now()]);
+  if (h.length > 1800) h.shift();                                           // the last 30 minutes at 1/s
+}
+function allocBar(parts) {
+  const tot = parts.reduce((s, p) => s + Math.max(0, p.v || 0), 0) || 1;
+  const cols = ["--series", "--good", "--warn", "#bf5af2", "#64d2ff", "#ff9f0a", "#ff375f", "--muted"];
+  const col = i => { const c = cols[i % cols.length]; return c.startsWith("--") ? css(c) : c; };
+  return `<div style="display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--surface-2);margin:4px 0 8px">${parts.map((p, i) => `<span title="${esc(p.label)} ${usd(p.v, 0)}" style="width:${(100 * Math.max(0, p.v || 0) / tot).toFixed(2)}%;background:${col(i)}"></span>`).join("")}</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--ink-2)">${parts.map((p, i) => `<span><i style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${col(i)};margin-right:5px"></i>${esc(p.label)} <b style="color:var(--ink)">${usd(p.v, 0)}</b> <span style="color:var(--muted)">${(100 * Math.max(0, p.v || 0) / tot).toFixed(1)}%</span></span>`).join("")}</div>`;
+}
+function drawHist(el, key) { const h = moneyHist[key]; if (h.length > 2) lineChart(el, h.map(x => [x[0], x[1]]), v => usd(v, 0), s => s); else el.innerHTML = `<div class="sub">The chart fills in as prices move.</div>`; }
+
+// ---- crypto side
+// A book's coins, if data.json lists them: holdings: [{asset|coin|symbol, qty|units|quantity, value_usd?}]
+const bookCoins = b => (Array.isArray(b.holdings) ? b.holdings : []).map(h => ({
+  sym: String(h.asset || h.coin || h.symbol || "").toUpperCase().replace(/USDT?$/, ""),
+  qty: +(h.qty ?? h.units ?? h.quantity ?? 0), snap: h.value_usd != null ? +h.value_usd : null})).filter(h => h.sym);
+function cryptoMoney(d) {
+  const P = d.paper || {}, books = P.books || [];
+  const btcSeries = d.btc || [], lastClose = btcSeries.length ? btcSeries[btcSeries.length - 1] : null;
+  const rows = books.map(b => {
+    let liveV = null, how = "at the last daily close";
+    if (b.strategy === "__buy_and_hold_BTC__" && lastClose && lastClose[0] === P.latest_complete_day && live.px.BTC) {
+      liveV = b.equity / lastClose[1] * live.px.BTC; how = "live";
+    } else {
+      const coins = bookCoins(b);
+      if (coins.length) {
+        let v = +b.cash || 0, all = true;
+        coins.forEach(c => { const p = live.px[c.sym]; if (p) v += c.qty * p; else { all = false; v += c.snap || 0; } });
+        liveV = v; how = all ? "live" : "live (some coins at the close)";
+      }
+    }
+    return {b, v: liveV != null ? liveV : +b.equity, how, coins: bookCoins(b)};
+  });
+  return {rows, total: rows.reduce((s, r) => s + r.v, 0), put: books.reduce((s, b) => s + (+b.budget_usd || 0), 0),
+          close: books.reduce((s, b) => s + (+b.equity || 0), 0)};
+}
+function watchBookCoins(d) {
+  // coins a book holds that are not already on the board get their own feed subscription
+  const extra = new Set();
+  ((d.paper || {}).books || []).forEach(b => bookCoins(b).forEach(c => { if (!COINS.some(x => x[0] === c.sym)) extra.add(c.sym); }));
+  if (!extra.size) return;
+  const send = () => { try { live.ws.send(JSON.stringify({type: "subscribe", product_ids: [...extra].map(s => s + "-USD"), channels: ["ticker"]})); } catch (e) {} };
+  if (live.ws && live.ws.readyState === 1) send(); else setTimeout(() => watchBookCoins(d), 2000);
+}
+function drawCryptoMoney(d) {
+  if ($("#tab-crypto").hidden) return;
+  const m = cryptoMoney(d), liveCount = m.rows.filter(r => r.how.startsWith("live")).length;
+  pushHist("crypto", m.total);
+  $("#m-crypto-tiles").innerHTML = [
+    tile("Our crypto money", usd(m.total, 2), `put in ${usd(m.put)} · ${sgnUsd(m.total - m.put, 0)} (${pct(m.put ? (m.total / m.put - 1) * 100 : null)})`),
+    tile("Since the last close", sgnUsd(m.total - m.close), `${esc((d.paper || {}).latest_complete_day || "")} close was ${usd(m.close, 2)}`),
+    tile("Updating live", `${liveCount} of ${m.rows.length} books`, liveCount < m.rows.length ? "the others publish only a coin count, so they sit at the daily close" : "every book is re-priced from Coinbase"),
+  ].join("");
+  $("#m-crypto-alloc").innerHTML = allocBar(m.rows.map(r => ({label: r.b.book, v: r.v})));
+  $("#m-crypto-books").innerHTML = `<table><thead><tr><th>Book</th><th>Where the money is</th><th class="num">Value</th><th class="num">Since the close</th><th class="num">On ${usd(10000)}</th><th>Priced</th></tr></thead><tbody>${m.rows.map(r => {
+    const where = r.b.strategy === "__buy_and_hold_BTC__" ? "100% Bitcoin" : r.coins.length ? r.coins.map(c => `${esc(c.sym)} ${usd(c.qty * (live.px[c.sym] || 0) || c.snap, 0)}`).join(" · ") : `${r.b.open_positions} coins (names not published yet)${+r.b.cash ? ` + ${usd(r.b.cash)} cash` : ""}`;
+    return `<tr><td><b>${esc(r.b.book)}</b></td><td class="sub">${where}</td><td class="num">${usd(r.v, 2)}</td><td class="num">${sgnUsd(r.v - r.b.equity)}</td><td class="num">${sgnUsd(r.v - r.b.budget_usd, 0)}</td><td>${pill(r.how.startsWith("live") ? "good" : "muted", r.how)}</td></tr>`; }).join("")}</tbody></table>`;
+}
+
+// ---- stock side
+const stockMoney = {pf: null, quotes: {}, timer: null, lastQuote: null};
+async function pollStockQuotes() {
+  const pos = (stockMoney.pf || {}).positions || {}, syms = Object.keys(pos);
+  if (!syms.length || $("#tab-stock").hidden) return drawStockMoney();
+  try {
+    const base = STOCK_API.replace(/\/api\/data$/, "");
+    const r = await (await fetch(`${base}/api/quotes?symbols=${syms.join(",")}`, {cache: "no-store"})).json();
+    (r.quotes || []).forEach(q => { if (q.price != null) stockMoney.quotes[q.symbol] = q; });
+    stockMoney.lastQuote = Date.now();
+  } catch (e) {}
+  drawStockMoney();
+}
+function drawStockMoney() {
+  const pf = stockMoney.pf; if (!pf || $("#tab-stock").hidden) return;
+  const pos = pf.positions || {}, cash = +pf.cash || 0, dep = +pf.deposited || 0;
+  const rows = Object.entries(pos).map(([s, p]) => { const q = stockMoney.quotes[s], px = q ? +q.price : +p.avg_cost;
+    return {s, qty: +p.qty, cost: p.qty * p.avg_cost, v: p.qty * px, px, live: !!q, opened: p.opened_ts}; });
+  const inv = rows.reduce((a, r) => a + r.v, 0), eq = cash + inv, unreal = rows.reduce((a, r) => a + r.v - r.cost, 0);
+  pushHist("stock", eq);
+  const ny = nyParts(), open = !["Sat", "Sun"].includes(ny.wd) && ny.min >= 570 && ny.min < 960;
+  $("#m-stock-tiles").innerHTML = [
+    tile("Our stock money", usd(eq, 2), `put in ${usd(dep)} · ${sgnUsd(eq - dep, 0)} (${pct(dep ? (eq / dep - 1) * 100 : null)})`),
+    tile("In the market now", usd(inv, 2), rows.length ? `${rows.length} position${rows.length > 1 ? "s" : ""} · ${sgnUsd(unreal)} unrealised` : "nothing held"),
+    tile("Cash", usd(cash, 2), `${eq ? (100 * cash / eq).toFixed(1) : 0}% of the account`),
+    tile("Prices", rows.length ? (open ? pill("good", "live, every 5 s") : pill("muted", "market closed")) : pill("muted", "nothing to price"), stockMoney.lastQuote ? `last quote ${new Date(stockMoney.lastQuote).toLocaleTimeString("en-US")}` : (open ? "waiting for the first buy" : "opens 9:30 AM ET")),
+  ].join("");
+  $("#m-stock-alloc").innerHTML = allocBar(rows.map(r => ({label: r.s, v: r.v})).concat([{label: "Cash", v: cash}]));
+  const clock = s => { const arm = ((stockMoney.st || {}).hold_arm || {})[s]; return arm ? `${arm}-min clock` : ""; };
+  $("#m-stock-pos").innerHTML = rows.length ? `<table><thead><tr><th>Holding</th><th class="num">Shares</th><th class="num">Bought at</th><th class="num">Now</th><th class="num">Value</th><th class="num">Profit / loss</th><th>Held</th></tr></thead><tbody>${rows.map(r => {
+      const mins = r.opened ? Math.round((Date.now() / 1000 - r.opened) / 60) : null;
+      return `<tr><td><b>${esc(r.s)}</b> ${r.live ? "" : pill("muted", "at cost")}</td><td class="num">${r.qty.toFixed(3)}</td><td class="num">${usd(r.cost / r.qty, 2)}</td><td class="num">${usd(r.px, 2)}</td><td class="num">${usd(r.v, 2)}</td><td class="num">${sgnUsd(r.v - r.cost)}<div class="sub">${pct((r.v / r.cost - 1) * 100)}</div></td><td class="sub">${mins != null ? mins + " min" : ""} ${clock(r.s)}</td></tr>`; }).join("")}</tbody></table>`
+    : `<div class="sub">All ${usd(cash, 2)} is in cash right now. When the agent buys, each holding appears here and re-prices every 5 seconds.</div>`;
+  drawHist($("#m-stock-chart"), "stock");
 }
 
 // ---- stock agent tab (live) ------------------------------------------------------------
@@ -403,6 +521,8 @@ async function loadStock() {
   catch (e) { $("#s-banner").innerHTML = `<div class="banner crit">Could not load the agent's data: ${esc(e.message)}</div>`; return; }
   const pf = d.portfolio || {}, st = d.st || {}, sig = d.signals || {}, jr = d.journal || [], ev = d.evolve || {}, h = d.health || {};
   const pos = pf.positions || {};
+  stockMoney.pf = pf; stockMoney.st = st; drawStockMoney();
+  if (!stockMoney.timer) { stockMoney.timer = setInterval(pollStockQuotes, 5000); pollStockQuotes(); }
   // ---- status banner
   const lastPub = st.last_publish_ts ? new Date(st.last_publish_ts * 1000) : (sig.asOf ? new Date(sig.asOf) : null);
   const ageMin = lastPub ? (Date.now() - lastPub.getTime()) / 60000 : null;
