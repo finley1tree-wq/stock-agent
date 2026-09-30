@@ -1,23 +1,3 @@
-~ WORKING buy_limit $500.00 NOC @ $467.46 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% RTX @ $185.98 until 2026-10-05 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 RTX @ $180.00 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CHRW @ $151.83 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 CHRW @ $146.87 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $358.13 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $346.36 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ACN @ $179.78 until 2026-10-05 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $173.65 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TTD @ $12.10 until 2026-10-05 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 TTD @ $11.68 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25190.61 (+0.76% on $25000.00 in) · cash $1199.47 · realised +199.47
-Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $485.62] -> $4030.69 (+0.77%) — close 100% at +0.3% over the average cost
-## 2026-09-30 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $12.10] -> $4021.50 (+0.54%) — close 100% at +0.5% over the average cost
-## 2026-09-30 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $180.17] -> $4025.66 (+0.64%) — close 100% at +0.4% over the average cost
 ## 2026-09-30 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +378,23 @@ Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week
   (dropped ACN: sold 32 min ago, cooling off)
 - BUY $500.00 CRWD [buy_limit @ $265.63] — wanted it, but not at the high — resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h
 ## 2026-09-30 13:18 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-30 13:18 ET (Wednesday) — week 2026-W40 — budget left $22827.15 (today $41100.00 put to work, 37 buys, 30 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +48.0% in a day looks like a bad tick)
+  (dropped ACN: sold 33 min ago, cooling off)
+brain: no_new_entries_after_et is 14:00 and it's 13:18, so a new buy placed now would need to fill within minutes - risky. I already have 4 positions (MSFT, AMD, AVGO, CRWD) each with auto-bracket take_profit/stop_loss and scale-in buy_limits working, which covers protection. Existing resting buy_limit triggers on CRWD/TSM/ACN/MSFT/GOOGL are already working toward min_positions without chasing at today's high prices (several names are 50-80% of day range). Rather than add fresh market buys this close to cutoff (which the guardrail would convert to limits anyway per max_entry_range_pct), I'll let existing triggers work and check back in 30 min once past the entries cutoff to manage the book with sells/stops only.
+lesson: Working buy_limit triggers placed earlier already cover diversification toward min_positions; near the 14:00 cutoff, adding fresh market orders risks guardrail rejection/chasing, so let resting limits do the work and focus subsequent checks on protecting/managing the 4 open positions.
+portfolio: equity $25207.52 (+0.83% on $25000.00 in) · cash $23158.75 · realised +208.75
+Decision: nothing at this check. 20 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (dropped ACN: sold 33 min ago, cooling off)
+  (dropped ACN: sold 34 min ago, cooling off)
+- BUY $500.00 CRWD [buy_limit @ $265.14] — wanted it, but not at the high — resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha
+- BUY $625.00 TSM [buy_limit @ $458.44] — wanted it, but not at the high — resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa
+## 2026-09-30 13:21 ET — tick — 0 sell(s), 2 buy(s) from standing orders

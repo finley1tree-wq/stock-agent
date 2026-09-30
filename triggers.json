@@ -1,80 +1,6 @@
 {
  "orders": [
   {
-   "id": "d047925e",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 226.0,
-   "status": "cancelled",
-   "created": "2026-09-28 09:56",
-   "created_ts": 1790603769,
-   "why": "lock in gain on half position",
-   "evidence": "take partial profit at ~2.2% gain",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-28 10:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8a90c227",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 342.9824,
-   "status": "cancelled",
-   "created": "2026-09-28 09:56",
-   "created_ts": 1790603769,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $342.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 10:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "45be2684",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 331.9825,
-   "status": "cancelled",
-   "created": "2026-09-28 09:56",
-   "created_ts": 1790603769,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $342.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 10:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "eac58930",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 246.2193,
-   "status": "filled",
-   "created": "2026-09-28 09:56",
-   "created_ts": 1790603769,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $245.62",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 10:13"
-  },
-  {
    "id": "d4f4ab09",
    "ticker": "AMZN",
    "kind": "buy_limit",
@@ -6378,7 +6304,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 265.1449,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 11:13",
    "created_ts": 1790781190,
    "why": "wanted it, but not at the high \u2014 resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha",
@@ -6389,7 +6315,8 @@
     "patience"
    ],
    "good_until": "2026-09-30",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-30 13:21"
   },
   {
    "id": "0c775669",
@@ -6454,7 +6381,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 458.442,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 11:28",
    "created_ts": 1790782125,
    "why": "wanted it, but not at the high \u2014 resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa",
@@ -6465,7 +6392,8 @@
     "patience"
    ],
    "good_until": "2026-09-30",
-   "usd": 625.0
+   "usd": 625.0,
+   "closed": "2026-09-30 13:21"
   },
   {
    "id": "8f0cda95",
@@ -7400,7 +7328,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 257.6611,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 13:18",
    "created_ts": 1790788726,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7410,8 +7338,78 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
+   "usd": 500.0,
+   "closed": "2026-09-30 13:21",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "539b4c71",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 257.4283,
+   "status": "working",
+   "created": "2026-09-30 13:21",
+   "created_ts": 1790788865,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $265.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 500.0
+  },
+  {
+   "id": "52eb5f53",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 459.5494,
+   "status": "working",
+   "created": "2026-09-30 13:21",
+   "created_ts": 1790788865,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $458.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b7c0143d",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 455.6664,
+   "status": "working",
+   "created": "2026-09-30 13:21",
+   "created_ts": 1790788865,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $458.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "50d9761e",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 444.6868,
+   "status": "working",
+   "created": "2026-09-30 13:21",
+   "created_ts": 1790788865,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $458.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
    "usd": 500.0
   }
  ],
- "updated": "2026-09-30 13:18"
+ "updated": "2026-09-30 13:21"
 }

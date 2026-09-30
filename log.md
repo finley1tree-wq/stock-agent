@@ -20529,3 +20529,6 @@ Decision: nothing at this check. 20 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (dropped ACN: sold 33 min ago, cooling off)
   (dropped ACN: sold 34 min ago, cooling off)
+- BUY $500.00 CRWD [buy_limit @ $265.14] — wanted it, but not at the high — resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha
+- BUY $625.00 TSM [buy_limit @ $458.44] — wanted it, but not at the high — resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa
+## 2026-09-30 13:21 ET — tick — 0 sell(s), 2 buy(s) from standing orders
