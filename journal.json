@@ -46390,7 +46390,7 @@
     "code_version": "100ed01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.59
+    "ret_now": -1.14
   },
   {
     "symbol": "AVGO",
@@ -46660,7 +46660,9 @@
     "code_version": "5fcbd1e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.26,
+    "ret_final": -0.26,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEM",
@@ -46712,7 +46714,10 @@
     "hour_et": 10,
     "code_version": "5d50646",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.28,
+    "ret_now": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -46738,7 +46743,8 @@
     "hour_et": 10,
     "code_version": "5d50646",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.25
   },
   {
     "symbol": "NOC",
@@ -46763,7 +46769,8 @@
     "evidence": "average cost $481.96",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "22aca43"
+    "code_version": "22aca43",
+    "hold_minutes": 4
   },
   {
     "symbol": "CCJ",
@@ -46792,7 +46799,8 @@
     "hour_et": 10,
     "code_version": "22aca43",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.09
   },
   {
     "symbol": "GOOGL",
@@ -46821,7 +46829,8 @@
     "hour_et": 10,
     "code_version": "ede5bb3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.07
   },
   {
     "symbol": "GOOGL",
@@ -46850,7 +46859,8 @@
     "hour_et": 10,
     "code_version": "0e6f5f7",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.11
   },
   {
     "symbol": "TSM",
@@ -46874,6 +46884,85 @@
     "evidence": "bought 30 min ago, -0.24% unrealised",
     "trigger": "time_stop",
     "hour_et": 10,
-    "code_version": "0e6f5f7"
+    "code_version": "0e6f5f7",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.448958,
+    "price": 517.61,
+    "date": "2026-09-30",
+    "time_et": "10:41",
+    "ts": 1790779295,
+    "why": "Widely-held AI infra name with strong momentum; adding to reach min_positions, buying near market since range position is moderate (75.5%, under 85% max_entry_range_pct) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "MSFT +1.68% today, 75.5% of day range, headline 'Nvidia CEO Jensen Huang: AI data center build-out could create 1 million jobs' 2026-09-30",
+    "hold_minutes": 90,
+    "entry_price": 517.51,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.01,
+    "hour_et": 10,
+    "code_version": "4663401",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.362655,
+    "price": 458.66,
+    "date": "2026-09-30",
+    "time_et": "10:41",
+    "ts": 1790779295,
+    "why": "Congress buy pressure top-ranked (tied highest at 3.0) plus industrial electrification theme; only 18.3% of day range so room to run [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Rep. April McClain Delaney disclosed buys in HUBB 2026-09-09; congress_net_buy_pressure HUBB=3.0 (highest tier)",
+    "hold_minutes": 90,
+    "entry_price": 458.48,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.21,
+    "hour_et": 10,
+    "code_version": "4663401",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NLR",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.751265,
+    "price": 105.24,
+    "date": "2026-09-30",
+    "time_et": "10:41",
+    "ts": 1790779295,
+    "why": "Nuclear/AI data center theme still intact per recent headlines, diversifies book beyond CCJ single-name nuclear exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "NLR +0.95% today, 70.6% of day range, headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks",
+    "hold_minutes": 90,
+    "entry_price": 105.13,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -11.08,
+    "hour_et": 10,
+    "code_version": "4663401",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -20220,3 +20220,31 @@ Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week
 ## 2026-09-30 10:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% TSM [time stop] -> $623.35 (-0.26%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:41 ET (Wednesday) — week 2026-W40 — budget left $17927.82 (today $29000.00 put to work, 13 buys, 8 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (bad quote TNON: +43.8% in a day looks like a bad tick)
+brain: Below target position count (3 of 8) with 71.7% cash idle - per owner's explicit full_deployment instruction and counterfactual data showing idle checks cost vs universe, deploying into 4 evidence-backed names (MSFT momentum+AI news, HUBB/LTH top-tier congress buy pressure from Rep. McClain Delaney, NLR nuclear/AI theme) each with protective stops. This brings the book to 7 positions, close to min_positions of 8, using named evidence for each entry rather than momentum alone.
+lesson: Congress buy-pressure tier (3.0, top of list) from a named rep plus a headline is stronger evidence than momentum alone for hitting the no-momentum-only-entries rule; keep filling toward min_positions in $2-3k tranches with stops attached.
+  (dropped LTH: 88% up today's range — resting a limit at $40.11 instead of chasing)
+- BUY $750.00 MSFT [filled] ['momentum', 'news'] — Widely-held AI infra name with strong momentum; adding to reach min_positions, buying near market since range position is moderate (75.5%, under 85% max_entry_range_pct) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: MSFT +1.68% today, 75.5% of day range, headline 'Nvidia CEO Jensen Huang: AI data center build-out could create 1 million jobs' 2026-09-30
+- BUY $625.00 HUBB [filled] ['congress', 'news'] — Congress buy pressure top-ranked (tied highest at 3.0) plus industrial electrification theme; only 18.3% of day range so room to run [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. April McClain Delaney disclosed buys in HUBB 2026-09-09; congress_net_buy_pressure HUBB=3.0 (highest tier)
+- BUY $500.00 NLR [filled] ['news', 'momentum'] — Nuclear/AI data center theme still intact per recent headlines, diversifies book beyond CCJ single-name nuclear exposure [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NLR +0.95% today, 70.6% of day range, headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks
+  (dropped trigger LTH stop_loss: not held)
+~ WORKING stop_loss 100% MSFT @ $507.00 until 2026-09-30 — protective stop ~2% below entry
+~ WORKING stop_loss 100% HUBB @ $449.00 until 2026-09-30 — protective stop ~2% below entry
+~ WORKING stop_loss 100% NLR @ $102.90 until 2026-09-30 — protective stop ~2.1% below entry
+~ WORKING buy_limit $625.00 LTH @ $40.11 until 2026-09-30 — wanted it, but not at the high — resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens 
+~ WORKING take_profit 100% MSFT @ $518.93 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $502.08 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $460.01 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $444.90 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NLR @ $105.60 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $102.08 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25211.07 (+0.84% on $25000.00 in) · cash $16384.43 · realised +259.43
+Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $16052.82 this week

@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 7072.18,
-  "deployed": 233250.18,
+  "spent": 8947.18,
+  "deployed": 235125.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -19,12 +19,13 @@
     "CRWD": 18.82,
     "HLI": 31.28,
     "FWONK": 7.89,
-    "HUBB": 28.73,
+    "HUBB": 653.73,
     "LTH": 0.78,
     "CHRW": 4001.83,
-    "MSFT": 17.81,
+    "MSFT": 767.81,
     "TPL": 3.17,
-    "TSM": 1.65
+    "TSM": 1.65,
+    "NLR": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -34,7 +35,7 @@
     "TTD": 12500.0,
     "ACN": 12500.0,
     "AMD": 4500.0,
-    "MSFT": 9058.82,
+    "MSFT": 9808.82,
     "NOC": 15697.06,
     "UNH": 9272.06,
     "CRWD": 9125.0,
@@ -51,8 +52,8 @@
     "NEM": 4125.0,
     "HLI": 5200.0,
     "FWONK": 1000.0,
-    "NLR": 2000.0,
-    "HUBB": 7500.0,
+    "NLR": 2500.0,
+    "HUBB": 8125.0,
     "CHRW": 8700.0,
     "TPL": 4100.0,
     "LTH": 4500.0
@@ -3893,12 +3894,66 @@
       ],
       "evidence": "bought 30 min ago, -0.24% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.448958,
+      "price": 517.61,
+      "date": "2026-09-30",
+      "time_et": "10:41",
+      "ts": 1790779295,
+      "why": "Widely-held AI infra name with strong momentum; adding to reach min_positions, buying near market since range position is moderate (75.5%, under 85% max_entry_range_pct) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "MSFT +1.68% today, 75.5% of day range, headline 'Nvidia CEO Jensen Huang: AI data center build-out could create 1 million jobs' 2026-09-30",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.362655,
+      "price": 458.66,
+      "date": "2026-09-30",
+      "time_et": "10:41",
+      "ts": 1790779295,
+      "why": "Congress buy pressure top-ranked (tied highest at 3.0) plus industrial electrification theme; only 18.3% of day range so room to run [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Rep. April McClain Delaney disclosed buys in HUBB 2026-09-09; congress_net_buy_pressure HUBB=3.0 (highest tier)",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NLR",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.751265,
+      "price": 105.24,
+      "date": "2026-09-30",
+      "time_et": "10:41",
+      "ts": 1790779295,
+      "why": "Nuclear/AI data center theme still intact per recent headlines, diversifies book beyond CCJ single-name nuclear exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "NLR +0.95% today, 70.6% of day range, headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 6940.05,
-  "deployed_today": 29000.0,
-  "orders_today": 13,
+  "spent_today": 8815.05,
+  "deployed_today": 30875.0,
+  "orders_today": 16,
   "sells_today": 8,
   "sold_today": [
     "NOC",
@@ -3940,29 +3995,41 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790779127,
-  "last_check_ts": 1790779208,
+  "last_publish_ts": 1790779295,
+  "last_check_ts": 1790779295,
   "last_bar_ts": 1790779200,
-  "last_decision_ts": 1790778311,
+  "last_decision_ts": 1790779295,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "7b3830da": 88.9429,
     "315fea1e": 349.59,
+    "38c6373f": 518.9299,
+    "448bcb34": 460.0085,
     "b52730f4": 515.5548,
+    "61419fc1": 40.108,
+    "4756ad2e": 105.5989,
     "7460935d": 515.0325,
+    "7b3830da": 88.9429,
     "8e51abdd": 346.1249,
+    "eb12b0c1": 151.8279,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
-    "eb12b0c1": 151.8279,
-    "74534bb9": 338.142,
+    "e0048d73": 507.0,
+    "65b05100": 449.0,
+    "d19f996e": 102.9,
     "b70c7b0d": 85.942,
+    "27b4972c": 102.0828,
+    "7157785f": 444.9002,
+    "8d54dc2b": 502.0817,
+    "74534bb9": 338.142,
     "827206c6": 85.5
   },
   "hold_arm": {
     "CHRW": 90,
-    "TSM": 30,
     "CCJ": 30,
-    "GOOGL": 30
+    "GOOGL": 30,
+    "MSFT": 90,
+    "HUBB": 90,
+    "NLR": 90
   }
 }
