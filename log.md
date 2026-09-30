@@ -20554,3 +20554,4 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [stop_loss @ $265.78] -> $1001.47 (+0.15%) — close it all at -1.3% under the average cost
 ## 2026-09-30 13:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 7 resting buy order(s): past the entry cutoff)
