@@ -1,6 +1,3 @@
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
 brain: Still well below min_positions (2 of 8) with 82.5% cash idle. Adding 3 more names with concrete evidence: ACN (congress filer Scott Franklin), CCJ (nuclear sector, cheap entry at 10.5% of day range after -13.7% 1m decline), TPL (insider 10% holder bought at higher price than current). All paired with ATR-based stops per risk_management being the best-performing signal (0.17-0.18% avg, 88% hit rate). Existing TSM/AMD/HLI/NEM buy_limits and take-profits remain working.
 lesson: Batching diversified-evidence names (congress+insider+cheap-momentum) each check while pairing every buy with an explicit stop_loss is the fastest path to min_positions without waiting on cooldowns; keep new entries below max_entry_range_pct to avoid chasing.
@@ -398,3 +395,6 @@ lesson: With below_target_position_count true and idle cash near 84%, deploy mul
 ~ WORKING buy_limit $500.00 TSM @ $444.94 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25203.98 (+0.82% on $25000.00 in) · cash $20006.67 · realised +256.67
 Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $19675.07 this week
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $117.57] -> $627.32 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-09-30 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders

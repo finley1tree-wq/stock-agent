@@ -20184,3 +20184,6 @@ lesson: With below_target_position_count true and idle cash near 84%, deploy mul
 ~ WORKING buy_limit $500.00 TSM @ $444.94 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25203.98 (+0.82% on $25000.00 in) · cash $20006.67 · realised +256.67
 Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $19675.07 this week
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $117.57] -> $627.32 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-09-30 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders

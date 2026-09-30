@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 5324.93,
+  "spent": 4697.61,
   "deployed": 229500.18,
   "by_ticker": {
     "AVGO": 44.12,
@@ -12,7 +12,7 @@
     "AMD": 17.48,
     "LMT": 14.78,
     "GOOGL": 8.55,
-    "NEM": 630.21,
+    "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 24.51,
     "CCJ": 25.39,
@@ -3732,19 +3732,41 @@
       ],
       "evidence": "TSM +0.37% 1d, +2.7% 5d, 'TSMC reportedly weighs Texas chip investment on top of $265B Arizona push' 2026-09-30",
       "hold_minutes": 30
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 5.33564,
+      "status": "filled",
+      "price": 117.57,
+      "proceeds": 627.32,
+      "realized_pnl": 2.32,
+      "realized_pct": 0.37,
+      "date": "2026-09-30",
+      "time_et": "10:12",
+      "ts": 1790777400,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $117.14",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 5192.8,
+  "spent_today": 4565.48,
   "deployed_today": 25250.0,
   "orders_today": 8,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "NOC",
     "TTD",
     "ACN",
     "RTX",
-    "AVGO"
+    "AVGO",
+    "NEM"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -3768,7 +3790,7 @@
     "RTX": 1790777027,
     "CCJ": 1790702912,
     "LMT": 1790690655,
-    "NEM": 1790698125,
+    "NEM": 1790777567,
     "HLI": 1790702912,
     "FWONK": 1790690975,
     "HUBB": 1790704804,
@@ -3777,26 +3799,23 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790777333,
-  "last_check_ts": 1790777528,
+  "last_publish_ts": 1790777566,
+  "last_check_ts": 1790777612,
   "last_bar_ts": 1790777400,
   "last_decision_ts": 1790777333,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "1726ede5": 459.7917,
-    "21d7c567": 117.5722,
     "b52730f4": 515.5548,
     "7460935d": 515.0325,
-    "c240ea1f": 88.4347,
     "2bafd63f": 348.601,
     "acbe23a4": 348.4635,
-    "eb12b0c1": 151.8279,
+    "c240ea1f": 88.4347,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
+    "eb12b0c1": 151.8279,
     "03866069": 449.5,
-    "9fb44c6e": 114.7,
-    "66ab9a9a": 113.6258,
+    "1726ede5": 459.7917,
     "383579d2": 444.939
   },
   "hold_arm": {
