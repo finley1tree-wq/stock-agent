@@ -1,6 +1,3 @@
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Only 4 positions held vs min_positions=8, cash_idle_pct=61.7% - must deploy more. Adding AVGO/TSM on congress disclosure (Rep. Allen), CCJ on nuclear sector pullback, HLI on congress pressure, and a resting buy_limit for GOOGL once cooldown clears in 28min. Sized $1500-2500 each per guardrail guidance, each with protective stop_loss.
 lesson: Batch 4-5 named-evidence buys with immediate stops when below min_positions and idle cash is high; use buy_limit triggers for names still in cooldown rather than waiting idle.
   (dropped GOOGL: sold 17 min ago, cooling off)
   (dropped TSM: 89% up today's range — resting a limit at $453.14 instead of chasing)
@@ -398,3 +395,6 @@ lesson: Reaching min_positions requires acting each check with concrete news/con
 ~ WORKING buy_limit $500.00 AAPL @ $327.79 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25218.12 (+0.87% on $25000.00 in) · cash $21848.56 · realised +223.56
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21516.96 this week
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $127.30] -> $625.55 (+0.09%) — close it all at -0.9% under the average cost
+## 2026-09-30 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders

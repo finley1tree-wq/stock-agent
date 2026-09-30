@@ -20311,3 +20311,6 @@ lesson: Reaching min_positions requires acting each check with concrete news/con
 ~ WORKING buy_limit $500.00 AAPL @ $327.79 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25218.12 (+0.87% on $25000.00 in) · cash $21848.56 · realised +223.56
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21516.96 this week
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $127.30] -> $625.55 (+0.09%) — close it all at -0.9% under the average cost
+## 2026-09-30 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
