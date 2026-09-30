@@ -1,28 +1,3 @@
-## 2026-09-29 13:12 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 13:14 ET (Tuesday) — week 2026-W40 — budget left $18878.17 (today $95350.00 put to work, 42 buys, 40 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-brain: Correcting - see next call
-lesson: placeholder
-  (dropped NOC: sold 33 min ago, cooling off)
-portfolio: equity $25208.79 (+0.84% on $25000.00 in) · cash $19209.76 · realised +209.76
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% AVGO [time stop] -> $2499.28 (-0.03%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% CCJ [time stop] -> $1999.79 (-0.01%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% HLI [time stop] -> $1499.15 (-0.06%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 13:28 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 13:29 ET (Tuesday) — week 2026-W40 — budget left $24876.39 (today $95350.00 put to work, 42 buys, 43 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
   (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
 brain: Book is flat with 0 positions and 99.5% idle cash - the single biggest error I can make right now. Deploying into 7 names with concrete evidence (congress disclosures for LTH/HUBB/CRWD, insider filing for TPL, momentum+congress for AMD, news/momentum for META, track record for NVDA), sized $2000-3000 each to reach near min_positions quickly, each protected with a stop_loss per risk_management (the best-performing signal bucket at 0.17-0.18% avg with 88% hit rate). Existing buy_limit triggers on ACN/GOOGL/TSM remain working for additional entries at better levels.
@@ -398,3 +373,28 @@ portfolio: equity $25215.02 (+0.86% on $25000.00 in) · cash $22474.12 · realis
 Decision: nothing at this check. 24 standing order(s) working.
 - BUY $625.00 LTH [buy_limit @ $40.10] — wanted it, but not at the high — resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens 
 ## 2026-09-30 11:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-30 11:44 ET (Wednesday) — week 2026-W40 — budget left $21517.51 (today $33750.00 put to work, 21 buys, 13 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +57.1% in a day looks like a bad tick)
+brain: Below min_positions (6 of 8) with 86% cash idle - need to add names now with concrete evidence, before the 14:00 entry cutoff which is only ~2h away. Picked GOOGL (news catalyst + momentum, cooldown cleared), PLTR (fresh Trump/AI leadership headline), and UNH (leadership reset headline) to diversify sectors away from the crowded nuclear/industrial cluster already held. Each gets a protective stop per the lesson to always pair new buys with explicit stop_loss triggers.
+lesson: Below min_positions with high idle cash and approaching the 14:00 cutoff means act now in size with named headline evidence across diversified sectors, not just crowded clusters already held.
+- BUY $500.00 GOOGL [filled] ['news', 'momentum'] — Strong AI-infra news catalyst plus 1m momentum +3.49%; cooldown from earlier sell has cleared, re-entering widely_held name to build toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: GOOGL +3.01% today, headline 'AI companies just signed a White House accord' 2026-09-30, pct_of_day_range 83.5
+- BUY $500.00 PLTR [filled] ['news', 'momentum'] — Defense/AI name with fresh White House AI leadership headline and positive daily momentum, diversifies sector away from crowded industrials [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'What we know about Trump's meeting with Alex Karp, Jensen Huang, & other AI leaders' 2026-09-29, price 190.27 up 1.77% today, pct_of_day_range 82.1
+- BUY $500.00 UNH [filled] ['news', 'insider'] — Leadership reset headline is a concrete catalyst; adds healthcare sector diversification away from crowded logistics/nuclear cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'UnitedHealth Group (UNH) Puts Robert Hunter At The Center Of Its Leadership Reset' 2026-09-30, new insurance President named
+~ WORKING stop_loss 100% GOOGL @ $344.00 until 2026-09-30 — protective stop below today's low to cap downside on new position
+~ WORKING stop_loss 100% PLTR @ $186.00 until 2026-09-30 — protective stop just below today's low to cap downside on new position
+~ WORKING stop_loss 100% UNH @ $364.00 until 2026-09-30 — protective stop just below today's low to cap downside on new position
+~ WORKING take_profit 100% GOOGL @ $352.25 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $340.72 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLTR @ $190.94 until 2026-10-05 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $184.60 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $371.57 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $359.59 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25214.72 (+0.86% on $25000.00 in) · cash $20349.12 · realised +224.12
+Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
