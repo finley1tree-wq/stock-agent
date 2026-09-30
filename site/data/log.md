@@ -1,7 +1,3 @@
-- BUY $4000.00 NOC [filled] ['news', 'momentum'] — Defense sector oversold on competitor headline, buying the dip low in day range (5.9% of range) | evidence: NOC -4.53% today on Boeing's $20B Navy fighter jet contract win (Boeing Stock Rises After Pentagon Picks It for Navy Fighter) - overreaction dip in low-of-range defense name, ATR 2.49%
-- BUY $4000.00 RTX [filled] ['news'] — Concrete large new defense contract headline, price near mid-range (46%) not chased | evidence: RTX (RTX) Lands $20.7 Billion AMRAAM Deal Under Arsenal Of Freedom - Simply Wall St 2026-09-30
-- BUY $4000.00 CHRW [filled] ['congress', 'news'] — Top congress buy-pressure score in the list, already held profitably per track record signal congress avg 0.36% chosen | evidence: Rep. April McClain Delaney disclosed buys in CHRW (congress_net_buy_pressure 3.0, highest score); +1.1% today
-- BUY $4000.00 AVGO [filled] ['insider', 'news'] — Multiple insider/congress buy signals plus AI semiconductor demand headline | evidence: Rep. Rick W. Allen and David J. Taylor disclosed AVGO buys; congress_net_buy_pressure 2.0; Motley Fool 'Broadcom vs NVIDIA: Which is a Better Buy' 2026-09-30
 - BUY $4000.00 ACN [filled] ['congress', 'news'] — Congress buy pressure plus earnings catalyst tomorrow, price mid-range 53.5% | evidence: Rep. Scott Franklin and Gilbert Ray Cisneros disclosed ACN buys (congress_net_buy_pressure 2.0); 'Accenture Fiscal Q4 Earnings Due As AI Impacts Business' IBD 2026-09-30
 - BUY $4000.00 TTD [filled] ['congress', 'news'] — Congress buying pressure, deeply oversold (9 straight down days), low in day range for entry | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buys twice (congress_net_buy_pressure 2.0); price at 16.7% of day range - low, after 9 straight down days per Trefis headline
 ~ WORKING stop_loss 100% NOC @ $465.00 until 2026-09-30 — Protective stop ~3.5% below entry given elevated volatility today
@@ -398,3 +394,7 @@ lesson: Approaching the no-new-entries cutoff with <8 positions, deploy across m
 ~ WORKING buy_limit $500.00 NOC @ $471.78 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25210.39 (+0.84% on $25000.00 in) · cash $22037.27 · realised +212.27
 Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week
+- SELL 100% HD [time stop] -> $499.64 (-0.07%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% IBM [time stop] -> $498.67 (-0.27%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% CCJ [time stop] -> $249.43 (-0.23%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 13:01 ET — tick — 3 sell(s), 0 buy(s) from standing orders
