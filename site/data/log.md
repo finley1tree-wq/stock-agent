@@ -1,4 +1,3 @@
-lesson: Past lessons show repeatedly buying only 2-3 names per check keeps below_target_position_count true for hours; batch to 3+ new names per check when idle cash is high and evidence exists, using congress_net_buy_pressure ranking to pick the strongest non-momentum-only candidates.
 - BUY $2500.00 IBM [filled] ['congress', 'momentum'] — Diversify into widely_held tech with positive day momentum and congress interest; not currently held or cooling off | evidence: IBM +0.39% today, congress net buy pressure disclosed, not in cooldown
 - BUY $2500.00 CRWD [filled] ['news', 'momentum'] — Re-enter CRWD; congress pressure=2 plus mid-range entry avoids chasing the high | evidence: CRWD price 259.11, day range 52.8%, congress_net_buy_pressure 2.0, sold earlier today but cooldown already expired (not in cooling_off_minutes_left list)
 - BUY $2500.00 HUBB [filled] ['congress'] — Strongest congress buy-pressure score on the list, not in cooldown, reasonable entry at 6.6% of day range | evidence: congress_net_buy_pressure 3.0 (highest on list), disclosed buyer April McClain Delaney with multiple buy filings
@@ -398,3 +397,4 @@ lesson: When no_new_entries_this_check is true and checks_left_today is 0, the s
 portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-29 16:00 ET — published the session's closing state
