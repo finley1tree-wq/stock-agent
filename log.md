@@ -20436,3 +20436,5 @@ lesson: When below min_positions late in the session, deploy multiple mid-size n
 ~ WORKING buy_limit $500.00 NVDA @ $223.78 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25216.34 (+0.87% on $25000.00 in) · cash $21246.70 · realised +221.70
 Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20915.10 this week
+- SELL 100% FWONK [time stop] -> $622.63 (-0.38%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 12:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
