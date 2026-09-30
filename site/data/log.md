@@ -1,18 +1,3 @@
-  (dropped trigger MSFT stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-~ WORKING stop_loss 100% NEM @ $114.70 until 2026-09-30 — Protective stop below day range
-~ WORKING stop_loss 100% TSM @ $449.50 until 2026-09-30 — Protective stop below day range
-~ WORKING buy_limit $750.00 MSFT @ $515.55 until 2026-09-30 — wanted it, but not at the high — resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si
-~ WORKING buy_limit $750.00 GOOGL @ $348.60 until 2026-09-30 — wanted it, but not at the high — resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% NEM @ $117.57 until 2026-10-05 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NEM @ $113.63 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $459.79 until 2026-10-05 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $444.94 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25203.98 (+0.82% on $25000.00 in) · cash $20006.67 · realised +256.67
-Done: 0 sell(s), 2 buy(s); 14 order(s) working; budget left $19675.07 this week
-  (cancelled 2 standing order(s) on NEM: position closed)
-- SELL 100% NEM [take_profit @ $117.57] -> $627.32 (+0.37%) — close 100% at +0.4% over the average cost
-## 2026-09-30 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-30 10:25 ET (Wednesday) — week 2026-W40 — budget left $20302.39 (today $25250.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -395,6 +380,21 @@ Decision: nothing at this check. 15 standing order(s) working.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and current_positions is empty, so there is nothing to protect and no new buys are permitted. Sitting out this check is mechanically required, not a preference; I'll re-engage next check for sells/trigger management if positions open via any working orders, though none are currently working either.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - respect the cutoff rather than trying to force an order that guardrails will drop.
+portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-30 14:50 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +46.9% in a day looks like a bad tick)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and I hold zero positions, so no buys are possible or would fill anyway - guardrails would drop them. Nothing to sell (flat book) and no protective triggers needed since there are no open positions. Will wait for next session/entry window.
+lesson: When no_new_entries_this_check is true and the book is flat, there is nothing productive to do except wait - don't waste a check proposing orders that will be dropped.
 portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
