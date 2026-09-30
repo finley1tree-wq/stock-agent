@@ -1,6 +1,3 @@
-lesson: Batch 3 new names per check with named congress filers or sector track-record evidence plus immediate stop_loss to close the min_positions gap faster without waiting on cooldowns.
-- BUY $2200.00 CHRW [filled] ['congress', 'track_record'] — Highest congress buy-pressure name not held/cooled, real filer name backing it | evidence: congress_net_buy_pressure CHRW=3.0, Rep. April McClain Delaney filed multiple buys disclosed 2026-09-09; price at 65.3% of day range, not extended
-- BUY $2200.00 HLI [filled] ['congress', 'momentum'] — Low in day range entry on a name with congress buy pressure, cheap relative entry | evidence: congress_net_buy_pressure HLI=2.0 (April McClain Delaney), price 127.19 at 11.8% of day range (near low), down -1.81% today but only -4.38% 1m
 - BUY $2100.00 NEM [filled] ['momentum', 'track_record'] — Gold sector has positive realized track record; NEM pulled back giving better entry than the recent highs | evidence: gold sector track_record avg_ret_pct +0.03% hit_rate 0.59 (best sector in track_record besides risk_management/standing_order); NEM at 23.7% of day range, -8.53% 5d oversold bounce candidate
 ~ WORKING stop_loss 100% CHRW @ $145.80 until 2026-09-29 — Protect new CHRW position per risk_management best-performing signal bucket
 ~ WORKING stop_loss 100% HLI @ $123.50 until 2026-09-29 — Protect new HLI position, similar sizing to other stops
@@ -398,3 +395,6 @@ lesson: Below-target position count with high idle cash should be filled in $3k 
 ~ WORKING buy_limit $750.00 CCJ @ $88.43 until 2026-09-30 — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
 portfolio: equity $25194.29 (+0.78% on $25000.00 in) · cash $13277.32 · realised +277.32
 Decision: nothing at this check. 12 standing order(s) working.
+- SELL 100% RTX [time stop] -> $3998.31 (-0.04%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AVGO [time stop] -> $3981.04 (-0.47%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -20155,3 +20155,6 @@ lesson: Below-target position count with high idle cash should be filled in $3k 
 ~ WORKING buy_limit $750.00 CCJ @ $88.43 until 2026-09-30 — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
 portfolio: equity $25194.29 (+0.78% on $25000.00 in) · cash $13277.32 · realised +277.32
 Decision: nothing at this check. 12 standing order(s) working.
+- SELL 100% RTX [time stop] -> $3998.31 (-0.04%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% AVGO [time stop] -> $3981.04 (-0.47%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
