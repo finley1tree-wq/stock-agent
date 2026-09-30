@@ -20248,3 +20248,6 @@ lesson: Congress buy-pressure tier (3.0, top of list) from a named rep plus a he
 ~ WORKING buy_limit $500.00 NLR @ $102.08 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25211.07 (+0.84% on $25000.00 in) · cash $16384.43 · realised +259.43
 Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $16052.82 this week
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $88.94] -> $1505.81 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-09-30 10:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
