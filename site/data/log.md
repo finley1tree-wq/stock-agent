@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% RTX @ $187.07 until 2026-10-04 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 RTX @ $181.05 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $457.16 until 2026-10-04 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 TSM @ $442.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25227.41 (+0.91% on $25000.00 in) · cash $7742.86 · realised +242.86
 Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $7411.28 this week
@@ -398,3 +395,6 @@ Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $485.62] -> $4030.69 (+0.77%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.10] -> $4021.50 (+0.54%) — close 100% at +0.5% over the average cost
+## 2026-09-30 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,10 +1,10 @@
 {
   "week": "2026-W40",
-  "spent": 20101.44,
+  "spent": 16079.94,
   "deployed": 228250.18,
   "by_ticker": {
     "AVGO": 4025.16,
-    "TTD": 4033.13,
+    "TTD": 11.63,
     "AAPL": 2.24,
     "IBM": 2.17,
     "PLTR": 18.16,
@@ -3614,15 +3614,37 @@
       ],
       "evidence": "average cost $481.92",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 332.363828,
+      "status": "filled",
+      "price": 12.1,
+      "proceeds": 4021.5,
+      "realized_pnl": 21.5,
+      "realized_pct": 0.54,
+      "date": "2026-09-30",
+      "time_et": "09:38",
+      "ts": 1790775300,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $12.04",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 19969.31,
+  "spent_today": 15947.81,
   "deployed_today": 24000.0,
   "orders_today": 6,
-  "sells_today": 1,
+  "sells_today": 2,
   "sold_today": [
-    "NOC"
+    "NOC",
+    "TTD"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -3637,7 +3659,7 @@
     "NVDA": 1790704804,
     "GOOGL": 1790700084,
     "AVGO": 1790702912,
-    "TTD": 1790701969,
+    "TTD": 1790775497,
     "HD": 1790688629,
     "AMZN": 1790610993,
     "META": 1790704505,
@@ -3655,28 +3677,25 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790775333,
-  "last_check_ts": 1790775464,
+  "last_publish_ts": 1790775497,
+  "last_check_ts": 1790775542,
   "last_bar_ts": 1790775300,
   "last_decision_ts": 1790775163,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
+    "ce8fa49d": 179.7844,
+    "eb12b0c1": 151.8279,
     "32cc4a87": 185.9838,
     "80d101f3": 358.1341,
-    "eb12b0c1": 151.8279,
-    "0eb5ef62": 12.0997,
-    "ce8fa49d": 179.7844,
     "17cd58e9": 348.0,
-    "ced50ee5": 173.6494,
-    "2409c14b": 147.0,
-    "3cab44b5": 146.8677,
-    "31fe5adf": 173.0,
-    "42ea1e08": 346.3579,
-    "1ac71cc5": 11.6788,
     "a733e85e": 180.0,
     "dcf8bc14": 180.0029,
-    "2e62da9a": 11.5
+    "42ea1e08": 346.3579,
+    "2409c14b": 147.0,
+    "3cab44b5": 146.8677,
+    "ced50ee5": 173.6494,
+    "31fe5adf": 173.0
   },
   "hold_arm": {
     "NOC": 30,

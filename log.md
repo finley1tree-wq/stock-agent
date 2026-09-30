@@ -20128,3 +20128,6 @@ Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $485.62] -> $4030.69 (+0.77%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.10] -> $4021.50 (+0.54%) — close 100% at +0.5% over the average cost
+## 2026-09-30 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders

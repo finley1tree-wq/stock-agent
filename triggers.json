@@ -7205,7 +7205,7 @@
    "ticker": "TTD",
    "kind": "stop_loss",
    "price": 11.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 09:32",
    "created_ts": 1790775163,
    "why": "Protective stop below entry given high volatility name",
@@ -7214,7 +7214,9 @@
     "risk_management"
    ],
    "good_until": "2026-09-30",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 09:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6d3ae809",
@@ -7394,7 +7396,7 @@
    "ticker": "TTD",
    "kind": "take_profit",
    "price": 12.0997,
-   "status": "working",
+   "status": "filled",
    "created": "2026-09-30 09:32",
    "created_ts": 1790775163,
    "why": "close 100% at +0.5% over the average cost",
@@ -7404,14 +7406,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-09-30 09:38"
   },
   {
    "id": "1ac71cc5",
    "ticker": "TTD",
    "kind": "buy_limit",
    "price": 11.6788,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-09-30 09:32",
    "created_ts": 1790775163,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7421,8 +7424,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-05",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-09-30 09:38",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-09-30 09:35"
+ "updated": "2026-09-30 09:38"
 }
