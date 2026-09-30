@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 7441.37,
+  "spent": 6689.46,
   "deployed": 235125.18,
   "by_ticker": {
     "AVGO": 44.12,
@@ -22,7 +22,7 @@
     "HUBB": 653.73,
     "LTH": 0.78,
     "CHRW": 4001.83,
-    "MSFT": 767.81,
+    "MSFT": 15.9,
     "TPL": 3.17,
     "TSM": 1.65,
     "NLR": 500.0
@@ -3969,13 +3969,34 @@
       ],
       "evidence": "average cost $88.6",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.448958,
+      "status": "filled",
+      "price": 518.93,
+      "proceeds": 751.91,
+      "realized_pnl": 1.91,
+      "realized_pct": 0.25,
+      "date": "2026-09-30",
+      "time_et": "10:56",
+      "ts": 1790780100,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $517.61",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 7309.24,
+  "spent_today": 6557.33,
   "deployed_today": 30875.0,
   "orders_today": 16,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "NOC",
     "TTD",
@@ -3984,7 +4005,8 @@
     "AVGO",
     "NEM",
     "TSM",
-    "CCJ"
+    "CCJ",
+    "MSFT"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -3992,7 +4014,7 @@
     "LEN": 1790602749,
     "AMD": 1790704804,
     "ACN": 1790775623,
-    "MSFT": 1790701969,
+    "MSFT": 1790780173,
     "NOC": 1790778743,
     "UNH": 1790699486,
     "CRWD": 1790701006,
@@ -4017,29 +4039,26 @@
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790779953,
-  "last_check_ts": 1790780080,
-  "last_bar_ts": 1790779800,
+  "last_publish_ts": 1790780172,
+  "last_check_ts": 1790780172,
+  "last_bar_ts": 1790780100,
   "last_decision_ts": 1790779295,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "ee75b920": 348.896,
     "315fea1e": 349.59,
-    "38c6373f": 518.9299,
     "448bcb34": 460.0085,
     "b52730f4": 515.5548,
-    "7460935d": 515.0325,
     "61419fc1": 40.108,
     "4756ad2e": 105.5989,
+    "7460935d": 515.0325,
     "eb12b0c1": 151.8279,
     "d19f996e": 102.9,
-    "e0048d73": 507.0,
     "2409c14b": 147.0,
     "3cab44b5": 146.8677,
     "65b05100": 449.0,
     "27b4972c": 102.0828,
-    "8d54dc2b": 502.0817,
     "7157785f": 444.9002,
     "74534bb9": 338.142
   },

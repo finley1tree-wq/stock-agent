@@ -1,6 +1,3 @@
-- BUY $1625.00 CRWD [filled] ['congress', 'track_record'] — adds sector diversification, momentum positive, was already sold today so check cooldown - not in cooling_off list currently | evidence: CHRW/HUBB/LTH congress pressure score 3.0 in list but CRWD scored 2.0 via HLI overlap; CRWD +3.65% 5d, cybersecurity sector not yet represented in book
-- BUY $1625.00 UNH [filled] ['momentum', 'news'] — diversify sector exposure, oversold intraday dip within range 19.4% of day (near low), good entry level | evidence: UNH -1.45% today but only -0.16% 5d; healthcare diversification away from tech/defense concentration, was sold today not in cooling_off list
-  (dropped trigger ACN stop_loss: not held)
   (dropped trigger TSM stop_loss: not held)
 ~ WORKING stop_loss 100% CRWD @ $251.40 until 2026-09-29 — protect new CRWD position
 ~ WORKING stop_loss 100% UNH @ $361.20 until 2026-09-29 — protect new UNH position
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $16052.82 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $88.94] -> $1505.81 (+0.39%) — close 100% at +0.4% over the average cost
 ## 2026-09-30 10:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $518.93] -> $751.91 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-09-30 10:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
