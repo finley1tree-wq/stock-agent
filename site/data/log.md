@@ -1,5 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
   (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
   (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
@@ -398,3 +396,5 @@ Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $19845.25 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $371.57] -> $876.57 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-09-30 12:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% LTH [time stop] -> $625.22 (+0.03%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
