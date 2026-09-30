@@ -20617,3 +20617,4 @@ lesson: At 15:52 with no_new_entries_this_check true and zero positions, there i
 portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-30 16:00 ET — published the session's closing state

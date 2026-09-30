@@ -1,18 +1,3 @@
-~ WORKING stop_loss 100% NOC @ $473.00 until 2026-09-30 — protective stop below today's range floor
-~ WORKING stop_loss 100% CCJ @ $85.50 until 2026-09-30 — protective stop below today's low
-~ WORKING take_profit 100% NOC @ $483.30 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NOC @ $467.50 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $89.11 until 2026-10-05 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $86.11 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25193.09 (+0.77% on $25000.00 in) · cash $19134.00 · realised +259.00
-Done: 0 sell(s), 2 buy(s); 17 order(s) working; budget left $18802.39 this week
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $483.30] -> $752.08 (+0.28%) — close 100% at +0.3% over the average cost
-- BUY $750.00 CCJ [buy_limit @ $88.43] — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-09-30 10:32 ET — tick — 1 sell(s), 1 buy(s) from standing orders
-- BUY $750.00 GOOGL [buy_limit @ $348.60] — wanted it, but not at the high — resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-09-30 10:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- BUY $750.00 GOOGL [buy_limit @ $348.46] — wanted it, but not at the high — resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-09-30 10:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% TSM [time stop] -> $623.35 (-0.26%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -395,6 +380,21 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after the desk sold everything down today - there's nothing to protect and no new buys are allowed. Sitting out this single remaining check is mechanical compliance, not a discretionary cash-hold decision.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is genuinely nothing actionable - confirm this state quickly rather than proposing orders that will be dropped.
+portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-09-30 15:52 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (bad quote TNON: +47.4% in a day looks like a bad tick)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: It's 15:52 ET, market closes at 16:00, no_new_entries_this_check is true (past the 14:00 cutoff), positions_held is 0, and checks_left_today is 0. There is nothing to buy (would be dropped), nothing to sell (no positions), and no time for new standing orders to matter before close. Sitting flat into the close is the correct move here.
+lesson: At 15:52 with no_new_entries_this_check true and zero positions, there is no productive action - don't waste effort proposing orders that guardrails will drop in the final minutes before close.
 portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
