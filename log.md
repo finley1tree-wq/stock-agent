@@ -20286,3 +20286,28 @@ Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $18686.35 this week
 - BUY $625.00 HLI [buy_limit @ $127.18] — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
 - SELL 100% CHRW [time stop] -> $3955.61 (-1.11%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 11:03 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-30 11:13 ET (Wednesday) — week 2026-W40 — budget left $22016.96 (today $32625.00 put to work, 19 buys, 12 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (bad quote TNON: +63.7% in a day looks like a bad tick)
+brain: Below min_positions (5/8) with 88% idle cash - the counterfactual data shows idle checks have negative regret vs deploying. Adding ACN (congress tier 2.0 + earnings catalyst), CRWD (news momentum), AAPL (fresh CEO/foldable headlines) at market since they're not extreme in day range, and a GOOGL buy_limit to respect the cooldown. Avoiding pure-momentum tags per allow_momentum_only_entries=false; every buy pairs news or congress evidence with a concrete headline.
+lesson: Reaching min_positions requires acting each check with concrete news/congress evidence rather than waiting for cooldowns to clear on every name - use buy_limit triggers for cooling-off tickers instead of skipping them entirely.
+  (dropped GOOGL: sold 16 min ago, cooling off)
+  (dropped ACN: 99% up today's range — resting a limit at $180.33 instead of chasing)
+  (dropped CRWD: 100% up today's range — resting a limit at $265.14 instead of chasing)
+- BUY $500.00 AAPL [filled] ['news'] — Fresh CEO-change and foldable-iPhone catalyst headlines, not momentum-only [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'Apple's new CEO John Ternus plans on making some changes' and '$1,999 Foldable iPhone Could Sell 6 Million Units' headlines today, +2.57% 1d
+  (dropped trigger ACN stop_loss: level 1960 is 10.74x the quote 182.43, outside 0.5-1.5x)
+  (dropped trigger CRWD stop_loss: not held)
+~ WORKING buy_limit $1500.00 GOOGL @ $347.00 until 2026-09-30 — wait for cooldown to clear and a small dip before entering
+~ WORKING stop_loss 100% AAPL @ $331.00 until 2026-09-30 — protective stop ~2% below entry
+~ WORKING buy_limit $500.00 ACN @ $180.33 until 2026-09-30 — wanted it, but not at the high — resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i
+~ WORKING buy_limit $500.00 CRWD @ $265.14 until 2026-09-30 — wanted it, but not at the high — resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha
+~ WORKING take_profit 100% AAPL @ $338.67 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $327.79 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25218.12 (+0.87% on $25000.00 in) · cash $21848.56 · realised +223.56
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21516.96 this week

@@ -46390,7 +46390,9 @@
     "code_version": "100ed01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.8
+    "ret_now": -1.11,
+    "ret_final": -1.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -46949,7 +46951,7 @@
     "code_version": "4663401",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": -0.24
   },
   {
     "symbol": "NLR",
@@ -46976,7 +46978,7 @@
     "code_version": "4663401",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.4
   },
   {
     "symbol": "CCJ",
@@ -47082,7 +47084,8 @@
     "hour_et": 10,
     "code_version": "2644685",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.25
   },
   {
     "symbol": "SKWD",
@@ -47108,7 +47111,8 @@
     "hour_et": 10,
     "code_version": "2644685",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "HLI",
@@ -47137,7 +47141,8 @@
     "hour_et": 11,
     "code_version": "e60d413",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.19
   },
   {
     "symbol": "CHRW",
@@ -47161,6 +47166,32 @@
     "evidence": "bought 90 min ago, -1.07% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "e60d413"
+    "code_version": "e60d413",
+    "hold_minutes": 91
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.479607,
+    "price": 337.93,
+    "date": "2026-09-30",
+    "time_et": "11:13",
+    "ts": 1790781190,
+    "why": "Fresh CEO-change and foldable-iPhone catalyst headlines, not momentum-only [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "'Apple's new CEO John Ternus plans on making some changes' and '$1,999 Foldable iPhone Could Sell 6 Million Units' headlines today, +2.57% 1d",
+    "hold_minutes": 90,
+    "entry_price": 337.86,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 6.63,
+    "hour_et": 11,
+    "code_version": "0f81535",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,28 +1,3 @@
-- BUY $2500.00 TTD [filled] ['congress', 'news'] — Congress buy pressure plus cheap entry point mid-range, not previously sold today after cooldown check | evidence: Gilbert Ray Cisneros disclosed buy pressure TTD=2.0, price at 48% of day range, TTD cooled off list clear
-- BUY $2000.00 ACN [filled] ['congress', 'news'] — Multiple congress buyers on ACN, adding smaller market order alongside existing resting limits since ACN not extreme high in range | evidence: Scott Franklin and Gilbert Ray Cisneros both disclosed ACN buys, congress_net_buy_pressure=2.0, price 67.6% of range
-  (dropped trigger NEM stop_loss: not held)
-~ WORKING stop_loss 100% CHRW @ $144.40 until 2026-09-29 — Protective stop on new CHRW position per desk rule
-~ WORKING stop_loss 100% MSFT @ $493.30 until 2026-09-29 — Protective stop on new MSFT position per desk rule
-~ WORKING stop_loss 100% TTD @ $12.00 until 2026-09-29 — Protective stop on new TTD position per desk rule
-~ WORKING stop_loss 100% ACN @ $169.30 until 2026-09-29 — Protective stop on new ACN position per desk rule
-~ WORKING take_profit 100% CHRW @ $149.18 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 CHRW @ $144.30 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $509.92 until 2026-10-04 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 MSFT @ $493.36 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TTD @ $12.46 until 2026-10-04 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 TTD @ $12.03 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ACN @ $175.34 until 2026-10-04 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $169.34 until 2026-10-04 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25245.65 (+0.98% on $25000.00 in) · cash $14122.72 · realised +247.72
-Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $13791.13 this week
-- SELL 100% CRWD [time stop] -> $1622.85 (-0.13%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-29 12:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 12:58 ET (Tuesday) — week 2026-W40 — budget left $15413.98 (today $89350.00 put to work, 39 buys, 36 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
   (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
 brain: Only 4 positions held vs min_positions=8, cash_idle_pct=61.7% - must deploy more. Adding AVGO/TSM on congress disclosure (Rep. Allen), CCJ on nuclear sector pullback, HLI on congress pressure, and a resting buy_limit for GOOGL once cooldown clears in 28min. Sized $1500-2500 each per guardrail guidance, each with protective stop_loss.
@@ -398,3 +373,28 @@ Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $18686.35 this week
 - BUY $625.00 HLI [buy_limit @ $127.18] — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
 - SELL 100% CHRW [time stop] -> $3955.61 (-1.11%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 11:03 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+
+## 2026-09-30 11:13 ET (Wednesday) — week 2026-W40 — budget left $22016.96 (today $32625.00 put to work, 19 buys, 12 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (bad quote TNON: +63.7% in a day looks like a bad tick)
+brain: Below min_positions (5/8) with 88% idle cash - the counterfactual data shows idle checks have negative regret vs deploying. Adding ACN (congress tier 2.0 + earnings catalyst), CRWD (news momentum), AAPL (fresh CEO/foldable headlines) at market since they're not extreme in day range, and a GOOGL buy_limit to respect the cooldown. Avoiding pure-momentum tags per allow_momentum_only_entries=false; every buy pairs news or congress evidence with a concrete headline.
+lesson: Reaching min_positions requires acting each check with concrete news/congress evidence rather than waiting for cooldowns to clear on every name - use buy_limit triggers for cooling-off tickers instead of skipping them entirely.
+  (dropped GOOGL: sold 16 min ago, cooling off)
+  (dropped ACN: 99% up today's range — resting a limit at $180.33 instead of chasing)
+  (dropped CRWD: 100% up today's range — resting a limit at $265.14 instead of chasing)
+- BUY $500.00 AAPL [filled] ['news'] — Fresh CEO-change and foldable-iPhone catalyst headlines, not momentum-only [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'Apple's new CEO John Ternus plans on making some changes' and '$1,999 Foldable iPhone Could Sell 6 Million Units' headlines today, +2.57% 1d
+  (dropped trigger ACN stop_loss: level 1960 is 10.74x the quote 182.43, outside 0.5-1.5x)
+  (dropped trigger CRWD stop_loss: not held)
+~ WORKING buy_limit $1500.00 GOOGL @ $347.00 until 2026-09-30 — wait for cooldown to clear and a small dip before entering
+~ WORKING stop_loss 100% AAPL @ $331.00 until 2026-09-30 — protective stop ~2% below entry
+~ WORKING buy_limit $500.00 ACN @ $180.33 until 2026-09-30 — wanted it, but not at the high — resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i
+~ WORKING buy_limit $500.00 CRWD @ $265.14 until 2026-09-30 — wanted it, but not at the high — resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha
+~ WORKING take_profit 100% AAPL @ $338.67 until 2026-10-05 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AAPL @ $327.79 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25218.12 (+0.87% on $25000.00 in) · cash $21848.56 · realised +223.56
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21516.96 this week

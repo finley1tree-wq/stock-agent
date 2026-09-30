@@ -1,115 +1,6 @@
 {
  "orders": [
   {
-   "id": "f52081be",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 728.6834,
-   "status": "cancelled",
-   "created": "2026-09-25 15:50",
-   "created_ts": 1790365804,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $751.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:50",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "885017d7",
-   "ticker": "LEN",
-   "kind": "stop_loss",
-   "price": 79.8,
-   "status": "cancelled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "Protective stop",
-   "evidence": "ATR 3.28%, day low 81.82",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 09:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9759dc3f",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 181.0,
-   "status": "cancelled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "Protective stop",
-   "evidence": "ATR 3.04%, day low 185.62",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a1a1c3be",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 435.0,
-   "status": "cancelled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "Protective stop",
-   "evidence": "ATR 2.09%, day low 447",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "88f57c55",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 342.0,
-   "status": "cancelled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "Protective stop",
-   "evidence": "ATR 2.65%, day low 352.22",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 10:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "9175f355",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 11.7,
-   "status": "cancelled",
-   "created": "2026-09-28 09:33",
-   "created_ts": 1790602419,
-   "why": "Protective stop",
-   "evidence": "ATR 4.25%, day low 12.32",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 10:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "e68c3e7d",
    "ticker": "ACN",
    "kind": "stop_loss",
@@ -7404,7 +7295,109 @@
    ],
    "good_until": "2026-10-05",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "1270396f",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 347.0,
+   "status": "working",
+   "created": "2026-09-30 11:13",
+   "created_ts": 1790781190,
+   "why": "wait for cooldown to clear and a small dip before entering",
+   "evidence": "AI White House accord headline; cooldown 29min remaining, resting limit slightly below current 349.20",
+   "signals": [
+    "news"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 1500.0
+  },
+  {
+   "id": "1efcaba2",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 331.0,
+   "status": "working",
+   "created": "2026-09-30 11:13",
+   "created_ts": 1790781190,
+   "why": "protective stop ~2% below entry",
+   "evidence": "AAPL at 82.5% of day range",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-09-30",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "be99c1fb",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 180.3348,
+   "status": "working",
+   "created": "2026-09-30 11:13",
+   "created_ts": 1790781190,
+   "why": "wanted it, but not at the high \u2014 resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i",
+   "evidence": "Rep. Scott Franklin and Rep. Gilbert Ray Cisneros disclosed buys; ACN +3.0% 1d ahead of Q4 earnings (IBD headline 'Accenture Fiscal Q4 Earnings Due')",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
+  },
+  {
+   "id": "e0bbba9b",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 265.1449,
+   "status": "working",
+   "created": "2026-09-30 11:13",
+   "created_ts": 1790781190,
+   "why": "wanted it, but not at the high \u2014 resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha",
+   "evidence": "CRWD at 99.9% of day range on '24/7 Wall St: All In On Cybersecurity' bullish coverage, +2.02% today, +16% 1m",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 500.0
+  },
+  {
+   "id": "0c775669",
+   "ticker": "AAPL",
+   "kind": "take_profit",
+   "price": 338.6734,
+   "status": "working",
+   "created": "2026-09-30 11:13",
+   "created_ts": 1790781190,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $337.93",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4b85b91a",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 327.7921,
+   "status": "working",
+   "created": "2026-09-30 11:13",
+   "created_ts": 1790781190,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $337.93",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 500.0
   }
  ],
- "updated": "2026-09-30 11:08"
+ "updated": "2026-09-30 11:13"
 }
