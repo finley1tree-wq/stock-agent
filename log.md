@@ -20470,3 +20470,6 @@ portfolio: equity $25209.53 (+0.84% on $25000.00 in) · cash $21415.57 · realis
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $21083.97 this week
 - SELL 100% AAPL [time stop] -> $497.98 (-0.40%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 12:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% ACN [time stop] -> $499.87 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $498.85 (-0.23%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 12:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,3 @@
-lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing to do this check - respect the cutoff.
-portfolio: equity $25199.47 (+0.80% on $25000.00 in) · cash $25199.47 · realised +199.47
-Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-09-29 15:38 ET (Tuesday) — week 2026-W40 — budget left $24867.87 (today $109350.00 put to work, 48 buys, 49 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ portfolio: equity $25209.53 (+0.84% on $25000.00 in) · cash $21415.57 · realis
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $21083.97 this week
 - SELL 100% AAPL [time stop] -> $497.98 (-0.40%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 12:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% ACN [time stop] -> $499.87 (-0.03%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% NVDA [time stop] -> $498.85 (-0.23%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 12:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
