@@ -1,5 +1,3 @@
-- SELL 100% RTX [time stop] -> $3998.31 (-0.04%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% AVGO [time stop] -> $3981.04 (-0.47%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-30 10:08 ET (Wednesday) — week 2026-W40 — budget left $20925.07 (today $24000.00 put to work, 6 buys, 5 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ Decision: nothing at this check. 15 standing order(s) working.
 - SELL 100% CRWD [stop_loss @ $265.78] -> $1001.47 (+0.15%) — close it all at -1.3% under the average cost
 ## 2026-09-30 13:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 7 resting buy order(s): past the entry cutoff)
+- SELL 100% AVGO [time stop] -> $500.63 (+0.13%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 14:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders

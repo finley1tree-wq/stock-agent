@@ -1,9 +1,9 @@
 {
   "week": "2026-W40",
-  "spent": 621.83,
+  "spent": 121.2,
   "deployed": 246475.18,
   "by_ticker": {
-    "AVGO": 544.12,
+    "AVGO": 43.49,
     "TTD": 11.63,
     "AAPL": 4.26,
     "IBM": 3.5,
@@ -4906,13 +4906,33 @@
       ],
       "evidence": "average cost $265.39",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 1.414705,
+      "status": "filled",
+      "price": 353.88,
+      "proceeds": 500.63,
+      "realized_pnl": 0.63,
+      "realized_pct": 0.13,
+      "date": "2026-09-30",
+      "time_et": "14:17",
+      "ts": 1790792254,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, +0.15% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 489.7,
+  "spent_today": 0.0,
   "deployed_today": 42225.0,
   "orders_today": 39,
-  "sells_today": 34,
+  "sells_today": 35,
   "sold_today": [
     "NOC",
     "TTD",
@@ -4952,7 +4972,7 @@
     "CRWD": 1790790810,
     "NVDA": 1790786781,
     "GOOGL": 1790783362,
-    "AVGO": 1790777027,
+    "AVGO": 1790792254,
     "TTD": 1790775497,
     "HD": 1790787696,
     "AMZN": 1790610993,
@@ -4972,16 +4992,13 @@
     "LTH": 1790784357,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790791226,
-  "last_check_ts": 1790792214,
+  "last_publish_ts": 1790792254,
+  "last_check_ts": 1790792254,
   "last_bar_ts": 1790792100,
   "last_decision_ts": 1790790540,
   "next_check_minutes": 30,
   "autopiloted": false,
-  "book_px": {
-    "42295e01": 354.515,
-    "74075dbe": 346.0
-  },
+  "book_px": {},
   "hold_arm": {
     "MSFT": 90,
     "AMD": 90,

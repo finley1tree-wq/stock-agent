@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-30T14:00-04:00",
- "note": "tick: watching",
+ "asOf": "2026-09-30T14:17-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -154,41 +154,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "42295e01",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 354.515,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 353.51,
-   "pct_away": 0.28,
-   "good_until": "2026-10-05",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "74075dbe",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 346.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 353.51,
-   "pct_away": -2.12,
-   "good_until": "2026-09-30",
-   "why": "protective stop on new AVGO position",
-   "signals": [
-    "risk_management"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "Still well below min_positions (5 of 8) with 90% cash idle and only ~70 min until the 14:00 entry cutoff, so I'm deploying now across diversified sectors (semis, internet/AI, defense) each backed by concrete headlines/congress filings rather than waiting for perfect dips. NOC's sharp single-day drop",
  "congress_trades": [
