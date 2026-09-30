@@ -1,6 +1,3 @@
-  (dropped NEM: sold 34 min ago, cooling off)
-- BUY $2500.00 CHRW [filled] ['congress', 'track_record'] — Strongest congress pressure score in list, reasonable entry range, diversifies away from tech/CRWD | evidence: congress_net_buy_pressure CHRW=3.0 (April McClain Delaney multiple buys disclosed 2026-09-09), currently 61% of day range, not high in range
-- BUY $2500.00 MSFT [filled] ['congress', 'followed_person'] — Large disclosed congressional buy, not chasing since mid-range, sector diversification from CRWD | evidence: Rep. Josh Gottheimer disclosed a $250k-1M buy in MSFT filed 2026-09-14, MSFT only 54% of day range
 - BUY $2500.00 TTD [filled] ['congress', 'news'] — Congress buy pressure plus cheap entry point mid-range, not previously sold today after cooldown check | evidence: Gilbert Ray Cisneros disclosed buy pressure TTD=2.0, price at 48% of day range, TTD cooled off list clear
 - BUY $2000.00 ACN [filled] ['congress', 'news'] — Multiple congress buyers on ACN, adding smaller market order alongside existing resting limits since ACN not extreme high in range | evidence: Scott Franklin and Gilbert Ray Cisneros both disclosed ACN buys, congress_net_buy_pressure=2.0, price 67.6% of range
   (dropped trigger NEM stop_loss: not held)
@@ -398,3 +395,6 @@ lesson: Congress net_buy_pressure tier of 2.0-3.0 combined with a relevant headl
 ~ WORKING buy_limit $500.00 SKWD @ $51.63 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25232.43 (+0.93% on $25000.00 in) · cash $19017.96 · realised +267.96
 Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $18686.35 this week
+- BUY $625.00 HLI [buy_limit @ $127.18] — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
+- SELL 100% CHRW [time stop] -> $3955.61 (-1.11%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 11:03 ET — tick — 1 sell(s), 1 buy(s) from standing orders

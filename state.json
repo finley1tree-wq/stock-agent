@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6313.65,
-  "deployed": 236250.18,
+  "spent": 2983.04,
+  "deployed": 236875.18,
   "by_ticker": {
     "AVGO": 44.12,
     "TTD": 11.63,
@@ -17,11 +17,11 @@
     "NVDA": 24.51,
     "CCJ": 19.58,
     "CRWD": 18.82,
-    "HLI": 31.28,
+    "HLI": 656.28,
     "FWONK": 632.89,
     "HUBB": 653.73,
     "LTH": 0.78,
-    "CHRW": 4001.83,
+    "CHRW": 46.22,
     "MSFT": 15.9,
     "TPL": 3.17,
     "TSM": 1.65,
@@ -51,7 +51,7 @@
     "CCJ": 14900.0,
     "LMT": 6750.0,
     "NEM": 4125.0,
-    "HLI": 5200.0,
+    "HLI": 5825.0,
     "FWONK": 1625.0,
     "NLR": 2500.0,
     "HUBB": 8125.0,
@@ -4049,13 +4049,54 @@
       ],
       "evidence": "congress_net_buy_pressure SKWD=2.0; headline 'Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' 2026-09-28, 55.3 pct_of_day_range (mid-range entry)",
       "hold_minutes": 90
+    },
+    {
+      "symbol": "HLI",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.914156,
+      "price": 127.18,
+      "date": "2026-09-30",
+      "time_et": "11:03",
+      "ts": 1790780400,
+      "why": "wanted it, but not at the high \u2014 resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye",
+      "signals": [
+        "congress",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "congress_net_buy_pressure HLI=2.0; headline 'Investment Bank Stocks Tied To The UK M And A Recovery' 2026-09-27, price at 88.2 pct_of_range but momentum modest",
+      "trigger": "buy_limit",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 26.41824,
+      "status": "filled",
+      "price": 149.73,
+      "proceeds": 3955.61,
+      "realized_pnl": -44.39,
+      "realized_pct": -1.11,
+      "date": "2026-09-30",
+      "time_et": "11:03",
+      "ts": 1790780627,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -1.07% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 6181.52,
-  "deployed_today": 32000.0,
-  "orders_today": 18,
-  "sells_today": 11,
+  "spent_today": 2850.91,
+  "deployed_today": 32625.0,
+  "orders_today": 19,
+  "sells_today": 12,
   "sold_today": [
     "NOC",
     "TTD",
@@ -4066,7 +4107,8 @@
     "TSM",
     "CCJ",
     "MSFT",
-    "GOOGL"
+    "GOOGL",
+    "CHRW"
   ],
   "sold_ts": {
     "PLTR": 1790694453,
@@ -4095,42 +4137,42 @@
     "FWONK": 1790690975,
     "HUBB": 1790704804,
     "NLR": 1790691936,
-    "CHRW": 1790701969,
+    "CHRW": 1790780628,
     "TPL": 1790704804,
     "LTH": 1790704804
   },
-  "last_publish_ts": 1790780255,
-  "last_check_ts": 1790780537,
+  "last_publish_ts": 1790780627,
+  "last_check_ts": 1790780627,
   "last_bar_ts": 1790780400,
   "last_decision_ts": 1790780255,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "448bcb34": 460.0085,
-    "eff905f1": 93.7879,
     "3adc8ab0": 53.3743,
-    "4d6c0bbe": 127.1938,
-    "4756ad2e": 105.5989,
+    "eff905f1": 93.7879,
+    "411d6961": 127.6429,
+    "448bcb34": 460.0085,
     "b52730f4": 515.5548,
     "7460935d": 515.0325,
+    "f06f13e1": 126.0227,
     "61419fc1": 40.108,
-    "eb12b0c1": 151.8279,
+    "4756ad2e": 105.5989,
     "d19f996e": 102.9,
-    "2409c14b": 147.0,
     "65b05100": 449.0,
-    "3cab44b5": 146.8677,
-    "ed40a942": 91.0,
     "27b4972c": 102.0828,
+    "ed40a942": 91.0,
+    "7157785f": 444.9002,
     "9243c3bf": 51.7,
-    "014b1846": 51.6331,
     "63a1f59f": 90.7338,
-    "7157785f": 444.9002
+    "014b1846": 51.6331,
+    "a08d8bf0": 123.3646
   },
   "hold_arm": {
     "CHRW": 90,
     "HUBB": 90,
     "NLR": 90,
     "FWONK": 90,
-    "SKWD": 90
+    "SKWD": 90,
+    "HLI": 90
   }
 }

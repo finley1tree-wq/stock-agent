@@ -47109,5 +47109,58 @@
     "code_version": "2644685",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "HLI",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.914156,
+    "price": 127.18,
+    "date": "2026-09-30",
+    "time_et": "11:03",
+    "ts": 1790780400,
+    "why": "wanted it, but not at the high \u2014 resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye",
+    "signals": [
+      "congress",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "congress_net_buy_pressure HLI=2.0; headline 'Investment Bank Stocks Tied To The UK M And A Recovery' 2026-09-27, price at 88.2 pct_of_range but momentum modest",
+    "trigger": "buy_limit",
+    "hold_minutes": 90,
+    "entry_price": 127.1836,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -4.58,
+    "hour_et": 11,
+    "code_version": "e60d413",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 26.41824,
+    "status": "filled",
+    "price": 149.73,
+    "proceeds": 3955.61,
+    "realized_pnl": -44.39,
+    "realized_pct": -1.11,
+    "date": "2026-09-30",
+    "time_et": "11:03",
+    "ts": 1790780627,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -1.07% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "e60d413"
   }
 ]

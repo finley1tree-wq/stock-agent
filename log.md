@@ -20283,3 +20283,6 @@ lesson: Congress net_buy_pressure tier of 2.0-3.0 combined with a relevant headl
 ~ WORKING buy_limit $500.00 SKWD @ $51.63 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25232.43 (+0.93% on $25000.00 in) · cash $19017.96 · realised +267.96
 Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $18686.35 this week
+- BUY $625.00 HLI [buy_limit @ $127.18] — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
+- SELL 100% CHRW [time stop] -> $3955.61 (-1.11%) — held 90 min, the 90-minute limit: out regardless
+## 2026-09-30 11:03 ET — tick — 1 sell(s), 1 buy(s) from standing orders
