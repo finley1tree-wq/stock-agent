@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "1538a1e5",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 728.6834,
-   "status": "cancelled",
-   "created": "2026-09-25 15:37",
-   "created_ts": 1790365045,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $751.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "739dcb5b",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 500.4618,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365083,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $515.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "inside the last max_hold_minutes of the session"
-  },
-  {
-   "id": "9e21dc5b",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 661.332,
-   "status": "cancelled",
-   "created": "2026-09-25 15:38",
-   "created_ts": 1790365083,
-   "why": "close 100% at +5.0% over the average cost",
-   "evidence": "average cost $629.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-25 15:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "538fb815",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7432,7 +7375,61 @@
    "usd": 500.0,
    "closed": "2026-09-30 09:38",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "7460935d",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 515.0325,
+   "status": "working",
+   "created": "2026-09-30 10:02",
+   "created_ts": 1790776967,
+   "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "MSFT +1.91% today, pct_of_day_range 97.5, headline 'AI in America has a huge 1.7 million job shortage problem' supporting AI capex thesis",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 750.0
+  },
+  {
+   "id": "acbe23a4",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 348.4635,
+   "status": "working",
+   "created": "2026-09-30 10:02",
+   "created_ts": 1790776967,
+   "why": "wanted it, but not at the high \u2014 resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "GOOGL +3.09% today, pct_of_day_range 92.3, headline on Trump/AI leaders meeting with Karp/Huang",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 750.0
+  },
+  {
+   "id": "c240ea1f",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 88.4347,
+   "status": "working",
+   "created": "2026-09-30 10:02",
+   "created_ts": 1790776967,
+   "why": "wanted it, but not at the high \u2014 resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "CCJ +3.38% today at day high (pct_of_day_range 97.0), Zacks headline 'Wall Street Bulls Look Optimistic About Cameco'",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-09-30",
+   "usd": 750.0
   }
  ],
- "updated": "2026-09-30 09:40"
+ "updated": "2026-09-30 10:02"
 }

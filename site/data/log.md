@@ -1,24 +1,3 @@
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [stop_loss @ $508.06] -> $2500.35 (+0.01%) — close it all at -0.6% under the average cost
-## 2026-09-29 11:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL IBM [rejected_no_price]
-- SELL 100% CRWD [time stop] -> $2504.50 (+0.18%) — held 30 min, the 30-minute limit: out regardless
-- SELL HUBB [rejected_no_price]
-## 2026-09-29 11:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% IBM [time stop] -> $2502.95 (+0.12%) — held 31 min, the 30-minute limit: out regardless
-- SELL HUBB [rejected_no_price]
-## 2026-09-29 11:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-29 11:38 ET (Tuesday) — week 2026-W40 — budget left $14919.08 (today $59500.00 put to work, 25 buys, 22 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ATCH excluded: too thinly traded ($0.9M a day) — AtlasClear Holdings, Inc.)
-  (CBK excluded: too thinly traded ($1.8M a day) — Commercial Bancgroup, Inc.)
-  (CFND excluded: too thinly traded ($0.2M a day) — C1 Fund Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (no price for ESE — excluded this check)
-- SELL 100% HUBB [time stop] -> $2488.17 (-0.47%) — held 31 min, the 30-minute limit: out regardless
-brain: Still below min_positions (3 held, need 8) with 69.6% cash idle. Adding CHRW (congress pressure 3.0, named filer, not extended), HLI (congress pressure 2.0, near day low), NEM (gold sector positive track record, pulled back 8.5% giving cheaper entry) - none are momentum-only, all have concrete evidence and paired stops per risk_management/auto_bracket which are the best-performing signal buckets historically.
 lesson: Batch 3 new names per check with named congress filers or sector track-record evidence plus immediate stop_loss to close the min_positions gap faster without waiting on cooldowns.
 - BUY $2200.00 CHRW [filled] ['congress', 'track_record'] — Highest congress buy-pressure name not held/cooled, real filer name backing it | evidence: congress_net_buy_pressure CHRW=3.0, Rep. April McClain Delaney filed multiple buys disclosed 2026-09-09; price at 65.3% of day range, not extended
 - BUY $2200.00 HLI [filled] ['congress', 'momentum'] — Low in day range entry on a name with congress buy pressure, cheap relative entry | evidence: congress_net_buy_pressure HLI=2.0 (April McClain Delaney), price 127.19 at 11.8% of day range (near low), down -1.81% today but only -4.38% 1m
@@ -398,3 +377,24 @@ Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $180.17] -> $4025.66 (+0.64%) — close 100% at +0.4% over the average cost
 ## 2026-09-30 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:02 ET (Wednesday) — week 2026-W40 — budget left $12945.72 (today $24000.00 put to work, 6 buys, 3 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Currently at 3 positions (RTX/CHRW/AVGO) with 51.8% cash idle, well below min_positions of 8. Adding MSFT, GOOGL, CCJ with concrete momentum+news evidence (all near day highs with supportive headlines) to move toward target count while auto_bracket/risk_management stops protect capital; avoiding NOC/TTD/ACN due to cooldown.
+lesson: Below-target position count with high idle cash should be filled in $3k tranches per check using momentum+news evidence, not waited out, per counterfactual data showing idle checks cost ~1% vs the universe.
+  (dropped MSFT: 98% up today's range — resting a limit at $515.03 instead of chasing)
+  (dropped GOOGL: 92% up today's range — resting a limit at $348.46 instead of chasing)
+  (dropped CCJ: 97% up today's range — resting a limit at $88.43 instead of chasing)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING buy_limit $750.00 MSFT @ $515.03 until 2026-09-30 — wanted it, but not at the high — resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $750.00 GOOGL @ $348.46 until 2026-09-30 — wanted it, but not at the high — resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $750.00 CCJ @ $88.43 until 2026-09-30 — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
+portfolio: equity $25194.29 (+0.78% on $25000.00 in) · cash $13277.32 · realised +277.32
+Decision: nothing at this check. 12 standing order(s) working.

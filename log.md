@@ -20134,3 +20134,24 @@ Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $867.87 this week
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $180.17] -> $4025.66 (+0.64%) — close 100% at +0.4% over the average cost
 ## 2026-09-30 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-09-30 10:02 ET (Wednesday) — week 2026-W40 — budget left $12945.72 (today $24000.00 put to work, 6 buys, 3 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Currently at 3 positions (RTX/CHRW/AVGO) with 51.8% cash idle, well below min_positions of 8. Adding MSFT, GOOGL, CCJ with concrete momentum+news evidence (all near day highs with supportive headlines) to move toward target count while auto_bracket/risk_management stops protect capital; avoiding NOC/TTD/ACN due to cooldown.
+lesson: Below-target position count with high idle cash should be filled in $3k tranches per check using momentum+news evidence, not waited out, per counterfactual data showing idle checks cost ~1% vs the universe.
+  (dropped MSFT: 98% up today's range — resting a limit at $515.03 instead of chasing)
+  (dropped GOOGL: 92% up today's range — resting a limit at $348.46 instead of chasing)
+  (dropped CCJ: 97% up today's range — resting a limit at $88.43 instead of chasing)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger CCJ stop_loss: not held)
+~ WORKING buy_limit $750.00 MSFT @ $515.03 until 2026-09-30 — wanted it, but not at the high — resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $750.00 GOOGL @ $348.46 until 2026-09-30 — wanted it, but not at the high — resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $750.00 CCJ @ $88.43 until 2026-09-30 — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
+portfolio: equity $25194.29 (+0.78% on $25000.00 in) · cash $13277.32 · realised +277.32
+Decision: nothing at this check. 12 standing order(s) working.
