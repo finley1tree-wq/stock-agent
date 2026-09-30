@@ -20551,3 +20551,6 @@ Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% TSM [time stop] -> $624.38 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $265.78] -> $1001.47 (+0.15%) — close it all at -1.3% under the average cost
+## 2026-09-30 13:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders

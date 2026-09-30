@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 1623.3,
+  "spent": 621.83,
   "deployed": 246475.18,
   "by_ticker": {
     "AVGO": 544.12,
@@ -16,7 +16,7 @@
     "AMZN": 4.04,
     "NVDA": 25.66,
     "CCJ": 20.15,
-    "CRWD": 1021.47,
+    "CRWD": 20.0,
     "HLI": 30.73,
     "FWONK": 10.26,
     "HUBB": 28.33,
@@ -4885,13 +4885,34 @@
       ],
       "evidence": "bought 30 min ago, -0.08% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 3.768048,
+      "status": "filled",
+      "price": 265.78,
+      "proceeds": 1001.47,
+      "realized_pnl": 1.47,
+      "realized_pct": 0.15,
+      "date": "2026-09-30",
+      "time_et": "13:53",
+      "ts": 1790790600,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $265.39",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-09-30",
-  "spent_today": 1491.17,
+  "spent_today": 489.7,
   "deployed_today": 42225.0,
   "orders_today": 39,
-  "sells_today": 33,
+  "sells_today": 34,
   "sold_today": [
     "NOC",
     "TTD",
@@ -4928,7 +4949,7 @@
     "MSFT": 1790790364,
     "NOC": 1790788653,
     "UNH": 1790784279,
-    "CRWD": 1790785815,
+    "CRWD": 1790790810,
     "NVDA": 1790786781,
     "GOOGL": 1790783362,
     "AVGO": 1790777027,
@@ -4951,25 +4972,22 @@
     "LTH": 1790784357,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790790641,
-  "last_check_ts": 1790790730,
+  "last_publish_ts": 1790790809,
+  "last_check_ts": 1790790809,
   "last_bar_ts": 1790790600,
   "last_decision_ts": 1790790540,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "1ef30657": 265.912,
-    "42295e01": 354.515,
     "71caea25": 349.0,
-    "2f36f7e5": 267.0591,
+    "42295e01": 354.515,
     "224b7b99": 348.766,
     "b52730f4": 515.5548,
     "7460935d": 515.0325,
     "1270396f": 347.0,
     "be99c1fb": 180.3348,
     "74075dbe": 346.0,
-    "7bd3cd0b": 342.8271,
-    "539b4c71": 257.4283
+    "7bd3cd0b": 342.8271
   },
   "hold_arm": {
     "MSFT": 90,

@@ -1,6 +1,3 @@
-~ WORKING buy_limit $750.00 GOOGL @ $348.46 until 2026-09-30 — wanted it, but not at the high — resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING buy_limit $750.00 CCJ @ $88.43 until 2026-09-30 — wanted it, but not at the high — resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]
-portfolio: equity $25194.29 (+0.78% on $25000.00 in) · cash $13277.32 · realised +277.32
 Decision: nothing at this check. 12 standing order(s) working.
 - SELL 100% RTX [time stop] -> $3998.31 (-0.04%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% AVGO [time stop] -> $3981.04 (-0.47%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +395,6 @@ Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% TSM [time stop] -> $624.38 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $265.78] -> $1001.47 (+0.15%) — close it all at -1.3% under the average cost
+## 2026-09-30 13:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
