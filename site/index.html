@@ -37,6 +37,12 @@ details{margin-top:6px}details summary{cursor:pointer;color:var(--link);font-siz
 details .more{color:var(--ink-2);font-size:13.5px;margin-top:6px}
 .fix{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;padding:12px 0;border-bottom:1px solid var(--line)}.fix:last-child{border-bottom:0}
 .fix .t{font-weight:600;color:var(--ink)}.fix .s{color:var(--ink-2);font-size:14px}.fix .who{grid-column:2;font-size:13.5px;color:var(--ink)}
+.coins{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+.coin{background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer;text-align:left;color:var(--ink);font:inherit;min-width:0}
+.coin[aria-pressed="true"]{border-color:var(--series)}.coin .sym{font-weight:700;font-size:14px}.coin .nm{color:var(--muted);font-size:12px;font-weight:400}
+.coin .px{font-size:18px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:2px;transition:color .6s}.coin .px.up{color:var(--good)}.coin .px.dn{color:var(--neg)}
+.coin .ch{font-size:12.5px;font-variant-numeric:tabular-nums}.coin svg{display:block;width:100%;height:32px;margin-top:4px}
+@media (max-width:560px){.coins{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.tile .value{font-size:22px}.two{grid-template-columns:1fr}.fix{grid-template-columns:1fr}.fix .who{grid-column:1}}
 </style>
 </head>
@@ -53,7 +59,15 @@ details .more{color:var(--ink-2);font-size:13.5px;margin-top:6px}
 
   <main id="tab-crypto">
     <div class="banner"><b>Pretend money only.</b> No exchange account is connected. Nothing here trades real money. It runs once a day on the crypto PC<span id="c-lastrun"></span>.</div>
-    <section class="card" style="margin:0 0 12px"><h2>Live market · updates every 5 seconds</h2><div class="grid tiles" id="c-live"></div><h2 style="margin-top:14px">Bitcoin, last 2 hours</h2><div class="chart" id="c-live-chart"></div><div class="sub" id="c-live-note"></div></section>
+    <section class="card" style="margin:0 0 12px">
+      <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between"><h2 style="margin:0">Live market · Coinbase real-time feed</h2><span id="c-feed"></span></div>
+      <div class="grid tiles" id="c-live" style="margin-top:12px"></div>
+      <h2 style="margin-top:16px">Every coin, live <span class="sub" style="text-transform:none;letter-spacing:0;font-weight:400">· click one for its full chart</span></h2>
+      <div class="coins" id="c-coins"></div>
+      <h2 style="margin-top:16px" id="c-tv-title">Chart</h2>
+      <div id="c-tv" style="height:460px;border-radius:12px;overflow:hidden;border:1px solid var(--line)"></div>
+      <div class="sub" id="c-live-note" style="margin-top:8px"></div>
+    </section>
     <div class="grid tiles" id="c-tiles"></div>
     <section class="card"><h2>Paper trading: pretend $10,000 per strategy</h2><div class="sub" id="p-note" style="margin:-4px 0 8px"></div><div class="grid tiles" id="p-tiles"></div><h2 style="margin-top:14px">Profit or loss by day (all books)</h2><div class="chart" id="p-days"></div><div class="sub" id="p-days-note"></div></section>
     <section class="grid two">
@@ -271,52 +285,102 @@ async function loadCrypto() {
   startLive(d);
 }
 
-// ---- live market (browser -> Binance public market data, no account, no key) ------------------
-// The trader itself decides once a day; what moves in between is the price of what it holds.
-// Only the BTC benchmark book's holdings are known from data.json (100% BTC), so that book is
-// re-priced live; the other books publish a position COUNT, not their coins.
-const LIVE_API = "https://data-api.binance.vision/api/v3";
-let liveTimer = null, chartTimer = null;
+// ---- live market: Coinbase Exchange public feed (WebSocket ticks + REST candles), TradingView charts
+// The trader itself decides once a day; what moves in between is prices. Coinbase pushes every trade
+// over its public WebSocket (no account, no key), so prices here change the moment the market does.
+// Only the BTC benchmark book's holdings are published (100% BTC), so that book is re-priced live;
+// the strategy books publish a position COUNT, and their coins show here once data.json lists them.
+const COINS = [["BTC","Bitcoin"],["ETH","Ethereum"],["SOL","Solana"],["XRP","XRP"],["DOGE","Dogecoin"],["ADA","Cardano"],
+  ["AVAX","Avalanche"],["LINK","Chainlink"],["DOT","Polkadot"],["LTC","Litecoin"],["BCH","Bitcoin Cash"],["SHIB","Shiba Inu"],
+  ["SUI","Sui"],["XLM","Stellar"],["HBAR","Hedera"],["UNI","Uniswap"],["AAVE","Aave"],["NEAR","NEAR"]];
+const CB_REST = "https://api.exchange.coinbase.com", CB_WS = "wss://ws-feed.exchange.coinbase.com";
+const live = {px: {}, open: {}, spark: {}, last: null, ws: null, sel: "BTC", started: false};
+const fmtPx = v => v == null ? "—" : v >= 1000 ? usd(v, 2) : v >= 1 ? "$" + v.toFixed(3) : "$" + v.toPrecision(4);
+function spark(vals) {
+  if (!vals || vals.length < 2) return "";
+  const lo = Math.min(...vals), hi = Math.max(...vals), W = 150, H = 32;
+  const x = i => i / (vals.length - 1) * W, y = v => H - 2 - (v - lo) / ((hi - lo) || 1) * (H - 4);
+  const up = vals[vals.length - 1] >= vals[0];
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><path d="${vals.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("")}" fill="none" stroke="${up ? css("--good") : css("--neg")}" stroke-width="1.6"/></svg>`;
+}
+function drawCoins() {
+  $("#c-coins").innerHTML = COINS.map(([s, n]) => {
+    const p = live.px[s], o = live.open[s], c = p && o ? (p / o - 1) * 100 : null;
+    const sp = (live.spark[s] || []).concat(p ? [p] : []);
+    return `<button class="coin" data-sym="${s}" aria-pressed="${live.sel === s}"><div class="sym">${s} <span class="nm">${esc(n)}</span></div><div class="px" id="px-${s}">${fmtPx(p)}</div><div class="ch" id="ch-${s}" style="color:${c == null ? "var(--muted)" : c >= 0 ? "var(--good)" : "var(--neg)"}">${c == null ? "…" : pct(c)} <span class="nm">24 h</span></div>${spark(sp)}</button>`;
+  }).join("");
+  document.querySelectorAll(".coin").forEach(b => b.addEventListener("click", () => { live.sel = b.dataset.sym; drawCoins(); tvChart(); }));
+}
+function tvChart() {
+  const s = live.sel, n = (COINS.find(c => c[0] === s) || [s, s])[1];
+  $("#c-tv-title").textContent = `${n} (${s}/USD) · TradingView chart, Coinbase prices`;
+  const el = $("#c-tv"); el.innerHTML = "";
+  // TradingView's official embed widget; it draws its own live chart from Coinbase's feed.
+  const cfg = {autosize: true, symbol: `COINBASE:${s}USD`, interval: "5", timezone: "America/New_York", theme: "dark", style: "1",
+    locale: "en", backgroundColor: "#121821", gridColor: "rgba(28,38,51,1)", hide_side_toolbar: true, allow_symbol_change: true,
+    support_host: "https://www.tradingview.com"};
+  const box = document.createElement("div"); box.className = "tradingview-widget-container"; box.style.height = "100%";
+  const inner = document.createElement("div"); inner.className = "tradingview-widget-container__widget"; inner.style.height = "100%";
+  const sc = document.createElement("script");
+  sc.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"; sc.async = true; sc.textContent = JSON.stringify(cfg);
+  box.appendChild(inner); box.appendChild(sc); el.appendChild(box);
+}
+async function loadSparks() {
+  // 24 h of hourly candles per coin (Coinbase allows 60/300/900/3600/21600/86400 s), oldest first. Candle rows are [time, low, high, open, close, volume].
+  // One at a time, 150 ms apart: 18 requests at once trip Coinbase's public rate limit.
+  for (const [s] of COINS) {
+    await new Promise(r => setTimeout(r, 150));
+    try {
+      const r = await (await fetch(`${CB_REST}/products/${s}-USD/candles?granularity=3600`, {cache: "no-store"})).json();
+      if (Array.isArray(r)) live.spark[s] = r.slice(0, 24).reverse().map(k => +k[4]);
+    } catch (e) {}
+  }
+  if (!$("#tab-crypto").hidden) drawCoins();
+}
+function feedPill(kind, text) { $("#c-feed").innerHTML = pill(kind, text); }
+function connectFeed() {
+  try { if (live.ws) { live.ws.onclose = null; live.ws.close(); } } catch (e) {}
+  feedPill("warn", "connecting…");
+  const ws = live.ws = new WebSocket(CB_WS);
+  ws.onopen = () => { ws.send(JSON.stringify({type: "subscribe", product_ids: COINS.map(c => c[0] + "-USD"), channels: ["ticker"]})); feedPill("good", "live"); };
+  ws.onmessage = ev => {
+    let m; try { m = JSON.parse(ev.data); } catch (e) { return; }
+    if (m.type !== "ticker" || !m.product_id) return;
+    const s = m.product_id.replace("-USD", ""), p = +m.price, prev = live.px[s];
+    live.px[s] = p; if (m.open_24h) live.open[s] = +m.open_24h; live.last = new Date();
+    const el = document.getElementById("px-" + s), ch = document.getElementById("ch-" + s);
+    if (!el) return;
+    el.textContent = fmtPx(p);
+    if (ch && live.open[s]) { const c = (p / live.open[s] - 1) * 100; ch.style.color = c >= 0 ? "var(--good)" : "var(--neg)"; ch.innerHTML = `${pct(c)} <span class="nm">24 h</span>`; }
+    if (prev != null && p !== prev) { el.classList.remove("up", "dn"); el.classList.add(p > prev ? "up" : "dn"); clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove("up", "dn"), 700); }
+  };
+  ws.onclose = () => { feedPill("crit", "reconnecting…"); setTimeout(connectFeed, 3000); };
+  ws.onerror = () => { try { ws.close(); } catch (e) {} };
+}
 function startLive(d) {
-  if (liveTimer) return;
+  if (live.started) return; live.started = true;
   const P = d.paper || {}, books = P.books || [], btcBook = books.find(b => b.strategy === "__buy_and_hold_BTC__");
   const btcSeries = d.btc || [], lastClose = btcSeries.length ? btcSeries[btcSeries.length - 1] : null;
   const btcQty = btcBook && lastClose && lastClose[0] === P.latest_complete_day ? btcBook.equity / lastClose[1] : null;
   const started = d.daily && d.daily.started ? new Date(d.daily.started) : null;
-  const tick = async () => {
+  const held = books.filter(b => b !== btcBook);
+  const tiles = () => {
     if ($("#tab-crypto").hidden) return;
-    let t;
-    try { t = await (await fetch(`${LIVE_API}/ticker/24hr?symbols=${encodeURIComponent('["BTCUSDT","ETHUSDT","SOLUSDT"]')}`, {cache: "no-store"})).json(); }
-    catch (e) { $("#c-live-note").textContent = "Live prices unavailable right now (Binance market data did not answer). Retrying every 5 seconds."; return; }
-    const by = Object.fromEntries((Array.isArray(t) ? t : []).map(x => [x.symbol, x]));
-    const px = s => by[s] ? +by[s].lastPrice : null, ch = s => by[s] ? +by[s].priceChangePercent : null;
     const next = started ? new Date(started.getTime() + 24 * 3600e3) : null, mins = next ? Math.round((next - Date.now()) / 60000) : null;
-    const liveBook = btcQty && px("BTCUSDT") ? btcQty * px("BTCUSDT") : null;
+    const b = live.px.BTC, book = btcQty && b ? btcQty * b : null, age = live.last ? Math.round((Date.now() - live.last) / 1000) : null;
     $("#c-live").innerHTML = [
-      tile("Bitcoin", usd(px("BTCUSDT"), 2), `${pct(ch("BTCUSDT"))} in 24 h`),
-      tile("Ethereum", usd(px("ETHUSDT"), 2), `${pct(ch("ETHUSDT"))} in 24 h`),
-      tile("Solana", usd(px("SOLUSDT"), 2), `${pct(ch("SOLUSDT"))} in 24 h`),
-      liveBook ? tile("BTC book, live", usd(liveBook, 2), `${sgnUsd(liveBook - btcBook.equity)} since the ${esc(P.latest_complete_day)} close · ${sgnUsd(liveBook - btcBook.budget_usd, 0)} on ${usd(btcBook.budget_usd)}`) : tile("BTC book, live", "—", "waiting for the next daily snapshot"),
+      tile("Bitcoin", fmtPx(b), live.open.BTC && b ? `${pct((b / live.open.BTC - 1) * 100)} in 24 h` : "waiting for the feed"),
+      tile("BTC book, live", book ? usd(book, 2) : "—", book ? `${sgnUsd(book - btcBook.equity)} since the ${esc(P.latest_complete_day)} close · ${sgnUsd(book - btcBook.budget_usd, 0)} on ${usd(btcBook.budget_usd)}` : "waiting for the next daily snapshot"),
+      tile("Strategy books", held.map(x => `${x.open_positions}`).join(" + ") + " coins", held.map(x => `${esc(x.book)} ${usd(x.equity)}`).join(" · ")),
       tile("Next daily run", next ? (mins > 0 ? `in ${Math.floor(mins / 60)} h ${mins % 60} m` : pill("warn", "due now")) : "—", next ? `about ${when(next)} · it decides once a day` : ""),
+      tile("Last tick", age == null ? "—" : age < 2 ? "just now" : `${age} s ago`, "Coinbase pushes each trade as it happens"),
     ].join("");
-    $("#c-live-note").innerHTML = `Prices live from Binance market data, ${new Date().toLocaleTimeString("en-US")}. The strategy books decide once a day, so between runs only prices move. The other books publish how many coins they hold (${books.filter(b => b !== btcBook).map(b => `${esc(b.book)}: ${b.open_positions}`).join(", ")}), not which ones, so only the BTC book can be re-priced live.`;
   };
-  let pts = [];
-  const drawLive = () => { if (pts.length > 2) lineChart($("#c-live-chart"), pts, v => "$" + Math.round(v).toLocaleString(), s => s); };
-  window.__drawLive = drawLive;
-  const chart = async () => {
-    if ($("#tab-crypto").hidden) return;
-    try {
-      const k = await (await fetch(`${LIVE_API}/klines?symbol=BTCUSDT&interval=1m&limit=120`, {cache: "no-store"})).json();
-      pts = k.map(r => [new Date(r[0]).toLocaleTimeString("en-US", {hour: "numeric", minute: "2-digit"}), +r[4]]);
-      drawLive();
-    } catch (e) {}
-  };
-  tick(); chart();
-  liveTimer = setInterval(tick, 5000);
-  chartTimer = setInterval(chart, 15000);
-  // switching back to the tab refreshes at once instead of waiting for the next tick
-  document.querySelector('.tabs button[data-tab="crypto"]').addEventListener("click", () => { tick(); chart(); });
+  $("#c-live-note").innerHTML = `Prices stream live from Coinbase Exchange's public feed; charts are TradingView's. The strategy books decide once a day, so between runs only prices move. They publish how many coins they hold (${held.map(x => `${esc(x.book)}: ${x.open_positions}`).join(", ")}) but not which ones yet, so only the BTC book can be re-priced live.`;
+  drawCoins(); tvChart(); loadSparks(); connectFeed(); tiles();
+  setInterval(tiles, 1000);
+  setInterval(loadSparks, 5 * 60000);
+  window.__drawLive = () => {};
 }
 
 // ---- stock agent tab (live) ------------------------------------------------------------
