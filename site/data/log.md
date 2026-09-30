@@ -1,7 +1,3 @@
-- BUY $4000.00 TTD [filled] ['congress', 'news'] — Congress buying pressure, deeply oversold (9 straight down days), low in day range for entry | evidence: Rep. Gilbert Ray Cisneros disclosed TTD buys twice (congress_net_buy_pressure 2.0); price at 16.7% of day range - low, after 9 straight down days per Trefis headline
-~ WORKING stop_loss 100% NOC @ $465.00 until 2026-09-30 — Protective stop ~3.5% below entry given elevated volatility today
-~ WORKING stop_loss 100% RTX @ $180.00 until 2026-09-30 — Protective stop below entry
-~ WORKING stop_loss 100% CHRW @ $147.00 until 2026-09-30 — Protective stop below entry
 ~ WORKING stop_loss 100% AVGO @ $348.00 until 2026-09-30 — Protective stop below entry
 ~ WORKING stop_loss 100% ACN @ $173.00 until 2026-09-30 — Protective stop below entry
 ~ WORKING stop_loss 100% TTD @ $11.50 until 2026-09-30 — Protective stop below entry given high volatility name
@@ -398,3 +394,7 @@ Done: 0 sell(s), 2 buy(s); 31 order(s) working; budget left $21705.67 this week
 - SELL 100% CCJ [time stop] -> $249.43 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 13:01 ET — tick — 3 sell(s), 0 buy(s) from standing orders
   (dropped ACN: sold 30 min ago, cooling off)
+  (dropped ACN: sold 30 min ago, cooling off)
+  (dropped ACN: sold 31 min ago, cooling off)
+- SELL 100% NOC [time stop] -> $373.74 (-0.34%) — held 30 min, the 30-minute limit: out regardless
+## 2026-09-30 13:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
