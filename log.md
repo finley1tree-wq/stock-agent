@@ -20863,3 +20863,5 @@ lesson: Spread entries across genuinely uncorrelated sectors (industrials, insur
 portfolio: equity $25212.13 (+0.85% on $25000.00 in) · cash $21463.78 · realised +213.78
 Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
   (dropped NOC: sold 21 min ago, cooling off)
+  (dropped NOC: sold 21 min ago, cooling off)
+  (dropped NOC: sold 22 min ago, cooling off)
