@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "8ae4a352",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 260.5646,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $259.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:37",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b49abee9",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 251.3852,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $259.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:37",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "33acb9f2",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 463.9169,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $462.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e5851b7b",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 448.7026,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $462.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "a2ef5982",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -6572,7 +6496,7 @@
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 362.1426,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:02",
    "created_ts": 1790866940,
    "why": "close it all at -0.6% under the average cost",
@@ -6582,7 +6506,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:27",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c1999cad",
@@ -7062,7 +6988,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 484.507,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 12:04",
    "created_ts": 1790870693,
    "why": "wanted it, but not at the high \u2014 resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -7072,7 +6998,8 @@
     "patience"
    ],
    "good_until": "2026-10-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 12:27"
   },
   {
    "id": "3d9ddf14",
@@ -7418,7 +7345,75 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "e34202d3",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 364.46,
+   "status": "working",
+   "created": "2026-10-01 12:27",
+   "created_ts": 1790872024,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $364.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2c7fa4dc",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 485.8327,
+   "status": "working",
+   "created": "2026-10-01 12:27",
+   "created_ts": 1790872024,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $484.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1f584080",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 481.2056,
+   "status": "working",
+   "created": "2026-10-01 12:27",
+   "created_ts": 1790872024,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $484.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2b74ca87",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 469.9747,
+   "status": "working",
+   "created": "2026-10-01 12:27",
+   "created_ts": 1790872024,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $484.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 12:21"
+ "updated": "2026-10-01 12:27"
 }

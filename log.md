@@ -21146,3 +21146,5 @@ lesson: When below min_positions with 90%+ idle cash, deploy into 3-4 named-evid
 ~ WORKING buy_limit $500.00 NEM @ $111.80 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $21711.73 · realised +211.73
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week
+- BUY $500.00 NOC [buy_limit @ $484.51] — wanted it, but not at the high — resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-01 12:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
