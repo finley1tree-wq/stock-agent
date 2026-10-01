@@ -1,4 +1,3 @@
-## 2026-09-30 10:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% TSM [time stop] -> $623.35 (-0.26%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +397,4 @@ lesson: At 15:52 with no_new_entries_this_check true and zero positions, there i
 portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-09-30 16:00 ET — published the session's closing state
