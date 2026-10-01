@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "3abefcdf",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 504.3709,
-   "status": "cancelled",
-   "created": "2026-09-28 12:28",
-   "created_ts": 1790612902,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $519.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 12:58",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "22bd4176",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -7375,7 +7356,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 125.0022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "close it all at -0.9% under the average cost",
@@ -7385,7 +7366,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3b420483",
@@ -7438,7 +7421,24 @@
    "good_until": "2026-10-06",
    "pct_of_position": 100.0,
    "closed": "2026-10-01 10:41"
+  },
+  {
+   "id": "3b5cc5ce",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 126.278,
+   "status": "working",
+   "created": "2026-10-01 10:43",
+   "created_ts": 1790865791,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $126.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:41"
+ "updated": "2026-10-01 10:43"
 }

@@ -1,5 +1,3 @@
-  (dropped TSM: sold 18 min ago, cooling off)
-  (dropped GOOGL: 85% up today's range — resting a limit at $348.77 instead of chasing)
 - BUY $500.00 AVGO [filled] ['congress', 'news'] — Congress buy pressure tier 2.0 plus fresh headline catalyst, not yet in book, semis diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep disclosed buy (Rick W. Allen, AVGO, disclosed 2026-09-22) + 'Broadcom Stocks Edge Higher as Netlist Seeks AI-Memory Import Ban' (GuruFocus 15:21)
 - BUY $375.00 NOC [filled] ['news'] — Sharp single-stock selloff on one bad headline looks overdone vs sector peers; defense sector diversification away from crowded widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC -3.65% today on 'Navy Jet Loss Stings Northrop Grumman' (WSJ 15:56) - overreaction dip in defense name with strong fundamentals
   (dropped trigger GOOGL stop_loss: not held)
@@ -398,3 +396,5 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
 - SELL 100% KO [stop_loss @ $86.26] -> $625.01 (+0.00%) — close it all at -0.4% under the average cost
   (dropped NOC: sold 31 min ago, cooling off)
 ## 2026-10-01 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped NOC: sold 31 min ago, cooling off)
+  (dropped NOC: sold 32 min ago, cooling off)
