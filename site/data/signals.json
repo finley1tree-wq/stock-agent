@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-01T09:35-04:00",
+ "asOf": "2026-10-01T09:39-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -156,40 +156,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "0789c0d7",
-   "ticker": "LTH",
-   "kind": "take_profit",
-   "price": 39.8315,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 39.83,
-   "pct_away": 0.0,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8e8eca76",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 86.662,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.73,
-   "pct_away": -0.08,
-   "good_until": "2026-10-06",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "dabf85ce",
    "ticker": "LTH",
    "kind": "stop_loss",
@@ -197,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 39.83,
-   "pct_away": -0.16,
+   "last": 39.72,
+   "pct_away": 0.12,
    "good_until": "2026-10-06",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -214,8 +180,60 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.73,
-   "pct_away": 0.19,
+   "last": 86.79,
+   "pct_away": 0.12,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8e8eca76",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 86.662,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.79,
+   "pct_away": -0.15,
+   "good_until": "2026-10-06",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c0a89d61",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 230.9599,
+   "usd": 4000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 231.54,
+   "pct_away": -0.25,
+   "good_until": "2026-10-01",
+   "why": "wanted it, but not at the high \u2014 resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "0789c0d7",
+   "ticker": "LTH",
+   "kind": "take_profit",
+   "price": 39.8315,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 39.72,
+   "pct_away": 0.28,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -248,8 +266,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.16,
-   "pct_away": 0.48,
+   "last": 148.3,
+   "pct_away": 0.39,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -265,62 +283,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.16,
-   "pct_away": -0.5,
+   "last": 148.3,
+   "pct_away": -0.59,
    "good_until": "2026-10-06",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f0f62f51",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 12.2426,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 12.34,
-   "pct_away": -0.79,
-   "good_until": "2026-10-06",
-   "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c0a89d61",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 230.9599,
-   "usd": 4000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 232.96,
-   "pct_away": -0.86,
-   "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "76b2b0e2",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 12.449,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 12.34,
-   "pct_away": 0.88,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -343,23 +309,6 @@
    ]
   },
   {
-   "id": "d6319bee",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 12.0183,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 12.34,
-   "pct_away": -2.61,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "a86e5d9f",
    "ticker": "CHRW",
    "kind": "buy_limit",
@@ -367,8 +316,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 148.16,
-   "pct_away": -2.8,
+   "last": 148.3,
+   "pct_away": -2.9,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -394,15 +343,15 @@
    ]
   },
   {
-   "id": "206b886e",
-   "ticker": "CCJ",
+   "id": "022c5a2b",
+   "ticker": "LTH",
    "kind": "buy_limit",
-   "price": 83.9632,
+   "price": 38.4799,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.73,
-   "pct_away": -3.19,
+   "last": 39.72,
+   "pct_away": -3.12,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -411,15 +360,15 @@
    ]
   },
   {
-   "id": "022c5a2b",
-   "ticker": "LTH",
+   "id": "206b886e",
+   "ticker": "CCJ",
    "kind": "buy_limit",
-   "price": 38.4799,
+   "price": 83.9632,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 39.83,
-   "pct_away": -3.39,
+   "last": 86.79,
+   "pct_away": -3.26,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

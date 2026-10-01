@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
   (bad quote TNON: +45.4% in a day looks like a bad tick)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $223.91] -> $4547.03 (+1.05%) — close 100% at +0.5% over the average cost
 ## 2026-10-01 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [stop_loss @ $12.24] -> $1976.02 (-1.20%) — close it all at -1.2% under the average cost
+## 2026-10-01 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
