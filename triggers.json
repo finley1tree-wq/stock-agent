@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "1591378b",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 193.0,
-   "status": "cancelled",
-   "created": "2026-09-28 11:57",
-   "created_ts": 1790611054,
-   "why": "lock partial gains on a move",
-   "evidence": "momentum target ~2.5% above entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 33.0,
-   "closed": "2026-09-28 12:27",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f312e837",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 189.1415,
-   "status": "filled",
-   "created": "2026-09-28 11:57",
-   "created_ts": 1790611054,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $188.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 12:27"
-  },
-  {
-   "id": "529eb6b5",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 182.8547,
-   "status": "cancelled",
-   "created": "2026-09-28 11:57",
-   "created_ts": 1790611054,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $188.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 12:27",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "476fcd7d",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -6945,7 +6890,7 @@
    "ticker": "CRWD",
    "kind": "take_profit",
    "price": 266.8961,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "close 100% at +0.5% over the average cost",
@@ -6955,7 +6900,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:28",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3dbf20b8",
@@ -6981,7 +6928,7 @@
    "ticker": "CRWD",
    "kind": "buy_limit",
    "price": 257.4962,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6991,7 +6938,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 10:28",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a976851c",
@@ -7111,7 +7060,7 @@
    "ticker": "GLD",
    "kind": "take_profit",
    "price": 381.7716,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "close 100% at +0.2% over the average cost",
@@ -7121,7 +7070,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:28"
   },
   {
    "id": "d4ea6f44",
@@ -7147,7 +7097,7 @@
    "ticker": "GLD",
    "kind": "buy_limit",
    "price": 369.6088,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7157,7 +7107,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 10:28",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fb0e680d",
@@ -7258,7 +7210,7 @@
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 230.5,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:13",
    "created_ts": 1790864039,
    "why": "re-enter at a slightly better level than current $231.88 once cooldown clears",
@@ -7267,7 +7219,8 @@
     "news"
    ],
    "good_until": "2026-10-01",
-   "usd": 2000.0
+   "usd": 2000.0,
+   "closed": "2026-10-01 10:27"
   },
   {
    "id": "a754d678",
@@ -7418,7 +7371,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 266.072,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:24",
    "created_ts": 1790864652,
    "why": "close it all at -1.3% under the average cost",
@@ -7428,14 +7381,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:28"
   },
   {
    "id": "c7b78aad",
    "ticker": "GLD",
    "kind": "stop_loss",
    "price": 381.406,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:27",
    "created_ts": 1790864827,
    "why": "close it all at -0.5% under the average cost",
@@ -7445,8 +7399,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:28",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "879c4743",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 230.6794,
+   "status": "working",
+   "created": "2026-10-01 10:27",
+   "created_ts": 1790864862,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $229.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "33211bd0",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 227.9504,
+   "status": "working",
+   "created": "2026-10-01 10:27",
+   "created_ts": 1790864862,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $229.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cf785efc",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 223.003,
+   "status": "working",
+   "created": "2026-10-01 10:27",
+   "created_ts": 1790864862,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $229.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 10:27"
+ "updated": "2026-10-01 10:28"
 }

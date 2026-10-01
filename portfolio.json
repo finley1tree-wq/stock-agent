@@ -1,26 +1,17 @@
 {
-  "cash": 24086.694624287273,
+  "cash": 24713.78012506111,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W40",
   "positions": {
-    "CRWD": {
-      "qty": 2.354376342244079,
-      "avg_cost": 265.463082,
+    "IBM": {
+      "qty": 2.174843498261865,
+      "avg_cost": 229.9016,
       "opened": "2026-10-01",
       "last_buy": "2026-10-01",
       "tranches": 1,
-      "last_buy_ts": 1790863438,
-      "opened_ts": 1790863438
-    },
-    "GLD": {
-      "qty": 1.3122113082633367,
-      "avg_cost": 381.036192,
-      "opened": "2026-10-01",
-      "last_buy": "2026-10-01",
-      "tranches": 1,
-      "last_buy_ts": 1790863438,
-      "opened_ts": 1790863438
+      "last_buy_ts": 1790864863,
+      "opened_ts": 1790864863
     }
   },
   "fills": [
@@ -20104,7 +20095,41 @@
       "realized_pct": -1.2,
       "type": "sell",
       "date": "2026-10-01 10:24"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.174843,
+      "price": 229.9,
+      "type": "buy",
+      "date": "2026-10-01 10:27"
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 2.354376,
+      "status": "filled",
+      "price": 265.94,
+      "proceeds": 626.12,
+      "realized_pnl": 1.12,
+      "realized_pct": 0.18,
+      "type": "sell",
+      "date": "2026-10-01 10:28"
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "qty": 1.312211,
+      "status": "filled",
+      "price": 381.77,
+      "proceeds": 500.97,
+      "realized_pnl": 0.97,
+      "realized_pct": 0.19,
+      "type": "sell",
+      "date": "2026-10-01 10:28"
     }
   ],
-  "realized_pnl": 211.6946242872997
+  "realized_pnl": 213.78012506113515
 }

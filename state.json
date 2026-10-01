@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 1244.89,
-  "deployed": 286475.18,
+  "spent": 617.8,
+  "deployed": 286975.18,
   "by_ticker": {
     "AVGO": 37.31,
     "TTD": 35.61,
@@ -15,7 +15,7 @@
     "AMZN": 4.04,
     "NVDA": 20.57,
     "CCJ": 19.27,
-    "CRWD": 645.0,
+    "CRWD": 18.88,
     "HLI": 30.73,
     "FWONK": 10.26,
     "HUBB": 59.77,
@@ -26,7 +26,7 @@
     "NLR": 6.69,
     "HD": 0.36,
     "UNH": 0.12,
-    "GLD": 500.0
+    "IBM": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -45,7 +45,7 @@
     "AAPL": 7000.0,
     "AMZN": 4500.0,
     "HD": 4447.24,
-    "IBM": 10352.94,
+    "IBM": 10852.94,
     "META": 4000.0,
     "RTX": 11800.0,
     "CCJ": 18650.0,
@@ -5664,13 +5664,74 @@
       ],
       "evidence": "average cost $608.86",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.174843,
+      "price": 229.9,
+      "date": "2026-10-01",
+      "time_et": "10:27",
+      "ts": 1790864700,
+      "why": "re-enter at a slightly better level than current $231.88 once cooldown clears [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "standing_order"
+      ],
+      "evidence": "IBM up 5.43% on Bob Coding Agent news, cooldown 13 min left",
+      "trigger": "buy_limit",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 2.354376,
+      "status": "filled",
+      "price": 265.94,
+      "proceeds": 626.12,
+      "realized_pnl": 1.12,
+      "realized_pct": 0.18,
+      "date": "2026-10-01",
+      "time_et": "10:28",
+      "ts": 1790864700,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $265.46",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "qty": 1.312211,
+      "status": "filled",
+      "price": 381.77,
+      "proceeds": 500.97,
+      "realized_pnl": 0.97,
+      "realized_pct": 0.19,
+      "date": "2026-10-01",
+      "time_et": "10:28",
+      "ts": 1790864700,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $381.04",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 1123.69,
-  "deployed_today": 40000.0,
-  "orders_today": 20,
-  "sells_today": 18,
+  "spent_today": 496.6,
+  "deployed_today": 40500.0,
+  "orders_today": 21,
+  "sells_today": 20,
   "sold_today": [
     "ACN",
     "TTD",
@@ -5689,7 +5750,9 @@
     "NOC",
     "RTX",
     "PLTR",
-    "AMD"
+    "AMD",
+    "CRWD",
+    "GLD"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -5700,7 +5763,7 @@
     "MSFT": 1790863203,
     "NOC": 1790863870,
     "UNH": 1790863518,
-    "CRWD": 1790790810,
+    "CRWD": 1790864909,
     "NVDA": 1790862664,
     "GOOGL": 1790862834,
     "AVGO": 1790862749,
@@ -5721,30 +5784,25 @@
     "CHRW": 1790862664,
     "TPL": 1790704804,
     "LTH": 1790862084,
-    "SKWD": 1790783788
+    "SKWD": 1790783788,
+    "GLD": 1790864909
   },
-  "last_publish_ts": 1790864827,
-  "last_check_ts": 1790864827,
+  "last_publish_ts": 1790864908,
+  "last_check_ts": 1790864908,
   "last_bar_ts": 1790864700,
   "last_decision_ts": 1790864039,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "4073d2fd": 381.7716,
-    "c7b78aad": 381.406,
-    "c0964161": 266.072,
-    "7f3f5c0c": 266.8961,
     "d99c9e52": 484.0,
-    "1b9f7c47": 230.5,
+    "33211bd0": 227.9504,
     "a754d678": 453.0,
-    "31bf26e9": 369.6088,
-    "5b12f467": 257.4962
+    "879c4743": 230.6794,
+    "cf785efc": 223.003
   },
   "hold_arm": {
-    "AMD": 90,
     "CRWD": 30,
     "GLD": 30,
-    "RTX": 30,
-    "PLTR": 90
+    "IBM": 90
   }
 }

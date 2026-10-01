@@ -1,10 +1,3 @@
-- BUY $500.00 AMD [filled] ['followed_person', 'news'] — High-profile investor buying AMD same day, chip momentum play, diversify into semis beyond TSM [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline: 'Cathie Wood Just Dropped $78 Million on This Red-Hot Chip Stock' 2026-09-30 14:28
-- BUY $500.00 NVDA [filled] ['news', 'momentum'] — AI infra leader with continued positive newsflow, add exposure alongside TSM/AAPL in semis [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NVDA +1.51% today, headline 'Breaking down Jensen Huang's biggest moves of Q3 2026' 2026-09-30
-  (dropped trigger GOOGL stop_loss: not held)
-~ WORKING stop_loss 100% MSFT @ $508.00 until 2026-09-30 — protective stop on new MSFT buy
-~ WORKING stop_loss 100% ACN @ $178.50 until 2026-09-30 — protective stop on new ACN buy
-~ WORKING stop_loss 100% AMD @ $592.00 until 2026-09-30 — protective stop on new AMD buy
-~ WORKING stop_loss 100% NVDA @ $226.00 until 2026-09-30 — protective stop on new NVDA buy
 ~ WORKING take_profit 100% MSFT @ $519.54 until 2026-10-05 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 MSFT @ $502.67 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% ACN @ $183.25 until 2026-10-05 — close 100% at +0.4% over the average cost
@@ -398,3 +391,10 @@ Decision: nothing at this check. 16 standing order(s) working.
   (dropped IBM: sold 44 min ago, cooling off)
   (dropped IBM: sold 44 min ago, cooling off)
   (dropped IBM: sold 45 min ago, cooling off)
+- BUY $500.00 IBM [buy_limit @ $229.90] — re-enter at a slightly better level than current $231.88 once cooldown clears [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-01 10:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $265.94] -> $626.12 (+0.18%) — close it all at -1.3% under the average cost
+  (cancelled 2 standing order(s) on GLD: position closed)
+- SELL 100% GLD [take_profit @ $381.77] -> $500.97 (+0.19%) — close 100% at +0.2% over the average cost
+## 2026-10-01 10:28 ET — tick — 2 sell(s), 0 buy(s) from standing orders

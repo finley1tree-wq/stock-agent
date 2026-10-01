@@ -20819,3 +20819,10 @@ Decision: nothing at this check. 16 standing order(s) working.
   (dropped IBM: sold 44 min ago, cooling off)
   (dropped IBM: sold 44 min ago, cooling off)
   (dropped IBM: sold 45 min ago, cooling off)
+- BUY $500.00 IBM [buy_limit @ $229.90] — re-enter at a slightly better level than current $231.88 once cooldown clears [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-01 10:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [stop_loss @ $265.94] -> $626.12 (+0.18%) — close it all at -1.3% under the average cost
+  (cancelled 2 standing order(s) on GLD: position closed)
+- SELL 100% GLD [take_profit @ $381.77] -> $500.97 (+0.19%) — close 100% at +0.2% over the average cost
+## 2026-10-01 10:28 ET — tick — 2 sell(s), 0 buy(s) from standing orders
