@@ -20797,3 +20797,5 @@ lesson: When several cooldown names have fresh concrete headlines, use buy_limit
 ~ WORKING buy_limit $2000.00 NOC @ $484.00 until 2026-10-01 — resting limit slightly below current price for better entry once cooldown clears
 portfolio: equity $25220.40 (+0.88% on $25000.00 in) · cash $21608.09 · realised +233.09
 Decision: nothing at this check. 16 standing order(s) working.
+- BUY $625.00 PLTR [buy_limit @ $189.41] — wanted it, but not at the high — resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-01 10:15 ET — tick — 0 sell(s), 1 buy(s) from standing orders

@@ -1,12 +1,12 @@
 {
   "week": "2026-W40",
-  "spent": 3723.51,
-  "deployed": 285850.18,
+  "spent": 4348.51,
+  "deployed": 286475.18,
   "by_ticker": {
     "AVGO": 37.31,
     "TTD": 35.61,
     "AAPL": 4.26,
-    "PLTR": 18.81,
+    "PLTR": 643.81,
     "RTX": 506.02,
     "AMD": 2017.21,
     "LMT": 27.57,
@@ -30,7 +30,7 @@
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
-    "PLTR": 11500.0,
+    "PLTR": 12125.0,
     "TSM": 13600.0,
     "AVGO": 17000.0,
     "TTD": 14500.0,
@@ -5580,12 +5580,33 @@
       ],
       "evidence": "average cost $483.5",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.299711,
+      "price": 189.41,
+      "date": "2026-10-01",
+      "time_et": "10:15",
+      "ts": 1790863800,
+      "why": "wanted it, but not at the high \u2014 resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "PLTR +2.22% today, near day high (90.1 pct_of_range), IBM headline 'Palantir inches higher' amid AI coding agent news",
+      "trigger": "buy_limit",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 3602.31,
-  "deployed_today": 39375.0,
-  "orders_today": 19,
+  "spent_today": 4227.31,
+  "deployed_today": 40000.0,
+  "orders_today": 20,
   "sells_today": 15,
   "sold_today": [
     "ACN",
@@ -5636,37 +5657,37 @@
     "LTH": 1790862084,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790864039,
-  "last_check_ts": 1790864039,
-  "last_bar_ts": 1790863800,
+  "last_publish_ts": 1790864150,
+  "last_check_ts": 1790864150,
+  "last_bar_ts": 1790864100,
   "last_decision_ts": 1790864039,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "dbd7922c": 189.4105,
-    "d99c9e52": 484.0,
+    "76d4feca": 190.0578,
+    "86e4d88a": 189.71,
     "4073d2fd": 381.7716,
     "fb0e680d": 185.8424,
+    "d99c9e52": 484.0,
+    "1b9f7c47": 230.5,
     "d4ea6f44": 379.211,
     "90727724": 184.4331,
-    "3dbf20b8": 261.871,
-    "1b9f7c47": 230.5,
-    "a754d678": 453.0,
-    "985a0063": 611.6668,
     "14d09bab": 601.8459,
+    "a754d678": 453.0,
+    "3dbf20b8": 261.871,
+    "985a0063": 611.6668,
     "7f3f5c0c": 266.8961,
-    "5b12f467": 257.4962,
     "04731ec4": 590.5942,
+    "5b12f467": 257.4962,
+    "31bf26e9": 369.6088,
     "c4bcef0c": 179.8768,
-    "31bf26e9": 369.6088
+    "8aba3667": 183.7277
   },
   "hold_arm": {
     "AMD": 90,
-    "TSM": 90,
     "CRWD": 30,
-    "NOC": 90,
-    "UNH": 90,
     "GLD": 30,
-    "RTX": 30
+    "RTX": 30,
+    "PLTR": 90
   }
 }

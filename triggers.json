@@ -1,79 +1,6 @@
 {
  "orders": [
   {
-   "id": "457737f7",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 493.7203,
-   "status": "cancelled",
-   "created": "2026-09-28 11:26",
-   "created_ts": 1790609177,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $508.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 11:56",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "98532105",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 442.0,
-   "status": "expired",
-   "created": "2026-09-28 11:42",
-   "created_ts": 1790610123,
-   "why": "wait for pullback below current 447 before entering, congress buy pressure + momentum",
-   "evidence": "Rep. Rick W. Allen (spouse) bought TSM Aug 12, disclosed Sep 22; TSM +4.63% 1m, currently 60.9% of day range",
-   "signals": [
-    "congress",
-    "momentum"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 2500.0,
-   "closed": "2026-09-29 09:30"
-  },
-  {
-   "id": "dee71357",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 186.0,
-   "status": "expired",
-   "created": "2026-09-28 11:42",
-   "created_ts": 1790610123,
-   "why": "resting limit below market to get better entry than chasing at 69% of range",
-   "evidence": "PLTR +2.89% 5d, headline '24/7 Wall St: If You Invest $10,000 in Palantir Today', currently 69.3% of day range",
-   "signals": [
-    "momentum",
-    "news"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 2500.0,
-   "closed": "2026-09-29 09:30"
-  },
-  {
-   "id": "4e1f5f09",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 253.0,
-   "status": "expired",
-   "created": "2026-09-28 11:42",
-   "created_ts": 1790610123,
-   "why": "working order to avoid chasing top-of-range price, existing dip order at 249.42 already resting",
-   "evidence": "CRWD +2.44% today, +13.3% 1m, Cramer 'Buy 2 AI Stocks Up 875%/1400%' headline mentions CRWD-adjacent names, but CRWD itself at 97.4% of day range now - wait for pullback",
-   "signals": [
-    "momentum",
-    "news"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 2000.0,
-   "closed": "2026-09-29 09:30"
-  },
-  {
    "id": "ada2e9da",
    "ticker": "AVGO",
    "kind": "buy_limit",
@@ -7029,7 +6956,7 @@
    "ticker": "PLTR",
    "kind": "buy_limit",
    "price": 189.4105,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "wanted it, but not at the high \u2014 resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -7040,7 +6967,8 @@
     "patience"
    ],
    "good_until": "2026-10-01",
-   "usd": 625.0
+   "usd": 625.0,
+   "closed": "2026-10-01 10:15"
   },
   {
    "id": "f36c05c2",
@@ -7429,7 +7357,77 @@
    ],
    "good_until": "2026-10-01",
    "usd": 2000.0
+  },
+  {
+   "id": "76d4feca",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 190.0578,
+   "status": "working",
+   "created": "2026-10-01 10:15",
+   "created_ts": 1790864104,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $189.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "674f2c65",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 187.7905,
+   "status": "cancelled",
+   "created": "2026-10-01 10:15",
+   "created_ts": 1790864104,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $189.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:15",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "8aba3667",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 183.7277,
+   "status": "working",
+   "created": "2026-10-01 10:15",
+   "created_ts": 1790864104,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $189.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
+  },
+  {
+   "id": "86e4d88a",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 189.71,
+   "status": "working",
+   "created": "2026-10-01 10:15",
+   "created_ts": 1790864150,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $189.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:13"
+ "updated": "2026-10-01 10:15"
 }
