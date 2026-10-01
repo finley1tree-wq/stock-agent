@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-01T13:24-04:00",
+ "asOf": "2026-10-01T13:31-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -156,23 +156,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "031db909",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 115.6876,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 115.33,
-   "pct_away": 0.31,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "2f7be572",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -180,48 +163,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 185.04,
-   "pct_away": 0.37,
+   "last": 185.26,
+   "pct_away": 0.25,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "5ee06536",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 150.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 150.57,
-   "pct_away": -0.38,
-   "good_until": "2026-10-01",
-   "why": "cooldown active 41min, resting limit slightly below market to catch cooldown expiry at a decent price",
-   "signals": [
-    "congress",
-    "news"
-   ]
-  },
-  {
-   "id": "978b4408",
-   "ticker": "XENE",
-   "kind": "buy_limit",
-   "price": 39.092,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 39.35,
-   "pct_away": -0.66,
-   "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $39.09. Dual-insider buy (CEO+CFO same day) is a stronger signal per past lesson, biotech catalyst with NDA filing news [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "insider",
-    "news",
-    "patience"
    ]
   },
   {
@@ -232,8 +180,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 216.06,
-   "pct_away": 0.81,
+   "last": 216.94,
+   "pct_away": 0.4,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -249,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 39.35,
-   "pct_away": 1.01,
+   "last": 39.44,
+   "pct_away": 0.78,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.8% over the average cost",
    "signals": [
@@ -259,19 +207,38 @@
    ]
   },
   {
-   "id": "a754d678",
-   "ticker": "TSM",
+   "id": "5ee06536",
+   "ticker": "CHRW",
    "kind": "buy_limit",
-   "price": 453.0,
+   "price": 150.0,
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 457.81,
-   "pct_away": -1.05,
+   "last": 151.23,
+   "pct_away": -0.81,
    "good_until": "2026-10-01",
-   "why": "resting limit near day low to get a better entry than chasing at market",
+   "why": "cooldown active 41min, resting limit slightly below market to catch cooldown expiry at a decent price",
    "signals": [
+    "congress",
     "news"
+   ]
+  },
+  {
+   "id": "978b4408",
+   "ticker": "XENE",
+   "kind": "buy_limit",
+   "price": 39.092,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 39.44,
+   "pct_away": -0.88,
+   "good_until": "2026-10-01",
+   "why": "wanted it, but not at the high \u2014 resting at $39.09. Dual-insider buy (CEO+CFO same day) is a stronger signal per past lesson, biotech catalyst with NDA filing news [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "insider",
+    "news",
+    "patience"
    ]
   },
   {
@@ -282,10 +249,78 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 40.62,
-   "pct_away": -1.12,
+   "last": 40.67,
+   "pct_away": -1.24,
    "good_until": "2026-10-01",
    "why": "wanted it, but not at the high \u2014 resting at $40.17. Top congress score ticker, diversifies into leisure sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "a754d678",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 453.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 459.86,
+   "pct_away": -1.49,
+   "good_until": "2026-10-01",
+   "why": "resting limit near day low to get a better entry than chasing at market",
+   "signals": [
+    "news"
+   ]
+  },
+  {
+   "id": "c4640612",
+   "ticker": "SKWD",
+   "kind": "buy_limit",
+   "price": 53.667,
+   "usd": 375.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 54.54,
+   "pct_away": -1.6,
+   "good_until": "2026-10-01",
+   "why": "wanted it, but not at the high \u2014 resting at $53.67. Insurance sector diversification with congress backing, fills toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "086fc2c0",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 227.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 231.04,
+   "pct_away": -1.75,
+   "good_until": "2026-10-01",
+   "why": "Resting limit slightly below market to capture AI megacap on a dip rather than chasing",
+   "signals": [
+    "news"
+   ]
+  },
+  {
+   "id": "a02ac431",
+   "ticker": "SKWD",
+   "kind": "buy_limit",
+   "price": 53.5872,
+   "usd": 525.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 54.54,
+   "pct_away": -1.75,
+   "good_until": "2026-10-01",
+   "why": "wanted it, but not at the high \u2014 resting at $53.59. insurance diversification name already flagged by desk with congress pressure [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
@@ -300,8 +335,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 460.99,
-   "pct_away": -1.27,
+   "last": 463.79,
+   "pct_away": -1.87,
    "good_until": "2026-10-01",
    "why": "wanted it, but not at the high \u2014 resting at $455.12. Strong congress signal plus positive earnings-adjacent coverage, electrical infrastructure play uncorrelated with current defense/gold/HLI book [probation at 25% size (no hour or signal l",
    "signals": [
@@ -312,71 +347,21 @@
    ]
   },
   {
-   "id": "086fc2c0",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 227.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 230.73,
-   "pct_away": -1.62,
-   "good_until": "2026-10-01",
-   "why": "Resting limit slightly below market to capture AI megacap on a dip rather than chasing",
-   "signals": [
-    "news"
-   ]
-  },
-  {
-   "id": "c4640612",
+   "id": "6263c0ee",
    "ticker": "SKWD",
    "kind": "buy_limit",
-   "price": 53.667,
-   "usd": 375.0,
+   "price": 53.4993,
+   "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 54.56,
-   "pct_away": -1.64,
+   "last": 54.54,
+   "pct_away": -1.91,
    "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $53.67. Insurance sector diversification with congress backing, fills toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "why": "wanted it, but not at the high \u2014 resting at $53.50. Insurance sector diversification backed by congressional buy pressure, fills out min_positions with uncorrelated name [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "a02ac431",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 53.5872,
-   "usd": 525.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 54.56,
-   "pct_away": -1.78,
-   "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $53.59. insurance diversification name already flagged by desk with congress pressure [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "c31beb8b",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 212.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 216.06,
-   "pct_away": -1.88,
-   "good_until": "2026-10-01",
-   "why": "bound downside after a large one-day move",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -387,8 +372,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 185.04,
-   "pct_away": -1.91,
+   "last": 185.26,
+   "pct_away": -2.03,
    "good_until": "2026-10-01",
    "why": "bound downside per standard bracket",
    "signals": [
@@ -403,8 +388,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 39.35,
-   "pct_away": -1.91,
+   "last": 39.44,
+   "pct_away": -2.13,
    "good_until": "2026-10-06",
    "why": "close it all at -2.1% under the average cost",
    "signals": [
@@ -413,35 +398,17 @@
    ]
   },
   {
-   "id": "6263c0ee",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 53.4993,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 54.56,
-   "pct_away": -1.94,
-   "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $53.50. Insurance sector diversification backed by congressional buy pressure, fills out min_positions with uncorrelated name [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "5d4af5c6",
-   "ticker": "NEM",
+   "id": "c31beb8b",
+   "ticker": "ACN",
    "kind": "stop_loss",
-   "price": 112.9,
+   "price": 212.0,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 115.33,
-   "pct_away": -2.11,
+   "last": 216.94,
+   "pct_away": -2.28,
    "good_until": "2026-10-01",
-   "why": "bound downside per standard bracket",
+   "why": "bound downside after a large one-day move",
    "signals": [
     "risk_management"
    ]
@@ -454,66 +421,14 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 248.9,
-   "pct_away": -2.55,
+   "last": 249.79,
+   "pct_away": -2.9,
    "good_until": "2026-10-01",
    "why": "wanted it, but not at the high \u2014 resting at $242.55. Large 10%-holder insider purchase is a strong signal per insider_net_buy_pressure, auto retail name diversifies away from current defense/gold/tech book [probation at 25% size (no hour or",
    "signals": [
     "insider",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "71abcc5e",
-   "ticker": "GPI",
-   "kind": "buy_limit",
-   "price": 242.2977,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 248.9,
-   "pct_away": -2.65,
-   "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $242.30. Large insider buy from a 10% holder is meaningful size, auto retail diversification away from current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "insider",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "a3eefb67",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 210.2087,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 216.06,
-   "pct_away": -2.71,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "25783076",
-   "ticker": "XENE",
-   "kind": "buy_limit",
-   "price": 38.2374,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 39.35,
-   "pct_away": -2.83,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -524,8 +439,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 185.04,
-   "pct_away": -2.86,
+   "last": 185.26,
+   "pct_away": -2.97,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -534,15 +449,50 @@
    ]
   },
   {
-   "id": "b4c352be",
-   "ticker": "NEM",
+   "id": "71abcc5e",
+   "ticker": "GPI",
    "kind": "buy_limit",
-   "price": 111.8022,
+   "price": 242.2977,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 115.33,
-   "pct_away": -3.06,
+   "last": 249.79,
+   "pct_away": -3.0,
+   "good_until": "2026-10-01",
+   "why": "wanted it, but not at the high \u2014 resting at $242.30. Large insider buy from a 10% holder is meaningful size, auto retail diversification away from current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "insider",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "25783076",
+   "ticker": "XENE",
+   "kind": "buy_limit",
+   "price": 38.2374,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 39.44,
+   "pct_away": -3.05,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a3eefb67",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 210.2087,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 216.94,
+   "pct_away": -3.1,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -558,8 +508,8 @@
    "usd": null,
    "pct_of_position": 50.0,
    "trail_pct": null,
-   "last": 216.06,
-   "pct_away": 4.14,
+   "last": 216.94,
+   "pct_away": 3.72,
    "good_until": "2026-10-01",
    "why": "take partial profit near day high",
    "signals": [

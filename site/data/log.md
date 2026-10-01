@@ -1,6 +1,3 @@
-portfolio: equity $25212.13 (+0.85% on $25000.00 in) · cash $21463.78 · realised +213.78
-Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
-  (dropped NOC: sold 21 min ago, cooling off)
   (dropped NOC: sold 21 min ago, cooling off)
   (dropped NOC: sold 22 min ago, cooling off)
   (dropped NOC: sold 23 min ago, cooling off)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 30 standing order(s) working.
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $85.79] -> $552.26 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 13:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $115.69] -> $501.87 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-10-01 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

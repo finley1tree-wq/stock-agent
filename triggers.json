@@ -6810,7 +6810,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 112.9,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:21",
    "created_ts": 1790871665,
    "why": "bound downside per standard bracket",
@@ -6819,7 +6819,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 13:31",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6263c0ee",
@@ -6915,7 +6917,7 @@
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 115.6876,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 12:21",
    "created_ts": 1790871665,
    "why": "close 100% at +0.4% over the average cost",
@@ -6925,14 +6927,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 13:31"
   },
   {
    "id": "b4c352be",
    "ticker": "NEM",
    "kind": "buy_limit",
    "price": 111.8022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:21",
    "created_ts": 1790871665,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6942,7 +6945,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 13:31",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e34202d3",
@@ -7431,5 +7436,5 @@
    "usd": 375.0
   }
  ],
- "updated": "2026-10-01 13:24"
+ "updated": "2026-10-01 13:31"
 }
