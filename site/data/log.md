@@ -1,9 +1,3 @@
-  (dropped TPL: not in allowed list)
-  (dropped HLI: 88% up today's range — resting a limit at $127.19 instead of chasing)
-- BUY $625.00 FWONK [filled] ['congress', 'news'] — diversifier outside tech/nuclear cluster, congress pressure plus positive news framing, low correlation to current holdings [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure FWONK=2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' 2026-09-28
-- BUY $500.00 SKWD [filled] ['congress', 'news'] — congress pressure plus decent entry point mid-range, insurance sector diversifier [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure SKWD=2.0; headline 'Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' 2026-09-28, 55.3 pct_of_day_range (mid-range entry)
-  (dropped trigger HLI stop_loss: not held)
-  (dropped trigger TPL stop_loss: not held)
 ~ WORKING stop_loss 100% FWONK @ $91.00 until 2026-09-30 — cap downside on new FWONK position
 ~ WORKING stop_loss 100% SKWD @ $51.70 until 2026-09-30 — cap downside on new SKWD position
 ~ WORKING buy_limit $625.00 HLI @ $127.19 until 2026-09-30 — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
@@ -398,3 +392,9 @@ Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [stop_loss @ $86.59] -> $3500.88 (+0.03%) — close it all at -1.0% under the average cost
 ## 2026-10-01 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LTH: position closed)
+- SELL 100% LTH [stop_loss @ $39.70] -> $3002.59 (+0.09%) — close it all at -1.0% under the average cost
+## 2026-10-01 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $231.74] -> $4013.52 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-10-01 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

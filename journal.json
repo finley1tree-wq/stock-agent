@@ -48616,5 +48616,56 @@
     "trigger": "stop_loss",
     "hour_et": 9,
     "code_version": "39ec066"
+  },
+  {
+    "symbol": "LTH",
+    "side": "sell",
+    "qty": 75.63179,
+    "status": "filled",
+    "price": 39.7,
+    "proceeds": 3002.59,
+    "realized_pnl": 2.59,
+    "realized_pct": 0.09,
+    "date": "2026-10-01",
+    "time_et": "09:41",
+    "ts": 1790862083,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $39.67",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "86c639f"
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 17.319024,
+    "status": "filled",
+    "price": 231.74,
+    "proceeds": 4013.52,
+    "realized_pnl": 13.52,
+    "realized_pct": 0.34,
+    "date": "2026-10-01",
+    "time_et": "09:42",
+    "ts": 1790862000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $230.96",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "86c639f"
   }
 ]
