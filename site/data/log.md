@@ -1,13 +1,3 @@
-~ WORKING take_profit 100% IBM @ $221.39 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $214.04 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $88.26 until 2026-10-05 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $85.28 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25209.53 (+0.84% on $25000.00 in) · cash $21415.57 · realised +215.57
-Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $21083.97 this week
-- SELL 100% AAPL [time stop] -> $497.98 (-0.40%) — held 90 min, the 90-minute limit: out regardless
-## 2026-09-30 12:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% ACN [time stop] -> $499.87 (-0.03%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% NVDA [time stop] -> $498.85 (-0.23%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 12:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-30 12:47 ET (Wednesday) — week 2026-W40 — budget left $22580.67 (today $39725.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
@@ -398,3 +388,13 @@ lesson: Spread entries across genuinely uncorrelated sectors (industrials, insur
 ~ WORKING buy_limit $500.00 HLI @ $122.36 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25212.13 (+0.85% on $25000.00 in) · cash $21463.78 · realised +213.78
 Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
+  (dropped NOC: sold 21 min ago, cooling off)
+  (dropped NOC: sold 21 min ago, cooling off)
+  (dropped NOC: sold 22 min ago, cooling off)
+  (dropped NOC: sold 23 min ago, cooling off)
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $224.90] -> $753.67 (+0.49%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $278.37] -> $626.66 (+0.27%) — close 100% at +0.3% over the average cost
+  (dropped NOC: sold 23 min ago, cooling off)
+## 2026-10-01 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders

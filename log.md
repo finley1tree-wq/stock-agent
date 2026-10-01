@@ -20865,3 +20865,10 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
   (dropped NOC: sold 21 min ago, cooling off)
   (dropped NOC: sold 21 min ago, cooling off)
   (dropped NOC: sold 22 min ago, cooling off)
+  (dropped NOC: sold 23 min ago, cooling off)
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $224.90] -> $753.67 (+0.49%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $278.37] -> $626.66 (+0.27%) — close 100% at +0.3% over the average cost
+  (dropped NOC: sold 23 min ago, cooling off)
+## 2026-10-01 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders

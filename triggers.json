@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "eaaa53de",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 331.2453,
-   "status": "cancelled",
-   "created": "2026-09-28 12:28",
-   "created_ts": 1790612902,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $341.49",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 12:58",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "6342a239",
    "ticker": "LMT",
    "kind": "take_profit",
@@ -7126,7 +7107,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 215.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "Protective stop below today's low",
@@ -7135,14 +7116,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ee21b236",
    "ticker": "HD",
    "kind": "stop_loss",
    "price": 272.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "Protective stop on contrarian buy",
@@ -7151,7 +7134,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "eb835408",
@@ -7174,7 +7159,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 224.9011,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "close 100% at +0.5% over the average cost",
@@ -7184,14 +7169,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:34"
   },
   {
    "id": "397fde3b",
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 217.086,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7201,14 +7187,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 10:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c6919fa7",
    "ticker": "HD",
    "kind": "take_profit",
    "price": 278.373,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "close 100% at +0.3% over the average cost",
@@ -7218,14 +7206,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:34"
   },
   {
    "id": "a3eafe63",
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 269.3108,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7235,7 +7224,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 10:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "941ef32d",
@@ -7344,7 +7335,7 @@
    "ticker": "SKWD",
    "kind": "stop_loss",
    "price": 52.8645,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "close it all at -0.7% under the average cost",
@@ -7354,7 +7345,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "646109b5",
@@ -7423,7 +7416,24 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "1393b0f6",
+   "ticker": "SKWD",
+   "kind": "stop_loss",
+   "price": 53.286,
+   "status": "working",
+   "created": "2026-10-01 10:33",
+   "created_ts": 1790865229,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $53.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:29"
+ "updated": "2026-10-01 10:34"
 }
