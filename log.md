@@ -20657,3 +20657,6 @@ portfolio: equity $25204.70 (+0.82% on $25000.00 in) · cash $8710.40 · realise
 Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week
 - BUY $3500.00 CCJ [buy_limit @ $86.56] — wanted it, but not at the high — resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage
 ## 2026-10-01 09:35 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $223.91] -> $4547.03 (+1.05%) — close 100% at +0.5% over the average cost
+## 2026-10-01 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

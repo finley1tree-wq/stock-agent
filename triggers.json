@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "62d34c74",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 86.6833,
-   "status": "filled",
-   "created": "2026-09-28 10:38",
-   "created_ts": 1790606315,
-   "why": "wanted it, but not at the high \u2014 resting at $86.68. Nuclear thesis intact, CCJ strength today despite -17.8% 1m drawdown offering value",
-   "evidence": "CCJ at 92.3% of day range near $87.36, Cameco Westinghouse stake headline 'could be worth more than $24.5B', nuclear sector track record hit_rate 0.62",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 1800.0,
-   "closed": "2026-09-28 10:52"
-  },
-  {
    "id": "b60343b7",
    "ticker": "RTX",
    "kind": "take_profit",
@@ -7070,7 +7051,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 213.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:32",
    "created_ts": 1790861560,
    "why": "Protect against reversal of today's earnings gap",
@@ -7079,7 +7060,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "09b45e1c",
@@ -7139,7 +7122,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 222.6625,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 09:32",
    "created_ts": 1790861560,
    "why": "close 100% at +0.5% over the average cost",
@@ -7149,14 +7132,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:35"
   },
   {
    "id": "972778f3",
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 214.9423,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:32",
    "created_ts": 1790861560,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7166,7 +7150,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b27c0073",
@@ -7396,7 +7382,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 85.7178,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:35",
    "created_ts": 1790861711,
    "why": "close it all at -1.0% under the average cost",
@@ -7406,7 +7392,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:35",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "206b886e",
@@ -7424,6 +7412,23 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "8e8eca76",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 86.662,
+   "status": "working",
+   "created": "2026-10-01 09:35",
+   "created_ts": 1790861747,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $86.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-10-01 09:35"

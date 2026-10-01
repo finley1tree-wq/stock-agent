@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 20121.2,
+  "spent": 15574.17,
   "deployed": 266475.18,
   "by_ticker": {
     "AVGO": 43.49,
@@ -26,7 +26,6 @@
     "TPL": 3.17,
     "TSM": 3.38,
     "NLR": 6.69,
-    "ACN": 4500.13,
     "HD": 0.36,
     "NOC": 1.26
   },
@@ -5038,20 +5037,43 @@
       "evidence": "'South Korea Set to Invest $200 Billion in the U.S. These 4 Companies Should Benefit' (Barrons) and 'Wall Street Bulls Look Optimistic About Cameco' (Zacks); day_range 89.5%",
       "trigger": "buy_limit",
       "hold_minutes": 90
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 20.307381,
+      "status": "filled",
+      "price": 223.91,
+      "proceeds": 4547.03,
+      "realized_pnl": 47.03,
+      "realized_pct": 1.05,
+      "date": "2026-10-01",
+      "time_et": "09:35",
+      "ts": 1790861747,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $221.59",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 20000.0,
+  "spent_today": 15452.97,
   "deployed_today": 20000.0,
   "orders_today": 6,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 1,
+  "sold_today": [
+    "ACN"
+  ],
   "sold_ts": {
     "PLTR": 1790784896,
     "TSM": 1790790642,
     "LEN": 1790602749,
     "AMD": 1790790364,
-    "ACN": 1790786781,
+    "ACN": 1790861747,
     "MSFT": 1790790364,
     "NOC": 1790788653,
     "UNH": 1790784279,
@@ -5078,32 +5100,29 @@
     "LTH": 1790784357,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790861711,
-  "last_check_ts": 1790861711,
+  "last_publish_ts": 1790861747,
+  "last_check_ts": 1790861793,
   "last_bar_ts": 1790861700,
   "last_decision_ts": 1790861560,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "0789c0d7": 39.8315,
+    "8e8eca76": 86.662,
     "dabf85ce": 39.766,
-    "a13469fb": 222.6625,
-    "b27c0073": 455.6468,
     "fb3a6370": 86.8967,
+    "b27c0073": 455.6468,
     "14813065": 148.8757,
     "4f0845b3": 147.4223,
     "f0f62f51": 12.2426,
     "c0a89d61": 230.9599,
-    "d1ca3e24": 85.7178,
     "76b2b0e2": 12.449,
     "09b45e1c": 444.0,
     "d6319bee": 12.0183,
     "a86e5d9f": 144.0062,
     "6765bc60": 440.7389,
     "206b886e": 83.9632,
-    "972778f3": 214.9423,
-    "022c5a2b": 38.4799,
-    "a9f4eb10": 213.5
+    "022c5a2b": 38.4799
   },
   "hold_arm": {
     "ACN": 90,
