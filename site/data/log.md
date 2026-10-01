@@ -1,46 +1,3 @@
-  (dropped ACN: 93% up today's range — resting a limit at $180.69 instead of chasing)
-  (dropped TSM: 95% up today's range — resting a limit at $458.44 instead of chasing)
-  (dropped CRWD: 87% up today's range — resting a limit at $265.63 instead of chasing)
-  (dropped trigger TSM stop_loss: not held)
-  (dropped trigger CRWD stop_loss: not held)
-  (dropped trigger ACN stop_loss: not held)
-~ WORKING buy_limit $500.00 ACN @ $180.69 until 2026-09-30 — wanted it, but not at the high — resting at $180.69. Add ACN with a resting limit below market rather than chasing the high; existing working buy_limit at 180.33 covers this, adding fresh evidence-backed conviction [probation at 25% size (n
-~ WORKING buy_limit $625.00 TSM @ $458.44 until 2026-09-30 — wanted it, but not at the high — resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa
-~ WORKING buy_limit $500.00 CRWD @ $265.63 until 2026-09-30 — wanted it, but not at the high — resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h
-portfolio: equity $25215.02 (+0.86% on $25000.00 in) · cash $22474.12 · realised +224.12
-Decision: nothing at this check. 24 standing order(s) working.
-- BUY $625.00 LTH [buy_limit @ $40.10] — wanted it, but not at the high — resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens 
-## 2026-09-30 11:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-30 11:44 ET (Wednesday) — week 2026-W40 — budget left $21517.51 (today $33750.00 put to work, 21 buys, 13 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (bad quote TNON: +57.1% in a day looks like a bad tick)
-brain: Below min_positions (6 of 8) with 86% cash idle - need to add names now with concrete evidence, before the 14:00 entry cutoff which is only ~2h away. Picked GOOGL (news catalyst + momentum, cooldown cleared), PLTR (fresh Trump/AI leadership headline), and UNH (leadership reset headline) to diversify sectors away from the crowded nuclear/industrial cluster already held. Each gets a protective stop per the lesson to always pair new buys with explicit stop_loss triggers.
-lesson: Below min_positions with high idle cash and approaching the 14:00 cutoff means act now in size with named headline evidence across diversified sectors, not just crowded clusters already held.
-- BUY $500.00 GOOGL [filled] ['news', 'momentum'] — Strong AI-infra news catalyst plus 1m momentum +3.49%; cooldown from earlier sell has cleared, re-entering widely_held name to build toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: GOOGL +3.01% today, headline 'AI companies just signed a White House accord' 2026-09-30, pct_of_day_range 83.5
-- BUY $500.00 PLTR [filled] ['news', 'momentum'] — Defense/AI name with fresh White House AI leadership headline and positive daily momentum, diversifies sector away from crowded industrials [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'What we know about Trump's meeting with Alex Karp, Jensen Huang, & other AI leaders' 2026-09-29, price 190.27 up 1.77% today, pct_of_day_range 82.1
-- BUY $500.00 UNH [filled] ['news', 'insider'] — Leadership reset headline is a concrete catalyst; adds healthcare sector diversification away from crowded logistics/nuclear cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'UnitedHealth Group (UNH) Puts Robert Hunter At The Center Of Its Leadership Reset' 2026-09-30, new insurance President named
-~ WORKING stop_loss 100% GOOGL @ $344.00 until 2026-09-30 — protective stop below today's low to cap downside on new position
-~ WORKING stop_loss 100% PLTR @ $186.00 until 2026-09-30 — protective stop just below today's low to cap downside on new position
-~ WORKING stop_loss 100% UNH @ $364.00 until 2026-09-30 — protective stop just below today's low to cap downside on new position
-~ WORKING take_profit 100% GOOGL @ $352.25 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $340.72 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLTR @ $190.94 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 PLTR @ $184.60 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $371.57 until 2026-10-05 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $359.59 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25214.72 (+0.86% on $25000.00 in) · cash $20349.12 · realised +224.12
-Done: 0 sell(s), 3 buy(s); 35 order(s) working; budget left $20017.51 this week
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $352.25] -> $501.41 (+0.28%) — close 100% at +0.3% over the average cost
-## 2026-09-30 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on SKWD: position closed)
-- SELL 100% SKWD [take_profit @ $53.37] -> $501.33 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-09-30 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-09-30 12:00 ET (Wednesday) — week 2026-W40 — budget left $21020.25 (today $35250.00 put to work, 24 buys, 15 sells) — SIM (pretend money) via sim
@@ -398,3 +355,46 @@ Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $517.88] -> $1996.94 (-0.15%) — close it all at -0.6% under the average cost
 ## 2026-10-01 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [stop_loss @ $506.87] -> $1987.21 (-0.64%) — close it all at -0.6% under the average cost
+- SELL 100% HUBB [time stop] -> $3468.56 (-0.90%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 10:03 ET (Thursday) — week 2026-W40 — budget left $22898.43 (today $36000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+brain: Below min_positions (1/8) with 91.6% cash idle - the biggest issue right now is underdeployment, not picking the perfect name. I'm spreading across defense (NOC, RTX), semis (TSM), security (CRWD), AI/data (PLTR), healthcare (UNH) and gold (GLD) to diversify away from the correlated congress cluster (HUBB/CHRW/LTH) per past lessons, each backed by a concrete headline or price-range signal. Sizing $2000-2500 each gets me to ~8 positions with meaningful weight while respecting the no-momentum-only rule by pairing each with news evidence.
+lesson: Diversify sector exposure with individual news evidence per name when below min_positions, rather than concentrating in one correlated congress-disclosure cluster.
+  (dropped PLTR: 90% up today's range — resting a limit at $189.41 instead of chasing)
+- BUY $625.00 TSM [filled] ['news'] — Diversify into semis with concrete expansion headline, moderate day range (28%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Reuters: 'TSMC weighs investment in Texas to expand U.S. chip production' - positive supply chain news, +9.83% 1m momentum
+- BUY $625.00 CRWD [filled] ['news', 'momentum'] — Security sector momentum continuing, reasonable entry at 61% of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CRWD +23.41% 1m momentum, headline 'BlackBerry Advances...CrowdStrike Edges Up 2%' showing sector strength
+- BUY $625.00 NOC [filled] ['news'] — Defense sector tailwind, NOC near day low (3.7% of range) offering good entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Lockheed Martin Secures Over $1 Billion in Defense Deals' signals sector-wide defense demand strength
+- BUY $500.00 UNH [filled] ['news'] — Mean reversion candidate in healthcare, low in range gives better entry than chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH -1.04% today but at 6.2% of day range (near low), oversold on 'Her Surgery Is Set for January' type coverage-pressure news already priced in
+- BUY $500.00 GLD [filled] ['news'] — Diversification into gold/defensive asset after sharp pullback, low in day range (12.3%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Gold Just Had Its Worst Day in Over Two Months. GLD Is Now 26% Off Its High' - contrarian entry after selloff
+- BUY $500.00 RTX [filled] ['news'] — Adds defense diversification distinct from NOC/LMT cluster, near day low (17% of range) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?' plus defense sector congress pressure
+  (dropped trigger PLTR stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $445.00 until 2026-10-01 — Protect capital with ATR-based stop below recent support
+~ WORKING buy_limit $625.00 PLTR @ $189.41 until 2026-10-01 — wanted it, but not at the high — resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% TSM @ $455.87 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $441.14 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $266.90 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% CRWD @ $261.87 until 2026-10-06 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $257.50 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $484.81 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NOC @ $480.23 until 2026-10-06 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 NOC @ $469.00 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $364.14 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% UNH @ $361.31 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 UNH @ $352.43 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GLD @ $381.77 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% GLD @ $379.21 until 2026-10-06 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 GLD @ $369.61 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $185.84 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% RTX @ $184.43 until 2026-10-06 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 RTX @ $179.88 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25219.82 (+0.88% on $25000.00 in) · cash $19855.02 · realised +230.02
+Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week

@@ -48406,7 +48406,9 @@
     "code_version": "4427d3f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.48
+    "ret_now": -0.9,
+    "ret_final": -0.9,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -48433,7 +48435,9 @@
     "code_version": "4427d3f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "LTH",
@@ -48714,7 +48718,10 @@
     "hour_et": 9,
     "code_version": "6351517",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.25,
+    "ret_now": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -48740,7 +48747,10 @@
     "hour_et": 9,
     "code_version": "6351517",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.15,
+    "ret_now": -0.15,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -48765,7 +48775,10 @@
     "hour_et": 9,
     "code_version": "6351517",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.31,
+    "ret_now": 0.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -48790,7 +48803,10 @@
     "hour_et": 9,
     "code_version": "6351517",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.29,
+    "ret_now": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMD",
@@ -48816,7 +48832,8 @@
     "hour_et": 9,
     "code_version": "6351517",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.45
   },
   {
     "symbol": "LMT",
@@ -48841,7 +48858,10 @@
     "hour_et": 9,
     "code_version": "6351517",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.64,
+    "ret_now": -0.64,
+    "ret_src": "realised"
   },
   {
     "symbol": "CHRW",
@@ -48866,7 +48886,8 @@
     "evidence": "average cost $148.46",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "cc79772"
+    "code_version": "cc79772",
+    "hold_minutes": 17
   },
   {
     "symbol": "NVDA",
@@ -48891,7 +48912,8 @@
     "evidence": "average cost $230.59",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "cc79772"
+    "code_version": "cc79772",
+    "hold_minutes": 2
   },
   {
     "symbol": "AVGO",
@@ -48915,7 +48937,8 @@
     "evidence": "average cost $350.46",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "1dc83d6"
+    "code_version": "1dc83d6",
+    "hold_minutes": 2
   },
   {
     "symbol": "GOOGL",
@@ -48939,7 +48962,8 @@
     "evidence": "average cost $343.06",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "b5baf60"
+    "code_version": "b5baf60",
+    "hold_minutes": 2
   },
   {
     "symbol": "MSFT",
@@ -48964,6 +48988,208 @@
     "evidence": "average cost $518.67",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "b2ae586"
+    "code_version": "b2ae586",
+    "hold_minutes": 12
+  },
+  {
+    "symbol": "LMT",
+    "side": "sell",
+    "qty": 3.920539,
+    "status": "filled",
+    "price": 506.87,
+    "proceeds": 1987.21,
+    "realized_pnl": -12.79,
+    "realized_pct": -0.64,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863200,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $510.13",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "hold_minutes": 12
+  },
+  {
+    "symbol": "HUBB",
+    "side": "sell",
+    "qty": 7.702945,
+    "status": "filled",
+    "price": 450.29,
+    "proceeds": 3468.56,
+    "realized_pnl": -31.44,
+    "realized_pct": -0.9,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863415,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.86% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "TSM",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.374288,
+    "price": 454.78,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863417,
+    "why": "Diversify into semis with concrete expansion headline, moderate day range (28%) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Reuters: 'TSMC weighs investment in Texas to expand U.S. chip production' - positive supply chain news, +9.83% 1m momentum",
+    "hold_minutes": 90,
+    "entry_price": 454.69,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.83,
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CRWD",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.354376,
+    "price": 265.46,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863417,
+    "why": "Security sector momentum continuing, reasonable entry at 61% of day range [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "CRWD +23.41% 1m momentum, headline 'BlackBerry Advances...CrowdStrike Edges Up 2%' showing sector strength",
+    "hold_minutes": 30,
+    "entry_price": 265.41,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 23.41,
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.292649,
+    "price": 483.5,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863417,
+    "why": "Defense sector tailwind, NOC near day low (3.7% of range) offering good entry [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Headline 'Lockheed Martin Secures Over $1 Billion in Defense Deals' signals sector-wide defense demand strength",
+    "hold_minutes": 90,
+    "entry_price": 483.31,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -9.31,
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "UNH",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.376149,
+    "price": 363.33,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863417,
+    "why": "Mean reversion candidate in healthcare, low in range gives better entry than chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "UNH -1.04% today but at 6.2% of day range (near low), oversold on 'Her Surgery Is Set for January' type coverage-pressure news already priced in",
+    "hold_minutes": 90,
+    "entry_price": 363.26,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.34,
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GLD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.312211,
+    "price": 381.04,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863417,
+    "why": "Diversification into gold/defensive asset after sharp pullback, low in day range (12.3%) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Headline 'Gold Just Had Its Worst Day in Over Two Months. GLD Is Now 26% Off Its High' - contrarian entry after selloff",
+    "hold_minutes": 30,
+    "entry_price": 380.96,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -3.98,
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "RTX",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.69623,
+    "price": 185.44,
+    "date": "2026-10-01",
+    "time_et": "10:03",
+    "ts": 1790863417,
+    "why": "Adds defense diversification distinct from NOC/LMT cluster, near day low (17% of range) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?' plus defense sector congress pressure",
+    "hold_minutes": 30,
+    "entry_price": 185.37,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -9.65,
+    "hour_et": 10,
+    "code_version": "d9abc68",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

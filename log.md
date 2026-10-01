@@ -20725,3 +20725,46 @@ Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [stop_loss @ $517.88] -> $1996.94 (-0.15%) — close it all at -0.6% under the average cost
 ## 2026-10-01 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [stop_loss @ $506.87] -> $1987.21 (-0.64%) — close it all at -0.6% under the average cost
+- SELL 100% HUBB [time stop] -> $3468.56 (-0.90%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 10:03 ET (Thursday) — week 2026-W40 — budget left $22898.43 (today $36000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+brain: Below min_positions (1/8) with 91.6% cash idle - the biggest issue right now is underdeployment, not picking the perfect name. I'm spreading across defense (NOC, RTX), semis (TSM), security (CRWD), AI/data (PLTR), healthcare (UNH) and gold (GLD) to diversify away from the correlated congress cluster (HUBB/CHRW/LTH) per past lessons, each backed by a concrete headline or price-range signal. Sizing $2000-2500 each gets me to ~8 positions with meaningful weight while respecting the no-momentum-only rule by pairing each with news evidence.
+lesson: Diversify sector exposure with individual news evidence per name when below min_positions, rather than concentrating in one correlated congress-disclosure cluster.
+  (dropped PLTR: 90% up today's range — resting a limit at $189.41 instead of chasing)
+- BUY $625.00 TSM [filled] ['news'] — Diversify into semis with concrete expansion headline, moderate day range (28%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Reuters: 'TSMC weighs investment in Texas to expand U.S. chip production' - positive supply chain news, +9.83% 1m momentum
+- BUY $625.00 CRWD [filled] ['news', 'momentum'] — Security sector momentum continuing, reasonable entry at 61% of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CRWD +23.41% 1m momentum, headline 'BlackBerry Advances...CrowdStrike Edges Up 2%' showing sector strength
+- BUY $625.00 NOC [filled] ['news'] — Defense sector tailwind, NOC near day low (3.7% of range) offering good entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Lockheed Martin Secures Over $1 Billion in Defense Deals' signals sector-wide defense demand strength
+- BUY $500.00 UNH [filled] ['news'] — Mean reversion candidate in healthcare, low in range gives better entry than chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH -1.04% today but at 6.2% of day range (near low), oversold on 'Her Surgery Is Set for January' type coverage-pressure news already priced in
+- BUY $500.00 GLD [filled] ['news'] — Diversification into gold/defensive asset after sharp pullback, low in day range (12.3%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Gold Just Had Its Worst Day in Over Two Months. GLD Is Now 26% Off Its High' - contrarian entry after selloff
+- BUY $500.00 RTX [filled] ['news'] — Adds defense diversification distinct from NOC/LMT cluster, near day low (17% of range) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?' plus defense sector congress pressure
+  (dropped trigger PLTR stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $445.00 until 2026-10-01 — Protect capital with ATR-based stop below recent support
+~ WORKING buy_limit $625.00 PLTR @ $189.41 until 2026-10-01 — wanted it, but not at the high — resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% TSM @ $455.87 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $441.14 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $266.90 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% CRWD @ $261.87 until 2026-10-06 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 CRWD @ $257.50 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $484.81 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NOC @ $480.23 until 2026-10-06 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 NOC @ $469.00 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $364.14 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% UNH @ $361.31 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 UNH @ $352.43 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GLD @ $381.77 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% GLD @ $379.21 until 2026-10-06 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 GLD @ $369.61 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RTX @ $185.84 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% RTX @ $184.43 until 2026-10-06 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 RTX @ $179.88 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25219.82 (+0.88% on $25000.00 in) · cash $19855.02 · realised +230.02
+Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
