@@ -48561,5 +48561,60 @@
     "trigger": "stop_loss",
     "hour_et": 9,
     "code_version": "637e940"
+  },
+  {
+    "symbol": "IBM",
+    "notional": 4000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 17.319024,
+    "price": 230.96,
+    "date": "2026-10-01",
+    "time_et": "09:39",
+    "ts": 1790861700,
+    "why": "wanted it, but not at the high \u2014 resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative",
+    "signals": [
+      "momentum",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "IBM +5.67% today, 'IBM Jumps 5% as Bob Coding Agent Gains Self-Hosted Deployment' headline, pct_of_day_range 99.7",
+    "trigger": "buy_limit",
+    "hold_minutes": 90,
+    "entry_price": 230.9599,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -0.28,
+    "hour_et": 9,
+    "code_version": "39ec066",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "side": "sell",
+    "qty": 40.432045,
+    "status": "filled",
+    "price": 86.59,
+    "proceeds": 3500.88,
+    "realized_pnl": 0.88,
+    "realized_pct": 0.03,
+    "date": "2026-10-01",
+    "time_et": "09:40",
+    "ts": 1790862000,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $86.56",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "39ec066"
   }
 ]

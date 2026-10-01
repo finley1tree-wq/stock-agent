@@ -1,8 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
-  (bad quote TNON: +45.4% in a day looks like a bad tick)
-brain: Below min_positions (3 of 8) with 79% idle cash - need to fill toward target with concrete evidence per owner instruction, weighing named congress-buy-pressure tickers (HLI, FWONK, SKWD all at top tier 2.0) plus TPL which already passed this week's screen, diversifying away from the CHRW/HUBB/NLR cluster already held. Attached protective stops per risk_management signal which has the best realized track record (0.18% avg, 88% hit rate).
-lesson: Congress net_buy_pressure tier of 2.0-3.0 combined with a relevant headline is usable non-momentum evidence to satisfy allow_momentum_only_entries=false; keep diversifying sectors rather than adding to an already-crowded logistics/industrial cluster.
   (dropped TPL: not in allowed list)
   (dropped HLI: 88% up today's range — resting a limit at $127.19 instead of chasing)
 - BUY $625.00 FWONK [filled] ['congress', 'news'] — diversifier outside tech/nuclear cluster, congress pressure plus positive news framing, low correlation to current holdings [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure FWONK=2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' 2026-09-28
@@ -398,3 +393,8 @@ Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [stop_loss @ $12.24] -> $1976.02 (-1.20%) — close it all at -1.2% under the average cost
 ## 2026-10-01 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $4000.00 IBM [buy_limit @ $230.96] — wanted it, but not at the high — resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative
+## 2026-10-01 09:39 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [stop_loss @ $86.59] -> $3500.88 (+0.03%) — close it all at -1.0% under the average cost
+## 2026-10-01 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

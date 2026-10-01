@@ -1,12 +1,12 @@
 {
   "week": "2026-W40",
-  "spent": 13598.15,
-  "deployed": 266475.18,
+  "spent": 14097.27,
+  "deployed": 270475.18,
   "by_ticker": {
     "AVGO": 43.49,
     "TTD": 35.61,
     "AAPL": 4.26,
-    "IBM": 3.5,
+    "IBM": 4003.5,
     "PLTR": 18.81,
     "RTX": 6.02,
     "AMD": 17.21,
@@ -15,7 +15,7 @@
     "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 25.66,
-    "CCJ": 3520.15,
+    "CCJ": 19.27,
     "CRWD": 20.0,
     "HLI": 30.73,
     "FWONK": 10.26,
@@ -46,7 +46,7 @@
     "AAPL": 7000.0,
     "AMZN": 4500.0,
     "HD": 4447.24,
-    "IBM": 6352.94,
+    "IBM": 10352.94,
     "META": 4000.0,
     "RTX": 11300.0,
     "CCJ": 18650.0,
@@ -5079,16 +5079,59 @@
       ],
       "evidence": "average cost $12.39",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 4000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.319024,
+      "price": 230.96,
+      "date": "2026-10-01",
+      "time_et": "09:39",
+      "ts": 1790861700,
+      "why": "wanted it, but not at the high \u2014 resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative",
+      "signals": [
+        "news",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "IBM +5.67% today, 'IBM Jumps 5% as Bob Coding Agent Gains Self-Hosted Deployment' headline, pct_of_day_range 99.7",
+      "trigger": "buy_limit",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 40.432045,
+      "status": "filled",
+      "price": 86.59,
+      "proceeds": 3500.88,
+      "realized_pnl": 0.88,
+      "realized_pct": 0.03,
+      "date": "2026-10-01",
+      "time_et": "09:40",
+      "ts": 1790862000,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.56",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 13476.95,
-  "deployed_today": 20000.0,
-  "orders_today": 6,
-  "sells_today": 2,
+  "spent_today": 13976.07,
+  "deployed_today": 24000.0,
+  "orders_today": 7,
+  "sells_today": 3,
   "sold_today": [
     "ACN",
-    "TTD"
+    "TTD",
+    "CCJ"
   ],
   "sold_ts": {
     "PLTR": 1790784896,
@@ -5110,7 +5153,7 @@
     "AAPL": 1790786607,
     "IBM": 1790787696,
     "RTX": 1790777027,
-    "CCJ": 1790787696,
+    "CCJ": 1790862045,
     "LMT": 1790690655,
     "NEM": 1790777567,
     "HLI": 1790781832,
@@ -5122,33 +5165,31 @@
     "LTH": 1790784357,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790861960,
-  "last_check_ts": 1790861960,
-  "last_bar_ts": 1790861700,
+  "last_publish_ts": 1790862045,
+  "last_check_ts": 1790862045,
+  "last_bar_ts": 1790862000,
   "last_decision_ts": 1790861560,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "dabf85ce": 39.766,
-    "fb3a6370": 86.8967,
-    "8e8eca76": 86.662,
-    "c0a89d61": 230.9599,
     "0789c0d7": 39.8315,
-    "b27c0073": 455.6468,
     "14813065": 148.8757,
+    "cfe81986": 229.0107,
     "4f0845b3": 147.4223,
+    "99856090": 231.7406,
+    "b27c0073": 455.6468,
     "09b45e1c": 444.0,
-    "a86e5d9f": 144.0062,
     "6765bc60": 440.7389,
-    "022c5a2b": 38.4799,
-    "206b886e": 83.9632
+    "41ae2d97": 224.0312,
+    "a86e5d9f": 144.0062,
+    "022c5a2b": 38.4799
   },
   "hold_arm": {
-    "ACN": 90,
     "HUBB": 30,
     "CHRW": 30,
     "LTH": 30,
-    "TTD": 30,
-    "CCJ": 90
+    "CCJ": 90,
+    "IBM": 90
   }
 }

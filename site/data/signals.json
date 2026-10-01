@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-01T09:39-04:00",
+ "asOf": "2026-10-01T09:40-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -173,58 +173,6 @@
    ]
   },
   {
-   "id": "fb3a6370",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 86.8967,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.79,
-   "pct_away": 0.12,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8e8eca76",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 86.662,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.79,
-   "pct_away": -0.15,
-   "good_until": "2026-10-06",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c0a89d61",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 230.9599,
-   "usd": 4000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 231.54,
-   "pct_away": -0.25,
-   "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
    "id": "0789c0d7",
    "ticker": "LTH",
    "kind": "take_profit",
@@ -242,14 +190,14 @@
    ]
   },
   {
-   "id": "b27c0073",
-   "ticker": "HUBB",
+   "id": "14813065",
+   "ticker": "CHRW",
    "kind": "take_profit",
-   "price": 455.6468,
+   "price": 148.8757,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 454.2,
+   "last": 148.4,
    "pct_away": 0.32,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.3% over the average cost",
@@ -259,17 +207,17 @@
    ]
   },
   {
-   "id": "14813065",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 148.8757,
+   "id": "cfe81986",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 229.0107,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.3,
-   "pct_away": 0.39,
+   "last": 230.12,
+   "pct_away": -0.48,
    "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -283,10 +231,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.3,
-   "pct_away": -0.59,
+   "last": 148.4,
+   "pct_away": -0.66,
    "good_until": "2026-10-06",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "99856090",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 231.7406,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 230.12,
+   "pct_away": 0.7,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b27c0073",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 455.6468,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 452.3,
+   "pct_away": 0.74,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -300,29 +282,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 454.2,
-   "pct_away": -2.25,
+   "last": 452.3,
+   "pct_away": -1.84,
    "good_until": "2026-10-01",
    "why": "Standard protective stop",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "a86e5d9f",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 144.0062,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 148.3,
-   "pct_away": -2.9,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -333,7 +298,41 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 454.2,
+   "last": 452.3,
+   "pct_away": -2.56,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "41ae2d97",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 224.0312,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 230.12,
+   "pct_away": -2.65,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a86e5d9f",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 144.0062,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 148.4,
    "pct_away": -2.96,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -352,23 +351,6 @@
    "trail_pct": null,
    "last": 39.72,
    "pct_away": -3.12,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "206b886e",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 83.9632,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 86.79,
-   "pct_away": -3.26,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
