@@ -20774,3 +20774,6 @@ Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $455.87] -> $626.49 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-01 10:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $484.81] -> $626.69 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-01 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders

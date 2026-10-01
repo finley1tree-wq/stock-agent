@@ -1,6 +1,3 @@
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (bad quote TNON: +49.1% in a day looks like a bad tick)
 brain: Below min_positions (7/8) with 84% idle cash and approaching the 14:00 entry cutoff - deploying now into evidence-backed names (UNH leadership news, TSM capex headline, CRWD partner-network news, GOOGL AI-accord momentum via limit for cooldown) rather than waiting. Adding protective stops on new names since auto_bracket covers existing positions.
 lesson: With only ~2 hours left before the 14:00 no-new-entries cutoff and 84% cash idle at 7/8 positions, prioritize immediate deployment with concrete headline evidence over waiting for perfect entries or cooldowns to clear naturally.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $455.87] -> $626.49 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-01 10:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $484.81] -> $626.69 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-01 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders

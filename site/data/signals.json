@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-01T10:08-04:00",
+ "asOf": "2026-10-01T10:11-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -156,40 +156,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a976851c",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 484.8103,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 484.46,
-   "pct_away": 0.07,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a9fe50b0",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 484.13,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 484.46,
-   "pct_away": -0.07,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "4073d2fd",
    "ticker": "GLD",
    "kind": "take_profit",
@@ -197,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 381.37,
-   "pct_away": 0.11,
+   "last": 381.18,
+   "pct_away": 0.16,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -214,27 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 185.37,
-   "pct_away": 0.25,
+   "last": 185.48,
+   "pct_away": 0.2,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "90727724",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 184.4331,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 185.37,
-   "pct_away": -0.51,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 608.5,
-   "pct_away": 0.52,
+   "last": 609.42,
+   "pct_away": 0.37,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -265,10 +214,62 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 381.37,
-   "pct_away": -0.57,
+   "last": 381.18,
+   "pct_away": -0.52,
    "good_until": "2026-10-06",
    "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "90727724",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 184.4331,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 185.48,
+   "pct_away": -0.56,
+   "good_until": "2026-10-06",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dbd7922c",
+   "ticker": "PLTR",
+   "kind": "buy_limit",
+   "price": 189.4105,
+   "usd": 625.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 191.07,
+   "pct_away": -0.87,
+   "good_until": "2026-10-01",
+   "why": "wanted it, but not at the high \u2014 resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "news",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "3dbf20b8",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 261.871,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 264.34,
+   "pct_away": -0.93,
+   "good_until": "2026-10-06",
+   "why": "close it all at -1.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -282,8 +283,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 264.93,
-   "pct_away": 0.74,
+   "last": 264.34,
+   "pct_away": 0.97,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -299,48 +300,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 608.5,
-   "pct_away": -1.09,
+   "last": 609.42,
+   "pct_away": -1.24,
    "good_until": "2026-10-06",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "3dbf20b8",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 261.871,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 264.93,
-   "pct_away": -1.15,
-   "good_until": "2026-10-06",
-   "why": "close it all at -1.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "dbd7922c",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 189.4105,
-   "usd": 625.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 191.74,
-   "pct_away": -1.21,
-   "good_until": "2026-10-01",
-   "why": "wanted it, but not at the high \u2014 resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -351,25 +317,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 264.93,
-   "pct_away": -2.81,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "04731ec4",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 590.5942,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 608.5,
-   "pct_away": -2.94,
+   "last": 264.34,
+   "pct_away": -2.59,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -385,8 +334,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 185.37,
-   "pct_away": -2.96,
+   "last": 185.48,
+   "pct_away": -3.02,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -402,8 +351,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 381.37,
-   "pct_away": -3.08,
+   "last": 381.18,
+   "pct_away": -3.04,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -412,15 +361,15 @@
    ]
   },
   {
-   "id": "4f327e41",
-   "ticker": "NOC",
+   "id": "04731ec4",
+   "ticker": "AMD",
    "kind": "buy_limit",
-   "price": 468.995,
+   "price": 590.5942,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 484.46,
-   "pct_away": -3.19,
+   "last": 609.42,
+   "pct_away": -3.09,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 4350.2,
+  "spent": 3723.51,
   "deployed": 285850.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -25,7 +25,6 @@
     "TSM": 1.89,
     "NLR": 6.69,
     "HD": 0.36,
-    "NOC": 626.26,
     "UNH": 0.12,
     "GLD": 500.0
   },
@@ -5560,13 +5559,34 @@
       ],
       "evidence": "average cost $454.78",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 1.292649,
+      "status": "filled",
+      "price": 484.81,
+      "proceeds": 626.69,
+      "realized_pnl": 1.69,
+      "realized_pct": 0.27,
+      "date": "2026-10-01",
+      "time_et": "10:11",
+      "ts": 1790863800,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $483.5",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 4229.0,
+  "spent_today": 3602.31,
   "deployed_today": 39375.0,
   "orders_today": 19,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "ACN",
     "TTD",
@@ -5581,7 +5601,8 @@
     "LMT",
     "HUBB",
     "UNH",
-    "TSM"
+    "TSM",
+    "NOC"
   ],
   "sold_ts": {
     "PLTR": 1790784896,
@@ -5590,7 +5611,7 @@
     "AMD": 1790790364,
     "ACN": 1790861747,
     "MSFT": 1790863203,
-    "NOC": 1790788653,
+    "NOC": 1790863870,
     "UNH": 1790863518,
     "CRWD": 1790790810,
     "NVDA": 1790862664,
@@ -5615,29 +5636,26 @@
     "LTH": 1790862084,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790863725,
-  "last_check_ts": 1790863771,
-  "last_bar_ts": 1790863500,
+  "last_publish_ts": 1790863869,
+  "last_check_ts": 1790863869,
+  "last_bar_ts": 1790863800,
   "last_decision_ts": 1790863417,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "a976851c": 484.8103,
-    "a9fe50b0": 484.13,
     "4073d2fd": 381.7716,
     "fb0e680d": 185.8424,
-    "90727724": 184.4331,
     "985a0063": 611.6668,
     "d4ea6f44": 379.211,
+    "90727724": 184.4331,
+    "dbd7922c": 189.4105,
+    "3dbf20b8": 261.871,
     "7f3f5c0c": 266.8961,
     "14d09bab": 601.8459,
-    "3dbf20b8": 261.871,
-    "dbd7922c": 189.4105,
     "5b12f467": 257.4962,
-    "04731ec4": 590.5942,
     "c4bcef0c": 179.8768,
     "31bf26e9": 369.6088,
-    "4f327e41": 468.995
+    "04731ec4": 590.5942
   },
   "hold_arm": {
     "AMD": 90,
