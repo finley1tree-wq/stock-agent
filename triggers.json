@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "36278fb2",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 365.5,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "lock partial gains near recent range top",
-   "evidence": "day high 361.86, target above recent high",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-29 11:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b4e51d52",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -7103,7 +7085,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 219.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:48",
    "created_ts": 1790869714,
    "why": "bound downside on earnings-spillover trade",
@@ -7112,7 +7094,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:18",
+   "cancel_reason": "position closed"
   },
   {
    "id": "16d992f0",
@@ -7155,7 +7139,7 @@
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 225.7083,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 11:48",
    "created_ts": 1790869714,
    "why": "close 100% at +0.3% over the average cost",
@@ -7165,14 +7149,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:18"
   },
   {
    "id": "21d74d52",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 218.1821,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:48",
    "created_ts": 1790869714,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7182,7 +7167,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 12:18",
+   "cancel_reason": "position closed"
   },
   {
    "id": "82757e96",
@@ -7348,7 +7335,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 85.8317,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:04",
    "created_ts": 1790870693,
    "why": "close it all at -0.4% under the average cost",
@@ -7358,7 +7345,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:18",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "f7e0c635",
@@ -7427,7 +7416,24 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "6ac615a4",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.208,
+   "status": "working",
+   "created": "2026-10-01 12:18",
+   "created_ts": 1790871494,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $86.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 12:07"
+ "updated": "2026-10-01 12:18"
 }

@@ -1,6 +1,3 @@
-  (cancelled 2 standing order(s) on NVDA: position closed)
-- SELL 100% NVDA [take_profit @ $231.17] -> $2005.09 (+0.25%) — close 100% at +0.3% over the average cost
-## 2026-10-01 09:51 ET — tick — 2 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $351.54] -> $2006.18 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $21053.90 this week
 ## 2026-10-01 12:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% GOOGL [time stop] -> $497.63 (-0.47%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-01 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $225.71] -> $551.89 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-10-01 12:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
