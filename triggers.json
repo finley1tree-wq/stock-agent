@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "26c2e1a6",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 12.3978,
-   "status": "filled",
-   "created": "2026-09-29 09:39",
-   "created_ts": 1790689166,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $12.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 09:53"
-  },
-  {
    "id": "16dfcb84",
    "ticker": "TTD",
    "kind": "buy_limit",
@@ -7316,7 +7298,7 @@
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 127.2761,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:02",
    "created_ts": 1790866940,
    "why": "close it all at -0.5% under the average cost",
@@ -7326,7 +7308,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:12",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ce8d54f1",
@@ -7413,7 +7397,24 @@
    "good_until": "2026-10-06",
    "pct_of_position": 100.0,
    "closed": "2026-10-01 11:10"
+  },
+  {
+   "id": "97352c5e",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 127.98,
+   "status": "working",
+   "created": "2026-10-01 11:12",
+   "created_ts": 1790867550,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $127.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 11:10"
+ "updated": "2026-10-01 11:12"
 }
