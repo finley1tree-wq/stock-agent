@@ -20826,3 +20826,39 @@ Decision: nothing at this check. 16 standing order(s) working.
   (cancelled 2 standing order(s) on GLD: position closed)
 - SELL 100% GLD [take_profit @ $381.77] -> $500.97 (+0.19%) — close 100% at +0.2% over the average cost
 ## 2026-10-01 10:28 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 10:29 ET (Thursday) — week 2026-W40 — budget left $24382.20 (today $40500.00 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+brain: Only 1 position held (IBM, min position) with 97.5% cash idle and 11 checks left today - need to get to min_positions of 8 fast per owner instruction and counterfactual data showing idle_universe cost. Diversifying across ACN (earnings catalyst), HD (contrarian dip w/ congress disclosure), KO (defensive income), FWONK (non-AI value, congress buying), SKWD and HLI (financial/insurance diversifiers with congress signal) avoids the correlated-cluster mistake flagged in past lessons while using concrete headline/congress evidence for each.
+lesson: Spread entries across genuinely uncorrelated sectors (industrials, insurance, consumer, financials) each with its own named evidence, rather than loading up on one hot cluster, to avoid the correlated-bet mistake flagged in past lessons.
+- BUY $750.00 ACN [filled] ['news', 'congress'] — Strong earnings beat driving sector-wide software rally, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: ACN +22% today on record bookings, 'Accenture Soars 23% as Record Bookings Dispel AI Demand Fears' - Rep. Scott Franklin and Rep. Gilbert Ray Cisneros disclosed buys
+- BUY $625.00 HD [filled] ['congress', 'news'] — Contrarian entry on a widely-held name after a sharp intraday pullback, not currently held or cooling off [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Kevin Hern (Joint) disclosed multiple HD buys/sells; HD pulled back -2.43% today, -13% 1m, oversold on weak consumer confidence headline
+- BUY $625.00 KO [filled] ['congress', 'news'] — Defensive diversification away from crowded tech/defense cluster, small positive signal [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 1.0 on KO; headline '5 Solid Dividend Stocks to Buy Now' names KO as defensive income play amid rate pressure
+- BUY $500.00 FWONK [filled] ['congress', 'news'] — Non-correlated name, diversifies away from AI/tech cluster per past lesson on correlated clusters [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' - Insider Monkey
+- BUY $375.00 SKWD [filled] ['congress', 'news'] — Small insurance name with congress interest, diversifies sector mix [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 2.0; 'The Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' insurance sector strength
+- BUY $375.00 HLI [filled] ['congress', 'news'] — Financial services diversifier with disclosed congress buying interest [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 2.0; headline on HLI expanding into GP-led secondaries, M&A recovery tailwind
+~ WORKING stop_loss 100% ACN @ $215.00 until 2026-10-01 — Protective stop below today's low
+~ WORKING stop_loss 100% HD @ $272.00 until 2026-10-01 — Protective stop on contrarian buy
+~ WORKING stop_loss 100% FWONK @ $89.50 until 2026-10-01 — Protective stop
+~ WORKING take_profit 100% ACN @ $224.90 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $217.09 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $278.37 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HD @ $269.31 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $86.39 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% KO @ $85.93 until 2026-10-06 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 KO @ $83.67 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FWONK @ $92.22 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 FWONK @ $89.22 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $53.36 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% SKWD @ $52.86 until 2026-10-06 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 SKWD @ $51.62 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $126.60 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% HLI @ $125.00 until 2026-10-06 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $122.36 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25212.13 (+0.85% on $25000.00 in) · cash $21463.78 · realised +213.78
+Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
