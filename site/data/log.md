@@ -1,40 +1,3 @@
-- SELL 100% TSM [time stop] -> $623.35 (-0.26%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-30 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-30 10:41 ET (Wednesday) — week 2026-W40 — budget left $17927.82 (today $29000.00 put to work, 13 buys, 8 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
-  (bad quote TNON: +43.8% in a day looks like a bad tick)
-brain: Below target position count (3 of 8) with 71.7% cash idle - per owner's explicit full_deployment instruction and counterfactual data showing idle checks cost vs universe, deploying into 4 evidence-backed names (MSFT momentum+AI news, HUBB/LTH top-tier congress buy pressure from Rep. McClain Delaney, NLR nuclear/AI theme) each with protective stops. This brings the book to 7 positions, close to min_positions of 8, using named evidence for each entry rather than momentum alone.
-lesson: Congress buy-pressure tier (3.0, top of list) from a named rep plus a headline is stronger evidence than momentum alone for hitting the no-momentum-only-entries rule; keep filling toward min_positions in $2-3k tranches with stops attached.
-  (dropped LTH: 88% up today's range — resting a limit at $40.11 instead of chasing)
-- BUY $750.00 MSFT [filled] ['momentum', 'news'] — Widely-held AI infra name with strong momentum; adding to reach min_positions, buying near market since range position is moderate (75.5%, under 85% max_entry_range_pct) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: MSFT +1.68% today, 75.5% of day range, headline 'Nvidia CEO Jensen Huang: AI data center build-out could create 1 million jobs' 2026-09-30
-- BUY $625.00 HUBB [filled] ['congress', 'news'] — Congress buy pressure top-ranked (tied highest at 3.0) plus industrial electrification theme; only 18.3% of day range so room to run [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. April McClain Delaney disclosed buys in HUBB 2026-09-09; congress_net_buy_pressure HUBB=3.0 (highest tier)
-- BUY $500.00 NLR [filled] ['news', 'momentum'] — Nuclear/AI data center theme still intact per recent headlines, diversifies book beyond CCJ single-name nuclear exposure [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NLR +0.95% today, 70.6% of day range, headline 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks
-  (dropped trigger LTH stop_loss: not held)
-~ WORKING stop_loss 100% MSFT @ $507.00 until 2026-09-30 — protective stop ~2% below entry
-~ WORKING stop_loss 100% HUBB @ $449.00 until 2026-09-30 — protective stop ~2% below entry
-~ WORKING stop_loss 100% NLR @ $102.90 until 2026-09-30 — protective stop ~2.1% below entry
-~ WORKING buy_limit $625.00 LTH @ $40.11 until 2026-09-30 — wanted it, but not at the high — resting at $40.11. Congress pressure top tier plus positive 5d momentum (+1.56%); counterfactual biggest_misses shows LTH had +7.69% fwd move previously missed [probation at 25% size (no hour or signal lens 
-~ WORKING take_profit 100% MSFT @ $518.93 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 MSFT @ $502.08 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HUBB @ $460.01 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HUBB @ $444.90 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NLR @ $105.60 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NLR @ $102.08 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25211.07 (+0.84% on $25000.00 in) · cash $16384.43 · realised +259.43
-Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $16052.82 this week
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [take_profit @ $88.94] -> $1505.81 (+0.39%) — close 100% at +0.4% over the average cost
-## 2026-09-30 10:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $518.93] -> $751.91 (+0.25%) — close 100% at +0.3% over the average cost
-## 2026-09-30 10:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [stop_loss @ $348.72] -> $1500.81 (+0.05%) — close it all at -0.7% under the average cost
 ## 2026-09-30 10:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +361,40 @@ portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-30 16:00 ET — published the session's closing state
+
+## 2026-10-01 09:32 ET (Thursday) — week 2026-W40 — budget left $24878.80 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+brain: Flat book, 99.5% cash idle, below min_positions of 8 - this is the priority to fix per guardrails. Picked 7 names with concrete evidence: ACN earnings beat + congress buys, IBM product news breakout, CCJ nuclear tailwind headlines, HUBB/CHRW/LTH all carrying top-tier (3.0) congress net buy pressure from Rep. April McClain Delaney, and TTD with repeat Cisneros disclosures. Avoided buying at extreme highs of range where possible and added stops on the highest-range-percentile names (IBM, ACN, HUBB).
+lesson: Congress net_buy_pressure of 3.0 (top tier) names (HUBB, CHRW, LTH) all share the same discloser - treat as one correlated bet size-wise, not three independent confirmations.
+  (dropped IBM: 100% up today's range — resting a limit at $230.96 instead of chasing)
+  (dropped CCJ: 90% up today's range — resting a limit at $86.74 instead of chasing)
+- BUY $4500.00 ACN [filled] ['news', 'congress', 'momentum'] — Earnings beat with real gap and congress buy pressure; still mid-range (73.7% of day range) not extreme | evidence: ACN +20.82% today on 'Accenture Surges On Fiscal Q4 Beat, Outlook Amid AI Disruption Worries' (IBD); Rep. Scott Franklin and Rep. Gilbert Ray Cisneros disclosed buys; congress_net_buy_pressure=2.0
+- BUY $3500.00 HUBB [filled] ['congress', 'news'] — Highest congress buy-pressure score on the list with supporting bullish headline | evidence: congress_net_buy_pressure=3.0 (top tier) via Rep. April McClain Delaney disclosed buys; '3 Reasons We're Fans of Hubbell' StockStory headline
+- BUY $3500.00 CHRW [filled] ['congress', 'news'] — Top congress buy-pressure tier name, diversifying into logistics sector | evidence: congress_net_buy_pressure=3.0 via Rep. April McClain Delaney disclosed buys; momentum +1.5% 5d
+- BUY $3000.00 LTH [filled] ['congress', 'news'] — Same top-tier congress signal that was a biggest miss last time; leisure sector diversifier | evidence: congress_net_buy_pressure=3.0 via Rep. April McClain Delaney; counterfactual biggest_misses shows LTH fwd_pct +7.69% was missed previously with congress=3.0 signal present
+- BUY $2000.00 TTD [filled] ['congress', 'news'] — Congress buying disclosed twice recently, small ad-tech diversifier | evidence: Rep. Gilbert Ray Cisneros disclosed buys (2 filings, $1,001-$15,000 each); TTD +1.73% today, day_range 75.1%
+  (dropped trigger IBM stop_loss: not held)
+~ WORKING stop_loss 100% ACN @ $213.50 until 2026-10-01 — Protect against reversal of today's earnings gap
+~ WORKING stop_loss 100% HUBB @ $444.00 until 2026-10-01 — Standard protective stop
+~ WORKING buy_limit $4000.00 IBM @ $230.96 until 2026-10-01 — wanted it, but not at the high — resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative
+~ WORKING buy_limit $3500.00 CCJ @ $86.74 until 2026-10-01 — wanted it, but not at the high — resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage
+~ WORKING take_profit 100% ACN @ $222.66 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $214.94 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $455.65 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $440.74 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $148.88 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CHRW @ $147.42 until 2026-10-06 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CHRW @ $144.01 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LTH @ $39.83 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% LTH @ $39.27 until 2026-10-06 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 LTH @ $38.48 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.45 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% TTD @ $12.24 until 2026-10-06 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 TTD @ $12.02 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25204.70 (+0.82% on $25000.00 in) · cash $8710.40 · realised +210.40
+Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week

@@ -177,3 +177,4 @@
 - 2026-09-30 (8d graded, realised 0.01% per dollar): Near the 14:00 cutoff with resting buy_limit triggers already covering diversification, avoid adding fresh market orders that risk guardrail rejection - let standing orders work and focus on protecting open positions.
 - 2026-09-30 (8d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and the book is flat, there is nothing productive to do except wait - don't waste a check proposing orders that will be dropped.
 - 2026-09-30 (8d graded, realised 0.01% per dollar): At 15:52 with no_new_entries_this_check true and zero positions, there is no productive action - don't waste effort proposing orders that guardrails will drop in the final minutes before close.
+- 2026-10-01 (9d graded, realised 0.01% per dollar): Congress net_buy_pressure of 3.0 (top tier) names (HUBB, CHRW, LTH) all share the same discloser - treat as one correlated bet size-wise, not three independent confirmations.

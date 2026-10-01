@@ -1,10 +1,10 @@
 {
   "week": "2026-W40",
-  "spent": 121.2,
-  "deployed": 246475.18,
+  "spent": 16621.2,
+  "deployed": 262975.18,
   "by_ticker": {
     "AVGO": 43.49,
-    "TTD": 11.63,
+    "TTD": 2011.63,
     "AAPL": 4.26,
     "IBM": 3.5,
     "PLTR": 18.81,
@@ -19,14 +19,14 @@
     "CRWD": 20.0,
     "HLI": 30.73,
     "FWONK": 10.26,
-    "HUBB": 28.33,
-    "LTH": 0.56,
-    "CHRW": 46.22,
+    "HUBB": 3528.33,
+    "LTH": 3000.56,
+    "CHRW": 3546.22,
     "MSFT": 16.0,
     "TPL": 3.17,
     "TSM": 3.38,
     "NLR": 6.69,
-    "ACN": 0.13,
+    "ACN": 4500.13,
     "HD": 0.36,
     "NOC": 1.26
   },
@@ -35,8 +35,8 @@
     "PLTR": 11500.0,
     "TSM": 12975.0,
     "AVGO": 15000.0,
-    "TTD": 12500.0,
-    "ACN": 13000.0,
+    "TTD": 14500.0,
+    "ACN": 17500.0,
     "AMD": 5000.0,
     "MSFT": 10358.82,
     "NOC": 16072.06,
@@ -56,10 +56,10 @@
     "HLI": 5825.0,
     "FWONK": 1625.0,
     "NLR": 2500.0,
-    "HUBB": 8125.0,
-    "CHRW": 8700.0,
+    "HUBB": 11625.0,
+    "CHRW": 12200.0,
     "TPL": 4100.0,
-    "LTH": 5125.0,
+    "LTH": 8125.0,
     "SKWD": 500.0
   },
   "orders": [
@@ -4926,12 +4926,103 @@
       ],
       "evidence": "bought 90 min ago, +0.15% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "ACN",
+      "notional": 4500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.307381,
+      "price": 221.59,
+      "date": "2026-10-01",
+      "time_et": "09:32",
+      "ts": 1790861560,
+      "why": "Earnings beat with real gap and congress buy pressure; still mid-range (73.7% of day range) not extreme",
+      "signals": [
+        "news",
+        "congress",
+        "momentum"
+      ],
+      "evidence": "ACN +20.82% today on 'Accenture Surges On Fiscal Q4 Beat, Outlook Amid AI Disruption Worries' (IBD); Rep. Scott Franklin and Rep. Gilbert Ray Cisneros disclosed buys; congress_net_buy_pressure=2.0",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 3500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.702945,
+      "price": 454.37,
+      "date": "2026-10-01",
+      "time_et": "09:32",
+      "ts": 1790861560,
+      "why": "Highest congress buy-pressure score on the list with supporting bullish headline",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "congress_net_buy_pressure=3.0 (top tier) via Rep. April McClain Delaney disclosed buys; '3 Reasons We're Fans of Hubbell' StockStory headline",
+      "hold_minutes": 30
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.575475,
+      "price": 148.46,
+      "date": "2026-10-01",
+      "time_et": "09:32",
+      "ts": 1790861560,
+      "why": "Top congress buy-pressure tier name, diversifying into logistics sector",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "congress_net_buy_pressure=3.0 via Rep. April McClain Delaney disclosed buys; momentum +1.5% 5d",
+      "hold_minutes": 30
+    },
+    {
+      "symbol": "LTH",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 75.63179,
+      "price": 39.67,
+      "date": "2026-10-01",
+      "time_et": "09:32",
+      "ts": 1790861560,
+      "why": "Same top-tier congress signal that was a biggest miss last time; leisure sector diversifier",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "congress_net_buy_pressure=3.0 via Rep. April McClain Delaney; counterfactual biggest_misses shows LTH fwd_pct +7.69% was missed previously with congress=3.0 signal present",
+      "hold_minutes": 30
+    },
+    {
+      "symbol": "TTD",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 161.485642,
+      "price": 12.39,
+      "date": "2026-10-01",
+      "time_et": "09:32",
+      "ts": 1790861560,
+      "why": "Congress buying disclosed twice recently, small ad-tech diversifier",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Rep. Gilbert Ray Cisneros disclosed buys (2 filings, $1,001-$15,000 each); TTD +1.73% today, day_range 75.1%",
+      "hold_minutes": 30
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 16500.0,
+  "deployed_today": 16500.0,
+  "orders_today": 5,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -4966,18 +5057,36 @@
     "LTH": 1790784357,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790861430,
-  "last_check_ts": 1790861430,
-  "last_bar_ts": 1790797800,
-  "last_decision_ts": 1790797954,
-  "next_check_minutes": 30,
+  "last_publish_ts": 1790861560,
+  "last_check_ts": 1790861560,
+  "last_bar_ts": 1790861400,
+  "last_decision_ts": 1790861560,
+  "next_check_minutes": 15,
   "autopiloted": false,
-  "book_px": {},
+  "book_px": {
+    "b27c0073": 455.6468,
+    "14813065": 148.8757,
+    "55d4a34c": 86.7382,
+    "0789c0d7": 39.8315,
+    "a13469fb": 222.6625,
+    "76b2b0e2": 12.449,
+    "c0a89d61": 230.9599,
+    "4f0845b3": 147.4223,
+    "d8b6b9b0": 39.2666,
+    "f0f62f51": 12.2426,
+    "09b45e1c": 444.0,
+    "d6319bee": 12.0183,
+    "022c5a2b": 38.4799,
+    "6765bc60": 440.7389,
+    "a86e5d9f": 144.0062,
+    "972778f3": 214.9423,
+    "a9f4eb10": 213.5
+  },
   "hold_arm": {
-    "MSFT": 90,
-    "AMD": 90,
-    "AVGO": 90,
-    "CRWD": 90,
-    "TSM": 30
+    "ACN": 90,
+    "HUBB": 30,
+    "CHRW": 30,
+    "LTH": 30,
+    "TTD": 30
   }
 }
