@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T10:43-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-01T10:44-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,17 +156,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "1393b0f6",
-   "ticker": "SKWD",
-   "kind": "stop_loss",
-   "price": 53.286,
+   "id": "90fe1452",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 126.5954,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.29,
-   "pct_away": -0.01,
+   "last": 126.57,
+   "pct_away": 0.02,
    "good_until": "2026-10-06",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -180,8 +180,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 483.91,
-   "pct_away": 0.02,
+   "last": 484.14,
+   "pct_away": -0.03,
    "good_until": "2026-10-01",
    "why": "resting limit slightly below current price for better entry once cooldown clears",
    "signals": [
@@ -196,44 +196,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 126.37,
-   "pct_away": -0.07,
+   "last": 126.57,
+   "pct_away": -0.23,
    "good_until": "2026-10-06",
    "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f3ef6e9e",
-   "ticker": "SKWD",
-   "kind": "take_profit",
-   "price": 53.3621,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.29,
-   "pct_away": 0.14,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "90fe1452",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 126.5954,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 126.37,
-   "pct_away": 0.18,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -247,13 +213,29 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 228.73,
-   "pct_away": -0.34,
+   "last": 228.52,
+   "pct_away": -0.25,
    "good_until": "2026-10-06",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "a754d678",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 453.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 456.03,
+   "pct_away": -0.66,
+   "good_until": "2026-10-01",
+   "why": "resting limit near day low to get a better entry than chasing at market",
+   "signals": [
+    "news"
    ]
   },
   {
@@ -274,22 +256,6 @@
    ]
   },
   {
-   "id": "a754d678",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 453.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 456.24,
-   "pct_away": -0.71,
-   "good_until": "2026-10-01",
-   "why": "resting limit near day low to get a better entry than chasing at market",
-   "signals": [
-    "news"
-   ]
-  },
-  {
    "id": "879c4743",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -297,8 +263,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 228.73,
-   "pct_away": 0.85,
+   "last": 228.52,
+   "pct_away": 0.94,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -330,8 +296,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 228.73,
-   "pct_away": -2.5,
+   "last": 228.52,
+   "pct_away": -2.41,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -357,23 +323,6 @@
    ]
   },
   {
-   "id": "646109b5",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 51.6234,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 53.29,
-   "pct_away": -3.13,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "3b420483",
    "ticker": "HLI",
    "kind": "buy_limit",
@@ -381,8 +330,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 126.37,
-   "pct_away": -3.18,
+   "last": 126.57,
+   "pct_away": -3.33,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

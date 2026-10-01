@@ -1,8 +1,3 @@
-- BUY $500.00 AVGO [filled] ['congress', 'news'] — Congress buy pressure tier 2.0 plus fresh headline catalyst, not yet in book, semis diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep disclosed buy (Rick W. Allen, AVGO, disclosed 2026-09-22) + 'Broadcom Stocks Edge Higher as Netlist Seeks AI-Memory Import Ban' (GuruFocus 15:21)
-- BUY $375.00 NOC [filled] ['news'] — Sharp single-stock selloff on one bad headline looks overdone vs sector peers; defense sector diversification away from crowded widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC -3.65% today on 'Navy Jet Loss Stings Northrop Grumman' (WSJ 15:56) - overreaction dip in defense name with strong fundamentals
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-~ WORKING stop_loss 100% AVGO @ $346.00 until 2026-09-30 — protective stop on new AVGO position
 ~ WORKING stop_loss 100% NOC @ $476.00 until 2026-09-30 — protective stop on new NOC position sized for the headline-driven selloff risk
 ~ WORKING buy_limit $625.00 GOOGL @ $348.77 until 2026-09-30 — wanted it, but not at the high — resting at $348.77. Cooldown on GOOGL cleared soon; strong same-day news catalyst plus momentum, adds widely_held diversification toward min_positions [probation at 25% size (no hour or signal lens has prove
 ~ WORKING take_profit 100% AVGO @ $354.51 until 2026-10-05 — close 100% at +0.3% over the average cost
@@ -398,3 +393,8 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
 ## 2026-10-01 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (dropped NOC: sold 31 min ago, cooling off)
   (dropped NOC: sold 32 min ago, cooling off)
+  (dropped NOC: sold 33 min ago, cooling off)
+  (cancelled 2 standing order(s) on SKWD: position closed)
+- SELL 100% SKWD [take_profit @ $53.41] -> $376.32 (+0.35%) — close 100% at +0.3% over the average cost
+  (dropped NOC: sold 33 min ago, cooling off)
+## 2026-10-01 10:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

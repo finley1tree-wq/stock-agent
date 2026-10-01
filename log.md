@@ -20886,3 +20886,8 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
 ## 2026-10-01 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (dropped NOC: sold 31 min ago, cooling off)
   (dropped NOC: sold 32 min ago, cooling off)
+  (dropped NOC: sold 33 min ago, cooling off)
+  (cancelled 2 standing order(s) on SKWD: position closed)
+- SELL 100% SKWD [take_profit @ $53.41] -> $376.32 (+0.35%) — close 100% at +0.3% over the average cost
+  (dropped NOC: sold 33 min ago, cooling off)
+## 2026-10-01 10:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

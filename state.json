@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 1862.46,
+  "spent": 1486.14,
   "deployed": 290225.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -25,8 +25,7 @@
     "TSM": 1.89,
     "NLR": 6.69,
     "UNH": 0.12,
-    "IBM": 500.0,
-    "SKWD": 375.0
+    "IBM": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4000.0,
@@ -5897,13 +5896,34 @@
       ],
       "evidence": "average cost $86.26",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "SKWD",
+      "side": "sell",
+      "qty": 7.045804,
+      "status": "filled",
+      "price": 53.41,
+      "proceeds": 376.32,
+      "realized_pnl": 1.32,
+      "realized_pct": 0.35,
+      "date": "2026-10-01",
+      "time_et": "10:44",
+      "ts": 1790865600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $53.22",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 1741.26,
+  "spent_today": 1364.94,
   "deployed_today": 43750.0,
   "orders_today": 27,
-  "sells_today": 23,
+  "sells_today": 24,
   "sold_today": [
     "ACN",
     "TTD",
@@ -5926,7 +5946,8 @@
     "CRWD",
     "GLD",
     "HD",
-    "KO"
+    "KO",
+    "SKWD"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -5958,30 +5979,27 @@
     "CHRW": 1790862664,
     "TPL": 1790704804,
     "LTH": 1790862084,
-    "SKWD": 1790783788,
+    "SKWD": 1790865871,
     "GLD": 1790864909,
     "KO": 1790865710
   },
-  "last_publish_ts": 1790865791,
-  "last_check_ts": 1790865791,
+  "last_publish_ts": 1790865870,
+  "last_check_ts": 1790865870,
   "last_bar_ts": 1790865600,
   "last_decision_ts": 1790864996,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "1393b0f6": 53.286,
+    "90fe1452": 126.5954,
     "d99c9e52": 484.0,
     "3b5cc5ce": 126.278,
-    "f3ef6e9e": 53.3621,
-    "90fe1452": 126.5954,
     "33211bd0": 227.9504,
-    "9c1c0450": 92.221,
     "a754d678": 453.0,
+    "9c1c0450": 92.221,
     "879c4743": 230.6794,
     "eb835408": 89.5,
     "cf785efc": 223.003,
     "9a568eba": 89.2206,
-    "646109b5": 51.6234,
     "3b420483": 122.3558
   },
   "hold_arm": {
