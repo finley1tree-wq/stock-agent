@@ -1,5 +1,3 @@
-## 2026-09-30 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% HUBB [time stop] -> $625.40 (+0.06%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% NLR [time stop] -> $493.31 (-1.34%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-09-30 12:11 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 - SELL 100% PLTR [time stop] -> $499.35 (-0.13%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +396,5 @@ portfolio: equity $25220.40 (+0.88% on $25000.00 in) · cash $21608.09 · realis
 Decision: nothing at this check. 16 standing order(s) working.
 - BUY $625.00 PLTR [buy_limit @ $189.41] — wanted it, but not at the high — resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-01 10:15 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (dropped IBM: sold 37 min ago, cooling off)
+  (dropped IBM: sold 38 min ago, cooling off)
