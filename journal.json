@@ -49423,7 +49423,9 @@
     "code_version": "eb1cdb6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.76
+    "ret_now": -0.9,
+    "ret_final": -0.9,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -49588,7 +49590,9 @@
     "code_version": "627fdef",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -1.21,
+    "ret_final": -1.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "SKWD",
@@ -49644,7 +49648,9 @@
     "code_version": "627fdef",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -49774,7 +49780,8 @@
     "hour_et": 10,
     "code_version": "2c26bdd",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.4
   },
   {
     "symbol": "O",
@@ -49800,7 +49807,8 @@
     "hour_et": 10,
     "code_version": "2c26bdd",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.07
   },
   {
     "symbol": "MSFT",
@@ -49826,7 +49834,8 @@
     "hour_et": 10,
     "code_version": "2c26bdd",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.29
   },
   {
     "symbol": "GOOGL",
@@ -49851,7 +49860,8 @@
     "hour_et": 10,
     "code_version": "2c26bdd",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.32
   },
   {
     "symbol": "LEN",
@@ -49877,7 +49887,8 @@
     "hour_et": 10,
     "code_version": "2c26bdd",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.44
   },
   {
     "symbol": "IBM",
@@ -49901,7 +49912,8 @@
     "evidence": "average cost $229.9",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "858ccef"
+    "code_version": "858ccef",
+    "hold_minutes": 20
   },
   {
     "symbol": "HLI",
@@ -49926,7 +49938,8 @@
     "evidence": "average cost $126.14",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "a579436"
+    "code_version": "a579436",
+    "hold_minutes": 20
   },
   {
     "symbol": "NOC",
@@ -49953,7 +49966,8 @@
     "hour_et": 10,
     "code_version": "48c1606",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.02
   },
   {
     "symbol": "FWONK",
@@ -49977,6 +49991,107 @@
     "evidence": "bought 30 min ago, -1.17% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "96efd26"
+    "code_version": "96efd26",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "META",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.689965,
+    "price": 724.67,
+    "date": "2026-10-01",
+    "time_et": "11:02",
+    "ts": 1790866940,
+    "why": "Fresh distinct catalyst, not yet held, diversifies away from existing MSFT/GOOGL tech exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Meta Platforms signed a White House AI Safety Accord (Simply Wall St, 2026-10-01 14:07), providing regulatory clarity catalyst",
+    "hold_minutes": 30,
+    "entry_price": 724.53,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 25.23,
+    "hour_et": 11,
+    "code_version": "e2f76ed",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMZN",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.028074,
+    "price": 246.54,
+    "date": "2026-10-01",
+    "time_et": "11:02",
+    "ts": 1790866940,
+    "why": "Distinct mega-cap name not already held, adds diversification within widely_held bucket which has 0.56 hit rate historically [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Infrastructure investment story 'sets up record downstream FCF' (Insider Monkey 2026-10-01) plus Amazon nuke deal headline fueling Constellation",
+    "hold_minutes": 30,
+    "entry_price": 246.49,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -3.31,
+    "hour_et": 11,
+    "code_version": "e2f76ed",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "PLD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.909575,
+    "price": 127.89,
+    "date": "2026-10-01",
+    "time_et": "11:02",
+    "ts": 1790866940,
+    "why": "Adds a second real-estate name distinct from O, sector avg_ret +gold at 0.03 is best sector bucket historically, real estate reasonable diversifier [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Real estate headline on Prologis Q3 2026 earnings preview (Barchart 2026-09-29); diversifies real_estate sector beyond O which is already held",
+    "hold_minutes": 90,
+    "entry_price": 127.84,
+    "sector": "real_estate",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.48,
+    "hour_et": 11,
+    "code_version": "e2f76ed",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "UNH",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.373012,
+    "price": 364.16,
+    "date": "2026-10-01",
+    "time_et": "11:02",
+    "ts": 1790866940,
+    "why": "UNH currently low in day range (15.3 pct_of_day_range) offering better entry, distinct healthcare sector exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "UNH dipped more than broader market per Zacks 2026-09-30, oversold defensive healthcare name trading near day low (15.3% of range)",
+    "hold_minutes": 90,
+    "entry_price": 364.09,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.13,
+    "hour_et": 11,
+    "code_version": "e2f76ed",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

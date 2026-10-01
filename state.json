@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 2996.46,
-  "deployed": 293100.18,
+  "spent": 4996.46,
+  "deployed": 295100.18,
   "by_ticker": {
     "AVGO": 37.31,
     "TTD": 35.61,
@@ -12,7 +12,7 @@
     "LMT": 27.57,
     "GOOGL": 500.54,
     "NEM": 502.89,
-    "AMZN": 4.04,
+    "AMZN": 504.04,
     "NVDA": 20.57,
     "CCJ": 19.27,
     "CRWD": 18.88,
@@ -24,11 +24,13 @@
     "TPL": 3.17,
     "TSM": 1.89,
     "NLR": 6.69,
-    "UNH": 0.12,
+    "UNH": 500.12,
     "IBM": 4.49,
     "O": 500.0,
     "LEN": 375.0,
-    "NOC": 500.0
+    "NOC": 500.0,
+    "META": 500.0,
+    "PLD": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -40,15 +42,15 @@
     "AMD": 7000.0,
     "MSFT": 12858.82,
     "NOC": 17197.06,
-    "UNH": 10647.06,
+    "UNH": 11147.06,
     "CRWD": 11175.0,
     "NVDA": 15000.0,
     "GOOGL": 14747.06,
     "AAPL": 7000.0,
-    "AMZN": 4500.0,
+    "AMZN": 5000.0,
     "HD": 5072.24,
     "IBM": 10852.94,
-    "META": 4000.0,
+    "META": 4500.0,
     "RTX": 11800.0,
     "CCJ": 18650.0,
     "LMT": 8750.0,
@@ -63,7 +65,8 @@
     "SKWD": 875.0,
     "GLD": 500.0,
     "KO": 625.0,
-    "O": 500.0
+    "O": 500.0,
+    "PLD": 500.0
   },
   "orders": [
     {
@@ -6091,12 +6094,80 @@
       ],
       "evidence": "bought 30 min ago, -1.17% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.689965,
+      "price": 724.67,
+      "date": "2026-10-01",
+      "time_et": "11:02",
+      "ts": 1790866940,
+      "why": "Fresh distinct catalyst, not yet held, diversifies away from existing MSFT/GOOGL tech exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news"
+      ],
+      "evidence": "Meta Platforms signed a White House AI Safety Accord (Simply Wall St, 2026-10-01 14:07), providing regulatory clarity catalyst",
+      "hold_minutes": 30
+    },
+    {
+      "symbol": "AMZN",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.028074,
+      "price": 246.54,
+      "date": "2026-10-01",
+      "time_et": "11:02",
+      "ts": 1790866940,
+      "why": "Distinct mega-cap name not already held, adds diversification within widely_held bucket which has 0.56 hit rate historically [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news"
+      ],
+      "evidence": "Infrastructure investment story 'sets up record downstream FCF' (Insider Monkey 2026-10-01) plus Amazon nuke deal headline fueling Constellation",
+      "hold_minutes": 30
+    },
+    {
+      "symbol": "PLD",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.909575,
+      "price": 127.89,
+      "date": "2026-10-01",
+      "time_et": "11:02",
+      "ts": 1790866940,
+      "why": "Adds a second real-estate name distinct from O, sector avg_ret +gold at 0.03 is best sector bucket historically, real estate reasonable diversifier [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news"
+      ],
+      "evidence": "Real estate headline on Prologis Q3 2026 earnings preview (Barchart 2026-09-29); diversifies real_estate sector beyond O which is already held",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "UNH",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.373012,
+      "price": 364.16,
+      "date": "2026-10-01",
+      "time_et": "11:02",
+      "ts": 1790866940,
+      "why": "UNH currently low in day range (15.3 pct_of_day_range) offering better entry, distinct healthcare sector exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news"
+      ],
+      "evidence": "UNH dipped more than broader market per Zacks 2026-09-30, oversold defensive healthcare name trading near day low (15.3% of range)",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 2875.26,
-  "deployed_today": 46625.0,
-  "orders_today": 33,
+  "spent_today": 4875.26,
+  "deployed_today": 48625.0,
+  "orders_today": 37,
   "sells_today": 27,
   "sold_today": [
     "ACN",
@@ -6159,40 +6230,57 @@
     "GLD": 1790864909,
     "KO": 1790865710
   },
-  "last_publish_ts": 1790866809,
-  "last_check_ts": 1790866855,
+  "last_publish_ts": 1790866940,
+  "last_check_ts": 1790866940,
   "last_bar_ts": 1790866800,
-  "last_decision_ts": 1790865958,
+  "last_decision_ts": 1790866940,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "eecaf6f2": 482.85,
-    "7c854131": 483.6267,
     "3cac3040": 53.7314,
-    "a12f1bb3": 80.0856,
+    "b3305547": 128.1355,
+    "93cde703": 364.9684,
+    "7c854131": 483.6267,
+    "0c56cf66": 247.1391,
+    "3d9fe756": 127.2761,
+    "a1b00573": 727.9165,
     "a754d678": 453.0,
-    "aa070216": 342.514,
+    "77ed9e44": 362.1426,
     "fb520ac2": 517.2064,
+    "32ee3905": 245.041,
+    "aa070216": 342.514,
+    "f68e5846": 84.5,
+    "086fc2c0": 227.0,
     "d5ee91aa": 115.5371,
+    "a12f1bb3": 80.0856,
+    "97f8b487": 716.5609,
     "d59ea3ec": 112.76,
-    "ba2aa045": 505.45,
     "917e34bc": 334.6,
+    "ba2aa045": 505.45,
     "0c594401": 52.54,
-    "66307a80": 111.6567,
     "79ddeeaa": 77.56,
-    "53ab92db": 500.3842,
-    "9e14b4e0": 331.2647,
     "940baa82": 77.3866,
-    "da3bd200": 52.0211,
-    "575618d5": 467.8407
+    "66307a80": 111.6567,
+    "9e14b4e0": 331.2647,
+    "53ab92db": 500.3842,
+    "ce8d54f1": 124.0533,
+    "73da9931": 702.9299,
+    "57143a62": 239.1438,
+    "c1999cad": 353.2352,
+    "575618d5": 467.8407,
+    "da3bd200": 52.0211
   },
   "hold_arm": {
-    "FWONK": 30,
     "NEM": 30,
     "O": 30,
     "MSFT": 30,
     "GOOGL": 90,
     "LEN": 90,
-    "NOC": 30
+    "NOC": 30,
+    "META": 30,
+    "AMZN": 30,
+    "PLD": 90,
+    "UNH": 90
   }
 }

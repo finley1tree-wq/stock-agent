@@ -20949,3 +20949,33 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
 ## 2026-10-01 10:56 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% FWONK [time stop] -> $493.95 (-1.21%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-10-01 11:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 11:02 ET (Thursday) — week 2026-W40 — budget left $22003.54 (today $46625.00 put to work, 33 buys, 27 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+brain: Still below min_positions (6 of 8) with 88% cash idle - counterfactual data shows idle sitting-out has cost (idle_universe_avg -0.06% but picking beats random). Adding META, AMZN, PLD, UNH diversifies across distinct sectors (social/AI, retail/cloud, REIT, healthcare) each with its own concrete news catalyst, avoiding the correlated-cluster mistake flagged repeatedly in past lessons. Left buy_limit triggers on CCJ and NVDA to opportunistically add on dips without chasing current price.
+lesson: Diversify with one name per distinct sector/catalyst and size positions at $2000 to actually move cash_idle_pct down, rather than repeating small adds to the same widely_held cluster.
+- BUY $500.00 META [filled] ['news'] — Fresh distinct catalyst, not yet held, diversifies away from existing MSFT/GOOGL tech exposure [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Meta Platforms signed a White House AI Safety Accord (Simply Wall St, 2026-10-01 14:07), providing regulatory clarity catalyst
+- BUY $500.00 AMZN [filled] ['news'] — Distinct mega-cap name not already held, adds diversification within widely_held bucket which has 0.56 hit rate historically [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Infrastructure investment story 'sets up record downstream FCF' (Insider Monkey 2026-10-01) plus Amazon nuke deal headline fueling Constellation
+- BUY $500.00 PLD [filled] ['news'] — Adds a second real-estate name distinct from O, sector avg_ret +gold at 0.03 is best sector bucket historically, real estate reasonable diversifier [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Real estate headline on Prologis Q3 2026 earnings preview (Barchart 2026-09-29); diversifies real_estate sector beyond O which is already held
+- BUY $500.00 UNH [filled] ['news'] — UNH currently low in day range (15.3 pct_of_day_range) offering better entry, distinct healthcare sector exposure [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH dipped more than broader market per Zacks 2026-09-30, oversold defensive healthcare name trading near day low (15.3% of range)
+~ WORKING buy_limit $1500.00 CCJ @ $84.50 until 2026-10-01 — Resting limit to get nuclear exposure at a better price than chasing
+~ WORKING buy_limit $1500.00 NVDA @ $227.00 until 2026-10-01 — Resting limit slightly below market to capture AI megacap on a dip rather than chasing
+~ WORKING take_profit 100% META @ $727.92 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% META @ $716.56 until 2026-10-06 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 META @ $702.93 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $247.14 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% AMZN @ $245.04 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AMZN @ $239.14 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $128.14 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PLD @ $127.28 until 2026-10-06 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 PLD @ $124.05 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% UNH @ $364.97 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% UNH @ $362.14 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 UNH @ $353.24 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25202.62 (+0.81% on $25000.00 in) · cash $20335.12 · realised +210.12
+Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
