@@ -20777,3 +20777,23 @@ Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $484.81] -> $626.69 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 10:13 ET (Thursday) — week 2026-W40 — budget left $21276.49 (today $39375.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+brain: Below min_positions (4 of 8) with 85% cash idle - must deploy. ACN has the clearest concrete catalyst (23.75% earnings beat today) so buying now despite high range position, with a tight stop to cap downside risk. IBM/TSM/NOC are in cooldown so placed as buy_limit triggers to re-enter at sensible levels once cooldown clears, each backed by a specific headline rather than bare momentum, satisfying the momentum-only entry restriction.
+lesson: When several cooldown names have fresh concrete headlines, use buy_limit triggers timed to cooldown expiry instead of waiting idle for the next check - this keeps capital working without breaking the cooldown rule.
+  (dropped ACN: sold 39 min ago, cooling off)
+  (dropped IBM: sold 32 min ago, cooling off)
+  (dropped TSM: sold 6 min ago, cooling off)
+  (dropped NOC: sold 3 min ago, cooling off)
+  (dropped trigger ACN stop_loss: not held)
+~ WORKING buy_limit $2000.00 IBM @ $230.50 until 2026-10-01 — re-enter at a slightly better level than current $231.88 once cooldown clears
+~ WORKING buy_limit $2000.00 TSM @ $453.00 until 2026-10-01 — resting limit near day low to get a better entry than chasing at market
+~ WORKING buy_limit $2000.00 NOC @ $484.00 until 2026-10-01 — resting limit slightly below current price for better entry once cooldown clears
+portfolio: equity $25220.40 (+0.88% on $25000.00 in) · cash $21608.09 · realised +233.09
+Decision: nothing at this check. 16 standing order(s) working.

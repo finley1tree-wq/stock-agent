@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "fd13c00c",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 247.3596,
-   "status": "cancelled",
-   "created": "2026-09-28 11:26",
-   "created_ts": 1790609177,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $246.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 11:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "fd2bc912",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 239.3572,
-   "status": "cancelled",
-   "created": "2026-09-28 11:26",
-   "created_ts": 1790609177,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $246.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 11:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ce151b24",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 510.2421,
-   "status": "filled",
-   "created": "2026-09-28 11:26",
-   "created_ts": 1790609177,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $508.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 11:56"
-  },
-  {
    "id": "457737f7",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -7437,7 +7381,55 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-01 10:11",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "1b9f7c47",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 230.5,
+   "status": "working",
+   "created": "2026-10-01 10:13",
+   "created_ts": 1790864039,
+   "why": "re-enter at a slightly better level than current $231.88 once cooldown clears",
+   "evidence": "IBM up 5.43% on Bob Coding Agent news, cooldown 13 min left",
+   "signals": [
+    "news"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 2000.0
+  },
+  {
+   "id": "a754d678",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 453.0,
+   "status": "working",
+   "created": "2026-10-01 10:13",
+   "created_ts": 1790864039,
+   "why": "resting limit near day low to get a better entry than chasing at market",
+   "evidence": "TSMC Texas investment headline, cooldown 40 min left",
+   "signals": [
+    "news"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 2000.0
+  },
+  {
+   "id": "d99c9e52",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 484.0,
+   "status": "working",
+   "created": "2026-10-01 10:13",
+   "created_ts": 1790864039,
+   "why": "resting limit slightly below current price for better entry once cooldown clears",
+   "evidence": "NOC cooldown 42 min left, defense headline flow",
+   "signals": [
+    "news"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 2000.0
   }
  ],
- "updated": "2026-10-01 10:11"
+ "updated": "2026-10-01 10:13"
 }

@@ -180,3 +180,4 @@
 - 2026-10-01 (9d graded, realised 0.01% per dollar): Congress net_buy_pressure of 3.0 (top tier) names (HUBB, CHRW, LTH) all share the same discloser - treat as one correlated bet size-wise, not three independent confirmations.
 - 2026-10-01 (9d graded, realised 0.01% per dollar): When below min_positions with high idle cash, diversify across sectors using individual headline/congress evidence per name rather than piling into one correlated cluster.
 - 2026-10-01 (9d graded, realised 0.01% per dollar): Diversify sector exposure with individual news evidence per name when below min_positions, rather than concentrating in one correlated congress-disclosure cluster.
+- 2026-10-01 (9d graded, realised 0.01% per dollar): When several cooldown names have fresh concrete headlines, use buy_limit triggers timed to cooldown expiry instead of waiting idle for the next check - this keeps capital working without breaking the cooldown rule.

@@ -1,23 +1,3 @@
-  (bad quote TNON: +49.1% in a day looks like a bad tick)
-brain: Below min_positions (7/8) with 84% idle cash and approaching the 14:00 entry cutoff - deploying now into evidence-backed names (UNH leadership news, TSM capex headline, CRWD partner-network news, GOOGL AI-accord momentum via limit for cooldown) rather than waiting. Adding protective stops on new names since auto_bracket covers existing positions.
-lesson: With only ~2 hours left before the 14:00 no-new-entries cutoff and 84% cash idle at 7/8 positions, prioritize immediate deployment with concrete headline evidence over waiting for perfect entries or cooldowns to clear naturally.
-  (dropped GOOGL: sold 11 min ago, cooling off)
-- BUY $375.00 UNH [filled] ['news', 'momentum'] — add to existing position on leadership news, already have stop/tp bracket working [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH: 'Robert Hunter Named UnitedHealth (UNH) Insurance President' - leadership reset headline, UNH at 64.2% of day range, ATR 2.09%
-- BUY $375.00 TSM [filled] ['news'] — strong capex tailwind headline, no cooldown, diversify into semis [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'TSMC's $265 Billion U.S. Expansion May Be Getting Even Bigger' - GuruFocus 14:25, plus Texas investment headline
-- BUY $425.00 CRWD [filled] ['news', 'momentum'] — cybersecurity/AI infra momentum with concrete same-day headline [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'CoreWeave Launches Partner Network for AI Cloud Integrations' + CRWD +1.81% today, 80.3% of day range
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING buy_limit $1800.00 GOOGL @ $349.00 until 2026-09-30 — re-enter GOOGL once cooldown clears, at a level below current price
-~ WORKING stop_loss 100% TSM @ $450.00 until 2026-09-30 — cap downside on new TSM position
-~ WORKING stop_loss 100% CRWD @ $261.00 until 2026-09-30 — cap downside on new CRWD position
-~ WORKING buy_limit $500.00 UNH @ $359.77 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $461.17 until 2026-10-05 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $446.26 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $268.98 until 2026-10-05 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 CRWD @ $259.52 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25216.69 (+0.87% on $25000.00 in) · cash $20176.85 · realised +226.85
-Done: 0 sell(s), 3 buy(s); 36 order(s) working; budget left $19845.25 this week
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $371.57] -> $876.57 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-09-30 12:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% LTH [time stop] -> $625.22 (+0.03%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-09-30 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +378,23 @@ Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $484.81] -> $626.69 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 10:13 ET (Thursday) — week 2026-W40 — budget left $21276.49 (today $39375.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+brain: Below min_positions (4 of 8) with 85% cash idle - must deploy. ACN has the clearest concrete catalyst (23.75% earnings beat today) so buying now despite high range position, with a tight stop to cap downside risk. IBM/TSM/NOC are in cooldown so placed as buy_limit triggers to re-enter at sensible levels once cooldown clears, each backed by a specific headline rather than bare momentum, satisfying the momentum-only entry restriction.
+lesson: When several cooldown names have fresh concrete headlines, use buy_limit triggers timed to cooldown expiry instead of waiting idle for the next check - this keeps capital working without breaking the cooldown rule.
+  (dropped ACN: sold 39 min ago, cooling off)
+  (dropped IBM: sold 32 min ago, cooling off)
+  (dropped TSM: sold 6 min ago, cooling off)
+  (dropped NOC: sold 3 min ago, cooling off)
+  (dropped trigger ACN stop_loss: not held)
+~ WORKING buy_limit $2000.00 IBM @ $230.50 until 2026-10-01 — re-enter at a slightly better level than current $231.88 once cooldown clears
+~ WORKING buy_limit $2000.00 TSM @ $453.00 until 2026-10-01 — resting limit near day low to get a better entry than chasing at market
+~ WORKING buy_limit $2000.00 NOC @ $484.00 until 2026-10-01 — resting limit slightly below current price for better entry once cooldown clears
+portfolio: equity $25220.40 (+0.88% on $25000.00 in) · cash $21608.09 · realised +233.09
+Decision: nothing at this check. 16 standing order(s) working.
