@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "c55cbf30",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 183.5,
-   "status": "cancelled",
-   "created": "2026-09-28 11:57",
-   "created_ts": 1790611054,
-   "why": "protect defense entry",
-   "evidence": "ATR 1.98%, day low 187.03",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 12:28",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "1591378b",
    "ticker": "PLTR",
    "kind": "take_profit",
@@ -7146,7 +7128,7 @@
    "ticker": "GLD",
    "kind": "stop_loss",
    "price": 379.211,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "close it all at -0.5% under the average cost",
@@ -7156,7 +7138,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:27",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "31bf26e9",
@@ -7445,7 +7429,24 @@
    ],
    "good_until": "2026-10-06",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "c7b78aad",
+   "ticker": "GLD",
+   "kind": "stop_loss",
+   "price": 381.406,
+   "status": "working",
+   "created": "2026-10-01 10:27",
+   "created_ts": 1790864827,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $381.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:24"
+ "updated": "2026-10-01 10:27"
 }

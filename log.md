@@ -20817,3 +20817,5 @@ Decision: nothing at this check. 16 standing order(s) working.
 ## 2026-10-01 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (dropped IBM: sold 43 min ago, cooling off)
   (dropped IBM: sold 44 min ago, cooling off)
+  (dropped IBM: sold 44 min ago, cooling off)
+  (dropped IBM: sold 45 min ago, cooling off)

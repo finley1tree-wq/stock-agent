@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T10:24-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-01T10:27-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,22 +156,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d99c9e52",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 484.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 484.41,
-   "pct_away": -0.08,
-   "good_until": "2026-10-01",
-   "why": "resting limit slightly below current price for better entry once cooldown clears",
-   "signals": [
-    "news"
-   ]
-  },
-  {
    "id": "4073d2fd",
    "ticker": "GLD",
    "kind": "take_profit",
@@ -179,10 +163,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 381.32,
-   "pct_away": 0.12,
+   "last": 381.65,
+   "pct_away": 0.03,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c7b78aad",
+   "ticker": "GLD",
+   "kind": "stop_loss",
+   "price": 381.406,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 381.65,
+   "pct_away": -0.06,
+   "good_until": "2026-10-06",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -196,8 +197,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 266.48,
-   "pct_away": -0.15,
+   "last": 266.45,
+   "pct_away": -0.14,
    "good_until": "2026-10-06",
    "why": "close it all at -1.3% under the average cost",
    "signals": [
@@ -213,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 266.48,
-   "pct_away": 0.16,
+   "last": 266.45,
+   "pct_away": 0.17,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -223,20 +224,19 @@
    ]
   },
   {
-   "id": "d4ea6f44",
-   "ticker": "GLD",
-   "kind": "stop_loss",
-   "price": 379.211,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "d99c9e52",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 484.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 381.32,
-   "pct_away": -0.55,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.5% under the average cost",
+   "last": 484.89,
+   "pct_away": -0.18,
+   "good_until": "2026-10-01",
+   "why": "resting limit slightly below current price for better entry once cooldown clears",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "news"
    ]
   },
   {
@@ -247,8 +247,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.13,
-   "pct_away": 0.6,
+   "last": 229.63,
+   "pct_away": 0.38,
    "good_until": "2026-10-01",
    "why": "re-enter at a slightly better level than current $231.88 once cooldown clears",
    "signals": [
@@ -263,8 +263,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 455.79,
-   "pct_away": -0.61,
+   "last": 456.14,
+   "pct_away": -0.69,
    "good_until": "2026-10-01",
    "why": "resting limit near day low to get a better entry than chasing at market",
    "signals": [
@@ -279,8 +279,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 381.32,
-   "pct_away": -3.07,
+   "last": 381.65,
+   "pct_away": -3.16,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -296,8 +296,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 266.48,
-   "pct_away": -3.37,
+   "last": 266.45,
+   "pct_away": -3.36,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
