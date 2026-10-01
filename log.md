@@ -20872,3 +20872,5 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
 - SELL 100% HD [take_profit @ $278.37] -> $626.66 (+0.27%) — close 100% at +0.3% over the average cost
   (dropped NOC: sold 23 min ago, cooling off)
 ## 2026-10-01 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (dropped NOC: sold 24 min ago, cooling off)
+  (dropped NOC: sold 25 min ago, cooling off)
