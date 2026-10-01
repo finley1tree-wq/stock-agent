@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T09:55-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-01T10:00-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,32 +156,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "61d8648b",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 520.0185,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 519.63,
-   "pct_away": 0.07,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ee794f84",
-   "ticker": "MSFT",
+   "id": "a32a1514",
+   "ticker": "LMT",
    "kind": "stop_loss",
-   "price": 519.246,
+   "price": 507.1253,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 519.63,
-   "pct_away": -0.07,
+   "last": 508.1,
+   "pct_away": -0.19,
    "good_until": "2026-10-06",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -197,44 +180,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 609.6,
-   "pct_away": 0.34,
+   "last": 608.5,
+   "pct_away": 0.52,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a32a1514",
-   "ticker": "LMT",
-   "kind": "stop_loss",
-   "price": 507.1253,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 508.92,
-   "pct_away": -0.35,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b27c0073",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 455.6468,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 453.97,
-   "pct_away": 0.37,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -248,10 +197,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 508.92,
-   "pct_away": 0.47,
+   "last": 508.1,
+   "pct_away": 0.64,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b27c0073",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 455.6468,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 452.19,
+   "pct_away": 0.76,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 609.6,
-   "pct_away": -1.27,
+   "last": 608.5,
+   "pct_away": -1.09,
    "good_until": "2026-10-06",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -282,29 +248,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 453.97,
-   "pct_away": -2.2,
+   "last": 452.19,
+   "pct_away": -1.81,
    "good_until": "2026-10-01",
    "why": "Standard protective stop",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "d8009c87",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 494.8261,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 508.92,
-   "pct_away": -2.77,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -315,8 +264,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 453.97,
-   "pct_away": -2.91,
+   "last": 452.19,
+   "pct_away": -2.53,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d8009c87",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 494.8261,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 508.1,
+   "pct_away": -2.61,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -332,25 +298,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 609.6,
-   "pct_away": -3.12,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "aedfa8fb",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 503.1099,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 519.63,
-   "pct_away": -3.18,
+   "last": 608.5,
+   "pct_away": -2.94,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

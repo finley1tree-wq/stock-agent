@@ -20722,3 +20722,6 @@ Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $344.05] -> $2005.79 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $517.88] -> $1996.94 (-0.15%) — close it all at -0.6% under the average cost
+## 2026-10-01 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

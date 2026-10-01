@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 9554.28,
+  "spent": 7557.34,
   "deployed": 282475.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -20,7 +20,7 @@
     "FWONK": 10.26,
     "HUBB": 3528.33,
     "CHRW": 36.4,
-    "MSFT": 2016.0,
+    "MSFT": 19.06,
     "TPL": 3.17,
     "TSM": 3.38,
     "NLR": 6.69,
@@ -5350,13 +5350,34 @@
       ],
       "evidence": "average cost $343.06",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 3.855989,
+      "status": "filled",
+      "price": 517.88,
+      "proceeds": 1996.94,
+      "realized_pnl": -3.06,
+      "realized_pct": -0.15,
+      "date": "2026-10-01",
+      "time_et": "10:00",
+      "ts": 1790863200,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $518.67",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 9433.08,
+  "spent_today": 7436.14,
   "deployed_today": 36000.0,
   "orders_today": 13,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "ACN",
     "TTD",
@@ -5366,7 +5387,8 @@
     "CHRW",
     "NVDA",
     "AVGO",
-    "GOOGL"
+    "GOOGL",
+    "MSFT"
   ],
   "sold_ts": {
     "PLTR": 1790784896,
@@ -5374,7 +5396,7 @@
     "LEN": 1790602749,
     "AMD": 1790790364,
     "ACN": 1790861747,
-    "MSFT": 1790790364,
+    "MSFT": 1790863203,
     "NOC": 1790788653,
     "UNH": 1790784279,
     "CRWD": 1790790810,
@@ -5400,25 +5422,22 @@
     "LTH": 1790862084,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790862924,
-  "last_check_ts": 1790863168,
-  "last_bar_ts": 1790862900,
+  "last_publish_ts": 1790863202,
+  "last_check_ts": 1790863248,
+  "last_bar_ts": 1790863200,
   "last_decision_ts": 1790862470,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "61d8648b": 520.0185,
-    "ee794f84": 519.246,
-    "985a0063": 611.6668,
     "a32a1514": 507.1253,
-    "b27c0073": 455.6468,
+    "985a0063": 611.6668,
     "e2afeb58": 511.3339,
+    "b27c0073": 455.6468,
     "14d09bab": 601.8459,
     "09b45e1c": 444.0,
-    "d8009c87": 494.8261,
     "6765bc60": 440.7389,
-    "04731ec4": 590.5942,
-    "aedfa8fb": 503.1099
+    "d8009c87": 494.8261,
+    "04731ec4": 590.5942
   },
   "hold_arm": {
     "HUBB": 30,

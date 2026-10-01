@@ -1,6 +1,3 @@
-  (bad quote TNON: +48.5% in a day looks like a bad tick)
-brain: Only 5 positions held vs min_positions 8, cash_idle_pct 88.6% - need to deploy more. Adding ACN (congress pressure + earnings headline), TSM (news catalyst on Texas expansion), and CRWD (dual same-day AI infra headlines) to diversify sectors beyond the current nuclear/industrial/consumer cluster, each with concrete evidence and immediate stop-loss protection. Avoiding GOOGL/MSFT/HLI/CHRW due to active cooldowns.
-lesson: Even with full_deployment mandate, always pair new-name buys with an explicit protective stop_loss trigger in the same call rather than relying solely on auto_bracket defaults.
   (dropped ACN: 93% up today's range — resting a limit at $180.69 instead of chasing)
   (dropped TSM: 95% up today's range — resting a limit at $458.44 instead of chasing)
   (dropped CRWD: 87% up today's range — resting a limit at $265.63 instead of chasing)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
   (cancelled 2 standing order(s) on GOOGL: position closed)
 - SELL 100% GOOGL [take_profit @ $344.05] -> $2005.79 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $517.88] -> $1996.94 (-0.15%) — close it all at -0.6% under the average cost
+## 2026-10-01 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
