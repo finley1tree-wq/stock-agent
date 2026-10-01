@@ -20655,3 +20655,5 @@ lesson: Congress net_buy_pressure of 3.0 (top tier) names (HUBB, CHRW, LTH) all 
 ~ WORKING buy_limit $500.00 TTD @ $12.02 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25204.70 (+0.82% on $25000.00 in) · cash $8710.40 · realised +210.40
 Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week
+- BUY $3500.00 CCJ [buy_limit @ $86.56] — wanted it, but not at the high — resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage
+## 2026-10-01 09:35 ET — tick — 0 sell(s), 1 buy(s) from standing orders

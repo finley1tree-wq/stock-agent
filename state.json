@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 16621.2,
-  "deployed": 262975.18,
+  "spent": 20121.2,
+  "deployed": 266475.18,
   "by_ticker": {
     "AVGO": 43.49,
     "TTD": 2011.63,
@@ -15,7 +15,7 @@
     "NEM": 2.89,
     "AMZN": 4.04,
     "NVDA": 25.66,
-    "CCJ": 20.15,
+    "CCJ": 3520.15,
     "CRWD": 20.0,
     "HLI": 30.73,
     "FWONK": 10.26,
@@ -50,7 +50,7 @@
     "IBM": 6352.94,
     "META": 4000.0,
     "RTX": 11300.0,
-    "CCJ": 15150.0,
+    "CCJ": 18650.0,
     "LMT": 6750.0,
     "NEM": 4125.0,
     "HLI": 5825.0,
@@ -5017,12 +5017,33 @@
       ],
       "evidence": "Rep. Gilbert Ray Cisneros disclosed buys (2 filings, $1,001-$15,000 each); TTD +1.73% today, day_range 75.1%",
       "hold_minutes": 30
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 3500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 40.432045,
+      "price": 86.56,
+      "date": "2026-10-01",
+      "time_et": "09:35",
+      "ts": 1790861700,
+      "why": "wanted it, but not at the high \u2014 resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage",
+      "signals": [
+        "news",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "'South Korea Set to Invest $200 Billion in the U.S. These 4 Companies Should Benefit' (Barrons) and 'Wall Street Bulls Look Optimistic About Cameco' (Zacks); day_range 89.5%",
+      "trigger": "buy_limit",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 16500.0,
-  "deployed_today": 16500.0,
-  "orders_today": 5,
+  "spent_today": 20000.0,
+  "deployed_today": 20000.0,
+  "orders_today": 6,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -5057,29 +5078,31 @@
     "LTH": 1790784357,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790861560,
-  "last_check_ts": 1790861560,
-  "last_bar_ts": 1790861400,
+  "last_publish_ts": 1790861711,
+  "last_check_ts": 1790861711,
+  "last_bar_ts": 1790861700,
   "last_decision_ts": 1790861560,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "b27c0073": 455.6468,
-    "14813065": 148.8757,
-    "55d4a34c": 86.7382,
     "0789c0d7": 39.8315,
+    "dabf85ce": 39.766,
     "a13469fb": 222.6625,
-    "76b2b0e2": 12.449,
-    "c0a89d61": 230.9599,
+    "b27c0073": 455.6468,
+    "fb3a6370": 86.8967,
+    "14813065": 148.8757,
     "4f0845b3": 147.4223,
-    "d8b6b9b0": 39.2666,
     "f0f62f51": 12.2426,
+    "c0a89d61": 230.9599,
+    "d1ca3e24": 85.7178,
+    "76b2b0e2": 12.449,
     "09b45e1c": 444.0,
     "d6319bee": 12.0183,
-    "022c5a2b": 38.4799,
-    "6765bc60": 440.7389,
     "a86e5d9f": 144.0062,
+    "6765bc60": 440.7389,
+    "206b886e": 83.9632,
     "972778f3": 214.9423,
+    "022c5a2b": 38.4799,
     "a9f4eb10": 213.5
   },
   "hold_arm": {
@@ -5087,6 +5110,7 @@
     "HUBB": 30,
     "CHRW": 30,
     "LTH": 30,
-    "TTD": 30
+    "TTD": 30,
+    "CCJ": 90
   }
 }

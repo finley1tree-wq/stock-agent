@@ -1,80 +1,6 @@
 {
  "orders": [
   {
-   "id": "7660e260",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 193.0,
-   "status": "cancelled",
-   "created": "2026-09-28 10:38",
-   "created_ts": 1790606315,
-   "why": "Lock partial gain on RTX",
-   "evidence": "RTX ATR 1.97%, take profit target",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-28 11:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7b07dd6d",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 455.0,
-   "status": "cancelled",
-   "created": "2026-09-28 10:38",
-   "created_ts": 1790606315,
-   "why": "Lock partial gain on TSM",
-   "evidence": "TSM ATR 2.13%, take profit target",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-28 11:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0425268b",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 521.3245,
-   "status": "filled",
-   "created": "2026-09-28 10:38",
-   "created_ts": 1790606315,
-   "why": "wanted it, but not at the high \u2014 resting at $521.32. Defense sector had 0.70 hit_rate historically and LMT not in cooldown, strong intraday momentum near high",
-   "evidence": "LMT +0.75% today, 88.3% of day range, WSJ: 'Defense Firms Are Rushing to Boost Missile Output' 2026-09-28",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 2250.0,
-   "closed": "2026-09-28 10:58"
-  },
-  {
-   "id": "c96c3ac2",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 510.5482,
-   "status": "filled",
-   "created": "2026-09-28 10:38",
-   "created_ts": 1790606315,
-   "why": "wanted it, but not at the high \u2014 resting at $510.55. NOC cooldown expired (0 min left listed), strong defense momentum, was previously bought/sold this week profitably per track record widely_held/defense mix",
-   "evidence": "NOC +0.49% today, 89.1% of day range, WSJ missile output headline applies sector-wide",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-28",
-   "usd": 1800.0,
-   "closed": "2026-09-28 10:59"
-  },
-  {
    "id": "62d34c74",
    "ticker": "CCJ",
    "kind": "buy_limit",
@@ -7194,7 +7120,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 86.7382,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 09:32",
    "created_ts": 1790861560,
    "why": "wanted it, but not at the high \u2014 resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage",
@@ -7205,7 +7131,8 @@
     "patience"
    ],
    "good_until": "2026-10-01",
-   "usd": 3500.0
+   "usd": 3500.0,
+   "closed": "2026-10-01 09:35"
   },
   {
    "id": "a13469fb",
@@ -7348,7 +7275,7 @@
    "ticker": "LTH",
    "kind": "stop_loss",
    "price": 39.2666,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:32",
    "created_ts": 1790861560,
    "why": "close it all at -1.0% under the average cost",
@@ -7358,7 +7285,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:35",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "022c5a2b",
@@ -7427,7 +7356,75 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "dabf85ce",
+   "ticker": "LTH",
+   "kind": "stop_loss",
+   "price": 39.766,
+   "status": "working",
+   "created": "2026-10-01 09:35",
+   "created_ts": 1790861711,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $39.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "fb3a6370",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 86.8967,
+   "status": "working",
+   "created": "2026-10-01 09:35",
+   "created_ts": 1790861711,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $86.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d1ca3e24",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 85.7178,
+   "status": "working",
+   "created": "2026-10-01 09:35",
+   "created_ts": 1790861711,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $86.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "206b886e",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 83.9632,
+   "status": "working",
+   "created": "2026-10-01 09:35",
+   "created_ts": 1790861711,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $86.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 09:32"
+ "updated": "2026-10-01 09:35"
 }
