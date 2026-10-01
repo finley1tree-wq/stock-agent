@@ -20933,3 +20933,5 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
   (dropped NOC: sold 37 min ago, cooling off)
   (dropped NOC: sold 37 min ago, cooling off)
   (dropped NOC: sold 38 min ago, cooling off)
+  (dropped NOC: sold 39 min ago, cooling off)
+  (dropped NOC: sold 40 min ago, cooling off)
