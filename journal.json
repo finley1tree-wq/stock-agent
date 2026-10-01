@@ -49307,5 +49307,55 @@
     "code_version": "4cf2d52",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "RTX",
+    "side": "sell",
+    "qty": 2.69623,
+    "status": "filled",
+    "price": 185.46,
+    "proceeds": 500.04,
+    "realized_pnl": 0.04,
+    "realized_pct": 0.01,
+    "date": "2026-10-01",
+    "time_et": "10:20",
+    "ts": 1790864400,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $185.44",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "c098432"
+  },
+  {
+    "symbol": "PLTR",
+    "side": "sell",
+    "qty": 3.299711,
+    "status": "filled",
+    "price": 190.2,
+    "proceeds": 627.61,
+    "realized_pnl": 2.61,
+    "realized_pct": 0.42,
+    "date": "2026-10-01",
+    "time_et": "10:20",
+    "ts": 1790864400,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "news",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $189.41",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "c098432"
   }
 ]

@@ -20801,3 +20801,10 @@ Decision: nothing at this check. 16 standing order(s) working.
 ## 2026-10-01 10:15 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (dropped IBM: sold 37 min ago, cooling off)
   (dropped IBM: sold 38 min ago, cooling off)
+  (cancelled 2 standing order(s) on RTX: position closed)
+- SELL 100% RTX [stop_loss @ $185.46] -> $500.04 (+0.01%) — close it all at -0.5% under the average cost
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $190.20] -> $627.61 (+0.42%) — close 100% at +0.3% over the average cost
+  (dropped IBM: sold 38 min ago, cooling off)
+## 2026-10-01 10:20 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (dropped IBM: sold 39 min ago, cooling off)

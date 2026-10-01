@@ -1,9 +1,3 @@
-- SELL 100% NLR [time stop] -> $493.31 (-1.34%) — held 90 min, the 90-minute limit: out regardless
-## 2026-09-30 12:11 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-- SELL 100% PLTR [time stop] -> $499.35 (-0.13%) — held 30 min, the 30-minute limit: out regardless
-## 2026-09-30 12:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-30 12:15 ET (Wednesday) — week 2026-W40 — budget left $22965.10 (today $36425.00 put to work, 27 buys, 20 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
@@ -398,3 +392,9 @@ Decision: nothing at this check. 16 standing order(s) working.
 ## 2026-10-01 10:15 ET — tick — 0 sell(s), 1 buy(s) from standing orders
   (dropped IBM: sold 37 min ago, cooling off)
   (dropped IBM: sold 38 min ago, cooling off)
+  (cancelled 2 standing order(s) on RTX: position closed)
+- SELL 100% RTX [stop_loss @ $185.46] -> $500.04 (+0.01%) — close it all at -0.5% under the average cost
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $190.20] -> $627.61 (+0.42%) — close 100% at +0.3% over the average cost
+  (dropped IBM: sold 38 min ago, cooling off)
+## 2026-10-01 10:20 ET — tick — 2 sell(s), 0 buy(s) from standing orders

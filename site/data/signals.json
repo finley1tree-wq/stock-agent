@@ -1,6 +1,6 @@
 {
  "asOf": "2026-10-01T10:20-04:00",
- "note": "tick: watching",
+ "note": "tick: 2 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,23 +156,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3e357851",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 185.59,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 185.56,
-   "pct_away": 0.02,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "1b9f7c47",
    "ticker": "IBM",
    "kind": "buy_limit",
@@ -180,29 +163,12 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 230.71,
-   "pct_away": -0.09,
+   "last": 230.61,
+   "pct_away": -0.05,
    "good_until": "2026-10-01",
    "why": "re-enter at a slightly better level than current $231.88 once cooldown clears",
    "signals": [
     "news"
-   ]
-  },
-  {
-   "id": "fb0e680d",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 185.8424,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 185.56,
-   "pct_away": 0.15,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -213,44 +179,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 380.97,
+   "last": 380.96,
    "pct_away": 0.21,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "76d4feca",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 190.0578,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 190.46,
-   "pct_away": -0.21,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9c89ba16",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 190.04,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 190.46,
-   "pct_away": -0.22,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -264,8 +196,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 485.6,
-   "pct_away": -0.33,
+   "last": 485.17,
+   "pct_away": -0.24,
    "good_until": "2026-10-01",
    "why": "resting limit slightly below current price for better entry once cooldown clears",
    "signals": [
@@ -280,8 +212,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 604.43,
-   "pct_away": -0.43,
+   "last": 603.64,
+   "pct_away": -0.3,
    "good_until": "2026-10-06",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -297,27 +229,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 380.97,
+   "last": 380.96,
    "pct_away": -0.46,
    "good_until": "2026-10-06",
    "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7f3f5c0c",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 266.8961,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 265.48,
-   "pct_away": 0.53,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -331,8 +246,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 455.72,
-   "pct_away": -0.6,
+   "last": 455.53,
+   "pct_away": -0.56,
    "good_until": "2026-10-01",
    "why": "resting limit near day low to get a better entry than chasing at market",
    "signals": [
@@ -340,15 +255,15 @@
    ]
   },
   {
-   "id": "985a0063",
-   "ticker": "AMD",
+   "id": "7f3f5c0c",
+   "ticker": "CRWD",
    "kind": "take_profit",
-   "price": 611.6668,
+   "price": 266.8961,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 604.43,
-   "pct_away": 1.2,
+   "last": 265.19,
+   "pct_away": 0.64,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -364,10 +279,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 265.48,
-   "pct_away": -1.36,
+   "last": 265.19,
+   "pct_away": -1.25,
    "good_until": "2026-10-06",
    "why": "close it all at -1.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "985a0063",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 611.6668,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 603.64,
+   "pct_away": 1.33,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -381,25 +313,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 604.43,
-   "pct_away": -2.29,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "31bf26e9",
-   "ticker": "GLD",
-   "kind": "buy_limit",
-   "price": 369.6088,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 380.97,
-   "pct_away": -2.98,
+   "last": 603.64,
+   "pct_away": -2.16,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -415,8 +330,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 265.48,
-   "pct_away": -3.01,
+   "last": 265.19,
+   "pct_away": -2.9,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -425,32 +340,15 @@
    ]
   },
   {
-   "id": "c4bcef0c",
-   "ticker": "RTX",
+   "id": "31bf26e9",
+   "ticker": "GLD",
    "kind": "buy_limit",
-   "price": 179.8768,
+   "price": 369.6088,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 185.56,
-   "pct_away": -3.06,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8aba3667",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 183.7277,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 190.46,
-   "pct_away": -3.53,
+   "last": 380.96,
+   "pct_away": -2.98,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
