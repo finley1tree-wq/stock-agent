@@ -20947,3 +20947,5 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
   (dropped NOC: sold 45 min ago, cooling off)
 - BUY $500.00 NOC [buy_limit @ $482.31] — resting limit slightly below current price for better entry once cooldown clears [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-01 10:56 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% FWONK [time stop] -> $493.95 (-1.21%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 11:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

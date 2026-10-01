@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "a7ec7e45",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 85.5637,
-   "status": "cancelled",
-   "created": "2026-09-29 09:32",
-   "created_ts": 1790688760,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $88.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 10:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f69486ae",
    "ticker": "NOC",
    "kind": "take_profit",
@@ -6774,7 +6755,7 @@
    "ticker": "FWONK",
    "kind": "stop_loss",
    "price": 89.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "Protective stop",
@@ -6783,7 +6764,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1327e381",
@@ -6921,7 +6904,7 @@
    "ticker": "FWONK",
    "kind": "take_profit",
    "price": 92.221,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "close 100% at +0.3% over the average cost",
@@ -6931,14 +6914,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9a568eba",
    "ticker": "FWONK",
    "kind": "buy_limit",
    "price": 89.2206,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6948,7 +6933,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 11:00",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f3ef6e9e",
@@ -7390,7 +7377,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 479.0206,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:56",
    "created_ts": 1790866604,
    "why": "close it all at -0.7% under the average cost",
@@ -7400,7 +7387,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "575618d5",
@@ -7418,7 +7407,24 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "eecaf6f2",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 482.85,
+   "status": "working",
+   "created": "2026-10-01 11:00",
+   "created_ts": 1790866809,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $482.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:56"
+ "updated": "2026-10-01 11:00"
 }
