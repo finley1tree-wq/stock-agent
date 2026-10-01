@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "3410f6c9",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 320.0,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "Protective stop ~3.3% below entry",
-   "evidence": "ATR 2.01%, entry ~330.8",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "1e2ea212",
    "ticker": "NOC",
    "kind": "stop_loss",
@@ -7260,7 +7242,7 @@
    "ticker": "XENE",
    "kind": "stop_loss",
    "price": 38.5989,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 13:04",
    "created_ts": 1790874253,
    "why": "close it all at -2.1% under the average cost",
@@ -7270,7 +7252,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 13:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "25783076",
@@ -7429,7 +7413,24 @@
    ],
    "good_until": "2026-10-01",
    "usd": 2000.0
+  },
+  {
+   "id": "99e0cd71",
+   "ticker": "XENE",
+   "kind": "stop_loss",
+   "price": 39.522,
+   "status": "working",
+   "created": "2026-10-01 13:41",
+   "created_ts": 1790876483,
+   "why": "close it all at -2.1% under the average cost",
+   "evidence": "average cost $39.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 13:36"
+ "updated": "2026-10-01 13:41"
 }
