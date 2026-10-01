@@ -21312,3 +21312,19 @@ lesson: Once no_new_entries_this_check is true, stop proposing buys entirely and
 portfolio: equity $25216.21 (+0.86% on $25000.00 in) · cash $24471.82 · realised +221.82
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% ACN [time stop] -> $741.15 (-1.18%) — held 91 min, the 90-minute limit: out regardless
+## 2026-10-01 14:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 14:19 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after heavy churn today - 56 orders/55 sells already, all names cooling off or just sold. With no entries allowed and no open positions needing protection, there is nothing actionable right now; placing buy_limit triggers would still count as new entries and get dropped per guardrails. I'll check back shortly in case guardrails change or a protective action is needed.
+lesson: When no_new_entries_this_check is true and positions are flat, do not try to force buy_limit triggers - they are entries and will be dropped; just wait for the next window.
+portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

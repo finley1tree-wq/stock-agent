@@ -7103,7 +7103,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 212.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:48",
    "created_ts": 1790873282,
    "why": "bound downside after a large one-day move",
@@ -7112,14 +7112,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 14:19",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0cda2af4",
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 225.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:48",
    "created_ts": 1790873282,
    "why": "take partial profit near day high",
@@ -7128,14 +7130,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 50.0
+   "pct_of_position": 50.0,
+   "closed": "2026-10-01 14:19",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ffd3fd0b",
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 217.8109,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:48",
    "created_ts": 1790873282,
    "why": "close 100% at +0.5% over the average cost",
@@ -7145,7 +7149,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 14:19",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a3eefb67",
@@ -7473,5 +7479,5 @@
    "closed": "2026-10-01 13:45"
   }
  ],
- "updated": "2026-10-01 14:03"
+ "updated": "2026-10-01 14:19"
 }

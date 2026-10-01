@@ -51112,7 +51112,9 @@
     "code_version": "4b79ea9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.73
+    "ret_now": -1.18,
+    "ret_final": -1.18,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -51351,6 +51353,32 @@
     "trigger": "time_stop",
     "hour_et": 13,
     "code_version": "d08c3b4",
+    "hold_minutes": 90
+  },
+  {
+    "symbol": "ACN",
+    "side": "sell",
+    "qty": 3.460793,
+    "status": "filled",
+    "price": 214.16,
+    "proceeds": 741.15,
+    "realized_pnl": -8.85,
+    "realized_pct": -1.18,
+    "date": "2026-10-01",
+    "time_et": "14:19",
+    "ts": 1790878741,
+    "why": "held 91 min, the 90-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "news",
+      "time_stop",
+      "track_record"
+    ],
+    "evidence": "bought 91 min ago, -1.16% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "ffaf7ef",
     "hold_minutes": 90
   }
 ]

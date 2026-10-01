@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T14:00-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-01T14:19-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -154,57 +154,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "ffd3fd0b",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 217.8109,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 216.13,
-   "pct_away": 0.78,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c31beb8b",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 212.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 216.13,
-   "pct_away": -1.91,
-   "good_until": "2026-10-01",
-   "why": "bound downside after a large one-day move",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "0cda2af4",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 225.0,
-   "usd": null,
-   "pct_of_position": 50.0,
-   "trail_pct": null,
-   "last": 216.13,
-   "pct_away": 4.1,
-   "good_until": "2026-10-01",
-   "why": "take partial profit near day high",
-   "signals": [
-    "risk_management"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "Only 3 positions held (RTX, ACN, XENE) vs min_positions 8, and entries cutoff is 14:00 ET - only ~24 minutes left to buy new names today. I have several existing buy_limit triggers resting (XENE, LTH, CHRW, TSM, SKWD, NVDA, HUBB, GPI) that should fill if price comes down, but I need more diversified",
  "congress_trades": [

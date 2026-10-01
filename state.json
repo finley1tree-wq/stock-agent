@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 859.74,
+  "spent": 118.59,
   "deployed": 304775.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -28,7 +28,7 @@
     "O": 0.49,
     "NOC": 0.65,
     "PLD": 0.04,
-    "ACN": 750.42
+    "ACN": 9.27
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -7062,13 +7062,33 @@
       ],
       "evidence": "bought 90 min ago, -0.15% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 3.460793,
+      "status": "filled",
+      "price": 214.16,
+      "proceeds": 741.15,
+      "realized_pnl": -8.85,
+      "realized_pct": -1.18,
+      "date": "2026-10-01",
+      "time_et": "14:19",
+      "ts": 1790878741,
+      "why": "held 91 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 91 min ago, -1.16% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 738.54,
+  "spent_today": 0.0,
   "deployed_today": 58300.0,
   "orders_today": 56,
-  "sells_today": 54,
+  "sells_today": 55,
   "sold_today": [
     "ACN",
     "TTD",
@@ -7109,7 +7129,7 @@
     "TSM": 1790872276,
     "LEN": 1790869768,
     "AMD": 1790870209,
-    "ACN": 1790870562,
+    "ACN": 1790878742,
     "MSFT": 1790867766,
     "NOC": 1790873822,
     "UNH": 1790872276,
@@ -7141,17 +7161,13 @@
     "O": 1790867766,
     "XENE": 1790876714
   },
-  "last_publish_ts": 1790877643,
-  "last_check_ts": 1790878665,
+  "last_publish_ts": 1790878741,
+  "last_check_ts": 1790878789,
   "last_bar_ts": 1790878500,
-  "last_decision_ts": 1790877826,
+  "last_decision_ts": 1790878789,
   "next_check_minutes": 15,
   "autopiloted": false,
-  "book_px": {
-    "ffd3fd0b": 217.8109,
-    "c31beb8b": 212.0,
-    "0cda2af4": 225.0
-  },
+  "book_px": {},
   "hold_arm": {
     "RTX": 90,
     "CRWD": 90,
