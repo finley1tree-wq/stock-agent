@@ -21076,3 +21076,6 @@ Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
   (cancelled 2 standing order(s) on LEN: position closed)
 - SELL 100% LEN [take_profit @ $80.09] -> $376.43 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $613.07] -> $552.57 (+0.47%) — close 100% at +0.5% over the average cost
+## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

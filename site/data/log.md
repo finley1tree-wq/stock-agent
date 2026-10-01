@@ -1,6 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
   (cancelled 2 standing order(s) on LEN: position closed)
 - SELL 100% LEN [take_profit @ $80.09] -> $376.43 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [take_profit @ $613.07] -> $552.57 (+0.47%) — close 100% at +0.5% over the average cost
+## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

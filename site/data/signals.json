@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-01T11:49-04:00",
+ "asOf": "2026-10-01T11:56-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -156,6 +156,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "fc1e95cd",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 225.7083,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 225.01,
+   "pct_away": 0.31,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8a7c899d",
+   "ticker": "NLR",
+   "kind": "take_profit",
+   "price": 102.3346,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 102.01,
+   "pct_away": 0.32,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "a754d678",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -163,8 +197,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 454.04,
-   "pct_away": -0.23,
+   "last": 454.61,
+   "pct_away": -0.35,
    "good_until": "2026-10-01",
    "why": "resting limit near day low to get a better entry than chasing at market",
    "signals": [
@@ -179,61 +213,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 363.08,
-   "pct_away": -0.26,
+   "last": 363.49,
+   "pct_away": -0.37,
    "good_until": "2026-10-06",
    "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fc1e95cd",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 225.7083,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 224.93,
-   "pct_away": 0.35,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "82757e96",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 613.0697,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 610.88,
-   "pct_away": 0.36,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8a7c899d",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 102.3346,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 101.9,
-   "pct_away": 0.43,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -247,8 +230,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 454.04,
-   "pct_away": 0.49,
+   "last": 454.61,
+   "pct_away": 0.37,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -264,27 +247,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 363.08,
-   "pct_away": 0.52,
+   "last": 363.49,
+   "pct_away": 0.41,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "aa070216",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 342.514,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 340.15,
-   "pct_away": 0.69,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -298,8 +264,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 215.79,
-   "pct_away": 1.03,
+   "last": 216.8,
+   "pct_away": 0.55,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -315,28 +281,12 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.43,
-   "pct_away": -1.06,
+   "last": 229.31,
+   "pct_away": -1.01,
    "good_until": "2026-10-01",
    "why": "Resting limit slightly below market to capture AI megacap on a dip rather than chasing",
    "signals": [
     "news"
-   ]
-  },
-  {
-   "id": "917e34bc",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 334.6,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 340.15,
-   "pct_away": -1.63,
-   "good_until": "2026-10-01",
-   "why": "Protective stop to bound downside on new GOOGL position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -347,8 +297,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 454.04,
-   "pct_away": -1.66,
+   "last": 454.61,
+   "pct_away": -1.78,
    "good_until": "2026-10-01",
    "why": "bound downside on new TSM entry",
    "signals": [
@@ -363,46 +313,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 224.93,
-   "pct_away": -2.41,
+   "last": 225.01,
+   "pct_away": -2.45,
    "good_until": "2026-10-01",
    "why": "bound downside on earnings-spillover trade",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "c2816ff0",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 210.393,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 215.79,
-   "pct_away": -2.5,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9e14b4e0",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 331.2647,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 340.15,
-   "pct_away": -2.61,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -413,8 +329,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 363.08,
-   "pct_away": -2.71,
+   "last": 363.49,
+   "pct_away": -2.82,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -430,8 +346,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 454.04,
-   "pct_away": -2.75,
+   "last": 454.61,
+   "pct_away": -2.88,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c2816ff0",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 210.393,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 216.8,
+   "pct_away": -2.96,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -447,8 +380,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 101.9,
-   "pct_away": -2.9,
+   "last": 102.01,
+   "pct_away": -3.01,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -464,8 +397,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 224.93,
-   "pct_away": -3.0,
+   "last": 225.01,
+   "pct_away": -3.03,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -481,45 +414,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 101.9,
-   "pct_away": -3.04,
+   "last": 102.01,
+   "pct_away": -3.15,
    "good_until": "2026-10-01",
    "why": "bound downside on nuclear theme entry",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "16d992f0",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 592.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 610.88,
-   "pct_away": -3.09,
-   "good_until": "2026-10-01",
-   "why": "bound downside on momentum entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "fbec059c",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 591.9134,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 610.88,
-   "pct_away": -3.1,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -530,12 +430,62 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 215.79,
-   "pct_away": -5.0,
+   "last": 216.8,
+   "pct_away": -5.44,
    "good_until": "2026-10-01",
    "why": "bound downside on momentum-extended earnings pop",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "917e34bc",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 334.6,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": null,
+   "pct_away": null,
+   "good_until": "2026-10-01",
+   "why": "Protective stop to bound downside on new GOOGL position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "aa070216",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 342.514,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": null,
+   "pct_away": null,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9e14b4e0",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 331.2647,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": null,
+   "pct_away": null,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   }
  ],
