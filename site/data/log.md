@@ -1,6 +1,3 @@
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
 brain: Only 1 position held (IBM, min position) with 97.5% cash idle and 11 checks left today - need to get to min_positions of 8 fast per owner instruction and counterfactual data showing idle_universe cost. Diversifying across ACN (earnings catalyst), HD (contrarian dip w/ congress disclosure), KO (defensive income), FWONK (non-AI value, congress buying), SKWD and HLI (financial/insurance diversifiers with congress signal) avoids the correlated-cluster mistake flagged in past lessons while using concrete headline/congress evidence for each.
@@ -398,3 +395,6 @@ lesson: Dual-insider (CEO+CFO same filing date) and top congress-score names are
 ~ WORKING buy_limit $500.00 XENE @ $38.24 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25213.91 (+0.86% on $25000.00 in) · cash $21288.94 · realised +213.94
 Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $20957.37 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $150.37] -> $501.44 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-01 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
