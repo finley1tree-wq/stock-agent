@@ -21079,3 +21079,5 @@ Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [take_profit @ $613.07] -> $552.57 (+0.47%) — close 100% at +0.5% over the average cost
 ## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% ACN [time stop] -> $549.58 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 12:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

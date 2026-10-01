@@ -1,5 +1,3 @@
-  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
 brain: Only 2 of min 8 positions held with 71.7% cash idle - this is the dominant problem per counterfactual report (idle_share 0.53, cost -0.05% avg). Past lessons explicitly flag correlated congress cluster (HUBB/CHRW/LTH same discloser) so diversifying into widely_held tech (NVDA, MSFT, AVGO, GOOGL), a named-congress AMD trade, and defense (LMT) spreads sector risk while each has concrete headline/congress evidence and reasonable day-range entry points.
 lesson: When below min_positions with high idle cash, diversify across sectors using individual headline/congress evidence per name rather than piling into one correlated cluster.
@@ -398,3 +396,5 @@ Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
   (cancelled 2 standing order(s) on AMD: position closed)
 - SELL 100% AMD [take_profit @ $613.07] -> $552.57 (+0.47%) — close 100% at +0.5% over the average cost
 ## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% ACN [time stop] -> $549.58 (-0.08%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 12:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

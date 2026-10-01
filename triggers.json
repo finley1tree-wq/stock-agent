@@ -7190,7 +7190,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 205.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:32",
    "created_ts": 1790868760,
    "why": "bound downside on momentum-extended earnings pop",
@@ -7199,14 +7199,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:02",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "50c59e53",
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 218.0019,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:32",
    "created_ts": 1790868760,
    "why": "close 100% at +0.5% over the average cost",
@@ -7216,14 +7218,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:02",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c2816ff0",
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 210.393,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:32",
    "created_ts": 1790868760,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7233,7 +7237,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 12:02",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "11b2e084",

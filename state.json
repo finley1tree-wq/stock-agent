@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 3245.68,
+  "spent": 2696.1,
   "deployed": 299100.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -29,7 +29,7 @@
     "O": 0.49,
     "NOC": 0.6,
     "PLD": 0.04,
-    "ACN": 550.0
+    "ACN": 0.42
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -6531,13 +6531,33 @@
       ],
       "evidence": "average cost $610.22",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 2.535691,
+      "status": "filled",
+      "price": 216.74,
+      "proceeds": 549.58,
+      "realized_pnl": -0.42,
+      "realized_pct": -0.08,
+      "date": "2026-10-01",
+      "time_et": "12:02",
+      "ts": 1790870560,
+      "why": "held 30 min, the 30-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 30 min ago, -0.06% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 3124.48,
+  "spent_today": 2574.9,
   "deployed_today": 52625.0,
   "orders_today": 45,
-  "sells_today": 38,
+  "sells_today": 39,
   "sold_today": [
     "ACN",
     "TTD",
@@ -6577,7 +6597,7 @@
     "TSM": 1790863726,
     "LEN": 1790869768,
     "AMD": 1790870209,
-    "ACN": 1790865277,
+    "ACN": 1790870562,
     "MSFT": 1790867766,
     "NOC": 1790867127,
     "UNH": 1790863518,
@@ -6609,33 +6629,30 @@
     "O": 1790867766,
     "XENE": 1790869630
   },
-  "last_publish_ts": 1790870208,
-  "last_check_ts": 1790870521,
+  "last_publish_ts": 1790870560,
+  "last_check_ts": 1790870607,
   "last_bar_ts": 1790870400,
   "last_decision_ts": 1790869714,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "fc1e95cd": 225.7083,
     "8a7c899d": 102.3346,
-    "a754d678": 453.0,
     "77ed9e44": 362.1426,
     "c57eebef": 456.2779,
+    "fc1e95cd": 225.7083,
+    "a754d678": 453.0,
     "93cde703": 364.9684,
-    "50c59e53": 218.0019,
+    "aa070216": 342.514,
     "086fc2c0": 227.0,
+    "917e34bc": 334.6,
     "015ab17e": 446.5,
     "69f6641e": 219.5,
+    "9e14b4e0": 331.2647,
     "c1999cad": 353.2352,
     "f8496407": 441.5343,
-    "c2816ff0": 210.393,
-    "0d761dd2": 98.94,
     "21d74d52": 218.1821,
-    "93e11e5a": 98.8,
-    "47e33108": 205.0,
-    "917e34bc": 334.6,
-    "aa070216": 342.514,
-    "9e14b4e0": 331.2647
+    "0d761dd2": 98.94,
+    "93e11e5a": 98.8
   },
   "hold_arm": {
     "GOOGL": 90,
