@@ -7131,7 +7131,7 @@
    "ticker": "NLR",
    "kind": "stop_loss",
    "price": 98.8,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:48",
    "created_ts": 1790869714,
    "why": "bound downside on nuclear theme entry",
@@ -7140,7 +7140,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fc1e95cd",
@@ -7218,7 +7220,7 @@
    "ticker": "NLR",
    "kind": "take_profit",
    "price": 102.3346,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 11:48",
    "created_ts": 1790869714,
    "why": "close 100% at +0.3% over the average cost",
@@ -7228,14 +7230,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:07"
   },
   {
    "id": "0d761dd2",
    "ticker": "NLR",
    "kind": "buy_limit",
    "price": 98.94,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:48",
    "created_ts": 1790869714,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7245,7 +7248,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 12:07",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6703a4ba",
@@ -7418,5 +7423,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-01 12:04"
+ "updated": "2026-10-01 12:07"
 }

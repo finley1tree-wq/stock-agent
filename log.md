@@ -21108,3 +21108,6 @@ lesson: Reaching min_positions with sector-diverse, evidence-backed names beats 
 ~ WORKING buy_limit $500.00 HLI @ $123.28 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25207.73 (+0.83% on $25000.00 in) · cash $21385.47 · realised +210.47
 Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $21053.90 this week
+  (cancelled 2 standing order(s) on NLR: position closed)
+- SELL 100% NLR [take_profit @ $102.33] -> $526.71 (+0.33%) — close 100% at +0.3% over the average cost
+## 2026-10-01 12:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
