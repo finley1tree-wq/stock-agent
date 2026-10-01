@@ -1,6 +1,3 @@
-  (dropped NOC: sold 29 min ago, cooling off)
-  (cancelled 2 standing order(s) on KO: position closed)
-- SELL 100% KO [stop_loss @ $86.26] -> $625.01 (+0.00%) — close it all at -0.4% under the average cost
   (dropped NOC: sold 31 min ago, cooling off)
 ## 2026-10-01 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (dropped NOC: sold 31 min ago, cooling off)
@@ -398,3 +395,6 @@ lesson: With a 14:00 ET entry cutoff, by 13:36 I should be queuing fresh buy_lim
 ~ WORKING buy_limit $2000.00 LEN @ $81.50 until 2026-10-01 — Berkshire insider buy is strong concrete evidence, resting limit near their buy price
 portfolio: equity $25220.31 (+0.88% on $25000.00 in) · cash $23347.21 · realised +222.21
 Decision: nothing at this check. 24 standing order(s) working.
+  (cancelled 2 standing order(s) on XENE: position closed)
+- SELL 100% XENE [stop_loss @ $39.48] -> $500.82 (+0.16%) — close it all at -2.1% under the average cost
+## 2026-10-01 13:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders

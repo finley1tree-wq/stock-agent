@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 1984.35,
+  "spent": 1483.53,
   "deployed": 304775.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -28,8 +28,7 @@
     "O": 0.49,
     "NOC": 0.65,
     "PLD": 0.04,
-    "ACN": 750.42,
-    "XENE": 500.0
+    "ACN": 750.42
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -7022,13 +7021,34 @@
       ],
       "evidence": "average cost $115.26",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "XENE",
+      "side": "sell",
+      "qty": 12.685281,
+      "status": "filled",
+      "price": 39.48,
+      "proceeds": 500.82,
+      "realized_pnl": 0.82,
+      "realized_pct": 0.16,
+      "date": "2026-10-01",
+      "time_et": "13:45",
+      "ts": 1790876700,
+      "why": "close it all at -2.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $39.42",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 1863.15,
+  "spent_today": 1362.33,
   "deployed_today": 58300.0,
   "orders_today": 56,
-  "sells_today": 52,
+  "sells_today": 53,
   "sold_today": [
     "ACN",
     "TTD",
@@ -7099,38 +7119,35 @@
     "KO": 1790871618,
     "PLD": 1790867720,
     "O": 1790867766,
-    "XENE": 1790869630
+    "XENE": 1790876714
   },
-  "last_publish_ts": 1790876483,
-  "last_check_ts": 1790876670,
-  "last_bar_ts": 1790876400,
+  "last_publish_ts": 1790876712,
+  "last_check_ts": 1790876759,
+  "last_bar_ts": 1790876700,
   "last_decision_ts": 1790876217,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "99e0cd71": 39.522,
     "2f7be572": 185.7158,
-    "fc27084f": 39.7484,
     "ffd3fd0b": 217.8109,
     "5ee06536": 150.0,
+    "978b4408": 39.092,
     "7eef1ea3": 455.0,
     "2f3a8dee": 40.1653,
     "43d9c5c1": 228.5,
-    "978b4408": 39.092,
     "a754d678": 453.0,
     "c4640612": 53.667,
-    "b15d49e1": 81.5,
     "a02ac431": 53.5872,
     "086fc2c0": 227.0,
-    "f465356e": 455.116,
+    "b15d49e1": 81.5,
     "6263c0ee": 53.4993,
-    "c31beb8b": 212.0,
     "88310455": 181.5,
-    "a3eefb67": 210.2087,
+    "f465356e": 455.116,
+    "c31beb8b": 212.0,
     "961505c1": 179.7507,
+    "a3eefb67": 210.2087,
     "a45212b9": 242.553,
     "71abcc5e": 242.2977,
-    "25783076": 38.2374,
     "0cda2af4": 225.0
   },
   "hold_arm": {
