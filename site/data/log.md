@@ -1,11 +1,3 @@
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (bad quote TNON: +43.3% in a day looks like a bad tick)
-brain: Only 4 of min 8 positions held with 91.9% cash idle and approaching the 14:00 entry cutoff - past lessons and counterfactual data both flag this idleness as costly. Adding MSFT, ACN, GOOGL, AMD, NVDA in $2000-2200 tranches with concrete headline/congress evidence gets us to 9 positions across diversified sectors (widely_held, consulting, semis) while each gets a protective stop per risk_management (best-performing signal at 0.18% avg, 88% hit rate).
 lesson: When below min_positions late in the session, deploy multiple mid-size named-evidence buys with individual stop_loss triggers rather than relying only on resting limits that may not fill before the cutoff.
   (dropped GOOGL: sold 27 min ago, cooling off)
 - BUY $550.00 MSFT [filled] ['momentum', 'news'] — Strong AI infra tailwind, widely_held sector, adding to reach min_positions; buying near market since working buy_limits below haven't filled [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: MSFT +1.8% today, 82% of day range, headline: 'Jensen Huang: AI data center build-out could create 1 million jobs' 2026-09-30
@@ -398,3 +390,11 @@ Decision: nothing at this check. 16 standing order(s) working.
 - SELL 100% PLTR [take_profit @ $190.20] -> $627.61 (+0.42%) — close 100% at +0.3% over the average cost
   (dropped IBM: sold 38 min ago, cooling off)
 ## 2026-10-01 10:20 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (dropped IBM: sold 39 min ago, cooling off)
+  (dropped IBM: sold 40 min ago, cooling off)
+  (dropped IBM: sold 41 min ago, cooling off)
+  (dropped IBM: sold 41 min ago, cooling off)
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $601.54] -> $1975.97 (-1.20%) — close it all at -1.2% under the average cost
+  (dropped IBM: sold 42 min ago, cooling off)
+## 2026-10-01 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders

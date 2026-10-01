@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "423b879f",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 183.5,
-   "status": "cancelled",
-   "created": "2026-09-28 11:57",
-   "created_ts": 1790611054,
-   "why": "cap downside on fresh entry",
-   "evidence": "ATR 3.02%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 12:27",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c55cbf30",
    "ticker": "RTX",
    "kind": "stop_loss",
@@ -6701,7 +6683,7 @@
    "ticker": "AMD",
    "kind": "take_profit",
    "price": 611.6668,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:47",
    "created_ts": 1790862470,
    "why": "close 100% at +0.5% over the average cost",
@@ -6711,14 +6693,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:24",
+   "cancel_reason": "position closed"
   },
   {
    "id": "14d09bab",
    "ticker": "AMD",
    "kind": "stop_loss",
    "price": 601.8459,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 09:47",
    "created_ts": 1790862470,
    "why": "close it all at -1.2% under the average cost",
@@ -6728,14 +6712,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:24"
   },
   {
    "id": "04731ec4",
    "ticker": "AMD",
    "kind": "buy_limit",
    "price": 590.5942,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:47",
    "created_ts": 1790862470,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6745,7 +6730,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 10:24",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e2afeb58",
@@ -6993,7 +6980,7 @@
    "ticker": "CRWD",
    "kind": "stop_loss",
    "price": 261.871,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "close it all at -1.4% under the average cost",
@@ -7003,7 +6990,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:24",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5b12f467",
@@ -7439,7 +7428,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-01 10:20",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "c0964161",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 266.072,
+   "status": "working",
+   "created": "2026-10-01 10:24",
+   "created_ts": 1790864652,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $265.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:20"
+ "updated": "2026-10-01 10:24"
 }

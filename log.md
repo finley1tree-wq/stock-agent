@@ -20810,3 +20810,8 @@ Decision: nothing at this check. 16 standing order(s) working.
   (dropped IBM: sold 39 min ago, cooling off)
   (dropped IBM: sold 40 min ago, cooling off)
   (dropped IBM: sold 41 min ago, cooling off)
+  (dropped IBM: sold 41 min ago, cooling off)
+  (cancelled 2 standing order(s) on AMD: position closed)
+- SELL 100% AMD [stop_loss @ $601.54] -> $1975.97 (-1.20%) — close it all at -1.2% under the average cost
+  (dropped IBM: sold 42 min ago, cooling off)
+## 2026-10-01 10:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
