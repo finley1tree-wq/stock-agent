@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T10:34-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-10-01T10:38-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,6 +156,39 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "adb9dd42",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.302,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.33,
+   "pct_away": -0.03,
+   "good_until": "2026-10-06",
+   "why": "close it all at -0.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d99c9e52",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 484.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 483.73,
+   "pct_away": 0.06,
+   "good_until": "2026-10-01",
+   "why": "resting limit slightly below current price for better entry once cooldown clears",
+   "signals": [
+    "news"
+   ]
+  },
+  {
    "id": "f3ef6e9e",
    "ticker": "SKWD",
    "kind": "take_profit",
@@ -167,6 +200,23 @@
    "pct_away": 0.06,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "941ef32d",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 86.3911,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.33,
+   "pct_away": 0.07,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -190,39 +240,6 @@
    ]
   },
   {
-   "id": "d99c9e52",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 484.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 483.48,
-   "pct_away": 0.11,
-   "good_until": "2026-10-01",
-   "why": "resting limit slightly below current price for better entry once cooldown clears",
-   "signals": [
-    "news"
-   ]
-  },
-  {
-   "id": "941ef32d",
-   "ticker": "KO",
-   "kind": "take_profit",
-   "price": 86.3911,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.29,
-   "pct_away": 0.12,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "90fe1452",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -230,44 +247,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 126.14,
-   "pct_away": 0.36,
+   "last": 126.21,
+   "pct_away": 0.31,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6f3dc4ba",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 85.9322,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.29,
-   "pct_away": -0.41,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "879c4743",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 230.6794,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 229.51,
-   "pct_away": 0.51,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -281,10 +264,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 91.71,
-   "pct_away": 0.56,
+   "last": 91.86,
+   "pct_away": 0.39,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "33211bd0",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 227.9504,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 228.94,
+   "pct_away": -0.43,
+   "good_until": "2026-10-06",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -298,8 +298,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 456.07,
-   "pct_away": -0.67,
+   "last": 456.35,
+   "pct_away": -0.73,
    "good_until": "2026-10-01",
    "why": "resting limit near day low to get a better entry than chasing at market",
    "signals": [
@@ -307,17 +307,17 @@
    ]
   },
   {
-   "id": "33211bd0",
+   "id": "879c4743",
    "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 227.9504,
+   "kind": "take_profit",
+   "price": 230.6794,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 229.51,
-   "pct_away": -0.68,
+   "last": 228.94,
+   "pct_away": 0.76,
    "good_until": "2026-10-06",
-   "why": "close it all at -0.8% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -331,8 +331,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 126.14,
-   "pct_away": -0.9,
+   "last": 126.21,
+   "pct_away": -0.96,
    "good_until": "2026-10-06",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -348,29 +348,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 91.71,
-   "pct_away": -2.41,
+   "last": 91.86,
+   "pct_away": -2.57,
    "good_until": "2026-10-01",
    "why": "Protective stop",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "9a568eba",
-   "ticker": "FWONK",
-   "kind": "buy_limit",
-   "price": 89.2206,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 91.71,
-   "pct_away": -2.71,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -381,8 +364,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 229.51,
-   "pct_away": -2.84,
+   "last": 228.94,
+   "pct_away": -2.59,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9a568eba",
+   "ticker": "FWONK",
+   "kind": "buy_limit",
+   "price": 89.2206,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 91.86,
+   "pct_away": -2.87,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -398,8 +398,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 126.14,
-   "pct_away": -3.0,
+   "last": 126.21,
+   "pct_away": -3.05,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -415,8 +415,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.29,
-   "pct_away": -3.03,
+   "last": 86.33,
+   "pct_away": -3.08,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

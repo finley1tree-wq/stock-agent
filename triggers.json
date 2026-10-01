@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "6342a239",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 521.2959,
-   "status": "cancelled",
-   "created": "2026-09-28 12:28",
-   "created_ts": 1790612902,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $519.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 12:58",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "3abefcdf",
    "ticker": "LMT",
    "kind": "buy_limit",
@@ -7250,7 +7231,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 85.9322,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:29",
    "created_ts": 1790864996,
    "why": "close it all at -0.4% under the average cost",
@@ -7260,7 +7241,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ec19012f",
@@ -7433,7 +7416,24 @@
    ],
    "good_until": "2026-10-06",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "adb9dd42",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.302,
+   "status": "working",
+   "created": "2026-10-01 10:38",
+   "created_ts": 1790865490,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $86.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:34"
+ "updated": "2026-10-01 10:38"
 }

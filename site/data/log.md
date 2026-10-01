@@ -1,8 +1,3 @@
-## 2026-09-30 12:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-30 12:47 ET (Wednesday) — week 2026-W40 — budget left $22580.67 (today $39725.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
   (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
   (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
@@ -398,3 +393,8 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
 - SELL 100% HD [take_profit @ $278.37] -> $626.66 (+0.27%) — close 100% at +0.3% over the average cost
   (dropped NOC: sold 23 min ago, cooling off)
 ## 2026-10-01 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (dropped NOC: sold 24 min ago, cooling off)
+  (dropped NOC: sold 25 min ago, cooling off)
+  (dropped NOC: sold 26 min ago, cooling off)
+  (dropped NOC: sold 26 min ago, cooling off)
+  (dropped NOC: sold 27 min ago, cooling off)
