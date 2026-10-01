@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 5476.57,
+  "spent": 4976.69,
   "deployed": 285850.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -26,7 +26,7 @@
     "NLR": 6.69,
     "HD": 0.36,
     "NOC": 626.26,
-    "UNH": 500.0,
+    "UNH": 0.12,
     "GLD": 500.0
   },
   "deployed_by_ticker": {
@@ -5518,13 +5518,34 @@
       ],
       "evidence": "Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?' plus defense sector congress pressure",
       "hold_minutes": 30
+    },
+    {
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 1.376149,
+      "status": "filled",
+      "price": 363.25,
+      "proceeds": 499.88,
+      "realized_pnl": -0.12,
+      "realized_pct": -0.02,
+      "date": "2026-10-01",
+      "time_et": "10:05",
+      "ts": 1790863500,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $363.33",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 5355.37,
+  "spent_today": 4855.49,
   "deployed_today": 39375.0,
   "orders_today": 19,
-  "sells_today": 12,
+  "sells_today": 13,
   "sold_today": [
     "ACN",
     "TTD",
@@ -5537,7 +5558,8 @@
     "GOOGL",
     "MSFT",
     "LMT",
-    "HUBB"
+    "HUBB",
+    "UNH"
   ],
   "sold_ts": {
     "PLTR": 1790784896,
@@ -5547,7 +5569,7 @@
     "ACN": 1790861747,
     "MSFT": 1790863203,
     "NOC": 1790788653,
-    "UNH": 1790784279,
+    "UNH": 1790863518,
     "CRWD": 1790790810,
     "NVDA": 1790862664,
     "GOOGL": 1790862834,
@@ -5571,35 +5593,32 @@
     "LTH": 1790862084,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790863417,
-  "last_check_ts": 1790863417,
-  "last_bar_ts": 1790863200,
+  "last_publish_ts": 1790863517,
+  "last_check_ts": 1790863517,
+  "last_bar_ts": 1790863500,
   "last_decision_ts": 1790863417,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "4073d2fd": 381.7716,
-    "3a2fde5b": 364.1366,
-    "fb0e680d": 185.8424,
     "f36c05c2": 455.8669,
     "a976851c": 484.8103,
-    "d4ea6f44": 379.211,
+    "4073d2fd": 381.7716,
     "90727724": 184.4331,
-    "f4366075": 361.3135,
+    "d4ea6f44": 379.211,
+    "fb0e680d": 185.8424,
     "7f3f5c0c": 266.8961,
-    "40c4a057": 480.2315,
     "14d09bab": 601.8459,
-    "985a0063": 611.6668,
+    "40c4a057": 480.2315,
     "dbd7922c": 189.4105,
+    "985a0063": 611.6668,
     "3dbf20b8": 261.871,
     "4c3ac728": 445.0,
     "04731ec4": 590.5942,
-    "4f327e41": 468.995,
     "c4bcef0c": 179.8768,
-    "da3dc2ec": 441.1366,
+    "31bf26e9": 369.6088,
+    "4f327e41": 468.995,
     "5b12f467": 257.4962,
-    "efb2ac53": 352.4301,
-    "31bf26e9": 369.6088
+    "da3dc2ec": 441.1366
   },
   "hold_arm": {
     "AMD": 90,

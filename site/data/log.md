@@ -1,6 +1,3 @@
-## 2026-09-30 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-30 12:00 ET (Wednesday) — week 2026-W40 — budget left $21020.25 (today $35250.00 put to work, 24 buys, 15 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
@@ -398,3 +395,6 @@ lesson: Diversify sector exposure with individual news evidence per name when be
 ~ WORKING buy_limit $500.00 RTX @ $179.88 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25219.82 (+0.88% on $25000.00 in) · cash $19855.02 · realised +230.02
 Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [stop_loss @ $363.25] -> $499.88 (-0.02%) — close it all at -0.6% under the average cost
+## 2026-10-01 10:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
