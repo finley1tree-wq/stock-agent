@@ -1,8 +1,3 @@
-  (cancelled 2 standing order(s) on HLI: position closed)
-- SELL 100% HLI [stop_loss @ $127.30] -> $625.55 (+0.09%) — close it all at -0.9% under the average cost
-## 2026-09-30 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-30 11:28 ET (Wednesday) — week 2026-W40 — budget left $22142.51 (today $33125.00 put to work, 20 buys, 13 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
@@ -398,3 +393,8 @@ lesson: When below min_positions with high idle cash, diversify across sectors u
 ~ WORKING buy_limit $500.00 LMT @ $494.83 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25233.08 (+0.93% on $25000.00 in) · cash $6250.44 · realised +250.44
 Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $148.88] -> $3509.82 (+0.28%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on NVDA: position closed)
+- SELL 100% NVDA [take_profit @ $231.17] -> $2005.09 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-10-01 09:51 ET — tick — 2 sell(s), 0 buy(s) from standing orders
