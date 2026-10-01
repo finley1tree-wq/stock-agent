@@ -20982,3 +20982,6 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [stop_loss @ $481.74] -> $499.40 (-0.12%) — close it all at -0.7% under the average cost
 ## 2026-10-01 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMZN: position closed)
+- SELL 100% AMZN [stop_loss @ $246.19] -> $499.29 (-0.14%) — close it all at -0.6% under the average cost
+## 2026-10-01 11:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
