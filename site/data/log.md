@@ -1,8 +1,3 @@
-~ WORKING buy_limit $625.00 PLTR @ $189.41 until 2026-10-01 — wanted it, but not at the high — resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% TSM @ $455.87 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $441.14 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $266.90 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% CRWD @ $261.87 until 2026-10-06 — close it all at -1.4% under the average cost
 ~ WORKING buy_limit $500.00 CRWD @ $257.50 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% NOC @ $484.81 until 2026-10-06 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% NOC @ $480.23 until 2026-10-06 — close it all at -0.7% under the average cost
@@ -398,3 +393,8 @@ portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $21711.73 · realis
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week
 - BUY $500.00 NOC [buy_limit @ $484.51] — wanted it, but not at the high — resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-01 12:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $364.97] -> $501.11 (+0.22%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $456.28] -> $501.19 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-01 12:31 ET — tick — 2 sell(s), 0 buy(s) from standing orders

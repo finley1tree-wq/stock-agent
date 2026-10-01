@@ -21148,3 +21148,8 @@ portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $21711.73 · realis
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week
 - BUY $500.00 NOC [buy_limit @ $484.51] — wanted it, but not at the high — resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-01 12:27 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $364.97] -> $501.11 (+0.22%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $456.28] -> $501.19 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-01 12:31 ET — tick — 2 sell(s), 0 buy(s) from standing orders
