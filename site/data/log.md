@@ -1,29 +1,3 @@
-~ WORKING take_profit 100% LTH @ $39.83 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% LTH @ $39.27 until 2026-10-06 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 LTH @ $38.48 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TTD @ $12.45 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% TTD @ $12.24 until 2026-10-06 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 TTD @ $12.02 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25204.70 (+0.82% on $25000.00 in) · cash $8710.40 · realised +210.40
-Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week
-- BUY $3500.00 CCJ [buy_limit @ $86.56] — wanted it, but not at the high — resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage
-## 2026-10-01 09:35 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on ACN: position closed)
-- SELL 100% ACN [take_profit @ $223.91] -> $4547.03 (+1.05%) — close 100% at +0.5% over the average cost
-## 2026-10-01 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [stop_loss @ $12.24] -> $1976.02 (-1.20%) — close it all at -1.2% under the average cost
-## 2026-10-01 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $4000.00 IBM [buy_limit @ $230.96] — wanted it, but not at the high — resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative
-## 2026-10-01 09:39 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CCJ: position closed)
-- SELL 100% CCJ [stop_loss @ $86.59] -> $3500.88 (+0.03%) — close it all at -1.0% under the average cost
-## 2026-10-01 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on LTH: position closed)
-- SELL 100% LTH [stop_loss @ $39.70] -> $3002.59 (+0.09%) — close it all at -1.0% under the average cost
-## 2026-10-01 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $231.74] -> $4013.52 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-01 09:47 ET (Thursday) — week 2026-W40 — budget left $17918.84 (today $24000.00 put to work, 7 buys, 5 sells) — SIM (pretend money) via sim
@@ -398,3 +372,29 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $21126.50 this week
   (cancelled 2 standing order(s) on XENE: position closed)
 - SELL 100% XENE [take_profit @ $39.14] -> $453.86 (+0.86%) — close 100% at +0.8% over the average cost
 ## 2026-10-01 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% CCJ [time stop] -> $869.96 (-0.58%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 11:48 ET (Thursday) — week 2026-W40 — budget left $22450.32 (today $51000.00 put to work, 42 buys, 36 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (5 of 8) with 89.8% cash idle - this is costing the account per counterfactual data. Adding IBM (Accenture earnings spillover headline, low in day range), AMD (AI chip momentum, mid-range entry not chasing), and NLR (nuclear/AI power theme, near day low) diversifies away from the existing GOOGL/LEN/UNH/TSM/ACN cluster into new sectors with concrete evidence each. Protective stops placed on all new entries per risk_management which has the best track record (0.18% avg, 87% hit rate).
+lesson: Below min_positions with high idle cash is itself costing the account (counterfactual shows idle checks are 52% of all checks); prioritize reaching min_positions with sector-diversified, evidence-backed names each check rather than waiting.
+- BUY $550.00 IBM [filled] ['news', 'momentum'] — Accenture earnings beat spilling over positively into IBM's consulting exposure, not yet fully priced given low pct_of_day_range (3.1%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: IBM Climbs 5% as 'Strength in Accenture's Consulting Business Gives IBM Stock a Much-Needed Boost' (Barrons, 14:11); IBM +2.26% 1d
+- BUY $550.00 AMD [filled] ['news', 'momentum'] — AI chip complex strength continuing, AMD has strong 1m momentum without being extended intraday [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'Nvidia's Latest Move is a Green Light to Keep Loading Up' 24/7 Wall St 12:45; AMD +32.74% 1m momentum, mid-range at 49.1% pct_of_day_range
+- BUY $525.00 NLR [filled] ['news'] — Nuclear/AI power theme intact per backtest priors (nuclear sector avg_total_return_pct 282% over 2y), entering near day low not chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks; NLR low in range at 8.6% pct_of_day_range offering better entry
+~ WORKING stop_loss 100% IBM @ $219.50 until 2026-10-01 — bound downside on earnings-spillover trade
+~ WORKING stop_loss 100% AMD @ $592.00 until 2026-10-01 — bound downside on momentum entry
+~ WORKING stop_loss 100% NLR @ $98.80 until 2026-10-01 — bound downside on nuclear theme entry
+~ WORKING take_profit 100% IBM @ $225.71 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $218.18 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $613.07 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 AMD @ $591.91 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NLR @ $102.33 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NLR @ $98.94 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25199.77 (+0.80% on $25000.00 in) · cash $21156.90 · realised +206.90
+Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week

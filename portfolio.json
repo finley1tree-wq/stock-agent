@@ -1,5 +1,5 @@
 {
-  "cash": 21911.933010780074,
+  "cash": 21156.896417549324,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W40",
@@ -40,15 +40,6 @@
       "last_buy_ts": 1790867881,
       "opened_ts": 1790867881
     },
-    "CCJ": {
-      "qty": 10.33869721289858,
-      "avg_cost": 84.63348737095697,
-      "opened": "2026-10-01",
-      "last_buy": "2026-10-01",
-      "tranches": 2,
-      "last_buy_ts": 1790867918,
-      "opened_ts": 1790867882
-    },
     "ACN": {
       "qty": 2.53569133079222,
       "avg_cost": 216.903372,
@@ -57,6 +48,33 @@
       "tranches": 1,
       "last_buy_ts": 1790868780,
       "opened_ts": 1790868780
+    },
+    "IBM": {
+      "qty": 2.4451510604989144,
+      "avg_cost": 224.934978,
+      "opened": "2026-10-01",
+      "last_buy": "2026-10-01",
+      "tranches": 1,
+      "last_buy_ts": 1790869736,
+      "opened_ts": 1790869736
+    },
+    "AMD": {
+      "qty": 0.9013112965015585,
+      "avg_cost": 610.22202,
+      "opened": "2026-10-01",
+      "last_buy": "2026-10-01",
+      "tranches": 1,
+      "last_buy_ts": 1790869736,
+      "opened_ts": 1790869736
+    },
+    "NLR": {
+      "qty": 5.146962948729386,
+      "avg_cost": 102.0019,
+      "opened": "2026-10-01",
+      "last_buy": "2026-10-01",
+      "tranches": 1,
+      "last_buy_ts": 1790869736,
+      "opened_ts": 1790869736
     }
   },
   "fills": [
@@ -20564,7 +20582,49 @@
       "realized_pct": 0.86,
       "type": "sell",
       "date": "2026-10-01 11:47"
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 10.338697,
+      "status": "filled",
+      "price": 84.15,
+      "proceeds": 869.96,
+      "realized_pnl": -5.04,
+      "realized_pct": -0.58,
+      "type": "sell",
+      "date": "2026-10-01 11:47"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.445151,
+      "price": 224.93,
+      "type": "buy",
+      "date": "2026-10-01 11:48"
+    },
+    {
+      "symbol": "AMD",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.901311,
+      "price": 610.22,
+      "type": "buy",
+      "date": "2026-10-01 11:48"
+    },
+    {
+      "symbol": "NLR",
+      "notional": 525.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.146963,
+      "price": 102.0,
+      "type": "buy",
+      "date": "2026-10-01 11:48"
     }
   ],
-  "realized_pnl": 211.93301078009944
+  "realized_pnl": 206.89641754934914
 }
