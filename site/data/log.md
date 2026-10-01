@@ -1,17 +1,3 @@
-  (dropped NOC: sold 43 min ago, cooling off)
-  (dropped NOC: sold 44 min ago, cooling off)
-  (dropped NOC: sold 45 min ago, cooling off)
-- BUY $500.00 NOC [buy_limit @ $482.31] — resting limit slightly below current price for better entry once cooldown clears [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-01 10:56 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% FWONK [time stop] -> $493.95 (-1.21%) — held 30 min, the 30-minute limit: out regardless
-## 2026-10-01 11:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 11:02 ET (Thursday) — week 2026-W40 — budget left $22003.54 (today $46625.00 put to work, 33 buys, 27 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
   (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
 brain: Still below min_positions (6 of 8) with 88% cash idle - counterfactual data shows idle sitting-out has cost (idle_universe_avg -0.06% but picking beats random). Adding META, AMZN, PLD, UNH diversifies across distinct sectors (social/AI, retail/cloud, REIT, healthcare) each with its own concrete news catalyst, avoiding the correlated-cluster mistake flagged repeatedly in past lessons. Left buy_limit triggers on CCJ and NVDA to opportunistically add on dips without chasing current price.
 lesson: Diversify with one name per distinct sector/catalyst and size positions at $2000 to actually move cash_idle_pct down, rather than repeating small adds to the same widely_held cluster.
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there is nothing to protect and no new entries are allowed - any buy or buy_limit would simply be dropped per guardrails. Sitting flat for this check is forced by the entry cutoff, not a discretionary cash call.
 lesson: When no_new_entries_this_check is true and the book is flat with zero holdings, there are literally no orders to place (no entries allowed, nothing to sell/protect) - just wait for the next window rather than trying workarounds.
+portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-01 15:00 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and I hold zero positions, so there is nothing to protect or sell and no entries can be placed - any buy/buy_limit/buy_stop would just be dropped. With only one check left today and no open book, the correct action is to wait.
+lesson: When no_new_entries_this_check is true and positions are flat, there is nothing actionable - confirmed again today; stop re-litigating this each check.
 portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)

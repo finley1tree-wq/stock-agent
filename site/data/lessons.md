@@ -198,3 +198,4 @@
 - 2026-10-01 (9d graded, realised 0.01% per dollar): Once no_new_entries_this_check is true, stop proposing buys entirely and just verify existing protective brackets are correctly placed rather than trying to force new positions.
 - 2026-10-01 (9d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions are flat, do not try to force buy_limit triggers - they are entries and will be dropped; just wait for the next window.
 - 2026-10-01 (9d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and the book is flat with zero holdings, there are literally no orders to place (no entries allowed, nothing to sell/protect) - just wait for the next window rather than trying workarounds.
+- 2026-10-01 (9d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and positions are flat, there is nothing actionable - confirmed again today; stop re-litigating this each check.
