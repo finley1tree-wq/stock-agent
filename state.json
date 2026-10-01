@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 2696.1,
-  "deployed": 299100.18,
+  "spent": 3946.1,
+  "deployed": 300350.18,
   "by_ticker": {
     "AVGO": 37.31,
     "TTD": 35.61,
@@ -9,14 +9,14 @@
     "PLTR": 16.2,
     "RTX": 5.98,
     "AMD": 38.67,
-    "LMT": 27.57,
+    "LMT": 527.57,
     "GOOGL": 500.54,
     "NEM": 4.77,
     "AMZN": 4.75,
     "NVDA": 20.57,
     "CCJ": 24.31,
     "CRWD": 18.88,
-    "HLI": 30.51,
+    "HLI": 405.51,
     "FWONK": 16.31,
     "HUBB": 59.77,
     "CHRW": 36.4,
@@ -29,7 +29,8 @@
     "O": 0.49,
     "NOC": 0.6,
     "PLD": 0.04,
-    "ACN": 0.42
+    "ACN": 0.42,
+    "KO": 375.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -52,9 +53,9 @@
     "META": 4500.0,
     "RTX": 11800.0,
     "CCJ": 19525.0,
-    "LMT": 8750.0,
+    "LMT": 9250.0,
     "NEM": 4625.0,
-    "HLI": 6200.0,
+    "HLI": 6575.0,
     "FWONK": 2125.0,
     "NLR": 3025.0,
     "HUBB": 11625.0,
@@ -63,7 +64,7 @@
     "LTH": 8125.0,
     "SKWD": 875.0,
     "GLD": 500.0,
-    "KO": 625.0,
+    "KO": 1000.0,
     "O": 500.0,
     "PLD": 500.0,
     "XENE": 450.0
@@ -6551,12 +6552,66 @@
       ],
       "evidence": "bought 30 min ago, -0.06% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "LMT",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.98262,
+      "price": 508.84,
+      "date": "2026-10-01",
+      "time_et": "12:04",
+      "ts": 1790870693,
+      "why": "Defense demand catalyst with AEGIS contract news, diversifies away from widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "LMT headline 'Can AEGIS Combat System Demand Boost Lockheed Martin's Growth?' and stock +66% run per Simply Wall St piece, defense sector hit_rate 0.55 in track record",
+      "hold_minutes": 30
+    },
+    {
+      "symbol": "KO",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.352508,
+      "price": 86.16,
+      "date": "2026-10-01",
+      "time_et": "12:04",
+      "ts": 1790870693,
+      "why": "Defensive consumer staple diversifier, low beta, congress pressure signal [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Congress net buy pressure +1.0 on KO; headline 'Pepsi vs Coke: Here's What $10,000 Could Be Worth by 2031'",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "HLI",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.950646,
+      "price": 127.09,
+      "date": "2026-10-01",
+      "time_et": "12:04",
+      "ts": 1790870693,
+      "why": "Financials sector diversifier with M&A tailwind evidence [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "insider"
+      ],
+      "evidence": "Headline '3 Investment Bank Stocks Tied To The UK M And A Recovery' names HLI; congress net buy pressure +2.0 on HLI",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 2574.9,
-  "deployed_today": 52625.0,
-  "orders_today": 45,
+  "spent_today": 3824.9,
+  "deployed_today": 53875.0,
+  "orders_today": 48,
   "sells_today": 39,
   "sold_today": [
     "ACN",
@@ -6629,20 +6684,27 @@
     "O": 1790867766,
     "XENE": 1790869630
   },
-  "last_publish_ts": 1790870560,
-  "last_check_ts": 1790870607,
+  "last_publish_ts": 1790870693,
+  "last_check_ts": 1790870693,
   "last_bar_ts": 1790870400,
-  "last_decision_ts": 1790869714,
+  "last_decision_ts": 1790870693,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "8a7c899d": 102.3346,
+    "0edaafce": 86.291,
+    "3d9ddf14": 510.0714,
     "77ed9e44": 362.1426,
     "c57eebef": 456.2779,
+    "4c47d71e": 85.8317,
     "fc1e95cd": 225.7083,
+    "7de2fca3": 127.545,
     "a754d678": 453.0,
+    "6703a4ba": 484.507,
     "93cde703": 364.9684,
+    "5e717691": 505.7564,
     "aa070216": 342.514,
+    "70a3bbd1": 125.9525,
     "086fc2c0": 227.0,
     "917e34bc": 334.6,
     "015ab17e": 446.5,
@@ -6651,17 +6713,20 @@
     "c1999cad": 353.2352,
     "f8496407": 441.5343,
     "21d74d52": 218.1821,
+    "a91759ef": 493.5748,
+    "2c4f7519": 123.2773,
+    "f7e0c635": 83.5752,
     "0d761dd2": 98.94,
     "93e11e5a": 98.8
   },
   "hold_arm": {
     "GOOGL": 90,
-    "LEN": 90,
     "UNH": 90,
     "TSM": 90,
-    "ACN": 30,
     "IBM": 90,
-    "AMD": 90,
-    "NLR": 90
+    "NLR": 90,
+    "LMT": 30,
+    "KO": 90,
+    "HLI": 90
   }
 }

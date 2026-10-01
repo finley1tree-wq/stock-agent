@@ -1,192 +1,6 @@
 {
  "orders": [
   {
-   "id": "74026745",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 182.5,
-   "status": "cancelled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "Protective stop below entry",
-   "evidence": "PLTR ATR 3.096%, entry ~186.49",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7c92d33c",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 507.9852,
-   "status": "filled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "wanted it, but not at the high \u2014 resting at $507.99. Congress buy pressure plus positive momentum, not cooling off",
-   "evidence": "Rep. Josh Gottheimer disclosed a $250k-1M MSFT buy (filed 2026-09-14); MSFT +0.53% today, near day high (93.5% of range) but strong 5d momentum +2.79%",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 2500.0,
-   "closed": "2026-09-29 11:22"
-  },
-  {
-   "id": "a062a584",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 231.414,
-   "status": "filled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $230.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 10:54"
-  },
-  {
-   "id": "2a2f16aa",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 223.9051,
-   "status": "cancelled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $230.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 10:54",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "cf4d55a6",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 340.0327,
-   "status": "cancelled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $339.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a1096c66",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 328.9173,
-   "status": "cancelled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $339.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0d4a4532",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 187.1698,
-   "status": "cancelled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $186.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ee979652",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 180.9341,
-   "status": "cancelled",
-   "created": "2026-09-29 10:36",
-   "created_ts": 1790692613,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $186.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:07",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b33806c4",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 353.5,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "protective stop ~2% below entry",
-   "evidence": "ATR 2.75%, entry near 360.67",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "38f1e389",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 170.3,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "protective stop ~2% below entry",
-   "evidence": "ATR 3.918%, entry 173.77",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "36278fb2",
    "ticker": "AVGO",
    "kind": "take_profit",
@@ -7432,7 +7246,177 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "6703a4ba",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 484.507,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "wanted it, but not at the high \u2014 resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Headline 'Boeing Just Beat Northrop for a $20B Navy Fighter Contract' - lost bid but NOC still +0.66% today, defense sector diversification",
+   "signals": [
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 500.0
+  },
+  {
+   "id": "3d9ddf14",
+   "ticker": "LMT",
+   "kind": "take_profit",
+   "price": 510.0714,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $508.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5e717691",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 505.7564,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $508.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a91759ef",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 493.5748,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $508.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
+  },
+  {
+   "id": "0edaafce",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 86.291,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $86.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4c47d71e",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 85.8317,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $86.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f7e0c635",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 83.5752,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $86.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
+  },
+  {
+   "id": "7de2fca3",
+   "ticker": "HLI",
+   "kind": "take_profit",
+   "price": 127.545,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $127.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "70a3bbd1",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 125.9525,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $127.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2c4f7519",
+   "ticker": "HLI",
+   "kind": "buy_limit",
+   "price": 123.2773,
+   "status": "working",
+   "created": "2026-10-01 12:04",
+   "created_ts": 1790870693,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $127.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 11:56"
+ "updated": "2026-10-01 12:04"
 }

@@ -21081,3 +21081,30 @@ Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
 ## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% ACN [time stop] -> $549.58 (-0.08%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-10-01 12:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 12:04 ET (Thursday) — week 2026-W40 — budget left $22303.90 (today $52625.00 put to work, 45 buys, 39 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (5 of 8) with 89% cash idle - the biggest cost per counterfactual data (idle_share 0.52, idle checks cost money). Adding LMT, NOC, KO, HLI diversifies sectors away from the current widely_held/nuclear cluster (GOOGL, UNH, TSM, IBM, NLR), each backed by concrete headline/congress evidence. ACN is in cooldown so dropping that one, keeping 4 new names at $1500-2000 each to reach 9 positions total.
+lesson: Reaching min_positions with sector-diverse, evidence-backed names beats sitting on idle cash; but avoid re-proposing cooling-off tickers like ACN.
+  (dropped ACN: sold 2 min ago, cooling off)
+  (dropped NOC: 98% up today's range — resting a limit at $484.51 instead of chasing)
+- BUY $500.00 LMT [filled] ['news', 'momentum'] — Defense demand catalyst with AEGIS contract news, diversifies away from widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: LMT headline 'Can AEGIS Combat System Demand Boost Lockheed Martin's Growth?' and stock +66% run per Simply Wall St piece, defense sector hit_rate 0.55 in track record
+- BUY $375.00 KO [filled] ['congress', 'news'] — Defensive consumer staple diversifier, low beta, congress pressure signal [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net buy pressure +1.0 on KO; headline 'Pepsi vs Coke: Here's What $10,000 Could Be Worth by 2031'
+- BUY $375.00 HLI [filled] ['news', 'insider'] — Financials sector diversifier with M&A tailwind evidence [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline '3 Investment Bank Stocks Tied To The UK M And A Recovery' names HLI; congress net buy pressure +2.0 on HLI
+~ WORKING buy_limit $500.00 NOC @ $484.51 until 2026-10-01 — wanted it, but not at the high — resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% LMT @ $510.07 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% LMT @ $505.76 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 LMT @ $493.57 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $86.29 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% KO @ $85.83 until 2026-10-06 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 KO @ $83.58 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $127.55 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% HLI @ $125.95 until 2026-10-06 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $123.28 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25207.73 (+0.83% on $25000.00 in) · cash $21385.47 · realised +210.47
+Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $21053.90 this week

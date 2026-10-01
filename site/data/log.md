@@ -1,30 +1,3 @@
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-brain: Only 2 of min 8 positions held with 71.7% cash idle - this is the dominant problem per counterfactual report (idle_share 0.53, cost -0.05% avg). Past lessons explicitly flag correlated congress cluster (HUBB/CHRW/LTH same discloser) so diversifying into widely_held tech (NVDA, MSFT, AVGO, GOOGL), a named-congress AMD trade, and defense (LMT) spreads sector risk while each has concrete headline/congress evidence and reasonable day-range entry points.
-lesson: When below min_positions with high idle cash, diversify across sectors using individual headline/congress evidence per name rather than piling into one correlated cluster.
-- BUY $2000.00 NVDA [filled] ['momentum', 'news'] — Widely-held AI leader with fresh positive headline and recovering momentum; sector has decent track record (0.0 avg but large n=425, hit rate 0.56) | evidence: NVDA +0.95% 1d, headline 'Nvidia's Latest Move is a Green Light to Keep Loading Up' 2026-10-01
-- BUY $2000.00 MSFT [filled] ['momentum', 'news'] — Strong 5d momentum plus positive relative-sector headline, low in day range (26.5%) giving room to run before hitting chase limit | evidence: MSFT +1.11% 1d, +4.15% 5d; headline notes 'Every S&P Sector Fell in September Except One' implying tech resilience
-- BUY $2000.00 AVGO [filled] ['news'] — Fresh bullish sell-side commentary and AI partnership headline support a position; price at only 1.8% of day range, good entry | evidence: Headline 'The Only Way I Stop Adding Broadcom is an AI Collapse' and 'Broadcom Stock Rises. Anthropic and Broadcom Are Becoming More Intertwined' both 2026-10-01
-- BUY $2000.00 GOOGL [filled] ['news'] — Near day low entry with fresh attention headline; widely_held sector decent track record | evidence: Headline 'Alphabet (GOOGL), What Is Behind The Fresh Attention?' 2026-10-01 13:08, price at 0.9% of day range (near day low)
-- BUY $2000.00 AMD [filled] ['news', 'momentum'] — Only in 17.6% of day range (near low), proven congress discloser with specific AMD track record, 1m momentum +32.45% | evidence: Rep. Rick W. Allen (+2.76% avg excess vs SPY over 8 scored buys, best AMD +13.2%) disclosed AMD buy; headline 'Nvidia's Latest Move is a Green Light to Keep Loading Up' spillover
-- BUY $2000.00 LMT [filled] ['news'] — Concrete new contract win headline, defense sector reasonable hit rate 0.55, diversifies away from logistics/industrial cluster per past lesson | evidence: Headline 'Lockheed Martin Secures Over $1 Billion in Defense Deals' 2026-09-30, price only 38% of day range
-  (dropped trigger HUBB stop_loss: duplicate of a working order)
-~ WORKING take_profit 100% NVDA @ $231.17 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% NVDA @ $229.13 until 2026-10-06 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 NVDA @ $223.67 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $520.02 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% MSFT @ $515.30 until 2026-10-06 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $503.11 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $351.54 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AVGO @ $347.75 until 2026-10-06 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 AVGO @ $339.95 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $344.05 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% GOOGL @ $340.58 until 2026-10-06 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $332.77 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $611.67 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% AMD @ $601.85 until 2026-10-06 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 AMD @ $590.59 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LMT @ $511.33 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% LMT @ $507.13 until 2026-10-06 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 LMT @ $494.83 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25233.08 (+0.93% on $25000.00 in) · cash $6250.44 · realised +250.44
 Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
@@ -398,3 +371,30 @@ Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
 ## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% ACN [time stop] -> $549.58 (-0.08%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-10-01 12:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 12:04 ET (Thursday) — week 2026-W40 — budget left $22303.90 (today $52625.00 put to work, 45 buys, 39 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (5 of 8) with 89% cash idle - the biggest cost per counterfactual data (idle_share 0.52, idle checks cost money). Adding LMT, NOC, KO, HLI diversifies sectors away from the current widely_held/nuclear cluster (GOOGL, UNH, TSM, IBM, NLR), each backed by concrete headline/congress evidence. ACN is in cooldown so dropping that one, keeping 4 new names at $1500-2000 each to reach 9 positions total.
+lesson: Reaching min_positions with sector-diverse, evidence-backed names beats sitting on idle cash; but avoid re-proposing cooling-off tickers like ACN.
+  (dropped ACN: sold 2 min ago, cooling off)
+  (dropped NOC: 98% up today's range — resting a limit at $484.51 instead of chasing)
+- BUY $500.00 LMT [filled] ['news', 'momentum'] — Defense demand catalyst with AEGIS contract news, diversifies away from widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: LMT headline 'Can AEGIS Combat System Demand Boost Lockheed Martin's Growth?' and stock +66% run per Simply Wall St piece, defense sector hit_rate 0.55 in track record
+- BUY $375.00 KO [filled] ['congress', 'news'] — Defensive consumer staple diversifier, low beta, congress pressure signal [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net buy pressure +1.0 on KO; headline 'Pepsi vs Coke: Here's What $10,000 Could Be Worth by 2031'
+- BUY $375.00 HLI [filled] ['news', 'insider'] — Financials sector diversifier with M&A tailwind evidence [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline '3 Investment Bank Stocks Tied To The UK M And A Recovery' names HLI; congress net buy pressure +2.0 on HLI
+~ WORKING buy_limit $500.00 NOC @ $484.51 until 2026-10-01 — wanted it, but not at the high — resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% LMT @ $510.07 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% LMT @ $505.76 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 LMT @ $493.57 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $86.29 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% KO @ $85.83 until 2026-10-06 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 KO @ $83.58 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $127.55 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% HLI @ $125.95 until 2026-10-06 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 HLI @ $123.28 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25207.73 (+0.83% on $25000.00 in) · cash $21385.47 · realised +210.47
+Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $21053.90 this week

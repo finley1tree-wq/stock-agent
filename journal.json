@@ -49867,7 +49867,7 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.38
+    "ret_now": -0.28
   },
   {
     "symbol": "LEN",
@@ -49894,7 +49894,9 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.33
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -50110,7 +50112,7 @@
     "code_version": "e2f76ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.23
   },
   {
     "symbol": "NOC",
@@ -50286,7 +50288,7 @@
     "code_version": "34748f9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.05
   },
   {
     "symbol": "CCJ",
@@ -50397,7 +50399,9 @@
     "code_version": "24beec2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -0.08,
+    "ret_final": -0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "XENE",
@@ -50501,7 +50505,8 @@
     "hour_et": 11,
     "code_version": "f30c23f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.03
   },
   {
     "symbol": "AMD",
@@ -50527,7 +50532,10 @@
     "hour_et": 11,
     "code_version": "f30c23f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.47,
+    "ret_now": 0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "NLR",
@@ -50552,7 +50560,8 @@
     "hour_et": 11,
     "code_version": "f30c23f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.31
   },
   {
     "symbol": "LEN",
@@ -50577,7 +50586,8 @@
     "evidence": "average cost $79.78",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "c490bcc"
+    "code_version": "c490bcc",
+    "hold_minutes": 59
   },
   {
     "symbol": "AMD",
@@ -50602,7 +50612,8 @@
     "evidence": "average cost $610.22",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "37c109a"
+    "code_version": "37c109a",
+    "hold_minutes": 6
   },
   {
     "symbol": "ACN",
@@ -50626,6 +50637,85 @@
     "evidence": "bought 30 min ago, -0.06% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "f810aaf"
+    "code_version": "f810aaf",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "LMT",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.98262,
+    "price": 508.84,
+    "date": "2026-10-01",
+    "time_et": "12:04",
+    "ts": 1790870693,
+    "why": "Defense demand catalyst with AEGIS contract news, diversifies away from widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "LMT headline 'Can AEGIS Combat System Demand Boost Lockheed Martin's Growth?' and stock +66% run per Simply Wall St piece, defense sector hit_rate 0.55 in track record",
+    "hold_minutes": 30,
+    "entry_price": 508.64,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -6.58,
+    "hour_et": 12,
+    "code_version": "2d78fd6",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KO",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.352508,
+    "price": 86.16,
+    "date": "2026-10-01",
+    "time_et": "12:04",
+    "ts": 1790870693,
+    "why": "Defensive consumer staple diversifier, low beta, congress pressure signal [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Congress net buy pressure +1.0 on KO; headline 'Pepsi vs Coke: Here's What $10,000 Could Be Worth by 2031'",
+    "hold_minutes": 90,
+    "entry_price": 86.14,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -2.12,
+    "hour_et": 12,
+    "code_version": "2d78fd6",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HLI",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.950646,
+    "price": 127.09,
+    "date": "2026-10-01",
+    "time_et": "12:04",
+    "ts": 1790870693,
+    "why": "Financials sector diversifier with M&A tailwind evidence [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "insider",
+      "news"
+    ],
+    "evidence": "Headline '3 Investment Bank Stocks Tied To The UK M And A Recovery' names HLI; congress net buy pressure +2.0 on HLI",
+    "hold_minutes": 90,
+    "entry_price": 127.04,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -4.41,
+    "hour_et": 12,
+    "code_version": "2d78fd6",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
