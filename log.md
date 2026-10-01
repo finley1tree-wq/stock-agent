@@ -21180,3 +21180,6 @@ lesson: Dual-insider buys (CEO+CFO same filing date) and top-ranked congress dis
 ~ WORKING buy_limit $500.00 CHRW @ $145.44 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25212.79 (+0.85% on $25000.00 in) · cash $22212.22 · realised +212.22
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21880.65 this week
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $127.69] -> $376.77 (+0.47%) — close 100% at +0.4% over the average cost
+## 2026-10-01 12:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

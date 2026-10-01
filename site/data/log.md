@@ -1,6 +1,3 @@
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
 brain: Below min_positions (4 of 8) with 85% cash idle - must deploy. ACN has the clearest concrete catalyst (23.75% earnings beat today) so buying now despite high range position, with a tight stop to cap downside risk. IBM/TSM/NOC are in cooldown so placed as buy_limit triggers to re-enter at sensible levels once cooldown clears, each backed by a specific headline rather than bare momentum, satisfying the momentum-only entry restriction.
@@ -398,3 +395,6 @@ lesson: Dual-insider buys (CEO+CFO same filing date) and top-ranked congress dis
 ~ WORKING buy_limit $500.00 CHRW @ $145.44 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25212.79 (+0.85% on $25000.00 in) · cash $22212.22 · realised +212.22
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21880.65 this week
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $127.69] -> $376.77 (+0.47%) — close 100% at +0.4% over the average cost
+## 2026-10-01 12:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
