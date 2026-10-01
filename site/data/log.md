@@ -1,13 +1,3 @@
-- BUY $625.00 TSM [buy_limit @ $458.44] — wanted it, but not at the high — resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa
-## 2026-09-30 13:21 ET — tick — 0 sell(s), 2 buy(s) from standing orders
-- SELL 100% MSFT [time stop] -> $549.90 (-0.02%) — held 90 min, the 90-minute limit: out regardless
-- SELL 100% AMD [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
-## 2026-09-30 13:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-09-30 13:49 ET (Wednesday) — week 2026-W40 — budget left $22752.32 (today $42225.00 put to work, 39 buys, 32 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
   (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
   (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +388,13 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
 - SELL 100% IBM [stop_loss @ $227.84] -> $495.51 (-0.90%) — close it all at -0.8% under the average cost
   (dropped NOC: sold 36 min ago, cooling off)
 ## 2026-10-01 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped NOC: sold 37 min ago, cooling off)
+  (dropped NOC: sold 37 min ago, cooling off)
+  (dropped NOC: sold 38 min ago, cooling off)
+  (dropped NOC: sold 39 min ago, cooling off)
+  (dropped NOC: sold 40 min ago, cooling off)
+  (dropped NOC: sold 40 min ago, cooling off)
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [stop_loss @ $126.21] -> $375.22 (+0.06%) — close it all at -0.9% under the average cost
+  (dropped NOC: sold 41 min ago, cooling off)
+## 2026-10-01 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 3365.63,
+  "spent": 2990.41,
   "deployed": 292600.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -16,7 +16,7 @@
     "NVDA": 20.57,
     "CCJ": 19.27,
     "CRWD": 18.88,
-    "HLI": 405.73,
+    "HLI": 30.51,
     "FWONK": 510.26,
     "HUBB": 59.77,
     "CHRW": 36.4,
@@ -6030,13 +6030,34 @@
       ],
       "evidence": "average cost $229.9",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 2.972877,
+      "status": "filled",
+      "price": 126.21,
+      "proceeds": 375.22,
+      "realized_pnl": 0.22,
+      "realized_pct": 0.06,
+      "date": "2026-10-01",
+      "time_et": "10:52",
+      "ts": 1790866200,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $126.14",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 3244.43,
+  "spent_today": 2869.21,
   "deployed_today": 46125.0,
   "orders_today": 32,
-  "sells_today": 25,
+  "sells_today": 26,
   "sold_today": [
     "ACN",
     "TTD",
@@ -6060,7 +6081,8 @@
     "GLD",
     "HD",
     "KO",
-    "SKWD"
+    "SKWD",
+    "HLI"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -6085,7 +6107,7 @@
     "CCJ": 1790862045,
     "LMT": 1790863415,
     "NEM": 1790777567,
-    "HLI": 1790781832,
+    "HLI": 1790866337,
     "FWONK": 1790785650,
     "HUBB": 1790863416,
     "NLR": 1790784703,
@@ -6096,36 +6118,33 @@
     "GLD": 1790864909,
     "KO": 1790865710
   },
-  "last_publish_ts": 1790866029,
-  "last_check_ts": 1790866250,
+  "last_publish_ts": 1790866336,
+  "last_check_ts": 1790866336,
   "last_bar_ts": 1790866200,
   "last_decision_ts": 1790865958,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "90fe1452": 126.5954,
     "d99c9e52": 484.0,
-    "3b5cc5ce": 126.278,
     "3cac3040": 53.7314,
     "aa070216": 342.514,
+    "a754d678": 453.0,
+    "d5ee91aa": 115.5371,
     "fb520ac2": 517.2064,
     "a12f1bb3": 80.0856,
-    "d5ee91aa": 115.5371,
     "9c1c0450": 92.221,
-    "a754d678": 453.0,
     "ba2aa045": 505.45,
     "d59ea3ec": 112.76,
-    "917e34bc": 334.6,
     "0c594401": 52.54,
+    "917e34bc": 334.6,
     "eb835408": 89.5,
     "79ddeeaa": 77.56,
     "9a568eba": 89.2206,
-    "66307a80": 111.6567,
     "53ab92db": 500.3842,
     "940baa82": 77.3866,
-    "9e14b4e0": 331.2647,
+    "66307a80": 111.6567,
     "da3bd200": 52.0211,
-    "3b420483": 122.3558
+    "9e14b4e0": 331.2647
   },
   "hold_arm": {
     "IBM": 90,
