@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 4174.68,
+  "spent": 3798.25,
   "deployed": 299100.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -27,7 +27,6 @@
     "UNH": 500.12,
     "IBM": 554.49,
     "O": 0.49,
-    "LEN": 375.0,
     "NOC": 0.6,
     "PLD": 0.04,
     "ACN": 550.0
@@ -6490,13 +6489,34 @@
       ],
       "evidence": "'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks; NLR low in range at 8.6% pct_of_day_range offering better entry",
       "hold_minutes": 90
+    },
+    {
+      "symbol": "LEN",
+      "side": "sell",
+      "qty": 4.700314,
+      "status": "filled",
+      "price": 80.09,
+      "proceeds": 376.43,
+      "realized_pnl": 1.43,
+      "realized_pct": 0.38,
+      "date": "2026-10-01",
+      "time_et": "11:49",
+      "ts": 1790869500,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $79.78",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 4053.48,
+  "spent_today": 3677.05,
   "deployed_today": 52625.0,
   "orders_today": 45,
-  "sells_today": 36,
+  "sells_today": 37,
   "sold_today": [
     "ACN",
     "TTD",
@@ -6528,12 +6548,13 @@
     "NEM",
     "O",
     "META",
-    "XENE"
+    "XENE",
+    "LEN"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
     "TSM": 1790863726,
-    "LEN": 1790602749,
+    "LEN": 1790869768,
     "AMD": 1790864652,
     "ACN": 1790865277,
     "MSFT": 1790867766,
@@ -6567,19 +6588,18 @@
     "O": 1790867766,
     "XENE": 1790869630
   },
-  "last_publish_ts": 1790869714,
-  "last_check_ts": 1790869714,
-  "last_bar_ts": 1790869500,
+  "last_publish_ts": 1790869766,
+  "last_check_ts": 1790869814,
+  "last_bar_ts": 1790869800,
   "last_decision_ts": 1790869714,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "a12f1bb3": 80.0856,
     "a754d678": 453.0,
     "77ed9e44": 362.1426,
     "fc1e95cd": 225.7083,
-    "8a7c899d": 102.3346,
     "82757e96": 613.0697,
+    "8a7c899d": 102.3346,
     "c57eebef": 456.2779,
     "93cde703": 364.9684,
     "aa070216": 342.514,
@@ -6593,12 +6613,10 @@
     "c1999cad": 353.2352,
     "f8496407": 441.5343,
     "0d761dd2": 98.94,
-    "16d992f0": 592.0,
     "21d74d52": 218.1821,
-    "fbec059c": 591.9134,
     "93e11e5a": 98.8,
-    "79ddeeaa": 77.56,
-    "940baa82": 77.3866,
+    "16d992f0": 592.0,
+    "fbec059c": 591.9134,
     "47e33108": 205.0
   },
   "hold_arm": {

@@ -6460,7 +6460,7 @@
    "ticker": "LEN",
    "kind": "stop_loss",
    "price": 77.56,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "Protective stop to bound downside on new LEN position",
@@ -6469,7 +6469,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:49",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d5ee91aa",
@@ -6624,7 +6626,7 @@
    "ticker": "LEN",
    "kind": "take_profit",
    "price": 80.0856,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "close 100% at +0.4% over the average cost",
@@ -6634,14 +6636,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:49"
   },
   {
    "id": "940baa82",
    "ticker": "LEN",
    "kind": "buy_limit",
    "price": 77.3866,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6651,7 +6654,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 11:49",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7c854131",
@@ -7418,5 +7423,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-01 11:48"
+ "updated": "2026-10-01 11:49"
 }

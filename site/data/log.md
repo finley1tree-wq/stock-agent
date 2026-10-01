@@ -1,6 +1,3 @@
-## 2026-10-01 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 09:47 ET (Thursday) — week 2026-W40 — budget left $17918.84 (today $24000.00 put to work, 7 buys, 5 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +395,6 @@ lesson: Below min_positions with high idle cash is itself costing the account (c
 ~ WORKING buy_limit $500.00 NLR @ $98.94 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25199.77 (+0.80% on $25000.00 in) · cash $21156.90 · realised +206.90
 Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
+  (cancelled 2 standing order(s) on LEN: position closed)
+- SELL 100% LEN [take_profit @ $80.09] -> $376.43 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-10-01 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
