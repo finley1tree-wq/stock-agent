@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "18b7923f",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 11.9601,
-   "status": "cancelled",
-   "created": "2026-09-28 11:26",
-   "created_ts": 1790609177,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $12.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-03",
-   "usd": 500.0,
-   "closed": "2026-09-28 11:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "fd13c00c",
    "ticker": "AMZN",
    "kind": "take_profit",
@@ -7222,7 +7203,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 480.2315,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "close it all at -0.7% under the average cost",
@@ -7232,7 +7213,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:07",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4f327e41",
@@ -7427,7 +7410,24 @@
    "good_until": "2026-10-06",
    "pct_of_position": 100.0,
    "closed": "2026-10-01 10:05"
+  },
+  {
+   "id": "a9fe50b0",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 484.13,
+   "status": "working",
+   "created": "2026-10-01 10:07",
+   "created_ts": 1790863633,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $483.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:05"
+ "updated": "2026-10-01 10:07"
 }
