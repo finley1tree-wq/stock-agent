@@ -6258,7 +6258,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 334.6,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "Protective stop to bound downside on new GOOGL position",
@@ -6267,7 +6267,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "79ddeeaa",
@@ -6406,7 +6408,7 @@
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 342.514,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "close 100% at +0.3% over the average cost",
@@ -6416,14 +6418,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9e14b4e0",
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 331.2647,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6433,7 +6437,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a12f1bb3",
