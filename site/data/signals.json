@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T09:53-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-01T09:55-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -163,8 +163,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 518.65,
-   "pct_away": 0.26,
+   "last": 519.63,
+   "pct_away": 0.07,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -173,17 +173,34 @@
    ]
   },
   {
-   "id": "e2afeb58",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 511.3339,
+   "id": "ee794f84",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 519.246,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 509.26,
-   "pct_away": 0.41,
+   "last": 519.63,
+   "pct_away": -0.07,
    "good_until": "2026-10-06",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "985a0063",
+   "ticker": "AMD",
+   "kind": "take_profit",
+   "price": 611.6668,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 609.6,
+   "pct_away": 0.34,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -197,8 +214,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 509.26,
-   "pct_away": -0.42,
+   "last": 508.92,
+   "pct_away": -0.35,
    "good_until": "2026-10-06",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -214,8 +231,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 453.58,
-   "pct_away": 0.46,
+   "last": 453.97,
+   "pct_away": 0.37,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -224,34 +241,17 @@
    ]
   },
   {
-   "id": "985a0063",
-   "ticker": "AMD",
+   "id": "e2afeb58",
+   "ticker": "LMT",
    "kind": "take_profit",
-   "price": 611.6668,
+   "price": 511.3339,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 608.37,
-   "pct_away": 0.54,
+   "last": 508.92,
+   "pct_away": 0.47,
    "good_until": "2026-10-06",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "24d1da39",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 515.2986,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 518.65,
-   "pct_away": -0.65,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -265,8 +265,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 608.37,
-   "pct_away": -1.07,
+   "last": 609.6,
+   "pct_away": -1.27,
    "good_until": "2026-10-06",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -282,29 +282,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 453.58,
-   "pct_away": -2.11,
+   "last": 453.97,
+   "pct_away": -2.2,
    "good_until": "2026-10-01",
    "why": "Standard protective stop",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "6765bc60",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 440.7389,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 453.58,
-   "pct_away": -2.83,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -315,8 +298,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 509.26,
-   "pct_away": -2.83,
+   "last": 508.92,
+   "pct_away": -2.77,
+   "good_until": "2026-10-06",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6765bc60",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 440.7389,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 453.97,
+   "pct_away": -2.91,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -332,8 +332,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 608.37,
-   "pct_away": -2.92,
+   "last": 609.6,
+   "pct_away": -3.12,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -349,8 +349,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 518.65,
-   "pct_away": -3.0,
+   "last": 519.63,
+   "pct_away": -3.18,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

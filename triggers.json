@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "a997f38e",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 382.0,
-   "status": "cancelled",
-   "created": "2026-09-28 11:10",
-   "created_ts": 1790608243,
-   "why": "lock partial gain above today's high",
-   "evidence": "day_high 380.98",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-28 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "0c73258b",
    "ticker": "NEM",
    "kind": "stop_loss",
@@ -7115,7 +7097,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 515.2986,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:47",
    "created_ts": 1790862470,
    "why": "close it all at -0.7% under the average cost",
@@ -7125,7 +7107,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:55",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "aedfa8fb",
@@ -7433,7 +7417,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-01 09:53",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "ee794f84",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 519.246,
+   "status": "working",
+   "created": "2026-10-01 09:55",
+   "created_ts": 1790862924,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $518.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 09:53"
+ "updated": "2026-10-01 09:55"
 }
