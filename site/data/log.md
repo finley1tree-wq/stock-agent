@@ -1,19 +1,3 @@
-  (dropped NOC: sold 21 min ago, cooling off)
-  (dropped NOC: sold 22 min ago, cooling off)
-  (dropped NOC: sold 23 min ago, cooling off)
-  (cancelled 2 standing order(s) on ACN: position closed)
-- SELL 100% ACN [take_profit @ $224.90] -> $753.67 (+0.49%) — close 100% at +0.5% over the average cost
-  (cancelled 2 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $278.37] -> $626.66 (+0.27%) — close 100% at +0.3% over the average cost
-  (dropped NOC: sold 23 min ago, cooling off)
-## 2026-10-01 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (dropped NOC: sold 24 min ago, cooling off)
-  (dropped NOC: sold 25 min ago, cooling off)
-  (dropped NOC: sold 26 min ago, cooling off)
-  (dropped NOC: sold 26 min ago, cooling off)
-  (dropped NOC: sold 27 min ago, cooling off)
-  (dropped NOC: sold 28 min ago, cooling off)
-  (dropped NOC: sold 28 min ago, cooling off)
   (dropped NOC: sold 29 min ago, cooling off)
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [stop_loss @ $86.26] -> $625.01 (+0.00%) — close it all at -0.4% under the average cost
@@ -398,3 +382,19 @@ Decision: nothing at this check. 30 standing order(s) working.
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $115.69] -> $501.87 (+0.37%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 13:36 ET (Thursday) — week 2026-W40 — budget left $23015.65 (today $58300.00 put to work, 56 buys, 52 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Only 3 positions held (RTX, ACN, XENE) vs min_positions 8, and entries cutoff is 14:00 ET - only ~24 minutes left to buy new names today. I have several existing buy_limit triggers resting (XENE, LTH, CHRW, TSM, SKWD, NVDA, HUBB, GPI) that should fill if price comes down, but I need more diversified exposure before the cutoff. Adding fresh limit orders on TSM, NVDA, MSFT (news-backed, not chasing) and LEN (Berkshire Hathaway Form 4 insider buy at $81.59, strong concrete evidence) to try to reach min_positions before 14:00; these are resting limits below market to avoid paying for the move already made, consistent with max_entry_range_pct guardrail.
+lesson: With a 14:00 ET entry cutoff, by 13:36 I should be queuing fresh buy_limits on under-range names immediately rather than waiting another check, since below_target_position_count persists.
+  (dropped trigger MSFT buy_limit: culled strategy (signals news: -33 over 31 trips, t -1.36))
+~ WORKING buy_limit $2500.00 TSM @ $455.00 until 2026-10-01 — capture TSM on a small pullback rather than chasing at 89% of day range
+~ WORKING buy_limit $2000.00 NVDA @ $228.50 until 2026-10-01 — entry slightly below market to avoid chasing the high of day range
+~ WORKING buy_limit $2000.00 LEN @ $81.50 until 2026-10-01 — Berkshire insider buy is strong concrete evidence, resting limit near their buy price
+portfolio: equity $25220.31 (+0.88% on $25000.00 in) · cash $23347.21 · realised +222.21
+Decision: nothing at this check. 24 standing order(s) working.

@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "dfdc4017",
-   "ticker": "TPL",
-   "kind": "take_profit",
-   "price": 335.2417,
-   "status": "cancelled",
-   "created": "2026-09-29 11:55",
-   "created_ts": 1790697314,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $333.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "08b2f64d",
-   "ticker": "TPL",
-   "kind": "buy_limit",
-   "price": 323.689,
-   "status": "cancelled",
-   "created": "2026-09-29 11:55",
-   "created_ts": 1790697314,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $333.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3b589cf0",
-   "ticker": "LTH",
-   "kind": "stop_loss",
-   "price": 38.3,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "Protective stop ~3.5% below entry",
-   "evidence": "ATR 3.89%, entry ~39.68",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "3410f6c9",
    "ticker": "AAPL",
    "kind": "stop_loss",
@@ -7434,7 +7378,58 @@
    ],
    "good_until": "2026-10-01",
    "usd": 375.0
+  },
+  {
+   "id": "7eef1ea3",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 455.0,
+   "status": "working",
+   "created": "2026-10-01 13:36",
+   "created_ts": 1790876217,
+   "why": "capture TSM on a small pullback rather than chasing at 89% of day range",
+   "evidence": "TSMC weighing Texas investment, up 0.76% today, strong 1m momentum +11%",
+   "signals": [
+    "news",
+    "momentum"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 2500.0
+  },
+  {
+   "id": "43d9c5c1",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 228.5,
+   "status": "working",
+   "created": "2026-10-01 13:36",
+   "created_ts": 1790876217,
+   "why": "entry slightly below market to avoid chasing the high of day range",
+   "evidence": "BofA names NVDA among 5 chip stocks to own; +1.02% today",
+   "signals": [
+    "news",
+    "momentum"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 2000.0
+  },
+  {
+   "id": "b15d49e1",
+   "ticker": "LEN",
+   "kind": "buy_limit",
+   "price": 81.5,
+   "status": "working",
+   "created": "2026-10-01 13:36",
+   "created_ts": 1790876217,
+   "why": "Berkshire insider buy is strong concrete evidence, resting limit near their buy price",
+   "evidence": "Berkshire Hathaway 10% holder bought 660,410 shares of LEN on 2026-09-28 at $81.59 per Form 4 filing",
+   "signals": [
+    "insider",
+    "congress"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 2000.0
   }
  ],
- "updated": "2026-10-01 13:31"
+ "updated": "2026-10-01 13:36"
 }
