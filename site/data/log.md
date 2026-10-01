@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% SKWD @ $53.36 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% SKWD @ $52.86 until 2026-10-06 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 SKWD @ $51.62 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% HLI @ $126.60 until 2026-10-06 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% HLI @ $125.00 until 2026-10-06 — close it all at -0.9% under the average cost
 ~ WORKING buy_limit $500.00 HLI @ $122.36 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ lesson: CHRW and HLI are in cooldown (41min, 5min remaining) so a direct market 
 ~ WORKING buy_limit $375.00 LTH @ $40.17 until 2026-10-01 — wanted it, but not at the high — resting at $40.17. Top congress score ticker, diversifies into leisure sector [probation at 25% size (no hour or signal lens has proven itself yet)]
 portfolio: equity $25213.85 (+0.86% on $25000.00 in) · cash $21790.37 · realised +215.37
 Decision: nothing at this check. 30 standing order(s) working.
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $265.68] -> $502.71 (+0.54%) — close 100% at +0.5% over the average cost
+## 2026-10-01 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
