@@ -1,5 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-09-30 16:00 ET — published the session's closing state
 
 ## 2026-10-01 09:32 ET (Thursday) — week 2026-W40 — budget left $24878.80 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
@@ -398,3 +396,5 @@ lesson: Diversify into named-evidence sectors beyond the existing book (industri
 ~ WORKING buy_limit $500.00 CCJ @ $82.19 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25202.80 (+0.81% on $25000.00 in) · cash $22329.72 · realised +204.72
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $21998.14 this week
+- BUY $375.00 CCJ [buy_limit @ $84.50] — Resting limit to get nuclear exposure at a better price than chasing [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-01 11:18 ET — tick — 0 sell(s), 1 buy(s) from standing orders

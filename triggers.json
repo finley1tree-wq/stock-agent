@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "067992de",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 364.3,
-   "status": "cancelled",
-   "created": "2026-09-29 09:55",
-   "created_ts": 1790690120,
-   "why": "protective stop ~2.5% below entry",
-   "evidence": "UNH ATR 2.078%, entry near $373.56",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 10:00",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f7ba7f90",
    "ticker": "NLR",
    "kind": "take_profit",
@@ -7028,7 +7010,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 84.5,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 11:02",
    "created_ts": 1790866940,
    "why": "Resting limit to get nuclear exposure at a better price than chasing",
@@ -7037,7 +7019,8 @@
     "news"
    ],
    "good_until": "2026-10-01",
-   "usd": 1500.0
+   "usd": 1500.0,
+   "closed": "2026-10-01 11:18"
   },
   {
    "id": "086fc2c0",
@@ -7414,7 +7397,7 @@
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 82.1881,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:17",
    "created_ts": 1790867858,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7424,8 +7407,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
+   "usd": 500.0,
+   "closed": "2026-10-01 11:18",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "92f03a84",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 82.0911,
+   "status": "working",
+   "created": "2026-10-01 11:18",
+   "created_ts": 1790867917,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $84.63",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
    "usd": 500.0
   }
  ],
- "updated": "2026-10-01 11:17"
+ "updated": "2026-10-01 11:18"
 }
