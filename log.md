@@ -20926,3 +20926,8 @@ lesson: When diversifying to hit min_positions, pick one name per sector/catalys
 ~ WORKING buy_limit $500.00 LEN @ $77.39 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25214.97 (+0.86% on $25000.00 in) · cash $21470.44 · realised +220.44
 Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $227.84] -> $495.51 (-0.90%) — close it all at -0.8% under the average cost
+  (dropped NOC: sold 36 min ago, cooling off)
+## 2026-10-01 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped NOC: sold 37 min ago, cooling off)

@@ -1,7 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (dropped ACN: sold 33 min ago, cooling off)
-  (dropped ACN: sold 34 min ago, cooling off)
-- BUY $500.00 CRWD [buy_limit @ $265.14] — wanted it, but not at the high — resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha
 - BUY $625.00 TSM [buy_limit @ $458.44] — wanted it, but not at the high — resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa
 ## 2026-09-30 13:21 ET — tick — 0 sell(s), 2 buy(s) from standing orders
 - SELL 100% MSFT [time stop] -> $549.90 (-0.02%) — held 90 min, the 90-minute limit: out regardless
@@ -398,3 +394,7 @@ lesson: When diversifying to hit min_positions, pick one name per sector/catalys
 ~ WORKING buy_limit $500.00 LEN @ $77.39 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25214.97 (+0.86% on $25000.00 in) · cash $21470.44 · realised +220.44
 Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $227.84] -> $495.51 (-0.90%) — close it all at -0.8% under the average cost
+  (dropped NOC: sold 36 min ago, cooling off)
+## 2026-10-01 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
