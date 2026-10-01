@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 3873.5,
+  "spent": 3419.64,
   "deployed": 297475.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -30,8 +30,7 @@
     "LEN": 375.0,
     "NOC": 0.6,
     "PLD": 0.04,
-    "ACN": 550.0,
-    "XENE": 450.0
+    "ACN": 550.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -6397,13 +6396,34 @@
       ],
       "evidence": "CFO Kelly Thomas Patrick bought 15,000 shares at $37.32 and CEO Mortimer Ian bought 30,000 shares at $37.38, both filed 2026-10-01, stock +4.3% today",
       "hold_minutes": 90
+    },
+    {
+      "symbol": "XENE",
+      "side": "sell",
+      "qty": 11.59629,
+      "status": "filled",
+      "price": 39.14,
+      "proceeds": 453.86,
+      "realized_pnl": 3.86,
+      "realized_pct": 0.86,
+      "date": "2026-10-01",
+      "time_et": "11:47",
+      "ts": 1790869500,
+      "why": "close 100% at +0.8% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $38.81",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 3752.3,
+  "spent_today": 3298.44,
   "deployed_today": 51000.0,
   "orders_today": 42,
-  "sells_today": 34,
+  "sells_today": 35,
   "sold_today": [
     "ACN",
     "TTD",
@@ -6434,7 +6454,8 @@
     "PLD",
     "NEM",
     "O",
-    "META"
+    "META",
+    "XENE"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -6470,37 +6491,35 @@
     "GLD": 1790864909,
     "KO": 1790865710,
     "PLD": 1790867720,
-    "O": 1790867766
+    "O": 1790867766,
+    "XENE": 1790869630
   },
-  "last_publish_ts": 1790868760,
-  "last_check_ts": 1790869547,
+  "last_publish_ts": 1790869629,
+  "last_check_ts": 1790869629,
   "last_bar_ts": 1790869500,
   "last_decision_ts": 1790868760,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "77ed9e44": 362.1426,
     "a754d678": 453.0,
-    "c57eebef": 456.2779,
-    "50c59e53": 218.0019,
-    "93cde703": 364.9684,
-    "aa070216": 342.514,
-    "11b2e084": 39.1383,
+    "77ed9e44": 362.1426,
     "a12f1bb3": 80.0856,
+    "93cde703": 364.9684,
+    "c57eebef": 456.2779,
+    "aa070216": 342.514,
     "19629a14": 85.0791,
     "086fc2c0": 227.0,
-    "917e34bc": 334.6,
+    "50c59e53": 218.0019,
     "015ab17e": 446.5,
-    "79ddeeaa": 77.56,
-    "940baa82": 77.3866,
+    "917e34bc": 334.6,
+    "c2816ff0": 210.393,
     "92f03a84": 82.0911,
-    "85edfe00": 82.0,
     "9e14b4e0": 331.2647,
+    "85edfe00": 82.0,
+    "79ddeeaa": 77.56,
     "c1999cad": 353.2352,
     "f8496407": 441.5343,
-    "7d4efc4f": 37.6457,
-    "c2816ff0": 210.393,
-    "78f3e3ce": 37.04,
+    "940baa82": 77.3866,
     "47e33108": 205.0
   },
   "hold_arm": {

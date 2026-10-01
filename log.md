@@ -21044,3 +21044,6 @@ lesson: Insider buys from BOTH CEO and CFO on the same filing date (XENE) are a 
 ~ WORKING buy_limit $500.00 XENE @ $37.65 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25196.63 (+0.79% on $25000.00 in) · cash $21458.07 · realised +208.07
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $21126.50 this week
+  (cancelled 2 standing order(s) on XENE: position closed)
+- SELL 100% XENE [take_profit @ $39.14] -> $453.86 (+0.86%) — close 100% at +0.8% over the average cost
+## 2026-10-01 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
