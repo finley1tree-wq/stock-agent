@@ -1,27 +1,3 @@
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (bad quote TNON: +46.5% in a day looks like a bad tick)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after the desk sold everything down today - there's nothing to protect and no new buys are allowed. Sitting out this single remaining check is mechanical compliance, not a discretionary cash-hold decision.
-lesson: When no_new_entries_this_check is true and positions_held is 0, there is genuinely nothing actionable - confirm this state quickly rather than proposing orders that will be dropped.
-portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-30 15:52 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (bad quote TNON: +47.4% in a day looks like a bad tick)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: It's 15:52 ET, market closes at 16:00, no_new_entries_this_check is true (past the 14:00 cutoff), positions_held is 0, and checks_left_today is 0. There is nothing to buy (would be dropped), nothing to sell (no positions), and no time for new standing orders to matter before close. Sitting flat into the close is the correct move here.
-lesson: At 15:52 with no_new_entries_this_check true and zero positions, there is no productive action - don't waste effort proposing orders that guardrails will drop in the final minutes before close.
-portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
-Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-09-30 16:00 ET — published the session's closing state
 
@@ -398,3 +374,27 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
 - SELL 100% O [time stop] -> $499.51 (-0.10%) — held 30 min, the 30-minute limit: out regardless
 - SELL 100% MSFT [time stop] -> $498.32 (-0.34%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-10-01 11:16 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 11:17 ET (Thursday) — week 2026-W40 — budget left $22998.14 (today $48625.00 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+brain: Below min_positions (4 of 8) with 92% cash idle - the owner's guardrails are explicit this is a decision being made, not caution. Adding IBM (earnings halo, news-backed), TSM (semis pullback to day low with resting limit confirming conviction), CCJ (nuclear, at day low, South Korea $200B headline), and HLI (financials diversification, 56% of range) brings diversified sector exposure beyond the existing tech-heavy GOOGL/META/UNH/LEN book, each sized at $2000 per the owner's stated normal range. Protective stops placed on all new entries per auto_bracket convention since risk_management/auto_bracket is the best-performing signal bucket (0.18% avg, 87-88% hit rate).
+lesson: Diversify into named-evidence sectors beyond the existing book (industrials/semis/nuclear/financials) at $2000 sizing to actually reduce cash_idle_pct rather than repeating the same widely_held cluster already crowding the portfolio.
+  (dropped IBM: sold 31 min ago, cooling off)
+  (dropped HLI: sold 26 min ago, cooling off)
+- BUY $500.00 TSM [filled] ['news'] — semis exposure distinct from GOOGL/META, add market entry alongside existing limit since price pulled back -0.24% today and is low in range at 37.5pct [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: TSMC weighs Texas investment expansion per Reuters/Investing.com 10/1; working buy_limit at 453 already resting
+- BUY $500.00 CCJ [filled] ['news', 'momentum'] — nuclear sector diversification, price basing at day low, existing buy_limit at 84.5 nearly touched [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CCJ at day low (1.5% of range), 'South Korea Set to Invest $200 Billion' nuclear beneficiary headline, Zacks 'Wall Street Bulls Look Optimistic'
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger HLI stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $446.50 until 2026-10-01 — bound downside on new TSM entry
+~ WORKING stop_loss 100% CCJ @ $82.00 until 2026-10-01 — bound downside on new CCJ entry
+~ WORKING take_profit 100% TSM @ $456.28 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $441.53 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $85.08 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $82.19 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25202.80 (+0.81% on $25000.00 in) · cash $22329.72 · realised +204.72
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $21998.14 this week

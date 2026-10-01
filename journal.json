@@ -49781,7 +49781,9 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.38,
+    "ret_final": -0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "O",
@@ -49808,7 +49810,9 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": -0.1,
+    "ret_final": -0.1,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -49835,7 +49839,9 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.34,
+    "ret_final": -0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -49861,7 +49867,7 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.04
   },
   {
     "symbol": "LEN",
@@ -49888,7 +49894,7 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.44
+    "ret_now": -0.49
   },
   {
     "symbol": "IBM",
@@ -49967,7 +49973,9 @@
     "code_version": "48c1606",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.12,
+    "ret_final": -0.12,
+    "ret_src": "realised"
   },
   {
     "symbol": "FWONK",
@@ -50017,7 +50025,8 @@
     "hour_et": 11,
     "code_version": "e2f76ed",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.27
   },
   {
     "symbol": "AMZN",
@@ -50042,7 +50051,10 @@
     "hour_et": 11,
     "code_version": "e2f76ed",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.14,
+    "ret_now": -0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLD",
@@ -50067,7 +50079,10 @@
     "hour_et": 11,
     "code_version": "e2f76ed",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.01,
+    "ret_now": -0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -50092,7 +50107,8 @@
     "hour_et": 11,
     "code_version": "e2f76ed",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.09
   },
   {
     "symbol": "NOC",
@@ -50116,7 +50132,8 @@
     "evidence": "average cost $482.31",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "b2d9c5b"
+    "code_version": "b2d9c5b",
+    "hold_minutes": 10
   },
   {
     "symbol": "AMZN",
@@ -50140,7 +50157,8 @@
     "evidence": "average cost $246.54",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "335cf86"
+    "code_version": "335cf86",
+    "hold_minutes": 7
   },
   {
     "symbol": "PLD",
@@ -50164,7 +50182,8 @@
     "evidence": "average cost $127.89",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "bab9082"
+    "code_version": "bab9082",
+    "hold_minutes": 12
   },
   {
     "symbol": "NEM",
@@ -50188,7 +50207,8 @@
     "evidence": "bought 30 min ago, -0.34% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "bab9082"
+    "code_version": "bab9082",
+    "hold_minutes": 30
   },
   {
     "symbol": "O",
@@ -50212,7 +50232,8 @@
     "evidence": "bought 30 min ago, -0.06% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "bab9082"
+    "code_version": "bab9082",
+    "hold_minutes": 30
   },
   {
     "symbol": "MSFT",
@@ -50236,6 +50257,58 @@
     "evidence": "bought 30 min ago, -0.32% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "bab9082"
+    "code_version": "bab9082",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "TSM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.09844,
+    "price": 455.19,
+    "date": "2026-10-01",
+    "time_et": "11:17",
+    "ts": 1790867858,
+    "why": "semis exposure distinct from GOOGL/META, add market entry alongside existing limit since price pulled back -0.24% today and is low in range at 37.5pct [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "TSMC weighs Texas investment expansion per Reuters/Investing.com 10/1; working buy_limit at 453 already resting",
+    "hold_minutes": 90,
+    "entry_price": 455.1,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.93,
+    "hour_et": 11,
+    "code_version": "34748f9",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.900827,
+    "price": 84.73,
+    "date": "2026-10-01",
+    "time_et": "11:17",
+    "ts": 1790867858,
+    "why": "nuclear sector diversification, price basing at day low, existing buy_limit at 84.5 nearly touched [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "CCJ at day low (1.5% of range), 'South Korea Set to Invest $200 Billion' nuclear beneficiary headline, Zacks 'Wall Street Bulls Look Optimistic'",
+    "hold_minutes": 30,
+    "entry_price": 84.7,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -12.01,
+    "hour_et": 11,
+    "code_version": "34748f9",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
