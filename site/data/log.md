@@ -1,10 +1,3 @@
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (bad quote TNON: +46.5% in a day looks like a bad tick)
-brain: It's 13:49 ET, past the no_new_entries_after_et cutoff (14:00 is only 11 minutes away and orders_today=39/sells_today=32 show heavy churn already today with poor realized results - track_record shows intraday_limit/time_stop signals at -0.19% avg with only 23% hit rate). With no_new_entries_this_check effectively about to trigger and only 3 small positions (AVGO, CRWD, TSM) all opened in the last 61 minutes and already carrying auto-bracket stops/take-profits, I'll let the existing working orders (stop_loss/take_profit on all 3 positions, plus resting buy_limits on GOOGL/MSFT/ACN for later re-entry) do their job rather than force new market buys this close to cutoff which risk guardrail rejection or poor fills. The existing standing orders already cover reasonable protection and entries.
-lesson: Near the 14:00 cutoff with resting buy_limit triggers already covering diversification, avoid adding fresh market orders that risk guardrail rejection - let standing orders work and focus on protecting open positions.
-portfolio: equity $25211.97 (+0.85% on $25000.00 in) · cash $23083.92 · realised +208.92
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% TSM [time stop] -> $624.38 (-0.10%) — held 30 min, the 30-minute limit: out regardless
@@ -398,3 +391,10 @@ Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
 - SELL 100% HLI [stop_loss @ $126.21] -> $375.22 (+0.06%) — close it all at -0.9% under the average cost
   (dropped NOC: sold 41 min ago, cooling off)
 ## 2026-10-01 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped NOC: sold 42 min ago, cooling off)
+  (dropped NOC: sold 43 min ago, cooling off)
+  (dropped NOC: sold 43 min ago, cooling off)
+  (dropped NOC: sold 44 min ago, cooling off)
+  (dropped NOC: sold 45 min ago, cooling off)
+- BUY $500.00 NOC [buy_limit @ $482.31] — resting limit slightly below current price for better entry once cooldown clears [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-01 10:56 ET — tick — 0 sell(s), 1 buy(s) from standing orders

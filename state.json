@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 2990.41,
-  "deployed": 292600.18,
+  "spent": 3490.41,
+  "deployed": 293100.18,
   "by_ticker": {
     "AVGO": 37.31,
     "TTD": 35.61,
@@ -27,7 +27,8 @@
     "UNH": 0.12,
     "IBM": 4.49,
     "O": 500.0,
-    "LEN": 375.0
+    "LEN": 375.0,
+    "NOC": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -38,7 +39,7 @@
     "ACN": 18250.0,
     "AMD": 7000.0,
     "MSFT": 12858.82,
-    "NOC": 16697.06,
+    "NOC": 17197.06,
     "UNH": 10647.06,
     "CRWD": 11175.0,
     "NVDA": 15000.0,
@@ -6051,12 +6052,31 @@
       ],
       "evidence": "average cost $126.14",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NOC",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.036667,
+      "price": 482.31,
+      "date": "2026-10-01",
+      "time_et": "10:56",
+      "ts": 1790866500,
+      "why": "resting limit slightly below current price for better entry once cooldown clears [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "standing_order"
+      ],
+      "evidence": "NOC cooldown 42 min left, defense headline flow",
+      "trigger": "buy_limit",
+      "hold_minutes": 30
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 2869.21,
-  "deployed_today": 46125.0,
-  "orders_today": 32,
+  "spent_today": 3369.21,
+  "deployed_today": 46625.0,
+  "orders_today": 33,
   "sells_today": 26,
   "sold_today": [
     "ACN",
@@ -6118,42 +6138,43 @@
     "GLD": 1790864909,
     "KO": 1790865710
   },
-  "last_publish_ts": 1790866336,
-  "last_check_ts": 1790866516,
+  "last_publish_ts": 1790866604,
+  "last_check_ts": 1790866604,
   "last_bar_ts": 1790866500,
   "last_decision_ts": 1790865958,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "d99c9e52": 484.0,
     "3cac3040": 53.7314,
+    "7c854131": 483.6267,
     "aa070216": 342.514,
     "a754d678": 453.0,
-    "d5ee91aa": 115.5371,
     "fb520ac2": 517.2064,
+    "d5ee91aa": 115.5371,
+    "8a220fc5": 479.0206,
     "a12f1bb3": 80.0856,
     "9c1c0450": 92.221,
     "ba2aa045": 505.45,
     "d59ea3ec": 112.76,
-    "0c594401": 52.54,
-    "917e34bc": 334.6,
     "eb835408": 89.5,
-    "79ddeeaa": 77.56,
+    "917e34bc": 334.6,
+    "0c594401": 52.54,
     "9a568eba": 89.2206,
-    "53ab92db": 500.3842,
+    "79ddeeaa": 77.56,
     "940baa82": 77.3866,
+    "53ab92db": 500.3842,
     "66307a80": 111.6567,
+    "9e14b4e0": 331.2647,
     "da3bd200": 52.0211,
-    "9e14b4e0": 331.2647
+    "575618d5": 467.8407
   },
   "hold_arm": {
-    "IBM": 90,
     "FWONK": 30,
-    "HLI": 30,
     "NEM": 30,
     "O": 30,
     "MSFT": 30,
     "GOOGL": 90,
-    "LEN": 90
+    "LEN": 90,
+    "NOC": 30
   }
 }
