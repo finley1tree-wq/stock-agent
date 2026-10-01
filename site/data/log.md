@@ -1,5 +1,3 @@
-  (cancelled 2 standing order(s) on PLTR: position closed)
-- SELL 100% PLTR [take_profit @ $190.20] -> $627.61 (+0.42%) — close 100% at +0.3% over the average cost
   (dropped IBM: sold 38 min ago, cooling off)
 ## 2026-10-01 10:20 ET — tick — 2 sell(s), 0 buy(s) from standing orders
   (dropped IBM: sold 39 min ago, cooling off)
@@ -398,3 +396,5 @@ lesson: Check cooling_off_minutes_left explicitly for each candidate ticker befo
 ~ WORKING buy_limit $500.00 ACN @ $210.21 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25212.43 (+0.85% on $25000.00 in) · cash $21838.99 · realised +213.99
 Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $21507.42 this week
+- SELL 100% NOC [time stop] -> $499.95 (-0.01%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 12:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
