@@ -21205,3 +21205,27 @@ portfolio: equity $25212.43 (+0.85% on $25000.00 in) · cash $21838.99 · realis
 Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $21507.42 this week
 - SELL 100% NOC [time stop] -> $499.95 (-0.01%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-10-01 12:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 13:04 ET (Thursday) — week 2026-W40 — budget left $22007.37 (today $57250.00 put to work, 54 buys, 48 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (5 of 8) with 88% cash idle - counterfactual data shows idle checks cost the account on average. Adding HUBB (top congress score), CCJ (nuclear catalyst headline), SKWD (congress+news), and XENE (dual CEO+CFO insider buy, the strongest signal type per past lessons) diversifies sectors away from the existing defense/gold/freight cluster while keeping each position in the $2000-2200 size band. Entry cutoff is 14:00 so this is near the last window for new buys today.
+lesson: Dual-insider (CEO+CFO same filing date) and top congress-score names are the clearest evidence-backed entries; prioritize these to hit min_positions before the 14:00 cutoff rather than trickling small amounts.
+  (dropped HUBB: 99% up today's range — resting a limit at $455.12 instead of chasing)
+  (dropped SKWD: 93% up today's range — resting a limit at $53.59 instead of chasing)
+- BUY $550.00 CCJ [filled] ['news', 'momentum'] — Nuclear/uranium theme has strong backtest sector performance (avg_total_return 269-282% in priors) and fresh positive catalyst headline [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'South Korea Set to Invest $200 Billion in the U.S. These 4 Companies Should Benefit' names CCJ; currently 46.9% of day range, not chasing the high
+- BUY $500.00 XENE [filled] ['insider', 'news'] — Dual C-suite insider buy is the strongest concrete signal in the data, biotech catalyst pending FDA filing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CFO Thomas Patrick Kelly bought 15,000 shares and CEO Ian Mortimer bought 30,000 shares both on 2026-09-30 same filing date - dual insider buy; headline 'Xenon Files Azetukalner NDA' positive catalyst
+  (dropped trigger HUBB buy_limit: duplicate of a working order)
+~ WORKING buy_limit $525.00 SKWD @ $53.59 until 2026-10-01 — wanted it, but not at the high — resting at $53.59. insurance diversification name already flagged by desk with congress pressure [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% CCJ @ $85.79 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% CCJ @ $84.54 until 2026-10-06 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 CCJ @ $82.87 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% XENE @ $39.75 until 2026-10-06 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% XENE @ $38.60 until 2026-10-06 — close it all at -2.1% under the average cost
+~ WORKING buy_limit $500.00 XENE @ $38.24 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25213.91 (+0.86% on $25000.00 in) · cash $21288.94 · realised +213.94
+Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $20957.37 this week

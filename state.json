@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 2992.63,
-  "deployed": 303725.18,
+  "spent": 4042.63,
+  "deployed": 304775.18,
   "by_ticker": {
     "AVGO": 37.31,
     "TTD": 35.61,
@@ -14,7 +14,7 @@
     "NEM": 504.77,
     "AMZN": 4.75,
     "NVDA": 20.57,
-    "CCJ": 24.31,
+    "CCJ": 574.31,
     "CRWD": 518.88,
     "HLI": 28.74,
     "FWONK": 16.31,
@@ -28,7 +28,8 @@
     "O": 0.49,
     "NOC": 0.65,
     "PLD": 0.04,
-    "ACN": 750.42
+    "ACN": 750.42,
+    "XENE": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -50,7 +51,7 @@
     "IBM": 11402.94,
     "META": 4500.0,
     "RTX": 12425.0,
-    "CCJ": 19525.0,
+    "CCJ": 20075.0,
     "LMT": 9250.0,
     "NEM": 5125.0,
     "HLI": 6575.0,
@@ -65,7 +66,7 @@
     "KO": 1000.0,
     "O": 500.0,
     "PLD": 500.0,
-    "XENE": 450.0
+    "XENE": 950.0
   },
   "orders": [
     {
@@ -6901,12 +6902,48 @@
       ],
       "evidence": "bought 30 min ago, +0.03% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.437706,
+      "price": 85.43,
+      "date": "2026-10-01",
+      "time_et": "13:04",
+      "ts": 1790874253,
+      "why": "Nuclear/uranium theme has strong backtest sector performance (avg_total_return 269-282% in priors) and fresh positive catalyst headline [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "momentum"
+      ],
+      "evidence": "Headline 'South Korea Set to Invest $200 Billion in the U.S. These 4 Companies Should Benefit' names CCJ; currently 46.9% of day range, not chasing the high",
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "XENE",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.685281,
+      "price": 39.42,
+      "date": "2026-10-01",
+      "time_et": "13:04",
+      "ts": 1790874253,
+      "why": "Dual C-suite insider buy is the strongest concrete signal in the data, biotech catalyst pending FDA filing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "insider",
+        "news"
+      ],
+      "evidence": "CFO Thomas Patrick Kelly bought 15,000 shares and CEO Ian Mortimer bought 30,000 shares both on 2026-09-30 same filing date - dual insider buy; headline 'Xenon Files Azetukalner NDA' positive catalyst",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 2871.43,
-  "deployed_today": 57250.0,
-  "orders_today": 54,
+  "spent_today": 3921.43,
+  "deployed_today": 58300.0,
+  "orders_today": 56,
   "sells_today": 48,
   "sold_today": [
     "ACN",
@@ -6980,42 +7017,50 @@
     "O": 1790867766,
     "XENE": 1790869630
   },
-  "last_publish_ts": 1790873821,
-  "last_check_ts": 1790874165,
+  "last_publish_ts": 1790874253,
+  "last_check_ts": 1790874253,
   "last_bar_ts": 1790874000,
-  "last_decision_ts": 1790873282,
+  "last_decision_ts": 1790874253,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "7e3c7ce6": 150.3703,
-    "2f7be572": 185.7158,
-    "a754d678": 453.0,
     "ffd3fd0b": 217.8109,
+    "2f7be572": 185.7158,
     "e7dea3f2": 265.6849,
-    "978b4408": 39.092,
+    "ae833759": 85.7854,
+    "a754d678": 453.0,
     "031db909": 115.6876,
+    "978b4408": 39.092,
+    "fc27084f": 39.7484,
+    "32243896": 84.5407,
     "f465356e": 455.116,
+    "a02ac431": 53.5872,
     "086fc2c0": 227.0,
     "6263c0ee": 53.4993,
     "5d4af5c6": 112.9,
-    "b39e95b9": 258.9,
     "88310455": 181.5,
+    "6d337d0d": 38.5989,
+    "b39e95b9": 258.9,
     "c31beb8b": 212.0,
     "71abcc5e": 242.2977,
     "b4c352be": 111.8022,
-    "a3eefb67": 210.2087,
-    "8637ac13": 256.3225,
     "961505c1": 179.7507,
+    "25783076": 38.2374,
+    "27a8288f": 82.8671,
+    "8637ac13": 256.3225,
     "600c32d5": 145.4418,
     "7468e9d3": 145.4,
+    "a3eefb67": 210.2087,
     "0cda2af4": 225.0
   },
   "hold_arm": {
     "RTX": 90,
     "CRWD": 90,
     "NEM": 90,
-    "NOC": 30,
     "CHRW": 90,
-    "ACN": 90
+    "ACN": 90,
+    "CCJ": 90,
+    "XENE": 90
   }
 }

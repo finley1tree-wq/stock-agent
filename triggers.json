@@ -1,134 +1,6 @@
 {
  "orders": [
   {
-   "id": "f176fa8f",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 442.3394,
-   "status": "cancelled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $456.02",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e6475716",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 508.41,
-   "status": "filled",
-   "created": "2026-09-29 11:26",
-   "created_ts": 1790695577,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $507.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:31"
-  },
-  {
-   "id": "f574fa93",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 145.8,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "Protect new CHRW position per risk_management best-performing signal bucket",
-   "evidence": "ATR 2.542%, protective stop ~2% below entry 148.8",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:48",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "03a8c893",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 123.5,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "Protect new HLI position, similar sizing to other stops",
-   "evidence": "ATR 3.535%, entry 127.19",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2b51d335",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 113.0,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "Protect new NEM position per risk_management best-performing signal bucket",
-   "evidence": "ATR 3.578%, entry 116.4",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "6777c61b",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 149.2798,
-   "status": "filled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $148.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:48"
-  },
-  {
-   "id": "1a9dcd62",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 144.3942,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $148.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:48",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "af00c82e",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -7426,7 +7298,127 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "a02ac431",
+   "ticker": "SKWD",
+   "kind": "buy_limit",
+   "price": 53.5872,
+   "status": "working",
+   "created": "2026-10-01 13:04",
+   "created_ts": 1790874253,
+   "why": "wanted it, but not at the high \u2014 resting at $53.59. insurance diversification name already flagged by desk with congress pressure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Congress net buy pressure score 2.0; headline 'Skyward Specialty Insurance Group (SKWD) Claims Payments Deal'; currently 92.7% of day range but within max_entry_range_pct(85) limit is breached so trea",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 525.0
+  },
+  {
+   "id": "ae833759",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 85.7854,
+   "status": "working",
+   "created": "2026-10-01 13:04",
+   "created_ts": 1790874253,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $85.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "32243896",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 84.5407,
+   "status": "working",
+   "created": "2026-10-01 13:04",
+   "created_ts": 1790874253,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $85.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "27a8288f",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 82.8671,
+   "status": "working",
+   "created": "2026-10-01 13:04",
+   "created_ts": 1790874253,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $85.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
+  },
+  {
+   "id": "fc27084f",
+   "ticker": "XENE",
+   "kind": "take_profit",
+   "price": 39.7484,
+   "status": "working",
+   "created": "2026-10-01 13:04",
+   "created_ts": 1790874253,
+   "why": "close 100% at +0.8% over the average cost",
+   "evidence": "average cost $39.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6d337d0d",
+   "ticker": "XENE",
+   "kind": "stop_loss",
+   "price": 38.5989,
+   "status": "working",
+   "created": "2026-10-01 13:04",
+   "created_ts": 1790874253,
+   "why": "close it all at -2.1% under the average cost",
+   "evidence": "average cost $39.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "25783076",
+   "ticker": "XENE",
+   "kind": "buy_limit",
+   "price": 38.2374,
+   "status": "working",
+   "created": "2026-10-01 13:04",
+   "created_ts": 1790874253,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $39.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 12:48"
+ "updated": "2026-10-01 13:04"
 }
