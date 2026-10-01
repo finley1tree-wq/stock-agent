@@ -21298,3 +21298,17 @@ portfolio: equity $25221.50 (+0.89% on $25000.00 in) · cash $24471.82 · realis
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 15 resting buy order(s): past the entry cutoff)
+
+## 2026-10-01 14:03 ET (Thursday) — week 2026-W40 — budget left $24140.26 (today $58300.00 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 ET cutoff), so no new buys can be placed - any proposed would be dropped. ACN is my only position and already has working take_profit (217.81, 225.00) and stop_loss (212.00) brackets in place from auto_bracket/risk_management, which is the appropriate protection given it's up 17.3% today and extended (4.5% of day range, near day low after the pop) - no need to add more orders. I'll wait for the market close/next window since sells on ACN aren't warranted (bracket orders already manage the risk) and I can't add new names this session.
+lesson: Once no_new_entries_this_check is true, stop proposing buys entirely and just verify existing protective brackets are correctly placed rather than trying to force new positions.
+portfolio: equity $25216.21 (+0.86% on $25000.00 in) · cash $24471.82 · realised +221.82
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
