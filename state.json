@@ -1,9 +1,9 @@
 {
   "week": "2026-W40",
-  "spent": 13566.25,
+  "spent": 11560.07,
   "deployed": 282475.18,
   "by_ticker": {
-    "AVGO": 2043.49,
+    "AVGO": 37.31,
     "TTD": 35.61,
     "AAPL": 4.26,
     "PLTR": 18.81,
@@ -5308,13 +5308,34 @@
       ],
       "evidence": "average cost $230.59",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 5.706784,
+      "status": "filled",
+      "price": 351.54,
+      "proceeds": 2006.18,
+      "realized_pnl": 6.18,
+      "realized_pct": 0.31,
+      "date": "2026-10-01",
+      "time_et": "09:52",
+      "ts": 1790862600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $350.46",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 13445.05,
+  "spent_today": 11438.87,
   "deployed_today": 36000.0,
   "orders_today": 13,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "ACN",
     "TTD",
@@ -5322,7 +5343,8 @@
     "LTH",
     "IBM",
     "CHRW",
-    "NVDA"
+    "NVDA",
+    "AVGO"
   ],
   "sold_ts": {
     "PLTR": 1790784896,
@@ -5336,7 +5358,7 @@
     "CRWD": 1790790810,
     "NVDA": 1790862664,
     "GOOGL": 1790783362,
-    "AVGO": 1790792254,
+    "AVGO": 1790862749,
     "TTD": 1790861960,
     "HD": 1790787696,
     "AMZN": 1790610993,
@@ -5356,31 +5378,28 @@
     "LTH": 1790862084,
     "SKWD": 1790783788
   },
-  "last_publish_ts": 1790862663,
-  "last_check_ts": 1790862663,
+  "last_publish_ts": 1790862748,
+  "last_check_ts": 1790862748,
   "last_bar_ts": 1790862600,
   "last_decision_ts": 1790862470,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "a1c08500": 350.868,
-    "a78422be": 351.5429,
+    "d94ee53a": 343.384,
     "f7b5d738": 344.0514,
-    "24d1da39": 515.2986,
-    "a32a1514": 507.1253,
-    "e2afeb58": 511.3339,
     "b27c0073": 455.6468,
     "61d8648b": 520.0185,
-    "985a0063": 611.6668,
-    "5beb42c5": 340.5831,
+    "e2afeb58": 511.3339,
+    "a32a1514": 507.1253,
     "14d09bab": 601.8459,
+    "24d1da39": 515.2986,
+    "985a0063": 611.6668,
     "09b45e1c": 444.0,
-    "aedfa8fb": 503.1099,
-    "d8009c87": 494.8261,
     "04731ec4": 590.5942,
+    "d8009c87": 494.8261,
+    "aedfa8fb": 503.1099,
     "6765bc60": 440.7389,
-    "17b83ae9": 332.7682,
-    "a6f049f3": 339.9462
+    "17b83ae9": 332.7682
   },
   "hold_arm": {
     "HUBB": 30,

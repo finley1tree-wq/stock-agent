@@ -1,6 +1,3 @@
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
   (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
   (cancelled 2 standing order(s) on NVDA: position closed)
 - SELL 100% NVDA [take_profit @ $231.17] -> $2005.09 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:51 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $351.54] -> $2006.18 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-10-01 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

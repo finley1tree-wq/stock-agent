@@ -20716,3 +20716,6 @@ Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
   (cancelled 2 standing order(s) on NVDA: position closed)
 - SELL 100% NVDA [take_profit @ $231.17] -> $2005.09 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:51 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $351.54] -> $2006.18 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-10-01 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

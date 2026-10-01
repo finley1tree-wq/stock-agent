@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "0360ade3",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 373.0,
-   "status": "cancelled",
-   "created": "2026-09-28 11:10",
-   "created_ts": 1790608243,
-   "why": "protect new position",
-   "evidence": "current price 377.83, ATR 2.5%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-28 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "a997f38e",
    "ticker": "UNH",
    "kind": "take_profit",
@@ -7167,7 +7149,7 @@
    "ticker": "AVGO",
    "kind": "take_profit",
    "price": 351.5429,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 09:47",
    "created_ts": 1790862470,
    "why": "close 100% at +0.3% over the average cost",
@@ -7177,7 +7159,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:52"
   },
   {
    "id": "a213c6eb",
@@ -7203,7 +7186,7 @@
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 339.9462,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:47",
    "created_ts": 1790862470,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7213,7 +7196,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 09:52",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f7b5d738",
@@ -7237,7 +7222,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 340.5831,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:47",
    "created_ts": 1790862470,
    "why": "close it all at -0.7% under the average cost",
@@ -7247,7 +7232,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:52",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "17b83ae9",
@@ -7411,7 +7398,7 @@
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 350.868,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 09:50",
    "created_ts": 1790862617,
    "why": "close it all at -0.8% under the average cost",
@@ -7421,8 +7408,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 09:52",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "d94ee53a",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 343.384,
+   "status": "working",
+   "created": "2026-10-01 09:52",
+   "created_ts": 1790862748,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $343.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 09:51"
+ "updated": "2026-10-01 09:52"
 }
