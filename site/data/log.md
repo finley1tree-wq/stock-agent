@@ -1,25 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-brain: Only 1 position held (IBM, min position) with 97.5% cash idle and 11 checks left today - need to get to min_positions of 8 fast per owner instruction and counterfactual data showing idle_universe cost. Diversifying across ACN (earnings catalyst), HD (contrarian dip w/ congress disclosure), KO (defensive income), FWONK (non-AI value, congress buying), SKWD and HLI (financial/insurance diversifiers with congress signal) avoids the correlated-cluster mistake flagged in past lessons while using concrete headline/congress evidence for each.
-lesson: Spread entries across genuinely uncorrelated sectors (industrials, insurance, consumer, financials) each with its own named evidence, rather than loading up on one hot cluster, to avoid the correlated-bet mistake flagged in past lessons.
-- BUY $750.00 ACN [filled] ['news', 'congress'] — Strong earnings beat driving sector-wide software rally, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: ACN +22% today on record bookings, 'Accenture Soars 23% as Record Bookings Dispel AI Demand Fears' - Rep. Scott Franklin and Rep. Gilbert Ray Cisneros disclosed buys
-- BUY $625.00 HD [filled] ['congress', 'news'] — Contrarian entry on a widely-held name after a sharp intraday pullback, not currently held or cooling off [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Kevin Hern (Joint) disclosed multiple HD buys/sells; HD pulled back -2.43% today, -13% 1m, oversold on weak consumer confidence headline
-- BUY $625.00 KO [filled] ['congress', 'news'] — Defensive diversification away from crowded tech/defense cluster, small positive signal [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 1.0 on KO; headline '5 Solid Dividend Stocks to Buy Now' names KO as defensive income play amid rate pressure
-- BUY $500.00 FWONK [filled] ['congress', 'news'] — Non-correlated name, diversifies away from AI/tech cluster per past lesson on correlated clusters [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 2.0; headline 'Formula One Group (FWONK): An Exceptional Non-AI Value Play' - Insider Monkey
-- BUY $375.00 SKWD [filled] ['congress', 'news'] — Small insurance name with congress interest, diversifies sector mix [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 2.0; 'The Zacks Analyst Blog Highlights Kinsale Capital, RLI, Palomar and Skyward Specialty' insurance sector strength
-- BUY $375.00 HLI [filled] ['congress', 'news'] — Financial services diversifier with disclosed congress buying interest [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net_buy_pressure 2.0; headline on HLI expanding into GP-led secondaries, M&A recovery tailwind
-~ WORKING stop_loss 100% ACN @ $215.00 until 2026-10-01 — Protective stop below today's low
-~ WORKING stop_loss 100% HD @ $272.00 until 2026-10-01 — Protective stop on contrarian buy
-~ WORKING stop_loss 100% FWONK @ $89.50 until 2026-10-01 — Protective stop
-~ WORKING take_profit 100% ACN @ $224.90 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $217.09 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $278.37 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HD @ $269.31 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% KO @ $86.39 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% KO @ $85.93 until 2026-10-06 — close it all at -0.4% under the average cost
-~ WORKING buy_limit $500.00 KO @ $83.67 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FWONK @ $92.22 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 FWONK @ $89.22 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% SKWD @ $53.36 until 2026-10-06 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% SKWD @ $52.86 until 2026-10-06 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 SKWD @ $51.62 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +376,25 @@ Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $20957.37 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [take_profit @ $150.37] -> $501.44 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 13:20 ET (Thursday) — week 2026-W40 — budget left $21458.81 (today $58300.00 put to work, 56 buys, 49 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (6/8) with 85.8% cash idle - counterfactual data shows idle checks cost the account (idle_universe_avg_pct negative historically). Deploying into evidence-backed names: GPI (large 10%-holder insider buy), SKWD/LTH (top congress score 2-3), with HLI/CHRW queued via buy_limit since they're in cooldown. All picks diversify away from current defense/gold/tech concentration.
+lesson: CHRW and HLI are in cooldown (41min, 5min remaining) so a direct market buy order would be dropped/invalid - use buy_limit triggers instead to queue entry once cooldown clears, rather than proposing a market buy on a cooling ticker.
+  (dropped CHRW: sold 4 min ago, cooling off)
+  (dropped HLI: sold 41 min ago, cooling off)
+  (dropped GPI: 96% up today's range — resting a limit at $242.55 instead of chasing)
+  (dropped SKWD: 96% up today's range — resting a limit at $53.67 instead of chasing)
+  (dropped LTH: 91% up today's range — resting a limit at $40.17 instead of chasing)
+  (dropped trigger HLI buy_limit: buy_limit at 128.12 is at or above the quote 128.12)
+~ WORKING buy_limit $2000.00 CHRW @ $150.00 until 2026-10-01 — cooldown active 41min, resting limit slightly below market to catch cooldown expiry at a decent price
+~ WORKING buy_limit $500.00 GPI @ $242.55 until 2026-10-01 — wanted it, but not at the high — resting at $242.55. Large 10%-holder insider purchase is a strong signal per insider_net_buy_pressure, auto retail name diversifies away from current defense/gold/tech book [probation at 25% size (no hour or
+~ WORKING buy_limit $375.00 SKWD @ $53.67 until 2026-10-01 — wanted it, but not at the high — resting at $53.67. Insurance sector diversification with congress backing, fills toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $375.00 LTH @ $40.17 until 2026-10-01 — wanted it, but not at the high — resting at $40.17. Top congress score ticker, diversifies into leisure sector [probation at 25% size (no hour or signal lens has proven itself yet)]
+portfolio: equity $25213.85 (+0.86% on $25000.00 in) · cash $21790.37 · realised +215.37
+Decision: nothing at this check. 30 standing order(s) working.

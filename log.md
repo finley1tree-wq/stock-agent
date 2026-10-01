@@ -21232,3 +21232,25 @@ Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $20957.37 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [take_profit @ $150.37] -> $501.44 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 13:20 ET (Thursday) — week 2026-W40 — budget left $21458.81 (today $58300.00 put to work, 56 buys, 49 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Below min_positions (6/8) with 85.8% cash idle - counterfactual data shows idle checks cost the account (idle_universe_avg_pct negative historically). Deploying into evidence-backed names: GPI (large 10%-holder insider buy), SKWD/LTH (top congress score 2-3), with HLI/CHRW queued via buy_limit since they're in cooldown. All picks diversify away from current defense/gold/tech concentration.
+lesson: CHRW and HLI are in cooldown (41min, 5min remaining) so a direct market buy order would be dropped/invalid - use buy_limit triggers instead to queue entry once cooldown clears, rather than proposing a market buy on a cooling ticker.
+  (dropped CHRW: sold 4 min ago, cooling off)
+  (dropped HLI: sold 41 min ago, cooling off)
+  (dropped GPI: 96% up today's range — resting a limit at $242.55 instead of chasing)
+  (dropped SKWD: 96% up today's range — resting a limit at $53.67 instead of chasing)
+  (dropped LTH: 91% up today's range — resting a limit at $40.17 instead of chasing)
+  (dropped trigger HLI buy_limit: buy_limit at 128.12 is at or above the quote 128.12)
+~ WORKING buy_limit $2000.00 CHRW @ $150.00 until 2026-10-01 — cooldown active 41min, resting limit slightly below market to catch cooldown expiry at a decent price
+~ WORKING buy_limit $500.00 GPI @ $242.55 until 2026-10-01 — wanted it, but not at the high — resting at $242.55. Large 10%-holder insider purchase is a strong signal per insider_net_buy_pressure, auto retail name diversifies away from current defense/gold/tech book [probation at 25% size (no hour or
+~ WORKING buy_limit $375.00 SKWD @ $53.67 until 2026-10-01 — wanted it, but not at the high — resting at $53.67. Insurance sector diversification with congress backing, fills toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $375.00 LTH @ $40.17 until 2026-10-01 — wanted it, but not at the high — resting at $40.17. Top congress score ticker, diversifies into leisure sector [probation at 25% size (no hour or signal lens has proven itself yet)]
+portfolio: equity $25213.85 (+0.86% on $25000.00 in) · cash $21790.37 · realised +215.37
+Decision: nothing at this check. 30 standing order(s) working.

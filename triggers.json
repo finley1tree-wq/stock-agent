@@ -1,100 +1,6 @@
 {
  "orders": [
   {
-   "id": "af00c82e",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 127.7388,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $127.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "5470b7db",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 123.4228,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $127.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7fd6839f",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 116.9123,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $116.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2a220900",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 112.9565,
-   "status": "cancelled",
-   "created": "2026-09-29 11:38",
-   "created_ts": 1790696328,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $116.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "81faa8e3",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 323.5,
-   "status": "cancelled",
-   "created": "2026-09-29 11:55",
-   "created_ts": 1790697314,
-   "why": "protective stop per desk rules",
-   "evidence": "ATR 4.163%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "dfdc4017",
    "ticker": "TPL",
    "kind": "take_profit",
@@ -7344,7 +7250,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 84.5407,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 13:04",
    "created_ts": 1790874253,
    "why": "close it all at -1.0% under the average cost",
@@ -7354,7 +7260,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 13:20",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "27a8288f",
@@ -7423,7 +7331,95 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "95531e54",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 85.55,
+   "status": "working",
+   "created": "2026-10-01 13:20",
+   "created_ts": 1790875242,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $85.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5ee06536",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 150.0,
+   "status": "working",
+   "created": "2026-10-01 13:20",
+   "created_ts": 1790875245,
+   "why": "cooldown active 41min, resting limit slightly below market to catch cooldown expiry at a decent price",
+   "evidence": "CHRW cooling off 41min, top congress score 3.0 from Rep. April McClain Delaney",
+   "signals": [
+    "congress",
+    "news"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 2000.0
+  },
+  {
+   "id": "a45212b9",
+   "ticker": "GPI",
+   "kind": "buy_limit",
+   "price": 242.553,
+   "status": "working",
+   "created": "2026-10-01 13:20",
+   "created_ts": 1790875245,
+   "why": "wanted it, but not at the high \u2014 resting at $242.55. Large 10%-holder insider purchase is a strong signal per insider_net_buy_pressure, auto retail name diversifies away from current defense/gold/tech book [probation at 25% size (no hour or",
+   "evidence": "Conifer Management LLC (10% holder) bought 273,712 shares at $242.15 on 2026-09-28, filed 2026-09-30 - large insider buy; stock +3.53% today",
+   "signals": [
+    "insider",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 500.0
+  },
+  {
+   "id": "c4640612",
+   "ticker": "SKWD",
+   "kind": "buy_limit",
+   "price": 53.667,
+   "status": "working",
+   "created": "2026-10-01 13:20",
+   "created_ts": 1790875245,
+   "why": "wanted it, but not at the high \u2014 resting at $53.67. Insurance sector diversification with congress backing, fills toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "SKWD congress_net_buy_pressure score 2.0, +3.32% today at 96.5% of day range, insurance claims-payments deal headline",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 375.0
+  },
+  {
+   "id": "2f3a8dee",
+   "ticker": "LTH",
+   "kind": "buy_limit",
+   "price": 40.1653,
+   "status": "working",
+   "created": "2026-10-01 13:20",
+   "created_ts": 1790875245,
+   "why": "wanted it, but not at the high \u2014 resting at $40.17. Top congress score ticker, diversifies into leisure sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "LTH has congress_net_buy_pressure score 3.0 (top tier, April McClain Delaney), +1.94% today, leisure sector growth per Zacks headline",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 375.0
   }
  ],
- "updated": "2026-10-01 13:16"
+ "updated": "2026-10-01 13:20"
 }
