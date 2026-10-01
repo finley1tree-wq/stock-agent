@@ -84,10 +84,10 @@ test("live: handler reads every file at the resolved commit and keeps the respon
   const b = res.body;
   assert.equal(res.code, 200);
   assert.equal(res.headers["Cache-Control"], "s-maxage=10, stale-while-revalidate=60");
-  assert.deepEqual(Object.keys(b), ["portfolio", "st", "signals", "journal", "lessons", "log", "evolve", "health", "corrections", "servedAt", "source", "meta"]);
+  assert.deepEqual(Object.keys(b), ["portfolio", "st", "signals", "journal", "lessons", "log", "evolve", "cryptoBook", "cryptoOrgs", "health", "corrections", "servedAt", "source", "meta"]);
   assert.equal(b.source, `${REPO}@main`);
   assert.match(b.meta.sha, /^[0-9a-f]{40}$/);
-  assert.deepEqual(Object.values(b.meta.via), ["sha", "sha", "sha", "sha", "sha", "sha", "sha"]);
+  assert.deepEqual(Object.values(b.meta.via), ["sha", "sha", "sha", "sha", "sha", "sha", "sha", "sha", "sha"]);
   assert.ok(b.portfolio.positions && typeof b.st === "object" && b.signals.guardrails);
   assert.ok(Array.isArray(b.journal) && b.journal.length <= 1500);
   assert.ok(b.log.split("\n").length <= 400);
@@ -111,7 +111,7 @@ test("fallback: a hung ref lookup times out (~2.5s) and the branch URL is served
     await api({}, res);
     const took = Date.now() - t0;
     assert.equal(res.body.meta.sha, null);
-    assert.deepEqual(Object.values(res.body.meta.via), ["branch", "branch", "branch", "branch", "branch", "branch", "branch"]);
+    assert.deepEqual(Object.values(res.body.meta.via), ["branch", "branch", "branch", "branch", "branch", "branch", "branch", "branch", "branch"]);
     assert.ok(res.body.portfolio.positions, "branch data still served");
     assert.ok(took >= 2400, `waited ${took}ms for the timeout`);
     // the failure is cached for the TTL: a second request does not wait again

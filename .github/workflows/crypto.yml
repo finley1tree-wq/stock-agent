@@ -1,0 +1,47 @@
+# The cloud crypto paper trader (agent/crypto, pretend money): every liquid Coinbase coin, a strategy
+# per coin chosen by natural selection. Crypto never closes, so this runs every hour of every day:
+# each pass marks the book; the first pass after 00:00 UTC also makes the day's decisions on the
+# closed daily bar. Public Coinbase market data only - no exchange account, no keys.
+name: crypto
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+concurrency:
+  group: crypto
+  cancel-in-progress: false
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - run: git fetch origin main && git reset --hard origin/main
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: crypto pass (stdlib only)
+        run: python -m agent.crypto
+      - name: commit the book
+        if: always()
+        run: |
+          git config user.name finley1tree-wq
+          git config user.email 284499650+finley1tree-wq@users.noreply.github.com
+          git add crypto/
+          if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
+          git commit -m "crypto $(date -u +%FT%H:%MZ)"
+          # Only crypto/ is ever written here, and the concurrency lane serialises crypto runs, so a
+          # rebase onto the stock agent's newer commits cannot conflict. Retry transient failures.
+          for i in 1 2 3 4 5; do
+            if ! git fetch origin main; then sleep $((i * 5)); continue; fi
+            if git rebase --autostash origin/main; then
+              if git push; then echo "pushed on attempt $i"; exit 0; fi
+            else
+              git rebase --abort || true
+              echo "unexpected conflict; the next hourly pass recomputes from the new base"
+              exit 0
+            fi
+            sleep $((i * 5))
+          done
+          echo "could not push after 5 attempts"; exit 1

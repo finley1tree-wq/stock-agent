@@ -38,6 +38,8 @@ const FILES = [
   { key: "lessons", path: "lessons.md", json: false, fallback: "" },
   { key: "log", path: "log.md", json: false, fallback: "", lines: 400 },
   { key: "evolve", path: "site/data/evolve.json", json: true, fallback: {} },
+  { key: "cryptoBook", path: "crypto/book.json", json: true, fallback: {} },
+  { key: "cryptoOrgs", path: "crypto/organisms.json", json: true, fallback: {} },
 ];
 
 // Is the AI brain working? Read from the log tail the page already receives. Only the LATEST check

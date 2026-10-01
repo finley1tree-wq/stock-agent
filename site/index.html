@@ -74,6 +74,12 @@ details .more{color:var(--ink-2);font-size:13.5px;margin-top:6px}
       <div id="c-tv" style="height:460px;border-radius:12px;overflow:hidden;border:1px solid var(--line)"></div>
       <div class="sub" id="c-live-note" style="margin-top:8px"></div>
     </section>
+    <section class="card" style="margin:0 0 12px"><h2>Strategy for each coin · cloud crypto trader</h2>
+      <div class="sub" style="margin:-4px 0 8px" id="cl-note"></div>
+      <div class="grid tiles" id="cl-tiles" style="margin-bottom:10px"></div>
+      <div class="tbl" id="cl-table"></div>
+      <h2 style="margin-top:14px">Its latest trades</h2><div class="tbl" id="cl-fills"></div>
+    </section>
     <div class="grid tiles" id="c-tiles"></div>
     <section class="card"><h2>Paper trading: pretend $10,000 per strategy</h2><div class="sub" id="p-note" style="margin:-4px 0 8px"></div><div class="grid tiles" id="p-tiles"></div><h2 style="margin-top:14px">Profit or loss by day (all books)</h2><div class="chart" id="p-days"></div><div class="sub" id="p-days-note"></div></section>
     <section class="grid two">
@@ -302,7 +308,7 @@ async function loadCrypto() {
 // over its public WebSocket (no account, no key), so prices here change the moment the market does.
 // Only the BTC benchmark book's holdings are published (100% BTC), so that book is re-priced live;
 // the strategy books publish a position COUNT, and their coins show here once data.json lists them.
-const COINS = [["BTC","Bitcoin"],["ETH","Ethereum"],["SOL","Solana"],["XRP","XRP"],["DOGE","Dogecoin"],["ADA","Cardano"],
+let COINS = [["BTC","Bitcoin"],["ETH","Ethereum"],["SOL","Solana"],["XRP","XRP"],["DOGE","Dogecoin"],["ADA","Cardano"],
   ["AVAX","Avalanche"],["LINK","Chainlink"],["DOT","Polkadot"],["LTC","Litecoin"],["BCH","Bitcoin Cash"],["SHIB","Shiba Inu"],
   ["SUI","Sui"],["XLM","Stellar"],["HBAR","Hedera"],["UNI","Uniswap"],["AAVE","Aave"],["NEAR","NEAR"]];
 const CB_REST = "https://api.exchange.coinbase.com", CB_WS = "wss://ws-feed.exchange.coinbase.com";
@@ -390,7 +396,9 @@ function startLive(d) {
   };
   $("#c-live-note").innerHTML = `Prices stream live from Coinbase Exchange's public feed; charts are TradingView's. The strategy books decide once a day, so between runs only prices move. They publish how many coins they hold (${held.map(x => `${esc(x.book)}: ${x.open_positions}`).join(", ")}) but not which ones yet, so only the BTC book can be re-priced live.`;
   drawCoins(); tvChart(); loadSparks(); connectFeed(); tiles(); drawCryptoMoney(d); watchBookCoins(d);
-  setInterval(() => { tiles(); drawCryptoMoney(d); }, 1000);
+  loadCloud().then(() => { drawCryptoMoney(d); drawCloud(); });
+  setInterval(() => loadCloud(), 60000);
+  setInterval(() => { tiles(); drawCryptoMoney(d); drawCloud(); }, 1000);
   setInterval(() => { if (!$("#tab-crypto").hidden) drawHist($("#m-crypto-chart"), "crypto"); }, 2000);
   setInterval(loadSparks, 5 * 60000);
   window.__drawLive = () => {};
@@ -422,8 +430,62 @@ function drawHist(el, key) { const h = moneyHist[key]; if (h.length > 2) lineCha
 const bookCoins = b => (Array.isArray(b.holdings) ? b.holdings : []).map(h => ({
   sym: String(h.asset || h.coin || h.symbol || "").toUpperCase().replace(/USDT?$/, ""),
   qty: +(h.qty ?? h.units ?? h.quantity ?? 0), snap: h.value_usd != null ? +h.value_usd : null})).filter(h => h.sym);
+const cloud = {book: null, orgs: null, at: 0};
+async function loadCloud() {
+  try {
+    const r = await (await fetch(STOCK_API, {cache: "no-store"})).json();
+    cloud.book = r.cryptoBook && r.cryptoBook.holdings ? r.cryptoBook : null;
+    cloud.orgs = r.cryptoOrgs && r.cryptoOrgs.coins ? r.cryptoOrgs : null;
+    cloud.ledger = (r.cryptoBook || {}).recent_fills || null;
+    cloud.at = Date.now();
+  } catch (e) {}
+  if (!cloud.book) return;
+  // every coin it trades gets a live card and a feed subscription
+  const add = (cloud.book.universe || []).filter(c => !COINS.some(x => x[0] === c));
+  if (add.length) {
+    COINS = COINS.concat(add.map(c => [c, c]));
+    drawCoins();
+    try { live.ws && live.ws.readyState === 1 && live.ws.send(JSON.stringify({type: "subscribe", product_ids: add.map(c => c + "-USD"), channels: ["ticker"]})); } catch (e) {}
+    loadSparks();
+  }
+}
+function cloudBookRow() {
+  const b = cloud.book; if (!b) return null;
+  const hs = Object.values(b.holdings || {});
+  return {book: "Cloud: every coin", strategy: "__cloud__", equity: +b.equity, budget_usd: +b.start_usd, cash: +b.cash,
+          open_positions: hs.length, holdings: hs.map(h => ({asset: h.asset, qty: h.qty, value_usd: h.value_usd}))};
+}
+function drawCloud() {
+  if ($("#tab-crypto").hidden) return;
+  const b = cloud.book, O = cloud.orgs;
+  if (!b || !O) { $("#cl-note").textContent = "The cloud crypto trader's first results appear after its first hourly run."; return; }
+  const hs = b.holdings || {}, coins = Object.keys(O.coins).sort();
+  let liveV = +b.cash || 0; Object.values(hs).forEach(h => liveV += h.qty * (live.px[h.asset] || h.price || h.entry_px));
+  const stages = coins.map(c => Object.values(O.coins[c]).find(o => o.champion));
+  const n = k => stages.filter(o => o && o.stage === k).length;
+  $("#cl-note").innerHTML = `Pretend ${usd(b.start_usd)} split into equal slices, one per coin (${coins.length} liquid Coinbase coins). Each coin's own price history picks its strategy: five rules are backtested on every coin after Coinbase's ${b.fees ? b.fees.fee_pct + "%" : ""} fee plus slippage per trade. A coin's best one trades its slice: full size if it passed the bar, a quarter if it's unproven, nothing if all its rules failed. Every rule keeps a pretend position too, so a challenger that starts winning takes the coin over. It decides once a day on the closed daily bar (UTC) and runs every hour in the cloud.
+    <details><summary>The five rules</summary><div class="more"><b>hold</b>: buy and hold. <b>trend_ma</b>: long while price is above its 50-day average and the 20-day is above the 50-day. <b>donchian</b>: buy a close above the 20-day high, sell a close below the 10-day low. <b>tsm</b>: each Monday, long if the coin is up over 30 days. <b>rsi_rev</b>: buy when RSI(14) drops under 30, sell above 55 or after 10 days.</div></details>`;
+  $("#cl-tiles").innerHTML = [
+    tile("Cloud book, live", usd(liveV, 2), `put in ${usd(b.start_usd)} · ${sgnUsd(liveV - b.start_usd)} (${pct((liveV / b.start_usd - 1) * 100)})`),
+    tile("Holding now", `${Object.keys(hs).length} coins`, `${usd(b.cash, 0)} in cash · ${b.realized ? sgnUsd(b.realized) + " realised" : "nothing sold yet"}`),
+    tile("Strategies", `${n("SURVIVOR")} proven`, `${n("PROBATION")} on trial · ${coins.length - n("SURVIVOR") - n("PROBATION")} coins with none`),
+    tile("Last run", when(b.generated_at), `decided for ${esc(b.decided_for || "—")} (UTC)`),
+  ].join("");
+  const stageP = s => pill(s === "SURVIVOR" ? "good" : s === "PROBATION" ? "warn" : "crit", s === "SURVIVOR" ? "proven" : s === "PROBATION" ? "trial" : "culled");
+  $("#cl-table").innerHTML = `<table><thead><tr><th>Coin</th><th>Its strategy</th><th>Status</th><th>Signal</th><th class="num">Holding (live)</th><th class="num">Backtest Sharpe</th><th class="num">Backtest vs hold</th><th>Other rules</th></tr></thead><tbody>${coins.map(c => {
+    const os = O.coins[c], champ = Object.entries(os).find(([, o]) => o.champion), h = hs[c];
+    const [cn, co] = champ || ["—", null], hold = os.hold && os.hold.backtest;
+    const val = h ? h.qty * (live.px[c] || h.price || h.entry_px) : null;
+    const others = Object.entries(os).filter(([k]) => k !== cn).map(([k, o]) => `<span title="Sharpe ${o.backtest.sharpe}" style="color:${o.stage === "SURVIVOR" ? "var(--good)" : o.stage === "CULLED" ? "var(--muted)" : "var(--ink-2)"}">${esc(k)}${o.stage === "CULLED" ? "✕" : ""}</span>`).join(" · ");
+    return `<tr><td><b>${esc(c)}</b></td><td>${esc(cn)}</td><td>${co ? stageP(co.stage) : pill("crit", "no rule")}</td><td>${co ? (co.signal ? pill("good", "long") : pill("muted", "flat")) : "—"}</td>
+      <td class="num">${h ? `${usd(val, 2)}<div class="sub">${sgnUsd(val - h.cost_usd)}</div>` : '<span class="sub">cash</span>'}</td>
+      <td class="num">${co ? co.backtest.sharpe.toFixed(2) : "—"}</td><td class="num">${co && hold ? `${pct(co.backtest.net_return * 100, 0)}<div class="sub">hold ${pct(hold.net_return * 100, 0)}</div>` : "—"}</td><td class="sub">${others}</td></tr>`;
+  }).join("")}</tbody></table>`;
+  const fills = (b.recent_fills || []).slice().reverse().slice(0, 12);
+  $("#cl-fills").innerHTML = fills.length ? `<table><thead><tr><th>When (UTC)</th><th>Side</th><th>Coin</th><th>Strategy</th><th class="num">Price</th><th class="num">Amount</th><th class="num">Result</th></tr></thead><tbody>${fills.map(f => `<tr><td>${esc((f.ts || "").replace("T", " ").slice(0, 16))}</td><td>${f.side === "sell" ? pill("warn", "SELL") : pill("good", "BUY")}</td><td><b>${esc(f.asset)}</b></td><td>${esc(f.strategy || "")}</td><td class="num">${fmtPx(f.price)}</td><td class="num">${usd(f.usd, 2)}</td><td class="num">${f.side === "sell" ? `${sgnUsd(f.pnl)}<div class="sub">${pct(f.pct)}</div><div class="sub">${esc(f.why || "")}</div>` : ""}</td></tr>`).join("")}</tbody></table>` : `<div class="sub">No trades yet.</div>`;
+}
 function cryptoMoney(d) {
-  const P = d.paper || {}, books = P.books || [];
+  const P = d.paper || {}, books = (P.books || []).concat(cloudBookRow() ? [cloudBookRow()] : []);
   const btcSeries = d.btc || [], lastClose = btcSeries.length ? btcSeries[btcSeries.length - 1] : null;
   const rows = books.map(b => {
     let liveV = null, how = "at the last daily close";
@@ -456,12 +518,12 @@ function drawCryptoMoney(d) {
   pushHist("crypto", m.total);
   $("#m-crypto-tiles").innerHTML = [
     tile("Our crypto money", usd(m.total, 2), `put in ${usd(m.put)} · ${sgnUsd(m.total - m.put, 0)} (${pct(m.put ? (m.total / m.put - 1) * 100 : null)})`),
-    tile("Since the last close", sgnUsd(m.total - m.close), `${esc((d.paper || {}).latest_complete_day || "")} close was ${usd(m.close, 2)}`),
+    tile("Since the last mark", sgnUsd(m.total - m.close), `books at their last published value: ${usd(m.close, 2)}`),
     tile("Updating live", `${liveCount} of ${m.rows.length} books`, liveCount < m.rows.length ? "the others publish only a coin count, so they sit at the daily close" : "every book is re-priced from Coinbase"),
   ].join("");
   $("#m-crypto-alloc").innerHTML = allocBar(m.rows.map(r => ({label: r.b.book, v: r.v})));
-  $("#m-crypto-books").innerHTML = `<table><thead><tr><th>Book</th><th>Where the money is</th><th class="num">Value</th><th class="num">Since the close</th><th class="num">On ${usd(10000)}</th><th>Priced</th></tr></thead><tbody>${m.rows.map(r => {
-    const where = r.b.strategy === "__buy_and_hold_BTC__" ? "100% Bitcoin" : r.coins.length ? r.coins.map(c => `${esc(c.sym)} ${usd(c.qty * (live.px[c.sym] || 0) || c.snap, 0)}`).join(" · ") : `${r.b.open_positions} coins (names not published yet)${+r.b.cash ? ` + ${usd(r.b.cash)} cash` : ""}`;
+  $("#m-crypto-books").innerHTML = `<table><thead><tr><th>Book</th><th>Where the money is</th><th class="num">Value</th><th class="num">Since the close</th><th class="num">Since start</th><th>Priced</th></tr></thead><tbody>${m.rows.map(r => {
+    const where = r.b.strategy === "__cloud__" ? `${r.coins.length} coins: ${r.coins.slice(0, 8).map(c => esc(c.sym)).join(", ")}${r.coins.length > 8 ? "…" : ""} + ${usd(r.b.cash, 0)} cash` : r.b.strategy === "__buy_and_hold_BTC__" ? "100% Bitcoin" : r.coins.length ? r.coins.map(c => `${esc(c.sym)} ${usd(c.qty * (live.px[c.sym] || 0) || c.snap, 0)}`).join(" · ") : `${r.b.open_positions} coins (names not published yet)${+r.b.cash ? ` + ${usd(r.b.cash)} cash` : ""}`;
     return `<tr><td><b>${esc(r.b.book)}</b></td><td class="sub">${where}</td><td class="num">${usd(r.v, 2)}</td><td class="num">${sgnUsd(r.v - r.b.equity)}</td><td class="num">${sgnUsd(r.v - r.b.budget_usd, 0)}</td><td>${pill(r.how.startsWith("live") ? "good" : "muted", r.how)}</td></tr>`; }).join("")}</tbody></table>`;
 }
 
