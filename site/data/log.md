@@ -1,31 +1,3 @@
-~ WORKING take_profit 100% NEM @ $115.54 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 NEM @ $111.66 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% O @ $53.73 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 O @ $52.02 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $517.21 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 MSFT @ $500.38 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GOOGL @ $342.51 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $331.26 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LEN @ $80.09 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 LEN @ $77.39 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25214.97 (+0.86% on $25000.00 in) · cash $21470.44 · realised +220.44
-Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [stop_loss @ $227.84] -> $495.51 (-0.90%) — close it all at -0.8% under the average cost
-  (dropped NOC: sold 36 min ago, cooling off)
-## 2026-10-01 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (dropped NOC: sold 37 min ago, cooling off)
-  (dropped NOC: sold 37 min ago, cooling off)
-  (dropped NOC: sold 38 min ago, cooling off)
-  (dropped NOC: sold 39 min ago, cooling off)
-  (dropped NOC: sold 40 min ago, cooling off)
-  (dropped NOC: sold 40 min ago, cooling off)
-  (cancelled 2 standing order(s) on HLI: position closed)
-- SELL 100% HLI [stop_loss @ $126.21] -> $375.22 (+0.06%) — close it all at -0.9% under the average cost
-  (dropped NOC: sold 41 min ago, cooling off)
-## 2026-10-01 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (dropped NOC: sold 42 min ago, cooling off)
-  (dropped NOC: sold 43 min ago, cooling off)
   (dropped NOC: sold 43 min ago, cooling off)
   (dropped NOC: sold 44 min ago, cooling off)
   (dropped NOC: sold 45 min ago, cooling off)
@@ -398,3 +370,31 @@ Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% ACN [time stop] -> $741.15 (-1.18%) — held 91 min, the 90-minute limit: out regardless
 ## 2026-10-01 14:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 14:19 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after heavy churn today - 56 orders/55 sells already, all names cooling off or just sold. With no entries allowed and no open positions needing protection, there is nothing actionable right now; placing buy_limit triggers would still count as new entries and get dropped per guardrails. I'll check back shortly in case guardrails change or a protective action is needed.
+lesson: When no_new_entries_this_check is true and positions are flat, do not try to force buy_limit triggers - they are entries and will be dropped; just wait for the next window.
+portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-01 14:35 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there is nothing to protect and no new entries are allowed - any buy or buy_limit would simply be dropped per guardrails. Sitting flat for this check is forced by the entry cutoff, not a discretionary cash call.
+lesson: When no_new_entries_this_check is true and the book is flat with zero holdings, there are literally no orders to place (no entries allowed, nothing to sell/protect) - just wait for the next window rather than trying workarounds.
+portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
