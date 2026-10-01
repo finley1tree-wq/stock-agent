@@ -21356,3 +21356,17 @@ lesson: When no_new_entries_this_check is true and positions are flat, there is 
 portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-01 15:30 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff and within max_hold_minutes of close) and portfolio is flat with zero holdings - there is nothing to sell or protect, and new entries would be dropped by guardrails. checks_left_today is 0, so this is the last check of the day; no action is actionable or needed.
+lesson: When no_new_entries_this_check is true, checks_left_today is 0, and positions are flat, there is genuinely nothing to do - confirmed again; stop re-litigating this.
+portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
