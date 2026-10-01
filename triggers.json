@@ -1,117 +1,6 @@
 {
  "orders": [
   {
-   "id": "9a28abc7",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 504.7338,
-   "status": "cancelled",
-   "created": "2026-09-29 11:22",
-   "created_ts": 1790695357,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $507.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:26",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "797b4639",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 492.7503,
-   "status": "cancelled",
-   "created": "2026-09-29 11:22",
-   "created_ts": 1790695357,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $507.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c62e4ce3",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 83.5,
-   "status": "cancelled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "protective stop per risk_management best-performing signal",
-   "evidence": "CCJ ATR 3.57%, entered near day low $86.31",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "698540ee",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 181.5,
-   "status": "cancelled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "protective stop per risk_management best-performing signal",
-   "evidence": "RTX ATR 2.0%, entered at day low $186.58",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d82b46b3",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 443.0,
-   "status": "cancelled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "protective stop per risk_management best-performing signal",
-   "evidence": "TSM ATR 2.24%, entered at $455.93",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d5941d05",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 86.6819,
-   "status": "cancelled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $86.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "e8c23d02",
    "ticker": "CCJ",
    "kind": "buy_limit",
@@ -7429,7 +7318,112 @@
    ],
    "good_until": "2026-10-06",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "7468e9d3",
+   "ticker": "CHRW",
+   "kind": "stop_loss",
+   "price": 145.4,
+   "status": "working",
+   "created": "2026-10-01 12:37",
+   "created_ts": 1790872633,
+   "why": "protective stop per standard bracket",
+   "evidence": "CHRW atr_pct 2.583, bound downside near 3% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f465356e",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 455.116,
+   "status": "working",
+   "created": "2026-10-01 12:37",
+   "created_ts": 1790872633,
+   "why": "wanted it, but not at the high \u2014 resting at $455.12. Strong congress signal plus positive earnings-adjacent coverage, electrical infrastructure play uncorrelated with current defense/gold/HLI book [probation at 25% size (no hour or signal l",
+   "evidence": "congress_net_buy_pressure HUBB=3.0 (April McClain Delaney buys disclosed 9/9); 'Hubbell up 1.42% today, 3 Reasons We're Fans of Hubbell (HUBB)' StockStory 9/30; HUBB at 100% of day range shows strengt",
+   "signals": [
+    "congress",
+    "news",
+    "track_record",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 500.0
+  },
+  {
+   "id": "978b4408",
+   "ticker": "XENE",
+   "kind": "buy_limit",
+   "price": 39.092,
+   "status": "working",
+   "created": "2026-10-01 12:37",
+   "created_ts": 1790872633,
+   "why": "wanted it, but not at the high \u2014 resting at $39.09. Dual-insider buy (CEO+CFO same day) is a stronger signal per past lesson, biotech catalyst with NDA filing news [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "CFO Kelly bought 15000 sh at $37.32 and CEO Mortimer bought 30000 sh at $37.38 same filing date 2026-09-30; stock +7.06% today, 'Xenon Files Azetukalner NDA' headline",
+   "signals": [
+    "insider",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 500.0
+  },
+  {
+   "id": "71abcc5e",
+   "ticker": "GPI",
+   "kind": "buy_limit",
+   "price": 242.2977,
+   "status": "working",
+   "created": "2026-10-01 12:37",
+   "created_ts": 1790872633,
+   "why": "wanted it, but not at the high \u2014 resting at $242.30. Large insider buy from a 10% holder is meaningful size, auto retail diversification away from current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Conifer Management LLC (10% holder) bought 273712 shares at $242.15 on 2026-09-28; 'Group 1 Automotive (GPI) Stock Still Looks Undervalued On A 46% Slump' Simply Wall St; GPI +2.97% today near day hig",
+   "signals": [
+    "insider",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 500.0
+  },
+  {
+   "id": "7e3c7ce6",
+   "ticker": "CHRW",
+   "kind": "take_profit",
+   "price": 150.3703,
+   "status": "working",
+   "created": "2026-10-01 12:37",
+   "created_ts": 1790872633,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $149.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "600c32d5",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 145.4418,
+   "status": "working",
+   "created": "2026-10-01 12:37",
+   "created_ts": 1790872633,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $149.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 12:31"
+ "updated": "2026-10-01 12:37"
 }

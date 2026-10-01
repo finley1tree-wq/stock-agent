@@ -1,28 +1,3 @@
-~ WORKING stop_loss 100% NOC @ $480.23 until 2026-10-06 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 NOC @ $469.00 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $364.14 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% UNH @ $361.31 until 2026-10-06 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 UNH @ $352.43 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GLD @ $381.77 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% GLD @ $379.21 until 2026-10-06 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 GLD @ $369.61 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% RTX @ $185.84 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% RTX @ $184.43 until 2026-10-06 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 RTX @ $179.88 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25219.82 (+0.88% on $25000.00 in) · cash $19855.02 · realised +230.02
-Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [stop_loss @ $363.25] -> $499.88 (-0.02%) — close it all at -0.6% under the average cost
-## 2026-10-01 10:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $455.87] -> $626.49 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-01 10:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $484.81] -> $626.69 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-10-01 10:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 10:13 ET (Thursday) — week 2026-W40 — budget left $21276.49 (today $39375.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
@@ -398,3 +373,28 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week
 ## 2026-10-01 12:31 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 - SELL 100% LMT [time stop] -> $498.20 (-0.36%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-10-01 12:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 12:37 ET (Thursday) — week 2026-W40 — budget left $22380.65 (today $56000.00 put to work, 52 buys, 46 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Still well below min_positions (5 of 8) with 89.5% idle cash - counterfactual data shows idle checks average -0.09% vs chosen picks +0.24%, so deploying into diversified, evidence-backed names is the right move. Added HUBB/CHRW (top congress pressure scores from April McClain Delaney), XENE (rare dual CEO+CFO insider buy flagged as a stronger signal in past lessons), and GPI (large 10%-holder insider buy) to diversify sectors away from the existing defense/gold/financial cluster.
+lesson: Dual-insider buys (CEO+CFO same filing date) and top-ranked congress disclosers (score 3.0, named individuals) are the strongest evidence-backed entries available when below min_positions; keep sizing at $2000 to actually move cash_idle_pct down.
+  (dropped HUBB: 100% up today's range — resting a limit at $455.12 instead of chasing)
+  (dropped XENE: 94% up today's range — resting a limit at $39.09 instead of chasing)
+  (dropped GPI: 90% up today's range — resting a limit at $242.30 instead of chasing)
+- BUY $500.00 CHRW [filled] ['congress', 'track_record'] — Top congress pressure score in logistics sector, diversifies away from defense/gold cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure CHRW=3.0, April McClain Delaney disclosed buys 9/9; CHRW +1.29% today, +2.51% 5d
+  (dropped trigger HUBB stop_loss: not held)
+  (dropped trigger XENE stop_loss: not held)
+  (dropped trigger GPI stop_loss: not held)
+~ WORKING stop_loss 100% CHRW @ $145.40 until 2026-10-01 — protective stop per standard bracket
+~ WORKING buy_limit $500.00 HUBB @ $455.12 until 2026-10-01 — wanted it, but not at the high — resting at $455.12. Strong congress signal plus positive earnings-adjacent coverage, electrical infrastructure play uncorrelated with current defense/gold/HLI book [probation at 25% size (no hour or signal l
+~ WORKING buy_limit $500.00 XENE @ $39.09 until 2026-10-01 — wanted it, but not at the high — resting at $39.09. Dual-insider buy (CEO+CFO same day) is a stronger signal per past lesson, biotech catalyst with NDA filing news [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $500.00 GPI @ $242.30 until 2026-10-01 — wanted it, but not at the high — resting at $242.30. Large insider buy from a 10% holder is meaningful size, auto retail diversification away from current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% CHRW @ $150.37 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $145.44 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25212.79 (+0.85% on $25000.00 in) · cash $22212.22 · realised +212.22
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21880.65 this week

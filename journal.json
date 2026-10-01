@@ -50114,7 +50114,9 @@
     "code_version": "e2f76ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.22,
+    "ret_final": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -50290,7 +50292,9 @@
     "code_version": "34748f9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -50671,7 +50675,9 @@
     "code_version": "2d78fd6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26
+    "ret_now": -0.36,
+    "ret_final": -0.36,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -50727,7 +50733,7 @@
     "code_version": "2d78fd6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.31
   },
   {
     "symbol": "NLR",
@@ -50854,7 +50860,8 @@
     "hour_et": 12,
     "code_version": "3cc0b21",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.09
   },
   {
     "symbol": "CRWD",
@@ -50880,7 +50887,8 @@
     "hour_et": 12,
     "code_version": "3cc0b21",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.02
   },
   {
     "symbol": "NEM",
@@ -50906,7 +50914,8 @@
     "hour_et": 12,
     "code_version": "3cc0b21",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.13
   },
   {
     "symbol": "NOC",
@@ -50934,7 +50943,8 @@
     "hour_et": 12,
     "code_version": "ec45819",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.1
   },
   {
     "symbol": "UNH",
@@ -50958,7 +50968,8 @@
     "evidence": "average cost $364.16",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "6598c86"
+    "code_version": "6598c86",
+    "hold_minutes": 87
   },
   {
     "symbol": "TSM",
@@ -50982,7 +50993,8 @@
     "evidence": "average cost $455.19",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "6598c86"
+    "code_version": "6598c86",
+    "hold_minutes": 72
   },
   {
     "symbol": "LMT",
@@ -51006,6 +51018,33 @@
     "evidence": "bought 30 min ago, -0.32% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "2df2565"
+    "code_version": "2df2565",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.334668,
+    "price": 149.94,
+    "date": "2026-10-01",
+    "time_et": "12:37",
+    "ts": 1790872633,
+    "why": "Top congress pressure score in logistics sector, diversifies away from defense/gold cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure CHRW=3.0, April McClain Delaney disclosed buys 9/9; CHRW +1.29% today, +2.51% 5d",
+    "hold_minutes": 90,
+    "entry_price": 149.88,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.35,
+    "hour_et": 12,
+    "code_version": "5fcef0a",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
