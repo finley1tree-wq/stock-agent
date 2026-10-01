@@ -1,40 +1,3 @@
-~ WORKING stop_loss 100% FWONK @ $91.00 until 2026-09-30 — cap downside on new FWONK position
-~ WORKING stop_loss 100% SKWD @ $51.70 until 2026-09-30 — cap downside on new SKWD position
-~ WORKING buy_limit $625.00 HLI @ $127.19 until 2026-09-30 — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
-~ WORKING take_profit 100% FWONK @ $93.79 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 FWONK @ $90.73 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% SKWD @ $53.37 until 2026-10-05 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 SKWD @ $51.63 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25232.43 (+0.93% on $25000.00 in) · cash $19017.96 · realised +267.96
-Done: 0 sell(s), 2 buy(s); 19 order(s) working; budget left $18686.35 this week
-- BUY $625.00 HLI [buy_limit @ $127.18] — wanted it, but not at the high — resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye
-- SELL 100% CHRW [time stop] -> $3955.61 (-1.11%) — held 90 min, the 90-minute limit: out regardless
-## 2026-09-30 11:03 ET — tick — 1 sell(s), 1 buy(s) from standing orders
-
-## 2026-09-30 11:13 ET (Wednesday) — week 2026-W40 — budget left $22016.96 (today $32625.00 put to work, 19 buys, 12 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
-  (bad quote TNON: +63.7% in a day looks like a bad tick)
-brain: Below min_positions (5/8) with 88% idle cash - the counterfactual data shows idle checks have negative regret vs deploying. Adding ACN (congress tier 2.0 + earnings catalyst), CRWD (news momentum), AAPL (fresh CEO/foldable headlines) at market since they're not extreme in day range, and a GOOGL buy_limit to respect the cooldown. Avoiding pure-momentum tags per allow_momentum_only_entries=false; every buy pairs news or congress evidence with a concrete headline.
-lesson: Reaching min_positions requires acting each check with concrete news/congress evidence rather than waiting for cooldowns to clear on every name - use buy_limit triggers for cooling-off tickers instead of skipping them entirely.
-  (dropped GOOGL: sold 16 min ago, cooling off)
-  (dropped ACN: 99% up today's range — resting a limit at $180.33 instead of chasing)
-  (dropped CRWD: 100% up today's range — resting a limit at $265.14 instead of chasing)
-- BUY $500.00 AAPL [filled] ['news'] — Fresh CEO-change and foldable-iPhone catalyst headlines, not momentum-only [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'Apple's new CEO John Ternus plans on making some changes' and '$1,999 Foldable iPhone Could Sell 6 Million Units' headlines today, +2.57% 1d
-  (dropped trigger ACN stop_loss: level 1960 is 10.74x the quote 182.43, outside 0.5-1.5x)
-  (dropped trigger CRWD stop_loss: not held)
-~ WORKING buy_limit $1500.00 GOOGL @ $347.00 until 2026-09-30 — wait for cooldown to clear and a small dip before entering
-~ WORKING stop_loss 100% AAPL @ $331.00 until 2026-09-30 — protective stop ~2% below entry
-~ WORKING buy_limit $500.00 ACN @ $180.33 until 2026-09-30 — wanted it, but not at the high — resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i
-~ WORKING buy_limit $500.00 CRWD @ $265.14 until 2026-09-30 — wanted it, but not at the high — resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha
-~ WORKING take_profit 100% AAPL @ $338.67 until 2026-10-05 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AAPL @ $327.79 until 2026-10-05 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25218.12 (+0.87% on $25000.00 in) · cash $21848.56 · realised +223.56
-Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21516.96 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [stop_loss @ $127.30] -> $625.55 (+0.09%) — close it all at -0.9% under the average cost
 ## 2026-09-30 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +361,40 @@ Done: 0 sell(s), 5 buy(s); 17 order(s) working; budget left $8378.80 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $231.74] -> $4013.52 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 09:47 ET (Thursday) — week 2026-W40 — budget left $17918.84 (today $24000.00 put to work, 7 buys, 5 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+brain: Only 2 of min 8 positions held with 71.7% cash idle - this is the dominant problem per counterfactual report (idle_share 0.53, cost -0.05% avg). Past lessons explicitly flag correlated congress cluster (HUBB/CHRW/LTH same discloser) so diversifying into widely_held tech (NVDA, MSFT, AVGO, GOOGL), a named-congress AMD trade, and defense (LMT) spreads sector risk while each has concrete headline/congress evidence and reasonable day-range entry points.
+lesson: When below min_positions with high idle cash, diversify across sectors using individual headline/congress evidence per name rather than piling into one correlated cluster.
+- BUY $2000.00 NVDA [filled] ['momentum', 'news'] — Widely-held AI leader with fresh positive headline and recovering momentum; sector has decent track record (0.0 avg but large n=425, hit rate 0.56) | evidence: NVDA +0.95% 1d, headline 'Nvidia's Latest Move is a Green Light to Keep Loading Up' 2026-10-01
+- BUY $2000.00 MSFT [filled] ['momentum', 'news'] — Strong 5d momentum plus positive relative-sector headline, low in day range (26.5%) giving room to run before hitting chase limit | evidence: MSFT +1.11% 1d, +4.15% 5d; headline notes 'Every S&P Sector Fell in September Except One' implying tech resilience
+- BUY $2000.00 AVGO [filled] ['news'] — Fresh bullish sell-side commentary and AI partnership headline support a position; price at only 1.8% of day range, good entry | evidence: Headline 'The Only Way I Stop Adding Broadcom is an AI Collapse' and 'Broadcom Stock Rises. Anthropic and Broadcom Are Becoming More Intertwined' both 2026-10-01
+- BUY $2000.00 GOOGL [filled] ['news'] — Near day low entry with fresh attention headline; widely_held sector decent track record | evidence: Headline 'Alphabet (GOOGL), What Is Behind The Fresh Attention?' 2026-10-01 13:08, price at 0.9% of day range (near day low)
+- BUY $2000.00 AMD [filled] ['news', 'momentum'] — Only in 17.6% of day range (near low), proven congress discloser with specific AMD track record, 1m momentum +32.45% | evidence: Rep. Rick W. Allen (+2.76% avg excess vs SPY over 8 scored buys, best AMD +13.2%) disclosed AMD buy; headline 'Nvidia's Latest Move is a Green Light to Keep Loading Up' spillover
+- BUY $2000.00 LMT [filled] ['news'] — Concrete new contract win headline, defense sector reasonable hit rate 0.55, diversifies away from logistics/industrial cluster per past lesson | evidence: Headline 'Lockheed Martin Secures Over $1 Billion in Defense Deals' 2026-09-30, price only 38% of day range
+  (dropped trigger HUBB stop_loss: duplicate of a working order)
+~ WORKING take_profit 100% NVDA @ $231.17 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% NVDA @ $229.13 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 NVDA @ $223.67 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $520.02 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% MSFT @ $515.30 until 2026-10-06 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $503.11 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $351.54 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AVGO @ $347.75 until 2026-10-06 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 AVGO @ $339.95 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $344.05 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% GOOGL @ $340.58 until 2026-10-06 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $332.77 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMD @ $611.67 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% AMD @ $601.85 until 2026-10-06 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 AMD @ $590.59 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $511.33 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% LMT @ $507.13 until 2026-10-06 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 LMT @ $494.83 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25233.08 (+0.93% on $25000.00 in) · cash $6250.44 · realised +250.44
+Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week

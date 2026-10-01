@@ -48376,7 +48376,10 @@
     "hour_et": 9,
     "code_version": "4427d3f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 1.05,
+    "ret_now": 1.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "HUBB",
@@ -48402,7 +48405,8 @@
     "hour_et": 9,
     "code_version": "4427d3f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.48
   },
   {
     "symbol": "CHRW",
@@ -48428,7 +48432,8 @@
     "hour_et": 9,
     "code_version": "4427d3f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.15
   },
   {
     "symbol": "LTH",
@@ -48454,7 +48459,10 @@
     "hour_et": 9,
     "code_version": "4427d3f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.09,
+    "ret_now": 0.09,
+    "ret_src": "realised"
   },
   {
     "symbol": "TTD",
@@ -48480,7 +48488,10 @@
     "hour_et": 9,
     "code_version": "4427d3f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -1.2,
+    "ret_now": -1.2,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -48509,7 +48520,10 @@
     "hour_et": 9,
     "code_version": "6616358",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.03,
+    "ret_now": 0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -48535,7 +48549,8 @@
     "evidence": "average cost $221.59",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "01f07e0"
+    "code_version": "01f07e0",
+    "hold_minutes": 3
   },
   {
     "symbol": "TTD",
@@ -48560,7 +48575,8 @@
     "evidence": "average cost $12.39",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "637e940"
+    "code_version": "637e940",
+    "hold_minutes": 2
   },
   {
     "symbol": "IBM",
@@ -48589,7 +48605,10 @@
     "hour_et": 9,
     "code_version": "39ec066",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.34,
+    "ret_now": 0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "CCJ",
@@ -48615,7 +48634,8 @@
     "evidence": "average cost $86.56",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "39ec066"
+    "code_version": "39ec066",
+    "hold_minutes": 5
   },
   {
     "symbol": "LTH",
@@ -48640,7 +48660,8 @@
     "evidence": "average cost $39.67",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "86c639f"
+    "code_version": "86c639f",
+    "hold_minutes": 8
   },
   {
     "symbol": "IBM",
@@ -48666,6 +48687,160 @@
     "evidence": "average cost $230.96",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "86c639f"
+    "code_version": "86c639f",
+    "hold_minutes": 5
+  },
+  {
+    "symbol": "NVDA",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.673549,
+    "price": 230.59,
+    "date": "2026-10-01",
+    "time_et": "09:47",
+    "ts": 1790862470,
+    "why": "Widely-held AI leader with fresh positive headline and recovering momentum; sector has decent track record (0.0 avg but large n=425, hit rate 0.56)",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "NVDA +0.95% 1d, headline 'Nvidia's Latest Move is a Green Light to Keep Loading Up' 2026-10-01",
+    "hold_minutes": 90,
+    "entry_price": 230.54,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 6.03,
+    "hour_et": 9,
+    "code_version": "6351517",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.855989,
+    "price": 518.67,
+    "date": "2026-10-01",
+    "time_et": "09:47",
+    "ts": 1790862470,
+    "why": "Strong 5d momentum plus positive relative-sector headline, low in day range (26.5%) giving room to run before hitting chase limit",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "MSFT +1.11% 1d, +4.15% 5d; headline notes 'Every S&P Sector Fell in September Except One' implying tech resilience",
+    "hold_minutes": 30,
+    "entry_price": 518.57,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 3.5,
+    "hour_et": 9,
+    "code_version": "6351517",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.706784,
+    "price": 350.46,
+    "date": "2026-10-01",
+    "time_et": "09:47",
+    "ts": 1790862470,
+    "why": "Fresh bullish sell-side commentary and AI partnership headline support a position; price at only 1.8% of day range, good entry",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Headline 'The Only Way I Stop Adding Broadcom is an AI Collapse' and 'Broadcom Stock Rises. Anthropic and Broadcom Are Becoming More Intertwined' both 2026-10-01",
+    "hold_minutes": 30,
+    "entry_price": 350.39,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -5.22,
+    "hour_et": 9,
+    "code_version": "6351517",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.829908,
+    "price": 343.06,
+    "date": "2026-10-01",
+    "time_et": "09:47",
+    "ts": 1790862470,
+    "why": "Near day low entry with fresh attention headline; widely_held sector decent track record",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Headline 'Alphabet (GOOGL), What Is Behind The Fresh Attention?' 2026-10-01 13:08, price at 0.9% of day range (near day low)",
+    "hold_minutes": 90,
+    "entry_price": 342.99,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.38,
+    "hour_et": 9,
+    "code_version": "6351517",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMD",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.284818,
+    "price": 608.86,
+    "date": "2026-10-01",
+    "time_et": "09:47",
+    "ts": 1790862470,
+    "why": "Only in 17.6% of day range (near low), proven congress discloser with specific AMD track record, 1m momentum +32.45%",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Rep. Rick W. Allen (+2.76% avg excess vs SPY over 8 scored buys, best AMD +13.2%) disclosed AMD buy; headline 'Nvidia's Latest Move is a Green Light to Keep Loading Up' spillover",
+    "hold_minutes": 90,
+    "entry_price": 608.74,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 32.45,
+    "hour_et": 9,
+    "code_version": "6351517",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "LMT",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.920539,
+    "price": 510.13,
+    "date": "2026-10-01",
+    "time_et": "09:47",
+    "ts": 1790862470,
+    "why": "Concrete new contract win headline, defense sector reasonable hit rate 0.55, diversifies away from logistics/industrial cluster per past lesson",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Headline 'Lockheed Martin Secures Over $1 Billion in Defense Deals' 2026-09-30, price only 38% of day range",
+    "hold_minutes": 30,
+    "entry_price": 509.93,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -6.35,
+    "hour_et": 9,
+    "code_version": "6351517",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
