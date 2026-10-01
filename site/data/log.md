@@ -1,6 +1,3 @@
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (COUR excluded: share price $4.86 is below $5: the spread eats the trade — Coursera, Inc.)
   (bad quote TNON: +48.5% in a day looks like a bad tick)
 brain: Only 5 positions held vs min_positions 8, cash_idle_pct 88.6% - need to deploy more. Adding ACN (congress pressure + earnings headline), TSM (news catalyst on Texas expansion), and CRWD (dual same-day AI infra headlines) to diversify sectors beyond the current nuclear/industrial/consumer cluster, each with concrete evidence and immediate stop-loss protection. Avoiding GOOGL/MSFT/HLI/CHRW due to active cooldowns.
 lesson: Even with full_deployment mandate, always pair new-name buys with an explicit protective stop_loss trigger in the same call rather than relying solely on auto_bracket defaults.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 6 buy(s); 24 order(s) working; budget left $5918.84 this week
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $351.54] -> $2006.18 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $344.05] -> $2005.79 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-01 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
