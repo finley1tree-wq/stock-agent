@@ -190,6 +190,8 @@ def decide(cfg: dict, data: dict[str, list[dict]], orgs: dict, book: dict, ledge
     cost = cfg["fee_pct"] + cfg["slippage_pct"]
     day = datetime.fromtimestamp(max(b[-1]["t"] for b in data.values()), timezone.utc).date().isoformat()
     coins = sorted(data)
+    for gone in [c for c in orgs if c not in data and c not in book["holdings"]]:
+        orgs.pop(gone)                             # left the universe and nothing held: stop scoring it
     # 1. rescore every organism and step its shadow position on today's closed bar
     for coin in coins:
         bars = data[coin]
