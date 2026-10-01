@@ -20874,3 +20874,5 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
 ## 2026-10-01 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders
   (dropped NOC: sold 24 min ago, cooling off)
   (dropped NOC: sold 25 min ago, cooling off)
+  (dropped NOC: sold 26 min ago, cooling off)
+  (dropped NOC: sold 26 min ago, cooling off)
