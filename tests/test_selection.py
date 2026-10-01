@@ -20,7 +20,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from agent import autopilot, evolve, selection, triggers  # noqa: E402
+from agent import autopilot, evolve, experiments, selection, triggers  # noqa: E402
 from agent.broker_sim import close_time, is_trading_day  # noqa: E402
 
 ET = ZoneInfo("America/New_York")
@@ -54,7 +54,7 @@ def run_functions(**stubs):
             or (isinstance(n, ast.Assign) and any(getattr(t, "id", None) in names for t in n.targets))]
     ns = {"datetime": datetime, "timedelta": timedelta, "time": time, "ET": ET,
           "is_trading_day": is_trading_day, "close_time": close_time,
-          "selection": selection, "evolve": evolve, "triggers": triggers, **stubs}
+          "selection": selection, "evolve": evolve, "experiments": experiments, "triggers": triggers, **stubs}
     exec(compile(ast.Module(body=body, type_ignores=[]), str(ROOT / "agent" / "run.py"), "exec"), ns)
     return ns, src
 

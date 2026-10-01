@@ -304,9 +304,9 @@ def _run_functions(**stubs):
     body = [n for n in ast.parse(src).body
             if (isinstance(n, ast.FunctionDef) and n.name in names)
             or (isinstance(n, ast.Assign) and any(getattr(t, "id", None) in names for t in n.targets))]
-    from agent import evolve, selection
+    from agent import evolve, experiments, selection
     ns = {"datetime": datetime, "timedelta": timedelta, "time": time, "ET": ET,
-          "selection": selection, "evolve": evolve, "triggers": triggers, **stubs}
+          "selection": selection, "evolve": evolve, "experiments": experiments, "triggers": triggers, **stubs}
     exec(compile(ast.Module(body=body, type_ignores=[]), str(ROOT / "agent" / "run.py"), "exec"), ns)
     return ns
 

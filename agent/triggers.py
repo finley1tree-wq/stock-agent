@@ -515,7 +515,9 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             # the ATR, so re-pinning now would cancel the working stop and target as "stale" and put
             # nothing back. Leave this position's orders exactly as they are until a quote returns.
             continue
-        tp, sl = levels(t, px, cfg)
+        # per-position settings from a running experiment (agent/experiments.py), e.g. ratchet off
+        pcfg = {**cfg, **(((cfg.get("_overrides") or {}).get(t)) or {})}
+        tp, sl = levels(t, px, pcfg)
         mine = [o for o in live if o["ticker"] == t and _is_auto(o)]
         # Has this position's automatic target already been taken? Selling does not change
         # avg_cost, so without this check a new target is recreated at the same price after every
@@ -550,8 +552,8 @@ def rebalance_brackets(now: datetime, positions: dict, px: dict, cfg: dict) -> t
             # the position waited for a timer. So once a position is a decent way toward its
             # target, the stop climbs behind the price and never steps back down. A winner that
             # stalls is sold near its high instead of at whatever the clock happens to find.
-            after = float(cfg.get("ratchet_after_pct_of_target", 0) or 0)
-            keep = float(cfg.get("ratchet_keep_pct_of_gain", 0) or 0)
+            after = float(pcfg.get("ratchet_after_pct_of_target", 0) or 0)
+            keep = float(pcfg.get("ratchet_keep_pct_of_gain", 0) or 0)
             if tp > 0 and after > 0 and keep > 0:
                 if price > entry:
                     gain = (price / entry - 1) * 100

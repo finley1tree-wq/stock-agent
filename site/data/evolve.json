@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T16:00-04:00",
+ "generated_at": "test",
  "settings": {
   "min_trips": 30,
   "survive_t": 2.0,
@@ -353,33 +353,111 @@
    }
   }
  },
- "hold_trial": {
-  "settings": {
-   "arms": [
-    30,
-    90
-   ],
-   "min_trips_per_arm": 40,
-   "decide_t": 2.0,
-   "max_trips_per_arm": 150
-  },
-  "arms": {
-   "30": {
-    "n": 41,
-    "net": -55.05,
-    "mean_pct": -0.1366,
-    "win_rate": 0.341
+ "experiments": [
+  {
+   "settings": {
+    "min_trips_per_arm": 40,
+    "decide_t": 2.0,
+    "max_trips_per_arm": 150,
+    "name": "hold",
+    "param": "hold_minutes",
+    "arms": [
+     30,
+     90
+    ]
    },
-   "90": {
-    "n": 49,
-    "net": 68.59,
-    "mean_pct": 0.0916,
-    "win_rate": 0.755
-   }
+   "arms": {
+    "30": {
+     "n": 41,
+     "net": -55.05,
+     "mean_pct": -0.1366,
+     "win_rate": 0.341
+    },
+    "90": {
+     "n": 49,
+     "net": 68.59,
+     "mean_pct": 0.0916,
+     "win_rate": 0.755
+    }
+   },
+   "winner": 90,
+   "why": "clearly better (t 2.22)",
+   "decided_on": "2026-10-01",
+   "t": 2.35,
+   "name": "hold",
+   "param": "hold_minutes",
+   "note": "",
+   "status": "decided"
   },
-  "winner": 90,
-  "why": "clearly better (t 2.22)",
-  "decided_on": "2026-10-01",
-  "t": 2.35
- }
+  {
+   "settings": {
+    "min_trips_per_arm": 40,
+    "decide_t": 2.0,
+    "max_trips_per_arm": 150,
+    "name": "ratchet",
+    "param": "ratchet",
+    "arms": [
+     "on",
+     "off"
+    ]
+   },
+   "arms": {
+    "on": {
+     "n": 0,
+     "net": 0,
+     "mean_pct": null,
+     "win_rate": null
+    },
+    "off": {
+     "n": 0,
+     "net": 0,
+     "mean_pct": null,
+     "win_rate": null
+    }
+   },
+   "winner": null,
+   "why": null,
+   "decided_on": null,
+   "t": 0.0,
+   "name": "ratchet",
+   "param": "ratchet",
+   "note": "",
+   "status": "running"
+  },
+  {
+   "settings": {
+    "min_trips_per_arm": 40,
+    "decide_t": 2.0,
+    "max_trips_per_arm": 150,
+    "name": "hold_long",
+    "param": "hold_minutes",
+    "arms": [
+     90,
+     120
+    ]
+   },
+   "arms": {
+    "90": {
+     "n": 0,
+     "net": 0,
+     "mean_pct": null,
+     "win_rate": null
+    },
+    "120": {
+     "n": 0,
+     "net": 0,
+     "mean_pct": null,
+     "win_rate": null
+    }
+   },
+   "winner": null,
+   "why": null,
+   "decided_on": null,
+   "t": 0.0,
+   "name": "hold_long",
+   "param": "hold_minutes",
+   "note": "",
+   "status": "queued"
+  }
+ ]
 }

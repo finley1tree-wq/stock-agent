@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from agent import evolve  # noqa: E402
+from agent import evolve, experiments  # noqa: E402
 
 FAILS: list[str] = []
 CHECKS = 0
@@ -97,6 +97,41 @@ def test_stages():
     check("verdict: a culled signal mix is blocked even in a survivor hour", w == 0.0 and "signals" in why, why)
 
 
+def test_queue():
+    g = {"experiments": [{"name": "hold", "param": "hold_minutes", "arms": [30, 90]},
+                         {"name": "ratchet", "param": "ratchet", "arms": ["on", "off"]},
+                         {"name": "hold_long", "param": "hold_minutes", "arms": [90, 120]}],
+         "experiment_rules": {"min_trips_per_arm": 40, "decide_t": 2.0, "max_trips_per_arm": 150}}
+    st_ = experiments.standings(g, [])
+    check("queue: first experiment runs, the rest wait", [r["status"] for r in st_] == ["running", "queued", "queued"])
+    st = {}
+    flips = iter([0.1, 0.9])
+    a = experiments.assign(st, g, "AAA", set(), rows=[], rng=lambda: next(flips))
+    b = experiments.assign(st, g, "BBB", {"AAA"}, rows=[], rng=lambda: next(flips))
+    check("queue: a coin picks each new position's arm", (a["params"], b["params"]) == ({"hold_minutes": 30}, {"hold_minutes": 90}), str((a, b)))
+    check("queue: an add keeps its position's arm", experiments.assign(st, g, "BBB", {"AAA", "BBB"}, rows=[], rng=lambda: 0.0) is b)
+    check("queue: a closed position's arm is forgotten", experiments.assign(st, g, "BBB", {"AAA"}, rows=[], rng=lambda: 0.0)["params"] == {"hold_minutes": 30})
+    check("queue: hold_for reads the arm", experiments.hold_for(st, g, "AAA", 15) == 30)
+    check("queue: journal tags carry the arm", experiments.journal_tags(a) == {"experiments": {"hold": 30}, "hold_minutes": 30})
+    random.seed(3)
+    rows = []
+    for i in range(45):          # legacy rows: hold_minutes only, as the first trial wrote them
+        rows += trip(f"S{i}", 10, ["x"], 1.0, pct=random.gauss(-0.10, 0.3), hold=30)
+        rows += trip(f"L{i}", 10, ["x"], 3.0, pct=random.gauss(0.25, 0.3), hold=90)
+    active, fixed = experiments.current(g, rows)
+    check("queue: a decided winner is fixed and the next experiment runs", fixed == {"hold_minutes": 90} and active["name"] == "ratchet")
+    rec = experiments.assign({}, g, "C", set(), rows=rows, rng=lambda: 0.9)
+    check("queue: new positions get the winner plus the running coin", rec == {"params": {"hold_minutes": 90, "ratchet": "off"}, "tags": {"ratchet": "off"}}, str(rec))
+    check("queue: ratchet off becomes a bracket override", experiments.bracket_overrides({"exp_arm": {"C": rec}}) == {"C": {"ratchet_after_pct_of_target": 0}})
+    tagged = sum((trip(f"R{i}", 10, ["x"], 1.0, pct=0.1, hold=90) for i in range(3)), [])
+    for r in tagged:
+        if r["side"] == "buy":
+            r["experiments"] = {"ratchet": "on"}
+    after = experiments.standings(g, rows + tagged)
+    check("queue: tagged rows count for their experiment only", after[0]["arms"]["90"]["n"] == 45 and after[1]["arms"]["on"]["n"] == 3)
+    check("queue: legacy hold_trial still works as a one-item queue", [r["name"] for r in experiments.standings({"hold_trial": {}}, [])] == ["hold"])
+
+
 def test_day_reset():
     rows = [{"symbol": "TPL", "side": "buy", "status": "filled", "qty": 1, "date": "2026-09-11", "hour_et": 14, "signals": ["congress"]}]
     rows += trip("TPL", 10, ["news"], 4.0, date="2026-09-14")         # the 09-11 sell is missing from the journal
@@ -126,21 +161,7 @@ def test_settings():
 
 def test_hold_trial():
     g = {"evolve": {}, "hold_trial": {}}
-    check("trial: absent -> off", evolve.trial_settings({}) is None and evolve.assign_hold({}, {}, "X", set(), None) is None)
-    st = {}
-    flips = iter([0.1, 0.9])
-    a = evolve.assign_hold(st, g, "AAA", set(), None, rng=lambda: next(flips))
-    b = evolve.assign_hold(st, g, "BBB", {"AAA"}, None, rng=lambda: next(flips))
-    check("trial: a coin picks each new position's arm", (a, b) == (30, 90), str((a, b)))
-    check("trial: an add to a held position keeps its arm",
-          evolve.assign_hold(st, g, "BBB", {"AAA", "BBB"}, None, rng=lambda: 0.0) == 90)
-    check("trial: a closed position's arm is forgotten; a rebuy gets a new coin",
-          evolve.assign_hold(st, g, "BBB", {"AAA"}, None, rng=lambda: 0.0) == 30)
-    check("trial: hold_for reads the stored arm", evolve.hold_for(st, g, "AAA", 30) == 30
-          and evolve.hold_for({"hold_arm": {"Z": 90}}, g, "Z", 30) == 90)
-    check("trial: hold_for without a trial is the default", evolve.hold_for({"hold_arm": {"Z": 90}}, {}, "Z", 30) == 30)
-    check("trial: once there is a winner every new position gets it",
-          evolve.assign_hold({}, g, "C", set(), {"hold_trial": {"winner": 90}}, rng=lambda: 0.0) == 90)
+    check("trial: absent -> off", evolve.trial_settings({}) is None and experiments.assign({}, {}, "X", set(), rows=[]) is None)
 
     cfg = evolve.trial_settings(g)
     random.seed(3)
@@ -170,6 +191,7 @@ def test_hold_trial():
 
 if __name__ == "__main__":
     test_hold_trial()
+    test_queue()
     test_day_reset()
     test_trial_without_evolve()
     test_pairing()

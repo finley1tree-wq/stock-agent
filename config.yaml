@@ -139,15 +139,23 @@ guardrails:
     probation_size: 0.25
 
   max_hold_minutes: 30
-  # HOLD-TIME TRIAL (agent/evolve.py), the owner's call 2026-09-29: each new position gets a random
-  # 30- or 90-minute clock; targets and stops stay sized for 30 minutes (they scale to
-  # max_hold_minutes above), so the clock is the only difference. Compared on % return per trade.
-  # Once both arms have min_trips_per_arm trades and one leads by t >= decide_t it wins; if neither
-  # has after max_trips_per_arm each, the higher average wins. After that every position uses the
-  # winner. Replay of 817 past entries (brackets on, ratchet on): 30 min +$149, 60 min +$322.
-  # Remove the block to go back to max_hold_minutes for everything.
-  hold_trial:
-    arms: [30, 90]
+  # EXPERIMENTS (agent/experiments.py), the owner's standing instruction: keep trying methods and
+  # keep the ones that stick. Run one at a time, in this order. While one runs, each NEW position
+  # gets one of its two arms by a fair coin; settings decided earlier are applied as decided. An
+  # experiment decides when both arms have min_trips_per_arm trades and one leads by t >= decide_t
+  # on % return per trade, or on the higher average at max_trips_per_arm each; that is final, and
+  # the next one starts. The dashboard's stock tab shows the queue.
+  experiments:
+    - name: hold           # decided 2026-10-01: 90 min (+0.092%/trade, n=49) beat 30 (-0.137%, n=41), t 2.22
+      param: hold_minutes
+      arms: [30, 90]
+    - name: ratchet        # does the climbing stop help? Replay of 817 entries: it cost money at every
+      param: ratchet       # hold length (60 min: +$322 with it, +$507 without)
+      arms: ["on", "off"]
+    - name: hold_long      # replay: 120 min without the ratchet +$881 vs 90 min +$755
+      param: hold_minutes
+      arms: [90, 120]
+  experiment_rules:
     min_trips_per_arm: 40
     decide_t: 2.0
     max_trips_per_arm: 150

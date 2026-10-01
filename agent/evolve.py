@@ -96,7 +96,7 @@ def round_trips(rows: list[dict]) -> list[dict]:
             hour = int(str(e["time_et"])[:2])
         out.append({"symbol": sym, "date": e.get("date"), "hour": hour, "signals": e.get("signals") or [],
                     "pnl": float(r.get("realized_pnl") or 0), "pct": float(pct or 0), "trigger": r.get("trigger"),
-                    "hold": e.get("hold_minutes"), "ts": r.get("ts"),
+                    "hold": e.get("hold_minutes"), "exp": e.get("experiments"), "ts": r.get("ts"),
                     "flagged": pct is not None and abs(float(pct)) >= FLAG_PCT})
         pos["qty"] -= qty
         if pos["qty"] <= max(1e-6, 0.001 * qty):
@@ -200,14 +200,17 @@ def _welch_t(a: list[float], b: list[float]) -> float:
     return (ma - mb) / se if se > 0 else 0.0
 
 
-def trial(rows: list[dict], cfg: dict) -> dict:
-    """Standing of the hold-time trial: per-arm stats and, once reached, the winner."""
+def trial(rows: list[dict], cfg: dict, arm_of=None) -> dict:
+    """Standing of a two-arm trial: per-arm stats and, once reached, the winner.
+    arm_of(trip) names the trip's arm; by default the hold-time trial's hold_minutes."""
     arms = cfg["arms"]
-    trips = [t for t in round_trips(rows) if not t["flagged"] and t["hold"] in arms]
+    arm_of = arm_of or (lambda t: t["hold"])
+    trips = [(t, arm_of(t)) for t in round_trips(rows) if not t["flagged"]]
+    trips = [(t, a) for t, a in trips if a in arms]
     seen = {a: [] for a in arms}
     winner, why, decided_at = None, None, None
-    for t in trips:
-        seen[t["hold"]].append(t)
+    for t, arm in trips:
+        seen[arm].append(t)
         if winner is not None:
             continue
         a, b = ([x["pct"] for x in seen[arm]] for arm in arms)
@@ -320,6 +323,11 @@ def summary(scores: dict | None) -> dict:
 def write(scores: dict | None, generated_at: str, g: dict | None = None) -> None:
     if not scores and g is not None and trial_state(g) is not None:
         scores = {"hold_trial": trial_state(g)}          # the trial still shows with evolve off
+    if g is not None:
+        from . import experiments                        # imported here: experiments imports evolve
+        q = experiments.standings(g)
+        if q:
+            scores = {**(scores or {}), "experiments": q}
     if not scores:
         return
     OUT.parent.mkdir(parents=True, exist_ok=True)

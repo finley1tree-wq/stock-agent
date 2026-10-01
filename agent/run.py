@@ -17,6 +17,7 @@ from pathlib import Path
 from . import config, prices, politicians, insiders, news, state, brain, learn, publish as pub, safety, backtest, reflect, triggers, instruments, traders, wallets, replay, autopilot
 from . import selection
 from . import evolve
+from . import experiments
 from .redact import redact
 from .broker_sim import is_trading_day, close_time, last_trading_day_of_week
 
@@ -384,7 +385,7 @@ def _at_price(broker, sym: str, price: float, fn):
         else:
             px_map[sym] = saved
 
-def _bracket_cfg(g: dict) -> dict:
+def _bracket_cfg(g: dict, st: dict | None = None) -> dict:
     """The auto_bracket block WITH the budget folded in.
 
     Order sizes are a fraction of the weekly budget now, and the bracket only ever received its
@@ -392,7 +393,9 @@ def _bracket_cfg(g: dict) -> dict:
     orders quietly stop existing. Caught by the basket test, which is exactly what it is for.
     """
     return {**(g.get("auto_bracket") or {}), "_weekly_budget": float(g.get("_weekly_budget", 0) or 0),
-            "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0)}
+            "_max_hold_minutes": float(g.get("max_hold_minutes", 0) or 0),
+            # per-position bracket settings from a running experiment (experiments.py), e.g. ratchet off
+            "_overrides": experiments.bracket_overrides(st) if st else {}}
 
 def time_stops(now, broker, positions, st, g, log_fn):
     """Close anything that has sat still too long.
@@ -414,7 +417,7 @@ def time_stops(now, broker, positions, st, g, log_fn):
         # An intraday clock, when one is set, overrides the daily one: this is the rule that makes
         # the agent take the trade it has rather than wait for one it might get. It fires whether
         # the position is up or down - the point is the time, not the outcome.
-        lim = evolve.hold_for(st, g, t, mins) if mins else 0    # its trial arm (30 or 90), else the default
+        lim = experiments.hold_for(st, g, t, mins) if mins else 0    # its experiment setting, else the default
         if mins and held_m is not None and held_m >= lim:
             stale.append({"ticker": t, "pct_of_position": 100,
                           "why": f"held {held_m} min, the {lim}-minute limit: out regardless",
@@ -588,9 +591,8 @@ def fill_standing_orders(now, today, broker, positions, px, st, g, allowed, rema
                 log_fn(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
             full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(f.get("fired_ts") or now.timestamp()),
                     "why": o["why"], "signals": o["signals"], "evidence": o["evidence"], "trigger": f["kind"]}
-            hold = evolve.assign_hold(st, g, o["ticker"], held_before, None)
-            if hold is not None:
-                full["hold_minutes"] = hold
+            # this position's settings: decided experiments' winners + the running one's coin (experiments.py)
+            full.update(experiments.journal_tags(experiments.assign(st, g, o["ticker"], held_before)))
             state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
             learn.record(full, f["fill_price"], sector_of.get(o["ticker"], "off-watchlist"),
                          cpressure.get(o["ticker"], 0) > 0, px.get(o["ticker"], {}).get("change_1m_pct"),
@@ -723,7 +725,7 @@ def _tick_once(force: bool = False) -> None:
     # behind a winning price minute by minute, so a trade that peaks and turns is sold near its
     # high instead of riding the clock down.
     if broker.positions():
-        auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
+        auto, _ = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g, st))
         if cutoff:          # no scale-in adds past the entry cutoff: placed here, cancelled next pass, for ever
             auto = [o for o in auto if str(o.get("kind", "")).lower() not in triggers.BUY_KINDS]
         if auto:
@@ -876,9 +878,10 @@ def main(report_only: bool = False, force: bool = False) -> None:
                                      if int(g.get("rebuy_cooldown_minutes", 0) or 0) and (now.timestamp() - float(ts or 0)) / 60 < int(g.get("rebuy_cooldown_minutes", 0) or 0)},
         "no_new_entries_this_check": cutoff,
         "strategy_stages": evolve.summary(evolve.load(g)),
-        "hold_trial": {"clock_minutes_by_position": {t: evolve.hold_for(st, g, t, int(g.get("max_hold_minutes", 0) or 0)) for t in positions},
-                       **{k: v for k, v in (evolve.trial_state(g) or {}).items() if k in ("winner", "arms", "t")}}
-                      if evolve.trial_settings(g) else None,
+        "experiments": {"settings_by_position": {t: (st.get("exp_arm") or {}).get(t, {}).get("params", {}) for t in positions},
+                        "hold_minutes_by_position": {t: experiments.hold_for(st, g, t, int(g.get("max_hold_minutes", 0) or 0)) for t in positions},
+                        "queue": [{k: r.get(k) for k in ("name", "param", "arms", "status", "winner", "t")} for r in experiments.standings(g)]}
+                       if experiments.queue(g) else None,
         "guardrails": {k: v for k, v in g.items() if not k.startswith("_")},
         "sell_rules": {"allowed": not g.get("only_buy", False), "min_hold_days": g.get("min_hold_days", 0), "max_sells_per_day": g.get("max_sells_per_day", 3)},
         "allowed_tickers": sorted(allowed), "watchlist": cfg["watchlist"], "prices": px,
@@ -957,9 +960,8 @@ def main(report_only: bool = False, force: bool = False) -> None:
         if str(rec.get("status", "")).startswith("rejected"):
             log(f"- BUY ${o['usd']:.2f} {o['ticker']} [{rec['status']}]"); continue
         full = {**rec, "date": str(today), "time_et": now.strftime("%H:%M"), "ts": int(now.timestamp()), "why": o["why"], "signals": o["signals"], "evidence": o["evidence"]}
-        hold = evolve.assign_hold(st, g, o["ticker"], held_before, None)
-        if hold is not None:                  # the hold-time trial's arm for this position (evolve.py)
-            full["hold_minutes"] = hold
+        # this position's settings: decided experiments' winners + the running one's coin (experiments.py)
+        full.update(experiments.journal_tags(experiments.assign(st, g, o["ticker"], held_before)))
         state.record_order(st, o["ticker"], float(rec.get("notional", o["usd"])), full); state.save(st)
         learn.record(full, px.get(o["ticker"], {}).get("price"), sector_of.get(o["ticker"], "off-watchlist"),
                      cpressure.get(o["ticker"], 0) > 0, px.get(o["ticker"], {}).get("change_1m_pct"),
@@ -1008,7 +1010,7 @@ def main(report_only: bool = False, force: bool = False) -> None:
                      "evidence": d.get("evidence") or f"was {d['was_at_pct']:.0f}% up the day's range",
                      "why": f"wanted it, but not at the high — resting at ${d['limit_price']:.2f}. {d.get('why','')}"[:240]})
     placed, trejected = triggers.place(want, now, set(broker.positions()), allowed, px)
-    auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g))
+    auto, stale = triggers.rebalance_brackets(now, broker.positions(), px, _bracket_cfg(g, st))
     if cutoff:
         auto = [o for o in auto if str(o.get("kind", "")).lower() not in triggers.BUY_KINDS]
     # Rest dip orders on names it does NOT hold, so a dip can be an entry and not just an average-down.
