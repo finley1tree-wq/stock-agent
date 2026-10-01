@@ -21153,3 +21153,5 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $456.28] -> $501.19 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-01 12:31 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+- SELL 100% LMT [time stop] -> $498.20 (-0.36%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 12:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders

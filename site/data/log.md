@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 CRWD @ $257.50 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $484.81 until 2026-10-06 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% NOC @ $480.23 until 2026-10-06 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 NOC @ $469.00 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% UNH @ $364.14 until 2026-10-06 — close 100% at +0.2% over the average cost
@@ -398,3 +396,5 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $456.28] -> $501.19 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-01 12:31 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+- SELL 100% LMT [time stop] -> $498.20 (-0.36%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 12:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
