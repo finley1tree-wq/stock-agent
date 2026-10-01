@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "29c5e8e4",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 252.297,
-   "status": "cancelled",
-   "created": "2026-09-29 09:39",
-   "created_ts": 1790689166,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $260.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 10:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "26c2e1a6",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -7103,7 +7084,7 @@
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 483.6267,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:56",
    "created_ts": 1790866604,
    "why": "close 100% at +0.3% over the average cost",
@@ -7113,7 +7094,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:05",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8a220fc5",
@@ -7139,7 +7122,7 @@
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 467.8407,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:56",
    "created_ts": 1790866604,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7149,14 +7132,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 11:05",
+   "cancel_reason": "position closed"
   },
   {
    "id": "eecaf6f2",
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 482.85,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 11:00",
    "created_ts": 1790866809,
    "why": "close it all at -0.7% under the average cost",
@@ -7166,7 +7151,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:05"
   },
   {
    "id": "f68e5846",
@@ -7273,7 +7259,7 @@
    "ticker": "AMZN",
    "kind": "stop_loss",
    "price": 245.041,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:02",
    "created_ts": 1790866940,
    "why": "close it all at -0.6% under the average cost",
@@ -7283,7 +7269,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:05",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "57143a62",
@@ -7403,7 +7391,24 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "e29f6617",
+   "ticker": "AMZN",
+   "kind": "stop_loss",
+   "price": 246.84,
+   "status": "working",
+   "created": "2026-10-01 11:05",
+   "created_ts": 1790867126,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $246.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 11:02"
+ "updated": "2026-10-01 11:05"
 }

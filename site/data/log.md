@@ -1,6 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (bad quote TNON: +46.9% in a day looks like a bad tick)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and I hold zero positions, so no buys are possible or would fill anyway - guardrails would drop them. Nothing to sell (flat book) and no protective triggers needed since there are no open positions. Will wait for next session/entry window.
 lesson: When no_new_entries_this_check is true and the book is flat, there is nothing productive to do except wait - don't waste a check proposing orders that will be dropped.
 portfolio: equity $25210.40 (+0.84% on $25000.00 in) · cash $25210.40 · realised +210.40
@@ -398,3 +395,6 @@ lesson: Diversify with one name per distinct sector/catalyst and size positions 
 ~ WORKING buy_limit $500.00 UNH @ $353.24 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25202.62 (+0.81% on $25000.00 in) · cash $20335.12 · realised +210.12
 Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [stop_loss @ $481.74] -> $499.40 (-0.12%) — close it all at -0.7% under the average cost
+## 2026-10-01 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders

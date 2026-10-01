@@ -20979,3 +20979,6 @@ lesson: Diversify with one name per distinct sector/catalyst and size positions 
 ~ WORKING buy_limit $500.00 UNH @ $353.24 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25202.62 (+0.81% on $25000.00 in) · cash $20335.12 · realised +210.12
 Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [stop_loss @ $481.74] -> $499.40 (-0.12%) — close it all at -0.7% under the average cost
+## 2026-10-01 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
