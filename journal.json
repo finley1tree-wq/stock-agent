@@ -49867,7 +49867,7 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.33
   },
   {
     "symbol": "LEN",
@@ -49894,7 +49894,7 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.49
+    "ret_now": -0.56
   },
   {
     "symbol": "IBM",
@@ -50026,7 +50026,9 @@
     "code_version": "e2f76ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.67,
+    "ret_final": 0.67,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMZN",
@@ -50108,7 +50110,7 @@
     "code_version": "e2f76ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.33
   },
   {
     "symbol": "NOC",
@@ -50283,7 +50285,8 @@
     "hour_et": 11,
     "code_version": "34748f9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.21
   },
   {
     "symbol": "CCJ",
@@ -50309,7 +50312,8 @@
     "hour_et": 11,
     "code_version": "34748f9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.57
   },
   {
     "symbol": "CCJ",
@@ -50336,7 +50340,8 @@
     "hour_et": 11,
     "code_version": "5388205",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.33
   },
   {
     "symbol": "META",
@@ -50360,6 +50365,58 @@
     "evidence": "average cost $724.67",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "08cddcf"
+    "code_version": "08cddcf",
+    "hold_minutes": 17
+  },
+  {
+    "symbol": "ACN",
+    "notional": 550.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.535691,
+    "price": 216.9,
+    "date": "2026-10-01",
+    "time_et": "11:32",
+    "ts": 1790868760,
+    "why": "Strong earnings-driven move with fresh catalyst, though already up a lot intraday so sizing moderate [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Accenture Q4 beat, shares +18.26% today on 'record bookings dispel AI demand fears', fiscal 2027 growth forecasts raised",
+    "hold_minutes": 30,
+    "entry_price": 216.86,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 15.3,
+    "hour_et": 11,
+    "code_version": "24beec2",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "XENE",
+    "notional": 450.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.59629,
+    "price": 38.81,
+    "date": "2026-10-01",
+    "time_et": "11:32",
+    "ts": 1790868760,
+    "why": "Fresh same-day insider buying cluster from CFO and CEO, strongest insider signal in dataset today [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "insider"
+    ],
+    "evidence": "CFO Kelly Thomas Patrick bought 15,000 shares at $37.32 and CEO Mortimer Ian bought 30,000 shares at $37.38, both filed 2026-10-01, stock +4.3% today",
+    "hold_minutes": 90,
+    "entry_price": 38.79,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -35.35,
+    "hour_et": 11,
+    "code_version": "24beec2",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

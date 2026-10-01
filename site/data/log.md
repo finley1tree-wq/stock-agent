@@ -1,26 +1,3 @@
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-brain: Flat book, 99.5% cash idle, below min_positions of 8 - this is the priority to fix per guardrails. Picked 7 names with concrete evidence: ACN earnings beat + congress buys, IBM product news breakout, CCJ nuclear tailwind headlines, HUBB/CHRW/LTH all carrying top-tier (3.0) congress net buy pressure from Rep. April McClain Delaney, and TTD with repeat Cisneros disclosures. Avoided buying at extreme highs of range where possible and added stops on the highest-range-percentile names (IBM, ACN, HUBB).
-lesson: Congress net_buy_pressure of 3.0 (top tier) names (HUBB, CHRW, LTH) all share the same discloser - treat as one correlated bet size-wise, not three independent confirmations.
-  (dropped IBM: 100% up today's range — resting a limit at $230.96 instead of chasing)
-  (dropped CCJ: 90% up today's range — resting a limit at $86.74 instead of chasing)
-- BUY $4500.00 ACN [filled] ['news', 'congress', 'momentum'] — Earnings beat with real gap and congress buy pressure; still mid-range (73.7% of day range) not extreme | evidence: ACN +20.82% today on 'Accenture Surges On Fiscal Q4 Beat, Outlook Amid AI Disruption Worries' (IBD); Rep. Scott Franklin and Rep. Gilbert Ray Cisneros disclosed buys; congress_net_buy_pressure=2.0
-- BUY $3500.00 HUBB [filled] ['congress', 'news'] — Highest congress buy-pressure score on the list with supporting bullish headline | evidence: congress_net_buy_pressure=3.0 (top tier) via Rep. April McClain Delaney disclosed buys; '3 Reasons We're Fans of Hubbell' StockStory headline
-- BUY $3500.00 CHRW [filled] ['congress', 'news'] — Top congress buy-pressure tier name, diversifying into logistics sector | evidence: congress_net_buy_pressure=3.0 via Rep. April McClain Delaney disclosed buys; momentum +1.5% 5d
-- BUY $3000.00 LTH [filled] ['congress', 'news'] — Same top-tier congress signal that was a biggest miss last time; leisure sector diversifier | evidence: congress_net_buy_pressure=3.0 via Rep. April McClain Delaney; counterfactual biggest_misses shows LTH fwd_pct +7.69% was missed previously with congress=3.0 signal present
-- BUY $2000.00 TTD [filled] ['congress', 'news'] — Congress buying disclosed twice recently, small ad-tech diversifier | evidence: Rep. Gilbert Ray Cisneros disclosed buys (2 filings, $1,001-$15,000 each); TTD +1.73% today, day_range 75.1%
-  (dropped trigger IBM stop_loss: not held)
-~ WORKING stop_loss 100% ACN @ $213.50 until 2026-10-01 — Protect against reversal of today's earnings gap
-~ WORKING stop_loss 100% HUBB @ $444.00 until 2026-10-01 — Standard protective stop
-~ WORKING buy_limit $4000.00 IBM @ $230.96 until 2026-10-01 — wanted it, but not at the high — resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative
-~ WORKING buy_limit $3500.00 CCJ @ $86.74 until 2026-10-01 — wanted it, but not at the high — resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage
-~ WORKING take_profit 100% ACN @ $222.66 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $214.94 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HUBB @ $455.65 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HUBB @ $440.74 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% CHRW @ $148.88 until 2026-10-06 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% CHRW @ $147.42 until 2026-10-06 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 CHRW @ $144.01 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +375,26 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $21998.14 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $729.54] -> $503.36 (+0.67%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 11:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 11:32 ET (Thursday) — week 2026-W40 — budget left $22126.50 (today $50000.00 put to work, 40 buys, 34 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+brain: Still below min_positions (5/8) with 88.5% cash idle - the repeated lesson pattern confirms I need genuine sector diversification with individual evidence, not more widely_held cluster adds. Picked ACN (earnings beat catalyst), NOC (defense, distinct from LMT/RTX already sold today), META (AI mega-cap with regulatory catalyst, distinct from GOOGL/TSM), and XENE (same-day CEO+CFO insider buying, strongest concrete evidence in the dataset). Added protective stops given auto_bracket/risk_management is the best-performing signal bucket (0.18% avg, 87-88% hit rate).
+lesson: Insider buys from BOTH CEO and CFO on the same filing date (XENE) are a stronger signal than single-insider or congress-cluster trades - prioritize these when diversifying.
+  (dropped NOC: sold 28 min ago, cooling off)
+  (dropped META: sold 12 min ago, cooling off)
+- BUY $550.00 ACN [filled] ['news', 'momentum'] — Strong earnings-driven move with fresh catalyst, though already up a lot intraday so sizing moderate [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Accenture Q4 beat, shares +18.26% today on 'record bookings dispel AI demand fears', fiscal 2027 growth forecasts raised
+- BUY $450.00 XENE [filled] ['insider'] — Fresh same-day insider buying cluster from CFO and CEO, strongest insider signal in dataset today [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CFO Kelly Thomas Patrick bought 15,000 shares at $37.32 and CEO Mortimer Ian bought 30,000 shares at $37.38, both filed 2026-10-01, stock +4.3% today
+  (dropped trigger NOC stop_loss: not held)
+~ WORKING stop_loss 100% XENE @ $37.04 until 2026-10-01 — bound downside ~4.5% below entry on volatile biotech name
+~ WORKING stop_loss 100% ACN @ $205.00 until 2026-10-01 — bound downside on momentum-extended earnings pop
+~ WORKING take_profit 100% ACN @ $218.00 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $210.39 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% XENE @ $39.14 until 2026-10-06 — close 100% at +0.8% over the average cost
+~ WORKING buy_limit $500.00 XENE @ $37.65 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25196.63 (+0.79% on $25000.00 in) · cash $21458.07 · realised +208.07
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $21126.50 this week

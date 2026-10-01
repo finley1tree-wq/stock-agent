@@ -1,116 +1,6 @@
 {
  "orders": [
   {
-   "id": "f7ba7f90",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 107.9,
-   "status": "cancelled",
-   "created": "2026-09-29 09:55",
-   "created_ts": 1790690120,
-   "why": "take partial profit at ~3% gain",
-   "evidence": "NLR entry $104.76",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-29 10:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "70a2d882",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 528.7,
-   "status": "cancelled",
-   "created": "2026-09-29 09:55",
-   "created_ts": 1790690120,
-   "why": "take partial profit at ~2.2% gain",
-   "evidence": "LMT entry $517.31",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-29 10:04",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "56f0f26e",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 379.5,
-   "status": "cancelled",
-   "created": "2026-09-29 09:55",
-   "created_ts": 1790690120,
-   "why": "take partial profit at ~1.6% gain",
-   "evidence": "UNH entry $373.56",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 50.0,
-   "closed": "2026-09-29 10:00",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "104b4460",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 105.2312,
-   "status": "cancelled",
-   "created": "2026-09-29 09:55",
-   "created_ts": 1790690120,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $104.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 10:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "300b7401",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 101.7142,
-   "status": "cancelled",
-   "created": "2026-09-29 09:55",
-   "created_ts": 1790690120,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $104.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 10:25",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3209d176",
-   "ticker": "LMT",
-   "kind": "take_profit",
-   "price": 518.7569,
-   "status": "filled",
-   "created": "2026-09-29 09:55",
-   "created_ts": 1790690120,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $517.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 10:04"
-  },
-  {
    "id": "79be6e47",
    "ticker": "LMT",
    "kind": "buy_limit",
@@ -7432,7 +7322,107 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "78f3e3ce",
+   "ticker": "XENE",
+   "kind": "stop_loss",
+   "price": 37.04,
+   "status": "working",
+   "created": "2026-10-01 11:32",
+   "created_ts": 1790868760,
+   "why": "bound downside ~4.5% below entry on volatile biotech name",
+   "evidence": "ATR 7.6%, protect against pharma volatility post insider-buy entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "47e33108",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 205.0,
+   "status": "working",
+   "created": "2026-10-01 11:32",
+   "created_ts": 1790868760,
+   "why": "bound downside on momentum-extended earnings pop",
+   "evidence": "ACN +18% today, ATR 4.58%, protect large intraday gain from reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "50c59e53",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 218.0019,
+   "status": "working",
+   "created": "2026-10-01 11:32",
+   "created_ts": 1790868760,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $216.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c2816ff0",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 210.393,
+   "status": "working",
+   "created": "2026-10-01 11:32",
+   "created_ts": 1790868760,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $216.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
+  },
+  {
+   "id": "11b2e084",
+   "ticker": "XENE",
+   "kind": "take_profit",
+   "price": 39.1383,
+   "status": "working",
+   "created": "2026-10-01 11:32",
+   "created_ts": 1790868760,
+   "why": "close 100% at +0.8% over the average cost",
+   "evidence": "average cost $38.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7d4efc4f",
+   "ticker": "XENE",
+   "kind": "buy_limit",
+   "price": 37.6457,
+   "status": "working",
+   "created": "2026-10-01 11:32",
+   "created_ts": 1790868760,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $38.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 11:20"
+ "updated": "2026-10-01 11:32"
 }

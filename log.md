@@ -21021,3 +21021,26 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $21998.14 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [take_profit @ $729.54] -> $503.36 (+0.67%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 11:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 11:32 ET (Thursday) — week 2026-W40 — budget left $22126.50 (today $50000.00 put to work, 40 buys, 34 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+brain: Still below min_positions (5/8) with 88.5% cash idle - the repeated lesson pattern confirms I need genuine sector diversification with individual evidence, not more widely_held cluster adds. Picked ACN (earnings beat catalyst), NOC (defense, distinct from LMT/RTX already sold today), META (AI mega-cap with regulatory catalyst, distinct from GOOGL/TSM), and XENE (same-day CEO+CFO insider buying, strongest concrete evidence in the dataset). Added protective stops given auto_bracket/risk_management is the best-performing signal bucket (0.18% avg, 87-88% hit rate).
+lesson: Insider buys from BOTH CEO and CFO on the same filing date (XENE) are a stronger signal than single-insider or congress-cluster trades - prioritize these when diversifying.
+  (dropped NOC: sold 28 min ago, cooling off)
+  (dropped META: sold 12 min ago, cooling off)
+- BUY $550.00 ACN [filled] ['news', 'momentum'] — Strong earnings-driven move with fresh catalyst, though already up a lot intraday so sizing moderate [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Accenture Q4 beat, shares +18.26% today on 'record bookings dispel AI demand fears', fiscal 2027 growth forecasts raised
+- BUY $450.00 XENE [filled] ['insider'] — Fresh same-day insider buying cluster from CFO and CEO, strongest insider signal in dataset today [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CFO Kelly Thomas Patrick bought 15,000 shares at $37.32 and CEO Mortimer Ian bought 30,000 shares at $37.38, both filed 2026-10-01, stock +4.3% today
+  (dropped trigger NOC stop_loss: not held)
+~ WORKING stop_loss 100% XENE @ $37.04 until 2026-10-01 — bound downside ~4.5% below entry on volatile biotech name
+~ WORKING stop_loss 100% ACN @ $205.00 until 2026-10-01 — bound downside on momentum-extended earnings pop
+~ WORKING take_profit 100% ACN @ $218.00 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $210.39 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% XENE @ $39.14 until 2026-10-06 — close 100% at +0.8% over the average cost
+~ WORKING buy_limit $500.00 XENE @ $37.65 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25196.63 (+0.79% on $25000.00 in) · cash $21458.07 · realised +208.07
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $21126.50 this week
