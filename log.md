@@ -21257,3 +21257,6 @@ Decision: nothing at this check. 30 standing order(s) working.
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $265.68] -> $502.71 (+0.54%) — close 100% at +0.5% over the average cost
 ## 2026-10-01 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $85.79] -> $552.26 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-10-01 13:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders

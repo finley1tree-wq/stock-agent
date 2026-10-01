@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% HLI @ $126.60 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% HLI @ $125.00 until 2026-10-06 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 HLI @ $122.36 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25212.13 (+0.85% on $25000.00 in) · cash $21463.78 · realised +213.78
 Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
   (dropped NOC: sold 21 min ago, cooling off)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 30 standing order(s) working.
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $265.68] -> $502.71 (+0.54%) — close 100% at +0.5% over the average cost
 ## 2026-10-01 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $85.79] -> $552.26 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-10-01 13:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
