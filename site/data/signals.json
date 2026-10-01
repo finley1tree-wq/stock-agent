@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-01T10:15-04:00",
+ "asOf": "2026-10-01T10:17-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -156,51 +156,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "76d4feca",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 190.0578,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 189.91,
-   "pct_away": 0.08,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "86e4d88a",
-   "ticker": "PLTR",
+   "id": "3e357851",
+   "ticker": "RTX",
    "kind": "stop_loss",
-   "price": 189.71,
+   "price": 185.59,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 189.91,
-   "pct_away": -0.11,
+   "last": 185.69,
+   "pct_away": -0.05,
    "good_until": "2026-10-06",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4073d2fd",
-   "ticker": "GLD",
-   "kind": "take_profit",
-   "price": 381.7716,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 380.87,
-   "pct_away": 0.24,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,10 +180,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 185.38,
-   "pct_away": 0.25,
+   "last": 185.69,
+   "pct_away": 0.08,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "76d4feca",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 190.0578,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 190.37,
+   "pct_away": -0.16,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4073d2fd",
+   "ticker": "GLD",
+   "kind": "take_profit",
+   "price": 381.7716,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 381.09,
+   "pct_away": 0.18,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "86e4d88a",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 189.71,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 190.37,
+   "pct_away": -0.35,
+   "good_until": "2026-10-06",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,26 +248,10 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 485.4,
-   "pct_away": -0.29,
+   "last": 486.04,
+   "pct_away": -0.42,
    "good_until": "2026-10-01",
    "why": "resting limit slightly below current price for better entry once cooldown clears",
-   "signals": [
-    "news"
-   ]
-  },
-  {
-   "id": "1b9f7c47",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 230.5,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 231.36,
-   "pct_away": -0.37,
-   "good_until": "2026-10-01",
-   "why": "re-enter at a slightly better level than current $231.88 once cooldown clears",
    "signals": [
     "news"
    ]
@@ -263,8 +264,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 380.87,
-   "pct_away": -0.44,
+   "last": 381.09,
+   "pct_away": -0.49,
    "good_until": "2026-10-06",
    "why": "close it all at -0.5% under the average cost",
    "signals": [
@@ -273,20 +274,19 @@
    ]
   },
   {
-   "id": "90727724",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 184.4331,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "1b9f7c47",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 230.5,
+   "usd": 2000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 185.38,
-   "pct_away": -0.51,
-   "good_until": "2026-10-06",
-   "why": "close it all at -0.5% under the average cost",
+   "last": 231.89,
+   "pct_away": -0.6,
+   "good_until": "2026-10-01",
+   "why": "re-enter at a slightly better level than current $231.88 once cooldown clears",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "news"
    ]
   },
   {
@@ -297,7 +297,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 605.6,
+   "last": 605.61,
    "pct_away": -0.62,
    "good_until": "2026-10-06",
    "why": "close it all at -1.2% under the average cost",
@@ -314,12 +314,29 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 456.87,
-   "pct_away": -0.85,
+   "last": 456.38,
+   "pct_away": -0.74,
    "good_until": "2026-10-01",
    "why": "resting limit near day low to get a better entry than chasing at market",
    "signals": [
     "news"
+   ]
+  },
+  {
+   "id": "7f3f5c0c",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 266.8961,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 264.48,
+   "pct_away": 0.91,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -330,8 +347,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 264.22,
-   "pct_away": -0.89,
+   "last": 264.48,
+   "pct_away": -0.99,
    "good_until": "2026-10-06",
    "why": "close it all at -1.4% under the average cost",
    "signals": [
@@ -347,25 +364,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 605.6,
+   "last": 605.61,
    "pct_away": 1.0,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7f3f5c0c",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 266.8961,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 264.22,
-   "pct_away": 1.01,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -381,7 +381,7 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 605.6,
+   "last": 605.61,
    "pct_away": -2.48,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -398,8 +398,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 264.22,
-   "pct_away": -2.54,
+   "last": 264.48,
+   "pct_away": -2.64,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -415,8 +415,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 380.87,
-   "pct_away": -2.96,
+   "last": 381.09,
+   "pct_away": -3.01,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -432,8 +432,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 185.38,
-   "pct_away": -2.97,
+   "last": 185.69,
+   "pct_away": -3.13,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -449,8 +449,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 189.91,
-   "pct_away": -3.26,
+   "last": 190.37,
+   "pct_away": -3.49,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
