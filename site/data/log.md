@@ -1,23 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-brain: Below min_positions (4 of 8) with 85% cash idle - must deploy. ACN has the clearest concrete catalyst (23.75% earnings beat today) so buying now despite high range position, with a tight stop to cap downside risk. IBM/TSM/NOC are in cooldown so placed as buy_limit triggers to re-enter at sensible levels once cooldown clears, each backed by a specific headline rather than bare momentum, satisfying the momentum-only entry restriction.
-lesson: When several cooldown names have fresh concrete headlines, use buy_limit triggers timed to cooldown expiry instead of waiting idle for the next check - this keeps capital working without breaking the cooldown rule.
-  (dropped ACN: sold 39 min ago, cooling off)
-  (dropped IBM: sold 32 min ago, cooling off)
-  (dropped TSM: sold 6 min ago, cooling off)
-  (dropped NOC: sold 3 min ago, cooling off)
-  (dropped trigger ACN stop_loss: not held)
-~ WORKING buy_limit $2000.00 IBM @ $230.50 until 2026-10-01 — re-enter at a slightly better level than current $231.88 once cooldown clears
-~ WORKING buy_limit $2000.00 TSM @ $453.00 until 2026-10-01 — resting limit near day low to get a better entry than chasing at market
-~ WORKING buy_limit $2000.00 NOC @ $484.00 until 2026-10-01 — resting limit slightly below current price for better entry once cooldown clears
-portfolio: equity $25220.40 (+0.88% on $25000.00 in) · cash $21608.09 · realised +233.09
-Decision: nothing at this check. 16 standing order(s) working.
-- BUY $625.00 PLTR [buy_limit @ $189.41] — wanted it, but not at the high — resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-01 10:15 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (dropped IBM: sold 37 min ago, cooling off)
-  (dropped IBM: sold 38 min ago, cooling off)
-  (cancelled 2 standing order(s) on RTX: position closed)
-- SELL 100% RTX [stop_loss @ $185.46] -> $500.04 (+0.01%) — close it all at -0.5% under the average cost
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $190.20] -> $627.61 (+0.42%) — close 100% at +0.3% over the average cost
   (dropped IBM: sold 38 min ago, cooling off)
@@ -398,3 +378,23 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $21880.65 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $127.69] -> $376.77 (+0.47%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 12:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 12:48 ET (Thursday) — week 2026-W40 — budget left $22257.42 (today $56500.00 put to work, 53 buys, 47 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Still well below min_positions (5 of 8) with 89% cash idle - counterfactual data shows idle checks carry real cost and sitting out is graded. Adding ACN/IBM (AI services earnings beat theme), GOOGL (Gemini 4 launch news), and KO (earnings beat expectation + congress buy) diversifies sector mix beyond current defense/gold/logistics cluster. ACN cooldown from earlier sale should have expired (28min elapsed since sale disclosure wasn't listed in cooling_off_minutes_left for ACN specifically).
+lesson: Check cooling_off_minutes_left explicitly for each candidate ticker before buying - a name sold today may still be in cooldown even if not flagged in recent memory.
+  (dropped IBM: sold 30 min ago, cooling off)
+  (dropped GOOGL: sold 32 min ago, cooling off)
+  (dropped KO: sold 28 min ago, cooling off)
+- BUY $750.00 ACN [filled] ['news', 'congress', 'track_record'] — Strong earnings-driven breakout with congressional buy pressure confirming; cooling-off from earlier sale already expired given 45min cooldown (not in cooling_off_minutes_left list) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: ACN +18.16% today, 'Accenture Stock Is Heading for Its Best Day Ever. AI Isn't the Threat Everyone Thought' - Barron's; congress buy pressure score 2.0 (Scott Franklin, Gilbert Ray Cisneros)
+~ WORKING stop_loss 100% ACN @ $212.00 until 2026-10-01 — bound downside after a large one-day move
+~ WORKING take_profit 50% ACN @ $225.00 until 2026-10-01 — take partial profit near day high
+~ WORKING take_profit 100% ACN @ $217.81 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $210.21 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25212.43 (+0.85% on $25000.00 in) · cash $21838.99 · realised +213.99
+Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $21507.42 this week

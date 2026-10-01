@@ -50733,7 +50733,9 @@
     "code_version": "2d78fd6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31
+    "ret_now": 0.47,
+    "ret_final": 0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "NLR",
@@ -50861,7 +50863,7 @@
     "code_version": "3cc0b21",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": -0.02
   },
   {
     "symbol": "CRWD",
@@ -50888,7 +50890,7 @@
     "code_version": "3cc0b21",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.0
   },
   {
     "symbol": "NEM",
@@ -50915,7 +50917,7 @@
     "code_version": "3cc0b21",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.22
   },
   {
     "symbol": "NOC",
@@ -50944,7 +50946,7 @@
     "code_version": "ec45819",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.03
   },
   {
     "symbol": "UNH",
@@ -51045,7 +51047,8 @@
     "hour_et": 12,
     "code_version": "5fcef0a",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.09
   },
   {
     "symbol": "HLI",
@@ -51070,6 +51073,34 @@
     "evidence": "average cost $127.09",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "f0c8857"
+    "code_version": "f0c8857",
+    "hold_minutes": 35
+  },
+  {
+    "symbol": "ACN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.460793,
+    "price": 216.71,
+    "date": "2026-10-01",
+    "time_et": "12:48",
+    "ts": 1790873282,
+    "why": "Strong earnings-driven breakout with congressional buy pressure confirming; cooling-off from earlier sale already expired given 45min cooldown (not in cooling_off_minutes_left list) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news",
+      "track_record"
+    ],
+    "evidence": "ACN +18.16% today, 'Accenture Stock Is Heading for Its Best Day Ever. AI Isn't the Threat Everyone Thought' - Barron's; congress buy pressure score 2.0 (Scott Franklin, Gilbert Ray Cisneros)",
+    "hold_minutes": 90,
+    "entry_price": 216.67,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 15.19,
+    "hour_et": 12,
+    "code_version": "4b79ea9",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

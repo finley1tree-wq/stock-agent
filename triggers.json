@@ -1,80 +1,6 @@
 {
  "orders": [
   {
-   "id": "e8c23d02",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 83.7498,
-   "status": "cancelled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $86.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:53",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f19760e7",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 187.0662,
-   "status": "filled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $186.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:39"
-  },
-  {
-   "id": "2907015c",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 181.0505,
-   "status": "cancelled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $186.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1283403c",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 457.1555,
-   "status": "filled",
-   "created": "2026-09-29 11:23",
-   "created_ts": 1790695405,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $456.02",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:39"
-  },
-  {
    "id": "f176fa8f",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -7428,7 +7354,73 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "c31beb8b",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 212.0,
+   "status": "working",
+   "created": "2026-10-01 12:48",
+   "created_ts": 1790873282,
+   "why": "bound downside after a large one-day move",
+   "evidence": "ACN up 18% today, protect against pure reversal risk",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0cda2af4",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 225.0,
+   "status": "working",
+   "created": "2026-10-01 12:48",
+   "created_ts": 1790873282,
+   "why": "take partial profit near day high",
+   "evidence": "ACN day_high 227.58, lock in gains on part of position if momentum continues",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
+   "pct_of_position": 50.0
+  },
+  {
+   "id": "ffd3fd0b",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 217.8109,
+   "status": "working",
+   "created": "2026-10-01 12:48",
+   "created_ts": 1790873282,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $216.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a3eefb67",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 210.2087,
+   "status": "working",
+   "created": "2026-10-01 12:48",
+   "created_ts": 1790873282,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $216.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 12:40"
+ "updated": "2026-10-01 12:48"
 }

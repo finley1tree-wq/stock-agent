@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 2742.58,
-  "deployed": 302975.18,
+  "spent": 3492.58,
+  "deployed": 303725.18,
   "by_ticker": {
     "AVGO": 37.31,
     "TTD": 35.61,
@@ -28,7 +28,7 @@
     "O": 0.49,
     "NOC": 500.6,
     "PLD": 0.04,
-    "ACN": 0.42
+    "ACN": 750.42
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -36,7 +36,7 @@
     "TSM": 14100.0,
     "AVGO": 17000.0,
     "TTD": 14500.0,
-    "ACN": 18800.0,
+    "ACN": 19550.0,
     "AMD": 7550.0,
     "MSFT": 12858.82,
     "NOC": 17697.06,
@@ -6862,12 +6862,31 @@
       ],
       "evidence": "average cost $127.09",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ACN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.460793,
+      "price": 216.71,
+      "date": "2026-10-01",
+      "time_et": "12:48",
+      "ts": 1790873282,
+      "why": "Strong earnings-driven breakout with congressional buy pressure confirming; cooling-off from earlier sale already expired given 45min cooldown (not in cooling_off_minutes_left list) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "congress",
+        "track_record"
+      ],
+      "evidence": "ACN +18.16% today, 'Accenture Stock Is Heading for Its Best Day Ever. AI Isn't the Threat Everyone Thought' - Barron's; congress buy pressure score 2.0 (Scott Franklin, Gilbert Ray Cisneros)",
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 2621.38,
-  "deployed_today": 56500.0,
-  "orders_today": 53,
+  "spent_today": 3371.38,
+  "deployed_today": 57250.0,
+  "orders_today": 54,
   "sells_today": 47,
   "sold_today": [
     "ACN",
@@ -6941,41 +6960,45 @@
     "O": 1790867766,
     "XENE": 1790869630
   },
-  "last_publish_ts": 1790872824,
-  "last_check_ts": 1790873163,
+  "last_publish_ts": 1790873282,
+  "last_check_ts": 1790873282,
   "last_bar_ts": 1790873100,
-  "last_decision_ts": 1790872633,
-  "next_check_minutes": 10,
+  "last_decision_ts": 1790873282,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "2f7be572": 185.7158,
     "7e3c7ce6": 150.3703,
     "2c7fa4dc": 485.8327,
+    "2f7be572": 185.7158,
+    "ffd3fd0b": 217.8109,
     "e7dea3f2": 265.6849,
-    "1f584080": 481.2056,
     "031db909": 115.6876,
     "a754d678": 453.0,
+    "1f584080": 481.2056,
     "f465356e": 455.116,
     "6263c0ee": 53.4993,
-    "086fc2c0": 227.0,
     "978b4408": 39.092,
+    "086fc2c0": 227.0,
     "5d4af5c6": 112.9,
     "88310455": 181.5,
     "b39e95b9": 258.9,
+    "c31beb8b": 212.0,
     "71abcc5e": 242.2977,
     "b4c352be": 111.8022,
     "961505c1": 179.7507,
+    "8637ac13": 256.3225,
+    "a3eefb67": 210.2087,
     "2b74ca87": 469.9747,
     "600c32d5": 145.4418,
     "7468e9d3": 145.4,
-    "8637ac13": 256.3225
+    "0cda2af4": 225.0
   },
   "hold_arm": {
-    "HLI": 90,
     "RTX": 90,
     "CRWD": 90,
     "NEM": 90,
     "NOC": 30,
-    "CHRW": 90
+    "CHRW": 90,
+    "ACN": 90
   }
 }
