@@ -49423,7 +49423,7 @@
     "code_version": "eb1cdb6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.76
   },
   {
     "symbol": "CRWD",
@@ -49500,7 +49500,10 @@
     "hour_et": 10,
     "code_version": "627fdef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.49,
+    "ret_now": 0.49,
+    "ret_src": "realised"
   },
   {
     "symbol": "HD",
@@ -49526,7 +49529,10 @@
     "hour_et": 10,
     "code_version": "627fdef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.27,
+    "ret_now": 0.27,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -49552,7 +49558,10 @@
     "hour_et": 10,
     "code_version": "627fdef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.0,
+    "ret_now": 0.0,
+    "ret_src": "realised"
   },
   {
     "symbol": "FWONK",
@@ -49578,7 +49587,8 @@
     "hour_et": 10,
     "code_version": "627fdef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.35
   },
   {
     "symbol": "SKWD",
@@ -49604,7 +49614,10 @@
     "hour_et": 10,
     "code_version": "627fdef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.35,
+    "ret_now": 0.35,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -49630,7 +49643,8 @@
     "hour_et": 10,
     "code_version": "627fdef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.31
   },
   {
     "symbol": "ACN",
@@ -49655,7 +49669,8 @@
     "evidence": "average cost $223.8",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "f89b47a"
+    "code_version": "f89b47a",
+    "hold_minutes": 0
   },
   {
     "symbol": "HD",
@@ -49680,7 +49695,8 @@
     "evidence": "average cost $277.64",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "f89b47a"
+    "code_version": "f89b47a",
+    "hold_minutes": 0
   },
   {
     "symbol": "KO",
@@ -49705,7 +49721,8 @@
     "evidence": "average cost $86.26",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "e5dc26d"
+    "code_version": "e5dc26d",
+    "hold_minutes": 10
   },
   {
     "symbol": "SKWD",
@@ -49730,6 +49747,136 @@
     "evidence": "average cost $53.22",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "fc67407"
+    "code_version": "fc67407",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "NEM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.343821,
+    "price": 115.11,
+    "date": "2026-10-01",
+    "time_et": "10:45",
+    "ts": 1790865958,
+    "why": "Gold sector has positive realized track record and NEM is pulling back, diversifying away from correlated congress-disclosure cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "Gold sector track_record shows +0.04% avg_ret with 0.6 hit rate, best among held sectors; GLD closed today for +0.19%, NEM at 71% of day range with -6.17% 1m momentum offering a pullback entry",
+    "hold_minutes": 30,
+    "entry_price": 115.06,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -6.17,
+    "hour_et": 10,
+    "code_version": "2c26bdd",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "O",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 9.322889,
+    "price": 53.63,
+    "date": "2026-10-01",
+    "time_et": "10:45",
+    "ts": 1790865958,
+    "why": "Real estate/dividend sector diversification away from tech/defense cluster already crowding book, with fresh dividend-stock headline support [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Headline '5 Solid Dividend Stocks to Buy Now' and 'Treasury Yields Are Above 5%. These 4 Dividend Stocks Still Make the Cut' both reference O; price at 28% of day range, down -12.63% over 1m giving ro",
+    "hold_minutes": 30,
+    "entry_price": 53.61,
+    "sector": "real_estate",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -12.63,
+    "hour_et": 10,
+    "code_version": "2c26bdd",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.969249,
+    "price": 515.86,
+    "date": "2026-10-01",
+    "time_et": "10:45",
+    "ts": 1790865958,
+    "why": "Widely_held sector has neutral track record but MSFT has concrete positive news catalyst and is not in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "Headline 'Dow Jones Futures Rise, S&P 500 Finds Key Support As Micron Earnings Crush Views' 2026-10-01T12:16 names broader tech strength; MSFT +0.56% today, +3.58% 5d, only 10.9% of day range (room to",
+    "hold_minutes": 30,
+    "entry_price": 515.76,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.94,
+    "hour_et": 10,
+    "code_version": "2c26bdd",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.464093,
+    "price": 341.51,
+    "date": "2026-10-01",
+    "time_et": "10:45",
+    "ts": 1790865958,
+    "why": "Fresh AI product news catalyst (Gemini 4) distinct from the ACN/IBM cluster already owned, diversifying signal exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news"
+    ],
+    "evidence": "Headline 'Will Google Turn The Tables In AI Race? Wall Street Reacts To Gemini 4' 2026-10-01T14:33, and 'AI companies just signed a White House accord' both concrete catalysts today",
+    "hold_minutes": 90,
+    "entry_price": 341.44,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.92,
+    "hour_et": 10,
+    "code_version": "2c26bdd",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "LEN",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.700314,
+    "price": 79.78,
+    "date": "2026-10-01",
+    "time_et": "10:45",
+    "ts": 1790865958,
+    "why": "Concrete large insider buy from Berkshire Hathaway gives a distinct homebuilder-sector signal uncorrelated with current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "insider",
+      "news"
+    ],
+    "evidence": "Berkshire Hathaway (10% owner) bought 660,410 shares of LEN at $81.59 on 2026-09-28 per Form 4, and headline 'As Berkshire Buys Up Lennar Stock, Morgan Stanley Urges Caution' 2026-10-01T13:47",
+    "hold_minutes": 90,
+    "entry_price": 79.75,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -3.62,
+    "hour_et": 10,
+    "code_version": "2c26bdd",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

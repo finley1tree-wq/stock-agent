@@ -20891,3 +20891,38 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
 - SELL 100% SKWD [take_profit @ $53.41] -> $376.32 (+0.35%) — close 100% at +0.3% over the average cost
   (dropped NOC: sold 33 min ago, cooling off)
 ## 2026-10-01 10:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (dropped NOC: sold 34 min ago, cooling off)
+  (dropped NOC: sold 35 min ago, cooling off)
+
+## 2026-10-01 10:45 ET (Thursday) — week 2026-W40 — budget left $23513.86 (today $43750.00 put to work, 27 buys, 24 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (dropped NOC: sold 35 min ago, cooling off)
+brain: Only 3 positions held vs min_positions 8, with 94% cash idle - this is the dominant problem to fix. I'm adding 5 new names across genuinely different sectors (gold, real estate, two mega-cap tech with distinct fresh headlines, and homebuilders via a concrete Berkshire Form 4 insider buy) to avoid the correlated-cluster mistake flagged repeatedly in past lessons, each backed by its own concrete evidence rather than momentum alone. Sized at $1,500-2,000 each per account guidance, with protective stops on every new position since auto_bracket/risk_management is the best-performing signal bucket (0.18% avg, 88% hit rate).
+lesson: When diversifying to hit min_positions, pick one name per sector/catalyst type (gold, REIT, AI-news mega-cap, insider-buy homebuilder) rather than repeating the same widely_held or congress-cluster tickers already used earlier today.
+- BUY $500.00 NEM [filled] ['momentum', 'track_record'] — Gold sector has positive realized track record and NEM is pulling back, diversifying away from correlated congress-disclosure cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Gold sector track_record shows +0.04% avg_ret with 0.6 hit rate, best among held sectors; GLD closed today for +0.19%, NEM at 71% of day range with -6.17% 1m momentum offering a pullback entry
+- BUY $500.00 O [filled] ['news', 'momentum'] — Real estate/dividend sector diversification away from tech/defense cluster already crowding book, with fresh dividend-stock headline support [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline '5 Solid Dividend Stocks to Buy Now' and 'Treasury Yields Are Above 5%. These 4 Dividend Stocks Still Make the Cut' both reference O; price at 28% of day range, down -12.63% over 1m giving ro
+- BUY $500.00 MSFT [filled] ['news', 'momentum'] — Widely_held sector has neutral track record but MSFT has concrete positive news catalyst and is not in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Dow Jones Futures Rise, S&P 500 Finds Key Support As Micron Earnings Crush Views' 2026-10-01T12:16 names broader tech strength; MSFT +0.56% today, +3.58% 5d, only 10.9% of day range (room to
+- BUY $500.00 GOOGL [filled] ['news'] — Fresh AI product news catalyst (Gemini 4) distinct from the ACN/IBM cluster already owned, diversifying signal exposure [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Will Google Turn The Tables In AI Race? Wall Street Reacts To Gemini 4' 2026-10-01T14:33, and 'AI companies just signed a White House accord' both concrete catalysts today
+- BUY $375.00 LEN [filled] ['insider', 'news'] — Concrete large insider buy from Berkshire Hathaway gives a distinct homebuilder-sector signal uncorrelated with current holdings [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Berkshire Hathaway (10% owner) bought 660,410 shares of LEN at $81.59 on 2026-09-28 per Form 4, and headline 'As Berkshire Buys Up Lennar Stock, Morgan Stanley Urges Caution' 2026-10-01T13:47
+~ WORKING stop_loss 100% NEM @ $112.76 until 2026-10-01 — Protective stop to bound downside on new gold position
+~ WORKING stop_loss 100% O @ $52.54 until 2026-10-01 — Protective stop to bound downside on new real estate position
+~ WORKING stop_loss 100% MSFT @ $505.45 until 2026-10-01 — Protective stop to bound downside on new MSFT position
+~ WORKING stop_loss 100% GOOGL @ $334.60 until 2026-10-01 — Protective stop to bound downside on new GOOGL position
+~ WORKING stop_loss 100% LEN @ $77.56 until 2026-10-01 — Protective stop to bound downside on new LEN position
+~ WORKING take_profit 100% NEM @ $115.54 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $111.66 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% O @ $53.73 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 O @ $52.02 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $517.21 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $500.38 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GOOGL @ $342.51 until 2026-10-06 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $331.26 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LEN @ $80.09 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 LEN @ $77.39 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25214.97 (+0.86% on $25000.00 in) · cash $21470.44 · realised +220.44
+Done: 0 sell(s), 5 buy(s); 26 order(s) working; budget left $21138.86 this week
