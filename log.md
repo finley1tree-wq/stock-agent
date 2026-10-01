@@ -20880,3 +20880,7 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
   (dropped NOC: sold 28 min ago, cooling off)
   (dropped NOC: sold 28 min ago, cooling off)
   (dropped NOC: sold 29 min ago, cooling off)
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [stop_loss @ $86.26] -> $625.01 (+0.00%) — close it all at -0.4% under the average cost
+  (dropped NOC: sold 31 min ago, cooling off)
+## 2026-10-01 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders

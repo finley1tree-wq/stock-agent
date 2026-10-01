@@ -1,10 +1,3 @@
-  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
-  (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
-  (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (bad quote TNON: +49.5% in a day looks like a bad tick)
-brain: Still well below min_positions (5 of 8) with 90% cash idle and only ~70 min until the 14:00 entry cutoff, so I'm deploying now across diversified sectors (semis, internet/AI, defense) each backed by concrete headlines/congress filings rather than waiting for perfect dips. NOC's sharp single-day drop on an isolated jet-loss headline looks like an overreaction versus sector peers, and GOOGL/AVGO/TSM have genuine same-day catalysts beyond pure momentum, satisfying the non-momentum-only rule.
-lesson: Approaching the no-new-entries cutoff with <8 positions, deploy across multiple sectors each check rather than concentrating repeatedly in the same widely_held cluster (MSFT/AMD/HD/IBM) already crowding the book.
   (dropped TSM: sold 18 min ago, cooling off)
   (dropped GOOGL: 85% up today's range — resting a limit at $348.77 instead of chasing)
 - BUY $500.00 AVGO [filled] ['congress', 'news'] — Congress buy pressure tier 2.0 plus fresh headline catalyst, not yet in book, semis diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep disclosed buy (Rick W. Allen, AVGO, disclosed 2026-09-22) + 'Broadcom Stocks Edge Higher as Netlist Seeks AI-Memory Import Ban' (GuruFocus 15:21)
@@ -398,3 +391,10 @@ Done: 0 sell(s), 6 buy(s); 23 order(s) working; budget left $21132.20 this week
   (dropped NOC: sold 26 min ago, cooling off)
   (dropped NOC: sold 26 min ago, cooling off)
   (dropped NOC: sold 27 min ago, cooling off)
+  (dropped NOC: sold 28 min ago, cooling off)
+  (dropped NOC: sold 28 min ago, cooling off)
+  (dropped NOC: sold 29 min ago, cooling off)
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [stop_loss @ $86.26] -> $625.01 (+0.00%) — close it all at -0.4% under the average cost
+  (dropped NOC: sold 31 min ago, cooling off)
+## 2026-10-01 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
