@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "a2ef5982",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 509.2905,
-   "status": "cancelled",
-   "created": "2026-09-29 11:22",
-   "created_ts": 1790695357,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $507.99",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:31",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9a28abc7",
    "ticker": "MSFT",
    "kind": "stop_loss",
@@ -7131,7 +7112,7 @@
    "ticker": "HLI",
    "kind": "stop_loss",
    "price": 125.9525,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:04",
    "created_ts": 1790870693,
    "why": "close it all at -0.9% under the average cost",
@@ -7141,7 +7122,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:29",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2c4f7519",
@@ -7413,7 +7396,24 @@
    ],
    "good_until": "2026-10-06",
    "usd": 500.0
+  },
+  {
+   "id": "8cf84672",
+   "ticker": "HLI",
+   "kind": "stop_loss",
+   "price": 127.234,
+   "status": "working",
+   "created": "2026-10-01 12:29",
+   "created_ts": 1790872188,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $127.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 12:27"
+ "updated": "2026-10-01 12:29"
 }
