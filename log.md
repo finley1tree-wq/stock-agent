@@ -21297,3 +21297,4 @@ lesson: With no_new_entries_after_et at 14:00, the last check before cutoff shou
 portfolio: equity $25221.50 (+0.89% on $25000.00 in) · cash $24471.82 · realised +221.82
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 15 resting buy order(s): past the entry cutoff)

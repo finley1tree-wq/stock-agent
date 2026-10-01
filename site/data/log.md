@@ -1,17 +1,3 @@
-  (dropped NOC: sold 31 min ago, cooling off)
-  (dropped NOC: sold 32 min ago, cooling off)
-  (dropped NOC: sold 33 min ago, cooling off)
-  (cancelled 2 standing order(s) on SKWD: position closed)
-- SELL 100% SKWD [take_profit @ $53.41] -> $376.32 (+0.35%) — close 100% at +0.3% over the average cost
-  (dropped NOC: sold 33 min ago, cooling off)
-## 2026-10-01 10:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (dropped NOC: sold 34 min ago, cooling off)
-  (dropped NOC: sold 35 min ago, cooling off)
-
-## 2026-10-01 10:45 ET (Thursday) — week 2026-W40 — budget left $23513.86 (today $43750.00 put to work, 27 buys, 24 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
   (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
@@ -398,3 +384,17 @@ Decision: nothing at this check. 24 standing order(s) working.
 ## 2026-10-01 13:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% RTX [time stop] -> $623.79 (-0.19%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-01 13:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 13:53 ET (Thursday) — week 2026-W40 — budget left $24140.26 (today $58300.00 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: It's 13:53 ET and no_new_entries_after_et is 14:00 - essentially at the entry cutoff with only 7 minutes left, so any new market buy would likely be dropped or filled at a bad instant. I already have 13 buy_limit triggers working across diversified names (CHRW, TSM, LTH, NVDA, LEN, HUBB, SKWD, GPI, XENE, ACN) at sensible levels below market, which is the correct way to capture entries without chasing extended prices - all named tickers are high in their day range (TSM 93%, NVDA 81%, CHRW 99.6%, HUBB 88%) so market buys would violate max_entry_range_pct guardrails anyway. ACN position is protected with take_profit/stop_loss/scale-in bracket already in place. No new market orders proposed since the cutoff is imminent; let standing limits do the work.
+lesson: With no_new_entries_after_et at 14:00, the last check before cutoff should rely on already-placed buy_limit triggers rather than attempt fresh market buys that will be rejected or chase an extended price.
+portfolio: equity $25221.50 (+0.89% on $25000.00 in) · cash $24471.82 · realised +221.82
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 15 resting buy order(s): past the entry cutoff)
