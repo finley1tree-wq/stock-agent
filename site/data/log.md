@@ -1,17 +1,3 @@
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-brain: Still below min_positions (6 of 8) with 88% cash idle - counterfactual data shows idle sitting-out has cost (idle_universe_avg -0.06% but picking beats random). Adding META, AMZN, PLD, UNH diversifies across distinct sectors (social/AI, retail/cloud, REIT, healthcare) each with its own concrete news catalyst, avoiding the correlated-cluster mistake flagged repeatedly in past lessons. Left buy_limit triggers on CCJ and NVDA to opportunistically add on dips without chasing current price.
-lesson: Diversify with one name per distinct sector/catalyst and size positions at $2000 to actually move cash_idle_pct down, rather than repeating small adds to the same widely_held cluster.
-- BUY $500.00 META [filled] ['news'] — Fresh distinct catalyst, not yet held, diversifies away from existing MSFT/GOOGL tech exposure [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Meta Platforms signed a White House AI Safety Accord (Simply Wall St, 2026-10-01 14:07), providing regulatory clarity catalyst
-- BUY $500.00 AMZN [filled] ['news'] — Distinct mega-cap name not already held, adds diversification within widely_held bucket which has 0.56 hit rate historically [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Infrastructure investment story 'sets up record downstream FCF' (Insider Monkey 2026-10-01) plus Amazon nuke deal headline fueling Constellation
-- BUY $500.00 PLD [filled] ['news'] — Adds a second real-estate name distinct from O, sector avg_ret +gold at 0.03 is best sector bucket historically, real estate reasonable diversifier [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Real estate headline on Prologis Q3 2026 earnings preview (Barchart 2026-09-29); diversifies real_estate sector beyond O which is already held
-- BUY $500.00 UNH [filled] ['news'] — UNH currently low in day range (15.3 pct_of_day_range) offering better entry, distinct healthcare sector exposure [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH dipped more than broader market per Zacks 2026-09-30, oversold defensive healthcare name trading near day low (15.3% of range)
-~ WORKING buy_limit $1500.00 CCJ @ $84.50 until 2026-10-01 — Resting limit to get nuclear exposure at a better price than chasing
-~ WORKING buy_limit $1500.00 NVDA @ $227.00 until 2026-10-01 — Resting limit slightly below market to capture AI megacap on a dip rather than chasing
-~ WORKING take_profit 100% META @ $727.92 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% META @ $716.56 until 2026-10-06 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 META @ $702.93 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMZN @ $247.14 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% AMZN @ $245.04 until 2026-10-06 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 AMZN @ $239.14 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% PLD @ $128.14 until 2026-10-06 — close 100% at +0.2% over the average cost
 ~ WORKING stop_loss 100% PLD @ $127.28 until 2026-10-06 — close it all at -0.5% under the average cost
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and I hold zero positions, so there is nothing to protect or sell and no entries can be placed - any buy/buy_limit/buy_stop would just be dropped. With only one check left today and no open book, the correct action is to wait.
 lesson: When no_new_entries_this_check is true and positions are flat, there is nothing actionable - confirmed again today; stop re-litigating this each check.
+portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-01 15:30 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff and within max_hold_minutes of close) and portfolio is flat with zero holdings - there is nothing to sell or protect, and new entries would be dropped by guardrails. checks_left_today is 0, so this is the last check of the day; no action is actionable or needed.
+lesson: When no_new_entries_this_check is true, checks_left_today is 0, and positions are flat, there is genuinely nothing to do - confirmed again; stop re-litigating this.
 portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
