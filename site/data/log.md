@@ -1,33 +1,3 @@
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [take_profit @ $351.54] -> $2006.18 (+0.31%) — close 100% at +0.3% over the average cost
-## 2026-10-01 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $344.05] -> $2005.79 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-10-01 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [stop_loss @ $517.88] -> $1996.94 (-0.15%) — close it all at -0.6% under the average cost
-## 2026-10-01 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on LMT: position closed)
-- SELL 100% LMT [stop_loss @ $506.87] -> $1987.21 (-0.64%) — close it all at -0.6% under the average cost
-- SELL 100% HUBB [time stop] -> $3468.56 (-0.90%) — held 30 min, the 30-minute limit: out regardless
-## 2026-10-01 10:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 10:03 ET (Thursday) — week 2026-W40 — budget left $22898.43 (today $36000.00 put to work, 13 buys, 12 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-brain: Below min_positions (1/8) with 91.6% cash idle - the biggest issue right now is underdeployment, not picking the perfect name. I'm spreading across defense (NOC, RTX), semis (TSM), security (CRWD), AI/data (PLTR), healthcare (UNH) and gold (GLD) to diversify away from the correlated congress cluster (HUBB/CHRW/LTH) per past lessons, each backed by a concrete headline or price-range signal. Sizing $2000-2500 each gets me to ~8 positions with meaningful weight while respecting the no-momentum-only rule by pairing each with news evidence.
-lesson: Diversify sector exposure with individual news evidence per name when below min_positions, rather than concentrating in one correlated congress-disclosure cluster.
-  (dropped PLTR: 90% up today's range — resting a limit at $189.41 instead of chasing)
-- BUY $625.00 TSM [filled] ['news'] — Diversify into semis with concrete expansion headline, moderate day range (28%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Reuters: 'TSMC weighs investment in Texas to expand U.S. chip production' - positive supply chain news, +9.83% 1m momentum
-- BUY $625.00 CRWD [filled] ['news', 'momentum'] — Security sector momentum continuing, reasonable entry at 61% of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CRWD +23.41% 1m momentum, headline 'BlackBerry Advances...CrowdStrike Edges Up 2%' showing sector strength
-- BUY $625.00 NOC [filled] ['news'] — Defense sector tailwind, NOC near day low (3.7% of range) offering good entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Lockheed Martin Secures Over $1 Billion in Defense Deals' signals sector-wide defense demand strength
-- BUY $500.00 UNH [filled] ['news'] — Mean reversion candidate in healthcare, low in range gives better entry than chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH -1.04% today but at 6.2% of day range (near low), oversold on 'Her Surgery Is Set for January' type coverage-pressure news already priced in
-- BUY $500.00 GLD [filled] ['news'] — Diversification into gold/defensive asset after sharp pullback, low in day range (12.3%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'Gold Just Had Its Worst Day in Over Two Months. GLD Is Now 26% Off Its High' - contrarian entry after selloff
-- BUY $500.00 RTX [filled] ['news'] — Adds defense diversification distinct from NOC/LMT cluster, near day low (17% of range) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?' plus defense sector congress pressure
   (dropped trigger PLTR stop_loss: not held)
 ~ WORKING stop_loss 100% TSM @ $445.00 until 2026-10-01 — Protect capital with ATR-based stop below recent support
 ~ WORKING buy_limit $625.00 PLTR @ $189.41 until 2026-10-01 — wanted it, but not at the high — resting at $189.41. Strong momentum with fresh positive news flow, not yet in cooldown [probation at 25% size (no hour or signal lens has proven itself yet)]
@@ -398,3 +368,33 @@ Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $21053.90 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $225.71] -> $551.89 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 12:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [stop_loss @ $86.16] -> $375.02 (+0.01%) — close it all at -0.4% under the average cost
+## 2026-10-01 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 12:21 ET (Thursday) — week 2026-W40 — budget left $23005.15 (today $53875.00 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Still well below min_positions (4 of 8) with 92% cash idle - counterfactual data shows idle checks cost the account (idle_universe_avg_pct -0.09%, picking beats random). Adding 4 names across defense (RTX), security/tech (CRWD), gold (NEM), and insurance (SKWD, congress-backed) diversifies sector exposure beyond the existing UNH/TSM/LMT/HLI cluster, sized at $2000-2500 each to meaningfully reduce cash_idle_pct, each with a protective stop per auto_bracket discipline which has the best realized hit rate (0.88) in track record.
+lesson: When below min_positions with 90%+ idle cash, deploy into 3-4 named-evidence, sector-diverse tickers at $2000+ each rather than trickling in small amounts - idle checks are 52% of history and cost the account per counterfactual data.
+  (dropped SKWD: 87% up today's range — resting a limit at $53.50 instead of chasing)
+- BUY $625.00 RTX [filled] ['news', 'track_record'] — Add defense diversification distinct from LMT/NOC, decent entry at 28% of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: RTX -0.22% today, defense sector momentum from AEGIS/Lockheed contract news cycle; Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?'
+- BUY $500.00 CRWD [filled] ['news', 'momentum'] — Widely_held security name with strong 1m trend, entering at 49% of day range not chasing highs [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CRWD +22.85% 1m momentum, BlackBerry/Palo Alto/CrowdStrike sector strength headline 'CrowdStrike Edges Up 2%'
+- BUY $500.00 NEM [filled] ['news', 'momentum'] — Gold sector diversification with decent historical hit rate, uncorrelated to tech/defense names already held [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NEM at 75.8% of day range but -6.05% 1m; gold sector avg_ret_pct 0.03% hit_rate 0.58 per track record, diversifies away from equities
+  (dropped trigger SKWD stop_loss: not held)
+~ WORKING stop_loss 100% RTX @ $181.50 until 2026-10-01 — bound downside per standard bracket
+~ WORKING stop_loss 100% CRWD @ $258.90 until 2026-10-01 — bound downside per standard bracket
+~ WORKING stop_loss 100% NEM @ $112.90 until 2026-10-01 — bound downside per standard bracket
+~ WORKING buy_limit $500.00 SKWD @ $53.50 until 2026-10-01 — wanted it, but not at the high — resting at $53.50. Insurance sector diversification backed by congressional buy pressure, fills out min_positions with uncorrelated name [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% RTX @ $185.72 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $179.75 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $265.68 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $256.32 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $115.69 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $111.80 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $21711.73 · realised +211.73
+Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week

@@ -49867,7 +49867,9 @@
     "code_version": "2c26bdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.47,
+    "ret_final": -0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "LEN",
@@ -50112,7 +50114,7 @@
     "code_version": "e2f76ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": 0.06
   },
   {
     "symbol": "NOC",
@@ -50288,7 +50290,7 @@
     "code_version": "34748f9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": 0.06
   },
   {
     "symbol": "CCJ",
@@ -50506,7 +50508,9 @@
     "code_version": "f30c23f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": 0.34,
+    "ret_final": 0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMD",
@@ -50561,7 +50565,9 @@
     "code_version": "f30c23f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31
+    "ret_now": 0.33,
+    "ret_final": 0.33,
+    "ret_src": "realised"
   },
   {
     "symbol": "LEN",
@@ -50664,7 +50670,8 @@
     "hour_et": 12,
     "code_version": "2d78fd6",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.26
   },
   {
     "symbol": "KO",
@@ -50690,7 +50697,10 @@
     "hour_et": 12,
     "code_version": "2d78fd6",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.01,
+    "ret_now": 0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "HLI",
@@ -50716,7 +50726,8 @@
     "hour_et": 12,
     "code_version": "2d78fd6",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.03
   },
   {
     "symbol": "NLR",
@@ -50740,7 +50751,8 @@
     "evidence": "average cost $102",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "8bd121c"
+    "code_version": "8bd121c",
+    "hold_minutes": 16
   },
   {
     "symbol": "GOOGL",
@@ -50763,7 +50775,8 @@
     "evidence": "bought 90 min ago, -0.45% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "4b360c6"
+    "code_version": "4b360c6",
+    "hold_minutes": 89
   },
   {
     "symbol": "IBM",
@@ -50788,6 +50801,111 @@
     "evidence": "average cost $224.93",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "7c3398a"
+    "code_version": "7c3398a",
+    "hold_minutes": 26
+  },
+  {
+    "symbol": "KO",
+    "side": "sell",
+    "qty": 4.352508,
+    "status": "filled",
+    "price": 86.16,
+    "proceeds": 375.02,
+    "realized_pnl": 0.02,
+    "realized_pct": 0.01,
+    "date": "2026-10-01",
+    "time_et": "12:20",
+    "ts": 1790871600,
+    "why": "close it all at -0.4% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $86.16",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "3cc0b21",
+    "hold_minutes": 15
+  },
+  {
+    "symbol": "RTX",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.372652,
+    "price": 185.31,
+    "date": "2026-10-01",
+    "time_et": "12:21",
+    "ts": 1790871665,
+    "why": "Add defense diversification distinct from LMT/NOC, decent entry at 28% of day range [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "news",
+      "track_record"
+    ],
+    "evidence": "RTX -0.22% today, defense sector momentum from AEGIS/Lockheed contract news cycle; Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?'",
+    "hold_minutes": 90,
+    "entry_price": 185.24,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -9.71,
+    "hour_et": 12,
+    "code_version": "3cc0b21",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CRWD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.892127,
+    "price": 264.25,
+    "date": "2026-10-01",
+    "time_et": "12:21",
+    "ts": 1790871665,
+    "why": "Widely_held security name with strong 1m trend, entering at 49% of day range not chasing highs [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "CRWD +22.85% 1m momentum, BlackBerry/Palo Alto/CrowdStrike sector strength headline 'CrowdStrike Edges Up 2%'",
+    "hold_minutes": 90,
+    "entry_price": 264.2,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 22.85,
+    "hour_et": 12,
+    "code_version": "3cc0b21",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NEM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.338166,
+    "price": 115.26,
+    "date": "2026-10-01",
+    "time_et": "12:21",
+    "ts": 1790871665,
+    "why": "Gold sector diversification with decent historical hit rate, uncorrelated to tech/defense names already held [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "NEM at 75.8% of day range but -6.05% 1m; gold sector avg_ret_pct 0.03% hit_rate 0.58 per track record, diversifies away from equities",
+    "hold_minutes": 90,
+    "entry_price": 115.21,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -6.05,
+    "hour_et": 12,
+    "code_version": "3cc0b21",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

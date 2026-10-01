@@ -21116,3 +21116,33 @@ Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $21053.90 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $225.71] -> $551.89 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 12:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [stop_loss @ $86.16] -> $375.02 (+0.01%) — close it all at -0.4% under the average cost
+## 2026-10-01 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-01 12:21 ET (Thursday) — week 2026-W40 — budget left $23005.15 (today $53875.00 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
+  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+brain: Still well below min_positions (4 of 8) with 92% cash idle - counterfactual data shows idle checks cost the account (idle_universe_avg_pct -0.09%, picking beats random). Adding 4 names across defense (RTX), security/tech (CRWD), gold (NEM), and insurance (SKWD, congress-backed) diversifies sector exposure beyond the existing UNH/TSM/LMT/HLI cluster, sized at $2000-2500 each to meaningfully reduce cash_idle_pct, each with a protective stop per auto_bracket discipline which has the best realized hit rate (0.88) in track record.
+lesson: When below min_positions with 90%+ idle cash, deploy into 3-4 named-evidence, sector-diverse tickers at $2000+ each rather than trickling in small amounts - idle checks are 52% of history and cost the account per counterfactual data.
+  (dropped SKWD: 87% up today's range — resting a limit at $53.50 instead of chasing)
+- BUY $625.00 RTX [filled] ['news', 'track_record'] — Add defense diversification distinct from LMT/NOC, decent entry at 28% of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: RTX -0.22% today, defense sector momentum from AEGIS/Lockheed contract news cycle; Zacks headline 'Can Electronic Warfare Demand Support RTX's Defense Growth?'
+- BUY $500.00 CRWD [filled] ['news', 'momentum'] — Widely_held security name with strong 1m trend, entering at 49% of day range not chasing highs [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CRWD +22.85% 1m momentum, BlackBerry/Palo Alto/CrowdStrike sector strength headline 'CrowdStrike Edges Up 2%'
+- BUY $500.00 NEM [filled] ['news', 'momentum'] — Gold sector diversification with decent historical hit rate, uncorrelated to tech/defense names already held [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NEM at 75.8% of day range but -6.05% 1m; gold sector avg_ret_pct 0.03% hit_rate 0.58 per track record, diversifies away from equities
+  (dropped trigger SKWD stop_loss: not held)
+~ WORKING stop_loss 100% RTX @ $181.50 until 2026-10-01 — bound downside per standard bracket
+~ WORKING stop_loss 100% CRWD @ $258.90 until 2026-10-01 — bound downside per standard bracket
+~ WORKING stop_loss 100% NEM @ $112.90 until 2026-10-01 — bound downside per standard bracket
+~ WORKING buy_limit $500.00 SKWD @ $53.50 until 2026-10-01 — wanted it, but not at the high — resting at $53.50. Insurance sector diversification backed by congressional buy pressure, fills out min_positions with uncorrelated name [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% RTX @ $185.72 until 2026-10-06 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $179.75 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $265.68 until 2026-10-06 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $256.32 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $115.69 until 2026-10-06 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $111.80 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25210.01 (+0.84% on $25000.00 in) · cash $21711.73 · realised +211.73
+Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $21380.15 this week

@@ -1,194 +1,6 @@
 {
  "orders": [
   {
-   "id": "b4e51d52",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 452.57,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "wanted it, but not at the high \u2014 resting at $452.57. Congress buy pressure plus strong 1m momentum, semis exposure diversifies book",
-   "evidence": "Rep. Rick W. Allen bought TSM disclosed 2026-09-22; TSM +0.93% today, +9.47% 1m momentum",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 2500.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "3e4985cf",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 361.8403,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $360.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "96f70fe5",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 349.9178,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $360.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "29de2659",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 174.5962,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $173.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "fdbf6143",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 168.6248,
-   "status": "cancelled",
-   "created": "2026-09-29 10:52",
-   "created_ts": 1790693545,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $173.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7682d513",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 216.0,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "Protective stop per risk_management best-performing signal",
-   "evidence": "ATR 3.229%, ~2.5% below entry 221.54",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "1a09552f",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 252.5,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "Protective stop per risk_management best-performing signal",
-   "evidence": "ATR 4.89%, ~2.5% below entry 259.11",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:37",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "23bf13dd",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 450.0,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "Protective stop per risk_management best-performing signal",
-   "evidence": "ATR 2.609%, ~2.5% below entry 462.4",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "540a9282",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 222.3733,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $221.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 11:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "fa57229f",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 214.9326,
-   "status": "cancelled",
-   "created": "2026-09-29 11:07",
-   "created_ts": 1790694454,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $221.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 11:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "8ae4a352",
    "ticker": "CRWD",
    "kind": "take_profit",
@@ -7318,7 +7130,7 @@
    "ticker": "KO",
    "kind": "take_profit",
    "price": 86.291,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:04",
    "created_ts": 1790870693,
    "why": "close 100% at +0.2% over the average cost",
@@ -7328,7 +7140,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4c47d71e",
@@ -7354,7 +7168,7 @@
    "ticker": "KO",
    "kind": "buy_limit",
    "price": 83.5752,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 12:04",
    "created_ts": 1790870693,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7364,7 +7178,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 12:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7de2fca3",
@@ -7422,7 +7238,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 86.208,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 12:18",
    "created_ts": 1790871494,
    "why": "close it all at -0.4% under the average cost",
@@ -7432,8 +7248,177 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 12:20"
+  },
+  {
+   "id": "88310455",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 181.5,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "bound downside per standard bracket",
+   "evidence": "RTX ATR 1.975%, protect new defense position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "b39e95b9",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 258.9,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "bound downside per standard bracket",
+   "evidence": "CRWD ATR 4.897%, protect new momentum position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5d4af5c6",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 112.9,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "bound downside per standard bracket",
+   "evidence": "NEM ATR 3.344%, protect new gold position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6263c0ee",
+   "ticker": "SKWD",
+   "kind": "buy_limit",
+   "price": 53.4993,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "wanted it, but not at the high \u2014 resting at $53.50. Insurance sector diversification backed by congressional buy pressure, fills out min_positions with uncorrelated name [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Congress net buy pressure score 2.0 on SKWD; Zacks headline 'Zacks Analyst Blog Highlights...Skyward Specialty'; +2.42% today",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-01",
+   "usd": 500.0
+  },
+  {
+   "id": "2f7be572",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 185.7158,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $185.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "961505c1",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 179.7507,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $185.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
+  },
+  {
+   "id": "e7dea3f2",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 265.6849,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $264.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8637ac13",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 256.3225,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $264.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
+  },
+  {
+   "id": "031db909",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 115.6876,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $115.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b4c352be",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 111.8022,
+   "status": "working",
+   "created": "2026-10-01 12:21",
+   "created_ts": 1790871665,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $115.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 12:18"
+ "updated": "2026-10-01 12:21"
 }
