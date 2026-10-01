@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "16dfcb84",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 11.9698,
-   "status": "cancelled",
-   "created": "2026-09-29 09:39",
-   "created_ts": 1790689166,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $12.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 09:53",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "0acc0605",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -6816,7 +6797,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 112.76,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "Protective stop to bound downside on new gold position",
@@ -6825,14 +6806,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0c594401",
    "ticker": "O",
    "kind": "stop_loss",
    "price": 52.54,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "Protective stop to bound downside on new real estate position",
@@ -6841,14 +6824,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ba2aa045",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 505.45,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "Protective stop to bound downside on new MSFT position",
@@ -6857,7 +6842,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "917e34bc",
@@ -6896,7 +6883,7 @@
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 115.5371,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "close 100% at +0.4% over the average cost",
@@ -6906,14 +6893,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "66307a80",
    "ticker": "NEM",
    "kind": "buy_limit",
    "price": 111.6567,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6923,14 +6912,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3cac3040",
    "ticker": "O",
    "kind": "take_profit",
    "price": 53.7314,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "close 100% at +0.2% over the average cost",
@@ -6940,14 +6931,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "da3bd200",
    "ticker": "O",
    "kind": "buy_limit",
    "price": 52.0211,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6957,14 +6950,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "fb520ac2",
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 517.2064,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "close 100% at +0.3% over the average cost",
@@ -6974,14 +6969,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "53ab92db",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 500.3842,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:45",
    "created_ts": 1790865958,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6991,7 +6988,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 11:16",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "aa070216",
@@ -7190,7 +7189,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 716.5609,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:02",
    "created_ts": 1790866940,
    "why": "close it all at -1.1% under the average cost",
@@ -7200,7 +7199,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:15",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "73da9931",
@@ -7281,7 +7282,7 @@
    "ticker": "PLD",
    "kind": "take_profit",
    "price": 128.1355,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:02",
    "created_ts": 1790866940,
    "why": "close 100% at +0.2% over the average cost",
@@ -7291,7 +7292,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3d9fe756",
@@ -7317,7 +7320,7 @@
    "ticker": "PLD",
    "kind": "buy_limit",
    "price": 124.0533,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 11:02",
    "created_ts": 1790866940,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7327,7 +7330,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 11:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "93cde703",
@@ -7403,7 +7408,7 @@
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 127.98,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 11:12",
    "created_ts": 1790867550,
    "why": "close it all at -0.5% under the average cost",
@@ -7413,8 +7418,26 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 11:15"
+  },
+  {
+   "id": "0c45a449",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 725.672,
+   "status": "working",
+   "created": "2026-10-01 11:15",
+   "created_ts": 1790867718,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $724.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-06",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 11:12"
+ "updated": "2026-10-01 11:15"
 }

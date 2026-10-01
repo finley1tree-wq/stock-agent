@@ -20985,3 +20985,10 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
   (cancelled 2 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [stop_loss @ $246.19] -> $499.29 (-0.14%) — close it all at -0.6% under the average cost
 ## 2026-10-01 11:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $127.88] -> $499.96 (-0.01%) — close it all at -0.5% under the average cost
+## 2026-10-01 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% NEM [time stop] -> $498.12 (-0.38%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% O [time stop] -> $499.51 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% MSFT [time stop] -> $498.32 (-0.34%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 11:16 ET — tick — 3 sell(s), 0 buy(s) from standing orders

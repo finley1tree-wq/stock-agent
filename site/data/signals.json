@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T11:12-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-01T11:16-04:00",
+ "note": "tick: 3 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -156,51 +156,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "97352c5e",
-   "ticker": "PLD",
+   "id": "0c45a449",
+   "ticker": "META",
    "kind": "stop_loss",
-   "price": 127.98,
+   "price": 725.672,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.04,
-   "pct_away": -0.05,
+   "last": 726.59,
+   "pct_away": -0.13,
    "good_until": "2026-10-06",
-   "why": "close it all at -0.5% under the average cost",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "b3305547",
-   "ticker": "PLD",
+   "id": "a1b00573",
+   "ticker": "META",
    "kind": "take_profit",
-   "price": 128.1355,
+   "price": 727.9165,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.04,
-   "pct_away": 0.07,
+   "last": 726.59,
+   "pct_away": 0.18,
    "good_until": "2026-10-06",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3cac3040",
-   "ticker": "O",
-   "kind": "take_profit",
-   "price": 53.7314,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.65,
-   "pct_away": 0.15,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -214,10 +197,43 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 364.09,
-   "pct_away": 0.24,
+   "last": 364.13,
+   "pct_away": 0.23,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f68e5846",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 84.5,
+   "usd": 1500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 84.81,
+   "pct_away": -0.37,
+   "good_until": "2026-10-01",
+   "why": "Resting limit to get nuclear exposure at a better price than chasing",
+   "signals": [
+    "news"
+   ]
+  },
+  {
+   "id": "aa070216",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 342.514,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 341.08,
+   "pct_away": 0.42,
+   "good_until": "2026-10-06",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -231,45 +247,12 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 454.33,
-   "pct_away": -0.29,
+   "last": 455.1,
+   "pct_away": -0.46,
    "good_until": "2026-10-01",
    "why": "resting limit near day low to get a better entry than chasing at market",
    "signals": [
     "news"
-   ]
-  },
-  {
-   "id": "f68e5846",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 84.5,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 84.82,
-   "pct_away": -0.38,
-   "good_until": "2026-10-01",
-   "why": "Resting limit to get nuclear exposure at a better price than chasing",
-   "signals": [
-    "news"
-   ]
-  },
-  {
-   "id": "a1b00573",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 727.9165,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 724.74,
-   "pct_away": 0.44,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -280,77 +263,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 364.09,
-   "pct_away": -0.53,
+   "last": 364.13,
+   "pct_away": -0.55,
    "good_until": "2026-10-06",
    "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fb520ac2",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 517.2064,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 514.3,
-   "pct_away": 0.57,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "aa070216",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 342.514,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 340.29,
-   "pct_away": 0.65,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "086fc2c0",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 227.0,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 228.71,
-   "pct_away": -0.75,
-   "good_until": "2026-10-01",
-   "why": "Resting limit slightly below market to capture AI megacap on a dip rather than chasing",
-   "signals": [
-    "news"
-   ]
-  },
-  {
-   "id": "d5ee91aa",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 115.5371,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 114.6,
-   "pct_away": 0.82,
-   "good_until": "2026-10-06",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -364,8 +280,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 79.3,
-   "pct_away": 0.99,
+   "last": 79.18,
+   "pct_away": 1.14,
    "good_until": "2026-10-06",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -374,36 +290,19 @@
    ]
   },
   {
-   "id": "97f8b487",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 716.5609,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "086fc2c0",
+   "ticker": "NVDA",
+   "kind": "buy_limit",
+   "price": 227.0,
+   "usd": 1500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 724.74,
-   "pct_away": -1.13,
-   "good_until": "2026-10-06",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d59ea3ec",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 112.76,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 114.6,
-   "pct_away": -1.61,
+   "last": 229.65,
+   "pct_away": -1.15,
    "good_until": "2026-10-01",
-   "why": "Protective stop to bound downside on new gold position",
+   "why": "Resting limit slightly below market to capture AI megacap on a dip rather than chasing",
    "signals": [
-    "risk_management"
+    "news"
    ]
   },
   {
@@ -414,42 +313,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 340.29,
-   "pct_away": -1.67,
+   "last": 341.08,
+   "pct_away": -1.9,
    "good_until": "2026-10-01",
    "why": "Protective stop to bound downside on new GOOGL position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "ba2aa045",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 505.45,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 514.3,
-   "pct_away": -1.72,
-   "good_until": "2026-10-01",
-   "why": "Protective stop to bound downside on new MSFT position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "0c594401",
-   "ticker": "O",
-   "kind": "stop_loss",
-   "price": 52.54,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.65,
-   "pct_away": -2.07,
-   "good_until": "2026-10-01",
-   "why": "Protective stop to bound downside on new real estate position",
    "signals": [
     "risk_management"
    ]
@@ -462,8 +329,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 79.3,
-   "pct_away": -2.19,
+   "last": 79.18,
+   "pct_away": -2.05,
    "good_until": "2026-10-01",
    "why": "Protective stop to bound downside on new LEN position",
    "signals": [
@@ -478,25 +345,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 79.3,
-   "pct_away": -2.41,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "66307a80",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 111.6567,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 114.6,
-   "pct_away": -2.57,
+   "last": 79.18,
+   "pct_away": -2.26,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -512,25 +362,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 340.29,
-   "pct_away": -2.65,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "53ab92db",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 500.3842,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 514.3,
-   "pct_away": -2.71,
+   "last": 341.08,
+   "pct_away": -2.88,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -546,8 +379,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 364.09,
-   "pct_away": -2.98,
+   "last": 364.13,
+   "pct_away": -2.99,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -563,42 +396,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 724.74,
-   "pct_away": -3.01,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "da3bd200",
-   "ticker": "O",
-   "kind": "buy_limit",
-   "price": 52.0211,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 53.65,
-   "pct_away": -3.04,
-   "good_until": "2026-10-06",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ce8d54f1",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 124.0533,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 128.04,
-   "pct_away": -3.11,
+   "last": 726.59,
+   "pct_away": -3.26,
    "good_until": "2026-10-06",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

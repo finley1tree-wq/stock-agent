@@ -1,10 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-09-30 15:21 ET (Wednesday) — week 2026-W40 — budget left $24878.80 (today $42225.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ASGI excluded: too thinly traded ($4.5M a day) — Abrdn Global Infrastructure Income Fund)
   (ASPI excluded: too thinly traded ($10.9M a day) — ASP Isotopes Inc.)
   (BFS excluded: too thinly traded ($3.3M a day) — Saul Centers, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +391,10 @@ Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
   (cancelled 2 standing order(s) on AMZN: position closed)
 - SELL 100% AMZN [stop_loss @ $246.19] -> $499.29 (-0.14%) — close it all at -0.6% under the average cost
 ## 2026-10-01 11:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $127.88] -> $499.96 (-0.01%) — close it all at -0.5% under the average cost
+## 2026-10-01 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% NEM [time stop] -> $498.12 (-0.38%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% O [time stop] -> $499.51 (-0.10%) — held 30 min, the 30-minute limit: out regardless
+- SELL 100% MSFT [time stop] -> $498.32 (-0.34%) — held 30 min, the 30-minute limit: out regardless
+## 2026-10-01 11:16 ET — tick — 3 sell(s), 0 buy(s) from standing orders

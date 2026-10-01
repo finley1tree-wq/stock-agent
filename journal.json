@@ -50141,5 +50141,101 @@
     "trigger": "stop_loss",
     "hour_et": 11,
     "code_version": "335cf86"
+  },
+  {
+    "symbol": "PLD",
+    "side": "sell",
+    "qty": 3.909575,
+    "status": "filled",
+    "price": 127.88,
+    "proceeds": 499.96,
+    "realized_pnl": -0.04,
+    "realized_pct": -0.01,
+    "date": "2026-10-01",
+    "time_et": "11:15",
+    "ts": 1790867700,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "news",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $127.89",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "bab9082"
+  },
+  {
+    "symbol": "NEM",
+    "side": "sell",
+    "qty": 4.343821,
+    "status": "filled",
+    "price": 114.67,
+    "proceeds": 498.12,
+    "realized_pnl": -1.88,
+    "realized_pct": -0.38,
+    "date": "2026-10-01",
+    "time_et": "11:16",
+    "ts": 1790867765,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "time_stop",
+      "track_record"
+    ],
+    "evidence": "bought 30 min ago, -0.34% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "bab9082"
+  },
+  {
+    "symbol": "O",
+    "side": "sell",
+    "qty": 9.322889,
+    "status": "filled",
+    "price": 53.58,
+    "proceeds": 499.51,
+    "realized_pnl": -0.49,
+    "realized_pct": -0.1,
+    "date": "2026-10-01",
+    "time_et": "11:16",
+    "ts": 1790867765,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.06% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "bab9082"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 0.969249,
+    "status": "filled",
+    "price": 514.13,
+    "proceeds": 498.32,
+    "realized_pnl": -1.68,
+    "realized_pct": -0.34,
+    "date": "2026-10-01",
+    "time_et": "11:16",
+    "ts": 1790867765,
+    "why": "held 30 min, the 30-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "news",
+      "time_stop"
+    ],
+    "evidence": "bought 30 min ago, -0.32% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "bab9082"
   }
 ]
