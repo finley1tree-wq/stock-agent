@@ -7067,7 +7067,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 445.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "Protect capital with ATR-based stop below recent support",
@@ -7076,7 +7076,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:08",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dbd7922c",
@@ -7101,7 +7103,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 455.8669,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "close 100% at +0.2% over the average cost",
@@ -7111,14 +7113,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-01 10:08"
   },
   {
    "id": "da3dc2ec",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 441.1366,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-01 10:03",
    "created_ts": 1790863417,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7128,7 +7131,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-06",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-01 10:08",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7f3f5c0c",
@@ -7429,5 +7434,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-01 10:07"
+ "updated": "2026-10-01 10:08"
 }

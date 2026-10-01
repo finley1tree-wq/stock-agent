@@ -20771,3 +20771,6 @@ Done: 0 sell(s), 6 buy(s); 22 order(s) working; budget left $19523.43 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [stop_loss @ $363.25] -> $499.88 (-0.02%) — close it all at -0.6% under the average cost
 ## 2026-10-01 10:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $455.87] -> $626.49 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-01 10:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
