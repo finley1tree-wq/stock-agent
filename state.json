@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 3376.86,
+  "spent": 2873.5,
   "deployed": 296475.18,
   "by_ticker": {
     "AVGO": 37.31,
@@ -29,7 +29,6 @@
     "O": 0.49,
     "LEN": 375.0,
     "NOC": 0.6,
-    "META": 500.0,
     "PLD": 0.04
   },
   "deployed_by_ticker": {
@@ -6339,13 +6338,34 @@
       "evidence": "South Korea $200B US investment headline (Barronscom 2026-09-30) names Cameco as beneficiary; CCJ currently 16.5pct of day range, limit below market for better entry",
       "trigger": "buy_limit",
       "hold_minutes": 30
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 0.689965,
+      "status": "filled",
+      "price": 729.54,
+      "proceeds": 503.36,
+      "realized_pnl": 3.36,
+      "realized_pct": 0.67,
+      "date": "2026-10-01",
+      "time_et": "11:20",
+      "ts": 1790868000,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $724.67",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-01",
-  "spent_today": 3255.66,
+  "spent_today": 2752.3,
   "deployed_today": 50000.0,
   "orders_today": 40,
-  "sells_today": 33,
+  "sells_today": 34,
   "sold_today": [
     "ACN",
     "TTD",
@@ -6375,7 +6395,8 @@
     "AMZN",
     "PLD",
     "NEM",
-    "O"
+    "O",
+    "META"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -6393,7 +6414,7 @@
     "TTD": 1790861960,
     "HD": 1790865277,
     "AMZN": 1790867409,
-    "META": 1790704505,
+    "META": 1790868049,
     "AAPL": 1790786607,
     "IBM": 1790866030,
     "RTX": 1790864436,
@@ -6413,33 +6434,30 @@
     "PLD": 1790867720,
     "O": 1790867766
   },
-  "last_publish_ts": 1790867917,
-  "last_check_ts": 1790867963,
-  "last_bar_ts": 1790867700,
+  "last_publish_ts": 1790868049,
+  "last_check_ts": 1790868049,
+  "last_bar_ts": 1790868000,
   "last_decision_ts": 1790867858,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "0c45a449": 725.672,
     "c57eebef": 456.2779,
-    "a1b00573": 727.9165,
-    "93cde703": 364.9684,
     "aa070216": 342.514,
+    "93cde703": 364.9684,
+    "19629a14": 85.0791,
     "77ed9e44": 362.1426,
     "a754d678": 453.0,
-    "19629a14": 85.0791,
     "a12f1bb3": 80.0856,
     "086fc2c0": 227.0,
     "917e34bc": 334.6,
     "015ab17e": 446.5,
     "79ddeeaa": 77.56,
     "940baa82": 77.3866,
-    "92f03a84": 82.0911,
-    "9e14b4e0": 331.2647,
     "c1999cad": 353.2352,
-    "85edfe00": 82.0,
+    "9e14b4e0": 331.2647,
+    "92f03a84": 82.0911,
     "f8496407": 441.5343,
-    "73da9931": 702.9299
+    "85edfe00": 82.0
   },
   "hold_arm": {
     "GOOGL": 90,

@@ -1,6 +1,3 @@
-
-## 2026-10-01 09:32 ET (Thursday) — week 2026-W40 — budget left $24878.80 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CLPR excluded: too thinly traded ($0.2M a day) — Clipper Realty Inc.)
@@ -398,3 +395,6 @@ portfolio: equity $25202.80 (+0.81% on $25000.00 in) · cash $22329.72 · realis
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $21998.14 this week
 - BUY $375.00 CCJ [buy_limit @ $84.50] — Resting limit to get nuclear exposure at a better price than chasing [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-01 11:18 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $729.54] -> $503.36 (+0.67%) — close 100% at +0.4% over the average cost
+## 2026-10-01 11:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
