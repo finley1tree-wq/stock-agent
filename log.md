@@ -21282,3 +21282,5 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on XENE: position closed)
 - SELL 100% XENE [stop_loss @ $39.48] -> $500.82 (+0.16%) — close it all at -2.1% under the average cost
 ## 2026-10-01 13:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% RTX [time stop] -> $623.79 (-0.19%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-01 13:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
