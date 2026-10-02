@@ -1,365 +1,6 @@
 {
  "orders": [
   {
-   "id": "1e2ea212",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 490.0,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "Protective stop ~3% below entry",
-   "evidence": "ATR 2.15%, entry ~505.33",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "09bb7209",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 328.0,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "Protective stop ~3.2% below entry",
-   "evidence": "ATR 2.5%, entry ~338.86",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4d0dec97",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 174.044,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "wanted it, but not at the high \u2014 resting at $174.04. Congress buy pressure plus recent pullback gives room; ACN not in cooldown anymore was sold 33min ago but cooldown was only flagged as dropped, checking cooling_off list - not present now",
-   "evidence": "Rep. Scott Franklin bought ACN $1,001-$15,000 disclosed 2026-09-17; Rep. Gilbert Ray Cisneros also bought; congress_net_buy_pressure=2.0; price 175.47 up 0.57% today but off 4.49% 5d/-7.46% 1m",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 2500.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "9b9e45c6",
-   "ticker": "LTH",
-   "kind": "take_profit",
-   "price": 39.8715,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $39.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "023c06a8",
-   "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 38.509,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $39.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f349d91c",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 331.6078,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $330.87",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ffb74bf6",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 320.9439,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $330.87",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "798412c6",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 506.7382,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $505.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c216cff0",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 490.3641,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $505.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "1b78f4ec",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 339.8722,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $338.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3f118ac6",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 328.7621,
-   "status": "cancelled",
-   "created": "2026-09-29 12:10",
-   "created_ts": 1790698251,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $338.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:41",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "25401468",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 251.4,
-   "status": "cancelled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "protect new CRWD position",
-   "evidence": "ATR 4.9%, protective stop ~3% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "bf7120a5",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 361.2,
-   "status": "cancelled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "protect new UNH position",
-   "evidence": "ATR 2.1%, protective stop ~3% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "62aca446",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 174.066,
-   "status": "cancelled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "wanted it, but not at the high \u2014 resting at $174.07. named congress buy pressure plus pullback, currently mid-range (85% of day range is high but limit resting near low was not hit, buying market small size given ACN sits at day high signal",
-   "evidence": "Rep. Scott Franklin and Rep. Gilbert Ray Cisneros both filed ACN buys (disclosed 2026-09-17, 2026-09-04); ACN +0.38% today, pulled back -7.64% 1m giving room",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 1625.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "045e5900",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 453.1365,
-   "status": "cancelled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "wanted it, but not at the high \u2014 resting at $453.14. congress buy plus strong momentum, diversifies book into semis away from AAPL/GOOGL concentration",
-   "evidence": "Rep. Rick W. Allen disclosed TSM buy (2026-08-12, filed 2026-09-22); TSM +0.91% today, +9.45% 1m, avg_excess for Allen +2.76% across 8 buys",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-29",
-   "usd": 1625.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "380b692b",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 260.6551,
-   "status": "cancelled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $259.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d03335f3",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 251.4725,
-   "status": "cancelled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $259.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:56",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "910082ee",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 373.2989,
-   "status": "filled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $372.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 12:31"
-  },
-  {
-   "id": "9465f599",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 361.2474,
-   "status": "cancelled",
-   "created": "2026-09-29 12:26",
-   "created_ts": 1790699208,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $372.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "usd": 500.0,
-   "closed": "2026-09-29 12:31",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a62f09a4",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -7477,7 +7118,325 @@
    "good_until": "2026-10-06",
    "pct_of_position": 100.0,
    "closed": "2026-10-01 13:45"
+  },
+  {
+   "id": "4409d2df",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 466.4,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "protective stop",
+   "evidence": "ATR 2.479%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "40d9c879",
+   "ticker": "LTH",
+   "kind": "stop_loss",
+   "price": 40.2,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "protective stop",
+   "evidence": "ATR 3.552%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "79bb2972",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 341.1,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "protective stop",
+   "evidence": "ATR 2.73%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "304ae1e6",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 141.0,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "protective stop",
+   "evidence": "ATR 1.55%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "41eb7af2",
+   "ticker": "CRWD",
+   "kind": "stop_loss",
+   "price": 264.8,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "protective stop",
+   "evidence": "ATR 4.085%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "aea3727f",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 455.7,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "protective stop",
+   "evidence": "ATR 2.003%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "452d4bed",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 155.4147,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "wanted it, but not at the high \u2014 resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry",
+   "evidence": "Rep. April McClain Delaney disclosed buys in CHRW (congress_net_buy_pressure score 3.0, top-ranked); CHRW +1.88% today, +6.07% 5d, at day high (pct_of_day_range 100)",
+   "signals": [
+    "congress",
+    "track_record",
+    "patience"
+   ],
+   "good_until": "2026-10-02",
+   "usd": 3000.0
+  },
+  {
+   "id": "7b26b747",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 477.4293,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $476.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e8af9dd1",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 461.8364,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $476.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "bee5d774",
+   "ticker": "LTH",
+   "kind": "take_profit",
+   "price": 41.1716,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $41.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dbd67af4",
+   "ticker": "LTH",
+   "kind": "buy_limit",
+   "price": 39.7797,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $41.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "012d9068",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 349.1748,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $348.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d980254c",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 337.6764,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $348.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "232923a4",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 144.1876,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $143.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6e781679",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 139.6218,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $143.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "557b5071",
+   "ticker": "CRWD",
+   "kind": "take_profit",
+   "price": 271.4943,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $270.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d6062a71",
+   "ticker": "CRWD",
+   "kind": "buy_limit",
+   "price": 262.1619,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $270.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "184d0d0d",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 466.1325,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $465.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ee018856",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 451.147,
+   "status": "working",
+   "created": "2026-10-02 09:32",
+   "created_ts": 1790947953,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $465.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-01 15:30"
+ "updated": "2026-10-02 09:32"
 }

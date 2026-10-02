@@ -21371,3 +21371,44 @@ portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-01 16:00 ET — published the session's closing state
+
+## 2026-10-02 09:32 ET (Friday) — week 2026-W40 — budget left $24881.41 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Flat book at 99.5% idle cash with 8 min_positions target and a 14:00 entry cutoff looming - counterfactual data shows idle checks cost ~0.09%/day and picking beats random. Deploying across 8 names backed by concrete congress disclosures (April McClain Delaney score 3.0 on CHRW/HUBB/LTH), dual insider+congress convergence (AVGO, PG), and strong multi-timeframe momentum (CRWD, NVDA, TSM) gives sector diversification (industrials, consumer staples, semis, software) while respecting the 09:00 SURVIVOR hour and avoiding CULLED news-only signal mix. Each position sized ~$2500-3000 with ATR-based stops attached immediately per risk_management best-performing signal bucket (0.18% avg, 87% hit rate).
+lesson: At 09:32 (SURVIVOR hour) with flat book, deploying $2500-3000 across 8 congress/insider/momentum-backed names immediately beats waiting - idle_checks are 52% of history and cost ~0.09%/day per counterfactual data.
+  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped CHRW: 100% up today's range — resting a limit at $155.41 instead of chasing)
+- BUY $3000.00 HUBB [filled] ['congress', 'track_record'] — Top congress score name, diversify into industrials | evidence: Rep. April McClain Delaney disclosed buys in HUBB (score 3.0); HUBB +1.92% today, +5.74% 1m
+- BUY $2500.00 LTH [filled] ['congress', 'momentum'] — Congress top score plus prior miss lesson to not skip this name | evidence: April McClain Delaney disclosed buy in LTH (score 3.0); counterfactual biggest_misses shows LTH +7.69% fwd after similar setup
+- BUY $3000.00 AVGO [filled] ['congress', 'insider'] — Multiple insider/congress buyers converging on same name | evidence: Rick W. Allen and David J. Taylor both disclosed AVGO buys; AVGO +1.28% today
+- BUY $2500.00 PG [filled] ['congress', 'insider'] — Dual-source buy pressure, defensive consumer staple diversifier | evidence: David J. Taylor (insider) and Rep. Lloyd Doggett both bought PG per disclosures
+- BUY $3000.00 CRWD [filled] ['momentum', 'track_record'] — Strong multi-timeframe momentum with decent track record bucket return | evidence: CRWD +1.55% today, +7.17% 5d, +32.84% 1m; momentum signal ranked above autopilot/congress in by_signal realized returns
+- BUY $2500.00 TSM [filled] ['momentum', 'track_record'] — Consistent uptrend across horizons, semis exposure diversification | evidence: TSM +1.26% today, +11.91% 1m, +3.19% 5d
+  (dropped trigger CHRW stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+~ WORKING stop_loss 100% HUBB @ $466.40 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% LTH @ $40.20 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% AVGO @ $341.10 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% PG @ $141.00 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% CRWD @ $264.80 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% TSM @ $455.70 until 2026-10-02 — protective stop
+~ WORKING buy_limit $3000.00 CHRW @ $155.41 until 2026-10-02 — wanted it, but not at the high — resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry
+~ WORKING take_profit 100% HUBB @ $477.43 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $461.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LTH @ $41.17 until 2026-10-07 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 LTH @ $39.78 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $349.17 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $337.68 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $144.19 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PG @ $139.62 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $271.49 until 2026-10-07 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $262.16 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $466.13 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $451.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25208.58 (+0.83% on $25000.00 in) · cash $8712.98 · realised +212.98
+Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week

@@ -1,44 +1,3 @@
-~ WORKING take_profit 100% PLD @ $128.14 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% PLD @ $127.28 until 2026-10-06 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 PLD @ $124.05 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% UNH @ $364.97 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% UNH @ $362.14 until 2026-10-06 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 UNH @ $353.24 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25202.62 (+0.81% on $25000.00 in) · cash $20335.12 · realised +210.12
-Done: 0 sell(s), 4 buy(s); 33 order(s) working; budget left $20003.54 this week
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [stop_loss @ $481.74] -> $499.40 (-0.12%) — close it all at -0.7% under the average cost
-## 2026-10-01 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AMZN: position closed)
-- SELL 100% AMZN [stop_loss @ $246.19] -> $499.29 (-0.14%) — close it all at -0.6% under the average cost
-## 2026-10-01 11:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PLD: position closed)
-- SELL 100% PLD [stop_loss @ $127.88] -> $499.96 (-0.01%) — close it all at -0.5% under the average cost
-## 2026-10-01 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% NEM [time stop] -> $498.12 (-0.38%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% O [time stop] -> $499.51 (-0.10%) — held 30 min, the 30-minute limit: out regardless
-- SELL 100% MSFT [time stop] -> $498.32 (-0.34%) — held 30 min, the 30-minute limit: out regardless
-## 2026-10-01 11:16 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 11:17 ET (Thursday) — week 2026-W40 — budget left $22998.14 (today $48625.00 put to work, 37 buys, 33 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-brain: Below min_positions (4 of 8) with 92% cash idle - the owner's guardrails are explicit this is a decision being made, not caution. Adding IBM (earnings halo, news-backed), TSM (semis pullback to day low with resting limit confirming conviction), CCJ (nuclear, at day low, South Korea $200B headline), and HLI (financials diversification, 56% of range) brings diversified sector exposure beyond the existing tech-heavy GOOGL/META/UNH/LEN book, each sized at $2000 per the owner's stated normal range. Protective stops placed on all new entries per auto_bracket convention since risk_management/auto_bracket is the best-performing signal bucket (0.18% avg, 87-88% hit rate).
-lesson: Diversify into named-evidence sectors beyond the existing book (industrials/semis/nuclear/financials) at $2000 sizing to actually reduce cash_idle_pct rather than repeating the same widely_held cluster already crowding the portfolio.
-  (dropped IBM: sold 31 min ago, cooling off)
-  (dropped HLI: sold 26 min ago, cooling off)
-- BUY $500.00 TSM [filled] ['news'] — semis exposure distinct from GOOGL/META, add market entry alongside existing limit since price pulled back -0.24% today and is low in range at 37.5pct [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: TSMC weighs Texas investment expansion per Reuters/Investing.com 10/1; working buy_limit at 453 already resting
-- BUY $500.00 CCJ [filled] ['news', 'momentum'] — nuclear sector diversification, price basing at day low, existing buy_limit at 84.5 nearly touched [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CCJ at day low (1.5% of range), 'South Korea Set to Invest $200 Billion' nuclear beneficiary headline, Zacks 'Wall Street Bulls Look Optimistic'
-  (dropped trigger IBM stop_loss: not held)
-  (dropped trigger HLI stop_loss: not held)
-~ WORKING stop_loss 100% TSM @ $446.50 until 2026-10-01 — bound downside on new TSM entry
-~ WORKING stop_loss 100% CCJ @ $82.00 until 2026-10-01 — bound downside on new CCJ entry
-~ WORKING take_profit 100% TSM @ $456.28 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $441.53 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% CCJ @ $85.08 until 2026-10-06 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 CCJ @ $82.19 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25202.80 (+0.81% on $25000.00 in) · cash $22329.72 · realised +204.72
@@ -398,3 +357,44 @@ portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-01 16:00 ET — published the session's closing state
+
+## 2026-10-02 09:32 ET (Friday) — week 2026-W40 — budget left $24881.41 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Flat book at 99.5% idle cash with 8 min_positions target and a 14:00 entry cutoff looming - counterfactual data shows idle checks cost ~0.09%/day and picking beats random. Deploying across 8 names backed by concrete congress disclosures (April McClain Delaney score 3.0 on CHRW/HUBB/LTH), dual insider+congress convergence (AVGO, PG), and strong multi-timeframe momentum (CRWD, NVDA, TSM) gives sector diversification (industrials, consumer staples, semis, software) while respecting the 09:00 SURVIVOR hour and avoiding CULLED news-only signal mix. Each position sized ~$2500-3000 with ATR-based stops attached immediately per risk_management best-performing signal bucket (0.18% avg, 87% hit rate).
+lesson: At 09:32 (SURVIVOR hour) with flat book, deploying $2500-3000 across 8 congress/insider/momentum-backed names immediately beats waiting - idle_checks are 52% of history and cost ~0.09%/day per counterfactual data.
+  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped CHRW: 100% up today's range — resting a limit at $155.41 instead of chasing)
+- BUY $3000.00 HUBB [filled] ['congress', 'track_record'] — Top congress score name, diversify into industrials | evidence: Rep. April McClain Delaney disclosed buys in HUBB (score 3.0); HUBB +1.92% today, +5.74% 1m
+- BUY $2500.00 LTH [filled] ['congress', 'momentum'] — Congress top score plus prior miss lesson to not skip this name | evidence: April McClain Delaney disclosed buy in LTH (score 3.0); counterfactual biggest_misses shows LTH +7.69% fwd after similar setup
+- BUY $3000.00 AVGO [filled] ['congress', 'insider'] — Multiple insider/congress buyers converging on same name | evidence: Rick W. Allen and David J. Taylor both disclosed AVGO buys; AVGO +1.28% today
+- BUY $2500.00 PG [filled] ['congress', 'insider'] — Dual-source buy pressure, defensive consumer staple diversifier | evidence: David J. Taylor (insider) and Rep. Lloyd Doggett both bought PG per disclosures
+- BUY $3000.00 CRWD [filled] ['momentum', 'track_record'] — Strong multi-timeframe momentum with decent track record bucket return | evidence: CRWD +1.55% today, +7.17% 5d, +32.84% 1m; momentum signal ranked above autopilot/congress in by_signal realized returns
+- BUY $2500.00 TSM [filled] ['momentum', 'track_record'] — Consistent uptrend across horizons, semis exposure diversification | evidence: TSM +1.26% today, +11.91% 1m, +3.19% 5d
+  (dropped trigger CHRW stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+~ WORKING stop_loss 100% HUBB @ $466.40 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% LTH @ $40.20 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% AVGO @ $341.10 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% PG @ $141.00 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% CRWD @ $264.80 until 2026-10-02 — protective stop
+~ WORKING stop_loss 100% TSM @ $455.70 until 2026-10-02 — protective stop
+~ WORKING buy_limit $3000.00 CHRW @ $155.41 until 2026-10-02 — wanted it, but not at the high — resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry
+~ WORKING take_profit 100% HUBB @ $477.43 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $461.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LTH @ $41.17 until 2026-10-07 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 LTH @ $39.78 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $349.17 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $337.68 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $144.19 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PG @ $139.62 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRWD @ $271.49 until 2026-10-07 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 CRWD @ $262.16 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $466.13 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $451.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25208.58 (+0.83% on $25000.00 in) · cash $8712.98 · realised +212.98
+Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
