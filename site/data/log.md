@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% CCJ @ $85.08 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $82.19 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25202.80 (+0.81% on $25000.00 in) · cash $22329.72 · realised +204.72
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $21998.14 this week
 - BUY $375.00 CCJ [buy_limit @ $84.50] — Resting limit to get nuclear exposure at a better price than chasing [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-01 11:18 ET — tick — 0 sell(s), 1 buy(s) from standing orders
@@ -398,3 +395,6 @@ lesson: At 09:32 (SURVIVOR hour) with flat book, deploying $2500-3000 across 8 c
 ~ WORKING buy_limit $500.00 TSM @ $451.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25208.58 (+0.83% on $25000.00 in) · cash $8712.98 · realised +212.98
 Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $273.43] -> $3035.03 (+1.17%) — close 100% at +0.5% over the average cost
+## 2026-10-02 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -21412,3 +21412,6 @@ lesson: At 09:32 (SURVIVOR hour) with flat book, deploying $2500-3000 across 8 c
 ~ WORKING buy_limit $500.00 TSM @ $451.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25208.58 (+0.83% on $25000.00 in) · cash $8712.98 · realised +212.98
 Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
+  (cancelled 2 standing order(s) on CRWD: position closed)
+- SELL 100% CRWD [take_profit @ $273.43] -> $3035.03 (+1.17%) — close 100% at +0.5% over the average cost
+## 2026-10-02 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

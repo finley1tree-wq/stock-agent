@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 16618.59,
+  "spent": 13583.56,
   "deployed": 321275.18,
   "by_ticker": {
     "AVGO": 3037.31,
@@ -15,7 +15,6 @@
     "AMZN": 4.75,
     "NVDA": 20.57,
     "CCJ": 22.05,
-    "CRWD": 3016.17,
     "HLI": 28.74,
     "FWONK": 16.31,
     "HUBB": 3059.77,
@@ -7211,14 +7210,37 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "CRWD",
+      "side": "sell",
+      "qty": 11.099845,
+      "status": "filled",
+      "price": 273.43,
+      "proceeds": 3035.03,
+      "realized_pnl": 35.03,
+      "realized_pct": 1.17,
+      "date": "2026-10-02",
+      "time_et": "09:35",
+      "ts": 1790948100,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $270.27",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 16500.0,
+  "spent_today": 13464.97,
   "deployed_today": 16500.0,
   "orders_today": 6,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 1,
+  "sold_today": [
+    "CRWD"
+  ],
   "sold_ts": {
     "PLTR": 1790864436,
     "TSM": 1790872276,
@@ -7228,7 +7250,7 @@
     "MSFT": 1790867766,
     "NOC": 1790873822,
     "UNH": 1790872276,
-    "CRWD": 1790875391,
+    "CRWD": 1790948109,
     "NVDA": 1790862664,
     "GOOGL": 1790871358,
     "AVGO": 1790862749,
@@ -7256,32 +7278,29 @@
     "O": 1790867766,
     "XENE": 1790876714
   },
-  "last_publish_ts": 1790947953,
-  "last_check_ts": 1790947953,
-  "last_bar_ts": 1790947800,
+  "last_publish_ts": 1790948108,
+  "last_check_ts": 1790948108,
+  "last_bar_ts": 1790948100,
   "last_decision_ts": 1790947953,
   "next_check_minutes": 6,
   "autopiloted": false,
   "book_px": {
-    "232923a4": 144.1876,
-    "184d0d0d": 466.1325,
-    "7b26b747": 477.4293,
     "012d9068": 349.1748,
+    "232923a4": 144.1876,
+    "7b26b747": 477.4293,
+    "184d0d0d": 466.1325,
     "452d4bed": 155.4147,
-    "bee5d774": 41.1716,
-    "557b5071": 271.4943,
     "40d9c879": 40.2,
-    "4409d2df": 466.4,
-    "79bb2972": 341.1,
+    "bee5d774": 41.1716,
     "aea3727f": 455.7,
-    "41eb7af2": 264.8,
     "304ae1e6": 141.0,
+    "4409d2df": 466.4,
     "dbd67af4": 39.7797,
-    "e8af9dd1": 461.8364,
-    "d980254c": 337.6764,
+    "79bb2972": 341.1,
+    "ee018856": 451.147,
     "6e781679": 139.6218,
-    "d6062a71": 262.1619,
-    "ee018856": 451.147
+    "e8af9dd1": 461.8364,
+    "d980254c": 337.6764
   },
   "hold_arm": {
     "RTX": 90,
