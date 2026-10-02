@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "17cd58e9",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 348.0,
-   "status": "cancelled",
-   "created": "2026-09-30 09:32",
-   "created_ts": 1790775163,
-   "why": "Protective stop below entry",
-   "evidence": "AVGO ATR 2.68%, entry near 357",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "31fe5adf",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 173.0,
-   "status": "cancelled",
-   "created": "2026-09-30 09:32",
-   "created_ts": 1790775163,
-   "why": "Protective stop below entry",
-   "evidence": "ACN ATR 3.85%, entry near 178.95",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2e62da9a",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 11.5,
-   "status": "cancelled",
-   "created": "2026-09-30 09:32",
-   "created_ts": 1790775163,
-   "why": "Protective stop below entry given high volatility name",
-   "evidence": "TTD ATR 4.47%, entry near 12.03",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 09:38",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "6d3ae809",
    "ticker": "NOC",
    "kind": "take_profit",
@@ -7196,7 +7142,7 @@
    "ticker": "GOOGL",
    "kind": "take_profit",
    "price": 344.1021,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 09:55",
    "created_ts": 1790949328,
    "why": "close 100% at +0.3% over the average cost",
@@ -7206,7 +7152,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:01"
   },
   {
    "id": "35bb425d",
@@ -7232,7 +7179,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 332.7973,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:55",
    "created_ts": 1790949328,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7242,14 +7189,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 10:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dc71d513",
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 343.516,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:58",
    "created_ts": 1790949490,
    "why": "close it all at -0.7% under the average cost",
@@ -7259,7 +7208,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1bf8338c",
@@ -7314,7 +7265,7 @@
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.801,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 09:59",
    "created_ts": 1790949579,
    "why": "wanted it, but not at the high \u2014 resting at $365.80. skip - UNH too high in range, replaced by NEM below [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -7324,7 +7275,8 @@
     "patience"
    ],
    "good_until": "2026-10-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 10:01"
   },
   {
    "id": "ae68b8c7",
@@ -7427,7 +7379,58 @@
    ],
    "good_until": "2026-10-07",
    "usd": 500.0
+  },
+  {
+   "id": "c03da26c",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 366.5682,
+   "status": "working",
+   "created": "2026-10-02 10:01",
+   "created_ts": 1790949688,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $365.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "88bcea81",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 366.322,
+   "status": "working",
+   "created": "2026-10-02 10:01",
+   "created_ts": 1790949688,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $365.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "94f3b18f",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 354.826,
+   "status": "working",
+   "created": "2026-10-02 10:01",
+   "created_ts": 1790949688,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $365.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-02 09:59"
+ "updated": "2026-10-02 10:01"
 }

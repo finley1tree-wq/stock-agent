@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 9062.75,
-  "deployed": 351875.18,
+  "spent": 7055.38,
+  "deployed": 352375.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
@@ -10,7 +10,6 @@
     "RTX": 7.19,
     "AMD": 38.67,
     "LMT": 29.37,
-    "GOOGL": 2502.91,
     "NEM": 2.9,
     "AMZN": 4.75,
     "NVDA": 20.57,
@@ -24,7 +23,8 @@
     "NLR": 4.98,
     "O": 0.49,
     "PLD": 0.04,
-    "GLD": 500.0
+    "GLD": 500.0,
+    "UNH": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -36,7 +36,7 @@
     "AMD": 7550.0,
     "MSFT": 13408.82,
     "NOC": 20197.06,
-    "UNH": 11147.06,
+    "UNH": 11647.06,
     "CRWD": 14675.0,
     "NVDA": 15000.0,
     "GOOGL": 17247.06,
@@ -7775,13 +7775,57 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 7.286707,
+      "status": "filled",
+      "price": 344.1,
+      "proceeds": 2507.37,
+      "realized_pnl": 7.37,
+      "realized_pct": 0.29,
+      "date": "2026-10-02",
+      "time_et": "10:01",
+      "ts": 1790949600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $343.09",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.366863,
+      "price": 365.8,
+      "date": "2026-10-02",
+      "time_et": "10:01",
+      "ts": 1790949600,
+      "why": "wanted it, but not at the high \u2014 resting at $365.80. skip - UNH too high in range, replaced by NEM below [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep Kevin Hern disclosed UNH sell $15k-50k on 2026-09-10 (contrarian signal noted but UNH +0.44% today, 96.3% of range already - actually high in range)",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 8944.16,
-  "deployed_today": 47100.0,
-  "orders_today": 20,
-  "sells_today": 13,
+  "spent_today": 6936.79,
+  "deployed_today": 47600.0,
+  "orders_today": 21,
+  "sells_today": 14,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -7795,7 +7839,8 @@
     "NOC",
     "HLI",
     "ACN",
-    "TTD"
+    "TTD",
+    "GOOGL"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -7808,7 +7853,7 @@
     "UNH": 1790872276,
     "CRWD": 1790948109,
     "NVDA": 1790862664,
-    "GOOGL": 1790871358,
+    "GOOGL": 1790949689,
     "AVGO": 1790948193,
     "TTD": 1790948836,
     "HD": 1790865277,
@@ -7835,32 +7880,31 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790949579,
-  "last_check_ts": 1790949579,
-  "last_bar_ts": 1790949300,
+  "last_publish_ts": 1790949688,
+  "last_check_ts": 1790949688,
+  "last_bar_ts": 1790949600,
   "last_decision_ts": 1790949579,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "6e875086": 344.1021,
-    "dc71d513": 343.516,
-    "7669a572": 384.9532,
-    "91d88588": 365.801,
+    "c03da26c": 366.5682,
     "de55168d": 518.1227,
+    "88bcea81": 366.322,
     "ae68b8c7": 193.0234,
+    "7669a572": 384.9532,
     "7e3a3af6": 92.2202,
     "46e34796": 86.7309,
-    "f680ce74": 378.0,
     "c9e6ec4a": 84.3,
+    "f680ce74": 378.0,
     "8bf7d742": 90.0,
+    "7bc0e25e": 83.808,
     "1bf8338c": 188.0,
     "9acd0991": 505.0,
-    "7bc0e25e": 83.808,
     "b50b6e17": 89.2109,
+    "4cd73983": 372.7225,
     "2d282821": 186.628,
     "d3b12850": 501.3057,
-    "4cd73983": 372.7225,
-    "db8510b2": 332.7973
+    "94f3b18f": 354.826
   },
   "hold_arm": {
     "RTX": 90,
@@ -7882,15 +7926,6 @@
       }
     },
     "CCJ": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "GOOGL": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -7924,6 +7959,15 @@
       },
       "tags": {
         "ratchet": "off"
+      }
+    },
+    "UNH": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
       }
     }
   }

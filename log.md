@@ -21555,3 +21555,7 @@ lesson: At 09:xx SURVIVOR hour with 70%+ idle cash and only 3/8 positions, add d
 ~ WORKING buy_limit $500.00 GLD @ $372.72 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25354.14 (+1.42% on $25000.00 in) · cash $16268.84 · realised +368.84
 Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week
+  (cancelled 2 standing order(s) on GOOGL: position closed)
+- SELL 100% GOOGL [take_profit @ $344.10] -> $2507.37 (+0.29%) — close 100% at +0.3% over the average cost
+- BUY $500.00 UNH [buy_limit @ $365.80] — wanted it, but not at the high — resting at $365.80. skip - UNH too high in range, replaced by NEM below [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-02 10:01 ET — tick — 1 sell(s), 1 buy(s) from standing orders
