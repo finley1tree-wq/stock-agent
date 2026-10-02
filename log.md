@@ -21703,3 +21703,16 @@ Decision: nothing at this check. 31 standing order(s) working.
 ## 2026-10-02 11:23 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% GLD [time stop] -> $493.93 (-1.21%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 11:33 ET (Friday) — week 2026-W40 — budget left $19769.65 (today $54100.00 put to work, 33 buys, 22 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Already at min_positions (8/8) with protective stops, take-profits and scale-in buy_limits already working on every position (NEM, HD, AMZN, PLD, GOOGL, VNQ, AAPL, O). Today's repeated forced entries every 10-15 min have realized negative avg_pct each time (-0.24% to -1.09% per the lessons log), so chasing an extra name just to deploy more cash is the pattern explicitly flagged as a mistake. No new evidence (headline/filing) justifies a 9th name right now, and 10:00-14:00 hours are PROBATION/CULLED for new entries anyway. Best move is to hold the full book, let the existing brackets/ratchets do their job, and check back soon in case a stop or take-profit fires and frees capital for a genuinely better idea.
+lesson: Once min_positions is reached and every position has working stop/take-profit/scale-in orders, stop forcing new entries just to spend idle cash - today's string of forced buys every check all graded negative; let the standing orders work and wait for a real catalyst.
+portfolio: equity $25313.31 (+1.25% on $25000.00 in) · cash $20101.24 · realised +351.24
+Decision: nothing at this check. 30 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
