@@ -21682,3 +21682,5 @@ lesson: Diversifying into real-estate (O, VNQ) and widely-held (GOOGL) at $2000 
 ~ WORKING buy_limit $500.00 VNQ @ $87.38 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25342.55 (+1.37% on $25000.00 in) · cash $18217.73 · realised +392.73
 Done: 0 sell(s), 2 buy(s); 33 order(s) working; budget left $17886.14 this week
+- BUY $575.00 AAPL [buy_limit @ $332.45] — wanted it, but not at the high — resting at $332.45. Widely held core name; place as buy_limit near chase_limit level since it's high in range [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-02 11:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders

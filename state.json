@@ -1,11 +1,11 @@
 {
   "week": "2026-W40",
-  "spent": 7113.86,
-  "deployed": 357800.18,
+  "spent": 7688.86,
+  "deployed": 358375.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
-    "AAPL": 4.26,
+    "AAPL": 579.26,
     "PLTR": 14.41,
     "RTX": 5.87,
     "AMD": 38.67,
@@ -42,7 +42,7 @@
     "CRWD": 14675.0,
     "NVDA": 15000.0,
     "GOOGL": 17747.06,
-    "AAPL": 7000.0,
+    "AAPL": 7575.0,
     "AMZN": 5625.0,
     "HD": 6122.24,
     "IBM": 13902.94,
@@ -8159,12 +8159,36 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 575.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.729599,
+      "price": 332.45,
+      "date": "2026-10-02",
+      "time_et": "11:04",
+      "ts": 1790953200,
+      "why": "wanted it, but not at the high \u2014 resting at $332.45. Widely held core name; place as buy_limit near chase_limit level since it's high in range [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "AAPL +1.06% today but only 95.8% of day range - will be capped/limited by guardrails; widely_held hit_rate 0.56 in track record",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 6995.27,
-  "deployed_today": 53025.0,
-  "orders_today": 31,
+  "spent_today": 7570.27,
+  "deployed_today": 53600.0,
+  "orders_today": 32,
   "sells_today": 20,
   "sold_today": [
     "CRWD",
@@ -8226,46 +8250,48 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790953012,
-  "last_check_ts": 1790953366,
+  "last_publish_ts": 1790953447,
+  "last_check_ts": 1790953447,
   "last_bar_ts": 1790953200,
   "last_decision_ts": 1790953012,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "5404d18d": 90.2151,
-    "811e5765": 129.4865,
-    "39a8ed6d": 332.447,
-    "ccf7f7ab": 345.9375,
     "24f3dcb5": 53.935,
     "15cdfb8a": 53.8965,
-    "9d40d2e0": 253.2964,
+    "6a948f2b": 333.1714,
+    "811e5765": 129.4865,
+    "5404d18d": 90.2151,
     "8c90cb0b": 330.9,
+    "8c4f6136": 330.6448,
     "f680ce74": 378.0,
-    "7669a572": 384.9532,
+    "ccf7f7ab": 345.9375,
+    "9d40d2e0": 253.2964,
     "8bf7d742": 90.0,
-    "7c46f8fc": 286.2352,
-    "5e16e2ad": 116.3647,
-    "34871ba3": 349.5,
-    "7e3a3af6": 92.2202,
     "52bf4897": 279.0,
-    "0f01fab4": 131.2,
+    "7669a572": 384.9532,
     "6b1fc06c": 89.5,
-    "28e82bca": 91.5,
+    "5e16e2ad": 116.3647,
+    "7c46f8fc": 286.2352,
     "abb60af8": 247.5,
     "4cf9bac4": 126.9,
-    "b50b6e17": 89.2109,
-    "4844d4bb": 88.3,
+    "7e3a3af6": 92.2202,
     "8ce4841e": 338.0,
+    "b50b6e17": 89.2109,
+    "0f01fab4": 131.2,
+    "34871ba3": 349.5,
+    "4844d4bb": 88.3,
+    "28e82bca": 91.5,
     "985c7823": 112.5,
     "4848d50a": 112.4812,
+    "49629f0b": 276.5858,
     "4cd73983": 372.7225,
     "f53378d1": 257.5,
-    "49629f0b": 276.5858,
     "ded011e5": 245.119,
+    "bfeba999": 334.5724,
     "bbe3e75b": 87.3776,
     "31afc90d": 125.3725,
-    "bfeba999": 334.5724
+    "bbe1de8b": 322.4765
   },
   "hold_arm": {
     "RTX": 90,
@@ -8347,6 +8373,15 @@
       },
       "tags": {
         "ratchet": "off"
+      }
+    },
+    "AAPL": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
       }
     }
   }
