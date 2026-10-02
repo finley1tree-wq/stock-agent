@@ -21524,3 +21524,5 @@ lesson: AVGO was not in cooldown list (only similar-sounding names were) - doubl
 ~ WORKING buy_limit $500.00 CCJ @ $83.81 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25363.30 (+1.45% on $25000.00 in) · cash $20368.84 · realised +368.84
 Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $20037.25 this week
+- BUY $2500.00 GOOGL [buy_limit @ $343.09] — wanted it, but not at the high — resting at $343.09. Strong daily momentum in widely held mega-cap
+## 2026-10-02 09:55 ET — tick — 0 sell(s), 1 buy(s) from standing orders

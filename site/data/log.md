@@ -1,5 +1,3 @@
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain: Still well below min_positions (4 of 8) with 92% cash idle - counterfactual data shows idle checks cost the account (idle_universe_avg_pct -0.09%, picking beats random). Adding 4 names across defense (RTX), security/tech (CRWD), gold (NEM), and insurance (SKWD, congress-backed) diversifies sector exposure beyond the existing UNH/TSM/LMT/HLI cluster, sized at $2000-2500 each to meaningfully reduce cash_idle_pct, each with a protective stop per auto_bracket discipline which has the best realized hit rate (0.88) in track record.
 lesson: When below min_positions with 90%+ idle cash, deploy into 3-4 named-evidence, sector-diverse tickers at $2000+ each rather than trickling in small amounts - idle checks are 52% of history and cost the account per counterfactual data.
@@ -398,3 +396,5 @@ lesson: AVGO was not in cooldown list (only similar-sounding names were) - doubl
 ~ WORKING buy_limit $500.00 CCJ @ $83.81 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25363.30 (+1.45% on $25000.00 in) · cash $20368.84 · realised +368.84
 Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $20037.25 this week
+- BUY $2500.00 GOOGL [buy_limit @ $343.09] — wanted it, but not at the high — resting at $343.09. Strong daily momentum in widely held mega-cap
+## 2026-10-02 09:55 ET — tick — 0 sell(s), 1 buy(s) from standing orders
