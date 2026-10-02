@@ -1,8 +1,3 @@
-Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $21998.14 this week
-- BUY $375.00 CCJ [buy_limit @ $84.50] — Resting limit to get nuclear exposure at a better price than chasing [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-01 11:18 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on META: position closed)
-- SELL 100% META [take_profit @ $729.54] -> $503.36 (+0.67%) — close 100% at +0.4% over the average cost
 ## 2026-10-01 11:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-01 11:32 ET (Thursday) — week 2026-W40 — budget left $22126.50 (today $50000.00 put to work, 40 buys, 34 sells) — SIM (pretend money) via sim
@@ -398,3 +393,8 @@ Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $273.43] -> $3035.03 (+1.17%) — close 100% at +0.5% over the average cost
 ## 2026-10-02 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $349.17] -> $3009.09 (+0.30%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $144.19] -> $2504.32 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-10-02 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders

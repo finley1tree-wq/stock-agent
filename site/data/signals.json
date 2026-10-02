@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-02T09:35-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-02T09:36-04:00",
+ "note": "tick: 2 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,37 +178,38 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "012d9068",
-   "ticker": "AVGO",
+   "id": "bee5d774",
+   "ticker": "LTH",
    "kind": "take_profit",
-   "price": 349.1748,
+   "price": 41.1716,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.92,
-   "pct_away": 0.07,
+   "last": 41.13,
+   "pct_away": 0.1,
    "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "232923a4",
-   "ticker": "PG",
-   "kind": "take_profit",
-   "price": 144.1876,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "452d4bed",
+   "ticker": "CHRW",
+   "kind": "buy_limit",
+   "price": 155.4147,
+   "usd": 3000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 144.02,
-   "pct_away": 0.12,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.2% over the average cost",
+   "last": 155.63,
+   "pct_away": -0.14,
+   "good_until": "2026-10-02",
+   "why": "wanted it, but not at the high \u2014 resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress",
+    "track_record",
+    "patience"
    ]
   },
   {
@@ -236,61 +237,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 465.14,
-   "pct_away": 0.21,
+   "last": 464.71,
+   "pct_away": 0.31,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "452d4bed",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 155.4147,
-   "usd": 3000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 156.22,
-   "pct_away": -0.52,
-   "good_until": "2026-10-02",
-   "why": "wanted it, but not at the high \u2014 resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry",
-   "signals": [
-    "congress",
-    "track_record",
-    "patience"
-   ]
-  },
-  {
-   "id": "40d9c879",
-   "ticker": "LTH",
-   "kind": "stop_loss",
-   "price": 40.2,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 40.67,
-   "pct_away": -1.16,
-   "good_until": "2026-10-02",
-   "why": "protective stop",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "bee5d774",
-   "ticker": "LTH",
-   "kind": "take_profit",
-   "price": 41.1716,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 40.67,
-   "pct_away": 1.23,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,24 +254,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 465.14,
-   "pct_away": -2.03,
-   "good_until": "2026-10-02",
-   "why": "protective stop",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "304ae1e6",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 141.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 144.02,
-   "pct_away": -2.1,
+   "last": 464.71,
+   "pct_away": -1.94,
    "good_until": "2026-10-02",
    "why": "protective stop",
    "signals": [
@@ -345,32 +279,15 @@
    ]
   },
   {
-   "id": "dbd67af4",
+   "id": "40d9c879",
    "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 39.7797,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 40.67,
-   "pct_away": -2.19,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "79bb2972",
-   "ticker": "AVGO",
    "kind": "stop_loss",
-   "price": 341.1,
+   "price": 40.2,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.92,
-   "pct_away": -2.24,
+   "last": 41.13,
+   "pct_away": -2.26,
    "good_until": "2026-10-02",
    "why": "protective stop",
    "signals": [
@@ -385,25 +302,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 465.14,
-   "pct_away": -3.01,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6e781679",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 139.6218,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 144.02,
-   "pct_away": -3.05,
+   "last": 464.71,
+   "pct_away": -2.92,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -429,15 +329,15 @@
    ]
   },
   {
-   "id": "d980254c",
-   "ticker": "AVGO",
+   "id": "dbd67af4",
+   "ticker": "LTH",
    "kind": "buy_limit",
-   "price": 337.6764,
+   "price": 39.7797,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 348.92,
-   "pct_away": -3.22,
+   "last": 41.13,
+   "pct_away": -3.28,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

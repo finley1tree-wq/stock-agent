@@ -21415,3 +21415,8 @@ Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $273.43] -> $3035.03 (+1.17%) — close 100% at +0.5% over the average cost
 ## 2026-10-02 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $349.17] -> $3009.09 (+0.30%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $144.19] -> $2504.32 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-10-02 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
