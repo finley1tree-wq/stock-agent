@@ -52003,5 +52003,88 @@
     "trigger": "take_profit",
     "hour_et": 9,
     "code_version": "e7fa3c4"
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 19.303193,
+    "price": 155.41,
+    "date": "2026-10-02",
+    "time_et": "09:41",
+    "ts": 1790948400,
+    "why": "wanted it, but not at the high \u2014 resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry",
+    "signals": [
+      "congress",
+      "patience",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "Rep. April McClain Delaney disclosed buys in CHRW (congress_net_buy_pressure score 3.0, top-ranked); CHRW +1.88% today, +6.07% 5d, at day high (pct_of_day_range 100)",
+    "trigger": "buy_limit",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 155.4147,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 6.99,
+    "hour_et": 9,
+    "code_version": "86aafba",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CHRW",
+    "side": "sell",
+    "qty": 38.554657,
+    "status": "filled",
+    "price": 156.27,
+    "proceeds": 6024.79,
+    "realized_pnl": 24.79,
+    "realized_pct": 0.41,
+    "date": "2026-10-02",
+    "time_et": "09:42",
+    "ts": 1790948400,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "patience",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $155.83",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "86aafba"
+  },
+  {
+    "symbol": "NOC",
+    "side": "sell",
+    "qty": 5.302131,
+    "status": "filled",
+    "price": 472.8,
+    "proceeds": 2506.83,
+    "realized_pnl": 6.83,
+    "realized_pct": 0.27,
+    "date": "2026-10-02",
+    "time_et": "09:42",
+    "ts": 1790948400,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $471.51",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "86aafba"
   }
 ]

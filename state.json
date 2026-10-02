@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 16530.78,
-  "deployed": 342275.18,
+  "spent": 10999.16,
+  "deployed": 345275.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 2535.61,
@@ -18,12 +18,11 @@
     "HLI": 3028.74,
     "FWONK": 2516.31,
     "HUBB": 51.52,
-    "CHRW": 3034.96,
+    "CHRW": 10.17,
     "MSFT": 20.74,
     "TPL": 3.17,
     "NLR": 4.98,
     "O": 0.49,
-    "NOC": 2500.65,
     "PLD": 0.04,
     "ACN": 3009.27
   },
@@ -54,7 +53,7 @@
     "FWONK": 4625.0,
     "NLR": 3025.0,
     "HUBB": 14625.0,
-    "CHRW": 15700.0,
+    "CHRW": 18700.0,
     "TPL": 4100.0,
     "LTH": 10625.0,
     "SKWD": 2875.0,
@@ -7539,13 +7538,79 @@
       ],
       "evidence": "average cost $55.02",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CHRW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.303193,
+      "price": 155.41,
+      "date": "2026-10-02",
+      "time_et": "09:41",
+      "ts": 1790948400,
+      "why": "wanted it, but not at the high \u2014 resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry",
+      "signals": [
+        "congress",
+        "track_record",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep. April McClain Delaney disclosed buys in CHRW (congress_net_buy_pressure score 3.0, top-ranked); CHRW +1.88% today, +6.07% 5d, at day high (pct_of_day_range 100)",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CHRW",
+      "side": "sell",
+      "qty": 38.554657,
+      "status": "filled",
+      "price": 156.27,
+      "proceeds": 6024.79,
+      "realized_pnl": 24.79,
+      "realized_pct": 0.41,
+      "date": "2026-10-02",
+      "time_et": "09:42",
+      "ts": 1790948400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $155.83",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 5.302131,
+      "status": "filled",
+      "price": 472.8,
+      "proceeds": 2506.83,
+      "realized_pnl": 6.83,
+      "realized_pct": 0.27,
+      "date": "2026-10-02",
+      "time_et": "09:42",
+      "ts": 1790948400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $471.51",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 16412.19,
-  "deployed_today": 37500.0,
-  "orders_today": 14,
-  "sells_today": 8,
+  "spent_today": 10880.57,
+  "deployed_today": 40500.0,
+  "orders_today": 15,
+  "sells_today": 10,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -7554,7 +7619,9 @@
     "TSM",
     "HUBB",
     "IBM",
-    "SKWD"
+    "SKWD",
+    "CHRW",
+    "NOC"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -7563,7 +7630,7 @@
     "AMD": 1790870209,
     "ACN": 1790878742,
     "MSFT": 1790867766,
-    "NOC": 1790873822,
+    "NOC": 1790948559,
     "UNH": 1790872276,
     "CRWD": 1790948109,
     "NVDA": 1790862664,
@@ -7583,7 +7650,7 @@
     "FWONK": 1790866810,
     "HUBB": 1790948426,
     "NLR": 1790870842,
-    "CHRW": 1790875015,
+    "CHRW": 1790948559,
     "TPL": 1790704804,
     "LTH": 1790948232,
     "SKWD": 1790948472,
@@ -7594,30 +7661,23 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790948472,
-  "last_check_ts": 1790948472,
+  "last_publish_ts": 1790948558,
+  "last_check_ts": 1790948558,
   "last_bar_ts": 1790948400,
   "last_decision_ts": 1790948360,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "452d4bed": 155.4147,
-    "81295eee": 156.2663,
-    "a442404f": 130.263,
-    "04a88e11": 472.7972,
-    "5c6b62c9": 12.096,
     "7e3a3af6": 92.2202,
-    "fe5e58ef": 203.5,
+    "a442404f": 130.263,
+    "5c6b62c9": 12.096,
     "f881f583": 208.7475,
-    "8bf7d742": 90.0,
+    "fe5e58ef": 203.5,
     "ef1da414": 127.2,
-    "c396b773": 152.65,
+    "8bf7d742": 90.0,
     "7d253bc2": 201.4496,
-    "87b26327": 460.0,
-    "b50b6e17": 89.2109,
-    "49547908": 457.3647,
     "3e882c08": 11.6788,
-    "4d8aa556": 151.1551,
+    "b50b6e17": 89.2109,
     "d43769c6": 125.9157,
     "a89623be": 11.55
   },
@@ -7631,15 +7691,6 @@
     "XENE": 90
   },
   "exp_arm": {
-    "HUBB": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "ACN": {
       "params": {
         "hold_minutes": 90,
@@ -7676,15 +7727,6 @@
         "ratchet": "on"
       }
     },
-    "SKWD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "TTD": {
       "params": {
         "hold_minutes": 90,
@@ -7695,15 +7737,6 @@
       }
     },
     "NOC": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "IBM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"

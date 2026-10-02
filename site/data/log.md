@@ -1,10 +1,3 @@
-## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% ACN [time stop] -> $549.58 (-0.08%) — held 30 min, the 30-minute limit: out regardless
-## 2026-10-01 12:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 12:04 ET (Thursday) — week 2026-W40 — budget left $22303.90 (today $52625.00 put to work, 45 buys, 39 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
   (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
@@ -398,3 +391,10 @@ Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
   (cancelled 2 standing order(s) on SKWD: position closed)
 - SELL 100% SKWD [take_profit @ $55.20] -> $2006.36 (+0.32%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $3000.00 CHRW [buy_limit @ $155.41] — wanted it, but not at the high — resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry
+## 2026-10-02 09:41 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CHRW: position closed)
+- SELL 100% CHRW [take_profit @ $156.27] -> $6024.79 (+0.41%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $472.80] -> $2506.83 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-02 09:42 ET — tick — 2 sell(s), 0 buy(s) from standing orders
