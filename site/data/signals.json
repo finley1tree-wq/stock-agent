@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-02T11:04-04:00",
+ "asOf": "2026-10-02T11:09-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -185,14 +185,48 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 54.01,
-   "pct_away": -0.14,
+   "last": 54.08,
+   "pct_away": -0.27,
    "good_until": "2026-10-02",
    "why": "wanted it, but not at the high \u2014 resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "momentum",
     "track_record",
     "patience"
+   ]
+  },
+  {
+   "id": "811e5765",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 129.4865,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 129.12,
+   "pct_away": 0.28,
+   "good_until": "2026-10-07",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8c90cb0b",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 330.9,
+   "usd": 2300.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 331.95,
+   "pct_away": -0.32,
+   "good_until": "2026-10-02",
+   "why": "Queue AAPL entry at a better level near today's low-mid range instead of chasing the high",
+   "signals": [
+    "momentum",
+    "track_record"
    ]
   },
   {
@@ -203,8 +237,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 54.01,
-   "pct_away": -0.21,
+   "last": 54.08,
+   "pct_away": -0.34,
    "good_until": "2026-10-02",
    "why": "wanted it, but not at the high \u2014 resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -221,8 +255,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.36,
-   "pct_away": 0.24,
+   "last": 331.95,
+   "pct_away": 0.37,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -231,17 +265,17 @@
    ]
   },
   {
-   "id": "811e5765",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 129.4865,
+   "id": "8c4f6136",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 330.6448,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.99,
-   "pct_away": 0.38,
+   "last": 331.95,
+   "pct_away": -0.39,
    "good_until": "2026-10-07",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -255,8 +289,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 89.84,
-   "pct_away": 0.42,
+   "last": 89.8,
+   "pct_away": 0.46,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.1% over the average cost",
    "signals": [
@@ -265,34 +299,17 @@
    ]
   },
   {
-   "id": "8c90cb0b",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 330.9,
-   "usd": 2300.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 332.36,
-   "pct_away": -0.44,
-   "good_until": "2026-10-02",
-   "why": "Queue AAPL entry at a better level near today's low-mid range instead of chasing the high",
-   "signals": [
-    "momentum",
-    "track_record"
-   ]
-  },
-  {
-   "id": "8c4f6136",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 330.6448,
+   "id": "ccf7f7ab",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 345.9375,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.36,
-   "pct_away": -0.52,
+   "last": 344.15,
+   "pct_away": 0.52,
    "good_until": "2026-10-07",
-   "why": "close it all at -0.5% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -306,29 +323,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 380.54,
-   "pct_away": -0.67,
+   "last": 380.18,
+   "pct_away": -0.57,
    "good_until": "2026-10-02",
    "why": "ATR-based stop to protect against reversal",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "ccf7f7ab",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 345.9375,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 343.64,
-   "pct_away": 0.67,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -339,29 +339,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.38,
-   "pct_away": 0.76,
+   "last": 250.96,
+   "pct_away": 0.93,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "8bf7d742",
-   "ticker": "FWONK",
-   "kind": "stop_loss",
-   "price": 90.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 90.73,
-   "pct_away": -0.8,
-   "good_until": "2026-10-02",
-   "why": "protect new FWONK position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -372,8 +356,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 282.24,
-   "pct_away": -1.15,
+   "last": 281.86,
+   "pct_away": -1.01,
    "good_until": "2026-10-02",
    "why": "ATR-based protective stop for new HD position",
    "signals": [
@@ -388,29 +372,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 380.54,
-   "pct_away": 1.16,
+   "last": 380.18,
+   "pct_away": 1.26,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "6b1fc06c",
-   "ticker": "FWONK",
-   "kind": "stop_loss",
-   "price": 89.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 90.73,
-   "pct_away": -1.36,
-   "good_until": "2026-10-02",
-   "why": "Tighten protective stop on weakest current position given negative 1-month momentum",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -421,25 +389,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 114.75,
-   "pct_away": 1.41,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7c46f8fc",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 286.2352,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 282.24,
-   "pct_away": 1.42,
+   "last": 114.81,
+   "pct_away": 1.35,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -455,8 +406,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.38,
-   "pct_away": -1.54,
+   "last": 250.96,
+   "pct_away": -1.38,
    "good_until": "2026-10-02",
    "why": "ATR-based protective stop for new AMZN position",
    "signals": [
@@ -464,85 +415,20 @@
    ]
   },
   {
-   "id": "4cf9bac4",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 126.9,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 128.99,
-   "pct_away": -1.62,
-   "good_until": "2026-10-02",
-   "why": "ATR-based protective stop for new PLD position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "7e3a3af6",
-   "ticker": "FWONK",
+   "id": "7c46f8fc",
+   "ticker": "HD",
    "kind": "take_profit",
-   "price": 92.2202,
+   "price": 286.2352,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 90.73,
-   "pct_away": 1.64,
+   "last": 281.86,
+   "pct_away": 1.55,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "8ce4841e",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 338.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 343.64,
-   "pct_away": -1.64,
-   "good_until": "2026-10-02",
-   "why": "Protect new GOOGL position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "b50b6e17",
-   "ticker": "FWONK",
-   "kind": "buy_limit",
-   "price": 89.2109,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 90.73,
-   "pct_away": -1.67,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0f01fab4",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 131.2,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 128.99,
-   "pct_away": 1.71,
-   "good_until": "2026-10-07",
-   "why": "lock in gain if PLD pops",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -553,10 +439,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 343.64,
-   "pct_away": 1.71,
+   "last": 344.15,
+   "pct_away": 1.55,
    "good_until": "2026-10-07",
    "why": "Lock in gain on GOOGL",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "0f01fab4",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 131.2,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 129.12,
+   "pct_away": 1.61,
+   "good_until": "2026-10-07",
+   "why": "lock in gain if PLD pops",
    "signals": [
     "risk_management"
    ]
@@ -569,12 +471,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 89.84,
-   "pct_away": -1.71,
+   "last": 89.8,
+   "pct_away": -1.67,
    "good_until": "2026-10-02",
    "why": "Protect new VNQ position",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "4cf9bac4",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 126.9,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 129.12,
+   "pct_away": -1.72,
+   "good_until": "2026-10-02",
+   "why": "ATR-based protective stop for new PLD position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "8ce4841e",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 338.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 344.15,
+   "pct_away": -1.79,
+   "good_until": "2026-10-02",
+   "why": "Protect new GOOGL position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "49629f0b",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 276.5858,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 281.86,
+   "pct_away": -1.87,
+   "good_until": "2026-10-07",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -585,12 +536,29 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 89.84,
-   "pct_away": 1.85,
+   "last": 89.8,
+   "pct_away": 1.89,
    "good_until": "2026-10-07",
    "why": "Lock in gain on VNQ",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "4cd73983",
+   "ticker": "GLD",
+   "kind": "buy_limit",
+   "price": 372.7225,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 380.18,
+   "pct_away": -1.96,
+   "good_until": "2026-10-07",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -601,8 +569,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 114.75,
-   "pct_away": -1.96,
+   "last": 114.81,
+   "pct_away": -2.01,
    "good_until": "2026-10-02",
    "why": "ATR-based protective stop for new NEM position",
    "signals": [
@@ -617,8 +585,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 114.75,
-   "pct_away": -1.98,
+   "last": 114.81,
+   "pct_away": -2.03,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -627,32 +595,15 @@
    ]
   },
   {
-   "id": "49629f0b",
-   "ticker": "HD",
+   "id": "ded011e5",
+   "ticker": "AMZN",
    "kind": "buy_limit",
-   "price": 276.5858,
+   "price": 245.119,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 282.24,
-   "pct_away": -2.0,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4cd73983",
-   "ticker": "GLD",
-   "kind": "buy_limit",
-   "price": 372.7225,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 380.54,
-   "pct_away": -2.05,
+   "last": 250.96,
+   "pct_away": -2.33,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -668,8 +619,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.38,
-   "pct_away": 2.43,
+   "last": 250.96,
+   "pct_away": 2.61,
    "good_until": "2026-10-07",
    "why": "lock in gain if AMZN pops",
    "signals": [
@@ -677,15 +628,15 @@
    ]
   },
   {
-   "id": "ded011e5",
-   "ticker": "AMZN",
+   "id": "bbe3e75b",
+   "ticker": "VNQ",
    "kind": "buy_limit",
-   "price": 245.119,
+   "price": 87.3776,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 251.38,
-   "pct_away": -2.49,
+   "last": 89.8,
+   "pct_away": -2.7,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -701,42 +652,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 343.64,
-   "pct_away": -2.64,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bbe3e75b",
-   "ticker": "VNQ",
-   "kind": "buy_limit",
-   "price": 87.3776,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 89.84,
-   "pct_away": -2.74,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "31afc90d",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 125.3725,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 128.99,
-   "pct_away": -2.8,
+   "last": 344.15,
+   "pct_away": -2.78,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -752,8 +669,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 332.36,
-   "pct_away": -2.97,
+   "last": 331.95,
+   "pct_away": -2.85,
+   "good_until": "2026-10-07",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "31afc90d",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 125.3725,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 129.12,
+   "pct_away": -2.9,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

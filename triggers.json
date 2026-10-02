@@ -5906,7 +5906,7 @@
    "ticker": "FWONK",
    "kind": "stop_loss",
    "price": 90.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "protect new FWONK position",
@@ -5915,7 +5915,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:09",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "eed8944d",
@@ -6105,7 +6107,7 @@
    "ticker": "FWONK",
    "kind": "take_profit",
    "price": 92.2202,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "close 100% at +0.3% over the average cost",
@@ -6115,14 +6117,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:09",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b50b6e17",
    "ticker": "FWONK",
    "kind": "buy_limit",
    "price": 89.2109,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6132,7 +6136,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 11:09",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8c27b38a",
@@ -7131,7 +7137,7 @@
    "ticker": "FWONK",
    "kind": "stop_loss",
    "price": 89.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:41",
    "created_ts": 1790952067,
    "why": "Tighten protective stop on weakest current position given negative 1-month momentum",
@@ -7140,7 +7146,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:09",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5e16e2ad",

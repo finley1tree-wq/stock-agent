@@ -1,5 +1,3 @@
-
-## 2026-10-01 13:53 ET (Thursday) — week 2026-W40 — budget left $24140.26 (today $58300.00 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +396,5 @@ portfolio: equity $25342.55 (+1.37% on $25000.00 in) · cash $18217.73 · realis
 Done: 0 sell(s), 2 buy(s); 33 order(s) working; budget left $17886.14 this week
 - BUY $575.00 AAPL [buy_limit @ $332.45] — wanted it, but not at the high — resting at $332.45. Widely held core name; place as buy_limit near chase_limit level since it's high in range [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-02 11:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% FWONK [time stop] -> $2464.58 (-1.42%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
