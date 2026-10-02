@@ -1,9 +1,3 @@
-## 2026-10-01 11:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 11:32 ET (Thursday) — week 2026-W40 — budget left $22126.50 (today $50000.00 put to work, 40 buys, 34 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
   (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
@@ -398,3 +392,9 @@ Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [take_profit @ $144.19] -> $2504.32 (+0.17%) — close 100% at +0.2% over the average cost
 ## 2026-10-02 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LTH: position closed)
+- SELL 100% LTH [take_profit @ $41.17] -> $2510.07 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-10-02 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $466.13] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-10-02 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
