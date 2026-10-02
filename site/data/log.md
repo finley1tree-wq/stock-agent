@@ -1,17 +1,3 @@
-~ WORKING buy_limit $500.00 HUBB @ $461.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LTH @ $41.17 until 2026-10-07 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 LTH @ $39.78 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $349.17 until 2026-10-07 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $337.68 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PG @ $144.19 until 2026-10-07 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 PG @ $139.62 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRWD @ $271.49 until 2026-10-07 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 CRWD @ $262.16 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $466.13 until 2026-10-07 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $451.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25208.58 (+0.83% on $25000.00 in) · cash $8712.98 · realised +212.98
-Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
-  (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $273.43] -> $3035.03 (+1.17%) — close 100% at +0.5% over the average cost
 ## 2026-10-02 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on AVGO: position closed)
@@ -398,3 +384,17 @@ portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realis
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 1 resting buy order(s): past the entry cutoff)
+
+## 2026-10-02 14:17 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) so no buys are allowed - they'd be dropped. Book is currently flat (0 positions) after the desk closed everything out, and there is nothing to sell or protect. Today's own logged lessons show every forced entry since 10:00 in PROBATION/CULLED hours graded negative (8/8), confirming that waiting rather than forcing a buy was correct, and now it's moot since entries are blocked anyway. With only 3 checks left and max_hold_minutes forcing closure soon anyway, sitting out this check is the only option available.
+lesson: When no_new_entries_this_check is true, don't propose buys regardless of idle cash - they will be dropped; past-check evidence also showed PROBATION-hour forced entries after 10:00 ET graded negative 8/8 times today.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
