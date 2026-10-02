@@ -51826,7 +51826,7 @@
     "code_version": "3fc9d9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -1.09
   },
   {
     "symbol": "SKWD",
@@ -52224,7 +52224,9 @@
     "code_version": "b2bddca",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -52353,7 +52355,7 @@
     "code_version": "cede422",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.76
   },
   {
     "symbol": "GOOGL",
@@ -52528,7 +52530,7 @@
     "code_version": "479afaf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.92
   },
   {
     "symbol": "HD",
@@ -52558,7 +52560,7 @@
     "code_version": "479afaf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -0.79
   },
   {
     "symbol": "LMT",
@@ -52647,7 +52649,7 @@
     "code_version": "f734241",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.39
   },
   {
     "symbol": "PLD",
@@ -52677,7 +52679,7 @@
     "code_version": "f734241",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": 0.02
   },
   {
     "symbol": "PLTR",
@@ -52759,7 +52761,8 @@
     "hour_et": 10,
     "code_version": "75f23af",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.6
   },
   {
     "symbol": "HD",
@@ -52788,7 +52791,8 @@
     "hour_et": 10,
     "code_version": "75f23af",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.53
   },
   {
     "symbol": "CCJ",
@@ -52813,6 +52817,65 @@
     "evidence": "average cost $86.4",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "a1847a7"
+    "code_version": "a1847a7",
+    "hold_minutes": 55
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.449616,
+    "price": 344.92,
+    "date": "2026-10-02",
+    "time_et": "10:56",
+    "ts": 1790953012,
+    "why": "Add widely-held tech name for diversification outside current defense/gold/nuclear cluster; was sold earlier today and cooldown has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "GOOGL +1.95% 1d, +2.29% 1m, widely_held sector avg_ret 0.0% hit_rate 0.56 in track record - better than idle cash",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 344.85,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.29,
+    "hour_et": 10,
+    "code_version": "363e8d9",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "VNQ",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.550867,
+    "price": 90.08,
+    "date": "2026-10-02",
+    "time_et": "10:56",
+    "ts": 1790953012,
+    "why": "Further real-estate diversification to counter concentration lesson, ETF reduces single-stock risk while adding sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "VNQ +0.97% 1d, real estate sector, pct_of_day_range 59.9 - not extended",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 90.04,
+    "sector": "real_estate",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -6.0,
+    "hour_et": 10,
+    "code_version": "363e8d9",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

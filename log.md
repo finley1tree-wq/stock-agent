@@ -21656,3 +21656,29 @@ Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $16376.70 this week
   (cancelled 3 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $86.73] -> $2509.44 (+0.38%) — close 100% at +0.4% over the average cost
 ## 2026-10-02 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 10:56 ET (Friday) — week 2026-W40 — budget left $18886.14 (today $52025.00 put to work, 29 buys, 20 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Below min_positions (6/8) with 75.5% cash idle - counterfactual data shows idle checks cost ~0.09-0.12%/day. Adding O, GOOGL, VNQ diversifies away from the current nuclear/gold/entertainment cluster per repeated past lesson, all three are not extended in their day range (O 85.7%, GOOGL 79.9%, VNQ 59.9%) and sized at $2000 each (normal position size for this account). Protective stops/take-profits placed on all new positions per risk_management discipline which has the best track record (0.19% avg, 0.88 hit rate).
+lesson: Diversifying into real-estate (O, VNQ) and widely-held (GOOGL) at $2000 each from a 6/8 position book with 75%+ idle cash is the correct response to repeated idle-cash lessons; track whether real diversification beats clustering further in nuclear/gold/entertainment next check.
+  (dropped O: 86% up today's range — resting a limit at $53.94 instead of chasing)
+- BUY $500.00 GOOGL [filled] ['momentum', 'track_record'] — Add widely-held tech name for diversification outside current defense/gold/nuclear cluster; was sold earlier today and cooldown has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: GOOGL +1.95% 1d, +2.29% 1m, widely_held sector avg_ret 0.0% hit_rate 0.56 in track record - better than idle cash
+- BUY $500.00 VNQ [filled] ['momentum', 'track_record'] — Further real-estate diversification to counter concentration lesson, ETF reduces single-stock risk while adding sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: VNQ +0.97% 1d, real estate sector, pct_of_day_range 59.9 - not extended
+  (dropped trigger O stop_loss: not held)
+  (dropped trigger O take_profit: not held)
+~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-10-02 — Protect new GOOGL position
+~ WORKING take_profit 100% GOOGL @ $349.50 until 2026-10-07 — Lock in gain on GOOGL
+~ WORKING stop_loss 100% VNQ @ $88.30 until 2026-10-02 — Protect new VNQ position
+~ WORKING take_profit 100% VNQ @ $91.50 until 2026-10-07 — Lock in gain on VNQ
+~ WORKING buy_limit $500.00 O @ $53.94 until 2026-10-02 — wanted it, but not at the high — resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% GOOGL @ $345.94 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $334.57 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% VNQ @ $90.22 until 2026-10-07 — close 100% at +0.1% over the average cost
+~ WORKING buy_limit $500.00 VNQ @ $87.38 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25342.55 (+1.37% on $25000.00 in) · cash $18217.73 · realised +392.73
+Done: 0 sell(s), 2 buy(s); 33 order(s) working; budget left $17886.14 this week

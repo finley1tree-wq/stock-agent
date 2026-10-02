@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6113.86,
-  "deployed": 356800.18,
+  "spent": 7113.86,
+  "deployed": 357800.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
@@ -24,7 +24,9 @@
     "O": 0.49,
     "PLD": 500.04,
     "GLD": 500.0,
-    "HD": 1050.0
+    "HD": 1050.0,
+    "GOOGL": 500.0,
+    "VNQ": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -39,7 +41,7 @@
     "UNH": 11647.06,
     "CRWD": 14675.0,
     "NVDA": 15000.0,
-    "GOOGL": 17247.06,
+    "GOOGL": 17747.06,
     "AAPL": 7000.0,
     "AMZN": 5625.0,
     "HD": 6122.24,
@@ -62,7 +64,8 @@
     "O": 500.0,
     "PLD": 1000.0,
     "XENE": 950.0,
-    "PG": 2500.0
+    "PG": 2500.0,
+    "VNQ": 500.0
   },
   "orders": [
     {
@@ -8114,12 +8117,54 @@
       ],
       "evidence": "average cost $86.4",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.449616,
+      "price": 344.92,
+      "date": "2026-10-02",
+      "time_et": "10:56",
+      "ts": 1790953012,
+      "why": "Add widely-held tech name for diversification outside current defense/gold/nuclear cluster; was sold earlier today and cooldown has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "GOOGL +1.95% 1d, +2.29% 1m, widely_held sector avg_ret 0.0% hit_rate 0.56 in track record - better than idle cash",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "VNQ",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.550867,
+      "price": 90.08,
+      "date": "2026-10-02",
+      "time_et": "10:56",
+      "ts": 1790953012,
+      "why": "Further real-estate diversification to counter concentration lesson, ETF reduces single-stock risk while adding sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "VNQ +0.97% 1d, real estate sector, pct_of_day_range 59.9 - not extended",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 5995.27,
-  "deployed_today": 52025.0,
-  "orders_today": 29,
+  "spent_today": 6995.27,
+  "deployed_today": 53025.0,
+  "orders_today": 31,
   "sells_today": 20,
   "sold_today": [
     "CRWD",
@@ -8181,37 +8226,46 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790952513,
-  "last_check_ts": 1790952928,
+  "last_publish_ts": 1790953012,
+  "last_check_ts": 1790953012,
   "last_bar_ts": 1790952900,
-  "last_decision_ts": 1790952067,
+  "last_decision_ts": 1790953012,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "5404d18d": 90.2151,
     "811e5765": 129.4865,
     "39a8ed6d": 332.447,
-    "9d40d2e0": 253.2964,
-    "5e16e2ad": 116.3647,
-    "7669a572": 384.9532,
-    "7c46f8fc": 286.2352,
+    "ccf7f7ab": 345.9375,
+    "24f3dcb5": 53.935,
     "15cdfb8a": 53.8965,
+    "9d40d2e0": 253.2964,
     "8c90cb0b": 330.9,
-    "7e3a3af6": 92.2202,
     "f680ce74": 378.0,
+    "7669a572": 384.9532,
     "8bf7d742": 90.0,
-    "0f01fab4": 131.2,
+    "7c46f8fc": 286.2352,
+    "5e16e2ad": 116.3647,
+    "34871ba3": 349.5,
+    "7e3a3af6": 92.2202,
     "52bf4897": 279.0,
-    "4cf9bac4": 126.9,
-    "abb60af8": 247.5,
+    "0f01fab4": 131.2,
     "6b1fc06c": 89.5,
-    "f53378d1": 257.5,
+    "28e82bca": 91.5,
+    "abb60af8": 247.5,
+    "4cf9bac4": 126.9,
     "b50b6e17": 89.2109,
-    "4cd73983": 372.7225,
-    "49629f0b": 276.5858,
+    "4844d4bb": 88.3,
+    "8ce4841e": 338.0,
     "985c7823": 112.5,
-    "ded011e5": 245.119,
     "4848d50a": 112.4812,
-    "31afc90d": 125.3725
+    "4cd73983": 372.7225,
+    "f53378d1": 257.5,
+    "49629f0b": 276.5858,
+    "ded011e5": 245.119,
+    "bbe3e75b": 87.3776,
+    "31afc90d": 125.3725,
+    "bfeba999": 334.5724
   },
   "hold_arm": {
     "RTX": 90,
@@ -8224,15 +8278,6 @@
   },
   "exp_arm": {
     "FWONK": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "CCJ": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -8278,6 +8323,24 @@
       }
     },
     "PLD": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "GOOGL": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "VNQ": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
