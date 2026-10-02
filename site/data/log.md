@@ -1,4 +1,3 @@
-~ WORKING buy_limit $500.00 AMZN @ $239.14 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% PLD @ $128.14 until 2026-10-06 — close 100% at +0.2% over the average cost
 ~ WORKING stop_loss 100% PLD @ $127.28 until 2026-10-06 — close it all at -0.5% under the average cost
 ~ WORKING buy_limit $500.00 PLD @ $124.05 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +397,4 @@ lesson: When no_new_entries_this_check is true, checks_left_today is 0, and posi
 portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-01 16:00 ET — published the session's closing state

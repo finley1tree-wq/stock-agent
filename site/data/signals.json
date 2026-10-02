@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-01T16:00-04:00",
- "note": "market closed - final state for the session",
+ "asOf": "2026-10-02T09:30-04:00",
+ "note": "tick: flat, nothing working",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -85,11 +85,33 @@
    "probation_size": 0.25
   },
   "max_hold_minutes": 30,
-  "hold_trial": {
-   "arms": [
-    30,
-    90
-   ],
+  "experiments": [
+   {
+    "name": "hold",
+    "param": "hold_minutes",
+    "arms": [
+     30,
+     90
+    ]
+   },
+   {
+    "name": "ratchet",
+    "param": "ratchet",
+    "arms": [
+     "on",
+     "off"
+    ]
+   },
+   {
+    "name": "hold_long",
+    "param": "hold_minutes",
+    "arms": [
+     90,
+     120
+    ]
+   }
+  ],
+  "experiment_rules": {
    "min_trips_per_arm": 40,
    "decide_t": 2.0,
    "max_trips_per_arm": 150
