@@ -21559,3 +21559,6 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week
 - SELL 100% GOOGL [take_profit @ $344.10] -> $2507.37 (+0.29%) — close 100% at +0.3% over the average cost
 - BUY $500.00 UNH [buy_limit @ $365.80] — wanted it, but not at the high — resting at $365.80. skip - UNH too high in range, replaced by NEM below [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-02 10:01 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $518.12] -> $551.39 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-10-02 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

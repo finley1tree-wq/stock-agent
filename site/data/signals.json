@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-02T10:01-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-10-02T10:02-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "c03da26c",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 366.5682,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 366.67,
-   "pct_away": -0.03,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "de55168d",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 518.1227,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 517.8,
-   "pct_away": 0.06,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "88bcea81",
    "ticker": "UNH",
    "kind": "stop_loss",
@@ -219,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 366.67,
-   "pct_away": -0.09,
+   "last": 366.42,
+   "pct_away": -0.03,
    "good_until": "2026-10-07",
    "why": "close it all at -0.5% under the average cost",
    "signals": [
@@ -229,17 +195,17 @@
    ]
   },
   {
-   "id": "ae68b8c7",
-   "ticker": "PLTR",
+   "id": "c03da26c",
+   "ticker": "UNH",
    "kind": "take_profit",
-   "price": 193.0234,
+   "price": 366.5682,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 192.55,
-   "pct_away": 0.25,
+   "last": 366.42,
+   "pct_away": 0.04,
    "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 383.9,
-   "pct_away": 0.27,
+   "last": 383.68,
+   "pct_away": 0.33,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ae68b8c7",
+   "ticker": "PLTR",
+   "kind": "take_profit",
+   "price": 193.0234,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 192.21,
+   "pct_away": 0.42,
+   "good_until": "2026-10-07",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 91.53,
-   "pct_away": 0.75,
+   "last": 91.43,
+   "pct_away": 0.86,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -287,29 +270,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 85.62,
-   "pct_away": 1.3,
+   "last": 85.73,
+   "pct_away": 1.17,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "c9e6ec4a",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 84.3,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 85.62,
-   "pct_away": -1.54,
-   "good_until": "2026-10-02",
-   "why": "protect new position with ATR-based stop",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -320,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 383.9,
-   "pct_away": -1.54,
+   "last": 383.68,
+   "pct_away": -1.48,
    "good_until": "2026-10-02",
    "why": "ATR-based stop to protect against reversal",
    "signals": [
@@ -336,10 +303,42 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 91.53,
-   "pct_away": -1.67,
+   "last": 91.43,
+   "pct_away": -1.56,
    "good_until": "2026-10-02",
    "why": "protect new FWONK position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "c9e6ec4a",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 84.3,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 85.73,
+   "pct_away": -1.67,
+   "good_until": "2026-10-02",
+   "why": "protect new position with ATR-based stop",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "1bf8338c",
+   "ticker": "PLTR",
+   "kind": "stop_loss",
+   "price": 188.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 192.21,
+   "pct_away": -2.19,
+   "good_until": "2026-10-02",
+   "why": "ATR-based stop to protect against reversal",
    "signals": [
     "risk_management"
    ]
@@ -352,45 +351,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 85.62,
-   "pct_away": -2.12,
+   "last": 85.73,
+   "pct_away": -2.24,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "1bf8338c",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 188.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 192.55,
-   "pct_away": -2.36,
-   "good_until": "2026-10-02",
-   "why": "ATR-based stop to protect against reversal",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "9acd0991",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 505.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 517.8,
-   "pct_away": -2.47,
-   "good_until": "2026-10-02",
-   "why": "ATR-based stop to protect against reversal",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -401,8 +368,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 91.53,
-   "pct_away": -2.53,
+   "last": 91.43,
+   "pct_away": -2.43,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,8 +385,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 383.9,
-   "pct_away": -2.91,
+   "last": 383.68,
+   "pct_away": -2.86,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -435,25 +402,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 192.55,
-   "pct_away": -3.08,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d3b12850",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 501.3057,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 517.8,
-   "pct_away": -3.19,
+   "last": 192.21,
+   "pct_away": -2.9,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -469,8 +419,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 366.67,
-   "pct_away": -3.23,
+   "last": 366.42,
+   "pct_away": -3.16,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

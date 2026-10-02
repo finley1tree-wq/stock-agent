@@ -1,6 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain: Still well below min_positions (5 of 8) with 89.5% idle cash - counterfactual data shows idle checks average -0.09% vs chosen picks +0.24%, so deploying into diversified, evidence-backed names is the right move. Added HUBB/CHRW (top congress pressure scores from April McClain Delaney), XENE (rare dual CEO+CFO insider buy flagged as a stronger signal in past lessons), and GPI (large 10%-holder insider buy) to diversify sectors away from the existing defense/gold/financial cluster.
 lesson: Dual-insider buys (CEO+CFO same filing date) and top-ranked congress disclosers (score 3.0, named individuals) are the strongest evidence-backed entries available when below min_positions; keep sizing at $2000 to actually move cash_idle_pct down.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week
 - SELL 100% GOOGL [take_profit @ $344.10] -> $2507.37 (+0.29%) — close 100% at +0.3% over the average cost
 - BUY $500.00 UNH [buy_limit @ $365.80] — wanted it, but not at the high — resting at $365.80. skip - UNH too high in range, replaced by NEM below [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-02 10:01 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $518.12] -> $551.39 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-10-02 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
