@@ -21785,3 +21785,16 @@ lesson: Hour-13/14 PROBATION entries graded negative repeatedly today (8/8) - do
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 13:46 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CSWC excluded: too thinly traded ($14.8M a day) — Capital Southwest Corporation)
+brain: It's 13:46 ET, no_new_entries_after_et is 14:00 and max_hold_minutes is 30, so any new buy placed now would be forced to liquidate within the 14:00-14:16 window with essentially no time to develop - exactly the pattern that's graded negative all day (hour 13/14 PROBATION entries went 8/8 negative per past_lessons, and hour 14/15 are CULLED in strategy_stages). I already churned through 34 orders and 30 sells today with realized P&L basically flat (+$312), and the book is currently flat (0 positions) after the last 90-min holds were closed. Rather than force an 8th/9th entry into a culled hour just to chase min_positions, I'll sit this check out and wait for the next check closer to or after the no-new-entries cutoff where sells/protective orders are still fine but I won't be buying into a dead window.
+lesson: Hour 13-14 PROBATION/CULLED entries right before the 14:00 cutoff graded negative 8/8 times today - do not force a buy here just to hit min_positions; respect the strategy_stages hour verdict over the urge to deploy idle cash.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
