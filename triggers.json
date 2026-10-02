@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "9b0eb56a",
-   "ticker": "NVDA",
-   "kind": "take_profit",
-   "price": 229.7945,
-   "status": "cancelled",
-   "created": "2026-09-29 13:29",
-   "created_ts": 1790702987,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $229.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "0d4ce3f8",
    "ticker": "NVDA",
    "kind": "buy_limit",
@@ -7419,7 +7400,7 @@
    "ticker": "GOOGL",
    "kind": "stop_loss",
    "price": 340.5649,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:55",
    "created_ts": 1790949328,
    "why": "close it all at -0.7% under the average cost",
@@ -7429,7 +7410,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 09:58",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "db8510b2",
@@ -7447,7 +7430,24 @@
    ],
    "good_until": "2026-10-07",
    "usd": 500.0
+  },
+  {
+   "id": "dc71d513",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 343.516,
+   "status": "working",
+   "created": "2026-10-02 09:58",
+   "created_ts": 1790949490,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $343.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-02 09:55"
+ "updated": "2026-10-02 09:58"
 }
