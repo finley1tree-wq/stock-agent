@@ -6440,7 +6440,7 @@
    "ticker": "GLD",
    "kind": "stop_loss",
    "price": 378.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:59",
    "created_ts": 1790949579,
    "why": "ATR-based stop to protect against reversal",
@@ -6449,7 +6449,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:29",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "91d88588",
@@ -6548,7 +6550,7 @@
    "ticker": "GLD",
    "kind": "take_profit",
    "price": 384.9532,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:59",
    "created_ts": 1790949579,
    "why": "close 100% at +0.2% over the average cost",
@@ -6558,14 +6560,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:29",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "4cd73983",
    "ticker": "GLD",
    "kind": "buy_limit",
    "price": 372.7225,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:59",
    "created_ts": 1790949579,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6575,7 +6579,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 11:29",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c03da26c",

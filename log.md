@@ -21701,3 +21701,5 @@ Decision: nothing at this check. 31 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - BUY $500.00 O [buy_limit @ $53.94] — wanted it, but not at the high — resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-02 11:23 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- SELL 100% GLD [time stop] -> $493.93 (-1.21%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
