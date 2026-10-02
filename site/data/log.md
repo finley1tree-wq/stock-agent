@@ -1,6 +1,3 @@
-brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there is nothing to protect and no new entries are allowed - any buy or buy_limit would simply be dropped per guardrails. Sitting flat for this check is forced by the entry cutoff, not a discretionary cash call.
-lesson: When no_new_entries_this_check is true and the book is flat with zero holdings, there are literally no orders to place (no entries allowed, nothing to sell/protect) - just wait for the next window rather than trying workarounds.
-portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +395,6 @@ Decision: nothing at this check. 23 standing order(s) working.
 - SELL 100% AMZN [time stop] -> $618.86 (-0.98%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% PLD [time stop] -> $498.52 (-0.30%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $332.34] -> $574.82 (-0.03%) — close it all at -0.5% under the average cost
+## 2026-10-02 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders

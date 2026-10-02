@@ -21737,3 +21737,6 @@ Decision: nothing at this check. 23 standing order(s) working.
 - SELL 100% AMZN [time stop] -> $618.86 (-0.98%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% PLD [time stop] -> $498.52 (-0.30%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [stop_loss @ $332.34] -> $574.82 (-0.03%) — close it all at -0.5% under the average cost
+## 2026-10-02 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
