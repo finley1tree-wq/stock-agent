@@ -1,17 +1,3 @@
-## 2026-10-02 09:39 ET (Friday) — week 2026-W40 — budget left $21945.45 (today $16500.00 put to work, 6 buys, 5 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Book is at 1 position (HUBB) vs min_positions 8, cash_idle_pct 87.8% - this is the known costly pattern per past lessons. Deploying full remaining budget across 7 new congress/track-record backed names (ACN, CHRW, HLI, FWONK, SKWD, TTD, NOC, IBM), each sized $2000-3000, picking names with either strong congress disclosure scores or favorable position in today's range (avoiding chasing per guardrails). Each new position gets a protective stop_loss per risk_management signal, which per track_record has the best realized hit rate (0.88) of any signal bucket.
-lesson: Deploying 7-8 congress/track-record backed names at $2000-3000 each from a flat book with 87% idle cash directly targets min_positions and should be checked again quickly (10min) to confirm fills and add protective stops before the 30-min auto-close window.
-- BUY $3000.00 ACN [filled] ['congress', 'track_record'] — cooldown cleared (was sold prior day not today), strong congress pressure plus momentum, reinitiating position | evidence: Rep. Gilbert Ray Cisneros and Scott Franklin both disclosed ACN buys (congress_net_buy_pressure 2.0); ACN +17.9% 5d momentum
-- BUY $3000.00 CHRW [filled] ['congress', 'track_record'] — highest congress pressure score in list, already have a working buy_limit at 155.41 but adding a direct entry given 61.8% range is acceptable and momentum +5.89% 5d | evidence: congress_net_buy_pressure CHRW=3.0 (top score), Rep. April McClain Delaney disclosed multiple buys 2026-09-09
-- BUY $3000.00 HLI [filled] ['congress', 'track_record'] — congress-backed name with positive 1d momentum (+1.07%) and low day-range (32.9%), good entry point | evidence: congress_net_buy_pressure HLI=2.0, track_record signal avg_ret_pct 0.11 hit_rate 0.64 (n=43)
-- BUY $2500.00 FWONK [filled] ['congress'] — congress pressure signal, modest position size given smaller liquidity (avg_volume 2.2M) | evidence: congress_net_buy_pressure FWONK=2.0
-- BUY $2000.00 SKWD [filled] ['congress'] — congress-backed small position, low day range (0%) suggests not chasing | evidence: congress_net_buy_pressure SKWD=2.0
 - BUY $2500.00 TTD [filled] ['congress'] — congress pressure plus low in day range, good entry price not chasing a move | evidence: congress_net_buy_pressure TTD=2.0, TTD trading at 10.4% of day range (near low)
 - BUY $2500.00 NOC [filled] ['momentum', 'track_record'] — defense name near day low, contrarian value entry on a quality defense name | evidence: NOC day range 2.0% (near day low), defense sector avg_ret_pct -0.02 hit_rate 0.53 but oversold -7.68% 5d creating value entry
 - BUY $2500.00 IBM [filled] ['news', 'track_record'] — widely held blue chip near day low, diversification into tech/services | evidence: IBM at 14.4% of day range (near low), widely_held sector hit_rate 0.56
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 ET cutoff) and book is flat with no positions to protect or sell, so there is nothing actionable - buys would be dropped by guardrails regardless. Today's logged lessons also confirm every forced PROBATION/CULLED-hour entry since 10:00 graded negative (8/8), reinforcing that waiting is correct here rather than chasing a drop.
 lesson: When no_new_entries_this_check is true, do not propose buys - focus check-ins on protecting/managing existing positions only.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 15:19 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and we are flat (0 positions, 0 equity invested), so there is nothing to protect or sell. Every past lesson today from hour 10 onward shows forced PROBATION-hour entries graded negative 8/8 times, and it's now 15:19 with only 1 check left before close - not friday_cleanup so no mandate to deploy. Correct action is to sit out this final window since buys would be dropped anyway and there are no open positions needing management.
+lesson: When no_new_entries_this_check is true and book is flat, don't propose buys/sells - just wait; late-day PROBATION/CULLED hour entries graded negative all day.
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
