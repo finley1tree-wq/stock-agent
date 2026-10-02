@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 1012.54,
+  "spent": 19.17,
   "deployed": 359375.18,
   "by_ticker": {
     "AVGO": 28.22,
@@ -25,8 +25,8 @@
     "PLD": 1.52,
     "GLD": 6.07,
     "HD": 9.32,
-    "GOOGL": 500.0,
-    "VNQ": 500.0
+    "GOOGL": 2.85,
+    "VNQ": 3.78
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -8393,13 +8393,53 @@
       ],
       "evidence": "average cost $53.92",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 1.449616,
+      "status": "filled",
+      "price": 342.95,
+      "proceeds": 497.15,
+      "realized_pnl": -2.85,
+      "realized_pct": -0.57,
+      "date": "2026-10-02",
+      "time_et": "12:26",
+      "ts": 1790958416,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.55% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "VNQ",
+      "side": "sell",
+      "qty": 5.550867,
+      "status": "filled",
+      "price": 89.39,
+      "proceeds": 496.22,
+      "realized_pnl": -3.78,
+      "realized_pct": -0.76,
+      "date": "2026-10-02",
+      "time_et": "12:26",
+      "ts": 1790958416,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.72% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 893.95,
+  "spent_today": 0.0,
   "deployed_today": 54600.0,
   "orders_today": 34,
-  "sells_today": 28,
+  "sells_today": 30,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -8428,7 +8468,8 @@
     "AMZN",
     "PLD",
     "AAPL",
-    "O"
+    "O",
+    "VNQ"
   ],
   "sold_ts": {
     "PLTR": 1790951677,
@@ -8441,7 +8482,7 @@
     "UNH": 1790949991,
     "CRWD": 1790948109,
     "NVDA": 1790862664,
-    "GOOGL": 1790949689,
+    "GOOGL": 1790958416,
     "AVGO": 1790948193,
     "TTD": 1790948836,
     "HD": 1790955629,
@@ -8466,24 +8507,17 @@
     "PLD": 1790956559,
     "O": 1790958032,
     "XENE": 1790876714,
-    "PG": 1790948193
+    "PG": 1790948193,
+    "VNQ": 1790958416
   },
-  "last_publish_ts": 1790958031,
-  "last_check_ts": 1790958321,
+  "last_publish_ts": 1790958416,
+  "last_check_ts": 1790958416,
   "last_bar_ts": 1790958300,
   "last_decision_ts": 1790958321,
   "next_check_minutes": 20,
   "autopiloted": false,
   "book_px": {
-    "8c90cb0b": 330.9,
-    "ccf7f7ab": 345.9375,
-    "5404d18d": 90.2151,
-    "4844d4bb": 88.3,
-    "8ce4841e": 338.0,
-    "34871ba3": 349.5,
-    "28e82bca": 91.5,
-    "bbe3e75b": 87.3776,
-    "bfeba999": 334.5724
+    "8c90cb0b": 330.9
   },
   "hold_arm": {
     "RTX": 90,

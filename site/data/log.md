@@ -1,19 +1,3 @@
-## 2026-10-01 15:00 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) and I hold zero positions, so there is nothing to protect or sell and no entries can be placed - any buy/buy_limit/buy_stop would just be dropped. With only one check left today and no open book, the correct action is to wait.
-lesson: When no_new_entries_this_check is true and positions are flat, there is nothing actionable - confirmed again today; stop re-litigating this each check.
-portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-01 15:30 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
@@ -398,3 +382,19 @@ Decision: nothing at this check. 23 standing order(s) working.
   (cancelled 2 standing order(s) on O: position closed)
 - SELL 100% O [stop_loss @ $53.91] -> $999.95 (-0.01%) — close it all at -0.5% under the average cost
 ## 2026-10-02 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 12:25 ET (Friday) — week 2026-W40 — budget left $23987.46 (today $54600.00 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Current hour (12:xx) is PROBATION-stage and the logged lessons show every forced entry today during PROBATION hours graded negative (10/10 checks, -0.24% to -1.09%) - this is a strong, repeated, same-day pattern, not noise. GOOGL and VNQ are already held with full protective brackets (stop_loss, take_profit, scale-in buy_limits) working, so the book isn't unprotected. Rather than chase a forced 3rd-8th name into a culled/probation signal mix just to hit min_positions, I'll wait for a SURVIVOR-hour window or a concrete new catalyst (a real headline/filing on an allowed ticker) before adding size - the existing GOOGL/VNQ stops and take-profits are already working and will auto-manage the open risk.
+lesson: On 2026-10-02, every forced buy during PROBATION hours (10 of 10 checks) graded negative that same check - do not treat below_target_position_count as automatic license to buy in a PROBATION/CULLED hour; wait for a SURVIVOR hour or concrete evidence instead.
+portfolio: equity $25313.01 (+1.25% on $25000.00 in) · cash $24319.05 · realised +319.05
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GOOGL [time stop] -> $497.15 (-0.57%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% VNQ [time stop] -> $496.22 (-0.76%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 12:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders

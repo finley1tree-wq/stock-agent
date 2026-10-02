@@ -21756,3 +21756,6 @@ lesson: On 2026-10-02, every forced buy during PROBATION hours (10 of 10 checks)
 portfolio: equity $25313.01 (+1.25% on $25000.00 in) · cash $24319.05 · realised +319.05
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GOOGL [time stop] -> $497.15 (-0.57%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% VNQ [time stop] -> $496.22 (-0.76%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 12:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders
