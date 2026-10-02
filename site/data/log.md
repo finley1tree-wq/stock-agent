@@ -1,16 +1,3 @@
-- BUY $3000.00 AVGO [filled] ['congress', 'insider'] — Multiple insider/congress buyers converging on same name | evidence: Rick W. Allen and David J. Taylor both disclosed AVGO buys; AVGO +1.28% today
-- BUY $2500.00 PG [filled] ['congress', 'insider'] — Dual-source buy pressure, defensive consumer staple diversifier | evidence: David J. Taylor (insider) and Rep. Lloyd Doggett both bought PG per disclosures
-- BUY $3000.00 CRWD [filled] ['momentum', 'track_record'] — Strong multi-timeframe momentum with decent track record bucket return | evidence: CRWD +1.55% today, +7.17% 5d, +32.84% 1m; momentum signal ranked above autopilot/congress in by_signal realized returns
-- BUY $2500.00 TSM [filled] ['momentum', 'track_record'] — Consistent uptrend across horizons, semis exposure diversification | evidence: TSM +1.26% today, +11.91% 1m, +3.19% 5d
-  (dropped trigger CHRW stop_loss: not held)
-  (dropped trigger NVDA stop_loss: not held)
-~ WORKING stop_loss 100% HUBB @ $466.40 until 2026-10-02 — protective stop
-~ WORKING stop_loss 100% LTH @ $40.20 until 2026-10-02 — protective stop
-~ WORKING stop_loss 100% AVGO @ $341.10 until 2026-10-02 — protective stop
-~ WORKING stop_loss 100% PG @ $141.00 until 2026-10-02 — protective stop
-~ WORKING stop_loss 100% CRWD @ $264.80 until 2026-10-02 — protective stop
-~ WORKING stop_loss 100% TSM @ $455.70 until 2026-10-02 — protective stop
-~ WORKING buy_limit $3000.00 CHRW @ $155.41 until 2026-10-02 — wanted it, but not at the high — resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry
 ~ WORKING take_profit 100% HUBB @ $477.43 until 2026-10-07 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 HUBB @ $461.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% LTH @ $41.17 until 2026-10-07 — close 100% at +0.4% over the average cost
@@ -395,6 +382,19 @@ Decision: nothing at this check. 1 standing order(s) working.
   (CSWC excluded: too thinly traded ($14.8M a day) — Capital Southwest Corporation)
 brain: Hour-13 is PROBATION and no_new_entries_after_et is 14:00, so any new buy now is cut to 1/4 size and has almost no runway before entries close - not worth it. Today's own data shows every forced PROBATION-hour entry graded negative (last 8 of 8 lessons), and I've already churned through 34 orders/36 sells today with net realized only $312. Book is currently flat (0 positions) after a full day of rapid entries/exits that mostly lost money intraday; rather than force another name into a culled/probation slot right before the entry cutoff, I'll sit this one check out and reassess at the next check, which is still before 14:00 cutoff, to see if a genuine SURVIVOR-hour or concrete catalyst (not recycled diversification rationale) appears.
 lesson: Hour-13/14 PROBATION entries graded negative repeatedly today (8/8) - do not force a buy in a probation hour this close to the 14:00 cutoff without a distinct new catalyst; waiting one check costs little when the book is already flat.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 13:46 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CSWC excluded: too thinly traded ($14.8M a day) — Capital Southwest Corporation)
+brain: It's 13:46 ET, no_new_entries_after_et is 14:00 and max_hold_minutes is 30, so any new buy placed now would be forced to liquidate within the 14:00-14:16 window with essentially no time to develop - exactly the pattern that's graded negative all day (hour 13/14 PROBATION entries went 8/8 negative per past_lessons, and hour 14/15 are CULLED in strategy_stages). I already churned through 34 orders and 30 sells today with realized P&L basically flat (+$312), and the book is currently flat (0 positions) after the last 90-min holds were closed. Rather than force an 8th/9th entry into a culled hour just to chase min_positions, I'll sit this check out and wait for the next check closer to or after the no-new-entries cutoff where sells/protective orders are still fine but I won't be buying into a dead window.
+lesson: Hour 13-14 PROBATION/CULLED entries right before the 14:00 cutoff graded negative 8/8 times today - do not force a buy here just to hit min_positions; respect the strategy_stages hour verdict over the urge to deploy idle cash.
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
