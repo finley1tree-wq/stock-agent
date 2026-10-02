@@ -21759,3 +21759,16 @@ Decision: nothing at this check. 9 standing order(s) working.
 - SELL 100% GOOGL [time stop] -> $497.15 (-0.57%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% VNQ [time stop] -> $496.22 (-0.76%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 12:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 12:45 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: We are at hour 12, which is PROBATION for strategy_stages, and today's lesson log shows every forced entry during PROBATION hours (10/10 logged checks) graded negative that same check - the desk has already spent $54,600 today across 34 orders and 30 sells, with realized P&L barely positive (+$312 on $25k). Current book is flat (0 positions) after a day of churn, and the two most recent explicit lessons say: "stop forcing new entries just to spend idle cash" and "stop treating below min_positions as automatic license to buy into a culled/probation hour; wait for a SURVIVOR hour or concrete new evidence." No new concrete evidence (headline, filing, congress disclosure under lookback) stands out right now beyond what's already been chased today - CHRW/HUBB/LTH/ACN all already bought and sold today, triggering cooldowns or simply exhausted. Given no_new_entries_after_et is 14:00 and we're at 12:45, there is still time, but I'd rather wait for either a SURVIVOR hour signal or a sharper piece of evidence (e.g., a fresh insider buy or disclosed congress trade in an allowed ticker) before deploying into a PROBATION hour that has shown 100% negative realized results today. I'll check again in 30 minutes to reassess, since 14:00 cutoff is approaching and I don't want to miss the window entirely if evidence materializes.
+lesson: Hour-12 PROBATION entries today have graded negative every single time (8 for 8) - do not force a buy here without a concrete new catalyst distinct from the names already churned today (CHRW/HUBB/LTH/ACN/TTD/etc).
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
