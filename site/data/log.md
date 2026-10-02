@@ -1,16 +1,3 @@
-## 2026-10-02 09:32 ET (Friday) — week 2026-W40 — budget left $24881.41 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Flat book at 99.5% idle cash with 8 min_positions target and a 14:00 entry cutoff looming - counterfactual data shows idle checks cost ~0.09%/day and picking beats random. Deploying across 8 names backed by concrete congress disclosures (April McClain Delaney score 3.0 on CHRW/HUBB/LTH), dual insider+congress convergence (AVGO, PG), and strong multi-timeframe momentum (CRWD, NVDA, TSM) gives sector diversification (industrials, consumer staples, semis, software) while respecting the 09:00 SURVIVOR hour and avoiding CULLED news-only signal mix. Each position sized ~$2500-3000 with ATR-based stops attached immediately per risk_management best-performing signal bucket (0.18% avg, 87% hit rate).
-lesson: At 09:32 (SURVIVOR hour) with flat book, deploying $2500-3000 across 8 congress/insider/momentum-backed names immediately beats waiting - idle_checks are 52% of history and cost ~0.09%/day per counterfactual data.
-  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (dropped CHRW: 100% up today's range — resting a limit at $155.41 instead of chasing)
-- BUY $3000.00 HUBB [filled] ['congress', 'track_record'] — Top congress score name, diversify into industrials | evidence: Rep. April McClain Delaney disclosed buys in HUBB (score 3.0); HUBB +1.92% today, +5.74% 1m
-- BUY $2500.00 LTH [filled] ['congress', 'momentum'] — Congress top score plus prior miss lesson to not skip this name | evidence: April McClain Delaney disclosed buy in LTH (score 3.0); counterfactual biggest_misses shows LTH +7.69% fwd after similar setup
 - BUY $3000.00 AVGO [filled] ['congress', 'insider'] — Multiple insider/congress buyers converging on same name | evidence: Rick W. Allen and David J. Taylor both disclosed AVGO buys; AVGO +1.28% today
 - BUY $2500.00 PG [filled] ['congress', 'insider'] — Dual-source buy pressure, defensive consumer staple diversifier | evidence: David J. Taylor (insider) and Rep. Lloyd Doggett both bought PG per disclosures
 - BUY $3000.00 CRWD [filled] ['momentum', 'track_record'] — Strong multi-timeframe momentum with decent track record bucket return | evidence: CRWD +1.55% today, +7.17% 5d, +32.84% 1m; momentum signal ranked above autopilot/congress in by_signal realized returns
@@ -395,6 +382,19 @@ Decision: nothing at this check. 9 standing order(s) working.
   (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
 brain: We are at hour 12, which is PROBATION for strategy_stages, and today's lesson log shows every forced entry during PROBATION hours (10/10 logged checks) graded negative that same check - the desk has already spent $54,600 today across 34 orders and 30 sells, with realized P&L barely positive (+$312 on $25k). Current book is flat (0 positions) after a day of churn, and the two most recent explicit lessons say: "stop forcing new entries just to spend idle cash" and "stop treating below min_positions as automatic license to buy into a culled/probation hour; wait for a SURVIVOR hour or concrete new evidence." No new concrete evidence (headline, filing, congress disclosure under lookback) stands out right now beyond what's already been chased today - CHRW/HUBB/LTH/ACN all already bought and sold today, triggering cooldowns or simply exhausted. Given no_new_entries_after_et is 14:00 and we're at 12:45, there is still time, but I'd rather wait for either a SURVIVOR hour signal or a sharper piece of evidence (e.g., a fresh insider buy or disclosed congress trade in an allowed ticker) before deploying into a PROBATION hour that has shown 100% negative realized results today. I'll check again in 30 minutes to reassess, since 14:00 cutoff is approaching and I don't want to miss the window entirely if evidence materializes.
 lesson: Hour-12 PROBATION entries today have graded negative every single time (8 for 8) - do not force a buy here without a concrete new catalyst distinct from the names already churned today (CHRW/HUBB/LTH/ACN/TTD/etc).
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 13:15 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CSWC excluded: too thinly traded ($14.8M a day) — Capital Southwest Corporation)
+brain: Hour-13 is PROBATION and no_new_entries_after_et is 14:00, so any new buy now is cut to 1/4 size and has almost no runway before entries close - not worth it. Today's own data shows every forced PROBATION-hour entry graded negative (last 8 of 8 lessons), and I've already churned through 34 orders/36 sells today with net realized only $312. Book is currently flat (0 positions) after a full day of rapid entries/exits that mostly lost money intraday; rather than force another name into a culled/probation slot right before the entry cutoff, I'll sit this one check out and reassess at the next check, which is still before 14:00 cutoff, to see if a genuine SURVIVOR-hour or concrete catalyst (not recycled diversification rationale) appears.
+lesson: Hour-13/14 PROBATION entries graded negative repeatedly today (8/8) - do not force a buy in a probation hour this close to the 14:00 cutoff without a distinct new catalyst; waiting one check costs little when the book is already flat.
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
