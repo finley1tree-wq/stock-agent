@@ -1,17 +1,3 @@
-- BUY $2500.00 TTD [filled] ['congress'] — congress pressure plus low in day range, good entry price not chasing a move | evidence: congress_net_buy_pressure TTD=2.0, TTD trading at 10.4% of day range (near low)
-- BUY $2500.00 NOC [filled] ['momentum', 'track_record'] — defense name near day low, contrarian value entry on a quality defense name | evidence: NOC day range 2.0% (near day low), defense sector avg_ret_pct -0.02 hit_rate 0.53 but oversold -7.68% 5d creating value entry
-- BUY $2500.00 IBM [filled] ['news', 'track_record'] — widely held blue chip near day low, diversification into tech/services | evidence: IBM at 14.4% of day range (near low), widely_held sector hit_rate 0.56
-~ WORKING stop_loss 100% CHRW @ $152.65 until 2026-10-02 — protect new CHRW position
-~ WORKING stop_loss 100% ACN @ $203.50 until 2026-10-02 — protect new ACN position
-~ WORKING stop_loss 100% HLI @ $127.20 until 2026-10-02 — protect new HLI position
-~ WORKING stop_loss 100% FWONK @ $90.00 until 2026-10-02 — protect new FWONK position
-~ WORKING stop_loss 100% SKWD @ $53.85 until 2026-10-02 — protect new SKWD position
-~ WORKING stop_loss 100% TTD @ $11.55 until 2026-10-02 — protect new TTD position
-~ WORKING stop_loss 100% NOC @ $460.00 until 2026-10-02 — protect new NOC position
-~ WORKING stop_loss 100% IBM @ $217.50 until 2026-10-02 — protect new IBM position
-~ WORKING take_profit 100% ACN @ $208.75 until 2026-10-07 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $201.45 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CHRW @ $156.27 until 2026-10-07 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 CHRW @ $151.16 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% HLI @ $130.26 until 2026-10-07 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 HLI @ $125.92 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and we are flat (0 positions, 0 equity invested), so there is nothing to protect or sell. Every past lesson today from hour 10 onward shows forced PROBATION-hour entries graded negative 8/8 times, and it's now 15:19 with only 1 check left before close - not friday_cleanup so no mandate to deploy. Correct action is to sit out this final window since buys would be dropped anyway and there are no open positions needing management.
 lesson: When no_new_entries_this_check is true and book is flat, don't propose buys/sells - just wait; late-day PROBATION/CULLED hour entries graded negative all day.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 15:50 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: It's 15:50 ET, no_new_entries_this_check is true (past the 14:00 cutoff and within 30min of 16:00 close), and positions_held is 0 so there's nothing to protect or sell. Market closes in 10 minutes - no action is appropriate here.
+lesson: When no_new_entries_this_check is true and book is flat this late in the day (15:50, close at 16:00), there is nothing to do - no buys allowed, no positions to manage; just wait for the day to end.
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
