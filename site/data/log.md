@@ -1,6 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
 brain: Below min_positions (5 of 8) with 89% cash idle - the biggest cost per counterfactual data (idle_share 0.52, idle checks cost money). Adding LMT, NOC, KO, HLI diversifies sectors away from the current widely_held/nuclear cluster (GOOGL, UNH, TSM, IBM, NLR), each backed by concrete headline/congress evidence. ACN is in cooldown so dropping that one, keeping 4 new names at $1500-2000 each to reach 9 positions total.
 lesson: Reaching min_positions with sector-diverse, evidence-backed names beats sitting on idle cash; but avoid re-proposing cooling-off tickers like ACN.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $472.80] -> $2506.83 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 09:42 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HLI: position closed)
+- SELL 100% HLI [take_profit @ $130.26] -> $3010.42 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-10-02 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders

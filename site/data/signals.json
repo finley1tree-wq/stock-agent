@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-02T09:42-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-10-02T09:46-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "7e3a3af6",
-   "ticker": "FWONK",
-   "kind": "take_profit",
-   "price": 92.2202,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 91.65,
-   "pct_away": 0.62,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a442404f",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 130.263,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 129.37,
-   "pct_away": 0.69,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "5c6b62c9",
    "ticker": "TTD",
    "kind": "take_profit",
@@ -219,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 11.98,
-   "pct_away": 0.97,
+   "last": 12.09,
+   "pct_away": 0.05,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7e3a3af6",
+   "ticker": "FWONK",
+   "kind": "take_profit",
+   "price": 92.2202,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 91.57,
+   "pct_away": 0.71,
+   "good_until": "2026-10-07",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,7 +219,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 206.37,
+   "last": 206.38,
    "pct_away": 1.15,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.5% over the average cost",
@@ -253,26 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 206.37,
-   "pct_away": -1.39,
+   "last": 206.38,
+   "pct_away": -1.4,
    "good_until": "2026-10-02",
    "why": "protect new ACN position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "ef1da414",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 127.2,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 129.37,
-   "pct_away": -1.68,
-   "good_until": "2026-10-02",
-   "why": "protect new HLI position",
    "signals": [
     "risk_management"
    ]
@@ -285,8 +252,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 91.65,
-   "pct_away": -1.8,
+   "last": 91.57,
+   "pct_away": -1.71,
    "good_until": "2026-10-02",
    "why": "protect new FWONK position",
    "signals": [
@@ -301,25 +268,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 206.37,
-   "pct_away": -2.38,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3e882c08",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 11.6788,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 11.98,
-   "pct_away": -2.51,
+   "last": 206.38,
+   "pct_away": -2.39,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -335,8 +285,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 91.65,
-   "pct_away": -2.66,
+   "last": 91.57,
+   "pct_away": -2.58,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -345,15 +295,15 @@
    ]
   },
   {
-   "id": "d43769c6",
-   "ticker": "HLI",
+   "id": "3e882c08",
+   "ticker": "TTD",
    "kind": "buy_limit",
-   "price": 125.9157,
+   "price": 11.6788,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 129.37,
-   "pct_away": -2.67,
+   "last": 12.09,
+   "pct_away": -3.4,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -369,8 +319,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 11.98,
-   "pct_away": -3.59,
+   "last": 12.09,
+   "pct_away": -4.47,
    "good_until": "2026-10-02",
    "why": "protect new TTD position",
    "signals": [

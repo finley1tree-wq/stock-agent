@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 10999.16,
+  "spent": 7988.74,
   "deployed": 345275.18,
   "by_ticker": {
     "AVGO": 28.22,
@@ -15,7 +15,7 @@
     "AMZN": 4.75,
     "NVDA": 20.57,
     "CCJ": 22.05,
-    "HLI": 3028.74,
+    "HLI": 18.32,
     "FWONK": 2516.31,
     "HUBB": 51.52,
     "CHRW": 10.17,
@@ -7604,13 +7604,34 @@
       ],
       "evidence": "average cost $471.51",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HLI",
+      "side": "sell",
+      "qty": 23.110361,
+      "status": "filled",
+      "price": 130.26,
+      "proceeds": 3010.42,
+      "realized_pnl": 10.42,
+      "realized_pct": 0.35,
+      "date": "2026-10-02",
+      "time_et": "09:46",
+      "ts": 1790948700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $129.81",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 10880.57,
+  "spent_today": 7870.15,
   "deployed_today": 40500.0,
   "orders_today": 15,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -7621,7 +7642,8 @@
     "IBM",
     "SKWD",
     "CHRW",
-    "NOC"
+    "NOC",
+    "HLI"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -7646,7 +7668,7 @@
     "CCJ": 1790875480,
     "LMT": 1790872496,
     "NEM": 1790875903,
-    "HLI": 1790872825,
+    "HLI": 1790948802,
     "FWONK": 1790866810,
     "HUBB": 1790948426,
     "NLR": 1790870842,
@@ -7661,24 +7683,21 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790948558,
-  "last_check_ts": 1790948720,
+  "last_publish_ts": 1790948802,
+  "last_check_ts": 1790948802,
   "last_bar_ts": 1790948700,
   "last_decision_ts": 1790948360,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "7e3a3af6": 92.2202,
-    "a442404f": 130.263,
     "5c6b62c9": 12.096,
+    "7e3a3af6": 92.2202,
     "f881f583": 208.7475,
     "fe5e58ef": 203.5,
-    "ef1da414": 127.2,
     "8bf7d742": 90.0,
     "7d253bc2": 201.4496,
-    "3e882c08": 11.6788,
     "b50b6e17": 89.2109,
-    "d43769c6": 125.9157,
+    "3e882c08": 11.6788,
     "a89623be": 11.55
   },
   "hold_arm": {
