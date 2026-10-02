@@ -21813,3 +21813,17 @@ lesson: When no_new_entries_this_check is true, don't propose buys regardless of
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 14:48 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 ET cutoff) and book is flat with no positions to protect or sell, so there is nothing actionable - buys would be dropped by guardrails regardless. Today's logged lessons also confirm every forced PROBATION/CULLED-hour entry since 10:00 graded negative (8/8), reinforcing that waiting is correct here rather than chasing a drop.
+lesson: When no_new_entries_this_check is true, do not propose buys - focus check-ins on protecting/managing existing positions only.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
