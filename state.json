@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 8623.3,
+  "spent": 6113.86,
   "deployed": 356800.18,
   "by_ticker": {
     "AVGO": 28.22,
@@ -13,7 +13,7 @@
     "NEM": 1002.9,
     "AMZN": 629.75,
     "NVDA": 20.57,
-    "CCJ": 2522.05,
+    "CCJ": 12.61,
     "HLI": 18.32,
     "FWONK": 2516.31,
     "HUBB": 51.52,
@@ -8093,13 +8093,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "CCJ",
+      "side": "sell",
+      "qty": 28.933662,
+      "status": "filled",
+      "price": 86.73,
+      "proceeds": 2509.44,
+      "realized_pnl": 9.44,
+      "realized_pct": 0.38,
+      "date": "2026-10-02",
+      "time_et": "10:48",
+      "ts": 1790952300,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.4",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 8504.71,
+  "spent_today": 5995.27,
   "deployed_today": 52025.0,
   "orders_today": 29,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -8119,7 +8140,8 @@
     "UNH",
     "LMT",
     "PLTR",
-    "RTX"
+    "RTX",
+    "CCJ"
   ],
   "sold_ts": {
     "PLTR": 1790951677,
@@ -8141,7 +8163,7 @@
     "AAPL": 1790786607,
     "IBM": 1790948426,
     "RTX": 1790952065,
-    "CCJ": 1790875480,
+    "CCJ": 1790952513,
     "LMT": 1790950641,
     "NEM": 1790875903,
     "HLI": 1790948802,
@@ -8159,41 +8181,37 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790952067,
-  "last_check_ts": 1790952424,
+  "last_publish_ts": 1790952513,
+  "last_check_ts": 1790952513,
   "last_bar_ts": 1790952300,
   "last_decision_ts": 1790952067,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "46e34796": 86.7309,
     "811e5765": 129.4865,
-    "9d40d2e0": 253.2964,
     "39a8ed6d": 332.447,
+    "9d40d2e0": 253.2964,
+    "5e16e2ad": 116.3647,
     "7669a572": 384.9532,
     "7c46f8fc": 286.2352,
-    "5e16e2ad": 116.3647,
     "15cdfb8a": 53.8965,
-    "7e3a3af6": 92.2202,
     "8c90cb0b": 330.9,
+    "7e3a3af6": 92.2202,
     "f680ce74": 378.0,
     "8bf7d742": 90.0,
-    "4cf9bac4": 126.9,
     "0f01fab4": 131.2,
-    "abb60af8": 247.5,
     "52bf4897": 279.0,
-    "cc41423f": 84.7308,
+    "4cf9bac4": 126.9,
+    "abb60af8": 247.5,
     "6b1fc06c": 89.5,
     "f53378d1": 257.5,
     "b50b6e17": 89.2109,
-    "c9e6ec4a": 84.3,
     "4cd73983": 372.7225,
+    "49629f0b": 276.5858,
     "985c7823": 112.5,
     "ded011e5": 245.119,
     "4848d50a": 112.4812,
-    "31afc90d": 125.3725,
-    "49629f0b": 276.5858,
-    "7bc0e25e": 83.808
+    "31afc90d": 125.3725
   },
   "hold_arm": {
     "RTX": 90,

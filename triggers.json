@@ -6529,7 +6529,7 @@
    "ticker": "CCJ",
    "kind": "stop_loss",
    "price": 84.3,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:49",
    "created_ts": 1790948969,
    "why": "protect new position with ATR-based stop",
@@ -6538,7 +6538,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "22b18b1a",
@@ -6564,7 +6566,7 @@
    "ticker": "CCJ",
    "kind": "take_profit",
    "price": 86.7309,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 09:49",
    "created_ts": 1790948969,
    "why": "close 100% at +0.4% over the average cost",
@@ -6574,14 +6576,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:48"
   },
   {
    "id": "7bc0e25e",
    "ticker": "CCJ",
    "kind": "buy_limit",
    "price": 83.808,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:49",
    "created_ts": 1790948969,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6591,7 +6594,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6e875086",
@@ -7325,8 +7330,8 @@
    "id": "cc41423f",
    "ticker": "CCJ",
    "kind": "trailing_stop",
-   "price": 84.819,
-   "status": "working",
+   "price": 85.015,
+   "status": "cancelled",
    "created": "2026-10-02 10:41",
    "created_ts": 1790952067,
    "why": "Lock in gains if CCJ runs, protect against reversal with trailing stop since ratchet arm has 100% win rate in experiment data",
@@ -7337,9 +7342,11 @@
    "good_until": "2026-10-02",
    "pct_of_position": 100.0,
    "trail_pct": 2.0,
-   "high_water": 86.55,
+   "high_water": 86.75,
    "hw_bar_t": 1790952300,
-   "hw_before_bar": 86.46
+   "hw_before_bar": 86.46,
+   "closed": "2026-10-02 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6b1fc06c",
@@ -7409,5 +7416,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-02 10:41"
+ "updated": "2026-10-02 10:48"
 }
