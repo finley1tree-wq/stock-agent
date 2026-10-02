@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "7157785f",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 444.9002,
-   "status": "cancelled",
-   "created": "2026-09-30 10:41",
-   "created_ts": 1790779295,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $458.66",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4756ad2e",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 105.5989,
-   "status": "cancelled",
-   "created": "2026-09-30 10:41",
-   "created_ts": 1790779295,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $105.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "27b4972c",
-   "ticker": "NLR",
-   "kind": "buy_limit",
-   "price": 102.0828,
-   "status": "cancelled",
-   "created": "2026-09-30 10:41",
-   "created_ts": 1790779295,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $105.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 12:11",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ee75b920",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -7270,7 +7213,7 @@
    "ticker": "O",
    "kind": "buy_limit",
    "price": 53.935,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 10:56",
    "created_ts": 1790953012,
    "why": "wanted it, but not at the high \u2014 resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -7281,7 +7224,8 @@
     "patience"
    ],
    "good_until": "2026-10-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 11:23"
   },
   {
    "id": "ccf7f7ab",
@@ -7401,7 +7345,58 @@
    ],
    "good_until": "2026-10-07",
    "usd": 500.0
+  },
+  {
+   "id": "e5782839",
+   "ticker": "O",
+   "kind": "take_profit",
+   "price": 54.0387,
+   "status": "working",
+   "created": "2026-10-02 11:23",
+   "created_ts": 1790954596,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $53.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7a940ca0",
+   "ticker": "O",
+   "kind": "stop_loss",
+   "price": 53.6935,
+   "status": "working",
+   "created": "2026-10-02 11:23",
+   "created_ts": 1790954596,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $53.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "55fe37ff",
+   "ticker": "O",
+   "kind": "buy_limit",
+   "price": 52.3218,
+   "status": "working",
+   "created": "2026-10-02 11:23",
+   "created_ts": 1790954596,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $53.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-02 11:13"
+ "updated": "2026-10-02 11:23"
 }

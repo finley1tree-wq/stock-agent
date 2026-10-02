@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 5224.28,
-  "deployed": 358375.18,
+  "spent": 5724.28,
+  "deployed": 358875.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
@@ -21,7 +21,7 @@
     "MSFT": 19.35,
     "TPL": 3.17,
     "NLR": 4.98,
-    "O": 0.49,
+    "O": 500.49,
     "PLD": 500.04,
     "GLD": 500.0,
     "HD": 1050.0,
@@ -61,7 +61,7 @@
     "SKWD": 2875.0,
     "GLD": 1000.0,
     "KO": 1000.0,
-    "O": 500.0,
+    "O": 1000.0,
     "PLD": 1000.0,
     "XENE": 950.0,
     "PG": 2500.0,
@@ -8203,12 +8203,36 @@
       ],
       "evidence": "bought 90 min ago, -1.38% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "O",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.270418,
+      "price": 53.94,
+      "date": "2026-10-02",
+      "time_et": "11:23",
+      "ts": 1790954400,
+      "why": "wanted it, but not at the high \u2014 resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "O at 85.7% of day range, +1.27% 1d, real-estate diversification away from gold/nuclear/entertainment cluster that dominates the book",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 5105.69,
-  "deployed_today": 53600.0,
-  "orders_today": 32,
+  "spent_today": 5605.69,
+  "deployed_today": 54100.0,
+  "orders_today": 33,
   "sells_today": 21,
   "sold_today": [
     "CRWD",
@@ -8271,44 +8295,46 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790953782,
-  "last_check_ts": 1790954513,
+  "last_publish_ts": 1790954596,
+  "last_check_ts": 1790954596,
   "last_bar_ts": 1790954400,
   "last_decision_ts": 1790953988,
   "next_check_minutes": 20,
   "autopiloted": false,
   "book_px": {
-    "24f3dcb5": 53.935,
-    "811e5765": 129.4865,
-    "8c90cb0b": 330.9,
     "15cdfb8a": 53.8965,
-    "6a948f2b": 333.1714,
+    "e5782839": 54.0387,
+    "8c90cb0b": 330.9,
     "8c4f6136": 330.6448,
-    "5404d18d": 90.2151,
-    "ccf7f7ab": 345.9375,
+    "6a948f2b": 333.1714,
+    "811e5765": 129.4865,
+    "7a940ca0": 53.6935,
     "f680ce74": 378.0,
+    "5404d18d": 90.2151,
     "9d40d2e0": 253.2964,
     "52bf4897": 279.0,
+    "ccf7f7ab": 345.9375,
+    "8ce4841e": 338.0,
     "7669a572": 384.9532,
-    "5e16e2ad": 116.3647,
     "abb60af8": 247.5,
-    "7c46f8fc": 286.2352,
-    "34871ba3": 349.5,
-    "0f01fab4": 131.2,
     "4844d4bb": 88.3,
     "4cf9bac4": 126.9,
-    "8ce4841e": 338.0,
-    "49629f0b": 276.5858,
-    "28e82bca": 91.5,
-    "4cd73983": 372.7225,
+    "5e16e2ad": 116.3647,
+    "7c46f8fc": 286.2352,
     "985c7823": 112.5,
     "4848d50a": 112.4812,
-    "ded011e5": 245.119,
-    "f53378d1": 257.5,
-    "bbe3e75b": 87.3776,
+    "49629f0b": 276.5858,
+    "0f01fab4": 131.2,
+    "4cd73983": 372.7225,
+    "34871ba3": 349.5,
+    "28e82bca": 91.5,
     "bfeba999": 334.5724,
+    "ded011e5": 245.119,
+    "bbe3e75b": 87.3776,
+    "f53378d1": 257.5,
+    "31afc90d": 125.3725,
     "bbe1de8b": 322.4765,
-    "31afc90d": 125.3725
+    "55fe37ff": 52.3218
   },
   "hold_arm": {
     "RTX": 90,
@@ -8320,15 +8346,6 @@
     "XENE": 90
   },
   "exp_arm": {
-    "FWONK": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "GLD": {
       "params": {
         "hold_minutes": 90,
@@ -8393,6 +8410,15 @@
       }
     },
     "AAPL": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "O": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"

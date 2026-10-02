@@ -1,18 +1,3 @@
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: It's 13:53 ET and no_new_entries_after_et is 14:00 - essentially at the entry cutoff with only 7 minutes left, so any new market buy would likely be dropped or filled at a bad instant. I already have 13 buy_limit triggers working across diversified names (CHRW, TSM, LTH, NVDA, LEN, HUBB, SKWD, GPI, XENE, ACN) at sensible levels below market, which is the correct way to capture entries without chasing extended prices - all named tickers are high in their day range (TSM 93%, NVDA 81%, CHRW 99.6%, HUBB 88%) so market buys would violate max_entry_range_pct guardrails anyway. ACN position is protected with take_profit/stop_loss/scale-in bracket already in place. No new market orders proposed since the cutoff is imminent; let standing limits do the work.
-lesson: With no_new_entries_after_et at 14:00, the last check before cutoff should rely on already-placed buy_limit triggers rather than attempt fresh market buys that will be rejected or chase an extended price.
-portfolio: equity $25221.50 (+0.89% on $25000.00 in) · cash $24471.82 · realised +221.82
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 15 resting buy order(s): past the entry cutoff)
-
-## 2026-10-01 14:03 ET (Thursday) — week 2026-W40 — budget left $24140.26 (today $58300.00 put to work, 56 buys, 54 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
@@ -398,3 +383,18 @@ Done: 0 sell(s), 2 buy(s); 33 order(s) working; budget left $17886.14 this week
 ## 2026-10-02 11:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% FWONK [time stop] -> $2464.58 (-1.42%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 11:13 ET (Friday) — week 2026-W40 — budget left $19775.72 (today $53600.00 put to work, 32 buys, 21 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Already at 8/8 min_positions with working protective stops/take-profits on every holding plus standing buy_limit adds already queued (AAPL, O x2, HD, GLD, NEM, AMZN, GOOGL, VNQ, PLD averaging-in triggers). Today's realized track record shows every new buy since 09:32 has been negative on that check's avg_pct (-0.53 to -1.09), suggesting chasing more entries intraday at 11am (PROBATION hour, momentum/news signal mixes also PROBATION/CULLED) has not worked; no new evidence (headline/filing) justifies adding a 9th/10th name right now beyond what's already queued. Cash stays idle but all 8 positions are protected with brackets and dip-buy limits already resting, so the book is working without forcing a weak entry.
+lesson: On 2026-10-02, repeated forced entries every check from 09:32-10:56 at PROBATION hours all realized negative avg_pct that check (-0.24 to -1.09%); once min_positions is met and protective brackets are in place, holding without new chasing entries is preferable to forcing another name just to deploy idle cash.
+portfolio: equity $25316.60 (+1.27% on $25000.00 in) · cash $20107.31 · realised +357.31
+Decision: nothing at this check. 31 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- BUY $500.00 O [buy_limit @ $53.94] — wanted it, but not at the high — resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-02 11:23 ET — tick — 0 sell(s), 1 buy(s) from standing orders
