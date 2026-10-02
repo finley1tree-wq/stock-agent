@@ -1,8 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Below min_positions (5 of 8) with 89% cash idle - the biggest cost per counterfactual data (idle_share 0.52, idle checks cost money). Adding LMT, NOC, KO, HLI diversifies sectors away from the current widely_held/nuclear cluster (GOOGL, UNH, TSM, IBM, NLR), each backed by concrete headline/congress evidence. ACN is in cooldown so dropping that one, keeping 4 new names at $1500-2000 each to reach 9 positions total.
-lesson: Reaching min_positions with sector-diverse, evidence-backed names beats sitting on idle cash; but avoid re-proposing cooling-off tickers like ACN.
-  (dropped ACN: sold 2 min ago, cooling off)
-  (dropped NOC: 98% up today's range — resting a limit at $484.51 instead of chasing)
 - BUY $500.00 LMT [filled] ['news', 'momentum'] — Defense demand catalyst with AEGIS contract news, diversifies away from widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: LMT headline 'Can AEGIS Combat System Demand Boost Lockheed Martin's Growth?' and stock +66% run per Simply Wall St piece, defense sector hit_rate 0.55 in track record
 - BUY $375.00 KO [filled] ['congress', 'news'] — Defensive consumer staple diversifier, low beta, congress pressure signal [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net buy pressure +1.0 on KO; headline 'Pepsi vs Coke: Here's What $10,000 Could Be Worth by 2031'
 - BUY $375.00 HLI [filled] ['news', 'insider'] — Financials sector diversifier with M&A tailwind evidence [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline '3 Investment Bank Stocks Tied To The UK M And A Recovery' names HLI; congress net buy pressure +2.0 on HLI
@@ -398,3 +393,8 @@ Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $130.26] -> $3010.42 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $208.75] -> $3015.40 (+0.51%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.10] -> $2510.59 (+0.42%) — close 100% at +0.5% over the average cost
+## 2026-10-02 09:47 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,10 +1,10 @@
 {
   "week": "2026-W40",
-  "spent": 7988.74,
+  "spent": 2462.75,
   "deployed": 345275.18,
   "by_ticker": {
     "AVGO": 28.22,
-    "TTD": 2535.61,
+    "TTD": 25.02,
     "AAPL": 4.26,
     "PLTR": 16.2,
     "RTX": 7.19,
@@ -23,8 +23,7 @@
     "TPL": 3.17,
     "NLR": 4.98,
     "O": 0.49,
-    "PLD": 0.04,
-    "ACN": 3009.27
+    "PLD": 0.04
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -7625,13 +7624,55 @@
       ],
       "evidence": "average cost $129.81",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 14.445194,
+      "status": "filled",
+      "price": 208.75,
+      "proceeds": 3015.4,
+      "realized_pnl": 15.4,
+      "realized_pct": 0.51,
+      "date": "2026-10-02",
+      "time_et": "09:47",
+      "ts": 1790948700,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $207.68",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 207.555054,
+      "status": "filled",
+      "price": 12.1,
+      "proceeds": 2510.59,
+      "realized_pnl": 10.59,
+      "realized_pct": 0.42,
+      "date": "2026-10-02",
+      "time_et": "09:47",
+      "ts": 1790948700,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $12.04",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 7870.15,
+  "spent_today": 2344.16,
   "deployed_today": 40500.0,
   "orders_today": 15,
-  "sells_today": 11,
+  "sells_today": 13,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -7643,14 +7684,16 @@
     "SKWD",
     "CHRW",
     "NOC",
-    "HLI"
+    "HLI",
+    "ACN",
+    "TTD"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
     "TSM": 1790948278,
     "LEN": 1790869768,
     "AMD": 1790870209,
-    "ACN": 1790878742,
+    "ACN": 1790948836,
     "MSFT": 1790867766,
     "NOC": 1790948559,
     "UNH": 1790872276,
@@ -7658,7 +7701,7 @@
     "NVDA": 1790862664,
     "GOOGL": 1790871358,
     "AVGO": 1790948193,
-    "TTD": 1790861960,
+    "TTD": 1790948836,
     "HD": 1790865277,
     "AMZN": 1790867409,
     "META": 1790868049,
@@ -7683,22 +7726,16 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790948802,
-  "last_check_ts": 1790948802,
+  "last_publish_ts": 1790948835,
+  "last_check_ts": 1790948881,
   "last_bar_ts": 1790948700,
   "last_decision_ts": 1790948360,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "5c6b62c9": 12.096,
     "7e3a3af6": 92.2202,
-    "f881f583": 208.7475,
-    "fe5e58ef": 203.5,
     "8bf7d742": 90.0,
-    "7d253bc2": 201.4496,
-    "b50b6e17": 89.2109,
-    "3e882c08": 11.6788,
-    "a89623be": 11.55
+    "b50b6e17": 89.2109
   },
   "hold_arm": {
     "RTX": 90,

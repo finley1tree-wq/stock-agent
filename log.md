@@ -21488,3 +21488,8 @@ Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
   (cancelled 2 standing order(s) on HLI: position closed)
 - SELL 100% HLI [take_profit @ $130.26] -> $3010.42 (+0.35%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $208.75] -> $3015.40 (+0.51%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on TTD: position closed)
+- SELL 100% TTD [take_profit @ $12.10] -> $2510.59 (+0.42%) — close 100% at +0.5% over the average cost
+## 2026-10-02 09:47 ET — tick — 2 sell(s), 0 buy(s) from standing orders
