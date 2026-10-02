@@ -51826,7 +51826,7 @@
     "code_version": "3fc9d9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.7
   },
   {
     "symbol": "SKWD",
@@ -52224,7 +52224,7 @@
     "code_version": "b2bddca",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.51
+    "ret_now": -0.32
   },
   {
     "symbol": "GOOGL",
@@ -52257,7 +52257,9 @@
     "code_version": "0f09c01",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLTR",
@@ -52286,7 +52288,8 @@
     "hour_et": 9,
     "code_version": "cede422",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.15
   },
   {
     "symbol": "MSFT",
@@ -52315,7 +52318,10 @@
     "hour_et": 9,
     "code_version": "cede422",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.25,
+    "ret_now": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "GLD",
@@ -52344,7 +52350,8 @@
     "hour_et": 9,
     "code_version": "cede422",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.19
   },
   {
     "symbol": "GOOGL",
@@ -52370,7 +52377,8 @@
     "evidence": "average cost $343.09",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "e99323c"
+    "code_version": "e99323c",
+    "hold_minutes": 10
   },
   {
     "symbol": "UNH",
@@ -52401,7 +52409,10 @@
     "hour_et": 10,
     "code_version": "e99323c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.21,
+    "ret_now": 0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -52426,7 +52437,8 @@
     "evidence": "average cost $516.81",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "ce90085"
+    "code_version": "ce90085",
+    "hold_minutes": 0
   },
   {
     "symbol": "UNH",
@@ -52451,6 +52463,94 @@
     "evidence": "average cost $365.8",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "ce59282"
+    "code_version": "ce59282",
+    "hold_minutes": 5
+  },
+  {
+    "symbol": "LMT",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.239731,
+    "price": 504.14,
+    "date": "2026-10-02",
+    "time_et": "10:10",
+    "ts": 1790950208,
+    "why": "Diversify into defense sector, currently 0% weight, to broaden book beyond CCJ/FWONK/PLTR/GLD per repeated past-lesson guidance [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "defense sector avg_ret_pct -0.02% hit_rate 0.53 in track_record; RTX/NOC/LMT watchlist diversifies from nuclear/entertainment cluster, LMT atr_pct 2.2 modest range at 74.5% of day",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 503.94,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -5.19,
+    "hour_et": 10,
+    "code_version": "479afaf",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NEM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.30491,
+    "price": 116.15,
+    "date": "2026-10-02",
+    "time_et": "10:10",
+    "ts": 1790950208,
+    "why": "Add second gold name alongside GLD, gold is best-performing sector bucket in track record [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "gold sector track_record avg_ret_pct 0.03% hit_rate 0.58, best of all sectors; NEM change_1d +1.25%, 51% of day range (not chasing)",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 116.1,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.24,
+    "hour_et": 10,
+    "code_version": "479afaf",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HD",
+    "notional": 550.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.926397,
+    "price": 285.51,
+    "date": "2026-10-02",
+    "time_et": "10:10",
+    "ts": 1790950208,
+    "why": "Widely-held name at reasonable range position, adds diversification outside nuclear/entertainment/gold cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Kevin Hern disclosed multiple HD sells but earlier insider/congress interest recorded; HD +1.06% today, 35% of day range, widely_held sector n=448 avg 0.0% hit_rate 0.56",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 285.45,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.38,
+    "hour_et": 10,
+    "code_version": "479afaf",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 6002.94,
-  "deployed": 352375.18,
+  "spent": 7677.94,
+  "deployed": 354050.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
@@ -9,8 +9,8 @@
     "PLTR": 566.2,
     "RTX": 7.19,
     "AMD": 38.67,
-    "LMT": 29.37,
-    "NEM": 2.9,
+    "LMT": 654.37,
+    "NEM": 502.9,
     "AMZN": 4.75,
     "NVDA": 20.57,
     "CCJ": 2522.05,
@@ -23,7 +23,8 @@
     "NLR": 4.98,
     "O": 0.49,
     "PLD": 0.04,
-    "GLD": 500.0
+    "GLD": 500.0,
+    "HD": 550.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -41,13 +42,13 @@
     "GOOGL": 17247.06,
     "AAPL": 7000.0,
     "AMZN": 5000.0,
-    "HD": 5072.24,
+    "HD": 5622.24,
     "IBM": 13902.94,
     "META": 4500.0,
     "RTX": 12425.0,
     "CCJ": 22575.0,
-    "LMT": 9250.0,
-    "NEM": 5125.0,
+    "LMT": 9875.0,
+    "NEM": 5625.0,
     "HLI": 9575.0,
     "FWONK": 4625.0,
     "NLR": 3025.0,
@@ -7860,12 +7861,75 @@
       ],
       "evidence": "average cost $365.8",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "LMT",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.239731,
+      "price": 504.14,
+      "date": "2026-10-02",
+      "time_et": "10:10",
+      "ts": 1790950208,
+      "why": "Diversify into defense sector, currently 0% weight, to broaden book beyond CCJ/FWONK/PLTR/GLD per repeated past-lesson guidance [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "defense sector avg_ret_pct -0.02% hit_rate 0.53 in track_record; RTX/NOC/LMT watchlist diversifies from nuclear/entertainment cluster, LMT atr_pct 2.2 modest range at 74.5% of day",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NEM",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.30491,
+      "price": 116.15,
+      "date": "2026-10-02",
+      "time_et": "10:10",
+      "ts": 1790950208,
+      "why": "Add second gold name alongside GLD, gold is best-performing sector bucket in track record [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "gold sector track_record avg_ret_pct 0.03% hit_rate 0.58, best of all sectors; NEM change_1d +1.25%, 51% of day range (not chasing)",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "HD",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.926397,
+      "price": 285.51,
+      "date": "2026-10-02",
+      "time_et": "10:10",
+      "ts": 1790950208,
+      "why": "Widely-held name at reasonable range position, adds diversification outside nuclear/entertainment/gold cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Kevin Hern disclosed multiple HD sells but earlier insider/congress interest recorded; HD +1.06% today, 35% of day range, widely_held sector n=448 avg 0.0% hit_rate 0.56",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 5884.35,
-  "deployed_today": 47600.0,
-  "orders_today": 21,
+  "spent_today": 7559.35,
+  "deployed_today": 49275.0,
+  "orders_today": 24,
   "sells_today": 16,
   "sold_today": [
     "CRWD",
@@ -7923,25 +7987,36 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790949991,
-  "last_check_ts": 1790950120,
-  "last_bar_ts": 1790949900,
-  "last_decision_ts": 1790949579,
-  "next_check_minutes": 10,
+  "last_publish_ts": 1790950208,
+  "last_check_ts": 1790950208,
+  "last_bar_ts": 1790950200,
+  "last_decision_ts": 1790950208,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "5bf32f82": 505.3751,
+    "7c46f8fc": 286.2352,
+    "224aded2": 116.5542,
     "7669a572": 384.9532,
+    "39a8ed6d": 332.447,
     "ae68b8c7": 193.0234,
     "46e34796": 86.7309,
+    "8c90cb0b": 330.9,
     "7e3a3af6": 92.2202,
-    "f680ce74": 378.0,
     "8bf7d742": 90.0,
-    "1bf8338c": 188.0,
+    "f680ce74": 378.0,
     "c9e6ec4a": 84.3,
+    "1bf8338c": 188.0,
+    "52bf4897": 279.0,
     "b50b6e17": 89.2109,
+    "a143eafc": 492.0,
     "7bc0e25e": 83.808,
+    "4cd73983": 372.7225,
     "2d282821": 186.628,
-    "4cd73983": 372.7225
+    "39ffabfd": 489.0158,
+    "4b6b3df7": 112.6655,
+    "9321b3e0": 276.9447,
+    "985c7823": 112.5
   },
   "hold_arm": {
     "RTX": 90,
@@ -7980,15 +8055,6 @@
         "ratchet": "off"
       }
     },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "GLD": {
       "params": {
         "hold_minutes": 90,
@@ -7998,7 +8064,25 @@
         "ratchet": "off"
       }
     },
-    "UNH": {
+    "LMT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "NEM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "HD": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"

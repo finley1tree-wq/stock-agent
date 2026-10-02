@@ -21565,3 +21565,31 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $366.57] -> $501.05 (+0.21%) — close 100% at +0.2% over the average cost
 ## 2026-10-02 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 10:10 ET (Friday) — week 2026-W40 — budget left $18997.06 (today $47600.00 put to work, 21 buys, 16 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Still below min_positions (4/8) with 76% idle cash; counterfactual shows idle checks cost ~0.1-0.2%/day. Adding defense (LMT), gold (NEM), and widely-held (HD, AAPL via limit) diversifies away from the nuclear/entertainment/gold cluster already held, sized at $2000-2500 per the owner's instruction for real size. AAPL is high in its day range (95.8%) so routed as a buy_limit near a sane level instead of a chasing market order, consistent with guardrails.
+lesson: At 8/8 names check whether sector diversification (defense/widely_held/gold) genuinely reduces concentration risk versus just adding more nuclear/entertainment names - track NEM/LMT/HD results next check.
+  (dropped AAPL: 96% up today's range — resting a limit at $332.45 instead of chasing)
+- BUY $625.00 LMT [filled] ['congress', 'momentum'] — Diversify into defense sector, currently 0% weight, to broaden book beyond CCJ/FWONK/PLTR/GLD per repeated past-lesson guidance [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: defense sector avg_ret_pct -0.02% hit_rate 0.53 in track_record; RTX/NOC/LMT watchlist diversifies from nuclear/entertainment cluster, LMT atr_pct 2.2 modest range at 74.5% of day
+- BUY $500.00 NEM [filled] ['momentum', 'track_record'] — Add second gold name alongside GLD, gold is best-performing sector bucket in track record [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: gold sector track_record avg_ret_pct 0.03% hit_rate 0.58, best of all sectors; NEM change_1d +1.25%, 51% of day range (not chasing)
+- BUY $550.00 HD [filled] ['congress', 'momentum'] — Widely-held name at reasonable range position, adds diversification outside nuclear/entertainment/gold cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Kevin Hern disclosed multiple HD sells but earlier insider/congress interest recorded; HD +1.06% today, 35% of day range, widely_held sector n=448 avg 0.0% hit_rate 0.56
+  (dropped trigger AAPL stop_loss: not held)
+~ WORKING stop_loss 100% LMT @ $492.00 until 2026-10-02 — ATR-based protective stop for new LMT position
+~ WORKING stop_loss 100% NEM @ $112.50 until 2026-10-02 — ATR-based protective stop for new NEM position
+~ WORKING stop_loss 100% HD @ $279.00 until 2026-10-02 — ATR-based protective stop for new HD position
+~ WORKING buy_limit $2300.00 AAPL @ $330.90 until 2026-10-02 — Queue AAPL entry at a better level near today's low-mid range instead of chasing the high
+~ WORKING buy_limit $575.00 AAPL @ $332.45 until 2026-10-02 — wanted it, but not at the high — resting at $332.45. Widely held core name; place as buy_limit near chase_limit level since it's high in range [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% LMT @ $505.38 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $489.02 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $116.55 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $112.67 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $286.24 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HD @ $276.94 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25348.62 (+1.39% on $25000.00 in) · cash $17653.65 · realised +378.65
+Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $17322.06 this week
