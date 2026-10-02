@@ -51826,7 +51826,7 @@
     "code_version": "3fc9d9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.7
+    "ret_now": -0.89
   },
   {
     "symbol": "SKWD",
@@ -52224,7 +52224,7 @@
     "code_version": "b2bddca",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.35
   },
   {
     "symbol": "GOOGL",
@@ -52289,7 +52289,7 @@
     "code_version": "cede422",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": 0.05
   },
   {
     "symbol": "MSFT",
@@ -52351,7 +52351,7 @@
     "code_version": "cede422",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.24
   },
   {
     "symbol": "GOOGL",
@@ -52493,7 +52493,10 @@
     "hour_et": 10,
     "code_version": "479afaf",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.24,
+    "ret_now": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEM",
@@ -52522,7 +52525,8 @@
     "hour_et": 10,
     "code_version": "479afaf",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.45
   },
   {
     "symbol": "HD",
@@ -52551,7 +52555,8 @@
     "hour_et": 10,
     "code_version": "479afaf",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.44
   },
   {
     "symbol": "LMT",
@@ -52576,6 +52581,95 @@
     "evidence": "average cost $504.14",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "5f4b5ae"
+    "code_version": "5f4b5ae",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "RTX",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.383978,
+    "price": 184.69,
+    "date": "2026-10-02",
+    "time_et": "10:25",
+    "ts": 1790951145,
+    "why": "Add defense exposure at a beaten-down level (39.7% of day range) to diversify book beyond nuclear/gold/entertainment, which counterfactual flagged as over-concentrated [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "RTX -0.21% 1d, -8.05% 1m giving pullback entry; defense sector hit_rate 0.55 in track record, below ACN/HD weight already held, diversifies away from entertainment/nuclear cluster",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 184.62,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.05,
+    "hour_et": 10,
+    "code_version": "f734241",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMZN",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.473283,
+    "price": 252.7,
+    "date": "2026-10-02",
+    "time_et": "10:25",
+    "ts": 1790951145,
+    "why": "Widely-held name with positive daily momentum but not extended (68% of range), adds diversification to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "AMZN +1.78% 1d, 68% of day range, widely_held sector hit_rate 0.56 in track record - a reasonable mid-range entry, not chasing the high",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 252.65,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -0.91,
+    "hour_et": 10,
+    "code_version": "f734241",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "PLD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.868422,
+    "price": 129.25,
+    "date": "2026-10-02",
+    "time_et": "10:25",
+    "ts": 1790951145,
+    "why": "Second real-estate name to build a real diversified sleeve rather than one-off position [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "PLD +0.8% 1d, 65.7% of day range, real estate sector track record hit_rate 0.42 (weak but adds diversification), ATR 1.65% low-vol",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 129.2,
+    "sector": "real_estate",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -5.41,
+    "hour_et": 10,
+    "code_version": "f734241",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

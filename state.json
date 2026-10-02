@@ -1,17 +1,17 @@
 {
   "week": "2026-W40",
-  "spent": 7051.41,
-  "deployed": 354050.18,
+  "spent": 8801.41,
+  "deployed": 355800.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
     "AAPL": 4.26,
     "PLTR": 566.2,
-    "RTX": 7.19,
+    "RTX": 632.19,
     "AMD": 38.67,
     "LMT": 27.84,
     "NEM": 502.9,
-    "AMZN": 4.75,
+    "AMZN": 629.75,
     "NVDA": 20.57,
     "CCJ": 2522.05,
     "HLI": 18.32,
@@ -22,7 +22,7 @@
     "TPL": 3.17,
     "NLR": 4.98,
     "O": 0.49,
-    "PLD": 0.04,
+    "PLD": 500.04,
     "GLD": 500.0,
     "HD": 550.0
   },
@@ -41,11 +41,11 @@
     "NVDA": 15000.0,
     "GOOGL": 17247.06,
     "AAPL": 7000.0,
-    "AMZN": 5000.0,
+    "AMZN": 5625.0,
     "HD": 5622.24,
     "IBM": 13902.94,
     "META": 4500.0,
-    "RTX": 12425.0,
+    "RTX": 13050.0,
     "CCJ": 22575.0,
     "LMT": 9875.0,
     "NEM": 5625.0,
@@ -60,7 +60,7 @@
     "GLD": 1000.0,
     "KO": 1000.0,
     "O": 500.0,
-    "PLD": 500.0,
+    "PLD": 1000.0,
     "XENE": 950.0,
     "PG": 2500.0
   },
@@ -7945,12 +7945,76 @@
       ],
       "evidence": "average cost $504.14",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RTX",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.383978,
+      "price": 184.69,
+      "date": "2026-10-02",
+      "time_et": "10:25",
+      "ts": 1790951145,
+      "why": "Add defense exposure at a beaten-down level (39.7% of day range) to diversify book beyond nuclear/gold/entertainment, which counterfactual flagged as over-concentrated [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "congress",
+        "track_record"
+      ],
+      "evidence": "RTX -0.21% 1d, -8.05% 1m giving pullback entry; defense sector hit_rate 0.55 in track record, below ACN/HD weight already held, diversifies away from entertainment/nuclear cluster",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMZN",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.473283,
+      "price": 252.7,
+      "date": "2026-10-02",
+      "time_et": "10:25",
+      "ts": 1790951145,
+      "why": "Widely-held name with positive daily momentum but not extended (68% of range), adds diversification to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "AMZN +1.78% 1d, 68% of day range, widely_held sector hit_rate 0.56 in track record - a reasonable mid-range entry, not chasing the high",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PLD",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.868422,
+      "price": 129.25,
+      "date": "2026-10-02",
+      "time_et": "10:25",
+      "ts": 1790951145,
+      "why": "Second real-estate name to build a real diversified sleeve rather than one-off position [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "PLD +0.8% 1d, 65.7% of day range, real estate sector track record hit_rate 0.42 (weak but adds diversification), ATR 1.65% low-vol",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 6932.82,
-  "deployed_today": 49275.0,
-  "orders_today": 24,
+  "spent_today": 8682.82,
+  "deployed_today": 51025.0,
+  "orders_today": 27,
   "sells_today": 17,
   "sold_today": [
     "CRWD",
@@ -8009,33 +8073,46 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790950641,
-  "last_check_ts": 1790951053,
-  "last_bar_ts": 1790950800,
-  "last_decision_ts": 1790950208,
+  "last_publish_ts": 1790951145,
+  "last_check_ts": 1790951145,
+  "last_bar_ts": 1790951100,
+  "last_decision_ts": 1790951145,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "7669a572": 384.9532,
-    "224aded2": 116.5542,
-    "7c46f8fc": 286.2352,
-    "39a8ed6d": 332.447,
-    "46e34796": 86.7309,
+    "811e5765": 129.4865,
+    "8605d5d1": 185.0852,
+    "9d40d2e0": 253.2964,
     "ae68b8c7": 193.0234,
+    "7669a572": 384.9532,
+    "39a8ed6d": 332.447,
+    "15cdfb8a": 53.8965,
+    "7c46f8fc": 286.2352,
+    "46e34796": 86.7309,
+    "224aded2": 116.5542,
     "8c90cb0b": 330.9,
-    "7e3a3af6": 92.2202,
     "8bf7d742": 90.0,
+    "7e3a3af6": 92.2202,
     "f680ce74": 378.0,
-    "1bf8338c": 188.0,
+    "43944dd9": 187.3,
+    "0f01fab4": 131.2,
+    "4cf9bac4": 126.9,
     "52bf4897": 279.0,
-    "b50b6e17": 89.2109,
+    "f53378d1": 257.5,
+    "5431f15c": 181.0,
+    "abb60af8": 247.5,
     "c9e6ec4a": 84.3,
-    "2d282821": 186.628,
+    "b50b6e17": 89.2109,
+    "1bf8338c": 188.0,
+    "4b6b3df7": 112.6655,
     "9321b3e0": 276.9447,
     "7bc0e25e": 83.808,
+    "985c7823": 112.5,
     "4cd73983": 372.7225,
-    "4b6b3df7": 112.6655,
-    "985c7823": 112.5
+    "b0eaf0d7": 179.1493,
+    "31afc90d": 125.3725,
+    "ded011e5": 245.119,
+    "2d282821": 186.628
   },
   "hold_arm": {
     "RTX": 90,
@@ -8083,15 +8160,6 @@
         "ratchet": "off"
       }
     },
-    "LMT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "NEM": {
       "params": {
         "hold_minutes": 90,
@@ -8108,6 +8176,33 @@
       },
       "tags": {
         "ratchet": "on"
+      }
+    },
+    "RTX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "AMZN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "PLD": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
       }
     }
   }

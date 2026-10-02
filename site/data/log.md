@@ -1,34 +1,3 @@
-- BUY $750.00 ACN [filled] ['news', 'congress', 'track_record'] — Strong earnings-driven breakout with congressional buy pressure confirming; cooling-off from earlier sale already expired given 45min cooldown (not in cooling_off_minutes_left list) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: ACN +18.16% today, 'Accenture Stock Is Heading for Its Best Day Ever. AI Isn't the Threat Everyone Thought' - Barron's; congress buy pressure score 2.0 (Scott Franklin, Gilbert Ray Cisneros)
-~ WORKING stop_loss 100% ACN @ $212.00 until 2026-10-01 — bound downside after a large one-day move
-~ WORKING take_profit 50% ACN @ $225.00 until 2026-10-01 — take partial profit near day high
-~ WORKING take_profit 100% ACN @ $217.81 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $210.21 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25212.43 (+0.85% on $25000.00 in) · cash $21838.99 · realised +213.99
-Done: 0 sell(s), 1 buy(s); 25 order(s) working; budget left $21507.42 this week
-- SELL 100% NOC [time stop] -> $499.95 (-0.01%) — held 30 min, the 30-minute limit: out regardless
-## 2026-10-01 12:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 13:04 ET (Thursday) — week 2026-W40 — budget left $22007.37 (today $57250.00 put to work, 54 buys, 48 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Below min_positions (5 of 8) with 88% cash idle - counterfactual data shows idle checks cost the account on average. Adding HUBB (top congress score), CCJ (nuclear catalyst headline), SKWD (congress+news), and XENE (dual CEO+CFO insider buy, the strongest signal type per past lessons) diversifies sectors away from the existing defense/gold/freight cluster while keeping each position in the $2000-2200 size band. Entry cutoff is 14:00 so this is near the last window for new buys today.
-lesson: Dual-insider (CEO+CFO same filing date) and top congress-score names are the clearest evidence-backed entries; prioritize these to hit min_positions before the 14:00 cutoff rather than trickling small amounts.
-  (dropped HUBB: 99% up today's range — resting a limit at $455.12 instead of chasing)
-  (dropped SKWD: 93% up today's range — resting a limit at $53.59 instead of chasing)
-- BUY $550.00 CCJ [filled] ['news', 'momentum'] — Nuclear/uranium theme has strong backtest sector performance (avg_total_return 269-282% in priors) and fresh positive catalyst headline [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline 'South Korea Set to Invest $200 Billion in the U.S. These 4 Companies Should Benefit' names CCJ; currently 46.9% of day range, not chasing the high
-- BUY $500.00 XENE [filled] ['insider', 'news'] — Dual C-suite insider buy is the strongest concrete signal in the data, biotech catalyst pending FDA filing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CFO Thomas Patrick Kelly bought 15,000 shares and CEO Ian Mortimer bought 30,000 shares both on 2026-09-30 same filing date - dual insider buy; headline 'Xenon Files Azetukalner NDA' positive catalyst
-  (dropped trigger HUBB buy_limit: duplicate of a working order)
-~ WORKING buy_limit $525.00 SKWD @ $53.59 until 2026-10-01 — wanted it, but not at the high — resting at $53.59. insurance diversification name already flagged by desk with congress pressure [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% CCJ @ $85.79 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% CCJ @ $84.54 until 2026-10-06 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 CCJ @ $82.87 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% XENE @ $39.75 until 2026-10-06 — close 100% at +0.8% over the average cost
-~ WORKING stop_loss 100% XENE @ $38.60 until 2026-10-06 — close it all at -2.1% under the average cost
-~ WORKING buy_limit $500.00 XENE @ $38.24 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25213.91 (+0.86% on $25000.00 in) · cash $21288.94 · realised +213.94
 Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $20957.37 this week
   (cancelled 2 standing order(s) on CHRW: position closed)
@@ -398,3 +367,34 @@ Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $17322.06 this week
   (cancelled 2 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $505.38] -> $626.53 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-02 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 10:25 ET (Friday) — week 2026-W40 — budget left $17948.59 (today $49275.00 put to work, 24 buys, 17 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Below min_positions (6/8) with 71.8% cash idle - the repeated lesson is to deploy into diversified sectors rather than clustering further in nuclear/entertainment/gold which already has CCJ/FWONK/NEM/GLD. Adding RTX (defense, pulled back -8% 1m, not extended in range), AMZN (widely-held, modest momentum, mid-range entry), and O+PLD (real estate, genuinely new sector sleeve) brings us to 8 positions with real diversification per the counterfactual's repeated flag on over-concentration. All entries are mid-range (not chasing highs) and sized $2000-2500 per the owner's sizing guidance.
+lesson: Real diversification (defense/widely-held/real-estate) beyond the existing nuclear/gold/entertainment cluster is the fix for the repeated idle/concentration lesson - track RTX/AMZN/O/PLD next check to see if this genuinely reduces drawdown correlation versus adding more CCJ/FWONK/NEM.
+  (dropped O: 95% up today's range — resting a limit at $53.90 instead of chasing)
+- BUY $625.00 RTX [filled] ['momentum', 'congress', 'track_record'] — Add defense exposure at a beaten-down level (39.7% of day range) to diversify book beyond nuclear/gold/entertainment, which counterfactual flagged as over-concentrated [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: RTX -0.21% 1d, -8.05% 1m giving pullback entry; defense sector hit_rate 0.55 in track record, below ACN/HD weight already held, diversifies away from entertainment/nuclear cluster
+- BUY $625.00 AMZN [filled] ['momentum', 'track_record'] — Widely-held name with positive daily momentum but not extended (68% of range), adds diversification to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: AMZN +1.78% 1d, 68% of day range, widely_held sector hit_rate 0.56 in track record - a reasonable mid-range entry, not chasing the high
+- BUY $500.00 PLD [filled] ['momentum', 'track_record'] — Second real-estate name to build a real diversified sleeve rather than one-off position [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: PLD +0.8% 1d, 65.7% of day range, real estate sector track record hit_rate 0.42 (weak but adds diversification), ATR 1.65% low-vol
+  (dropped trigger O stop_loss: not held)
+  (dropped trigger O take_profit: not held)
+~ WORKING stop_loss 100% RTX @ $181.00 until 2026-10-02 — ATR-based protective stop for new RTX position
+~ WORKING take_profit 100% RTX @ $187.30 until 2026-10-07 — lock in gain if RTX pops
+~ WORKING stop_loss 100% AMZN @ $247.50 until 2026-10-02 — ATR-based protective stop for new AMZN position
+~ WORKING take_profit 100% AMZN @ $257.50 until 2026-10-07 — lock in gain if AMZN pops
+~ WORKING stop_loss 100% PLD @ $126.90 until 2026-10-02 — ATR-based protective stop for new PLD position
+~ WORKING take_profit 100% PLD @ $131.20 until 2026-10-07 — lock in gain if PLD pops
+~ WORKING buy_limit $500.00 O @ $53.90 until 2026-10-02 — wanted it, but not at the high — resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% RTX @ $185.09 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $179.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $253.30 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $245.12 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $129.49 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $125.37 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25340.56 (+1.36% on $25000.00 in) · cash $16530.18 · realised +380.18
+Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $16198.59 this week

@@ -1,251 +1,6 @@
 {
  "orders": [
   {
-   "id": "1ac71cc5",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 11.6788,
-   "status": "cancelled",
-   "created": "2026-09-30 09:32",
-   "created_ts": 1790775163,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $12.04",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 09:38",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7460935d",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 515.0325,
-   "status": "cancelled",
-   "created": "2026-09-30 10:02",
-   "created_ts": 1790776967,
-   "why": "wanted it, but not at the high \u2014 resting at $515.03. Strong momentum plus AI infra tailwind headline, adding a widely_held name to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "MSFT +1.91% today, pct_of_day_range 97.5, headline 'AI in America has a huge 1.7 million job shortage problem' supporting AI capex thesis",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 750.0,
-   "closed": "2026-09-30 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "acbe23a4",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 348.4635,
-   "status": "filled",
-   "created": "2026-09-30 10:02",
-   "created_ts": 1790776967,
-   "why": "wanted it, but not at the high \u2014 resting at $348.46. Strong 1d momentum with AI-policy tailwind news, diversifies into widely_held sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "GOOGL +3.09% today, pct_of_day_range 92.3, headline on Trump/AI leaders meeting with Karp/Huang",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 750.0,
-   "closed": "2026-09-30 10:38"
-  },
-  {
-   "id": "c240ea1f",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 88.4347,
-   "status": "filled",
-   "created": "2026-09-30 10:02",
-   "created_ts": 1790776967,
-   "why": "wanted it, but not at the high \u2014 resting at $88.43. Nuclear theme momentum plus bullish analyst coverage, adds sector diversification beyond defense/tech [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "CCJ +3.38% today at day high (pct_of_day_range 97.0), Zacks headline 'Wall Street Bulls Look Optimistic About Cameco'",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 750.0,
-   "closed": "2026-09-30 10:32"
-  },
-  {
-   "id": "9fb44c6e",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 114.7,
-   "status": "cancelled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "Protective stop below day range",
-   "evidence": "ATR 3.32%, day low 116.45",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:12",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "03866069",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 449.5,
-   "status": "cancelled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "Protective stop below day range",
-   "evidence": "ATR 2.15%, day low 454.9",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b52730f4",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 515.5548,
-   "status": "cancelled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "wanted it, but not at the high \u2014 resting at $515.55. Strong AI infra tailwind and momentum, widely_held sector adding to min_positions; buying at market since below chase limit isn't hit at current price near range top - using limit-like si",
-   "evidence": "MSFT +1.87% 1d, 86% of day range, headline 'Nvidia CEO: AI data center build-out could create 1 million jobs' 2026-09-30",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 750.0,
-   "closed": "2026-09-30 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "2bafd63f",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 348.601,
-   "status": "filled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "wanted it, but not at the high \u2014 resting at $348.60. Broad AI-policy tailwind news plus strong momentum, diversifies widely_held exposure [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "GOOGL +3.28% 1d, +4.23% 5d, headline 'AI companies just signed a White House accord' 2026-09-30",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 750.0,
-   "closed": "2026-09-30 10:36"
-  },
-  {
-   "id": "21d7c567",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 117.5722,
-   "status": "filled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $117.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:12"
-  },
-  {
-   "id": "66ab9a9a",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 113.6258,
-   "status": "cancelled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $117.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 10:12",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1726ede5",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 459.7917,
-   "status": "cancelled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $458.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "383579d2",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 444.939,
-   "status": "cancelled",
-   "created": "2026-09-30 10:08",
-   "created_ts": 1790777333,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $458.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 10:38",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "cced00c4",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 473.0,
-   "status": "cancelled",
-   "created": "2026-09-30 10:25",
-   "created_ts": 1790778311,
-   "why": "protective stop below today's range floor",
-   "evidence": "NOC day_low 480.0, ATR 2.51%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:32",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "827206c6",
    "ticker": "CCJ",
    "kind": "stop_loss",
@@ -7424,7 +7179,223 @@
    ],
    "good_until": "2026-10-07",
    "usd": 500.0
+  },
+  {
+   "id": "5431f15c",
+   "ticker": "RTX",
+   "kind": "stop_loss",
+   "price": 181.0,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "ATR-based protective stop for new RTX position",
+   "evidence": "RTX ATR 1.93%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "43944dd9",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 187.3,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "lock in gain if RTX pops",
+   "evidence": "take profit near +1.5% over entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "abb60af8",
+   "ticker": "AMZN",
+   "kind": "stop_loss",
+   "price": 247.5,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "ATR-based protective stop for new AMZN position",
+   "evidence": "AMZN ATR 2.13%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f53378d1",
+   "ticker": "AMZN",
+   "kind": "take_profit",
+   "price": 257.5,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "lock in gain if AMZN pops",
+   "evidence": "take profit near +2% over entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4cf9bac4",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 126.9,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "ATR-based protective stop for new PLD position",
+   "evidence": "PLD ATR 1.65%, protect new position",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0f01fab4",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 131.2,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "lock in gain if PLD pops",
+   "evidence": "take profit near +1.5% over entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "15cdfb8a",
+   "ticker": "O",
+   "kind": "buy_limit",
+   "price": 53.8965,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "wanted it, but not at the high \u2014 resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "O +1.3% 1d, real estate sector weight_pct currently 0 in book; price 94.6% of day range shows strength but ATR 1.6% is low-vol defensive REIT",
+   "signals": [
+    "momentum",
+    "track_record",
+    "patience"
+   ],
+   "good_until": "2026-10-02",
+   "usd": 500.0
+  },
+  {
+   "id": "8605d5d1",
+   "ticker": "RTX",
+   "kind": "take_profit",
+   "price": 185.0852,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $184.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b0eaf0d7",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 179.1493,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $184.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "9d40d2e0",
+   "ticker": "AMZN",
+   "kind": "take_profit",
+   "price": 253.2964,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $252.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ded011e5",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 245.119,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $252.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "811e5765",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 129.4865,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $129.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "31afc90d",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 125.3725,
+   "status": "working",
+   "created": "2026-10-02 10:25",
+   "created_ts": 1790951145,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $129.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-02 10:17"
+ "updated": "2026-10-02 10:25"
 }

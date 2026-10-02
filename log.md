@@ -21596,3 +21596,34 @@ Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $17322.06 this week
   (cancelled 2 standing order(s) on LMT: position closed)
 - SELL 100% LMT [take_profit @ $505.38] -> $626.53 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-02 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 10:25 ET (Friday) — week 2026-W40 — budget left $17948.59 (today $49275.00 put to work, 24 buys, 17 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Below min_positions (6/8) with 71.8% cash idle - the repeated lesson is to deploy into diversified sectors rather than clustering further in nuclear/entertainment/gold which already has CCJ/FWONK/NEM/GLD. Adding RTX (defense, pulled back -8% 1m, not extended in range), AMZN (widely-held, modest momentum, mid-range entry), and O+PLD (real estate, genuinely new sector sleeve) brings us to 8 positions with real diversification per the counterfactual's repeated flag on over-concentration. All entries are mid-range (not chasing highs) and sized $2000-2500 per the owner's sizing guidance.
+lesson: Real diversification (defense/widely-held/real-estate) beyond the existing nuclear/gold/entertainment cluster is the fix for the repeated idle/concentration lesson - track RTX/AMZN/O/PLD next check to see if this genuinely reduces drawdown correlation versus adding more CCJ/FWONK/NEM.
+  (dropped O: 95% up today's range — resting a limit at $53.90 instead of chasing)
+- BUY $625.00 RTX [filled] ['momentum', 'congress', 'track_record'] — Add defense exposure at a beaten-down level (39.7% of day range) to diversify book beyond nuclear/gold/entertainment, which counterfactual flagged as over-concentrated [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: RTX -0.21% 1d, -8.05% 1m giving pullback entry; defense sector hit_rate 0.55 in track record, below ACN/HD weight already held, diversifies away from entertainment/nuclear cluster
+- BUY $625.00 AMZN [filled] ['momentum', 'track_record'] — Widely-held name with positive daily momentum but not extended (68% of range), adds diversification to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: AMZN +1.78% 1d, 68% of day range, widely_held sector hit_rate 0.56 in track record - a reasonable mid-range entry, not chasing the high
+- BUY $500.00 PLD [filled] ['momentum', 'track_record'] — Second real-estate name to build a real diversified sleeve rather than one-off position [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: PLD +0.8% 1d, 65.7% of day range, real estate sector track record hit_rate 0.42 (weak but adds diversification), ATR 1.65% low-vol
+  (dropped trigger O stop_loss: not held)
+  (dropped trigger O take_profit: not held)
+~ WORKING stop_loss 100% RTX @ $181.00 until 2026-10-02 — ATR-based protective stop for new RTX position
+~ WORKING take_profit 100% RTX @ $187.30 until 2026-10-07 — lock in gain if RTX pops
+~ WORKING stop_loss 100% AMZN @ $247.50 until 2026-10-02 — ATR-based protective stop for new AMZN position
+~ WORKING take_profit 100% AMZN @ $257.50 until 2026-10-07 — lock in gain if AMZN pops
+~ WORKING stop_loss 100% PLD @ $126.90 until 2026-10-02 — ATR-based protective stop for new PLD position
+~ WORKING take_profit 100% PLD @ $131.20 until 2026-10-07 — lock in gain if PLD pops
+~ WORKING buy_limit $500.00 O @ $53.90 until 2026-10-02 — wanted it, but not at the high — resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% RTX @ $185.09 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 RTX @ $179.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $253.30 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $245.12 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $129.49 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PLD @ $125.37 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25340.56 (+1.36% on $25000.00 in) · cash $16530.18 · realised +380.18
+Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $16198.59 this week
