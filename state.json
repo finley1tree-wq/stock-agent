@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 7677.94,
+  "spent": 7051.41,
   "deployed": 354050.18,
   "by_ticker": {
     "AVGO": 28.22,
@@ -9,7 +9,7 @@
     "PLTR": 566.2,
     "RTX": 7.19,
     "AMD": 38.67,
-    "LMT": 654.37,
+    "LMT": 27.84,
     "NEM": 502.9,
     "AMZN": 4.75,
     "NVDA": 20.57,
@@ -7924,13 +7924,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "LMT",
+      "side": "sell",
+      "qty": 1.239731,
+      "status": "filled",
+      "price": 505.38,
+      "proceeds": 626.53,
+      "realized_pnl": 1.53,
+      "realized_pct": 0.24,
+      "date": "2026-10-02",
+      "time_et": "10:17",
+      "ts": 1790950500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $504.14",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 7559.35,
+  "spent_today": 6932.82,
   "deployed_today": 49275.0,
   "orders_today": 24,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -7947,7 +7968,8 @@
     "TTD",
     "GOOGL",
     "MSFT",
-    "UNH"
+    "UNH",
+    "LMT"
   ],
   "sold_ts": {
     "PLTR": 1790864436,
@@ -7970,7 +7992,7 @@
     "IBM": 1790948426,
     "RTX": 1790877066,
     "CCJ": 1790875480,
-    "LMT": 1790872496,
+    "LMT": 1790950641,
     "NEM": 1790875903,
     "HLI": 1790948802,
     "FWONK": 1790866810,
@@ -7987,35 +8009,32 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790950208,
-  "last_check_ts": 1790950559,
+  "last_publish_ts": 1790950641,
+  "last_check_ts": 1790950641,
   "last_bar_ts": 1790950500,
   "last_decision_ts": 1790950208,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "5bf32f82": 505.3751,
-    "7c46f8fc": 286.2352,
-    "224aded2": 116.5542,
     "7669a572": 384.9532,
+    "224aded2": 116.5542,
+    "7c46f8fc": 286.2352,
     "39a8ed6d": 332.447,
-    "ae68b8c7": 193.0234,
     "46e34796": 86.7309,
+    "ae68b8c7": 193.0234,
     "8c90cb0b": 330.9,
     "7e3a3af6": 92.2202,
     "8bf7d742": 90.0,
     "f680ce74": 378.0,
-    "c9e6ec4a": 84.3,
     "1bf8338c": 188.0,
     "52bf4897": 279.0,
     "b50b6e17": 89.2109,
-    "a143eafc": 492.0,
+    "c9e6ec4a": 84.3,
+    "2d282821": 186.628,
+    "9321b3e0": 276.9447,
     "7bc0e25e": 83.808,
     "4cd73983": 372.7225,
-    "2d282821": 186.628,
-    "39ffabfd": 489.0158,
     "4b6b3df7": 112.6655,
-    "9321b3e0": 276.9447,
     "985c7823": 112.5
   },
   "hold_arm": {

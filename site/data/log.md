@@ -1,6 +1,3 @@
-  (dropped IBM: sold 30 min ago, cooling off)
-  (dropped GOOGL: sold 32 min ago, cooling off)
-  (dropped KO: sold 28 min ago, cooling off)
 - BUY $750.00 ACN [filled] ['news', 'congress', 'track_record'] — Strong earnings-driven breakout with congressional buy pressure confirming; cooling-off from earlier sale already expired given 45min cooldown (not in cooling_off_minutes_left list) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: ACN +18.16% today, 'Accenture Stock Is Heading for Its Best Day Ever. AI Isn't the Threat Everyone Thought' - Barron's; congress buy pressure score 2.0 (Scott Franklin, Gilbert Ray Cisneros)
 ~ WORKING stop_loss 100% ACN @ $212.00 until 2026-10-01 — bound downside after a large one-day move
 ~ WORKING take_profit 50% ACN @ $225.00 until 2026-10-01 — take partial profit near day high
@@ -398,3 +395,6 @@ lesson: At 8/8 names check whether sector diversification (defense/widely_held/g
 ~ WORKING buy_limit $500.00 HD @ $276.94 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25348.62 (+1.39% on $25000.00 in) · cash $17653.65 · realised +378.65
 Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $17322.06 this week
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $505.38] -> $626.53 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-02 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders

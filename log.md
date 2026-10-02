@@ -21593,3 +21593,6 @@ lesson: At 8/8 names check whether sector diversification (defense/widely_held/g
 ~ WORKING buy_limit $500.00 HD @ $276.94 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25348.62 (+1.39% on $25000.00 in) · cash $17653.65 · realised +378.65
 Done: 0 sell(s), 3 buy(s); 23 order(s) working; budget left $17322.06 this week
+  (cancelled 2 standing order(s) on LMT: position closed)
+- SELL 100% LMT [take_profit @ $505.38] -> $626.53 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-02 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
