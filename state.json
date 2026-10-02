@@ -1,12 +1,12 @@
 {
   "week": "2026-W40",
-  "spent": 7462.75,
-  "deployed": 350275.18,
+  "spent": 9062.75,
+  "deployed": 351875.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
     "AAPL": 4.26,
-    "PLTR": 16.2,
+    "PLTR": 566.2,
     "RTX": 7.19,
     "AMD": 38.67,
     "LMT": 29.37,
@@ -19,21 +19,22 @@
     "FWONK": 2516.31,
     "HUBB": 51.52,
     "CHRW": 10.17,
-    "MSFT": 20.74,
+    "MSFT": 570.74,
     "TPL": 3.17,
     "NLR": 4.98,
     "O": 0.49,
-    "PLD": 0.04
+    "PLD": 0.04,
+    "GLD": 500.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
-    "PLTR": 12125.0,
+    "PLTR": 12675.0,
     "TSM": 16600.0,
     "AVGO": 20000.0,
     "TTD": 17000.0,
     "ACN": 22550.0,
     "AMD": 7550.0,
-    "MSFT": 12858.82,
+    "MSFT": 13408.82,
     "NOC": 20197.06,
     "UNH": 11147.06,
     "CRWD": 14675.0,
@@ -56,7 +57,7 @@
     "TPL": 4100.0,
     "LTH": 10625.0,
     "SKWD": 2875.0,
-    "GLD": 500.0,
+    "GLD": 1000.0,
     "KO": 1000.0,
     "O": 500.0,
     "PLD": 500.0,
@@ -7711,12 +7712,75 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "PLTR",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.858651,
+      "price": 192.4,
+      "date": "2026-10-02",
+      "time_et": "09:59",
+      "ts": 1790949579,
+      "why": "only defense-sector name not in cooldown with evidence; momentum is real and 9am SURVIVOR hour favors entries [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "PLTR +1.22% today, +13.51% 1m momentum, part of defense watchlist with multiple congress buys on defense names this week",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.064214,
+      "price": 516.81,
+      "date": "2026-10-02",
+      "time_et": "09:59",
+      "ts": 1790949579,
+      "why": "widely-held name low in day range, not chasing, diversifies away from FWONK/CCJ/GOOGL cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "MSFT +0.76% today, widely_held sector has n=446 avg_ret 0.0 but is a liquid core name, 17.8% of day range (low, room to run)",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "GLD",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.301247,
+      "price": 384.25,
+      "date": "2026-10-02",
+      "time_et": "09:59",
+      "ts": 1790949579,
+      "why": "gold sector has positive historical hit rate 59% per track_record, balances portfolio away from tech/nuclear concentration [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "GLD track record sector avg_ret 0.04% hit_rate 0.59, +0.37% today, 52% of day range - balanced entry not chasing",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 7344.16,
-  "deployed_today": 45500.0,
-  "orders_today": 17,
+  "spent_today": 8944.16,
+  "deployed_today": 47100.0,
+  "orders_today": 20,
   "sells_today": 13,
   "sold_today": [
     "CRWD",
@@ -7771,21 +7835,31 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790949490,
-  "last_check_ts": 1790949490,
+  "last_publish_ts": 1790949579,
+  "last_check_ts": 1790949579,
   "last_bar_ts": 1790949300,
-  "last_decision_ts": 1790948969,
+  "last_decision_ts": 1790949579,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "dc71d513": 343.516,
     "6e875086": 344.1021,
+    "dc71d513": 343.516,
+    "7669a572": 384.9532,
+    "91d88588": 365.801,
+    "de55168d": 518.1227,
+    "ae68b8c7": 193.0234,
     "7e3a3af6": 92.2202,
     "46e34796": 86.7309,
-    "8bf7d742": 90.0,
+    "f680ce74": 378.0,
     "c9e6ec4a": 84.3,
+    "8bf7d742": 90.0,
+    "1bf8338c": 188.0,
+    "9acd0991": 505.0,
     "7bc0e25e": 83.808,
     "b50b6e17": 89.2109,
+    "2d282821": 186.628,
+    "d3b12850": 501.3057,
+    "4cd73983": 372.7225,
     "db8510b2": 332.7973
   },
   "hold_arm": {
@@ -7823,6 +7897,33 @@
       },
       "tags": {
         "ratchet": "on"
+      }
+    },
+    "PLTR": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "GLD": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
       }
     }
   }

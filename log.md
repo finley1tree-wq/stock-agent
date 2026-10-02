@@ -21526,3 +21526,32 @@ portfolio: equity $25363.30 (+1.45% on $25000.00 in) · cash $20368.84 · realis
 Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $20037.25 this week
 - BUY $2500.00 GOOGL [buy_limit @ $343.09] — wanted it, but not at the high — resting at $343.09. Strong daily momentum in widely held mega-cap
 ## 2026-10-02 09:55 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-02 09:59 ET (Friday) — week 2026-W40 — budget left $17537.25 (today $45500.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Book is far below min_positions (3/8) with 70% cash idle and we're in the SURVIVOR hour (09:00-10:00 ET) per strategy_stages. Adding PLTR (defense/congress pressure), MSFT and AMZN (widely_held, low in day range, not chasing), and GLD (gold sector 59% hit rate per track_record) diversifies sector exposure away from the current nuclear/widely_held/entertainment cluster while respecting the no-momentum-only rule by pairing each with a concrete evidence point. All entries are sized $2000-2200, well within max_entry_range_pct, and get fresh ATR stops since full_deployment mode still requires per-position floors.
+lesson: At 09:xx SURVIVOR hour with 70%+ idle cash and only 3/8 positions, add diversified sector names (defense, widely_held, gold) sized $2000+ each rather than clustering further in nuclear/entertainment - counterfactual shows idle checks cost ~0.11%/day.
+  (dropped AMZN: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped NEM: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped UNH: 96% up today's range — resting a limit at $365.80 instead of chasing)
+- BUY $550.00 PLTR [filled] ['congress', 'momentum'] — only defense-sector name not in cooldown with evidence; momentum is real and 9am SURVIVOR hour favors entries [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: PLTR +1.22% today, +13.51% 1m momentum, part of defense watchlist with multiple congress buys on defense names this week
+- BUY $550.00 MSFT [filled] ['momentum', 'track_record'] — widely-held name low in day range, not chasing, diversifies away from FWONK/CCJ/GOOGL cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: MSFT +0.76% today, widely_held sector has n=446 avg_ret 0.0 but is a liquid core name, 17.8% of day range (low, room to run)
+- BUY $500.00 GLD [filled] ['momentum', 'track_record'] — gold sector has positive historical hit rate 59% per track_record, balances portfolio away from tech/nuclear concentration [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: GLD track record sector avg_ret 0.04% hit_rate 0.59, +0.37% today, 52% of day range - balanced entry not chasing
+  (dropped trigger AMZN stop_loss: not held)
+~ WORKING stop_loss 100% PLTR @ $188.00 until 2026-10-02 — ATR-based stop to protect against reversal
+~ WORKING stop_loss 100% MSFT @ $505.00 until 2026-10-02 — ATR-based stop to protect against reversal
+~ WORKING stop_loss 100% GLD @ $378.00 until 2026-10-02 — ATR-based stop to protect against reversal
+~ WORKING buy_limit $500.00 UNH @ $365.80 until 2026-10-02 — wanted it, but not at the high — resting at $365.80. skip - UNH too high in range, replaced by NEM below [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% PLTR @ $193.02 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 PLTR @ $186.63 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $518.12 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $501.31 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GLD @ $384.95 until 2026-10-07 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GLD @ $372.72 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25354.14 (+1.42% on $25000.00 in) · cash $16268.84 · realised +368.84
+Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week

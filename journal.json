@@ -51826,7 +51826,7 @@
     "code_version": "3fc9d9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.2
   },
   {
     "symbol": "SKWD",
@@ -52223,7 +52223,8 @@
     "hour_et": 9,
     "code_version": "b2bddca",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.51
   },
   {
     "symbol": "GOOGL",
@@ -52254,6 +52255,94 @@
     "momentum_1m_at_entry": 1.74,
     "hour_et": 9,
     "code_version": "0f09c01",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.21
+  },
+  {
+    "symbol": "PLTR",
+    "notional": 550.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.858651,
+    "price": 192.4,
+    "date": "2026-10-02",
+    "time_et": "09:59",
+    "ts": 1790949579,
+    "why": "only defense-sector name not in cooldown with evidence; momentum is real and 9am SURVIVOR hour favors entries [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "PLTR +1.22% today, +13.51% 1m momentum, part of defense watchlist with multiple congress buys on defense names this week",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 192.36,
+    "sector": "defense",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 13.51,
+    "hour_et": 9,
+    "code_version": "cede422",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 550.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.064214,
+    "price": 516.81,
+    "date": "2026-10-02",
+    "time_et": "09:59",
+    "ts": 1790949579,
+    "why": "widely-held name low in day range, not chasing, diversifies away from FWONK/CCJ/GOOGL cluster [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "MSFT +0.76% today, widely_held sector has n=446 avg_ret 0.0 but is a liquid core name, 17.8% of day range (low, room to run)",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 516.71,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 4.0,
+    "hour_et": 9,
+    "code_version": "cede422",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GLD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.301247,
+    "price": 384.25,
+    "date": "2026-10-02",
+    "time_et": "09:59",
+    "ts": 1790949579,
+    "why": "gold sector has positive historical hit rate 59% per track_record, balances portfolio away from tech/nuclear concentration [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "GLD track record sector avg_ret 0.04% hit_rate 0.59, +0.37% today, 52% of day range - balanced entry not chasing",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 384.17,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -4.62,
+    "hour_et": 9,
+    "code_version": "cede422",
     "ret_1w": null,
     "ret_1m": null
   }
