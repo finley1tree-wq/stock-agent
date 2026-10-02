@@ -1,6 +1,3 @@
-portfolio: equity $25213.91 (+0.86% on $25000.00 in) · cash $21288.94 · realised +213.94
-Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $20957.37 this week
-  (cancelled 2 standing order(s) on CHRW: position closed)
 - SELL 100% CHRW [take_profit @ $150.37] -> $501.44 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-01 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +395,6 @@ lesson: Real diversification (defense/widely-held/real-estate) beyond the existi
 ~ WORKING buy_limit $500.00 PLD @ $125.37 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25340.56 (+1.36% on $25000.00 in) · cash $16530.18 · realised +380.18
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $16198.59 this week
+  (cancelled 2 standing order(s) on PLTR: position closed)
+- SELL 100% PLTR [take_profit @ $193.02] -> $551.79 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-10-02 10:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
