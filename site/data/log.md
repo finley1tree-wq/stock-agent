@@ -1,17 +1,3 @@
-- SELL 100% CRWD [take_profit @ $273.43] -> $3035.03 (+1.17%) — close 100% at +0.5% over the average cost
-## 2026-10-02 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [take_profit @ $349.17] -> $3009.09 (+0.30%) — close 100% at +0.3% over the average cost
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $144.19] -> $2504.32 (+0.17%) — close 100% at +0.2% over the average cost
-## 2026-10-02 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on LTH: position closed)
-- SELL 100% LTH [take_profit @ $41.17] -> $2510.07 (+0.40%) — close 100% at +0.4% over the average cost
-## 2026-10-02 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $466.13] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-10-02 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-10-02 09:39 ET (Friday) — week 2026-W40 — budget left $21945.45 (today $16500.00 put to work, 6 buys, 5 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
@@ -395,6 +381,20 @@ Decision: nothing at this check. 1 standing order(s) working.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) so no buys are allowed - they'd be dropped. Book is currently flat (0 positions) after the desk closed everything out, and there is nothing to sell or protect. Today's own logged lessons show every forced entry since 10:00 in PROBATION/CULLED hours graded negative (8/8), confirming that waiting rather than forcing a buy was correct, and now it's moot since entries are blocked anyway. With only 3 checks left and max_hold_minutes forcing closure soon anyway, sitting out this check is the only option available.
 lesson: When no_new_entries_this_check is true, don't propose buys regardless of idle cash - they will be dropped; past-check evidence also showed PROBATION-hour forced entries after 10:00 ET graded negative 8/8 times today.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 14:48 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
+  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 ET cutoff) and book is flat with no positions to protect or sell, so there is nothing actionable - buys would be dropped by guardrails regardless. Today's logged lessons also confirm every forced PROBATION/CULLED-hour entry since 10:00 graded negative (8/8), reinforcing that waiting is correct here rather than chasing a drop.
+lesson: When no_new_entries_this_check is true, do not propose buys - focus check-ins on protecting/managing existing positions only.
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
