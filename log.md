@@ -21716,3 +21716,6 @@ lesson: Once min_positions is reached and every position has working stop/take-p
 portfolio: equity $25313.31 (+1.25% on $25000.00 in) · cash $20101.24 · realised +351.24
 Decision: nothing at this check. 30 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% NEM [time stop] -> $984.98 (-1.50%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% HD [time stop] -> $1040.68 (-0.89%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 11:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders

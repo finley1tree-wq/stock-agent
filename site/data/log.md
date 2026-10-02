@@ -2,22 +2,6 @@
   (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 ET cutoff), so no new buys can be placed - any proposed would be dropped. ACN is my only position and already has working take_profit (217.81, 225.00) and stop_loss (212.00) brackets in place from auto_bracket/risk_management, which is the appropriate protection given it's up 17.3% today and extended (4.5% of day range, near day low after the pop) - no need to add more orders. I'll wait for the market close/next window since sells on ACN aren't warranted (bracket orders already manage the risk) and I can't add new names this session.
-lesson: Once no_new_entries_this_check is true, stop proposing buys entirely and just verify existing protective brackets are correctly placed rather than trying to force new positions.
-portfolio: equity $25216.21 (+0.86% on $25000.00 in) · cash $24471.82 · realised +221.82
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% ACN [time stop] -> $741.15 (-1.18%) — held 91 min, the 90-minute limit: out regardless
-## 2026-10-01 14:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 14:19 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after heavy churn today - 56 orders/55 sells already, all names cooling off or just sold. With no entries allowed and no open positions needing protection, there is nothing actionable right now; placing buy_limit triggers would still count as new entries and get dropped per guardrails. I'll check back shortly in case guardrails change or a protective action is needed.
 lesson: When no_new_entries_this_check is true and positions are flat, do not try to force buy_limit triggers - they are entries and will be dropped; just wait for the next window.
 portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
@@ -398,3 +382,19 @@ Decision: nothing at this check. 31 standing order(s) working.
 ## 2026-10-02 11:23 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% GLD [time stop] -> $493.93 (-1.21%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 11:33 ET (Friday) — week 2026-W40 — budget left $19769.65 (today $54100.00 put to work, 33 buys, 22 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Already at min_positions (8/8) with protective stops, take-profits and scale-in buy_limits already working on every position (NEM, HD, AMZN, PLD, GOOGL, VNQ, AAPL, O). Today's repeated forced entries every 10-15 min have realized negative avg_pct each time (-0.24% to -1.09% per the lessons log), so chasing an extra name just to deploy more cash is the pattern explicitly flagged as a mistake. No new evidence (headline/filing) justifies a 9th name right now, and 10:00-14:00 hours are PROBATION/CULLED for new entries anyway. Best move is to hold the full book, let the existing brackets/ratchets do their job, and check back soon in case a stop or take-profit fires and frees capital for a genuinely better idea.
+lesson: Once min_positions is reached and every position has working stop/take-profit/scale-in orders, stop forcing new entries just to spend idle cash - today's string of forced buys every check all graded negative; let the standing orders work and wait for a real catalyst.
+portfolio: equity $25313.31 (+1.25% on $25000.00 in) · cash $20101.24 · realised +351.24
+Decision: nothing at this check. 30 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% NEM [time stop] -> $984.98 (-1.50%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% HD [time stop] -> $1040.68 (-0.89%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 11:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders

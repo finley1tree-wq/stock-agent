@@ -6662,7 +6662,7 @@
    "ticker": "NEM",
    "kind": "stop_loss",
    "price": 112.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:10",
    "created_ts": 1790950208,
    "why": "ATR-based protective stop for new NEM position",
@@ -6671,14 +6671,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "52bf4897",
    "ticker": "HD",
    "kind": "stop_loss",
    "price": 279.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:10",
    "created_ts": 1790950208,
    "why": "ATR-based protective stop for new HD position",
@@ -6687,7 +6689,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8c90cb0b",
@@ -6805,7 +6809,7 @@
    "ticker": "HD",
    "kind": "take_profit",
    "price": 286.2352,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:10",
    "created_ts": 1790950208,
    "why": "close 100% at +0.3% over the average cost",
@@ -6815,7 +6819,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9321b3e0",
@@ -7104,7 +7110,7 @@
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 116.3647,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:41",
    "created_ts": 1790952067,
    "why": "close 100% at +0.3% over the average cost",
@@ -7114,14 +7120,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "4848d50a",
    "ticker": "NEM",
    "kind": "buy_limit",
    "price": 112.4812,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:41",
    "created_ts": 1790952067,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7131,14 +7139,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "49629f0b",
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 276.5858,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:41",
    "created_ts": 1790952067,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7148,7 +7158,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 11:40",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "8ce4841e",
