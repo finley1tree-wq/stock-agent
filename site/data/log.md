@@ -1,4 +1,3 @@
-~ WORKING take_profit 100% HUBB @ $477.43 until 2026-10-07 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 HUBB @ $461.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% LTH @ $41.17 until 2026-10-07 — close 100% at +0.4% over the average cost
 ~ WORKING buy_limit $500.00 LTH @ $39.78 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +397,4 @@ lesson: Hour 13-14 PROBATION/CULLED entries right before the 14:00 cutoff graded
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 resting buy order(s): past the entry cutoff)

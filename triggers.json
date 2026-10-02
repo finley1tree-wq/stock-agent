@@ -6662,7 +6662,7 @@
    "ticker": "AAPL",
    "kind": "buy_limit",
    "price": 330.9,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:10",
    "created_ts": 1790950208,
    "why": "Queue AAPL entry at a better level near today's low-mid range instead of chasing the high",
@@ -6672,7 +6672,9 @@
     "track_record"
    ],
    "good_until": "2026-10-02",
-   "usd": 2300.0
+   "usd": 2300.0,
+   "closed": "2026-10-02 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "39a8ed6d",

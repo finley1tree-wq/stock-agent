@@ -21798,3 +21798,4 @@ lesson: Hour 13-14 PROBATION/CULLED entries right before the 14:00 cutoff graded
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 resting buy order(s): past the entry cutoff)
