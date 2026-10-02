@@ -21686,3 +21686,16 @@ Done: 0 sell(s), 2 buy(s); 33 order(s) working; budget left $17886.14 this week
 ## 2026-10-02 11:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 - SELL 100% FWONK [time stop] -> $2464.58 (-1.42%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 11:13 ET (Friday) — week 2026-W40 — budget left $19775.72 (today $53600.00 put to work, 32 buys, 21 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Already at 8/8 min_positions with working protective stops/take-profits on every holding plus standing buy_limit adds already queued (AAPL, O x2, HD, GLD, NEM, AMZN, GOOGL, VNQ, PLD averaging-in triggers). Today's realized track record shows every new buy since 09:32 has been negative on that check's avg_pct (-0.53 to -1.09), suggesting chasing more entries intraday at 11am (PROBATION hour, momentum/news signal mixes also PROBATION/CULLED) has not worked; no new evidence (headline/filing) justifies adding a 9th/10th name right now beyond what's already queued. Cash stays idle but all 8 positions are protected with brackets and dip-buy limits already resting, so the book is working without forcing a weak entry.
+lesson: On 2026-10-02, repeated forced entries every check from 09:32-10:56 at PROBATION hours all realized negative avg_pct that check (-0.24 to -1.09%); once min_positions is met and protective brackets are in place, holding without new chasing entries is preferable to forcing another name just to deploy idle cash.
+portfolio: equity $25316.60 (+1.27% on $25000.00 in) · cash $20107.31 · realised +357.31
+Decision: nothing at this check. 31 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
