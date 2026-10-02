@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-02T11:55-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-10-02T12:02-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "4ee4d929",
+   "ticker": "AAPL",
+   "kind": "stop_loss",
+   "price": 332.72,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 332.9,
+   "pct_away": -0.05,
+   "good_until": "2026-10-07",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "6a948f2b",
    "ticker": "AAPL",
    "kind": "take_profit",
@@ -185,25 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 332.44,
-   "pct_away": 0.22,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e5782839",
-   "ticker": "O",
-   "kind": "take_profit",
-   "price": 54.0387,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.89,
-   "pct_away": 0.28,
+   "last": 332.9,
+   "pct_away": 0.08,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.89,
-   "pct_away": -0.36,
+   "last": 53.83,
+   "pct_away": -0.25,
    "good_until": "2026-10-07",
    "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e5782839",
+   "ticker": "O",
+   "kind": "take_profit",
+   "price": 54.0387,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.83,
+   "pct_away": 0.39,
+   "good_until": "2026-10-07",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,30 +253,13 @@
    "usd": 2300.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 332.44,
-   "pct_away": -0.46,
+   "last": 332.9,
+   "pct_away": -0.6,
    "good_until": "2026-10-02",
    "why": "Queue AAPL entry at a better level near today's low-mid range instead of chasing the high",
    "signals": [
     "momentum",
     "track_record"
-   ]
-  },
-  {
-   "id": "8c4f6136",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 330.6448,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 332.44,
-   "pct_away": -0.54,
-   "good_until": "2026-10-07",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -280,22 +280,6 @@
    ]
   },
   {
-   "id": "8ce4841e",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 338.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 341.81,
-   "pct_away": -1.11,
-   "good_until": "2026-10-02",
-   "why": "Protect new GOOGL position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
    "id": "ccf7f7ab",
    "ticker": "GOOGL",
    "kind": "take_profit",
@@ -303,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 341.81,
-   "pct_away": 1.21,
+   "last": 342.93,
+   "pct_away": 0.88,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -329,20 +313,35 @@
    ]
   },
   {
-   "id": "bfeba999",
+   "id": "8ce4841e",
    "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 334.5724,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "kind": "stop_loss",
+   "price": 338.0,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 341.81,
-   "pct_away": -2.12,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 342.93,
+   "pct_away": -1.44,
+   "good_until": "2026-10-02",
+   "why": "Protect new GOOGL position",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "risk_management"
+   ]
+  },
+  {
+   "id": "34871ba3",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 349.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 342.93,
+   "pct_away": 1.92,
+   "good_until": "2026-10-07",
+   "why": "Lock in gain on GOOGL",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -357,22 +356,6 @@
    "pct_away": 2.23,
    "good_until": "2026-10-07",
    "why": "Lock in gain on VNQ",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "34871ba3",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 349.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 341.81,
-   "pct_away": 2.25,
-   "good_until": "2026-10-07",
-   "why": "Lock in gain on GOOGL",
    "signals": [
     "risk_management"
    ]
@@ -395,6 +378,23 @@
    ]
   },
   {
+   "id": "bfeba999",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 334.5724,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 342.93,
+   "pct_away": -2.44,
+   "good_until": "2026-10-07",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "55fe37ff",
    "ticker": "O",
    "kind": "buy_limit",
@@ -402,8 +402,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.89,
-   "pct_away": -2.91,
+   "last": 53.83,
+   "pct_away": -2.8,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -419,8 +419,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 332.44,
-   "pct_away": -3.0,
+   "last": 332.9,
+   "pct_away": -3.13,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
