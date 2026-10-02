@@ -6677,7 +6677,7 @@
    "ticker": "HUBB",
    "kind": "stop_loss",
    "price": 466.4,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:32",
    "created_ts": 1790947953,
    "why": "protective stop",
@@ -6686,7 +6686,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "40d9c879",
@@ -6801,7 +6803,7 @@
    "ticker": "HUBB",
    "kind": "take_profit",
    "price": 477.4293,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 09:32",
    "created_ts": 1790947953,
    "why": "close 100% at +0.3% over the average cost",
@@ -6811,14 +6813,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 09:40"
   },
   {
    "id": "e8af9dd1",
    "ticker": "HUBB",
    "kind": "buy_limit",
    "price": 461.8364,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:32",
    "created_ts": 1790947953,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6828,7 +6831,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bee5d774",
@@ -7084,7 +7089,7 @@
    "ticker": "SKWD",
    "kind": "stop_loss",
    "price": 53.85,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "protect new SKWD position",
@@ -7093,7 +7098,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a89623be",
@@ -7132,7 +7139,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 217.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "protect new IBM position",
@@ -7141,7 +7148,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f881f583",
@@ -7284,7 +7293,7 @@
    "ticker": "SKWD",
    "kind": "take_profit",
    "price": 55.1636,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "close 100% at +0.3% over the average cost",
@@ -7294,14 +7303,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 09:41"
   },
   {
    "id": "50b6031f",
    "ticker": "SKWD",
    "kind": "buy_limit",
    "price": 53.3694,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7311,7 +7321,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5c6b62c9",
@@ -7386,7 +7398,7 @@
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 223.2677,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "close 100% at +0.3% over the average cost",
@@ -7396,14 +7408,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 09:40"
   },
   {
    "id": "0f2ee9fe",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 215.8444,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 09:39",
    "created_ts": 1790948360,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7413,8 +7426,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 09:40",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-02 09:39"
+ "updated": "2026-10-02 09:41"
 }

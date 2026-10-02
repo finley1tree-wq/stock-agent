@@ -1,11 +1,3 @@
-~ WORKING buy_limit $500.00 NLR @ $98.94 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25199.77 (+0.80% on $25000.00 in) · cash $21156.90 · realised +206.90
-Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
-  (cancelled 2 standing order(s) on LEN: position closed)
-- SELL 100% LEN [take_profit @ $80.09] -> $376.43 (+0.38%) — close 100% at +0.4% over the average cost
-## 2026-10-01 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AMD: position closed)
-- SELL 100% AMD [take_profit @ $613.07] -> $552.57 (+0.47%) — close 100% at +0.5% over the average cost
 ## 2026-10-01 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% ACN [time stop] -> $549.58 (-0.08%) — held 30 min, the 30-minute limit: out regardless
 ## 2026-10-01 12:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +390,11 @@ lesson: Deploying 7-8 congress/track-record backed names at $2000-3000 each from
 ~ WORKING buy_limit $500.00 IBM @ $215.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25275.24 (+1.10% on $25000.00 in) · cash $1277.03 · realised +277.03
 Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $477.43] -> $3008.25 (+0.27%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $223.34] -> $2509.16 (+0.37%) — close 100% at +0.3% over the average cost
+## 2026-10-02 09:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on SKWD: position closed)
+- SELL 100% SKWD [take_profit @ $55.20] -> $2006.36 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-10-02 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
