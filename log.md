@@ -21734,3 +21734,6 @@ lesson: Every forced entry today during PROBATION hours (10 of 10 logged checks)
 portfolio: equity $25309.89 (+1.24% on $25000.00 in) · cash $21626.90 · realised +326.90
 Decision: nothing at this check. 23 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMZN [time stop] -> $618.86 (-0.98%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% PLD [time stop] -> $498.52 (-0.30%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 11:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders

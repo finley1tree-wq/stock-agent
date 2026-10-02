@@ -1,19 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after heavy churn today - 56 orders/55 sells already, all names cooling off or just sold. With no entries allowed and no open positions needing protection, there is nothing actionable right now; placing buy_limit triggers would still count as new entries and get dropped per guardrails. I'll check back shortly in case guardrails change or a protective action is needed.
-lesson: When no_new_entries_this_check is true and positions are flat, do not try to force buy_limit triggers - they are entries and will be dropped; just wait for the next window.
-portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-01 14:35 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there is nothing to protect and no new entries are allowed - any buy or buy_limit would simply be dropped per guardrails. Sitting flat for this check is forced by the entry cutoff, not a discretionary cash call.
 lesson: When no_new_entries_this_check is true and the book is flat with zero holdings, there are literally no orders to place (no entries allowed, nothing to sell/protect) - just wait for the next window rather than trying workarounds.
 portfolio: equity $25212.98 (+0.85% on $25000.00 in) · cash $25212.98 · realised +212.98
@@ -398,3 +382,19 @@ Decision: nothing at this check. 30 standing order(s) working.
 ## 2026-10-02 11:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 - BUY $500.00 O [buy_limit @ $53.90] — wanted it, but not at the high — resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-02 11:47 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-02 11:54 ET (Friday) — week 2026-W40 — budget left $21295.31 (today $54600.00 put to work, 34 buys, 24 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Book already has 6 positions each with full auto-bracket stop/take-profit/scale-in triggers in place (AMZN, PLD, GOOGL, VNQ, AAPL, O), all opened in the last 90 minutes under the 11:xx PROBATION hour. Every forced entry today from 09:32-10:56 graded negative per past_lessons_with_outcome (avg_pct -0.32% to -1.17%), and strategy_stages flags hour "11" as PROBATION with signal mixes mostly PROBATION/CULLED - there's no SURVIVOR-hour catalyst right now to chase an 7th/8th name just to hit min_positions. I'm declining to force new entries into a PROBATION hour with no fresh evidence (no new headlines/filings since last check), and will let the existing bracket orders (stops/take-profits/scale-ins) manage the current 6 positions. Will re-check in 30 min to reassess once some of these auto-bracket trades resolve and cash frees up, or if a genuine catalyst (congress/insider filing, news) appears for an 8th name.
+lesson: Every forced entry today during PROBATION hours (10 of 10 logged checks) graded negative that same check - stop treating "below min_positions" as automatic license to buy into a culled/probation hour; wait for a SURVIVOR hour or concrete new evidence instead of recycling the same diversification rationale.
+portfolio: equity $25309.89 (+1.24% on $25000.00 in) · cash $21626.90 · realised +326.90
+Decision: nothing at this check. 23 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMZN [time stop] -> $618.86 (-0.98%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% PLD [time stop] -> $498.52 (-0.30%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-02 11:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
