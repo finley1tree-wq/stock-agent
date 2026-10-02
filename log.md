@@ -21772,3 +21772,16 @@ lesson: Hour-12 PROBATION entries today have graded negative every single time (
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
 Decision: nothing at this check. 1 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-02 13:15 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CSWC excluded: too thinly traded ($14.8M a day) — Capital Southwest Corporation)
+brain: Hour-13 is PROBATION and no_new_entries_after_et is 14:00, so any new buy now is cut to 1/4 size and has almost no runway before entries close - not worth it. Today's own data shows every forced PROBATION-hour entry graded negative (last 8 of 8 lessons), and I've already churned through 34 orders/36 sells today with net realized only $312. Book is currently flat (0 positions) after a full day of rapid entries/exits that mostly lost money intraday; rather than force another name into a culled/probation slot right before the entry cutoff, I'll sit this one check out and reassess at the next check, which is still before 14:00 cutoff, to see if a genuine SURVIVOR-hour or concrete catalyst (not recycled diversification rationale) appears.
+lesson: Hour-13/14 PROBATION entries graded negative repeatedly today (8/8) - do not force a buy in a probation hour this close to the 14:00 cutoff without a distinct new catalyst; waiting one check costs little when the book is already flat.
+portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
+Decision: nothing at this check. 1 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
