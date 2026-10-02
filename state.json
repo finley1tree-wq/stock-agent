@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 3204.69,
-  "deployed": 358875.18,
+  "spent": 3704.69,
+  "deployed": 359375.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
@@ -21,7 +21,7 @@
     "MSFT": 19.35,
     "TPL": 3.17,
     "NLR": 4.98,
-    "O": 500.49,
+    "O": 1000.49,
     "PLD": 500.04,
     "GLD": 6.07,
     "HD": 9.32,
@@ -61,7 +61,7 @@
     "SKWD": 2875.0,
     "GLD": 1000.0,
     "KO": 1000.0,
-    "O": 1000.0,
+    "O": 1500.0,
     "PLD": 1000.0,
     "XENE": 950.0,
     "PG": 2500.0,
@@ -8287,12 +8287,36 @@
       ],
       "evidence": "bought 90 min ago, -0.87% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "O",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.27704,
+      "price": 53.9,
+      "date": "2026-10-02",
+      "time_et": "11:47",
+      "ts": 1790955900,
+      "why": "wanted it, but not at the high \u2014 resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "O +1.3% 1d, real estate sector weight_pct currently 0 in book; price 94.6% of day range shows strength but ATR 1.6% is low-vol defensive REIT",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 3086.1,
-  "deployed_today": 54100.0,
-  "orders_today": 33,
+  "spent_today": 3586.1,
+  "deployed_today": 54600.0,
+  "orders_today": 34,
   "sells_today": 24,
   "sold_today": [
     "CRWD",
@@ -8358,32 +8382,31 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790955628,
-  "last_check_ts": 1790955954,
+  "last_publish_ts": 1790956036,
+  "last_check_ts": 1790956036,
   "last_bar_ts": 1790955900,
   "last_decision_ts": 1790955197,
   "next_check_minutes": 20,
   "autopiloted": false,
   "book_px": {
     "e5782839": 54.0387,
-    "15cdfb8a": 53.8965,
-    "6a948f2b": 333.1714,
     "8c90cb0b": 330.9,
-    "8c4f6136": 330.6448,
+    "6a948f2b": 333.1714,
     "7a940ca0": 53.6935,
+    "8c4f6136": 330.6448,
     "811e5765": 129.4865,
     "5404d18d": 90.2151,
     "ccf7f7ab": 345.9375,
-    "9d40d2e0": 253.2964,
     "abb60af8": 247.5,
+    "9d40d2e0": 253.2964,
     "8ce4841e": 338.0,
     "4844d4bb": 88.3,
     "4cf9bac4": 126.9,
     "0f01fab4": 131.2,
-    "34871ba3": 349.5,
     "ded011e5": 245.119,
-    "28e82bca": 91.5,
     "bfeba999": 334.5724,
+    "34871ba3": 349.5,
+    "28e82bca": 91.5,
     "bbe3e75b": 87.3776,
     "31afc90d": 125.3725,
     "f53378d1": 257.5,
@@ -8400,33 +8423,6 @@
     "XENE": 90
   },
   "exp_arm": {
-    "GLD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "NEM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "HD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "AMZN": {
       "params": {
         "hold_minutes": 90,

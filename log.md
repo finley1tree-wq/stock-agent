@@ -21719,3 +21719,5 @@ Decision: nothing at this check. 30 standing order(s) working.
 - SELL 100% NEM [time stop] -> $984.98 (-1.50%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% HD [time stop] -> $1040.68 (-0.89%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+- BUY $500.00 O [buy_limit @ $53.90] — wanted it, but not at the high — resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-02 11:47 ET — tick — 0 sell(s), 1 buy(s) from standing orders

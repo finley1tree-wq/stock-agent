@@ -1,5 +1,3 @@
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET cutoff) and the book is flat (0 positions) after heavy churn today - 56 orders/55 sells already, all names cooling off or just sold. With no entries allowed and no open positions needing protection, there is nothing actionable right now; placing buy_limit triggers would still count as new entries and get dropped per guardrails. I'll check back shortly in case guardrails change or a protective action is needed.
@@ -398,3 +396,5 @@ Decision: nothing at this check. 30 standing order(s) working.
 - SELL 100% NEM [time stop] -> $984.98 (-1.50%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% HD [time stop] -> $1040.68 (-0.89%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-02 11:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+- BUY $500.00 O [buy_limit @ $53.90] — wanted it, but not at the high — resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-02 11:47 ET — tick — 0 sell(s), 1 buy(s) from standing orders
