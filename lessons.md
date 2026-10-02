@@ -215,3 +215,4 @@
 - 2026-10-02 (10d graded, realised 0.01% per dollar): Hour 13-14 PROBATION/CULLED entries right before the 14:00 cutoff graded negative 8/8 times today - do not force a buy here just to hit min_positions; respect the strategy_stages hour verdict over the urge to deploy idle cash.
 - 2026-10-02 (10d graded, realised 0.01% per dollar): When no_new_entries_this_check is true, don't propose buys regardless of idle cash - they will be dropped; past-check evidence also showed PROBATION-hour forced entries after 10:00 ET graded negative 8/8 times today.
 - 2026-10-02 (10d graded, realised 0.01% per dollar): When no_new_entries_this_check is true, do not propose buys - focus check-ins on protecting/managing existing positions only.
+- 2026-10-02 (10d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and book is flat, don't propose buys/sells - just wait; late-day PROBATION/CULLED hour entries graded negative all day.
