@@ -1,7 +1,7 @@
 {
   "week": "2026-W40",
-  "spent": 2462.75,
-  "deployed": 345275.18,
+  "spent": 4962.75,
+  "deployed": 347775.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
@@ -14,7 +14,7 @@
     "NEM": 2.9,
     "AMZN": 4.75,
     "NVDA": 20.57,
-    "CCJ": 22.05,
+    "CCJ": 2522.05,
     "HLI": 18.32,
     "FWONK": 2516.31,
     "HUBB": 51.52,
@@ -45,7 +45,7 @@
     "IBM": 13902.94,
     "META": 4500.0,
     "RTX": 12425.0,
-    "CCJ": 20075.0,
+    "CCJ": 22575.0,
     "LMT": 9250.0,
     "NEM": 5125.0,
     "HLI": 9575.0,
@@ -7666,12 +7666,33 @@
       ],
       "evidence": "average cost $12.04",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.933662,
+      "price": 86.4,
+      "date": "2026-10-02",
+      "time_et": "09:49",
+      "ts": 1790948969,
+      "why": "Nuclear sector diversification, momentum signal though weak per backtest",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "CCJ +0.79% today, nuclear sector avg_ret_pct -0.16% but still a top momentum name in allowed list, atr 3.45%",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 2344.16,
-  "deployed_today": 40500.0,
-  "orders_today": 15,
+  "spent_today": 4844.16,
+  "deployed_today": 43000.0,
+  "orders_today": 16,
   "sells_today": 13,
   "sold_today": [
     "CRWD",
@@ -7726,16 +7747,20 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790948835,
-  "last_check_ts": 1790948881,
+  "last_publish_ts": 1790948969,
+  "last_check_ts": 1790948969,
   "last_bar_ts": 1790948700,
-  "last_decision_ts": 1790948360,
+  "last_decision_ts": 1790948969,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
+    "22b18b1a": 343.0905,
+    "46e34796": 86.7309,
     "7e3a3af6": 92.2202,
     "8bf7d742": 90.0,
-    "b50b6e17": 89.2109
+    "c9e6ec4a": 84.3,
+    "b50b6e17": 89.2109,
+    "7bc0e25e": 83.808
   },
   "hold_arm": {
     "RTX": 90,
@@ -7747,33 +7772,6 @@
     "XENE": 90
   },
   "exp_arm": {
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "CHRW": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "HLI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "FWONK": {
       "params": {
         "hold_minutes": 90,
@@ -7783,16 +7781,7 @@
         "ratchet": "on"
       }
     },
-    "TTD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "NOC": {
+    "CCJ": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"

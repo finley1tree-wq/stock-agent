@@ -1,78 +1,6 @@
 {
  "orders": [
   {
-   "id": "ab472510",
-   "ticker": "TPL",
-   "kind": "stop_loss",
-   "price": 324.0,
-   "status": "cancelled",
-   "created": "2026-09-29 13:29",
-   "created_ts": 1790702987,
-   "why": "protective stop below entry",
-   "evidence": "ATR_pct 4.197, day_low 331.47",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "78f31fa5",
-   "ticker": "LTH",
-   "kind": "stop_loss",
-   "price": 38.5,
-   "status": "cancelled",
-   "created": "2026-09-29 13:29",
-   "created_ts": 1790702987,
-   "why": "protective stop below day low",
-   "evidence": "ATR_pct 3.913, day_low 39.35",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "037ee545",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 445.0,
-   "status": "cancelled",
-   "created": "2026-09-29 13:29",
-   "created_ts": 1790702987,
-   "why": "protective stop below day low",
-   "evidence": "ATR_pct 2.706, day_low 457.1",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-29",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 14:00",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "245f2a73",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 730.5656,
-   "status": "filled",
-   "created": "2026-09-29 13:29",
-   "created_ts": 1790702987,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $727.3",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-04",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-29 13:55"
-  },
-  {
    "id": "f969b451",
    "ticker": "META",
    "kind": "buy_limit",
@@ -7456,7 +7384,75 @@
    "usd": 500.0,
    "closed": "2026-10-02 09:42",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "c9e6ec4a",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 84.3,
+   "status": "working",
+   "created": "2026-10-02 09:49",
+   "created_ts": 1790948969,
+   "why": "protect new position with ATR-based stop",
+   "evidence": "CCJ atr_pct 3.448, entry near 86.37",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "22b18b1a",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 343.0905,
+   "status": "working",
+   "created": "2026-10-02 09:49",
+   "created_ts": 1790948969,
+   "why": "wanted it, but not at the high \u2014 resting at $343.09. Strong daily momentum in widely held mega-cap",
+   "evidence": "GOOGL +1.87% today, 96.7% of day range - high but widely_held sector hit_rate 0.56",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-02",
+   "usd": 2500.0
+  },
+  {
+   "id": "46e34796",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 86.7309,
+   "status": "working",
+   "created": "2026-10-02 09:49",
+   "created_ts": 1790948969,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $86.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7bc0e25e",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 83.808,
+   "status": "working",
+   "created": "2026-10-02 09:49",
+   "created_ts": 1790948969,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $86.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-02 09:47"
+ "updated": "2026-10-02 09:49"
 }

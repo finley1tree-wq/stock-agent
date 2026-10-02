@@ -21493,3 +21493,34 @@ Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $12.10] -> $2510.59 (+0.42%) — close 100% at +0.5% over the average cost
 ## 2026-10-02 09:47 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 09:49 ET (Friday) — week 2026-W40 — budget left $22537.25 (today $40500.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Book is below min_positions (only FWONK held, 90% cash idle). Deploying into 7 new names across diverse sectors (mega-cap tech momentum, nuclear, gold, off-watchlist) at $2000-2500 each to reach min_positions=8 target quickly within the SURVIVOR 09:xx hour window, consistent with past lessons that this approach has worked (0.49% avg_pct on recent similar checks). Avoiding cooling-off tickers (TSM, ACN, NOC, CRWD, AVGO is NOT in cooldown list so ok, TTD, IBM, HLI, HUBB, CHRW, LTH, SKWD, PG) and sizing each position with ATR-based protective stops per risk_management signal which has the best track record (0.18% avg_ret, 0.88 hit rate).
+lesson: AVGO was not in cooldown list (only similar-sounding names were) - double check cooling_off_minutes_left dict keys exactly match ticker before assuming blocked; deploying 7-8 diversified names at $2000-2500 each from a flat 90% idle book continues to be the right move per repeated past lesson confirmation.
+  (dropped AVGO: sold 13 min ago, cooling off)
+  (dropped NLR: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped TPL: not in allowed list)
+  (dropped NEM: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped GOOGL: 97% up today's range — resting a limit at $343.09 instead of chasing)
+- BUY $2500.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear sector diversification, momentum signal though weak per backtest | evidence: CCJ +0.79% today, nuclear sector avg_ret_pct -0.16% but still a top momentum name in allowed list, atr 3.45%
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger NLR stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger TPL stop_loss: not held)
+  (dropped trigger NEM stop_loss: not held)
+~ WORKING stop_loss 100% CCJ @ $84.30 until 2026-10-02 — protect new position with ATR-based stop
+~ WORKING buy_limit $2500.00 GOOGL @ $343.09 until 2026-10-02 — wanted it, but not at the high — resting at $343.09. Strong daily momentum in widely held mega-cap
+~ WORKING take_profit 100% CCJ @ $86.73 until 2026-10-07 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $83.81 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25363.30 (+1.45% on $25000.00 in) · cash $20368.84 · realised +368.84
+Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $20037.25 this week

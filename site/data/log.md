@@ -1,34 +1,3 @@
-- BUY $500.00 LMT [filled] ['news', 'momentum'] — Defense demand catalyst with AEGIS contract news, diversifies away from widely_held cluster [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: LMT headline 'Can AEGIS Combat System Demand Boost Lockheed Martin's Growth?' and stock +66% run per Simply Wall St piece, defense sector hit_rate 0.55 in track record
-- BUY $375.00 KO [filled] ['congress', 'news'] — Defensive consumer staple diversifier, low beta, congress pressure signal [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net buy pressure +1.0 on KO; headline 'Pepsi vs Coke: Here's What $10,000 Could Be Worth by 2031'
-- BUY $375.00 HLI [filled] ['news', 'insider'] — Financials sector diversifier with M&A tailwind evidence [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Headline '3 Investment Bank Stocks Tied To The UK M And A Recovery' names HLI; congress net buy pressure +2.0 on HLI
-~ WORKING buy_limit $500.00 NOC @ $484.51 until 2026-10-01 — wanted it, but not at the high — resting at $484.51. Defense sector exposure distinct from LMT, contract news flow active [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% LMT @ $510.07 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% LMT @ $505.76 until 2026-10-06 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 LMT @ $493.57 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% KO @ $86.29 until 2026-10-06 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% KO @ $85.83 until 2026-10-06 — close it all at -0.4% under the average cost
-~ WORKING buy_limit $500.00 KO @ $83.58 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HLI @ $127.55 until 2026-10-06 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% HLI @ $125.95 until 2026-10-06 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 HLI @ $123.28 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25207.73 (+0.83% on $25000.00 in) · cash $21385.47 · realised +210.47
-Done: 0 sell(s), 3 buy(s); 27 order(s) working; budget left $21053.90 this week
-  (cancelled 2 standing order(s) on NLR: position closed)
-- SELL 100% NLR [take_profit @ $102.33] -> $526.71 (+0.33%) — close 100% at +0.3% over the average cost
-## 2026-10-01 12:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% GOOGL [time stop] -> $497.63 (-0.47%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-01 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $225.71] -> $551.89 (+0.34%) — close 100% at +0.3% over the average cost
-## 2026-10-01 12:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on KO: position closed)
-- SELL 100% KO [stop_loss @ $86.16] -> $375.02 (+0.01%) — close it all at -0.4% under the average cost
-## 2026-10-01 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 12:21 ET (Thursday) — week 2026-W40 — budget left $23005.15 (today $53875.00 put to work, 48 buys, 43 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
   (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
@@ -398,3 +367,34 @@ Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
   (cancelled 2 standing order(s) on TTD: position closed)
 - SELL 100% TTD [take_profit @ $12.10] -> $2510.59 (+0.42%) — close 100% at +0.5% over the average cost
 ## 2026-10-02 09:47 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 09:49 ET (Friday) — week 2026-W40 — budget left $22537.25 (today $40500.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Book is below min_positions (only FWONK held, 90% cash idle). Deploying into 7 new names across diverse sectors (mega-cap tech momentum, nuclear, gold, off-watchlist) at $2000-2500 each to reach min_positions=8 target quickly within the SURVIVOR 09:xx hour window, consistent with past lessons that this approach has worked (0.49% avg_pct on recent similar checks). Avoiding cooling-off tickers (TSM, ACN, NOC, CRWD, AVGO is NOT in cooldown list so ok, TTD, IBM, HLI, HUBB, CHRW, LTH, SKWD, PG) and sizing each position with ATR-based protective stops per risk_management signal which has the best track record (0.18% avg_ret, 0.88 hit rate).
+lesson: AVGO was not in cooldown list (only similar-sounding names were) - double check cooling_off_minutes_left dict keys exactly match ticker before assuming blocked; deploying 7-8 diversified names at $2000-2500 each from a flat 90% idle book continues to be the right move per repeated past lesson confirmation.
+  (dropped AVGO: sold 13 min ago, cooling off)
+  (dropped NLR: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped TPL: not in allowed list)
+  (dropped NEM: momentum-only entry (guardrails.allow_momentum_only_entries is false))
+  (dropped GOOGL: 97% up today's range — resting a limit at $343.09 instead of chasing)
+- BUY $2500.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear sector diversification, momentum signal though weak per backtest | evidence: CCJ +0.79% today, nuclear sector avg_ret_pct -0.16% but still a top momentum name in allowed list, atr 3.45%
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger NLR stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger NVDA stop_loss: not held)
+  (dropped trigger META stop_loss: not held)
+  (dropped trigger TPL stop_loss: not held)
+  (dropped trigger NEM stop_loss: not held)
+~ WORKING stop_loss 100% CCJ @ $84.30 until 2026-10-02 — protect new position with ATR-based stop
+~ WORKING buy_limit $2500.00 GOOGL @ $343.09 until 2026-10-02 — wanted it, but not at the high — resting at $343.09. Strong daily momentum in widely held mega-cap
+~ WORKING take_profit 100% CCJ @ $86.73 until 2026-10-07 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $83.81 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25363.30 (+1.45% on $25000.00 in) · cash $20368.84 · realised +368.84
+Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $20037.25 this week
