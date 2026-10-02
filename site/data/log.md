@@ -1,26 +1,3 @@
-- SELL 100% CHRW [take_profit @ $150.37] -> $501.44 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-10-01 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 13:20 ET (Thursday) — week 2026-W40 — budget left $21458.81 (today $58300.00 put to work, 56 buys, 49 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Below min_positions (6/8) with 85.8% cash idle - counterfactual data shows idle checks cost the account (idle_universe_avg_pct negative historically). Deploying into evidence-backed names: GPI (large 10%-holder insider buy), SKWD/LTH (top congress score 2-3), with HLI/CHRW queued via buy_limit since they're in cooldown. All picks diversify away from current defense/gold/tech concentration.
-lesson: CHRW and HLI are in cooldown (41min, 5min remaining) so a direct market buy order would be dropped/invalid - use buy_limit triggers instead to queue entry once cooldown clears, rather than proposing a market buy on a cooling ticker.
-  (dropped CHRW: sold 4 min ago, cooling off)
-  (dropped HLI: sold 41 min ago, cooling off)
-  (dropped GPI: 96% up today's range — resting a limit at $242.55 instead of chasing)
-  (dropped SKWD: 96% up today's range — resting a limit at $53.67 instead of chasing)
-  (dropped LTH: 91% up today's range — resting a limit at $40.17 instead of chasing)
-  (dropped trigger HLI buy_limit: buy_limit at 128.12 is at or above the quote 128.12)
-~ WORKING buy_limit $2000.00 CHRW @ $150.00 until 2026-10-01 — cooldown active 41min, resting limit slightly below market to catch cooldown expiry at a decent price
-~ WORKING buy_limit $500.00 GPI @ $242.55 until 2026-10-01 — wanted it, but not at the high — resting at $242.55. Large 10%-holder insider purchase is a strong signal per insider_net_buy_pressure, auto retail name diversifies away from current defense/gold/tech book [probation at 25% size (no hour or
-~ WORKING buy_limit $375.00 SKWD @ $53.67 until 2026-10-01 — wanted it, but not at the high — resting at $53.67. Insurance sector diversification with congress backing, fills toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING buy_limit $375.00 LTH @ $40.17 until 2026-10-01 — wanted it, but not at the high — resting at $40.17. Top congress score ticker, diversifies into leisure sector [probation at 25% size (no hour or signal lens has proven itself yet)]
-portfolio: equity $25213.85 (+0.86% on $25000.00 in) · cash $21790.37 · realised +215.37
 Decision: nothing at this check. 30 standing order(s) working.
   (cancelled 2 standing order(s) on CRWD: position closed)
 - SELL 100% CRWD [take_profit @ $265.68] -> $502.71 (+0.54%) — close 100% at +0.5% over the average cost
@@ -398,3 +375,26 @@ Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $16198.59 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $193.02] -> $551.79 (+0.32%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 10:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on RTX: position closed)
+- SELL 100% RTX [take_profit @ $185.09] -> $626.32 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-10-02 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 10:41 ET (Friday) — week 2026-W40 — budget left $17376.70 (today $51025.00 put to work, 27 buys, 19 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Below min_positions (7/8) with 69.5% cash idle - counterfactual data shows idle checks cost ~0.11-0.19%/day. Adding to NEM (gold, low in range, decent track record) and HD (low in day range at 15.9%, good entry point) to push toward 8+ positions and deploy more of the large remaining budget, consistent with repeated lessons that idle cash is a cost. Added a trailing stop to CCJ given the ratchet experiment shows 100% win rate on that arm, and tightened FWONK's stop given its negative momentum.
+lesson: With 69.5% cash idle and 7/8 positions, adding to existing low-day-range positions (NEM, HD) is a defensible way to approach min_positions without chasing extended names; continue monitoring whether this beats sitting out per counterfactual tracking.
+- BUY $500.00 NEM [filled] ['momentum', 'track_record'] — Add to gold exposure at low end of day range, below current 2.0% weight, to build toward min_positions target size in a sector that has historically outperformed in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NEM at 32.4% of day range, gold sector avg_ret_pct 0.02 hit_rate 0.57 in track record; already held with 2.0% weight, adding to strongest sector performer per backtest 5y/2y (gold avg_total_return_pct
+- BUY $500.00 HD [filled] ['congress', 'track_record'] — HD is low in its day range (15.9%) offering better entry than chasing; adds size to existing small position toward min_positions target [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Kevin Hern disclosed multiple HD sells but earlier congress buy pressure on HD exists historically; HD at 15.9% of day range, well off highs, widely_held sector hit_rate 0.56
+  (re-pinned 3 order(s) to the new average cost)
+~ WORKING trailing_stop 100% CCJ @ trail 2.0% until 2026-10-02 — Lock in gains if CCJ runs, protect against reversal with trailing stop since ratchet arm has 100% win rate in experiment data
+~ WORKING stop_loss 100% FWONK @ $89.50 until 2026-10-02 — Tighten protective stop on weakest current position given negative 1-month momentum
+~ WORKING take_profit 100% NEM @ $116.36 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $112.48 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 HD @ $276.59 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25361.26 (+1.45% on $25000.00 in) · cash $16708.29 · realised +383.29
+Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $16376.70 this week

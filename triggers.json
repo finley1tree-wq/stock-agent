@@ -1,99 +1,6 @@
 {
  "orders": [
   {
-   "id": "827206c6",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 85.5,
-   "status": "cancelled",
-   "created": "2026-09-30 10:25",
-   "created_ts": 1790778311,
-   "why": "protective stop below today's low",
-   "evidence": "CCJ day_low 86.6194, ATR 3.489%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:43",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2d6a7663",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 483.2998,
-   "status": "filled",
-   "created": "2026-09-30 10:25",
-   "created_ts": 1790778311,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $481.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:32"
-  },
-  {
-   "id": "02ec09e8",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 467.5012,
-   "status": "cancelled",
-   "created": "2026-09-30 10:25",
-   "created_ts": 1790778311,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $481.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 10:32",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9c1464ac",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 89.1135,
-   "status": "cancelled",
-   "created": "2026-09-30 10:25",
-   "created_ts": 1790778311,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $88.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 10:32",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "55df9a19",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 86.1069,
-   "status": "cancelled",
-   "created": "2026-09-30 10:25",
-   "created_ts": 1790778311,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $88.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 10:32",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "7b3830da",
    "ticker": "CCJ",
    "kind": "take_profit",
@@ -7122,7 +7029,7 @@
    "ticker": "NEM",
    "kind": "take_profit",
    "price": 116.5542,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:10",
    "created_ts": 1790950208,
    "why": "close 100% at +0.3% over the average cost",
@@ -7132,14 +7039,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4b6b3df7",
    "ticker": "NEM",
    "kind": "buy_limit",
    "price": 112.6655,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:10",
    "created_ts": 1790950208,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7149,7 +7058,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 10:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7c46f8fc",
@@ -7173,7 +7084,7 @@
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 276.9447,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:10",
    "created_ts": 1790950208,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7183,14 +7094,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 10:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5431f15c",
    "ticker": "RTX",
    "kind": "stop_loss",
    "price": 181.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:25",
    "created_ts": 1790951145,
    "why": "ATR-based protective stop for new RTX position",
@@ -7199,14 +7112,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "43944dd9",
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 187.3,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:25",
    "created_ts": 1790951145,
    "why": "lock in gain if RTX pops",
@@ -7215,7 +7130,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "abb60af8",
@@ -7304,7 +7221,7 @@
    "ticker": "RTX",
    "kind": "take_profit",
    "price": 185.0852,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-02 10:25",
    "created_ts": 1790951145,
    "why": "close 100% at +0.2% over the average cost",
@@ -7314,14 +7231,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-02 10:41"
   },
   {
    "id": "b0eaf0d7",
    "ticker": "RTX",
    "kind": "buy_limit",
    "price": 179.1493,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-02 10:25",
    "created_ts": 1790951145,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7331,7 +7249,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-02 10:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9d40d2e0",
@@ -7400,7 +7320,92 @@
    ],
    "good_until": "2026-10-07",
    "usd": 500.0
+  },
+  {
+   "id": "cc41423f",
+   "ticker": "CCJ",
+   "kind": "trailing_stop",
+   "price": 84.7308,
+   "status": "working",
+   "created": "2026-10-02 10:41",
+   "created_ts": 1790952067,
+   "why": "Lock in gains if CCJ runs, protect against reversal with trailing stop since ratchet arm has 100% win rate in experiment data",
+   "evidence": "CCJ flat at 86.46 near avg cost 86.40, ratchet experiment shows trailing stops beneficial (ratchet on arm net +74.96, win_rate 1.0)",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0,
+   "trail_pct": 2.0,
+   "high_water": 86.46
+  },
+  {
+   "id": "6b1fc06c",
+   "ticker": "FWONK",
+   "kind": "stop_loss",
+   "price": 89.5,
+   "status": "working",
+   "created": "2026-10-02 10:41",
+   "created_ts": 1790952067,
+   "why": "Tighten protective stop on weakest current position given negative 1-month momentum",
+   "evidence": "FWONK down -0.64% unrealized, already has stop at 90.0 but tightening given -0.24% day move and low momentum (-6.18% 1m)",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5e16e2ad",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 116.3647,
+   "status": "working",
+   "created": "2026-10-02 10:41",
+   "created_ts": 1790952067,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $115.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4848d50a",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 112.4812,
+   "status": "working",
+   "created": "2026-10-02 10:41",
+   "created_ts": 1790952067,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $115.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
+  },
+  {
+   "id": "49629f0b",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 276.5858,
+   "status": "working",
+   "created": "2026-10-02 10:41",
+   "created_ts": 1790952067,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $285.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-02 10:34"
+ "updated": "2026-10-02 10:41"
 }

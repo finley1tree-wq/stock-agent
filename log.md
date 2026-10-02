@@ -21630,3 +21630,26 @@ Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $16198.59 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $193.02] -> $551.79 (+0.32%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 10:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on RTX: position closed)
+- SELL 100% RTX [take_profit @ $185.09] -> $626.32 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-10-02 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 10:41 ET (Friday) — week 2026-W40 — budget left $17376.70 (today $51025.00 put to work, 27 buys, 19 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Below min_positions (7/8) with 69.5% cash idle - counterfactual data shows idle checks cost ~0.11-0.19%/day. Adding to NEM (gold, low in range, decent track record) and HD (low in day range at 15.9%, good entry point) to push toward 8+ positions and deploy more of the large remaining budget, consistent with repeated lessons that idle cash is a cost. Added a trailing stop to CCJ given the ratchet experiment shows 100% win rate on that arm, and tightened FWONK's stop given its negative momentum.
+lesson: With 69.5% cash idle and 7/8 positions, adding to existing low-day-range positions (NEM, HD) is a defensible way to approach min_positions without chasing extended names; continue monitoring whether this beats sitting out per counterfactual tracking.
+- BUY $500.00 NEM [filled] ['momentum', 'track_record'] — Add to gold exposure at low end of day range, below current 2.0% weight, to build toward min_positions target size in a sector that has historically outperformed in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NEM at 32.4% of day range, gold sector avg_ret_pct 0.02 hit_rate 0.57 in track record; already held with 2.0% weight, adding to strongest sector performer per backtest 5y/2y (gold avg_total_return_pct
+- BUY $500.00 HD [filled] ['congress', 'track_record'] — HD is low in its day range (15.9%) offering better entry than chasing; adds size to existing small position toward min_positions target [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Kevin Hern disclosed multiple HD sells but earlier congress buy pressure on HD exists historically; HD at 15.9% of day range, well off highs, widely_held sector hit_rate 0.56
+  (re-pinned 3 order(s) to the new average cost)
+~ WORKING trailing_stop 100% CCJ @ trail 2.0% until 2026-10-02 — Lock in gains if CCJ runs, protect against reversal with trailing stop since ratchet arm has 100% win rate in experiment data
+~ WORKING stop_loss 100% FWONK @ $89.50 until 2026-10-02 — Tighten protective stop on weakest current position given negative 1-month momentum
+~ WORKING take_profit 100% NEM @ $116.36 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $112.48 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING buy_limit $500.00 HD @ $276.59 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25361.26 (+1.45% on $25000.00 in) · cash $16708.29 · realised +383.29
+Done: 0 sell(s), 2 buy(s); 28 order(s) working; budget left $16376.70 this week

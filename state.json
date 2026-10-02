@@ -1,16 +1,16 @@
 {
   "week": "2026-W40",
-  "spent": 8249.62,
-  "deployed": 355800.18,
+  "spent": 8623.3,
+  "deployed": 356800.18,
   "by_ticker": {
     "AVGO": 28.22,
     "TTD": 25.02,
     "AAPL": 4.26,
     "PLTR": 14.41,
-    "RTX": 632.19,
+    "RTX": 5.87,
     "AMD": 38.67,
     "LMT": 27.84,
-    "NEM": 502.9,
+    "NEM": 1002.9,
     "AMZN": 629.75,
     "NVDA": 20.57,
     "CCJ": 2522.05,
@@ -24,7 +24,7 @@
     "O": 0.49,
     "PLD": 500.04,
     "GLD": 500.0,
-    "HD": 550.0
+    "HD": 1050.0
   },
   "deployed_by_ticker": {
     "LEN": 4375.0,
@@ -42,13 +42,13 @@
     "GOOGL": 17247.06,
     "AAPL": 7000.0,
     "AMZN": 5625.0,
-    "HD": 5622.24,
+    "HD": 6122.24,
     "IBM": 13902.94,
     "META": 4500.0,
     "RTX": 13050.0,
     "CCJ": 22575.0,
     "LMT": 9875.0,
-    "NEM": 5625.0,
+    "NEM": 6125.0,
     "HLI": 9575.0,
     "FWONK": 4625.0,
     "NLR": 3025.0,
@@ -8030,13 +8030,76 @@
       ],
       "evidence": "average cost $192.4",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RTX",
+      "side": "sell",
+      "qty": 3.383978,
+      "status": "filled",
+      "price": 185.09,
+      "proceeds": 626.32,
+      "realized_pnl": 1.32,
+      "realized_pct": 0.21,
+      "date": "2026-10-02",
+      "time_et": "10:41",
+      "ts": 1790952000,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $184.69",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "NEM",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.319047,
+      "price": 115.77,
+      "date": "2026-10-02",
+      "time_et": "10:41",
+      "ts": 1790952067,
+      "why": "Add to gold exposure at low end of day range, below current 2.0% weight, to build toward min_positions target size in a sector that has historically outperformed in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "NEM at 32.4% of day range, gold sector avg_ret_pct 0.02 hit_rate 0.57 in track record; already held with 2.0% weight, adding to strongest sector performer per backtest 5y/2y (gold avg_total_return_pct",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "HD",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.755945,
+      "price": 284.75,
+      "date": "2026-10-02",
+      "time_et": "10:41",
+      "ts": 1790952067,
+      "why": "HD is low in its day range (15.9%) offering better entry than chasing; adds size to existing small position toward min_positions target [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Rep. Kevin Hern disclosed multiple HD sells but earlier congress buy pressure on HD exists historically; HD at 15.9% of day range, well off highs, widely_held sector hit_rate 0.56",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 8131.03,
-  "deployed_today": 51025.0,
-  "orders_today": 27,
-  "sells_today": 18,
+  "spent_today": 8504.71,
+  "deployed_today": 52025.0,
+  "orders_today": 29,
+  "sells_today": 19,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -8055,7 +8118,8 @@
     "MSFT",
     "UNH",
     "LMT",
-    "PLTR"
+    "PLTR",
+    "RTX"
   ],
   "sold_ts": {
     "PLTR": 1790951677,
@@ -8076,7 +8140,7 @@
     "META": 1790868049,
     "AAPL": 1790786607,
     "IBM": 1790948426,
-    "RTX": 1790877066,
+    "RTX": 1790952065,
     "CCJ": 1790875480,
     "LMT": 1790950641,
     "NEM": 1790875903,
@@ -8095,42 +8159,40 @@
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790951676,
-  "last_check_ts": 1790951979,
-  "last_bar_ts": 1790951700,
-  "last_decision_ts": 1790951145,
+  "last_publish_ts": 1790952067,
+  "last_check_ts": 1790952067,
+  "last_bar_ts": 1790952000,
+  "last_decision_ts": 1790952067,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "811e5765": 129.4865,
     "46e34796": 86.7309,
-    "39a8ed6d": 332.447,
-    "8605d5d1": 185.0852,
+    "811e5765": 129.4865,
     "9d40d2e0": 253.2964,
+    "39a8ed6d": 332.447,
     "7669a572": 384.9532,
     "7c46f8fc": 286.2352,
+    "5e16e2ad": 116.3647,
     "15cdfb8a": 53.8965,
-    "8c90cb0b": 330.9,
-    "224aded2": 116.5542,
     "7e3a3af6": 92.2202,
+    "8c90cb0b": 330.9,
     "f680ce74": 378.0,
     "8bf7d742": 90.0,
-    "0f01fab4": 131.2,
-    "43944dd9": 187.3,
     "4cf9bac4": 126.9,
+    "0f01fab4": 131.2,
     "abb60af8": 247.5,
-    "5431f15c": 181.0,
     "52bf4897": 279.0,
-    "b50b6e17": 89.2109,
+    "cc41423f": 84.7308,
+    "6b1fc06c": 89.5,
     "f53378d1": 257.5,
-    "4b6b3df7": 112.6655,
+    "b50b6e17": 89.2109,
     "c9e6ec4a": 84.3,
-    "985c7823": 112.5,
     "4cd73983": 372.7225,
-    "9321b3e0": 276.9447,
+    "985c7823": 112.5,
     "ded011e5": 245.119,
-    "b0eaf0d7": 179.1493,
+    "4848d50a": 112.4812,
     "31afc90d": 125.3725,
+    "49629f0b": 276.5858,
     "7bc0e25e": 83.808
   },
   "hold_arm": {
@@ -8161,15 +8223,6 @@
         "ratchet": "on"
       }
     },
-    "PLTR": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "GLD": {
       "params": {
         "hold_minutes": 90,
@@ -8189,15 +8242,6 @@
       }
     },
     "HD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "RTX": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"

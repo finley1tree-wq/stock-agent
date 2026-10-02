@@ -51826,7 +51826,7 @@
     "code_version": "3fc9d9a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.89
+    "ret_now": -0.6
   },
   {
     "symbol": "SKWD",
@@ -52224,7 +52224,7 @@
     "code_version": "b2bddca",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": 0.1
   },
   {
     "symbol": "GOOGL",
@@ -52289,7 +52289,9 @@
     "code_version": "cede422",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.32,
+    "ret_final": 0.32,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -52351,7 +52353,7 @@
     "code_version": "cede422",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.32
   },
   {
     "symbol": "GOOGL",
@@ -52526,7 +52528,7 @@
     "code_version": "479afaf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -0.33
   },
   {
     "symbol": "HD",
@@ -52556,7 +52558,7 @@
     "code_version": "479afaf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.44
+    "ret_now": -0.27
   },
   {
     "symbol": "LMT",
@@ -52612,7 +52614,10 @@
     "hour_et": 10,
     "code_version": "f734241",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.21,
+    "ret_now": 0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMZN",
@@ -52641,7 +52646,8 @@
     "hour_et": 10,
     "code_version": "f734241",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.2
   },
   {
     "symbol": "PLD",
@@ -52670,7 +52676,8 @@
     "hour_et": 10,
     "code_version": "f734241",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.14
   },
   {
     "symbol": "PLTR",
@@ -52695,6 +52702,92 @@
     "evidence": "average cost $192.4",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "dd3da7f"
+    "code_version": "dd3da7f",
+    "hold_minutes": 30
+  },
+  {
+    "symbol": "RTX",
+    "side": "sell",
+    "qty": 3.383978,
+    "status": "filled",
+    "price": 185.09,
+    "proceeds": 626.32,
+    "realized_pnl": 1.32,
+    "realized_pct": 0.21,
+    "date": "2026-10-02",
+    "time_et": "10:41",
+    "ts": 1790952000,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $184.69",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "75f23af",
+    "hold_minutes": 14
+  },
+  {
+    "symbol": "NEM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.319047,
+    "price": 115.77,
+    "date": "2026-10-02",
+    "time_et": "10:41",
+    "ts": 1790952067,
+    "why": "Add to gold exposure at low end of day range, below current 2.0% weight, to build toward min_positions target size in a sector that has historically outperformed in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "NEM at 32.4% of day range, gold sector avg_ret_pct 0.02 hit_rate 0.57 in track record; already held with 2.0% weight, adding to strongest sector performer per backtest 5y/2y (gold avg_total_return_pct",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 115.72,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.54,
+    "hour_et": 10,
+    "code_version": "75f23af",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HD",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.755945,
+    "price": 284.75,
+    "date": "2026-10-02",
+    "time_et": "10:41",
+    "ts": 1790952067,
+    "why": "HD is low in its day range (15.9%) offering better entry than chasing; adds size to existing small position toward min_positions target [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Kevin Hern disclosed multiple HD sells but earlier congress buy pressure on HD exists historically; HD at 15.9% of day range, well off highs, widely_held sector hit_rate 0.56",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 284.69,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.62,
+    "hour_et": 10,
+    "code_version": "75f23af",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
