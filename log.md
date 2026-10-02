@@ -21743,3 +21743,16 @@ Decision: nothing at this check. 23 standing order(s) working.
   (cancelled 2 standing order(s) on O: position closed)
 - SELL 100% O [stop_loss @ $53.91] -> $999.95 (-0.01%) — close it all at -0.5% under the average cost
 ## 2026-10-02 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 12:25 ET (Friday) — week 2026-W40 — budget left $23987.46 (today $54600.00 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Current hour (12:xx) is PROBATION-stage and the logged lessons show every forced entry today during PROBATION hours graded negative (10/10 checks, -0.24% to -1.09%) - this is a strong, repeated, same-day pattern, not noise. GOOGL and VNQ are already held with full protective brackets (stop_loss, take_profit, scale-in buy_limits) working, so the book isn't unprotected. Rather than chase a forced 3rd-8th name into a culled/probation signal mix just to hit min_positions, I'll wait for a SURVIVOR-hour window or a concrete new catalyst (a real headline/filing on an allowed ticker) before adding size - the existing GOOGL/VNQ stops and take-profits are already working and will auto-manage the open risk.
+lesson: On 2026-10-02, every forced buy during PROBATION hours (10 of 10 checks) graded negative that same check - do not treat below_target_position_count as automatic license to buy in a PROBATION/CULLED hour; wait for a SURVIVOR hour or concrete evidence instead.
+portfolio: equity $25313.01 (+1.25% on $25000.00 in) · cash $24319.05 · realised +319.05
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
