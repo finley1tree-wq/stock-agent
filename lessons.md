@@ -216,3 +216,4 @@
 - 2026-10-02 (10d graded, realised 0.01% per dollar): When no_new_entries_this_check is true, don't propose buys regardless of idle cash - they will be dropped; past-check evidence also showed PROBATION-hour forced entries after 10:00 ET graded negative 8/8 times today.
 - 2026-10-02 (10d graded, realised 0.01% per dollar): When no_new_entries_this_check is true, do not propose buys - focus check-ins on protecting/managing existing positions only.
 - 2026-10-02 (10d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and book is flat, don't propose buys/sells - just wait; late-day PROBATION/CULLED hour entries graded negative all day.
+- 2026-10-02 (10d graded, realised 0.01% per dollar): When no_new_entries_this_check is true and book is flat this late in the day (15:50, close at 16:00), there is nothing to do - no buys allowed, no positions to manage; just wait for the day to end.
