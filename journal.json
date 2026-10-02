@@ -51408,7 +51408,8 @@
     "hour_et": 9,
     "code_version": "0317248",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.26
   },
   {
     "symbol": "LTH",
@@ -51437,7 +51438,10 @@
     "hour_et": 9,
     "code_version": "0317248",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.4,
+    "ret_now": 0.4,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -51466,7 +51470,10 @@
     "hour_et": 9,
     "code_version": "0317248",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.3,
+    "ret_now": 0.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -51495,7 +51502,10 @@
     "hour_et": 9,
     "code_version": "0317248",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.17,
+    "ret_now": 0.17,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -51524,7 +51534,10 @@
     "hour_et": 9,
     "code_version": "0317248",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 1.17,
+    "ret_now": 1.17,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -51553,7 +51566,10 @@
     "hour_et": 9,
     "code_version": "0317248",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.22,
+    "ret_now": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRWD",
@@ -51578,7 +51594,8 @@
     "evidence": "average cost $270.27",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "ed59b18"
+    "code_version": "ed59b18",
+    "hold_minutes": 2
   },
   {
     "symbol": "AVGO",
@@ -51603,7 +51620,8 @@
     "evidence": "average cost $348.12",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "4e17133"
+    "code_version": "4e17133",
+    "hold_minutes": 2
   },
   {
     "symbol": "PG",
@@ -51628,7 +51646,8 @@
     "evidence": "average cost $143.94",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "4e17133"
+    "code_version": "4e17133",
+    "hold_minutes": 2
   },
   {
     "symbol": "LTH",
@@ -51653,7 +51672,8 @@
     "evidence": "average cost $41.01",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "20a0d87"
+    "code_version": "20a0d87",
+    "hold_minutes": 2
   },
   {
     "symbol": "TSM",
@@ -51678,6 +51698,236 @@
     "evidence": "average cost $465.1",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "20a0d87"
+    "code_version": "20a0d87",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "ACN",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 14.445194,
+    "price": 207.68,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "cooldown cleared (was sold prior day not today), strong congress pressure plus momentum, reinitiating position",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Gilbert Ray Cisneros and Scott Franklin both disclosed ACN buys (congress_net_buy_pressure 2.0); ACN +17.9% 5d momentum",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 207.64,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.64,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CHRW",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 19.251464,
+    "price": 155.83,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "highest congress pressure score in list, already have a working buy_limit at 155.41 but adding a direct entry given 61.8% range is acceptable and momentum +5.89% 5d",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure CHRW=3.0 (top score), Rep. April McClain Delaney disclosed multiple buys 2026-09-09",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 155.77,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.28,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HLI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 23.110361,
+    "price": 129.81,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "congress-backed name with positive 1d momentum (+1.07%) and low day-range (32.9%), good entry point",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure HLI=2.0, track_record signal avg_ret_pct 0.11 hit_rate 0.64 (n=43)",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 129.76,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -2.59,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "FWONK",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 27.183731,
+    "price": 91.97,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "congress pressure signal, modest position size given smaller liquidity (avg_volume 2.2M)",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure FWONK=2.0",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 91.93,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -5.62,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "SKWD",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 36.347135,
+    "price": 55.02,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "congress-backed small position, low day range (0%) suggests not chasing",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure SKWD=2.0",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 54.97,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -2.41,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TTD",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 207.555054,
+    "price": 12.04,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "congress pressure plus low in day range, good entry price not chasing a move",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure TTD=2.0, TTD trading at 10.4% of day range (near low)",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 12.04,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -17.25,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.302131,
+    "price": 471.51,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "defense name near day low, contrarian value entry on a quality defense name",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "NOC day range 2.0% (near day low), defense sector avg_ret_pct -0.02 hit_rate 0.53 but oversold -7.68% 5d creating value entry",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 471.32,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.02,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.234718,
+    "price": 222.52,
+    "date": "2026-10-02",
+    "time_et": "09:39",
+    "ts": 1790948360,
+    "why": "widely held blue chip near day low, diversification into tech/services",
+    "signals": [
+      "news",
+      "track_record"
+    ],
+    "evidence": "IBM at 14.4% of day range (near low), widely_held sector hit_rate 0.56",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 222.48,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -3.98,
+    "hour_et": 9,
+    "code_version": "3fc9d9a",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

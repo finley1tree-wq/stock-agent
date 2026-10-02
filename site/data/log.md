@@ -1,47 +1,3 @@
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-brain: Still below min_positions (5/8) with 88.5% cash idle - the repeated lesson pattern confirms I need genuine sector diversification with individual evidence, not more widely_held cluster adds. Picked ACN (earnings beat catalyst), NOC (defense, distinct from LMT/RTX already sold today), META (AI mega-cap with regulatory catalyst, distinct from GOOGL/TSM), and XENE (same-day CEO+CFO insider buying, strongest concrete evidence in the dataset). Added protective stops given auto_bracket/risk_management is the best-performing signal bucket (0.18% avg, 87-88% hit rate).
-lesson: Insider buys from BOTH CEO and CFO on the same filing date (XENE) are a stronger signal than single-insider or congress-cluster trades - prioritize these when diversifying.
-  (dropped NOC: sold 28 min ago, cooling off)
-  (dropped META: sold 12 min ago, cooling off)
-- BUY $550.00 ACN [filled] ['news', 'momentum'] — Strong earnings-driven move with fresh catalyst, though already up a lot intraday so sizing moderate [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Accenture Q4 beat, shares +18.26% today on 'record bookings dispel AI demand fears', fiscal 2027 growth forecasts raised
-- BUY $450.00 XENE [filled] ['insider'] — Fresh same-day insider buying cluster from CFO and CEO, strongest insider signal in dataset today [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CFO Kelly Thomas Patrick bought 15,000 shares at $37.32 and CEO Mortimer Ian bought 30,000 shares at $37.38, both filed 2026-10-01, stock +4.3% today
-  (dropped trigger NOC stop_loss: not held)
-~ WORKING stop_loss 100% XENE @ $37.04 until 2026-10-01 — bound downside ~4.5% below entry on volatile biotech name
-~ WORKING stop_loss 100% ACN @ $205.00 until 2026-10-01 — bound downside on momentum-extended earnings pop
-~ WORKING take_profit 100% ACN @ $218.00 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $210.39 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% XENE @ $39.14 until 2026-10-06 — close 100% at +0.8% over the average cost
-~ WORKING buy_limit $500.00 XENE @ $37.65 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25196.63 (+0.79% on $25000.00 in) · cash $21458.07 · realised +208.07
-Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $21126.50 this week
-  (cancelled 2 standing order(s) on XENE: position closed)
-- SELL 100% XENE [take_profit @ $39.14] -> $453.86 (+0.86%) — close 100% at +0.8% over the average cost
-## 2026-10-01 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% CCJ [time stop] -> $869.96 (-0.58%) — held 30 min, the 30-minute limit: out regardless
-## 2026-10-01 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-01 11:48 ET (Thursday) — week 2026-W40 — budget left $22450.32 (today $51000.00 put to work, 42 buys, 36 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (FLNA excluded: too thinly traded ($2.0M a day) — Filana Therapeutics, Inc.)
-  (GPUS excluded: too thinly traded ($5.3M a day) — Hyperscale Data, Inc.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Below min_positions (5 of 8) with 89.8% cash idle - this is costing the account per counterfactual data. Adding IBM (Accenture earnings spillover headline, low in day range), AMD (AI chip momentum, mid-range entry not chasing), and NLR (nuclear/AI power theme, near day low) diversifies away from the existing GOOGL/LEN/UNH/TSM/ACN cluster into new sectors with concrete evidence each. Protective stops placed on all new entries per risk_management which has the best track record (0.18% avg, 87% hit rate).
-lesson: Below min_positions with high idle cash is itself costing the account (counterfactual shows idle checks are 52% of all checks); prioritize reaching min_positions with sector-diversified, evidence-backed names each check rather than waiting.
-- BUY $550.00 IBM [filled] ['news', 'momentum'] — Accenture earnings beat spilling over positively into IBM's consulting exposure, not yet fully priced given low pct_of_day_range (3.1%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: IBM Climbs 5% as 'Strength in Accenture's Consulting Business Gives IBM Stock a Much-Needed Boost' (Barrons, 14:11); IBM +2.26% 1d
-- BUY $550.00 AMD [filled] ['news', 'momentum'] — AI chip complex strength continuing, AMD has strong 1m momentum without being extended intraday [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'Nvidia's Latest Move is a Green Light to Keep Loading Up' 24/7 Wall St 12:45; AMD +32.74% 1m momentum, mid-range at 49.1% pct_of_day_range
-- BUY $525.00 NLR [filled] ['news'] — Nuclear/AI power theme intact per backtest priors (nuclear sector avg_total_return_pct 282% over 2y), entering near day low not chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 'Bet on These Nuclear ETFs to Ride the AI Data Center Boom Now' Zacks; NLR low in range at 8.6% pct_of_day_range offering better entry
-~ WORKING stop_loss 100% IBM @ $219.50 until 2026-10-01 — bound downside on earnings-spillover trade
-~ WORKING stop_loss 100% AMD @ $592.00 until 2026-10-01 — bound downside on momentum entry
-~ WORKING stop_loss 100% NLR @ $98.80 until 2026-10-01 — bound downside on nuclear theme entry
-~ WORKING take_profit 100% IBM @ $225.71 until 2026-10-06 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $218.18 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMD @ $613.07 until 2026-10-06 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 AMD @ $591.91 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NLR @ $102.33 until 2026-10-06 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 NLR @ $98.94 until 2026-10-06 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25199.77 (+0.80% on $25000.00 in) · cash $21156.90 · realised +206.90
 Done: 0 sell(s), 3 buy(s); 26 order(s) working; budget left $20825.32 this week
@@ -398,3 +354,47 @@ Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $466.13] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-10-02 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 09:39 ET (Friday) — week 2026-W40 — budget left $21945.45 (today $16500.00 put to work, 6 buys, 5 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Book is at 1 position (HUBB) vs min_positions 8, cash_idle_pct 87.8% - this is the known costly pattern per past lessons. Deploying full remaining budget across 7 new congress/track-record backed names (ACN, CHRW, HLI, FWONK, SKWD, TTD, NOC, IBM), each sized $2000-3000, picking names with either strong congress disclosure scores or favorable position in today's range (avoiding chasing per guardrails). Each new position gets a protective stop_loss per risk_management signal, which per track_record has the best realized hit rate (0.88) of any signal bucket.
+lesson: Deploying 7-8 congress/track-record backed names at $2000-3000 each from a flat book with 87% idle cash directly targets min_positions and should be checked again quickly (10min) to confirm fills and add protective stops before the 30-min auto-close window.
+- BUY $3000.00 ACN [filled] ['congress', 'track_record'] — cooldown cleared (was sold prior day not today), strong congress pressure plus momentum, reinitiating position | evidence: Rep. Gilbert Ray Cisneros and Scott Franklin both disclosed ACN buys (congress_net_buy_pressure 2.0); ACN +17.9% 5d momentum
+- BUY $3000.00 CHRW [filled] ['congress', 'track_record'] — highest congress pressure score in list, already have a working buy_limit at 155.41 but adding a direct entry given 61.8% range is acceptable and momentum +5.89% 5d | evidence: congress_net_buy_pressure CHRW=3.0 (top score), Rep. April McClain Delaney disclosed multiple buys 2026-09-09
+- BUY $3000.00 HLI [filled] ['congress', 'track_record'] — congress-backed name with positive 1d momentum (+1.07%) and low day-range (32.9%), good entry point | evidence: congress_net_buy_pressure HLI=2.0, track_record signal avg_ret_pct 0.11 hit_rate 0.64 (n=43)
+- BUY $2500.00 FWONK [filled] ['congress'] — congress pressure signal, modest position size given smaller liquidity (avg_volume 2.2M) | evidence: congress_net_buy_pressure FWONK=2.0
+- BUY $2000.00 SKWD [filled] ['congress'] — congress-backed small position, low day range (0%) suggests not chasing | evidence: congress_net_buy_pressure SKWD=2.0
+- BUY $2500.00 TTD [filled] ['congress'] — congress pressure plus low in day range, good entry price not chasing a move | evidence: congress_net_buy_pressure TTD=2.0, TTD trading at 10.4% of day range (near low)
+- BUY $2500.00 NOC [filled] ['momentum', 'track_record'] — defense name near day low, contrarian value entry on a quality defense name | evidence: NOC day range 2.0% (near day low), defense sector avg_ret_pct -0.02 hit_rate 0.53 but oversold -7.68% 5d creating value entry
+- BUY $2500.00 IBM [filled] ['news', 'track_record'] — widely held blue chip near day low, diversification into tech/services | evidence: IBM at 14.4% of day range (near low), widely_held sector hit_rate 0.56
+~ WORKING stop_loss 100% CHRW @ $152.65 until 2026-10-02 — protect new CHRW position
+~ WORKING stop_loss 100% ACN @ $203.50 until 2026-10-02 — protect new ACN position
+~ WORKING stop_loss 100% HLI @ $127.20 until 2026-10-02 — protect new HLI position
+~ WORKING stop_loss 100% FWONK @ $90.00 until 2026-10-02 — protect new FWONK position
+~ WORKING stop_loss 100% SKWD @ $53.85 until 2026-10-02 — protect new SKWD position
+~ WORKING stop_loss 100% TTD @ $11.55 until 2026-10-02 — protect new TTD position
+~ WORKING stop_loss 100% NOC @ $460.00 until 2026-10-02 — protect new NOC position
+~ WORKING stop_loss 100% IBM @ $217.50 until 2026-10-02 — protect new IBM position
+~ WORKING take_profit 100% ACN @ $208.75 until 2026-10-07 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $201.45 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $156.27 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $151.16 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $130.26 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HLI @ $125.92 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FWONK @ $92.22 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 FWONK @ $89.21 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $55.16 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $53.37 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.10 until 2026-10-07 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $11.68 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $472.80 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $457.36 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $223.27 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $215.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25275.24 (+1.10% on $25000.00 in) · cash $1277.03 · realised +277.03
+Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week

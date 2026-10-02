@@ -21426,3 +21426,47 @@ Done: 0 sell(s), 6 buy(s); 19 order(s) working; budget left $8381.41 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $466.13] -> $2505.53 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-10-02 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-02 09:39 ET (Friday) — week 2026-W40 — budget left $21945.45 (today $16500.00 put to work, 6 buys, 5 sells) — SIM (pretend money) via sim
+  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
+  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
+  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
+brain: Book is at 1 position (HUBB) vs min_positions 8, cash_idle_pct 87.8% - this is the known costly pattern per past lessons. Deploying full remaining budget across 7 new congress/track-record backed names (ACN, CHRW, HLI, FWONK, SKWD, TTD, NOC, IBM), each sized $2000-3000, picking names with either strong congress disclosure scores or favorable position in today's range (avoiding chasing per guardrails). Each new position gets a protective stop_loss per risk_management signal, which per track_record has the best realized hit rate (0.88) of any signal bucket.
+lesson: Deploying 7-8 congress/track-record backed names at $2000-3000 each from a flat book with 87% idle cash directly targets min_positions and should be checked again quickly (10min) to confirm fills and add protective stops before the 30-min auto-close window.
+- BUY $3000.00 ACN [filled] ['congress', 'track_record'] — cooldown cleared (was sold prior day not today), strong congress pressure plus momentum, reinitiating position | evidence: Rep. Gilbert Ray Cisneros and Scott Franklin both disclosed ACN buys (congress_net_buy_pressure 2.0); ACN +17.9% 5d momentum
+- BUY $3000.00 CHRW [filled] ['congress', 'track_record'] — highest congress pressure score in list, already have a working buy_limit at 155.41 but adding a direct entry given 61.8% range is acceptable and momentum +5.89% 5d | evidence: congress_net_buy_pressure CHRW=3.0 (top score), Rep. April McClain Delaney disclosed multiple buys 2026-09-09
+- BUY $3000.00 HLI [filled] ['congress', 'track_record'] — congress-backed name with positive 1d momentum (+1.07%) and low day-range (32.9%), good entry point | evidence: congress_net_buy_pressure HLI=2.0, track_record signal avg_ret_pct 0.11 hit_rate 0.64 (n=43)
+- BUY $2500.00 FWONK [filled] ['congress'] — congress pressure signal, modest position size given smaller liquidity (avg_volume 2.2M) | evidence: congress_net_buy_pressure FWONK=2.0
+- BUY $2000.00 SKWD [filled] ['congress'] — congress-backed small position, low day range (0%) suggests not chasing | evidence: congress_net_buy_pressure SKWD=2.0
+- BUY $2500.00 TTD [filled] ['congress'] — congress pressure plus low in day range, good entry price not chasing a move | evidence: congress_net_buy_pressure TTD=2.0, TTD trading at 10.4% of day range (near low)
+- BUY $2500.00 NOC [filled] ['momentum', 'track_record'] — defense name near day low, contrarian value entry on a quality defense name | evidence: NOC day range 2.0% (near day low), defense sector avg_ret_pct -0.02 hit_rate 0.53 but oversold -7.68% 5d creating value entry
+- BUY $2500.00 IBM [filled] ['news', 'track_record'] — widely held blue chip near day low, diversification into tech/services | evidence: IBM at 14.4% of day range (near low), widely_held sector hit_rate 0.56
+~ WORKING stop_loss 100% CHRW @ $152.65 until 2026-10-02 — protect new CHRW position
+~ WORKING stop_loss 100% ACN @ $203.50 until 2026-10-02 — protect new ACN position
+~ WORKING stop_loss 100% HLI @ $127.20 until 2026-10-02 — protect new HLI position
+~ WORKING stop_loss 100% FWONK @ $90.00 until 2026-10-02 — protect new FWONK position
+~ WORKING stop_loss 100% SKWD @ $53.85 until 2026-10-02 — protect new SKWD position
+~ WORKING stop_loss 100% TTD @ $11.55 until 2026-10-02 — protect new TTD position
+~ WORKING stop_loss 100% NOC @ $460.00 until 2026-10-02 — protect new NOC position
+~ WORKING stop_loss 100% IBM @ $217.50 until 2026-10-02 — protect new IBM position
+~ WORKING take_profit 100% ACN @ $208.75 until 2026-10-07 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $201.45 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CHRW @ $156.27 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 CHRW @ $151.16 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HLI @ $130.26 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HLI @ $125.92 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FWONK @ $92.22 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 FWONK @ $89.21 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% SKWD @ $55.16 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 SKWD @ $53.37 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TTD @ $12.10 until 2026-10-07 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 TTD @ $11.68 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $472.80 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $457.36 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $223.27 until 2026-10-07 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $215.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25275.24 (+1.10% on $25000.00 in) · cash $1277.03 · realised +277.03
+Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
