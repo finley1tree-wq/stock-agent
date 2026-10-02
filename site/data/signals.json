@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-02T12:19-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-02T12:20-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "1c749079",
-   "ticker": "O",
-   "kind": "stop_loss",
-   "price": 53.95,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.97,
-   "pct_away": -0.04,
-   "good_until": "2026-10-07",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e5782839",
-   "ticker": "O",
-   "kind": "take_profit",
-   "price": 54.0387,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.97,
-   "pct_away": 0.13,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "8c90cb0b",
    "ticker": "AAPL",
    "kind": "buy_limit",
@@ -219,8 +185,8 @@
    "usd": 2300.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 333.04,
-   "pct_away": -0.64,
+   "last": 332.9,
+   "pct_away": -0.6,
    "good_until": "2026-10-02",
    "why": "Queue AAPL entry at a better level near today's low-mid range instead of chasing the high",
    "signals": [
@@ -236,7 +202,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 343.68,
+   "last": 343.67,
    "pct_away": 0.66,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.3% over the average cost",
@@ -253,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 89.57,
-   "pct_away": 0.72,
+   "last": 89.56,
+   "pct_away": 0.73,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.1% over the average cost",
    "signals": [
@@ -270,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 89.57,
-   "pct_away": -1.42,
+   "last": 89.56,
+   "pct_away": -1.41,
    "good_until": "2026-10-02",
    "why": "Protect new VNQ position",
    "signals": [
@@ -286,7 +252,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 343.68,
+   "last": 343.67,
    "pct_away": -1.65,
    "good_until": "2026-10-02",
    "why": "Protect new GOOGL position",
@@ -302,8 +268,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 343.68,
-   "pct_away": 1.69,
+   "last": 343.67,
+   "pct_away": 1.7,
    "good_until": "2026-10-07",
    "why": "Lock in gain on GOOGL",
    "signals": [
@@ -318,8 +284,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 89.57,
-   "pct_away": 2.15,
+   "last": 89.56,
+   "pct_away": 2.17,
    "good_until": "2026-10-07",
    "why": "Lock in gain on VNQ",
    "signals": [
@@ -334,8 +300,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 89.57,
-   "pct_away": -2.45,
+   "last": 89.56,
+   "pct_away": -2.44,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -351,25 +317,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 343.68,
+   "last": 343.67,
    "pct_away": -2.65,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "55fe37ff",
-   "ticker": "O",
-   "kind": "buy_limit",
-   "price": 52.3218,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 53.97,
-   "pct_away": -3.05,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

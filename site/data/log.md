@@ -1,6 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-01 15:00 ET (Thursday) — week 2026-W40 — budget left $24881.41 (today $58300.00 put to work, 56 buys, 55 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 23 standing order(s) working.
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [stop_loss @ $332.34] -> $574.82 (-0.03%) — close it all at -0.5% under the average cost
 ## 2026-10-02 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on O: position closed)
+- SELL 100% O [stop_loss @ $53.91] -> $999.95 (-0.01%) — close it all at -0.5% under the average cost
+## 2026-10-02 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders

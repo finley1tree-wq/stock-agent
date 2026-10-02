@@ -1,6 +1,6 @@
 {
   "week": "2026-W40",
-  "spent": 2012.49,
+  "spent": 1012.54,
   "deployed": 359375.18,
   "by_ticker": {
     "AVGO": 28.22,
@@ -21,7 +21,7 @@
     "MSFT": 19.35,
     "TPL": 3.17,
     "NLR": 4.98,
-    "O": 1000.49,
+    "O": 0.54,
     "PLD": 1.52,
     "GLD": 6.07,
     "HD": 9.32,
@@ -8372,13 +8372,34 @@
       ],
       "evidence": "average cost $332.45",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "O",
+      "side": "sell",
+      "qty": 18.547458,
+      "status": "filled",
+      "price": 53.91,
+      "proceeds": 999.95,
+      "realized_pnl": -0.05,
+      "realized_pct": -0.01,
+      "date": "2026-10-02",
+      "time_et": "12:20",
+      "ts": 1790958000,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $53.92",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-02",
-  "spent_today": 1893.9,
+  "spent_today": 893.95,
   "deployed_today": 54600.0,
   "orders_today": 34,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "CRWD",
     "AVGO",
@@ -8406,7 +8427,8 @@
     "HD",
     "AMZN",
     "PLD",
-    "AAPL"
+    "AAPL",
+    "O"
   ],
   "sold_ts": {
     "PLTR": 1790951677,
@@ -8442,19 +8464,17 @@
     "GLD": 1790954974,
     "KO": 1790871618,
     "PLD": 1790956559,
-    "O": 1790867766,
+    "O": 1790958032,
     "XENE": 1790876714,
     "PG": 1790948193
   },
-  "last_publish_ts": 1790957996,
-  "last_check_ts": 1790957996,
-  "last_bar_ts": 1790957700,
+  "last_publish_ts": 1790958031,
+  "last_check_ts": 1790958077,
+  "last_bar_ts": 1790958000,
   "last_decision_ts": 1790956458,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "1c749079": 53.95,
-    "e5782839": 54.0387,
     "8c90cb0b": 330.9,
     "ccf7f7ab": 345.9375,
     "5404d18d": 90.2151,
@@ -8463,8 +8483,7 @@
     "34871ba3": 349.5,
     "28e82bca": 91.5,
     "bbe3e75b": 87.3776,
-    "bfeba999": 334.5724,
-    "55fe37ff": 52.3218
+    "bfeba999": 334.5724
   },
   "hold_arm": {
     "RTX": 90,
