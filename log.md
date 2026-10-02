@@ -21562,3 +21562,6 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $518.12] -> $551.39 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $366.57] -> $501.05 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-10-02 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders

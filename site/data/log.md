@@ -1,6 +1,3 @@
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-brain: Still well below min_positions (5 of 8) with 89.5% idle cash - counterfactual data shows idle checks average -0.09% vs chosen picks +0.24%, so deploying into diversified, evidence-backed names is the right move. Added HUBB/CHRW (top congress pressure scores from April McClain Delaney), XENE (rare dual CEO+CFO insider buy flagged as a stronger signal in past lessons), and GPI (large 10%-holder insider buy) to diversify sectors away from the existing defense/gold/financial cluster.
-lesson: Dual-insider buys (CEO+CFO same filing date) and top-ranked congress disclosers (score 3.0, named individuals) are the strongest evidence-backed entries available when below min_positions; keep sizing at $2000 to actually move cash_idle_pct down.
   (dropped HUBB: 100% up today's range — resting a limit at $455.12 instead of chasing)
   (dropped XENE: 94% up today's range — resting a limit at $39.09 instead of chasing)
   (dropped GPI: 90% up today's range — resting a limit at $242.30 instead of chasing)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $518.12] -> $551.39 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $366.57] -> $501.05 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-10-02 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders

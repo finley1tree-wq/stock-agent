@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-02T10:02-04:00",
+ "asOf": "2026-10-02T10:06-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "88bcea81",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 366.322,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 366.42,
-   "pct_away": -0.03,
-   "good_until": "2026-10-07",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c03da26c",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 366.5682,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 366.42,
-   "pct_away": 0.04,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "7669a572",
    "ticker": "GLD",
    "kind": "take_profit",
@@ -219,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 383.68,
-   "pct_away": 0.33,
+   "last": 384.0,
+   "pct_away": 0.25,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -236,25 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 192.21,
-   "pct_away": 0.42,
-   "good_until": "2026-10-07",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7e3a3af6",
-   "ticker": "FWONK",
-   "kind": "take_profit",
-   "price": 92.2202,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 91.43,
-   "pct_away": 0.86,
+   "last": 191.8,
+   "pct_away": 0.64,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -270,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 85.73,
-   "pct_away": 1.17,
+   "last": 86.08,
+   "pct_away": 0.76,
    "good_until": "2026-10-07",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7e3a3af6",
+   "ticker": "FWONK",
+   "kind": "take_profit",
+   "price": 92.2202,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 91.46,
+   "pct_away": 0.83,
+   "good_until": "2026-10-07",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 383.68,
-   "pct_away": -1.48,
+   "last": 384.0,
+   "pct_away": -1.56,
    "good_until": "2026-10-02",
    "why": "ATR-based stop to protect against reversal",
    "signals": [
@@ -303,26 +269,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 91.43,
-   "pct_away": -1.56,
+   "last": 91.46,
+   "pct_away": -1.6,
    "good_until": "2026-10-02",
    "why": "protect new FWONK position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "c9e6ec4a",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 84.3,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 85.73,
-   "pct_away": -1.67,
-   "good_until": "2026-10-02",
-   "why": "protect new position with ATR-based stop",
    "signals": [
     "risk_management"
    ]
@@ -335,8 +285,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 192.21,
-   "pct_away": -2.19,
+   "last": 191.8,
+   "pct_away": -1.98,
    "good_until": "2026-10-02",
    "why": "ATR-based stop to protect against reversal",
    "signals": [
@@ -344,20 +294,19 @@
    ]
   },
   {
-   "id": "7bc0e25e",
+   "id": "c9e6ec4a",
    "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 83.808,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "kind": "stop_loss",
+   "price": 84.3,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 85.73,
-   "pct_away": -2.24,
-   "good_until": "2026-10-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 86.08,
+   "pct_away": -2.07,
+   "good_until": "2026-10-02",
+   "why": "protect new position with ATR-based stop",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "risk_management"
    ]
   },
   {
@@ -368,8 +317,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 91.43,
-   "pct_away": -2.43,
+   "last": 91.46,
+   "pct_away": -2.46,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -378,15 +327,15 @@
    ]
   },
   {
-   "id": "4cd73983",
-   "ticker": "GLD",
+   "id": "7bc0e25e",
+   "ticker": "CCJ",
    "kind": "buy_limit",
-   "price": 372.7225,
+   "price": 83.808,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 383.68,
-   "pct_away": -2.86,
+   "last": 86.08,
+   "pct_away": -2.64,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -402,8 +351,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 192.21,
-   "pct_away": -2.9,
+   "last": 191.8,
+   "pct_away": -2.7,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -412,15 +361,15 @@
    ]
   },
   {
-   "id": "94f3b18f",
-   "ticker": "UNH",
+   "id": "4cd73983",
+   "ticker": "GLD",
    "kind": "buy_limit",
-   "price": 354.826,
+   "price": 372.7225,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 366.42,
-   "pct_away": -3.16,
+   "last": 384.0,
+   "pct_away": -2.94,
    "good_until": "2026-10-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
