@@ -1,11 +1,10 @@
 {
   "week": "2026-W41",
-  "spent": 11977.53,
+  "spent": 7460.77,
   "deployed": 20000.0,
   "by_ticker": {
     "PG": 2500.0,
     "ACN": 2500.0,
-    "NFLX": 4500.0,
     "HD": 2500.0
   },
   "deployed_by_ticker": {
@@ -247,25 +246,48 @@
       ],
       "evidence": "average cost $357.77",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NFLX",
+      "side": "sell",
+      "qty": 67.128546,
+      "status": "filled",
+      "price": 67.29,
+      "proceeds": 4516.76,
+      "realized_pnl": 16.76,
+      "realized_pct": 0.37,
+      "date": "2026-10-05",
+      "time_et": "09:48",
+      "ts": 1791207900,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $67.09",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 11977.53,
+  "spent_today": 7460.77,
   "deployed_today": 20000.0,
   "orders_today": 8,
-  "sells_today": 3,
+  "sells_today": 4,
   "sold_today": [
     "MSFT",
     "TSM",
-    "AVGO"
+    "AVGO",
+    "NFLX"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
     "TSM": 1791207397,
-    "AVGO": 1791207950
+    "AVGO": 1791207950,
+    "NFLX": 1791208121
   },
-  "last_publish_ts": 1791207948,
-  "last_check_ts": 1791208083,
+  "last_publish_ts": 1791208120,
+  "last_check_ts": 1791208166,
   "exp_arm": {
     "AVGO": {
       "params": {
@@ -318,7 +340,6 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "bd017fd5": 67.2852,
     "8eed9421": 333.5915,
     "543f301b": 370.5,
     "ac7b3721": 145.7142,
@@ -326,13 +347,11 @@
     "2ce2c8bb": 497.0,
     "34d84417": 193.0,
     "69ed8db9": 192.8748,
-    "af28c21c": 142.5,
     "c7823794": 276.5,
-    "66b4b298": 274.1705,
-    "d26c5fbe": 141.1156,
+    "af28c21c": 142.5,
     "2afc9465": 199.9356,
-    "385065c7": 65.5,
+    "66b4b298": 274.1705,
     "814bf98e": 615.0,
-    "8a481735": 65.0288
+    "d26c5fbe": 141.1156
   }
 }
