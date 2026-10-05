@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-05T12:37-04:00",
+ "asOf": "2026-10-05T13:08-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "f92707d9",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 219.5,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 221.46,
+   "pct_away": -0.89,
+   "good_until": "2026-10-05",
+   "why": "diversify into widely_held tech-adjacent name not currently in cooldown",
+   "signals": [
+    "news",
+    "track_record"
+   ]
+  },
+  {
    "id": "eaf5b119",
    "ticker": "KO",
    "kind": "buy_limit",
@@ -185,8 +202,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.49,
-   "pct_away": -1.14,
+   "last": 86.44,
+   "pct_away": -1.09,
    "good_until": "2026-10-05",
    "why": "re-enter KO (sold today) once cooldown clears and price pulls back from day high",
    "signals": [
@@ -195,17 +212,51 @@
    ]
   },
   {
-   "id": "f92707d9",
-   "ticker": "IBM",
+   "id": "2ce2c8bb",
+   "ticker": "LMT",
    "kind": "buy_limit",
-   "price": 219.5,
+   "price": 497.0,
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 222.22,
-   "pct_away": -1.22,
+   "last": 505.72,
+   "pct_away": -1.72,
    "good_until": "2026-10-05",
-   "why": "diversify into widely_held tech-adjacent name not currently in cooldown",
+   "why": "Defense sector diversification away from tech cluster at a level not chasing the day's move",
+   "signals": [
+    "news",
+    "track_record"
+   ]
+  },
+  {
+   "id": "8addb628",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 192.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 195.43,
+   "pct_away": -1.76,
+   "good_until": "2026-10-05",
+   "why": "ACN sold today on 90min time-stop at -1.74%, re-enter lower given congress support and counterfactual showing large misses on this name",
+   "signals": [
+    "congress",
+    "track_record"
+   ]
+  },
+  {
+   "id": "9c898630",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 470.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 478.42,
+   "pct_away": -1.76,
+   "good_until": "2026-10-05",
+   "why": "defense diversification at a pulled-back level away from tech cluster",
    "signals": [
     "news",
     "track_record"
@@ -229,40 +280,6 @@
    ]
   },
   {
-   "id": "9c898630",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 470.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 478.64,
-   "pct_away": -1.81,
-   "good_until": "2026-10-05",
-   "why": "defense diversification at a pulled-back level away from tech cluster",
-   "signals": [
-    "news",
-    "track_record"
-   ]
-  },
-  {
-   "id": "2ce2c8bb",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 497.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 506.42,
-   "pct_away": -1.86,
-   "good_until": "2026-10-05",
-   "why": "Defense sector diversification away from tech cluster at a level not chasing the day's move",
-   "signals": [
-    "news",
-    "track_record"
-   ]
-  },
-  {
    "id": "11a2f797",
    "ticker": "PEP",
    "kind": "buy_limit",
@@ -270,27 +287,10 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 125.43,
-   "pct_away": -1.94,
+   "last": 125.27,
+   "pct_away": -1.81,
    "good_until": "2026-10-05",
    "why": "PEP already low in range but in cooldown; limit slightly below to get better entry once eligible",
-   "signals": [
-    "congress",
-    "track_record"
-   ]
-  },
-  {
-   "id": "8addb628",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 192.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 195.79,
-   "pct_away": -1.94,
-   "good_until": "2026-10-05",
-   "why": "ACN sold today on 90min time-stop at -1.74%, re-enter lower given congress support and counterfactual showing large misses on this name",
    "signals": [
     "congress",
     "track_record"
@@ -304,8 +304,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 630.98,
-   "pct_away": -2.53,
+   "last": 630.09,
+   "pct_away": -2.39,
    "good_until": "2026-10-05",
    "why": "Congress-backed name with strong historical excess return per disclosure_leaderboard; wait for pullback rather than pay top-of-range price",
    "signals": [

@@ -1,29 +1,3 @@
-## 2026-10-02 11:54 ET (Friday) — week 2026-W40 — budget left $21295.31 (today $54600.00 put to work, 34 buys, 24 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Book already has 6 positions each with full auto-bracket stop/take-profit/scale-in triggers in place (AMZN, PLD, GOOGL, VNQ, AAPL, O), all opened in the last 90 minutes under the 11:xx PROBATION hour. Every forced entry today from 09:32-10:56 graded negative per past_lessons_with_outcome (avg_pct -0.32% to -1.17%), and strategy_stages flags hour "11" as PROBATION with signal mixes mostly PROBATION/CULLED - there's no SURVIVOR-hour catalyst right now to chase an 7th/8th name just to hit min_positions. I'm declining to force new entries into a PROBATION hour with no fresh evidence (no new headlines/filings since last check), and will let the existing bracket orders (stops/take-profits/scale-ins) manage the current 6 positions. Will re-check in 30 min to reassess once some of these auto-bracket trades resolve and cash frees up, or if a genuine catalyst (congress/insider filing, news) appears for an 8th name.
-lesson: Every forced entry today during PROBATION hours (10 of 10 logged checks) graded negative that same check - stop treating "below min_positions" as automatic license to buy into a culled/probation hour; wait for a SURVIVOR hour or concrete new evidence instead of recycling the same diversification rationale.
-portfolio: equity $25309.89 (+1.24% on $25000.00 in) · cash $21626.90 · realised +326.90
-Decision: nothing at this check. 23 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% AMZN [time stop] -> $618.86 (-0.98%) — held 90 min, the 90-minute limit: out regardless
-- SELL 100% PLD [time stop] -> $498.52 (-0.30%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-02 11:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AAPL: position closed)
-- SELL 100% AAPL [stop_loss @ $332.34] -> $574.82 (-0.03%) — close it all at -0.5% under the average cost
-## 2026-10-02 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on O: position closed)
-- SELL 100% O [stop_loss @ $53.91] -> $999.95 (-0.01%) — close it all at -0.5% under the average cost
-## 2026-10-02 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-02 12:25 ET (Friday) — week 2026-W40 — budget left $23987.46 (today $54600.00 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
   (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
@@ -395,6 +369,32 @@ Decision: nothing at this check. 8 standing order(s) working.
   (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
 brain: All 11 prior buys from today are in 45-min cooldown, hour-10/11/12 is PROBATION, and I already have 8 buy_limit resting orders working across diversified sectors (KO, IBM, RTX, PEP, ACN, LMT, NOC, AMD) all sitting 1-2.6% below market to get a better entry rather than chasing names near day highs. No new concrete catalyst justifies a market buy right now since the attractive congress/momentum names (ACN, KO, PEP) are precisely the ones in cooldown. Letting the working limits fire as prices pull back, per the pattern noted in past_lessons about cooldown sweeps, is the disciplined move.
 lesson: When the whole book just sold on cooldown simultaneously, resting buy_limits below market across sectors and waiting a short interval is better than forcing a PROBATION-hour market chase into names sitting 50-99% of day range.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 12:39 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 of today's buys are mid-cooldown (sold within the last ~45 min), and hour-12 is PROBATION with no new congress/insider catalyst since last check. The 8 resting buy_limit orders already cover re-entry into KO, IBM, RTX, NOC, LMT, ACN, PEP, and AMD at sensible pullback levels below current day-range highs (most names are 60-99% of day range right now, so chasing at market would violate max_entry_range_pct guardrail). Rather than force a probation-sized market entry into extended names, I'll let the working buy_limits do their job and recheck shortly once cooldowns clear or a limit fills.
+lesson: When the entire book just rotated out on 45-min cooldowns simultaneously and the hour is PROBATION, resting buy_limits below market (already placed) are the right tool - don't force a fresh market order into names sitting 60-99% of day range just to avoid an empty check.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 12:54 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: Book is flat (0 positions) with all 8 prior buys in 45-min cooldown from this morning's round-trip, and hour-12 is PROBATION with mediocre historical return (-0.03% avg_ret_pct). Most watchlist names (DIA 93%, AVGO 94%, LMT 93%, PG 80%, KO 98%, ESE 98%, MCD 99%, AMD 81%, META 89%) are pinned near day highs - paying up there violates max_entry_range_pct guidance and the lesson log explicitly flags this exact pattern (8 cooldowns + PROBATION hour + extended watchlist = rest limits, don't chase). I already have 8 buy_limit orders working below market across diversified sectors (KO, IBM, PEP, ACN, NOC, LMT, RTX, AMD) covering congress/news/track_record signals, which is the correct tool here per guardrails. I'll let those work and check back soon since cooldowns clear within 45 minutes and several limits are only 1-2.5% below market.
+lesson: When the whole book is simultaneously in cooldown and the watchlist sits 80-99% of day range in a PROBATION hour, resting buy_limits already placed below market is the right tool - don't force a fresh market chase just to fill min_positions.
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
