@@ -1,16 +1,3 @@
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Already at min_positions (8/8) with protective stops, take-profits and scale-in buy_limits already working on every position (NEM, HD, AMZN, PLD, GOOGL, VNQ, AAPL, O). Today's repeated forced entries every 10-15 min have realized negative avg_pct each time (-0.24% to -1.09% per the lessons log), so chasing an extra name just to deploy more cash is the pattern explicitly flagged as a mistake. No new evidence (headline/filing) justifies a 9th name right now, and 10:00-14:00 hours are PROBATION/CULLED for new entries anyway. Best move is to hold the full book, let the existing brackets/ratchets do their job, and check back soon in case a stop or take-profit fires and frees capital for a genuinely better idea.
-lesson: Once min_positions is reached and every position has working stop/take-profit/scale-in orders, stop forcing new entries just to spend idle cash - today's string of forced buys every check all graded negative; let the standing orders work and wait for a real catalyst.
-portfolio: equity $25313.31 (+1.25% on $25000.00 in) · cash $20101.24 · realised +351.24
-Decision: nothing at this check. 30 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% NEM [time stop] -> $984.98 (-1.50%) — held 90 min, the 90-minute limit: out regardless
-- SELL 100% HD [time stop] -> $1040.68 (-0.89%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-02 11:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-- BUY $500.00 O [buy_limit @ $53.90] — wanted it, but not at the high — resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-02 11:47 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
 ## 2026-10-02 11:54 ET (Friday) — week 2026-W40 — budget left $21295.31 (today $54600.00 put to work, 34 buys, 24 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
@@ -398,3 +385,16 @@ lesson: When most of today's buys are simultaneously in 45-min cooldown and the 
 ~ WORKING buy_limit $2000.00 IBM @ $219.50 until 2026-10-05 — diversify into widely_held tech-adjacent name not currently in cooldown
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
+
+## 2026-10-05 12:22 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 prior buys from today are in 45-min cooldown, hour-10/11/12 is PROBATION, and I already have 8 buy_limit resting orders working across diversified sectors (KO, IBM, RTX, PEP, ACN, LMT, NOC, AMD) all sitting 1-2.6% below market to get a better entry rather than chasing names near day highs. No new concrete catalyst justifies a market buy right now since the attractive congress/momentum names (ACN, KO, PEP) are precisely the ones in cooldown. Letting the working limits fire as prices pull back, per the pattern noted in past_lessons about cooldown sweeps, is the disciplined move.
+lesson: When the whole book just sold on cooldown simultaneously, resting buy_limits below market across sectors and waiting a short interval is better than forcing a PROBATION-hour market chase into names sitting 50-99% of day range.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
