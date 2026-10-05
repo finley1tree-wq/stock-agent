@@ -22010,3 +22010,16 @@ lesson: Hour-10 PROBATION entries with no fresh congress/insider catalyst and mo
 portfolio: equity $25311.49 (+1.25% on $25000.00 in) · cash $20379.61 · realised +379.61
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 11:01 ET (Monday) — week 2026-W41 — budget left $20067.20 (today $28500.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: We're in hour-11 PROBATION with heavy cooling-off (8 of today's recent buys including PG/AAPL/MSFT/TSM/AVGO/NFLX/UNH/PEP/KO within 45min) which blocks the strongest congress-backed candidates I'd otherwise rotate into. ACN and HD already have full auto-bracket protection (stops at 193/276.5, take-profits at 199.94/283.35) and a scale-in buy_limit each, plus LMT and AMD buy_limits resting below market to add diversification once price pulls back to a sane entry rather than chasing top-of-range prints (LMT 72.9% of range, AMD 75.3% of range, CCJ 86.5%, NOC 98.1% - everything is extended right now). Given the explicit past-lesson pattern that hour-10/11 PROBATION forced entries graded negative repeatedly, and that most quality congress/momentum names are either in cooldown or already stretched intraday, I'll hold the existing bracket orders working and wait for a cooldown to clear or a pullback to fill the resting limits rather than force a new market buy.
+lesson: When 8+ names are in simultaneous 45-min cooldown and the remaining watchlist is pinned near day-highs (pct_of_day_range>70), resting buy_limits below market plus holding existing brackets is better than forcing a PROBATION-hour market entry.
+portfolio: equity $25329.97 (+1.32% on $25000.00 in) · cash $20379.61 · realised +379.61
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
