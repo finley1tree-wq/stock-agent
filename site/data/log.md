@@ -1,32 +1,3 @@
-## 2026-10-02 10:25 ET (Friday) — week 2026-W40 — budget left $17948.59 (today $49275.00 put to work, 24 buys, 17 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Below min_positions (6/8) with 71.8% cash idle - the repeated lesson is to deploy into diversified sectors rather than clustering further in nuclear/entertainment/gold which already has CCJ/FWONK/NEM/GLD. Adding RTX (defense, pulled back -8% 1m, not extended in range), AMZN (widely-held, modest momentum, mid-range entry), and O+PLD (real estate, genuinely new sector sleeve) brings us to 8 positions with real diversification per the counterfactual's repeated flag on over-concentration. All entries are mid-range (not chasing highs) and sized $2000-2500 per the owner's sizing guidance.
-lesson: Real diversification (defense/widely-held/real-estate) beyond the existing nuclear/gold/entertainment cluster is the fix for the repeated idle/concentration lesson - track RTX/AMZN/O/PLD next check to see if this genuinely reduces drawdown correlation versus adding more CCJ/FWONK/NEM.
-  (dropped O: 95% up today's range — resting a limit at $53.90 instead of chasing)
-- BUY $625.00 RTX [filled] ['momentum', 'congress', 'track_record'] — Add defense exposure at a beaten-down level (39.7% of day range) to diversify book beyond nuclear/gold/entertainment, which counterfactual flagged as over-concentrated [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: RTX -0.21% 1d, -8.05% 1m giving pullback entry; defense sector hit_rate 0.55 in track record, below ACN/HD weight already held, diversifies away from entertainment/nuclear cluster
-- BUY $625.00 AMZN [filled] ['momentum', 'track_record'] — Widely-held name with positive daily momentum but not extended (68% of range), adds diversification to reach min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: AMZN +1.78% 1d, 68% of day range, widely_held sector hit_rate 0.56 in track record - a reasonable mid-range entry, not chasing the high
-- BUY $500.00 PLD [filled] ['momentum', 'track_record'] — Second real-estate name to build a real diversified sleeve rather than one-off position [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: PLD +0.8% 1d, 65.7% of day range, real estate sector track record hit_rate 0.42 (weak but adds diversification), ATR 1.65% low-vol
-  (dropped trigger O stop_loss: not held)
-  (dropped trigger O take_profit: not held)
-~ WORKING stop_loss 100% RTX @ $181.00 until 2026-10-02 — ATR-based protective stop for new RTX position
-~ WORKING take_profit 100% RTX @ $187.30 until 2026-10-07 — lock in gain if RTX pops
-~ WORKING stop_loss 100% AMZN @ $247.50 until 2026-10-02 — ATR-based protective stop for new AMZN position
-~ WORKING take_profit 100% AMZN @ $257.50 until 2026-10-07 — lock in gain if AMZN pops
-~ WORKING stop_loss 100% PLD @ $126.90 until 2026-10-02 — ATR-based protective stop for new PLD position
-~ WORKING take_profit 100% PLD @ $131.20 until 2026-10-07 — lock in gain if PLD pops
-~ WORKING buy_limit $500.00 O @ $53.90 until 2026-10-02 — wanted it, but not at the high — resting at $53.90. Adds real-estate diversification per repeated lesson to reduce nuclear/entertainment concentration [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% RTX @ $185.09 until 2026-10-07 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 RTX @ $179.15 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMZN @ $253.30 until 2026-10-07 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AMZN @ $245.12 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLD @ $129.49 until 2026-10-07 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 PLD @ $125.37 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25340.56 (+1.36% on $25000.00 in) · cash $16530.18 · realised +380.18
 Done: 0 sell(s), 3 buy(s); 33 order(s) working; budget left $16198.59 this week
   (cancelled 2 standing order(s) on PLTR: position closed)
 - SELL 100% PLTR [take_profit @ $193.02] -> $551.79 (+0.32%) — close 100% at +0.3% over the average cost
@@ -398,3 +369,32 @@ Decision: nothing at this check. 11 standing order(s) working.
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [take_profit @ $145.71] -> $2504.04 (+0.16%) — close 100% at +0.2% over the average cost
 ## 2026-10-05 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-05 10:45 ET (Monday) — week 2026-W41 — budget left $20067.20 (today $28500.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: Hour-10 PROBATION status with 8 of today's traded names in cooldown (PEP/KO/AAPL/PG) and the rest already sold/churned today (MSFT, TSM, AVGO, NFLX, UNH) - no fresh congress/insider evidence on an un-cooled name right now. ACN and HD already have working stop_loss/take_profit brackets plus scale-in buy_limits in place (ACN stop 193, HD stop 276.5, take-profits set) which is the correct risk-managed handling per the auto_bracket/risk_management signals that have the best realized hit rates (0.88-0.89). Forcing a new probation-hour buy without a distinct catalyst matches the exact pattern past_lessons flags as negative 8/8 times; better to let existing brackets work and recheck shortly for a cooldown to clear or a new disclosure to land.
+lesson: Hour-10 PROBATION entries with no fresh congress/insider catalyst and most watchlist names in cooldown graded negative repeatedly - resting on working brackets and waiting for cooldowns to clear is the disciplined move, not forcing a probation buy to hit min_positions.
+portfolio: equity $25311.49 (+1.25% on $25000.00 in) · cash $20379.61 · realised +379.61
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 11:01 ET (Monday) — week 2026-W41 — budget left $20067.20 (today $28500.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: We're in hour-11 PROBATION with heavy cooling-off (8 of today's recent buys including PG/AAPL/MSFT/TSM/AVGO/NFLX/UNH/PEP/KO within 45min) which blocks the strongest congress-backed candidates I'd otherwise rotate into. ACN and HD already have full auto-bracket protection (stops at 193/276.5, take-profits at 199.94/283.35) and a scale-in buy_limit each, plus LMT and AMD buy_limits resting below market to add diversification once price pulls back to a sane entry rather than chasing top-of-range prints (LMT 72.9% of range, AMD 75.3% of range, CCJ 86.5%, NOC 98.1% - everything is extended right now). Given the explicit past-lesson pattern that hour-10/11 PROBATION forced entries graded negative repeatedly, and that most quality congress/momentum names are either in cooldown or already stretched intraday, I'll hold the existing bracket orders working and wait for a cooldown to clear or a pullback to fill the resting limits rather than force a new market buy.
+lesson: When 8+ names are in simultaneous 45-min cooldown and the remaining watchlist is pinned near day-highs (pct_of_day_range>70), resting buy_limits below market plus holding existing brackets is better than forcing a PROBATION-hour market entry.
+portfolio: equity $25329.97 (+1.32% on $25000.00 in) · cash $20379.61 · realised +379.61
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% ACN [time stop] -> $2456.39 (-1.74%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% HD [time stop] -> $2486.09 (-0.56%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-05 11:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders

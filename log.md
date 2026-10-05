@@ -22023,3 +22023,6 @@ lesson: When 8+ names are in simultaneous 45-min cooldown and the remaining watc
 portfolio: equity $25329.97 (+1.32% on $25000.00 in) · cash $20379.61 · realised +379.61
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% ACN [time stop] -> $2456.39 (-1.74%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% HD [time stop] -> $2486.09 (-0.56%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-05 11:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
