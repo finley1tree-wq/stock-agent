@@ -1,5 +1,3 @@
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
   (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
 brain: Book is far below min_positions (3/8) with 70% cash idle and we're in the SURVIVOR hour (09:00-10:00 ET) per strategy_stages. Adding PLTR (defense/congress pressure), MSFT and AMZN (widely_held, low in day range, not chasing), and GLD (gold sector 59% hit rate per track_record) diversifies sector exposure away from the current nuclear/widely_held/entertainment cluster while respecting the no-momentum-only rule by pairing each with a concrete evidence point. All entries are sized $2000-2200, well within max_entry_range_pct, and get fresh ATR stops since full_deployment mode still requires per-position floors.
@@ -398,3 +396,5 @@ Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $10011.92 this week
   (cancelled 2 standing order(s) on NFLX: position closed)
 - SELL 100% NFLX [take_profit @ $67.29] -> $4516.76 (+0.37%) — close 100% at +0.3% over the average cost
 ## 2026-10-05 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2000.00 UNH [buy_limit @ $370.50] — Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point
+## 2026-10-05 09:55 ET — tick — 0 sell(s), 1 buy(s) from standing orders

@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-05T09:48-04:00",
+ "asOf": "2026-10-05T09:55-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "e6e9df6d",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 371.2781,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 370.46,
+   "pct_away": 0.22,
+   "good_until": "2026-10-10",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "8eed9421",
    "ticker": "AAPL",
    "kind": "buy_limit",
@@ -185,8 +202,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 335.12,
-   "pct_away": -0.46,
+   "last": 334.97,
+   "pct_away": -0.41,
    "good_until": "2026-10-05",
    "why": "wanted it, but not at the high \u2014 resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position",
    "signals": [
@@ -196,20 +213,20 @@
    ]
   },
   {
-   "id": "543f301b",
+   "id": "40ebe8d0",
    "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 370.5,
-   "usd": 2000.0,
-   "pct_of_position": null,
+   "kind": "stop_loss",
+   "price": 368.5586,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 372.23,
-   "pct_away": -0.46,
-   "good_until": "2026-10-05",
-   "why": "Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point",
+   "last": 370.46,
+   "pct_away": -0.51,
+   "good_until": "2026-10-10",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
-    "momentum",
-    "track_record"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -220,25 +237,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 144.84,
-   "pct_away": 0.6,
-   "good_until": "2026-10-10",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "08c3d3a3",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 283.3481,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 280.88,
-   "pct_away": 0.88,
+   "last": 144.74,
+   "pct_away": 0.67,
    "good_until": "2026-10-10",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -254,8 +254,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 503.61,
-   "pct_away": -1.31,
+   "last": 501.52,
+   "pct_away": -0.9,
    "good_until": "2026-10-05",
    "why": "Defense sector diversification away from tech cluster at a level not chasing the day's move",
    "signals": [
@@ -264,33 +264,17 @@
    ]
   },
   {
-   "id": "34d84417",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 193.0,
+   "id": "08c3d3a3",
+   "ticker": "HD",
+   "kind": "take_profit",
+   "price": 283.3481,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 195.87,
-   "pct_away": -1.47,
-   "good_until": "2026-10-05",
-   "why": "Protect capital given higher ATR",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "69ed8db9",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 192.8748,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 195.87,
-   "pct_away": -1.53,
+   "last": 280.06,
+   "pct_away": 1.17,
    "good_until": "2026-10-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +288,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 280.88,
-   "pct_away": -1.56,
+   "last": 280.06,
+   "pct_away": -1.27,
    "good_until": "2026-10-05",
    "why": "Protect capital on HD position",
    "signals": [
@@ -320,12 +304,45 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 144.84,
-   "pct_away": -1.62,
+   "last": 144.74,
+   "pct_away": -1.55,
    "good_until": "2026-10-05",
    "why": "Protect capital on defensive name",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "34d84417",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 193.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 196.17,
+   "pct_away": -1.62,
+   "good_until": "2026-10-05",
+   "why": "Protect capital given higher ATR",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "69ed8db9",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 192.8748,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 196.17,
+   "pct_away": -1.68,
+   "good_until": "2026-10-10",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -336,8 +353,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 195.87,
-   "pct_away": 2.08,
+   "last": 196.17,
+   "pct_away": 1.92,
    "good_until": "2026-10-10",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -353,8 +370,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 280.88,
-   "pct_away": -2.39,
+   "last": 280.06,
+   "pct_away": -2.1,
    "good_until": "2026-10-10",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -370,8 +387,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 630.28,
-   "pct_away": -2.42,
+   "last": 629.74,
+   "pct_away": -2.34,
    "good_until": "2026-10-05",
    "why": "Congress-backed name with strong historical excess return per disclosure_leaderboard; wait for pullback rather than pay top-of-range price",
    "signals": [
@@ -387,8 +404,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 144.84,
-   "pct_away": -2.57,
+   "last": 144.74,
+   "pct_away": -2.5,
+   "good_until": "2026-10-10",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a76aa231",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 359.385,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 370.46,
+   "pct_away": -2.99,
    "good_until": "2026-10-10",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
