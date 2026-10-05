@@ -1,14 +1,14 @@
 {
   "week": "2026-W41",
-  "spent": 13460.77,
-  "deployed": 26000.0,
+  "spent": 13949.27,
+  "deployed": 28500.0,
   "by_ticker": {
     "PG": 2500.0,
     "ACN": 2500.0,
     "HD": 2500.0,
-    "UNH": 2000.0,
     "KO": 2000.0,
-    "PEP": 2000.0
+    "PEP": 2000.0,
+    "AAPL": 2500.0
   },
   "deployed_by_ticker": {
     "AVGO": 3000.0,
@@ -20,7 +20,8 @@
     "HD": 2500.0,
     "UNH": 2000.0,
     "KO": 2000.0,
-    "PEP": 2000.0
+    "PEP": 2000.0,
+    "AAPL": 2500.0
   },
   "orders": [
     {
@@ -338,27 +339,74 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 5.398111,
+      "status": "filled",
+      "price": 372.63,
+      "proceeds": 2011.5,
+      "realized_pnl": 11.5,
+      "realized_pct": 0.57,
+      "date": "2026-10-05",
+      "time_et": "10:00",
+      "ts": 1791208800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $370.5",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AAPL",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.508635,
+      "price": 332.95,
+      "date": "2026-10-05",
+      "time_et": "10:00",
+      "ts": 1791208853,
+      "why": "wanted it, but not at the high \u2014 resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position",
+      "signals": [
+        "congress",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Cleo Fields disclosed AAPL buy 2026-09-08; AAPL +0.42% today at 97.7% of day range showing strength, +2.1% 1m",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 13460.77,
-  "deployed_today": 26000.0,
-  "orders_today": 11,
-  "sells_today": 4,
+  "spent_today": 13949.27,
+  "deployed_today": 28500.0,
+  "orders_today": 12,
+  "sells_today": 5,
   "sold_today": [
     "MSFT",
     "TSM",
     "AVGO",
-    "NFLX"
+    "NFLX",
+    "UNH"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
     "TSM": 1791207397,
     "AVGO": 1791207950,
-    "NFLX": 1791208121
+    "NFLX": 1791208121,
+    "UNH": 1791208808
   },
-  "last_publish_ts": 1791208758,
-  "last_check_ts": 1791208758,
+  "last_publish_ts": 1791208853,
+  "last_check_ts": 1791208853,
   "exp_arm": {
     "PG": {
       "params": {
@@ -387,15 +435,6 @@
         "ratchet": "off"
       }
     },
-    "UNH": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "KO": {
       "params": {
         "hold_minutes": 90,
@@ -413,34 +452,42 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "AAPL": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
-  "last_bar_ts": 1791208500,
+  "last_bar_ts": 1791208800,
   "last_decision_ts": 1791208758,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "8eed9421": 333.5915,
     "8fc26f2d": 85.438,
     "f975e439": 124.5811,
-    "e6e9df6d": 371.2781,
-    "40ebe8d0": 368.5586,
+    "a8374a1e": 333.6692,
+    "4cc53fa0": 331.1487,
     "ac7b3721": 145.7142,
-    "2ce2c8bb": 497.0,
+    "2afc9465": 199.9356,
     "c7823794": 276.5,
+    "2ce2c8bb": 497.0,
     "08c3d3a3": 283.3481,
     "c9cb345a": 126.2,
     "23b45687": 86.6,
     "af28c21c": 142.5,
-    "34d84417": 193.0,
-    "69ed8db9": 192.8748,
-    "2afc9465": 199.9356,
+    "814bf98e": 615.0,
+    "66b4b298": 274.1705,
     "6a76e148": 83.6,
     "ec9e7b0a": 121.8,
-    "66b4b298": 274.1705,
-    "814bf98e": 615.0,
+    "34d84417": 193.0,
+    "69ed8db9": 192.8748,
     "d26c5fbe": 141.1156,
-    "a76aa231": 359.385,
+    "0f00a076": 322.9615,
     "a428bc91": 82.7507,
     "a26b9e4e": 120.6001
   }

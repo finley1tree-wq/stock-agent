@@ -53700,5 +53700,62 @@
     "code_version": "828f5e7",
     "ret_1w": null,
     "ret_1m": null
+  },
+  {
+    "symbol": "UNH",
+    "side": "sell",
+    "qty": 5.398111,
+    "status": "filled",
+    "price": 372.63,
+    "proceeds": 2011.5,
+    "realized_pnl": 11.5,
+    "realized_pct": 0.57,
+    "date": "2026-10-05",
+    "time_et": "10:00",
+    "ts": 1791208800,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "momentum",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $370.5",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "5af8f13"
+  },
+  {
+    "symbol": "AAPL",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.508635,
+    "price": 332.95,
+    "date": "2026-10-05",
+    "time_et": "10:00",
+    "ts": 1791208853,
+    "why": "wanted it, but not at the high \u2014 resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position",
+    "signals": [
+      "congress",
+      "momentum",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "Cleo Fields disclosed AAPL buy 2026-09-08; AAPL +0.42% today at 97.7% of day range showing strength, +2.1% 1m",
+    "trigger": "buy_limit",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 332.95,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.44,
+    "hour_et": 10,
+    "code_version": "5af8f13",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

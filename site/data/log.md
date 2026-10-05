@@ -1,8 +1,3 @@
-Done: 0 sell(s), 3 buy(s); 19 order(s) working; budget left $15937.25 this week
-  (cancelled 2 standing order(s) on GOOGL: position closed)
-- SELL 100% GOOGL [take_profit @ $344.10] -> $2507.37 (+0.29%) — close 100% at +0.3% over the average cost
-- BUY $500.00 UNH [buy_limit @ $365.80] — wanted it, but not at the high — resting at $365.80. skip - UNH too high in range, replaced by NEM below [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-02 10:01 ET — tick — 1 sell(s), 1 buy(s) from standing orders
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $518.12] -> $551.39 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-10-02 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +393,8 @@ lesson: Congress-pressure staples (KO, PEP) bought low in day range at SURVIVOR 
 ~ WORKING buy_limit $500.00 PEP @ $120.60 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25281.01 (+1.12% on $25000.00 in) · cash $11851.64 · realised +351.64
 Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $372.63] -> $2011.50 (+0.57%) — close 100% at +0.2% over the average cost
+## 2026-10-05 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2500.00 AAPL [buy_limit @ $332.95] — wanted it, but not at the high — resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position
+## 2026-10-05 10:00 ET — tick — 0 sell(s), 1 buy(s) from standing orders
