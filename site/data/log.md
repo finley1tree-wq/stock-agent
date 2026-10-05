@@ -1,42 +1,3 @@
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Current hour (12:xx) is PROBATION-stage and the logged lessons show every forced entry today during PROBATION hours graded negative (10/10 checks, -0.24% to -1.09%) - this is a strong, repeated, same-day pattern, not noise. GOOGL and VNQ are already held with full protective brackets (stop_loss, take_profit, scale-in buy_limits) working, so the book isn't unprotected. Rather than chase a forced 3rd-8th name into a culled/probation signal mix just to hit min_positions, I'll wait for a SURVIVOR-hour window or a concrete new catalyst (a real headline/filing on an allowed ticker) before adding size - the existing GOOGL/VNQ stops and take-profits are already working and will auto-manage the open risk.
-lesson: On 2026-10-02, every forced buy during PROBATION hours (10 of 10 checks) graded negative that same check - do not treat below_target_position_count as automatic license to buy in a PROBATION/CULLED hour; wait for a SURVIVOR hour or concrete evidence instead.
-portfolio: equity $25313.01 (+1.25% on $25000.00 in) · cash $24319.05 · realised +319.05
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% GOOGL [time stop] -> $497.15 (-0.57%) — held 90 min, the 90-minute limit: out regardless
-- SELL 100% VNQ [time stop] -> $496.22 (-0.76%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-02 12:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-02 12:45 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: We are at hour 12, which is PROBATION for strategy_stages, and today's lesson log shows every forced entry during PROBATION hours (10/10 logged checks) graded negative that same check - the desk has already spent $54,600 today across 34 orders and 30 sells, with realized P&L barely positive (+$312 on $25k). Current book is flat (0 positions) after a day of churn, and the two most recent explicit lessons say: "stop forcing new entries just to spend idle cash" and "stop treating below min_positions as automatic license to buy into a culled/probation hour; wait for a SURVIVOR hour or concrete new evidence." No new concrete evidence (headline, filing, congress disclosure under lookback) stands out right now beyond what's already been chased today - CHRW/HUBB/LTH/ACN all already bought and sold today, triggering cooldowns or simply exhausted. Given no_new_entries_after_et is 14:00 and we're at 12:45, there is still time, but I'd rather wait for either a SURVIVOR hour signal or a sharper piece of evidence (e.g., a fresh insider buy or disclosed congress trade in an allowed ticker) before deploying into a PROBATION hour that has shown 100% negative realized results today. I'll check again in 30 minutes to reassess, since 14:00 cutoff is approaching and I don't want to miss the window entirely if evidence materializes.
-lesson: Hour-12 PROBATION entries today have graded negative every single time (8 for 8) - do not force a buy here without a concrete new catalyst distinct from the names already churned today (CHRW/HUBB/LTH/ACN/TTD/etc).
-portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
-Decision: nothing at this check. 1 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-02 13:15 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CSWC excluded: too thinly traded ($14.8M a day) — Capital Southwest Corporation)
-brain: Hour-13 is PROBATION and no_new_entries_after_et is 14:00, so any new buy now is cut to 1/4 size and has almost no runway before entries close - not worth it. Today's own data shows every forced PROBATION-hour entry graded negative (last 8 of 8 lessons), and I've already churned through 34 orders/36 sells today with net realized only $312. Book is currently flat (0 positions) after a full day of rapid entries/exits that mostly lost money intraday; rather than force another name into a culled/probation slot right before the entry cutoff, I'll sit this one check out and reassess at the next check, which is still before 14:00 cutoff, to see if a genuine SURVIVOR-hour or concrete catalyst (not recycled diversification rationale) appears.
-lesson: Hour-13/14 PROBATION entries graded negative repeatedly today (8/8) - do not force a buy in a probation hour this close to the 14:00 cutoff without a distinct new catalyst; waiting one check costs little when the book is already flat.
-portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
-Decision: nothing at this check. 1 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-02 13:46 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
@@ -395,6 +356,45 @@ Decision: nothing at this check. 8 standing order(s) working.
   (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
 brain: Book is flat (0 positions) with all 8 prior buys in 45-min cooldown from this morning's round-trip, and hour-12 is PROBATION with mediocre historical return (-0.03% avg_ret_pct). Most watchlist names (DIA 93%, AVGO 94%, LMT 93%, PG 80%, KO 98%, ESE 98%, MCD 99%, AMD 81%, META 89%) are pinned near day highs - paying up there violates max_entry_range_pct guidance and the lesson log explicitly flags this exact pattern (8 cooldowns + PROBATION hour + extended watchlist = rest limits, don't chase). I already have 8 buy_limit orders working below market across diversified sectors (KO, IBM, PEP, ACN, NOC, LMT, RTX, AMD) covering congress/news/track_record signals, which is the correct tool here per guardrails. I'll let those work and check back soon since cooldowns clear within 45 minutes and several limits are only 1-2.5% below market.
 lesson: When the whole book is simultaneously in cooldown and the watchlist sits 80-99% of day range in a PROBATION hour, resting buy_limits already placed below market is the right tool - don't force a fresh market chase just to fill min_positions.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 13:10 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 prior buys today are in rebuy cooldown (MSFT, TSM, AVGO, NFLX, UNH, PEP, KO, AAPL, PG, ACN, HD) and hour-13 is PROBATION. The watchlist names I haven't held today (LMT, NOC, RTX, IBM, AMD) are sitting 50-98% of day range - not attractive chase entries - so I already have 7 buy_limit orders resting below market (IBM, KO, LMT, NOC, RTX, ACN, PEP, AMD) waiting for pullbacks, consistent with past lessons that forcing a PROBATION-hour market chase after a simultaneous cooldown sweep graded worse than waiting. I'll hold those working orders and recheck shortly to catch fills or cooldown expiries.
+lesson: When the whole book sells simultaneously into cooldown, resting buy_limits below market and waiting a short interval beats forcing a PROBATION-hour market chase into names 50-98% of day range.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 13:17 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 positions bought today were sold within the last 90 minutes on either take-profit or 90-min time-stop, and are now in the 45-min rebuy cooldown (cooling_off_minutes_left shows this). Hour-13 is PROBATION status per strategy_stages, and past_lessons (11 graded days, status 'backed by enough graded days to carry weight') repeatedly show that forcing a PROBATION-hour market entry when the book is in simultaneous cooldown and watchlist names sit high in day range (AMD 91.6%, AVGO 99.7%, GOOGL 97%, KO 98.2%, MO 99.8%) underperforms simply letting the 8 working buy_limit orders (IBM, KO, ACN, NOC, LMT, RTX, PEP, AMD) rest below market and refresh. I already have exactly min_positions+... worth of buy_limit triggers spanning defense, staples, tech, and industrials at sensible pullback levels, so no new action is needed this check - just wait for cooldowns to clear or limits to fill.
+lesson: When the entire book cycles out simultaneously via time-stops/take-profits, leaving diversified buy_limits below market and waiting out the 45-min cooldown beats forcing a fresh PROBATION-hour market chase into names pinned near day highs.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 13:33 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: Book is flat with 11 of the last day's 11 bought names simultaneously sold/cooling off within the 45-min window, and current watchlist prices (ACN 8%, AMD 83%, TSM 97.7%, AVGO 97.2%, HUBB 96%, MSFT 33.5%, CRWD 98.8%) are mostly pinned near today's highs - buying market now would be chasing exactly the pattern past_lessons flag as costly. My 8 working buy_limits (IBM, KO, ACN, NOC, RTX, LMT, PEP, AMD) are already resting 0.76-2.6% below market across widely_held/defense/staples sectors, which is real diversification per the past lesson about avoiding further nuclear/entertainment clustering. No_new_entries cutoff is 14:00, so I still have one more window (13:33 now) to let these fill or add fresh ones if a pullback hits; I'll recheck quickly rather than force a fresh market chase into extended names.
+lesson: When the whole book cycles out via time-stops simultaneously and remaining watchlist names sit 80-99% of day range, resting buy_limits placed below market (as already done) is the correct tool - don't force a market entry just to hit min_positions before the 14:00 cutoff.
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
