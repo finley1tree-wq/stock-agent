@@ -5,20 +5,6 @@
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 ET cutoff) and book is flat with no positions to protect or sell, so there is nothing actionable - buys would be dropped by guardrails regardless. Today's logged lessons also confirm every forced PROBATION/CULLED-hour entry since 10:00 graded negative (8/8), reinforcing that waiting is correct here rather than chasing a drop.
-lesson: When no_new_entries_this_check is true, do not propose buys - focus check-ins on protecting/managing existing positions only.
-portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-02 15:19 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and we are flat (0 positions, 0 equity invested), so there is nothing to protect or sell. Every past lesson today from hour 10 onward shows forced PROBATION-hour entries graded negative 8/8 times, and it's now 15:19 with only 1 check left before close - not friday_cleanup so no mandate to deploy. Correct action is to sit out this final window since buys would be dropped anyway and there are no open positions needing management.
 lesson: When no_new_entries_this_check is true and book is flat, don't propose buys/sells - just wait; late-day PROBATION/CULLED hour entries graded negative all day.
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
@@ -395,6 +381,20 @@ Decision: nothing at this check. 8 standing order(s) working.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 ET cutoff) so no new buys can be placed - any order would be dropped. Positions_held is 0 so there is nothing to sell or protect. The day's budget is already fully deployed/recycled (spent_today_usd $28,500 across 11 names, all sold today per the 30-90min hold rules), and cooling_off list is empty meaning no immediate re-entry opportunities exist anyway given the entry cutoff. Correct move is to sit idle until close, since forcing entries is impossible per guardrails.
 lesson: After no_new_entries_after_et cutoff, buys are dropped regardless of evidence quality - don't waste reasoning trying to construct entries; focus checks near close on monitoring any open positions/standing orders only.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 14:35 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there's nothing to protect and no new buys are allowed - any order would just be dropped. All prior names (MSFT, TSM, AVGO, NFLX, UNH, PEP, KO, AAPL, PG, ACN, HD) were sold today and are in/near cooldown. Sitting out this check is the only option available given the guardrail, not a discretionary choice.
+lesson: After no_new_entries_after_et cutoff with zero open positions, there is nothing actionable - confirm cutoff status before spending effort constructing entries that will be dropped.
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
