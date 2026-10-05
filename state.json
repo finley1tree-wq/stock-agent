@@ -1,9 +1,8 @@
 {
   "week": "2026-W41",
-  "spent": 7436.84,
+  "spent": 4932.8,
   "deployed": 28500.0,
   "by_ticker": {
-    "PG": 2500.0,
     "ACN": 2500.0,
     "HD": 2500.0
   },
@@ -444,13 +443,34 @@
       ],
       "evidence": "average cost $332.95",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PG",
+      "side": "sell",
+      "qty": 17.1846,
+      "status": "filled",
+      "price": 145.71,
+      "proceeds": 2504.04,
+      "realized_pnl": 4.04,
+      "realized_pct": 0.16,
+      "date": "2026-10-05",
+      "time_et": "10:38",
+      "ts": 1791210900,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $145.48",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 7436.84,
+  "spent_today": 4932.8,
   "deployed_today": 28500.0,
   "orders_today": 12,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "MSFT",
     "TSM",
@@ -459,7 +479,8 @@
     "UNH",
     "PEP",
     "KO",
-    "AAPL"
+    "AAPL",
+    "PG"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
@@ -469,10 +490,11 @@
     "UNH": 1791208808,
     "PEP": 1791208891,
     "KO": 1791209054,
-    "AAPL": 1791209185
+    "AAPL": 1791209185,
+    "PG": 1791211124
   },
-  "last_publish_ts": 1791210993,
-  "last_check_ts": 1791211039,
+  "last_publish_ts": 1791211124,
+  "last_check_ts": 1791211124,
   "exp_arm": {
     "PG": {
       "params": {
@@ -534,16 +556,13 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "ac7b3721": 145.7142,
     "08c3d3a3": 283.3481,
     "34d84417": 193.0,
     "69ed8db9": 192.8748,
     "c7823794": 276.5,
     "2ce2c8bb": 497.0,
-    "af28c21c": 142.5,
     "814bf98e": 615.0,
     "66b4b298": 274.1705,
-    "2afc9465": 199.9356,
-    "d26c5fbe": 141.1156
+    "2afc9465": 199.9356
   }
 }

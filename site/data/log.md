@@ -1,6 +1,3 @@
-- SELL 100% LMT [take_profit @ $505.38] -> $626.53 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-02 10:17 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-10-02 10:25 ET (Friday) — week 2026-W40 — budget left $17948.59 (today $49275.00 put to work, 24 buys, 17 sells) — SIM (pretend money) via sim
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
@@ -398,3 +395,6 @@ lesson: Hour-10 PROBATION entries graded negative repeatedly in past lessons; wi
 portfolio: equity $25326.61 (+1.31% on $25000.00 in) · cash $17875.57 · realised +375.57
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $145.71] -> $2504.04 (+0.16%) — close 100% at +0.2% over the average cost
+## 2026-10-05 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders

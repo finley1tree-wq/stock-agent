@@ -21994,3 +21994,6 @@ lesson: Hour-10 PROBATION entries graded negative repeatedly in past lessons; wi
 portfolio: equity $25326.61 (+1.31% on $25000.00 in) · cash $17875.57 · realised +375.57
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $145.71] -> $2504.04 (+0.16%) — close 100% at +0.2% over the average cost
+## 2026-10-05 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
