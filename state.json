@@ -1,12 +1,14 @@
 {
   "week": "2026-W41",
-  "spent": 9460.77,
-  "deployed": 22000.0,
+  "spent": 13460.77,
+  "deployed": 26000.0,
   "by_ticker": {
     "PG": 2500.0,
     "ACN": 2500.0,
     "HD": 2500.0,
-    "UNH": 2000.0
+    "UNH": 2000.0,
+    "KO": 2000.0,
+    "PEP": 2000.0
   },
   "deployed_by_ticker": {
     "AVGO": 3000.0,
@@ -16,7 +18,9 @@
     "NFLX": 4500.0,
     "TSM": 2500.0,
     "HD": 2500.0,
-    "UNH": 2000.0
+    "UNH": 2000.0,
+    "KO": 2000.0,
+    "PEP": 2000.0
   },
   "orders": [
     {
@@ -292,12 +296,54 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.444719,
+      "price": 85.31,
+      "date": "2026-10-05",
+      "time_et": "09:59",
+      "ts": 1791208758,
+      "why": "Adds a defensive, low-range-position name with congress buy pressure to diversify sector exposure beyond PG/ACN/HD/UNH",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "congress_net_buy_pressure KO=1.0 (Lloyd Doggett-style buyers), ATR low 1.28%, pct_of_day_range 21.6% - not chasing top of range, defensive staple diversifies away from tech cluster",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PEP",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 16.085593,
+      "price": 124.33,
+      "date": "2026-10-05",
+      "time_et": "09:59",
+      "ts": 1791208758,
+      "why": "Low-range entry defensive staple with congress buy signal, adds diversification and avoids paying up for an extended move",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "congress_net_buy_pressure PEP=1.0, pct_of_day_range 4.9% (near day low), ATR 1.82% - cheap entry point not chasing",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 9460.77,
-  "deployed_today": 22000.0,
-  "orders_today": 9,
+  "spent_today": 13460.77,
+  "deployed_today": 26000.0,
+  "orders_today": 11,
   "sells_today": 4,
   "sold_today": [
     "MSFT",
@@ -311,8 +357,8 @@
     "AVGO": 1791207950,
     "NFLX": 1791208121
   },
-  "last_publish_ts": 1791208506,
-  "last_check_ts": 1791208678,
+  "last_publish_ts": 1791208758,
+  "last_check_ts": 1791208758,
   "exp_arm": {
     "PG": {
       "params": {
@@ -349,27 +395,53 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "KO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "PEP": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791208500,
-  "last_decision_ts": 1791207809,
+  "last_decision_ts": 1791208758,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "e6e9df6d": 371.2781,
     "8eed9421": 333.5915,
+    "8fc26f2d": 85.438,
+    "f975e439": 124.5811,
+    "e6e9df6d": 371.2781,
     "40ebe8d0": 368.5586,
     "ac7b3721": 145.7142,
     "2ce2c8bb": 497.0,
-    "08c3d3a3": 283.3481,
     "c7823794": 276.5,
+    "08c3d3a3": 283.3481,
+    "c9cb345a": 126.2,
+    "23b45687": 86.6,
     "af28c21c": 142.5,
     "34d84417": 193.0,
     "69ed8db9": 192.8748,
     "2afc9465": 199.9356,
+    "6a76e148": 83.6,
+    "ec9e7b0a": 121.8,
     "66b4b298": 274.1705,
     "814bf98e": 615.0,
     "d26c5fbe": 141.1156,
-    "a76aa231": 359.385
+    "a76aa231": 359.385,
+    "a428bc91": 82.7507,
+    "a26b9e4e": 120.6001
   }
 }

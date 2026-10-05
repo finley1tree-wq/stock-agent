@@ -21932,3 +21932,25 @@ Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $10011.92 this week
 ## 2026-10-05 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2000.00 UNH [buy_limit @ $370.50] — Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point
 ## 2026-10-05 09:55 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-05 09:59 ET (Monday) — week 2026-W41 — budget left $15539.23 (today $22000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: Still below min_positions (4 of 8) with 62% cash idle - adding KO and PEP, both congress-buy-pressure staples trading low in their day range (not chasing), to diversify away from the existing PG/ACN/HD/UNH cluster while respecting the 09:xx SURVIVOR hour. Protective stops/take-profits attached per risk_management/auto_bracket which has the best historical hit rate (0.88-0.89).
+lesson: Congress-pressure staples (KO, PEP) bought low in day range at SURVIVOR hour 09:xx are a reasonable way to hit min_positions without chasing extended names - track next check whether they outperform the momentum-chasing names.
+- BUY $2000.00 KO [filled] ['congress', 'track_record'] — Adds a defensive, low-range-position name with congress buy pressure to diversify sector exposure beyond PG/ACN/HD/UNH | evidence: congress_net_buy_pressure KO=1.0 (Lloyd Doggett-style buyers), ATR low 1.28%, pct_of_day_range 21.6% - not chasing top of range, defensive staple diversifies away from tech cluster
+- BUY $2000.00 PEP [filled] ['congress', 'track_record'] — Low-range entry defensive staple with congress buy signal, adds diversification and avoids paying up for an extended move | evidence: congress_net_buy_pressure PEP=1.0, pct_of_day_range 4.9% (near day low), ATR 1.82% - cheap entry point not chasing
+~ WORKING stop_loss 100% KO @ $83.60 until 2026-10-05 — Protect capital on new KO position per standard risk management
+~ WORKING take_profit 100% KO @ $86.60 until 2026-10-05 — Lock in gains on KO before clock forces exit
+~ WORKING stop_loss 100% PEP @ $121.80 until 2026-10-05 — Protect capital on new PEP position
+~ WORKING take_profit 100% PEP @ $126.20 until 2026-10-05 — Lock in gains on PEP before clock forces exit
+~ WORKING take_profit 100% KO @ $85.44 until 2026-10-10 — close 100% at +0.1% over the average cost
+~ WORKING buy_limit $500.00 KO @ $82.75 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PEP @ $124.58 until 2026-10-10 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PEP @ $120.60 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25281.01 (+1.12% on $25000.00 in) · cash $11851.64 · realised +351.64
+Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
