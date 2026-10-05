@@ -1,78 +1,6 @@
 {
  "orders": [
   {
-   "id": "9cf09642",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 344.0,
-   "status": "cancelled",
-   "created": "2026-09-30 11:44",
-   "created_ts": 1790783086,
-   "why": "protective stop below today's low to cap downside on new position",
-   "evidence": "GOOGL day low 344.08",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 11:49",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "83e90a97",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 186.0,
-   "status": "cancelled",
-   "created": "2026-09-30 11:44",
-   "created_ts": 1790783086,
-   "why": "protective stop just below today's low to cap downside on new position",
-   "evidence": "PLTR day low 187.0",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:14",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a0c1df26",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 364.0,
-   "status": "cancelled",
-   "created": "2026-09-30 11:44",
-   "created_ts": 1790783086,
-   "why": "protective stop just below today's low to cap downside on new position",
-   "evidence": "UNH day low 365.76",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:04",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a5eeef0a",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 352.2506,
-   "status": "filled",
-   "created": "2026-09-30 11:44",
-   "created_ts": 1790783086,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $351.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 11:49"
-  },
-  {
    "id": "08b3992b",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -7342,7 +7270,7 @@
    "ticker": "NFLX",
    "kind": "buy_limit",
    "price": 65.0773,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-05 09:32",
    "created_ts": 1791207155,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7352,7 +7280,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-05 09:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "694ac83d",
@@ -7424,7 +7354,75 @@
    ],
    "good_until": "2026-10-10",
    "usd": 500.0
+  },
+  {
+   "id": "814bf98e",
+   "ticker": "AMD",
+   "kind": "buy_limit",
+   "price": 615.0,
+   "status": "working",
+   "created": "2026-10-05 09:43",
+   "created_ts": 1791207809,
+   "why": "Congress-backed name with strong historical excess return per disclosure_leaderboard; wait for pullback rather than pay top-of-range price",
+   "evidence": "Rep. Rick W. Allen (+2.76% avg excess, 8 scored buys) disclosed AMD buy 2026-08-18 with +13.2% excess vs SPY; AMD currently 86.6% of day range so resting below market rather than chasing",
+   "signals": [
+    "congress",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
+  },
+  {
+   "id": "2ce2c8bb",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 497.0,
+   "status": "working",
+   "created": "2026-10-05 09:43",
+   "created_ts": 1791207809,
+   "why": "Defense sector diversification away from tech cluster at a level not chasing the day's move",
+   "evidence": "LMT -0.63% today, -6.05% 5d, defense sector avg_ret_pct -0.01 hit_rate 0.55 in track record - low in day range (19.3%) offers reasonable entry",
+   "signals": [
+    "news",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
+  },
+  {
+   "id": "543f301b",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 370.5,
+   "status": "working",
+   "created": "2026-10-05 09:43",
+   "created_ts": 1791207809,
+   "why": "Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point",
+   "evidence": "UNH 37.6% of day range, widely_held sector avg_ret_pct -0.01 hit_rate 0.56, flat 1d change +0.03%",
+   "signals": [
+    "momentum",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
+  },
+  {
+   "id": "8a481735",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 65.0288,
+   "status": "working",
+   "created": "2026-10-05 09:43",
+   "created_ts": 1791207809,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $67.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-05 09:36"
+ "updated": "2026-10-05 09:43"
 }

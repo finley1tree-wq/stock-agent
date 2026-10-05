@@ -1,12 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 12988.08,
-  "deployed": 18000.0,
+  "spent": 14988.08,
+  "deployed": 20000.0,
   "by_ticker": {
     "AVGO": 3000.0,
     "PG": 2500.0,
     "ACN": 2500.0,
-    "NFLX": 2500.0,
+    "NFLX": 4500.0,
     "HD": 2500.0
   },
   "deployed_by_ticker": {
@@ -14,7 +14,7 @@
     "PG": 2500.0,
     "ACN": 2500.0,
     "MSFT": 2500.0,
-    "NFLX": 2500.0,
+    "NFLX": 4500.0,
     "TSM": 2500.0,
     "HD": 2500.0
   },
@@ -206,12 +206,33 @@
       ],
       "evidence": "average cost $479.26",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NFLX",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 29.867066,
+      "price": 66.96,
+      "date": "2026-10-05",
+      "time_et": "09:43",
+      "ts": 1791207809,
+      "why": "Already hold small position; congress buy pressure plus low position in day range (35.7% of range) supports adding size with existing stops in place",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Cleo Fields disclosed a buy of NFLX ($1,001-$15,000, disclosed 2026-10-01), congress_net_buy_pressure +2",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 12988.08,
-  "deployed_today": 18000.0,
-  "orders_today": 7,
+  "spent_today": 14988.08,
+  "deployed_today": 20000.0,
+  "orders_today": 8,
   "sells_today": 2,
   "sold_today": [
     "MSFT",
@@ -221,8 +242,8 @@
     "MSFT": 1791207397,
     "TSM": 1791207397
   },
-  "last_publish_ts": 1791207395,
-  "last_check_ts": 1791207727,
+  "last_publish_ts": 1791207809,
+  "last_check_ts": 1791207809,
   "exp_arm": {
     "AVGO": {
       "params": {
@@ -251,25 +272,7 @@
         "ratchet": "off"
       }
     },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "NFLX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "TSM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -289,25 +292,28 @@
     }
   },
   "last_bar_ts": 1791207600,
-  "last_decision_ts": 1791207155,
-  "next_check_minutes": 10,
+  "last_decision_ts": 1791207809,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "470eb4f1": 358.829,
+    "543f301b": 370.5,
     "8eed9421": 333.5915,
-    "ac7b3721": 145.7142,
-    "08c3d3a3": 283.3481,
     "bd017fd5": 67.2852,
-    "2afc9465": 199.9356,
-    "af28c21c": 142.5,
-    "8c0090e7": 351.0,
-    "c7823794": 276.5,
-    "385065c7": 65.5,
+    "ac7b3721": 145.7142,
     "34d84417": 193.0,
     "69ed8db9": 192.8748,
-    "d26c5fbe": 141.1156,
+    "08c3d3a3": 283.3481,
+    "2ce2c8bb": 497.0,
+    "af28c21c": 142.5,
+    "c7823794": 276.5,
+    "8c0090e7": 351.0,
+    "385065c7": 65.5,
+    "814bf98e": 615.0,
     "66b4b298": 274.1705,
-    "b753961f": 65.0773,
+    "d26c5fbe": 141.1156,
+    "2afc9465": 199.9356,
+    "8a481735": 65.0288,
     "633f7ed1": 347.0369
   }
 }

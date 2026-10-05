@@ -1,22 +1,3 @@
-  (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (dropped META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (dropped TPL: not in allowed list)
-  (dropped NEM: momentum-only entry (guardrails.allow_momentum_only_entries is false))
-  (dropped GOOGL: 97% up today's range — resting a limit at $343.09 instead of chasing)
-- BUY $2500.00 CCJ [filled] ['momentum', 'track_record'] — Nuclear sector diversification, momentum signal though weak per backtest | evidence: CCJ +0.79% today, nuclear sector avg_ret_pct -0.16% but still a top momentum name in allowed list, atr 3.45%
-  (dropped trigger AVGO stop_loss: not held)
-  (dropped trigger NLR stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-  (dropped trigger NVDA stop_loss: not held)
-  (dropped trigger META stop_loss: not held)
-  (dropped trigger TPL stop_loss: not held)
-  (dropped trigger NEM stop_loss: not held)
-~ WORKING stop_loss 100% CCJ @ $84.30 until 2026-10-02 — protect new position with ATR-based stop
-~ WORKING buy_limit $2500.00 GOOGL @ $343.09 until 2026-10-02 — wanted it, but not at the high — resting at $343.09. Strong daily momentum in widely held mega-cap
-~ WORKING take_profit 100% CCJ @ $86.73 until 2026-10-07 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $83.81 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25363.30 (+1.45% on $25000.00 in) · cash $20368.84 · realised +368.84
-Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $20037.25 this week
 - BUY $2500.00 GOOGL [buy_limit @ $343.09] — wanted it, but not at the high — resting at $343.09. Strong daily momentum in widely held mega-cap
 ## 2026-10-02 09:55 ET — tick — 0 sell(s), 1 buy(s) from standing orders
 
@@ -398,3 +379,22 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $7000.00 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $480.33] -> $2505.62 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-10-05 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-05 09:43 ET (Monday) — week 2026-W41 — budget left $12011.92 (today $18000.00 put to work, 7 buys, 2 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: Below min_positions (5 of 8) with 48% cash idle - need more names. I'm adding to NFLX (congress signal from Cleo Fields, already protected by auto_bracket stops) and placing buy_limit triggers on AMD, LMT, UNH at levels below current price to avoid chasing extended ranges (AMD at 86.6% of range, so resting limit per guardrails) while diversifying into defense and healthcare sectors away from the existing tech/consumer cluster. Congress signal has shown best counterfactual avg_pct (+0.39%) per past lesson, so weighting toward congress-backed names (AMD via Rep. Allen, NFLX via Rep. Fields) while avoiding momentum-only entries per guardrail.
+lesson: Congress-signal entries have outperformed in counterfactual tracking (+0.39% avg) - prioritize named congress disclosures with leaderboard track records over momentum-only adds, and use buy_limit resting orders for names already high in day range rather than chasing at market.
+  (dropped TSM: sold 7 min ago, cooling off)
+- BUY $2000.00 NFLX [filled] ['congress', 'momentum'] — Already hold small position; congress buy pressure plus low position in day range (35.7% of range) supports adding size with existing stops in place | evidence: Rep. Cleo Fields disclosed a buy of NFLX ($1,001-$15,000, disclosed 2026-10-01), congress_net_buy_pressure +2
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING buy_limit $2000.00 AMD @ $615.00 until 2026-10-05 — Congress-backed name with strong historical excess return per disclosure_leaderboard; wait for pullback rather than pay top-of-range price
+~ WORKING buy_limit $2000.00 LMT @ $497.00 until 2026-10-05 — Defense sector diversification away from tech cluster at a level not chasing the day's move
+~ WORKING buy_limit $2000.00 UNH @ $370.50 until 2026-10-05 — Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point
+~ WORKING buy_limit $500.00 NFLX @ $65.03 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25237.57 (+0.95% on $25000.00 in) · cash $10324.33 · realised +324.33
+Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $10011.92 this week

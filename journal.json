@@ -53285,7 +53285,8 @@
     "hour_et": 9,
     "code_version": "edce07c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.11
   },
   {
     "symbol": "PG",
@@ -53314,7 +53315,8 @@
     "hour_et": 9,
     "code_version": "edce07c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.55
   },
   {
     "symbol": "ACN",
@@ -53343,7 +53345,8 @@
     "hour_et": 9,
     "code_version": "edce07c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -2.06
   },
   {
     "symbol": "MSFT",
@@ -53372,7 +53375,10 @@
     "hour_et": 9,
     "code_version": "edce07c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.25,
+    "ret_now": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "NFLX",
@@ -53401,7 +53407,8 @@
     "hour_et": 9,
     "code_version": "edce07c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.19
   },
   {
     "symbol": "TSM",
@@ -53430,7 +53437,10 @@
     "hour_et": 9,
     "code_version": "edce07c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.22,
+    "ret_now": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "HD",
@@ -53458,7 +53468,8 @@
     "hour_et": 9,
     "code_version": "edce07c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.68
   },
   {
     "symbol": "MSFT",
@@ -53483,7 +53494,8 @@
     "evidence": "average cost $526.98",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "6b8de7b"
+    "code_version": "6b8de7b",
+    "hold_minutes": 2
   },
   {
     "symbol": "TSM",
@@ -53508,6 +53520,36 @@
     "evidence": "average cost $479.26",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "6b8de7b"
+    "code_version": "6b8de7b",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "NFLX",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 29.867066,
+    "price": 66.96,
+    "date": "2026-10-05",
+    "time_et": "09:43",
+    "ts": 1791207809,
+    "why": "Already hold small position; congress buy pressure plus low position in day range (35.7% of range) supports adding size with existing stops in place",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Cleo Fields disclosed a buy of NFLX ($1,001-$15,000, disclosed 2026-10-01), congress_net_buy_pressure +2",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 66.95,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -19.02,
+    "hour_et": 9,
+    "code_version": "d849d5c",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
