@@ -22215,3 +22215,17 @@ lesson: After no_new_entries_after_et cutoff, buys are dropped regardless of evi
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 14:35 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there's nothing to protect and no new buys are allowed - any order would just be dropped. All prior names (MSFT, TSM, AVGO, NFLX, UNH, PEP, KO, AAPL, PG, ACN, HD) were sold today and are in/near cooldown. Sitting out this check is the only option available given the guardrail, not a discretionary choice.
+lesson: After no_new_entries_after_et cutoff with zero open positions, there is nothing actionable - confirm cutoff status before spending effort constructing entries that will be dropped.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
