@@ -1,17 +1,273 @@
 {
   "week": "2026-W41",
-  "spent": 0.0,
-  "deployed": 0.0,
-  "by_ticker": {},
-  "deployed_by_ticker": {},
-  "orders": [],
+  "spent": 18000.0,
+  "deployed": 18000.0,
+  "by_ticker": {
+    "AVGO": 3000.0,
+    "PG": 2500.0,
+    "ACN": 2500.0,
+    "MSFT": 2500.0,
+    "NFLX": 2500.0,
+    "TSM": 2500.0,
+    "HD": 2500.0
+  },
+  "deployed_by_ticker": {
+    "AVGO": 3000.0,
+    "PG": 2500.0,
+    "ACN": 2500.0,
+    "MSFT": 2500.0,
+    "NFLX": 2500.0,
+    "TSM": 2500.0,
+    "HD": 2500.0
+  },
+  "orders": [
+    {
+      "symbol": "AVGO",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.385239,
+      "price": 357.77,
+      "date": "2026-10-05",
+      "time_et": "09:32",
+      "ts": 1791207155,
+      "why": "Congress buying pressure plus reasonable entry level, not chasing a high in range",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Rick W. Allen (disclosure leaderboard: +2.76% avg excess, 8 scored buys) and David J. Taylor both disclosed AVGO buys; AVGO +0.72% today, at 42% of day range, not extended",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.1846,
+      "price": 145.48,
+      "date": "2026-10-05",
+      "time_et": "09:32",
+      "ts": 1791207155,
+      "why": "Congress buy-pressure on a low-volatility staple to anchor the book",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "David J. Taylor (Rep.) and Lloyd Doggett both disclosed PG buys per congress_recent_trades; PG +0.37% today at 81% range but low ATR (1.45%) defensive name",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "ACN",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.572938,
+      "price": 198.84,
+      "date": "2026-10-05",
+      "time_et": "09:32",
+      "ts": 1791207155,
+      "why": "Congress pressure plus past counterfactual evidence this exact congress-flagged name has outperformed significantly",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "congress_net_buy_pressure shows ACN at 1.0; biggest_misses shows ACN fwd_pct +22.91% was a past miss with congress=2 signal, showing this congress-flagged name has run strongly before",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.744055,
+      "price": 526.98,
+      "date": "2026-10-05",
+      "time_et": "09:32",
+      "ts": 1791207155,
+      "why": "Congress buy plus strong intraday momentum in a widely-held mega-cap",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Cleo Fields disclosed MSFT buy 2026-09-10; MSFT +1.8% today, +3.47% 5d, strong widely_held momentum",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NFLX",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 37.26148,
+      "price": 67.09,
+      "date": "2026-10-05",
+      "time_et": "09:32",
+      "ts": 1791207155,
+      "why": "Two congress members disclosed buys in NFLX, strongest congress signal pairing in the list besides CHRW/HUBB/LTH which are too volatile today",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Cleo Fields and Byron Donalds both disclosed NFLX buys per who_disclosed_it; congress_net_buy_pressure NFLX=2.0",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.216421,
+      "price": 479.26,
+      "date": "2026-10-05",
+      "time_et": "09:32",
+      "ts": 1791207155,
+      "why": "Congress pressure combined with strong multi-timeframe momentum in TSM",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "congress_net_buy_pressure TSM=1.0; TSM +1.35% today, +5.8% 5d, +14.9% 1m - strong momentum in semis",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "HD",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.84497,
+      "price": 282.65,
+      "date": "2026-10-05",
+      "time_et": "09:32",
+      "ts": 1791207155,
+      "why": "Fresh congress buy disclosure on a beaten-down name, not chasing an extended move",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "David J. Taylor disclosed HD buy 2026-09-22 (disclosed 2026-10-01); HD -11.15% 1m giving a reset entry point at 47% of day range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    }
+  ],
   "day": "2026-10-05",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 18000.0,
+  "deployed_today": 18000.0,
+  "orders_today": 7,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {},
-  "last_publish_ts": 1791207028,
-  "last_check_ts": 1791207028
+  "last_publish_ts": 1791207155,
+  "last_check_ts": 1791207155,
+  "exp_arm": {
+    "AVGO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "PG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "ACN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "NFLX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "HD": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    }
+  },
+  "last_bar_ts": 1791207000,
+  "last_decision_ts": 1791207155,
+  "next_check_minutes": 10,
+  "autopiloted": false,
+  "book_px": {
+    "ac7b3721": 145.7142,
+    "694ac83d": 480.3335,
+    "ec4617c0": 528.3027,
+    "08c3d3a3": 283.3481,
+    "bd017fd5": 67.2852,
+    "470eb4f1": 358.829,
+    "8eed9421": 333.5915,
+    "2afc9465": 199.9356,
+    "8c0090e7": 351.0,
+    "3cf98c57": 517.0,
+    "dee64444": 470.0,
+    "af28c21c": 142.5,
+    "c7823794": 276.5,
+    "385065c7": 65.5,
+    "34d84417": 193.0,
+    "633f7ed1": 347.0369,
+    "d26c5fbe": 141.1156,
+    "69ed8db9": 192.8748,
+    "62c8628f": 511.1706,
+    "bc41c294": 464.8822,
+    "66b4b298": 274.1705,
+    "b753961f": 65.0773
+  }
 }

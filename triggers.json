@@ -1,421 +1,6 @@
 {
  "orders": [
   {
-   "id": "9243c3bf",
-   "ticker": "SKWD",
-   "kind": "stop_loss",
-   "price": 51.7,
-   "status": "cancelled",
-   "created": "2026-09-30 10:57",
-   "created_ts": 1790780255,
-   "why": "cap downside on new SKWD position",
-   "evidence": "protective stop ~2.8% below entry price 53.18",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 11:56",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4d6c0bbe",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 127.1938,
-   "status": "filled",
-   "created": "2026-09-30 10:57",
-   "created_ts": 1790780255,
-   "why": "wanted it, but not at the high \u2014 resting at $127.19. top-tier congress pressure name not yet held, M&A recovery thesis, adds diversification away from CHRW/HUBB/NLR cluster [probation at 25% size (no hour or signal lens has proven itself ye",
-   "evidence": "congress_net_buy_pressure HLI=2.0; headline 'Investment Bank Stocks Tied To The UK M And A Recovery' 2026-09-27, price at 88.2 pct_of_range but momentum modest",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 625.0,
-   "closed": "2026-09-30 11:03"
-  },
-  {
-   "id": "eff905f1",
-   "ticker": "FWONK",
-   "kind": "take_profit",
-   "price": 93.7879,
-   "status": "cancelled",
-   "created": "2026-09-30 10:57",
-   "created_ts": 1790780255,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $93.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "63a1f59f",
-   "ticker": "FWONK",
-   "kind": "buy_limit",
-   "price": 90.7338,
-   "status": "cancelled",
-   "created": "2026-09-30 10:57",
-   "created_ts": 1790780255,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $93.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 12:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3adc8ab0",
-   "ticker": "SKWD",
-   "kind": "take_profit",
-   "price": 53.3743,
-   "status": "filled",
-   "created": "2026-09-30 10:57",
-   "created_ts": 1790780255,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $53.23",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 11:56"
-  },
-  {
-   "id": "014b1846",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 51.6331,
-   "status": "cancelled",
-   "created": "2026-09-30 10:57",
-   "created_ts": 1790780255,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.23",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 11:56",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "411d6961",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 127.6429,
-   "status": "cancelled",
-   "created": "2026-09-30 11:03",
-   "created_ts": 1790780627,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $127.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 11:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f06f13e1",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 126.0227,
-   "status": "cancelled",
-   "created": "2026-09-30 11:03",
-   "created_ts": 1790780627,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $127.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 11:08",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "a08d8bf0",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 123.3646,
-   "status": "cancelled",
-   "created": "2026-09-30 11:03",
-   "created_ts": 1790780627,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $127.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 11:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3ed66487",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 127.36,
-   "status": "filled",
-   "created": "2026-09-30 11:08",
-   "created_ts": 1790780929,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $127.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 11:23"
-  },
-  {
-   "id": "1270396f",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 347.0,
-   "status": "cancelled",
-   "created": "2026-09-30 11:13",
-   "created_ts": 1790781190,
-   "why": "wait for cooldown to clear and a small dip before entering",
-   "evidence": "AI White House accord headline; cooldown 29min remaining, resting limit slightly below current 349.20",
-   "signals": [
-    "news"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 1500.0,
-   "closed": "2026-09-30 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "1efcaba2",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 331.0,
-   "status": "cancelled",
-   "created": "2026-09-30 11:13",
-   "created_ts": 1790781190,
-   "why": "protective stop ~2% below entry",
-   "evidence": "AAPL at 82.5% of day range",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:43",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "be99c1fb",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 180.3348,
-   "status": "cancelled",
-   "created": "2026-09-30 11:13",
-   "created_ts": 1790781190,
-   "why": "wanted it, but not at the high \u2014 resting at $180.33. Congress buy pressure tier 2.0 plus earnings catalyst headline, cooldown from earlier sell has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven i",
-   "evidence": "Rep. Scott Franklin and Rep. Gilbert Ray Cisneros disclosed buys; ACN +3.0% 1d ahead of Q4 earnings (IBD headline 'Accenture Fiscal Q4 Earnings Due')",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-30 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "e0bbba9b",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 265.1449,
-   "status": "filled",
-   "created": "2026-09-30 11:13",
-   "created_ts": 1790781190,
-   "why": "wanted it, but not at the high \u2014 resting at $265.14. Strong sector news flow (CoreWeave AI partner network, Palo Alto CEO comments) plus momentum confirmed by two independent headlines today [probation at 25% size (no hour or signal lens ha",
-   "evidence": "CRWD at 99.9% of day range on '24/7 Wall St: All In On Cybersecurity' bullish coverage, +2.02% today, +16% 1m",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-30 13:21"
-  },
-  {
-   "id": "0c775669",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 338.6734,
-   "status": "cancelled",
-   "created": "2026-09-30 11:13",
-   "created_ts": 1790781190,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $337.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:43",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4b85b91a",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 327.7921,
-   "status": "cancelled",
-   "created": "2026-09-30 11:13",
-   "created_ts": 1790781190,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $337.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 12:43",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "93318e7b",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 180.6924,
-   "status": "cancelled",
-   "created": "2026-09-30 11:28",
-   "created_ts": 1790782125,
-   "why": "wanted it, but not at the high \u2014 resting at $180.69. Add ACN with a resting limit below market rather than chasing the high; existing working buy_limit at 180.33 covers this, adding fresh evidence-backed conviction [probation at 25% size (n",
-   "evidence": "Congress net_buy_pressure 2.0 (Rep. Scott Franklin, Gilbert Ray Cisneros disclosed buys) + 'Accenture Fiscal Q4 Earnings Due As AI Impacts Business' headline; ACN up 3.18% today but pct_of_day_range 9",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-30 13:16",
-   "cancel_reason": "another standing order on the same ticker filled first"
-  },
-  {
-   "id": "bff5b513",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 458.442,
-   "status": "filled",
-   "created": "2026-09-30 11:28",
-   "created_ts": 1790782125,
-   "why": "wanted it, but not at the high \u2014 resting at $458.44. Strong multi-headline AI capex tailwind for TSM, cooldown not listed for TSM so eligible to buy fresh; diversify into semis to reach min_positions [probation at 25% size (no hour or signa",
-   "evidence": "'TSMC Reportedly Weighs Texas Chip Investment On Top Of $265B Arizona Push' 2026-09-30, 1m momentum +11%, 5d +3.24%",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 625.0,
-   "closed": "2026-09-30 13:21"
-  },
-  {
-   "id": "8f0cda95",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 265.6344,
-   "status": "filled",
-   "created": "2026-09-30 11:28",
-   "created_ts": 1790782125,
-   "why": "wanted it, but not at the high \u2014 resting at $265.63. Cybersecurity/AI infra momentum with two independent same-day headlines; already have working limit resting lower, add smaller market clip since range is high [probation at 25% size (no h",
-   "evidence": "'CoreWeave Launches Partner Network for AI Cloud Integrations' and 'Palo Alto CEO Said The Quiet Part About AI Aloud' both 2026-09-30, CRWD +2% today +16% 1m",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-09-30",
-   "usd": 500.0,
-   "closed": "2026-09-30 13:18"
-  },
-  {
-   "id": "b95b79e2",
-   "ticker": "LTH",
-   "kind": "take_profit",
-   "price": 40.2704,
-   "status": "cancelled",
-   "created": "2026-09-30 11:36",
-   "created_ts": 1790782571,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $40.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e42ebac9",
-   "ticker": "LTH",
-   "kind": "stop_loss",
-   "price": 39.6737,
-   "status": "cancelled",
-   "created": "2026-09-30 11:36",
-   "created_ts": 1790782571,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $40.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0930992a",
-   "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 38.897,
-   "status": "cancelled",
-   "created": "2026-09-30 11:36",
-   "created_ts": 1790782571,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $40.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 12:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "9cf09642",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -7461,7 +7046,375 @@
    "good_until": "2026-10-07",
    "pct_of_position": 100.0,
    "closed": "2026-10-02 12:20"
+  },
+  {
+   "id": "8c0090e7",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 351.0,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "Protect against adverse move per auto_bracket rules",
+   "evidence": "ATR 2.666%, protective stop ~1.9% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "af28c21c",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 142.5,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "Protect capital on defensive name",
+   "evidence": "ATR 1.45%, tight stop for low-vol staple",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "34d84417",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 193.0,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "Protect capital given higher ATR",
+   "evidence": "ATR 4.969%, wider stop given volatility",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3cf98c57",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 517.0,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "Protect capital below recent support",
+   "evidence": "ATR 2.26%, day low 521.53",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "385065c7",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 65.5,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "Protect capital on NFLX position",
+   "evidence": "ATR 2.622%, day low 66.955",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dee64444",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 470.0,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "Protect capital on TSM position",
+   "evidence": "ATR 2.021%, day low 477.21",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c7823794",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 276.5,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "Protect capital on HD position",
+   "evidence": "ATR 2.223%, day low 281.76",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-05",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8eed9421",
+   "ticker": "AAPL",
+   "kind": "buy_limit",
+   "price": 333.5915,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "wanted it, but not at the high \u2014 resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position",
+   "evidence": "Cleo Fields disclosed AAPL buy 2026-09-08; AAPL +0.42% today at 97.7% of day range showing strength, +2.1% 1m",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2500.0
+  },
+  {
+   "id": "470eb4f1",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 358.829,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $357.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "633f7ed1",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 347.0369,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $357.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
+  },
+  {
+   "id": "ac7b3721",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 145.7142,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $145.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d26c5fbe",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 141.1156,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $145.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
+  },
+  {
+   "id": "2afc9465",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 199.9356,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $198.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "69ed8db9",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 192.8748,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $198.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
+  },
+  {
+   "id": "ec4617c0",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 528.3027,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $526.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "62c8628f",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 511.1706,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $526.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
+  },
+  {
+   "id": "bd017fd5",
+   "ticker": "NFLX",
+   "kind": "take_profit",
+   "price": 67.2852,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $67.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b753961f",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 65.0773,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $67.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
+  },
+  {
+   "id": "694ac83d",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 480.3335,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $479.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bc41c294",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 464.8822,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $479.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
+  },
+  {
+   "id": "08c3d3a3",
+   "ticker": "HD",
+   "kind": "take_profit",
+   "price": 283.3481,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $282.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "66b4b298",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 274.1705,
+   "status": "working",
+   "created": "2026-10-05 09:32",
+   "created_ts": 1791207155,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $282.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-10",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-02 15:50"
+ "updated": "2026-10-05 09:32"
 }

@@ -1,46 +1,3 @@
-~ WORKING buy_limit $500.00 HLI @ $125.92 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FWONK @ $92.22 until 2026-10-07 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 FWONK @ $89.21 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% SKWD @ $55.16 until 2026-10-07 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 SKWD @ $53.37 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TTD @ $12.10 until 2026-10-07 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 TTD @ $11.68 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $472.80 until 2026-10-07 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NOC @ $457.36 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $223.27 until 2026-10-07 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $215.84 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25275.24 (+1.10% on $25000.00 in) · cash $1277.03 · realised +277.03
-Done: 0 sell(s), 8 buy(s); 28 order(s) working; budget left $945.45 this week
-  (cancelled 2 standing order(s) on HUBB: position closed)
-- SELL 100% HUBB [take_profit @ $477.43] -> $3008.25 (+0.27%) — close 100% at +0.3% over the average cost
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $223.34] -> $2509.16 (+0.37%) — close 100% at +0.3% over the average cost
-## 2026-10-02 09:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on SKWD: position closed)
-- SELL 100% SKWD [take_profit @ $55.20] -> $2006.36 (+0.32%) — close 100% at +0.3% over the average cost
-## 2026-10-02 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $3000.00 CHRW [buy_limit @ $155.41] — wanted it, but not at the high — resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry
-## 2026-10-02 09:41 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CHRW: position closed)
-- SELL 100% CHRW [take_profit @ $156.27] -> $6024.79 (+0.41%) — close 100% at +0.3% over the average cost
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $472.80] -> $2506.83 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-10-02 09:42 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on HLI: position closed)
-- SELL 100% HLI [take_profit @ $130.26] -> $3010.42 (+0.35%) — close 100% at +0.3% over the average cost
-## 2026-10-02 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on ACN: position closed)
-- SELL 100% ACN [take_profit @ $208.75] -> $3015.40 (+0.51%) — close 100% at +0.5% over the average cost
-  (cancelled 2 standing order(s) on TTD: position closed)
-- SELL 100% TTD [take_profit @ $12.10] -> $2510.59 (+0.42%) — close 100% at +0.5% over the average cost
-## 2026-10-02 09:47 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-02 09:49 ET (Friday) — week 2026-W40 — budget left $22537.25 (today $40500.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
   (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
 brain: Book is below min_positions (only FWONK held, 90% cash idle). Deploying into 7 new names across diverse sectors (mega-cap tech momentum, nuclear, gold, off-watchlist) at $2000-2500 each to reach min_positions=8 target quickly within the SURVIVOR 09:xx hour window, consistent with past lessons that this approach has worked (0.49% avg_pct on recent similar checks). Avoiding cooling-off tickers (TSM, ACN, NOC, CRWD, AVGO is NOT in cooldown list so ok, TTD, IBM, HLI, HUBB, CHRW, LTH, SKWD, PG) and sizing each position with ATR-based protective stops per risk_management signal which has the best track record (0.18% avg_ret, 0.88 hit rate).
 lesson: AVGO was not in cooldown list (only similar-sounding names were) - double check cooling_off_minutes_left dict keys exactly match ticker before assuming blocked; deploying 7-8 diversified names at $2000-2500 each from a flat 90% idle book continues to be the right move per repeated past lesson confirmation.
@@ -398,3 +355,46 @@ Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-02 16:00 ET — published the session's closing state
 ## 2026-10-05 00:06 ET — published the session's closing state
+
+## 2026-10-05 09:32 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: Book is flat at 09:32 (SURVIVOR hour per strategy_stages) with 100% idle cash - deploying to min_positions now is correct per repeated past lessons and owner instructions. I prioritized congress-disclosure-backed names (congress signal has 0.62 hit rate, +0.02 avg per track_record, and +0.39 avg_pct in counterfactual_learning by_signal_chosen - the best proven signal besides risk_management/standing_order) combined with momentum/news where available, avoiding CHRW/LTH/HUBB despite strong congress signal because CHRW -11% today is a clear risk-off red flag and all three are thin/illiquid names. Protective stops placed on every new position per risk_management best practice (highest realized hit rate at 0.88 in track record).
+lesson: Congress-signal buys showed the best counterfactual avg_pct (+0.39%) among usable signals this session; favor congress-disclosed names with reasonable entry (not at top of day range) over momentum-only entries, and always pair with a risk_management stop given its 0.88 hit rate historically.
+  (dropped AAPL: 98% up today's range — resting a limit at $333.59 instead of chasing)
+- BUY $3000.00 AVGO [filled] ['congress', 'momentum'] — Congress buying pressure plus reasonable entry level, not chasing a high in range | evidence: Rep. Rick W. Allen (disclosure leaderboard: +2.76% avg excess, 8 scored buys) and David J. Taylor both disclosed AVGO buys; AVGO +0.72% today, at 42% of day range, not extended
+- BUY $2500.00 PG [filled] ['congress', 'news'] — Congress buy-pressure on a low-volatility staple to anchor the book | evidence: David J. Taylor (Rep.) and Lloyd Doggett both disclosed PG buys per congress_recent_trades; PG +0.37% today at 81% range but low ATR (1.45%) defensive name
+- BUY $2500.00 ACN [filled] ['congress', 'track_record'] — Congress pressure plus past counterfactual evidence this exact congress-flagged name has outperformed significantly | evidence: congress_net_buy_pressure shows ACN at 1.0; biggest_misses shows ACN fwd_pct +22.91% was a past miss with congress=2 signal, showing this congress-flagged name has run strongly before
+- BUY $2500.00 MSFT [filled] ['congress', 'momentum'] — Congress buy plus strong intraday momentum in a widely-held mega-cap | evidence: Cleo Fields disclosed MSFT buy 2026-09-10; MSFT +1.8% today, +3.47% 5d, strong widely_held momentum
+- BUY $2500.00 NFLX [filled] ['congress', 'news'] — Two congress members disclosed buys in NFLX, strongest congress signal pairing in the list besides CHRW/HUBB/LTH which are too volatile today | evidence: Cleo Fields and Byron Donalds both disclosed NFLX buys per who_disclosed_it; congress_net_buy_pressure NFLX=2.0
+- BUY $2500.00 TSM [filled] ['congress', 'momentum'] — Congress pressure combined with strong multi-timeframe momentum in TSM | evidence: congress_net_buy_pressure TSM=1.0; TSM +1.35% today, +5.8% 5d, +14.9% 1m - strong momentum in semis
+- BUY $2500.00 HD [filled] ['congress'] — Fresh congress buy disclosure on a beaten-down name, not chasing an extended move | evidence: David J. Taylor disclosed HD buy 2026-09-22 (disclosed 2026-10-01); HD -11.15% 1m giving a reset entry point at 47% of day range
+  (dropped trigger AAPL stop_loss: not held)
+~ WORKING stop_loss 100% AVGO @ $351.00 until 2026-10-05 — Protect against adverse move per auto_bracket rules
+~ WORKING stop_loss 100% PG @ $142.50 until 2026-10-05 — Protect capital on defensive name
+~ WORKING stop_loss 100% ACN @ $193.00 until 2026-10-05 — Protect capital given higher ATR
+~ WORKING stop_loss 100% MSFT @ $517.00 until 2026-10-05 — Protect capital below recent support
+~ WORKING stop_loss 100% NFLX @ $65.50 until 2026-10-05 — Protect capital on NFLX position
+~ WORKING stop_loss 100% TSM @ $470.00 until 2026-10-05 — Protect capital on TSM position
+~ WORKING stop_loss 100% HD @ $276.50 until 2026-10-05 — Protect capital on HD position
+~ WORKING buy_limit $2500.00 AAPL @ $333.59 until 2026-10-05 — wanted it, but not at the high — resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position
+~ WORKING take_profit 100% AVGO @ $358.83 until 2026-10-10 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $347.04 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $145.71 until 2026-10-10 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PG @ $141.12 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $199.94 until 2026-10-10 — close 100% at +0.6% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $192.87 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $528.30 until 2026-10-10 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 MSFT @ $511.17 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NFLX @ $67.29 until 2026-10-10 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $65.08 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $480.33 until 2026-10-10 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $464.88 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $283.35 until 2026-10-10 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $274.17 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25308.82 (+1.24% on $25000.00 in) · cash $7312.42 · realised +312.42
+Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $7000.00 this week
