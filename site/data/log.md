@@ -1,18 +1,4 @@
   (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CSWC excluded: too thinly traded ($14.8M a day) — Capital Southwest Corporation)
-brain: It's 13:46 ET, no_new_entries_after_et is 14:00 and max_hold_minutes is 30, so any new buy placed now would be forced to liquidate within the 14:00-14:16 window with essentially no time to develop - exactly the pattern that's graded negative all day (hour 13/14 PROBATION entries went 8/8 negative per past_lessons, and hour 14/15 are CULLED in strategy_stages). I already churned through 34 orders and 30 sells today with realized P&L basically flat (+$312), and the book is currently flat (0 positions) after the last 90-min holds were closed. Rather than force an 8th/9th entry into a culled hour just to chase min_positions, I'll sit this check out and wait for the next check closer to or after the no-new-entries cutoff where sells/protective orders are still fine but I won't be buying into a dead window.
-lesson: Hour 13-14 PROBATION/CULLED entries right before the 14:00 cutoff graded negative 8/8 times today - do not force a buy here just to hit min_positions; respect the strategy_stages hour verdict over the urge to deploy idle cash.
-portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
-Decision: nothing at this check. 1 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 1 resting buy order(s): past the entry cutoff)
-
-## 2026-10-02 14:17 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
@@ -398,3 +384,17 @@ lesson: When the whole book cycles out via time-stops simultaneously and remaini
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 13:48 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: It's past the 14:00 no_new_entries_after_et cutoff, so no new market buys are allowed this check - only sells/protective orders, and I hold zero positions so there's nothing to protect. The 8 resting buy_limits (IBM, KO, ACN, RTX, NOC, PEP, LMT, AMD) already cover a diversified set of names at sensible below-market levels and will fill on their own if price pulls back; adding more orders now would either be dropped (no_new_entries) or chase extended names (most watchlist tickers are 80-99% of day range). Best move is to let existing triggers work and check back soon in case any fire.
+lesson: After no_new_entries_after_et cutoff, don't try to add buys - let existing resting buy_limits do the work and just monitor for fills/protective needs.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 8 resting buy order(s): past the entry cutoff)

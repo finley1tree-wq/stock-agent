@@ -22200,3 +22200,4 @@ lesson: After no_new_entries_after_et cutoff, don't try to add buys - let existi
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 8 resting buy order(s): past the entry cutoff)
