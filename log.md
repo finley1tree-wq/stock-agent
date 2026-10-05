@@ -22161,3 +22161,16 @@ lesson: When the whole book sells simultaneously into cooldown, resting buy_limi
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 13:17 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 positions bought today were sold within the last 90 minutes on either take-profit or 90-min time-stop, and are now in the 45-min rebuy cooldown (cooling_off_minutes_left shows this). Hour-13 is PROBATION status per strategy_stages, and past_lessons (11 graded days, status 'backed by enough graded days to carry weight') repeatedly show that forcing a PROBATION-hour market entry when the book is in simultaneous cooldown and watchlist names sit high in day range (AMD 91.6%, AVGO 99.7%, GOOGL 97%, KO 98.2%, MO 99.8%) underperforms simply letting the 8 working buy_limit orders (IBM, KO, ACN, NOC, LMT, RTX, PEP, AMD) rest below market and refresh. I already have exactly min_positions+... worth of buy_limit triggers spanning defense, staples, tech, and industrials at sensible pullback levels, so no new action is needed this check - just wait for cooldowns to clear or limits to fill.
+lesson: When the entire book cycles out simultaneously via time-stops/take-profits, leaving diversified buy_limits below market and waiting out the 45-min cooldown beats forcing a fresh PROBATION-hour market chase into names pinned near day highs.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
