@@ -1,9 +1,8 @@
 {
   "week": "2026-W41",
-  "spent": 14988.08,
+  "spent": 11977.53,
   "deployed": 20000.0,
   "by_ticker": {
-    "AVGO": 3000.0,
     "PG": 2500.0,
     "ACN": 2500.0,
     "NFLX": 4500.0,
@@ -227,23 +226,46 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 8.385239,
+      "status": "filled",
+      "price": 359.03,
+      "proceeds": 3010.55,
+      "realized_pnl": 10.55,
+      "realized_pct": 0.35,
+      "date": "2026-10-05",
+      "time_et": "09:45",
+      "ts": 1791207900,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $357.77",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 14988.08,
+  "spent_today": 11977.53,
   "deployed_today": 20000.0,
   "orders_today": 8,
-  "sells_today": 2,
+  "sells_today": 3,
   "sold_today": [
     "MSFT",
-    "TSM"
+    "TSM",
+    "AVGO"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
-    "TSM": 1791207397
+    "TSM": 1791207397,
+    "AVGO": 1791207950
   },
-  "last_publish_ts": 1791207809,
-  "last_check_ts": 1791207913,
+  "last_publish_ts": 1791207948,
+  "last_check_ts": 1791207995,
   "exp_arm": {
     "AVGO": {
       "params": {
@@ -296,24 +318,21 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "470eb4f1": 358.829,
-    "543f301b": 370.5,
-    "8eed9421": 333.5915,
     "bd017fd5": 67.2852,
+    "8eed9421": 333.5915,
+    "543f301b": 370.5,
     "ac7b3721": 145.7142,
-    "34d84417": 193.0,
-    "69ed8db9": 192.8748,
     "08c3d3a3": 283.3481,
     "2ce2c8bb": 497.0,
+    "34d84417": 193.0,
+    "69ed8db9": 192.8748,
     "af28c21c": 142.5,
     "c7823794": 276.5,
-    "8c0090e7": 351.0,
-    "385065c7": 65.5,
-    "814bf98e": 615.0,
     "66b4b298": 274.1705,
     "d26c5fbe": 141.1156,
     "2afc9465": 199.9356,
-    "8a481735": 65.0288,
-    "633f7ed1": 347.0369
+    "385065c7": 65.5,
+    "814bf98e": 615.0,
+    "8a481735": 65.0288
   }
 }

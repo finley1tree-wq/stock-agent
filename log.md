@@ -21924,3 +21924,6 @@ lesson: Congress-signal entries have outperformed in counterfactual tracking (+0
 ~ WORKING buy_limit $500.00 NFLX @ $65.03 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25237.57 (+0.95% on $25000.00 in) · cash $10324.33 · realised +324.33
 Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $10011.92 this week
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $359.03] -> $3010.55 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-10-05 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
