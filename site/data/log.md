@@ -1,4 +1,3 @@
-~ WORKING take_profit 100% HLI @ $130.26 until 2026-10-07 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 HLI @ $125.92 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% FWONK @ $92.22 until 2026-10-07 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 FWONK @ $89.21 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +397,4 @@ portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-02 16:00 ET — published the session's closing state
+## 2026-10-05 00:06 ET — published the session's closing state
