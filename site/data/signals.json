@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-05T10:04-04:00",
+ "asOf": "2026-10-05T10:06-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a8374a1e",
-   "ticker": "AAPL",
-   "kind": "take_profit",
-   "price": 333.6692,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 333.85,
-   "pct_away": -0.05,
-   "good_until": "2026-10-10",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "ac7b3721",
    "ticker": "PG",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 145.08,
-   "pct_away": 0.44,
+   "last": 145.1,
+   "pct_away": 0.42,
    "good_until": "2026-10-10",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 198.38,
-   "pct_away": 0.78,
+   "last": 198.56,
+   "pct_away": 0.69,
    "good_until": "2026-10-10",
    "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4cc53fa0",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 331.1487,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 333.85,
-   "pct_away": -0.81,
-   "good_until": "2026-10-10",
-   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,29 +219,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 280.57,
-   "pct_away": 0.99,
+   "last": 281.05,
+   "pct_away": 0.82,
    "good_until": "2026-10-10",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "c7823794",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 276.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 280.57,
-   "pct_away": -1.45,
-   "good_until": "2026-10-05",
-   "why": "Protect capital on HD position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -286,13 +236,29 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 505.33,
-   "pct_away": -1.65,
+   "last": 504.91,
+   "pct_away": -1.57,
    "good_until": "2026-10-05",
    "why": "Defense sector diversification away from tech cluster at a level not chasing the day's move",
    "signals": [
     "news",
     "track_record"
+   ]
+  },
+  {
+   "id": "c7823794",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 276.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 281.05,
+   "pct_away": -1.62,
+   "good_until": "2026-10-05",
+   "why": "Protect capital on HD position",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -303,8 +269,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 145.08,
-   "pct_away": -1.78,
+   "last": 145.1,
+   "pct_away": -1.79,
    "good_until": "2026-10-05",
    "why": "Protect capital on defensive name",
    "signals": [
@@ -319,8 +285,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 627.82,
-   "pct_away": -2.04,
+   "last": 628.25,
+   "pct_away": -2.11,
    "good_until": "2026-10-05",
    "why": "Congress-backed name with strong historical excess return per disclosure_leaderboard; wait for pullback rather than pay top-of-range price",
    "signals": [
@@ -336,8 +302,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 280.57,
-   "pct_away": -2.28,
+   "last": 281.05,
+   "pct_away": -2.45,
+   "good_until": "2026-10-10",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d26c5fbe",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 141.1156,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 145.1,
+   "pct_away": -2.75,
    "good_until": "2026-10-10",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -353,29 +336,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 198.38,
-   "pct_away": -2.71,
+   "last": 198.56,
+   "pct_away": -2.8,
    "good_until": "2026-10-05",
    "why": "Protect capital given higher ATR",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "d26c5fbe",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 141.1156,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 145.08,
-   "pct_away": -2.73,
-   "good_until": "2026-10-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -386,25 +352,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 198.38,
-   "pct_away": -2.78,
-   "good_until": "2026-10-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0f00a076",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 322.9615,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 333.85,
-   "pct_away": -3.26,
+   "last": 198.56,
+   "pct_away": -2.86,
    "good_until": "2026-10-10",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

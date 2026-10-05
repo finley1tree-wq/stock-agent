@@ -1,6 +1,3 @@
-
-## 2026-10-02 10:10 ET (Friday) — week 2026-W40 — budget left $18997.06 (today $47600.00 put to work, 21 buys, 16 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
   (cancelled 3 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $85.44] -> $2003.07 (+0.15%) — close 100% at +0.1% over the average cost
 ## 2026-10-05 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AAPL: position closed)
+- SELL 100% AAPL [take_profit @ $333.67] -> $2505.40 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-10-05 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
