@@ -7234,7 +7234,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 83.6,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "Protect capital on new KO position per standard risk management",
@@ -7243,14 +7243,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-05 10:04",
+   "cancel_reason": "position closed"
   },
   {
    "id": "23b45687",
    "ticker": "KO",
    "kind": "take_profit",
    "price": 86.6,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "Lock in gains on KO before clock forces exit",
@@ -7259,7 +7261,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-05 10:04",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ec9e7b0a",
@@ -7302,7 +7306,7 @@
    "ticker": "KO",
    "kind": "take_profit",
    "price": 85.438,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "close 100% at +0.1% over the average cost",
@@ -7312,14 +7316,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-05 10:04"
   },
   {
    "id": "a428bc91",
    "ticker": "KO",
    "kind": "buy_limit",
    "price": 82.7507,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7329,7 +7334,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-05 10:04",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f975e439",
@@ -7420,5 +7427,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-05 10:01"
+ "updated": "2026-10-05 10:04"
 }

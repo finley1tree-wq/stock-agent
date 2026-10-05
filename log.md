@@ -21962,3 +21962,6 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
   (cancelled 3 standing order(s) on PEP: position closed)
 - SELL 100% PEP [take_profit @ $124.58] -> $2003.96 (+0.20%) — close 100% at +0.2% over the average cost
 ## 2026-10-05 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 3 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $85.44] -> $2003.07 (+0.15%) — close 100% at +0.1% over the average cost
+## 2026-10-05 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
