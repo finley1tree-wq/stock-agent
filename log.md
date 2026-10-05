@@ -21981,3 +21981,16 @@ lesson: Cooling-off on 8 of today's prior buys plus PROBATION hour-10 status mea
 portfolio: equity $25334.28 (+1.34% on $25000.00 in) · cash $17875.57 · realised +375.57
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 10:30 ET (Monday) — week 2026-W41 — budget left $17563.16 (today $28500.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: We're at hour 10 (PROBATION) with 8 of today's candidate buys in cooldown (AVGO, NFLX, UNH, PEP, KO, AAPL) and the rest already churned heavily today (12 orders, 8 sells already, $28.5k spent). Lessons explicitly flag PROBATION-hour forced buys graded negative repeatedly, and congress-leaderboard names (CHRW, HUBB, LTH) are down huge today (CHRW -13%!) so not worth chasing despite congress tag. Existing PG/ACN/HD positions already have full bracket protection (take-profit/stop-loss) working; ACN has a buy_limit to average down at -3% and a stop at -1.23% which is reasonable. Best move is to let working orders do their job and wait for cooldowns to clear or a cleaner SURVIVOR-hour setup rather than force a probation-hour buy into cooling-off/extended names.
+lesson: Hour-10 PROBATION entries graded negative repeatedly in past lessons; with most attractive congress/momentum names either in cooldown or already extended (CHRW -13% today), standing pat and letting ACN/PG/HD brackets work is more disciplined than forcing a probation buy.
+portfolio: equity $25326.61 (+1.31% on $25000.00 in) · cash $17875.57 · realised +375.57
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
