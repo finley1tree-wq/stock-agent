@@ -22041,3 +22041,18 @@ lesson: When 3+ names are mid-cooldown and the rest of the watchlist sits above 
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 11:28 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: All 11 prior buys today (AVGO,PG,ACN,MSFT,NFLX,TSM,HD,UNH,KO,PEP,AAPL) sold already and most of their tickers plus ACN/HD are in 20-min cooldown. Hour-10/11 is PROBATION per strategy_stages, and past_lessons explicitly flag that PROBATION-hour forced entries after 10:00 ET have graded negative repeatedly. No concrete new evidence (congress/insider/news) justifies a fresh market buy right now beyond the two names I already have resting buy_limits on (LMT, AMD) which are still well above their trigger prices. Rather than chase names at 70-98% of day range (ACN, HD, TSM, AVGO all in cooldown or extended) I'll hold the existing standing orders and recheck quickly to catch a dip or cooldown clearing.
+lesson: When 8+ of the day's prior buys are simultaneously in cooldown and the hour is PROBATION, resting buy_limits below market plus a short recheck interval beats forcing a market entry into extended names.
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
