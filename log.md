@@ -21968,3 +21968,16 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
   (cancelled 2 standing order(s) on AAPL: position closed)
 - SELL 100% AAPL [take_profit @ $333.67] -> $2505.40 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-10-05 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-05 10:14 ET (Monday) — week 2026-W41 — budget left $17563.16 (today $28500.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: Hour 10 is PROBATION per strategy_stages and today's rebuy cooldowns (MSFT/TSM/AVGO/NFLX/UNH/PEP/KO/AAPL, 7-37 min left) block the names I'd otherwise rotate into - all were sold today already. PG/ACN/HD are only 41 min held with working stops/take-profits/scale-in limits already resting (per auto_bracket), so no new action needed there. Rather than force a probation-hour buy into a name with no fresh evidence (past checks show forced PROBATION buys graded negative repeatedly), I'll wait for cooldowns to clear or a SURVIVOR-hour window, keeping existing brackets working.
+lesson: Cooling-off on 8 of today's prior buys plus PROBATION hour-10 status means there's no clean entry right now; let working stops/take-profits do their job and recheck soon rather than force a probation buy.
+portfolio: equity $25334.28 (+1.34% on $25000.00 in) · cash $17875.57 · realised +375.57
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
