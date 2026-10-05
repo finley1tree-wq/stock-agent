@@ -22071,3 +22071,21 @@ lesson: When 8+ cooldowns are active simultaneously in a PROBATION hour and most
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 11:51 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 prior buys today are in rebuy cooldown (45min) and the book is flat (0 positions) after everything got time-stopped out. Rather than chase names currently pinned at 85-99% of day range (AVGO, TSM, CCJ, GOOGL, META, DIA, SPY all near highs), I'm resting buy_limits below market on congress-backed and defense names to catch pullbacks without paying for an already-completed move, consistent with the max_entry_range_pct=85 guardrail and today's own lesson about cooldowns clearing fast. Will check back in 15 min to see if cooldowns clear and limits fill, then add more names to reach min_positions=8.
+lesson: When the entire book just got swept by cooldowns simultaneously, resting buy_limits below market on a mix of congress-backed and sector-diversifying names beats chasing the handful of watchlist names sitting at 85-99% of day range.
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2000.00 KO @ $85.50 until 2026-10-05 — re-enter KO (sold today) once cooldown clears and price pulls back from day high
+~ WORKING buy_limit $2000.00 PEP @ $123.00 until 2026-10-05 — PEP already low in range but in cooldown; limit slightly below to get better entry once eligible
+~ WORKING buy_limit $2000.00 ACN @ $192.00 until 2026-10-05 — ACN sold today on 90min time-stop at -1.74%, re-enter lower given congress support and counterfactual showing large misses on this name
+~ WORKING buy_limit $2000.00 NOC @ $470.00 until 2026-10-05 — defense diversification at a pulled-back level away from tech cluster
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 6 standing order(s) working.

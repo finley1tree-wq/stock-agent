@@ -1,79 +1,6 @@
 {
  "orders": [
   {
-   "id": "fa6ea797",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 178.5,
-   "status": "cancelled",
-   "created": "2026-09-30 12:15",
-   "created_ts": 1790784944,
-   "why": "protective stop on new ACN buy",
-   "evidence": "ACN last 182.38, cap downside ~2% on new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:46",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "25e38c94",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 592.0,
-   "status": "cancelled",
-   "created": "2026-09-30 12:15",
-   "created_ts": 1790784944,
-   "why": "protective stop on new AMD buy",
-   "evidence": "AMD last 604.0, cap downside ~2% on new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 13:46",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7f2904a4",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 226.0,
-   "status": "cancelled",
-   "created": "2026-09-30 12:15",
-   "created_ts": 1790784944,
-   "why": "protective stop on new NVDA buy",
-   "evidence": "NVDA last 230.65, cap downside ~2% on new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-09-30",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:46",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d9784626",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 519.5415,
-   "status": "cancelled",
-   "created": "2026-09-30 12:15",
-   "created_ts": 1790784944,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $518.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 13:46",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "657aa07c",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -7447,7 +7374,75 @@
    "usd": 500.0,
    "closed": "2026-10-05 10:06",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "eaf5b119",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 85.5,
+   "status": "working",
+   "created": "2026-10-05 11:51",
+   "created_ts": 1791215473,
+   "why": "re-enter KO (sold today) once cooldown clears and price pulls back from day high",
+   "evidence": "Rep. Lloyd Doggett disclosed KO buy, congress_net_buy_pressure 1.0; KO currently 93.4% of day range, too extended to chase",
+   "signals": [
+    "congress",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
+  },
+  {
+   "id": "11a2f797",
+   "ticker": "PEP",
+   "kind": "buy_limit",
+   "price": 123.0,
+   "status": "working",
+   "created": "2026-10-05 11:51",
+   "created_ts": 1791215473,
+   "why": "PEP already low in range but in cooldown; limit slightly below to get better entry once eligible",
+   "evidence": "congress_net_buy_pressure 1.0 on PEP; currently 28.6% of day range near day low -0.91% today",
+   "signals": [
+    "congress",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
+  },
+  {
+   "id": "8addb628",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 192.0,
+   "status": "working",
+   "created": "2026-10-05 11:51",
+   "created_ts": 1791215473,
+   "why": "ACN sold today on 90min time-stop at -1.74%, re-enter lower given congress support and counterfactual showing large misses on this name",
+   "evidence": "ACN +12.54% 5d, congress_net_buy_pressure 1.0, biggest_miss counterfactual showed ACN +22.91% fwd after being skipped before",
+   "signals": [
+    "congress",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
+  },
+  {
+   "id": "9c898630",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 470.0,
+   "status": "working",
+   "created": "2026-10-05 11:51",
+   "created_ts": 1791215473,
+   "why": "defense diversification at a pulled-back level away from tech cluster",
+   "evidence": "NOC -5.31% 5d, -9.33% 1m, defense sector track_record avg -0.01% hit_rate 0.55",
+   "signals": [
+    "news",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
   }
  ],
- "updated": "2026-10-05 11:35"
+ "updated": "2026-10-05 11:51"
 }

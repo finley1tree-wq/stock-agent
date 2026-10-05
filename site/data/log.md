@@ -1,36 +1,3 @@
-
-## 2026-10-02 10:56 ET (Friday) — week 2026-W40 — budget left $18886.14 (today $52025.00 put to work, 29 buys, 20 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Below min_positions (6/8) with 75.5% cash idle - counterfactual data shows idle checks cost ~0.09-0.12%/day. Adding O, GOOGL, VNQ diversifies away from the current nuclear/gold/entertainment cluster per repeated past lesson, all three are not extended in their day range (O 85.7%, GOOGL 79.9%, VNQ 59.9%) and sized at $2000 each (normal position size for this account). Protective stops/take-profits placed on all new positions per risk_management discipline which has the best track record (0.19% avg, 0.88 hit rate).
-lesson: Diversifying into real-estate (O, VNQ) and widely-held (GOOGL) at $2000 each from a 6/8 position book with 75%+ idle cash is the correct response to repeated idle-cash lessons; track whether real diversification beats clustering further in nuclear/gold/entertainment next check.
-  (dropped O: 86% up today's range — resting a limit at $53.94 instead of chasing)
-- BUY $500.00 GOOGL [filled] ['momentum', 'track_record'] — Add widely-held tech name for diversification outside current defense/gold/nuclear cluster; was sold earlier today and cooldown has passed (not in cooling_off list) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: GOOGL +1.95% 1d, +2.29% 1m, widely_held sector avg_ret 0.0% hit_rate 0.56 in track record - better than idle cash
-- BUY $500.00 VNQ [filled] ['momentum', 'track_record'] — Further real-estate diversification to counter concentration lesson, ETF reduces single-stock risk while adding sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: VNQ +0.97% 1d, real estate sector, pct_of_day_range 59.9 - not extended
-  (dropped trigger O stop_loss: not held)
-  (dropped trigger O take_profit: not held)
-~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-10-02 — Protect new GOOGL position
-~ WORKING take_profit 100% GOOGL @ $349.50 until 2026-10-07 — Lock in gain on GOOGL
-~ WORKING stop_loss 100% VNQ @ $88.30 until 2026-10-02 — Protect new VNQ position
-~ WORKING take_profit 100% VNQ @ $91.50 until 2026-10-07 — Lock in gain on VNQ
-~ WORKING buy_limit $500.00 O @ $53.94 until 2026-10-02 — wanted it, but not at the high — resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% GOOGL @ $345.94 until 2026-10-07 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $334.57 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% VNQ @ $90.22 until 2026-10-07 — close 100% at +0.1% over the average cost
-~ WORKING buy_limit $500.00 VNQ @ $87.38 until 2026-10-07 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25342.55 (+1.37% on $25000.00 in) · cash $18217.73 · realised +392.73
-Done: 0 sell(s), 2 buy(s); 33 order(s) working; budget left $17886.14 this week
-- BUY $575.00 AAPL [buy_limit @ $332.45] — wanted it, but not at the high — resting at $332.45. Widely held core name; place as buy_limit near chase_limit level since it's high in range [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-02 11:04 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% FWONK [time stop] -> $2464.58 (-1.42%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-02 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-02 11:13 ET (Friday) — week 2026-W40 — budget left $19775.72 (today $53600.00 put to work, 32 buys, 21 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
   (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
@@ -398,3 +365,36 @@ lesson: When 8+ of the day's prior buys are simultaneously in cooldown and the h
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 11:35 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: All 11 prior buys today are still mid-cooldown (ACN/HD have 12 min left, others likely similar), and the hour-11 slot is PROBATION. Rather than force a probation-sized chase into names at 90%+ of day range (TSM 96.6%, AVGO 91.4%, GOOGL 94.2%, META 95.5%, DIA 94.1%, SPY 95.1%), I'm leaving the two existing buy_limits working below market (LMT, AMD) and will recheck in 15 minutes once cooldowns clear to rebuild the 8-position book with fresh entries, consistent with the lesson that forcing PROBATION-hour market buys into extended names has graded poorly.
+lesson: When 8+ cooldowns are active simultaneously in a PROBATION hour and most watchlist names sit above 85% of day range, hold working buy_limits and wait a short interval rather than force new entries - cooldowns clear fast and better entries follow.
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 11:51 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 prior buys today are in rebuy cooldown (45min) and the book is flat (0 positions) after everything got time-stopped out. Rather than chase names currently pinned at 85-99% of day range (AVGO, TSM, CCJ, GOOGL, META, DIA, SPY all near highs), I'm resting buy_limits below market on congress-backed and defense names to catch pullbacks without paying for an already-completed move, consistent with the max_entry_range_pct=85 guardrail and today's own lesson about cooldowns clearing fast. Will check back in 15 min to see if cooldowns clear and limits fill, then add more names to reach min_positions=8.
+lesson: When the entire book just got swept by cooldowns simultaneously, resting buy_limits below market on a mix of congress-backed and sector-diversifying names beats chasing the handful of watchlist names sitting at 85-99% of day range.
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2000.00 KO @ $85.50 until 2026-10-05 — re-enter KO (sold today) once cooldown clears and price pulls back from day high
+~ WORKING buy_limit $2000.00 PEP @ $123.00 until 2026-10-05 — PEP already low in range but in cooldown; limit slightly below to get better entry once eligible
+~ WORKING buy_limit $2000.00 ACN @ $192.00 until 2026-10-05 — ACN sold today on 90min time-stop at -1.74%, re-enter lower given congress support and counterfactual showing large misses on this name
+~ WORKING buy_limit $2000.00 NOC @ $470.00 until 2026-10-05 — defense diversification at a pulled-back level away from tech cluster
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 6 standing order(s) working.
