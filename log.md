@@ -22109,3 +22109,16 @@ lesson: When most of today's buys are simultaneously in 45-min cooldown and the 
 ~ WORKING buy_limit $2000.00 IBM @ $219.50 until 2026-10-05 — diversify into widely_held tech-adjacent name not currently in cooldown
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
+
+## 2026-10-05 12:22 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: All 11 prior buys from today are in 45-min cooldown, hour-10/11/12 is PROBATION, and I already have 8 buy_limit resting orders working across diversified sectors (KO, IBM, RTX, PEP, ACN, LMT, NOC, AMD) all sitting 1-2.6% below market to get a better entry rather than chasing names near day highs. No new concrete catalyst justifies a market buy right now since the attractive congress/momentum names (ACN, KO, PEP) are precisely the ones in cooldown. Letting the working limits fire as prices pull back, per the pattern noted in past_lessons about cooldown sweeps, is the disciplined move.
+lesson: When the whole book just sold on cooldown simultaneously, resting buy_limits below market across sectors and waiting a short interval is better than forcing a PROBATION-hour market chase into names sitting 50-99% of day range.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
