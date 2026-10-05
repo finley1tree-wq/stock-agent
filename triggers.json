@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "657aa07c",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 502.6734,
-   "status": "cancelled",
-   "created": "2026-09-30 12:15",
-   "created_ts": 1790784944,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $518.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 13:46",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "814132a9",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 183.2455,
-   "status": "cancelled",
-   "created": "2026-09-30 12:15",
-   "created_ts": 1790784944,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $182.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 12:46",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "c376a3c8",
    "ticker": "ACN",
    "kind": "buy_limit",
@@ -7442,7 +7404,41 @@
    ],
    "good_until": "2026-10-05",
    "usd": 2000.0
+  },
+  {
+   "id": "9df773f1",
+   "ticker": "RTX",
+   "kind": "buy_limit",
+   "price": 181.5,
+   "status": "working",
+   "created": "2026-10-05 12:06",
+   "created_ts": 1791216417,
+   "why": "new defense name to diversify book, rest below market to avoid chasing",
+   "evidence": "RTX -1.72% 5d, -8.76% 1m, defense sector diversification, currently 77% of day range",
+   "signals": [
+    "news",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
+  },
+  {
+   "id": "f92707d9",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 219.5,
+   "status": "working",
+   "created": "2026-10-05 12:06",
+   "created_ts": 1791216417,
+   "why": "diversify into widely_held tech-adjacent name not currently in cooldown",
+   "evidence": "IBM -5.33% 1m, 69.7% of day range, widely_held sector diversification away from cooldown names",
+   "signals": [
+    "news",
+    "track_record"
+   ],
+   "good_until": "2026-10-05",
+   "usd": 2000.0
   }
  ],
- "updated": "2026-10-05 11:51"
+ "updated": "2026-10-05 12:06"
 }

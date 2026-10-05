@@ -22089,3 +22089,23 @@ lesson: When the entire book just got swept by cooldowns simultaneously, resting
 ~ WORKING buy_limit $2000.00 NOC @ $470.00 until 2026-10-05 — defense diversification at a pulled-back level away from tech cluster
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 6 standing order(s) working.
+
+## 2026-10-05 12:06 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: Book is flat with 8 names already sold today now in 45-min cooldown, so no market buys are eligible for most of the names I'd want (KO, PEP, ACN, AMD already have working limits). All remaining watchlist candidates that aren't in cooldown (NOC, LMT, RTX, IBM) are also high in their day range right now (61-98%), so rather than chase at market I'm resting buy_limits below current price on a diversified mix (defense: NOC/LMT/RTX, widely_held: IBM, staples: KO/PEP, tech-services: ACN/AMD) sized at $2000-2200 each - this matches the past lesson that resting limits beat forcing probation-hour market entries when cooldowns + extended ranges dominate. No market order is placed now since nothing clears both the cooldown and the entry-range screen.
+lesson: When most of today's buys are simultaneously in 45-min cooldown and the rest of the watchlist sits 60-98% of day range, rest buy_limits below market across a diversified sector mix instead of forcing a market entry or waiting idle.
+  (dropped trigger KO buy_limit: duplicate of a working order)
+  (dropped trigger PEP buy_limit: duplicate of a working order)
+  (dropped trigger NOC buy_limit: duplicate of a working order)
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger ACN buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2000.00 RTX @ $181.50 until 2026-10-05 — new defense name to diversify book, rest below market to avoid chasing
+~ WORKING buy_limit $2000.00 IBM @ $219.50 until 2026-10-05 — diversify into widely_held tech-adjacent name not currently in cooldown
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.

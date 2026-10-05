@@ -1,23 +1,3 @@
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Already at 8/8 min_positions with working protective stops/take-profits on every holding plus standing buy_limit adds already queued (AAPL, O x2, HD, GLD, NEM, AMZN, GOOGL, VNQ, PLD averaging-in triggers). Today's realized track record shows every new buy since 09:32 has been negative on that check's avg_pct (-0.53 to -1.09), suggesting chasing more entries intraday at 11am (PROBATION hour, momentum/news signal mixes also PROBATION/CULLED) has not worked; no new evidence (headline/filing) justifies adding a 9th/10th name right now beyond what's already queued. Cash stays idle but all 8 positions are protected with brackets and dip-buy limits already resting, so the book is working without forcing a weak entry.
-lesson: On 2026-10-02, repeated forced entries every check from 09:32-10:56 at PROBATION hours all realized negative avg_pct that check (-0.24 to -1.09%); once min_positions is met and protective brackets are in place, holding without new chasing entries is preferable to forcing another name just to deploy idle cash.
-portfolio: equity $25316.60 (+1.27% on $25000.00 in) · cash $20107.31 · realised +357.31
-Decision: nothing at this check. 31 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- BUY $500.00 O [buy_limit @ $53.94] — wanted it, but not at the high — resting at $53.94. Add real estate diversification per repeated lesson; momentum positive and not yet extended on 1m basis (-11.85%) [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-02 11:23 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-- SELL 100% GLD [time stop] -> $493.93 (-1.21%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-02 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-02 11:33 ET (Friday) — week 2026-W40 — budget left $19769.65 (today $54100.00 put to work, 33 buys, 22 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (ARBE excluded: too thinly traded ($1.9M a day) — Arbe Robotics Ltd.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
   (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
 brain: Already at min_positions (8/8) with protective stops, take-profits and scale-in buy_limits already working on every position (NEM, HD, AMZN, PLD, GOOGL, VNQ, AAPL, O). Today's repeated forced entries every 10-15 min have realized negative avg_pct each time (-0.24% to -1.09% per the lessons log), so chasing an extra name just to deploy more cash is the pattern explicitly flagged as a mistake. No new evidence (headline/filing) justifies a 9th name right now, and 10:00-14:00 hours are PROBATION/CULLED for new entries anyway. Best move is to hold the full book, let the existing brackets/ratchets do their job, and check back soon in case a stop or take-profit fires and frees capital for a genuinely better idea.
@@ -398,3 +378,23 @@ lesson: When the entire book just got swept by cooldowns simultaneously, resting
 ~ WORKING buy_limit $2000.00 NOC @ $470.00 until 2026-10-05 — defense diversification at a pulled-back level away from tech cluster
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 6 standing order(s) working.
+
+## 2026-10-05 12:06 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: Book is flat with 8 names already sold today now in 45-min cooldown, so no market buys are eligible for most of the names I'd want (KO, PEP, ACN, AMD already have working limits). All remaining watchlist candidates that aren't in cooldown (NOC, LMT, RTX, IBM) are also high in their day range right now (61-98%), so rather than chase at market I'm resting buy_limits below current price on a diversified mix (defense: NOC/LMT/RTX, widely_held: IBM, staples: KO/PEP, tech-services: ACN/AMD) sized at $2000-2200 each - this matches the past lesson that resting limits beat forcing probation-hour market entries when cooldowns + extended ranges dominate. No market order is placed now since nothing clears both the cooldown and the entry-range screen.
+lesson: When most of today's buys are simultaneously in 45-min cooldown and the rest of the watchlist sits 60-98% of day range, rest buy_limits below market across a diversified sector mix instead of forcing a market entry or waiting idle.
+  (dropped trigger KO buy_limit: duplicate of a working order)
+  (dropped trigger PEP buy_limit: duplicate of a working order)
+  (dropped trigger NOC buy_limit: duplicate of a working order)
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger ACN buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+~ WORKING buy_limit $2000.00 RTX @ $181.50 until 2026-10-05 — new defense name to diversify book, rest below market to avoid chasing
+~ WORKING buy_limit $2000.00 IBM @ $219.50 until 2026-10-05 — diversify into widely_held tech-adjacent name not currently in cooldown
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
