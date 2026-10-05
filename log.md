@@ -22026,3 +22026,18 @@ Decision: nothing at this check. 8 standing order(s) working.
 - SELL 100% ACN [time stop] -> $2456.39 (-1.74%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% HD [time stop] -> $2486.09 (-0.56%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-05 11:03 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-05 11:17 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: 8 of 11 recently-bought names are in rebuy cooldown (PG, ACN, HD) and all were sold today at the 90-min time stop, mostly at losses (ACN -1.74%, HD -0.56%). Hour-10/11 is PROBATION per strategy_stages and past lessons repeatedly show forced PROBATION-hour entries grading negative; the remaining watchlist names (AVGO, TSM, CCJ at 96-98% of day range) are all pinned near highs which the guardrails would convert to resting limits anyway. Rather than chase, I'm keeping the two existing buy_limits (LMT, AMD) working at sensible pullback levels and waiting for cooldowns (6-31 min) to clear before redeploying into the staples that worked this morning (KO/PEP/PG pattern).
+lesson: When 3+ names are mid-cooldown and the rest of the watchlist sits above 85% of day range in a PROBATION hour, resting buy_limits below market and waiting a short interval beats forcing a chase or a probation-sized entry.
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
