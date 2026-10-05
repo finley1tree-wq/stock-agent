@@ -21997,3 +21997,16 @@ Decision: nothing at this check. 11 standing order(s) working.
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [take_profit @ $145.71] -> $2504.04 (+0.16%) — close 100% at +0.2% over the average cost
 ## 2026-10-05 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-05 10:45 ET (Monday) — week 2026-W41 — budget left $20067.20 (today $28500.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: Hour-10 PROBATION status with 8 of today's traded names in cooldown (PEP/KO/AAPL/PG) and the rest already sold/churned today (MSFT, TSM, AVGO, NFLX, UNH) - no fresh congress/insider evidence on an un-cooled name right now. ACN and HD already have working stop_loss/take_profit brackets plus scale-in buy_limits in place (ACN stop 193, HD stop 276.5, take-profits set) which is the correct risk-managed handling per the auto_bracket/risk_management signals that have the best realized hit rates (0.88-0.89). Forcing a new probation-hour buy without a distinct catalyst matches the exact pattern past_lessons flags as negative 8/8 times; better to let existing brackets work and recheck shortly for a cooldown to clear or a new disclosure to land.
+lesson: Hour-10 PROBATION entries with no fresh congress/insider catalyst and most watchlist names in cooldown graded negative repeatedly - resting on working brackets and waiting for cooldowns to clear is the disciplined move, not forcing a probation buy to hit min_positions.
+portfolio: equity $25311.49 (+1.25% on $25000.00 in) · cash $20379.61 · realised +379.61
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
