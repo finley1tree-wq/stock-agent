@@ -1,6 +1,3 @@
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $518.12] -> $551.39 (+0.25%) — close 100% at +0.3% over the average cost
-## 2026-10-02 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $366.57] -> $501.05 (+0.21%) — close 100% at +0.2% over the average cost
 ## 2026-10-02 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
 ## 2026-10-05 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2500.00 AAPL [buy_limit @ $332.95] — wanted it, but not at the high — resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position
 ## 2026-10-05 10:00 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 3 standing order(s) on PEP: position closed)
+- SELL 100% PEP [take_profit @ $124.58] -> $2003.96 (+0.20%) — close 100% at +0.2% over the average cost
+## 2026-10-05 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

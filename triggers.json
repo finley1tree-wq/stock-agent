@@ -7266,7 +7266,7 @@
    "ticker": "PEP",
    "kind": "stop_loss",
    "price": 121.8,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "Protect capital on new PEP position",
@@ -7275,14 +7275,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-05 10:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c9cb345a",
    "ticker": "PEP",
    "kind": "take_profit",
    "price": 126.2,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "Lock in gains on PEP before clock forces exit",
@@ -7291,7 +7293,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-05",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-05 10:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8fc26f2d",
@@ -7332,7 +7336,7 @@
    "ticker": "PEP",
    "kind": "take_profit",
    "price": 124.5811,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "close 100% at +0.2% over the average cost",
@@ -7342,14 +7346,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-05 10:01"
   },
   {
    "id": "a26b9e4e",
    "ticker": "PEP",
    "kind": "buy_limit",
    "price": 120.6001,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-05 09:59",
    "created_ts": 1791208758,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7359,7 +7364,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-05 10:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a8374a1e",
@@ -7413,5 +7420,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-05 10:00"
+ "updated": "2026-10-05 10:01"
 }

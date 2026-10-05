@@ -1,13 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 13949.27,
+  "spent": 11945.31,
   "deployed": 28500.0,
   "by_ticker": {
     "PG": 2500.0,
     "ACN": 2500.0,
     "HD": 2500.0,
     "KO": 2000.0,
-    "PEP": 2000.0,
     "AAPL": 2500.0
   },
   "deployed_by_ticker": {
@@ -384,29 +383,52 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "PEP",
+      "side": "sell",
+      "qty": 16.085593,
+      "status": "filled",
+      "price": 124.58,
+      "proceeds": 2003.96,
+      "realized_pnl": 3.96,
+      "realized_pct": 0.2,
+      "date": "2026-10-05",
+      "time_et": "10:01",
+      "ts": 1791208800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $124.33",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 13949.27,
+  "spent_today": 11945.31,
   "deployed_today": 28500.0,
   "orders_today": 12,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "MSFT",
     "TSM",
     "AVGO",
     "NFLX",
-    "UNH"
+    "UNH",
+    "PEP"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
     "TSM": 1791207397,
     "AVGO": 1791207950,
     "NFLX": 1791208121,
-    "UNH": 1791208808
+    "UNH": 1791208808,
+    "PEP": 1791208891
   },
-  "last_publish_ts": 1791208853,
-  "last_check_ts": 1791208853,
+  "last_publish_ts": 1791208890,
+  "last_check_ts": 1791208936,
   "exp_arm": {
     "PG": {
       "params": {
@@ -469,26 +491,22 @@
   "autopiloted": false,
   "book_px": {
     "8fc26f2d": 85.438,
-    "f975e439": 124.5811,
     "a8374a1e": 333.6692,
-    "4cc53fa0": 331.1487,
     "ac7b3721": 145.7142,
-    "2afc9465": 199.9356,
-    "c7823794": 276.5,
-    "2ce2c8bb": 497.0,
+    "4cc53fa0": 331.1487,
     "08c3d3a3": 283.3481,
-    "c9cb345a": 126.2,
+    "2afc9465": 199.9356,
+    "2ce2c8bb": 497.0,
+    "c7823794": 276.5,
     "23b45687": 86.6,
     "af28c21c": 142.5,
     "814bf98e": 615.0,
-    "66b4b298": 274.1705,
     "6a76e148": 83.6,
-    "ec9e7b0a": 121.8,
+    "66b4b298": 274.1705,
     "34d84417": 193.0,
     "69ed8db9": 192.8748,
     "d26c5fbe": 141.1156,
-    "0f00a076": 322.9615,
     "a428bc91": 82.7507,
-    "a26b9e4e": 120.6001
+    "0f00a076": 322.9615
   }
 }

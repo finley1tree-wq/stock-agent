@@ -21959,3 +21959,6 @@ Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
 ## 2026-10-05 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2500.00 AAPL [buy_limit @ $332.95] — wanted it, but not at the high — resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position
 ## 2026-10-05 10:00 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 3 standing order(s) on PEP: position closed)
+- SELL 100% PEP [take_profit @ $124.58] -> $2003.96 (+0.20%) — close 100% at +0.2% over the average cost
+## 2026-10-05 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
