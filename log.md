@@ -22174,3 +22174,16 @@ lesson: When the entire book cycles out simultaneously via time-stops/take-profi
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 13:33 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: Book is flat with 11 of the last day's 11 bought names simultaneously sold/cooling off within the 45-min window, and current watchlist prices (ACN 8%, AMD 83%, TSM 97.7%, AVGO 97.2%, HUBB 96%, MSFT 33.5%, CRWD 98.8%) are mostly pinned near today's highs - buying market now would be chasing exactly the pattern past_lessons flag as costly. My 8 working buy_limits (IBM, KO, ACN, NOC, RTX, LMT, PEP, AMD) are already resting 0.76-2.6% below market across widely_held/defense/staples sectors, which is real diversification per the past lesson about avoiding further nuclear/entertainment clustering. No_new_entries cutoff is 14:00, so I still have one more window (13:33 now) to let these fill or add fresh ones if a pullback hits; I'll recheck quickly rather than force a fresh market chase into extended names.
+lesson: When the whole book cycles out via time-stops simultaneously and remaining watchlist names sit 80-99% of day range, resting buy_limits placed below market (as already done) is the correct tool - don't force a market entry just to hit min_positions before the 14:00 cutoff.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
