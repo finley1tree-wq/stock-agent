@@ -5,20 +5,6 @@
   (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
   (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) so no buys are allowed - they'd be dropped. Book is currently flat (0 positions) after the desk closed everything out, and there is nothing to sell or protect. Today's own logged lessons show every forced entry since 10:00 in PROBATION/CULLED hours graded negative (8/8), confirming that waiting rather than forcing a buy was correct, and now it's moot since entries are blocked anyway. With only 3 checks left and max_hold_minutes forcing closure soon anyway, sitting out this check is the only option available.
-lesson: When no_new_entries_this_check is true, don't propose buys regardless of idle cash - they will be dropped; past-check evidence also showed PROBATION-hour forced entries after 10:00 ET graded negative 8/8 times today.
-portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-02 14:48 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 ET cutoff) and book is flat with no positions to protect or sell, so there is nothing actionable - buys would be dropped by guardrails regardless. Today's logged lessons also confirm every forced PROBATION/CULLED-hour entry since 10:00 graded negative (8/8), reinforcing that waiting is correct here rather than chasing a drop.
 lesson: When no_new_entries_this_check is true, do not propose buys - focus check-ins on protecting/managing existing positions only.
 portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
@@ -398,3 +384,17 @@ portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realis
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 8 resting buy order(s): past the entry cutoff)
+
+## 2026-10-05 14:03 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 ET cutoff) so no new buys can be placed - any order would be dropped. Positions_held is 0 so there is nothing to sell or protect. The day's budget is already fully deployed/recycled (spent_today_usd $28,500 across 11 names, all sold today per the 30-90min hold rules), and cooling_off list is empty meaning no immediate re-entry opportunities exist anyway given the entry cutoff. Correct move is to sit idle until close, since forcing entries is impossible per guardrails.
+lesson: After no_new_entries_after_et cutoff, buys are dropped regardless of evidence quality - don't waste reasoning trying to construct entries; focus checks near close on monitoring any open positions/standing orders only.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
