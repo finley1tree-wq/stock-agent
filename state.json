@@ -1,14 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 18000.0,
+  "spent": 12988.08,
   "deployed": 18000.0,
   "by_ticker": {
     "AVGO": 3000.0,
     "PG": 2500.0,
     "ACN": 2500.0,
-    "MSFT": 2500.0,
     "NFLX": 2500.0,
-    "TSM": 2500.0,
     "HD": 2500.0
   },
   "deployed_by_ticker": {
@@ -166,17 +164,65 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 4.744055,
+      "status": "filled",
+      "price": 528.3,
+      "proceeds": 2506.3,
+      "realized_pnl": 6.3,
+      "realized_pct": 0.25,
+      "date": "2026-10-05",
+      "time_et": "09:36",
+      "ts": 1791207300,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $526.98",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 5.216421,
+      "status": "filled",
+      "price": 480.33,
+      "proceeds": 2505.62,
+      "realized_pnl": 5.62,
+      "realized_pct": 0.22,
+      "date": "2026-10-05",
+      "time_et": "09:36",
+      "ts": 1791207300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $479.26",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-05",
-  "spent_today": 18000.0,
+  "spent_today": 12988.08,
   "deployed_today": 18000.0,
   "orders_today": 7,
-  "sells_today": 0,
-  "sold_today": [],
-  "sold_ts": {},
-  "last_publish_ts": 1791207155,
-  "last_check_ts": 1791207299,
+  "sells_today": 2,
+  "sold_today": [
+    "MSFT",
+    "TSM"
+  ],
+  "sold_ts": {
+    "MSFT": 1791207397,
+    "TSM": 1791207397
+  },
+  "last_publish_ts": 1791207395,
+  "last_check_ts": 1791207395,
   "exp_arm": {
     "AVGO": {
       "params": {
@@ -242,32 +288,26 @@
       }
     }
   },
-  "last_bar_ts": 1791207000,
+  "last_bar_ts": 1791207300,
   "last_decision_ts": 1791207155,
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "ac7b3721": 145.7142,
-    "694ac83d": 480.3335,
-    "ec4617c0": 528.3027,
-    "08c3d3a3": 283.3481,
-    "bd017fd5": 67.2852,
     "470eb4f1": 358.829,
     "8eed9421": 333.5915,
+    "ac7b3721": 145.7142,
+    "08c3d3a3": 283.3481,
+    "bd017fd5": 67.2852,
     "2afc9465": 199.9356,
-    "8c0090e7": 351.0,
-    "3cf98c57": 517.0,
-    "dee64444": 470.0,
     "af28c21c": 142.5,
+    "8c0090e7": 351.0,
     "c7823794": 276.5,
     "385065c7": 65.5,
     "34d84417": 193.0,
-    "633f7ed1": 347.0369,
-    "d26c5fbe": 141.1156,
     "69ed8db9": 192.8748,
-    "62c8628f": 511.1706,
-    "bc41c294": 464.8822,
+    "d26c5fbe": 141.1156,
     "66b4b298": 274.1705,
-    "b753961f": 65.0773
+    "b753961f": 65.0773,
+    "633f7ed1": 347.0369
   }
 }

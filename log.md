@@ -21900,3 +21900,8 @@ lesson: Congress-signal buys showed the best counterfactual avg_pct (+0.39%) amo
 ~ WORKING buy_limit $500.00 HD @ $274.17 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25308.82 (+1.24% on $25000.00 in) · cash $7312.42 · realised +312.42
 Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $7000.00 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $528.30] -> $2506.30 (+0.25%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $480.33] -> $2505.62 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-10-05 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders

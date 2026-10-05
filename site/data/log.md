@@ -1,8 +1,3 @@
-  (CTM excluded: too thinly traded ($0.6M a day) — Castellum, Inc.)
-brain: Book is below min_positions (only FWONK held, 90% cash idle). Deploying into 7 new names across diverse sectors (mega-cap tech momentum, nuclear, gold, off-watchlist) at $2000-2500 each to reach min_positions=8 target quickly within the SURVIVOR 09:xx hour window, consistent with past lessons that this approach has worked (0.49% avg_pct on recent similar checks). Avoiding cooling-off tickers (TSM, ACN, NOC, CRWD, AVGO is NOT in cooldown list so ok, TTD, IBM, HLI, HUBB, CHRW, LTH, SKWD, PG) and sizing each position with ATR-based protective stops per risk_management signal which has the best track record (0.18% avg_ret, 0.88 hit rate).
-lesson: AVGO was not in cooldown list (only similar-sounding names were) - double check cooling_off_minutes_left dict keys exactly match ticker before assuming blocked; deploying 7-8 diversified names at $2000-2500 each from a flat 90% idle book continues to be the right move per repeated past lesson confirmation.
-  (dropped AVGO: sold 13 min ago, cooling off)
-  (dropped NLR: momentum-only entry (guardrails.allow_momentum_only_entries is false))
   (dropped NVDA: momentum-only entry (guardrails.allow_momentum_only_entries is false))
   (dropped META: momentum-only entry (guardrails.allow_momentum_only_entries is false))
   (dropped TPL: not in allowed list)
@@ -398,3 +393,8 @@ lesson: Congress-signal buys showed the best counterfactual avg_pct (+0.39%) amo
 ~ WORKING buy_limit $500.00 HD @ $274.17 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25308.82 (+1.24% on $25000.00 in) · cash $7312.42 · realised +312.42
 Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $7000.00 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $528.30] -> $2506.30 (+0.25%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $480.33] -> $2505.62 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-10-05 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
