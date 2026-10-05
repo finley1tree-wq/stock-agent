@@ -22056,3 +22056,18 @@ lesson: When 8+ of the day's prior buys are simultaneously in cooldown and the h
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 11:35 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
+  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
+brain: All 11 prior buys today are still mid-cooldown (ACN/HD have 12 min left, others likely similar), and the hour-11 slot is PROBATION. Rather than force a probation-sized chase into names at 90%+ of day range (TSM 96.6%, AVGO 91.4%, GOOGL 94.2%, META 95.5%, DIA 94.1%, SPY 95.1%), I'm leaving the two existing buy_limits working below market (LMT, AMD) and will recheck in 15 minutes once cooldowns clear to rebuild the 8-position book with fresh entries, consistent with the lesson that forcing PROBATION-hour market buys into extended names has graded poorly.
+lesson: When 8+ cooldowns are active simultaneously in a PROBATION hour and most watchlist names sit above 85% of day range, hold working buy_limits and wait a short interval rather than force new entries - cooldowns clear fast and better entries follow.
+  (dropped trigger LMT buy_limit: duplicate of a working order)
+  (dropped trigger AMD buy_limit: duplicate of a working order)
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
