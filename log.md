@@ -22135,3 +22135,16 @@ lesson: When the entire book just rotated out on 45-min cooldowns simultaneously
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-05 12:54 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
+  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain: Book is flat (0 positions) with all 8 prior buys in 45-min cooldown from this morning's round-trip, and hour-12 is PROBATION with mediocre historical return (-0.03% avg_ret_pct). Most watchlist names (DIA 93%, AVGO 94%, LMT 93%, PG 80%, KO 98%, ESE 98%, MCD 99%, AMD 81%, META 89%) are pinned near day highs - paying up there violates max_entry_range_pct guidance and the lesson log explicitly flags this exact pattern (8 cooldowns + PROBATION hour + extended watchlist = rest limits, don't chase). I already have 8 buy_limit orders working below market across diversified sectors (KO, IBM, PEP, ACN, NOC, LMT, RTX, AMD) covering congress/news/track_record signals, which is the correct tool here per guardrails. I'll let those work and check back soon since cooldowns clear within 45 minutes and several limits are only 1-2.5% below market.
+lesson: When the whole book is simultaneously in cooldown and the watchlist sits 80-99% of day range in a PROBATION hour, resting buy_limits already placed below market is the right tool - don't force a fresh market chase just to fill min_positions.
+portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
