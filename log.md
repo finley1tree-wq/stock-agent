@@ -22322,3 +22322,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [stop_loss @ $147.89] -> $3499.95 (-0.00%) — close it all at -0.4% under the average cost
 ## 2026-10-06 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $223.69] -> $2005.68 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-06 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
