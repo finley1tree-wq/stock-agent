@@ -22396,3 +22396,6 @@ lesson: When below min_positions but a diversified ladder of buy_limits is alrea
 portfolio: equity $25367.06 (+1.47% on $25000.00 in) · cash $20882.28 · realised +382.28
 Decision: nothing at this check. 14 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $195.89] -> $2514.04 (+0.56%) — close 100% at +0.6% over the average cost
+## 2026-10-06 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

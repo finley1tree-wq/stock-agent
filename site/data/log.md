@@ -1,33 +1,4 @@
   (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: Hour 10 is PROBATION per strategy_stages and today's rebuy cooldowns (MSFT/TSM/AVGO/NFLX/UNH/PEP/KO/AAPL, 7-37 min left) block the names I'd otherwise rotate into - all were sold today already. PG/ACN/HD are only 41 min held with working stops/take-profits/scale-in limits already resting (per auto_bracket), so no new action needed there. Rather than force a probation-hour buy into a name with no fresh evidence (past checks show forced PROBATION buys graded negative repeatedly), I'll wait for cooldowns to clear or a SURVIVOR-hour window, keeping existing brackets working.
-lesson: Cooling-off on 8 of today's prior buys plus PROBATION hour-10 status means there's no clean entry right now; let working stops/take-profits do their job and recheck soon rather than force a probation buy.
-portfolio: equity $25334.28 (+1.34% on $25000.00 in) · cash $17875.57 · realised +375.57
-Decision: nothing at this check. 11 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-05 10:30 ET (Monday) — week 2026-W41 — budget left $17563.16 (today $28500.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: We're at hour 10 (PROBATION) with 8 of today's candidate buys in cooldown (AVGO, NFLX, UNH, PEP, KO, AAPL) and the rest already churned heavily today (12 orders, 8 sells already, $28.5k spent). Lessons explicitly flag PROBATION-hour forced buys graded negative repeatedly, and congress-leaderboard names (CHRW, HUBB, LTH) are down huge today (CHRW -13%!) so not worth chasing despite congress tag. Existing PG/ACN/HD positions already have full bracket protection (take-profit/stop-loss) working; ACN has a buy_limit to average down at -3% and a stop at -1.23% which is reasonable. Best move is to let working orders do their job and wait for cooldowns to clear or a cleaner SURVIVOR-hour setup rather than force a probation-hour buy into cooling-off/extended names.
-lesson: Hour-10 PROBATION entries graded negative repeatedly in past lessons; with most attractive congress/momentum names either in cooldown or already extended (CHRW -13% today), standing pat and letting ACN/PG/HD brackets work is more disciplined than forcing a probation buy.
-portfolio: equity $25326.61 (+1.31% on $25000.00 in) · cash $17875.57 · realised +375.57
-Decision: nothing at this check. 11 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $145.71] -> $2504.04 (+0.16%) — close 100% at +0.2% over the average cost
-## 2026-10-05 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-05 10:45 ET (Monday) — week 2026-W41 — budget left $20067.20 (today $28500.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
@@ -398,3 +369,32 @@ lesson: When the whole book sells simultaneously on cooldown, rest buy_limits be
 ~ WORKING buy_limit $1500.00 IBM @ $222.00 until 2026-10-06 — modest momentum name, rest limit below market
 portfolio: equity $25359.13 (+1.44% on $25000.00 in) · cash $20882.28 · realised +382.28
 Decision: nothing at this check. 14 standing order(s) working.
+
+## 2026-10-06 10:26 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Hour is PROBATION, most of today's bought names (UNH, KO, PG, HD, GS, IBM, AVGO) are in 45-min cooldown from this morning's rotation, and the rest of the congress/widely-held watchlist (AAPL, MSFT, PLTR, CCJ, NLR) is sitting 80-96% of day range - exactly the setup my own lessons flag as a chase to avoid. I already have 6 buy_limit orders resting below market on IBM, NFLX, KO, UNH, GS, AVGO, HD and PG at sensible levels that will fill if a dip arrives, plus stops/take-profits on ACN and AMGN. Rather than force a fresh market buy into stretched prices, I'll let those working orders do the work and check back soon to react as cooldowns clear or fills happen.
+lesson: When the whole book just rotated out on cooldown and the remaining watchlist sits 80%+ of day range in a PROBATION hour, resting buy_limits already placed below market is correct - don't force a fresh market chase just to add position count.
+portfolio: equity $25354.41 (+1.42% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 10:36 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Both open positions (ACN, AMGN) are only ~60 min old and already have full auto-bracket protection (take-profit, stop-loss, and scale-in buy_limit working). We're below min_positions but have 7 buy_limits already resting on the book (IBM, NFLX, UNH, AVGO, GS, KO, PG) across diversified sectors, all placed at sensible discounts to current price rather than chasing names sitting 55-100% of day range right now - several of these (AVGO, KO, IBM) are still in 45-min rebuy cooldown anyway. The 10:xx hour is PROBATION, so I don't want to force fresh market chases into extended prints; letting the existing diversified limit ladder fill is the better move per the lessons on cooldown/idle-cash days.
+lesson: When below min_positions but a diversified ladder of buy_limits is already resting below market on cooldown-affected names, let it work rather than force fresh market buys into names sitting high in today's range during a PROBATION hour.
+portfolio: equity $25367.06 (+1.47% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $195.89] -> $2514.04 (+0.56%) — close 100% at +0.6% over the average cost
+## 2026-10-06 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
