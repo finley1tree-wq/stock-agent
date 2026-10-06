@@ -22453,3 +22453,16 @@ lesson: When the whole book exits simultaneously on cooldown and a full ladder o
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 11:39 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: Whole book already churned out on 45-min cooldowns this morning (11 sells today) and 11:xx hour is PROBATION. I have a full diversified ladder of 8 congress-backed buy_limits already resting below market (IBM, UNH, GS, KO, AVGO, NFLX, HD, PG) covering most of the allowed names I'd want to re-enter. Forcing fresh market buys now would mean chasing names like AAPL(77%), AMZN(98%), GOOGL(93%) that are high in day range, which the guardrails would just convert to limits anyway - the resting ladder already does this better and cheaper. Letting those limits fill as prices dip is the better move per past lessons about not chasing in PROBATION hours.
+lesson: When the whole book exits simultaneously on cooldown and a full diversified ladder of congress-backed buy_limits already rests below market in a PROBATION hour, don't force fresh market buys into high-range names - let the limits work and recheck frequently for fills/cooldown expiry.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
