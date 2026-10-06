@@ -7092,7 +7092,7 @@
    "ticker": "AMGN",
    "kind": "stop_loss",
    "price": 393.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:39",
    "created_ts": 1791293968,
    "why": "Protective stop below entry",
@@ -7101,7 +7101,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-06 11:09",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a9726ed7",
@@ -7182,7 +7184,7 @@
    "ticker": "AMGN",
    "kind": "take_profit",
    "price": 403.5626,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:39",
    "created_ts": 1791293968,
    "why": "close 100% at +0.3% over the average cost",
@@ -7192,14 +7194,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-06 11:09",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3e044b47",
    "ticker": "AMGN",
    "kind": "buy_limit",
    "price": 390.425,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:39",
    "created_ts": 1791293968,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7209,7 +7213,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-06 11:09",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f359e7fa",

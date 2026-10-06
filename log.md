@@ -22425,3 +22425,5 @@ lesson: When the book already has a diversified ladder of buy_limits resting bel
 portfolio: equity $25387.22 (+1.55% on $25000.00 in) · cash $23396.32 · realised +396.32
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% AMGN [time stop] -> $1998.16 (-0.09%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-06 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders

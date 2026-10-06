@@ -1,12 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 1925.76,
+  "spent": 0.0,
   "deployed": 60000.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 9.05,
     "KO": 2.52,
-    "AMGN": 2000.0,
+    "AMGN": 1.84,
     "PG": 0.05
   },
   "deployed_by_ticker": {
@@ -952,13 +952,33 @@
       ],
       "evidence": "average cost $194.8",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMGN",
+      "side": "sell",
+      "qty": 4.968938,
+      "status": "filled",
+      "price": 402.13,
+      "proceeds": 1998.16,
+      "realized_pnl": -1.84,
+      "realized_pct": -0.09,
+      "date": "2026-10-06",
+      "time_et": "11:09",
+      "ts": 1791299396,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.07% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 1925.76,
+  "spent_today": 0.0,
   "deployed_today": 31500.0,
   "orders_today": 11,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "NFLX",
     "TSM",
@@ -969,7 +989,8 @@
     "PG",
     "IBM",
     "KO",
-    "ACN"
+    "ACN",
+    "AMGN"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
@@ -984,10 +1005,11 @@
     "ACN": 1791297612,
     "HD": 1791294123,
     "GS": 1791294473,
-    "IBM": 1791294855
+    "IBM": 1791294855,
+    "AMGN": 1791299396
   },
-  "last_publish_ts": 1791297611,
-  "last_check_ts": 1791299295,
+  "last_publish_ts": 1791299396,
+  "last_check_ts": 1791299396,
   "exp_arm": {
     "GS": {
       "params": {
@@ -1050,15 +1072,12 @@
   "autopiloted": false,
   "book_px": {
     "9e522517": 222.0,
-    "1f45a35f": 67.3,
     "eda07d58": 895.0,
-    "b674ef79": 86.4,
-    "1c2e2497": 373.0,
     "9e27739e": 373.5,
-    "8aae915c": 393.5,
+    "b674ef79": 86.4,
+    "1f45a35f": 67.3,
+    "1c2e2497": 373.0,
     "fe52a0fb": 281.0,
-    "a28491b2": 403.5626,
-    "660c085c": 146.0,
-    "3e044b47": 390.425
+    "660c085c": 146.0
   }
 }
