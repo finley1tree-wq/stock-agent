@@ -1,16 +1,3 @@
-  (dropped trigger LMT buy_limit: duplicate of a working order)
-  (dropped trigger AMD buy_limit: duplicate of a working order)
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-05 11:51 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
 brain: All 11 prior buys today are in rebuy cooldown (45min) and the book is flat (0 positions) after everything got time-stopped out. Rather than chase names currently pinned at 85-99% of day range (AVGO, TSM, CCJ, GOOGL, META, DIA, SPY all near highs), I'm resting buy_limits below market on congress-backed and defense names to catch pullbacks without paying for an already-completed move, consistent with the max_entry_range_pct=85 guardrail and today's own lesson about cooldowns clearing fast. Will check back in 15 min to see if cooldowns clear and limits fill, then add more names to reach min_positions=8.
 lesson: When the entire book just got swept by cooldowns simultaneously, resting buy_limits below market on a mix of congress-backed and sector-diversifying names beats chasing the handful of watchlist names sitting at 85-99% of day range.
   (dropped trigger LMT buy_limit: duplicate of a working order)
@@ -395,6 +382,19 @@ Decision: nothing at this check. 8 standing order(s) working.
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
 brain: Whole book already churned out on 45-min cooldowns this morning (11 sells today) and 11:xx hour is PROBATION. I have a full diversified ladder of 8 congress-backed buy_limits already resting below market (IBM, UNH, GS, KO, AVGO, NFLX, HD, PG) covering most of the allowed names I'd want to re-enter. Forcing fresh market buys now would mean chasing names like AAPL(77%), AMZN(98%), GOOGL(93%) that are high in day range, which the guardrails would just convert to limits anyway - the resting ladder already does this better and cheaper. Letting those limits fill as prices dip is the better move per past lessons about not chasing in PROBATION hours.
 lesson: When the whole book exits simultaneously on cooldown and a full diversified ladder of congress-backed buy_limits already rests below market in a PROBATION hour, don't force fresh market buys into high-range names - let the limits work and recheck frequently for fills/cooldown expiry.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 11:55 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: Flat book, 11am hour is PROBATION (cut to 1/4 size) and already spent full weekly budget today ($31.5k vs $25k budget) via rapid rotation with near-zero net edge (realized_per_dollar 0.02%). Eight diversified buy_limits already rest below market on congress-backed names (UNH, IBM, GS, KO, NFLX, AVGO, HD, PG) per past lesson that this beats chasing fresh market entries at high-range prints in a PROBATION hour. No new market buys now - let the ladder fill at better levels; this matches the pattern that graded positively in recent checks.
+lesson: In PROBATION hours with a full ladder of congress-backed buy_limits already resting below market, do nothing new rather than force fresh market buys at high-range prints - the ladder has consistently graded positive in the journal.
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)

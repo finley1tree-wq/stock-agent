@@ -22479,3 +22479,16 @@ lesson: In PROBATION hours with a full ladder of congress-backed buy_limits alre
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 12:11 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: Already spent $31,500 today (above weekly budget) and all 11 prior buys were sold same day - book is flat with 8 congress-backed buy_limits resting below market (IBM, UNH, GS, KO, NFLX, AVGO, HD, PG), all in cooldown from recent sells. Hour 12 is PROBATION and all these names are 65-99% of day range, so fresh market buys would be chasing. Per journal lessons (12 graded days), the right move when a full ladder of congress-backed buy_limits is resting is to let it work rather than force fresh entries at high-range prints - this has repeatedly graded positive. No new budget to deploy since remaining_budget_usd reflects week but spent_today already exceeds it via rotation; wait for limits to fill or cooldowns to clear.
+lesson: When 8 congress-backed buy_limits are already resting below market across cooldown-affected names in a PROBATION hour, do nothing new and let the ladder work rather than chasing high-range prints.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
