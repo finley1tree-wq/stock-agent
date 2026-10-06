@@ -22549,3 +22549,16 @@ lesson: When the whole book sells on cooldown but a diversified congress-backed 
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 13:45 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: It's 13:45 ET, past the 14:00 cutoff is imminent but not yet hit - however current hour (13:xx) is PROBATION and the book is already at zero positions with a full ladder of 7 diversified congress-backed buy_limits resting below market (UNH, GS, KO, NFLX, HD, PG, AVGO) covering widely-held/staples names, all placed with concrete congress disclosure evidence (David J. Taylor on HD/PG, Cleo Fields on NFLX, Rulli on GS, congress_net_buy_pressure scores for KO/PG/NFLX). Past lessons consistently say: when a full ladder is resting below market in a PROBATION hour, let it work rather than chase high-range prints (AVGO 99.9%, NOC 95.6%, CCJ 95.6% all too extended per max_entry_range_pct=85). No fresh market buys now given 14:00 cutoff is 15 minutes away and all these names are high in range; the standing limits already cover the diversification need.
+lesson: At 13:45 with cutoff at 14:00 and a full diversified congress-backed buy_limit ladder already resting below market, doing nothing new and letting limits fill is consistent with repeated past-lesson confirmations - don't force market entries into names at 85-99% of day range this close to cutoff.
+portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
+Decision: nothing at this check. 7 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
