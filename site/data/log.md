@@ -1,42 +1,3 @@
-## 2026-10-05 11:17 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: 8 of 11 recently-bought names are in rebuy cooldown (PG, ACN, HD) and all were sold today at the 90-min time stop, mostly at losses (ACN -1.74%, HD -0.56%). Hour-10/11 is PROBATION per strategy_stages and past lessons repeatedly show forced PROBATION-hour entries grading negative; the remaining watchlist names (AVGO, TSM, CCJ at 96-98% of day range) are all pinned near highs which the guardrails would convert to resting limits anyway. Rather than chase, I'm keeping the two existing buy_limits (LMT, AMD) working at sensible pullback levels and waiting for cooldowns (6-31 min) to clear before redeploying into the staples that worked this morning (KO/PEP/PG pattern).
-lesson: When 3+ names are mid-cooldown and the rest of the watchlist sits above 85% of day range in a PROBATION hour, resting buy_limits below market and waiting a short interval beats forcing a chase or a probation-sized entry.
-  (dropped trigger LMT buy_limit: duplicate of a working order)
-  (dropped trigger AMD buy_limit: duplicate of a working order)
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-05 11:28 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: All 11 prior buys today (AVGO,PG,ACN,MSFT,NFLX,TSM,HD,UNH,KO,PEP,AAPL) sold already and most of their tickers plus ACN/HD are in 20-min cooldown. Hour-10/11 is PROBATION per strategy_stages, and past_lessons explicitly flag that PROBATION-hour forced entries after 10:00 ET have graded negative repeatedly. No concrete new evidence (congress/insider/news) justifies a fresh market buy right now beyond the two names I already have resting buy_limits on (LMT, AMD) which are still well above their trigger prices. Rather than chase names at 70-98% of day range (ACN, HD, TSM, AVGO all in cooldown or extended) I'll hold the existing standing orders and recheck quickly to catch a dip or cooldown clearing.
-lesson: When 8+ of the day's prior buys are simultaneously in cooldown and the hour is PROBATION, resting buy_limits below market plus a short recheck interval beats forcing a market entry into extended names.
-  (dropped trigger LMT buy_limit: duplicate of a working order)
-  (dropped trigger AMD buy_limit: duplicate of a working order)
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-05 11:35 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: All 11 prior buys today are still mid-cooldown (ACN/HD have 12 min left, others likely similar), and the hour-11 slot is PROBATION. Rather than force a probation-sized chase into names at 90%+ of day range (TSM 96.6%, AVGO 91.4%, GOOGL 94.2%, META 95.5%, DIA 94.1%, SPY 95.1%), I'm leaving the two existing buy_limits working below market (LMT, AMD) and will recheck in 15 minutes once cooldowns clear to rebuild the 8-position book with fresh entries, consistent with the lesson that forcing PROBATION-hour market buys into extended names has graded poorly.
-lesson: When 8+ cooldowns are active simultaneously in a PROBATION hour and most watchlist names sit above 85% of day range, hold working buy_limits and wait a short interval rather than force new entries - cooldowns clear fast and better entries follow.
   (dropped trigger LMT buy_limit: duplicate of a working order)
   (dropped trigger AMD buy_limit: duplicate of a working order)
 portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
@@ -398,3 +359,42 @@ Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AMGN [time stop] -> $1998.16 (-0.09%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-06 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-06 11:14 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Book is flat (0 positions) after a wave of cooldown sells; AVGO/GS/UNH/KO/NFLX/HD/PG/IBM all have buy_limits already resting below market at sensible levels (0.5-1.8% below current price), sized $1.5-2.5k each and tagged with congress/news/momentum evidence consistent with what's worked this session (congress signal avg_pct +0.38 in counterfactual). ACN and AMGN are in cooldown (11 and 41 min left) so can't rebuy yet. Rather than chase names sitting 60-99% of day range (AVGO 97%, KO 99%, HD 99%, NFLX 99.5%) with fresh market orders in a PROBATION hour (11:xx), I'll let the existing ladder of 7 limits work - this matches the repeated lesson from 10/05-10/06 that resting limits beat forcing market chases right after a simultaneous cooldown wave. Will check back quickly (15 min) to see if any limits filled or need adjustment toward min_positions=8.
+lesson: When the whole book exits simultaneously on cooldown and 7 diversified buy_limits are already resting below market at 0.5-1.8% discounts with solid signals, let them work rather than chase fresh market entries into names at 60-99% of day range during a PROBATION hour.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 11:29 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Book is flat (0 positions) after today's 11 cooldown-driven sells, and 8 diversified congress-backed buy_limits are already resting below market across KO, PG, HD, GS, AVGO, NFLX, IBM, UNH - all placed at sensible discounts (0.5-1.9% below last) rather than chasing names sitting 60-97% of today's range. 11:29 ET is a PROBATION hour per strategy_stages, and journal lessons from this exact pattern (whole book cycles out simultaneously) repeatedly show that forcing fresh market buys into high-range prints underperforms letting the resting ladder fill. AMGN is in cooldown for 26 more minutes so it's excluded from new orders; no new money needed now since the existing 8 limits cover min_positions once cooldowns clear and fills trigger.
+lesson: When the whole book exits simultaneously on cooldown and a full ladder of congress-backed buy_limits is already resting below market in a PROBATION hour, do nothing new at the check - let the limits do the work rather than chasing high-range prints.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 11:39 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: Whole book already churned out on 45-min cooldowns this morning (11 sells today) and 11:xx hour is PROBATION. I have a full diversified ladder of 8 congress-backed buy_limits already resting below market (IBM, UNH, GS, KO, AVGO, NFLX, HD, PG) covering most of the allowed names I'd want to re-enter. Forcing fresh market buys now would mean chasing names like AAPL(77%), AMZN(98%), GOOGL(93%) that are high in day range, which the guardrails would just convert to limits anyway - the resting ladder already does this better and cheaper. Letting those limits fill as prices dip is the better move per past lessons about not chasing in PROBATION hours.
+lesson: When the whole book exits simultaneously on cooldown and a full diversified ladder of congress-backed buy_limits already rests below market in a PROBATION hour, don't force fresh market buys into high-range names - let the limits work and recheck frequently for fills/cooldown expiry.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
