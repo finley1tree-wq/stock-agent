@@ -1,6 +1,3 @@
-- BUY $2000.00 NFLX [filled] ['congress', 'momentum'] — Already hold small position; congress buy pressure plus low position in day range (35.7% of range) supports adding size with existing stops in place | evidence: Rep. Cleo Fields disclosed a buy of NFLX ($1,001-$15,000, disclosed 2026-10-01), congress_net_buy_pressure +2
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING buy_limit $2000.00 AMD @ $615.00 until 2026-10-05 — Congress-backed name with strong historical excess return per disclosure_leaderboard; wait for pullback rather than pay top-of-range price
 ~ WORKING buy_limit $2000.00 LMT @ $497.00 until 2026-10-05 — Defense sector diversification away from tech cluster at a level not chasing the day's move
 ~ WORKING buy_limit $2000.00 UNH @ $370.50 until 2026-10-05 — Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point
 ~ WORKING buy_limit $500.00 NFLX @ $65.03 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
 ## 2026-10-06 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $3500.00 PG [buy_limit @ $147.89] — wanted it, but not at the high — resting at $147.89. Congress pressure plus +1.75% today momentum confirming
 ## 2026-10-06 09:47 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $901.44] -> $3508.65 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-06 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

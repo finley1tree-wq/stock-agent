@@ -22316,3 +22316,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
 ## 2026-10-06 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $3500.00 PG [buy_limit @ $147.89] — wanted it, but not at the high — resting at $147.89. Congress pressure plus +1.75% today momentum confirming
 ## 2026-10-06 09:47 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $901.44] -> $3508.65 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-06 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
