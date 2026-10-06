@@ -22308,3 +22308,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $366.87] -> $4513.15 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-06 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $284.40] -> $2004.86 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-06 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

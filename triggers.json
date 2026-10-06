@@ -6945,7 +6945,7 @@
    "ticker": "HD",
    "kind": "stop_loss",
    "price": 276.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:32",
    "created_ts": 1791293564,
    "why": "Protective stop ~2.5% below entry",
@@ -6954,7 +6954,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-06",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-06 09:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b44c5dc2",
@@ -7175,7 +7177,7 @@
    "ticker": "HD",
    "kind": "take_profit",
    "price": 284.3966,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-06 09:32",
    "created_ts": 1791293564,
    "why": "close 100% at +0.2% over the average cost",
@@ -7185,14 +7187,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-06 09:42"
   },
   {
    "id": "d1dd7c57",
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 275.1987,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:32",
    "created_ts": 1791293564,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7202,7 +7205,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-06 09:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4b2cc6e1",
@@ -7406,5 +7411,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-06 09:40"
+ "updated": "2026-10-06 09:42"
 }
