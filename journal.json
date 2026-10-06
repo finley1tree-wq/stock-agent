@@ -54126,5 +54126,61 @@
     "trigger": "take_profit",
     "hour_et": 9,
     "code_version": "22d048e"
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 6.208396,
+    "status": "filled",
+    "price": 484.34,
+    "proceeds": 3006.95,
+    "realized_pnl": 6.95,
+    "realized_pct": 0.23,
+    "date": "2026-10-06",
+    "time_et": "09:36",
+    "ts": 1791293700,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $483.22",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "01d511b"
+  },
+  {
+    "symbol": "KO",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 23.093088,
+    "price": 86.61,
+    "date": "2026-10-06",
+    "time_et": "09:36",
+    "ts": 1791293700,
+    "why": "wanted it, but not at the high \u2014 resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early",
+    "signals": [
+      "congress",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "congress_net_buy_pressure KO=1.0; past_lessons_with_outcome notes KO/PEP staples bought low day-range at 09:xx outperformed (+1.57% that check)",
+    "trigger": "buy_limit",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 86.606,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -1.66,
+    "hour_et": 9,
+    "code_version": "01d511b",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

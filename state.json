@@ -1,13 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 15481.82,
-  "deployed": 48000.0,
+  "spent": 14474.87,
+  "deployed": 50000.0,
   "by_ticker": {
     "ACN": 2543.61,
     "HD": 2013.91,
     "AVGO": 4500.0,
     "GS": 3500.0,
-    "TSM": 3000.0
+    "KO": 2000.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -18,7 +18,7 @@
     "TSM": 5500.0,
     "HD": 4500.0,
     "UNH": 2000.0,
-    "KO": 2000.0,
+    "KO": 4000.0,
     "PEP": 2000.0,
     "AAPL": 2500.0,
     "GS": 3500.0
@@ -653,19 +653,64 @@
       ],
       "evidence": "average cost $67.45",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.208396,
+      "status": "filled",
+      "price": 484.34,
+      "proceeds": 3006.95,
+      "realized_pnl": 6.95,
+      "realized_pct": 0.23,
+      "date": "2026-10-06",
+      "time_et": "09:36",
+      "ts": 1791293700,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $483.22",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "KO",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.093088,
+      "price": 86.61,
+      "date": "2026-10-06",
+      "time_et": "09:36",
+      "ts": 1791293700,
+      "why": "wanted it, but not at the high \u2014 resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early",
+      "signals": [
+        "congress",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "congress_net_buy_pressure KO=1.0; past_lessons_with_outcome notes KO/PEP staples bought low day-range at 09:xx outperformed (+1.57% that check)",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 15481.82,
-  "deployed_today": 19500.0,
-  "orders_today": 6,
-  "sells_today": 1,
+  "spent_today": 14474.87,
+  "deployed_today": 21500.0,
+  "orders_today": 7,
+  "sells_today": 2,
   "sold_today": [
-    "NFLX"
+    "NFLX",
+    "TSM"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
-    "TSM": 1791207397,
+    "TSM": 1791293799,
     "AVGO": 1791207950,
     "NFLX": 1791293713,
     "UNH": 1791208808,
@@ -676,8 +721,8 @@
     "ACN": 1791212592,
     "HD": 1791212592
   },
-  "last_publish_ts": 1791293713,
-  "last_check_ts": 1791293713,
+  "last_publish_ts": 1791293798,
+  "last_check_ts": 1791293798,
   "exp_arm": {
     "AVGO": {
       "params": {
@@ -688,15 +733,6 @@
         "ratchet": "off"
       }
     },
-    "NFLX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "GS": {
       "params": {
         "hold_minutes": 90,
@@ -704,15 +740,6 @@
       },
       "tags": {
         "ratchet": "on"
-      }
-    },
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
       }
     },
     "ACN": {
@@ -732,6 +759,15 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "KO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791293700,
@@ -739,21 +775,20 @@
   "next_check_minutes": 6,
   "autopiloted": false,
   "book_px": {
-    "0917c935": 86.606,
-    "3383e575": 484.3362,
-    "5823c259": 195.8928,
-    "f439ef7d": 284.3966,
     "4328f896": 901.4411,
-    "b44c5dc2": 147.8882,
+    "4b2cc6e1": 86.7399,
+    "f439ef7d": 284.3966,
     "7a844cab": 366.8718,
+    "5823c259": 195.8928,
+    "351b53d0": 86.306,
+    "b44c5dc2": 147.8882,
     "7afbbad9": 358.4,
-    "0fdee79d": 877.0,
     "b388dc66": 276.5,
+    "0fdee79d": 877.0,
+    "5a32e355": 84.0117,
     "8a0078f3": 354.826,
-    "79e3adb7": 471.0,
-    "1d3eac55": 872.2434,
     "d1dd7c57": 275.1987,
-    "3d3a41b4": 468.7234,
+    "1d3eac55": 872.2434,
     "2205915b": 188.956,
     "65c4c014": 188.5
   }

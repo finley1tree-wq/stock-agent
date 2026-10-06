@@ -22275,3 +22275,7 @@ Done: 0 sell(s), 6 buy(s); 20 order(s) working; budget left $5500.00 this week
   (cancelled 2 standing order(s) on NFLX: position closed)
 - SELL 100% NFLX [take_profit @ $67.76] -> $4018.18 (+0.45%) — close 100% at +0.3% over the average cost
 ## 2026-10-06 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $484.34] -> $3006.95 (+0.23%) — close 100% at +0.2% over the average cost
+- BUY $2000.00 KO [buy_limit @ $86.61] — wanted it, but not at the high — resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early
+## 2026-10-06 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
