@@ -1,6 +1,3 @@
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: Below min_positions (5 of 8) with 48% cash idle - need more names. I'm adding to NFLX (congress signal from Cleo Fields, already protected by auto_bracket stops) and placing buy_limit triggers on AMD, LMT, UNH at levels below current price to avoid chasing extended ranges (AMD at 86.6% of range, so resting limit per guardrails) while diversifying into defense and healthcare sectors away from the existing tech/consumer cluster. Congress signal has shown best counterfactual avg_pct (+0.39%) per past lesson, so weighting toward congress-backed names (AMD via Rep. Allen, NFLX via Rep. Fields) while avoiding momentum-only entries per guardrail.
 lesson: Congress-signal entries have outperformed in counterfactual tracking (+0.39% avg) - prioritize named congress disclosures with leaderboard track records over momentum-only adds, and use buy_limit resting orders for names already high in day range rather than chasing at market.
   (dropped TSM: sold 7 min ago, cooling off)
 - BUY $2000.00 NFLX [filled] ['congress', 'momentum'] — Already hold small position; congress buy pressure plus low position in day range (35.7% of range) supports adding size with existing stops in place | evidence: Rep. Cleo Fields disclosed a buy of NFLX ($1,001-$15,000, disclosed 2026-10-01), congress_net_buy_pressure +2
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $284.40] -> $2004.86 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-06 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $379.31] -> $2505.30 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-10-06 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

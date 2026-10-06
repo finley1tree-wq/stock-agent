@@ -1,13 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 14456.86,
+  "spent": 11951.56,
   "deployed": 56500.0,
   "by_ticker": {
     "ACN": 2543.61,
     "HD": 9.05,
     "GS": 3500.0,
     "KO": 2000.0,
-    "UNH": 2500.0,
     "IBM": 2000.0,
     "AMGN": 2000.0
   },
@@ -805,25 +804,47 @@
       ],
       "evidence": "average cost $283.71",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 6.604921,
+      "status": "filled",
+      "price": 379.31,
+      "proceeds": 2505.3,
+      "realized_pnl": 5.3,
+      "realized_pct": 0.21,
+      "date": "2026-10-06",
+      "time_et": "09:44",
+      "ts": 1791294000,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $378.51",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 14456.86,
+  "spent_today": 11951.56,
   "deployed_today": 28000.0,
   "orders_today": 10,
-  "sells_today": 4,
+  "sells_today": 5,
   "sold_today": [
     "NFLX",
     "TSM",
     "AVGO",
-    "HD"
+    "HD",
+    "UNH"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
     "TSM": 1791293799,
     "AVGO": 1791294032,
     "NFLX": 1791293713,
-    "UNH": 1791208808,
+    "UNH": 1791294299,
     "PEP": 1791208891,
     "KO": 1791209054,
     "AAPL": 1791209185,
@@ -831,8 +852,8 @@
     "ACN": 1791212592,
     "HD": 1791294123
   },
-  "last_publish_ts": 1791294122,
-  "last_check_ts": 1791294257,
+  "last_publish_ts": 1791294297,
+  "last_check_ts": 1791294344,
   "exp_arm": {
     "AVGO": {
       "params": {
@@ -907,29 +928,26 @@
       }
     }
   },
-  "last_bar_ts": 1791294000,
+  "last_bar_ts": 1791294300,
   "last_decision_ts": 1791293968,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "a9726ed7": 379.3087,
-    "4b2cc6e1": 86.7399,
+    "351b53d0": 86.306,
     "4328f896": 901.4411,
     "552c31cb": 223.6879,
-    "351b53d0": 86.306,
-    "b44c5dc2": 147.8882,
+    "4b2cc6e1": 86.7399,
     "a28491b2": 403.5626,
+    "b44c5dc2": 147.8882,
     "5823c259": 195.8928,
-    "5caf0547": 373.5,
     "b7437b3d": 219.2,
     "8aae915c": 393.5,
     "0fdee79d": 877.0,
     "2205915b": 188.956,
-    "3e044b47": 390.425,
-    "5a32e355": 84.0117,
     "65c4c014": 188.5,
+    "5a32e355": 84.0117,
+    "3e044b47": 390.425,
     "1d3eac55": 872.2434,
-    "8cf92f48": 216.3585,
-    "29846d76": 367.1547
+    "8cf92f48": 216.3585
   }
 }
