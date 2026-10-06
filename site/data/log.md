@@ -1,6 +1,3 @@
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-05 12:39 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
   (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - BUY $375.00 IBM [buy_limit @ $222.00] — modest momentum name, rest limit below market [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-06 12:50 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $222.64] -> $376.09 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-06 12:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders

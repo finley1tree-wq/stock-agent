@@ -22520,3 +22520,19 @@ Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - BUY $375.00 IBM [buy_limit @ $222.00] — modest momentum name, rest limit below market [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-06 12:50 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $222.64] -> $376.09 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-06 12:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-06 12:59 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: Book is flat (sold entirely this morning due to cooldown rotation) with a full ladder of 7 congress-backed buy_limits already resting 0.3-1.7% below market on UNH, GS, KO, NFLX, AVGO, PG, HD - exactly the diversified set the journal rewards. We're in a PROBATION hour (12:xx) where fresh market chases into names at 70-98% of day range (AVGO 90%, HD 85%, ACN 71%) have graded worse than letting resting limits fill at better levels. IBM is still in cooldown (45min left). Rather than force a market buy now, I'll let the ladder work and check back soon to see if any limits filled or need adjustment.
+lesson: In PROBATION hours with a full diversified ladder of congress-backed buy_limits already resting below market, don't force fresh market buys into names sitting high in day range - let limits fill at better entries as the journal consistently shows this beats chasing.
+portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
+Decision: nothing at this check. 7 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

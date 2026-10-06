@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-06T12:50-04:00",
+ "asOf": "2026-10-06T12:59-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,20 +178,19 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "224974b0",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 222.6438,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "9e27739e",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 373.5,
+   "usd": 2000.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 222.18,
-   "pct_away": 0.21,
-   "good_until": "2026-10-11",
-   "why": "close 100% at +0.3% over the average cost",
+   "last": 374.51,
+   "pct_away": -0.27,
+   "good_until": "2026-10-06",
+   "why": "low in range, wait for dip entry rather than chase",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress"
    ]
   },
   {
@@ -202,26 +201,10 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 898.27,
+   "last": 898.26,
    "pct_away": -0.36,
    "good_until": "2026-10-06",
    "why": "congress-backed, GS at 97% of range so resting limit below market",
-   "signals": [
-    "congress"
-   ]
-  },
-  {
-   "id": "9e27739e",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 373.5,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 374.98,
-   "pct_away": -0.39,
-   "good_until": "2026-10-06",
-   "why": "low in range, wait for dip entry rather than chase",
    "signals": [
     "congress"
    ]
@@ -234,29 +217,12 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 87.07,
-   "pct_away": -0.77,
+   "last": 87.08,
+   "pct_away": -0.78,
    "good_until": "2026-10-06",
    "why": "congress staple, rest limit slightly below current 86.82",
    "signals": [
     "congress"
-   ]
-  },
-  {
-   "id": "51e5d633",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 220.3883,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 222.18,
-   "pct_away": -0.81,
-   "good_until": "2026-10-11",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -267,8 +233,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 67.91,
-   "pct_away": -0.9,
+   "last": 67.97,
+   "pct_away": -0.99,
    "good_until": "2026-10-06",
    "why": "congress pressure plus pullback entry below current 67.76",
    "signals": [
@@ -284,29 +250,13 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 378.24,
-   "pct_away": -1.39,
+   "last": 377.67,
+   "pct_away": -1.24,
    "good_until": "2026-10-06",
    "why": "re-enter AVGO once cooldown clears at better level than current top-of-range print",
    "signals": [
     "momentum",
     "news"
-   ]
-  },
-  {
-   "id": "fe52a0fb",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 281.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 286.28,
-   "pct_away": -1.84,
-   "good_until": "2026-10-06",
-   "why": "congress-backed name, rest below current price to avoid chasing high-range print",
-   "signals": [
-    "congress"
    ]
   },
   {
@@ -317,8 +267,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.08,
-   "pct_away": -2.07,
+   "last": 148.33,
+   "pct_away": -1.57,
    "good_until": "2026-10-06",
    "why": "congress pressure, PG at 32% of range already reasonable, slight limit below for better entry",
    "signals": [
@@ -326,20 +276,19 @@
    ]
   },
   {
-   "id": "a27705f6",
-   "ticker": "IBM",
+   "id": "fe52a0fb",
+   "ticker": "HD",
    "kind": "buy_limit",
-   "price": 215.34,
-   "usd": 500.0,
+   "price": 281.0,
+   "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 222.18,
-   "pct_away": -3.08,
-   "good_until": "2026-10-11",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 285.98,
+   "pct_away": -1.74,
+   "good_until": "2026-10-06",
+   "why": "congress-backed name, rest below current price to avoid chasing high-range print",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress"
    ]
   }
  ],
