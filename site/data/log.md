@@ -1,29 +1,3 @@
-~ WORKING stop_loss 100% MSFT @ $517.00 until 2026-10-05 — Protect capital below recent support
-~ WORKING stop_loss 100% NFLX @ $65.50 until 2026-10-05 — Protect capital on NFLX position
-~ WORKING stop_loss 100% TSM @ $470.00 until 2026-10-05 — Protect capital on TSM position
-~ WORKING stop_loss 100% HD @ $276.50 until 2026-10-05 — Protect capital on HD position
-~ WORKING buy_limit $2500.00 AAPL @ $333.59 until 2026-10-05 — wanted it, but not at the high — resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position
-~ WORKING take_profit 100% AVGO @ $358.83 until 2026-10-10 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $347.04 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PG @ $145.71 until 2026-10-10 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 PG @ $141.12 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ACN @ $199.94 until 2026-10-10 — close 100% at +0.6% over the average cost
-~ WORKING buy_limit $500.00 ACN @ $192.87 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $528.30 until 2026-10-10 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 MSFT @ $511.17 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NFLX @ $67.29 until 2026-10-10 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NFLX @ $65.08 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $480.33 until 2026-10-10 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $464.88 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $283.35 until 2026-10-10 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $274.17 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25308.82 (+1.24% on $25000.00 in) · cash $7312.42 · realised +312.42
-Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $7000.00 this week
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $528.30] -> $2506.30 (+0.25%) — close 100% at +0.3% over the average cost
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $480.33] -> $2505.62 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-10-05 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-05 09:43 ET (Monday) — week 2026-W41 — budget left $12011.92 (today $18000.00 put to work, 7 buys, 2 sells) — SIM (pretend money) via sim
   (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
@@ -398,3 +372,29 @@ Done: 0 sell(s), 6 buy(s); 20 order(s) working; budget left $5500.00 this week
 - SELL 100% TSM [take_profit @ $484.34] -> $3006.95 (+0.23%) — close 100% at +0.2% over the average cost
 - BUY $2000.00 KO [buy_limit @ $86.61] — wanted it, but not at the high — resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early
 ## 2026-10-06 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-06 09:39 ET (Tuesday) — week 2026-W41 — budget left $10525.13 (today $21500.00 put to work, 7 buys, 2 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Below min_positions (5 of 8) with 42% cash idle - need to deploy. Added UNH, PEP, IBM, AMGN at mid-range entries (30-47% of day range, not chasing) backed by congress disclosures (AMGN via Rep. David Taylor) and widely_held sector track record. Avoided NFLX/TSM due to 42min cooldown. Kept position sizes at $2000-2500 per guardrails, set protective stops on all new entries per risk_management signal which has 0.88 hit rate historically.
+lesson: Congress-disclosure-backed buys at low/mid day-range during SURVIVOR 09:xx hour continue to show positive journal outcomes - keep this as the primary entry filter over momentum-only chases, and always pair with a protective stop_loss trigger immediately.
+  (dropped PEP: not in allowed list)
+- BUY $2500.00 UNH [filled] ['congress', 'track_record'] — Diversify into widely_held name at mid-range entry, SURVIVOR 09:xx hour, avoids chasing extended names | evidence: Kevin Hern disclosed large UNH sell Sept10 but congress_net_buy_pressure not listed; UNH widely_held sector avg_ret_pct 0.00 n=462; pct_of_day_range 35.9 (mid-low), atr modest 1.9%
+- BUY $2000.00 IBM [filled] ['momentum', 'track_record'] — Add diversified widely_held name at mid-range, not chasing | evidence: IBM pct_of_day_range 47.2, change_1d +0.65%, widely_held sector
+- BUY $2000.00 AMGN [filled] ['congress'] — Congress-backed buy at mid-range entry (30.1% of day range), SURVIVOR hour | evidence: David J. Taylor (Rep) disclosed AMGN buy 2026-09-22, congress_net_buy_pressure AMGN=1.0
+  (dropped trigger PEP stop_loss: not held)
+~ WORKING stop_loss 100% UNH @ $373.50 until 2026-10-06 — Protect new position per standard risk management
+~ WORKING stop_loss 100% IBM @ $219.20 until 2026-10-06 — Protective stop below entry
+~ WORKING stop_loss 100% AMGN @ $393.50 until 2026-10-06 — Protective stop below entry
+~ WORKING take_profit 100% UNH @ $379.31 until 2026-10-11 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $367.15 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $223.69 until 2026-10-11 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $216.36 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMGN @ $403.56 until 2026-10-11 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AMGN @ $390.43 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25345.56 (+1.38% on $25000.00 in) · cash $4347.22 · realised +347.22
+Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week

@@ -1,174 +1,6 @@
 {
  "orders": [
   {
-   "id": "e6340ad5",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 257.6611,
-   "status": "cancelled",
-   "created": "2026-09-30 13:18",
-   "created_ts": 1790788726,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $265.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 13:21",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "539b4c71",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 257.4283,
-   "status": "cancelled",
-   "created": "2026-09-30 13:21",
-   "created_ts": 1790788865,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $265.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 13:53",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "52eb5f53",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 459.5494,
-   "status": "cancelled",
-   "created": "2026-09-30 13:21",
-   "created_ts": 1790788865,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $458.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 13:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b7c0143d",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 455.6664,
-   "status": "cancelled",
-   "created": "2026-09-30 13:21",
-   "created_ts": 1790788865,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $458.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 13:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "50d9761e",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 444.6868,
-   "status": "cancelled",
-   "created": "2026-09-30 13:21",
-   "created_ts": 1790788865,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $458.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 500.0,
-   "closed": "2026-09-30 13:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "1ef30657",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 265.912,
-   "status": "filled",
-   "created": "2026-09-30 13:48",
-   "created_ts": 1790790538,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $265.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-09-30 13:53"
-  },
-  {
-   "id": "a9f4eb10",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 213.5,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "Protect against reversal of today's earnings gap",
-   "evidence": "ATR 4.36%, entry near 221.55",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "09b45e1c",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 444.0,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "Standard protective stop",
-   "evidence": "ATR 2.53%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c0a89d61",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 230.9599,
-   "status": "filled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "wanted it, but not at the high \u2014 resting at $230.96. Strong news-driven breakout on concrete product news, though high in range so sizing conservative",
-   "evidence": "IBM +5.67% today, 'IBM Jumps 5% as Bob Coding Agent Gains Self-Hosted Deployment' headline, pct_of_day_range 99.7",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 4000.0,
-   "closed": "2026-10-01 09:39"
-  },
-  {
    "id": "55d4a34c",
    "ticker": "CCJ",
    "kind": "buy_limit",
@@ -7417,7 +7249,157 @@
    ],
    "good_until": "2026-10-11",
    "usd": 500.0
+  },
+  {
+   "id": "5caf0547",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 373.5,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "Protect new position per standard risk management",
+   "evidence": "UNH price 378.43, atr_pct 1.9%, protective stop ~1.3% below",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b7437b3d",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 219.2,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "Protective stop below entry",
+   "evidence": "IBM price 223.01, atr_pct 2.6%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8aae915c",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 393.5,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "Protective stop below entry",
+   "evidence": "AMGN price 402.42, atr_pct 2.4%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-06",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a9726ed7",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 379.3087,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $378.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "29846d76",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 367.1547,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $378.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "usd": 500.0
+  },
+  {
+   "id": "552c31cb",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 223.6879,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $223.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8cf92f48",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 216.3585,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $223.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "usd": 500.0
+  },
+  {
+   "id": "a28491b2",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 403.5626,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $402.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3e044b47",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 390.425,
+   "status": "working",
+   "created": "2026-10-06 09:39",
+   "created_ts": 1791293968,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $402.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-06 09:36"
+ "updated": "2026-10-06 09:39"
 }

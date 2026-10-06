@@ -1,13 +1,16 @@
 {
   "week": "2026-W41",
-  "spent": 14474.87,
-  "deployed": 50000.0,
+  "spent": 20974.87,
+  "deployed": 56500.0,
   "by_ticker": {
     "ACN": 2543.61,
     "HD": 2013.91,
     "AVGO": 4500.0,
     "GS": 3500.0,
-    "KO": 2000.0
+    "KO": 2000.0,
+    "UNH": 2500.0,
+    "IBM": 2000.0,
+    "AMGN": 2000.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -17,11 +20,13 @@
     "NFLX": 8500.0,
     "TSM": 5500.0,
     "HD": 4500.0,
-    "UNH": 2000.0,
+    "UNH": 4500.0,
     "KO": 4000.0,
     "PEP": 2000.0,
     "AAPL": 2500.0,
-    "GS": 3500.0
+    "GS": 3500.0,
+    "IBM": 2000.0,
+    "AMGN": 2000.0
   },
   "orders": [
     {
@@ -697,12 +702,74 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "UNH",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.604921,
+      "price": 378.51,
+      "date": "2026-10-06",
+      "time_et": "09:39",
+      "ts": 1791293968,
+      "why": "Diversify into widely_held name at mid-range entry, SURVIVOR 09:xx hour, avoids chasing extended names",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Kevin Hern disclosed large UNH sell Sept10 but congress_net_buy_pressure not listed; UNH widely_held sector avg_ret_pct 0.00 n=462; pct_of_day_range 35.9 (mid-low), atr modest 1.9%",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "IBM",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.966414,
+      "price": 223.05,
+      "date": "2026-10-06",
+      "time_et": "09:39",
+      "ts": 1791293968,
+      "why": "Add diversified widely_held name at mid-range, not chasing",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "IBM pct_of_day_range 47.2, change_1d +0.65%, widely_held sector",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.968938,
+      "price": 402.5,
+      "date": "2026-10-06",
+      "time_et": "09:39",
+      "ts": 1791293968,
+      "why": "Congress-backed buy at mid-range entry (30.1% of day range), SURVIVOR hour",
+      "signals": [
+        "congress"
+      ],
+      "evidence": "David J. Taylor (Rep) disclosed AMGN buy 2026-09-22, congress_net_buy_pressure AMGN=1.0",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 14474.87,
-  "deployed_today": 21500.0,
-  "orders_today": 7,
+  "spent_today": 20974.87,
+  "deployed_today": 28000.0,
+  "orders_today": 10,
   "sells_today": 2,
   "sold_today": [
     "NFLX",
@@ -721,8 +788,8 @@
     "ACN": 1791212592,
     "HD": 1791212592
   },
-  "last_publish_ts": 1791293798,
-  "last_check_ts": 1791293884,
+  "last_publish_ts": 1791293968,
+  "last_check_ts": 1791293968,
   "exp_arm": {
     "AVGO": {
       "params": {
@@ -768,28 +835,64 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "UNH": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "IBM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791293700,
-  "last_decision_ts": 1791293564,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1791293968,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "4328f896": 901.4411,
-    "4b2cc6e1": 86.7399,
-    "f439ef7d": 284.3966,
     "7a844cab": 366.8718,
-    "5823c259": 195.8928,
     "351b53d0": 86.306,
+    "a9726ed7": 379.3087,
+    "a28491b2": 403.5626,
+    "552c31cb": 223.6879,
+    "4b2cc6e1": 86.7399,
+    "4328f896": 901.4411,
+    "f439ef7d": 284.3966,
     "b44c5dc2": 147.8882,
+    "5823c259": 195.8928,
+    "5caf0547": 373.5,
+    "b7437b3d": 219.2,
+    "8aae915c": 393.5,
     "7afbbad9": 358.4,
-    "b388dc66": 276.5,
     "0fdee79d": 877.0,
-    "5a32e355": 84.0117,
-    "8a0078f3": 354.826,
+    "b388dc66": 276.5,
     "d1dd7c57": 275.1987,
+    "5a32e355": 84.0117,
     "1d3eac55": 872.2434,
+    "29846d76": 367.1547,
+    "8cf92f48": 216.3585,
+    "3e044b47": 390.425,
     "2205915b": 188.956,
-    "65c4c014": 188.5
+    "65c4c014": 188.5,
+    "8a0078f3": 354.826
   }
 }

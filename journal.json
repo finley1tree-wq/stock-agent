@@ -53958,7 +53958,8 @@
     "hour_et": 9,
     "code_version": "8d578de",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.3
   },
   {
     "symbol": "NFLX",
@@ -53987,7 +53988,10 @@
     "hour_et": 9,
     "code_version": "8d578de",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.45,
+    "ret_now": 0.45,
+    "ret_src": "realised"
   },
   {
     "symbol": "GS",
@@ -54015,7 +54019,8 @@
     "hour_et": 9,
     "code_version": "8d578de",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.15
   },
   {
     "symbol": "TSM",
@@ -54044,7 +54049,10 @@
     "hour_et": 9,
     "code_version": "8d578de",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.23,
+    "ret_now": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -54072,7 +54080,8 @@
     "hour_et": 9,
     "code_version": "8d578de",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.02
   },
   {
     "symbol": "HD",
@@ -54100,7 +54109,8 @@
     "hour_et": 9,
     "code_version": "8d578de",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.17
   },
   {
     "symbol": "NFLX",
@@ -54125,7 +54135,8 @@
     "evidence": "average cost $67.45",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "22d048e"
+    "code_version": "22d048e",
+    "hold_minutes": 2
   },
   {
     "symbol": "TSM",
@@ -54150,7 +54161,8 @@
     "evidence": "average cost $483.22",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "01d511b"
+    "code_version": "01d511b",
+    "hold_minutes": 2
   },
   {
     "symbol": "KO",
@@ -54180,6 +54192,93 @@
     "momentum_1m_at_entry": -1.66,
     "hour_et": 9,
     "code_version": "01d511b",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.17
+  },
+  {
+    "symbol": "UNH",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.604921,
+    "price": 378.51,
+    "date": "2026-10-06",
+    "time_et": "09:39",
+    "ts": 1791293968,
+    "why": "Diversify into widely_held name at mid-range entry, SURVIVOR 09:xx hour, avoids chasing extended names",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Kevin Hern disclosed large UNH sell Sept10 but congress_net_buy_pressure not listed; UNH widely_held sector avg_ret_pct 0.00 n=462; pct_of_day_range 35.9 (mid-low), atr modest 1.9%",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 378.43,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -4.71,
+    "hour_et": 9,
+    "code_version": "d41841f",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.966414,
+    "price": 223.05,
+    "date": "2026-10-06",
+    "time_et": "09:39",
+    "ts": 1791293968,
+    "why": "Add diversified widely_held name at mid-range, not chasing",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "IBM pct_of_day_range 47.2, change_1d +0.65%, widely_held sector",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 223.01,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -5.06,
+    "hour_et": 9,
+    "code_version": "d41841f",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMGN",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.968938,
+    "price": 402.5,
+    "date": "2026-10-06",
+    "time_et": "09:39",
+    "ts": 1791293968,
+    "why": "Congress-backed buy at mid-range entry (30.1% of day range), SURVIVOR hour",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "David J. Taylor (Rep) disclosed AMGN buy 2026-09-22, congress_net_buy_pressure AMGN=1.0",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 402.42,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -7.96,
+    "hour_et": 9,
+    "code_version": "d41841f",
     "ret_1w": null,
     "ret_1m": null
   }
