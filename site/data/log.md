@@ -1,6 +1,3 @@
-
-## 2026-10-05 09:43 ET (Monday) — week 2026-W41 — budget left $12011.92 (today $18000.00 put to work, 7 buys, 2 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
   (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
@@ -398,3 +395,6 @@ lesson: Congress-disclosure-backed buys at low/mid day-range during SURVIVOR 09:
 ~ WORKING buy_limit $500.00 AMGN @ $390.43 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25345.56 (+1.38% on $25000.00 in) · cash $4347.22 · realised +347.22
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $366.87] -> $4513.15 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-06 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -22305,3 +22305,6 @@ lesson: Congress-disclosure-backed buys at low/mid day-range during SURVIVOR 09:
 ~ WORKING buy_limit $500.00 AMGN @ $390.43 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25345.56 (+1.38% on $25000.00 in) · cash $4347.22 · realised +347.22
 Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $366.87] -> $4513.15 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-06 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
