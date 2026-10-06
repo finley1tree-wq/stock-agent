@@ -22383,3 +22383,16 @@ lesson: When the whole book just rotated out on cooldown and the remaining watch
 portfolio: equity $25354.41 (+1.42% on $25000.00 in) · cash $20882.28 · realised +382.28
 Decision: nothing at this check. 14 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 10:36 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Both open positions (ACN, AMGN) are only ~60 min old and already have full auto-bracket protection (take-profit, stop-loss, and scale-in buy_limit working). We're below min_positions but have 7 buy_limits already resting on the book (IBM, NFLX, UNH, AVGO, GS, KO, PG) across diversified sectors, all placed at sensible discounts to current price rather than chasing names sitting 55-100% of day range right now - several of these (AVGO, KO, IBM) are still in 45-min rebuy cooldown anyway. The 10:xx hour is PROBATION, so I don't want to force fresh market chases into extended prints; letting the existing diversified limit ladder fill is the better move per the lessons on cooldown/idle-cash days.
+lesson: When below min_positions but a diversified ladder of buy_limits is already resting below market on cooldown-affected names, let it work rather than force fresh market buys into names sitting high in today's range during a PROBATION hour.
+portfolio: equity $25367.06 (+1.47% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
