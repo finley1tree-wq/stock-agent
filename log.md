@@ -22427,3 +22427,16 @@ Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% AMGN [time stop] -> $1998.16 (-0.09%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-06 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-06 11:14 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Book is flat (0 positions) after a wave of cooldown sells; AVGO/GS/UNH/KO/NFLX/HD/PG/IBM all have buy_limits already resting below market at sensible levels (0.5-1.8% below current price), sized $1.5-2.5k each and tagged with congress/news/momentum evidence consistent with what's worked this session (congress signal avg_pct +0.38 in counterfactual). ACN and AMGN are in cooldown (11 and 41 min left) so can't rebuy yet. Rather than chase names sitting 60-99% of day range (AVGO 97%, KO 99%, HD 99%, NFLX 99.5%) with fresh market orders in a PROBATION hour (11:xx), I'll let the existing ladder of 7 limits work - this matches the repeated lesson from 10/05-10/06 that resting limits beat forcing market chases right after a simultaneous cooldown wave. Will check back quickly (15 min) to see if any limits filled or need adjustment toward min_positions=8.
+lesson: When the whole book exits simultaneously on cooldown and 7 diversified buy_limits are already resting below market at 0.5-1.8% discounts with solid signals, let them work rather than chase fresh market entries into names at 60-99% of day range during a PROBATION hour.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
