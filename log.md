@@ -22399,3 +22399,16 @@ Decision: nothing at this check. 14 standing order(s) working.
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $195.89] -> $2514.04 (+0.56%) — close 100% at +0.6% over the average cost
 ## 2026-10-06 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-06 10:47 ET (Tuesday) — week 2026-W41 — budget left $23074.24 (today $31500.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Hour 10 is PROBATION and all congress-backed candidates (KO, GS, UNH, NFLX, AVGO, HD, PG, IBM) sit high in day range (pct_of_day_range 56-96%) with existing resting buy_limits already placed below market at better entries - no need to chase at market per guardrails (max_entry_range_pct 85, chase_limit 55). AMGN is the only open position, protected with stop_loss at 393.5 and take_profit at 403.56. Letting the 8 diversified buy_limit ladders fill naturally is the better move than forcing fresh market buys into extended prints, consistent with the last 12 days of lessons on this exact pattern.</reasoning>
+<parameter name="lesson">When the book just rotated out on simultaneous cooldowns and remaining candidates are 56-96% of day range in a PROBATION hour, resting buy_limits already in place are the correct tool - keep monitoring for fills rather than re-deriving new market orders into the same names.
+portfolio: equity $25370.08 (+1.48% on $25000.00 in) · cash $23396.32 · realised +396.32
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
