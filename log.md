@@ -22492,3 +22492,16 @@ lesson: When 8 congress-backed buy_limits are already resting below market acros
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 12:27 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: We're flat (0 positions) but have 8 buy_limit orders already resting below market across congress-backed diversified names (IBM, GS, UNH, NFLX, KO, AVGO, HD, PG) covering min_positions+. All are in cooldown from this morning's sells and fresh market buys right now would mean chasing names like AVGO (96% of day range) and PG (97% of range) at extended prices - exactly what past lessons flagged as costly. It's 12:27 ET, hour 12 is PROBATION with historically weak avg_ret (-0.03%), so this is not the hour to force new entries; the resting ladder already covers the thesis. I'll let the working buy_limits fill as prices pull back rather than add fresh market orders at today's highs.
+lesson: With a full ladder of congress-backed buy_limits already resting below market during a PROBATION hour (12:xx), let them work rather than chase names sitting 85-98% of day range at market.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
