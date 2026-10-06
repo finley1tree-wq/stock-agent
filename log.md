@@ -22440,3 +22440,16 @@ lesson: When the whole book exits simultaneously on cooldown and 7 diversified b
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 11:29 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Book is flat (0 positions) after today's 11 cooldown-driven sells, and 8 diversified congress-backed buy_limits are already resting below market across KO, PG, HD, GS, AVGO, NFLX, IBM, UNH - all placed at sensible discounts (0.5-1.9% below last) rather than chasing names sitting 60-97% of today's range. 11:29 ET is a PROBATION hour per strategy_stages, and journal lessons from this exact pattern (whole book cycles out simultaneously) repeatedly show that forcing fresh market buys into high-range prints underperforms letting the resting ladder fill. AMGN is in cooldown for 26 more minutes so it's excluded from new orders; no new money needed now since the existing 8 limits cover min_positions once cooldowns clear and fills trigger.
+lesson: When the whole book exits simultaneously on cooldown and a full ladder of congress-backed buy_limits is already resting below market in a PROBATION hour, do nothing new at the check - let the limits do the work rather than chasing high-range prints.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
