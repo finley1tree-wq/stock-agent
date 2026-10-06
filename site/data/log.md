@@ -1,17 +1,3 @@
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there's nothing to protect and no new buys are allowed - any order would just be dropped. All prior names (MSFT, TSM, AVGO, NFLX, UNH, PEP, KO, AAPL, PG, ACN, HD) were sold today and are in/near cooldown. Sitting out this check is the only option available given the guardrail, not a discretionary choice.
-lesson: After no_new_entries_after_et cutoff with zero open positions, there is nothing actionable - confirm cutoff status before spending effort constructing entries that will be dropped.
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-10-05 17:10 ET — published the session's closing state
-
-## 2026-10-06 09:32 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 cutoff, now 15:23) and positions_held is 0, so no buys can be placed and there is nothing to sell or protect. This is the last check of the day (checks_left_today=1), so there's no point setting standing orders either since no new entries can fill.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - confirm cutoff status first before building any orders, consistent with the last several lessons on this exact situation.
+portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 15:53 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: It's 15:53 ET, no_new_entries_this_check is true (past the 14:00 cutoff), checks_left_today is 0, and positions_held is 0 - there is nothing actionable. No open positions to protect or sell. Waiting for the next trading day.
+lesson: At 0 checks left and no_new_entries_this_check true with zero positions, there is nothing to do but confirm and stop - don't build orders that will be dropped.
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)

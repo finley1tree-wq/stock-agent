@@ -250,3 +250,4 @@
 - 2026-10-06 (12d graded, realised 0.02% per dollar): When no_new_entries_this_check is true and positions_held is 0, confirm cutoff status first - don't waste effort building orders that will be dropped.
 - 2026-10-06 (12d graded, realised 0.02% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable besides waiting for the next check - don't waste effort constructing buy orders that guardrails will drop.
 - 2026-10-06 (12d graded, realised 0.02% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable besides waiting - confirm cutoff status first before building orders.
+- 2026-10-06 (12d graded, realised 0.02% per dollar): At 0 checks left and no_new_entries_this_check true with zero positions, there is nothing to do but confirm and stop - don't build orders that will be dropped.
