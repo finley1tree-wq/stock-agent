@@ -1,157 +1,6 @@
 {
  "orders": [
   {
-   "id": "6765bc60",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 440.7389,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $454.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 10:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "14813065",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 148.8757,
-   "status": "filled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $148.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:51"
-  },
-  {
-   "id": "4f0845b3",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 147.4223,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $148.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:50",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "a86e5d9f",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 144.0062,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $148.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 09:51",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0789c0d7",
-   "ticker": "LTH",
-   "kind": "take_profit",
-   "price": 39.8315,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $39.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d8b6b9b0",
-   "ticker": "LTH",
-   "kind": "stop_loss",
-   "price": 39.2666,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $39.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:35",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "022c5a2b",
-   "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 38.4799,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $39.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 09:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "76b2b0e2",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 12.449,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $12.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:39",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f0f62f51",
    "ticker": "TTD",
    "kind": "stop_loss",
@@ -7430,7 +7279,138 @@
    "good_until": "2026-10-11",
    "pct_of_position": 100.0,
    "closed": "2026-10-06 09:55"
+  },
+  {
+   "id": "1c2e2497",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 373.0,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "re-enter AVGO once cooldown clears at better level than current top-of-range print",
+   "evidence": "AVGO +3.92% 1d, 99.4% of day range but cooling off 14min, rest limit below market to avoid chasing",
+   "signals": [
+    "momentum",
+    "news"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 2500.0
+  },
+  {
+   "id": "1f45a35f",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 67.3,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "congress pressure plus pullback entry below current 67.76",
+   "evidence": "Rep. Cleo Fields disclosed NFLX buy 2026-10-01; Rep. Byron Donalds also disclosed buy 2026-09-15",
+   "signals": [
+    "congress",
+    "news"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 2000.0
+  },
+  {
+   "id": "9e27739e",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 373.5,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "low in range, wait for dip entry rather than chase",
+   "evidence": "UNH at 5.0% of day range (low), congress net buy pressure present historically",
+   "signals": [
+    "congress"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 2000.0
+  },
+  {
+   "id": "fe52a0fb",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 281.0,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "congress-backed name, rest below current price to avoid chasing high-range print",
+   "evidence": "Rep. David J. Taylor disclosed HD buy 2026-10-01, +1.43% today but 88% of range",
+   "signals": [
+    "congress"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 2000.0
+  },
+  {
+   "id": "eda07d58",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 895.0,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "congress-backed, GS at 97% of range so resting limit below market",
+   "evidence": "Rep. Michael A. Rulli disclosed GS buy 2026-10-02, also Rep. Gilbert Ray Cisneros disclosed buy",
+   "signals": [
+    "congress"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 2000.0
+  },
+  {
+   "id": "660c085c",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 146.0,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "congress pressure, PG at 32% of range already reasonable, slight limit below for better entry",
+   "evidence": "Rep. David J. Taylor and Rep. Lloyd Doggett both disclosed PG buys",
+   "signals": [
+    "congress"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 2000.0
+  },
+  {
+   "id": "b674ef79",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.4,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "congress staple, rest limit slightly below current 86.82",
+   "evidence": "congress_net_buy_pressure KO=1.0, past lesson noted KO bought low in range at SURVIVOR hour worked (+1.83% avg that check)",
+   "signals": [
+    "congress"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 1500.0
+  },
+  {
+   "id": "9e522517",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 222.0,
+   "status": "working",
+   "created": "2026-10-06 10:11",
+   "created_ts": 1791295897,
+   "why": "modest momentum name, rest limit below market",
+   "evidence": "IBM +1.07% 1d, 72.5% of range",
+   "signals": [
+    "news",
+    "momentum"
+   ],
+   "good_until": "2026-10-06",
+   "usd": 1500.0
   }
  ],
- "updated": "2026-10-06 09:55"
+ "updated": "2026-10-06 10:11"
 }

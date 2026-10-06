@@ -22349,3 +22349,24 @@ lesson: Congress-disclosure evidence at SURVIVOR 09:xx hour continues to be the 
 portfolio: equity $25366.72 (+1.47% on $25000.00 in) · cash $20882.28 · realised +382.28
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 10:11 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Below min_positions (2/8) with 82% cash idle - this is costly per counterfactual data. Most attractive names (AVGO, NFLX, UNH, HD, GS, PG, KO, IBM) just got sold and are in 45-min cooldown, so I cannot buy them directly now; instead I rest buy_limits below current market to re-enter at a better level once cooldown clears and price dips, consistent with the lesson that resting limits beat chasing high-day-range names. All picks carry congress-disclosure or momentum/news evidence. Keeping ACN and AMGN as-is since they already have protective stops/take-profits/averaging triggers in place from auto_bracket.
+lesson: When the whole book sells simultaneously on cooldown, rest buy_limits below market across congress-backed diversified names rather than waiting idle or chasing fresh market entries into high-range prints.
+  (dropped TSM: sold 35 min ago, cooling off)
+~ WORKING buy_limit $2500.00 AVGO @ $373.00 until 2026-10-06 — re-enter AVGO once cooldown clears at better level than current top-of-range print
+~ WORKING buy_limit $2000.00 NFLX @ $67.30 until 2026-10-06 — congress pressure plus pullback entry below current 67.76
+~ WORKING buy_limit $2000.00 UNH @ $373.50 until 2026-10-06 — low in range, wait for dip entry rather than chase
+~ WORKING buy_limit $2000.00 HD @ $281.00 until 2026-10-06 — congress-backed name, rest below current price to avoid chasing high-range print
+~ WORKING buy_limit $2000.00 GS @ $895.00 until 2026-10-06 — congress-backed, GS at 97% of range so resting limit below market
+~ WORKING buy_limit $2000.00 PG @ $146.00 until 2026-10-06 — congress pressure, PG at 32% of range already reasonable, slight limit below for better entry
+~ WORKING buy_limit $1500.00 KO @ $86.40 until 2026-10-06 — congress staple, rest limit slightly below current 86.82
+~ WORKING buy_limit $1500.00 IBM @ $222.00 until 2026-10-06 — modest momentum name, rest limit below market
+portfolio: equity $25359.13 (+1.44% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 14 standing order(s) working.

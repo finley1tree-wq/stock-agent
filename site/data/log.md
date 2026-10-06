@@ -1,45 +1,3 @@
-- SELL 100% NFLX [take_profit @ $67.29] -> $4516.76 (+0.37%) — close 100% at +0.3% over the average cost
-## 2026-10-05 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $2000.00 UNH [buy_limit @ $370.50] — Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point
-## 2026-10-05 09:55 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-10-05 09:59 ET (Monday) — week 2026-W41 — budget left $15539.23 (today $22000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: Still below min_positions (4 of 8) with 62% cash idle - adding KO and PEP, both congress-buy-pressure staples trading low in their day range (not chasing), to diversify away from the existing PG/ACN/HD/UNH cluster while respecting the 09:xx SURVIVOR hour. Protective stops/take-profits attached per risk_management/auto_bracket which has the best historical hit rate (0.88-0.89).
-lesson: Congress-pressure staples (KO, PEP) bought low in day range at SURVIVOR hour 09:xx are a reasonable way to hit min_positions without chasing extended names - track next check whether they outperform the momentum-chasing names.
-- BUY $2000.00 KO [filled] ['congress', 'track_record'] — Adds a defensive, low-range-position name with congress buy pressure to diversify sector exposure beyond PG/ACN/HD/UNH | evidence: congress_net_buy_pressure KO=1.0 (Lloyd Doggett-style buyers), ATR low 1.28%, pct_of_day_range 21.6% - not chasing top of range, defensive staple diversifies away from tech cluster
-- BUY $2000.00 PEP [filled] ['congress', 'track_record'] — Low-range entry defensive staple with congress buy signal, adds diversification and avoids paying up for an extended move | evidence: congress_net_buy_pressure PEP=1.0, pct_of_day_range 4.9% (near day low), ATR 1.82% - cheap entry point not chasing
-~ WORKING stop_loss 100% KO @ $83.60 until 2026-10-05 — Protect capital on new KO position per standard risk management
-~ WORKING take_profit 100% KO @ $86.60 until 2026-10-05 — Lock in gains on KO before clock forces exit
-~ WORKING stop_loss 100% PEP @ $121.80 until 2026-10-05 — Protect capital on new PEP position
-~ WORKING take_profit 100% PEP @ $126.20 until 2026-10-05 — Lock in gains on PEP before clock forces exit
-~ WORKING take_profit 100% KO @ $85.44 until 2026-10-10 — close 100% at +0.1% over the average cost
-~ WORKING buy_limit $500.00 KO @ $82.75 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PEP @ $124.58 until 2026-10-10 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 PEP @ $120.60 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25281.01 (+1.12% on $25000.00 in) · cash $11851.64 · realised +351.64
-Done: 0 sell(s), 2 buy(s); 23 order(s) working; budget left $11539.23 this week
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $372.63] -> $2011.50 (+0.57%) — close 100% at +0.2% over the average cost
-## 2026-10-05 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $2500.00 AAPL [buy_limit @ $332.95] — wanted it, but not at the high — resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position
-## 2026-10-05 10:00 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 3 standing order(s) on PEP: position closed)
-- SELL 100% PEP [take_profit @ $124.58] -> $2003.96 (+0.20%) — close 100% at +0.2% over the average cost
-## 2026-10-05 10:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 3 standing order(s) on KO: position closed)
-- SELL 100% KO [take_profit @ $85.44] -> $2003.07 (+0.15%) — close 100% at +0.1% over the average cost
-## 2026-10-05 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AAPL: position closed)
-- SELL 100% AAPL [take_profit @ $333.67] -> $2505.40 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-10-05 10:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-05 10:14 ET (Monday) — week 2026-W41 — budget left $17563.16 (today $28500.00 put to work, 12 buys, 8 sells) — SIM (pretend money) via sim
   (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
@@ -398,3 +356,45 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [stop_loss @ $86.50] -> $1997.48 (-0.13%) — close it all at -0.4% under the average cost
 ## 2026-10-06 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-06 09:55 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Below min_positions (2 of 8) with 82% cash idle - the desk instruction is explicit to deploy more, not sit out. GS, HD, PG, IBM are off cooldown or cooldown-irrelevant (IBM 43min left actually still cooling - replacing with PG/HD re-buys already held evidence), all carry concrete congress-disclosure evidence consistent with the SURVIVOR 09:xx hour pattern that journal notes have repeatedly shown positive. Adding protective stops on each new position per risk_management best practice, which has the highest realized hit rate (0.88) in track record.
+lesson: Congress-disclosure evidence at SURVIVOR 09:xx hour continues to be the primary entry filter; always pair new entries with an immediate stop_loss given risk_management's 0.88 historical hit rate.
+  (dropped GS: sold 8 min ago, cooling off)
+  (dropped HD: sold 14 min ago, cooling off)
+  (dropped PG: sold 6 min ago, cooling off)
+  (dropped IBM: sold 2 min ago, cooling off)
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger HD stop_loss: not held)
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+portfolio: equity $25366.72 (+1.47% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 10:11 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Below min_positions (2/8) with 82% cash idle - this is costly per counterfactual data. Most attractive names (AVGO, NFLX, UNH, HD, GS, PG, KO, IBM) just got sold and are in 45-min cooldown, so I cannot buy them directly now; instead I rest buy_limits below current market to re-enter at a better level once cooldown clears and price dips, consistent with the lesson that resting limits beat chasing high-day-range names. All picks carry congress-disclosure or momentum/news evidence. Keeping ACN and AMGN as-is since they already have protective stops/take-profits/averaging triggers in place from auto_bracket.
+lesson: When the whole book sells simultaneously on cooldown, rest buy_limits below market across congress-backed diversified names rather than waiting idle or chasing fresh market entries into high-range prints.
+  (dropped TSM: sold 35 min ago, cooling off)
+~ WORKING buy_limit $2500.00 AVGO @ $373.00 until 2026-10-06 — re-enter AVGO once cooldown clears at better level than current top-of-range print
+~ WORKING buy_limit $2000.00 NFLX @ $67.30 until 2026-10-06 — congress pressure plus pullback entry below current 67.76
+~ WORKING buy_limit $2000.00 UNH @ $373.50 until 2026-10-06 — low in range, wait for dip entry rather than chase
+~ WORKING buy_limit $2000.00 HD @ $281.00 until 2026-10-06 — congress-backed name, rest below current price to avoid chasing high-range print
+~ WORKING buy_limit $2000.00 GS @ $895.00 until 2026-10-06 — congress-backed, GS at 97% of range so resting limit below market
+~ WORKING buy_limit $2000.00 PG @ $146.00 until 2026-10-06 — congress pressure, PG at 32% of range already reasonable, slight limit below for better entry
+~ WORKING buy_limit $1500.00 KO @ $86.40 until 2026-10-06 — congress staple, rest limit slightly below current 86.82
+~ WORKING buy_limit $1500.00 IBM @ $222.00 until 2026-10-06 — modest momentum name, rest limit below market
+portfolio: equity $25359.13 (+1.44% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 14 standing order(s) working.
