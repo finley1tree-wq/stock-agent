@@ -22370,3 +22370,16 @@ lesson: When the whole book sells simultaneously on cooldown, rest buy_limits be
 ~ WORKING buy_limit $1500.00 IBM @ $222.00 until 2026-10-06 — modest momentum name, rest limit below market
 portfolio: equity $25359.13 (+1.44% on $25000.00 in) · cash $20882.28 · realised +382.28
 Decision: nothing at this check. 14 standing order(s) working.
+
+## 2026-10-06 10:26 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Hour is PROBATION, most of today's bought names (UNH, KO, PG, HD, GS, IBM, AVGO) are in 45-min cooldown from this morning's rotation, and the rest of the congress/widely-held watchlist (AAPL, MSFT, PLTR, CCJ, NLR) is sitting 80-96% of day range - exactly the setup my own lessons flag as a chase to avoid. I already have 6 buy_limit orders resting below market on IBM, NFLX, KO, UNH, GS, AVGO, HD and PG at sensible levels that will fill if a dip arrives, plus stops/take-profits on ACN and AMGN. Rather than force a fresh market buy into stretched prices, I'll let those working orders do the work and check back soon to react as cooldowns clear or fills happen.
+lesson: When the whole book just rotated out on cooldown and the remaining watchlist sits 80%+ of day range in a PROBATION hour, resting buy_limits already placed below market is correct - don't force a fresh market chase just to add position count.
+portfolio: equity $25354.41 (+1.42% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
