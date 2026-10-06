@@ -22412,3 +22412,16 @@ brain: Hour 10 is PROBATION and all congress-backed candidates (KO, GS, UNH, NFL
 portfolio: equity $25370.08 (+1.48% on $25000.00 in) · cash $23396.32 · realised +396.32
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 11:03 ET (Tuesday) — week 2026-W41 — budget left $23074.24 (today $31500.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Current hour (11:xx) is PROBATION and most names on my watchlist (GS 42%, HD 93%, PG 83%, AVGO 96%, NFLX 94%, KO 90%) are mid-to-high in today's range - exactly the setup my own graded lessons warn against chasing at market. I already have a full ladder of 8 buy_limit orders resting below market across congress-backed diversified names (GS, UNH, IBM, KO, AVGO, NFLX, HD, PG) plus a protective stop and scale-in on AMGN. These cover min_positions if they fill at better entries than current prints. Rather than force fresh market buys into names sitting 80-99% of day range during a PROBATION hour (which my journal explicitly flags as the wrong move), I'll let the resting orders work and check back soon since several are within 0.6-1.8% of filling.
+lesson: When the book already has a diversified ladder of buy_limits resting below market during a PROBATION hour, let them work rather than chase names sitting 80-99% of day range at market.
+portfolio: equity $25387.22 (+1.55% on $25000.00 in) · cash $23396.32 · realised +396.32
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
