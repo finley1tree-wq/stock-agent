@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b27c0073",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 455.6468,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $454.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "6765bc60",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -7181,7 +7162,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 86.306,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:36",
    "created_ts": 1791293798,
    "why": "close it all at -0.4% under the average cost",
@@ -7191,7 +7172,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-06 09:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5a32e355",
@@ -7370,7 +7353,7 @@
    "ticker": "PG",
    "kind": "take_profit",
    "price": 148.1414,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:47",
    "created_ts": 1791294430,
    "why": "close 100% at +0.2% over the average cost",
@@ -7380,14 +7363,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-06 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "38033f9b",
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 147.968,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-06 09:47",
    "created_ts": 1791294430,
    "why": "close it all at -0.4% under the average cost",
@@ -7397,14 +7382,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-06 09:50"
   },
   {
    "id": "c491d288",
    "ticker": "PG",
    "kind": "buy_limit",
    "price": 143.4533,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-06 09:47",
    "created_ts": 1791294430,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7414,8 +7400,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-11",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-06 09:50",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "310ac31b",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.658,
+   "status": "working",
+   "created": "2026-10-06 09:50",
+   "created_ts": 1791294611,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $86.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-06 09:47"
+ "updated": "2026-10-06 09:50"
 }

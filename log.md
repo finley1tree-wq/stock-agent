@@ -22319,3 +22319,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $901.44] -> $3508.65 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-06 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [stop_loss @ $147.89] -> $3499.95 (-0.00%) — close it all at -0.4% under the average cost
+## 2026-10-06 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

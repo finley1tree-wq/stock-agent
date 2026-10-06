@@ -1,6 +1,6 @@
 {
   "week": "2026-W41",
-  "spent": 11942.91,
+  "spent": 8442.96,
   "deployed": 60000.0,
   "by_ticker": {
     "ACN": 2543.61,
@@ -8,7 +8,7 @@
     "KO": 2000.0,
     "IBM": 2000.0,
     "AMGN": 2000.0,
-    "PG": 3500.0
+    "PG": 0.05
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -869,20 +869,42 @@
       ],
       "evidence": "average cost $899.22",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PG",
+      "side": "sell",
+      "qty": 23.666526,
+      "status": "filled",
+      "price": 147.89,
+      "proceeds": 3499.95,
+      "realized_pnl": -0.05,
+      "realized_pct": -0.0,
+      "date": "2026-10-06",
+      "time_et": "09:50",
+      "ts": 1791294600,
+      "why": "close it all at -0.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $147.89",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 11942.91,
+  "spent_today": 8442.96,
   "deployed_today": 31500.0,
   "orders_today": 11,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "NFLX",
     "TSM",
     "AVGO",
     "HD",
     "UNH",
-    "GS"
+    "GS",
+    "PG"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
@@ -893,13 +915,13 @@
     "PEP": 1791208891,
     "KO": 1791209054,
     "AAPL": 1791209185,
-    "PG": 1791211124,
+    "PG": 1791294611,
     "ACN": 1791212592,
     "HD": 1791294123,
     "GS": 1791294473
   },
-  "last_publish_ts": 1791294472,
-  "last_check_ts": 1791294518,
+  "last_publish_ts": 1791294611,
+  "last_check_ts": 1791294611,
   "exp_arm": {
     "GS": {
       "params": {
@@ -956,17 +978,15 @@
       }
     }
   },
-  "last_bar_ts": 1791294300,
+  "last_bar_ts": 1791294600,
   "last_decision_ts": 1791293968,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "38033f9b": 147.968,
-    "f359e7fa": 148.1414,
-    "a28491b2": 403.5626,
+    "310ac31b": 86.658,
     "4b2cc6e1": 86.7399,
+    "a28491b2": 403.5626,
     "552c31cb": 223.6879,
-    "351b53d0": 86.306,
     "5823c259": 195.8928,
     "b7437b3d": 219.2,
     "2205915b": 188.956,
@@ -974,7 +994,6 @@
     "65c4c014": 188.5,
     "5a32e355": 84.0117,
     "8cf92f48": 216.3585,
-    "c491d288": 143.4533,
     "3e044b47": 390.425
   }
 }

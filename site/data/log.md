@@ -1,6 +1,3 @@
-~ WORKING buy_limit $2000.00 LMT @ $497.00 until 2026-10-05 — Defense sector diversification away from tech cluster at a level not chasing the day's move
-~ WORKING buy_limit $2000.00 UNH @ $370.50 until 2026-10-05 — Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point
-~ WORKING buy_limit $500.00 NFLX @ $65.03 until 2026-10-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25237.57 (+0.95% on $25000.00 in) · cash $10324.33 · realised +324.33
 Done: 0 sell(s), 1 buy(s); 19 order(s) working; budget left $10011.92 this week
   (cancelled 2 standing order(s) on AVGO: position closed)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $901.44] -> $3508.65 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-06 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [stop_loss @ $147.89] -> $3499.95 (-0.00%) — close it all at -0.4% under the average cost
+## 2026-10-06 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
