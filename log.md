@@ -22536,3 +22536,16 @@ lesson: In PROBATION hours with a full diversified ladder of congress-backed buy
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 13:14 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: We're at 13:14 ET, past the 14:00 cutoff is near but not yet reached - however no_new_entries_this_check is false so new entries are still technically allowed, but it's 13:14 which is in hour "13" marked PROBATION, and all names I'd want (AVGO, GS, KO, NFLX, HD, PG, UNH) are in cooldown (sold today, 45min rebuy cooldown) or already have buy_limit ladders resting below market from this session. Rather than chase fresh market buys into names sitting mid-to-high in their day range during a PROBATION hour, I'll let the existing 7 buy_limit orders (UNH, GS, KO, NFLX, AVGO, HD, PG) continue working - they're all congress-backed with sensible below-market entries, consistent with past lessons that this ladder approach outperforms chasing. With 46 min left until the 14:00 no-new-entries cutoff, I'll check back soon to see if any limits filled and reassess.
+lesson: When the whole book sells on cooldown but a diversified congress-backed buy_limit ladder is already resting below market, let it work through PROBATION hours rather than force fresh market entries into mid/high-range prints.
+portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
+Decision: nothing at this check. 7 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
