@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-06T09:44-04:00",
+ "asOf": "2026-10-06T09:47-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "351b53d0",
-   "ticker": "KO",
+   "id": "38033f9b",
+   "ticker": "PG",
    "kind": "stop_loss",
-   "price": 86.306,
+   "price": 147.968,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.5,
-   "pct_away": -0.22,
+   "last": 148.02,
+   "pct_away": -0.04,
    "good_until": "2026-10-11",
    "why": "close it all at -0.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f359e7fa",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 148.1414,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 148.02,
+   "pct_away": 0.08,
+   "good_until": "2026-10-11",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,27 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 899.0,
-   "pct_away": 0.27,
+   "last": 900.48,
+   "pct_away": 0.11,
    "good_until": "2026-10-11",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "552c31cb",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 223.6879,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 223.08,
-   "pct_away": 0.27,
-   "good_until": "2026-10-11",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,10 +236,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.5,
-   "pct_away": 0.28,
+   "last": 86.53,
+   "pct_away": 0.24,
    "good_until": "2026-10-11",
    "why": "close 100% at +0.1% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "351b53d0",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.306,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.53,
+   "pct_away": -0.26,
+   "good_until": "2026-10-11",
+   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 402.22,
-   "pct_away": 0.33,
+   "last": 402.49,
+   "pct_away": 0.27,
    "good_until": "2026-10-11",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -263,20 +280,20 @@
    ]
   },
   {
-   "id": "b44c5dc2",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 147.8882,
-   "usd": 3500.0,
-   "pct_of_position": null,
+   "id": "552c31cb",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 223.6879,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.39,
-   "pct_away": -0.34,
-   "good_until": "2026-10-06",
-   "why": "wanted it, but not at the high \u2014 resting at $147.89. Congress pressure plus +1.75% today momentum confirming",
+   "last": 222.93,
+   "pct_away": 0.34,
+   "good_until": "2026-10-11",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
-    "congress",
-    "patience"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -287,8 +304,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.04,
-   "pct_away": 0.95,
+   "last": 193.43,
+   "pct_away": 1.27,
    "good_until": "2026-10-11",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -304,8 +321,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 223.08,
-   "pct_away": -1.74,
+   "last": 222.93,
+   "pct_away": -1.67,
    "good_until": "2026-10-06",
    "why": "Protective stop below entry",
    "signals": [
@@ -320,26 +337,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 402.22,
-   "pct_away": -2.17,
+   "last": 402.49,
+   "pct_away": -2.23,
    "good_until": "2026-10-06",
    "why": "Protective stop below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "0fdee79d",
-   "ticker": "GS",
-   "kind": "stop_loss",
-   "price": 877.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 899.0,
-   "pct_away": -2.45,
-   "good_until": "2026-10-06",
-   "why": "Protective stop ~2.4% below entry",
    "signals": [
     "risk_management"
    ]
@@ -352,8 +353,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 194.04,
-   "pct_away": -2.62,
+   "last": 193.43,
+   "pct_away": -2.31,
    "good_until": "2026-10-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -369,10 +370,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 194.04,
-   "pct_away": -2.86,
+   "last": 193.43,
+   "pct_away": -2.55,
    "good_until": "2026-10-06",
    "why": "Protective stop ~3.2% below entry given high ATR",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "0fdee79d",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 877.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 900.48,
+   "pct_away": -2.61,
+   "good_until": "2026-10-06",
+   "why": "Protective stop ~2.4% below entry",
    "signals": [
     "risk_management"
    ]
@@ -385,42 +402,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.5,
-   "pct_away": -2.88,
-   "good_until": "2026-10-11",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3e044b47",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 390.425,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 402.22,
-   "pct_away": -2.93,
-   "good_until": "2026-10-11",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1d3eac55",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 872.2434,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 899.0,
-   "pct_away": -2.98,
+   "last": 86.53,
+   "pct_away": -2.91,
    "good_until": "2026-10-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -436,8 +419,59 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 223.08,
-   "pct_away": -3.01,
+   "last": 222.93,
+   "pct_away": -2.95,
+   "good_until": "2026-10-11",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3e044b47",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 390.425,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 402.49,
+   "pct_away": -3.0,
+   "good_until": "2026-10-11",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c491d288",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 143.4533,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 148.02,
+   "pct_away": -3.09,
+   "good_until": "2026-10-11",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1d3eac55",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 872.2434,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 900.48,
+   "pct_away": -3.14,
    "good_until": "2026-10-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

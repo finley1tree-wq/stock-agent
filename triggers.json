@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "55d4a34c",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 86.7382,
-   "status": "filled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "wanted it, but not at the high \u2014 resting at $86.74. Nuclear/uranium demand tailwind headline with bullish analyst coverage",
-   "evidence": "'South Korea Set to Invest $200 Billion in the U.S. These 4 Companies Should Benefit' (Barrons) and 'Wall Street Bulls Look Optimistic About Cameco' (Zacks); day_range 89.5%",
-   "signals": [
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 3500.0,
-   "closed": "2026-10-01 09:35"
-  },
-  {
-   "id": "a13469fb",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 222.6625,
-   "status": "filled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $221.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:35"
-  },
-  {
-   "id": "972778f3",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 214.9423,
-   "status": "cancelled",
-   "created": "2026-10-01 09:32",
-   "created_ts": 1790861560,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $221.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b27c0073",
    "ticker": "HUBB",
    "kind": "take_profit",
@@ -6963,7 +6907,7 @@
    "ticker": "PG",
    "kind": "buy_limit",
    "price": 147.8882,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-06 09:32",
    "created_ts": 1791293564,
    "why": "wanted it, but not at the high \u2014 resting at $147.89. Congress pressure plus +1.75% today momentum confirming",
@@ -6973,7 +6917,8 @@
     "patience"
    ],
    "good_until": "2026-10-06",
-   "usd": 3500.0
+   "usd": 3500.0,
+   "closed": "2026-10-06 09:47"
   },
   {
    "id": "0917c935",
@@ -7414,7 +7359,58 @@
    ],
    "good_until": "2026-10-11",
    "usd": 500.0
+  },
+  {
+   "id": "f359e7fa",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 148.1414,
+   "status": "working",
+   "created": "2026-10-06 09:47",
+   "created_ts": 1791294430,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $147.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38033f9b",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 147.968,
+   "status": "working",
+   "created": "2026-10-06 09:47",
+   "created_ts": 1791294430,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $147.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c491d288",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 143.4533,
+   "status": "working",
+   "created": "2026-10-06 09:47",
+   "created_ts": 1791294430,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $147.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-11",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-06 09:44"
+ "updated": "2026-10-06 09:47"
 }

@@ -1,18 +1,19 @@
 {
   "week": "2026-W41",
-  "spent": 11951.56,
-  "deployed": 56500.0,
+  "spent": 15451.56,
+  "deployed": 60000.0,
   "by_ticker": {
     "ACN": 2543.61,
     "HD": 9.05,
     "GS": 3500.0,
     "KO": 2000.0,
     "IBM": 2000.0,
-    "AMGN": 2000.0
+    "AMGN": 2000.0,
+    "PG": 3500.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
-    "PG": 2500.0,
+    "PG": 6000.0,
     "ACN": 5000.0,
     "MSFT": 2500.0,
     "NFLX": 8500.0,
@@ -825,12 +826,35 @@
       ],
       "evidence": "average cost $378.51",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PG",
+      "notional": 3500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 23.666526,
+      "price": 147.89,
+      "date": "2026-10-06",
+      "time_et": "09:47",
+      "ts": 1791294300,
+      "why": "wanted it, but not at the high \u2014 resting at $147.89. Congress pressure plus +1.75% today momentum confirming",
+      "signals": [
+        "congress",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "David J. Taylor and Lloyd Doggett disclosed PG buys; congress_net_buy_pressure=2.0",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 11951.56,
-  "deployed_today": 28000.0,
-  "orders_today": 10,
+  "spent_today": 15451.56,
+  "deployed_today": 31500.0,
+  "orders_today": 11,
   "sells_today": 5,
   "sold_today": [
     "NFLX",
@@ -852,18 +876,9 @@
     "ACN": 1791212592,
     "HD": 1791294123
   },
-  "last_publish_ts": 1791294297,
-  "last_check_ts": 1791294344,
+  "last_publish_ts": 1791294430,
+  "last_check_ts": 1791294430,
   "exp_arm": {
-    "AVGO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "GS": {
       "params": {
         "hold_minutes": 90,
@@ -882,25 +897,7 @@
         "ratchet": "off"
       }
     },
-    "HD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "UNH": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -926,6 +923,15 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "PG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791294300,
@@ -933,21 +939,23 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "351b53d0": 86.306,
+    "38033f9b": 147.968,
+    "f359e7fa": 148.1414,
     "4328f896": 901.4411,
-    "552c31cb": 223.6879,
     "4b2cc6e1": 86.7399,
+    "351b53d0": 86.306,
     "a28491b2": 403.5626,
-    "b44c5dc2": 147.8882,
+    "552c31cb": 223.6879,
     "5823c259": 195.8928,
     "b7437b3d": 219.2,
     "8aae915c": 393.5,
-    "0fdee79d": 877.0,
     "2205915b": 188.956,
     "65c4c014": 188.5,
+    "0fdee79d": 877.0,
     "5a32e355": 84.0117,
+    "8cf92f48": 216.3585,
     "3e044b47": 390.425,
-    "1d3eac55": 872.2434,
-    "8cf92f48": 216.3585
+    "c491d288": 143.4533,
+    "1d3eac55": 872.2434
   }
 }
