@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-06T12:59-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-06T13:29-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,22 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9e27739e",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 373.5,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 374.51,
-   "pct_away": -0.27,
-   "good_until": "2026-10-06",
-   "why": "low in range, wait for dip entry rather than chase",
-   "signals": [
-    "congress"
-   ]
-  },
-  {
    "id": "eda07d58",
    "ticker": "GS",
    "kind": "buy_limit",
@@ -201,10 +185,26 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 898.26,
-   "pct_away": -0.36,
+   "last": 897.33,
+   "pct_away": -0.26,
    "good_until": "2026-10-06",
    "why": "congress-backed, GS at 97% of range so resting limit below market",
+   "signals": [
+    "congress"
+   ]
+  },
+  {
+   "id": "9e27739e",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 373.5,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 374.62,
+   "pct_away": -0.3,
+   "good_until": "2026-10-06",
+   "why": "low in range, wait for dip entry rather than chase",
    "signals": [
     "congress"
    ]
@@ -217,8 +217,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 87.08,
-   "pct_away": -0.78,
+   "last": 86.88,
+   "pct_away": -0.55,
    "good_until": "2026-10-06",
    "why": "congress staple, rest limit slightly below current 86.82",
    "signals": [
@@ -233,13 +233,29 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 67.97,
-   "pct_away": -0.99,
+   "last": 68.03,
+   "pct_away": -1.07,
    "good_until": "2026-10-06",
    "why": "congress pressure plus pullback entry below current 67.76",
    "signals": [
     "congress",
     "news"
+   ]
+  },
+  {
+   "id": "fe52a0fb",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 281.0,
+   "usd": 2000.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 285.12,
+   "pct_away": -1.45,
+   "good_until": "2026-10-06",
+   "why": "congress-backed name, rest below current price to avoid chasing high-range print",
+   "signals": [
+    "congress"
    ]
   },
   {
@@ -250,8 +266,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 377.67,
-   "pct_away": -1.24,
+   "last": 378.98,
+   "pct_away": -1.58,
    "good_until": "2026-10-06",
    "why": "re-enter AVGO once cooldown clears at better level than current top-of-range print",
    "signals": [
@@ -267,26 +283,10 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 148.33,
-   "pct_away": -1.57,
+   "last": 148.38,
+   "pct_away": -1.6,
    "good_until": "2026-10-06",
    "why": "congress pressure, PG at 32% of range already reasonable, slight limit below for better entry",
-   "signals": [
-    "congress"
-   ]
-  },
-  {
-   "id": "fe52a0fb",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 281.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 285.98,
-   "pct_away": -1.74,
-   "good_until": "2026-10-06",
-   "why": "congress-backed name, rest below current price to avoid chasing high-range print",
    "signals": [
     "congress"
    ]
