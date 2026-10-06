@@ -22562,3 +22562,4 @@ lesson: At 13:45 with cutoff at 14:00 and a full diversified congress-backed buy
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 7 resting buy order(s): past the entry cutoff)

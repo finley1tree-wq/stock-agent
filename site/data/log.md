@@ -1,17 +1,3 @@
-## 2026-10-05 13:10 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain: All 11 prior buys today are in rebuy cooldown (MSFT, TSM, AVGO, NFLX, UNH, PEP, KO, AAPL, PG, ACN, HD) and hour-13 is PROBATION. The watchlist names I haven't held today (LMT, NOC, RTX, IBM, AMD) are sitting 50-98% of day range - not attractive chase entries - so I already have 7 buy_limit orders resting below market (IBM, KO, LMT, NOC, RTX, ACN, PEP, AMD) waiting for pullbacks, consistent with past lessons that forcing a PROBATION-hour market chase after a simultaneous cooldown sweep graded worse than waiting. I'll hold those working orders and recheck shortly to catch fills or cooldown expiries.
-lesson: When the whole book sells simultaneously into cooldown, resting buy_limits below market and waiting a short interval beats forcing a PROBATION-hour market chase into names 50-98% of day range.
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-05 13:17 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
   (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
@@ -398,3 +384,17 @@ lesson: When the whole book sells on cooldown but a diversified congress-backed 
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 13:45 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: It's 13:45 ET, past the 14:00 cutoff is imminent but not yet hit - however current hour (13:xx) is PROBATION and the book is already at zero positions with a full ladder of 7 diversified congress-backed buy_limits resting below market (UNH, GS, KO, NFLX, HD, PG, AVGO) covering widely-held/staples names, all placed with concrete congress disclosure evidence (David J. Taylor on HD/PG, Cleo Fields on NFLX, Rulli on GS, congress_net_buy_pressure scores for KO/PG/NFLX). Past lessons consistently say: when a full ladder is resting below market in a PROBATION hour, let it work rather than chase high-range prints (AVGO 99.9%, NOC 95.6%, CCJ 95.6% all too extended per max_entry_range_pct=85). No fresh market buys now given 14:00 cutoff is 15 minutes away and all these names are high in range; the standing limits already cover the diversification need.
+lesson: At 13:45 with cutoff at 14:00 and a full diversified congress-backed buy_limit ladder already resting below market, doing nothing new and letting limits fill is consistent with repeated past-lesson confirmations - don't force market entries into names at 85-99% of day range this close to cutoff.
+portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
+Decision: nothing at this check. 7 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 7 resting buy order(s): past the entry cutoff)

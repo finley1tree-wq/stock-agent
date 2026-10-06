@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-06T13:29-04:00",
+ "asOf": "2026-10-06T14:00-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -176,122 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "eda07d58",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 895.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 897.33,
-   "pct_away": -0.26,
-   "good_until": "2026-10-06",
-   "why": "congress-backed, GS at 97% of range so resting limit below market",
-   "signals": [
-    "congress"
-   ]
-  },
-  {
-   "id": "9e27739e",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 373.5,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 374.62,
-   "pct_away": -0.3,
-   "good_until": "2026-10-06",
-   "why": "low in range, wait for dip entry rather than chase",
-   "signals": [
-    "congress"
-   ]
-  },
-  {
-   "id": "b674ef79",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 86.4,
-   "usd": 1500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 86.88,
-   "pct_away": -0.55,
-   "good_until": "2026-10-06",
-   "why": "congress staple, rest limit slightly below current 86.82",
-   "signals": [
-    "congress"
-   ]
-  },
-  {
-   "id": "1f45a35f",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 67.3,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 68.03,
-   "pct_away": -1.07,
-   "good_until": "2026-10-06",
-   "why": "congress pressure plus pullback entry below current 67.76",
-   "signals": [
-    "congress",
-    "news"
-   ]
-  },
-  {
-   "id": "fe52a0fb",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 281.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 285.12,
-   "pct_away": -1.45,
-   "good_until": "2026-10-06",
-   "why": "congress-backed name, rest below current price to avoid chasing high-range print",
-   "signals": [
-    "congress"
-   ]
-  },
-  {
-   "id": "1c2e2497",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 373.0,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 378.98,
-   "pct_away": -1.58,
-   "good_until": "2026-10-06",
-   "why": "re-enter AVGO once cooldown clears at better level than current top-of-range print",
-   "signals": [
-    "momentum",
-    "news"
-   ]
-  },
-  {
-   "id": "660c085c",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 146.0,
-   "usd": 2000.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 148.38,
-   "pct_away": -1.6,
-   "good_until": "2026-10-06",
-   "why": "congress pressure, PG at 32% of range already reasonable, slight limit below for better entry",
-   "signals": [
-    "congress"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "Below min_positions (2/8) with 82% cash idle - this is costly per counterfactual data. Most attractive names (AVGO, NFLX, UNH, HD, GS, PG, KO, IBM) just got sold and are in 45-min cooldown, so I cannot buy them directly now; instead I rest buy_limits below current market to re-enter at a better leve",
  "congress_trades": [
