@@ -1,31 +1,3 @@
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain: Book is flat with 11 of the last day's 11 bought names simultaneously sold/cooling off within the 45-min window, and current watchlist prices (ACN 8%, AMD 83%, TSM 97.7%, AVGO 97.2%, HUBB 96%, MSFT 33.5%, CRWD 98.8%) are mostly pinned near today's highs - buying market now would be chasing exactly the pattern past_lessons flag as costly. My 8 working buy_limits (IBM, KO, ACN, NOC, RTX, LMT, PEP, AMD) are already resting 0.76-2.6% below market across widely_held/defense/staples sectors, which is real diversification per the past lesson about avoiding further nuclear/entertainment clustering. No_new_entries cutoff is 14:00, so I still have one more window (13:33 now) to let these fill or add fresh ones if a pullback hits; I'll recheck quickly rather than force a fresh market chase into extended names.
-lesson: When the whole book cycles out via time-stops simultaneously and remaining watchlist names sit 80-99% of day range, resting buy_limits placed below market (as already done) is the correct tool - don't force a market entry just to hit min_positions before the 14:00 cutoff.
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-05 13:48 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain: It's past the 14:00 no_new_entries_after_et cutoff, so no new market buys are allowed this check - only sells/protective orders, and I hold zero positions so there's nothing to protect. The 8 resting buy_limits (IBM, KO, ACN, RTX, NOC, PEP, LMT, AMD) already cover a diversified set of names at sensible below-market levels and will fill on their own if price pulls back; adding more orders now would either be dropped (no_new_entries) or chase extended names (most watchlist tickers are 80-99% of day range). Best move is to let existing triggers work and check back soon in case any fire.
-lesson: After no_new_entries_after_et cutoff, don't try to add buys - let existing resting buy_limits do the work and just monitor for fills/protective needs.
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 8 resting buy order(s): past the entry cutoff)
-
-## 2026-10-05 14:03 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
@@ -395,6 +367,34 @@ Decision: nothing at this check. 7 standing order(s) working.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and there are zero open positions to manage, so there is nothing actionable: any buy orders would be dropped by guardrails. No existing positions to sell or protect. Will wait for next check.
 lesson: When no_new_entries_this_check is true and positions_held is 0, confirm cutoff status first - don't waste effort building orders that will be dropped.
+portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 14:32 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff, hour 14 is CULLED anyway) and positions_held is 0 with nothing held to sell or protect. Forcing a buy now would be dropped per guardrails and would also fall into the CULLED 14:xx hour bucket which the strategy_stages data shows underperforms. Best move is to sit out this specific 30-min window and wait for the next check closer to close where sells/protective orders may still matter, rather than build orders that get discarded.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable besides waiting for the next check - don't waste effort constructing buy orders that guardrails will drop.
+portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 14:53 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 cutoff) and positions_held is 0, so no buys can be placed or would be honored. Nothing to sell or protect since the book is flat. Waiting for the next session/entry window rather than wasting effort on orders that will be dropped.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable besides waiting - confirm cutoff status first before building orders.
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
