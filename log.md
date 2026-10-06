@@ -22518,3 +22518,5 @@ lesson: With a full ladder of congress-backed buy_limits already resting below m
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- BUY $375.00 IBM [buy_limit @ $222.00] — modest momentum name, rest limit below market [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-06 12:50 ET — tick — 0 sell(s), 1 buy(s) from standing orders

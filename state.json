@@ -1,13 +1,14 @@
 {
   "week": "2026-W41",
-  "spent": 0.0,
-  "deployed": 60000.0,
+  "spent": 375.0,
+  "deployed": 60375.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 9.05,
     "KO": 2.52,
     "AMGN": 1.84,
-    "PG": 0.05
+    "PG": 0.05,
+    "IBM": 375.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -22,7 +23,7 @@
     "PEP": 2000.0,
     "AAPL": 2500.0,
     "GS": 3500.0,
-    "IBM": 2000.0,
+    "IBM": 2375.0,
     "AMGN": 2000.0
   },
   "orders": [
@@ -972,12 +973,35 @@
       ],
       "evidence": "bought 90 min ago, -0.07% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.689189,
+      "price": 222.0,
+      "date": "2026-10-06",
+      "time_et": "12:50",
+      "ts": 1791305100,
+      "why": "modest momentum name, rest limit below market [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "news",
+        "momentum",
+        "standing_order"
+      ],
+      "evidence": "IBM +1.07% 1d, 72.5% of range",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 0.0,
-  "deployed_today": 31500.0,
-  "orders_today": 11,
+  "spent_today": 375.0,
+  "deployed_today": 31875.0,
+  "orders_today": 12,
   "sells_today": 11,
   "sold_today": [
     "NFLX",
@@ -1008,76 +1032,33 @@
     "IBM": 1791294855,
     "AMGN": 1791299396
   },
-  "last_publish_ts": 1791304859,
-  "last_check_ts": 1791305363,
+  "last_publish_ts": 1791305444,
+  "last_check_ts": 1791305444,
   "exp_arm": {
-    "GS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "IBM": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "AMGN": {
-      "params": {
-        "hold_minutes": 90,
         "ratchet": "off"
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "PG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     }
   },
-  "last_bar_ts": 1791305100,
+  "last_bar_ts": 1791305400,
   "last_decision_ts": 1791305000,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "9e522517": 222.0,
+    "224974b0": 222.6438,
     "eda07d58": 895.0,
     "9e27739e": 373.5,
     "b674ef79": 86.4,
+    "51e5d633": 220.3883,
     "1f45a35f": 67.3,
     "1c2e2497": 373.0,
     "fe52a0fb": 281.0,
-    "660c085c": 146.0
+    "660c085c": 146.0,
+    "a27705f6": 215.34
   }
 }

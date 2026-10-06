@@ -1,18 +1,3 @@
-~ WORKING buy_limit $2000.00 RTX @ $181.50 until 2026-10-05 — new defense name to diversify book, rest below market to avoid chasing
-~ WORKING buy_limit $2000.00 IBM @ $219.50 until 2026-10-05 — diversify into widely_held tech-adjacent name not currently in cooldown
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
-Decision: nothing at this check. 8 standing order(s) working.
-
-## 2026-10-05 12:22 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $28500.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain: All 11 prior buys from today are in 45-min cooldown, hour-10/11/12 is PROBATION, and I already have 8 buy_limit resting orders working across diversified sectors (KO, IBM, RTX, PEP, ACN, LMT, NOC, AMD) all sitting 1-2.6% below market to get a better entry rather than chasing names near day highs. No new concrete catalyst justifies a market buy right now since the attractive congress/momentum names (ACN, KO, PEP) are precisely the ones in cooldown. Letting the working limits fire as prices pull back, per the pattern noted in past_lessons about cooldown sweeps, is the disciplined move.
-lesson: When the whole book just sold on cooldown simultaneously, resting buy_limits below market across sectors and waiting a short interval is better than forcing a PROBATION-hour market chase into names sitting 50-99% of day range.
-portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realised +322.09
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +383,18 @@ lesson: With a full ladder of congress-backed buy_limits already resting below m
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 12:43 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: Flat book at 12:43 ET, hour 12 is PROBATION (avg_ret -0.03% historically, hit_rate 0.52). All 8 watchlist names were sold today for cooldown reasons (AVGO/NFLX/TSM/HD/UNH/GS/PG/IBM/KO/ACN/AMGN) and I already have a full diversified ladder of 7 congress-backed buy_limit orders resting below market (IBM, GS, UNH, KO, NFLX, AVGO, HD, PG) at sensible discounts to avoid chasing high-range prints. Past lessons explicitly favor letting this ladder work rather than forcing fresh market buys during PROBATION hours into names sitting 60-97% of day range. No new evidence justifies chasing at current elevated prices, so I'll let the limits fill and check back soon to add fresh triggers or adjust if fills occur.
+lesson: With a full ladder of congress-backed buy_limits already resting below market in a PROBATION hour, let them work rather than chase names 60-97% of day range at market - consistent with the last 12 graded days of journal evidence.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- BUY $375.00 IBM [buy_limit @ $222.00] — modest momentum name, rest limit below market [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-06 12:50 ET — tick — 0 sell(s), 1 buy(s) from standing orders
