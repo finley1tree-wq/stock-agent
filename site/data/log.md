@@ -1,6 +1,3 @@
-- BUY $2500.00 NFLX [filled] ['congress', 'news'] — Two congress members disclosed buys in NFLX, strongest congress signal pairing in the list besides CHRW/HUBB/LTH which are too volatile today | evidence: Cleo Fields and Byron Donalds both disclosed NFLX buys per who_disclosed_it; congress_net_buy_pressure NFLX=2.0
-- BUY $2500.00 TSM [filled] ['congress', 'momentum'] — Congress pressure combined with strong multi-timeframe momentum in TSM | evidence: congress_net_buy_pressure TSM=1.0; TSM +1.35% today, +5.8% 5d, +14.9% 1m - strong momentum in semis
-- BUY $2500.00 HD [filled] ['congress'] — Fresh congress buy disclosure on a beaten-down name, not chasing an extended move | evidence: David J. Taylor disclosed HD buy 2026-09-22 (disclosed 2026-10-01); HD -11.15% 1m giving a reset entry point at 47% of day range
   (dropped trigger AAPL stop_loss: not held)
 ~ WORKING stop_loss 100% AVGO @ $351.00 until 2026-10-05 — Protect against adverse move per auto_bracket rules
 ~ WORKING stop_loss 100% PG @ $142.50 until 2026-10-05 — Protect capital on defensive name
@@ -398,3 +395,6 @@ lesson: Congress-disclosure-backed buys entered low/mid in day range at the SURV
 ~ WORKING buy_limit $500.00 HD @ $275.20 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25318.19 (+1.27% on $25000.00 in) · cash $5822.09 · realised +322.09
 Done: 0 sell(s), 6 buy(s); 20 order(s) working; budget left $5500.00 this week
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [take_profit @ $67.76] -> $4018.18 (+0.45%) — close 100% at +0.3% over the average cost
+## 2026-10-06 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

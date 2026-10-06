@@ -22272,3 +22272,6 @@ lesson: Congress-disclosure-backed buys entered low/mid in day range at the SURV
 ~ WORKING buy_limit $500.00 HD @ $275.20 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25318.19 (+1.27% on $25000.00 in) · cash $5822.09 · realised +322.09
 Done: 0 sell(s), 6 buy(s); 20 order(s) working; budget left $5500.00 this week
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [take_profit @ $67.76] -> $4018.18 (+0.45%) — close 100% at +0.3% over the average cost
+## 2026-10-06 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
