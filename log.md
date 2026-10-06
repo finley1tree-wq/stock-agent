@@ -22466,3 +22466,16 @@ lesson: When the whole book exits simultaneously on cooldown and a full diversif
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-06 11:55 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain: Flat book, 11am hour is PROBATION (cut to 1/4 size) and already spent full weekly budget today ($31.5k vs $25k budget) via rapid rotation with near-zero net edge (realized_per_dollar 0.02%). Eight diversified buy_limits already rest below market on congress-backed names (UNH, IBM, GS, KO, NFLX, AVGO, HD, PG) per past lesson that this beats chasing fresh market entries at high-range prints in a PROBATION hour. No new market buys now - let the ladder fill at better levels; this matches the pattern that graded positively in recent checks.
+lesson: In PROBATION hours with a full ladder of congress-backed buy_limits already resting below market, do nothing new rather than force fresh market buys at high-range prints - the ladder has consistently graded positive in the journal.
+portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
