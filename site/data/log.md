@@ -1,45 +1,3 @@
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) and we are flat (0 positions, 0 equity invested), so there is nothing to protect or sell. Every past lesson today from hour 10 onward shows forced PROBATION-hour entries graded negative 8/8 times, and it's now 15:19 with only 1 check left before close - not friday_cleanup so no mandate to deploy. Correct action is to sit out this final window since buys would be dropped anyway and there are no open positions needing management.
-lesson: When no_new_entries_this_check is true and book is flat, don't propose buys/sells - just wait; late-day PROBATION/CULLED hour entries graded negative all day.
-portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-02 15:50 ET (Friday) — week 2026-W40 — budget left $24980.83 (today $54600.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
-  (AORT excluded: too thinly traded ($17.9M a day) — Artivion, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CMPX excluded: too thinly traded ($4.1M a day) — Compass Therapeutics, Inc.)
-  (EPAC excluded: too thinly traded ($16.4M a day) — Enerpac Tool Group Corp.)
-  (HMN excluded: too thinly traded ($13.6M a day) — Horace Mann Educators Corporation)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: It's 15:50 ET, no_new_entries_this_check is true (past the 14:00 cutoff and within 30min of 16:00 close), and positions_held is 0 so there's nothing to protect or sell. Market closes in 10 minutes - no action is appropriate here.
-lesson: When no_new_entries_this_check is true and book is flat this late in the day (15:50, close at 16:00), there is nothing to do - no buys allowed, no positions to manage; just wait for the day to end.
-portfolio: equity $25312.42 (+1.25% on $25000.00 in) · cash $25312.42 · realised +312.42
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-10-02 16:00 ET — published the session's closing state
-## 2026-10-05 00:06 ET — published the session's closing state
-
-## 2026-10-05 09:32 ET (Monday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AUBN excluded: too thinly traded ($0.0M a day) — Auburn National Bancorporation, Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ESEA excluded: too thinly traded ($3.2M a day) — Euroseas Ltd.)
-  (LEEEF excluded: too thinly traded ($0.0M a day) — Leef Brands Inc.)
-  (PROP excluded: too thinly traded ($0.7M a day) — Prairie Operating Co.)
-  (SKYH excluded: too thinly traded ($1.8M a day) — Sky Harbour Group Corporation)
-brain: Book is flat at 09:32 (SURVIVOR hour per strategy_stages) with 100% idle cash - deploying to min_positions now is correct per repeated past lessons and owner instructions. I prioritized congress-disclosure-backed names (congress signal has 0.62 hit rate, +0.02 avg per track_record, and +0.39 avg_pct in counterfactual_learning by_signal_chosen - the best proven signal besides risk_management/standing_order) combined with momentum/news where available, avoiding CHRW/LTH/HUBB despite strong congress signal because CHRW -11% today is a clear risk-off red flag and all three are thin/illiquid names. Protective stops placed on every new position per risk_management best practice (highest realized hit rate at 0.88 in track record).
-lesson: Congress-signal buys showed the best counterfactual avg_pct (+0.39%) among usable signals this session; favor congress-disclosed names with reasonable entry (not at top of day range) over momentum-only entries, and always pair with a risk_management stop given its 0.88 hit rate historically.
-  (dropped AAPL: 98% up today's range — resting a limit at $333.59 instead of chasing)
-- BUY $3000.00 AVGO [filled] ['congress', 'momentum'] — Congress buying pressure plus reasonable entry level, not chasing a high in range | evidence: Rep. Rick W. Allen (disclosure leaderboard: +2.76% avg excess, 8 scored buys) and David J. Taylor both disclosed AVGO buys; AVGO +0.72% today, at 42% of day range, not extended
-- BUY $2500.00 PG [filled] ['congress', 'news'] — Congress buy-pressure on a low-volatility staple to anchor the book | evidence: David J. Taylor (Rep.) and Lloyd Doggett both disclosed PG buys per congress_recent_trades; PG +0.37% today at 81% range but low ATR (1.45%) defensive name
-- BUY $2500.00 ACN [filled] ['congress', 'track_record'] — Congress pressure plus past counterfactual evidence this exact congress-flagged name has outperformed significantly | evidence: congress_net_buy_pressure shows ACN at 1.0; biggest_misses shows ACN fwd_pct +22.91% was a past miss with congress=2 signal, showing this congress-flagged name has run strongly before
-- BUY $2500.00 MSFT [filled] ['congress', 'momentum'] — Congress buy plus strong intraday momentum in a widely-held mega-cap | evidence: Cleo Fields disclosed MSFT buy 2026-09-10; MSFT +1.8% today, +3.47% 5d, strong widely_held momentum
 - BUY $2500.00 NFLX [filled] ['congress', 'news'] — Two congress members disclosed buys in NFLX, strongest congress signal pairing in the list besides CHRW/HUBB/LTH which are too volatile today | evidence: Cleo Fields and Byron Donalds both disclosed NFLX buys per who_disclosed_it; congress_net_buy_pressure NFLX=2.0
 - BUY $2500.00 TSM [filled] ['congress', 'momentum'] — Congress pressure combined with strong multi-timeframe momentum in TSM | evidence: congress_net_buy_pressure TSM=1.0; TSM +1.35% today, +5.8% 5d, +14.9% 1m - strong momentum in semis
 - BUY $2500.00 HD [filled] ['congress'] — Fresh congress buy disclosure on a beaten-down name, not chasing an extended move | evidence: David J. Taylor disclosed HD buy 2026-09-22 (disclosed 2026-10-01); HD -11.15% 1m giving a reset entry point at 47% of day range
@@ -398,3 +356,45 @@ portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-05 17:10 ET — published the session's closing state
+
+## 2026-10-06 09:32 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Flat book, min_positions=8, full_deployment active - build 8 names now at full size using congress-signal evidence which the journal and counterfactual both flagged as the best-performing signal this session (+0.39-0.73% avg). Picked names low/mid in day range (NFLX 4.9%, TSM 12.7%, AVGO 32.7%, GS 54.6%) to avoid chasing, paired each with a congressional disclosure or repeated journal pattern (KO staple). Added protective stops sized to each name's ATR since every position auto-closes within 30 min but risk_management stops have the best historical hit rate (0.88).
+lesson: Congress-disclosure-backed buys entered low/mid in day range at the SURVIVOR 09:xx hour have repeatedly shown positive avg_pct in the journal - keep prioritizing that combination over momentum-only chases.
+  (dropped PG: 100% up today's range — resting a limit at $147.89 instead of chasing)
+  (dropped KO: 100% up today's range — resting a limit at $86.61 instead of chasing)
+- BUY $4500.00 AVGO [filled] ['congress', 'momentum', 'track_record'] — Congress-backed name at only 32.7% of day range, room to run, SURVIVOR hour 09:xx | evidence: congress_net_buy_pressure AVGO=1.0, +0.89% today, 2.6% ATR, widely_held sector hit_rate 0.56
+- BUY $4000.00 NFLX [filled] ['congress', 'news'] — Two congress disclosures and low in day range gives favorable entry | evidence: Rep. Cleo Fields and Byron Donalds both disclosed NFLX buys; price at 4.9% of day range (near low)
+- BUY $3500.00 GS [filled] ['congress'] — Two congress buy disclosures on GS, price mid-range at 54.6% | evidence: Rep. Michael A. Rulli (GS buy disclosed 2026-10-02) and Gilbert Ray Cisneros also bought GS; congress_net_buy_pressure=2.0
+- BUY $3000.00 TSM [filled] ['congress', 'momentum'] — Congress pressure plus low in today's range, widely_held momentum name | evidence: congress_net_buy_pressure TSM=1.0, change_5d +5.73%, only 12.7% of day range
+- BUY $2500.00 ACN [filled] ['congress'] — Congress-backed, counterfactual flagged as a repeated big miss when skipped | evidence: congress_net_buy_pressure ACN=1.0, biggest_misses shows ACN fwd_pct +22.91% was missed previously
+- BUY $2000.00 HD [filled] ['congress'] — Congress buy pressure on HD, momentum confirming | evidence: David J. Taylor disclosed HD buy 2026-10-01; +0.89% today, 81% of day range
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+~ WORKING stop_loss 100% AVGO @ $358.40 until 2026-10-06 — Protective stop at ~2x ATR
+~ WORKING stop_loss 100% NFLX @ $65.75 until 2026-10-06 — Protective stop at ~2.5% below entry
+~ WORKING stop_loss 100% GS @ $877.00 until 2026-10-06 — Protective stop ~2.4% below entry
+~ WORKING stop_loss 100% TSM @ $471.00 until 2026-10-06 — Protective stop ~2.5% below entry
+~ WORKING stop_loss 100% ACN @ $188.50 until 2026-10-06 — Protective stop ~3.2% below entry given high ATR
+~ WORKING stop_loss 100% HD @ $276.50 until 2026-10-06 — Protective stop ~2.5% below entry
+~ WORKING buy_limit $3500.00 PG @ $147.89 until 2026-10-06 — wanted it, but not at the high — resting at $147.89. Congress pressure plus +1.75% today momentum confirming
+~ WORKING buy_limit $2000.00 KO @ $86.61 until 2026-10-06 — wanted it, but not at the high — resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early
+~ WORKING take_profit 100% AVGO @ $366.87 until 2026-10-11 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $354.83 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NFLX @ $67.64 until 2026-10-11 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $65.43 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GS @ $901.44 until 2026-10-11 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GS @ $872.24 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $484.34 until 2026-10-11 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $468.72 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $195.89 until 2026-10-11 — close 100% at +0.6% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $188.96 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $284.40 until 2026-10-11 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $275.20 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25318.19 (+1.27% on $25000.00 in) · cash $5822.09 · realised +322.09
+Done: 0 sell(s), 6 buy(s); 20 order(s) working; budget left $5500.00 this week

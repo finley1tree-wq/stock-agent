@@ -236,3 +236,4 @@
 - 2026-10-05 (11d graded, realised 0.01% per dollar): After no_new_entries_after_et cutoff, don't try to add buys - let existing resting buy_limits do the work and just monitor for fills/protective needs.
 - 2026-10-05 (11d graded, realised 0.01% per dollar): After no_new_entries_after_et cutoff, buys are dropped regardless of evidence quality - don't waste reasoning trying to construct entries; focus checks near close on monitoring any open positions/standing orders only.
 - 2026-10-05 (11d graded, realised 0.01% per dollar): After no_new_entries_after_et cutoff with zero open positions, there is nothing actionable - confirm cutoff status before spending effort constructing entries that will be dropped.
+- 2026-10-06 (12d graded, realised 0.01% per dollar): Congress-disclosure-backed buys entered low/mid in day range at the SURVIVOR 09:xx hour have repeatedly shown positive avg_pct in the journal - keep prioritizing that combination over momentum-only chases.

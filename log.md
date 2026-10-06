@@ -22230,3 +22230,45 @@ portfolio: equity $25322.09 (+1.29% on $25000.00 in) · cash $25322.09 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-05 17:10 ET — published the session's closing state
+
+## 2026-10-06 09:32 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Flat book, min_positions=8, full_deployment active - build 8 names now at full size using congress-signal evidence which the journal and counterfactual both flagged as the best-performing signal this session (+0.39-0.73% avg). Picked names low/mid in day range (NFLX 4.9%, TSM 12.7%, AVGO 32.7%, GS 54.6%) to avoid chasing, paired each with a congressional disclosure or repeated journal pattern (KO staple). Added protective stops sized to each name's ATR since every position auto-closes within 30 min but risk_management stops have the best historical hit rate (0.88).
+lesson: Congress-disclosure-backed buys entered low/mid in day range at the SURVIVOR 09:xx hour have repeatedly shown positive avg_pct in the journal - keep prioritizing that combination over momentum-only chases.
+  (dropped PG: 100% up today's range — resting a limit at $147.89 instead of chasing)
+  (dropped KO: 100% up today's range — resting a limit at $86.61 instead of chasing)
+- BUY $4500.00 AVGO [filled] ['congress', 'momentum', 'track_record'] — Congress-backed name at only 32.7% of day range, room to run, SURVIVOR hour 09:xx | evidence: congress_net_buy_pressure AVGO=1.0, +0.89% today, 2.6% ATR, widely_held sector hit_rate 0.56
+- BUY $4000.00 NFLX [filled] ['congress', 'news'] — Two congress disclosures and low in day range gives favorable entry | evidence: Rep. Cleo Fields and Byron Donalds both disclosed NFLX buys; price at 4.9% of day range (near low)
+- BUY $3500.00 GS [filled] ['congress'] — Two congress buy disclosures on GS, price mid-range at 54.6% | evidence: Rep. Michael A. Rulli (GS buy disclosed 2026-10-02) and Gilbert Ray Cisneros also bought GS; congress_net_buy_pressure=2.0
+- BUY $3000.00 TSM [filled] ['congress', 'momentum'] — Congress pressure plus low in today's range, widely_held momentum name | evidence: congress_net_buy_pressure TSM=1.0, change_5d +5.73%, only 12.7% of day range
+- BUY $2500.00 ACN [filled] ['congress'] — Congress-backed, counterfactual flagged as a repeated big miss when skipped | evidence: congress_net_buy_pressure ACN=1.0, biggest_misses shows ACN fwd_pct +22.91% was missed previously
+- BUY $2000.00 HD [filled] ['congress'] — Congress buy pressure on HD, momentum confirming | evidence: David J. Taylor disclosed HD buy 2026-10-01; +0.89% today, 81% of day range
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+~ WORKING stop_loss 100% AVGO @ $358.40 until 2026-10-06 — Protective stop at ~2x ATR
+~ WORKING stop_loss 100% NFLX @ $65.75 until 2026-10-06 — Protective stop at ~2.5% below entry
+~ WORKING stop_loss 100% GS @ $877.00 until 2026-10-06 — Protective stop ~2.4% below entry
+~ WORKING stop_loss 100% TSM @ $471.00 until 2026-10-06 — Protective stop ~2.5% below entry
+~ WORKING stop_loss 100% ACN @ $188.50 until 2026-10-06 — Protective stop ~3.2% below entry given high ATR
+~ WORKING stop_loss 100% HD @ $276.50 until 2026-10-06 — Protective stop ~2.5% below entry
+~ WORKING buy_limit $3500.00 PG @ $147.89 until 2026-10-06 — wanted it, but not at the high — resting at $147.89. Congress pressure plus +1.75% today momentum confirming
+~ WORKING buy_limit $2000.00 KO @ $86.61 until 2026-10-06 — wanted it, but not at the high — resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early
+~ WORKING take_profit 100% AVGO @ $366.87 until 2026-10-11 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $354.83 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NFLX @ $67.64 until 2026-10-11 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $65.43 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GS @ $901.44 until 2026-10-11 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GS @ $872.24 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $484.34 until 2026-10-11 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $468.72 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $195.89 until 2026-10-11 — close 100% at +0.6% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $188.96 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $284.40 until 2026-10-11 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $275.20 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25318.19 (+1.27% on $25000.00 in) · cash $5822.09 · realised +322.09
+Done: 0 sell(s), 6 buy(s); 20 order(s) working; budget left $5500.00 this week

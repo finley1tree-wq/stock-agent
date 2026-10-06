@@ -53929,5 +53929,177 @@
     "hour_et": 11,
     "code_version": "283a0d1",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 4500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 12.301698,
+    "price": 365.8,
+    "date": "2026-10-06",
+    "time_et": "09:32",
+    "ts": 1791293564,
+    "why": "Congress-backed name at only 32.7% of day range, room to run, SURVIVOR hour 09:xx",
+    "signals": [
+      "congress",
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "congress_net_buy_pressure AVGO=1.0, +0.89% today, 2.6% ATR, widely_held sector hit_rate 0.56",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 365.73,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.19,
+    "hour_et": 9,
+    "code_version": "8d578de",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NFLX",
+    "notional": 4000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 59.300121,
+    "price": 67.45,
+    "date": "2026-10-06",
+    "time_et": "09:32",
+    "ts": 1791293564,
+    "why": "Two congress disclosures and low in day range gives favorable entry",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Rep. Cleo Fields and Byron Donalds both disclosed NFLX buys; price at 4.9% of day range (near low)",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 67.44,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -13.81,
+    "hour_et": 9,
+    "code_version": "8d578de",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GS",
+    "notional": 3500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.892263,
+    "price": 899.22,
+    "date": "2026-10-06",
+    "time_et": "09:32",
+    "ts": 1791293564,
+    "why": "Two congress buy disclosures on GS, price mid-range at 54.6%",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "Rep. Michael A. Rulli (GS buy disclosed 2026-10-02) and Gilbert Ray Cisneros also bought GS; congress_net_buy_pressure=2.0",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 899.04,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -13.44,
+    "hour_et": 9,
+    "code_version": "8d578de",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.208396,
+    "price": 483.22,
+    "date": "2026-10-06",
+    "time_et": "09:32",
+    "ts": 1791293564,
+    "why": "Congress pressure plus low in today's range, widely_held momentum name",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress_net_buy_pressure TSM=1.0, change_5d +5.73%, only 12.7% of day range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 483.12,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 12.64,
+    "hour_et": 9,
+    "code_version": "8d578de",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "ACN",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 12.833745,
+    "price": 194.8,
+    "date": "2026-10-06",
+    "time_et": "09:32",
+    "ts": 1791293564,
+    "why": "Congress-backed, counterfactual flagged as a repeated big miss when skipped",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure ACN=1.0, biggest_misses shows ACN fwd_pct +22.91% was missed previously",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 194.76,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.31,
+    "hour_et": 9,
+    "code_version": "8d578de",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HD",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.049533,
+    "price": 283.71,
+    "date": "2026-10-06",
+    "time_et": "09:32",
+    "ts": 1791293564,
+    "why": "Congress buy pressure on HD, momentum confirming",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "David J. Taylor disclosed HD buy 2026-10-01; +0.89% today, 81% of day range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 283.65,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -11.65,
+    "hour_et": 9,
+    "code_version": "8d578de",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
