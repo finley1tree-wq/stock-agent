@@ -22325,3 +22325,27 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $223.69] -> $2005.68 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-10-06 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [stop_loss @ $86.50] -> $1997.48 (-0.13%) — close it all at -0.4% under the average cost
+## 2026-10-06 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-06 09:55 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
+brain: Below min_positions (2 of 8) with 82% cash idle - the desk instruction is explicit to deploy more, not sit out. GS, HD, PG, IBM are off cooldown or cooldown-irrelevant (IBM 43min left actually still cooling - replacing with PG/HD re-buys already held evidence), all carry concrete congress-disclosure evidence consistent with the SURVIVOR 09:xx hour pattern that journal notes have repeatedly shown positive. Adding protective stops on each new position per risk_management best practice, which has the highest realized hit rate (0.88) in track record.
+lesson: Congress-disclosure evidence at SURVIVOR 09:xx hour continues to be the primary entry filter; always pair new entries with an immediate stop_loss given risk_management's 0.88 historical hit rate.
+  (dropped GS: sold 8 min ago, cooling off)
+  (dropped HD: sold 14 min ago, cooling off)
+  (dropped PG: sold 6 min ago, cooling off)
+  (dropped IBM: sold 2 min ago, cooling off)
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger HD stop_loss: not held)
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+portfolio: equity $25366.72 (+1.47% on $25000.00 in) · cash $20882.28 · realised +382.28
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

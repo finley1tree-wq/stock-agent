@@ -1,11 +1,11 @@
 {
   "week": "2026-W41",
-  "spent": 6437.28,
+  "spent": 4439.8,
   "deployed": 60000.0,
   "by_ticker": {
     "ACN": 2543.61,
     "HD": 9.05,
-    "KO": 2000.0,
+    "KO": 2.52,
     "AMGN": 2000.0,
     "PG": 0.05
   },
@@ -910,13 +910,34 @@
       ],
       "evidence": "average cost $223.05",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "KO",
+      "side": "sell",
+      "qty": 23.093088,
+      "status": "filled",
+      "price": 86.5,
+      "proceeds": 1997.48,
+      "realized_pnl": -2.52,
+      "realized_pct": -0.13,
+      "date": "2026-10-06",
+      "time_et": "09:55",
+      "ts": 1791294900,
+      "why": "close it all at -0.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.61",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-06",
-  "spent_today": 6437.28,
+  "spent_today": 4439.8,
   "deployed_today": 31500.0,
   "orders_today": 11,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "NFLX",
     "TSM",
@@ -925,7 +946,8 @@
     "UNH",
     "GS",
     "PG",
-    "IBM"
+    "IBM",
+    "KO"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
@@ -934,7 +956,7 @@
     "NFLX": 1791293713,
     "UNH": 1791294299,
     "PEP": 1791208891,
-    "KO": 1791209054,
+    "KO": 1791294946,
     "AAPL": 1791209185,
     "PG": 1791294611,
     "ACN": 1791212592,
@@ -942,8 +964,8 @@
     "GS": 1791294473,
     "IBM": 1791294855
   },
-  "last_publish_ts": 1791294854,
-  "last_check_ts": 1791294854,
+  "last_publish_ts": 1791294945,
+  "last_check_ts": 1791294947,
   "exp_arm": {
     "GS": {
       "params": {
@@ -1000,19 +1022,16 @@
       }
     }
   },
-  "last_bar_ts": 1791294600,
-  "last_decision_ts": 1791293968,
+  "last_bar_ts": 1791294900,
+  "last_decision_ts": 1791294947,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "310ac31b": 86.658,
     "a28491b2": 403.5626,
-    "4b2cc6e1": 86.7399,
     "5823c259": 195.8928,
     "2205915b": 188.956,
     "8aae915c": 393.5,
     "65c4c014": 188.5,
-    "5a32e355": 84.0117,
     "3e044b47": 390.425
   }
 }

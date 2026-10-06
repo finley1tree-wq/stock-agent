@@ -1,6 +1,3 @@
-- SELL 100% AVGO [take_profit @ $359.03] -> $3010.55 (+0.35%) — close 100% at +0.3% over the average cost
-## 2026-10-05 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NFLX: position closed)
 - SELL 100% NFLX [take_profit @ $67.29] -> $4516.76 (+0.37%) — close 100% at +0.3% over the average cost
 ## 2026-10-05 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2000.00 UNH [buy_limit @ $370.50] — Widely-held defensive healthcare name diversifying sector exposure at a non-extended entry point
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $223.69] -> $2005.68 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-10-06 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [stop_loss @ $86.50] -> $1997.48 (-0.13%) — close it all at -0.4% under the average cost
+## 2026-10-06 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders

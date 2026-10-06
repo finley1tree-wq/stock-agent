@@ -53959,7 +53959,9 @@
     "code_version": "8d578de",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.3
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "NFLX",
@@ -54020,7 +54022,9 @@
     "code_version": "8d578de",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -54081,7 +54085,7 @@
     "code_version": "8d578de",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.65
   },
   {
     "symbol": "HD",
@@ -54110,7 +54114,9 @@
     "code_version": "8d578de",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "NFLX",
@@ -54194,7 +54200,9 @@
     "code_version": "01d511b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.13,
+    "ret_final": -0.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -54223,7 +54231,10 @@
     "hour_et": 9,
     "code_version": "d41841f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.21,
+    "ret_now": 0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -54252,7 +54263,10 @@
     "hour_et": 9,
     "code_version": "d41841f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.28,
+    "ret_now": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMGN",
@@ -54280,7 +54294,8 @@
     "hour_et": 9,
     "code_version": "d41841f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.08
   },
   {
     "symbol": "AVGO",
@@ -54306,7 +54321,8 @@
     "evidence": "average cost $365.8",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "8fc6901"
+    "code_version": "8fc6901",
+    "hold_minutes": 2
   },
   {
     "symbol": "HD",
@@ -54330,7 +54346,8 @@
     "evidence": "average cost $283.71",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "15de13d"
+    "code_version": "15de13d",
+    "hold_minutes": 7
   },
   {
     "symbol": "UNH",
@@ -54355,7 +54372,8 @@
     "evidence": "average cost $378.51",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "828881d"
+    "code_version": "828881d",
+    "hold_minutes": 0
   },
   {
     "symbol": "PG",
@@ -54386,7 +54404,10 @@
     "hour_et": 9,
     "code_version": "f5fe4f9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.0,
+    "ret_now": 0.0,
+    "ret_src": "realised"
   },
   {
     "symbol": "GS",
@@ -54410,7 +54431,8 @@
     "evidence": "average cost $899.22",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "09fa8fd"
+    "code_version": "09fa8fd",
+    "hold_minutes": 12
   },
   {
     "symbol": "PG",
@@ -54435,7 +54457,8 @@
     "evidence": "average cost $147.89",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "8e5b511"
+    "code_version": "8e5b511",
+    "hold_minutes": 5
   },
   {
     "symbol": "IBM",
@@ -54460,6 +54483,33 @@
     "evidence": "average cost $223.05",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "40afddb"
+    "code_version": "40afddb",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "KO",
+    "side": "sell",
+    "qty": 23.093088,
+    "status": "filled",
+    "price": 86.5,
+    "proceeds": 1997.48,
+    "realized_pnl": -2.52,
+    "realized_pct": -0.13,
+    "date": "2026-10-06",
+    "time_et": "09:55",
+    "ts": 1791294900,
+    "why": "close it all at -0.4% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $86.61",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "41f315d",
+    "hold_minutes": 20
   }
 ]
