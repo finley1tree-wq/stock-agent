@@ -22694,3 +22694,6 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $86.68] -> $1854.68 (+0.15%) — close 100% at +0.1% over the average cost
 ## 2026-10-07 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $148.94] -> $3712.65 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-07 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

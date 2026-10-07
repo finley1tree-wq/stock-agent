@@ -1,11 +1,10 @@
 {
   "week": "2026-W41",
-  "spent": 12038.48,
+  "spent": 8325.83,
   "deployed": 85375.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 3.59,
-    "PG": 3703.75,
     "GS": 4166.67,
     "NFLX": 4166.67,
     "IBM": 23.97
@@ -1287,19 +1286,41 @@
       ],
       "evidence": "average cost $86.55",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PG",
+      "side": "sell",
+      "qty": 24.926305,
+      "status": "filled",
+      "price": 148.94,
+      "proceeds": 3712.65,
+      "realized_pnl": 8.95,
+      "realized_pct": 0.24,
+      "date": "2026-10-07",
+      "time_et": "09:40",
+      "ts": 1791380400,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $148.59",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-07",
-  "spent_today": 12038.48,
+  "spent_today": 8325.83,
   "deployed_today": 25000.0,
   "orders_today": 8,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "AMGN",
     "HD",
     "TSM",
     "IBM",
-    "KO"
+    "KO",
+    "PG"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
@@ -1310,15 +1331,15 @@
     "PEP": 1791208891,
     "KO": 1791380384,
     "AAPL": 1791209185,
-    "PG": 1791294611,
+    "PG": 1791380422,
     "ACN": 1791297612,
     "HD": 1791380218,
     "GS": 1791294473,
     "IBM": 1791380339,
     "AMGN": 1791380137
   },
-  "last_publish_ts": 1791380384,
-  "last_check_ts": 1791380384,
+  "last_publish_ts": 1791380421,
+  "last_check_ts": 1791380468,
   "exp_arm": {
     "GS": {
       "params": {
@@ -1384,19 +1405,16 @@
       }
     }
   },
-  "last_bar_ts": 1791380100,
+  "last_bar_ts": 1791380400,
   "last_decision_ts": 1791379971,
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "6363bdfe": 148.8411,
-    "9eeed24a": 877.363,
     "6d24be62": 69.2399,
-    "d8fd4410": 147.9615,
+    "9eeed24a": 877.363,
     "fa6dd920": 850.0,
-    "1803c2a2": 67.0,
-    "ffb70d51": 66.9785,
     "7b9c7120": 848.9537,
-    "424fe983": 144.1323
+    "1803c2a2": 67.0,
+    "ffb70d51": 66.9785
   }
 }

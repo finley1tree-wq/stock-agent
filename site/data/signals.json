@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-07T09:39-04:00",
+ "asOf": "2026-10-07T09:40-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6363bdfe",
-   "ticker": "PG",
+   "id": "6d24be62",
+   "ticker": "NFLX",
    "kind": "take_profit",
-   "price": 148.8411,
+   "price": 69.2399,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 149.03,
-   "pct_away": -0.13,
+   "last": 68.88,
+   "pct_away": 0.52,
    "good_until": "2026-10-12",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,44 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 872.91,
-   "pct_away": 0.51,
+   "last": 871.64,
+   "pct_away": 0.66,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6d24be62",
-   "ticker": "NFLX",
-   "kind": "take_profit",
-   "price": 69.2399,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 68.86,
-   "pct_away": 0.55,
-   "good_until": "2026-10-12",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d8fd4410",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 147.9615,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 149.03,
-   "pct_away": -0.72,
-   "good_until": "2026-10-12",
-   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,12 +219,29 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 872.91,
-   "pct_away": -2.62,
+   "last": 871.64,
+   "pct_away": -2.48,
    "good_until": "2026-10-07",
    "why": "Cap downside on volatile financial name",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "7b9c7120",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 848.9537,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 871.64,
+   "pct_away": -2.6,
+   "good_until": "2026-10-12",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -269,8 +252,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 68.86,
-   "pct_away": -2.7,
+   "last": 68.88,
+   "pct_away": -2.73,
    "good_until": "2026-10-07",
    "why": "Protection since bought near 77.6% of day range",
    "signals": [
@@ -285,42 +268,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 68.86,
-   "pct_away": -2.73,
-   "good_until": "2026-10-12",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7b9c7120",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 848.9537,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 872.91,
-   "pct_away": -2.74,
-   "good_until": "2026-10-12",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "424fe983",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 144.1323,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 149.03,
-   "pct_away": -3.29,
+   "last": 68.88,
+   "pct_away": -2.76,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
