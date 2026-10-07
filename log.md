@@ -22722,3 +22722,5 @@ lesson: When most of the target buy list is in rebuy cooldown from a prior sell 
 ~ WORKING buy_limit $2500.00 TSM @ $466.00 until 2026-10-07 — Rebuy TSM once cooldown clears via resting limit below market, congress pressure present
 portfolio: equity $25399.85 (+1.60% on $25000.00 in) · cash $21246.69 · realised +413.36
 Decision: nothing at this check. 6 standing order(s) working.
+- BUY $625.00 UNH [buy_limit @ $376.50] — Enter UNH slightly below market to avoid chasing, momentum +0.24% today, widely_held sector hit_rate 0.57 [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-07 10:06 ET — tick — 0 sell(s), 1 buy(s) from standing orders

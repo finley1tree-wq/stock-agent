@@ -1,12 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 4148.89,
-  "deployed": 85375.0,
+  "spent": 4773.89,
+  "deployed": 86000.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 3.59,
     "NFLX": 4166.67,
-    "IBM": 23.97
+    "IBM": 23.97,
+    "UNH": 625.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -16,7 +17,7 @@
     "NFLX": 12666.67,
     "TSM": 8277.78,
     "HD": 6814.81,
-    "UNH": 4500.0,
+    "UNH": 5125.0,
     "KO": 5851.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
@@ -1327,12 +1328,35 @@
       ],
       "evidence": "average cost $875.21",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.660027,
+      "price": 376.5,
+      "date": "2026-10-07",
+      "time_et": "10:06",
+      "ts": 1791381900,
+      "why": "Enter UNH slightly below market to avoid chasing, momentum +0.24% today, widely_held sector hit_rate 0.57 [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum",
+        "standing_order"
+      ],
+      "evidence": "Kevin Hern sold UNH but no fresh pressure; UNH 52.2% of day range, 1m change -5.89%, modest pullback entry just below market",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-07",
-  "spent_today": 4148.89,
-  "deployed_today": 25000.0,
-  "orders_today": 8,
+  "spent_today": 4773.89,
+  "deployed_today": 25625.0,
+  "orders_today": 9,
   "sells_today": 7,
   "sold_today": [
     "AMGN",
@@ -1359,18 +1383,9 @@
     "IBM": 1791380339,
     "AMGN": 1791380137
   },
-  "last_publish_ts": 1791381801,
-  "last_check_ts": 1791381915,
+  "last_publish_ts": 1791381998,
+  "last_check_ts": 1791381998,
   "exp_arm": {
-    "GS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "NFLX": {
       "params": {
         "hold_minutes": 90,
@@ -1380,43 +1395,7 @@
         "ratchet": "on"
       }
     },
-    "IBM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "HD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "PG": {
+    "UNH": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -1431,11 +1410,13 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "e0dd8afa": 376.5,
-    "7dc86ba8": 368.5,
+    "03ca9eb7": 377.317,
     "6d24be62": 69.2399,
+    "7dc86ba8": 368.5,
+    "11c86311": 374.4518,
     "f0274ad5": 466.0,
     "1803c2a2": 67.0,
-    "ffb70d51": 66.9785
+    "ffb70d51": 66.9785,
+    "b5b6cebe": 365.205
   }
 }
