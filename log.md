@@ -22825,3 +22825,18 @@ lesson: When no_new_entries_this_check is true and positions_held is 0, there is
 portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realised +403.95
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-07 15:45 ET (Wednesday) — week 2026-W41 — budget left $25000.00 (today $26875.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (no price for AXIA — excluded this check)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff, 15:45 now, market closes 16:00, checks_left_today is 0) so new buys will be dropped. No open positions to sell or protect. Nothing actionable; session is effectively over.
+lesson: At 15:45 with no_new_entries_this_check true and zero checks left today, there is nothing to do but confirm and end the session - don't build orders that guardrails will drop.
+portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realised +403.95
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
