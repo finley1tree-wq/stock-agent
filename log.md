@@ -22804,3 +22804,24 @@ Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% NFLX [time stop] -> $4152.33 (-0.34%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-07 11:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 4 resting buy order(s): past the entry cutoff)
+  (cancelled 1 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $475.67] -> $626.79 (+0.29%) — close 100% at +0.3% over the average cost
+  (cancelled 1 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $220.95] -> $626.78 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-07 15:14 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-07 15:15 ET (Wednesday) — week 2026-W41 — budget left $25000.00 (today $26875.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (no price for AXIA — excluded this check)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff, only 45 min to close) and positions_held is 0, so no buys are actionable - guardrails would drop any order. No existing positions to sell or protect. Nothing to do but wait for the desk to close out the day; will reassess at next check if entries reopen.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - confirm cutoff and stop rather than building orders that will be dropped.
+portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realised +403.95
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

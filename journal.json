@@ -54684,7 +54684,9 @@
     "code_version": "bee6699",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.34,
+    "ret_final": -0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -55142,7 +55144,9 @@
     "code_version": "27ad6a3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.08
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -55172,7 +55176,9 @@
     "code_version": "586068b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "NFLX",
@@ -55195,6 +55201,59 @@
     "evidence": "bought 90 min ago, -0.32% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "fa1453c"
+    "code_version": "fa1453c",
+    "hold_minutes": 91
+  },
+  {
+    "symbol": "HUBB",
+    "side": "sell",
+    "qty": 1.317705,
+    "status": "filled",
+    "price": 475.67,
+    "proceeds": 626.79,
+    "realized_pnl": 1.79,
+    "realized_pct": 0.29,
+    "date": "2026-10-07",
+    "time_et": "15:14",
+    "ts": 1791391500,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $474.31",
+    "trigger": "take_profit",
+    "hour_et": 15,
+    "code_version": "ef9fc9b",
+    "hold_minutes": 145
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 2.836731,
+    "status": "filled",
+    "price": 220.95,
+    "proceeds": 626.78,
+    "realized_pnl": 1.78,
+    "realized_pct": 0.28,
+    "date": "2026-10-07",
+    "time_et": "15:14",
+    "ts": 1791396300,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $220.32",
+    "trigger": "take_profit",
+    "hour_et": 15,
+    "code_version": "ef9fc9b",
+    "hold_minutes": 209
   }
 ]

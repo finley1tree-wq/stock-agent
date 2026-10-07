@@ -1,9 +1,3 @@
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
-brain: Hour 10 is PROBATION and all congress-backed candidates (KO, GS, UNH, NFLX, AVGO, HD, PG, IBM) sit high in day range (pct_of_day_range 56-96%) with existing resting buy_limits already placed below market at better entries - no need to chase at market per guardrails (max_entry_range_pct 85, chase_limit 55). AMGN is the only open position, protected with stop_loss at 393.5 and take_profit at 403.56. Letting the 8 diversified buy_limit ladders fill naturally is the better move than forcing fresh market buys into extended prints, consistent with the last 12 days of lessons on this exact pattern.</reasoning>
-<parameter name="lesson">When the book just rotated out on simultaneous cooldowns and remaining candidates are 56-96% of day range in a PROBATION hour, resting buy_limits already in place are the correct tool - keep monitoring for fills rather than re-deriving new market orders into the same names.
-portfolio: equity $25370.08 (+1.48% on $25000.00 in) · cash $23396.32 · realised +396.32
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +392,9 @@ Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% NFLX [time stop] -> $4152.33 (-0.34%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-07 11:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 4 resting buy order(s): past the entry cutoff)
+  (cancelled 1 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $475.67] -> $626.79 (+0.29%) — close 100% at +0.3% over the average cost
+  (cancelled 1 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $220.95] -> $626.78 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-07 15:14 ET — tick — 2 sell(s), 0 buy(s) from standing orders

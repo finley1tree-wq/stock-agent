@@ -7233,7 +7233,7 @@
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 368.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:03",
    "created_ts": 1791381801,
    "why": "Resume AVGO position at a dip level below current price, low in day range gives good entry",
@@ -7243,14 +7243,16 @@
     "momentum"
    ],
    "good_until": "2026-10-07",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-10-07 15:14",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "f0274ad5",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 466.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:03",
    "created_ts": 1791381801,
    "why": "Rebuy TSM once cooldown clears via resting limit below market, congress pressure present",
@@ -7260,7 +7262,9 @@
     "momentum"
    ],
    "good_until": "2026-10-07",
-   "usd": 2500.0
+   "usd": 2500.0,
+   "closed": "2026-10-07 15:14",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "03ca9eb7",
@@ -7323,7 +7327,7 @@
    "ticker": "HUBB",
    "kind": "stop_loss",
    "price": 465.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:19",
    "created_ts": 1791382768,
    "why": "Standard protective stop per risk_management rules",
@@ -7332,14 +7336,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 15:14",
+   "cancel_reason": "position closed"
   },
   {
    "id": "24f5f2cf",
    "ticker": "HUBB",
    "kind": "take_profit",
    "price": 475.6713,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-07 10:19",
    "created_ts": 1791382768,
    "why": "close 100% at +0.3% over the average cost",
@@ -7349,14 +7355,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 15:14"
   },
   {
    "id": "ccb62ca3",
    "ticker": "HUBB",
    "kind": "buy_limit",
    "price": 460.0807,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:19",
    "created_ts": 1791382768,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7366,14 +7373,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-07 15:14",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "89843fbe",
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 216.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:35",
    "created_ts": 1791383740,
    "why": "protective stop",
@@ -7382,14 +7391,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 15:14",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5ce4f917",
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 220.9501,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-07 10:35",
    "created_ts": 1791383740,
    "why": "close 100% at +0.3% over the average cost",
@@ -7399,14 +7410,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 15:14"
   },
   {
    "id": "e28c53bb",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 213.7104,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:35",
    "created_ts": 1791383740,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7416,8 +7428,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-07 15:14",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   }
  ],
- "updated": "2026-10-07 10:50"
+ "updated": "2026-10-07 15:15"
 }
