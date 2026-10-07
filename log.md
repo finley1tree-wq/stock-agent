@@ -22634,3 +22634,46 @@ portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-06 16:00 ET — published the session's closing state
+
+## 2026-10-07 09:32 ET (Wednesday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
+  (no price for AXIA — excluded this check)
+brain: Flat book at min_positions=0, full_deployment active requiring concentration in max 6-8 names with real size. Past lessons consistently show congress-disclosure-backed buys at the 09:xx SURVIVOR hour outperform (counterfactual avg +0.33% for congress signal, vs -0.11% for momentum and -0.53% for autopilot). Built an 8-name ladder weighted toward congress-disclosed buys (GS, NFLX, PG, IBM, AMGN, TSM, HD, KO) entered at low-to-mid day range, avoiding names already extended, sized $2000-4500 each to deploy the full $25k budget per full_deployment instructions.
+lesson: Congress-disclosure names bought at low/mid day-range during the 09:xx SURVIVOR hour have been the consistently best-performing counterfactual signal bucket; keep anchoring the morning ladder on this rather than momentum-only chases.
+  (dropped PG: 100% up today's range — resting a limit at $148.59 instead of chasing)
+- BUY $4166.67 GS [filled] ['congress', 'track_record'] — Congress buy pressure plus low position in day range gives good entry; track_record shows congress signal at +0.33% avg counterfactual | evidence: Rep. Michael A. Rulli disclosed buy of GS ($1,001-$15,000, filed 2026-10-02); GS is only 10.9% of today's range at $875.03, down -2.47% 1d - cheap entry vs elevated congress interest
+- BUY $4166.67 NFLX [filled] ['congress'] — Repeated congressional buying in NFLX from two members, reasonable entry level | evidence: Rep. Cleo Fields disclosed NFLX buy (filed 2026-10-01); also Rep. Byron Donalds bought NFLX (filed 2026-09-15); NFLX at 77.6% of day range, +0.5% 1d
+- BUY $3240.74 IBM [filled] ['congress'] — Congress buy signal with reasonable entry low in range | evidence: Rep. Lloyd Doggett bought IBM (filed 2026-10-05, transaction 2026-09-10); IBM up +0.27% today at 34.6% of day range
+- BUY $2777.78 AMGN [filled] ['congress'] — Congress buy disclosure, defensive healthcare name | evidence: Rep. David J. Taylor bought AMGN (filed 2026-10-01); AMGN at 67.3% of day range
+- BUY $2777.78 TSM [filled] ['congress', 'momentum'] — Congress pressure plus favorable pullback entry | evidence: congress_net_buy_pressure shows TSM at 1.0; TSM down -1.91% today to 61.9% of day range, +7.77% 1m momentum
+- BUY $2314.81 HD [filled] ['congress'] — Multiple congress buy disclosures, low in day range entry | evidence: Rep. Lloyd Doggett and Rep. David J. Taylor both disclosed HD buys in Sept filings; HD at 28.8% of day range, down -0.75% today
+- BUY $1851.85 KO [filled] ['congress'] — Defensive staple with congress pressure, fills out 8-position target | evidence: congress_net_buy_pressure shows KO at 1.0 (Doggett-linked cluster); KO at 46.1% of day range, +0.42% today, low ATR 1.3%
+~ WORKING stop_loss 100% GS @ $850.00 until 2026-10-07 — Cap downside on volatile financial name
+~ WORKING stop_loss 100% NFLX @ $67.00 until 2026-10-07 — Protection since bought near 77.6% of day range
+~ WORKING stop_loss 100% TSM @ $460.00 until 2026-10-07 — Protect against continued slide
+~ WORKING buy_limit $3703.70 PG @ $148.59 until 2026-10-07 — wanted it, but not at the high — resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%
+~ WORKING take_profit 100% GS @ $877.36 until 2026-10-12 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GS @ $848.95 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NFLX @ $69.24 until 2026-10-12 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $66.98 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $222.53 until 2026-10-12 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% IBM @ $220.39 until 2026-10-12 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 IBM @ $215.26 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMGN @ $406.48 until 2026-10-12 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AMGN @ $402.65 until 2026-10-12 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AMGN @ $393.23 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $474.29 until 2026-10-12 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $458.98 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $285.27 until 2026-10-12 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% HD @ $282.93 until 2026-10-12 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 HD @ $276.06 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $86.68 until 2026-10-12 — close 100% at +0.1% over the average cost
+~ WORKING stop_loss 100% KO @ $86.23 until 2026-10-12 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 KO @ $83.95 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25391.30 (+1.57% on $25000.00 in) · cash $4099.26 · realised +395.56
+Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week

@@ -54624,5 +54624,203 @@
     "hour_et": 12,
     "code_version": "cda1582",
     "hold_minutes": 10
+  },
+  {
+    "symbol": "GS",
+    "notional": 4166.67,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.760793,
+    "price": 875.21,
+    "date": "2026-10-07",
+    "time_et": "09:32",
+    "ts": 1791379971,
+    "why": "Congress buy pressure plus low position in day range gives good entry; track_record shows congress signal at +0.33% avg counterfactual",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Michael A. Rulli disclosed buy of GS ($1,001-$15,000, filed 2026-10-02); GS is only 10.9% of today's range at $875.03, down -2.47% 1d - cheap entry vs elevated congress interest",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 875.03,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -15.58,
+    "hour_et": 9,
+    "code_version": "bee6699",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NFLX",
+    "notional": 4166.67,
+    "side": "buy",
+    "status": "filled",
+    "qty": 60.339467,
+    "price": 69.05,
+    "date": "2026-10-07",
+    "time_et": "09:32",
+    "ts": 1791379971,
+    "why": "Repeated congressional buying in NFLX from two members, reasonable entry level",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "Rep. Cleo Fields disclosed NFLX buy (filed 2026-10-01); also Rep. Byron Donalds bought NFLX (filed 2026-09-15); NFLX at 77.6% of day range, +0.5% 1d",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 69.04,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -10.08,
+    "hour_et": 9,
+    "code_version": "bee6699",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "IBM",
+    "notional": 3240.74,
+    "side": "buy",
+    "status": "filled",
+    "qty": 14.602902,
+    "price": 221.92,
+    "date": "2026-10-07",
+    "time_et": "09:32",
+    "ts": 1791379971,
+    "why": "Congress buy signal with reasonable entry low in range",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "Rep. Lloyd Doggett bought IBM (filed 2026-10-05, transaction 2026-09-10); IBM up +0.27% today at 34.6% of day range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 221.88,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -4.4,
+    "hour_et": 9,
+    "code_version": "bee6699",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMGN",
+    "notional": 2777.78,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.8521,
+    "price": 405.39,
+    "date": "2026-10-07",
+    "time_et": "09:32",
+    "ts": 1791379971,
+    "why": "Congress buy disclosure, defensive healthcare name",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "Rep. David J. Taylor bought AMGN (filed 2026-10-01); AMGN at 67.3% of day range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 405.31,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.09,
+    "hour_et": 9,
+    "code_version": "bee6699",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 2777.78,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.870394,
+    "price": 473.18,
+    "date": "2026-10-07",
+    "time_et": "09:32",
+    "ts": 1791379971,
+    "why": "Congress pressure plus favorable pullback entry",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress_net_buy_pressure shows TSM at 1.0; TSM down -1.91% today to 61.9% of day range, +7.77% 1m momentum",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 473.09,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.77,
+    "hour_et": 9,
+    "code_version": "bee6699",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HD",
+    "notional": 2314.81,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.133644,
+    "price": 284.6,
+    "date": "2026-10-07",
+    "time_et": "09:32",
+    "ts": 1791379971,
+    "why": "Multiple congress buy disclosures, low in day range entry",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "Rep. Lloyd Doggett and Rep. David J. Taylor both disclosed HD buys in Sept filings; HD at 28.8% of day range, down -0.75% today",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 284.54,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -9.3,
+    "hour_et": 9,
+    "code_version": "bee6699",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KO",
+    "notional": 1851.85,
+    "side": "buy",
+    "status": "filled",
+    "qty": 21.396969,
+    "price": 86.55,
+    "date": "2026-10-07",
+    "time_et": "09:32",
+    "ts": 1791379971,
+    "why": "Defensive staple with congress pressure, fills out 8-position target",
+    "signals": [
+      "congress"
+    ],
+    "evidence": "congress_net_buy_pressure shows KO at 1.0 (Doggett-linked cluster); KO at 46.1% of day range, +0.42% today, low ATR 1.3%",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 86.53,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -2.07,
+    "hour_et": 9,
+    "code_version": "bee6699",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
