@@ -1,15 +1,14 @@
 {
   "week": "2026-W41",
-  "spent": 17109.93,
+  "spent": 12038.48,
   "deployed": 85375.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 3.59,
-    "KO": 1854.37,
     "PG": 3703.75,
     "GS": 4166.67,
     "NFLX": 4166.67,
-    "IBM": 3240.74
+    "IBM": 23.97
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -1246,17 +1245,61 @@
       ],
       "evidence": "average cost $473.18",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 14.602902,
+      "status": "filled",
+      "price": 220.28,
+      "proceeds": 3216.77,
+      "realized_pnl": -23.97,
+      "realized_pct": -0.74,
+      "date": "2026-10-07",
+      "time_et": "09:38",
+      "ts": 1791380100,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $221.92",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "KO",
+      "side": "sell",
+      "qty": 21.396969,
+      "status": "filled",
+      "price": 86.68,
+      "proceeds": 1854.68,
+      "realized_pnl": 2.83,
+      "realized_pct": 0.15,
+      "date": "2026-10-07",
+      "time_et": "09:39",
+      "ts": 1791380100,
+      "why": "close 100% at +0.1% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.55",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-07",
-  "spent_today": 17109.93,
+  "spent_today": 12038.48,
   "deployed_today": 25000.0,
   "orders_today": 8,
-  "sells_today": 3,
+  "sells_today": 5,
   "sold_today": [
     "AMGN",
     "HD",
-    "TSM"
+    "TSM",
+    "IBM",
+    "KO"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
@@ -1265,17 +1308,17 @@
     "NFLX": 1791293713,
     "UNH": 1791294299,
     "PEP": 1791208891,
-    "KO": 1791294946,
+    "KO": 1791380384,
     "AAPL": 1791209185,
     "PG": 1791294611,
     "ACN": 1791297612,
     "HD": 1791380218,
     "GS": 1791294473,
-    "IBM": 1791305959,
+    "IBM": 1791380339,
     "AMGN": 1791380137
   },
-  "last_publish_ts": 1791380255,
-  "last_check_ts": 1791380302,
+  "last_publish_ts": 1791380384,
+  "last_check_ts": 1791380384,
   "exp_arm": {
     "GS": {
       "params": {
@@ -1346,20 +1389,14 @@
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "d43dcd3d": 86.592,
     "6363bdfe": 148.8411,
-    "1f9791d3": 86.6798,
-    "eeef7ec5": 220.3932,
     "9eeed24a": 877.363,
-    "d8fd4410": 147.9615,
     "6d24be62": 69.2399,
-    "591b428f": 222.5303,
-    "8921e3c9": 215.2624,
+    "d8fd4410": 147.9615,
+    "fa6dd920": 850.0,
     "1803c2a2": 67.0,
     "ffb70d51": 66.9785,
-    "fa6dd920": 850.0,
     "7b9c7120": 848.9537,
-    "68fc7183": 83.9535,
     "424fe983": 144.1323
   }
 }

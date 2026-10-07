@@ -54926,5 +54926,53 @@
     "trigger": "take_profit",
     "hour_et": 9,
     "code_version": "4a0285e"
+  },
+  {
+    "symbol": "IBM",
+    "side": "sell",
+    "qty": 14.602902,
+    "status": "filled",
+    "price": 220.28,
+    "proceeds": 3216.77,
+    "realized_pnl": -23.97,
+    "realized_pct": -0.74,
+    "date": "2026-10-07",
+    "time_et": "09:38",
+    "ts": 1791380100,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $221.92",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "97e89b6"
+  },
+  {
+    "symbol": "KO",
+    "side": "sell",
+    "qty": 21.396969,
+    "status": "filled",
+    "price": 86.68,
+    "proceeds": 1854.68,
+    "realized_pnl": 2.83,
+    "realized_pct": 0.15,
+    "date": "2026-10-07",
+    "time_et": "09:39",
+    "ts": 1791380100,
+    "why": "close 100% at +0.1% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $86.55",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "97e89b6"
   }
 ]

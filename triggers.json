@@ -7092,7 +7092,7 @@
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 222.5303,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 09:32",
    "created_ts": 1791379971,
    "why": "close 100% at +0.3% over the average cost",
@@ -7102,14 +7102,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 09:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "eeef7ec5",
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 220.3932,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-07 09:32",
    "created_ts": 1791379971,
    "why": "close it all at -0.7% under the average cost",
@@ -7119,14 +7121,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 09:38"
   },
   {
    "id": "8921e3c9",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 215.2624,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 09:32",
    "created_ts": 1791379971,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7136,7 +7139,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-07 09:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "71241f5b",
@@ -7292,7 +7297,7 @@
    "ticker": "KO",
    "kind": "take_profit",
    "price": 86.6798,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-07 09:32",
    "created_ts": 1791379971,
    "why": "close 100% at +0.1% over the average cost",
@@ -7302,7 +7307,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 09:39"
   },
   {
    "id": "25e967b8",
@@ -7328,7 +7334,7 @@
    "ticker": "KO",
    "kind": "buy_limit",
    "price": 83.9535,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 09:32",
    "created_ts": 1791379971,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7338,7 +7344,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-07 09:39",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6363bdfe",
@@ -7396,7 +7404,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 86.592,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 09:36",
    "created_ts": 1791380218,
    "why": "close it all at -0.4% under the average cost",
@@ -7406,8 +7414,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 09:39",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-07 09:37"
+ "updated": "2026-10-07 09:39"
 }

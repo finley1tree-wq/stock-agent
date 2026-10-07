@@ -22688,3 +22688,9 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $474.29] -> $2784.25 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-10-07 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $220.28] -> $3216.77 (-0.74%) — close it all at -0.7% under the average cost
+## 2026-10-07 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $86.68] -> $1854.68 (+0.15%) — close 100% at +0.1% over the average cost
+## 2026-10-07 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders

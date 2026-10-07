@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-10-07T09:37-04:00",
+ "generated_at": "2026-10-07T09:39-04:00",
  "settings": {
   "min_trips": 30,
   "survive_t": 2.0,
   "cull_t": -1.0,
   "probation_size": 0.25
  },
- "trips": 984,
+ "trips": 986,
  "lenses": {
   "hour": {
    "09": {
-    "n": 223,
-    "net": 707.85,
-    "mean": 3.174,
-    "t": 3.16,
-    "win_rate": 0.753,
+    "n": 225,
+    "net": 686.71,
+    "mean": 3.052,
+    "t": 3.04,
+    "win_rate": 0.751,
     "stage": "SURVIVOR",
     "weeks": {
      "2026-W37": 56.83,
      "2026-W38": 120.86,
      "2026-W39": 247.62,
      "2026-W40": 186.16,
-     "2026-W41": 96.38
+     "2026-W41": 75.24
     }
    },
    "10": {
@@ -111,16 +111,16 @@
   },
   "signals": {
    "congress": {
-    "n": 28,
-    "net": -66.54,
-    "mean": -2.376,
-    "t": -1.09,
-    "win_rate": 0.464,
-    "stage": "PROBATION",
+    "n": 30,
+    "net": -87.68,
+    "mean": -2.923,
+    "t": -1.35,
+    "win_rate": 0.467,
+    "stage": "CULLED",
     "weeks": {
      "2026-W39": -40.0,
      "2026-W40": -49.0,
-     "2026-W41": 22.46
+     "2026-W41": 1.32
     }
    },
    "congress+followed_person": {
@@ -425,10 +425,10 @@
    },
    "arms": {
     "on": {
-     "n": 30,
-     "net": 120.46,
-     "mean_pct": 0.1417,
-     "win_rate": 0.8
+     "n": 32,
+     "net": 99.32,
+     "mean_pct": 0.1144,
+     "win_rate": 0.781
     },
     "off": {
      "n": 26,
@@ -440,7 +440,7 @@
    "winner": null,
    "why": null,
    "decided_on": null,
-   "t": -1.25,
+   "t": -1.07,
    "name": "ratchet",
    "param": "ratchet",
    "note": "",

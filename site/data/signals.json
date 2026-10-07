@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-07T09:37-04:00",
+ "asOf": "2026-10-07T09:39-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d43dcd3d",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 86.592,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.59,
-   "pct_away": 0.0,
-   "good_until": "2026-10-12",
-   "why": "close it all at -0.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "6363bdfe",
    "ticker": "PG",
    "kind": "take_profit",
@@ -202,44 +185,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 148.78,
-   "pct_away": 0.04,
+   "last": 149.03,
+   "pct_away": -0.13,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1f9791d3",
-   "ticker": "KO",
-   "kind": "take_profit",
-   "price": 86.6798,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.59,
-   "pct_away": 0.1,
-   "good_until": "2026-10-12",
-   "why": "close 100% at +0.1% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "eeef7ec5",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 220.3932,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 220.65,
-   "pct_away": -0.12,
-   "good_until": "2026-10-12",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 872.65,
-   "pct_away": 0.54,
+   "last": 872.91,
+   "pct_away": 0.51,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d8fd4410",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 147.9615,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 148.78,
-   "pct_away": -0.55,
-   "good_until": "2026-10-12",
-   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 68.7,
-   "pct_away": 0.79,
+   "last": 68.86,
+   "pct_away": 0.55,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -297,37 +229,36 @@
    ]
   },
   {
-   "id": "591b428f",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 222.5303,
+   "id": "d8fd4410",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 147.9615,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 220.65,
-   "pct_away": 0.85,
+   "last": 149.03,
+   "pct_away": -0.72,
    "good_until": "2026-10-12",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "8921e3c9",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 215.2624,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "fa6dd920",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 850.0,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 220.65,
-   "pct_away": -2.44,
-   "good_until": "2026-10-12",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 872.91,
+   "pct_away": -2.62,
+   "good_until": "2026-10-07",
+   "why": "Cap downside on volatile financial name",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "risk_management"
    ]
   },
   {
@@ -338,8 +269,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 68.7,
-   "pct_away": -2.47,
+   "last": 68.86,
+   "pct_away": -2.7,
    "good_until": "2026-10-07",
    "why": "Protection since bought near 77.6% of day range",
    "signals": [
@@ -354,29 +285,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 68.7,
-   "pct_away": -2.51,
+   "last": 68.86,
+   "pct_away": -2.73,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "fa6dd920",
-   "ticker": "GS",
-   "kind": "stop_loss",
-   "price": 850.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 872.65,
-   "pct_away": -2.6,
-   "good_until": "2026-10-07",
-   "why": "Cap downside on volatile financial name",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -387,25 +302,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 872.65,
-   "pct_away": -2.72,
-   "good_until": "2026-10-12",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "68fc7183",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 83.9535,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 86.59,
-   "pct_away": -3.04,
+   "last": 872.91,
+   "pct_away": -2.74,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -421,8 +319,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 148.78,
-   "pct_away": -3.12,
+   "last": 149.03,
+   "pct_away": -3.29,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

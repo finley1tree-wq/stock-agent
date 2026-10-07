@@ -1,9 +1,3 @@
-lesson: Congress-disclosure-backed buys at low/mid day-range during SURVIVOR 09:xx hour continue to show positive journal outcomes - keep this as the primary entry filter over momentum-only chases, and always pair with a protective stop_loss trigger immediately.
-  (dropped PEP: not in allowed list)
-- BUY $2500.00 UNH [filled] ['congress', 'track_record'] — Diversify into widely_held name at mid-range entry, SURVIVOR 09:xx hour, avoids chasing extended names | evidence: Kevin Hern disclosed large UNH sell Sept10 but congress_net_buy_pressure not listed; UNH widely_held sector avg_ret_pct 0.00 n=462; pct_of_day_range 35.9 (mid-low), atr modest 1.9%
-- BUY $2000.00 IBM [filled] ['momentum', 'track_record'] — Add diversified widely_held name at mid-range, not chasing | evidence: IBM pct_of_day_range 47.2, change_1d +0.65%, widely_held sector
-- BUY $2000.00 AMGN [filled] ['congress'] — Congress-backed buy at mid-range entry (30.1% of day range), SURVIVOR hour | evidence: David J. Taylor (Rep) disclosed AMGN buy 2026-09-22, congress_net_buy_pressure AMGN=1.0
-  (dropped trigger PEP stop_loss: not held)
 ~ WORKING stop_loss 100% UNH @ $373.50 until 2026-10-06 — Protect new position per standard risk management
 ~ WORKING stop_loss 100% IBM @ $219.20 until 2026-10-06 — Protective stop below entry
 ~ WORKING stop_loss 100% AMGN @ $393.50 until 2026-10-06 — Protective stop below entry
@@ -398,3 +392,9 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $474.29] -> $2784.25 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-10-07 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $220.28] -> $3216.77 (-0.74%) — close it all at -0.7% under the average cost
+## 2026-10-07 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $86.68] -> $1854.68 (+0.15%) — close 100% at +0.1% over the average cost
+## 2026-10-07 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
