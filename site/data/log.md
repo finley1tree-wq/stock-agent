@@ -1,6 +1,3 @@
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
-brain: Below min_positions (5 of 8) with 42% cash idle - need to deploy. Added UNH, PEP, IBM, AMGN at mid-range entries (30-47% of day range, not chasing) backed by congress disclosures (AMGN via Rep. David Taylor) and widely_held sector track record. Avoided NFLX/TSM due to 42min cooldown. Kept position sizes at $2000-2500 per guardrails, set protective stops on all new entries per risk_management signal which has 0.88 hit rate historically.
 lesson: Congress-disclosure-backed buys at low/mid day-range during SURVIVOR 09:xx hour continue to show positive journal outcomes - keep this as the primary entry filter over momentum-only chases, and always pair with a protective stop_loss trigger immediately.
   (dropped PEP: not in allowed list)
 - BUY $2500.00 UNH [filled] ['congress', 'track_record'] — Diversify into widely_held name at mid-range entry, SURVIVOR 09:xx hour, avoids chasing extended names | evidence: Kevin Hern disclosed large UNH sell Sept10 but congress_net_buy_pressure not listed; UNH widely_held sector avg_ret_pct 0.00 n=462; pct_of_day_range 35.9 (mid-low), atr modest 1.9%
@@ -398,3 +395,6 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $285.27] -> $2320.27 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-07 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $474.29] -> $2784.25 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-07 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders

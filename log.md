@@ -22685,3 +22685,6 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $285.27] -> $2320.27 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-07 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $474.29] -> $2784.25 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-07 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
