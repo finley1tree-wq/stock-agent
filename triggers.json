@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "11eb6152",
-   "ticker": "NVDA",
-   "kind": "stop_loss",
-   "price": 230.77,
-   "status": "cancelled",
-   "created": "2026-10-01 09:50",
-   "created_ts": 1790862617,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $230.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:51",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a1c08500",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 350.868,
-   "status": "cancelled",
-   "created": "2026-10-01 09:50",
-   "created_ts": 1790862617,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $350.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d94ee53a",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 343.384,
-   "status": "cancelled",
-   "created": "2026-10-01 09:52",
-   "created_ts": 1790862748,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $343.06",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 09:53",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "ee794f84",
    "ticker": "MSFT",
    "kind": "stop_loss",
@@ -7427,7 +7370,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-07 09:39",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "e0dd8afa",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 376.5,
+   "status": "working",
+   "created": "2026-10-07 10:03",
+   "created_ts": 1791381801,
+   "why": "Enter UNH slightly below market to avoid chasing, momentum +0.24% today, widely_held sector hit_rate 0.57",
+   "evidence": "Kevin Hern sold UNH but no fresh pressure; UNH 52.2% of day range, 1m change -5.89%, modest pullback entry just below market",
+   "signals": [
+    "congress",
+    "momentum"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 2500.0
+  },
+  {
+   "id": "7dc86ba8",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 368.5,
+   "status": "working",
+   "created": "2026-10-07 10:03",
+   "created_ts": 1791381801,
+   "why": "Resume AVGO position at a dip level below current price, low in day range gives good entry",
+   "evidence": "congress_net_buy_pressure AVGO=1.0, AVGO -1.44% today 24.4% of day range (low), already bought earlier this week at better levels",
+   "signals": [
+    "congress",
+    "momentum"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 2500.0
+  },
+  {
+   "id": "f0274ad5",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 466.0,
+   "status": "working",
+   "created": "2026-10-07 10:03",
+   "created_ts": 1791381801,
+   "why": "Rebuy TSM once cooldown clears via resting limit below market, congress pressure present",
+   "evidence": "congress_net_buy_pressure TSM=1.0, cooling_off 19min left, TSM -1.93% today, 51% of day range",
+   "signals": [
+    "congress",
+    "momentum"
+   ],
+   "good_until": "2026-10-07",
+   "usd": 2500.0
   }
  ],
- "updated": "2026-10-07 09:47"
+ "updated": "2026-10-07 10:03"
 }

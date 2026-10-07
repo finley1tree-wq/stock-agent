@@ -1,25 +1,3 @@
-~ WORKING buy_limit $500.00 IBM @ $216.36 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMGN @ $403.56 until 2026-10-11 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AMGN @ $390.43 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25345.56 (+1.38% on $25000.00 in) · cash $4347.22 · realised +347.22
-Done: 0 sell(s), 3 buy(s); 25 order(s) working; budget left $4025.13 this week
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [take_profit @ $366.87] -> $4513.15 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-10-06 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $284.40] -> $2004.86 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-06 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $379.31] -> $2505.30 (+0.21%) — close 100% at +0.2% over the average cost
-## 2026-10-06 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $3500.00 PG [buy_limit @ $147.89] — wanted it, but not at the high — resting at $147.89. Congress pressure plus +1.75% today momentum confirming
-## 2026-10-06 09:47 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on GS: position closed)
-- SELL 100% GS [take_profit @ $901.44] -> $3508.65 (+0.25%) — close 100% at +0.2% over the average cost
-## 2026-10-06 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [stop_loss @ $147.89] -> $3499.95 (-0.00%) — close it all at -0.4% under the average cost
-## 2026-10-06 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $223.69] -> $2005.68 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-10-06 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +376,25 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $877.36] -> $4176.94 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-07 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-07 10:03 ET (Wednesday) — week 2026-W41 — budget left $20851.11 (today $25000.00 put to work, 8 buys, 7 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
+  (no price for AXIA — excluded this check)
+brain: Only 1 position held (NFLX) against min_positions of 8, with 83% cash idle - this is the priority to fix. Most names I'd want (TSM, KO, PG, HD, IBM, GS) are in cooldown from today's earlier sells, so I'm placing buy_limit orders below current market that will activate once cooldown clears and price dips, avoiding chasing high-range prints. UNH and AVGO have no cooldown restriction and decent congress/momentum signals with low day-range entries, so those get resting limits too. Lesson history strongly favors congress-disclosure-backed buys entered low/mid day range during the morning SURVIVOR hour over momentum-only chases.
+lesson: When most of the target buy list is in rebuy cooldown from a prior sell sweep, use buy_limit triggers below market rather than waiting idle - they activate automatically once cooldown and price align without requiring another check.
+  (dropped GS: sold 17 min ago, cooling off)
+  (dropped trigger IBM buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped trigger KO buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped trigger PG buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped trigger HD buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped trigger GS buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+~ WORKING buy_limit $2500.00 UNH @ $376.50 until 2026-10-07 — Enter UNH slightly below market to avoid chasing, momentum +0.24% today, widely_held sector hit_rate 0.57
+~ WORKING buy_limit $2500.00 AVGO @ $368.50 until 2026-10-07 — Resume AVGO position at a dip level below current price, low in day range gives good entry
+~ WORKING buy_limit $2500.00 TSM @ $466.00 until 2026-10-07 — Rebuy TSM once cooldown clears via resting limit below market, congress pressure present
+portfolio: equity $25399.85 (+1.60% on $25000.00 in) · cash $21246.69 · realised +413.36
+Decision: nothing at this check. 6 standing order(s) working.

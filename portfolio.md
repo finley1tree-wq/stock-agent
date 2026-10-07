@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-07 09:47 ET
+# Pretend portfolio — 2026-10-07 10:03 ET
 
-**Equity $25414.94** on $25000.00 put in → **+1.66%**  
-Cash $21246.69 · Unrealised +1.58 · Realised +413.36
+**Equity $25399.85** on $25000.00 put in → **+1.60%**  
+Cash $21246.69 · Unrealised -13.51 · Realised +413.36
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| NFLX | 16.4% | $4168.25 | $69.05 | $69.08 | +0.04% | 0d |
+| NFLX | 16.4% | $4153.17 | $69.05 | $68.83 | -0.32% | 0d |
 
 ## Last fills
 
