@@ -7373,7 +7373,7 @@
    "ticker": "UNH",
    "kind": "take_profit",
    "price": 377.317,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-07 10:06",
    "created_ts": 1791381998,
    "why": "close 100% at +0.2% over the average cost",
@@ -7383,14 +7383,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 10:14"
   },
   {
    "id": "11c86311",
    "ticker": "UNH",
    "kind": "stop_loss",
    "price": 374.4518,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:06",
    "created_ts": 1791381998,
    "why": "close it all at -0.5% under the average cost",
@@ -7400,14 +7401,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-07 10:14",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b5b6cebe",
    "ticker": "UNH",
    "kind": "buy_limit",
    "price": 365.205,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-07 10:06",
    "created_ts": 1791381998,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7417,8 +7420,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-12",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-07 10:14",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-07 10:06"
+ "updated": "2026-10-07 10:14"
 }

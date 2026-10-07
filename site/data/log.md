@@ -1,6 +1,3 @@
-## 2026-10-06 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on KO: position closed)
-- SELL 100% KO [stop_loss @ $86.50] -> $1997.48 (-0.13%) — close it all at -0.4% under the average cost
 ## 2026-10-06 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-06 09:55 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ portfolio: equity $25399.85 (+1.60% on $25000.00 in) · cash $21246.69 · realis
 Decision: nothing at this check. 6 standing order(s) working.
 - BUY $625.00 UNH [buy_limit @ $376.50] — Enter UNH slightly below market to avoid chasing, momentum +0.24% today, widely_held sector hit_rate 0.57 [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-07 10:06 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $377.32] -> $626.36 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-10-07 10:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders

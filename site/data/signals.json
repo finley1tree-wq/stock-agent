@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-07T10:06-04:00",
+ "asOf": "2026-10-07T10:14-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,20 +178,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "03ca9eb7",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 377.317,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "7dc86ba8",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 368.5,
+   "usd": 2500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 377.06,
-   "pct_away": 0.07,
-   "good_until": "2026-10-12",
-   "why": "close 100% at +0.2% over the average cost",
+   "last": 371.4,
+   "pct_away": -0.78,
+   "good_until": "2026-10-07",
+   "why": "Resume AVGO position at a dip level below current price, low in day range gives good entry",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress",
+    "momentum"
    ]
   },
   {
@@ -202,44 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 68.88,
-   "pct_away": 0.52,
+   "last": 68.67,
+   "pct_away": 0.83,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7dc86ba8",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 368.5,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 370.82,
-   "pct_away": -0.63,
-   "good_until": "2026-10-07",
-   "why": "Resume AVGO position at a dip level below current price, low in day range gives good entry",
-   "signals": [
-    "congress",
-    "momentum"
-   ]
-  },
-  {
-   "id": "11c86311",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 374.4518,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 377.06,
-   "pct_away": -0.69,
-   "good_until": "2026-10-12",
-   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +219,8 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 473.08,
-   "pct_away": -1.5,
+   "last": 473.97,
+   "pct_away": -1.68,
    "good_until": "2026-10-07",
    "why": "Rebuy TSM once cooldown clears via resting limit below market, congress pressure present",
    "signals": [
@@ -270,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 68.88,
-   "pct_away": -2.73,
+   "last": 68.67,
+   "pct_away": -2.43,
    "good_until": "2026-10-07",
    "why": "Protection since bought near 77.6% of day range",
    "signals": [
@@ -286,25 +252,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 68.88,
-   "pct_away": -2.76,
-   "good_until": "2026-10-12",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b5b6cebe",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 365.205,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 377.06,
-   "pct_away": -3.14,
+   "last": 68.67,
+   "pct_away": -2.46,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
