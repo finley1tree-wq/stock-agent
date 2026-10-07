@@ -22779,3 +22779,26 @@ lesson: Congress-disclosure names re-bought shortly after a same-day profitable 
 ~ WORKING buy_limit $500.00 IBM @ $213.71 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25399.46 (+1.60% on $25000.00 in) · cash $19998.04 · realised +414.71
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $19602.47 this week
+
+## 2026-10-07 10:50 ET (Wednesday) — week 2026-W41 — budget left $19602.47 (today $26875.00 put to work, 11 buys, 8 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
+  (no price for AXIA — excluded this check)
+brain: Below min_positions (3 of 8) with 78% cash idle - unacceptable per guardrails. Most prior rotation names (PG, KO, GS, UNH, AMGN) are culled/cooling-off, so pivoting to fresh congress-disclosed names not yet traded today (PPG, FWONK, ESE) that are low in their day range, sized at $2,500 each with protective stops as the journal shows congress+risk_management combo performs best.
+lesson: When regular rotation names are culled or cooling off, use fresh congress-pressure names low in day range to hit min_positions rather than sitting idle at 78% cash.
+  (dropped PPG: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped FWONK: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped ESE: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger FWONK stop_loss: not held)
+  (dropped trigger ESE stop_loss: not held)
+  (dropped trigger PPG take_profit: not held)
+  (dropped trigger FWONK take_profit: not held)
+  (dropped trigger ESE take_profit: not held)
+portfolio: equity $25393.68 (+1.57% on $25000.00 in) · cash $19998.04 · realised +414.71
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
