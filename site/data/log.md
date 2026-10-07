@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% UNH @ $379.31 until 2026-10-11 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $367.15 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $223.69 until 2026-10-11 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 IBM @ $216.36 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% AMGN @ $403.56 until 2026-10-11 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 AMGN @ $390.43 until 2026-10-11 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [take_profit @ $148.94] -> $3712.65 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-07 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $877.36] -> $4176.94 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-07 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
