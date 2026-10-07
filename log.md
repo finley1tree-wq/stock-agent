@@ -22680,3 +22680,8 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on AMGN: position closed)
 - SELL 100% AMGN [take_profit @ $406.52] -> $2785.55 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-10-07 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $3703.70 PG [buy_limit @ $148.59] — wanted it, but not at the high — resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%
+## 2026-10-07 09:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $285.27] -> $2320.27 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-07 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders

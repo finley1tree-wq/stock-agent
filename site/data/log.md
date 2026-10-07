@@ -1,8 +1,3 @@
-## 2026-10-06 09:39 ET (Tuesday) — week 2026-W41 — budget left $10525.13 (today $21500.00 put to work, 7 buys, 2 sells) — SIM (pretend money) via sim
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
   (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
 brain: Below min_positions (5 of 8) with 42% cash idle - need to deploy. Added UNH, PEP, IBM, AMGN at mid-range entries (30-47% of day range, not chasing) backed by congress disclosures (AMGN via Rep. David Taylor) and widely_held sector track record. Avoided NFLX/TSM due to 42min cooldown. Kept position sizes at $2000-2500 per guardrails, set protective stops on all new entries per risk_management signal which has 0.88 hit rate historically.
@@ -398,3 +393,8 @@ Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
   (cancelled 2 standing order(s) on AMGN: position closed)
 - SELL 100% AMGN [take_profit @ $406.52] -> $2785.55 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-10-07 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $3703.70 PG [buy_limit @ $148.59] — wanted it, but not at the high — resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%
+## 2026-10-07 09:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $285.27] -> $2320.27 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-07 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders

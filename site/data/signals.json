@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-07T09:35-04:00",
+ "asOf": "2026-10-07T09:36-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,37 +178,20 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "e7964bd1",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 285.2688,
+   "id": "d43dcd3d",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.592,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 285.17,
-   "pct_away": 0.03,
+   "last": 86.62,
+   "pct_away": -0.03,
    "good_until": "2026-10-12",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "436f7322",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 148.586,
-   "usd": 3703.7,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 148.73,
-   "pct_away": -0.1,
-   "good_until": "2026-10-07",
-   "why": "wanted it, but not at the high \u2014 resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%",
-   "signals": [
-    "congress",
-    "patience"
    ]
   },
   {
@@ -219,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 473.35,
-   "pct_away": 0.2,
+   "last": 474.07,
+   "pct_away": 0.05,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -236,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.49,
-   "pct_away": 0.22,
+   "last": 86.62,
+   "pct_away": 0.07,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.1% over the average cost",
    "signals": [
@@ -246,17 +229,17 @@
    ]
   },
   {
-   "id": "25e967b8",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 86.2341,
+   "id": "6363bdfe",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 148.8411,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.49,
-   "pct_away": -0.3,
+   "last": 148.64,
+   "pct_away": 0.14,
    "good_until": "2026-10-12",
-   "why": "close it all at -0.4% under the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,27 +253,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 221.15,
-   "pct_away": -0.34,
+   "last": 220.88,
+   "pct_away": -0.22,
    "good_until": "2026-10-12",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6d24be62",
-   "ticker": "NFLX",
-   "kind": "take_profit",
-   "price": 69.2399,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 68.99,
-   "pct_away": 0.36,
-   "good_until": "2026-10-12",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,10 +270,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 872.74,
-   "pct_away": 0.53,
+   "last": 873.65,
+   "pct_away": 0.42,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d8fd4410",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 147.9615,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 148.64,
+   "pct_away": -0.46,
+   "good_until": "2026-10-12",
+   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,8 +304,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 221.15,
-   "pct_away": 0.62,
+   "last": 220.88,
+   "pct_away": 0.75,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -331,17 +314,67 @@
    ]
   },
   {
-   "id": "d6bdbde1",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 282.9266,
+   "id": "6d24be62",
+   "ticker": "NFLX",
+   "kind": "take_profit",
+   "price": 69.2399,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 285.17,
-   "pct_away": -0.79,
+   "last": 68.68,
+   "pct_away": 0.82,
    "good_until": "2026-10-12",
-   "why": "close it all at -0.6% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1803c2a2",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 67.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 68.68,
+   "pct_away": -2.45,
+   "good_until": "2026-10-07",
+   "why": "Protection since bought near 77.6% of day range",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "ffb70d51",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 66.9785,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 68.68,
+   "pct_away": -2.48,
+   "good_until": "2026-10-12",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8921e3c9",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 215.2624,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 220.88,
+   "pct_away": -2.54,
+   "good_until": "2026-10-12",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -355,29 +388,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 872.74,
-   "pct_away": -2.61,
+   "last": 873.65,
+   "pct_away": -2.71,
    "good_until": "2026-10-07",
    "why": "Cap downside on volatile financial name",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "8921e3c9",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 215.2624,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 221.15,
-   "pct_away": -2.66,
-   "good_until": "2026-10-12",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -388,8 +404,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 872.74,
-   "pct_away": -2.73,
+   "last": 873.65,
+   "pct_away": -2.83,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -405,8 +421,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 473.35,
-   "pct_away": -2.82,
+   "last": 474.07,
+   "pct_away": -2.97,
    "good_until": "2026-10-07",
    "why": "Protect against continued slide",
    "signals": [
@@ -414,31 +430,15 @@
    ]
   },
   {
-   "id": "1803c2a2",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 67.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 68.99,
-   "pct_away": -2.88,
-   "good_until": "2026-10-07",
-   "why": "Protection since bought near 77.6% of day range",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "ffb70d51",
-   "ticker": "NFLX",
+   "id": "424fe983",
+   "ticker": "PG",
    "kind": "buy_limit",
-   "price": 66.9785,
+   "price": 144.1323,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 68.99,
-   "pct_away": -2.92,
+   "last": 148.64,
+   "pct_away": -3.03,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -454,8 +454,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.49,
-   "pct_away": -2.93,
+   "last": 86.62,
+   "pct_away": -3.08,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -471,25 +471,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 473.35,
-   "pct_away": -3.03,
-   "good_until": "2026-10-12",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f85e0200",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 276.062,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 285.17,
-   "pct_away": -3.19,
+   "last": 474.07,
+   "pct_away": -3.18,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

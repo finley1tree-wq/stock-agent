@@ -54846,5 +54846,60 @@
     "trigger": "take_profit",
     "hour_et": 9,
     "code_version": "0949e52"
+  },
+  {
+    "symbol": "PG",
+    "notional": 3703.7,
+    "side": "buy",
+    "status": "filled",
+    "qty": 24.926305,
+    "price": 148.59,
+    "date": "2026-10-07",
+    "time_et": "09:36",
+    "ts": 1791380100,
+    "why": "wanted it, but not at the high \u2014 resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%",
+    "signals": [
+      "congress",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "Rep. David J. Taylor and Rep. Lloyd Doggett both disclosed PG buys; congress_net_buy_pressure shows PG at 2.0",
+    "trigger": "buy_limit",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 148.586,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.08,
+    "hour_et": 9,
+    "code_version": "60ef64b",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HD",
+    "side": "sell",
+    "qty": 8.133644,
+    "status": "filled",
+    "price": 285.27,
+    "proceeds": 2320.27,
+    "realized_pnl": 5.46,
+    "realized_pct": 0.24,
+    "date": "2026-10-07",
+    "time_et": "09:36",
+    "ts": 1791380100,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $284.6",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "60ef64b"
   }
 ]
