@@ -22677,3 +22677,6 @@ lesson: Congress-disclosure names bought at low/mid day-range during the 09:xx S
 ~ WORKING buy_limit $500.00 KO @ $83.95 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25391.30 (+1.57% on $25000.00 in) · cash $4099.26 · realised +395.56
 Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [take_profit @ $406.52] -> $2785.55 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-07 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,3 @@
-- BUY $2000.00 KO [buy_limit @ $86.61] — wanted it, but not at the high — resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early
-## 2026-10-06 09:36 ET — tick — 1 sell(s), 1 buy(s) from standing orders
-
 ## 2026-10-06 09:39 ET (Tuesday) — week 2026-W41 — budget left $10525.13 (today $21500.00 put to work, 7 buys, 2 sells) — SIM (pretend money) via sim
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -398,3 +395,6 @@ lesson: Congress-disclosure names bought at low/mid day-range during the 09:xx S
 ~ WORKING buy_limit $500.00 KO @ $83.95 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25391.30 (+1.57% on $25000.00 in) · cash $4099.26 · realised +395.56
 Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [take_profit @ $406.52] -> $2785.55 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-07 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
