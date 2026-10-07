@@ -22802,3 +22802,5 @@ lesson: When regular rotation names are culled or cooling off, use fresh congres
 portfolio: equity $25393.68 (+1.57% on $25000.00 in) · cash $19998.04 · realised +414.71
 Decision: nothing at this check. 11 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% NFLX [time stop] -> $4152.33 (-0.34%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-07 11:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders

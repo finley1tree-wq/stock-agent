@@ -1,11 +1,11 @@
 {
   "week": "2026-W41",
-  "spent": 5397.53,
+  "spent": 1245.2,
   "deployed": 87250.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 3.59,
-    "NFLX": 4166.67,
+    "NFLX": 14.34,
     "IBM": 648.97,
     "HUBB": 625.0
   },
@@ -1415,13 +1415,33 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NFLX",
+      "side": "sell",
+      "qty": 60.339467,
+      "status": "filled",
+      "price": 68.82,
+      "proceeds": 4152.33,
+      "realized_pnl": -14.34,
+      "realized_pct": -0.34,
+      "date": "2026-10-07",
+      "time_et": "11:04",
+      "ts": 1791385451,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.32% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-07",
-  "spent_today": 5397.53,
+  "spent_today": 1245.2,
   "deployed_today": 26875.0,
   "orders_today": 11,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "AMGN",
     "HD",
@@ -1430,13 +1450,14 @@
     "KO",
     "PG",
     "GS",
-    "UNH"
+    "UNH",
+    "NFLX"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
     "TSM": 1791380257,
     "AVGO": 1791294032,
-    "NFLX": 1791293713,
+    "NFLX": 1791385452,
     "UNH": 1791382446,
     "PEP": 1791208891,
     "KO": 1791380384,
@@ -1448,8 +1469,8 @@
     "IBM": 1791380339,
     "AMGN": 1791380137
   },
-  "last_publish_ts": 1791383740,
-  "last_check_ts": 1791385367,
+  "last_publish_ts": 1791385451,
+  "last_check_ts": 1791385451,
   "exp_arm": {
     "NFLX": {
       "params": {
@@ -1485,14 +1506,11 @@
   "autopiloted": false,
   "book_px": {
     "5ce4f917": 220.9501,
-    "24f5f2cf": 475.6713,
-    "6d24be62": 69.2399,
     "7dc86ba8": 368.5,
     "7cc5521a": 465.0,
+    "24f5f2cf": 475.6713,
     "f0274ad5": 466.0,
     "89843fbe": 216.0,
-    "1803c2a2": 67.0,
-    "ffb70d51": 66.9785,
     "ccb62ca3": 460.0807,
     "e28c53bb": 213.7104
   }

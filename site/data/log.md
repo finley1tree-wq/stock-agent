@@ -1,28 +1,3 @@
-lesson: When the whole book just rotated out on cooldown and the remaining watchlist sits 80%+ of day range in a PROBATION hour, resting buy_limits already placed below market is correct - don't force a fresh market chase just to add position count.
-portfolio: equity $25354.41 (+1.42% on $25000.00 in) · cash $20882.28 · realised +382.28
-Decision: nothing at this check. 14 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 10:36 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
-brain: Both open positions (ACN, AMGN) are only ~60 min old and already have full auto-bracket protection (take-profit, stop-loss, and scale-in buy_limit working). We're below min_positions but have 7 buy_limits already resting on the book (IBM, NFLX, UNH, AVGO, GS, KO, PG) across diversified sectors, all placed at sensible discounts to current price rather than chasing names sitting 55-100% of day range right now - several of these (AVGO, KO, IBM) are still in 45-min rebuy cooldown anyway. The 10:xx hour is PROBATION, so I don't want to force fresh market chases into extended prints; letting the existing diversified limit ladder fill is the better move per the lessons on cooldown/idle-cash days.
-lesson: When below min_positions but a diversified ladder of buy_limits is already resting below market on cooldown-affected names, let it work rather than force fresh market buys into names sitting high in today's range during a PROBATION hour.
-portfolio: equity $25367.06 (+1.47% on $25000.00 in) · cash $20882.28 · realised +382.28
-Decision: nothing at this check. 14 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on ACN: position closed)
-- SELL 100% ACN [take_profit @ $195.89] -> $2514.04 (+0.56%) — close 100% at +0.6% over the average cost
-## 2026-10-06 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-06 10:47 ET (Tuesday) — week 2026-W41 — budget left $23074.24 (today $31500.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
   (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
@@ -398,3 +373,28 @@ lesson: Congress-disclosure names re-bought shortly after a same-day profitable 
 ~ WORKING buy_limit $500.00 IBM @ $213.71 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25399.46 (+1.60% on $25000.00 in) · cash $19998.04 · realised +414.71
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $19602.47 this week
+
+## 2026-10-07 10:50 ET (Wednesday) — week 2026-W41 — budget left $19602.47 (today $26875.00 put to work, 11 buys, 8 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
+  (no price for AXIA — excluded this check)
+brain: Below min_positions (3 of 8) with 78% cash idle - unacceptable per guardrails. Most prior rotation names (PG, KO, GS, UNH, AMGN) are culled/cooling-off, so pivoting to fresh congress-disclosed names not yet traded today (PPG, FWONK, ESE) that are low in their day range, sized at $2,500 each with protective stops as the journal shows congress+risk_management combo performs best.
+lesson: When regular rotation names are culled or cooling off, use fresh congress-pressure names low in day range to hit min_positions rather than sitting idle at 78% cash.
+  (dropped PPG: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped FWONK: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped ESE: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger FWONK stop_loss: not held)
+  (dropped trigger ESE stop_loss: not held)
+  (dropped trigger PPG take_profit: not held)
+  (dropped trigger FWONK take_profit: not held)
+  (dropped trigger ESE take_profit: not held)
+portfolio: equity $25393.68 (+1.57% on $25000.00 in) · cash $19998.04 · realised +414.71
+Decision: nothing at this check. 11 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% NFLX [time stop] -> $4152.33 (-0.34%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-07 11:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
