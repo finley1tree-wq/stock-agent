@@ -1,4 +1,3 @@
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
@@ -398,3 +397,4 @@ lesson: At 0 checks left and no_new_entries_this_check true with zero positions,
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-06 16:00 ET — published the session's closing state
