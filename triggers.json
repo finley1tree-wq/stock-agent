@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "f36c05c2",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 455.8669,
-   "status": "filled",
-   "created": "2026-10-01 10:03",
-   "created_ts": 1790863417,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $454.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:08"
-  },
-  {
-   "id": "da3dc2ec",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 441.1366,
-   "status": "cancelled",
-   "created": "2026-10-01 10:03",
-   "created_ts": 1790863417,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $454.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 10:08",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7f3f5c0c",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 266.8961,
-   "status": "cancelled",
-   "created": "2026-10-01 10:03",
-   "created_ts": 1790863417,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $265.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:28",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "3dbf20b8",
    "ticker": "CRWD",
    "kind": "stop_loss",
@@ -7423,7 +7367,57 @@
    "usd": 500.0,
    "closed": "2026-10-07 10:14",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "7cc5521a",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 465.0,
+   "status": "working",
+   "created": "2026-10-07 10:19",
+   "created_ts": 1791382768,
+   "why": "Standard protective stop per risk_management rules",
+   "evidence": "ATR 2.591% on HUBB, protect against downside",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "24f5f2cf",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 475.6713,
+   "status": "working",
+   "created": "2026-10-07 10:19",
+   "created_ts": 1791382768,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $474.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ccb62ca3",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 460.0807,
+   "status": "working",
+   "created": "2026-10-07 10:19",
+   "created_ts": 1791382768,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $474.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-12",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-07 10:14"
+ "updated": "2026-10-07 10:19"
 }

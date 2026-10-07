@@ -22727,3 +22727,29 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $377.32] -> $626.36 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-10-07 10:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-07 10:19 ET (Wednesday) — week 2026-W41 — budget left $20852.47 (today $25625.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
+  (no price for AXIA — excluded this check)
+brain: Only 1 position held (NFLX) against min_positions of 8, with 83% cash idle - need to deploy urgently. Many prior buys (AVGO, TSM, UNH, KO, PG, GS, IBM, AMGN, HD) are in rebuy cooldown, so picking fresh congress-backed names from the allowed list not yet bought today: HUBB, PPG, ACN, FWONK, CHRW all show congress buy pressure from April McClain Delaney/Lloyd Doggett/David Taylor disclosures, several at low/mid day-range which past_lessons flag as the best-performing bucket. Skipping AMGN since still in cooldown.
+lesson: When most of the regular rotation is in rebuy cooldown, pivot to other congress-pressure names in the allowed universe not yet traded today rather than sitting idle, since idle cash is itself graded as a loss.
+  (dropped PPG: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped ACN: not in allowed list)
+  (dropped FWONK: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped AMGN: sold 44 min ago, cooling off)
+  (dropped CHRW: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+- BUY $625.00 HUBB [filled] ['congress', 'momentum'] — Congress pressure name at reasonable entry point, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: April McClain Delaney disclosed buy of HUBB, congress_net_buy_pressure 3.0, price 474.12 at 28% of day range
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger FWONK stop_loss: not held)
+  (dropped trigger CHRW stop_loss: not held)
+~ WORKING stop_loss 100% HUBB @ $465.00 until 2026-10-07 — Standard protective stop per risk_management rules
+~ WORKING take_profit 100% HUBB @ $475.67 until 2026-10-12 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $460.08 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25393.72 (+1.57% on $25000.00 in) · cash $20623.04 · realised +414.71
+Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $20227.47 this week

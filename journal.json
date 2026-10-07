@@ -54684,7 +54684,7 @@
     "code_version": "bee6699",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.48
   },
   {
     "symbol": "IBM",
@@ -55083,7 +55083,10 @@
     "hour_et": 10,
     "code_version": "7de9921",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.22,
+    "ret_now": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -55108,6 +55111,36 @@
     "evidence": "average cost $376.5",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "da2bc88"
+    "code_version": "da2bc88",
+    "hold_minutes": 5
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.317705,
+    "price": 474.31,
+    "date": "2026-10-07",
+    "time_et": "10:19",
+    "ts": 1791382768,
+    "why": "Congress pressure name at reasonable entry point, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "April McClain Delaney disclosed buy of HUBB, congress_net_buy_pressure 3.0, price 474.12 at 28% of day range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 474.12,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.02,
+    "hour_et": 10,
+    "code_version": "27ad6a3",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

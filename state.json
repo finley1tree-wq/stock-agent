@@ -1,12 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 4147.53,
-  "deployed": 86000.0,
+  "spent": 4772.53,
+  "deployed": 86625.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 3.59,
     "NFLX": 4166.67,
-    "IBM": 23.97
+    "IBM": 23.97,
+    "HUBB": 625.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -22,7 +23,8 @@
     "AAPL": 2500.0,
     "GS": 7666.67,
     "IBM": 5615.74,
-    "AMGN": 4777.78
+    "AMGN": 4777.78,
+    "HUBB": 625.0
   },
   "orders": [
     {
@@ -1371,12 +1373,33 @@
       ],
       "evidence": "average cost $376.5",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.317705,
+      "price": 474.31,
+      "date": "2026-10-07",
+      "time_et": "10:19",
+      "ts": 1791382768,
+      "why": "Congress pressure name at reasonable entry point, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "April McClain Delaney disclosed buy of HUBB, congress_net_buy_pressure 3.0, price 474.12 at 28% of day range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-07",
-  "spent_today": 4147.53,
-  "deployed_today": 25625.0,
-  "orders_today": 9,
+  "spent_today": 4772.53,
+  "deployed_today": 26250.0,
+  "orders_today": 10,
   "sells_today": 8,
   "sold_today": [
     "AMGN",
@@ -1404,8 +1427,8 @@
     "IBM": 1791380339,
     "AMGN": 1791380137
   },
-  "last_publish_ts": 1791382445,
-  "last_check_ts": 1791382687,
+  "last_publish_ts": 1791382768,
+  "last_check_ts": 1791382768,
   "exp_arm": {
     "NFLX": {
       "params": {
@@ -1416,25 +1439,28 @@
         "ratchet": "on"
       }
     },
-    "UNH": {
+    "HUBB": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "off"
+        "ratchet": "on"
       },
       "tags": {
-        "ratchet": "off"
+        "ratchet": "on"
       }
     }
   },
   "last_bar_ts": 1791382500,
-  "last_decision_ts": 1791381801,
+  "last_decision_ts": 1791382768,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "7dc86ba8": 368.5,
+    "24f5f2cf": 475.6713,
     "6d24be62": 69.2399,
+    "7dc86ba8": 368.5,
     "f0274ad5": 466.0,
+    "7cc5521a": 465.0,
     "1803c2a2": 67.0,
-    "ffb70d51": 66.9785
+    "ffb70d51": 66.9785,
+    "ccb62ca3": 460.0807
   }
 }
