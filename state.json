@@ -1,12 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 4772.53,
-  "deployed": 86625.0,
+  "spent": 5397.53,
+  "deployed": 87250.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 3.59,
     "NFLX": 4166.67,
-    "IBM": 23.97,
+    "IBM": 648.97,
     "HUBB": 625.0
   },
   "deployed_by_ticker": {
@@ -22,7 +22,7 @@
     "PEP": 2000.0,
     "AAPL": 2500.0,
     "GS": 7666.67,
-    "IBM": 5615.74,
+    "IBM": 6240.74,
     "AMGN": 4777.78,
     "HUBB": 625.0
   },
@@ -1394,12 +1394,33 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "IBM",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.836731,
+      "price": 220.32,
+      "date": "2026-10-07",
+      "time_et": "10:35",
+      "ts": 1791383740,
+      "why": "Re-enter IBM post cooldown clears shortly; congress disclosure plus track_record signal bucket averaging +0.10% hit_rate 0.70 [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Lloyd Doggett bought IBM $1,001-$15,000 disclosed 2026-10-05; congress_net_buy_pressure 1.0",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-07",
-  "spent_today": 4772.53,
-  "deployed_today": 26250.0,
-  "orders_today": 10,
+  "spent_today": 5397.53,
+  "deployed_today": 26875.0,
+  "orders_today": 11,
   "sells_today": 8,
   "sold_today": [
     "AMGN",
@@ -1427,8 +1448,8 @@
     "IBM": 1791380339,
     "AMGN": 1791380137
   },
-  "last_publish_ts": 1791382768,
-  "last_check_ts": 1791383654,
+  "last_publish_ts": 1791383740,
+  "last_check_ts": 1791383740,
   "exp_arm": {
     "NFLX": {
       "params": {
@@ -1447,20 +1468,32 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "IBM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791383400,
-  "last_decision_ts": 1791382768,
+  "last_bar_ts": 1791383700,
+  "last_decision_ts": 1791383740,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "5ce4f917": 220.9501,
     "24f5f2cf": 475.6713,
     "6d24be62": 69.2399,
     "7dc86ba8": 368.5,
-    "f0274ad5": 466.0,
     "7cc5521a": 465.0,
+    "f0274ad5": 466.0,
+    "89843fbe": 216.0,
     "1803c2a2": 67.0,
     "ffb70d51": 66.9785,
-    "ccb62ca3": 460.0807
+    "ccb62ca3": 460.0807,
+    "e28c53bb": 213.7104
   }
 }

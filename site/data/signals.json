@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-07T10:19-04:00",
- "note": "Only 1 position held (NFLX) against min_positions of 8, with 83% cash idle - need to deploy urgently. Many prior buys (AVGO, TSM, UNH, KO, PG, GS, IBM, AMGN, HD) are in rebuy cooldown, so picking fresh congress-backed names from the allowed list not yet bought today: HUBB, PPG, ACN, FWONK, CHRW all ",
+ "asOf": "2026-10-07T10:36-04:00",
+ "note": "Below min_positions (2 vs 8) with 80.9% cash idle - need to deploy into congress-backed names repeatedly flagged as the best signal bucket in both track_record (congress hit_rate 0.64, avg 0.03%) and past_lessons. IBM/PG/GS/UNH/KO/AMGN were all sold today for small profits but congress pressure and ",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "5ce4f917",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 220.9501,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 220.28,
+   "pct_away": 0.3,
+   "good_until": "2026-10-12",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "24f5f2cf",
    "ticker": "HUBB",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 474.12,
-   "pct_away": 0.33,
+   "last": 473.08,
+   "pct_away": 0.55,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 68.71,
-   "pct_away": 0.77,
+   "last": 68.83,
+   "pct_away": 0.6,
    "good_until": "2026-10-12",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,27 +236,10 @@
    "usd": 2500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.56,
-   "pct_away": -0.82,
+   "last": 371.89,
+   "pct_away": -0.91,
    "good_until": "2026-10-07",
    "why": "Resume AVGO position at a dip level below current price, low in day range gives good entry",
-   "signals": [
-    "congress",
-    "momentum"
-   ]
-  },
-  {
-   "id": "f0274ad5",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 466.0,
-   "usd": 2500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 473.86,
-   "pct_away": -1.66,
-   "good_until": "2026-10-07",
-   "why": "Rebuy TSM once cooldown clears via resting limit below market, congress pressure present",
    "signals": [
     "congress",
     "momentum"
@@ -253,10 +253,43 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 474.12,
-   "pct_away": -1.92,
+   "last": 473.08,
+   "pct_away": -1.71,
    "good_until": "2026-10-07",
    "why": "Standard protective stop per risk_management rules",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "f0274ad5",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 466.0,
+   "usd": 2500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 474.67,
+   "pct_away": -1.83,
+   "good_until": "2026-10-07",
+   "why": "Rebuy TSM once cooldown clears via resting limit below market, congress pressure present",
+   "signals": [
+    "congress",
+    "momentum"
+   ]
+  },
+  {
+   "id": "89843fbe",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 216.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 220.28,
+   "pct_away": -1.94,
+   "good_until": "2026-10-07",
+   "why": "protective stop",
    "signals": [
     "risk_management"
    ]
@@ -269,8 +302,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 68.71,
-   "pct_away": -2.49,
+   "last": 68.83,
+   "pct_away": -2.66,
    "good_until": "2026-10-07",
    "why": "Protection since bought near 77.6% of day range",
    "signals": [
@@ -285,8 +318,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 68.71,
-   "pct_away": -2.52,
+   "last": 68.83,
+   "pct_away": -2.69,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -302,8 +335,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 474.12,
-   "pct_away": -2.96,
+   "last": 473.08,
+   "pct_away": -2.75,
+   "good_until": "2026-10-12",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e28c53bb",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 213.7104,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 220.28,
+   "pct_away": -2.98,
    "good_until": "2026-10-12",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -312,7 +362,7 @@
    ]
   }
  ],
- "last_reasoning": "Only 1 position held (NFLX) against min_positions of 8, with 83% cash idle - need to deploy urgently. Many prior buys (AVGO, TSM, UNH, KO, PG, GS, IBM, AMGN, HD) are in rebuy cooldown, so picking fresh congress-backed names from the allowed list not yet bought today: HUBB, PPG, ACN, FWONK, CHRW all ",
+ "last_reasoning": "Below min_positions (2 vs 8) with 80.9% cash idle - need to deploy into congress-backed names repeatedly flagged as the best signal bucket in both track_record (congress hit_rate 0.64, avg 0.03%) and past_lessons. IBM/PG/GS/UNH/KO/AMGN were all sold today for small profits but congress pressure and ",
  "next_check_minutes": 15,
  "allowed": [
   "AAPL",
@@ -380,13 +430,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 397,
+  "decisions_graded": 396,
   "decisions_with_buys_graded": 181,
   "independent_days_graded": 13,
   "avg_regret_pct": -0.05,
   "chosen_avg_pct": -0.09,
   "skipped_avg_pct": -0.14,
-  "idle_universe_avg_pct": -0.33,
+  "idle_universe_avg_pct": -0.34,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.03,
   "checks_that_bought_everything": 0,
@@ -505,7 +555,7 @@
     "n": 2
    }
   },
-  "idle_checks": 217,
+  "idle_checks": 216,
   "blocked_checks": 0,
   "idle_share": 0.54,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2041,5 +2091,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-07T10:19-04:00"
+ "signalsAsOf": "2026-10-07T10:36-04:00"
 }

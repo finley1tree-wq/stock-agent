@@ -22753,3 +22753,29 @@ lesson: When most of the regular rotation is in rebuy cooldown, pivot to other c
 ~ WORKING buy_limit $500.00 HUBB @ $460.08 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25393.72 (+1.57% on $25000.00 in) · cash $20623.04 · realised +414.71
 Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $20227.47 this week
+
+## 2026-10-07 10:35 ET (Wednesday) — week 2026-W41 — budget left $20227.47 (today $26250.00 put to work, 10 buys, 8 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
+  (no price for AXIA — excluded this check)
+brain: Below min_positions (2 vs 8) with 80.9% cash idle - need to deploy into congress-backed names repeatedly flagged as the best signal bucket in both track_record (congress hit_rate 0.64, avg 0.03%) and past_lessons. IBM/PG/GS/UNH/KO/AMGN were all sold today for small profits but congress pressure and disclosure evidence remain in place; re-entering at current levels (most mid/low in day range) with fresh protective stops is consistent with the 09:xx SURVIVOR hour lesson pattern, now extended to 10:xx PROBATION with reduced conviction sizing. Skipping UNH since it's still in cooldown.
+lesson: Congress-disclosure names re-bought shortly after a same-day profitable exit, sized at $2000-2500 with protective stops, is a reasonable way to hit min_positions when cooldowns block the usual rotation - track whether repeat round-trips in the same session degrade returns vs fresh names.
+  (dropped PG: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped KO: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped GS: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped UNH: sold 22 min ago, cooling off)
+  (dropped AMGN: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+- BUY $625.00 IBM [filled] ['congress', 'track_record'] — Re-enter IBM post cooldown clears shortly; congress disclosure plus track_record signal bucket averaging +0.10% hit_rate 0.70 [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett bought IBM $1,001-$15,000 disclosed 2026-10-05; congress_net_buy_pressure 1.0
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $216.00 until 2026-10-07 — protective stop
+~ WORKING take_profit 100% IBM @ $220.95 until 2026-10-12 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $213.71 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25399.46 (+1.60% on $25000.00 in) · cash $19998.04 · realised +414.71
+Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $19602.47 this week

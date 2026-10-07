@@ -1,29 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
-brain: Below min_positions (2/8) with 82% cash idle - this is costly per counterfactual data. Most attractive names (AVGO, NFLX, UNH, HD, GS, PG, KO, IBM) just got sold and are in 45-min cooldown, so I cannot buy them directly now; instead I rest buy_limits below current market to re-enter at a better level once cooldown clears and price dips, consistent with the lesson that resting limits beat chasing high-day-range names. All picks carry congress-disclosure or momentum/news evidence. Keeping ACN and AMGN as-is since they already have protective stops/take-profits/averaging triggers in place from auto_bracket.
-lesson: When the whole book sells simultaneously on cooldown, rest buy_limits below market across congress-backed diversified names rather than waiting idle or chasing fresh market entries into high-range prints.
-  (dropped TSM: sold 35 min ago, cooling off)
-~ WORKING buy_limit $2500.00 AVGO @ $373.00 until 2026-10-06 — re-enter AVGO once cooldown clears at better level than current top-of-range print
-~ WORKING buy_limit $2000.00 NFLX @ $67.30 until 2026-10-06 — congress pressure plus pullback entry below current 67.76
-~ WORKING buy_limit $2000.00 UNH @ $373.50 until 2026-10-06 — low in range, wait for dip entry rather than chase
-~ WORKING buy_limit $2000.00 HD @ $281.00 until 2026-10-06 — congress-backed name, rest below current price to avoid chasing high-range print
-~ WORKING buy_limit $2000.00 GS @ $895.00 until 2026-10-06 — congress-backed, GS at 97% of range so resting limit below market
-~ WORKING buy_limit $2000.00 PG @ $146.00 until 2026-10-06 — congress pressure, PG at 32% of range already reasonable, slight limit below for better entry
-~ WORKING buy_limit $1500.00 KO @ $86.40 until 2026-10-06 — congress staple, rest limit slightly below current 86.82
-~ WORKING buy_limit $1500.00 IBM @ $222.00 until 2026-10-06 — modest momentum name, rest limit below market
-portfolio: equity $25359.13 (+1.44% on $25000.00 in) · cash $20882.28 · realised +382.28
-Decision: nothing at this check. 14 standing order(s) working.
-
-## 2026-10-06 10:26 ET (Tuesday) — week 2026-W41 — budget left $20560.20 (today $31500.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
-brain: Hour is PROBATION, most of today's bought names (UNH, KO, PG, HD, GS, IBM, AVGO) are in 45-min cooldown from this morning's rotation, and the rest of the congress/widely-held watchlist (AAPL, MSFT, PLTR, CCJ, NLR) is sitting 80-96% of day range - exactly the setup my own lessons flag as a chase to avoid. I already have 6 buy_limit orders resting below market on IBM, NFLX, KO, UNH, GS, AVGO, HD and PG at sensible levels that will fill if a dip arrives, plus stops/take-profits on ACN and AMGN. Rather than force a fresh market buy into stretched prices, I'll let those working orders do the work and check back soon to react as cooldowns clear or fills happen.
 lesson: When the whole book just rotated out on cooldown and the remaining watchlist sits 80%+ of day range in a PROBATION hour, resting buy_limits already placed below market is correct - don't force a fresh market chase just to add position count.
 portfolio: equity $25354.41 (+1.42% on $25000.00 in) · cash $20882.28 · realised +382.28
 Decision: nothing at this check. 14 standing order(s) working.
@@ -398,3 +372,29 @@ lesson: When most of the regular rotation is in rebuy cooldown, pivot to other c
 ~ WORKING buy_limit $500.00 HUBB @ $460.08 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25393.72 (+1.57% on $25000.00 in) · cash $20623.04 · realised +414.71
 Done: 0 sell(s), 1 buy(s); 8 order(s) working; budget left $20227.47 this week
+
+## 2026-10-07 10:35 ET (Wednesday) — week 2026-W41 — budget left $20227.47 (today $26250.00 put to work, 10 buys, 8 sells) — SIM (pretend money) via sim
+  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
+  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
+  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
+  (no price for AXIA — excluded this check)
+brain: Below min_positions (2 vs 8) with 80.9% cash idle - need to deploy into congress-backed names repeatedly flagged as the best signal bucket in both track_record (congress hit_rate 0.64, avg 0.03%) and past_lessons. IBM/PG/GS/UNH/KO/AMGN were all sold today for small profits but congress pressure and disclosure evidence remain in place; re-entering at current levels (most mid/low in day range) with fresh protective stops is consistent with the 09:xx SURVIVOR hour lesson pattern, now extended to 10:xx PROBATION with reduced conviction sizing. Skipping UNH since it's still in cooldown.
+lesson: Congress-disclosure names re-bought shortly after a same-day profitable exit, sized at $2000-2500 with protective stops, is a reasonable way to hit min_positions when cooldowns block the usual rotation - track whether repeat round-trips in the same session degrade returns vs fresh names.
+  (dropped PG: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped KO: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped GS: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+  (dropped UNH: sold 22 min ago, cooling off)
+  (dropped AMGN: culled strategy (signals congress: -79 over 31 trips, t -1.19))
+- BUY $625.00 IBM [filled] ['congress', 'track_record'] — Re-enter IBM post cooldown clears shortly; congress disclosure plus track_record signal bucket averaging +0.10% hit_rate 0.70 [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett bought IBM $1,001-$15,000 disclosed 2026-10-05; congress_net_buy_pressure 1.0
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $216.00 until 2026-10-07 — protective stop
+~ WORKING take_profit 100% IBM @ $220.95 until 2026-10-12 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $213.71 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25399.46 (+1.60% on $25000.00 in) · cash $19998.04 · realised +414.71
+Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $19602.47 this week
