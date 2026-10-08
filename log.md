@@ -22910,3 +22910,28 @@ Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21261.98 this week
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $887.27] -> $751.85 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 10:19 ET (Thursday) — week 2026-W41 — budget left $22013.83 (today $9750.00 put to work, 4 buys, 3 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Only 1 position held vs min_positions=8, cash_idle_pct=88.1%; past_lessons strongly and repeatedly confirm congress-disclosure-backed buys at the open hour outperform, and counterfactual_learning shows congress-signal chosen avg +0.32% vs idle sitting cost. Deploying across 6 new congress/mean-reversion names at $2,000-3,000 each to reach closer to min_positions, each with a protective stop given max_hold_minutes=30 and ratchet rules.
+lesson: Congress-disclosure evidence at low/mid day-range during 09:xx-10:xx hours has graded positively repeatedly; deploy in size across multiple names rather than sitting on 88% idle cash.
+  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped PEP: not in allowed list)
+  (dropped GS: sold 11 min ago, cooling off)
+- BUY $625.00 UNH [filled] ['congress', 'news'] — UNH deeply oversold, near day low, mean reversion candidate in healthcare [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress trades show Kevin Hern selling UNH but older disclosures; UNH at 2.8% of day range near day low after -1.46% drop
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+  (dropped trigger PEP stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+~ WORKING stop_loss 100% UNH @ $360.00 until 2026-10-08 — protect new UNH position
+~ WORKING take_profit 100% UNH @ $371.45 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $359.45 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25410.34 (+1.64% on $25000.00 in) · cash $21792.78 · realised +417.78
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21388.83 this week

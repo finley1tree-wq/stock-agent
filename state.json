@@ -1,12 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 2986.17,
-  "deployed": 97000.0,
+  "spent": 3611.17,
+  "deployed": 97625.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 14.34,
     "IBM": 22.19,
-    "TSM": 3000.0
+    "TSM": 3000.0,
+    "UNH": 625.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -16,7 +17,7 @@
     "NFLX": 12666.67,
     "TSM": 11277.78,
     "HD": 9814.81,
-    "UNH": 5125.0,
+    "UNH": 5750.0,
     "KO": 5851.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
@@ -1623,12 +1624,33 @@
       ],
       "evidence": "average cost $885.09",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.686572,
+      "price": 370.57,
+      "date": "2026-10-08",
+      "time_et": "10:19",
+      "ts": 1791469182,
+      "why": "UNH deeply oversold, near day low, mean reversion candidate in healthcare [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "congress trades show Kevin Hern selling UNH but older disclosures; UNH at 2.8% of day range near day low after -1.46% drop",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 2986.17,
-  "deployed_today": 9750.0,
-  "orders_today": 4,
+  "spent_today": 3611.17,
+  "deployed_today": 10375.0,
+  "orders_today": 5,
   "sells_today": 3,
   "sold_today": [
     "PG",
@@ -1652,8 +1674,8 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791468543,
-  "last_check_ts": 1791469096,
+  "last_publish_ts": 1791469182,
+  "last_check_ts": 1791469182,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -1664,7 +1686,7 @@
         "ratchet": "off"
       }
     },
-    "GS": {
+    "UNH": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -1675,12 +1697,15 @@
     }
   },
   "last_bar_ts": 1791468900,
-  "last_decision_ts": 1791468223,
+  "last_decision_ts": 1791469182,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "b047ac1b": 371.4483,
     "492c184f": 470.5826,
     "0b6e66c6": 457.0,
-    "3217b1f2": 455.3859
+    "3217b1f2": 455.3859,
+    "0d3aacf8": 360.0,
+    "66b8f314": 359.4529
   }
 }

@@ -1,28 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain: Flat book at 12:43 ET, hour 12 is PROBATION (avg_ret -0.03% historically, hit_rate 0.52). All 8 watchlist names were sold today for cooldown reasons (AVGO/NFLX/TSM/HD/UNH/GS/PG/IBM/KO/ACN/AMGN) and I already have a full diversified ladder of 7 congress-backed buy_limit orders resting below market (IBM, GS, UNH, KO, NFLX, AVGO, HD, PG) at sensible discounts to avoid chasing high-range prints. Past lessons explicitly favor letting this ladder work rather than forcing fresh market buys during PROBATION hours into names sitting 60-97% of day range. No new evidence justifies chasing at current elevated prices, so I'll let the limits fill and check back soon to add fresh triggers or adjust if fills occur.
-lesson: With a full ladder of congress-backed buy_limits already resting below market in a PROBATION hour, let them work rather than chase names 60-97% of day range at market - consistent with the last 12 graded days of journal evidence.
-portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- BUY $375.00 IBM [buy_limit @ $222.00] — modest momentum name, rest limit below market [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-06 12:50 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $222.64] -> $376.09 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-10-06 12:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-06 12:59 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain: Book is flat (sold entirely this morning due to cooldown rotation) with a full ladder of 7 congress-backed buy_limits already resting 0.3-1.7% below market on UNH, GS, KO, NFLX, AVGO, PG, HD - exactly the diversified set the journal rewards. We're in a PROBATION hour (12:xx) where fresh market chases into names at 70-98% of day range (AVGO 90%, HD 85%, ACN 71%) have graded worse than letting resting limits fill at better levels. IBM is still in cooldown (45min left). Rather than force a market buy now, I'll let the ladder work and check back soon to see if any limits filled or need adjustment.
-lesson: In PROBATION hours with a full diversified ladder of congress-backed buy_limits already resting below market, don't force fresh market buys into names sitting high in day range - let limits fill at better entries as the journal consistently shows this beats chasing.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
-Decision: nothing at this check. 7 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-06 13:14 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
@@ -398,3 +373,28 @@ Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21261.98 this week
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $887.27] -> $751.85 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 10:19 ET (Thursday) — week 2026-W41 — budget left $22013.83 (today $9750.00 put to work, 4 buys, 3 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Only 1 position held vs min_positions=8, cash_idle_pct=88.1%; past_lessons strongly and repeatedly confirm congress-disclosure-backed buys at the open hour outperform, and counterfactual_learning shows congress-signal chosen avg +0.32% vs idle sitting cost. Deploying across 6 new congress/mean-reversion names at $2,000-3,000 each to reach closer to min_positions, each with a protective stop given max_hold_minutes=30 and ratchet rules.
+lesson: Congress-disclosure evidence at low/mid day-range during 09:xx-10:xx hours has graded positively repeatedly; deploy in size across multiple names rather than sitting on 88% idle cash.
+  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped PEP: not in allowed list)
+  (dropped GS: sold 11 min ago, cooling off)
+- BUY $625.00 UNH [filled] ['congress', 'news'] — UNH deeply oversold, near day low, mean reversion candidate in healthcare [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress trades show Kevin Hern selling UNH but older disclosures; UNH at 2.8% of day range near day low after -1.46% drop
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+  (dropped trigger PEP stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+~ WORKING stop_loss 100% UNH @ $360.00 until 2026-10-08 — protect new UNH position
+~ WORKING take_profit 100% UNH @ $371.45 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $359.45 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25410.34 (+1.64% on $25000.00 in) · cash $21792.78 · realised +417.78
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21388.83 this week

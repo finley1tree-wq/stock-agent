@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "a9fe50b0",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 484.13,
-   "status": "cancelled",
-   "created": "2026-10-01 10:07",
-   "created_ts": 1790863633,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $483.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:11",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1b9f7c47",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 230.5,
-   "status": "filled",
-   "created": "2026-10-01 10:13",
-   "created_ts": 1790864039,
-   "why": "re-enter at a slightly better level than current $231.88 once cooldown clears",
-   "evidence": "IBM up 5.43% on Bob Coding Agent news, cooldown 13 min left",
-   "signals": [
-    "news"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 2000.0,
-   "closed": "2026-10-01 10:27"
-  },
-  {
-   "id": "a754d678",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 453.0,
-   "status": "cancelled",
-   "created": "2026-10-01 10:13",
-   "created_ts": 1790864039,
-   "why": "resting limit near day low to get a better entry than chasing at market",
-   "evidence": "TSMC Texas investment headline, cooldown 40 min left",
-   "signals": [
-    "news"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 2000.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "d99c9e52",
    "ticker": "NOC",
    "kind": "buy_limit",
@@ -7420,7 +7366,57 @@
    "usd": 500.0,
    "closed": "2026-10-08 10:09",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "0d3aacf8",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 360.0,
+   "status": "working",
+   "created": "2026-10-08 10:19",
+   "created_ts": 1791469182,
+   "why": "protect new UNH position",
+   "evidence": "UNH price 370.50, near day low already",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b047ac1b",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 371.4483,
+   "status": "working",
+   "created": "2026-10-08 10:19",
+   "created_ts": 1791469182,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $370.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "66b8f314",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 359.4529,
+   "status": "working",
+   "created": "2026-10-08 10:19",
+   "created_ts": 1791469182,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $370.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 10:09"
+ "updated": "2026-10-08 10:19"
 }
