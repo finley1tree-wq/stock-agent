@@ -1,6 +1,3 @@
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-06 12:11 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
   (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $16000.00 this week
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [take_profit @ $147.58] -> $3005.11 (+0.17%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $285.71] -> $3006.87 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-08 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

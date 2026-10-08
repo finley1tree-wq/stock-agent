@@ -7267,7 +7267,7 @@
    "ticker": "HD",
    "kind": "stop_loss",
    "price": 278.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 09:32",
    "created_ts": 1791466363,
    "why": "Protect HD position per auto-bracket risk management, ~2.5% below entry",
@@ -7276,7 +7276,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "12180cad",
@@ -7317,7 +7319,7 @@
    "ticker": "HD",
    "kind": "take_profit",
    "price": 285.7099,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-08 09:32",
    "created_ts": 1791466363,
    "why": "close 100% at +0.2% over the average cost",
@@ -7327,14 +7329,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 09:47"
   },
   {
    "id": "92f34eb0",
    "ticker": "HD",
    "kind": "buy_limit",
    "price": 276.5082,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 09:32",
    "created_ts": 1791466363,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7344,7 +7347,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-08 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "15f95751",
@@ -7418,5 +7423,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-08 09:39"
+ "updated": "2026-10-08 09:47"
 }
