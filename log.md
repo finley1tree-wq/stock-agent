@@ -23316,3 +23316,5 @@ lesson: When no_new_entries_this_check is true, don't propose buys even with goo
 portfolio: equity $25417.77 (+1.67% on $25000.00 in) · cash $24057.98 · realised +432.98
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% HUBB [time stop] -> $493.61 (-1.28%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-08 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders

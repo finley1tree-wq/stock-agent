@@ -1,19 +1,3 @@
-~ WORKING stop_loss 100% GS @ $865.00 until 2026-10-08 — protective stop ~2.3% below entry
-~ WORKING take_profit 100% GS @ $887.27 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 GS @ $858.54 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25404.64 (+1.62% on $25000.00 in) · cash $21665.93 · realised +415.93
-Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21261.98 this week
-  (cancelled 2 standing order(s) on GS: position closed)
-- SELL 100% GS [take_profit @ $887.27] -> $751.85 (+0.25%) — close 100% at +0.2% over the average cost
-## 2026-10-08 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-08 10:19 ET (Thursday) — week 2026-W41 — budget left $22013.83 (today $9750.00 put to work, 4 buys, 3 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Only 1 position held vs min_positions=8, cash_idle_pct=88.1%; past_lessons strongly and repeatedly confirm congress-disclosure-backed buys at the open hour outperform, and counterfactual_learning shows congress-signal chosen avg +0.32% vs idle sitting cost. Deploying across 6 new congress/mean-reversion names at $2,000-3,000 each to reach closer to min_positions, each with a protective stop given max_hold_minutes=30 and ratchet rules.
 lesson: Congress-disclosure evidence at low/mid day-range during 09:xx-10:xx hours has graded positively repeatedly; deploy in size across multiple names rather than sitting on 88% idle cash.
   (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
@@ -398,3 +382,19 @@ portfolio: equity $25419.28 (+1.68% on $25000.00 in) · cash $24057.98 · realis
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 9 resting buy order(s): past the entry cutoff)
+
+## 2026-10-08 14:00 ET (Thursday) — week 2026-W41 — budget left $23654.04 (today $19750.00 put to work, 24 buys, 21 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff), so new buys would be dropped - I weighed adding more congress/insider names like TSM or ACN but entries are blocked. Existing GOOGL/AMZN/HUBB positions already carry take_profit and stop_loss brackets within their 90-minute experiment hold window, so nothing to adjust - letting the standing orders work is correct per the auto_bracket signal's strong track record (0.19% avg, 89% hit rate).
+lesson: When no_new_entries_this_check is true, don't propose buys even with good evidence - check that flag first before building an order list.
+portfolio: equity $25417.77 (+1.67% on $25000.00 in) · cash $24057.98 · realised +432.98
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% HUBB [time stop] -> $493.61 (-1.28%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-08 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders

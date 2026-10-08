@@ -1,6 +1,6 @@
 {
   "week": "2026-W41",
-  "spent": 1345.96,
+  "spent": 852.35,
   "deployed": 107000.0,
   "by_ticker": {
     "ACN": 29.57,
@@ -8,7 +8,7 @@
     "IBM": 19.44,
     "AMGN": 2.31,
     "TSM": 9.81,
-    "HUBB": 500.0,
+    "HUBB": 6.39,
     "GOOGL": 500.0,
     "AMZN": 375.0
   },
@@ -2428,13 +2428,33 @@
       ],
       "evidence": "average cost $222.08",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HUBB",
+      "side": "sell",
+      "qty": 1.038632,
+      "status": "filled",
+      "price": 475.25,
+      "proceeds": 493.61,
+      "realized_pnl": -6.39,
+      "realized_pct": -1.28,
+      "date": "2026-10-08",
+      "time_et": "14:10",
+      "ts": 1791483034,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -1.24% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 1345.96,
+  "spent_today": 852.35,
   "deployed_today": 19750.0,
   "orders_today": 24,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "PG",
     "HD",
@@ -2467,13 +2487,13 @@
     "GS": 1791479802,
     "IBM": 1791480751,
     "AMGN": 1791476471,
-    "HUBB": 1791473364,
+    "HUBB": 1791483034,
     "NOC": 1791477855,
     "PPG": 1791478369,
     "IBP": 1791478501
   },
-  "last_publish_ts": 1791482428,
-  "last_check_ts": 1791482951,
+  "last_publish_ts": 1791483034,
+  "last_check_ts": 1791483034,
   "exp_arm": {
     "HUBB": {
       "params": {
@@ -2512,16 +2532,14 @@
       }
     }
   },
-  "last_bar_ts": 1791482700,
+  "last_bar_ts": 1791483000,
   "last_decision_ts": 1791482431,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "b02f7267": 349.7963,
     "655d23d5": 250.5,
-    "cf615d7e": 482.8442,
     "bdd00778": 258.8834,
-    "0eee1362": 466.0,
     "fbb274df": 338.0
   }
 }
