@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "d59ea3ec",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 112.76,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "Protective stop to bound downside on new gold position",
-   "evidence": "NEM ATR 3.34%, protecting new position with ~2% stop below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:16",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0c594401",
-   "ticker": "O",
-   "kind": "stop_loss",
-   "price": 52.54,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "Protective stop to bound downside on new real estate position",
-   "evidence": "O ATR 1.7%, current price 53.61",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:16",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ba2aa045",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 505.45,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "Protective stop to bound downside on new MSFT position",
-   "evidence": "MSFT ATR 2.36%, current price 515.76",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:16",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "917e34bc",
    "ticker": "GOOGL",
    "kind": "stop_loss",
@@ -7389,7 +7335,57 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "1f4be284",
+   "ticker": "IBP",
+   "kind": "stop_loss",
+   "price": 178.0,
+   "status": "working",
+   "created": "2026-10-08 12:15",
+   "created_ts": 1791476102,
+   "why": "Cap downside on new IBP position per standard risk management",
+   "evidence": "Day low 178.54, protective stop just below",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d5f43569",
+   "ticker": "IBP",
+   "kind": "take_profit",
+   "price": 183.0506,
+   "status": "working",
+   "created": "2026-10-08 12:15",
+   "created_ts": 1791476102,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $182.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3548d96a",
+   "ticker": "IBP",
+   "kind": "buy_limit",
+   "price": 176.6564,
+   "status": "working",
+   "created": "2026-10-08 12:15",
+   "created_ts": 1791476102,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $182.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 12:03"
+ "updated": "2026-10-08 12:15"
 }

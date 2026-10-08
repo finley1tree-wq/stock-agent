@@ -55580,7 +55580,7 @@
     "code_version": "12e8fdf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.42
+    "ret_now": -0.47
   },
   {
     "symbol": "HUBB",
@@ -55642,7 +55642,7 @@
     "code_version": "a7a591f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.09
   },
   {
     "symbol": "AVGO",
@@ -55750,7 +55750,7 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.24
   },
   {
     "symbol": "KO",
@@ -55780,7 +55780,9 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": 0.16,
+    "ret_final": 0.16,
+    "ret_src": "realised"
   },
   {
     "symbol": "NFLX",
@@ -55810,7 +55812,7 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.07
   },
   {
     "symbol": "TSM",
@@ -55840,7 +55842,7 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.51
+    "ret_now": -0.52
   },
   {
     "symbol": "MSFT",
@@ -55869,7 +55871,8 @@
     "hour_et": 11,
     "code_version": "fe13e81",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.05
   },
   {
     "symbol": "KO",
@@ -55894,6 +55897,36 @@
     "evidence": "average cost $86.9",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "b563480"
+    "code_version": "b563480",
+    "hold_minutes": 26
+  },
+  {
+    "symbol": "IBP",
+    "notional": 550.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.01994,
+    "price": 182.12,
+    "date": "2026-10-08",
+    "time_et": "12:15",
+    "ts": 1791476102,
+    "why": "Add breadth at min_positions target with a congress-backed homebuilding name trading mid-range, not at highs [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Congress net buy pressure +1.0 (IBP) per congress_net_buy_pressure table; stock at 61.7% of day range, down -13.53% 1m, offering value entry not chasing",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 182.05,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -13.53,
+    "hour_et": 12,
+    "code_version": "5cde47b",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

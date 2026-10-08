@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 3097.77,
-  "deployed": 102625.0,
+  "spent": 3647.77,
+  "deployed": 103175.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 514.34,
@@ -9,7 +9,8 @@
     "AMGN": 625.0,
     "GS": 625.0,
     "TSM": 500.0,
-    "MSFT": 375.0
+    "MSFT": 375.0,
+    "IBP": 550.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -26,7 +27,8 @@
     "GS": 9041.67,
     "IBM": 6740.74,
     "AMGN": 5402.78,
-    "HUBB": 1250.0
+    "HUBB": 1250.0,
+    "IBP": 550.0
   },
   "orders": [
     {
@@ -1941,12 +1943,33 @@
       ],
       "evidence": "average cost $86.9",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBP",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.01994,
+      "price": 182.12,
+      "date": "2026-10-08",
+      "time_et": "12:15",
+      "ts": 1791476102,
+      "why": "Add breadth at min_positions target with a congress-backed homebuilding name trading mid-range, not at highs [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Congress net buy pressure +1.0 (IBP) per congress_net_buy_pressure table; stock at 61.7% of day range, down -13.53% 1m, offering value entry not chasing",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 3097.77,
-  "deployed_today": 15375.0,
-  "orders_today": 14,
+  "spent_today": 3647.77,
+  "deployed_today": 15925.0,
+  "orders_today": 15,
   "sells_today": 8,
   "sold_today": [
     "PG",
@@ -1975,8 +1998,8 @@
     "AMGN": 1791380137,
     "HUBB": 1791473364
   },
-  "last_publish_ts": 1791475407,
-  "last_check_ts": 1791476006,
+  "last_publish_ts": 1791476102,
+  "last_check_ts": 1791476102,
   "exp_arm": {
     "AMGN": {
       "params": {
@@ -2005,15 +2028,6 @@
         "ratchet": "off"
       }
     },
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "NFLX": {
       "params": {
         "hold_minutes": 90,
@@ -2040,34 +2054,46 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "IBP": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791475800,
-  "last_decision_ts": 1791475168,
-  "next_check_minutes": 15,
+  "last_bar_ts": 1791476100,
+  "last_decision_ts": 1791476102,
+  "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "3cf1d3f8": 71.2807,
     "ec497900": 220.1603,
+    "3cf1d3f8": 71.2807,
     "18cb6df0": 399.7613,
-    "7915741e": 877.4812,
     "c5a0e862": 531.6948,
-    "34881f77": 527.1334,
-    "f8f53905": 148.1995,
-    "553caf8b": 86.6052,
     "f7135abf": 885.092,
+    "553caf8b": 86.6052,
+    "f8f53905": 148.1995,
+    "7915741e": 877.4812,
+    "34881f77": 527.1334,
+    "d5f43569": 183.0506,
     "fc07486c": 288.5,
     "e24db042": 403.9743,
+    "6eb612c2": 467.3089,
     "8c5bd817": 70.578,
     "31ed9de0": 70.5725,
-    "6eb612c2": 467.3089,
     "14fec8d3": 287.0484,
     "d394bb2c": 215.5,
+    "1f4be284": 178.0,
     "c46a4abe": 452.2043,
     "e758ce8e": 452.0,
     "c1ed25b1": 390.6869,
     "01b7aa6f": 856.4324,
     "d118577f": 514.4783,
+    "3548d96a": 176.6564,
     "1013d698": 69.0,
     "d3b1a378": 68.9767,
     "dfa4a5ee": 212.9635

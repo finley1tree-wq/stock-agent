@@ -1,23 +1,3 @@
-  (dropped trigger IBM buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
-  (dropped trigger KO buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
-  (dropped trigger PG buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
-  (dropped trigger HD buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
-  (dropped trigger GS buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
-~ WORKING buy_limit $2500.00 UNH @ $376.50 until 2026-10-07 — Enter UNH slightly below market to avoid chasing, momentum +0.24% today, widely_held sector hit_rate 0.57
-~ WORKING buy_limit $2500.00 AVGO @ $368.50 until 2026-10-07 — Resume AVGO position at a dip level below current price, low in day range gives good entry
-~ WORKING buy_limit $2500.00 TSM @ $466.00 until 2026-10-07 — Rebuy TSM once cooldown clears via resting limit below market, congress pressure present
-portfolio: equity $25399.85 (+1.60% on $25000.00 in) · cash $21246.69 · realised +413.36
-Decision: nothing at this check. 6 standing order(s) working.
-- BUY $625.00 UNH [buy_limit @ $376.50] — Enter UNH slightly below market to avoid chasing, momentum +0.24% today, widely_held sector hit_rate 0.57 [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-07 10:06 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $377.32] -> $626.36 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-10-07 10:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-07 10:19 ET (Wednesday) — week 2026-W41 — budget left $20852.47 (today $25625.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
   (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
   (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
@@ -398,3 +378,23 @@ Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21401.43 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $87.04] -> $500.80 (+0.16%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 12:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 12:15 ET (Thursday) — week 2026-W41 — budget left $21902.23 (today $15375.00 put to work, 14 buys, 8 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Below min_positions (6 of 8) with 87.6% cash idle - the guardrails explicitly call this out as a decision I'm making, not caution. Adding IBP, PPG, ESE gives congress-disclosure backed breadth at mid-range entries (not chasing highs), sized at ~$2,100-2,200 each per the $1,000-3,000 normal-position guidance, bringing me to 9 positions. Avoiding KO (cooling off) and not chasing HD/PG which are already resting as buy_limits near the highs of their range.
+lesson: Congress-disclosure breadth entries at mid-range (50-70% of day range) rather than at highs continue to be the fastest path to min_positions; keep using buy_limit for names already high in range instead of market orders.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped ESE: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $550.00 IBP [filled] ['congress', 'news'] — Add breadth at min_positions target with a congress-backed homebuilding name trading mid-range, not at highs [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net buy pressure +1.0 (IBP) per congress_net_buy_pressure table; stock at 61.7% of day range, down -13.53% 1m, offering value entry not chasing
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger ESE stop_loss: not held)
+~ WORKING stop_loss 100% IBP @ $178.00 until 2026-10-08 — Cap downside on new IBP position per standard risk management
+~ WORKING take_profit 100% IBP @ $183.05 until 2026-10-13 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $176.66 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25425.56 (+1.70% on $25000.00 in) · cash $21756.18 · realised +431.18
+Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21352.23 this week

@@ -266,3 +266,4 @@
 - 2026-10-08 (14d graded, realised 0.02% per dollar): Hitting min_positions requires deploying across several evidence-backed names in one check rather than trickling - breadth beats waiting for a perfect entry.
 - 2026-10-08 (14d graded, realised 0.02% per dollar): Check cooling_off_minutes_left before proposing a buy - HUBB was still blocked for 31 minutes so that order would have been dropped; always cross-reference the cooldown list first.
 - 2026-10-08 (14d graded, realised 0.02% per dollar): When HD/congress names are high in day range, use buy_limit to wait for pullback rather than market-buying at the high - this avoids the entry-range guardrail converting the order anyway.
+- 2026-10-08 (14d graded, realised 0.02% per dollar): Congress-disclosure breadth entries at mid-range (50-70% of day range) rather than at highs continue to be the fastest path to min_positions; keep using buy_limit for names already high in range instead of market orders.

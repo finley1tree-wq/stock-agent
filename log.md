@@ -23112,3 +23112,23 @@ Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21401.43 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $87.04] -> $500.80 (+0.16%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 12:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 12:15 ET (Thursday) — week 2026-W41 — budget left $21902.23 (today $15375.00 put to work, 14 buys, 8 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Below min_positions (6 of 8) with 87.6% cash idle - the guardrails explicitly call this out as a decision I'm making, not caution. Adding IBP, PPG, ESE gives congress-disclosure backed breadth at mid-range entries (not chasing highs), sized at ~$2,100-2,200 each per the $1,000-3,000 normal-position guidance, bringing me to 9 positions. Avoiding KO (cooling off) and not chasing HD/PG which are already resting as buy_limits near the highs of their range.
+lesson: Congress-disclosure breadth entries at mid-range (50-70% of day range) rather than at highs continue to be the fastest path to min_positions; keep using buy_limit for names already high in range instead of market orders.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped ESE: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $550.00 IBP [filled] ['congress', 'news'] — Add breadth at min_positions target with a congress-backed homebuilding name trading mid-range, not at highs [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Congress net buy pressure +1.0 (IBP) per congress_net_buy_pressure table; stock at 61.7% of day range, down -13.53% 1m, offering value entry not chasing
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger ESE stop_loss: not held)
+~ WORKING stop_loss 100% IBP @ $178.00 until 2026-10-08 — Cap downside on new IBP position per standard risk management
+~ WORKING take_profit 100% IBP @ $183.05 until 2026-10-13 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $176.66 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25425.56 (+1.70% on $25000.00 in) · cash $21756.18 · realised +431.18
+Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21352.23 this week
