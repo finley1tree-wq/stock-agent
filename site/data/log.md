@@ -1,26 +1,3 @@
-brain: no_new_entries_this_check is true (past the 14:00 cutoff, now 15:23) and positions_held is 0, so no buys can be placed and there is nothing to sell or protect. This is the last check of the day (checks_left_today=1), so there's no point setting standing orders either since no new entries can fill.
-lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - confirm cutoff status first before building any orders, consistent with the last several lessons on this exact situation.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 15:53 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: It's 15:53 ET, no_new_entries_this_check is true (past the 14:00 cutoff), checks_left_today is 0, and positions_held is 0 - there is nothing actionable. No open positions to protect or sell. Waiting for the next trading day.
-lesson: At 0 checks left and no_new_entries_this_check true with zero positions, there is nothing to do but confirm and stop - don't build orders that will be dropped.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-10-06 16:00 ET — published the session's closing state
-
-## 2026-10-07 09:32 ET (Wednesday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
@@ -398,3 +375,26 @@ lesson: Past lessons consistently show congress-disclosure evidence spread acros
 ~ WORKING buy_limit $500.00 GS @ $856.43 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25420.92 (+1.68% on $25000.00 in) · cash $22174.86 · realised +424.86
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $21770.91 this week
+
+## 2026-10-08 11:16 ET (Thursday) — week 2026-W41 — budget left $21770.91 (today $13000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Below min_positions (5 of 8) with 87% idle cash - past lessons and counterfactual data consistently show idle cash is graded as a loss while congress-disclosure breadth is the fastest path to target count. Adding PPG, LTH, CHRW, FWONK (all with fresh congress disclosure evidence from Doggett/McClain Delaney, not yet traded today, not in cooldown) brings us to 9 positions and deploys meaningful capital, each with a protective stop given the 30-min hold rule.
+lesson: Congress-pressure breadth entries (PPG/LTH/CHRW/FWONK) placed at 11:16 to close the min_positions gap while idle cash sat at 87%; track whether this late-morning batch underperforms the 09:xx SURVIVOR hour cohort.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped LTH: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped CHRW: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger LTH stop_loss: not held)
+  (dropped trigger CHRW stop_loss: not held)
+  (dropped trigger FWONK stop_loss: not held)
+portfolio: equity $25425.71 (+1.70% on $25000.00 in) · cash $22174.86 · realised +424.86
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $372.24] -> $752.23 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-10-08 11:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

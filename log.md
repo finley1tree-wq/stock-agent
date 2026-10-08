@@ -23034,3 +23034,6 @@ lesson: Congress-pressure breadth entries (PPG/LTH/CHRW/FWONK) placed at 11:16 t
 portfolio: equity $25425.71 (+1.70% on $25000.00 in) · cash $22174.86 · realised +424.86
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [take_profit @ $372.24] -> $752.23 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-10-08 11:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
