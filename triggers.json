@@ -1,116 +1,6 @@
 {
  "orders": [
   {
-   "id": "7c854131",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 483.6267,
-   "status": "cancelled",
-   "created": "2026-10-01 10:56",
-   "created_ts": 1790866604,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $482.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:05",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8a220fc5",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 479.0206,
-   "status": "cancelled",
-   "created": "2026-10-01 10:56",
-   "created_ts": 1790866604,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $482.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:00",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "575618d5",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 467.8407,
-   "status": "cancelled",
-   "created": "2026-10-01 10:56",
-   "created_ts": 1790866604,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $482.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:05",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "eecaf6f2",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 482.85,
-   "status": "filled",
-   "created": "2026-10-01 11:00",
-   "created_ts": 1790866809,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $482.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:05"
-  },
-  {
-   "id": "f68e5846",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 84.5,
-   "status": "filled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "Resting limit to get nuclear exposure at a better price than chasing",
-   "evidence": "South Korea $200B US investment headline (Barronscom 2026-09-30) names Cameco as beneficiary; CCJ currently 16.5pct of day range, limit below market for better entry",
-   "signals": [
-    "news"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 1500.0,
-   "closed": "2026-10-01 11:18"
-  },
-  {
-   "id": "086fc2c0",
-   "ticker": "NVDA",
-   "kind": "buy_limit",
-   "price": 227.0,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "Resting limit slightly below market to capture AI megacap on a dip rather than chasing",
-   "evidence": "Barclays sees upside to hyperscaler revenue (Investing.com 2026-10-01 14:05); NVDA at 12.5pct of day range near lows",
-   "signals": [
-    "news"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 1500.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "a1b00573",
    "ticker": "META",
    "kind": "take_profit",
@@ -7401,7 +7291,107 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "fbb274df",
+   "ticker": "GOOGL",
+   "kind": "stop_loss",
+   "price": 338.0,
+   "status": "working",
+   "created": "2026-10-08 12:56",
+   "created_ts": 1791478580,
+   "why": "Cap downside on new GOOGL position",
+   "evidence": "GOOGL price 348.76, protective stop ~3.1% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "655d23d5",
+   "ticker": "AMZN",
+   "kind": "stop_loss",
+   "price": 250.5,
+   "status": "working",
+   "created": "2026-10-08 12:56",
+   "created_ts": 1791478580,
+   "why": "Cap downside on new AMZN position",
+   "evidence": "AMZN price 258.26, protective stop ~3.0% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b02f7267",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 349.7963,
+   "status": "working",
+   "created": "2026-10-08 12:56",
+   "created_ts": 1791478580,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $348.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "df3661f6",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 338.3651,
+   "status": "working",
+   "created": "2026-10-08 12:56",
+   "created_ts": 1791478580,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $348.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
+  },
+  {
+   "id": "bdd00778",
+   "ticker": "AMZN",
+   "kind": "take_profit",
+   "price": 258.8834,
+   "status": "working",
+   "created": "2026-10-08 12:56",
+   "created_ts": 1791478580,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $258.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "072507c2",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 250.5607,
+   "status": "working",
+   "created": "2026-10-08 12:56",
+   "created_ts": 1791478580,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $258.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 12:55"
+ "updated": "2026-10-08 12:56"
 }

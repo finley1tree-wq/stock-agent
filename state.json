@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 1340.54,
-  "deployed": 104750.0,
+  "spent": 2215.54,
+  "deployed": 105625.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 13.17,
@@ -9,7 +9,9 @@
     "AMGN": 2.31,
     "TSM": 500.0,
     "UNH": 375.0,
-    "HUBB": 500.0
+    "HUBB": 500.0,
+    "GOOGL": 500.0,
+    "AMZN": 375.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -29,7 +31,9 @@
     "HUBB": 1750.0,
     "IBP": 550.0,
     "NOC": 325.0,
-    "PPG": 375.0
+    "PPG": 375.0,
+    "GOOGL": 500.0,
+    "AMZN": 375.0
   },
   "orders": [
     {
@@ -2216,12 +2220,54 @@
       ],
       "evidence": "average cost $182.12",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.433364,
+      "price": 348.83,
+      "date": "2026-10-08",
+      "time_et": "12:56",
+      "ts": 1791478580,
+      "why": "Congress buy pressure plus deep pullback within day range gives good entry on a widely-held name not yet in book [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Cleo Fields disclosed GOOGL(GOOG) buy 2026-09-14, disclosed 2026-10-01; GOOGL at 7.2% of day range (near day low), 1m momentum +5.48%",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMZN",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.451735,
+      "price": 258.31,
+      "date": "2026-10-08",
+      "time_et": "12:56",
+      "ts": 1791478580,
+      "why": "Diversify into widely-held sector with positive momentum and moderate day-range entry, adds to min_positions count [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "AMZN 1m momentum +2.32%, currently at 38.2% of day range; widely_held sector hit_rate 0.58 in track record",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 1340.54,
-  "deployed_today": 17500.0,
-  "orders_today": 19,
+  "spent_today": 2215.54,
+  "deployed_today": 18375.0,
+  "orders_today": 21,
   "sells_today": 16,
   "sold_today": [
     "PG",
@@ -2260,19 +2306,10 @@
     "PPG": 1791478369,
     "IBP": 1791478501
   },
-  "last_publish_ts": 1791478500,
-  "last_check_ts": 1791478500,
+  "last_publish_ts": 1791478580,
+  "last_check_ts": 1791478580,
   "exp_arm": {
     "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "IBP": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -2290,25 +2327,25 @@
         "ratchet": "off"
       }
     },
-    "NOC": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "PPG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "HUBB": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "GOOGL": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AMZN": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -2319,24 +2356,30 @@
     }
   },
   "last_bar_ts": 1791478500,
-  "last_decision_ts": 1791477637,
+  "last_decision_ts": 1791478580,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
     "828e7324": 372.8026,
-    "8c5bd817": 70.578,
+    "bdd00778": 258.8834,
+    "b02f7267": 349.7963,
     "31ed9de0": 70.5725,
+    "8c5bd817": 70.578,
     "f8f53905": 148.1995,
     "553caf8b": 86.6052,
-    "c46a4abe": 452.2043,
     "fc07486c": 288.5,
-    "e758ce8e": 452.0,
     "cf615d7e": 482.8442,
-    "3dc49228": 466.958,
-    "14fec8d3": 287.0484,
+    "c46a4abe": 452.2043,
+    "e758ce8e": 452.0,
     "6eb612c2": 467.3089,
+    "14fec8d3": 287.0484,
+    "3dc49228": 466.958,
     "0eee1362": 466.0,
     "13014849": 362.0,
+    "df3661f6": 338.3651,
+    "072507c2": 250.5607,
+    "655d23d5": 250.5,
+    "fbb274df": 338.0,
     "d2c55044": 360.7527
   }
 }

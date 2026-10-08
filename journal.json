@@ -55850,7 +55850,7 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -1.54
   },
   {
     "symbol": "MSFT",
@@ -55938,7 +55938,9 @@
     "code_version": "5cde47b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.51,
+    "ret_final": 0.51,
+    "ret_src": "realised"
   },
   {
     "symbol": "GS",
@@ -56097,7 +56099,7 @@
     "code_version": "68dd506",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.43
+    "ret_now": 0.13
   },
   {
     "symbol": "NOC",
@@ -56127,7 +56129,9 @@
     "code_version": "68dd506",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": 0.26,
+    "ret_final": 0.26,
+    "ret_src": "realised"
   },
   {
     "symbol": "PPG",
@@ -56156,7 +56160,10 @@
     "hour_et": 12,
     "code_version": "d3a08ae",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.23,
+    "ret_now": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "HUBB",
@@ -56185,7 +56192,8 @@
     "hour_et": 12,
     "code_version": "d3a08ae",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -1.07
   },
   {
     "symbol": "NOC",
@@ -56210,7 +56218,8 @@
     "evidence": "average cost $478.59",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "9724655"
+    "code_version": "9724655",
+    "hold_minutes": 14
   },
   {
     "symbol": "PPG",
@@ -56235,7 +56244,8 @@
     "evidence": "average cost $104.61",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "26d0d1c"
+    "code_version": "26d0d1c",
+    "hold_minutes": 9
   },
   {
     "symbol": "IBP",
@@ -56260,6 +56270,65 @@
     "evidence": "average cost $182.12",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "13b7b6c"
+    "code_version": "13b7b6c",
+    "hold_minutes": 34
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.433364,
+    "price": 348.83,
+    "date": "2026-10-08",
+    "time_et": "12:56",
+    "ts": 1791478580,
+    "why": "Congress buy pressure plus deep pullback within day range gives good entry on a widely-held name not yet in book [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Cleo Fields disclosed GOOGL(GOOG) buy 2026-09-14, disclosed 2026-10-01; GOOGL at 7.2% of day range (near day low), 1m momentum +5.48%",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 348.76,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 5.48,
+    "hour_et": 12,
+    "code_version": "9929ff3",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMZN",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.451735,
+    "price": 258.31,
+    "date": "2026-10-08",
+    "time_et": "12:56",
+    "ts": 1791478580,
+    "why": "Diversify into widely-held sector with positive momentum and moderate day-range entry, adds to min_positions count [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "AMZN 1m momentum +2.32%, currently at 38.2% of day range; widely_held sector hit_rate 0.58 in track record",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 258.26,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.32,
+    "hour_et": 12,
+    "code_version": "9929ff3",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

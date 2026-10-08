@@ -1,27 +1,3 @@
-  (cancelled 4 resting buy order(s): past the entry cutoff)
-  (cancelled 1 standing order(s) on HUBB: position closed)
-- SELL 100% HUBB [take_profit @ $475.67] -> $626.79 (+0.29%) — close 100% at +0.3% over the average cost
-  (cancelled 1 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $220.95] -> $626.78 (+0.28%) — close 100% at +0.3% over the average cost
-## 2026-10-07 15:14 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-07 15:15 ET (Wednesday) — week 2026-W41 — budget left $25000.00 (today $26875.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
-  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
-  (no price for AXIA — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff, only 45 min to close) and positions_held is 0, so no buys are actionable - guardrails would drop any order. No existing positions to sell or protect. Nothing to do but wait for the desk to close out the day; will reassess at next check if entries reopen.
-lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - confirm cutoff and stop rather than building orders that will be dropped.
-portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realised +403.95
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-07 15:45 ET (Wednesday) — week 2026-W41 — budget left $25000.00 (today $26875.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
@@ -398,3 +374,27 @@ Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $22404.94 this week
   (cancelled 2 standing order(s) on IBP: position closed)
 - SELL 100% IBP [take_profit @ $183.05] -> $552.80 (+0.51%) — close 100% at +0.5% over the average cost
 ## 2026-10-08 12:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 12:56 ET (Thursday) — week 2026-W41 — budget left $23659.46 (today $17500.00 put to work, 19 buys, 16 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain: Only 3 of 8 min_positions held with 94.6% cash idle - the biggest problem right now. Adding IBM (congress+cooldown cleared), AMGN (congress, low in day range), GOOGL (congress+deep pullback to day low), and AMZN (momentum, diversification) brings me to 7 names with concrete evidence each, sized $1500-2000 per the owner's instruction for real size. Past lessons repeatedly confirm breadth-first congress-backed entries are the fastest path to min_positions and have graded positively multiple times today; attaching protective stops immediately per the risk_management signal which has the best track record (0.19% avg, 88% hit rate).
+lesson: Below min_positions with high idle cash is the clearest action signal - deploy multiple congress/news-backed names at once in real size rather than trickling single small buys.
+  (dropped IBM: sold 39 min ago, cooling off)
+  (dropped AMGN: sold 36 min ago, cooling off)
+- BUY $500.00 GOOGL [filled] ['congress', 'momentum'] — Congress buy pressure plus deep pullback within day range gives good entry on a widely-held name not yet in book [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields disclosed GOOGL(GOOG) buy 2026-09-14, disclosed 2026-10-01; GOOGL at 7.2% of day range (near day low), 1m momentum +5.48%
+- BUY $375.00 AMZN [filled] ['momentum', 'track_record'] — Diversify into widely-held sector with positive momentum and moderate day-range entry, adds to min_positions count [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: AMZN 1m momentum +2.32%, currently at 38.2% of day range; widely_held sector hit_rate 0.58 in track record
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-10-08 — Cap downside on new GOOGL position
+~ WORKING stop_loss 100% AMZN @ $250.50 until 2026-10-08 — Cap downside on new AMZN position
+~ WORKING take_profit 100% GOOGL @ $349.80 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $338.37 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $258.88 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $250.56 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25425.34 (+1.70% on $25000.00 in) · cash $23188.41 · realised +438.41
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22784.46 this week

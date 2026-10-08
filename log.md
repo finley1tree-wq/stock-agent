@@ -23204,3 +23204,27 @@ Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $22404.94 this week
   (cancelled 2 standing order(s) on IBP: position closed)
 - SELL 100% IBP [take_profit @ $183.05] -> $552.80 (+0.51%) — close 100% at +0.5% over the average cost
 ## 2026-10-08 12:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 12:56 ET (Thursday) — week 2026-W41 — budget left $23659.46 (today $17500.00 put to work, 19 buys, 16 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain: Only 3 of 8 min_positions held with 94.6% cash idle - the biggest problem right now. Adding IBM (congress+cooldown cleared), AMGN (congress, low in day range), GOOGL (congress+deep pullback to day low), and AMZN (momentum, diversification) brings me to 7 names with concrete evidence each, sized $1500-2000 per the owner's instruction for real size. Past lessons repeatedly confirm breadth-first congress-backed entries are the fastest path to min_positions and have graded positively multiple times today; attaching protective stops immediately per the risk_management signal which has the best track record (0.19% avg, 88% hit rate).
+lesson: Below min_positions with high idle cash is the clearest action signal - deploy multiple congress/news-backed names at once in real size rather than trickling single small buys.
+  (dropped IBM: sold 39 min ago, cooling off)
+  (dropped AMGN: sold 36 min ago, cooling off)
+- BUY $500.00 GOOGL [filled] ['congress', 'momentum'] — Congress buy pressure plus deep pullback within day range gives good entry on a widely-held name not yet in book [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields disclosed GOOGL(GOOG) buy 2026-09-14, disclosed 2026-10-01; GOOGL at 7.2% of day range (near day low), 1m momentum +5.48%
+- BUY $375.00 AMZN [filled] ['momentum', 'track_record'] — Diversify into widely-held sector with positive momentum and moderate day-range entry, adds to min_positions count [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: AMZN 1m momentum +2.32%, currently at 38.2% of day range; widely_held sector hit_rate 0.58 in track record
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-10-08 — Cap downside on new GOOGL position
+~ WORKING stop_loss 100% AMZN @ $250.50 until 2026-10-08 — Cap downside on new AMZN position
+~ WORKING take_profit 100% GOOGL @ $349.80 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $338.37 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMZN @ $258.88 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 AMZN @ $250.56 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25425.34 (+1.70% on $25000.00 in) · cash $23188.41 · realised +438.41
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22784.46 this week
