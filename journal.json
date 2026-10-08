@@ -55348,7 +55348,9 @@
     "code_version": "5798d95",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -55487,7 +55489,8 @@
     "hour_et": 10,
     "code_version": "ac90028",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.19
   },
   {
     "symbol": "TSM",
@@ -55512,6 +55515,36 @@
     "evidence": "average cost $469.47",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "795ff71"
+    "code_version": "795ff71",
+    "hold_minutes": 52
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.020832,
+    "price": 371.13,
+    "date": "2026-10-08",
+    "time_et": "10:35",
+    "ts": 1791470140,
+    "why": "Congress buy pressure plus pullback entry, re-enter after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress_net_buy_pressure AVGO 1.0, change_1d -1.45% pulling back to 79.2% of range, widely_held sector hit_rate 0.57",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 371.06,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.83,
+    "hour_et": 10,
+    "code_version": "eeba284",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

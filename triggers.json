@@ -1,79 +1,6 @@
 {
  "orders": [
   {
-   "id": "d99c9e52",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 484.0,
-   "status": "filled",
-   "created": "2026-10-01 10:13",
-   "created_ts": 1790864039,
-   "why": "resting limit slightly below current price for better entry once cooldown clears",
-   "evidence": "NOC cooldown 42 min left, defense headline flow",
-   "signals": [
-    "news"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 2000.0,
-   "closed": "2026-10-01 10:56"
-  },
-  {
-   "id": "76d4feca",
-   "ticker": "PLTR",
-   "kind": "take_profit",
-   "price": 190.0578,
-   "status": "filled",
-   "created": "2026-10-01 10:15",
-   "created_ts": 1790864104,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $189.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:20"
-  },
-  {
-   "id": "674f2c65",
-   "ticker": "PLTR",
-   "kind": "stop_loss",
-   "price": 187.7905,
-   "status": "cancelled",
-   "created": "2026-10-01 10:15",
-   "created_ts": 1790864104,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $189.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:15",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "8aba3667",
-   "ticker": "PLTR",
-   "kind": "buy_limit",
-   "price": 183.7277,
-   "status": "cancelled",
-   "created": "2026-10-01 10:15",
-   "created_ts": 1790864104,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $189.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 10:20",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "86e4d88a",
    "ticker": "PLTR",
    "kind": "stop_loss",
@@ -7421,7 +7348,76 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "31ed9de0",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 70.5725,
+   "status": "working",
+   "created": "2026-10-08 10:35",
+   "created_ts": 1791470140,
+   "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Cleo Fields (D) and Byron Donalds (R) both disclosed NFLX buys per who_disclosed_it; price +2.0% today at 88.7% of range",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-08",
+   "usd": 750.0
+  },
+  {
+   "id": "a3118d8e",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 372.236,
+   "status": "working",
+   "created": "2026-10-08 10:35",
+   "created_ts": 1791470140,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $371.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f91fa4f6",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 368.3688,
+   "status": "working",
+   "created": "2026-10-08 10:35",
+   "created_ts": 1791470140,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $371.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7583454e",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 359.9961,
+   "status": "working",
+   "created": "2026-10-08 10:35",
+   "created_ts": 1791470140,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $371.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 10:28"
+ "updated": "2026-10-08 10:35"
 }

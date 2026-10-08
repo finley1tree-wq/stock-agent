@@ -1,28 +1,3 @@
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain: We're at 13:14 ET, past the 14:00 cutoff is near but not yet reached - however no_new_entries_this_check is false so new entries are still technically allowed, but it's 13:14 which is in hour "13" marked PROBATION, and all names I'd want (AVGO, GS, KO, NFLX, HD, PG, UNH) are in cooldown (sold today, 45min rebuy cooldown) or already have buy_limit ladders resting below market from this session. Rather than chase fresh market buys into names sitting mid-to-high in their day range during a PROBATION hour, I'll let the existing 7 buy_limit orders (UNH, GS, KO, NFLX, AVGO, HD, PG) continue working - they're all congress-backed with sensible below-market entries, consistent with past lessons that this ladder approach outperforms chasing. With 46 min left until the 14:00 no-new-entries cutoff, I'll check back soon to see if any limits filled and reassess.
-lesson: When the whole book sells on cooldown but a diversified congress-backed buy_limit ladder is already resting below market, let it work through PROBATION hours rather than force fresh market entries into mid/high-range prints.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
-Decision: nothing at this check. 7 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 13:45 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain: It's 13:45 ET, past the 14:00 cutoff is imminent but not yet hit - however current hour (13:xx) is PROBATION and the book is already at zero positions with a full ladder of 7 diversified congress-backed buy_limits resting below market (UNH, GS, KO, NFLX, HD, PG, AVGO) covering widely-held/staples names, all placed with concrete congress disclosure evidence (David J. Taylor on HD/PG, Cleo Fields on NFLX, Rulli on GS, congress_net_buy_pressure scores for KO/PG/NFLX). Past lessons consistently say: when a full ladder is resting below market in a PROBATION hour, let it work rather than chase high-range prints (AVGO 99.9%, NOC 95.6%, CCJ 95.6% all too extended per max_entry_range_pct=85). No fresh market buys now given 14:00 cutoff is 15 minutes away and all these names are high in range; the standing limits already cover the diversification need.
-lesson: At 13:45 with cutoff at 14:00 and a full diversified congress-backed buy_limit ladder already resting below market, doing nothing new and letting limits fill is consistent with repeated past-lesson confirmations - don't force market entries into names at 85-99% of day range this close to cutoff.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
-Decision: nothing at this check. 7 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 7 resting buy order(s): past the entry cutoff)
 
 ## 2026-10-06 14:01 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
   (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
@@ -398,3 +373,28 @@ Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21388.83 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $470.58] -> $3007.08 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 10:35 ET (Thursday) — week 2026-W41 — budget left $24395.91 (today $10375.00 put to work, 5 buys, 4 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Only 1 position held vs min_positions 8, cash_idle_pct 97.6% - a clear decision to fix now. Congress-disclosure signal has been the best performing bucket per counterfactual learning (avg_pct 0.32 across 172 buys) and past_lessons repeatedly confirm anchoring on congress pressure names at 09:xx-10:xx hours. Building a 7-name ladder (plus existing UNH=8) using the highest congress_net_buy_pressure scores (CHRW, HUBB, LTH-excluded cooldown-free, ESE, FWONK, PG, NFLX, AVGO) sized $2000-3000 each, all with protective stops since max_hold_minutes=30 applies.
+lesson: When below min_positions with near-zero deployment, use congress_net_buy_pressure ranking plus who_disclosed_it names to fill out the book fast in one check rather than trickling in one name at a time.
+  (dropped PG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped CHRW: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped ESE: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped NFLX: 89% up today's range — resting a limit at $70.57 instead of chasing)
+- BUY $750.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure plus pullback entry, re-enter after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure AVGO 1.0, change_1d -1.45% pulling back to 79.2% of range, widely_held sector hit_rate 0.57
+  (dropped trigger NFLX stop_loss: not held)
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger CHRW stop_loss: not held)
+~ WORKING buy_limit $750.00 NFLX @ $70.57 until 2026-10-08 — wanted it, but not at the high — resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% AVGO @ $372.24 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AVGO @ $368.37 until 2026-10-13 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AVGO @ $360.00 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25423.37 (+1.69% on $25000.00 in) · cash $24049.86 · realised +424.86
+Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $23645.91 this week

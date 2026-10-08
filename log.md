@@ -22938,3 +22938,28 @@ Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21388.83 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $470.58] -> $3007.08 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 10:35 ET (Thursday) — week 2026-W41 — budget left $24395.91 (today $10375.00 put to work, 5 buys, 4 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Only 1 position held vs min_positions 8, cash_idle_pct 97.6% - a clear decision to fix now. Congress-disclosure signal has been the best performing bucket per counterfactual learning (avg_pct 0.32 across 172 buys) and past_lessons repeatedly confirm anchoring on congress pressure names at 09:xx-10:xx hours. Building a 7-name ladder (plus existing UNH=8) using the highest congress_net_buy_pressure scores (CHRW, HUBB, LTH-excluded cooldown-free, ESE, FWONK, PG, NFLX, AVGO) sized $2000-3000 each, all with protective stops since max_hold_minutes=30 applies.
+lesson: When below min_positions with near-zero deployment, use congress_net_buy_pressure ranking plus who_disclosed_it names to fill out the book fast in one check rather than trickling in one name at a time.
+  (dropped PG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped CHRW: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped ESE: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped NFLX: 89% up today's range — resting a limit at $70.57 instead of chasing)
+- BUY $750.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure plus pullback entry, re-enter after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure AVGO 1.0, change_1d -1.45% pulling back to 79.2% of range, widely_held sector hit_rate 0.57
+  (dropped trigger NFLX stop_loss: not held)
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger CHRW stop_loss: not held)
+~ WORKING buy_limit $750.00 NFLX @ $70.57 until 2026-10-08 — wanted it, but not at the high — resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% AVGO @ $372.24 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AVGO @ $368.37 until 2026-10-13 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AVGO @ $360.00 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25423.37 (+1.69% on $25000.00 in) · cash $24049.86 · realised +424.86
+Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $23645.91 this week

@@ -1,15 +1,16 @@
 {
   "week": "2026-W41",
-  "spent": 604.09,
-  "deployed": 97625.0,
+  "spent": 1354.09,
+  "deployed": 98375.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 14.34,
     "IBM": 22.19,
-    "UNH": 625.0
+    "UNH": 625.0,
+    "AVGO": 750.0
   },
   "deployed_by_ticker": {
-    "AVGO": 7500.0,
+    "AVGO": 8250.0,
     "PG": 12703.7,
     "ACN": 5000.0,
     "MSFT": 2500.0,
@@ -1665,12 +1666,33 @@
       ],
       "evidence": "average cost $469.47",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.020832,
+      "price": 371.13,
+      "date": "2026-10-08",
+      "time_et": "10:35",
+      "ts": 1791470140,
+      "why": "Congress buy pressure plus pullback entry, re-enter after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "congress_net_buy_pressure AVGO 1.0, change_1d -1.45% pulling back to 79.2% of range, widely_held sector hit_rate 0.57",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 604.09,
-  "deployed_today": 10375.0,
-  "orders_today": 5,
+  "spent_today": 1354.09,
+  "deployed_today": 11125.0,
+  "orders_today": 6,
   "sells_today": 4,
   "sold_today": [
     "PG",
@@ -1695,18 +1717,9 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791469726,
-  "last_check_ts": 1791470053,
+  "last_publish_ts": 1791470140,
+  "last_check_ts": 1791470140,
   "exp_arm": {
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "UNH": {
       "params": {
         "hold_minutes": 90,
@@ -1715,15 +1728,28 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "AVGO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
-  "last_bar_ts": 1791469800,
-  "last_decision_ts": 1791469182,
+  "last_bar_ts": 1791470100,
+  "last_decision_ts": 1791470140,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "a3118d8e": 372.236,
     "b047ac1b": 371.4483,
+    "f91fa4f6": 368.3688,
+    "31ed9de0": 70.5725,
     "0d3aacf8": 360.0,
-    "66b8f314": 359.4529
+    "66b8f314": 359.4529,
+    "7583454e": 359.9961
   }
 }
