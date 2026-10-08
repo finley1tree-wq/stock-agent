@@ -1,17 +1,3 @@
-
-## 2026-10-08 10:50 ET (Thursday) — week 2026-W41 — budget left $23645.91 (today $11125.00 put to work, 6 buys, 4 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Below min_positions with 94.6% cash idle - the counterfactual report explicitly flags this as a graded loss. Past lessons consistently show congress-disclosure-backed names at low/mid day-range in the 09:xx-10:xx window grading well (+0.44%, +0.74% in recent checks). Deploying across 7 fresh congress-pressure names (AMGN, IBM, KO, AAPL, GOOGL, PPG, HUBB) plus a small NFLX add, sized $1500-2500 each, brings me from 2 to 9 positions and ~68% deployed, consistent with the owner's explicit instruction for bigger positions and more names rather than sitting on cash.
-lesson: Congress-disclosure evidence spread across many sectors at once (not just one name at a time) is the fastest way to hit min_positions when below target - do this immediately rather than trickling single buys across multiple checks.
-  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped AAPL: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped GOOGL: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped NFLX: 93% up today's range — resting a limit at $70.58 instead of chasing)
 - BUY $625.00 AMGN [filled] ['congress', 'news'] — congress buy pressure + pullback gives a mid-range entry in a widely_held name [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. David J. Taylor disclosed AMGN buy 2026-09-22 (disclosed 10-01); AMGN at 22.3% of day range, down -2.52% today - oversold entry
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 ET cutoff) so no new buys can be placed - this would be dropped per guardrails. I hold zero positions currently (all sold today), so there's nothing to protect with stops either. With only 1 check left today and no open positions, there's nothing actionable: sitting out is the only valid move until tomorrow's session.
 lesson: After no_new_entries_after_et (14:00), with zero open positions, there is nothing to do but wait - don't force orders that guardrails will drop.
+portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-08 15:33 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $19750.00 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is already 0, so there is nothing to buy or protect. All prior positions were closed today (24 sells). Sitting out the final ~27 minutes until close is the correct action per guardrails since any buy orders would be dropped anyway.
+lesson: When no_new_entries_this_check is true and positions_held is 0, there is literally nothing actionable - confirm both flags before attempting any order construction.
 portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)

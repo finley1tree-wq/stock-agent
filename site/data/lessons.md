@@ -277,3 +277,4 @@
 - 2026-10-08 (14d graded, realised 0.02% per dollar): When no_new_entries_this_check is true, don't propose buys even with good evidence - rely on existing protective orders and just monitor until the clock or stops resolve open positions.
 - 2026-10-08 (13d graded, realised 0.02% per dollar): When no_new_entries_this_check is true, don't try to force buys - confirm the flag first, then just monitor since no standing buy orders will fill either (entries are blocked session-wide, not just market orders).
 - 2026-10-08 (13d graded, realised 0.02% per dollar): After no_new_entries_after_et (14:00), with zero open positions, there is nothing to do but wait - don't force orders that guardrails will drop.
+- 2026-10-08 (13d graded, realised 0.02% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is literally nothing actionable - confirm both flags before attempting any order construction.
