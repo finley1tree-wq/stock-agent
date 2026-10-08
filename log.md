@@ -23014,3 +23014,23 @@ lesson: Past lessons consistently show congress-disclosure evidence spread acros
 ~ WORKING buy_limit $500.00 GS @ $856.43 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25420.92 (+1.68% on $25000.00 in) · cash $22174.86 · realised +424.86
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $21770.91 this week
+
+## 2026-10-08 11:16 ET (Thursday) — week 2026-W41 — budget left $21770.91 (today $13000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Below min_positions (5 of 8) with 87% idle cash - past lessons and counterfactual data consistently show idle cash is graded as a loss while congress-disclosure breadth is the fastest path to target count. Adding PPG, LTH, CHRW, FWONK (all with fresh congress disclosure evidence from Doggett/McClain Delaney, not yet traded today, not in cooldown) brings us to 9 positions and deploys meaningful capital, each with a protective stop given the 30-min hold rule.
+lesson: Congress-pressure breadth entries (PPG/LTH/CHRW/FWONK) placed at 11:16 to close the min_positions gap while idle cash sat at 87%; track whether this late-morning batch underperforms the 09:xx SURVIVOR hour cohort.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped LTH: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped CHRW: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger LTH stop_loss: not held)
+  (dropped trigger CHRW stop_loss: not held)
+  (dropped trigger FWONK stop_loss: not held)
+portfolio: equity $25425.71 (+1.70% on $25000.00 in) · cash $22174.86 · realised +424.86
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
