@@ -23260,3 +23260,6 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22775.55 this week
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $883.16] -> $501.24 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [take_profit @ $71.11] -> $375.88 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-08 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders

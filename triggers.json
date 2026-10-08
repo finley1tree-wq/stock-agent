@@ -7313,7 +7313,7 @@
    "ticker": "NFLX",
    "kind": "stop_loss",
    "price": 69.2,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 13:12",
    "created_ts": 1791479522,
    "why": "Protective stop on new NFLX tranche",
@@ -7322,7 +7322,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 13:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0bb08bca",
@@ -7366,7 +7368,7 @@
    "ticker": "NFLX",
    "kind": "take_profit",
    "price": 71.111,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-08 13:12",
    "created_ts": 1791479522,
    "why": "close 100% at +0.2% over the average cost",
@@ -7376,14 +7378,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 13:20"
   },
   {
    "id": "86ad5d0a",
    "ticker": "NFLX",
    "kind": "buy_limit",
    "price": 68.8118,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 13:12",
    "created_ts": 1791479522,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7393,8 +7396,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-08 13:20",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-08 13:16"
+ "updated": "2026-10-08 13:20"
 }

@@ -1,6 +1,3 @@
-  (dropped trigger NFLX stop_loss: not held)
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger KO stop_loss: not held)
 ~ WORKING stop_loss 100% HD @ $278.00 until 2026-10-08 — Protect HD position per auto-bracket risk management, ~2.5% below entry
 ~ WORKING stop_loss 100% PG @ $143.80 until 2026-10-08 — Protect PG position, ~2.4% below entry
 ~ WORKING stop_loss 100% TSM @ $457.00 until 2026-10-08 — Protect TSM position, ~2.6% below entry
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22775.55 this week
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $883.16] -> $501.24 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [take_profit @ $71.11] -> $375.88 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-08 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders

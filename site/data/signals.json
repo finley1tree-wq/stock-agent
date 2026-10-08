@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-08T13:16-04:00",
+ "asOf": "2026-10-08T13:20-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "64515bed",
-   "ticker": "NFLX",
-   "kind": "take_profit",
-   "price": 71.111,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 71.01,
-   "pct_away": 0.14,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "b02f7267",
    "ticker": "GOOGL",
    "kind": "take_profit",
@@ -202,27 +185,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.77,
-   "pct_away": 0.29,
+   "last": 348.31,
+   "pct_away": 0.43,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bdd00778",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 258.8834,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 257.46,
-   "pct_away": 0.55,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +202,8 @@
    "usd": 125.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.01,
-   "pct_away": -0.61,
+   "last": 71.1,
+   "pct_away": -0.73,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -254,14 +220,31 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.01,
-   "pct_away": -0.62,
+   "last": 71.1,
+   "pct_away": -0.74,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "bdd00778",
+   "ticker": "AMZN",
+   "kind": "take_profit",
+   "price": 258.8834,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 256.89,
+   "pct_away": 0.78,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -272,31 +255,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 471.2,
-   "pct_away": -0.9,
+   "last": 471.48,
+   "pct_away": -0.96,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "f8f53905",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 148.1995,
-   "usd": 375.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 149.8,
-   "pct_away": -1.07,
-   "good_until": "2026-10-08",
-   "why": "wanted it, but not at the high \u2014 resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
    ]
   },
   {
@@ -307,12 +272,30 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 471.2,
-   "pct_away": -1.1,
+   "last": 471.48,
+   "pct_away": -1.16,
    "good_until": "2026-10-08",
    "why": "Standard protective stop on new HUBB position",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "f8f53905",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 148.1995,
+   "usd": 375.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 150.06,
+   "pct_away": -1.24,
+   "good_until": "2026-10-08",
+   "why": "wanted it, but not at the high \u2014 resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
    ]
   },
   {
@@ -323,8 +306,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 87.67,
-   "pct_away": -1.21,
+   "last": 87.84,
+   "pct_away": -1.41,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -341,8 +324,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 293.3,
-   "pct_away": -1.64,
+   "last": 293.61,
+   "pct_away": -1.74,
    "good_until": "2026-10-08",
    "why": "Wait for pullback rather than pay the high of day",
    "signals": [
@@ -358,8 +341,8 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 293.3,
-   "pct_away": -2.13,
+   "last": 293.61,
+   "pct_away": -2.23,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $287.05. Two independent congress disclosures back HD, place as limit below current high to respect max_entry_range_pct [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -376,29 +359,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 471.2,
-   "pct_away": 2.47,
+   "last": 471.48,
+   "pct_away": 2.41,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "b554825e",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 69.2,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 71.01,
-   "pct_away": -2.55,
-   "good_until": "2026-10-08",
-   "why": "Protective stop on new NFLX tranche",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -409,8 +376,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 257.46,
-   "pct_away": -2.68,
+   "last": 256.89,
+   "pct_away": -2.46,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -426,8 +393,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 257.46,
-   "pct_away": -2.7,
+   "last": 256.89,
+   "pct_away": -2.49,
    "good_until": "2026-10-08",
    "why": "Cap downside on new AMZN position",
    "signals": [
@@ -442,8 +409,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 348.77,
-   "pct_away": -2.98,
+   "last": 348.31,
+   "pct_away": -2.86,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -459,29 +426,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.77,
-   "pct_away": -3.09,
+   "last": 348.31,
+   "pct_away": -2.96,
    "good_until": "2026-10-08",
    "why": "Cap downside on new GOOGL position",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "86ad5d0a",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 68.8118,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 71.01,
-   "pct_away": -3.1,
-   "good_until": "2026-10-13",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   }
  ],
