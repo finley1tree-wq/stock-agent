@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-08T12:52-04:00",
+ "asOf": "2026-10-08T12:55-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d5f43569",
-   "ticker": "IBP",
-   "kind": "take_profit",
-   "price": 183.0506,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 182.89,
-   "pct_away": 0.09,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "828e7324",
    "ticker": "UNH",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.54,
-   "pct_away": 0.34,
+   "last": 372.26,
+   "pct_away": 0.15,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,8 +202,8 @@
    "usd": 125.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.06,
-   "pct_away": -0.68,
+   "last": 71.25,
+   "pct_away": -0.94,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -237,28 +220,10 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.06,
-   "pct_away": -0.69,
+   "last": 71.25,
+   "pct_away": -0.95,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "553caf8b",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 86.6052,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 87.43,
-   "pct_away": -0.94,
-   "good_until": "2026-10-08",
-   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
@@ -273,8 +238,8 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.6,
-   "pct_away": -0.94,
+   "last": 149.71,
+   "pct_away": -1.01,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -284,17 +249,35 @@
    ]
   },
   {
-   "id": "cf615d7e",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 482.8442,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "553caf8b",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.6052,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 477.94,
-   "pct_away": 1.03,
+   "last": 87.54,
+   "pct_away": -1.07,
+   "good_until": "2026-10-08",
+   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "c46a4abe",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 452.2043,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 458.56,
+   "pct_away": -1.39,
    "good_until": "2026-10-13",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -308,8 +291,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 292.13,
-   "pct_away": -1.24,
+   "last": 292.62,
+   "pct_away": -1.41,
    "good_until": "2026-10-08",
    "why": "Wait for pullback rather than pay the high of day",
    "signals": [
@@ -318,32 +301,48 @@
    ]
   },
   {
-   "id": "6eb612c2",
+   "id": "e758ce8e",
    "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 467.3089,
+   "kind": "stop_loss",
+   "price": 452.0,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 460.17,
-   "pct_away": 1.55,
+   "last": 458.56,
+   "pct_away": -1.43,
+   "good_until": "2026-10-08",
+   "why": "Standard protective stop ~3% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "cf615d7e",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 482.8442,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 475.79,
+   "pct_away": 1.48,
    "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "c46a4abe",
-   "ticker": "TSM",
+   "id": "3dc49228",
+   "ticker": "HUBB",
    "kind": "buy_limit",
-   "price": 452.2043,
+   "price": 466.958,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 460.17,
-   "pct_away": -1.73,
+   "last": 475.79,
+   "pct_away": -1.86,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -359,8 +358,8 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 292.13,
-   "pct_away": -1.74,
+   "last": 292.62,
+   "pct_away": -1.9,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $287.05. Two independent congress disclosures back HD, place as limit below current high to respect max_entry_range_pct [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -370,33 +369,17 @@
    ]
   },
   {
-   "id": "e758ce8e",
+   "id": "6eb612c2",
    "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 452.0,
+   "kind": "take_profit",
+   "price": 467.3089,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 460.17,
-   "pct_away": -1.78,
-   "good_until": "2026-10-08",
-   "why": "Standard protective stop ~3% below entry",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "3dc49228",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 466.958,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 477.94,
-   "pct_away": -2.3,
+   "last": 458.56,
+   "pct_away": 1.91,
    "good_until": "2026-10-13",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -410,8 +393,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 477.94,
-   "pct_away": -2.5,
+   "last": 475.79,
+   "pct_away": -2.06,
    "good_until": "2026-10-08",
    "why": "Standard protective stop on new HUBB position",
    "signals": [
@@ -426,26 +409,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.54,
-   "pct_away": -2.57,
+   "last": 372.26,
+   "pct_away": -2.76,
    "good_until": "2026-10-08",
    "why": "Cap downside on new UNH position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "1f4be284",
-   "ticker": "IBP",
-   "kind": "stop_loss",
-   "price": 178.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 182.89,
-   "pct_away": -2.67,
-   "good_until": "2026-10-08",
-   "why": "Cap downside on new IBP position per standard risk management",
    "signals": [
     "risk_management"
    ]
@@ -458,25 +425,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.54,
-   "pct_away": -2.9,
-   "good_until": "2026-10-13",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3548d96a",
-   "ticker": "IBP",
-   "kind": "buy_limit",
-   "price": 176.6564,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 182.89,
-   "pct_away": -3.41,
+   "last": 372.26,
+   "pct_away": -3.09,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
