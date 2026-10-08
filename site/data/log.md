@@ -1,6 +1,3 @@
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
   (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
   (no price for AXIA — excluded this check)
@@ -398,3 +395,6 @@ lesson: Below min_positions with high idle cash is the clearest action signal - 
 ~ WORKING buy_limit $500.00 AMZN @ $250.56 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25425.34 (+1.70% on $25000.00 in) · cash $23188.41 · realised +438.41
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22784.46 this week
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $372.80] -> $375.90 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-08 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
