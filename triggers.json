@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "a1b00573",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 727.9165,
-   "status": "filled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $724.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:20"
-  },
-  {
-   "id": "97f8b487",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 716.5609,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $724.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:15",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "73da9931",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 702.9299,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $724.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0c56cf66",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 247.1391,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $246.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:10",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "32ee3905",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 245.041,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $246.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:05",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "57143a62",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 239.1438,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $246.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:10",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b3305547",
    "ticker": "PLD",
    "kind": "take_profit",
@@ -7402,7 +7289,107 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "68f7e861",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 862.0,
+   "status": "working",
+   "created": "2026-10-08 13:12",
+   "created_ts": 1791479522,
+   "why": "Protective stop on new GS position",
+   "evidence": "GS ATR 2.226%, entry near 880.80",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b554825e",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 69.2,
+   "status": "working",
+   "created": "2026-10-08 13:12",
+   "created_ts": 1791479522,
+   "why": "Protective stop on new NFLX tranche",
+   "evidence": "NFLX ATR 2.17%, entry near 70.93",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0bb08bca",
+   "ticker": "GS",
+   "kind": "take_profit",
+   "price": 883.156,
+   "status": "working",
+   "created": "2026-10-08 13:12",
+   "created_ts": 1791479522,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $880.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b621a4b0",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 854.5506,
+   "status": "working",
+   "created": "2026-10-08 13:12",
+   "created_ts": 1791479522,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $880.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
+  },
+  {
+   "id": "64515bed",
+   "ticker": "NFLX",
+   "kind": "take_profit",
+   "price": 71.111,
+   "status": "working",
+   "created": "2026-10-08 13:12",
+   "created_ts": 1791479522,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $70.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "86ad5d0a",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 68.8118,
+   "status": "working",
+   "created": "2026-10-08 13:12",
+   "created_ts": 1791479522,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $70.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 13:01"
+ "updated": "2026-10-08 13:12"
 }

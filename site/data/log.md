@@ -1,27 +1,3 @@
-  (no price for AXIA — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff, 15:45 now, market closes 16:00, checks_left_today is 0) so new buys will be dropped. No open positions to sell or protect. Nothing actionable; session is effectively over.
-lesson: At 15:45 with no_new_entries_this_check true and zero checks left today, there is nothing to do but confirm and end the session - don't build orders that guardrails will drop.
-portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realised +403.95
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-10-07 16:00 ET — published the session's closing state
-
-## 2026-10-08 09:32 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Flat book at 09:32 SURVIVOR hour with full $25k budget available - priors and past lessons strongly favor congress-disclosure-backed names bought low/mid in day range during this exact hour. Building 8 positions (min_positions) each ~$3000, concentrated on congress pressure (HD, PG, GS, IBM, NFLX, AMGN, KO) plus the standout TSM insider cluster (30 insiders including CEO buying), all with protective stops per the risk_management/auto_bracket signal bucket that has the best realized hit rate (0.88) in track_record.
-lesson: Opening-hour congress+insider evidence stacked across multiple names, sized at $3000 each with immediate stops, matches the pattern that graded best in past_lessons_with_outcome; avoid momentum-only entries per guardrails.allow_momentum_only_entries=false.
-  (dropped GS: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped NFLX: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-- BUY $3000.00 HD [filled] ['congress', 'track_record'] — Two separate congress buy disclosures on HD recently, reasonable entry point mid-range | evidence: Lloyd Doggett (filed 2026-10-05) and David J. Taylor (filed 2026-10-01) both disclosed HD buys; price 285.00, 57.7% of day range, not extended
-- BUY $3000.00 PG [filled] ['congress', 'momentum'] — Congress buy pressure plus favorable low-range entry, staple defensive name | evidence: David J. Taylor disclosed PG buy 2026-09-17; PG at 147.3, only 33.3% of day range, +2.33% 5d
 - BUY $3000.00 TSM [filled] ['insider', 'congress'] — Overwhelming insider buying cluster at TSM, strongest insider signal in the entire dataset | evidence: 30+ TSM insiders including CEO Wei Che-Chia bought shares at $79.39 on 2026-10-07 (filed 2026-10-08), insider_net_buy_pressure=30.0, highest in dataset
   (dropped trigger GS stop_loss: not held)
   (dropped trigger IBM stop_loss: not held)
@@ -398,3 +374,27 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22784.46 this week
 ## 2026-10-08 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - SELL 100% TSM [time stop] -> $490.19 (-1.96%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-08 13:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 13:12 ET (Thursday) — week 2026-W41 — budget left $23650.55 (today $18375.00 put to work, 21 buys, 18 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain: Still well below min_positions (3 of 8) with 94.6% idle cash - this is the clearest action signal per counterfactual data showing idle_universe_avg_pct -0.41% as cost of sitting out. Adding ACN (congress+momentum), GS (fresh congress disclosure, decent track record), NFLX (two independent congress buys, already have resting limits working), and PEP (staples diversification, avoid over-concentration in widely_held tech which already holds HUBB/GOOGL/AMZN) to build toward min_positions with real position sizes ($1500-2500 each) rather than trickling.
+lesson: Past lessons show breadth entries across sectors at mid-day get mixed results (some positive, some negative) - stay disciplined on stop placement and avoid concentrating purely in widely_held tech names that already dominate the book.
+  (dropped ACN: not in allowed list)
+  (dropped PEP: not in allowed list)
+- BUY $500.00 GS [filled] ['congress', 'track_record'] — Congress buy disclosed recently, reasonable entry at 37.6% of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Michael A. Rulli bought GS $1,001-$15,000 disclosed 2026-10-02; congress signal bucket avg_ret 0.03% hit_rate 64% in track record
+- BUY $375.00 NFLX [filled] ['congress', 'news'] — Two independent congress disclosures back NFLX, add to existing resting limit orders with a market-priced tranche [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Cleo Fields and Byron Donalds both disclosed NFLX buys; NFLX +1.76% 1d, 67% of day range
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger PEP stop_loss: not held)
+~ WORKING stop_loss 100% GS @ $862.00 until 2026-10-08 — Protective stop on new GS position
+~ WORKING stop_loss 100% NFLX @ $69.20 until 2026-10-08 — Protective stop on new NFLX tranche
+~ WORKING take_profit 100% GS @ $883.16 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GS @ $854.55 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NFLX @ $71.11 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $68.81 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25416.85 (+1.67% on $25000.00 in) · cash $23179.49 · realised +429.49
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22775.55 this week

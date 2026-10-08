@@ -55850,7 +55850,9 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.54
+    "ret_now": -1.96,
+    "ret_final": -1.96,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -56099,7 +56101,9 @@
     "code_version": "68dd506",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -56193,7 +56197,7 @@
     "code_version": "d3a08ae",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.07
+    "ret_now": -2.0
   },
   {
     "symbol": "NOC",
@@ -56300,7 +56304,8 @@
     "hour_et": 12,
     "code_version": "9929ff3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.1
   },
   {
     "symbol": "AMZN",
@@ -56329,7 +56334,8 @@
     "hour_et": 12,
     "code_version": "9929ff3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.43
   },
   {
     "symbol": "UNH",
@@ -56354,7 +56360,8 @@
     "evidence": "average cost $371.91",
     "trigger": "take_profit",
     "hour_et": 13,
-    "code_version": "77e7d64"
+    "code_version": "77e7d64",
+    "hold_minutes": 34
   },
   {
     "symbol": "TSM",
@@ -56378,6 +56385,65 @@
     "evidence": "bought 90 min ago, -1.94% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "aa732d7"
+    "code_version": "aa732d7",
+    "hold_minutes": 90
+  },
+  {
+    "symbol": "GS",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.567552,
+    "price": 880.98,
+    "date": "2026-10-08",
+    "time_et": "13:12",
+    "ts": 1791479522,
+    "why": "Congress buy disclosed recently, reasonable entry at 37.6% of day range [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Michael A. Rulli bought GS $1,001-$15,000 disclosed 2026-10-02; congress signal bucket avg_ret 0.03% hit_rate 64% in track record",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 880.8,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -14.38,
+    "hour_et": 13,
+    "code_version": "1ad15b3",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NFLX",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.285845,
+    "price": 70.94,
+    "date": "2026-10-08",
+    "time_et": "13:12",
+    "ts": 1791479522,
+    "why": "Two independent congress disclosures back NFLX, add to existing resting limit orders with a market-priced tranche [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Cleo Fields and Byron Donalds both disclosed NFLX buys; NFLX +1.76% 1d, 67% of day range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 70.93,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -6.71,
+    "hour_et": 13,
+    "code_version": "1ad15b3",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

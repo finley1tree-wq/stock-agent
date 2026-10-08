@@ -1,30 +1,31 @@
 {
   "week": "2026-W41",
-  "spent": 1349.45,
-  "deployed": 105625.0,
+  "spent": 2224.45,
+  "deployed": 106500.0,
   "by_ticker": {
     "ACN": 29.57,
-    "NFLX": 13.17,
+    "NFLX": 388.17,
     "IBM": 20.81,
     "AMGN": 2.31,
     "TSM": 9.81,
     "HUBB": 500.0,
     "GOOGL": 500.0,
-    "AMZN": 375.0
+    "AMZN": 375.0,
+    "GS": 500.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
     "PG": 12703.7,
     "ACN": 5000.0,
     "MSFT": 2875.0,
-    "NFLX": 13166.67,
+    "NFLX": 13541.67,
     "TSM": 11777.78,
     "HD": 9814.81,
     "UNH": 6125.0,
     "KO": 6351.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
-    "GS": 9041.67,
+    "GS": 9541.67,
     "IBM": 6740.74,
     "AMGN": 5402.78,
     "HUBB": 1750.0,
@@ -2302,12 +2303,54 @@
       ],
       "evidence": "bought 90 min ago, -1.94% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "GS",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.567552,
+      "price": 880.98,
+      "date": "2026-10-08",
+      "time_et": "13:12",
+      "ts": 1791479522,
+      "why": "Congress buy disclosed recently, reasonable entry at 37.6% of day range [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Michael A. Rulli bought GS $1,001-$15,000 disclosed 2026-10-02; congress signal bucket avg_ret 0.03% hit_rate 64% in track record",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NFLX",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.285845,
+      "price": 70.94,
+      "date": "2026-10-08",
+      "time_et": "13:12",
+      "ts": 1791479522,
+      "why": "Two independent congress disclosures back NFLX, add to existing resting limit orders with a market-priced tranche [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Cleo Fields and Byron Donalds both disclosed NFLX buys; NFLX +1.76% 1d, 67% of day range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 1349.45,
-  "deployed_today": 18375.0,
-  "orders_today": 21,
+  "spent_today": 2224.45,
+  "deployed_today": 19250.0,
+  "orders_today": 23,
   "sells_today": 18,
   "sold_today": [
     "PG",
@@ -2346,27 +2389,9 @@
     "PPG": 1791478369,
     "IBP": 1791478501
   },
-  "last_publish_ts": 1791479008,
-  "last_check_ts": 1791479442,
+  "last_publish_ts": 1791479522,
+  "last_check_ts": 1791479522,
   "exp_arm": {
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "UNH": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "HUBB": {
       "params": {
         "hold_minutes": 90,
@@ -2393,27 +2418,51 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "GS": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "NFLX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791479400,
-  "last_decision_ts": 1791478580,
+  "last_decision_ts": 1791479522,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "64515bed": 71.111,
+    "0bb08bca": 883.156,
     "b02f7267": 349.7963,
-    "bdd00778": 258.8834,
-    "8c5bd817": 70.578,
     "31ed9de0": 70.5725,
+    "8c5bd817": 70.578,
+    "bdd00778": 258.8834,
+    "3dc49228": 466.958,
     "f8f53905": 148.1995,
+    "0eee1362": 466.0,
     "553caf8b": 86.6052,
     "fc07486c": 288.5,
-    "cf615d7e": 482.8442,
-    "3dc49228": 466.958,
     "14fec8d3": 287.0484,
-    "0eee1362": 466.0,
+    "68f7e861": 862.0,
+    "cf615d7e": 482.8442,
+    "b554825e": 69.2,
     "072507c2": 250.5607,
     "655d23d5": 250.5,
     "df3661f6": 338.3651,
-    "fbb274df": 338.0
+    "b621a4b0": 854.5506,
+    "fbb274df": 338.0,
+    "86ad5d0a": 68.8118
   }
 }
