@@ -23198,3 +23198,6 @@ Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $22404.94 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $479.86] -> $325.86 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-10-08 12:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PPG: position closed)
+- SELL 100% PPG [take_profit @ $104.85] -> $375.86 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-08 12:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
