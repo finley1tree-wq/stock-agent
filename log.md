@@ -22874,3 +22874,6 @@ lesson: Opening-hour congress+insider evidence stacked across multiple names, si
 ~ WORKING buy_limit $500.00 TSM @ $455.39 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25402.15 (+1.61% on $25000.00 in) · cash $16403.95 · realised +403.95
 Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $16000.00 this week
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $147.58] -> $3005.11 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-10-08 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders

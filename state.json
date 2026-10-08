@@ -1,13 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 9000.0,
+  "spent": 5994.89,
   "deployed": 96250.0,
   "by_ticker": {
     "ACN": 29.57,
     "HD": 3003.59,
     "NFLX": 14.34,
     "IBM": 22.19,
-    "PG": 3000.0,
     "TSM": 3000.0
   },
   "deployed_by_ticker": {
@@ -1541,14 +1540,37 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "side": "sell",
+      "qty": 20.362526,
+      "status": "filled",
+      "price": 147.58,
+      "proceeds": 3005.11,
+      "realized_pnl": 5.11,
+      "realized_pct": 0.17,
+      "date": "2026-10-08",
+      "time_et": "09:39",
+      "ts": 1791466500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $147.33",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 9000.0,
+  "spent_today": 5994.89,
   "deployed_today": 9000.0,
   "orders_today": 3,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 1,
+  "sold_today": [
+    "PG"
+  ],
   "sold_ts": {
     "MSFT": 1791207397,
     "TSM": 1791380257,
@@ -1558,7 +1580,7 @@
     "PEP": 1791208891,
     "KO": 1791380384,
     "AAPL": 1791209185,
-    "PG": 1791380422,
+    "PG": 1791466754,
     "ACN": 1791297612,
     "HD": 1791380218,
     "GS": 1791380837,
@@ -1566,8 +1588,8 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791466363,
-  "last_check_ts": 1791466715,
+  "last_publish_ts": 1791466753,
+  "last_check_ts": 1791466799,
   "exp_arm": {
     "HD": {
       "params": {
@@ -1602,14 +1624,11 @@
   "next_check_minutes": 30,
   "autopiloted": false,
   "book_px": {
-    "15f95751": 147.5805,
-    "92c31767": 285.7099,
     "492c184f": 470.5826,
-    "12180cad": 143.8,
+    "92c31767": 285.7099,
     "6b31a657": 278.0,
-    "0b6e66c6": 457.0,
     "92f34eb0": 276.5082,
-    "2768a7bf": 142.9101,
+    "0b6e66c6": 457.0,
     "3217b1f2": 455.3859
   }
 }

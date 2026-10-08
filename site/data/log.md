@@ -1,6 +1,3 @@
-brain: Flat book, 11am hour is PROBATION (cut to 1/4 size) and already spent full weekly budget today ($31.5k vs $25k budget) via rapid rotation with near-zero net edge (realized_per_dollar 0.02%). Eight diversified buy_limits already rest below market on congress-backed names (UNH, IBM, GS, KO, NFLX, AVGO, HD, PG) per past lesson that this beats chasing fresh market entries at high-range prints in a PROBATION hour. No new market buys now - let the ladder fill at better levels; this matches the pattern that graded positively in recent checks.
-lesson: In PROBATION hours with a full ladder of congress-backed buy_limits already resting below market, do nothing new rather than force fresh market buys at high-range prints - the ladder has consistently graded positive in the journal.
-portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +395,6 @@ lesson: Opening-hour congress+insider evidence stacked across multiple names, si
 ~ WORKING buy_limit $500.00 TSM @ $455.39 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25402.15 (+1.61% on $25000.00 in) · cash $16403.95 · realised +403.95
 Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $16000.00 this week
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $147.58] -> $3005.11 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-10-08 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
