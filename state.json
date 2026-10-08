@@ -1,12 +1,11 @@
 {
   "week": "2026-W41",
-  "spent": 3611.17,
+  "spent": 604.09,
   "deployed": 97625.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 14.34,
     "IBM": 22.19,
-    "TSM": 3000.0,
     "UNH": 625.0
   },
   "deployed_by_ticker": {
@@ -1645,21 +1644,43 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.390132,
+      "status": "filled",
+      "price": 470.58,
+      "proceeds": 3007.08,
+      "realized_pnl": 7.08,
+      "realized_pct": 0.24,
+      "date": "2026-10-08",
+      "time_et": "10:28",
+      "ts": 1791469500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $469.47",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 3611.17,
+  "spent_today": 604.09,
   "deployed_today": 10375.0,
   "orders_today": 5,
-  "sells_today": 3,
+  "sells_today": 4,
   "sold_today": [
     "PG",
     "HD",
-    "GS"
+    "GS",
+    "TSM"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
-    "TSM": 1791380257,
+    "TSM": 1791469726,
     "AVGO": 1791294032,
     "NFLX": 1791385452,
     "UNH": 1791382446,
@@ -1674,8 +1695,8 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791469182,
-  "last_check_ts": 1791469632,
+  "last_publish_ts": 1791469726,
+  "last_check_ts": 1791469726,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -1702,9 +1723,6 @@
   "autopiloted": false,
   "book_px": {
     "b047ac1b": 371.4483,
-    "492c184f": 470.5826,
-    "0b6e66c6": 457.0,
-    "3217b1f2": 455.3859,
     "0d3aacf8": 360.0,
     "66b8f314": 359.4529
   }

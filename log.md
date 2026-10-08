@@ -22935,3 +22935,6 @@ lesson: Congress-disclosure evidence at low/mid day-range during 09:xx-10:xx hou
 ~ WORKING buy_limit $500.00 UNH @ $359.45 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25410.34 (+1.64% on $25000.00 in) · cash $21792.78 · realised +417.78
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21388.83 this week
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $470.58] -> $3007.08 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-08 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
