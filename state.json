@@ -1,14 +1,16 @@
 {
   "week": "2026-W41",
-  "spent": 1979.09,
-  "deployed": 99000.0,
+  "spent": 3229.09,
+  "deployed": 100250.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 14.34,
     "IBM": 22.19,
     "UNH": 625.0,
     "AVGO": 750.0,
-    "AMGN": 625.0
+    "AMGN": 625.0,
+    "HUBB": 625.0,
+    "GS": 625.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -22,10 +24,10 @@
     "KO": 5851.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
-    "GS": 8416.67,
+    "GS": 9041.67,
     "IBM": 6240.74,
     "AMGN": 5402.78,
-    "HUBB": 625.0
+    "HUBB": 1250.0
   },
   "orders": [
     {
@@ -1709,12 +1711,54 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.31377,
+      "price": 475.73,
+      "date": "2026-10-08",
+      "time_et": "11:06",
+      "ts": 1791471998,
+      "why": "Congress pressure name not yet re-bought today, adds sector diversification vs UNH/AVGO/AMGN [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "April McClain Delaney disclosed multiple buys in HUBB (congress_net_buy_pressure=3.0), currently 79.1% of day range, 1m momentum +4.52%",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "GS",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.707881,
+      "price": 882.92,
+      "date": "2026-10-08",
+      "time_et": "11:06",
+      "ts": 1791471998,
+      "why": "Re-enter GS on fresh congress pressure once cooldown clears, financial sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "insider"
+      ],
+      "evidence": "Michael A. Rulli (Rep, bought GS $1-15k disclosed 2026-10-02) and Gilbert Ray Cisneros also bought GS; was sold today at +0.25% profit, cooldown should be clearing soon",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 1979.09,
-  "deployed_today": 11750.0,
-  "orders_today": 7,
+  "spent_today": 3229.09,
+  "deployed_today": 13000.0,
+  "orders_today": 9,
   "sells_today": 4,
   "sold_today": [
     "PG",
@@ -1739,8 +1783,8 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791471040,
-  "last_check_ts": 1791471883,
+  "last_publish_ts": 1791471998,
+  "last_check_ts": 1791471998,
   "exp_arm": {
     "UNH": {
       "params": {
@@ -1768,23 +1812,48 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "HUBB": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "GS": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791471600,
-  "last_decision_ts": 1791471040,
-  "next_check_minutes": 15,
+  "last_bar_ts": 1791471900,
+  "last_decision_ts": 1791471998,
+  "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "e24db042": 403.9743,
-    "a3118d8e": 372.236,
+    "f7135abf": 885.092,
+    "134fc27a": 477.1191,
     "b047ac1b": 371.4483,
-    "f91fa4f6": 368.3688,
+    "a3118d8e": 372.236,
+    "553caf8b": 86.6052,
     "18cb6df0": 399.7613,
+    "e24db042": 403.9743,
+    "7915741e": 877.4812,
+    "f91fa4f6": 368.3688,
     "8c5bd817": 70.578,
     "31ed9de0": 70.5725,
+    "e317cebd": 466.0,
     "0d3aacf8": 360.0,
+    "c1ed25b1": 390.6869,
     "66b8f314": 359.4529,
     "7583454e": 359.9961,
-    "c1ed25b1": 390.6869
+    "d3b26461": 461.4581,
+    "01b7aa6f": 856.4324
   }
 }

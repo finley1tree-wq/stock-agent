@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-08T10:51-04:00",
- "note": "Below min_positions with 94.6% cash idle - the counterfactual report explicitly flags this as a graded loss. Past lessons consistently show congress-disclosure-backed names at low/mid day-range in the 09:xx-10:xx window grading well (+0.44%, +0.74% in recent checks). Deploying across 7 fresh congres",
+ "asOf": "2026-10-08T11:07-04:00",
+ "note": "Only 3 positions held (UNH/AVGO/AMGN) vs min_positions=8, with 92% cash idle - this is the priority to fix per owner instructions and repeated past lessons. TSM cooldown expires in 7 minutes so I'm pre-staging the buy for right after; GS/HUBB/KO/IBM add congress-backed diversification across sectors",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,31 +178,31 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "e24db042",
-   "ticker": "AMGN",
+   "id": "f7135abf",
+   "ticker": "GS",
    "kind": "take_profit",
-   "price": 403.9743,
+   "price": 885.092,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 402.69,
-   "pct_away": 0.32,
+   "last": 882.74,
+   "pct_away": 0.27,
    "good_until": "2026-10-13",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "a3118d8e",
-   "ticker": "AVGO",
+   "id": "134fc27a",
+   "ticker": "HUBB",
    "kind": "take_profit",
-   "price": 372.236,
+   "price": 477.1191,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.01,
+   "last": 475.54,
    "pct_away": 0.33,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.3% over the average cost",
@@ -219,10 +219,96 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 369.45,
-   "pct_away": 0.54,
+   "last": 369.92,
+   "pct_away": 0.41,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a3118d8e",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 372.236,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 370.73,
+   "pct_away": 0.41,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "553caf8b",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.6052,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 86.96,
+   "pct_away": -0.41,
+   "good_until": "2026-10-08",
+   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "18cb6df0",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 399.7613,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 401.71,
+   "pct_away": -0.49,
+   "good_until": "2026-10-13",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e24db042",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 403.9743,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 401.71,
+   "pct_away": 0.56,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7915741e",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 877.4812,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 882.74,
+   "pct_away": -0.6,
+   "good_until": "2026-10-13",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,25 +322,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.01,
-   "pct_away": -0.71,
-   "good_until": "2026-10-13",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "18cb6df0",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 399.7613,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 402.69,
-   "pct_away": -0.73,
+   "last": 370.73,
+   "pct_away": -0.64,
    "good_until": "2026-10-13",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -270,8 +339,8 @@
    "usd": 125.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.17,
-   "pct_away": -0.83,
+   "last": 71.46,
+   "pct_away": -1.23,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -288,14 +357,30 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.17,
-   "pct_away": -0.84,
+   "last": 71.46,
+   "pct_away": -1.24,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "e317cebd",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 466.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 475.54,
+   "pct_away": -2.01,
+   "good_until": "2026-10-08",
+   "why": "Protect new HUBB position from adverse move",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -306,12 +391,29 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 369.45,
-   "pct_away": -2.56,
+   "last": 369.92,
+   "pct_away": -2.68,
    "good_until": "2026-10-08",
    "why": "protect new UNH position",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "c1ed25b1",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 390.6869,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 401.71,
+   "pct_away": -2.74,
+   "good_until": "2026-10-13",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -322,8 +424,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 369.45,
-   "pct_away": -2.71,
+   "last": 369.92,
+   "pct_away": -2.83,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -339,8 +441,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.01,
-   "pct_away": -2.97,
+   "last": 370.73,
+   "pct_away": -2.9,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -349,14 +451,31 @@
    ]
   },
   {
-   "id": "c1ed25b1",
-   "ticker": "AMGN",
+   "id": "d3b26461",
+   "ticker": "HUBB",
    "kind": "buy_limit",
-   "price": 390.6869,
+   "price": 461.4581,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 402.69,
+   "last": 475.54,
+   "pct_away": -2.96,
+   "good_until": "2026-10-13",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "01b7aa6f",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 856.4324,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 882.74,
    "pct_away": -2.98,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -366,8 +485,8 @@
    ]
   }
  ],
- "last_reasoning": "Below min_positions with 94.6% cash idle - the counterfactual report explicitly flags this as a graded loss. Past lessons consistently show congress-disclosure-backed names at low/mid day-range in the 09:xx-10:xx window grading well (+0.44%, +0.74% in recent checks). Deploying across 7 fresh congres",
- "next_check_minutes": 15,
+ "last_reasoning": "Only 3 positions held (UNH/AVGO/AMGN) vs min_positions=8, with 92% cash idle - this is the priority to fix per owner instructions and repeated past lessons. TSM cooldown expires in 7 minutes so I'm pre-staging the buy for right after; GS/HUBB/KO/IBM add congress-backed diversification across sectors",
+ "next_check_minutes": 10,
  "allowed": [
   "AAPL",
   "AMD",
@@ -424,13 +543,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 395,
+  "decisions_graded": 394,
   "decisions_with_buys_graded": 181,
   "independent_days_graded": 14,
   "avg_regret_pct": -0.07,
   "chosen_avg_pct": -0.09,
   "skipped_avg_pct": -0.16,
-  "idle_universe_avg_pct": -0.36,
+  "idle_universe_avg_pct": -0.37,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.03,
   "checks_that_bought_everything": 0,
@@ -486,14 +605,6 @@
     "insider": 0
    },
    {
-    "ticker": "INTC",
-    "fwd_pct": 7.7,
-    "sector": "off-watchlist",
-    "m1m_then": 15.6,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
     "ticker": "LTH",
     "fwd_pct": 7.69,
     "sector": "off-watchlist",
@@ -511,9 +622,17 @@
    },
    {
     "ticker": "AMD",
-    "fwd_pct": 7.44,
+    "fwd_pct": 7.26,
     "sector": "widely_held",
-    "m1m_then": 16.7,
+    "m1m_then": 16.9,
+    "congress": 0,
+    "insider": 0
+   },
+   {
+    "ticker": "CCJ",
+    "fwd_pct": 7.01,
+    "sector": "nuclear",
+    "m1m_then": -15.0,
     "congress": 0,
     "insider": 0
    }
@@ -549,9 +668,9 @@
     "n": 2
    }
   },
-  "idle_checks": 214,
+  "idle_checks": 213,
   "blocked_checks": 0,
-  "idle_share": 0.54,
+  "idle_share": 0.53,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "weak",
   "how_many_days_before_this_means_anything": 30,
@@ -2085,5 +2204,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-08T10:51-04:00"
+ "signalsAsOf": "2026-10-08T11:07-04:00"
 }

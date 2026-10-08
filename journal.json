@@ -55490,7 +55490,7 @@
     "code_version": "ac90028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.16
   },
   {
     "symbol": "TSM",
@@ -55546,7 +55546,7 @@
     "code_version": "eeba284",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.09
   },
   {
     "symbol": "AMGN",
@@ -55574,6 +55574,65 @@
     "momentum_1m_at_entry": 2.92,
     "hour_et": 10,
     "code_version": "12e8fdf",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.24
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.31377,
+    "price": 475.73,
+    "date": "2026-10-08",
+    "time_et": "11:06",
+    "ts": 1791471998,
+    "why": "Congress pressure name not yet re-bought today, adds sector diversification vs UNH/AVGO/AMGN [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "April McClain Delaney disclosed multiple buys in HUBB (congress_net_buy_pressure=3.0), currently 79.1% of day range, 1m momentum +4.52%",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 475.54,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.52,
+    "hour_et": 11,
+    "code_version": "a7a591f",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GS",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.707881,
+    "price": 882.92,
+    "date": "2026-10-08",
+    "time_et": "11:06",
+    "ts": 1791471998,
+    "why": "Re-enter GS on fresh congress pressure once cooldown clears, financial sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "insider"
+    ],
+    "evidence": "Michael A. Rulli (Rep, bought GS $1-15k disclosed 2026-10-02) and Gilbert Ray Cisneros also bought GS; was sold today at +0.25% profit, cooldown should be clearing soon",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 882.74,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -14.2,
+    "hour_et": 11,
+    "code_version": "a7a591f",
     "ret_1w": null,
     "ret_1m": null
   }

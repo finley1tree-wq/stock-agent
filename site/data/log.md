@@ -1,28 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 14:53 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past the 14:00 cutoff) and positions_held is 0, so no buys can be placed or would be honored. Nothing to sell or protect since the book is flat. Waiting for the next session/entry window rather than wasting effort on orders that will be dropped.
-lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable besides waiting - confirm cutoff status first before building orders.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 15:23 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 cutoff, now 15:23) and positions_held is 0, so no buys can be placed and there is nothing to sell or protect. This is the last check of the day (checks_left_today=1), so there's no point setting standing orders either since no new entries can fill.
 lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable - confirm cutoff status first before building any orders, consistent with the last several lessons on this exact situation.
 portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
@@ -398,3 +373,28 @@ lesson: Congress-disclosure evidence spread across many sectors at once (not jus
 ~ WORKING buy_limit $500.00 AMGN @ $390.69 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25422.59 (+1.69% on $25000.00 in) · cash $23424.86 · realised +424.86
 Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $23020.91 this week
+
+## 2026-10-08 11:06 ET (Thursday) — week 2026-W41 — budget left $23020.91 (today $11750.00 put to work, 7 buys, 4 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Only 3 positions held (UNH/AVGO/AMGN) vs min_positions=8, with 92% cash idle - this is the priority to fix per owner instructions and repeated past lessons. TSM cooldown expires in 7 minutes so I'm pre-staging the buy for right after; GS/HUBB/KO/IBM add congress-backed diversification across sectors (consumer staples, tech, industrials, financials) to avoid concentration risk while filling toward min_positions. Note TSM and GS were sold today so technically still in cooldown for a few more minutes - if blocked by guardrails they'll simply not fill and I'll retry next check.
+lesson: Past lessons consistently show congress-disclosure evidence spread across multiple sectors at the open/mid-morning hours is the fastest path to min_positions - prioritize breadth over waiting for perfect cooldown timing.
+  (dropped TSM: sold 38 min ago, cooling off)
+  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: 92% up today's range — resting a limit at $86.61 instead of chasing)
+- BUY $625.00 HUBB [filled] ['congress', 'track_record'] — Congress pressure name not yet re-bought today, adds sector diversification vs UNH/AVGO/AMGN [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: April McClain Delaney disclosed multiple buys in HUBB (congress_net_buy_pressure=3.0), currently 79.1% of day range, 1m momentum +4.52%
+- BUY $625.00 GS [filled] ['congress', 'insider'] — Re-enter GS on fresh congress pressure once cooldown clears, financial sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Michael A. Rulli (Rep, bought GS $1-15k disclosed 2026-10-02) and Gilbert Ray Cisneros also bought GS; was sold today at +0.25% profit, cooldown should be clearing soon
+  (dropped trigger KO stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+~ WORKING stop_loss 100% HUBB @ $466.00 until 2026-10-08 — Protect new HUBB position from adverse move
+~ WORKING buy_limit $500.00 KO @ $86.61 until 2026-10-08 — wanted it, but not at the high — resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% HUBB @ $477.12 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $461.46 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GS @ $885.09 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% GS @ $877.48 until 2026-10-13 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 GS @ $856.43 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25420.92 (+1.68% on $25000.00 in) · cash $22174.86 · realised +424.86
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $21770.91 this week

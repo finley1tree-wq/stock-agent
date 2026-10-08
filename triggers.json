@@ -1,135 +1,6 @@
 {
  "orders": [
   {
-   "id": "c7b78aad",
-   "ticker": "GLD",
-   "kind": "stop_loss",
-   "price": 381.406,
-   "status": "cancelled",
-   "created": "2026-10-01 10:27",
-   "created_ts": 1790864827,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $381.04",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:28",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "879c4743",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 230.6794,
-   "status": "cancelled",
-   "created": "2026-10-01 10:27",
-   "created_ts": 1790864862,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $229.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "33211bd0",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 227.9504,
-   "status": "filled",
-   "created": "2026-10-01 10:27",
-   "created_ts": 1790864862,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $229.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:47"
-  },
-  {
-   "id": "cf785efc",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 223.003,
-   "status": "cancelled",
-   "created": "2026-10-01 10:27",
-   "created_ts": 1790864862,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $229.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 10:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "bdfae291",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 215.0,
-   "status": "cancelled",
-   "created": "2026-10-01 10:29",
-   "created_ts": 1790864996,
-   "why": "Protective stop below today's low",
-   "evidence": "ACN day low 215.0, protect against reversal of the 22% spike",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:34",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ee21b236",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 272.0,
-   "status": "cancelled",
-   "created": "2026-10-01 10:29",
-   "created_ts": 1790864996,
-   "why": "Protective stop on contrarian buy",
-   "evidence": "HD day low 277.2, ATR 2.38%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:34",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "eb835408",
-   "ticker": "FWONK",
-   "kind": "stop_loss",
-   "price": 89.5,
-   "status": "cancelled",
-   "created": "2026-10-01 10:29",
-   "created_ts": 1790864996,
-   "why": "Protective stop",
-   "evidence": "FWONK day low 91.5, ATR 2.36%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:00",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "1327e381",
    "ticker": "ACN",
    "kind": "take_profit",
@@ -7412,7 +7283,126 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "e317cebd",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 466.0,
+   "status": "working",
+   "created": "2026-10-08 11:06",
+   "created_ts": 1791471998,
+   "why": "Protect new HUBB position from adverse move",
+   "evidence": "HUBB currently $475.54, ~2% stop below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "553caf8b",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.6052,
+   "status": "working",
+   "created": "2026-10-08 11:06",
+   "created_ts": 1791471998,
+   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Lloyd Doggett bought KO-adjacent PG disclosed 2026-10-05; KO at 91.6% day range with +1.32% today, congress_net_buy_pressure=1.0, low atr_pct=1.4 defensive name",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-08",
+   "usd": 500.0
+  },
+  {
+   "id": "134fc27a",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 477.1191,
+   "status": "working",
+   "created": "2026-10-08 11:06",
+   "created_ts": 1791471998,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $475.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d3b26461",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 461.4581,
+   "status": "working",
+   "created": "2026-10-08 11:06",
+   "created_ts": 1791471998,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $475.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
+  },
+  {
+   "id": "f7135abf",
+   "ticker": "GS",
+   "kind": "take_profit",
+   "price": 885.092,
+   "status": "working",
+   "created": "2026-10-08 11:06",
+   "created_ts": 1791471998,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $882.92",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7915741e",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 877.4812,
+   "status": "working",
+   "created": "2026-10-08 11:06",
+   "created_ts": 1791471998,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $882.92",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "01b7aa6f",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 856.4324,
+   "status": "working",
+   "created": "2026-10-08 11:06",
+   "created_ts": 1791471998,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $882.92",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 10:50"
+ "updated": "2026-10-08 11:06"
 }
