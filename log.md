@@ -23349,3 +23349,17 @@ lesson: When no_new_entries_this_check is true, don't try to force buys - confir
 portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-08 15:02 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $19750.00 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 ET cutoff) so no new buys can be placed - this would be dropped per guardrails. I hold zero positions currently (all sold today), so there's nothing to protect with stops either. With only 1 check left today and no open positions, there's nothing actionable: sitting out is the only valid move until tomorrow's session.
+lesson: After no_new_entries_after_et (14:00), with zero open positions, there is nothing to do but wait - don't force orders that guardrails will drop.
+portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
