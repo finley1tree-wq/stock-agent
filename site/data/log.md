@@ -1,17 +1,3 @@
-  (dropped CHRW: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped ESE: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped NFLX: 89% up today's range — resting a limit at $70.57 instead of chasing)
-- BUY $750.00 AVGO [filled] ['congress', 'momentum'] — Congress buy pressure plus pullback entry, re-enter after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure AVGO 1.0, change_1d -1.45% pulling back to 79.2% of range, widely_held sector hit_rate 0.57
-  (dropped trigger NFLX stop_loss: not held)
-  (dropped trigger PG stop_loss: not held)
-  (dropped trigger CHRW stop_loss: not held)
-~ WORKING buy_limit $750.00 NFLX @ $70.57 until 2026-10-08 — wanted it, but not at the high — resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% AVGO @ $372.24 until 2026-10-13 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AVGO @ $368.37 until 2026-10-13 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AVGO @ $360.00 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25423.37 (+1.69% on $25000.00 in) · cash $24049.86 · realised +424.86
-Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $23645.91 this week
 
 ## 2026-10-08 10:50 ET (Thursday) — week 2026-W41 — budget left $23645.91 (today $11125.00 put to work, 6 buys, 4 sells) — SIM (pretend money) via sim
   (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
@@ -395,6 +381,20 @@ Decision: nothing at this check. 4 standing order(s) working.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) so no new buys are allowed this check. Book is currently flat (all positions closed today, several still in cooldown: HUBB/GOOGL/AMZN). With only 2 checks left today and entries blocked, there is nothing actionable besides waiting - no open positions to protect or sell. I'll check back in 30 minutes near close to see if anything changes (e.g. cooldowns expiring won't matter since entries are blocked anyway for the rest of the session).
 lesson: When no_new_entries_this_check is true, don't try to force buys - confirm the flag first, then just monitor since no standing buy orders will fill either (entries are blocked session-wide, not just market orders).
+portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-08 15:02 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $19750.00 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 ET cutoff) so no new buys can be placed - this would be dropped per guardrails. I hold zero positions currently (all sold today), so there's nothing to protect with stops either. With only 1 check left today and no open positions, there's nothing actionable: sitting out is the only valid move until tomorrow's session.
+lesson: After no_new_entries_after_et (14:00), with zero open positions, there is nothing to do but wait - don't force orders that guardrails will drop.
 portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
