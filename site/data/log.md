@@ -1,20 +1,3 @@
-lesson: Congress-disclosure evidence at low/mid day-range during 09:xx-10:xx hours has graded positively repeatedly; deploy in size across multiple names rather than sitting on 88% idle cash.
-  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped PEP: not in allowed list)
-  (dropped GS: sold 11 min ago, cooling off)
-- BUY $625.00 UNH [filled] ['congress', 'news'] — UNH deeply oversold, near day low, mean reversion candidate in healthcare [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress trades show Kevin Hern selling UNH but older disclosures; UNH at 2.8% of day range near day low after -1.46% drop
-  (dropped trigger IBM stop_loss: not held)
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger KO stop_loss: not held)
-  (dropped trigger PEP stop_loss: not held)
-  (dropped trigger GS stop_loss: not held)
-~ WORKING stop_loss 100% UNH @ $360.00 until 2026-10-08 — protect new UNH position
-~ WORKING take_profit 100% UNH @ $371.45 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $359.45 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25410.34 (+1.64% on $25000.00 in) · cash $21792.78 · realised +417.78
-Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21388.83 this week
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $470.58] -> $3007.08 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +381,20 @@ Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% HUBB [time stop] -> $493.61 (-1.28%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-08 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 14:16 ET (Thursday) — week 2026-W41 — budget left $24147.65 (today $19750.00 put to work, 24 buys, 22 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET entry cutoff), so no new buys can be placed - they would be dropped. Existing GOOGL and AMZN positions already have stop_loss and take_profit working orders in place (GOOGL stop 338/tp 349.80; AMZN stop 250.50/tp 258.88), which is sufficient protection given the 90-minute hold experiment windows. Nothing to add or sell right now; will check back soon to monitor the two open positions as they approach their hold-minute limits.
+lesson: When no_new_entries_this_check is true, don't propose buys even with good evidence - rely on existing protective orders and just monitor until the clock or stops resolve open positions.
+portfolio: equity $25418.81 (+1.68% on $25000.00 in) · cash $24551.59 · realised +426.59
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GOOGL [time stop] -> $497.28 (-0.54%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $370.41 (-1.22%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-08 14:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-08T14:10-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-08T14:26-04:00",
+ "note": "tick: 2 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -176,74 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "b02f7267",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 349.7963,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 346.79,
-   "pct_away": 0.87,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "655d23d5",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 250.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 254.22,
-   "pct_away": -1.46,
-   "good_until": "2026-10-08",
-   "why": "Cap downside on new AMZN position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "bdd00778",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 258.8834,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 254.22,
-   "pct_away": 1.83,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fbb274df",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 338.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 346.79,
-   "pct_away": -2.53,
-   "good_until": "2026-10-08",
-   "why": "Cap downside on new GOOGL position",
-   "signals": [
-    "risk_management"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "Still well below min_positions (3 held vs 8 target) with 94.6% cash idle - the clearest action signal per guardrails. Adding IBM, AMGN, GS on congress disclosures and TSM on an extremely strong insider cluster (30 net buy pressure, the top in the dataset) to build breadth toward min_positions, sized",
  "congress_trades": [

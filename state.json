@@ -1,6 +1,6 @@
 {
   "week": "2026-W41",
-  "spent": 852.35,
+  "spent": 0.0,
   "deployed": 107000.0,
   "by_ticker": {
     "ACN": 29.57,
@@ -9,8 +9,8 @@
     "AMGN": 2.31,
     "TSM": 9.81,
     "HUBB": 6.39,
-    "GOOGL": 500.0,
-    "AMZN": 375.0
+    "GOOGL": 2.72,
+    "AMZN": 4.59
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -2448,13 +2448,53 @@
       ],
       "evidence": "bought 90 min ago, -1.24% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 1.433364,
+      "status": "filled",
+      "price": 346.93,
+      "proceeds": 497.28,
+      "realized_pnl": -2.72,
+      "realized_pct": -0.54,
+      "date": "2026-10-08",
+      "time_et": "14:26",
+      "ts": 1791483975,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.52% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMZN",
+      "side": "sell",
+      "qty": 1.451735,
+      "status": "filled",
+      "price": 255.15,
+      "proceeds": 370.41,
+      "realized_pnl": -4.59,
+      "realized_pct": -1.22,
+      "date": "2026-10-08",
+      "time_et": "14:26",
+      "ts": 1791483975,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -1.20% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 852.35,
+  "spent_today": 0.0,
   "deployed_today": 19750.0,
   "orders_today": 24,
-  "sells_today": 22,
+  "sells_today": 24,
   "sold_today": [
     "PG",
     "HD",
@@ -2470,7 +2510,9 @@
     "AMGN",
     "NOC",
     "PPG",
-    "IBP"
+    "IBP",
+    "GOOGL",
+    "AMZN"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
@@ -2490,10 +2532,12 @@
     "HUBB": 1791483034,
     "NOC": 1791477855,
     "PPG": 1791478369,
-    "IBP": 1791478501
+    "IBP": 1791478501,
+    "GOOGL": 1791483976,
+    "AMZN": 1791483976
   },
-  "last_publish_ts": 1791483034,
-  "last_check_ts": 1791483897,
+  "last_publish_ts": 1791483975,
+  "last_check_ts": 1791483975,
   "exp_arm": {
     "HUBB": {
       "params": {
@@ -2532,14 +2576,9 @@
       }
     }
   },
-  "last_bar_ts": 1791483600,
+  "last_bar_ts": 1791483900,
   "last_decision_ts": 1791483376,
   "next_check_minutes": 15,
   "autopiloted": false,
-  "book_px": {
-    "b02f7267": 349.7963,
-    "655d23d5": 250.5,
-    "bdd00778": 258.8834,
-    "fbb274df": 338.0
-  }
+  "book_px": {}
 }

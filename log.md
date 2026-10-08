@@ -23332,3 +23332,6 @@ lesson: When no_new_entries_this_check is true, don't propose buys even with goo
 portfolio: equity $25418.81 (+1.68% on $25000.00 in) · cash $24551.59 · realised +426.59
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GOOGL [time stop] -> $497.28 (-0.54%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% AMZN [time stop] -> $370.41 (-1.22%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-08 14:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders
