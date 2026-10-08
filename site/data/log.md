@@ -1,29 +1,3 @@
-
-## 2026-10-06 14:01 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) and there are zero open positions to manage, so there is nothing actionable: any buy orders would be dropped by guardrails. No existing positions to sell or protect. Will wait for next check.
-lesson: When no_new_entries_this_check is true and positions_held is 0, confirm cutoff status first - don't waste effort building orders that will be dropped.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 14:32 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31875.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff, hour 14 is CULLED anyway) and positions_held is 0 with nothing held to sell or protect. Forcing a buy now would be dropped per guardrails and would also fall into the CULLED 14:xx hour bucket which the strategy_stages data shows underperforms. Best move is to sit out this specific 30-min window and wait for the next check closer to close where sells/protective orders may still matter, rather than build orders that get discarded.
-lesson: When no_new_entries_this_check is true and positions_held is 0, there is nothing actionable besides waiting for the next check - don't waste effort constructing buy orders that guardrails will drop.
-portfolio: equity $25395.56 (+1.58% on $25000.00 in) · cash $25395.56 · realised +395.56
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +372,29 @@ lesson: When below min_positions with near-zero deployment, use congress_net_buy
 ~ WORKING buy_limit $500.00 AVGO @ $360.00 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25423.37 (+1.69% on $25000.00 in) · cash $24049.86 · realised +424.86
 Done: 0 sell(s), 1 buy(s); 7 order(s) working; budget left $23645.91 this week
+
+## 2026-10-08 10:50 ET (Thursday) — week 2026-W41 — budget left $23645.91 (today $11125.00 put to work, 6 buys, 4 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Below min_positions with 94.6% cash idle - the counterfactual report explicitly flags this as a graded loss. Past lessons consistently show congress-disclosure-backed names at low/mid day-range in the 09:xx-10:xx window grading well (+0.44%, +0.74% in recent checks). Deploying across 7 fresh congress-pressure names (AMGN, IBM, KO, AAPL, GOOGL, PPG, HUBB) plus a small NFLX add, sized $1500-2500 each, brings me from 2 to 9 positions and ~68% deployed, consistent with the owner's explicit instruction for bigger positions and more names rather than sitting on cash.
+lesson: Congress-disclosure evidence spread across many sectors at once (not just one name at a time) is the fastest way to hit min_positions when below target - do this immediately rather than trickling single buys across multiple checks.
+  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AAPL: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped GOOGL: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped NFLX: 93% up today's range — resting a limit at $70.58 instead of chasing)
+- BUY $625.00 AMGN [filled] ['congress', 'news'] — congress buy pressure + pullback gives a mid-range entry in a widely_held name [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. David J. Taylor disclosed AMGN buy 2026-09-22 (disclosed 10-01); AMGN at 22.3% of day range, down -2.52% today - oversold entry
+  (dropped trigger AMGN stop_loss: level 2455 is 6.10x the quote 402.69, outside 0.5-1.5x)
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger GOOGL stop_loss: not held)
+~ WORKING buy_limit $125.00 NFLX @ $70.58 until 2026-10-08 — wanted it, but not at the high — resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% AMGN @ $403.97 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AMGN @ $399.76 until 2026-10-13 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AMGN @ $390.69 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25422.59 (+1.69% on $25000.00 in) · cash $23424.86 · realised +424.86
+Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $23020.91 this week

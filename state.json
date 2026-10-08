@@ -1,13 +1,14 @@
 {
   "week": "2026-W41",
-  "spent": 1354.09,
-  "deployed": 98375.0,
+  "spent": 1979.09,
+  "deployed": 99000.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 14.34,
     "IBM": 22.19,
     "UNH": 625.0,
-    "AVGO": 750.0
+    "AVGO": 750.0,
+    "AMGN": 625.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -23,7 +24,7 @@
     "AAPL": 2500.0,
     "GS": 8416.67,
     "IBM": 6240.74,
-    "AMGN": 4777.78,
+    "AMGN": 5402.78,
     "HUBB": 625.0
   },
   "orders": [
@@ -1687,12 +1688,33 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.551752,
+      "price": 402.77,
+      "date": "2026-10-08",
+      "time_et": "10:50",
+      "ts": 1791471040,
+      "why": "congress buy pressure + pullback gives a mid-range entry in a widely_held name [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Rep. David J. Taylor disclosed AMGN buy 2026-09-22 (disclosed 10-01); AMGN at 22.3% of day range, down -2.52% today - oversold entry",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 1354.09,
-  "deployed_today": 11125.0,
-  "orders_today": 6,
+  "spent_today": 1979.09,
+  "deployed_today": 11750.0,
+  "orders_today": 7,
   "sells_today": 4,
   "sold_today": [
     "PG",
@@ -1717,8 +1739,8 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791470140,
-  "last_check_ts": 1791470955,
+  "last_publish_ts": 1791471040,
+  "last_check_ts": 1791471040,
   "exp_arm": {
     "UNH": {
       "params": {
@@ -1737,19 +1759,32 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791470700,
-  "last_decision_ts": 1791470140,
+  "last_bar_ts": 1791471000,
+  "last_decision_ts": 1791471040,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "e24db042": 403.9743,
     "a3118d8e": 372.236,
     "b047ac1b": 371.4483,
     "f91fa4f6": 368.3688,
+    "18cb6df0": 399.7613,
+    "8c5bd817": 70.578,
     "31ed9de0": 70.5725,
     "0d3aacf8": 360.0,
     "66b8f314": 359.4529,
-    "7583454e": 359.9961
+    "7583454e": 359.9961,
+    "c1ed25b1": 390.6869
   }
 }
