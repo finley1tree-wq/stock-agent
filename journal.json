@@ -55580,7 +55580,9 @@
     "code_version": "12e8fdf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.47
+    "ret_now": -0.37,
+    "ret_final": -0.37,
+    "ret_src": "realised"
   },
   {
     "symbol": "HUBB",
@@ -55642,7 +55644,9 @@
     "code_version": "a7a591f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -55750,7 +55754,9 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -55812,7 +55818,9 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.23,
+    "ret_final": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -55842,7 +55850,7 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.52
+    "ret_now": -0.21
   },
   {
     "symbol": "MSFT",
@@ -55872,7 +55880,9 @@
     "code_version": "fe13e81",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -55927,7 +55937,8 @@
     "hour_et": 12,
     "code_version": "5cde47b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.19
   },
   {
     "symbol": "GS",
@@ -55952,7 +55963,8 @@
     "evidence": "average cost $882.92",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "c21167a"
+    "code_version": "c21167a",
+    "hold_minutes": 68
   },
   {
     "symbol": "IBM",
@@ -55977,7 +55989,8 @@
     "evidence": "average cost $219.55",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "c21167a"
+    "code_version": "c21167a",
+    "hold_minutes": 41
   },
   {
     "symbol": "NFLX",
@@ -56002,7 +56015,8 @@
     "evidence": "average cost $71.11",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "c21167a"
+    "code_version": "c21167a",
+    "hold_minutes": 41
   },
   {
     "symbol": "MSFT",
@@ -56027,7 +56041,8 @@
     "evidence": "average cost $530.39",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "c21167a"
+    "code_version": "c21167a",
+    "hold_minutes": 15
   },
   {
     "symbol": "AMGN",
@@ -56051,6 +56066,65 @@
     "evidence": "bought 90 min ago, -0.35% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "76569de"
+    "code_version": "76569de",
+    "hold_minutes": 90
+  },
+  {
+    "symbol": "UNH",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.008297,
+    "price": 371.91,
+    "date": "2026-10-08",
+    "time_et": "12:25",
+    "ts": 1791476719,
+    "why": "Diversify into widely_held sector at 42% of day range, reasonable entry point [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "congress_net_buy_pressure UNH via Kevin Hern sell noted but widely_held sector avg_ret 0.0 hit_rate 0.57",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 371.84,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -5.4,
+    "hour_et": 12,
+    "code_version": "68dd506",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 325.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.679076,
+    "price": 478.59,
+    "date": "2026-10-08",
+    "time_et": "12:25",
+    "ts": 1791476719,
+    "why": "Defense sector diversification with positive daily momentum, mid-range entry [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "NOC +1.04% today, 75% of day range, defense sector hit_rate 0.55 in track_record",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 478.4,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.21,
+    "hour_et": 12,
+    "code_version": "68dd506",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -23143,3 +23143,31 @@ Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21352.23 this week
 ## 2026-10-08 12:17 ET — tick — 4 sell(s), 0 buy(s) from standing orders
 - SELL 100% AMGN [time stop] -> $622.69 (-0.37%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-08 12:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 12:25 ET (Thursday) — week 2026-W41 — budget left $23979.94 (today $15925.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Only 2 positions held vs min_positions=8, cash_idle_pct 95.9% - this is the critical priority right now. Past lessons repeatedly confirm congress-disclosure breadth entries across sectors is the fastest path to min_positions and has graded positively in multiple checks today (avg +0.12 to +0.77%). Adding 6 new names via congress/insider evidence plus one momentum+defense name to diversify sectors, all mid-range entries (not chasing highs), each with protective stops.
+lesson: Breadth entries using congress disclosures plus protective stops get the book to min_positions fast and have graded positively across multiple checks today - continue this pattern when below target count.
+  (dropped IBM: sold 8 min ago, cooling off)
+  (dropped AMGN: sold 5 min ago, cooling off)
+  (dropped GS: sold 8 min ago, cooling off)
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $375.00 UNH [filled] ['congress', 'news'] — Diversify into widely_held sector at 42% of day range, reasonable entry point [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure UNH via Kevin Hern sell noted but widely_held sector avg_ret 0.0 hit_rate 0.57
+- BUY $325.00 NOC [filled] ['momentum', 'track_record'] — Defense sector diversification with positive daily momentum, mid-range entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC +1.04% today, 75% of day range, defense sector hit_rate 0.55 in track_record
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger PPG stop_loss: not held)
+~ WORKING stop_loss 100% UNH @ $362.00 until 2026-10-08 — Cap downside on new UNH position
+~ WORKING stop_loss 100% NOC @ $466.00 until 2026-10-08 — Cap downside on new NOC position
+~ WORKING take_profit 100% UNH @ $372.80 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $360.75 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $479.86 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $464.23 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25433.36 (+1.73% on $25000.00 in) · cash $23683.89 · realised +433.89
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $23279.94 this week

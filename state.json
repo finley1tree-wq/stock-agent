@@ -1,14 +1,16 @@
 {
   "week": "2026-W41",
-  "spent": 1020.06,
-  "deployed": 103175.0,
+  "spent": 1720.06,
+  "deployed": 103875.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 13.17,
     "IBM": 20.81,
     "AMGN": 2.31,
     "TSM": 500.0,
-    "IBP": 550.0
+    "IBP": 550.0,
+    "UNH": 375.0,
+    "NOC": 325.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -18,7 +20,7 @@
     "NFLX": 13166.67,
     "TSM": 11777.78,
     "HD": 9814.81,
-    "UNH": 5750.0,
+    "UNH": 6125.0,
     "KO": 6351.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
@@ -26,7 +28,8 @@
     "IBM": 6740.74,
     "AMGN": 5402.78,
     "HUBB": 1250.0,
-    "IBP": 550.0
+    "IBP": 550.0,
+    "NOC": 325.0
   },
   "orders": [
     {
@@ -2066,12 +2069,54 @@
       ],
       "evidence": "bought 90 min ago, -0.35% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "UNH",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.008297,
+      "price": 371.91,
+      "date": "2026-10-08",
+      "time_et": "12:25",
+      "ts": 1791476719,
+      "why": "Diversify into widely_held sector at 42% of day range, reasonable entry point [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "congress_net_buy_pressure UNH via Kevin Hern sell noted but widely_held sector avg_ret 0.0 hit_rate 0.57",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NOC",
+      "notional": 325.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.679076,
+      "price": 478.59,
+      "date": "2026-10-08",
+      "time_et": "12:25",
+      "ts": 1791476719,
+      "why": "Defense sector diversification with positive daily momentum, mid-range entry [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "NOC +1.04% today, 75% of day range, defense sector hit_rate 0.55 in track_record",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 1020.06,
-  "deployed_today": 15925.0,
-  "orders_today": 15,
+  "spent_today": 1720.06,
+  "deployed_today": 16625.0,
+  "orders_today": 17,
   "sells_today": 13,
   "sold_today": [
     "PG",
@@ -2104,55 +2149,10 @@
     "AMGN": 1791476471,
     "HUBB": 1791473364
   },
-  "last_publish_ts": 1791476470,
-  "last_check_ts": 1791476637,
+  "last_publish_ts": 1791476719,
+  "last_check_ts": 1791476719,
   "exp_arm": {
-    "AMGN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "GS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "IBM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "NFLX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "MSFT": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -2169,24 +2169,48 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "UNH": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "NOC": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
-  "last_bar_ts": 1791476400,
-  "last_decision_ts": 1791476102,
-  "next_check_minutes": 10,
+  "last_bar_ts": 1791476700,
+  "last_decision_ts": 1791476719,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "828e7324": 372.8026,
+    "58467bc8": 479.8583,
     "d5f43569": 183.0506,
     "6eb612c2": 467.3089,
-    "553caf8b": 86.6052,
     "f8f53905": 148.1995,
+    "553caf8b": 86.6052,
     "fc07486c": 288.5,
     "8c5bd817": 70.578,
     "31ed9de0": 70.5725,
     "14fec8d3": 287.0484,
     "1f4be284": 178.0,
+    "dfe1231f": 466.0,
+    "13014849": 362.0,
     "c46a4abe": 452.2043,
     "e758ce8e": 452.0,
+    "1d9ee213": 464.2323,
+    "d2c55044": 360.7527,
     "3548d96a": 176.6564
   }
 }
