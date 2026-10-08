@@ -23072,3 +23072,19 @@ lesson: Hitting min_positions requires deploying across several evidence-backed 
 ~ WORKING buy_limit $500.00 TSM @ $452.20 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25426.71 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
 Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $21776.43 this week
+
+## 2026-10-08 11:43 ET (Thursday) — week 2026-W41 — budget left $21776.43 (today $15000.00 put to work, 13 buys, 7 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Still below min_positions (6 of 8) with 87% cash idle - past lessons and counterfactual data both show idle cash costs more than acting on congress-disclosure evidence. HUBB is in cooldown for 31 more minutes so I'm using PPG and FWONK which have real congress buy pressure (Doggett/Delaney) and aren't blocked. Skipping HUBB for now since it's still cooling off - replacing with just PPG+FWONK at $2k-3k size, keeping names fresh rather than re-trickling.
+lesson: Check cooling_off_minutes_left before proposing a buy - HUBB was still blocked for 31 minutes so that order would have been dropped; always cross-reference the cooldown list first.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped HUBB: sold 15 min ago, cooling off)
+  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+portfolio: equity $25426.45 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
