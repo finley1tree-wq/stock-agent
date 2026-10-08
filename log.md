@@ -23195,3 +23195,6 @@ lesson: Keep filling toward min_positions with congress-disclosure-backed names 
 ~ WORKING buy_limit $500.00 HUBB @ $466.96 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25430.72 (+1.72% on $25000.00 in) · cash $22808.89 · realised +433.89
 Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $22404.94 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $479.86] -> $325.86 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-10-08 12:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

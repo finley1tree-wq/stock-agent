@@ -1,6 +1,6 @@
 {
   "week": "2026-W41",
-  "spent": 2595.06,
+  "spent": 2269.2,
   "deployed": 104750.0,
   "by_ticker": {
     "ACN": 29.57,
@@ -10,7 +10,6 @@
     "TSM": 500.0,
     "IBP": 550.0,
     "UNH": 375.0,
-    "NOC": 325.0,
     "PPG": 375.0,
     "HUBB": 500.0
   },
@@ -2156,13 +2155,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NOC",
+      "side": "sell",
+      "qty": 0.679076,
+      "status": "filled",
+      "price": 479.86,
+      "proceeds": 325.86,
+      "realized_pnl": 0.86,
+      "realized_pct": 0.26,
+      "date": "2026-10-08",
+      "time_et": "12:44",
+      "ts": 1791477600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $478.59",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 2595.06,
+  "spent_today": 2269.2,
   "deployed_today": 17500.0,
   "orders_today": 19,
-  "sells_today": 13,
+  "sells_today": 14,
   "sold_today": [
     "PG",
     "HD",
@@ -2175,7 +2195,8 @@
     "IBM",
     "NFLX",
     "MSFT",
-    "AMGN"
+    "AMGN",
+    "NOC"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
@@ -2192,10 +2213,11 @@
     "GS": 1791476257,
     "IBM": 1791476257,
     "AMGN": 1791476471,
-    "HUBB": 1791473364
+    "HUBB": 1791473364,
+    "NOC": 1791477855
   },
-  "last_publish_ts": 1791477637,
-  "last_check_ts": 1791477821,
+  "last_publish_ts": 1791477853,
+  "last_check_ts": 1791477900,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -2252,30 +2274,27 @@
       }
     }
   },
-  "last_bar_ts": 1791477600,
+  "last_bar_ts": 1791477900,
   "last_decision_ts": 1791477637,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "31353eed": 104.8506,
     "d5f43569": 183.0506,
-    "553caf8b": 86.6052,
+    "31353eed": 104.8506,
     "cf615d7e": 482.8442,
-    "58467bc8": 479.8583,
+    "553caf8b": 86.6052,
     "f8f53905": 148.1995,
-    "6eb612c2": 467.3089,
     "828e7324": 372.8026,
+    "6eb612c2": 467.3089,
     "fc07486c": 288.5,
     "8c5bd817": 70.578,
     "31ed9de0": 70.5725,
     "14fec8d3": 287.0484,
-    "13014849": 362.0,
-    "1f4be284": 178.0,
-    "dfe1231f": 466.0,
-    "d2c55044": 360.7527,
     "c46a4abe": 452.2043,
+    "13014849": 362.0,
     "e758ce8e": 452.0,
-    "1d9ee213": 464.2323,
+    "d2c55044": 360.7527,
+    "1f4be284": 178.0,
     "92c761e1": 101.5,
     "f0740615": 101.4717,
     "3dc49228": 466.958,
