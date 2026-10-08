@@ -23141,3 +23141,5 @@ Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21352.23 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $531.69] -> $375.93 (+0.25%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 12:17 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+- SELL 100% AMGN [time stop] -> $622.69 (-0.37%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-08 12:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
