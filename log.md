@@ -22907,3 +22907,6 @@ lesson: Congress-disclosure evidence across multiple sectors at the open hour ha
 ~ WORKING buy_limit $500.00 GS @ $858.54 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25404.64 (+1.62% on $25000.00 in) · cash $21665.93 · realised +415.93
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21261.98 this week
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $887.27] -> $751.85 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-08 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders

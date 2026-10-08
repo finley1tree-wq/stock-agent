@@ -1,13 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 3738.02,
+  "spent": 2986.17,
   "deployed": 97000.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 14.34,
     "IBM": 22.19,
-    "TSM": 3000.0,
-    "GS": 750.0
+    "TSM": 3000.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -1603,16 +1602,38 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "GS",
+      "side": "sell",
+      "qty": 0.847374,
+      "status": "filled",
+      "price": 887.27,
+      "proceeds": 751.85,
+      "realized_pnl": 1.85,
+      "realized_pct": 0.25,
+      "date": "2026-10-08",
+      "time_et": "10:09",
+      "ts": 1791468300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $885.09",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 3738.02,
+  "spent_today": 2986.17,
   "deployed_today": 9750.0,
   "orders_today": 4,
-  "sells_today": 2,
+  "sells_today": 3,
   "sold_today": [
     "PG",
-    "HD"
+    "HD",
+    "GS"
   ],
   "sold_ts": {
     "MSFT": 1791207397,
@@ -1626,13 +1647,13 @@
     "PG": 1791466754,
     "ACN": 1791297612,
     "HD": 1791467242,
-    "GS": 1791380837,
+    "GS": 1791468544,
     "IBM": 1791400453,
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791468223,
-  "last_check_ts": 1791468504,
+  "last_publish_ts": 1791468543,
+  "last_check_ts": 1791468589,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -1658,11 +1679,8 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "1b714475": 887.2673,
     "492c184f": 470.5826,
-    "33ce50e5": 865.0,
     "0b6e66c6": 457.0,
-    "3217b1f2": 455.3859,
-    "c47b3c3b": 858.5373
+    "3217b1f2": 455.3859
   }
 }
