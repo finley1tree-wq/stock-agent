@@ -7348,7 +7348,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 217.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 13:28",
    "created_ts": 1791480494,
    "why": "Protective stop on new IBM position",
@@ -7357,14 +7357,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 13:32",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ff1096ce",
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 222.6907,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-08 13:28",
    "created_ts": 1791480494,
    "why": "close 100% at +0.3% over the average cost",
@@ -7374,14 +7376,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 13:32"
   },
   {
    "id": "ac7fcc47",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 215.4176,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 13:28",
    "created_ts": 1791480494,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7391,8 +7394,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-08 13:32",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-08 13:28"
+ "updated": "2026-10-08 13:32"
 }

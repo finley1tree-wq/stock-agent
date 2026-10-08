@@ -1,6 +1,3 @@
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Below target position count (1 of 8) with 88% cash idle - a clear decision to fix now. Added 6 new congress-disclosure backed names (GS, IBM, KO, NFLX, FWONK, ESE, PPG minus one to keep to 7 orders) at $3000 each to diversify sectors and hit min_positions, following the pattern that graded best in past_lessons_with_outcome (congress-disclosure entries at SURVIVOR 09-10h hour). Avoided PG/HD (cooldown) and pure momentum-only entries per guardrail; each name backed by concrete congress disclosure evidence and tagged accordingly, with protective stops set ~2.3% below entry on every new position.
 lesson: Congress-disclosure evidence across multiple sectors at the open hour has repeatedly graded well in past_lessons_with_outcome; keep deploying full budget across 7-8 names rather than sitting in one position with 88% cash idle.
   (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
@@ -398,3 +395,6 @@ lesson: Breadth entries backed by specific named congress/insider filings (not j
 ~ WORKING buy_limit $500.00 IBM @ $215.42 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25413.25 (+1.65% on $25000.00 in) · cash $23556.61 · realised +431.61
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $23152.67 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $222.69] -> $501.37 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-08 13:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders

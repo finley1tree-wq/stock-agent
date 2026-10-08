@@ -23285,3 +23285,6 @@ lesson: Breadth entries backed by specific named congress/insider filings (not j
 ~ WORKING buy_limit $500.00 IBM @ $215.42 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25413.25 (+1.65% on $25000.00 in) · cash $23556.61 · realised +431.61
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $23152.67 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $222.69] -> $501.37 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-08 13:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
