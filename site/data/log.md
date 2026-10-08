@@ -1,4 +1,3 @@
-
 ## 2026-10-06 11:29 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -398,3 +397,4 @@ lesson: At 15:45 with no_new_entries_this_check true and zero checks left today,
 portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realised +403.95
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-07 16:00 ET — published the session's closing state
